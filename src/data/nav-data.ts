@@ -68,7 +68,7 @@ export function getServiceMenuGroups(): NavServiceGroup[] {
 
 export function getCityMenuItems(): NavCityItem[] {
   return cities.map((city) => ({
-    name: `${city.name}, ${city.state}`,
+    name: `Roofing in ${city.name}`,
     slug: generateCityPageSlug(city.slug),
   }));
 }
