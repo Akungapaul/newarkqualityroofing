@@ -88,7 +88,7 @@ function ServicesMegaMenu({
   onClose: () => void;
 }) {
   return (
-    <div className="w-[720px] rounded-lg border border-border bg-parchment p-6 shadow-2xl">
+    <div className="max-h-[calc(100vh-5rem)] w-[720px] overflow-y-auto overscroll-contain rounded-lg border border-border bg-parchment p-6 shadow-2xl">
       <div className="grid grid-cols-2 gap-x-8 gap-y-5">
         {groups.map((group) => (
           <div key={group.category}>
