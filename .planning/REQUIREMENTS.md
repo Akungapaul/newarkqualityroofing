@@ -155,7 +155,7 @@
 
 ### Enhanced Lead Capture
 
-- **LEAD-V2-01**: Multi-step progressive form (step 1: service → step 2: details → step 3: contact)
+- **LEAD-V2-01**: Multi-step progressive form (step 1: service -> step 2: details -> step 3: contact)
 - **LEAD-V2-02**: Speed-to-lead automation via GoHighLevel workflows (instant auto-response)
 - **LEAD-V2-03**: Lead loss prevention with localStorage fallback
 
@@ -183,23 +183,121 @@
 | Payment processing | Leads only, no transactions |
 | Mobile app | Web only |
 | Multi-language support | English only |
-| Online quote calculator | Expectation mismatch — leads to bad estimates and lost trust |
+| Online quote calculator | Expectation mismatch -- leads to bad estimates and lost trust |
 | Live chat widget | Adds complexity without proven conversion benefit for roofing |
 | ISR / on-demand generation | User chose full SSG with split builds |
 
 ## Traceability
 
-Populated during roadmap creation.
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (To be filled by roadmapper) | | |
+| FNDN-01 | Phase 1 | Pending |
+| FNDN-02 | Phase 1 | Pending |
+| FNDN-03 | Phase 1 | Pending |
+| FNDN-04 | Phase 1 | Pending |
+| FNDN-05 | Phase 1 | Pending |
+| FNDN-06 | Phase 1 | Pending |
+| FNDN-07 | Phase 1 | Pending |
+| FNDN-08 | Phase 1 | Pending |
+| LEAD-01 | Phase 2 | Pending |
+| LEAD-02 | Phase 2 | Pending |
+| LEAD-03 | Phase 2 | Pending |
+| LEAD-04 | Phase 2 | Pending |
+| LEAD-05 | Phase 2 | Pending |
+| LEAD-06 | Phase 2 | Pending |
+| CORE-01 | Phase 2 | Pending |
+| CORE-02 | Phase 2 | Pending |
+| CORE-03 | Phase 2 | Pending |
+| CORE-04 | Phase 2 | Pending |
+| CORE-05 | Phase 2 | Pending |
+| CORE-06 | Phase 2 | Pending |
+| CORE-07 | Phase 2 | Pending |
+| CORE-08 | Phase 2 | Pending |
+| SRVC-01 | Phase 3 | Pending |
+| SRVC-02 | Phase 3 | Pending |
+| SRVC-03 | Phase 3 | Pending |
+| SRVC-04 | Phase 3 | Pending |
+| SRVC-05 | Phase 3 | Pending |
+| SRVC-06 | Phase 3 | Pending |
+| SRVC-07 | Phase 3 | Pending |
+| CONT-02 | Phase 3 | Pending |
+| CONT-03 | Phase 3 | Pending |
+| CONT-05 | Phase 3 | Pending |
+| CITY-01 | Phase 4 | Pending |
+| CITY-02 | Phase 4 | Pending |
+| CITY-03 | Phase 4 | Pending |
+| CITY-04 | Phase 4 | Pending |
+| CITY-05 | Phase 4 | Pending |
+| CITY-06 | Phase 4 | Pending |
+| CITY-07 | Phase 4 | Pending |
+| CITY-08 | Phase 4 | Pending |
+| LOCL-01 | Phase 4 | Pending |
+| LOCL-02 | Phase 4 | Pending |
+| LOCL-03 | Phase 4 | Pending |
+| LOCL-04 | Phase 4 | Pending |
+| CONT-04 | Phase 4 | Pending |
+| CMBO-01 | Phase 5 | Pending |
+| CMBO-02 | Phase 5 | Pending |
+| CMBO-03 | Phase 5 | Pending |
+| SEMA-06 | Phase 5 | Pending |
+| CMBO-04 | Phase 6 | Pending |
+| CMBO-05 | Phase 6 | Pending |
+| CMBO-06 | Phase 6 | Pending |
+| CMBO-07 | Phase 6 | Pending |
+| CMBO-08 | Phase 6 | Pending |
+| LINK-01 | Phase 6 | Pending |
+| LINK-02 | Phase 6 | Pending |
+| LINK-03 | Phase 6 | Pending |
+| LINK-04 | Phase 6 | Pending |
+| LINK-05 | Phase 6 | Pending |
+| LINK-06 | Phase 6 | Pending |
+| LINK-07 | Phase 6 | Pending |
+| LINK-08 | Phase 6 | Pending |
+| COMP-01 | Phase 7 | Pending |
+| COMP-02 | Phase 7 | Pending |
+| COMP-03 | Phase 7 | Pending |
+| COMP-04 | Phase 7 | Pending |
+| COMP-05 | Phase 7 | Pending |
+| COMP-06 | Phase 7 | Pending |
+| COMP-07 | Phase 7 | Pending |
+| ARTL-01 | Phase 7 | Pending |
+| ARTL-02 | Phase 7 | Pending |
+| ARTL-03 | Phase 7 | Pending |
+| ARTL-04 | Phase 7 | Pending |
+| ARTL-05 | Phase 7 | Pending |
+| SEOT-01 | Phase 8 | Pending |
+| SEOT-02 | Phase 8 | Pending |
+| SEOT-03 | Phase 8 | Pending |
+| SEOT-04 | Phase 8 | Pending |
+| SEOT-05 | Phase 8 | Pending |
+| SEOT-06 | Phase 8 | Pending |
+| SEOT-07 | Phase 8 | Pending |
+| SEOT-08 | Phase 8 | Pending |
+| SCHM-01 | Phase 8 | Pending |
+| SCHM-02 | Phase 8 | Pending |
+| SCHM-03 | Phase 8 | Pending |
+| SCHM-04 | Phase 8 | Pending |
+| SEMA-01 | Phase 8 | Pending |
+| SEMA-02 | Phase 8 | Pending |
+| SEMA-03 | Phase 8 | Pending |
+| SEMA-04 | Phase 8 | Pending |
+| SEMA-05 | Phase 8 | Pending |
+| SEMA-07 | Phase 8 | Pending |
+| DSGN-01 | Phase 9 | Pending |
+| DSGN-02 | Phase 9 | Pending |
+| DSGN-03 | Phase 9 | Pending |
+| DSGN-04 | Phase 9 | Pending |
+| DSGN-05 | Phase 9 | Pending |
+| DSGN-06 | Phase 9 | Pending |
+| DSGN-07 | Phase 9 | Pending |
+| DSGN-08 | Phase 9 | Pending |
+| CONT-01 | Phase 9 | Pending |
 
 **Coverage:**
-- v1 requirements: 75 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 75
+- v1 requirements: 101 total (corrected from initial estimate of 75)
+- Mapped to phases: 101
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-05*
-*Last updated: 2026-03-05 after research synthesis and user scoping*
+*Last updated: 2026-03-05 after roadmap creation -- traceability complete*
