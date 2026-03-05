@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 ## Current Position
 
 Phase: 1 of 9 (Foundation and Data Layer)
-Plan: 2 of 4 in current phase
+Plan: 3 of 4 in current phase
 Status: In progress
-Last activity: 2026-03-05 -- Completed 01-02-PLAN.md (Zod Schemas and Data Population)
+Last activity: 2026-03-05 -- Completed 01-03-PLAN.md (Slug Registry, Routing, and Templates)
 
-Progress: [██░░░░░░░░] 6% (2/35 plans)
+Progress: [███░░░░░░░] 9% (3/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2
-- Average duration: 4.5min
-- Total execution time: 0.15 hours
+- Total plans completed: 3
+- Average duration: 3.7min
+- Total execution time: 0.18 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01 | 2/4 | 9min | 4.5min |
+| 01 | 3/4 | 11min | 3.7min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (4min), 01-02 (5min)
-- Trend: Stable
+- Last 5 plans: 01-01 (4min), 01-02 (5min), 01-03 (2min)
+- Trend: Accelerating
 
 *Updated after each plan completion*
 
@@ -51,6 +51,9 @@ Recent decisions affecting current work:
 - [01-02]: Replacement-sub-pages trimmed to 15 (dropped TPO/EPDM Roof Replacement) to hit exactly 63 services
 - [01-02]: All data validated at module level with z.array(Schema).parse() -- build crashes on invalid data
 - [01-02]: Residential/commercial flags set on all 63 services
+- [01-03]: City pages use "roofing-in-{city}-nj" slug pattern to avoid service slug collisions
+- [01-03]: dynamicParams = false for strict 404 on unknown slugs
+- [01-03]: Combo metaTitle has cascading truncation (full brand > abbreviated > none) to stay under 70 chars
 
 ### Pending Todos
 
@@ -65,5 +68,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-05
-Stopped at: Completed 01-02-PLAN.md
+Stopped at: Completed 01-03-PLAN.md
 Resume file: None
