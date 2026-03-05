@@ -7,14 +7,14 @@
 
 ### Foundation & Data Layer
 
-- [ ] **FNDN-01**: Next.js 15 project with TypeScript, Tailwind CSS v4, deployed on Vercel
-- [ ] **FNDN-02**: Zod-validated data schemas for services (63), cities (21), and cross-product combos (1,323)
-- [ ] **FNDN-03**: Slug registry with build-time collision detection for all ~1,697 flat URLs
-- [ ] **FNDN-04**: Single catch-all `[slug]` route with dispatcher resolving to correct template
-- [ ] **FNDN-05**: Full SSG with Vercel split builds for all ~1,697 pages
-- [ ] **FNDN-06**: Cormorant (headings) + Cormorant Garamond (body) fonts via next/font
-- [ ] **FNDN-07**: Editorial Trust design system — forest green (#1A3A2A), copper (#C17F4E), parchment (#F5F0E8) palette with CSS variables
-- [ ] **FNDN-08**: Mobile-responsive, conversion-optimized layout
+- [x] **FNDN-01**: Next.js 15 project with TypeScript, Tailwind CSS v4, deployed on Vercel
+- [x] **FNDN-02**: Zod-validated data schemas for services (63), cities (21), and cross-product combos (1,323)
+- [x] **FNDN-03**: Slug registry with build-time collision detection for all ~1,697 flat URLs
+- [x] **FNDN-04**: Single catch-all `[slug]` route with dispatcher resolving to correct template
+- [x] **FNDN-05**: Full SSG with Vercel split builds for all ~1,697 pages
+- [x] **FNDN-06**: Cormorant (headings) + Cormorant Garamond (body) fonts via next/font
+- [x] **FNDN-07**: Editorial Trust design system — forest green (#1A3A2A), copper (#C17F4E), parchment (#F5F0E8) palette with CSS variables
+- [x] **FNDN-08**: Mobile-responsive, conversion-optimized layout
 
 ### Lead Capture
 

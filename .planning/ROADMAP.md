@@ -12,7 +12,7 @@ This roadmap delivers a conversion-first roofing lead generation website targeti
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation and Data Layer** - Next.js project, design system, data schemas, slug registry, catch-all dispatcher
+- [x] **Phase 1: Foundation and Data Layer** - Next.js project, design system, data schemas, slug registry, catch-all dispatcher
 - [ ] **Phase 2: Lead Capture and Core Pages** - Lead form, GoHighLevel integration, homepage, about, contact, hub pages, thank you, privacy
 - [ ] **Phase 3: Service Pages** - Service template, 63 services with residential/commercial content, related services linking
 - [ ] **Phase 4: City Pages and Local SEO** - City template, 21 cities with unique local content, map embeds, NAP consistency
@@ -37,10 +37,10 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 4 plans
 
 Plans:
-- [ ] 01-01-PLAN.md -- Next.js 16 project setup with TypeScript, Tailwind v4 @theme design tokens, Cormorant fonts
-- [ ] 01-02-PLAN.md -- Zod schemas + all 63 services, 21 cities, 30 comparisons, core pages data
-- [ ] 01-03-PLAN.md -- Slug registry with collision detection, combo generation, catch-all [slug] dispatcher with SSG
-- [ ] 01-04-PLAN.md -- Sticky header with navigation dropdowns, mega-footer, mobile menu, responsive layout shell
+- [x] 01-01-PLAN.md -- Next.js 16 project setup with TypeScript, Tailwind v4 @theme design tokens, Cormorant fonts
+- [x] 01-02-PLAN.md -- Zod schemas + all 63 services, 21 cities, 30 comparisons, core pages data
+- [x] 01-03-PLAN.md -- Slug registry with collision detection, combo generation, catch-all [slug] dispatcher with SSG
+- [x] 01-04-PLAN.md -- Sticky header with navigation dropdowns, mega-footer, mobile menu, responsive layout shell
 
 ### Phase 2: Lead Capture and Core Pages
 **Goal**: Visitors can submit leads from any page and reach a human via click-to-call, with all core informational pages live
@@ -192,7 +192,7 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and Data Layer | 0/4 | Planned | - |
+| 1. Foundation and Data Layer | 4/4 | Complete | 2026-03-05 |
 | 2. Lead Capture and Core Pages | 0/5 | Not started | - |
 | 3. Service Pages | 0/4 | Not started | - |
 | 4. City Pages and Local SEO | 0/3 | Not started | - |
@@ -204,4 +204,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-05*
+*Last updated: 2026-03-05 — Phase 1 complete*
