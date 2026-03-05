@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Editorial Trust Color Palette */
+  --color-forest: #1A3A2A;
+  --color-forest-light: #2A5A3A;
+  --color-forest-dark: #0F2218;
+  --color-copper: #C17F4E;
+  --color-copper-light: #D4A574;
+  --color-copper-dark: #A66A3A;
+  --color-parchment: #F5F0E8;
+  --color-parchment-dark: #E8E0D0;
+  --color-parchment-light: #FAF8F4;
+
+  /* Semantic colors */
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A4A4A;
+  --color-text-on-dark: #F5F0E8;
+  --color-text-on-copper: #FFFFFF;
+  --color-border: #D4CFC4;
+
+  /* Typography -- connected to next/font CSS variables */
+  --font-heading: var(--font-cormorant), serif;
+  --font-body: var(--font-cormorant-garamond), serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Base layer styles */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  background-color: var(--color-parchment);
+  color: var(--color-text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background-color: var(--color-copper);
+  color: var(--color-parchment);
 }
