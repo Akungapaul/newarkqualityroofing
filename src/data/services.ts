@@ -130,8 +130,20 @@ const rawServices: Service[] = [
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // RESIDENTIAL ROOF TYPES (8)
+  // RESIDENTIAL ROOF TYPES (9)
   // ═══════════════════════════════════════════════════════════════════════════
+  {
+    id: 'residential-roof-installation',
+    name: 'Residential Roof Installation',
+    slug: 'residential-roof-installation',
+    category: 'residential-roof-types',
+    parentId: null,
+    isResidential: true,
+    isCommercial: false,
+    shortDescription: 'Complete residential roof installation for new construction and full replacements across Essex County homes.',
+    metaTitle: 'Residential Roof Installation Newark NJ',
+    metaDescription: 'Residential roof installation in Newark and Essex County NJ. New construction and replacement roofing for homes. Licensed, insured, free estimates.',
+  },
   {
     id: 'asphalt-shingle-roofing',
     name: 'Asphalt Shingle Roofing',
@@ -454,7 +466,7 @@ const rawServices: Service[] = [
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // ENERGY & SOLAR (4)
+  // ENERGY & SOLAR (5)
   // ═══════════════════════════════════════════════════════════════════════════
   {
     id: 'solar-panel-roofing-installation',
@@ -503,6 +515,18 @@ const rawServices: Service[] = [
     shortDescription: 'Reflective silicone roof coatings to restore aging roofs and improve energy efficiency without replacement.',
     metaTitle: 'Silicone Roof Coating Newark NJ',
     metaDescription: 'Silicone roof coating in Newark NJ. Restore and protect commercial roofs with reflective UV-resistant silicone coatings.',
+  },
+  {
+    id: 'silicone-elastomeric-roof-coating',
+    name: 'Silicone Elastomeric Roof Coating',
+    slug: 'silicone-elastomeric-roof-coating',
+    category: 'energy-solar',
+    parentId: null,
+    isResidential: false,
+    isCommercial: true,
+    shortDescription: 'Elastomeric silicone coatings that stretch and seal to protect flat and low-slope commercial roofs from leaks and UV damage.',
+    metaTitle: 'Elastomeric Roof Coating Newark NJ',
+    metaDescription: 'Silicone elastomeric roof coating in Newark NJ. Flexible, waterproof coating for commercial flat roofs. Extends roof life 15+ years.',
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
