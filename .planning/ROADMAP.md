@@ -34,13 +34,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Build-time validation catches and rejects duplicate slugs across all page types
   4. Cormorant headings and Cormorant Garamond body text render correctly on all pages
   5. The forest green / copper / parchment color palette is applied site-wide via CSS variables
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 01-01: Next.js 15 project setup with TypeScript, Tailwind v4, Vercel deployment
-- [ ] 01-02: Data schemas (Zod), services/cities/combos data files, slug registry with collision detection
-- [ ] 01-03: Catch-all route dispatcher, SSG configuration, design system tokens and typography
-- [ ] 01-04: Mobile-responsive base layout (header, footer, responsive shell)
+- [ ] 01-01-PLAN.md -- Next.js 16 project setup with TypeScript, Tailwind v4 @theme design tokens, Cormorant fonts
+- [ ] 01-02-PLAN.md -- Zod schemas + all 63 services, 21 cities, 30 comparisons, core pages data
+- [ ] 01-03-PLAN.md -- Slug registry with collision detection, combo generation, catch-all [slug] dispatcher with SSG
+- [ ] 01-04-PLAN.md -- Sticky header with navigation dropdowns, mega-footer, mobile menu, responsive layout shell
 
 ### Phase 2: Lead Capture and Core Pages
 **Goal**: Visitors can submit leads from any page and reach a human via click-to-call, with all core informational pages live
@@ -192,7 +192,7 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and Data Layer | 0/4 | Not started | - |
+| 1. Foundation and Data Layer | 0/4 | Planned | - |
 | 2. Lead Capture and Core Pages | 0/5 | Not started | - |
 | 3. Service Pages | 0/4 | Not started | - |
 | 4. City Pages and Local SEO | 0/3 | Not started | - |
