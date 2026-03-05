@@ -52,14 +52,14 @@ Plans:
   3. The homepage displays hero with form, trust bar, services grid, residential/commercial split, locations grid, testimonials, and FAQ
   4. All 8 core pages (home, about, contact, services hub, locations hub, HTML sitemap, thank you, privacy) are accessible and render complete content
   5. Server-side logging captures every form submission for lead loss prevention
-**Plans**: TBD
+**Plans**: 5 plans
 
 Plans:
-- [ ] 02-01: LeadForm component with React Hook Form + Zod validation, above-the-fold placement
-- [ ] 02-02: Server-side API route for GoHighLevel webhook proxy with fallback logging
-- [ ] 02-03: Click-to-call component, phone tracking integration, thank you page
-- [ ] 02-04: Homepage template (hero, trust bar, services grid, locations grid, testimonials, FAQ)
-- [ ] 02-05: Core pages (about, contact with map, services hub, locations hub, HTML sitemap, privacy)
+- [ ] 02-01-PLAN.md -- Lead form foundation: Server Action, LeadForm component, PhoneNumber, data files (site-config, testimonials, FAQ)
+- [ ] 02-02-PLAN.md -- Homepage with hero + form, trust bar, services grid, testimonials, locations grid, FAQ accordion
+- [ ] 02-03-PLAN.md -- Thank-you page and phone number integration into sticky header
+- [ ] 02-04-PLAN.md -- About page and Contact page with map embed, CoreTemplate dispatcher update
+- [ ] 02-05-PLAN.md -- Services hub, Locations hub, HTML sitemap, Privacy policy, final CoreTemplate wiring
 
 ### Phase 3: Service Pages
 **Goal**: All 63 service pages are live with full-length content covering both residential and commercial audiences
@@ -204,4 +204,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-05 — Phase 1 complete*
+*Last updated: 2026-03-05 -- Phase 2 planned*
