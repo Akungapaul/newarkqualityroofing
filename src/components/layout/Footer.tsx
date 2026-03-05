@@ -115,7 +115,7 @@ export function Footer() {
                     href={`/${city.slug}`}
                     className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                   >
-                    {city.name}, {city.state}
+                    Roofing in {city.name}
                   </Link>
                 </li>
               ))}
