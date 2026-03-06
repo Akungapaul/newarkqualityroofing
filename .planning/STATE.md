@@ -12,26 +12,26 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 Phase: 2 of 9 (Lead Capture and Core Pages)
 Plan: 4 of 5 in current phase
 Status: In progress
-Last activity: 2026-03-06 -- Completed 02-04-PLAN.md (About and Contact Pages)
+Last activity: 2026-03-06 -- Completed 02-03-PLAN.md (Thank-You Page and Header Phone)
 
-Progress: [██████░░░░] 17% (6/35 plans)
+Progress: [██████░░░░] 20% (7/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
-- Average duration: 3.0min
-- Total execution time: 0.30 hours
+- Total plans completed: 7
+- Average duration: 2.9min
+- Total execution time: 0.33 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01 | 4/4 | 14min | 3.5min |
-| 02 | 2/5 | 4min | 2min |
+| 02 | 3/5 | 6min | 2min |
 
 **Recent Trend:**
-- Last 5 plans: 01-03 (2min), 01-04 (3min), 02-01 (2min), 02-04 (2min)
+- Last 5 plans: 01-04 (3min), 02-01 (2min), 02-03 (2min), 02-04 (2min)
 - Trend: Consistent ~2-3min per plan
 
 *Updated after each plan completion*
@@ -61,6 +61,8 @@ Recent decisions affecting current work:
 - [02-01]: serviceGroups passed as prop to LeadForm (keeps Zod out of client bundle)
 - [02-01]: PhoneNumber is a server component (reads env at build, no interactivity)
 - [02-01]: Added !.env.example exception to .gitignore (.env* was too broad)
+- [02-03]: Phone data passed as props (phoneDisplay/phoneTel) to client Header -- keeps siteConfig out of client bundle
+- [02-03]: Desktop phone visible at lg+ breakpoint only to avoid header crowding on tablets
 - [02-04]: CoreTemplate uses minimal switch (only about/contact cases) to avoid merge conflicts with parallel 02-05
 - [02-04]: ContactPage calls getServiceMenuGroups() directly as server component (no prop-drilling needed)
 
@@ -93,9 +95,11 @@ None yet.
 - AboutPage: hero, story, values, credentials, team, community, CTA sections
 - ContactPage: LeadForm, contact info card, Google Maps iframe, emergency banner
 - CoreTemplate dispatcher routing about/contact to dedicated page components
+- Thank-you page at /thank-you with noindex, 3-step timeline, emergency phone CTA
+- Phone number in sticky header (desktop lg+) and mobile menu (click-to-call button)
 
 ## Session Continuity
 
 Last session: 2026-03-06
-Stopped at: Completed 02-04-PLAN.md
+Stopped at: Completed 02-03-PLAN.md
 Resume file: None
