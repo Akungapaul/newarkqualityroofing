@@ -113,27 +113,27 @@ export const LeadFormSchema = z.object({
 
 export const ServiceContentSchema = z.object({
   serviceId: z.string(),
-  overview: z.array(z.string()).min(2).max(3),
+  overview: z.array(z.string()).min(2).max(5),
   signsHeading: z.string(),
-  signs: z.array(z.string()).min(4).max(8),
+  signs: z.array(z.string()).min(4).max(10),
   approachHeading: z.string(),
-  approachContent: z.array(z.string()).min(2).max(4),
+  approachContent: z.array(z.string()).min(2).max(5),
   residential: z.object({
     heading: z.string(),
-    content: z.array(z.string()).min(2).max(4),
+    content: z.array(z.string()).min(2).max(5),
     ctaLabel: z.string(),
   }),
   commercial: z.object({
     heading: z.string(),
-    content: z.array(z.string()).min(2).max(4),
+    content: z.array(z.string()).min(2).max(5),
     ctaLabel: z.string(),
   }),
   processSteps: z.array(z.object({
     title: z.string(),
     description: z.string(),
-  })).min(4).max(7),
+  })).min(4).max(8),
   faqs: z.array(z.object({
     question: z.string(),
     answer: z.string(),
-  })).min(4).max(6),
+  })).min(4).max(8),
 });
