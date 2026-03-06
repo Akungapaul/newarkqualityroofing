@@ -5,33 +5,34 @@
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 1 complete -- ready for Phase 2 (Lead Generation and Conversion)
+**Current focus:** Phase 2 in progress -- Lead Capture and Core Pages
 
 ## Current Position
 
-Phase: 1 of 9 (Foundation and Data Layer) -- COMPLETE
-Plan: 4 of 4 in current phase
-Status: Phase complete
-Last activity: 2026-03-05 -- Completed 01-04-PLAN.md (Layout Shell, Navigation, and Deployment)
+Phase: 2 of 9 (Lead Capture and Core Pages)
+Plan: 1 of 5 in current phase
+Status: In progress
+Last activity: 2026-03-06 -- Completed 02-01-PLAN.md (Lead Capture Foundation)
 
-Progress: [████░░░░░░] 11% (4/35 plans)
+Progress: [█████░░░░░] 14% (5/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
-- Average duration: 3.5min
-- Total execution time: 0.23 hours
+- Total plans completed: 5
+- Average duration: 3.3min
+- Total execution time: 0.27 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01 | 4/4 | 14min | 3.5min |
+| 02 | 1/5 | 2min | 2min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (4min), 01-02 (5min), 01-03 (2min), 01-04 (3min)
-- Trend: Consistent ~3-4min per plan
+- Last 5 plans: 01-02 (5min), 01-03 (2min), 01-04 (3min), 02-01 (2min)
+- Trend: Consistent ~2-4min per plan
 
 *Updated after each plan completion*
 
@@ -57,6 +58,9 @@ Recent decisions affecting current work:
 - [01-04]: Server/client nav-data split (Approach B) -- layout.tsx calls nav-data functions on server, passes serialized props to client Header, preventing Zod from client bundle
 - [01-04]: GitHub repo public at Akungapaul/newarkqualityroofing with Vercel auto-deploy connected
 - [01-04]: Empty commit pattern for infrastructure-only tasks (deployment milestone)
+- [02-01]: serviceGroups passed as prop to LeadForm (keeps Zod out of client bundle)
+- [02-01]: PhoneNumber is a server component (reads env at build, no interactivity)
+- [02-01]: Added !.env.example exception to .gitignore (.env* was too broad)
 
 ### Pending Todos
 
@@ -66,7 +70,6 @@ None yet.
 
 - City-specific data (neighborhoods, building codes, weather) for 21 cities needs research before Phase 4
 - Photo asset library (50-100 curated stock images) needs sourcing before Phase 9
-- Residential/commercial service classification for 63 services -- RESOLVED in 01-02
 
 ### Phase 1 Deliverables (Complete)
 
@@ -77,8 +80,17 @@ None yet.
 - Live on Vercel: https://newarkqualityroofing.vercel.app (1,448 static pages)
 - GitHub: https://github.com/Akungapaul/newarkqualityroofing
 
+### Phase 2 Deliverables (In Progress)
+
+- LeadForm component with useActionState, 4 validated fields, optgroup service dropdown
+- SubmitButton with useFormStatus pending state
+- PhoneNumber click-to-call server component
+- Server Action with GHL webhook proxy and structured logging
+- Site config, testimonials (6), FAQ (8) data files
+- .env.example template
+
 ## Session Continuity
 
-Last session: 2026-03-05
-Stopped at: Completed 01-04-PLAN.md (Phase 1 complete)
+Last session: 2026-03-06
+Stopped at: Completed 02-01-PLAN.md
 Resume file: None
