@@ -99,3 +99,12 @@ export const SlugEntrySchema = z.object({
   comparisonId: z.string().optional(),
   corePageId: z.string().optional(),
 });
+
+// ─── Lead Form ──────────────────────────────────────────────────────────────
+
+export const LeadFormSchema = z.object({
+  name: z.string().min(2, 'Name is required'),
+  email: z.string().email('Valid email is required'),
+  phone: z.string().min(10, 'Valid phone number is required'),
+  serviceNeeded: z.string().min(1, 'Please select a service'),
+});
