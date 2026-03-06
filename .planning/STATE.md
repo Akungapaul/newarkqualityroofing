@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 3 gap closure complete -- moving to Phase 4 (City Pages)
+**Current focus:** Phase 3 gap closure complete -- all 65 services at 2,000+ words, moving to Phase 4 (City Pages)
 
 ## Current Position
 
-Phase: 3 of 9 (Service Pages) -- COMPLETE (including gap closure)
-Plan: 09 (gap closure plan for Phase 3)
+Phase: 3 of 9 (Service Pages) -- COMPLETE (including all gap closure)
+Plan: 05 (second gap closure plan for Phase 3)
 Status: Phase complete
-Last activity: 2026-03-06 -- Completed 03-09-PLAN.md (gap closure)
+Last activity: 2026-03-06 -- Completed 03-05-PLAN.md (repair-maintenance gap closure)
 
-Progress: [████████████████░] 43% (15/35 plans)
+Progress: [█████████████████░] 46% (16/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 15
-- Average duration: 5.7min
-- Total execution time: 2.06 hours
+- Total plans completed: 16
+- Average duration: 5.9min
+- Total execution time: 2.25 hours
 
 **By Phase:**
 
@@ -29,10 +29,10 @@ Progress: [████████████████░] 43% (15/35 plans
 |-------|-------|-------|----------|
 | 01 | 4/4 | 14min | 3.5min |
 | 02 | 5/5 | 14min | 2.8min |
-| 03 | 5/5 | 96.5min | 19.3min |
+| 03 | 6/6 | 107.5min | 17.9min |
 
 **Recent Trend:**
-- Last 5 plans: 03-01 (3.5min), 03-03 (8min), 03-02 (28min), 03-04 (49min), 03-09 (8min)
+- Last 5 plans: 03-03 (8min), 03-02 (28min), 03-04 (49min), 03-09 (8min), 03-05 (11min)
 - Trend: Gap closure plans are fast -- targeted expansions rather than full content generation
 
 *Updated after each plan completion*
@@ -81,6 +81,8 @@ Recent decisions affecting current work:
 - [03-04]: Content density prioritized quality over padding -- 32K+ words across 15 replacement services
 - [03-09]: All 13 services across commercial, energy/solar, design/consultation files expanded to 2,000+ words
 - [03-09]: Essex County localization and NJ-specific regulations woven naturally into expanded content
+- [03-05]: All 10 repair/maintenance services expanded to 2,000+ words with local geography, insurance, and seasonal content
+- [03-05]: Added extra FAQs and signs entries where additional word count was needed rather than padding paragraphs
 
 ### Pending Todos
 
@@ -127,10 +129,10 @@ None yet.
 - getServiceContent() with Map-based O(1) lookup
 - Content categories: repair-maintenance (10), residential-roof-types (9), commercial-roof-types (8), components-specialty (10), energy-solar (5), commercial-services (5), design-consultation (3), replacement-sub-pages (15)
 - All 65 service pages render full, validated content -- no placeholder text
-- All 65 services at 2,000+ words after gap closure (03-09)
+- All 65 services at 2,000+ words after gap closure (03-09, 03-05)
 
 ## Session Continuity
 
 Last session: 2026-03-06
-Stopped at: Completed 03-09-PLAN.md (Phase 3 gap closure complete)
+Stopped at: Completed 03-05-PLAN.md (repair-maintenance gap closure)
 Resume file: None
