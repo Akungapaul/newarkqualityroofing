@@ -2,7 +2,7 @@
 
 ## Overview
 
-This roadmap delivers a conversion-first roofing lead generation website targeting ~1,697 pages across 63 services, 21 Essex County cities, and their cross-product combinations. The build progresses from data foundation through templates, content differentiation at scale, and SEO infrastructure -- with lead capture functional from Phase 2 onward. Every phase produces a verifiable, working capability that builds toward the goal: every page converts visitors into roofing leads.
+This roadmap delivers a conversion-first roofing lead generation website targeting ~1,697 pages across 65 services, 21 Essex County cities, and their cross-product combinations. The build progresses from data foundation through templates, content differentiation at scale, and SEO infrastructure -- with lead capture functional from Phase 2 onward. Every phase produces a verifiable, working capability that builds toward the goal: every page converts visitors into roofing leads.
 
 ## Phases
 
@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation and Data Layer** - Next.js project, design system, data schemas, slug registry, catch-all dispatcher
 - [x] **Phase 2: Lead Capture and Core Pages** - Lead form, GoHighLevel integration, homepage, about, contact, hub pages, thank you, privacy
-- [ ] **Phase 3: Service Pages** - Service template, 63 services with residential/commercial content, related services linking
+- [x] **Phase 3: Service Pages** - Service template, 65 services with residential/commercial content, related services linking
 - [ ] **Phase 4: City Pages and Local SEO** - City template, 21 cities with unique local content, map embeds, NAP consistency
 - [ ] **Phase 5: Content Differentiation Engine** - Content variation system, city data matrix, similarity validation for combo pages
 - [ ] **Phase 6: Programmatic Scale** - 1,323 combo pages, reverse silo internal linking engine, full site navigation
@@ -61,23 +61,28 @@ Plans:
 - [x] 02-04-PLAN.md -- About page and Contact page with map embed, CoreTemplate dispatcher update
 - [x] 02-05-PLAN.md -- Services hub, Locations hub, HTML sitemap, Privacy policy, final CoreTemplate wiring
 
-### Phase 3: Service Pages
-**Goal**: All 63 service pages are live with full-length content covering both residential and commercial audiences
+### Phase 3: Service Pages (COMPLETE)
+**Goal**: All 65 service pages are live with full-length content covering both residential and commercial audiences
 **Depends on**: Phase 2
 **Requirements**: SRVC-01, SRVC-02, SRVC-03, SRVC-04, SRVC-05, SRVC-06, SRVC-07, CONT-02, CONT-03, CONT-05
 **Success Criteria** (what must be TRUE):
-  1. All 63 service pages render with 2,000+ words, H1/H2/H3 keyword hierarchy, and residential AND commercial sections
+  1. All 65 service pages render with 2,000+ words, H1/H2/H3 keyword hierarchy, and residential AND commercial sections
   2. Each service page has a lead form above the fold in the hero section
   3. Each service page displays a related services block linking to other services in the same category
   4. Breadcrumbs show Home > Services > [Service Name] on every service page
   5. Commercial-specific services (commercial install, repair, replacement, thermal imaging, infrared detection) have dedicated pages with B2B-appropriate language
-**Plans**: 4 plans
+**Plans**: 9 plans (4 original + 5 gap closure)
 
 Plans:
-- [ ] 03-01-PLAN.md -- ServiceTemplate component with split hero, 10 section components, sticky sidebar, breadcrumbs, floating CTA
-- [ ] 03-02-PLAN.md -- Content population: repair/maintenance (10), residential roof types (8), commercial roof types (8)
-- [ ] 03-03-PLAN.md -- Content population: components/specialty (10), energy/solar (4), commercial services (5), design/consultation (3)
-- [ ] 03-04-PLAN.md -- Replacement sub-pages (15), content index with Zod validation, full integration of all 63 services
+- [x] 03-01-PLAN.md -- ServiceTemplate component with split hero, 10 section components, sticky sidebar, breadcrumbs, floating CTA
+- [x] 03-02-PLAN.md -- Content population: repair/maintenance (10), residential roof types (9), commercial roof types (8)
+- [x] 03-03-PLAN.md -- Content population: components/specialty (10), energy/solar (5), commercial services (5), design/consultation (3)
+- [x] 03-04-PLAN.md -- Replacement sub-pages (15), content index with Zod validation, full integration of all 65 services
+- [x] 03-05-PLAN.md -- Gap closure: expand repair/maintenance content (10 services) to 2,000+ words
+- [x] 03-06-PLAN.md -- Gap closure: expand components/specialty content (10 services) to 2,000+ words
+- [x] 03-07-PLAN.md -- Gap closure: expand residential roof types content (9 services) to 2,000+ words
+- [x] 03-08-PLAN.md -- Gap closure: expand commercial roof types content (8 services) to 2,000+ words
+- [x] 03-09-PLAN.md -- Gap closure: expand commercial services (5), energy/solar (4), design/consultation (2) to 2,000+ words
 
 ### Phase 4: City Pages and Local SEO
 **Goal**: All 21 Essex County city pages are live with genuinely unique local content, map embeds, and consistent NAP data
@@ -194,7 +199,7 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 |-------|----------------|--------|-----------|
 | 1. Foundation and Data Layer | 4/4 | Complete | 2026-03-05 |
 | 2. Lead Capture and Core Pages | 5/5 | Complete | 2026-03-06 |
-| 3. Service Pages | 0/4 | Not started | - |
+| 3. Service Pages | 9/9 | Complete | 2026-03-06 |
 | 4. City Pages and Local SEO | 0/3 | Not started | - |
 | 5. Content Differentiation Engine | 0/3 | Not started | - |
 | 6. Programmatic Scale | 0/4 | Not started | - |
@@ -204,4 +209,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-06 -- Phase 3 planned (4 plans in 3 waves)*
+*Last updated: 2026-03-06 -- Phase 3 complete (all 65 services at 2,000+ words)*

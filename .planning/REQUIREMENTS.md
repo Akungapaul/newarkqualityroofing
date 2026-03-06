@@ -38,13 +38,13 @@
 
 ### Page Templates — Service Pages (63)
 
-- [ ] **SRVC-01**: Service page template with H1 primary keyword, H2 secondary keywords, H3 long-tail/FAQ
-- [ ] **SRVC-02**: 2,000+ words per service page with residential AND commercial sections
-- [ ] **SRVC-03**: Lead form above the fold in hero section
-- [ ] **SRVC-04**: Related services block (internal linking)
-- [ ] **SRVC-05**: Service-specific FAQ section
-- [ ] **SRVC-06**: Breadcrumbs (Home > Services > [Service Name])
-- [ ] **SRVC-07**: All 63 services populated: repair/maintenance (10), residential roof types (8), commercial roof types (8), components/specialty (10), energy/solar (4), commercial services (5), design/consultation (3), replacement sub-pages (17 — reduced from 18, excluding duplicate)
+- [x] **SRVC-01**: Service page template with H1 primary keyword, H2 secondary keywords, H3 long-tail/FAQ
+- [x] **SRVC-02**: 2,000+ words per service page with residential AND commercial sections
+- [x] **SRVC-03**: Lead form above the fold in hero section
+- [x] **SRVC-04**: Related services block (internal linking)
+- [x] **SRVC-05**: Service-specific FAQ section
+- [x] **SRVC-06**: Breadcrumbs (Home > Services > [Service Name])
+- [x] **SRVC-07**: All 63 services populated: repair/maintenance (10), residential roof types (8), commercial roof types (8), components/specialty (10), energy/solar (4), commercial services (5), design/consultation (3), replacement sub-pages (17 — reduced from 18, excluding duplicate)
 
 ### Page Templates — City Pages (21)
 
@@ -146,10 +146,10 @@
 ### Content — Residential/Commercial Split
 
 - [ ] **CONT-01**: Homepage addresses both homeowners and business owners equally
-- [ ] **CONT-02**: Service pages have residential AND commercial sections
-- [ ] **CONT-03**: Commercial-specific service pages (commercial install, repair, replacement, thermal imaging, infrared detection)
+- [x] **CONT-02**: Service pages have residential AND commercial sections
+- [x] **CONT-03**: Commercial-specific service pages (commercial install, repair, replacement, thermal imaging, infrared detection)
 - [ ] **CONT-04**: City pages cover both residential and commercial roofing needs
-- [ ] **CONT-05**: Different CTA language for residential vs commercial audiences
+- [x] **CONT-05**: Different CTA language for residential vs commercial audiences
 
 ## v2 Requirements
 
@@ -213,16 +213,16 @@
 | CORE-06 | Phase 2 | Pending |
 | CORE-07 | Phase 2 | Pending |
 | CORE-08 | Phase 2 | Pending |
-| SRVC-01 | Phase 3 | Pending |
-| SRVC-02 | Phase 3 | Pending |
-| SRVC-03 | Phase 3 | Pending |
-| SRVC-04 | Phase 3 | Pending |
-| SRVC-05 | Phase 3 | Pending |
-| SRVC-06 | Phase 3 | Pending |
-| SRVC-07 | Phase 3 | Pending |
-| CONT-02 | Phase 3 | Pending |
-| CONT-03 | Phase 3 | Pending |
-| CONT-05 | Phase 3 | Pending |
+| SRVC-01 | Phase 3 | Complete |
+| SRVC-02 | Phase 3 | Complete |
+| SRVC-03 | Phase 3 | Complete |
+| SRVC-04 | Phase 3 | Complete |
+| SRVC-05 | Phase 3 | Complete |
+| SRVC-06 | Phase 3 | Complete |
+| SRVC-07 | Phase 3 | Complete |
+| CONT-02 | Phase 3 | Complete |
+| CONT-03 | Phase 3 | Complete |
+| CONT-05 | Phase 3 | Complete |
 | CITY-01 | Phase 4 | Pending |
 | CITY-02 | Phase 4 | Pending |
 | CITY-03 | Phase 4 | Pending |
