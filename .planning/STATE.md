@@ -12,27 +12,27 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 Phase: 2 of 9 (Lead Capture and Core Pages)
 Plan: 4 of 5 in current phase
 Status: In progress
-Last activity: 2026-03-06 -- Completed 02-03-PLAN.md (Thank-You Page and Header Phone)
+Last activity: 2026-03-06 -- Completed 02-02-PLAN.md (Homepage Sections)
 
-Progress: [██████░░░░] 20% (7/35 plans)
+Progress: [████████░░] 23% (8/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 7
+- Total plans completed: 8
 - Average duration: 2.9min
-- Total execution time: 0.33 hours
+- Total execution time: 0.39 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01 | 4/4 | 14min | 3.5min |
-| 02 | 3/5 | 6min | 2min |
+| 02 | 4/5 | 10min | 2.5min |
 
 **Recent Trend:**
-- Last 5 plans: 01-04 (3min), 02-01 (2min), 02-03 (2min), 02-04 (2min)
-- Trend: Consistent ~2-3min per plan
+- Last 5 plans: 02-01 (2min), 02-03 (2min), 02-04 (2min), 02-02 (4min)
+- Trend: Consistent ~2-4min per plan
 
 *Updated after each plan completion*
 
@@ -65,6 +65,8 @@ Recent decisions affecting current work:
 - [02-03]: Desktop phone visible at lg+ breakpoint only to avoid header crowding on tablets
 - [02-04]: CoreTemplate uses minimal switch (only about/contact cases) to avoid merge conflicts with parallel 02-05
 - [02-04]: ContactPage calls getServiceMenuGroups() directly as server component (no prop-drilling needed)
+- [02-02]: ServicesGrid shows one representative service per category on homepage (not all 63)
+- [02-02]: HeroSection calls getServiceMenuGroups() internally as server component
 
 ### Pending Todos
 
@@ -97,9 +99,10 @@ None yet.
 - CoreTemplate dispatcher routing about/contact to dedicated page components
 - Thank-you page at /thank-you with noindex, 3-step timeline, emergency phone CTA
 - Phone number in sticky header (desktop lg+) and mobile menu (click-to-call button)
+- Full homepage: Hero+LeadForm, TrustBar, ServicesGrid (residential/commercial), TestimonialCarousel, LocationsGrid (21 cities), FaqAccordion, final CTA
 
 ## Session Continuity
 
 Last session: 2026-03-06
-Stopped at: Completed 02-03-PLAN.md
+Stopped at: Completed 02-02-PLAN.md
 Resume file: None
