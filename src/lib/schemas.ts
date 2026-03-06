@@ -135,5 +135,5 @@ export const ServiceContentSchema = z.object({
   faqs: z.array(z.object({
     question: z.string(),
     answer: z.string(),
-  })).min(4).max(8),
+  })).min(4).max(10),
 });
