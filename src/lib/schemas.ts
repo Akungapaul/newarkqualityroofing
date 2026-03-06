@@ -108,3 +108,32 @@ export const LeadFormSchema = z.object({
   phone: z.string().min(10, 'Valid phone number is required'),
   serviceNeeded: z.string().min(1, 'Please select a service'),
 });
+
+// ─── Service Content ────────────────────────────────────────────────────────
+
+export const ServiceContentSchema = z.object({
+  serviceId: z.string(),
+  overview: z.array(z.string()).min(2).max(3),
+  signsHeading: z.string(),
+  signs: z.array(z.string()).min(4).max(8),
+  approachHeading: z.string(),
+  approachContent: z.array(z.string()).min(2).max(4),
+  residential: z.object({
+    heading: z.string(),
+    content: z.array(z.string()).min(2).max(4),
+    ctaLabel: z.string(),
+  }),
+  commercial: z.object({
+    heading: z.string(),
+    content: z.array(z.string()).min(2).max(4),
+    ctaLabel: z.string(),
+  }),
+  processSteps: z.array(z.object({
+    title: z.string(),
+    description: z.string(),
+  })).min(4).max(7),
+  faqs: z.array(z.object({
+    question: z.string(),
+    answer: z.string(),
+  })).min(4).max(6),
+});

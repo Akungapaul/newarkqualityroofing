@@ -9,6 +9,7 @@ import {
   CorePageSchema,
   PageTypeSchema,
   SlugEntrySchema,
+  ServiceContentSchema,
 } from './schemas';
 
 // ─── Inferred Types ──────────────────────────────────────────────────────────
@@ -22,6 +23,7 @@ export type Comparison = z.infer<typeof ComparisonSchema>;
 export type CorePage = z.infer<typeof CorePageSchema>;
 export type PageType = z.infer<typeof PageTypeSchema>;
 export type SlugEntry = z.infer<typeof SlugEntrySchema>;
+export type ServiceContent = z.infer<typeof ServiceContentSchema>;
 
 // ─── Re-exports ──────────────────────────────────────────────────────────────
 
@@ -35,4 +37,5 @@ export {
   CorePageSchema,
   PageTypeSchema,
   SlugEntrySchema,
+  ServiceContentSchema,
 } from './schemas';
