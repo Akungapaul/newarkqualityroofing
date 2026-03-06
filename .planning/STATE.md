@@ -5,33 +5,33 @@
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 2 in progress -- Lead Capture and Core Pages
+**Current focus:** Phase 2 complete -- Lead Capture and Core Pages
 
 ## Current Position
 
 Phase: 2 of 9 (Lead Capture and Core Pages)
-Plan: 4 of 5 in current phase
-Status: In progress
-Last activity: 2026-03-06 -- Completed 02-02-PLAN.md (Homepage Sections)
+Plan: 5 of 5 in current phase
+Status: Phase complete
+Last activity: 2026-03-06 -- Completed 02-05-PLAN.md (Hub Pages, Sitemap, Privacy Policy)
 
-Progress: [████████░░] 23% (8/35 plans)
+Progress: [█████████░] 26% (9/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 8
+- Total plans completed: 9
 - Average duration: 2.9min
-- Total execution time: 0.39 hours
+- Total execution time: 0.43 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01 | 4/4 | 14min | 3.5min |
-| 02 | 4/5 | 10min | 2.5min |
+| 02 | 5/5 | 14min | 2.8min |
 
 **Recent Trend:**
-- Last 5 plans: 02-01 (2min), 02-03 (2min), 02-04 (2min), 02-02 (4min)
+- Last 5 plans: 02-01 (2min), 02-03 (2min), 02-04 (2min), 02-02 (4min), 02-05 (4min)
 - Trend: Consistent ~2-4min per plan
 
 *Updated after each plan completion*
@@ -67,6 +67,9 @@ Recent decisions affecting current work:
 - [02-04]: ContactPage calls getServiceMenuGroups() directly as server component (no prop-drilling needed)
 - [02-02]: ServicesGrid shows one representative service per category on homepage (not all 63)
 - [02-02]: HeroSection calls getServiceMenuGroups() internally as server component
+- [02-05]: Category labels duplicated in hub pages rather than importing from nav-data.ts (keeps pages self-contained)
+- [02-05]: Sitemap uses native details/summary for collapsible combo sections (pure server component)
+- [02-05]: CoreTemplate now dispatches all 6 dedicated page components
 
 ### Pending Todos
 
@@ -86,7 +89,7 @@ None yet.
 - Live on Vercel: https://newarkqualityroofing.vercel.app (1,448 static pages)
 - GitHub: https://github.com/Akungapaul/newarkqualityroofing
 
-### Phase 2 Deliverables (In Progress)
+### Phase 2 Deliverables (Complete)
 
 - LeadForm component with useActionState, 4 validated fields, optgroup service dropdown
 - SubmitButton with useFormStatus pending state
@@ -96,13 +99,17 @@ None yet.
 - .env.example template
 - AboutPage: hero, story, values, credentials, team, community, CTA sections
 - ContactPage: LeadForm, contact info card, Google Maps iframe, emergency banner
-- CoreTemplate dispatcher routing about/contact to dedicated page components
+- CoreTemplate dispatcher routing all 6 dedicated page components
 - Thank-you page at /thank-you with noindex, 3-step timeline, emergency phone CTA
 - Phone number in sticky header (desktop lg+) and mobile menu (click-to-call button)
-- Full homepage: Hero+LeadForm, TrustBar, ServicesGrid (residential/commercial), TestimonialCarousel, LocationsGrid (21 cities), FaqAccordion, final CTA
+- Full homepage: Hero+LeadForm, TrustBar, ServicesGrid, TestimonialCarousel, LocationsGrid, FaqAccordion, final CTA
+- ServicesHubPage: 63 services with residential/commercial split, category grouping
+- LocationsHubPage: 21 city cards with HQ badge, zip codes, city page links
+- SitemapPage: all ~1,448 URLs organized by type with collapsible combo sections
+- PrivacyPolicyPage: standard privacy policy with GoHighLevel CRM disclosure
 
 ## Session Continuity
 
 Last session: 2026-03-06
-Stopped at: Completed 02-02-PLAN.md
+Stopped at: Completed 02-05-PLAN.md (Phase 2 complete)
 Resume file: None
