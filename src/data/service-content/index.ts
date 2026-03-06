@@ -1,12 +1,45 @@
+import { z } from 'zod';
+import { ServiceContentSchema } from '@/lib/schemas';
+
+export type { ServiceContent } from '@/lib/types';
 import type { ServiceContent } from '@/lib/types';
 
-/**
- * Get service-specific content by service ID.
- * This stub will be replaced in Plan 03-04 when all content files are aggregated.
- * The ServiceTemplate handles the thrown error with a try/catch fallback.
- */
-export function getServiceContent(_serviceId: string): ServiceContent {
-  throw new Error(
-    `Service content not yet available for "${_serviceId}". Content will be populated in plans 03-02 through 03-04.`
-  );
+// ─── Import all content arrays ──────────────────────────────────────────────
+
+import { repairMaintenanceContent } from './repair-maintenance';
+import { residentialRoofTypesContent } from './residential-roof-types';
+import { commercialRoofTypesContent } from './commercial-roof-types';
+import { componentsSpecialtyContent } from './components-specialty';
+import { energySolarContent } from './energy-solar';
+import { commercialServicesContent } from './commercial-services';
+import { designConsultationContent } from './design-consultation';
+import { replacementSubPagesContent } from './replacement-sub-pages';
+
+// ─── Aggregate and validate ALL content at module level ─────────────────────
+
+const allContent = z.array(ServiceContentSchema).parse([
+  ...repairMaintenanceContent,
+  ...residentialRoofTypesContent,
+  ...commercialRoofTypesContent,
+  ...componentsSpecialtyContent,
+  ...energySolarContent,
+  ...commercialServicesContent,
+  ...designConsultationContent,
+  ...replacementSubPagesContent,
+]);
+
+// ─── Map-based O(1) lookup ──────────────────────────────────────────────────
+
+const contentMap = new Map<string, ServiceContent>(
+  allContent.map((c) => [c.serviceId, c])
+);
+
+// ─── Public API ─────────────────────────────────────────────────────────────
+
+export function getServiceContent(serviceId: string): ServiceContent {
+  const content = contentMap.get(serviceId);
+  if (!content) {
+    throw new Error(`Missing content for service: ${serviceId}`);
+  }
+  return content;
 }
