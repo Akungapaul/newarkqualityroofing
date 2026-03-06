@@ -13,7 +13,7 @@ This roadmap delivers a conversion-first roofing lead generation website targeti
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation and Data Layer** - Next.js project, design system, data schemas, slug registry, catch-all dispatcher
-- [ ] **Phase 2: Lead Capture and Core Pages** - Lead form, GoHighLevel integration, homepage, about, contact, hub pages, thank you, privacy
+- [x] **Phase 2: Lead Capture and Core Pages** - Lead form, GoHighLevel integration, homepage, about, contact, hub pages, thank you, privacy
 - [ ] **Phase 3: Service Pages** - Service template, 63 services with residential/commercial content, related services linking
 - [ ] **Phase 4: City Pages and Local SEO** - City template, 21 cities with unique local content, map embeds, NAP consistency
 - [ ] **Phase 5: Content Differentiation Engine** - Content variation system, city data matrix, similarity validation for combo pages
@@ -42,7 +42,7 @@ Plans:
 - [x] 01-03-PLAN.md -- Slug registry with collision detection, combo generation, catch-all [slug] dispatcher with SSG
 - [x] 01-04-PLAN.md -- Sticky header with navigation dropdowns, mega-footer, mobile menu, responsive layout shell
 
-### Phase 2: Lead Capture and Core Pages
+### Phase 2: Lead Capture and Core Pages (COMPLETE)
 **Goal**: Visitors can submit leads from any page and reach a human via click-to-call, with all core informational pages live
 **Depends on**: Phase 1
 **Requirements**: LEAD-01, LEAD-02, LEAD-03, LEAD-04, LEAD-05, LEAD-06, CORE-01, CORE-02, CORE-03, CORE-04, CORE-05, CORE-06, CORE-07, CORE-08
@@ -55,11 +55,11 @@ Plans:
 **Plans**: 5 plans
 
 Plans:
-- [ ] 02-01-PLAN.md -- Lead form foundation: Server Action, LeadForm component, PhoneNumber, data files (site-config, testimonials, FAQ)
-- [ ] 02-02-PLAN.md -- Homepage with hero + form, trust bar, services grid, testimonials, locations grid, FAQ accordion
-- [ ] 02-03-PLAN.md -- Thank-you page and phone number integration into sticky header
-- [ ] 02-04-PLAN.md -- About page and Contact page with map embed, CoreTemplate dispatcher update
-- [ ] 02-05-PLAN.md -- Services hub, Locations hub, HTML sitemap, Privacy policy, final CoreTemplate wiring
+- [x] 02-01-PLAN.md -- Lead form foundation: Server Action, LeadForm component, PhoneNumber, data files (site-config, testimonials, FAQ)
+- [x] 02-02-PLAN.md -- Homepage with hero + form, trust bar, services grid, testimonials, locations grid, FAQ accordion
+- [x] 02-03-PLAN.md -- Thank-you page and phone number integration into sticky header
+- [x] 02-04-PLAN.md -- About page and Contact page with map embed, CoreTemplate dispatcher update
+- [x] 02-05-PLAN.md -- Services hub, Locations hub, HTML sitemap, Privacy policy, final CoreTemplate wiring
 
 ### Phase 3: Service Pages
 **Goal**: All 63 service pages are live with full-length content covering both residential and commercial audiences
@@ -193,7 +193,7 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation and Data Layer | 4/4 | Complete | 2026-03-05 |
-| 2. Lead Capture and Core Pages | 0/5 | Not started | - |
+| 2. Lead Capture and Core Pages | 5/5 | Complete | 2026-03-06 |
 | 3. Service Pages | 0/4 | Not started | - |
 | 4. City Pages and Local SEO | 0/3 | Not started | - |
 | 5. Content Differentiation Engine | 0/3 | Not started | - |
@@ -204,4 +204,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-05 -- Phase 2 planned*
+*Last updated: 2026-03-06 -- Phase 2 complete*

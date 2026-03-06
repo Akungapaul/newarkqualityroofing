@@ -18,23 +18,23 @@
 
 ### Lead Capture
 
-- [ ] **LEAD-01**: Lead form above the fold on every page (first name, last name, phone, email, service dropdown, project details textarea)
-- [ ] **LEAD-02**: Form submits to server-side API route that proxies to GoHighLevel webhook
-- [ ] **LEAD-03**: Thank you page redirect after form submission
-- [ ] **LEAD-04**: Click-to-call phone number on every page (sticky header on mobile)
-- [ ] **LEAD-05**: GoHighLevel tracking phone number integration for call source attribution
-- [ ] **LEAD-06**: Server-side logging for webhook submissions (lead loss prevention)
+- [x] **LEAD-01**: Lead form above the fold on every page (first name, last name, phone, email, service dropdown, project details textarea)
+- [x] **LEAD-02**: Form submits to server-side API route that proxies to GoHighLevel webhook
+- [x] **LEAD-03**: Thank you page redirect after form submission
+- [x] **LEAD-04**: Click-to-call phone number on every page (sticky header on mobile)
+- [x] **LEAD-05**: GoHighLevel tracking phone number integration for call source attribution
+- [x] **LEAD-06**: Server-side logging for webhook submissions (lead loss prevention)
 
 ### Page Templates — Core Pages (~8)
 
-- [ ] **CORE-01**: Homepage with hero + form, trust bar, services grid, residential/commercial split, locations grid, testimonials, FAQ
-- [ ] **CORE-02**: About page with company story, values, team (placeholder content)
-- [ ] **CORE-03**: Contact page with form, map embed, NAP info
-- [ ] **CORE-04**: Services hub page listing all 63 services with category grouping
-- [ ] **CORE-05**: Locations hub page listing all 21 Essex County cities
-- [ ] **CORE-06**: HTML sitemap page (crawlable, listing all URLs by category)
-- [ ] **CORE-07**: Thank you page (post-form submission confirmation)
-- [ ] **CORE-08**: Privacy policy page
+- [x] **CORE-01**: Homepage with hero + form, trust bar, services grid, residential/commercial split, locations grid, testimonials, FAQ
+- [x] **CORE-02**: About page with company story, values, team (placeholder content)
+- [x] **CORE-03**: Contact page with form, map embed, NAP info
+- [x] **CORE-04**: Services hub page listing all 63 services with category grouping
+- [x] **CORE-05**: Locations hub page listing all 21 Essex County cities
+- [x] **CORE-06**: HTML sitemap page (crawlable, listing all URLs by category)
+- [x] **CORE-07**: Thank you page (post-form submission confirmation)
+- [x] **CORE-08**: Privacy policy page
 
 ### Page Templates — Service Pages (63)
 
