@@ -10,29 +10,29 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 ## Current Position
 
 Phase: 2 of 9 (Lead Capture and Core Pages)
-Plan: 1 of 5 in current phase
+Plan: 4 of 5 in current phase
 Status: In progress
-Last activity: 2026-03-06 -- Completed 02-01-PLAN.md (Lead Capture Foundation)
+Last activity: 2026-03-06 -- Completed 02-04-PLAN.md (About and Contact Pages)
 
-Progress: [█████░░░░░] 14% (5/35 plans)
+Progress: [██████░░░░] 17% (6/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 5
-- Average duration: 3.3min
-- Total execution time: 0.27 hours
+- Total plans completed: 6
+- Average duration: 3.0min
+- Total execution time: 0.30 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01 | 4/4 | 14min | 3.5min |
-| 02 | 1/5 | 2min | 2min |
+| 02 | 2/5 | 4min | 2min |
 
 **Recent Trend:**
-- Last 5 plans: 01-02 (5min), 01-03 (2min), 01-04 (3min), 02-01 (2min)
-- Trend: Consistent ~2-4min per plan
+- Last 5 plans: 01-03 (2min), 01-04 (3min), 02-01 (2min), 02-04 (2min)
+- Trend: Consistent ~2-3min per plan
 
 *Updated after each plan completion*
 
@@ -61,6 +61,8 @@ Recent decisions affecting current work:
 - [02-01]: serviceGroups passed as prop to LeadForm (keeps Zod out of client bundle)
 - [02-01]: PhoneNumber is a server component (reads env at build, no interactivity)
 - [02-01]: Added !.env.example exception to .gitignore (.env* was too broad)
+- [02-04]: CoreTemplate uses minimal switch (only about/contact cases) to avoid merge conflicts with parallel 02-05
+- [02-04]: ContactPage calls getServiceMenuGroups() directly as server component (no prop-drilling needed)
 
 ### Pending Todos
 
@@ -88,9 +90,12 @@ None yet.
 - Server Action with GHL webhook proxy and structured logging
 - Site config, testimonials (6), FAQ (8) data files
 - .env.example template
+- AboutPage: hero, story, values, credentials, team, community, CTA sections
+- ContactPage: LeadForm, contact info card, Google Maps iframe, emergency banner
+- CoreTemplate dispatcher routing about/contact to dedicated page components
 
 ## Session Continuity
 
 Last session: 2026-03-06
-Stopped at: Completed 02-01-PLAN.md
+Stopped at: Completed 02-04-PLAN.md
 Resume file: None
