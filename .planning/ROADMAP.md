@@ -71,13 +71,13 @@ Plans:
   3. Each service page displays a related services block linking to other services in the same category
   4. Breadcrumbs show Home > Services > [Service Name] on every service page
   5. Commercial-specific services (commercial install, repair, replacement, thermal imaging, infrared detection) have dedicated pages with B2B-appropriate language
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 03-01: ServiceTemplate component with hero/form, content sections, FAQ, breadcrumbs
-- [ ] 03-02: Service data population -- repair/maintenance (10), residential roof types (8), commercial types (8)
-- [ ] 03-03: Service data population -- components/specialty (10), energy/solar (4), commercial services (5), design/consultation (3)
-- [ ] 03-04: Replacement sub-pages (17), related services block, residential/commercial CTA language
+- [ ] 03-01-PLAN.md -- ServiceTemplate component with split hero, 10 section components, sticky sidebar, breadcrumbs, floating CTA
+- [ ] 03-02-PLAN.md -- Content population: repair/maintenance (10), residential roof types (8), commercial roof types (8)
+- [ ] 03-03-PLAN.md -- Content population: components/specialty (10), energy/solar (4), commercial services (5), design/consultation (3)
+- [ ] 03-04-PLAN.md -- Replacement sub-pages (15), content index with Zod validation, full integration of all 63 services
 
 ### Phase 4: City Pages and Local SEO
 **Goal**: All 21 Essex County city pages are live with genuinely unique local content, map embeds, and consistent NAP data
@@ -204,4 +204,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-06 -- Phase 2 complete*
+*Last updated: 2026-03-06 -- Phase 3 planned (4 plans in 3 waves)*
