@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant, Cormorant_Garamond } from "next/font/google";
 import { getServiceMenuGroups, getCityMenuItems } from "@/data/nav-data";
+import { siteConfig } from "@/data/site-config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
@@ -42,7 +43,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#1A3A2A" />
       </head>
       <body className="flex min-h-screen flex-col antialiased">
-        <Header serviceGroups={serviceGroups} cityItems={cityItems} />
+        <Header serviceGroups={serviceGroups} cityItems={cityItems} phoneDisplay={siteConfig.phone.display} phoneTel={siteConfig.phone.tel} />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
