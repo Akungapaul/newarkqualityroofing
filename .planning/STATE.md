@@ -99,6 +99,10 @@ Recent decisions affecting current work:
 - [04-04]: Glen Ridge content centered on Historic Preservation Commission requirements and period-appropriate materials
 - [04-04]: Verona content focused on split-level/bi-level roofing as dominant housing type
 - [04-04]: Cedar Grove content emphasizes ranch roof low-pitch expertise and northern Essex County weather
+- [04-05]: Caldwell uses small-town character voice; North Caldwell and Essex Fells use premium/estate language
+- [04-05]: Essex Fells positioned as architect-collaboration, multi-structure estate projects
+- [04-05]: Fairfield uses dual residential/commercial voice for Route 46 corridor market
+- [04-05]: metaDescription trimmed for Caldwell, North Caldwell, Essex Fells, Roseland to fit Zod 160-char max
 
 ### Pending Todos
 
@@ -159,6 +163,7 @@ Recent decisions affecting current work:
 - Urban core content: Newark (2,874w), East Orange (2,820w), Orange (2,868w), Irvington (3,162w) -- all Zod-validated
 - First suburbs content: Bloomfield, Belleville, Nutley, Maplewood, South Orange -- 2,500+ words each, all Zod-validated
 - West Essex content: West Orange, Montclair, Glen Ridge, Verona, Cedar Grove -- 2,500+ words each, all Zod-validated
+- Caldwells-Roseland content: Caldwell, North Caldwell, Essex Fells, Fairfield, Roseland -- 2,500+ words each, all Zod-validated
 
 ## Session Continuity
 
