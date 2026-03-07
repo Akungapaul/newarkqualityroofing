@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Lead Capture and Core Pages** - Lead form, GoHighLevel integration, homepage, about, contact, hub pages, thank you, privacy
 - [x] **Phase 3: Service Pages** - Service template, 65 services with residential/commercial content, related services linking
 - [x] **Phase 4: City Pages and Local SEO** - City template, 21 cities with unique local content, map embeds, NAP consistency
-- [ ] **Phase 5: Content Differentiation Engine** - Content variation system, city data matrix, similarity validation for combo pages
+- [x] **Phase 5: Content Differentiation Engine** - Content variation system, city data matrix, similarity validation for combo pages
 - [ ] **Phase 6: Programmatic Scale** - 1,323 combo pages, reverse silo internal linking engine, full site navigation
 - [ ] **Phase 7: Supporting Content** - 30 comparison pages, 252 supporting articles, reverse silo article linking
 - [ ] **Phase 8: SEO Infrastructure** - Technical SEO, schema markup, semantic optimization, sitemaps, AI detection QA
@@ -105,7 +105,7 @@ Plans:
 - [x] 04-06-PLAN.md -- City content: Affluent Suburban (Livingston, Millburn)
 - [x] 04-07-PLAN.md -- Final integration: aggregator assembly, metadata wiring, content completeness audit
 
-### Phase 5: Content Differentiation Engine
+### Phase 5: Content Differentiation Engine (COMPLETE)
 **Goal**: A validated content variation system produces genuinely unique combo pages that pass cross-page similarity checks below 70%
 **Depends on**: Phase 3, Phase 4
 **Requirements**: CMBO-01, CMBO-02, CMBO-03, SEMA-06
@@ -114,20 +114,24 @@ Plans:
   2. A sample batch of 50 combo pages shows less than 70% similarity between any two pages for the same service
   3. City-specific data (neighborhoods, building types, weather challenges) is injected into combo content -- not just city name swaps
   4. Content variation patterns are demonstrably different enough to avoid duplicate content detection by search engines
-**Plans**: 11 plans
+**Plans**: 15 plans (11 original + 4 splits)
 
 Plans:
-- [ ] 05-01-PLAN.md -- ComboContentSchema, directory structure, aggregator skeleton, similarity validation CLI script
-- [ ] 05-02-PLAN.md -- Newark combo content: repair-maintenance (10 services)
-- [ ] 05-03-PLAN.md -- Newark combo content: residential roof types (9 services)
-- [ ] 05-04-PLAN.md -- Newark combo content: commercial roof types (8 services)
-- [ ] 05-05-PLAN.md -- Newark combo content: components-specialty (10 services)
-- [ ] 05-06-PLAN.md -- Newark combo content: energy/solar (5) + commercial services (5)
-- [ ] 05-07-PLAN.md -- Newark combo content: design/consultation (3) + replacement sub-pages first batch (9)
-- [ ] 05-08-PLAN.md -- Newark combo content: replacement sub-pages final batch (6) + Newark city index assembly
-- [ ] 05-09-PLAN.md -- Sample city combos: Montclair (5) + Bloomfield (5) for cross-city validation
-- [ ] 05-10-PLAN.md -- Sample city combos: East Orange (5) + Caldwell (5) + Millburn (5) for full regional coverage
-- [ ] 05-11-PLAN.md -- Similarity validation run, analysis, and failure remediation
+- [x] 05-01-PLAN.md -- ComboContentSchema, directory structure, aggregator skeleton, similarity validation CLI script
+- [x] 05-02-PLAN.md -- Newark combo content: repair-maintenance (10 services)
+- [x] 05-03-PLAN.md -- Newark combo content: residential roof types (9 services)
+- [x] 05-04-PLAN.md -- Newark combo content: commercial roof types (8 services)
+- [x] 05-05-PLAN.md -- Newark combo content: components-specialty (10 services)
+- [x] 05-06-PLAN.md -- Newark combo content: energy/solar (5) + commercial services (5)
+- [x] 05-07-PLAN.md -- Newark combo content: design/consultation (3 services)
+- [x] 05-07a-PLAN.md -- Newark combo content: replacement sub-pages batch 1 (6 services)
+- [x] 05-07b-PLAN.md -- Newark combo content: replacement sub-pages final (3 services)
+- [x] 05-08-PLAN.md -- Newark combo content: material replacements (6) + Newark city index assembly (65 total)
+- [x] 05-09-PLAN.md -- Sample city combos: Montclair (5) + Bloomfield (5) for cross-city validation
+- [x] 05-10-PLAN.md -- Sample city combos: East Orange (5)
+- [x] 05-10a-PLAN.md -- Sample city combos: Caldwell (5)
+- [x] 05-10b-PLAN.md -- Sample city combos: Millburn (5) + 6-city aggregator (90 total)
+- [x] 05-11-PLAN.md -- Similarity validation run, analysis, and failure remediation
 
 ### Phase 6: Programmatic Scale
 **Goal**: All 1,323 service-x-city combo pages are live with full internal linking following reverse silo methodology
@@ -213,7 +217,7 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 | 2. Lead Capture and Core Pages | 5/5 | Complete | 2026-03-06 |
 | 3. Service Pages | 9/9 | Complete | 2026-03-06 |
 | 4. City Pages and Local SEO | 7/7 | Complete | 2026-03-07 |
-| 5. Content Differentiation Engine | 0/11 | Not started | - |
+| 5. Content Differentiation Engine | 15/15 | Complete | 2026-03-07 |
 | 6. Programmatic Scale | 0/4 | Not started | - |
 | 7. Supporting Content | 0/4 | Not started | - |
 | 8. SEO Infrastructure | 0/4 | Not started | - |
@@ -221,4 +225,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-07 -- Phase 5 planned (11 plans across 4 waves)*
+*Last updated: 2026-03-07 -- Phase 5 complete (15 plans, 90 combo content files, 6 cities validated)*

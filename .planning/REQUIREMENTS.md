@@ -59,9 +59,9 @@
 
 ### Page Templates — Service x City Combo Pages (1,323)
 
-- [ ] **CMBO-01**: Combo page template combining service + city data
-- [ ] **CMBO-02**: City data matrix providing genuinely unique content per combo (not just city name swaps)
-- [ ] **CMBO-03**: Content variation engine with multiple intro structures, rotating content blocks
+- [x] **CMBO-01**: Combo page template combining service + city data
+- [x] **CMBO-02**: City data matrix providing genuinely unique content per combo (not just city name swaps)
+- [x] **CMBO-03**: Content variation engine with multiple intro structures, rotating content blocks
 - [ ] **CMBO-04**: Lead form above the fold
 - [ ] **CMBO-05**: Same service in nearby cities block
 - [ ] **CMBO-06**: Other services in same city block
@@ -122,7 +122,7 @@
 - [ ] **SEMA-03**: H2s: secondary keywords (major sections)
 - [ ] **SEMA-04**: H3s: long-tail keywords and FAQ questions
 - [ ] **SEMA-05**: Full topical map with pillar pages and content clusters
-- [ ] **SEMA-06**: Content variation patterns to avoid duplicate content detection
+- [x] **SEMA-06**: Content variation patterns to avoid duplicate content detection
 - [ ] **SEMA-07**: AI detection QA pass (ZeroGPT or similar as sanity check)
 
 ### SEO — Local
@@ -236,10 +236,10 @@
 | LOCL-03 | Phase 4 | Complete |
 | LOCL-04 | Phase 4 | Complete |
 | CONT-04 | Phase 4 | Complete |
-| CMBO-01 | Phase 5 | Pending |
-| CMBO-02 | Phase 5 | Pending |
-| CMBO-03 | Phase 5 | Pending |
-| SEMA-06 | Phase 5 | Pending |
+| CMBO-01 | Phase 5 | Complete |
+| CMBO-02 | Phase 5 | Complete |
+| CMBO-03 | Phase 5 | Complete |
+| SEMA-06 | Phase 5 | Complete |
 | CMBO-04 | Phase 6 | Pending |
 | CMBO-05 | Phase 6 | Pending |
 | CMBO-06 | Phase 6 | Pending |
