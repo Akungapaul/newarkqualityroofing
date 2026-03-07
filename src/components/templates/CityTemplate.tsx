@@ -1,4 +1,4 @@
-import type { City, CityContent } from '@/lib/types';
+import type { City } from '@/lib/types';
 import { cities } from '@/data/cities';
 import { getServiceMenuGroups } from '@/data/nav-data';
 import { getCityContent } from '@/data/city-content';
@@ -48,50 +48,8 @@ export default function CityTemplate({ city }: CityTemplateProps) {
     .map((id) => cities.find((c) => c.id === id))
     .filter((c): c is City => c !== undefined);
 
-  // Try to load real content; fall back to placeholder
-  let content: CityContent | null = null;
-  try {
-    content = getCityContent(city.id);
-  } catch {
-    // Content not yet available -- render placeholder
-  }
-
-  // ─── Placeholder fallback (before content files exist) ──────────────────
-
-  if (!content) {
-    return (
-      <div className="min-h-screen bg-parchment px-6 py-16">
-        <main className="mx-auto max-w-3xl">
-          <span className="inline-block rounded-sm bg-copper px-3 py-1 font-body text-xs font-semibold uppercase tracking-wider text-text-on-copper">
-            City
-          </span>
-          <h1 className="mt-4 font-heading text-4xl font-bold text-forest sm:text-5xl">
-            Roofing Services in {city.name}, NJ
-          </h1>
-          <div className="mt-4 flex flex-wrap gap-2">
-            <span className="rounded-sm border border-border px-2 py-1 font-body text-xs text-text-secondary">
-              {city.county} County
-            </span>
-            {city.isHQ && (
-              <span className="rounded-sm border border-forest/30 bg-forest/10 px-2 py-1 font-body text-xs text-forest">
-                Headquarters
-              </span>
-            )}
-          </div>
-          <p className="mt-6 font-body text-sm text-text-secondary">
-            Serving zip codes: {city.zipCodes.join(', ')}
-          </p>
-          <div className="mt-12 rounded-sm border-2 border-dashed border-border p-8 text-center">
-            <p className="font-body text-text-secondary">
-              Full city content coming soon
-            </p>
-          </div>
-        </main>
-      </div>
-    );
-  }
-
-  // ─── Full content rendering ─────────────────────────────────────────────
+  // Load city content (all 21 cities have content -- throws if missing)
+  const content = getCityContent(city.id);
 
   return (
     <>

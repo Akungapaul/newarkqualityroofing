@@ -43,21 +43,11 @@ export async function generateMetadata({
     }
     case 'city': {
       const city = cities.find((c) => c.id === pageData.cityId);
-      // Use content metaTitle/metaDescription when available, fallback to generic
-      if (city) {
-        try {
-          const cityContent = getCityContent(city.id);
-          return {
-            title: cityContent.metaTitle,
-            description: cityContent.metaDescription,
-          };
-        } catch {
-          // Content not yet available -- use generic metadata
-        }
-      }
+      if (!city) return {};
+      const cityContent = getCityContent(city.id);
       return {
-        title: `Roofing Services in ${city?.name}, NJ | Newark Quality Roofing`,
-        description: `Professional roofing services in ${city?.name}, ${city?.county} County NJ. Licensed and insured local roofers. Free estimates.`,
+        title: cityContent.metaTitle,
+        description: cityContent.metaDescription,
       };
     }
     case 'combo': {

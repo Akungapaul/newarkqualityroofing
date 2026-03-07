@@ -8,8 +8,7 @@ import { westEssexContent } from './west-essex';
 import { firstSuburbsContent } from './first-suburbs';
 
 // ─── Content aggregator ─────────────────────────────────────────────────────
-// Content files will be added in plans 04-02 through 04-06.
-// Each file exports a CityContent[] array which gets spread into allContent.
+// All 21 city content objects from 5 regional files, Zod-validated at import.
 
 const allContent: CityContent[] = z
   .array(CityContentSchema)
