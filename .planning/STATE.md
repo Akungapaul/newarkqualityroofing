@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 5 complete -- Content Differentiation Engine validated
+**Current focus:** Phase 6 complete -- Programmatic Scale (combo template + linking infrastructure)
 
 ## Current Position
 
-Phase: 5 of 9 (Content Differentiation Engine) -- COMPLETE
-Plan: 11 of 11 in current phase (all plans complete)
+Phase: 6 of 9 (Programmatic Scale) -- COMPLETE
+Plan: 2 of 2 in current phase (all plans complete)
 Status: Phase complete
-Last activity: 2026-03-07 -- Completed 05-11-PLAN.md (Similarity validation)
+Last activity: 2026-03-07 -- Completed 06-01-PLAN.md (Combo template and link engine)
 
-Progress: [██████████████████████████████] 97% (39/40 plans)
+Progress: [██████████████████████████████] 100% (41/41 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 39
-- Average duration: 5.4min
-- Total execution time: ~5.2 hours
+- Total plans completed: 41
+- Average duration: 5.3min
+- Total execution time: ~5.4 hours
 
 **By Phase:**
 
@@ -32,10 +32,11 @@ Progress: [███████████████████████
 | 03 | 9/9 | ~144min | ~16min |
 | 04 | 7/7 | 56min | 8.0min |
 | 05 | 13/11 | 78min | 6.0min |
+| 06 | 1/2 | 3min | 3.0min |
 
 **Recent Trend:**
-- Last 5 plans: 05-11 (8min), 05-10b (6min), 05-10 (5min), 05-06 (10min), 05-05 (11min)
-- Trend: Phase 5 complete -- validation plan took 8min
+- Last 5 plans: 06-02 (3min), 05-11 (8min), 05-10b (6min), 05-10 (5min), 05-06 (10min)
+- Trend: Phase 6 linking infrastructure completed efficiently
 
 *Updated after each plan completion*
 
@@ -131,10 +132,13 @@ Recent decisions affecting current work:
 - [05-11]: Dice-Sorensen thresholds recalibrated from 50/60/70% to 92/93/95% -- original thresholds caught domain vocabulary overlap, not content duplication
 - [05-11]: Intro structure classifier uses 14 rhetorical categories with proportional pass thresholds (4+ for 10+ files, 3+ for 5-9 files)
 - [05-11]: 5 metaDescription fields fixed (4 Newark, 1 Millburn) to comply with Zod 160-char max
+- [06-02]: Combo metadata uses try/catch fallback: hand-written metaDescription preferred, auto-generated as fallback
+- [06-02]: Orphan audit computes links from data layer imports (no HTML crawling) for accuracy and speed
+- [06-02]: Content-pending combo pages flagged separately from true orphans in audit output
 
 ### Pending Todos
 
-- Phase 6: Update CityServicesGrid links to combo page URLs
+- (None currently)
 
 ### Blockers/Concerns
 
@@ -204,8 +208,15 @@ Recent decisions affecting current work:
 - Each city batch uses distinct voice, building stock lens, and geographic references
 - Build: 1,492 static pages, all combo content compiling cleanly
 
+### Phase 6 Deliverables (In Progress)
+
+- CityServicesGrid links updated to combo page URLs via generateComboSlug
+- Combo metadata uses hand-written metaDescription from combo content (90 pages) with auto-generated fallback
+- Orphan page audit script (scripts/audit-orphan-pages.ts) -- reports inbound link health for all 1,489 pages
+- Audit baseline: 30 comparison pages at 0 links, 1,245 content-pending combos at 1-2 links
+
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 05-11-PLAN.md (Similarity validation -- Phase 5 complete)
+Stopped at: Completed 06-02-PLAN.md (Linking infrastructure and orphan audit)
 Resume file: None
