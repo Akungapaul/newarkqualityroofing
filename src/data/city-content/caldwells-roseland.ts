@@ -156,7 +156,7 @@ export const caldwellsRoselandContent: CityContent[] = [
     },
     metaTitle: 'Roofing Contractor in Caldwell NJ | Newark Quality Roofing',
     metaDescription:
-      'Expert roofing services in Caldwell, NJ. Residential and commercial roof repair, replacement, and restoration. Licensed, insured, and trusted by Caldwell homeowners.',
+      'Expert roofing in Caldwell, NJ. Residential and commercial roof repair, replacement, and restoration. Licensed, insured, and trusted by Caldwell homeowners.',
   },
 
   // ─── North Caldwell ───────────────────────────────────────────────────────
@@ -311,7 +311,7 @@ export const caldwellsRoselandContent: CityContent[] = [
     },
     metaTitle: 'Premium Roofing in North Caldwell NJ | Newark Quality Roofing',
     metaDescription:
-      'Premium roofing services for North Caldwell, NJ estates. Slate, cedar shake, copper, and architectural shingle specialists. Trusted by North Caldwell homeowners.',
+      'Premium roofing for North Caldwell, NJ estates. Slate, cedar shake, copper, and architectural shingle specialists. Trusted by North Caldwell homeowners.',
   },
 
   // ─── Essex Fells ──────────────────────────────────────────────────────────
@@ -466,6 +466,318 @@ export const caldwellsRoselandContent: CityContent[] = [
     },
     metaTitle: 'Estate Roofing in Essex Fells NJ | Newark Quality Roofing',
     metaDescription:
-      'Estate roofing specialists in Essex Fells, NJ. Slate, cedar, copper, and premium materials for one of NJ\'s most exclusive communities. Architect-trusted craftsmanship.',
+      'Estate roofing in Essex Fells, NJ. Slate, cedar, copper, and premium materials for NJ\'s most exclusive community. Architect-trusted craftsmanship.',
+  },
+
+  // ─── Fairfield ────────────────────────────────────────────────────────────
+  {
+    cityId: 'fairfield',
+    heroHeadline: 'Residential & Commercial Roofing in Fairfield, NJ',
+    heroSubheadline:
+      'From suburban neighborhoods to the Route 46 commercial corridor, Newark Quality Roofing delivers comprehensive roofing solutions for every property type in Fairfield Township.',
+    stats: {
+      projectCount: '350+',
+      servingSince: '2005',
+      rating: '4.9',
+    },
+    overview: [
+      'Fairfield Township occupies a unique position in western Essex County as a community that blends quiet suburban residential neighborhoods with one of northern New Jersey\'s most active commercial corridors. The Route 46 highway that bisects the township brings a concentration of retail centers, big-box stores, automotive dealerships, restaurants, and office buildings that creates a commercial roofing market unlike anything found in neighboring Caldwell or North Caldwell. Meanwhile, Fairfield\'s residential neighborhoods — developed primarily during the housing expansions of the 1970s, 1980s, and 1990s — feature the colonials, split-levels, bi-levels, and center-hall colonials that define late-twentieth-century suburban New Jersey. This dual character makes Fairfield one of the most diverse roofing markets in Essex County.',
+      'The commercial roofing demands along Route 46 and the Fairfield Business Campus are substantial. Strip malls with 20,000 to 50,000 square feet of roof area, standalone retail buildings, multi-tenant office complexes, and light industrial facilities all require professional flat-roof and low-slope roofing systems. TPO, EPDM, modified bitumen, and standing-seam metal roof assemblies dominate the commercial landscape, each with specific performance characteristics suited to different building types and owner requirements. Newark Quality Roofing maintains dedicated commercial crews with the training, equipment, and safety certifications necessary to serve Fairfield\'s business property owners and facility managers. Our commercial capabilities include full membrane replacements, preventive maintenance programs, emergency leak response, and energy-efficient retrofit installations.',
+      'Fairfield\'s residential neighborhoods present a different but equally important set of roofing needs. Homes built during the 1970s through 1990s are now reaching the age where original roofing systems require replacement — builder-grade three-tab shingles installed during construction have typically exceeded their useful life after 20-25 years, and many Fairfield homes are on their second or even third roof. Common issues include worn-out shingles with extensive granule loss, deteriorated flashing around chimneys and skylights from the era when aluminum was the default material, and ventilation systems that were undersized by today\'s standards. Our residential team specializes in upgrading these homes with modern architectural shingle systems, synthetic underlayment, and balanced ventilation that extends roof longevity well beyond what the original builder-grade installation provided.',
+      'Fairfield\'s geographic position at the western edge of Essex County brings slightly different weather patterns than the more urbanized areas to the east. Open terrain along Route 46 increases wind exposure, and the township\'s relatively flat topography can create drainage challenges during heavy rainfall events. Our Fairfield installations account for these local conditions with enhanced wind-rated fastening patterns, proper drainage slope verification on flat commercial roofs, and strategically placed ice-and-water shield protection at all eave lines and valley intersections.',
+    ],
+    residential: {
+      heading: 'Residential Roofing for Fairfield\'s Suburban Neighborhoods',
+      content: [
+        'Fairfield\'s residential housing stock reflects the suburban building boom of the late twentieth century. Center-hall colonials, split-levels, bi-levels, and raised ranches built during the 1970s, 1980s, and 1990s comprise the majority of the township\'s homes. These properties share common roofing characteristics: moderate-pitch gable and hip roofs with relatively straightforward geometries, original builder-grade shingles that have reached end-of-life, and ventilation systems that were adequate for their era but fall short of current best practices. Our standard residential approach for Fairfield homes includes complete tear-off to the deck, thorough sheathing inspection with targeted replacement of any deteriorated panels, installation of premium synthetic underlayment, ice-and-water shield at all eaves and valleys, and GAF or Owens Corning architectural shingles with lifetime manufacturer warranties.',
+        'Many Fairfield homeowners are upgrading from basic three-tab shingles to dimensional architectural shingles that provide enhanced curb appeal along with superior wind and impact resistance. The visual transformation is dramatic — flat, uniform three-tab roofs give way to richly textured dimensional profiles that add depth and character to Fairfield\'s suburban homes. We help homeowners navigate shingle color selection with physical sample displays viewed in their home\'s natural lighting, ensuring the chosen color complements existing siding, brick, and stone elements. Popular choices in Fairfield include Owens Corning Duration in Driftwood, Teak, and Brownwood, and GAF Timberline HDZ in Pewter Gray, Charcoal, and Weathered Wood.',
+        'Fairfield\'s newer construction neighborhoods, including developments built in the 1990s and early 2000s, feature homes with more architectural complexity — front-facing gable accents, arched entryways, bay window rooflets, and steeper decorative pitches on front elevations. These design elements require more precise installation techniques, custom flashing fabrication, and careful attention to the transitions between different roof planes. Our crews are experienced with the specific construction methods used by the production builders who developed these neighborhoods and know where the common failure points occur.',
+      ],
+    },
+    commercial: {
+      heading: 'Commercial Roofing Along Route 46 and the Business Campus',
+      content: [
+        'Fairfield\'s Route 46 corridor represents one of Essex County\'s densest concentrations of commercial roofing demand. From the Willowbrook area westward through the township, retail centers, standalone stores, office complexes, automotive dealerships, and restaurant buildings all require professional roofing systems designed for commercial-scale performance. The predominant commercial roof type in Fairfield is the low-slope or flat-roof assembly — these buildings use single-ply membranes (TPO or EPDM), modified bitumen, or built-up roofing systems that demand specialized knowledge distinct from residential shingle work. Newark Quality Roofing\'s commercial division serves Fairfield\'s business property owners with the full range of flat-roof solutions: new installations, full membrane replacements, recover systems, preventive maintenance, and emergency leak repair.',
+        'The Fairfield Business Campus and surrounding office parks add another dimension to the township\'s commercial roofing landscape. Multi-story office buildings with rooftop HVAC systems, telecommunications equipment, and access requirements create complex roofing environments where membrane integrity, penetration flashing, and drainage management must all work together seamlessly. We provide comprehensive maintenance programs for Fairfield commercial properties that include semi-annual inspections, photographic condition reporting, drainage verification, and priority scheduling for repairs. For property managers and building owners, our preventive approach extends roof system life, reduces emergency repair costs, and provides the documentation needed for capital planning and insurance purposes.',
+        'Energy efficiency has become a primary consideration for Fairfield commercial property owners, and roof system selection plays a significant role. White TPO membranes, cool-roof coatings on existing surfaces, and enhanced insulation during re-roofing projects all contribute to reduced cooling costs for the large commercial buildings that dominate the Route 46 corridor. We provide energy cost analyses that help Fairfield building owners understand the return on investment from energy-efficient roofing upgrades, often demonstrating payback periods of three to five years through reduced HVAC operating costs.',
+      ],
+    },
+    weatherChallenges: {
+      heading: 'Weather Preparedness for Fairfield Properties',
+      content: [
+        'Fairfield\'s relatively flat, open terrain along Route 46 creates higher wind exposures than the more sheltered communities nearby. Commercial buildings with large, uninterrupted roof areas are particularly susceptible to wind uplift damage during severe thunderstorms and nor\'easters. Our commercial installations in Fairfield include enhanced perimeter and corner fastening patterns that meet or exceed FM Global wind uplift standards, providing building owners with confidence during the storms that regularly impact northern New Jersey. On the residential side, we install architectural shingles with six-nail fastening patterns and enhanced starter strip adhesion at all eaves and rakes to resist the wind-driven rain that Fairfield\'s exposed position can deliver.',
+        'Summer thunderstorms moving through the Route 46 corridor frequently produce hail that damages both commercial membranes and residential shingles. We recommend Class 4 impact-resistant shingles for Fairfield homeowners who want maximum storm protection and may qualify for insurance premium discounts. For commercial properties, TPO and EPDM membranes with proper thickness specifications resist hail impact effectively, and our post-storm inspection services help Fairfield building owners identify and document damage promptly for insurance claims.',
+      ],
+    },
+    neighborhoods: [
+      { name: 'Route 46 Commercial Corridor', description: 'Strip malls, retail centers, dealerships, and restaurants along the highway' },
+      { name: 'Fairfield Business Campus', description: 'Professional office parks and corporate buildings' },
+      { name: 'Hollywood Avenue Area', description: 'Established residential neighborhood with 1970s-80s colonials and split-levels' },
+      { name: 'Newbrook Lane Development', description: 'Newer construction with center-hall colonials from the 1990s-2000s' },
+      { name: 'Two Bridges Road Area', description: 'Mixed residential and commercial properties at the township\'s eastern edge' },
+      { name: 'Summerhill Road', description: 'Larger-lot residential homes with mature landscaping' },
+    ],
+    projectSpotlights: [
+      {
+        title: 'Strip Mall TPO Replacement — Route 46',
+        type: 'commercial',
+        description:
+          'Replaced a failing 30,000 sq ft built-up roof on a multi-tenant strip mall along Route 46 with fully adhered 60-mil white TPO, including new tapered insulation for positive drainage and upgraded HVAC curb flashings.',
+        details: [
+          '30,000 sq ft 60-mil TPO membrane with 20-year NDL warranty',
+          'Tapered polyiso insulation system for ponding elimination',
+          'Phased installation — tenants remained open throughout',
+          'Cool-roof rated membrane reducing tenant cooling costs',
+        ],
+      },
+      {
+        title: 'Residential Development — 12-Home Re-Roofing Project',
+        type: 'residential',
+        description:
+          'Completed a coordinated re-roofing project across 12 homes in a Fairfield development, all transitioning from original three-tab to Owens Corning Duration architectural shingles with upgraded ventilation.',
+        details: [
+          'Owens Corning Duration shingles with SureNail technology',
+          'Upgraded from passive to continuous ridge vent ventilation',
+          '12 homes completed in 5 weeks with rolling schedule',
+        ],
+      },
+      {
+        title: 'Auto Dealership Flat Roof — Route 46',
+        type: 'commercial',
+        description:
+          'Installed a new EPDM membrane system on an automotive dealership showroom and service center, including custom flashings around showroom skylights and service bay exhaust vents.',
+        details: [
+          '45-mil EPDM membrane with ballasted application',
+          'Custom skylight curb flashings for showroom lighting',
+          'Service bay exhaust penetration flashings',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        name: 'Steve R., Property Manager',
+        rating: 5,
+        text: 'We manage several commercial properties along Route 46 in Fairfield and Newark Quality Roofing handles all our roofing needs. Their maintenance program has prevented major issues, and when we did need a full TPO replacement on one building, they completed it on schedule and under budget. Excellent commercial contractor.',
+        service: 'Commercial Roofing',
+      },
+      {
+        name: 'Linda T.',
+        rating: 5,
+        text: 'Our split-level in Fairfield was still wearing its original 1978 roof — clearly overdue. They did a full tear-off, replaced some damaged decking, and installed beautiful new architectural shingles. The house looks ten years newer. Fair price and professional crew from start to finish.',
+        service: 'Roof Replacement',
+      },
+      {
+        name: 'Dave and Karen M.',
+        rating: 5,
+        text: 'When our Fairfield neighborhood decided to coordinate roof replacements, Newark Quality Roofing gave us group pricing and scheduled each home efficiently. Twelve houses re-roofed in about a month with minimal disruption. Great experience working with them on a community project.',
+        service: 'Neighborhood Re-Roofing',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Do you handle both residential and commercial roofing in Fairfield?',
+        answer: 'Yes, Fairfield is one of our most active markets for both residential and commercial work. We maintain separate residential and commercial crews with specialized training, equipment, and certifications for each. Whether you own a home on Hollywood Avenue or a commercial building on Route 46, we have the expertise and resources to serve your needs.',
+      },
+      {
+        question: 'What type of roofing system is best for Fairfield commercial buildings?',
+        answer: 'The optimal system depends on the building type, budget, and energy goals. TPO membranes are our most popular commercial recommendation for Fairfield — they offer excellent weather resistance, cool-roof energy benefits, and 20-year warranty options at competitive pricing. EPDM remains a reliable option for buildings where cost is the primary concern. We provide detailed comparative proposals to help building owners make informed decisions.',
+      },
+      {
+        question: 'Can you work on commercial roofs without disrupting business operations?',
+        answer: 'This is routine for our commercial team. We schedule work in phases to maintain tenant access, use equipment placement plans that keep parking and entrances clear, and can work weekends or evenings for noise-sensitive businesses. Our Route 46 commercial clients consistently operate without interruption during our projects.',
+      },
+      {
+        question: 'How much does a residential roof replacement cost in Fairfield?',
+        answer: 'Fairfield residential roof replacements typically range from $12,000 to $25,000 depending on home size, roof complexity, and material selection. Architectural shingles with full tear-off and synthetic underlayment represent the most common scope. We provide free detailed estimates with line-item pricing for complete transparency.',
+      },
+      {
+        question: 'Do you offer commercial roof maintenance programs?',
+        answer: 'Yes, we offer comprehensive maintenance programs for Fairfield commercial properties including semi-annual inspections, drainage verification, membrane condition assessment, flashing and sealant evaluation, and detailed photographic reports. These programs extend roof system life by 30-40% and provide the documentation property managers need for budgeting and insurance purposes.',
+      },
+      {
+        question: 'Is Fairfield Township a good candidate for cool-roof installations?',
+        answer: 'Fairfield\'s commercial buildings along Route 46 are excellent candidates for cool-roof systems. White TPO membranes and reflective coatings can reduce rooftop temperatures by 50-60 degrees in summer, significantly lowering cooling costs for the large retail and office buildings common in the township. We provide energy savings projections as part of our commercial proposals.',
+      },
+    ],
+    whyChoose: {
+      heading: 'Why Fairfield Property Owners Choose Newark Quality Roofing',
+      reasons: [
+        {
+          title: 'Dual Residential-Commercial Capability',
+          description: 'Few contractors serve both markets with equal expertise. Our dedicated residential and commercial teams bring specialized knowledge to every Fairfield project, whether it is a split-level re-roof or a 30,000 sq ft TPO installation.',
+        },
+        {
+          title: 'Route 46 Corridor Experience',
+          description: 'We understand the specific demands of commercial roofing along Fairfield\'s busiest corridor — phased installations, tenant coordination, energy efficiency, and the scale of work these buildings require.',
+        },
+        {
+          title: 'Volume Pricing for Developments',
+          description: 'Fairfield neighborhoods built during the same era often need roofing simultaneously. We offer coordinated pricing and scheduling for multi-home projects that save homeowners money while maintaining individual quality standards.',
+        },
+        {
+          title: 'Preventive Maintenance Programs',
+          description: 'Our structured maintenance programs extend roof system life and reduce emergency costs for both residential homeowners and commercial property managers throughout Fairfield.',
+        },
+      ],
+    },
+    metaTitle: 'Roofing Contractor in Fairfield NJ | Newark Quality Roofing',
+    metaDescription:
+      'Residential and commercial roofing in Fairfield, NJ. Route 46 corridor specialists. Roof replacement, TPO, EPDM, and maintenance programs. Licensed and insured.',
+  },
+
+  // ─── Roseland ─────────────────────────────────────────────────────────────
+  {
+    cityId: 'roseland',
+    heroHeadline: 'Professional Roofing Services in Roseland, NJ',
+    heroSubheadline:
+      'Quality craftsmanship for Roseland\'s established neighborhoods and corporate properties — from residential upgrades along Eagle Rock Avenue to commercial solutions for the borough\'s premier business campuses.',
+    stats: {
+      projectCount: '250+',
+      servingSince: '2005',
+      rating: '4.9',
+    },
+    overview: [
+      'Roseland is a compact, professionally oriented borough in western Essex County that balances established residential neighborhoods with a significant corporate and commercial presence. Home to the global headquarters of ADP (Automatic Data Processing), one of the world\'s largest payroll and human resources companies, along with other major corporate tenants, Roseland carries an economic weight far exceeding its modest geographic footprint. The borough\'s residential sections feature well-maintained homes built primarily during the 1950s through 1970s — colonials, split-levels, and ranches set on generous lots along tree-lined streets that radiate from the Eagle Rock Avenue commercial corridor. This combination of established residential housing and substantial corporate campus buildings creates a roofing market that demands versatility.',
+      'Roseland\'s residential neighborhoods have reached a critical inflection point for roofing. Homes built during the 1950s and 1960s may have already undergone one roof replacement, while those from the 1970s are typically approaching or past the useful life of their original builder-grade shingles. The most common residential roofing scenario in Roseland involves a full tear-off of aging three-tab or early architectural shingles, inspection and repair of plywood or OSB decking that has endured decades of seasonal cycling, and installation of modern architectural shingle systems with proper underlayment and ventilation upgrades. Newark Quality Roofing has completed hundreds of these transitions throughout Roseland, developing efficient workflows that minimize disruption to homeowners while delivering substantial improvements in appearance, durability, and energy efficiency.',
+      'The corporate and commercial roofing market in Roseland is anchored by the ADP campus and the surrounding office parks along Eisenhower Parkway and Eagle Rock Avenue. These multi-story buildings feature large-area flat and low-slope roof systems that require commercial-grade maintenance, periodic membrane replacement, and professional management of the rooftop mechanical equipment — HVAC units, cooling towers, telecommunications arrays — that these facilities depend upon. Newark Quality Roofing serves several of Roseland\'s commercial property managers with comprehensive roofing programs that include scheduled inspections, preventive maintenance, emergency leak response, and capital planning for full roof system replacement.',
+      'Roseland\'s position along the eastern slope of the Watchung Mountains creates specific weather exposure patterns. The borough receives full northeast winter weather including significant snow accumulation, repeated freeze-thaw cycling, and ice formation that tests every flashing and drainage detail. Summer thunderstorms arrive from the west across the open terrain of Morris County, sometimes building significant energy before reaching Roseland. Our roofing specifications for the borough account for these exposures with enhanced ice-and-water shield coverage, wind-rated fastening patterns, and drainage design verified to handle the intense rainfall events that climate change is making increasingly common.',
+    ],
+    residential: {
+      heading: 'Residential Roofing for Roseland\'s Established Neighborhoods',
+      content: [
+        'Roseland\'s residential housing stock tells the story of suburban New Jersey\'s most productive building decades. Colonials from the 1950s with their classic symmetrical facades and side-gable roofs stand alongside split-levels and bi-levels from the 1960s with their characteristic multi-plane roof geometries, and ranch homes from the 1960s-1970s with their extended hip or gable roofs covering single-story footprints. Each era brought distinct construction techniques and roofing challenges that our crews understand intimately. The 1950s colonials often feature original board sheathing rather than plywood, requiring careful evaluation and selective replacement during re-roofing. The 1960s split-levels have complex roof-wall intersections at the split point that are notorious for flashing failures. Ranch homes with wide spans sometimes show sag or deflection in original rafters that must be assessed before loading new materials.',
+        'Our standard residential approach for Roseland homes emphasizes completeness. Rather than simply replacing shingles, we address the entire roof system — from ventilation and insulation assessment through decking inspection, underlayment installation, and final shingle application. This systems-based approach ensures that the new shingle layer has every advantage for maximum longevity: dry, solid decking beneath synthetic underlayment; proper ice-and-water shield at all eaves, valleys, sidewalls, and penetrations; balanced ventilation with adequate intake at soffits and exhaust at ridges; and premium architectural shingles installed to manufacturer specifications with proper nailing patterns and exposure dimensions.',
+        'Roseland homeowners increasingly request cosmetic upgrades during re-roofing projects. New architectural shingles in contemporary color palettes, upgraded gutter systems with concealed hangers, refreshed fascia and soffit trim, and new or improved ridge ventilation all contribute to a comprehensive exterior improvement. We coordinate these related services within the roofing project timeline, providing homeowners with a single contractor, a single project schedule, and a unified warranty for all work performed.',
+      ],
+    },
+    commercial: {
+      heading: 'Corporate Campus and Commercial Roofing in Roseland',
+      content: [
+        'Roseland\'s corporate presence creates commercial roofing demands that are among the most sophisticated in Essex County. The ADP headquarters campus and surrounding office buildings feature large-area roof systems measured in tens of thousands of square feet, with complex configurations of rooftop mechanical equipment, telecommunications infrastructure, and building access points that must be integrated into the roofing membrane without compromising weather protection. These buildings require contractors with specific experience in commercial roofing systems — TPO, EPDM, PVC, and modified bitumen membranes — along with the safety training, insurance coverage, and project management capabilities that corporate facility managers demand.',
+        'Our commercial services for Roseland corporate properties encompass the full lifecycle of roof system management. New construction and full replacement projects involve membrane selection, insulation design, drainage engineering, and penetration detailing that together determine the system\'s performance for decades. We provide comparative analyses of membrane options — evaluating TPO for reflectivity and weldability, PVC for chemical resistance near mechanical equipment, EPDM for flexibility and proven long-term performance — and recommend the system best suited to each building\'s specific conditions and the owner\'s performance requirements.',
+        'Preventive maintenance is the foundation of cost-effective commercial roof management, and Roseland\'s building managers recognize its value. Our maintenance programs include quarterly or semi-annual inspections with detailed reporting, proactive repair of developing issues before they cause interior damage, drainage verification to prevent ponding, sealant and flashing assessment at all penetrations, and annual membrane condition evaluation to support long-range capital planning. For multi-building campuses, we provide consolidated reporting and prioritized maintenance recommendations that help facility managers allocate budgets effectively.',
+      ],
+    },
+    weatherChallenges: {
+      heading: 'Roseland Weather Challenges and Roofing Solutions',
+      content: [
+        'Roseland\'s location along the eastern slope of the Watchung ridgeline creates notable weather exposure patterns. The borough receives heavier precipitation than lower-elevation communities to the east, with winter snow accumulations that test roof structural capacity and drainage systems. Ice damming is a persistent concern on the multi-level residential roofs that characterize Roseland\'s 1960s split-levels and bi-levels — the offset roof planes and complex wall intersections common to these designs create natural ice barrier formation points that require extended ice-and-water shield coverage and carefully designed ventilation to manage.',
+        'Commercial buildings in Roseland face additional weather-related challenges centered on drainage. Large flat roofs must move substantial volumes of water efficiently during heavy rainfall events to prevent ponding — standing water that accelerates membrane deterioration and adds structural load. Our commercial installations include drainage slope verification, scupper and internal drain assessment, and tapered insulation systems that direct water to drains even when original roof decks lack adequate slope. For existing commercial roofs experiencing ponding issues, we provide retrofit drainage solutions that resolve the problem without requiring full membrane replacement.',
+      ],
+    },
+    neighborhoods: [
+      { name: 'Eagle Rock Avenue Corridor', description: 'Roseland\'s main thoroughfare with residential, retail, and professional offices' },
+      { name: 'ADP Corporate Campus Area', description: 'Major corporate headquarters with multi-building campus roofing requirements' },
+      { name: 'Eisenhower Parkway Office Parks', description: 'Professional office buildings and commercial properties' },
+      { name: 'Becker Farm Road', description: 'Established residential neighborhood with 1960s-70s colonials and split-levels' },
+      { name: 'Harrison Avenue Area', description: 'Quiet residential streets with well-maintained mid-century homes' },
+      { name: 'Laurel Avenue', description: 'Tree-lined residential corridor with ranches and colonials from the 1950s-1960s' },
+    ],
+    projectSpotlights: [
+      {
+        title: 'Corporate Office Roof Replacement — Eisenhower Parkway',
+        type: 'commercial',
+        description:
+          'Replaced a 45,000 sq ft EPDM membrane on a three-story office building along Eisenhower Parkway, including re-flashing of 28 HVAC penetrations, new tapered insulation for drainage improvement, and upgraded roof access walkway pads.',
+        details: [
+          '45,000 sq ft 60-mil EPDM fully adhered membrane system',
+          '28 HVAC penetration flashings rebuilt to manufacturer specification',
+          'Tapered polyiso insulation eliminating 6 ponding areas',
+          'Installation completed in phases during occupied building operations',
+        ],
+      },
+      {
+        title: 'Split-Level Transformation — Becker Farm Road',
+        type: 'residential',
+        description:
+          'Transformed a 1965 split-level by removing the original three-tab roof, repairing the critical split-point wall-roof intersection, and installing GAF Timberline HDZ architectural shingles with upgraded ventilation.',
+        details: [
+          'Custom flashing fabrication at split-level roof-wall transition',
+          'GAF Timberline HDZ with Golden Pledge warranty',
+          'Upgraded from gable vents to continuous ridge and soffit ventilation',
+        ],
+      },
+      {
+        title: 'Colonial Re-Roof with Gutter Upgrade — Harrison Avenue',
+        type: 'residential',
+        description:
+          'Complete re-roofing of a 1958 colonial including selective board sheathing replacement, architectural shingle installation, and new seamless aluminum gutter system with concealed hangers and oversized downspouts.',
+        details: [
+          'Replaced 18 boards of original skip sheathing with plywood',
+          'Owens Corning Duration architectural shingles in Driftwood',
+          'New 6-inch seamless aluminum gutters with 3x4 downspouts',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        name: 'Michael B., Facility Director',
+        rating: 5,
+        text: 'We contracted Newark Quality Roofing for a major membrane replacement on our Roseland office building. Their team managed the project flawlessly — coordinating around our tenants, re-flashing dozens of HVAC units, and delivering a warranted system on schedule. They now maintain all our Roseland roofing assets.',
+        service: 'Commercial Roof Replacement',
+      },
+      {
+        name: 'Susan G.',
+        rating: 5,
+        text: 'Our 1960s split-level on Becker Farm Road had a chronic leak at the split-point where the roof meets the upper wall. Previous contractors couldn\'t solve it. Newark Quality Roofing identified the flashing failure, fabricated a custom solution, and re-roofed the entire home. Two years later — completely dry.',
+        service: 'Roof Replacement',
+      },
+      {
+        name: 'Anthony P.',
+        rating: 5,
+        text: 'Straightforward, professional, and reasonably priced. They replaced our Roseland ranch roof in two days, cleaned up every nail, and the new shingles look great. No surprises, no upsells — just good honest roofing work. Would recommend without hesitation.',
+        service: 'Roof Replacement',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Do you provide commercial roofing services for Roseland\'s corporate buildings?',
+        answer: 'Yes, we serve several of Roseland\'s corporate and commercial properties with full-service roofing including membrane replacement, preventive maintenance programs, emergency leak response, and capital planning assistance. Our commercial team has the training, safety certifications, and insurance coverage that corporate facility managers require.',
+      },
+      {
+        question: 'How do you handle the split-level roof challenges common in Roseland?',
+        answer: 'Split-level homes from the 1960s have a well-known weakness at the roof-wall intersection where the split occurs. We address this with custom-fabricated step flashing, extended ice-and-water shield coverage, and counter-flashing integration into the wall system. Our approach resolves the chronic leaks that many Roseland split-level owners experience.',
+      },
+      {
+        question: 'What brands of shingles do you recommend for Roseland homes?',
+        answer: 'We are certified installers for GAF, Owens Corning, and CertainTeed. For Roseland\'s established colonials and split-levels, we typically recommend GAF Timberline HDZ or Owens Corning Duration — both offer excellent wind and impact resistance, attractive dimensional profiles, and lifetime manufacturer warranties that we can extend with our preferred installer certifications.',
+      },
+      {
+        question: 'Do you offer maintenance programs for commercial buildings in Roseland?',
+        answer: 'We offer structured maintenance programs tailored to each building\'s needs — quarterly or semi-annual inspections, photographic reporting, proactive repairs, drainage verification, and annual condition assessments. These programs extend roof life by 30-40% and provide the documentation facility managers need for budgeting and insurance.',
+      },
+      {
+        question: 'How long does a residential roof replacement take in Roseland?',
+        answer: 'Most Roseland residential roof replacements are completed in 1-3 days depending on home size and roof complexity. Split-levels and colonials with standard roof geometries typically require 2 days. We handle all borough permit applications, inspections, and coordination so homeowners can focus on selecting their preferred shingle style and color.',
+      },
+      {
+        question: 'Can you repair just a section of our roof, or is full replacement necessary?',
+        answer: 'It depends on the roof\'s overall condition. If the existing shingles have 5+ years of remaining life and the damage is localized, targeted repair can be cost-effective. If the roof is approaching end-of-life, full replacement provides better long-term value than patching deteriorating materials. We provide honest assessments and never recommend replacement when repair will serve the homeowner well.',
+      },
+    ],
+    whyChoose: {
+      heading: 'Why Roseland Property Owners Trust Newark Quality Roofing',
+      reasons: [
+        {
+          title: 'Corporate and Residential Expertise',
+          description: 'Roseland\'s unique mix of corporate campuses and established residential neighborhoods requires a contractor fluent in both worlds. Our commercial and residential teams bring specialized expertise to every project type the borough demands.',
+        },
+        {
+          title: 'Mid-Century Home Specialists',
+          description: 'We understand the specific construction methods, common failure points, and upgrade opportunities in Roseland\'s 1950s-1970s housing stock. Our split-level, colonial, and ranch roof solutions address the root causes of problems, not just the symptoms.',
+        },
+        {
+          title: 'Proven Commercial Track Record',
+          description: 'Roseland\'s corporate property managers trust us because we deliver — on time, on budget, and with the professionalism that corporate environments demand. Our maintenance programs protect building assets while our replacement projects provide decades of warranted performance.',
+        },
+        {
+          title: 'Full-Service Convenience',
+          description: 'From roofing to gutters, fascia, soffits, and ventilation, we handle every exterior element above the wall line. Roseland homeowners get comprehensive service from a single contractor with a unified warranty.',
+        },
+      ],
+    },
+    metaTitle: 'Roofing Services in Roseland NJ | Newark Quality Roofing',
+    metaDescription:
+      'Professional roofing in Roseland, NJ. Residential and commercial specialists serving established neighborhoods and corporate campuses. Licensed and insured.',
   },
 ];
