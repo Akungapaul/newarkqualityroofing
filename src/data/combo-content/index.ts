@@ -1,14 +1,12 @@
 import type { ComboContent } from './schema';
+import { newarkComboContent } from './newark';
 
 // ─── Content aggregator ─────────────────────────────────────────────────────
 // All combo content objects from city batch files, collected here.
-// Validation happens per-city-batch in each city's index.ts (not here on empty array).
-
-// City imports added as content is authored
-// Example: import { newarkComboContent } from './newark';
+// Validation happens per-city-batch in each city's index.ts (Zod z.array().parse()).
 
 const allContent: ComboContent[] = [
-  // ...newarkComboContent,
+  ...newarkComboContent,
 ];
 
 // ─── Map-based O(1) lookup ──────────────────────────────────────────────────
