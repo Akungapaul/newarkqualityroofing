@@ -12,16 +12,16 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 Phase: 4 of 9 (City Pages and Local SEO)
 Plan: 6 of 7 in current phase
 Status: In progress
-Last activity: 2026-03-07 -- Completed 04-06-PLAN.md (affluent suburban city content)
+Last activity: 2026-03-07 -- Completed 04-02-PLAN.md (urban core city content)
 
-Progress: [█████████████████████░] 60% (21/35 plans)
+Progress: [██████████████████████░] 63% (22/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 21
+- Total plans completed: 22
 - Average duration: 6.0min
-- Total execution time: ~3 hours
+- Total execution time: ~3.2 hours
 
 **By Phase:**
 
@@ -30,11 +30,11 @@ Progress: [█████████████████████░] 6
 | 01 | 4/4 | 14min | 3.5min |
 | 02 | 5/5 | 14min | 2.8min |
 | 03 | 9/9 | ~144min | ~16min |
-| 04 | 2/7 | 9min | 4.5min |
+| 04 | 3/7 | 18min | 6min |
 
 **Recent Trend:**
-- Last 5 plans: 03-08 (12min), 03-09 (8min), 04-01 (4min), 04-06 (5min)
-- Trend: City content plans running faster than service content plans
+- Last 5 plans: 03-09 (8min), 04-01 (4min), 04-06 (5min), 04-02 (9min)
+- Trend: City content plans running efficiently with parallel execution
 
 *Updated after each plan completion*
 
@@ -92,6 +92,7 @@ Recent decisions affecting current work:
 - [04-06]: Millburn content uses estate/luxury language with slate, copper, architect collaboration focus
 - [04-06]: Livingston content uses upper-middle professional voice with split-level expertise and HOA navigation
 - [04-06]: Aggregator index.ts now has Zod z.array(CityContentSchema).parse() at module level
+- [04-02]: Newark metaDescription trimmed from 161 to 150 chars to pass Zod max(160) validation
 
 ### Pending Todos
 
@@ -149,9 +150,10 @@ Recent decisions affecting current work:
 - CityTemplate with full layout, ToC sidebar, and graceful content fallback
 - getCityContent aggregator ready for content plans 04-02 through 04-06
 - Metadata wiring with content metaTitle/metaDescription fallback
+- Urban core content: Newark (2,874w), East Orange (2,820w), Orange (2,868w), Irvington (3,162w) -- all Zod-validated
 
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 04-06-PLAN.md (affluent suburban city content)
+Stopped at: Completed 04-02-PLAN.md (urban core city content)
 Resume file: None
