@@ -37,5 +37,5 @@ export const millburnCommercialRoofInstallation: ComboContent = {
       answer: 'We offer manufacturer warranties ranging from 15 to 30 years depending on the system specified and the level of manufacturer quality assurance involvement. For Millburn commercial properties, we typically recommend 20 to 25 year NDL (No Dollar Limit) warranties that cover all repair costs including labor for the full warranty period. NDL warranties require manufacturer inspection during installation and annual maintenance compliance, but they eliminate future repair cost uncertainty and protect the property owner\'s capital investment. Our workmanship guarantee covers installation quality beyond the manufacturer warranty terms.'
     }
   ],
-  metaDescription: 'Commercial roof installation for Millburn Avenue retail, Short Hills Mall, and professional offices. Tenant-sensitive execution with architectural-grade finishes.',
+  metaDescription: 'Commercial roof installation for Millburn Avenue retail and Short Hills Mall. Tenant-sensitive execution with architectural-grade finishes.',
 };

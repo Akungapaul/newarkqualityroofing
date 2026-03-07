@@ -41,5 +41,5 @@ export const newarkAsphaltShingleRoofing: ComboContent = {
       answer: 'Yes. We stock and recommend copper-granule algae-resistant shingles for all Newark installations. The humid urban microclimate promotes algae growth faster than suburban areas. Algae-resistant shingles carry a manufacturer warranty against black streaking and eliminate the need for periodic roof cleaning treatments.',
     },
   ],
-  metaDescription: 'Newark NJ asphalt shingle roofing experts. Architectural and 3-tab shingles engineered for urban heat island conditions across Vailsburg, Forest Hill, and Roseville.',
+  metaDescription: 'Newark NJ asphalt shingle roofing experts. Architectural and 3-tab shingles engineered for urban heat island conditions across Vailsburg and Forest Hill.',
 };

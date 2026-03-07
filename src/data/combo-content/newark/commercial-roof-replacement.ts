@@ -43,5 +43,5 @@ export const newarkCommercialRoofReplacement: ComboContent = {
       answer: 'Yes. When a commercial roof in Newark is replaced to the deck, the new assembly must comply with the current New Jersey energy code, which requires minimum insulation R-values and, for low-slope roofs, minimum solar reflectance values. This code-triggered upgrade is mandatory regardless of what the original roof provided. While it increases the initial investment compared to a like-for-like replacement, the energy performance improvement typically reduces annual HVAC costs by fifteen to twenty-five percent -- delivering measurable return on the mandated upgrade throughout the new roof\'s service life.'
     }
   ],
-  metaDescription: 'Commercial roof replacement in Newark NJ. Full system replacement with budget forecasting, tenant coordination, and energy code compliance for commercial properties.',
+  metaDescription: 'Commercial roof replacement in Newark NJ. Full system replacement with budget forecasting, tenant coordination, and energy code compliance for properties.',
 };

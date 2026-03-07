@@ -37,5 +37,5 @@ export const newarkResidentialRoofInstallation: ComboContent = {
       answer: 'Our crews are equipped and experienced to handle framing repairs discovered during tear-off. Common findings in older Newark homes include rotted rafter tails, deteriorated plank sheathing, and inadequate collar ties. We document and photograph all structural work, adjust the scope with your approval, and ensure repairs meet current building code before proceeding with the new roof installation.',
     },
   ],
-  metaDescription: 'Professional residential roof installation in Newark NJ. Expert replacements for single-family and multi-family homes across Forest Hill, Vailsburg, and Ironbound.',
+  metaDescription: 'Professional residential roof installation in Newark NJ. Expert replacements for single-family and multi-family homes across Forest Hill and Vailsburg.',
 };

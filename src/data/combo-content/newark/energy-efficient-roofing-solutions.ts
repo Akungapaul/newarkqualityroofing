@@ -38,5 +38,5 @@ export const newarkEnergyEfficientRoofingSolutions: ComboContent = {
       answer: 'Absolutely. Unimproved brownstone attics in Newark routinely reach 130 to 140 degrees Fahrenheit on summer afternoons, which radiates heat into the living spaces below even with window air conditioning running continuously. A properly designed energy-efficient roof assembly -- combining reflective surface material, radiant barrier, adequate insulation, and continuous ventilation -- can reduce peak attic temperatures by forty to sixty degrees. This transforms the attic from a heat source into a thermal buffer, dramatically reducing cooling loads on the floors below.'
     }
   ],
-  metaDescription: 'Energy-efficient roofing solutions in Newark NJ. Cool roof systems, thermal audits, and insulation upgrades to cut cooling costs in urban heat island conditions.',
+  metaDescription: 'Energy-efficient roofing solutions in Newark NJ. Cool roof systems, thermal audits, and insulation upgrades cutting cooling costs in urban heat islands.',
 };
