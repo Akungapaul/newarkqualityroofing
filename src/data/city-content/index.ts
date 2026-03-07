@@ -1,10 +1,17 @@
+import { z } from 'zod';
+import { CityContentSchema } from '@/lib/schemas';
 import type { CityContent } from '@/lib/types';
+import { affluentSuburbanContent } from './affluent-suburban';
 
 // ─── Content aggregator ─────────────────────────────────────────────────────
 // Content files will be added in plans 04-02 through 04-06.
 // Each file exports a CityContent[] array which gets spread into allContent.
 
-const allContent: CityContent[] = [];
+const allContent: CityContent[] = z
+  .array(CityContentSchema)
+  .parse([
+    ...affluentSuburbanContent,
+  ]);
 
 // ─── Map-based O(1) lookup ──────────────────────────────────────────────────
 

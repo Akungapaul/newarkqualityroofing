@@ -346,6 +346,6 @@ export const affluentSuburbanContent: CityContent[] = [
     },
     metaTitle: 'Roofing Contractor Millburn & Short Hills NJ | Premium',
     metaDescription:
-      'Premier roofing in Millburn & Short Hills, NJ. Slate restoration, copper fabrication, and architect-specified installations for estate properties. Free consultation.',
+      'Premier roofing in Millburn & Short Hills, NJ. Slate restoration, copper work, and architect-specified installations for estates. Free consultation.',
   },
 ];
