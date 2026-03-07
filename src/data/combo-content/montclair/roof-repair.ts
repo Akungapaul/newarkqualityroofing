@@ -41,5 +41,5 @@ export const montclairRoofRepair: ComboContent = {
       answer: 'Properties along the Watchung Ridge and in Upper Montclair face higher wind loads than valley locations. For shingle roofs, we specify products rated for 130 mph wind resistance with enhanced six-nail fastening patterns. For slate roofs, copper hooks with stainless steel fasteners resist the wind uplift that loosens traditional iron nail installations. Ridge caps receive additional sealant applications, and exposed flashing uses heavier-gauge copper or stainless steel. These specifications add modest cost but dramatically reduce the frequency of wind-related repairs on high-elevation Montclair properties.'
     }
   ],
-  metaDescription: 'Montclair NJ roof repair specialists -- Victorian slate restoration, Tudor junction repair, and tree damage solutions for historic and architecturally significant homes.',
+  metaDescription: 'Montclair NJ roof repair -- Victorian slate restoration, Tudor junction repair, tree damage solutions for historic homes along Watchung Ridge.',
 };
