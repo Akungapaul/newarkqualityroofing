@@ -6,6 +6,7 @@ import { cities } from '@/data/cities';
 import { combos } from '@/data/combos';
 import { comparisons } from '@/data/comparisons';
 import { corePages } from '@/data/core-pages';
+import { getCityContent } from '@/data/city-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -42,6 +43,18 @@ export async function generateMetadata({
     }
     case 'city': {
       const city = cities.find((c) => c.id === pageData.cityId);
+      // Use content metaTitle/metaDescription when available, fallback to generic
+      if (city) {
+        try {
+          const cityContent = getCityContent(city.id);
+          return {
+            title: cityContent.metaTitle,
+            description: cityContent.metaDescription,
+          };
+        } catch {
+          // Content not yet available -- use generic metadata
+        }
+      }
       return {
         title: `Roofing Services in ${city?.name}, NJ | Newark Quality Roofing`,
         description: `Professional roofing services in ${city?.name}, ${city?.county} County NJ. Licensed and insured local roofers. Free estimates.`,

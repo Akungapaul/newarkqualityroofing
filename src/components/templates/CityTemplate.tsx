@@ -1,57 +1,203 @@
-import type { City } from '@/lib/types';
+import type { City, CityContent } from '@/lib/types';
+import { cities } from '@/data/cities';
+import { getServiceMenuGroups } from '@/data/nav-data';
+import { getCityContent } from '@/data/city-content';
+import { FloatingCtaButton } from '@/components/sections/FloatingCtaButton';
+import { CityHero } from '@/components/sections/CityHero';
+import { CityStatsBar } from '@/components/sections/CityStatsBar';
+import { CityTableOfContents } from '@/components/sections/CityTableOfContents';
+import { CityOverview } from '@/components/sections/CityOverview';
+import { CityResidential } from '@/components/sections/CityResidential';
+import { CityCommercial } from '@/components/sections/CityCommercial';
+import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
+import { CityServicesGrid } from '@/components/sections/CityServicesGrid';
+import { CityTestimonials } from '@/components/sections/CityTestimonials';
+import { CityProjectSpotlights } from '@/components/sections/CityProjectSpotlights';
+import { CityFaqs } from '@/components/sections/CityFaqs';
+import { CityMapNap } from '@/components/sections/CityMapNap';
+import { CityNearbyCities } from '@/components/sections/CityNearbyCities';
+import { CityCtaBanner } from '@/components/sections/CityCtaBanner';
+
+// ─── Table of Contents sections ─────────────────────────────────────────────
+
+const tocSections = [
+  { id: 'overview', label: 'Overview' },
+  { id: 'residential', label: 'Residential' },
+  { id: 'commercial', label: 'Commercial' },
+  { id: 'neighborhoods', label: 'Neighborhoods' },
+  { id: 'services', label: 'Services' },
+  { id: 'why-choose', label: 'Why Choose Us' },
+  { id: 'testimonials', label: 'Testimonials' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'faqs', label: 'FAQs' },
+  { id: 'location', label: 'Location' },
+  { id: 'nearby', label: 'Nearby Cities' },
+];
+
+// ─── Template Component ─────────────────────────────────────────────────────
 
 interface CityTemplateProps {
   city: City;
 }
 
 export default function CityTemplate({ city }: CityTemplateProps) {
-  return (
-    <div className="min-h-screen bg-parchment px-6 py-16">
-      <main className="mx-auto max-w-3xl">
-        {/* Page type badge */}
-        <span className="inline-block rounded-sm bg-copper px-3 py-1 font-body text-xs font-semibold uppercase tracking-wider text-text-on-copper">
-          City
-        </span>
+  const serviceGroups = getServiceMenuGroups();
 
-        {/* City name */}
-        <h1 className="mt-4 font-heading text-4xl font-bold text-forest sm:text-5xl">
-          Roofing Services in {city.name}, NJ
-        </h1>
+  // Resolve adjacent cities
+  const adjacentCities = city.adjacentCityIds
+    .map((id) => cities.find((c) => c.id === id))
+    .filter((c): c is City => c !== undefined);
 
-        {/* City details */}
-        <div className="mt-4 flex flex-wrap gap-2">
-          <span className="rounded-sm border border-border px-2 py-1 font-body text-xs text-text-secondary">
-            {city.county} County
+  // Try to load real content; fall back to placeholder
+  let content: CityContent | null = null;
+  try {
+    content = getCityContent(city.id);
+  } catch {
+    // Content not yet available -- render placeholder
+  }
+
+  // ─── Placeholder fallback (before content files exist) ──────────────────
+
+  if (!content) {
+    return (
+      <div className="min-h-screen bg-parchment px-6 py-16">
+        <main className="mx-auto max-w-3xl">
+          <span className="inline-block rounded-sm bg-copper px-3 py-1 font-body text-xs font-semibold uppercase tracking-wider text-text-on-copper">
+            City
           </span>
-          {city.isHQ && (
-            <span className="rounded-sm border border-forest/30 bg-forest/10 px-2 py-1 font-body text-xs text-forest">
-              Headquarters
+          <h1 className="mt-4 font-heading text-4xl font-bold text-forest sm:text-5xl">
+            Roofing Services in {city.name}, NJ
+          </h1>
+          <div className="mt-4 flex flex-wrap gap-2">
+            <span className="rounded-sm border border-border px-2 py-1 font-body text-xs text-text-secondary">
+              {city.county} County
             </span>
-          )}
-        </div>
-
-        {/* Zip codes */}
-        <p className="mt-6 font-body text-sm text-text-secondary">
-          Serving zip codes: {city.zipCodes.join(', ')}
-        </p>
-
-        {/* Placeholder content area */}
-        <div className="mt-12 rounded-sm border-2 border-dashed border-border p-8 text-center">
-          <p className="font-body text-text-secondary">
-            Full city content coming in Phase 4
+            {city.isHQ && (
+              <span className="rounded-sm border border-forest/30 bg-forest/10 px-2 py-1 font-body text-xs text-forest">
+                Headquarters
+              </span>
+            )}
+          </div>
+          <p className="mt-6 font-body text-sm text-text-secondary">
+            Serving zip codes: {city.zipCodes.join(', ')}
           </p>
-        </div>
+          <div className="mt-12 rounded-sm border-2 border-dashed border-border p-8 text-center">
+            <p className="font-body text-text-secondary">
+              Full city content coming soon
+            </p>
+          </div>
+        </main>
+      </div>
+    );
+  }
 
-        {/* Placeholder lead form area */}
-        <div className="mt-8 rounded-sm border-2 border-dashed border-copper/40 bg-copper/5 p-8 text-center">
-          <p className="font-heading text-lg font-semibold text-forest">
-            Get a Free Estimate in {city.name}
-          </p>
-          <p className="mt-2 font-body text-sm text-text-secondary">
-            Lead form coming in Phase 6
-          </p>
+  // ─── Full content rendering ─────────────────────────────────────────────
+
+  return (
+    <>
+      <FloatingCtaButton />
+
+      <CityHero city={city} content={content} serviceGroups={serviceGroups} />
+
+      <CityStatsBar stats={content.stats} cityName={city.name} />
+
+      {/* Main content with ToC sidebar */}
+      <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+        <div className="lg:grid lg:grid-cols-4 lg:gap-10">
+          {/* Sidebar: Table of Contents */}
+          <aside className="hidden lg:block lg:col-span-1">
+            <CityTableOfContents sections={tocSections} />
+          </aside>
+
+          {/* Main content column */}
+          <main className="space-y-16 lg:col-span-3">
+            <section id="overview">
+              <CityOverview
+                paragraphs={content.overview}
+                cityName={city.name}
+                weatherChallenges={content.weatherChallenges}
+              />
+            </section>
+
+            <section id="residential">
+              <CityResidential
+                heading={content.residential.heading}
+                content={content.residential.content}
+              />
+            </section>
+
+            <section id="commercial">
+              <CityCommercial
+                heading={content.commercial.heading}
+                content={content.commercial.content}
+              />
+            </section>
+
+            <section id="neighborhoods">
+              <CityNeighborhoods
+                neighborhoods={content.neighborhoods}
+                cityName={city.name}
+              />
+            </section>
+
+            <section id="services">
+              <CityServicesGrid cityName={city.name} />
+            </section>
+
+            <section id="why-choose">
+              <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+                {content.whyChoose.heading}
+              </h2>
+              <div className="mt-6 grid gap-6 sm:grid-cols-2">
+                {content.whyChoose.reasons.map((reason) => (
+                  <div
+                    key={reason.title}
+                    className="rounded-lg border border-border bg-white p-5 shadow-sm"
+                  >
+                    <h3 className="font-heading text-lg font-semibold text-forest">
+                      {reason.title}
+                    </h3>
+                    <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
+                      {reason.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section id="testimonials">
+              <CityTestimonials
+                testimonials={content.testimonials}
+                cityName={city.name}
+              />
+            </section>
+
+            <section id="projects">
+              <CityProjectSpotlights
+                spotlights={content.projectSpotlights}
+                cityName={city.name}
+              />
+            </section>
+
+            <section id="faqs">
+              <CityFaqs faqs={content.faqs} cityName={city.name} />
+            </section>
+
+            <section id="location">
+              <CityMapNap cityName={city.name} state={city.state} />
+            </section>
+
+            <section id="nearby">
+              <CityNearbyCities
+                adjacentCities={adjacentCities}
+                currentCityName={city.name}
+              />
+            </section>
+          </main>
         </div>
-      </main>
-    </div>
+      </div>
+
+      <CityCtaBanner cityName={city.name} />
+    </>
   );
 }
