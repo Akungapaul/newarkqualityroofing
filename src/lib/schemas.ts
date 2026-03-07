@@ -137,3 +137,58 @@ export const ServiceContentSchema = z.object({
     answer: z.string(),
   })).min(4).max(10),
 });
+
+// ─── City Content ──────────────────────────────────────────────────────────
+
+export const CityContentSchema = z.object({
+  cityId: z.string(),
+  heroHeadline: z.string(),
+  heroSubheadline: z.string(),
+  stats: z.object({
+    projectCount: z.string(),
+    servingSince: z.string(),
+    rating: z.string(),
+  }),
+  overview: z.array(z.string()).min(3).max(6),
+  residential: z.object({
+    heading: z.string(),
+    content: z.array(z.string()).min(2).max(5),
+  }),
+  commercial: z.object({
+    heading: z.string(),
+    content: z.array(z.string()).min(2).max(5),
+  }),
+  weatherChallenges: z.object({
+    heading: z.string(),
+    content: z.array(z.string()).min(1).max(3),
+  }),
+  neighborhoods: z.array(z.object({
+    name: z.string(),
+    description: z.string().optional(),
+  })).min(3).max(15),
+  projectSpotlights: z.array(z.object({
+    title: z.string(),
+    type: z.enum(['residential', 'commercial']),
+    description: z.string(),
+    details: z.array(z.string()).min(2).max(4),
+  })).min(2).max(5),
+  testimonials: z.array(z.object({
+    name: z.string(),
+    rating: z.number().min(4).max(5),
+    text: z.string(),
+    service: z.string(),
+  })).min(2).max(5),
+  faqs: z.array(z.object({
+    question: z.string(),
+    answer: z.string(),
+  })).min(5).max(8),
+  whyChoose: z.object({
+    heading: z.string(),
+    reasons: z.array(z.object({
+      title: z.string(),
+      description: z.string(),
+    })).min(3).max(6),
+  }),
+  metaTitle: z.string().max(70),
+  metaDescription: z.string().max(160),
+});
