@@ -5,22 +5,22 @@
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 3 complete -- moving to Phase 4 (City Pages and Local SEO)
+**Current focus:** Phase 4 (City Pages and Local SEO) -- plan 01 complete, content plans next
 
 ## Current Position
 
-Phase: 3 of 9 (Service Pages) -- COMPLETE
-Plan: 9 of 9 in current phase (all complete)
-Status: Phase complete
-Last activity: 2026-03-06 -- Completed all gap closure plans (03-05 through 03-09)
+Phase: 4 of 9 (City Pages and Local SEO)
+Plan: 1 of 7 in current phase
+Status: In progress
+Last activity: 2026-03-07 -- Completed 04-01-PLAN.md (city page infrastructure)
 
-Progress: [███████████████████░] 54% (19/35 plans)
+Progress: [████████████████████░] 57% (20/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 19
-- Average duration: 6.3min
+- Total plans completed: 20
+- Average duration: 6.1min
 - Total execution time: ~3 hours
 
 **By Phase:**
@@ -30,10 +30,11 @@ Progress: [███████████████████░] 54% (19
 | 01 | 4/4 | 14min | 3.5min |
 | 02 | 5/5 | 14min | 2.8min |
 | 03 | 9/9 | ~144min | ~16min |
+| 04 | 1/7 | 4min | 4min |
 
 **Recent Trend:**
-- Last 5 plans: 03-05 (11min), 03-06 (12min), 03-07 (12min), 03-08 (12min), 03-09 (8min)
-- Trend: Gap closure plans are fast -- targeted expansions rather than full content generation
+- Last 5 plans: 03-07 (12min), 03-08 (12min), 03-09 (8min), 04-01 (4min)
+- Trend: Infrastructure plans are fast; content plans take longer
 
 *Updated after each plan completion*
 
@@ -84,14 +85,17 @@ Recent decisions affecting current work:
 - [03-07]: Relaxed Zod schema array max constraints (overview 3->5, approachContent 4->5, content 4->5) for expanded content
 - [03-08]: All 8 commercial roof type services expanded to 2,000+ words with material science, lifecycle cost analysis
 - [03-09]: All 11 services across commercial, energy/solar, design/consultation files expanded to 2,000+ words
+- [04-01]: CityCtaBanner uses phone CTA + contact page link instead of inline LeadForm
+- [04-01]: WhyChoose rendered inline in CityTemplate (simple reasons grid, no separate component)
+- [04-01]: Category labels duplicated in CityServicesGrid for self-containment
+- [04-01]: Service links point to service pages with TODO for Phase 6 combo URL update
 
 ### Pending Todos
 
-None yet.
+- Phase 6: Update CityServicesGrid links to combo page URLs
 
 ### Blockers/Concerns
 
-- City-specific data (neighborhoods, building codes, weather) for 21 cities needs research before Phase 4
 - Photo asset library (50-100 curated stock images) needs sourcing before Phase 9
 
 ### Phase 1 Deliverables (Complete)
@@ -133,8 +137,18 @@ None yet.
 - All 65 services at 2,000+ words after gap closure (03-05 through 03-09)
 - Zod schema relaxed to accommodate expanded content arrays
 
+### Phase 4 Deliverables (In Progress)
+
+- CityContentSchema with 14 validated fields for city page content
+- CityContent type inferred from schema
+- useScrollSpy hook with IntersectionObserver for ToC
+- 14 city section components (Hero, StatsBar, ToC, Overview, Residential, Commercial, Neighborhoods, ServicesGrid, Testimonials, ProjectSpotlights, Faqs, MapNap, NearbyCities, CtaBanner)
+- CityTemplate with full layout, ToC sidebar, and graceful content fallback
+- getCityContent aggregator ready for content plans 04-02 through 04-06
+- Metadata wiring with content metaTitle/metaDescription fallback
+
 ## Session Continuity
 
-Last session: 2026-03-06
-Stopped at: Phase 3 complete -- all 9 plans executed, gap closure verified
+Last session: 2026-03-07
+Stopped at: Completed 04-01-PLAN.md (city page infrastructure)
 Resume file: None
