@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 4 (City Pages and Local SEO) -- content plans in progress
+**Current focus:** Phase 4 complete -- ready for Phase 5 (Content Differentiation Engine)
 
 ## Current Position
 
 Phase: 4 of 9 (City Pages and Local SEO)
-Plan: 4 of 7 in current phase
-Status: In progress
-Last activity: 2026-03-07 -- Completed 04-05-PLAN.md (Caldwells-Roseland city content)
+Plan: 7 of 7 in current phase
+Status: Phase complete
+Last activity: 2026-03-07 -- Completed 04-07-PLAN.md (final integration and content completeness)
 
-Progress: [████████████████████████░] 69% (24/35 plans)
+Progress: [██████████████████████████░] 74% (26/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 24
-- Average duration: 6.1min
-- Total execution time: ~3.6 hours
+- Total plans completed: 26
+- Average duration: 6.3min
+- Total execution time: ~3.9 hours
 
 **By Phase:**
 
@@ -30,11 +30,11 @@ Progress: [███████████████████████
 | 01 | 4/4 | 14min | 3.5min |
 | 02 | 5/5 | 14min | 2.8min |
 | 03 | 9/9 | ~144min | ~16min |
-| 04 | 5/7 | 39min | 7.8min |
+| 04 | 7/7 | 56min | 8.0min |
 
 **Recent Trend:**
-- Last 5 plans: 04-06 (5min), 04-02 (9min), 04-03 (11min), 04-04 (10min)
-- Trend: City content plans running efficiently with parallel execution
+- Last 5 plans: 04-07 (17min), 04-06 (5min), 04-02 (9min), 04-03 (11min), 04-04 (10min)
+- Trend: 04-07 integration plan took longer due to content expansion across 14 cities
 
 *Updated after each plan completion*
 
@@ -103,6 +103,8 @@ Recent decisions affecting current work:
 - [04-05]: Essex Fells positioned as architect-collaboration, multi-structure estate projects
 - [04-05]: Fairfield uses dual residential/commercial voice for Route 46 corridor market
 - [04-05]: metaDescription trimmed for Caldwell, North Caldwell, Essex Fells, Roseland to fit Zod 160-char max
+- [04-07]: All try/catch fallbacks removed; getCityContent throws hard on missing content (caught at build time)
+- [04-07]: Content expansion focused on substantive local content (testimonials, projects, FAQs) not filler padding
 
 ### Pending Todos
 
@@ -151,22 +153,22 @@ Recent decisions affecting current work:
 - All 65 services at 2,000+ words after gap closure (03-05 through 03-09)
 - Zod schema relaxed to accommodate expanded content arrays
 
-### Phase 4 Deliverables (In Progress)
+### Phase 4 Deliverables (Complete)
 
 - CityContentSchema with 14 validated fields for city page content
 - CityContent type inferred from schema
 - useScrollSpy hook with IntersectionObserver for ToC
 - 14 city section components (Hero, StatsBar, ToC, Overview, Residential, Commercial, Neighborhoods, ServicesGrid, Testimonials, ProjectSpotlights, Faqs, MapNap, NearbyCities, CtaBanner)
-- CityTemplate with full layout, ToC sidebar, and graceful content fallback
-- getCityContent aggregator ready for content plans 04-02 through 04-06
-- Metadata wiring with content metaTitle/metaDescription fallback
-- Urban core content: Newark (2,874w), East Orange (2,820w), Orange (2,868w), Irvington (3,162w) -- all Zod-validated
-- First suburbs content: Bloomfield, Belleville, Nutley, Maplewood, South Orange -- 2,500+ words each, all Zod-validated
-- West Essex content: West Orange, Montclair, Glen Ridge, Verona, Cedar Grove -- 2,500+ words each, all Zod-validated
-- Caldwells-Roseland content: Caldwell, North Caldwell, Essex Fells, Fairfield, Roseland -- 2,500+ words each, all Zod-validated
+- CityTemplate with full layout and ToC sidebar (placeholder fallback removed in 04-07)
+- getCityContent aggregator with Map-based O(1) lookup, Zod-validated 21 cities at import
+- Metadata uses content.metaTitle/metaDescription directly (no fallback)
+- All 21 cities at 2,500+ words (range: 2,503-2,904) across 5 regional content files
+- Content regions: urban-core (4), first-suburbs (5), west-essex (5), caldwells-roseland (5), affluent-suburban (2)
+- Affluent suburban content: Millburn/Short Hills (estate/luxury), Livingston (professional suburban)
+- Build: 1,492 static pages including all 21 city pages
 
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 04-04-PLAN.md (west essex city content)
+Stopped at: Completed 04-07-PLAN.md (final integration and content completeness) -- Phase 4 complete
 Resume file: None
