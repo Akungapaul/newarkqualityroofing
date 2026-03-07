@@ -4,6 +4,8 @@ import type { CityContent } from '@/lib/types';
 import { affluentSuburbanContent } from './affluent-suburban';
 import { urbanCoreContent } from './urban-core';
 import { caldwellsRoselandContent } from './caldwells-roseland';
+import { westEssexContent } from './west-essex';
+import { firstSuburbsContent } from './first-suburbs';
 
 // ─── Content aggregator ─────────────────────────────────────────────────────
 // Content files will be added in plans 04-02 through 04-06.
@@ -14,6 +16,9 @@ const allContent: CityContent[] = z
   .parse([
     ...affluentSuburbanContent,
     ...urbanCoreContent,
+    ...caldwellsRoselandContent,
+    ...westEssexContent,
+    ...firstSuburbsContent,
   ]);
 
 // ─── Map-based O(1) lookup ──────────────────────────────────────────────────

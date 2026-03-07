@@ -229,7 +229,7 @@ export const firstSuburbsContent: CityContent[] = [
 
     metaTitle: 'Bloomfield NJ Roofing | Roof Repair & Replacement',
     metaDescription:
-      'Expert roofing services in Bloomfield, NJ. Roof replacement, repair, and storm damage restoration for Colonials, Capes, and commercial properties. Free estimates.',
+      'Expert roofing in Bloomfield, NJ. Roof replacement, repair, and storm damage restoration for Colonials, Capes, and commercial properties. Free estimates.',
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -680,6 +680,483 @@ export const firstSuburbsContent: CityContent[] = [
 
     metaTitle: 'Nutley NJ Roofing | Tudor Roof Specialists',
     metaDescription:
-      'Premium roofing services in Nutley, NJ. Tudor roof specialists, architectural shingle installations, and proactive maintenance for distinctive homes. Free estimates.',
+      'Premium roofing in Nutley, NJ. Tudor roof specialists, architectural shingles, and proactive maintenance for distinctive homes. Free estimates.',
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // MAPLEWOOD
+  // ═══════════════════════════════════════════════════════════════════════════
+  {
+    cityId: 'maplewood',
+    heroHeadline: 'Maplewood\'s Trusted Roofing Partner for Every Home Style',
+    heroSubheadline:
+      'From the grand Victorians of Maplewood Village to the Colonials climbing toward South Mountain Reservation, Newark Quality Roofing delivers expert installations, storm restoration, and maintenance for Maplewood\'s architecturally diverse housing stock.',
+    stats: {
+      projectCount: '340+',
+      servingSince: '2005',
+      rating: '4.9',
+    },
+
+    // ── Overview ────────────────────────────────────────────────────────────
+    overview: [
+      'Maplewood is a vibrant, progressive township of roughly 25,000 residents in the western arc of Essex County, bordered by South Orange to the north, Irvington to the east, Millburn to the southwest, and West Orange to the northwest where the slopes of South Mountain Reservation define the township\'s western boundary. Known for its thriving arts scene, walkable village center, and commitment to diversity and inclusion, Maplewood attracts homeowners who value both community character and architectural quality. The housing stock reflects this ethos: Victorian-era farmhouses alongside Colonial Revivals, Tudor cottages, Arts and Crafts bungalows, and mid-century modern ranches create a richly textured residential landscape where no two blocks look alike.',
+
+      'Maplewood Village, centered around the intersection of Maplewood Avenue and Baker Street, serves as the township\'s cultural and commercial heart. Locally owned boutiques, farm-to-table restaurants, art galleries, and the historic Maplewood Theatre line the walkable streets, housed in buildings from the early 1900s through the 1950s. The residential streets radiating outward from the Village, including Ridgewood Road, Prospect Street, and Jefferson Avenue, feature the township\'s most prized homes: large Victorians and Colonial Revivals with complex multi-gable rooflines, wraparound porches, and decorative trim that demand meticulous roofing craftsmanship.',
+
+      'The Springfield Avenue corridor bisects Maplewood from east to west, transitioning from a neighborhood commercial strip near the Irvington border to a tree-lined residential avenue as it climbs toward South Mountain. Along this corridor, the housing shifts from two-family and multi-family properties in the eastern sections to larger single-family homes on bigger lots in the western Hilton and Jefferson Village neighborhoods. Our roofing work in Maplewood spans this full spectrum, from cost-effective multi-family re-roofing on Springfield Avenue duplexes to high-end slate and copper restorations on Ridgewood Road mansions.',
+
+      'South Mountain Reservation, the 2,110-acre county park along Maplewood\'s western border, creates both environmental beauty and roofing challenges. The mature hardwood forest generates enormous volumes of seasonal debris, including leaves, seeds, pine needles, and fallen branches that accumulate on roofs and in gutters. Properties along Prospect Street, Crestwood Drive, and Wyoming Avenue bear the brunt of this arboreal onslaught. Storm damage from falling limbs is a recurring concern, particularly during nor\'easters when saturated ground loosens root systems on the steep mountain slopes. We maintain an enhanced storm-response protocol for Maplewood\'s western neighborhoods, knowing that these properties are statistically more likely to sustain tree-related damage.',
+
+      'Newark Quality Roofing has become the contractor of choice for Maplewood\'s informed, design-conscious homeowners. Our ability to work across the full range of architectural styles, from Victorian gingerbread restoration to clean-lined contemporary metal installations, sets us apart from single-specialty competitors. We approach each Maplewood project as a collaboration, consulting with homeowners on material choices, color harmonies, and detail decisions that honor the specific architectural character of their home while incorporating modern performance technology.',
+    ],
+
+    // ── Residential ─────────────────────────────────────────────────────────
+    residential: {
+      heading: 'Residential Roofing Across Maplewood\'s Architectural Spectrum',
+      content: [
+        'Maplewood\'s Victorian-era homes, concentrated in the Village area and along Ridgewood Road, feature the most elaborate roof geometries in our service territory. Multi-gable compositions with decorative vergeboard trim, turret roofs with conical or bell-cast profiles, wraparound porch roofs with hip-and-valley framing, and intricate dormer configurations create dozens of water-management details on a single home. These properties were often originally roofed in natural slate, and many retain partial or full slate installations that are now 80-100+ years old. Our slate restoration team assesses each Victorian roof individually, determining whether targeted slate replacement, full re-slating, or transition to a high-quality synthetic slate is the most appropriate approach based on condition, budget, and historic preservation goals.',
+
+        'The Colonial Revival and Dutch Colonial homes throughout Maplewood\'s central neighborhoods on streets like Elmwood Avenue, Oakland Road, and Tuscan Road present roof configurations similar to those in neighboring South Orange and Millburn. Side-gable Colonials with paired front dormers and rear lean-to additions are the most common type. The key roofing concern on these homes is the multiple roof-to-wall transitions where dormers, additions, and porches intersect the main roof plane. These junctions accumulate debris, trap moisture, and are the primary source of leaks on aging Colonial roofs. Our standard approach includes removing old step flashing down to bare wall sheathing, installing new ice-and-water shield membrane at every transition, and integrating new counter-flashing with the existing siding or masonry.',
+
+        'Tudor Revival homes in Maplewood\'s Hilton neighborhood and along the cross-streets between Springfield Avenue and Boyden Avenue feature the steep-pitch, multi-gable geometries we have mastered across Essex County. The Maplewood Tudors tend to be slightly smaller than their Nutley counterparts but equally demanding in their flashing and detail requirements. Many feature stucco-and-timber exterior cladding that creates complex waterproofing interfaces where roof surfaces terminate against wall surfaces. Our crews use reglet-cut counter-flashing techniques and flexible sealant systems designed to accommodate the seasonal expansion and contraction of stucco panels without breaking the weather seal.',
+
+        'For Maplewood\'s growing population of homeowners pursuing sustainable upgrades, we install solar-ready roofing systems with reinforced mounting zones, reflective cool-roof shingles that reduce summer heat gain, and integrated rainwater collection provisions. The township\'s sustainability advisory committee and active environmental organizations have created a community culture that values energy-efficient home improvements. We consult on New Jersey\'s clean energy incentive programs and coordinate with solar installation partners to ensure roof and solar projects are sequenced for maximum efficiency and warranty protection.',
+      ],
+    },
+
+    // ── Commercial ──────────────────────────────────────────────────────────
+    commercial: {
+      heading: 'Commercial Roofing for Maplewood\'s Village Business District',
+      content: [
+        'Maplewood Village\'s commercial buildings present a distinctive challenge: maintaining the aesthetic character that draws shoppers and diners while providing reliable, long-lasting roof systems that protect inventory and operations. Many Village storefronts feature decorative parapets, cornices, and facade elements that integrate with the flat-roof membrane behind them. Our commercial team understands that visible roofing elements on these buildings must complement the Village\'s architectural standards. We specify membrane colors and edge-metal finishes that harmonize with the building facades, and we coordinate with the Township\'s code enforcement to ensure compliance with any applicable design guidelines.',
+
+        'Along Springfield Avenue\'s eastern commercial section, mixed-use buildings with ground-floor retail and upper-floor apartments require roofing solutions that balance commercial durability with residential comfort. We install high-performance TPO and PVC membrane systems with enhanced insulation that reduce tenant heating and cooling costs while providing the waterproofing reliability commercial operations demand. For multi-unit buildings with shared roof spaces, we coordinate scheduling with building managers to ensure access, staging, and noise are managed in consideration of all tenants.',
+      ],
+    },
+
+    // ── Weather Challenges ──────────────────────────────────────────────────
+    weatherChallenges: {
+      heading: 'South Mountain\'s Impact on Maplewood Roofs',
+      content: [
+        'South Mountain Reservation\'s proximity creates a distinct microclimate for western Maplewood homes. The mountain\'s elevation amplifies wind speeds during storms, channeling gusts through the gap between First and Second Watchung Mountains directly onto homes along Prospect Street, Wyoming Avenue, and Crestwood Drive. These properties experience measurably higher wind-uplift forces than homes in the township\'s eastern flatlands, and we specify enhanced nailing patterns and high-wind-rated materials accordingly. The dense forest canopy also generates extraordinary debris loads: a single mature oak can drop 200,000 to 500,000 leaves per season, and properties bordering the Reservation may have a dozen such trees within falling distance of their roof.',
+
+        'The elevation change across Maplewood, from the low-lying areas near the Irvington border to the 500-foot contours along South Mountain, creates varying drainage challenges. Western hillside properties must contend with runoff velocity that accelerates as water flows down steep roof pitches and concentrated lot drainage. We design gutter systems for these hillside homes with oversized downspouts and ground-level diverters that direct water away from foundations on sloped lots. Eastern properties face the opposite challenge: flatter grades and higher water tables make proper roof drainage critical to preventing basement moisture intrusion.',
+      ],
+    },
+
+    // ── Neighborhoods ───────────────────────────────────────────────────────
+    neighborhoods: [
+      {
+        name: 'Maplewood Village',
+        description:
+          'Historic commercial and residential core. Victorians, Colonial Revivals, and mixed-use commercial buildings with complex multi-gable rooflines demanding specialized craftsmanship.',
+      },
+      {
+        name: 'Hilton',
+        description:
+          'Western neighborhood climbing toward South Mountain. Tudor Revivals and large Colonials on wooded lots. Heavy tree debris and storm exposure from the Reservation.',
+      },
+      {
+        name: 'Jefferson Village',
+        description:
+          'Northwest section with a mix of Colonials, Arts and Crafts bungalows, and newer construction. Tree-lined streets with moderate canopy coverage.',
+      },
+      {
+        name: 'Springfield Avenue Corridor',
+        description:
+          'East-west commercial and residential axis. Multi-family properties in the east, transitioning to single-family homes westward. Mixed roofing needs from flat commercial to steep residential.',
+      },
+      {
+        name: 'Boyden Avenue / Parker Avenue',
+        description:
+          'Central residential blocks with well-maintained Colonials and occasional Tudors. Mature street trees create moderate debris management needs.',
+      },
+      {
+        name: 'South Mountain Border',
+        description:
+          'Properties along Prospect Street and Wyoming Avenue at the Reservation edge. Maximum tree exposure, wind vulnerability, and debris accumulation. Enhanced maintenance programs essential.',
+      },
+      {
+        name: 'Rutgers Street / Valley Street',
+        description:
+          'Eastern Maplewood neighborhoods closer to Irvington. Smaller Colonials and two-family homes. Cost-effective roofing solutions without sacrificing quality.',
+      },
+    ],
+
+    // ── Project Spotlights ──────────────────────────────────────────────────
+    projectSpotlights: [
+      {
+        title: 'Victorian Slate Restoration on Ridgewood Road',
+        type: 'residential',
+        description:
+          'Restored the original Vermont slate roof on a circa-1895 Queen Anne Victorian in Maplewood Village. Replaced 35% of cracked and delaminated slates with color-matched Vermont Unfading Green, re-pointed all copper hip and ridge flashings, and rebuilt two deteriorated box gutter linings with 20-oz copper sheet. The home is one of Maplewood\'s most photographed residences.',
+        details: [
+          'Matched Vermont Unfading Green slate from original quarry supplier',
+          'Re-pointed and re-soldered 120 linear feet of copper ridge and hip flashings',
+          'Rebuilt two box gutters with 20-oz copper sheet and soldered seams',
+          'Preserved 65% of original 130-year-old slate in serviceable condition',
+        ],
+      },
+      {
+        title: 'Storm Damage Recovery on Prospect Street',
+        type: 'residential',
+        description:
+          'Emergency response and full roof replacement on a Colonial near South Mountain Reservation after a 60-foot oak fell across the roof ridge during a nor\'easter, destroying 40% of the roof structure. Coordinated with the tree removal service, engineered temporary structural support, and completed full structural repair and re-roofing within three weeks of the incident.',
+        details: [
+          'Emergency tarping within 3 hours of initial call',
+          'Structural ridge beam and rafter replacement per engineer specs',
+          'Full re-roof with GAF Timberline HDZ and enhanced wind clips',
+        ],
+      },
+      {
+        title: 'Maplewood Village Commercial Block',
+        type: 'commercial',
+        description:
+          'Replaced aging modified-bitumen membrane on a three-unit retail building in Maplewood Village. Installed white TPO membrane with tapered insulation for improved drainage, integrating HVAC penetrations and a new overflow scupper system. Coordinated weekend-only work to avoid disrupting the popular restaurant on the ground floor.',
+        details: [
+          '5,200 sq ft white TPO with tapered insulation system',
+          'New overflow scuppers as secondary drainage backup',
+          'Weekend-only scheduling for zero business disruption',
+        ],
+      },
+    ],
+
+    // ── Testimonials ────────────────────────────────────────────────────────
+    testimonials: [
+      {
+        name: 'Sarah & Jonathan M.',
+        rating: 5,
+        text: 'Our 1890s Victorian on Ridgewood Road needed serious slate work and every other contractor wanted to tear it all off and put on shingles. Newark Quality Roofing actually understood slate and restored what we have. The roof looks exactly as it should for a home of this period. They preserved the character while making it watertight for another 50 years.',
+        service: 'Slate Restoration',
+      },
+      {
+        name: 'Christine W.',
+        rating: 5,
+        text: 'When that massive oak came down on our Prospect Street Colonial during the storm, we were devastated. Newark Quality Roofing had our roof tarped within hours and the full repair done in three weeks. They coordinated the tree removal, the structural engineer, the insurance company, everything. We could not have navigated that disaster without them.',
+        service: 'Storm Damage Repair',
+      },
+      {
+        name: 'Marcus & Denise K.',
+        rating: 5,
+        text: 'We moved to Maplewood from Brooklyn and wanted a solar-ready roof that would also look beautiful on our Tudor in the Hilton neighborhood. They installed standing-seam metal on the main sections and architectural shingles on the steep gables. It looks stunning and the solar panels went right on the metal sections. Forward-thinking roofing.',
+        service: 'Roof Replacement',
+      },
+    ],
+
+    // ── FAQs ────────────────────────────────────────────────────────────────
+    faqs: [
+      {
+        question: 'Can you work on historic homes in Maplewood Village?',
+        answer:
+          'Absolutely. We have extensive experience with Maplewood\'s Victorian, Colonial Revival, and Arts and Crafts homes. For historic properties with original slate or specialty roofing, we offer restoration services that preserve architectural character. We use period-appropriate materials and techniques, and can coordinate with preservation consultants when historic tax credits or design review is involved.',
+      },
+      {
+        question: 'How does South Mountain Reservation affect my roof?',
+        answer:
+          'Properties along the Reservation border experience higher wind speeds from mountain channeling, extraordinary leaf and debris accumulation, increased risk of tree-impact damage, and persistent shade that promotes biological growth. We recommend enhanced gutter systems, semi-annual debris clearing, high-wind-rated materials, and annual inspections for homes in the Hilton neighborhood and along Prospect Street, Wyoming Avenue, and Crestwood Drive.',
+      },
+      {
+        question: 'Do you offer eco-friendly roofing options in Maplewood?',
+        answer:
+          'Yes. We install cool-roof shingles with high solar reflectance, solar-ready mounting systems, recycled-content metal roofing, and can prepare your roof for rainwater collection integration. We also recycle 95%+ of tear-off material, diverting shingles and metals from landfill. We stay current on New Jersey clean energy incentives and can advise on programs that offset the cost of sustainable roofing upgrades.',
+      },
+      {
+        question: 'What is the best roofing material for a Maplewood Victorian?',
+        answer:
+          'For authentic restoration, natural slate remains the gold standard. For Victorians where slate is not in the budget, DaVinci synthetic slate offers a convincing alternative at lower cost and weight. GAF Grand Canyon designer shingles provide a wood-shake aesthetic suitable for some Victorian styles. We bring samples to your home and photograph mock-ups against your specific exterior to ensure the right aesthetic match before you commit.',
+      },
+      {
+        question: 'How do you handle roofing on Maplewood\'s steep hillside properties?',
+        answer:
+          'Hillside properties in western Maplewood require specialized staging on sloped terrain, engineered scaffolding anchored to stable ground, and modified debris-management protocols that account for gravity-driven material flow. We also design gutter and drainage systems for hillside lots with oversized downspouts and ground-level diverters that manage concentrated runoff from steep roof pitches and sloped lot grades.',
+      },
+      {
+        question: 'Can you coordinate a roof replacement with solar panel installation?',
+        answer:
+          'Yes, and we strongly recommend it. Installing solar on a roof that will need replacement within 10 years means paying to remove and reinstall panels later. We coordinate with solar installation partners to sequence the projects: new roof first with solar-ready provisions, then panels mounted on the fresh surface. This protects both the roof warranty and the solar investment.',
+      },
+      {
+        question: 'What does a roof replacement cost in Maplewood?',
+        answer:
+          'Maplewood roof replacement costs vary significantly based on home style and material choice. Standard architectural shingles on a Colonial range from $14,000 to $25,000. Complex Victorian or Tudor roofs with premium materials can range from $25,000 to $55,000+. Slate restoration projects are priced per square of material. We provide free, detailed written estimates after an in-person inspection.',
+      },
+      {
+        question: 'Do you provide emergency tarping in Maplewood during storms?',
+        answer:
+          'Yes. We maintain emergency response crews for Essex County and prioritize Maplewood\'s western neighborhoods that are most vulnerable to tree-related storm damage. Emergency tarping is typically completed within 2-6 hours of your call, depending on storm severity. We provide full insurance documentation and coordinate directly with adjusters to streamline the claims process.',
+      },
+    ],
+
+    // ── Why Choose ──────────────────────────────────────────────────────────
+    whyChoose: {
+      heading: 'Why Maplewood Homeowners Choose Newark Quality Roofing',
+      reasons: [
+        {
+          title: 'Multi-Style Expertise',
+          description:
+            'From Victorian slate restoration to Tudor flashing to contemporary metal installations, we work fluently across the full spectrum of Maplewood\'s architectural diversity. No style is outside our expertise.',
+        },
+        {
+          title: 'Preservation-Minded Approach',
+          description:
+            'We understand that Maplewood homeowners value architectural character. Our material recommendations and installation techniques honor the specific period and style of each home while incorporating modern waterproofing performance.',
+        },
+        {
+          title: 'South Mountain Storm Response',
+          description:
+            'We maintain enhanced emergency protocols for Maplewood\'s Reservation-border neighborhoods, providing rapid tarping and coordinated tree-damage response when mountain storms strike.',
+        },
+        {
+          title: 'Sustainability Commitment',
+          description:
+            'Aligned with Maplewood\'s environmental values, we offer solar-ready roofing, cool-roof materials, recycled-content metals, and 95%+ tear-off material recycling on every project.',
+        },
+        {
+          title: 'Design Collaboration',
+          description:
+            'We approach each Maplewood project as a partnership, bringing material samples, photographing mock-ups, and consulting on color and style choices that enhance both curb appeal and neighborhood harmony.',
+        },
+      ],
+    },
+
+    metaTitle: 'Maplewood NJ Roofing | Victorian & Historic Specialists',
+    metaDescription:
+      'Expert roofing in Maplewood, NJ. Victorian slate restoration, Tudor specialists, and storm damage repair near South Mountain Reservation. Free estimates.',
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // SOUTH ORANGE
+  // ═══════════════════════════════════════════════════════════════════════════
+  {
+    cityId: 'south-orange',
+    heroHeadline: 'South Orange\'s Premier Roofing Contractor',
+    heroSubheadline:
+      'Serving South Orange from the grand estates of Montrose Park to the charming bungalows along Scotland Road, Newark Quality Roofing provides expert slate, cedar shake, and architectural shingle installations worthy of this distinguished village.',
+    stats: {
+      projectCount: '260+',
+      servingSince: '2005',
+      rating: '4.9',
+    },
+
+    // ── Overview ────────────────────────────────────────────────────────────
+    overview: [
+      'South Orange Village is a compact, affluent community of approximately 17,000 residents that maintains an identity distinct from its larger neighbors. Governed as a village within a township, South Orange combines the intimate character of a small town with proximity to Manhattan via the NJ Transit Morris & Essex Line, making it one of the most sought-after commuter addresses in Essex County. The village is bounded by West Orange and Orange to the north, East Orange and Irvington to the east, Maplewood to the south, and the forested slopes of South Mountain Reservation to the west. Seton Hall University\'s 58-acre campus anchors the northern end of the village, contributing a collegiate vitality and a stock of institutional roofing projects to the local landscape.',
+
+      'South Orange\'s residential architecture is among the most distinguished in northern New Jersey. The Montrose Park neighborhood, climbing the hillside west of South Orange Avenue toward the Reservation, features grand Tudor Revival and Colonial Revival estates built in the 1910s and 1920s on generous wooded lots. These homes boast complex multi-gable rooflines, slate and cedar shake roof coverings, copper gutters and downspouts, and decorative chimney detailing that reflect the craftsmanship of their era. Further east, the neighborhoods along Prospect Street, Ward Place, and Valley Street offer slightly more modest but equally characterful Colonials, Tudors, and Arts and Crafts bungalows from the 1920s through 1940s, many with original slate roofs still in service.',
+
+      'The village center along South Orange Avenue, from the train station north to Seton Hall, is a walkable commercial district with restaurants, specialty shops, and the South Orange Performing Arts Center (SOPAC) cultural venue. The commercial buildings range from Victorian-era two-story structures with decorative cornices to mid-century retail blocks with flat membrane roofs. Our commercial work in South Orange serves both the village business district and Seton Hall University, where we have completed membrane installations, slate repairs, and preventive maintenance on campus buildings.',
+
+      'Cedar shake and natural slate roofing are more prevalent in South Orange than in any other community in our service area. The village\'s higher median home values and preservation-conscious homeowner base sustain demand for these premium materials. Our crews include dedicated slate and cedar specialists who understand the unique installation, maintenance, and restoration techniques these materials require. From hand-nailing individual replacement slates on a Montrose Park mansion to installing new cedar shake with proper ventilation gaps on an Arts and Crafts bungalow on Mead Street, we bring specialized expertise that generic roofing contractors simply do not possess.',
+
+      'Newark Quality Roofing\'s relationship with South Orange extends beyond individual projects. We have participated in the village\'s historic walking tours to educate homeowners about roof maintenance for period homes, and our team has consulted on roofing specifications for locally designated historic properties. South Orange homeowners expect a contractor who respects the heritage of their homes, and we deliver that respect through every material recommendation, installation detail, and cleanup protocol.',
+    ],
+
+    // ── Residential ─────────────────────────────────────────────────────────
+    residential: {
+      heading: 'Residential Roofing for South Orange\'s Premier Homes',
+      content: [
+        'The Montrose Park neighborhood represents the pinnacle of residential roofing complexity in our service area. These 1910s-1920s estates feature roof systems that combine natural slate on primary gable sections with copper standing-seam on low-slope porch and porte-cochere roofs, lead-coated copper valley liners, built-in copper box gutters, and decorative copper finials at gable peaks. Maintaining and restoring these composite roof systems requires a rare combination of steep-slope slate expertise, flat-seam metal fabrication skill, and architectural sensitivity. Our Montrose Park projects typically involve phased restoration plans that address the most urgent issues first while establishing a long-term maintenance roadmap for the complete roof system.',
+
+        'South Orange\'s Arts and Crafts homes, found along Scotland Road, Mead Street, and in the neighborhoods east of South Orange Avenue, often feature original cedar shake roofing or its successors. Cedar shake provides natural beauty and excellent insulation properties but requires proper ventilation spacing, periodic treatment against moss and decay, and eventual replacement as the wood weathers beyond functional integrity. We install premium western red cedar shakes with stainless steel fasteners, breather-strip spacers for ventilation between courses, and ridge caps that complement the home\'s Craftsman aesthetic. For homeowners seeking cedar\'s appearance without its maintenance demands, we offer composite shake alternatives from manufacturers like DaVinci and Brava that replicate the look while providing 50-year warranty coverage.',
+
+        'The Tudor Revival homes scattered throughout South Orange share the steep-pitch complexity found in neighboring Nutley and Maplewood, with the added distinction that many South Orange Tudors retain their original slate roofs. When slate is in serviceable condition, we preserve it through targeted replacement of broken or slipping slates, re-pointing of ridge and hip mortar, and repair of deteriorated flashings. When a full replacement is warranted, we offer graded Vermont or Pennsylvania slate in colors that match the original installation, as well as synthetic slate options from manufacturers like EcoStar and DaVinci that provide the appearance at reduced weight and cost.',
+
+        'For newer construction and contemporary renovations in South Orange, standing-seam metal roofing has gained significant popularity. The clean lines and long lifespan of metal complement both modern additions to historic homes and ground-up contemporary designs. We install Kynar-coated steel and aluminum standing-seam systems in a range of architectural colors, with concealed fastener clips and thermal expansion provisions that ensure quiet, maintenance-free performance for 50+ years. Several South Orange architects specify our metal installations for their renovation projects, knowing that our panel alignment, seaming quality, and trim detailing meet the exacting standards their clients expect.',
+      ],
+    },
+
+    // ── Commercial ──────────────────────────────────────────────────────────
+    commercial: {
+      heading: 'Commercial & Institutional Roofing in South Orange',
+      content: [
+        'Seton Hall University\'s campus presents a diverse portfolio of institutional roofing needs, from slate-roofed academic buildings dating to the university\'s 19th-century founding to modern athletic and residential facilities with large-footprint membrane systems. Our commercial team has completed projects on campus ranging from targeted slate repairs on historic Boland Hall to full membrane replacements on newer facilities. University property management values our ability to schedule work during academic breaks, coordinate with campus operations for safety and access, and maintain the aesthetic standards expected of a historic collegiate campus.',
+
+        'South Orange Village\'s commercial buildings along South Orange Avenue require roofing contractors who understand that aesthetic standards extend to commercial properties in this community. Flat-roof membrane installations on Village storefronts must feature clean edge-metal detailing, properly integrated copings, and drainage systems that do not detract from the streetscape. We specify high-performance TPO and PVC membranes with matching trim components and coordinate with building owners on facade-visible elements to ensure commercial functionality does not compromise village character.',
+      ],
+    },
+
+    // ── Weather Challenges ──────────────────────────────────────────────────
+    weatherChallenges: {
+      heading: 'Protecting South Orange\'s Premium Roofing Materials',
+      content: [
+        'South Orange\'s higher concentration of natural slate and cedar shake roofing creates weather-vulnerability profiles distinct from communities with primarily asphalt shingle installations. Slate, while extremely durable, becomes brittle with age and is susceptible to cracking from freeze-thaw cycling and impact from falling tree limbs. A single falling branch can crack multiple slates, and if replacement slates are not sourced and installed promptly, water infiltration can damage the valuable interior finishes in these high-end homes. We maintain an inventory of common slate sizes and colors for rapid emergency response in South Orange, reducing the typical wait time for slate repair from weeks to days.',
+
+        'Cedar shake roofing in South Orange faces biological challenges amplified by the village\'s tree canopy and proximity to South Mountain Reservation. Persistent shade and moisture promote moss, lichen, and algae colonization that accelerates cedar decay if not managed. We offer annual cedar roof treatment programs that include gentle cleaning, preservative application, and targeted shake replacement, extending the service life of cedar roofs by 10-15 years compared to untreated installations. For homeowners in the most heavily shaded locations, we recommend zinc or copper ridge strips that release natural biocides with each rainfall.',
+      ],
+    },
+
+    // ── Neighborhoods ───────────────────────────────────────────────────────
+    neighborhoods: [
+      {
+        name: 'Montrose Park',
+        description:
+          'Grand estates on the western hillside. Slate and copper composite roofing systems on Tudor and Colonial Revival mansions. Our most complex residential restoration projects.',
+      },
+      {
+        name: 'Seton Hall / University Area',
+        description:
+          'Neighborhoods surrounding Seton Hall University campus. Mix of single-family homes and student-oriented multi-family properties. Institutional and residential roofing needs.',
+      },
+      {
+        name: 'Village Center',
+        description:
+          'Commercial core along South Orange Avenue. Mixed-use buildings with flat membrane roofs above and decorative street-level facades. Aesthetic-conscious commercial roofing.',
+      },
+      {
+        name: 'Scotland Road',
+        description:
+          'Charming Arts and Crafts bungalows and smaller Colonials. Cedar shake common. Tree-lined residential streets with moderate canopy coverage.',
+      },
+      {
+        name: 'Prospect Street / Ward Place',
+        description:
+          'Central residential blocks with well-maintained 1920s-1940s Colonials and Tudors. Many retain original slate roofing requiring periodic maintenance and selective repair.',
+      },
+      {
+        name: 'South Mountain Border',
+        description:
+          'Western edge along the Reservation. Maximum tree exposure with heavy debris loads and elevated storm risk. Enhanced maintenance protocols essential for these premium properties.',
+      },
+      {
+        name: 'Newstead / Hixon Place',
+        description:
+          'Eastern neighborhoods with a mix of Colonials and multi-family properties. More accessible pricing with the same quality craftsmanship we bring to every South Orange project.',
+      },
+    ],
+
+    // ── Project Spotlights ──────────────────────────────────────────────────
+    projectSpotlights: [
+      {
+        title: 'Montrose Park Tudor Estate Slate & Copper Restoration',
+        type: 'residential',
+        description:
+          'Comprehensive three-phase restoration of a 1918 Tudor Revival estate in Montrose Park. Phase one addressed emergency slate repairs and copper valley replacement on the main house. Phase two restored the carriage house slate roof and rebuilt deteriorated copper box gutters. Phase three replaced all copper step flashings at the decorative half-timbering intersections and installed new copper ridge caps across the entire complex.',
+        details: [
+          'Replaced 200+ slates with color-matched Vermont Unfading Gray',
+          'Rebuilt 85 linear feet of built-in copper box gutters',
+          'Fabricated and installed custom copper ridge caps and finials',
+          'Three-phase project spanning 18 months for budget management',
+        ],
+      },
+      {
+        title: 'Arts & Crafts Cedar Shake Installation on Mead Street',
+        type: 'residential',
+        description:
+          'Full tear-off of deteriorated cedar shakes on a 1925 Arts and Crafts bungalow, with installation of premium #1 Grade western red cedar shakes on solid skip sheathing with breather-strip spacers. Hand-split hip and ridge caps maintain the authentic Craftsman character. Integrated zinc ridge strip for long-term biological growth prevention.',
+        details: [
+          '#1 Grade western red cedar shakes with stainless steel nails',
+          'Breather-strip spacers for proper ventilation between courses',
+          'Hand-split hip and ridge caps for authentic Craftsman appearance',
+        ],
+      },
+      {
+        title: 'Seton Hall Campus Building Membrane Replacement',
+        type: 'commercial',
+        description:
+          'Replaced aging EPDM membrane on a 6,800 sq ft campus facility roof during summer break. Installed fully-adhered 80-mil PVC membrane with 4-inch polyiso insulation, new internal drains with overflow provisions, and reinforced mounting pads for existing rooftop mechanical equipment. Work completed in 10 days within the compressed academic break schedule.',
+        details: [
+          '6,800 sq ft 80-mil PVC with 4" polyiso (R-23)',
+          'New internal drains with overflow scuppers',
+          'Completed within 10-day summer break window',
+        ],
+      },
+    ],
+
+    // ── Testimonials ────────────────────────────────────────────────────────
+    testimonials: [
+      {
+        name: 'Elizabeth & Andrew H.',
+        rating: 5,
+        text: 'Our Montrose Park Tudor had a slate roof that three other companies said had to come off entirely. Newark Quality Roofing assessed it properly, saved 70% of the original slate, replaced the damaged sections with perfectly matched material, and rebuilt the copper gutters. The house looks exactly as it should for a 1918 estate. They understand heritage roofing in a way that is rare in this market.',
+        service: 'Slate Restoration',
+      },
+      {
+        name: 'Daniel F.',
+        rating: 5,
+        text: 'They installed a beautiful cedar shake roof on our Arts and Crafts bungalow on Scotland Road. Every detail was right, from the hand-split ridge caps to the zinc strips for moss prevention. Two years later it has developed that beautiful silver-gray patina and looks like it has always been there. Authentic craftsmanship from a team that clearly takes pride in their work.',
+        service: 'Cedar Shake Installation',
+      },
+      {
+        name: 'Priya & Raj N.',
+        rating: 5,
+        text: 'We chose standing-seam metal for our contemporary addition on Ward Place and the quality of the installation is exceptional. The panel seams are perfectly straight, the trim work is immaculate, and the dark bronze color complements both the new addition and the original Colonial. Our architect was very impressed and has recommended them to other clients.',
+        service: 'Metal Roofing',
+      },
+    ],
+
+    // ── FAQs ────────────────────────────────────────────────────────────────
+    faqs: [
+      {
+        question: 'Can you restore my South Orange home\'s original slate roof?',
+        answer:
+          'Yes. We are one of the few contractors in Essex County with dedicated slate restoration capabilities. We assess each slate roof individually, identifying which slates are salvageable and sourcing color-matched replacements from Vermont and Pennsylvania quarries. For many South Orange homes, selective restoration preserves 60-80% of original slate at significantly lower cost than full replacement. We also restore associated copper work including valleys, flashings, and built-in gutters.',
+      },
+      {
+        question: 'How long does a cedar shake roof last in South Orange?',
+        answer:
+          'Premium western red cedar shakes, properly installed with ventilation spacers and maintained with periodic treatment, typically last 30-40 years in the South Orange climate. Without maintenance, lifespan drops to 15-20 years. Our annual cedar treatment program includes gentle cleaning, preservative application, and targeted shake replacement that extends service life to the upper end of this range. The key factors are moisture management and preventing biological growth in South Orange\'s shaded, tree-heavy environment.',
+      },
+      {
+        question: 'What roofing materials are appropriate for Montrose Park homes?',
+        answer:
+          'Montrose Park\'s estate-quality homes traditionally feature natural slate, copper standing-seam sections, and copper gutters. For authentic restoration, we use Vermont or Pennsylvania slate matched to original colors. When budget is a consideration, synthetic slate from EcoStar or DaVinci provides a convincing alternative at reduced cost. We do not recommend standard architectural shingles for Montrose Park homes, as they diminish the architectural stature these properties command.',
+      },
+      {
+        question: 'Do you work on Seton Hall University buildings?',
+        answer:
+          'Yes. Our commercial team has completed roofing projects on Seton Hall campus, including slate repairs on historic buildings and membrane installations on newer facilities. We schedule campus work during academic breaks to minimize disruption and coordinate closely with university facilities management for access, safety protocols, and aesthetic requirements.',
+      },
+      {
+        question: 'How do you protect South Orange slate roofs from tree damage?',
+        answer:
+          'For slate roofs near large trees, we recommend preventive branch trimming by a certified arborist, annual roof inspections to catch cracked or slipped slates early, and maintaining an inventory of matching slate sizes for rapid repair. We stock common South Orange slate profiles so emergency repairs can be completed in days rather than weeks. We also install copper or zinc snow guards to prevent slate-damaging avalanche loads.',
+      },
+      {
+        question: 'What is the difference between cedar shakes and cedar shingles?',
+        answer:
+          'Cedar shakes are hand-split or machine-split, creating a thick, textured, rustic appearance that suits Arts and Crafts and cottage-style homes. Cedar shingles are sawn on both sides for a smoother, more uniform look suited to Colonial and Cape Cod styles. Most South Orange Arts and Crafts homes use shakes for their authentic character. We install both, with proper underlayment and ventilation details specific to each product type.',
+      },
+      {
+        question: 'Can I add solar panels to my slate roof in South Orange?',
+        answer:
+          'Yes, but it requires specialized mounting systems designed for slate roofs. Standard solar brackets that penetrate the roof deck will crack slate tiles. We install non-penetrating mounting systems and slate-compatible brackets that distribute load across multiple slates without damage. We coordinate with solar installers to ensure the mounting system protects both the slate warranty and the solar investment.',
+      },
+    ],
+
+    // ── Why Choose ──────────────────────────────────────────────────────────
+    whyChoose: {
+      heading: 'Why South Orange Homeowners Trust Newark Quality Roofing',
+      reasons: [
+        {
+          title: 'Slate and Cedar Specialists',
+          description:
+            'South Orange\'s concentration of natural slate and cedar shake roofing demands specialized expertise that generic contractors lack. Our dedicated slate and cedar teams bring quarry-sourced materials and hand-crafted techniques to every project.',
+        },
+        {
+          title: 'Heritage-Sensitive Craftsmanship',
+          description:
+            'We understand that South Orange homes are architectural treasures. Our material recommendations, installation details, and restoration techniques honor the specific period and style of each property, from Montrose Park Tudors to Scotland Road bungalows.',
+        },
+        {
+          title: 'Rapid Slate Emergency Response',
+          description:
+            'We maintain an inventory of common slate sizes and colors for South Orange emergency repairs, reducing wait times from weeks to days when storm damage or tree impact cracks roof slates.',
+        },
+        {
+          title: 'Institutional Experience',
+          description:
+            'Our work on Seton Hall University campus demonstrates our ability to handle large-scale institutional projects with the scheduling precision, safety compliance, and aesthetic sensitivity that institutional clients demand.',
+        },
+        {
+          title: 'Premium Material Network',
+          description:
+            'Our relationships with Vermont and Pennsylvania slate quarries, western red cedar mills, and architectural copper fabricators ensure access to the premium materials that South Orange homes deserve, with supply reliability that smaller contractors cannot match.',
+        },
+      ],
+    },
+
+    metaTitle: 'South Orange NJ Roofing | Slate & Cedar Specialists',
+    metaDescription:
+      'Premier roofing in South Orange, NJ. Slate restoration, cedar shake installation, and copper work for Montrose Park estates and village homes. Free estimates.',
   },
 ];
