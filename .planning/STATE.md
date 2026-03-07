@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 Phase: 5 of 9 (Content Differentiation Engine)
 Plan: 10b of 11 in current phase (also 01, 02, 03, 04, 05, 06, 07, 07a, 07b, 08, 09, 10, 10a, 10b complete)
 Status: In progress
-Last activity: 2026-03-07 -- Completed 05-10b-PLAN.md (Millburn combo content + 6-city aggregator)
+Last activity: 2026-03-07 -- Completed 05-09-PLAN.md (Montclair + Bloomfield combo content)
 
 Progress: [█████████████████████████████░] 95% (38/40 plans)
 
@@ -126,6 +126,8 @@ Recent decisions affecting current work:
 - [05-10a]: Five-inch K-style gutters as Caldwell standard (vs Newark six-inch) reflecting accessible detached housing
 - [05-10b]: Millburn combo content uses estate/luxury vocabulary: copper half-round fabrication, slate salvage sourcing, architect coordination
 - [05-10b]: Top-level aggregator written with all 6 city imports (90 total); compiles once parallel plans complete
+- [05-09]: Montclair content organized by architectural period with HPC workflow; Bloomfield by housing stock with value-oriented voice
+- [05-09]: metaDescription trimmed for montclair/roof-repair and bloomfield/commercial to fit Zod 160-char max
 
 ### Pending Todos
 
@@ -191,5 +193,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 05-10b-PLAN.md (Millburn combo content + 6-city aggregator)
+Stopped at: Completed 05-09-PLAN.md (Montclair + Bloomfield combo content)
 Resume file: None
