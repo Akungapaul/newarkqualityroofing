@@ -114,12 +114,20 @@ Plans:
   2. A sample batch of 50 combo pages shows less than 70% similarity between any two pages for the same service
   3. City-specific data (neighborhoods, building types, weather challenges) is injected into combo content -- not just city name swaps
   4. Content variation patterns are demonstrably different enough to avoid duplicate content detection by search engines
-**Plans**: TBD
+**Plans**: 11 plans
 
 Plans:
-- [ ] 05-01: Content variation engine architecture (intro templates, rotating blocks, city data injection)
-- [ ] 05-02: City differentiation matrix (unique data points per city for content injection)
-- [ ] 05-03: Sample batch generation (50 pages), cross-page similarity validation script, iteration
+- [ ] 05-01-PLAN.md -- ComboContentSchema, directory structure, aggregator skeleton, similarity validation CLI script
+- [ ] 05-02-PLAN.md -- Newark combo content: repair-maintenance (10 services)
+- [ ] 05-03-PLAN.md -- Newark combo content: residential roof types (9 services)
+- [ ] 05-04-PLAN.md -- Newark combo content: commercial roof types (8 services)
+- [ ] 05-05-PLAN.md -- Newark combo content: components-specialty (10 services)
+- [ ] 05-06-PLAN.md -- Newark combo content: energy/solar (5) + commercial services (5)
+- [ ] 05-07-PLAN.md -- Newark combo content: design/consultation (3) + replacement sub-pages first batch (9)
+- [ ] 05-08-PLAN.md -- Newark combo content: replacement sub-pages final batch (6) + Newark city index assembly
+- [ ] 05-09-PLAN.md -- Sample city combos: Montclair (5) + Bloomfield (5) for cross-city validation
+- [ ] 05-10-PLAN.md -- Sample city combos: East Orange (5) + Caldwell (5) + Millburn (5) for full regional coverage
+- [ ] 05-11-PLAN.md -- Similarity validation run, analysis, and failure remediation
 
 ### Phase 6: Programmatic Scale
 **Goal**: All 1,323 service-x-city combo pages are live with full internal linking following reverse silo methodology
@@ -205,7 +213,7 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 | 2. Lead Capture and Core Pages | 5/5 | Complete | 2026-03-06 |
 | 3. Service Pages | 9/9 | Complete | 2026-03-06 |
 | 4. City Pages and Local SEO | 7/7 | Complete | 2026-03-07 |
-| 5. Content Differentiation Engine | 0/3 | Not started | - |
+| 5. Content Differentiation Engine | 0/11 | Not started | - |
 | 6. Programmatic Scale | 0/4 | Not started | - |
 | 7. Supporting Content | 0/4 | Not started | - |
 | 8. SEO Infrastructure | 0/4 | Not started | - |
@@ -213,4 +221,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-07 -- Phase 4 complete (7 plans, 21 city pages live)*
+*Last updated: 2026-03-07 -- Phase 5 planned (11 plans across 4 waves)*
