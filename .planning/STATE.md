@@ -10,16 +10,16 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 ## Current Position
 
 Phase: 5 of 9 (Content Differentiation Engine)
-Plan: 10 of 11 in current phase (also 01, 02, 03, 04, 05, 06, 07, 07a, 07b, 08, 09, 10 complete)
+Plan: 10a of 11 in current phase (also 01, 02, 03, 04, 05, 06, 07, 07a, 07b, 08, 09, 10, 10a complete)
 Status: In progress
-Last activity: 2026-03-07 -- Completed 05-10-PLAN.md (East Orange combo content -- 5 services + city index)
+Last activity: 2026-03-07 -- Completed 05-10a-PLAN.md (Caldwell combo content -- 5 services + city index)
 
-Progress: [█████████████████████████████░] 90% (36/40 plans)
+Progress: [█████████████████████████████░] 92% (37/40 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 36
+- Total plans completed: 37
 - Average duration: 5.4min
 - Total execution time: ~5.0 hours
 
@@ -31,7 +31,7 @@ Progress: [███████████████████████
 | 02 | 5/5 | 14min | 2.8min |
 | 03 | 9/9 | ~144min | ~16min |
 | 04 | 7/7 | 56min | 8.0min |
-| 05 | 10/11 | 64min | 6.4min |
+| 05 | 11/11 | 64min | 6.4min |
 
 **Recent Trend:**
 - Last 5 plans: 05-10 (5min), 05-06 (10min), 05-05 (11min), 05-02 (11min), 05-04 (8min)
@@ -121,6 +121,9 @@ Recent decisions affecting current work:
 - [05-10]: East Orange content uses landlord/investor voice vs Newark's owner-occupant voice
 - [05-10]: Multi-family building types (Victorian 2-families, garden apartments, walk-ups) as primary East Orange lens
 - [05-10]: Main Street commercial corridor anchors East Orange commercial content, distinct from Newark's broader focus
+- [05-10a]: Caldwell content uses small-town trust, neighborly reputation, and tree canopy as defining themes
+- [05-10a]: Commercial content scaled to Bloomfield Avenue small-shop reality (1,500-10,000 sq ft), not urban warehouse scale
+- [05-10a]: Five-inch K-style gutters as Caldwell standard (vs Newark six-inch) reflecting accessible detached housing
 
 ### Pending Todos
 
@@ -186,5 +189,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 05-10-PLAN.md (East Orange combo content -- 5 services + city index)
+Stopped at: Completed 05-10a-PLAN.md (Caldwell combo content -- 5 services + city index)
 Resume file: None
