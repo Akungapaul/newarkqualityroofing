@@ -21,6 +21,8 @@ export const caldwellsRoselandContent: CityContent[] = [
       'Roofing in Caldwell demands a contractor who understands tight-lot construction, older framing systems, and the importance of preserving neighborhood aesthetics. Many homes along Westville Avenue, Personette Street, and the streets surrounding Grover Cleveland Park feature original slate or cedar roofs that have endured for decades but now require restoration or strategic replacement. Meanwhile, the postwar ranch homes and split-levels found in the borough\'s quieter blocks often need full tear-offs after years of layered shingle applications. Newark Quality Roofing brings deep experience with both restoration-sensitive projects and straightforward replacements, ensuring every Caldwell home receives the right approach for its age, style, and structural condition.',
       'Beyond residential work, Caldwell\'s commercial district along Bloomfield Avenue presents unique roofing challenges. Mixed-use buildings with retail on the ground floor and apartments above require low-disruption installations, proper flashing integration between old masonry facades and modern roofing membranes, and strict compliance with borough permit requirements. Our team coordinates closely with Caldwell building officials to ensure every commercial and residential project meets local codes while respecting the borough\'s architectural character.',
       'The northeastern New Jersey climate subjects Caldwell roofs to punishing freeze-thaw cycles, summer thunderstorms with damaging hail, and heavy wet snow loads that test every fastener and flashing detail. Proper ice-and-water shield installation at eaves, valleys, and penetrations is non-negotiable for homes in this region. We design every Caldwell roof system to withstand these conditions, using Class 4 impact-resistant shingles where appropriate and ensuring ventilation systems prevent the ice damming that plagues so many older homes with inadequate attic insulation.',
+      'Caldwell University and the borough\'s civic buildings add institutional roofing needs to the mix. Roofing projects near the campus and along the Bloomfield Avenue corridor require coordination with municipal authorities, awareness of pedestrian traffic patterns, and scheduling sensitivity during academic terms and community events. Our project managers work closely with property owners, borough officials, and neighboring businesses to ensure that every roofing project in Caldwell proceeds smoothly — from initial permit application through final inspection and cleanup. This collaborative approach has earned us a reputation as Caldwell\'s most trusted roofing contractor.',
+      'Energy efficiency is an increasingly important consideration for Caldwell homeowners, particularly those with older homes where original insulation and ventilation fall well below modern standards. During every roof replacement, we assess attic insulation levels and ventilation adequacy, recommending improvements that can reduce heating and cooling costs by 15-25 percent while simultaneously extending the new roof system\'s lifespan. Proper ventilation prevents the moisture buildup that accelerates sheathing decay and the thermal differentials that cause ice dams — making it one of the most cost-effective upgrades a Caldwell homeowner can make during a re-roofing project.',
     ],
     residential: {
       heading: 'Residential Roofing Tailored to Caldwell\'s Diverse Homes',
@@ -28,6 +30,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         'Caldwell\'s residential architecture tells the story of a borough that grew steadily across more than a century. Grand Victorian homes near the Bloomfield Avenue corridor feature steep-pitch roofs with complex valley intersections, decorative dormers, and turret details that require specialized flashing techniques. These homes often retain original slate or wood shingle roofs that can be preserved through targeted repairs or, when deterioration is too advanced, replaced with architectural shingles that honor the home\'s period character. Our restoration crews understand the delicate balance between maintaining historical aesthetics and providing modern weather protection.',
         'The majority of Caldwell\'s housing stock consists of colonials, Cape Cods, and ranch-style homes built between the 1920s and 1970s. These homes typically feature simpler roof geometries — gable or hip configurations with moderate pitches — but often carry decades of deferred maintenance. Common issues include multiple shingle layers that exceed load recommendations, deteriorated plywood decking beneath aging felt underlayment, and inadequate ventilation that accelerates shingle degradation from beneath. Our standard approach for these homes includes full tear-off to the deck, thorough inspection and repair of sheathing, installation of synthetic underlayment with enhanced ice-and-water protection at all vulnerable points, and high-quality architectural shingles backed by manufacturer lifetime warranties.',
         'Caldwell\'s compact lot sizes mean that roofing projects must be executed with exceptional site management. With neighboring homes just feet away, debris containment, careful material staging, and daily cleanup become critical project requirements rather than courtesies. We deploy magnetic nail sweepers across adjacent properties, use protective tarps over landscaping and driveways, and coordinate delivery schedules to avoid blocking shared streets. Our Caldwell homeowners consistently note our respectful site practices as a distinguishing feature of the Newark Quality Roofing experience.',
+        'Gutter system replacement is a common companion service during Caldwell roof projects. Many older homes retain original aluminum or even galvanized steel gutters with sectional joints that leak and sag after decades of service. We install seamless aluminum gutter systems with concealed hangers, oversized downspouts for handling heavy rainfall, and leaf guard options that reduce maintenance demands on Caldwell\'s heavily treed lots. Coordinating gutter replacement with roofing ensures proper drip-edge integration and eliminates the fascia water damage that deteriorating gutters cause over time.',
       ],
     },
     commercial: {
@@ -35,6 +38,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       content: [
         'Caldwell\'s Bloomfield Avenue commercial corridor anchors the borough\'s economy with a mix of retail storefronts, professional offices, restaurants, and mixed-use buildings. These structures present roofing challenges distinct from residential work: flat or low-slope roof systems predominate, requiring EPDM, TPO, or modified bitumen membrane installations rather than traditional shingles. Many of these buildings date to the early twentieth century and feature original built-up roofing systems that have been patched repeatedly over the decades. Newark Quality Roofing provides comprehensive commercial roof evaluations that assess membrane condition, drainage adequacy, flashing integrity around HVAC units and plumbing vents, and structural capacity for modern roofing assemblies.',
         'For Caldwell\'s business owners, roofing projects must be scheduled to minimize disruption to operations and customer access. We work nights and weekends when necessary, stage materials efficiently on limited commercial lots, and maintain clean, safe walkways throughout every project. Our commercial clients along Bloomfield Avenue appreciate our ability to complete full membrane replacements within tight timelines — often over a single weekend — while delivering the same warranted quality that defines our residential work. From single-ply TPO installations with 20-year warranties to energy-efficient cool-roof coatings that reduce cooling costs, our commercial solutions are designed for Caldwell\'s specific building stock and business needs.',
+        'Properties near Caldwell University often include multi-family rental units and student housing that require responsive roofing maintenance. Landlords and property management companies in the borough rely on our scheduled maintenance programs to identify developing issues before tenants experience leaks. We provide annual condition assessments with prioritized repair recommendations and documented reporting that supports insurance and property management requirements. Emergency leak response for rental properties receives the same priority as owner-occupied homes because we understand that tenant satisfaction directly impacts property value in Caldwell\'s competitive rental market.',
       ],
     },
     weatherChallenges: {
@@ -106,6 +110,18 @@ export const caldwellsRoselandContent: CityContent[] = [
         text: 'After a storm damaged several shingles on our ranch home, they were out within 24 hours for a temporary patch and had the full repair done within the week. Great communication and fair pricing. I recommend them to all my neighbors in Caldwell.',
         service: 'Storm Damage Repair',
       },
+      {
+        name: 'Tom S.',
+        rating: 5,
+        text: 'Had our gutters replaced along with the roof on our Caldwell colonial and the difference in drainage is remarkable. No more overflowing gutters during heavy rain, no more ice dams in winter. The seamless aluminum system they installed looks great and the leaf guards have been a huge time saver. Should have done this years ago.',
+        service: 'Roof & Gutter Replacement',
+      },
+      {
+        name: 'Linda K.',
+        rating: 5,
+        text: 'Newark Quality Roofing handled our Caldwell University area rental property roof with complete professionalism. They coordinated with our tenants, completed the work on schedule, and provided all the documentation our insurance company needed. Their maintenance program has kept the roof in excellent condition since installation.',
+        service: 'Residential Roof Replacement',
+      },
     ],
     faqs: [
       {
@@ -132,6 +148,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         question: 'Do you offer emergency roof repairs in Caldwell after storms?',
         answer: 'Yes, we provide 24-hour emergency response for storm damage in Caldwell. Our team can deploy for temporary tarping and water mitigation within hours, followed by permanent repairs scheduled promptly. We also assist with insurance claims documentation and adjuster coordination.',
       },
+      {
+        question: 'Can you improve my Caldwell home\'s energy efficiency during a roof replacement?',
+        answer: 'Absolutely. Every Caldwell re-roofing project includes an assessment of attic insulation and ventilation. We frequently recommend adding blown-in insulation to meet current R-49 standards, upgrading from passive gable vents to continuous ridge-and-soffit ventilation, and installing radiant barrier decking on south-facing slopes. These improvements can reduce heating and cooling costs by 15-25 percent while extending the new roof\'s lifespan.',
+      },
+      {
+        question: 'Do you replace gutters during roofing projects in Caldwell?',
+        answer: 'Yes, gutter replacement is one of our most requested companion services. We install seamless aluminum gutter systems with concealed hangers, 3x4 inch oversized downspouts for heavy rainfall capacity, and leaf guard options. Coordinating gutter work with roof replacement ensures proper drip-edge integration and saves the homeowner from scheduling a separate project later.',
+      },
     ],
     whyChoose: {
       heading: 'Why Caldwell Homeowners Choose Newark Quality Roofing',
@@ -151,6 +175,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         {
           title: 'Licensed and Insured',
           description: 'Fully licensed in New Jersey with comprehensive liability and workers\' compensation coverage. We pull all required Caldwell borough permits and coordinate inspections from start to final sign-off.',
+        },
+        {
+          title: 'Energy Efficiency Focus',
+          description: 'Every Caldwell roof replacement includes a ventilation and insulation assessment with upgrade recommendations. We help homeowners reduce energy costs while extending roof system longevity through proper attic climate management.',
+        },
+        {
+          title: 'Complete Exterior Service',
+          description: 'Roofing, gutters, fascia, soffits, and ventilation — we handle every element above the wall line in a single coordinated project with one warranty and one point of contact.',
         },
       ],
     },
@@ -175,6 +207,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       'The roofing landscape in North Caldwell is defined by complexity and scale. Custom homes with 4,000 to 10,000 square feet of living space feature correspondingly large and intricate roof systems — multi-level structures with intersecting ridges, dormer clusters, turret accents, covered porticoes, and attached multi-bay garages, each with its own roofing geometry. Many of the borough\'s finer homes incorporate premium roofing materials: natural slate quarried to specification, standing-seam copper panels that develop a distinctive verdigris patina over decades, cedar shake roofs that complement the wooded setting, and high-end designer shingle lines that replicate the appearance of historic materials. Newark Quality Roofing has built a reputation in North Caldwell for executing these sophisticated installations with the precision they demand.',
       'North Caldwell\'s heavily wooded environment creates specific roofing challenges that less experienced contractors often overlook. Mature oak, maple, and ash trees deposit enormous volumes of leaves, seeds, and small branches onto roof surfaces, filling valleys and clogging gutters with organic debris that traps moisture and promotes biological growth. Overhanging canopy limits sunlight exposure, keeping roof surfaces damp and accelerating moss, lichen, and algae colonization — particularly on north-facing slopes. Falling limbs during storms, ice loading on branches that hang over roof structures, and the constant cycle of organic decomposition against roofing materials all demand a maintenance-conscious approach that goes well beyond simple installation.',
       'Our commitment to North Caldwell homeowners extends from initial consultation through decades of ongoing care. We conduct thorough property assessments that evaluate not just the roof itself but the surrounding tree canopy, drainage patterns, attic ventilation systems, and existing insulation levels. This comprehensive approach ensures that every roofing recommendation addresses root causes rather than symptoms — and that every installation is designed for maximum longevity in North Caldwell\'s specific environment.',
+      'Insurance considerations are an important element of roofing in North Caldwell, where replacement costs for premium materials significantly exceed standard residential roofing expenses. We provide detailed documentation that supports accurate insurance valuations — including material specifications, installation cost breakdowns, and replacement cost estimates that reflect the true investment in premium roofing systems. When storm damage occurs, our insurance coordination services help North Caldwell homeowners navigate the claims process efficiently, ensuring that settlements reflect the actual cost of restoring high-end roofing materials rather than generic commodity pricing.',
     ],
     residential: {
       heading: 'Estate-Grade Residential Roofing for North Caldwell Properties',
@@ -183,6 +216,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         'Cedar shake and shingle roofs are a natural complement to North Caldwell\'s wooded character. We install hand-split cedar shakes and machine-cut cedar shingles using proper spacing, underlayment, and ventilation techniques that maximize the wood\'s natural longevity. Our cedar installations include copper ridge caps, stainless steel fasteners to prevent galvanic corrosion, and fire-treated options where borough code or insurance requirements dictate. For homeowners who value the cedar aesthetic but prefer reduced maintenance, we offer premium composite shake products that convincingly replicate the texture and shadow lines of natural wood without the periodic treatment cedar requires.',
         'Copper roofing and accent work represents some of our finest craft in North Caldwell. From full standing-seam copper roof panels to decorative bay window roofs, cupola caps, chimney flashings, and custom-fabricated gutter systems, our sheet metal specialists create enduring copper installations that age gracefully through decades of North Caldwell\'s demanding weather. We source 20-ounce and 24-ounce copper sheet from domestic mills and fabricate custom profiles in our shop to match architectural specifications precisely.',
         'Even when North Caldwell homeowners select premium architectural shingles, the installation must meet elevated standards. We work with the highest-tier product lines from GAF, Owens Corning, and CertainTeed — including the GAF Grand Sequoia, Owens Corning Berkshire Collection, and CertainTeed Grand Manor — designer shingles that provide the dimensional appearance and enhanced durability befitting North Caldwell\'s distinguished homes. Every installation includes enhanced underlayment, extended ice-and-water shield coverage, and hand-cut starter courses at all eaves and rakes.',
+        'For North Caldwell homeowners planning major renovations or additions, we provide design-assist roofing services that integrate new construction with existing roof systems. Second-story additions, wing extensions, and garage expansions all create transition zones where new framing meets original construction — these junctions are the most common source of leaks in renovated homes. Our structural integration approach ensures that the new and existing roof sections function as a unified weathertight assembly, with continuous underlayment, properly lapped flashings, and matched material specifications that maintain the property\'s cohesive appearance.',
       ],
     },
     commercial: {
@@ -197,6 +231,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       content: [
         'North Caldwell\'s elevation and heavily wooded terrain amplify the standard northeastern weather threats. The borough sits at higher elevation than surrounding communities, increasing exposure to wind-driven rain and creating heavier snow accumulations that persist longer beneath the forest canopy. Ice damming is a particular concern on the large, complex roofs typical of North Caldwell homes — multiple valley intersections, dormers, and varying roof planes create natural collection points where ice barriers can form and force meltwater laterally beneath roofing materials. Our North Caldwell installations address these risks with extended ice-and-water shield coverage, proper attic ventilation design calculated to each home\'s specific geometry, and strategic use of heat cable systems in chronic ice dam zones.',
         'Wind exposure during nor\'easters and severe thunderstorms presents additional challenges for North Caldwell\'s large roofs. The tall, mature trees that define the borough\'s character also shed branches — and occasionally entire limbs — during high-wind events. Impact damage to premium roofing materials requires immediate attention to prevent water intrusion into the high-value finishes beneath. Our emergency response team provides 24-hour service to North Caldwell homeowners, with temporary tarping, water mitigation, and permanent repair capabilities that address storm damage before secondary damage compounds the loss.',
+        'Seasonal moisture management on North Caldwell\'s wooded lots requires year-round attention. Spring pollen accumulation creates a film on roof surfaces that holds moisture and promotes algae colonization. Summer humidity beneath the tree canopy keeps north-facing slopes damp for extended periods. Fall leaf debris fills every valley and gutter. Winter ice forms along shaded eave lines long after sun-exposed sections have cleared. Our annual maintenance programs for North Caldwell properties address each seasonal challenge systematically, preserving the appearance and extending the functional life of premium roofing investments.',
       ],
     },
     neighborhoods: [
@@ -241,6 +276,18 @@ export const caldwellsRoselandContent: CityContent[] = [
           'Coordinated installation across 5 separate roof areas',
         ],
       },
+      {
+        title: 'Designer Shingle Installation — Grandview Avenue Colonial',
+        type: 'residential',
+        description:
+          'Premium installation of GAF Grand Sequoia designer shingles on a 5,400 sq ft custom colonial with multiple dormers, a three-car garage wing, and a covered patio extension. The thick designer profile provides the dimensional slate-like appearance appropriate for North Caldwell\'s distinguished homes.',
+        details: [
+          'GAF Grand Sequoia in Charcoal with Golden Pledge warranty registration',
+          'Full ice-and-water shield at all valleys, dormers, and eave lines',
+          'Hand-cut starter courses at all eaves and rakes for precision alignment',
+          'Enhanced six-nail pattern for elevated wind resistance on exposed lot',
+        ],
+      },
     ],
     testimonials: [
       {
@@ -260,6 +307,12 @@ export const caldwellsRoselandContent: CityContent[] = [
         rating: 5,
         text: 'After a severe storm damaged our roof and the guest house, their emergency team was on-site within hours with tarps and a repair plan. The permanent repairs were completed within two weeks using identical materials. They also handled all insurance coordination. First-class service throughout.',
         service: 'Storm Damage Repair',
+      },
+      {
+        name: 'Andrea M.',
+        rating: 5,
+        text: 'We needed our North Caldwell home\'s copper bay window roofs and chimney flashings replaced to match the original patina on our 30-year-old colonial. Newark Quality Roofing fabricated every piece custom in their shop and the finished installation is indistinguishable from the original work. Their metalwork crew is genuinely talented and the attention to detail is extraordinary.',
+        service: 'Copper Roofing',
       },
     ],
     faqs: [
@@ -287,6 +340,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         question: 'Can you match our existing roofing materials for repairs?',
         answer: 'Material matching is a core competency. We maintain relationships with specialty suppliers for discontinued slate colors, legacy shingle profiles, and custom copper profiles. For slate, we source from the original quarry when possible or select replacement slate with matching thickness, texture, and weathering characteristics.',
       },
+      {
+        question: 'How do you handle insurance claims for premium roofing materials in North Caldwell?',
+        answer: 'We provide comprehensive insurance documentation including detailed material specifications, replacement cost estimates reflecting premium material pricing, photographic damage records, and scope-of-work reports formatted for adjuster review. Our documentation ensures that claims settlements accurately reflect the cost of restoring slate, cedar, copper, or designer shingle systems rather than defaulting to commodity shingle pricing.',
+      },
+      {
+        question: 'Can you integrate new roofing with existing systems during home renovations?',
+        answer: 'Yes. Additions, wing extensions, and second-story construction all create transition zones where new and existing roofs must function as a unified system. We provide design-assist services that ensure proper structural integration, continuous underlayment, lapped flashings, and matched materials across the entire roof assembly.',
+      },
     ],
     whyChoose: {
       heading: 'Why North Caldwell\'s Finest Homes Trust Newark Quality Roofing',
@@ -306,6 +367,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         {
           title: 'Comprehensive Warranty Programs',
           description: 'We offer extended workmanship warranties backed by manufacturer certifications from GAF, Owens Corning, and CertainTeed. Our premium installations qualify for the highest warranty tiers available, including non-prorated material coverage.',
+        },
+        {
+          title: 'Insurance Coordination',
+          description: 'We provide detailed documentation that supports accurate insurance valuations for premium roofing materials, ensuring claims settlements reflect the true cost of restoring slate, cedar, copper, and designer shingle systems.',
+        },
+        {
+          title: 'Year-Round Maintenance',
+          description: 'North Caldwell\'s wooded environment demands ongoing attention. Our annual maintenance programs address seasonal debris, biological growth, and weather-related wear to preserve premium roofing investments for decades.',
         },
       ],
     },
@@ -330,6 +399,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       'Roofing in Essex Fells operates at the highest tier of residential construction. The borough\'s homes regularly feature natural slate roofs specified by architects for their century-plus lifespan and unmatched aesthetic authority. Cedar shake roofs complement the wooded, naturalistic setting that defines Essex Fells. Standing-seam copper panels, custom-fabricated copper flashings, and decorative copper elements appear throughout the borough on primary residences and accessory structures alike. Even when homeowners select premium shingle products, the expectation is for top-tier designer lines installed with the kind of hand-crafted precision that distinguishes artisan work from commodity installation. Newark Quality Roofing has earned the trust of Essex Fells homeowners — and the architects and builders who serve them — by consistently delivering this level of quality.',
       'The scale of Essex Fells properties creates project logistics that few roofing contractors are equipped to manage. Multi-structure estates with a primary residence, guest cottage, pool house, and detached garage — each with its own roof system — require coordinated material procurement, crew scheduling, and quality control across weeks or months of work. Long private driveways limit material delivery access and require careful staging. Heavily wooded lots with mature specimen trees demand extraordinary care during installation to prevent damage to the landscape. These logistical complexities are routine for our team, which has managed estate-scale roofing projects throughout Essex Fells and the surrounding communities for over two decades.',
       'Our relationship with Essex Fells clients typically begins with a detailed consultation that involves the homeowner, and often their architect or builder, to establish material specifications, aesthetic objectives, and project timelines. We prepare comprehensive proposals that detail every material selection, installation method, and warranty provision. Throughout execution, our project managers provide regular progress updates, coordinate with other trades working on the property, and ensure that every detail meets the exacting standards Essex Fells homeowners rightfully expect.',
+      'The financial dimension of Essex Fells roofing projects demands sophisticated project management and transparent communication. Estate-scale installations using premium materials represent investments of $50,000 to $200,000 or more, requiring detailed proposals with line-item pricing, milestone-based payment schedules, and comprehensive warranty documentation. We provide our Essex Fells clients with complete project records — including material certifications, installation photographs, and warranty registrations — assembled into a permanent property file that supports insurance valuations, home appraisals, and future maintenance planning. This level of documentation reflects the seriousness with which we approach every Essex Fells engagement.',
     ],
     residential: {
       heading: 'Architect-Specified Roofing for Essex Fells Estates',
@@ -396,6 +466,18 @@ export const caldwellsRoselandContent: CityContent[] = [
           'Integrated copper gutter system with chain downspouts',
         ],
       },
+      {
+        title: 'Multi-Structure Maintenance Program — Fells Road Estate',
+        type: 'residential',
+        description:
+          'Established a comprehensive annual maintenance program across a four-structure Essex Fells estate including the main residence, guest cottage, carriage house, and pool pavilion. Each structure receives semi-annual inspection, debris removal, moss treatment, flashing assessment, and detailed photographic condition reporting to support the property manager\'s long-term capital planning.',
+        details: [
+          'Semi-annual inspections across all four estate structures',
+          'Photographic condition reports with prioritized maintenance recommendations',
+          'Moss and lichen treatment program for heavily wooded site',
+          'Priority emergency response with pre-authorized access protocols',
+        ],
+      },
     ],
     testimonials: [
       {
@@ -415,6 +497,12 @@ export const caldwellsRoselandContent: CityContent[] = [
         rating: 5,
         text: 'The copper roofing on our new pool house is simply beautiful. Their metalwork team fabricated custom curved panels that our architect specified, and the finished installation exceeds what we envisioned. They also handled the standing-seam work on two dormers of our main house. Exceptional craftsmanship.',
         service: 'Copper Roofing',
+      },
+      {
+        name: 'William and Margaret H.',
+        rating: 5,
+        text: 'Our Essex Fells estate required roofing across the main house, guest cottage, and detached garage — three different structures with three different roof configurations. Newark Quality managed the entire 10-week project with the organization and professionalism of a commercial operation while delivering the handcrafted quality our historic home deserves. The documentation package they provided for our insurance was invaluable.',
+        service: 'Estate Roofing',
       },
     ],
     faqs: [
@@ -442,6 +530,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         question: 'How do you protect our landscape during roofing work?',
         answer: 'Essex Fells properties feature significant landscape investments that we protect rigorously. We deploy ground-level protection over all work zones, use plywood pathways over lawns for equipment and material transport, install debris containment netting on scaffolding, and photograph the entire property before and after each work day. Specimen trees, garden beds, and hardscape features are individually protected.',
       },
+      {
+        question: 'What documentation do you provide for insurance and appraisal purposes?',
+        answer: 'We assemble complete project records for every Essex Fells installation including material certifications, manufacturer warranty registrations, installation photographs at each phase, detailed cost documentation, and final inspection reports. This permanent property file supports insurance replacement cost valuations, real estate appraisals, and future maintenance planning for the life of the roof system.',
+      },
+      {
+        question: 'Do you coordinate with other trades during estate construction projects?',
+        answer: 'Regularly. Estate-scale projects often involve concurrent work by masons, painters, landscape architects, and other specialists. Our project managers coordinate scheduling, material staging, and access requirements with all trades on site, ensuring that roofing work proceeds without delaying other construction activities and that finished roofing is protected during subsequent work phases.',
+      },
     ],
     whyChoose: {
       heading: 'Why Essex Fells Estate Owners Choose Newark Quality Roofing',
@@ -461,6 +557,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         {
           title: 'Generational Perspective',
           description: 'Essex Fells homes are built to last generations, and our roofing installations match that timeline. We specify materials and techniques designed for 50-year, 75-year, and 100-year performance because that is the standard this community deserves.',
+        },
+        {
+          title: 'Complete Documentation',
+          description: 'Every Essex Fells project includes comprehensive documentation — material certifications, installation photographs, warranty registrations, and cost records — assembled into a permanent property file for insurance, appraisal, and maintenance purposes.',
+        },
+        {
+          title: 'Multi-Trade Coordination',
+          description: 'Our project managers coordinate seamlessly with architects, builders, masons, and landscape professionals on estate-scale construction projects, ensuring roofing integrates perfectly with all other building trades.',
         },
       ],
     },
@@ -492,6 +596,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         'Fairfield\'s residential housing stock reflects the suburban building boom of the late twentieth century. Center-hall colonials, split-levels, bi-levels, and raised ranches built during the 1970s, 1980s, and 1990s comprise the majority of the township\'s homes. These properties share common roofing characteristics: moderate-pitch gable and hip roofs with relatively straightforward geometries, original builder-grade shingles that have reached end-of-life, and ventilation systems that were adequate for their era but fall short of current best practices. Our standard residential approach for Fairfield homes includes complete tear-off to the deck, thorough sheathing inspection with targeted replacement of any deteriorated panels, installation of premium synthetic underlayment, ice-and-water shield at all eaves and valleys, and GAF or Owens Corning architectural shingles with lifetime manufacturer warranties.',
         'Many Fairfield homeowners are upgrading from basic three-tab shingles to dimensional architectural shingles that provide enhanced curb appeal along with superior wind and impact resistance. The visual transformation is dramatic — flat, uniform three-tab roofs give way to richly textured dimensional profiles that add depth and character to Fairfield\'s suburban homes. We help homeowners navigate shingle color selection with physical sample displays viewed in their home\'s natural lighting, ensuring the chosen color complements existing siding, brick, and stone elements. Popular choices in Fairfield include Owens Corning Duration in Driftwood, Teak, and Brownwood, and GAF Timberline HDZ in Pewter Gray, Charcoal, and Weathered Wood.',
         'Fairfield\'s newer construction neighborhoods, including developments built in the 1990s and early 2000s, feature homes with more architectural complexity — front-facing gable accents, arched entryways, bay window rooflets, and steeper decorative pitches on front elevations. These design elements require more precise installation techniques, custom flashing fabrication, and careful attention to the transitions between different roof planes. Our crews are experienced with the specific construction methods used by the production builders who developed these neighborhoods and know where the common failure points occur.',
+        'Skylight-related issues are particularly common in Fairfield\'s 1980s and 1990s construction, when skylights were a popular feature but installation standards lagged behind the enthusiasm. Aluminum-flashed skylights with deteriorated seals and corroded curb flashings are a leading source of leaks in these homes. During re-roofing projects, we replace skylight flashings with modern step-and-counter flashing systems, upgrade curb waterproofing, and evaluate whether aging skylight units themselves should be replaced with modern low-E units that provide better insulation and leak resistance. This proactive approach prevents the recurring skylight leaks that frustrate so many Fairfield homeowners.',
       ],
     },
     commercial: {
@@ -552,6 +657,18 @@ export const caldwellsRoselandContent: CityContent[] = [
           'Service bay exhaust penetration flashings',
         ],
       },
+      {
+        title: 'Skylight Leak Resolution — Hollywood Avenue Colonial',
+        type: 'residential',
+        description:
+          'Resolved chronic skylight leaks on a 1988 colonial by replacing two aging skylight units with modern Velux low-E models during a complete roof replacement. The project included rebuilding all skylight curb flashings with modern step-and-counter flashing assemblies and adding proper drainage crickets behind each unit.',
+        details: [
+          'Two Velux low-E skylights replacing deteriorated 1988 original units',
+          'Modern step-and-counter flashing with drainage crickets behind each skylight',
+          'Owens Corning Duration architectural shingles with SureNail technology',
+          'Complete ventilation upgrade from gable vents to ridge-and-soffit system',
+        ],
+      },
     ],
     testimonials: [
       {
@@ -571,6 +688,18 @@ export const caldwellsRoselandContent: CityContent[] = [
         rating: 5,
         text: 'When our Fairfield neighborhood decided to coordinate roof replacements, Newark Quality Roofing gave us group pricing and scheduled each home efficiently. Twelve houses re-roofed in about a month with minimal disruption. Great experience working with them on a community project.',
         service: 'Neighborhood Re-Roofing',
+      },
+      {
+        name: 'Jennifer A.',
+        rating: 5,
+        text: 'Our 1988 colonial in Fairfield had skylights that leaked every time it rained heavily. During the roof replacement, Newark Quality replaced both skylights with modern low-E units and completely rebuilt the flashing around them. Two years later, absolutely zero leaks. They also fixed ventilation issues in our attic that were causing ice dams every winter. Thorough, knowledgeable, and reasonably priced.',
+        service: 'Roof Replacement with Skylight Upgrade',
+      },
+      {
+        name: 'Robert M., Building Owner',
+        rating: 5,
+        text: 'I own a commercial building on Route 46 and the existing roof had been leaking for years despite multiple patch attempts by other companies. Newark Quality Roofing installed a new TPO membrane with proper drainage design and the building has been completely dry since. Their commercial team clearly knows flat-roof systems inside and out.',
+        service: 'Commercial TPO Installation',
       },
     ],
     faqs: [
@@ -598,6 +727,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         question: 'Is Fairfield Township a good candidate for cool-roof installations?',
         answer: 'Fairfield\'s commercial buildings along Route 46 are excellent candidates for cool-roof systems. White TPO membranes and reflective coatings can reduce rooftop temperatures by 50-60 degrees in summer, significantly lowering cooling costs for the large retail and office buildings common in the township. We provide energy savings projections as part of our commercial proposals.',
       },
+      {
+        question: 'My Fairfield home has skylight leaks — can you fix them during re-roofing?',
+        answer: 'Absolutely. Skylight leaks are one of the most common issues in Fairfield\'s 1980s-90s homes. During re-roofing, we replace deteriorated skylight flashings with modern step-and-counter flashing systems, upgrade curb waterproofing, and evaluate whether the skylight units themselves should be replaced with modern low-E models. This addresses the root cause rather than patching symptoms.',
+      },
+      {
+        question: 'Do you offer warranty coverage on Fairfield roofing projects?',
+        answer: 'Every Fairfield installation includes both manufacturer material warranties and our workmanship warranty. As certified installers for GAF, Owens Corning, and CertainTeed, we can offer enhanced warranty packages including Golden Pledge and Platinum Protection that provide non-prorated material coverage and workmanship guarantees for up to 25 years. Commercial projects include manufacturer NDL (No Dollar Limit) warranties on qualifying TPO and EPDM installations.',
+      },
     ],
     whyChoose: {
       heading: 'Why Fairfield Property Owners Choose Newark Quality Roofing',
@@ -617,6 +754,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         {
           title: 'Preventive Maintenance Programs',
           description: 'Our structured maintenance programs extend roof system life and reduce emergency costs for both residential homeowners and commercial property managers throughout Fairfield.',
+        },
+        {
+          title: 'Comprehensive Warranty Options',
+          description: 'As certified installers for three leading manufacturers, we offer enhanced residential and commercial warranty packages including non-prorated material coverage and extended workmanship guarantees up to 25 years.',
+        },
+        {
+          title: 'Skylight and Specialty Repair',
+          description: 'Fairfield\'s 1980s-90s homes commonly suffer from skylight and flashing failures. We specialize in identifying and permanently resolving these issues during re-roofing rather than applying temporary patches.',
         },
       ],
     },
@@ -648,6 +793,8 @@ export const caldwellsRoselandContent: CityContent[] = [
         'Roseland\'s residential housing stock tells the story of suburban New Jersey\'s most productive building decades. Colonials from the 1950s with their classic symmetrical facades and side-gable roofs stand alongside split-levels and bi-levels from the 1960s with their characteristic multi-plane roof geometries, and ranch homes from the 1960s-1970s with their extended hip or gable roofs covering single-story footprints. Each era brought distinct construction techniques and roofing challenges that our crews understand intimately. The 1950s colonials often feature original board sheathing rather than plywood, requiring careful evaluation and selective replacement during re-roofing. The 1960s split-levels have complex roof-wall intersections at the split point that are notorious for flashing failures. Ranch homes with wide spans sometimes show sag or deflection in original rafters that must be assessed before loading new materials.',
         'Our standard residential approach for Roseland homes emphasizes completeness. Rather than simply replacing shingles, we address the entire roof system — from ventilation and insulation assessment through decking inspection, underlayment installation, and final shingle application. This systems-based approach ensures that the new shingle layer has every advantage for maximum longevity: dry, solid decking beneath synthetic underlayment; proper ice-and-water shield at all eaves, valleys, sidewalls, and penetrations; balanced ventilation with adequate intake at soffits and exhaust at ridges; and premium architectural shingles installed to manufacturer specifications with proper nailing patterns and exposure dimensions.',
         'Roseland homeowners increasingly request cosmetic upgrades during re-roofing projects. New architectural shingles in contemporary color palettes, upgraded gutter systems with concealed hangers, refreshed fascia and soffit trim, and new or improved ridge ventilation all contribute to a comprehensive exterior improvement. We coordinate these related services within the roofing project timeline, providing homeowners with a single contractor, a single project schedule, and a unified warranty for all work performed.',
+        'Chimney-related issues are particularly prevalent in Roseland\'s mid-century housing stock. Original chimneys with deteriorated mortar, cracked crowns, and failing lead or aluminum flashings are a leading source of water intrusion in homes from this era. During every Roseland re-roofing project, we perform a thorough chimney assessment and replace flashings with modern step-and-counter flashing assemblies using corrosion-resistant materials. Where chimney masonry shows significant deterioration, we coordinate with masonry specialists to ensure that structural repairs are completed before new flashings are installed — preventing the recurring leaks that result from flashing against unstable substrate.',
+        'Roseland\'s newer residential pockets, including townhome and condominium developments built in the 1990s and 2000s, present community-scale roofing opportunities. We work with homeowner associations and property management companies to develop coordinated re-roofing programs that provide volume pricing, consistent material quality across all units, and phased scheduling that minimizes disruption to the community. Our HOA experience includes navigating architectural review processes, presenting material options at board meetings, and providing the documentation associations need for reserve fund planning and unit owner communication.',
       ],
     },
     commercial: {
@@ -728,6 +875,18 @@ export const caldwellsRoselandContent: CityContent[] = [
         text: 'Straightforward, professional, and reasonably priced. They replaced our Roseland ranch roof in two days, cleaned up every nail, and the new shingles look great. No surprises, no upsells — just good honest roofing work. Would recommend without hesitation.',
         service: 'Roof Replacement',
       },
+      {
+        name: 'Karen W.',
+        rating: 5,
+        text: 'Our Roseland townhome association hired Newark Quality Roofing to coordinate re-roofing across 16 units. They presented materials to our board, provided a phased schedule that minimized disruption, and completed every unit to the same high standard. The volume pricing saved each owner significantly compared to individual projects. Excellent communication throughout.',
+        service: 'HOA Re-Roofing Program',
+      },
+      {
+        name: 'Daniel L.',
+        rating: 5,
+        text: 'The chimney on our 1960s colonial had been leaking for years and nobody could fix it permanently. Newark Quality Roofing identified the deteriorated masonry as the root cause, coordinated the brick repair, and installed new copper-lined counter flashings. Three winters later, completely dry. They solved what three other roofers could not.',
+        service: 'Chimney Flashing Repair',
+      },
     ],
     faqs: [
       {
@@ -754,6 +913,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         question: 'Can you repair just a section of our roof, or is full replacement necessary?',
         answer: 'It depends on the roof\'s overall condition. If the existing shingles have 5+ years of remaining life and the damage is localized, targeted repair can be cost-effective. If the roof is approaching end-of-life, full replacement provides better long-term value than patching deteriorating materials. We provide honest assessments and never recommend replacement when repair will serve the homeowner well.',
       },
+      {
+        question: 'Do you work with Roseland HOAs and condo associations?',
+        answer: 'Yes. We work with several Roseland condominium and townhome associations on coordinated re-roofing programs. Our HOA services include board presentations, material selection assistance, volume pricing, phased scheduling across multiple units, and the documentation associations need for reserve fund planning and unit owner communication.',
+      },
+      {
+        question: 'Can you address chimney flashing issues during our Roseland roof replacement?',
+        answer: 'Chimney flashing replacement is a standard component of our Roseland re-roofing projects. We replace deteriorated lead or aluminum flashings with modern step-and-counter flashing assemblies using corrosion-resistant materials. Where chimney masonry shows deterioration, we coordinate with masonry specialists to complete structural repairs before installing new flashings for a lasting watertight seal.',
+      },
     ],
     whyChoose: {
       heading: 'Why Roseland Property Owners Trust Newark Quality Roofing',
@@ -773,6 +940,14 @@ export const caldwellsRoselandContent: CityContent[] = [
         {
           title: 'Full-Service Convenience',
           description: 'From roofing to gutters, fascia, soffits, and ventilation, we handle every exterior element above the wall line. Roseland homeowners get comprehensive service from a single contractor with a unified warranty.',
+        },
+        {
+          title: 'HOA and Community Experience',
+          description: 'We work with Roseland condominium and townhome associations on coordinated re-roofing programs, providing volume pricing, phased scheduling, and the professional documentation that board governance requires.',
+        },
+        {
+          title: 'Chimney Integration Specialists',
+          description: 'Roseland\'s mid-century homes commonly suffer from chimney flashing failures. We replace deteriorated flashings with modern systems and coordinate masonry repairs to deliver permanent solutions, not temporary patches.',
         },
       ],
     },

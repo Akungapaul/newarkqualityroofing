@@ -26,6 +26,7 @@ export const firstSuburbsContent: CityContent[] = [
       'Brookdale Park, the sprawling 121-acre county park designed by the Olmsted Brothers firm, anchors the northern residential zone where homes on Broughton Avenue, Watchung Avenue, and Berkeley Avenue command premium prices. Roofing choices here lean toward architectural shingles, natural slate on the grander Colonials, and standing-seam metal on recent renovations. Along the southern boundary near Watsessing Park and the Garden State Parkway corridor, the housing tilts toward more modest Capes and bi-levels with standard three-tab shingles that are now past their 20-year expected lifespan. In both zones, Newark Quality Roofing tailors material and labor recommendations to the specific neighborhood context, not a one-size-fits-all bid.',
 
       'Commercially, Bloomfield\'s Broad Street downtown has undergone a revitalization surge, with new restaurants, fitness studios, and mixed-use loft conversions occupying formerly vacant storefronts. These commercial properties typically feature low-slope rubber membrane or modified-bitumen roofing systems that require specialized installation and maintenance expertise. Our commercial division has completed flat-roof projects on Broad Street, Glenwood Avenue, and along the Orange Street industrial pocket, providing TPO and EPDM installations with manufacturer-backed warranties. Whether your property is a 1920s Colonial on Spruce Street or a renovated retail space on Bloomfield Avenue, we bring the same meticulous attention to flashing details, ventilation balance, and long-term waterproofing integrity.',
+      'Bloomfield\'s proximity to NJ Transit\'s Montclair-Boonton Line has fueled a wave of transit-oriented development and home renovation. Young professionals attracted by the train commute to New York City invest in updating aging housing stock, and roofing is often the most critical improvement. We work with first-time homebuyers who have purchased fixer-uppers in the Watsessing station area and along JFK Drive, providing honest assessments of existing roof condition and transparent pricing for replacements that fit renovation budgets. Our financing options make it possible to bundle roofing with gutter, soffit, and fascia upgrades into a single project with manageable monthly payments.',
     ],
 
     // ── Residential ─────────────────────────────────────────────────────────
@@ -49,6 +50,7 @@ export const firstSuburbsContent: CityContent[] = [
         'The Broad Street corridor from Six Corners south to the Newark border has seen accelerated commercial development, with adaptive reuse projects converting industrial buildings into mixed-use spaces. These projects demand roofing solutions that handle both the structural load requirements of new HVAC equipment and the aesthetic expectations of upscale commercial tenants. Our commercial team specifies TPO and PVC membrane systems with enhanced puncture resistance for rooftop mechanical installations, and we coordinate with general contractors to integrate roof penetrations for ductwork, exhaust systems, and solar panel arrays.',
 
         'Along Bloomfield Avenue and the Orange Street industrial strip, warehouse and light-manufacturing facilities rely on our preventive maintenance programs to extend the life of existing modified-bitumen and built-up roofing systems. We offer annual inspection contracts that include infrared moisture scanning, seam integrity testing, and detailed condition reports with prioritized repair recommendations. For facility managers overseeing multiple properties in the Bloomfield area, our commercial maintenance program reduces emergency callouts by identifying and addressing issues before they escalate into costly leaks or structural damage.',
+        'The religious and institutional buildings scattered throughout Bloomfield present specialized roofing challenges. Historic churches with steep slate roofs, school buildings with large flat-roof footprints, and community centers with hybrid roof systems all require contractors experienced in institutional-scale work. We have completed roofing projects on several Bloomfield institutional properties, coordinating schedules around community events, school calendars, and worship services while delivering the same quality and warranty coverage that our residential and commercial clients expect.',
       ],
     },
 
@@ -137,6 +139,18 @@ export const firstSuburbsContent: CityContent[] = [
           'Ridge cap and field shingle replacement with matching GAF Timberline',
         ],
       },
+      {
+        title: 'Watsessing Heights Colonial Ventilation Upgrade',
+        type: 'residential',
+        description:
+          'Full tear-off and re-roof on a 1935 Colonial Revival with chronic ice dam problems caused by inadequate attic ventilation. The project included converting ineffective gable vents to a continuous ridge-and-soffit system, adding blown-in insulation to R-49, and installing reflective underlayment on south-facing slopes.',
+        details: [
+          'Owens Corning Duration Teak architectural shingles with SureNail technology',
+          'New continuous ridge vent and perforated soffit intake system',
+          'R-49 blown-in cellulose attic insulation upgrade',
+          'Enhanced gutter protection system for heavy leaf canopy area',
+        ],
+      },
     ],
 
     // ── Testimonials ────────────────────────────────────────────────────────
@@ -157,6 +171,12 @@ export const firstSuburbsContent: CityContent[] = [
         name: 'David & Susan R.',
         rating: 5,
         text: 'Our Cape Cod near Watsessing Park had chronic ice dam problems every winter. Newark Quality Roofing re-did the entire roof with proper ice shield, improved attic ventilation, and added gutter guards for the heavy leaf fall. First winter with zero icicle formation. Worth every penny.',
+        service: 'Roof Replacement',
+      },
+      {
+        name: 'Michael T.',
+        rating: 5,
+        text: 'We bought our first home near Watsessing station and the roof was the biggest question mark. Newark Quality Roofing gave us an honest assessment, explained what needed immediate attention versus what could wait, and worked within our renovation budget. The financing option they offered made it manageable. Great experience for first-time homebuyers navigating a major home expense.',
         service: 'Roof Replacement',
       },
     ],
@@ -224,6 +244,16 @@ export const firstSuburbsContent: CityContent[] = [
           description:
             'With crews based in neighboring Newark, we reach Bloomfield emergency calls within hours, providing same-day tarping and full insurance documentation to protect your home and your claim.',
         },
+        {
+          title: 'Financing for Renovation Budgets',
+          description:
+            'We offer flexible financing options that allow Bloomfield homeowners to bundle roofing with gutter, soffit, and fascia upgrades into a single affordable project — ideal for first-time buyers renovating older homes.',
+        },
+        {
+          title: 'Institutional and Multi-Family Experience',
+          description:
+            'From garden apartment complexes to churches and schools, we handle the larger-scale Bloomfield projects that require phased scheduling, multi-party coordination, and commercial-grade roofing systems.',
+        },
       ],
     },
 
@@ -280,6 +310,7 @@ export const firstSuburbsContent: CityContent[] = [
         'Washington Avenue, Belleville\'s main commercial thoroughfare, features a diverse mix of storefronts, professional offices, and restaurants housed in buildings ranging from single-story retail boxes to three-story mixed-use structures. The majority of these commercial roofs are low-slope systems covered with modified bitumen, EPDM rubber membrane, or older tar-and-gravel built-up roofing that has exceeded its intended service life. Our commercial team specializes in transitioning these aging systems to modern TPO or PVC membranes that offer superior reflectivity, lower maintenance requirements, and manufacturer warranties up to 25 years.',
 
         'The Belleville Turnpike and Route 21 corridor hosts industrial and light-manufacturing facilities with large-footprint metal-panel and membrane roofing systems. These properties often have complex rooftop mechanical installations including HVAC units, exhaust fans, and process ventilation equipment that create multiple penetration points vulnerable to water intrusion. We design and install custom curb-mounted flashing systems, pitch pockets, and pipe boot assemblies engineered for the specific equipment layout on each roof. Our preventive maintenance contracts for these facilities include semi-annual penetration inspections with thermal imaging to detect subsurface moisture before it causes interior damage.',
+        'Multi-family rental properties are a significant segment of Belleville\'s roofing market. Two-family homes, small apartment buildings, and garden-style complexes throughout the township require roofing contractors who understand landlord priorities: minimizing tenant disruption, completing work on predictable timelines, and providing documentation for insurance and tax purposes. We work with dozens of Belleville property owners and management companies, offering priority scheduling, volume pricing for multi-property clients, and the detailed invoicing and warranty documentation that rental property operations require. Our ability to coordinate gutter, soffit, and fascia work alongside roofing reduces the number of separate contractor engagements landlords need to manage.',
       ],
     },
 
@@ -352,6 +383,30 @@ export const firstSuburbsContent: CityContent[] = [
           'Custom cricket to eliminate ponding at exhaust penetration',
         ],
       },
+      {
+        title: 'Two-Family Duplex Re-Roof — Mill Street',
+        type: 'residential',
+        description:
+          'Complete tear-off and re-roof on a two-family duplex near the Branch Brook Park border with zero tenant displacement. Coordinated material staging on the narrow 30-foot lot, replaced deteriorated sheathing at the porch-to-house transition, and installed algae-resistant shingles selected for the high-humidity park-adjacent environment.',
+        details: [
+          'CertainTeed Landmark Pro in Moire Black with algae resistance',
+          'Porch-to-house transition rebuilt with custom step flashing',
+          'New seamless gutter system with oversized downspouts',
+          'Completed in 2 days with tenant coordination',
+        ],
+      },
+      {
+        title: 'Belleville Turnpike Industrial Facility Roof',
+        type: 'commercial',
+        description:
+          'Replaced a deteriorated built-up roof on a 15,000 sq ft light manufacturing facility along the Belleville Turnpike. The existing roof had 22 mechanical penetrations for HVAC and process exhaust equipment, each requiring custom curb-mounted flashing assemblies engineered for the specific equipment dimensions and maintenance access requirements.',
+        details: [
+          '60-mil EPDM membrane with fully adhered installation',
+          '22 custom curb-mounted penetration flashings for HVAC and exhaust equipment',
+          'Reinforced walkway pads at all mechanical service routes',
+          'Completed in phased sections to maintain manufacturing operations',
+        ],
+      },
     ],
 
     // ── Testimonials ────────────────────────────────────────────────────────
@@ -373,6 +428,18 @@ export const firstSuburbsContent: CityContent[] = [
         rating: 5,
         text: 'When the wind ripped shingles off our roof during that bad storm in March, they came out the same day to tarp it and did the full repair that same week. They spoke Italian with my mother-in-law and explained everything. Very respectful, very professional. The roof is perfect.',
         service: 'Storm Damage Repair',
+      },
+      {
+        name: 'Joseph D.',
+        rating: 5,
+        text: 'Our Belleville duplex on Mill Street needed both the roof and the porch roof replaced. They handled both in one coordinated project, rebuilt the flashing where the porch meets the main house, and installed new gutters with leaf guards. The tenants barely noticed the work was happening. Professional crew with great site management on our narrow lot.',
+        service: 'Roof & Porch Replacement',
+      },
+      {
+        name: 'Grace P.',
+        rating: 5,
+        text: 'We hired them for our Washington Avenue commercial building\'s flat roof after two other companies failed to stop the leaks. Newark Quality Roofing identified that the previous patches had actually made the drainage worse. They installed a proper TPO system with correct drainage slope and we have had zero water issues since. They truly understand flat roof engineering.',
+        service: 'Commercial Flat Roof Replacement',
       },
     ],
 
@@ -438,6 +505,16 @@ export const firstSuburbsContent: CityContent[] = [
           title: 'Bilingual Communication',
           description:
             'Our team includes Italian- and Spanish-speaking crew members who communicate clearly with all Belleville homeowners, ensuring nothing is lost in translation during estimates, project updates, and final walkthroughs.',
+        },
+        {
+          title: 'Rental Property Specialists',
+          description:
+            'We work with dozens of Belleville landlords and property managers, offering priority scheduling, volume pricing, and the detailed documentation that rental property operations and insurance require.',
+        },
+        {
+          title: 'Humidity-Resistant Materials',
+          description:
+            'Belleville\'s Passaic River proximity demands algae-resistant shingles and enhanced moisture barriers. We specify materials calibrated to the township\'s elevated humidity levels to maximize roof lifespan.',
         },
       ],
     },
@@ -643,6 +720,11 @@ export const firstSuburbsContent: CityContent[] = [
         question: 'Do I need Nutley Historic Commission approval for my roof?',
         answer:
           'Nutley does not have a mandatory historic preservation ordinance for most residential properties. However, if your home is in or near a locally designated area, or if you are pursuing historic tax credits, material and color choices may need to be sympathetic to the original construction. We can advise on historically appropriate options and coordinate with preservation consultants if needed.',
+      },
+      {
+        question: 'Do you offer financing options for Nutley roofing projects?',
+        answer:
+          'Yes, we offer several financing options to help Nutley homeowners manage the investment in a quality roof. Programs include 12-month same-as-cash, extended low-interest payment plans through our lending partners, and flexible terms that accommodate premium material selections. Many Nutley homeowners also use home equity lines for roof projects, and we provide the detailed specifications and cost documentation that lenders require for loan approval.',
       },
     ],
 

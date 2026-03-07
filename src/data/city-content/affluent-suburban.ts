@@ -23,6 +23,7 @@ export const affluentSuburbanContent: CityContent[] = [
       'Newark Quality Roofing has served Livingston homeowners and commercial property managers for nearly two decades, accumulating deep expertise in the specific roof systems found throughout the township. We understand that a 1960s split-level on South Orange Avenue presents fundamentally different challenges than a 2010s colonial in a gated community off Eisenhower Parkway. Our team has worked extensively with the architectural styles, material choices, and building codes that shape roofing outcomes in Livingston, from navigating HOA approval processes in newer developments to preserving the architectural integrity of established neighborhoods like Northland and Collins Terrace.',
       'The township\'s commercial corridor along Eisenhower Parkway and Route 10 adds another dimension to our Livingston practice. Retail centers, professional office buildings, medical facilities, and mixed-use developments all require specialized commercial roofing solutions including flat roof systems, TPO membranes, and metal roofing engineered for large-footprint structures. Our commercial division maintains the certifications, equipment, and crew capacity to handle projects ranging from strip mall roof replacements to new construction installations on multi-story office buildings.',
       'Livingston\'s geographic position in northern Essex County means its roofs face the full force of nor\'easters tracking up the coast, heavy snow loads during winter storms, intense summer heat that accelerates shingle deterioration, and frequent freeze-thaw cycles that stress flashings, valleys, and penetration seals. Our maintenance programs and material selections are specifically calibrated to these regional weather patterns, ensuring Livingston roofs perform reliably through decades of seasonal extremes.',
+      'Skylight-related issues are a frequent concern in Livingston homes, particularly the split-levels and raised ranches where skylights were popular additions during the 1980s and 1990s renovation wave. Aging skylight units with deteriorated seals, corroded aluminum curb flashings, and single-pane glass that promotes condensation are common sources of both leaks and energy loss. During every Livingston re-roofing project, we assess existing skylights and recommend either reflashing with modern step-and-counter flashing systems or complete replacement with energy-efficient low-E units. This proactive approach eliminates one of the most persistent leak sources in Livingston homes while improving natural light quality and thermal performance.',
     ],
     residential: {
       heading: 'Residential Roofing for Livingston\'s Diverse Housing Stock',
@@ -31,6 +32,7 @@ export const affluentSuburbanContent: CityContent[] = [
         'The township\'s newer developments, concentrated primarily along the western and southern edges near Eisenhower Parkway and the Livingston Town Center, feature contemporary colonial and transitional designs built to modern energy codes. These homes typically incorporate architectural laminate shingles, ridge venting systems, and enhanced attic insulation packages. For homeowners in these neighborhoods, our focus shifts toward warranty optimization, energy performance, and aesthetic coordination with HOA-specified color palettes and material standards. We handle the full HOA approval process, submitting samples, specifications, and contractor documentation so homeowners can focus on choosing the right system rather than navigating bureaucratic requirements.',
         'Between these two categories lies a substantial stock of homes renovated and expanded during the 1990s and 2000s, when many Livingston families chose to add second-story additions, bump-outs, and expanded kitchen wings rather than relocate. These projects created hybrid rooflines where original construction meets newer framing, and the transition points between old and new are frequent sources of leaks and ventilation problems. Our assessment process identifies these transition zones and develops solutions that integrate the entire roof system into a cohesive, weathertight assembly.',
         'Throughout every Livingston neighborhood, we install GAF Timberline HDZ, CertainTeed Landmark Pro, and Owens Corning Duration shingles as our primary residential systems, backed by manufacturer warranties that we register and track on each homeowner\'s behalf. For homes where visual distinction matters, we offer designer shingles that replicate slate, cedar shake, and old-world tile aesthetics without the structural demands and maintenance requirements of traditional materials.',
+        'Gutter system upgrades are a natural companion to Livingston roof replacements. Many homes retain original sectional aluminum gutters with leaking joints and undersized downspouts that overflow during heavy rainfall events. We install seamless 6-inch aluminum gutter systems with concealed hangers and oversized 3x4 downspouts that handle even the most intense storms without overflow. For Livingston properties with heavy tree cover, we recommend leaf guard systems that dramatically reduce maintenance frequency while keeping gutters flowing freely through fall and winter.',
       ],
     },
     commercial: {
@@ -46,6 +48,7 @@ export const affluentSuburbanContent: CityContent[] = [
       content: [
         'Livingston\'s inland Essex County position exposes roofs to the full spectrum of northeastern weather extremes. Winter storms deliver heavy wet snow loads that stress the shallow-pitch roof planes common on split-level homes, while ice dams form along eaves where heated interior spaces meet cold overhangs. Summer brings intense UV exposure and thermal cycling that accelerates granule loss on asphalt shingles, particularly on south-facing slopes that absorb maximum solar radiation. Our material selections and installation techniques are specifically designed to address these seasonal stressors, incorporating ice-and-water shield membrane in all valleys and eaves, proper ventilation engineering to minimize ice dam formation, and algae-resistant shingle chemistries that maintain appearance through Livingston\'s humid summers.',
         'Severe thunderstorms and nor\'easters bring wind-driven rain and occasional hail that test the wind resistance ratings of every shingle tab and flashing seal. Livingston\'s mature tree canopy, while beautiful, creates additional challenges including leaf debris accumulation in valleys and gutters, branch impact damage during storms, and shading patterns that promote moss and algae growth. Our maintenance programs address these tree-related factors through scheduled debris removal, branch clearance recommendations, and zinc strip installations that prevent biological growth from degrading shingle surfaces.',
+        'Hail events, though less frequent than in the central states, do occur in the Livingston area during severe summer thunderstorms. Hail pitting on shingles accelerates granule loss and creates impact fractures in the fiberglass mat that lead to premature failure. We recommend Class 4 impact-resistant shingles for Livingston homeowners who want maximum storm protection, as these products carry documented hail resistance ratings and often qualify for insurance premium discounts of 10-28 percent. After significant hail events, we provide free damage assessments and insurance documentation for Livingston homeowners.',
       ],
     },
     neighborhoods: [
@@ -94,6 +97,18 @@ export const affluentSuburbanContent: CityContent[] = [
           'Unified ventilation system across original and addition',
         ],
       },
+      {
+        title: 'Skylight Replacement and Energy Upgrade — Collins Terrace',
+        type: 'residential',
+        description:
+          'Full roof replacement on a Collins Terrace split-level combined with replacement of two 1980s-era skylights that had been leaking for years. The project included modern Velux low-E skylight units with proper step-and-counter flashing, R-49 blown-in attic insulation, and new seamless gutter system with leaf guard protection.',
+        details: [
+          'GAF Timberline HDZ Pewter Gray with Golden Pledge warranty',
+          'Two Velux low-E skylights replacing deteriorated 1980s units',
+          'R-49 blown-in cellulose insulation eliminating ice dam conditions',
+          'New 6-inch seamless aluminum gutters with leaf guard system',
+        ],
+      },
     ],
     testimonials: [
       {
@@ -113,6 +128,18 @@ export const affluentSuburbanContent: CityContent[] = [
         rating: 5,
         text: 'Living in Heritage Hills means dealing with HOA approval for everything. Newark Quality handled all the paperwork, submitted samples, and got approval before we even had to think about it. The installation was clean and fast.',
         service: 'Roof Replacement',
+      },
+      {
+        name: 'Jennifer L.',
+        rating: 5,
+        text: 'Our Livingston split-level had leaking skylights that four companies tried to fix with sealant. Newark Quality Roofing replaced both skylights with modern low-E units during our roof replacement and completely rebuilt the flashing around them. Two years later, not a single drop. They also added blown-in insulation that noticeably reduced our heating bills. Thorough approach to the whole system, not just the surface.',
+        service: 'Roof Replacement with Skylight Upgrade',
+      },
+      {
+        name: 'Robert and Maria G.',
+        rating: 5,
+        text: 'We needed the roof replaced on our Livingston colonial during a tight renovation timeline. Newark Quality Roofing coordinated perfectly with our general contractor and the painting crew, staying on schedule and keeping the work area organized despite multiple trades on site. The finished roof is beautiful and the seamless gutters they installed handle even the heaviest storms.',
+        service: 'Roof & Gutter Replacement',
       },
     ],
     faqs: [
@@ -194,6 +221,7 @@ export const affluentSuburbanContent: CityContent[] = [
       'Newark Quality Roofing\'s relationship with Millburn Township reflects our commitment to serving communities where excellence is the baseline expectation. We understand that homeowners in Short Hills and Millburn Village have chosen their properties not just for location and school district, but for architectural character, design integrity, and the enduring quality that distinguishes truly fine residential construction. Our roofing services in Millburn are calibrated to this standard, from the materials we specify to the installation techniques we employ to the level of communication and project management we deliver throughout every engagement.',
       'The architectural diversity within Millburn demands a roofing contractor with genuinely broad technical capability. Natural slate roofs on Tudor and Arts and Crafts estates require craftsmen who understand slate grading, hook installation, headlap calculation, and the copper flashing details that complement slate\'s century-plus lifespan. Custom clay and concrete tile installations on Mediterranean and Spanish Colonial Revival homes demand experience with underlayment systems, battened installations, and the structural requirements of heavy tile roofs. Even the township\'s contemporary architectural shingle installations expect precision detailing, color coordination with architect specifications, and warranty programs that match the investment Millburn homeowners make in their properties.',
       'Beyond residential excellence, Millburn\'s commercial landscape includes the iconic Mall at Short Hills, Millburn\'s downtown retail and restaurant district, professional offices, and institutional buildings including houses of worship and educational facilities. Our commercial division brings the same commitment to premium quality that distinguishes our residential work, applying it to the specialized flat-roof systems, metal standing seam installations, and large-scale re-roofing projects that commercial properties require.',
+      'Insurance considerations are paramount for Millburn properties where roof replacement costs can reach six figures. Standard homeowner policies often cap roofing coverage at amounts insufficient for natural slate, copper, or specialty metal installations. We provide detailed replacement cost documentation that supports accurate policy riders and endorsements, ensuring Millburn homeowners carry adequate coverage for their premium roofing systems. When storm damage occurs, our insurance coordination team provides the specialized documentation — including material specifications, quarry identification for slate, and custom fabrication estimates for copper — that ensures claim settlements reflect actual replacement costs rather than generic commodity pricing.',
     ],
     residential: {
       heading: 'Estate-Quality Residential Roofing in Millburn & Short Hills',
@@ -287,6 +315,18 @@ export const affluentSuburbanContent: CityContent[] = [
         text: 'We manage several commercial properties in downtown Millburn and have used Newark Quality for all our roofing needs. Their maintenance program has extended the life of our roofs significantly, and when we did need a full replacement, the project management was flawless.',
         service: 'Commercial Roofing',
       },
+      {
+        name: 'Susan and David K.',
+        rating: 5,
+        text: 'Our Wyoming section home needed a complete cedar shake replacement. Newark Quality sourced premium hand-split cedar, installed stainless steel fasteners throughout, and added copper ridge caps that perfectly complement our Arts and Crafts exterior. The crew treated our property with extraordinary care, protecting every planting bed and leaving the grounds pristine each evening. The finished roof is genuinely beautiful.',
+        service: 'Cedar Shake Roofing',
+      },
+      {
+        name: 'Dr. Patricia N.',
+        rating: 5,
+        text: 'After a severe hailstorm, we needed our Short Hills estate\'s slate roof assessed and repaired. Newark Quality Roofing provided meticulous damage documentation that ensured our insurance claim reflected the true replacement cost of premium materials. The repairs were executed flawlessly with quarry-matched slate. Their expertise with high-value roofing systems sets them apart from every other contractor in the area.',
+        service: 'Storm Damage Slate Repair',
+      },
     ],
     faqs: [
       {
@@ -341,6 +381,11 @@ export const affluentSuburbanContent: CityContent[] = [
           title: 'Premium Material Access',
           description:
             'Our supplier relationships provide access to materials beyond standard distributor inventory, including quarry-direct slate, architectural-grade copper, and manufacturer-direct premium shingle lines.',
+        },
+        {
+          title: 'Insurance Documentation Expertise',
+          description:
+            'We provide detailed replacement cost documentation for Millburn\'s premium roofing systems, supporting accurate policy coverage and ensuring storm damage claims reflect actual costs for slate, copper, and specialty materials rather than commodity pricing.',
         },
       ],
     },

@@ -97,6 +97,18 @@ export const westEssexContent: CityContent[] = [
           '20-year manufacturer warranty with Newark Quality Roofing workmanship guarantee',
         ],
       },
+      {
+        title: 'Gregory Neighborhood Split-Level Renovation',
+        type: 'residential',
+        description:
+          'Complete roof system upgrade on a 1965 split-level in the Gregory neighborhood including full tear-off, structural transition rebuild at both level changes, skylight replacement with modern low-E units, and coordinated seamless gutter installation with oversized downspouts.',
+        details: [
+          'CertainTeed Landmark Pro shingles with lifetime warranty',
+          'Both level transitions rebuilt with continuous ice-and-water shield and custom counter-flashings',
+          'Two aging skylights replaced with Velux low-E units and modern step flashing',
+          'New 6-inch seamless aluminum gutters with leaf guard system',
+        ],
+      },
     ],
     testimonials: [
       {
@@ -116,6 +128,12 @@ export const westEssexContent: CityContent[] = [
         rating: 5,
         text: 'We own a split-level on Crystal Lake Drive that had leaked at the level transition for years. Two other roofers couldn\'t fix it. Newark Quality Roofing rebuilt the entire transition flashing system and the leak is completely gone. They clearly understand the quirks of West Orange homes.',
         service: 'Roof Repair',
+      },
+      {
+        name: 'Stephanie N.',
+        rating: 5,
+        text: 'When we replaced our West Orange colonial\'s roof, they recommended upgrading the gutters and replacing our aging skylights at the same time. Having everything done as one coordinated project saved us money and hassle. The new skylights transformed our kitchen with natural light and the seamless gutters handle even the heaviest downpours without overflowing. Smart recommendation and excellent execution.',
+        service: 'Roof, Gutter & Skylight Package',
       },
     ],
     faqs: [
@@ -166,6 +184,11 @@ export const westEssexContent: CityContent[] = [
           title: 'Storm-Ready Installations',
           description:
             'Ridge-top properties receive enhanced wind-rated systems with six-nail patterns and full-deck underlayment, designed to withstand the powerful nor\'easters that channel through West Orange\'s mountain gaps.',
+        },
+        {
+          title: 'Complete Project Coordination',
+          description:
+            'We coordinate roofing with gutter replacement, soffit and fascia repair, skylight upgrades, and chimney flashing to deliver a comprehensive exterior improvement in a single project with unified warranty coverage and one point of accountability.',
         },
       ],
     },
@@ -439,6 +462,18 @@ export const westEssexContent: CityContent[] = [
           'Full inspection report provided to church building committee for long-term planning',
         ],
       },
+      {
+        title: 'Hillside Avenue Colonial Revival Designer Shingle Installation',
+        type: 'residential',
+        description:
+          'Historic Preservation Commission-approved installation of CertainTeed Grand Manor designer shingles on a 1920s Colonial Revival home. The thick, dimensional shingle profile replicates the shadow lines of natural wood shake while providing modern weather resistance and a 50-year manufacturer warranty.',
+        details: [
+          'CertainTeed Grand Manor shingles approved by Glen Ridge Historic Preservation Commission',
+          'Enhanced ice-and-water shield coverage on all eaves, valleys, and dormers',
+          'Custom copper step flashings at chimney and dormer intersections',
+          'Concealed ridge vent maintaining historic roofline appearance',
+        ],
+      },
     ],
     testimonials: [
       {
@@ -458,6 +493,18 @@ export const westEssexContent: CityContent[] = [
         rating: 5,
         text: 'Several slates blew off our roof during a winter storm and we needed someone who could source matching replacement stone. Newark Quality Roofing found a perfect match and the repairs are invisible. They also identified several other slates that were about to fail and replaced those preventively. Honest and capable.',
         service: 'Slate Roof Repair',
+      },
+      {
+        name: 'Elizabeth R.',
+        rating: 5,
+        text: 'Our 1905 Victorian on Ridgewood Avenue needed a complete copper gutter replacement to match the original half-round profile. Newark Quality Roofing fabricated every piece custom, including ornamental leader heads that match the remaining original copper on our neighbor\'s home. The Historic Preservation Commission approved the design immediately. The new gutters function perfectly and add tremendous character to our home\'s facade.',
+        service: 'Custom Copper Gutters',
+      },
+      {
+        name: 'Andrew and Margaret L.',
+        rating: 5,
+        text: 'We were intimidated by the prospect of replacing our Glen Ridge gambrel roof and navigating the preservation commission review. Newark Quality handled every detail from the commission application through the final inspection. The cedar shake work is magnificent and the copper accents at the dormers match the period perfectly. They even helped us develop a multi-year maintenance plan to protect our investment.',
+        service: 'Cedar Shake Roof Replacement',
       },
     ],
     faqs: [
@@ -509,6 +556,16 @@ export const westEssexContent: CityContent[] = [
           description:
             'We fabricate copper flashings, valleys, ridge caps, and decorative elements in our shop, matching existing copper details that are essential to Glen Ridge\'s Victorian and Edwardian architectural character.',
         },
+        {
+          title: 'Ventilation Without Visible Change',
+          description:
+            'We design attic ventilation improvements that enhance ice dam resistance and thermal performance while maintaining Glen Ridge\'s historic exterior appearance, using concealed ridge vents and interior insulation strategies that satisfy both energy goals and preservation standards.',
+        },
+        {
+          title: 'Long-Term Preservation Planning',
+          description:
+            'Beyond individual projects, we help Glen Ridge homeowners develop multi-year roofing maintenance plans that preserve their historic investment through scheduled inspections, preventive repairs, and capital improvement budgeting for future major work.',
+        },
       ],
     },
     metaTitle: 'Glen Ridge Roofer | Historic Slate & Cedar Roofing NJ',
@@ -556,6 +613,7 @@ export const westEssexContent: CityContent[] = [
       content: [
         'Verona\'s rolling terrain creates variable wind exposure across the township. Hilltop homes along the Claremont Avenue ridge and upper Personette Avenue face sustained winds significantly stronger than properties sheltered in the Verona Park valley during nor\'easters and summer thunderstorms. These exposed properties require enhanced wind-rated installations with six-nail fastening patterns and starter strip adhesive at eaves and rakes. Our site assessments evaluate each Verona property\'s specific wind exposure, ensuring material and installation specifications match actual conditions rather than applying generic standards that may under-protect hilltop homes or over-specify valley properties.',
         'Ice damming ranks among Verona\'s most persistent roofing problems, particularly on the low-pitched roofs characteristic of the township\'s abundant ranch and cape homes. These low slopes retain snow longer than steep-pitched roofs, and inadequate attic insulation in 1950s construction allows heat to escape through the roof deck, creating the melt-refreeze cycles that build ice at eaves. Our ice dam solutions for Verona ranches and capes include comprehensive ice and water shield installation extending 6 feet from eaves, improved attic insulation to R-49 standards, and balanced soffit-to-ridge ventilation that maintains cold roof deck temperatures throughout winter.',
+        'Summer thunderstorms moving across Essex County frequently produce hail and wind gusts that damage Verona roofs, particularly on exposed hilltop properties. After significant storm events, we provide free damage assessments for Verona homeowners, documenting hail impacts, wind-lifted shingles, and debris damage with detailed photographs and measurements that support insurance claims. Our storm response protocol includes temporary tarping for active leaks, coordination with insurance adjusters, and expedited permanent repairs that restore full weather protection before the next storm cycle arrives.',
       ],
     },
     neighborhoods: [
@@ -604,6 +662,18 @@ export const westEssexContent: CityContent[] = [
           '15-year manufacturer warranty with annual inspection program',
         ],
       },
+      {
+        title: 'Verona Park Area Cape Cod Ice Dam Remediation',
+        type: 'residential',
+        description:
+          'Comprehensive ice dam remediation on a 1952 Cape Cod near Verona Park that had suffered interior water damage every winter for years. The project addressed the root causes of ice dam formation through a complete roof, ventilation, and insulation upgrade that eliminated the thermal conditions responsible for ice buildup.',
+        details: [
+          'Full tear-off revealing original skip sheathing requiring solid deck overlay',
+          'Balanced soffit-to-ridge ventilation system replacing blocked gable vents',
+          'R-49 blown-in insulation upgrade creating proper cold roof deck conditions',
+          'Algae-resistant shingles selected for heavy shade from park tree canopy',
+        ],
+      },
     ],
     testimonials: [
       {
@@ -623,6 +693,12 @@ export const westEssexContent: CityContent[] = [
         rating: 5,
         text: 'Fast, professional, and reasonably priced. They replaced the roof on our 1950s cape in three days and even upgraded our attic ventilation to prevent ice dams. No mess left behind, crew was polite, and the price was exactly what they quoted. Highly recommended to Verona neighbors.',
         service: 'Roof Replacement',
+      },
+      {
+        name: 'Laura and Chris D.',
+        rating: 5,
+        text: 'After a severe hailstorm damaged our Claremont Avenue colonial, Newark Quality Roofing provided a thorough damage assessment and handled our entire insurance claim process. They documented every hail impact with detailed photos, worked directly with our adjuster, and the claim covered the full replacement cost including the impact-resistant shingles they recommended. From emergency tarping to final installation, completely professional and stress-free.',
+        service: 'Storm Damage Insurance Claim',
       },
     ],
     faqs: [
@@ -673,6 +749,16 @@ export const westEssexContent: CityContent[] = [
           title: 'Clean and Respectful Crews',
           description:
             'Verona\'s family neighborhoods demand respectful worksite management. Our crews maintain clean job sites, communicate with neighbors, and complete work on schedule with minimal disruption to daily routines.',
+        },
+        {
+          title: 'Storm Damage Response',
+          description:
+            'Our crews provide rapid emergency tarping, free damage assessments, and expedited permanent repairs for Verona homeowners after storm events, including full insurance claims documentation and adjuster coordination.',
+        },
+        {
+          title: 'Comprehensive Chimney Integration',
+          description:
+            'We evaluate and replace deteriorated chimney flashings on Verona\'s older homes during every re-roofing project, coordinating masonry repairs when needed to ensure permanent watertight performance at this common failure point.',
         },
       ],
     },
@@ -839,6 +925,16 @@ export const westEssexContent: CityContent[] = [
           title: 'Community Reputation',
           description:
             'Our 260+ completed Cedar Grove projects have earned referrals throughout the township\'s neighborhoods. Many of our new Cedar Grove clients come through recommendations from neighbors, family members, and friends who experienced our quality firsthand.',
+        },
+        {
+          title: 'Energy Efficiency Upgrades',
+          description:
+            'Every Cedar Grove roof replacement includes an attic insulation and ventilation assessment. We help homeowners reduce energy costs by 15-25 percent through proper insulation upgrades, balanced ventilation systems, and reflective underlayment installation during the re-roofing process.',
+        },
+        {
+          title: 'Complete Gutter Integration',
+          description:
+            'Cedar Grove\'s ranch homes benefit from coordinated gutter replacement during re-roofing. We install seamless aluminum gutter systems with oversized downspouts and leaf guards, ensuring proper drainage across the wide eave lines that ranch architecture presents.',
         },
       ],
     },
