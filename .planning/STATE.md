@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 ## Current Position
 
 Phase: 5 of 9 (Content Differentiation Engine)
-Plan: 07a of 11 in current phase (also 01, 03, 07, 07b complete)
+Plan: 04 of 11 in current phase (also 01, 03, 04, 07, 07a, 07b complete)
 Status: In progress
-Last activity: 2026-03-07 -- Completed 05-07a-PLAN.md (Newark replacement sub-page combo content batch 1)
+Last activity: 2026-03-07 -- Completed 05-04-PLAN.md (Newark commercial roof type combo content)
 
-Progress: [█████████████████████████████░] 89% (31/35 plans)
+Progress: [████████████████████████░░░░░░] 78% (31/40 plans)
 
 ## Performance Metrics
 
@@ -31,10 +31,10 @@ Progress: [███████████████████████
 | 02 | 5/5 | 14min | 2.8min |
 | 03 | 9/9 | ~144min | ~16min |
 | 04 | 7/7 | 56min | 8.0min |
-| 05 | 4/11 | 19min | 4.8min |
+| 05 | 6/11 | 27min | 4.5min |
 
 **Recent Trend:**
-- Last 5 plans: 05-03 (8min), 05-07b (4min), 05-07 (4min), 05-01 (3min), 04-07 (17min)
+- Last 5 plans: 05-04 (8min), 05-03 (8min), 05-07b (4min), 05-07 (4min), 05-01 (3min)
 - Trend: Content authoring plans executing fast (data files only, no component work)
 
 *Updated after each plan completion*
@@ -113,6 +113,8 @@ Recent decisions affecting current work:
 - [05-07]: Ice dam prevention prioritizes root-cause remediation over symptom treatment
 - [05-03]: Cedar shake and wood shake differentiated by species focus (cedar-specific vs general wood)
 - [05-03]: Each residential roof material references different Newark neighborhoods based on actual building stock
+- [05-04]: Each commercial roof type leads with its UNIQUE advantage in Newark's commercial context
+- [05-04]: B2B voice primary across all 8 commercial roof type combo files -- property managers, facility directors as audience
 
 ### Pending Todos
 
@@ -178,5 +180,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 05-07a-PLAN.md (Newark replacement sub-page combo content batch 1)
+Stopped at: Completed 05-04-PLAN.md (Newark commercial roof type combo content)
 Resume file: None
