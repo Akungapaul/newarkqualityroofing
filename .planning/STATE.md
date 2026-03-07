@@ -5,22 +5,22 @@
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 4 (City Pages and Local SEO) -- plan 01 complete, content plans next
+**Current focus:** Phase 4 (City Pages and Local SEO) -- content plans in progress
 
 ## Current Position
 
 Phase: 4 of 9 (City Pages and Local SEO)
-Plan: 1 of 7 in current phase
+Plan: 6 of 7 in current phase
 Status: In progress
-Last activity: 2026-03-07 -- Completed 04-01-PLAN.md (city page infrastructure)
+Last activity: 2026-03-07 -- Completed 04-06-PLAN.md (affluent suburban city content)
 
-Progress: [████████████████████░] 57% (20/35 plans)
+Progress: [█████████████████████░] 60% (21/35 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 20
-- Average duration: 6.1min
+- Total plans completed: 21
+- Average duration: 6.0min
 - Total execution time: ~3 hours
 
 **By Phase:**
@@ -30,11 +30,11 @@ Progress: [████████████████████░] 57% 
 | 01 | 4/4 | 14min | 3.5min |
 | 02 | 5/5 | 14min | 2.8min |
 | 03 | 9/9 | ~144min | ~16min |
-| 04 | 1/7 | 4min | 4min |
+| 04 | 2/7 | 9min | 4.5min |
 
 **Recent Trend:**
-- Last 5 plans: 03-07 (12min), 03-08 (12min), 03-09 (8min), 04-01 (4min)
-- Trend: Infrastructure plans are fast; content plans take longer
+- Last 5 plans: 03-08 (12min), 03-09 (8min), 04-01 (4min), 04-06 (5min)
+- Trend: City content plans running faster than service content plans
 
 *Updated after each plan completion*
 
@@ -89,6 +89,9 @@ Recent decisions affecting current work:
 - [04-01]: WhyChoose rendered inline in CityTemplate (simple reasons grid, no separate component)
 - [04-01]: Category labels duplicated in CityServicesGrid for self-containment
 - [04-01]: Service links point to service pages with TODO for Phase 6 combo URL update
+- [04-06]: Millburn content uses estate/luxury language with slate, copper, architect collaboration focus
+- [04-06]: Livingston content uses upper-middle professional voice with split-level expertise and HOA navigation
+- [04-06]: Aggregator index.ts now has Zod z.array(CityContentSchema).parse() at module level
 
 ### Pending Todos
 
@@ -150,5 +153,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 04-01-PLAN.md (city page infrastructure)
+Stopped at: Completed 04-06-PLAN.md (affluent suburban city content)
 Resume file: None
