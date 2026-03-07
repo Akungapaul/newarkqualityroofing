@@ -6,7 +6,7 @@
 <domain>
 ## Phase Boundary
 
-Render all 1,323 service-x-city combo pages with a ComboTemplate component, wire up reverse silo internal linking engine, and ensure full site navigation with zero orphan pages. Content for all combos is hand-written. Template and linking infrastructure is built first, then content is populated city by city.
+Render all 1,365 service-x-city combo pages with a ComboTemplate component, wire up reverse silo internal linking engine, and ensure full site navigation with zero orphan pages. Content for all combos is hand-written. Template and linking infrastructure is built first, then content is populated city by city.
 
 </domain>
 
@@ -24,19 +24,19 @@ Render all 1,323 service-x-city combo pages with a ComboTemplate component, wire
 - Claude's discretion on hero format — recommend split hero (headline + trust signals left, form right) based on conversion patterns from service pages
 
 ### Content generation approach
-- All 1,323 combos hand-written (no templates, no AI generation)
-- Batched by city: write all 63 services for one city before moving to next
+- All 1,365 combos hand-written (no templates, no AI generation)
+- Batched by city: write all 65 services for one city before moving to next
 - Expand existing 5-sample cities (Montclair, Bloomfield, East Orange, Caldwell, Millburn) to full 63 first, then new cities
 - New cities ordered by population/traffic priority (largest first)
 - Strict voice consistency: each city's 63 combos must match the voice/vocabulary/lens established in their city page content (Phase 4)
 - For cities with existing 5 samples, remaining 58 must strictly match that established voice
 - New cities derive voice from their Phase 4 city page content
-- One file per combo (1,323 .ts files total), matching current pattern
+- One file per combo (1,365 .ts files total), matching current pattern
 - Per-city batch similarity validation after each city's 63 combos are written
 
 ### Sequencing
 - Template first: build ComboTemplate + linking engine before populating content
-- Deploy all at once when all 1,323 combos are complete (not incrementally)
+- Deploy all at once when all 1,365 combos are complete (not incrementally)
 
 ### Internal linking strategy
 - Nearby city links use ALL THREE formats: card grid in main content, inline text links within content paragraphs, and sidebar section under "Nearby" heading
@@ -67,7 +67,7 @@ Render all 1,323 service-x-city combo pages with a ComboTemplate component, wire
 ## Specific Ideas
 
 - Combo pages should feel like a distinct third template type — not a watered-down service page or a service-flavored city page, but a genuine hybrid that earns its own identity
-- The 90 existing hand-written combos (Phase 5) set the quality bar — all 1,233 remaining must match that standard
+- The 90 existing hand-written combos (Phase 5) set the quality bar — all 1,275 remaining must match that standard
 - Each city's voice is deeply rooted in its Phase 4 city page content: Millburn uses estate/luxury language, East Orange uses landlord/investor voice, Caldwell uses small-town trust, etc.
 - Vercel Pro tier available — no build time concerns for full SSG of ~2,800+ pages
 
