@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation and Data Layer** - Next.js project, design system, data schemas, slug registry, catch-all dispatcher
 - [x] **Phase 2: Lead Capture and Core Pages** - Lead form, GoHighLevel integration, homepage, about, contact, hub pages, thank you, privacy
 - [x] **Phase 3: Service Pages** - Service template, 65 services with residential/commercial content, related services linking
-- [ ] **Phase 4: City Pages and Local SEO** - City template, 21 cities with unique local content, map embeds, NAP consistency
+- [x] **Phase 4: City Pages and Local SEO** - City template, 21 cities with unique local content, map embeds, NAP consistency
 - [ ] **Phase 5: Content Differentiation Engine** - Content variation system, city data matrix, similarity validation for combo pages
 - [ ] **Phase 6: Programmatic Scale** - 1,323 combo pages, reverse silo internal linking engine, full site navigation
 - [ ] **Phase 7: Supporting Content** - 30 comparison pages, 252 supporting articles, reverse silo article linking
@@ -84,7 +84,7 @@ Plans:
 - [x] 03-08-PLAN.md -- Gap closure: expand commercial roof types content (8 services) to 2,000+ words
 - [x] 03-09-PLAN.md -- Gap closure: expand commercial services (5), energy/solar (4), design/consultation (2) to 2,000+ words
 
-### Phase 4: City Pages and Local SEO
+### Phase 4: City Pages and Local SEO (COMPLETE)
 **Goal**: All 21 Essex County city pages are live with genuinely unique local content, map embeds, and consistent NAP data
 **Depends on**: Phase 2
 **Requirements**: CITY-01, CITY-02, CITY-03, CITY-04, CITY-05, CITY-06, CITY-07, CITY-08, LOCL-01, LOCL-02, LOCL-03, LOCL-04, CONT-04
@@ -97,13 +97,13 @@ Plans:
 **Plans**: 7 plans
 
 Plans:
-- [ ] 04-01-PLAN.md -- CityContentSchema, 15 section components, CityTemplate, scroll spy hook, metadata wiring
-- [ ] 04-02-PLAN.md -- City content: Urban Core (Newark, East Orange, Orange, Irvington)
-- [ ] 04-03-PLAN.md -- City content: First Suburbs (Bloomfield, Belleville, Nutley, Maplewood, South Orange)
-- [ ] 04-04-PLAN.md -- City content: West Essex (West Orange, Montclair, Glen Ridge, Verona, Cedar Grove)
-- [ ] 04-05-PLAN.md -- City content: Caldwells-Roseland (Caldwell, North Caldwell, Essex Fells, Fairfield, Roseland)
-- [ ] 04-06-PLAN.md -- City content: Affluent Suburban (Livingston, Millburn)
-- [ ] 04-07-PLAN.md -- Final integration: aggregator assembly, metadata wiring, content completeness audit
+- [x] 04-01-PLAN.md -- CityContentSchema, 14 section components, CityTemplate, scroll spy hook, metadata wiring
+- [x] 04-02-PLAN.md -- City content: Urban Core (Newark, East Orange, Orange, Irvington)
+- [x] 04-03-PLAN.md -- City content: First Suburbs (Bloomfield, Belleville, Nutley, Maplewood, South Orange)
+- [x] 04-04-PLAN.md -- City content: West Essex (West Orange, Montclair, Glen Ridge, Verona, Cedar Grove)
+- [x] 04-05-PLAN.md -- City content: Caldwells-Roseland (Caldwell, North Caldwell, Essex Fells, Fairfield, Roseland)
+- [x] 04-06-PLAN.md -- City content: Affluent Suburban (Livingston, Millburn)
+- [x] 04-07-PLAN.md -- Final integration: aggregator assembly, metadata wiring, content completeness audit
 
 ### Phase 5: Content Differentiation Engine
 **Goal**: A validated content variation system produces genuinely unique combo pages that pass cross-page similarity checks below 70%
@@ -204,7 +204,7 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 | 1. Foundation and Data Layer | 4/4 | Complete | 2026-03-05 |
 | 2. Lead Capture and Core Pages | 5/5 | Complete | 2026-03-06 |
 | 3. Service Pages | 9/9 | Complete | 2026-03-06 |
-| 4. City Pages and Local SEO | 0/7 | Not started | - |
+| 4. City Pages and Local SEO | 7/7 | Complete | 2026-03-07 |
 | 5. Content Differentiation Engine | 0/3 | Not started | - |
 | 6. Programmatic Scale | 0/4 | Not started | - |
 | 7. Supporting Content | 0/4 | Not started | - |
@@ -213,4 +213,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-07 -- Phase 4 planned (7 plans in 3 waves)*
+*Last updated: 2026-03-07 -- Phase 4 complete (7 plans, 21 city pages live)*

@@ -48,14 +48,14 @@
 
 ### Page Templates — City Pages (21)
 
-- [ ] **CITY-01**: City page template with unique city-specific content (neighborhoods, building types, weather patterns, local codes)
-- [ ] **CITY-02**: 2,000+ words per city page covering both residential and commercial roofing
-- [ ] **CITY-03**: Lead form above the fold
-- [ ] **CITY-04**: Map embed for the city
-- [ ] **CITY-05**: Nearby cities block (geographically adjacent cities)
-- [ ] **CITY-06**: Services available in this city block
-- [ ] **CITY-07**: Breadcrumbs (Home > Locations > [City Name])
-- [ ] **CITY-08**: All 21 Essex County cities populated with unique content
+- [x] **CITY-01**: City page template with unique city-specific content (neighborhoods, building types, weather patterns, local codes)
+- [x] **CITY-02**: 2,000+ words per city page covering both residential and commercial roofing
+- [x] **CITY-03**: Lead form above the fold
+- [x] **CITY-04**: Map embed for the city
+- [x] **CITY-05**: Nearby cities block (geographically adjacent cities)
+- [x] **CITY-06**: Services available in this city block
+- [x] **CITY-07**: Breadcrumbs (Home > Locations > [City Name])
+- [x] **CITY-08**: All 21 Essex County cities populated with unique content
 
 ### Page Templates — Service x City Combo Pages (1,323)
 
@@ -127,10 +127,10 @@
 
 ### SEO — Local
 
-- [ ] **LOCL-01**: NAP consistency (Name, Address, Phone) across all pages
-- [ ] **LOCL-02**: Map embeds on city pages and contact page
-- [ ] **LOCL-03**: City-specific unique content (neighborhoods, building types, weather)
-- [ ] **LOCL-04**: Google Business Profile integration readiness
+- [x] **LOCL-01**: NAP consistency (Name, Address, Phone) across all pages
+- [x] **LOCL-02**: Map embeds on city pages and contact page
+- [x] **LOCL-03**: City-specific unique content (neighborhoods, building types, weather)
+- [x] **LOCL-04**: Google Business Profile integration readiness
 
 ### Design & UI
 
@@ -148,7 +148,7 @@
 - [ ] **CONT-01**: Homepage addresses both homeowners and business owners equally
 - [x] **CONT-02**: Service pages have residential AND commercial sections
 - [x] **CONT-03**: Commercial-specific service pages (commercial install, repair, replacement, thermal imaging, infrared detection)
-- [ ] **CONT-04**: City pages cover both residential and commercial roofing needs
+- [x] **CONT-04**: City pages cover both residential and commercial roofing needs
 - [x] **CONT-05**: Different CTA language for residential vs commercial audiences
 
 ## v2 Requirements
@@ -223,19 +223,19 @@
 | CONT-02 | Phase 3 | Complete |
 | CONT-03 | Phase 3 | Complete |
 | CONT-05 | Phase 3 | Complete |
-| CITY-01 | Phase 4 | Pending |
-| CITY-02 | Phase 4 | Pending |
-| CITY-03 | Phase 4 | Pending |
-| CITY-04 | Phase 4 | Pending |
-| CITY-05 | Phase 4 | Pending |
-| CITY-06 | Phase 4 | Pending |
-| CITY-07 | Phase 4 | Pending |
-| CITY-08 | Phase 4 | Pending |
-| LOCL-01 | Phase 4 | Pending |
-| LOCL-02 | Phase 4 | Pending |
-| LOCL-03 | Phase 4 | Pending |
-| LOCL-04 | Phase 4 | Pending |
-| CONT-04 | Phase 4 | Pending |
+| CITY-01 | Phase 4 | Complete |
+| CITY-02 | Phase 4 | Complete |
+| CITY-03 | Phase 4 | Complete |
+| CITY-04 | Phase 4 | Complete |
+| CITY-05 | Phase 4 | Complete |
+| CITY-06 | Phase 4 | Complete |
+| CITY-07 | Phase 4 | Complete |
+| CITY-08 | Phase 4 | Complete |
+| LOCL-01 | Phase 4 | Complete |
+| LOCL-02 | Phase 4 | Complete |
+| LOCL-03 | Phase 4 | Complete |
+| LOCL-04 | Phase 4 | Complete |
+| CONT-04 | Phase 4 | Complete |
 | CMBO-01 | Phase 5 | Pending |
 | CMBO-02 | Phase 5 | Pending |
 | CMBO-03 | Phase 5 | Pending |
