@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 ## Current Position
 
 Phase: 5 of 9 (Content Differentiation Engine)
-Plan: 10a of 11 in current phase (also 01, 02, 03, 04, 05, 06, 07, 07a, 07b, 08, 09, 10, 10a complete)
+Plan: 10b of 11 in current phase (also 01, 02, 03, 04, 05, 06, 07, 07a, 07b, 08, 09, 10, 10a, 10b complete)
 Status: In progress
-Last activity: 2026-03-07 -- Completed 05-10a-PLAN.md (Caldwell combo content -- 5 services + city index)
+Last activity: 2026-03-07 -- Completed 05-10b-PLAN.md (Millburn combo content + 6-city aggregator)
 
-Progress: [█████████████████████████████░] 92% (37/40 plans)
+Progress: [█████████████████████████████░] 95% (38/40 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 37
+- Total plans completed: 38
 - Average duration: 5.4min
-- Total execution time: ~5.0 hours
+- Total execution time: ~5.1 hours
 
 **By Phase:**
 
@@ -31,10 +31,10 @@ Progress: [███████████████████████
 | 02 | 5/5 | 14min | 2.8min |
 | 03 | 9/9 | ~144min | ~16min |
 | 04 | 7/7 | 56min | 8.0min |
-| 05 | 11/11 | 64min | 6.4min |
+| 05 | 12/11 | 70min | 6.4min |
 
 **Recent Trend:**
-- Last 5 plans: 05-10 (5min), 05-06 (10min), 05-05 (11min), 05-02 (11min), 05-04 (8min)
+- Last 5 plans: 05-10b (6min), 05-10 (5min), 05-06 (10min), 05-05 (11min), 05-02 (11min)
 - Trend: Single-city combo content plans completing faster (5 files vs 10 per plan)
 
 *Updated after each plan completion*
@@ -124,6 +124,8 @@ Recent decisions affecting current work:
 - [05-10a]: Caldwell content uses small-town trust, neighborly reputation, and tree canopy as defining themes
 - [05-10a]: Commercial content scaled to Bloomfield Avenue small-shop reality (1,500-10,000 sq ft), not urban warehouse scale
 - [05-10a]: Five-inch K-style gutters as Caldwell standard (vs Newark six-inch) reflecting accessible detached housing
+- [05-10b]: Millburn combo content uses estate/luxury vocabulary: copper half-round fabrication, slate salvage sourcing, architect coordination
+- [05-10b]: Top-level aggregator written with all 6 city imports (90 total); compiles once parallel plans complete
 
 ### Pending Todos
 
@@ -189,5 +191,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 05-10a-PLAN.md (Caldwell combo content -- 5 services + city index)
+Stopped at: Completed 05-10b-PLAN.md (Millburn combo content + 6-city aggregator)
 Resume file: None
