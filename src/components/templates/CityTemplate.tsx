@@ -99,7 +99,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
             </section>
 
             <section id="services">
-              <CityServicesGrid cityName={city.name} />
+              <CityServicesGrid cityName={city.name} citySlug={city.slug} />
             </section>
 
             <section id="why-choose">

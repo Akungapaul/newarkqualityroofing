@@ -7,6 +7,7 @@ import { combos } from '@/data/combos';
 import { comparisons } from '@/data/comparisons';
 import { corePages } from '@/data/core-pages';
 import { getCityContent } from '@/data/city-content';
+import { getComboContent } from '@/data/combo-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -54,9 +55,20 @@ export async function generateMetadata({
       const combo = combos.find(
         (c) => c.serviceId === pageData.serviceId && c.cityId === pageData.cityId
       );
+      if (!combo) return {};
+      // Use hand-written metaDescription from combo content when available
+      let comboDescription = combo.metaDescription;
+      try {
+        const comboContent = getComboContent(combo.serviceId, combo.cityId);
+        if (comboContent.metaDescription) {
+          comboDescription = comboContent.metaDescription;
+        }
+      } catch {
+        // No hand-written content for this combo -- use auto-generated description
+      }
       return {
-        title: combo?.metaTitle,
-        description: combo?.metaDescription,
+        title: combo.metaTitle,
+        description: comboDescription,
       };
     }
     case 'comparison': {

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { services } from '@/data/services';
+import { generateComboSlug } from '@/lib/slug-utils';
 
 // Category label mapping (duplicated for self-containment per project pattern)
 const categoryLabels: Record<string, string> = {
@@ -26,9 +27,10 @@ const categoryOrder: string[] = [
 
 interface CityServicesGridProps {
   cityName: string;
+  citySlug: string;
 }
 
-export function CityServicesGrid({ cityName }: CityServicesGridProps) {
+export function CityServicesGrid({ cityName, citySlug }: CityServicesGridProps) {
   // Group services by category
   const grouped = new Map<string, { name: string; slug: string }[]>();
   for (const service of services) {
@@ -62,9 +64,8 @@ export function CityServicesGrid({ cityName }: CityServicesGridProps) {
             <ul className="mt-3 space-y-1.5">
               {cat.services.map((service) => (
                 <li key={service.slug}>
-                  {/* TODO Phase 6: Update links to combo page URLs */}
                   <Link
-                    href={`/${service.slug}`}
+                    href={`/${generateComboSlug(service.slug, citySlug)}`}
                     className="font-body text-sm text-copper transition-colors hover:text-copper-dark"
                   >
                     {service.name}
