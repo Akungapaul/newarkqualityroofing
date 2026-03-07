@@ -94,12 +94,16 @@ Plans:
   3. Nearby cities block on each page links to geographically adjacent Essex County cities
   4. NAP (Name, Address, Phone) information is identical across every page on the site
   5. City pages address both residential and commercial roofing needs with distinct sections
-**Plans**: TBD
+**Plans**: 7 plans
 
 Plans:
-- [ ] 04-01: CityTemplate component with hero/form, local content sections, map embed, breadcrumbs
-- [ ] 04-02: City data research and population (21 cities -- neighborhoods, building stock, weather, codes)
-- [ ] 04-03: Nearby cities block, services-in-city block, NAP consistency enforcement, GBP readiness
+- [ ] 04-01-PLAN.md -- CityContentSchema, 15 section components, CityTemplate, scroll spy hook, metadata wiring
+- [ ] 04-02-PLAN.md -- City content: Urban Core (Newark, East Orange, Orange, Irvington)
+- [ ] 04-03-PLAN.md -- City content: First Suburbs (Bloomfield, Belleville, Nutley, Maplewood, South Orange)
+- [ ] 04-04-PLAN.md -- City content: West Essex (West Orange, Montclair, Glen Ridge, Verona, Cedar Grove)
+- [ ] 04-05-PLAN.md -- City content: Caldwells-Roseland (Caldwell, North Caldwell, Essex Fells, Fairfield, Roseland)
+- [ ] 04-06-PLAN.md -- City content: Affluent Suburban (Livingston, Millburn)
+- [ ] 04-07-PLAN.md -- Final integration: aggregator assembly, metadata wiring, content completeness audit
 
 ### Phase 5: Content Differentiation Engine
 **Goal**: A validated content variation system produces genuinely unique combo pages that pass cross-page similarity checks below 70%
@@ -200,7 +204,7 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 | 1. Foundation and Data Layer | 4/4 | Complete | 2026-03-05 |
 | 2. Lead Capture and Core Pages | 5/5 | Complete | 2026-03-06 |
 | 3. Service Pages | 9/9 | Complete | 2026-03-06 |
-| 4. City Pages and Local SEO | 0/3 | Not started | - |
+| 4. City Pages and Local SEO | 0/7 | Not started | - |
 | 5. Content Differentiation Engine | 0/3 | Not started | - |
 | 6. Programmatic Scale | 0/4 | Not started | - |
 | 7. Supporting Content | 0/4 | Not started | - |
@@ -209,4 +213,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-06 -- Phase 3 complete (all 65 services at 2,000+ words)*
+*Last updated: 2026-03-07 -- Phase 4 planned (7 plans in 3 waves)*
