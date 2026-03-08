@@ -1,0 +1,35 @@
+import type { ComboContent } from '../schema';
+
+export const maplewoodCustomRoofDesignConsultation: ComboContent = {
+  serviceId: 'custom-roof-design-consultation',
+  cityId: 'maplewood',
+  overview: [
+    'Custom roof design consultation resonates deeply in Maplewood, where architecturally informed homeowners treat roofing decisions as design choices rather than maintenance obligations. The township\'s Victorian, Tudor, Colonial Revival, Arts and Crafts, and mid-century modern housing stock creates a design-conscious community that expects roofing contractors to speak the language of architectural style, period authenticity, and material harmony. Our [custom roof design consultation](/custom-roof-design-consultation) service in [Maplewood](/roofing-in-maplewood-nj) brings architectural knowledge alongside technical roofing expertise to every project discussion.',
+    'Maplewood\'s creative community, including the artists, writers, and design professionals who have been drawn to the township for decades, approaches home improvement with an aesthetic rigor that general roofing contractors rarely encounter. These homeowners research materials, study color palettes, and arrive at consultations with informed opinions and specific questions about how roofing choices will interact with their home\'s existing architectural vocabulary. Our design consultation process meets this sophistication with material samples, photographic mock-ups, and style-specific recommendations grounded in our experience across Maplewood\'s full architectural spectrum.',
+    'New construction and major renovation projects in Maplewood benefit from design consultation that integrates roofing decisions with the overall architectural vision. We collaborate with architects, general contractors, and homeowners during the design phase to ensure roofing material selection, profile choices, and detail specifications align with the project\'s aesthetic goals and structural requirements. This early-stage involvement prevents the mismatched roofing choices that occur when roofing is treated as an afterthought rather than an integral design element. Architects working on projects in neighboring [Millburn](/custom-roof-design-consultation-millburn-nj) appreciate the same collaborative approach.',
+  ],
+  challenges: [
+    'Maplewood\'s architectural diversity means no single roofing material or style serves as a default recommendation. A consultation for a Queen Anne Victorian on Ridgewood Road leads to completely different material and color discussions than a consultation for a Tudor Revival in the Hilton neighborhood or a mid-century modern renovation near Valley Street. Our consultants must maintain fluency across five or more distinct architectural vocabularies and their corresponding roofing traditions, which requires continuous study and field experience that general roofing contractors rarely develop.',
+    'Balancing period authenticity with modern performance requirements challenges design consultations on Maplewood\'s historic homes. Original slate, copper, and wood roofing materials carried aesthetic qualities that modern substitutes approximate but do not replicate exactly. Homeowners who value authenticity must weigh the visual compromise of synthetic alternatives against the cost and maintenance implications of traditional materials. Our consultation process presents these trade-offs honestly, with physical samples and photographic comparisons that let homeowners make informed decisions.',
+  ],
+  process: [
+    'Design consultation begins with an on-site assessment of the home\'s architectural character, existing roofing condition, and the homeowner\'s aesthetic priorities. We photograph the home from multiple angles, document the existing roofing materials and details, and discuss the homeowner\'s vision for the finished result. For historic homes, we research the original roofing specifications when documentation is available, providing a baseline for restoration-oriented material selection.',
+    'Material presentation follows the site visit, typically at a follow-up meeting where we bring physical samples of recommended materials. For a Maplewood Victorian, this might include natural slate quarry samples, synthetic slate options, and designer shingle alternatives, each displayed against photographs of the home for color and texture evaluation. For a Tudor Revival, wood shake, cedar shingle, and high-profile architectural shingle options are compared against the home\'s stucco and timber facade. We mock up material combinations using close-up photography overlaid on building elevations.',
+    'The final design specification documents every material choice, color selection, flashing detail, and trim profile in a written scope that serves as the project blueprint. This specification prevents the field-level improvisation that can compromise design intent during installation. For complex projects involving multiple materials or architectural transitions, the specification includes detail drawings that guide our installation crews through every critical junction.',
+  ],
+  faqs: [
+    {
+      question: 'Do I need a design consultation for a standard roof replacement in Maplewood?',
+      answer: 'While standard replacements on straightforward homes can proceed without formal design consultation, we recommend it for any Maplewood home where the roof is a significant visual element. Victorians, Tudors, and homes on prominent corner lots benefit from professional material and color guidance. Even for simple projects, our initial assessment includes design recommendations at no additional charge beyond the standard estimate visit.',
+    },
+    {
+      question: 'Can you match the original roofing materials on my historic Maplewood home?',
+      answer: 'In most cases, yes. We source natural slate from the same Vermont, Pennsylvania, and Virginia quarries that supplied original installations on Maplewood\'s historic homes. Copper flashing and trim are fabricated from the same weight and temper specifications used in period construction. When exact matches are unavailable or cost-prohibitive, we present the closest available alternatives with honest assessment of visual differences.',
+    },
+    {
+      question: 'How does design consultation work with my architect on a renovation project?',
+      answer: 'We integrate directly with architectural design teams, reviewing roofing specifications in the context of the overall project vision. Our role is to translate architectural intent into buildable roofing details, identifying where design aspirations may need practical adjustment and proposing solutions that maintain the aesthetic vision within performance and budget constraints. We attend design meetings, provide material specifications for construction documents, and coordinate with the general contractor during installation.',
+    },
+  ],
+  metaDescription: 'Custom roof design consultation in Maplewood NJ. Expert material and style guidance for Victorians, Tudors, and Colonials across every neighborhood.',
+};

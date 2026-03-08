@@ -1,0 +1,35 @@
+import type { ComboContent } from '../schema';
+
+export const maplewoodHistoricRoofRestoration: ComboContent = {
+  serviceId: 'historic-roof-restoration',
+  cityId: 'maplewood',
+  overview: [
+    'Historic roof restoration carries deep significance in Maplewood, where the township\'s finest homes date from the 1880s through the 1920s and carry architectural details that define the community\'s visual identity. The Queen Anne Victorians surrounding Maplewood Village, the Shingle Style homes on elevated lots near South Mountain, and the Colonial Revival estates along Ridgewood Road and Prospect Street all deserve roofing restoration that preserves their architectural authenticity. Our [historic roof restoration](/historic-roof-restoration) work in [Maplewood](/roofing-in-maplewood-nj) begins from the premise that these roofs are architectural assets, not merely weatherproofing systems.',
+    'Maplewood\'s historic housing stock encompasses an unusually wide range of architectural periods within a compact township footprint. Victorian-era homes with decorative slate patterns, copper ridge cresting, and elaborate box gutter systems sit alongside Arts and Crafts bungalows with exposed rafter tails and hand-split shake roofing, and Georgian Colonial Revivals with symmetrical hip roofs and standing-seam metal. This diversity demands restoration contractors who can move fluently between eras and materials, understanding the original construction intent behind each architectural style.',
+    'While Maplewood does not currently maintain a local historic preservation commission, many homeowners pursue restoration out of personal commitment to their home\'s architectural heritage and an understanding that period-appropriate roofing contributes substantially to property value in the township\'s competitive real estate market. Homes with authentic slate, copper, and period-appropriate detailing command premium prices over comparable homes with standard replacement shingles. Homeowners in [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) navigate similar preservation priorities, though with formal commission oversight that Maplewood\'s voluntary approach does not require.',
+  ],
+  challenges: [
+    'Sourcing historically accurate replacement materials for Maplewood\'s Victorian-era roofs grows more challenging as original quarry sources consolidate or close. Vermont Unfading Green, Pennsylvania Peach Bottom, and Buckingham Virginia slate were the dominant species on Maplewood\'s finest homes, and matching these specific stone types for partial restoration requires quarry relationships and inventory knowledge that general roofing contractors rarely possess. We maintain direct accounts with active quarries that produce historically compatible slate, and we warehouse small quantities of rare slate types salvaged from demolition sites for use in emergency repairs.',
+    'Structural assessment of historic roof framing adds complexity to restoration projects. Original Victorian-era roof framing used dimensional lumber cut from old-growth timber with structural properties that modern dimensional lumber does not match. When restoration requires replacing deteriorated framing members, the replacement lumber must be engineered to perform equivalently, which sometimes means specifying laminated veneer lumber or engineered beams in place of nominal dimensional lumber that would under-perform in the same span and loading conditions.',
+  ],
+  process: [
+    'Historic restoration begins with archival research when available. We examine original building photographs, construction-era documentation, and architectural pattern books to understand the original roofing specification. For Maplewood homes where no documentation exists, we use material analysis of surviving original elements, diagnostic removal of sample sections, and architectural style comparison to determine the historically appropriate restoration approach.',
+    'Material procurement for historic restoration follows a priority hierarchy: first, exact-match materials from original sources; second, compatible materials from current production sources that match color, texture, and dimensional characteristics; third, high-quality reproduction materials that capture the visual character of the original within acceptable tolerance. We present options at each tier with honest assessment of visual fidelity and cost implications.',
+    'Installation follows period-appropriate methods using modern enhancements that improve performance without altering appearance. Slate is hung on copper nails with cant strips at the eaves. Box gutters are lined with 20-ounce copper sheet with soldered seams. Ridge and hip details replicate the original profile using matching slate or copper fabrication. Beneath these visible period-authentic surfaces, we install modern ice-and-water shield membrane and enhanced flashing systems that provide waterproofing reliability the original installation lacked.',
+  ],
+  faqs: [
+    {
+      question: 'How do you determine the original roofing materials on a Maplewood Victorian?',
+      answer: 'We examine surviving original material for stone type, color, texture, and dimensional characteristics. Slate can usually be identified by region and quarry based on these physical properties. We also research construction-era records, architectural pattern books relevant to the home\'s style and period, and consult with preservation specialists when needed. For homes where the original roof has been completely replaced, we use architectural style analysis and regional precedent to recommend period-appropriate materials.',
+    },
+    {
+      question: 'Is it worth restoring the original slate roof on my Maplewood home?',
+      answer: 'In most cases, yes. Quality natural slate has a 100-150 year service life, and many original Maplewood slates are only 80-100 years into that lifespan. If 60-70% or more of the existing slate is sound, restoration with selective replacement is typically more cost-effective than full tear-off and will maintain the home\'s architectural authenticity and market value premium. We provide honest assessments of slate condition with per-square salvage percentages to inform the restoration-versus-replacement decision.',
+    },
+    {
+      question: 'Can you restore the copper work on my Maplewood Victorian?',
+      answer: 'We fabricate and install copper ridge caps, hip flashings, box gutter linings, finials, and decorative elements using the same copper weight and soldering techniques used in original construction. Our copper work uses 16-ounce or 20-ounce sheet copper with soldered seams rather than contemporary mechanical joints, producing restorations that develop the same verdigris patina as the original copper and blend seamlessly with any surviving period elements.',
+    },
+  ],
+  metaDescription: 'Historic roof restoration in Maplewood NJ. Period-accurate slate, copper, and specialty materials for Victorian and Colonial Revival homes.',
+};
