@@ -32,11 +32,11 @@ Progress: [███████████████████████
 | 03 | 9/9 | ~144min | ~16min |
 | 04 | 7/7 | 56min | 8.0min |
 | 05 | 13/11 | 78min | 6.0min |
-| 06 | 1/2 | 3min | 3.0min |
+| 06 | 2/2 | 6min | 3.0min |
 
 **Recent Trend:**
-- Last 5 plans: 06-02 (3min), 05-11 (8min), 05-10b (6min), 05-10 (5min), 05-06 (10min)
-- Trend: Phase 6 linking infrastructure completed efficiently
+- Last 5 plans: 06-01 (3min), 06-02 (3min), 05-11 (8min), 05-10b (6min), 05-10 (5min)
+- Trend: Phase 6 complete -- both plans executed in 3min each
 
 *Updated after each plan completion*
 
@@ -132,6 +132,10 @@ Recent decisions affecting current work:
 - [05-11]: Dice-Sorensen thresholds recalibrated from 50/60/70% to 92/93/95% -- original thresholds caught domain vocabulary overlap, not content duplication
 - [05-11]: Intro structure classifier uses 14 rhetorical categories with proportional pass thresholds (4+ for 10+ files, 3+ for 5-9 files)
 - [05-11]: 5 metaDescription fields fixed (4 Newark, 1 Millburn) to comply with Zod 160-char max
+- [06-01]: Inline link parser extracted to shared render-inline-links.tsx utility for reuse across ComboOverview and ComboChallenges
+- [06-01]: ComboPlaceholder renders hero with form + minimal content for combos without content (graceful degradation)
+- [06-01]: Mid-content CTA placed between ComboChallenges and ComboProcess as natural break point
+- [06-01]: Category labels duplicated in ComboHero for self-containment (matching pattern from city pages)
 - [06-02]: Combo metadata uses try/catch fallback: hand-written metaDescription preferred, auto-generated as fallback
 - [06-02]: Orphan audit computes links from data layer imports (no HTML crawling) for accuracy and speed
 - [06-02]: Content-pending combo pages flagged separately from true orphans in audit output
@@ -208,15 +212,21 @@ Recent decisions affecting current work:
 - Each city batch uses distinct voice, building stock lens, and geographic references
 - Build: 1,492 static pages, all combo content compiling cleanly
 
-### Phase 6 Deliverables (In Progress)
+### Phase 6 Deliverables (Complete)
 
+- ComboTemplate production layout with 7 section components replacing placeholder
+- Link engine with getNearbyCityLinks, getRelatedServiceLinks, getParentPageLinks (pure functions)
+- Inline markdown link parser (render-inline-links.tsx) for content paragraph links
+- Nearby city links in 3 formats: card grid, sidebar section, inline text links
+- ComboHero with category badge, copper city accent, compact trust bar (distinct from ServiceHero)
+- Graceful placeholder for combos without content (not blank page)
 - CityServicesGrid links updated to combo page URLs via generateComboSlug
 - Combo metadata uses hand-written metaDescription from combo content (90 pages) with auto-generated fallback
 - Orphan page audit script (scripts/audit-orphan-pages.ts) -- reports inbound link health for all 1,489 pages
-- Audit baseline: 30 comparison pages at 0 links, 1,245 content-pending combos at 1-2 links
+- Build: 1,492 static pages, all templates rendering
 
 ## Session Continuity
 
 Last session: 2026-03-07
-Stopped at: Completed 06-02-PLAN.md (Linking infrastructure and orphan audit)
+Stopped at: Completed 06-01-PLAN.md (Combo template and link engine -- Phase 6 complete)
 Resume file: None
