@@ -9,6 +9,7 @@ import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
 import { getCityContent } from '@/data/city-content';
 import { getComboContent } from '@/data/combo-content';
+import { getComparisonContent } from '@/data/comparison-content';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -75,9 +76,20 @@ export async function generateMetadata({
     }
     case 'comparison': {
       const comparison = comparisons.find((c) => c.id === pageData.comparisonId);
+      if (!comparison) return {};
+      // Use hand-written metaDescription from comparison content when available
+      let description = comparison.metaDescription;
+      try {
+        const content = getComparisonContent(comparison.id);
+        if (content.metaDescription) {
+          description = content.metaDescription;
+        }
+      } catch {
+        // No content yet -- use base metaDescription
+      }
       return {
-        title: comparison?.metaTitle,
-        description: comparison?.metaDescription,
+        title: comparison.metaTitle,
+        description,
       };
     }
     case 'article': {
