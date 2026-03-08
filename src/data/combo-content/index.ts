@@ -5,10 +5,11 @@ import { bloomfieldComboContent } from './bloomfield';
 import { eastOrangeComboContent } from './east-orange';
 import { caldwellComboContent } from './caldwell';
 import { millburnComboContent } from './millburn';
+import { glenRidgeComboContent } from './glen-ridge';
 
 // ─── Content aggregator ─────────────────────────────────────────────────────
 // All combo content objects from city batch files, collected here.
-// Newark (65) + Montclair (5) + Bloomfield (5) + East Orange (5) + Caldwell (5) + Millburn (5) = 90 total
+// Newark (65) + Montclair (5) + Bloomfield (5) + East Orange (5) + Caldwell (5) + Millburn (5) + Glen Ridge (65) = 155 total
 // Validation happens per-city-batch in each city's index.ts (Zod z.array().parse()).
 
 const allContent: ComboContent[] = [
@@ -18,6 +19,7 @@ const allContent: ComboContent[] = [
   ...eastOrangeComboContent,
   ...caldwellComboContent,
   ...millburnComboContent,
+  ...glenRidgeComboContent,
 ];
 
 // ─── Map-based O(1) lookup ──────────────────────────────────────────────────
