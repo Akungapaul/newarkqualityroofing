@@ -1,47 +1,147 @@
 import type { Comparison } from '@/lib/types';
+import type { ComparisonContent } from '@/data/comparison-content/schema';
+import { getServiceMenuGroups } from '@/data/nav-data';
+import type { NavServiceGroup } from '@/data/nav-data';
+import { FloatingCtaButton } from '@/components/sections/FloatingCtaButton';
+import { ComparisonHero } from '@/components/sections/ComparisonHero';
+import { ComparisonIntro } from '@/components/sections/ComparisonIntro';
+import { ComparisonTable } from '@/components/sections/ComparisonTable';
+import { ComparisonAnalysis } from '@/components/sections/ComparisonAnalysis';
+import { ComparisonVerdict } from '@/components/sections/ComparisonVerdict';
+import { ComparisonFaqs } from '@/components/sections/ComparisonFaqs';
+import { ComparisonRelated } from '@/components/sections/ComparisonRelated';
+import { StickyFormSidebar } from '@/components/sections/StickyFormSidebar';
+import { LeadForm } from '@/components/forms/LeadForm';
+import { PhoneNumber } from '@/components/ui/PhoneNumber';
+
+// ─── Content loader (graceful fallback until Plan 03 creates aggregator) ──
+
+function loadComparisonContent(comparisonId: string): ComparisonContent | null {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const mod = require('@/data/comparison-content');
+    if (typeof mod.getComparisonContent === 'function') {
+      return mod.getComparisonContent(comparisonId);
+    }
+    return null;
+  } catch {
+    // Aggregator not yet created -- render placeholder
+    return null;
+  }
+}
+
+// ─── Template Component ─────────────────────────────────────────────────────
 
 interface ComparisonTemplateProps {
   comparison: Comparison;
 }
 
 export default function ComparisonTemplate({ comparison }: ComparisonTemplateProps) {
+  const serviceGroups = getServiceMenuGroups();
+  const content = loadComparisonContent(comparison.id);
+
+  if (!content) {
+    return <ComparisonPlaceholder comparison={comparison} serviceGroups={serviceGroups} />;
+  }
+
   return (
-    <div className="min-h-screen bg-parchment px-6 py-16">
-      <main className="mx-auto max-w-3xl">
-        {/* Page type badge */}
-        <span className="inline-block rounded-sm bg-copper px-3 py-1 font-body text-xs font-semibold uppercase tracking-wider text-text-on-copper">
-          Comparison
-        </span>
+    <>
+      <FloatingCtaButton />
 
-        {/* Comparison name */}
-        <h1 className="mt-4 font-heading text-4xl font-bold text-forest sm:text-5xl">
-          {comparison.name}
-        </h1>
+      <ComparisonHero
+        comparison={comparison}
+        serviceGroups={serviceGroups}
+      />
 
-        {/* Category */}
-        <div className="mt-4 flex flex-wrap gap-2">
-          <span className="rounded-sm border border-border px-2 py-1 font-body text-xs text-text-secondary">
-            {comparison.category}
-          </span>
+      <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
+        {/* Main content column */}
+        <div className="space-y-12 pb-16 lg:col-span-2">
+          <ComparisonIntro
+            heading={content.introHeading}
+            paragraphs={content.introParagraphs}
+          />
+
+          <ComparisonTable
+            comparison={comparison}
+            rows={content.comparisonRows}
+          />
+
+          <ComparisonAnalysis
+            analysis={content.detailedAnalysis}
+            njSpecific={content.njSpecific}
+            homeownerSection={content.homeownerSection}
+            businessOwnerSection={content.businessOwnerSection}
+          />
+
+          <ComparisonVerdict verdict={content.verdict} />
+
+          <ComparisonFaqs faqs={content.faqs} />
+
+          {/* Learn More section placeholder -- wired in Plan 10 */}
         </div>
 
-        {/* Placeholder content area */}
-        <div className="mt-12 rounded-sm border-2 border-dashed border-border p-8 text-center">
-          <p className="font-body text-text-secondary">
-            Full comparison content coming in Phase 5
-          </p>
+        {/* Sticky sidebar */}
+        <StickyFormSidebar>
+          <LeadForm
+            variant="standard"
+            serviceGroups={serviceGroups}
+          />
+        </StickyFormSidebar>
+      </div>
+
+      <ComparisonRelated comparison={comparison} />
+    </>
+  );
+}
+
+// ─── Placeholder for comparisons without content yet ──────────────────────
+
+function ComparisonPlaceholder({
+  comparison,
+  serviceGroups,
+}: {
+  comparison: Comparison;
+  serviceGroups: NavServiceGroup[];
+}) {
+  return (
+    <>
+      <FloatingCtaButton />
+
+      <ComparisonHero
+        comparison={comparison}
+        serviceGroups={serviceGroups}
+      />
+
+      <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
+        <div className="space-y-8 pb-16 lg:col-span-2">
+          <div className="rounded-sm border border-border bg-white p-8">
+            <h2 className="font-heading text-2xl font-bold text-forest">
+              {comparison.name}
+            </h2>
+            <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
+              Newark Quality Roofing helps homeowners and businesses make informed roofing
+              decisions. Our expert comparison guides break down the key differences
+              between materials, services, and approaches so you can choose with confidence.
+            </p>
+            <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
+              Contact us for a free consultation and personalized recommendation based on
+              your property, budget, and goals.
+            </p>
+            <div className="mt-6">
+              <PhoneNumber size="lg" className="text-copper font-semibold hover:text-copper-dark" />
+            </div>
+          </div>
         </div>
 
-        {/* Placeholder lead form area */}
-        <div className="mt-8 rounded-sm border-2 border-dashed border-copper/40 bg-copper/5 p-8 text-center">
-          <p className="font-heading text-lg font-semibold text-forest">
-            Need Help Choosing? Get Expert Advice
-          </p>
-          <p className="mt-2 font-body text-sm text-text-secondary">
-            Lead form coming in Phase 6
-          </p>
-        </div>
-      </main>
-    </div>
+        <StickyFormSidebar>
+          <LeadForm
+            variant="standard"
+            serviceGroups={serviceGroups}
+          />
+        </StickyFormSidebar>
+      </div>
+
+      <ComparisonRelated comparison={comparison} />
+    </>
   );
 }
