@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: "Completed 07-07-PLAN.md (remaining service category articles: replacement-sub-pages, energy-solar, commercial-services, design-consultation)"
-last_updated: "2026-03-08T19:17:52.973Z"
+stopped_at: Completed 07-04-PLAN.md (30 comparison content objects with aggregator)
+last_updated: "2026-03-08T19:46:55.488Z"
 last_activity: 2026-03-08 -- Completed 07-06-PLAN.md (54 articles for commercial and component services)
 progress:
   total_phases: 9
   completed_phases: 6
   total_plans: 73
-  completed_plans: 69
+  completed_plans: 70
   percent: 92
 ---
 
@@ -77,6 +77,7 @@ Progress: [█████████░] 92%
 | Phase 07 P06 | 17min | 2 tasks | 2 files |
 | Phase 07 P05 | 20min | 2 tasks | 2 files |
 | Phase 07 P07 | 21min | 2 tasks | 4 files |
+| Phase 07 P04 | 51min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -215,6 +216,9 @@ Recent decisions affecting current work:
 - [Phase 07]: Energy-solar articles reference NJ SuSI TREC, net metering, Clean Energy Program, federal 30% ITC
 - [Phase 07]: Ice dam prevention prioritizes root-cause remediation (insulation, air sealing) over symptom treatment
 - [Phase 07]: Historic restoration references Glen Ridge HPC, Montclair districts, Newark Landmarks Commission
+- [Phase 07-04]: Material comparisons include NJ-specific Essex County pricing ranges in comparison table rows
+- [Phase 07-04]: Decision-helpers use ranked list format with ComparisonContent schema: feature=option, itemA=attribute, itemB=best-for
+- [Phase 07-04]: Service comparisons use decision-first approach: lead with when-to-choose-X-vs-Y framework
 
 ### Pending Todos
 
@@ -303,6 +307,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-08T19:17:52.970Z
-Stopped at: Completed 07-07-PLAN.md (remaining service category articles: replacement-sub-pages, energy-solar, commercial-services, design-consultation)
+Last session: 2026-03-08T19:46:55.486Z
+Stopped at: Completed 07-04-PLAN.md (30 comparison content objects with aggregator)
 Resume file: None

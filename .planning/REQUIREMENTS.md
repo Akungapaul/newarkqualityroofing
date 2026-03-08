@@ -71,9 +71,9 @@
 ### Page Templates — Comparison Pages (30)
 
 - [x] **COMP-01**: Comparison page template with side-by-side analysis
-- [ ] **COMP-02**: 15 material vs material comparisons
-- [ ] **COMP-03**: 5 service vs service comparisons
-- [ ] **COMP-04**: 6+ decision-helper pages (best roofing for NJ weather, etc.)
+- [x] **COMP-02**: 15 material vs material comparisons
+- [x] **COMP-03**: 5 service vs service comparisons
+- [x] **COMP-04**: 6+ decision-helper pages (best roofing for NJ weather, etc.)
 - [x] **COMP-05**: Lead form above the fold
 - [x] **COMP-06**: Comparison table/matrix with clear winner recommendations
 - [x] **COMP-07**: FAQ section with comparison-specific questions
@@ -254,9 +254,9 @@
 | LINK-07 | Phase 6 | Pending |
 | LINK-08 | Phase 6 | Pending |
 | COMP-01 | Phase 7 | Complete |
-| COMP-02 | Phase 7 | Pending |
-| COMP-03 | Phase 7 | Pending |
-| COMP-04 | Phase 7 | Pending |
+| COMP-02 | Phase 7 | Complete |
+| COMP-03 | Phase 7 | Complete |
+| COMP-04 | Phase 7 | Complete |
 | COMP-05 | Phase 7 | Complete |
 | COMP-06 | Phase 7 | Complete |
 | COMP-07 | Phase 7 | Complete |
