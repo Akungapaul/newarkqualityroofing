@@ -97,6 +97,7 @@ export const SlugEntrySchema = z.object({
   serviceId: z.string().optional(),
   cityId: z.string().optional(),
   comparisonId: z.string().optional(),
+  articleId: z.string().optional(),
   corePageId: z.string().optional(),
 });
 
