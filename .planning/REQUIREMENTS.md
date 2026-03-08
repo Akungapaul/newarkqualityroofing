@@ -70,21 +70,21 @@
 
 ### Page Templates — Comparison Pages (30)
 
-- [ ] **COMP-01**: Comparison page template with side-by-side analysis
+- [x] **COMP-01**: Comparison page template with side-by-side analysis
 - [ ] **COMP-02**: 15 material vs material comparisons
 - [ ] **COMP-03**: 5 service vs service comparisons
 - [ ] **COMP-04**: 6+ decision-helper pages (best roofing for NJ weather, etc.)
-- [ ] **COMP-05**: Lead form above the fold
+- [x] **COMP-05**: Lead form above the fold
 - [ ] **COMP-06**: Comparison table/matrix with clear winner recommendations
 - [ ] **COMP-07**: FAQ section with comparison-specific questions
 
 ### Page Templates — Supporting Articles (252)
 
-- [ ] **ARTL-01**: Supporting article template (~750 words, 60%+ optimization)
-- [ ] **ARTL-02**: 3 supporting articles per money page (service pages)
-- [ ] **ARTL-03**: Reverse silo linking: article links back to money page + links to next supporting article
-- [ ] **ARTL-04**: No outbound links from supporting articles (all equity flows to money page)
-- [ ] **ARTL-05**: Content mapped to money page's keyword cluster
+- [x] **ARTL-01**: Supporting article template (~750 words, 60%+ optimization)
+- [x] **ARTL-02**: 3 supporting articles per money page (service pages)
+- [x] **ARTL-03**: Reverse silo linking: article links back to money page + links to next supporting article
+- [x] **ARTL-04**: No outbound links from supporting articles (all equity flows to money page)
+- [x] **ARTL-05**: Content mapped to money page's keyword cluster
 
 ### SEO — Technical
 
@@ -253,18 +253,18 @@
 | LINK-06 | Phase 6 | Pending |
 | LINK-07 | Phase 6 | Pending |
 | LINK-08 | Phase 6 | Pending |
-| COMP-01 | Phase 7 | Pending |
+| COMP-01 | Phase 7 | Complete |
 | COMP-02 | Phase 7 | Pending |
 | COMP-03 | Phase 7 | Pending |
 | COMP-04 | Phase 7 | Pending |
-| COMP-05 | Phase 7 | Pending |
+| COMP-05 | Phase 7 | Complete |
 | COMP-06 | Phase 7 | Pending |
 | COMP-07 | Phase 7 | Pending |
-| ARTL-01 | Phase 7 | Pending |
-| ARTL-02 | Phase 7 | Pending |
-| ARTL-03 | Phase 7 | Pending |
-| ARTL-04 | Phase 7 | Pending |
-| ARTL-05 | Phase 7 | Pending |
+| ARTL-01 | Phase 7 | Complete |
+| ARTL-02 | Phase 7 | Complete |
+| ARTL-03 | Phase 7 | Complete |
+| ARTL-04 | Phase 7 | Complete |
+| ARTL-05 | Phase 7 | Complete |
 | SEOT-01 | Phase 8 | Pending |
 | SEOT-02 | Phase 8 | Pending |
 | SEOT-03 | Phase 8 | Pending |
