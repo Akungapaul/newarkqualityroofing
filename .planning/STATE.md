@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in-progress
-stopped_at: Completed 07-01-PLAN.md (infrastructure -- schemas, articles, slug registry, link engine)
-last_updated: "2026-03-08T18:44:53Z"
-last_activity: 2026-03-08 -- Completed 07-01-PLAN.md (infrastructure)
+stopped_at: Completed 07-03-PLAN.md (article template + section components)
+last_updated: "2026-03-08T18:51:00Z"
+last_activity: 2026-03-08 -- Completed 07-03-PLAN.md (article template)
 progress:
   total_phases: 9
   completed_phases: 6
   total_plans: 73
-  completed_plans: 64
-  percent: 70
+  completed_plans: 65
+  percent: 89
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 7 in progress -- supporting content infrastructure built, templates and content next.
+**Current focus:** Phase 7 in progress -- article template built, comparison template and content plans next.
 
 ## Current Position
 
 Phase: 7 of 9 (Supporting Content)
-Plan: 1 of 10 in current phase
-Status: Plan 07-01 complete
-Last activity: 2026-03-08 -- Completed 07-01-PLAN.md (infrastructure)
+Plan: 3 of 10 in current phase
+Status: Plan 07-03 complete
+Last activity: 2026-03-08 -- Completed 07-03-PLAN.md (article template)
 
-Progress: [███████░░░] 70%
+Progress: [█████████░] 89%
 
 ## Performance Metrics
 
@@ -72,6 +72,7 @@ Progress: [███████░░░] 70%
 | Phase 06 P12 | 5min | 2 tasks | 7 files |
 | Phase 06 P23 | 4min | 2 tasks | 2 files |
 | Phase 07 P01 | 11min | 2 tasks | 9 files |
+| Phase 07 P03 | 3min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -195,6 +196,10 @@ Recent decisions affecting current work:
 - [07-01]: Article slugs use long-tail descriptive pattern to avoid collision with existing short service slugs
 - [07-01]: Generation script used for deterministic 252 article definitions rather than hand-writing entries
 - [07-01]: Placeholder ArticleTemplate created so build passes before Plan 02 full editorial layout
+- [07-03]: ArticleHero uses parchment background (not forest-dark) for editorial feel distinct from service/combo heroes
+- [07-03]: ArticleBody has NO inline links -- strict POP methodology enforced in content area
+- [07-03]: Content loaded via dynamic require with try/catch for graceful fallback until content plans complete
+- [07-03]: ArticleNav styles back-to-parent as prominent button when nextArticle is null (last in chain)
 
 ### Pending Todos
 
@@ -283,6 +288,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-08T18:44:53Z
-Stopped at: Completed 07-01-PLAN.md (infrastructure -- schemas, articles, slug registry, link engine)
+Last session: 2026-03-08T18:51:00Z
+Stopped at: Completed 07-03-PLAN.md (article template + 4 section components)
 Resume file: None
