@@ -3,6 +3,7 @@ import { services } from './services';
 import { cities } from './cities';
 import { combos } from './combos';
 import { comparisons } from './comparisons';
+import { articles } from './articles';
 import { corePages } from './core-pages';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 
@@ -56,6 +57,15 @@ function buildRegistry(): Map<string, SlugEntry> {
       slug: comparison.slug,
       type: 'comparison',
       comparisonId: comparison.id,
+    });
+  }
+
+  // Articles (252)
+  for (const article of articles) {
+    register({
+      slug: article.slug,
+      type: 'article',
+      articleId: article.id,
     });
   }
 

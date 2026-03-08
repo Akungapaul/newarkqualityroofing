@@ -5,6 +5,7 @@ import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { combos } from '@/data/combos';
 import { comparisons } from '@/data/comparisons';
+import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
 import { getCityContent } from '@/data/city-content';
 import { getComboContent } from '@/data/combo-content';
@@ -12,6 +13,7 @@ import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
 import ComparisonTemplate from '@/components/templates/ComparisonTemplate';
+import ArticleTemplate from '@/components/templates/ArticleTemplate';
 import CoreTemplate from '@/components/templates/CoreTemplate';
 
 // ─── SSG: Generate all static pages at build time ────────────────────────────
@@ -78,6 +80,13 @@ export async function generateMetadata({
         description: comparison?.metaDescription,
       };
     }
+    case 'article': {
+      const article = articles.find((a) => a.id === pageData.articleId);
+      return {
+        title: article?.metaTitle,
+        description: article?.metaDescription,
+      };
+    }
     case 'core': {
       const corePage = corePages.find((c) => c.id === pageData.corePageId);
       return {
@@ -125,6 +134,11 @@ export default async function SlugPage({
       const comparison = comparisons.find((c) => c.id === pageData.comparisonId);
       if (!comparison) notFound();
       return <ComparisonTemplate comparison={comparison} />;
+    }
+    case 'article': {
+      const article = articles.find((a) => a.id === pageData.articleId);
+      if (!article) notFound();
+      return <ArticleTemplate article={article} />;
     }
     case 'core': {
       const corePage = corePages.find((c) => c.id === pageData.corePageId);
