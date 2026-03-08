@@ -13,6 +13,8 @@ import { ComparisonRelated } from '@/components/sections/ComparisonRelated';
 import { StickyFormSidebar } from '@/components/sections/StickyFormSidebar';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { ComparisonLearnMore } from '@/components/sections/ComparisonLearnMore';
+import { getMoneyPageArticle } from '@/data/linking/link-engine';
 
 // ─── Content loader (graceful fallback until Plan 03 creates aggregator) ──
 
@@ -77,7 +79,11 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
 
           <ComparisonFaqs faqs={content.faqs} />
 
-          {/* Learn More section placeholder -- wired in Plan 10 */}
+          {/* Learn More — reverse silo link to position-1 article */}
+          {(() => {
+            const article = getMoneyPageArticle(comparison.id, 'comparison');
+            return article ? <ComparisonLearnMore article={article} comparisonName={comparison.name} /> : null;
+          })()}
         </div>
 
         {/* Sticky sidebar */}

@@ -17,6 +17,8 @@ import { ServiceWhyChooseUs } from '@/components/sections/ServiceWhyChooseUs';
 import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
 import { RelatedServices } from '@/components/sections/RelatedServices';
 import { ServiceCtaBanner } from '@/components/sections/ServiceCtaBanner';
+import { ServiceLearnMore } from '@/components/sections/ServiceLearnMore';
+import { getMoneyPageArticle } from '@/data/linking/link-engine';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -218,6 +220,12 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           )}
 
           <ServiceFaq faqs={content.faqs} />
+
+          {/* Learn More — reverse silo link to position-1 article */}
+          {(() => {
+            const article = getMoneyPageArticle(service.id, 'service');
+            return article ? <ServiceLearnMore article={article} serviceName={service.name} /> : null;
+          })()}
         </div>
 
         {/* Sticky sidebar */}
