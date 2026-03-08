@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const caldwellFireDamageRoofReplacement: ComboContent = {
+  serviceId: 'fire-damage-roof-replacement',
+  cityId: 'caldwell',
+  overview: [
+    'Fire damage roof replacement in Caldwell handles the complete roof system rebuild that follows a fire event affecting the home\'s structure. Whether the fire originated internally -- from an electrical fault, kitchen incident, or heating system malfunction -- or externally from an adjacent property or brush fire, the roof assembly absorbs damage that ranges from localized charring to complete structural destruction. The replacement scope depends on fire extent, structural assessment findings, and the building code requirements that govern reconstruction in the borough of Caldwell.',
+    'Caldwell\'s detached housing stock provides some buffer against the fire-to-fire transmission that threatens denser communities, but the borough\'s tree canopy introduces a different fire pathway: embers carried on wind currents can land on roof surfaces hundreds of feet from the fire source. This ember exposure risk is another reason why fire-retardant-treated roofing materials -- particularly on wood shake and cedar roofs -- deserve consideration in [Caldwell\'s](/roofing-in-caldwell-nj) canopy environment. Our [fire damage roof replacement](/fire-damage-roof-replacement) capability covers the full spectrum from targeted reconstruction of localized damage to complete structural rebuild after severe fire events.',
+    'The fire damage replacement process involves multiple parties -- the homeowner, insurance company, fire investigator, building department, and restoration contractor -- each with specific requirements and timelines that must be coordinated. Our role bridges the construction and insurance domains, providing the structural assessment and replacement specification that the insurance company needs for claim processing while meeting the building code requirements that the Caldwell building department enforces for reconstruction. This coordination accelerates the timeline from fire event to completed reconstruction.'
+  ],
+  challenges: [
+    'Structural assessment after fire damage on Caldwell homes requires evaluation of charred framing members to determine which retain adequate structural capacity and which must be replaced. Fire reduces wood strength proportionally to char depth -- a rafter with surface charring may retain ninety percent of its original capacity while a rafter charred through half its depth may need full replacement. This assessment must be performed by qualified professionals and reviewed by the Caldwell building inspector before any reconstruction work begins on the structure.',
+    'Smoke and soot contamination of attic insulation and roofing components adjacent to fire damage may not show visible charring but can produce persistent odors that affect the home\'s habitability. Insulation that has absorbed smoke particles must be removed and replaced regardless of its structural condition. Roof sheathing that shows no fire damage but has absorbed smoke compounds may need encapsulation or replacement to prevent long-term odor transfer into the living space below.',
+    'Building code upgrades triggered by fire damage reconstruction on Caldwell homes can expand the replacement scope beyond the damaged area. When fire damage requires structural modification that meets the threshold for substantial improvement under local building code, the entire roof system may need to meet current code standards -- not just the damaged portion. This code-triggered scope expansion affects project cost and timeline, and must be factored into the insurance claim and construction planning from the outset.'
+  ],
+  process: [
+    'Fire damage response begins with emergency stabilization to protect the Caldwell home from weather damage through the fire-damaged roof opening. Tarping, temporary sheathing, and board-up measures secure the structure while the fire investigation, insurance assessment, and reconstruction planning proceed. All emergency stabilization costs are documented for insurance claim inclusion. We coordinate with the fire department to ensure stabilization does not disturb the fire investigation scene.',
+    'Structural assessment following fire investigation clearance evaluates every framing member, sheathing panel, and structural connection in the fire-affected zone. Char depth measurements on exposed framing determine which members retain adequate structural capacity. Assessment results are compiled into a structural repair specification reviewed by the Caldwell building department before reconstruction begins. The insurance claim supplement includes the structural assessment findings and repair specification.',
+    'Reconstruction proceeds from structural repair through complete roof system installation. Damaged framing is removed and replaced with dimensional lumber meeting current code specifications. New sheathing, underlayment, and roofing materials are installed to current building code requirements. The completed reconstruction provides a roof system that meets modern standards for fire resistance, wind uplift, insulation, and ventilation -- standards that may significantly exceed the original construction that the fire damaged.'
+  ],
+  faqs: [
+    {
+      question: 'Does homeowner insurance cover fire damage roof replacement in Caldwell?',
+      answer: 'Homeowner insurance policies typically cover fire damage to the dwelling structure, including the roof, under the dwelling coverage section. Coverage includes both structural rebuilding and the contents damaged by fire, smoke, and water used in firefighting. Your deductible applies. If the fire originated from your property, coverage applies regardless of cause. If the fire originated from a neighbor\'s property, your insurance provides coverage and may seek recovery from the responsible party\'s insurer through subrogation.'
+    },
+    {
+      question: 'How long does fire damage roof replacement take in Caldwell?',
+      answer: 'Fire damage roof replacement timelines range from two weeks for localized damage requiring limited structural repair to two months or more for extensive fire damage requiring major structural rebuilding. The timeline depends on fire investigation duration, insurance processing speed, structural assessment scope, building permit review, and material procurement. We provide estimated timelines at each project phase and update the homeowner as the project progresses through each stage.'
+    },
+    {
+      question: 'Can I stay in my Caldwell home during fire damage roof replacement?',
+      answer: 'Occupancy during fire damage roof replacement depends on the extent of structural damage and the building department\'s determination. Localized damage to a small roof section may allow continued occupancy during replacement. Extensive damage affecting structural integrity or creating exposure to weather typically requires temporary relocation until reconstruction is complete. Your homeowner insurance policy includes additional living expense coverage for temporary housing when the home is uninhabitable due to a covered loss.'
+    },
+    {
+      question: 'Will my Caldwell roof be rebuilt to current building code after fire damage?',
+      answer: 'Yes. Reconstruction after fire damage must meet current Caldwell building code, which may exceed the standards under which the original roof was built. This includes current requirements for ice-and-water shield, ventilation, wind uplift resistance, and insulation. Many insurance policies include ordinance or law coverage that pays for the code-upgrade costs that reconstruction triggers. We identify applicable code upgrades during the planning phase and include them in the insurance claim documentation.'
+    }
+  ],
+  metaDescription: 'Fire damage roof replacement in Caldwell NJ -- structural assessment, insurance coordination, and code-compliant rebuild after fire events.',
+};
