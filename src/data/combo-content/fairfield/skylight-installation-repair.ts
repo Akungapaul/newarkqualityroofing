@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const fairfieldSkylightInstallationRepair: ComboContent = {
+  serviceId: 'skylight-installation-repair',
+  cityId: 'fairfield',
+  overview: [
+    'Skylight installation and repair in Fairfield brings natural light into the township\'s homes and select commercial spaces where interior rooms, hallways, and bathrooms lack adequate window exposure. Many of Fairfield\'s ranch-style and split-level homes from the 1970s and 1980s feature interior rooms -- particularly hallways, center-hall bathrooms, and galley kitchens -- that benefit significantly from overhead natural light. Skylights transform these darker spaces with daylight that no wall-mounted window can provide. Our skylight installations integrate seamlessly with both existing and new roof systems, with flashing details engineered for Fairfield\'s rain and snow conditions.',
+    'Skylight repair is equally important in Fairfield, where homes with existing skylights from the 1980s and 1990s face leaking, condensation, and energy-loss issues from aging units that have outlasted their seal integrity. Original skylights with dual-pane glass often develop seal failures that produce condensation between the panes, reducing clarity and insulation value. Flashing around aging skylights deteriorates through thermal cycling, creating leak paths that stain ceilings and damage drywall. Our [skylight repair](/skylight-installation-repair) service addresses both the skylight unit itself and the surrounding roof integration to eliminate leaks permanently.',
+    'Commercial skylight applications in Fairfield include tubular daylighting devices for interior retail and office spaces along Route 46, where natural light improves occupant satisfaction and reduces daytime lighting energy consumption. These commercial installations require coordination with the building\'s membrane roof system and structural engineer to ensure that the penetration does not compromise waterproofing or structural integrity. Property owners in [Fairfield](/roofing-in-fairfield-nj) exploring energy-efficient lighting alternatives find tubular skylights particularly effective in single-story commercial spaces where the roof-to-interior distance is short.'
+  ],
+  challenges: [
+    'Leak prevention is the primary engineering challenge for skylights in Fairfield. Every skylight is a penetration through the waterproofing surface, and the curb-mounted or deck-mounted frame must shed water effectively during both rainfall and snowmelt. Fairfield\'s freeze-thaw cycles create ice formations around skylight curbs that can dam water and force it beneath flashing. Our installations use manufacturer-integrated flashing kits with ice-and-water shield beneath the curb on all sides, providing redundant waterproofing at this critical penetration.',
+    'Energy performance of skylights affects heating and cooling costs in Fairfield homes. Standard single-pane skylights transmit both wanted light and unwanted heat gain in summer and heat loss in winter. Low-E coated, argon-filled double-pane skylight units reduce heat transfer while maintaining light transmission, and some units include integral blinds or shading devices that allow seasonal adjustment. Proper sizing -- skylights should not exceed five percent of the room\'s floor area -- prevents the overheating that oversized skylights produce during Fairfield\'s warm months.',
+    'Structural considerations for skylight installation require cutting through roof rafters or trusses, which redistributes loads to adjacent framing members. In Fairfield\'s truss-roof homes, cutting truss members without proper header framing can compromise structural integrity. Our skylight installations include engineered headers that transfer loads around the opening, maintaining the roof structure\'s design capacity regardless of the skylight size or location.'
+  ],
+  process: [
+    'Skylight installation in Fairfield begins with location selection based on interior lighting goals and roof structure. We identify the ideal skylight position from inside the home, then verify from the roof that the location avoids ridges, valleys, and existing penetrations. The selected location is evaluated for rafter spacing and any structural modifications needed to create the opening. We recommend VELUX or similar premium skylight units with factory-integrated flashing systems engineered for our climate zone.',
+    'Roof opening construction includes cutting shingles and underlayment, installing structural headers between the rafters flanking the opening, and framing the curb or deck-mount platform. Self-adhering ice-and-water shield is installed on all sides of the opening before the skylight unit is set. The manufacturer\'s integrated flashing kit is installed in sequence with the surrounding shingle courses to ensure proper water-shedding overlap at every transition.',
+    'Interior finishing completes the skylight installation. For cathedral-ceiling installations where the skylight opens directly into the room, interior trim is applied around the skylight frame. For installations where the skylight sits above an attic space, a light well is framed from the roof opening down to the ceiling plane, with insulated walls and a reflective interior finish that maximizes light transfer to the room below. The completed installation is tested for weather-tightness and documented for the Fairfield homeowner\'s records.'
+  ],
+  faqs: [
+    {
+      question: 'Will adding a skylight cause my Fairfield roof to leak?',
+      answer: 'A properly installed skylight with manufacturer-integrated flashing will not leak. Skylight leaks result from improper flashing installation, missing ice-and-water protection, or deterioration of aging units. Our installations use VELUX-grade skylight units with factory-engineered flashing kits installed in strict sequence with the surrounding roof system. We warranty our skylight installations against leaks and have a strong track record of leak-free performance on Fairfield homes.'
+    },
+    {
+      question: 'What is the best skylight for a Fairfield home?',
+      answer: 'We recommend fixed or venting skylights with low-E coated, argon-filled double-pane glass for Fairfield homes. Venting models that open for airflow are ideal for kitchens and bathrooms where moisture removal is beneficial. Fixed models work well for hallways and living areas where light is the primary goal. Solar-powered blinds are available for sun-exposed locations where seasonal shading is desirable. VELUX and similar premium brands offer the durability and warranty coverage appropriate for Fairfield\'s climate.'
+    },
+    {
+      question: 'Can a skylight be added during a Fairfield roof replacement?',
+      answer: 'Roof replacement is the most cost-effective time to add a skylight. With the existing shingles removed, cutting the opening and installing the flashing integrates seamlessly into the roofing workflow. Adding a skylight during replacement avoids the cost of removing and reinstalling shingles that a standalone installation requires. If you are considering a skylight for your Fairfield home, scheduling it with your roof replacement saves significant labor cost.'
+    },
+    {
+      question: 'How long do skylights last before needing replacement in Fairfield?',
+      answer: 'Premium skylights with double-pane glass and factory-sealed frames last twenty to thirty years before seal failure requires replacement. The surrounding flashing should be inspected and maintained every five to ten years to ensure continued waterproofing. When a skylight unit develops condensation between the panes or persistent leaking despite flashing repair, replacement of the unit is necessary. Modern replacement units offer improved energy performance and often fit existing curb frames without modification.'
+    }
+  ],
+  metaDescription: 'Skylight installation and repair in Fairfield NJ. VELUX skylights with leak-proof flashing for ranch homes and split-levels.',
+};
