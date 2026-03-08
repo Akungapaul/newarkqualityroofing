@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const millburnReRoofing: ComboContent = {
+  serviceId: 're-roofing',
+  cityId: 'millburn',
+  overview: [
+    'Re-roofing in Millburn encompasses the complete process of replacing an aging or damaged roof system with new materials selected to serve the property for the next generation. On the estate homes throughout Short Hills and Wyoming, re-roofing is not merely a maintenance event -- it is a significant architectural decision where the material, color, and detail vocabulary chosen during re-roofing defines how the property presents for thirty to fifty years or more. The homeowner, architect, and roofing specialist collaborate on these selections within the framework of the property\'s architectural style, the township\'s aesthetic standards, and the performance requirements of Millburn\'s climate.',
+    'Our [re-roofing](/re-roofing) practice distinguishes between like-for-like re-roofing -- replacing the existing material with the same type -- and material-change re-roofing that upgrades or modifies the roofing system. Like-for-like re-roofing on a slate estate restores the roof to its original condition using matched materials. Material-change re-roofing -- converting cedar shake to fire-resistant composite, upgrading asphalt to architectural standing seam -- transforms the roof\'s performance characteristics while potentially altering its architectural appearance. Both approaches require the coordination of structural assessment, material specification, and installation planning that our estate re-roofing process provides.',
+    'The re-roofing timeline on Millburn estates extends well beyond the installation period. Material procurement for premium roofing -- quarried slate, fabricated copper components, custom-color metal panels -- may require two to four months of lead time. Architect coordination, permit processing, and homeowner association review where applicable add administrative weeks. We develop project timelines that account for these pre-construction phases so the homeowner understands the complete schedule from decision to completion rather than just the installation duration.'
+  ],
+  challenges: [
+    'Coordinating re-roofing with concurrent renovation projects on Millburn estates requires scheduling integration that prevents conflicts between roofing crews and other contractors working on the property simultaneously. Kitchen additions, bathroom renovations, landscape projects, and exterior painting may all overlap with the re-roofing timeline. Our project management coordinates with the homeowner\'s general contractor or the individual subcontractors to establish work zones, equipment access, and scheduling sequences that allow multiple projects to proceed without interference.',
+    'Material-change decisions on historically significant Millburn properties carry long-term consequences for the home\'s architectural character and potentially its historic designation status. Converting from natural slate to synthetic, from cedar to composite, or from copper to aluminum alters the material authenticity that contributes to the property\'s architectural significance and market position. We provide detailed comparison assessments that help homeowners and architects evaluate the full implications of material changes before committing to a direction that cannot be easily reversed.',
+    'Seasonal scheduling constraints affect re-roofing project timing in Millburn. Optimal installation conditions -- dry weather, moderate temperatures, adequate daylight hours -- concentrate viable scheduling into spring through fall. However, Millburn homeowners often prefer to schedule work during summer when school is out and family travel provides absence from the construction activity, compressing the available scheduling window further. We book Millburn estate re-roofing projects well in advance to secure optimal scheduling positions.'
+  ],
+  process: [
+    'Re-roofing begins with a comprehensive assessment of the existing roof system -- material condition, deck integrity, ventilation adequacy, insulation levels, and flashing condition. This assessment determines whether tear-off or overlay is appropriate, identifies the deck work likely required, and establishes the baseline for the new-material specification. The assessment report includes photographs and condition ratings for each roof section.',
+    'Material specification follows the assessment, with the homeowner and architect reviewing options for the field material, flashing metals, ridge and hip treatments, ventilation components, and edge details. Physical samples -- slate quarry tiles, metal finish panels, shingle brand comparisons -- are provided for evaluation in the context of the home\'s facade and landscape. Cost comparisons, warranty differences, and maintenance requirements for each option enable informed decision-making.',
+    'Installation follows the phased sequence that maintains weather protection throughout the project. Daily progress is documented with photographs and communicated to the homeowner. Quality checkpoints at critical stages -- deck inspection, underlayment verification, flashing installation, field-material alignment -- ensure the completed installation meets the specification and our quality standards. Final inspection produces the documentation package including warranty registration, material specifications, and as-installed photographs for the homeowner\'s permanent records.'
+  ],
+  faqs: [
+    {
+      question: 'How do I know when my Millburn home needs re-roofing?',
+      answer: 'Signs include widespread shingle curling or granule loss, recurring leaks despite repairs, visible daylight through the roof deck from the attic, sagging roof planes, and age beyond the material\'s expected service life -- typically twenty to thirty years for asphalt, thirty to forty for cedar, and seventy-five-plus for slate. We provide complimentary roof assessments that evaluate these conditions and provide an objective recommendation on the remaining service life and the appropriate timing for re-roofing.'
+    },
+    {
+      question: 'Can I change roofing materials during re-roofing?',
+      answer: 'Yes, provided the structural capacity supports the new material\'s weight and the material is architecturally appropriate for the home\'s style. Converting from heavy materials to lighter ones -- slate to architectural shingle -- reduces structural loading. Converting to heavier materials -- shingle to slate -- may require structural reinforcement. We assess the structural implications of any material change and coordinate with the structural engineer when reinforcement is required.'
+    },
+    {
+      question: 'How long does re-roofing take on a Millburn estate?',
+      answer: 'Installation duration depends on roof size and material. A thirty-square asphalt shingle re-roofing with tear-off typically requires five to seven working days. A similar-sized slate re-roofing may require two to three weeks due to the precision and material-handling requirements. The total project timeline -- including pre-construction material procurement and administrative processing -- may span three to six months from initial consultation to project completion.'
+    },
+    {
+      question: 'What warranties are available with re-roofing?',
+      answer: 'Warranty coverage varies by material and manufacturer. Premium asphalt shingles carry fifty-year limited warranties with our GAF Master Elite certification providing enhanced coverage. Slate installations carry our workmanship warranty alongside the natural stone\'s inherent longevity. Metal roofing includes both manufacturer material warranties and finish warranties for PVDF coatings. We explain the warranty structure for each material option so the homeowner understands exactly what is covered and for how long.'
+    }
+  ],
+  metaDescription: 'Re-roofing services for Millburn and Short Hills estates. Material selection, architect coordination, and phased installation for premium residential properties.',
+};

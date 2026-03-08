@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const millburnAgingRoofReplacement: ComboContent = {
+  serviceId: 'aging-roof-replacement',
+  cityId: 'millburn',
+  overview: [
+    'Aging roof replacement on Millburn estates is a planned capital improvement rather than an emergency response -- a proactive decision to replace roofing that has served its expected lifespan before deterioration progresses to the point of water intrusion, structural damage, and the cascading interior costs that deferred replacement produces. The asphalt shingle roofs on mid-century Millburn homes reach their twenty-five to thirty-year service life, the cedar shakes on 1980s and 1990s-era estates approach their thirty-to-forty-year threshold, and even the slate roofs on pre-war properties may need their first major restoration after seventy-five to ninety years of service.',
+    'Timing the replacement decision on Millburn properties requires balancing the remaining functional life of the existing roof against the risk of waiting too long. A roof that appears adequate from the ground may be two or three years from failures that produce interior damage exceeding the cost of the replacement itself. Our assessment practice for aging [Millburn](/roofing-in-millburn-nj) roofs evaluates the material condition, deck integrity, flashing status, and environmental exposure to project the remaining reliable service life and recommend the replacement timing that prevents damage while maximizing the value of the existing installation.',
+    'The replacement presents an opportunity to upgrade roofing performance -- energy efficiency, ventilation, waterproofing coverage -- beyond the standards of the original installation. Code requirements have advanced since most Millburn aging roofs were installed, and the re-roofing project triggers compliance with current insulation, ventilation, and fire-resistance standards. These mandated upgrades, combined with voluntary improvements the homeowner selects, produce a new roof system that outperforms the aging installation in every measurable dimension.'
+  ],
+  challenges: [
+    'Identifying the optimal replacement timing requires expertise that distinguishes between cosmetic aging and functional deterioration. Asphalt shingles that appear faded and weathered may still have years of watertight service remaining, while shingles that appear reasonably intact may have lost the granule coverage and adhesive integrity that prevents wind lift and water penetration. Our assessment evaluates the functional indicators -- adhesive-strip integrity, granule retention, flexibility, and nail-seal condition -- rather than relying on visual appearance alone.',
+    'Material selection for aging-roof replacement on Millburn estates often involves upgrading from the original material to a premium alternative that the homeowner has aspired to since purchasing the property. Converting from asphalt to architectural slate, from standard shingles to cedar shake, or from basic standing seam to copper -- these upgrades require structural assessment, aesthetic design, and budget planning that exceed the scope of a like-for-like replacement. We guide these upgrade conversations with structural feasibility data, material samples, and lifecycle cost comparisons.',
+    'Project scheduling for planned aging-roof replacement allows the luxury of optimal timing -- choosing the season, coordinating with other property improvements, and allowing full material-procurement lead times. This flexibility contrasts with the urgency of storm-damage replacement and should be leveraged to achieve the best possible project conditions. We recommend booking Millburn estate replacements six to twelve months in advance to secure optimal scheduling, complete material procurement, and coordinate with any concurrent property-improvement projects.'
+  ],
+  process: [
+    'Assessment evaluates the aging roof\'s condition across multiple indicators: material flexiblity and brittleness, granule retention and erosion patterns, adhesive-strip integrity, flashing condition, deck soundness from attic inspection, and ventilation adequacy. The assessment report provides a projected remaining service life, identifies any active deficiencies requiring attention regardless of replacement timing, and recommends the optimal replacement window.',
+    'Material specification for the replacement draws on the property\'s architectural style, the homeowner\'s performance priorities, and the budget allocation. We present material options ranging from premium architectural shingles through composite alternatives to natural slate, copper, and cedar -- each with samples, lifecycle costs, warranty comparisons, and architectural-compatibility assessment. The homeowner and architect select the material direction, and we develop the complete specification for the chosen system.',
+    'Replacement execution follows the full project protocol: material procurement, site preparation, phased tear-off with daily weather closure, deck inspection and repair, new underlayment and waterproofing installation, field-material application, flashing and detail work, and final quality inspection. The planned nature of aging-roof replacement allows this sequence to proceed without the weather-exposure urgency that emergency projects impose, enabling higher quality control and more meticulous detail work.'
+  ],
+  faqs: [
+    {
+      question: 'How do I know if my aging roof needs replacement now or can wait another few years?',
+      answer: 'Our assessment evaluates functional indicators rather than cosmetic appearance. If the shingles retain adequate granule coverage, maintain adhesive-strip seal, flex without cracking, and the underlying deck is sound, the roof may have several years of remaining service life. If granules are substantially depleted, adhesive strips have released, shingles crack when flexed, or the deck shows moisture damage from the attic side, replacement should be scheduled promptly. We provide a projected remaining service life to help you plan the replacement timing.'
+    },
+    {
+      question: 'Should I replace my aging roof before selling my Millburn home?',
+      answer: 'A new roof is one of the highest-return improvements for resale preparation on Millburn properties, where buyers expect premium condition and will negotiate aggressively on deferred maintenance. A recent replacement with transferable warranty removes a major negotiating point and demonstrates the maintenance commitment that Millburn buyers value. The replacement cost is typically recovered through higher sale price and faster market time.'
+    },
+    {
+      question: 'Can I finance an aging roof replacement on my Millburn property?',
+      answer: 'Yes. We work with financing partners who offer home-improvement loans and lines of credit suitable for estate-scale roofing projects. Some manufacturer programs provide promotional financing through certified installers. For homeowners who prefer to fund the project through existing resources, we structure payment schedules with deposits, progress payments, and final payment upon completion that align cash flow with project milestones.'
+    },
+    {
+      question: 'What is the best time of year to replace an aging roof in Millburn?',
+      answer: 'Late spring through early fall provides the optimal installation conditions -- moderate temperatures for material handling and adhesive activation, adequate daylight hours for full work days, and the lowest probability of weather delays. Early fall is particularly favorable because the moderate temperatures produce excellent shingle-sealing conditions and the project is completed before winter weather arrives. We recommend scheduling six to twelve months in advance to secure the preferred installation window.'
+    }
+  ],
+  metaDescription: 'Aging roof replacement for Millburn and Short Hills estates. Proactive replacement planning with material upgrades, lifecycle cost analysis, and optimal timing.',
+};

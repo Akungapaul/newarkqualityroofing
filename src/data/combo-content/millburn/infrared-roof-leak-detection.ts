@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const millburnInfraredRoofLeakDetection: ComboContent = {
+  serviceId: 'infrared-roof-leak-detection',
+  cityId: 'millburn',
+  overview: [
+    'Infrared roof leak detection in Millburn provides the precision diagnostic capability that eliminates the guesswork from flat-roof leak repair on commercial and institutional buildings. When a Millburn Avenue office building or institutional facility develops an interior leak, the water-entry point on the flat-roof membrane above may be thirty feet or more from where the water appears inside the building -- moisture travels laterally through insulation and along deck surfaces before finding a penetration through the ceiling below. Infrared technology pinpoints the actual entry location by detecting the moisture trail between the entry point and the interior symptom.',
+    'The precision of infrared leak detection translates directly to cost savings for Millburn commercial property owners. Without infrared guidance, leak repair on flat roofs often involves exploratory membrane cutting across a broad area to locate the entry point -- cutting that damages sound membrane, expands the repair scope, and may still miss the actual source if the exploratory cuts do not intersect the moisture path. Infrared imaging narrows the repair zone to the specific area where moisture is trapped, allowing targeted membrane cutting, insulation replacement, and re-roofing of just the affected section.',
+    'Our [infrared roof leak detection](/infrared-roof-leak-detection) service combines thermal imaging with systematic flood testing to produce definitive leak-source identification. Thermal imaging alone detects moisture in the roof assembly but does not always distinguish between moisture from an active leak and residual moisture from a previous leak that has already been repaired. Flood testing -- controlled water application to isolated roof sections while monitoring for interior water appearance -- confirms whether a thermally identified moisture zone is associated with an active or historic entry point.'
+  ],
+  challenges: [
+    'Thermal imaging for leak detection requires specific environmental conditions that are not always available when the building owner needs answers. The roof must have been heated by solar radiation during the day, the imaging must occur after sunset, and wind speeds must be below thresholds that equalize surface temperatures. On Millburn commercial buildings where an active leak is causing ongoing tenant disruption, the building owner may not be able to wait for optimal imaging conditions. We supplement thermal imaging with other diagnostic methods -- moisture meters, electronic leak detection, and systematic flood testing -- when imaging conditions are suboptimal.',
+    'Multi-layer roof assemblies on Millburn\'s older commercial buildings can produce thermal signatures that complicate moisture interpretation. A building with two or three layers of roofing -- each applied over the previous without tear-off -- contains multiple planes where moisture can accumulate. Thermal imaging may detect moisture at one layer while the active entry point is at a different layer. Core samples at thermally identified locations verify which layer contains moisture and guide the repair approach.',
+    'Distinguishing roof leaks from condensation on Millburn commercial buildings requires understanding the building\'s HVAC and vapor-drive dynamics. High-humidity interior environments -- commercial kitchens, swimming pool facilities, medical sterilization areas -- can produce condensation on the underside of the roof deck that mimics a roof leak in appearance. Infrared imaging from the exterior detects moisture in the roof assembly from an external source, while condensation-related moisture typically manifests differently in thermal patterns. Our diagnostic process considers both possibilities and tests for each.'
+  ],
+  process: [
+    'Infrared leak detection begins with an interior inspection that documents every location where water staining, moisture damage, or active dripping is present. These interior symptoms are mapped onto the building floor plan and correlated with the roof layout above, creating a preliminary target zone for the exterior thermal imaging. The interior inspection also notes any conditions -- HVAC equipment, plumbing, condensation sources -- that could produce moisture unrelated to roof leaks.',
+    'Exterior thermal imaging is performed after sunset on a day with adequate solar loading. The thermographer scans the roof surface systematically, documenting every thermal anomaly and correlating it with the interior-symptom map developed during the daytime inspection. Anomalies that align spatially with interior symptoms receive priority attention. Anomalies in areas without reported interior symptoms are documented as potential developing problems for preventive repair.',
+    'Flood testing confirms active leak sources identified through thermal imaging. Controlled water is applied to isolated sections of the roof surface in sequence, starting with the area most likely to contain the leak based on thermal and spatial correlation. Each section is soaked for a defined period while an interior observer monitors for water appearance. When water is detected, the active section is the confirmed leak source. This confirmation prevents repair crews from opening membrane at a moisture-containing area that may be a historical rather than active entry point.'
+  ],
+  faqs: [
+    {
+      question: 'How accurate is infrared leak detection?',
+      answer: 'Infrared imaging combined with flood testing achieves ninety percent or greater accuracy in identifying the specific roof area containing the active leak source. Thermal imaging alone narrows the search zone from the entire roof area to one or two suspect zones. Flood testing confirms which zone contains the active entry point. This combined approach is significantly more accurate and less destructive than the exploratory-cut method of leak diagnosis.'
+    },
+    {
+      question: 'Can infrared detect leaks on my sloped residential roof?',
+      answer: 'Infrared is most effective on flat and low-slope roofs where moisture accumulates in the insulation beneath the membrane. On steep-slope residential roofs, moisture typically drains through the assembly rather than accumulating, making thermal detection less reliable. For residential leak diagnosis, we use other methods -- water testing from exterior, attic inspection, and moisture-meter probing -- that are more effective on pitched-roof assemblies.'
+    },
+    {
+      question: 'How quickly can you perform infrared leak detection on my Millburn commercial building?',
+      answer: 'We can schedule the interior inspection within two to three business days of the request. The exterior thermal imaging must be scheduled for an evening with appropriate weather conditions -- clear skies during the day for solar loading, calm winds at imaging time. During summer months, suitable conditions occur frequently and we can typically image within a week of the request. During fall and winter, suitable windows are less frequent and may require more scheduling flexibility.'
+    },
+    {
+      question: 'What happens after the leak is located?',
+      answer: 'We provide a detailed report identifying the leak location on the roof plan, the probable cause based on the thermal pattern and visual inspection, and the recommended repair scope. The repair can proceed as a separate project or be authorized immediately if the property owner wants the leak resolved as quickly as possible. The infrared documentation becomes part of the repair record, confirming that the specific entry point was identified and addressed.'
+    }
+  ],
+  metaDescription: 'Infrared roof leak detection for Millburn commercial buildings. Precision moisture mapping with thermal imaging and flood testing to pinpoint leak sources.',
+};
