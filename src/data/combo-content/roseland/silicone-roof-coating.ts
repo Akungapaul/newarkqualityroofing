@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const roselandSiliconeRoofCoating: ComboContent = {
+  serviceId: 'silicone-roof-coating',
+  cityId: 'roseland',
+  overview: [
+    'Silicone roof coating extends the service life of aging commercial flat roofs in Roseland by creating a seamless, reflective, UV-resistant surface over existing membrane systems. For the office buildings along Eisenhower Parkway and Eagle Rock Avenue carrying membranes that are past their prime but not yet catastrophically failed, silicone coating provides a restoration option that defers full replacement by 10 to 15 years at a fraction of replacement cost. Our [silicone roof coating](/silicone-roof-coating) service evaluates candidacy, prepares the existing surface, and applies the coating system with manufacturer-certified techniques.',
+    'The material properties of silicone distinguish it from acrylic and urethane coatings that other contractors may offer as alternatives. Silicone does not degrade in ponding water -- a critical advantage on Roseland commercial roofs where drainage imperfections create standing water after rain events. Acrylic coatings soften and erode in ponding conditions, while silicone maintains its integrity indefinitely in standing water. This ponding tolerance makes silicone the only appropriate coating choice for flat roofs that cannot guarantee complete positive drainage.',
+    'Energy performance improvement is an immediate benefit of silicone coating on dark-surface commercial roofs. The white reflective coating transforms a heat-absorbing dark membrane into an ENERGY STAR-rated reflective surface, reducing roof surface temperature by 50 to 60 degrees during summer months. For air-conditioned office buildings in Roseland, this temperature reduction translates directly into cooling cost savings that begin the day the coating cures. Commercial properties in [Caldwell](/silicone-roof-coating-caldwell-nj) have achieved similar energy performance improvements through silicone restoration.'
+  ],
+  challenges: [
+    'Candidacy evaluation requires honest assessment of the existing membrane condition. Silicone coating restores surface protection and reflectivity but does not repair structural membrane failures, delaminated insulation, or active leaks caused by membrane deterioration below the surface. The existing membrane must retain its waterproofing integrity for the coating to function as intended. We core-test existing roofs at multiple locations to verify membrane adhesion, insulation dryness, and substrate condition before recommending coating as an appropriate restoration approach.',
+    'Surface preparation determines coating adhesion quality and system longevity. Decades of accumulated dirt, biological growth, ponding residue, and deteriorated previous coatings must be completely removed before silicone application. Power washing alone may not remove all contamination -- chemical cleaning agents specific to the contaminant type may be necessary. Inadequate surface preparation is the most common cause of coating failure, and we invest the time required to achieve the clean, dry, adhesion-ready surface that silicone demands.',
+    'Weather windows for coating application in northeastern New Jersey are limited by both temperature and precipitation. Silicone coatings require ambient temperatures above 50 degrees and no rain for 24 hours after application to achieve proper cure. Roseland\'s variable spring and fall weather can narrow the optimal application window, requiring flexible scheduling to capitalize on suitable conditions. We monitor forecasts closely and schedule application sequences to ensure each coat cures fully before any weather exposure.'
+  ],
+  process: [
+    'Silicone coating projects in Roseland begin with a membrane condition assessment that determines whether coating is the appropriate restoration approach. We core-test the existing roof at multiple locations, checking for moisture in the insulation, membrane adhesion to the substrate, and remaining membrane elasticity. Roofs with dry insulation, well-adhered membranes, and no active structural leaks are candidates for coating restoration. Roofs with wet insulation, delaminated membrane, or compromised structural integrity require replacement rather than coating.',
+    'Surface preparation involves power washing the entire roof surface to remove dirt, biological growth, and loose material. Seam repairs on the existing membrane address any localized adhesion failures before coating. Penetration flashings are evaluated and repaired as needed. The prepared surface is allowed to dry completely -- moisture testing verifies dryness before coating application begins. This preparation phase typically requires one to two days depending on roof size and contamination level.',
+    'Silicone coating application proceeds in two passes, each achieving the specified wet-film thickness that produces the required dry-film protection. The first coat bonds to the prepared membrane surface. After curing, the second coat builds total film thickness to the manufacturer\'s specification -- typically 20 to 25 mils dry for a standard 10-year warranty system. Reinforcing fabric embedded between coats at seams and detail areas adds tensile strength at the most movement-prone locations. Final inspection measures dry-film thickness at multiple points and documents the completed system for warranty registration.'
+  ],
+  faqs: [
+    {
+      question: 'How long does silicone roof coating last on a Roseland commercial building?',
+      answer: 'Silicone roof coating systems carry manufacturer warranties of 10 to 20 years depending on the coating thickness and product line specified. The silicone material itself does not degrade in UV exposure or ponding water, so real-world performance often exceeds warranty duration. When the coating eventually thins through weathering, it can be recoated with an additional application to extend the system for another full warranty cycle without disturbing the membrane beneath.'
+    },
+    {
+      question: 'Is silicone coating cheaper than a full roof replacement?',
+      answer: 'Silicone coating restoration typically costs 30 to 50 percent of full membrane replacement on Roseland commercial buildings. The savings come from eliminating tear-off labor, disposal costs, and new insulation. The existing membrane and insulation remain in place, and the coating creates a new weathering surface over them. This cost advantage makes coating an attractive option for property managers extending building holding periods without committing to full capital expenditure for roof replacement.'
+    },
+    {
+      question: 'Can silicone coating be applied over any type of flat roof membrane?',
+      answer: 'Silicone coating adheres well to most commercial flat roof membranes including EPDM, TPO, PVC, modified bitumen, BUR, and metal. Each substrate requires specific primer application to achieve proper adhesion. The existing membrane must be in structurally sound condition -- silicone coating restores surface protection but cannot compensate for failed membrane integrity beneath the coating layer. We verify compatibility and adhesion through test patches before committing to full-scale application.'
+    },
+    {
+      question: 'Does silicone coating handle ponding water on our flat roof?',
+      answer: 'Silicone is the only commercial roof coating that performs reliably in ponding water conditions. Unlike acrylic coatings that soften and erode in standing water, silicone maintains its integrity indefinitely in ponding areas. This makes silicone the default recommendation for Roseland commercial roofs where drainage imperfections or equipment obstructions create standing water after rain events. No drainage correction is required before coating application when silicone is specified.'
+    }
+  ],
+  metaDescription: 'Silicone roof coating in Roseland NJ -- restore aging commercial flat roofs with reflective, ponding-resistant coating systems.',
+};
