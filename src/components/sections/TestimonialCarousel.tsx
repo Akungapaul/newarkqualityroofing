@@ -100,7 +100,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
           id="testimonials-heading"
           className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
-          What Our Customers Say
+          What Our Customers Say About Newark Quality Roofing
         </h2>
 
         <div

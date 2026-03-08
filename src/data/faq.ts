@@ -5,9 +5,9 @@ export interface FaqItem {
 
 export const faqItems: FaqItem[] = [
   {
-    question: 'How much does a new roof cost in Newark, NJ?',
+    question: 'How much does a roof replacement cost in NJ?',
     answer:
-      'A typical residential roof replacement in the Newark area ranges from $8,000 to $25,000 depending on the size of your home, chosen materials, and the complexity of the roof structure. We provide free, no-obligation estimates so you know exactly what to expect before any work begins.',
+      'A typical residential roof replacement in the Newark area ranges from $8,500 to $25,000 depending on the size of your home, chosen materials, and the complexity of the roof structure. We provide free, no-obligation estimates so you know exactly what to expect before any work begins.',
   },
   {
     question: 'Do you help with insurance claims for storm damage?',
@@ -43,5 +43,20 @@ export const faqItems: FaqItem[] = [
     question: 'Is the roofing estimate really free?',
     answer:
       'Yes, every estimate is completely free with no obligation. We will inspect your roof, discuss your options, and provide a detailed written estimate. There is never any pressure to commit, and we are happy to answer any questions you have along the way.',
+  },
+  {
+    question: 'What is the 25% rule in roofing?',
+    answer:
+      'The 25% rule means that if more than 25% of your roof surface is damaged, most building codes and insurance policies require a full roof replacement rather than a partial roof repair. In Newark and across New Jersey, this threshold is commonly used by insurance adjusters to determine whether your claim qualifies for a complete replacement or only a repair. Our team can inspect your roof and help you understand which option applies.',
+  },
+  {
+    question: 'Is it cheaper to repair or replace a roof?',
+    answer:
+      'A roof repair is significantly less expensive upfront, typically costing $350 to $1,500, while a full roof replacement ranges from $8,500 to $25,000. However, if your roof is more than 20 years old or has widespread damage, repeated repairs can cost more in the long run than a single replacement. We provide a free inspection and honest recommendation so you can make the most cost-effective decision for your home.',
+  },
+  {
+    question: 'What time of year is the cheapest to replace a roof?',
+    answer:
+      'Late fall and winter are typically the most affordable times for a roof replacement in Newark and across NJ. Roofing demand drops during the colder months, which means shorter wait times and potential cost savings on labor. Our crews work year-round and install roofing materials in all seasons, so scheduling a winter project can be a smart way to save on your NJ roofing investment.',
   },
 ];

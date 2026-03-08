@@ -14,7 +14,7 @@ export function LocationsGrid() {
             id="locations-heading"
             className="font-heading text-3xl font-bold sm:text-4xl"
           >
-            Serving All of Essex County
+            Serving All of Essex County and the Newark Area
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/70">
             From our Newark headquarters, we provide expert roofing services

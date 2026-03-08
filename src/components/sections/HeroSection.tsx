@@ -51,14 +51,17 @@ export function HeroSection() {
             id="hero-heading"
             className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
           >
-            Expert Roofing
+            Roof Repair in Newark NJ
             <br />
-            <span className="text-copper">for Essex County</span>
+            <span className="text-copper">
+              Trusted Roofing Contractors for Your Home
+            </span>
           </h1>
           <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
-            Licensed and insured roofing contractor delivering quality
-            craftsmanship for residential and commercial properties across
-            Newark and all of Essex County, NJ.
+            Newark Quality Roofing provides affordable roofing services for
+            residential roofing and commercial roof projects across Newark,
+            New Jersey. From roof repairs and roof replacement to siding and
+            gutter installation — call today for your free estimate.
           </p>
           <div className="mt-8 flex items-center gap-3 font-body text-parchment/70">
             <span>Or call us directly:</span>

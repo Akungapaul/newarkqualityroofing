@@ -60,9 +60,9 @@ function ServiceCard({
         className="absolute -right-8 -top-8 h-24 w-24 rotate-45 bg-copper/10 transition-transform duration-300 group-hover:rotate-[55deg]"
         aria-hidden="true"
       />
-      <h4 className="relative font-heading text-xl font-bold text-text-on-dark">
+      <p className="relative font-heading text-xl font-bold text-text-on-dark">
         {name}
-      </h4>
+      </p>
       <p className="relative mt-2 line-clamp-2 font-body text-sm leading-relaxed text-parchment/75">
         {shortDescription}
       </p>
@@ -95,7 +95,7 @@ export function ServicesGrid() {
             id="services-heading"
             className="font-heading text-3xl font-bold text-forest sm:text-4xl"
           >
-            Our Roofing Services
+            Our Roofing Services in Newark, NJ
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
             From emergency repairs to complete roof replacements, we deliver expert
@@ -106,8 +106,11 @@ export function ServicesGrid() {
         {/* Residential */}
         <div className="mt-14">
           <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
-            Residential Services
+            Residential Roofing Services
           </h3>
+          <h4 className="mb-4 font-heading text-lg font-semibold text-copper">
+            Roof Repair and Maintenance
+          </h4>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {residentialServices.map((service, i) => (
               <ServiceCard
@@ -124,8 +127,11 @@ export function ServicesGrid() {
         {/* Commercial */}
         <div className="mt-14">
           <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
-            Commercial Services
+            Commercial Roofing Services
           </h3>
+          <h4 className="mb-4 font-heading text-lg font-semibold text-copper">
+            Roofing Installation and Replacements
+          </h4>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {commercialServices.map((service, i) => (
               <ServiceCard
