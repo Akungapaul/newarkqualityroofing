@@ -146,29 +146,29 @@ Plans:
 **Plans**: 23 plans
 
 Plans:
-- [ ] 06-01-PLAN.md -- ComboTemplate production component with 7 section components + link engine
+- [x] 06-01-PLAN.md -- ComboTemplate production component with 7 section components + link engine
 - [x] 06-02-PLAN.md -- CityServicesGrid combo URL update + metadata switch + orphan audit script
-- [ ] 06-03-PLAN.md -- Montclair combo content expansion (60 remaining of 65)
-- [ ] 06-04-PLAN.md -- Bloomfield combo content expansion (60 remaining of 65)
-- [ ] 06-05-PLAN.md -- East Orange combo content expansion (60 remaining of 65)
-- [ ] 06-06-PLAN.md -- Caldwell combo content expansion (60 remaining of 65)
-- [ ] 06-07-PLAN.md -- Millburn combo content expansion (60 remaining of 65)
-- [ ] 06-08-PLAN.md -- Irvington combo content (65 new)
-- [ ] 06-09-PLAN.md -- West Orange combo content (65 new)
-- [ ] 06-10-PLAN.md -- Belleville combo content (65 new)
-- [ ] 06-11-PLAN.md -- Orange combo content (65 new)
-- [ ] 06-12-PLAN.md -- Nutley combo content (65 new)
-- [ ] 06-13-PLAN.md -- South Orange combo content (65 new)
-- [ ] 06-14-PLAN.md -- Maplewood combo content (65 new)
-- [ ] 06-15-PLAN.md -- Livingston combo content (65 new)
-- [ ] 06-16-PLAN.md -- Glen Ridge combo content (65 new)
-- [ ] 06-17-PLAN.md -- Verona combo content (65 new)
-- [ ] 06-18-PLAN.md -- Cedar Grove combo content (65 new)
-- [ ] 06-19-PLAN.md -- North Caldwell combo content (65 new)
-- [ ] 06-20-PLAN.md -- Essex Fells combo content (65 new)
-- [ ] 06-21-PLAN.md -- Fairfield combo content (65 new)
-- [ ] 06-22-PLAN.md -- Roseland combo content (65 new)
-- [ ] 06-23-PLAN.md -- Final integration: 21-city aggregator, footer mega-links, orphan audit, full build verification
+- [x] 06-03-PLAN.md -- Montclair combo content expansion (60 remaining of 65)
+- [x] 06-04-PLAN.md -- Bloomfield combo content expansion (60 remaining of 65)
+- [x] 06-05-PLAN.md -- East Orange combo content expansion (60 remaining of 65)
+- [x] 06-06-PLAN.md -- Caldwell combo content expansion (60 remaining of 65)
+- [x] 06-07-PLAN.md -- Millburn combo content expansion (60 remaining of 65)
+- [x] 06-08-PLAN.md -- Irvington combo content (65 new)
+- [x] 06-09-PLAN.md -- West Orange combo content (65 new)
+- [x] 06-10-PLAN.md -- Belleville combo content (65 new)
+- [x] 06-11-PLAN.md -- Orange combo content (65 new)
+- [x] 06-12-PLAN.md -- Nutley combo content (65 new)
+- [x] 06-13-PLAN.md -- South Orange combo content (65 new)
+- [x] 06-14-PLAN.md -- Maplewood combo content (65 new)
+- [x] 06-15-PLAN.md -- Livingston combo content (65 new)
+- [x] 06-16-PLAN.md -- Glen Ridge combo content (65 new)
+- [x] 06-17-PLAN.md -- Verona combo content (65 new)
+- [x] 06-18-PLAN.md -- Cedar Grove combo content (65 new)
+- [x] 06-19-PLAN.md -- North Caldwell combo content (65 new)
+- [x] 06-20-PLAN.md -- Essex Fells combo content (65 new)
+- [x] 06-21-PLAN.md -- Fairfield combo content (65 new)
+- [x] 06-22-PLAN.md -- Roseland combo content (65 new)
+- [x] 06-23-PLAN.md -- Final integration: 21-city aggregator, footer mega-links, orphan audit, full build verification
 
 ### Phase 7: Supporting Content
 **Goal**: All 30 comparison pages and 252 supporting articles are live, completing the topical authority structure
@@ -180,13 +180,19 @@ Plans:
   3. Supporting articles link back to their money page and forward to the next supporting article -- with zero outbound links
   4. Each comparison page has a lead form above the fold
   5. 3 supporting articles exist per money page (service pages), completing the reverse silo structure
-**Plans**: TBD
+**Plans**: 10 plans
 
 Plans:
-- [ ] 07-01: ComparisonTemplate component (side-by-side layout, comparison matrix, FAQ, form)
-- [ ] 07-02: Comparison page content -- 15 material vs material, 5 service vs service, 6+ decision-helpers
-- [ ] 07-03: ArticleTemplate component (~750 words, reverse silo links, no outbound links)
-- [ ] 07-04: Supporting article content generation -- 252 articles mapped to money page keyword clusters
+- [ ] 07-01-PLAN.md -- Infrastructure: content schemas, article registry (252 articles), slug registration, link engine, dispatcher
+- [ ] 07-02-PLAN.md -- ComparisonTemplate rebuild with 7 section components (hero, table, analysis, verdict, FAQs, related)
+- [ ] 07-03-PLAN.md -- ArticleTemplate with 4 section components (hero, body, CTA, navigation)
+- [ ] 07-04-PLAN.md -- Comparison content: all 30 pages (16 material, 6 service, 8 decision-helper)
+- [ ] 07-05-PLAN.md -- Article content: repair-maintenance (30) + residential-roof-types (27)
+- [ ] 07-06-PLAN.md -- Article content: commercial-roof-types (24) + components-specialty (30)
+- [ ] 07-07-PLAN.md -- Article content: replacement-sub-pages + energy-solar + commercial-services + design-consultation
+- [ ] 07-08-PLAN.md -- Article content: comparison articles (60) + homepage articles (3)
+- [ ] 07-09-PLAN.md -- Article aggregator, Learn More sections, reverse silo wiring into ServiceTemplate/ComparisonTemplate/homepage
+- [ ] 07-10-PLAN.md -- Final integration: metadata update, build verification, link chain validation, visual checkpoint
 
 ### Phase 8: SEO Infrastructure
 **Goal**: Complete technical SEO, schema markup, and semantic optimization are in place across all ~1,697 pages
@@ -238,10 +244,10 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 | 4. City Pages and Local SEO | 7/7 | Complete | 2026-03-07 |
 | 5. Content Differentiation Engine | 15/15 | Complete | 2026-03-07 |
 | 6. Programmatic Scale | 23/23 | Complete   | 2026-03-08 |
-| 7. Supporting Content | 0/4 | Not started | - |
+| 7. Supporting Content | 0/10 | Not started | - |
 | 8. SEO Infrastructure | 0/4 | Not started | - |
 | 9. Conversion and Design Polish | 0/4 | Not started | - |
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-07 -- Phase 6 plan 02 complete (linking infrastructure + orphan audit)*
+*Last updated: 2026-03-08 -- Phase 7 planned (10 plans across 5 waves)*
