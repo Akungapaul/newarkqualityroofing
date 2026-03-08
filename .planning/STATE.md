@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: Completed 07-08-PLAN.md (63 comparison and homepage article content objects)
-last_updated: "2026-03-08T19:59:52.580Z"
-last_activity: 2026-03-08 -- Completed 07-06-PLAN.md (54 articles for commercial and component services)
+stopped_at: Completed 07-09-PLAN.md (reverse silo wiring with article aggregator and Learn More components)
+last_updated: "2026-03-08T20:04:50.294Z"
+last_activity: 2026-03-08 -- Completed 07-09-PLAN.md (reverse silo wiring with article aggregator and Learn More components)
 progress:
   total_phases: 9
   completed_phases: 6
   total_plans: 73
-  completed_plans: 71
-  percent: 92
+  completed_plans: 72
+  percent: 99
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 ## Current Position
 
 Phase: 7 of 9 (Supporting Content)
-Plan: 6 of 10 in current phase
-Status: Plan 07-06 complete
-Last activity: 2026-03-08 -- Completed 07-06-PLAN.md (54 articles for commercial and component services)
+Plan: 9 of 10 in current phase
+Status: Plan 07-09 complete
+Last activity: 2026-03-08 -- Completed 07-09-PLAN.md (reverse silo wiring with article aggregator and Learn More components)
 
-Progress: [█████████░] 92%
+Progress: [██████████] 99%
 
 ## Performance Metrics
 
@@ -79,6 +79,7 @@ Progress: [█████████░] 92%
 | Phase 07 P07 | 21min | 2 tasks | 4 files |
 | Phase 07 P04 | 51min | 2 tasks | 4 files |
 | Phase 07 P08 | 64min | 2 tasks | 2 files |
+| Phase 07 P09 | 3min | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -222,6 +223,8 @@ Recent decisions affecting current work:
 - [Phase 07-04]: Service comparisons use decision-first approach: lead with when-to-choose-X-vs-Y framework
 - [Phase 07]: Comparison articles use buyer-guide (position 1) and expert-recommendation (position 2) angles to supplement comparison pages
 - [Phase 07]: Homepage articles written as broadest site entry points covering NJ climate, contractor vetting, and licensing/insurance
+- [Phase 07-09]: IIFE pattern for conditional article rendering in templates (avoids useState or separate variable)
+- [Phase 07-09]: Learn More sections placed after FAQ, before sidebar close (last content section before related services)
 
 ### Pending Todos
 
@@ -310,6 +313,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-08T19:59:52.578Z
-Stopped at: Completed 07-08-PLAN.md (63 comparison and homepage article content objects)
+Last session: 2026-03-08T20:04:50.292Z
+Stopped at: Completed 07-09-PLAN.md (reverse silo wiring with article aggregator and Learn More components)
 Resume file: None
