@@ -36,5 +36,5 @@ export const millburnEnergyEfficientRoofingSolutions: ComboContent = {
       answer: 'Current New Jersey energy code requires R-49 for attic insulation in new construction and major renovations. Many existing Millburn homes have attic insulation at R-19 to R-30 -- adequate by the standards of their construction era but below current requirements and the level where diminishing returns begin. Upgrading to R-49 with blown cellulose or fiberglass over existing insulation is typically cost-effective and can be performed without roofing work, though combining the upgrade with a re-roofing project provides access advantages on complex attic geometries.'
     }
   ],
-  metaDescription: 'Energy-efficient roofing for Millburn estates. Attic insulation, radiant barriers, ventilation optimization, and thermal-performance upgrades for Short Hills homes.',
+  metaDescription: 'Energy-efficient roofing for Millburn estates. Attic insulation, radiant barriers, ventilation optimization, and thermal-performance upgrades for Short.',
 };

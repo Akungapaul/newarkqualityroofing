@@ -36,5 +36,5 @@ export const millburnCommercialRoofReplacement: ComboContent = {
       answer: 'Comprehensive commercial warranties include the manufacturer\'s material and system warranty -- typically twenty to thirty years for premium systems -- plus our installation workmanship warranty. The manufacturer\'s warranty covers material defects and system failures, while our warranty covers installation quality. We specify only manufacturer systems that include labor coverage in their warranty, so the building owner has a single point of warranty service for any covered issue.'
     }
   ],
-  metaDescription: 'Commercial roof replacement for Millburn offices and retail buildings. Phased installation with tenant coordination, lifecycle cost analysis, and full warranties.',
+  metaDescription: 'Commercial roof replacement for Millburn offices and retail buildings. Phased installation with tenant coordination, lifecycle cost analysis, and full.',
 };

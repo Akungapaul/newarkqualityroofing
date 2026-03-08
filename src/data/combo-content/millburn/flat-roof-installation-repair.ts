@@ -36,5 +36,5 @@ export const millburnFlatRoofInstallationRepair: ComboContent = {
       answer: 'With proper installation and maintenance, TPO and PVC membranes deliver twenty-five to thirty years of service, EPDM achieves thirty to forty years, and modified bitumen systems last twenty to twenty-five years. These lifespans assume correct drainage, adequate ventilation of the assembly, and periodic maintenance inspections that catch minor issues before they become membrane failures. On Millburn properties where the flat-roof section is a small percentage of the overall roofing investment, we recommend including it in the annual roof maintenance program to ensure it receives the same attention as the primary steep-slope system.'
     }
   ],
-  metaDescription: 'Flat roof installation and repair for Millburn and Short Hills estates. Membrane systems for additions, terraces, and commercial properties along Millburn Avenue.',
+  metaDescription: 'Flat roof installation and repair for Millburn and Short Hills estates. Membrane systems for additions, terraces, and commercial properties along Millburn.',
 };

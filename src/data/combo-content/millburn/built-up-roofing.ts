@@ -36,5 +36,5 @@ export const millburnBuiltUpRoofing: ComboContent = {
       answer: 'A properly installed three-to-five-ply BUR system with quality materials achieves twenty-five to forty years of service depending on maintenance, traffic levels, and environmental exposure. The gravel surfacing protects the underlying bitumen from UV degradation, and the redundant plies provide continued waterproofing even if individual layers develop localized failures. Annual maintenance inspections that address gravel displacement, flood-coat cracking, and flashing deterioration maximize the system\'s functional lifespan.'
     }
   ],
-  metaDescription: 'Built-up roofing services for Millburn commercial and institutional buildings. BUR repair, maintenance, and multi-ply replacement with gravel or smooth surfacing.',
+  metaDescription: 'Built-up roofing services for Millburn commercial and institutional buildings. BUR repair, maintenance, and multi-ply replacement with gravel or smooth.',
 };

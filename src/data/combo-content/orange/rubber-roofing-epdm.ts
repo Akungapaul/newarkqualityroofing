@@ -36,5 +36,5 @@ export const orangeRubberRoofingEpdm: ComboContent = {
       answer: 'EPDM replacement on Orange commercial properties typically runs $6 to $10 per square foot installed, depending on insulation requirements, the number of roofing layers to remove, and penetration count. A typical 3,000-square-foot Main Street storefront roof runs $18,000 to $30,000 including full tear-off, new insulation, and 60-mil membrane with a 20-year warranty.'
     }
   ],
-  metaDescription: 'EPDM rubber roofing in Orange NJ -- Main Street commercial membranes, Victorian flat-section coverage, Valley moisture protection, and South Mountain durability.',
+  metaDescription: 'EPDM rubber roofing in Orange NJ -- Main Street commercial membranes, Victorian flat-section coverage, Valley moisture protection, and South Mountain.',
 };

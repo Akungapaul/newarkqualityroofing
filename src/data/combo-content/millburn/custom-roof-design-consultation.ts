@@ -36,5 +36,5 @@ export const millburnCustomRoofDesignConsultation: ComboContent = {
       answer: 'Consultation fees are based on project scope and complexity. For straightforward material-selection guidance on a standard re-roofing project, the consultation may be incorporated into the project proposal at no additional fee. For complex new-construction or restoration projects requiring specification development, code-compliance analysis, and ongoing construction-phase consultation, fees are quoted based on the estimated hours and deliverables. The consultation fee is typically a fraction of one percent of the total roofing investment and routinely prevents specification errors that would cost far more to correct during construction.'
     }
   ],
-  metaDescription: 'Custom roof design consultation for Millburn estates. Architect collaboration, material specification, and code-compliance guidance for premium residential projects.',
+  metaDescription: 'Custom roof design consultation for Millburn estates. Architect collaboration, material specification, and code-compliance guidance for premium residential.',
 };

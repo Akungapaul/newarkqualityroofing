@@ -36,5 +36,5 @@ export const millburnModifiedBitumenRoofing: ComboContent = {
       answer: 'Annual maintenance includes debris removal -- particularly important under Millburn\'s tree canopy where leaf and branch accumulation traps moisture against the membrane -- drain and scupper clearing, visual inspection of seams and flashings, and granule-condition assessment on the cap sheet surface. Every three to five years, reflective coating application over the granulated surface can extend membrane life by reducing UV exposure and thermal cycling stress. We include modified bitumen roofs in our commercial and estate maintenance programs with inspection schedules calibrated to the specific property conditions.'
     }
   ],
-  metaDescription: 'Modified bitumen roofing for Millburn commercial properties and estate flat-roof sections. Multi-layer waterproofing with torch, cold-adhesive, or self-adhered options.',
+  metaDescription: 'Modified bitumen roofing for Millburn commercial properties and estate flat-roof sections. Multi-layer waterproofing with torch, cold-adhesive, or.',
 };

@@ -36,5 +36,5 @@ export const millburnSolarShingleInstallation: ComboContent = {
       answer: 'Individual damaged solar shingles can be replaced by disconnecting the electrical connections, removing the damaged unit, and installing a replacement. The process requires both roofing and electrical competence because the unit must be integrated into both the waterproofing system and the electrical circuit. We maintain relationships with the solar shingle manufacturers for replacement unit procurement and warranty claims, and our crews are trained in both the roofing and electrical aspects of solar shingle service.'
     }
   ],
-  metaDescription: 'Solar shingle installation for Millburn estates. Building-integrated photovoltaics that generate electricity while maintaining architectural roofline aesthetics.',
+  metaDescription: 'Solar shingle installation for Millburn estates. Building-integrated photovoltaics that generate electricity while maintaining architectural roofline.',
 };

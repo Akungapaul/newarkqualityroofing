@@ -36,5 +36,5 @@ export const cedarGroveWoodShakeRoofing: ComboContent = {
       answer: 'Pressure-treated Class B or Class C fire-rated shakes are required by current building codes and reduce fire risk substantially. Cedar Grove does not fall within a wildland-urban interface zone, so Class B rated shakes satisfy local requirements. We exclusively install treated shakes that carry both the fire rating certification and preservative treatment, addressing both fire and biological concerns with a single material specification.',
     },
   ],
-  metaDescription: 'Wood shake roofing in Cedar Grove NJ -- low-pitch ranch installations, moss prevention for shaded lots, and ventilation solutions for northern Essex County homes.',
+  metaDescription: 'Wood shake roofing in Cedar Grove NJ -- low-pitch ranch installations, moss prevention for shaded lots, and ventilation solutions for northern Essex County.',
 };

@@ -36,5 +36,5 @@ export const millburnCedarShakeRoofReplacement: ComboContent = {
       answer: 'Cedar shakes at the end of their service life are generally too deteriorated for reuse. However, if sections of the existing roof remain in serviceable condition -- typically the youngest sections or those with the most favorable sun exposure -- sound shakes can be salvaged during tear-off for use as a reference standard when matching future repair material. We assess salvage potential during tear-off and set aside any material worth preserving.'
     }
   ],
-  metaDescription: 'Cedar shake roof replacement for Millburn estates. Premium hand-split shakes with fire-retardant treatment, canopy-environment ventilation, and maintenance planning.',
+  metaDescription: 'Cedar shake roof replacement for Millburn estates. Premium hand-split shakes with fire-retardant treatment, canopy-environment ventilation, and maintenance.',
 };

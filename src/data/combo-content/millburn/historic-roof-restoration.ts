@@ -36,5 +36,5 @@ export const millburnHistoricRoofRestoration: ComboContent = {
       answer: 'Restoration is typically more expensive per square than standard replacement because of the material-sourcing complexity, the selective-removal labor, and the custom fabrication required for period-appropriate details. However, restoration preserves material that would cost substantially more to replace entirely, and it maintains the property\'s architectural integrity and historic character that standard replacement would diminish. For Millburn properties where the roof contributes significantly to the home\'s character and property value, the restoration premium is an investment in the property\'s long-term market position.'
     }
   ],
-  metaDescription: 'Historic roof restoration for Millburn and Short Hills estates. Wyoming Historic District compliance, slate salvage sourcing, and period-accurate copper fabrication.',
+  metaDescription: 'Historic roof restoration for Millburn and Short Hills estates. Wyoming Historic District compliance, slate salvage sourcing, and period-accurate copper.',
 };

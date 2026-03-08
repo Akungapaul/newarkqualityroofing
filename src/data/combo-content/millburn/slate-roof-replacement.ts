@@ -36,5 +36,5 @@ export const millburnSlateRoofReplacement: ComboContent = {
       answer: 'Slate replacement is the most expensive residential roofing option -- typically three to five times the cost of premium architectural shingles for the same roof area. However, the lifecycle cost comparison shifts when the century-plus service life eliminates the two or three re-roofing events that shorter-lived materials require. For Millburn estate owners with generational holding horizons, slate\'s total cost of ownership over one hundred years is often comparable to the cumulative cost of four or five asphalt shingle replacements over the same period.'
     }
   ],
-  metaDescription: 'Slate roof replacement for Millburn and Short Hills estates. Vermont, Buckingham, and Pennsylvania quarry sourcing with copper flashings and century-long durability.',
+  metaDescription: 'Slate roof replacement for Millburn and Short Hills estates. Vermont, Buckingham, and Pennsylvania quarry sourcing with copper flashings and century-long.',
 };

@@ -36,5 +36,5 @@ export const millburnSolarPanelRoofingInstallation: ComboContent = {
       answer: 'If your roof has less than fifteen years of remaining service life, replacing it before solar installation avoids the cost of removing and reinstalling the array mid-life. For slate roofs with decades of remaining service, panel installation can proceed on the existing roof. For asphalt shingle roofs approaching the end of their warranty period, combining a re-roof with solar installation is the most cost-effective approach. We assess your roof\'s condition and remaining life as the first step in the solar evaluation process.'
     }
   ],
-  metaDescription: 'Solar panel roofing installation for Millburn estates. Slate-compatible mounting, shade analysis, and architect-coordinated panel placement for Short Hills homes.',
+  metaDescription: 'Solar panel roofing installation for Millburn estates. Slate-compatible mounting, shade analysis, and architect-coordinated panel placement for Short Hills.',
 };

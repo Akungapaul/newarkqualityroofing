@@ -36,5 +36,5 @@ export const millburnReRoofing: ComboContent = {
       answer: 'Warranty coverage varies by material and manufacturer. Premium asphalt shingles carry fifty-year limited warranties with our GAF Master Elite certification providing enhanced coverage. Slate installations carry our workmanship warranty alongside the natural stone\'s inherent longevity. Metal roofing includes both manufacturer material warranties and finish warranties for PVDF coatings. We explain the warranty structure for each material option so the homeowner understands exactly what is covered and for how long.'
     }
   ],
-  metaDescription: 'Re-roofing services for Millburn and Short Hills estates. Material selection, architect coordination, and phased installation for premium residential properties.',
+  metaDescription: 'Re-roofing services for Millburn and Short Hills estates. Material selection, architect coordination, and phased installation for premium residential.',
 };

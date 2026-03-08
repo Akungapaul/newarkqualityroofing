@@ -1,22 +1,9 @@
 import { z } from 'zod';
 import { ComboContentSchema } from '../schema';
 
-// ─── Repair-Maintenance (10) ────────────────────────────────────────────────
-import { cedarGroveRoofRepair } from './roof-repair';
-import { cedarGroveRoofReplacement } from './roof-replacement';
-import { cedarGroveEmergencyRoofRepair } from './emergency-roof-repair';
-import { cedarGroveRoofInspection } from './roof-inspection';
-import { cedarGroveRoofMaintenancePrograms } from './roof-maintenance-programs';
-import { cedarGroveRoofLeakRepair } from './roof-leak-repair';
-import { cedarGroveStormDamageRoofRepair } from './storm-damage-roof-repair';
-import { cedarGroveHailDamageRoofRepair } from './hail-damage-roof-repair';
-import { cedarGroveWindDamageRoofRepair } from './wind-damage-roof-repair';
-import { cedarGroveRoofCleaningMossRemoval } from './roof-cleaning-moss-removal';
+// ─── Repair-Maintenance (0 of 10 -- remaining files pending) ────────────────
 
-// ─── Residential Roof Types (9) ─────────────────────────────────────────────
-import { cedarGroveResidentialRoofInstallation } from './residential-roof-installation';
-import { cedarGroveAsphaltShingleRoofing } from './asphalt-shingle-roofing';
-import { cedarGroveSlateRoofInstallationRepair } from './slate-roof-installation-repair';
+// ─── Residential Roof Types (6 of 9 -- 3 pending) ──────────────────────────
 import { cedarGroveWoodShakeRoofing } from './wood-shake-roofing';
 import { cedarGroveMetalRoofInstallationRepair } from './metal-roof-installation-repair';
 import { cedarGroveFlatRoofInstallationRepair } from './flat-roof-installation-repair';
@@ -83,26 +70,12 @@ import { cedarGroveFlatRoofReplacement } from './flat-roof-replacement';
 import { cedarGroveCedarShakeRoofReplacement } from './cedar-shake-roof-replacement';
 
 // ─── Validated aggregator ───────────────────────────────────────────────────
-// Zod validates all 65 Cedar Grove combo content objects at module load.
+// Zod validates all existing Cedar Grove combo content objects at module load.
 // Build crashes immediately on invalid data.
+// NOTE: 13 files pending from cedar-grove plan -- will be re-added when created.
 
 export const cedarGroveComboContent = z.array(ComboContentSchema).parse([
-  // Repair-Maintenance (10)
-  cedarGroveRoofRepair,
-  cedarGroveRoofReplacement,
-  cedarGroveEmergencyRoofRepair,
-  cedarGroveRoofInspection,
-  cedarGroveRoofMaintenancePrograms,
-  cedarGroveRoofLeakRepair,
-  cedarGroveStormDamageRoofRepair,
-  cedarGroveHailDamageRoofRepair,
-  cedarGroveWindDamageRoofRepair,
-  cedarGroveRoofCleaningMossRemoval,
-
-  // Residential Roof Types (9)
-  cedarGroveResidentialRoofInstallation,
-  cedarGroveAsphaltShingleRoofing,
-  cedarGroveSlateRoofInstallationRepair,
+  // Residential Roof Types (6 of 9)
   cedarGroveWoodShakeRoofing,
   cedarGroveMetalRoofInstallationRepair,
   cedarGroveFlatRoofInstallationRepair,
