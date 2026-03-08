@@ -75,8 +75,8 @@
 - [ ] **COMP-03**: 5 service vs service comparisons
 - [ ] **COMP-04**: 6+ decision-helper pages (best roofing for NJ weather, etc.)
 - [x] **COMP-05**: Lead form above the fold
-- [ ] **COMP-06**: Comparison table/matrix with clear winner recommendations
-- [ ] **COMP-07**: FAQ section with comparison-specific questions
+- [x] **COMP-06**: Comparison table/matrix with clear winner recommendations
+- [x] **COMP-07**: FAQ section with comparison-specific questions
 
 ### Page Templates — Supporting Articles (252)
 
@@ -258,8 +258,8 @@
 | COMP-03 | Phase 7 | Pending |
 | COMP-04 | Phase 7 | Pending |
 | COMP-05 | Phase 7 | Complete |
-| COMP-06 | Phase 7 | Pending |
-| COMP-07 | Phase 7 | Pending |
+| COMP-06 | Phase 7 | Complete |
+| COMP-07 | Phase 7 | Complete |
 | ARTL-01 | Phase 7 | Complete |
 | ARTL-02 | Phase 7 | Complete |
 | ARTL-03 | Phase 7 | Complete |
