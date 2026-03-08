@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const irvingtonTpoRoofingInstallation: ComboContent = {
+  serviceId: 'tpo-roofing-installation',
+  cityId: 'irvington',
+  overview: [
+    'TPO roofing has reshaped how Irvington\'s commercial property owners approach flat-roof replacement, particularly along the Springfield Avenue corridor where aging modified bitumen and built-up roofs have reached end-of-life on dozens of retail, medical, and institutional buildings simultaneously. Our [TPO roofing](/tpo-roofing-installation) installations deliver the reflective, energy-efficient membrane that Irvington\'s commercial operators need to control utility costs while eliminating the chronic leak cycles that plague the corridor\'s aging flat-roof inventory.',
+    'The Route 78 industrial corridor along Irvington\'s southern boundary presents a distinct TPO application profile. Warehouses, distribution centers, and light manufacturing facilities need membrane roofing that withstands HVAC equipment loads, resists chemical exposure from industrial processes below, and tolerates the thermal cycling amplified by large unshaded roof surfaces. Our TPO specifications for Route 78 properties use 80-mil membrane -- heavier than the 60-mil standard on smaller commercial buildings -- with reinforced seams at equipment curbs and walkway pads protecting high-traffic maintenance paths.',
+    'Irvington\'s apartment complexes and larger multi-family buildings increasingly specify TPO when commercial-code roof replacement is required. Buildings with five or more units fall under commercial building code for fire resistance and wind uplift, and TPO meets these requirements while delivering energy savings through its reflective white surface. Property managers in neighboring [East Orange](/tpo-roofing-installation-east-orange-nj) face identical commercial-code requirements on their apartment buildings, though Irvington\'s larger Route 78 industrial properties add commercial project scale that East Orange\'s predominantly residential building stock does not typically present.',
+  ],
+  challenges: [
+    'TPO installation on Irvington\'s aging commercial structures demands substrate preparation that goes well beyond what new construction requires. Springfield Avenue buildings with 40 to 50 years of accumulated roofing layers often conceal corroded steel decking or saturated concrete that must be addressed before any membrane can be applied. Our Irvington commercial TPO projects include thorough core sampling at multiple locations across the roof to identify hidden substrate damage -- discovering corroded steel after the membrane is installed is far more expensive than identifying it during the assessment phase.',
+    'Wind uplift resistance is a critical TPO installation variable on Irvington\'s large-footprint commercial buildings. Route 78 corridor warehouses with 20,000 to 50,000 square foot roof areas generate significant wind loads at corners and perimeters -- the areas where improperly attached TPO peels back during nor\'easters. Our wind uplift engineering calculates attachment density based on building height, exposure category, and roof zone, with higher fastener counts in corner and perimeter zones where uplift forces concentrate.',
+    'Irvington commercial building owners sometimes push for TPO overlay to avoid the cost and disruption of full tear-off. While overlay over a single existing membrane layer is sometimes acceptable, the multi-layered roofing systems common on Springfield Avenue commercial buildings trap moisture between layers that accelerates substrate deterioration. We specify full tear-off on any Irvington commercial roof with more than one existing layer, protecting the TPO investment from substrate failure underneath.',
+  ],
+  process: [
+    'TPO installation on Irvington commercial properties begins with comprehensive substrate evaluation. We perform a minimum of one core sample per 5,000 square feet of roof area to assess deck condition, existing insulation moisture content, and accumulated layer thickness. The results determine whether overlay is viable or full tear-off is required -- and on Springfield Avenue buildings with multiple previous roofing systems, full tear-off is the standard recommendation. Corroded steel deck areas are welded and reinforced before any new materials are installed.',
+    'Over the prepared deck, we install polyiso insulation in two staggered layers with offset joints to eliminate thermal bridging, achieving R-values that meet current energy code requirements. A high-density coverboard protects the insulation from foot traffic and provides the smooth substrate that TPO requires for proper adhesion. The 60-mil or 80-mil TPO membrane is then mechanically attached at perimeters and field areas using fastener patterns calculated to the building\'s specific wind uplift requirements, with hot-air welded seams producing bonds that exceed the membrane tensile strength.',
+    'After membrane installation, all penetrations receive prefabricated TPO accessories -- pipe boots, equipment curbs, and drain inserts -- that are welded directly to the field membrane. Edge details at parapet walls use TPO-coated metal termination bars and compatible sealant. We perform a final inspection with electronic leak detection equipment that applies low-voltage current across the membrane surface to identify any pinholes or defective welds before the roof is put into service. This testing protocol is particularly valuable on Irvington commercial properties where post-installation leak diagnosis would require disrupting business operations.',
+  ],
+  faqs: [
+    {
+      question: 'How much does TPO roofing cost for Irvington commercial buildings?',
+      answer: 'TPO installation costs on Irvington commercial properties typically range from $7 to $12 per square foot depending on project size, substrate condition, and insulation requirements. Springfield Avenue storefronts with smaller roof areas fall toward the higher end of this range due to proportionally higher setup costs, while Route 78 corridor warehouses with larger footprints benefit from material and labor efficiencies that lower the per-square-foot cost.',
+    },
+    {
+      question: 'Is TPO better than EPDM for Irvington commercial roofs?',
+      answer: 'TPO offers energy savings through its reflective surface and stronger heat-welded seams compared to EPDM\'s adhesive-applied seams. For Irvington commercial buildings where energy costs are a significant operating expense, TPO\'s reflective properties typically offset its slightly higher material cost within 3 to 5 years. For smaller commercial applications where energy savings are less impactful, EPDM remains a viable cost-effective alternative.',
+    },
+    {
+      question: 'How long does a TPO roof last on Irvington commercial buildings?',
+      answer: 'A properly installed 60-mil TPO membrane with correct substrate preparation and appropriate attachment engineering performs for 25 to 30 years. The longevity depends heavily on installation quality -- particularly seam welding temperature and attachment density -- rather than the membrane material itself. Our electronic leak detection testing at completion ensures the installation meets performance standards from day one.',
+    },
+    {
+      question: 'Can TPO be installed over the existing roof on my Irvington building?',
+      answer: 'Overlay is viable only when the existing roof consists of a single membrane layer over dry, structurally sound insulation and decking. On Springfield Avenue buildings with multiple accumulated layers, overlay traps moisture and accelerates substrate deterioration. We always core-sample the existing system to make an informed recommendation -- protecting the TPO investment requires honest assessment of what lies beneath.',
+    },
+  ],
+  metaDescription: 'TPO roofing installation in Irvington NJ for commercial buildings along Springfield Ave and Route 78. Energy-efficient membrane with heat-welded seams.',
+};

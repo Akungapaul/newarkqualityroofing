@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const irvingtonPvcRoofing: ComboContent = {
+  serviceId: 'pvc-roofing',
+  cityId: 'irvington',
+  overview: [
+    'PVC roofing serves a specialized niche in Irvington\'s commercial building landscape, targeting properties where chemical resistance and fire performance justify the membrane\'s premium cost over TPO and EPDM alternatives. Our [PVC roofing](/pvc-roofing) installations in Irvington focus on restaurants, commercial kitchens, medical facilities, and Route 78 industrial buildings where grease exhaust, chemical fumes, or processing byproducts degrade other membrane materials from the underside up.',
+    'Springfield Avenue\'s growing restaurant and food service segment has created a steady PVC installation market in Irvington. Kitchen exhaust systems discharge grease-laden air across flat roof surfaces where it condenses and accumulates on the membrane. EPDM and TPO membranes absorb animal fats and vegetable oils that chemically soften the polymer matrix, leading to accelerated deterioration around exhaust fans. PVC\'s inherent resistance to oils, greases, and biological chemicals makes it the only membrane recommendation for any Irvington building with commercial cooking operations venting through the roof.',
+    'The Route 78 industrial zone adds chemical resistance applications beyond food service. Auto body shops, printing operations, and light manufacturing facilities emit solvent vapors and chemical fumes that can accelerate membrane degradation on buildings directly downwind. PVC\'s resistance to a broad spectrum of industrial chemicals protects these roofs from atmospheric exposure that would shorten the service life of petroleum-based membranes. Building operators managing similar chemical-exposure properties in [Newark](/pvc-roofing-newark-nj) specify PVC for identical reasons, though Irvington\'s concentrated Route 78 industrial corridor presents these exposure conditions in a tighter geographic zone.',
+  ],
+  challenges: [
+    'PVC\'s material cost premium -- typically 25 to 35 percent higher than TPO -- creates budget resistance among Irvington commercial property owners who may not fully understand the chemical exposure conditions that justify the investment. Restaurant owners replacing a failing roof on a Springfield Avenue building may question why their quote is higher than neighboring retail buildings that received TPO. Educating building owners about chemical compatibility and long-term membrane preservation is an essential part of our Irvington PVC specification process.',
+    'Plasticizer migration in PVC membrane is a long-term concern that affects service life prediction. Older PVC formulations lost flexibility as plasticizers migrated out of the membrane over 15 to 20 years, becoming brittle and crack-prone. Modern PVC membranes use stabilized plasticizer packages that significantly reduce migration rates, but the Irvington commercial buildings where PVC makes sense are also the buildings with the most demanding exposure conditions. We specify current-generation PVC from manufacturers with documented plasticizer stability testing and pair the membrane with UV-protective surfacing that slows the migration process.',
+    'Weld quality on PVC seams is more temperature-sensitive than TPO welding, requiring tighter process control during installation. Air temperatures below 40 degrees or above 100 degrees can produce weak welds that separate under thermal cycling stress. In Irvington\'s climate, this restricts optimal PVC installation to spring and fall shoulder seasons. We can install during summer and winter months with adjusted welding parameters, but the ideal installation window is April through June and September through November.',
+  ],
+  process: [
+    'PVC roofing installation in Irvington follows the same rigorous substrate preparation protocol as our TPO and EPDM work: full tear-off of existing materials, core sampling for substrate condition, repair of deteriorated deck sections, and installation of compatible insulation with proper drainage slope. PVC membrane requires specific insulation coverboards -- mineral fiber or polyiso with fleece facing -- because direct contact with certain polystyrene insulations causes chemical incompatibility. Our insulation specification accounts for this compatibility requirement on every Irvington PVC project.',
+    'The PVC membrane is mechanically attached at perimeters and field areas, with all seams hot-air welded using automated welding machines that maintain consistent temperature and travel speed across every joint. Automated welding produces a seam that is stronger than the field membrane -- a verifiable claim that we demonstrate to building owners by cutting test strips from membrane scraps and pulling them apart at the seam versus the field. Prefabricated PVC accessories -- pipe boots, inside and outside corners, and equipment curb covers -- are welded to the field membrane with the same hot-air process, creating a fully homogeneous waterproofing envelope.',
+    'Post-installation quality assurance includes electronic field verification testing that identifies any pinhole or defective weld in the completed membrane before the roof is placed in service. On Irvington restaurant and food-service buildings, we also verify that exhaust fan boots are properly integrated with the PVC membrane and that the welded connections will withstand the thermal cycling generated by kitchen exhaust equipment. Documentation includes seam-pull test results, EFV test reports, and manufacturer warranty registration.',
+  ],
+  faqs: [
+    {
+      question: 'Why is PVC recommended over TPO for Irvington restaurants?',
+      answer: 'Commercial cooking operations vent grease-laden exhaust across the roof surface. Animal fats and vegetable oils chemically attack TPO and EPDM membranes, softening the polymer and accelerating deterioration around exhaust fans. PVC is chemically resistant to these oils and greases, maintaining its structural integrity in the grease exposure zone where other membranes fail within 5 to 8 years.',
+    },
+    {
+      question: 'How long does PVC roofing last on Irvington commercial buildings?',
+      answer: 'Modern PVC formulations with stabilized plasticizer packages deliver 25 to 30-year service life on Irvington commercial buildings. Earlier PVC generations experienced plasticizer loss and brittleness after 15 to 20 years, but current membrane chemistry has largely resolved this limitation. Proper UV protection from the membrane\'s integral reflective surface and correct insulation compatibility further support full life expectancy.',
+    },
+    {
+      question: 'Is PVC roofing fire-resistant for Irvington commercial buildings?',
+      answer: 'PVC is inherently fire-resistant -- it does not support combustion and self-extinguishes when the flame source is removed. This makes PVC the preferred membrane for buildings with fire-rated roof assemblies or those requiring UL Class A fire ratings. For Irvington restaurant buildings where grease accumulation on the roof surface creates fire risk, PVC\'s fire resistance adds a safety layer that petroleum-based membranes cannot provide.',
+    },
+    {
+      question: 'Can PVC be installed over an existing roof on my Irvington building?',
+      answer: 'PVC overlay is possible over a single existing compatible membrane on a dry, sound substrate. However, PVC is chemically incompatible with certain insulation materials and existing roofing compounds -- direct contact can cause plasticizer extraction that embrittles the PVC. We always verify chemical compatibility between the PVC membrane and all existing materials it will contact, and full tear-off is recommended when compatibility cannot be confirmed.',
+    },
+  ],
+  metaDescription: 'PVC roofing in Irvington NJ for restaurants, industrial buildings, and chemical-exposure commercial properties. Grease-resistant membrane with welded seams.',
+};
