@@ -4,7 +4,7 @@ export const roselandSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Slate roofing in Roseland occupies a narrow but significant niche within the borough\'s residential landscape. While the majority of homes built during the 1950s and 1960s received asphalt shingle roofs, a number of older colonials and Tudor-influenced homes along Harrison Avenue and the streets near Eagle Rock Reservation carry original or early-replacement slate that has endured for generations. Our [slate roof installation and repair](/slate-roof-installation-repair) services bring the specialized skills these roofs demand -- sourcing replacement slate that matches existing color and thickness, fabricating custom copper flashings, and working within the weight tolerances of framing systems designed for natural stone.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Roseland — with prices starting from $20,000–$45,000 and free estimates available today. Slate roofing in Roseland occupies a narrow but significant niche within the borough\'s residential landscape. While the majority of homes built during the 1950s and 1960s received asphalt shingle roofs, a number of older colonials and Tudor-influenced homes along Harrison Avenue and the streets near Eagle Rock Reservation carry original or early-replacement slate that has endured for generations. Our [slate roof installation and repair](/slate-roof-installation-repair) services bring the specialized skills these roofs demand -- sourcing replacement slate that matches existing color and thickness, fabricating custom copper flashings, and working within the weight tolerances of framing systems designed for natural stone.',
     'New slate installations in Roseland typically occur during custom home construction or major renovation projects where homeowners select slate for its century-plus lifespan and architectural distinction. The borough\'s residential character -- orderly streets with well-maintained properties -- accommodates slate\'s refined appearance without the historic preservation constraints found in communities like [Glen Ridge](/slate-roof-installation-repair-glen-ridge-nj). This flexibility allows material selection based purely on performance and aesthetics rather than regulatory compliance, giving Roseland homeowners broader latitude in slate variety, color range, and installation pattern.',
     'Repair work on existing Roseland slate roofs requires sourcing replacement tiles that integrate seamlessly with decades-old installations. Slate weathers distinctively -- each quarry\'s stone develops its own patina over time -- and mismatched replacements stand out visually on an otherwise uniform roof plane. We maintain supplier relationships with quarries across Vermont, Pennsylvania, and Virginia to source the closest color and texture matches for repairs, and when exact matches are unavailable, we strategically place salvage slate from our inventory to ensure visual continuity across the repaired section.'
   ],
@@ -34,7 +34,25 @@ export const roselandSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'What does a new slate roof cost compared to asphalt shingles in Roseland?',
       answer: 'Natural slate installation typically costs three to five times more than premium architectural asphalt shingles on a Roseland home. However, slate lasts three to five times longer, requires less maintenance over its lifespan, and adds measurable resale value. When evaluated on a cost-per-year basis, slate approaches parity with high-end asphalt shingles while providing superior weather protection and fire resistance throughout its extended service life.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Roseland, NJ?',
+      answer: 'Most slate roof installation repair projects in Roseland range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Roseland NJ -- natural stone roofing for colonials and custom homes with copper flashing fabrication.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

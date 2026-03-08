@@ -4,7 +4,7 @@ export const orangeHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'orange',
   overview: [
-    'Hail events in Orange carry a geographic signature that makes damage assessment here different from surrounding communities. South Mountain Reservation\'s elevation change creates localized weather patterns -- convective cells developing over the mountain\'s western slopes can produce hail that drops intensely onto Orange\'s hillside neighborhoods while leaving the Valley floor and eastern sections relatively untouched. This hyper-local distribution means that after a hailstorm, one block of Scotland Road may sustain significant shingle damage while properties a half-mile east on Central Avenue show no impact at all. Our [hail damage roof repair](/hail-damage-roof-repair) assessments in Orange account for this micro-climate variability by inspecting individual properties rather than making neighborhood-wide assumptions.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Orange — with prices starting from $500–$2,500 and free estimates available today. Hail events in Orange carry a geographic signature that makes damage assessment here different from surrounding communities. South Mountain Reservation\'s elevation change creates localized weather patterns -- convective cells developing over the mountain\'s western slopes can produce hail that drops intensely onto Orange\'s hillside neighborhoods while leaving the Valley floor and eastern sections relatively untouched. This hyper-local distribution means that after a hailstorm, one block of Scotland Road may sustain significant shingle damage while properties a half-mile east on Central Avenue show no impact at all. Our [hail damage roof repair](/hail-damage-roof-repair) assessments in Orange account for this micro-climate variability by inspecting individual properties rather than making neighborhood-wide assumptions.',
     'Hail damage on asphalt shingles manifests as circular depressions where hailstones fracture the granule surface and compress the underlying asphalt substrate. On Orange\'s aging roofs -- many with shingles installed 15 to 25 years ago -- the impact damage is often more severe than on newer roofs because the asphalt has already become brittle from years of thermal cycling and UV exposure. A hailstone that merely dents a five-year-old architectural shingle can crack entirely through the mat of a 20-year-old shingle, creating an immediate leak path that worsens with every subsequent rain.',
     'South Mountain-adjacent Orange homes face a compounding factor during hail events: falling branches and wind-driven debris arrive simultaneously with the hail itself, making it difficult to distinguish between hail impact marks and branch scrapes during post-storm assessment. Our inspectors are trained to differentiate these damage types by their characteristic patterns -- hail creates uniform circular depressions with radial granule displacement, while branch scrapes produce elongated directional marks. This distinction matters critically for insurance documentation, because hail damage is typically a covered peril while general wear is not. Homeowners in [Bloomfield](/hail-damage-roof-repair-bloomfield-nj) encounter similar distinction challenges after mixed-mode storm events.'
   ],
@@ -34,7 +34,25 @@ export const orangeHailDamageRoofRepair: ComboContent = {
     {
       question: 'Should I consider impact-resistant shingles after hail damage repair on my Orange home?',
       answer: 'If your home is near South Mountain where localized hail events are more common, impact-resistant Class 4 shingles are an excellent investment. They resist hail impact significantly better than standard architectural shingles, and many insurance carriers offer premium discounts for impact-rated roofing. The modest additional cost is typically recovered through reduced repair frequency and lower insurance premiums over the life of the roof.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in Orange, NJ?',
+      answer: 'Most hail damage roof repair projects in Orange range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Orange NJ -- micro-climate assessment near South Mountain, insurance documentation, and impact-resistant upgrade options.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

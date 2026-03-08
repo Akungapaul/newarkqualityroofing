@@ -4,7 +4,7 @@ export const essexFellsFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Flat roof replacement on Essex Fells estate properties restores the membrane systems protecting pool pavilions, garage wings, covered walkways, and the connecting structures that link multi-building residential compounds. These auxiliary flat roofs typically reach replacement age within twenty to thirty years -- significantly sooner than the century-scale primary roofing on the main residence -- creating a predictable replacement cycle that estate owners can plan for as part of their overall property maintenance strategy.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Essex Fells — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement on Essex Fells estate properties restores the membrane systems protecting pool pavilions, garage wings, covered walkways, and the connecting structures that link multi-building residential compounds. These auxiliary flat roofs typically reach replacement age within twenty to thirty years -- significantly sooner than the century-scale primary roofing on the main residence -- creating a predictable replacement cycle that estate owners can plan for as part of their overall property maintenance strategy.',
     'The replacement decision for Essex Fells flat roofs evaluates whether the existing membrane has reached the end of its serviceable life or whether coating restoration can extend its function at lower cost. Core sampling determines insulation moisture content and membrane adhesion strength -- the two factors that determine whether the existing system is a candidate for coating renewal or requires complete tear-off and replacement. Our assessment provides the evidence-based recommendation that prevents both premature replacement of restorable systems and continued investment in systems that have exceeded their capacity for effective restoration.',
     'Our flat roof replacement practice applies commercial-specification membrane systems to the residential estate context that governs all construction in [Essex Fells](/roofing-in-essex-fells-nj). We specify the same membrane products, insulation assemblies, and drainage systems used on the best commercial buildings, adapted with the color selection, edge detail design, and installation aesthetics that residential proximity to the main estate demands. Every flat roof replacement produces a commercially warranted system installed with estate-quality execution.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsFlatRoofReplacement: ComboContent = {
     {
       question: 'What maintenance extends the life of a replacement flat roof?',
       answer: 'Quarterly debris clearing and drain inspection is the most important maintenance activity for Essex Fells flat roofs under tree canopy. Semi-annual professional inspection of membrane seams, flashings, and penetration sealants identifies early deterioration before it progresses to water entry. Annual verification of drainage function under controlled water application confirms that drains and overflow provisions continue to perform. Properties maintaining this service schedule consistently achieve the full warranted membrane lifespan without significant repair interventions.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most flat roof replacement projects in Essex Fells range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Essex Fells NJ -- commercial-grade membrane systems for estate pool pavilions and auxiliary structures.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

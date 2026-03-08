@@ -4,7 +4,7 @@ export const livingstonReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'livingston',
   overview: [
-    'Re-roofing encompasses the full scope of roof system renewal on Livingston homes -- from the decision to replace through material selection, structural preparation, installation, and warranty activation. The term covers both tear-off and overlay approaches, and the choice between them depends on the existing roof condition, the homeowner\'s priorities, and the HOA requirements that govern many Livingston properties. Our re-roofing consultations guide homeowners through each decision point with data and experience specific to Livingston\'s housing stock.',
+    'Newark Quality Roofing delivers expert re roofing in Livingston — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing encompasses the full scope of roof system renewal on Livingston homes -- from the decision to replace through material selection, structural preparation, installation, and warranty activation. The term covers both tear-off and overlay approaches, and the choice between them depends on the existing roof condition, the homeowner\'s priorities, and the HOA requirements that govern many Livingston properties. Our re-roofing consultations guide homeowners through each decision point with data and experience specific to Livingston\'s housing stock.',
     'The re-roofing cycle on Livingston homes follows a predictable timeline driven by the township\'s construction history. Homes built in the 1960s and 1970s that received their first re-roof in the 1990s or early 2000s are now approaching the end of their second roof cycle. This wave of re-roofing projects creates both demand and opportunity -- demand for qualified contractors who understand mid-century split-level construction, and opportunity for homeowners to upgrade from the basic roofing systems of previous cycles to modern materials with better performance, appearance, and warranty coverage.',
     'Our [re-roofing](/re-roofing) practice treats each Livingston project as a whole-system upgrade rather than a surface material swap. Every re-roof includes assessment and improvement of the ventilation system, insulation adequacy, flashing integrity, and deck condition beneath the new roofing material. This comprehensive approach addresses the root causes of previous roof system failures -- not just the visible shingle deterioration -- to ensure the new system delivers its full expected service life. Neighboring [Caldwell](/re-roofing-caldwell-nj) homeowners apply the same whole-system philosophy to their re-roofing projects.',
     'Material selection during Livingston re-roofing has expanded significantly since most homes received their last roof. Dimensional architectural shingles, designer profiles replicating natural materials, standing seam metal, and solar-integrated shingle systems provide options that previous re-roofing cycles did not offer. We present the full range of appropriate materials during the consultation, with recommendations calibrated to each home\'s architectural style, exposure conditions, and budget parameters.'
@@ -35,7 +35,25 @@ export const livingstonReRoofing: ComboContent = {
     {
       question: 'Should I bundle gutter and skylight replacement with my Livingston re-roof?',
       answer: 'Bundling companion projects with re-roofing saves significant cost because the crew mobilization, scaffolding, and roof access are already in place. Gutter replacement during re-roofing costs less than a standalone project because the gutters are removed for the roof work anyway. Skylight replacement integrates with the new shingle field more cleanly than retrofit installation. We recommend evaluating all roof-related exterior needs during the re-roofing consultation.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Livingston, NJ?',
+      answer: 'Most re roofing projects in Livingston range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Livingston NJ -- whole-system roof renewal for split-levels with ventilation upgrades, material selection, and HOA coordination.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

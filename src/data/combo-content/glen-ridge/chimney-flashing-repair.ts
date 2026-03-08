@@ -4,7 +4,7 @@ export const glenRidgeChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'glen-ridge',
   overview: [
-    'Chimney flashing repair is one of Glen Ridge\'s most frequently needed roofing services. The borough\'s Victorian and Edwardian homes commonly feature one, two, or even three masonry chimneys -- decorative as well as functional -- and each chimney creates a complex intersection with the roof surface where flashing failure leads directly to interior water damage. After a century of thermal cycling, freeze-thaw stress, and gradual mortar deterioration, original chimney flashings on Glen Ridge homes frequently show the fatigue patterns that demand professional repair or complete replacement.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Glen Ridge — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is one of Glen Ridge\'s most frequently needed roofing services. The borough\'s Victorian and Edwardian homes commonly feature one, two, or even three masonry chimneys -- decorative as well as functional -- and each chimney creates a complex intersection with the roof surface where flashing failure leads directly to interior water damage. After a century of thermal cycling, freeze-thaw stress, and gradual mortar deterioration, original chimney flashings on Glen Ridge homes frequently show the fatigue patterns that demand professional repair or complete replacement.',
     'The chimney-to-roof junction is inherently the most leak-prone detail on any steep-pitched roof, and Glen Ridge\'s elaborate chimney designs compound this vulnerability. Corbelled chimney caps, decorative brick courses, and ornamental chimney pots create irregular profiles that demand custom-fitted flashing rather than standardized components. Each chimney on Ridgewood Avenue or Baldwin Street is essentially unique, requiring flashing fabricated to its specific dimensions and profile. Our shop produces these custom copper flashings from measurements taken on-site, ensuring precise fit that factory-produced components cannot achieve.',
     'Glen Ridge chimneys often serve as visual focal points on the home\'s exterior, making flashing repair a preservation concern as well as a waterproofing necessity. Crude flashing repairs using tar, caulk, or ill-fitted aluminum detract from the architectural character that the Historic Preservation Commission protects and that property values depend upon. Our copper flashing repairs blend with the chimney\'s masonry and the surrounding [slate](/slate-roof-installation-repair-glen-ridge-nj) or cedar roofing, maintaining the visual standard that Glen Ridge homeowners and their neighbors expect.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeChimneyFlashingRepair: ComboContent = {
       question: 'What does chimney flashing repair cost on a Glen Ridge home?',
       answer: 'Chimney flashing repair ranges from $1,200 to $3,500 depending on chimney size, complexity, and the condition of surrounding masonry. Projects requiring cricket installation, masonry restoration, or work on multiple chimneys fall toward the higher end. We provide detailed estimates that itemize each component so homeowners understand exactly what is included.',
     },
+    {
+      question: 'How much does chimney flashing repair cost in Glen Ridge, NJ?',
+      answer: 'Most chimney flashing repair projects in Glen Ridge range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Glen Ridge NJ. Custom copper step and counter-flashing for Victorian chimneys in the historic district.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'south-orange',
   overview: [
-    'Commercial roof repair in South Orange Village provides rapid-response leak resolution and targeted maintenance for the mixed-use buildings, institutional facilities, and commercial properties that serve this walkable village center community. When a restaurant along South Orange Avenue develops a membrane leak above the dining area, when a Seton Hall University dormitory reports water entry during a storm, or when a professional office discovers ceiling stains after heavy rain, the repair response must be swift, accurate, and minimally disruptive to the business or institutional operations below.',
+    'Newark Quality Roofing delivers expert commercial roof repair in South Orange — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in South Orange Village provides rapid-response leak resolution and targeted maintenance for the mixed-use buildings, institutional facilities, and commercial properties that serve this walkable village center community. When a restaurant along South Orange Avenue develops a membrane leak above the dining area, when a Seton Hall University dormitory reports water entry during a storm, or when a professional office discovers ceiling stains after heavy rain, the repair response must be swift, accurate, and minimally disruptive to the business or institutional operations below.',
     'South Orange\'s commercial building stock spans several decades of construction and roofing technology, creating a diverse repair landscape. Mid-century buildings carry modified bitumen and built-up roofing that develop different failure modes than the TPO and EPDM membranes on more recent installations. Our commercial repair crews are equipped for every membrane type, carrying the welding equipment, adhesives, and patch materials needed to address whatever system the leaking building carries without the delay of material procurement that specialized repair calls sometimes create.',
     'Preventive repair -- addressing minor conditions before they develop into active leaks -- provides significantly better value than emergency repair for South Orange commercial property managers. Annual inspection programs that identify seam deterioration, flashing displacement, drain blockage, and membrane wear allow scheduled repair at convenient times rather than emergency response during storms. Our [commercial roof repair](/commercial-roof-repair) maintenance contracts for South Orange properties include documented inspection, prioritized repair recommendations, and preferred scheduling for identified repair work.',
     'Our commercial repair response in [South Orange](/roofing-in-south-orange-nj) maintains the urgency that business operations demand while providing the diagnostic accuracy that prevents repeated callbacks. Stopping the active leak is the immediate priority, followed by thorough investigation of the failure mechanism, permanent repair execution, and documentation that supports the building owner\'s maintenance records and warranty claims.'
@@ -35,7 +35,25 @@ export const southOrangeCommercialRoofRepair: ComboContent = {
     {
       question: 'Do you offer maintenance contracts for South Orange commercial buildings?',
       answer: 'Yes. Our commercial maintenance contracts include semi-annual inspections with documented condition reports, priority scheduling for identified repairs, emergency response priority, and drain cleaning. The maintenance program reduces emergency callouts by identifying and addressing issues before they escalate. Commercial buildings along South Orange Avenue and Seton Hall campus facilities benefit from the proactive approach that scheduled maintenance provides.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in South Orange, NJ?',
+      answer: 'Most commercial roof repair projects in South Orange range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in South Orange NJ -- fast leak response and preventive maintenance for village businesses and campus buildings.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

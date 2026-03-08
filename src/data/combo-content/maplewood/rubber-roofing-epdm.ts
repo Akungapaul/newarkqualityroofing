@@ -4,7 +4,7 @@ export const maplewoodRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'maplewood',
   overview: [
-    'EPDM rubber roofing finds a practical foothold in Maplewood on the flat and low-slope roof sections that appear throughout the township\'s diverse housing stock. Multi-family properties along the Springfield Avenue corridor, porch roofs on Victorian and Colonial Revival homes in the Village area, and garage roofs across the Hilton neighborhood all present low-pitch surfaces where conventional shingles cannot perform reliably. Our [rubber roofing](/rubber-roofing-epdm) installations in [Maplewood](/roofing-in-maplewood-nj) use 60-mil EPDM membrane in fully adhered configurations that create seamless, watertight protection on these critical secondary roof planes.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Maplewood — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing finds a practical foothold in Maplewood on the flat and low-slope roof sections that appear throughout the township\'s diverse housing stock. Multi-family properties along the Springfield Avenue corridor, porch roofs on Victorian and Colonial Revival homes in the Village area, and garage roofs across the Hilton neighborhood all present low-pitch surfaces where conventional shingles cannot perform reliably. Our [rubber roofing](/rubber-roofing-epdm) installations in [Maplewood](/roofing-in-maplewood-nj) use 60-mil EPDM membrane in fully adhered configurations that create seamless, watertight protection on these critical secondary roof planes.',
     'Maplewood\'s design-conscious homeowners often inherit EPDM installations from previous owners who chose rubber for its practical merits on flat porch extensions and sunroom additions built during the mid-twentieth century renovation waves. These aging rubber roofs, many now 20-25 years old, have served reliably but show the telltale signs of UV degradation: surface chalking, seam separation at adhesive joints, and shrinkage pulling the membrane away from parapet walls and penetration flashings. Our replacement protocol addresses these aging systems with modern fully-adhered EPDM over rigid insulation, delivering both waterproofing renewal and thermal performance improvement.',
     'The multi-family properties concentrated along Rutgers Street, Valley Street, and the eastern Springfield Avenue corridor represent Maplewood\'s highest-volume EPDM market. Landlords and property managers maintaining two-family and three-family buildings need cost-effective, long-lasting flat-roof solutions that minimize tenant disruption during installation. EPDM delivers on both counts, with single-day installations on most residential flat sections and a 25-30 year service life that aligns with long-term property investment horizons. Property owners in neighboring [Irvington](/rubber-roofing-epdm-irvington-nj) face similar multi-family flat-roof demands.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodRubberRoofingEpdm: ComboContent = {
       question: 'How do you handle debris buildup on flat EPDM roofs near South Mountain?',
       answer: 'We include a maintenance schedule with every Reservation-border EPDM installation. Semi-annual clearing in late November and mid-April removes accumulated leaves and branches before they create moisture traps. During clearing visits, we inspect seams, check drainage paths, and treat any biological growth with approved cleaning agents that will not damage the EPDM membrane compound.',
     },
+    {
+      question: 'How much does rubber roofing epdm cost in Maplewood, NJ?',
+      answer: 'Most rubber roofing epdm projects in Maplewood range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Maplewood NJ. Durable flat-roof membrane for porches, additions, and multi-family buildings with 25-30 year lifespan.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

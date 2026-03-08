@@ -4,7 +4,7 @@ export const cedarGroveFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Fascia installation and repair in Cedar Grove protects the vulnerable rafter tails and roof edge construction on the township\'s ranch and colonial homes from water damage, pest intrusion, and aesthetic deterioration. The fascia board -- the flat panel running along the roof edge behind the gutter -- serves as both the mounting surface for gutter systems and the visual finish of the roofline. In Cedar Grove\'s wooded environment, fascia boards absorb more moisture than in open-lot communities, accelerating rot on wood fascia and creating conditions where gutter systems lose their mounting integrity.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Cedar Grove — with prices starting from $1,200–$3,500 and free estimates available today. Fascia installation and repair in Cedar Grove protects the vulnerable rafter tails and roof edge construction on the township\'s ranch and colonial homes from water damage, pest intrusion, and aesthetic deterioration. The fascia board -- the flat panel running along the roof edge behind the gutter -- serves as both the mounting surface for gutter systems and the visual finish of the roofline. In Cedar Grove\'s wooded environment, fascia boards absorb more moisture than in open-lot communities, accelerating rot on wood fascia and creating conditions where gutter systems lose their mounting integrity.',
     'Cedar Grove\'s ranch homes feature prominent fascia exposure due to their wide eave overhangs and low rooflines that place fascia boards at eye level from the yard. Deteriorated fascia is immediately visible and significantly impacts curb appeal on these homes. Our [fascia installation](/fascia-installation-repair) work in Cedar Grove uses materials selected for the township\'s high-moisture, shaded environment -- composite boards, aluminum-wrapped wood, or cellular PVC that resist the rot conditions that have destroyed the original wood fascia on thousands of Cedar Grove homes built during the 1950s and 1960s.',
     'Fascia damage in Cedar Grove frequently cascades into related problems. Rotted fascia allows water behind the gutter, which saturates soffit panels and migrates into the attic space. Gaps in deteriorated fascia provide entry points for squirrels, raccoons, and birds seeking nesting sites in the accessible attic spaces beneath Cedar Grove\'s ranch roof structures. Repairing fascia before secondary damage develops is consistently less expensive than addressing the full cascade of problems that deferred maintenance creates.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveFasciaInstallationRepair: ComboContent = {
       question: 'How much does fascia replacement cost on a Cedar Grove ranch home?',
       answer: 'Fascia replacement on a typical Cedar Grove ranch home with one hundred fifty to two hundred linear feet of fascia runs two thousand to four thousand dollars depending on material selection. Wood is the least expensive, composite is mid-range, and cellular PVC is the premium option. These prices include gutter removal and reinstallation, paint or factory-finished color, and disposal of the deteriorated original material.',
     },
+    {
+      question: 'How much does fascia installation repair cost in Cedar Grove, NJ?',
+      answer: 'Most fascia installation repair projects in Cedar Grove range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Cedar Grove NJ -- rot-resistant composite and PVC fascia boards for ranch homes in shaded, wooded environments.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

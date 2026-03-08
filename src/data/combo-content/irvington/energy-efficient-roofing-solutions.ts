@@ -4,7 +4,7 @@ export const irvingtonEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'irvington',
   overview: [
-    'Energy efficient roofing addresses a measurable financial burden in Irvington, where the township\'s aging, under-insulated housing stock produces some of the highest per-square-foot heating and cooling costs in Essex County. Our [energy efficient roofing](/energy-efficient-roofing-solutions) solutions for Irvington homes and commercial buildings combine reflective shingle technology, upgraded attic insulation, and ventilation improvements into re-roofing projects that reduce energy consumption by 15 to 25 percent -- savings that directly offset the investment in better materials.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Irvington — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing addresses a measurable financial burden in Irvington, where the township\'s aging, under-insulated housing stock produces some of the highest per-square-foot heating and cooling costs in Essex County. Our [energy efficient roofing](/energy-efficient-roofing-solutions) solutions for Irvington homes and commercial buildings combine reflective shingle technology, upgraded attic insulation, and ventilation improvements into re-roofing projects that reduce energy consumption by 15 to 25 percent -- savings that directly offset the investment in better materials.',
     'Cool roof technology has particular relevance on Irvington\'s south-facing and flat-roofed buildings. Light-colored architectural shingles with solar reflectance ratings above 0.25 and thermal emittance above 0.75 qualify as cool roof products under ENERGY STAR criteria, and they reduce summer roof surface temperature by 50 to 60 degrees compared to standard dark shingles. On Irvington homes where inadequate attic insulation allows roof heat to radiate directly into upper-floor living spaces, cool shingles provide immediate comfort improvement that occupants notice from the first summer.',
     'Springfield Avenue commercial buildings and the Route 78 industrial corridor benefit from cool roof solutions at an even larger scale. Reflective TPO and silicone-coated membrane systems on flat commercial roofs reduce air conditioning loads while potentially qualifying for NJ Clean Energy Program incentives that offset the premium cost. Commercial property owners in neighboring [Newark](/energy-efficient-roofing-solutions-newark-nj) capture similar energy savings on their flat-roofed commercial buildings, though Irvington\'s concentrated commercial corridors allow us to demonstrate cool roof performance across multiple adjacent buildings where the aggregate benefit is visible.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonEnergyEfficientRoofingSolutions: ComboContent = {
       question: 'Is it worth adding insulation during re-roofing on my Irvington home?',
       answer: 'Adding attic insulation during re-roofing is the most cost-effective time to upgrade because the open roof provides access to the attic floor from above. Upgrading from the typical R-11 found in Irvington pre-war homes to the current code requirement of R-49 costs approximately $1,500 to $2,500 when done during re-roofing versus $2,500 to $4,000 as a standalone project.',
     },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Irvington, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Irvington range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in Irvington NJ with cool shingles, insulation upgrades, and ventilation. Cut heating and cooling costs on aging homes.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

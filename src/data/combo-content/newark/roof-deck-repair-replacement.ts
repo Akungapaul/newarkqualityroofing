@@ -4,7 +4,7 @@ export const newarkRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'newark',
   overview: [
-    'The roof deck is the structural substrate beneath every roofing material -- the plywood, OSB, or plank sheathing that bridges the rafters and supports the waterproofing system above. In Newark, roof decks carry the accumulated stress of a century or more of service on the city\'s oldest buildings, decades of moisture exposure from the urban climate, and the consequences of multiple re-roofing cycles that may have trapped water between layers. Roof deck assessment and repair is the foundation work that determines whether a new roofing system performs for its full rated life or fails prematurely because it was installed on compromised substrate.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Newark — with prices starting from $2,000–$6,000 and free estimates available today. The roof deck is the structural substrate beneath every roofing material -- the plywood, OSB, or plank sheathing that bridges the rafters and supports the waterproofing system above. In Newark, roof decks carry the accumulated stress of a century or more of service on the city\'s oldest buildings, decades of moisture exposure from the urban climate, and the consequences of multiple re-roofing cycles that may have trapped water between layers. Roof deck assessment and repair is the foundation work that determines whether a new roofing system performs for its full rated life or fails prematurely because it was installed on compromised substrate.',
     'Newark\'s pre-war building stock presents roof deck conditions that modern construction manuals don\'t address. Brownstones in Forest Hill and the North Ward feature original plank sheathing -- individual boards of varying widths, typically three-quarter-inch thick, nailed to rafters with cut nails. This sheathing has characteristics that plywood and OSB lack: gaps between boards that allow air circulation but also moisture and draft penetration, individual board movement that concentrates stress at fastener points, and grain-specific deterioration patterns where water follows the wood fiber and rots along grain lines while adjacent areas remain sound. Working with plank sheathing requires assessment and repair strategies specific to this material.',
     'Moisture is the universal enemy of roof decking in Newark, and the sources in this urban environment are both external and internal. Externally, roof leaks at flashing failures, ice dam backups, and deteriorated roofing material admit water from above. Internally, unventilated brownstone attics trap cooking, bathing, and breathing moisture against the underside of the deck, where condensation forms during the heating season and saturates the wood from below. This dual-exposure moisture assault means that Newark roof decks deteriorate from both sides simultaneously -- a condition suburban decks with ventilated attics and properly flashed roofs rarely experience to the same degree.',
     'Our roof deck work in Newark follows a conservative assessment protocol that prioritizes structural integrity over speed. Every visible deck surface during a roof replacement receives probing with a moisture meter and awl test for softness. Areas that test positive for elevated moisture or diminished structural capacity are marked for replacement. We don\'t install new roofing over questionable decking -- the cost of replacing deck material during a roof project is a fraction of the cost of tearing off a new roof two years later because the deck beneath it failed.'
@@ -40,7 +40,25 @@ export const newarkRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'What causes roof deck deterioration on Newark buildings that have never had a visible leak?',
       answer: 'The most common cause of leak-free deck deterioration in Newark is condensation from inadequate attic ventilation. Warm, moisture-laden air from the living spaces below rises into an unventilated or poorly ventilated attic, contacts the cold underside of the roof deck during heating season, and deposits moisture on the wood surface. Over years and decades, this chronic low-level moisture exposure degrades the wood fibers without ever producing the dramatic staining or dripping associated with a roof leak. This condition is pervasive in Newark\'s brownstone stock, where original construction included no soffit vents, no ridge vents, and minimal or no insulation between the heated space and the roof deck.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Newark, NJ?',
+      answer: 'Most roof deck repair replacement projects in Newark range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Newark NJ -- plank sheathing assessment, plywood overlay, and moisture-damaged decking on brownstones.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

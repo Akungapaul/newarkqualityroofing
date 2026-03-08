@@ -4,7 +4,7 @@ export const southOrangeModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'south-orange',
   overview: [
-    'Modified bitumen roofing provides South Orange Village\'s commercial and institutional buildings with a multi-layer waterproofing system that combines the proven reliability of traditional built-up roofing with the single-ply convenience of modern membrane installation. The material\'s rubberized asphalt composition delivers exceptional flexibility and self-healing properties that make it particularly well-suited for the older commercial structures along South Orange Avenue where minor structural settling creates membrane stress that rigid systems cannot tolerate.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in South Orange — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing provides South Orange Village\'s commercial and institutional buildings with a multi-layer waterproofing system that combines the proven reliability of traditional built-up roofing with the single-ply convenience of modern membrane installation. The material\'s rubberized asphalt composition delivers exceptional flexibility and self-healing properties that make it particularly well-suited for the older commercial structures along South Orange Avenue where minor structural settling creates membrane stress that rigid systems cannot tolerate.',
     'South Orange\'s village center contains mid-century commercial buildings where modified bitumen has replaced aging built-up roofing systems that reached the end of their service life. These buildings -- restaurants, professional offices, retail spaces -- require roofing that integrates with existing parapet walls, accommodates rooftop mechanical equipment, and provides dependable waterproofing above occupied spaces where interior water damage would disrupt business operations and tenant relationships. Modified bitumen\'s redundant multi-layer approach provides backup waterproofing that single-ply systems lack, a feature property managers in [South Orange](/roofing-in-south-orange-nj) appreciate.',
     'Seton Hall University\'s campus includes buildings where modified bitumen is the specified roofing system based on institutional maintenance preferences and lifecycle cost analysis. The material\'s walkability supports the regular rooftop access that campus maintenance teams require, and its repairability allows localized damage correction without the full membrane replacement that some single-ply systems demand when damaged areas exceed patch size limits.',
     'Our modified bitumen installations in South Orange use self-adhered or torch-applied methods selected based on building conditions and occupancy. Self-adhered application eliminates the open-flame risk that torch-applied installation presents on occupied buildings, while torch application provides the strongest interply bond for buildings where maximum wind uplift resistance is required. Both methods deliver a finished assembly that exceeds minimum code requirements for waterproofing, wind resistance, and fire rating.'
@@ -35,7 +35,25 @@ export const southOrangeModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Can modified bitumen be coated for energy efficiency on my South Orange building?',
       answer: 'Yes. We apply reflective aluminum or elastomeric coatings over modified bitumen cap sheets to improve solar reflectance and reduce cooling costs. The coating must be compatible with the specific modified bitumen product and properly applied to a clean, prepared surface. Reflective coatings typically require reapplication every 5-7 years to maintain their reflective performance, and we include the renewal schedule in the maintenance plan provided with each installation.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in South Orange, NJ?',
+      answer: 'Most modified bitumen roofing projects in South Orange range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in South Orange NJ -- multi-layer waterproofing for commercial buildings and institutional facilities.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

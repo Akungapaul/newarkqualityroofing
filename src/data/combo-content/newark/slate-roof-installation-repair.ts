@@ -4,7 +4,7 @@ export const newarkSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'newark',
   overview: [
-    'Newark possesses one of northern New Jersey densest concentrations of original slate roofing. The Victorian-era mansions of Forest Hill, the Queen Anne residences along Roseville Avenue, and the Gothic Revival churches scattered throughout the city showcase slate installations that have endured for over a century. These roofs represent both an architectural treasure and a specialized maintenance challenge that demands craftsmen who understand the material at a level most modern roofers never develop.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Newark — with prices starting from $20,000–$45,000 and free estimates available today. Newark possesses one of northern New Jersey densest concentrations of original slate roofing. The Victorian-era mansions of Forest Hill, the Queen Anne residences along Roseville Avenue, and the Gothic Revival churches scattered throughout the city showcase slate installations that have endured for over a century. These roofs represent both an architectural treasure and a specialized maintenance challenge that demands craftsmen who understand the material at a level most modern roofers never develop.',
     'The preservation-versus-replacement debate defines slate roofing decisions in Newark. A properly maintained slate roof can last 150 years or more, meaning that many of Newark original installations still have decades of serviceable life remaining if individual damaged slates are replaced and flashing systems are updated. Wholesale replacement with synthetic alternatives sacrifices this longevity and often diminishes the architectural integrity that gives historic Newark neighborhoods their distinctive character. We advocate for preservation when the structural deck and the majority of slates remain sound, reserving full replacement for roofs where deterioration has progressed beyond economical repair.',
     'Sourcing matching slate for Newark repair work requires knowledge of the original quarry regions. Much of Newark historic slate came from Vermont, Pennsylvania, and New York quarries, each producing stone with distinct color, texture, and weathering characteristics. Unfading Vermont green, Pennsylvania black, and Buckingham Virginia slate each age differently, and a repair using mismatched material creates a conspicuous patchwork that diminishes the roof aesthetic and property value. We maintain relationships with active quarries and salvage suppliers to source visually compatible replacement slate for Newark projects.',
     'Commercial buildings in Newark also feature slate roofing, particularly institutional structures like schools, churches, and civic buildings constructed during the city early twentieth century building boom. These large-scale slate roofs present unique challenges including scaffold access requirements, copper gutter integration, and the sheer volume of material handling involved in repairs or partial replacements on roofs that may exceed five thousand square feet.',
@@ -40,6 +40,24 @@ export const newarkSlateRoofInstallationRepair: ComboContent = {
       question: 'Can my Newark home framing support the weight of a new slate roof?',
       answer: 'Slate weighs seven to ten pounds per square foot, roughly three times the weight of asphalt shingles. Homes originally built with slate roofs were framed to carry this load and generally remain adequate if the timber is structurally sound. Homes converting from shingles to slate require a structural engineering assessment to verify rafter sizing, bearing capacity, and connection adequacy before slate installation proceeds.',
     },
+    {
+      question: 'How much does slate roof installation repair cost in Newark, NJ?',
+      answer: 'Most slate roof installation repair projects in Newark range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Newark NJ. Preservation of Victorian-era Forest Hill and Roseville slate roofs with matched quarry sourcing.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

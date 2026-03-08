@@ -4,7 +4,7 @@ export const northCaldwellRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Roof flashing on North Caldwell estate homes is the most failure-prone element of the roof system precisely because these properties have the most complex flashing requirements in Essex County. Every dormer sidewall, chimney perimeter, valley intersection, and roof-to-wall transition requires flashing that channels water away from joints where different building components meet. An estate with six dormers, two chimneys, and four roof level changes has forty or more individual flashing details -- each one a potential leak source if materials deteriorate or installation quality falls short.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in North Caldwell — with prices starting from $300–$1,500 and free estimates available today. Roof flashing on North Caldwell estate homes is the most failure-prone element of the roof system precisely because these properties have the most complex flashing requirements in Essex County. Every dormer sidewall, chimney perimeter, valley intersection, and roof-to-wall transition requires flashing that channels water away from joints where different building components meet. An estate with six dormers, two chimneys, and four roof level changes has forty or more individual flashing details -- each one a potential leak source if materials deteriorate or installation quality falls short.',
     'Our [roof flashing](/roof-flashing-installation-repair) work in North Caldwell matches the premium character of these properties. Where standard residential flashing uses painted aluminum or galvanized steel, we specify copper or lead-coated copper for North Caldwell estate installations. These materials complement the architectural finishes on these homes, develop an attractive patina over time, and deliver a service life that matches the premium roofing materials they integrate with. Homeowners in neighboring [Essex Fells](/roof-flashing-installation-repair-essex-fells-nj) share similar flashing material standards on their estate-scale homes.',
     'Flashing repair is our most frequent service call on established North Caldwell properties. The intersection between chimney masonry and step flashing degrades as mortar joints crack, counterflashing separates from the masonry face, and the sealant used to bed flashing into reglets dries out and fails. These failures produce localized leaks that homeowners often attribute to the roof surface when the actual problem lies entirely within the flashing system at nearby penetrations or wall junctions on their [North Caldwell](/roofing-in-north-caldwell-nj) home.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'Can you replace flashing without replacing the entire roof surface?',
       answer: 'Yes. Flashing replacement is a targeted repair that addresses specific transition points without disturbing the surrounding roof surface. We carefully lift shingles or roofing material adjacent to the flashing detail, remove the failed flashing, install new material with proper integration into the existing roof, and re-secure the lifted roofing material. The surrounding roof surface is not damaged by properly executed flashing replacement.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in North Caldwell, NJ?',
+      answer: 'Most roof flashing installation repair projects in North Caldwell range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in North Caldwell NJ -- copper and premium flashing for estate homes with complex roof transitions.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

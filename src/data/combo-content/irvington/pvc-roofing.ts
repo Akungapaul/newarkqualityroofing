@@ -4,7 +4,7 @@ export const irvingtonPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'irvington',
   overview: [
-    'PVC roofing serves a specialized niche in Irvington\'s commercial building landscape, targeting properties where chemical resistance and fire performance justify the membrane\'s premium cost over TPO and EPDM alternatives. Our [PVC roofing](/pvc-roofing) installations in Irvington focus on restaurants, commercial kitchens, medical facilities, and Route 78 industrial buildings where grease exhaust, chemical fumes, or processing byproducts degrade other membrane materials from the underside up.',
+    'Newark Quality Roofing delivers expert pvc roofing in Irvington — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing serves a specialized niche in Irvington\'s commercial building landscape, targeting properties where chemical resistance and fire performance justify the membrane\'s premium cost over TPO and EPDM alternatives. Our [PVC roofing](/pvc-roofing) installations in Irvington focus on restaurants, commercial kitchens, medical facilities, and Route 78 industrial buildings where grease exhaust, chemical fumes, or processing byproducts degrade other membrane materials from the underside up.',
     'Springfield Avenue\'s growing restaurant and food service segment has created a steady PVC installation market in Irvington. Kitchen exhaust systems discharge grease-laden air across flat roof surfaces where it condenses and accumulates on the membrane. EPDM and TPO membranes absorb animal fats and vegetable oils that chemically soften the polymer matrix, leading to accelerated deterioration around exhaust fans. PVC\'s inherent resistance to oils, greases, and biological chemicals makes it the only membrane recommendation for any Irvington building with commercial cooking operations venting through the roof.',
     'The Route 78 industrial zone adds chemical resistance applications beyond food service. Auto body shops, printing operations, and light manufacturing facilities emit solvent vapors and chemical fumes that can accelerate membrane degradation on buildings directly downwind. PVC\'s resistance to a broad spectrum of industrial chemicals protects these roofs from atmospheric exposure that would shorten the service life of petroleum-based membranes. Building operators managing similar chemical-exposure properties in [Newark](/pvc-roofing-newark-nj) specify PVC for identical reasons, though Irvington\'s concentrated Route 78 industrial corridor presents these exposure conditions in a tighter geographic zone.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonPvcRoofing: ComboContent = {
       question: 'Can PVC be installed over an existing roof on my Irvington building?',
       answer: 'PVC overlay is possible over a single existing compatible membrane on a dry, sound substrate. However, PVC is chemically incompatible with certain insulation materials and existing roofing compounds -- direct contact can cause plasticizer extraction that embrittles the PVC. We always verify chemical compatibility between the PVC membrane and all existing materials it will contact, and full tear-off is recommended when compatibility cannot be confirmed.',
     },
+    {
+      question: 'How much does pvc roofing cost in Irvington, NJ?',
+      answer: 'Most pvc roofing projects in Irvington range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Irvington NJ for restaurants, industrial buildings, and chemical-exposure commercial properties. Grease-resistant membrane with welded seams.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

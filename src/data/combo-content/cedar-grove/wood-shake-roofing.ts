@@ -4,7 +4,7 @@ export const cedarGroveWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'Wood shake roofing carries a distinct visual warmth on the tree-lined streets of Cedar Grove, where mid-century ranches and 1960s colonials sit beneath a dense canopy of oaks and maples that gives the township its name. Installing wood shakes in this northern Essex County community requires a contractor who understands how the local microclimate -- cooler winters, heavier shade, and persistent leaf debris -- interacts with natural wood roofing materials differently than in the sunnier, more exposed communities to the south. Homeowners along [Verona](/wood-shake-roofing-verona-nj) and [Montclair](/wood-shake-roofing-montclair-nj) borders share some of these wooded-lot challenges, but Cedar Grove\'s concentration of low-pitch ranch roofs adds an extra layer of complexity to every wood shake installation.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Cedar Grove — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing carries a distinct visual warmth on the tree-lined streets of Cedar Grove, where mid-century ranches and 1960s colonials sit beneath a dense canopy of oaks and maples that gives the township its name. Installing wood shakes in this northern Essex County community requires a contractor who understands how the local microclimate -- cooler winters, heavier shade, and persistent leaf debris -- interacts with natural wood roofing materials differently than in the sunnier, more exposed communities to the south. Homeowners along [Verona](/wood-shake-roofing-verona-nj) and [Montclair](/wood-shake-roofing-montclair-nj) borders share some of these wooded-lot challenges, but Cedar Grove\'s concentration of low-pitch ranch roofs adds an extra layer of complexity to every wood shake installation.',
     'The township\'s housing stock overwhelmingly features the ranch and split-level designs that defined suburban Essex County construction from the 1950s through the 1970s. These homes typically present roof slopes between 4:12 and 6:12 -- within the acceptable range for wood shakes but at the lower margin where drainage performance and ventilation become critical. Our [wood shake roofing](/wood-shake-roofing) installations on Cedar Grove ranches incorporate enhanced ventilation detailing and wider shake exposure adjustments to ensure water shedding keeps pace with the slower drainage that shallow pitches produce.',
     'Cedar Grove\'s quiet residential character and well-maintained properties create an environment where wood shake roofing enhances neighborhood aesthetic continuity. The natural grain variations and weathered silver-gray patina that develop over time complement the mature landscaping and established garden settings found along Bradford Avenue, Ridge Road, and the neighborhoods flanking the Peckman River. Our installations prioritize long-term performance through proper treatment, ventilation, and flashing details so that the rustic beauty endures alongside the practical weather protection Cedar Grove homeowners expect.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveWoodShakeRoofing: ComboContent = {
       question: 'Are wood shakes a fire risk on Cedar Grove\'s wooded lots?',
       answer: 'Pressure-treated Class B or Class C fire-rated shakes are required by current building codes and reduce fire risk substantially. Cedar Grove does not fall within a wildland-urban interface zone, so Class B rated shakes satisfy local requirements. We exclusively install treated shakes that carry both the fire rating certification and preservative treatment, addressing both fire and biological concerns with a single material specification.',
     },
+    {
+      question: 'How much does wood shake roofing cost in Cedar Grove, NJ?',
+      answer: 'Most wood shake roofing projects in Cedar Grove range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Cedar Grove NJ -- low-pitch ranch installations, moss prevention for shaded lots, and ventilation solutions for northern Essex County.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

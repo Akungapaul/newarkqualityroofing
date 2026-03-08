@@ -4,7 +4,7 @@ export const northCaldwellRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'north-caldwell',
   overview: [
-    'Roof replacement after chronic leaks on North Caldwell estates happens when the cumulative damage from multiple leak events has compromised the roof system beyond what targeted repairs can resolve. A home that has required three or more leak repairs in the same area within five years, or where leaks appear in new locations after each repair, has likely exhausted the repair capacity of the existing roof system. Replacement addresses the systemic failure that individual repairs cannot overcome.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in North Caldwell — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after chronic leaks on North Caldwell estates happens when the cumulative damage from multiple leak events has compromised the roof system beyond what targeted repairs can resolve. A home that has required three or more leak repairs in the same area within five years, or where leaks appear in new locations after each repair, has likely exhausted the repair capacity of the existing roof system. Replacement addresses the systemic failure that individual repairs cannot overcome.',
     'Our [roof replacement](/roof-replacement-after-leak) approach following leak damage on North Caldwell homes includes comprehensive interior damage assessment alongside the roof system evaluation. Chronic leaks on estate properties damage ceiling finishes, insulation, structural framing, and can promote mold growth in concealed wall and attic cavities. The replacement project scope must account for these interior consequences to fully restore the home, not just the roof surface above. Homeowners in neighboring [Caldwell](/roof-replacement-after-leak-caldwell-nj) pursue similar comprehensive restoration after chronic leak damage.',
     'The replacement decision on [North Caldwell](/roofing-in-north-caldwell-nj) estates is frequently driven by the cost comparison between continued repairs and definitive replacement. When annual repair spending approaches a meaningful percentage of the replacement cost, and the next repair is likely to fail within a similar timeframe as the previous ones, the financial argument for replacement becomes compelling even before accounting for the interior damage risk that each future leak event carries.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'How long does the complete replacement and restoration process take?',
       answer: 'Roof replacement takes one to three weeks depending on scope. Interior restoration adds time based on the extent of damage and the complexity of the finish work. If mold remediation is required, that process must complete before restoration work begins. Total project timelines of four to eight weeks are typical for North Caldwell estates with chronic leak damage requiring both roof replacement and interior restoration.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in North Caldwell, NJ?',
+      answer: 'Most roof replacement after leak projects in North Caldwell range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak damage in North Caldwell NJ -- systemic solutions for estate homes with chronic leak histories.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

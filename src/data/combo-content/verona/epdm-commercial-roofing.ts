@@ -4,7 +4,7 @@ export const veronaEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'verona',
   overview: [
-    'EPDM commercial roofing has protected Verona\'s business properties for decades, and the material\'s track record on Bloomfield Avenue retail buildings, municipal structures, and office complexes speaks to its durability in northern New Jersey\'s demanding climate. The synthetic rubber membrane withstands temperature extremes from sub-zero winters to 160-degree summer roof surfaces without the brittleness or softening that compromises lesser materials. Newark Quality Roofing maintains and installs EPDM commercial systems across Verona, bringing four decades of field experience with a membrane technology that continues to evolve while retaining the fundamental flexibility that made it the industry standard.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Verona — with prices starting from $6–$11/sq ft and free estimates available today. EPDM commercial roofing has protected Verona\'s business properties for decades, and the material\'s track record on Bloomfield Avenue retail buildings, municipal structures, and office complexes speaks to its durability in northern New Jersey\'s demanding climate. The synthetic rubber membrane withstands temperature extremes from sub-zero winters to 160-degree summer roof surfaces without the brittleness or softening that compromises lesser materials. Newark Quality Roofing maintains and installs EPDM commercial systems across Verona, bringing four decades of field experience with a membrane technology that continues to evolve while retaining the fundamental flexibility that made it the industry standard.',
     'Verona\'s commercial building inventory includes structures ranging from single-story retail along Bloomfield Avenue to multi-story office buildings near the township center, each presenting different EPDM application requirements. Smaller buildings with simple geometry benefit from single-sheet EPDM installations that eliminate field seams entirely -- one continuous rubber membrane from parapet to parapet. Larger structures require seamed installations where our [EPDM commercial roofing](/epdm-commercial-roofing) crews position sheets to minimize seam exposure to ponding zones and high-traffic areas, maximizing long-term seam performance.',
     'The cost advantage of EPDM over TPO and PVC makes it the practical choice for Verona building owners prioritizing value over reflectivity. While EPDM\'s dark surface absorbs more solar heat than white membranes, the material\'s flexibility and proven longevity deliver lower lifecycle costs on buildings where cooling loads are manageable or where insulation upgrades address the energy equation independently. Properties in [West Orange](/epdm-commercial-roofing-west-orange-nj) with similar mid-rise commercial buildings have maintained EPDM installations for 25 years or more, validating the material\'s endurance.'
   ],
@@ -34,7 +34,25 @@ export const veronaEpdmCommercialRoofing: ComboContent = {
     {
       question: 'Does EPDM require special maintenance on Verona buildings?',
       answer: 'EPDM maintenance is minimal but essential. Semi-annual inspections should check all seams, flashings, penetration boots, and drain function. Clear debris from drain areas and low spots -- leaf accumulation from Verona\'s tree canopy can block drainage and create ponding. Check termination bars at parapets for shrinkage gaps. Address any identified issues within 30 days to prevent water intrusion into the insulation layer, where trapped moisture causes far more damage than the surface leak itself.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Verona, NJ?',
+      answer: 'Most epdm commercial roofing projects in Verona range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Verona NJ -- rubber membrane systems for Bloomfield Avenue retail, office buildings, and municipal structures.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

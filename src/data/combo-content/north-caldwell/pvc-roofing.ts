@@ -4,7 +4,7 @@ export const northCaldwellPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'PVC roofing in North Caldwell serves the specialized requirements of commercial properties where chemical resistance matters alongside standard waterproofing performance. The borough\'s limited commercial inventory includes medical offices, dental practices, and professional buildings where rooftop HVAC systems, laboratory exhaust, or kitchen ventilation expose the roof membrane to conditions that standard single-ply materials cannot withstand over the long term.',
+    'Newark Quality Roofing delivers expert pvc roofing in North Caldwell — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing in North Caldwell serves the specialized requirements of commercial properties where chemical resistance matters alongside standard waterproofing performance. The borough\'s limited commercial inventory includes medical offices, dental practices, and professional buildings where rooftop HVAC systems, laboratory exhaust, or kitchen ventilation expose the roof membrane to conditions that standard single-ply materials cannot withstand over the long term.',
     'The chemical resistance that distinguishes [PVC roofing](/pvc-roofing) from TPO and EPDM alternatives makes it the appropriate specification for North Caldwell commercial properties with rooftop equipment that produces grease exhaust, solvent vapors, or chemical condensation. A restaurant or medical practice operating in a North Caldwell professional building produces roof exposure conditions that accelerate the degradation of petroleum-based membranes, while PVC\'s inherent chemical stability resists these exposures without losing membrane integrity.',
     'Our PVC installations in [North Caldwell](/roofing-in-north-caldwell-nj) follow the same premium specification we apply to larger commercial projects throughout Essex County. The heat-welded seam technology creates joints that test stronger than the parent membrane material, and the reinforced membrane construction provides puncture resistance that accommodates maintenance foot traffic around the rooftop equipment that drives PVC selection in the first place. Commercial buildings in [Caldwell](/pvc-roofing-caldwell-nj) with similar restaurant and medical tenant mixes also benefit from PVC specification.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellPvcRoofing: ComboContent = {
     {
       question: 'Can PVC membrane be repaired if damaged on a North Caldwell building?',
       answer: 'Yes. PVC is among the easiest commercial membranes to repair because the same heat-welding process used for original installation creates a molecular bond between repair patches and the existing membrane. Repairs integrate seamlessly with the surrounding field and restore the full chemical resistance and waterproofing performance of the original installation. Most PVC repairs on North Caldwell commercial properties are completed in a few hours.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in North Caldwell, NJ?',
+      answer: 'Most pvc roofing projects in North Caldwell range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in North Caldwell NJ -- chemical-resistant membrane for commercial properties with restaurant, medical, or laboratory rooftop exposures.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

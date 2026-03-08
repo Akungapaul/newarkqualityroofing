@@ -4,7 +4,7 @@ export const southOrangeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'south-orange',
   overview: [
-    'Re-roofing in South Orange Village restores weather protection and curb appeal to homes where the existing roofing has reached the end of its functional service life. Whether the project involves replacing 30-year-old asphalt shingles on a Newstead Colonial, restoring deteriorated cedar shake on a Scotland Road bungalow, or upgrading a Montrose Park estate from aging materials to premium slate or standing-seam metal, re-roofing represents the most impactful exterior improvement a South Orange homeowner can make.',
+    'Newark Quality Roofing delivers expert re roofing in South Orange — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in South Orange Village restores weather protection and curb appeal to homes where the existing roofing has reached the end of its functional service life. Whether the project involves replacing 30-year-old asphalt shingles on a Newstead Colonial, restoring deteriorated cedar shake on a Scotland Road bungalow, or upgrading a Montrose Park estate from aging materials to premium slate or standing-seam metal, re-roofing represents the most impactful exterior improvement a South Orange homeowner can make.',
     'The re-roofing decision in South Orange often intersects with material upgrade opportunities. Homeowners who inherited standard asphalt shingles from a previous owner\'s installation may choose re-roofing as the moment to upgrade to designer profiles, synthetic slate, or standing-seam metal that better reflects their aesthetic vision for the property. Our [re-roofing](/re-roofing) consultation explores these material options within the context of the home\'s architecture, the neighborhood\'s visual character, and the homeowner\'s budget and maintenance preferences.',
     'South Orange\'s real estate market places significant value on roof condition. Homes listed with recent re-roofing attract buyer confidence and command stronger offers than properties where aging roofing signals deferred maintenance. For homeowners planning to sell within the next five to ten years, re-roofing provides return on investment through both reduced maintenance during ownership and enhanced value at sale. The investment calculus is particularly compelling in [South Orange](/roofing-in-south-orange-nj) where property values support premium roofing materials.',
     'Our re-roofing projects in South Orange follow the full tear-off protocol that premium installations demand. We do not recommend overlay in most South Orange applications because the premium materials and complex roof geometries the village\'s housing stock presents deserve the verified deck foundation that tear-off provides. The added cost of tear-off represents a small percentage of the total re-roofing investment on these higher-value projects.'
@@ -35,7 +35,25 @@ export const southOrangeReRoofing: ComboContent = {
     {
       question: 'Does re-roofing increase my South Orange home value?',
       answer: 'Yes. Industry studies consistently show that new roofing recovers a significant percentage of its cost in increased home value. In a market like South Orange where property values are high and buyers are discerning, a recently installed premium roof signals quality maintenance and eliminates the negotiation leverage that aging roofing gives to buyers. The return on investment is particularly strong when the re-roofing material matches or exceeds the neighborhood standard.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in South Orange, NJ?',
+      answer: 'Most re roofing projects in South Orange range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services in South Orange NJ -- complete roof replacement with premium materials for Tudor, Colonial, and village homes.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

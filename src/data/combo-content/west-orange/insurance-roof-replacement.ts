@@ -4,7 +4,7 @@ export const westOrangeInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Insurance roof replacement in West Orange navigates the claims process for homeowners whose roofs have sustained covered damage from storms, fallen trees, and wind events that the township\'s elevation gradient amplifies beyond typical suburban exposure. Our [insurance roof replacement](/insurance-roof-replacement) service handles every phase from initial damage documentation through adjuster coordination and final replacement installation, ensuring West Orange homeowners receive the coverage their policies provide.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in West Orange — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in West Orange navigates the claims process for homeowners whose roofs have sustained covered damage from storms, fallen trees, and wind events that the township\'s elevation gradient amplifies beyond typical suburban exposure. Our [insurance roof replacement](/insurance-roof-replacement) service handles every phase from initial damage documentation through adjuster coordination and final replacement installation, ensuring West Orange homeowners receive the coverage their policies provide.',
     'Ridge-top West Orange homes along Eagle Rock Avenue file proportionally more wind damage claims than valley-floor properties because their exposed elevation absorbs storm energy that sheltered locations deflect. Insurance carriers serving West Orange recognize this elevation-dependent risk, and some adjust deductibles or coverage terms based on property elevation. We document wind damage with the precision that supports claims at every coverage level, photographing damage patterns, measuring affected areas, and preparing scope-of-loss estimates in the format that adjusters process efficiently.',
     'Storm damage from fallen trees creates the most dramatic insurance claims in [West Orange](/roofing-in-west-orange-nj), where the mature hardwood canopy surrounding South Mountain Reservation drops massive limbs during severe weather events. These claims involve structural damage assessment, emergency tarping, debris removal, and full roof replacement -- a multi-trade scope that requires coordination between roofing, structural repair, and tree removal contractors. We manage this coordination for homeowners, presenting a unified claim that covers all damage components. Homeowners near [Maplewood](/insurance-roof-replacement-maplewood-nj) file similar tree-damage claims during the same regional storm events.',
     'Hail damage claims in West Orange require specialized documentation because hail impact damage to asphalt shingles is not always visible from ground level. Bruised shingles lose granule protection at impact sites, creating accelerated deterioration that manifests months or years after the hail event. We perform roof-level hail impact surveys that document damage density per square, meeting the threshold evidence that insurance carriers require to approve full replacement versus spot repair.'
@@ -35,7 +35,25 @@ export const westOrangeInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Can I upgrade my roofing material during an insurance replacement?',
       answer: 'Your insurance covers replacement with like-kind materials. If you want to upgrade -- for example from 3-tab to architectural shingles, or from asphalt to metal -- you pay the difference between the covered replacement cost and the upgrade cost. We provide itemized pricing that clearly separates the insurance-covered scope from any upgrade costs, allowing you to make an informed decision about applying your claim proceeds toward enhanced materials.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in West Orange, NJ?',
+      answer: 'Most insurance roof replacement projects in West Orange range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in West Orange NJ. Claims coordination for wind, storm, and tree damage with adjuster-ready documentation.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

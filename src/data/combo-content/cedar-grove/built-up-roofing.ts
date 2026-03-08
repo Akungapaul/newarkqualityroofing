@@ -4,7 +4,7 @@ export const cedarGroveBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'Built-up roofing systems have protected Cedar Grove\'s commercial and institutional buildings since the township\'s post-war development era, and the multi-ply construction method remains relevant for building owners who value proven redundancy over single-membrane simplicity. The alternating layers of bitumen and reinforcing fabric that define BUR create a monolithic waterproof assembly that resists the puncture damage, foot traffic wear, and debris impact that Cedar Grove\'s commercial rooftops endure season after season.',
+    'Newark Quality Roofing delivers expert built up roofing in Cedar Grove — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems have protected Cedar Grove\'s commercial and institutional buildings since the township\'s post-war development era, and the multi-ply construction method remains relevant for building owners who value proven redundancy over single-membrane simplicity. The alternating layers of bitumen and reinforcing fabric that define BUR create a monolithic waterproof assembly that resists the puncture damage, foot traffic wear, and debris impact that Cedar Grove\'s commercial rooftops endure season after season.',
     'Cedar Grove\'s commercial properties along Pompton Avenue and in the professional office parks flanking Route 23 include numerous buildings carrying original or second-generation BUR systems installed during the 1970s through 1990s. As these systems approach end-of-life, our [built-up roofing](/built-up-roofing) replacement and restoration projects give building managers the choice between continuing with modern BUR -- using contemporary fiberglass felts and polymer-modified bitumens -- or transitioning to single-ply alternatives. For properties requiring walkable, impact-resistant roof surfaces, updated BUR systems remain the performance benchmark.',
     'The institutional familiarity of BUR construction among Cedar Grove\'s established commercial building owners and property managers provides a practical advantage: maintenance teams understand the system, repair procedures are straightforward, and local roofing supply houses maintain full inventories of BUR materials suited to northern Essex County conditions.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveBuiltUpRoofing: ComboContent = {
       question: 'Can you repair a BUR roof in Cedar Grove without full replacement?',
       answer: 'Yes. BUR systems are among the most repairable roofing types. Blisters are cut, dried, and patched with matching ply material. Split seams are re-mopped and reinforced. Deteriorated flashing is stripped and rebuilt with new multi-ply fabric. The key is addressing repairs promptly before water migrates into the insulation beneath. We offer annual BUR maintenance contracts for Cedar Grove commercial buildings that include inspection, minor repairs, and drain cleaning.',
     },
+    {
+      question: 'How much does built up roofing cost in Cedar Grove, NJ?',
+      answer: 'Most built up roofing projects in Cedar Grove range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Cedar Grove NJ -- proven multi-ply commercial roof systems with redundant waterproofing for offices and retail buildings.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

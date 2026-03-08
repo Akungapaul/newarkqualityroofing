@@ -4,7 +4,7 @@ export const bloomfieldRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'bloomfield',
   overview: [
-    'Thermal imaging inspection reveals what visual roof inspection cannot: the moisture trapped beneath the membrane surface of Bloomfield\'s commercial flat roofs. When a membrane develops a slow leak, water migrates through the insulation layer beneath, saturating areas that may extend far beyond the visible leak location. The saturated insulation retains heat differently than dry insulation, and an infrared camera captures this temperature differential as a clear visual map of moisture presence. For Bloomfield building owners managing aging flat roofs along Bloomfield Avenue and the GSP corridor, thermal imaging provides the objective data needed to make informed repair-versus-replace decisions.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Bloomfield — with prices starting from $300–$700 and free estimates available today. Thermal imaging inspection reveals what visual roof inspection cannot: the moisture trapped beneath the membrane surface of Bloomfield\'s commercial flat roofs. When a membrane develops a slow leak, water migrates through the insulation layer beneath, saturating areas that may extend far beyond the visible leak location. The saturated insulation retains heat differently than dry insulation, and an infrared camera captures this temperature differential as a clear visual map of moisture presence. For Bloomfield building owners managing aging flat roofs along Bloomfield Avenue and the GSP corridor, thermal imaging provides the objective data needed to make informed repair-versus-replace decisions.',
     'The timing of thermal imaging inspection matters for accuracy. The optimal window is early evening after a sunny day, when the roof surface has absorbed solar energy throughout the day and is beginning to cool. Dry insulation releases heat quickly and cools rapidly. Saturated insulation retains heat and cools slowly. This thermal lag creates the temperature contrast that the infrared camera detects. We schedule Bloomfield commercial roof scans during the May-through-October window when solar heating is sufficient to create readable thermal differentials.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) building owners considering [silicone coating](/silicone-roof-coating-bloomfield-nj) or [commercial roof repair](/commercial-roof-repair-bloomfield-nj), thermal imaging before the project identifies saturated areas that must be removed and replaced before coating or repair proceeds. Coating over saturated insulation traps moisture permanently, accelerating deck deterioration and guaranteeing premature coating failure. Repairing a membrane without addressing the saturated insulation beneath creates a dry surface over a wet substrate that continues damaging the structure. Thermal imaging transforms these decisions from guesswork into data-driven specifications.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofThermalImagingInspections: ComboContent = {
     {
       question: 'Do I need thermal imaging before coating my Bloomfield commercial roof?',
       answer: 'Strongly recommended. Coating over saturated insulation traps moisture permanently and guarantees premature coating failure and continued deck deterioration. Thermal imaging identifies the saturated zones that must be cut out and replaced with dry insulation before coating proceeds. The imaging cost adds a small percentage to the coating project budget while preventing the catastrophic failure of coating over hidden moisture that would require complete tear-off and replacement -- a far greater expense than the pre-coating scan.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Bloomfield, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Bloomfield range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging in Bloomfield NJ -- infrared moisture scanning for commercial flat roofs before repair, coating, or replacement decisions.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

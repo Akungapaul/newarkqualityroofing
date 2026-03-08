@@ -4,7 +4,7 @@ export const northCaldwellMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Standing seam metal roofing has gained significant traction among North Caldwell homeowners who want the longevity of a fifty-year-plus roof system paired with the clean architectural lines that complement custom-built estates on one-acre wooded lots. The appeal is straightforward: a properly installed metal roof on a Grandview Avenue colonial eliminates the cycle of shingle replacement every twenty years, withstands the heavy limb drops from mature hardwood canopies, and delivers an energy performance profile that aligns with how these high-value properties are maintained.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in North Caldwell — with prices starting from $15,000–$35,000 and free estimates available today. Standing seam metal roofing has gained significant traction among North Caldwell homeowners who want the longevity of a fifty-year-plus roof system paired with the clean architectural lines that complement custom-built estates on one-acre wooded lots. The appeal is straightforward: a properly installed metal roof on a Grandview Avenue colonial eliminates the cycle of shingle replacement every twenty years, withstands the heavy limb drops from mature hardwood canopies, and delivers an energy performance profile that aligns with how these high-value properties are maintained.',
     'Metal roof installation on North Caldwell estates demands engineering attention that standard suburban projects rarely require. Multi-level rooflines with intersecting ridges, turret details, and dormered wings create dozens of transition points where standing seam panels must be custom-fabricated to maintain watertight integrity. Homeowners in neighboring [Caldwell](/metal-roof-installation-repair-caldwell-nj) occasionally install metal roofing on simpler Cape Cod and colonial roof forms, but North Caldwell\'s architectural complexity requires a different tier of craftsmanship.',
     'Our [metal roof installation](/metal-roof-installation-repair) team brings field-fabrication capability to every North Caldwell project. We run a portable roll-forming machine on-site to produce continuous standing seam panels cut precisely to each roof plane measurement, eliminating transverse seams that become potential leak points over time. For estate homes exceeding five thousand square feet of roof area, this on-site fabrication approach produces panels up to forty feet long that run uninterrupted from ridge to eave.',
     'Repair work on existing metal roofs in North Caldwell typically involves addressing thermal movement at panel clips, resealing around penetrations for skylights and vent stacks, and correcting fastener-related issues on exposed-fastener metal roofs that were installed before standing seam became the preferred system for premium residential applications in [North Caldwell](/roofing-in-north-caldwell-nj).'
@@ -35,7 +35,25 @@ export const northCaldwellMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'How does a metal roof affect the resale value of a North Caldwell property?',
       answer: 'Standing seam metal roofing consistently adds value to North Caldwell properties. Buyers in this market recognize the fifty-year-plus lifespan, low maintenance profile, and energy efficiency as significant assets. The transferable manufacturer warranty provides additional buyer confidence. For estate-scale homes where roof replacement would otherwise cost tens of thousands within a typical ownership cycle, an existing metal roof represents measurable value at resale.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in North Caldwell, NJ?',
+      answer: 'Most metal roof installation repair projects in North Caldwell range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in North Caldwell NJ -- standing seam systems for estate homes with complex rooflines on wooded lots.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

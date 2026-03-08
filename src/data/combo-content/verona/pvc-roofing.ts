@@ -4,7 +4,7 @@ export const veronaPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'verona',
   overview: [
-    'PVC roofing provides the chemical resistance and heat-welded seam integrity that specific Verona commercial applications demand. Restaurants, food processing facilities, and buildings with rooftop exhaust systems that discharge grease, oils, or chemical vapors need a membrane that resists degradation from these substances -- and PVC is the only single-ply membrane engineered specifically for chemical exposure environments. Newark Quality Roofing installs PVC systems on Verona commercial properties where the building\'s operational profile generates rooftop chemical contact that would compromise TPO or EPDM alternatives.',
+    'Newark Quality Roofing delivers expert pvc roofing in Verona — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing provides the chemical resistance and heat-welded seam integrity that specific Verona commercial applications demand. Restaurants, food processing facilities, and buildings with rooftop exhaust systems that discharge grease, oils, or chemical vapors need a membrane that resists degradation from these substances -- and PVC is the only single-ply membrane engineered specifically for chemical exposure environments. Newark Quality Roofing installs PVC systems on Verona commercial properties where the building\'s operational profile generates rooftop chemical contact that would compromise TPO or EPDM alternatives.',
     'The Bloomfield Avenue restaurant cluster in Verona produces kitchen exhaust that deposits grease-laden condensate on adjacent roof surfaces. Standard TPO membrane softens and deteriorates under repeated grease contact, while EPDM absorbs oils that swell and weaken the rubber compound. PVC\'s chemical-resistant formulation maintains its integrity under these conditions, making it the specified membrane for restaurant rooftops throughout the Verona commercial corridor. Our [PVC roofing](/pvc-roofing) installations include chemical-resistant flashing details at exhaust penetrations where exposure is most concentrated.',
     'Beyond chemical resistance, PVC delivers the same heat-welded seam strength as TPO, creating molecular bonds between overlapping membrane sheets that exceed the strength of the field material. The reflective white surface reduces cooling loads identically to TPO, and the material\'s inherent fire resistance qualifies for fire-rated roof assemblies without additional protection layers. Properties along the [Montclair](/pvc-roofing-montclair-nj) restaurant row have validated PVC\'s performance under identical grease-exhaust conditions over 15 to 20 year service periods.'
   ],
@@ -34,7 +34,25 @@ export const veronaPvcRoofing: ComboContent = {
     {
       question: 'Can PVC be installed over my existing Verona commercial roof?',
       answer: 'PVC can be installed over some existing roof systems, but compatibility is critical. PVC must never contact asphalt-based products directly -- a separation layer is required over existing BUR or modified bitumen roofs. EPDM substrates require a compatible barrier sheet between the rubber and PVC. In many cases, full tear-off provides a cleaner installation with stronger warranty coverage and eliminates the compatibility risk entirely. We evaluate your existing conditions and recommend the approach that provides the best long-term value.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Verona, NJ?',
+      answer: 'Most pvc roofing projects in Verona range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Verona NJ -- chemical-resistant membrane for restaurants, commercial kitchens, and industrial buildings along Bloomfield Avenue.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

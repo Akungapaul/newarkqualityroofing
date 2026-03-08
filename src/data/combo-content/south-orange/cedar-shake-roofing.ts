@@ -4,7 +4,7 @@ export const southOrangeCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'south-orange',
   overview: [
-    'Cedar shake roofing is woven into South Orange Village\'s architectural identity more deeply than in any other community in our service area. The Arts and Crafts bungalows along Scotland Road and Mead Street were designed specifically for cedar roofing -- the warm, textured surface of hand-split shakes completes the Craftsman aesthetic that defines these neighborhoods. Beyond the bungalows, cedar shake appears on Tudors, Colonials, and contemporary renovations throughout the village where homeowners select the material for its natural beauty, insulating properties, and the distinctive patina it develops as it weathers to silvered gray.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in South Orange — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing is woven into South Orange Village\'s architectural identity more deeply than in any other community in our service area. The Arts and Crafts bungalows along Scotland Road and Mead Street were designed specifically for cedar roofing -- the warm, textured surface of hand-split shakes completes the Craftsman aesthetic that defines these neighborhoods. Beyond the bungalows, cedar shake appears on Tudors, Colonials, and contemporary renovations throughout the village where homeowners select the material for its natural beauty, insulating properties, and the distinctive patina it develops as it weathers to silvered gray.',
     'South Orange\'s culturally progressive, sustainability-minded homeowner base connects with cedar shake as a natural, renewable roofing material that aligns with environmental values the village actively promotes. Western red cedar is harvested from managed forests, provides superior natural insulation compared to synthetic materials, and biodegrades completely at end of life without the petroleum-derived waste that asphalt shingle tear-offs generate. These environmental credentials resonate in a community that supports farmers\' markets, opposes overdevelopment, and maintains strong advocacy for sustainable living practices also seen in neighboring [Maplewood](/cedar-shake-roofing-maplewood-nj).',
     'Our cedar shake work in South Orange encompasses both new installations and the restoration of aging shake roofs that have reached the point where selective repair is no longer cost-effective. A well-maintained cedar shake roof lasts 30-40 years in the South Orange environment, but maintenance-deferred installations can deteriorate significantly faster. The village\'s tree canopy accelerates cedar aging through persistent shade and moisture retention, meaning South Orange cedar roofs face biological pressure that installations in more open suburban settings avoid.',
     'Premium cedar shake installation in [South Orange](/roofing-in-south-orange-nj) follows traditional techniques refined for modern performance standards. Hand-split shakes installed with stainless steel fasteners over skip sheathing with breather-strip spacers between courses provide the ventilation that cedar requires to dry properly after rain exposure. This ventilation gap is the single most important factor in cedar shake longevity, and we never compromise it regardless of the roof pitch or geometry.'
@@ -35,7 +35,25 @@ export const southOrangeCedarShakeRoofing: ComboContent = {
     {
       question: 'Can I replace just a section of my cedar shake roof instead of the whole thing?',
       answer: 'Yes, sectional replacement is common on South Orange cedar roofs where one slope has deteriorated faster than others due to shade or exposure differences. We match the replacement shake species, grade, and cut profile as closely as possible to the existing installation. New shakes will initially appear lighter than the weathered surrounding material but will develop comparable coloring within one to two years of exposure. For roofs where more than 40-50 percent of the area needs replacement, full tear-off and re-installation typically provides better long-term value.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in South Orange, NJ?',
+      answer: 'Most cedar shake roofing projects in South Orange range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in South Orange NJ -- hand-split installations for Arts and Crafts bungalows and premium homes throughout the village.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Commercial roof replacement in Orange eliminates the chronic leak cycles and escalating repair costs that accumulate when aging membrane systems are patched beyond their useful life. Our [commercial roof replacement](/commercial-roof-replacement) projects strip deteriorated roofing down to the structural deck, address any substrate damage, and install new membrane systems engineered for each building\'s specific use, load capacity, and energy performance targets. The result is 20 to 25 years of leak-free performance that resets the building\'s maintenance trajectory.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Orange — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Orange eliminates the chronic leak cycles and escalating repair costs that accumulate when aging membrane systems are patched beyond their useful life. Our [commercial roof replacement](/commercial-roof-replacement) projects strip deteriorated roofing down to the structural deck, address any substrate damage, and install new membrane systems engineered for each building\'s specific use, load capacity, and energy performance targets. The result is 20 to 25 years of leak-free performance that resets the building\'s maintenance trajectory.',
     'Main Street Orange\'s commercial corridor is entering a replacement cycle as the modified bitumen and built-up roofing installed in the 1980s and 1990s reaches the end of its design life. Building owners who have been patching and coating these systems for the past decade are reaching the economic tipping point where continued repair costs exceed the amortized cost of replacement. Our replacement proposals include lifecycle cost analysis that compares the next 20 years of ongoing repair against the one-time replacement investment, helping building owners make this transition decision with clear financial data.',
     'For Orange\'s larger commercial and industrial buildings along Mitchell Street, roof replacement is an operational project that must be planned around business continuity requirements. We cannot shut down a functioning warehouse or manufacturing facility for the weeks that a full roof replacement requires. Our phased construction approach isolates work zones with temporary waterproofing barriers, completes each zone fully before exposing the next, and maintains the building\'s weather protection throughout the project. This phased methodology has kept Orange businesses running continuously through replacement projects spanning 20,000 square feet and more. Similar phased approaches protect operations during commercial replacements in [Newark](/commercial-roof-replacement-newark-nj)\'s industrial corridors.'
   ],
@@ -34,7 +34,25 @@ export const orangeCommercialRoofReplacement: ComboContent = {
     {
       question: 'Can I finance a commercial roof replacement in Orange?',
       answer: 'Yes. We work with several commercial financing partners who offer terms ranging from 3 to 10 years. Financing allows building owners to spread the replacement cost over the roof\'s useful life, often with monthly payments lower than the accumulated annual repair costs they were previously spending on the aging system.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Orange, NJ?',
+      answer: 'Most commercial roof replacement projects in Orange range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Orange NJ -- Main Street full tear-off, phased warehouse construction, lifecycle cost analysis, and membrane selection.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

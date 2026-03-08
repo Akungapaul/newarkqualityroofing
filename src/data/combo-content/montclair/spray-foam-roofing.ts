@@ -4,7 +4,7 @@ export const montclairSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'montclair',
   overview: [
-    'Spray polyurethane foam roofing delivers a combination of seamless waterproofing and continuous insulation that addresses two of Montclair\'s most persistent commercial building challenges simultaneously -- preventing leaks on aging flat roofs and reducing energy costs in buildings where heating and cooling represent a significant operating expense. The SPF system is applied as a liquid that expands and cures into a monolithic foam layer conforming to every roof surface contour, penetration, and irregularity without the seams, joints, and laps that create leak points in sheet membrane systems.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Montclair — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing delivers a combination of seamless waterproofing and continuous insulation that addresses two of Montclair\'s most persistent commercial building challenges simultaneously -- preventing leaks on aging flat roofs and reducing energy costs in buildings where heating and cooling represent a significant operating expense. The SPF system is applied as a liquid that expands and cures into a monolithic foam layer conforming to every roof surface contour, penetration, and irregularity without the seams, joints, and laps that create leak points in sheet membrane systems.',
     'For Montclair building owners weighing the cost of full roof replacement against the remaining useful life of their existing membrane, spray foam offers a restoration pathway that extends roof service by fifteen to twenty-five years at a fraction of tear-off and replacement cost. The foam is applied directly over the existing roof surface after cleaning and preparation, eliminating the demolition waste, dumpster logistics, and tenant disruption that full replacement demands in Montclair\'s compact commercial districts. Property managers in neighboring [West Orange](/spray-foam-roofing-west-orange-nj) and [Bloomfield](/spray-foam-roofing-bloomfield-nj) have adopted the same restoration approach for aging commercial roofs.',
     'The insulation performance built into every SPF installation is where spray foam separates itself from conventional re-roofing options in [Montclair](/roofing-in-montclair-nj). A typical two-inch SPF application delivers an R-value of approximately thirteen -- equivalent to adding a full insulation layer that most existing Montclair commercial buildings lack. For buildings heated with forced air or steam systems through Montclair\'s five-month heating season, the energy savings from SPF insulation can offset a meaningful portion of the installation cost within the first several years of service.',
     'Our [spray foam roofing](/spray-foam-roofing) installations in Montclair include a protective elastomeric coating over the cured foam surface that provides UV resistance, weather protection, and the reflective white finish that reduces summer cooling loads. This coating is the wearing surface of the SPF system and requires periodic recoating every ten to fifteen years to maintain its protective function -- a maintenance event that extends the foam\'s waterproofing life indefinitely at a cost far below full roof replacement.'
@@ -35,7 +35,25 @@ export const montclairSprayFoamRoofing: ComboContent = {
     {
       question: 'Is spray foam roofing appropriate for buildings with rooftop equipment in Montclair?',
       answer: 'SPF works well around rooftop equipment because the liquid application conforms to equipment curbs, pipe penetrations, and mechanical support structures without the cuts, patches, and boot flashings that sheet membrane systems require at each penetration. The foam creates a seamless transition from field to penetration that eliminates the joints where leaks typically originate. For buildings with heavy equipment density -- common on Montclair commercial properties with multiple HVAC units -- SPF\'s seamless penetration detailing is a significant waterproofing advantage over sheet membrane alternatives.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Montclair, NJ?',
+      answer: 'Most spray foam roofing projects in Montclair range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Montclair NJ -- seamless SPF systems with built-in insulation for commercial roof restoration and energy savings.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

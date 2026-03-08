@@ -4,7 +4,7 @@ export const caldwellWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'caldwell',
   overview: [
-    'Wind damage to Caldwell roofs presents a dual threat that other Essex County boroughs experience differently. The direct wind effects -- lifted shingle tabs, torn ridge caps, displaced flashing -- are compounded by the airborne debris that Caldwell\'s tree canopy generates during high-wind events. Branches become projectiles that crack shingles, dent flashing, and punch through roof surfaces. Whole limbs that maintain their leaf canopy act as sails, catching wind loads that exceed the wood\'s structural capacity and sending heavy sections onto the roofs below. A windstorm that strips a few shingles from a home in open-terrain [Roseland](/wind-damage-roof-repair-roseland-nj) may strip shingles and deposit a forty-pound oak branch onto a Caldwell colonial in the same weather system.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Caldwell — with prices starting from $400–$2,000 and free estimates available today. Wind damage to Caldwell roofs presents a dual threat that other Essex County boroughs experience differently. The direct wind effects -- lifted shingle tabs, torn ridge caps, displaced flashing -- are compounded by the airborne debris that Caldwell\'s tree canopy generates during high-wind events. Branches become projectiles that crack shingles, dent flashing, and punch through roof surfaces. Whole limbs that maintain their leaf canopy act as sails, catching wind loads that exceed the wood\'s structural capacity and sending heavy sections onto the roofs below. A windstorm that strips a few shingles from a home in open-terrain [Roseland](/wind-damage-roof-repair-roseland-nj) may strip shingles and deposit a forty-pound oak branch onto a Caldwell colonial in the same weather system.',
     'The geography of wind damage across individual Caldwell properties follows predictable patterns that inform both repair and prevention. West-facing and northwest-facing elevations take the brunt of prevailing storm winds, making the ridge cap, western slope shingles, and any west-facing dormer particularly vulnerable. Roof planes on the leeward side experience turbulence uplift at eave overhangs where wind wrapping around the building creates suction forces that pull shingles outward from below. Corner conditions where two roof planes meet at a hip or valley concentrate wind pressure and see the highest failure rates. Understanding these aerodynamic patterns allows us to prioritize inspections and, during repair, reinforce the specific zones most likely to fail again.',
     'Many Caldwell wind damage repairs reveal pre-existing conditions that contributed to the failure. Shingles that lift in moderate winds often have deteriorated sealant strips from age or shade-moisture exposure that weakened adhesion years before the wind event. Flashing that displaces during gusts was frequently under-fastened during original installation or corroded at the attachment points. Our [wind damage roof repair](/wind-damage-roof-repair) approach addresses both the visible storm damage and the underlying condition that made the roof vulnerable, so the repair provides lasting protection rather than restoring the pre-storm weakness that will fail again in the next event.'
   ],
@@ -34,7 +34,25 @@ export const caldwellWindDamageRoofRepair: ComboContent = {
     {
       question: 'Can wind damage be prevented on a Caldwell roof?',
       answer: 'Wind damage cannot be eliminated but can be significantly reduced through proper installation and maintenance. High-wind-rated shingles with reinforced sealant strips and six-nail installation patterns resist uplift forces that would remove standard installations. Regular maintenance that identifies and reseals aging sealant strips before wind events tests them maintains the continuous adhesion that prevents progressive stripping. Trimming tree branches to maintain clearance from roof surfaces reduces both debris impact and the sail effect that large branches create during storms. We discuss wind-resistance upgrades during every Caldwell repair and replacement consultation.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Caldwell, NJ?',
+      answer: 'Most wind damage roof repair projects in Caldwell range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Caldwell NJ -- shingle replacement, branch impact repair, and uplift reinforcement for tree-canopy homes.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

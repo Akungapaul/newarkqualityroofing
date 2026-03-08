@@ -4,7 +4,7 @@ export const maplewoodRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'maplewood',
   overview: [
-    'Roof leak repair in Maplewood is complicated by the township\'s extraordinary architectural diversity. Tracking a leak through a Victorian\'s multi-gable roof system requires different diagnostic skills than finding the source on a Colonial Revival\'s straightforward side-gable layout. Water that enters at a failed flashing joint on a third-floor turret may travel along rafters, across ceiling joists, and emerge as a stain two rooms away from the actual penetration point. Our [roof leak repair](/roof-leak-repair) technicians are trained to think three-dimensionally about water paths through complex roof structures, a skill essential in Maplewood where simple roof geometries are the exception rather than the rule.',
+    'Newark Quality Roofing delivers expert roof leak repair in Maplewood — with prices starting from $300–$1,200 and free estimates available today. Roof leak repair in Maplewood is complicated by the township\'s extraordinary architectural diversity. Tracking a leak through a Victorian\'s multi-gable roof system requires different diagnostic skills than finding the source on a Colonial Revival\'s straightforward side-gable layout. Water that enters at a failed flashing joint on a third-floor turret may travel along rafters, across ceiling joists, and emerge as a stain two rooms away from the actual penetration point. Our [roof leak repair](/roof-leak-repair) technicians are trained to think three-dimensionally about water paths through complex roof structures, a skill essential in Maplewood where simple roof geometries are the exception rather than the rule.',
     'The Hilton neighborhood and properties climbing toward South Mountain Reservation experience leak patterns driven by the mountain\'s environmental influence. Persistent shade from the Reservation canopy keeps north-facing roof slopes damp longer, promoting moss growth that lifts shingle edges and channels water beneath the surface. Debris accumulation in closed valleys creates miniature dams during rainfall, forcing water under flashings that would otherwise shed it cleanly. Homeowners along Wyoming Avenue and Crestwood Drive who notice seasonal leak patterns, typically worsening in autumn and winter, are usually dealing with these canopy-driven mechanisms rather than material failure.',
     'Maplewood Village\'s mixed-use commercial buildings and the Springfield Avenue corridor present flat-roof and low-slope leak challenges distinct from the residential pitched-roof work. Membrane punctures from rooftop equipment, failed seam welds, and ponding water behind deteriorated parapet flashings account for most commercial leaks in [Maplewood](/roofing-in-maplewood-nj). Our commercial leak repair team uses infrared moisture scanning to locate trapped water beneath membrane surfaces before it causes structural damage to the deck below.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodRoofLeakRepair: ComboContent = {
       question: 'Should I repair or replace my leaking Maplewood roof?',
       answer: 'The decision depends on the roof\'s age, material condition, and leak cause. Isolated leaks from flashing failure or localized damage on an otherwise sound roof are cost-effective repairs. Multiple active leaks, widespread granule loss, or systemic underlayment failure on a roof approaching the end of its service life typically indicate replacement is the better investment. Our leak repair assessment includes an honest remaining-life estimate to help you decide.',
     },
+    {
+      question: 'How much does roof leak repair cost in Maplewood, NJ?',
+      answer: 'Most roof leak repair projects in Maplewood range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in Maplewood NJ. Diagnostic expertise for Victorian, Tudor, and Colonial leaks. South Mountain debris damage solutions.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

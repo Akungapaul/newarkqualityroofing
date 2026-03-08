@@ -4,7 +4,7 @@ export const cedarGroveSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Slate roofing in Cedar Grove occupies a niche market, found primarily on the larger colonial and Tudor-influenced homes along Bowden Road and in the premium neighborhoods near the North Caldwell border. These properties carry slate installations dating from the 1930s through the 1960s when natural stone was specified for upscale residential construction, and many of these roofs have reached the point where individual slate replacement, flashing renewal, or selective restoration can extend their service life by decades. Our [slate roof installation and repair](/slate-roof-installation-repair) expertise serves Cedar Grove homeowners who want to preserve the character and longevity that natural slate provides.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Cedar Grove — with prices starting from $20,000–$45,000 and free estimates available today. Slate roofing in Cedar Grove occupies a niche market, found primarily on the larger colonial and Tudor-influenced homes along Bowden Road and in the premium neighborhoods near the North Caldwell border. These properties carry slate installations dating from the 1930s through the 1960s when natural stone was specified for upscale residential construction, and many of these roofs have reached the point where individual slate replacement, flashing renewal, or selective restoration can extend their service life by decades. Our [slate roof installation and repair](/slate-roof-installation-repair) expertise serves Cedar Grove homeowners who want to preserve the character and longevity that natural slate provides.',
     'New slate installations on Cedar Grove homes are uncommon but not unheard of. Homeowners renovating premium properties or building custom homes in the township occasionally specify natural slate for its century-plus lifespan and distinctive aesthetic. The investment is substantial -- three to four times the cost of architectural shingles -- but the per-year cost over a 100-year life cycle makes slate the most economical roofing material for homeowners who plan to remain in their Cedar Grove home for decades. Properties in nearby [North Caldwell](/slate-roof-installation-repair-north-caldwell-nj) include comparable premium homes where slate installation and restoration remain active services.',
     'Cedar Grove\'s northern Essex County weather tests slate roofing differently than urban environments. Freeze-thaw cycling at the township\'s elevation drives moisture into the porous edges of lower-grade slates, causing delamination and flaking that eventually requires individual slate replacement. Higher-grade unfading slates from Vermont and Pennsylvania quarries resist this cycling better, and our repair work prioritizes matching replacement slates to the grade and color of the existing installation.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveSlateRoofInstallationRepair: ComboContent = {
       question: 'Can you install new slate on a Cedar Grove ranch home?',
       answer: 'Natural slate on ranch-style homes presents structural challenges because the original framing was sized for lightweight asphalt shingles. Installation is possible if the structure is reinforced to carry the additional 450 to 650 pounds per square, but this adds significant cost. Synthetic slate products that replicate the appearance at one-third the weight offer a practical alternative for Cedar Grove ranch homes seeking the slate aesthetic.',
     },
+    {
+      question: 'How much does slate roof installation repair cost in Cedar Grove, NJ?',
+      answer: 'Most slate roof installation repair projects in Cedar Grove range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Cedar Grove NJ. Quarry-matched replacements, flashing renewal, and restoration for colonial homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Roof replacement in South Orange Village carries implications beyond weather protection -- it is an architectural decision that shapes the character of a home within a community known for its preservation-conscious residents and distinguished housing stock. The Montrose Park Tudors, the Scotland Road bungalows, and the Colonials along Prospect Street each demand material selections that honor their specific period and style, making the replacement conversation in South Orange fundamentally different from the straightforward shingle-swap projects common in neighboring communities.',
+    'Newark Quality Roofing delivers expert roof replacement in South Orange — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement in South Orange Village carries implications beyond weather protection -- it is an architectural decision that shapes the character of a home within a community known for its preservation-conscious residents and distinguished housing stock. The Montrose Park Tudors, the Scotland Road bungalows, and the Colonials along Prospect Street each demand material selections that honor their specific period and style, making the replacement conversation in South Orange fundamentally different from the straightforward shingle-swap projects common in neighboring communities.',
     'The village\'s housing market reinforces the importance of roof material choice. South Orange buyers pay premium prices for homes that maintain architectural integrity, and a roof replacement that downgrades from slate to architectural shingles on a Montrose Park estate visibly diminishes the property\'s stature. Conversely, homeowners in [Maplewood](/roof-replacement-maplewood-nj) and other adjacent communities increasingly look to South Orange\'s material standards when upgrading their own homes, recognizing that premium roofing materials deliver both aesthetic and resale value advantages.',
     'Seton Hall University\'s campus buildings require periodic full roof replacement on both historic academic structures and modern facilities. These institutional projects demand scheduling precision -- work during academic breaks -- and material specifications that satisfy both performance requirements and the aesthetic standards expected of a historic collegiate campus. Our experience with Seton Hall replacements informs our residential work throughout the village, where the same attention to detail and material quality applies at residential scale.',
     'South Orange\'s position along the western edge of the [South Orange](/roofing-in-south-orange-nj) Reservation corridor means replacement roofing must withstand concentrated environmental stress from heavy tree debris, persistent shade moisture, and wind exposure at the Watchung Ridge interface. Our replacement specifications for properties along the Reservation boundary include enhanced underlayment, ice-and-water shield at all vulnerable transitions, and material selections rated for the biological growth pressure that South Orange\'s forest-edge microclimate generates.'
@@ -35,7 +35,25 @@ export const southOrangeRoofReplacement: ComboContent = {
     {
       question: 'Do you coordinate with Seton Hall University for campus roof replacements?',
       answer: 'Yes. We schedule campus roof replacements during academic breaks to minimize disruption to university operations. Our team coordinates with Seton Hall facilities management for access protocols, safety requirements, and material staging on campus. We have completed both membrane replacements on modern facilities and slate restoration work on historic campus buildings.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in South Orange, NJ?',
+      answer: 'Most roof replacement projects in South Orange range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement in South Orange NJ -- slate, cedar shake, and architectural shingle options for Montrose Park estates and village homes.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

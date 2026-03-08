@@ -4,7 +4,7 @@ export const roselandHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'roseland',
   overview: [
-    'Hail events in Roseland arrive embedded within the severe thunderstorms that cross the Watchung ridge from Morris County, and the damage they inflict on the borough\'s aging residential roofs is frequently more extensive than homeowners realize from ground-level observation. Hailstones that leave visible dents in gutters, downspouts, and mailboxes simultaneously impact every square foot of exposed roof surface, fracturing the fiberglass mat beneath the granule layer of asphalt shingles and breaking the thermally activated sealant bonds that hold shingle tabs in place. This hidden damage may not produce an immediate leak but accelerates shingle deterioration dramatically, reducing the remaining roof life from years to months.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Roseland — with prices starting from $500–$2,500 and free estimates available today. Hail events in Roseland arrive embedded within the severe thunderstorms that cross the Watchung ridge from Morris County, and the damage they inflict on the borough\'s aging residential roofs is frequently more extensive than homeowners realize from ground-level observation. Hailstones that leave visible dents in gutters, downspouts, and mailboxes simultaneously impact every square foot of exposed roof surface, fracturing the fiberglass mat beneath the granule layer of asphalt shingles and breaking the thermally activated sealant bonds that hold shingle tabs in place. This hidden damage may not produce an immediate leak but accelerates shingle deterioration dramatically, reducing the remaining roof life from years to months.',
     'The mid-century housing stock that defines Roseland -- colonials on Laurel Avenue, split-levels along Becker Farm Road, ranches off Harrison Avenue -- carries shingle systems of varying age and condition. On relatively new architectural shingles, hail impacts may produce cosmetic damage without compromising weather protection. On shingles already fifteen to twenty years into their service life, the same impacts can be catastrophic -- fracturing already-brittle mat material and accelerating granule loss that was already underway. This variable response to hail is why professional assessment after every hail event is essential for Roseland homeowners rather than assuming that the absence of immediate leaking means the roof is undamaged.',
     'Our [hail damage roof repair](/hail-damage-roof-repair) process for Roseland combines detailed damage assessment with insurance claim expertise. Hail damage claims follow specific documentation requirements that differ from general storm damage, and adjusters trained in hail assessment use material-specific criteria to evaluate shingle condition. Our Roseland hail inspections apply the same criteria -- testing sealant bond integrity, measuring granule displacement depth, and documenting mat fractures with close-up photography -- to produce assessments that align with adjuster methodology and support complete claim resolution.',
     'Roseland homeowners often discover hail damage indirectly. A neighbor files a claim, an insurance company sends a regional notification, or a roofing contractor working nearby observes damage on surrounding homes. When hail affects a geographic area, every roof within that zone has received the same exposure, and proactive inspection is the responsible course of action even for homeowners whose roofs show no visible problems from the ground. Properties in [Livingston](/hail-damage-roof-repair-livingston-nj) and [Essex Fells](/hail-damage-roof-repair-essex-fells-nj) within the same storm path benefit from concurrent inspection.'
@@ -35,7 +35,25 @@ export const roselandHailDamageRoofRepair: ComboContent = {
     {
       question: 'A roofing company left a card on my door saying my Roseland roof has hail damage. Should I trust them?',
       answer: 'Be cautious with unsolicited damage assessments. While legitimate hail events do affect geographic areas where multiple roofs sustain damage, the door-knocking roofing companies that appear after storms have mixed reputations. Before authorizing any work or signing any agreements, verify the company is licensed in New Jersey, carries adequate insurance, and has an established local presence. We provide free hail damage inspections for Roseland homeowners with no obligation and no pressure -- our assessment tells you what the damage is, what repair is needed, and what your insurance should cover, with no contingency agreements or assignment of benefits required.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in Roseland, NJ?',
+      answer: 'Most hail damage roof repair projects in Roseland range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Roseland NJ -- expert assessment, insurance documentation, and shingle replacement for storm-impacted homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

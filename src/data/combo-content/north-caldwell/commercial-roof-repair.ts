@@ -4,7 +4,7 @@ export const northCaldwellCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Commercial roof repair in North Caldwell responds to the maintenance needs of the borough\'s professional offices, medical practices, and municipal buildings where roof leaks directly impact business operations and tenant satisfaction. A leak above a medical examination room, a dental operatory, or a professional conference space cannot wait for a scheduled replacement project -- it requires prompt, reliable repair that stops water intrusion and restores the building\'s protective envelope immediately.',
+    'Newark Quality Roofing delivers expert commercial roof repair in North Caldwell — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in North Caldwell responds to the maintenance needs of the borough\'s professional offices, medical practices, and municipal buildings where roof leaks directly impact business operations and tenant satisfaction. A leak above a medical examination room, a dental operatory, or a professional conference space cannot wait for a scheduled replacement project -- it requires prompt, reliable repair that stops water intrusion and restores the building\'s protective envelope immediately.',
     'Our [commercial roof repair](/commercial-roof-repair) service for North Caldwell properties provides rapid response for active leaks and scheduled maintenance for developing conditions identified during regular inspection. The flat membrane roofs on most North Caldwell commercial buildings develop predictable failure patterns: seam separations, flashing deterioration at wall junctions, and puncture damage around rooftop HVAC equipment. Identifying these patterns early through routine inspection prevents the emergency scenarios that disrupt tenant operations.',
     'The small scale of North Caldwell\'s commercial properties means that repairs have an outsized impact on building performance. A single seam failure on a 3,000-square-foot office building affects a proportionally larger area than the same failure on a 30,000-square-foot warehouse. We treat every commercial repair in [North Caldwell](/roofing-in-north-caldwell-nj) with the urgency and precision that small building vulnerabilities demand. Commercial property managers in [Caldwell](/commercial-roof-repair-caldwell-nj) rely on us for similar responsive repair service across their more extensive commercial district.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellCommercialRoofRepair: ComboContent = {
     {
       question: 'Do you provide maintenance programs for North Caldwell commercial roofs?',
       answer: 'Yes. Our commercial maintenance program includes semi-annual inspections with a written condition report, debris clearing at drains and scuppers, sealant assessment at penetrations, and priority scheduling for any repairs identified during inspection. The program costs a fraction of a single emergency repair call and prevents the majority of failure conditions that produce unexpected leaks and tenant disruption.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in North Caldwell, NJ?',
+      answer: 'Most commercial roof repair projects in North Caldwell range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in North Caldwell NJ -- rapid leak response and scheduled maintenance for professional offices and small commercial buildings.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

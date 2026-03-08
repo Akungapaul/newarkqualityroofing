@@ -4,7 +4,7 @@ export const cedarGroveGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Gutter installation and repair in Cedar Grove manages the substantial water volume that the township\'s low-pitch ranch roofs, wide eave spans, and dense tree canopy direct toward building foundations. The large, uninterrupted roof planes typical of Cedar Grove ranch homes collect significant rainfall that must be captured, channeled, and discharged at controlled locations to prevent foundation erosion, basement flooding, and landscape damage. Our [gutter installation](/gutter-installation-repair) designs for Cedar Grove account for the specific drainage demands that the township\'s housing stock and wooded environment create.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Cedar Grove — with prices starting from $1,000–$3,500 and free estimates available today. Gutter installation and repair in Cedar Grove manages the substantial water volume that the township\'s low-pitch ranch roofs, wide eave spans, and dense tree canopy direct toward building foundations. The large, uninterrupted roof planes typical of Cedar Grove ranch homes collect significant rainfall that must be captured, channeled, and discharged at controlled locations to prevent foundation erosion, basement flooding, and landscape damage. Our [gutter installation](/gutter-installation-repair) designs for Cedar Grove account for the specific drainage demands that the township\'s housing stock and wooded environment create.',
     'Cedar Grove\'s dense canopy of oaks, maples, and Norway spruces produces a debris load that overwhelms standard five-inch residential gutters within a few years of installation. Leaf and needle accumulation blocks downspout openings, backs water up over gutter edges, and creates standing-water conditions that corrode gutter seams and accelerate fascia board deterioration. Our Cedar Grove gutter systems are sized for the actual debris conditions -- six-inch gutters with oversized downspouts on heavily canopied properties -- rather than the minimal sizing that builder-grade installations provide.',
     'Homeowners in neighboring [Little Falls](/gutter-installation-repair-little-falls-nj) and [Montclair](/gutter-installation-repair-montclair-nj) contend with similar canopy debris challenges, but Cedar Grove\'s ranch-dominant housing stock adds a dimension that other communities navigate less frequently: the wide eave overhangs and long, uninterrupted gutter runs that ranch design produces require careful slope calculation and strategic downspout placement to prevent mid-run overflow during heavy rainfall.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveGutterInstallationRepair: ComboContent = {
       question: 'Can gutters prevent basement flooding in Cedar Grove?',
       answer: 'Properly sized and maintained gutters with adequate downspout discharge are the first line of defense against foundation water intrusion in Cedar Grove. Gutters capture roof runoff and direct it away from the foundation through downspout extensions or underground drain lines. Without functional gutters, a Cedar Grove ranch roof can discharge over a thousand gallons of water per inch of rainfall directly against the foundation, saturating the surrounding soil and pressurizing basement walls.',
     },
+    {
+      question: 'How much does gutter installation repair cost in Cedar Grove, NJ?',
+      answer: 'Most gutter installation repair projects in Cedar Grove range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Cedar Grove NJ -- seamless aluminum systems sized for ranch homes and heavy tree canopy with proper drainage.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

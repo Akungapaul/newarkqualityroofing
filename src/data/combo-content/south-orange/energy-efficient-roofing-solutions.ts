@@ -4,7 +4,7 @@ export const southOrangeEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'south-orange',
   overview: [
-    'Energy-efficient roofing solutions in South Orange Village align with the community\'s documented commitment to sustainability and environmental responsibility. The village\'s progressive homeowner base actively pursues improvements that reduce carbon footprints and energy consumption, making South Orange one of the most receptive markets in Essex County for roofing technologies that deliver measurable thermal performance improvements alongside traditional weather protection.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in South Orange — with prices starting from $10,000–$28,000 and free estimates available today. Energy-efficient roofing solutions in South Orange Village align with the community\'s documented commitment to sustainability and environmental responsibility. The village\'s progressive homeowner base actively pursues improvements that reduce carbon footprints and energy consumption, making South Orange one of the most receptive markets in Essex County for roofing technologies that deliver measurable thermal performance improvements alongside traditional weather protection.',
     'South Orange\'s residential building stock presents significant opportunity for energy-efficient roofing upgrades. The pre-war homes that dominate the village were constructed long before modern energy codes, with minimal attic insulation and ventilation designs that allow substantial heat transfer through the roof assembly. Upgrading the roofing system with reflective materials, radiant barriers, and enhanced insulation transforms the roof from a thermal liability into an energy asset that reduces both heating and cooling costs throughout the year.',
     'Cool-roof technology -- highly reflective roofing surfaces that reduce solar heat absorption -- provides particular benefit for South Orange homes and commercial buildings that experience direct sun exposure during summer months. Reflective architectural shingles, metal roofing with cool-coated finishes, and white membrane systems on commercial buildings all reduce the thermal load that air conditioning must overcome, lowering energy consumption and improving occupant comfort. Our [energy-efficient roofing](/energy-efficient-roofing-solutions) recommendations account for each property\'s orientation, shade profile, and existing insulation levels.',
     'The commercial buildings along South Orange Avenue and the Seton Hall University campus benefit from energy-efficient roofing specifications that reduce operating costs while advancing institutional sustainability goals. Reflective membrane systems, above-deck insulation upgrades, and integrated ventilation improvements deliver measurable energy savings that contribute to green building certifications and satisfy the environmental expectations of tenants, students, and the broader [South Orange](/roofing-in-south-orange-nj) community.'
@@ -35,7 +35,25 @@ export const southOrangeEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'What is the best energy-efficient roofing material for South Orange homes?',
       answer: 'The best material depends on the specific home. For pitched roofs, cool-rated architectural shingles in darker tones provide moderate reflective improvement with aesthetic compatibility. Standing-seam metal with cool coatings provides maximum reflective performance with 50-year durability. For flat or low-slope surfaces, white TPO membrane delivers the highest solar reflectance. The combination of reflective roofing material with radiant barrier underlayment and proper insulation provides the most comprehensive energy improvement regardless of the surface material chosen.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in South Orange, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in South Orange range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy-efficient roofing in South Orange NJ -- cool roofs, insulation upgrades, and reflective systems for homes and commercial buildings.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

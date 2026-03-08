@@ -4,7 +4,7 @@ export const caldwellEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'caldwell',
   overview: [
-    'Commercial EPDM roofing in Caldwell serves the borough\'s small-shop economy along Bloomfield Avenue and the light-commercial buildings scattered through the mixed-use zones near downtown. Unlike the warehouse-scale EPDM installations common in [Newark](/epdm-commercial-roofing-newark-nj) or industrial districts, Caldwell commercial roofs typically range from 2,000 to 8,000 square feet -- modest footprints that favor single-sheet EPDM membrane application without field seams. This eliminates the primary failure mode of large-scale EPDM installations and gives Caldwell business owners a roofing system with fewer potential leak points than multi-sheet configurations require.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Caldwell — with prices starting from $6–$11/sq ft and free estimates available today. Commercial EPDM roofing in Caldwell serves the borough\'s small-shop economy along Bloomfield Avenue and the light-commercial buildings scattered through the mixed-use zones near downtown. Unlike the warehouse-scale EPDM installations common in [Newark](/epdm-commercial-roofing-newark-nj) or industrial districts, Caldwell commercial roofs typically range from 2,000 to 8,000 square feet -- modest footprints that favor single-sheet EPDM membrane application without field seams. This eliminates the primary failure mode of large-scale EPDM installations and gives Caldwell business owners a roofing system with fewer potential leak points than multi-sheet configurations require.',
     'The commercial building stock along [Caldwell\'s](/roofing-in-caldwell-nj) Bloomfield Avenue reflects small-town retail -- dental offices, restaurants, hair salons, insurance agencies, and specialty shops occupying one- and two-story buildings with parapeted flat roofs. These buildings share HVAC equipment loads, pedestrian foot traffic during maintenance, and the debris accumulation from the street trees that line the avenue. Our [EPDM commercial roofing](/epdm-commercial-roofing) approach accounts for these Caldwell-specific operating conditions rather than applying urban commercial standards to a suburban commercial context.',
     'EPDM\'s track record in commercial applications spans five decades, and the rubber membrane\'s flexibility through Caldwell\'s full temperature range -- from single digits in January to ninety-plus in July -- makes it a reliable choice for building owners who value proven performance over marketing claims. The material stretches and contracts without fatigue cracking, bridges minor substrate movement, and resists the hail impacts that occasionally affect Essex County during severe spring thunderstorms.'
   ],
@@ -34,7 +34,25 @@ export const caldwellEpdmCommercialRoofing: ComboContent = {
     {
       question: 'How often should drain maintenance be performed on Caldwell commercial EPDM roofs?',
       answer: 'Caldwell\'s tree canopy makes quarterly drain inspection and clearing the minimum standard for commercial flat roofs. During October and November when leaf fall peaks, monthly clearing prevents the blockages that cause ponding water emergencies. We offer maintenance agreements for Caldwell commercial building owners that include scheduled drain clearing, annual membrane inspection, and priority emergency response -- a proactive approach that prevents the costly emergency repairs that deferred maintenance produces.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Caldwell, NJ?',
+      answer: 'Most epdm commercial roofing projects in Caldwell range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Caldwell NJ -- single-sheet membrane systems for Bloomfield Avenue shops and small commercial buildings.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

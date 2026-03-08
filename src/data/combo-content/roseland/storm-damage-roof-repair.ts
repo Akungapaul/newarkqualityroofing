@@ -4,7 +4,7 @@ export const roselandStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'roseland',
   overview: [
-    'Storm damage repair in Roseland responds to a weather exposure profile shaped by the borough\'s position along the eastern Watchung slope. Thunderstorms arriving from the west build energy across the open terrain of Morris County before striking Roseland with wind gusts, heavy rainfall, and occasional hail that tests every roof surface in the borough. The colonials, split-levels, and ranches along Becker Farm Road and Harrison Avenue absorb these weather events through aging shingle systems that may lack the wind ratings and impact resistance of modern materials, making storm damage a recurring reality for Roseland homeowners.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Roseland — with prices starting from $500–$3,000 and free estimates available today. Storm damage repair in Roseland responds to a weather exposure profile shaped by the borough\'s position along the eastern Watchung slope. Thunderstorms arriving from the west build energy across the open terrain of Morris County before striking Roseland with wind gusts, heavy rainfall, and occasional hail that tests every roof surface in the borough. The colonials, split-levels, and ranches along Becker Farm Road and Harrison Avenue absorb these weather events through aging shingle systems that may lack the wind ratings and impact resistance of modern materials, making storm damage a recurring reality for Roseland homeowners.',
     'Tree-related storm damage represents the highest severity category in Roseland. The borough\'s mature oak, maple, and ash canopy -- valued for shade and streetscape character -- becomes a liability during high-wind events. Limbs of substantial size break free and strike roof surfaces, puncturing sheathing, crushing ridge vents, and tearing shingle sections loose. Unlike the shingle damage that wind and hail produce, branch impacts can create structural breaches that require immediate containment and complex repair involving framing, sheathing replacement, and complete reroofing of the affected section. Homeowners in neighboring [North Caldwell](/storm-damage-roof-repair-north-caldwell-nj) face similar tree canopy risks on their wooded lots.',
     'Our [storm damage roof repair](/storm-damage-roof-repair) response for Roseland combines emergency stabilization with insurance-coordinated permanent repair. We understand that storm damage creates both a physical problem and a financial process -- the roof needs to be secured immediately to prevent secondary damage, but the permanent repair scope and cost must be documented and approved through the insurance claim before work proceeds. Our crews are trained to perform both functions simultaneously: tarping and containment first, followed by detailed damage documentation formatted for insurance submission.',
     'Commercial storm damage on Roseland\'s office buildings along Eisenhower Parkway typically involves membrane uplift, flashing displacement at rooftop equipment, and drainage system overload during intense rainfall. These buildings carry commercial property policies with different documentation and claims processes than residential coverage, and our commercial damage assessment reports are formatted to meet those requirements. The corporate property managers who oversee Roseland\'s commercial buildings expect professional damage documentation that supports both immediate repair authorization and longer-term capital recovery through insurance claims.'
@@ -35,7 +35,25 @@ export const roselandStormDamageRoofRepair: ComboContent = {
     {
       question: 'How long after a storm should I wait before getting my Roseland roof inspected?',
       answer: 'Schedule an inspection as soon as conditions are safe -- typically within twenty-four to forty-eight hours of the storm event. Early inspection serves two purposes: it documents damage conditions before additional weather events alter the evidence, and it allows prompt containment of any breaches that could lead to secondary interior damage. Insurance companies expect policyholders to take reasonable steps to prevent additional damage, and timely professional inspection demonstrates that due diligence.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Roseland, NJ?',
+      answer: 'Most storm damage roof repair projects in Roseland range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Roseland NJ -- branch impacts, wind damage, hail assessment, and insurance claim coordination for homes and offices.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

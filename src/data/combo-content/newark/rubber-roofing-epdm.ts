@@ -4,7 +4,7 @@ export const newarkRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'newark',
   overview: [
-    'EPDM rubber roofing is the legacy workhorse of Newark flat roof landscape. Decades before TPO and PVC entered the market, EPDM membranes were solving the waterproofing challenges on Newark apartment buildings, commercial warehouses, and institutional structures. Today, thousands of EPDM roofs across the Ironbound, Central Ward, and downtown commercial districts continue to perform their original function, many well past their projected service life. This proven track record makes EPDM a familiar and trusted choice for Newark property owners who value demonstrated longevity over newer alternatives.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Newark — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing is the legacy workhorse of Newark flat roof landscape. Decades before TPO and PVC entered the market, EPDM membranes were solving the waterproofing challenges on Newark apartment buildings, commercial warehouses, and institutional structures. Today, thousands of EPDM roofs across the Ironbound, Central Ward, and downtown commercial districts continue to perform their original function, many well past their projected service life. This proven track record makes EPDM a familiar and trusted choice for Newark property owners who value demonstrated longevity over newer alternatives.',
     'The EPDM-versus-TPO conversation dominates flat roof decisions in Newark commercial circles. EPDM offers superior resistance to ponding water, which is particularly relevant on Newark flat roofs where drainage challenges are endemic. The material remains flexible at temperatures below negative forty degrees Fahrenheit, ensuring winter performance through the coldest Newark nights without the brittleness that affects some thermoplastic membranes. However, the black surface color of standard EPDM absorbs solar radiation aggressively, creating surface temperatures that exceed 170 degrees in Newark heat island summers -- a disadvantage that white TPO addresses directly.',
     'Walkable EPDM surfaces serve a practical need on Newark commercial and multi-family flat roofs where maintenance personnel regularly access rooftop HVAC equipment, satellite systems, and building infrastructure. Factory-applied walkway pads or field-installed EPDM walkway rolls create reinforced traffic paths that protect the membrane from foot traffic wear, dropped tools, and dragged equipment. On Newark buildings with multiple rooftop penetrations requiring monthly or quarterly service access, these walkway systems are essential rather than optional.',
     'Multi-family property managers across Newark rely on EPDM for its predictable performance and straightforward repair protocol. When a seam failure or puncture occurs on an EPDM roof, the repair involves cleaning the affected area, applying primer, and bonding a patch with contact adhesive -- a process that any trained maintenance technician can execute without specialized welding equipment. This repairability reduces emergency response costs for Newark buildings where immediate leak containment prevents damage to occupied units below.',
@@ -40,6 +40,24 @@ export const newarkRubberRoofingEpdm: ComboContent = {
       question: 'How do you protect an EPDM roof from foot traffic on Newark buildings with rooftop equipment?',
       answer: 'We install factory-produced EPDM walkway pads along all service routes between the roof access point and each piece of rooftop equipment. These reinforced pads distribute foot traffic loads and protect the membrane from tool drops, dragged equipment, and repeated compression at high-traffic points. For Newark buildings with monthly rooftop maintenance schedules, walkway protection is included as standard scope in our EPDM installations.',
     },
+    {
+      question: 'How much does rubber roofing epdm cost in Newark, NJ?',
+      answer: 'Most rubber roofing epdm projects in Newark range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Newark NJ. Proven flat roof membrane for commercial and multi-family buildings with expert seam repair and ponding solutions.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

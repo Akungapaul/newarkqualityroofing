@@ -4,7 +4,7 @@ export const irvingtonRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'irvington',
   overview: [
-    'Roof ventilation deficiency is a systemic condition on Irvington\'s pre-war housing stock, where homes built in the 1920s through 1940s relied on gable vents or no ventilation at all -- a design standard that fails to manage the moisture and heat loads that modern insulation levels and living patterns generate. Our [roof vent installation](/roof-vent-installation-repair) services across Irvington upgrade these inadequate ventilation systems with continuous ridge vent, box vent, and powered attic ventilator configurations that balance intake and exhaust for optimal attic climate control.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Irvington — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation deficiency is a systemic condition on Irvington\'s pre-war housing stock, where homes built in the 1920s through 1940s relied on gable vents or no ventilation at all -- a design standard that fails to manage the moisture and heat loads that modern insulation levels and living patterns generate. Our [roof vent installation](/roof-vent-installation-repair) services across Irvington upgrade these inadequate ventilation systems with continuous ridge vent, box vent, and powered attic ventilator configurations that balance intake and exhaust for optimal attic climate control.',
     'The consequences of poor attic ventilation in Irvington manifest in two seasonal extremes: summer heat accumulation that degrades shingle life from below and winter moisture condensation that rots roof decking from above. Attic temperatures in unventilated Irvington homes regularly exceed 150 degrees in July, baking the underside of asphalt shingles and accelerating granule loss, curling, and adhesive failure. In winter, warm moist air from the living space below condenses on cold roof sheathing, saturating the wood and promoting mold growth that spreads across entire roof planes.',
     'Irvington\'s investment property market encounters ventilation problems amplified by conversion work. Attic spaces converted to bedrooms or living areas in two-family and three-family homes eliminate the attic buffer zone between occupied space and roof deck, concentrating heat and moisture directly against the roof sheathing. These converted-attic properties require ventilation solutions that maintain air movement between the insulation and roof surface despite the reduced cavity depth. Ventilation upgrades in neighboring [East Orange](/roof-vent-installation-repair-east-orange-nj) address similar converted-attic conditions on that city\'s aging multi-family housing stock.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofVentInstallationRepair: ComboContent = {
       question: 'Can ridge vent be installed on my Irvington hip roof?',
       answer: 'Hip roofs have shorter ridge lines than gable roofs, which limits the exhaust area available for ridge vent installation. On Irvington hip-roofed colonials, the ridge may provide sufficient ventilation if the hip length is adequate, but many require supplemental box vents on the upper roof surface to achieve the calculated exhaust capacity. We specify the combination of ridge vent and supplemental vents that achieves proper ventilation balance for each hip roof configuration.',
     },
+    {
+      question: 'How much does roof vent installation repair cost in Irvington, NJ?',
+      answer: 'Most roof vent installation repair projects in Irvington range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation in Irvington NJ for proper attic ventilation. Ridge vents, box vents, and soffit intake for aging colonials and Cape Cods.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

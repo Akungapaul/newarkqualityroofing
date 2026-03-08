@@ -4,7 +4,7 @@ export const westOrangeCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'west-orange',
   overview: [
-    'Commercial metal roofing delivers the 50-year performance ceiling that West Orange building owners demand from their roof investment, combining structural standing seam panels with through-fastened R-panel systems across the township\'s commercial and light-industrial building stock. Our [commercial metal roofing](/commercial-metal-roofing) projects in West Orange engineer panel systems for the specific wind loads, thermal cycling, and maintenance access patterns that each building\'s elevation and use demand.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in West Orange — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing delivers the 50-year performance ceiling that West Orange building owners demand from their roof investment, combining structural standing seam panels with through-fastened R-panel systems across the township\'s commercial and light-industrial building stock. Our [commercial metal roofing](/commercial-metal-roofing) projects in West Orange engineer panel systems for the specific wind loads, thermal cycling, and maintenance access patterns that each building\'s elevation and use demand.',
     'West Orange\'s commercial metal roofing market divides between two distinct building types: retail and office buildings along Pleasant Valley Way and Eagle Rock Avenue that prioritize architectural appearance alongside performance, and light-industrial facilities where long-term weatherproofing and minimal maintenance drive material selection. Standing seam panels with concealed fasteners serve the former market; through-fastened R-panels and PBR profiles serve the latter. Both categories benefit from metal\'s immunity to the biological degradation that plagues membrane systems in West Orange\'s canopy-shaded locations.',
     'Ridge-top commercial buildings along Eagle Rock Avenue absorb the most severe wind conditions in West Orange\'s commercial corridor, making metal\'s interlocking panel system an engineering solution rather than a material preference. Standing seam panels with continuous seam locks resist uplift forces that mechanically attached membrane systems cannot match at these elevated exposures. Commercial operators near [Montclair](/commercial-metal-roofing-montclair-nj) face similar wind considerations on their own Upper Montclair ridge-top commercial properties.',
     'The lifecycle economics of commercial metal roofing in [West Orange](/roofing-in-west-orange-nj) favor building owners with investment horizons exceeding 15 years. Metal\'s 50-year service life eliminates the mid-life re-roofing costs that membrane systems require at 20 to 25 years, and the maintenance burden stays minimal throughout -- annual inspections, occasional sealant touch-ups at penetrations, and panel-edge fastener checks represent the full extent of routine metal roof maintenance.'
@@ -35,7 +35,25 @@ export const westOrangeCommercialMetalRoofing: ComboContent = {
     {
       question: 'Can commercial metal roofing be installed over an existing flat roof?',
       answer: 'Metal retrofit over existing flat roofs is possible using structural sub-framing that creates slope for water drainage. We install light-gauge steel purlins on adjustable brackets above the existing roof surface, creating the pitch that standing seam or R-panels require for proper drainage. This approach avoids the cost and disruption of existing roof removal while providing the 50-year performance of a new metal system. Structural engineering confirms that the existing building frame can support the added weight of the sub-framing and metal panel assembly.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in West Orange, NJ?',
+      answer: 'Most commercial metal roofing projects in West Orange range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in West Orange NJ. Standing seam and R-panel systems engineered for ridge-top winds and long-term performance.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

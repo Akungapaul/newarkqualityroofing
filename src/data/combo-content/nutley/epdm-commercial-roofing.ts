@@ -4,7 +4,7 @@ export const nutleyEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'nutley',
   overview: [
-    'EPDM commercial roofing has protected Nutley\'s business properties for decades, and the material remains a pragmatic choice for the township\'s small-format commercial buildings where proven reliability and cost efficiency outweigh the energy-reflectivity advantages of newer thermoplastic alternatives. Franklin Avenue\'s retail corridor, Centre Street\'s professional offices, and the commercial properties near Clara Maass Medical Center collectively represent hundreds of EPDM installations that have weathered three decades of New Jersey seasons while keeping the businesses below dry and operational.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Nutley — with prices starting from $6–$11/sq ft and free estimates available today. EPDM commercial roofing has protected Nutley\'s business properties for decades, and the material remains a pragmatic choice for the township\'s small-format commercial buildings where proven reliability and cost efficiency outweigh the energy-reflectivity advantages of newer thermoplastic alternatives. Franklin Avenue\'s retail corridor, Centre Street\'s professional offices, and the commercial properties near Clara Maass Medical Center collectively represent hundreds of EPDM installations that have weathered three decades of New Jersey seasons while keeping the businesses below dry and operational.',
     'The scale of commercial roofing in Nutley differs markedly from the warehouse districts and industrial parks that define commercial work in cities like [Newark](/epdm-commercial-roofing-newark-nj). Nutley commercial buildings typically range from 1,500 to 6,000 square feet of roof area -- modest footprints that house the locally owned restaurants, dental practices, law offices, and boutique retail that give the township its walkable downtown character. This smaller scale makes EPDM particularly attractive because the material performs best when installed in manageable sections with fully adhered attachment, and Nutley\'s building sizes fall squarely within that optimal range.',
     'Our [EPDM commercial](/epdm-commercial-roofing) roofing work in Nutley addresses both new membrane installations on deteriorated older buildings and ongoing maintenance of existing EPDM systems that still have years of useful life remaining. Many Franklin Avenue buildings received EPDM installations in the 1990s and early 2000s, and these membranes are entering the period where seam adhesion begins declining and flashing details around aging HVAC equipment need attention. A well-timed maintenance intervention can extend an existing EPDM roof\'s service life by five to eight years, deferring the capital expense of full replacement until the building owner is ready for that investment.',
     'Commercial EPDM installations in [Nutley](/roofing-in-nutley-nj) incorporate the insulation upgrades and drainage improvements that transform a simple re-membrane into a genuine building-envelope improvement. When we strip an aged tar-and-gravel or deteriorated EPDM system down to the deck, we install tapered polyiso insulation to create positive drainage slope, eliminate the ponding zones that shortened the previous roof\'s life, and bring the assembly closer to current energy code standards. The additional insulation cost is typically recovered within five to seven years through reduced heating and cooling expenses on Nutley\'s older commercial buildings.'
@@ -35,7 +35,25 @@ export const nutleyEpdmCommercialRoofing: ComboContent = {
     {
       question: 'What maintenance does a commercial EPDM roof need in Nutley?',
       answer: 'Commercial EPDM roofs in Nutley benefit from semi-annual maintenance visits that include drain clearing, debris removal from parapet perimeters, seam inspection with probe testing, and sealant touch-up at flashing transitions. Buildings under Nutley shade tree canopy need quarterly drain clearing during fall leaf season. Our commercial maintenance contracts provide scheduled visits with written condition reports and prioritized repair recommendations that let building owners budget proactively rather than reacting to leaks.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Nutley, NJ?',
+      answer: 'Most epdm commercial roofing projects in Nutley range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Nutley NJ. Fully adhered rubber membrane for Franklin Avenue businesses with drainage engineering and seam maintenance.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'millburn',
   overview: [
-    'Commercial EPDM roofing in Millburn serves the township\'s professional and institutional building stock with a membrane system engineered for the scale and performance demands that distinguish commercial applications from the residential flat-roof sections found on estate properties. The office buildings, medical complexes, and institutional facilities along Millburn Avenue, Essex Street, and the Short Hills train station corridor require roofing systems sized for roof areas measured in thousands of square feet, with drainage engineering, equipment loading, and maintenance access provisions that residential specifications do not address.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Millburn — with prices starting from $6–$11/sq ft and free estimates available today. Commercial EPDM roofing in Millburn serves the township\'s professional and institutional building stock with a membrane system engineered for the scale and performance demands that distinguish commercial applications from the residential flat-roof sections found on estate properties. The office buildings, medical complexes, and institutional facilities along Millburn Avenue, Essex Street, and the Short Hills train station corridor require roofing systems sized for roof areas measured in thousands of square feet, with drainage engineering, equipment loading, and maintenance access provisions that residential specifications do not address.',
     'Millburn\'s commercial tenants -- dermatology practices, orthodontic offices, estate planning attorneys, wealth management firms -- operate in professionally finished interiors where any water intrusion creates damage disproportionate to the leak\'s size. A minor seam failure above a medical imaging room can destroy equipment valued at hundreds of thousands of dollars. Our [EPDM commercial roofing](/epdm-commercial-roofing) installations for Millburn commercial properties specify premium membrane thickness, factory-fabricated seam assemblies, and redundant flashing at every penetration because the consequence of failure in these occupied professional environments exceeds the cost difference between standard and premium specification.',
     'The institutional buildings serving Millburn\'s community -- the public library, municipal complex, school facilities, and houses of worship -- represent EPDM applications where lifecycle cost and minimal disruption during installation are primary selection criteria. Unlike retail or office tenants who can temporarily relocate, schools and libraries must maintain operations during re-roofing projects. EPDM\'s cold-applied adhesive system produces no torch flames, minimal fumes, and manageable noise levels that allow installation to proceed during occupied hours with proper coordination. This characteristic gives EPDM a logistical advantage over heat-welded TPO or torch-applied modified bitumen on Millburn\'s institutional buildings.'
   ],
@@ -34,7 +34,25 @@ export const millburnEpdmCommercialRoofing: ComboContent = {
     {
       question: 'How does EPDM compare to TPO for commercial buildings in Millburn?',
       answer: 'EPDM offers a longer proven track record -- over fifty years of documented performance versus twenty-five for TPO -- and its cold-applied installation is quieter and produces fewer fumes than TPO\'s heat-welded seams. TPO\'s advantage is its reflective white surface that meets cool-roof energy codes and can reduce cooling costs. For Millburn commercial buildings where the roof is not visible from occupied spaces, the choice typically comes down to lifecycle cost analysis: EPDM\'s lower maintenance requirements and longer proven lifespan often offset TPO\'s energy savings in the Millburn climate where heating costs exceed cooling costs.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Millburn, NJ?',
+      answer: 'Most epdm commercial roofing projects in Millburn range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial EPDM roofing for Millburn offices, medical buildings, and institutions. Premium membrane systems with minimal tenant disruption.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

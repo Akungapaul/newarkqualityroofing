@@ -4,7 +4,7 @@ export const veronaBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'verona',
   overview: [
-    'Built-up roofing represents the original flat roof technology, and many Verona commercial buildings still carry BUR systems installed decades ago that continue to perform. The alternating layers of bitumen and reinforcing fabric create a monolithic waterproofing membrane whose thickness and redundancy exceed any single-ply system. For Verona property owners managing older Bloomfield Avenue retail buildings, municipal structures, or institutional facilities, built-up roofing offers the heavy-duty, time-proven protection that the building\'s original architects specified.',
+    'Newark Quality Roofing delivers expert built up roofing in Verona — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing represents the original flat roof technology, and many Verona commercial buildings still carry BUR systems installed decades ago that continue to perform. The alternating layers of bitumen and reinforcing fabric create a monolithic waterproofing membrane whose thickness and redundancy exceed any single-ply system. For Verona property owners managing older Bloomfield Avenue retail buildings, municipal structures, or institutional facilities, built-up roofing offers the heavy-duty, time-proven protection that the building\'s original architects specified.',
     'Newark Quality Roofing installs and maintains built-up roofing systems on Verona commercial properties where the material\'s strengths align with the building\'s operational demands. Heavy foot traffic environments, rooftop storage areas, and buildings requiring fire-rated roof assemblies benefit from BUR\'s inherent durability and non-combustible configuration. Our [built-up roofing](/built-up-roofing) crews understand both traditional hot-mopped and modern cold-applied BUR systems, matching the application method to each Verona building\'s specific conditions and code requirements.',
     'While newer membrane technologies have captured market share from built-up roofing, BUR retains advantages that modern single-ply systems cannot replicate. The multi-ply construction distributes stress across multiple reinforcing layers, preventing the catastrophic single-point failures that puncture single-ply membranes. Gravel-surfaced BUR provides UV protection, hail resistance, and ballast weight that resists wind uplift without mechanical fastening. Commercial property owners in [East Orange](/built-up-roofing-east-orange-nj) with similar multi-story office buildings have maintained BUR systems for 30 years or more, validating the technology\'s staying power.'
   ],
@@ -34,7 +34,25 @@ export const veronaBuiltUpRoofing: ComboContent = {
     {
       question: 'What maintenance does built-up roofing need in Verona?',
       answer: 'Annual inspections should check for alligator cracking in exposed bitumen surfaces, gravel displacement or thinning, and membrane softness indicating moisture beneath the plies. Clear drains and scuppers of debris accumulation. Re-coat smooth-surfaced BUR every five to seven years with compatible coating to renew UV protection. Address any identified defects promptly -- the multi-ply construction provides time before leaking starts, but ignoring early signs leads to more extensive repairs than catching them during routine inspection.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Verona, NJ?',
+      answer: 'Most built up roofing projects in Verona range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Verona NJ -- multi-ply BUR systems for commercial buildings with heavy traffic tolerance and proven long-term performance.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

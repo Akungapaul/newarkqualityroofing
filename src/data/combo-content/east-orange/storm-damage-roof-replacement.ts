@@ -4,7 +4,7 @@ export const eastOrangeStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Storm damage roof replacement in East Orange responds to the severe weather events -- nor\'easters, hurricane remnants, thunderstorm microbursts, and heavy hail events -- that periodically overwhelm even well-maintained roofing systems on the city\'s multi-family buildings, Victorian homes, and commercial properties. When [storm damage](/storm-damage-roof-replacement) exceeds what targeted repair can address -- shingles stripped from multiple roof slopes, membrane peeled from flat roofs, tree impact through the roof structure -- full replacement becomes the only path to restoring the building\'s weather protection.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in East Orange — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in East Orange responds to the severe weather events -- nor\'easters, hurricane remnants, thunderstorm microbursts, and heavy hail events -- that periodically overwhelm even well-maintained roofing systems on the city\'s multi-family buildings, Victorian homes, and commercial properties. When [storm damage](/storm-damage-roof-replacement) exceeds what targeted repair can address -- shingles stripped from multiple roof slopes, membrane peeled from flat roofs, tree impact through the roof structure -- full replacement becomes the only path to restoring the building\'s weather protection.',
     'The immediate aftermath of a major storm event creates urgency for East Orange landlords with occupied buildings. Exposed roof areas allow rain entry into occupied units, creating habitability violations, tenant displacement, and property damage liability. Emergency tarping and temporary weatherproofing bridge the gap between storm damage and permanent replacement, and our emergency response prioritizes occupied multi-family buildings where tenant safety and landlord liability are at stake.',
     'Storm damage replacement on East Orange buildings frequently improves upon the pre-storm condition because current building code and roofing technology exceed what was available when the damaged roof was originally installed. Impact-resistant shingles, enhanced wind-uplift rated membranes, improved ventilation systems, and current-code insulation replace aging systems with superior protection. Insurance-funded storm damage replacement transforms a destructive event into a building upgrade that enhances property value and reduces future weather vulnerability, the same silver-lining approach property owners in [Newark](/storm-damage-roof-replacement-newark-nj) take with their post-storm rebuilds.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeStormDamageRoofReplacement: ComboContent = {
     {
       question: 'What should I do immediately after storm damage to my East Orange building roof?',
       answer: 'Protect occupant safety first -- if structural damage is visible, evacuate affected areas. Document damage with photographs from safe vantage points. Contact your insurance carrier to initiate a claim. Call us for emergency tarping and assessment. Do not attempt to make temporary repairs yourself on a storm-damaged roof, as structural integrity may be compromised in areas that appear solid from above.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in East Orange, NJ?',
+      answer: 'Most storm damage roof replacement projects in East Orange range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement for East Orange NJ buildings -- emergency tarping, insurance claims, and full replacement after severe weather events.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

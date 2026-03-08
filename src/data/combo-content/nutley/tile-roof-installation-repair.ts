@@ -4,7 +4,7 @@ export const nutleyTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'nutley',
   overview: [
-    'Tile roofing in Nutley occupies a distinctive position within a township dominated by Tudor Revival and Colonial architecture. While clay and concrete tile is not the prevailing roofing material here the way asphalt shingles are, a growing number of Nutley homeowners are turning to tile for its unmatched longevity, fire resistance, and the Mediterranean warmth it brings to facades along Chestnut Street and the neighborhoods surrounding The Oval. The substantial construction of Nutley\'s 1920s and 1930s homes -- dimensional lumber framing, plaster walls, and solid masonry foundations -- provides the structural capacity that tile roofing demands, making this township one of the better candidates for tile installation in Essex County.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Nutley — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Nutley occupies a distinctive position within a township dominated by Tudor Revival and Colonial architecture. While clay and concrete tile is not the prevailing roofing material here the way asphalt shingles are, a growing number of Nutley homeowners are turning to tile for its unmatched longevity, fire resistance, and the Mediterranean warmth it brings to facades along Chestnut Street and the neighborhoods surrounding The Oval. The substantial construction of Nutley\'s 1920s and 1930s homes -- dimensional lumber framing, plaster walls, and solid masonry foundations -- provides the structural capacity that tile roofing demands, making this township one of the better candidates for tile installation in Essex County.',
     'Concrete tile has gained particular traction among Nutley homeowners renovating mid-century Capes and ranches in the Yantacaw and Spring Garden neighborhoods. Unlike the steep Tudor gables that favor traditional shingles, these lower-pitch rooflines showcase flat-profile concrete tile beautifully, and the weight penalty is manageable on the robust framing typical of 1950s and 1960s construction. Homeowners in neighboring [Belleville](/tile-roof-installation-repair-belleville-nj) have adopted similar concrete tile profiles, though Nutley installations tend toward more refined color blends that reflect the township\'s premium aesthetic expectations.',
     'Our [tile roof](/tile-roof-installation-repair) installation work in Nutley addresses the full spectrum from new installations to repair and maintenance of existing tile systems. Several homes near Kingsland Manor on River Road carry original clay tile roofs from the early twentieth century that require periodic maintenance -- cracked tile replacement, re-bedding of ridge caps, and re-pointing of mortar at hip and ridge lines. These restoration projects demand sourcing skills to find period-appropriate replacement tiles and the handwork expertise to integrate new pieces without disturbing the weathered patina that gives an aged clay roof its character.',
     'Tile roofing in [Nutley](/roofing-in-nutley-nj) also serves a practical purpose beyond aesthetics. The material\'s inherent fire resistance provides an insurance advantage that resonates with homeowners who have invested heavily in their properties. The thermal mass of tile moderates attic temperatures during summer, reducing cooling loads on homes that may lack the insulation upgrades found in newer construction. And the 75-plus-year lifespan of a properly installed tile roof means that many Nutley homeowners will never need to re-roof again -- an appealing proposition in a community that thinks generationally about property investments.'
@@ -35,7 +35,25 @@ export const nutleyTileRoofInstallationRepair: ComboContent = {
     {
       question: 'Can you repair individual broken tiles on my existing Nutley tile roof?',
       answer: 'Yes. Individual tile replacement is one of the primary advantages of tile roofing systems. We lift adjacent tiles to access the fasteners on the damaged piece, remove and replace it with a matching tile, and reset the surrounding tiles to their original position. The challenge on older Nutley installations is sourcing matching replacement tiles for discontinued profiles. We maintain sourcing relationships with salvage suppliers and can custom-color concrete tiles when period clay tiles are unavailable.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Nutley, NJ?',
+      answer: 'Most tile roof installation repair projects in Nutley range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Nutley NJ. Clay and concrete tile for Colonials, Tudors, and Capes with structural assessment and custom flashing.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

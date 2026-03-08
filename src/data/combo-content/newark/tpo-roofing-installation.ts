@@ -4,7 +4,7 @@ export const newarkTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'newark',
   overview: [
-    'Newark\'s commercial roofscape is overwhelmingly flat -- from the sprawling warehouse footprints along McCarter Highway to the multi-story office buildings lining Broad Street, the city presents hundreds of thousands of square feet of horizontal surface baking under the Northeast sun. TPO membrane has become the dominant roofing choice for Newark\'s property managers and building owners precisely because it addresses the two forces that punish these flat roofs hardest: solar heat gain and ponding water. The heat-reflective white surface of a properly installed TPO system can reduce roof surface temperatures by 50 to 60 degrees Fahrenheit compared to the dark EPDM and built-up roofs it typically replaces, translating directly into lower cooling costs for the commercial tenants below.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Newark — with prices starting from $7–$12/sq ft and free estimates available today. Newark\'s commercial roofscape is overwhelmingly flat -- from the sprawling warehouse footprints along McCarter Highway to the multi-story office buildings lining Broad Street, the city presents hundreds of thousands of square feet of horizontal surface baking under the Northeast sun. TPO membrane has become the dominant roofing choice for Newark\'s property managers and building owners precisely because it addresses the two forces that punish these flat roofs hardest: solar heat gain and ponding water. The heat-reflective white surface of a properly installed TPO system can reduce roof surface temperatures by 50 to 60 degrees Fahrenheit compared to the dark EPDM and built-up roofs it typically replaces, translating directly into lower cooling costs for the commercial tenants below.',
     'The urban heat island effect in Newark is measurable and costly. Downtown buildings surrounded by concrete and asphalt absorb and re-radiate heat throughout the cooling season, pushing HVAC systems harder and driving utility bills higher. TPO\'s reflective surface fights this phenomenon at the building level, and when adopted across multiple properties in a corridor -- as we\'ve seen along McCarter Highway and in the Gateway Center district -- the cumulative cooling effect benefits the entire microclimate. For facility directors managing energy budgets across multiple Newark properties, TPO installation represents one of the highest-ROI capital improvements available.',
     'What separates a TPO installation that lasts 25 years from one that fails at 12 is the quality of the heat-welded seams. Newark\'s temperature extremes -- summer roof surfaces exceeding 170 degrees Fahrenheit, winter wind chills dropping below zero -- stress every seam continuously. Our installation crews use automated welding machines calibrated to Newark\'s seasonal conditions, with field-verified peel tests on every seam run. The result is a monolithic membrane with seam strengths that actually exceed the sheet material itself, creating a watertight envelope over your commercial building that handles Newark\'s thermal cycling without the seam separations that plague mechanically fastened or adhesive-bonded systems.',
     'For building owners evaluating TPO against other single-ply options, the installed cost advantage is significant. TPO delivers performance comparable to PVC at a lower material cost point, making it the practical choice for large-footprint installations on Newark warehouses, retail centers, and institutional buildings. The membrane accommodates rooftop HVAC equipment, satellite arrays, and solar panel mounting systems without the chemical incompatibility issues that affect some competing membranes -- a critical consideration for Newark\'s increasingly equipment-dense commercial rooftops.'
@@ -35,7 +35,25 @@ export const newarkTpoRoofingInstallation: ComboContent = {
     {
       question: 'Can TPO be installed over our existing commercial roof without a full tear-off?',
       answer: 'In many cases, yes. New Jersey building code permits one recover layer over an existing single-ply or smooth-surfaced built-up roof, provided the existing system is structurally sound and not saturated with moisture. We perform core cuts and moisture scans on every potential recover project to verify the existing insulation is dry and the deck is solid. Recover installations save Newark building owners 20 to 30 percent compared to full tear-off by eliminating demolition labor and disposal costs -- a significant consideration in Newark where dumpster placement on congested streets adds logistical complexity and cost to tear-off projects.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Newark, NJ?',
+      answer: 'Most tpo roofing installation projects in Newark range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation for Newark NJ commercial buildings -- heat-reflective membrane, welded seams, and energy savings for warehouses and offices.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

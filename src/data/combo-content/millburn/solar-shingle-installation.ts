@@ -4,7 +4,7 @@ export const millburnSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'millburn',
   overview: [
-    'Solar shingle technology appeals to Millburn homeowners who want solar energy production without the visual compromise of conventional panel arrays mounted above their meticulously designed rooflines. Solar shingles integrate photovoltaic cells into roofing material that installs flush with the surrounding roof surface, producing electricity while maintaining the clean architectural lines that Short Hills and Wyoming estate homeowners demand. The technology has matured to the point where production efficiency, though still below conventional panel levels, delivers meaningful energy generation from roof surfaces where panel aesthetics would be unacceptable.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Millburn — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology appeals to Millburn homeowners who want solar energy production without the visual compromise of conventional panel arrays mounted above their meticulously designed rooflines. Solar shingles integrate photovoltaic cells into roofing material that installs flush with the surrounding roof surface, producing electricity while maintaining the clean architectural lines that Short Hills and Wyoming estate homeowners demand. The technology has matured to the point where production efficiency, though still below conventional panel levels, delivers meaningful energy generation from roof surfaces where panel aesthetics would be unacceptable.',
     'The architectural sensitivity of Millburn\'s residential landscape -- where homeowners consult architects for exterior modifications and the Historic Preservation Commission reviews changes to designated properties -- makes solar shingles a practical path to renewable energy on properties where conventional panels face aesthetic or regulatory objections. Solar shingles present as a roofing material rather than a rooftop installation, bypassing the visual-impact concerns that limit conventional solar adoption among homeowners who have invested substantially in their property\'s architectural presentation.',
     'Our [solar shingle installation](/solar-shingle-installation) practice approaches the technology as a roofing product that happens to generate electricity rather than an electrical product that sits on the roof. This distinction matters because the installation quality -- substrate preparation, flashing details, waterproofing integration, and material handling -- determines both the roofing performance and the electrical production of the system. Roofing contractors without electrical expertise and electricians without roofing expertise both produce suboptimal installations; the convergence of both disciplines is essential for the technology to perform as intended.'
   ],
@@ -34,7 +34,25 @@ export const millburnSolarShingleInstallation: ComboContent = {
     {
       question: 'What happens if a solar shingle is damaged by a storm?',
       answer: 'Individual damaged solar shingles can be replaced by disconnecting the electrical connections, removing the damaged unit, and installing a replacement. The process requires both roofing and electrical competence because the unit must be integrated into both the waterproofing system and the electrical circuit. We maintain relationships with the solar shingle manufacturers for replacement unit procurement and warranty claims, and our crews are trained in both the roofing and electrical aspects of solar shingle service.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Millburn, NJ?',
+      answer: 'Most solar shingle installation projects in Millburn range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation for Millburn estates. Building-integrated photovoltaics that generate electricity while maintaining architectural roofline.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

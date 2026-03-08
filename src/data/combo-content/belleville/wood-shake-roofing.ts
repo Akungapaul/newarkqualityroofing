@@ -4,7 +4,7 @@ export const bellevilleWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'belleville',
   overview: [
-    'Wood shake roofing in Belleville is an uncommon choice that a small number of homeowners pursue for its distinctive rustic character on a housing landscape dominated by asphalt shingles. The township\'s Cape Cods and colonials can carry wood shakes beautifully, and a well-installed shake roof stands out on a Belleville block where every other house wears standard architectural shingles. However, the environmental conditions specific to Belleville -- Passaic River humidity, dense tree canopy, and minimal air circulation between closely-spaced homes -- make wood shakes a higher-maintenance proposition here than in drier, more open communities. Our [wood shake roofing](/wood-shake-roofing) consultations in Belleville provide a frank assessment of the ongoing commitment that natural wood demands in this particular microclimate.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Belleville — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Belleville is an uncommon choice that a small number of homeowners pursue for its distinctive rustic character on a housing landscape dominated by asphalt shingles. The township\'s Cape Cods and colonials can carry wood shakes beautifully, and a well-installed shake roof stands out on a Belleville block where every other house wears standard architectural shingles. However, the environmental conditions specific to Belleville -- Passaic River humidity, dense tree canopy, and minimal air circulation between closely-spaced homes -- make wood shakes a higher-maintenance proposition here than in drier, more open communities. Our [wood shake roofing](/wood-shake-roofing) consultations in Belleville provide a frank assessment of the ongoing commitment that natural wood demands in this particular microclimate.',
     'The properties in Belleville where wood shakes perform best are those with adequate air circulation and sun exposure -- typically corner lots or homes on the wider streets like Greylock Parkway where spacing between structures is more generous than the typical interior block. North-facing slopes in the Branch Brook Park border area, where shade persists and humidity concentrates, present the most challenging environment for wood shake longevity. We evaluate each Belleville property individually rather than applying blanket recommendations, because the difference between a suitable and unsuitable wood shake candidate in this township often comes down to lot position and sun exposure.',
     'For Belleville homeowners committed to natural wood, we install hand-split cedar shakes with pressure-treated preservative application and fire-retardant treatment. The preservative addresses the moisture retention and biological growth risk inherent in Belleville\'s humid microclimate, while the fire retardant satisfies insurance requirements and township fire code provisions that some carriers impose on wood roofing in densely built neighborhoods. These treatments add cost to the installation but are non-negotiable for responsible wood shake roofing in a community where homes are eight feet apart. Homeowners in nearby [Montclair](/wood-shake-roofing-montclair-nj) have more generous lot spacing that makes wood shake maintenance somewhat less demanding.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleWoodShakeRoofing: ComboContent = {
     {
       question: 'What maintenance does a wood shake roof in Belleville require?',
       answer: 'Annual professional inspection to identify cracked, cupped, or missing shakes; moss and debris removal from the roof surface; preservative treatment every three to five years to maintain water resistance and prevent fungal decay; fire retardant reapplication every five to seven years; and gutter cleaning on a quarterly basis to manage the debris that wood roofs shed. This maintenance regimen is more intensive and costly than asphalt shingle maintenance but is essential for protecting the larger initial investment.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Belleville, NJ?',
+      answer: 'Most wood shake roofing projects in Belleville range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ wood shake roofing -- humidity-rated installation, fire retardant treatment, and ongoing maintenance for dense residential lots.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

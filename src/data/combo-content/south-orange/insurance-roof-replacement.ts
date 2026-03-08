@@ -4,7 +4,7 @@ export const southOrangeInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Insurance roof replacement in South Orange Village navigates the claims process that connects storm-damaged homes with the coverage their policies provide for roof restoration. When wind, hail, falling trees, or other covered events damage South Orange roofing systems, homeowners face an unfamiliar process of adjuster inspections, coverage determinations, and contractor selection that our experience with insurance projects simplifies and streamlines.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in South Orange — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in South Orange Village navigates the claims process that connects storm-damaged homes with the coverage their policies provide for roof restoration. When wind, hail, falling trees, or other covered events damage South Orange roofing systems, homeowners face an unfamiliar process of adjuster inspections, coverage determinations, and contractor selection that our experience with insurance projects simplifies and streamlines.',
     'South Orange\'s premium roofing materials create insurance claim complexities that standard shingle replacements do not involve. A hail-damaged slate roof on a Montrose Park Tudor requires replacement with comparable slate -- not the asphalt shingle substitution some adjusters initially propose. Cedar shake damage demands restoration with equivalent-grade cedar, not downgrade to architectural shingles. Our [insurance roof replacement](/insurance-roof-replacement) advocacy ensures South Orange homeowners receive the coverage their policy provides for restoration to equivalent materials, not the cheapest alternative the carrier might prefer.',
     'Documentation quality determines insurance claim outcomes, and our documentation standards reflect the high-value claims that South Orange properties generate. We provide detailed photographic records of all damage, line-item estimates using industry-standard Xactimate pricing, material specifications that justify premium replacement materials, and supplemental documentation when initial adjuster assessments undervalue the restoration scope. This thorough documentation supports the full claim value that South Orange homeowners deserve.',
     'Our insurance replacement work in [South Orange](/roofing-in-south-orange-nj) handles the complete process from initial damage inspection through final payment coordination. Homeowners deal with their insurance company through a single project manager who understands both the roofing scope and the claims process, eliminating the confusion that arises when homeowners try to navigate unfamiliar insurance procedures while simultaneously managing a major construction project.'
@@ -35,7 +35,25 @@ export const southOrangeInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Do you work with all insurance companies on South Orange claims?',
       answer: 'Yes. We work with every major homeowner insurance carrier and are familiar with the claims procedures, documentation requirements, and supplement processes each company uses. Our experience with diverse carriers allows us to tailor our documentation approach to each company\'s specific requirements, reducing processing delays and improving claim approval outcomes for South Orange homeowners.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in South Orange, NJ?',
+      answer: 'Most insurance roof replacement projects in South Orange range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in South Orange NJ -- claims coordination for storm-damaged slate, cedar, and shingle roof restoration.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const bloomfieldSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Skylights on Bloomfield homes serve a practical function that transcends aesthetics: they bring natural light into the interior spaces where the township\'s compact housing types need it most. Cape Cods with upstairs bedrooms tucked under low eave lines, split-levels with interior hallways connecting the offset floor levels, and colonials with dark central stairwells all benefit from roof-mounted skylights that deliver daylight where wall windows cannot reach. The VELUX, Andersen, and Pella skylights installed on Bloomfield homes from the 1980s through the 2000s are now reaching the age where seals fail, glazing hazes, and flashing systems deteriorate.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Bloomfield — with prices starting from $1,500–$5,000 and free estimates available today. Skylights on Bloomfield homes serve a practical function that transcends aesthetics: they bring natural light into the interior spaces where the township\'s compact housing types need it most. Cape Cods with upstairs bedrooms tucked under low eave lines, split-levels with interior hallways connecting the offset floor levels, and colonials with dark central stairwells all benefit from roof-mounted skylights that deliver daylight where wall windows cannot reach. The VELUX, Andersen, and Pella skylights installed on Bloomfield homes from the 1980s through the 2000s are now reaching the age where seals fail, glazing hazes, and flashing systems deteriorate.',
     'Skylight leaks account for a consistent share of the [roof repair](/roof-repair-bloomfield-nj) calls we receive from Bloomfield homeowners, and the leak source is almost always the flashing system rather than the skylight unit itself. The step and counter flashings that integrate the skylight frame into the surrounding shingle field corrode, crack, or lose sealant adhesion over fifteen to twenty years of exposure. Ice dam formation above the skylight -- common on Bloomfield\'s Cape Cods where the skylight sits on a relatively low-pitch roof plane -- pushes meltwater under the weakened flashings and into the skylight well. Homeowners often assume the skylight itself has failed when the flashing system is the actual culprit.',
     'New skylight installation on Bloomfield homes unlocks light and ventilation improvements that can transform interior comfort. Venting skylights in bathrooms reduce moisture buildup and mold risk. Solar-powered blinds manage heat gain without wiring. Tubular skylights bring light into first-floor rooms through reflective tubes that pass through attic space without the framing modifications that conventional skylights require. For Bloomfield homeowners renovating kitchens, bathrooms, or adding living space to attic bedrooms, skylights provide the natural light that makes these interior spaces feel open and livable.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldSkylightInstallationRepair: ComboContent = {
     {
       question: 'Are tubular skylights worth it for a Bloomfield ranch or split-level?',
       answer: 'Tubular skylights are an excellent solution for bringing daylight into first-floor interior rooms on Bloomfield ranches and split-levels. The flexible reflective tube routes light from the roof through attic space to a ceiling diffuser, delivering surprisingly bright illumination without the framing modifications or heat gain issues of conventional skylights. Installed cost of eight hundred to twelve hundred dollars is modest relative to the impact, and the small roof footprint minimizes leak risk. We recommend ten-inch tubes for bathrooms and fourteen-inch tubes for kitchens and hallways.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Bloomfield, NJ?',
+      answer: 'Most skylight installation repair projects in Bloomfield range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Bloomfield NJ -- leak repair, flashing replacement, and new skylights for Cape Cods, split-levels, and colonials.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

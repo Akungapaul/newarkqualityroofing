@@ -4,7 +4,7 @@ export const montclairAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Aging roof replacement in Montclair addresses the natural end-of-life transition that every roofing material eventually reaches -- the point where granule loss, shingle brittleness, underlayment deterioration, and accumulated wear have progressed beyond what maintenance and spot repairs can meaningfully extend. For Montclair homes where the existing roof was installed twenty to thirty years ago, the question is not whether replacement is needed but when to schedule it before the aging process produces active leaks and interior damage that add urgency and cost to the project.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Montclair — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Montclair addresses the natural end-of-life transition that every roofing material eventually reaches -- the point where granule loss, shingle brittleness, underlayment deterioration, and accumulated wear have progressed beyond what maintenance and spot repairs can meaningfully extend. For Montclair homes where the existing roof was installed twenty to thirty years ago, the question is not whether replacement is needed but when to schedule it before the aging process produces active leaks and interior damage that add urgency and cost to the project.',
     'The proactive approach to aging roof replacement allows Montclair homeowners to plan the project around their schedule and budget rather than reacting to emergency conditions. A planned replacement during favorable weather months produces better installation quality, wider material selection, and competitive pricing compared to emergency replacements driven by active leaks during peak demand periods. Our [aging roof replacement](/aging-roof-replacement) consultations for [Montclair](/roofing-in-montclair-nj) homes provide honest assessments of remaining useful life, helping homeowners time the replacement investment for maximum value.',
     'Properties throughout Montclair and neighboring [West Orange](/aging-roof-replacement-west-orange-nj) and [Verona](/aging-roof-replacement-verona-nj) that were roofed or re-roofed during the building boom of the 1990s and early 2000s are entering the replacement window now, creating a generation-wide re-roofing cycle across western Essex County.'
   ],
@@ -30,7 +30,25 @@ export const montclairAgingRoofReplacement: ComboContent = {
     {
       question: 'Can I wait another year to replace my aging Montclair roof?',
       answer: 'Possibly, depending on current condition. Our assessment provides an honest remaining-life estimate. Waiting an additional year is reasonable when the roof shows even aging without active failures. Waiting becomes risky when the roof has areas of advanced deterioration, when recent repair frequency is increasing, or when the existing underlayment has reached its own end of life. The cost of one more year of service must be weighed against the risk of leak damage that would make the eventual replacement more expensive.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Montclair, NJ?',
+      answer: 'Most aging roof replacement projects in Montclair range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Montclair NJ -- planned replacement with premium materials before leaks and damage drive emergency costs.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

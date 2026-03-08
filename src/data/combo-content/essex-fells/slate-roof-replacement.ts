@@ -4,7 +4,7 @@ export const essexFellsSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Slate roof replacement on Essex Fells estates represents the most significant roofing investment a homeowner will make -- a project measured in six figures that restores the defining architectural element of the borough\'s most distinguished residences to its original century-long service capacity. The natural slate roofs on estates along Fells Road, Hawthorne Avenue, and Devon Road are not merely weather protection; they are architectural signatures that establish the home\'s character and communicate the quality of construction that Essex Fells homeowners have maintained across generations of ownership.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Essex Fells — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement on Essex Fells estates represents the most significant roofing investment a homeowner will make -- a project measured in six figures that restores the defining architectural element of the borough\'s most distinguished residences to its original century-long service capacity. The natural slate roofs on estates along Fells Road, Hawthorne Avenue, and Devon Road are not merely weather protection; they are architectural signatures that establish the home\'s character and communicate the quality of construction that Essex Fells homeowners have maintained across generations of ownership.',
     'The slate replacement decision on Essex Fells estates involves quarry selection, color specification, thickness grading, and fastening methodology decisions that are meaningless on standard residential projects but define the outcome of an estate slate installation. Vermont unfading green, Pennsylvania black, Buckingham Virginia slate, and imported Welsh blue-gray each offer distinct color, texture, and weathering characteristics that must be evaluated against the home\'s existing masonry, trim, and landscape context. Our slate specification process brings material expertise to these decisions, ensuring the selected slate serves both the architectural vision and the performance requirements of the Essex Fells environment.',
     'Our [slate roof replacement](/slate-roof-replacement) practice in Essex Fells executes the complete project cycle from quarry selection through final ridge installation with the craft standards that natural slate demands. We visit quarries when specification requires visual verification of color consistency. Our crews are trained in traditional slate-hanging techniques using copper nails, proper overlap dimensions, and the headlap calculations specific to each roof pitch. Every slate is positioned, holed, and fastened individually -- there are no shortcuts in genuine slate installation that do not compromise the roof\'s century-long performance potential.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsSlateRoofReplacement: ComboContent = {
     {
       question: 'Can I replace my slate roof in phases across multiple years?',
       answer: 'Phased slate replacement is feasible when different roof sections can be replaced independently without creating material matching challenges between phases. Procuring the full project volume of slate from a single quarry lot ensures color consistency across phases, even if installation spans multiple years. The slate is stored at our facility between phases. We coordinate phased replacement schedules around the homeowner\'s budget cycle and the quarry\'s production availability.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most slate roof replacement projects in Essex Fells range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Essex Fells NJ -- natural slate from premium quarries with century-long performance for estate homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

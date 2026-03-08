@@ -4,7 +4,7 @@ export const montclairHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'montclair',
   overview: [
-    'Hail events in Montclair strike a roofscape built across four architectural eras, and each era\'s roofing material absorbs hail impact differently. The Victorian slate roofs along North Mountain Avenue fracture from hail stones that bounce harmlessly off the asphalt shingles covering the mid-century ranches near the Cedar Grove border. The copper flashing details on Tudor Revival homes dent and work-harden under impacts that leave the aluminum flashing on contemporary homes unmarked. This material diversity means that a single hail event produces an entire spectrum of damage types across Montclair\'s neighborhoods, requiring inspectors who can read each material\'s specific failure signature rather than applying a one-size-fits-all assessment methodology.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Montclair — with prices starting from $500–$2,500 and free estimates available today. Hail events in Montclair strike a roofscape built across four architectural eras, and each era\'s roofing material absorbs hail impact differently. The Victorian slate roofs along North Mountain Avenue fracture from hail stones that bounce harmlessly off the asphalt shingles covering the mid-century ranches near the Cedar Grove border. The copper flashing details on Tudor Revival homes dent and work-harden under impacts that leave the aluminum flashing on contemporary homes unmarked. This material diversity means that a single hail event produces an entire spectrum of damage types across Montclair\'s neighborhoods, requiring inspectors who can read each material\'s specific failure signature rather than applying a one-size-fits-all assessment methodology.',
     'Montclair\'s Watchung Ridge elevation places the township in a slightly different hail exposure zone than the valley communities to the east. Hail that forms in thunderstorm updrafts above the ridge sometimes maintains larger stone size as it reaches the elevated rooftops because it travels a shorter distance from cloud base to impact surface. While this effect is modest, it contributes to a pattern where [Bloomfield](/hail-damage-roof-repair-bloomfield-nj) and valley communities report pea-sized hail from the same storm that delivers marble-sized stones on Montclair\'s upper streets. Our damage assessments for Montclair factor in the measured stone size at the property\'s specific elevation rather than relying on regional weather service reports that aggregate stone size across a broader area.',
     'The financial stakes of hail damage repair in Montclair reflect the township\'s premium housing values and premium roofing materials. A hail-damaged slate roof on an Upper Montclair Victorian represents a repair cost that may exceed the insurance deductible by a factor of ten or more. Conversely, minor hail damage on a newer shingle roof may fall below the deductible threshold, making self-funded repair the appropriate path. Our [hail damage roof repair](/hail-damage-roof-repair) assessments provide cost-specific guidance that helps Montclair homeowners make informed decisions about claim filing versus self-funded repair based on the actual damage scope and their specific policy terms.'
   ],
@@ -34,7 +34,25 @@ export const montclairHailDamageRoofRepair: ComboContent = {
     {
       question: 'Can individual hail-damaged slates be replaced without replacing the entire roof?',
       answer: 'Yes. Individual slate replacement is our standard approach for hail-damaged Montclair slate roofs when the damage is distributed and the undamaged field remains sound. We remove fractured slates using specialized tools that extract the damaged piece without disturbing surrounding courses, then install replacement slate matched in color, thickness, and texture using copper hook-and-bib fastening. This preservation approach maintains the roof\'s architectural integrity and is substantially more cost-effective than full replacement when the damage percentage is below twenty to twenty-five percent of the total field.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in Montclair, NJ?',
+      answer: 'Most hail damage roof repair projects in Montclair range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Montclair NJ -- slate fracture assessment, forensic insurance documentation, and material-specific repair for historic homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const livingstonCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Commercial roof replacement on Livingston properties represents a capital investment decision that property managers and building owners evaluate against maintenance cost trajectories, tenant retention requirements, energy performance goals, and long-term property valuation strategies. When repair frequency and cumulative cost signal that the existing roof system has reached its economic end of life, replacement with a modern membrane system delivers 20 to 30 years of predictable performance that resets the maintenance cost curve and eliminates the tenant disruption risk that aging, failure-prone roofs create.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Livingston — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement on Livingston properties represents a capital investment decision that property managers and building owners evaluate against maintenance cost trajectories, tenant retention requirements, energy performance goals, and long-term property valuation strategies. When repair frequency and cumulative cost signal that the existing roof system has reached its economic end of life, replacement with a modern membrane system delivers 20 to 30 years of predictable performance that resets the maintenance cost curve and eliminates the tenant disruption risk that aging, failure-prone roofs create.',
     'Livingston\'s commercial replacement market currently concentrates on buildings from the 1980s and 1990s -- the professional offices, retail centers, and medical buildings along Eisenhower Parkway and Route 10 where original BUR, modified bitumen, and early-generation EPDM systems have reached or exceeded their designed service life. These buildings are entering the replacement window simultaneously, creating demand for commercial roofing contractors with the crew depth and project management capacity to handle multiple concurrent projects.',
     'Our [commercial roof replacement](/commercial-roof-replacement) projects on Livingston buildings integrate system upgrades that the original construction did not include: tapered insulation for positive drainage, above-code thermal insulation for energy performance, enhanced wind uplift engineering for current Factory Mutual standards, and reflective membrane surfaces that reduce cooling loads. The replacement project transforms a deteriorating liability into a performing asset. Commercial properties in [Montclair](/commercial-roof-replacement-montclair-nj) are undertaking similar generational replacements on their aging commercial inventory.',
     'Financing structures for Livingston commercial roof replacement include capital expenditure budgets, property improvement loans, and lease pass-through arrangements where replacement cost is amortized into common area maintenance charges. We provide the detailed cost projections and system comparison data that property managers need to support capital budget requests and financing applications.'
@@ -35,7 +35,25 @@ export const livingstonCommercialRoofReplacement: ComboContent = {
     {
       question: 'Can roof replacement be timed to minimize impact on Livingston retail tenants?',
       answer: 'We schedule retail property replacements to avoid peak business periods when possible, working with building management to identify the least disruptive construction windows. Weekend and evening work is available for noise-sensitive phases. The phased approach ensures that no tenant storefront loses weather protection during the replacement, and material staging avoids customer parking areas during business hours.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Livingston, NJ?',
+      answer: 'Most commercial roof replacement projects in Livingston range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Livingston NJ -- phased installation for occupied offices and retail with code-compliant insulation upgrades.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

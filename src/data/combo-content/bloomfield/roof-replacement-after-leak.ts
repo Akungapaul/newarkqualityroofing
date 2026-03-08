@@ -4,7 +4,7 @@ export const bloomfieldRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'bloomfield',
   overview: [
-    'Roof replacement after a leak becomes the right decision when the underlying condition causing the leak cannot be permanently resolved through repair -- when the shingle system has exhausted its useful life, when multiple leak locations indicate system-wide deterioration, or when the cost of repair approaches a threshold where replacement delivers better per-year value. Bloomfield homeowners who have repaired the same roof two or three times often reach this conclusion through experience: each repair addresses the immediate symptom while the broader system continues aging, and the next leak appears months later at a different location.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Bloomfield — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after a leak becomes the right decision when the underlying condition causing the leak cannot be permanently resolved through repair -- when the shingle system has exhausted its useful life, when multiple leak locations indicate system-wide deterioration, or when the cost of repair approaches a threshold where replacement delivers better per-year value. Bloomfield homeowners who have repaired the same roof two or three times often reach this conclusion through experience: each repair addresses the immediate symptom while the broader system continues aging, and the next leak appears months later at a different location.',
     'The relationship between leak history and deck damage on Bloomfield homes means that roofs with chronic or long-standing leaks almost certainly have concealed deck deterioration that will be discovered during replacement. A leak that persisted through even one rainy season has saturated the plywood or board sheathing beneath, creating conditions for fungal decay that progresses invisibly beneath the shingles. Tear-off during replacement exposes this damage for repair -- an essential step that [roof repair](/roof-repair-bloomfield-nj) alone cannot accomplish because repair accesses only the localized leak area.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners who have been managing a leaking roof through repeated repairs, replacement provides the permanent solution that repair cannot deliver on an aging system. The new roof eliminates the anxiety of every rainstorm, the ongoing repair costs that accumulate toward the replacement price anyway, and the progressive interior damage that each leak event causes. The economics typically favor replacement once cumulative repair costs within a three-year period exceed thirty percent of the replacement cost.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Can I claim my roof replacement after a leak on insurance in Bloomfield?',
       answer: 'If the leak was caused by a covered peril such as a storm event, the replacement may be partially or fully covered. If the leak resulted from aging, normal wear, or deferred maintenance, the roof replacement itself is not covered. The secondary interior water damage from the leak may have limited coverage depending on your policy terms. We advise consulting your insurance agent to understand your specific coverage before deciding on the claim approach.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Bloomfield, NJ?',
+      answer: 'Most roof replacement after leak projects in Bloomfield range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Bloomfield NJ -- permanent solutions for chronic leaking on Cape Cods, colonials, and split-levels.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

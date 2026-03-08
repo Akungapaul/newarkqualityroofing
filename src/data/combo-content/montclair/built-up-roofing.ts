@@ -4,7 +4,7 @@ export const montclairBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'montclair',
   overview: [
-    'Built-up roofing systems have protected Montclair\'s commercial and institutional buildings for over a century, with some of the township\'s oldest commercial structures along Bloomfield Avenue still carrying BUR assemblies that have been maintained through multiple generations of property ownership. The alternating layers of bitumen and reinforcing fabric that define BUR construction create a monolithic waterproofing membrane with redundancy built into the system\'s fundamental architecture -- a characteristic that appeals to Montclair property owners and facility managers who prioritize long-term reliability over installation speed or minimum cost.',
+    'Newark Quality Roofing delivers expert built up roofing in Montclair — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems have protected Montclair\'s commercial and institutional buildings for over a century, with some of the township\'s oldest commercial structures along Bloomfield Avenue still carrying BUR assemblies that have been maintained through multiple generations of property ownership. The alternating layers of bitumen and reinforcing fabric that define BUR construction create a monolithic waterproofing membrane with redundancy built into the system\'s fundamental architecture -- a characteristic that appeals to Montclair property owners and facility managers who prioritize long-term reliability over installation speed or minimum cost.',
     'Institutional buildings are where BUR maintains its strongest foothold in Montclair\'s commercial roofing landscape. Schools, municipal facilities, and nonprofit organization buildings with large footprints and long ownership horizons choose built-up systems for their proven fifty-plus-year track record when properly maintained. The gravel-surfaced BUR assemblies on several Montclair school buildings have been in service for decades, receiving periodic flood-coat maintenance that extends their functional life well beyond the initial warranty period. Properties in neighboring [Glen Ridge](/built-up-roofing-glen-ridge-nj) and [Bloomfield](/built-up-roofing-bloomfield-nj) share this institutional BUR heritage.',
     'Our [built-up roofing](/built-up-roofing) installations for [Montclair](/roofing-in-montclair-nj) commercial properties honor the system\'s traditional strengths while incorporating modern materials that improve performance without abandoning the multi-layer philosophy. Hybrid BUR systems using modified bitumen cap sheets over conventional BUR base plies combine the redundancy of traditional built-up construction with the enhanced elongation and cold-weather flexibility of polymer-modified top surfaces -- an evolution that addresses Montclair\'s freeze-thaw demands without requiring property owners to abandon a system type they trust.',
     'The township\'s compact commercial districts mean that BUR installations in Montclair require logistical coordination that larger suburban or industrial sites do not demand. Hot asphalt kettles need positioning on streets where parking, pedestrian traffic, and adjacent business access must continue during the project. Odor management during hot-mop operations affects neighboring restaurants, offices, and retail tenants. These realities shape project scheduling and execution in ways unique to Montclair\'s walkable commercial character.'
@@ -35,7 +35,25 @@ export const montclairBuiltUpRoofing: ComboContent = {
     {
       question: 'Can you install BUR over an existing roof on my Montclair building?',
       answer: 'Recovery installation over an existing BUR or single-ply roof is possible when the existing assembly is dry, structurally sound, and within the code-permitted layer limit. However, BUR\'s weight makes structural load verification especially important for recovery installations. We core-sample the existing insulation for moisture, evaluate deck condition through representative openings, and confirm with engineering calculations that the combined weight of existing and new systems plus snow loads remains within the structure\'s capacity. If any criterion fails, full tear-off to the deck is the only responsible approach.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Montclair, NJ?',
+      answer: 'Most built up roofing projects in Montclair range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Montclair NJ -- multi-layer BUR systems for commercial and institutional flat roofs along Bloomfield Avenue.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

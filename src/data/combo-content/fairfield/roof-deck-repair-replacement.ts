@@ -4,7 +4,7 @@ export const fairfieldRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'fairfield',
   overview: [
-    'Roof deck repair and replacement in Fairfield addresses the structural substrate beneath every roofing system -- the plywood or OSB sheathing panels that span between rafters and provide the surface that shingles, membranes, and underlayment are attached to. When the deck deteriorates through moisture damage, the roofing material above it loses its structural support, and the building beneath it loses its weather protection. Fairfield homes from the 1960s through 1990s commonly use CDX plywood or OSB roof decking, and after decades of service, areas that have been exposed to even minor water intrusion show soft spots, delamination, and fungal decay that compromise the deck\'s ability to hold fasteners and support loads.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Fairfield — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement in Fairfield addresses the structural substrate beneath every roofing system -- the plywood or OSB sheathing panels that span between rafters and provide the surface that shingles, membranes, and underlayment are attached to. When the deck deteriorates through moisture damage, the roofing material above it loses its structural support, and the building beneath it loses its weather protection. Fairfield homes from the 1960s through 1990s commonly use CDX plywood or OSB roof decking, and after decades of service, areas that have been exposed to even minor water intrusion show soft spots, delamination, and fungal decay that compromise the deck\'s ability to hold fasteners and support loads.',
     'Deck deterioration in Fairfield follows predictable patterns. Areas beneath failed flashings at chimneys and sidewalls absorb water for years before the leak becomes visible inside the home, creating localized rot that may span several sheathing panels. Eave sections where ice dams have historically formed develop cyclical wetting and drying that weakens the wood fibers over time. Valley areas where water concentrates and ventilation is restricted trap moisture between the underlayment and the deck surface. These damage patterns are discovered during roof replacement when the old shingles come off and the deck is exposed for the first time in decades.',
     'Commercial [roof deck](/roof-deck-repair-replacement) conditions in Fairfield\'s Route 46 buildings involve metal and concrete deck substrates in addition to the wood decking found on residential properties. Steel decks on warehouses and retail buildings may show rust perforation at fastener locations where water has penetrated the membrane. Lightweight concrete decks on older commercial buildings can develop spalling and surface deterioration that prevents proper membrane adhesion. Our commercial deck assessments identify these substrate conditions and specify the repairs needed before new roofing can be installed.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Can roof deck damage be prevented on Fairfield homes?',
       answer: 'The best prevention is eliminating the water sources that cause deck deterioration. Maintaining chimney and sidewall flashing, keeping gutters clean and functional, ensuring adequate attic ventilation, and installing ice-and-water shield at eaves and valleys all prevent the water exposure that causes deck decay. Annual attic inspections that catch early moisture problems before they progress to structural damage are the most cost-effective preventive measure for Fairfield homeowners.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Fairfield, NJ?',
+      answer: 'Most roof deck repair replacement projects in Fairfield range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Fairfield NJ. Plywood and OSB sheathing restoration for homes and commercial building substrates.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

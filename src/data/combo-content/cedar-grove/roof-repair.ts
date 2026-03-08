@@ -4,7 +4,7 @@ export const cedarGroveRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Cedar Grove sits along the western slope of the Second Watchung Mountain in northern Essex County, where ranch-style homes from the 1950s through 1970s line quiet streets shaded by mature oaks and Norway spruces. Roof repair in this township demands a contractor who understands the specific vulnerabilities of low-pitch residential design -- the shallow slopes that retain debris and snow, the limited attic ventilation that accelerates shingle deterioration, and the flashing details that require extra care at chimney and dormer junctions on these mid-century homes. Homeowners in neighboring [Montclair](/roof-repair-montclair-nj) face different architectural challenges with their Victorians and Tudors, but Cedar Grove\'s ranch-dominant housing stock creates its own distinct set of repair priorities that our crews have addressed across hundreds of township projects.',
+    'Newark Quality Roofing delivers expert roof repair in Cedar Grove — with prices starting from $350–$1,500 and free estimates available today. Cedar Grove sits along the western slope of the Second Watchung Mountain in northern Essex County, where ranch-style homes from the 1950s through 1970s line quiet streets shaded by mature oaks and Norway spruces. Roof repair in this township demands a contractor who understands the specific vulnerabilities of low-pitch residential design -- the shallow slopes that retain debris and snow, the limited attic ventilation that accelerates shingle deterioration, and the flashing details that require extra care at chimney and dormer junctions on these mid-century homes. Homeowners in neighboring [Montclair](/roof-repair-montclair-nj) face different architectural challenges with their Victorians and Tudors, but Cedar Grove\'s ranch-dominant housing stock creates its own distinct set of repair priorities that our crews have addressed across hundreds of township projects.',
     'The township\'s northern Essex County location subjects roofing systems to modestly heavier snow loads and longer freeze-thaw cycles than communities closer to Newark. Cedar Grove\'s low-pitched ranch roofs amplify this weather exposure because shallow slopes retain snow longer, increasing dead-load stress on aging roof structures and creating prime conditions for ice dam formation along eaves. Our [roof repair](/roof-repair) approach in Cedar Grove accounts for these compounding factors, addressing not just the visible damage but the underlying conditions -- inadequate ventilation, missing ice-and-water shield, or deteriorated flashing -- that caused the failure in the first place.',
     'Pompton Avenue and Route 23 anchor Cedar Grove\'s modest commercial corridor, where strip retail centers and professional offices require flat-roof repair expertise alongside the pitched residential work that dominates the township. Whether we are reflashing a dormer valley on a Bradford Avenue colonial or patching a TPO membrane on a Route 23 storefront, Cedar Grove roof repair is defined by attention to detail in a community that values honest, thorough workmanship over speed.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofRepair: ComboContent = {
       question: 'How quickly can you respond to a roof leak in Cedar Grove?',
       answer: 'We typically have a crew on-site within four to six hours during business hours for Cedar Grove emergency calls. The township\'s accessible residential scale means most emergency tarping and temporary leak mitigation can be completed within a few hours of arrival. Permanent repairs are scheduled within the following week based on weather conditions and material availability.',
     },
+    {
+      question: 'How much does roof repair cost in Cedar Grove, NJ?',
+      answer: 'Most roof repair projects in Cedar Grove range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar Grove NJ roof repair for ranch and colonial homes -- low-pitch leak solutions, chimney flashing, and tree damage repairs with honest service.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

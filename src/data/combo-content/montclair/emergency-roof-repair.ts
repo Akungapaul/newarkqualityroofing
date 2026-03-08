@@ -4,7 +4,7 @@ export const montclairEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'montclair',
   overview: [
-    'When a mature oak limb crashes through a slate roof at two in the morning during an October nor\'easter, the homeowner standing in a puddle of attic insulation does not need a sales pitch -- they need a crew on-site within the hour. Montclair\'s emergency roof repair demands are shaped by the township\'s unique combination of aging housing stock, towering tree canopy, and Watchung Ridge wind exposure. These three factors converge during every major storm to produce roof emergencies that are simultaneously more frequent and more complex than what contractors encounter in the flatland suburbs to the west.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Montclair — with prices starting from $500–$2,500 and free estimates available today. When a mature oak limb crashes through a slate roof at two in the morning during an October nor\'easter, the homeowner standing in a puddle of attic insulation does not need a sales pitch -- they need a crew on-site within the hour. Montclair\'s emergency roof repair demands are shaped by the township\'s unique combination of aging housing stock, towering tree canopy, and Watchung Ridge wind exposure. These three factors converge during every major storm to produce roof emergencies that are simultaneously more frequent and more complex than what contractors encounter in the flatland suburbs to the west.',
     'Tree-strike emergencies dominate Montclair\'s emergency call volume. The township\'s protected canopy -- oaks with four-foot trunk diameters, tulip poplars reaching ninety feet, sugar maples with spreading crowns that span entire front yards -- produces falling-limb damage during thunderstorms, ice storms, and high-wind events throughout the year. A tree strike on a Montclair Victorian does not merely puncture the roof surface; it can crack slate coursework across an entire slope, split ridge beams, and drive branches through multiple layers of roof structure into the living space below. Emergency response must stabilize the structural damage, not just cover a hole.',
     'Nor\'easters and coastal storm systems strike Montclair\'s ridge-elevation properties with wind speeds that routinely exceed valley-floor measurements. Upper Montclair and Montclair Heights homes lose ridge caps, entire shingle fields, and flashing assemblies during events that cause only minor damage in the sheltered neighborhoods below. Our [emergency roof repair](/emergency-roof-repair) crews pre-position tarping materials and fastener inventories before forecast storm events, reducing response time for the post-storm surge of calls from Montclair\'s exposed upper elevations.',
     'Ice dam emergencies during January and February represent Montclair\'s most insidious roof crisis. The combination of older homes with inadequate attic insulation, north-facing slopes shaded by the dense tree canopy, and the township\'s slightly colder microclimate at elevation creates ice dam conditions that send water cascading into ceilings, walls, and electrical systems. These emergencies often escalate because the homeowner does not recognize the source -- the leak appears in a second-floor bedroom while the ice dam builds silently at the eave two stories above. Rapid diagnosis requires understanding Montclair\'s specific ice dam mechanics rather than applying generic troubleshooting.'
@@ -35,7 +35,25 @@ export const montclairEmergencyRoofRepair: ComboContent = {
     {
       question: 'A tree fell on my Montclair roof. Who handles the tree removal?',
       answer: 'We coordinate tree removal with our partner arborist service as a single-call solution. The arborist handles the tree -- cutting, removal, and any township permit requirements under Montclair\'s tree ordinance -- while our crew handles the roof stabilization and repair. Both teams work simultaneously when the situation allows, or sequentially when the tree must be partially removed before the roof can be safely accessed. This coordinated approach eliminates the delay and finger-pointing that occurs when homeowners hire separate tree and roof contractors.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Montclair, NJ?',
+      answer: 'Most emergency roof repair projects in Montclair range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Montclair NJ -- tree-strike stabilization, storm tarping on steep Victorians, and ice dam response for ridge-elevation homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

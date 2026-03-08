@@ -4,7 +4,7 @@ export const cedarGroveSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'cedar-grove',
   overview: [
-    'Silicone roof coating extends the service life of existing commercial flat roofs in Cedar Grove by applying a seamless, reflective, UV-resistant barrier over aging membrane surfaces. For building owners along Pompton Avenue and Route 23 facing the prospect of full roof replacement, [silicone roof coating](/silicone-roof-coating) can restore weatherproof integrity and add ten to fifteen years of service life at thirty to forty percent of replacement cost -- a compelling economic alternative when the existing roof structure and insulation remain sound.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Cedar Grove — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating extends the service life of existing commercial flat roofs in Cedar Grove by applying a seamless, reflective, UV-resistant barrier over aging membrane surfaces. For building owners along Pompton Avenue and Route 23 facing the prospect of full roof replacement, [silicone roof coating](/silicone-roof-coating) can restore weatherproof integrity and add ten to fifteen years of service life at thirty to forty percent of replacement cost -- a compelling economic alternative when the existing roof structure and insulation remain sound.',
     'Cedar Grove\'s commercial building stock includes numerous properties where the existing flat roof membrane has reached the end of its cosmetic life but retains structural and waterproof viability beneath surface degradation. Silicone coating encapsulates the existing membrane in a continuous, monolithic layer that seals minor cracks, bridges small gaps, and restores the reflective surface that reduces cooling loads. The treatment is particularly effective on aged EPDM, modified bitumen, and metal roof surfaces common on Cedar Grove\'s commercial properties.',
     'The ponding water tolerance of silicone coating distinguishes it from acrylic and other coating alternatives for Cedar Grove buildings with drainage deficiencies. Many commercial properties in the township carry flat roofs with inadequate slope -- a legacy of construction practices that predate current drainage code requirements. Silicone coating maintains its integrity under standing water conditions that would degrade acrylic coatings, making it the appropriate choice for Cedar Grove buildings where correcting drainage slope is not economically feasible.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveSiliconeRoofCoating: ComboContent = {
       question: 'What types of existing roofs can receive silicone coating in Cedar Grove?',
       answer: 'Silicone coating adheres to most commercial roof surfaces including EPDM, TPO, PVC, modified bitumen, built-up roofing, and metal. The existing surface must be structurally sound, free of saturated insulation, and properly cleaned and primed. Silicone does not adhere well to dirty or contaminated surfaces, which is why thorough surface preparation is the most critical step in any Cedar Grove coating project.',
     },
+    {
+      question: 'How much does silicone roof coating cost in Cedar Grove, NJ?',
+      answer: 'Most silicone roof coating projects in Cedar Grove range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Cedar Grove NJ -- extend commercial flat roof life 10-15 years with reflective, ponding-resistant coating at lower cost.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

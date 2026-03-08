@@ -4,7 +4,7 @@ export const orangeGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'orange',
   overview: [
-    'Gutter systems in Orange work harder than in most Essex County communities because the city sits at the base of South Mountain, receiving stormwater runoff from the reservation\'s 2,110-acre hardwood forest while its tight-lot construction concentrates roof drainage into narrow spaces between buildings. Our [gutter installation and repair](/gutter-installation-repair) work across Orange sizes, positions, and maintains gutter systems for this concentrated water volume -- oversizing where standard calculations would underperform, positioning downspouts to direct water away from neighboring foundations, and specifying materials that resist the biological growth promoted by South Mountain\'s dense shade canopy.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Orange — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems in Orange work harder than in most Essex County communities because the city sits at the base of South Mountain, receiving stormwater runoff from the reservation\'s 2,110-acre hardwood forest while its tight-lot construction concentrates roof drainage into narrow spaces between buildings. Our [gutter installation and repair](/gutter-installation-repair) work across Orange sizes, positions, and maintains gutter systems for this concentrated water volume -- oversizing where standard calculations would underperform, positioning downspouts to direct water away from neighboring foundations, and specifying materials that resist the biological growth promoted by South Mountain\'s dense shade canopy.',
     'Orange\'s Victorian homes on Scotland Road and Park Avenue present some of the most complex gutter challenges in Essex County. Multi-turret rooflines with intersecting gables create dozens of water collection points, each feeding a different gutter run at a different angle. Original copper half-round gutters on these homes may be functional but need periodic re-soldering at joints, while more modest homes throughout Orange typically use aluminum K-style gutters that are approaching the end of their 20 to 25-year lifespan. Our gutter installations match the architectural character of each Orange home -- copper half-round on historic properties, seamless aluminum on standard residential.',
     'The Valley neighborhood\'s drainage challenges make properly functioning gutters essential rather than optional. When stormwater overwhelms municipal drainage during heavy rain, the water that gutters direct away from a Valley home\'s foundation may be the difference between a dry basement and a flooded one. Undersized gutters, clogged downspouts, or missing splash blocks allow roof drainage to saturate the soil immediately adjacent to the foundation -- exactly the condition that causes basement water entry in the Valley. Our Valley gutter installations emphasize oversized capacity and extended downspout routing that moves water well away from foundation perimeters. Homeowners in [East Orange](/gutter-installation-repair-east-orange-nj) face similar tight-lot drainage dynamics.'
   ],
@@ -34,7 +34,25 @@ export const orangeGutterInstallationRepair: ComboContent = {
     {
       question: 'Can gutters help prevent basement flooding in Orange\'s Valley neighborhood?',
       answer: 'Properly sized and routed gutters are one of the most effective defenses against Valley basement flooding. By capturing roof drainage and directing it well away from the foundation -- ideally 8 to 10 feet via underground extensions -- gutters prevent the soil saturation that causes water entry. Combined with proper grading away from the foundation, effective gutter management resolves many Valley basement water issues.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Orange, NJ?',
+      answer: 'Most gutter installation repair projects in Orange range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Orange NJ -- seamless aluminum, copper half-round, South Mountain debris solutions, and Valley foundation protection.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

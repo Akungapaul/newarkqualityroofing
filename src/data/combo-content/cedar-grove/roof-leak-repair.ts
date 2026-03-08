@@ -4,7 +4,7 @@ export const cedarGroveRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Roof leaks in Cedar Grove rarely announce themselves dramatically. More often, the first sign is a subtle ceiling stain in a bedroom, a musty smell near an exterior wall, or paint bubbling on a bathroom ceiling after a heavy rain. The township\'s ranch homes with their low-pitched roofs allow water to travel considerable distances along sheathing and rafters before emerging as visible damage, making the leak source elusive and the actual point of failure difficult to identify without systematic diagnosis. Our [roof leak repair](/roof-leak-repair) methodology for Cedar Grove traces every leak to its origin rather than treating the symptom where water appears.',
+    'Newark Quality Roofing delivers expert roof leak repair in Cedar Grove — with prices starting from $300–$1,200 and free estimates available today. Roof leaks in Cedar Grove rarely announce themselves dramatically. More often, the first sign is a subtle ceiling stain in a bedroom, a musty smell near an exterior wall, or paint bubbling on a bathroom ceiling after a heavy rain. The township\'s ranch homes with their low-pitched roofs allow water to travel considerable distances along sheathing and rafters before emerging as visible damage, making the leak source elusive and the actual point of failure difficult to identify without systematic diagnosis. Our [roof leak repair](/roof-leak-repair) methodology for Cedar Grove traces every leak to its origin rather than treating the symptom where water appears.',
     'Cedar Grove\'s three most common leak sources are chimney flashing failure on colonials, valley deterioration where dormer roofs meet the main plane, and wind-driven rain penetration beneath shingle laps on low-pitch ranch sections. Each mechanism requires a different diagnostic approach and repair technique. Chimney leaks involve masonry assessment and complete flashing replacement. Valley leaks demand shingle strip-back and membrane installation. Wind-driven penetration calls for enhanced underlayment and potentially re-evaluating the shingle product specification for the pitch angle. Homeowners in neighboring [Montclair](/roof-leak-repair-montclair-nj) deal with similar chimney and valley leak patterns on their older housing stock.',
     'The challenge of leak repair in Cedar Grove extends beyond the roof surface to the concealed damage that water creates before anyone notices. Moisture migrating through wall cavities, soaking insulation, and softening sheathing from the back side causes damage that simple surface patching will not address. Our repair scope always includes assessment of the water path from entry point to visible damage point, remediating concealed moisture and replacing compromised materials along the entire travel route.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofLeakRepair: ComboContent = {
       question: 'How do you repair a chimney leak on a Cedar Grove colonial?',
       answer: 'Chimney leak repair on Cedar Grove colonials requires removing shingles around the chimney base, stripping the old step and counter-flashings, installing new ice-and-water shield membrane at the chimney-to-roof junction, setting new aluminum or copper step flashings embedded in fresh mortar joints, and reinstalling shingle courses with proper overlap. If the chimney crown or mortar joints are deteriorated, we address those issues simultaneously to prevent recurrence.',
     },
+    {
+      question: 'How much does roof leak repair cost in Cedar Grove, NJ?',
+      answer: 'Most roof leak repair projects in Cedar Grove range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar Grove NJ roof leak repair. Expert diagnosis and lasting fixes for ranch low-pitch leaks, chimney flashing failures, and ice dam damage.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

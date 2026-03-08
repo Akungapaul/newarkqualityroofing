@@ -4,7 +4,7 @@ export const orangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'orange',
   overview: [
-    'Roof replacement cost in Orange reflects the city\'s distinctive building characteristics -- tight-lot access constraints, diverse housing stock ranging from modest bungalows to elaborate Victorians, and the material premium that South Mountain proximity demands for enhanced wind and impact resistance. Our [roof replacement cost](/roof-replacement-cost) estimates are project-specific rather than generic per-square-foot numbers, because the factors that drive cost in Orange -- lot access, roof complexity, deck condition, and material specification -- vary dramatically between properties within the same neighborhood.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in Orange reflects the city\'s distinctive building characteristics -- tight-lot access constraints, diverse housing stock ranging from modest bungalows to elaborate Victorians, and the material premium that South Mountain proximity demands for enhanced wind and impact resistance. Our [roof replacement cost](/roof-replacement-cost) estimates are project-specific rather than generic per-square-foot numbers, because the factors that drive cost in Orange -- lot access, roof complexity, deck condition, and material specification -- vary dramatically between properties within the same neighborhood.',
     'For Orange homebuyers evaluating properties, understanding roof replacement costs helps inform purchase decisions and negotiate effectively. A home inspection noting "roof at end of life" should trigger a cost conversation with a qualified roofer before finalizing the purchase. Our pre-purchase roof assessments provide specific cost estimates for the replacement that the home will need, giving buyers data for negotiation or budgeting. This service has become increasingly popular as Orange attracts buyers who are priced out of neighboring [South Orange](/roofing-in-south-orange-nj) and Maplewood.',
     'Transparency in pricing is foundational to our Orange business. Every estimate includes a detailed line-item breakdown showing material costs, labor costs, tear-off and disposal, permits, contingency for deck repair, and any specialty items like enhanced flashing, ventilation upgrades, or gutter work. This transparency allows homeowners to compare our proposal with competing bids on an item-by-item basis rather than comparing bottom-line numbers that may include or exclude different scope items.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofReplacementCost: ComboContent = {
     {
       question: 'How can I reduce my roof replacement cost in Orange?',
       answer: 'Choose standard-tier materials rather than premium options when budget is the priority. Schedule the project during our slower season (late fall through early spring) when scheduling flexibility may provide pricing advantages. Combine the roof project with gutter replacement or fascia repair to reduce mobilization costs. Consider overlay if your existing single-layer roof qualifies.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in Orange, NJ?',
+      answer: 'Most roof replacement cost projects in Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in Orange NJ -- transparent pricing, Victorian estimates, tight-lot factors, financing options, and line-item cost breakdowns.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

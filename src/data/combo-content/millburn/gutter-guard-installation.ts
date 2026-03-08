@@ -4,7 +4,7 @@ export const millburnGutterGuardInstallation: ComboContent = {
   serviceId: 'gutter-guard-installation',
   cityId: 'millburn',
   overview: [
-    'Gutter guard installation on Millburn estates addresses the relentless debris challenge that the township\'s mature hardwood canopy imposes on every gutter system. The oaks, beeches, maples, and tulip poplars shading Short Hills and South Mountain properties deposit leaves, seed pods, catkins, helicopters, and small branches into copper and aluminum gutter systems from April through December, creating blockages that cause water to cascade over gutter edges onto foundation plantings, erode graded soil away from foundations, and saturate the subsurface drainage systems that protect basements from water intrusion. On estate properties where gutter cleaning six or more times per season is the current maintenance burden, professionally installed gutter guards transform an ongoing service expense into a one-time capital improvement.',
+    'Newark Quality Roofing delivers expert gutter guard installation in Millburn — with prices starting from $800–$2,500 and free estimates available today. Gutter guard installation on Millburn estates addresses the relentless debris challenge that the township\'s mature hardwood canopy imposes on every gutter system. The oaks, beeches, maples, and tulip poplars shading Short Hills and South Mountain properties deposit leaves, seed pods, catkins, helicopters, and small branches into copper and aluminum gutter systems from April through December, creating blockages that cause water to cascade over gutter edges onto foundation plantings, erode graded soil away from foundations, and saturate the subsurface drainage systems that protect basements from water intrusion. On estate properties where gutter cleaning six or more times per season is the current maintenance burden, professionally installed gutter guards transform an ongoing service expense into a one-time capital improvement.',
     'The gutter guard market offers dozens of products, but the systems appropriate for Millburn estates must satisfy criteria that eliminate most consumer-grade options. The guard must be compatible with copper half-round gutters -- the standard gutter profile on Short Hills and Wyoming estates -- without damaging the copper surface, altering the gutter\'s architectural appearance, or voiding the copper manufacturer\'s warranty. Micro-mesh technology that handles the fine debris particular to Millburn\'s tree species -- oak catkins, maple seed wings, pine needles from specimen plantings -- performs differently than the screen-type guards adequate for leaf-only environments.',
     'Our [gutter guard installation](/gutter-guard-installation) practice in Millburn evaluates each property\'s specific debris profile, gutter material, roof type, and aesthetic requirements before recommending a guard system. A property surrounded by pin oaks generates different debris than one beneath a canopy of sugar maples, and the guard technology that handles one effectively may struggle with the other. This site-specific approach prevents the disappointment that occurs when a single guard product is marketed as universal and fails to perform under the debris conditions specific to the property.'
   ],
@@ -34,7 +34,25 @@ export const millburnGutterGuardInstallation: ComboContent = {
     {
       question: 'How long do gutter guards last?',
       answer: 'Premium micro-mesh guards with stainless-steel mesh and aluminum frames achieve twenty to thirty years of service. The stainless mesh resists corrosion and maintains its fine openings without degradation. On copper gutters, the guard components are selected for galvanic compatibility to prevent the electrolytic corrosion that occurs when dissimilar metals contact each other in the presence of moisture. We specify guard materials that are compatible with the gutter metal on each section of the property.'
-    }
+    },
+    {
+      question: 'How much does gutter guard installation cost in Millburn, NJ?',
+      answer: 'Most gutter guard installation projects in Millburn range from $800–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter guard installation for Millburn and Short Hills estates. Micro-mesh systems for copper half-round gutters with estate-canopy debris protection.',
+  pricing: {
+    range: '$800–$2,500',
+    note: 'for whole-home gutter protection',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter guard installation estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

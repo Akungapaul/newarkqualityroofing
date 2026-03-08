@@ -4,7 +4,7 @@ export const caldwellBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'caldwell',
   overview: [
-    'Built-up roofing systems on Caldwell\'s commercial buildings represent the oldest and most proven flat roof technology still in active service. Several Bloomfield Avenue commercial buildings and older institutional structures throughout the borough carry BUR systems installed decades ago -- alternating layers of hot asphalt and reinforcing felt that create a monolithic waterproof membrane through sheer material redundancy. When these systems finally require replacement after thirty or forty years, building owners face the decision of replacing in kind with modern BUR or transitioning to single-ply alternatives.',
+    'Newark Quality Roofing delivers expert built up roofing in Caldwell — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems on Caldwell\'s commercial buildings represent the oldest and most proven flat roof technology still in active service. Several Bloomfield Avenue commercial buildings and older institutional structures throughout the borough carry BUR systems installed decades ago -- alternating layers of hot asphalt and reinforcing felt that create a monolithic waterproof membrane through sheer material redundancy. When these systems finally require replacement after thirty or forty years, building owners face the decision of replacing in kind with modern BUR or transitioning to single-ply alternatives.',
     'BUR\'s enduring presence in [Caldwell](/roofing-in-caldwell-nj) commercial roofing reflects its practical strengths for small-building applications. The aggregate surface -- gravel ballast embedded in the flood coat -- provides superior impact resistance against the falling branches and debris that Caldwell\'s tree canopy delivers seasonally. Unlike membrane surfaces where branch impacts create immediate punctures, BUR\'s gravel layer absorbs impact energy and distributes it across the multiple felt plies beneath. For tree-surrounded Caldwell commercial buildings, this passive impact protection eliminates a significant percentage of emergency repair calls.',
     'Modern [built-up roofing](/built-up-roofing) installations in Caldwell use fiberglass reinforcing felts and polymer-modified asphalt that deliver performance improvements over the organic-felt-and-coal-tar systems that original installations used. These material advances, combined with the time-tested multi-ply construction method, give Caldwell building owners a system that carries fifty-plus years of field-proven reliability while incorporating the material science advances of recent decades. For building owners in [Bloomfield](/built-up-roofing-bloomfield-nj) and [Montclair](/built-up-roofing-montclair-nj) evaluating commercial roof options, BUR remains a serious contender alongside newer single-ply alternatives.'
   ],
@@ -34,7 +34,25 @@ export const caldwellBuiltUpRoofing: ComboContent = {
     {
       question: 'Can I convert my Caldwell BUR roof to a single-ply system?',
       answer: 'Yes. BUR-to-single-ply conversion is common when existing BUR systems reach end of life. The conversion requires complete removal of gravel ballast and existing membrane plies, substrate preparation, and new insulation installation before single-ply membrane application. The weight reduction from removing gravel actually benefits older Caldwell building structures. We evaluate the existing building condition and present both replacement-in-kind BUR and conversion-to-single-ply options with comparative cost and performance analysis.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Caldwell, NJ?',
+      answer: 'Most built up roofing projects in Caldwell range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Caldwell NJ -- multi-ply BUR systems with gravel ballast for impact-resistant commercial roof protection.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

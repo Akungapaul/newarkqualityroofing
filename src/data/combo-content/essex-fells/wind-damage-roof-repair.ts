@@ -4,7 +4,7 @@ export const essexFellsWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'essex-fells',
   overview: [
-    'Wind damage repair in Essex Fells addresses failure modes on premium roofing systems that respond to high winds differently than the asphalt shingles dominating standard residential construction. Natural slate resists wind uplift through sheer weight -- individual slates weighing three to six pounds each rarely lift -- but severe gusts can displace slates by fracturing their nail holes, sending heavy stone pieces sliding down the roof plane and exposing the underlayment beneath. Cedar shake, secured with face-nailing that weathers over decades, develops progressive fastener loosening as shakes cup and curl with age, making wind-vulnerable sections that may strip in a single gust event. Copper standing-seam panels, properly locked and cleated, withstand extreme wind loads, but panel-to-panel seam failures at thermal expansion joints can allow wind-driven rain infiltration without visible panel displacement.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Essex Fells — with prices starting from $400–$2,000 and free estimates available today. Wind damage repair in Essex Fells addresses failure modes on premium roofing systems that respond to high winds differently than the asphalt shingles dominating standard residential construction. Natural slate resists wind uplift through sheer weight -- individual slates weighing three to six pounds each rarely lift -- but severe gusts can displace slates by fracturing their nail holes, sending heavy stone pieces sliding down the roof plane and exposing the underlayment beneath. Cedar shake, secured with face-nailing that weathers over decades, develops progressive fastener loosening as shakes cup and curl with age, making wind-vulnerable sections that may strip in a single gust event. Copper standing-seam panels, properly locked and cleated, withstand extreme wind loads, but panel-to-panel seam failures at thermal expansion joints can allow wind-driven rain infiltration without visible panel displacement.',
     'Essex Fells\' elevated terrain on the Watchung ridgeline concentrates wind energy during storm events in ways that lower-elevation communities do not experience. The borough\'s hilltop position accelerates wind speeds by fifteen to twenty-five percent compared to the valley floor, and gaps in the tree canopy where mature specimens have fallen or been removed create wind tunnels that channel gusts across specific roof sections with damaging intensity. Properties on exposed ridgeline lots along Fells Road and the upper sections of Hawthorne Avenue experience wind loads that exceed building code design assumptions for sheltered residential sites.',
     'Our wind damage assessment for Essex Fells properties examines every structure on the estate -- not just the building where damage is most visible. Wind events that displace slates on the main residence may have lifted copper ridge caps on the carriage house and peeled membrane flashing on the pool pavilion. These secondary failures may not leak immediately but will fail during the next rain event if left unrepaired. Our full-property assessment after wind events ensures nothing is missed.',
     'Wind damage repair in Essex Fells and neighboring [West Orange](/wind-damage-roof-repair-west-orange-nj) requires matching the original material specification exactly. Our [wind damage roof repair](/wind-damage-roof-repair) approach treats each displaced or damaged element as a restoration task, not a commodity replacement, ensuring the repaired section integrates invisibly with the surrounding roof surface.'
@@ -35,7 +35,25 @@ export const essexFellsWindDamageRoofRepair: ComboContent = {
     {
       question: 'Should I trim trees to reduce wind damage risk to my roof?',
       answer: 'Strategic tree management significantly reduces wind damage risk on Essex Fells properties. We recommend maintaining a minimum six-foot clearance between branch tips and roof surfaces, and removing dead or weakened limbs that could become projectiles during storms. However, the existing canopy also provides wind buffering for structures behind it, so aggressive tree removal can actually increase wind exposure on previously sheltered buildings. Consult with a certified arborist to balance wind protection with canopy management.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Essex Fells, NJ?',
+      answer: 'Most wind damage roof repair projects in Essex Fells range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Essex Fells NJ -- slate displacement, cedar shake restoration, and copper seam repair on ridgeline estate properties.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

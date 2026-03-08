@@ -4,7 +4,7 @@ export const livingstonWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'livingston',
   overview: [
-    'Wood shake roofing appeals to Livingston homeowners seeking a rustic, natural aesthetic that stands apart from the architectural shingle surfaces blanketing most township streets. The textured profile and warm tonal variation of hand-split wood shakes complement Livingston\'s tree-canopy setting, creating a roof surface that looks intentionally connected to the wooded landscape surrounding Collins Terrace, Northland, and the South Mountain foothills rather than stamped from a factory production line.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Livingston — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing appeals to Livingston homeowners seeking a rustic, natural aesthetic that stands apart from the architectural shingle surfaces blanketing most township streets. The textured profile and warm tonal variation of hand-split wood shakes complement Livingston\'s tree-canopy setting, creating a roof surface that looks intentionally connected to the wooded landscape surrounding Collins Terrace, Northland, and the South Mountain foothills rather than stamped from a factory production line.',
     'Livingston\'s HOA-governed communities present a checkpoint for wood shake consideration. Some architectural review committees approve natural shake installations while others restrict materials to Class A fire-rated products, which traditional untreated wood shakes do not meet. Pressure-treated and fire-retardant-impregnated shakes satisfy the Class A requirement in many communities, but the treatment alters the weathering appearance and maintenance requirements. We navigate these specifications with homeowners before committing to material procurement, ensuring the selected product satisfies both the homeowner\'s aesthetic vision and the community\'s safety standards. Homeowners in neighboring [Montclair](/wood-shake-roofing-montclair-nj) face similar fire-rating considerations for their historic properties.',
     'Our [wood shake roofing](/wood-shake-roofing) installations in Livingston address the material\'s specific performance requirements within the township\'s climate and canopy environment. Wood shakes demand different underlayment strategies, ventilation configurations, and maintenance schedules than asphalt shingle systems, and installing them with conventional shingle techniques compromises both performance and lifespan.',
     'The natural material\'s susceptibility to moisture retention, biological growth, and UV degradation means Livingston\'s shaded, humid environment accelerates weathering compared to drier, sunnier climates. Our installation design and maintenance programs account for these local conditions, engineering the assembly to maximize airflow beneath the shakes and minimize moisture contact time.'
@@ -35,7 +35,25 @@ export const livingstonWoodShakeRoofing: ComboContent = {
     {
       question: 'How much maintenance does a wood shake roof need in Livingston?',
       answer: 'We recommend annual professional maintenance including debris clearing from shake surfaces and valleys, individual shake inspection and replacement where needed, and UV and fungicide treatment application. In heavily shaded areas, an additional mid-year debris clearing may be advisable. This maintenance investment is essential for achieving the full service life of the shake system in Livingston\'s canopy environment.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Livingston, NJ?',
+      answer: 'Most wood shake roofing projects in Livingston range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Livingston NJ -- fire-rated options, moisture management for shaded properties, and professional maintenance programs.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

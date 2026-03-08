@@ -4,7 +4,7 @@ export const newarkCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'newark',
   overview: [
-    'Newark\'s commercial architecture is undergoing a transformation that puts metal roofing at the center of the conversation. The adaptive reuse projects converting former industrial buildings in the Ironbound into loft offices, creative studios, and mixed-use developments demand a roofing material that matches the architectural ambition of these renovations. Standing seam metal panels deliver the clean lines and contemporary aesthetic that architects specify for these high-visibility conversions, while providing the 40-to-60-year service life that justifies the investment in buildings being repositioned for their next century of use. Metal roofing on these projects isn\'t just functional -- it\'s part of the architectural statement.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Newark — with prices starting from $10–$18/sq ft and free estimates available today. Newark\'s commercial architecture is undergoing a transformation that puts metal roofing at the center of the conversation. The adaptive reuse projects converting former industrial buildings in the Ironbound into loft offices, creative studios, and mixed-use developments demand a roofing material that matches the architectural ambition of these renovations. Standing seam metal panels deliver the clean lines and contemporary aesthetic that architects specify for these high-visibility conversions, while providing the 40-to-60-year service life that justifies the investment in buildings being repositioned for their next century of use. Metal roofing on these projects isn\'t just functional -- it\'s part of the architectural statement.',
     'Wind performance sets commercial metal roofing apart on Newark\'s taller and more exposed buildings. Standing seam panels with concealed clip attachments achieve wind uplift ratings that exceed 120 miles per hour when properly engineered for the specific building geometry -- ratings that meet or exceed the most demanding requirements for Newark\'s high-rise exposure zones. The Gateway Center complex, buildings along Raymond Boulevard, and the emerging development corridor near Newark Penn Station all present wind exposure conditions where metal roofing\'s structural attachment system outperforms adhesive-bonded and mechanically fastened membrane systems. Every panel is locked to the structural deck through a continuous clip and seam engagement that distributes wind loads across the entire roof plane.',
     'For building owners evaluating long-term performance, commercial metal roofing delivers the lowest maintenance burden of any system available for Newark properties. The factory-applied Kynar or Hylar finish on architectural standing seam panels resists fading, chalking, and corrosion for 30 years or more without recoating. There are no seams to re-adhere, no membrane to patch, no ballast to redistribute. The maintenance protocol is limited to annual inspection of panel fasteners, sealant at penetrations, and gutter and drain function. For property managers overseeing portfolios of Newark commercial buildings, metal roofing dramatically reduces the ongoing roof maintenance budget compared to membrane systems that require periodic repair and eventual replacement.',
     'Corrugated metal roofing serves Newark\'s utilitarian commercial buildings -- self-storage facilities, auto service centers, light manufacturing buildings along McCarter Highway -- where function and cost efficiency are the primary drivers. These exposed-fastener systems deliver reliable weather protection at a lower installed cost than standing seam, with service lives of 25 to 35 years depending on gauge, coating, and maintenance. The installation speed of corrugated panels -- significantly faster than any membrane system -- minimizes disruption to the business operations below, a consideration that Newark commercial tenants consistently rank as their top concern during roofing projects.'
@@ -35,7 +35,25 @@ export const newarkCommercialMetalRoofing: ComboContent = {
     {
       question: 'What colors and finishes are available for commercial metal roofing in Newark?',
       answer: 'Commercial standing seam panels are available in over 40 standard colors with Kynar/Hylar fluoropolymer finishes that resist fading for 30 years or more. Colors range from traditional bronze, copper, and charcoal tones appropriate for Newark\'s historic commercial districts to contemporary metallics and bold colors suited to adaptive reuse and new construction projects. Custom color matching is available for projects requiring coordination with existing building elements. For Ironbound adaptive reuse projects, weathered steel and zinc-tone finishes have become popular choices that reference the industrial heritage of the neighborhood while delivering modern performance.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in Newark, NJ?',
+      answer: 'Most commercial metal roofing projects in Newark range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Newark NJ -- standing seam and corrugated panels for adaptive reuse, office buildings, and industrial properties.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

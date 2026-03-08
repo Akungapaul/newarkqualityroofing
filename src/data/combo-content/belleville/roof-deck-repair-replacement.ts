@@ -4,7 +4,7 @@ export const bellevilleRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'belleville',
   overview: [
-    'Roof deck repair is a discovery that Belleville homeowners make during roof replacement, not before it. The plywood or board sheathing that forms the structural surface beneath roofing material is invisible until the old shingles come off, and in Belleville -- where multi-layer roofing, decades of ice dam damage, and elevated humidity from the Passaic River basin have conspired against post-war construction -- the condition of the deck frequently surprises even experienced crews. Our standard practice is to budget for deck repair in every Belleville roof estimate, because the township\'s building stock produces deteriorated decking on a majority of tear-off projects.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Belleville — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair is a discovery that Belleville homeowners make during roof replacement, not before it. The plywood or board sheathing that forms the structural surface beneath roofing material is invisible until the old shingles come off, and in Belleville -- where multi-layer roofing, decades of ice dam damage, and elevated humidity from the Passaic River basin have conspired against post-war construction -- the condition of the deck frequently surprises even experienced crews. Our standard practice is to budget for deck repair in every Belleville roof estimate, because the township\'s building stock produces deteriorated decking on a majority of tear-off projects.',
     'Belleville\'s homes from the 1940s and 1950s were built with 1x6 or 1x8 board sheathing rather than the plywood and OSB panels used in modern construction. This skip sheathing -- boards spaced with gaps between them -- was standard for the era but creates a structurally different substrate than solid-panel decking. When sections of board sheathing rot, the individual boards can be replaced, but the overall deck rigidity is lower than panel sheathing. For Belleville homes receiving their second or third roof, we evaluate whether the skip sheathing is adequate for modern shingle installation or whether a plywood overlay should be added to create a continuous, rigid nailing surface.',
     'The moisture conditions that cause deck deterioration in [Belleville](/roofing-in-belleville-nj) are specific to the township\'s geography and building patterns. River basin humidity enters attics through inadequately ventilated soffit systems and condenses on the cold underside of the roof deck during winter, saturating the wood from inside. Simultaneously, ice dam backup forces water beneath shingles from outside. This two-directional moisture attack is more aggressive than what homes in the drier western suburbs experience, producing deck rot that is both more widespread and more advanced by the time the roof is opened for replacement. Homes in neighboring [Newark](/roof-deck-repair-replacement-newark-nj) face similar urban density moisture pressures.',
     'Our [roof deck repair](/roof-deck-repair-replacement) includes structural evaluation of the rafter system beneath the decking. Deck rot that has progressed to the point of soft, spongy wood has usually transferred moisture to the rafters below, weakening the structural members that support the entire roof system. We probe the rafters at every area of deck deterioration, identifying structural compromises that must be addressed before new decking and roofing material can be safely installed.'
@@ -35,7 +35,25 @@ export const bellevilleRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Will my roofer check the deck on my Belleville home?',
       answer: 'Not all contractors inspect the deck thoroughly during tear-off. Some simply cover deck deterioration with new shingles, which leads to premature failure of the new roof. We probe the entire deck surface after tear-off, photograph all damage, and discuss repair options with the homeowner before proceeding. This thorough approach ensures the new roof is built on a sound structural foundation.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Belleville, NJ?',
+      answer: 'Most roof deck repair replacement projects in Belleville range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Belleville NJ. Plywood replacement, skip sheathing overlay, and rafter repair for post-war homes during re-roofing.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

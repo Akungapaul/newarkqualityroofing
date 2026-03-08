@@ -4,7 +4,7 @@ export const eastOrangeFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Flat roof replacement is the defining re-roofing project on East Orange\'s apartment buildings, garden complexes, and commercial properties where low-slope and flat roof systems cover the majority of the city\'s multi-family housing inventory. The three-story walk-ups in Brick Church, the garden apartment complexes along Springdale Avenue, the mixed-use buildings on Main Street, and the institutional facilities throughout the city all carry [flat roof](/flat-roof-replacement) systems that reach end of life at 20 to 25 years -- creating a rolling capital expenditure cycle that East Orange property owners must plan for as rigorously as any other building system replacement.',
+    'Newark Quality Roofing delivers expert flat roof replacement in East Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement is the defining re-roofing project on East Orange\'s apartment buildings, garden complexes, and commercial properties where low-slope and flat roof systems cover the majority of the city\'s multi-family housing inventory. The three-story walk-ups in Brick Church, the garden apartment complexes along Springdale Avenue, the mixed-use buildings on Main Street, and the institutional facilities throughout the city all carry [flat roof](/flat-roof-replacement) systems that reach end of life at 20 to 25 years -- creating a rolling capital expenditure cycle that East Orange property owners must plan for as rigorously as any other building system replacement.',
     'Membrane selection for East Orange flat roof replacement presents property owners with meaningful options: EPDM for proven longevity at lowest cost, TPO for reflective energy performance at moderate cost, PVC for chemical resistance in restaurant and industrial applications, and modified bitumen for multi-layer redundancy on occupied buildings. The choice depends on the building\'s specific conditions -- heating versus cooling dominance, rooftop equipment configuration, chemical exposure from building operations, and the owner\'s maintenance commitment. We present comparative analysis that matches the membrane system to each building rather than defaulting to a single product.',
     'Energy code compliance during flat roof replacement transforms the project from simple surface renewal into building performance upgrade. Current New Jersey energy code requires R-30 roof insulation on commercial and multi-family buildings when existing roofing is removed to the deck. Most East Orange apartment buildings were constructed with R-5 to R-10 roof insulation or none at all. The mandated upgrade reduces heating and cooling costs measurably, and the insulation can be installed in tapered configuration that creates positive drainage -- eliminating the ponding water problems that plagued the previous roof system. Property owners across Essex County from East Orange to [Caldwell](/flat-roof-replacement-caldwell-nj) benefit from this dual improvement.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeFlatRoofReplacement: ComboContent = {
     {
       question: 'How long does flat roof replacement take on an East Orange apartment building?',
       answer: 'Flat roof replacement on a typical 3,000 to 5,000-square-foot East Orange apartment building takes five to eight working days. The phased construction approach completes tear-off and new installation in each work zone within a single day, maintaining weather protection over occupied space throughout the project. Larger buildings and buildings requiring extensive deck repair extend the timeline proportionally.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in East Orange, NJ?',
+      answer: 'Most flat roof replacement projects in East Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement for East Orange NJ apartments -- EPDM, TPO, and modified bitumen membrane installation with tapered insulation drainage.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

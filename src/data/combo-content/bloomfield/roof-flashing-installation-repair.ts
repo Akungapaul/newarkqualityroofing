@@ -4,7 +4,7 @@ export const bloomfieldRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Roof flashing on Bloomfield\'s homes does the unglamorous but essential work of sealing every joint, intersection, and penetration where the roof surface meets something else -- walls, chimneys, dormers, vent pipes, and the valleys where two roof planes converge. The mid-century housing stock that defines Bloomfield\'s neighborhoods came with flashing details that met the standards of their construction era but fall short of modern performance expectations. Galvanized steel flashing installed on 1950s Cape Cods and 1960s split-levels corrodes through after thirty to forty years, and the step flashing against wall intersections was often minimal in depth and embedment.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Bloomfield — with prices starting from $300–$1,500 and free estimates available today. Roof flashing on Bloomfield\'s homes does the unglamorous but essential work of sealing every joint, intersection, and penetration where the roof surface meets something else -- walls, chimneys, dormers, vent pipes, and the valleys where two roof planes converge. The mid-century housing stock that defines Bloomfield\'s neighborhoods came with flashing details that met the standards of their construction era but fall short of modern performance expectations. Galvanized steel flashing installed on 1950s Cape Cods and 1960s split-levels corrodes through after thirty to forty years, and the step flashing against wall intersections was often minimal in depth and embedment.',
     'Split-level homes throughout Watsessing, Brookdale, and Oakcrest present Bloomfield\'s most complex flashing challenges. The multi-plane roofline creates wall-to-roof intersections at every level change, and each intersection requires step flashing integrated with both the siding and the shingle system. The kick-out diverter at the bottom of each wall intersection -- the small flashing piece that directs water away from the wall and into the gutter -- was rarely installed in original Bloomfield construction. Its absence allows water running down the wall intersection to flow behind the gutter and saturate the wall sheathing, causing hidden rot that can progress for years before becoming visible.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners who notice water stains at ceiling lines, wall discoloration below roof-to-wall junctions, or damp spots in finished basements below exterior wall intersections, failed flashing is the most likely cause. These symptoms point to water bypassing the roof surface and entering the building envelope at transition points. Repairing the water stain without addressing the flashing failure that caused it guarantees repeated damage. Our [roof leak repair](/roof-leak-repair-bloomfield-nj) diagnostic process traces every interior water symptom back to the specific flashing failure responsible, ensuring the repair addresses the root cause rather than the cosmetic result.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'My Bloomfield split-level leaks at the step-down between roof levels. Is that a flashing issue?',
       answer: 'Almost certainly. The transition between upper and lower roof levels on split-level homes is a wall-to-roof intersection that depends entirely on step flashing and kick-out diverters to prevent water entry. If the original flashing was minimal -- common on 1950s and 1960s split-levels -- or if the kick-out diverter was never installed, water running down the wall intersection enters the building envelope at the lower roof. Repair requires removing siding and shingles at the intersection, installing proper ice-and-water membrane, step flashing, and kick-out diverter, then reinstalling the exterior finishes.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Bloomfield, NJ?',
+      answer: 'Most roof flashing installation repair projects in Bloomfield range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing repair in Bloomfield NJ -- valley, step, and chimney flashing for split-levels, Cape Cods, and colonials with corroded original details.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

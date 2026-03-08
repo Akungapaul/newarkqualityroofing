@@ -4,7 +4,7 @@ export const bellevilleRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'belleville',
   overview: [
-    'Ice dam formation on Belleville\'s closely-spaced homes follows a pattern distinct from wider-spaced suburban communities. The narrow gaps between houses create wind channels that deposit snow unevenly across roof surfaces, while heat loss from inadequately insulated attics melts snow from below. The meltwater flows to the cold eave overhang, refreezes into a dam, and backs water under shingles into the building envelope. Belleville\'s post-war housing stock -- built before modern insulation standards -- is particularly vulnerable to this cycle, and the damage compounds when ice-dam meltwater drains into the narrow space between adjacent homes where it cannot be easily detected or accessed for repair.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Belleville — with prices starting from $800–$3,000 and free estimates available today. Ice dam formation on Belleville\'s closely-spaced homes follows a pattern distinct from wider-spaced suburban communities. The narrow gaps between houses create wind channels that deposit snow unevenly across roof surfaces, while heat loss from inadequately insulated attics melts snow from below. The meltwater flows to the cold eave overhang, refreezes into a dam, and backs water under shingles into the building envelope. Belleville\'s post-war housing stock -- built before modern insulation standards -- is particularly vulnerable to this cycle, and the damage compounds when ice-dam meltwater drains into the narrow space between adjacent homes where it cannot be easily detected or accessed for repair.',
     'The root cause of ice dams in [Belleville](/roofing-in-belleville-nj) is almost always inadequate attic insulation and ventilation, not a roofing defect. The Cape Cods and colonials built throughout the township in the 1940s-1960s were constructed with minimal attic insulation -- often just 3-4 inches of fiberglass batts providing R-11 to R-13, well below the current R-49 code requirement. Heat escaping through these under-insulated ceilings warms the roof deck, melting snow that refreezes at the eaves. Our [ice dam prevention](/roof-ice-dam-prevention) approach treats this root cause with insulation and ventilation upgrades rather than relying solely on surface-level treatments like heat cables that address symptoms without solving the underlying thermal problem.',
     'Belleville\'s position in the Passaic River basin creates humidity conditions that worsen ice dam consequences. When backed-up meltwater penetrates the building envelope, the elevated ambient moisture in Belleville\'s eastern neighborhoods slows drying and accelerates mold growth in the wall and ceiling cavities where water accumulates. Properties along Joralemon Street and Mill Street near Branch Brook Park experience this compounding effect more severely than the drier neighborhoods in Upper Belleville. Our prevention approach accounts for moisture-prone zones by specifying enhanced vapor barriers and ice-and-water shield membrane at vulnerable eave and valley locations.',
     'Unlike communities where ice dams are an occasional inconvenience, Belleville homeowners face recurring damage that insurance companies increasingly exclude from standard coverage. As claims accumulate on properties with chronic ice dam histories, insurers are requiring proof of remediation before renewing policies at standard rates. Our comprehensive prevention systems provide the documented insulation, ventilation, and membrane upgrades that satisfy insurer requirements while permanently resolving the conditions that produce ice dams in homes throughout Belleville and neighboring [Bloomfield](/roof-ice-dam-prevention-bloomfield-nj).'
@@ -39,7 +39,25 @@ export const bellevilleRoofIceDamPrevention: ComboContent = {
     {
       question: 'Can you prevent ice dams without replacing my Belleville roof?',
       answer: 'In many cases, yes. If the existing roofing is in serviceable condition, we can install ice-and-water shield at the eaves during a partial re-roof of the lower courses while performing the insulation and ventilation upgrades from inside the attic. However, if a full re-roof is already needed, combining ice dam prevention with the roof replacement project is more cost-effective because the underlayment and ventilation work integrates seamlessly into the replacement scope.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Belleville, NJ?',
+      answer: 'Most roof ice dam prevention projects in Belleville range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Belleville NJ. Root-cause insulation and ventilation upgrades for Cape Cods and colonials near Branch Brook Park.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

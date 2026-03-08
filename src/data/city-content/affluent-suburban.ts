@@ -167,6 +167,11 @@ export const affluentSuburbanContent: CityContent[] = [
         question: 'What maintenance do you recommend for homes with heavy tree coverage?',
         answer: 'Livingston\'s mature tree canopy requires semi-annual gutter cleaning in spring and fall, annual roof inspections to check for branch impact damage and biological growth, and periodic zinc strip installation or replacement to prevent moss and algae buildup. We recommend trimming branches to maintain at least 6 feet of clearance from the roof surface to reduce debris accumulation and prevent direct abrasion damage during windstorms.',
       },
+    
+      {
+        question: 'How much does roofing cost in Livingston, NJ?',
+        answer: 'Most roof repairs in Livingston range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why Livingston Homeowners Choose Newark Quality Roofing',
@@ -201,6 +206,18 @@ export const affluentSuburbanContent: CityContent[] = [
     metaTitle: 'Roofing Contractor Livingston NJ | Newark Quality Roofing',
     metaDescription:
       'Expert roofing in Livingston, NJ. Split-level specialists, HOA-approved installations, and commercial roofing along Eisenhower Parkway. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Livingston.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Livingston',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -353,6 +370,11 @@ export const affluentSuburbanContent: CityContent[] = [
         question: 'Do you offer emergency repair services for storm damage in Millburn?',
         answer: 'Yes. Our emergency response team is available for storm damage assessment and temporary protection. For Millburn properties with specialty roofing materials like slate and copper, our emergency crew carries matching materials and specialized tools to execute proper repairs rather than generic temporary patches. We also provide complete insurance documentation including detailed damage reports, photographic evidence, and contractor estimates formatted for streamlined claims processing.',
       },
+    
+      {
+        question: 'How much does roofing cost in Millburn, NJ?',
+        answer: 'Most roof repairs in Millburn range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why Millburn\'s Finest Properties Trust Newark Quality Roofing',
@@ -392,5 +414,17 @@ export const affluentSuburbanContent: CityContent[] = [
     metaTitle: 'Roofing Contractor Millburn & Short Hills NJ | Premium',
     metaDescription:
       'Premier roofing in Millburn & Short Hills, NJ. Slate restoration, copper work, and architect-specified installations for estates. Free consultation.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Millburn.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Millburn',
+      'Family-Owned & Local',
+    ],
   },
 ];

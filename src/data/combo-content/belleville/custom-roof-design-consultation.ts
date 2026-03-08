@@ -4,7 +4,7 @@ export const bellevilleCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'belleville',
   overview: [
-    'Roof design consultation in Belleville addresses a reality that most roofing contractors overlook: the township\'s tightly-spaced homes and aging building stock create design constraints that cannot be solved with a standard material specification and a color chart. When a Belleville homeowner wants to replace a roof on a 1950s colonial that sits eight feet from both neighbors, with an enclosed porch addition, a rear kitchen extension, and three layers of aging shingles hiding unknown structural conditions, the project needs design thinking before it needs a price quote.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Belleville — with prices starting from $200–$500 and free estimates available today. Roof design consultation in Belleville addresses a reality that most roofing contractors overlook: the township\'s tightly-spaced homes and aging building stock create design constraints that cannot be solved with a standard material specification and a color chart. When a Belleville homeowner wants to replace a roof on a 1950s colonial that sits eight feet from both neighbors, with an enclosed porch addition, a rear kitchen extension, and three layers of aging shingles hiding unknown structural conditions, the project needs design thinking before it needs a price quote.',
     'Our [custom roof design](/custom-roof-design-consultation) process in Belleville begins where most contractors end: with questions about the building\'s complete history, the owner\'s goals beyond just stopping leaks, and the physical relationship between the subject building and its surroundings. In a township where a roofing material change on one home affects the visual character of the entire block, design consultation considers aesthetic harmony alongside technical performance. Homeowners in [Bloomfield](/custom-roof-design-consultation-bloomfield-nj) navigate similar neighborhood-scale aesthetics, but Belleville\'s even tighter lot spacing amplifies the visual impact of any individual roof change.',
     'Commercial roof design in Belleville involves integrating rooftop mechanical systems, drainage engineering, and energy performance goals into a cohesive system specification. Washington Avenue building owners undertaking renovation projects need roof designs that accommodate new HVAC equipment, satisfy current energy codes, and coordinate with facade improvements that are transforming the commercial corridor. Our design consultation delivers specification packages that general contractors and building officials can execute and approve without the ambiguity that leads to change orders and delays.',
     'The value of design consultation becomes most apparent on Belleville\'s complex residential projects -- homes with multiple roof planes created by decades of additions, dormers, and porch enclosures. These Frankenstein roof geometries, where four different roof slopes meet at intersections that were never properly flashed, account for the majority of chronic leak problems in [Belleville](/roofing-in-belleville-nj). Our design process identifies every junction, transition, and penetration, specifying the flashing details, underlayment extensions, and ventilation pathways that transform a patchwork roof into a unified system.'
@@ -35,7 +35,25 @@ export const bellevilleCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Can you design a roof that improves my Belleville home\'s energy efficiency?',
       answer: 'Absolutely. Our design consultation evaluates ventilation adequacy, insulation opportunities, and reflective material options that reduce energy costs. For Belleville homes where the urban heat island effect increases summer cooling loads, we specify reflective underlayments, lighter-colored shingles, and improved ridge ventilation that measurably reduce attic temperatures and lower utility bills.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Belleville, NJ?',
+      answer: 'Most custom roof design consultation projects in Belleville range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Belleville NJ. Expert guidance for material selection, drainage engineering, and complex multi-addition roof projects.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

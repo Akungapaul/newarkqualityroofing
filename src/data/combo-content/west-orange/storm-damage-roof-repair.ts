@@ -4,7 +4,7 @@ export const westOrangeStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'west-orange',
   overview: [
-    'West Orange occupies one of Essex County\'s most storm-exposed positions, straddling the first Watchung Mountain ridge where nor\'easters accelerate through the South Mountain gap. Ridge-top neighborhoods along Eagle Rock Avenue absorb wind energy 15 to 20 percent greater than valley-floor communities, translating to dramatically higher storm damage frequency and severity. Our [storm damage roof repair](/storm-damage-roof-repair) teams maintain West Orange-specific protocols that account for the elevation-driven damage patterns no other Essex County township replicates at this scale.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in West Orange — with prices starting from $500–$3,000 and free estimates available today. West Orange occupies one of Essex County\'s most storm-exposed positions, straddling the first Watchung Mountain ridge where nor\'easters accelerate through the South Mountain gap. Ridge-top neighborhoods along Eagle Rock Avenue absorb wind energy 15 to 20 percent greater than valley-floor communities, translating to dramatically higher storm damage frequency and severity. Our [storm damage roof repair](/storm-damage-roof-repair) teams maintain West Orange-specific protocols that account for the elevation-driven damage patterns no other Essex County township replicates at this scale.',
     'Storm damage in West Orange distributes according to a consistent elevation gradient. Ridge-top homes lose shingles, ridge caps, and sometimes entire roof planes during major wind events. Mid-slope properties along Gregory Avenue and Main Street experience tree-limb impacts from the mature hardwoods stressed by wind channeling through the Watchung gap. Valley-floor homes around Pleasant Valley suffer less wind damage but contend with water-volume emergencies as storm runoff overwhelms drainage systems designed for moderate rainfall. Each zone requires a different repair strategy and different materials to prevent recurrence.',
     'Summer thunderstorms tracking along the Watchung ridge deliver hail damage with disproportionate severity compared to the surrounding lowlands. The ridge-top elevation accelerates updraft dynamics that produce larger hailstones, and the exposed position of homes along Eagle Rock and Prospect Avenues means these properties receive direct impacts that valley-floor homes are partially shielded from. After hail events, we systematically assess every West Orange property above the 300-foot line because hail damage to roofing materials often remains invisible to untrained eyes until it progresses to active leaking months later. Homeowners in [Verona](/storm-damage-roof-repair-verona-nj) along the adjacent ridge section face similar hail exposure patterns.',
     'The remnants of tropical systems that reach Essex County every few years produce West Orange\'s most catastrophic storm damage events. These systems combine sustained wind, torrential rain, and saturated soil that weakens tree root systems simultaneously. The 2012 and 2021 events both produced widespread tree strikes across the South Mountain and Crystal Lake neighborhoods, with mature oaks collapsing onto roof structures. Our tropical-remnant response protocol activates pre-positioned crews and structural assessment teams within hours of landfall, prioritizing properties with active water entry and compromised structural integrity.'
@@ -35,7 +35,25 @@ export const westOrangeStormDamageRoofRepair: ComboContent = {
     {
       question: 'What should I do during a storm if I notice active roof damage?',
       answer: 'Move away from the area directly below the damage and place containers to catch water if leaking is occurring. Do not go on the roof during active storm conditions. If structural damage is visible such as sagging ceilings or cracked beams, evacuate the immediate area. Contact us as soon as conditions allow safe assessment. Our emergency dispatch maintains weather monitoring for West Orange and will schedule response based on storm severity and your damage description. For active water entry, we target two-to-four-hour response during daylight hours.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in West Orange, NJ?',
+      answer: 'Most storm damage roof repair projects in West Orange range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in West Orange NJ. Ridge-top wind damage, hail assessment, and tree-strike response across every elevation zone.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

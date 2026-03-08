@@ -4,7 +4,7 @@ export const orangeModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'orange',
   overview: [
-    'Modified bitumen roofing has a long history on Orange\'s commercial buildings, and for good reason -- the multi-layer system handles the ponding water, thermal cycling, and foot traffic that Main Street\'s flat-roofed storefronts endure year after year. Our [modified bitumen roofing](/modified-bitumen-roofing) installations in Orange build on this proven track record while incorporating modern application methods that improve both performance and installation safety compared to the torch-applied systems that were standard when many of Orange\'s existing mod-bit roofs were originally installed.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Orange — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing has a long history on Orange\'s commercial buildings, and for good reason -- the multi-layer system handles the ponding water, thermal cycling, and foot traffic that Main Street\'s flat-roofed storefronts endure year after year. Our [modified bitumen roofing](/modified-bitumen-roofing) installations in Orange build on this proven track record while incorporating modern application methods that improve both performance and installation safety compared to the torch-applied systems that were standard when many of Orange\'s existing mod-bit roofs were originally installed.',
     'Main Street\'s older commercial buildings are the natural home for modified bitumen in Orange. Two- and three-story structures with built-up roofing from the 1970s and 1980s often transition best to mod-bit because the system uses similar base materials in a modernized format. Property owners familiar with the feel and maintenance of built-up roofing find mod-bit intuitive -- the granulated cap sheet is visible and inspectable, damage is easy to identify and patch, and the multi-layer redundancy provides reassurance that a single puncture will not cause a leak. This practical familiarity matters for Orange\'s hands-on building owners who inspect their own roofs.',
     'Orange\'s position between [East Orange](/modified-bitumen-roofing-east-orange-nj) and [West Orange](/roofing-in-west-orange-nj) places it in a transitional climate zone where the urban heat island of the eastern flatlands meets the cooler, windier conditions descending from South Mountain. Modified bitumen\'s SBS-modified asphalt compound maintains flexibility across this temperature range -- staying pliable during winter cold snaps that would crack rigid membranes, and resisting flow during summer heat that would soften standard asphalt products. This all-season flexibility is why mod-bit continues to earn specifications on Orange commercial projects despite competition from single-ply alternatives.'
   ],
@@ -34,7 +34,25 @@ export const orangeModifiedBitumenRoofing: ComboContent = {
     {
       question: 'What maintenance does a mod-bit roof need in Orange?',
       answer: 'Annual inspections of seams, flashings, and drain details are essential. For buildings near South Mountain, semi-annual debris clearing prevents organic material from blocking drainage and retaining moisture against the membrane. Minor repairs -- patching granule loss areas, resealing flashings -- are simple and inexpensive when caught during routine inspections.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Orange, NJ?',
+      answer: 'Most modified bitumen roofing projects in Orange range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Orange NJ -- cold-applied commercial installation, Main Street flat roofs, drainage correction, and multi-layer waterproofing.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

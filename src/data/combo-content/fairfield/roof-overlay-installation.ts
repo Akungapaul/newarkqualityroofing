@@ -4,7 +4,7 @@ export const fairfieldRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'fairfield',
   overview: [
-    'Roof overlay installation in Fairfield offers homeowners a cost-effective re-roofing option that installs new shingles directly over the existing single layer, avoiding the labor and disposal expense of full tear-off. For Fairfield homes with a single layer of shingles that are worn but laid flat without buckling or curling, overlay provides a legitimate path to a new roof surface at roughly seventy to eighty percent of tear-off cost. The existing shingles serve as an additional waterproofing layer beneath the new installation, and the reduced project duration means less disruption to the Fairfield homeowner\'s daily routine.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Fairfield — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Fairfield offers homeowners a cost-effective re-roofing option that installs new shingles directly over the existing single layer, avoiding the labor and disposal expense of full tear-off. For Fairfield homes with a single layer of shingles that are worn but laid flat without buckling or curling, overlay provides a legitimate path to a new roof surface at roughly seventy to eighty percent of tear-off cost. The existing shingles serve as an additional waterproofing layer beneath the new installation, and the reduced project duration means less disruption to the Fairfield homeowner\'s daily routine.',
     'Overlay is only appropriate under specific conditions that we verify during every Fairfield roof assessment. The existing shingle layer must be flat, uniformly adhered, and free of significant decay or moisture damage beneath. The roof deck must be structurally sound with no soft spots indicating hidden deterioration. Local building code must permit the additional layer -- Fairfield limits total roof layers, and homes already carrying two layers are not overlay candidates. When these conditions are met, overlay delivers genuine value. When they are not, we recommend tear-off and explain specifically why overlay would compromise the new roof\'s performance.',
     'Our [overlay installation](/roof-overlay-installation) projects in Fairfield include the same quality standards applied to tear-off installations: new ice-and-water shield at eaves, valleys, and penetrations installed over the existing shingle surface, proper flashing integration at chimneys and sidewalls, and premium architectural shingles installed with manufacturer-specified nailing patterns. The overlay approach saves on removal labor and disposal but does not cut corners on the materials and installation practices that determine long-term performance.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldRoofOverlayInstallation: ComboContent = {
     {
       question: 'Can I do an overlay if my Fairfield home already has two shingle layers?',
       answer: 'No. Fairfield building code prohibits more than two total roofing layers on residential structures. If your home already has two layers, full tear-off down to the deck is required before new shingles can be installed. Even if code permitted a third layer, the accumulated weight would exceed the structural design capacity of most Fairfield homes and create an unacceptable risk of framing damage.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Fairfield, NJ?',
+      answer: 'Most roof overlay installation projects in Fairfield range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Fairfield NJ. Cost-effective new shingles over existing single-layer roofs with proper preparation.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

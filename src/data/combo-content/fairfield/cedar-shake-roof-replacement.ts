@@ -4,7 +4,7 @@ export const fairfieldCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'fairfield',
   overview: [
-    'Cedar shake roof replacement in Fairfield restores the natural beauty and premium character that cedar provides to the select homes carrying this distinctive roofing material. When a cedar shake roof has deteriorated beyond the point where individual shake replacement and periodic treatment can maintain weather protection -- typically after thirty to forty years of service or sooner if maintenance was neglected -- full replacement with fresh premium cedar returns the roof to its original performance and appearance.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Fairfield — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Fairfield restores the natural beauty and premium character that cedar provides to the select homes carrying this distinctive roofing material. When a cedar shake roof has deteriorated beyond the point where individual shake replacement and periodic treatment can maintain weather protection -- typically after thirty to forty years of service or sooner if maintenance was neglected -- full replacement with fresh premium cedar returns the roof to its original performance and appearance.',
     'The replacement decision for cedar shake in Fairfield comes down to the condition of the individual shakes and the structural substrate beneath them. If the majority of shakes have thinned, split, or curled to the point where they no longer shed water effectively, and the underlying spaced sheathing or battens show rot from decades of moisture exposure, comprehensive replacement is the sound investment. Spot repairs on a broadly deteriorated cedar roof become a losing financial proposition when the repair-to-sound-shake ratio exceeds roughly thirty percent.',
     'Our [cedar shake replacement](/cedar-shake-roof-replacement) in Fairfield includes both cedar-to-cedar renewal for homeowners committed to maintaining the natural material and cedar-to-alternative conversion for those seeking the appearance or character change that replacement timing permits. Conversion to architectural shingles, synthetic shake, or standing seam metal are all options during cedar replacement, and each offers distinct advantages in maintenance, longevity, and cost. We present all alternatives alongside cedar renewal so Fairfield homeowners can make fully informed decisions.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Can I see examples of cedar shake roofs you have installed near Fairfield?',
       answer: 'We can arrange viewing of cedar shake installations we have completed in western Essex County. Seeing a completed cedar roof at full scale helps evaluate the appearance, color, and texture in a way that samples cannot replicate. We also show examples of synthetic shake and architectural shingle alternatives so you can compare all options in real-world installations rather than relying only on manufacturer photographs.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Fairfield, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Fairfield range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Fairfield NJ. Premium cedar renewal or conversion to architectural shingles with full substrate restoration.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

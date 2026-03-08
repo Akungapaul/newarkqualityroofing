@@ -4,7 +4,7 @@ export const newarkRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'newark',
   overview: [
-    'Replacing a roof in Newark is a logistics operation as much as a construction project. The city\'s dense urban fabric -- brownstones sharing party walls in Forest Hill, triple-deckers packed along the North Ward\'s narrow side streets, commercial buildings fronting directly onto Ironbound sidewalks -- means that every full tear-off and replacement involves spatial planning that suburban contractors never face. Dumpster placement, material staging, debris containment, and adjacent-building protection all require advance coordination before the first shingle comes off.',
+    'Newark Quality Roofing delivers expert roof replacement in Newark — with prices starting from $8,500–$25,000+ and free estimates available today. Replacing a roof in Newark is a logistics operation as much as a construction project. The city\'s dense urban fabric -- brownstones sharing party walls in Forest Hill, triple-deckers packed along the North Ward\'s narrow side streets, commercial buildings fronting directly onto Ironbound sidewalks -- means that every full tear-off and replacement involves spatial planning that suburban contractors never face. Dumpster placement, material staging, debris containment, and adjacent-building protection all require advance coordination before the first shingle comes off.',
     'Newark\'s housing stock spans over 150 years of construction methods, and a roof replacement often reveals surprises hidden beneath aging surfaces. Victorian-era homes in the Roseville section may have three or four layers of roofing stacked over original skip sheathing that no longer meets code. Multi-family buildings in the Central Ward sometimes show structural deflection that accumulated over decades of deferred maintenance. A responsible replacement addresses what\'s underneath, not just what\'s on top -- and our estimates account for the discovery work that Newark\'s older buildings inevitably require.',
     'The commercial corridor along Broad Street and the industrial pockets of the Ironbound present replacement challenges entirely different from residential work. Flat-roof systems on these structures require crane access for membrane rolls, hot-asphalt kettles positioned away from pedestrian traffic, and phased installation schedules that keep the building operational during the project. We\'ve replaced roofs on occupied restaurants, active warehouses, and mixed-use buildings where ground-floor retail cannot afford closure -- a capability refined through years of working in Newark\'s commercial districts.',
     'For homeowners throughout Vailsburg, Weequahic, and the South Ward, roof replacement represents one of the largest investments in their property. We approach every residential replacement with that understanding. Our process includes a structural assessment of the existing roof deck, a ventilation analysis specific to Newark\'s humid summers and cold winters, and material recommendations calibrated to the building\'s orientation, pitch, and exposure profile. The goal is a roof that performs for 30 years in Newark\'s demanding climate, not just one that looks new on installation day.',
@@ -40,7 +40,25 @@ export const newarkRoofReplacement: ComboContent = {
     {
       question: 'How long does a typical roof replacement take on a Newark multi-family building?',
       answer: 'A standard three-family building in Newark takes four to six working days for complete tear-off and replacement, weather permitting. Larger multi-family structures or buildings requiring significant deck repair may extend to eight or ten days. We phase the work so that occupied units remain habitable throughout the project -- interior protection is installed before tear-off begins on each section. Commercial flat-roof replacements follow a different timeline depending on the membrane system; TPO or PVC installations on Ironbound commercial buildings typically run five to seven days for an average-sized structure.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Newark, NJ?',
+      answer: 'Most roof replacement projects in Newark range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof replacement in Newark NJ -- complete tear-off, party wall protection, code-compliant installation for brownstones and commercial buildings.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

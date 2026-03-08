@@ -4,7 +4,7 @@ export const caldwellMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Metal roof replacement in Caldwell transitions homes from traditional asphalt shingles to standing seam or metal panel systems that deliver forty to sixty years of protection without the replacement cycles that shingles require. The investment premium over shingle replacement is substantial -- typically two to three times the cost -- but Caldwell homeowners who view roofing as a long-term investment rather than a maintenance expense find that metal\'s lifecycle cost competes favorably when measured across decades rather than against the next twenty-five-year shingle lifespan.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Caldwell — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Caldwell transitions homes from traditional asphalt shingles to standing seam or metal panel systems that deliver forty to sixty years of protection without the replacement cycles that shingles require. The investment premium over shingle replacement is substantial -- typically two to three times the cost -- but Caldwell homeowners who view roofing as a long-term investment rather than a maintenance expense find that metal\'s lifecycle cost competes favorably when measured across decades rather than against the next twenty-five-year shingle lifespan.',
     'Caldwell\'s colonial and cape cod aesthetics create design considerations for metal roofing that pure function would not impose. Standing seam metal in traditional colors -- charcoal, bronze, slate gray, forest green -- integrates with the borough\'s residential character when profile and color are selected thoughtfully. The clean vertical lines of standing seam panels complement colonial proportions particularly well, and the material\'s ability to shed leaves and debris from its smooth surface addresses [Caldwell\'s](/roofing-in-caldwell-nj) tree canopy maintenance challenge in a way that textured shingle surfaces cannot.',
     'Our [metal roof replacement](/metal-roof-replacement) approach for Caldwell addresses the structural, aesthetic, and practical considerations that distinguish metal from shingle replacement. Structural verification ensures the existing framing can handle wind uplift forces on the metal surface. Color selection is verified on-site against the home\'s exterior context. Acoustic insulation prevents the rain noise that untreated metal roofs transmit into living spaces. Each of these details transforms metal roofing from an industrial material into a refined residential solution. Homeowners in [Montclair](/metal-roof-replacement-montclair-nj) and [Bloomfield](/metal-roof-replacement-bloomfield-nj) explore similar metal transitions for their residential properties.'
   ],
@@ -34,7 +34,25 @@ export const caldwellMetalRoofReplacement: ComboContent = {
     {
       question: 'Do metal roofs attract lightning on Caldwell homes?',
       answer: 'Metal roofs do not attract lightning. Lightning strikes the highest point in an area regardless of material. Metal roofing is actually safer during lightning events than combustible materials because metal does not ignite if struck. Metal roofing is non-combustible and distributes the electrical charge across the roof surface safely. This fire resistance is an advantage in Caldwell\'s tree-surrounded environment where lightning strikes during thunderstorms are not uncommon.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Caldwell, NJ?',
+      answer: 'Most metal roof replacement projects in Caldwell range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Caldwell NJ -- standing seam systems for colonials with acoustic insulation and snow retention for canopy homes.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

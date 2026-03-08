@@ -4,7 +4,7 @@ export const northCaldwellSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'north-caldwell',
   overview: [
-    'Silicone elastomeric roof coating provides North Caldwell commercial and residential property owners with a flexible, weather-resistant restoration system for aging flat roofs that bridges hairline cracks, seals minor imperfections, and creates a seamless reflective barrier across the entire roof surface. The elastomeric formulation stretches and contracts with thermal cycling -- maintaining its bond and waterproofing integrity through the temperature extremes that New Jersey seasons deliver from sub-zero winter nights to 160-degree summer roof surface temperatures.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in North Caldwell — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating provides North Caldwell commercial and residential property owners with a flexible, weather-resistant restoration system for aging flat roofs that bridges hairline cracks, seals minor imperfections, and creates a seamless reflective barrier across the entire roof surface. The elastomeric formulation stretches and contracts with thermal cycling -- maintaining its bond and waterproofing integrity through the temperature extremes that New Jersey seasons deliver from sub-zero winter nights to 160-degree summer roof surface temperatures.',
     'The flexibility advantage of [elastomeric coating](/silicone-elastomeric-roof-coating) matters particularly on North Caldwell properties where flat roof sections experience significant thermal movement. Small commercial buildings and estate home flat sections with membrane roofs develop micro-cracks, seam separations, and flashing gaps as materials age and thermal cycling stresses rigid connections. Elastomeric silicone accommodates this movement without cracking, bridging gaps up to an eighth of an inch that would cause rigid coatings to fracture and lose waterproofing integrity.',
     'Our elastomeric coating work in [North Caldwell](/roofing-in-north-caldwell-nj) targets the intersection of aging infrastructure and practical budgets. A ten-year-old EPDM membrane on a small office building or a fifteen-year-old modified bitumen section on an estate garage does not need full replacement if the substrate is sound. Elastomeric coating seals the surface, renews UV protection, and adds years of service life at a fraction of replacement cost. Commercial properties in neighboring [Caldwell](/silicone-elastomeric-roof-coating-caldwell-nj) use the same elastomeric technology for their aging flat roof inventory along the Bloomfield Avenue corridor.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Does elastomeric coating reduce energy costs on North Caldwell buildings?',
       answer: 'Yes. The white reflective surface of silicone elastomeric coating reduces solar heat gain on flat roof sections, lowering cooling loads during summer months. On sun-exposed flat sections, the cooling benefit is measurable in reduced air conditioning runtime and lower electricity costs. On shaded sections under North Caldwell\'s tree canopy, the reflective benefit is reduced but the insulating effect of the coating layer still provides a modest thermal improvement.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in North Caldwell, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in North Caldwell range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in North Caldwell NJ -- flexible restoration for aging flat roofs on commercial and estate properties.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

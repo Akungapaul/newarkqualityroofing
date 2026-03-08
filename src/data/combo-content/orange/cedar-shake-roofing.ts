@@ -4,7 +4,7 @@ export const orangeCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'orange',
   overview: [
-    'Cedar shake roofing carries a particular resonance in Orange, where the grand Victorian and Colonial Revival homes along Scotland Road and Park Avenue were originally built with hand-split wood roofing that matched the craftsmanship of their ornate facades. Today, homeowners restoring these properties or seeking to replicate that natural warmth on newer construction turn to our [cedar shake roofing](/cedar-shake-roofing) team for installations that honor the material\'s tradition while meeting modern performance requirements. The richly textured surface of hand-split cedar shakes transforms an Orange roofline from ordinary to distinctive -- a quality that matters deeply in a city where architectural character defines neighborhood identity.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Orange — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing carries a particular resonance in Orange, where the grand Victorian and Colonial Revival homes along Scotland Road and Park Avenue were originally built with hand-split wood roofing that matched the craftsmanship of their ornate facades. Today, homeowners restoring these properties or seeking to replicate that natural warmth on newer construction turn to our [cedar shake roofing](/cedar-shake-roofing) team for installations that honor the material\'s tradition while meeting modern performance requirements. The richly textured surface of hand-split cedar shakes transforms an Orange roofline from ordinary to distinctive -- a quality that matters deeply in a city where architectural character defines neighborhood identity.',
     'Orange\'s compact geography concentrates diverse roofing environments within walking distance. A Scotland Road Victorian with cedar shakes faces different stresses than a South Mountain hillside colonial with the same material. The Scotland Road home contends with tight-lot proximity to neighbors and limited airflow between structures, while the hillside property endures heavier wind loads and relentless debris from the reservation\'s hardwood canopy. Our cedar shake specifications for each location differ accordingly -- wider exposure courses and enhanced fastening on the mountain side, improved ventilation detailing on the densely built valley floor. Homeowners in neighboring [West Orange](/cedar-shake-roofing-west-orange-nj) share similar elevation-driven cedar considerations on their hillside properties.',
     'The natural insulation properties of cedar make it especially relevant for Orange\'s Valley neighborhood, where moisture management from below is a persistent challenge. Cedar\'s cellular structure breathes more effectively than synthetic roofing materials, allowing trapped attic moisture to dissipate rather than condense on the underside of the roof deck. This breathability, combined with proper ventilation design, creates a roof system that works with the Valley\'s humid microclimate rather than against it -- a material advantage that asphalt shingles cannot replicate.'
   ],
@@ -34,7 +34,25 @@ export const orangeCedarShakeRoofing: ComboContent = {
     {
       question: 'What does cedar shake maintenance cost for an Orange home?',
       answer: 'Annual maintenance for a typical Orange cedar shake roof runs between $400 and $800 depending on roof size and tree exposure. Mountain-adjacent properties at the higher end need semi-annual attention. This investment significantly extends the roof\'s lifespan -- homeowners who skip maintenance often face premature replacement costs that far exceed the cumulative maintenance investment.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Orange, NJ?',
+      answer: 'Most cedar shake roofing projects in Orange range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Orange NJ -- hand-split installation, South Mountain moss management, fire-rated products for tight lots, and Valley moisture solutions.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

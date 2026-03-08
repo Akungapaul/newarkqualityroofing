@@ -4,7 +4,7 @@ export const veronaRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'verona',
   overview: [
-    'Roof thermal imaging inspections use infrared camera technology to reveal moisture, insulation deficiencies, and heat loss patterns that visual inspection cannot detect. On Verona commercial buildings, thermal imaging identifies wet insulation beneath intact-appearing membrane surfaces, locating leak damage before it reaches the occupied space below. On residential properties, infrared scans map the heat loss through attic spaces that drives ice dam formation and energy waste on the township\'s split-level homes. Newark Quality Roofing provides thermal imaging services for both diagnostic and preventive applications across Verona.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Verona — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections use infrared camera technology to reveal moisture, insulation deficiencies, and heat loss patterns that visual inspection cannot detect. On Verona commercial buildings, thermal imaging identifies wet insulation beneath intact-appearing membrane surfaces, locating leak damage before it reaches the occupied space below. On residential properties, infrared scans map the heat loss through attic spaces that drives ice dam formation and energy waste on the township\'s split-level homes. Newark Quality Roofing provides thermal imaging services for both diagnostic and preventive applications across Verona.',
     'The science behind thermal imaging exploits the temperature differential between dry and wet materials. Wet insulation retains heat longer after sunset than dry insulation, creating a temperature signature that infrared cameras display as a distinct color map on the roof surface. This non-destructive technique surveys an entire commercial roof in hours without cutting a single core sample, identifying moisture intrusion areas with precision that physical probing would require days to match. Our [thermal imaging](/roof-thermal-imaging-inspections) inspections provide the data needed for targeted repair rather than speculative membrane replacement.',
     'Verona property owners use thermal imaging for multiple applications beyond leak detection. Pre-purchase inspections reveal concealed roof damage that walk-through inspections miss. Annual maintenance scans track moisture changes year-over-year, identifying new intrusion before it causes interior damage. Re-roofing specifications use scan data to define which insulation sections need replacement and which can be retained, potentially saving thousands in unnecessary tear-off. Building managers in [West Orange](/roof-thermal-imaging-inspections-west-orange-nj) have incorporated annual thermal scans into their roof maintenance programs for the same preventive benefits.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofThermalImagingInspections: ComboContent = {
     {
       question: 'How accurate is thermal imaging for finding roof moisture?',
       answer: 'When performed under proper conditions by experienced thermographers, thermal imaging detects subsurface moisture with approximately 90 percent accuracy. We recommend core sampling at a representative sample of thermal anomalies to physically confirm the infrared findings -- a small investment that validates the scan data before repair decisions are made. The combination of thermal scanning and selective core sampling provides the most reliable and cost-effective moisture assessment available for commercial roofs.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Verona, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Verona range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Verona NJ -- infrared moisture detection for commercial flat roofs and residential heat loss mapping.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

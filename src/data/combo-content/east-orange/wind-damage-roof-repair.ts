@@ -4,7 +4,7 @@ export const eastOrangeWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'east-orange',
   overview: [
-    'Wind damage on East Orange roofs exploits the building vulnerabilities that decades of deferred maintenance have created. The Victorian two-families and three-families that line streets through Elmwood Park, the Brick Church district, and along Halsted Street feature steep-pitched roofs with multiple gable ends, dormers, and decorative trim elements -- every one of which creates a wind catch point where lifting forces concentrate. When shingles that have lost adhesive seal strength from age and thermal cycling encounter 60-mph gusts, they peel upward from the tabs, fold over the ridge, or tear away entirely, leaving the felt underlayment exposed to the next rainfall.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in East Orange — with prices starting from $400–$2,000 and free estimates available today. Wind damage on East Orange roofs exploits the building vulnerabilities that decades of deferred maintenance have created. The Victorian two-families and three-families that line streets through Elmwood Park, the Brick Church district, and along Halsted Street feature steep-pitched roofs with multiple gable ends, dormers, and decorative trim elements -- every one of which creates a wind catch point where lifting forces concentrate. When shingles that have lost adhesive seal strength from age and thermal cycling encounter 60-mph gusts, they peel upward from the tabs, fold over the ridge, or tear away entirely, leaving the felt underlayment exposed to the next rainfall.',
     'Flat-roofed apartment buildings throughout East Orange sustain wind damage differently but no less consequentially. Membrane edge terminations at parapets, mechanical curbs, and perimeter flashings experience the greatest wind uplift forces on low-slope roofs. When metal edge flashing lifts away from the roof deck, it creates a gap where wind enters beneath the membrane, progressively peeling it back from the edge inward. A wind event that lifts twelve inches of perimeter flashing on a building along Park Avenue can grow into a twenty-foot membrane peel before the next storm, because the initial lifting creates the entry point for accelerating damage with each subsequent wind event.',
     'East Orange\'s position in the topographic transition between the Watchung ridgeline and the flat coastal plain creates localized wind acceleration effects. Wind channeling between buildings on narrow lots amplifies gusts in the gaps between structures, and the Venturi effect where streets funnel between taller buildings along Main Street produces wind speeds exceeding the open-field measurements from weather stations. Properties on [exposed hillside positions](/wind-damage-roof-repair-newark-nj) face different wind challenges than those sheltered in valley neighborhoods -- East Orange spans both conditions, with Ampere on higher ground and the central core in the valley of the East Branch of the Rahway River.',
     'For property owners managing multiple East Orange buildings, wind damage often reveals deferred maintenance across the portfolio. If one building on a block loses shingles from a windstorm, adjacent buildings with the same age, exposure, and maintenance history are likely to sustain similar damage in the next event. Our wind damage response includes condition assessment of adjacent portfolio properties, identifying buildings at imminent risk of the same failure mode so that preventive reinforcement can be applied before the next storm rather than waiting for damage to occur.'
@@ -35,7 +35,25 @@ export const eastOrangeWindDamageRoofRepair: ComboContent = {
     {
       question: 'Can wind damage on one East Orange building affect my adjacent property?',
       answer: 'Yes. Shingles, metal flashing, and other materials blown from one building can damage adjacent structures. On East Orange blocks with three-foot side-yard gaps between buildings, wind-borne debris from one roof frequently impacts the neighboring building\'s siding, windows, or roof surface. If your building sustains secondary damage from materials originating on an adjacent property, the responsible party\'s insurance typically covers the damage. We document the origin of debris during wind damage assessments to support cross-property claims.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in East Orange, NJ?',
+      answer: 'Most wind damage roof repair projects in East Orange range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair for East Orange NJ multi-family buildings -- shingle blow-off restoration, membrane re-fastening, and insurance-documented storm repair.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const newarkEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'newark',
   overview: [
-    'Newark operates at the epicenter of New Jersey\'s urban heat island, where summer air temperatures run five to ten degrees higher than surrounding Essex County suburbs and roof surface temperatures on dark asphalt regularly exceed 150 degrees Fahrenheit. Energy-efficient roofing is not an upgrade here -- it is a survival strategy for buildings and budgets alike. Cool roof systems, reflective membranes, radiant barriers, and high-performance insulation assemblies directly reduce the cooling loads that drive Newark commercial and residential energy bills through July and August, when PSE&G rates peak under demand pricing.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Newark — with prices starting from $10,000–$28,000 and free estimates available today. Newark operates at the epicenter of New Jersey\'s urban heat island, where summer air temperatures run five to ten degrees higher than surrounding Essex County suburbs and roof surface temperatures on dark asphalt regularly exceed 150 degrees Fahrenheit. Energy-efficient roofing is not an upgrade here -- it is a survival strategy for buildings and budgets alike. Cool roof systems, reflective membranes, radiant barriers, and high-performance insulation assemblies directly reduce the cooling loads that drive Newark commercial and residential energy bills through July and August, when PSE&G rates peak under demand pricing.',
     'For commercial property owners in Downtown Newark and the Ironbound, cool roof mandates are already shaping material choices. New Jersey\'s building energy code requires minimum solar reflectance values on low-slope commercial roofs in climate zone 4A, which encompasses all of Essex County. Meeting these requirements with white TPO, PVC, or reflective coatings simultaneously satisfies code compliance, reduces HVAC operating costs, and extends roof membrane life by lowering thermal stress cycles. The economics are straightforward: a cool commercial roof in Newark typically reduces annual cooling costs by fifteen to twenty-five percent compared to a standard dark membrane.',
     'Residential energy-efficient roofing in Newark addresses a different set of thermal pathways. The city\'s older housing stock -- brownstones with minimal attic insulation, multi-family walk-ups with shared roof decks, Cape Cods where living space extends into the roof cavity -- loses and gains heat through the roof assembly at rates that modern code-built homes never experience. Upgrading the complete roof assembly, from reflective shingles and radiant barriers to continuous insulation and proper ventilation, transforms these thermal sieves into high-performing enclosures that maintain comfort year-round.',
     'Newark\'s sustainability agenda adds a policy dimension to energy-efficient roofing. The city\'s climate action goals include reducing building energy consumption across its commercial and institutional building stock, and rooftop thermal performance is one of the fastest-return interventions available. Property owners who invest in cool roof technology contribute to neighborhood-level heat island reduction while capturing individual savings -- a rare alignment of public benefit and private financial return.'
@@ -36,7 +36,25 @@ export const newarkEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Can energy-efficient roofing help reduce temperatures inside my Newark brownstone attic?',
       answer: 'Absolutely. Unimproved brownstone attics in Newark routinely reach 130 to 140 degrees Fahrenheit on summer afternoons, which radiates heat into the living spaces below even with window air conditioning running continuously. A properly designed energy-efficient roof assembly -- combining reflective surface material, radiant barrier, adequate insulation, and continuous ventilation -- can reduce peak attic temperatures by forty to sixty degrees. This transforms the attic from a heat source into a thermal buffer, dramatically reducing cooling loads on the floors below.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Newark, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Newark range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy-efficient roofing solutions in Newark NJ. Cool roof systems, thermal audits, and insulation upgrades cutting cooling costs in urban heat islands.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

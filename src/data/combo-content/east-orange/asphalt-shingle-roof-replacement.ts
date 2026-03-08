@@ -4,7 +4,7 @@ export const eastOrangeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Asphalt shingle roof replacement is the most common re-roofing project on East Orange\'s residential buildings because architectural asphalt shingles deliver the performance, appearance, and cost profile that multi-family investment properties require. The Victorian two-families in Elmwood Park, the colonials in Ampere, and the converted residential buildings throughout Doddtown overwhelmingly carry [asphalt shingle](/asphalt-shingle-roof-replacement) roofing, and when replacement time arrives, the same material in its current generation provides the upgrade path that makes financial sense for East Orange\'s rental property market.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in East Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common re-roofing project on East Orange\'s residential buildings because architectural asphalt shingles deliver the performance, appearance, and cost profile that multi-family investment properties require. The Victorian two-families in Elmwood Park, the colonials in Ampere, and the converted residential buildings throughout Doddtown overwhelmingly carry [asphalt shingle](/asphalt-shingle-roof-replacement) roofing, and when replacement time arrives, the same material in its current generation provides the upgrade path that makes financial sense for East Orange\'s rental property market.',
     'Current-generation architectural shingles offer significant performance improvements over the shingles they replace on East Orange buildings. Enhanced wind resistance ratings of 130 mph versus the 60-70 mph ratings of products from 20 years ago, improved algae resistance that maintains appearance without the dark streaking that degrades curb appeal, and SBS-modified asphalt formulations that maintain flexibility through Northeast freeze-thaw cycling all represent genuine improvements that make replacement a performance upgrade rather than simple material renewal.',
     'GAF, Owens Corning, and CertainTeed remain the primary manufacturer selections for East Orange residential replacement work. Each offers tiered product lines that align with the investment-versus-performance trade-offs that East Orange property owners evaluate. GAF Timberline series provides the broadest market acceptance and competitive pricing. Owens Corning Duration offers enhanced wind resistance. CertainTeed Landmark delivers consistent quality in a mid-market price range. Our recommendations match the product tier to the property owner\'s investment timeline, similar to the guidance we provide on replacement projects across Essex County from [Bloomfield](/asphalt-shingle-roof-replacement-bloomfield-nj) to West Orange.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Does asphalt shingle replacement require a permit in East Orange?',
       answer: 'Yes. East Orange requires building permits for all roof replacement projects. The permit process requires contractor licensing verification, insurance documentation, and project specifications. We handle the complete permit application process and coordinate required inspections as part of our standard service scope.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in East Orange, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in East Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement for East Orange NJ homes -- architectural shingle upgrades for Victorian two-families and multi-family rental buildings.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

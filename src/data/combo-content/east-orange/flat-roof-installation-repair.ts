@@ -4,7 +4,7 @@ export const eastOrangeFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'east-orange',
   overview: [
-    'Flat roofs define East Orange\'s apartment building landscape. From the three-story walk-ups along Park Avenue to the garden apartment complexes in Doddtown to the mixed-use storefronts lining Main Street\'s commercial corridor, low-slope and flat roof systems cover more square footage in East Orange than pitched roofs. These buildings were designed for maximum habitable volume under economic constraints, and the flat roof was the practical choice that minimized construction cost while allowing full use of the top-floor footprint. Today, maintaining these flat roof systems is the largest single roofing expenditure category for East Orange property managers.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in East Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roofs define East Orange\'s apartment building landscape. From the three-story walk-ups along Park Avenue to the garden apartment complexes in Doddtown to the mixed-use storefronts lining Main Street\'s commercial corridor, low-slope and flat roof systems cover more square footage in East Orange than pitched roofs. These buildings were designed for maximum habitable volume under economic constraints, and the flat roof was the practical choice that minimized construction cost while allowing full use of the top-floor footprint. Today, maintaining these flat roof systems is the largest single roofing expenditure category for East Orange property managers.',
     'The flat roof systems currently in service across East Orange span every era of low-slope roofing technology. Original built-up tar-and-gravel roofs from the 1920s and 1930s survive on apartment buildings that have been continuously maintained. Modified bitumen installations from the 1970s and 1980s cover buildings that received their first re-roofing during that period. TPO and EPDM membranes installed in the last fifteen years represent the current generation. Many buildings carry multiple systems layered over each other -- a history of re-roofing without removal that creates diagnostic and structural challenges unique to [flat roof](/flat-roof-installation-repair) work in older urban building stock.',
     'For East Orange landlords and property managers, flat roof decisions are investment calculations. A garden apartment complex owner evaluating flat roof options across twelve buildings needs lifecycle cost analysis, not just installed-price comparison. Modified bitumen costs less to install than TPO but has a shorter service life and higher ongoing maintenance cost. TPO costs more initially but delivers superior energy performance and longer warranty coverage. EPDM offers the lowest installed cost for mechanically attached systems but lacks the reflective energy benefits of white TPO. We present these comparisons building by building because the right system depends on each structure\'s specific conditions, load capacity, and drainage characteristics.',
     'Flat roof repair on East Orange apartment buildings is an ongoing operational cost that property managers budget for annually. Unlike pitched roofs where failures are discrete events -- a blown shingle, a cracked pipe boot -- flat roof systems develop failures gradually as membranes age, seams relax, and flashings pull away from parapets and penetrations. The properties that spend the least on flat roof repair are those with proactive maintenance programs that catch deterioration early. The properties that spend the most are those that respond only to active leaks, by which time the underlying damage has expanded far beyond the visible symptom.'
@@ -35,7 +35,25 @@ export const eastOrangeFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'How much does a flat roof replacement cost for an East Orange apartment building?',
       answer: 'Flat roof replacement costs on East Orange apartment buildings typically range from $8 to $14 per square foot for TPO systems including tear-off, insulation, and membrane. A 5,000-square-foot apartment building roof falls in the $40,000 to $70,000 range depending on the number of existing layers, extent of deck repair, insulation thickness, and penetration count. Modified bitumen systems cost approximately 10 to 15 percent more. We provide detailed line-item proposals so property owners understand exactly what the budget covers.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in East Orange, NJ?',
+      answer: 'Most flat roof installation repair projects in East Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair for East Orange NJ apartments -- TPO, modified bitumen, and EPDM systems for walk-ups and garden apartments.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

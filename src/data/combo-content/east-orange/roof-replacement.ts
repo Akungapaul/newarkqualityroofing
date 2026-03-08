@@ -4,7 +4,7 @@ export const eastOrangeRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Roof replacement in East Orange is fundamentally a multi-family housing decision, not a single-family one. The city\'s building stock tilts heavily toward two-family Victorians, three-family walk-ups, and garden apartment complexes where replacement timing is driven by tenant complaints, code enforcement notices, and investment exit strategies rather than the gradual aesthetic decline that motivates owner-occupants in suburban towns. A landlord managing four rental units across a deteriorating Victorian on Prospect Street faces a calculation that property owners in neighboring [Montclair](/roof-replacement-montclair-nj) rarely confront: does the replacement cost recover through higher rents, reduced maintenance calls, and extended hold period returns, or does it make more financial sense to sell the property with a roof credit?',
+    'Newark Quality Roofing delivers expert roof replacement in East Orange — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement in East Orange is fundamentally a multi-family housing decision, not a single-family one. The city\'s building stock tilts heavily toward two-family Victorians, three-family walk-ups, and garden apartment complexes where replacement timing is driven by tenant complaints, code enforcement notices, and investment exit strategies rather than the gradual aesthetic decline that motivates owner-occupants in suburban towns. A landlord managing four rental units across a deteriorating Victorian on Prospect Street faces a calculation that property owners in neighboring [Montclair](/roof-replacement-montclair-nj) rarely confront: does the replacement cost recover through higher rents, reduced maintenance calls, and extended hold period returns, or does it make more financial sense to sell the property with a roof credit?',
     'The Victorian two-families and three-families concentrated in Elmwood Park, along Halsted Street, and throughout the Brick Church neighborhood present replacement challenges that stem from their original construction. Balloon-framed walls, minimal eave overhangs, and complex intersecting rooflines with dormers, turrets, and decorative gable details mean that an East Orange Victorian roof replacement involves far more linear feet of flashing, valley work, and specialty trim than a comparably sized colonial in [Bloomfield](/roof-replacement-bloomfield-nj). These geometric complexities drive material waste factors higher and extend labor timelines, making accurate pre-construction measurement essential for realistic budgeting.',
     'Garden apartment complexes in Doddtown and along Springdale Avenue represent a different replacement model entirely. A property manager overseeing eight to twelve buildings with identical flat-roof construction can phase replacements across multiple budget cycles, starting with the buildings showing the most advanced deterioration and working through the portfolio systematically. This phased approach lets owners spread capital expenditure while standardizing on a single membrane system -- typically TPO or modified bitumen -- that simplifies future maintenance across the entire complex.',
     'East Orange\'s Urban Enterprise Zone and rehabilitation incentive programs create financial opportunities for property owners who time their [roof replacement](/roof-replacement) strategically. Tax abatements, improvement credits, and rehabilitation grants can offset a meaningful portion of replacement cost when the project is structured to qualify. We coordinate with property owners and their tax advisors to ensure roof replacement projects capture available incentives, which can shift the financial calculus from marginal to clearly profitable.'
@@ -35,7 +35,25 @@ export const eastOrangeRoofReplacement: ComboContent = {
     {
       question: 'Can I phase a roof replacement across multiple buildings in my East Orange apartment complex?',
       answer: 'Yes, and phased replacement is often the most financially practical approach for East Orange apartment complex owners. We develop multi-year replacement plans that prioritize buildings by condition severity, starting with the structures showing active leaks or structural concerns. Phasing allows property owners to budget capital expenditures across fiscal years while standardizing on a single roof system that simplifies future maintenance. Volume pricing applies across phased projects, so the per-building cost decreases compared to treating each building as a standalone project.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in East Orange, NJ?',
+      answer: 'Most roof replacement projects in East Orange range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement for East Orange NJ multi-family properties -- Victorian tear-offs, apartment building re-roofing, and phased portfolio replacement plans.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

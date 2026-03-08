@@ -4,7 +4,7 @@ export const montclairReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'montclair',
   overview: [
-    'Re-roofing in Montclair encompasses the full spectrum of roof replacement approaches -- tear-off, overlay, material upgrades, and system conversions -- unified by the objective of replacing an aging roof with a new installation that will protect the home for the next generation of ownership. The term captures the planning, material selection, and execution decisions that Montclair homeowners navigate when their existing roof has reached the point where continued repair is no longer economically or practically viable.',
+    'Newark Quality Roofing delivers expert re roofing in Montclair — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Montclair encompasses the full spectrum of roof replacement approaches -- tear-off, overlay, material upgrades, and system conversions -- unified by the objective of replacing an aging roof with a new installation that will protect the home for the next generation of ownership. The term captures the planning, material selection, and execution decisions that Montclair homeowners navigate when their existing roof has reached the point where continued repair is no longer economically or practically viable.',
     'Montclair\'s real estate dynamics make re-roofing a property investment decision as much as a maintenance necessity. In a market where homes trade in the range that supports premium material choices, the re-roofing specification -- material quality, color selection, installation quality, and warranty documentation -- directly affects property valuation. Our [re-roofing](/re-roofing) projects across [Montclair](/roofing-in-montclair-nj) provide the material recommendations, installation quality, and documentation that protect both the home and its market position.',
     'Neighboring communities including [West Orange](/re-roofing-west-orange-nj) and [Glen Ridge](/re-roofing-glen-ridge-nj) share Montclair\'s preference for premium re-roofing materials that complement the architectural character of their historic housing stock. Montclair\'s HPC oversight on designated properties adds a material compliance dimension that makes pre-project planning especially important for homes in historic districts.'
   ],
@@ -30,7 +30,25 @@ export const montclairReRoofing: ComboContent = {
     {
       question: 'How long does re-roofing take in Montclair?',
       answer: 'Most Montclair homes complete re-roofing in three to five working days including tear-off, deck repair, and new installation. Larger Victorian homes with complex rooflines may require five to seven working days. Weather delays during Montclair\'s variable spring and fall seasons can extend the calendar timeline. We provide a detailed project schedule at contract signing and update the homeowner daily during installation. No exposed deck area is left unprotected overnight regardless of project progress.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Montclair, NJ?',
+      answer: 'Most re roofing projects in Montclair range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services in Montclair NJ -- complete roof replacement with premium materials for Victorian, Tudor, and modern homes.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

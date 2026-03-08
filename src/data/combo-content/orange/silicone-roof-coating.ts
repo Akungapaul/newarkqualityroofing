@@ -4,7 +4,7 @@ export const orangeSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'orange',
   overview: [
-    'Silicone roof coating extends the service life of aging commercial flat roofs across Orange without the cost, disruption, and debris of full membrane replacement. Our [silicone roof coating](/silicone-roof-coating) applications on Main Street storefronts, Mitchell Street warehouses, and institutional buildings along Park Avenue restore waterproofing integrity to deteriorating membranes and add a reflective surface that reduces cooling costs -- transforming a roof that was scheduled for expensive replacement into one that performs for another 10 to 15 years at a fraction of the replacement price.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Orange — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating extends the service life of aging commercial flat roofs across Orange without the cost, disruption, and debris of full membrane replacement. Our [silicone roof coating](/silicone-roof-coating) applications on Main Street storefronts, Mitchell Street warehouses, and institutional buildings along Park Avenue restore waterproofing integrity to deteriorating membranes and add a reflective surface that reduces cooling costs -- transforming a roof that was scheduled for expensive replacement into one that performs for another 10 to 15 years at a fraction of the replacement price.',
     'The economics of silicone coating are particularly compelling for Orange\'s small commercial building owners who face tight capital budgets. A Main Street storefront owner looking at a $25,000 to $35,000 membrane replacement can instead invest $8,000 to $12,000 in silicone coating that provides equivalent waterproofing performance for the next decade. The coating seals existing seam failures, bridges hairline cracks, and creates a UV-resistant reflective surface over the aged membrane below. When the coating eventually needs reapplication in 10 to 15 years, the process is equally straightforward and affordable.',
     'Silicone\'s resistance to ponding water sets it apart from other coating options on Orange\'s flat-roofed commercial buildings. Acrylic and urethane coatings break down under standing water, but silicone maintains its integrity even when submerged. On Orange\'s older commercial buildings where poor drainage design and structural settling create ponding conditions that cannot be corrected without major structural work, silicone coating provides reliable waterproofing despite the standing water that would destroy other coating products. This ponding tolerance is equally valuable on [Newark](/silicone-roof-coating-newark-nj)\'s older commercial rooftops.'
   ],
@@ -34,7 +34,25 @@ export const orangeSiliconeRoofCoating: ComboContent = {
     {
       question: 'When is coating not appropriate for my Orange commercial roof?',
       answer: 'Coating is not appropriate when the existing membrane has widespread saturated insulation beneath it, when the roof deck has structural deterioration, or when the membrane has lost adhesion to the substrate over large areas. These conditions require membrane replacement rather than coating. Our pre-coating inspection identifies these disqualifying conditions before any work begins.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Orange, NJ?',
+      answer: 'Most silicone roof coating projects in Orange range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Orange NJ -- Main Street commercial restoration, ponding water protection, reflective UV barrier, and cost-effective life extension.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

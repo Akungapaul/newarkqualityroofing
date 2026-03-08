@@ -4,7 +4,7 @@ export const orangeRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'orange',
   overview: [
-    'Roof replacement after chronic leaking is the decision Orange homeowners reach when repeated repairs fail to solve persistent water entry. Our [roof replacement after leak](/roof-replacement-after-leak) projects address the systemic failures that patching cannot fix -- widespread flashing deterioration, deck rot beneath a surface that looks intact, failed shingle seals across the entire roof plane, and ventilation deficiencies that create condensation damage misidentified as exterior leaks. When the repair cycle has consumed thousands without lasting results, replacement resets the entire system.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after chronic leaking is the decision Orange homeowners reach when repeated repairs fail to solve persistent water entry. Our [roof replacement after leak](/roof-replacement-after-leak) projects address the systemic failures that patching cannot fix -- widespread flashing deterioration, deck rot beneath a surface that looks intact, failed shingle seals across the entire roof plane, and ventilation deficiencies that create condensation damage misidentified as exterior leaks. When the repair cycle has consumed thousands without lasting results, replacement resets the entire system.',
     'Orange\'s Valley neighborhood generates a disproportionate share of leak-driven replacements because the area\'s moisture dynamics attack roofs from below as well as above. Homeowners who have repaired exterior leak points repeatedly may still experience water damage from condensation forming on cold roof decking in poorly ventilated attics. The replacement project becomes the vehicle for solving both the surface waterproofing and the below-deck moisture management that the Valley\'s conditions demand.',
     'For Orange investment property owners managing rental units with leak histories, replacement after chronic leaking is often the most cost-effective decision. The cumulative cost of emergency repair calls, tenant complaints, interior damage remediation, and lost rental income during disruptions frequently exceeds the amortized cost of a new roof within three to five years. Our leak-history analysis for Orange landlords quantifies these ongoing costs against the one-time replacement investment, making the financial case clear. Landlords with properties across [Newark](/roof-replacement-after-leak-newark-nj) and Orange face the same repair-cost accumulation on aging multi-family buildings.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'What additional work is needed for leak-prone Valley homes?',
       answer: 'Valley homes with chronic leaks typically need vapor barrier installation, soffit-to-ridge ventilation upgrade, and potentially attic dehumidification in addition to the new roof surface. These moisture management components address the below-deck condensation that contributes to water damage in the Valley\'s high-moisture environment. Without these additions, a new roof surface alone may not fully resolve the moisture issues.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Orange, NJ?',
+      answer: 'Most roof replacement after leak projects in Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Orange NJ -- chronic leak investigation, Valley moisture management, interior damage remediation, and system-level solutions.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

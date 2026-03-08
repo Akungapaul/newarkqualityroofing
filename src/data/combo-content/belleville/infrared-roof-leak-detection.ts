@@ -4,7 +4,7 @@ export const bellevilleInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'belleville',
   overview: [
-    'Infrared roof leak detection pinpoints the exact location where water enters Belleville\'s commercial flat roofs, eliminating the costly guesswork that leads to repeated failed repair attempts on the wrong area. When a ceiling stain appears in a Washington Avenue office or a Turnpike warehouse reports water dripping on product, the visible symptom can be 20-30 feet from the actual roof entry point. Water travels horizontally along structural channels, insulation interfaces, and membrane wrinkles before finding a gravity path to the interior. Infrared detection traces this path backward, identifying the precise entry location for targeted, one-time-fix repair.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Belleville — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection pinpoints the exact location where water enters Belleville\'s commercial flat roofs, eliminating the costly guesswork that leads to repeated failed repair attempts on the wrong area. When a ceiling stain appears in a Washington Avenue office or a Turnpike warehouse reports water dripping on product, the visible symptom can be 20-30 feet from the actual roof entry point. Water travels horizontally along structural channels, insulation interfaces, and membrane wrinkles before finding a gravity path to the interior. Infrared detection traces this path backward, identifying the precise entry location for targeted, one-time-fix repair.',
     'The technology works by detecting the thermal signature of moisture within the roof assembly. Wet insulation retains heat longer than dry insulation, creating a temperature differential that infrared cameras render as a distinct color pattern on the display. This pattern reveals not just the leak entry point but the full extent of moisture migration through the insulation, showing the building owner exactly how much of the roof assembly has been compromised and whether the problem is localized or widespread.',
     'For Belleville property managers overseeing multiple commercial tenants, infrared leak detection provides the documentation that separates landlord from tenant responsibility. When a tenant reports a ceiling leak, the infrared survey determines whether the leak originates from the roof system (landlord responsibility) or from the tenant\'s HVAC unit, plumbing, or equipment condensation (tenant responsibility). This objective diagnostic evidence prevents the disputes that arise when responsibility is assumed without investigation across Belleville\'s commercial properties and similar ones in [Newark](/infrared-roof-leak-detection-newark-nj).',
     'Our [infrared leak detection](/infrared-roof-leak-detection) service in Belleville is available as a standalone diagnostic or as part of a repair engagement. For building owners who want diagnosis and repair from a single contractor, we perform the infrared survey, identify the entry point, and execute the repair in a coordinated sequence. For building owners who want an independent diagnostic that they can use to solicit competitive repair bids, we provide the survey report as a standalone deliverable with detailed findings and repair recommendations.'
@@ -35,7 +35,25 @@ export const bellevilleInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'Will infrared detection work on my Belleville building\'s gravel roof?',
       answer: 'Gravel ballast blocks infrared radiation from reaching the camera, limiting the effectiveness of surface-level thermal imaging. For gravel-ballasted BUR systems, we use alternative detection methods: removing gravel in a grid pattern to expose membrane sections for scanning, or using core sampling to physically test moisture content at representative locations. These methods are more labor-intensive but provide accurate moisture data on covered roof systems.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Belleville, NJ?',
+      answer: 'Most infrared roof leak detection projects in Belleville range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Belleville NJ. Pinpoint commercial flat roof leaks with thermal imaging for Washington Avenue and Turnpike buildings.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

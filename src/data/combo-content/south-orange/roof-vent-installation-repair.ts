@@ -4,7 +4,7 @@ export const southOrangeRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Roof vent installation and repair in South Orange Village maintains the attic ventilation balance that prevents moisture damage, ice dam formation, and premature roofing material deterioration on the village\'s pre-war housing stock. The Tudor Revival and Colonial Revival homes throughout Montrose Park and the Prospect Street corridor were built before modern building science established the ventilation standards that current construction follows, leaving many South Orange attics with inadequate exhaust capacity that traps heat and moisture beneath the roof surface.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in South Orange — with prices starting from $300–$1,200 and free estimates available today. Roof vent installation and repair in South Orange Village maintains the attic ventilation balance that prevents moisture damage, ice dam formation, and premature roofing material deterioration on the village\'s pre-war housing stock. The Tudor Revival and Colonial Revival homes throughout Montrose Park and the Prospect Street corridor were built before modern building science established the ventilation standards that current construction follows, leaving many South Orange attics with inadequate exhaust capacity that traps heat and moisture beneath the roof surface.',
     'Proper roof ventilation extends roofing material life significantly -- asphalt shingles on a well-ventilated roof outlast identical products on a poorly ventilated roof by five to seven years, and the temperature differential is even more consequential for cedar shake, which retains moisture from below that accelerates decay. In a village where premium roofing materials represent substantial investments, maximizing their service life through proper ventilation delivers genuine return on the modest vent installation cost.',
     'South Orange\'s complex multi-gable rooflines create ventilation compartments that standard ridge vent installations do not always serve effectively. Each gable section creates a separate attic zone that requires its own intake-and-exhaust airflow path. A ridge vent on the main gable does not ventilate a perpendicular gable section unless the attic space is open between them. Our ventilation assessment maps each attic compartment and designs vent placement that ensures every zone receives adequate airflow, a requirement equally important for the complex rooflines found on homes in [West Orange](/roof-vent-installation-repair-west-orange-nj).',
     'Our vent work in [South Orange](/roofing-in-south-orange-nj) integrates with the roofing system as properly flashed penetrations rather than afterthought additions. Every roof vent is a penetration through the waterproof membrane, and improper installation creates a leak source. We install vents with the same flashing attention we bring to skylights and chimney penetrations, ensuring ventilation improvement does not come at the cost of waterproofing integrity.'
@@ -35,7 +35,25 @@ export const southOrangeRoofVentInstallationRepair: ComboContent = {
     {
       question: 'Will better ventilation reduce my South Orange cooling costs?',
       answer: 'Proper attic ventilation reduces the extreme heat buildup that poorly ventilated attics experience in summer, which in turn reduces the heat load on upper-floor ceilings and lowers air conditioning demand. The cooling cost reduction depends on the severity of the existing ventilation deficiency and the home\'s insulation levels. Homes with poor ventilation and minimal attic insulation see the most significant improvement from ventilation upgrades.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in South Orange, NJ?',
+      answer: 'Most roof vent installation repair projects in South Orange range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in South Orange NJ -- ridge vents, box vents, and attic ventilation for village homes.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

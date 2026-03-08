@@ -4,7 +4,7 @@ export const northCaldwellGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Gutter systems on North Caldwell estates manage water volumes that dwarf what standard residential gutters handle. Roof areas of 5,000 to 8,000 square feet concentrate runoff into gutter runs that must carry massive flow rates during heavy rainfall without overflowing, leaking at seams, or pulling away from fascia boards under the weight of water and accumulated debris. The six-inch K-style or half-round gutters standard on these properties provide the capacity these large roof areas demand, but sizing alone is not enough -- proper slope, adequate downspout capacity, and debris management are equally critical.',
+    'Newark Quality Roofing delivers expert gutter installation repair in North Caldwell — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems on North Caldwell estates manage water volumes that dwarf what standard residential gutters handle. Roof areas of 5,000 to 8,000 square feet concentrate runoff into gutter runs that must carry massive flow rates during heavy rainfall without overflowing, leaking at seams, or pulling away from fascia boards under the weight of water and accumulated debris. The six-inch K-style or half-round gutters standard on these properties provide the capacity these large roof areas demand, but sizing alone is not enough -- proper slope, adequate downspout capacity, and debris management are equally critical.',
     'Our [gutter installation](/gutter-installation-repair) work in North Caldwell uses seamless aluminum or copper fabrication matched to the architectural character of each estate home. Seamless runs eliminate the joints that collect debris and develop leaks over time. For colonial and traditional homes along Grandview Avenue, copper half-round gutters complement the premium roof materials and architectural detailing. For contemporary properties, seamless aluminum in custom colors provides clean profiles that integrate with modern design aesthetics. Homeowners in neighboring [Essex Fells](/gutter-installation-repair-essex-fells-nj) share the same preference for copper gutter systems on their estate properties.',
     'Repair work on existing gutter systems across [North Caldwell](/roofing-in-north-caldwell-nj) addresses the wear patterns that estate-scale systems develop over years of heavy use. Seam separations on older sectional gutters, hanger failures where overflow weight has stressed mounting hardware, and downspout connections that have separated from the gutter trough are all conditions that compromise the drainage protection these large homes require.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellGutterInstallationRepair: ComboContent = {
     {
       question: 'Can you repair leaking seams on my existing North Caldwell gutters?',
       answer: 'Yes, though the long-term solution depends on gutter age and condition. Seam repairs using compatible sealant or soldering (for copper) restore function on gutters with localized joint failures. When multiple seams are failing across the system, seamless gutter replacement eliminates the seam problem permanently and provides a fresh warranty on the entire drainage system.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in North Caldwell, NJ?',
+      answer: 'Most gutter installation repair projects in North Caldwell range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in North Caldwell NJ -- seamless copper and aluminum systems for estate homes with heavy tree canopy.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

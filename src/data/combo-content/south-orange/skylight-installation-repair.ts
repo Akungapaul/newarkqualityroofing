@@ -4,7 +4,7 @@ export const southOrangeSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Skylight installation and repair in South Orange Village serves homeowners seeking natural light in the characteristically deep floor plans of the village\'s pre-war housing stock. Tudor Revival and Colonial Revival homes in Montrose Park and along Prospect Street often have interior rooms and upper-floor hallways that receive limited window light, making skylights a valued addition that transforms dark spaces without the exterior facade modifications that window additions would require on architecturally significant homes.',
+    'Newark Quality Roofing delivers expert skylight installation repair in South Orange — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in South Orange Village serves homeowners seeking natural light in the characteristically deep floor plans of the village\'s pre-war housing stock. Tudor Revival and Colonial Revival homes in Montrose Park and along Prospect Street often have interior rooms and upper-floor hallways that receive limited window light, making skylights a valued addition that transforms dark spaces without the exterior facade modifications that window additions would require on architecturally significant homes.',
     'South Orange\'s tree canopy creates a particular dynamic for skylight installations. The filtered light that passes through mature oak and maple canopies provides soft, diffused illumination through skylights that avoids the harsh direct sunlight that unshaded skylights in open suburban settings deliver. This canopy-filtered light creates comfortable interior lighting conditions that South Orange homeowners find appealing, though the shade also means skylight placement must be carefully planned to maximize the available light rather than defaulting to south-facing orientations that standard skylight guidelines recommend.',
     'Skylight repair in South Orange frequently addresses the failure modes that age and environmental exposure produce on installations that were common in the 1980s and 1990s renovation era. Acrylic domes that have yellowed and become brittle, curb-mounted units with deteriorated gaskets, and flashing systems that were installed over the existing roofing rather than integrated properly into the roof assembly all create leak conditions that bring homeowners to our door seeking either repair or replacement with modern sealed-glass units.',
     'Our skylight work in [South Orange](/roofing-in-south-orange-nj) coordinates roofing expertise with the light-shaft construction and interior finishing that skylight installation involves. Unlike standalone skylight installers who may not understand the roofing implications of their penetrations, or roofing contractors who treat skylights as afterthoughts, we approach each skylight as an integrated roofing component that must be waterproofed to the same standard as every other roof element on these premium homes.'
@@ -35,7 +35,25 @@ export const southOrangeSkylightInstallationRepair: ComboContent = {
     {
       question: 'Will a skylight help with my South Orange home\'s interior darkness?',
       answer: 'Skylights are exceptionally effective for illuminating interior spaces that windows cannot reach. South Orange homes with deep floor plans, center hallways, and upper-floor rooms shielded by adjacent dormers benefit significantly from skylight natural light. Even through the village\'s tree canopy, skylights deliver meaningful illumination that reduces daytime electric lighting and improves the livability of previously dark interior spaces.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in South Orange, NJ?',
+      answer: 'Most skylight installation repair projects in South Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in South Orange NJ -- custom-flashed skylights for slate, cedar, and shingle roofs on village homes.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

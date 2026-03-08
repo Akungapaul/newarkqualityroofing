@@ -4,7 +4,7 @@ export const essexFellsSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'essex-fells',
   overview: [
-    'Silicone elastomeric roof coating brings enhanced flexibility and crack-bridging performance to Essex Fells flat roof restoration applications where standard silicone coating may not accommodate the substrate movement common on aging estate structures. The elastomeric polymer formulation stretches and recovers with thermal expansion cycles, spanning hairline cracks in aging modified bitumen and built-up roofing surfaces without the fracturing that rigid coating systems experience. For the auxiliary structures on Essex Fells estate properties -- many originally constructed forty to sixty years ago with settling foundations and aging structural connections -- this flexibility provides waterproofing reliability beyond what standard coating products can guarantee.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Essex Fells — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating brings enhanced flexibility and crack-bridging performance to Essex Fells flat roof restoration applications where standard silicone coating may not accommodate the substrate movement common on aging estate structures. The elastomeric polymer formulation stretches and recovers with thermal expansion cycles, spanning hairline cracks in aging modified bitumen and built-up roofing surfaces without the fracturing that rigid coating systems experience. For the auxiliary structures on Essex Fells estate properties -- many originally constructed forty to sixty years ago with settling foundations and aging structural connections -- this flexibility provides waterproofing reliability beyond what standard coating products can guarantee.',
     'The distinction between standard silicone and silicone elastomeric formulations matters particularly in the Essex Fells context where heavy canopy shade creates pronounced thermal cycling during partial-sun conditions. A flat roof receiving intermittent sun through shifting canopy gaps experiences more rapid temperature changes than either fully shaded or fully exposed surfaces. Standard silicone coatings, while UV-resistant and waterproof, may develop micro-cracking at stress concentration points under this aggressive thermal cycling. Elastomeric formulations absorb these thermal stresses through polymer chain extension rather than developing the stress fractures that compromise waterproofing integrity.',
     'Our silicone elastomeric coating practice in Essex Fells selects between standard and elastomeric formulations based on substrate condition assessment, thermal exposure analysis, and the specific structural behavior documented during evaluation. Not every flat roof requires the premium elastomeric formulation -- structures with stable substrates and consistent thermal exposure perform well under standard silicone coating. We reserve elastomeric specification for the aging structures, active substrates, and variable-shade conditions where its enhanced flexibility provides measurable performance advantage over less costly standard formulations.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'What maintenance does elastomeric coating require in Essex Fells conditions?',
       answer: 'Maintenance requirements mirror standard silicone coating: quarterly debris clearing, semi-annual professional inspection, and prompt attention to any damage from falling branches or wildlife activity. The elastomeric formulation does not require more frequent maintenance than standard silicone -- its advantage is performance under stress, not reduced maintenance demands. The most important maintenance task in the Essex Fells canopy environment is consistent debris removal to prevent organic acid contact that degrades both standard and elastomeric coating formulations.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Essex Fells, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Essex Fells range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in Essex Fells NJ -- flexible coating for aging flat roofs with active substrate movement.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

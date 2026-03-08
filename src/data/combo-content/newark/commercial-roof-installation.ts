@@ -4,7 +4,7 @@ export const newarkCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'newark',
   overview: [
-    'Commercial roof installation in Newark serves a building market undergoing rapid transformation. The Ironbound district\'s warehouse-to-mixed-use conversions, Downtown\'s office tower renovations, University Heights\' institutional expansion, and the Port Newark logistics corridor\'s new distribution facilities each demand roofing systems engineered for specific occupancy types, structural loads, and operational requirements. For property owners and facility directors managing these projects, roof system selection is a capital allocation decision that affects operating costs, tenant satisfaction, and asset value for twenty-five years or more.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Newark — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Newark serves a building market undergoing rapid transformation. The Ironbound district\'s warehouse-to-mixed-use conversions, Downtown\'s office tower renovations, University Heights\' institutional expansion, and the Port Newark logistics corridor\'s new distribution facilities each demand roofing systems engineered for specific occupancy types, structural loads, and operational requirements. For property owners and facility directors managing these projects, roof system selection is a capital allocation decision that affects operating costs, tenant satisfaction, and asset value for twenty-five years or more.',
     'New commercial construction in Newark\'s development zones requires roofing systems that meet current energy code, wind uplift, and fire classification standards from the outset. The New Jersey building code mandates minimum insulation R-values, cool roof reflectance on low-slope surfaces, and FM Global-rated assemblies for many commercial occupancy types. These requirements narrow the material palette but also ensure that properly specified installations deliver the thermal performance, weather resistance, and insurance compliance that commercial building economics demand. Our specifications address all code requirements in the initial design, eliminating the costly change orders that arise when non-compliant systems are caught during inspection.',
     'Renovation and adaptive reuse projects present a different installation calculus. Converting a century-old Ironbound warehouse into commercial loft space or transforming a former industrial building along McCarter Highway into a medical office requires structural analysis of the existing roof deck, evaluation of whether the existing structure can support modern insulation and membrane assemblies, and integration of new mechanical equipment penetrations into a weathertight roof plane. These projects frequently reveal structural conditions that affect system selection -- a steel deck that cannot support the ballast weight of a conventional built-up roof may be better served by a mechanically attached single-ply membrane that distributes load differently.',
     'For portfolio property managers overseeing multiple Newark commercial buildings, we provide standardized roof system specifications that simplify maintenance planning, parts inventory, and contractor qualification across your holdings. Standardization reduces long-term operating costs because maintenance crews work with familiar materials, warranty terms align across properties, and replacement component sourcing is streamlined. This portfolio approach to commercial roof installation is particularly valuable for management companies overseeing mixed-age buildings in Newark\'s Downtown and Ironbound commercial corridors.'
@@ -36,7 +36,25 @@ export const newarkCommercialRoofInstallation: ComboContent = {
     {
       question: 'What warranties are available on a commercial roof installation in Newark?',
       answer: 'Manufacturer warranties on commercial roof systems range from fifteen to thirty years depending on the system specified and the level of manufacturer involvement in quality assurance. Standard material-and-workmanship warranties cover fifteen to twenty years. Extended NDL (No Dollar Limit) warranties that cover all repair costs including labor for twenty to thirty years require manufacturer inspection during installation and annual maintenance compliance. We recommend NDL warranties for Newark commercial properties because they eliminate future repair cost uncertainty and transfer the long-term performance risk to the manufacturer.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Newark, NJ?',
+      answer: 'Most commercial roof installation projects in Newark range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Newark NJ. New construction and renovation systems for office, retail, warehouse, and industrial buildings.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

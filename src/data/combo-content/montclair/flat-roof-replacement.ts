@@ -4,7 +4,7 @@ export const montclairFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Flat roof replacement in Montclair addresses the low-slope and zero-slope roof sections found on porch roofs, sunroom additions, garage extensions, and the occasional mid-century modern home where flat-roof design defines the entire architectural expression. While the majority of Montclair\'s housing stock features steep-slope pitched roofs, flat roof sections are common secondary features that require their own material systems, drainage design, and waterproofing approaches distinct from the pitched roofing above.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Montclair — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Montclair addresses the low-slope and zero-slope roof sections found on porch roofs, sunroom additions, garage extensions, and the occasional mid-century modern home where flat-roof design defines the entire architectural expression. While the majority of Montclair\'s housing stock features steep-slope pitched roofs, flat roof sections are common secondary features that require their own material systems, drainage design, and waterproofing approaches distinct from the pitched roofing above.',
     'The flat roof sections on Montclair homes face concentrated exposure challenges. Montclair\'s dense tree canopy deposits organic debris that accumulates on flat surfaces without the gravity-assisted shedding that steep slopes provide. Ponding water in drainage-deficient flat areas accelerates membrane deterioration. Ice dam formation at the junction between a flat porch roof and the adjacent sloped wall creates persistent freeze-thaw damage. Our [flat roof replacement](/flat-roof-replacement) work in [Montclair](/roofing-in-montclair-nj) addresses these specific flat-roof vulnerabilities with system selections and drainage designs calibrated to each roof section\'s exposure.',
     'Properties in [Bloomfield](/flat-roof-replacement-bloomfield-nj) and [West Orange](/flat-roof-replacement-west-orange-nj) with similar porch and extension flat roofs benefit from the same targeted replacement approach. Montclair\'s canopy-driven debris loading and ice dam exposure at flat-to-slope transitions make system selection and drainage design especially important.'
   ],
@@ -30,7 +30,25 @@ export const montclairFlatRoofReplacement: ComboContent = {
     {
       question: 'Can flat roof replacement fix my ponding water problem?',
       answer: 'Yes. Adding tapered insulation during replacement creates positive slope toward drain outlets, eliminating the standing water that ponding-prone flat roofs accumulate. The tapered insulation adds modest cost and thickness but transforms the flat roof\'s drainage performance. We specify minimum quarter-inch-per-foot slope across the replacement surface, which is adequate to achieve positive drainage and prevent the ponding that degrades membrane systems.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Montclair, NJ?',
+      answer: 'Most flat roof replacement projects in Montclair range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Montclair NJ -- EPDM, TPO, and modified bitumen systems for porch, sunroom, and extension roofs.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

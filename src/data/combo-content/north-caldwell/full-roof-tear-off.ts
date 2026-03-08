@@ -4,7 +4,7 @@ export const northCaldwellFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'north-caldwell',
   overview: [
-    'Full roof tear-off on North Caldwell estates provides the clean slate that premium re-roofing demands. Removing every layer of existing roofing material down to the structural deck allows complete inspection of the sheathing, repair of any moisture damage, and installation of a new roof system on a verified-sound substrate. For estate homes where the roofing investment runs into six figures, building a new system over concealed deterioration risks the entire investment. Tear-off eliminates that risk.',
+    'Newark Quality Roofing delivers expert full roof tear off in North Caldwell — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on North Caldwell estates provides the clean slate that premium re-roofing demands. Removing every layer of existing roofing material down to the structural deck allows complete inspection of the sheathing, repair of any moisture damage, and installation of a new roof system on a verified-sound substrate. For estate homes where the roofing investment runs into six figures, building a new system over concealed deterioration risks the entire investment. Tear-off eliminates that risk.',
     'Our [full tear-off](/full-roof-tear-off) approach on North Caldwell homes is the default recommendation for any re-roofing project on a home that has not been re-roofed within the past fifteen years. The condition beneath old roofing material is unknowable until the material is removed, and North Caldwell estates with complex multi-level roof systems have numerous potential moisture entry points that could have produced hidden deck damage over decades. Homes in [Caldwell](/full-roof-tear-off-caldwell-nj) follow the same tear-off protocol for comprehensive deck assessment.',
     'The logistics of tear-off on [North Caldwell](/roofing-in-north-caldwell-nj) estate properties require careful planning. Large roof areas generate significant debris volumes. Long driveways may limit dumpster access. Mature landscaping must be protected from falling material. We plan every tear-off with property-specific logistics that protect the grounds, manage debris efficiently, and minimize the exposure window between material removal and new system installation.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellFullRoofTearOff: ComboContent = {
     {
       question: 'How much additional cost does tear-off add to a re-roofing project?',
       answer: 'Tear-off typically adds 15 to 25 percent to the total re-roofing cost compared to overlay, depending on the number of existing layers and the disposal costs for the debris volume. For North Caldwell estate homes, this additional cost is a sound investment that provides complete deck assessment, verified substrate condition, and the assurance that the new roof system sits on a sound foundation. Any deck problems discovered during tear-off would have worsened under an overlay.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in North Caldwell, NJ?',
+      answer: 'Most full roof tear off projects in North Caldwell range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in North Caldwell NJ -- complete material removal and deck assessment for estate home re-roofing projects.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

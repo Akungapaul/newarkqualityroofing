@@ -4,7 +4,7 @@ export const eastOrangeRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'east-orange',
   overview: [
-    'Roof waterproofing in East Orange addresses the specific vulnerability of the city\'s aging multi-family and commercial building stock to water infiltration through flat roof systems, parapet wall junctions, and the layered roof assemblies that decades of re-roofing have created on buildings throughout Brick Church, Doddtown, and the Main Street commercial corridor. Standard roofing repairs address individual failure points -- a split seam, a degraded pipe boot, a cracked flashing joint. [Roof waterproofing](/roof-waterproofing) addresses the systemic condition where the roof surface itself has lost its ability to exclude water reliably across its full area, requiring a comprehensive approach that restores waterproofing integrity without necessarily replacing the entire roof system.',
+    'Newark Quality Roofing delivers expert roof waterproofing in East Orange — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in East Orange addresses the specific vulnerability of the city\'s aging multi-family and commercial building stock to water infiltration through flat roof systems, parapet wall junctions, and the layered roof assemblies that decades of re-roofing have created on buildings throughout Brick Church, Doddtown, and the Main Street commercial corridor. Standard roofing repairs address individual failure points -- a split seam, a degraded pipe boot, a cracked flashing joint. [Roof waterproofing](/roof-waterproofing) addresses the systemic condition where the roof surface itself has lost its ability to exclude water reliably across its full area, requiring a comprehensive approach that restores waterproofing integrity without necessarily replacing the entire roof system.',
     'Liquid-applied waterproofing membranes represent the most practical solution for East Orange apartment buildings where the existing roof substrate is structurally sound but the surface waterproofing has degraded below functional performance. A seamless liquid membrane applied over properly prepared existing roofing restores waterproofing at 30 to 50 percent of full re-roofing cost, extending the existing roof\'s service life by 10 to 15 years while the property owner plans and budgets for eventual replacement. For landlords managing tight rehabilitation budgets on East Orange investment properties, this lifecycle extension bridges the gap between acquisition and planned capital improvement.',
     'Waterproofing at parapet wall junctions on East Orange flat-roofed buildings deserves particular attention because these transitions -- where horizontal roof membrane meets vertical wall surface -- are where the majority of flat roof leaks originate on the city\'s commercial and apartment building inventory. The membrane-to-wall transition flexes with building movement, deteriorates from UV exposure, and accumulates debris that retains moisture against the flashing surface. Comprehensive waterproofing addresses these transitions with reinforced membrane details that accommodate movement while maintaining continuous water exclusion. Property owners in neighboring [Newark](/roof-waterproofing-newark-nj) face identical challenges on their pre-war commercial buildings.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeRoofWaterproofing: ComboContent = {
     {
       question: 'What is the difference between roof coating and roof waterproofing?',
       answer: 'Roof coating is a maintenance treatment that protects the existing membrane surface from UV degradation and minor weathering. Roof waterproofing is a more substantial application that creates a new, independent waterproofing membrane over the existing surface. Waterproofing products are applied at greater thickness, include fabric reinforcement at stress points, and are warranted as waterproofing systems rather than maintenance coatings. The cost and performance expectations differ accordingly.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in East Orange, NJ?',
+      answer: 'Most roof waterproofing projects in East Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing for East Orange NJ buildings -- liquid membrane restoration, flat roof sealing, and parapet junction waterproofing for apartments.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

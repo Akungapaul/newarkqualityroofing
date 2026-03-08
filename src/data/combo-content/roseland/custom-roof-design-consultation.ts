@@ -4,7 +4,7 @@ export const roselandCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'roseland',
   overview: [
-    'Custom roof design consultation in Roseland serves homeowners and commercial property managers who recognize that roofing decisions made during the design phase determine performance outcomes for decades. The borough\'s mix of mid-century residential homes and corporate office buildings creates two distinct consultation contexts -- residential projects where aesthetic preferences, material selection, and energy performance intersect with existing structural constraints, and commercial projects where building codes, tenant requirements, and lifecycle cost analysis drive the design specification. Our [custom roof design and consultation](/custom-roof-design-consultation) process addresses both with systematic analysis that replaces guesswork with data.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Roseland — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Roseland serves homeowners and commercial property managers who recognize that roofing decisions made during the design phase determine performance outcomes for decades. The borough\'s mix of mid-century residential homes and corporate office buildings creates two distinct consultation contexts -- residential projects where aesthetic preferences, material selection, and energy performance intersect with existing structural constraints, and commercial projects where building codes, tenant requirements, and lifecycle cost analysis drive the design specification. Our [custom roof design and consultation](/custom-roof-design-consultation) process addresses both with systematic analysis that replaces guesswork with data.',
     'Residential consultations in Roseland most frequently involve homeowners planning significant renovations or additions that alter the existing roof geometry. Adding a second story to a ranch, extending a colonial with a family room addition, or converting an enclosed porch into living space each requires roof design that integrates new construction with the existing roof system seamlessly. We coordinate with architects and builders to ensure that the roof design accounts for structural load, drainage integration, and material transitions that maintain both weatherproofing performance and visual coherence.',
     'New construction consultation for Roseland custom homes allows design freedom that renovation projects cannot match. Starting from architectural plans, we evaluate roof geometry for drainage efficiency, material suitability for the specified pitch, ventilation system optimization, and energy performance modeling. Homeowners building in Roseland can explore premium materials -- standing seam metal, natural slate, cedar shake -- with full understanding of structural requirements, cost implications, and maintenance commitments. Property owners in nearby [North Caldwell](/custom-roof-design-consultation-north-caldwell-nj) engage our design services for similar new-construction estate projects.'
   ],
@@ -34,7 +34,25 @@ export const roselandCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Will you consult on a commercial building even if we use a different contractor?',
       answer: 'Yes, we provide independent consultation services for commercial building owners who want expert specification development regardless of which contractor performs the installation. Our consultation produces bid-ready specifications and drawings that ensure quality and performance standards are maintained regardless of the installing contractor. This service is particularly valued by Roseland property management companies overseeing multiple buildings with different maintenance contractors.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Roseland, NJ?',
+      answer: 'Most custom roof design consultation projects in Roseland range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Roseland NJ -- material selection, structural assessment, and design for residential and commercial projects.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Roof ventilation on Montclair homes operates within constraints that suburban builders never confront -- complex multi-gabled Victorian rooflines that create isolated attic compartments, steep pitches that accelerate hot air stratification, and a dense tree canopy that blocks the natural convection currents that simple ridge-and-soffit vent systems depend upon for airflow. The majority of ventilation problems we diagnose on Montclair homes trace not to missing vent hardware but to attic geometries that prevent air from flowing between the intake vents at the soffits and the exhaust vents at the ridges.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Montclair — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation on Montclair homes operates within constraints that suburban builders never confront -- complex multi-gabled Victorian rooflines that create isolated attic compartments, steep pitches that accelerate hot air stratification, and a dense tree canopy that blocks the natural convection currents that simple ridge-and-soffit vent systems depend upon for airflow. The majority of ventilation problems we diagnose on Montclair homes trace not to missing vent hardware but to attic geometries that prevent air from flowing between the intake vents at the soffits and the exhaust vents at the ridges.',
     'Ice dam prevention is the highest-stakes ventilation objective in Montclair, where the township\'s Watchung Ridge elevation produces colder winter temperatures and heavier snow accumulation than valley-floor communities. Inadequate attic ventilation traps heat that melts roof-surface snow, sending meltwater down to the cold eave zone where it refreezes as ice dams. The interior water damage from chronic ice dams on Montclair homes -- stained ceilings, saturated wall insulation, mold growth in enclosed eave spaces -- represents a far greater cost than the ventilation improvements that prevent the cycle.',
     'Our [roof vent installation](/roof-vent-installation-repair) work in [Montclair](/roofing-in-montclair-nj) addresses ventilation as an integrated system rather than a hardware installation exercise. Ridge vents, box vents, turbine vents, and powered attic ventilators each serve specific applications, but their effectiveness depends entirely on balanced intake-to-exhaust ratios, unobstructed airflow pathways through the attic space, and proper insulation baffle installation that prevents blown insulation from blocking soffit intakes. Installing a ridge vent without confirming that corresponding soffit intake exists and functions is a cosmetic modification that does not improve ventilation.',
     'Properties in [West Orange](/roof-vent-installation-repair-west-orange-nj) and [Bloomfield](/roof-vent-installation-repair-bloomfield-nj) face similar ventilation challenges, but Montclair\'s exceptional concentration of multi-gabled and cross-hipped Victorian rooflines makes compartmentalized-attic ventilation the dominant service pattern rather than the occasional exception.'
@@ -35,7 +35,25 @@ export const montclairRoofVentInstallationRepair: ComboContent = {
     {
       question: 'Can adding roof vents void my shingle warranty in Montclair?',
       answer: 'No -- adequate ventilation is actually a requirement for maintaining most shingle manufacturer warranties. Manufacturers require proper attic ventilation to prevent the heat buildup that accelerates shingle aging from below. Installing roof vents to achieve the manufacturer\'s specified ventilation standard protects rather than jeopardizes your warranty coverage. The vent installation itself, when performed by a qualified contractor using proper flashing and waterproofing details, does not void any roofing warranty.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Montclair, NJ?',
+      answer: 'Most roof vent installation repair projects in Montclair range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation in Montclair NJ -- ridge vents and balanced ventilation systems for multi-gabled Victorian attic compartments.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

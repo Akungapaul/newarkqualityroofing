@@ -4,7 +4,7 @@ export const orangeSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Slate roof replacement on Orange\'s historic homes installs a roofing material with a 100 to 150-year lifespan that will outlast every other component of the building. Our [slate roof replacement](/slate-roof-replacement) projects on Scotland Road Victorians and Park Avenue colonials source quarry-matched natural slate, fabricate custom copper flashings, and install with traditional techniques that honor the craftsmanship of the original construction while incorporating modern waterproofing details beneath the slate surface.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Orange — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement on Orange\'s historic homes installs a roofing material with a 100 to 150-year lifespan that will outlast every other component of the building. Our [slate roof replacement](/slate-roof-replacement) projects on Scotland Road Victorians and Park Avenue colonials source quarry-matched natural slate, fabricate custom copper flashings, and install with traditional techniques that honor the craftsmanship of the original construction while incorporating modern waterproofing details beneath the slate surface.',
     'The decision to replace with slate rather than substitute with modern materials reflects a commitment to architectural preservation and long-term value. An Orange Victorian with an authentic slate roof commands a property value premium that synthetic alternatives cannot replicate. Buyers evaluating Scotland Road homes specifically seek authentic materials, and an asphalt shingle roof on a home that originally carried slate signals deferred maintenance to discerning purchasers. Slate replacement is simultaneously a preservation decision and an investment decision.',
     'Orange\'s Scotland Road and Park Avenue neighborhoods concentrate the city\'s slate replacement demand. These streets feature the grandest residential architecture in the city -- Queen Anne Victorians, Colonial Revival homes, and early American Four-Squares -- many with original slate roofs that have served for 80 to 120 years. When these roofs finally reach the point where individual slate replacement can no longer keep pace with deterioration, full replacement with new natural slate provides another century of protection. Homeowners in [Montclair](/slate-roof-replacement-montclair-nj) face similar preservation decisions on their Victorian-era properties.'
   ],
@@ -34,7 +34,25 @@ export const orangeSlateRoofReplacement: ComboContent = {
     {
       question: 'Will the new slate match my neighbor\'s existing slate on Scotland Road?',
       answer: 'We source slate from quarries that produce stone matching the color family of the existing neighborhood slate. However, new slate and weathered 100-year-old slate will not be identical in appearance on day one. Natural slate develops patina over time, and the new installation will gradually age to blend with the surrounding homes over the first decade of exposure.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Orange, NJ?',
+      answer: 'Most slate roof replacement projects in Orange range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Orange NJ -- Scotland Road Victorian quarry-matched slate, copper flashing fabrication, and 100-year premium roofing.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

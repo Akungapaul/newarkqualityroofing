@@ -4,7 +4,7 @@ export const millburnReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'millburn',
   overview: [
-    'Re-roofing in Millburn encompasses the complete process of replacing an aging or damaged roof system with new materials selected to serve the property for the next generation. On the estate homes throughout Short Hills and Wyoming, re-roofing is not merely a maintenance event -- it is a significant architectural decision where the material, color, and detail vocabulary chosen during re-roofing defines how the property presents for thirty to fifty years or more. The homeowner, architect, and roofing specialist collaborate on these selections within the framework of the property\'s architectural style, the township\'s aesthetic standards, and the performance requirements of Millburn\'s climate.',
+    'Newark Quality Roofing delivers expert re roofing in Millburn — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Millburn encompasses the complete process of replacing an aging or damaged roof system with new materials selected to serve the property for the next generation. On the estate homes throughout Short Hills and Wyoming, re-roofing is not merely a maintenance event -- it is a significant architectural decision where the material, color, and detail vocabulary chosen during re-roofing defines how the property presents for thirty to fifty years or more. The homeowner, architect, and roofing specialist collaborate on these selections within the framework of the property\'s architectural style, the township\'s aesthetic standards, and the performance requirements of Millburn\'s climate.',
     'Our [re-roofing](/re-roofing) practice distinguishes between like-for-like re-roofing -- replacing the existing material with the same type -- and material-change re-roofing that upgrades or modifies the roofing system. Like-for-like re-roofing on a slate estate restores the roof to its original condition using matched materials. Material-change re-roofing -- converting cedar shake to fire-resistant composite, upgrading asphalt to architectural standing seam -- transforms the roof\'s performance characteristics while potentially altering its architectural appearance. Both approaches require the coordination of structural assessment, material specification, and installation planning that our estate re-roofing process provides.',
     'The re-roofing timeline on Millburn estates extends well beyond the installation period. Material procurement for premium roofing -- quarried slate, fabricated copper components, custom-color metal panels -- may require two to four months of lead time. Architect coordination, permit processing, and homeowner association review where applicable add administrative weeks. We develop project timelines that account for these pre-construction phases so the homeowner understands the complete schedule from decision to completion rather than just the installation duration.'
   ],
@@ -34,7 +34,25 @@ export const millburnReRoofing: ComboContent = {
     {
       question: 'What warranties are available with re-roofing?',
       answer: 'Warranty coverage varies by material and manufacturer. Premium asphalt shingles carry fifty-year limited warranties with our GAF Master Elite certification providing enhanced coverage. Slate installations carry our workmanship warranty alongside the natural stone\'s inherent longevity. Metal roofing includes both manufacturer material warranties and finish warranties for PVDF coatings. We explain the warranty structure for each material option so the homeowner understands exactly what is covered and for how long.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Millburn, NJ?',
+      answer: 'Most re roofing projects in Millburn range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services for Millburn and Short Hills estates. Material selection, architect coordination, and phased installation for premium residential.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

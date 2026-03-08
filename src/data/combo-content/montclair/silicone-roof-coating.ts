@@ -4,7 +4,7 @@ export const montclairSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'montclair',
   overview: [
-    'Silicone roof coating provides Montclair commercial building owners with a restoration option that extends the functional life of aging flat roofs by fifteen to twenty years at roughly forty percent of full roof replacement cost. The liquid-applied silicone cures into a seamless, UV-resistant membrane that waterproofs the existing roof surface, reflects solar radiation, and bridges minor cracks and deterioration in the substrate material below. For building owners weighing the capital expenditure of full tear-off and replacement against a restoration investment that defers that expenditure by a decade or more, silicone coating represents a financially compelling alternative.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Montclair — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating provides Montclair commercial building owners with a restoration option that extends the functional life of aging flat roofs by fifteen to twenty years at roughly forty percent of full roof replacement cost. The liquid-applied silicone cures into a seamless, UV-resistant membrane that waterproofs the existing roof surface, reflects solar radiation, and bridges minor cracks and deterioration in the substrate material below. For building owners weighing the capital expenditure of full tear-off and replacement against a restoration investment that defers that expenditure by a decade or more, silicone coating represents a financially compelling alternative.',
     'Montclair\'s commercial building stock along Bloomfield Avenue, Church Street, and the Valley Road corridor includes aging EPDM, modified bitumen, and built-up roofs that are past their manufacturer warranty periods but still structurally functional. These roofs have surface weathering, minor seam separation, and localized ponding -- conditions that silicone coating addresses directly. The coating\'s ability to cure and perform in standing water distinguishes it from acrylic coatings that re-emulsify when ponded, making silicone the appropriate coating chemistry for Montclair commercial roofs where drainage imperfections create persistent ponding zones.',
     'Our [silicone roof coating](/silicone-roof-coating) installations across [Montclair](/roofing-in-montclair-nj) commercial properties deliver measurable energy savings alongside waterproofing restoration. The white reflective surface reduces roof surface temperatures by forty to sixty degrees compared to dark-surfaced roofing, directly lowering cooling loads for the air-conditioned commercial spaces below. Properties in neighboring [Bloomfield](/silicone-roof-coating-bloomfield-nj) and [West Orange](/silicone-roof-coating-west-orange-nj) have adopted silicone coating for the same combination of restoration economy and energy performance improvement.',
     'The application process produces minimal disruption to building occupants -- no tear-off debris, no dumpster staging on Montclair\'s crowded commercial streets, no structural noise from demolition. Coating crews work with spray and roller equipment that allows continued building operation during application, a significant practical advantage for Montclair businesses that cannot afford multi-day closure during a full roof replacement project.'
@@ -35,7 +35,25 @@ export const montclairSiliconeRoofCoating: ComboContent = {
     {
       question: 'Is silicone coating better than acrylic coating for Montclair buildings?',
       answer: 'Silicone coating outperforms acrylic in two critical ways for Montclair commercial roofs. First, silicone cures and maintains its waterproofing integrity in standing water, while acrylic can re-emulsify and wash away in ponded areas -- a significant advantage on commercial roofs with drainage imperfections. Second, silicone does not chalk or erode over time, maintaining its film thickness and reflective properties longer than acrylic products. The cost per gallon is higher for silicone, but the longer service life and ponding tolerance make it the more cost-effective choice for most Montclair commercial applications.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Montclair, NJ?',
+      answer: 'Most silicone roof coating projects in Montclair range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Montclair NJ -- reflective restoration coating for commercial flat roofs with ponding-water tolerance.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

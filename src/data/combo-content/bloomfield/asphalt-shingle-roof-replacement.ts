@@ -4,7 +4,7 @@ export const bloomfieldAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Asphalt shingle roof replacement is the dominant residential roofing project in Bloomfield -- over ninety percent of the township\'s homes wear asphalt shingles and will replace them with the same material when the current system reaches end of life. The upgrade from aging three-tab shingles to modern architectural shingles represents the most significant roofing improvement available to Bloomfield homeowners, delivering approximately double the service life, substantially better wind resistance, and improved curb appeal at an installed cost premium of only fifteen to twenty percent over three-tab products.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Bloomfield — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the dominant residential roofing project in Bloomfield -- over ninety percent of the township\'s homes wear asphalt shingles and will replace them with the same material when the current system reaches end of life. The upgrade from aging three-tab shingles to modern architectural shingles represents the most significant roofing improvement available to Bloomfield homeowners, delivering approximately double the service life, substantially better wind resistance, and improved curb appeal at an installed cost premium of only fifteen to twenty percent over three-tab products.',
     'Bloomfield\'s housing stock creates specific shingle selection considerations. The moderate roof pitches on Cape Cods and split-levels -- typically 4:12 to 8:12 -- show less shingle surface from street level than steep-slope homes, making the aesthetic premium of designer-grade products less visible. The practical implication: standard architectural shingles deliver the performance upgrade Bloomfield homes need without the visual premium that steep-slope homes justify. We guide Bloomfield homeowners to the [asphalt shingle](/asphalt-shingle-roofing-bloomfield-nj) tier that matches their home\'s visibility and their budget priorities.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners approaching shingle replacement, the project is an opportunity to address underlying conditions that shortened the previous roof\'s life. Inadequate ventilation that baked shingles from below, missing ice-and-water shield that allowed ice dam leaks, and insufficient nailing patterns that permitted wind damage are all correctable during replacement at marginal additional cost.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'How much does asphalt shingle roof replacement cost in Bloomfield?',
       answer: 'Asphalt shingle roof replacement on a typical Bloomfield Cape Cod or colonial costs twelve to twenty thousand dollars with tear-off, standard architectural shingles, and full scope including ventilation, ice protection, and cleanup. Premium shingle products add two to four thousand to the total. The wide range reflects roof size, layer count, deck condition, and scope inclusions. We provide exact pricing based on your home\'s specific measurements and conditions.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Bloomfield range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Bloomfield NJ -- architectural shingle upgrades for Cape Cods, colonials, and split-levels with full warranty.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

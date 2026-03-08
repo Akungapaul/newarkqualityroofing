@@ -4,7 +4,7 @@ export const essexFellsSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'essex-fells',
   overview: [
-    'Skylight installation on Essex Fells estates serves the architectural lighting design that transforms interior spaces in the borough\'s heavily wooded homes where window-wall natural light is often limited by surrounding tree canopy. Cathedral-ceiling great rooms, interior hallways connecting multi-wing estate layouts, and master bathrooms positioned away from exterior walls rely on skylights for the daylight that the wooded setting provides through the canopy overhead but restricts at window level. The scale and architectural quality of Essex Fells homes demands skylight specification and installation that integrates seamlessly with premium roofing systems.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Essex Fells — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation on Essex Fells estates serves the architectural lighting design that transforms interior spaces in the borough\'s heavily wooded homes where window-wall natural light is often limited by surrounding tree canopy. Cathedral-ceiling great rooms, interior hallways connecting multi-wing estate layouts, and master bathrooms positioned away from exterior walls rely on skylights for the daylight that the wooded setting provides through the canopy overhead but restricts at window level. The scale and architectural quality of Essex Fells homes demands skylight specification and installation that integrates seamlessly with premium roofing systems.',
     'Skylight repair and replacement on existing Essex Fells installations addresses the age-related failures common in units installed during the 1980s and 1990s estate construction boom. Thermal seal failure producing fogged glazing, gasket deterioration allowing water infiltration, and flashing deterioration around curb-mounted units represent the most common service calls. These repairs require roofing expertise beyond the skylight product itself -- the flashing system connecting the skylight to the surrounding slate, cedar shake, or copper roofing is typically the failure point rather than the skylight unit.',
     'Our [skylight installation and repair](/skylight-installation-repair) capability in Essex Fells combines certified VELUX and custom skylight installation with the premium roofing integration that estate-quality homes demand. We coordinate skylight placement with interior lighting designers and architects to optimize daylight delivery, specify glazing options appropriate for the canopy-filtered light conditions, and execute flashing details that integrate the skylight with surrounding architectural roofing materials -- copper step flashings against slate, custom copper pan flashings beneath cedar shake, or standing-seam tie-in details on metal roofed structures.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsSkylightInstallationRepair: ComboContent = {
     {
       question: 'Do I need impact-resistant glazing on my Essex Fells skylight?',
       answer: 'We strongly recommend impact-resistant laminated glazing for all skylights beneath Essex Fells tree canopy. Branch drops during storms, acorn and nut falls during autumn, and wildlife activity on glass surfaces create impact risks that standard tempered glass may not withstand. Laminated glazing holds together if fractured, preventing water entry and interior damage even after impact. The modest cost premium over standard glazing provides essential protection in the canopy environment that characterizes virtually every Essex Fells property.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Essex Fells, NJ?',
+      answer: 'Most skylight installation repair projects in Essex Fells range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Essex Fells NJ -- impact-resistant skylights with custom flashing for slate and cedar estate roofs.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

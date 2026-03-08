@@ -4,7 +4,7 @@ export const caldwellFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Fascia boards on Caldwell homes serve the dual purpose of closing off the exposed rafter tails at the roof edge and providing the mounting surface for the gutter system that protects the foundation below. When fascia deteriorates -- and it does, inevitably, on the wood-framed colonials and capes that line Caldwell\'s residential streets -- the consequences cascade: gutters sag and separate from the mounting surface, water infiltrates behind the gutter line into the soffit cavity, and the rafter tails that the fascia was protecting begin absorbing moisture that accelerates their own decay.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Caldwell — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards on Caldwell homes serve the dual purpose of closing off the exposed rafter tails at the roof edge and providing the mounting surface for the gutter system that protects the foundation below. When fascia deteriorates -- and it does, inevitably, on the wood-framed colonials and capes that line Caldwell\'s residential streets -- the consequences cascade: gutters sag and separate from the mounting surface, water infiltrates behind the gutter line into the soffit cavity, and the rafter tails that the fascia was protecting begin absorbing moisture that accelerates their own decay.',
     'Fascia damage in [Caldwell](/roofing-in-caldwell-nj) traces primarily to two sources: overflowing gutters and tree canopy moisture. When gutters clog with the leaf debris that Caldwell\'s oaks and maples produce seasonally, water backs up over the gutter edge and runs down the fascia face continuously during rain events. This sustained water contact saturates paint films, penetrates wood grain, and initiates the rot cycle that softens fascia boards from the back side where homeowners cannot see it. By the time the fascia looks damaged from the ground, the deterioration behind is typically advanced.',
     'Our [fascia installation and repair](/fascia-installation-repair) approach for Caldwell addresses both the immediate damage and the underlying cause. Replacing rotted fascia without fixing the gutter overflow that caused the rot produces a repair that fails within a few years. We evaluate the complete system -- fascia, soffit, gutter, and drainage -- and repair the contributing factors alongside the visible damage. Caldwell homeowners in neighborhoods near [North Caldwell](/fascia-installation-repair-north-caldwell-nj) and [Roseland](/fascia-installation-repair-roseland-nj) face similar canopy-driven fascia deterioration and benefit from this systems approach.'
   ],
@@ -34,7 +34,25 @@ export const caldwellFasciaInstallationRepair: ComboContent = {
     {
       question: 'Can fascia be repaired or does it always need full replacement?',
       answer: 'Small areas of localized damage can sometimes be repaired with wood consolidant treatments that harden softened fibers and restore structural integrity. However, once rot has progressed through the board thickness or has spread along several feet of the fascia run, replacement provides a more reliable and cost-effective solution than attempting to consolidate extensively deteriorated material. We assess each section individually and recommend the approach that provides the most durable result.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in Caldwell, NJ?',
+      answer: 'Most fascia installation repair projects in Caldwell range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Caldwell NJ -- rot-resistant PVC and wood fascia for colonials with gutter system reintegration.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

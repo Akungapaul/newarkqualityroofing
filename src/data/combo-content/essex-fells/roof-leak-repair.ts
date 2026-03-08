@@ -4,7 +4,7 @@ export const essexFellsRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'essex-fells',
   overview: [
-    'Leak repair on Essex Fells estates requires a diagnostic sophistication that matches the complexity of the roof systems involved. Water entering a home through a natural slate roof, a standing-seam copper installation, or a cedar shake system follows pathways that differ fundamentally from leak behavior on standard asphalt shingle roofs. Slate leaks often trace to individual cracked or displaced slates that allow wind-driven rain beneath course overlaps. Copper leaks typically originate at solder joint failures or galvanic corrosion points where dissimilar metals contact the copper system. Cedar shake leaks develop as individual shakes cup, split, or decay, opening gaps in the watershed surface. Each material demands its own diagnostic methodology and repair technique.',
+    'Newark Quality Roofing delivers expert roof leak repair in Essex Fells — with prices starting from $300–$1,200 and free estimates available today. Leak repair on Essex Fells estates requires a diagnostic sophistication that matches the complexity of the roof systems involved. Water entering a home through a natural slate roof, a standing-seam copper installation, or a cedar shake system follows pathways that differ fundamentally from leak behavior on standard asphalt shingle roofs. Slate leaks often trace to individual cracked or displaced slates that allow wind-driven rain beneath course overlaps. Copper leaks typically originate at solder joint failures or galvanic corrosion points where dissimilar metals contact the copper system. Cedar shake leaks develop as individual shakes cup, split, or decay, opening gaps in the watershed surface. Each material demands its own diagnostic methodology and repair technique.',
     'The multi-structure layout of Essex Fells properties adds a spatial dimension to leak diagnosis. Water staining on a carriage house ceiling does not necessarily indicate a roof failure directly above -- it may trace to a flashing failure where the carriage house connects to a breezeway, a gutter overflow on an adjacent structure saturating the wall cavity, or even groundwater pressure on a below-grade wall that manifests as ceiling dampness through capillary action. Our leak investigation on estate properties considers the full water management system across every connected structure before attributing the source to a specific roof failure.',
     'Essex Fells homeowners contact us for leak repair with expectations shaped by the quality of their homes and the premium materials protecting them. A persistent leak on a Devon Road estate with a forty-year-old slate roof should not be patched with roofing cement and forgotten -- it should be diagnosed to its root cause, repaired with matching slate from the same quarry source, and documented in the property\'s maintenance record. This standard of leak repair preserves the material integrity that gives these roof systems their century-long service life.',
     'Our [roof leak repair](/roof-leak-repair) expertise extends to the premium residential properties in neighboring [Millburn](/roof-leak-repair-millburn-nj) and across the western Essex County communities where architect-specified materials demand the same precision diagnostic approach we bring to every Essex Fells engagement.'
@@ -35,7 +35,25 @@ export const essexFellsRoofLeakRepair: ComboContent = {
     {
       question: 'Will my insurance cover leak repair on a premium roof system?',
       answer: 'Insurance coverage depends on the cause of the leak. Storm damage, fallen trees, and sudden events are typically covered. Gradual deterioration from aging or lack of maintenance is generally excluded. For covered events on Essex Fells properties, we ensure the insurance claim reflects actual replacement costs for premium materials rather than generic roofing pricing. Our detailed documentation -- material identification, matching requirements, and labor specifications -- supports claims for the full repair cost these systems demand.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Essex Fells, NJ?',
+      answer: 'Most roof leak repair projects in Essex Fells range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Essex Fells NJ roof leak repair -- precision diagnostics for slate, copper, and cedar estate roofs with material-matched permanent repairs.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

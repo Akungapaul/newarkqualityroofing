@@ -4,7 +4,7 @@ export const veronaEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'verona',
   overview: [
-    'When a nor\'easter tears shingles from a Verona hilltop colonial or a fallen oak limb punches through a split-level\'s lower roof section, emergency roof repair cannot wait for a scheduled appointment. Newark Quality Roofing maintains rapid-response capability for Verona emergencies, with crews staged to arrive within hours of a call. Our Verona emergency work spans every housing type in the township -- from tarping exposed decking on Claremont Avenue hilltop homes battered by wind to sealing puncture wounds on ranch roofs along Sunset Avenue struck by storm-felled branches from the heavy canopy overhead.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Verona — with prices starting from $500–$2,500 and free estimates available today. When a nor\'easter tears shingles from a Verona hilltop colonial or a fallen oak limb punches through a split-level\'s lower roof section, emergency roof repair cannot wait for a scheduled appointment. Newark Quality Roofing maintains rapid-response capability for Verona emergencies, with crews staged to arrive within hours of a call. Our Verona emergency work spans every housing type in the township -- from tarping exposed decking on Claremont Avenue hilltop homes battered by wind to sealing puncture wounds on ranch roofs along Sunset Avenue struck by storm-felled branches from the heavy canopy overhead.',
     'Split-level homes present unique emergency vulnerabilities because damage to one roof plane often channels water into the living spaces of an entirely different level. A wind-stripped upper section on a Verona bi-level can send cascading water down through the transition wall into the main-floor ceiling and even the lower-level family room. Emergency response on these homes requires understanding the internal water pathways -- not just tarping the visible damage point but tracing where water has traveled and where it may continue to infiltrate. Homeowners in neighboring [Montclair](/emergency-roof-repair-montclair-nj) face similar storm urgency, though Verona\'s split-level concentration creates multi-level flooding scenarios that single-plane colonial roofs do not produce.',
     'Verona\'s tree-heavy landscape amplifies storm emergency frequency. The mature oaks and maples that define the township\'s suburban character become hazards during high winds, dropping limbs onto roofs, crashing through skylights, and snapping branch sections that sweep shingles off in swaths. Properties near Verona Park and along Sunset Avenue experience the highest branch-fall incidence due to the dense canopy. Our emergency crews carry chain saws for limb removal alongside standard tarping and sealing equipment, because in Verona, clearing the tree debris is often the first step before any roof work can begin.'
   ],
@@ -34,7 +34,25 @@ export const veronaEmergencyRoofRepair: ComboContent = {
     {
       question: 'Can you do permanent repairs immediately after an emergency, or do I have to wait?',
       answer: 'Emergency tarping provides reliable temporary protection for weeks if needed, but we schedule permanent repairs as soon as weather conditions allow -- typically within 5 to 10 days of the emergency call. Rushing permanent repairs during wet or freezing conditions compromises installation quality. The emergency tarp we install is designed to withstand subsequent weather events, giving us time to order matching materials, coordinate any structural carpentry, and complete the permanent work under proper conditions.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Verona, NJ?',
+      answer: 'Most emergency roof repair projects in Verona range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Verona NJ -- rapid response for storm damage, fallen trees, and split-level leaks. 24/7 tarping and stabilization.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

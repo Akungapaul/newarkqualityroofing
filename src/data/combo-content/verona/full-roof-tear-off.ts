@@ -4,7 +4,7 @@ export const veronaFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'verona',
   overview: [
-    'Full roof tear-off removes every layer of existing roofing material down to the structural deck, providing the clean substrate that new roofing systems require for maximum performance and warranty coverage. On Verona homes where multiple roofing layers have accumulated over decades -- original shingles from the 1960s construction covered by a second layer in the 1990s and possibly a third layer since -- tear-off is not optional. Building codes limit residential roofs to two layers, and the cumulative weight of multiple installations stresses framing designed for a single roof. Newark Quality Roofing performs full tear-off on every Verona re-roofing project, exposing the deck for inspection and repair before new roofing is installed.',
+    'Newark Quality Roofing delivers expert full roof tear off in Verona — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off removes every layer of existing roofing material down to the structural deck, providing the clean substrate that new roofing systems require for maximum performance and warranty coverage. On Verona homes where multiple roofing layers have accumulated over decades -- original shingles from the 1960s construction covered by a second layer in the 1990s and possibly a third layer since -- tear-off is not optional. Building codes limit residential roofs to two layers, and the cumulative weight of multiple installations stresses framing designed for a single roof. Newark Quality Roofing performs full tear-off on every Verona re-roofing project, exposing the deck for inspection and repair before new roofing is installed.',
     'The tear-off process on Verona split-levels reveals deck and framing conditions concealed for decades beneath the shingle surface. Deteriorated plywood at level transitions, corroded original flashings buried under subsequent installations, and insulation blocked soffit vents are typical discoveries. These conditions must be corrected during tear-off -- installing new roofing over compromised substrate perpetuates the problems. Our [tear-off](/full-roof-tear-off) approach treats deck exposure as an opportunity for comprehensive structural evaluation, not just a step toward new shingle installation.',
     'Verona\'s community character values clean, respectful work practices, and tear-off generates more debris, noise, and visual disruption than any other phase of a roofing project. Our crews deploy ground-level tarps, containment barriers around landscaping, and dumpster placement that minimizes street impact. Homeowners in [Cedar Grove](/full-roof-tear-off-cedar-grove-nj) have praised the same clean-site practices on their projects, noting that our crews leave the property cleaner after tear-off than many contractors leave it after final cleanup.'
   ],
@@ -34,7 +34,25 @@ export const veronaFullRoofTearOff: ComboContent = {
     {
       question: 'Does tear-off damage the landscaping around my Verona home?',
       answer: 'Our ground protection protocol prevents landscaping damage. Plywood shields cover plants and shrubs within the drop zone, tarps catch debris at the perimeter, and controlled chutes direct material into the dumpster rather than off the roof edge. Magnetic sweepers clear nails from lawn, driveway, and walkway areas. We photograph the landscaping before and after the project, and any damage attributable to our work is repaired or compensated.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Verona, NJ?',
+      answer: 'Most full roof tear off projects in Verona range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Verona NJ -- complete shingle removal, deck inspection, and clean site practices for split-level re-roofing projects.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

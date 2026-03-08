@@ -4,7 +4,7 @@ export const newarkCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Cedar shake roof replacement in Newark occupies a premium niche serving the city\'s most architecturally distinctive properties. The Forest Hill neighborhood, with its Tudor revivals, Craftsman bungalows, and estate-scale colonials, contains the largest concentration of cedar shake roofs in the city. Scattered installations also appear on custom-built homes in the upper North Ward and on several notable historic properties throughout the municipality. When these roofs reach replacement age -- typically thirty to forty years -- the project involves specialized craftsmanship that standard roofing contractors rarely possess.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Newark — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Newark occupies a premium niche serving the city\'s most architecturally distinctive properties. The Forest Hill neighborhood, with its Tudor revivals, Craftsman bungalows, and estate-scale colonials, contains the largest concentration of cedar shake roofs in the city. Scattered installations also appear on custom-built homes in the upper North Ward and on several notable historic properties throughout the municipality. When these roofs reach replacement age -- typically thirty to forty years -- the project involves specialized craftsmanship that standard roofing contractors rarely possess.',
     'The replacement decision for Newark cedar shake roofs increasingly involves fire safety considerations. New Jersey adopted the International Building Code provisions requiring Class A fire-rated roofing on new construction and major replacements. Untreated cedar shake carries a Class C rating at best, making it non-compliant for replacement installations without fire-retardant treatment. Factory-treated cedar shake products meeting Class A requirements are available but carry a significant cost premium. This fire code reality has driven some Newark homeowners toward synthetic shake alternatives that achieve Class A ratings inherently.',
     'The tear-off phase of cedar shake replacement reveals conditions unique to this material. Cedar shakes are individually fastened to skip-sheathing -- spaced boards rather than solid plywood deck -- which allows air circulation beneath the shakes for drying. When the old shakes come off, the exposed skip-sheathing often shows decades of accumulated debris, moss growth in the gaps, and selective rot where water consistently drained between boards. The replacement specification must address whether to overlay the skip-sheathing with solid plywood or maintain the ventilated approach with new skip-sheathing, each option carrying distinct performance tradeoffs in Newark\'s humid climate.',
     'Premium cedar shake replacement in Newark represents the highest per-square roofing investment outside of natural slate. Hand-split, re-sawn cedar shakes in the heavy grade commonly specified for Forest Hill estates run five to seven times the cost of architectural asphalt shingles on a material basis alone. Labor costs compound the premium because shake installation is slow, skilled work -- each shake is individually placed, trimmed, and fastened with stainless steel nails to prevent the galvanic corrosion that degrades standard fasteners in contact with cedar\'s acidic extractives.'
@@ -40,7 +40,25 @@ export const newarkCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Should I switch from cedar shake to a different material during my Newark roof replacement?',
       answer: 'Switching to architectural asphalt shingles or synthetic shake can reduce replacement cost by fifty to seventy percent while delivering comparable weather protection. However, the decision should weigh the architectural impact on your property. Cedar shake is integral to the character of Forest Hill\'s Tudor and Craftsman homes -- replacing it with asphalt fundamentally changes the building\'s appearance and may reduce property value in neighborhoods where cedar shake is the expected standard. We recommend at minimum considering synthetic shake alternatives that maintain the visual character at lower ongoing maintenance requirements.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Newark, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Newark range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Newark NJ -- fire-treated premium shake, Forest Hill estates, ventilation, and craft installation.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

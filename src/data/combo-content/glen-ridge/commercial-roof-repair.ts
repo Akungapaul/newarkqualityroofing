@@ -4,7 +4,7 @@ export const glenRidgeCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'glen-ridge',
   overview: [
-    'Commercial roof repair in Glen Ridge focuses on the borough\'s institutional buildings -- churches, schools, and municipal facilities -- that serve the community and carry both functional and symbolic importance. When a church roof leaks during a worship service or a school ceiling stains above a classroom, the repair is not just a maintenance task but a community concern that demands prompt, professional response. Newark Quality Roofing provides emergency and scheduled commercial repair services for Glen Ridge\'s institutional buildings, understanding that these structures represent shared community investment.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Glen Ridge — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Glen Ridge focuses on the borough\'s institutional buildings -- churches, schools, and municipal facilities -- that serve the community and carry both functional and symbolic importance. When a church roof leaks during a worship service or a school ceiling stains above a classroom, the repair is not just a maintenance task but a community concern that demands prompt, professional response. Newark Quality Roofing provides emergency and scheduled commercial repair services for Glen Ridge\'s institutional buildings, understanding that these structures represent shared community investment.',
     'The age of Glen Ridge\'s institutional buildings creates repair challenges that differ from modern commercial construction. Church roofs with original slate installations require repair crews who can work confidently on steep pitches with fragile materials. School buildings with concealed internal gutter systems behind decorative cornices need diagnostic capability to trace leaks through hidden drainage paths. Municipal buildings with multiple additions spanning different construction eras present transition-point vulnerabilities where old meets new. Our repair practice addresses these age-related complications with the diagnostic thoroughness that century-old buildings demand.',
     'Rapid response matters for Glen Ridge institutional repairs because these buildings serve time-sensitive community functions. A leaking church cannot postpone its Sunday service. A flooded school classroom disrupts education. We maintain emergency repair capability that gets Glen Ridge institutional buildings weather-tight within hours of a service call, providing temporary protection that stops active damage while permanent repair materials are sourced and the full repair is scheduled. Similar urgent institutional repair needs across [Bloomfield](/commercial-roof-repair-bloomfield-nj) and neighboring communities keep our emergency repair inventory well-stocked.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeCommercialRoofRepair: ComboContent = {
       question: 'Can you repair a slate church roof in Glen Ridge?',
       answer: 'Slate church roof repair is one of our specialties. We maintain quarry relationships that provide matching slate for the specific stone varieties used on Glen Ridge\'s historic churches. Our crews are experienced with the steep-pitch work that church roofs demand, using safety equipment and techniques appropriate to these challenging installations.',
     },
+    {
+      question: 'How much does commercial roof repair cost in Glen Ridge, NJ?',
+      answer: 'Most commercial roof repair projects in Glen Ridge range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Glen Ridge NJ. Emergency and scheduled repair for churches, schools, and institutional buildings.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

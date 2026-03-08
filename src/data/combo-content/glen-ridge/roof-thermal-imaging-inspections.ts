@@ -4,7 +4,7 @@ export const glenRidgeRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'glen-ridge',
   overview: [
-    'Thermal imaging roof inspections provide Glen Ridge building owners with diagnostic intelligence invisible to conventional visual assessment. Infrared cameras detect temperature differentials across the roof surface that reveal trapped moisture beneath membrane systems, insulation voids that waste energy, and heat loss patterns that drive ice dam formation -- all without destructive testing that would damage roofing materials or require costly repair afterward. Newark Quality Roofing uses commercial-grade thermal imaging equipment calibrated for roofing applications to provide Glen Ridge property owners with actionable data about conditions hidden beneath their roofing surfaces.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Glen Ridge — with prices starting from $300–$700 and free estimates available today. Thermal imaging roof inspections provide Glen Ridge building owners with diagnostic intelligence invisible to conventional visual assessment. Infrared cameras detect temperature differentials across the roof surface that reveal trapped moisture beneath membrane systems, insulation voids that waste energy, and heat loss patterns that drive ice dam formation -- all without destructive testing that would damage roofing materials or require costly repair afterward. Newark Quality Roofing uses commercial-grade thermal imaging equipment calibrated for roofing applications to provide Glen Ridge property owners with actionable data about conditions hidden beneath their roofing surfaces.',
     'For Glen Ridge\'s institutional buildings, thermal imaging is particularly valuable because it can survey large roof areas quickly and non-destructively. A church or school building committee considering roof replacement can use thermal imaging data to determine whether the entire roof system has failed or whether deterioration is concentrated in specific zones that targeted repair could address. This diagnostic precision prevents unnecessary full replacement and, conversely, prevents throwing repair money at a system that imaging reveals is compromised throughout.',
     'Residential thermal imaging in Glen Ridge serves a different but equally valuable function: mapping heat loss patterns that cause [ice dam formation](/roof-ice-dam-prevention-glen-ridge-nj) on the borough\'s century-old homes. Infrared scans during cold weather reveal exactly where warm attic air escapes through the roof assembly, showing homeowners the specific locations where insulation improvement and air sealing would have the greatest impact on ice dam prevention. This targeted data replaces guesswork with evidence-based remediation planning that directs investment to the most impactful interventions.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeRoofThermalImagingInspections: ComboContent = {
       question: 'How much does a thermal imaging roof inspection cost in Glen Ridge?',
       answer: 'Residential thermal imaging inspections range from $300 to $600 depending on roof size and complexity. Institutional building inspections range from $500 to $1,200. The investment is justified when the imaging data prevents unnecessary repair expenditure or identifies hidden moisture damage that would worsen without intervention. We provide the inspection report within one week of scanning.',
     },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Glen Ridge, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Glen Ridge range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Glen Ridge NJ. Non-destructive moisture detection and heat loss mapping for historic buildings.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'west-orange',
   overview: [
-    'Roof overlay installation places new shingles directly over the existing roof surface, providing a cost-effective re-roofing option for West Orange homes where the existing single layer remains flat, well-adhered, and free of significant deck damage. Our [roof overlay installation](/roof-overlay-installation) approach evaluates each property\'s specific conditions before recommending overlay, because West Orange\'s elevation-driven weather stresses make overlay inappropriate for homes where ice dam exposure, wind uplift, or deck deterioration would compromise the new system\'s performance.',
+    'Newark Quality Roofing delivers expert roof overlay installation in West Orange — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation places new shingles directly over the existing roof surface, providing a cost-effective re-roofing option for West Orange homes where the existing single layer remains flat, well-adhered, and free of significant deck damage. Our [roof overlay installation](/roof-overlay-installation) approach evaluates each property\'s specific conditions before recommending overlay, because West Orange\'s elevation-driven weather stresses make overlay inappropriate for homes where ice dam exposure, wind uplift, or deck deterioration would compromise the new system\'s performance.',
     'Valley-floor homes in Pleasant Valley with sheltered exposures, minimal ice dam history, and single-layer existing roofs represent West Orange\'s best overlay candidates. These properties experience less wind stress and thermal cycling than mid-slope or ridge-top homes, and the reduced weather severity extends the viability window for overlay installations. Even on valley-floor properties, we perform thorough existing-roof evaluation before recommending overlay, because the cost savings only hold value when the underlying conditions support acceptable performance.',
     'We actively discourage overlay installation on West Orange homes at mid-slope and ridge-top elevations, where ice dam exposure requires ice-and-water shield membrane installation at eaves and valleys that overlay cannot accommodate. The performance compromise of installing new shingles over old without proper barrier protection creates leak risk within the first few winters -- risk that erases the cost savings overlay provides and creates interior damage costs that full tear-off would have prevented. Homeowners near [Verona](/roof-overlay-installation-verona-nj) receive the same elevation-specific overlay guidance for their Watchung ridge-line properties.'
   ],
@@ -34,7 +34,25 @@ export const westOrangeRoofOverlayInstallation: ComboContent = {
     {
       question: 'Can I do a second overlay over my existing two-layer roof?',
       answer: 'No. New Jersey building code prohibits more than two layers of asphalt shingles on any residential roof. If your home already has two layers, tear-off is the only option. We verify layer count during our initial evaluation by examining exposed edges at eaves and rakes, ensuring that overlay recommendations only apply to single-layer existing roofs that meet all other candidacy criteria.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in West Orange, NJ?',
+      answer: 'Most roof overlay installation projects in West Orange range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in West Orange NJ. Cost-effective second layer for valley-floor homes with qualifying conditions.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

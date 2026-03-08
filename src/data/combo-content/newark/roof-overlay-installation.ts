@@ -4,7 +4,7 @@ export const newarkRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'newark',
   overview: [
-    'Not every Newark roof replacement requires a full tear-off. When the existing roof has only one layer of shingles, the deck beneath is structurally sound, and the building can handle the additional weight, an overlay installation delivers a new roof surface at significantly lower cost and disruption. For budget-conscious owners of multi-family properties in the South Ward and Central Ward -- where a $3,000 savings on a triple-decker directly affects the viability of the project -- overlay is not a shortcut but a legitimate, code-compliant strategy that puts a new roof on the building without the demolition phase that drives up both price and timeline.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Newark — with prices starting from $6,000–$14,000 and free estimates available today. Not every Newark roof replacement requires a full tear-off. When the existing roof has only one layer of shingles, the deck beneath is structurally sound, and the building can handle the additional weight, an overlay installation delivers a new roof surface at significantly lower cost and disruption. For budget-conscious owners of multi-family properties in the South Ward and Central Ward -- where a $3,000 savings on a triple-decker directly affects the viability of the project -- overlay is not a shortcut but a legitimate, code-compliant strategy that puts a new roof on the building without the demolition phase that drives up both price and timeline.',
     'Newark\'s building code permits a single overlay: one new layer of shingles installed directly over one existing layer. No more. Buildings that already have two layers must go to full tear-off regardless of condition. This single-overlay rule means the decision point is binary -- either your building qualifies or it does not. Our inspection determines this within the first fifteen minutes on site. We check layer count, measure deck deflection, assess sheathing condition through attic access, and verify that the existing shingle surface is flat enough to accept new material without telegraphing. If the building passes all four criteria, overlay becomes a viable option.',
     'The economics of overlay in Newark are straightforward. Eliminating the tear-off phase removes one to two days of labor, eliminates dumpster rental and disposal fees, and avoids the deck repair costs that tear-off frequently reveals. On a typical 1,500-square-foot Newark residential roof, overlay saves roughly $2,000 to $4,000 compared to full tear-off. For the multi-family investor maintaining several properties across Vailsburg or the Ironbound, that savings multiplied across a portfolio makes the difference between replacing this year and deferring another season.',
     'Where overlay falls short -- and where honesty matters -- is on buildings with underlying problems. If the existing roof shows signs of deck rot, if the attic reveals inadequate ventilation, if the rafters sag under load, overlay hides these conditions rather than addressing them. We have walked away from overlay jobs where the inspection revealed issues that demanded tear-off, even when the owner preferred the lower price. In Newark\'s aging building stock, concealing structural problems beneath a cosmetic layer is a disservice that creates larger expenses down the road.'
@@ -35,7 +35,25 @@ export const newarkRoofOverlayInstallation: ComboContent = {
     {
       question: 'Can you overlay on a flat or low-slope roof on a Newark commercial building?',
       answer: 'No. Overlay is limited to sloped roofing systems with asphalt shingles. Flat and low-slope roofs on Newark commercial buildings use membrane systems -- TPO, EPDM, PVC, or modified bitumen -- that require full removal of the existing membrane before new installation. Some flat-roof systems allow a recover board to be installed over the existing membrane, but this is a different process from shingle overlay and involves different engineering considerations. We evaluate flat-roof recover options separately from sloped-roof overlay.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Newark, NJ?',
+      answer: 'Most roof overlay installation projects in Newark range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Newark NJ -- cost-effective second-layer roofing for qualifying buildings with structural assessment and code compliance.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

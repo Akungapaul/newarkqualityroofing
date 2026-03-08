@@ -4,7 +4,7 @@ export const northCaldwellWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Wind damage patterns in North Caldwell are shaped by the interaction between severe weather and the borough\'s heavily forested landscape. The mature hardwood canopy that shelters many properties provides significant wind resistance at lower elevations, but creates a turbulence zone at the canopy edge where wind accelerates over treetops and descends onto upper roof sections with amplified force. Homes along Grandview Avenue with western exposure bear the direct impact of prevailing storm winds, while properties nestled deeper within wooded lots may experience sudden downdraft damage as wind funnels through gaps in the tree line. Each exposure pattern produces distinct [wind damage](/wind-damage-roof-repair) signatures that require diagnosis specific to the property\'s position within the canopy.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in North Caldwell — with prices starting from $400–$2,000 and free estimates available today. Wind damage patterns in North Caldwell are shaped by the interaction between severe weather and the borough\'s heavily forested landscape. The mature hardwood canopy that shelters many properties provides significant wind resistance at lower elevations, but creates a turbulence zone at the canopy edge where wind accelerates over treetops and descends onto upper roof sections with amplified force. Homes along Grandview Avenue with western exposure bear the direct impact of prevailing storm winds, while properties nestled deeper within wooded lots may experience sudden downdraft damage as wind funnels through gaps in the tree line. Each exposure pattern produces distinct [wind damage](/wind-damage-roof-repair) signatures that require diagnosis specific to the property\'s position within the canopy.',
     'The scale of North Caldwell roof systems multiplies wind vulnerability simply through surface area. A 6,000-square-foot roof presents substantially more surface for wind uplift than a standard suburban home, and the complex multi-level geometries typical of custom estates create differential pressure zones where wind loading concentrates. Dormer walls act as wind scoops, driving uplift under adjacent shingle courses. Ridge transitions between intersecting roof planes create vortex zones where sustained wind peels materials from the substrate. Understanding these aerodynamic interactions is essential for diagnosing damage patterns and designing repairs that resist recurrence.',
     'Premium roofing materials respond to wind differently than standard products, and repair approaches must account for these material-specific behaviors. Natural slate tiles, heavy and individually fastened, resist direct uplift but can be displaced when wind-driven branches impact the surface. Cedar shakes, lighter and more flexible, tend to lift at the exposed butt edge and fold backward, cracking along the grain line. Standing-seam copper panels are inherently wind-resistant due to their continuous attachment, but fascia-mounted copper gutters and decorative metalwork are vulnerable to the same wind forces that tear aluminum systems off lesser structures. Homeowners in nearby [Montclair](/wind-damage-roof-repair-montclair-nj) experience different wind patterns shaped by that community\'s varied topography.',
     'Our wind damage repair methodology for North Caldwell properties addresses both the immediate damage and the underlying vulnerability. If shingles lifted because the original installation used a four-nail pattern in a high-wind zone, the repair upgrades to a six-nail pattern with hand-sealed tabs. If flashing displaced because the original installation lacked adequate mechanical fastening, the repair adds stainless steel cleats and sealant backup. Every wind repair is an opportunity to improve the system\'s resistance to the next event.'
@@ -35,7 +35,25 @@ export const northCaldwellWindDamageRoofRepair: ComboContent = {
     {
       question: 'Part of my copper bay window roof was damaged by wind. Can you match the existing patina?',
       answer: 'We can achieve a close patina match using chemical patination treatments applied to new copper material before installation. The result approximates the existing color within the first season and continues to blend as natural weathering progresses. For small repairs, the visual difference between treated new copper and existing patina is subtle enough that most homeowners find it acceptable. For larger sections where color contrast would be more noticeable, we can source pre-aged copper from salvage suppliers who maintain inventories of reclaimed architectural copper.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in North Caldwell, NJ?',
+      answer: 'Most wind damage roof repair projects in North Caldwell range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in North Caldwell NJ -- estate-scale assessment, concealed bond failure detection, and premium material restoration.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

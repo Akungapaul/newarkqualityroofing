@@ -4,7 +4,7 @@ export const glenRidgeRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Roof deck repair and replacement in Glen Ridge frequently reveals the construction history of the borough\'s century-old homes. Original roof decks from the 1890s through the 1920s used ship-lap boards or skip sheathing -- spaced board decking designed specifically for slate and wood shingle attachment. When subsequent reroofing projects installed modern materials over this original decking, they sometimes added plywood overlay and sometimes simply nailed through the gaps. Newark Quality Roofing addresses deck condition as a foundational element of every Glen Ridge reroofing project, ensuring that the structural platform beneath premium roofing materials is sound enough to support them for their full intended lifespan.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Glen Ridge — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement in Glen Ridge frequently reveals the construction history of the borough\'s century-old homes. Original roof decks from the 1890s through the 1920s used ship-lap boards or skip sheathing -- spaced board decking designed specifically for slate and wood shingle attachment. When subsequent reroofing projects installed modern materials over this original decking, they sometimes added plywood overlay and sometimes simply nailed through the gaps. Newark Quality Roofing addresses deck condition as a foundational element of every Glen Ridge reroofing project, ensuring that the structural platform beneath premium roofing materials is sound enough to support them for their full intended lifespan.',
     'Deck deterioration in Glen Ridge follows predictable patterns driven by the borough\'s moisture-rich environment. Leak-prone junctions at valleys, chimneys, and dormers allow water to saturate sheathing repeatedly, promoting rot that may have been progressing for years beneath the surface roofing. Ice dam events force water beneath shingles at the eave, soaking the deck edge in the zone most vulnerable to freeze-thaw damage. Beneath the borough\'s dense canopy, shaded roof sections retain moisture longer, accelerating decay in decking already compromised by slow leaks that went undetected.',
     'Our approach to deck work in Glen Ridge integrates structural assessment with the preservation values that guide all work in the borough. We evaluate deck condition during every reroofing estimate using both visual inspection and moisture meter readings, providing Glen Ridge homeowners with honest assessment of deck condition before the project begins. When deck replacement is needed, we specify materials and techniques appropriate to the home\'s structural system, maintaining the dimensional integrity that the original framing was designed around. Complete deck information supports informed decisions about [roof replacement](/roof-replacement-glen-ridge-nj) scope and budget.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeRoofDeckRepairReplacement: ComboContent = {
       question: 'What does roof deck repair add to the cost of a Glen Ridge reroofing project?',
       answer: 'Localized deck repair affecting a few boards typically adds $500 to $1,500 to the project cost. Widespread deck replacement affecting 25 percent or more of the roof surface can add $3,000 to $8,000 depending on roof size and the complexity of access. We include estimated deck repair allowances in our Glen Ridge proposals based on the observed condition indicators, so homeowners can budget appropriately.',
     },
+    {
+      question: 'How much does roof deck repair replacement cost in Glen Ridge, NJ?',
+      answer: 'Most roof deck repair replacement projects in Glen Ridge range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair in Glen Ridge NJ. Skip sheathing restoration and plywood replacement for century-old Victorian and Edwardian homes.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

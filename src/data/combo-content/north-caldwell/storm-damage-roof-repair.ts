@@ -4,7 +4,7 @@ export const northCaldwellStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Storm damage in North Caldwell carries a distinctive profile shaped by the borough\'s mature hardwood forests and the scale of the properties they surround. While suburban communities sustain typical wind-lifted shingles and minor hail pitting, North Caldwell estates contend with sixty-foot oaks dropping multi-ton limbs through slate roofs, entire canopy sections shearing off during microbursts and crashing across copper gutter runs, and ice-loaded branches sagging onto roof surfaces for days during winter storms. The damage is frequently structural rather than cosmetic, and the materials affected are premium installations whose replacement costs exceed standard residential roofing by substantial margins.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in North Caldwell — with prices starting from $500–$3,000 and free estimates available today. Storm damage in North Caldwell carries a distinctive profile shaped by the borough\'s mature hardwood forests and the scale of the properties they surround. While suburban communities sustain typical wind-lifted shingles and minor hail pitting, North Caldwell estates contend with sixty-foot oaks dropping multi-ton limbs through slate roofs, entire canopy sections shearing off during microbursts and crashing across copper gutter runs, and ice-loaded branches sagging onto roof surfaces for days during winter storms. The damage is frequently structural rather than cosmetic, and the materials affected are premium installations whose replacement costs exceed standard residential roofing by substantial margins.',
     'Our [storm damage roof repair](/storm-damage-roof-repair) response for North Caldwell properties integrates emergency stabilization with insurance coordination from the first phone call. We understand that homeowners facing a tree through their roof need both immediate protection and a clear path toward full restoration. Our crews deploy for temporary weather protection while our project manager begins the documentation process that will support the insurance claim. This parallel approach eliminates the gap between emergency response and claim filing that delays restoration on properties where every day of exposure increases secondary damage to the high-value interiors below.',
     'The geography of storm damage across North Caldwell follows predictable patterns tied to topography and canopy density. Properties along Grandview Avenue, positioned at higher elevation with western exposure, sustain the heaviest wind damage during nor\'easters and severe thunderstorms. Low-lying lots along Green Brook Road experience debris accumulation and drainage overload that backs water through gutter systems onto roof surfaces. Heavily canopied interior lots suffer the most fallen-limb damage simply because more trees overhang more roof surface. Understanding these patterns allows us to prioritize post-storm assessment routes, reaching the most exposed [North Caldwell properties](/roofing-in-north-caldwell-nj) first.',
     'Unlike communities where storm damage triggers straightforward shingle replacement, North Caldwell repairs frequently involve sourcing premium materials with significant lead times. Natural slate replacement requires quarry-specific sourcing that may take weeks. Custom copper fabrication follows a queue at our sheet metal shop. Designer shingles from discontinued lots may require nationwide distributor searches for color-matched material. Our temporary protection protocols are designed to provide complete weatherproofing during these sourcing periods, ensuring that the home remains fully protected while permanent restoration materials are procured.'
@@ -35,7 +35,25 @@ export const northCaldwellStormDamageRoofRepair: ComboContent = {
     {
       question: 'Should I get multiple estimates for storm damage repair on my North Caldwell home?',
       answer: 'While comparing estimates is reasonable, ensure that each estimate specifies the same material quality. A lower estimate that substitutes standard shingles for your existing designer shingles or uses synthetic slate where natural slate is installed may appear more competitive but will not restore your roof to pre-storm condition. Our estimates detail exact material specifications, manufacturer and product line, and installation methods so you can make direct comparisons. We recommend choosing a contractor based on premium material experience rather than the lowest number on the page.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in North Caldwell, NJ?',
+      answer: 'Most storm damage roof repair projects in North Caldwell range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in North Caldwell NJ -- fallen tree extraction, premium material restoration, and insurance advocacy for estate properties.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

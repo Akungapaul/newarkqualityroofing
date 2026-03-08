@@ -4,7 +4,7 @@ export const millburnCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'millburn',
   overview: [
-    'Commercial roof installation in Millburn serves a refined commercial landscape that bears no resemblance to the industrial corridors and warehouse districts of neighboring cities. Millburn Avenue\'s boutique retail storefronts, the professional office buildings along Essex Street, the Short Hills Mall -- one of northern New Jersey\'s premier luxury retail destinations -- and the township\'s institutional buildings represent commercial roofing projects where the expectations extend far beyond weather protection. Property owners in Millburn\'s commercial district demand installations that maintain the downtown\'s architectural character, minimize disruption to high-end retail and professional tenants, and deliver the long-term reliability that justifies the capital investment in a market where commercial real estate commands premium rents.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Millburn — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Millburn serves a refined commercial landscape that bears no resemblance to the industrial corridors and warehouse districts of neighboring cities. Millburn Avenue\'s boutique retail storefronts, the professional office buildings along Essex Street, the Short Hills Mall -- one of northern New Jersey\'s premier luxury retail destinations -- and the township\'s institutional buildings represent commercial roofing projects where the expectations extend far beyond weather protection. Property owners in Millburn\'s commercial district demand installations that maintain the downtown\'s architectural character, minimize disruption to high-end retail and professional tenants, and deliver the long-term reliability that justifies the capital investment in a market where commercial real estate commands premium rents.',
     'The Short Hills Mall complex represents Millburn\'s largest concentration of commercial roof area and a project category unto itself. Major retail property groups managing enclosed mall environments require roofing contractors who understand the operational constraints of a continuously occupied, climate-controlled retail space. Roof installation above an active luxury retail tenant cannot produce leaks, debris, or excessive noise during business hours. HVAC integration must maintain the precise climate control that protects inventory ranging from designer fashion to fine jewelry. Our work on enclosed retail environments follows protocols developed specifically for luxury mall operations -- protocols that involve pre-construction tenant coordination, phased installation schedules aligned with retail traffic patterns, and interior monitoring during every phase of membrane installation.',
     'Professional office buildings in Millburn house medical practices, dental offices, wealth management firms, and law offices whose clientele expects an environment consistent with the premium services rendered inside. A roof leak above a waiting room or treatment area is not merely a maintenance issue -- it undermines the professional image that these practices have invested substantially to create. Commercial roof installation on Millburn professional buildings is specified to a zero-tolerance standard for water intrusion, with redundant waterproofing at penetrations, enhanced drainage design, and construction scheduling that eliminates the risk of an exposed roof deck overnight during the tear-off to installation transition.',
     'Millburn\'s smaller commercial properties -- the neighborhood restaurants, specialty shops, and service businesses along Millburn Avenue and Main Street -- require roofing solutions scaled to modest building footprints but executed to the same quality standard as larger projects. These owner-occupied or single-tenant buildings often have property owners closely involved in every specification decision, and the roofing project directly affects their livelihood during construction. We approach these projects with the same pre-construction planning and tenant protection protocols used on larger installations, because the consequences of disruption to a small business owner in Millburn are proportionally as significant as those on a major retail property.'
@@ -35,7 +35,25 @@ export const millburnCommercialRoofInstallation: ComboContent = {
     {
       question: 'What warranties are available for commercial roofs on Millburn properties?',
       answer: 'We offer manufacturer warranties ranging from 15 to 30 years depending on the system specified and the level of manufacturer quality assurance involvement. For Millburn commercial properties, we typically recommend 20 to 25 year NDL (No Dollar Limit) warranties that cover all repair costs including labor for the full warranty period. NDL warranties require manufacturer inspection during installation and annual maintenance compliance, but they eliminate future repair cost uncertainty and protect the property owner\'s capital investment. Our workmanship guarantee covers installation quality beyond the manufacturer warranty terms.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Millburn, NJ?',
+      answer: 'Most commercial roof installation projects in Millburn range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation for Millburn Avenue retail and Short Hills Mall. Tenant-sensitive execution with architectural-grade finishes.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

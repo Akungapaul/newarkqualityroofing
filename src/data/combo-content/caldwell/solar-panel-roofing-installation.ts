@@ -4,7 +4,7 @@ export const caldwellSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'caldwell',
   overview: [
-    'Solar panel roofing installation in Caldwell brings renewable energy potential to a borough where detached single-family homes with unobstructed south-facing roof planes can achieve significant solar production. The colonials and ranch homes that line Caldwell\'s residential streets offer roof geometries well-suited to panel arrays -- moderate pitches, straightforward ridge-to-eave runs, and accessible mounting surfaces that simplify installation compared to the multi-story and attached housing stock in denser communities. New Jersey\'s solar incentive programs, including SRECs and net metering, make solar financially viable for Caldwell homeowners who understand the borough\'s specific production conditions.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in Caldwell — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in Caldwell brings renewable energy potential to a borough where detached single-family homes with unobstructed south-facing roof planes can achieve significant solar production. The colonials and ranch homes that line Caldwell\'s residential streets offer roof geometries well-suited to panel arrays -- moderate pitches, straightforward ridge-to-eave runs, and accessible mounting surfaces that simplify installation compared to the multi-story and attached housing stock in denser communities. New Jersey\'s solar incentive programs, including SRECs and net metering, make solar financially viable for Caldwell homeowners who understand the borough\'s specific production conditions.',
     'Tree canopy is the defining variable for solar viability in [Caldwell](/roofing-in-caldwell-nj). The mature oaks and maples that give the borough its character also cast shadows across roof surfaces, reducing solar panel output in ways that vary by season, time of day, and individual lot conditions. A south-facing roof plane that receives full sun in winter when deciduous trees are bare may be shaded for portions of summer when full leaf canopy blocks morning or afternoon sun angles. Accurate solar production estimates for Caldwell require shade analysis specific to each property rather than generic assumptions based on orientation alone.',
     'Combining [solar panel installation](/solar-panel-roofing-installation) with roof replacement on Caldwell homes maximizes the value of both investments. Installing panels on a roof approaching end of life creates the expensive prospect of removing, storing, and reinstalling panels when the roof eventually needs replacement. Our integrated approach coordinates roof replacement and solar installation in a single project -- new roof surface, proper waterproofing, and panel mounting designed together so that the roof warranty and solar warranty begin simultaneously. Homeowners in [Montclair](/solar-panel-roofing-installation-montclair-nj) and [Bloomfield](/solar-panel-roofing-installation-bloomfield-nj) follow similar integrated installation strategies.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSolarPanelRoofingInstallation: ComboContent = {
     {
       question: 'How long does solar panel installation take on a Caldwell home?',
       answer: 'The physical installation of a residential solar panel system on a Caldwell home typically takes two to three days -- one day for mounting hardware and electrical rough-in, one to two days for panel installation and connections. The full project timeline from signed contract to operational system runs six to twelve weeks, primarily due to permit processing, utility interconnection approval, and inspection scheduling rather than installation complexity.'
-    }
+    },
+    {
+      question: 'How much does solar panel roofing installation cost in Caldwell, NJ?',
+      answer: 'Most solar panel roofing installation projects in Caldwell range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing installation in Caldwell NJ -- shade-analyzed systems for colonial homes with NJ incentives and roof integration.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

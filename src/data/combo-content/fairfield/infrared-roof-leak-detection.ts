@@ -4,7 +4,7 @@ export const fairfieldInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'fairfield',
   overview: [
-    'Infrared roof leak detection in Fairfield pinpoints the exact membrane breaches causing water entry on commercial flat roofs, replacing the costly and destructive trial-and-error approach that traditional leak chasing relies on. When a Route 46 hotel, warehouse, or retail building reports an interior leak, the visible damage point is almost never directly below the actual membrane failure -- water travels laterally through the roof assembly, emerging far from where it entered. Infrared technology maps the moisture trail from interior symptom back to membrane breach, allowing targeted repairs that address the actual problem rather than the apparent one.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Fairfield — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection in Fairfield pinpoints the exact membrane breaches causing water entry on commercial flat roofs, replacing the costly and destructive trial-and-error approach that traditional leak chasing relies on. When a Route 46 hotel, warehouse, or retail building reports an interior leak, the visible damage point is almost never directly below the actual membrane failure -- water travels laterally through the roof assembly, emerging far from where it entered. Infrared technology maps the moisture trail from interior symptom back to membrane breach, allowing targeted repairs that address the actual problem rather than the apparent one.',
     'The distinction between thermal imaging inspection and infrared leak detection is important for Fairfield commercial property owners. Thermal imaging provides a comprehensive moisture survey of the entire roof, useful for condition assessment and capital planning. Infrared leak detection focuses specifically on tracing active leaks to their source, using a combination of infrared scanning, systematic water testing, and physical investigation to identify the exact membrane failure that is causing a known leak. Both services use infrared cameras, but the application, methodology, and deliverable are different.',
     'Our [infrared leak detection](/infrared-roof-leak-detection) service has saved Fairfield commercial property owners significant expense by preventing unnecessary membrane replacement when targeted repairs can resolve the problem. A building owner who assumes a leaking roof needs replacement may spend tens of thousands of dollars on a new membrane when the actual failure is a single deteriorated equipment curb flashing or a three-foot seam separation that can be repaired for a fraction of the replacement cost. Infrared detection reveals the scope of the actual damage, enabling informed repair-versus-replace decisions for Fairfield properties and neighboring [Roseland](/infrared-roof-leak-detection-roseland-nj) buildings.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'What happens after the leak source is identified on my Fairfield commercial roof?',
       answer: 'We provide a repair specification targeting the identified membrane failure, with material and method details matched to your existing roof system. If you approve the repair, our crew can typically complete the work within one to two weeks. For leaks caused by systemic membrane failure rather than localized damage, we provide both a repair option and a replacement recommendation with cost comparison so you can make the decision that best serves your long-term financial interests.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Fairfield, NJ?',
+      answer: 'Most infrared roof leak detection projects in Fairfield range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Fairfield NJ. Pinpoint commercial membrane breaches on Route 46 buildings without destructive testing.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

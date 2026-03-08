@@ -4,7 +4,7 @@ export const westOrangeSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Soffit panels close the underside of roof overhangs on West Orange homes, providing both aesthetic finish and the critical ventilation intake that attic airflow systems depend on. Our [soffit installation and repair](/soffit-installation-repair) work in West Orange ensures that vented soffit panels deliver the intake volume needed for balanced attic ventilation while preventing pest intrusion from the birds, squirrels, and insects that exploit damaged soffit panels to access warm attic spaces.',
+    'Newark Quality Roofing delivers expert soffit installation repair in West Orange — with prices starting from $1,500–$4,000 and free estimates available today. Soffit panels close the underside of roof overhangs on West Orange homes, providing both aesthetic finish and the critical ventilation intake that attic airflow systems depend on. Our [soffit installation and repair](/soffit-installation-repair) work in West Orange ensures that vented soffit panels deliver the intake volume needed for balanced attic ventilation while preventing pest intrusion from the birds, squirrels, and insects that exploit damaged soffit panels to access warm attic spaces.',
     'West Orange\'s ice dam prevention strategy depends on functional soffit ventilation. Cold outside air entering through vented soffits flows across the attic floor to exhaust at the ridge, maintaining the cold roof deck temperatures that prevent the snowmelt-refreeze cycling responsible for ice dams. Blocked, damaged, or unvented soffits disrupt this airflow, creating warm roof deck zones where ice dams form most aggressively. At mid-slope and ridge-top elevations where ice dam risk is highest, properly functioning soffit ventilation is the foundation of every prevention strategy.',
     'The mature hardwood canopy surrounding South Mountain Reservation creates persistent pest pressure on West Orange soffits. Squirrels gnaw through aluminum and vinyl soffit panels to access attic spaces for nesting, and carpenter bees bore holes in wood soffits that invite secondary infestations. Woodpeckers attack soffits searching for insects, creating openings that starlings and sparrows use for nest sites. Our soffit repairs in canopy-adjacent neighborhoods include pest-resistant material selection and hardware cloth reinforcement at vulnerable sections. Homeowners near [Maplewood](/soffit-installation-repair-maplewood-nj) face identical pest-driven soffit damage along the South Mountain corridor.',
     'Moisture damage from gutter overflow and ice dam backup degrades soffit panels on [West Orange](/roofing-in-west-orange-nj) homes at every elevation. Water that backs up behind ice dams or overflows from clogged gutters saturates soffit panels, causing wood rot, vinyl warping, and aluminum corrosion that compromises both ventilation function and weather protection. Our soffit repair work addresses the moisture source alongside the soffit damage, preventing the recurring failure that treating symptoms without causes produces.'
@@ -35,7 +35,25 @@ export const westOrangeSoffitInstallationRepair: ComboContent = {
     {
       question: 'Can soffit repairs be done without disturbing my gutters?',
       answer: 'Most soffit repairs work beneath the gutter line and do not require gutter removal. Soffit panels slide into channels at the wall and fascia edges, and individual panels can be removed and replaced without affecting the gutter system mounted above. If fascia damage accompanies the soffit deterioration, gutter removal becomes necessary to access the fascia, and we coordinate both repairs in a single service visit to minimize disruption.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in West Orange, NJ?',
+      answer: 'Most soffit installation repair projects in West Orange range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in West Orange NJ. Vented panels for attic ventilation with pest-resistant materials near South Mountain.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

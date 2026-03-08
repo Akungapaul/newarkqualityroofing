@@ -4,7 +4,7 @@ export const millburnRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'millburn',
   overview: [
-    'Ice dam prevention on Millburn estates targets the root causes that produce the ice formations destroying slate edges, lifting copper flashings, and forcing water into finished interiors throughout the township\'s residential neighborhoods each winter. The combination of Millburn\'s elevated position in Essex County, its mature tree canopy that deposits insulating leaf debris on roofs, and the large homes with complex rooflines that create multiple thermal-bridging and ventilation-challenge zones makes ice-dam formation a pervasive winter problem. Our [roof ice dam prevention](/roof-ice-dam-prevention) approach prioritizes the building-science interventions that eliminate the conditions causing ice dams rather than the symptom-treatment products that manage them after they form.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Millburn — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention on Millburn estates targets the root causes that produce the ice formations destroying slate edges, lifting copper flashings, and forcing water into finished interiors throughout the township\'s residential neighborhoods each winter. The combination of Millburn\'s elevated position in Essex County, its mature tree canopy that deposits insulating leaf debris on roofs, and the large homes with complex rooflines that create multiple thermal-bridging and ventilation-challenge zones makes ice-dam formation a pervasive winter problem. Our [roof ice dam prevention](/roof-ice-dam-prevention) approach prioritizes the building-science interventions that eliminate the conditions causing ice dams rather than the symptom-treatment products that manage them after they form.',
     'The mechanism behind ice dams on Millburn homes is straightforward but the remediation is not. Heat escaping through the attic floor -- via inadequate insulation, unsealed ceiling penetrations, recessed lighting cans, and ductwork in unconditioned attic spaces -- warms the roof deck above. Snow on the warm deck melts, runs down the roof slope, and refreezes at the cold eave overhang where the roof extends beyond the heated building envelope. This ice buildup traps subsequent meltwater behind it, forcing water under shingles, through flashings, and into the building. Preventing ice dams requires breaking this heat-loss chain at its source rather than at its endpoint.',
     'Millburn\'s estate homes present ice-dam challenges amplified by their size and architectural complexity. Multi-gable rooflines, deep dormers, cathedral ceiling sections, and the multiple attic zones created by complex floor plans each contribute independent heat-loss pathways that standard insulation-and-ventilation recommendations may not fully address. A Short Hills Tudor with twelve dormers, three chimney penetrations, and four separate attic volumes requires a zone-by-zone prevention strategy rather than the whole-house approach adequate for simpler residential construction.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofIceDamPrevention: ComboContent = {
     {
       question: 'What is the most effective single ice dam prevention measure?',
       answer: 'Air-sealing at the attic floor plane -- closing gaps around light fixtures, plumbing pipes, chimney chases, ductwork, and electrical penetrations -- typically produces the greatest ice-dam reduction per dollar invested. These unsealed openings allow large volumes of warm air to enter the attic, warming the roof deck far more than the conductive heat transfer through insulation. Sealing these leaks before adding insulation maximizes the effectiveness of both measures and often reduces ice-dam formation dramatically as a standalone intervention.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Millburn, NJ?',
+      answer: 'Most roof ice dam prevention projects in Millburn range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention for Millburn and Short Hills estates. Root-cause remediation with air sealing, insulation, and ventilation for complex estate rooflines.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

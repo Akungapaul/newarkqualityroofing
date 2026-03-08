@@ -4,7 +4,7 @@ export const livingstonCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Cedar shake roof replacement restores the natural wood character that distinguishes select Livingston homes from the surrounding asphalt shingle landscape. When an existing cedar shake roof has deteriorated beyond maintenance -- with widespread splitting, excessive moss penetration, curling that admits wind-driven rain, and shake thinning from decades of weathering -- replacement with fresh premium cedar renews both the weatherproofing performance and the architectural presence that made cedar the original choice.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Livingston — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement restores the natural wood character that distinguishes select Livingston homes from the surrounding asphalt shingle landscape. When an existing cedar shake roof has deteriorated beyond maintenance -- with widespread splitting, excessive moss penetration, curling that admits wind-driven rain, and shake thinning from decades of weathering -- replacement with fresh premium cedar renews both the weatherproofing performance and the architectural presence that made cedar the original choice.',
     'The replacement decision on Livingston cedar shake roofs comes when the cost of individual shake replacement exceeds the value of preserving the remaining installation. Our assessment evaluates the percentage of shakes requiring replacement, the condition of the skip sheathing and underlayment beneath, and the overall structural integrity of the shake system. When more than 30 percent of shakes need replacement and the underlayment has deteriorated, full replacement delivers better value than continued selective maintenance.',
     'Our [cedar shake roof replacement](/cedar-shake-roof-replacement) process provides Livingston homeowners with both cedar-to-cedar replacement and material conversion options. Some homeowners choose to maintain the natural wood aesthetic with new premium cedar. Others elect to convert to composite shake products that replicate cedar\'s appearance with reduced maintenance requirements, or to designer asphalt shingles that offer cedar profiles without wood\'s fire and moisture concerns. Homeowners in [Montclair](/cedar-shake-roof-replacement-montclair-nj) evaluate similar material transition decisions during their cedar shake replacement projects.',
     'Insurance considerations influence the cedar-to-cedar versus material conversion decision for some Livingston homeowners. Some carriers impose surcharges or restrictions on wood roofing, and the replacement project provides a natural transition point to a material that eliminates insurance complications while maintaining the home\'s architectural character through composite alternatives.'
@@ -35,7 +35,25 @@ export const livingstonCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Will my insurance cover cedar shake replacement in Livingston?',
       answer: 'Most homeowner policies cover damage-related replacement regardless of material type. If the replacement is elective rather than damage-driven, the material choice does not affect insurance coverage of the installation. Some carriers may adjust premiums based on the replacement material -- check with your agent about any premium implications of cedar versus alternative materials before finalizing the replacement specification.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Livingston, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Livingston range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Livingston NJ -- premium hand-split cedar renewal or material conversion with fire-rated assembly options.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

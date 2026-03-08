@@ -4,7 +4,7 @@ export const eastOrangeChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'east-orange',
   overview: [
-    'Chimney flashing repair is among the most frequently requested roof services on East Orange\'s Victorian two-families and pre-war multi-family buildings where masonry chimneys penetrate steep-pitched roof surfaces at junctions that bear the full force of water runoff, ice accumulation, and thermal movement. The original [chimney flashing](/chimney-flashing-repair) on these buildings -- typically lead or copper step and counter-flashing set into hand-cut reglets in the chimney masonry -- was installed with craftsmanship that modern roofing contractors rarely match, and when these original installations finally fail after decades of service, the replacement must address both the flashing system and the deteriorated mortar joints into which it was embedded.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in East Orange — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is among the most frequently requested roof services on East Orange\'s Victorian two-families and pre-war multi-family buildings where masonry chimneys penetrate steep-pitched roof surfaces at junctions that bear the full force of water runoff, ice accumulation, and thermal movement. The original [chimney flashing](/chimney-flashing-repair) on these buildings -- typically lead or copper step and counter-flashing set into hand-cut reglets in the chimney masonry -- was installed with craftsmanship that modern roofing contractors rarely match, and when these original installations finally fail after decades of service, the replacement must address both the flashing system and the deteriorated mortar joints into which it was embedded.',
     'The multi-family ownership structure of most East Orange buildings with chimney leak problems introduces a complication that single-family repairs avoid: the chimney may serve units occupied by different tenants, and water entering at the chimney-roof junction may damage one tenant\'s ceiling while the chimney serves a different tenant\'s heating system. Coordinating access, scheduling repair work that may temporarily disrupt heating, and allocating repair costs on properties with separate unit ownership all add layers of complexity to what appears to be a straightforward roofing repair.',
     'East Orange\'s building stock carries chimneys in varying states of structural integrity, and flashing repair divorced from chimney masonry assessment can produce repairs that fail prematurely because the substrate receiving the flashing is itself compromised. Crumbling mortar joints cannot hold counter-flashing in a reglet. Spalling brick faces create irregular surfaces against which step flashing cannot seal. Leaning chimney stacks shift seasonally, opening gaps between flashing and masonry that sealant bridges temporarily but cannot accommodate permanently. Our chimney flashing repairs include masonry assessment, and we coordinate with masonry contractors when chimney repair is prerequisite to successful flashing work, similar to the approach required on aging chimneys throughout neighboring [Newark](/chimney-flashing-repair-newark-nj).'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeChimneyFlashingRepair: ComboContent = {
     {
       question: 'Should I repair the chimney masonry before or at the same time as the flashing?',
       answer: 'Masonry repair should be completed before or simultaneously with flashing installation. Counter-flashing set into deteriorating mortar joints will fail prematurely because the mortar cannot hold the flashing securely. If masonry repointing is needed, coordinating both trades on the same mobilization is most cost-effective. We work with masonry contractors who understand the sequencing requirements for chimney work on East Orange multi-family buildings.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in East Orange, NJ?',
+      answer: 'Most chimney flashing repair projects in East Orange range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair for East Orange NJ homes -- step and counter-flashing replacement, cricket installation, and ice dam prevention on Victorian chimneys.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

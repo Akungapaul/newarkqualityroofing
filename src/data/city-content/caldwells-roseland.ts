@@ -189,6 +189,18 @@ export const caldwellsRoselandContent: CityContent[] = [
     metaTitle: 'Roofing Contractor in Caldwell NJ | Newark Quality Roofing',
     metaDescription:
       'Expert roofing in Caldwell, NJ. Residential and commercial roof repair, replacement, and restoration. Licensed, insured, and trusted by Caldwell homeowners.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Caldwell.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Caldwell',
+      'Family-Owned & Local',
+    ],
   },
 
   // ─── North Caldwell ───────────────────────────────────────────────────────
@@ -381,6 +393,18 @@ export const caldwellsRoselandContent: CityContent[] = [
     metaTitle: 'Premium Roofing in North Caldwell NJ | Newark Quality Roofing',
     metaDescription:
       'Premium roofing for North Caldwell, NJ estates. Slate, cedar shake, copper, and architectural shingle specialists. Trusted by North Caldwell homeowners.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in North Caldwell.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving North Caldwell',
+      'Family-Owned & Local',
+    ],
   },
 
   // ─── Essex Fells ──────────────────────────────────────────────────────────
@@ -571,6 +595,18 @@ export const caldwellsRoselandContent: CityContent[] = [
     metaTitle: 'Estate Roofing in Essex Fells NJ | Newark Quality Roofing',
     metaDescription:
       'Estate roofing in Essex Fells, NJ. Slate, cedar, copper, and premium materials for NJ\'s most exclusive community. Architect-trusted craftsmanship.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Essex Fells.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Essex Fells',
+      'Family-Owned & Local',
+    ],
   },
 
   // ─── Fairfield ────────────────────────────────────────────────────────────
@@ -768,6 +804,18 @@ export const caldwellsRoselandContent: CityContent[] = [
     metaTitle: 'Roofing Contractor in Fairfield NJ | Newark Quality Roofing',
     metaDescription:
       'Residential and commercial roofing in Fairfield, NJ. Route 46 corridor specialists. Roof replacement, TPO, EPDM, and maintenance programs. Licensed and insured.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Fairfield.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Fairfield',
+      'Family-Owned & Local',
+    ],
   },
 
   // ─── Roseland ─────────────────────────────────────────────────────────────
@@ -954,5 +1002,17 @@ export const caldwellsRoselandContent: CityContent[] = [
     metaTitle: 'Roofing Services in Roseland NJ | Newark Quality Roofing',
     metaDescription:
       'Professional roofing in Roseland, NJ. Residential and commercial specialists serving established neighborhoods and corporate campuses. Licensed and insured.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Roseland.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Roseland',
+      'Family-Owned & Local',
+    ],
   },
 ];

@@ -4,7 +4,7 @@ export const veronaRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'verona',
   overview: [
-    'EPDM rubber roofing serves Verona\'s flat and low-slope roofing needs with a proven material that has protected commercial and residential structures across northern New Jersey for over four decades. The synthetic rubber membrane flexes with temperature changes, resists UV degradation without reflective coatings, and delivers watertight protection at a cost point that makes it the practical choice for garage extensions, sunroom additions, and the commercial storefronts along Verona\'s section of Bloomfield Avenue. Newark Quality Roofing installs EPDM systems across Verona for applications where the material\'s flexibility and value align with the building\'s specific requirements.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Verona — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing serves Verona\'s flat and low-slope roofing needs with a proven material that has protected commercial and residential structures across northern New Jersey for over four decades. The synthetic rubber membrane flexes with temperature changes, resists UV degradation without reflective coatings, and delivers watertight protection at a cost point that makes it the practical choice for garage extensions, sunroom additions, and the commercial storefronts along Verona\'s section of Bloomfield Avenue. Newark Quality Roofing installs EPDM systems across Verona for applications where the material\'s flexibility and value align with the building\'s specific requirements.',
     'On Verona split-levels, EPDM frequently covers the low-pitch sections over garages, breezeway additions, and the flat-roof extensions that homeowners added during the 1980s and 1990s expansion era. These secondary roof planes sit below the main shingle field, creating transitions where the EPDM membrane must integrate seamlessly with the adjacent asphalt shingle system. Our [rubber roofing](/rubber-roofing-epdm) installations detail these transitions with compatible flashings and sealants that prevent the membrane-to-shingle junction from becoming a chronic leak point.',
     'Verona\'s commercial properties along Bloomfield Avenue rely on EPDM for its track record and straightforward maintenance. Restaurant, retail, and office buildings in this corridor need roofing that performs reliably for two decades or more with minimal intervention. Neighboring commercial districts in [Caldwell](/rubber-roofing-epdm-caldwell-nj) along the same Bloomfield Avenue corridor have similarly adopted EPDM for their flat-roof inventory, though Verona\'s specific building mix includes more mixed-use structures where residential and commercial roofing systems meet on the same building.'
   ],
@@ -34,7 +34,25 @@ export const veronaRubberRoofingEpdm: ComboContent = {
     {
       question: 'What maintenance does EPDM require on Verona properties?',
       answer: 'EPDM maintenance is minimal but important. Semi-annual inspections should check seam adhesion, perimeter termination integrity, and drain or scupper function. Remove accumulated debris -- particularly leaf buildup from Verona\'s heavy canopy -- from drain areas and low spots. Inspect pipe boots and curb flashings for shrinkage separation. Address any identified issues promptly, as small EPDM repairs are straightforward but neglected failures escalate quickly when water enters the insulation layer below.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Verona, NJ?',
+      answer: 'Most rubber roofing epdm projects in Verona range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Verona NJ -- flat roof systems for split-level additions and Bloomfield Avenue commercial properties.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

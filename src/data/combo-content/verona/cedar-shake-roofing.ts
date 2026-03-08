@@ -4,7 +4,7 @@ export const veronaCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'verona',
   overview: [
-    'Cedar shake roofing brings a warmth and natural character to Verona homes that no manufactured material can replicate. The hand-split texture, the tonal variations from heartwood gold to weathered silver, and the dimensional depth of individual shakes create a roof surface with genuine architectural presence. In a township where mid-century split-levels and bi-levels dominate the streetscape, cedar shake offers homeowners a way to distinguish their property while honoring the wooded suburban character that defines Verona\'s identity as a community nestled between the Watchung ridgeline and the parklands below.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Verona — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing brings a warmth and natural character to Verona homes that no manufactured material can replicate. The hand-split texture, the tonal variations from heartwood gold to weathered silver, and the dimensional depth of individual shakes create a roof surface with genuine architectural presence. In a township where mid-century split-levels and bi-levels dominate the streetscape, cedar shake offers homeowners a way to distinguish their property while honoring the wooded suburban character that defines Verona\'s identity as a community nestled between the Watchung ridgeline and the parklands below.',
     'Newark Quality Roofing installs premium western red cedar shakes on Verona homes, selecting shake grades and thicknesses based on each property\'s exposure conditions and architectural style. The natural oils in cedar heartwood provide inherent resistance to insect damage and decay, while the cellular structure delivers insulation values roughly twice that of asphalt shingles. For Verona\'s colonials and capes near the town center, cedar shake evokes the historical New England aesthetic. For custom homes along Claremont Avenue, it provides the artisan quality that complements higher-end exterior finishes. Our [cedar shake roofing](/cedar-shake-roofing) installations prioritize material quality and installation craftsmanship that honors this premium natural product.',
     'Verona\'s tree canopy creates both an aesthetic synergy and a maintenance consideration for cedar shake roofs. The organic material blends beautifully with the mature oak and maple canopy overhead, but that same canopy generates the persistent shade and moisture retention that accelerates biological growth on untreated cedar. Properties near [Verona Park](/roofing-in-verona-nj) require enhanced treatment schedules compared to sun-exposed hilltop installations, a variable our maintenance recommendations address specifically for each property\'s microclimate.'
   ],
@@ -34,7 +34,25 @@ export const veronaCedarShakeRoofing: ComboContent = {
     {
       question: 'Can cedar shakes be installed on a Verona split-level?',
       answer: 'Cedar shakes install well on split-levels, though the level transitions require additional detailing compared to simple gable roofs. We use solid sheathing with ice-and-water shield at transitions rather than the spaced sheathing used in field areas, and we fabricate wider counter-flashings that extend beneath multiple shake courses on each side of the transition joint. The aesthetic result on split-levels is striking -- the dimensional cedar texture adds visual interest to the multi-plane roofline that these homes are known for.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Verona, NJ?',
+      answer: 'Most cedar shake roofing projects in Verona range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Verona NJ -- hand-split cedar installation for split-levels, canopy-area treatment programs, and natural wood beauty.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

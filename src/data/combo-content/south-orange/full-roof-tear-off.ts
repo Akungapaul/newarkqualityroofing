@@ -4,7 +4,7 @@ export const southOrangeFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'south-orange',
   overview: [
-    'Full roof tear-off in South Orange Village removes every layer of existing roofing material down to the bare deck, revealing the substrate condition that overlay installations conceal and providing the clean foundation that premium roofing materials require for optimal performance. On South Orange\'s architecturally significant homes -- where roofing investments in slate, cedar shake, and designer shingles run well into five figures -- starting with a verified, structurally sound deck is not an option but an absolute requirement.',
+    'Newark Quality Roofing delivers expert full roof tear off in South Orange — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off in South Orange Village removes every layer of existing roofing material down to the bare deck, revealing the substrate condition that overlay installations conceal and providing the clean foundation that premium roofing materials require for optimal performance. On South Orange\'s architecturally significant homes -- where roofing investments in slate, cedar shake, and designer shingles run well into five figures -- starting with a verified, structurally sound deck is not an option but an absolute requirement.',
     'The tear-off process on South Orange homes frequently uncovers conditions that change the project scope. Decades of slow leaks at flashing junctions, ice dam damage at eaves, and moisture migration through poorly ventilated attic spaces leave deteriorated decking that must be replaced before new roofing proceeds. Our commitment to full tear-off rather than overlay ensures these hidden conditions are discovered and corrected, protecting the substantial roofing investment that follows.',
     'South Orange\'s older housing stock often carries multiple roofing layers from successive installations that were overlaid rather than torn off. A Tudor Revival in Montrose Park may have original slate with a shingle overlay from the 1960s and another layer from the 1990s -- three generations of roofing material adding unnecessary weight and concealing deck conditions. Our [full roof tear-off](/full-roof-tear-off) service removes all accumulated layers, returning the roof to its structural starting point.',
     'Waste management during tear-off in South Orange\'s residential neighborhoods requires careful containment that prevents debris from damaging landscaping, vehicles, and neighboring properties. We deploy ground-level tarps, magnetic nail sweepers, and enclosed debris chutes that direct tear-off material into dumpsters rather than across the property. The village\'s dense residential development means neighboring homes are close, and debris control is a commitment we take seriously on every [South Orange](/roofing-in-south-orange-nj) tear-off project.'
@@ -35,7 +35,25 @@ export const southOrangeFullRoofTearOff: ComboContent = {
     {
       question: 'Will tear-off damage my South Orange home landscaping?',
       answer: 'We deploy protective ground tarps beneath the work zone and use debris chutes that direct material into dumpsters rather than dropping it from roof height. Plants directly beneath the roof edge receive additional protection with plywood shields. Despite these precautions, some minor disturbance is possible on beds immediately adjacent to the building. We repair any landscape damage our work causes as part of the project completion cleanup.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in South Orange, NJ?',
+      answer: 'Most full roof tear off projects in South Orange range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in South Orange NJ -- complete removal to the deck for clean, verified substrate on village home replacements.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

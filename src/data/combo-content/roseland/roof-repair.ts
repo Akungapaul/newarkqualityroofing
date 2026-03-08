@@ -4,7 +4,7 @@ export const roselandRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'roseland',
   overview: [
-    'Roseland occupies a distinctive position in western Essex County where corporate office parks and established residential neighborhoods share the same compact borough footprint. Roof repair here serves two distinctly different building stocks -- the mid-century colonials, split-levels, and ranches lining streets off Eagle Rock Avenue that have carried their original or second-generation shingles through decades of northeastern weather, and the commercial campus buildings along Eisenhower Parkway whose large-area membrane roofs demand an entirely different repair methodology. Homeowners in nearby [Caldwell](/roof-repair-caldwell-nj) share similar mid-century housing stock, though Roseland\'s corporate presence adds a commercial dimension that few surrounding boroughs match.',
+    'Newark Quality Roofing delivers expert roof repair in Roseland — with prices starting from $350–$1,500 and free estimates available today. Roseland occupies a distinctive position in western Essex County where corporate office parks and established residential neighborhoods share the same compact borough footprint. Roof repair here serves two distinctly different building stocks -- the mid-century colonials, split-levels, and ranches lining streets off Eagle Rock Avenue that have carried their original or second-generation shingles through decades of northeastern weather, and the commercial campus buildings along Eisenhower Parkway whose large-area membrane roofs demand an entirely different repair methodology. Homeowners in nearby [Caldwell](/roof-repair-caldwell-nj) share similar mid-century housing stock, though Roseland\'s corporate presence adds a commercial dimension that few surrounding boroughs match.',
     'Residential roof repair in Roseland follows predictable patterns dictated by the borough\'s building timeline. Homes built during the 1950s and 1960s along Becker Farm Road and Harrison Avenue have reached the point where original flashing systems, particularly at chimney intersections and dormer valleys, have corroded through their useful life. Split-level homes -- a defining feature of Roseland\'s 1960s development -- create repair-prone junctions where offset roof planes meet at the split point, concentrating water flow and thermal stress at a single flashing line. These split-point failures account for a significant percentage of our Roseland residential repair calls.',
     'The corporate campus buildings that anchor Roseland\'s commercial identity -- including the ADP global headquarters -- present roof repair scenarios measured in thousands of square feet rather than the patches and reflashing jobs typical of residential work. Commercial membrane repairs on these buildings require precise material matching, careful integration with existing rooftop mechanical equipment, and scheduling coordination with facility managers who cannot tolerate tenant disruption. Our [commercial roof repair](/commercial-roof-repair) team maintains the certifications and insurance coverage that Roseland\'s corporate property managers require before authorizing work on their buildings.',
     'Roseland\'s position along the eastern slope of the Watchung ridgeline subjects roofs to weather patterns that accelerate repair needs. The borough receives heavier precipitation than lower-elevation communities like [Livingston](/roof-repair-livingston-nj), and winter snow loads test every flashing detail and drainage component. Storm-driven repairs peak in the spring when winter damage reveals itself through ceiling stains and attic moisture, and again after summer thunderstorms that arrive from the west with significant force after crossing the open terrain of Morris County.'
@@ -39,7 +39,25 @@ export const roselandRoofRepair: ComboContent = {
     {
       question: 'How quickly can you respond to a roof leak at a Roseland commercial property?',
       answer: 'We maintain rapid-response capability for Roseland commercial properties and can typically have a crew on-site within two to four hours during business hours. For the corporate campus buildings along Eisenhower Parkway, we keep commercial membrane patch materials and sealants staged and ready because tenant disruption from active leaks creates urgency beyond just the physical damage. Emergency response includes temporary containment, interior protection measures, and permanent repair scheduling within the following week based on weather conditions and material requirements.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Roseland, NJ?',
+      answer: 'Most roof repair projects in Roseland range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roseland NJ roof repair for split-levels, colonials, and corporate buildings -- residential flashing repairs and commercial membrane solutions.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

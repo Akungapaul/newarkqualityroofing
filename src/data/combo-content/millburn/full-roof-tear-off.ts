@@ -4,7 +4,7 @@ export const millburnFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'millburn',
   overview: [
-    'Full roof tear-off on Millburn estates removes every layer of existing roofing material down to the structural deck, revealing the substrate condition that determines how the new roof system will perform for the next three to five decades. On the layered roofs common throughout Short Hills and Wyoming -- where decades of re-roofing may have applied asphalt shingles over original cedar shakes, or modified bitumen over deteriorating built-up roofing on flat sections -- tear-off is the only path to a clean starting point that allows proper deck inspection, insulation upgrade, and new-roof installation without the compromises that overlay installation imposes.',
+    'Newark Quality Roofing delivers expert full roof tear off in Millburn — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on Millburn estates removes every layer of existing roofing material down to the structural deck, revealing the substrate condition that determines how the new roof system will perform for the next three to five decades. On the layered roofs common throughout Short Hills and Wyoming -- where decades of re-roofing may have applied asphalt shingles over original cedar shakes, or modified bitumen over deteriorating built-up roofing on flat sections -- tear-off is the only path to a clean starting point that allows proper deck inspection, insulation upgrade, and new-roof installation without the compromises that overlay installation imposes.',
     'The tear-off process on Millburn estate properties generates substantial debris volumes that require coordinated removal without damaging the landscape features, hardscape, and auxiliary structures surrounding the building. A forty-square slate tear-off produces twelve to fifteen tons of material that must be directed from the roof surface into containment systems positioned to protect gardens, patios, pool surrounds, and specimen plantings. Our [full roof tear-off](/full-roof-tear-off) protocol for estate properties includes comprehensive site protection planning that maps every vulnerable feature and establishes debris-containment pathways that prevent damage to the property\'s landscape investment.',
     'Deck exposure during tear-off provides the critical inspection opportunity that no other diagnostic method can replicate. The structural sheathing, framing connections, and insulation cavity beneath the existing roofing are fully accessible for evaluation -- revealing deterioration, moisture damage, pest intrusion, and ventilation deficiencies that would remain hidden beneath an overlay installation. On Millburn\'s older estates where the original construction may be eighty to one hundred years old, this deck-exposed moment is the most valuable diagnostic window the building will offer until the next re-roofing event decades in the future.'
   ],
@@ -34,7 +34,25 @@ export const millburnFullRoofTearOff: ComboContent = {
     {
       question: 'What happens to the old roofing material?',
       answer: 'Asphalt shingles are delivered to recycling facilities that process them into road-paving aggregate. Slate and tile are offered to architectural salvage dealers for reuse on restoration projects. Cedar shake is disposed of as wood waste. Metal components -- copper flashings, aluminum gutters -- are recycled as scrap metal. We separate materials during tear-off to maximize recycling and minimize landfill disposal, and we can document the recycling disposition for homeowners who value the environmental responsibility of their project.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Millburn, NJ?',
+      answer: 'Most full roof tear off projects in Millburn range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off for Millburn and Short Hills estates. Comprehensive debris containment, deck inspection, and site protection for premium re-roofing projects.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'millburn',
   overview: [
-    'Historic roof restoration in Millburn preserves the township\'s architectural legacy on properties where the roof is not merely a weather barrier but a defining element of the home\'s period character and cultural significance. The Tudor revivals, Georgian colonials, English cottages, and Arts and Crafts residences throughout the Wyoming Historic District, Old Short Hills Park, and the Glenwood estate section wear roofs designed by architects who specified materials and details as integral to the architectural composition -- Vermont slate in specific colors, copper flashings formed to period profiles, ridge details replicating English or European precedents. Restoring these roofs demands the same material knowledge and craft tradition that produced them.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Millburn — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Millburn preserves the township\'s architectural legacy on properties where the roof is not merely a weather barrier but a defining element of the home\'s period character and cultural significance. The Tudor revivals, Georgian colonials, English cottages, and Arts and Crafts residences throughout the Wyoming Historic District, Old Short Hills Park, and the Glenwood estate section wear roofs designed by architects who specified materials and details as integral to the architectural composition -- Vermont slate in specific colors, copper flashings formed to period profiles, ridge details replicating English or European precedents. Restoring these roofs demands the same material knowledge and craft tradition that produced them.',
     'The Wyoming Historic District imposes regulatory requirements on roof work affecting contributing structures. Material changes, color modifications, and even flashing-profile alterations may require Historic Preservation Commission review and approval. Our [historic roof restoration](/historic-roof-restoration) practice navigates these regulatory requirements as a routine part of the restoration process, preparing documentation that demonstrates how the proposed work preserves or restores the roof\'s historic character. This regulatory competence prevents project delays from incomplete applications and ensures that the approved scope satisfies both preservation standards and building-performance requirements.',
     'Properties beyond Millburn\'s designated historic district also benefit from the restoration approach when their architectural character depends on roofing materials and details that standard replacement would displace. A 1928 Tudor in Short Hills not within the historic district still has an owner who values the home\'s authentic slate and copper as central to its identity and property value. Restoration -- rather than replacement with modern alternatives -- preserves the investment that the original construction represents and maintains the material vocabulary that distinguishes the home within its neighborhood context. Homes in [Montclair](/historic-roof-restoration-montclair-nj) and [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) share similar preservation values and restoration requirements.'
   ],
@@ -34,7 +34,25 @@ export const millburnHistoricRoofRestoration: ComboContent = {
     {
       question: 'Is historic roof restoration more expensive than standard replacement?',
       answer: 'Restoration is typically more expensive per square than standard replacement because of the material-sourcing complexity, the selective-removal labor, and the custom fabrication required for period-appropriate details. However, restoration preserves material that would cost substantially more to replace entirely, and it maintains the property\'s architectural integrity and historic character that standard replacement would diminish. For Millburn properties where the roof contributes significantly to the home\'s character and property value, the restoration premium is an investment in the property\'s long-term market position.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Millburn, NJ?',
+      answer: 'Most historic roof restoration projects in Millburn range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration for Millburn and Short Hills estates. Wyoming Historic District compliance, slate salvage sourcing, and period-accurate copper.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

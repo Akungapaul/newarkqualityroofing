@@ -4,7 +4,7 @@ export const glenRidgeGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'glen-ridge',
   overview: [
-    'Gutter systems in Glen Ridge perform double duty: they manage the substantial water runoff that the borough\'s steeply pitched Victorian and Edwardian roofs generate, and they serve as visible architectural elements that contribute to each home\'s period character. Standard aluminum K-style gutters that suffice on modern construction look conspicuously out of place on Glen Ridge\'s finest homes, where original half-round copper gutters, ornamental leader heads, and decorative downspout brackets were integral to the architect\'s design. Newark Quality Roofing provides the full range of gutter services, from period-appropriate copper fabrication to practical aluminum systems, matched to each Glen Ridge home\'s specific character and preservation requirements.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Glen Ridge — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems in Glen Ridge perform double duty: they manage the substantial water runoff that the borough\'s steeply pitched Victorian and Edwardian roofs generate, and they serve as visible architectural elements that contribute to each home\'s period character. Standard aluminum K-style gutters that suffice on modern construction look conspicuously out of place on Glen Ridge\'s finest homes, where original half-round copper gutters, ornamental leader heads, and decorative downspout brackets were integral to the architect\'s design. Newark Quality Roofing provides the full range of gutter services, from period-appropriate copper fabrication to practical aluminum systems, matched to each Glen Ridge home\'s specific character and preservation requirements.',
     'Glen Ridge\'s mature tree canopy makes gutter maintenance the borough\'s single most important routine roofing task. Oak, elm, and maple leaves, seeds, and twigs fill gutters rapidly during autumn, and the persistent shade beneath the canopy prevents gutters from drying between rain events. Clogged gutters overflow, saturating foundations and fascia boards. In winter, clogged gutters create ice dam anchor points where backed-up water freezes and lifts roofing material. Our gutter maintenance services keep Glen Ridge homes protected through every season, preventing the cascade of damage that neglected gutters inevitably produce.',
     'The borough\'s compact lots and close house spacing mean that gutter failures affect neighboring properties directly. Overflowing gutters on one home deposit water against the adjacent foundation. Missing downspout extensions direct concentrated runoff toward the neighbor\'s basement window wells. In Glen Ridge\'s tight-knit community, properly maintained gutters are a neighborly obligation as much as a personal protection measure. We design [gutter guard systems](/gutter-guard-installation-glen-ridge-nj) that reduce maintenance burden while maintaining the historic appearance Glen Ridge demands.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeGutterInstallationRepair: ComboContent = {
       question: 'What gutter material is best for a Glen Ridge historic home?',
       answer: 'Copper is the premium choice for Glen Ridge\'s most architecturally significant homes, matching original installations and developing a patina that complements historic materials. For homes where budget is a primary concern or where the original gutters were not copper, heavy-gauge painted aluminum in a color matching the home\'s trim provides reliable performance at lower cost. We help homeowners select the appropriate material for their specific home and preservation context.',
     },
+    {
+      question: 'How much does gutter installation repair cost in Glen Ridge, NJ?',
+      answer: 'Most gutter installation repair projects in Glen Ridge range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Glen Ridge NJ. Custom copper half-round gutters and drainage solutions for the historic district.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

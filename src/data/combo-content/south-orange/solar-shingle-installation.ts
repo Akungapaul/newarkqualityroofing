@@ -4,7 +4,7 @@ export const southOrangeSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'south-orange',
   overview: [
-    'Solar shingle installation in South Orange Village addresses the intersection of renewable energy ambition and architectural preservation that defines this community\'s approach to home improvement. Unlike traditional rack-mounted solar panels that sit visibly atop the roof surface, solar shingles integrate directly into the roofing material, generating electricity while maintaining the clean roofline profile that South Orange\'s architecturally distinguished neighborhoods expect.',
+    'Newark Quality Roofing delivers expert solar shingle installation in South Orange — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installation in South Orange Village addresses the intersection of renewable energy ambition and architectural preservation that defines this community\'s approach to home improvement. Unlike traditional rack-mounted solar panels that sit visibly atop the roof surface, solar shingles integrate directly into the roofing material, generating electricity while maintaining the clean roofline profile that South Orange\'s architecturally distinguished neighborhoods expect.',
     'The aesthetic advantage of solar shingles resonates powerfully in a village where roofscape appearance influences property values and neighborhood character. Montrose Park estates, Prospect Street Colonials, and Scotland Road bungalows carry roofing materials selected as much for visual contribution as weather protection, and homeowners who would reject the visual impact of conventional panels on their carefully maintained homes find solar shingles an acceptable path to solar energy generation. The technology allows [South Orange](/roofing-in-south-orange-nj) homeowners to participate in the renewable energy transition without architectural compromise.',
     'Solar shingle products from manufacturers like GAF Energy and Tesla integrate photovoltaic cells within roofing shingle profiles that install using standard roofing techniques. The shingles serve dual function -- generating electricity from their photovoltaic components while providing the same weather protection as conventional architectural shingles. This integrated approach eliminates the rack mounting, standoff brackets, and visible conduit runs that conventional panels require, producing a roof surface that reads as a unified material rather than a technology installation.',
     'Our solar shingle installations in South Orange combine our roofing expertise with solar system design, providing homeowners a single contractor responsible for both waterproofing and energy generation. This unified responsibility eliminates the finger-pointing between roofing contractors and solar installers that separate-contract projects sometimes produce when leaks occur near solar mounting penetrations. Homeowners in [Maplewood](/solar-shingle-installation-maplewood-nj) and South Orange benefit from knowing that one company stands behind both the roof and the energy system.'
@@ -35,7 +35,25 @@ export const southOrangeSolarShingleInstallation: ComboContent = {
     {
       question: 'How long do solar shingles last compared to standard roofing shingles?',
       answer: 'Current solar shingle products carry 25-year power production warranties and 25-30 year roofing warranties, roughly equivalent to premium architectural shingle lifespan. The solar shingles serve double duty throughout their service life, replacing a roofing material that would have needed to be purchased anyway. At end of life, both the roofing function and the solar function are addressed in a single replacement project rather than as separate interventions.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in South Orange, NJ?',
+      answer: 'Most solar shingle installation projects in South Orange range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in South Orange NJ -- integrated solar roofing that generates power while preserving architectural aesthetics.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const irvingtonCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'irvington',
   overview: [
-    'Commercial roof repair in Irvington centers on two geographic concentrations: the Springfield Avenue corridor where aging mixed-use buildings generate a steady volume of flat-roof leak calls, and the Route 78 industrial zone where warehouse and manufacturing facility operators need repairs that minimize operational disruption. Our [commercial roof repair](/commercial-roof-repair) response for Irvington commercial properties delivers targeted, lasting repairs rather than the temporary patches that have characterized the maintenance history on many of the township\'s aging commercial roofs.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Irvington — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Irvington centers on two geographic concentrations: the Springfield Avenue corridor where aging mixed-use buildings generate a steady volume of flat-roof leak calls, and the Route 78 industrial zone where warehouse and manufacturing facility operators need repairs that minimize operational disruption. Our [commercial roof repair](/commercial-roof-repair) response for Irvington commercial properties delivers targeted, lasting repairs rather than the temporary patches that have characterized the maintenance history on many of the township\'s aging commercial roofs.',
     'The repair-versus-replace assessment is the most important decision we help Irvington commercial property owners make. Springfield Avenue buildings with roofs that have been patched and recoated multiple times over 20 to 30 years often present a false economy: each individual repair is affordable, but the cumulative spending on temporary fixes frequently exceeds what a full replacement would have cost years earlier. Our repair assessments include a total-cost-of-ownership analysis that compares ongoing repair expense against replacement investment, helping property owners identify the crossover point where replacement becomes the more cost-effective path.',
     'Multi-tenant commercial buildings in Irvington require repair approaches that account for the diverse operations housed beneath the roof. A leak above a medical office has different urgency and containment requirements than a leak above a storage warehouse. Our repair prioritization for multi-tenant Irvington commercial buildings assesses the business impact of each leak location and sequences repair work to address the highest-impact areas first. Commercial repair services in neighboring [East Orange](/commercial-roof-repair-east-orange-nj) address similar aging commercial building stock, though Irvington\'s Route 78 industrial corridor adds heavy-commercial applications beyond East Orange\'s primarily retail and office markets.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonCommercialRoofRepair: ComboContent = {
       question: 'Do you offer commercial roof maintenance programs for Irvington buildings?',
       answer: 'Yes. Our preventive maintenance program includes semi-annual inspections, drain cleaning, minor repair of developing issues, and annual condition reporting. Proactive maintenance extends commercial roof life by 3 to 5 years on average and catches developing problems before they produce interior damage. Maintenance program costs typically run $0.08 to $0.15 per square foot of roof area annually.',
     },
+    {
+      question: 'How much does commercial roof repair cost in Irvington, NJ?',
+      answer: 'Most commercial roof repair projects in Irvington range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Irvington NJ for Springfield Ave businesses and Route 78 industrial buildings. Diagnostic leak finding and lasting membrane repairs.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

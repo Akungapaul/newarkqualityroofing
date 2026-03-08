@@ -4,7 +4,7 @@ export const cedarGroveReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'Re-roofing in Cedar Grove encompasses the full scope of roof renewal -- whether through complete tear-off and replacement or overlay installation -- delivering a new roofing surface that restores weather protection, energy performance, and curb appeal to the township\'s aging residential properties. The term covers both methods and allows Cedar Grove homeowners to evaluate their options within a single consultation rather than committing to an approach before understanding the condition of their existing roof.',
+    'Newark Quality Roofing delivers expert re roofing in Cedar Grove — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Cedar Grove encompasses the full scope of roof renewal -- whether through complete tear-off and replacement or overlay installation -- delivering a new roofing surface that restores weather protection, energy performance, and curb appeal to the township\'s aging residential properties. The term covers both methods and allows Cedar Grove homeowners to evaluate their options within a single consultation rather than committing to an approach before understanding the condition of their existing roof.',
     'Cedar Grove\'s housing stock has reached the point where many homes require their second or third [re-roofing](/re-roofing) since original construction. Ranch homes built during the 1950s and 1960s have cycled through multiple roof replacements, each one revealing the cumulative effects of northern Essex County weather on the underlying structure. Our re-roofing projects treat each cycle as an opportunity to correct the ventilation, insulation, and flashing deficiencies that previous installations may have perpetuated.',
     'The re-roofing decision for Cedar Grove homeowners often coincides with other exterior improvement projects -- siding replacement, window upgrades, or addition construction. Coordinating re-roofing with these related projects creates cost savings through shared mobilization, sequential construction scheduling, and integrated flashing details that perform better when installed as part of a unified project rather than patched together between separate contractors at different times.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveReRoofing: ComboContent = {
       question: 'Can I stay in my Cedar Grove home during re-roofing?',
       answer: 'Yes. The work is performed entirely from the exterior, and the home remains habitable throughout the project. Tear-off generates significant noise during the stripping phase, and some dust may enter the attic space. We recommend removing or covering attic-stored items before tear-off begins. If you work from home, the noisiest phase is typically the first day during tear-off.',
     },
+    {
+      question: 'How much does re roofing cost in Cedar Grove, NJ?',
+      answer: 'Most re roofing projects in Cedar Grove range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Cedar Grove NJ -- complete roof renewal for ranch and colonial homes with material options, ventilation upgrades, and deck repair.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

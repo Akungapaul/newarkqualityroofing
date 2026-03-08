@@ -4,7 +4,7 @@ export const glenRidgeSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'glen-ridge',
   overview: [
-    'Soffit systems on Glen Ridge\'s historic homes bridge the gap between architectural detail and attic ventilation, enclosing the underside of roof overhangs while providing the air intake that balanced ventilation requires. Original soffits on Glen Ridge Victorians and Edwardians ranged from beaded tongue-and-groove boards with decorative patterns to simple flat panels, but they almost uniformly lacked the continuous ventilation that modern building science recognizes as essential for preventing moisture damage and ice dam formation in the attic space above.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Glen Ridge — with prices starting from $1,500–$4,000 and free estimates available today. Soffit systems on Glen Ridge\'s historic homes bridge the gap between architectural detail and attic ventilation, enclosing the underside of roof overhangs while providing the air intake that balanced ventilation requires. Original soffits on Glen Ridge Victorians and Edwardians ranged from beaded tongue-and-groove boards with decorative patterns to simple flat panels, but they almost uniformly lacked the continuous ventilation that modern building science recognizes as essential for preventing moisture damage and ice dam formation in the attic space above.',
     'Updating Glen Ridge soffits for ventilation performance while maintaining period-appropriate appearance is one of our most common preservation-compatible improvements. We install vented soffit panels that allow continuous air intake along the eave line, feeding cool exterior air into the attic where it rises through the rafter bays and exhausts through ridge vents or gable vents. This ventilation flow keeps the roof deck cool in winter -- preventing the uneven snowmelt that causes [ice dams](/roof-ice-dam-prevention-glen-ridge-nj) -- and removes trapped heat in summer that accelerates shingle aging and increases cooling costs.',
     'The visual character of Glen Ridge soffits matters to the Historic Preservation Commission and to neighbors who appreciate the consistent architectural detailing along the borough\'s gaslit streets. Replacing beaded board soffits with standard perforated aluminum panels would create an obvious modern intrusion on a Victorian facade. We offer vented soffit solutions in beaded profiles, smooth panels, and composite materials that replicate the original soffit appearance while incorporating hidden ventilation channels. The result looks period-appropriate from the street while performing to modern standards from the attic side. Similar preservation-sensitive soffit work guides our approach in [Montclair](/soffit-installation-repair-montclair-nj)\'s historic neighborhoods.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeSoffitInstallationRepair: ComboContent = {
       question: 'Can I use aluminum soffits on my Glen Ridge historic home?',
       answer: 'Smooth aluminum panels may be acceptable on non-visible or secondary elevations, but the Historic Preservation Commission generally expects wood or wood-replica materials on primary visible soffits. We offer composite and engineered wood soffit panels that provide aluminum\'s moisture resistance with the period-appropriate appearance that preservation standards require.',
     },
+    {
+      question: 'How much does soffit installation repair cost in Glen Ridge, NJ?',
+      answer: 'Most soffit installation repair projects in Glen Ridge range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Glen Ridge NJ. Period-profile ventilated soffits for Victorian and Edwardian homes in the historic district.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

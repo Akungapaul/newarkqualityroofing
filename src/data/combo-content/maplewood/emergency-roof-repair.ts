@@ -4,7 +4,7 @@ export const maplewoodEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'maplewood',
   overview: [
-    'Emergency roof repair in Maplewood is shaped by the township\'s proximity to South Mountain Reservation, where 2,110 acres of mature hardwood forest channel storms directly onto residential rooftops. When nor\'easters or summer thunderstorms topple an 80-foot oak onto a Colonial on Prospect Street, or when wind-driven rain exploits a cracked valley on a Victorian near Maplewood Village, the damage demands immediate, skilled response. Our [emergency roof repair](/emergency-roof-repair) crews understand Maplewood\'s architectural complexity and arrive prepared to tarp a multi-gable Victorian turret as readily as a simple Colonial ridge.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Maplewood — with prices starting from $500–$2,500 and free estimates available today. Emergency roof repair in Maplewood is shaped by the township\'s proximity to South Mountain Reservation, where 2,110 acres of mature hardwood forest channel storms directly onto residential rooftops. When nor\'easters or summer thunderstorms topple an 80-foot oak onto a Colonial on Prospect Street, or when wind-driven rain exploits a cracked valley on a Victorian near Maplewood Village, the damage demands immediate, skilled response. Our [emergency roof repair](/emergency-roof-repair) crews understand Maplewood\'s architectural complexity and arrive prepared to tarp a multi-gable Victorian turret as readily as a simple Colonial ridge.',
     'The Springfield Avenue corridor creates a natural staging zone for our emergency operations in Maplewood. Calls from the eastern neighborhoods near Irvington typically involve shingle blow-off on two-family homes and water intrusion through aging flashing on older Colonials. Western calls from the Hilton neighborhood and South Mountain border properties tend toward more severe damage: tree-impact punctures, ridge-cap destruction from falling limbs, and structural compromise where heavy branches have fractured rafters. Homeowners in [South Orange](/emergency-roof-repair-south-orange-nj) and West Orange share this Reservation-edge vulnerability.',
     'Maplewood\'s architecturally diverse housing stock means emergency tarping is never one-size-fits-all. A Victorian with a turret roof requires custom-cut tarp sections secured with weighted battens that follow the conical geometry. A Tudor with steep stucco-clad gables needs tarp anchoring that avoids damaging the decorative half-timber cladding. A flat-roofed commercial building in [Maplewood](/roofing-in-maplewood-nj) Village requires membrane-compatible temporary patches rather than tarp systems. Our emergency crews carry materials and techniques for every scenario this architecturally rich township presents.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodEmergencyRoofRepair: ComboContent = {
       question: 'Can you emergency-tarp a slate roof without damaging the remaining slates?',
       answer: 'Yes. Our emergency crews carry slate-specific tarping equipment including padded battens and non-penetrating anchoring systems that secure tarps without cracking intact slates. For Maplewood Victorians with original slate, protecting the surviving material is critical because matching century-old slate for permanent repair requires sourcing from specific quarries. We never nail through intact slate during emergency work.',
     },
+    {
+      question: 'How much does emergency roof repair cost in Maplewood, NJ?',
+      answer: 'Most emergency roof repair projects in Maplewood range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Maplewood NJ. Rapid response for storm and tree damage near South Mountain Reservation. 24/7 tarping and restoration.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

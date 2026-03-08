@@ -4,7 +4,7 @@ export const bellevilleRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'belleville',
   overview: [
-    'Belleville\'s housing stock demands proactive roof maintenance more than most Essex County communities. The compact lots, post-war construction methods, and Passaic River humidity create a convergence of aging factors that punish deferred maintenance with accelerated deterioration. A structured [roof maintenance program](/roof-maintenance-programs) in Belleville catches the small failures -- lifted shingle tabs, cracked caulk at pipe boots, clogged gutter sections between closely-spaced houses -- before they cascade into the interior water damage, mold growth, and structural compromise that turn a two-hundred-dollar maintenance visit into a ten-thousand-dollar emergency.',
+    'Newark Quality Roofing delivers expert roof maintenance programs in Belleville — with prices starting from $250–$600/year and free estimates available today. Belleville\'s housing stock demands proactive roof maintenance more than most Essex County communities. The compact lots, post-war construction methods, and Passaic River humidity create a convergence of aging factors that punish deferred maintenance with accelerated deterioration. A structured [roof maintenance program](/roof-maintenance-programs) in Belleville catches the small failures -- lifted shingle tabs, cracked caulk at pipe boots, clogged gutter sections between closely-spaced houses -- before they cascade into the interior water damage, mold growth, and structural compromise that turn a two-hundred-dollar maintenance visit into a ten-thousand-dollar emergency.',
     'Our Belleville maintenance programs are built around the township\'s seasonal exposure pattern. Spring visits assess winter damage from ice cycling and snow load on the low-pitch rear sections common to Cape Cods. Fall visits clear debris from valleys and gutters before winter, check flashing integrity at dormer junctions, and apply moss treatment to the north-facing slopes where biological growth accelerates during the humid summer months. This twice-annual rhythm matches the damage patterns we have documented across hundreds of Belleville roofs over two decades of service in the township.',
     'Commercial properties along Washington Avenue benefit from quarterly maintenance programs that keep flat membrane systems performing between replacement cycles. Ponding water, seam lifting, and penetration flashing deterioration are progressive conditions that maintenance can arrest but neglect allows to compound. Our commercial maintenance visits include drain clearing, seam re-welding where separation is detected, and sealant renewal at HVAC curbs and pipe penetrations. Property owners in neighboring [Newark](/roof-maintenance-programs-newark-nj) operate similar maintenance contracts on their commercial buildings, and the cost savings in avoided emergency repairs consistently justify the maintenance investment.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleRoofMaintenancePrograms: ComboContent = {
     {
       question: 'Can you maintain my commercial building roof on Washington Avenue?',
       answer: 'Yes, our commercial maintenance programs cover flat membrane systems including EPDM, TPO, PVC, and modified bitumen. Commercial programs are quarterly rather than twice-annual, reflecting the higher maintenance demands of flat roof systems with mechanical penetrations. Each visit includes drain clearing, seam inspection, penetration sealant assessment, and a photo-documented report suitable for property management records and insurance documentation.'
-    }
+    },
+    {
+      question: 'How much does roof maintenance programs cost in Belleville, NJ?',
+      answer: 'Most roof maintenance programs projects in Belleville range from $250–$600/year. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ roof maintenance programs -- twice-annual inspections, debris clearing, and preventive care for dense-lot post-war homes.',
+  pricing: {
+    range: '$250–$600/year',
+    note: 'annual maintenance plan pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof maintenance programs estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

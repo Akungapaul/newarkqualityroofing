@@ -4,7 +4,7 @@ export const northCaldwellEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Emergency roof situations in North Caldwell carry consequences proportional to the value of the properties involved. When a mature oak drops a sixty-foot limb through the slate roof of a Mountain Avenue estate, the exposure extends far beyond the roof surface -- custom hardwood floors, designer interiors, art collections, and finished spaces that cost hundreds of dollars per square foot are all at risk from every minute of water intrusion. Our [emergency roof repair](/emergency-roof-repair) response for North Caldwell properties treats time as the critical variable it is, deploying crews within hours to contain damage before secondary losses multiply the original impact.',
+    'Newark Quality Roofing delivers expert emergency roof repair in North Caldwell — with prices starting from $500–$2,500 and free estimates available today. Emergency roof situations in North Caldwell carry consequences proportional to the value of the properties involved. When a mature oak drops a sixty-foot limb through the slate roof of a Mountain Avenue estate, the exposure extends far beyond the roof surface -- custom hardwood floors, designer interiors, art collections, and finished spaces that cost hundreds of dollars per square foot are all at risk from every minute of water intrusion. Our [emergency roof repair](/emergency-roof-repair) response for North Caldwell properties treats time as the critical variable it is, deploying crews within hours to contain damage before secondary losses multiply the original impact.',
     'North Caldwell\'s densely wooded lots amplify the frequency and severity of storm-related roof emergencies. The mature hardwood canopy that gives the borough its estate character also produces the largest and most damaging falling debris during severe weather. Unlike suburban communities where storm damage typically involves shingle lift and minor branch impacts, North Caldwell emergencies regularly involve full limb strikes that penetrate roofing systems down to the deck, knock chimney caps askew, and shear copper gutter runs off the fascia. Properties in neighboring [Essex Fells](/emergency-roof-repair-essex-fells-nj) share this heavy-canopy exposure.',
     'The premium materials installed on North Caldwell homes add complexity to emergency response. A tarp covering a standard shingle roof provides adequate temporary protection, but tarping over a natural slate roof risks cracking additional tiles under foot traffic and tarp hardware attachment. Copper roofing sections cannot be temporarily sealed with asphalt-based products that would stain the patina permanently. Cedar shake roofs require careful debris removal to avoid splitting fragile aged shakes adjacent to the damage zone. Our emergency crews carry material-specific protection supplies -- copper-safe sealants, slate-compatible tarp attachment methods, and the hand tools needed to work around premium installations without compounding the damage.',
     'Our commitment to North Caldwell emergency response extends to coordinating the full recovery timeline, not just the immediate containment. We document conditions for insurance purposes, provide preliminary repair estimates that reflect the actual replacement cost of premium materials, and schedule permanent restoration work as soon as sourcing allows. For North Caldwell homeowners, the emergency call is the beginning of a managed process that carries through to final restoration and warranty registration.'
@@ -35,7 +35,25 @@ export const northCaldwellEmergencyRoofRepair: ComboContent = {
     {
       question: 'What temporary protection do you install on a damaged slate roof?',
       answer: 'Standard tarp attachment methods that drive fasteners through roofing material are inappropriate for slate because they crack surrounding tiles. On North Caldwell slate roofs, we use weighted tarp systems secured by sandbags placed on protective pads, or anchor tarps to the ridge using non-penetrating clamp systems. For smaller damaged areas, we install temporary slate tiles or metal pan covers that slip under the existing courses without fastener penetration. These methods provide effective weather protection without compounding the damage that the permanent repair will need to address.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in North Caldwell, NJ?',
+      answer: 'Most emergency roof repair projects in North Caldwell range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in North Caldwell NJ -- rapid response for storm damage on estate properties with slate, copper, and premium roofing.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

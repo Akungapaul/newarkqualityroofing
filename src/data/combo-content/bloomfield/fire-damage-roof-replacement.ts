@@ -4,7 +4,7 @@ export const bloomfieldFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Fire damage roof replacement in Bloomfield addresses the specialized reconstruction required after a structure fire damages or destroys the roof assembly. Unlike weather damage that affects the roof surface, fire damage can compromise the structural framing beneath -- rafters, ridge beams, and sheathing -- requiring rebuilding rather than simple re-roofing. The post-war housing stock concentrated in Bloomfield\'s residential neighborhoods creates specific fire damage patterns: balloon-frame construction in the oldest Cape Cods allows fire to spread rapidly through wall cavities to the attic, while the wood-frame roofing on all vintages ignites readily once flames reach the attic space.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Bloomfield — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Bloomfield addresses the specialized reconstruction required after a structure fire damages or destroys the roof assembly. Unlike weather damage that affects the roof surface, fire damage can compromise the structural framing beneath -- rafters, ridge beams, and sheathing -- requiring rebuilding rather than simple re-roofing. The post-war housing stock concentrated in Bloomfield\'s residential neighborhoods creates specific fire damage patterns: balloon-frame construction in the oldest Cape Cods allows fire to spread rapidly through wall cavities to the attic, while the wood-frame roofing on all vintages ignites readily once flames reach the attic space.',
     'Fire damage severity on Bloomfield roofs ranges from limited exterior damage -- charring from a chimney fire or adjacent structure fire -- to complete structural destruction requiring full framing rebuild. The repair approach depends on the structural integrity of the remaining framing. Charred but structurally sound rafters may be reinforced rather than replaced. Rafters that have lost cross-section to burning must be sistered or replaced. Ridge beams, collar ties, and ceiling joists in the fire zone require individual structural assessment before the roof can be rebuilt.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners navigating fire damage restoration, the roof is typically one component of a larger reconstruction project coordinated by a general contractor or restoration company. Our role focuses on the roof-specific scope: structural assessment, framing repair or rebuild, sheathing installation, and complete roofing system installation. We coordinate with the general contractor on sequencing, ensuring the roof is weathertight before interior restoration begins.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Will my Bloomfield roof be rebuilt to current code after fire damage?',
       answer: 'Yes. Fire damage reconstruction triggers current building code compliance for the rebuilt portions. This includes current energy code insulation requirements, ice-and-water shield at eaves and valleys, proper ventilation standards, and structural wind and snow load requirements. If your policy includes code upgrade coverage, the additional cost of bringing the rebuilt sections to current code is covered by insurance.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most fire damage roof replacement projects in Bloomfield range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Bloomfield NJ -- structural assessment, framing rebuild, and complete re-roofing after residential fire damage.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

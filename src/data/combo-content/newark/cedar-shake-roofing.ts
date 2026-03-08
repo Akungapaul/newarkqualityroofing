@@ -4,7 +4,7 @@ export const newarkCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'newark',
   overview: [
-    'Cedar shake roofing represents the premium tier of natural wood roofing available to Newark homeowners who value authentic craftsmanship over mass-produced uniformity. While the wood-shake-roofing category addresses wood roofing broadly, cedar shakes occupy a specific niche defined by the western red cedar species -- a wood prized for its natural resistance to decay, insect damage, and moisture absorption. In Newark, cedar shake installations concentrate in the established residential enclaves of upper Forest Hill and the tree-lined blocks of Roseville where mature landscaping and period architecture create the setting this material deserves.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Newark — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing represents the premium tier of natural wood roofing available to Newark homeowners who value authentic craftsmanship over mass-produced uniformity. While the wood-shake-roofing category addresses wood roofing broadly, cedar shakes occupy a specific niche defined by the western red cedar species -- a wood prized for its natural resistance to decay, insect damage, and moisture absorption. In Newark, cedar shake installations concentrate in the established residential enclaves of upper Forest Hill and the tree-lined blocks of Roseville where mature landscaping and period architecture create the setting this material deserves.',
     'The distinction between cedar shakes and cedar shingles matters in Newark specifications. Shakes are split from cedar bolts along the natural grain, producing a thick, textured surface with rustic dimensional variation. Shingles are sawn smooth on both faces, yielding a uniform, tailored appearance. Newark projects in historic neighborhoods often specify hand-split and resawn shakes that combine the textured face of a split shake with the uniform thickness of a sawn product, providing both visual character and reliable coursing for weather protection.',
     'Fire treatment technology has made cedar shakes viable in Newark urban density where untreated wood roofing cannot meet code. Pressure-impregnated fire retardant penetrates the full cross-section of each shake, achieving Class A fire ratings that satisfy Newark building department requirements for attached and closely spaced structures. The treatment does not significantly alter the cedar color or grain character, though it may reduce the rate at which the wood weathers to the silver-gray patina that many homeowners associate with aged cedar.',
     'Property owners considering cedar shakes for Newark commercial applications -- primarily restaurants, boutique hotels, and specialty retail -- should understand that the material demands a maintenance commitment that commercial tenants may not prioritize. We recommend cedar shakes for owner-occupied commercial properties where the decision-maker directly benefits from the aesthetic and directly controls the maintenance schedule.',
@@ -36,6 +36,24 @@ export const newarkCedarShakeRoofing: ComboContent = {
       question: 'Can cedar shakes be installed on my Newark row house or attached home?',
       answer: 'Yes, provided the shakes carry a Class A fire rating achieved through pressure-impregnated fire retardant treatment. Newark building code requires this fire classification for attached dwellings and buildings within specified proximity to adjacent structures. We only install fire-rated cedar products on attached Newark homes and provide the fire classification documentation required for the building permit.',
     },
+    {
+      question: 'How much does cedar shake roofing cost in Newark, NJ?',
+      answer: 'Most cedar shake roofing projects in Newark range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Newark NJ. Premium western red cedar with Class A fire treatment for Forest Hill and Roseville homes. Insurance coordination included.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

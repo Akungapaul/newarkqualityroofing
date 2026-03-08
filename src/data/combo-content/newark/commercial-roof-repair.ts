@@ -4,7 +4,7 @@ export const newarkCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'newark',
   overview: [
-    'Commercial roof repair in Newark operates on a fundamentally different timeline and stakeholder dynamic than residential work. When a leak develops in a multi-tenant retail building on Ferry Street or a warehouse along Doremus Avenue, the property manager faces simultaneous pressure from tenants demanding immediate resolution, insurance carriers requiring documented loss mitigation, and ownership expecting cost control on a capital asset. Our commercial repair practice is built around this multi-stakeholder reality -- responding rapidly to contain active water entry, diagnosing the root cause rather than just the visible symptom, and executing permanent repairs that satisfy warranty requirements, insurance documentation standards, and tenant expectations.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Newark — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Newark operates on a fundamentally different timeline and stakeholder dynamic than residential work. When a leak develops in a multi-tenant retail building on Ferry Street or a warehouse along Doremus Avenue, the property manager faces simultaneous pressure from tenants demanding immediate resolution, insurance carriers requiring documented loss mitigation, and ownership expecting cost control on a capital asset. Our commercial repair practice is built around this multi-stakeholder reality -- responding rapidly to contain active water entry, diagnosing the root cause rather than just the visible symptom, and executing permanent repairs that satisfy warranty requirements, insurance documentation standards, and tenant expectations.',
     'The commercial building stock in Newark generates repair demand across distinct failure patterns. Downtown office buildings with aging BUR (built-up roofing) systems develop alligatoring and blister failures that admit water through the membrane surface itself. Ironbound warehouse and industrial buildings experience flashing failures where rooftop equipment curbs have settled or where parapet cap metal has corroded through. Multi-story parking garages along McCarter Highway and Raymond Boulevard develop membrane failures at expansion joints and traffic-bearing surfaces. Each failure pattern requires different diagnostic methods, different repair materials, and different quality assurance protocols.',
     'Emergency leak response is the entry point for most commercial repair relationships in Newark. A property manager discovers water staining on ceiling tiles, a tenant reports dripping onto inventory, or a facility engineer notices standing water in an area that was previously dry. The urgency is real -- active leaks in occupied commercial space create liability exposure, inventory damage, and tenant satisfaction erosion that cost far more than the repair itself. Our emergency protocol prioritizes containment within hours, followed by root cause investigation within forty-eight hours, and permanent repair execution within the following two weeks depending on material procurement and weather conditions.',
     'Warranty preservation adds a layer of complexity to commercial roof repair in Newark that residential work rarely encounters. Many commercial roofs carry manufacturer NDL (No Dollar Limit) warranties that cover repair costs for fifteen to thirty years -- but only if repairs are performed by certified contractors using manufacturer-approved materials and methods. A well-intentioned but non-certified repair can void the entire warranty, leaving the property owner exposed to hundreds of thousands of dollars in future liability. We maintain active certifications with major commercial roofing manufacturers specifically to preserve these warranty protections for Newark building owners during repair work.'
@@ -40,7 +40,25 @@ export const newarkCommercialRoofRepair: ComboContent = {
     {
       question: 'What is the typical cost range for commercial roof repair in Newark?',
       answer: 'Commercial roof repair costs in Newark vary widely based on failure type, accessibility, and repair scope. Simple membrane patches and flashing re-seals typically range from five hundred to two thousand dollars per location. Multi-point repairs addressing systemic issues like failed perimeter flashing or deteriorated drain assemblies range from five thousand to fifteen thousand dollars. Major repairs involving insulation replacement in water-damaged areas can reach twenty to forty thousand dollars. We provide itemized proposals that distinguish between the diagnostic investigation cost and the repair execution cost, so the property owner understands the investment at each decision point.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Newark, NJ?',
+      answer: 'Most commercial roof repair projects in Newark range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Newark NJ. Emergency leak response, warranty-certified repairs, and systematic diagnostics for multi-tenant commercial buildings.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

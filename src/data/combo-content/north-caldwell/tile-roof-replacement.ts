@@ -4,7 +4,7 @@ export const northCaldwellTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Tile roof replacement on North Caldwell estates restores the Mediterranean, Spanish Colonial, and European-inspired homes where clay or concrete tile defines the architectural identity. When the existing tile has reached its service life or the underlayment beneath requires replacement, the project involves carefully removing the tile field, restoring the substrate, and reinstalling either salvaged original tiles or new material matched to the home\'s design character.',
+    'Newark Quality Roofing delivers expert tile roof replacement in North Caldwell — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement on North Caldwell estates restores the Mediterranean, Spanish Colonial, and European-inspired homes where clay or concrete tile defines the architectural identity. When the existing tile has reached its service life or the underlayment beneath requires replacement, the project involves carefully removing the tile field, restoring the substrate, and reinstalling either salvaged original tiles or new material matched to the home\'s design character.',
     'Our [tile roof replacement](/tile-roof-replacement) work on North Caldwell properties recognizes that the tiles themselves may be sound even when the underlayment beneath them has failed. Clay tiles with a 75-to-100-year lifespan frequently outlast the 30-to-40-year underlayment installed beneath them. In these cases, we carefully remove and store the existing tiles, replace the underlayment and battens, and reinstall the original tiles over the upgraded substrate. This approach preserves the original material and its authentic weathered appearance at lower cost than sourcing new matching tile.',
     'When new tile is required, we source products from manufacturers that match the profile, color, and texture of the existing installation. For discontinued profiles, we work with specialty suppliers who stock rare tile formats or can fabricate custom profiles. The goal on every [North Caldwell](/roofing-in-north-caldwell-nj) tile replacement is seamless material continuity that preserves the architectural character the homeowner chose tile roofing to achieve. Homeowners in [Essex Fells](/tile-roof-replacement-essex-fells-nj) pursue similar tile restoration and replacement on their estate properties.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellTileRoofReplacement: ComboContent = {
     {
       question: 'Does tile replacement require structural reinforcement on my North Caldwell home?',
       answer: 'If the home was originally built for tile roofing, the framing was designed for the load and typically does not require reinforcement for replacement with the same material. If you are transitioning from a lighter material to tile, structural assessment and likely reinforcement are necessary. Even for like-for-like replacement, we verify structural condition during the project since decades of service may have affected the framing capacity.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most tile roof replacement projects in North Caldwell range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in North Caldwell NJ -- clay and concrete tile restoration for estate homes with original tile salvage and matching.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

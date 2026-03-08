@@ -4,7 +4,7 @@ export const millburnBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'millburn',
   overview: [
-    'Built-up roofing in Millburn maintains a presence on the township\'s older commercial buildings, institutional properties, and certain estate structures where the original multi-layer asphalt-and-felt system installed decades ago continues performing beneath its gravel ballast. The office buildings along Millburn Avenue constructed during the mid-twentieth century commercial expansion, the original sections of institutional facilities, and flat-roof additions on pre-war estates may still carry BUR systems that have delivered forty or fifty years of reliable service -- a testament to the material system\'s inherent redundancy when properly installed and maintained.',
+    'Newark Quality Roofing delivers expert built up roofing in Millburn — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing in Millburn maintains a presence on the township\'s older commercial buildings, institutional properties, and certain estate structures where the original multi-layer asphalt-and-felt system installed decades ago continues performing beneath its gravel ballast. The office buildings along Millburn Avenue constructed during the mid-twentieth century commercial expansion, the original sections of institutional facilities, and flat-roof additions on pre-war estates may still carry BUR systems that have delivered forty or fifty years of reliable service -- a testament to the material system\'s inherent redundancy when properly installed and maintained.',
     'New BUR installations in Millburn are less common than they were in previous decades, but the system retains specific advantages that make it the appropriate specification for certain applications. Properties requiring maximum puncture resistance for heavy rooftop equipment, buildings where gravel ballast provides acoustic dampening valued by tenants, and re-roofing projects where the existing BUR can serve as the substrate for additional layers all present scenarios where our [built-up roofing](/built-up-roofing) expertise serves Millburn property owners with a system that contemporary single-ply alternatives do not replicate in every performance dimension.',
     'Maintenance and repair of existing BUR systems on Millburn buildings demands specialized knowledge that fewer contractors possess as the industry shifts toward single-ply membrane dominance. Locating leaks beneath gravel ballast, cutting and patching deteriorated plies without compromising adjacent sound material, and re-establishing proper gravel coverage after repair work are skills that require training and experience specific to built-up roofing. Our crews maintain these capabilities specifically for Millburn and Essex County properties where BUR systems continue operating and where replacement with single-ply alternatives may not be warranted until the existing system reaches the end of its serviceable life.'
   ],
@@ -34,7 +34,25 @@ export const millburnBuiltUpRoofing: ComboContent = {
     {
       question: 'What is the lifespan of a new BUR installation?',
       answer: 'A properly installed three-to-five-ply BUR system with quality materials achieves twenty-five to forty years of service depending on maintenance, traffic levels, and environmental exposure. The gravel surfacing protects the underlying bitumen from UV degradation, and the redundant plies provide continued waterproofing even if individual layers develop localized failures. Annual maintenance inspections that address gravel displacement, flood-coat cracking, and flashing deterioration maximize the system\'s functional lifespan.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Millburn, NJ?',
+      answer: 'Most built up roofing projects in Millburn range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing services for Millburn commercial and institutional buildings. BUR repair, maintenance, and multi-ply replacement with gravel or smooth.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

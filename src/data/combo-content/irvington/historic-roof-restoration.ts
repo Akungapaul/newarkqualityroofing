@@ -4,7 +4,7 @@ export const irvingtonHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'irvington',
   overview: [
-    'Historic roof restoration in Irvington preserves the architectural character of a township whose housing stock -- built predominantly during the prosperous 1920s and 1930s -- contains architectural details and roofing features that mass-produced modern materials cannot replicate. Our [historic roof restoration](/historic-roof-restoration) services focus on Irvington homes where original Tudor half-timbering, Colonial Revival dormers, and craftsman-era roofing details define the property\'s architectural identity and contribute to the neighborhood\'s historic character.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Irvington — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Irvington preserves the architectural character of a township whose housing stock -- built predominantly during the prosperous 1920s and 1930s -- contains architectural details and roofing features that mass-produced modern materials cannot replicate. Our [historic roof restoration](/historic-roof-restoration) services focus on Irvington homes where original Tudor half-timbering, Colonial Revival dormers, and craftsman-era roofing details define the property\'s architectural identity and contribute to the neighborhood\'s historic character.',
     'Olympic Park\'s established residential streets contain some of Irvington\'s finest surviving pre-war architecture. Colonials on Nestor Terrace, Tudor-influenced homes along Myrtle Avenue, and the occasional slate-roofed property on older blocks represent a built heritage worth preserving through authentic restoration rather than modernizing replacement. Our restoration approach retains original details wherever they remain structurally viable and replicates them with period-appropriate materials when replacement is necessary -- maintaining the architectural continuity that gives these neighborhoods their distinctive character.',
     'Religious buildings throughout Irvington present historic restoration challenges at institutional scale. Churches and temples built in the 1920s and 1930s feature steep-pitched sanctuary roofs with slate or decorative shingle surfaces, copper flashings with verdigris patina, and ornamental ridge caps and finials that define the building\'s architectural presence in the community. Restoring these features requires specialized skills and materials that general commercial roofing contractors cannot provide. Historic restoration projects in [Montclair](/historic-roof-restoration-montclair-nj) involve similar period-architecture expertise, though Irvington\'s institutional restoration work focuses more on faithful preservation within community budgets than on the premium residential restoration that Montclair\'s historic district demands.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonHistoricRoofRestoration: ComboContent = {
       question: 'Do you restore historic church roofs in Irvington?',
       answer: 'Yes. We have restored roofs on several Irvington churches and temples, addressing both the steep-pitched sanctuary sections with period-appropriate materials and the flat-roofed additions with modern membrane systems. We coordinate restoration work around worship schedules and community events, and we work within the budget parameters that congregation funding requires.',
     },
+    {
+      question: 'How much does historic roof restoration cost in Irvington, NJ?',
+      answer: 'Most historic roof restoration projects in Irvington range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Irvington NJ for pre-war colonials, Tudors, and religious buildings. Period-appropriate materials and craftsmanship.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

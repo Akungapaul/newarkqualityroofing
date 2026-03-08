@@ -4,7 +4,7 @@ export const irvingtonFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'irvington',
   overview: [
-    'Full roof tear-off is the standard specification on every Irvington re-roofing project we undertake, driven by the township\'s aging housing stock where existing roofing materials conceal deck deterioration, moisture damage, and structural compromise that overlay installations leave unaddressed. Our [full tear-off](/full-roof-tear-off) approach removes all existing roofing materials down to the bare deck, allowing complete inspection and repair of the substrate before new materials are installed -- the only method that ensures a lasting result on Irvington\'s 80 to 90-year-old homes.',
+    'Newark Quality Roofing delivers expert full roof tear off in Irvington — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off is the standard specification on every Irvington re-roofing project we undertake, driven by the township\'s aging housing stock where existing roofing materials conceal deck deterioration, moisture damage, and structural compromise that overlay installations leave unaddressed. Our [full tear-off](/full-roof-tear-off) approach removes all existing roofing materials down to the bare deck, allowing complete inspection and repair of the substrate before new materials are installed -- the only method that ensures a lasting result on Irvington\'s 80 to 90-year-old homes.',
     'The case against overlay on Irvington homes is built on thousands of project observations. When we tear off an existing roof on an Olympic Park colonial or a Chancellor Avenue multi-family, we discover deck problems on a majority of these projects -- problems that an overlay would have buried. Softened plank boards, rotted plywood patches from previous repairs, rusted nail penetrations, and moisture-damaged areas around chimney bases and valleys are standard findings. Installing new shingles over these conditions wastes the roofing investment because the substrate cannot hold nails or provide the flat surface that shingles need to seal and perform.',
     'Irvington\'s investment property market requires full tear-off as a best practice for rental property upgrades. Banks and insurance companies reviewing investment property improvements scrutinize roofing scope -- an overlay installation may not satisfy lender requirements for capital improvement documentation, and insurance underwriters may apply coverage limitations on roofs with multiple layers. Full tear-off produces the documentation and warranty coverage that Irvington landlords need. Neighboring [East Orange](/full-roof-tear-off-east-orange-nj) investment property renovations follow the same full tear-off standard for identical documentation and performance reasons.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonFullRoofTearOff: ComboContent = {
       question: 'Will tear-off damage my Irvington property?',
       answer: 'We protect landscaping with tarps, cover siding with fabric barriers, and use magnetic nail sweepers at the perimeter to collect fallen fasteners. Our debris management protocol includes daily cleanup and a final property sweep after project completion. We repair any incidental damage caused by our equipment or crew -- a standard part of our Irvington project commitment.',
     },
+    {
+      question: 'How much does full roof tear off cost in Irvington, NJ?',
+      answer: 'Most full roof tear off projects in Irvington range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Irvington NJ exposing and repairing hidden deck damage on aging homes. The foundation for a roof that lasts 25-30 years.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

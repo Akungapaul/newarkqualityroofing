@@ -4,7 +4,7 @@ export const irvingtonSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'irvington',
   overview: [
-    'Skylight installations and repairs in Irvington address a specific need driven by the township\'s housing density: natural light delivery into interior rooms that compact lot configurations and close neighboring buildings leave in perpetual shadow. Our [skylight installation](/skylight-installation-repair) services across Irvington bring daylight into kitchens, bathrooms, and stairwells on homes where window-based natural light is insufficient due to 25-foot lot widths and minimal side yard separations.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Irvington — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installations and repairs in Irvington address a specific need driven by the township\'s housing density: natural light delivery into interior rooms that compact lot configurations and close neighboring buildings leave in perpetual shadow. Our [skylight installation](/skylight-installation-repair) services across Irvington bring daylight into kitchens, bathrooms, and stairwells on homes where window-based natural light is insufficient due to 25-foot lot widths and minimal side yard separations.',
     'Skylight repair on existing Irvington installations has become a growing service category as the skylights installed during 1990s-era renovations reach the end of their seal and glazing life. Fogged dual-pane glass, cracked acrylic domes, and deteriorated frame seals produce condensation, leaking, and heat loss that homeowners initially attribute to roof problems rather than skylight failure. Our diagnostic protocol for Irvington skylight leak calls distinguishes between flashing failure around the skylight curb and glazing seal failure within the skylight unit itself -- the two problems require fundamentally different solutions.',
     'Tubular skylights have gained particular traction in Irvington\'s interior renovation market. These compact units deliver daylight through a reflective tube that routes light from the roof surface to interior rooms without the structural opening that conventional skylights require. For Irvington bathrooms and hallways where cutting a conventional skylight opening would compromise framing integrity, tubular skylights provide a minimally-invasive alternative. Homeowners renovating properties in neighboring [South Orange](/skylight-installation-repair-south-orange-nj) also specify tubular units, though Irvington\'s more compact housing stock makes the space-saving advantages even more pronounced.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonSkylightInstallationRepair: ComboContent = {
       question: 'Do skylights leak more than regular roof surfaces in Irvington?',
       answer: 'Properly installed skylights with correct flashing, insulated curbs, and ice-and-water shield protection should not leak. Skylight leaks almost always trace to installation deficiencies -- inadequate flashing, missing ice-and-water shield, or uninsulated curbs that promote ice dam formation. Our installation protocol addresses all three failure points to deliver skylights that perform as reliably as the surrounding roof surface.',
     },
+    {
+      question: 'How much does skylight installation repair cost in Irvington, NJ?',
+      answer: 'Most skylight installation repair projects in Irvington range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Irvington NJ for compact homes needing natural light. VELUX certified with proper framing and ice dam prevention.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

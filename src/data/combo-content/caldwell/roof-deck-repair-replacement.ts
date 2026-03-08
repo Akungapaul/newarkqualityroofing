@@ -4,7 +4,7 @@ export const caldwellRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'caldwell',
   overview: [
-    'Roof deck repair and replacement addresses the structural substrate beneath the visible roofing surface -- the plywood or OSB sheathing panels that span between rafters and provide the nailing surface for shingles, the load-bearing platform for membrane roofing systems, and the structural diaphragm that ties the roof frame together against wind and seismic forces. When Caldwell roof decks deteriorate from moisture damage, the entire roofing system above loses its structural foundation, and replacement of the affected decking is not optional -- it is the prerequisite for any functional roof installation.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Caldwell — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement addresses the structural substrate beneath the visible roofing surface -- the plywood or OSB sheathing panels that span between rafters and provide the nailing surface for shingles, the load-bearing platform for membrane roofing systems, and the structural diaphragm that ties the roof frame together against wind and seismic forces. When Caldwell roof decks deteriorate from moisture damage, the entire roofing system above loses its structural foundation, and replacement of the affected decking is not optional -- it is the prerequisite for any functional roof installation.',
     'Deck deterioration on [Caldwell](/roofing-in-caldwell-nj) homes typically concentrates at the locations where water intrusion has persisted: behind chimneys where flashing has failed, in valleys where debris accumulation promoted moisture retention, at eave lines where ice dams forced water beneath shingles, and around skylights or plumbing vent penetrations where sealant joints deteriorated. The canopy-shaded environment of many Caldwell neighborhoods slows evaporation from these wet areas, extending the moisture contact time that drives wood decay. By the time a [roof replacement](/roof-replacement-caldwell-nj) reveals deck damage, the deterioration may have progressed through multiple sheathing panels and into the rafter tops below.',
     'Our [roof deck repair](/roof-deck-repair-replacement) approach for Caldwell treats deck replacement as structural work requiring proper material specification, fastening patterns, and integration with existing sound decking. Unlike the bulk sheathing replacement on industrial buildings where speed matters most, Caldwell residential deck repair demands precision -- matching existing plywood thickness, maintaining consistent nail patterns, and ensuring panel edges land on rafter centers for proper structural support. The quality of this hidden structural layer determines the performance and lifespan of everything installed above it.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Can damaged roof decking be repaired or does it always need full replacement?',
       answer: 'Small areas of surface deterioration can sometimes be reinforced with plywood overlays or structural adhesive treatments. However, once deck plywood has lost structural rigidity -- meaning it flexes under foot pressure or cannot hold fasteners -- replacement is the only appropriate solution. Attempting to install new roofing over compromised decking produces a roof system that cannot resist wind uplift, develops surface irregularities as the soft deck compresses, and ultimately fails prematurely. For Caldwell reroof projects, we replace every sheet of decking that does not meet structural standards.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Caldwell, NJ?',
+      answer: 'Most roof deck repair replacement projects in Caldwell range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Caldwell NJ -- plywood sheathing restoration for colonials with rafter sistering and structural verification.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

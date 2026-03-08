@@ -4,7 +4,7 @@ export const roselandTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Tile roofing in Roseland represents a premium material choice that distinguishes a home from the asphalt shingle installations typical of the borough\'s residential streets. Clay and concrete tiles bring Mediterranean, Spanish Colonial, and European architectural influences to properties that benefit from dimensional roofing with 75-year-plus service potential. Our [tile roof installation and repair](/tile-roof-installation-repair) capabilities serve the small but discerning segment of Roseland homeowners who choose tile for its beauty, longevity, and fire resistance -- qualities that justify the investment on custom-built homes and major renovations.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Roseland — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Roseland represents a premium material choice that distinguishes a home from the asphalt shingle installations typical of the borough\'s residential streets. Clay and concrete tiles bring Mediterranean, Spanish Colonial, and European architectural influences to properties that benefit from dimensional roofing with 75-year-plus service potential. Our [tile roof installation and repair](/tile-roof-installation-repair) capabilities serve the small but discerning segment of Roseland homeowners who choose tile for its beauty, longevity, and fire resistance -- qualities that justify the investment on custom-built homes and major renovations.',
     'Roseland\'s housing stock does not feature the concentration of tile roofs found in communities with Mediterranean architectural traditions, but the borough\'s newer custom homes and renovated colonials increasingly incorporate tile as a distinguishing element. The material works particularly well on homes that face Eagle Rock Avenue or sit on corner lots where the dimensional profile creates visual impact from multiple viewing angles. Homeowners in [Essex Fells](/tile-roof-installation-repair-essex-fells-nj) and [North Caldwell](/tile-roof-installation-repair-north-caldwell-nj) share this appreciation for premium roofing materials, and our tile work spans the western Essex County communities where homeowners invest in architectural distinction.',
     'Repair of existing tile roofs requires the ability to source replacement tiles that match the original installation in profile, color, and surface texture. Concrete tiles weather differently from clay, and even tiles from the same manufacturer shift in color between production batches. We maintain an inventory of salvage tiles from previous projects and manufacturer contacts who can locate discontinued profiles, ensuring that Roseland tile roof repairs integrate visually with the surrounding field rather than announcing themselves as patches.'
   ],
@@ -34,7 +34,25 @@ export const roselandTileRoofInstallationRepair: ComboContent = {
     {
       question: 'How long does a tile roof installation take on a Roseland home?',
       answer: 'Tile roof installation typically takes five to eight working days depending on roof complexity and size. Structural reinforcement, if required, adds two to three days prior to roofing work. The longer timeline compared to shingle installation reflects the individual handling of each tile, the precision required for batten layout, and the custom cutting at intersections. Weather sensitivity is lower than shingle work because tiles can be installed in moderate rain, though we avoid installation during freezing conditions that affect mortar setting.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Roseland, NJ?',
+      answer: 'Most tile roof installation repair projects in Roseland range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Roseland NJ -- clay and concrete tiles for custom homes with structural assessment and freeze-rated products.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

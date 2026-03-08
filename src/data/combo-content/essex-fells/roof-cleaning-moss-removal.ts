@@ -4,7 +4,7 @@ export const essexFellsRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'essex-fells',
   overview: [
-    'Roof cleaning and moss removal in Essex Fells operates under constraints that make standard residential cleaning methods completely inappropriate for this community. The borough\'s estate homes carry natural slate, hand-split cedar shake, and copper roofing systems that cannot tolerate the high-pressure washing, harsh chemical treatments, and aggressive scraping techniques that commercial cleaning services apply to commodity shingle roofs. Moss removal from a slate roof requires individual attention to each colonized course, lifting growth without disturbing the slate surface texture or displacing slates from their fastening. Cedar shake cleaning demands gentle solutions that kill biological growth without stripping the natural oils that protect the wood from moisture penetration. These material-specific protocols transform routine cleaning into precision maintenance.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Essex Fells — with prices starting from $300–$800 and free estimates available today. Roof cleaning and moss removal in Essex Fells operates under constraints that make standard residential cleaning methods completely inappropriate for this community. The borough\'s estate homes carry natural slate, hand-split cedar shake, and copper roofing systems that cannot tolerate the high-pressure washing, harsh chemical treatments, and aggressive scraping techniques that commercial cleaning services apply to commodity shingle roofs. Moss removal from a slate roof requires individual attention to each colonized course, lifting growth without disturbing the slate surface texture or displacing slates from their fastening. Cedar shake cleaning demands gentle solutions that kill biological growth without stripping the natural oils that protect the wood from moisture penetration. These material-specific protocols transform routine cleaning into precision maintenance.',
     'Essex Fells\' dense mature canopy creates the ideal biological growth environment on every north-facing, east-facing, and canopy-shaded roof surface in the borough. Perpetual shade, consistent moisture from trapped leaf debris, and the organic nutrients that decomposing leaves provide combine to establish moss, lichen, and algae colonies that advance across roof surfaces at rates far exceeding sun-exposed roofs in more open communities. Properties along the borough\'s most wooded lanes -- Winding Way, Oak Lane, and the interior sections of Devon Road -- may develop visible moss colonization within two to three years of cleaning, requiring ongoing treatment rather than one-time remediation.',
     'The multi-structure nature of Essex Fells properties means that moss and biological growth affect every building on the estate, not just the main residence. Guest cottages, carriage houses, and pool pavilions surrounded by woodland canopy often develop heavier biological growth than the main house due to their proximity to tree lines and lower roof elevations where moisture lingers longer. Our cleaning programs treat every structure on the property, preventing the scenario where a pristine main residence sits alongside green-carpeted outbuildings.',
     'Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) approach for Essex Fells draws on the same premium material expertise we apply to estate properties in [Millburn](/roof-cleaning-moss-removal-millburn-nj) and throughout the wooded communities of western Essex County.'
@@ -35,7 +35,25 @@ export const essexFellsRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'Can you treat just the main residence or do all structures need cleaning?',
       answer: 'We can treat individual structures, but moss spores from untreated buildings re-colonize cleaned surfaces rapidly. Treating the main residence while leaving the carriage house and guest cottage covered in moss creates a continuous spore source that shortens the cleaning interval on the main house. Full-property treatment is more cost-effective over time and produces the uniform estate appearance that Essex Fells homeowners expect.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Essex Fells, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Essex Fells range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in Essex Fells NJ -- gentle slate and cedar shake treatment for estate properties in heavy canopy conditions.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

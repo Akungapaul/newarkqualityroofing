@@ -4,7 +4,7 @@ export const bloomfieldSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'bloomfield',
   overview: [
-    'Spray polyurethane foam roofing combines waterproofing and insulation into a single monolithic application that addresses two problems simultaneously on Bloomfield\'s commercial buildings -- aging membranes that leak and inadequate insulation that drives heating and cooling costs. For building owners along Bloomfield Avenue facing both a membrane replacement and an energy code compliance issue, SPF delivers both solutions in one application at a combined cost that is often less than addressing each problem separately with conventional materials.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Bloomfield — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing combines waterproofing and insulation into a single monolithic application that addresses two problems simultaneously on Bloomfield\'s commercial buildings -- aging membranes that leak and inadequate insulation that drives heating and cooling costs. For building owners along Bloomfield Avenue facing both a membrane replacement and an energy code compliance issue, SPF delivers both solutions in one application at a combined cost that is often less than addressing each problem separately with conventional materials.',
     'Bloomfield\'s commercial building stock includes hundreds of flat-roofed structures built before modern energy codes required meaningful roof insulation. A 1960s-era Bloomfield Avenue retail building or a GSP-corridor warehouse with a single layer of half-inch fiberboard insulation beneath aging built-up roofing loses heat through the roof assembly at a rate that modern energy codes would not permit in new construction. Spray foam applied over the existing roof surface at two to three inches of thickness adds R-12 to R-18 of continuous insulation without the joints and gaps that rigid board insulation systems inevitably create. The energy savings on a poorly insulated [Bloomfield](/roofing-in-bloomfield-nj) commercial building can offset a meaningful portion of the SPF installation cost within five to seven years.',
     'The self-adhering, seamless nature of spray foam makes it particularly well suited for Bloomfield commercial roofs with complex geometry. Buildings with numerous rooftop HVAC units, exhaust penetrations, duct runs, and equipment curbs require membrane detailing at every interruption -- each one a potential leak point. SPF conforms to every penetration, curb, and irregular surface as it is sprayed, creating continuous waterproofing that wraps around obstacles rather than terminating at them. On Bloomfield\'s equipment-dense commercial rooftops, this conforming application eliminates the detailed flashing work that represents the most labor-intensive and failure-prone aspect of conventional membrane installation.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldSprayFoamRoofing: ComboContent = {
     {
       question: 'Is spray foam roofing noisy during installation in Bloomfield?',
       answer: 'The spray application equipment generates moderate noise comparable to a commercial paint sprayer, but the process is faster than conventional membrane installation, so the noise duration is shorter. A typical Bloomfield commercial building can be foamed in one to two days. The coating application on the following day is quieter still. The primary nuisance concern is overspray, not noise -- we install containment barriers to prevent windborne foam particles from depositing on adjacent vehicles and buildings.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Bloomfield, NJ?',
+      answer: 'Most spray foam roofing projects in Bloomfield range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Bloomfield NJ -- seamless SPF insulation and waterproofing for commercial flat roofs along Bloomfield Avenue and the GSP corridor.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

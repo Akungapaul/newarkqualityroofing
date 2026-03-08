@@ -4,7 +4,7 @@ export const westOrangeInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'west-orange',
   overview: [
-    'Infrared roof leak detection pinpoints the exact entry points of water infiltration on West Orange commercial buildings, eliminating the destructive exploratory cuts and trial-and-error patching that conventional leak diagnosis often requires. Our [infrared roof leak detection](/infrared-roof-leak-detection) service uses calibrated thermal cameras to trace moisture pathways from interior ceiling damage back to the specific membrane failure responsible, enabling targeted repairs that solve the problem in one visit.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in West Orange — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection pinpoints the exact entry points of water infiltration on West Orange commercial buildings, eliminating the destructive exploratory cuts and trial-and-error patching that conventional leak diagnosis often requires. Our [infrared roof leak detection](/infrared-roof-leak-detection) service uses calibrated thermal cameras to trace moisture pathways from interior ceiling damage back to the specific membrane failure responsible, enabling targeted repairs that solve the problem in one visit.',
     'Commercial buildings in West Orange frequently present leak diagnostic challenges because water enters through membrane failures far from the visible interior damage. Water migrating along deck flutes, through insulation joints, and across vapor barriers can travel 20 to 30 feet from entry point to ceiling stain. Infrared detection reveals the moisture trail between these locations, mapping the full infiltration pathway rather than guessing at the entry point based on the damage location alone.',
     'Valley-floor commercial buildings along Pleasant Valley Way experience leak patterns driven by ponding water that degrades membrane at consistent low-point locations. Infrared scanning identifies the saturated insulation zones beneath ponding areas before they develop into active leaks, allowing preventive repair of deteriorating membrane before water reaches the building interior. This proactive detection saves [West Orange](/roofing-in-west-orange-nj) building owners the business disruption and repair costs of emergency leak response.',
     'Ridge-top commercial buildings along Eagle Rock Avenue develop wind-driven leak pathways at membrane perimeter details, edge metal connections, and equipment curb flashings where sustained wind pressure forces water through gaps that gravity drainage would never reach. Infrared scanning after wind events reveals moisture infiltration at these wind-vulnerable locations, identifying the specific details requiring enhanced flashing rather than the general membrane-condition assessment that visual inspection provides. Building owners near [Verona](/infrared-roof-leak-detection-verona-nj) benefit from similar wind-pattern leak diagnosis on their own ridge-adjacent commercial properties.'
@@ -35,7 +35,25 @@ export const westOrangeInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'Do I need to fix the roof immediately after an infrared scan reveals moisture?',
       answer: 'Not necessarily. Infrared scan results prioritize areas by severity: active leak sources require prompt repair to prevent ongoing interior damage, while chronic moisture zones in stable condition can be scheduled for repair during the next maintenance cycle or addressed during planned re-roofing. The scan report provides prioritized recommendations with recommended timelines for each identified issue, allowing you to plan repairs based on urgency and budget availability.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in West Orange, NJ?',
+      answer: 'Most infrared roof leak detection projects in West Orange range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in West Orange NJ. Thermal imaging to pinpoint hidden leaks on commercial buildings without destructive testing.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

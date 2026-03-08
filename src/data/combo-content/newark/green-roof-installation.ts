@@ -4,7 +4,7 @@ export const newarkGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'newark',
   overview: [
-    'Newark stands at the forefront of New Jersey\'s green building movement, and green roof installation on the city\'s commercial buildings represents one of the most impactful investments a property owner can make in both building performance and urban environmental quality. The city\'s dense development pattern -- concrete, asphalt, and dark rooftops absorbing solar radiation across square miles of urban surface -- creates a heat island effect that elevates summer temperatures 5 to 8 degrees above surrounding suburban areas. Green roofs attack this problem directly, replacing heat-absorbing surfaces with living vegetation that cools through evapotranspiration and insulates through soil mass. Every green roof installed on a Newark commercial building contributes to a measurable reduction in the city\'s ambient temperature.',
+    'Newark Quality Roofing delivers expert green roof installation in Newark — with prices starting from $15–$35/sq ft and free estimates available today. Newark stands at the forefront of New Jersey\'s green building movement, and green roof installation on the city\'s commercial buildings represents one of the most impactful investments a property owner can make in both building performance and urban environmental quality. The city\'s dense development pattern -- concrete, asphalt, and dark rooftops absorbing solar radiation across square miles of urban surface -- creates a heat island effect that elevates summer temperatures 5 to 8 degrees above surrounding suburban areas. Green roofs attack this problem directly, replacing heat-absorbing surfaces with living vegetation that cools through evapotranspiration and insulates through soil mass. Every green roof installed on a Newark commercial building contributes to a measurable reduction in the city\'s ambient temperature.',
     'Stormwater management is where green roofs deliver their most quantifiable benefit for Newark building owners. Newark\'s combined sewer system -- which carries both sewage and stormwater in the same pipes -- overflows into the Passaic River during heavy rainfall events, triggering regulatory penalties and environmental damage. The New Jersey Department of Environmental Protection actively encourages green roof installation as a stormwater best management practice, and Newark\'s municipal stormwater regulations increasingly require on-site retention for new construction and major renovations. A properly designed green roof retains 50 to 80 percent of annual rainfall on site, dramatically reducing the volume of stormwater that enters Newark\'s overtaxed sewer system.',
     'The financial incentive landscape for green roofs on Newark commercial buildings has matured significantly. New Jersey\'s Clean Energy Program offers incentives for green building features including vegetated roofs. Property tax abatement programs in Newark\'s redevelopment zones can offset installation costs for qualifying projects. Additionally, green roof installation contributes LEED points toward building certification, which commands rent premiums in Newark\'s competitive commercial real estate market -- tenants at Gateway Center and the emerging Mulberry Commons district increasingly require sustainability certifications from their landlords. The combination of direct incentives, tax benefits, and rent premiums can recover 30 to 50 percent of green roof installation costs over the first decade.',
     'Two system types serve Newark\'s commercial green roof market. Extensive systems -- featuring 3 to 6 inches of engineered growing medium and drought-tolerant sedums -- add minimal structural load and require little maintenance, making them suitable for existing Newark buildings with adequate but not exceptional structural capacity. Intensive systems -- with deeper soil profiles supporting grasses, perennials, shrubs, and even trees -- create usable amenity spaces on rooftops but require structural capacity comparable to an occupied floor. The choice between systems depends on the building\'s structural assessment, the owner\'s objectives, and whether the green roof will be purely functional or serve as accessible tenant amenity space.'
@@ -35,7 +35,25 @@ export const newarkGreenRoofInstallation: ComboContent = {
     {
       question: 'How does a green roof affect our building\'s energy performance in Newark?',
       answer: 'Green roofs reduce cooling energy consumption by 10 to 30 percent on the top floor of a Newark commercial building during summer months, depending on system depth and plant coverage. The growing medium provides insulation value equivalent to R-5 to R-15 depending on depth and moisture content, and evapotranspiration from the vegetation actively cools the roof surface well below the temperatures that conventional roofs reach in Newark\'s summer heat. Winter energy savings are more modest but measurable, as the growing medium adds thermal mass that buffers heat loss. The combined annual energy savings, while meaningful, are typically secondary to the stormwater management and environmental benefits in the overall value proposition for Newark building owners.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Newark, NJ?',
+      answer: 'Most green roof installation projects in Newark range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation for Newark NJ commercial buildings -- stormwater management, heat island reduction, and sustainability incentives for urban properties.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

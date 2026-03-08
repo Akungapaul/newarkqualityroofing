@@ -4,7 +4,7 @@ export const bloomfieldEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'bloomfield',
   overview: [
-    'EPDM rubber membrane roofing has been a workhorse material on Bloomfield\'s commercial buildings since the mid-1980s, and for sound economic reasons. The flat-roofed storefronts lining Bloomfield Avenue, the office buildings near Broad Street, and the light industrial properties along the Garden State Parkway corridor all share a common trait: building owners who evaluate roofing as a cost-per-year-of-service calculation rather than an architectural statement. EPDM delivers strong numbers in that calculation -- installed costs that undercut most competing single-ply systems combined with a thirty-year-plus track record of proven performance on buildings throughout northern New Jersey.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Bloomfield — with prices starting from $6–$11/sq ft and free estimates available today. EPDM rubber membrane roofing has been a workhorse material on Bloomfield\'s commercial buildings since the mid-1980s, and for sound economic reasons. The flat-roofed storefronts lining Bloomfield Avenue, the office buildings near Broad Street, and the light industrial properties along the Garden State Parkway corridor all share a common trait: building owners who evaluate roofing as a cost-per-year-of-service calculation rather than an architectural statement. EPDM delivers strong numbers in that calculation -- installed costs that undercut most competing single-ply systems combined with a thirty-year-plus track record of proven performance on buildings throughout northern New Jersey.',
     'Bloomfield\'s commercial EPDM installations fall into two scale ranges that demand different approaches. The Bloomfield Avenue retail corridor contains one- and two-story buildings with two-thousand- to five-thousand-square-foot roof areas where EPDM\'s simple installation requirements and forgiving splice tolerances allow efficient completion in two to three days. Larger facilities near the GSP -- distribution centers, contractor shops, and manufacturing buildings with seven-thousand- to twenty-thousand-square-foot footprints -- benefit from EPDM\'s ability to cover broad expanses with fewer seams than any other single-ply membrane, reducing both installation labor and long-term leak risk at seam locations.',
     'Property managers in [Bloomfield](/roofing-in-bloomfield-nj) selecting between EPDM and competing membranes like [TPO](/tpo-roofing-installation-bloomfield-nj) should consider building-specific factors beyond installed cost. EPDM\'s black surface absorbs heat -- an advantage for buildings needing winter heating efficiency but a drawback for heavily air-conditioned spaces. Bloomfield Avenue restaurants and professional offices with substantial cooling loads may find TPO\'s reflective surface reduces operating costs enough to offset its higher installed price. Industrial buildings and warehouses with minimal climate control, however, gain nothing from reflective roofing and benefit from EPDM\'s lower cost and longer field-proven track record.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldEpdmCommercialRoofing: ComboContent = {
     {
       question: 'How much does EPDM roofing cost for a Bloomfield commercial building?',
       answer: 'Installed cost ranges from five-fifty to nine dollars per square foot for a 60-mil EPDM system with code-compliant insulation. A typical three-thousand-to-five-thousand-square-foot Bloomfield Avenue building runs eighteen thousand to forty thousand dollars depending on tear-off requirements, insulation depth, and penetration count. We provide detailed line-item proposals showing material, labor, and disposal costs separately so building owners can compare specifications across competing bids.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Bloomfield, NJ?',
+      answer: 'Most epdm commercial roofing projects in Bloomfield range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Bloomfield NJ -- proven rubber membrane for Bloomfield Avenue retail, GSP-corridor facilities, and value-driven building owners.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

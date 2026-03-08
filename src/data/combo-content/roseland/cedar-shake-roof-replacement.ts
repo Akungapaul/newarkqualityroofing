@@ -4,7 +4,7 @@ export const roselandCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Cedar shake roof replacement in Roseland restores the natural beauty and insulation performance of hand-split cedar on homes where aging shakes have reached the end of their service life. The weathering, curling, splitting, and moss colonization that signal exhausted cedar require replacement with fresh material to restore both weather protection and the distinctive aesthetic that cedar shake homeowners value. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) service manages the complete process from material sourcing through installation and preservative treatment.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Roseland — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Roseland restores the natural beauty and insulation performance of hand-split cedar on homes where aging shakes have reached the end of their service life. The weathering, curling, splitting, and moss colonization that signal exhausted cedar require replacement with fresh material to restore both weather protection and the distinctive aesthetic that cedar shake homeowners value. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) service manages the complete process from material sourcing through installation and preservative treatment.',
     'Replacement decisions for cedar shake roofs involve a fundamental choice: reinstall cedar to maintain the natural wood aesthetic, or transition to a different material that offers lower maintenance requirements. Both paths are valid, and our consultation presents each with honest assessment of cost, maintenance commitment, and visual outcome. Homeowners who love the cedar look and accept the maintenance responsibility invest in fresh cedar knowing what the material demands. Those who prefer reduced maintenance can transition to architectural shingles, composite shake profiles, or metal shingles that approximate cedar\'s appearance.',
     'Fresh cedar shake installation provides measurable advantages beyond aesthetics. Western red cedar\'s natural insulation value -- roughly R-2 per inch -- exceeds any manufactured roofing material. The ventilation system required beneath cedar shakes contributes additional thermal buffer. Combined, these properties reduce heating and cooling energy consumption compared to conventional shingle installations. Property owners in [Millburn](/cedar-shake-roof-replacement-millburn-nj) who invest in cedar shake replacement value this combination of beauty and thermal performance.'
   ],
@@ -34,7 +34,25 @@ export const roselandCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Do you handle the fire treatment certification for insurance?',
       answer: 'Yes, every cedar shake bundle we install carries documented fire-retardant pressure treatment certification. We retain copies of treatment certificates for every project and provide documentation to the homeowner for insurance company verification. The fire-treatment documentation demonstrates compliance with NJ building code requirements and satisfies the fire-rating verification that most insurance carriers require before issuing or renewing policies on cedar shake homes.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Roseland, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Roseland range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Roseland NJ -- fire-treated western red cedar with ventilation system for residential homes.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

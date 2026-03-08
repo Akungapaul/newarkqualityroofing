@@ -4,7 +4,7 @@ export const southOrangeSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Soffit installation and repair in South Orange Village maintains the critical ventilation pathway that prevents moisture accumulation and ice dam formation in the attic spaces of the village\'s pre-war housing stock. The soffits -- panels enclosing the underside of the roof overhang -- contain perforated or vented sections that allow fresh air intake into the attic, balancing the exhaust ventilation at the ridge or roof vents above. When soffits deteriorate, seal shut, or become blocked, the ventilation system fails and moisture problems follow.',
+    'Newark Quality Roofing delivers expert soffit installation repair in South Orange — with prices starting from $1,500–$4,000 and free estimates available today. Soffit installation and repair in South Orange Village maintains the critical ventilation pathway that prevents moisture accumulation and ice dam formation in the attic spaces of the village\'s pre-war housing stock. The soffits -- panels enclosing the underside of the roof overhang -- contain perforated or vented sections that allow fresh air intake into the attic, balancing the exhaust ventilation at the ridge or roof vents above. When soffits deteriorate, seal shut, or become blocked, the ventilation system fails and moisture problems follow.',
     'South Orange\'s older homes present soffit conditions that range from well-maintained to severely deteriorated depending on how past owners managed the ongoing moisture and pest pressures the village environment creates. Tudor Revival homes in Montrose Park carry soffits beneath their dramatic eave overhangs that are among the most visible exterior elements on these properties. Arts and Crafts bungalows along Scotland Road display exposed rafter tails with soffit panels between them -- a design detail where deterioration is immediately noticeable from the street and affects the Craftsman character homeowners value.',
     'Animal intrusion through deteriorated soffits is a persistent concern in South Orange, where the village\'s proximity to South Mountain Reservation brings raccoons, squirrels, and birds into residential neighborhoods seeking shelter. Softened soffit material provides easy entry points into attic spaces where wildlife causes insulation damage, creates fire hazards, and deposits waste that compromises air quality. Prompt soffit repair eliminates these entry points and restores the building envelope integrity that keeps wildlife outside where it belongs.',
     'Our soffit work in [South Orange](/roofing-in-south-orange-nj) coordinates with the broader roofline assembly -- fascia, gutters, drip edge, and ventilation -- to ensure each component supports the others. Replacing soffits without addressing failed fascia or blocked ventilation treats the symptom rather than the system, and our assessment evaluates the complete eave assembly before prescribing the repair scope.'
@@ -35,7 +35,25 @@ export const southOrangeSoffitInstallationRepair: ComboContent = {
     {
       question: 'Can you add soffit ventilation to my South Orange home that currently has none?',
       answer: 'Yes. We retrofit ventilation into existing non-vented soffits by cutting openings and installing vented panels or continuous vent strips. The retrofit requires verifying that the attic space above the soffit area is open to airflow -- insulation or blocking at the top plate may need to be cleared to create the intake pathway. Adding soffit ventilation without corresponding exhaust ventilation at the ridge can actually create moisture problems, so we evaluate and address both intake and exhaust as a balanced system.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in South Orange, NJ?',
+      answer: 'Most soffit installation repair projects in South Orange range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in South Orange NJ -- vented panels and custom profiles for attic ventilation on village homes.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

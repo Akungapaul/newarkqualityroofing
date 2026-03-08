@@ -4,7 +4,7 @@ export const bloomfieldEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'bloomfield',
   overview: [
-    'Emergency roof situations in Bloomfield strike without regard for household budgets or work schedules, and the township\'s aging housing stock makes these crises more common than in newer communities. A nor\'easter peels three-tab shingles off a 1960s Cape Cod in Brookdale, exposing the underlayment to driving rain. A fallen branch punches through the roof deck of a split-level in Watsessing during a summer thunderstorm. An ice dam backs water under the shingles of a colonial near Bloomfield Avenue, saturating the attic insulation and dripping through the bedroom ceiling. These are the calls we receive from Bloomfield homeowners, often in the evening or weekend hours when regular contractors are unavailable.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Bloomfield — with prices starting from $500–$2,500 and free estimates available today. Emergency roof situations in Bloomfield strike without regard for household budgets or work schedules, and the township\'s aging housing stock makes these crises more common than in newer communities. A nor\'easter peels three-tab shingles off a 1960s Cape Cod in Brookdale, exposing the underlayment to driving rain. A fallen branch punches through the roof deck of a split-level in Watsessing during a summer thunderstorm. An ice dam backs water under the shingles of a colonial near Bloomfield Avenue, saturating the attic insulation and dripping through the bedroom ceiling. These are the calls we receive from Bloomfield homeowners, often in the evening or weekend hours when regular contractors are unavailable.',
     'Bloomfield\'s residential density and tree coverage create emergency conditions that differ from both urban Newark and suburban communities further west. The mature trees lining residential streets in Oakcrest, Brookdale, and the North End are beautiful assets most of the year, but during high-wind events they become projectile hazards. Limbs from neighbor\'s trees, township street trees, and backyard hardwoods impact roofs with force sufficient to penetrate asphalt shingles and crack the underlying deck sheathing. Our [emergency roof repair](/emergency-roof-repair) response includes both temporary weatherproofing and coordination with tree service companies for limb removal when branches remain lodged in the roof structure.',
     'Two-family and multi-family properties in Bloomfield Center and along the North End add urgency to emergency situations because water damage threatens both the owner\'s residence and tenant-occupied units. A roof breach in a two-family home can cause water damage to both floors simultaneously, creating habitability issues that trigger tenant complaints and potential code enforcement action. We prioritize multi-family emergency calls in Bloomfield because the exposure -- both financial and legal -- escalates rapidly when rental units are affected. Homeowners in [Nutley](/emergency-roof-repair-nutley-nj) face similar post-war housing stock vulnerabilities during severe weather events.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldEmergencyRoofRepair: ComboContent = {
     {
       question: 'A tree branch hit my Bloomfield roof. Who is responsible for the damage?',
       answer: 'In most cases, your homeowner insurance covers the damage regardless of whether the tree originated from your property or a neighbor\'s. The tree owner is generally liable only if they were previously notified that the tree was dead, dying, or dangerous and failed to act. Our emergency response includes documenting the tree origin, impact location, and damage extent. We coordinate with tree services for limb removal when branches remain on or in the roof structure and can recommend arborists for post-storm tree assessment on your property.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Bloomfield, NJ?',
+      answer: 'Most emergency roof repair projects in Bloomfield range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Bloomfield NJ -- storm damage tarping, fallen tree response, and 24/7 service for Cape Cods, split-levels, and multi-family homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

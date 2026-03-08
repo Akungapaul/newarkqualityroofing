@@ -4,7 +4,7 @@ export const maplewoodMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Metal roof replacement upgrades Maplewood homes to the longest-lasting residential roofing material available, with standing seam and metal panel systems providing 40-50 year service life that outlasts two or three generations of asphalt shingles. Our [metal roof replacement](/metal-roof-replacement) installations in [Maplewood](/roofing-in-maplewood-nj) serve homeowners who value lifecycle cost efficiency, superior wind resistance, and the architectural distinction that metal roofing brings to Colonial, Tudor, and contemporary home styles.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Maplewood — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement upgrades Maplewood homes to the longest-lasting residential roofing material available, with standing seam and metal panel systems providing 40-50 year service life that outlasts two or three generations of asphalt shingles. Our [metal roof replacement](/metal-roof-replacement) installations in [Maplewood](/roofing-in-maplewood-nj) serve homeowners who value lifecycle cost efficiency, superior wind resistance, and the architectural distinction that metal roofing brings to Colonial, Tudor, and contemporary home styles.',
     'Maplewood\'s design-conscious community increasingly appreciates standing seam metal for its clean lines, color versatility, and compatibility with modern energy-efficiency goals. The reflective Kynar 500 finishes available in 30+ colors allow Maplewood homeowners to select profiles that complement their home\'s existing exterior palette, from traditional dark bronze and charcoal on Colonials to slate gray and forest green on Tudors. The concealed-fastener standing seam profile provides a refined appearance that suits the township\'s architectural standards.',
     'For western Maplewood properties exposed to South Mountain Reservation\'s wind channeling and debris impact, metal roofing provides measurable performance advantages over shingle systems. Standing seam metal resists wind uplift at ratings exceeding 110 mph, sheds tree debris without granule damage, and eliminates the moss and algae colonization that degrades shingle roofs in shaded environments. The investment premium over premium shingles is recovered through extended service life and reduced maintenance costs. Homeowners evaluating metal for their properties in [West Orange](/metal-roof-replacement-west-orange-nj) apply the same lifecycle analysis.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodMetalRoofReplacement: ComboContent = {
       question: 'What does metal roof replacement cost in Maplewood?',
       answer: 'Standing seam metal installation on Maplewood homes typically costs $22,000 to $45,000 for standard Colonials and Capes, with complex rooflines and premium color finishes at the upper range. While the initial investment is approximately double the cost of premium shingles, the 40-50 year lifespan and minimal maintenance make metal the lowest lifecycle-cost option over a 30+ year ownership horizon.',
     },
+    {
+      question: 'How much does metal roof replacement cost in Maplewood, NJ?',
+      answer: 'Most metal roof replacement projects in Maplewood range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Maplewood NJ. Standing seam systems with 40-50 year lifespan for Colonials, Tudors, and contemporary homes.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

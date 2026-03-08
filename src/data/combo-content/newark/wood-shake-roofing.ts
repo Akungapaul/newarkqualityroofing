@@ -4,7 +4,7 @@ export const newarkWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'newark',
   overview: [
-    'Wood shake roofing occupies a narrow but distinctive niche in Newark roofing landscape. While far less prevalent than asphalt shingles or flat membrane systems, wood shakes appear on select properties in Forest Hill, upper Roseville, and pockets of the Vailsburg neighborhood where early twentieth century homes were built with cedar or redwood roofing to signal quality craftsmanship. Today, wood shake installations in Newark serve homeowners seeking the natural grain texture and warm aesthetic that no synthetic material convincingly replicates.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Newark — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing occupies a narrow but distinctive niche in Newark roofing landscape. While far less prevalent than asphalt shingles or flat membrane systems, wood shakes appear on select properties in Forest Hill, upper Roseville, and pockets of the Vailsburg neighborhood where early twentieth century homes were built with cedar or redwood roofing to signal quality craftsmanship. Today, wood shake installations in Newark serve homeowners seeking the natural grain texture and warm aesthetic that no synthetic material convincingly replicates.',
     'The urban context of Newark introduces fire safety considerations that suburban wood shake installations rarely face. New Jersey fire codes impose restrictions on combustible roofing materials in areas where building density creates elevated fire spread risk. Newark row house blocks and closely spaced multi-family structures fall squarely within these restrictions, requiring fire-treated wood shakes with a Class A or Class B fire rating. Untreated cedar shake installation is effectively prohibited on attached dwellings and on detached structures within certain proximity thresholds of adjacent buildings. These code requirements narrow the product options and increase material costs compared to rural or suburban wood shake projects.',
     'Insurance implications add another layer of complexity to wood shake roofing decisions in Newark. Several major homeowner insurance carriers impose surcharges or exclusions for wood roofing, particularly in urban settings where fire department response times and hydrant access are factored into risk assessments differently than in suburban territories. We advise Newark homeowners to confirm insurability and premium impact with their carrier before committing to a wood shake installation, as discovering a coverage gap after the roof is installed creates an expensive and stressful reversal.',
     'Commercial applications for wood shakes in Newark are limited to aesthetic accent installations on restaurants, boutique retail spaces, and mixed-use buildings seeking a distinctive street-level appearance. Mansard-style facades and covered entryway structures occasionally feature wood shake cladding in neighborhoods undergoing revitalization, where the natural material contributes to a crafted, non-corporate aesthetic.',
@@ -36,6 +36,24 @@ export const newarkWoodShakeRoofing: ComboContent = {
       question: 'What maintenance does a wood shake roof require in Newark?',
       answer: 'Wood shake roofs in Newark benefit from annual inspection to identify split, curled, or displaced shakes for prompt replacement. Debris removal from valleys and behind dormers prevents moisture retention. Moss and lichen treatment may be needed every three to five years on shaded slopes. Fire retardant treatment reapplication is required per manufacturer schedule, typically every five to ten years, to maintain the fire rating that Newark codes require.',
     },
+    {
+      question: 'How much does wood shake roofing cost in Newark, NJ?',
+      answer: 'Most wood shake roofing projects in Newark range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Newark NJ. Fire-rated cedar shake installation for Forest Hill and Roseville homes with code compliance and insurance guidance.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

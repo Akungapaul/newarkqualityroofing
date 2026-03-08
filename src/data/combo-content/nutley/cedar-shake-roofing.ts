@@ -4,7 +4,7 @@ export const nutleyCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'nutley',
   overview: [
-    'Cedar shake roofing carries a natural elegance that resonates with Nutley homeowners who want their roof to make an architectural statement beyond the ubiquitous asphalt shingle. The township\'s Tudor Revival homes along Chestnut Street and Whitford Avenue originally featured wood shake or wood shingle roofs in the 1920s and 1930s, and a generation of homeowners has maintained that tradition with premium hand-split cedar installations that honor the original design intent. Cedar\'s warm, variegated appearance against Nutley\'s stucco-and-half-timbering Tudor facades creates a visual harmony that no manufactured material fully replicates.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Nutley — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing carries a natural elegance that resonates with Nutley homeowners who want their roof to make an architectural statement beyond the ubiquitous asphalt shingle. The township\'s Tudor Revival homes along Chestnut Street and Whitford Avenue originally featured wood shake or wood shingle roofs in the 1920s and 1930s, and a generation of homeowners has maintained that tradition with premium hand-split cedar installations that honor the original design intent. Cedar\'s warm, variegated appearance against Nutley\'s stucco-and-half-timbering Tudor facades creates a visual harmony that no manufactured material fully replicates.',
     'Hand-split cedar shakes differ fundamentally from sawn cedar shingles, and Nutley homeowners investing at this level deserve clarity on what they are purchasing. Hand-split shakes are riven from the bolt along the natural grain, creating a textured surface with varying thickness that produces the deep shadow lines visible from the street. Sawn shingles are machine-cut to uniform thickness and present a smoother, more tailored profile. Both have legitimate applications in [Nutley](/roofing-in-nutley-nj), but the steep Tudor pitches that define the township\'s premium addresses showcase the dimensional drama of hand-split shakes far more effectively than the flatter shingle profile.',
     'Cedar\'s natural performance characteristics align well with Nutley\'s environmental conditions. The wood\'s cellular structure provides R-value insulation roughly double that of asphalt, reducing heat transfer through the roof deck on both summer and winter extremes. Cedar\'s natural oils resist insect damage and retard fungal growth, though the heavy shade canopy maintained by Nutley\'s shade tree commission creates conditions that eventually overwhelm even cedar\'s inherent resistance without periodic treatment. Homeowners in neighboring [Montclair](/cedar-shake-roofing-montclair-nj) maintain similar cedar installations under comparable tree canopy conditions, making our maintenance protocols well-proven across the region.',
     'Our [cedar shake](/cedar-shake-roofing) installations in Nutley use exclusively Western Red Cedar graded to CSSB Blue Label or higher standards. We source from mills in British Columbia that harvest from managed forests, ensuring consistent grain quality and oil content. Every shake is hand-selected during installation, and our crews cull any pieces with excessive sapwood, cross-grain, or dimensional defects that would compromise weather resistance or visual consistency. This selectivity adds labor time but delivers the premium presentation that Nutley homeowners expect when investing in natural wood roofing.'
@@ -39,7 +39,25 @@ export const nutleyCedarShakeRoofing: ComboContent = {
     {
       question: 'Can you restore my existing cedar shake roof or does it need full replacement?',
       answer: 'Cedar roofs with less than 20 percent of shakes showing splitting, curling, or decay can often be restored through selective replacement of damaged pieces, re-nailing of lifted shakes, and comprehensive preservative treatment. Roofs with more extensive degradation, particularly where the skip sheathing beneath shows moisture damage, generally warrant full replacement. We perform a detailed assessment that includes moisture meter readings on representative shakes and visual inspection of the underlayment at selected test areas to make an evidence-based recommendation.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Nutley, NJ?',
+      answer: 'Most cedar shake roofing projects in Nutley range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Nutley NJ. Hand-split Western Red Cedar for Tudor Revivals and Colonials with fire-retardant treatment and skip-sheathing airflow.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

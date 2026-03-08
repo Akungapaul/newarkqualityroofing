@@ -4,7 +4,7 @@ export const orangeRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'orange',
   overview: [
-    'Roof maintenance in Orange is driven by a force that most Essex County cities do not contend with at the same intensity: South Mountain Reservation. The 2,100-acre county park borders Orange\'s southern residential neighborhoods directly, and its dense hardwood canopy sheds branches, leaves, acorns, seed pods, and biological growth onto nearby roofs year-round. Without a structured [roof maintenance program](/roof-maintenance-programs), mountain-adjacent Orange homeowners find themselves replacing roofs years ahead of the manufacturer\'s rated lifespan -- not because the materials were defective, but because debris accumulation, moisture trapping, and biological colonization accelerated deterioration that regular maintenance would have prevented.',
+    'Newark Quality Roofing delivers expert roof maintenance programs in Orange — with prices starting from $250–$600/year and free estimates available today. Roof maintenance in Orange is driven by a force that most Essex County cities do not contend with at the same intensity: South Mountain Reservation. The 2,100-acre county park borders Orange\'s southern residential neighborhoods directly, and its dense hardwood canopy sheds branches, leaves, acorns, seed pods, and biological growth onto nearby roofs year-round. Without a structured [roof maintenance program](/roof-maintenance-programs), mountain-adjacent Orange homeowners find themselves replacing roofs years ahead of the manufacturer\'s rated lifespan -- not because the materials were defective, but because debris accumulation, moisture trapping, and biological colonization accelerated deterioration that regular maintenance would have prevented.',
     'Beyond the South Mountain corridor, Orange\'s compact residential blocks create maintenance conditions shaped by proximity. Debris from one property blows onto its neighbor\'s roof. Gutter overflows on a tightly packed row of homes can saturate the fascia and soffit of the adjacent structure. A maintenance program for an Orange property needs to account for what is happening on the surrounding lots, not just the property itself. Our maintenance visits include a perimeter assessment that flags neighboring conditions affecting our client\'s roof -- a level of contextual awareness that we also bring to properties in [Newark](/roof-maintenance-programs-newark-nj)\'s dense residential blocks.',
     'Orange\'s investment property market has grown steadily as buyers seek more affordable alternatives to South Orange and Maplewood. Landlords managing two-family and three-family homes need maintenance programs that protect their roofing investment without requiring constant personal attention. Our investor maintenance tier includes scheduled visits, documented condition reports with photographs, and a priority service agreement that moves maintenance clients ahead of the general queue for repairs when issues are discovered during inspections.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofMaintenancePrograms: ComboContent = {
     {
       question: 'Do you offer maintenance programs for Orange commercial buildings?',
       answer: 'Yes. Main Street commercial properties and industrial buildings along Mitchell Street benefit from semi-annual membrane inspections, drain clearing, equipment curb and flashing checks, and surface cleaning. Commercial maintenance programs include documented reports suitable for property management company review and insurance compliance. We schedule commercial visits during off-peak business hours to minimize disruption to tenants and customers.'
-    }
+    },
+    {
+      question: 'How much does roof maintenance programs cost in Orange, NJ?',
+      answer: 'Most roof maintenance programs projects in Orange range from $250–$600/year. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof maintenance programs in Orange NJ -- seasonal debris clearing, South Mountain tree management, Valley moisture monitoring, and investment property care.',
+  pricing: {
+    range: '$250–$600/year',
+    note: 'annual maintenance plan pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof maintenance programs estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

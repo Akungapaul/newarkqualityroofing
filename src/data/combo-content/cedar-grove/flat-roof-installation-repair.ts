@@ -4,7 +4,7 @@ export const cedarGroveFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Flat roof systems in Cedar Grove appear primarily on the commercial buildings along Pompton Avenue and Route 23, on residential additions and enclosed porches that extend the township\'s ranch and colonial homes, and on the occasional contemporary design built into the hillside terrain near the Second Watchung Mountain ridge. Our [flat roof installation](/flat-roof-installation-repair) work in Cedar Grove addresses the specific drainage, insulation, and membrane challenges that this northern Essex County community presents -- heavier snow loads, wider temperature swings, and a wooded environment that deposits debris on every horizontal surface.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Cedar Grove — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof systems in Cedar Grove appear primarily on the commercial buildings along Pompton Avenue and Route 23, on residential additions and enclosed porches that extend the township\'s ranch and colonial homes, and on the occasional contemporary design built into the hillside terrain near the Second Watchung Mountain ridge. Our [flat roof installation](/flat-roof-installation-repair) work in Cedar Grove addresses the specific drainage, insulation, and membrane challenges that this northern Essex County community presents -- heavier snow loads, wider temperature swings, and a wooded environment that deposits debris on every horizontal surface.',
     'The township\'s ranch-dominant housing stock includes a surprising number of flat or near-flat roof sections. Attached garage roofs, breezeway covers, and room additions added during the 1970s and 1980s remodeling boom often feature built-up roofing or early-generation modified bitumen that has long exceeded its service life. These residential flat sections connect to the main pitched roof at critical transition flashings, and failure at these junctions accounts for a significant share of Cedar Grove roof leak calls. Property owners in nearby [Verona](/flat-roof-installation-repair-verona-nj) encounter similar addition-era flat roof challenges on their split-levels.',
     'Commercial flat roofs along Cedar Grove\'s Pompton Avenue corridor and the Route 23 strip require membrane systems rated for the northern Essex County climate -- harder winters, more freeze-thaw cycles, and heavier snow accumulation than communities in the southern half of the county. Our installations for Cedar Grove businesses use fully adhered TPO or PVC membranes with tapered insulation systems that eliminate standing water and meet current energy code requirements for thermal performance.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveFlatRoofInstallationRepair: ComboContent = {
       question: 'Can you repair my 1980s flat roof addition without a full replacement?',
       answer: 'If the existing membrane is a single-ply system in fair condition with isolated failure areas, targeted repair is often viable. However, most 1980s-era built-up or modified bitumen flat roofs on Cedar Grove additions have exceeded their design life and exhibit widespread adhesion failure, blistering, or insulation saturation. We perform a moisture survey to determine the extent of damage before recommending repair versus replacement, ensuring the homeowner makes an informed decision.',
     },
+    {
+      question: 'How much does flat roof installation repair cost in Cedar Grove, NJ?',
+      answer: 'Most flat roof installation repair projects in Cedar Grove range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Cedar Grove NJ -- TPO and PVC membranes for commercial buildings and residential additions with proper drainage.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

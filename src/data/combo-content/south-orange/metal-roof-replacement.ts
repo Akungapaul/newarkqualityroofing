@@ -4,7 +4,7 @@ export const southOrangeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Metal roof replacement in South Orange Village upgrades residential properties to standing-seam or architectural metal panel systems that deliver 50-plus-year durability, energy efficiency, and the clean modern aesthetic that contemporary renovations and thoughtful material upgrades provide. For South Orange homeowners reaching the replacement point on aging asphalt or deteriorated cedar, metal roofing represents a permanent transition to a material that eliminates future replacement cycles.',
+    'Newark Quality Roofing delivers expert metal roof replacement in South Orange — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in South Orange Village upgrades residential properties to standing-seam or architectural metal panel systems that deliver 50-plus-year durability, energy efficiency, and the clean modern aesthetic that contemporary renovations and thoughtful material upgrades provide. For South Orange homeowners reaching the replacement point on aging asphalt or deteriorated cedar, metal roofing represents a permanent transition to a material that eliminates future replacement cycles.',
     'The lifecycle cost argument for metal roofing is particularly compelling in South Orange\'s premium real estate market. A metal roof installed today outlasts two or three asphalt shingle cycles, eliminating the cost and disruption of future tear-off-and-replace projects. For homeowners who plan to remain in their homes long-term, or whose [South Orange](/roofing-in-south-orange-nj) property represents a generational asset, metal roofing\'s permanence aligns with the stewardship mindset that characterizes the village\'s homeowner culture.',
     'Standing-seam metal panels in architectural colors complement both the traditional and contemporary homes found throughout South Orange. Muted earth tones blend with Tudor and Colonial exteriors. Charcoal and dark bronze options provide sophisticated profiles on modern renovations. The vertical seam lines create a clean, refined roofscape that reads as intentional architectural selection rather than utilitarian material choice.',
     'Our metal roof replacement work in South Orange addresses the specific installation requirements that differentiate professional metal roofing from generic installations -- thermal expansion accommodation through floating clip systems, condensation prevention through thermal breaks, sound dampening through proper substrate assemblies, and snow retention engineering for steep-pitch applications.'
@@ -35,7 +35,25 @@ export const southOrangeMetalRoofReplacement: ComboContent = {
     {
       question: 'Can solar panels be installed on a metal roof?',
       answer: 'Standing-seam metal roofing is the ideal substrate for solar panel installation. Clamp-style mounting systems attach directly to the standing seams without penetrating the roof surface, eliminating leak risk. The mounting is secure, non-invasive, and fully reversible. Several South Orange metal roof installations support solar arrays with zero roof penetrations and full warranty preservation.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in South Orange, NJ?',
+      answer: 'Most metal roof replacement projects in South Orange range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in South Orange NJ -- standing-seam upgrades for lasting protection on village homes.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

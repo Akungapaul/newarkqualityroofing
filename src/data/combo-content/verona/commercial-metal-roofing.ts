@@ -4,7 +4,7 @@ export const veronaCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'verona',
   overview: [
-    'Commercial metal roofing in Verona serves a growing segment of building owners who recognize the 50-year-plus service life, minimal maintenance requirements, and architectural versatility that metal panel systems provide. From standing seam profiles on professional office buildings to structural R-panel systems on light industrial and warehouse structures, metal roofing eliminates the recurring membrane replacement cycle that flat roof buildings endure every 15 to 25 years. Newark Quality Roofing designs and installs commercial metal roof systems across Verona, engineering each installation for the building\'s specific structural capacity, wind exposure, and aesthetic requirements.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Verona — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in Verona serves a growing segment of building owners who recognize the 50-year-plus service life, minimal maintenance requirements, and architectural versatility that metal panel systems provide. From standing seam profiles on professional office buildings to structural R-panel systems on light industrial and warehouse structures, metal roofing eliminates the recurring membrane replacement cycle that flat roof buildings endure every 15 to 25 years. Newark Quality Roofing designs and installs commercial metal roof systems across Verona, engineering each installation for the building\'s specific structural capacity, wind exposure, and aesthetic requirements.',
     'The Bloomfield Avenue commercial corridor through Verona includes office buildings and retail structures where exposed-fastener metal panels provide cost-effective weather protection, and more architecturally prominent buildings where concealed-fastener standing seam systems deliver the clean sight lines that building owners and tenants prefer. Our [commercial metal roofing](/commercial-metal-roofing) specifications match the panel profile to the building\'s design intent, structural framing, and budget, providing multiple options with clear performance and cost comparisons.',
     'Energy performance on commercial metal roofs in Verona benefits from reflective coatings that reduce surface temperatures and lower cooling loads during summer months. Cool-coat metal panels in light colors can reduce rooftop temperatures by 40 to 60 degrees compared to dark standard panels, translating to measurable HVAC savings on air-conditioned commercial spaces. Buildings in neighboring [Cedar Grove](/commercial-metal-roofing-cedar-grove-nj) have documented similar energy reductions after upgrading from dark membrane to reflective metal roofing systems.'
   ],
@@ -34,7 +34,25 @@ export const veronaCommercialMetalRoofing: ComboContent = {
     {
       question: 'How does commercial metal roofing perform in Verona wind storms?',
       answer: 'Properly engineered standing seam metal roofing achieves wind ratings exceeding 140 mph -- well above the design wind speeds for Verona\'s location. The interlocking panel seams distribute wind forces across the entire roof field rather than concentrating stress at individual shingle tabs or membrane fasteners. Our clip spacing and panel gauge specifications are calculated from ASCE 7 wind load data for your building\'s specific height, exposure category, and roof geometry, ensuring that the system meets or exceeds code requirements for wind resistance.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in Verona, NJ?',
+      answer: 'Most commercial metal roofing projects in Verona range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Verona NJ -- standing seam and R-panel systems for offices, retail, and industrial buildings along Bloomfield Avenue.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

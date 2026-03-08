@@ -4,7 +4,7 @@ export const essexFellsModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'essex-fells',
   overview: [
-    'Modified bitumen roofing has served Essex Fells estate properties for decades as the workhorse waterproofing system on flat and low-slope auxiliary structures where visual prominence is secondary to absolute reliability. Pool equipment rooms, basement bulkheads, covered utility enclosures, and the flat-roofed connecting elements between multi-structure estates rely on modified bitumen\'s multi-layer redundancy to protect interior spaces where even minor water infiltration causes disproportionate damage. The system\'s forgiving nature on imperfect substrates and its proven longevity in the Northeast\'s freeze-thaw environment make it a practical specification for the working structures that support Essex Fells estate living.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Essex Fells — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing has served Essex Fells estate properties for decades as the workhorse waterproofing system on flat and low-slope auxiliary structures where visual prominence is secondary to absolute reliability. Pool equipment rooms, basement bulkheads, covered utility enclosures, and the flat-roofed connecting elements between multi-structure estates rely on modified bitumen\'s multi-layer redundancy to protect interior spaces where even minor water infiltration causes disproportionate damage. The system\'s forgiving nature on imperfect substrates and its proven longevity in the Northeast\'s freeze-thaw environment make it a practical specification for the working structures that support Essex Fells estate living.',
     'Where [Montclair](/modified-bitumen-roofing-montclair-nj) and [Bloomfield](/modified-bitumen-roofing-bloomfield-nj) modified bitumen installations primarily serve commercial storefronts and multi-family housing, Essex Fells applications exist within the residential estate context that governs every construction decision in the borough. The torch-applied installation process traditional to modified bitumen raises particular concern in a community surrounded by mature hardwood forest and maintained landscape beds. Our Essex Fells installations have transitioned entirely to cold-applied and self-adhered modified bitumen systems that eliminate open-flame risk while providing the same multi-layer waterproofing performance.',
     'Our [modified bitumen roofing](/modified-bitumen-roofing) practice in Essex Fells specifies SBS-modified systems exclusively, leveraging the polymer\'s superior flexibility in the cold temperatures that characterize the borough\'s elevated, shaded terrain during winter months. APP-modified alternatives that perform well in warmer climates become brittle in the sub-freezing conditions Essex Fells experiences from December through March, and the resulting crack propagation compromises the waterproofing integrity that these estate applications demand.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsModifiedBitumenRoofing: ComboContent = {
     {
       question: 'What color options are available for modified bitumen cap sheets?',
       answer: 'Standard cap sheet colors include black, white, tan, and gray in granule-surfaced finishes. For Essex Fells applications where the flat roof surface is visible from the main residence or elevated landscape areas, we specify colored granule cap sheets that complement adjacent architectural roofing materials. Aluminum-coated cap sheets provide maximum reflectivity for energy efficiency but may create glare visible from upper-story windows. We present cap sheet samples alongside the estate\'s existing roofing materials during the design phase to confirm visual compatibility.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Essex Fells, NJ?',
+      answer: 'Most modified bitumen roofing projects in Essex Fells range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Essex Fells NJ -- cold-applied SBS systems for estate auxiliary structures with fire-safe installation.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

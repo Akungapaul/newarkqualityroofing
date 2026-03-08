@@ -4,7 +4,7 @@ export const millburnGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'millburn',
   overview: [
-    'Green roof installation in Millburn represents the convergence of environmental stewardship and estate-scale landscape architecture that the township\'s most progressive homeowners and building owners are embracing. Unlike the utilitarian stormwater-management green roofs installed on commercial buildings in urban municipalities, Millburn\'s green roof applications are designed as elevated garden environments -- curated plantings visible from upper-floor windows, accessible terraces integrated with landscape architecture, and vegetated surfaces that extend the estate grounds vertically onto building surfaces that would otherwise present as utilitarian flat-roof sections.',
+    'Newark Quality Roofing delivers expert green roof installation in Millburn — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Millburn represents the convergence of environmental stewardship and estate-scale landscape architecture that the township\'s most progressive homeowners and building owners are embracing. Unlike the utilitarian stormwater-management green roofs installed on commercial buildings in urban municipalities, Millburn\'s green roof applications are designed as elevated garden environments -- curated plantings visible from upper-floor windows, accessible terraces integrated with landscape architecture, and vegetated surfaces that extend the estate grounds vertically onto building surfaces that would otherwise present as utilitarian flat-roof sections.',
     'Estate properties in Short Hills and along South Mountain present the premier green-roof opportunities in Essex County. Modern additions designed by Millburn\'s architecture community increasingly incorporate green-roof specifications where flat sections adjoin the primary pitched roofline, creating living surfaces that soften the visual transition between the built environment and the property\'s landscape. Our [green roof installation](/green-roof-installation) practice coordinates with landscape architects to design planting schemes suited to each roof\'s microclimate -- sun exposure, wind patterns, depth of growing medium, and irrigation access -- producing green roofs that thrive rather than merely survive.',
     'Commercial and institutional green roofs in Millburn serve both environmental and community objectives. The township\'s commitment to sustainability makes green-roof projects on public buildings and visible commercial properties demonstrations of practical environmental technology. Stormwater retention that reduces municipal infrastructure burden, urban heat island mitigation, air quality improvement through particulate capture, and habitat creation for pollinators and birds -- these measurable benefits position green roofing as infrastructure rather than amenity, and Millburn\'s community values support the investment in ways that purely economic analysis may not capture.'
   ],
@@ -34,7 +34,25 @@ export const millburnGreenRoofInstallation: ComboContent = {
     {
       question: 'What maintenance does a green roof require?',
       answer: 'Extensive sedum green roofs require two to four maintenance visits per year for weed removal, fertilization, drainage inspection, and replacement of any plants that have failed. Intensive green roofs with diverse plantings need monthly maintenance during the growing season, including irrigation management, pruning, seasonal planting, and pest monitoring. All green roofs require annual inspection of the drainage system, edge details, and membrane condition at accessible points. We offer green-roof maintenance programs calibrated to the specific installation and plant community on each Millburn property.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Millburn, NJ?',
+      answer: 'Most green roof installation projects in Millburn range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation for Millburn estates and commercial buildings. Structural assessment, root-barrier waterproofing, and curated rooftop plantings.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

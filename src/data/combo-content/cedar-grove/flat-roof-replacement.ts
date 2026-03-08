@@ -4,7 +4,7 @@ export const cedarGroveFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Flat roof replacement in Cedar Grove renews the membrane, insulation, and drainage systems on the township\'s commercial buildings and residential low-slope sections with modern materials engineered for northern Essex County\'s demanding weather conditions. Whether replacing an aging EPDM membrane on a Pompton Avenue office, a deteriorated modified bitumen system on a Route 23 retail building, or a failed built-up roof on a ranch home addition, our [flat roof replacement](/flat-roof-replacement) projects deliver warranted waterproof protection with corrected drainage and upgraded thermal performance.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Cedar Grove — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Cedar Grove renews the membrane, insulation, and drainage systems on the township\'s commercial buildings and residential low-slope sections with modern materials engineered for northern Essex County\'s demanding weather conditions. Whether replacing an aging EPDM membrane on a Pompton Avenue office, a deteriorated modified bitumen system on a Route 23 retail building, or a failed built-up roof on a ranch home addition, our [flat roof replacement](/flat-roof-replacement) projects deliver warranted waterproof protection with corrected drainage and upgraded thermal performance.',
     'Cedar Grove\'s flat roof replacement projects consistently reveal that drainage deficiency was the primary factor shortening the previous roof\'s service life. Standing water on flat roofs with inadequate slope accelerates membrane deterioration, saturates insulation, and creates concentrated load conditions that the roof structure was not designed to carry. Our replacements incorporate tapered insulation systems that create positive drainage to every outlet, eliminating the ponding conditions that would shorten the new membrane\'s service life just as they shortened the old one\'s.',
     'The thermal upgrade opportunity during flat roof replacement is substantial for Cedar Grove commercial buildings with outdated insulation. Adding tapered polyiso insulation to achieve current energy code R-values can reduce heating and cooling costs by fifteen to twenty-five percent -- an ongoing savings that partially offsets the replacement investment and continues throughout the new roof\'s twenty to thirty-year service life.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveFlatRoofReplacement: ComboContent = {
       question: 'Can a flat roof be replaced without disrupting business operations?',
       answer: 'Yes. Phased replacement works in sections sized for daily completion, with temporary membrane protection installed each evening. Interior operations continue throughout the project with minimal disruption. Noise during tear-off is the primary inconvenience, and we schedule the loudest work around the building\'s most sensitive operational hours when possible.',
     },
+    {
+      question: 'How much does flat roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most flat roof replacement projects in Cedar Grove range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Cedar Grove NJ -- TPO, PVC, and EPDM membrane systems with tapered drainage for commercial and residential flat roofs.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

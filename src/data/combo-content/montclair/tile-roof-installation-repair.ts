@@ -4,7 +4,7 @@ export const montclairTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Tile roofing in Montclair appears on a select but architecturally significant group of homes: the Spanish Colonial Revival and Mediterranean-influenced residences built during the 1920s and 1930s, when those styles enjoyed a national vogue that reached even this predominantly English-influenced township. These homes, scattered through the South End and along several Upper Montclair side streets, wear their clay barrel tile or flat concrete tile roofs as defining character elements -- remove the tile and the home loses the identity that distinguishes it from its Colonial and Tudor neighbors. Tile installation and repair in Montclair is therefore an architectural preservation specialty as much as a roofing service.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Montclair — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Montclair appears on a select but architecturally significant group of homes: the Spanish Colonial Revival and Mediterranean-influenced residences built during the 1920s and 1930s, when those styles enjoyed a national vogue that reached even this predominantly English-influenced township. These homes, scattered through the South End and along several Upper Montclair side streets, wear their clay barrel tile or flat concrete tile roofs as defining character elements -- remove the tile and the home loses the identity that distinguishes it from its Colonial and Tudor neighbors. Tile installation and repair in Montclair is therefore an architectural preservation specialty as much as a roofing service.',
     'The weight characteristics of clay and concrete tile make structural assessment a prerequisite for every Montclair tile project. Barrel clay tile weighs nine hundred to twelve hundred pounds per square -- comparable to slate and roughly four times the weight of asphalt shingles. The homes originally built with tile roofs were framed to carry this load, but decades of structural settling, termite damage, and the occasional removal-and-replacement cycle with lighter materials may have altered the load path or introduced weaknesses that the original construction did not have. Our [tile roof installation and repair](/tile-roof-installation-repair) projects in Montclair always include structural verification before material ordering.',
     'Repair of existing tile roofs in Montclair requires sourcing replacement tile that matches the original installation in profile, color, and dimension -- a challenge when the original manufacturer may have ceased production decades ago. Clay tile develops a patina from weathering and biological colonization that makes new tile visually incompatible with aged installations. Concrete tile fades and weathers in patterns specific to its original pigmentation and surface treatment. We maintain relationships with specialty tile suppliers and salvage sources throughout the northeast, and for small repair quantities, we can sometimes locate matching tile from the demolition of contemporaneous buildings in surrounding communities.'
   ],
@@ -34,7 +34,25 @@ export const montclairTileRoofInstallationRepair: ComboContent = {
     {
       question: 'Does the Montclair HPC regulate tile roof replacements?',
       answer: 'On individually designated landmarks and properties in historic districts, the HPC reviews material changes including tile profile, color, and material type changes. In-kind replacement with matching tile typically receives expedited approval. Changes from clay to concrete or from one profile to another require full application review. We prepare HPC applications as part of our project scope for designated properties and advise on which changes are likely to receive approval based on previous Commission decisions.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Montclair, NJ?',
+      answer: 'Most tile roof installation repair projects in Montclair range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Montclair NJ -- freeze-rated clay for Spanish Colonials, salvage matching, and HPC-guided restoration.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

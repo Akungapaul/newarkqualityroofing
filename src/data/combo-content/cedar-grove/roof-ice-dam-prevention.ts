@@ -4,7 +4,7 @@ export const cedarGroveRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'cedar-grove',
   overview: [
-    'Ice dam prevention in Cedar Grove addresses one of the most persistent winter roofing problems in northern Essex County, where the township\'s concentration of low-pitch ranch homes creates geometry that amplifies ice dam formation well beyond what steeper-roofed communities experience. The shallow slopes that characterize Cedar Grove\'s 1950s through 1970s housing stock retain snow longer, allow heat loss to melt lower snow layers more gradually, and provide minimal gravity assistance for meltwater drainage -- conditions that produce ice dam formation earlier, more frequently, and more extensively than on steeper roofs in surrounding communities.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Cedar Grove — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Cedar Grove addresses one of the most persistent winter roofing problems in northern Essex County, where the township\'s concentration of low-pitch ranch homes creates geometry that amplifies ice dam formation well beyond what steeper-roofed communities experience. The shallow slopes that characterize Cedar Grove\'s 1950s through 1970s housing stock retain snow longer, allow heat loss to melt lower snow layers more gradually, and provide minimal gravity assistance for meltwater drainage -- conditions that produce ice dam formation earlier, more frequently, and more extensively than on steeper roofs in surrounding communities.',
     'Our [roof ice dam prevention](/roof-ice-dam-prevention) approach in Cedar Grove prioritizes root-cause remediation over symptom treatment. While heat cables and chemical deicers provide temporary relief, lasting ice dam prevention requires addressing the attic heat loss, ventilation deficiency, and insulation gaps that cause warm roof surfaces to melt snow unevenly. Cedar Grove\'s ranch homes present both the highest ice dam risk and the most challenging remediation geometry -- their shallow attic spaces restrict access for insulation work and limit natural ventilation capacity. Homeowners in nearby [Verona](/roof-ice-dam-prevention-verona-nj) face similar challenges on their split-level homes.',
     'The township\'s northern Essex County location produces five to ten more freeze-thaw cycles per winter than communities along the Passaic River valley, each cycle growing existing ice dams thicker and pushing water further up and under the roof covering. Cedar Grove homeowners who experienced ice dam damage during a single severe winter often discover that the underlying conditions -- inadequate attic insulation, blocked soffit vents, bathroom fans venting into the attic rather than outdoors -- have been present since original construction and will produce recurring damage every winter until corrected.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofIceDamPrevention: ComboContent = {
       question: 'Can ice dam prevention be done without replacing my Cedar Grove roof?',
       answer: 'Yes. The most effective ice dam prevention -- air sealing, insulation upgrade, and ventilation improvement -- is performed from inside the attic without disturbing the roof surface. The one measure that does require roof work is ice-and-water shield installation beneath the roof covering, which is best incorporated during the next scheduled roof replacement. You do not need to replace your roof to address the primary causes of ice dam formation.',
     },
+    {
+      question: 'How much does roof ice dam prevention cost in Cedar Grove, NJ?',
+      answer: 'Most roof ice dam prevention projects in Cedar Grove range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Cedar Grove NJ -- root-cause attic insulation, air sealing, and ventilation solutions for ranch homes in northern Essex County.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

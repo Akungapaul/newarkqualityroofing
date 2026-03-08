@@ -4,7 +4,7 @@ export const livingstonFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'livingston',
   overview: [
-    'Flat roof systems in Livingston serve a dual market: the commercial properties lining Route 10 and Eisenhower Parkway that rely on flat-roof membranes for large-footprint coverage, and the residential additions, sunrooms, and garage sections where homeowners extended original split-level and colonial floor plans with low-slope construction during the renovation waves of the 1980s and 1990s. Each application demands membrane selection and drainage engineering calibrated to the specific structure and usage pattern.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Livingston — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof systems in Livingston serve a dual market: the commercial properties lining Route 10 and Eisenhower Parkway that rely on flat-roof membranes for large-footprint coverage, and the residential additions, sunrooms, and garage sections where homeowners extended original split-level and colonial floor plans with low-slope construction during the renovation waves of the 1980s and 1990s. Each application demands membrane selection and drainage engineering calibrated to the specific structure and usage pattern.',
     'Commercial flat roofs along Livingston\'s business corridors protect professional offices, medical facilities, retail spaces, and light industrial properties where even minor leaks disrupt operations and damage expensive interior buildouts. Property managers overseeing these assets require contractors who understand the differences between TPO, EPDM, and modified bitumen systems and can recommend the right membrane for each building\'s age, drainage configuration, and rooftop equipment profile. Our commercial [flat roof installation and repair](/flat-roof-installation-repair) expertise brings this material knowledge to Livingston\'s business corridor alongside the access logistics and scheduling flexibility that occupied commercial buildings demand.',
     'Residential flat sections on Livingston homes are frequently the weakest link in the overall roof system. When 1960s split-levels gained kitchen bump-outs, family room additions, or enclosed porches during the 1980s and 1990s renovation boom, the flat or low-slope roofs covering these additions were often installed with materials and techniques that have since been superseded by better-performing systems. These aging flat sections are now the primary source of leaks on otherwise well-maintained Livingston homes, and replacing them with modern membrane systems eliminates a chronic maintenance headache.',
     'Drainage design distinguishes successful flat roof installations from chronic failure-prone systems. Livingston\'s rainfall patterns deliver significant volume during nor\'easters and summer thunderstorms, and any flat roof that allows water to pond invites membrane degradation, structural loading, and eventual penetration. We engineer positive drainage into every flat installation, using tapered insulation, interior drain placement, and scupper sizing calculated for the catchment area and maximum rainfall intensity.'
@@ -35,7 +35,25 @@ export const livingstonFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'How do you prevent water from ponding on my flat roof?',
       answer: 'We engineer positive drainage using tapered insulation panels that create slope toward drains or scuppers. Even on small residential flat sections, we install tapered systems that prevent standing water within 48 hours of rainfall. For existing roofs where re-sloping is not feasible, we add interior drains at ponding locations and resize scuppers to handle maximum rainfall intensity. Proper drainage is the single most important factor in flat roof longevity.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Livingston, NJ?',
+      answer: 'Most flat roof installation repair projects in Livingston range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Livingston NJ -- TPO and EPDM systems for commercial buildings and residential additions with drainage design.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

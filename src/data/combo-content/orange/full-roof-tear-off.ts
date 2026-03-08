@@ -4,7 +4,7 @@ export const orangeFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'orange',
   overview: [
-    'Full roof tear-off is the foundation of every quality roof replacement in Orange, removing all existing roofing material down to the structural deck to expose and address the hidden conditions that overlay installations leave buried. On Orange\'s aging housing stock, tear-off regularly reveals deteriorated deck sections, inadequate ventilation, missing ice and water shield, and structural damage from decades of deferred maintenance. Our [full roof tear-off](/full-roof-tear-off) process treats the exposed deck as a diagnostic opportunity, identifying and correcting every substrate condition before new roofing material conceals it for another 25 to 30 years.',
+    'Newark Quality Roofing delivers expert full roof tear off in Orange — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off is the foundation of every quality roof replacement in Orange, removing all existing roofing material down to the structural deck to expose and address the hidden conditions that overlay installations leave buried. On Orange\'s aging housing stock, tear-off regularly reveals deteriorated deck sections, inadequate ventilation, missing ice and water shield, and structural damage from decades of deferred maintenance. Our [full roof tear-off](/full-roof-tear-off) process treats the exposed deck as a diagnostic opportunity, identifying and correcting every substrate condition before new roofing material conceals it for another 25 to 30 years.',
     'Orange\'s tight-lot construction makes tear-off logistics more complex than in suburban communities. With homes three to five feet apart, debris from tear-off cannot simply cascade off the roof edge -- it would damage siding, landscaping, and property on the adjacent lot. Our Orange tear-off crews use roof-mounted debris chutes directed into roll-off containers positioned on driveways, with ground-level tarps protecting the gap between buildings. Magnetic nail sweepers are deployed after every work session because roofing nails in the narrow side yards between Orange homes create a hazard for both homeowners.',
     'For Orange homes with multiple existing roof layers -- a common condition on pre-1980 properties where overlay was installed over the original roof -- tear-off is not optional. New Jersey building code limits roof assemblies to two layers of asphalt shingles. Beyond code compliance, the weight of multiple layers stresses aging roof framing, traps moisture between layers that accelerates deck rot, and prevents new shingles from laying flat and sealing properly. Tearing off to the deck is the only way to install a roof system that will perform to its full design life. Similar multi-layer conditions require mandatory tear-off on homes across [East Orange](/full-roof-tear-off-east-orange-nj).'
   ],
@@ -34,7 +34,25 @@ export const orangeFullRoofTearOff: ComboContent = {
     {
       question: 'What happens if it rains during tear-off?',
       answer: 'We monitor weather forecasts closely and plan tear-off for confirmed dry weather windows. If unexpected rain threatens during an active tear-off, our crews carry emergency tarps that can waterproof the exposed deck within 30 minutes. We never leave an exposed deck overnight without weather protection, and we will not begin tear-off when rain is forecast within 24 hours.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Orange, NJ?',
+      answer: 'Most full roof tear off projects in Orange range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Orange NJ -- tight-lot debris containment, multi-layer removal, deck inspection and repair, and neighbor property protection.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

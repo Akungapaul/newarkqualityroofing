@@ -4,7 +4,7 @@ export const orangeWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'orange',
   overview: [
-    'Wind damage patterns in Orange are dictated by South Mountain\'s topography in ways that catch homeowners off guard. The mountain ridgeline running along the city\'s southern border accelerates airflow during storm events, creating downdraft conditions that hit hillside neighborhoods with gusts 20 to 30 percent stronger than regional weather forecasts indicate. Properties along Hillyer Street, South Valley Road, and the streets climbing toward the reservation experience shingle lift-off, ridge cap displacement, and flashing peeling that homeowners on the city\'s flatter interior blocks rarely encounter during the same storm. Our [wind damage roof repair](/wind-damage-roof-repair) approach in Orange starts with understanding which wind corridors affect each property.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Orange — with prices starting from $400–$2,000 and free estimates available today. Wind damage patterns in Orange are dictated by South Mountain\'s topography in ways that catch homeowners off guard. The mountain ridgeline running along the city\'s southern border accelerates airflow during storm events, creating downdraft conditions that hit hillside neighborhoods with gusts 20 to 30 percent stronger than regional weather forecasts indicate. Properties along Hillyer Street, South Valley Road, and the streets climbing toward the reservation experience shingle lift-off, ridge cap displacement, and flashing peeling that homeowners on the city\'s flatter interior blocks rarely encounter during the same storm. Our [wind damage roof repair](/wind-damage-roof-repair) approach in Orange starts with understanding which wind corridors affect each property.',
     'The Valley neighborhood experiences a different wind dynamic -- compressed airflow between South Mountain to the south and the higher terrain of East Orange to the east creates a channeling effect through the Valley floor during strong westerly and northwesterly winds. This channeled wind hits roofs at angles that standard installation patterns are not optimized for, causing edge shingles and starter strips to fail before field shingles show any distress. Valley wind repairs frequently concentrate on roof perimeters -- eaves, rakes, and hip lines -- where the angled airflow creates uplift forces that conventional fastening schedules underestimate.',
     'Orange\'s tight-lot construction amplifies wind damage exposure in a less obvious way: buildings standing close together create wind acceleration zones in the narrow gaps between structures. During high winds, air compresses as it flows through three-to-five-foot gaps between adjacent houses, creating venturi-effect gusts that peel shingles from the downwind edges of both buildings. Homeowners in the Oakwood-Lincoln area and other tightly packed blocks find that their most vulnerable roof edges are the ones facing the gap between buildings, not the broad faces exposed to open sky. We see similar gap-acceleration effects in [Newark](/wind-damage-roof-repair-newark-nj)\'s dense row-house blocks.'
   ],
@@ -34,7 +34,25 @@ export const orangeWindDamageRoofRepair: ComboContent = {
     {
       question: 'Will my insurance cover wind damage repair on my Orange roof?',
       answer: 'Most homeowner policies cover wind damage as a named peril. We provide detailed documentation including wind direction correlation, damage pattern analysis, and repair specifications formatted for claim submission. Our experience with Essex County insurance processes helps streamline your claim, and we coordinate with adjusters during site inspections to ensure the full scope of damage is captured.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Orange, NJ?',
+      answer: 'Most wind damage roof repair projects in Orange range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Orange NJ -- South Mountain downdraft correction, Valley channeling repair, and tight-lot venturi-effect shingle restoration.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

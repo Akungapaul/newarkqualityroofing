@@ -4,7 +4,7 @@ export const irvingtonEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'irvington',
   overview: [
-    'Commercial EPDM roofing dominates Irvington\'s flat-roof landscape for a straightforward economic reason: the township\'s commercial property owners -- from Springfield Avenue retail operators to Route 78 warehouse managers -- need proven waterproofing at a price point that pencils out against aging building values. Our [EPDM commercial roofing](/epdm-commercial-roofing) installations across Irvington deliver the 30-year membrane performance that keeps operating costs predictable on buildings where the roof investment must be proportional to the property\'s income potential.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Irvington — with prices starting from $6–$11/sq ft and free estimates available today. Commercial EPDM roofing dominates Irvington\'s flat-roof landscape for a straightforward economic reason: the township\'s commercial property owners -- from Springfield Avenue retail operators to Route 78 warehouse managers -- need proven waterproofing at a price point that pencils out against aging building values. Our [EPDM commercial roofing](/epdm-commercial-roofing) installations across Irvington deliver the 30-year membrane performance that keeps operating costs predictable on buildings where the roof investment must be proportional to the property\'s income potential.',
     'Springfield Avenue\'s commercial buildings present EPDM\'s strongest use case in Irvington. These 2,000 to 8,000 square foot flat roofs sit atop mixed-use structures housing first-floor retail with second-floor apartments -- a building typology where the roof serves both commercial and residential functions simultaneously. EPDM\'s flexibility handles the thermal movement these hybrid buildings generate, and its leak-free track record protects inventory, equipment, and occupied living spaces beneath. Our Springfield Avenue EPDM installations include fully adhered membrane with reinforced seams at all parapet intersections where these buildings concentrate structural movement.',
     'Religious institutions throughout Irvington have adopted commercial EPDM for their flat-roofed fellowship halls, classrooms, and administrative additions. Churches, mosques, and temples operate on congregation-funded budgets that demand maximum value from every roofing dollar, and EPDM delivers more covered years per dollar invested than any competing commercial membrane. Property managers in [Newark](/epdm-commercial-roofing-newark-nj) specify EPDM on similar institutional and commercial buildings, though Irvington\'s smaller commercial building footprints allow for single-sheet EPDM installations that minimize the field seams where competing materials are most vulnerable.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonEpdmCommercialRoofing: ComboContent = {
       question: 'How long does a commercial EPDM installation take in Irvington?',
       answer: 'A typical Springfield Avenue commercial building with 3,000 to 5,000 square feet of roof area takes 5 to 7 working days from tear-off to completion. Larger Route 78 industrial buildings with 15,000 to 30,000 square feet require 2 to 4 weeks depending on substrate condition and equipment coordination. We provide a detailed project schedule before work begins so tenants and business operators can plan accordingly.',
     },
+    {
+      question: 'How much does epdm commercial roofing cost in Irvington, NJ?',
+      answer: 'Most epdm commercial roofing projects in Irvington range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial EPDM roofing in Irvington NJ for Springfield Ave businesses, religious buildings, and Route 78 industrial facilities. Proven 30-year membrane.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

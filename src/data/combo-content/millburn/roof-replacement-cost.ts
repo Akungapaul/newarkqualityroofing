@@ -4,7 +4,7 @@ export const millburnRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'millburn',
   overview: [
-    'Roof replacement cost on Millburn estates reflects the convergence of premium materials, complex architecture, elevated labor standards, and site-protection requirements that distinguish estate-grade roofing from standard residential work. A Short Hills Tudor with forty squares of Vermont slate, copper valleys and flashings, custom ridge details, and multi-structure coordination commands a replacement investment measured in six figures -- a scale that requires transparent pricing, detailed cost breakdowns, and financing options that make the investment manageable within the property owner\'s financial planning.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Millburn — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost on Millburn estates reflects the convergence of premium materials, complex architecture, elevated labor standards, and site-protection requirements that distinguish estate-grade roofing from standard residential work. A Short Hills Tudor with forty squares of Vermont slate, copper valleys and flashings, custom ridge details, and multi-structure coordination commands a replacement investment measured in six figures -- a scale that requires transparent pricing, detailed cost breakdowns, and financing options that make the investment manageable within the property owner\'s financial planning.',
     'Our [roof replacement cost](/roof-replacement-cost) transparency for Millburn properties begins with itemized proposals that separate material costs, labor costs, site-protection expenses, and contingency allowances for deck repair and hidden conditions. This line-item detail allows homeowners and their architects to evaluate each cost component, compare material-option pricing across different specification levels, and understand exactly where the project budget is allocated. Generic per-square pricing that obscures the component costs does not serve Millburn homeowners whose investments deserve the same transparency they expect from every professional service.',
     'Cost variation across Millburn projects is substantial because the variables -- roof size, material type, architectural complexity, access difficulty, and deck condition -- differ dramatically between properties. A thirty-square asphalt-shingle replacement on a straightforward colonial costs a fraction of a fifty-square slate restoration on a multi-structure Tudor estate. We provide project-specific pricing based on actual field measurements and material specifications rather than estimating from satellite imagery or applying generic per-square rates that cannot account for Millburn\'s property-specific conditions.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofReplacementCost: ComboContent = {
     {
       question: 'How can I reduce my roof replacement cost without compromising quality?',
       answer: 'The most effective cost-management strategy is selecting materials that deliver the performance and appearance you require without over-specifying beyond your priorities. Premium architectural shingles from a manufacturer like GAF or CertainTeed deliver excellent performance at a fraction of natural slate pricing. Composite alternatives to cedar shake provide natural appearance without the maintenance premium. We present these value alternatives alongside premium specifications so the cost-quality tradeoff is transparent for each decision point.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in Millburn, NJ?',
+      answer: 'Most roof replacement cost projects in Millburn range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost guide for Millburn and Short Hills. Transparent pricing for slate, cedar, shingle, and metal with itemized proposals and financing.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

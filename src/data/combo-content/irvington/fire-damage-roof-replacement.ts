@@ -4,7 +4,7 @@ export const irvingtonFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Fire damage roof replacement in Irvington addresses the structural and waterproofing restoration that buildings require after fire events compromise the roof system. Our [fire damage replacement](/fire-damage-roof-replacement) services manage the specialized requirements of post-fire roofing work -- from structural assessment of heat-weakened framing through complete roof system installation on restored structure -- coordinating with insurance adjusters, fire investigators, and general contractors throughout the reconstruction process.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Irvington — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Irvington addresses the structural and waterproofing restoration that buildings require after fire events compromise the roof system. Our [fire damage replacement](/fire-damage-roof-replacement) services manage the specialized requirements of post-fire roofing work -- from structural assessment of heat-weakened framing through complete roof system installation on restored structure -- coordinating with insurance adjusters, fire investigators, and general contractors throughout the reconstruction process.',
     'Irvington\'s densely built residential neighborhoods create fire exposure risk where adjacent buildings share narrow separations. A fire in one home can cause heat and radiant damage to roofing on neighboring properties even when the fire does not spread directly. Our post-fire assessments for Irvington properties evaluate not only the directly burned structure but adjacent buildings that may have sustained heat damage to shingles, flashings, and soffit materials -- damage that may not be visually obvious but that has compromised material integrity.',
     'Multi-family fire damage replacement in Irvington carries additional urgency because displaced tenants need housing restoration as quickly as the reconstruction process allows. Our coordination with general contractors managing fire restoration projects prioritizes roof system completion as an early-phase milestone that allows interior restoration to proceed under weather protection. Insurance coordination for multi-family fire claims in neighboring [Newark](/fire-damage-roof-replacement-newark-nj) follows similar urgency patterns, though Irvington\'s detached multi-family structures generally experience less fire-spread complexity than Newark\'s attached row houses.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonFireDamageRoofReplacement: ComboContent = {
       question: 'Can you coordinate with my general contractor on Irvington fire restoration?',
       answer: 'Yes. We routinely work as the roofing subcontractor on fire restoration projects managed by general contractors. We integrate our schedule with the overall reconstruction timeline, completing roof work at the phase that allows interior restoration to proceed under weather protection. Direct coordination with the GC ensures efficient project flow.',
     },
+    {
+      question: 'How much does fire damage roof replacement cost in Irvington, NJ?',
+      answer: 'Most fire damage roof replacement projects in Irvington range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Irvington NJ with structural assessment, insurance coordination, and complete roof system restoration after fire events.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

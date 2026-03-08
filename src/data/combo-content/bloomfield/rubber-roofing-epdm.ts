@@ -4,7 +4,7 @@ export const bloomfieldRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'bloomfield',
   overview: [
-    'EPDM rubber roofing in Bloomfield addresses the township\'s two primary flat-roof markets with a proven membrane technology that has a forty-year track record in northern New Jersey\'s freeze-thaw climate. Residential split-levels with flat sections over garages and lower-level additions represent the largest volume of EPDM work in Bloomfield -- small-area installations where the material\'s flexibility, cold-weather application capability, and cost-effective performance make it the practical choice over more expensive commercial membrane options. The commercial segment covers Bloomfield Avenue storefronts and light industrial buildings where EPDM\'s durability and low maintenance appeal to building owners managing flat-roof assets on operating budgets.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Bloomfield — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing in Bloomfield addresses the township\'s two primary flat-roof markets with a proven membrane technology that has a forty-year track record in northern New Jersey\'s freeze-thaw climate. Residential split-levels with flat sections over garages and lower-level additions represent the largest volume of EPDM work in Bloomfield -- small-area installations where the material\'s flexibility, cold-weather application capability, and cost-effective performance make it the practical choice over more expensive commercial membrane options. The commercial segment covers Bloomfield Avenue storefronts and light industrial buildings where EPDM\'s durability and low maintenance appeal to building owners managing flat-roof assets on operating budgets.',
     'What distinguishes EPDM from the other flat-roof options available to Bloomfield property owners is its material simplicity and repair accessibility. EPDM is a synthetic rubber sheet that comes in large rolls, installs with adhesive bonding to insulation board, and creates a monolithic waterproof surface with no heat-welded seams that require specialized equipment. Repairs to EPDM are straightforward -- clean the area, apply primer and adhesive, and bond a patch of the same material. This repair simplicity means that minor damage from foot traffic, debris impact, or tool drops can be addressed quickly without mobilizing specialized welding crews.',
     'For Bloomfield homeowners choosing between [EPDM rubber roofing](/rubber-roofing-epdm) and other flat-roof membranes for their split-level flat section, the cost comparison is straightforward. EPDM typically costs fifteen to twenty percent less than TPO for the same area, with equivalent service life and waterproofing performance. TPO offers better solar reflectivity for energy savings, but on the small flat sections typical of Bloomfield split-levels -- where the energy impact is minimal due to limited area -- the cost savings of EPDM outweigh the marginal energy benefit of TPO. Homeowners facing similar decisions in [East Orange](/rubber-roofing-epdm-east-orange-nj) reach comparable conclusions on their flat-roof split-levels.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRubberRoofingEpdm: ComboContent = {
     {
       question: 'Can I repair my existing EPDM roof on my Bloomfield home instead of replacing it?',
       answer: 'If the membrane is intact in the field with failures limited to seams, flashings, or edge details, repair is often feasible and cost-effective. Seam repairs and flashing replacements cost a fraction of full membrane replacement. However, if the membrane shows widespread shrinkage, brittleness, or has multiple field punctures, replacement provides better long-term value than accumulating repair costs on a deteriorating membrane. We assess the overall membrane condition before recommending repair or replacement.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Bloomfield, NJ?',
+      answer: 'Most rubber roofing epdm projects in Bloomfield range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Bloomfield NJ -- split-level flat sections, commercial flat roofs, and cost-effective membrane solutions with 25-year durability.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'millburn',
   overview: [
-    'Roof deck repair on Millburn estates addresses the structural substrate upon which every other roofing component depends. The original tongue-and-groove plank decking on pre-war homes throughout Short Hills and Wyoming, the plywood and OSB sheathing on mid-century and later construction, and the skip-sheathing installed beneath cedar shake and certain slate installations all deteriorate when prolonged moisture exposure -- from leaks, condensation, or ice-dam intrusion -- weakens the wood fibers and compromises the deck\'s load-bearing capacity and fastener-holding strength.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Millburn — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair on Millburn estates addresses the structural substrate upon which every other roofing component depends. The original tongue-and-groove plank decking on pre-war homes throughout Short Hills and Wyoming, the plywood and OSB sheathing on mid-century and later construction, and the skip-sheathing installed beneath cedar shake and certain slate installations all deteriorate when prolonged moisture exposure -- from leaks, condensation, or ice-dam intrusion -- weakens the wood fibers and compromises the deck\'s load-bearing capacity and fastener-holding strength.',
     'Deck deterioration beneath otherwise sound roofing material creates a deceptive condition where the visible roof surface appears intact while the structural platform beneath it is failing. Sagging between rafters, soft spots detectable by foot, and nail-pops where fasteners pull through weakened sheathing are symptoms that indicate deck damage requiring attention before a re-roofing project can proceed. On Millburn properties where slate roofs weigh eight hundred to fifteen hundred pounds per square, the consequences of installing new roofing on a compromised deck are severe -- structural failure rather than merely cosmetic deficiency.',
     'Our [roof deck repair and replacement](/roof-deck-repair-replacement) practice in Millburn treats deck work as an integral part of re-roofing rather than an unexpected add-on that inflates the project cost after tear-off reveals damage. We include deck-condition assessment in every re-roofing proposal, with contingency pricing for the deck-repair scope that will likely be required once the existing roofing is removed. This transparent approach -- standard on properties in [Montclair](/roof-deck-repair-replacement-montclair-nj) and across Essex County -- prevents the adversarial dynamic where deck damage discovered during tear-off generates change orders that strain the client relationship.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Will deck repair add significant cost to my re-roofing project?',
       answer: 'Deck repair typically adds five to fifteen percent to the total re-roofing cost, depending on the extent of deterioration. Minor localized repairs -- a few sheets of sheathing around a former leak -- are modest additions. Extensive deck replacement across large areas with framing repairs represents a more significant investment. By including deck assessment and contingency pricing in the initial proposal, we ensure there are no budget surprises during the project, and the homeowner can plan for the complete scope from the outset.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Millburn, NJ?',
+      answer: 'Most roof deck repair replacement projects in Millburn range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement for Millburn estates. Structural sheathing restoration beneath slate, cedar, and premium roofing with framing inspection.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

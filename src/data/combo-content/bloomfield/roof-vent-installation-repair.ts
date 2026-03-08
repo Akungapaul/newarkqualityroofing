@@ -4,7 +4,7 @@ export const bloomfieldRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Roof ventilation on Bloomfield\'s homes controls the attic environment that directly affects shingle longevity, energy costs, and winter ice dam risk. The Cape Cods, colonials, and split-levels built during the township\'s mid-century development boom came with ventilation systems that were minimal by current standards -- small gable vents, a few box vents on the rear slope, and little attention to balanced intake and exhaust. Fifty to seventy years later, these homes need ventilation upgrades that address the accumulated insulation, finished attic spaces, and energy demands that the original builders never anticipated.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Bloomfield — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation on Bloomfield\'s homes controls the attic environment that directly affects shingle longevity, energy costs, and winter ice dam risk. The Cape Cods, colonials, and split-levels built during the township\'s mid-century development boom came with ventilation systems that were minimal by current standards -- small gable vents, a few box vents on the rear slope, and little attention to balanced intake and exhaust. Fifty to seventy years later, these homes need ventilation upgrades that address the accumulated insulation, finished attic spaces, and energy demands that the original builders never anticipated.',
     'Ridge vent installation represents the single most impactful ventilation upgrade for Bloomfield\'s residential rooftops. Unlike box vents and turbine vents that create localized exhaust at discrete points, ridge vents provide continuous exhaust along the entire ridge line, drawing air evenly across the full attic space. When paired with functional soffit intake vents, ridge venting creates balanced airflow that maintains attic temperatures within a few degrees of outside air -- preventing the heat buildup that bakes shingles from below in summer and the warm-attic conditions that melt snow into ice dams in winter.',
     'For homeowners in [Bloomfield](/roofing-in-bloomfield-nj) planning a [roof replacement](/roof-replacement-bloomfield-nj), adding ridge ventilation during re-roofing costs a fraction of what a standalone retrofit requires. The shingles are already removed, the ridge is already exposed, and cutting the slot and installing the ridge vent adds minimal labor to the project. We recommend that every Bloomfield re-roofing project include a ventilation assessment and ridge vent installation when the existing exhaust ventilation is inadequate. The investment protects the new shingle warranty -- most manufacturers require adequate ventilation for full warranty coverage.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofVentInstallationRepair: ComboContent = {
     {
       question: 'How much does roof vent installation cost in Bloomfield?',
       answer: 'Ridge vent installation as a standalone project runs eight hundred to fifteen hundred dollars on a typical Bloomfield home, including ridge cap removal, slot cutting, vent installation, and re-capping. Individual box vent installation or replacement costs two hundred fifty to four hundred dollars per vent including flashing. Power vent installation runs six hundred to one thousand dollars. Costs are significantly lower when combined with re-roofing since the ridge and shingles are already being replaced.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Bloomfield, NJ?',
+      answer: 'Most roof vent installation repair projects in Bloomfield range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation in Bloomfield NJ -- ridge vents, box vents, and ventilation upgrades for Cape Cods, split-levels, and colonials.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

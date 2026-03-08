@@ -92,9 +92,54 @@ export const commercialServicesContent: ServiceContent[] = [
       {
         question: 'Can you install a new commercial roof without disrupting our business operations?',
         answer: 'We regularly install commercial roofs on fully occupied buildings, including retail centers, medical facilities, schools, and office buildings. Our project planning specifically addresses noise management, debris containment, access maintenance, and safety protocols that allow normal business operations to continue during the project. For noise-sensitive tenants, we can schedule the loudest phases of work during off-hours or weekends.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does commercial roof installation cost in Essex County, NJ?',
+        answer: 'Most commercial roof installation projects in Essex County range from $8–$14/sq ft, varies by system and building size. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$8–$14/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Commercial Roof Installation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 2. Commercial Roof Repair ────────────────────────────────────────────
   {
@@ -183,9 +228,54 @@ export const commercialServicesContent: ServiceContent[] = [
       {
         question: 'Do you offer commercial roof maintenance contracts?',
         answer: 'Yes, our commercial maintenance contracts include scheduled inspections, preventive maintenance, minor repair allowances, and priority emergency response. Regular maintenance typically extends roof life by several years and reduces total lifecycle costs by catching problems early when they can be resolved inexpensively. We customize maintenance programs to your building type, roof system, and budget, and we provide condition reports after every visit.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does commercial roof repair cost in Essex County, NJ?',
+        answer: 'Most commercial roof repair projects in Essex County range from $500–$5,000, for most commercial repair projects. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$500–$5,000',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Commercial Roof Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 3. Commercial Roof Replacement ───────────────────────────────────────
   {
@@ -278,9 +368,54 @@ export const commercialServicesContent: ServiceContent[] = [
       {
         question: 'What warranties are available for commercial roof replacement?',
         answer: 'Commercial roof warranty options range from basic material warranties (10 to 15 years) to comprehensive NDL (No Dollar Limit) system warranties (15 to 30 years). NDL warranties cover both materials and labor with no cap on repair costs and are available from major manufacturers when certified contractors install their specified systems. We recommend NDL warranties for most commercial properties because they provide the most complete protection and the strongest assurance of long-term performance.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does commercial roof replacement cost in Essex County, NJ?',
+        answer: 'Most commercial roof replacement projects in Essex County range from $8–$16/sq ft, full tear-off and replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$8–$16/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Commercial Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 4. Roof Thermal Imaging Inspections ──────────────────────────────────
   {
@@ -373,9 +508,54 @@ export const commercialServicesContent: ServiceContent[] = [
       {
         question: 'Can thermal imaging replace physical roof inspections?',
         answer: 'Thermal imaging is a powerful complement to physical inspection, not a replacement. Physical inspection identifies surface conditions such as membrane damage, seam separation, flashing deterioration, and drainage problems that thermal imaging cannot detect. Conversely, thermal imaging reveals concealed conditions beneath intact surfaces that physical inspection cannot see. The most comprehensive assessment combines both methods for maximum diagnostic value.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does roof thermal imaging inspections cost in Essex County, NJ?',
+        answer: 'Most roof thermal imaging inspections projects in Essex County range from $300–$700, infrared thermal scan with report. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$300–$700',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Thermal Imaging Inspections',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 5. Infrared Roof Leak Detection ──────────────────────────────────────
   {
@@ -468,7 +648,52 @@ export const commercialServicesContent: ServiceContent[] = [
       {
         question: 'Do weather conditions affect infrared detection accuracy?',
         answer: 'Weather conditions significantly affect infrared detection quality. The best results are obtained on clear evenings following sunny days with minimal wind. Cloud cover, rain, high winds, and rapid temperature changes can all reduce detection accuracy by disrupting the thermal patterns that reveal moisture. We monitor weather conditions carefully and will reschedule a survey rather than perform it under suboptimal conditions that might produce unreliable results.'
-      }
-    ]
-  }
+      },
+      {
+        question: 'How much does infrared roof leak detection cost in Essex County, NJ?',
+        answer: 'Most infrared roof leak detection projects in Essex County range from $350–$800, pinpoint leak detection service. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$350–$800',
+      factors: [
+        'Size and location of the damaged area',
+        'Roofing material type (shingle, membrane, slate, tile)',
+        'Accessibility and roof pitch',
+        'Whether underlying decking needs repair',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Infrared Roof Leak Detection',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],}
 ];

@@ -4,7 +4,7 @@ export const roselandRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'roseland',
   overview: [
-    'Ice dam prevention in Roseland addresses one of the borough\'s most persistent winter roofing problems. The 1950s and 1960s homes that define Roseland\'s residential landscape were built with minimal attic insulation and passive ventilation systems that fall far below current standards. These conditions create the temperature differentials that generate ice dams -- heat escaping through the ceiling warms the roof surface, melting accumulated snow that flows to the colder eave overhang and refreezes into ice barriers that dam subsequent meltwater. Our [roof ice dam prevention](/roof-ice-dam-prevention) approach addresses the root causes rather than treating symptoms.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Roseland — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Roseland addresses one of the borough\'s most persistent winter roofing problems. The 1950s and 1960s homes that define Roseland\'s residential landscape were built with minimal attic insulation and passive ventilation systems that fall far below current standards. These conditions create the temperature differentials that generate ice dams -- heat escaping through the ceiling warms the roof surface, melting accumulated snow that flows to the colder eave overhang and refreezes into ice barriers that dam subsequent meltwater. Our [roof ice dam prevention](/roof-ice-dam-prevention) approach addresses the root causes rather than treating symptoms.',
     'The split-level homes concentrated throughout Roseland\'s residential streets are particularly susceptible to ice dam formation at the offset wall junction where upper and lower roof sections meet. This characteristic geometry creates a natural collection point for snowmelt where the warm upper roof section sends water to the colder lower section. The ice dam that forms at this junction forces water into the wall cavity at the split point, causing the interior staining that Roseland split-level owners know all too well. Homeowners in neighboring [Verona](/roof-ice-dam-prevention-verona-nj) experience similar split-level ice dam issues.',
     'Our prevention strategy combines three approaches: roof-level protection through ice-and-water shield membrane at vulnerable locations, attic-level improvements through air sealing and insulation upgrades, and ventilation system balancing that maintains consistent roof surface temperature to prevent the differential heating that initiates the melt-freeze cycle. This comprehensive method delivers permanent results rather than the temporary relief that heat cables and seasonal steam removal provide.'
   ],
@@ -34,7 +34,25 @@ export const roselandRoofIceDamPrevention: ComboContent = {
     {
       question: 'Can ice dam prevention be done without replacing my roof?',
       answer: 'Yes, the most impactful ice dam prevention work occurs in the attic rather than on the roof surface. Air sealing, insulation upgrades, and ventilation improvements are all performed from inside the attic without disturbing the existing shingles. If the roof is being replaced for other reasons, we add ice-and-water shield membrane at eaves, valleys, and the split-level step junction as additional protection. But the attic work alone eliminates the temperature differential that causes ice dams in the first place.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Roseland, NJ?',
+      answer: 'Most roof ice dam prevention projects in Roseland range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Roseland NJ -- root-cause solutions with air sealing, insulation, and ventilation for split-levels and colonials.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

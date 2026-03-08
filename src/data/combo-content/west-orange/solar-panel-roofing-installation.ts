@@ -4,7 +4,7 @@ export const westOrangeSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'west-orange',
   overview: [
-    'Solar panel roofing installation in West Orange combines roof replacement or reinforcement with photovoltaic array mounting, creating an integrated system where both components are engineered together rather than treated as separate projects. Our [solar panel roofing installation](/solar-panel-roofing-installation) approach in West Orange accounts for the township\'s elevation gradient, which creates dramatically different solar exposure profiles from shaded valley floors to sun-drenched ridge tops.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in West Orange — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in West Orange combines roof replacement or reinforcement with photovoltaic array mounting, creating an integrated system where both components are engineered together rather than treated as separate projects. Our [solar panel roofing installation](/solar-panel-roofing-installation) approach in West Orange accounts for the township\'s elevation gradient, which creates dramatically different solar exposure profiles from shaded valley floors to sun-drenched ridge tops.',
     'Ridge-top properties along Eagle Rock Avenue and Prospect Avenue offer West Orange\'s best solar production potential, with south-facing roof planes receiving direct sunlight unobstructed by terrain or vegetation from late morning through afternoon. These elevated locations generate 15 to 20 percent more annual kilowatt-hours per panel than valley-floor installations, making the solar investment significantly more productive per panel. Homeowners in neighboring [Verona](/solar-panel-roofing-installation-verona-nj) achieve similar ridge-top production on south-facing Watchung slopes.',
     'Valley-floor and mid-slope installations in West Orange require careful shade analysis that accounts for the mature hardwood canopy surrounding South Mountain Reservation and the terrain-driven shadow patterns cast by the Watchung ridge itself. A property that appears adequately sunny in summer may lose significant solar exposure during winter months when the low sun angle falls behind the ridge or beneath the canopy. We perform year-round shade modeling using satellite imagery and terrain data to accurately predict annual production before homeowners commit to solar investment.',
     'New Jersey\'s solar renewable energy certificate program and federal tax credits make solar investment financially compelling for [West Orange](/roofing-in-west-orange-nj) homeowners on both ridge and valley properties, though the payback timeline varies with solar exposure. Ridge-top installations with optimal exposure often achieve payback in 6 to 8 years, while partially shaded mid-slope installations may require 10 to 12 years. We provide detailed financial modeling for each property, enabling informed investment decisions based on actual predicted production rather than generic estimates.'
@@ -35,7 +35,25 @@ export const westOrangeSolarPanelRoofingInstallation: ComboContent = {
     {
       question: 'Can solar panels handle the wind on my Eagle Rock ridge-top home?',
       answer: 'Yes, with proper engineering. Our ridge-top solar installations use through-bolt mounting into rafters with structural aluminum rail systems rated for wind speeds exceeding 130 miles per hour. We engineer array layout and mounting density based on the specific wind exposure of your property\'s elevation and orientation, exceeding ASCE 7 requirements for the Watchung ridge-top wind zone. Ballasted mounting systems that rely on weight rather than attachment are not appropriate for ridge-top locations and we do not install them at elevation.'
-    }
+    },
+    {
+      question: 'How much does solar panel roofing installation cost in West Orange, NJ?',
+      answer: 'Most solar panel roofing installation projects in West Orange range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing installation in West Orange NJ. Integrated roof and solar systems with shade analysis for ridge-to-valley homes.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

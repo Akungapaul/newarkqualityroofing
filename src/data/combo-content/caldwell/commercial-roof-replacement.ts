@@ -4,7 +4,7 @@ export const caldwellCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Commercial roof replacement in Caldwell involves the complete removal of an aged flat roof system and installation of a new membrane, insulation, and flashing assembly on the borough\'s small-scale commercial buildings. These projects differ fundamentally from urban commercial replacements in [Newark](/commercial-roof-replacement-newark-nj) where buildings span tens of thousands of square feet and require crane-delivered materials. Caldwell commercial roofs typically cover 2,000 to 8,000 square feet with direct ladder or stair access, allowing efficient material staging and waste removal without the heavy equipment mobilization that larger projects demand.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Caldwell — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Caldwell involves the complete removal of an aged flat roof system and installation of a new membrane, insulation, and flashing assembly on the borough\'s small-scale commercial buildings. These projects differ fundamentally from urban commercial replacements in [Newark](/commercial-roof-replacement-newark-nj) where buildings span tens of thousands of square feet and require crane-delivered materials. Caldwell commercial roofs typically cover 2,000 to 8,000 square feet with direct ladder or stair access, allowing efficient material staging and waste removal without the heavy equipment mobilization that larger projects demand.',
     'The timing of commercial roof replacement on [Caldwell](/roofing-in-caldwell-nj) buildings involves both structural necessity and business planning. Building owners who monitor their roof condition through regular inspections can plan replacement during favorable business cycles -- after tax season for accountants, during summer for schools, before holiday season for retailers. Emergency replacement forced by sudden system failure eliminates this planning advantage and often costs more due to expedited scheduling and material procurement. Our [commercial roof replacement](/commercial-roof-replacement) consultations with Caldwell building owners begin years before the replacement date, establishing a planned timeline that aligns with business operations.',
     'Caldwell commercial roof replacement projects must satisfy both functional performance requirements and community context. The borough\'s commercial district operates within a residential-adjacent environment where construction noise, material deliveries, and dumpster placement affect neighboring properties and pedestrians. Professional execution that minimizes community impact reflects the small-town values that govern Caldwell business operations and protects the building owner\'s standing within the borough.'
   ],
@@ -34,7 +34,25 @@ export const caldwellCommercialRoofReplacement: ComboContent = {
     {
       question: 'Can I stay open during commercial roof replacement in Caldwell?',
       answer: 'Most Caldwell businesses remain open throughout roof replacement. Noise levels are highest during tear-off and decrease significantly during insulation and membrane installation. We schedule the noisiest work early in the day and coordinate with your business hours. Interior protection measures -- covering merchandise, moving sensitive equipment, protecting flooring beneath access points -- are established before work begins. Restaurant and medical facilities may prefer scheduling during slower business periods for certain phases of the work.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Caldwell, NJ?',
+      answer: 'Most commercial roof replacement projects in Caldwell range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Caldwell NJ -- full tear-off and new membrane installation for Bloomfield Avenue shops and office buildings.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

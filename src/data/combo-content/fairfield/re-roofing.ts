@@ -4,7 +4,7 @@ export const fairfieldReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'fairfield',
   overview: [
-    'Re-roofing in Fairfield encompasses the complete process of replacing an aging or failed roof system with a new installation, whether through full tear-off or overlay depending on conditions. For Fairfield homeowners, re-roofing represents the single largest exterior maintenance investment in their home\'s lifecycle, and the decisions made during this process -- material selection, ventilation improvements, insulation upgrades, contractor selection -- affect the home\'s performance, appearance, and value for the next twenty to thirty years. Newark Quality Roofing guides Fairfield homeowners through every decision with transparent information and professional recommendations tailored to each home\'s specific conditions.',
+    'Newark Quality Roofing delivers expert re roofing in Fairfield — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Fairfield encompasses the complete process of replacing an aging or failed roof system with a new installation, whether through full tear-off or overlay depending on conditions. For Fairfield homeowners, re-roofing represents the single largest exterior maintenance investment in their home\'s lifecycle, and the decisions made during this process -- material selection, ventilation improvements, insulation upgrades, contractor selection -- affect the home\'s performance, appearance, and value for the next twenty to thirty years. Newark Quality Roofing guides Fairfield homeowners through every decision with transparent information and professional recommendations tailored to each home\'s specific conditions.',
     'Fairfield\'s housing stock is entering a re-roofing cycle driven by the age of original installations. Homes from the 1970s and 1980s that received their first roof replacement in the early 2000s are now approaching the end of that second roof system\'s life. Homes from the 1990s with original builder-grade shingles are reaching their twenty-five to thirty year replacement threshold. This generational re-roofing demand creates a busy market in Fairfield and across western Essex County, where homeowners in [Caldwell](/re-roofing-caldwell-nj), [Roseland](/re-roofing-roseland-nj), and neighboring communities face the same timing cycle.',
     'Our [re-roofing](/re-roofing) approach in Fairfield treats each project as a system upgrade opportunity rather than a simple material swap. Beyond installing new shingles, we evaluate attic ventilation for adequacy, inspect insulation levels, upgrade flashing at all penetrations, install modern ice-and-water protection at vulnerable details, and address any structural concerns discovered during the project. This comprehensive approach costs marginally more than a shingle-only replacement but delivers significantly better long-term performance and value.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldReRoofing: ComboContent = {
     {
       question: 'Can I stay in my Fairfield home during re-roofing?',
       answer: 'Yes. Residential re-roofing is an exterior project that does not require the homeowner to vacate. The work does generate noise during tear-off and hammering, typically from early morning through late afternoon. We recommend planning indoor activities away from the rooms directly beneath the roof work zone and keeping pets indoors during the project. If you have specific concerns about noise or disruption, we can discuss scheduling accommodations.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Fairfield, NJ?',
+      answer: 'Most re roofing projects in Fairfield range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Fairfield NJ. Complete roof replacement with material upgrades, ventilation improvement, and enhanced weatherproofing.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

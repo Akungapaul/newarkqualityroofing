@@ -4,7 +4,7 @@ export const caldwellModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'caldwell',
   overview: [
-    'Modified bitumen roofing brings multi-layer redundancy to Caldwell\'s flat and low-slope commercial buildings, providing a waterproofing system where multiple overlapping membrane plies create backup protection that single-ply systems cannot match. The small commercial buildings along Bloomfield Avenue, professional offices on Personette Avenue, and mixed-use buildings in downtown Caldwell carry roof surfaces where modified bitumen\'s self-healing properties and puncture resistance serve particularly well given the borough\'s constant exposure to falling tree debris.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Caldwell — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing brings multi-layer redundancy to Caldwell\'s flat and low-slope commercial buildings, providing a waterproofing system where multiple overlapping membrane plies create backup protection that single-ply systems cannot match. The small commercial buildings along Bloomfield Avenue, professional offices on Personette Avenue, and mixed-use buildings in downtown Caldwell carry roof surfaces where modified bitumen\'s self-healing properties and puncture resistance serve particularly well given the borough\'s constant exposure to falling tree debris.',
     'The modified bitumen membrane system consists of two or three layers of polymer-modified asphalt reinforced with fiberglass or polyester fabric, applied in overlapping courses that create a monolithic waterproof surface. Unlike single-ply systems where one puncture admits water, modified bitumen\'s layered construction means a branch impact that penetrates the cap sheet still encounters the base sheet below -- a redundancy that [Caldwell](/roofing-in-caldwell-nj) building owners value given the tree exposure their roofs endure. Our [modified bitumen roofing](/modified-bitumen-roofing) installations in Caldwell leverage this redundancy advantage for commercial contexts where leak prevention protects inventory, equipment, and business operations.',
     'Caldwell\'s modified bitumen applications differ from the large-scale commercial installations in [Newark](/modified-bitumen-roofing-newark-nj) or [East Orange](/modified-bitumen-roofing-east-orange-nj). Caldwell buildings feature compact footprints where detail work at parapet walls, equipment curbs, and drain penetrations comprises a larger proportion of total installation area. Getting these transitions right determines the system\'s long-term performance more than the field membrane installation, which is relatively straightforward on Caldwell\'s modest building dimensions.'
   ],
@@ -34,7 +34,25 @@ export const caldwellModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Can modified bitumen be installed over existing roofing on my Caldwell building?',
       answer: 'Modified bitumen can be installed over existing smooth-surface built-up roofing or modified bitumen if the existing membrane is dry, adhered, and structurally sound. Overlay eliminates tear-off cost and waste but adds weight to the roof structure. We perform moisture testing and structural assessment before recommending overlay to ensure the existing system provides a suitable substrate and the building structure can carry the additional load. When moisture is present in existing insulation, tear-off is necessary regardless of structural capacity.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Caldwell, NJ?',
+      answer: 'Most modified bitumen roofing projects in Caldwell range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Caldwell NJ -- multi-layer redundancy for Bloomfield Avenue commercial buildings with torch and cold-applied options.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

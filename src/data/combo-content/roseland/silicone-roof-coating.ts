@@ -4,7 +4,7 @@ export const roselandSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'roseland',
   overview: [
-    'Silicone roof coating extends the service life of aging commercial flat roofs in Roseland by creating a seamless, reflective, UV-resistant surface over existing membrane systems. For the office buildings along Eisenhower Parkway and Eagle Rock Avenue carrying membranes that are past their prime but not yet catastrophically failed, silicone coating provides a restoration option that defers full replacement by 10 to 15 years at a fraction of replacement cost. Our [silicone roof coating](/silicone-roof-coating) service evaluates candidacy, prepares the existing surface, and applies the coating system with manufacturer-certified techniques.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Roseland — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating extends the service life of aging commercial flat roofs in Roseland by creating a seamless, reflective, UV-resistant surface over existing membrane systems. For the office buildings along Eisenhower Parkway and Eagle Rock Avenue carrying membranes that are past their prime but not yet catastrophically failed, silicone coating provides a restoration option that defers full replacement by 10 to 15 years at a fraction of replacement cost. Our [silicone roof coating](/silicone-roof-coating) service evaluates candidacy, prepares the existing surface, and applies the coating system with manufacturer-certified techniques.',
     'The material properties of silicone distinguish it from acrylic and urethane coatings that other contractors may offer as alternatives. Silicone does not degrade in ponding water -- a critical advantage on Roseland commercial roofs where drainage imperfections create standing water after rain events. Acrylic coatings soften and erode in ponding conditions, while silicone maintains its integrity indefinitely in standing water. This ponding tolerance makes silicone the only appropriate coating choice for flat roofs that cannot guarantee complete positive drainage.',
     'Energy performance improvement is an immediate benefit of silicone coating on dark-surface commercial roofs. The white reflective coating transforms a heat-absorbing dark membrane into an ENERGY STAR-rated reflective surface, reducing roof surface temperature by 50 to 60 degrees during summer months. For air-conditioned office buildings in Roseland, this temperature reduction translates directly into cooling cost savings that begin the day the coating cures. Commercial properties in [Caldwell](/silicone-roof-coating-caldwell-nj) have achieved similar energy performance improvements through silicone restoration.'
   ],
@@ -34,7 +34,25 @@ export const roselandSiliconeRoofCoating: ComboContent = {
     {
       question: 'Does silicone coating handle ponding water on our flat roof?',
       answer: 'Silicone is the only commercial roof coating that performs reliably in ponding water conditions. Unlike acrylic coatings that soften and erode in standing water, silicone maintains its integrity indefinitely in ponding areas. This makes silicone the default recommendation for Roseland commercial roofs where drainage imperfections or equipment obstructions create standing water after rain events. No drainage correction is required before coating application when silicone is specified.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Roseland, NJ?',
+      answer: 'Most silicone roof coating projects in Roseland range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Roseland NJ -- restore aging commercial flat roofs with reflective, ponding-resistant coating systems.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

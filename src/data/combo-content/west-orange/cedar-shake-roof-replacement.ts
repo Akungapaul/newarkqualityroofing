@@ -4,7 +4,7 @@ export const westOrangeCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Cedar shake roof replacement renews the natural aesthetic that connects West Orange homes to their wooded mountain setting, installing fresh hand-split Western red cedar with fire-retardant treatment and rain-screen ventilation that modern installation science provides but that previous generation cedar roofs lacked. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) work in West Orange delivers the premium curb appeal and natural insulation that cedar provides, engineered for the moisture dynamics and fire safety standards that the township\'s forest-adjacent environment demands.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in West Orange — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement renews the natural aesthetic that connects West Orange homes to their wooded mountain setting, installing fresh hand-split Western red cedar with fire-retardant treatment and rain-screen ventilation that modern installation science provides but that previous generation cedar roofs lacked. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) work in West Orange delivers the premium curb appeal and natural insulation that cedar provides, engineered for the moisture dynamics and fire safety standards that the township\'s forest-adjacent environment demands.',
     'West Orange\'s upper-elevation neighborhoods along Eagle Rock Avenue and surrounding Llewellyn Park maintain cedar shake traditions that date to the original construction of these estate properties. Replacement on these homes must match the aesthetic character of the original installation -- hand-split faces with sawn backs, 10-inch exposure maintaining historical shadow lines, and graduated thickness courses that create the dimensional depth defining premium cedar roofwork. Homeowners near [Verona](/cedar-shake-roof-replacement-verona-nj) maintain similar cedar shake heritage on their own Watchung ridge estates.',
     'Homes converting from asphalt to cedar shake during replacement invest in both aesthetics and natural performance. Cedar\'s R-value of 0.87 per inch provides meaningful insulation benefit compared to asphalt\'s negligible thermal resistance, reducing heating costs on [West Orange](/roofing-in-west-orange-nj) homes where the mid-century housing stock benefits from every insulation improvement available. The natural beauty premium commands real estate value contribution that asphalt shingles cannot match in West Orange\'s luxury-adjacent neighborhoods.'
   ],
@@ -34,7 +34,25 @@ export const westOrangeCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Can I switch from cedar to a different material during replacement?',
       answer: 'Yes. Homeowners who value the natural aesthetic but want lower maintenance can transition to composite shake products or metal shingles with shake profiles. Those prioritizing cost can switch to architectural asphalt shingles. We present alternatives during consultation when homeowners express interest in exploring options beyond cedar-to-cedar replacement, comparing aesthetics, performance, and lifecycle costs across available materials.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in West Orange, NJ?',
+      answer: 'Most cedar shake roof replacement projects in West Orange range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in West Orange NJ. Hand-split cedar with rain-screen ventilation and fire-retardant treatment.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

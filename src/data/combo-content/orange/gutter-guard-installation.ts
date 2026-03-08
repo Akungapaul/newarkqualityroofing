@@ -4,7 +4,7 @@ export const orangeGutterGuardInstallation: ComboContent = {
   serviceId: 'gutter-guard-installation',
   cityId: 'orange',
   overview: [
-    'Gutter guard installation in Orange is less about convenience and more about structural protection for homes battling South Mountain\'s relentless debris assault. Properties within two blocks of the reservation face a four-season cycle of organic material -- spring pollen and catkins, summer seed pods, fall leaf drop, and winter twig accumulation -- that clogs unprotected gutters within weeks of cleaning. Our [gutter guard installation](/gutter-guard-installation) projects across Orange eliminate the clogging that causes gutter overflow, fascia rot, foundation saturation, and the ice dam formation that uncontrolled gutter blockage produces during winter.',
+    'Newark Quality Roofing delivers expert gutter guard installation in Orange — with prices starting from $800–$2,500 and free estimates available today. Gutter guard installation in Orange is less about convenience and more about structural protection for homes battling South Mountain\'s relentless debris assault. Properties within two blocks of the reservation face a four-season cycle of organic material -- spring pollen and catkins, summer seed pods, fall leaf drop, and winter twig accumulation -- that clogs unprotected gutters within weeks of cleaning. Our [gutter guard installation](/gutter-guard-installation) projects across Orange eliminate the clogging that causes gutter overflow, fascia rot, foundation saturation, and the ice dam formation that uncontrolled gutter blockage produces during winter.',
     'Not all gutter guards perform equally in Orange\'s debris environment. Screen-type guards handle large leaves effectively but pass through the fine debris -- pine needles, shingle granules, hemlock needles -- that South Mountain\'s diverse canopy produces. Mesh guards block fine debris but can develop a layer of decomposing organic film on their surface that impedes water entry during heavy rain. Our Orange installations use micro-mesh gutter guards with a stainless steel filtering surface over an aluminum frame -- the only guard type that reliably handles the full range of debris that mountain-adjacent properties encounter.',
     'For Orange homeowners, gutter guards represent an investment in reduced maintenance costs and prevented damage rather than a luxury addition. The typical mountain-adjacent Orange home requires four professional gutter cleanings per year at $150 to $250 per visit. Over a 20-year gutter guard lifespan, the eliminated cleaning costs alone approach or exceed the guard installation cost -- before factoring in the prevented fascia rot, foundation damage, and ice dam formation that clogged gutters cause. Homeowners in [West Orange](/gutter-guard-installation-west-orange-nj) face identical tree-canopy gutter challenges on their hillside properties.'
   ],
@@ -34,7 +34,25 @@ export const orangeGutterGuardInstallation: ComboContent = {
     {
       question: 'Can gutter guards be installed on my existing Orange gutters?',
       answer: 'Yes, provided the existing gutters are in good structural condition, properly sloped, and securely attached. We assess existing gutter condition during the installation survey and recommend repairs or replacement for any sections that would not support guards effectively. Guards installed over failing gutters create a false sense of security while the system deteriorates out of sight.'
-    }
+    },
+    {
+      question: 'How much does gutter guard installation cost in Orange, NJ?',
+      answer: 'Most gutter guard installation projects in Orange range from $800–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter guard installation in Orange NJ -- micro-mesh for South Mountain debris, pine needle exclusion, ice prevention, and tight-lot gutter protection.',
+  pricing: {
+    range: '$800–$2,500',
+    note: 'for whole-home gutter protection',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter guard installation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'south-orange',
   overview: [
-    'Emergency roof repair calls from South Orange Village carry a specific urgency that stems from the premium materials covering most homes in this community. When a storm-toppled oak limb cracks natural slate on a Montrose Park estate, or when ice dam meltwater breaches the flashing on a Tudor Revival dormer, the damage cascades faster and costs more than equivalent failures on standard asphalt shingle roofs. Slate shards scatter across multiple courses, copper valley liners buckle under impact, and cedar shakes split along their grain under sudden loading -- each failure mode requiring specialized materials and techniques for even temporary stabilization.',
+    'Newark Quality Roofing delivers expert emergency roof repair in South Orange — with prices starting from $500–$2,500 and free estimates available today. Emergency roof repair calls from South Orange Village carry a specific urgency that stems from the premium materials covering most homes in this community. When a storm-toppled oak limb cracks natural slate on a Montrose Park estate, or when ice dam meltwater breaches the flashing on a Tudor Revival dormer, the damage cascades faster and costs more than equivalent failures on standard asphalt shingle roofs. Slate shards scatter across multiple courses, copper valley liners buckle under impact, and cedar shakes split along their grain under sudden loading -- each failure mode requiring specialized materials and techniques for even temporary stabilization.',
     'South Orange\'s proximity to South Mountain Reservation concentrates storm impact on the western neighborhoods where mature hardwoods stand within branch-strike distance of rooflines. The same towering oaks and maples that define the village\'s character become projectile sources during nor\'easters, summer thunderstorms, and the occasional tropical system remnant that tracks through Essex County. Our emergency response teams serving [Maplewood](/emergency-roof-repair-maplewood-nj) and South Orange carry specialized tarping materials rated for the complex roof geometries these communities share -- standard poly tarps designed for simple gable roofs cannot adequately cover the multi-faceted rooflines of Tudor and Colonial Revival homes.',
     'Seton Hall University campus buildings require emergency response capability year-round, but especially during the academic year when occupied residence halls and active classroom buildings cannot tolerate active leaks. Our commercial emergency protocols for Seton Hall include direct communication with campus security and facilities management, pre-authorized access procedures, and staged response materials at our nearest facility for rapid deployment to campus locations.',
     'The village\'s flood zone concerns in the Rahway River valley areas add a dimension to emergency roof work that inland communities do not face. During heavy rain events, homes in the lower-elevation eastern sections of South Orange can experience simultaneous roof leaks and rising water -- a combination that demands rapid [emergency roof repair](/emergency-roof-repair) stabilization to prevent the compounding damage that occurs when water enters a structure from both above and below.'
@@ -35,7 +35,25 @@ export const southOrangeEmergencyRoofRepair: ComboContent = {
     {
       question: 'How long will a temporary repair hold on my South Orange roof?',
       answer: 'Our emergency stabilization work is designed to protect the structure through multiple weather events while permanent repairs are scheduled. Temporary protections on slate roofs typically hold for four to eight weeks depending on weather severity. Cedar shake temporary patches can last two to three months. We schedule follow-up inspections after significant weather events to verify temporary protection integrity and adjust the permanent repair timeline accordingly.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in South Orange, NJ?',
+      answer: 'Most emergency roof repair projects in South Orange range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in South Orange NJ -- rapid response for slate, cedar shake, and storm damage on Montrose Park estates and village homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

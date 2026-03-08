@@ -4,7 +4,7 @@ export const caldwellRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'caldwell',
   overview: [
-    'Roof leaks in Caldwell follow patterns that reflect the borough\'s specific combination of housing stock and environmental conditions. The colonials and capes that line residential streets like Personette Avenue and the neighborhoods around Provost Square share common leak vulnerabilities: dormer valley intersections where two roof planes concentrate water flow, chimney step flashing that has corroded after decades of service, and ridge cap sealant that has dried and cracked under the alternating sun and shade of tree canopy cover. Understanding these Caldwell-specific failure points means our leak investigations begin with probable cause rather than blind searching, accelerating the path from dripping ceiling to permanent repair.',
+    'Newark Quality Roofing delivers expert roof leak repair in Caldwell — with prices starting from $300–$1,200 and free estimates available today. Roof leaks in Caldwell follow patterns that reflect the borough\'s specific combination of housing stock and environmental conditions. The colonials and capes that line residential streets like Personette Avenue and the neighborhoods around Provost Square share common leak vulnerabilities: dormer valley intersections where two roof planes concentrate water flow, chimney step flashing that has corroded after decades of service, and ridge cap sealant that has dried and cracked under the alternating sun and shade of tree canopy cover. Understanding these Caldwell-specific failure points means our leak investigations begin with probable cause rather than blind searching, accelerating the path from dripping ceiling to permanent repair.',
     'The moisture retention environment created by Caldwell\'s tree canopy exacerbates leak conditions in ways that homeowners in sun-exposed locations rarely experience. A minor flashing gap on a sun-drenched roof may only leak during heavy driving rain; the same gap on a Caldwell roof that stays damp for days under canopy shade leaks during every rain event because the moisture never fully evaporates from the compromised area. Moss growth along flashing edges and in shingle courses adds another pathway for water infiltration, wicking moisture sideways under shingle tabs and delivering it to penetration points that would otherwise remain dry. Leak repair in Caldwell must address both the primary entry point and the secondary moisture pathways that the shaded environment creates.',
     'Caldwell homeowners often discover leaks during the transitional seasons -- early spring snowmelt and late autumn rains -- when roof systems face sustained water exposure without the drying intervals that summer provides. The ceiling stain that appears in March may trace to a flashing failure that has been deteriorating for two years but only manifests when continuous moisture overwhelms the compromised area\'s limited remaining capacity. Our [roof leak repair](/roof-leak-repair) approach treats each leak as a diagnostic problem, tracing the water path from interior evidence to exterior entry point and identifying the root cause rather than simply sealing the most obvious surface symptom.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofLeakRepair: ComboContent = {
     {
       question: 'How much does roof leak repair cost on a Caldwell home?',
       answer: 'Caldwell roof leak repairs typically range from three hundred to fifteen hundred dollars depending on the cause and extent of damage. A simple pipe boot replacement or minor flashing reseal runs three to five hundred dollars. Dormer valley reflashing including ice-and-water shield membrane runs eight hundred to twelve hundred dollars. Repairs requiring sheathing replacement beneath the leak add material and labor costs. We provide a written repair quote after completing the diagnostic investigation so you know the exact cost before work proceeds. We do not charge separately for the diagnosis when it leads to an approved repair.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Caldwell, NJ?',
+      answer: 'Most roof leak repair projects in Caldwell range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in Caldwell NJ -- diagnostic water tracing for dormer valley leaks, chimney flashing failures, and ice dam damage.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

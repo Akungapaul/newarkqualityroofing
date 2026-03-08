@@ -4,7 +4,7 @@ export const essexFellsRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'essex-fells',
   overview: [
-    'Roof inspection on Essex Fells estates demands a material literacy and diagnostic thoroughness that general roofing inspectors simply cannot provide. The borough\'s architect-designed homes carry roofing systems spanning natural slate, standing-seam copper, hand-split cedar shake, and premium architectural shingles -- often multiple systems on a single property across the main residence, guest cottage, carriage house, and pool pavilion. Inspecting these systems requires the ability to distinguish between cosmetic weathering that adds character and structural deterioration that threatens performance, a distinction that only comes from years of experience working with these premium materials.',
+    'Newark Quality Roofing delivers expert roof inspection in Essex Fells — with prices starting from $150–$400 and free estimates available today. Roof inspection on Essex Fells estates demands a material literacy and diagnostic thoroughness that general roofing inspectors simply cannot provide. The borough\'s architect-designed homes carry roofing systems spanning natural slate, standing-seam copper, hand-split cedar shake, and premium architectural shingles -- often multiple systems on a single property across the main residence, guest cottage, carriage house, and pool pavilion. Inspecting these systems requires the ability to distinguish between cosmetic weathering that adds character and structural deterioration that threatens performance, a distinction that only comes from years of experience working with these premium materials.',
     'Multi-structure estate inspections in Essex Fells follow a property-wide methodology rather than the single-building approach used in standard residential inspections. When a homeowner on Hawthorne Avenue requests an inspection, our senior project manager assesses every roofed structure on the property, documenting conditions with high-resolution photography and generating a unified report that prioritizes maintenance across the entire estate. This comprehensive approach prevents the scenario where addressing one building\'s issues leaves problems developing undetected on another structure fifty feet away.',
     'The inspection culture in Essex Fells reflects the community\'s proactive approach to property stewardship. Unlike municipalities where inspections typically follow a visible leak or storm damage, many Essex Fells homeowners schedule inspections as part of ongoing maintenance programs -- often at the recommendation of their architect or property manager. Real estate transactions in the borough trigger particularly detailed inspections, as buyers acquiring properties valued at several million dollars expect thorough documentation of every roofing system\'s condition, remaining service life, and anticipated maintenance requirements.',
     'Our [roof inspection](/roof-inspection) reports for Essex Fells are formatted for professional review -- architects, property managers, insurance adjusters, and real estate attorneys all receive documentation they can interpret and act upon. This professional-grade reporting reflects the standards that homeowners in Essex Fells and neighboring [North Caldwell](/roof-inspection-north-caldwell-nj) expect when engaging any service provider for their estate properties.'
@@ -35,7 +35,25 @@ export const essexFellsRoofInspection: ComboContent = {
     {
       question: 'Do you use drones or thermal imaging during inspections?',
       answer: 'We use thermal imaging routinely to detect hidden moisture in decking and insulation that visual inspection cannot identify. For steep or inaccessible roof sections on large estates, we supplement physical inspection with high-resolution photography from elevated positions. However, we do not substitute remote sensing for hands-on inspection -- tap-testing slate, probing copper solder joints, and assessing cedar shake condition all require direct contact with the material.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Essex Fells, NJ?',
+      answer: 'Most roof inspection projects in Essex Fells range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Essex Fells NJ roof inspection for estate properties -- slate assessment, copper evaluation, multi-structure reports for architects and property managers.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'montclair',
   overview: [
-    'Full roof tear-off in Montclair strips the existing roofing system down to the structural deck, exposing every square foot of the roof substrate for inspection, repair, and fresh installation of a complete new roofing assembly. For the township\'s century-old Victorians carrying multiple accumulated roof layers, Tudor homes with deteriorated flashing concealed beneath decades of patching, and Arts & Crafts bungalows where original skip-sheathing hides beneath modern overlays, tear-off is the only approach that addresses the full scope of what time and weather have done to the roof structure.',
+    'Newark Quality Roofing delivers expert full roof tear off in Montclair — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off in Montclair strips the existing roofing system down to the structural deck, exposing every square foot of the roof substrate for inspection, repair, and fresh installation of a complete new roofing assembly. For the township\'s century-old Victorians carrying multiple accumulated roof layers, Tudor homes with deteriorated flashing concealed beneath decades of patching, and Arts & Crafts bungalows where original skip-sheathing hides beneath modern overlays, tear-off is the only approach that addresses the full scope of what time and weather have done to the roof structure.',
     'Montclair\'s residential renovation market increasingly favors tear-off over overlay because buyers in the eight-hundred-thousand-to-two-million-dollar price range scrutinize roof systems during pre-purchase inspection. A home with documented tear-off-and-new-installation commands higher confidence than a property with an overlay concealing unknown conditions beneath. The tear-off investment protects resale value in a market where [Montclair](/roofing-in-montclair-nj) buyers pay premiums for homes with transparent maintenance histories.',
     'Our [full roof tear-off](/full-roof-tear-off) projects in Montclair account for the property protection, debris management, and neighborhood coordination that the township\'s dense residential streets require. Tear-off debris is heavier and messier than any other roofing operation, and Montclair\'s proximity between houses, valuable landscaping, and street-parked vehicles demands protective measures that open-lot suburban tear-offs can skip. Properties in [Glen Ridge](/full-roof-tear-off-glen-ridge-nj) and [West Orange](/full-roof-tear-off-west-orange-nj) share these tight-lot protection requirements.'
   ],
@@ -30,7 +30,25 @@ export const montclairFullRoofTearOff: ComboContent = {
     {
       question: 'What happens if you find deck damage during tear-off?',
       answer: 'We repair or replace damaged deck sections before proceeding with new roof installation. Our proposals include per-panel pricing for deck replacement so the homeowner knows the cost before tear-off begins. Typical deck damage on Montclair homes concentrates at eave lines where ice dams have caused moisture infiltration, around chimney and dormer flashings where water has migrated, and at valleys where concentrated water flow has degraded the substrate. The repair scope is documented and communicated to the homeowner before work proceeds.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Montclair, NJ?',
+      answer: 'Most full roof tear off projects in Montclair range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Montclair NJ -- complete removal to deck for Victorian, Tudor, and multi-layer roof replacement projects.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const fairfieldCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'fairfield',
   overview: [
-    'Cedar shake roofing in Fairfield offers homeowners a natural, hand-crafted aesthetic that stands apart from the builder-standard asphalt shingles covering most of the township\'s subdivision homes. While cedar is far less prevalent here than in the historic neighborhoods of [Montclair](/cedar-shake-roofing-montclair-nj) or the estate properties of [Essex Fells](/cedar-shake-roofing-essex-fells-nj), Fairfield\'s custom-built homes and renovation-minded homeowners increasingly turn to cedar shake for its distinctive texture, natural insulation properties, and the warmth it adds to otherwise conventional streetscapes.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Fairfield — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing in Fairfield offers homeowners a natural, hand-crafted aesthetic that stands apart from the builder-standard asphalt shingles covering most of the township\'s subdivision homes. While cedar is far less prevalent here than in the historic neighborhoods of [Montclair](/cedar-shake-roofing-montclair-nj) or the estate properties of [Essex Fells](/cedar-shake-roofing-essex-fells-nj), Fairfield\'s custom-built homes and renovation-minded homeowners increasingly turn to cedar shake for its distinctive texture, natural insulation properties, and the warmth it adds to otherwise conventional streetscapes.',
     'Fairfield\'s housing stock, predominantly built between the 1960s and 1990s, offers straightforward roof geometries that work well with cedar shake installation. The moderate gable and hip roof pitches found throughout Hollywood Avenue neighborhoods and the developments near the Caldwell border provide adequate drainage slopes for cedar performance without the complex dormers and turrets that complicate cedar work in older Essex County communities. This relative simplicity translates to more predictable installation timelines and costs, making cedar an accessible premium upgrade for Fairfield homeowners seeking curb appeal differentiation.',
     'The township\'s proximity to the Passaic River introduces moisture management considerations specific to cedar roofing in Fairfield. Cedar shake relies on air circulation between individual shakes to shed moisture and resist decay -- a system that works well on sun-exposed, well-ventilated roof planes but can struggle on north-facing slopes and in areas where mature tree canopy limits drying. Our [cedar shake roofing](/cedar-shake-roofing) installations in Fairfield\'s river-adjacent Two Bridges area incorporate enhanced underlayment and wider shake spacing to compensate for the elevated ambient humidity that this geography produces.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldCedarShakeRoofing: ComboContent = {
     {
       question: 'Can cedar shakes be installed over my existing Fairfield asphalt shingle roof?',
       answer: 'No. Cedar shakes require a ventilated installation system -- typically spaced sheathing or counter-battens -- that is incompatible with installing over existing shingles. A full tear-off to the roof deck is necessary, followed by sheathing assessment, underlayment installation, and the ventilated shake system. This clean-start approach is actually an advantage: it allows us to inspect and repair the deck and install modern ice-and-water protection that the original roof likely lacked.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Fairfield, NJ?',
+      answer: 'Most cedar shake roofing projects in Fairfield range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Fairfield NJ. Hand-split cedar installation with moisture management for Passaic River proximity and fire-retardant options.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const essexFellsFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'essex-fells',
   overview: [
-    'Fascia boards on Essex Fells estates define the roofline profile that architects design as a deliberate visual element of the home\'s architectural composition. Unlike the utilitarian fascia installations on standard suburban homes where a painted one-by-six board serves as gutter backing, Essex Fells fascia systems incorporate crown molding profiles, composite assemblies built up from multiple trim elements, and custom-milled wood shapes that create the roofline shadow patterns visible from the estate approach. Repairing or replacing these fascia systems requires architectural sensitivity and millwork capability beyond standard roofing practice.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Essex Fells — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards on Essex Fells estates define the roofline profile that architects design as a deliberate visual element of the home\'s architectural composition. Unlike the utilitarian fascia installations on standard suburban homes where a painted one-by-six board serves as gutter backing, Essex Fells fascia systems incorporate crown molding profiles, composite assemblies built up from multiple trim elements, and custom-milled wood shapes that create the roofline shadow patterns visible from the estate approach. Repairing or replacing these fascia systems requires architectural sensitivity and millwork capability beyond standard roofing practice.',
     'Fascia deterioration on Essex Fells properties follows patterns driven by the borough\'s shaded, moisture-retentive environment. The heavy canopy prevents solar drying of fascia surfaces after rain, extending moisture contact time that promotes wood decay. Gutter overflow from debris-clogged systems saturates fascia boards repeatedly during autumn and spring rainstorms. Wildlife -- particularly woodpeckers seeking insects in softened wood and squirrels gnawing entry points for attic nesting -- accelerates the deterioration that moisture initiates. These compounding factors create fascia repair needs more frequently than open-exposure suburban installations experience.',
     'Our [fascia installation and repair](/fascia-installation-repair) practice in Essex Fells addresses both the functional drainage support role and the architectural trim role that fascia serves on estate homes. We match existing wood species, replicate custom profiles using our millwork capability, and install replacement sections with the seamless joints and paint-ready finish that the home\'s original trim carpenter achieved. When complete deterioration requires full fascia replacement, we evaluate material upgrade options -- cellular PVC, composite boards, or copper cladding -- that provide moisture resistance superior to the original wood while maintaining the architectural profile.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsFasciaInstallationRepair: ComboContent = {
     {
       question: 'Does fascia replacement require removing the gutters?',
       answer: 'Gutter removal or shifting is typically necessary to access the fascia surface fully. On Essex Fells properties with copper gutters, we handle the gutter removal and reinstallation carefully to avoid denting or bending the copper profiles. Gutter hangers are replaced when they show corrosion or when the new fascia material requires different hanger specifications. We coordinate fascia replacement with any planned gutter maintenance or cleaning to minimize the number of times gutters are handled during the project.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in Essex Fells, NJ?',
+      answer: 'Most fascia installation repair projects in Essex Fells range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Essex Fells NJ -- custom profile replication and moisture-resistant upgrades for estate rooflines.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

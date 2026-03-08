@@ -4,7 +4,7 @@ export const bloomfieldCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'bloomfield',
   overview: [
-    'Custom roof design consultation in Bloomfield serves homeowners and building owners who face roofing decisions beyond the straightforward re-roof -- additions that must integrate with existing rooflines, conversions that change building use and loading requirements, and architectural renovations that transform the building\'s appearance through roof form changes. The practical Cape Cods and split-levels that define Bloomfield\'s residential character were built with simple, functional roof designs. When homeowners renovate -- adding second-story dormers to Cape Cods, building family room additions on colonials, or converting garages to living space on ranches -- the new roofline must integrate structurally and aesthetically with the existing home.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Bloomfield — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Bloomfield serves homeowners and building owners who face roofing decisions beyond the straightforward re-roof -- additions that must integrate with existing rooflines, conversions that change building use and loading requirements, and architectural renovations that transform the building\'s appearance through roof form changes. The practical Cape Cods and split-levels that define Bloomfield\'s residential character were built with simple, functional roof designs. When homeowners renovate -- adding second-story dormers to Cape Cods, building family room additions on colonials, or converting garages to living space on ranches -- the new roofline must integrate structurally and aesthetically with the existing home.',
     'Bloomfield\'s residential renovation market generates steady demand for roof design that balances ambition with budget reality. Homeowners renovating Cape Cods to add full second floors want the additional space without the renovation looking like an afterthought tacked onto the original structure. Split-level owners adding sunroom or family room extensions need the new roof section to integrate with the existing multi-plane geometry without creating drainage problems at the intersection. Our design consultation addresses these integration challenges before construction begins, preventing the expensive mid-project design changes that result from inadequate planning.',
     'For commercial building owners in [Bloomfield](/roofing-in-bloomfield-nj) planning renovations, expansions, or adaptive reuse projects, roof design consultation ensures the roofing system is specified to meet the changed building requirements. Converting a Bloomfield Avenue retail space to restaurant use changes the roof\'s exposure to kitchen exhaust chemicals. Adding rooftop HVAC equipment to an existing building requires structural verification and penetration planning. Our [commercial roof installation](/commercial-roof-installation-bloomfield-nj) design services address these operational changes before they become construction problems.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Do you work with my architect on the roof design for my Bloomfield renovation?',
       answer: 'Absolutely. We collaborate with architects on the roofing-specific aspects of renovation projects -- material selection, structural verification for roof loads, flashing details, drainage design, and constructability review. Our field experience with Bloomfield\'s housing types provides practical insight that complements the architect\'s design vision. We can review an architect\'s roof design for constructability, or we can develop the roof design from scratch and deliver drawings that the architect integrates into the overall project documentation.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Bloomfield, NJ?',
+      answer: 'Most custom roof design consultation projects in Bloomfield range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Bloomfield NJ -- addition integration, dormer design, and renovation planning for Cape Cods and split-levels.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

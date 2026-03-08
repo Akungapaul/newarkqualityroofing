@@ -4,7 +4,7 @@ export const southOrangeWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'south-orange',
   overview: [
-    'Wood shake roofing in South Orange Village carries both aesthetic tradition and practical challenge. The village\'s Arts and Crafts bungalows along Scotland Road, its Shingle-style homes, and its rustic-influenced Colonials have historically worn wood shake roofing that complements their architectural character with the textured, organic appearance that only natural wood provides. Installing and maintaining wood shake in South Orange\'s demanding tree-canopy environment requires understanding the material\'s specific vulnerabilities and the management practices that extend its service life against the biological forces working to shorten it.',
+    'Newark Quality Roofing delivers expert wood shake roofing in South Orange — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in South Orange Village carries both aesthetic tradition and practical challenge. The village\'s Arts and Crafts bungalows along Scotland Road, its Shingle-style homes, and its rustic-influenced Colonials have historically worn wood shake roofing that complements their architectural character with the textured, organic appearance that only natural wood provides. Installing and maintaining wood shake in South Orange\'s demanding tree-canopy environment requires understanding the material\'s specific vulnerabilities and the management practices that extend its service life against the biological forces working to shorten it.',
     'Wood shake encompasses multiple species and cut profiles, each with distinct performance characteristics. Western red cedar, the premium standard, provides natural decay resistance, dimensional stability, and the silver-gray weathering that South Orange homeowners prize. White cedar offers similar aesthetics at lower cost but with reduced longevity. Pine and spruce shakes, while used historically, lack the natural preservative oils that give cedar its durability and are generally not recommended for new installations. Our South Orange wood shake work uses primarily western red cedar in #1 Grade hand-split or tapersawn profiles, matched to the home\'s architectural period and the homeowner\'s preference for textured or uniform appearance.',
     'The contrast between wood shake maintenance requirements in South Orange versus less demanding suburban environments is significant. A wood shake roof on a fully sun-exposed home in an open development may require attention every five to seven years. The same material beneath South Orange\'s mature canopy needs annual treatment and monitoring to manage the moss, lichen, and decay that persistent shade and moisture promote. Homeowners on Scotland Road and Mead Street understand this trade-off -- they choose wood shake for its irreplaceable aesthetic character and accept the maintenance commitment that the village\'s environment demands.',
     'Our wood shake installations in South Orange incorporate modern underlayment and ventilation improvements beneath the traditional exterior surface. These concealed enhancements -- synthetic underlayment, breather-strip spacers between courses, continuous ridge ventilation -- extend shake lifespan by improving moisture management without altering the authentic appearance that makes wood shake the appropriate choice for these [South Orange](/roofing-in-south-orange-nj) homes.'
@@ -35,7 +35,25 @@ export const southOrangeWoodShakeRoofing: ComboContent = {
     {
       question: 'Can you install wood shake on a roof that currently has asphalt shingles?',
       answer: 'Yes, but the substrate preparation differs significantly from a shingle-to-shingle replacement. Wood shake requires either skip sheathing or a batten system over waterproof underlayment to provide the ventilation gap that shingle installations do not need. The existing solid sheathing beneath the shingles may need supplemental structural assessment for the heavier shake load. We provide a complete conversion specification that addresses substrate, ventilation, and structural requirements.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in South Orange, NJ?',
+      answer: 'Most wood shake roofing projects in South Orange range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in South Orange NJ -- cedar shake installation and maintenance for Arts and Crafts bungalows and village Colonials.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

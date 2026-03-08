@@ -4,7 +4,7 @@ export const orangeFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Flat roof replacement serves both Orange\'s commercial Main Street buildings and the residential properties throughout the city that have flat or low-slope sections -- rear additions, porch roofs, and the flat-topped Victorian-era row structures that dot the city\'s older blocks. Our [flat roof replacement](/flat-roof-replacement) projects install modern membrane systems that permanently resolve the ponding, seam failure, and chronic patching that characterize aging flat roofs across Orange\'s diverse building stock.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement serves both Orange\'s commercial Main Street buildings and the residential properties throughout the city that have flat or low-slope sections -- rear additions, porch roofs, and the flat-topped Victorian-era row structures that dot the city\'s older blocks. Our [flat roof replacement](/flat-roof-replacement) projects install modern membrane systems that permanently resolve the ponding, seam failure, and chronic patching that characterize aging flat roofs across Orange\'s diverse building stock.',
     'Main Street\'s commercial buildings are the primary flat roof replacement market in Orange. The built-up and modified bitumen systems installed in the 1970s and 1980s have been patched, coated, and re-coated so many times that the original membrane is buried under layers of accumulated repair materials. Full replacement strips these layers, addresses the substrate, corrects drainage deficiencies, and installs a clean single-ply membrane that provides 20 to 25 years of maintenance-free waterproofing.',
     'Residential flat sections on Orange homes often receive less attention than the main pitched roof, yet they are frequently the source of chronic leaks. The low-slope addition behind a Victorian, the flat porch roof on a colonial, or the sunroom ceiling that doubles as a roof all need membrane systems designed for their specific drainage conditions. Our residential flat roof replacements use the same membrane technology and installation standards as our commercial work, scaled to the smaller dimensions of residential applications. Homeowners in [East Orange](/flat-roof-replacement-east-orange-nj) face identical aging flat-section challenges on their older residential properties.'
   ],
@@ -34,7 +34,25 @@ export const orangeFlatRoofReplacement: ComboContent = {
     {
       question: 'How much does flat roof replacement cost for an Orange home addition?',
       answer: 'Residential flat roof replacement on Orange home additions typically runs $3,000 to $8,000 depending on the area, access conditions, and membrane type. Larger commercial flat roofs on Main Street run $8 to $15 per square foot. All prices include tear-off, insulation, membrane, and all detail work at penetrations and edges.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Orange, NJ?',
+      answer: 'Most flat roof replacement projects in Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Orange NJ -- Main Street commercial membranes, residential addition coverage, drainage correction, and TPO/EPDM/PVC options.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

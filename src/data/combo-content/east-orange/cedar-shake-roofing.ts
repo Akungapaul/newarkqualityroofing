@@ -4,7 +4,7 @@ export const eastOrangeCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'east-orange',
   overview: [
-    'Cedar shake roofing in East Orange occupies a narrow but meaningful niche within a housing market dominated by multi-family investment properties and Victorian-era structures where original cedar installations from the early 1900s still appear on scattered buildings throughout the Ampere and Elmwood Park neighborhoods. Unlike the cedar shake work common in [Montclair](/cedar-shake-roofing-montclair-nj) or [Glen Ridge](/cedar-shake-roofing-glen-ridge-nj) where homeowners choose cedar for curb appeal, East Orange cedar shake projects tend to be preservation-driven -- property owners maintaining or replacing the original roofing character on buildings that were designed around the material\'s distinctive texture and weathering pattern.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in East Orange — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing in East Orange occupies a narrow but meaningful niche within a housing market dominated by multi-family investment properties and Victorian-era structures where original cedar installations from the early 1900s still appear on scattered buildings throughout the Ampere and Elmwood Park neighborhoods. Unlike the cedar shake work common in [Montclair](/cedar-shake-roofing-montclair-nj) or [Glen Ridge](/cedar-shake-roofing-glen-ridge-nj) where homeowners choose cedar for curb appeal, East Orange cedar shake projects tend to be preservation-driven -- property owners maintaining or replacing the original roofing character on buildings that were designed around the material\'s distinctive texture and weathering pattern.',
     'The Victorian two-families and Queen Anne homes that still carry cedar shake roofs in East Orange present a restoration scenario that differs from new cedar installation. Original shake roofs on these properties were installed over skip sheathing -- spaced 1x4 boards that allowed air circulation beneath the shakes -- and converting to modern solid sheathing changes the ventilation dynamics that cedar requires to prevent premature rot. Our [cedar shake roofing](/cedar-shake-roofing) installations on East Orange\'s historic housing stock respect the original ventilation design while adding modern ice-and-water shield underlayment at critical junctures that the original builders could not have anticipated.',
     'For the rare East Orange property owner who selects cedar shake as a new installation material -- typically an owner-occupant in the Ampere neighborhood seeking to distinguish their home from the asphalt shingle standard -- the investment calculation requires honest conversation. Cedar shake installed in East Orange\'s dense urban canopy faces moisture retention from shade, debris accumulation from overhanging street trees, and maintenance demands that landlords managing rental portfolios will not sustain. We recommend cedar primarily for owner-occupied single-family properties where the homeowner is committed to the annual maintenance cycle that keeps cedar performing in our humid Northeast climate.',
     'Fire resistance is a practical consideration for cedar shake in East Orange\'s attached and closely spaced housing. Untreated cedar shake carries a Class C fire rating that may conflict with building code requirements for multi-family structures and properties within close proximity to neighboring buildings. We install only pressure-treated fire-retardant cedar shakes that achieve Class A or Class B fire ratings, meeting East Orange Building Department requirements for residential construction in dense neighborhoods where fire spread between structures is a genuine risk rather than a theoretical concern.'
@@ -35,7 +35,25 @@ export const eastOrangeCedarShakeRoofing: ComboContent = {
     {
       question: 'Can you replace just the damaged cedar shakes on my East Orange roof without a full re-roof?',
       answer: 'Yes. Individual shake replacement is a standard maintenance procedure for cedar roofs. We carry an inventory of shakes in various thicknesses and grades to match existing installations on East Orange homes. The key is ensuring replacement shakes are properly seated, spaced for expansion, and treated with the same preservative as the surrounding material. However, if more than 30 percent of shakes show deterioration, a full re-roofing provides better value than cumulative individual replacements.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in East Orange, NJ?',
+      answer: 'Most cedar shake roofing projects in East Orange range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing for East Orange NJ homes -- fire-retardant installation, Victorian restoration, and ongoing maintenance for lasting natural beauty.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

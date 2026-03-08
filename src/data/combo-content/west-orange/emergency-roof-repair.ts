@@ -4,7 +4,7 @@ export const westOrangeEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'west-orange',
   overview: [
-    'When a nor\'easter rips shingles off an Eagle Rock colonial or a fallen oak limb punches through a South Mountain ranch roof, West Orange homeowners need emergency response that accounts for terrain. Our [emergency roof repair](/emergency-roof-repair) crews maintain equipment staged for both valley-floor and ridge-top access, because the 500-foot elevation difference across this township means emergency conditions and access challenges vary dramatically from one neighborhood to the next.',
+    'Newark Quality Roofing delivers expert emergency roof repair in West Orange — with prices starting from $500–$2,500 and free estimates available today. When a nor\'easter rips shingles off an Eagle Rock colonial or a fallen oak limb punches through a South Mountain ranch roof, West Orange homeowners need emergency response that accounts for terrain. Our [emergency roof repair](/emergency-roof-repair) crews maintain equipment staged for both valley-floor and ridge-top access, because the 500-foot elevation difference across this township means emergency conditions and access challenges vary dramatically from one neighborhood to the next.',
     'West Orange\'s ridge-top neighborhoods absorb the worst of Essex County\'s storm energy. Homes along Eagle Rock Avenue and Prospect Avenue experience wind gusts that regularly exceed 70 miles per hour during nor\'easters -- strong enough to strip entire roof planes of shingles in minutes. Our emergency protocol for ridge-top properties prioritizes full-plane tarping over spot patching, because in these exposed locations, partial coverage simply redirects wind-driven rain to the next vulnerable point. Homeowners in nearby [Verona](/emergency-roof-repair-verona-nj) face similar but less severe storm exposure along the shared Watchung corridor.',
     'Valley-floor emergencies in Pleasant Valley and Pleasantdale present different urgency patterns. These lower-elevation neighborhoods experience less wind damage but more water-volume emergencies -- overwhelmed gutters, ponding behind debris dams, and basement flooding from roof drainage failures during heavy rain events. Our valley-floor emergency response focuses on rapid water diversion and temporary drainage restoration to prevent the cascading interior damage that saturated soil conditions accelerate in West Orange\'s low-lying areas.',
     'The mature hardwood canopy surrounding South Mountain Reservation creates West Orange\'s most dramatic emergency scenarios: full tree strikes. During the remnants of tropical systems and severe thunderstorms, weakened oaks and maples shed massive limbs that can collapse roof sections entirely. Our tree-strike protocol begins with structural assessment before any tarp deployment -- we verify that rafters and load-bearing elements remain sound before adding the weight of tarps and water accumulation to a potentially compromised structure.'
@@ -35,7 +35,25 @@ export const westOrangeEmergencyRoofRepair: ComboContent = {
     {
       question: 'Can you emergency-tarp a slate roof without causing additional damage?',
       answer: 'Yes. We carry specialized soft-anchor systems and felt padding designed specifically for slate roof emergencies. Unlike standard nail-through-membrane tarping, our slate protocol uses weighted sandbag anchors and adhesive membrane strips that secure the tarp without penetrating irreplaceable slate tiles. This approach is essential for Llewellyn Park and St. Cloud properties where individual slate pieces can cost $40 or more to source and install. We treat every emergency on a historic roof as a preservation exercise, not just a weatherproofing task.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in West Orange, NJ?',
+      answer: 'Most emergency roof repair projects in West Orange range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in West Orange NJ. Rapid response for ridge-top wind damage, valley flooding, and tree strikes near South Mountain.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

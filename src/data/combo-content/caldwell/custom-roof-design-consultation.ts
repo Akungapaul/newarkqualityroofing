@@ -4,7 +4,7 @@ export const caldwellCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'caldwell',
   overview: [
-    'Custom roof design consultation in Caldwell serves homeowners planning new construction, major additions, or complete roof redesigns that go beyond straightforward material-for-material replacement. When a Caldwell colonial owner wants to add a second-story addition that changes the roofline, when a ranch home is being expanded with a raised roof to create living space above, or when a custom home is being built on one of the borough\'s remaining undeveloped lots, the roof design must balance structural engineering, material selection, aesthetic integration with the neighborhood, and the practical realities of Caldwell\'s climate and tree canopy.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Caldwell — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Caldwell serves homeowners planning new construction, major additions, or complete roof redesigns that go beyond straightforward material-for-material replacement. When a Caldwell colonial owner wants to add a second-story addition that changes the roofline, when a ranch home is being expanded with a raised roof to create living space above, or when a custom home is being built on one of the borough\'s remaining undeveloped lots, the roof design must balance structural engineering, material selection, aesthetic integration with the neighborhood, and the practical realities of Caldwell\'s climate and tree canopy.',
     'Our [custom roof design](/custom-roof-design-consultation) consultation for [Caldwell](/roofing-in-caldwell-nj) brings roofing expertise into the design process at the stage where decisions matter most -- before framing begins. Architects and builders design roof planes for appearance and water shedding, but they may not account for the maintenance access requirements, ventilation pathways, flashing complexity, and material limitations that a roof system specialist understands from field experience. Our consultation identifies design details that would create long-term performance problems and proposes alternatives that maintain the architect\'s vision while ensuring the roof can be built, maintained, and repaired over its full lifespan.',
     'The consultation process also serves Caldwell homeowners selecting roofing materials for replacement projects where they want to explore options beyond the standard asphalt shingle that dominates the borough. Metal roofing, composite slate, cedar shake, tile, and flat-to-pitched conversions each carry specific structural requirements, cost profiles, and aesthetic implications that a material-agnostic consultation can present objectively. Homeowners in neighboring [Montclair](/custom-roof-design-consultation-montclair-nj) and [Bloomfield](/custom-roof-design-consultation-bloomfield-nj) use similar consultations to evaluate options for their homes.'
   ],
@@ -34,7 +34,25 @@ export const caldwellCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Do I need a consultation or just an estimate for my Caldwell roof?',
       answer: 'If you know what material you want and need pricing for straightforward replacement, a standard estimate provides the information you need at no cost. If you are considering multiple material options, planning a design change that modifies the roofline, adding features like skylights or solar, or building new construction, a consultation provides the design-level analysis that a standard estimate does not include. The distinction is between pricing a defined scope versus designing the optimal approach.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Caldwell, NJ?',
+      answer: 'Most custom roof design consultation projects in Caldwell range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design and consultation in Caldwell NJ -- material selection, structural assessment, and design guidance for colonial home projects.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

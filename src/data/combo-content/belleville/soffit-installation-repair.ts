@@ -4,7 +4,7 @@ export const bellevilleSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Soffit condition in Belleville directly affects the attic ventilation that prevents the ice dams, moisture buildup, and premature shingle aging that plague the township\'s post-war housing stock. The soffit -- the underside panel of the roof overhang -- is where intake ventilation enters the attic system, drawing fresh air beneath the roof deck from eave to ridge. When Belleville\'s original aluminum or plywood soffits deteriorate, crack, or become blocked by paint layers and insulation, the ventilation pathway closes and the attic becomes a moisture trap that accelerates every form of roofing deterioration.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Belleville — with prices starting from $1,500–$4,000 and free estimates available today. Soffit condition in Belleville directly affects the attic ventilation that prevents the ice dams, moisture buildup, and premature shingle aging that plague the township\'s post-war housing stock. The soffit -- the underside panel of the roof overhang -- is where intake ventilation enters the attic system, drawing fresh air beneath the roof deck from eave to ridge. When Belleville\'s original aluminum or plywood soffits deteriorate, crack, or become blocked by paint layers and insulation, the ventilation pathway closes and the attic becomes a moisture trap that accelerates every form of roofing deterioration.',
     'Belleville\'s compact lots create soffit conditions that differ from wider-spaced suburban homes. The narrow overhang on many post-war homes -- often just 6-12 inches -- provides minimal soffit area for ventilation intake. Homes built on the narrowest 25-foot lots sometimes have virtually no soffit overhang at all on the side facing the adjacent property, eliminating intake ventilation on an entire side of the roof. Our [soffit installation](/soffit-installation-repair) work in Belleville often involves creative ventilation engineering to achieve adequate intake airflow within the dimensional constraints of tight lot construction.',
     'Pest entry through deteriorated soffits is a common secondary problem in Belleville. The narrow gaps between closely-spaced homes create sheltered pathways that raccoons, squirrels, and birds use to access soffit openings. Once inside the attic, these animals damage insulation, contaminate air quality, and create noise complaints that drive urgent repair calls. Our soffit repairs close these entry points with durable materials and screening while maintaining the ventilation function that the soffit must provide.',
     'For Belleville homeowners combining soffit work with roof replacement or gutter projects, the coordination produces significant cost savings. Soffit access is best when gutters are removed, and soffit ventilation improvements are most effective when integrated with the new roof system\'s ridge ventilation. We recommend evaluating soffit condition during every roof estimate, identifying ventilation deficiencies and pest entry points that should be addressed while the roof system is open and accessible for work in [Belleville](/roofing-in-belleville-nj) and neighboring [Bloomfield](/soffit-installation-repair-bloomfield-nj).'
@@ -35,7 +35,25 @@ export const bellevilleSoffitInstallationRepair: ComboContent = {
     {
       question: 'Should I replace my soffits when I replace my roof in Belleville?',
       answer: 'We strongly recommend it. Soffit access is easiest when gutters are removed during roof replacement, and ventilation improvements at the soffit integrate directly with new ridge ventilation installed during the re-roof. Combining these projects saves 15-25% compared to doing them separately and ensures that the complete ventilation system is designed and installed as a coordinated assembly.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Belleville, NJ?',
+      answer: 'Most soffit installation repair projects in Belleville range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Belleville NJ. Vented soffit panels with pest prevention and ventilation baffles for post-war homes on narrow lots.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

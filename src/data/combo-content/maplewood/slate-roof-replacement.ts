@@ -4,7 +4,7 @@ export const maplewoodSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Slate roof replacement preserves the authentic character of Maplewood\'s finest Victorian, Colonial Revival, and Shingle Style homes where natural stone roofing is the architecturally appropriate crown. When existing slate has deteriorated beyond restoration through delamination, fastener failure, or structural damage, full replacement with new natural slate maintains the home\'s visual integrity and century-long protection that no substitute material can match. Our [slate replacement](/slate-roof-replacement) work in [Maplewood](/roofing-in-maplewood-nj) sources premium quarry slate and installs it using traditional methods enhanced with modern waterproofing technology.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Maplewood — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement preserves the authentic character of Maplewood\'s finest Victorian, Colonial Revival, and Shingle Style homes where natural stone roofing is the architecturally appropriate crown. When existing slate has deteriorated beyond restoration through delamination, fastener failure, or structural damage, full replacement with new natural slate maintains the home\'s visual integrity and century-long protection that no substitute material can match. Our [slate replacement](/slate-roof-replacement) work in [Maplewood](/roofing-in-maplewood-nj) sources premium quarry slate and installs it using traditional methods enhanced with modern waterproofing technology.',
     'Maplewood\'s inventory of slate-roofed homes concentrates in the Village area and along Ridgewood Road and Prospect Street, where Victorian and Colonial Revival homes from the 1880s through 1920s were originally roofed in Vermont, Pennsylvania, or Virginia slate. These homes carry some of Maplewood\'s highest property values, and the architectural contribution of natural slate to their market position is substantial. Replacing degraded slate with composite shingles saves money but diminishes the home\'s character and market value in ways that informed Maplewood buyers readily recognize.',
     'Full slate replacement on a Maplewood home represents a significant investment that rewards owners with 100-150 years of service from the new installation. The longevity calculation that makes slate compelling is straightforward: a quality slate roof outlasts the homeowner and at least two generations of their family, providing lifetime roofing security without the replacement cycles that asphalt and composite systems require. Estate-scale homes in [Millburn](/slate-roof-replacement-millburn-nj) make similar generational investments in natural slate for the same permanent-protection rationale.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodSlateRoofReplacement: ComboContent = {
       question: 'Can you replace slate with synthetic slate on a Maplewood Victorian?',
       answer: 'Yes, synthetic slate products like DaVinci Roofscapes provide a convincing visual alternative at approximately 40-50% the cost of natural slate, with a lighter weight that eliminates structural concerns. Synthetic slate is appropriate for homeowners who want the appearance of natural stone without the full investment. We present both natural and synthetic options during consultation so homeowners can evaluate the aesthetic and financial trade-offs.',
     },
+    {
+      question: 'How much does slate roof replacement cost in Maplewood, NJ?',
+      answer: 'Most slate roof replacement projects in Maplewood range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Maplewood NJ. Natural quarry slate for Victorian and Colonial Revival homes with 100+ year lifespan.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

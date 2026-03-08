@@ -4,7 +4,7 @@ export const maplewoodRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'maplewood',
   overview: [
-    'Maplewood\'s South Mountain Reservation border creates the most aggressive biological growth conditions in our Essex County service territory. The dense hardwood canopy shades north-facing and west-facing roof slopes for much of the day, retaining morning dew well past noon and creating a microclimate where moss, algae, and lichen thrive year-round. Properties along Prospect Street, Crestwood Drive, and Wyoming Avenue develop visible moss colonies within two to three years of a new roof installation, compared to five to seven years on sun-exposed roofs in eastern Maplewood. Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) protocols for these high-exposure zones are more intensive than standard suburban cleaning services.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Maplewood — with prices starting from $300–$800 and free estimates available today. Maplewood\'s South Mountain Reservation border creates the most aggressive biological growth conditions in our Essex County service territory. The dense hardwood canopy shades north-facing and west-facing roof slopes for much of the day, retaining morning dew well past noon and creating a microclimate where moss, algae, and lichen thrive year-round. Properties along Prospect Street, Crestwood Drive, and Wyoming Avenue develop visible moss colonies within two to three years of a new roof installation, compared to five to seven years on sun-exposed roofs in eastern Maplewood. Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) protocols for these high-exposure zones are more intensive than standard suburban cleaning services.',
     'The biological growth problem extends beyond aesthetics in Maplewood. Moss root systems (rhizoids) penetrate asphalt shingle surfaces, lifting granules and creating channels where water can migrate beneath the shingle tab. On the natural slate roofs common throughout the Village area and along Ridgewood Road, lichen produces acids that etch the stone surface over decades, accelerating the delamination that eventually requires slate replacement. Cedar shake roofs in the Hilton neighborhood develop wood-decay fungi under persistent moss cover that compromises the shake\'s structural integrity. Each material requires a different cleaning approach tailored to its vulnerability.',
     'Maplewood\'s environmentally conscious community expects cleaning methods that protect both the roof and the surrounding landscape. The township\'s mature gardens, foundation plantings, and proximity to South Mountain\'s protected ecosystem demand techniques that avoid harsh chemical runoff. Our soft-wash cleaning system uses low-pressure application of biodegradable cleaning solutions that eliminate biological growth without damaging roofing materials, gutters, or the plants below. Homeowners in [South Orange](/roof-cleaning-moss-removal-south-orange-nj) with comparable environmental sensitivity favor this same approach.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodRoofCleaningMossRemoval: ComboContent = {
       question: 'What are the zinc strips you install after cleaning?',
       answer: 'Zinc ridge strips are narrow metal strips installed along the roof ridge. When rain washes over the zinc, it releases zinc ions that flow down the roof surface, creating conditions inhospitable to moss, algae, and lichen growth. Copper strips work similarly with even stronger biological growth suppression. These strips provide continuous preventive protection between professional cleaning sessions and significantly extend the time between needed treatments.',
     },
+    {
+      question: 'How much does roof cleaning moss removal cost in Maplewood, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Maplewood range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in Maplewood NJ. Soft-wash treatment for slate, shingle, and cedar roofs near South Mountain Reservation.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

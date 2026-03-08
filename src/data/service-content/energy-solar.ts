@@ -97,9 +97,54 @@ export const energySolarContent: ServiceContent[] = [
       {
         question: 'How long do solar panels last?',
         answer: 'Modern solar panels are warranted for 25 to 30 years of performance, and they continue producing electricity well beyond their warranty period, typically at 80 to 85 percent of original capacity at year 25. The panels themselves have no moving parts and require very little maintenance beyond occasional cleaning. Inverters typically have 12 to 25 year warranties depending on the type and may need replacement once during the panel lifetime. Our installations are designed for long-term durability with materials and mounting systems that withstand New Jersey weather conditions.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does solar panel roofing installation cost in Essex County, NJ?',
+        answer: 'Most solar panel roofing installation projects in Essex County range from $18,000–$35,000, full solar panel roof integration. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$18,000–$35,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Solar Panel Roofing Installation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 2. Solar Shingle Installation ────────────────────────────────────────
   {
@@ -191,9 +236,54 @@ export const energySolarContent: ServiceContent[] = [
       {
         question: 'What happens if a solar shingle is damaged by a storm?',
         answer: 'Individual damaged solar shingles can be replaced without disturbing the surrounding shingles or the overall system, similar to replacing a damaged conventional shingle. The modular nature of solar shingle systems means that a single damaged unit can be swapped out and reconnected electrically without significant labor or disruption. Our roofing expertise ensures that the replacement maintains both weather protection and electrical continuity with the rest of the system.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does solar shingle installation cost in Essex County, NJ?',
+        answer: 'Most solar shingle installation projects in Essex County range from $25,000–$50,000, integrated solar shingle system. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$25,000–$50,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Solar Shingle Installation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 3. Energy Efficient Roofing Solutions ────────────────────────────────
   {
@@ -281,9 +371,54 @@ export const energySolarContent: ServiceContent[] = [
       {
         question: 'How much can I save on energy costs with an energy-efficient roof?',
         answer: 'Energy savings vary depending on your current roof condition, building type, and the specific improvements made. Typical residential savings from a comprehensive energy-efficient roofing upgrade range from 15 to 30 percent of annual heating and cooling costs. Commercial buildings with large roof areas and high cooling loads can see even greater percentage reductions. We provide projected savings estimates based on your building\'s characteristics and local energy costs during our assessment.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does energy efficient roofing solutions cost in Essex County, NJ?',
+        answer: 'Most energy efficient roofing solutions projects in Essex County range from $10,000–$28,000, cool-roof or reflective systems. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$10,000–$28,000',
+      factors: [
+        'Roof size and square footage',
+        'Material selection and quality grade',
+        'Complexity of roof design (pitch, valleys, penetrations)',
+        'Current condition and extent of existing damage',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Energy Efficient Roofing Solutions',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 4. Silicone Roof Coating ─────────────────────────────────────────────
   {
@@ -375,9 +510,54 @@ export const energySolarContent: ServiceContent[] = [
       {
         question: 'How much does silicone roof coating reduce energy costs?',
         answer: 'The highly reflective white surface of silicone coating reflects up to 85 percent of solar energy that would otherwise be absorbed by a dark roof surface. This can reduce roof surface temperatures by 50 to 60 degrees Fahrenheit compared to a dark membrane, translating to cooling cost reductions of 15 to 30 percent depending on your building type, insulation level, and HVAC efficiency. The energy savings alone can offset a significant portion of the coating cost over its service life.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does silicone roof coating cost in Essex County, NJ?',
+        answer: 'Most silicone roof coating projects in Essex County range from $3–$6/sq ft, extends roof life 10–15 years. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$3–$6/sq ft',
+      factors: [
+        'Roof size and square footage',
+        'Material selection and quality grade',
+        'Complexity of roof design (pitch, valleys, penetrations)',
+        'Current condition and extent of existing damage',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Silicone Roof Coating',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 5. Silicone Elastomeric Roof Coating ─────────────────────────────────
   {
@@ -469,7 +649,52 @@ export const energySolarContent: ServiceContent[] = [
       {
         question: 'How often does elastomeric coating need to be reapplied?',
         answer: 'A properly applied silicone elastomeric coating typically provides 15 to 20 years of service before recoating is advisable. When recoating time arrives, the process is simpler and less expensive than the original application because the surface preparation is minimal, there are no membrane repairs to make, and a single coat is often sufficient to restore full thickness and performance. This recoatability is one of the key advantages of the silicone elastomeric system over replacement alternatives.'
-      }
-    ]
-  }
+      },
+      {
+        question: 'How much does silicone elastomeric roof coating cost in Essex County, NJ?',
+        answer: 'Most silicone elastomeric roof coating projects in Essex County range from $3–$7/sq ft, reflective coating application. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$3–$7/sq ft',
+      factors: [
+        'Roof size and square footage',
+        'Material selection and quality grade',
+        'Complexity of roof design (pitch, valleys, penetrations)',
+        'Current condition and extent of existing damage',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Silicone Elastomeric Roof Coating',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],}
 ];

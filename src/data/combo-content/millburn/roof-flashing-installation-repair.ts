@@ -4,7 +4,7 @@ export const millburnRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'millburn',
   overview: [
-    'Roof flashing on Millburn estates functions as the connective tissue binding together the complex roofing assemblies that define the township\'s architectural character. Where slate meets masonry, where copper valleys channel water between intersecting roof planes, where dormers emerge from main rooflines, and where chimneys penetrate century-old roof structures -- flashing provides the weather-tight transitions that prevent water intrusion at every junction. On Short Hills and Wyoming estates with multiple roof materials, intersecting planes, and numerous penetrations, flashing represents a greater proportion of the total roofing system than on simpler residential structures, and its failure is the most frequent source of the leaks our [roof flashing installation and repair](/roof-flashing-installation-repair) teams address in Millburn.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Millburn — with prices starting from $300–$1,500 and free estimates available today. Roof flashing on Millburn estates functions as the connective tissue binding together the complex roofing assemblies that define the township\'s architectural character. Where slate meets masonry, where copper valleys channel water between intersecting roof planes, where dormers emerge from main rooflines, and where chimneys penetrate century-old roof structures -- flashing provides the weather-tight transitions that prevent water intrusion at every junction. On Short Hills and Wyoming estates with multiple roof materials, intersecting planes, and numerous penetrations, flashing represents a greater proportion of the total roofing system than on simpler residential structures, and its failure is the most frequent source of the leaks our [roof flashing installation and repair](/roof-flashing-installation-repair) teams address in Millburn.',
     'The material vocabulary for flashing on Millburn properties is dominated by copper -- sixteen-ounce and twenty-ounce sheet copper fabricated into step flashings, counter-flashings, valley linings, cricket flashings, and reglet details that complement the slate, cedar, and tile roof surfaces they protect. Galvanized steel, aluminum, and lead-coated copper have their applications in specific contexts, but copper is the default specification because its corrosion resistance, malleability for complex forming, and aesthetic compatibility with premium roofing materials make it the only acceptable choice for estate-grade installations.',
     'Flashing repair on existing Millburn properties requires diagnostic skill that distinguishes flashing failure from adjacent material failure. Water staining below a chimney may originate from deteriorated step flashing, failed counter-flashing mortar joints, a cracked chimney crown, or condensation within the chimney cavity itself. Isolating the actual failure point before cutting into the flashing prevents unnecessary damage to components that are performing adequately. Our diagnostic process for [Millburn](/roofing-in-millburn-nj) flashing issues includes systematic water testing that replicates rainfall direction and intensity to trace the actual infiltration path.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'Can you repair individual flashing sections without replacing the entire system?',
       answer: 'Yes. Flashing is installed as a series of individual components at each junction, and deteriorated sections can be replaced without disturbing adjacent components that remain sound. However, on properties where multiple flashing elements show similar deterioration -- typically due to age-related material fatigue -- replacing only the failed sections leaves the remaining components approaching the same failure threshold. In these cases, we recommend phased replacement that addresses the most critical junctions first and schedules the remaining sections over one to two subsequent years.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Millburn, NJ?',
+      answer: 'Most roof flashing installation repair projects in Millburn range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair for Millburn estates. Custom copper fabrication for slate, cedar, and tile roof junctions with architect-grade detailing.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

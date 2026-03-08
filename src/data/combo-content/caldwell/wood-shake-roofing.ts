@@ -4,7 +4,7 @@ export const caldwellWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'caldwell',
   overview: [
-    'Wood shake roofing in Caldwell appeals to a select group of homeowners who value the natural, hand-crafted character that no manufactured roofing product can replicate. The thick, irregular texture of hand-split shakes creates a roofscape that weathers into silver-gray tones that complement the mature trees surrounding Caldwell homes -- a visual harmony between the built environment and the natural canopy above. This aesthetic compatibility makes wood shakes particularly appealing on Caldwell properties where the relationship between house and landscape is central to the home\'s identity, though the material demands a level of maintenance commitment that not every homeowner is prepared to sustain.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Caldwell — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Caldwell appeals to a select group of homeowners who value the natural, hand-crafted character that no manufactured roofing product can replicate. The thick, irregular texture of hand-split shakes creates a roofscape that weathers into silver-gray tones that complement the mature trees surrounding Caldwell homes -- a visual harmony between the built environment and the natural canopy above. This aesthetic compatibility makes wood shakes particularly appealing on Caldwell properties where the relationship between house and landscape is central to the home\'s identity, though the material demands a level of maintenance commitment that not every homeowner is prepared to sustain.',
     'The practical realities of wood shake roofing in Caldwell\'s heavily treed environment create a more demanding maintenance profile than the same material in open-terrain locations. Shade from the borough\'s oak and maple canopy keeps shake surfaces damp longer after rain, accelerating the moss, mildew, and fungal growth that untreated wood shake is susceptible to. Leaf debris lodging between shake courses retains moisture against the wood surface. Branch impacts during storms crack individual shakes more readily than they crack asphalt shingles. Homeowners choosing wood shake in Caldwell must accept these maintenance realities and commit to the biannual cleaning, treatment, and inspection schedule that keeps the material performing in this environment.',
     'Our [wood shake roofing](/wood-shake-roofing) installations in Caldwell use premium-grade shakes treated with fire retardant and preservative that meet New Jersey building code requirements for Class A fire resistance. Untreated wood shake installations are no longer permitted under current code, and the treatment protocols that achieve code compliance also provide the initial defense against the biological degradation that Caldwell\'s shaded environment promotes. We source from mills that certify both the wood grade and the treatment depth, ensuring the fire and decay resistance extends through the full shake thickness rather than just the surface coating that budget treatments provide.'
   ],
@@ -34,7 +34,25 @@ export const caldwellWoodShakeRoofing: ComboContent = {
     {
       question: 'How does the cost of wood shake compare to asphalt shingles for a Caldwell home?',
       answer: 'Wood shake installation typically costs two and a half to three times more than premium architectural asphalt shingles for a comparable Caldwell roof. A colonial that would cost fifteen thousand dollars with top-tier asphalt shingles might run thirty-five to forty-five thousand dollars with quality wood shake including the ventilated installation system. Ongoing maintenance costs add approximately five hundred to eight hundred dollars per year for cleaning, treatment, and inspection. Homeowners choosing wood shake do so for the aesthetic value and natural character rather than for cost efficiency.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Caldwell, NJ?',
+      answer: 'Most wood shake roofing projects in Caldwell range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Caldwell NJ -- hand-split cedar installation with ventilation systems and maintenance for tree-canopy conditions.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

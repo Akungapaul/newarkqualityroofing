@@ -4,7 +4,7 @@ export const bellevilleRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'belleville',
   overview: [
-    'Roof replacement after chronic leaking represents a point where repair is no longer viable in Belleville\'s aging housing stock. When a roof has developed multiple leak points, when patches have been applied over patches, and when interior water damage recurs after each rain event despite repeated repair attempts, the underlying roofing system has failed beyond what localized repair can restore. Full replacement is the only permanent resolution.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Belleville — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after chronic leaking represents a point where repair is no longer viable in Belleville\'s aging housing stock. When a roof has developed multiple leak points, when patches have been applied over patches, and when interior water damage recurs after each rain event despite repeated repair attempts, the underlying roofing system has failed beyond what localized repair can restore. Full replacement is the only permanent resolution.',
     'Belleville homes that reach this condition typically have a history of deferred maintenance compounded by the moisture conditions specific to the township\'s Passaic River basin location. The elevated humidity accelerates shingle degradation, the closely-spaced buildings create areas of perpetual shade where moisture never fully dries, and the multi-layer roofing common on post-war homes traps water between layers where it silently saturates the deck. By the time chronic leaking becomes obvious, the hidden damage is often extensive.',
     'Our [roof replacement after leak](/roof-replacement-after-leak) projects in Belleville involve more extensive structural repair than proactive aging replacement because the extended period of water intrusion has damaged components beyond the roofing surface. Sheathing replacement rates on leak-driven replacements average 30-50% of the deck area, compared to 10-20% on proactive replacements. Rafter repair is needed on roughly half of chronic leak replacements. Interior restoration -- ceiling, insulation, and sometimes framing -- adds cost that proactive replacement would have prevented.',
     'For Belleville homeowners dealing with chronic leaks, the replacement decision is both a building repair and a quality-of-life improvement. Living with buckets during rain, watching for ceiling stains after storms, and worrying about mold growth in wall cavities creates stress that affects daily life. Our complete replacement-and-restoration approach resolves the roof failure, repairs the structural damage, and restores the building interior so [Belleville](/roofing-in-belleville-nj) homeowners can stop managing a crisis and return to normal occupancy, similar to restorations we perform in [Newark](/roof-replacement-after-leak-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Can I stay in my Belleville home during a leak-driven roof replacement?',
       answer: 'In most cases, yes. The replacement work occurs on the exterior and in the attic, with minimal impact on living spaces. However, if mold remediation is required in occupied areas, temporary relocation may be recommended during the remediation phase. We assess occupancy impact during the pre-project assessment and advise homeowners accordingly.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Belleville, NJ?',
+      answer: 'Most roof replacement after leak projects in Belleville range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak damage in Belleville NJ. Complete restoration with deck repair for post-war homes with chronic water intrusion problems.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

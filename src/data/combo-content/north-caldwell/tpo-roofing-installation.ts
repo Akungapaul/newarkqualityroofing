@@ -4,7 +4,7 @@ export const northCaldwellTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'north-caldwell',
   overview: [
-    'TPO roofing installation in North Caldwell serves a narrow but important market segment: the small professional offices, medical practices, and boutique commercial spaces that operate within the borough\'s largely residential landscape. Unlike the large warehouse and industrial applications that dominate [TPO roofing](/tpo-roofing-installation) projects in urban Essex County communities, North Caldwell\'s commercial roofing needs are modest in scale but demand the same premium execution that property owners throughout this community expect.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in North Caldwell — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing installation in North Caldwell serves a narrow but important market segment: the small professional offices, medical practices, and boutique commercial spaces that operate within the borough\'s largely residential landscape. Unlike the large warehouse and industrial applications that dominate [TPO roofing](/tpo-roofing-installation) projects in urban Essex County communities, North Caldwell\'s commercial roofing needs are modest in scale but demand the same premium execution that property owners throughout this community expect.',
     'The few commercial properties in North Caldwell -- primarily along the Route 23 corridor edge and clustered near the Caldwell border -- benefit from TPO\'s reflective white membrane that reduces cooling loads during summer months. For property owners managing small office buildings or mixed-use spaces, the energy savings and low-maintenance profile of TPO deliver operational cost reductions that matter on tight commercial margins. Properties in neighboring [Caldwell](/tpo-roofing-installation-caldwell-nj) rely on TPO for their more extensive commercial district along Bloomfield Avenue.',
     'Our TPO work in North Caldwell also extends to residential applications where homeowners choose TPO membrane for flat roof sections on estate properties. The white reflective surface reduces thermal gain on south-facing flat sections, and the heat-welded seam technology creates stronger joints than the adhesive seams used in EPDM installations -- an advantage that [North Caldwell](/roofing-in-north-caldwell-nj) homeowners appreciate on the flat transitions between multi-level roof planes.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellTpoRoofingInstallation: ComboContent = {
     {
       question: 'What color TPO do you recommend for North Caldwell?',
       answer: 'White for concealed flat sections where maximum reflectivity benefits energy performance. Tan or gray for visible commercial roofs in residential neighborhoods where a white surface would contrast with the surrounding homes. We carry samples in all standard colors so property owners can evaluate the visual impact before specifying the final color for their installation.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in North Caldwell, NJ?',
+      answer: 'Most tpo roofing installation projects in North Caldwell range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in North Caldwell NJ -- reflective membrane for commercial properties and residential flat roof sections on estate homes.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

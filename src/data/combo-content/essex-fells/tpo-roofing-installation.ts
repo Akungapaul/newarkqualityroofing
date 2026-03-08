@@ -4,7 +4,7 @@ export const essexFellsTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'essex-fells',
   overview: [
-    'TPO roofing installation in Essex Fells operates within a context entirely different from the commercial applications that dominate this membrane system\'s market. The borough has no commercial district -- no strip malls, office parks, or industrial buildings requiring the large-format TPO installations common in [Newark](/tpo-roofing-installation-newark-nj) or along Route 46 in neighboring [Fairfield](/tpo-roofing-installation-fairfield-nj). Instead, TPO serves Essex Fells estate properties where architects specify high-performance single-ply membranes for pool pavilion roofs, garage wing extensions, covered walkways, and the flat-roofed ancillary structures that complete residential compounds on the borough\'s one-acre-plus lots.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Essex Fells — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing installation in Essex Fells operates within a context entirely different from the commercial applications that dominate this membrane system\'s market. The borough has no commercial district -- no strip malls, office parks, or industrial buildings requiring the large-format TPO installations common in [Newark](/tpo-roofing-installation-newark-nj) or along Route 46 in neighboring [Fairfield](/tpo-roofing-installation-fairfield-nj). Instead, TPO serves Essex Fells estate properties where architects specify high-performance single-ply membranes for pool pavilion roofs, garage wing extensions, covered walkways, and the flat-roofed ancillary structures that complete residential compounds on the borough\'s one-acre-plus lots.',
     'The architectural integration requirements on Essex Fells estate properties elevate TPO specification beyond standard commercial practice. Membrane color selection must harmonize with adjacent slate, copper, or cedar shake rooflines visible from upper-story vantage points. Edge metal profiles are custom-fabricated to complement the estate\'s architectural vocabulary rather than defaulting to catalog-standard industrial coping. Flashing transitions where TPO meets adjacent steep-slope materials receive the same detailing attention as the primary roof system, because every structural element on an Essex Fells estate is architectural.',
     'Our [TPO roofing installation](/tpo-roofing-installation) approach for Essex Fells properties treats each flat-roofed structure as a component of the larger estate roofing system. Drainage integration with the property\'s overall water management plan, material compatibility with adjacent roofing metals, and visual coordination with the architect\'s design intent govern every specification decision. The membrane itself is a technical commodity; its successful application in the Essex Fells estate context depends on understanding how the flat-roofed structure relates to everything around it.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsTpoRoofingInstallation: ComboContent = {
     {
       question: 'How often does TPO require maintenance in the Essex Fells environment?',
       answer: 'We recommend quarterly debris clearing and semi-annual professional inspection for TPO installations beneath Essex Fells tree canopy. The primary maintenance requirement is removing accumulated leaves, twigs, and organic debris that traps moisture against the membrane surface. Seam and flashing inspection twice per year catches sealant deterioration and mechanical damage from falling branches before water entry occurs. Properties maintaining our recommended service schedule typically achieve the full warranty lifespan without significant repair interventions.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Essex Fells, NJ?',
+      answer: 'Most tpo roofing installation projects in Essex Fells range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in Essex Fells NJ -- architect-coordinated single-ply membranes for estate pool pavilions and auxiliary structures.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

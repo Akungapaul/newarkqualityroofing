@@ -4,7 +4,7 @@ export const roselandBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'roseland',
   overview: [
-    'Built-up roofing has served Roseland\'s commercial buildings since the borough\'s office parks first developed along Eisenhower Parkway, and many of these original BUR systems remain in service after decades of proven performance. The alternating layers of bitumen and reinforcing fabric that define BUR construction create a monolithic waterproofing assembly whose redundancy exceeds any single-ply alternative -- three, four, or five plies each independently capable of resisting water penetration. Our [built-up roofing](/built-up-roofing) services maintain, repair, and replace these systems on Roseland commercial properties that value multi-ply dependability.',
+    'Newark Quality Roofing delivers expert built up roofing in Roseland — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing has served Roseland\'s commercial buildings since the borough\'s office parks first developed along Eisenhower Parkway, and many of these original BUR systems remain in service after decades of proven performance. The alternating layers of bitumen and reinforcing fabric that define BUR construction create a monolithic waterproofing assembly whose redundancy exceeds any single-ply alternative -- three, four, or five plies each independently capable of resisting water penetration. Our [built-up roofing](/built-up-roofing) services maintain, repair, and replace these systems on Roseland commercial properties that value multi-ply dependability.',
     'While single-ply membranes have captured the majority of new commercial roofing installations in Roseland, BUR retains its advocates among property managers who have watched multi-ply systems outlast their projected service lives by a decade or more. The material\'s proven performance on Roseland office buildings with high mechanical equipment loads makes a compelling case for new BUR installations where foot traffic density and puncture exposure exceed single-ply tolerances. Commercial buildings in [Fairfield](/built-up-roofing-fairfield-nj) along the Route 46 corridor share this preference for BUR\'s durability on heavily trafficked rooftops.',
     'Repair and re-coating of existing BUR roofs represent a significant maintenance category for Roseland commercial properties. The surface coating that protects the underlying membrane plies from UV degradation requires periodic renewal -- typically every five to seven years -- to maintain the system\'s full waterproofing integrity. This maintenance cycle extends BUR service life to 30 years or more, making it a cost-effective long-term investment when maintained on schedule.'
   ],
@@ -34,7 +34,25 @@ export const roselandBuiltUpRoofing: ComboContent = {
     {
       question: 'Does BUR installation produce strong odors that will affect our office tenants?',
       answer: 'Hot-asphalt BUR installation does produce noticeable odors during the mopping process. We mitigate this by coordinating HVAC air intake management with building engineering, positioning the asphalt kettle downwind of occupied areas, and scheduling the hottest operations during periods of minimal occupancy when possible. Low-odor cold-applied BUR systems are available as an alternative that eliminates hot-asphalt fumes entirely, though at higher material cost.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Roseland, NJ?',
+      answer: 'Most built up roofing projects in Roseland range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Roseland NJ -- multi-ply BUR systems for commercial buildings with hot-asphalt application and maintenance programs.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

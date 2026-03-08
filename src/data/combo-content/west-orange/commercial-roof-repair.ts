@@ -4,7 +4,7 @@ export const westOrangeCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'west-orange',
   overview: [
-    'Commercial roof repair in West Orange maintains the waterproofing integrity of the township\'s office buildings, retail centers, medical facilities, and light-industrial properties, addressing leaks, membrane failures, and flashing deterioration before they escalate into interior damage that disrupts business operations. Our [commercial roof repair](/commercial-roof-repair) response provides building owners along Pleasant Valley Way and Eagle Rock Avenue with rapid diagnostics and targeted repairs that restore roof performance without the cost or disruption of full replacement.',
+    'Newark Quality Roofing delivers expert commercial roof repair in West Orange — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in West Orange maintains the waterproofing integrity of the township\'s office buildings, retail centers, medical facilities, and light-industrial properties, addressing leaks, membrane failures, and flashing deterioration before they escalate into interior damage that disrupts business operations. Our [commercial roof repair](/commercial-roof-repair) response provides building owners along Pleasant Valley Way and Eagle Rock Avenue with rapid diagnostics and targeted repairs that restore roof performance without the cost or disruption of full replacement.',
     'The urgency of commercial roof repair differs fundamentally from residential work. When a commercial roof leaks, the damage cascades: ceiling tiles fall, electrical systems are at risk, inventory or equipment suffers water damage, and tenant confidence erodes. Our commercial repair protocol prioritizes stopping active water entry within hours of the service call, then scheduling permanent repair for the next appropriate weather window. This two-phase approach protects the building interior immediately while ensuring lasting repair quality.',
     'West Orange\'s elevation gradient creates distinct commercial repair patterns at different altitudes. Ridge-top commercial buildings along Eagle Rock Avenue develop wind-uplift failures at membrane perimeters, loose edge metal, and ridge vent infiltration. Valley-floor commercial buildings along Pleasant Valley Way develop drainage failures, ponding-related membrane deterioration, and drain blockage. Building owners near [East Orange](/commercial-roof-repair-east-orange-nj) contend with similar valley-floor drainage challenges on their own commercial properties.',
     'Preventive maintenance programs reduce emergency repair frequency for [West Orange](/roofing-in-west-orange-nj) commercial buildings by catching early-stage membrane deterioration, loose flashing, and drain blockage before they develop into active leaks. We offer annual and semi-annual inspection programs that document roof condition, identify emerging issues, and prioritize maintenance items by urgency and cost, giving building owners the information needed to budget proactively rather than react to emergencies.'
@@ -35,7 +35,25 @@ export const westOrangeCommercialRoofRepair: ComboContent = {
     {
       question: 'How do you find the source of a leak when the stain is far from the entry point?',
       answer: 'We use three diagnostic methods: infrared thermal imaging to detect moisture-saturated insulation beneath the membrane, flood testing where we isolate roof sections with temporary dams and introduce controlled water to identify the specific section where water enters, and visual inspection targeting the most common failure points -- seams, flashings, penetrations, and edge details. The combination of these methods pinpoints leak sources accurately without the destructive exploratory cuts that some contractors use as a first resort.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in West Orange, NJ?',
+      answer: 'Most commercial roof repair projects in West Orange range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in West Orange NJ. Rapid-response leak repair for offices, retail, and commercial buildings at all elevations.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

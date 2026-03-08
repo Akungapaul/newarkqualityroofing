@@ -4,7 +4,7 @@ export const bloomfieldMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Metal roof replacement offers Bloomfield homeowners a fifty-year roofing solution that eliminates the twenty-to-thirty-year replacement cycle that asphalt shingles require. For homeowners planning to age in place in their Cape Cods, colonials, and split-levels -- the long-term residents who define Bloomfield\'s stable residential character -- a metal roof installed today may be the last roof the home ever needs. The per-year cost of a metal roof, calculated over its fifty-year-plus lifespan, is often lower than the per-year cost of two asphalt shingle installations covering the same period.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Bloomfield — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement offers Bloomfield homeowners a fifty-year roofing solution that eliminates the twenty-to-thirty-year replacement cycle that asphalt shingles require. For homeowners planning to age in place in their Cape Cods, colonials, and split-levels -- the long-term residents who define Bloomfield\'s stable residential character -- a metal roof installed today may be the last roof the home ever needs. The per-year cost of a metal roof, calculated over its fifty-year-plus lifespan, is often lower than the per-year cost of two asphalt shingle installations covering the same period.',
     'Standing seam metal roofing on Bloomfield\'s residential homes provides a clean, modern aesthetic that complements both traditional and updated exterior styles. The concealed-fastener profile eliminates the exposed screw heads that corrode and leak on older metal panel systems. Factory-applied paint finishes with Kynar or hylar coatings maintain color and resist fading for thirty-five to forty years, far exceeding the granule retention of any asphalt shingle product.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners evaluating [metal roof installation](/metal-roof-installation-repair-bloomfield-nj) against conventional [asphalt shingle replacement](/asphalt-shingle-roof-replacement-bloomfield-nj), the financial comparison requires lifecycle analysis rather than first-cost comparison. A metal roof at twenty-two to thirty-five thousand dollars versus an asphalt roof at fourteen to twenty thousand looks more expensive. But over fifty years, the metal roof requires no replacement while the asphalt roof needs replacement once or twice, making the total ownership cost comparable or favorable for metal.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldMetalRoofReplacement: ComboContent = {
     {
       question: 'Can solar panels be installed on a metal roof in Bloomfield?',
       answer: 'Yes, and metal roofs are actually the ideal substrate for solar panel installation. Panels attach to the standing seams with clamp mounts that require no roof penetrations, eliminating the leak risk that roof-attached solar mounts create on shingle roofs. The metal roof\'s fifty-year lifespan exceeds the solar panel warranty, so the panels will never need to be removed for re-roofing. For Bloomfield homeowners planning both metal roof replacement and solar installation, coordinating the projects maximizes the long-term value of both investments.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most metal roof replacement projects in Bloomfield range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Bloomfield NJ -- standing seam metal for Cape Cods, colonials, and split-levels with fifty-year durability.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

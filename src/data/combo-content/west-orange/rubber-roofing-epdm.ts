@@ -4,7 +4,7 @@ export const westOrangeRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'west-orange',
   overview: [
-    'EPDM rubber roofing serves West Orange\'s flat and low-slope applications where cost-effective waterproofing matters more than aesthetics -- garage roofs, sunroom additions, porch covers, and the commercial buildings along Pleasant Valley Way. Our [rubber roofing EPDM](/rubber-roofing-epdm) installations in West Orange leverage this synthetic rubber membrane\'s proven 30-year track record in northern New Jersey weather, where freeze-thaw cycling and UV exposure test every roofing material to its limits.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in West Orange — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing serves West Orange\'s flat and low-slope applications where cost-effective waterproofing matters more than aesthetics -- garage roofs, sunroom additions, porch covers, and the commercial buildings along Pleasant Valley Way. Our [rubber roofing EPDM](/rubber-roofing-epdm) installations in West Orange leverage this synthetic rubber membrane\'s proven 30-year track record in northern New Jersey weather, where freeze-thaw cycling and UV exposure test every roofing material to its limits.',
     'Valley-floor properties in Pleasant Valley represent West Orange\'s highest concentration of EPDM installations, where older garages and additions with minimal roof pitch need reliable waterproofing without the structural investment that heavier materials demand. EPDM\'s lightweight profile -- approximately 0.5 pounds per square foot for standard 60-mil membrane -- allows installation on aging framing without reinforcement concerns. Homeowners near [Orange](/rubber-roofing-epdm-orange-nj) rely on EPDM for similar older flat-roof structures along the shared municipal boundary.',
     'West Orange\'s mid-slope neighborhoods feature numerous split-level homes with flat-roofed lower sections that were originally covered with built-up roofing or roll roofing during the 1960s construction boom. These aged systems have reached the end of their service life, and EPDM provides a modern replacement that eliminates the tar-and-gravel mess while delivering superior waterproofing performance. The single-ply membrane spans seamlessly across the small footprints typical of these residential flat sections, reducing the seam failures that plague older multi-ply systems.',
     'Commercial EPDM applications in West Orange cover strip malls, professional offices, and light-industrial buildings where owner-operators manage maintenance budgets carefully. We install fully adhered EPDM systems with reinforced flashings at all penetrations and parapet walls, providing the worry-free waterproofing that lets building owners in [West Orange](/roofing-in-west-orange-nj) focus on their businesses rather than their roofs.'
@@ -35,7 +35,25 @@ export const westOrangeRubberRoofingEpdm: ComboContent = {
     {
       question: 'What maintenance does an EPDM roof need in West Orange?',
       answer: 'EPDM requires minimal maintenance compared to other roofing materials. We recommend annual inspections checking seam adhesion, flashing condition at all penetrations and edges, and drain clearance to prevent ponding. Properties near South Mountain should schedule semi-annual debris removal to prevent organic material from trapping moisture against the membrane surface. Every five to seven years, we recommend applying EPDM conditioner to restore surface flexibility and UV resistance, extending the membrane\'s effective service life.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in West Orange, NJ?',
+      answer: 'Most rubber roofing epdm projects in West Orange range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in West Orange NJ. Durable membrane systems for flat roofs on garages, additions, and commercial buildings.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

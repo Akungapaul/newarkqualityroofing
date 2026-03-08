@@ -4,7 +4,7 @@ export const irvingtonCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Commercial roof replacement in Irvington has entered a critical period as the wave of membrane systems installed in the 1990s and early 2000s reaches end-of-life across Springfield Avenue and the Route 78 industrial corridor simultaneously. Our [commercial roof replacement](/commercial-roof-replacement) projects deliver modern, code-compliant roofing systems that address the energy efficiency, wind uplift, and drainage deficiencies that current standards require but that the original installations never provided.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Irvington — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Irvington has entered a critical period as the wave of membrane systems installed in the 1990s and early 2000s reaches end-of-life across Springfield Avenue and the Route 78 industrial corridor simultaneously. Our [commercial roof replacement](/commercial-roof-replacement) projects deliver modern, code-compliant roofing systems that address the energy efficiency, wind uplift, and drainage deficiencies that current standards require but that the original installations never provided.',
     'The replacement cycle on Irvington\'s commercial buildings creates an opportunity to correct decades of accumulated roofing problems in a single project. Buildings that have been patched, coated, and re-layered over 30 years carry substrate damage, inadequate insulation, and drainage deficiencies that individual repairs never addressed comprehensively. Full replacement strips everything back to the structural deck, allows complete substrate repair, and installs a modern system designed to current performance standards. The result is a roof that will perform better in year one than the original installation performed on its best day.',
     'Springfield Avenue\'s mixed-use commercial buildings and Irvington\'s religious institutions represent the largest segment of our commercial replacement work. These buildings serve essential community functions -- retail, medical, worship, education -- and their roofing systems must be replaced with minimal disruption to the operations beneath. Our phased replacement protocol keeps buildings operational throughout the project by completing tear-off and re-roofing in sections sized to maintain weather protection on unfinished areas. Commercial building owners in [Bloomfield](/commercial-roof-replacement-bloomfield-nj) also face aging commercial roof replacement cycles, though Irvington\'s Route 78 industrial zone adds larger-footprint projects that commercial Bloomfield\'s retail-dominated stock does not typically present.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonCommercialRoofReplacement: ComboContent = {
       question: 'What happens if you find structural damage during tear-off on my Irvington building?',
       answer: 'Substrate repair is addressed as it is discovered using pre-agreed unit pricing. We photograph the damage, calculate the repair scope, and obtain owner authorization before proceeding. Our contracts include contingency provisions for substrate repair so building owners have budgeted for this possibility. Common discoveries include corroded steel decking, deteriorated wood nailers, and saturated insulation.',
     },
+    {
+      question: 'How much does commercial roof replacement cost in Irvington, NJ?',
+      answer: 'Most commercial roof replacement projects in Irvington range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Irvington NJ for aging Springfield Ave buildings and Route 78 industrial facilities. Phased installation, minimal disruption.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

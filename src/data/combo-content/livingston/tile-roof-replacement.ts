@@ -4,7 +4,7 @@ export const livingstonTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Tile roof replacement on Livingston homes restores the distinctive Mediterranean and architectural statement that clay or concrete tile provides when the existing installation has reached the point where individual tile replacement can no longer maintain the system\'s weatherproofing integrity. While tile materials can last 50 to 75 years, the underlayment beneath them typically deteriorates at the 30 to 40 year mark, requiring tile removal, underlayment replacement, and tile reinstallation or replacement to restore the system\'s full protection.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Livingston — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement on Livingston homes restores the distinctive Mediterranean and architectural statement that clay or concrete tile provides when the existing installation has reached the point where individual tile replacement can no longer maintain the system\'s weatherproofing integrity. While tile materials can last 50 to 75 years, the underlayment beneath them typically deteriorates at the 30 to 40 year mark, requiring tile removal, underlayment replacement, and tile reinstallation or replacement to restore the system\'s full protection.',
     'The replacement decision on Livingston tile roofs often centers on underlayment condition rather than tile condition. Intact tiles may lift cleanly for reinstallation after new underlayment is installed beneath them, saving the material cost of full tile replacement. However, tiles that have sustained freeze-thaw damage, impact cracking, or color degradation warrant replacement with new tiles that provide both structural reliability and refreshed appearance.',
     'Our [tile roof replacement](/tile-roof-replacement) work evaluates both scenarios -- underlayment-only replacement with tile reuse versus full system replacement with new tiles -- and presents the cost-benefit analysis for each approach. The evaluation depends on the percentage of tiles that remain structurally sound, the availability of matching replacement tiles for damaged units, and the homeowner\'s aesthetic goals for the finished appearance. Livingston homeowners in [Millburn](/tile-roof-replacement-millburn-nj) face similar replacement evaluations on their tile-roofed estate homes.',
     'Structural reassessment during tile replacement verifies that the home\'s framing continues to support tile weight safely. Decades of service may have allowed connections to loosen, wood members to develop moisture damage, or additions to alter load paths in ways that affect the original structural capacity for tile loads.'
@@ -35,7 +35,25 @@ export const livingstonTileRoofReplacement: ComboContent = {
     {
       question: 'Does my Livingston HOA need to approve tile roof replacement?',
       answer: 'Most HOA communities approve tile replacement as a like-for-like material renewal. If you are changing the tile profile, color, or converting to a different material, architectural review approval is typically required. We handle the HOA submission process and verify requirements before recommending replacement options.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Livingston, NJ?',
+      answer: 'Most tile roof replacement projects in Livingston range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Livingston NJ -- underlayment renewal with tile salvage, structural assessment, and new clay or concrete installation.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

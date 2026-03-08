@@ -4,7 +4,7 @@ export const bloomfieldEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'bloomfield',
   overview: [
-    'Energy-efficient roofing in Bloomfield delivers measurable utility savings on the township\'s mid-century housing stock that was built before thermal performance was a construction priority. Cape Cods from the 1940s, split-levels from the 1960s, and colonials from the 1970s share a common energy deficiency: minimal roof insulation, inadequate attic ventilation, and roofing materials selected for weather resistance and cost rather than thermal performance. Upgrading to energy-efficient roofing materials and practices during re-roofing addresses these deficiencies at the most cost-effective point in the maintenance cycle.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Bloomfield — with prices starting from $10,000–$28,000 and free estimates available today. Energy-efficient roofing in Bloomfield delivers measurable utility savings on the township\'s mid-century housing stock that was built before thermal performance was a construction priority. Cape Cods from the 1940s, split-levels from the 1960s, and colonials from the 1970s share a common energy deficiency: minimal roof insulation, inadequate attic ventilation, and roofing materials selected for weather resistance and cost rather than thermal performance. Upgrading to energy-efficient roofing materials and practices during re-roofing addresses these deficiencies at the most cost-effective point in the maintenance cycle.',
     'Cool roofing technology -- reflective shingles and coatings that reduce heat absorption compared to standard dark-colored roofing -- provides the most accessible energy efficiency upgrade for Bloomfield\'s residential rooftops. Standard dark asphalt shingles absorb up to ninety percent of solar radiation, heating the attic space beneath and increasing air conditioning demand on already under-insulated Bloomfield homes. Energy Star-rated cool roofing shingles with reflective granules can reduce roof surface temperature by up to fifty degrees and lower attic temperatures by fifteen to twenty-five degrees, translating into measurable cooling cost reduction without any structural modification.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners approaching [roof replacement](/roof-replacement-bloomfield-nj), the energy-efficient roofing conversation extends beyond material selection to system design. Attic insulation depth, ventilation capacity, and radiant barrier installation all interact with the roofing material to determine the total thermal performance of the roof assembly. Addressing only the surface material while ignoring the insulation and ventilation beneath it captures a fraction of the available energy savings. We design the complete assembly -- surface, ventilation, insulation, and air sealing -- to deliver maximum thermal performance from the combined investment.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Are there rebates for energy-efficient roofing in Bloomfield?',
       answer: 'New Jersey offers Home Performance with Energy Star rebates for comprehensive energy improvements that include insulation and air sealing. Federal tax credits are available for qualifying cool roofing products on principal residences. PSE&G periodically offers rebates for energy efficiency improvements. We track current incentive availability and include applicable programs in our project proposals for Bloomfield homeowners. The available incentives can offset twenty to thirty percent of the energy improvement costs when programs are active.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Bloomfield, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Bloomfield range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy-efficient roofing in Bloomfield NJ -- cool shingles, ventilation upgrades, and insulation for Cape Cods, split-levels, and colonials.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const northCaldwellFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Fire damage roof replacement on North Caldwell estates requires specialized assessment and reconstruction expertise that extends well beyond standard roofing replacement. Fire compromises structural framing, destroys sheathing integrity, and may damage supporting walls and bearing points that the roof system depends on. The replacement process must verify and restore structural soundness before any new roofing material can be installed, making fire damage projects fundamentally different from weather-related replacement.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in North Caldwell — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement on North Caldwell estates requires specialized assessment and reconstruction expertise that extends well beyond standard roofing replacement. Fire compromises structural framing, destroys sheathing integrity, and may damage supporting walls and bearing points that the roof system depends on. The replacement process must verify and restore structural soundness before any new roofing material can be installed, making fire damage projects fundamentally different from weather-related replacement.',
     'Our [fire damage replacement](/fire-damage-roof-replacement) work on North Caldwell properties coordinates between the structural engineering assessment, insurance claims process, and the phased reconstruction that fire restoration demands. The roof cannot be replaced in isolation -- it must be rebuilt as part of the overall structural restoration, with each phase verified for code compliance before the next phase proceeds. This systematic approach ensures that the rebuilt roof system is structurally sound, code-compliant, and properly integrated with the restored building structure below.',
     'Insurance coordination for fire damage on [North Caldwell](/roofing-in-north-caldwell-nj) estates involves substantial claim values that reflect the premium construction and materials on these properties. We provide detailed replacement cost documentation that supports the claim at the actual cost of restoring the roof to its pre-fire specification, including premium materials, custom detailing, and the structural reconstruction needed to support the original roofing system. Property owners in [Caldwell](/fire-damage-roof-replacement-caldwell-nj) rely on similar fire restoration expertise when their properties are affected.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Do I need a structural engineer for fire damage roof replacement?',
       answer: 'Yes. Structural engineering assessment is essential for any fire damage that affected roof framing. The engineer verifies which framing members are structurally sound and which require replacement, and designs any needed reinforcement. This assessment is required by building code for fire restoration and provides the documentation that insurance companies and building departments require before reconstruction can proceed.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most fire damage roof replacement projects in North Caldwell range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in North Caldwell NJ -- structural restoration and insurance coordination for estate home fire recovery.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

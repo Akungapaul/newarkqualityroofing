@@ -4,7 +4,7 @@ export const caldwellFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Flat roof replacement in Caldwell addresses the renewal of membrane roofing systems on residential flat sections and commercial buildings when repair can no longer maintain watertight performance. The ranch home additions, enclosed porch roofs, carport covers, and commercial building tops that carry flat membrane systems in Caldwell eventually reach the point where patching deteriorated areas costs more per year than the amortized cost of replacement. At that threshold, full membrane replacement with modern materials provides the fresh start that aging flat roofs need.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Caldwell — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Caldwell addresses the renewal of membrane roofing systems on residential flat sections and commercial buildings when repair can no longer maintain watertight performance. The ranch home additions, enclosed porch roofs, carport covers, and commercial building tops that carry flat membrane systems in Caldwell eventually reach the point where patching deteriorated areas costs more per year than the amortized cost of replacement. At that threshold, full membrane replacement with modern materials provides the fresh start that aging flat roofs need.',
     'The flat roof replacement decision for [Caldwell](/roofing-in-caldwell-nj) properties involves selecting among membrane technologies that have evolved significantly since most existing flat roofs were installed. Original installations from the 1980s and 1990s often used standard EPDM or built-up roofing systems that performed adequately but lacked the energy efficiency, puncture resistance, and welded-seam reliability that current TPO, PVC, and enhanced EPDM systems provide. Replacement is the opportunity to upgrade the membrane technology, add tapered insulation for positive drainage, and install the leak-prevention details that the original installation omitted.',
     'Our [flat roof replacement](/flat-roof-replacement) approach for Caldwell specifies the complete system -- not just the membrane but the insulation, drainage design, equipment flashing, and perimeter details that determine whether the new system delivers its full lifespan potential. Membrane selection is matched to the specific building use and exposure conditions. Caldwell commercial buildings along Bloomfield Avenue may need PVC for chemical resistance at restaurant locations or TPO for energy performance at offices. Residential flat sections typically receive modified bitumen or TPO based on size and budget. Homeowners in [Bloomfield](/flat-roof-replacement-bloomfield-nj) and [Montclair](/flat-roof-replacement-montclair-nj) make similar system selections for their flat roof replacements.'
   ],
@@ -34,7 +34,25 @@ export const caldwellFlatRoofReplacement: ComboContent = {
     {
       question: 'Can my Caldwell business stay open during flat roof replacement?',
       answer: 'Yes, with proper planning. We sequence the work to maintain waterproof protection throughout the project, limiting daily exposure to manageable sections. Noise from membrane removal and insulation cutting is the primary business disruption, and we schedule the noisiest phases around your operating hours when possible. Most Caldwell commercial tenants experience minimal disruption during flat roof replacement when the project is properly planned and communicated.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Caldwell, NJ?',
+      answer: 'Most flat roof replacement projects in Caldwell range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Caldwell NJ -- TPO, PVC, and modified bitumen systems with tapered insulation for residential and commercial properties.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const caldwellGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'caldwell',
   overview: [
-    'Green roof installations in Caldwell represent an emerging interest among borough building owners who see vegetated roofing as a natural extension of the community\'s tree-canopy character. While Caldwell\'s commercial buildings are modest in scale compared to urban centers where green roofs have gained the most traction, the borough\'s environmental consciousness and garden-community identity create receptive conditions for green roof adoption. Extensive green roof systems -- shallow-profile sedum and succulent plantings that require minimal maintenance -- suit the small-footprint commercial buildings along Bloomfield Avenue and the institutional buildings that serve the Caldwell community.',
+    'Newark Quality Roofing delivers expert green roof installation in Caldwell — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installations in Caldwell represent an emerging interest among borough building owners who see vegetated roofing as a natural extension of the community\'s tree-canopy character. While Caldwell\'s commercial buildings are modest in scale compared to urban centers where green roofs have gained the most traction, the borough\'s environmental consciousness and garden-community identity create receptive conditions for green roof adoption. Extensive green roof systems -- shallow-profile sedum and succulent plantings that require minimal maintenance -- suit the small-footprint commercial buildings along Bloomfield Avenue and the institutional buildings that serve the Caldwell community.',
     'The practical benefits of [green roof](/green-roof-installation) systems align well with [Caldwell\'s](/roofing-in-caldwell-nj) specific concerns. Stormwater management ranks high on the borough\'s environmental priorities, and green roofs absorb rainfall that would otherwise rush through the storm drain system during heavy precipitation events. A properly designed green roof retains sixty to seventy percent of annual rainfall on the roof surface, releasing it through evapotranspiration rather than immediate runoff. For Caldwell\'s small commercial buildings, this retention capacity translates to measurable reduction in stormwater impact.',
     'Green roof installations in suburban Essex County communities including Caldwell, [Montclair](/green-roof-installation-montclair-nj), and [Bloomfield](/green-roof-installation-bloomfield-nj) differ from the large-scale urban green roofs on Newark towers and hospital complexes. Caldwell\'s projects are intimate in scale -- 2,000 to 5,000 square feet -- where the green roof transforms a utilitarian building top into visible greenery that neighbors and customers appreciate from surrounding vantage points. The aesthetic contribution may matter as much as the environmental performance in Caldwell\'s community-oriented context.'
   ],
@@ -34,7 +34,25 @@ export const caldwellGreenRoofInstallation: ComboContent = {
     {
       question: 'Does a green roof eliminate the need for stormwater management on my Caldwell property?',
       answer: 'Green roofs significantly reduce stormwater runoff but do not eliminate it entirely. During extreme rainfall events, green roofs reach saturation and begin discharging excess water through the drainage system. Caldwell stormwater regulations may credit green roof installations against site detention requirements, but the specific credit depends on the green roof area, system depth, and the borough\'s stormwater ordinance provisions. We coordinate with site engineers to determine what stormwater management credits apply to each Caldwell green roof project.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Caldwell, NJ?',
+      answer: 'Most green roof installation projects in Caldwell range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Caldwell NJ -- extensive sedum systems for commercial buildings with stormwater management and structural assessment.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

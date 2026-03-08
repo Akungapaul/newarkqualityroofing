@@ -4,7 +4,7 @@ export const glenRidgeRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'glen-ridge',
   overview: [
-    'Ice dam prevention in Glen Ridge addresses a chronic winter problem rooted in the borough\'s century-old housing stock. The original Victorian and Edwardian homes that line Ridgewood Avenue, Forest Avenue, and Linden Avenue were built before modern insulation and ventilation standards existed, creating the warm-attic conditions that drive ice dam formation. Heat escaping through poorly insulated roof assemblies melts snow from below, and the meltwater refreezes at cold eaves where unheated overhangs extend beyond the building envelope. Newark Quality Roofing attacks this problem at its source with insulation, ventilation, and waterproofing solutions designed specifically for Glen Ridge\'s historic architecture.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Glen Ridge — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Glen Ridge addresses a chronic winter problem rooted in the borough\'s century-old housing stock. The original Victorian and Edwardian homes that line Ridgewood Avenue, Forest Avenue, and Linden Avenue were built before modern insulation and ventilation standards existed, creating the warm-attic conditions that drive ice dam formation. Heat escaping through poorly insulated roof assemblies melts snow from below, and the meltwater refreezes at cold eaves where unheated overhangs extend beyond the building envelope. Newark Quality Roofing attacks this problem at its source with insulation, ventilation, and waterproofing solutions designed specifically for Glen Ridge\'s historic architecture.',
     'The root-cause approach to ice dam prevention matters especially in Glen Ridge, where the cosmetic damage from repeated ice damming threatens materials that are expensive and difficult to replace. Water backing up beneath slate coursing loosens individual stones and corrodes the original iron nails that have held them for over a century. Ice intrusion beneath cedar shakes accelerates rot in the hand-split wood that gives these homes their distinctive texture. Copper gutters bent by ice weight require hand-fabrication repair that costs many times what standard aluminum gutter straightening requires. Preventing ice dams in Glen Ridge protects irreplaceable historic materials that cannot be matched with commodity replacements.',
     'Our Glen Ridge ice dam prevention practice balances thermal performance improvement with the preservation constraints that the Historic Preservation Commission enforces. Visible exterior modifications to soffit vents, ridge vents, and eave details may require commission review, so we design solutions that achieve modern thermal performance through interior-side interventions whenever possible. Spray foam insulation applied to the underside of roof sheathing from within the attic, for example, dramatically reduces heat loss without any visible exterior change -- an approach that satisfies both [energy efficiency](/energy-efficient-roofing-solutions-glen-ridge-nj) goals and preservation standards simultaneously.',
   ],
@@ -30,6 +30,24 @@ export const glenRidgeRoofIceDamPrevention: ComboContent = {
       question: 'Are heat cables a permanent ice dam solution for Glen Ridge homes?',
       answer: 'Heat cables are a supplemental measure, not a standalone solution. They manage ice formation at eaves and in valleys but do not address the root cause of heat loss through the roof assembly. We recommend heat cables as part of a comprehensive strategy that includes insulation and ventilation improvements to reduce heat loss at the source. Used alone, heat cables increase energy costs and require annual maintenance without solving the underlying thermal problem.',
     },
+    {
+      question: 'How much does roof ice dam prevention cost in Glen Ridge, NJ?',
+      answer: 'Most roof ice dam prevention projects in Glen Ridge range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Glen Ridge NJ. Root-cause thermal solutions for century-old Victorian and Edwardian homes in the historic district.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const glenRidgeGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'glen-ridge',
   overview: [
-    'Green roof installation in Glen Ridge represents an emerging intersection between the borough\'s deep environmental values and its commitment to architectural preservation. The concept of a vegetated roof appeals to a community where mature trees, gaslit streets, and walkable neighborhoods reflect an enduring connection to the natural landscape. Newark Quality Roofing designs green roof systems for Glen Ridge applications where structural capacity permits, focusing on the lightweight extensive systems appropriate for the borough\'s residential-scale buildings rather than the intensive rooftop gardens found on larger commercial structures in cities like [Newark](/green-roof-installation-newark-nj).',
+    'Newark Quality Roofing delivers expert green roof installation in Glen Ridge — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Glen Ridge represents an emerging intersection between the borough\'s deep environmental values and its commitment to architectural preservation. The concept of a vegetated roof appeals to a community where mature trees, gaslit streets, and walkable neighborhoods reflect an enduring connection to the natural landscape. Newark Quality Roofing designs green roof systems for Glen Ridge applications where structural capacity permits, focusing on the lightweight extensive systems appropriate for the borough\'s residential-scale buildings rather than the intensive rooftop gardens found on larger commercial structures in cities like [Newark](/green-roof-installation-newark-nj).',
     'Glen Ridge\'s green roof opportunities center on flat-roof residential additions, garage roofs, and select institutional buildings where the concealed flat section behind a parapet provides both the structural platform and visual screening that makes a vegetated roof practical. A sedum-planted green roof behind a Victorian home\'s decorative cornice creates stormwater management benefits without altering the street-facing appearance -- an approach that aligns perfectly with Historic Preservation Commission priorities. The commission has expressed openness to green roof installations that do not affect the visible historic character of Glen Ridge structures.',
     'Stormwater management is a meaningful motivator for green roof adoption in Glen Ridge, where the borough\'s compact geography and fully developed lots leave minimal ground area for rainwater absorption. Green roofs retain 50 to 70 percent of rainfall, reducing the stormwater burden on Glen Ridge\'s aging municipal infrastructure and decreasing the basement flooding that affects homes throughout the borough during heavy rain events. This practical environmental benefit adds tangible value beyond the aesthetic appeal of a living roof surface.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeGreenRoofInstallation: ComboContent = {
       question: 'How much maintenance does a green roof require in Glen Ridge?',
       answer: 'Extensive green roofs with sedum and native plants require minimal maintenance after establishment -- typically two visits per year for weeding, drainage inspection, and plant health assessment. Glen Ridge\'s tree canopy adds a debris-clearing requirement, as fallen leaves and twigs must be removed to prevent smothering the living surface. We offer annual green roof maintenance packages for Glen Ridge installations.',
     },
+    {
+      question: 'How much does green roof installation cost in Glen Ridge, NJ?',
+      answer: 'Most green roof installation projects in Glen Ridge range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Glen Ridge NJ. Lightweight vegetated roofing for residential additions and institutional buildings with stormwater benefits.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

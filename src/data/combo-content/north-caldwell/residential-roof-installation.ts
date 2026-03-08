@@ -4,7 +4,7 @@ export const northCaldwellResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'north-caldwell',
   overview: [
-    'Residential roof installation in North Caldwell operates at a scale and quality level that separates estate-grade construction from standard suburban roofing. New homes in this borough are architect-designed custom builds on lots exceeding one acre, with roof systems engineered to complement multi-level floor plans featuring intersecting gables, hip-to-ridge transitions, dormer clusters, and covered entries that create roof geometries with thirty or more detail points requiring precision execution. The [residential roof installation](/residential-roof-installation) process for these properties demands project management, material coordination, and craft skills that standard residential crews rarely possess.',
+    'Newark Quality Roofing delivers expert residential roof installation in North Caldwell — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in North Caldwell operates at a scale and quality level that separates estate-grade construction from standard suburban roofing. New homes in this borough are architect-designed custom builds on lots exceeding one acre, with roof systems engineered to complement multi-level floor plans featuring intersecting gables, hip-to-ridge transitions, dormer clusters, and covered entries that create roof geometries with thirty or more detail points requiring precision execution. The [residential roof installation](/residential-roof-installation) process for these properties demands project management, material coordination, and craft skills that standard residential crews rarely possess.',
     'Material specification for new North Caldwell roof installations reflects the premium character of the homes beneath them. Architects and homeowners select from natural Vermont or Pennsylvania slate, hand-split Western Red Cedar shakes, standing-seam copper for accent areas, and the highest-tier designer shingle lines from GAF, Owens Corning, and CertainTeed. Each material carries specific structural requirements -- slate demands reinforced framing and spaced sheathing, cedar requires ventilated underlayment and stainless steel fasteners, copper needs substrate preparation and thermal expansion accommodation. Our installations integrate these material-specific requirements into the overall roof assembly from the first framing specification.',
     'North Caldwell\'s building department applies rigorous code standards to new construction, and the borough\'s elevated standards reflect community expectations for quality that exceed minimum code requirements. Structural engineering for snow loads, wind uplift calculations for the borough\'s exposed hilltop locations along Grandview Avenue, and proper ventilation design for the complex attic geometries created by custom floor plans all require engineering-level analysis that informs every aspect of the roof installation. We work directly with the project architect and structural engineer to ensure that our installation delivers on the design intent while meeting all code requirements.',
     'Our relationship with North Caldwell builders and homeowners extends across multiple project phases. We participate in preconstruction planning to specify roof framing requirements, attend framing inspections to verify that structural elements meet the roof system\'s demands, coordinate delivery timing with the general contractor\'s construction schedule, and manage installation across the multi-week timeline that estate-scale roofing requires. This integrated approach prevents the conflicts and delays that occur when roofing is treated as an afterthought added late in the construction process.'
@@ -35,7 +35,25 @@ export const northCaldwellResidentialRoofInstallation: ComboContent = {
     {
       question: 'Do you coordinate with the builder on new construction in North Caldwell?',
       answer: 'Direct builder coordination is essential and standard in our process. We attend preconstruction meetings, provide written framing and sheathing specifications, verify conditions at the framing inspection stage, coordinate material delivery with the project schedule, and maintain daily communication with the general contractor during installation. For larger estates, we assign a dedicated project manager who serves as the single point of contact for all roofing-related coordination throughout the construction process.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in North Caldwell, NJ?',
+      answer: 'Most residential roof installation projects in North Caldwell range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in North Caldwell NJ -- new construction with slate, copper, cedar, and designer shingles on custom estates.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

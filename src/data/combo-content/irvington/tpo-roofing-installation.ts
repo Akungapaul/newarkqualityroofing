@@ -4,7 +4,7 @@ export const irvingtonTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'irvington',
   overview: [
-    'TPO roofing has reshaped how Irvington\'s commercial property owners approach flat-roof replacement, particularly along the Springfield Avenue corridor where aging modified bitumen and built-up roofs have reached end-of-life on dozens of retail, medical, and institutional buildings simultaneously. Our [TPO roofing](/tpo-roofing-installation) installations deliver the reflective, energy-efficient membrane that Irvington\'s commercial operators need to control utility costs while eliminating the chronic leak cycles that plague the corridor\'s aging flat-roof inventory.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Irvington — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing has reshaped how Irvington\'s commercial property owners approach flat-roof replacement, particularly along the Springfield Avenue corridor where aging modified bitumen and built-up roofs have reached end-of-life on dozens of retail, medical, and institutional buildings simultaneously. Our [TPO roofing](/tpo-roofing-installation) installations deliver the reflective, energy-efficient membrane that Irvington\'s commercial operators need to control utility costs while eliminating the chronic leak cycles that plague the corridor\'s aging flat-roof inventory.',
     'The Route 78 industrial corridor along Irvington\'s southern boundary presents a distinct TPO application profile. Warehouses, distribution centers, and light manufacturing facilities need membrane roofing that withstands HVAC equipment loads, resists chemical exposure from industrial processes below, and tolerates the thermal cycling amplified by large unshaded roof surfaces. Our TPO specifications for Route 78 properties use 80-mil membrane -- heavier than the 60-mil standard on smaller commercial buildings -- with reinforced seams at equipment curbs and walkway pads protecting high-traffic maintenance paths.',
     'Irvington\'s apartment complexes and larger multi-family buildings increasingly specify TPO when commercial-code roof replacement is required. Buildings with five or more units fall under commercial building code for fire resistance and wind uplift, and TPO meets these requirements while delivering energy savings through its reflective white surface. Property managers in neighboring [East Orange](/tpo-roofing-installation-east-orange-nj) face identical commercial-code requirements on their apartment buildings, though Irvington\'s larger Route 78 industrial properties add commercial project scale that East Orange\'s predominantly residential building stock does not typically present.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonTpoRoofingInstallation: ComboContent = {
       question: 'Can TPO be installed over the existing roof on my Irvington building?',
       answer: 'Overlay is viable only when the existing roof consists of a single membrane layer over dry, structurally sound insulation and decking. On Springfield Avenue buildings with multiple accumulated layers, overlay traps moisture and accelerates substrate deterioration. We always core-sample the existing system to make an informed recommendation -- protecting the TPO investment requires honest assessment of what lies beneath.',
     },
+    {
+      question: 'How much does tpo roofing installation cost in Irvington, NJ?',
+      answer: 'Most tpo roofing installation projects in Irvington range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in Irvington NJ for commercial buildings along Springfield Ave and Route 78. Energy-efficient membrane with heat-welded seams.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

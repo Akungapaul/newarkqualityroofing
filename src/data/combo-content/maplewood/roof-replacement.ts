@@ -4,7 +4,7 @@ export const maplewoodRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Replacing a roof in Maplewood means understanding that this township\'s identity is built on architectural variety. Within a half-mile walk from Maplewood Village, you pass Victorian farmhouses with wraparound porches, Dutch Colonials with gambrel rooflines, Tudor cottages with steeply pitched gables, and mid-century ranches with low-slope profiles. Each style demands a different replacement strategy, material palette, and craftsmanship approach. Our experience across this full spectrum gives [Maplewood](/roofing-in-maplewood-nj) homeowners confidence that we understand their specific home, not just roofs in general.',
+    'Newark Quality Roofing delivers expert roof replacement in Maplewood — with prices starting from $8,500–$25,000+ and free estimates available today. Replacing a roof in Maplewood means understanding that this township\'s identity is built on architectural variety. Within a half-mile walk from Maplewood Village, you pass Victorian farmhouses with wraparound porches, Dutch Colonials with gambrel rooflines, Tudor cottages with steeply pitched gables, and mid-century ranches with low-slope profiles. Each style demands a different replacement strategy, material palette, and craftsmanship approach. Our experience across this full spectrum gives [Maplewood](/roofing-in-maplewood-nj) homeowners confidence that we understand their specific home, not just roofs in general.',
     'The western neighborhoods climbing toward South Mountain Reservation present replacement challenges that flatland communities never encounter. Homes on Prospect Street, Crestwood Drive, and Wyoming Avenue sit on sloped lots where staging equipment must be anchored to uneven terrain. Material delivery requires careful planning because steep driveways limit truck access. Once on the roof, the steep pitches common on Hilton-area Tudors and Colonials demand specialized safety rigging and slower installation paces. Homeowners in neighboring [West Orange](/roof-replacement-west-orange-nj) deal with similar elevation issues along the First Watchung ridge.',
     'Maplewood\'s creative, design-conscious community approaches roof replacement as an architectural opportunity rather than a maintenance chore. We regularly consult with homeowners who have researched material options, studied color theory for their home\'s exterior palette, and want to see physical samples against their specific siding, trim, and masonry. This collaborative approach produces results that elevate curb appeal across Maplewood\'s distinctive streetscapes. Our [roof replacement](/roof-replacement) process accommodates this level of engagement, from initial design consultation through final walkthrough.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodRoofReplacement: ComboContent = {
       question: 'What does a typical Maplewood roof replacement cost?',
       answer: 'Maplewood replacement costs range from $14,000 to $25,000 for standard architectural shingles on a Colonial, $25,000 to $45,000 for complex Tudor or Victorian roofs with premium materials, and $40,000 to $75,000+ for natural slate restorations. Steep hillside lots and Reservation-border properties may include additional staging costs. We provide free detailed written estimates after in-person inspection.',
     },
+    {
+      question: 'How much does roof replacement cost in Maplewood, NJ?',
+      answer: 'Most roof replacement projects in Maplewood range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement in Maplewood NJ for Victorians, Tudors, and Colonials. Architectural material matching and South Mountain storm protection.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

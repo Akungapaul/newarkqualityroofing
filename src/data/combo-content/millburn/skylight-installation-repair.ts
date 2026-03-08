@@ -4,7 +4,7 @@ export const millburnSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'millburn',
   overview: [
-    'Skylight installation on Millburn estates introduces natural illumination into interior spaces that the township\'s substantial homes often need most -- interior hallways in center-hall colonials, third-floor studies in Georgian residences, master bathrooms in renovated wings where window placement is constrained by exterior architectural symmetry. The architect-driven renovation culture in Short Hills and Wyoming means that skylights are specified not as aftermarket additions but as integral design elements coordinated with the home\'s architectural vocabulary, requiring installation that integrates with the existing roof surface -- slate, cedar, copper -- without compromising the roofline\'s visual integrity.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Millburn — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation on Millburn estates introduces natural illumination into interior spaces that the township\'s substantial homes often need most -- interior hallways in center-hall colonials, third-floor studies in Georgian residences, master bathrooms in renovated wings where window placement is constrained by exterior architectural symmetry. The architect-driven renovation culture in Short Hills and Wyoming means that skylights are specified not as aftermarket additions but as integral design elements coordinated with the home\'s architectural vocabulary, requiring installation that integrates with the existing roof surface -- slate, cedar, copper -- without compromising the roofline\'s visual integrity.',
     'Our [skylight installation and repair](/skylight-installation-repair) practice in Millburn extends beyond the unit itself to encompass the roof-integration details that determine whether the skylight performs as a weather-tight building element or becomes a persistent leak source. The curb framing, step flashing, counter-flashing, and head flashing that connect the skylight to the surrounding roof surface must be fabricated from materials compatible with the primary roofing -- copper flashing on slate roofs, matching metal on standing-seam applications -- and installed in the correct sequence relative to the roofing material coursing.',
     'Skylight repair on existing Millburn properties frequently addresses installations from previous decades where the skylight itself remains functional but the surrounding flashing has deteriorated, the glazing seal has failed causing condensation between panes, or the curb has developed cracks from thermal cycling. These repairs preserve the investment in the existing unit while restoring the weather integrity that the original installation provided. Properties in [Montclair](/skylight-installation-repair-montclair-nj) and [Bloomfield](/skylight-installation-repair-bloomfield-nj) face similar aging-skylight challenges, but Millburn\'s premium roof materials require more exacting flashing repair techniques.'
   ],
@@ -34,7 +34,25 @@ export const millburnSkylightInstallationRepair: ComboContent = {
     {
       question: 'How much natural light will a skylight add to my interior space?',
       answer: 'A skylight delivers roughly three times more natural light per square foot of glazing than a vertical window of the same size, because it receives direct overhead sunlight rather than light reflected from the sky and landscape. The actual light delivery depends on the skylight\'s size, the roof pitch, the compass orientation, and the light shaft configuration between the roof and the ceiling. We can model the expected light delivery using the project\'s specific dimensions and orientation to help the architect and homeowner evaluate whether the planned skylight size achieves the desired interior illumination.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Millburn, NJ?',
+      answer: 'Most skylight installation repair projects in Millburn range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair for Millburn estates. Slate-compatible integration, copper flashing, and thermally broken units with architect coordination.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

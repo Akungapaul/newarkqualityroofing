@@ -4,7 +4,7 @@ export const essexFellsRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'essex-fells',
   overview: [
-    'Ice dam prevention in Essex Fells addresses a winter roofing phenomenon amplified by the borough\'s specific combination of large homes, complex roof geometries, heavily wooded lots, and the elevated terrain that produces colder temperatures than the surrounding lowland communities. The multi-gable, multi-dormer roof forms that define Essex Fells estate architecture create concentrated ice dam formation zones at valleys, transitions, and north-facing eaves where snow accumulates in shaded pockets that resist the solar melting experienced on simpler roof geometries.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Essex Fells — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Essex Fells addresses a winter roofing phenomenon amplified by the borough\'s specific combination of large homes, complex roof geometries, heavily wooded lots, and the elevated terrain that produces colder temperatures than the surrounding lowland communities. The multi-gable, multi-dormer roof forms that define Essex Fells estate architecture create concentrated ice dam formation zones at valleys, transitions, and north-facing eaves where snow accumulates in shaded pockets that resist the solar melting experienced on simpler roof geometries.',
     'The root causes of ice damming on Essex Fells estates differ from those in the older housing stock of [Newark](/roof-ice-dam-prevention-newark-nj) or [Bloomfield](/roof-ice-dam-prevention-bloomfield-nj), where poor attic insulation in aging construction is typically the primary driver. Essex Fells homes, while well-constructed, generate ice dams through a combination of complex roof intersections that trap snow, recessed architectural details that create persistent shade, and cathedral-ceiling construction in great rooms and master suites that produces localized heat transfer through the roof deck at specific points rather than across the entire attic plane.',
     'Our [roof ice dam prevention](/roof-ice-dam-prevention) practice in Essex Fells addresses root causes rather than symptoms. While heat cables and reactive ice removal provide temporary relief, lasting ice dam prevention requires understanding the specific thermal dynamics of each estate\'s roof system and correcting the conditions that allow warm air to reach the roof deck at ice-dam-forming locations. This diagnostic approach produces permanent solutions tailored to the architectural complexity of Essex Fells estate homes rather than generic prescriptions applied uniformly across different building types.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRoofIceDamPrevention: ComboContent = {
     {
       question: 'How does tree canopy affect ice dam formation on my property?',
       answer: 'Tree canopy prevents solar warming of roof surfaces, allowing snow and ice to persist longer than on sun-exposed roofs. North-facing eaves beneath heavy canopy may not receive direct sunlight during winter months, creating persistent ice formations that grow with each freeze-thaw cycle. Strategic pruning -- removing lower limbs that shade the most vulnerable eave sections -- can improve solar exposure without significantly altering the property\'s tree canopy character. We coordinate canopy assessment with arborists to identify pruning options that balance ice dam reduction with landscape preservation.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Essex Fells, NJ?',
+      answer: 'Most roof ice dam prevention projects in Essex Fells range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Essex Fells NJ -- thermal diagnostics and root-cause solutions for complex estate roof geometries.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

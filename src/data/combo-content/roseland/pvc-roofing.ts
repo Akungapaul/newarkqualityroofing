@@ -4,7 +4,7 @@ export const roselandPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'roseland',
   overview: [
-    'PVC roofing serves Roseland\'s commercial properties where chemical resistance and welded-seam durability justify the premium over TPO and EPDM alternatives. The borough\'s office park buildings that house laboratory space, food service operations, or light manufacturing benefit from PVC\'s unique resistance to oils, greases, and chemical fumes that degrade other membrane materials. Our [PVC roofing](/pvc-roofing) installations use 60-mil and 80-mil membrane from established manufacturers whose products have demonstrated 30-year-plus field performance in commercial applications.',
+    'Newark Quality Roofing delivers expert pvc roofing in Roseland — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing serves Roseland\'s commercial properties where chemical resistance and welded-seam durability justify the premium over TPO and EPDM alternatives. The borough\'s office park buildings that house laboratory space, food service operations, or light manufacturing benefit from PVC\'s unique resistance to oils, greases, and chemical fumes that degrade other membrane materials. Our [PVC roofing](/pvc-roofing) installations use 60-mil and 80-mil membrane from established manufacturers whose products have demonstrated 30-year-plus field performance in commercial applications.',
     'Beyond chemical resistance, PVC offers heat-welded seam technology that creates bonds stronger than the membrane itself -- a performance characteristic shared with TPO but delivered by a material with a significantly longer track record. PVC single-ply membranes have been installed on commercial buildings since the 1960s in Europe and the 1970s in the United States, providing six decades of field data that newer materials cannot match. For Roseland property managers who prioritize proven performance, PVC\'s track record provides confidence that TPO\'s shorter history cannot yet equal.',
     'Roseland\'s corporate property managers increasingly value PVC\'s sustainability profile. The membrane is fully recyclable at end of life, and the material\'s reflective white surface qualifies for ENERGY STAR ratings and LEED credit contributions. For corporate tenants with sustainability commitments, a PVC roof supports the environmental reporting that modern corporate occupancy agreements require. Commercial properties in neighboring [Livingston](/pvc-roofing-livingston-nj) have adopted PVC for similar sustainability and performance reasons.'
   ],
@@ -34,7 +34,25 @@ export const roselandPvcRoofing: ComboContent = {
     {
       question: 'Is PVC roofing environmentally sustainable?',
       answer: 'PVC roofing is fully recyclable at end of life through established recycling programs operated by major manufacturers. The white reflective surface reduces building cooling energy consumption, and the extended service life reduces the frequency of replacement and associated waste generation. These characteristics contribute to LEED certification points and support corporate sustainability reporting requirements that tenants in Roseland\'s commercial buildings increasingly demand.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Roseland, NJ?',
+      answer: 'Most pvc roofing projects in Roseland range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Roseland NJ -- chemical-resistant commercial membrane for office parks, restaurants, and properties requiring premium performance.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

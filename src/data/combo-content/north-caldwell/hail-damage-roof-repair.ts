@@ -4,7 +4,7 @@ export const northCaldwellHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Hail events in North Caldwell affect premium roofing materials in ways that differ fundamentally from the impact patterns on standard residential shingles. Natural slate tiles can crack under hailstone impact without visible surface damage -- the fracture propagates through the stone\'s lamination plane, creating an invisible fault that admits water during subsequent rain events. Copper roofing develops dents that compromise the standing seam profile and can initiate corrosion at stress points. Cedar shakes absorb impact energy differently than rigid materials, with hail driving surface fibers inward rather than fracturing, creating moisture entry points that are invisible until the wood begins to rot from within.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in North Caldwell — with prices starting from $500–$2,500 and free estimates available today. Hail events in North Caldwell affect premium roofing materials in ways that differ fundamentally from the impact patterns on standard residential shingles. Natural slate tiles can crack under hailstone impact without visible surface damage -- the fracture propagates through the stone\'s lamination plane, creating an invisible fault that admits water during subsequent rain events. Copper roofing develops dents that compromise the standing seam profile and can initiate corrosion at stress points. Cedar shakes absorb impact energy differently than rigid materials, with hail driving surface fibers inward rather than fracturing, creating moisture entry points that are invisible until the wood begins to rot from within.',
     'The tree canopy that defines North Caldwell provides partial hail protection that creates inconsistent damage patterns across estate roof systems. Sections beneath heavy canopy may escape with minimal impact while exposed ridgelines, upper dormers, and south-facing slopes that extend above the treeline sustain concentrated damage. This variable exposure means that [hail damage roof repair](/hail-damage-roof-repair) assessments on North Caldwell properties must examine every roof section independently rather than extrapolating conditions from a single sample area. Properties in [Caldwell](/hail-damage-roof-repair-caldwell-nj) with less canopy coverage tend to show more uniform damage patterns that are simpler to assess.',
     'Insurance claim documentation for hail damage on North Caldwell properties requires particular expertise because the damage to premium materials is frequently less visually obvious than hail damage to standard shingles. An adjuster trained to identify granule loss and mat exposure on three-tab shingles may not recognize the hairline fractures in slate, the stress dimpling in copper seams, or the fiber displacement in cedar shakes. Our inspection reports include material-specific damage markers with photographic documentation calibrated to the damage signatures of each premium roofing material installed on the property.',
     'Our [roof repair](/roof-repair) approach to hail damage in North Caldwell distinguishes between cosmetic impact marks and functional damage that compromises waterproofing. Not every hail mark requires repair -- some materials absorb minor impacts without loss of function. Our assessment identifies the damage that matters, quantifies it accurately for insurance purposes, and recommends repair scope that restores full protection without unnecessary replacement of undamaged sections.'
@@ -35,7 +35,25 @@ export const northCaldwellHailDamageRoofRepair: ComboContent = {
     {
       question: 'How long after a hail storm should I have my North Caldwell roof inspected?',
       answer: 'Schedule inspection within one to two weeks of the event. Earlier is better for documentation purposes, and most insurance policies require timely reporting. However, do not delay if you notice interior symptoms like ceiling stains or dripping -- hail-cracked slate or shingles can leak during the first rain after the damage occurs. We prioritize post-hail inspections and can typically schedule North Caldwell assessments within three to five business days of a significant hail event.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in North Caldwell, NJ?',
+      answer: 'Most hail damage roof repair projects in North Caldwell range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in North Caldwell NJ -- slate fracture diagnosis, copper dent assessment, and premium material restoration on estates.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

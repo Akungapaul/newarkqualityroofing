@@ -4,7 +4,7 @@ export const caldwellRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'caldwell',
   overview: [
-    'Roof replacement after leak damage in Caldwell addresses the situation where persistent or severe leaking has compromised the roof assembly beyond what targeted repair can restore. When a Caldwell homeowner has experienced repeated leaks at the same location despite multiple repair attempts, when leak damage has spread to the deck and structural framing, or when the leak is symptomatic of system-wide deterioration that makes spot repairs ineffective, full replacement provides the comprehensive solution that ends the cycle of recurring water infiltration.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Caldwell — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak damage in Caldwell addresses the situation where persistent or severe leaking has compromised the roof assembly beyond what targeted repair can restore. When a Caldwell homeowner has experienced repeated leaks at the same location despite multiple repair attempts, when leak damage has spread to the deck and structural framing, or when the leak is symptomatic of system-wide deterioration that makes spot repairs ineffective, full replacement provides the comprehensive solution that ends the cycle of recurring water infiltration.',
     'The decision to replace rather than continue repairing a leaking [Caldwell](/roofing-in-caldwell-nj) roof is not always obvious. Homeowners naturally prefer the lower cost of repair, and each individual repair seems reasonable in isolation. But when repair costs accumulate, when each fix reveals additional deterioration nearby, and when the homeowner\'s confidence in the roof\'s ability to keep water out has eroded, [roof replacement](/roof-replacement-after-leak) becomes the financially and emotionally sound choice. We help Caldwell homeowners recognize when they have crossed the threshold from repairable condition to replacement territory.',
     'Leak-driven replacement differs from aging-driven replacement in one critical way: the deck beneath a leaking roof has been exposed to moisture and will need more extensive repair than a deck beneath a worn but water-tight roof. Caldwell homes where leaks have persisted for months or years typically show deck deterioration, rafter softening, and insulation damage that adds scope and cost to the replacement project. These hidden conditions are the true cost of deferred replacement -- costs that grow with every rain event that the failing roof admits. Homeowners in [Bloomfield](/roof-replacement-after-leak-bloomfield-nj) and [Montclair](/roof-replacement-after-leak-montclair-nj) face similar hidden-damage realities when leak-driven replacement reveals the extent of concealed deterioration.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Will the new roof prevent the same leak problems?',
       answer: 'When replacement addresses the root cause of the original leak -- whether that was inadequate flashing, missing ice-and-water shield, poor ventilation causing ice dams, or simply material end-of-life -- the new system is engineered to prevent recurrence. We identify what caused the original leak during our assessment and incorporate specific countermeasures into the new installation design. Modern materials and installation practices provide waterproofing capabilities that significantly exceed what was available when most leaking Caldwell roofs were originally installed.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Caldwell, NJ?',
+      answer: 'Most roof replacement after leak projects in Caldwell range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Caldwell NJ -- ending chronic leaks with full system replacement, deck repair, and upgraded waterproofing.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

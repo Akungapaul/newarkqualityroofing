@@ -4,7 +4,7 @@ export const caldwellRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'caldwell',
   overview: [
-    'Ice dam prevention in Caldwell addresses a winter roofing problem that plagues the borough\'s colonial and cape cod housing stock every January through March. Ice dams form when heat escaping through inadequately insulated attic spaces melts snow on the upper roof surface while the unheated eave overhang remains frozen. Meltwater flows down the warm roof, reaches the frozen eave, and refreezes into a growing ice ridge that traps subsequent meltwater behind it. This trapped water backs up under shingle tabs, penetrates the roof assembly, and drips through ceilings and walls into the living space below -- producing the water-stained ceilings that Caldwell homeowners dread each winter.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Caldwell — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Caldwell addresses a winter roofing problem that plagues the borough\'s colonial and cape cod housing stock every January through March. Ice dams form when heat escaping through inadequately insulated attic spaces melts snow on the upper roof surface while the unheated eave overhang remains frozen. Meltwater flows down the warm roof, reaches the frozen eave, and refreezes into a growing ice ridge that traps subsequent meltwater behind it. This trapped water backs up under shingle tabs, penetrates the roof assembly, and drips through ceilings and walls into the living space below -- producing the water-stained ceilings that Caldwell homeowners dread each winter.',
     'Caldwell\'s housing stock is particularly susceptible to ice dams because the mid-century construction that dominates the borough was built with attic insulation levels far below modern standards. Three to six inches of fiberglass batt was standard in the 1960s; current code requires fourteen inches equivalent. This insulation shortfall allows significant heat escape through the ceiling into the attic, warming the roof deck to temperatures that melt snow even when outdoor temperatures are well below freezing. Cape cod homes with their knee walls and minimal attic depth face the worst ice dam conditions because heat migrates freely through the shallow attic space.',
     'Our [ice dam prevention](/roof-ice-dam-prevention) approach for [Caldwell](/roofing-in-caldwell-nj) prioritizes root-cause remediation over symptom treatment. Heat cables on the roof edge address the symptom by melting ice at the eave, but they do not stop the heat escape that creates the melt-freeze cycle. Proper prevention works from the attic side -- sealing air leaks through the ceiling plane, adding insulation to R-49 standards, and ensuring soffit-to-ridge ventilation keeps the roof deck cold. This building-science approach eliminates ice dams permanently rather than managing them annually. Neighbors in [Bloomfield](/roof-ice-dam-prevention-bloomfield-nj) and [Montclair](/roof-ice-dam-prevention-montclair-nj) face identical ice dam conditions on their mid-century housing stock.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofIceDamPrevention: ComboContent = {
     {
       question: 'How much does ice dam prevention cost for a Caldwell cape cod?',
       answer: 'Comprehensive ice dam prevention on a Caldwell cape cod -- including knee wall insulation, attic floor air sealing, insulation to R-49, ventilation improvements, and ice-and-water shield during roof replacement -- typically runs between three thousand and eight thousand dollars depending on the existing conditions and scope required. This investment eliminates annual ice dam damage, reduces heating costs by fifteen to twenty-five percent through improved insulation, and protects interior finishes from the water damage that recurring ice dams produce.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Caldwell, NJ?',
+      answer: 'Most roof ice dam prevention projects in Caldwell range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Caldwell NJ -- attic insulation, air sealing, and ventilation upgrades to eliminate ice dams on colonial and cape cod homes.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

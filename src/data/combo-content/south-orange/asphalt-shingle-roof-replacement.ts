@@ -4,7 +4,7 @@ export const southOrangeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Asphalt shingle roof replacement in South Orange Village delivers new warranty-backed roofing to the portion of the housing stock where architectural shingles provide the appropriate material choice -- the mid-century Colonials and Capes in Newstead and Hixon Place, newer renovations where the home\'s architectural style suits shingle rather than slate or cedar, and properties where the homeowner\'s budget or maintenance preference favors asphalt over premium alternatives.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in South Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement in South Orange Village delivers new warranty-backed roofing to the portion of the housing stock where architectural shingles provide the appropriate material choice -- the mid-century Colonials and Capes in Newstead and Hixon Place, newer renovations where the home\'s architectural style suits shingle rather than slate or cedar, and properties where the homeowner\'s budget or maintenance preference favors asphalt over premium alternatives.',
     'Product selection for South Orange shingle replacement focuses on the designer and luxury tiers that complement the village\'s architectural standards. Standard three-tab shingles are not appropriate for South Orange\'s premium streetscapes. GAF Timberline HDZ, CertainTeed Landmark Pro, and Owens Corning Duration architectural shingles provide the dimensional profiles and color ranges that South Orange homes require. For properties where maximum visual impact matters, designer products like GAF Grand Sequoia and CertainTeed Grand Manor provide profiles approaching the visual weight of natural materials.',
     'Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) process in South Orange includes the complete installation scope that premium shingle performance requires -- full tear-off, deck verification and repair, synthetic underlayment, ice-and-water shield at all vulnerable locations, and the manufacturer-specified nail pattern and exposure dimensions. These installation details determine whether the shingle achieves its full warranty lifespan, and cutting any corner compromises the investment.',
     'Color and profile selection for South Orange shingle replacement involves the same contextual evaluation we apply to premium material projects. Shingle color is evaluated from street perspective against the home\'s siding, trim, masonry, and the roofscape of neighboring properties. Designer shingle profiles are assessed for compatibility with the home\'s architectural style. This consultation prevents the color mismatches and style-inappropriate selections that diminish curb appeal in a village where roofscape quality matters to homeowners and neighbors in [South Orange](/roofing-in-south-orange-nj) alike.'
@@ -35,7 +35,25 @@ export const southOrangeAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'What warranty do you provide on shingle replacement?',
       answer: 'We register the manufacturer\'s enhanced warranty that covers both material defects and our installation labor. GAF offers lifetime limited warranties on Timberline products when installed by certified contractors with windspeed warranties up to 130 MPH. CertainTeed and Owens Corning offer similar enhanced coverage. Additionally, we provide our own workmanship warranty covering installation details that manufacturer warranties may not fully address.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in South Orange, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in South Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in South Orange NJ -- premium architectural shingles for Colonials and mid-century village homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

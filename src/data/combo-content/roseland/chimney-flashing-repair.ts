@@ -4,7 +4,7 @@ export const roselandChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'roseland',
   overview: [
-    'Chimney flashing repair ranks among the most frequent roofing service calls in Roseland, where the colonials, split-levels, and ranch homes built during the 1950s through 1970s carry chimneys with original flashing systems that have exceeded their design life. The intersection between masonry chimney and roof surface is inherently vulnerable -- two dissimilar materials with different thermal expansion rates meeting at a point that concentrates water flow from the surrounding roof field. Our [chimney flashing repair](/chimney-flashing-repair) service addresses these failures with techniques that account for the specific chimney types and roof configurations found throughout the borough.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Roseland — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair ranks among the most frequent roofing service calls in Roseland, where the colonials, split-levels, and ranch homes built during the 1950s through 1970s carry chimneys with original flashing systems that have exceeded their design life. The intersection between masonry chimney and roof surface is inherently vulnerable -- two dissimilar materials with different thermal expansion rates meeting at a point that concentrates water flow from the surrounding roof field. Our [chimney flashing repair](/chimney-flashing-repair) service addresses these failures with techniques that account for the specific chimney types and roof configurations found throughout the borough.',
     'The typical Roseland chimney flashing failure occurs at the counter-flashing embedded in mortar joints. Original counter-flashing -- usually galvanized steel set in mortar during chimney construction -- corrodes over decades while the surrounding mortar deteriorates from freeze-thaw cycling. Water penetrates behind the counter-flashing, runs down the step flashing concealed beneath the shingle courses, and emerges as ceiling stains in the room adjacent to the chimney. Homeowners in [North Caldwell](/chimney-flashing-repair-north-caldwell-nj) and [Essex Fells](/chimney-flashing-repair-essex-fells-nj) experience identical failure patterns on their mid-century homes.',
     'Back-wall cricket flashings -- the diverter behind the chimney that redirects water around the chimney mass -- are frequently missing or undersized on Roseland homes. Original construction on many mid-century homes omitted the cricket entirely, allowing snow and debris to accumulate behind the chimney where trapped moisture accelerates deterioration of both the flashing and the roof deck. Adding or rebuilding the cricket during chimney flashing repair permanently solves this accumulation problem.'
   ],
@@ -34,7 +34,25 @@ export const roselandChimneyFlashingRepair: ComboContent = {
     {
       question: 'What material do you use for chimney counter-flashing?',
       answer: 'We use lead-coated copper or aluminum for counter-flashing depending on the project specification. Lead-coated copper conforms precisely to irregular masonry surfaces and lasts 70 to 100 years. Aluminum provides excellent corrosion resistance at lower cost with 30 to 40 year service life. Both materials are set into freshly cut mortar reglets with polyurethane sealant that maintains flexibility through thermal cycling.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Roseland, NJ?',
+      answer: 'Most chimney flashing repair projects in Roseland range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Roseland NJ -- step flashing, counter-flashing, and cricket installation for colonial and split-level homes.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

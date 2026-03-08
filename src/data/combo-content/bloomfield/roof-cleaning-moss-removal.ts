@@ -4,7 +4,7 @@ export const bloomfieldRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'bloomfield',
   overview: [
-    'Moss, algae, and lichen growth on Bloomfield roofs is driven by the township\'s mature tree canopy, which shades north-facing roof planes and creates the damp, low-light conditions these organisms need to colonize asphalt shingle surfaces. The oak-lined streets of Oakcrest, the maple canopy through Watsessing, and the mixed hardwoods throughout Brookdale cast shadows that keep portions of the roof surface cool and moist well into mid-morning. This extended moisture period -- combined with organic debris accumulation from leaf fall -- creates ideal growing conditions that can establish visible moss colonies within two to three years on shingles lacking algae-resistant granule technology.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Bloomfield — with prices starting from $300–$800 and free estimates available today. Moss, algae, and lichen growth on Bloomfield roofs is driven by the township\'s mature tree canopy, which shades north-facing roof planes and creates the damp, low-light conditions these organisms need to colonize asphalt shingle surfaces. The oak-lined streets of Oakcrest, the maple canopy through Watsessing, and the mixed hardwoods throughout Brookdale cast shadows that keep portions of the roof surface cool and moist well into mid-morning. This extended moisture period -- combined with organic debris accumulation from leaf fall -- creates ideal growing conditions that can establish visible moss colonies within two to three years on shingles lacking algae-resistant granule technology.',
     'The practical concern for Bloomfield homeowners is not appearance -- moss growth on a north-facing slope is barely visible from the street on most Cape Cods and ranches. The concern is the physical damage that moss and algae inflict on shingle surfaces over time. Moss rootlets penetrate between granules and lift the granule layer from the asphalt mat, accelerating the granule loss that reduces shingle waterproofing capacity. Algae colonies -- the dark streaking visible as Gloeocapsa magma -- create a moisture-retaining film that keeps the shingle surface perpetually damp, promoting the granule adhesive breakdown that makes moss establishment easier. Cleaning and treatment interrupts this degradation cycle and extends shingle service life.',
     'Our [roof cleaning](/roof-cleaning-moss-removal) approach for Bloomfield homeowners uses low-pressure chemical treatment rather than pressure washing, which strips granules from shingle surfaces and causes more damage than the organisms it removes. The chemical treatment -- typically a sodium percarbonate or zinc-based solution applied at low pressure -- kills moss, algae, and lichen at the root without displacing the protective granule layer. Dead moss dries and falls from the roof naturally over the following weeks, and the residual treatment inhibits regrowth for twelve to eighteen months. Homeowners in neighboring [Nutley](/roof-cleaning-moss-removal-nutley-nj) deal with similar tree-shaded growth patterns along the shared municipal border.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'Can moss damage be reversed on my Bloomfield roof?',
       answer: 'Cleaning stops further damage but cannot restore granules that moss has already displaced. If moss growth has been present for several years, the affected areas will show accelerated granule thinning compared to unaffected planes after cleaning. This thinning reduces the remaining service life of the affected sections. Early intervention -- cleaning moss within the first year or two of visible growth -- preserves the most granule coverage and maintains the longest remaining useful life.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Bloomfield, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Bloomfield range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Bloomfield NJ roof cleaning and moss removal -- low-pressure treatment for tree-shaded Cape Cods, split-levels, and colonials in Oakcrest and Watsessing.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

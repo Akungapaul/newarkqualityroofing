@@ -4,7 +4,7 @@ export const bloomfieldRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Roof deck deterioration on Bloomfield\'s homes typically reveals itself during re-roofing when the old shingles are removed and the plywood or board sheathing beneath is exposed for the first time in twenty to thirty years. Cape Cods and ranches built in the 1950s used solid board sheathing -- one-by-six or one-by-eight planks nailed across the rafters. Later colonials and split-levels from the 1960s and 1970s transitioned to plywood and eventually oriented strand board. Each material deteriorates differently, but the underlying cause is consistent: water penetration through failed shingles, flashing, or valley details saturates the deck, and repeated wetting without drying drives fungal decay that weakens the structural sheathing.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Bloomfield — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck deterioration on Bloomfield\'s homes typically reveals itself during re-roofing when the old shingles are removed and the plywood or board sheathing beneath is exposed for the first time in twenty to thirty years. Cape Cods and ranches built in the 1950s used solid board sheathing -- one-by-six or one-by-eight planks nailed across the rafters. Later colonials and split-levels from the 1960s and 1970s transitioned to plywood and eventually oriented strand board. Each material deteriorates differently, but the underlying cause is consistent: water penetration through failed shingles, flashing, or valley details saturates the deck, and repeated wetting without drying drives fungal decay that weakens the structural sheathing.',
     'The extent of roof deck damage on a Bloomfield home directly correlates with how long the overlying shingle system leaked before repair or replacement. A roof that leaked for one season before replacement may have a few soft spots at the leak location. A roof that leaked for five years before the homeowner addressed it may have widespread deck deterioration across entire roof planes. Our experience with Bloomfield\'s housing stock -- which tends toward deferred maintenance more than affluent neighboring communities -- is that deck repair or replacement adds between five hundred and three thousand dollars to the typical re-roofing project.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners receiving [roof replacement](/roof-replacement-bloomfield-nj) estimates, deck repair is the variable cost component that cannot be precisely determined until the existing shingles are removed. Reputable contractors note this contingency in their estimates, specifying a per-sheet price for plywood replacement if needed. Contractors who guarantee a fixed price without this contingency are either planning to skip necessary deck replacement or will present a surprise change order mid-project. We provide transparent pricing that clearly specifies the deck repair rate, minimizing financial surprises during the project.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Will roof deck damage affect my Bloomfield home insurance claim?',
       answer: 'Insurance coverage for deck damage depends on the cause. Deck deterioration from sudden storm damage -- a tree limb impact, for example -- is typically covered. Deck deterioration from long-term water infiltration due to deferred maintenance is typically not covered, as insurers consider this a maintenance failure rather than a covered peril. If you are filing an insurance claim for storm-related roof damage, we document deck conditions in our damage assessment to support the claim where applicable.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Bloomfield, NJ?',
+      answer: 'Most roof deck repair replacement projects in Bloomfield range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair in Bloomfield NJ -- plywood and OSB replacement during re-roofing for Cape Cods, split-levels, and colonials with water damage.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

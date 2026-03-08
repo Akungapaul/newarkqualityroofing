@@ -4,7 +4,7 @@ export const caldwellFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'caldwell',
   overview: [
-    'Full roof tear-off on Caldwell homes removes every layer of existing roofing material down to the structural deck, providing a clean foundation for new roof installation. This approach reveals the actual condition of the sheathing, allows inspection and repair of deteriorated decking, and eliminates the trapped moisture and debris that accumulate between roof layers when overlays are applied. For Caldwell\'s colonial and cape cod homes carrying their original 1960s roofing plus one or two overlay layers, full tear-off is the only path to a roof system that performs to modern standards.',
+    'Newark Quality Roofing delivers expert full roof tear off in Caldwell — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on Caldwell homes removes every layer of existing roofing material down to the structural deck, providing a clean foundation for new roof installation. This approach reveals the actual condition of the sheathing, allows inspection and repair of deteriorated decking, and eliminates the trapped moisture and debris that accumulate between roof layers when overlays are applied. For Caldwell\'s colonial and cape cod homes carrying their original 1960s roofing plus one or two overlay layers, full tear-off is the only path to a roof system that performs to modern standards.',
     'Caldwell building code limits residential roofs to two total layers of shingle material. Many Caldwell homes have already reached this limit, making [full tear-off](/full-roof-tear-off) mandatory rather than optional for the next replacement cycle. Even when code allows an additional layer, we recommend tear-off for [Caldwell](/roofing-in-caldwell-nj) homes where the existing roof shows any signs of moisture infiltration, valley deterioration, or deck softness -- conditions that an overlay would conceal but not correct. Tear-off exposes every square foot of deck for inspection, ensuring that no hidden damage carries into the new roof installation.',
     'The tear-off process on a typical Caldwell colonial generates approximately three thousand to four thousand pounds of waste material that must be contained, removed, and disposed of responsibly. Our containment system protects landscaping, siding, and walkways during the aggressive demolition phase, and our disposal practices comply with Essex County waste regulations. Neighbors in [North Caldwell](/full-roof-tear-off-north-caldwell-nj) and [Roseland](/full-roof-tear-off-roseland-nj) see similar tear-off scope on their residential properties.'
   ],
@@ -34,7 +34,25 @@ export const caldwellFullRoofTearOff: ComboContent = {
     {
       question: 'Will the tear-off damage my landscaping?',
       answer: 'We take specific precautions to protect Caldwell home landscaping during tear-off. Heavy tarps cover plantings along the foundation perimeter. Debris chutes direct material into the dumpster rather than allowing freefall off the roof edge. Magnetic nail sweepers cover all ground areas after tear-off. Occasionally a shrub branch may be bent by tarp weight or a plant may receive minor damage from falling material despite precautions. We document pre-existing landscaping conditions and take responsibility for any damage our operations cause.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Caldwell, NJ?',
+      answer: 'Most full roof tear off projects in Caldwell range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Caldwell NJ -- complete shingle removal with deck inspection, repair, and responsible waste disposal for colonial homes.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const newarkSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'newark',
   overview: [
-    'Soffits on Newark buildings are the underside of the roof overhang -- the horizontal panels bridging the gap between the fascia board at the roof edge and the exterior wall. In a city where building ages span from 1880s brownstones to 2020s infill construction, soffit conditions range from original beadboard planking with hand-cut ventilation holes to modern perforated aluminum panels to deteriorated plywood with no ventilation at all. Each condition tells a story about the building\'s ventilation history, and each demands a different repair approach.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Newark — with prices starting from $1,500–$4,000 and free estimates available today. Soffits on Newark buildings are the underside of the roof overhang -- the horizontal panels bridging the gap between the fascia board at the roof edge and the exterior wall. In a city where building ages span from 1880s brownstones to 2020s infill construction, soffit conditions range from original beadboard planking with hand-cut ventilation holes to modern perforated aluminum panels to deteriorated plywood with no ventilation at all. Each condition tells a story about the building\'s ventilation history, and each demands a different repair approach.',
     'The ventilation function of soffits is critically important in Newark\'s climate and building stock. Attic ventilation requires air intake at the soffits and exhaust at the ridge, creating a continuous airflow that removes moisture in winter and heat in summer. In Newark\'s brownstone neighborhoods, many buildings have had their soffit ventilation blocked by well-intentioned but damaging renovations -- insulation stuffed against the soffit openings, paint applied over perforated panels, or solid replacement panels installed where vented originals once existed. The result is attic moisture accumulation that rots roof sheathing from below, a failure mode invisible from the exterior until the damage is severe.',
     'Pest intrusion through damaged soffits is a persistent problem in Newark\'s urban environment. Squirrels, raccoons, and birds exploit gaps between deteriorated soffit panels and fascia boards to access attic spaces. The problem is amplified in Newark\'s row-house blocks where a pest colony in one building\'s attic can migrate through shared party walls to adjacent buildings. Our soffit repairs include pest exclusion detailing -- galvanized hardware cloth behind ventilation openings, sealed transitions at every panel joint, and drip-edge integration that eliminates the fascia-to-soffit gap that becomes a pest entry point.',
     'Material selection for soffit replacement in Newark balances ventilation performance, pest resistance, moisture durability, and visual compatibility with the building\'s era. We install perforated aluminum soffit panels with factory-finished surfaces for most residential applications -- they provide continuous ventilation, resist moisture damage, and require no painting. For historic brownstones where original beadboard soffit panels are architecturally significant, we install new tongue-and-groove boards in rot-resistant cedar with screened ventilation strips that maintain the historic appearance while delivering modern ventilation performance.'
@@ -40,7 +40,25 @@ export const newarkSoffitInstallationRepair: ComboContent = {
     {
       question: 'Should soffit repair be done at the same time as gutter or fascia work?',
       answer: 'Yes, whenever possible. Soffit, fascia, and gutter work all require the same roof-edge access setup -- scaffolding or aerial lifts on Newark\'s multi-story buildings. Combining these projects into a single mobilization saves the access setup cost, which on a three-story North Ward brownstone can represent fifteen to twenty percent of the total project cost. More importantly, these three components function as an integrated system: the fascia supports the gutter, the soffit ventilates the attic, and all three protect the rafter tails and sheathing edge. Addressing them together ensures that the interfaces between components are properly detailed.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Newark, NJ?',
+      answer: 'Most soffit installation repair projects in Newark range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Newark NJ -- vented panel upgrades, pest exclusion, fire blocking for row houses, and attic ventilation solutions.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

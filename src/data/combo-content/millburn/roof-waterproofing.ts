@@ -4,7 +4,7 @@ export const millburnRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'millburn',
   overview: [
-    'Roof waterproofing on Millburn estates addresses the secondary and tertiary moisture-barrier systems that protect property interiors when primary roofing materials encounter conditions beyond their normal performance envelope. Ice-and-water shield membranes at eaves and valleys, liquid-applied waterproofing on flat-roof transitions, flashing sealants at penetrations and wall junctions, and below-deck waterproofing on rooftop terraces -- these systems create redundant moisture barriers that prevent water intrusion during the nor\'easters, ice storms, and wind-driven rain events that Millburn\'s elevated Essex County location receives with seasonal regularity.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Millburn — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing on Millburn estates addresses the secondary and tertiary moisture-barrier systems that protect property interiors when primary roofing materials encounter conditions beyond their normal performance envelope. Ice-and-water shield membranes at eaves and valleys, liquid-applied waterproofing on flat-roof transitions, flashing sealants at penetrations and wall junctions, and below-deck waterproofing on rooftop terraces -- these systems create redundant moisture barriers that prevent water intrusion during the nor\'easters, ice storms, and wind-driven rain events that Millburn\'s elevated Essex County location receives with seasonal regularity.',
     'The investment protection dimension of roof waterproofing resonates particularly with Millburn homeowners whose properties represent multi-million-dollar assets with finished interiors featuring custom millwork, original artwork, and curated furnishings. A waterproofing failure that allows water into a Short Hills master suite or a Wyoming study causes damage measured in tens of thousands of dollars within hours. Our [roof waterproofing](/roof-waterproofing) specifications for Millburn properties reflect this risk profile -- we apply waterproofing membrane coverage that extends beyond code minimums, specify premium sealant products with longer service lives, and design redundant barrier systems at the highest-risk junctions.',
     'Waterproofing repair on existing Millburn properties often reveals that original construction met the code requirements of its era but falls short of the performance standards that today\'s climate intensity and homeowner expectations demand. Ice-and-water shield that extends only twenty-four inches past the exterior wall -- the code minimum for decades -- proves inadequate when ice dams push water five or six feet up the roof slope during severe winter events. Upgrading waterproofing coverage during repair or renovation projects brings the protection level up to the standard that Millburn\'s weather exposure and property values justify.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofWaterproofing: ComboContent = {
     {
       question: 'How long does roof waterproofing last?',
       answer: 'Service life varies by product type and exposure. Self-adhering ice-and-water shield membranes concealed beneath roofing material last the life of the roof -- thirty to fifty years or more. Liquid-applied waterproofing on exposed surfaces lasts ten to twenty years depending on UV exposure, traffic, and coating maintenance. Sealants at joints and penetrations have the shortest life -- typically seven to fifteen years -- and require periodic inspection and renewal as part of the roof maintenance program. We schedule sealant renewal as part of our estate maintenance programs to prevent joint failures between major roof service events.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Millburn, NJ?',
+      answer: 'Most roof waterproofing projects in Millburn range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing for Millburn and Short Hills estates. Ice-and-water shield, terrace membranes, and redundant moisture barriers for high-value properties.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

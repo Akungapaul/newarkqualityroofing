@@ -4,7 +4,7 @@ export const fairfieldGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'fairfield',
   overview: [
-    'Green roof installation in Fairfield addresses a growing interest among commercial property owners and municipal planners in stormwater management, urban heat reduction, and sustainable building practices. The township\'s Route 46 corridor -- with its concentration of large-footprint commercial buildings surrounded by impervious parking surfaces -- creates significant stormwater runoff that green roof systems can meaningfully reduce. By absorbing and filtering rainfall through engineered soil media and drought-tolerant vegetation, green roofs on Fairfield commercial buildings slow runoff to municipal storm drains and reduce the thermal impact of dark rooftop surfaces on the surrounding microclimate.',
+    'Newark Quality Roofing delivers expert green roof installation in Fairfield — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Fairfield addresses a growing interest among commercial property owners and municipal planners in stormwater management, urban heat reduction, and sustainable building practices. The township\'s Route 46 corridor -- with its concentration of large-footprint commercial buildings surrounded by impervious parking surfaces -- creates significant stormwater runoff that green roof systems can meaningfully reduce. By absorbing and filtering rainfall through engineered soil media and drought-tolerant vegetation, green roofs on Fairfield commercial buildings slow runoff to municipal storm drains and reduce the thermal impact of dark rooftop surfaces on the surrounding microclimate.',
     'Fairfield\'s proximity to the Passaic River adds environmental urgency to stormwater management that green roofs address. The township sits within the Passaic River watershed, and every square foot of impervious commercial roofing that can be converted to absorbent green roof surface reduces the volume and velocity of runoff reaching the river system during storm events. Property owners in Fairfield and throughout western Essex County -- including neighboring [Caldwell](/green-roof-installation-caldwell-nj) and [Roseland](/green-roof-installation-roseland-nj) -- may qualify for stormwater fee credits or environmental incentives when installing green roof systems that meet municipal performance standards.',
     'Commercial office buildings and newer hotel properties along Route 46 represent the primary green roof candidates in Fairfield. These buildings typically have structural capacity engineered for future load additions and flat roof surfaces with adequate drainage infrastructure to handle the additional water management requirements of a green roof assembly. Our [green roof installation](/green-roof-installation) practice evaluates each Fairfield property for structural adequacy, waterproofing condition, drainage compatibility, and maintenance access before recommending a green roof system type.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldGreenRoofInstallation: ComboContent = {
     {
       question: 'What maintenance does a green roof require in Fairfield?',
       answer: 'Established green roofs in Fairfield require quarterly maintenance visits for weeding, drainage inspection, and seasonal plant care. Spring visits address winter damage and prepare the growing season. Summer visits manage weed pressure and verify irrigation adequacy during dry periods. Fall visits clear drainage paths before winter. Annual fertilization with slow-release organic fertilizer maintains plant vigor. The total maintenance cost is comparable to conventional roof maintenance when factoring in the reduced membrane repair needs that green roof protection provides.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Fairfield, NJ?',
+      answer: 'Most green roof installation projects in Fairfield range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Fairfield NJ. Stormwater management and sustainable roofing for Route 46 commercial and office buildings.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

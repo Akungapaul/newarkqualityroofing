@@ -4,7 +4,7 @@ export const irvingtonRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'irvington',
   overview: [
-    'Roof flashing failures generate more leak calls in Irvington than any other single roofing component, driven by the township\'s aging housing stock where original galvanized flashings from the 1920s and 1930s have corroded through and replacement flashings installed during re-roofing projects in the 1990s are now reaching their own end-of-life. Our [roof flashing](/roof-flashing-installation-repair) repair and installation services across Irvington target the chimney bases, wall intersections, and valley junctions where water concentration overwhelms deteriorated metal and sealant.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Irvington — with prices starting from $300–$1,500 and free estimates available today. Roof flashing failures generate more leak calls in Irvington than any other single roofing component, driven by the township\'s aging housing stock where original galvanized flashings from the 1920s and 1930s have corroded through and replacement flashings installed during re-roofing projects in the 1990s are now reaching their own end-of-life. Our [roof flashing](/roof-flashing-installation-repair) repair and installation services across Irvington target the chimney bases, wall intersections, and valley junctions where water concentration overwhelms deteriorated metal and sealant.',
     'Irvington\'s colonials and Cape Cods in the Olympic Park section present a consistent flashing failure pattern: step flashing alongside dormers and at roof-to-wall transitions corrodes and lifts away from the wall surface, allowing wind-driven rain to enter behind the shingles. These failures are often invisible from ground level, discovered only when water stains appear on interior ceilings and walls. Our diagnostic approach for Irvington flashing leaks includes systematic inspection of every transition detail -- not just the area above the visible stain -- because water travels along framing before dripping into occupied spaces.',
     'Springfield Avenue commercial buildings add flat-roof flashing challenges where membrane terminations at parapet walls and equipment curbs are the primary failure points. Years of thermal cycling cause metal counterflashing to pull away from masonry joints, and the sealant that was supposed to bridge the gap dries and cracks within 3 to 5 years. Homeowners in neighboring [Newark](/roof-flashing-installation-repair-newark-nj) face similar flashing deterioration on their aging housing stock, though Irvington\'s predominantly detached structures allow for cleaner repair access compared to Newark\'s party-wall complications.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofFlashingInstallationRepair: ComboContent = {
       question: 'Why does my Irvington chimney leak after previous repairs?',
       answer: 'Recurring chimney leaks on Irvington homes typically indicate that the previous repair relied on sealant rather than proper flashing integration. Sealant applied over deteriorated flashing or into eroded mortar joints provides temporary waterproofing that fails within 3 to 5 years. A lasting chimney flashing repair requires removing old flashings, repointing mortar joints, installing new step and counterflashing with mechanical integration, and sealing only as supplemental protection -- not as the primary waterproofing barrier.',
     },
+    {
+      question: 'How much does roof flashing installation repair cost in Irvington, NJ?',
+      answer: 'Most roof flashing installation repair projects in Irvington range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing repair in Irvington NJ for aging colonials, chimneys, and commercial buildings. Fix the transition details where most leaks originate.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

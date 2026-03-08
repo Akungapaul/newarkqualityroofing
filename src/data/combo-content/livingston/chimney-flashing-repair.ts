@@ -4,7 +4,7 @@ export const livingstonChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'livingston',
   overview: [
-    'Chimney flashing failure is among the most common roof leak sources on Livingston homes, particularly on the colonials and split-levels where masonry chimneys penetrate roof planes at intersections already prone to water concentration. The flashing system surrounding a chimney must handle four distinct waterproofing challenges simultaneously: base flashing at the front apron where roof slope meets chimney face, step flashing along both sides where shingles course up past the chimney, counter-flashing embedded in mortar joints to cap the step flashing, and a cricket or saddle behind the chimney to divert water around the penetration rather than pooling against the back wall.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Livingston — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing failure is among the most common roof leak sources on Livingston homes, particularly on the colonials and split-levels where masonry chimneys penetrate roof planes at intersections already prone to water concentration. The flashing system surrounding a chimney must handle four distinct waterproofing challenges simultaneously: base flashing at the front apron where roof slope meets chimney face, step flashing along both sides where shingles course up past the chimney, counter-flashing embedded in mortar joints to cap the step flashing, and a cricket or saddle behind the chimney to divert water around the penetration rather than pooling against the back wall.',
     'Livingston\'s aging chimney stock compounds flashing problems because the masonry itself contributes to failure. Mortar joints deteriorate over decades of freeze-thaw cycling, opening gaps where counter-flashing was originally embedded. The chimney may shift slightly relative to the roof structure as the foundation settles, pulling the flashing joint apart at the mortar line. These masonry-driven failures require both flashing replacement and mortar restoration to achieve a lasting seal.',
     'Our [chimney flashing repair](/chimney-flashing-repair) service addresses the full chimney-to-roof interface on Livingston homes, from the shingle integration at the base to the counter-flashing reglets in the masonry. We treat chimney flashing as a system rather than isolating individual components, because a repair that addresses only the visible failure point often leaves adjacent components that fail within a year or two. Homes in [Cedar Grove](/chimney-flashing-repair-cedar-grove-nj) present similar vintage chimney flashing conditions on their ranch-style homes.',
     'HOA communities in Livingston occasionally have standards for chimney appearance that affect flashing material and color selection. We coordinate with architectural review committees when visible flashing elements -- particularly the counter-flashing and apron -- must match community aesthetic guidelines.'
@@ -35,7 +35,25 @@ export const livingstonChimneyFlashingRepair: ComboContent = {
     {
       question: 'Should I repair chimney flashing separately or wait until my next Livingston roof replacement?',
       answer: 'If the flashing is actively leaking, repair immediately to prevent water damage that will cost more than the repair itself. If the flashing shows early deterioration but is not yet leaking, the decision depends on your roof\'s remaining service life. If replacement is within three to five years, deferring flashing repair to the roof project saves labor costs. If replacement is further out, repair now to prevent a leak from developing before the next roof project.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Livingston, NJ?',
+      answer: 'Most chimney flashing repair projects in Livingston range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Livingston NJ -- complete system rebuilds with cricket installation, counter-flashing, and masonry tuck-pointing.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

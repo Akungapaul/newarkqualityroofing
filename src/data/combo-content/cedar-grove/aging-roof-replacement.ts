@@ -4,7 +4,7 @@ export const cedarGroveAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Aging roof replacement in Cedar Grove addresses the inevitable end-of-life transition that every roofing system reaches -- the point where continued repair spending exceeds the value of the remaining protection and replacement becomes the economically sound decision. The township\'s concentration of 1960s ranch and colonial homes puts many Cedar Grove properties on similar replacement timelines, with homes originally roofed during the same development era now reaching their second or third replacement cycle simultaneously.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Cedar Grove — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Cedar Grove addresses the inevitable end-of-life transition that every roofing system reaches -- the point where continued repair spending exceeds the value of the remaining protection and replacement becomes the economically sound decision. The township\'s concentration of 1960s ranch and colonial homes puts many Cedar Grove properties on similar replacement timelines, with homes originally roofed during the same development era now reaching their second or third replacement cycle simultaneously.',
     'Recognizing the optimal replacement timing for Cedar Grove homes requires understanding how [aging roof](/aging-roof-replacement) deterioration progresses on the township\'s characteristic low-pitch structures. Granule loss, shingle curling, and flashing deterioration all accelerate on low-slope roofs where moisture retention and thermal cycling compound the aging process. Cedar Grove ranch roofs typically reach replacement threshold at eighteen to twenty-two years -- two to three years earlier than the same shingles would last on a steeper-pitched home in the same climate zone.',
     'Proactive replacement before active leaking begins protects Cedar Grove homeowners from the cascading damage that deferred replacement causes. Water infiltration through an aging roof damages deck sheathing, attic insulation, interior drywall, and even structural framing. Replacing the roof before these secondary damages occur limits the project scope to the roof surface and saves the thousands of dollars in interior restoration that emergency replacement after leak damage inevitably requires.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveAgingRoofReplacement: ComboContent = {
       question: 'What improvements should I make during aging roof replacement?',
       answer: 'Cedar Grove homeowners should incorporate ridge vent installation or upgrade, soffit vent verification, attic insulation baffles, and ice-and-water shield membrane at eaves and valleys. These improvements cost a fraction of their standalone installation price when included with the replacement project, and they address the ventilation, insulation, and ice dam vulnerabilities that shorten roof life on Cedar Grove\'s low-pitch ranch homes.',
     },
+    {
+      question: 'How much does aging roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most aging roof replacement projects in Cedar Grove range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Cedar Grove NJ -- proactive replacement for ranch homes before leak damage with ventilation and insulation upgrades.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

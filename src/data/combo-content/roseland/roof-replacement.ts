@@ -4,7 +4,7 @@ export const roselandRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Roseland\'s housing stock has reached the replacement window that every suburban New Jersey borough eventually faces. The colonials, split-levels, and ranches built during the 1950s through 1970s along Becker Farm Road, Harrison Avenue, and Laurel Avenue are now carrying roofs that have either already been replaced once and are approaching the end of that second lifecycle, or in some cases still wear their original builder-grade three-tab shingles well past any reasonable service expectation. The decision to replace rather than continue repairing becomes clear when underlying decking shows moisture damage, when granule loss exposes asphalt substrate, or when energy costs climb because deteriorated roofing no longer provides meaningful thermal protection.',
+    'Newark Quality Roofing delivers expert roof replacement in Roseland — with prices starting from $8,500–$25,000+ and free estimates available today. Roseland\'s housing stock has reached the replacement window that every suburban New Jersey borough eventually faces. The colonials, split-levels, and ranches built during the 1950s through 1970s along Becker Farm Road, Harrison Avenue, and Laurel Avenue are now carrying roofs that have either already been replaced once and are approaching the end of that second lifecycle, or in some cases still wear their original builder-grade three-tab shingles well past any reasonable service expectation. The decision to replace rather than continue repairing becomes clear when underlying decking shows moisture damage, when granule loss exposes asphalt substrate, or when energy costs climb because deteriorated roofing no longer provides meaningful thermal protection.',
     'Roof replacement in Roseland operates at the intersection of residential neighborhood standards and corporate borough character. Homeowners along Eagle Rock Avenue and the surrounding residential streets expect replacement work to maintain the well-kept aesthetic that defines the borough, and our [roof replacement](/roof-replacement) process delivers finished installations that satisfy both the homeowner and their neighbors. Unlike denser urban settings where replacement crews contend with party walls and zero-lot-line access constraints, Roseland\'s generous lot sizes allow efficient material staging, debris management, and clean site operations that respect the suburban environment.',
     'The commercial replacement market in Roseland centers on the office parks along Eisenhower Parkway and the corporate campus buildings that anchor the borough\'s economy. These buildings require full membrane replacements on cycles of twenty to thirty years, and the projects involve tens of thousands of square feet of roof area with complex penetration detailing around HVAC equipment, telecommunications infrastructure, and building access points. Our commercial replacement projects for Roseland properties include membrane selection analysis, insulation upgrades to current energy code requirements, and drainage design that eliminates the ponding issues that plagued earlier-generation installations.',
     'Homeowners in neighboring [North Caldwell](/roof-replacement-north-caldwell-nj) and [Livingston](/roof-replacement-livingston-nj) share similar mid-century housing stock and replacement timelines. What distinguishes Roseland replacement projects is the borough\'s compact geography and the resulting proximity of residential and commercial building types -- our crews may complete a colonial re-roof on Becker Farm Road in the morning and mobilize for a commercial membrane project on Eisenhower Parkway the same week, bringing cross-context expertise that benefits both types of client.'
@@ -39,7 +39,25 @@ export const roselandRoofReplacement: ComboContent = {
     {
       question: 'Will a new roof improve the energy efficiency of my 1960s Roseland home?',
       answer: 'Significantly. A modern architectural shingle system with upgraded attic insulation and balanced ridge-to-soffit ventilation typically reduces heating and cooling costs by 15 to 25 percent compared to the original 1960s roof system. The improvement comes from three factors: reflective granule technology on modern shingles that reduces heat absorption, proper ventilation that prevents attic heat buildup in summer and moisture accumulation in winter, and the insulation upgrades we recommend during every replacement. These combined improvements make the energy savings a meaningful offset against the replacement investment.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Roseland, NJ?',
+      answer: 'Most roof replacement projects in Roseland range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roseland NJ roof replacement for colonials, split-levels, and commercial buildings -- full tear-off installations with ventilation upgrades.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

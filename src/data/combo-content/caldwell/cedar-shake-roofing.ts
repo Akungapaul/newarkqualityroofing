@@ -4,7 +4,7 @@ export const caldwellCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'caldwell',
   overview: [
-    'Cedar shake roofing in Caldwell speaks to the borough\'s residential character -- homes set beneath mature trees on quiet streets where natural materials complement rather than compete with the landscape. Hand-split cedar shakes bring a warmth and texture to colonial and cape cod rooflines that manufactured materials cannot replicate, and a handful of Caldwell homeowners on the larger lots near Provost Square and the western neighborhoods have chosen cedar for exactly this reason. The material rewards attention and investment with a roof surface that ages into the silver-gray patina that blends with bark and stone rather than fighting the tree canopy that defines this borough.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Caldwell — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing in Caldwell speaks to the borough\'s residential character -- homes set beneath mature trees on quiet streets where natural materials complement rather than compete with the landscape. Hand-split cedar shakes bring a warmth and texture to colonial and cape cod rooflines that manufactured materials cannot replicate, and a handful of Caldwell homeowners on the larger lots near Provost Square and the western neighborhoods have chosen cedar for exactly this reason. The material rewards attention and investment with a roof surface that ages into the silver-gray patina that blends with bark and stone rather than fighting the tree canopy that defines this borough.',
     'Cedar shake performance in [Caldwell](/roofing-in-caldwell-nj) depends entirely on the relationship between the shake surface and the tree canopy above it. The same oak and maple trees that give the borough its character also create conditions that challenge cedar longevity -- persistent shade holds moisture against shake surfaces, leaf debris traps dampness in courses, and fallen branches crack individual shakes. Successful cedar roofing here requires a maintenance commitment beyond what asphalt shingles demand, and our [cedar shake roofing](/cedar-shake-roofing) approach for Caldwell builds that maintenance reality into every installation plan.',
     'Neighboring communities like [Montclair](/cedar-shake-roofing-montclair-nj) and [Glen Ridge](/cedar-shake-roofing-glen-ridge-nj) carry cedar shake on Victorian and Tudor homes where historic character drives material selection. Caldwell\'s cedar shake context differs -- these are typically mid-century homes where the owner has chosen cedar as an upgrade from shingles rather than a preservation requirement. This means Caldwell cedar installations can incorporate modern ventilation details and preservative-treated shakes that historic preservation districts might restrict, giving Caldwell cedar roofs a performance advantage that offsets the canopy challenges.'
   ],
@@ -34,7 +34,25 @@ export const caldwellCedarShakeRoofing: ComboContent = {
     {
       question: 'Do cedar shakes attract insects on Caldwell homes?',
       answer: 'Cedar\'s natural oils actually repel most insects, including termites and carpenter ants. However, aged cedar that has lost its oil content through years of weathering can become susceptible to boring insects. The preservative treatments we apply during installation and recommend for periodic reapplication maintain the insect resistance that fresh cedar provides naturally. Caldwell\'s tree canopy brings increased insect presence near roof surfaces, making preservative maintenance particularly important in this borough.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Caldwell, NJ?',
+      answer: 'Most cedar shake roofing projects in Caldwell range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Caldwell NJ -- hand-split cedar installation with canopy-specific ventilation, fire treatment, and maintenance programs.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

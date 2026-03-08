@@ -4,7 +4,7 @@ export const livingstonRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'livingston',
   overview: [
-    'Roof deck integrity is the structural foundation beneath every Livingston home\'s roofing system. The plywood or OSB sheathing that spans between rafters provides the nailing surface for shingles, the mounting substrate for waterproofing membranes, and the structural diaphragm that distributes wind uplift loads across the roof framing. When deck sheathing deteriorates -- softening from chronic moisture exposure, delaminating from repeated wetting and drying cycles, or rotting from decades of slow water infiltration through failed flashing -- the roof system above it progressively loses its performance foundation.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Livingston — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck integrity is the structural foundation beneath every Livingston home\'s roofing system. The plywood or OSB sheathing that spans between rafters provides the nailing surface for shingles, the mounting substrate for waterproofing membranes, and the structural diaphragm that distributes wind uplift loads across the roof framing. When deck sheathing deteriorates -- softening from chronic moisture exposure, delaminating from repeated wetting and drying cycles, or rotting from decades of slow water infiltration through failed flashing -- the roof system above it progressively loses its performance foundation.',
     'Livingston\'s mid-century housing stock carries original roof decking that has endured 50 or more years of service beneath one or two roofing system cycles. The plywood installed during the 1960s and 1970s construction used adhesives and veneer grades that were adequate for the era but less resistant to moisture damage than modern exterior-rated products. Even homes that have been re-roofed receive their new shingles on original decking that may harbor concealed deterioration invisible until the old roofing is stripped during the next replacement cycle.',
     'Our [roof deck repair and replacement](/roof-deck-repair-replacement) work in Livingston addresses deck conditions discovered during roof replacement projects and standalone deck repair when localized damage threatens the roof system\'s integrity between replacement cycles. The most common discovery locations on Livingston homes are at valley intersections where chronic water flow has penetrated the underlayment, at chimney and wall transitions where flashing failure has admitted water for years, and at the eave-to-wall junction on split-levels where ice dam infiltration has saturated the deck repeatedly.',
     'Homeowners in [West Orange](/roof-deck-repair-replacement-west-orange-nj) encounter similar vintage deck conditions during their roof replacement projects, reflecting the shared construction era across northern Essex County\'s postwar suburban development.'
@@ -35,7 +35,25 @@ export const livingstonRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'How do you decide between repairing and replacing roof deck on my Livingston home?',
       answer: 'We probe the deck at the edges of visible damage to determine how far deterioration extends beyond the obviously damaged area. If the surrounding deck is sound with clear boundaries around the damage, targeted replacement addresses the problem efficiently. If the damage extends progressively outward with no clear boundary, the deterioration is systemic and broader replacement is needed to provide a reliable substrate for the new roofing system.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Livingston, NJ?',
+      answer: 'Most roof deck repair replacement projects in Livingston range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Livingston NJ -- plywood sheathing restoration during re-roofing with real-time condition assessment.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

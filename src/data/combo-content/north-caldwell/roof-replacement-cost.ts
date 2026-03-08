@@ -4,7 +4,7 @@ export const northCaldwellRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'north-caldwell',
   overview: [
-    'Roof replacement cost on North Caldwell estates reflects the premium materials, complex roof geometries, and scale of these custom-built homes. A typical estate roof replacement involves 4,000 to 8,000 square feet of roof area with multiple intersecting planes, numerous dormers, and premium material specifications that place these projects well above the pricing that standard residential roofing websites quote. Understanding what drives the cost -- and where value can be maximized -- helps homeowners budget accurately and make informed material decisions.',
+    'Newark Quality Roofing delivers expert roof replacement cost in North Caldwell — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost on North Caldwell estates reflects the premium materials, complex roof geometries, and scale of these custom-built homes. A typical estate roof replacement involves 4,000 to 8,000 square feet of roof area with multiple intersecting planes, numerous dormers, and premium material specifications that place these projects well above the pricing that standard residential roofing websites quote. Understanding what drives the cost -- and where value can be maximized -- helps homeowners budget accurately and make informed material decisions.',
     'Our [roof replacement cost](/roof-replacement-cost) consultations for North Caldwell homeowners provide transparent, itemized estimates that break down every component: material cost per square, labor for the specific roof complexity, tear-off and disposal, deck repair contingency, flashing and waterproofing details, and gutter and trim work. This granular breakdown allows the homeowner to understand exactly what each element contributes to the total and where alternative material selections could adjust the budget without compromising performance.',
     'The cost range across North Caldwell replacement projects spans from premium architectural shingles at the entry level to natural slate or standing seam copper at the top. Between these bookends, designer shingles, synthetic slate, metal panels, and composite shake products offer various performance and aesthetic combinations at intermediate price points. We help [North Caldwell](/roofing-in-north-caldwell-nj) homeowners navigate this range with honest cost-versus-benefit analysis for each option rather than pushing the most expensive specification. Similar cost transparency guides homeowners in [Caldwell](/roof-replacement-cost-caldwell-nj) and throughout Essex County.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofReplacementCost: ComboContent = {
     {
       question: 'Do you offer financing for roof replacement on North Caldwell estates?',
       answer: 'Yes. We offer financing options through lending partners that provide competitive rates for home improvement projects. Many North Caldwell homeowners use home equity lines of credit for major roofing investments, which may offer tax advantages. We can discuss financing options during the consultation and help connect you with lending resources appropriate for your project scope and budget preferences.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in North Caldwell, NJ?',
+      answer: 'Most roof replacement cost projects in North Caldwell range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in North Caldwell NJ -- transparent pricing and material comparisons for estate home re-roofing projects.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

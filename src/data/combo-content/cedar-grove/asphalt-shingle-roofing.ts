@@ -4,7 +4,7 @@ export const cedarGroveAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'Asphalt shingles cover the vast majority of Cedar Grove rooftops, and for good reason -- the material delivers reliable weather protection at a price point that fits the township\'s practical, value-conscious homeowner culture. But not all asphalt shingles perform equally on Cedar Grove\'s low-pitch ranch roofs, and the product selection decisions that might be cosmetic in other communities become performance-critical here. Shallow roof slopes between 3:12 and 5:12 pitch, combined with northern Essex County\'s heavier snow loads and extended freeze-thaw cycling, demand shingles with SBS-modified asphalt formulations that maintain flexibility through temperature extremes rather than the rigid oxidized-asphalt products that crack under thermal stress.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Cedar Grove — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingles cover the vast majority of Cedar Grove rooftops, and for good reason -- the material delivers reliable weather protection at a price point that fits the township\'s practical, value-conscious homeowner culture. But not all asphalt shingles perform equally on Cedar Grove\'s low-pitch ranch roofs, and the product selection decisions that might be cosmetic in other communities become performance-critical here. Shallow roof slopes between 3:12 and 5:12 pitch, combined with northern Essex County\'s heavier snow loads and extended freeze-thaw cycling, demand shingles with SBS-modified asphalt formulations that maintain flexibility through temperature extremes rather than the rigid oxidized-asphalt products that crack under thermal stress.',
     'The architectural shingle has largely replaced the three-tab product across Cedar Grove, and the upgrade delivers measurable performance advantages beyond aesthetics. Dimensional profiles create a thicker, more rigid assembly that resists wind uplift more effectively than flat three-tab shingles on Cedar Grove\'s exposed low-pitch surfaces. The layered construction also provides enhanced impact resistance during the hail events that summer thunderstorms deliver along the Watchung ridge. Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations in Cedar Grove match the specific product line to each property\'s pitch, exposure, and ventilation conditions.',
     'Color selection in Cedar Grove trends toward the earth tones that complement the township\'s traditional ranch and colonial architecture. Weathered Wood, Driftwood, and Charcoal shingles dominate the residential streets, creating a cohesive neighborhood aesthetic that most homeowners prefer to match. We bring full-size samples for daylight evaluation against each home\'s siding and trim, because the ranch home\'s low profile places the entire roof at eye level where color choices are immediately visible. Homes in [Montclair](/asphalt-shingle-roofing-montclair-nj) tend toward more varied palettes reflecting that township\'s diverse architectural character, but Cedar Grove favors consistency.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveAsphaltShingleRoofing: ComboContent = {
       question: 'What wind rating should my Cedar Grove asphalt shingles have?',
       answer: 'We recommend minimum 110 mph rated shingles for standard Cedar Grove elevations and 130 mph rated products for exposed ridge-top properties on Ridge Road, Bowden Road, and upper Bradford Avenue. Enhanced six-nail fastening patterns supplement the shingle wind rating with additional mechanical resistance. These specifications reflect Cedar Grove\'s actual storm exposure rather than minimum code requirements.',
     },
+    {
+      question: 'How much does asphalt shingle roofing cost in Cedar Grove, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Cedar Grove range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in Cedar Grove NJ. SBS-modified architectural shingles for low-pitch ranch homes with wind and ice dam protection.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

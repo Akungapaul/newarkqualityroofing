@@ -4,7 +4,7 @@ export const roselandSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Slate roof replacement in Roseland serves the homeowners who choose natural stone roofing for its century-plus lifespan, fire resistance, and architectural distinction. Whether replacing an aging slate roof with new natural stone or upgrading from conventional materials to slate during a major renovation, our [slate roof replacement](/slate-roof-replacement) manages the structural engineering, material sourcing, and specialized installation that natural slate demands.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Roseland — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Roseland serves the homeowners who choose natural stone roofing for its century-plus lifespan, fire resistance, and architectural distinction. Whether replacing an aging slate roof with new natural stone or upgrading from conventional materials to slate during a major renovation, our [slate roof replacement](/slate-roof-replacement) manages the structural engineering, material sourcing, and specialized installation that natural slate demands.',
     'New slate installations on Roseland custom homes represent the premier roofing investment available for residential properties. The material outlasts every alternative by a wide margin -- quality hard slate from Vermont or Virginia quarries routinely exceeds 100 years in service. For homeowners building or extensively renovating in Roseland, slate creates a permanent roof solution that eliminates the replacement cycle entirely. The investment is substantial, but the per-year cost approaches parity with premium asphalt when calculated over the material\'s full service life.',
     'Slate replacement on existing installations requires matching the new slate to the existing pattern, color, and thickness. When replacing an entire slate roof, the opportunity to upgrade from failing soft slate to harder, longer-lasting varieties improves the next century of performance. Our quarry sourcing covers domestic and imported slate in the full range of colors and hardness grades that the replacement market requires. Homeowners in [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) with Historic Preservation Commission requirements depend on our material matching expertise.'
   ],
@@ -34,7 +34,25 @@ export const roselandSlateRoofReplacement: ComboContent = {
     {
       question: 'Does a slate roof require maintenance?',
       answer: 'Slate roofs require minimal maintenance compared to other premium materials. Annual visual inspection for cracked or slipped tiles, clearing debris from valleys, and checking flashing condition constitute the standard maintenance program. Individual broken tiles should be replaced promptly to prevent water infiltration that can damage the underlayment. The negligible maintenance requirement is one of slate\'s strongest advantages over wood, tile, and asphalt alternatives.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Roseland, NJ?',
+      answer: 'Most slate roof replacement projects in Roseland range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Roseland NJ -- natural stone roofing with century-plus lifespan for custom and renovated homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

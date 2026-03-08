@@ -4,7 +4,7 @@ export const westOrangeHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'west-orange',
   overview: [
-    'West Orange\'s historic architecture spans from the grand estates of Llewellyn Park -- America\'s first planned residential community, established in 1857 -- through Victorian-era neighborhoods near the Orange border and into the early twentieth-century Arts and Crafts homes scattered along the upper Watchung slope. Our [historic roof restoration](/historic-roof-restoration) work in West Orange preserves the period character that gives these buildings their architectural significance while engineering modern performance beneath historically accurate surfaces.',
+    'Newark Quality Roofing delivers expert historic roof restoration in West Orange — with prices starting from $15,000–$50,000 and free estimates available today. West Orange\'s historic architecture spans from the grand estates of Llewellyn Park -- America\'s first planned residential community, established in 1857 -- through Victorian-era neighborhoods near the Orange border and into the early twentieth-century Arts and Crafts homes scattered along the upper Watchung slope. Our [historic roof restoration](/historic-roof-restoration) work in West Orange preserves the period character that gives these buildings their architectural significance while engineering modern performance beneath historically accurate surfaces.',
     'Llewellyn Park commissions anchor our West Orange historic restoration practice. These estate-scale projects involve slate roofs with Pennsylvania black or Vermont gray-green stone, copper flashings with hand-soldered joints, decorative ridge cresting in cast iron or zinc, and the architectural complexity of Victorian-era roof forms with multiple intersecting planes, turrets, and dormers. Each restoration draws on techniques unchanged since the original construction era, combined with modern underlayment and ventilation technology hidden beneath the visible roof surface.',
     'The Thomas Edison National Historical Park in West Orange underscores the township\'s deep connection to preservation. While we do not work on federal properties, the Edison complex sets the preservation standard that private property owners throughout the township embrace for their own historic homes. Homeowners in neighboring [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) share this preservation commitment, with their Historic Preservation Commission enforcing material and method standards on every visible exterior modification.',
     'West Orange\'s pre-war housing stock beyond the estate neighborhoods includes hundreds of homes built between 1890 and 1940 that carry original or early-replacement roof systems approaching the end of their service life. Restoring these roofs with period-appropriate materials -- slate, copper, wood shake, or clay tile -- maintains neighborhood character and preserves the property value premium that historic authenticity commands in the West Orange real estate market.'
@@ -35,7 +35,25 @@ export const westOrangeHistoricRoofRestoration: ComboContent = {
     {
       question: 'What does historic roof restoration cost compared to standard replacement?',
       answer: 'Historic restoration typically costs three to five times more than standard asphalt shingle replacement, reflecting the material cost premium for natural slate or specialty tile, the labor intensity of hand-craft installation, and the sourcing complexity of matching materials. However, a properly restored slate roof provides 75 to 100 years of service life compared to 25 to 30 for asphalt, and the property value impact of authentic historic roofing significantly exceeds the value contribution of standard materials. For West Orange homes where historic character defines market value, restoration cost is typically recovered through property appreciation.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in West Orange, NJ?',
+      answer: 'Most historic roof restoration projects in West Orange range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in West Orange NJ. Slate, copper, and period materials for Llewellyn Park estates and pre-war homes.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

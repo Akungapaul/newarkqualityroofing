@@ -4,7 +4,7 @@ export const orangeCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'orange',
   overview: [
-    'Commercial metal roofing serves Orange\'s industrial buildings and larger commercial structures where the combination of longevity, minimal maintenance, and structural spanning capability outweighs the higher initial cost of membrane alternatives. Our [commercial metal roofing](/commercial-metal-roofing) installations in Orange\'s Mitchell Street industrial corridor and rail-adjacent warehouse district deliver 40 to 60-year roof systems that eliminate the 20-year replacement cycle associated with membrane roofing -- a lifecycle cost advantage that resonates with building owners planning to hold properties for decades.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Orange — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing serves Orange\'s industrial buildings and larger commercial structures where the combination of longevity, minimal maintenance, and structural spanning capability outweighs the higher initial cost of membrane alternatives. Our [commercial metal roofing](/commercial-metal-roofing) installations in Orange\'s Mitchell Street industrial corridor and rail-adjacent warehouse district deliver 40 to 60-year roof systems that eliminate the 20-year replacement cycle associated with membrane roofing -- a lifecycle cost advantage that resonates with building owners planning to hold properties for decades.',
     'Orange\'s industrial character along its eastern edge creates specific demand for metal roofing systems that can span long distances without intermediate support, shed debris and water efficiently, and withstand the vibration transmitted through building frames by machinery operating below. Standing seam metal panels lock together without exposed fasteners, creating a weathertight surface that expands and contracts freely with temperature changes. This standing seam system is particularly effective on the long, narrow buildings along the rail corridor where traditional flat-roof membranes would develop stress cracks at the thermal movement joints needed for buildings this length.',
     'For commercial properties on Main Street where aesthetics matter alongside performance, architectural metal roofing provides a distinctive appearance that differentiates a building from its neighbors. Standing seam metal in copper, zinc, or pre-finished steel adds a modern or industrial-chic quality to Orange\'s revitalizing commercial streetscape. Several Main Street business owners have chosen metal roofing specifically for its visual impact, combining curb appeal with the practical benefits of zero-maintenance roofing that eliminates the leak complaints they experienced with aging flat-roof membranes. Similar architectural metal applications distinguish commercial properties across [Newark](/commercial-metal-roofing-newark-nj)\'s downtown corridors.'
   ],
@@ -34,7 +34,25 @@ export const orangeCommercialMetalRoofing: ComboContent = {
     {
       question: 'Can metal roofing be installed on an existing Orange commercial building?',
       answer: 'Yes, provided the existing structure can support the loads. Metal roof systems are relatively lightweight -- 1 to 2 pounds per square foot -- so most Orange commercial buildings can accommodate them without structural modification. We perform structural analysis as part of every metal roofing proposal to confirm adequacy before proceeding.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in Orange, NJ?',
+      answer: 'Most commercial metal roofing projects in Orange range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Orange NJ -- standing seam systems, Mitchell Street industrial coverage, acoustic insulation, and wind-rated panel engineering.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

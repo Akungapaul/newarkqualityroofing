@@ -4,7 +4,7 @@ export const caldwellRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'caldwell',
   overview: [
-    'Scheduled roof maintenance in Caldwell addresses a reality that separates this borough from most of Essex County: the relentless impact of tree canopy on roof systems. Homeowners in [Newark](/roof-maintenance-programs-newark-nj) or [East Orange](/roof-maintenance-programs-east-orange-nj) maintain their roofs against weather and age; Caldwell homeowners maintain theirs against weather, age, and the constant biological assault of leaves, branches, moss, and shade-trapped moisture that the borough\'s magnificent trees impose on every roof surface beneath them. A maintenance program designed for this environment transforms reactive, crisis-driven roof work into a predictable annual investment that extends roof life by years and prevents the cascading failures that deferred maintenance inevitably produces.',
+    'Newark Quality Roofing delivers expert roof maintenance programs in Caldwell — with prices starting from $250–$600/year and free estimates available today. Scheduled roof maintenance in Caldwell addresses a reality that separates this borough from most of Essex County: the relentless impact of tree canopy on roof systems. Homeowners in [Newark](/roof-maintenance-programs-newark-nj) or [East Orange](/roof-maintenance-programs-east-orange-nj) maintain their roofs against weather and age; Caldwell homeowners maintain theirs against weather, age, and the constant biological assault of leaves, branches, moss, and shade-trapped moisture that the borough\'s magnificent trees impose on every roof surface beneath them. A maintenance program designed for this environment transforms reactive, crisis-driven roof work into a predictable annual investment that extends roof life by years and prevents the cascading failures that deferred maintenance inevitably produces.',
     'The value proposition of roof maintenance is especially compelling for Caldwell\'s owner-occupied, long-tenure homeowner base. When you plan to live in your home for another fifteen or twenty years, the five hundred dollars spent on annual maintenance that extends a roof from twenty-five to thirty-two years of service represents a return many times the cost of premature replacement. Caldwell homeowners understand this arithmetic intuitively -- they are the same people who change their car oil on schedule, service their furnace annually, and maintain their properties with the quiet consistency that keeps this borough attractive decade after decade.',
     'Our Caldwell maintenance programs are structured around the seasonal cycle that drives roof deterioration in this tree-covered borough. Spring inspections address winter damage from ice, snow load, and freeze-thaw cycling. Fall maintenance tackles the leaf accumulation, gutter clearing, and valley debris removal that must happen before winter precipitation begins exploiting every gap that clogged drainage and moss growth have created. Between these anchoring visits, we are available for storm-response checks when summer thunderstorms drop branches or strip shingles from exposed ridgelines.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofMaintenancePrograms: ComboContent = {
     {
       question: 'Can you combine roof maintenance with gutter cleaning for my Caldwell home?',
       answer: 'Gutter clearing is included in every Caldwell maintenance visit as a standard component. The gutter system and roof surface function as an integrated water management system, and maintaining one without the other defeats the purpose. During each visit, we clear all gutter channels, flush downspouts, check gutter slope and hanger attachment, and inspect gutter guard systems if installed. If your gutters need more frequent clearing between maintenance visits -- common for Caldwell homes under heavy oak canopy -- we offer supplemental cleaning visits at a reduced rate for program members.'
-    }
+    },
+    {
+      question: 'How much does roof maintenance programs cost in Caldwell, NJ?',
+      answer: 'Most roof maintenance programs projects in Caldwell range from $250–$600/year. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof maintenance programs in Caldwell NJ -- seasonal inspections, moss treatment, and debris clearing for tree-canopy homes.',
+  pricing: {
+    range: '$250–$600/year',
+    note: 'annual maintenance plan pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof maintenance programs estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Montclair possesses one of the highest concentrations of surviving original slate roofs in northern New Jersey, a legacy of the township\'s late-Victorian building boom when wealthy commuters from Manhattan constructed substantial homes along the Watchung Ridge with roof materials intended to last as long as the stone foundations beneath them. Today, these slate roofs -- installed between the 1880s and 1910s -- represent both an irreplaceable architectural heritage and a maintenance commitment that most New Jersey roofing contractors are unequipped to fulfill. The township\'s slate roofscape requires contractors who understand quarry variations, fastener metallurgy, flashing integration, and the Historic Preservation Commission\'s material standards as thoroughly as they understand underlayment and ice-and-water shield.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Montclair — with prices starting from $20,000–$45,000 and free estimates available today. Montclair possesses one of the highest concentrations of surviving original slate roofs in northern New Jersey, a legacy of the township\'s late-Victorian building boom when wealthy commuters from Manhattan constructed substantial homes along the Watchung Ridge with roof materials intended to last as long as the stone foundations beneath them. Today, these slate roofs -- installed between the 1880s and 1910s -- represent both an irreplaceable architectural heritage and a maintenance commitment that most New Jersey roofing contractors are unequipped to fulfill. The township\'s slate roofscape requires contractors who understand quarry variations, fastener metallurgy, flashing integration, and the Historic Preservation Commission\'s material standards as thoroughly as they understand underlayment and ice-and-water shield.',
     'New slate installation in Montclair occurs primarily on historically designated properties where the HPC requires in-kind replacement, on homes where the architectural significance warrants the investment, and on high-end new construction where the architect and homeowner choose the material for its unmatched aesthetics and century-plus service life. The installed cost of a new slate roof in Montclair ranges from thirty to sixty thousand dollars depending on the quarry source, slate thickness, and roof complexity -- an investment that the township\'s property values support and that delivers the lowest cost per year of service of any roofing material available. Our [slate roof installation and repair](/slate-roof-installation-repair) crews include craftspeople with decades of slate-specific experience.',
     'Slate repair in Montclair is a continuous practice rather than a periodic event. Individual slates crack from impact, thermal cycling, and the biological leverage of moss colonization. Copper flashing at dormers, chimneys, and valleys develops pinhole corrosion after decades of service. Iron nails installed with the original roof corrode and release their grip on individual slates. Each of these failure modes removes one element from an interlocking system, and prompt replacement preserves the integrity of the surrounding field. Deferred repair accelerates the cascade -- a missing slate admits water to the underlayment below, the wet underlayment deteriorates, and adjacent slates lose their support, creating a spreading failure zone that compounds geometrically with each passing season.'
   ],
@@ -34,7 +34,25 @@ export const montclairSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'Does the Montclair HPC require slate when I replace my roof?',
       answer: 'On individually designated landmarks and properties in designated historic districts, the HPC requires in-kind material replacement unless the applicant demonstrates that the replacement material is visually compatible and functionally equivalent. For slate roofs, in-kind means slate. Synthetic slate products have been approved on a case-by-case basis when they closely replicate the visual characteristics of the original material. We prepare the HPC application as part of our project scope and can advise on which alternative materials have received previous approval.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Montclair, NJ?',
+      answer: 'Most slate roof installation repair projects in Montclair range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Montclair NJ -- quarry-matched restoration for Victorians, HPC compliance, and century-rated craftsmanship.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

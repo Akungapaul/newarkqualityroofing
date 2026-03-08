@@ -4,7 +4,7 @@ export const veronaWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'verona',
   overview: [
-    'Wind damage in Verona concentrates on the township\'s elevated sections where terrain amplifies gust speeds beyond what flatland communities experience. Properties along the Claremont Avenue ridge, upper Personette Avenue, and the elevated western portions of the Lakeview neighborhood absorb nor\'easter and thunderstorm winds 15 to 20 percent stronger than valley-floor homes near Verona Park. This elevation-driven exposure gradient means that a storm causing minor cosmetic damage near the park can simultaneously tear entire shingle courses from hilltop roofs half a mile away. Newark Quality Roofing understands this gradient and responds accordingly, prioritizing elevated properties during multi-call storm events.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Verona — with prices starting from $400–$2,000 and free estimates available today. Wind damage in Verona concentrates on the township\'s elevated sections where terrain amplifies gust speeds beyond what flatland communities experience. Properties along the Claremont Avenue ridge, upper Personette Avenue, and the elevated western portions of the Lakeview neighborhood absorb nor\'easter and thunderstorm winds 15 to 20 percent stronger than valley-floor homes near Verona Park. This elevation-driven exposure gradient means that a storm causing minor cosmetic damage near the park can simultaneously tear entire shingle courses from hilltop roofs half a mile away. Newark Quality Roofing understands this gradient and responds accordingly, prioritizing elevated properties during multi-call storm events.',
     'Split-level homes are especially wind-vulnerable in Verona because their multi-plane geometry creates aerodynamic conditions that standard gable or hip roofs do not present. The short wall sections between roof levels act as wind scoops, channeling airflow across adjacent shingle surfaces and multiplying uplift forces at the transition edges. Shingles along these transitions lift first during high wind events, and once the initial tabs peel back, progressive stripping accelerates as wind catches each newly exposed edge. Our wind damage repairs on Verona split-levels address both the immediate damage and the installation deficiency that allowed it -- upgrading nailing patterns and adding starter strip adhesive at transitions to prevent recurrence.',
     'Post-wind insurance claims for Verona homeowners follow a straightforward process when documentation is thorough. We photograph every area of wind damage, measure the extent of shingle loss or lifting, and document the relationship between damage location and wind exposure. For hilltop properties with recurring wind damage, our documentation establishes the pattern that justifies upgrading to wind-rated materials and enhanced fastening as part of the insured repair -- improvements that reduce future claim frequency and often qualify for premium discounts from carriers who recognize the investment in resilience.'
   ],
@@ -34,7 +34,25 @@ export const veronaWindDamageRoofRepair: ComboContent = {
     {
       question: 'How do I distinguish between wind damage and normal shingle aging?',
       answer: 'Wind damage creates specific patterns: shingle loss concentrated on windward edges, tabs lifted or creased along horizontal fold lines, ridge cap displacement, and flashing distortion at exposed transitions. Normal aging produces gradual granule loss, uniform curling, and brittleness across all planes regardless of wind exposure. After a significant wind event, damage following the windward-edge pattern is storm-related even if the shingles are older. Our assessment distinguishes storm damage from pre-existing conditions, which is essential for accurate insurance claims.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Verona, NJ?',
+      answer: 'Most wind damage roof repair projects in Verona range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Verona NJ -- hilltop shingle loss, split-level transition repairs, and insurance documentation for storm recovery.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

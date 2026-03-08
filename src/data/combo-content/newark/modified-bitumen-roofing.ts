@@ -4,7 +4,7 @@ export const newarkModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'newark',
   overview: [
-    'Modified bitumen occupies a unique position in Newark\'s commercial roofing landscape -- it bridges the proven reliability of traditional built-up roofing with the installation efficiency of modern membrane systems. For the mixed-use buildings that define Newark\'s urban core, particularly the three-to-six-story structures along Broad Street with retail at grade and residential or office space above, modified bitumen delivers the multi-layer redundancy that building owners and property managers demand. If one layer is compromised by foot traffic, rooftop equipment installation, or storm debris, the underlying layers maintain waterproof integrity while the damaged surface is repaired.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Newark — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen occupies a unique position in Newark\'s commercial roofing landscape -- it bridges the proven reliability of traditional built-up roofing with the installation efficiency of modern membrane systems. For the mixed-use buildings that define Newark\'s urban core, particularly the three-to-six-story structures along Broad Street with retail at grade and residential or office space above, modified bitumen delivers the multi-layer redundancy that building owners and property managers demand. If one layer is compromised by foot traffic, rooftop equipment installation, or storm debris, the underlying layers maintain waterproof integrity while the damaged surface is repaired.',
     'Newark\'s building stock includes thousands of low-slope and flat-roof structures that experience regular foot traffic from maintenance personnel, HVAC technicians, and telecommunications installers. Modified bitumen\'s granulated cap sheet surface provides a durable walking surface that resists scuffing, puncturing, and tearing under normal foot traffic -- a critical advantage over single-ply membranes on Newark buildings where rooftop access is frequent. The Military Park area and University Heights corridor contain institutional and commercial buildings with heavy rooftop mechanical equipment that requires regular servicing; modified bitumen protects the waterproofing envelope beneath that traffic.',
     'The flexibility inherent in polymer-modified asphalt makes this system particularly well-suited to Newark\'s thermal cycling. SBS (styrene-butadiene-styrene) modified bitumen maintains flexibility at temperatures well below zero, preventing the cracking that afflicts rigid roofing materials during Newark\'s coldest weeks. APP (atactic polypropylene) modified bitumen provides superior heat resistance and UV stability for sun-exposed roofs in Newark\'s downtown corridor. Selecting the right modifier for each building\'s specific exposure conditions is an engineering decision that directly affects system longevity -- and it\'s a decision our specification team makes based on building orientation, roof color, and mechanical equipment shading patterns.',
     'For property managers overseeing multiple Newark buildings, modified bitumen offers a maintenance advantage: damage is visible and repairable. Unlike concealed-membrane systems where leaks can migrate undetected, modified bitumen shows damage at the surface -- blisters, splits, and granule loss are all visible indicators that guide targeted repairs before water infiltration begins. This visual inspectability reduces the diagnostic cost of roof maintenance across a portfolio of Newark properties.'
@@ -35,7 +35,25 @@ export const newarkModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Can modified bitumen be installed over our existing roof on a Newark building?',
       answer: 'Modified bitumen can be installed as a recover over qualifying existing roof systems, provided the existing assembly is dry, structurally sound, and compatible with the new system. We perform moisture scanning and core testing to verify existing conditions before recommending recover versus tear-off. Newark building code permits one recover layer, and the combined weight of the existing and new systems must fall within the structural capacity of the roof deck. Recover installation saves 15 to 25 percent compared to full tear-off and significantly reduces the debris disposal logistics that complicate roofing projects in Newark\'s congested urban streets.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Newark, NJ?',
+      answer: 'Most modified bitumen roofing projects in Newark range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing for Newark NJ commercial and mixed-use buildings -- multi-layer waterproofing with foot traffic durability for downtown properties.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

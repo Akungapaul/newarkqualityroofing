@@ -4,7 +4,7 @@ export const millburnSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'millburn',
   overview: [
-    'Silicone roof coating in Millburn provides commercial and institutional building owners a restoration pathway that extends the service life of existing flat-roof membranes without the cost, disruption, and landfill waste of full tear-off and replacement. The professional offices, retail buildings, and institutional properties along Millburn Avenue and throughout the township\'s commercial zones often have aging roof membranes with ten to fifteen years of remaining potential life that deteriorating surface conditions threaten to cut short. A professionally applied silicone coating restores UV protection, waterproofing integrity, and reflective performance to these aging membranes, effectively resetting the surface condition while the underlying membrane continues its structural service.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Millburn — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating in Millburn provides commercial and institutional building owners a restoration pathway that extends the service life of existing flat-roof membranes without the cost, disruption, and landfill waste of full tear-off and replacement. The professional offices, retail buildings, and institutional properties along Millburn Avenue and throughout the township\'s commercial zones often have aging roof membranes with ten to fifteen years of remaining potential life that deteriorating surface conditions threaten to cut short. A professionally applied silicone coating restores UV protection, waterproofing integrity, and reflective performance to these aging membranes, effectively resetting the surface condition while the underlying membrane continues its structural service.',
     'The coating\'s reflective properties deliver energy-code compliance and cooling-cost reduction on Millburn\'s commercial buildings where the aging membrane has lost its original reflectivity through UV degradation and surface soiling. A restored reflective surface can reduce roof-surface temperatures by sixty to eighty degrees Fahrenheit during summer, translating directly to reduced air-conditioning loads in the occupied spaces below. For Millburn\'s professional office buildings where tenant comfort and energy costs are managed as operating expenses, the cooling savings alone can justify the coating investment within a few seasons.',
     'Our [silicone roof coating](/silicone-roof-coating) application represents a building-envelope improvement rather than a simple maintenance measure. The coating system includes surface preparation that addresses existing deficiencies, reinforcement of deteriorated seams and flashing details before coating application, and thickness-controlled application that provides a uniform protective layer across the entire roof surface. This systematic approach produces coating performance that matches manufacturer warranties and delivers the full expected service life.'
   ],
@@ -34,7 +34,25 @@ export const millburnSiliconeRoofCoating: ComboContent = {
     {
       question: 'How does the cost of silicone coating compare to roof replacement?',
       answer: 'Silicone coating typically costs forty to sixty percent of full membrane replacement, depending on the preparation requirements and the membrane type being coated. The savings come from avoiding tear-off labor and disposal costs, reduced material volume, and shorter project duration that minimizes tenant disruption. The lifecycle cost comparison is even more favorable when the coating extends the existing membrane\'s life by fifteen to twenty years, deferring the eventual replacement cost into the future.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Millburn, NJ?',
+      answer: 'Most silicone roof coating projects in Millburn range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating for Millburn commercial buildings. Membrane restoration with reflective coating, extending flat-roof life 15-20 years without tear-off.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'orange',
   overview: [
-    'Soffit panels close the underside of roof overhangs on Orange homes, providing the ventilation pathway that keeps attics dry and preventing wildlife from entering the roof cavity. Our [soffit installation and repair](/soffit-installation-repair) work in Orange focuses on restoring the ventilation function that deteriorated soffits compromise -- because in a city where South Mountain\'s canopy promotes moisture retention and the Valley\'s topography drives ground moisture upward, proper attic ventilation through functional soffits is the foundation of the entire roof system\'s health.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Orange — with prices starting from $1,500–$4,000 and free estimates available today. Soffit panels close the underside of roof overhangs on Orange homes, providing the ventilation pathway that keeps attics dry and preventing wildlife from entering the roof cavity. Our [soffit installation and repair](/soffit-installation-repair) work in Orange focuses on restoring the ventilation function that deteriorated soffits compromise -- because in a city where South Mountain\'s canopy promotes moisture retention and the Valley\'s topography drives ground moisture upward, proper attic ventilation through functional soffits is the foundation of the entire roof system\'s health.',
     'Many Orange homes built before 1960 have solid plywood or board soffits with no ventilation openings -- a construction practice that traps heat and moisture in attic spaces, accelerating shingle deterioration from below and promoting mold growth on roof decking. Converting these solid soffits to vented panels is one of the most impactful upgrades we perform on older Orange homes. The addition of continuous soffit ventilation, combined with adequate ridge or roof-top exhaust, creates the airflow that keeps attic temperatures close to outdoor ambient -- preventing ice dams in winter and reducing cooling loads in summer.',
     'Wildlife intrusion through damaged soffits is a persistent problem on Orange\'s mountain-adjacent properties. Squirrels, raccoons, and birds exploit gaps in deteriorated soffit panels to enter attic spaces, where they damage insulation, create fire hazards by gnawing on wiring, and contaminate attic environments with droppings. Our soffit repairs in Orange close these entry points with metal-backed ventilation panels that maintain airflow while excluding wildlife -- a solution that addresses both the ventilation need and the animal intrusion that the proximity to [South Mountain reservation](/roofing-in-orange-nj) creates.'
   ],
@@ -34,7 +34,25 @@ export const orangeSoffitInstallationRepair: ComboContent = {
     {
       question: 'How much does soffit replacement cost for an Orange home?',
       answer: 'Full perimeter soffit replacement with vented aluminum panels typically runs $1,500 to $3,500 for a standard Orange home, depending on the overhang depth, total linear footage, and access complexity. This includes removal of existing panels, structural inspection, and installation of insulation baffles at each rafter bay to maintain ventilation pathways.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Orange, NJ?',
+      answer: 'Most soffit installation repair projects in Orange range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Orange NJ -- attic ventilation upgrade, wildlife exclusion, carpenter bee repair, and tight-lot access solutions.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'millburn',
   overview: [
-    'Silicone elastomeric roof coating in Millburn provides the flexible waterproofing restoration that commercial and institutional flat roofs require to maintain weather integrity through the temperature extremes and physical stresses that New Jersey\'s climate imposes. The elastomeric formulation stretches and contracts with the roof membrane beneath it -- accommodating the thermal expansion that shifts seams, stresses flashings, and bridges cracks on aging flat-roof surfaces throughout the seasonal cycle from sub-freezing winter nights to ninety-degree summer afternoons.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Millburn — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating in Millburn provides the flexible waterproofing restoration that commercial and institutional flat roofs require to maintain weather integrity through the temperature extremes and physical stresses that New Jersey\'s climate imposes. The elastomeric formulation stretches and contracts with the roof membrane beneath it -- accommodating the thermal expansion that shifts seams, stresses flashings, and bridges cracks on aging flat-roof surfaces throughout the seasonal cycle from sub-freezing winter nights to ninety-degree summer afternoons.',
     'The professional office buildings, medical facilities, and retail properties along Millburn Avenue benefit from elastomeric coating\'s ability to bridge hairline cracks and small seam separations that have developed in aging membranes. Where a rigid coating would crack at these stress points -- creating new water-entry paths rather than sealing existing ones -- the elastomeric formulation maintains its waterproofing continuity by stretching across the movement without fracturing. This crack-bridging capability is particularly valuable on Millburn commercial buildings where membrane replacement would disrupt professional tenants whose practices cannot easily relocate during construction.',
     'Our elastomeric coating application combines the flexibility of the coating chemistry with the UV resistance and reflective performance of silicone-based formulations. Pure silicone coatings resist UV degradation and ponding water but are inherently rigid in some formulations. Elastomeric silicone formulations achieve both flexibility and UV performance, delivering the comprehensive restoration that Millburn\'s commercial roof stock requires. We specify only elastomeric-grade silicone coatings for flat roofs experiencing thermal-cycling stress, because the flexibility is essential for long-term performance in the [Millburn](/roofing-in-millburn-nj) climate.'
   ],
@@ -34,7 +34,25 @@ export const millburnSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Is elastomeric coating appropriate for all flat-roof membrane types?',
       answer: 'Elastomeric silicone coatings adhere to EPDM, TPO, modified bitumen, BUR, metal, and concrete substrates with appropriate primers. PVC membranes require specific compatibility testing because some elastomeric formulations interact with PVC plasticizers. We specify the primer and coating formulation based on the existing membrane type, verified through field identification and, when necessary, laboratory analysis of core samples from the existing roof.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Millburn, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Millburn range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Elastomeric silicone roof coating for Millburn commercial properties. Flexible waterproofing restoration that bridges cracks and extends membrane life.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

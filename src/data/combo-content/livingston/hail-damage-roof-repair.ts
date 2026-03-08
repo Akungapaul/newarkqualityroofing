@@ -4,7 +4,7 @@ export const livingstonHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'livingston',
   overview: [
-    'Hail damage on Livingston roofs follows patterns distinct from wind or rain damage, leaving evidence that requires trained identification and specific repair techniques. When summer thunderstorms push hail through the township, the impact creates granule displacement, mat bruising, and surface fractures on asphalt shingles that may not produce immediate leaks but accelerate deterioration over subsequent seasons. Livingston\'s split-level and colonial rooflines present multiple exposures to hail impact, with west-facing and south-facing slopes typically absorbing the heaviest strikes as storms move through from the prevailing direction.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Livingston — with prices starting from $500–$2,500 and free estimates available today. Hail damage on Livingston roofs follows patterns distinct from wind or rain damage, leaving evidence that requires trained identification and specific repair techniques. When summer thunderstorms push hail through the township, the impact creates granule displacement, mat bruising, and surface fractures on asphalt shingles that may not produce immediate leaks but accelerate deterioration over subsequent seasons. Livingston\'s split-level and colonial rooflines present multiple exposures to hail impact, with west-facing and south-facing slopes typically absorbing the heaviest strikes as storms move through from the prevailing direction.',
     'Identifying hail damage on Livingston homes requires distinguishing impact marks from normal weathering, aging deterioration, and foot traffic damage. Insurance adjusters evaluating claims on Livingston properties look for consistent impact patterns across the roof surface, collateral damage on soft metals like vent caps and flashing, and ground-level evidence on siding, window screens, and outdoor equipment. Our damage assessment documents all these indicators systematically, building an evidence package that supports the homeowner\'s insurance claim with the thoroughness that Livingston property values warrant. Homes across [Montclair](/hail-damage-roof-repair-montclair-nj) and the broader Essex County region face identical hail exposure patterns during severe thunderstorm events.',
     'Our [hail damage roof repair](/hail-damage-roof-repair) approach in Livingston addresses both the visible impact damage and the hidden deterioration that hail creates beneath shingle surfaces. Mat bruising -- where the fiberglass reinforcement cracks under impact force -- weakens the shingle\'s structural integrity without necessarily breaking the surface. These compromised shingles fail prematurely under subsequent wind and rain events, making post-hail inspection critical even when the roof appears undamaged from ground level.',
     'For Livingston homeowners in HOA communities, hail damage repairs must satisfy both insurance claim requirements and architectural review standards simultaneously. We coordinate both processes in parallel, submitting insurance documentation and HOA material approvals on overlapping timelines to prevent delays that leave damaged roofs exposed through additional storm seasons.'
@@ -35,7 +35,25 @@ export const livingstonHailDamageRoofRepair: ComboContent = {
     {
       question: 'How soon after a hailstorm should I have my Livingston roof inspected?',
       answer: 'Schedule an inspection within two to four weeks of a significant hail event. Fresh damage is easier to document and distinguish from pre-existing wear. Most New Jersey insurance policies have claim filing deadlines ranging from one to two years, but early documentation produces stronger claims. If you are unsure whether hail affected your area, check with neighbors or review local weather reports for hail confirmation in the Livingston area.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in Livingston, NJ?',
+      answer: 'Most hail damage roof repair projects in Livingston range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Livingston NJ -- impact assessment, insurance claim documentation, and full restoration for split-levels and colonials.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

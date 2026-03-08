@@ -4,7 +4,7 @@ export const millburnInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Insurance roof replacement on Millburn estates involves a claims process calibrated to the high-value policies that protect the township\'s premium residential properties. Homeowners with carriers like Chubb, PURE, AIG Private Client, and Cincinnati Insurance carry dwelling-coverage limits and endorsements that reflect the replacement cost of estate-grade roofing materials -- natural slate, copper flashings, cedar shakes -- at today\'s material and labor prices. Navigating these policies requires understanding the coverage provisions, documentation requirements, and claims-handling procedures specific to the high-net-worth insurance market.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Millburn — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement on Millburn estates involves a claims process calibrated to the high-value policies that protect the township\'s premium residential properties. Homeowners with carriers like Chubb, PURE, AIG Private Client, and Cincinnati Insurance carry dwelling-coverage limits and endorsements that reflect the replacement cost of estate-grade roofing materials -- natural slate, copper flashings, cedar shakes -- at today\'s material and labor prices. Navigating these policies requires understanding the coverage provisions, documentation requirements, and claims-handling procedures specific to the high-net-worth insurance market.',
     'Our [insurance roof replacement](/insurance-roof-replacement) practice for Millburn properties begins with damage documentation that meets the evidentiary standards these premium carriers require. Detailed photographic evidence keyed to a roof plan, material-identification records documenting the existing roof specifications, and third-party damage assessments provide the foundation for a claim that the carrier can evaluate without the adversarial back-and-forth that insufficient documentation produces. We have established working relationships with the adjusters and claims managers at the carriers most prevalent in Millburn\'s insurance market.',
     'The distinction between replacement-cost and actual-cash-value coverage materially affects the claim outcome on Millburn estate roofs. Replacement-cost coverage pays to restore the roof with matching materials at current prices -- essential on slate and copper roofs where material costs have escalated significantly since original installation. Actual-cash-value coverage deducts depreciation, potentially leaving the homeowner substantially underinsured for restoring a premium roof system. We help homeowners understand their coverage position before the claim is filed so expectations are calibrated to the policy provisions.'
   ],
@@ -34,7 +34,25 @@ export const millburnInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Can you work directly with my insurance company?',
       answer: 'Yes. We coordinate directly with your carrier\'s adjuster for on-site meetings, damage documentation review, and scope agreement. We handle supplemental claims for hidden damage, provide material specifications and pricing documentation, and manage the communication flow between the homeowner, the carrier, and our project team. This coordination ensures the claim proceeds efficiently and the approved scope reflects the actual replacement requirements.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Millburn, NJ?',
+      answer: 'Most insurance roof replacement projects in Millburn range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement for Millburn and Short Hills estates. High-value claims coordination, matching-material documentation, and carrier negotiation.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

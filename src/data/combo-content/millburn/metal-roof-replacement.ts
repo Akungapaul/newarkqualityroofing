@@ -4,7 +4,7 @@ export const millburnMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Metal roof replacement on Millburn properties delivers a roofing upgrade that eliminates the re-roofing cycle entirely -- replacing aging asphalt, cedar, or failing flat-roof systems with standing seam or architectural metal panels engineered to serve the property for fifty years or more without the mid-life replacement that every organic-based roofing material eventually requires. For Millburn homeowners who plan to hold their properties as legacy investments, the metal roof\'s one-time installation cost is offset by the elimination of two or three re-roofing events over the same service period.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Millburn — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement on Millburn properties delivers a roofing upgrade that eliminates the re-roofing cycle entirely -- replacing aging asphalt, cedar, or failing flat-roof systems with standing seam or architectural metal panels engineered to serve the property for fifty years or more without the mid-life replacement that every organic-based roofing material eventually requires. For Millburn homeowners who plan to hold their properties as legacy investments, the metal roof\'s one-time installation cost is offset by the elimination of two or three re-roofing events over the same service period.',
     'Architectural metal roofing in Millburn must satisfy the aesthetic standards of a township where roof appearance contributes significantly to property presentation. The industrial corrugated panels appropriate for warehouse and agricultural buildings have no place on Short Hills estates or Wyoming colonials. We specify architectural standing-seam profiles in PVDF-coated steel or aluminum -- materials available in colors and finishes that complement Colonial, Tudor, Contemporary, and Craftsman architectural styles. The panel profile, seam height, and color are selected to harmonize with the home\'s architectural vocabulary rather than impose an industrial aesthetic upon it.',
     'Our [metal roof replacement](/metal-roof-replacement) practice for Millburn residential properties addresses the unique installation requirements that distinguish estate-scale metal roofing from commercial applications. Residential metal roofs must integrate with architectural details -- dormers, valleys, wall flashings, chimney transitions -- that commercial roofs rarely encounter. The quality of these integration details determines whether the metal roof reads as a refined architectural element or an afterthought applied over a residential structure designed for different materials.'
   ],
@@ -34,7 +34,25 @@ export const millburnMetalRoofReplacement: ComboContent = {
     {
       question: 'Can solar panels be installed on a standing seam metal roof?',
       answer: 'Standing seam metal is the ideal substrate for solar installation. Clamp-on mounting systems attach directly to the standing seams without penetrating the roof surface, eliminating the leak risk that penetrating mounts create on other roof types. The metal roof\'s long service life also means the roof will outlast multiple generations of solar panels without requiring the costly panel-removal and re-roofing that occurs when solar panels are installed on shorter-lived asphalt or cedar roofs.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Millburn, NJ?',
+      answer: 'Most metal roof replacement projects in Millburn range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement for Millburn homes. Architectural standing seam in PVDF finishes with acoustic engineering, thermal management, and 50-year durability.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

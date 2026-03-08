@@ -4,7 +4,7 @@ export const cedarGroveResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'cedar-grove',
   overview: [
-    'Residential roof installation in Cedar Grove serves two distinct markets: the aging mid-century homes requiring system replacement and the modest new construction and additions that expand the township\'s housing stock. Both demand installation techniques calibrated to Cedar Grove\'s northern Essex County climate, where heavier snow loads, extended freeze-thaw cycling, and exposure along the Watchung slope create conditions more demanding than sheltered communities to the south. Our [residential roof installation](/residential-roof-installation) approach starts with the building envelope rather than just the surface material, ensuring that ventilation, insulation, and underlayment form a complete system beneath the finished shingles.',
+    'Newark Quality Roofing delivers expert residential roof installation in Cedar Grove — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Cedar Grove serves two distinct markets: the aging mid-century homes requiring system replacement and the modest new construction and additions that expand the township\'s housing stock. Both demand installation techniques calibrated to Cedar Grove\'s northern Essex County climate, where heavier snow loads, extended freeze-thaw cycling, and exposure along the Watchung slope create conditions more demanding than sheltered communities to the south. Our [residential roof installation](/residential-roof-installation) approach starts with the building envelope rather than just the surface material, ensuring that ventilation, insulation, and underlayment form a complete system beneath the finished shingles.',
     'Cedar Grove\'s ranch-dominant architecture shapes every installation decision. The low-pitch rooflines between 3:12 and 5:12 slope that characterize most township homes require product selections and techniques specifically rated for shallow installation. Standard shingle exposure must be adjusted, ice-and-water shield coverage must extend beyond code minimums, and ventilation must be engineered to compensate for the restricted attic volume these designs create. Contractors who apply suburban-standard installation methods to Cedar Grove ranch roofs are setting up premature failures. Our crews install to the conditions these homes actually present, not to minimum code requirements written for steeper-pitched designs.',
     'For homeowners adding rooms, raising rooflines, or building new on Cedar Grove\'s remaining developable lots, installation integrates with the architectural vision while meeting the practical demands of the township\'s weather exposure. We work with builders and architects to specify roofing systems that complement the neighborhood character -- Cedar Grove\'s traditional palette favors earth-toned architectural shingles -- while providing the enhanced wind and weather protection that the township\'s elevated terrain requires. Neighbors in [Verona](/residential-roof-installation-verona-nj) undertake similar new construction installations along the shared municipal border.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveResidentialRoofInstallation: ComboContent = {
       question: 'Do you handle the Cedar Grove building permit for roof installation?',
       answer: 'Yes. Full roof installations in Cedar Grove require a building permit from the township. We handle the application, fee, and inspection scheduling as part of the project. The permit process ensures the installation meets current building code requirements including wind uplift resistance and energy efficiency standards.',
     },
+    {
+      question: 'How much does residential roof installation cost in Cedar Grove, NJ?',
+      answer: 'Most residential roof installation projects in Cedar Grove range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in Cedar Grove NJ. Low-pitch ranch expertise, ventilation upgrades, and quality shingles for northern Essex County.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

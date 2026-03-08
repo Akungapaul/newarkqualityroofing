@@ -4,7 +4,7 @@ export const bellevilleRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'belleville',
   overview: [
-    'Roof overlay -- installing new shingles directly over the existing single layer -- offers Belleville homeowners a lower-cost alternative to full tear-off when specific conditions are met. The existing roof must have only one layer of shingles, the deck must be in sound structural condition, and the existing shingles must be laying flat without significant curling or buckling that would telegraph through the new surface. When these conditions are verified, overlay reduces project cost by eliminating tear-off labor and disposal fees.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Belleville — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay -- installing new shingles directly over the existing single layer -- offers Belleville homeowners a lower-cost alternative to full tear-off when specific conditions are met. The existing roof must have only one layer of shingles, the deck must be in sound structural condition, and the existing shingles must be laying flat without significant curling or buckling that would telegraph through the new surface. When these conditions are verified, overlay reduces project cost by eliminating tear-off labor and disposal fees.',
     'The reality in Belleville is that relatively few homes qualify for overlay. The township\'s multi-generation re-roofing history means most homes already have two or three layers, exceeding the NJ code maximum of two layers total. Even homes with a single existing layer may be disqualified by deck problems hidden beneath that layer, which cannot be inspected without removal. We evaluate every Belleville roof for overlay eligibility, but our honest assessment typically identifies conditions that make tear-off the better investment.',
     'For the Belleville homes that do qualify, overlay delivers a fully warranted new roof surface at 20-30% less cost than tear-off. The installation follows the same quality standards as our tear-off projects: ice-and-water shield at eaves, synthetic underlayment, proper starter strip, and architectural shingle installation with manufacturer-specified fastening patterns. The overlay method simply retains the existing layer as a substrate rather than removing it, saving the labor and disposal cost associated with stripping. Homeowners in neighboring [Bloomfield](/roof-overlay-installation-bloomfield-nj) face similar eligibility questions based on their comparable housing stock.',
     'We are transparent with Belleville homeowners about the [overlay](/roof-overlay-installation) tradeoffs. Overlay cannot address hidden deck problems, may result in a slightly less flat finished surface, and adds weight to the existing structure. These tradeoffs are acceptable when the existing roof is genuinely in sound condition, but they represent real risks when overlay is chosen primarily to save money on a roof that actually needs full tear-off examination of the deck below.'
@@ -35,7 +35,25 @@ export const bellevilleRoofOverlayInstallation: ComboContent = {
     {
       question: 'Will the old shingles show through my new overlay?',
       answer: 'Some telegraphing of the underlying shingle pattern is possible, particularly on low-slope sections viewed at shallow angles. This is cosmetic rather than functional. On Belleville\'s closely-spaced lots where neighbors view your roof from close range, telegraphing may be more noticeable than on homes with greater setback distance. Using thicker dimensional shingles reduces telegraphing visibility.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Belleville, NJ?',
+      answer: 'Most roof overlay installation projects in Belleville range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Belleville NJ. Cost-effective re-roofing over single-layer homes when deck condition supports overlay installation.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

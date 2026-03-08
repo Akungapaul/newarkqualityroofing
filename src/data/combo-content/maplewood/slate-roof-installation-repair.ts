@@ -4,7 +4,7 @@ export const maplewoodSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'maplewood',
   overview: [
-    'Maplewood contains one of the densest concentrations of natural slate roofs in Essex County, a legacy of the township\'s Victorian and Edwardian building boom between 1880 and 1915. The Queen Anne Victorians along Ridgewood Road, the Colonial Revivals surrounding Maplewood Village, and the stately homes on Jefferson Avenue and Prospect Street wear Vermont, Pennsylvania, and Virginia slate installations that have protected these structures for over a century. Our [slate roof installation and repair](/slate-roof-installation-repair) practice in Maplewood treats each of these roofs as both a functional weather barrier and a historic artifact worthy of preservation.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Maplewood — with prices starting from $20,000–$45,000 and free estimates available today. Maplewood contains one of the densest concentrations of natural slate roofs in Essex County, a legacy of the township\'s Victorian and Edwardian building boom between 1880 and 1915. The Queen Anne Victorians along Ridgewood Road, the Colonial Revivals surrounding Maplewood Village, and the stately homes on Jefferson Avenue and Prospect Street wear Vermont, Pennsylvania, and Virginia slate installations that have protected these structures for over a century. Our [slate roof installation and repair](/slate-roof-installation-repair) practice in Maplewood treats each of these roofs as both a functional weather barrier and a historic artifact worthy of preservation.',
     'Slate repair in Maplewood is driven by the specific failure modes of century-old installations. The hand-forged iron nails used in 1890s installations have reached the end of their corrosion resistance, causing slates to slide from their moorings even when the stone itself remains sound. Original copper flashings at valleys, hips, and chimney junctions develop pinhole failures through decades of thermal cycling. The skip sheathing common beneath Victorian slate creates an unforgiving substrate where any nail that misses a board has no holding power. Understanding these period-specific vulnerabilities distinguishes our Maplewood slate work from contractors who approach slate with modern-construction assumptions.',
     'New slate installations in [Maplewood](/roofing-in-maplewood-nj) serve homeowners who want to add or restore the premium roofing character that defines the township\'s finest streets. Whether re-slating a Victorian that a previous owner stripped for shingles or specifying natural slate for a new construction project designed to harmonize with Village-area neighbors, we source from domestic quarries that produce the same color, texture, and thickness grades that originally roofed Maplewood\'s Victorian-era homes. Homeowners in [Millburn](/slate-roof-installation-repair-millburn-nj) with comparable estate properties share this commitment to authentic slate.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodSlateRoofInstallationRepair: ComboContent = {
       question: 'How do you match replacement slates to 100-year-old existing tiles?',
       answer: 'We identify the original quarry source based on the slate\'s color, grain pattern, thickness, and weathering characteristics. We then source replacement tiles from the same quarry or a quarry producing comparable material. New slates are selected to blend with the existing roof\'s weathered appearance. For extensive repairs, we may redistribute existing slates to maintain visual consistency, placing new slates in less visible positions.',
     },
+    {
+      question: 'How much does slate roof installation repair cost in Maplewood, NJ?',
+      answer: 'Most slate roof installation repair projects in Maplewood range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Maplewood NJ. Victorian restoration, quarry-matched replacement, and copper flashing for historic homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

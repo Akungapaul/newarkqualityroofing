@@ -4,7 +4,7 @@ export const essexFellsAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Asphalt shingle roof replacement in Essex Fells serves the auxiliary structures, secondary buildings, and occasional primary residences where architectural shingles provide practical roofing performance without the cost commitment of natural slate or cedar shake. Guest cottages, garages, estate maintenance buildings, and newer construction additions that were specified with asphalt shingles reach replacement age within twenty-five to thirty years -- significantly sooner than the premium materials on adjacent estate structures -- creating a recurring replacement cycle for these utilitarian roofing applications.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Essex Fells — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement in Essex Fells serves the auxiliary structures, secondary buildings, and occasional primary residences where architectural shingles provide practical roofing performance without the cost commitment of natural slate or cedar shake. Guest cottages, garages, estate maintenance buildings, and newer construction additions that were specified with asphalt shingles reach replacement age within twenty-five to thirty years -- significantly sooner than the premium materials on adjacent estate structures -- creating a recurring replacement cycle for these utilitarian roofing applications.',
     'The shingle specification for Essex Fells applications exceeds the standard residential grades commonly installed throughout neighboring [Caldwell](/asphalt-shingle-roof-replacement-caldwell-nj) and [Roseland](/asphalt-shingle-roof-replacement-roseland-nj). We specify designer-grade architectural shingles from GAF, Owens Corning, or CertainTeed in profiles and colors that approximate the texture and depth of premium materials on adjacent estate structures. These heavy-weight shingles -- rated at 300 to 400 pounds per square versus 200 to 250 for standard architectural grades -- provide enhanced wind resistance, improved aesthetics, and longer warranty coverage appropriate for estate property context.',
     'Our asphalt shingle replacement practice in Essex Fells integrates the same site management, debris control, and landscape protection standards we apply to premium material projects. The auxiliary building receiving new shingles sits thirty feet from the main residence\'s slate-roofed facade. The construction activity affects the same estate landscape, the same neighbors, and the same community expectations regardless of the roofing material being installed. Every project receives estate-quality execution.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Can architectural shingles replicate the look of cedar shake?',
       answer: 'Designer-grade architectural shingles in wood-tone colors with enhanced shadow lines approximate the cedar shake appearance when viewed from typical estate distances. At close range, the material difference is apparent. For auxiliary structures where visual integration with the estate is important but exact material matching is not required, designer shingles provide the cedar-inspired aesthetic at a fraction of the cost and maintenance burden. For structures requiring authentic cedar character, we recommend actual cedar shake installation.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Essex Fells range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Essex Fells NJ -- designer-grade shingles for estate auxiliary structures and secondary buildings.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

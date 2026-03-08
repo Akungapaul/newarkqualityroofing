@@ -4,7 +4,7 @@ export const livingstonInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'livingston',
   overview: [
-    'Infrared roof leak detection gives Livingston commercial property managers the ability to locate active and developing leaks with surgical precision rather than relying on the imprecise symptom-chasing that conventional leak investigation produces. When a ceiling stain appears in a Livingston office building, the actual roof entry point may be 30 feet or more from the visible damage, with moisture traveling along insulation board joints, structural members, and membrane irregularities before dropping to the ceiling below. Infrared scanning traces this moisture path from symptom to source.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Livingston — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection gives Livingston commercial property managers the ability to locate active and developing leaks with surgical precision rather than relying on the imprecise symptom-chasing that conventional leak investigation produces. When a ceiling stain appears in a Livingston office building, the actual roof entry point may be 30 feet or more from the visible damage, with moisture traveling along insulation board joints, structural members, and membrane irregularities before dropping to the ceiling below. Infrared scanning traces this moisture path from symptom to source.',
     'The diagnostic precision of infrared leak detection translates directly into repair cost savings for Livingston building owners. Traditional leak investigation involves opening multiple ceiling areas below the visible damage, making exploratory cuts in the membrane above, and progressively working outward until the entry point is found -- a destructive and labor-intensive process that often costs more than the repair itself. Infrared detection eliminates this exploratory phase by mapping the moisture path in a single non-destructive survey.',
     'Our [infrared roof leak detection](/infrared-roof-leak-detection) service integrates with the repair planning process on Livingston commercial buildings. The infrared survey identifies both the active leak source and any secondary moisture areas that may not yet be producing visible symptoms. Addressing all identified moisture during a single repair mobilization prevents the callback cycle where fixing one leak reveals another that was developing simultaneously. Nearby commercial properties in [West Orange](/infrared-roof-leak-detection-west-orange-nj) use the same diagnostic technology to manage their commercial roof maintenance.',
     'The technology particularly benefits Livingston medical facilities and professional offices where opening ceilings for exploratory leak investigation disrupts patient care and business operations. Infrared detection gathers the diagnostic data from the roof surface without any interior disruption, allowing the repair to proceed directly to the identified source without ceiling demolition in the occupied space below.'
@@ -35,7 +35,25 @@ export const livingstonInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'Should I have an infrared survey before replacing my Livingston commercial roof?',
       answer: 'A pre-replacement infrared survey identifies wet insulation areas that should be removed during the replacement rather than buried beneath the new membrane where trapped moisture can damage the new system from below. The survey data also helps the replacement contractor plan for deck repair at moisture-damaged locations. The modest survey cost prevents the much larger cost of new membrane failure caused by trapped moisture in the insulation assembly.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Livingston, NJ?',
+      answer: 'Most infrared roof leak detection projects in Livingston range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Livingston NJ -- precision moisture mapping for commercial offices without ceiling demolition or business disruption.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

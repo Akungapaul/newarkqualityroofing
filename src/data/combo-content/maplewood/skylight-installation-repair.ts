@@ -4,7 +4,7 @@ export const maplewoodSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'maplewood',
   overview: [
-    'Skylight installation and repair serves Maplewood homeowners who want to bring natural light into the interior spaces of homes where tree canopy shade and traditional floor plans create darker rooms. The township\'s Victorian, Colonial, and Tudor homes were designed before electric lighting was universal, with deep floor plans and limited window counts that leave center rooms and hallways in permanent shadow. Our [skylight installation](/skylight-installation-repair) work in [Maplewood](/roofing-in-maplewood-nj) transforms these dark spaces with VELUX and similar premium skylight products engineered for the pitched roof geometries that define Maplewood\'s residential architecture.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Maplewood — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair serves Maplewood homeowners who want to bring natural light into the interior spaces of homes where tree canopy shade and traditional floor plans create darker rooms. The township\'s Victorian, Colonial, and Tudor homes were designed before electric lighting was universal, with deep floor plans and limited window counts that leave center rooms and hallways in permanent shadow. Our [skylight installation](/skylight-installation-repair) work in [Maplewood](/roofing-in-maplewood-nj) transforms these dark spaces with VELUX and similar premium skylight products engineered for the pitched roof geometries that define Maplewood\'s residential architecture.',
     'Skylight repair addresses the aging installations that were popular additions during the 1980s and 1990s renovation waves, when many Maplewood homeowners added skylights to kitchens, bathrooms, and attic conversions. These 30-40 year old skylights exhibit predictable failure patterns: fogged double-pane glass from seal failure, cracked acrylic domes from UV degradation, and deteriorated flashing that allows water infiltration around the skylight frame. Our repair service evaluates whether the existing unit can be rebuilt or whether full replacement with modern energy-efficient product is the better investment.',
     'Tubular skylights offer a minimally invasive alternative for Maplewood homeowners who want natural light in rooms where traditional skylights are impractical. Interior hallways, walk-in closets, and bathrooms on lower floors can receive daylight through reflective tubes that capture sunlight at the roof surface and channel it to interior spaces through small-diameter shafts. The roof penetration footprint is dramatically smaller than a conventional skylight, reducing both installation complexity and leak risk. Homeowners renovating interiors in [South Orange](/skylight-installation-repair-south-orange-nj) find tubular skylights equally effective for lighting deep floor plan rooms.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodSkylightInstallationRepair: ComboContent = {
       question: 'How much natural light will a skylight provide with Maplewood\'s tree coverage?',
       answer: 'It depends on the specific property. South-facing skylights on homes with limited tree coverage deliver strong direct sunlight. North-facing skylights or installations beneath heavy canopy provide soft ambient daylight without direct sun. Even in shaded conditions, skylights significantly improve room brightness compared to artificial lighting alone. We provide realistic light expectations during our consultation based on your property\'s specific conditions.',
     },
+    {
+      question: 'How much does skylight installation repair cost in Maplewood, NJ?',
+      answer: 'Most skylight installation repair projects in Maplewood range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Maplewood NJ. VELUX skylights and tubular daylighting for Victorian and Colonial homes.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const caldwellCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'caldwell',
   overview: [
-    'Commercial roof repair in Caldwell addresses the maintenance and emergency needs of the borough\'s small-business building stock -- the retail shops, professional offices, restaurants, and service businesses that line Bloomfield Avenue and occupy the mixed-use buildings throughout downtown. These are not the large industrial facilities or multi-story office towers that define commercial roofing in [Newark](/commercial-roof-repair-newark-nj) or [East Orange](/commercial-roof-repair-east-orange-nj). Caldwell commercial roofs typically span 1,500 to 10,000 square feet, sit one or two stories above ground level, and shelter businesses where a roof leak directly affects the owner standing below.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Caldwell — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Caldwell addresses the maintenance and emergency needs of the borough\'s small-business building stock -- the retail shops, professional offices, restaurants, and service businesses that line Bloomfield Avenue and occupy the mixed-use buildings throughout downtown. These are not the large industrial facilities or multi-story office towers that define commercial roofing in [Newark](/commercial-roof-repair-newark-nj) or [East Orange](/commercial-roof-repair-east-orange-nj). Caldwell commercial roofs typically span 1,500 to 10,000 square feet, sit one or two stories above ground level, and shelter businesses where a roof leak directly affects the owner standing below.',
     'The owner-operator dynamic in [Caldwell\'s](/roofing-in-caldwell-nj) commercial district creates a different repair relationship than corporate-managed properties. The dentist whose office ceiling is staining, the restaurant owner whose kitchen exhaust curb is leaking, the insurance agent whose waiting room carpet is damp -- these are people you see at the school board meeting, at the hardware store, at the pharmacy counter. [Commercial roof repair](/commercial-roof-repair) in Caldwell carries the same small-town accountability that residential work does: your reputation depends on solving the problem completely the first time because the building owner knows your name and will tell everyone on the block whether the repair held.',
     'Tree canopy impact on Caldwell commercial buildings parallels the residential challenge but with additional considerations. Commercial flat roofs collect more debris per square foot than pitched residential roofs because the flat surface retains everything that falls on it. Drain blockage from leaf accumulation creates ponding water emergencies that residential pitched roofs never experience. Branch impacts puncture commercial membranes that cannot self-shed debris the way sloped shingle surfaces do. Commercial roof repair in Caldwell is inseparable from canopy management.'
   ],
@@ -34,7 +34,25 @@ export const caldwellCommercialRoofRepair: ComboContent = {
     {
       question: 'Can commercial roof repair be done while my Caldwell business is open?',
       answer: 'Most commercial roof repairs proceed with the business operating below. Membrane patching, flashing repair, and sealant work produce minimal noise that typically does not affect business operations. More involved repairs like equipment curb reflashing may produce noise from fastener installation that we can schedule around your quieter business periods. We discuss the specific repair scope and expected noise levels with each Caldwell business owner before scheduling to ensure appropriate coordination.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Caldwell, NJ?',
+      answer: 'Most commercial roof repair projects in Caldwell range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Caldwell NJ -- flat roof leak repair, equipment curb reflashing, and maintenance for Bloomfield Avenue businesses.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

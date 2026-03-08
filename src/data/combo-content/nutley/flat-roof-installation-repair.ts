@@ -4,7 +4,7 @@ export const nutleyFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'nutley',
   overview: [
-    'Flat roof systems in Nutley occupy a specialized niche within the township\'s predominantly pitched residential landscape. While the Tudor Revival and Colonial homes along Chestnut Street and Park Avenue define Nutley\'s architectural identity, a substantial number of properties incorporate flat or low-slope sections -- rear extensions on older Colonials, garage roofs, enclosed porches, and the entire commercial corridor along Franklin Avenue. These low-slope surfaces demand membrane expertise that goes beyond the steep-pitch shingle work most [Nutley](/roofing-in-nutley-nj) homeowners associate with roofing contractors, and our crews bring that dual capability to every project.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Nutley — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof systems in Nutley occupy a specialized niche within the township\'s predominantly pitched residential landscape. While the Tudor Revival and Colonial homes along Chestnut Street and Park Avenue define Nutley\'s architectural identity, a substantial number of properties incorporate flat or low-slope sections -- rear extensions on older Colonials, garage roofs, enclosed porches, and the entire commercial corridor along Franklin Avenue. These low-slope surfaces demand membrane expertise that goes beyond the steep-pitch shingle work most [Nutley](/roofing-in-nutley-nj) homeowners associate with roofing contractors, and our crews bring that dual capability to every project.',
     'Franklin Avenue\'s commercial buildings represent the highest concentration of flat roofing in Nutley. One- and two-story retail structures built between the 1940s and 1970s carry aging membrane systems that have been patched repeatedly over decades. Many of these buildings house the locally owned restaurants, boutiques, and professional offices that give Nutley its walkable downtown character. Business owners along this corridor need flat roof contractors who can work efficiently without disrupting operations below -- a requirement we meet by scheduling membrane installations during early morning hours and completing tear-off-to-weathertight in single-day sequences whenever project size allows.',
     'Residential flat roof sections in Nutley differ from the large commercial membranes found in more industrial communities like [East Orange](/flat-roof-installation-repair-east-orange-nj). Nutley\'s flat sections are typically 200 to 800 square feet -- a rear kitchen addition on a 1930s Colonial, a sunroom roof, or a detached garage serving a Tudor home on Whitford Avenue. These smaller applications favor modified bitumen or EPDM membranes that can be installed without the heavy equipment required for large commercial TPO projects. Our residential flat roof installations integrate seamlessly with the adjacent pitched shingle work, creating weathertight transitions at the critical slope-change junction where most flat roof leaks originate on residential properties.',
     'Our [flat roof installation](/flat-roof-installation-repair) approach in Nutley accounts for the township\'s mature tree canopy. The shade trees maintained by Nutley\'s active shade tree commission drop organic debris that accumulates on flat surfaces, accelerating membrane degradation if not managed through proper drainage design and regular maintenance. We engineer positive slope on every flat roof installation -- minimum quarter-inch per foot to drains or scuppers -- and recommend gutter-guard-style debris screens on drain openings that prevent the leaf-clog backups responsible for most flat roof ponding failures in tree-heavy neighborhoods.'
@@ -35,7 +35,25 @@ export const nutleyFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'How long does a flat roof last in Nutley before it needs replacement?',
       answer: 'Properly installed and maintained flat roof membranes in Nutley last 20 to 30 years depending on material type. EPDM rubber typically achieves 25 to 30 years. TPO and PVC commercial membranes reach 20 to 25 years. Modified bitumen systems last 20 to 25 years. Nutley\'s tree canopy means regular debris clearing is essential to reaching these lifespans, as accumulated organic matter traps moisture against the membrane surface and accelerates aging. Our annual maintenance contracts include flat roof inspections and drain clearing.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Nutley, NJ?',
+      answer: 'Most flat roof installation repair projects in Nutley range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Nutley NJ. Residential additions, Franklin Avenue commercial membranes, and slope-change transition expertise.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

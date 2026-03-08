@@ -4,7 +4,7 @@ export const veronaCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Commercial roof replacement on Verona buildings represents a significant capital investment that building owners plan months or years in advance. The decision to replace rather than continue repairing typically comes when repair frequency escalates, energy costs reflect inadequate insulation, or the roof system approaches the end of its rated service life. Newark Quality Roofing manages commercial roof replacements in Verona from initial assessment through warranty activation, coordinating the project with building operations to minimize disruption and maximize the return on the investment.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Verona — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement on Verona buildings represents a significant capital investment that building owners plan months or years in advance. The decision to replace rather than continue repairing typically comes when repair frequency escalates, energy costs reflect inadequate insulation, or the roof system approaches the end of its rated service life. Newark Quality Roofing manages commercial roof replacements in Verona from initial assessment through warranty activation, coordinating the project with building operations to minimize disruption and maximize the return on the investment.',
     'Verona\'s Bloomfield Avenue commercial buildings face replacement decisions across a range of existing systems. Buildings carrying 30-year-old BUR or modified bitumen often convert to modern single-ply membrane during replacement, gaining energy efficiency, reduced weight, and improved warranty coverage. Buildings with first-generation TPO or EPDM from the 1990s replace with current-generation products that offer better performance and longer warranties. Each replacement is an opportunity to upgrade insulation, correct drainage deficiencies, and accommodate new equipment requirements. Our [commercial roof replacement](/commercial-roof-replacement) specifications address the full building performance opportunity, not just the membrane swap.',
     'Phased replacement allows Verona building owners to spread the capital investment across budget cycles while addressing the most deteriorated sections first. We engineer phase boundaries at natural divisions -- expansion joints, parapet walls, or mechanical equipment zones -- that allow complete waterproofing of each phase independently. Building owners in [East Orange](/commercial-roof-replacement-east-orange-nj) with similar multi-tenant buildings have used phased replacement to manage both the financial and operational impact of major roof projects.'
   ],
@@ -34,7 +34,25 @@ export const veronaCommercialRoofReplacement: ComboContent = {
     {
       question: 'Does my Verona building need to be vacated during roof replacement?',
       answer: 'Building vacancy is not required for standard commercial roof replacement. Our phased approach maintains weather protection over occupied spaces throughout the project. Noise from tear-off equipment may affect sensitive operations during work hours, and we can schedule the noisiest activities for early morning or late afternoon to minimize impact. Specific tenant concerns -- medical offices requiring quiet, food service needing debris protection -- are accommodated through schedule coordination with building management.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Verona, NJ?',
+      answer: 'Most commercial roof replacement projects in Verona range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Verona NJ -- phased replacement for Bloomfield Avenue businesses with minimal disruption and code compliance.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

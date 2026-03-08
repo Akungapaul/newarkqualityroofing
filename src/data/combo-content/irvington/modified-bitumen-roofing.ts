@@ -4,7 +4,7 @@ export const irvingtonModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'irvington',
   overview: [
-    'Modified bitumen remains the workhorse membrane on scores of Irvington commercial buildings that were originally roofed with built-up systems in the 1960s and 1970s. Along Springfield Avenue, the corridor\'s two- and three-story mixed-use buildings frequently carry aging mod-bit surfaces that have been re-coated repeatedly rather than properly replaced. Our [modified bitumen roofing](/modified-bitumen-roofing) installations across Irvington replace these failing multi-layer systems with modern SBS-modified membranes that deliver genuine 20-year waterproofing instead of the 3-to-5-year patch cycles that property owners have been enduring.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Irvington — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen remains the workhorse membrane on scores of Irvington commercial buildings that were originally roofed with built-up systems in the 1960s and 1970s. Along Springfield Avenue, the corridor\'s two- and three-story mixed-use buildings frequently carry aging mod-bit surfaces that have been re-coated repeatedly rather than properly replaced. Our [modified bitumen roofing](/modified-bitumen-roofing) installations across Irvington replace these failing multi-layer systems with modern SBS-modified membranes that deliver genuine 20-year waterproofing instead of the 3-to-5-year patch cycles that property owners have been enduring.',
     'The multi-layer construction of modified bitumen appeals to Irvington\'s commercial property owners who want redundancy in their roofing system. Where single-ply membranes rely on one layer of material for waterproofing, mod-bit systems build two or three layers of reinforced membrane that provide backup protection if the top surface is punctured or damaged. For Springfield Avenue buildings where rooftop foot traffic from HVAC maintenance is frequent, and for Route 78 industrial properties where falling debris or tool drops are occupational realities, this built-in redundancy translates directly to fewer leak events over the roof\'s service life.',
     'Irvington\'s older commercial buildings often have structural conditions that favor modified bitumen over single-ply alternatives. Buildings with irregular deck surfaces, multiple elevation changes, and complex parapet details benefit from mod-bit\'s ability to conform to substrate irregularities through the torch-application process. Property managers overseeing similar aging commercial buildings in [Newark](/modified-bitumen-roofing-newark-nj) rely on modified bitumen for comparable reasons, though Irvington\'s smaller commercial footprints keep most projects in the 2,000 to 8,000 square foot range where mod-bit\'s material cost premium over EPDM is proportionally manageable.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonModifiedBitumenRoofing: ComboContent = {
       question: 'How long does a modified bitumen roof last in Irvington?',
       answer: 'A properly installed two-ply SBS-modified bitumen system on a sound substrate performs for 18 to 22 years in Irvington\'s climate. Reflective coating application can extend this by 5 to 7 years. The key to achieving full life expectancy is proper substrate preparation and full tear-off of existing materials -- installing over accumulated layers shortens life and voids most manufacturer warranties.',
     },
+    {
+      question: 'How much does modified bitumen roofing cost in Irvington, NJ?',
+      answer: 'Most modified bitumen roofing projects in Irvington range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Irvington NJ for Springfield Ave commercial and Route 78 industrial buildings. Multi-layer waterproofing with torch-fused seams.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

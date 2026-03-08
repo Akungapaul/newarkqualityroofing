@@ -4,7 +4,7 @@ export const millburnFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Flat roof replacement on Millburn properties addresses the membrane systems covering estate additions, commercial buildings, and institutional flat-roof sections that have reached the end of their functional service life. The kitchen extensions, sunroom additions, enclosed breezeways, and garage flat sections on Short Hills and Wyoming estates operate as critical waterproofing junctions between the primary steep-slope roof system and the habitable spaces below -- when these flat sections fail, the water damage to professionally finished interiors can dwarf the replacement cost of the membrane itself.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Millburn — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement on Millburn properties addresses the membrane systems covering estate additions, commercial buildings, and institutional flat-roof sections that have reached the end of their functional service life. The kitchen extensions, sunroom additions, enclosed breezeways, and garage flat sections on Short Hills and Wyoming estates operate as critical waterproofing junctions between the primary steep-slope roof system and the habitable spaces below -- when these flat sections fail, the water damage to professionally finished interiors can dwarf the replacement cost of the membrane itself.',
     'Commercial flat-roof replacement along the Millburn Avenue corridor and throughout the township\'s commercial zones provides new membrane systems for professional offices, medical practices, retail shops, and institutional buildings whose aging roofs have exhausted their repair potential. Our [flat roof replacement](/flat-roof-replacement) practice for Millburn commercial properties coordinates the replacement within the constraints of occupied-building operations -- phased installation that maintains weather protection throughout, noise management during business hours, and tenant communication that prevents disruption from escalating into tenant-relations damage.',
     'The replacement presents an opportunity to upgrade the flat-roof system\'s energy performance, drainage design, and integration with the adjacent steep-slope roofing. Tapered insulation that eliminates ponding, upgraded edge details that direct water cleanly into the gutter system, and improved transition flashings at the flat-to-steep junction all contribute to a replacement that outperforms the aged system in every measurable dimension. These upgrades bring the flat-roof section into compliance with current energy and drainage codes while resolving the design deficiencies that may have contributed to the previous system\'s premature failure.'
   ],
@@ -34,7 +34,25 @@ export const millburnFlatRoofReplacement: ComboContent = {
     {
       question: 'Will the flat-roof replacement disrupt my commercial tenants?',
       answer: 'We design the project schedule to minimize disruption through phased installation, noise management during business hours, and advance tenant communication. Each day\'s work area is closed to weather-tight condition before the crew leaves. Interior protection is installed beneath the work zone. For medical offices and other sensitive environments, we schedule noise-intensive activities during off-hours when possible.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Millburn, NJ?',
+      answer: 'Most flat roof replacement projects in Millburn range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement for Millburn estates and commercial buildings. TPO, EPDM, PVC, and modified bitumen with drainage redesign and transition detailing.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

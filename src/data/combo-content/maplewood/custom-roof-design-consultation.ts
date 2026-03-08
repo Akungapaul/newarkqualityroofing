@@ -4,7 +4,7 @@ export const maplewoodCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'maplewood',
   overview: [
-    'Custom roof design consultation resonates deeply in Maplewood, where architecturally informed homeowners treat roofing decisions as design choices rather than maintenance obligations. The township\'s Victorian, Tudor, Colonial Revival, Arts and Crafts, and mid-century modern housing stock creates a design-conscious community that expects roofing contractors to speak the language of architectural style, period authenticity, and material harmony. Our [custom roof design consultation](/custom-roof-design-consultation) service in [Maplewood](/roofing-in-maplewood-nj) brings architectural knowledge alongside technical roofing expertise to every project discussion.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Maplewood — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation resonates deeply in Maplewood, where architecturally informed homeowners treat roofing decisions as design choices rather than maintenance obligations. The township\'s Victorian, Tudor, Colonial Revival, Arts and Crafts, and mid-century modern housing stock creates a design-conscious community that expects roofing contractors to speak the language of architectural style, period authenticity, and material harmony. Our [custom roof design consultation](/custom-roof-design-consultation) service in [Maplewood](/roofing-in-maplewood-nj) brings architectural knowledge alongside technical roofing expertise to every project discussion.',
     'Maplewood\'s creative community, including the artists, writers, and design professionals who have been drawn to the township for decades, approaches home improvement with an aesthetic rigor that general roofing contractors rarely encounter. These homeowners research materials, study color palettes, and arrive at consultations with informed opinions and specific questions about how roofing choices will interact with their home\'s existing architectural vocabulary. Our design consultation process meets this sophistication with material samples, photographic mock-ups, and style-specific recommendations grounded in our experience across Maplewood\'s full architectural spectrum.',
     'New construction and major renovation projects in Maplewood benefit from design consultation that integrates roofing decisions with the overall architectural vision. We collaborate with architects, general contractors, and homeowners during the design phase to ensure roofing material selection, profile choices, and detail specifications align with the project\'s aesthetic goals and structural requirements. This early-stage involvement prevents the mismatched roofing choices that occur when roofing is treated as an afterthought rather than an integral design element. Architects working on projects in neighboring [Millburn](/custom-roof-design-consultation-millburn-nj) appreciate the same collaborative approach.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodCustomRoofDesignConsultation: ComboContent = {
       question: 'How does design consultation work with my architect on a renovation project?',
       answer: 'We integrate directly with architectural design teams, reviewing roofing specifications in the context of the overall project vision. Our role is to translate architectural intent into buildable roofing details, identifying where design aspirations may need practical adjustment and proposing solutions that maintain the aesthetic vision within performance and budget constraints. We attend design meetings, provide material specifications for construction documents, and coordinate with the general contractor during installation.',
     },
+    {
+      question: 'How much does custom roof design consultation cost in Maplewood, NJ?',
+      answer: 'Most custom roof design consultation projects in Maplewood range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Maplewood NJ. Expert material and style guidance for Victorians, Tudors, and Colonials across every neighborhood.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

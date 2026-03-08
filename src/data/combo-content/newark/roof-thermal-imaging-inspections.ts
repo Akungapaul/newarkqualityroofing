@@ -4,7 +4,7 @@ export const newarkRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'newark',
   overview: [
-    'Roof thermal imaging inspections reveal what visual inspection cannot: the moisture trapped beneath commercial flat roof membranes throughout Newark\'s aging building stock. Using calibrated infrared cameras that detect temperature differentials across the roof surface, thermal imaging maps wet insulation zones, identifies active leak pathways, and quantifies the extent of hidden moisture damage that may exist beneath an apparently intact membrane. For Newark property managers and facility directors, this diagnostic capability transforms roof maintenance from a reactive guessing game into a data-driven asset management practice.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Newark — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections reveal what visual inspection cannot: the moisture trapped beneath commercial flat roof membranes throughout Newark\'s aging building stock. Using calibrated infrared cameras that detect temperature differentials across the roof surface, thermal imaging maps wet insulation zones, identifies active leak pathways, and quantifies the extent of hidden moisture damage that may exist beneath an apparently intact membrane. For Newark property managers and facility directors, this diagnostic capability transforms roof maintenance from a reactive guessing game into a data-driven asset management practice.',
     'The technology exploits a straightforward physical principle. During evening hours after a sunny day, the roof surface releases stored heat. Dry insulation releases heat quickly and cools to ambient temperature. Wet insulation retains heat significantly longer because water has a much higher thermal mass than dry insulation board. An infrared camera scanning the roof surface two to four hours after sunset reveals these thermal differences as distinct temperature patterns -- warm zones indicate trapped moisture, cool zones confirm dry insulation. The resulting thermal map provides a non-invasive diagnostic that would otherwise require hundreds of destructive core cuts to approximate.',
     'Newark\'s commercial building portfolio makes thermal imaging inspection particularly valuable. The city\'s flat-roofed office buildings, warehouses, retail centers, and industrial facilities along the Ironbound corridor, Downtown district, and Route 21 corridor collectively represent millions of square feet of commercial roof membrane that ages invisibly from the inside out. A membrane that appears intact from the surface may conceal saturated insulation across twenty or thirty percent of its area -- insulation that has lost its thermal resistance, adds dead load to the structure, and will accelerate membrane deterioration from below. Thermal imaging quantifies this hidden liability before it becomes a visible failure.',
     'For commercial real estate transactions in Newark, thermal imaging inspections provide objective documentation that informs purchase decisions, price negotiations, and capital reserve planning. A buyer evaluating a commercial property on Broad Street or in the Ironbound can request a thermal imaging inspection that reveals the actual condition of the roof assembly -- not just the membrane surface that a visual inspection shows. This data prevents the unwelcome discovery of a six-figure roof replacement need shortly after closing, a scenario that occurs regularly in Newark\'s active commercial real estate market when due diligence skips the roof interior.'
@@ -40,7 +40,25 @@ export const newarkRoofThermalImagingInspections: ComboContent = {
     {
       question: 'Should I get a thermal imaging inspection before buying a commercial property in Newark?',
       answer: 'A thermal imaging inspection is one of the highest-return due diligence investments in a Newark commercial property transaction. The inspection cost is negligible relative to the potential discovery of a six-figure roof replacement need that a visual inspection would miss. We routinely perform pre-acquisition thermal inspections for commercial buyers in Newark and provide reports formatted for use in price negotiations, capital reserve planning, and post-acquisition maintenance budgeting. The inspection can be scheduled to align with your due diligence timeline and typically requires only one evening scan appointment.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Newark, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Newark range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Newark NJ. Infrared moisture detection for commercial flat roofs with drone scanning and verified diagnostics.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

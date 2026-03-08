@@ -4,7 +4,7 @@ export const cedarGroveCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'cedar-grove',
   overview: [
-    'Custom roof design consultation in Cedar Grove addresses the unique architectural requirements of a township where the dominant mid-century ranch and colonial housing stock presents homeowners with specific design constraints -- low-pitch geometries, shallow attic spaces, and roof-to-wall transitions that require thoughtful material and detail selection to balance aesthetics with northern Essex County weather performance. Our [custom roof design consultation](/custom-roof-design-consultation) process helps Cedar Grove homeowners navigate the full range of material options, ventilation strategies, and design upgrades available for their specific roof geometry and budget.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Cedar Grove — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Cedar Grove addresses the unique architectural requirements of a township where the dominant mid-century ranch and colonial housing stock presents homeowners with specific design constraints -- low-pitch geometries, shallow attic spaces, and roof-to-wall transitions that require thoughtful material and detail selection to balance aesthetics with northern Essex County weather performance. Our [custom roof design consultation](/custom-roof-design-consultation) process helps Cedar Grove homeowners navigate the full range of material options, ventilation strategies, and design upgrades available for their specific roof geometry and budget.',
     'Cedar Grove homeowners renovating or expanding their properties face roof design decisions that significantly impact both the project\'s visual outcome and its long-term performance. Adding a second story to a ranch, extending a roofline over a new addition, or converting a flat-roof section to a pitched design each require professional design coordination to ensure the new roof integrates with existing structural framing, matches the neighborhood architectural context, and satisfies Cedar Grove building code requirements. Property owners in nearby [Verona](/custom-roof-design-consultation-verona-nj) and [Little Falls](/custom-roof-design-consultation-little-falls-nj) engage similar design consultation when modifying their comparable housing stock.',
     'Commercial property owners along Pompton Avenue and Route 23 benefit from design consultation when upgrading roof systems on existing buildings. Material selection, drainage redesign, insulation upgrade paths, and aesthetic improvements to street-facing rooflines are all design decisions that perform better when coordinated through a comprehensive consultation process rather than addressed piecemeal during construction.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveCustomRoofDesignConsultation: ComboContent = {
       question: 'Will you coordinate with my architect on a Cedar Grove renovation project?',
       answer: 'Absolutely. We regularly collaborate with architects on Cedar Grove renovation projects, providing roofing-specific expertise that complements the architect\'s design vision. Our input covers structural loading requirements for the selected roofing material, ventilation integration with the overall building envelope design, and practical constructability guidance that helps avoid costly field modifications during construction.',
     },
+    {
+      question: 'How much does custom roof design consultation cost in Cedar Grove, NJ?',
+      answer: 'Most custom roof design consultation projects in Cedar Grove range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Cedar Grove NJ -- material selection, ventilation planning, and renovation design for ranch and colonial homes.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

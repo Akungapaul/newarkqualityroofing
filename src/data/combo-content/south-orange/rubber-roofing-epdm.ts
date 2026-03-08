@@ -4,7 +4,7 @@ export const southOrangeRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'south-orange',
   overview: [
-    'EPDM rubber roofing serves South Orange Village on the surfaces that premium materials cannot cover -- the flat porch roofs of Montrose Park mansions, the low-slope additions on Arts and Crafts bungalows along Scotland Road, the commercial buildings lining South Orange Avenue, and the institutional facilities of Seton Hall University\'s campus. While these surfaces lack the visibility of the slate and cedar rooflines that define South Orange\'s streetscape, they protect equally valuable interior spaces and require equally competent installation to perform reliably in northern New Jersey\'s demanding climate.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in South Orange — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing serves South Orange Village on the surfaces that premium materials cannot cover -- the flat porch roofs of Montrose Park mansions, the low-slope additions on Arts and Crafts bungalows along Scotland Road, the commercial buildings lining South Orange Avenue, and the institutional facilities of Seton Hall University\'s campus. While these surfaces lack the visibility of the slate and cedar rooflines that define South Orange\'s streetscape, they protect equally valuable interior spaces and require equally competent installation to perform reliably in northern New Jersey\'s demanding climate.',
     'The prevalence of EPDM on South Orange\'s secondary roof surfaces reflects the material\'s proven track record in the mid-Atlantic region. Synthetic rubber membrane withstands the freeze-thaw cycling, UV exposure, and thermal shock that characterize Essex County winters and summers without the brittleness that affects some competing membrane chemistries. For the enclosed porches, sunrooms, and covered entryways found on homes throughout the village, EPDM provides 25-plus years of waterproofing that homeowners in [Maplewood](/rubber-roofing-epdm-maplewood-nj) and South Orange rely on for protecting finished interior spaces below.',
     'Commercial EPDM applications in South Orange center on the village\'s mixed-use buildings along South Orange Avenue and the smaller institutional structures associated with local organizations and houses of worship. These buildings require roofing systems that accommodate rooftop mechanical equipment, resist foot traffic during maintenance, and integrate cleanly with masonry parapets and decorative cornices that reflect the village center\'s architectural character.',
     'Our EPDM installations in [South Orange](/roofing-in-south-orange-nj) use fully adhered membrane systems rather than the ballasted or mechanically attached methods that some contractors default to for speed. Full adhesion eliminates wind flutter, provides maximum puncture resistance, and creates the smooth surface that facilitates debris clearing -- an important maintenance consideration given the heavy organic material South Orange\'s tree canopy deposits on flat roof surfaces throughout the year.'
@@ -35,7 +35,25 @@ export const southOrangeRubberRoofingEpdm: ComboContent = {
     {
       question: 'How do you handle the drain outlets on an EPDM roof in South Orange?',
       answer: 'We install oversized drain bowls with removable strainer baskets that catch debris while allowing water flow. Scupper outlets at the roof perimeter provide secondary drainage if internal drains become partially blocked. The drain layout accounts for the heavy leaf and twig loads that South Orange\'s tree canopy deposits seasonally. We recommend that homeowners check and clear drain strainers monthly during fall leaf-drop season and after major storms.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in South Orange, NJ?',
+      answer: 'Most rubber roofing epdm projects in South Orange range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in South Orange NJ -- durable membrane systems for porch roofs, commercial buildings, and low-slope residential sections.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

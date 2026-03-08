@@ -4,7 +4,7 @@ export const caldwellRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'caldwell',
   overview: [
-    'If there is one roofing service that Caldwell needs more urgently than any other Essex County borough, it is roof cleaning and moss removal. The mature tree canopy that gives this community its distinctive character also creates the persistent shade and moisture retention conditions that make moss, algae, and lichen colonization virtually inevitable on north-facing and heavily shaded roof planes. Walk any residential street in Caldwell and you will see the telltale signs -- green moss cushions accumulating in shingle courses, dark algae streaks running vertically down shaded slopes, and the grey-green lichen patches that establish themselves on surfaces that have remained undisturbed for years. This biological activity is not merely cosmetic; it is an active deterioration mechanism that shortens shingle life by years.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Caldwell — with prices starting from $300–$800 and free estimates available today. If there is one roofing service that Caldwell needs more urgently than any other Essex County borough, it is roof cleaning and moss removal. The mature tree canopy that gives this community its distinctive character also creates the persistent shade and moisture retention conditions that make moss, algae, and lichen colonization virtually inevitable on north-facing and heavily shaded roof planes. Walk any residential street in Caldwell and you will see the telltale signs -- green moss cushions accumulating in shingle courses, dark algae streaks running vertically down shaded slopes, and the grey-green lichen patches that establish themselves on surfaces that have remained undisturbed for years. This biological activity is not merely cosmetic; it is an active deterioration mechanism that shortens shingle life by years.',
     'The relationship between Caldwell\'s tree canopy and roof biological growth is a cycle that feeds itself without intervention. Trees shade the roof, keeping surfaces damp. Damp surfaces support moss spore germination. Moss retains additional moisture, creating a micro-environment that supports even denser growth. Moss root systems -- technically rhizoids -- penetrate shingle surfaces, lifting edges and creating channels for water infiltration. The shingle damage creates more rough surface area for spore attachment. Left unchecked for several years, this cycle can transform a functional shingle surface into a spongy biological mat that holds water against the roof deck through every rain event. Homeowners in neighboring [North Caldwell](/roof-cleaning-moss-removal-north-caldwell-nj) face identical canopy conditions on their larger estate properties.',
     'Professional roof cleaning in Caldwell addresses biological growth through chemistry rather than force. The power washing approach that some contractors use strips granules from shingles, voiding manufacturer warranties and accelerating the aging that cleaning is meant to prevent. Our method applies targeted chemical solutions -- sodium percarbonate for moss and zinc sulfate for algae -- that kill biological growth at the root level while preserving the shingle surface integrity that manufacturers require for warranty coverage. The treatment works with rainfall over subsequent weeks to wash dead material from the surface, restoring the shingle appearance and eliminating the moisture-retention conditions that feed continuing growth.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'What are the zinc strips I see on some Caldwell roofs?',
       answer: 'Zinc strips are narrow bands of zinc metal installed along the roof ridge line. When rainwater flows over the zinc surface, it picks up zinc oxide particles and carries them down the roof plane. This zinc-enriched water creates a chemical environment that inhibits moss, algae, and lichen establishment across the roof surface below the strip. Zinc strips provide passive, continuous biological growth prevention between professional cleaning treatments. They are most effective when installed immediately after a thorough chemical cleaning so they maintain the clean condition rather than trying to suppress established growth. Copper strips provide similar but stronger protection and are recommended for heavily shaded Caldwell roofs.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Caldwell, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Caldwell range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in Caldwell NJ -- chemical treatment for moss, algae, and lichen under tree canopy with zinc strip prevention.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

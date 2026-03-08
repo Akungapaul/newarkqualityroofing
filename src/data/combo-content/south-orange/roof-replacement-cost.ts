@@ -4,7 +4,7 @@ export const southOrangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'south-orange',
   overview: [
-    'Roof replacement cost in South Orange Village reflects the premium materials, complex architectures, and quality expectations that distinguish this community\'s roofing market from standard suburban pricing. The cost discussion for South Orange homeowners begins not with square-footage rates but with the material selection, roof geometry, and installation complexity that determine the actual project investment. A Montrose Park Tudor with multi-gable slate roofing involves fundamentally different costs than a Newstead Cape with standard architectural shingles, and transparency about these differences is essential for informed decision-making.',
+    'Newark Quality Roofing delivers expert roof replacement cost in South Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in South Orange Village reflects the premium materials, complex architectures, and quality expectations that distinguish this community\'s roofing market from standard suburban pricing. The cost discussion for South Orange homeowners begins not with square-footage rates but with the material selection, roof geometry, and installation complexity that determine the actual project investment. A Montrose Park Tudor with multi-gable slate roofing involves fundamentally different costs than a Newstead Cape with standard architectural shingles, and transparency about these differences is essential for informed decision-making.',
     'South Orange\'s roofing cost structure includes several factors that generic pricing guides do not capture. The steep roof pitches prevalent on Tudors and large Colonials add labor hours and safety equipment costs. Multi-gable geometries with numerous valleys, dormers, and chimney intersections add flashing complexity. Premium materials -- natural slate, cedar shake, standing-seam copper -- carry material costs multiples above standard shingles. Access conditions on heavily landscaped lots and narrow setback properties add staging logistics. These factors compound to produce project costs specific to each South Orange property.',
     'Our [roof replacement cost](/roof-replacement-cost) estimates for South Orange homeowners provide detailed line-item breakdowns that show exactly what drives the investment. Material costs, labor by task, waste and cleanup, permit fees, and any structural repair allowances are itemized so the homeowner understands each component. This transparency enables meaningful comparison between contractors and prevents the low-bid surprises that incomplete estimates create when undisclosed costs emerge mid-project.',
     'Financing options make South Orange roof replacement accessible without immediate full-payment burden. We offer financing programs through established lending partners that provide fixed monthly payments over terms aligned with the roof\'s expected service life. For homeowners in [South Orange](/roofing-in-south-orange-nj) investing in premium materials with 50-to-100-year lifespans, the per-month financing cost is often remarkably modest relative to the decades of protection the investment provides.'
@@ -35,7 +35,25 @@ export const southOrangeRoofReplacementCost: ComboContent = {
     {
       question: 'How do I compare roofing estimates from different South Orange contractors?',
       answer: 'Compare estimates on specification, not just price. Verify that each estimate specifies the same shingle product, underlayment type, ice-and-water shield coverage, flashing materials, and installation scope. A lower price that omits ice-and-water shield, specifies thinner material, or excludes proper valley and chimney flashing is not a genuine savings. Our estimates provide the detail needed for specification-level comparison.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in South Orange, NJ?',
+      answer: 'Most roof replacement cost projects in South Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in South Orange NJ -- transparent pricing for slate, cedar, metal, and shingle roofing on village homes.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

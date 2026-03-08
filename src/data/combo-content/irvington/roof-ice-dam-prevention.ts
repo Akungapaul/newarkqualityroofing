@@ -4,7 +4,7 @@ export const irvingtonRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'irvington',
   overview: [
-    'Ice dam formation is a chronic winter problem on Irvington\'s pre-war housing stock, where inadequate attic insulation, poor ventilation, and aging roofing materials combine to create the thermal conditions that produce ice dams on thousands of homes every winter season. Our [ice dam prevention](/roof-ice-dam-prevention) services address the root causes rather than the symptoms -- upgrading the attic thermal boundary and ventilation pathway so the roof deck stays cold enough to prevent the melt-refreeze cycle that forms ice dams at the eave line.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Irvington — with prices starting from $800–$3,000 and free estimates available today. Ice dam formation is a chronic winter problem on Irvington\'s pre-war housing stock, where inadequate attic insulation, poor ventilation, and aging roofing materials combine to create the thermal conditions that produce ice dams on thousands of homes every winter season. Our [ice dam prevention](/roof-ice-dam-prevention) services address the root causes rather than the symptoms -- upgrading the attic thermal boundary and ventilation pathway so the roof deck stays cold enough to prevent the melt-refreeze cycle that forms ice dams at the eave line.',
     'The mechanics of ice dam formation on Irvington homes follow a predictable pattern rooted in the township\'s building characteristics. Heat from living spaces rises through poorly insulated attic floors and warms the roof deck from below. Snow on the warm roof surface melts and runs down toward the eave, where the overhang extends past the heated building envelope into cold ambient air. The meltwater refreezes at this cold eave edge, building a dam of ice that blocks subsequent meltwater, forcing it back under shingles and into the building. Irvington\'s 1920s-1940s homes are particularly vulnerable because their original construction included minimal or no attic insulation and limited ventilation.',
     'The damage from ice dams on Irvington homes extends well beyond the roof surface. Water forced under shingles by ice pressure penetrates through the roof deck, soaks wall cavities, saturates insulation, and stains or destroys interior plaster and drywall. On multi-family properties, ice dam water can travel through floor systems and damage units below the roof level. Homeowners in neighboring [Newark](/roof-ice-dam-prevention-newark-nj) face similar ice dam conditions on comparable-era housing, though Irvington\'s predominantly detached structures allow better access for remediation work in the soffit and eave areas where prevention measures are installed.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofIceDamPrevention: ComboContent = {
       question: 'Should I address ice dams during my Irvington roof replacement?',
       answer: 'Absolutely. Roof replacement is the ideal time to install ice-and-water shield membrane at eaves and valleys, restore soffit ventilation, install ridge vent, and upgrade attic insulation from above while the roof is open. Addressing all four ice dam factors during re-roofing costs significantly less than performing each as a separate project.',
     },
+    {
+      question: 'How much does roof ice dam prevention cost in Irvington, NJ?',
+      answer: 'Most roof ice dam prevention projects in Irvington range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Irvington NJ for pre-war homes. Insulation, ventilation, and air sealing to stop ice dams at the root cause.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

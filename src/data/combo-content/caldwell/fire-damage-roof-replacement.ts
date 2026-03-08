@@ -4,7 +4,7 @@ export const caldwellFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Fire damage roof replacement in Caldwell handles the complete roof system rebuild that follows a fire event affecting the home\'s structure. Whether the fire originated internally -- from an electrical fault, kitchen incident, or heating system malfunction -- or externally from an adjacent property or brush fire, the roof assembly absorbs damage that ranges from localized charring to complete structural destruction. The replacement scope depends on fire extent, structural assessment findings, and the building code requirements that govern reconstruction in the borough of Caldwell.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Caldwell — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Caldwell handles the complete roof system rebuild that follows a fire event affecting the home\'s structure. Whether the fire originated internally -- from an electrical fault, kitchen incident, or heating system malfunction -- or externally from an adjacent property or brush fire, the roof assembly absorbs damage that ranges from localized charring to complete structural destruction. The replacement scope depends on fire extent, structural assessment findings, and the building code requirements that govern reconstruction in the borough of Caldwell.',
     'Caldwell\'s detached housing stock provides some buffer against the fire-to-fire transmission that threatens denser communities, but the borough\'s tree canopy introduces a different fire pathway: embers carried on wind currents can land on roof surfaces hundreds of feet from the fire source. This ember exposure risk is another reason why fire-retardant-treated roofing materials -- particularly on wood shake and cedar roofs -- deserve consideration in [Caldwell\'s](/roofing-in-caldwell-nj) canopy environment. Our [fire damage roof replacement](/fire-damage-roof-replacement) capability covers the full spectrum from targeted reconstruction of localized damage to complete structural rebuild after severe fire events.',
     'The fire damage replacement process involves multiple parties -- the homeowner, insurance company, fire investigator, building department, and restoration contractor -- each with specific requirements and timelines that must be coordinated. Our role bridges the construction and insurance domains, providing the structural assessment and replacement specification that the insurance company needs for claim processing while meeting the building code requirements that the Caldwell building department enforces for reconstruction. This coordination accelerates the timeline from fire event to completed reconstruction.'
   ],
@@ -34,7 +34,25 @@ export const caldwellFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Will my Caldwell roof be rebuilt to current building code after fire damage?',
       answer: 'Yes. Reconstruction after fire damage must meet current Caldwell building code, which may exceed the standards under which the original roof was built. This includes current requirements for ice-and-water shield, ventilation, wind uplift resistance, and insulation. Many insurance policies include ordinance or law coverage that pays for the code-upgrade costs that reconstruction triggers. We identify applicable code upgrades during the planning phase and include them in the insurance claim documentation.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Caldwell, NJ?',
+      answer: 'Most fire damage roof replacement projects in Caldwell range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Caldwell NJ -- structural assessment, insurance coordination, and code-compliant rebuild after fire events.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const veronaRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'verona',
   overview: [
-    'Roof deck repair addresses the structural substrate beneath the roofing materials on Verona homes -- the plywood or OSB sheathing that transfers weather loads to the framing and provides the nail-base for shingle attachment. When this deck material deteriorates from moisture penetration, inadequate ventilation, or aging adhesives, the shingles above lose their fastening foundation and the roof\'s structural integrity is compromised. Newark Quality Roofing identifies and replaces damaged deck sections during every Verona roof replacement and performs targeted deck repair when localized damage requires correction between re-roofing cycles.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Verona — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair addresses the structural substrate beneath the roofing materials on Verona homes -- the plywood or OSB sheathing that transfers weather loads to the framing and provides the nail-base for shingle attachment. When this deck material deteriorates from moisture penetration, inadequate ventilation, or aging adhesives, the shingles above lose their fastening foundation and the roof\'s structural integrity is compromised. Newark Quality Roofing identifies and replaces damaged deck sections during every Verona roof replacement and performs targeted deck repair when localized damage requires correction between re-roofing cycles.',
     'Verona\'s split-level homes are particularly susceptible to deck deterioration at the level transitions where moisture infiltration concentrates. The transition wall junctions collect water from the upper roof plane and channel it along paths where original flashing has failed over decades of service. This persistent moisture softens the deck sheathing along the transition line, creating a band of compromised substrate that extends from the junction inward. Our [roof deck repair](/roof-deck-repair-replacement) scope on split-levels always includes careful inspection of every transition area, probing the sheathing for soft spots that indicate moisture damage beneath intact-appearing shingle surfaces.',
     'Original deck material on Verona\'s 1960s and 1970s split-levels varies by construction era and builder. Some homes carry half-inch CDX plywood that has performed well for six decades. Others have early-generation OSB or chipboard that degrades rapidly when exposed to moisture. The thinnest original decking -- three-eighths-inch plywood on some budget-built homes -- may have been adequate when new but lacks the remaining structural capacity to support modern re-roofing loads. Our deck assessment identifies the existing material type and condition, recommending replacement where structural capacity has been compromised. Homes in [Cedar Grove](/roof-deck-repair-replacement-cedar-grove-nj) from the same building era share similar deck material variations.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Can roof deck damage cause visible problems inside my Verona home?',
       answer: 'Deck damage from moisture usually precedes visible interior damage. Water penetrating through failed roofing materials saturates the sheathing first, then migrates to the framing and insulation, and finally stains or damages ceiling drywall. By the time ceiling stains appear, the deck material above has likely been compromised. Addressing ceiling stains without inspecting and repairing the deck above allows continued moisture accumulation that worsens the structural damage and promotes mold growth in the concealed cavity.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Verona, NJ?',
+      answer: 'Most roof deck repair replacement projects in Verona range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Verona NJ -- plywood and OSB sheathing repair for split-level transition damage and aging decks.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

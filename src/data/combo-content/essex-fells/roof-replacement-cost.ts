@@ -4,7 +4,7 @@ export const essexFellsRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'essex-fells',
   overview: [
-    'Roof replacement cost on Essex Fells estate properties reflects the premium materials, complex geometries, multi-structure scope, and elevated site management standards that distinguish this borough\'s projects from standard residential re-roofing in surrounding Essex County communities. Where a typical suburban roof replacement in [Caldwell](/roof-replacement-cost-caldwell-nj) or [Verona](/roof-replacement-cost-verona-nj) ranges from $15,000 to $35,000, Essex Fells estate re-roofing projects routinely range from $75,000 to $300,000 or more, driven by natural slate at $1,500 to $3,000 per roofing square, standing-seam copper at $2,000 to $4,000 per square, and the multi-structure scope that estate compounds present.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Essex Fells — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost on Essex Fells estate properties reflects the premium materials, complex geometries, multi-structure scope, and elevated site management standards that distinguish this borough\'s projects from standard residential re-roofing in surrounding Essex County communities. Where a typical suburban roof replacement in [Caldwell](/roof-replacement-cost-caldwell-nj) or [Verona](/roof-replacement-cost-verona-nj) ranges from $15,000 to $35,000, Essex Fells estate re-roofing projects routinely range from $75,000 to $300,000 or more, driven by natural slate at $1,500 to $3,000 per roofing square, standing-seam copper at $2,000 to $4,000 per square, and the multi-structure scope that estate compounds present.',
     'Understanding the cost components of Essex Fells roof replacement enables informed budgeting and prevents the sticker shock that results from comparing estate roofing prices to the suburban residential averages published in consumer media. Material cost represents the largest component -- premium natural materials cost five to twenty times more per square foot than architectural shingles. Labor intensity on complex estate geometries, custom flashing fabrication, scaffold and access equipment for multi-story structures, and the site protection requirements governing construction on landscaped estates add proportional premiums to the installation cost.',
     'Our [roof replacement cost](/roof-replacement-cost) transparency provides Essex Fells homeowners with detailed cost breakdowns that enable informed decision-making. We separate material, labor, equipment, disposal, and overhead costs in our proposals, allowing homeowners and their advisors to evaluate each component independently. Material alternatives are presented with comparative cost data so homeowners can evaluate budget-quality trade-offs with complete information rather than comparing total-project numbers between contractors whose specifications may differ significantly.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRoofReplacementCost: ComboContent = {
     {
       question: 'Should I get multiple estimates for my Essex Fells roof replacement?',
       answer: 'Multiple estimates are valuable when they compare equivalent specifications. A lower estimate based on substitute materials, reduced underlayment coverage, or abbreviated flashing details does not represent a genuine savings -- it represents a different project. We encourage homeowners to obtain competitive proposals and we provide our specification documents in sufficient detail for meaningful comparison. The lowest price is rarely the best value when the comparison involves premium materials and estate-quality installation standards.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in Essex Fells, NJ?',
+      answer: 'Most roof replacement cost projects in Essex Fells range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in Essex Fells NJ -- transparent pricing for slate, copper, and cedar shake estate roofing projects.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

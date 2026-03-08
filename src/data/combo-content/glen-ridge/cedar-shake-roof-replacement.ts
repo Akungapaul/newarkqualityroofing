@@ -4,7 +4,7 @@ export const glenRidgeCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Cedar shake roof replacement restores the warm, textured character that defines many of Glen Ridge\'s Edwardian, Dutch Colonial Revival, and Arts and Crafts homes. While slate dominates the borough\'s Victorian residences, cedar shake was the material of choice for homes built from 1905 through the 1930s, when its natural grain, warm tone, and hand-crafted appearance expressed the era\'s appreciation for natural materials and honest construction. Replacing an aging cedar shake roof with new hand-split shakes preserves this material tradition and maintains the visual harmony of Glen Ridge\'s period-specific streetscapes.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Glen Ridge — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement restores the warm, textured character that defines many of Glen Ridge\'s Edwardian, Dutch Colonial Revival, and Arts and Crafts homes. While slate dominates the borough\'s Victorian residences, cedar shake was the material of choice for homes built from 1905 through the 1930s, when its natural grain, warm tone, and hand-crafted appearance expressed the era\'s appreciation for natural materials and honest construction. Replacing an aging cedar shake roof with new hand-split shakes preserves this material tradition and maintains the visual harmony of Glen Ridge\'s period-specific streetscapes.',
     'Cedar shake replacement in Glen Ridge demands material quality that commodity-grade shake suppliers cannot provide. We source restoration-grade hand-split shakes from old-growth western red cedar, selecting for tight grain, consistent thickness, and the surface character that distinguishes premium shakes from machine-processed alternatives. The Historic Preservation Commission expects material that replicates the original installation\'s appearance, and only hand-split shakes from quality timber achieve the irregular, natural texture that Glen Ridge\'s discerning community recognizes as authentic.',
     'The replacement project provides an opportunity to incorporate modern underlayment and ventilation improvements that the original installation lacked. Original cedar shake roofs on Glen Ridge homes were installed over skip sheathing with no underlayment, relying on the cedar\'s natural water resistance and the ventilation provided by spaced sheathing to manage moisture. Modern replacement adds breathable underlayment that protects the deck while maintaining the airflow cedar shake requires, and includes ice-and-water shield at eaves where [ice dams](/roof-ice-dam-prevention-glen-ridge-nj) threaten. These concealed improvements dramatically extend cedar shake life without altering the visible appearance.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeCedarShakeRoofReplacement: ComboContent = {
       question: 'Is cedar shake fire-safe for Glen Ridge\'s closely spaced homes?',
       answer: 'Modern fire-retardant treated cedar shake achieves Class B or Class C fire ratings, meeting building code requirements for residential installation. We specify fire-retardant treatment for all Glen Ridge cedar installations, addressing the legitimate fire safety concern in the borough\'s closely spaced housing. The treatment does not affect the shake\'s appearance or weather performance.',
     },
+    {
+      question: 'How much does cedar shake roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Glen Ridge range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Glen Ridge NJ. Premium hand-split western red cedar for Edwardian and Dutch Colonial homes.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

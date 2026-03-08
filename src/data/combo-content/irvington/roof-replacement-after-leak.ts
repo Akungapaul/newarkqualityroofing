@@ -4,7 +4,7 @@ export const irvingtonRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'irvington',
   overview: [
-    'Roof replacement after leak becomes the necessary path when Irvington homeowners discover that their chronic leak problem stems from systemic roof failure rather than an isolated defect that repair can resolve. Our [roof replacement after leak](/roof-replacement-after-leak) services transition homeowners from the frustrating cycle of temporary patches to a permanent solution, addressing not only the failed roofing surface but the moisture damage to decking, insulation, and framing that chronic leaking has caused beneath.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Irvington — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak becomes the necessary path when Irvington homeowners discover that their chronic leak problem stems from systemic roof failure rather than an isolated defect that repair can resolve. Our [roof replacement after leak](/roof-replacement-after-leak) services transition homeowners from the frustrating cycle of temporary patches to a permanent solution, addressing not only the failed roofing surface but the moisture damage to decking, insulation, and framing that chronic leaking has caused beneath.',
     'The transition from repair to replacement on Irvington homes typically follows a recognizable pattern: a single leak appears and is patched, then additional leaks develop in different locations, repairs become more frequent and expensive, and eventually the homeowner recognizes that the entire roof system has deteriorated beyond what spot repairs can sustain. By this point, the chronic leaking has usually caused secondary damage -- rotted decking, mold growth, saturated insulation, and water-stained interiors -- that makes the replacement project more extensive than it would have been if addressed earlier.',
     'Irvington landlords face the repair-to-replacement transition under additional pressure from tenant complaints, housing code enforcement, and the financial impact of units rendered uninhabitable by chronic leaking. Our replacement-after-leak protocol for [Irvington](/roofing-in-irvington-nj) multi-family properties includes tenant-impact documentation, accelerated scheduling to restore habitability, and repair records supporting insurance claims for the water damage that preceded the replacement decision.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofReplacementAfterLeak: ComboContent = {
       question: 'Can you help document interior damage for my Irvington insurance claim?',
       answer: 'Yes. We document the roof-side damage that caused the interior water intrusion, providing photographs, moisture measurements, and written assessments linking the roof failure to the interior damage. This documentation supports insurance claims for both the roof replacement and the interior damage restoration.',
     },
+    {
+      question: 'How much does roof replacement after leak cost in Irvington, NJ?',
+      answer: 'Most roof replacement after leak projects in Irvington range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Irvington NJ for homes with chronic leak damage. End the patch cycle with permanent replacement and damage repair.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'orange',
   overview: [
-    'Chimney flashing repair is among the most frequent roof repair calls we receive from Orange homeowners, and for good reason -- the intersection between a masonry chimney and a roof surface is one of the most complex waterproofing challenges on any residential structure. Our [chimney flashing repair](/chimney-flashing-repair) work in Orange addresses the specific failure modes that Orange\'s housing stock encounters: deteriorated mortar joints that pull counter-flashing loose, thermal cycling that separates step flashing from chimney faces, and the tree-debris accumulation behind upslope chimney crickets that traps moisture against masonry.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Orange — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is among the most frequent roof repair calls we receive from Orange homeowners, and for good reason -- the intersection between a masonry chimney and a roof surface is one of the most complex waterproofing challenges on any residential structure. Our [chimney flashing repair](/chimney-flashing-repair) work in Orange addresses the specific failure modes that Orange\'s housing stock encounters: deteriorated mortar joints that pull counter-flashing loose, thermal cycling that separates step flashing from chimney faces, and the tree-debris accumulation behind upslope chimney crickets that traps moisture against masonry.',
     'Scotland Road\'s grand Victorians present chimney flashing challenges at a scale that standard homes rarely encounter. Many of these homes have two or three chimneys, some with elaborate brick corbeling and decorative stonework that complicates flashing integration. The counter-flashing on these chimneys was originally set into lime mortar joints that have deteriorated over a century, allowing water to bypass the flashing and enter the wall cavity behind it. Restoring these historic chimney flashings requires careful mortar removal, new flashing installation, and repointing with compatible mortar that bonds properly to the aged brick.',
     'Orange\'s Valley neighborhood homes face a chimney flashing dynamic driven by moisture from below. Saturated soil around Valley foundations wicks moisture up through masonry walls and chimneys via capillary action. When this rising dampness reaches the roof-to-chimney intersection, it attacks flashing sealants from the inside and promotes efflorescence that pushes counter-flashing out of mortar joints. Chimney flashing repairs in the Valley must account for this internal moisture pressure, using details that allow trapped moisture to escape without allowing rainwater to enter. Homes in neighboring [East Orange](/chimney-flashing-repair-east-orange-nj) contend with similar aging chimney masonry on pre-war housing stock.'
   ],
@@ -34,7 +34,25 @@ export const orangeChimneyFlashingRepair: ComboContent = {
     {
       question: 'Can you repair chimney flashing without replacing the shingles around it?',
       answer: 'In many cases, yes. If the surrounding shingles are in good condition, we can carefully lift them to access and replace the step flashing beneath, then relay the shingles. However, if the shingles are old and brittle, lifting them causes breakage that makes replacement more practical. We assess shingle condition during the inspection and recommend the approach that provides the best long-term result.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Orange, NJ?',
+      answer: 'Most chimney flashing repair projects in Orange range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Orange NJ -- mortar joint counter-flashing, Victorian multi-chimney homes, cricket installation, and Valley moisture solutions.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

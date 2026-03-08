@@ -4,7 +4,7 @@ export const cedarGrovePvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'PVC roofing delivers chemical-resistant, heat-weldable membrane protection for Cedar Grove commercial properties where exposure to grease exhaust, chemical fumes, or industrial byproducts would compromise other single-ply membrane systems. Restaurants and food service establishments along Pompton Avenue, professional laboratories, and medical facilities in the township\'s office parks benefit from polyvinyl chloride membranes engineered to resist the specific chemical exposures their operations produce -- a performance advantage that neither TPO nor EPDM can match.',
+    'Newark Quality Roofing delivers expert pvc roofing in Cedar Grove — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing delivers chemical-resistant, heat-weldable membrane protection for Cedar Grove commercial properties where exposure to grease exhaust, chemical fumes, or industrial byproducts would compromise other single-ply membrane systems. Restaurants and food service establishments along Pompton Avenue, professional laboratories, and medical facilities in the township\'s office parks benefit from polyvinyl chloride membranes engineered to resist the specific chemical exposures their operations produce -- a performance advantage that neither TPO nor EPDM can match.',
     'Cedar Grove\'s commercial roofing landscape includes several food-service and medical tenancies where grease-laden kitchen exhaust and chemical ventilation discharge directly onto the roof surface. Standard thermoplastic and rubber membranes degrade under sustained exposure to animal fats, petroleum-based solvents, and chemical cleaning agents. Our [PVC roofing](/pvc-roofing) installations for these Cedar Grove properties use membranes formulated specifically for chemical resistance, with reinforced thickness at exhaust discharge zones and splash areas surrounding rooftop equipment.',
     'Beyond chemical resistance, PVC membranes share the heat-welded seam technology that makes TPO installations reliable, creating monolithic waterproof connections at every lap joint that resist the thermal cycling Cedar Grove\'s northern Essex County climate produces. The white reflective surface reduces cooling loads on commercial buildings during summer months, and the membrane\'s inherent fire resistance satisfies code requirements for buildings in Cedar Grove\'s mixed-use commercial zones.',
   ],
@@ -35,6 +35,24 @@ export const cedarGrovePvcRoofing: ComboContent = {
       question: 'Can PVC be installed over an existing roof in Cedar Grove?',
       answer: 'PVC recover is possible when the existing roof has a single layer and the insulation is dry, provided no asphalt-based materials remain in the assembly. If the existing roof contains BUR, modified bitumen, or asphalt-based adhesives, full tear-off is required before PVC installation because asphalt degrades PVC membrane. We perform compatibility testing during our pre-installation survey to determine whether recover or tear-off is appropriate.',
     },
+    {
+      question: 'How much does pvc roofing cost in Cedar Grove, NJ?',
+      answer: 'Most pvc roofing projects in Cedar Grove range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Cedar Grove NJ -- chemical-resistant commercial membrane for restaurants, medical offices, and industrial buildings along Pompton Ave.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

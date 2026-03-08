@@ -4,7 +4,7 @@ export const montclairEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'montclair',
   overview: [
-    'EPDM rubber membrane roofing has quietly become the workhorse of Montclair\'s commercial building stock, covering flat and low-slope roofs on boutique retail buildings along Bloomfield Avenue, mixed-use properties flanking Watchung Plaza, and institutional structures that anchor the township\'s civic life. Unlike the architecturally prominent pitched roofs on Montclair\'s celebrated residential streets, these commercial roofs are functional surfaces engineered for decades of weather resistance with minimal visual presence -- a practical invisibility that suits a community where storefront aesthetics and streetscape character receive far more public attention than what sits above the parapet walls.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Montclair — with prices starting from $6–$11/sq ft and free estimates available today. EPDM rubber membrane roofing has quietly become the workhorse of Montclair\'s commercial building stock, covering flat and low-slope roofs on boutique retail buildings along Bloomfield Avenue, mixed-use properties flanking Watchung Plaza, and institutional structures that anchor the township\'s civic life. Unlike the architecturally prominent pitched roofs on Montclair\'s celebrated residential streets, these commercial roofs are functional surfaces engineered for decades of weather resistance with minimal visual presence -- a practical invisibility that suits a community where storefront aesthetics and streetscape character receive far more public attention than what sits above the parapet walls.',
     'Montclair\'s commercial EPDM installations face environmental pressures distinct from neighboring municipalities. The township\'s position against the Watchung Ridge creates localized wind acceleration across flat roof surfaces, particularly on buildings along Upper Montclair\'s commercial strip and the Valley Road corridor where terrain channeling amplifies storm gusts. Facility managers who have dealt with wind-related membrane uplift on properties near [Bloomfield](/epdm-commercial-roofing-bloomfield-nj) and [Glen Ridge](/epdm-commercial-roofing-glen-ridge-nj) recognize that Montclair\'s elevation demands upgraded wind securement detailing beyond what standard specifications require.',
     'The mature tree canopy that defines Montclair\'s residential character extends over many commercial rooftops, depositing organic debris that accumulates in drainage pathways and ponding zones on EPDM surfaces. Our [EPDM commercial roofing](/epdm-commercial-roofing) expertise addresses these canopy-driven maintenance challenges through drainage system design that anticipates seasonal leaf loads and branch debris from the township\'s protected oaks, maples, and tulip poplars. Serving [Montclair](/roofing-in-montclair-nj) commercial property owners means understanding how the urban forest above shapes roofing performance below.',
     'Building codes in Montclair reflect Essex County\'s progressive approach to energy performance, and EPDM installations increasingly incorporate reflective white membrane options or insulation upgrades that satisfy both code requirements and property owner interest in reducing HVAC operating costs. The township\'s walkable commercial districts keep building footprints compact -- typically 2,000 to 8,000 square feet of roof area -- making each EPDM installation a precision project rather than a warehouse-scale membrane deployment.'
@@ -35,7 +35,25 @@ export const montclairEpdmCommercialRoofing: ComboContent = {
     {
       question: 'How do you handle EPDM installation on Montclair buildings during business hours?',
       answer: 'We schedule work phases to minimize disruption to tenants and neighboring businesses in Montclair\'s commercial districts. Tear-off and membrane adhesive application -- the noisiest and most odor-producing phases -- are typically completed before business opening hours or scheduled during agreed-upon windows. Material deliveries are coordinated with township parking requirements and loading zone availability on Bloomfield Avenue and surrounding streets. Most Montclair commercial EPDM installations complete within three to five working days depending on roof size and complexity.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Montclair, NJ?',
+      answer: 'Most epdm commercial roofing projects in Montclair range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Montclair NJ -- rubber membrane systems for Bloomfield Avenue retail, mixed-use, and institutional flat roofs.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

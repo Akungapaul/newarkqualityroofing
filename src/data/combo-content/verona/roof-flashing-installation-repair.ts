@@ -4,7 +4,7 @@ export const veronaRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'verona',
   overview: [
-    'Roof flashing is the most critical weatherproofing component on Verona homes, and the township\'s predominant split-level architecture demands more flashing linear footage per home than any standard gable roof design. Every level transition, valley intersection, wall junction, and penetration requires flashing that channels water away from vulnerable joints. When flashing fails on a Verona split-level, the resulting leak often travels far from the failure point -- following the transition wall cavity or migrating between roof planes before emerging as a ceiling stain in a room nowhere near the actual defect.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Verona — with prices starting from $300–$1,500 and free estimates available today. Roof flashing is the most critical weatherproofing component on Verona homes, and the township\'s predominant split-level architecture demands more flashing linear footage per home than any standard gable roof design. Every level transition, valley intersection, wall junction, and penetration requires flashing that channels water away from vulnerable joints. When flashing fails on a Verona split-level, the resulting leak often travels far from the failure point -- following the transition wall cavity or migrating between roof planes before emerging as a ceiling stain in a room nowhere near the actual defect.',
     'Newark Quality Roofing specializes in the flashing systems that Verona\'s multi-plane homes require. Our crews carry pre-formed flashing profiles for the most common split-level transition configurations, plus portable brake equipment for custom-bending flashings to fit the non-standard angles that individual homes present. The [roof flashing](/roof-flashing-installation-repair) work we perform ranges from targeted repairs at a single failed joint to complete flashing system replacements during re-roofing projects, always using materials and installation methods that exceed the building code minimums.',
     'The hilltop properties along Claremont Avenue and upper Personette experience wind-driven rain that tests flashing integrity more aggressively than sheltered valley locations near Verona Park. Wind pushes rain laterally under lapped metal, behind counter-flashings, and into step-flashing joints that shed water effectively during vertical rainfall. Our flashing specifications for exposed Verona hilltop locations include enhanced lap dimensions, additional sealant applications, and wind-lock profiles that standard installations do not require. Homeowners in [Cedar Grove](/roof-flashing-installation-repair-cedar-grove-nj) share similar ridgeline exposure conditions on their ranch-style homes.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'How often should roof flashing be inspected on a Verona split-level?',
       answer: 'Annual inspection is our recommendation for Verona split-levels because the multiple flashing locations create numerous potential failure points. The best inspection timing is fall, before winter weather stresses the flashing system. Our annual inspection checks every step-flashing joint, counter-flashing termination, valley metal condition, and transition detail on the home. Early detection of deterioration allows repair before active leaking begins, preventing the interior damage that makes repairs more expensive and disruptive.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Verona, NJ?',
+      answer: 'Most roof flashing installation repair projects in Verona range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Verona NJ -- split-level transition flashings, valley metals, and wind-resistant details.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

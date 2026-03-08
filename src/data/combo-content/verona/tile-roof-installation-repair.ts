@@ -4,7 +4,7 @@ export const veronaTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'verona',
   overview: [
-    'Tile roofing in Verona occupies a distinctive niche within the township\'s predominantly shingle-covered landscape. A scattering of Mediterranean-influenced homes built during the 1920s and 1930s along Claremont Avenue and the upper Lakeview neighborhood carry original clay tile roofs that have survived nine decades of New Jersey weather. These tile installations represent craftsmanship from an era when Verona was developing as a commuter suburb, and maintaining them requires material knowledge and installation techniques that differ fundamentally from the asphalt shingle work that dominates modern roofing practice.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Verona — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Verona occupies a distinctive niche within the township\'s predominantly shingle-covered landscape. A scattering of Mediterranean-influenced homes built during the 1920s and 1930s along Claremont Avenue and the upper Lakeview neighborhood carry original clay tile roofs that have survived nine decades of New Jersey weather. These tile installations represent craftsmanship from an era when Verona was developing as a commuter suburb, and maintaining them requires material knowledge and installation techniques that differ fundamentally from the asphalt shingle work that dominates modern roofing practice.',
     'Newark Quality Roofing provides both restoration of existing tile roofs and new tile installations for Verona homeowners seeking the permanence and architectural distinction that only clay or concrete tile delivers. The weight, fragility during handling, and specialized underlayment requirements of tile roofing demand experienced crews who understand how to walk on an installed tile field without cracking units, how to source replacement tiles that match aged originals, and how to detail flashings around the complex geometries of Verona\'s varied roof shapes. Our [tile roofing](/tile-roof-installation-repair) crews bring this specialized knowledge to every Verona project.',
     'New tile installations on Verona homes have increased as homeowners recognize the material\'s century-plus lifespan, fire resistance, and distinctive curb appeal. Concrete tile profiles that replicate the appearance of clay at a lower material cost have made tile accessible to properties beyond the township\'s historic Mediterranean homes. Homeowners in [Montclair](/tile-roof-installation-repair-montclair-nj) with period architecture have similarly embraced tile restoration, though Verona\'s split-level majority presents unique structural evaluation requirements before the additional weight of tile can be safely supported.'
   ],
@@ -34,7 +34,25 @@ export const veronaTileRoofInstallationRepair: ComboContent = {
     {
       question: 'Do tile roofs need maintenance in Verona?',
       answer: 'Tile itself is nearly maintenance-free, but the supporting systems beneath the tile require periodic attention. Flashings, valley metals, and underlayment age faster than the tile and may need replacement during the tile roof\'s lifetime. We recommend annual visual inspections to identify cracked or displaced tiles, deteriorating mortar at hips and ridges, and debris accumulation in valleys. Prompt replacement of individual broken tiles prevents water intrusion that can damage the underlayment and deck below. The tile field itself should last the lifetime of the building with this level of care.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Verona, NJ?',
+      answer: 'Most tile roof installation repair projects in Verona range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Verona NJ -- clay tile restoration, concrete tile upgrades, and structural assessment for split-level homes.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const roselandSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Skylight installation and repair in Roseland transforms interior spaces in the borough\'s mid-century homes where original floor plans did not prioritize natural light. The colonials, split-levels, and ranches that define Roseland\'s residential architecture often feature interior hallways, bathrooms, and stairwells that rely entirely on artificial lighting. Skylights positioned over these spaces introduce daylight that improves both the livability and perceived size of rooms that artificial light cannot fully illuminate. Our [skylight installation and repair](/skylight-installation-repair) service handles the combined roofing and carpentry work that proper skylight integration requires.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Roseland — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in Roseland transforms interior spaces in the borough\'s mid-century homes where original floor plans did not prioritize natural light. The colonials, split-levels, and ranches that define Roseland\'s residential architecture often feature interior hallways, bathrooms, and stairwells that rely entirely on artificial lighting. Skylights positioned over these spaces introduce daylight that improves both the livability and perceived size of rooms that artificial light cannot fully illuminate. Our [skylight installation and repair](/skylight-installation-repair) service handles the combined roofing and carpentry work that proper skylight integration requires.',
     'Skylight repair calls in Roseland most frequently address units installed during the 1980s and 1990s that have reached the end of their glazing and flashing life. Condensation between dual-pane glass layers, cracked acrylic domes, and deteriorated flashing curbs are the typical failure modes that generate service calls. Replacement with current-generation units from VELUX and other manufacturers delivers dramatically improved thermal performance, UV filtering, and condensation resistance compared to the products they replace.',
     'Commercial skylight applications in Roseland\'s office buildings and retail spaces bring natural light into common areas and atriums where employee satisfaction and energy cost reduction both benefit. Tubular skylights provide an alternative for commercial spaces where traditional skylight installation is constrained by the building structure, using reflective tubes to transport daylight from the roof surface to interior ceilings up to 30 feet below. Properties in [West Orange](/skylight-installation-repair-west-orange-nj) have implemented similar commercial daylighting strategies in their office environments.'
   ],
@@ -34,7 +34,25 @@ export const roselandSkylightInstallationRepair: ComboContent = {
     {
       question: 'Should I replace my skylight during a roof replacement?',
       answer: 'If your existing skylight is more than 15 years old, replacement during re-roofing is strongly recommended. The roofing crew already has the access and staging needed for skylight work, and integrating a new skylight into the new roof system creates optimal flashing conditions. Attempting to flash an aging skylight curb into a new roof system often reveals deteriorated curb components that require replacement anyway, adding unplanned cost and time.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Roseland, NJ?',
+      answer: 'Most skylight installation repair projects in Roseland range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Roseland NJ -- VELUX skylights and tubular daylighting for residential and commercial spaces.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

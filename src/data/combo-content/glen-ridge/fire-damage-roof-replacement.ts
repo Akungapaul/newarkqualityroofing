@@ -4,7 +4,7 @@ export const glenRidgeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Fire damage roof replacement in Glen Ridge addresses one of the most devastating scenarios a historic homeowner can face. When fire damages the roof of a century-old Victorian or Edwardian home, the loss extends beyond the roofing material to the irreplaceable architectural details, original framing, and the structural integrity that has supported the home for generations. Newark Quality Roofing provides comprehensive fire damage restoration that rebuilds the roof system from the surviving structure upward, restoring both weather protection and the architectural character that makes Glen Ridge homes architectural treasures.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Glen Ridge — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Glen Ridge addresses one of the most devastating scenarios a historic homeowner can face. When fire damages the roof of a century-old Victorian or Edwardian home, the loss extends beyond the roofing material to the irreplaceable architectural details, original framing, and the structural integrity that has supported the home for generations. Newark Quality Roofing provides comprehensive fire damage restoration that rebuilds the roof system from the surviving structure upward, restoring both weather protection and the architectural character that makes Glen Ridge homes architectural treasures.',
     'Fire damage on Glen Ridge\'s closely spaced homes creates cascading risk that extends beyond the directly affected property. Radiant heat and airborne embers can damage roofing materials on adjacent homes, and fire suppression water saturates roofing and framing on neighboring structures. Our fire damage assessments in Glen Ridge examine not just the primary fire property but the adjacent structures that may have sustained thermal or water damage requiring remediation. This comprehensive response protects the neighborhood from ongoing damage that fire events can trigger.',
     'The rebuilding process after fire damage provides an opportunity to incorporate modern structural and safety improvements beneath historically appropriate roofing materials. Fire-retardant treated framing, enhanced insulation, improved ventilation, and comprehensive ice-and-water shield installation can all be integrated into the reconstruction without altering the home\'s exterior appearance. The rebuilt roof emerges stronger, better insulated, and more fire-resistant than the original it replaces while maintaining the preservation-compliant appearance that [Glen Ridge](/roofing-in-glen-ridge-nj) requires.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeFireDamageRoofReplacement: ComboContent = {
       question: 'Can a fire-damaged Glen Ridge home be improved during reconstruction?',
       answer: 'Yes. The reconstruction process provides an opportunity to add fire-retardant framing, improved insulation, enhanced ventilation, and modern waterproofing that were not present in the original construction. These improvements are concealed beneath the historically appropriate exterior, giving the homeowner better performance than the pre-fire condition.',
     },
+    {
+      question: 'How much does fire damage roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most fire damage roof replacement projects in Glen Ridge range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Glen Ridge NJ. Structural restoration and preservation-grade re-roofing for historic homes.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

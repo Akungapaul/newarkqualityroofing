@@ -4,7 +4,7 @@ export const westOrangeCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'west-orange',
   overview: [
-    'Commercial roof installation in West Orange serves the township\'s diverse commercial building stock -- from single-story retail along Pleasant Valley Way to multi-story office complexes at Eagle Rock Avenue, and from medical facilities scattered through residential neighborhoods to light-industrial buildings in the township\'s commercial zones. Our [commercial roof installation](/commercial-roof-installation) work engineers each system for the building\'s specific use, elevation, and structural capacity.',
+    'Newark Quality Roofing delivers expert commercial roof installation in West Orange — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in West Orange serves the township\'s diverse commercial building stock -- from single-story retail along Pleasant Valley Way to multi-story office complexes at Eagle Rock Avenue, and from medical facilities scattered through residential neighborhoods to light-industrial buildings in the township\'s commercial zones. Our [commercial roof installation](/commercial-roof-installation) work engineers each system for the building\'s specific use, elevation, and structural capacity.',
     'New construction commercial roofing in West Orange requires coordination with general contractors on projects that range from professional office build-outs to retail pad developments. We participate from the design phase, specifying membrane systems, insulation assemblies, and drainage details that integrate with the structural framing, mechanical systems, and architectural vision the project architect has established. This early-stage involvement prevents the costly change orders that result from roofing specifications conflicting with structural capacity or mechanical layouts discovered during construction.',
     'Re-roofing existing commercial buildings along [West Orange](/roofing-in-west-orange-nj)\'s commercial corridors requires minimizing tenant disruption while delivering full-performance roof systems. We schedule tear-off and installation in sections that maintain weather protection over occupied spaces, using temporary membrane covers to protect exposed deck sections at the end of each work day. Night and weekend scheduling options accommodate businesses where daytime construction noise and access disruption are unacceptable. Building owners near [Livingston](/commercial-roof-installation-livingston-nj) face similar tenant-coordination requirements on their own commercial re-roofing projects.',
     'West Orange\'s township building department reviews commercial roofing projects for code compliance including wind uplift ratings, fire resistance classifications, and energy code insulation requirements. We manage the permit application and inspection process, ensuring that all documentation and test reports are prepared before the building official\'s review rather than discovered as missing during construction inspections.'
@@ -35,7 +35,25 @@ export const westOrangeCommercialRoofInstallation: ComboContent = {
     {
       question: 'What warranties are available for commercial roof installations?',
       answer: 'Commercial roofing warranties include two components: manufacturer material warranty covering membrane and system components, and contractor workmanship warranty covering installation quality and flashing details. Manufacturer warranties range from 15 to 25 years depending on system specification and installation requirements. Our workmanship warranty provides 10 years of coverage on all flashing, seaming, and installation details. NDL (No Dollar Limit) warranties are available on premium system specifications for building owners requiring maximum warranty protection.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in West Orange, NJ?',
+      answer: 'Most commercial roof installation projects in West Orange range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in West Orange NJ. TPO, EPDM, PVC, and metal systems for offices, retail, and light-industrial buildings.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

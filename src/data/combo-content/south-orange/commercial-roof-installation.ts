@@ -4,7 +4,7 @@ export const southOrangeCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'south-orange',
   overview: [
-    'Commercial roof installation in South Orange Village serves the mixed-use buildings along South Orange Avenue, institutional facilities at Seton Hall University, and the commercial properties that support this walkable village center community. New commercial roofing in South Orange must satisfy both the performance requirements of business operations and the aesthetic expectations of a village where commercial building appearance is held to standards that many suburban commercial districts do not maintain.',
+    'Newark Quality Roofing delivers expert commercial roof installation in South Orange — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in South Orange Village serves the mixed-use buildings along South Orange Avenue, institutional facilities at Seton Hall University, and the commercial properties that support this walkable village center community. New commercial roofing in South Orange must satisfy both the performance requirements of business operations and the aesthetic expectations of a village where commercial building appearance is held to standards that many suburban commercial districts do not maintain.',
     'Seton Hall University represents South Orange\'s largest commercial roof installation market. New campus construction, building additions, and facility renovations all require commercial roofing expertise that handles the large-footprint membrane installations, metal panel systems, and institutional-grade specifications university projects demand. Our [commercial roof installation](/commercial-roof-installation) team coordinates with university construction management, general contractors, and architects to deliver installations that meet institutional standards within academic calendar scheduling constraints.',
     'The village center\'s ongoing revitalization has brought new restaurant, retail, and professional office spaces into buildings that require either new commercial roofing or complete replacement of aging systems. These projects must maintain business continuity for adjacent tenants during construction, present finished roofing that satisfies village aesthetic standards, and integrate the mechanical equipment that modern commercial spaces require. Property owners in [South Orange](/roofing-in-south-orange-nj) expect commercial roofing quality that matches the village\'s residential standards.',
     'Our commercial installations in South Orange use TPO, PVC, EPDM, modified bitumen, and standing-seam metal systems selected based on each building\'s specific requirements. We do not default to a single membrane system for all applications -- the restaurant requiring grease resistance gets PVC, the office building wanting energy efficiency gets TPO, and the institutional building needing maximum durability gets the system its maintenance profile demands.'
@@ -35,7 +35,25 @@ export const southOrangeCommercialRoofInstallation: ComboContent = {
     {
       question: 'Do you handle commercial roofing permits in South Orange?',
       answer: 'Yes. We prepare and submit building permit applications for all commercial roofing projects requiring permits in South Orange Village. Our familiarity with local building department requirements and inspection schedules ensures permit processing does not create unnecessary project delays. We coordinate required inspections at appropriate project milestones and address any code compliance questions that arise during the permitting process.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in South Orange, NJ?',
+      answer: 'Most commercial roof installation projects in South Orange range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in South Orange NJ -- new roofing for village businesses and Seton Hall University campus buildings.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

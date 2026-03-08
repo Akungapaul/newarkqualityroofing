@@ -4,7 +4,7 @@ export const irvingtonCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'irvington',
   overview: [
-    'Commercial metal roofing is gaining adoption along Irvington\'s Route 78 industrial corridor, where warehouse operators and distribution facility managers are discovering that standing seam and R-panel metal systems outperform membrane roofing on buildings with specific structural and operational profiles. Our [commercial metal roofing](/commercial-metal-roofing) installations in Irvington deliver 40 to 50-year roof systems on steel-framed commercial buildings where metal\'s span capacity, leak resistance, and minimal maintenance translate directly to reduced operating costs over the building\'s remaining productive life.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Irvington — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing is gaining adoption along Irvington\'s Route 78 industrial corridor, where warehouse operators and distribution facility managers are discovering that standing seam and R-panel metal systems outperform membrane roofing on buildings with specific structural and operational profiles. Our [commercial metal roofing](/commercial-metal-roofing) installations in Irvington deliver 40 to 50-year roof systems on steel-framed commercial buildings where metal\'s span capacity, leak resistance, and minimal maintenance translate directly to reduced operating costs over the building\'s remaining productive life.',
     'The economics of commercial metal roofing in Irvington work best on Route 78 corridor buildings with clear-span steel structures and minimal rooftop penetrations. These warehouses and light-manufacturing facilities present open roof planes where standing seam panels run full-length from ridge to eave without horizontal joints, creating a virtually leak-proof surface that requires no sealant, no membrane seams, and no periodic coating. The initial cost premium over membrane systems -- typically 30 to 40 percent higher -- amortizes over a service life that doubles or triples what any membrane system can deliver.',
     'Springfield Avenue\'s smaller commercial buildings present a more selective metal roofing opportunity. Sloped-roof commercial structures -- particularly churches and institutional buildings with traditional pitched-roof architecture -- benefit from metal\'s aesthetic versatility and permanent color retention. Standing seam profiles in architectural finishes replicate the look of traditional roofing materials while delivering metal\'s superior performance. Property owners managing commercial buildings in neighboring [East Orange](/commercial-metal-roofing-east-orange-nj) specify commercial metal on similar institutional structures, though Irvington\'s Route 78 industrial applications represent the higher-volume segment of our commercial metal work in the township.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonCommercialMetalRoofing: ComboContent = {
       question: 'What colors and finishes are available for Irvington commercial metal roofing?',
       answer: 'Standing seam panels are available in over 30 standard colors with Kynar 500/Hylar PVDF fluoropolymer finishes that retain color and gloss for 30 or more years without fading, chalking, or peeling. Custom color matching is available for architectural applications where the roof must complement specific building materials or institutional branding.',
     },
+    {
+      question: 'How much does commercial metal roofing cost in Irvington, NJ?',
+      answer: 'Most commercial metal roofing projects in Irvington range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Irvington NJ for Route 78 warehouses and institutional buildings. Standing seam systems with 40-50 year durability.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

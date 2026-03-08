@@ -4,7 +4,7 @@ export const irvingtonReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'irvington',
   overview: [
-    'Re-roofing is the most common major home improvement project in Irvington, where thousands of homes built between the 1920s and 1940s are cycling through their second or third roofing system and the materials installed in the 1990s have reached end-of-life. Our [re-roofing](/re-roofing) services deliver complete roof replacement with modern materials that upgrade Irvington homes from aging three-tab shingles to architectural shingle systems with enhanced wind resistance, improved aesthetics, and manufacturer-backed warranties that the current failing materials cannot provide.',
+    'Newark Quality Roofing delivers expert re roofing in Irvington — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing is the most common major home improvement project in Irvington, where thousands of homes built between the 1920s and 1940s are cycling through their second or third roofing system and the materials installed in the 1990s have reached end-of-life. Our [re-roofing](/re-roofing) services deliver complete roof replacement with modern materials that upgrade Irvington homes from aging three-tab shingles to architectural shingle systems with enhanced wind resistance, improved aesthetics, and manufacturer-backed warranties that the current failing materials cannot provide.',
     'The economics of re-roofing in Irvington favor proactive replacement over repeated repair. Homeowners spending $500 to $1,500 annually on patch repairs to a deteriorating roof cross the cost-effectiveness threshold within 3 to 5 years -- at which point the accumulated repair spending exceeds a significant portion of what a complete re-roof would have cost. Our re-roofing consultations include a repair-versus-replace cost analysis that shows Irvington homeowners when replacement becomes the financially rational choice.',
     'Multi-family re-roofing is a significant segment of our Irvington work. Two-family and three-family homes throughout the township need re-roofing as a capital improvement that protects the structure, satisfies insurance requirements, and supports property value. Our landlord re-roofing program for [Irvington](/roofing-in-irvington-nj) investment properties includes competitive multi-property pricing, scheduling coordination with tenant occupancy, and documentation packages formatted for bank inspections and insurance files. Property investors managing portfolios in neighboring [Newark](/re-roofing-newark-nj) access similar multi-property pricing programs.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonReRoofing: ComboContent = {
       question: 'Do you offer financing for re-roofing in Irvington?',
       answer: 'Yes. We offer financing options through our lending partners with competitive rates and terms from 24 to 120 months. Many Irvington homeowners find that the monthly payment on a financed re-roof is comparable to what they were spending on annual repairs, making the investment accessible without a large upfront payment.',
     },
+    {
+      question: 'How much does re roofing cost in Irvington, NJ?',
+      answer: 'Most re roofing projects in Irvington range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Irvington NJ for aging colonials and multi-family homes. Full tear-off, deck repair, and architectural shingles from your nearest roofer.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

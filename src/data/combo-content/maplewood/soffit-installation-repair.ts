@@ -4,7 +4,7 @@ export const maplewoodSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'maplewood',
   overview: [
-    'Soffit installation and repair provides the critical ventilation pathway that Maplewood\'s older homes need to prevent the moisture buildup, ice dam formation, and premature roofing deterioration that afflict poorly ventilated attic spaces. The underside of the roof overhang, when properly vented, draws fresh air into the attic from below while ridge ventilation exhausts warm, moist air from above. Our [soffit work](/soffit-installation-repair) in [Maplewood](/roofing-in-maplewood-nj) ensures this ventilation circuit operates effectively on homes where original construction provided little or no soffit venting.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Maplewood — with prices starting from $1,500–$4,000 and free estimates available today. Soffit installation and repair provides the critical ventilation pathway that Maplewood\'s older homes need to prevent the moisture buildup, ice dam formation, and premature roofing deterioration that afflict poorly ventilated attic spaces. The underside of the roof overhang, when properly vented, draws fresh air into the attic from below while ridge ventilation exhausts warm, moist air from above. Our [soffit work](/soffit-installation-repair) in [Maplewood](/roofing-in-maplewood-nj) ensures this ventilation circuit operates effectively on homes where original construction provided little or no soffit venting.',
     'Many of Maplewood\'s pre-war homes were built with solid wood soffit panels that provided no ventilation whatsoever. Victorians in the Village area, Colonials throughout Boyden Avenue and Parker Avenue, and Tudors in the Hilton neighborhood all commonly feature enclosed soffits that trap attic heat and moisture. Converting these solid soffits to vented systems is one of the most impactful attic performance upgrades available, reducing summer cooling loads and preventing the winter ice dam formation that plagues unventilated Maplewood homes.',
     'Beyond ventilation, soffits protect the rafter tails and roof structure from weather exposure, animal intrusion, and visual clutter. Deteriorated soffits on Maplewood homes expose framing to moisture that accelerates rot, provide entry points for squirrels, raccoons, and birds seeking attic nesting sites, and create an unkempt appearance that diminishes curb appeal. Our soffit repair and replacement work addresses all three concerns simultaneously. Properties in [West Orange](/soffit-installation-repair-west-orange-nj) with similar vintage housing stock face the same solid-soffit ventilation deficiency.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodSoffitInstallationRepair: ComboContent = {
       question: 'What material is best for soffit replacement in Maplewood?',
       answer: 'Aluminum vented soffit provides the best balance of ventilation performance, durability, and low maintenance for most Maplewood homes. For historic Victorians and Colonials where architectural authenticity matters, we install painted wood beadboard soffits with screened vent strips that maintain period appearance. PVC soffit panels offer the longest maintenance-free lifespan but lack the character of natural wood on historic homes.',
     },
+    {
+      question: 'How much does soffit installation repair cost in Maplewood, NJ?',
+      answer: 'Most soffit installation repair projects in Maplewood range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Maplewood NJ. Vented systems for proper attic ventilation on Victorians, Colonials, and Tudors.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

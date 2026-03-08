@@ -4,7 +4,7 @@ export const westOrangeMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Standing seam metal roofing performs differently at every elevation in West Orange, and that variation shapes every installation decision our crews make across this Watchung Mountain township. Ridge-top colonials along Eagle Rock Avenue endure sustained winds that standard asphalt cannot survive long-term, making metal\'s interlocking panel system a structural necessity rather than an aesthetic upgrade. Our [metal roof installation and repair](/metal-roof-installation-repair) projects in the Eagle Rock corridor specify concealed-fastener standing seam panels with 180-mph wind ratings -- the kind of engineering that separates performance roofing from decorative metalwork.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in West Orange — with prices starting from $15,000–$35,000 and free estimates available today. Standing seam metal roofing performs differently at every elevation in West Orange, and that variation shapes every installation decision our crews make across this Watchung Mountain township. Ridge-top colonials along Eagle Rock Avenue endure sustained winds that standard asphalt cannot survive long-term, making metal\'s interlocking panel system a structural necessity rather than an aesthetic upgrade. Our [metal roof installation and repair](/metal-roof-installation-repair) projects in the Eagle Rock corridor specify concealed-fastener standing seam panels with 180-mph wind ratings -- the kind of engineering that separates performance roofing from decorative metalwork.',
     'Mid-slope neighborhoods along Gregory Avenue and Main Street present metal roofing opportunities uniquely suited to West Orange\'s split-level housing stock. The multi-plane rooflines characteristic of 1960s raised ranches create waterproofing transitions where level changes meet, and metal panels eliminate the shingle-overlap failures that plague these intersections. Homeowners in neighboring [Montclair](/metal-roof-installation-repair-montclair-nj) invest in metal for architectural period preservation, but West Orange\'s split-level owners choose metal for its ability to handle the complex geometry that their mid-century designs demand.',
     'Valley-floor properties in Pleasant Valley and Pleasantdale benefit from metal roofing\'s superior water-shedding characteristics during the high-volume rain events that overwhelm lower-elevation drainage systems. Metal panels move water off the roof surface faster than any other material, reducing the ponding risk that accelerates shingle degradation on valley-floor homes with minimal roof pitch. We integrate oversized drip edges and continuous ice-and-water shield beneath valley-floor metal installations to manage the concentrated runoff that West Orange\'s terrain funnels downhill.',
     'The mature hardwood canopy surrounding South Mountain Reservation and Llewellyn Park creates specific metal roof maintenance patterns in West Orange. Falling acorns, hickory nuts, and heavy oak limbs generate surface denting and panel scratches that compromise factory finishes over time. We specify Kynar 500 paint systems with minimum 45-mil steel thickness for canopy-adjacent installations, ensuring that West Orange\'s forest environment does not accelerate the corrosion pathways that thinner, cheaper metal products invite.'
@@ -35,7 +35,25 @@ export const westOrangeMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'Can you install a metal roof over my existing asphalt shingles on a West Orange split-level?',
       answer: 'We can in some cases, but we generally recommend full tear-off for West Orange split-levels. The multi-plane geometry of split-level rooflines creates waterproofing transitions that benefit from clean substrate access for proper ice-and-water shield installation and flashing integration. Overlay installations trap moisture between layers and prevent inspection of the deck condition at critical transition points. Given that West Orange split-levels are now 50 to 60 years old, deck condition verification is essential before committing to a 50-year metal roof system.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in West Orange, NJ?',
+      answer: 'Most metal roof installation repair projects in West Orange range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in West Orange NJ. Standing seam systems engineered for ridge-top winds and split-level geometries.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

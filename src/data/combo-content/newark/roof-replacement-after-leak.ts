@@ -4,7 +4,7 @@ export const newarkRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'newark',
   overview: [
-    'When a Newark roof starts leaking, the instinct is to patch the breach and move on. But for many of the city\'s older buildings -- brownstones in Forest Hill with century-old skip sheathing, triple-deckers in the North Ward with decades of layered repairs, multi-family walkups in the Central Ward where deferred maintenance is the norm -- a leak is rarely an isolated event. It is a symptom of systemic failure that has been developing beneath the surface for years. Our leak-to-replacement evaluation process determines whether a targeted repair can genuinely resolve the problem or whether the roof has reached the point where replacement is the only responsible path forward.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Newark — with prices starting from $8,500–$25,000 and free estimates available today. When a Newark roof starts leaking, the instinct is to patch the breach and move on. But for many of the city\'s older buildings -- brownstones in Forest Hill with century-old skip sheathing, triple-deckers in the North Ward with decades of layered repairs, multi-family walkups in the Central Ward where deferred maintenance is the norm -- a leak is rarely an isolated event. It is a symptom of systemic failure that has been developing beneath the surface for years. Our leak-to-replacement evaluation process determines whether a targeted repair can genuinely resolve the problem or whether the roof has reached the point where replacement is the only responsible path forward.',
     'The decision to replace rather than repair often crystallizes during the investigation phase. We trace the water\'s path from the interior stain back through insulation, sheathing, and underlayment to find the actual point of entry -- which in Newark\'s tightly built structures can be several feet from where the damage appears inside. On attached brownstones, water frequently travels along shared party walls before showing up in a room two stories below the breach. When this investigation reveals rotted decking across multiple bays, failed underlayment over wide areas, or structural members compromised by prolonged moisture exposure, the economics shift decisively from repair to replacement.',
     'Newark\'s climate accelerates the transition from "manageable leak" to "replacement candidate" faster than many homeowners expect. The city sits in a wind corridor between the Passaic River and Newark Bay, driving rain horizontally into aging flashing details that suburban homes never experience at the same intensity. Freeze-thaw cycling through November to March works moisture into every micro-crack in worn shingles and dried-out sealant. A roof that leaked only during nor\'easters in 2022 may be leaking in ordinary rainstorms by 2024 -- a progression that tells us the waterproofing envelope has fundamentally failed rather than suffered a localized breach.',
     'For Newark landlords managing multi-family properties, the leak-to-replacement decision carries additional weight. A leaking roof in an occupied building triggers habitability obligations under New Jersey tenant protection law. Repeated temporary repairs create a documented pattern that can become a legal liability. Our replacement program for multi-family buildings includes tenant communication, phased work scheduling that maintains occupancy throughout the project, and coordination with Newark code enforcement to ensure the finished roof fully resolves any open violations.',
@@ -41,7 +41,25 @@ export const newarkRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'What happens if you find additional damage during tear-off that was not visible during inspection?',
       answer: 'Discovery of concealed damage during tear-off is common in Newark\'s older buildings -- hidden rot beneath layered roofing, deteriorated rafters covered by ceiling finishes, or failed sheathing that looked sound from the surface. Our estimates include a contingency allowance based on the building\'s age and condition. If additional work exceeds that allowance, we stop, document the finding with photos, and contact you before proceeding. You see exactly what was found and approve any scope changes before we continue. This transparency prevents surprise invoices and ensures you understand every dollar in the final cost.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Newark, NJ?',
+      answer: 'Most roof replacement after leak projects in Newark range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Leak-triggered roof replacement in Newark NJ -- investigation, damage mapping, and full replacement for older buildings where repair is no longer viable.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

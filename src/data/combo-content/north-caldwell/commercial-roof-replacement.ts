@@ -4,7 +4,7 @@ export const northCaldwellCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Commercial roof replacement in North Caldwell happens when an existing roof system has exhausted its service life and repairs no longer provide reliable protection for the building and its tenants. For the borough\'s professional offices, medical practices, and small commercial buildings, the replacement decision balances the cost of continued repair against the investment in a new system that eliminates maintenance concerns for the next two to three decades.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in North Caldwell — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in North Caldwell happens when an existing roof system has exhausted its service life and repairs no longer provide reliable protection for the building and its tenants. For the borough\'s professional offices, medical practices, and small commercial buildings, the replacement decision balances the cost of continued repair against the investment in a new system that eliminates maintenance concerns for the next two to three decades.',
     'Our [commercial roof replacement](/commercial-roof-replacement) projects in North Caldwell prioritize minimal tenant disruption. Medical practices cannot close for a week of roofing work. Law offices cannot conduct client meetings beneath construction noise. We plan the project phases to complete tear-off and waterproofing quickly, stage the noisiest work during tenant-coordinated windows, and maintain temporary weatherproofing overnight so the building is always protected during the multi-day replacement process.',
     'System selection for replacement considers the building\'s next thirty years of use. We evaluate current tenant requirements, anticipated future tenants, energy code obligations, and the building\'s position within [North Caldwell\'s](/roofing-in-north-caldwell-nj) residential-character streetscape. The replacement system should serve the property through its next ownership and tenant cycles without requiring the kind of ongoing repair investment that prompted the current replacement decision. Similar replacement planning guides our work on commercial buildings in [Caldwell](/commercial-roof-replacement-caldwell-nj).'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellCommercialRoofReplacement: ComboContent = {
     {
       question: 'What warranty comes with a commercial roof replacement in North Caldwell?',
       answer: 'Manufacturer system warranties for the membrane, insulation, and flashing components typically cover 20 to 30 years depending on the system specified. Our workmanship warranty covers installation quality for an additional period. Together, these warranties provide comprehensive protection for the investment. We register all warranties immediately upon completion and provide the documentation to the property owner for their records.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most commercial roof replacement projects in North Caldwell range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in North Caldwell NJ -- full system replacement for offices and small commercial buildings with tenant coordination.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

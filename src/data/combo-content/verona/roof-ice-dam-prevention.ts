@@ -4,7 +4,7 @@ export const veronaRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'verona',
   overview: [
-    'Ice dam prevention in Verona targets the root causes of a winter roofing problem that plagues the township\'s split-level homes, cape cods, and older colonials every January through March. Ice dams form when heat escaping through an inadequately insulated roof melts snow on the upper roof planes, sending meltwater to the cold eave overhangs where it refreezes into a ridge of ice that blocks subsequent drainage. The trapped water backs up under shingles, soaking into the roof deck, insulation, and wall cavities below. Newark Quality Roofing addresses ice dams in Verona through the thermal and ventilation corrections that eliminate the conditions driving ice dam formation.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Verona — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Verona targets the root causes of a winter roofing problem that plagues the township\'s split-level homes, cape cods, and older colonials every January through March. Ice dams form when heat escaping through an inadequately insulated roof melts snow on the upper roof planes, sending meltwater to the cold eave overhangs where it refreezes into a ridge of ice that blocks subsequent drainage. The trapped water backs up under shingles, soaking into the roof deck, insulation, and wall cavities below. Newark Quality Roofing addresses ice dams in Verona through the thermal and ventilation corrections that eliminate the conditions driving ice dam formation.',
     'Verona\'s split-level homes are particularly susceptible to ice dams at their level transitions. The short wall section between upper and lower levels creates a thermal bypass where warm interior air reaches the roof deck without passing through insulation, creating a hot spot that melts snow rapidly on the roof plane above. The meltwater flows down to the lower roof\'s cold eave and refreezes, building the ice dam that forces water back under shingles and into the living space below. Our [ice dam prevention](/roof-ice-dam-prevention) approach in Verona addresses these transition-specific thermal leaks alongside the general attic insulation and ventilation improvements that all ice dam remediation requires.',
     'The hilltop sections of Verona experience more ice dam severity than valley neighborhoods because wind-driven snow accumulates unevenly on exposed roof planes, creating thick drifts on leeward sections while scouring windward planes clean. The thick-snow sections generate more meltwater when heat loss warms the deck, producing larger ice dams at eaves. Properties near [Cedar Grove](/roof-ice-dam-prevention-cedar-grove-nj) along the ridgeline share similar wind-drift conditions, though Verona\'s split-level predominance adds the transition-bypass dimension that compounds the standard ice dam mechanism.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofIceDamPrevention: ComboContent = {
     {
       question: 'Can ice dam prevention be done during summer in Verona?',
       answer: 'Summer is actually the ideal time for ice dam prevention work. Attic spaces are accessible without snow, insulation installers work in better conditions, and ventilation modifications can be completed without weather constraints. The only diagnostic element that requires winter conditions is the infrared thermal scan showing active heat loss, which we can perform during a cold-weather site visit before scheduling the remediation work for the following warm season. Planning in spring for summer installation is the most effective timeline.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Verona, NJ?',
+      answer: 'Most roof ice dam prevention projects in Verona range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Verona NJ -- thermal bypass correction, split-level insulation upgrades, and ventilation solutions for winter protection.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'millburn',
   overview: [
-    'TPO roofing installation in Millburn serves a narrow but demanding segment of the township\'s building stock. Unlike dense urban municipalities where flat commercial roofs stretch block after block, Millburn\'s TPO applications concentrate on the boutique retail and professional office buildings along Millburn Avenue, the mixed-use properties near the train station, and the occasional flat-roof section on estate-scale homes where a kitchen addition or sunroom extends beyond the main roofline. The Short Hills Mall complex -- one of the premier retail destinations in northern New Jersey -- represents the largest concentration of commercial flat-roof area in the township and demands TPO installations engineered to the standards of national retail property management.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Millburn — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing installation in Millburn serves a narrow but demanding segment of the township\'s building stock. Unlike dense urban municipalities where flat commercial roofs stretch block after block, Millburn\'s TPO applications concentrate on the boutique retail and professional office buildings along Millburn Avenue, the mixed-use properties near the train station, and the occasional flat-roof section on estate-scale homes where a kitchen addition or sunroom extends beyond the main roofline. The Short Hills Mall complex -- one of the premier retail destinations in northern New Jersey -- represents the largest concentration of commercial flat-roof area in the township and demands TPO installations engineered to the standards of national retail property management.',
     'Estate properties in Short Hills and along South Mountain occasionally incorporate flat-roof sections that require commercial-grade membrane systems. A modern addition designed by a Millburn architect may feature a flat roof intended as a green roof terrace, a concealed equipment platform, or a minimalist contemporary extension that contrasts with the traditional pitched roofline of the main residence. These residential TPO applications must meet the same watertight performance standard as any commercial installation while also satisfying the aesthetic sensibility of homeowners who expect every visible building element to reflect considered design -- including the membrane color and edge detail visible from upper-story windows.',
     'Professional office buildings along Millburn Avenue and Essex Street house medical practices, law firms, financial advisors, and real estate offices whose operations cannot tolerate roof leaks or construction disruption. TPO installation on these occupied commercial properties requires project planning that accounts for patient and client access, noise sensitivity during business hours, and the absolute prevention of water intrusion into finished interiors containing expensive furnishings, medical equipment, and sensitive documents. Our commercial TPO installations for Millburn professionals include pre-construction coordination meetings, phased work schedules, and interior monitoring during the installation period.',
     'The energy performance advantages of TPO\'s reflective white membrane are relevant even in Millburn\'s lower-density setting. Commercial property owners along the Millburn Avenue corridor benefit from reduced cooling loads during summer months, and the insulation upgrade that accompanies a TPO replacement brings older buildings into compliance with current New Jersey energy code requirements. For the institutional buildings in the township -- the library, municipal offices, and school facilities -- TPO installation delivers measurable energy cost savings that justify the capital investment within the lifecycle of the membrane system.'
@@ -35,7 +35,25 @@ export const millburnTpoRoofingInstallation: ComboContent = {
     {
       question: 'Can I install solar panels on a TPO roof in Millburn?',
       answer: 'Yes. TPO is one of the most solar-compatible roofing membranes available. Panel mounting systems attach through the membrane with factory-engineered penetration flashings that maintain the waterproof integrity of the roof. We coordinate solar panel layout with the membrane installation to position seams and attachment points for optimal compatibility. If solar installation is planned for the future but not immediate, we can pre-position reinforcement areas in the membrane field to simplify later panel mounting without requiring membrane modification.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Millburn, NJ?',
+      answer: 'Most tpo roofing installation projects in Millburn range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing for Millburn commercial buildings and estate flat-roof sections. Energy-efficient membrane with architect-grade edge details and drainage design.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const roselandFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Fascia boards form the finished edge of every Roseland roofline, serving both functional and aesthetic roles that affect the home\'s weather protection and curb appeal. Functionally, the fascia closes the gap between the last rafter tails and provides the mounting surface for the gutter system. Aesthetically, the fascia creates the clean horizontal line that defines the roof edge as viewed from street level. Our [fascia installation and repair](/fascia-installation-repair) service restores deteriorated fascia on Roseland homes using materials appropriate to each property\'s construction and presentation standards.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Roseland — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards form the finished edge of every Roseland roofline, serving both functional and aesthetic roles that affect the home\'s weather protection and curb appeal. Functionally, the fascia closes the gap between the last rafter tails and provides the mounting surface for the gutter system. Aesthetically, the fascia creates the clean horizontal line that defines the roof edge as viewed from street level. Our [fascia installation and repair](/fascia-installation-repair) service restores deteriorated fascia on Roseland homes using materials appropriate to each property\'s construction and presentation standards.',
     'Fascia deterioration on Roseland\'s mid-century homes follows a predictable pattern driven by gutter system performance. When gutters overflow or back up behind ice dams, water saturates the wood fascia behind the gutter profile. This concealed moisture exposure rots the fascia from the back surface forward, often without visible evidence until the rot is advanced enough to cause gutter mounting failure. The falling gutter then reveals the deteriorated fascia beneath. Homeowners in [Verona](/fascia-installation-repair-verona-nj) and neighboring communities encounter identical rot patterns behind aging gutter systems.',
     'Material options for fascia replacement have expanded beyond the traditional wood boards that original construction used. Composite fascia materials resist rot, insect damage, and UV degradation while accepting paint or maintaining factory-finished color without maintenance. Aluminum fascia wrapping provides a maintenance-free covering over new or existing wood boards. Each material offers distinct advantages for Roseland homes, and our recommendation considers the property\'s existing trim materials, maintenance preferences, and budget.'
   ],
@@ -34,7 +34,25 @@ export const roselandFasciaInstallationRepair: ComboContent = {
     {
       question: 'Can damaged fascia be repaired instead of fully replaced?',
       answer: 'Localized damage can sometimes be repaired using wood hardener to stabilize soft areas and filler to restore the surface profile. However, fascia rot typically extends further than surface inspection reveals. If probing indicates that more than 25 percent of the board thickness is compromised, replacement provides better long-term value than repair. We assess each section individually and recommend the approach that provides reliable performance for the investment.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in Roseland, NJ?',
+      answer: 'Most fascia installation repair projects in Roseland range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Roseland NJ -- wood, composite, and aluminum fascia for residential roofline protection and aesthetics.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

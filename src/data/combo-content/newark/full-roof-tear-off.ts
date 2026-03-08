@@ -4,7 +4,7 @@ export const newarkFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'newark',
   overview: [
-    'On a 25-foot-wide lot in the North Ward, a full roof tear-off is a choreographed demolition. There is no staging yard, no side driveway, no buffer between the work zone and the building next door. The roll-off dumpster sits in the street under a city permit, the conveyor belt angles up from the curb at a pitch dictated by the setback, and every square of stripped shingles travels that path in reverse -- off the deck, down the chute, into the container -- while pedestrians walk past on the sidewalk ten feet away. This is the reality of tear-off work in Newark, and it demands a crew that treats logistics as seriously as craftsmanship.',
+    'Newark Quality Roofing delivers expert full roof tear off in Newark — with prices starting from $9,000–$26,000 and free estimates available today. On a 25-foot-wide lot in the North Ward, a full roof tear-off is a choreographed demolition. There is no staging yard, no side driveway, no buffer between the work zone and the building next door. The roll-off dumpster sits in the street under a city permit, the conveyor belt angles up from the curb at a pitch dictated by the setback, and every square of stripped shingles travels that path in reverse -- off the deck, down the chute, into the container -- while pedestrians walk past on the sidewalk ten feet away. This is the reality of tear-off work in Newark, and it demands a crew that treats logistics as seriously as craftsmanship.',
     'Full tear-off means exactly what the name implies: every layer of roofing material is removed down to the structural deck. In Newark, that frequently means peeling back three or four generations of roofing. A Forest Hill Victorian might reveal original wood shakes beneath two layers of asphalt strip shingles and a layer of rolled roofing added sometime in the 1970s. Each layer tells a story of deferred decisions, and the final layer -- the deck itself -- tells the truth about the building\'s structural condition. Rot in the sheathing, deflection in the rafters, inadequate ventilation baked into a century-old framing plan: tear-off exposes all of it, which is precisely why it is the only responsible path for most Newark roof replacements.',
     'The alternative to tear-off -- overlaying new shingles on old -- is tempting for owners watching their budgets. But Newark\'s building code limits overlay to a single existing layer, and the city\'s inspection process verifies compliance. More importantly, the buildings themselves argue against it. Multi-family structures in Vailsburg and the Central Ward carry loads that were never engineered for double-weight roof assemblies. Party walls on attached brownstones trap moisture between layers, accelerating rot that remains invisible until the ceiling below starts sagging. Tear-off eliminates these hidden risks and gives the new roof system a clean, inspectable foundation.',
     'Our tear-off crews working in Newark carry specialized equipment for urban demolition: magnetic nail sweepers that run continuously along the perimeter, debris nets anchored to the roof edge for wind-blown fragment capture, and plywood shields positioned over walkways and neighboring windowsills. We coordinate dumpster exchanges through the Newark Department of Engineering so that full containers are swapped during off-peak hours, minimizing street disruption. The tear-off itself proceeds in controlled sections -- never more open deck than we can weatherproof before the crew leaves for the day.'
@@ -39,7 +39,25 @@ export const newarkFullRoofTearOff: ComboContent = {
     {
       question: 'Do I need to be home during the tear-off process?',
       answer: 'You do not need to be present for the full duration, but we recommend being available on the first morning for a brief walkthrough and on the final day for the completion review. During tear-off, the interior of the building will experience noise and vibration. We recommend removing or covering items in top-floor rooms and attic spaces. For multi-family buildings, we coordinate with all tenants to ensure everyone is informed of the schedule and any temporary disruptions to entries or parking.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Newark, NJ?',
+      answer: 'Most full roof tear off projects in Newark range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Newark NJ -- complete strip to deck, structural inspection, debris management for dense neighborhoods and attached buildings.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

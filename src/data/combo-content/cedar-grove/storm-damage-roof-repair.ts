@@ -4,7 +4,7 @@ export const cedarGroveStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Cedar Grove\'s position along the Second Watchung Mountain slope and its location in northern Essex County place the township directly in the path of the nor\'easters and summer thunderstorms that deliver the most concentrated roofing damage in the region. The combination of elevated terrain, mature tree canopy, and the low-pitch ranch roofs that dominate the housing stock creates a storm damage profile unlike any other Essex County community. Our [storm damage roof repair](/storm-damage-roof-repair) experience in Cedar Grove spans every damage type the township encounters, from wind-stripped shingle courses to tree-impact penetrations to ice-dam water intrusion.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Cedar Grove — with prices starting from $500–$3,000 and free estimates available today. Cedar Grove\'s position along the Second Watchung Mountain slope and its location in northern Essex County place the township directly in the path of the nor\'easters and summer thunderstorms that deliver the most concentrated roofing damage in the region. The combination of elevated terrain, mature tree canopy, and the low-pitch ranch roofs that dominate the housing stock creates a storm damage profile unlike any other Essex County community. Our [storm damage roof repair](/storm-damage-roof-repair) experience in Cedar Grove spans every damage type the township encounters, from wind-stripped shingle courses to tree-impact penetrations to ice-dam water intrusion.',
     'Wind damage during major storms follows predictable patterns across Cedar Grove. Properties on Ridge Road, Bowden Road, and the upper reaches of Bradford Avenue absorb the strongest gusts as storms climb the Watchung slope, experiencing sustained winds fifteen to twenty percent higher than valley-floor homes in neighboring communities. The wide, low-pitched ranch roofs prevalent throughout these neighborhoods present large, unbroken surfaces that wind exploits aggressively, peeling back shingle courses from the rake edge inward. Homeowners along the [Montclair](/storm-damage-roof-repair-montclair-nj) and [Verona](/storm-damage-roof-repair-verona-nj) borders share elevated exposure during these same storm events.',
     'Storm damage repair in Cedar Grove frequently involves insurance claims, and our team manages this process from initial damage assessment through final adjuster sign-off. We document damage with the detailed photography, measurement, and material specifications that insurance companies require for fair claim processing, and we work directly with adjusters when on-site inspections are scheduled to ensure nothing is overlooked.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveStormDamageRoofRepair: ComboContent = {
       question: 'A storm damaged my neighbor\'s tree and it fell on my Cedar Grove roof -- whose insurance pays?',
       answer: 'In most cases, your own homeowner\'s insurance covers storm damage to your roof regardless of where the tree originated. Your policy covers the roof repair and tree removal from the structure. If the neighbor\'s tree was dead or diseased and they were previously notified, their liability coverage may apply. We document the damage and can provide information that supports your claim regardless of which policy ultimately covers the repair.',
     },
+    {
+      question: 'How much does storm damage roof repair cost in Cedar Grove, NJ?',
+      answer: 'Most storm damage roof repair projects in Cedar Grove range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Cedar Grove NJ. Wind, tree impact, and ice dam repairs with full insurance claim coordination for ranch homes.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'orange',
   overview: [
-    'Roof ventilation controls the attic environment that determines how long your Orange roof lasts and how much your heating and cooling systems work. Our [roof vent installation and repair](/roof-vent-installation-repair) projects across Orange transform inadequately ventilated attics -- common in the city\'s pre-1960 housing stock -- into properly balanced airflow systems that prevent ice dams, reduce summer cooling loads, and eliminate the moisture buildup that rots roof decking from below. In Orange\'s climate, where South Mountain proximity creates heavy precipitation and the Valley traps humidity, ventilation is not optional -- it is the operating system that makes every other roofing component perform correctly.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Orange — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation controls the attic environment that determines how long your Orange roof lasts and how much your heating and cooling systems work. Our [roof vent installation and repair](/roof-vent-installation-repair) projects across Orange transform inadequately ventilated attics -- common in the city\'s pre-1960 housing stock -- into properly balanced airflow systems that prevent ice dams, reduce summer cooling loads, and eliminate the moisture buildup that rots roof decking from below. In Orange\'s climate, where South Mountain proximity creates heavy precipitation and the Valley traps humidity, ventilation is not optional -- it is the operating system that makes every other roofing component perform correctly.',
     'The ventilation challenges in Orange vary dramatically by neighborhood. Valley homes contend with ground moisture that wicks upward into attic spaces through the building structure, requiring ventilation systems that actively exhaust this humidity before it condenses on cold roof decking. Mountain-adjacent homes on Hillyer Street and South Valley Road face heavy ice dam potential because snowmelt from heat loss refreezes at cold eaves. Scotland Road\'s Victorians have complex attic geometries with kneewall spaces, turret cavities, and interconnected roof planes that require ventilation pathways through every separate airspace. Each neighborhood demands a ventilation design calibrated to its specific conditions.',
     'Properly ventilated Orange roofs last 5 to 10 years longer than their poorly ventilated counterparts. Ventilation reduces attic temperatures in summer by 30 to 50 degrees, directly reducing the thermal aging that causes shingle granule loss and membrane deterioration. In winter, ventilation keeps the roof deck cold, preventing the differential snowmelt that creates ice dams. The ventilation investment -- typically $500 to $2,000 depending on scope -- provides returns many times its cost through extended roof life and reduced energy bills. Homeowners in [East Orange](/roof-vent-installation-repair-east-orange-nj) with similar vintage housing achieve the same benefits from ventilation upgrades.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofVentInstallationRepair: ComboContent = {
     {
       question: 'How much does a ventilation upgrade cost for an Orange home?',
       answer: 'A basic ventilation upgrade -- adding continuous soffit vents and ridge vent -- runs $800 to $2,000 for a standard Orange home. Adding the work to a re-roofing project reduces the incremental cost because ridge cap and soffit work are already in scope. Complex Victorian homes with multiple separate attic spaces may require $2,000 to $4,000 for comprehensive ventilation design and installation.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Orange, NJ?',
+      answer: 'Most roof vent installation repair projects in Orange range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in Orange NJ -- attic ventilation for ice dams, Valley moisture exhaust, Victorian airflow design, and energy savings.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

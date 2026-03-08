@@ -4,7 +4,7 @@ export const roselandInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Insurance roof replacement in Roseland assists homeowners navigating the claims process after storm damage, fallen trees, or other covered events have damaged their roof beyond economical repair. The intersection of roofing expertise and insurance documentation determines whether homeowners receive fair claim settlements that cover the full cost of proper replacement. Our [insurance roof replacement](/insurance-roof-replacement) service manages the documentation, adjuster coordination, and installation work that insurance-covered replacements require.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Roseland — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Roseland assists homeowners navigating the claims process after storm damage, fallen trees, or other covered events have damaged their roof beyond economical repair. The intersection of roofing expertise and insurance documentation determines whether homeowners receive fair claim settlements that cover the full cost of proper replacement. Our [insurance roof replacement](/insurance-roof-replacement) service manages the documentation, adjuster coordination, and installation work that insurance-covered replacements require.',
     'Roseland homeowners face the same insurance claim challenges that property owners throughout Essex County encounter -- claims adjusters who may underestimate damage scope, settlement offers that use pricing below actual market rates, and coverage disputes over code upgrade costs that insurance policies handle differently depending on the carrier. Our experience with the major insurance carriers serving Roseland properties allows us to prepare documentation that addresses common adjuster concerns proactively and supports claim settlements that cover the actual cost of code-compliant replacement.',
     'The documentation that supports a successful insurance claim goes beyond photographs of visible damage. Comprehensive damage assessments include measurement of affected areas, identification of all damage components including soft costs like ice-and-water shield requirements, and material specifications that establish the replacement standard. Property owners in [Livingston](/insurance-roof-replacement-livingston-nj) and throughout the region rely on our insurance-oriented documentation to support their claims.'
   ],
@@ -34,7 +34,25 @@ export const roselandInsuranceRoofReplacement: ComboContent = {
     {
       question: 'How long does the insurance claim process take?',
       answer: 'From initial damage report to claim settlement, the process typically takes 2 to 4 weeks for straightforward claims and up to 8 weeks for complex or disputed claims. Our documentation expedites the process by providing the adjuster with complete, organized evidence that supports efficient scope agreement. Emergency tarping protects the building during the claims period, and we schedule replacement installation promptly after settlement is reached.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Roseland, NJ?',
+      answer: 'Most insurance roof replacement projects in Roseland range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Roseland NJ -- claims documentation, adjuster coordination, and covered replacement installation.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

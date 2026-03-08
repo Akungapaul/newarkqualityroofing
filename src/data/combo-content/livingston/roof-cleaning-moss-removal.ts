@@ -4,7 +4,7 @@ export const livingstonRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'livingston',
   overview: [
-    'Livingston\'s mature tree canopy creates the ideal conditions for moss, algae, and lichen colonization on residential roofs throughout the township. The dense shade cast by oaks, maples, and ornamental trees along Northland Road, Beaufort Avenue, and Collins Terrace keeps north-facing and tree-shaded roof surfaces damp long after rainfall, providing the persistent moisture environment that biological organisms require to establish and spread. Without intervention, these organisms degrade shingle surfaces, retain moisture against the roof deck, and create an unkempt appearance that conflicts with Livingston\'s well-maintained neighborhood standards.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Livingston — with prices starting from $300–$800 and free estimates available today. Livingston\'s mature tree canopy creates the ideal conditions for moss, algae, and lichen colonization on residential roofs throughout the township. The dense shade cast by oaks, maples, and ornamental trees along Northland Road, Beaufort Avenue, and Collins Terrace keeps north-facing and tree-shaded roof surfaces damp long after rainfall, providing the persistent moisture environment that biological organisms require to establish and spread. Without intervention, these organisms degrade shingle surfaces, retain moisture against the roof deck, and create an unkempt appearance that conflicts with Livingston\'s well-maintained neighborhood standards.',
     'Algae streaking is the most visible issue on Livingston roofs, appearing as dark vertical stains that homeowners often mistake for soot or general aging. The Gloeocapsa magma algae responsible for these streaks feeds on limestone filler in asphalt shingles, producing dark pigmentation that spreads progressively across exposed surfaces. While algae does not cause immediate structural damage, it degrades the shingle surface over time and reduces property curb appeal -- a concern in Livingston\'s competitive real estate market. Similar streaking patterns affect homes throughout [Bloomfield](/roof-cleaning-moss-removal-bloomfield-nj) and across Essex County where mature tree cover creates shaded roof environments.',
     'Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) services address Livingston\'s biological growth challenges with methods that remove existing organisms without damaging shingle surfaces or voiding manufacturer warranties. Pressure washing -- a technique some contractors still promote -- strips protective granules from asphalt shingles and voids warranties from GAF, CertainTeed, and Owens Corning. Our low-pressure chemical treatment kills biological organisms at the root level while preserving shingle integrity, and preventive zinc or copper strip installation provides long-term protection against regrowth.',
     'HOA communities in Livingston occasionally enforce exterior appearance standards that trigger cleaning requests. When a Heritage Hills or Kingsland architectural review committee notifies a homeowner about roof appearance, our cleaning service restores the shingle surface to original color and install prevention strips that satisfy ongoing compliance expectations.'
@@ -35,7 +35,25 @@ export const livingstonRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'My HOA sent me a notice about my roof appearance. Can you help?',
       answer: 'Yes. We frequently work with Livingston homeowners responding to HOA appearance notices. Our cleaning service restores the shingle surface to its original color, and preventive strip installation demonstrates ongoing maintenance commitment to the architectural review committee. We provide before-and-after documentation that you can submit to your HOA to close the compliance notice and demonstrate that the issue has been professionally addressed.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Livingston, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Livingston range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Livingston NJ roof cleaning and moss removal -- low-pressure algae treatment, moss extraction, and preventive strips for tree-shaded homes.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

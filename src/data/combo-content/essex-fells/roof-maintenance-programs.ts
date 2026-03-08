@@ -4,7 +4,7 @@ export const essexFellsRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'essex-fells',
   overview: [
-    'Roof maintenance programs in Essex Fells protect roofing investments that routinely exceed $100,000 in material and labor value. The borough\'s estate homes carry natural slate, standing-seam copper, and hand-split cedar shake systems designed to perform for generations -- but only when maintained with the same discipline and material knowledge that governed their installation. A structured maintenance program prevents the incremental deterioration that transforms a minor flashing issue into a major structural repair, preserving both the roof\'s weather integrity and the architectural character that defines Essex Fells properties.',
+    'Newark Quality Roofing delivers expert roof maintenance programs in Essex Fells — with prices starting from $250–$600/year and free estimates available today. Roof maintenance programs in Essex Fells protect roofing investments that routinely exceed $100,000 in material and labor value. The borough\'s estate homes carry natural slate, standing-seam copper, and hand-split cedar shake systems designed to perform for generations -- but only when maintained with the same discipline and material knowledge that governed their installation. A structured maintenance program prevents the incremental deterioration that transforms a minor flashing issue into a major structural repair, preserving both the roof\'s weather integrity and the architectural character that defines Essex Fells properties.',
     'The multi-structure reality of Essex Fells estates makes programmatic maintenance essential rather than optional. A property with four or five buildings -- main residence, guest cottage, carriage house, pool pavilion, garden shed -- accumulates maintenance needs across dozens of roof planes, valleys, flashings, and penetrations. Without a scheduled program that systematically inspects every surface on every structure, small problems on secondary buildings go unnoticed while the homeowner focuses on the main residence. Our maintenance programs treat the entire estate as a unified system, preventing the neglect that costs more to remediate than the maintenance itself.',
     'Essex Fells\' wooded character creates maintenance demands that accelerate material degradation if left unaddressed. Mature canopy trees deposit organic debris in valleys and behind dormers, creating moisture traps that foster moss colonization and accelerate cedar shake decomposition. Branch contact abrades slate surfaces and displaces copper flashings during wind events. Leaf-choked gutters overflow and saturate fascia boards, soffit panels, and foundation plantings. Our maintenance protocols address these tree-related conditions systematically, working with the borough\'s natural landscape rather than against it.',
     'Our [roof maintenance programs](/roof-maintenance-programs) serve estate homeowners throughout western Essex County, including neighboring [Roseland](/roof-maintenance-programs-roseland-nj) and [Fairfield](/roof-maintenance-programs-fairfield-nj), with the same property-wide approach and premium material expertise that Essex Fells demands.'
@@ -35,7 +35,25 @@ export const essexFellsRoofMaintenancePrograms: ComboContent = {
     {
       question: 'Does maintenance extend my roof warranty?',
       answer: 'Most premium roofing manufacturer warranties require documented maintenance as a condition of coverage. Our maintenance reports provide the evidence that warranty claims may require -- dated inspections, documented repairs, and photographic condition records. Some manufacturers offer extended warranty periods for homes enrolled in qualified maintenance programs. We verify the specific maintenance requirements of each material warranty on the property and ensure our program satisfies those terms.'
-    }
+    },
+    {
+      question: 'How much does roof maintenance programs cost in Essex Fells, NJ?',
+      answer: 'Most roof maintenance programs projects in Essex Fells range from $250–$600/year. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Essex Fells NJ roof maintenance programs for estates -- scheduled slate, copper, and cedar care across multi-structure properties.',
+  pricing: {
+    range: '$250–$600/year',
+    note: 'annual maintenance plan pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof maintenance programs estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

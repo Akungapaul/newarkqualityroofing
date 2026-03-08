@@ -4,7 +4,7 @@ export const maplewoodFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'maplewood',
   overview: [
-    'Full roof tear-off is the foundation of every quality re-roofing project in Maplewood, stripping away decades of layered shingles, deteriorated underlayment, and concealed damage to expose the structural deck for inspection and repair before new roofing is installed. Many Maplewood homes carry two or three layers of shingles applied over decades of overlay installations, each layer trapping moisture and adding weight that stresses aging rafters. Our [full tear-off](/full-roof-tear-off) protocol in [Maplewood](/roofing-in-maplewood-nj) removes every layer down to bare wood, revealing the deck condition that determines whether the new roof will have a solid foundation or an inherited weakness.',
+    'Newark Quality Roofing delivers expert full roof tear off in Maplewood — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off is the foundation of every quality re-roofing project in Maplewood, stripping away decades of layered shingles, deteriorated underlayment, and concealed damage to expose the structural deck for inspection and repair before new roofing is installed. Many Maplewood homes carry two or three layers of shingles applied over decades of overlay installations, each layer trapping moisture and adding weight that stresses aging rafters. Our [full tear-off](/full-roof-tear-off) protocol in [Maplewood](/roofing-in-maplewood-nj) removes every layer down to bare wood, revealing the deck condition that determines whether the new roof will have a solid foundation or an inherited weakness.',
     'Maplewood\'s Victorian, Colonial Revival, and Tudor homes present tear-off complexity that ranch-style homes in suburban developments do not. Multi-gable rooflines with intersecting valleys, dormer transitions, and turret sections create confined work areas where debris removal requires careful sequencing. The decorative cornices and trim elements on Village-area Victorians must be protected during tear-off to prevent damage that would require costly carpentry repairs. Our crews use protective boarding, corner guards, and landscaping shields specific to the architectural elements present on each Maplewood home.',
     'New Jersey building code limits residential roofs to a maximum of two shingle layers. Maplewood homes with two existing layers must undergo full tear-off before new shingles can be installed. Even on homes with a single existing layer where overlay is technically permissible, we recommend tear-off because overlay conceals deck damage, prevents proper waterproofing membrane installation at critical transitions, and adds weight that Maplewood\'s older framing was not designed to carry. Homeowners in [South Orange](/full-roof-tear-off-south-orange-nj) with similar vintage housing stock face the same multi-layer removal requirements.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodFullRoofTearOff: ComboContent = {
       question: 'What happens to all the tear-off debris from my Maplewood roof?',
       answer: 'Tear-off debris is loaded into roll-off dumpsters and hauled to licensed recycling facilities. Asphalt shingles are recycled into road paving material, diverting approximately 3-5 tons of material from landfill per average Maplewood roof. Metal flashing and copper elements are separated for metal recycling. We handle all disposal logistics and leave the property clean.',
     },
+    {
+      question: 'How much does full roof tear off cost in Maplewood, NJ?',
+      answer: 'Most full roof tear off projects in Maplewood range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Maplewood NJ. Complete removal of old roofing layers for clean installation on Victorians, Colonials, and Tudors.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'South Orange Village is the epicenter of natural slate roofing in our Essex County service area. No other community concentrates as many original slate installations within such compact geography -- from the grand Tudor Revival and Colonial Revival estates of Montrose Park to the dignified Colonials along Prospect Street and Ward Place, slate roofs define the visual identity of South Orange\'s most distinguished neighborhoods. Working with slate here means honoring a century-long material tradition while applying the technical expertise needed to maintain, repair, and restore installations that range from 80 to 110 years old.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in South Orange — with prices starting from $20,000–$45,000 and free estimates available today. South Orange Village is the epicenter of natural slate roofing in our Essex County service area. No other community concentrates as many original slate installations within such compact geography -- from the grand Tudor Revival and Colonial Revival estates of Montrose Park to the dignified Colonials along Prospect Street and Ward Place, slate roofs define the visual identity of South Orange\'s most distinguished neighborhoods. Working with slate here means honoring a century-long material tradition while applying the technical expertise needed to maintain, repair, and restore installations that range from 80 to 110 years old.',
     'The slate on South Orange roofs originates primarily from Vermont and Pennsylvania quarries that were active during the village\'s early twentieth-century building boom. Vermont Unfading Gray and Vermont Unfading Green predominate on the grander Montrose Park estates, while Pennsylvania Peach Bottom and Chapman slate appear on homes along Prospect Street and the central village neighborhoods. Each quarry product has distinctive color, texture, thickness, and weathering characteristics that affect both the repair approach and the replacement sourcing process. Our familiarity with these quarry signatures from decades of work in South Orange enables accurate material matching that maintains visual coherence across restored and original sections.',
     'New slate installations on South Orange homes serve both full replacements on homes where the original installation has reached the end of its service life and first-time installations on contemporary additions and new construction. The village\'s architectural traditions make natural slate the appropriate material choice for certain home styles, and our installation expertise extends to both traditional hand-nailed methods and modern hanging systems that provide enhanced wind resistance. Homeowners in neighboring [Millburn](/slate-roof-installation-repair-millburn-nj) similarly invest in slate for their estate-quality homes.',
     'Our [slate roof installation and repair](/slate-roof-installation-repair) capabilities in South Orange include the full spectrum of slate work: individual slate replacement using copper hook-and-bib installation, ridge and hip re-pointing with traditional lime mortar, copper flashing fabrication and soldering, built-in copper box gutter restoration, and complete tear-off and reinstallation when the existing installation has deteriorated beyond repair. We maintain a dedicated slate inventory for South Orange emergency repairs, ensuring rapid response when storm damage or sudden failures require immediate attention.'
@@ -35,7 +35,25 @@ export const southOrangeSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'What is the difference between repair and restoration for a slate roof?',
       answer: 'Repair addresses specific failures: replacing a cracked slate, re-pointing a section of ridge mortar, patching a flashing leak. Restoration is a comprehensive project that addresses all deteriorated components systemically: replacing all failed slates, re-pointing all ridges and hips, replacing all compromised flashings, and rebuilding deteriorated copper gutters. Restoration extends the entire roof system\'s life by 30-50 years, while individual repairs address symptoms as they appear.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in South Orange, NJ?',
+      answer: 'Most slate roof installation repair projects in South Orange range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in South Orange NJ -- quarry-matched restoration, copper work, and new installations for village estates.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

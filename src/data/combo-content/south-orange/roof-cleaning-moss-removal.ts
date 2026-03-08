@@ -4,7 +4,7 @@ export const southOrangeRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'south-orange',
   overview: [
-    'Roof cleaning in South Orange Village addresses a biological reality that the community\'s mature tree canopy makes unavoidable. The dense coverage of oaks, maples, and tulip poplars that gives South Orange its distinctive character also creates the persistent shade and moisture conditions that moss, lichen, and algae require to colonize roof surfaces. Every roofing material in the village -- natural slate, cedar shake, asphalt shingle, and copper -- responds differently to biological growth, and cleaning methods that work safely on one material can destroy another. Our South Orange cleaning protocols are material-specific by design, protecting the premium surfaces that define the village\'s roofscape.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in South Orange — with prices starting from $300–$800 and free estimates available today. Roof cleaning in South Orange Village addresses a biological reality that the community\'s mature tree canopy makes unavoidable. The dense coverage of oaks, maples, and tulip poplars that gives South Orange its distinctive character also creates the persistent shade and moisture conditions that moss, lichen, and algae require to colonize roof surfaces. Every roofing material in the village -- natural slate, cedar shake, asphalt shingle, and copper -- responds differently to biological growth, and cleaning methods that work safely on one material can destroy another. Our South Orange cleaning protocols are material-specific by design, protecting the premium surfaces that define the village\'s roofscape.',
     'Cedar shake roofs in South Orange are the most biologically vulnerable surfaces in our service area. The wood\'s natural texture provides grip points for moss rhizoids, its moisture-absorbing fibers create a hospitable growth medium, and the shade from overhanging branches prevents the solar drying that inhibits colonization on exposed surfaces. Left untreated, moss colonies lift shake edges, retain moisture against the wood, accelerate decay, and eventually compromise waterproofing integrity. Homeowners on Scotland Road and Mead Street know this pattern intimately -- their [South Orange](/roofing-in-south-orange-nj) bungalows develop green moss carpets within two to three years of cleaning if preventive treatments are not applied.',
     'Slate roofs in South Orange face a different biological challenge. While slate itself is impervious to moss root penetration, the mortar joints at ridges and hips, the sealant beds around flashings, and the debris that accumulates in valleys all provide growth substrates. Moss colonies on slate are primarily an aesthetic and drainage concern rather than a structural one, but homeowners in the Montrose Park section maintain their slate roofs to visual standards that require periodic cleaning. The cleaning method matters enormously -- pressure washing that is standard practice on concrete surfaces will destroy the surface texture of natural slate and force water beneath course overlaps.',
     'Our cleaning approach for South Orange roofs follows the Asphalt Roofing Manufacturers Association and material-specific guidelines that prohibit high-pressure washing on all roofing surfaces. We use low-pressure application of biodegradable cleaning solutions calibrated to the specific material, followed by gentle rinsing that removes growth without damaging the roof surface. The goal is biological removal and prevention, not the cosmetic blast-cleaning that pressures contractors often deliver at the cost of reduced material lifespan.'
@@ -35,7 +35,25 @@ export const southOrangeRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'What causes the black streaks on my asphalt shingle roof?',
       answer: 'Black streaks are colonies of Gloeocapsa magma, a blue-green algae that feeds on the limestone filler in asphalt shingles. It is purely cosmetic and does not damage the shingles structurally, but it reduces curb appeal significantly. Our treatment removes existing streaks and the zinc strip installation we recommend provides ongoing prevention. Algae-resistant shingle products are available for homeowners who want built-in protection when their next roof replacement is scheduled.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in South Orange, NJ?',
+      answer: 'Most roof cleaning moss removal projects in South Orange range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in South Orange NJ -- gentle treatment for slate, cedar shake, and shingle roofs beneath the village canopy.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

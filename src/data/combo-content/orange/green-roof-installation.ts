@@ -4,7 +4,7 @@ export const orangeGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'orange',
   overview: [
-    'Green roof installation in Orange addresses two challenges simultaneously: the urban heat island effect that pushes summer temperatures higher in densely built areas, and the stormwater management burden that overwhelms municipal drainage during heavy rain events -- particularly in the low-lying Valley neighborhood where runoff from South Mountain concentrates. Our [green roof installation](/green-roof-installation) projects in Orange transform unproductive flat roof surfaces into living systems that absorb rainfall, reduce cooling costs, and extend membrane lifespan by shielding the waterproofing layer from UV radiation and thermal cycling.',
+    'Newark Quality Roofing delivers expert green roof installation in Orange — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Orange addresses two challenges simultaneously: the urban heat island effect that pushes summer temperatures higher in densely built areas, and the stormwater management burden that overwhelms municipal drainage during heavy rain events -- particularly in the low-lying Valley neighborhood where runoff from South Mountain concentrates. Our [green roof installation](/green-roof-installation) projects in Orange transform unproductive flat roof surfaces into living systems that absorb rainfall, reduce cooling costs, and extend membrane lifespan by shielding the waterproofing layer from UV radiation and thermal cycling.',
     'Orange\'s revitalizing Main Street corridor presents natural opportunities for green roof integration on new mixed-use development. As the city invests in streetscape improvements and attracts new commercial and residential construction, green roofs align with the vision of a more sustainable urban core. The vegetation layer on a Main Street mixed-use building provides an amenity that distinguishes the property in Orange\'s competitive rental market while delivering measurable reductions in stormwater runoff that help the city meet state environmental mandates. [Newark](/green-roof-installation-newark-nj)\'s downtown has demonstrated similar green roof benefits on its mixed-use projects.',
     'The institutional buildings along Park Avenue and throughout Orange\'s civic center represent another strong candidate pool for green roof installation. Churches, the library, and community centers can showcase environmental stewardship to their constituencies while benefiting from reduced heating and cooling costs. The insulation value of a green roof assembly -- growing medium plus vegetation -- provides R-values that supplement the building\'s existing thermal envelope, reducing energy costs year-round and extending the service life of HVAC equipment.'
   ],
@@ -34,7 +34,25 @@ export const orangeGreenRoofInstallation: ComboContent = {
     {
       question: 'Do green roofs help with stormwater in Orange\'s Valley neighborhood?',
       answer: 'Yes. Green roofs absorb 50 to 80% of rainfall, significantly reducing the volume and rate of stormwater runoff. For Valley neighborhood buildings where stormwater management is already stressed, green roofs reduce the burden on municipal drainage. The retained water is released slowly through evapotranspiration rather than flowing immediately into overtaxed storm drains.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Orange, NJ?',
+      answer: 'Most green roof installation projects in Orange range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Orange NJ -- stormwater management, Main Street mixed-use projects, structural assessment, and Valley drainage solutions.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

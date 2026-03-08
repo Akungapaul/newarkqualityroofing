@@ -4,7 +4,7 @@ export const caldwellCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'caldwell',
   overview: [
-    'Commercial roof installation in Caldwell serves a building market that bears little resemblance to the warehouses, office towers, and institutional campuses of Newark or the sprawling industrial parks along Route 46 in Fairfield. Caldwell\'s commercial inventory is intimate in scale -- a dentist office on Bloomfield Avenue, a real estate agency in a converted colonial, a pizza shop anchoring a small strip of storefronts, the borough library, a church fellowship hall. These buildings range from 1,500 to 10,000 square feet of roof area, and their owners are local people who live in the community, know their tenants by name, and make capital decisions based on practical value rather than portfolio optimization formulas.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Caldwell — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Caldwell serves a building market that bears little resemblance to the warehouses, office towers, and institutional campuses of Newark or the sprawling industrial parks along Route 46 in Fairfield. Caldwell\'s commercial inventory is intimate in scale -- a dentist office on Bloomfield Avenue, a real estate agency in a converted colonial, a pizza shop anchoring a small strip of storefronts, the borough library, a church fellowship hall. These buildings range from 1,500 to 10,000 square feet of roof area, and their owners are local people who live in the community, know their tenants by name, and make capital decisions based on practical value rather than portfolio optimization formulas.',
     'The small scale of Caldwell commercial buildings changes the calculus of roof system selection in important ways. On a 3,000-square-foot retail roof, the material cost difference between TPO, EPDM, and modified bitumen is measured in hundreds of dollars, not tens of thousands. What matters more at this scale is the quality of detail work -- how well the membrane is terminated at parapet walls, how carefully HVAC penetrations are flashed, how thoroughly drainage is addressed on a roof with only two scuppers. A system that is technically superior on a 50,000-square-foot warehouse may be poorly suited to a small building where ninety percent of the installation is detail work rather than open-field membrane.',
     'Caldwell building owners value the relationship dimension of commercial roofing work more than building owners in larger markets. A Bloomfield Avenue shop owner wants to know who is going to be on their roof, wants a phone number they can call directly when a question comes up two years after installation, and wants the confidence that the contractor will still be in business and accessible when a warranty issue arises a decade from now. We serve this expectation with consistent crew assignments, direct project manager access, and the kind of responsive follow-up service that large commercial roofing outfits -- structured for volume and efficiency -- rarely provide to small-building clients.',
     'Municipal and institutional buildings round out Caldwell\'s commercial roof installation needs. Borough Hall, the fire station, the public works garage, and community buildings operate under public procurement requirements that add administrative steps but do not change the fundamental roofing work. We maintain the prevailing wage certifications, insurance documentation, and bid preparation capacity that municipal projects require, and we bring the same small-project attentiveness to public buildings that we provide to private commercial clients. In a borough the size of Caldwell, the building department inspector, the DPW superintendent, and the roofing contractor are all part of the same small community.'
@@ -36,7 +36,25 @@ export const caldwellCommercialRoofInstallation: ComboContent = {
     {
       question: 'What warranty comes with a commercial roof installation in Caldwell?',
       answer: 'Our Caldwell commercial installations carry a manufacturer material warranty of 15 to 25 years depending on the system and warranty level selected, plus our separate workmanship warranty covering installation quality. For TPO systems, we offer standard manufacturer warranties and enhanced NDL warranties that cover all repair costs including labor for the warranty term. We recommend the NDL warranty for Caldwell building owners who want complete cost certainty for the roof system lifespan. We handle all warranty registration and provide documentation for your building files.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Caldwell, NJ?',
+      answer: 'Most commercial roof installation projects in Caldwell range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Caldwell NJ -- TPO, EPDM, and modified bitumen for Bloomfield Avenue shops, offices, and municipal buildings.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

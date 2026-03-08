@@ -4,7 +4,7 @@ export const essexFellsSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'essex-fells',
   overview: [
-    'Spray polyurethane foam roofing in Essex Fells serves specialized estate applications where its unique combination of seamless waterproofing, integrated insulation, and conformal application addresses roof geometries that conventional membrane systems cannot efficiently cover. Irregular roof shapes on estate auxiliary buildings, complex multi-level roof transitions, and structures requiring significant insulation upgrades without interior disruption benefit from SPF\'s ability to create a monolithic waterproofing and insulation envelope applied directly to the existing roof surface.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Essex Fells — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing in Essex Fells serves specialized estate applications where its unique combination of seamless waterproofing, integrated insulation, and conformal application addresses roof geometries that conventional membrane systems cannot efficiently cover. Irregular roof shapes on estate auxiliary buildings, complex multi-level roof transitions, and structures requiring significant insulation upgrades without interior disruption benefit from SPF\'s ability to create a monolithic waterproofing and insulation envelope applied directly to the existing roof surface.',
     'The borough\'s exclusively residential character limits spray foam roofing to the estate and institutional contexts that define all construction activity in Essex Fells. Unlike the commercial and industrial applications in [Newark](/spray-foam-roofing-newark-nj) where SPF covers large warehouse and factory roofs, Essex Fells applications involve smaller structures -- typically 400 to 1,500 square feet -- where the material\'s conformability and insulation value justify its cost premium over conventional flat-roof membranes. Estate greenhouse structures, storage buildings with deteriorated existing roofs, and historical structures where interior insulation modification is impractical represent the primary SPF opportunities in the borough.',
     'Our spray foam roofing practice in [Essex Fells](/roofing-in-essex-fells-nj) addresses the environmental and community-impact considerations that residential application demands. SPF installation involves chemical spraying operations that generate overspray, require ventilation clearance, and produce temporary odor. We implement containment measures, wind-condition scheduling, and neighbor notification protocols that commercial SPF applicators operating in industrial areas do not typically require. These community-sensitive practices ensure that the technical benefits of spray foam roofing are delivered without the environmental disruption inappropriate for an exclusively residential borough.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsSprayFoamRoofing: ComboContent = {
     {
       question: 'What is the insulation value of spray foam roofing?',
       answer: 'Closed-cell spray polyurethane foam provides R-6 to R-7 per inch of thickness. A typical two-inch application delivers R-12 to R-14, significantly improving thermal performance on estate structures originally built without roof insulation. Thicker applications can achieve higher R-values within the structural weight capacity of the building. The foam\'s seamless application eliminates the thermal bridging that occurs with board insulation at joints and fastener points, providing effective insulation performance that exceeds the nominal R-value of equivalent thickness rigid board systems.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Essex Fells, NJ?',
+      answer: 'Most spray foam roofing projects in Essex Fells range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Essex Fells NJ -- seamless SPF systems for estate auxiliary structures with containment and community protocols.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

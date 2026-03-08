@@ -4,7 +4,7 @@ export const northCaldwellRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Replacing a roof in North Caldwell is an undertaking that reflects the elevated scale of everything in this exclusive borough. Properties here feature 4,000 to 10,000 square feet of living space beneath roof systems that can exceed 6,000 square feet of surface area -- multi-level structures with intersecting ridgelines, dormer clusters, covered entryways, and attached multi-bay garages, each adding geometric complexity that standard roofing crews rarely encounter. A full [roof replacement](/roof-replacement) on a North Caldwell estate is a multi-week project requiring detailed planning, premium material sourcing, and crews trained in the high-end techniques these homes demand.',
+    'Newark Quality Roofing delivers expert roof replacement in North Caldwell — with prices starting from $8,500–$25,000+ and free estimates available today. Replacing a roof in North Caldwell is an undertaking that reflects the elevated scale of everything in this exclusive borough. Properties here feature 4,000 to 10,000 square feet of living space beneath roof systems that can exceed 6,000 square feet of surface area -- multi-level structures with intersecting ridgelines, dormer clusters, covered entryways, and attached multi-bay garages, each adding geometric complexity that standard roofing crews rarely encounter. A full [roof replacement](/roof-replacement) on a North Caldwell estate is a multi-week project requiring detailed planning, premium material sourcing, and crews trained in the high-end techniques these homes demand.',
     'Material selection for North Caldwell roof replacement begins with the home\'s architectural identity. Tudor estates along Grandview Avenue call for natural slate or premium synthetic slate that honors the period character. Sprawling contemporaries on wooded lots suit standing-seam metal or designer architectural shingles in bold profiles. Colonial homes along Mountain Avenue pair beautifully with premium dimensional shingles from the GAF Grand Sequoia or CertainTeed Grand Manor lines -- products whose thick, layered profiles create the shadow depth appropriate for distinguished properties. Homeowners in neighboring [Caldwell](/roof-replacement-caldwell-nj) have different architectural profiles, but we bring the same material expertise to every project.',
     'North Caldwell\'s one-acre-plus lots provide generous staging and access space that simplifies the logistics of large-scale roof replacement. Material deliveries can be staged on the driveway without blocking the street, and crane access for ridge-loading heavy pallets is typically unobstructed. This logistical advantage allows our crews to work efficiently across the large roof surfaces without the access constraints that complicate projects in denser communities. The spacious lots also permit proper debris containment with ground tarps, dump trailers positioned close to the work area, and magnetic sweep coverage across the full property perimeter.',
     'Every North Caldwell roof replacement includes comprehensive system upgrades beyond the surface material. We assess and upgrade attic ventilation to meet current code requirements, extend ice-and-water shield membrane across all eave lines, valleys, and penetration zones, install synthetic underlayment across the full deck, and replace fascia and drip edge with premium materials that complement the new roof. For homes with existing copper gutters or accent roofing, we coordinate replacement timing to ensure seamless integration between the new roof system and retained architectural metalwork.'
@@ -36,7 +36,25 @@ export const northCaldwellRoofReplacement: ComboContent = {
     {
       question: 'How do you protect the landscaping during a roof replacement on a large property?',
       answer: 'We create a comprehensive site protection plan for every North Caldwell project. Specimen trees and plantings near the building perimeter receive plywood shields. Ground tarps catch debris at the eave line. We use dump trailers rather than ground-level debris piles to minimize lawn impact. At project completion, we restore any disturbed areas and conduct a full property walkthrough with the homeowner to verify that grounds, driveways, and hardscaping are in pre-project condition.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most roof replacement projects in North Caldwell range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'North Caldwell NJ roof replacement for estate homes -- premium slate, designer shingles, and copper accents on large custom properties.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

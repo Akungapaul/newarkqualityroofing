@@ -4,7 +4,7 @@ export const veronaModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'verona',
   overview: [
-    'Modified bitumen roofing delivers multi-layer waterproofing protection that Verona commercial property owners value for its redundancy, puncture resistance, and proven performance on flat and low-slope roofs. The material combines the time-tested waterproofing properties of asphalt with polymer modifiers -- SBS or APP -- that provide flexibility at low temperatures and resistance to high-temperature flow. For Verona\'s Bloomfield Avenue commercial buildings, municipal facilities, and mixed-use structures, modified bitumen provides the heavy-duty protection that single-ply membranes cannot match in high-traffic environments.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Verona — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing delivers multi-layer waterproofing protection that Verona commercial property owners value for its redundancy, puncture resistance, and proven performance on flat and low-slope roofs. The material combines the time-tested waterproofing properties of asphalt with polymer modifiers -- SBS or APP -- that provide flexibility at low temperatures and resistance to high-temperature flow. For Verona\'s Bloomfield Avenue commercial buildings, municipal facilities, and mixed-use structures, modified bitumen provides the heavy-duty protection that single-ply membranes cannot match in high-traffic environments.',
     'Newark Quality Roofing installs torch-applied, cold-adhesive, and self-adhered modified bitumen systems across Verona, selecting the application method based on the building\'s fire exposure rating, deck type, and occupancy conditions. Torch-applied SBS modified bitumen remains the gold standard for waterproofing performance, creating a molten bond between layers that rivals poured-in-place systems. For occupied buildings where open flame is restricted, our cold-adhesive and self-adhered [modified bitumen](/modified-bitumen-roofing) alternatives deliver comparable performance without the fire risk of torch application.',
     'The multi-layer construction of modified bitumen creates inherent redundancy: even if the cap sheet suffers localized damage, the underlying base sheet and interply membranes maintain the waterproofing envelope. This layered defense appeals to Verona property managers who need roofing that tolerates foot traffic from maintenance personnel, withstands dropped tools during HVAC service visits, and continues performing even after isolated impact damage. Building owners in [Bloomfield](/modified-bitumen-roofing-bloomfield-nj) along the same commercial corridor rely on modified bitumen for identical traffic-tolerance reasons.'
   ],
@@ -34,7 +34,25 @@ export const veronaModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Can modified bitumen be applied over my existing Verona commercial roof?',
       answer: 'Modified bitumen can be applied over some existing smooth-surface roofs if the current system is well-adhered, dry, and structurally sound. We perform adhesion tests and infrared moisture scanning to evaluate the existing roof before recommending overlay. If moisture is present in the existing system, the trapped water will blister the new installation and must be removed first. In most cases, full tear-off produces a more reliable result and qualifies for the strongest manufacturer warranty.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Verona, NJ?',
+      answer: 'Most modified bitumen roofing projects in Verona range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Verona NJ -- multi-layer commercial flat roof systems with torch-applied and cold-adhesive options.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

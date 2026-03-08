@@ -4,7 +4,7 @@ export const essexFellsEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'essex-fells',
   overview: [
-    'Energy efficient roofing in Essex Fells addresses the substantial heating and cooling costs that large estate homes generate across the borough\'s four-season climate. The architect-designed residences along Fells Road, Hawthorne Avenue, and Devon Road -- often exceeding 5,000 square feet with cathedral ceilings, multi-wing layouts, and extensive window walls -- consume energy at rates where roofing system improvements produce measurable reductions in annual utility expenditure. Unlike the urban density-driven energy concerns in [Newark](/energy-efficient-roofing-solutions-newark-nj), Essex Fells energy efficiency is driven by the sheer scale of conditioned space beneath expansive roof planes.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Essex Fells — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing in Essex Fells addresses the substantial heating and cooling costs that large estate homes generate across the borough\'s four-season climate. The architect-designed residences along Fells Road, Hawthorne Avenue, and Devon Road -- often exceeding 5,000 square feet with cathedral ceilings, multi-wing layouts, and extensive window walls -- consume energy at rates where roofing system improvements produce measurable reductions in annual utility expenditure. Unlike the urban density-driven energy concerns in [Newark](/energy-efficient-roofing-solutions-newark-nj), Essex Fells energy efficiency is driven by the sheer scale of conditioned space beneath expansive roof planes.',
     'The borough\'s mature hardwood canopy provides natural cooling that moderates the impact of roof reflectivity -- the primary energy-efficiency strategy on sun-exposed commercial buildings. Instead, Essex Fells energy roofing focuses on thermal barrier performance: insulation upgrades during re-roofing projects, radiant barrier installation beneath roof decking, and ventilation optimization that reduces attic heat buildup in the summer months and moisture accumulation during winter. These strategies work with the canopy shade rather than attempting to replicate its cooling effect through reflective surface treatments.',
     'Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) for Essex Fells integrate thermal performance improvements into every re-roofing and major repair project we execute. When the roof surface is open during a slate, shake, or shingle replacement, the opportunity to upgrade underlayment, add rigid insulation, install radiant barriers, and improve ventilation capacity represents the most cost-effective window for energy improvements. Treating energy efficiency as a standard component of re-roofing rather than a separate retrofit project reduces both cost and construction disruption on estate properties where minimizing activity duration is a priority.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'How do you improve insulation in cathedral ceiling areas?',
       answer: 'Cathedral ceiling insulation can be improved from exterior during re-roofing by adding continuous rigid insulation above the existing roof deck. For non-re-roofing situations, dense-pack cellulose or spray foam can be injected through small access holes in the ceiling or exterior soffit, filling rafter bays without removing finished ceiling surfaces. The injection approach requires precise filling to avoid compressing existing insulation or creating voids. We use thermal imaging after injection to verify complete coverage and identify any areas requiring supplemental treatment.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Essex Fells, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Essex Fells range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in Essex Fells NJ -- thermal upgrades, insulation, and ventilation for large estate homes during re-roofing.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

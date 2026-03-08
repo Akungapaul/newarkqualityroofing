@@ -4,7 +4,7 @@ export const westOrangeResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'west-orange',
   overview: [
-    'Residential roof installation in West Orange requires an elevation-first planning approach absent from flat-terrain communities. The township rises nearly 500 feet from valley floor to Eagle Rock ridge, and material performance varies dramatically across that gradient. A standard architectural shingle installation that delivers a reliable 25-year lifespan on a Pleasant Valley ranch may fail in 18 years on an exposed Eagle Rock colonial where sustained wind loads and intensified UV exposure accelerate material degradation. Our [residential roof installation](/residential-roof-installation) specifications are calibrated to each property\'s specific position on this elevation spectrum.',
+    'Newark Quality Roofing delivers expert residential roof installation in West Orange — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in West Orange requires an elevation-first planning approach absent from flat-terrain communities. The township rises nearly 500 feet from valley floor to Eagle Rock ridge, and material performance varies dramatically across that gradient. A standard architectural shingle installation that delivers a reliable 25-year lifespan on a Pleasant Valley ranch may fail in 18 years on an exposed Eagle Rock colonial where sustained wind loads and intensified UV exposure accelerate material degradation. Our [residential roof installation](/residential-roof-installation) specifications are calibrated to each property\'s specific position on this elevation spectrum.',
     'West Orange\'s architectural diversity demands installation versatility that few roofing contractors can offer. Valley-floor neighborhoods feature straightforward ranch and cape rooflines that install efficiently with standard techniques. The mid-slope corridor hosts thousands of split-levels with multi-plane geometries requiring specialized transition flashing. Estate neighborhoods like Llewellyn Park and St. Cloud call for premium material installations -- natural slate, copper standing seam, and designer shingles -- that demand craftsmanship training beyond standard residential certification. We maintain installation crews skilled in every category because in West Orange, a single day\'s schedule may cross all three.',
     'New construction and major renovation installations in West Orange have accelerated in recent years as aging mid-century housing stock transitions to modern ownership. Many new installations involve converting simple rooflines to more complex contemporary designs with dormers, shed additions, and mixed-pitch planes that increase both curb appeal and installation complexity. Our design consultation for new installations addresses both aesthetic preferences and the elevation-specific performance requirements that [West Orange](/roofing-in-west-orange-nj) terrain imposes on every material choice.',
     'Installation timing matters in West Orange more than in sheltered communities. Ridge-top properties benefit from spring and early summer installation when wind conditions are most moderate, avoiding the nor\'easter season that begins in October and the thunderstorm window from June through September. Valley-floor installations have wider seasonal flexibility but should avoid the wet spring months when saturated soil conditions complicate material delivery and staging. Homeowners in nearby [Montclair](/residential-roof-installation-montclair-nj) enjoy more forgiving installation windows thanks to lower average wind exposure.'
@@ -35,7 +35,25 @@ export const westOrangeResidentialRoofInstallation: ComboContent = {
     {
       question: 'Can you install a new roof on a steep hillside lot?',
       answer: 'Yes. We install roofs on West Orange hillside properties regularly, using crane-assisted rooftop material delivery, anchor-based safety systems for crew access, and specialized debris management for sloped lots. Properties along Northfield Avenue and upper Gregory Avenue frequently require these adaptations. The logistics add one to two days and a modest cost premium to the installation, but the result meets the same quality standards as flat-lot installations. We include hillside logistics in every estimate so costs are transparent from the start.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in West Orange, NJ?',
+      answer: 'Most residential roof installation projects in West Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in West Orange NJ. Elevation-calibrated materials from valley ranches to Eagle Rock estates and Llewellyn Park.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

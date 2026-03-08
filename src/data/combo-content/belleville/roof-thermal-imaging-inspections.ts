@@ -4,7 +4,7 @@ export const bellevilleRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'belleville',
   overview: [
-    'Thermal imaging inspection reveals what visual inspection cannot see on Belleville\'s commercial flat roofs: the subsurface moisture trapped within the roof assembly that silently degrades insulation, corrodes metal decking, and weakens structural components long before water appears inside the building. Infrared cameras detect temperature differentials between dry and wet insulation zones, producing a heat map that precisely locates moisture infiltration areas that would remain invisible until catastrophic failure during standard visual inspection.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Belleville — with prices starting from $300–$700 and free estimates available today. Thermal imaging inspection reveals what visual inspection cannot see on Belleville\'s commercial flat roofs: the subsurface moisture trapped within the roof assembly that silently degrades insulation, corrodes metal decking, and weakens structural components long before water appears inside the building. Infrared cameras detect temperature differentials between dry and wet insulation zones, producing a heat map that precisely locates moisture infiltration areas that would remain invisible until catastrophic failure during standard visual inspection.',
     'For Belleville commercial building owners managing roofs on the Washington Avenue corridor and Belleville Turnpike industrial zone, thermal imaging transforms reactive roof management into proactive maintenance. Rather than waiting for leaks to appear and damage interior finishes, equipment, or inventory, thermal imaging identifies moisture at the earliest stage of infiltration. Targeted repair of the small wet zone costs a fraction of the emergency response and interior restoration that an undetected leak eventually demands.',
     'Our [thermal imaging](/roof-thermal-imaging-inspections) inspections in Belleville are conducted during specific weather conditions that maximize diagnostic accuracy. The optimal window is during the evening hours after a sunny day, when the roof surface is cooling and the thermal mass difference between dry insulation (which cools quickly) and wet insulation (which retains heat) creates maximum contrast on the infrared image. We schedule Belleville inspections during these optimal conditions, ensuring the diagnostic data we produce accurately reflects actual roof conditions.',
     'Thermal imaging is particularly valuable during pre-purchase due diligence on Belleville commercial properties. A buyer considering a Washington Avenue storefront or Turnpike warehouse can commission a thermal survey that reveals the true condition of the roof assembly, providing negotiating leverage when the survey identifies moisture problems that the seller\'s visual inspection did not disclose. The thermal report becomes a documented baseline that the new owner uses for ongoing maintenance planning across Belleville\'s commercial inventory and similar buildings in [Newark](/roof-thermal-imaging-inspections-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleRoofThermalImagingInspections: ComboContent = {
     {
       question: 'When is the best time for a thermal roof inspection in Belleville?',
       answer: 'The optimal time is during evening hours (after sunset) following a sunny day with no rain for at least 48 hours. These conditions create maximum temperature contrast between dry and wet insulation zones. We schedule all Belleville thermal inspections during these optimal windows, typically between April and October when evening temperatures are above 50 degrees and daylight heating has been sufficient.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Belleville, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Belleville range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Belleville NJ. Infrared moisture detection for commercial flat roofs on Washington Avenue and the Belleville Turnpike.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

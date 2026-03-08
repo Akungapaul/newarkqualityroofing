@@ -4,7 +4,7 @@ export const nutleyTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'nutley',
   overview: [
-    'Tile roof replacement in Nutley serves the select residential properties where clay or concrete tile installations have reached the deterioration point where individual tile replacement can no longer maintain weather integrity. While tile roofing is less prevalent in Nutley than asphalt shingles or slate, the township\'s Mediterranean-influenced homes, Spanish Revival properties, and custom-built residences along the more established streets feature clay barrel tile and flat concrete tile installations that require specialized replacement expertise. Our [tile roof replacement](/tile-roof-replacement) projects in Nutley preserve the distinctive silhouette that sets tile-roofed homes apart from the surrounding Colonial and Tudor streetscape.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Nutley — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Nutley serves the select residential properties where clay or concrete tile installations have reached the deterioration point where individual tile replacement can no longer maintain weather integrity. While tile roofing is less prevalent in Nutley than asphalt shingles or slate, the township\'s Mediterranean-influenced homes, Spanish Revival properties, and custom-built residences along the more established streets feature clay barrel tile and flat concrete tile installations that require specialized replacement expertise. Our [tile roof replacement](/tile-roof-replacement) projects in Nutley preserve the distinctive silhouette that sets tile-roofed homes apart from the surrounding Colonial and Tudor streetscape.',
     'Clay tile deterioration in Nutley\'s freeze-thaw climate follows a predictable pattern. Hairline cracks from ice expansion allow water infiltration that deepens existing fractures during subsequent freeze cycles. Over decades, the accumulated damage produces spalling -- surface layers flaking away from the tile body -- that compromises both water-shedding performance and structural attachment. Homeowners in [Montclair](/tile-roof-replacement-montclair-nj) and [West Orange](/tile-roof-replacement-west-orange-nj) observe identical deterioration patterns on their tile installations, driven by the same northern New Jersey climate conditions that make tile roofing more maintenance-intensive here than in the warmer climates where tile is the dominant material.',
     'Replacement options for [Nutley](/roofing-in-nutley-nj) tile roofs include genuine clay tile from domestic and imported sources, concrete tile that replicates clay profiles at reduced cost, and synthetic tile products from companies like Brava that deliver the barrel-tile silhouette with polymer composite materials weighing a fraction of genuine clay. Each option carries distinct trade-offs in appearance, weight, longevity, and cost that we review during the in-home consultation.'
   ],
@@ -34,7 +34,25 @@ export const nutleyTileRoofReplacement: ComboContent = {
     {
       question: 'Can tile roofs handle Nutley winters?',
       answer: 'Yes, with proper installation. The batten-and-counter-batten system creates an air space beneath tiles that allows freeze-thaw moisture to drain rather than accumulate. Premium clay tiles rated for freeze-thaw cycling perform reliably in New Jersey\'s climate. The underlayment system provides secondary protection when individual tiles crack during severe ice events. We select tile products specifically rated for northern climate installation.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Nutley, NJ?',
+      answer: 'Most tile roof replacement projects in Nutley range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Nutley NJ -- clay, concrete, and synthetic tile with structural engineering and freeze-thaw rated installation.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

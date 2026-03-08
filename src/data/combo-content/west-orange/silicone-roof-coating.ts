@@ -4,7 +4,7 @@ export const westOrangeSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'west-orange',
   overview: [
-    'Silicone roof coating restores aging commercial flat roofs in West Orange without the expense and disruption of full membrane replacement, applying a seamless reflective barrier directly over existing roofing surfaces. Our [silicone roof coating](/silicone-roof-coating) projects in West Orange extend roof life by 10 to 15 years on commercial buildings along Pleasant Valley Way and Eagle Rock Avenue, transforming deteriorating dark membrane surfaces into reflective cool roofs that reduce energy costs while providing renewed waterproofing protection.',
+    'Newark Quality Roofing delivers expert silicone roof coating in West Orange — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating restores aging commercial flat roofs in West Orange without the expense and disruption of full membrane replacement, applying a seamless reflective barrier directly over existing roofing surfaces. Our [silicone roof coating](/silicone-roof-coating) projects in West Orange extend roof life by 10 to 15 years on commercial buildings along Pleasant Valley Way and Eagle Rock Avenue, transforming deteriorating dark membrane surfaces into reflective cool roofs that reduce energy costs while providing renewed waterproofing protection.',
     'The township\'s commercial building owners face a common decision point: replace an aging roof at significant cost, or restore it with coating technology at a fraction of the expense. Silicone coating is the correct choice when the existing membrane retains structural integrity but has lost surface protection to UV degradation, weathering, and biological growth. We perform diagnostic testing on every candidate roof to verify that coating restoration -- rather than replacement -- provides appropriate long-term value for the building owner\'s investment.',
     'West Orange\'s valley-floor commercial buildings benefit most from silicone coating\'s ponding-water tolerance. Unlike acrylic coatings that re-emulsify in standing water, silicone maintains full waterproofing performance in ponding conditions that valley-floor flat roofs experience during extended wet weather. This ponding resistance makes silicone the only coating technology we recommend for [West Orange](/roofing-in-west-orange-nj) commercial roofs without positive drainage slope, where competing coatings would fail at the precise locations needing the most protection.',
     'Ridge-top commercial buildings along Eagle Rock Avenue gain dual benefits from silicone coating: renewed waterproofing and reflective surface performance that reduces cooling loads during summer. The white silicone surface reflects 85 to 90 percent of solar radiation, reducing roof surface temperature by 50 to 70 degrees compared to aged dark membrane. Building owners near [Montclair](/silicone-roof-coating-montclair-nj) pursue similar coating restoration on their own aging commercial roofs.'
@@ -35,7 +35,25 @@ export const westOrangeSiliconeRoofCoating: ComboContent = {
     {
       question: 'How often does silicone coating need to be reapplied?',
       answer: 'Quality silicone coating provides 10 to 15 years of protection before recoating is needed. The recoating process is simpler than the original application because the existing silicone surface provides a compatible substrate that requires only cleaning and light preparation. Each recoat cycle extends roof life by another 10 to 15 years, making silicone coating a renewable maintenance strategy that can extend an existing commercial roof\'s total service life by 30 or more years through successive recoat applications.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in West Orange, NJ?',
+      answer: 'Most silicone roof coating projects in West Orange range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in West Orange NJ. Restore aging commercial flat roofs with reflective UV-resistant coating that tolerates ponding.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

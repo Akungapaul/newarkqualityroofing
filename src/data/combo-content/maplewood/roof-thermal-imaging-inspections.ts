@@ -4,7 +4,7 @@ export const maplewoodRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'maplewood',
   overview: [
-    'Roof thermal imaging inspections reveal hidden moisture infiltration, insulation deficiencies, and energy loss patterns that visual inspection alone cannot detect on Maplewood\'s commercial and institutional flat-roof buildings. Infrared cameras capture temperature differentials across the roof surface, with saturated insulation appearing as warm zones during evening cooling cycles when wet areas retain heat longer than dry sections. Our [thermal imaging inspections](/roof-thermal-imaging-inspections) in [Maplewood](/roofing-in-maplewood-nj) provide building owners with objective, data-driven assessment of roof system condition that informs repair, coating, or replacement decisions.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Maplewood — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections reveal hidden moisture infiltration, insulation deficiencies, and energy loss patterns that visual inspection alone cannot detect on Maplewood\'s commercial and institutional flat-roof buildings. Infrared cameras capture temperature differentials across the roof surface, with saturated insulation appearing as warm zones during evening cooling cycles when wet areas retain heat longer than dry sections. Our [thermal imaging inspections](/roof-thermal-imaging-inspections) in [Maplewood](/roofing-in-maplewood-nj) provide building owners with objective, data-driven assessment of roof system condition that informs repair, coating, or replacement decisions.',
     'Maplewood\'s institutional buildings benefit most from thermal imaging because their large flat-roof footprints make comprehensive visual inspection impractical and core-testing every suspected area cost-prohibitive. A single thermal imaging survey covers the entire roof in one session, producing a map of moisture distribution that identifies the scope of remediation needed. Building committees and facility managers use this data to budget accurately for repair or replacement, avoiding both the underestimation that leads to repeated failures and the overestimation that wastes limited capital.',
     'Pre-purchase commercial property inspections in Maplewood increasingly incorporate thermal imaging as buyers seek objective roof condition data before committing to acquisition. The thermal image provides evidence that supplements the traditional visual inspection with quantifiable moisture data, enabling more accurate capital expenditure projections and more informed negotiation. Commercial real estate advisors in [Bloomfield](/roof-thermal-imaging-inspections-bloomfield-nj) recommend the same thermal assessment for their commercial clients evaluating property acquisitions.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodRoofThermalImagingInspections: ComboContent = {
       question: 'How much does thermal imaging cost for a Maplewood commercial building?',
       answer: 'Thermal imaging inspection costs vary by roof size, typically ranging from $800 to $2,500 for Maplewood commercial buildings. The investment provides condition data that informs decisions worth tens of thousands of dollars, making it one of the highest-return assessments a building owner can commission. We include thermal imaging at no additional charge with commercial roof replacement proposals over $50,000.',
     },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Maplewood, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Maplewood range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Maplewood NJ. Infrared moisture detection for commercial and institutional flat-roof buildings.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const essexFellsEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'essex-fells',
   overview: [
-    'Emergency roof repair in Essex Fells confronts a unique combination of premium materials, remote access conditions, and homeowner expectations that elevates the urgency and complexity far beyond standard emergency response. When a nor\'easter tears copper ridge caps from a Fells Road estate or a fallen oak punches through hand-split cedar shakes on a Devon Road residence, the response must be immediate, the temporary protection must be effective, and the permanent repair must restore the original architectural standard without compromise. Our emergency protocol for Essex Fells accounts for these realities with pre-positioned materials, pre-authorized access arrangements, and crews trained specifically in slate, copper, and premium material emergency techniques.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Essex Fells — with prices starting from $500–$2,500 and free estimates available today. Emergency roof repair in Essex Fells confronts a unique combination of premium materials, remote access conditions, and homeowner expectations that elevates the urgency and complexity far beyond standard emergency response. When a nor\'easter tears copper ridge caps from a Fells Road estate or a fallen oak punches through hand-split cedar shakes on a Devon Road residence, the response must be immediate, the temporary protection must be effective, and the permanent repair must restore the original architectural standard without compromise. Our emergency protocol for Essex Fells accounts for these realities with pre-positioned materials, pre-authorized access arrangements, and crews trained specifically in slate, copper, and premium material emergency techniques.',
     'The borough\'s dense tree canopy -- the same wooded character that makes Essex Fells one of New Jersey\'s most desirable residential communities -- is also the primary source of emergency roof damage. Mature hardwoods towering eighty feet or more above rooflines become projectile hazards during severe thunderstorms, ice storms, and the occasional microburst that funnels through the Watchung ridgeline. A single large limb falling across a slate roof can crack dozens of irreplaceable slates along its impact path, while a trunk failure event can collapse entire roof sections and require structural emergency response beyond standard roofing scope.',
     'Response logistics in Essex Fells differ fundamentally from urban emergency calls. Properties accessed via winding, shoulderless roads and long private driveways require knowledge of the borough\'s geography that GPS routing cannot provide. Gate codes, tree-clearance heights on private drives, and the location of utility shut-offs on unfamiliar estates must be managed in real time during a crisis. We maintain a property database for our Essex Fells clients with access details, architectural material inventories, and contact information for property managers, architects, and alarm monitoring companies -- enabling rapid deployment even when the homeowner is traveling.',
     'Our [emergency roof repair](/emergency-roof-repair) capability for Essex Fells extends beyond the borough itself. Homeowners in neighboring [Caldwell](/emergency-roof-repair-caldwell-nj) and [North Caldwell](/emergency-roof-repair-north-caldwell-nj) benefit from the same pre-positioned materials and rapid-response protocols we developed for the most demanding estate properties in western Essex County.'
@@ -35,7 +35,25 @@ export const essexFellsEmergencyRoofRepair: ComboContent = {
     {
       question: 'Does my homeowner insurance cover emergency roof repair in Essex Fells?',
       answer: 'Most homeowner policies cover emergency repairs resulting from sudden events like storm damage or fallen trees. We document all damage thoroughly for your insurance claim and provide the detailed estimates that adjusters require. For Essex Fells properties with premium roofing materials, we ensure the claim reflects actual replacement costs for slate, copper, and cedar -- not generic roofing material pricing that would result in inadequate settlement.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Essex Fells, NJ?',
+      answer: 'Most emergency roof repair projects in Essex Fells range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Essex Fells NJ -- rapid response for estate properties with slate, copper, and cedar emergency protection protocols.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

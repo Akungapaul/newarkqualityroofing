@@ -4,7 +4,7 @@ export const southOrangeRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'south-orange',
   overview: [
-    'Roof overlay installation in South Orange Village provides a cost-saving alternative to full tear-off when the existing single-layer asphalt shingle roof is in conditions that support a second layer. The overlay approach installs new shingles directly over the existing surface, eliminating the labor, waste, and time associated with tear-off while delivering a fresh, warranted roofing surface. However, overlay suitability in South Orange depends on conditions that must be verified before this approach is recommended.',
+    'Newark Quality Roofing delivers expert roof overlay installation in South Orange — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in South Orange Village provides a cost-saving alternative to full tear-off when the existing single-layer asphalt shingle roof is in conditions that support a second layer. The overlay approach installs new shingles directly over the existing surface, eliminating the labor, waste, and time associated with tear-off while delivering a fresh, warranted roofing surface. However, overlay suitability in South Orange depends on conditions that must be verified before this approach is recommended.',
     'South Orange building codes, consistent with New Jersey residential building standards, permit a maximum of two roofing layers on residential structures. Homes that already carry two layers require full tear-off regardless of condition. Single-layer homes with flat, well-adhered existing shingles and sound decking beneath are the appropriate candidates for overlay -- a determination our inspection confirms before we recommend this approach.',
     'The overlay cost advantage is genuine but comes with trade-offs that South Orange homeowners should understand clearly. Overlay conceals the deck surface, preventing inspection and repair of deterioration that may exist beneath the existing shingles. Overlay adds weight to the roof structure, which matters on older South Orange homes where framing was sized for the original single-layer installation. Overlay produces a slightly less smooth surface than a tear-off installation, which can affect the appearance of premium designer shingles. Our [roof overlay](/roof-overlay-installation) consultation presents these trade-offs honestly.',
     'For South Orange homes where deck condition is known to be sound, where the existing single layer is flat and well-adhered, and where standard architectural shingles rather than premium designer profiles are planned, overlay provides genuine value. We do not recommend overlay on homes in [South Orange](/roofing-in-south-orange-nj) where the existing roof shows signs of underlying deck problems, where the homeowner is investing in premium materials, or where the home\'s architectural significance warrants the thoroughness that tear-off provides.'
@@ -35,7 +35,25 @@ export const southOrangeRoofOverlayInstallation: ComboContent = {
     {
       question: 'How long does a roof overlay last compared to a tear-off installation?',
       answer: 'When installed over a suitable existing surface, overlay shingles provide the same material lifespan as tear-off installations. The potential difference is that concealed deck problems beneath the overlay can shorten the system\'s effective life if moisture issues develop undetected. Properly vetted overlay candidates with confirmed sound decking achieve the full expected shingle lifespan.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in South Orange, NJ?',
+      answer: 'Most roof overlay installation projects in South Orange range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in South Orange NJ -- cost-effective second-layer shingle installation over existing single-layer roofs.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Tile roof replacement in South Orange Village restores the distinctive clay and concrete tile roofing that defines the village\'s Mediterranean Revival, Spanish Colonial, and Italian Renaissance homes from the 1920s building era. When original tile has deteriorated beyond repair or the underlayment beneath has failed systemically, replacement with new freeze-rated tile maintains the architectural authenticity that defines these South Orange properties.',
+    'Newark Quality Roofing delivers expert tile roof replacement in South Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in South Orange Village restores the distinctive clay and concrete tile roofing that defines the village\'s Mediterranean Revival, Spanish Colonial, and Italian Renaissance homes from the 1920s building era. When original tile has deteriorated beyond repair or the underlayment beneath has failed systemically, replacement with new freeze-rated tile maintains the architectural authenticity that defines these South Orange properties.',
     'The tile replacement decision in South Orange typically arrives when the 1920s-era underlayment beneath original clay tiles has deteriorated to the point where individual tile repairs no longer address the systemic waterproofing failure below the tile surface. The tiles themselves may remain structurally sound, but the felting and flashing beneath have reached the end of their century-long service. In these cases, replacement involves lifting and resetting salvageable original tiles on new underlayment rather than replacing the tile material itself.',
     'For situations where the original tile material has also deteriorated -- cracking from freeze-thaw cycling, spalling from moisture absorption, breakage from impact -- new tile replacement requires sourcing products that match the original profile and color while providing the freeze resistance that northern New Jersey\'s climate demands. Modern clay and concrete tiles from manufacturers like Ludowici and Boral offer freeze-rated formulations that outperform the original tiles while maintaining period-appropriate appearance.',
     'Our tile replacement work in [South Orange](/roofing-in-south-orange-nj) combines the roofing expertise needed for proper underlayment and flashing installation with the specialized tile handling skills that prevent breakage during removal, storage, and reinstallation of salvageable original material.'
@@ -35,7 +35,25 @@ export const southOrangeTileRoofReplacement: ComboContent = {
     {
       question: 'Is tile roof replacement cost-effective for my South Orange home?',
       answer: 'Tile replacement makes economic sense when the home\'s architectural style specifically calls for tile roofing and the homeowner values maintaining authentic character. The cost exceeds asphalt shingle and approaches natural slate pricing, but the 75-plus-year service life and unique aesthetic cannot be replicated by other materials. For homes where tile is architecturally integral, no alternative material achieves the same result.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in South Orange, NJ?',
+      answer: 'Most tile roof replacement projects in South Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in South Orange NJ -- clay and concrete tile for Mediterranean and Spanish Revival village homes.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

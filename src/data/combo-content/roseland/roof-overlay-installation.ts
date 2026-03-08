@@ -4,7 +4,7 @@ export const roselandRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'roseland',
   overview: [
-    'Roof overlay installation in Roseland applies new shingles directly over a single existing layer, providing a cost-effective re-roofing option for homes where the current deck is sound, only one shingle layer exists, and the homeowner prioritizes budget efficiency. Our [roof overlay installation](/roof-overlay-installation) service evaluates candidacy carefully because the decision to overlay rather than tear-off carries specific tradeoffs that Roseland homeowners should understand before committing to this approach.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Roseland — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Roseland applies new shingles directly over a single existing layer, providing a cost-effective re-roofing option for homes where the current deck is sound, only one shingle layer exists, and the homeowner prioritizes budget efficiency. Our [roof overlay installation](/roof-overlay-installation) service evaluates candidacy carefully because the decision to overlay rather than tear-off carries specific tradeoffs that Roseland homeowners should understand before committing to this approach.',
     'The financial advantage of overlay is straightforward -- eliminating tear-off labor, dumpster rental, and disposal costs reduces the total project cost by approximately 25 to 30 percent compared to full tear-off. For Roseland homeowners on tight budgets or those planning to sell the property within 10 to 15 years, the cost savings may outweigh the performance advantages of tear-off. However, the savings come at the expense of deck inspection, ice-and-water shield installation, and ventilation improvement that only tear-off allows.',
     'Candidacy evaluation is the critical first step. Overlay requires a single existing shingle layer in fair condition, a deck substrate without moisture damage, and adequate structural capacity for the doubled shingle weight. Homes with existing moisture problems, two or more shingle layers, or any deck deterioration indicators are not overlay candidates. We evaluate each Roseland home individually and recommend overlay only when conditions genuinely support it -- not as a default cost-saving approach. Homeowners in [Caldwell](/roof-overlay-installation-caldwell-nj) receive the same honest candidacy assessment.'
   ],
@@ -34,7 +34,25 @@ export const roselandRoofOverlayInstallation: ComboContent = {
     {
       question: 'Can I overlay and still add a ridge vent?',
       answer: 'Yes, ridge vent installation is possible during overlay by cutting through both the existing shingles and the ridge board to create the exhaust opening. This is one of the few ventilation improvements that overlay projects can accommodate. Soffit ventilation improvements, attic air sealing, and insulation upgrades require separate work that can be coordinated with the overlay project but performed from the attic side rather than the roof surface.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Roseland, NJ?',
+      answer: 'Most roof overlay installation projects in Roseland range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Roseland NJ -- new shingles over existing for cost savings with honest candidacy assessment.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'west-orange',
   overview: [
-    'West Orange stretches from the low-lying neighborhoods near the Orange border up through the first Watchung Mountain ridge, and that 500-foot elevation swing produces wildly different roof repair scenarios within a single township. A valley-floor cape in Pleasant Valley dealing with pooling water behind a clogged gutter bears almost no resemblance to an Eagle Rock colonial losing shingles to ridge-top wind gusts that regularly exceed 70 miles per hour during nor\'easters. Our [roof repair](/roof-repair) crews carry equipment and materials calibrated for both extremes, because in West Orange, the repair strategy changes with altitude.',
+    'Newark Quality Roofing delivers expert roof repair in West Orange — with prices starting from $350–$1,500 and free estimates available today. West Orange stretches from the low-lying neighborhoods near the Orange border up through the first Watchung Mountain ridge, and that 500-foot elevation swing produces wildly different roof repair scenarios within a single township. A valley-floor cape in Pleasant Valley dealing with pooling water behind a clogged gutter bears almost no resemblance to an Eagle Rock colonial losing shingles to ridge-top wind gusts that regularly exceed 70 miles per hour during nor\'easters. Our [roof repair](/roof-repair) crews carry equipment and materials calibrated for both extremes, because in West Orange, the repair strategy changes with altitude.',
     'The mid-slope corridor along Main Street and Gregory Avenue hosts the township\'s densest concentration of split-level and raised-ranch homes built during the 1960s housing boom. These multi-plane rooflines create waterproofing intersections where level changes meet -- the single most common leak point we repair in West Orange. Homeowners in neighboring [Montclair](/roof-repair-montclair-nj) share similar aging housing stock, but West Orange split-levels face the added complication of slope-driven water velocity that accelerates runoff across transitions during heavy rain events.',
     'Above the mid-slope neighborhoods, the Eagle Rock and St. Cloud areas present premium repair challenges on larger homes with complex roof geometries. Slate installations on turn-of-the-century estates in the Llewellyn Park historic district require historically informed repair techniques -- matching Pennsylvania black slate, hand-soldering copper flashings, and preserving decorative ridge cresting that has weathered more than a century of Essex County storms. These are repairs where material sourcing alone can take weeks, and craftsmanship standards leave zero margin for shortcuts.',
     'West Orange\'s mature hardwood canopy, particularly near South Mountain Reservation, creates persistent maintenance challenges that escalate into repair emergencies when neglected. Oak and maple leaves accumulate in valleys and behind dormers, trapping moisture against roofing materials and accelerating granule loss on asphalt shingles. In heavily shaded sections, moss colonies establish root networks that physically lift shingle edges, creating entry points for wind-driven rain. Homeowners near [Verona](/roof-repair-verona-nj) contend with similar tree canopy issues along the shared South Mountain border.'
@@ -35,7 +35,25 @@ export const westOrangeRoofRepair: ComboContent = {
     {
       question: 'Do Llewellyn Park homes require special repair materials?',
       answer: 'Yes. Llewellyn Park estates frequently feature slate roofs, copper flashings, and architectural details that demand historically appropriate repair materials and techniques. We source matching Pennsylvania black slate from Vermont quarries, hand-solder copper flashings using traditional methods, and preserve decorative ridge cresting rather than replacing it with modern substitutes. These repairs require specialized skills and longer timelines than standard residential work, but they maintain the historic integrity that defines America\'s first planned residential community.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in West Orange, NJ?',
+      answer: 'Most roof repair projects in West Orange range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'West Orange NJ roof repair from valley floor to Eagle Rock ridge. Elevation-specific solutions for split-levels, historic estates, and storm damage.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

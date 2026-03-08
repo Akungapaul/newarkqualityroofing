@@ -4,7 +4,7 @@ export const caldwellChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'caldwell',
   overview: [
-    'Chimney flashing repair ranks among the most common roof leak sources on Caldwell homes, where masonry chimneys penetrate through roof surfaces on colonials, capes, and ranch homes throughout the borough. The chimney-to-roof junction creates one of the most complex waterproofing details in residential construction -- a rectangular penetration through a sloped surface where four separate flashing conditions (front apron, two side step flashings, and rear cricket or saddle) must work together to channel water around the chimney mass and back onto the roof surface. When any element of this four-part system fails, water enters the building at a point where it can damage ceilings, walls, and structural framing.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Caldwell — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair ranks among the most common roof leak sources on Caldwell homes, where masonry chimneys penetrate through roof surfaces on colonials, capes, and ranch homes throughout the borough. The chimney-to-roof junction creates one of the most complex waterproofing details in residential construction -- a rectangular penetration through a sloped surface where four separate flashing conditions (front apron, two side step flashings, and rear cricket or saddle) must work together to channel water around the chimney mass and back onto the roof surface. When any element of this four-part system fails, water enters the building at a point where it can damage ceilings, walls, and structural framing.',
     'Caldwell\'s chimney flashing challenges stem from the age and construction methods of the borough\'s housing stock. Homes built in the 1950s through 1970s typically received minimal chimney flashing -- galvanized step flashing set in roofing cement against the chimney masonry, without the counter-flashing reglets and cricket structures that modern practice demands. After fifty-plus years of service, the roofing cement has cracked and separated from the masonry, the galvanized coating has corroded through, and water follows the path of least resistance into the building interior. These aging flashing systems account for a significant portion of the [roof leak repair](/roof-leak-repair-caldwell-nj) calls we receive from [Caldwell](/roofing-in-caldwell-nj) homeowners.',
     'Chimney cricket installation -- the diverter structure behind wide chimneys that prevents water and debris from accumulating at the rear chimney-to-roof junction -- is frequently absent on Caldwell homes. Chimneys wider than thirty inches should carry a cricket to divert water flow around the chimney rather than allowing it to pool behind the masonry mass. The absence of a cricket on a wide chimney virtually guarantees that leaf debris, ice, and water will accumulate at the rear junction and eventually breach the flashing. Adding a cricket during chimney reflashing is one of the most impactful improvements we make on Caldwell colonial roofs.'
   ],
@@ -34,7 +34,25 @@ export const caldwellChimneyFlashingRepair: ComboContent = {
     {
       question: 'How long does chimney flashing repair take on a Caldwell home?',
       answer: 'A complete chimney reflashing including cricket installation typically takes one full day on a standard Caldwell colonial. If masonry tuckpointing is required as a prerequisite, the masonry work adds a separate day. Complex multi-flue chimneys or situations requiring structural cricket framing may extend to a day and a half. We schedule chimney work during dry weather and complete the full flashing system before the end of the work day so the chimney junction is watertight overnight.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Caldwell, NJ?',
+      answer: 'Most chimney flashing repair projects in Caldwell range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Caldwell NJ -- step flashing, counter-flashing, and cricket installation for colonial and cape cod chimneys.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

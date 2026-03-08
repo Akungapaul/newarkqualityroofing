@@ -4,7 +4,7 @@ export const montclairSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'montclair',
   overview: [
-    'Solar shingle technology offers Montclair homeowners a resolution to the tension between renewable energy ambition and architectural preservation that traditional rack-mounted panels cannot provide. Where conventional solar panels mount above the roof surface on visible rail systems, solar shingles integrate into the roof plane itself -- generating electricity while presenting a profile that reads as a premium roofing material rather than an energy apparatus bolted to the house. For Montclair\'s historically significant homes where the Historic Preservation Commission scrutinizes rooftop modifications, and for architecturally conscious homeowners who resist the visual disruption of conventional panels, solar shingles represent the only solar technology that disappears into the roof rather than sitting on top of it.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Montclair — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology offers Montclair homeowners a resolution to the tension between renewable energy ambition and architectural preservation that traditional rack-mounted panels cannot provide. Where conventional solar panels mount above the roof surface on visible rail systems, solar shingles integrate into the roof plane itself -- generating electricity while presenting a profile that reads as a premium roofing material rather than an energy apparatus bolted to the house. For Montclair\'s historically significant homes where the Historic Preservation Commission scrutinizes rooftop modifications, and for architecturally conscious homeowners who resist the visual disruption of conventional panels, solar shingles represent the only solar technology that disappears into the roof rather than sitting on top of it.',
     'The aesthetic integration advantage is particularly compelling in a township where homes are viewed from uphill neighbors, Watchung Ridge overlooks, and street-level perspectives that make roof surfaces a prominent visual element of every property\'s presentation. Montclair\'s steep Victorian and Tudor roof pitches amplify the visibility issue -- conventional panels on a 12:12 pitch are essentially wall-mounted from the viewer\'s perspective, impossible to conceal or minimize. Solar shingles on the same pitch present a consistent roof surface that neighbors and the broader community see as a roofing choice rather than a technology installation.',
     'Our [solar shingle installation](/solar-shingle-installation) projects in [Montclair](/roofing-in-montclair-nj) are full roof replacement events -- the entire roof surface receives new material, with solar shingles on production-viable slopes and complementary non-solar shingles on shaded or north-facing slopes. This whole-roof approach eliminates the patchwork appearance that partial installations create and provides a complete roofing warranty alongside the energy production system. The result is a new roof that happens to generate electricity rather than a solar installation that happens to sit on an existing roof.',
     'Properties in [West Orange](/solar-shingle-installation-west-orange-nj) and [Glen Ridge](/solar-shingle-installation-glen-ridge-nj) share Montclair\'s architectural sensitivity to rooftop modifications, making solar shingles an increasingly discussed option across the western Essex County communities where housing aesthetics carry property value implications.'
@@ -35,7 +35,25 @@ export const montclairSolarShingleInstallation: ComboContent = {
     {
       question: 'What happens if a solar shingle is damaged on my Montclair roof?',
       answer: 'Individual damaged solar shingles can be replaced without disturbing the surrounding shingle field, similar to conventional shingle repair. The replacement shingle reconnects to the electrical system through the same wiring pathway as the original. Non-solar damage to the roof in areas covered by matching non-solar shingles is repaired using standard roofing repair procedures. The modular nature of solar shingle systems means that damage to one shingle reduces energy production by only that shingle\'s contribution rather than affecting the entire array, as can occur with series-wired conventional panel strings.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Montclair, NJ?',
+      answer: 'Most solar shingle installation projects in Montclair range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Montclair NJ -- integrated solar roofing for historic homes with HPC-compatible low-profile design.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

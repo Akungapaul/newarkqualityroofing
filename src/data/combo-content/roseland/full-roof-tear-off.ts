@@ -4,7 +4,7 @@ export const roselandFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'roseland',
   overview: [
-    'Full roof tear-off in Roseland strips every layer of existing roofing material down to the structural deck, providing the clean foundation that a new roof system requires for maximum performance and longevity. Many of the borough\'s mid-century homes carry two or even three layers of shingles accumulated over decades of overlay installations -- each layer adding weight, trapping moisture, and concealing deck deterioration that worsens invisibly beneath. Our [full roof tear-off](/full-roof-tear-off) service removes this accumulated burden and exposes the deck for the thorough inspection that overlay installations bypass.',
+    'Newark Quality Roofing delivers expert full roof tear off in Roseland — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off in Roseland strips every layer of existing roofing material down to the structural deck, providing the clean foundation that a new roof system requires for maximum performance and longevity. Many of the borough\'s mid-century homes carry two or even three layers of shingles accumulated over decades of overlay installations -- each layer adding weight, trapping moisture, and concealing deck deterioration that worsens invisibly beneath. Our [full roof tear-off](/full-roof-tear-off) service removes this accumulated burden and exposes the deck for the thorough inspection that overlay installations bypass.',
     'The rationale for full tear-off over overlay varies by property condition, but for most Roseland homes built during the 1950s and 1960s, tear-off is the recommended approach. Homes with existing double-layer shingles cannot accept another overlay under NJ building code. Homes with any sign of deck moisture, ventilation problems, or structural questions must be stripped for inspection. Even single-layer homes benefit from tear-off because it allows ice-and-water shield installation directly on the deck at eaves, valleys, and penetrations -- protection that overlay installations cannot provide.',
     'Debris management during tear-off on Roseland\'s residential lots requires the site discipline that suburban settings demand. Adjacent homes, driveways, landscaping, and vehicles must be protected from the falling material that tear-off generates. Our crews deploy tarps, plywood protection, and magnetic nail sweepers as standard practice, maintaining the property presentation that Roseland homeowners expect. Post-project cleanup includes adjacent property inspection for any stray material. Homeowners in [Verona](/full-roof-tear-off-verona-nj) and [Cedar Grove](/full-roof-tear-off-cedar-grove-nj) value the same site management standards.'
   ],
@@ -34,7 +34,25 @@ export const roselandFullRoofTearOff: ComboContent = {
     {
       question: 'Will tear-off damage my landscaping or driveway?',
       answer: 'Our property protection protocol prevents damage to landscaping, driveways, and adjacent property. Tarps cover planting beds and shrubs along the roofline. Plywood protects driveways at material loading points. Magnetic nail sweepers clear all accessible areas at the end of each day. We inspect adjacent properties for stray material as part of daily cleanup. If any damage occurs despite these precautions, we repair or replace the affected items.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Roseland, NJ?',
+      answer: 'Most full roof tear off projects in Roseland range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Roseland NJ -- complete shingle removal to the deck for proper inspection, repair, and new roof installation.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

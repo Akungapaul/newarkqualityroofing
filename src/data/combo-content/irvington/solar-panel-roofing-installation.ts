@@ -4,7 +4,7 @@ export const irvingtonSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'irvington',
   overview: [
-    'Solar panel roofing installation in Irvington connects the township\'s affordability-focused housing market with New Jersey\'s aggressive solar incentive programs that make panel installation financially attractive even on modest-value properties. Our [solar panel roofing](/solar-panel-roofing-installation) services coordinate roof replacement with panel installation so Irvington homeowners avoid the costly sequence of re-roofing a few years after solar installation -- a scenario that requires panel removal, re-roofing, and panel reinstallation at roughly double the labor cost.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in Irvington — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in Irvington connects the township\'s affordability-focused housing market with New Jersey\'s aggressive solar incentive programs that make panel installation financially attractive even on modest-value properties. Our [solar panel roofing](/solar-panel-roofing-installation) services coordinate roof replacement with panel installation so Irvington homeowners avoid the costly sequence of re-roofing a few years after solar installation -- a scenario that requires panel removal, re-roofing, and panel reinstallation at roughly double the labor cost.',
     'Irvington\'s roof geometry works in solar\'s favor. The hip-roofed colonials and south-facing Cape Cod slopes that dominate the township\'s housing stock provide adequate solar exposure on one or more roof planes despite the relatively compact lot sizes. While tree canopy shading reduces production on some properties, the majority of Irvington homes have sufficient unshaded roof area to generate meaningful solar output. Our site assessment includes shade analysis using satellite imagery and solar pathfinder measurements to verify that each Irvington installation will produce the electricity volumes that justify the investment.',
     'New Jersey\'s SREC-II program and federal Investment Tax Credit make solar installation financially viable for Irvington homeowners at income levels where solar would be unaffordable without incentives. Combined with zero-down financing options, Irvington homeowners can install solar with monthly payments lower than their current electric bill -- generating immediate savings from day one. Homeowners in neighboring [East Orange](/solar-panel-roofing-installation-east-orange-nj) access the same incentive programs, and the combined demand from these adjacent urban communities has created an active solar installation market across the northern Essex County urban core.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonSolarPanelRoofingInstallation: ComboContent = {
       question: 'Does solar installation affect my Irvington roof warranty?',
       answer: 'When we install both the roof and solar panels, our roof warranty covers the panel mounting penetrations. When panels are installed on an existing roof by our crew, we provide a separate penetration warranty covering the mounting points. Solar installations by other contractors on our roofs do not void our warranty but may not be covered for the penetration points they create.',
     },
+    {
+      question: 'How much does solar panel roofing installation cost in Irvington, NJ?',
+      answer: 'Most solar panel roofing installation projects in Irvington range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing in Irvington NJ with combined roof replacement and panel installation. NJ incentives make solar affordable for every homeowner.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

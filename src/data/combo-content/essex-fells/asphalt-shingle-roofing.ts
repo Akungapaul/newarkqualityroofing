@@ -4,7 +4,7 @@ export const essexFellsAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'essex-fells',
   overview: [
-    'Asphalt shingle roofing in Essex Fells occupies a specific niche within the borough\'s premium roofing landscape. While natural slate and copper define the borough\'s most prestigious estates, a significant number of Essex Fells homes -- particularly mid-century contemporaries, ranch-style properties, and newer custom builds -- carry architectural shingle systems that were either architect-specified for aesthetic compatibility or selected by homeowners who prefer the lower maintenance commitment that premium shingles offer compared to natural materials. The critical distinction is that shingle selection in Essex Fells means designer-series products with dimensional profiles, rich colorways, and enhanced performance characteristics -- not the builder-grade products installed in standard suburban developments.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Essex Fells — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roofing in Essex Fells occupies a specific niche within the borough\'s premium roofing landscape. While natural slate and copper define the borough\'s most prestigious estates, a significant number of Essex Fells homes -- particularly mid-century contemporaries, ranch-style properties, and newer custom builds -- carry architectural shingle systems that were either architect-specified for aesthetic compatibility or selected by homeowners who prefer the lower maintenance commitment that premium shingles offer compared to natural materials. The critical distinction is that shingle selection in Essex Fells means designer-series products with dimensional profiles, rich colorways, and enhanced performance characteristics -- not the builder-grade products installed in standard suburban developments.',
     'Designer shingle lines from GAF, CertainTeed, and Owens Corning offer profiles and color blends that architects increasingly approve for Essex Fells properties where the home\'s design language accommodates shingle rather than demanding natural stone or wood. GAF Grand Sequoia with its oversized exposure and dramatic shadow lines, CertainTeed Grand Manor with its hand-cut appearance, and Owens Corning Berkshire with its slate-inspired profile all provide aesthetic authority that standard architectural shingles cannot achieve. Selecting the right product for a specific home requires evaluating the shingle\'s visual scale against the roof\'s dimensions, its color compatibility with the home\'s exterior materials, and its performance ratings for the wind and impact exposure Essex Fells\' elevated terrain produces.',
     'Installation quality on designer shingles determines whether the product achieves its aesthetic potential or looks like an ordinary roof. The steep pitches, complex valley intersections, and elaborate dormer configurations common on Essex Fells homes require installation techniques that commodity roofing crews rarely execute properly -- hand-cut valley treatments rather than open-metal valleys, staggered coursing that avoids the repetitive pattern lines visible on standard installations, and custom starter course configurations that maintain clean lines at the rakes and eaves.',
     'Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations in Essex Fells meet the same quality standard we apply to every project in the borough -- architect-coordinated material selection, premium underlayment systems, and craftsmanship that honors the home\'s design intent. Homeowners in nearby [Verona](/asphalt-shingle-roofing-verona-nj) and throughout western Essex County benefit from this elevated approach to what is often treated as routine work elsewhere.'
@@ -35,7 +35,25 @@ export const essexFellsAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Do you offer financing for shingle roofing projects?',
       answer: 'We offer financing options through established lending partners with competitive rates and flexible terms. Designer-series shingle installations on Essex Fells homes typically range from $25,000 to $60,000 depending on roof area, complexity, and product selection. Financing allows homeowners to install the premium product their home deserves rather than compromising on a lower-tier shingle to manage upfront cost.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Essex Fells, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Essex Fells range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in Essex Fells NJ -- designer-series GAF, CertainTeed, and Owens Corning products with estate-quality installation.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

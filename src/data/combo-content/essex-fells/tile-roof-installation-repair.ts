@@ -4,7 +4,7 @@ export const essexFellsTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'essex-fells',
   overview: [
-    'Tile roofing in Essex Fells appears on a select group of Mediterranean-inspired and Spanish Colonial revival estates where architects specified clay or concrete tile as an integral element of the home\'s architectural vocabulary. These installations -- found primarily on the larger properties along Fells Road and the elevated lots overlooking the Caldwell reservation -- represent substantial structural investments, as genuine clay tile weighs eight to twelve pounds per square foot and demands roof framing engineered specifically for the load. Repair and replacement on these systems requires tile-specific expertise rarely called upon outside the borough\'s estate market.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Essex Fells — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Essex Fells appears on a select group of Mediterranean-inspired and Spanish Colonial revival estates where architects specified clay or concrete tile as an integral element of the home\'s architectural vocabulary. These installations -- found primarily on the larger properties along Fells Road and the elevated lots overlooking the Caldwell reservation -- represent substantial structural investments, as genuine clay tile weighs eight to twelve pounds per square foot and demands roof framing engineered specifically for the load. Repair and replacement on these systems requires tile-specific expertise rarely called upon outside the borough\'s estate market.',
     'The exclusivity of Essex Fells tile roofing creates a sourcing challenge distinct from the material procurement difficulties encountered with slate. While [Montclair](/tile-roof-installation-repair-montclair-nj) contractors occasionally encounter clay tile on Victorian-era homes, Essex Fells tile installations tend to use imported European profiles -- barrel mission tile, flat interlocking Ludowici profiles, and custom-glazed terra cotta -- specified by architects commissioning the estate\'s original construction. Matching discontinued tile profiles for repairs requires relationships with architectural salvage networks and European tile manufacturers that maintain legacy mold inventories.',
     'Our [tile roof installation and repair](/tile-roof-installation-repair) capability in Essex Fells encompasses both the structural and aesthetic dimensions of tile roofing. We verify rafter capacity before adding any tile weight, install upgraded underlayment systems beneath tile that exceed code minimum specifications, and execute the precise battening layouts that prevent tile shifting on the steep roof pitches common on Essex Fells estate architecture. Every tile installation coordinates with the property\'s architect to ensure profile selection, color matching, and detail execution meet the design intent.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsTileRoofInstallationRepair: ComboContent = {
     {
       question: 'What maintenance does a tile roof in Essex Fells require?',
       answer: 'Annual inspection is essential to identify cracked or shifted tiles before water infiltration begins. Ridge and hip mortar joints should be evaluated every three to five years and repointed as needed with flexible polymer-modified mortar. Valley flashings require inspection for debris accumulation and corrosion. Under Essex Fells tree canopy conditions, semi-annual debris clearing from valleys and behind dormers prevents moisture retention that accelerates underlayment deterioration beneath the tile surface.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Essex Fells, NJ?',
+      answer: 'Most tile roof installation repair projects in Essex Fells range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Essex Fells NJ -- clay and concrete tile for estate homes with structural assessment and custom matching.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

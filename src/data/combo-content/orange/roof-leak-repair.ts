@@ -4,7 +4,7 @@ export const orangeRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'orange',
   overview: [
-    'Tracking a roof leak to its source in Orange requires understanding how the city\'s distinct geography directs water in ways that suburban roofs never experience. The Valley neighborhood sits at the lowest elevation in the city, collecting stormwater runoff from South Mountain that overwhelms municipal drainage during heavy rain events. Roofs in the Valley leak from above and deteriorate from below simultaneously -- surface water enters through failing flashings while ground moisture migrates upward through foundations and condenses on cold roof decking. Our [roof leak repair](/roof-leak-repair) approach for Valley properties treats the entire moisture path, not just the point where water appears on the ceiling.',
+    'Newark Quality Roofing delivers expert roof leak repair in Orange — with prices starting from $300–$1,200 and free estimates available today. Tracking a roof leak to its source in Orange requires understanding how the city\'s distinct geography directs water in ways that suburban roofs never experience. The Valley neighborhood sits at the lowest elevation in the city, collecting stormwater runoff from South Mountain that overwhelms municipal drainage during heavy rain events. Roofs in the Valley leak from above and deteriorate from below simultaneously -- surface water enters through failing flashings while ground moisture migrates upward through foundations and condenses on cold roof decking. Our [roof leak repair](/roof-leak-repair) approach for Valley properties treats the entire moisture path, not just the point where water appears on the ceiling.',
     'Along Scotland Road and Park Avenue, Orange\'s grand Victorians develop leaks at the complex intersections between roof planes -- dormers meeting main ridges, turret bases joining gable walls, and decorative elements creating water-trapping pockets that original builders never anticipated would need to handle modern storm intensities. These leaks are architectural in nature, following the geometry of the building rather than any material deficiency. Diagnosing them requires experience with Victorian rooflines that our crews have built through years of restoration work on Orange\'s most distinctive homes.',
     'Main Street\'s commercial buildings present flat-roof leak scenarios where water travels horizontally across the membrane before finding a penetration point, making the ceiling stain appear far from the actual roof breach. Modified bitumen and built-up roofs on these older commercial structures develop splits at seams, blistering from trapped moisture, and ponding water against deteriorated parapet flashing. Locating the source requires systematic membrane testing and, frequently, core sampling through multiple layers of previous repairs. Commercial tenants in neighboring [East Orange](/roof-leak-repair-east-orange-nj) encounter similar flat-roof migration patterns on their Main Street properties.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofLeakRepair: ComboContent = {
     {
       question: 'My Main Street commercial building has a ceiling stain far from any roof edge -- where is the leak coming from?',
       answer: 'On flat commercial roofs, water travels horizontally across the membrane before finding a penetration point. The ceiling stain may be 20 or 30 feet from the actual roof breach. We use systematic membrane testing and core sampling to trace the water path back to the entry point, which is often at a seam split, blister, or deteriorated flashing around mechanical equipment curbs rather than at the roof edge.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Orange, NJ?',
+      answer: 'Most roof leak repair projects in Orange range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in Orange NJ -- Valley moisture diagnostics, Victorian roofline tracing, Main Street flat-roof detection, and tight-lot water management.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

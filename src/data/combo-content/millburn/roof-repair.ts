@@ -4,7 +4,7 @@ export const millburnRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'millburn',
   overview: [
-    'Roof repair on Millburn estates requires a caliber of craftsmanship that most roofing contractors simply cannot deliver. The homes lining Old Short Hills Road and the estate sections of White Oak Ridge feature slate fields laid by European artisans a century ago, hand-formed copper flashings that have developed an irreplaceable patina, and multi-structure rooflines spanning main residences, carriage houses, guest quarters, and pool pavilions. When a repair is needed on one of these properties, the work must honor the material legacy while restoring full weather integrity -- there is no room for expedient patching with incompatible materials that compromise the architectural coherence these homeowners demand.',
+    'Newark Quality Roofing delivers expert roof repair in Millburn — with prices starting from $350–$1,500 and free estimates available today. Roof repair on Millburn estates requires a caliber of craftsmanship that most roofing contractors simply cannot deliver. The homes lining Old Short Hills Road and the estate sections of White Oak Ridge feature slate fields laid by European artisans a century ago, hand-formed copper flashings that have developed an irreplaceable patina, and multi-structure rooflines spanning main residences, carriage houses, guest quarters, and pool pavilions. When a repair is needed on one of these properties, the work must honor the material legacy while restoring full weather integrity -- there is no room for expedient patching with incompatible materials that compromise the architectural coherence these homeowners demand.',
     'Short Hills estates present repair scenarios rarely encountered elsewhere in Essex County. A single property may incorporate slate on the main residence, standing-seam copper on a turret or bay window, cedar shakes on a detached studio, and flat membrane on a kitchen addition -- each material system requiring different tools, techniques, and sourcing channels. Our repair teams carry the specialized equipment for all these materials: slate rippers and copper soldering irons alongside modern membrane welding gear. This versatility is essential in Millburn, where a repair call at one address can involve three or four distinct roofing systems before the crew leaves the property.',
     'The architect-driven renovation culture in Millburn adds a coordination layer that distinguishes repair work here from every other municipality we serve. Homeowners in Wyoming, Glenwood, and South Mountain rarely approve roof repair without consulting their architect, and many estates have designated architects who maintain long-term relationships with the property. We work within this dynamic routinely -- submitting repair proposals with material specifications and color samples for architectural review, coordinating access with landscape architects to protect specimen plantings, and scheduling work around interior renovation timelines managed by the homeowner\'s general contractor.',
     'Property values in Millburn drive a repair philosophy where cutting corners is never considered. When a Short Hills estate with an assessed value exceeding three million dollars develops a slate failure, the repair must use salvaged or quarried slate matching the original in thickness, color, and texture. When copper flashing deteriorates on a Tudor revival in Wyoming, the replacement copper is fabricated to match the original profile and thickness, not substituted with aluminum painted to approximate the appearance. Every repair decision is filtered through a single question: does this preserve or compromise the property\'s architectural integrity and market position?'
@@ -35,7 +35,25 @@ export const millburnRoofRepair: ComboContent = {
     {
       question: 'How do you protect my landscaping during roof repair work?',
       answer: 'We install plywood walkways over planted areas, position ground-level tarps to catch all debris, use crane or boom lift access where ladder placement would damage landscape beds, and coordinate with your landscape architect or maintenance company on any areas requiring special protection. Specimen plantings, irrigation systems, landscape lighting, and hardscape surfaces are identified and flagged before any work begins. Our crews are experienced on estate properties and understand that landscape damage is unacceptable regardless of the roof repair scope.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Millburn, NJ?',
+      answer: 'Most roof repair projects in Millburn range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Expert slate and copper roof repair for Millburn and Short Hills estates. Matching historic materials, architect coordination, and multi-structure assessment.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

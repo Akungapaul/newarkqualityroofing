@@ -4,7 +4,7 @@ export const bellevilleTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'belleville',
   overview: [
-    'Tile roof replacement in Belleville addresses the limited but notable inventory of clay and concrete tile installations on custom homes, churches, and Mediterranean-influenced residences scattered through the township. When these tile roofs fail -- typically through underlayment deterioration rather than tile failure -- the replacement project requires structural assessment, specialized material sourcing, and installation techniques that mainstream roofing contractors lack.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Belleville — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Belleville addresses the limited but notable inventory of clay and concrete tile installations on custom homes, churches, and Mediterranean-influenced residences scattered through the township. When these tile roofs fail -- typically through underlayment deterioration rather than tile failure -- the replacement project requires structural assessment, specialized material sourcing, and installation techniques that mainstream roofing contractors lack.',
     'The underlayment system beneath tile roofs on Belleville buildings reaches end of life at 30-40 years, well before the tile itself deteriorates. This creates a replacement scenario where perfectly functional tiles must be carefully removed, the underlayment and batten system rebuilt, and the tiles reinstalled on the renewed substrate. This strip-and-reinstall approach preserves the original tile investment while restoring the waterproof integrity that the deteriorated underlayment can no longer provide.',
     'For [tile roof replacement](/tile-roof-replacement) projects where the tiles themselves have degraded -- cracked, spalled, or delaminated from freeze-thaw cycling -- new tile installation follows the same structural and batten protocols as original installation. We source clay and concrete tiles from domestic and imported manufacturers, matching profile, color, and finish to the building\'s architectural style. Lightweight concrete profiles are available for buildings where the original clay tile weight requires structural reinforcement that the owner prefers to avoid.',
     'Belleville\'s small tile roof inventory means that local contractor experience with tile work is limited. Most Belleville roofers are asphalt shingle specialists with no tile experience. Our tile roofing crew brings the specialized skills -- batten system engineering, individual tile cutting and fitting, hip and ridge detail work, and mortar-set or dry-set installation methods -- that tile work demands. For homeowners in [Belleville](/roofing-in-belleville-nj) and neighboring [Newark](/tile-roof-replacement-newark-nj), this specialized capability is essential for quality tile work.'
@@ -35,7 +35,25 @@ export const bellevilleTileRoofReplacement: ComboContent = {
     {
       question: 'Why is tile roof work so expensive compared to shingles?',
       answer: 'Tile installation is significantly more labor-intensive than shingle work. Each tile is individually handled, positioned, and fastened, compared to shingle installation where strips of material cover larger areas quickly. Structural assessment and potential reinforcement add engineering costs. Material costs for clay and concrete tile exceed shingle costs. The combination of labor intensity, structural requirements, and premium materials drives the higher pricing.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Belleville, NJ?',
+      answer: 'Most tile roof replacement projects in Belleville range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Belleville NJ. Clay and concrete tile strip-and-reinstall with underlayment rebuild for homes and institutional buildings.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

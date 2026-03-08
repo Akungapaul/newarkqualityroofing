@@ -4,7 +4,7 @@ export const northCaldwellRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'north-caldwell',
   overview: [
-    'North Caldwell properties occupy a roofing tier that few Essex County communities share. Homes here sit on one-acre-plus wooded lots, many custom-built by architects who specified complex multi-level roof systems with intersecting ridges, copper-clad dormers, and turret details that demand craftsmen who understand how premium materials interact with sophisticated geometry. Roof repair on these estates is never a patch-and-go operation -- it requires assessment of interconnected roof planes where a failure in one section channels water into another through concealed pathways that only experienced roofers can trace.',
+    'Newark Quality Roofing delivers expert roof repair in North Caldwell — with prices starting from $350–$1,500 and free estimates available today. North Caldwell properties occupy a roofing tier that few Essex County communities share. Homes here sit on one-acre-plus wooded lots, many custom-built by architects who specified complex multi-level roof systems with intersecting ridges, copper-clad dormers, and turret details that demand craftsmen who understand how premium materials interact with sophisticated geometry. Roof repair on these estates is never a patch-and-go operation -- it requires assessment of interconnected roof planes where a failure in one section channels water into another through concealed pathways that only experienced roofers can trace.',
     'The heavily forested character that defines Mountain Avenue and Grandview Avenue creates persistent roof repair triggers that suburban communities with younger, smaller trees rarely encounter. Mature oaks shed heavy limbs during summer thunderstorms, cracking slate tiles and denting standing-seam copper panels. Decades of leaf litter accumulate in the deep valleys between dormers, creating moisture reservoirs that accelerate shingle deterioration from above while the organic acids in decomposing foliage attack metal flashing from below. Property owners in neighboring [Caldwell](/roof-repair-caldwell-nj) face similar tree canopy challenges, though on smaller lots with less complex roof systems.',
     'North Caldwell homeowners invest significantly in their properties and expect repair work that preserves both the roof system integrity and the architectural character of their homes. A repair on a slate roof along Green Brook Road cannot leave mismatched replacement tiles visible from the driveway. A flashing repair on a copper-accented colonial on Gould Avenue must use matching patinated copper, not raw galvanized steel. This attention to aesthetic continuity distinguishes estate-grade [roof repair](/roof-repair) from commodity repair work and requires contractors who carry premium materials and the specialized skills to install them.',
     'Our approach to North Caldwell roof repair combines diagnostic precision with material expertise. We maintain relationships with slate quarries, copper sheet suppliers, and specialty shingle distributors so that repair materials match existing installations exactly. From the steep-pitch Tudors near the Caldwell border to the expansive contemporaries on wooded lots off Mountain Avenue, every repair protects the homeowner\'s investment in their property while respecting the architectural standards that make North Caldwell one of Essex County\'s most distinguished communities.'
@@ -39,7 +39,25 @@ export const northCaldwellRoofRepair: ComboContent = {
     {
       question: 'What does a typical North Caldwell roof repair cost compared to surrounding towns?',
       answer: 'North Caldwell repair costs typically run higher than neighboring communities due to three factors: the premium materials installed on these homes (slate, copper, designer shingles), the complexity and scale of the roof systems, and the precision required for aesthetic matching. A valley reflashing on a North Caldwell slate roof may cost three to five times what the same repair costs on a standard shingle roof in Caldwell. We provide detailed itemized estimates that break down material and labor costs so homeowners understand exactly what drives the pricing for their specific repair.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in North Caldwell, NJ?',
+      answer: 'Most roof repair projects in North Caldwell range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'North Caldwell NJ roof repair for estate homes -- slate matching, copper flashing, complex multi-level diagnostics on wooded acre-plus properties.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

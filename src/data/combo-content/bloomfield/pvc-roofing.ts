@@ -4,7 +4,7 @@ export const bloomfieldPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'bloomfield',
   overview: [
-    'PVC roofing fills a specific performance niche on Bloomfield\'s commercial buildings that TPO and EPDM cannot match: chemical resistance. The restaurants along Bloomfield Avenue discharge grease-laden kitchen exhaust that degrades non-PVC membranes over time. The automotive service shops scattered through Bloomfield\'s commercial zones expose roofs to petroleum vapor and chemical runoff. The dry cleaners, nail salons, and food processing operations in the township\'s mixed-use buildings create chemical atmospheres that attack the plasticizers in competing membrane materials. Where these conditions exist, PVC is not a premium upgrade -- it is the only membrane that will perform to its rated service life without chemical-induced degradation.',
+    'Newark Quality Roofing delivers expert pvc roofing in Bloomfield — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing fills a specific performance niche on Bloomfield\'s commercial buildings that TPO and EPDM cannot match: chemical resistance. The restaurants along Bloomfield Avenue discharge grease-laden kitchen exhaust that degrades non-PVC membranes over time. The automotive service shops scattered through Bloomfield\'s commercial zones expose roofs to petroleum vapor and chemical runoff. The dry cleaners, nail salons, and food processing operations in the township\'s mixed-use buildings create chemical atmospheres that attack the plasticizers in competing membrane materials. Where these conditions exist, PVC is not a premium upgrade -- it is the only membrane that will perform to its rated service life without chemical-induced degradation.',
     'Bloomfield\'s PVC roofing demand concentrates on two building categories. The first is Bloomfield Avenue food-service buildings -- pizzerias, diners, bakeries, and restaurant kitchens -- where rooftop exhaust fans discharge cooking oils and fats that break down asphaltic materials and compromise TPO seam integrity over time. The second is the GSP-corridor commercial and light industrial buildings housing chemical-adjacent operations: printing shops, manufacturing facilities, and warehouses storing solvents or petroleum products. These building types account for roughly fifteen to twenty percent of Bloomfield\'s commercial roof area, and PVC is the specification-grade solution for their specific exposure conditions.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) building owners whose facilities do not involve chemical exposure, PVC\'s cost premium over [TPO](/tpo-roofing-installation-bloomfield-nj) is difficult to justify on performance grounds alone. Both membranes are thermoplastic, both use hot-air-welded seams, and both offer reflective white surfaces for energy efficiency. PVC costs approximately fifteen to twenty-five percent more than TPO at comparable specifications. When chemical resistance is not required, TPO delivers essentially equivalent waterproofing and energy performance at lower cost. Our honest assessment helps Bloomfield building owners avoid paying for chemical resistance they do not need while ensuring that buildings with genuine chemical exposure receive the PVC specification they require.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldPvcRoofing: ComboContent = {
     {
       question: 'Can PVC be installed over my existing modified bitumen roof in Bloomfield?',
       answer: 'Not directly. PVC is chemically incompatible with asphalt-based materials and will degrade on contact. If recovering over an existing modified bitumen or BUR system, a polyester separation barrier must be installed between the asphaltic surface and the PVC membrane to prevent contact. Alternatively, full tear-off eliminates the compatibility concern entirely. We recommend tear-off when the existing system is moisture-compromised and recover with separation barriers when the existing system is dry and structurally sound.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Bloomfield, NJ?',
+      answer: 'Most pvc roofing projects in Bloomfield range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Bloomfield NJ -- chemical-resistant membrane for restaurants, industrial facilities, and commercial buildings with grease or solvent exposure.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

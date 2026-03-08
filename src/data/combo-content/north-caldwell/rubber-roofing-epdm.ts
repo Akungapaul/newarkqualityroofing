@@ -4,7 +4,7 @@ export const northCaldwellRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'north-caldwell',
   overview: [
-    'EPDM rubber roofing serves a focused role on North Caldwell estate properties: protecting the flat and low-slope roof sections that connect multi-level wings, cover attached garages, and span enclosed porch additions. While the primary pitched roof planes on these custom homes typically wear slate, cedar, or standing seam metal, the secondary flat sections require a different material approach -- and EPDM\'s proven track record on residential flat roofs makes it the default specification for these applications across the borough.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in North Caldwell — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing serves a focused role on North Caldwell estate properties: protecting the flat and low-slope roof sections that connect multi-level wings, cover attached garages, and span enclosed porch additions. While the primary pitched roof planes on these custom homes typically wear slate, cedar, or standing seam metal, the secondary flat sections require a different material approach -- and EPDM\'s proven track record on residential flat roofs makes it the default specification for these applications across the borough.',
     'North Caldwell homeowners who have experienced the frustration of recurring leaks on garage roof sections or porch overhangs recognize that [rubber roofing](/rubber-roofing-epdm) solves the problem that patching and recoating never quite eliminates. A fully adhered EPDM membrane creates a seamless waterproof surface across the entire flat section, wrapping up walls and around penetrations with factory-manufactured accessories that eliminate the multi-component failure points of older built-up roofing approaches. Homeowners in neighboring [Caldwell](/rubber-roofing-epdm-caldwell-nj) rely on similar EPDM solutions for their flat roof sections, though typically on smaller residential scales.',
     'Our EPDM installation and repair work in North Caldwell focuses exclusively on the residential applications that define this community\'s needs. We use 60-mil membrane thickness as our standard -- heavier than the 45-mil products common on budget installations -- because the estate properties in this borough represent long-term investments that warrant premium material specifications and the extended service life they deliver.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRubberRoofingEpdm: ComboContent = {
     {
       question: 'What warranty comes with an EPDM installation on a North Caldwell property?',
       answer: 'We provide a manufacturer membrane warranty of 20 to 30 years depending on the system specified, plus our own workmanship warranty covering installation details, flashings, and seam integrity. The manufacturer warranty covers material defects and premature degradation. Our workmanship warranty covers every detail we installed, because the most common failures on EPDM roofs trace to installation quality rather than material performance.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in North Caldwell, NJ?',
+      answer: 'Most rubber roofing epdm projects in North Caldwell range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in North Caldwell NJ -- fully adhered membrane for estate home flat roof sections, garages, and low-slope transitions.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

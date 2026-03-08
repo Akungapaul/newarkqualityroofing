@@ -4,7 +4,7 @@ export const roselandGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'roseland',
   overview: [
-    'Green roof installation in Roseland addresses the growing interest among corporate property owners in sustainable building features that deliver measurable environmental and economic returns. The borough\'s office park buildings along Eisenhower Parkway represent ideal candidates for vegetated roof systems -- large flat roof areas with structural capacity for growing media, visibility from upper-floor windows of adjacent buildings, and corporate tenants whose sustainability commitments create demand for green building features. Our [green roof installation](/green-roof-installation) service designs and installs extensive and intensive vegetated systems appropriate to each building\'s structural capacity and sustainability goals.',
+    'Newark Quality Roofing delivers expert green roof installation in Roseland — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Roseland addresses the growing interest among corporate property owners in sustainable building features that deliver measurable environmental and economic returns. The borough\'s office park buildings along Eisenhower Parkway represent ideal candidates for vegetated roof systems -- large flat roof areas with structural capacity for growing media, visibility from upper-floor windows of adjacent buildings, and corporate tenants whose sustainability commitments create demand for green building features. Our [green roof installation](/green-roof-installation) service designs and installs extensive and intensive vegetated systems appropriate to each building\'s structural capacity and sustainability goals.',
     'Stormwater management benefits drive many green roof decisions in Roseland. The borough sits within the Passaic River watershed where stormwater runoff regulations continue to tighten. Green roofs retain 50 to 70 percent of annual rainfall, reducing the volume and velocity of runoff that reaches municipal storm systems. For commercial property owners facing stormwater management requirements, green roofs provide on-site retention that may reduce the size and cost of ground-level detention infrastructure. Property managers in [West Orange](/green-roof-installation-west-orange-nj) have implemented similar stormwater-driven green roof solutions.',
     'The urban heat island reduction that green roofs provide is measurable at building scale and meaningful at community scale. Roseland\'s commercial office corridors generate heat island effects from concentrated dark roof surfaces, and green roofs replace that thermal mass with evapotranspiring vegetation that cools rather than heats the surrounding air. Corporate tenants increasingly value this environmental contribution as part of their sustainability reporting and community engagement narratives.'
   ],
@@ -34,7 +34,25 @@ export const roselandGreenRoofInstallation: ComboContent = {
     {
       question: 'Does a green roof qualify for any tax incentives or regulatory benefits?',
       answer: 'Green roofs contribute to LEED certification points across multiple credit categories including stormwater management, heat island reduction, and habitat restoration. New Jersey offers various incentives for stormwater management installations that green roofs may qualify for depending on the municipality and project scope. The direct economic benefit of reduced stormwater management infrastructure and lower cooling energy costs also factors into the return on investment for Roseland commercial properties.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Roseland, NJ?',
+      answer: 'Most green roof installation projects in Roseland range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Roseland NJ -- vegetated roofing systems for corporate buildings with stormwater management and energy benefits.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

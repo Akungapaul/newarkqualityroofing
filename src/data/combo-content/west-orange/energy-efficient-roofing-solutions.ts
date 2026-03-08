@@ -4,7 +4,7 @@ export const westOrangeEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'west-orange',
   overview: [
-    'Energy efficient roofing in West Orange demands solutions calibrated to the township\'s unusual thermal geography, where valley-floor homes trap summer heat beneath still air and ridge-top homes hemorrhage winter warmth into sustained mountain winds. Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) address both extremes through material selection, ventilation engineering, and insulation integration that treats the roof as a complete thermal management system rather than a simple weather barrier.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in West Orange — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing in West Orange demands solutions calibrated to the township\'s unusual thermal geography, where valley-floor homes trap summer heat beneath still air and ridge-top homes hemorrhage winter warmth into sustained mountain winds. Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) address both extremes through material selection, ventilation engineering, and insulation integration that treats the roof as a complete thermal management system rather than a simple weather barrier.',
     'Ridge-top colonials along Eagle Rock Avenue and Prospect Avenue lose the most heating energy per square foot of any housing type in West Orange. Wind-driven convective heat loss strips warmth from roof surfaces exposed to sustained winter gusts, overwhelming the insulation capacity of standard attic assemblies. High-performance radiant barriers combined with upgraded attic insulation reduce heating costs by 15 to 25 percent on these exposed properties. Homeowners in nearby [Cedar Grove](/energy-efficient-roofing-solutions-cedar-grove-nj) benefit from similar energy upgrades along the northern Watchung ridge.',
     'Valley-floor homes in Pleasant Valley and Pleasantdale face the opposite thermal challenge: summer heat absorption. Reduced air circulation at lower elevations creates localized heat island conditions where dark-colored asphalt roofs reach surface temperatures exceeding 160 degrees during July and August. Cool roof coatings and reflective shingle products reduce surface temperatures by 50 to 70 degrees, cutting cooling loads and extending shingle life by reducing the thermal cycling that accelerates material fatigue.',
     'West Orange\'s mid-century split-level homes present unique energy efficiency challenges at the level-change connections where upper and lower roof sections intersect. These transitions create thermal bridges that bypass attic insulation, channeling conditioned air directly to the roof deck. Our energy-efficient roofing approach for [West Orange](/roofing-in-west-orange-nj) split-levels targets these specific weak points with spray foam insulation and air sealing at the architectural connections that standard insulation approaches miss.'
@@ -35,7 +35,25 @@ export const westOrangeEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'How much can energy-efficient roofing reduce my West Orange utility bills?',
       answer: 'Combined attic air sealing, insulation upgrade, and ventilation improvement typically reduces heating and cooling costs by 20 to 35 percent for West Orange homes starting from minimal or outdated insulation levels. Cool-roof products add another 10 to 20 percent cooling season reduction on sun-exposed valley-floor homes. We provide energy modeling estimates specific to your home\'s size, insulation condition, and HVAC system efficiency so you can evaluate the investment against projected savings.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in West Orange, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in West Orange range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in West Orange NJ. Cool roofs, insulation upgrades, and ventilation for valley-to-ridge thermal management.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

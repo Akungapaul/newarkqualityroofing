@@ -4,7 +4,7 @@ export const southOrangeSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'south-orange',
   overview: [
-    'Solar panel roofing installation in South Orange Village connects the community\'s strong sustainability values with the practical economics of residential and commercial energy generation. The village\'s progressive homeowner base has embraced solar adoption at rates exceeding most Essex County communities, and our combined roof-and-solar installation approach ensures that the roofing substrate provides decades of reliable support beneath the solar investment without the premature tear-off-and-reinstall scenarios that separate roofing and solar projects risk.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in South Orange — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in South Orange Village connects the community\'s strong sustainability values with the practical economics of residential and commercial energy generation. The village\'s progressive homeowner base has embraced solar adoption at rates exceeding most Essex County communities, and our combined roof-and-solar installation approach ensures that the roofing substrate provides decades of reliable support beneath the solar investment without the premature tear-off-and-reinstall scenarios that separate roofing and solar projects risk.',
     'South Orange\'s residential solar market centers on homeowners who want clean energy generation without compromising the architectural character that defines the village\'s premier neighborhoods. Panel placement on Montrose Park estates and the Prospect Street corridor must consider street-facing aesthetics, historical character preservation, and neighbor sightline impacts alongside electrical production optimization. Our installation designs balance these factors, positioning panels on rear-facing or less visible roof planes when south-facing exposure permits alternatives to prominent front-slope installations.',
     'The combined roof-and-solar approach we offer South Orange homeowners eliminates the costly coordination failures that occur when roofing and solar are managed as separate projects. A roof approaching the end of its service life should be replaced before solar panels are installed -- removing and reinstalling a solar array for an underlying roof replacement adds thousands of dollars in unnecessary labor. Our [solar panel roofing](/solar-panel-roofing-installation) assessment evaluates the existing roof condition and recommends coordinated replacement when the remaining roof life is insufficient to outlast the solar system\'s 25-year production warranty.',
     'Seton Hall University\'s campus and the commercial buildings along South Orange Avenue present institutional and commercial solar opportunities where our combined approach provides particular value. Large flat-roof surfaces with existing membrane systems nearing replacement are ideal candidates for coordinated roof-and-solar projects that provide new waterproofing and energy generation in a single mobilization, reducing total project cost and campus disruption compared to sequential projects.'
@@ -35,7 +35,25 @@ export const southOrangeSolarPanelRoofingInstallation: ComboContent = {
     {
       question: 'What NJ solar incentives apply to South Orange homeowners?',
       answer: 'New Jersey offers the Successor Solar Incentive Program providing ongoing production-based credits, plus the federal Investment Tax Credit covering a percentage of installation cost. NJ sales tax exemption on solar equipment and property tax exemption for the added home value further improve the financial return. We provide current incentive projections as part of every solar assessment, helping South Orange homeowners evaluate the net cost and payback period for their specific installation.'
-    }
+    },
+    {
+      question: 'How much does solar panel roofing installation cost in South Orange, NJ?',
+      answer: 'Most solar panel roofing installation projects in South Orange range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing installation in South Orange NJ -- combined roof and solar projects for homes and commercial buildings.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

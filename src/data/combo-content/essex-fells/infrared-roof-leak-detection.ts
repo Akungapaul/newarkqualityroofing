@@ -4,7 +4,7 @@ export const essexFellsInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'essex-fells',
   overview: [
-    'Infrared roof leak detection on Essex Fells estate properties pinpoints moisture infiltration sources hidden beneath premium roofing materials where conventional inspection methods would require destructive investigation. The technique exploits the thermal mass difference between wet and dry building materials -- saturated insulation, dampened roof decking, and moisture-laden wall cavities retain heat differently than dry materials, creating temperature patterns visible on infrared cameras that reveal both the presence and the migration path of water infiltrating the roof assembly.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Essex Fells — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection on Essex Fells estate properties pinpoints moisture infiltration sources hidden beneath premium roofing materials where conventional inspection methods would require destructive investigation. The technique exploits the thermal mass difference between wet and dry building materials -- saturated insulation, dampened roof decking, and moisture-laden wall cavities retain heat differently than dry materials, creating temperature patterns visible on infrared cameras that reveal both the presence and the migration path of water infiltrating the roof assembly.',
     'The application of infrared leak detection is particularly valuable on Essex Fells estates where the cost of exploratory demolition on premium finishes makes non-destructive diagnosis essential. Rather than removing sections of hundred-year-old slate or cutting into custom millwork to trace a water stain to its source, infrared scanning maps the moisture migration path from the visible interior damage backward through the building assembly toward the roof-level entry point. This tracing capability reduces the exploratory work required to locate leak sources from extensive investigation to targeted verification at the specific locations the infrared scan identifies.',
     'Our infrared leak detection service complements our broader [infrared roof leak detection](/infrared-roof-leak-detection) practice by applying techniques refined on commercial building portfolios to the residential estate context where the stakes per leak are disproportionately high. A minor leak on a commercial warehouse produces a damp spot on a concrete floor. The same volume of water entering an Essex Fells estate reaches hand-painted wallcovering, hardwood flooring, custom millwork, and artwork collections where damage restoration costs dwarf the leak repair itself. Rapid, accurate leak detection prevents the escalating interior damage that delayed diagnosis allows.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'How long does an infrared leak detection inspection take?',
       answer: 'A focused leak detection scanning a specific moisture symptom and tracing it to the probable entry point typically requires one to two hours for a single-symptom investigation. Comprehensive estate scanning covering multiple structures and potential entry points can require three to five hours. The time investment compares favorably against the days of exploratory demolition that traditional leak tracing on complex estate homes can require, with significantly less damage to interior finishes.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Essex Fells, NJ?',
+      answer: 'Most infrared roof leak detection projects in Essex Fells range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Essex Fells NJ -- non-destructive moisture tracing for estate homes with premium interior finishes.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

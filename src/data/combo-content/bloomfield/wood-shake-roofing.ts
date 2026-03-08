@@ -4,7 +4,7 @@ export const bloomfieldWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'bloomfield',
   overview: [
-    'Wood shake roofing in Bloomfield occupies a narrow niche between the township\'s practical asphalt-shingle majority and the occasional homeowner seeking natural material character on a home renovation or custom build project. Bloomfield\'s post-war housing stock was not built with wood shakes -- Cape Cods and split-levels from the 1950s and 1960s received asphalt shingles as the standard economy material of their era. The wood shake market in Bloomfield serves homeowners who want to differentiate their property with a natural roofing material that adds distinctive texture and curb appeal beyond what even premium architectural shingles can deliver.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Bloomfield — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Bloomfield occupies a narrow niche between the township\'s practical asphalt-shingle majority and the occasional homeowner seeking natural material character on a home renovation or custom build project. Bloomfield\'s post-war housing stock was not built with wood shakes -- Cape Cods and split-levels from the 1950s and 1960s received asphalt shingles as the standard economy material of their era. The wood shake market in Bloomfield serves homeowners who want to differentiate their property with a natural roofing material that adds distinctive texture and curb appeal beyond what even premium architectural shingles can deliver.',
     'The practical reality of wood shake ownership in Bloomfield\'s suburban environment includes maintenance demands that asphalt shingles do not require. Bloomfield\'s tree canopy creates shade conditions that promote moss and fungal growth on wood surfaces, and the township\'s humid summer climate accelerates the biological colonization that untreated wood shakes invite. Homeowners choosing wood shakes in Bloomfield must commit to periodic cleaning, preservative retreatment, and debris management that exceeds the low-maintenance profile of asphalt shingles. This is not a material for set-it-and-forget-it homeowners.',
     'For Bloomfield homeowners who do choose [wood shake roofing](/wood-shake-roofing), the aesthetic return is genuine. A properly installed and maintained wood shake roof creates a handcrafted appearance that stands out in neighborhoods of uniform asphalt shingle roofs. The natural variation in shake thickness, width, and surface texture produces shadow lines and dimensional depth that synthetic materials approximate but do not replicate. Homeowners in neighboring [Montclair](/wood-shake-roofing-montclair-nj) and [Glen Ridge](/wood-shake-roofing-glen-ridge-nj) install wood shakes more frequently due to their Victorian and Tudor housing stock, but Bloomfield homeowners pursuing renovation projects have the same material available.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldWoodShakeRoofing: ComboContent = {
     {
       question: 'Is wood shake a good investment for a Bloomfield home?',
       answer: 'It depends on your priorities and time horizon. If you plan to stay in the home long-term, value natural material aesthetics, and are comfortable with the maintenance commitment, wood shakes deliver genuine curb appeal differentiation in a township dominated by asphalt shingle roofs. If you prioritize low maintenance and cost efficiency, architectural asphalt shingles provide better value for the typical Bloomfield homeowner. We help you evaluate the trade-offs honestly rather than selling the premium material regardless of fit.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Bloomfield, NJ?',
+      answer: 'Most wood shake roofing projects in Bloomfield range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Bloomfield NJ -- fire-rated installation, preservative maintenance, and natural material options for renovation projects.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

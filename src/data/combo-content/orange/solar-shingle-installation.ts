@@ -4,7 +4,7 @@ export const orangeSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'orange',
   overview: [
-    'Solar shingle installation resolves a tension that Orange homeowners frequently express: the desire for solar energy without the visual impact of traditional panel arrays mounted above the roofline. On Scotland Road\'s grand Victorians and the architectural homes along Park Avenue, bulky panel racks would disrupt the historic aesthetic that defines these neighborhoods. [Solar shingle](/solar-shingle-installation) systems integrate photovoltaic cells directly into roofing shingles that lay flat against the roof deck, generating electricity while maintaining the clean roofline silhouette that Orange\'s finest homes deserve.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Orange — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installation resolves a tension that Orange homeowners frequently express: the desire for solar energy without the visual impact of traditional panel arrays mounted above the roofline. On Scotland Road\'s grand Victorians and the architectural homes along Park Avenue, bulky panel racks would disrupt the historic aesthetic that defines these neighborhoods. [Solar shingle](/solar-shingle-installation) systems integrate photovoltaic cells directly into roofing shingles that lay flat against the roof deck, generating electricity while maintaining the clean roofline silhouette that Orange\'s finest homes deserve.',
     'The technology has matured significantly, with current-generation solar shingles from manufacturers like GAF Energy and CertainTeed producing meaningful electricity while functioning as primary roofing material. A south-facing roof slope on an Orange home can generate 4 to 7 kWh per day per 100 square feet of solar shingle coverage -- not matching the efficiency of conventional panels, but providing substantial production without compromising architectural appearance. For Orange homeowners on Scotland Road who would never install visible panel arrays, solar shingles offer an energy path that simply did not exist five years ago.',
     'Installation timing is ideal when coordinated with a full roof replacement. Since solar shingles replace conventional shingles rather than mounting over them, the roofing and solar components install in a single operation. Orange homeowners replacing aging roofs can add solar generation capability for an incremental cost of $3 to $5 per watt above conventional premium shingle pricing. Combined with New Jersey\'s solar incentives and net metering, the system typically reaches payback within 10 to 15 years while providing a warranty-backed roof and clean energy production for 25 years. Homeowners in adjacent [West Orange](/solar-shingle-installation-west-orange-nj) are choosing the same technology for their hillside properties.'
   ],
@@ -34,7 +34,25 @@ export const orangeSolarShingleInstallation: ComboContent = {
     {
       question: 'Are solar shingles worth the extra cost over regular shingles in Orange?',
       answer: 'For homes with good solar exposure, the economics are favorable. The incremental cost over premium shingles is offset by New Jersey solar incentives, net metering savings, and federal tax credits. Payback typically occurs in 10 to 15 years, after which the electricity generation is essentially free for the remaining 10 to 15 years of the shingle\'s warranty life. For heavily shaded properties, conventional panels or no solar may be more cost-effective.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Orange, NJ?',
+      answer: 'Most solar shingle installation projects in Orange range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Orange NJ -- integrated solar roofing for Victorians, Scotland Road aesthetic preservation, NJ incentives, and shade analysis.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

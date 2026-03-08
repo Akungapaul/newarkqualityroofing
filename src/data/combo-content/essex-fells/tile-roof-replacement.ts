@@ -4,7 +4,7 @@ export const essexFellsTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Tile roof replacement on Essex Fells estate homes restores the Mediterranean, Spanish Colonial, and architectural tile roofing systems specified by architects who designed the borough\'s most distinctive residences. These tile installations -- original clay barrel mission tile, flat interlocking Ludowici profiles, and concrete tile simulating traditional clay forms -- reach replacement age through accumulated freeze-thaw damage, impact failure from falling branches, or underlayment deterioration that manifests as leaking despite intact tile surfaces above.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Essex Fells — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement on Essex Fells estate homes restores the Mediterranean, Spanish Colonial, and architectural tile roofing systems specified by architects who designed the borough\'s most distinctive residences. These tile installations -- original clay barrel mission tile, flat interlocking Ludowici profiles, and concrete tile simulating traditional clay forms -- reach replacement age through accumulated freeze-thaw damage, impact failure from falling branches, or underlayment deterioration that manifests as leaking despite intact tile surfaces above.',
     'The tile replacement decision on Essex Fells properties involves the same architectural considerations as new specification: maintaining the home\'s design character through accurate tile profile selection. The architects who specified barrel mission tile on a 1930s Mediterranean revival estate chose that profile as an integral element of the home\'s architectural statement. Replacing the tile with a different profile -- or worse, substituting asphalt shingles for the removed tile -- fundamentally alters the home\'s architectural identity in ways that diminish both aesthetic value and property market position.',
     'Our tile roof replacement practice in Essex Fells sources matching or compatible tile profiles from the original manufacturer when possible, through architectural salvage when originals are available, or from specialty fabricators when custom reproduction is required. This material sourcing capability ensures that tile replacement maintains the architectural continuity that Essex Fells estate owners expect, delivering a roof surface indistinguishable from the original installation in profile, color, and visual character.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsTileRoofReplacement: ComboContent = {
     {
       question: 'What underlayment goes beneath replacement tile?',
       answer: 'We install self-adhered ice-and-water shield membrane across the full deck surface for all Essex Fells tile replacements. This premium underlayment specification provides redundant waterproofing beneath the tile surface, compensating for the water management characteristics of tile roofing systems where wind-driven rain can penetrate between tiles and reach the underlayment layer. The full-coverage approach exceeds code minimum but provides the waterproofing assurance appropriate for the estate interiors these roofs protect.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most tile roof replacement projects in Essex Fells range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Essex Fells NJ -- clay and concrete tile sourcing and installation for estate architectural restoration.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

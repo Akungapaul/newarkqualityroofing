@@ -4,7 +4,7 @@ export const fairfieldSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'fairfield',
   overview: [
-    'Soffit installation and repair in Fairfield maintains the critical ventilation pathway that keeps attic spaces dry and roof systems healthy. The soffit panels enclosing the underside of roof overhangs serve two essential functions: they provide a finished appearance at the eave while housing the intake vents that draw fresh air into the attic space. This intake air, combined with exhaust at the ridge, creates continuous airflow that removes moisture and heat from the attic -- preventing the ice dams, condensation, and premature shingle deterioration that plague Fairfield homes with restricted ventilation.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Fairfield — with prices starting from $1,500–$4,000 and free estimates available today. Soffit installation and repair in Fairfield maintains the critical ventilation pathway that keeps attic spaces dry and roof systems healthy. The soffit panels enclosing the underside of roof overhangs serve two essential functions: they provide a finished appearance at the eave while housing the intake vents that draw fresh air into the attic space. This intake air, combined with exhaust at the ridge, creates continuous airflow that removes moisture and heat from the attic -- preventing the ice dams, condensation, and premature shingle deterioration that plague Fairfield homes with restricted ventilation.',
     'Fairfield\'s 1960s through 1990s housing stock presents common soffit conditions. Original plywood or hardboard soffit panels have weathered for decades, with paint failure exposing the substrate to moisture absorption, warping, and eventual delamination. Vented soffit sections may have become blocked by insulation pushed against the roof deck from the attic side, or by wasp and bee nests built within the vent openings. These blockages restrict the airflow that the ventilation system depends on, turning a designed pathway into a dead-end. Our [soffit](/soffit-installation-repair) service in Fairfield restores both the structural enclosure and the ventilation function.',
     'Pest intrusion through damaged soffits is a recurring concern for Fairfield homeowners. Squirrels, raccoons, birds, and insects exploit gaps, holes, and rotted sections in soffit panels to access attic spaces. Once established, these pests create noise, health hazards, and structural damage that far exceeds the cost of the soffit repair that would have prevented their entry. Our soffit installations seal the eave enclosure completely while maintaining proper ventilation through mesh-protected vent openings that exclude pests without restricting airflow.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldSoffitInstallationRepair: ComboContent = {
     {
       question: 'Should soffits be replaced during roof replacement on my Fairfield home?',
       answer: 'If your soffits are original and show signs of deterioration, replacing them during roof work is ideal. The roofing crew already has access to the eave area, and coordinating soffit replacement with drip-edge and fascia work ensures proper integration of all roofline components. Adding soffit ventilation baffles is also most easily done while the roof is open. We evaluate soffit condition during every Fairfield roof replacement proposal and include replacement in the scope when warranted.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Fairfield, NJ?',
+      answer: 'Most soffit installation repair projects in Fairfield range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Fairfield NJ. Vented aluminum soffits with pest exclusion and ventilation baffle integration for homes.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

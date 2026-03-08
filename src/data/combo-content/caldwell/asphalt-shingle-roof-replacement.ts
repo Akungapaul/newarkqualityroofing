@@ -4,7 +4,7 @@ export const caldwellAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Asphalt shingle roof replacement is the most common roofing project in Caldwell, where the overwhelming majority of colonial, cape cod, and ranch homes carry architectural asphalt shingles as their primary roof covering. When these shingles reach end of life after twenty to thirty years of service, the replacement process installs a new shingle system that incorporates the material technology and installation practice advances of the intervening decades. Today\'s architectural shingles deliver significantly better wind resistance, algae protection, and aesthetic dimension than the products they replace.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Caldwell — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common roofing project in Caldwell, where the overwhelming majority of colonial, cape cod, and ranch homes carry architectural asphalt shingles as their primary roof covering. When these shingles reach end of life after twenty to thirty years of service, the replacement process installs a new shingle system that incorporates the material technology and installation practice advances of the intervening decades. Today\'s architectural shingles deliver significantly better wind resistance, algae protection, and aesthetic dimension than the products they replace.',
     'Material selection for asphalt shingle replacement on [Caldwell](/roofing-in-caldwell-nj) homes focuses on three product tiers that reflect different balances of performance and investment. Standard architectural shingles from manufacturers like GAF, Owens Corning, and CertainTeed provide reliable twenty-five-year protection at moderate cost. Enhanced architectural shingles add features like impact resistance, extended wind warranty, and thicker profiles that improve both performance and curb appeal. Premium designer shingles replicate the appearance of slate, wood shake, or tile in a shingle format with the highest wind and impact ratings available.',
     'Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) process for Caldwell integrates the shingle installation with the complete system improvements that maximize the new roof\'s lifespan. Ice-and-water shield membrane, proper ventilation, quality underlayment, and upgraded flashing details all contribute more to long-term roof performance than the shingle brand alone. Neighbors in [North Caldwell](/asphalt-shingle-roof-replacement-north-caldwell-nj) and [Bloomfield](/asphalt-shingle-roof-replacement-bloomfield-nj) make the same material and system decisions when replacing their residential shingle roofs.'
   ],
@@ -34,7 +34,25 @@ export const caldwellAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Can I change shingle color when replacing my Caldwell roof?',
       answer: 'Absolutely. Roof replacement is the opportunity to update the home\'s exterior color palette. We recommend viewing potential colors against the existing siding, shutters, and trim before committing. Darker colors hide canopy staining better while lighter colors reflect more solar heat. Mid-tone earth colors -- driftwood, weathered wood, charcoal -- blend well with Caldwell\'s natural landscape setting and complement the colonial and cape cod architecture that defines the borough.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Caldwell, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Caldwell range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Caldwell NJ -- GAF and CertainTeed architectural shingles with algae resistance for colonial homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

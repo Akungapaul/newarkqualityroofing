@@ -4,7 +4,7 @@ export const montclairInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'montclair',
   overview: [
-    'Infrared roof leak detection transforms the frustrating guessing game of flat-roof leak diagnosis on Montclair commercial buildings into a precise, evidence-based process that pinpoints water entry locations invisible to the naked eye. Where traditional leak investigation involves educated assumptions about where water might enter based on where stains appear inside -- assumptions that are wrong more often than right on flat roofs where water migrates horizontally -- infrared detection maps the actual moisture signature within the roof assembly, tracing the water from its entry point through the insulation to its eventual appearance in the occupied space below.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Montclair — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection transforms the frustrating guessing game of flat-roof leak diagnosis on Montclair commercial buildings into a precise, evidence-based process that pinpoints water entry locations invisible to the naked eye. Where traditional leak investigation involves educated assumptions about where water might enter based on where stains appear inside -- assumptions that are wrong more often than right on flat roofs where water migrates horizontally -- infrared detection maps the actual moisture signature within the roof assembly, tracing the water from its entry point through the insulation to its eventual appearance in the occupied space below.',
     'The technology is particularly valuable on Montclair\'s aging commercial rooftops where decades of repairs, patches, and membrane modifications have created complex roof surfaces with multiple potential failure points. A commercial building along Bloomfield Avenue with twenty-plus years of service may have a dozen previous repair patches, each with its own seam edges and sealant conditions. Visual inspection of this roof cannot determine which of those dozen repairs is currently leaking or whether the leak originates at a completely different location. Infrared scanning reads the moisture signature beneath the visible surface, identifying the wet zone regardless of what the surface above looks like.',
     'Our [infrared leak detection](/infrared-roof-leak-detection) service for [Montclair](/roofing-in-montclair-nj) commercial properties eliminates the trial-and-error repair cycle that wastes property management budgets on incorrect fixes. A building manager who authorizes leak repairs based on visual guessing may spend thousands of dollars on multiple repair attempts before accidentally hitting the actual entry point. Infrared detection invests a fraction of that amount in diagnostic precision, directing the first repair attempt to the confirmed entry location. The repair is right the first time because the diagnosis is right.',
     'Commercial buildings in [West Orange](/infrared-roof-leak-detection-west-orange-nj) and [Bloomfield](/infrared-roof-leak-detection-bloomfield-nj) benefit from the same diagnostic approach. Montclair\'s tree canopy adds a debris-driven moisture entry mechanism that infrared detection identifies with particular effectiveness -- debris accumulation at drains and penetrations creates standing water zones that slowly breach membrane seams, producing wet insulation patterns that thermal imaging reveals months before interior leaks announce the problem.'
@@ -35,7 +35,25 @@ export const montclairInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'What time of year is best for infrared leak detection in Montclair?',
       answer: 'May through October provides the most reliable scanning conditions with longer daylight hours for solar heating and higher ambient temperatures that create stronger thermal differentials. However, active leaks do not wait for optimal scanning conditions. For urgent leak diagnosis during cooler months, we can conduct effective scans when daytime temperatures reach at least fifty degrees with sufficient sunshine to heat the roof surface. The diagnostic quality may be slightly reduced during winter scans, but identifiable moisture signatures are typically detectable whenever the temperature differential exceeds the camera\'s sensitivity threshold.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Montclair, NJ?',
+      answer: 'Most infrared roof leak detection projects in Montclair range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Montclair NJ -- pinpoint moisture mapping for commercial flat roofs with targeted repair guidance.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

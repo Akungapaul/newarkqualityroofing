@@ -4,7 +4,7 @@ export const westOrangeSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'west-orange',
   overview: [
-    'Silicone elastomeric roof coating combines the UV resistance and ponding-water tolerance of pure silicone with enhanced elongation properties that accommodate the thermal movement West Orange\'s commercial roofs experience across their elevation range. Our [silicone elastomeric roof coating](/silicone-elastomeric-roof-coating) applications stretch with substrate movement during freeze-thaw cycling rather than cracking or delaminating, maintaining continuous waterproofing through the 150-plus-degree temperature swings that punish rigid coatings on exposed Watchung ridge-top buildings.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in West Orange — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating combines the UV resistance and ponding-water tolerance of pure silicone with enhanced elongation properties that accommodate the thermal movement West Orange\'s commercial roofs experience across their elevation range. Our [silicone elastomeric roof coating](/silicone-elastomeric-roof-coating) applications stretch with substrate movement during freeze-thaw cycling rather than cracking or delaminating, maintaining continuous waterproofing through the 150-plus-degree temperature swings that punish rigid coatings on exposed Watchung ridge-top buildings.',
     'The elastomeric formulation proves its value on West Orange commercial roofs where substrate movement exceeds the tolerance of standard silicone coatings. Metal panel roofs with thermal expansion joints, modified bitumen surfaces with seam movement, and aging BUR systems with alligator-cracked surfaces all benefit from the elastomeric coating\'s ability to bridge cracks and accommodate movement without losing adhesion or waterproofing integrity. Building owners near [Livingston](/silicone-elastomeric-roof-coating-livingston-nj) apply similar elastomeric solutions to their own aging commercial building stock.',
     'West Orange\'s commercial corridor along Pleasant Valley Way includes numerous buildings where existing roof surfaces show the stress cracking and surface deterioration that indicate substrate movement beyond rigid coating capability. Elastomeric coating fills and bridges these surface cracks during application, creating a seamless waterproofing layer that moves with the substrate rather than fighting it. This crack-bridging ability makes elastomeric coating the appropriate restoration choice for West Orange commercial roofs exhibiting movement-related surface damage.',
     'The reflective white surface of silicone elastomeric coating delivers the same cool-roof energy benefits as standard silicone -- 85 to 90 percent solar reflectance reducing roof surface temperatures by 50 to 70 degrees. Combined with the flexibility to withstand [West Orange](/roofing-in-west-orange-nj)\'s thermal extremes, elastomeric coating provides both performance restoration and energy improvement in a single application that avoids the cost and disruption of full roof membrane replacement.'
@@ -35,7 +35,25 @@ export const westOrangeSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Is elastomeric coating suitable for metal roofs in West Orange?',
       answer: 'Yes. Elastomeric silicone coating is particularly effective on metal roofs because the high elongation capacity accommodates the substantial thermal expansion that metal panels undergo. The coating bridges the gaps that open at panel joints during cold weather and compresses without delaminating when joints close during summer expansion. We apply elastomeric coating over properly prepared metal surfaces using metal-specific primer, providing both waterproofing renewal and the cool-roof reflectivity that reduces thermal cycling stress on the metal substrate.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in West Orange, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in West Orange range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in West Orange NJ. Flexible coating that bridges cracks and handles thermal movement on aging roofs.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

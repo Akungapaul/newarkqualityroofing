@@ -4,7 +4,7 @@ export const montclairRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'montclair',
   overview: [
-    'Ice dam prevention in Montclair addresses a winter damage pattern that the township\'s combination of elevation, tree canopy, older housing stock, and complex roof geometries elevates from occasional nuisance to predictable annual expense for hundreds of homeowners. Ice dams form when heat escaping through an under-insulated attic melts snow on the upper roof surface, sending meltwater down to the eave zone where the roof extends beyond the heated building envelope. At the cold eave, the water refreezes, building a progressively thicker ice ridge that traps subsequent meltwater behind it. That trapped water backs up beneath shingles, saturates underlayment, and enters the building interior as ceiling stains, wall moisture, and eventual mold growth.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Montclair — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Montclair addresses a winter damage pattern that the township\'s combination of elevation, tree canopy, older housing stock, and complex roof geometries elevates from occasional nuisance to predictable annual expense for hundreds of homeowners. Ice dams form when heat escaping through an under-insulated attic melts snow on the upper roof surface, sending meltwater down to the eave zone where the roof extends beyond the heated building envelope. At the cold eave, the water refreezes, building a progressively thicker ice ridge that traps subsequent meltwater behind it. That trapped water backs up beneath shingles, saturates underlayment, and enters the building interior as ceiling stains, wall moisture, and eventual mold growth.',
     'Montclair\'s Watchung Ridge position produces colder winter temperatures and heavier snowfall than the Essex County valley floor, creating ideal ice dam conditions from December through March. North-facing roof slopes shaded by the township\'s dense tree canopy accumulate snow that persists for weeks without solar melt, providing a continuous snow source for the heat-loss-driven melt cycle that feeds ice dams. Properties in lower-elevation communities like [Bloomfield](/roof-ice-dam-prevention-bloomfield-nj) and [Nutley](/roof-ice-dam-prevention-nutley-nj) experience less severe ice dam conditions due to warmer temperatures and greater sun exposure.',
     'Our [ice dam prevention](/roof-ice-dam-prevention) approach for [Montclair](/roofing-in-montclair-nj) homes prioritizes root-cause remediation over symptom management. Heat cables, ice melt products, and emergency ice dam removal address the ice after it forms but do not prevent the heat loss that causes formation in the first place. Effective prevention requires reducing the heat flow from living space through the attic to the roof surface -- through improved insulation, air sealing at ceiling penetrations, and balanced ventilation that removes residual attic heat before it reaches the roof surface.',
     'The architectural complexity of Montclair\'s Victorian, Tudor, and Arts & Crafts homes makes ice dam prevention more technically demanding than in municipalities with simpler housing stock. Multi-gabled rooflines create isolated attic compartments with independent ventilation needs. Cathedral ceiling sections with no attic space require insulation approaches fundamentally different from standard attic-floor applications. Dormer-to-main-roof valleys concentrate meltwater flow at precisely the cold-eave zones where ice dams form.'
@@ -35,7 +35,25 @@ export const montclairRoofIceDamPrevention: ComboContent = {
     {
       question: 'Can ice dam prevention be done during a Montclair re-roofing project?',
       answer: 'Re-roofing is the ideal time for ice dam prevention work because the exposed roof deck provides access to install extended ice-and-water shield membrane at eave lines, improve ventilation with new ridge vents, and access attic areas from above for insulation work that would be difficult through interior access points. Coordinating both projects eliminates the separate mobilization cost and ensures that the new roofing system integrates with the ventilation and waterproofing improvements. We recommend discussing ice dam prevention during every Montclair re-roofing consultation, particularly for homes with documented ice dam histories.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Montclair, NJ?',
+      answer: 'Most roof ice dam prevention projects in Montclair range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Montclair NJ -- insulation, air sealing, and ventilation upgrades for Victorian and Tudor ridge-elevation homes.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

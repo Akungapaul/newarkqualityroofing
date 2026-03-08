@@ -4,7 +4,7 @@ export const newarkSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'newark',
   overview: [
-    'Solar shingles represent the convergence of roofing material and photovoltaic technology that Newark\'s historic neighborhoods have been waiting for. Unlike traditional rack-mounted panels that sit above the roof surface on aluminum frames, solar shingles integrate directly into the roof plane as the roofing material itself. For homeowners in Forest Hill, the North Ward, and other neighborhoods where the Newark Landmarks and Historic Preservation Commission scrutinizes exterior alterations, solar shingles eliminate the visual objection that has blocked conventional panel installations on architecturally significant homes.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Newark — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingles represent the convergence of roofing material and photovoltaic technology that Newark\'s historic neighborhoods have been waiting for. Unlike traditional rack-mounted panels that sit above the roof surface on aluminum frames, solar shingles integrate directly into the roof plane as the roofing material itself. For homeowners in Forest Hill, the North Ward, and other neighborhoods where the Newark Landmarks and Historic Preservation Commission scrutinizes exterior alterations, solar shingles eliminate the visual objection that has blocked conventional panel installations on architecturally significant homes.',
     'The technology has matured considerably since early iterations. Current-generation solar shingles from manufacturers like GAF Energy and CertainTeed produce between fourteen and seventy watts per shingle depending on the product line, with efficiencies approaching traditional panel performance. When installed across a full south-facing roof plane on a typical Newark colonial or Tudor, a solar shingle roof generates between six and ten kilowatts -- sufficient to offset sixty to eighty percent of household electricity consumption while qualifying for New Jersey\'s SREC-II incentive program and the federal solar investment tax credit.',
     'Newark\'s roofing replacement cycle creates a natural entry point for solar shingle adoption. When a twenty-five-year-old asphalt roof reaches end of life, the homeowner faces re-roofing costs regardless of solar ambitions. Solar shingles replace those conventional shingles rather than adding to them, meaning the incremental cost of going solar is only the difference between standard roofing material and solar-integrated material -- not the full cost of a separate solar array installation. For Newark homeowners already budgeting fifteen to twenty-five thousand dollars for a roof replacement, solar shingles extend that investment into a power-generating asset.',
     'The aesthetic advantage is particularly relevant in Newark\'s streetscape-conscious neighborhoods. Forest Hill\'s Tudor homes and the North Ward\'s colonial revivals present roof profiles visible from the street, where traditional panel arrays create a visual contrast with the existing architectural character. Solar shingles maintain the low-profile roofline these neighborhoods expect while delivering the energy production and financial returns that make solar viable in an urban market.'
@@ -39,7 +39,25 @@ export const newarkSolarShingleInstallation: ComboContent = {
     {
       question: 'Can solar shingles be installed on a flat roof in Newark?',
       answer: 'Solar shingles are designed for pitched roofs with slopes of at least 3:12 and are not suitable for flat or low-slope commercial roofs. For Newark\'s flat-roofed commercial buildings and multi-family properties, traditional ballasted or mechanically attached panel systems remain the appropriate solar technology. Solar shingles perform best on the pitched residential roofs found throughout Forest Hill, Roseville, Vailsburg, and the North Ward.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Newark, NJ?',
+      answer: 'Most solar shingle installation projects in Newark range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Newark NJ. Integrated roof-and-solar systems for historic neighborhoods, SREC-II qualified, invisible from street level.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

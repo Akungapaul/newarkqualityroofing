@@ -4,7 +4,7 @@ export const bellevilleSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Skylight installation in Belleville solves a specific problem that the township\'s compact housing creates: limited natural light. When homes sit eight feet apart and are only 25-40 feet wide, windows on the side walls of interior rooms receive minimal direct sunlight. Kitchens, bathrooms, and second-floor bedrooms in the center of Belleville\'s narrow homes can be perpetually dim, relying on artificial lighting throughout the day. A properly positioned skylight introduces natural light from above, transforming dark interior spaces without any dependency on neighboring building proximity.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Belleville — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation in Belleville solves a specific problem that the township\'s compact housing creates: limited natural light. When homes sit eight feet apart and are only 25-40 feet wide, windows on the side walls of interior rooms receive minimal direct sunlight. Kitchens, bathrooms, and second-floor bedrooms in the center of Belleville\'s narrow homes can be perpetually dim, relying on artificial lighting throughout the day. A properly positioned skylight introduces natural light from above, transforming dark interior spaces without any dependency on neighboring building proximity.',
     'Belleville\'s post-war Cape Cods and colonials are well-suited for skylight installation because their simple gable and hip roof geometries provide adequate south-facing or west-facing roof area for skylight placement. The 4:12 to 6:12 roof pitches common in the township work well with both fixed and vented skylight designs, and the attic spaces above second-floor rooms typically provide clear paths for skylight well construction without ductwork or structural member interference.',
     'Our [skylight installation](/skylight-installation-repair) services in Belleville address both new installations and the replacement of aging skylights that have developed the condensation, seal failure, and frame deterioration that plague units installed in the 1980s and 1990s. These older acrylic-dome skylights were popular during Belleville\'s renovation boom but have reached the end of their 20-25 year service life, developing yellowed glazing, cracked frames, and failed weather seals that leak during rain and sweat during temperature transitions.',
     'Skylight repair on existing installations is often more cost-effective than full replacement when the issue is limited to flashing failure around the skylight perimeter. Belleville\'s freeze-thaw cycling and the thermal expansion of skylight frames stress the flashing connection between the skylight curb and the surrounding roof surface. We repair these flashing failures with the same stepped-flashing technique used on chimney penetrations, restoring waterproof integrity without the cost of a new skylight unit for homes in [Belleville](/roofing-in-belleville-nj) and throughout Essex County near [Newark](/skylight-installation-repair-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleSkylightInstallationRepair: ComboContent = {
     {
       question: 'Can I add a skylight to my Belleville Cape Cod\'s second floor?',
       answer: 'Yes. Cape Cod second floors are excellent candidates for skylights because the angled ceiling brings the roof surface close to the living space, minimizing light well depth. The simple roof geometry typically accommodates skylight openings without complex structural modifications. We design splayed light wells that maximize light delivery through the compact attic space between the roof and ceiling.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Belleville, NJ?',
+      answer: 'Most skylight installation repair projects in Belleville range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Belleville NJ. Natural light solutions for narrow homes with VELUX certified installation and leak-proof flashing.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

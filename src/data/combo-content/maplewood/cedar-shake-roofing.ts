@@ -4,7 +4,7 @@ export const maplewoodCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'maplewood',
   overview: [
-    'Cedar shake roofing carries particular significance in Maplewood, where the township\'s Tudor Revival, Arts and Crafts, and Craftsman homes were often originally crowned with hand-split cedar. The aromatic Western Red Cedar shakes that once topped homes along Boyden Avenue, throughout the Hilton neighborhood, and on the Arts and Crafts bungalows near Jefferson Village connected these structures visually to their natural surroundings. Today, homeowners restoring or replacing cedar shake roofs in [Maplewood](/roofing-in-maplewood-nj) continue this tradition with our [cedar shake roofing](/cedar-shake-roofing) installations that source premium clear-grain cedar from managed Pacific Northwest forests.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Maplewood — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing carries particular significance in Maplewood, where the township\'s Tudor Revival, Arts and Crafts, and Craftsman homes were often originally crowned with hand-split cedar. The aromatic Western Red Cedar shakes that once topped homes along Boyden Avenue, throughout the Hilton neighborhood, and on the Arts and Crafts bungalows near Jefferson Village connected these structures visually to their natural surroundings. Today, homeowners restoring or replacing cedar shake roofs in [Maplewood](/roofing-in-maplewood-nj) continue this tradition with our [cedar shake roofing](/cedar-shake-roofing) installations that source premium clear-grain cedar from managed Pacific Northwest forests.',
     'Cedar\'s natural insulating properties make it well-suited to Maplewood\'s four-season climate. The wood fiber\'s cellular structure creates an inherent thermal break between exterior weather and interior living space, contributing measurable R-value that synthetic materials cannot match. This thermal performance is especially valuable on older Maplewood homes where wall insulation may be minimal and the roof plays a significant role in the building\'s overall thermal envelope. Homeowners who prioritize natural materials and energy performance find cedar shake an appealing choice that delivers on both criteria.',
     'The distinction between cedar shakes and wood shakes generally is important in Maplewood\'s historically aware market. Cedar shakes are split from Western Red Cedar bolts, producing a textured face with natural grain variation. Each shake is unique, and an installed field develops the richly varied, warm-toned appearance that complements Tudor half-timber work and Craftsman detailing. Our cedar shake installations emphasize the species-specific qualities, selecting premium #1 grade hand-split shakes with consistent thickness and tight grain for installations visible from the street. Homeowners in [Millburn](/cedar-shake-roofing-millburn-nj) with estate-scale cedar shake projects share this attention to grade quality.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodCedarShakeRoofing: ComboContent = {
       question: 'How often does a cedar shake roof need retreatment in Maplewood?',
       answer: 'We recommend preservative retreatment every 3-5 years for most Maplewood cedar shake roofs, with shorter intervals for south-facing slopes with heavy UV exposure and shade-covered areas where biological growth pressure is highest. Annual retreatment is sometimes needed for the first few years on the most shade-intensive Reservation-border properties until the treatment cycle reaches equilibrium with the environment.',
     },
+    {
+      question: 'How much does cedar shake roofing cost in Maplewood, NJ?',
+      answer: 'Most cedar shake roofing projects in Maplewood range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Maplewood NJ. Premium hand-split Western Red Cedar for Tudor and Craftsman homes with preservative treatment programs.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

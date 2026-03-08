@@ -4,7 +4,7 @@ export const irvingtonGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'irvington',
   overview: [
-    'Gutter systems on Irvington\'s aging homes carry the full burden of the township\'s stormwater management challenges at the individual property level. With housing built predominantly in the 1920s through 1940s on 25 to 40-foot lots with minimal setbacks, Irvington\'s homes concentrate roof runoff into narrow side yards where failed or absent gutters dump water directly against foundations. Our [gutter installation](/gutter-installation-repair) and repair services across Irvington address the foundation protection, fascia preservation, and landscape erosion problems that inadequate gutter systems create on the township\'s aging housing stock.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Irvington — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems on Irvington\'s aging homes carry the full burden of the township\'s stormwater management challenges at the individual property level. With housing built predominantly in the 1920s through 1940s on 25 to 40-foot lots with minimal setbacks, Irvington\'s homes concentrate roof runoff into narrow side yards where failed or absent gutters dump water directly against foundations. Our [gutter installation](/gutter-installation-repair) and repair services across Irvington address the foundation protection, fascia preservation, and landscape erosion problems that inadequate gutter systems create on the township\'s aging housing stock.',
     'The investment property market in Irvington drives a significant volume of gutter work. Landlords acquiring and renovating two-family and three-family homes on Chancellor Avenue and Stuyvesant Avenue discover that previous owners deferred gutter maintenance for years -- sagging sections, separated joints, and missing downspouts are standard conditions on recently purchased investment properties. Our landlord gutter packages include complete gutter system assessment, repair-versus-replacement recommendation, and pricing that accounts for the multi-property portfolios that many Irvington investors manage.',
     'Springfield Avenue commercial buildings present flat-roof drainage challenges that differ from residential gutter work but serve the same purpose: controlling water discharge from the building to prevent foundation damage, sidewalk icing, and stormwater code violations. Internal drains and scupper-fed leader pipes on [Irvington](/roofing-in-irvington-nj) commercial buildings require periodic cleaning, gasket replacement, and leader pipe repair to maintain proper drainage. Gutter systems in neighboring [East Orange](/gutter-installation-repair-east-orange-nj) serve similar aging housing stock with comparable drainage challenges on compact urban lots.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonGutterInstallationRepair: ComboContent = {
       question: 'How often should gutters be cleaned on Irvington homes?',
       answer: 'Irvington homes with mature tree canopy require gutter cleaning twice per year -- once after the primary leaf drop in late November and once in late spring after seed pod and pollen season. Homes with minimal tree coverage may require only annual cleaning. We recommend gutter guard installation for heavily canopied properties to reduce cleaning frequency and prevent the overflow damage that occurs between cleaning visits.',
     },
+    {
+      question: 'How much does gutter installation repair cost in Irvington, NJ?',
+      answer: 'Most gutter installation repair projects in Irvington range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Irvington NJ for aging colonials and multi-family homes. Seamless aluminum with proper drainage on narrow lots.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

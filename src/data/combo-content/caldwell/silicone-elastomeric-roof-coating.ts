@@ -4,7 +4,7 @@ export const caldwellSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'caldwell',
   overview: [
-    'Silicone elastomeric roof coating combines the waterproofing chemistry of silicone with enhanced elastomeric stretch properties that accommodate the thermal movement aging flat roofs experience. On Caldwell\'s commercial buildings where existing membrane seams have begun to separate and surface cracking follows thermal cycling patterns, the elastomeric formulation bridges these developing gaps while the silicone chemistry provides UV resistance and ponding water tolerance. This combination makes silicone elastomeric coating particularly effective on roofs showing the early-to-mid-stage deterioration common on Caldwell\'s aging commercial building stock.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Caldwell — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating combines the waterproofing chemistry of silicone with enhanced elastomeric stretch properties that accommodate the thermal movement aging flat roofs experience. On Caldwell\'s commercial buildings where existing membrane seams have begun to separate and surface cracking follows thermal cycling patterns, the elastomeric formulation bridges these developing gaps while the silicone chemistry provides UV resistance and ponding water tolerance. This combination makes silicone elastomeric coating particularly effective on roofs showing the early-to-mid-stage deterioration common on Caldwell\'s aging commercial building stock.',
     'The distinction between standard silicone coating and [silicone elastomeric coating](/silicone-elastomeric-roof-coating) matters for [Caldwell](/roofing-in-caldwell-nj) building owners evaluating restoration options. Standard silicone provides excellent waterproofing and UV resistance but limited elongation -- it does not stretch significantly before tearing. Elastomeric silicone formulations achieve three hundred percent or greater elongation, meaning the coating stretches with the roof surface as it expands and contracts through Caldwell\'s full temperature range without cracking or separating from the substrate. This stretch capacity bridges hairline cracks and seam separations that standard coating cannot accommodate.',
     'Commercial buildings along Bloomfield Avenue and the borough\'s professional office clusters carry aging flat roof systems where the original membrane has served faithfully but now shows the thermal fatigue that decades of seasonal cycling produces. Silicone elastomeric coating gives these buildings a restoration path that addresses both waterproofing and thermal movement accommodation in a single application. Building owners in [Bloomfield](/silicone-elastomeric-roof-coating-bloomfield-nj) and [East Orange](/silicone-elastomeric-roof-coating-east-orange-nj) apply similar elastomeric strategies to their aging commercial roofs.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Can elastomeric coating be applied in cold weather in Caldwell?',
       answer: 'Silicone elastomeric coating requires substrate temperatures above forty degrees Fahrenheit for proper cure. Application below this temperature produces inadequate cross-linking in the polymer, reducing both adhesion and elongation properties. In Caldwell, this effectively limits reliable application to April through October. We monitor surface temperatures on scheduled application days and postpone work when conditions fall below specification rather than applying material that will underperform.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Caldwell, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Caldwell range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in Caldwell NJ -- flexible, stretch-capable coating for aging commercial flat roofs with thermal-movement damage.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

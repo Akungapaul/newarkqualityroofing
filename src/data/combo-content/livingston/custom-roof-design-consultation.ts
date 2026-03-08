@@ -4,7 +4,7 @@ export const livingstonCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'livingston',
   overview: [
-    'Custom roof design consultation in Livingston serves homeowners and commercial property developers who approach roofing as an architectural decision rather than a commodity purchase. The township\'s diverse housing stock -- from 1960s split-levels undergoing transformative renovations to new luxury construction in planned developments -- generates design challenges that require professional guidance on material selection, aesthetic coordination, structural implications, and budget optimization. Our consultation process translates architectural vision into buildable roofing specifications that perform reliably across decades of Essex County weather.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Livingston — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Livingston serves homeowners and commercial property developers who approach roofing as an architectural decision rather than a commodity purchase. The township\'s diverse housing stock -- from 1960s split-levels undergoing transformative renovations to new luxury construction in planned developments -- generates design challenges that require professional guidance on material selection, aesthetic coordination, structural implications, and budget optimization. Our consultation process translates architectural vision into buildable roofing specifications that perform reliably across decades of Essex County weather.',
     'Renovation-driven consultations dominate our Livingston residential practice. Homeowners adding second stories, expanding kitchen wings, or converting split-levels into contemporary colonials need roof designs that integrate new construction with existing rooflines seamlessly. These hybrid projects require material matching or intentional contrast decisions, ventilation engineering that accounts for expanded attic volumes, and structural detailing at transition points between original and new framing. The consultation identifies these requirements before construction begins, preventing costly field revisions during building.',
     'HOA-governed communities throughout Livingston add a regulatory dimension to roof design that our consultations address proactively. Architectural review committees in Heritage Hills, Kingsland, and newer developments maintain standards for roofing materials, colors, and profiles that limit design options. We navigate these constraints by presenting homeowners with material and color selections that satisfy both HOA requirements and personal aesthetic goals. Homeowners in neighboring [Millburn](/custom-roof-design-consultation-millburn-nj) face similar but different constraints through their township\'s historic preservation guidelines.',
     'Our [custom roof design and consultation](/custom-roof-design-consultation) service extends to commercial projects along Eisenhower Parkway and Route 10 where building owners invest in architectural roofing that distinguishes their property in the commercial leasing market. Standing seam metal accents, mixed-material designs, and visible roof profiles that communicate quality construction to potential tenants all require design consultation that bridges roofing technology and architectural intent.'
@@ -35,7 +35,25 @@ export const livingstonCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Do you coordinate with my architect on roof design for new construction in Livingston?',
       answer: 'We work directly with architects and builders on new construction projects, providing roofing expertise that complements the architectural design process. Our input covers structural load requirements for different roofing materials, ventilation engineering for the specific roof geometry, flashing details at complex intersections, and material selection that achieves the architect\'s aesthetic intent within the project budget.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Livingston, NJ?',
+      answer: 'Most custom roof design consultation projects in Livingston range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Livingston NJ -- renovation integration, HOA compliance guidance, and material selection for split-levels and colonials.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

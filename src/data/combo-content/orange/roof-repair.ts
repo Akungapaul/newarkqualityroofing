@@ -4,7 +4,7 @@ export const orangeRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'orange',
   overview: [
-    'Sandwiched between East Orange and West Orange, the City of Orange packs a century of building history into just 2.2 square miles -- and every block seems to present a different roof repair puzzle. Along Scotland Road, grand Victorians with intersecting gables and copper-clad turrets need delicate slate and flashing restoration. A few blocks east in the Valley, modest bungalows on 30-foot lots sit so close together that a leak on one property can splash against the siding of its neighbor. Our [roof repair](/roof-repair) crews work Orange streets regularly enough to know which neighborhoods drain well, which ones trap moisture, and where South Mountain\'s tree canopy turns every storm into a branch-impact event.',
+    'Newark Quality Roofing delivers expert roof repair in Orange — with prices starting from $350–$1,500 and free estimates available today. Sandwiched between East Orange and West Orange, the City of Orange packs a century of building history into just 2.2 square miles -- and every block seems to present a different roof repair puzzle. Along Scotland Road, grand Victorians with intersecting gables and copper-clad turrets need delicate slate and flashing restoration. A few blocks east in the Valley, modest bungalows on 30-foot lots sit so close together that a leak on one property can splash against the siding of its neighbor. Our [roof repair](/roof-repair) crews work Orange streets regularly enough to know which neighborhoods drain well, which ones trap moisture, and where South Mountain\'s tree canopy turns every storm into a branch-impact event.',
     'Main Street\'s revitalizing commercial corridor adds another dimension to Orange roof repair. Two- and three-story mixed-use buildings along the streetscape feature flat roofs that have been patched and re-coated for decades -- modified bitumen over built-up over tar-and-gravel, layers of Band-Aids that eventually stop holding. When a Main Street storefront calls us about ceiling stains, the repair often involves cutting through multiple generations of roofing material to reach the actual deck and identify where water is entering. Neighboring [East Orange](/roof-repair-east-orange-nj) buildings share similar layered histories, but Orange\'s Main Street structures tend to be older and more ornate, with pressed-tin cornices that complicate flashing details.',
     'The Valley neighborhood occupies Orange\'s lowest elevation, collecting stormwater that flows downhill from South Mountain through residential streets with aging infrastructure. Roofs in the Valley don\'t just face rain from above -- they contend with moisture rising from saturated soil below, wicking through foundations and condensing in poorly ventilated attics. A roof repair in the Valley that ignores the moisture dynamics underneath will fail within a season. Our approach treats the whole building envelope, ensuring that repairs above the roofline account for conditions below it.',
     'Properties bordering South Mountain Reservation face a repair cadence driven by the forest itself. Oak and maple branches crash onto roofs during summer thunderstorms, acorns and seed pods clog valleys and gutters through autumn, and ice-laden limbs snap onto shingles during winter storms. Homeowners along Hillyer Street and South Valley Road know our truck -- we handle their storm damage calls within hours, because in Orange, waiting a day means water in the living room. Similar tree-canopy challenges affect roofs in nearby [West Orange](/roof-repair-west-orange-nj), though Orange\'s tighter lots leave less buffer between trees and structures.'
@@ -39,7 +39,25 @@ export const orangeRoofRepair: ComboContent = {
     {
       question: 'How quickly can you respond to storm damage from a fallen branch on my Orange roof?',
       answer: 'We prioritize same-day response for Orange storm damage calls because tree impacts in the South Mountain area can escalate quickly -- a punctured roof deck exposed to rain causes interior damage within hours. Our crews carry emergency tarping materials and can secure a damaged roof within two to four hours of your call. The permanent repair is typically scheduled within the following week based on weather conditions and material availability.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Orange, NJ?',
+      answer: 'Most roof repair projects in Orange range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof repair in Orange NJ -- tight-lot expertise, South Mountain storm damage, Valley moisture solutions, and Main Street commercial flat roof repairs.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

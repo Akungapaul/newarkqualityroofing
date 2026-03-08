@@ -4,7 +4,7 @@ export const nutleySlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'nutley',
   overview: [
-    'Slate roof replacement in Nutley preserves the architectural distinction of the township\'s finest period homes -- the early twentieth-century Tudors, Georgian Colonials, and craftsman residences where original slate installations have provided 80 to 120 years of service before reaching the deterioration stage where individual slate repair can no longer maintain weather integrity. Our [slate roof replacement](/slate-roof-replacement) work in Nutley ranges from full natural slate reinstallation using Pennsylvania or Vermont quarry stock to synthetic slate systems that deliver the visual weight of genuine stone at reduced structural load and cost.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Nutley — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Nutley preserves the architectural distinction of the township\'s finest period homes -- the early twentieth-century Tudors, Georgian Colonials, and craftsman residences where original slate installations have provided 80 to 120 years of service before reaching the deterioration stage where individual slate repair can no longer maintain weather integrity. Our [slate roof replacement](/slate-roof-replacement) work in Nutley ranges from full natural slate reinstallation using Pennsylvania or Vermont quarry stock to synthetic slate systems that deliver the visual weight of genuine stone at reduced structural load and cost.',
     'Nutley\'s remaining original slate roofs are concentrated in the older neighborhoods near Kingsland Manor and along the tree-lined streets between Franklin Avenue and the Passaic River. These homes were built when slate was the prestige roofing material, and many homeowners feel a stewardship obligation to maintain that material character through replacement rather than downgrading to asphalt. Homeowners in [Montclair](/slate-roof-replacement-montclair-nj) share this preservation instinct, often navigating Historic Preservation Commission requirements that Nutley homeowners are spared since Nutley lacks a formal historic district overlay.',
     'The replacement decision for a failing [Nutley](/roofing-in-nutley-nj) slate roof involves weighing material authenticity against practical considerations of cost, structural capacity, and long-term maintenance. Genuine quarry slate delivers unmatched longevity -- 100-plus years from premium sources -- but weighs 800 to 1,500 pounds per square and requires the structural capacity that only homes originally designed for slate can reliably provide. Synthetic slate from DaVinci and EcoStar weighs one-quarter as much, installs with standard roofing techniques, and provides the visual depth and shadow lines that distinguish slate from other materials.'
   ],
@@ -34,7 +34,25 @@ export const nutleySlateRoofReplacement: ComboContent = {
     {
       question: 'What is the difference between natural and synthetic slate for Nutley homes?',
       answer: 'Natural slate is quarried stone with unmatched longevity (100-plus years) and authentic visual depth, but weighs 800-1,500 pounds per square and costs significantly more. Synthetic slate is engineered polymer or rubber composite that replicates the appearance of natural slate at one-quarter the weight, installs with standard roofing techniques, and carries 50-year warranties. For most Nutley homeowners, synthetic slate delivers the desired aesthetic at a more accessible investment level.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Nutley, NJ?',
+      answer: 'Most slate roof replacement projects in Nutley range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Nutley NJ -- natural quarry slate and synthetic alternatives with copper flashing and structural engineering.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

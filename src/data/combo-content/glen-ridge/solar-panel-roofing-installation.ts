@@ -4,7 +4,7 @@ export const glenRidgeSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'glen-ridge',
   overview: [
-    'Solar panel roofing installation in Glen Ridge navigates the intersection between renewable energy ambition and historic preservation requirements that defines this gas-lit borough. Many Glen Ridge homeowners want to reduce their carbon footprint and electricity costs, but the Historic Preservation Commission\'s oversight of exterior modifications means that standard rack-mounted solar arrays visible from the street face scrutiny that installations in non-historic communities avoid entirely. Newark Quality Roofing designs solar installations that maximize energy production while satisfying the preservation standards that protect Glen Ridge\'s irreplaceable architectural character.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in Glen Ridge — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in Glen Ridge navigates the intersection between renewable energy ambition and historic preservation requirements that defines this gas-lit borough. Many Glen Ridge homeowners want to reduce their carbon footprint and electricity costs, but the Historic Preservation Commission\'s oversight of exterior modifications means that standard rack-mounted solar arrays visible from the street face scrutiny that installations in non-historic communities avoid entirely. Newark Quality Roofing designs solar installations that maximize energy production while satisfying the preservation standards that protect Glen Ridge\'s irreplaceable architectural character.',
     'The key to successful solar installation in Glen Ridge is strategic panel placement. Rear-facing roof planes, low-visibility secondary elevations, and flat-roof sections behind parapets offer installation opportunities that generate meaningful electricity without compromising the street-facing historic appearance that the commission protects. Our design process uses solar production modeling to optimize panel count and orientation on the available non-visible surfaces, demonstrating to homeowners exactly how much energy production is achievable within their specific preservation constraints before any commission application is filed.',
     'New Jersey\'s solar incentive programs -- including SRECs and federal tax credits -- make solar investment financially compelling even when preservation constraints limit panel count below what an unrestricted installation would accommodate. A Glen Ridge home with 12 panels on a rear-facing slope may generate fewer kilowatt-hours than an unrestricted 24-panel array, but the return on investment remains strong when state and federal incentives are factored against the reduced system cost. We model these economics clearly during [consultation](/custom-roof-design-consultation-glen-ridge-nj) so homeowners can make informed decisions about solar viability on their specific Glen Ridge property.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeSolarPanelRoofingInstallation: ComboContent = {
       question: 'Do solar panels damage historic roofing materials like slate or cedar?',
       answer: 'Not with proper mounting design. We use non-penetrating mounting systems for slate roofs that distribute panel weight across multiple slate courses without drilling through the stone. For cedar shake roofs, we use specialized flashed brackets that penetrate through the shake field with waterproof boots. Both approaches preserve the integrity of the historic roofing material beneath the panels.',
     },
+    {
+      question: 'How much does solar panel roofing installation cost in Glen Ridge, NJ?',
+      answer: 'Most solar panel roofing installation projects in Glen Ridge range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing in Glen Ridge NJ. Preservation-compatible solar installations maximizing energy production on historic homes.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

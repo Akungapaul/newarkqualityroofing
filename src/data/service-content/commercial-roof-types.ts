@@ -93,8 +93,54 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         question: 'Can TPO be installed over my existing commercial roof?',
         answer: 'In some cases, TPO can be installed over an existing roof membrane without full removal, a process called recover or re-cover. This approach saves the cost and disruption of tear-off and waste disposal. However, the existing roof must meet specific conditions: no more than two roofing layers total, no trapped moisture in existing insulation, and adequate structural capacity for the additional weight. A core sample of the existing roof assembly determines moisture content and condition. We evaluate each building individually to determine whether recover is a viable and advisable option.',
       },
+    
+      {
+        question: 'How much does tpo roofing installation cost in Essex County, NJ?',
+        answer: 'Most tpo roofing installation projects in Essex County range from $7–$12/sq ft, TPO membrane system installed. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$7–$12/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for TPO Roofing Installation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 2. EPDM COMMERCIAL ROOFING
@@ -187,8 +233,54 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         question: 'How much does a commercial EPDM roof cost per square foot?',
         answer: 'Commercial EPDM installed cost typically ranges from 5 to 10 dollars per square foot depending on membrane thickness, insulation specification, attachment method, and project complexity. This range includes tear-off of the existing system, insulation, membrane, flashings, and all accessories. The lower end of the range applies to straightforward warehouse or industrial applications, while the upper end reflects complex buildings with numerous penetrations, equipment curbs, and premium insulation and warranty specifications. We provide detailed, itemized proposals for accurate project-specific pricing.',
       },
+    
+      {
+        question: 'How much does epdm commercial roofing cost in Essex County, NJ?',
+        answer: 'Most epdm commercial roofing projects in Essex County range from $6–$11/sq ft, EPDM rubber membrane system. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$6–$11/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for EPDM Commercial Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 3. MODIFIED BITUMEN ROOFING
@@ -281,8 +373,54 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         question: 'How long does a modified bitumen roof last?',
         answer: 'Well-installed and properly maintained modified bitumen roofs commonly provide 25 to 30 years of service, with some installations exceeding 35 years. Manufacturer warranties typically cover 10 to 20 years. The key to longevity is proper application technique, adequate drainage to prevent ponding, and regular maintenance including inspection and coating renewal. Modified bitumen\'s multi-layer construction provides inherent durability that supports a long service life when the installation and maintenance fundamentals are executed properly.',
       },
+    
+      {
+        question: 'How much does modified bitumen roofing cost in Essex County, NJ?',
+        answer: 'Most modified bitumen roofing projects in Essex County range from $6–$10/sq ft, modified bitumen membrane system. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$6–$10/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Modified Bitumen Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 4. BUILT-UP ROOFING
@@ -375,8 +513,54 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         question: 'Can I convert my existing BUR to a single-ply membrane?',
         answer: 'Yes, BUR-to-single-ply conversion is a common project type for buildings transitioning to modern roofing technology during replacement. The existing BUR is removed to the deck, insulation is upgraded to current energy code standards, and the new single-ply membrane is installed on the fresh substrate. This approach provides the opportunity to improve drainage, increase insulation, and update the roofing system to current technology while preserving the building structure that the original BUR protected reliably for decades.',
       },
+    
+      {
+        question: 'How much does built up roofing cost in Essex County, NJ?',
+        answer: 'Most built up roofing projects in Essex County range from $5–$9/sq ft, traditional built-up roofing system. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$5–$9/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Built Up Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 5. COMMERCIAL METAL ROOFING
@@ -468,8 +652,54 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         question: 'What is the expected lifespan of a commercial metal roof?',
         answer: 'Standing seam commercial metal roofing with quality coatings provides 40 to 60 years or more of service life. Through-fastened systems typically last 25 to 35 years before fastener gasket deterioration creates maintenance issues. The metal panels themselves may last much longer than these periods, and the practical lifespan is often determined by the coating system and accessory components rather than the metal structure. Premium fluoropolymer coatings like PVDF maintain color and protection for 40 or more years.',
       },
+    
+      {
+        question: 'How much does commercial metal roofing cost in Essex County, NJ?',
+        answer: 'Most commercial metal roofing projects in Essex County range from $10–$18/sq ft, commercial metal panel system. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$10–$18/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Commercial Metal Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 6. PVC ROOFING
@@ -562,8 +792,54 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         question: 'Can PVC seams be repaired if they develop problems years later?',
         answer: 'Yes, PVC\'s thermoplastic nature means that seams can be re-fused using hot-air welding at any point during the membrane\'s life. If a seam develops an area of concern, the affected section can be cleaned, heated, and re-welded to restore full fusion integrity. This reweldability is a significant maintenance advantage because it allows precise, permanent repairs using the same technology as the original installation, without patches, adhesives, or sealants that may have shorter service life.',
       },
+    
+      {
+        question: 'How much does pvc roofing cost in Essex County, NJ?',
+        answer: 'Most pvc roofing projects in Essex County range from $7–$13/sq ft, PVC single-ply membrane. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$7–$13/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for PVC Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 7. GREEN ROOF INSTALLATION
@@ -658,8 +934,54 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         question: 'How much maintenance does a green roof require?',
         answer: 'Extensive sedum-based green roofs require relatively modest maintenance: two to four visits per year for weed removal, fertilization, irrigation check, and drain inspection. The first two years require more attention as plants establish. After establishment, maintenance is primarily seasonal weed management and occasional replanting of thin areas. Intensive green roofs with deeper plantings require maintenance similar to a ground-level garden, with regular watering, pruning, fertilization, and seasonal plant care.',
       },
+    
+      {
+        question: 'How much does green roof installation cost in Essex County, NJ?',
+        answer: 'Most green roof installation projects in Essex County range from $15–$35/sq ft, living green roof system. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$15–$35/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Green Roof Installation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 8. SPRAY FOAM ROOFING
@@ -751,6 +1073,52 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         question: 'What happens if the spray foam surface gets damaged?',
         answer: 'Minor surface damage to the coating layer exposes the foam to UV radiation, which will degrade unprotected foam over time. Prompt coating repair prevents UV damage from reaching a significant depth. Mechanical damage that penetrates into the foam core creates a localized moisture entry point that should be repaired promptly. Repairs involve removing any damaged foam, filling the area with new foam or compatible sealant, and coating the repair. The closed-cell structure of the surrounding foam limits moisture migration from the damage point, containing any issue until repair is performed.',
       },
+    
+      {
+        question: 'How much does spray foam roofing cost in Essex County, NJ?',
+        answer: 'Most spray foam roofing projects in Essex County range from $4–$8/sq ft, spray polyurethane foam application. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$4–$8/sq ft',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Spray Foam Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 ];

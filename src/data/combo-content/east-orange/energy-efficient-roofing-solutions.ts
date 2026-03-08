@@ -4,7 +4,7 @@ export const eastOrangeEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'east-orange',
   overview: [
-    'Energy efficient roofing in East Orange targets the measurable gap between what landlords and property managers spend on heating and cooling their multi-family buildings and what modern roof insulation and reflective surfaces can reduce those costs to. The apartment buildings, converted Victorians, and garden complexes throughout Elmwood Park, Doddtown, and the Brick Church district operate with roof insulation that is either minimal, deteriorated, or absent -- conditions that force heating systems to compensate for massive heat loss through the roof in winter and air conditioning to fight solar heat gain through the roof in summer. [Energy efficient roofing](/energy-efficient-roofing-solutions) addresses both conditions simultaneously through coordinated insulation upgrades and surface treatments.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in East Orange — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing in East Orange targets the measurable gap between what landlords and property managers spend on heating and cooling their multi-family buildings and what modern roof insulation and reflective surfaces can reduce those costs to. The apartment buildings, converted Victorians, and garden complexes throughout Elmwood Park, Doddtown, and the Brick Church district operate with roof insulation that is either minimal, deteriorated, or absent -- conditions that force heating systems to compensate for massive heat loss through the roof in winter and air conditioning to fight solar heat gain through the roof in summer. [Energy efficient roofing](/energy-efficient-roofing-solutions) addresses both conditions simultaneously through coordinated insulation upgrades and surface treatments.',
     'For East Orange landlords who include utilities in rent, energy efficient roofing provides direct operating cost reduction. A building spending $3,000 per year on excess heating and cooling costs attributable to inadequate roof insulation and solar absorption can recover $1,500 to $2,000 annually through properly insulated, reflective re-roofing -- a payback period of 3 to 5 years on the incremental investment over standard re-roofing. For tenants who pay their own utilities, the benefit appears as lower monthly bills that make the property more competitive in East Orange\'s rental market.',
     'Cool roof technology -- reflective surfaces that reduce solar heat absorption by 50 to 70 percent compared to dark conventional roofing -- delivers particular value on East Orange\'s flat-roofed apartment buildings where uninsulated or minimally insulated roof assemblies transmit summer heat directly into top-floor living spaces. White TPO, PVC, or reflective-coated membranes reflect solar radiation rather than absorbing it, reducing roof surface temperature from 160 degrees on dark surfaces to 100 degrees or lower on reflective surfaces. This temperature reduction translates to measurably cooler top-floor apartments and reduced air conditioning runtime.',
     'New Jersey energy code requirements for roof insulation have increased substantially since most East Orange buildings were constructed, and re-roofing projects trigger code compliance that requires upgrading insulation to current standards. Rather than treating this code requirement as a burden, East Orange property owners should view it as a mandated improvement that reduces operating costs for the remaining life of the building. Buildings in [Newark](/energy-efficient-roofing-solutions-newark-nj) and across Essex County face the same code-triggered insulation upgrades during re-roofing.'
@@ -35,7 +35,25 @@ export const eastOrangeEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Are there incentives for energy efficient roofing in East Orange?',
       answer: 'New Jersey offers incentives through the Clean Energy Program for qualifying energy efficiency improvements. Federal tax credits for energy efficient building improvements may also apply. Utility rebate programs for cool roofing and insulation upgrades are available through PSE&G in the East Orange service area. We help property owners identify applicable programs during project development.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in East Orange, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in East Orange range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing for East Orange NJ buildings -- cool roof membranes, insulation upgrades, and heating cost reduction for multi-family properties.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

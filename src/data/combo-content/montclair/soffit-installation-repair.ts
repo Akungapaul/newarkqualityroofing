@@ -4,7 +4,7 @@ export const montclairSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Soffit -- the horizontal material spanning the underside of roof eaves from the fascia board back to the house wall -- serves a dual purpose on Montclair homes that most homeowners never consciously consider until problems emerge. Functionally, vented soffit panels provide the attic intake airflow that balances ridge ventilation, controlling temperature and moisture in the attic space. Aesthetically, soffits create the finished ceiling of deep eave overhangs that are among the defining architectural features of Montclair\'s Arts & Crafts bungalows, Victorian porches, and Tudor half-timber homes.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Montclair — with prices starting from $1,500–$4,000 and free estimates available today. Soffit -- the horizontal material spanning the underside of roof eaves from the fascia board back to the house wall -- serves a dual purpose on Montclair homes that most homeowners never consciously consider until problems emerge. Functionally, vented soffit panels provide the attic intake airflow that balances ridge ventilation, controlling temperature and moisture in the attic space. Aesthetically, soffits create the finished ceiling of deep eave overhangs that are among the defining architectural features of Montclair\'s Arts & Crafts bungalows, Victorian porches, and Tudor half-timber homes.',
     'Ventilation inadequacy through deteriorated or blocked soffits contributes directly to the ice dam problems and attic moisture issues that Montclair homeowners identify among their most frustrating winter challenges. When soffit vents are clogged by paint buildup, insulation displacement, or debris from the tree canopy above, attic air stagnates. Trapped heat melts snow on the upper roof surface, sending meltwater down to the cold eave where it refreezes as ice dams. Trapped moisture condenses on cold attic surfaces, promoting mold growth and structural wood deterioration. Restoring proper soffit ventilation is often the most cost-effective intervention in Montclair\'s cycle of winter roof damage.',
     'Our [soffit installation and repair](/soffit-installation-repair) work across [Montclair](/roofing-in-montclair-nj) addresses both the functional ventilation role and the aesthetic requirements of the township\'s architecturally significant housing stock. Victorian homes with ornamental bracket-supported eaves need soffit work that preserves the decorative rafter tail and bracket details visible within the eave space. Arts & Crafts bungalows with exposed rafter tails and open-look eaves require ventilation solutions that work without the continuous soffit panels used on enclosed-eave construction. Each architectural period presents a different soffit configuration that demands period-specific repair approaches.',
     'Properties in neighboring [Glen Ridge](/soffit-installation-repair-glen-ridge-nj) and [Verona](/soffit-installation-repair-verona-nj) share similar vintage housing stock, but Montclair\'s concentration of deep-eave, ornamental-soffit architecture makes this a higher-frequency service category than in municipalities dominated by simpler colonial and ranch construction.'
@@ -35,7 +35,25 @@ export const montclairSoffitInstallationRepair: ComboContent = {
     {
       question: 'How do you prevent squirrels from entering through soffit vents?',
       answer: 'We install galvanized steel or stainless steel screening behind all soffit ventilation openings. The screen mesh size is small enough to exclude squirrels, birds, and bats while maintaining the airflow the ventilation system requires. Standard insect screen is not sufficient -- squirrels can chew through aluminum window screen within minutes. The hardware-cloth grade screening we install resists gnawing and maintains its integrity for the life of the soffit installation. At known entry points, we reinforce the screening with additional framing and metal flashing that prevents animals from prying open panel edges.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Montclair, NJ?',
+      answer: 'Most soffit installation repair projects in Montclair range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Montclair NJ -- vented soffit systems for Victorian eaves and Arts & Crafts bungalow overhangs.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

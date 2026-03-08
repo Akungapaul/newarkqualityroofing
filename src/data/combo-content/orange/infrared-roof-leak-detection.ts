@@ -4,7 +4,7 @@ export const orangeInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'orange',
   overview: [
-    'Infrared roof leak detection pinpoints the exact location where water enters Orange\'s commercial and residential roofs, eliminating the guesswork that turns simple leaks into expensive multi-repair projects. Our [infrared roof leak detection](/infrared-roof-leak-detection) technology identifies moisture trapped beneath membranes and within roof assemblies by detecting the thermal signature differences between wet and dry materials -- wet insulation holds heat longer after sunset, creating warm spots on the thermal image that mark the leak pathway with precision measured in inches rather than feet.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Orange — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection pinpoints the exact location where water enters Orange\'s commercial and residential roofs, eliminating the guesswork that turns simple leaks into expensive multi-repair projects. Our [infrared roof leak detection](/infrared-roof-leak-detection) technology identifies moisture trapped beneath membranes and within roof assemblies by detecting the thermal signature differences between wet and dry materials -- wet insulation holds heat longer after sunset, creating warm spots on the thermal image that mark the leak pathway with precision measured in inches rather than feet.',
     'On Orange\'s multi-layer commercial roofs, where water can travel significant lateral distances between membrane layers before appearing inside the building, infrared detection is often the only practical way to locate the actual entry point. A ceiling stain on the second floor of a Main Street mixed-use building may originate from a membrane breach 20 feet away on the roof -- and traditional leak investigation would require opening the entire roof between the stain and the most likely entry areas. Infrared scanning maps the moisture trail across the full roof surface in a single evening, identifying both the entry point and the migration path.',
     'For Orange homeowners in the Valley neighborhood, where moisture approaches from multiple directions, infrared scanning distinguishes between roof leaks entering from above and condensation moisture accumulating from below. This distinction is critical because the remediation is entirely different -- a roof leak needs surface repair while condensation moisture needs ventilation and vapor barrier improvement. Without infrared data, repair work may address the wrong moisture source and fail to solve the problem. Homeowners across [East Orange](/infrared-roof-leak-detection-east-orange-nj) use the same technology when standard leak investigation fails to identify elusive moisture sources.'
   ],
@@ -34,7 +34,25 @@ export const orangeInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'Does the scan damage my Orange roof?',
       answer: 'The infrared scan itself is completely non-destructive -- the camera reads thermal energy without touching the roof surface. Follow-up core sampling at anomaly locations creates small holes that are patched and sealed immediately. The total impact is far less than the exploratory membrane cuts that traditional leak investigation requires.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Orange, NJ?',
+      answer: 'Most infrared roof leak detection projects in Orange range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Orange NJ -- thermal moisture mapping, Main Street commercial scanning, Valley condensation diagnosis, and targeted repair.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

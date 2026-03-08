@@ -4,7 +4,7 @@ export const northCaldwellSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'Spray polyurethane foam roofing provides a specialized solution for North Caldwell properties with flat roof sections where seamless insulation and waterproofing in a single application delivers advantages that multi-component systems cannot match. The SPF process sprays liquid chemicals directly onto the existing roof surface, creating a monolithic insulated membrane that conforms to every penetration, curb, and irregular geometry without seams, joints, or mechanical fasteners that could become future failure points.',
+    'Newark Quality Roofing delivers expert spray foam roofing in North Caldwell — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing provides a specialized solution for North Caldwell properties with flat roof sections where seamless insulation and waterproofing in a single application delivers advantages that multi-component systems cannot match. The SPF process sprays liquid chemicals directly onto the existing roof surface, creating a monolithic insulated membrane that conforms to every penetration, curb, and irregular geometry without seams, joints, or mechanical fasteners that could become future failure points.',
     'For North Caldwell estate homes with flat garage wings, enclosed porches, or connecting sections between multi-level roof planes, [spray foam roofing](/spray-foam-roofing) simplifies what would otherwise require separate insulation, membrane, and flashing installations. The foam fills irregular cavities around penetrations and at wall junctions automatically, eliminating the hand-fabricated flashing details that represent the most labor-intensive and failure-prone elements of conventional flat roof systems.',
     'Our SPF applications in [North Caldwell](/roofing-in-north-caldwell-nj) use closed-cell polyurethane foam sprayed to a minimum two-inch thickness, providing both R-13 minimum insulation value and seamless waterproofing. The foam is protected by an elastomeric silicone or acrylic coating that shields the UV-sensitive polyurethane from sunlight degradation. This coating is the renewable element of the system -- recoated every ten to fifteen years to maintain protection while the underlying foam remains intact for decades. Property owners in neighboring [Caldwell](/spray-foam-roofing-caldwell-nj) have adopted SPF for similar residential flat roof applications.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellSprayFoamRoofing: ComboContent = {
     {
       question: 'Can spray foam be applied over my existing flat roof?',
       answer: 'In many cases, yes. SPF can be applied directly over existing EPDM, BUR, modified bitumen, and metal surfaces after proper cleaning and priming. This eliminates tear-off costs and construction debris. We evaluate the existing roof condition to ensure the substrate is sound, dry, and properly adhered before spraying. If the existing insulation is wet or the deck shows deterioration, tear-off and repair are necessary before SPF application.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in North Caldwell, NJ?',
+      answer: 'Most spray foam roofing projects in North Caldwell range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in North Caldwell NJ -- seamless SPF systems for estate home flat sections with built-in insulation and waterproofing.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

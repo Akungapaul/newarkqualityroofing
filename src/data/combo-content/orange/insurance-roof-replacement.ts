@@ -4,7 +4,7 @@ export const orangeInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Insurance roof replacement in Orange navigates the claims process that follows storm damage, fallen trees, and weather events that damage roofs beyond repair. Our [insurance roof replacement](/insurance-roof-replacement) team handles the documentation, adjuster coordination, and scope negotiation that Orange homeowners need when their insurance company is paying for a new roof. We know the coverage requirements, supplemental processes, and approval timelines that Essex County insurance adjusters follow, and we advocate for our Orange clients to receive the full replacement scope their policies cover.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Orange — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Orange navigates the claims process that follows storm damage, fallen trees, and weather events that damage roofs beyond repair. Our [insurance roof replacement](/insurance-roof-replacement) team handles the documentation, adjuster coordination, and scope negotiation that Orange homeowners need when their insurance company is paying for a new roof. We know the coverage requirements, supplemental processes, and approval timelines that Essex County insurance adjusters follow, and we advocate for our Orange clients to receive the full replacement scope their policies cover.',
     'South Mountain\'s tree canopy makes Orange one of the most active insurance claim areas in Essex County for roof damage. Major storms send branches crashing onto roofs along Hillyer Street, South Valley Road, and throughout the mountain-adjacent neighborhoods. A single large oak limb can puncture through shingles and decking, causing structural damage that requires full replacement rather than repair. Our emergency response teams secure the damage immediately to prevent interior water damage, then document the full scope of impact for the insurance claim.',
     'The insurance claim process in Orange requires specific documentation that generic contractors often fail to provide. Insurance adjusters need photographed evidence of storm damage versus pre-existing deterioration, measured scope of damage in roofing industry standard quantities (squares, linear feet, penetration counts), and material specifications that match the quality of the original installation. Our claims documentation packages satisfy these requirements, reducing the back-and-forth negotiations that delay replacement approval. Homeowners in [West Orange](/insurance-roof-replacement-west-orange-nj) benefit from the same adjuster-ready documentation on their hillside storm damage claims.'
   ],
@@ -34,7 +34,25 @@ export const orangeInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Can I choose any contractor for my Orange insurance roof replacement?',
       answer: 'Yes. Your insurance policy gives you the right to select your own contractor. The insurance company may recommend contractors, but you are not required to use them. We recommend choosing a contractor experienced with insurance claims who can advocate for proper scope and quality, rather than a contractor who simply installs whatever the adjuster approves without question.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Orange, NJ?',
+      answer: 'Most insurance roof replacement projects in Orange range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Orange NJ -- storm damage claims, adjuster coordination, South Mountain tree impact, and supplemental scope documentation.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

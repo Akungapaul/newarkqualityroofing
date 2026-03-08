@@ -4,7 +4,7 @@ export const maplewoodStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'maplewood',
   overview: [
-    'Storm damage in Maplewood carries a signature that distinguishes it from every other Essex County township we serve. South Mountain Reservation funnels wind through the gap between the First and Second Watchung Mountains, accelerating gusts onto the western neighborhoods of Hilton, Jefferson Village, and the Prospect Street corridor. This topographic wind channeling means that storm damage in western Maplewood is measurably more severe than damage on the township\'s eastern flatlands near the Irvington border. Our [storm damage roof repair](/storm-damage-roof-repair) protocols account for this geographic disparity, dispatching enhanced assessment teams to the mountain-edge zones first.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Maplewood — with prices starting from $500–$3,000 and free estimates available today. Storm damage in Maplewood carries a signature that distinguishes it from every other Essex County township we serve. South Mountain Reservation funnels wind through the gap between the First and Second Watchung Mountains, accelerating gusts onto the western neighborhoods of Hilton, Jefferson Village, and the Prospect Street corridor. This topographic wind channeling means that storm damage in western Maplewood is measurably more severe than damage on the township\'s eastern flatlands near the Irvington border. Our [storm damage roof repair](/storm-damage-roof-repair) protocols account for this geographic disparity, dispatching enhanced assessment teams to the mountain-edge zones first.',
     'Tree-impact damage is Maplewood\'s most dramatic storm consequence. The Reservation\'s unmanaged forest produces dead standing timber, widow-maker branches lodged in upper canopies, and root systems compromised by saturated soil during prolonged rain events. When storms bring sustained winds above 50 mph, these compromised trees shed limbs or topple entirely onto homes along Wyoming Avenue, Crestwood Drive, and upper Prospect Street. The resulting damage ranges from punctured shingles and crushed ridge caps to catastrophic structural failure requiring complete roof reconstruction. Properties in [West Orange](/storm-damage-roof-repair-west-orange-nj) along the same mountain ridge face identical exposure.',
     'Beyond wind and tree damage, Maplewood\'s Victorian and Tudor housing stock suffers storm impacts that simpler roof geometries resist. Multi-gable Victorian roofs present dozens of edges, valleys, and intersections where wind uplift can separate materials. Decorative elements like vergeboard trim, ridge cresting, and turret finials act as wind catches that concentrate uplift forces. Tudor roofs with steep pitches generate higher wind loads on the leeward side, creating suction that pulls shingles, slates, or metal panels away from the deck. Understanding these architectural vulnerabilities shapes our [Maplewood](/roofing-in-maplewood-nj) storm repair approach.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodStormDamageRoofRepair: ComboContent = {
       question: 'How can I reduce storm damage risk on my Maplewood property?',
       answer: 'For Reservation-border properties, the most impactful steps are professional tree assessment and selective limb removal to reduce overhead hazard, enhanced gutter guard systems to prevent debris-driven water backup, and high-wind-rated roofing materials specified during your next replacement. Annual maintenance inspections that identify and address vulnerable flashing and fastener conditions before storm season also significantly reduce damage severity.',
     },
+    {
+      question: 'How much does storm damage roof repair cost in Maplewood, NJ?',
+      answer: 'Most storm damage roof repair projects in Maplewood range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Maplewood NJ. Tree impact restoration, insurance claims for historic homes, and South Mountain wind damage repair.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

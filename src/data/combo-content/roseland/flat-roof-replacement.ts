@@ -4,7 +4,7 @@ export const roselandFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Flat roof replacement in Roseland addresses both the commercial membrane systems on the borough\'s office buildings and the residential flat sections on ranch home additions, enclosed porches, and split-level lower roofs that have reached end of life. When membrane deterioration becomes systemic -- widespread seam failure, saturated insulation, or chronic ponding damage -- replacement with modern membrane systems and properly tapered insulation restores weathertight performance for the next 25 to 30 years. Our [flat roof replacement](/flat-roof-replacement) service specifies and installs the membrane system matched to each building\'s specific requirements.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Roseland — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Roseland addresses both the commercial membrane systems on the borough\'s office buildings and the residential flat sections on ranch home additions, enclosed porches, and split-level lower roofs that have reached end of life. When membrane deterioration becomes systemic -- widespread seam failure, saturated insulation, or chronic ponding damage -- replacement with modern membrane systems and properly tapered insulation restores weathertight performance for the next 25 to 30 years. Our [flat roof replacement](/flat-roof-replacement) service specifies and installs the membrane system matched to each building\'s specific requirements.',
     'Commercial flat roof replacement on Roseland\'s Eisenhower Parkway office buildings represents the largest-scale roofing work in the borough. These replacements involve thousands of square feet of membrane, dozens of penetration flashings, and coordination with facility management teams who must maintain building operations throughout the project. The system specification addresses not just waterproofing but energy code compliance, wind-uplift engineering, and the equipment integration that corporate buildings demand.',
     'Residential flat roof replacement on Roseland homes resolves the chronic leak problems that aging flat sections produce. The original flat-roof construction on 1960s-era additions and porches used materials and techniques that have been surpassed by modern membrane technology. EPDM, TPO, and modified bitumen replacement systems deliver dramatically improved performance over the original tar-and-gravel or roll-roofing systems they replace. Homeowners in [South Orange](/flat-roof-replacement-south-orange-nj) undertake similar flat-section replacements on their mid-century residential additions.'
   ],
@@ -34,7 +34,25 @@ export const roselandFlatRoofReplacement: ComboContent = {
     {
       question: 'How is a flat roof replacement performed on an occupied building?',
       answer: 'We phase the replacement into work zones that can be completed and made weathertight within a single day. Each zone is stripped, re-insulated, and membraned before the adjacent zone is opened. This phased approach prevents overnight exposure of the building interior. For commercial buildings, work scheduling coordinates with tenant needs to minimize noise and access disruption during business hours.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Roseland, NJ?',
+      answer: 'Most flat roof replacement projects in Roseland range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Roseland NJ -- TPO, EPDM, and modified bitumen with tapered drainage for commercial and residential flat sections.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

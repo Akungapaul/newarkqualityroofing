@@ -4,7 +4,7 @@ export const millburnEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'millburn',
   overview: [
-    'Energy-efficient roofing on Millburn estates addresses the thermal performance of the building envelope\'s largest exposed surface -- a surface that on Short Hills properties may encompass three thousand or more square feet of area absorbing solar radiation, conducting heat between interior and exterior environments, and radiating stored energy through long winter nights. The combination of premium insulation systems, reflective or high-emittance roofing materials, and proper ventilation engineering transforms the roof from a passive weather barrier into an active component of the home\'s energy management system.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Millburn — with prices starting from $10,000–$28,000 and free estimates available today. Energy-efficient roofing on Millburn estates addresses the thermal performance of the building envelope\'s largest exposed surface -- a surface that on Short Hills properties may encompass three thousand or more square feet of area absorbing solar radiation, conducting heat between interior and exterior environments, and radiating stored energy through long winter nights. The combination of premium insulation systems, reflective or high-emittance roofing materials, and proper ventilation engineering transforms the roof from a passive weather barrier into an active component of the home\'s energy management system.',
     'Millburn homeowners who operate large residences with substantial heating and cooling loads recognize that the roof\'s thermal contribution to energy consumption is proportionally significant. A poorly insulated roof assembly on a ten-thousand-square-foot estate can add thousands of dollars annually to HVAC operating costs through summer heat gain and winter heat loss. Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) practice quantifies these energy flows and specifies roofing system upgrades that deliver measurable reductions in heating and cooling consumption -- improvements that compound annually over the roof system\'s twenty-to-fifty-year service life.',
     'The township\'s building stock includes homes ranging from century-old construction with minimal insulation to contemporary custom builds with high-performance building envelopes. Each property\'s energy-efficiency opportunity is different. An 1890s Victorian in the Wyoming Historic District may benefit most from attic insulation upgrades that code-required re-roofing work exposes for improvement. A 2005 colonial in the Short Hills section may benefit from radiant-barrier installation that reduces summer attic temperatures without modifying the existing insulation. We evaluate each property individually and recommend the improvements that deliver the greatest return for that specific building.'
   ],
@@ -34,7 +34,25 @@ export const millburnEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'What R-value should my attic insulation achieve?',
       answer: 'Current New Jersey energy code requires R-49 for attic insulation in new construction and major renovations. Many existing Millburn homes have attic insulation at R-19 to R-30 -- adequate by the standards of their construction era but below current requirements and the level where diminishing returns begin. Upgrading to R-49 with blown cellulose or fiberglass over existing insulation is typically cost-effective and can be performed without roofing work, though combining the upgrade with a re-roofing project provides access advantages on complex attic geometries.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Millburn, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Millburn range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy-efficient roofing for Millburn estates. Attic insulation, radiant barriers, ventilation optimization, and thermal-performance upgrades for Short.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

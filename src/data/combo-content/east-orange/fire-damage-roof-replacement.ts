@@ -4,7 +4,7 @@ export const eastOrangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Fire damage roof replacement in East Orange addresses the structural and waterproofing restoration that follows fire events on the city\'s multi-family buildings, commercial properties, and residential homes. Fire damage to roof systems ranges from localized charring that weakens sheathing and melts roofing material in a small area to complete structural destruction that requires rebuilding the roof framing from the top plates up. [Fire damage replacement](/fire-damage-roof-replacement) on East Orange\'s densely spaced buildings carries the additional complexity of protecting adjacent structures during reconstruction and meeting the fire-rating code requirements that apply when repair permits trigger code compliance on the restored section.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in East Orange — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in East Orange addresses the structural and waterproofing restoration that follows fire events on the city\'s multi-family buildings, commercial properties, and residential homes. Fire damage to roof systems ranges from localized charring that weakens sheathing and melts roofing material in a small area to complete structural destruction that requires rebuilding the roof framing from the top plates up. [Fire damage replacement](/fire-damage-roof-replacement) on East Orange\'s densely spaced buildings carries the additional complexity of protecting adjacent structures during reconstruction and meeting the fire-rating code requirements that apply when repair permits trigger code compliance on the restored section.',
     'Multi-family building fires in East Orange create immediate displacement of multiple tenant households and trigger insurance claims involving landlord property coverage, tenant renter\'s insurance, and potentially liability coverage if the fire originated from building system failure. The roof replacement scope is one component of a comprehensive building restoration, and our work is coordinated with the general contractor, structural engineer, fire marshal\'s office, and insurance adjuster who collectively manage the restoration project.',
     'Fire-damaged buildings in East Orange\'s dense residential neighborhoods may transfer heat, smoke, and water damage to adjacent properties through shared party walls and narrow clearances. Roof replacement on the fire-damaged building must assess and address any damage to the shared party wall flashing system, adjacent building exposure, and structural integrity at the property line. This multi-property impact consideration adds scope and coordination requirements that standalone fire damage projects in detached building settings do not encounter, similar to the adjacency challenges on fire-damaged row houses in [Newark](/fire-damage-roof-replacement-newark-nj).'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Will the restored roof section match the existing roof on my East Orange building?',
       answer: 'We match the replacement materials to the existing roof as closely as possible -- same shingle type, color, and manufacturer when available. Some weathering difference between new and existing materials is unavoidable. On buildings where the existing roof is nearing end of life, the property owner may elect to replace the entire roof during the fire restoration to achieve uniform appearance and avoid re-roofing the undamaged sections separately in the near future.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in East Orange, NJ?',
+      answer: 'Most fire damage roof replacement projects in East Orange range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement for East Orange NJ buildings -- structural restoration, insurance coordination, and code-compliant rebuilding after fire.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

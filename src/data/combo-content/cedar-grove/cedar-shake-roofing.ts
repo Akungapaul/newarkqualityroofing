@@ -4,7 +4,7 @@ export const cedarGroveCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'Cedar shake roofing brings a premium natural aesthetic to Cedar Grove\'s wooded residential landscape, where the hand-split texture and warm reddish-brown tones of western red cedar complement the mature hardwood canopy and established garden settings that define the township. Installing cedar shakes in this northern Essex County community requires specialized knowledge of how the local microclimate -- persistent shade from the dense tree cover, heavier moisture exposure from the Watchung Mountain slope, and extended freeze-thaw seasons -- affects the longevity and maintenance requirements of natural cedar roofing material.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Cedar Grove — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing brings a premium natural aesthetic to Cedar Grove\'s wooded residential landscape, where the hand-split texture and warm reddish-brown tones of western red cedar complement the mature hardwood canopy and established garden settings that define the township. Installing cedar shakes in this northern Essex County community requires specialized knowledge of how the local microclimate -- persistent shade from the dense tree cover, heavier moisture exposure from the Watchung Mountain slope, and extended freeze-thaw seasons -- affects the longevity and maintenance requirements of natural cedar roofing material.',
     'Cedar Grove\'s ranch-dominant housing stock presents an installation challenge that distinguishes our work here from [cedar shake roofing](/cedar-shake-roofing) projects in communities with steeper-pitched homes. The 4:12 to 5:12 slopes typical of Cedar Grove ranches require reduced shake exposure, enhanced underlayment coverage, and meticulous ventilation detailing to ensure that moisture does not become trapped beneath the shake field. Neighboring [Montclair](/cedar-shake-roofing-montclair-nj) features steeper Victorian and Tudor rooflines where drainage is less of a concern, but Cedar Grove\'s shallow ranch geometry demands a contractor who treats every detail as a moisture management decision.',
     'The distinction between cedar shakes and wood shakes matters technically, even though homeowners often use the terms interchangeably. Cedar shakes are split from western red cedar bolts along the natural grain, producing the characteristic rough-textured face and tapered profile that gives cedar roofing its signature look. The natural oils in western red cedar provide inherent resistance to insect damage and biological decay -- qualities particularly valuable in Cedar Grove\'s humid, shaded environment where less resistant wood species would deteriorate rapidly.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveCedarShakeRoofing: ComboContent = {
       question: 'Do cedar shakes cost more than asphalt shingles on a Cedar Grove home?',
       answer: 'Cedar shake roofing costs approximately two and a half to three times more than architectural asphalt shingles for a typical Cedar Grove ranch. However, cedar shakes last twenty-five to thirty years with maintenance compared to twenty years for shingles -- and Cedar Grove\'s low-pitch ranch roofs often shorten shingle life to fifteen years due to moisture retention. Over a forty-year ownership period, cedar shakes can approach cost parity with two shingle replacements while providing a dramatically more distinctive appearance.',
     },
+    {
+      question: 'How much does cedar shake roofing cost in Cedar Grove, NJ?',
+      answer: 'Most cedar shake roofing projects in Cedar Grove range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Cedar Grove NJ -- premium hand-split cedar for ranch homes with low-pitch detailing and shade-environment maintenance plans.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

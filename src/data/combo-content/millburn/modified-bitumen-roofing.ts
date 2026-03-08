@@ -4,7 +4,7 @@ export const millburnModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'millburn',
   overview: [
-    'Modified bitumen roofing in Millburn delivers a multi-layer waterproofing solution valued by commercial property owners and estate homeowners who need a flat-roof membrane system that tolerates foot traffic, resists punctures from falling tree debris, and provides redundant weather protection through built-up layers rather than single-membrane reliance. The boutique commercial buildings along Millburn Avenue, the professional offices near the Short Hills station, and the flat-roof sections on estate additions all present applications where modified bitumen\'s rugged performance profile addresses conditions that thinner single-ply membranes handle less effectively.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Millburn — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing in Millburn delivers a multi-layer waterproofing solution valued by commercial property owners and estate homeowners who need a flat-roof membrane system that tolerates foot traffic, resists punctures from falling tree debris, and provides redundant weather protection through built-up layers rather than single-membrane reliance. The boutique commercial buildings along Millburn Avenue, the professional offices near the Short Hills station, and the flat-roof sections on estate additions all present applications where modified bitumen\'s rugged performance profile addresses conditions that thinner single-ply membranes handle less effectively.',
     'On Millburn estate properties, modified bitumen is specified where the flat-roof section will serve as an accessible terrace, a heavily trafficked maintenance path to rooftop equipment, or a surface exposed to concentrated debris from overhanging tree canopy. The material\'s granulated cap sheet surface provides traction for foot traffic without supplemental walk pads, and its multi-ply construction absorbs puncture loads from acorn drops, branch impacts, and the seasonal debris that Millburn\'s mature landscape deposits on every flat surface. Our [modified bitumen roofing](/modified-bitumen-roofing) installations combine this durability with the aesthetic edge detailing that estate properties require.',
     'Commercial applications along the Millburn Avenue corridor benefit from modified bitumen\'s ability to accommodate the rooftop equipment density typical of small commercial buildings where HVAC units, exhaust fans, and ductwork penetrate the membrane at close intervals. Each penetration receives a reinforced collar that bonds integrally with the multi-layer system, creating a more robust seal than the single-layer flashing boots used on TPO or EPDM systems. For property owners managing older commercial buildings with histories of chronic flat-roof leaks, modified bitumen\'s redundant layering provides the confidence that a single membrane system may not.'
   ],
@@ -34,7 +34,25 @@ export const millburnModifiedBitumenRoofing: ComboContent = {
     {
       question: 'What maintenance does a modified bitumen roof require in Millburn?',
       answer: 'Annual maintenance includes debris removal -- particularly important under Millburn\'s tree canopy where leaf and branch accumulation traps moisture against the membrane -- drain and scupper clearing, visual inspection of seams and flashings, and granule-condition assessment on the cap sheet surface. Every three to five years, reflective coating application over the granulated surface can extend membrane life by reducing UV exposure and thermal cycling stress. We include modified bitumen roofs in our commercial and estate maintenance programs with inspection schedules calibrated to the specific property conditions.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Millburn, NJ?',
+      answer: 'Most modified bitumen roofing projects in Millburn range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing for Millburn commercial properties and estate flat-roof sections. Multi-layer waterproofing with torch, cold-adhesive, or.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

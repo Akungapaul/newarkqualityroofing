@@ -4,7 +4,7 @@ export const irvingtonRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'irvington',
   overview: [
-    'Roof thermal imaging inspections have become an essential diagnostic tool for Irvington\'s commercial property owners and real estate investors who need accurate, non-destructive assessments of roof condition before committing to repair-or-replace decisions. Our [thermal imaging inspections](/roof-thermal-imaging-inspections) across Irvington use infrared camera technology to reveal moisture trapped beneath the membrane surface -- damage that is invisible during conventional visual inspections but that determines whether a roof can be restored or must be replaced.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Irvington — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections have become an essential diagnostic tool for Irvington\'s commercial property owners and real estate investors who need accurate, non-destructive assessments of roof condition before committing to repair-or-replace decisions. Our [thermal imaging inspections](/roof-thermal-imaging-inspections) across Irvington use infrared camera technology to reveal moisture trapped beneath the membrane surface -- damage that is invisible during conventional visual inspections but that determines whether a roof can be restored or must be replaced.',
     'The investment property market in Irvington creates strong demand for thermal imaging as a pre-purchase due diligence tool. Buyers acquiring commercial buildings along Springfield Avenue or industrial properties near Route 78 need to know the true condition of the roof before closing -- a condition that visual inspection alone cannot reliably determine. Thermal imaging during evening hours when the roof surface is cooling reveals moisture-laden insulation areas that retain heat longer than dry sections, producing a heat map that quantifies the extent of hidden damage.',
     'Insurance claim documentation is a secondary application for thermal imaging on Irvington commercial properties. After storm events, thermal imaging identifies moisture intrusion areas that may not have produced visible interior damage yet, supporting insurance claims for comprehensive repair before secondary damage develops. Property managers in [Newark](/roof-thermal-imaging-inspections-newark-nj) use thermal imaging for similar diagnostic and documentation purposes on their commercial portfolios, though Irvington\'s concentrated commercial corridors allow efficient multi-building scanning in a single evening session.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofThermalImagingInspections: ComboContent = {
       question: 'Can thermal imaging detect leaks on residential roofs in Irvington?',
       answer: 'Thermal imaging is most effective on flat and low-slope commercial roofs where insulation traps moisture beneath the membrane. Residential pitched roofs with attic spaces can be thermally scanned from the attic interior to identify missing insulation and air leakage paths, but moisture detection in pitched roof systems is less reliable than on flat commercial applications.',
     },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Irvington, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Irvington range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging in Irvington NJ for commercial and investment properties. Non-destructive infrared moisture detection for repair-or-replace decisions.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

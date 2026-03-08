@@ -4,7 +4,7 @@ export const bloomfieldAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Aging roof replacement in Bloomfield addresses the proactive decision to replace a roof that is approaching or past its expected service life before catastrophic failure forces emergency action. The mid-century Cape Cods, colonials, and split-levels that make up most of Bloomfield\'s housing stock are now on their second or third roofing cycle, and homeowners who recognize the signs of aging -- granule loss in gutters, curling shingle edges, dark streaks from algae growth, and multiple previous repairs -- face the choice between replacing now on their own schedule or waiting for the next leak to dictate the timing.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Bloomfield — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Bloomfield addresses the proactive decision to replace a roof that is approaching or past its expected service life before catastrophic failure forces emergency action. The mid-century Cape Cods, colonials, and split-levels that make up most of Bloomfield\'s housing stock are now on their second or third roofing cycle, and homeowners who recognize the signs of aging -- granule loss in gutters, curling shingle edges, dark streaks from algae growth, and multiple previous repairs -- face the choice between replacing now on their own schedule or waiting for the next leak to dictate the timing.',
     'Proactive replacement on Bloomfield\'s aging roofs delivers practical advantages over emergency-driven replacement. Homeowners control the timing, avoiding the premium pricing and limited material selection that emergency situations command. They can plan the budget, secure financing if needed, and schedule the project during favorable weather. They can coordinate related work -- gutters, fascia, ventilation -- into a single project. And they avoid the interior damage costs that an active leak causes before emergency replacement can be completed.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners evaluating whether their aging roof needs replacement now or can deliver a few more years, our assessment provides the honest data that supports informed timing. We evaluate remaining shingle life based on material condition, not just calendar age. A well-ventilated roof with quality shingles on the north slope of a Bloomfield colonial may have years of remaining life, while the south slope of the same roof may be nearing failure from accelerated UV exposure. We assess each roof plane independently and present a realistic timeline so homeowners can plan rather than guess.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldAgingRoofReplacement: ComboContent = {
     {
       question: 'Does aging roof replacement qualify for insurance coverage in Bloomfield?',
       answer: 'No. Insurance covers damage from sudden events -- storms, hail, fire, falling objects -- but does not cover replacement due to normal aging and wear. Aging roof replacement is a maintenance expense funded by the homeowner. If your aging roof sustains storm damage, the storm damage may be covered, but the pre-existing aging condition reduces the claim value because the adjustor accounts for the roof\'s diminished pre-storm condition.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most aging roof replacement projects in Bloomfield range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Bloomfield NJ -- proactive re-roofing for Cape Cods, colonials, and split-levels reaching end of shingle life.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

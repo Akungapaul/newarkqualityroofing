@@ -4,7 +4,7 @@ export const fairfieldHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'fairfield',
   overview: [
-    'Historic roof restoration in Fairfield addresses a smaller but significant segment of the township\'s building stock that predates the mid-century suburban development defining most of the community. Scattered farmhouses, early twentieth-century homes along Fairfield Road, and several civic and commercial structures from the township\'s agricultural era carry original roofing materials and architectural details that merit preservation rather than replacement with modern alternatives. While Fairfield\'s historic inventory is modest compared to [Montclair](/historic-roof-restoration-montclair-nj) or [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) -- communities where preservation commissions regulate exterior modifications -- the township\'s pre-war buildings present restoration opportunities that require specialized materials and techniques.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Fairfield — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Fairfield addresses a smaller but significant segment of the township\'s building stock that predates the mid-century suburban development defining most of the community. Scattered farmhouses, early twentieth-century homes along Fairfield Road, and several civic and commercial structures from the township\'s agricultural era carry original roofing materials and architectural details that merit preservation rather than replacement with modern alternatives. While Fairfield\'s historic inventory is modest compared to [Montclair](/historic-roof-restoration-montclair-nj) or [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) -- communities where preservation commissions regulate exterior modifications -- the township\'s pre-war buildings present restoration opportunities that require specialized materials and techniques.',
     'The farmhouse properties scattered through Fairfield\'s residential areas represent the township\'s connection to its agricultural past. These structures, some dating to the late nineteenth century, feature steeply pitched roofs with original wood shake, slate, or early asphalt shingle installations that have survived decades through periodic patching and repair. Full restoration of these roofs involves matching original materials, replicating period-appropriate flashing details, and addressing the structural settling that century-old timber framing develops over time. Our [historic roof restoration](/historic-roof-restoration) approach preserves the character that makes these Fairfield properties architecturally significant.',
     'Commercial historic restoration in Fairfield focuses on the older buildings along Fairfield Road and in the original township center that predate the Route 46 commercial corridor development. These buildings -- some with decorative cornices, pressed-tin details, and original slate roofing -- represent Fairfield\'s pre-highway commercial identity. Restoration work on these structures balances historical authenticity with modern waterproofing performance, using techniques and materials that honor the original construction while meeting current building code requirements for weather protection and structural adequacy.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldHistoricRoofRestoration: ComboContent = {
     {
       question: 'Can you add modern waterproofing to a historically restored Fairfield roof?',
       answer: 'Yes, and we always recommend it. Modern self-adhering ice-and-water barriers, synthetic underlayments, and enhanced flashing systems are installed beneath the historically accurate surface materials where they provide superior waterproofing without being visible from the exterior. This hidden modernization approach is standard practice in preservation-quality restoration and gives Fairfield property owners the best of both worlds: authentic historical appearance with contemporary weather protection performance.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Fairfield, NJ?',
+      answer: 'Most historic roof restoration projects in Fairfield range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Fairfield NJ. Period-accurate slate, wood shake, and metal restoration for farmhouses and pre-war buildings.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

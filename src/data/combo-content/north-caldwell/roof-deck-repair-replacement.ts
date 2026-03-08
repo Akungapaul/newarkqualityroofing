@@ -4,7 +4,7 @@ export const northCaldwellRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Roof deck repair on North Caldwell estates addresses the structural foundation beneath the visible roofing material -- the plywood or board sheathing that spans between rafters and provides the surface that everything above it attaches to. When the deck deteriorates from moisture intrusion, the entire roof system above it is compromised regardless of how premium the surface material may be. A slate roof is only as solid as the deck it sits on, and North Caldwell estate homes with complex multi-level roof systems have extensive deck area where hidden deterioration can develop undetected for years.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in North Caldwell — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair on North Caldwell estates addresses the structural foundation beneath the visible roofing material -- the plywood or board sheathing that spans between rafters and provides the surface that everything above it attaches to. When the deck deteriorates from moisture intrusion, the entire roof system above it is compromised regardless of how premium the surface material may be. A slate roof is only as solid as the deck it sits on, and North Caldwell estate homes with complex multi-level roof systems have extensive deck area where hidden deterioration can develop undetected for years.',
     'Our [roof deck repair](/roof-deck-repair-replacement) work in North Caldwell typically occurs during re-roofing projects when the existing surface material is removed and the deck is exposed for inspection. The scope of deck damage ranges from localized soft spots at chronic leak locations to extensive sheathing deterioration across entire roof sections where ventilation failure allowed moisture accumulation over decades. The extent of deck repair needed is often the biggest variable in re-roofing cost estimates on older North Caldwell homes.',
     'Proactive deck assessment without full roof removal is possible through targeted inspection from inside the attic. We check sheathing condition at vulnerable locations -- eaves where ice dams have formed, valleys where water concentrates, areas beneath compromised flashings, and sections over bathrooms and kitchens where interior moisture migrates upward. This pre-project assessment gives [North Caldwell](/roofing-in-north-caldwell-nj) homeowners a realistic preview of the deck condition before committing to a re-roofing project where deck repair costs could significantly exceed the initial surface material estimate. Homeowners in [Caldwell](/roof-deck-repair-replacement-caldwell-nj) benefit from similar pre-project deck evaluations.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Can deck repair be done from inside the attic without removing the roof?',
       answer: 'In limited cases, small areas of deck deterioration accessible from the attic can be reinforced from below by sistering plywood to the existing sheathing. However, this approach is impractical for most deck repair situations because the existing roofing material above creates a water management challenge during the repair. Deck repair is most effectively and economically performed during a re-roofing project when the surface is already removed and full deck access is available.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in North Caldwell, NJ?',
+      answer: 'Most roof deck repair replacement projects in North Caldwell range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in North Caldwell NJ -- structural sheathing restoration for estate homes during re-roofing projects.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

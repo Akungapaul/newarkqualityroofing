@@ -4,7 +4,7 @@ export const bloomfieldCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'bloomfield',
   overview: [
-    'Commercial roof installation in Bloomfield serves a building market segmented by geography and use. Bloomfield Avenue -- the township\'s central commercial artery -- lines both sides with one- and two-story retail, restaurant, and professional office buildings whose flat roofs are approaching or past their design life. The Garden State Parkway corridor through eastern Bloomfield contains strip malls, office parks, and light industrial facilities with larger footprints and higher equipment loads. Scattered through the residential neighborhoods are small commercial and institutional buildings -- day care centers, medical offices, houses of worship, and municipal facilities -- each with roofing needs that fall between residential and full-scale commercial specifications.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Bloomfield — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Bloomfield serves a building market segmented by geography and use. Bloomfield Avenue -- the township\'s central commercial artery -- lines both sides with one- and two-story retail, restaurant, and professional office buildings whose flat roofs are approaching or past their design life. The Garden State Parkway corridor through eastern Bloomfield contains strip malls, office parks, and light industrial facilities with larger footprints and higher equipment loads. Scattered through the residential neighborhoods are small commercial and institutional buildings -- day care centers, medical offices, houses of worship, and municipal facilities -- each with roofing needs that fall between residential and full-scale commercial specifications.',
     'Bloomfield\'s commercial building owners are pragmatic operators who evaluate roofing as a facility cost, not an architectural statement. They want to know three things: how much will it cost, how long will it last, and what happens if it leaks during the warranty period. Our approach to the Bloomfield commercial market reflects this practical orientation. We provide detailed proposals with clear cost breakdowns, realistic lifespan projections based on the specific building conditions and maintenance commitment, and warranty explanations in plain language that identifies exactly what is covered and what maintenance the building owner must perform to keep coverage active.',
     'The Bloomfield Avenue commercial corridor presents a repeating installation scenario: a two-thousand- to five-thousand-square-foot flat roof on a single- or two-story masonry building, currently covered with aging built-up roofing or modified bitumen, with three or four rooftop HVAC units and a mix of plumbing and exhaust vents. These buildings are occupied by tenants who need to continue operating during construction. The standardized nature of this building type allows us to deliver efficient, well-priced installations because our crews encounter familiar conditions, material quantities are predictable, and tenant coordination follows established protocols. For Bloomfield Avenue building owners comparing bids, our pricing reflects this efficiency.',
     'Light industrial and warehouse buildings along the GSP corridor and near Bloomfield\'s eastern border present the township\'s largest commercial roofing projects. These five-thousand- to twenty-thousand-square-foot facilities house distribution operations, contractor workshops, and small manufacturing businesses that generate equipment vibration, chemical exhaust, or thermal demands affecting roof system selection. A welding shop needs a fire-rated roof assembly. A cold storage facility needs above-code insulation values. A distribution warehouse needs a roof that tolerates heavy foot traffic from regular equipment maintenance access. We specify systems matched to each facility\'s operational characteristics rather than defaulting to the lowest-cost generic option.'
@@ -36,7 +36,25 @@ export const bloomfieldCommercialRoofInstallation: ComboContent = {
     {
       question: 'What warranty comes with a commercial roof installation in Bloomfield?',
       answer: 'Standard manufacturer warranties cover membrane material and workmanship for fifteen to twenty years. Enhanced NDL (No Dollar Limit) warranties extending to twenty-five or thirty years are available when the manufacturer inspects the installation and the building owner commits to annual maintenance compliance. We recommend NDL warranties for Bloomfield building owners who plan to hold their properties long-term, as these warranties cover all future repair costs including labor -- eliminating uncertainty about maintenance expenses for the warranty period. Our company also provides a separate five-year workmanship warranty on all installations.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Bloomfield, NJ?',
+      answer: 'Most commercial roof installation projects in Bloomfield range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Bloomfield NJ -- Bloomfield Avenue retail, GSP-corridor industrial, and light commercial with tenant-friendly scheduling.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Aging roof replacement in Orange addresses the largest segment of the city\'s residential roofing market: homes built in the 1930s through 1960s that are on their second or third roof, with current shingles well past their rated 20 to 25-year lifespan. Our [aging roof replacement](/aging-roof-replacement) projects give these homes a fresh start with modern materials that dramatically outperform the roofing they replace -- upgraded wind resistance, enhanced thermal performance, improved aesthetics, and warranties that extend 40 to 50 years rather than the 20-year coverage that the existing shingles carried.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Orange — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Orange addresses the largest segment of the city\'s residential roofing market: homes built in the 1930s through 1960s that are on their second or third roof, with current shingles well past their rated 20 to 25-year lifespan. Our [aging roof replacement](/aging-roof-replacement) projects give these homes a fresh start with modern materials that dramatically outperform the roofing they replace -- upgraded wind resistance, enhanced thermal performance, improved aesthetics, and warranties that extend 40 to 50 years rather than the 20-year coverage that the existing shingles carried.',
     'Orange\'s position as an affordable alternative to neighboring South Orange and Maplewood means the city attracts homebuyers seeking value -- and those buyers frequently inherit aging roofs as part of the purchase. A home inspector\'s note that the roof has five to seven years of remaining life often becomes the trigger for planned replacement. These proactive replacements avoid the emergency scenario of waiting until leaks force action during a nor\'easter. Our aging roof replacement program for Orange homeowners includes pre-purchase inspections, replacement timeline planning, and financing options that allow new owners to address the roof on their schedule rather than waiting for failure.',
     'Aging roof replacement is also the opportunity to correct the ventilation, insulation, and flashing deficiencies that the original construction carried and that previous re-roofing projects perpetuated. Many Orange homes have been re-roofed two or three times without anyone adding ice and water shield, upgrading ventilation, or correcting undersized flashings -- because each re-roofing contractor simply replicated what was there before. Our aging roof replacements bring every component up to current standards, which is why our replacement lasts 30 years while the previous roof lasted only 20. Homeowners in [East Orange](/aging-roof-replacement-east-orange-nj) with similar vintage housing stock make the same systemic upgrade during replacement.'
   ],
@@ -34,7 +34,25 @@ export const orangeAgingRoofReplacement: ComboContent = {
     {
       question: 'How much hidden damage should I expect on my aging Orange roof?',
       answer: 'On Orange homes with roofs past their rated lifespan, we typically find 5 to 15% of the deck area requiring repair or replacement. At historical leak locations -- around chimneys, in valleys, and at wall flashings -- the damage is usually more concentrated. Our estimates include contingency allowances based on the roof\'s age and the conditions observed during attic inspection.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Orange, NJ?',
+      answer: 'Most aging roof replacement projects in Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Orange NJ -- end-of-life shingle upgrade, hidden deck repair, ventilation correction, and modern performance standards.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

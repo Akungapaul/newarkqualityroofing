@@ -4,7 +4,7 @@ export const westOrangeTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Clay and concrete tile roofing has a subtle but persistent presence in West Orange, concentrated on Mediterranean-revival homes built during the 1920s estate-building era and scattered across the township\'s higher-elevation neighborhoods where architects drew inspiration from European mountain villas. Our [tile roof installation and repair](/tile-roof-installation-repair) work in West Orange bridges the gap between preservation of these century-old installations and modern structural engineering demanded by the township\'s challenging terrain.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in West Orange — with prices starting from $18,000–$40,000 and free estimates available today. Clay and concrete tile roofing has a subtle but persistent presence in West Orange, concentrated on Mediterranean-revival homes built during the 1920s estate-building era and scattered across the township\'s higher-elevation neighborhoods where architects drew inspiration from European mountain villas. Our [tile roof installation and repair](/tile-roof-installation-repair) work in West Orange bridges the gap between preservation of these century-old installations and modern structural engineering demanded by the township\'s challenging terrain.',
     'The Llewellyn Park historic district and surrounding estate neighborhoods harbor some of Essex County\'s finest surviving tile roofwork -- barrel-profile clay tiles imported during an era when West Orange\'s industrialist residents spared no expense on their hilltop retreats. Repairing these installations requires sourcing matching clay profiles from specialty suppliers, because off-the-shelf concrete replacements clash visually with original terra cotta. Homeowners in nearby [Montclair](/tile-roof-installation-repair-montclair-nj) maintain similar period tile installations on their own historic estates.',
     'Ridge-top tile roofs face amplified wind-loading challenges that valley-floor installations never encounter. The weight advantage that makes tile effective on sheltered properties becomes a structural liability at Eagle Rock elevation, where sustained winds generate uplift forces capable of dislodging poorly secured tiles from battens. Our West Orange tile installations above 300 feet elevation use mechanical fastening on every tile -- not the every-other-tile pattern permitted at lower elevations -- ensuring that the wind forces unique to the Watchung ridge cannot displace individual units.',
     'New tile roof installations in West Orange require structural evaluation before any material arrives on site. A square of clay tile weighs 900 to 1,200 pounds, compared to 200 to 300 pounds for asphalt shingles. The framing in most West Orange homes was designed for lighter materials, and adding tile without reinforcing the structure risks rafter deflection, bearing wall overload, and foundation settlement on the township\'s variable slope-side soils.'
@@ -35,7 +35,25 @@ export const westOrangeTileRoofInstallationRepair: ComboContent = {
     {
       question: 'How often should I inspect a tile roof in West Orange?',
       answer: 'We recommend annual inspections for tile roofs in West Orange, ideally in spring after freeze-thaw season ends. Our inspection covers cracked or displaced tiles, mortar condition at hip and ridge caps, flashing integrity at all penetrations, and underlayment condition assessed through selective tile removal at vulnerable locations. The annual inspection catches individual tile failures before they expose underlayment to direct weathering, preventing the cascading damage pattern that turns a minor tile replacement into a major underlayment project.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in West Orange, NJ?',
+      answer: 'Most tile roof installation repair projects in West Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in West Orange NJ. Clay and concrete tile for historic estates with freeze-thaw engineering.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

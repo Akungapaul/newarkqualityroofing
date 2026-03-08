@@ -4,7 +4,7 @@ export const eastOrangeRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'east-orange',
   overview: [
-    'Roof thermal imaging inspections provide East Orange property owners with diagnostic precision that visual roof inspection cannot achieve. The infrared camera detects temperature differentials on the roof surface that reveal moisture trapped beneath the membrane -- areas where wet insulation retains heat longer than dry insulation after sunset, creating a thermal signature visible only to infrared equipment. For landlords managing apartment buildings in Doddtown, property managers overseeing mixed-use buildings along Main Street, and institutional facility operators throughout East Orange, [thermal imaging](/roof-thermal-imaging-inspections) transforms roof condition assessment from guesswork into data-driven decision making.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in East Orange — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections provide East Orange property owners with diagnostic precision that visual roof inspection cannot achieve. The infrared camera detects temperature differentials on the roof surface that reveal moisture trapped beneath the membrane -- areas where wet insulation retains heat longer than dry insulation after sunset, creating a thermal signature visible only to infrared equipment. For landlords managing apartment buildings in Doddtown, property managers overseeing mixed-use buildings along Main Street, and institutional facility operators throughout East Orange, [thermal imaging](/roof-thermal-imaging-inspections) transforms roof condition assessment from guesswork into data-driven decision making.',
     'The primary application of thermal imaging on East Orange multi-family buildings is pre-re-roofing assessment that identifies the extent of moisture damage concealed beneath existing membranes. A property owner planning re-roofing needs accurate information about the percentage of insulation that is wet and will require replacement during tear-off -- information that determines whether the project budget needs a 5 percent contingency for deck and insulation repair or a 30 percent contingency. Thermal imaging provides this information before the first shingle is removed, enabling accurate budgeting that prevents mid-project cost surprises.',
     'Leak source identification on East Orange flat-roofed apartment buildings benefits from thermal imaging when the interior drip point does not correspond to an obvious roof surface defect above. Water entering through a membrane failure can travel laterally through the insulation layer for considerable distances before finding a path through the deck into the occupied space below. The thermal image reveals the full extent of the moisture migration path, identifying the actual membrane failure point that may be twenty feet away from the visible interior stain. Property managers in neighboring [Newark](/roof-thermal-imaging-inspections-newark-nj) rely on the same diagnostic approach for their commercial flat roof portfolios.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeRoofThermalImagingInspections: ComboContent = {
     {
       question: 'Does thermal imaging damage the roof surface?',
       answer: 'No. Thermal imaging is completely non-destructive. The infrared camera passively detects heat emitted from the roof surface without touching, probing, or altering the roof in any way. The survey adds no penetrations, no traffic damage, and no material disruption. It is the least invasive diagnostic method available for evaluating concealed moisture conditions in roof assemblies.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in East Orange, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in East Orange range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections for East Orange NJ buildings -- infrared moisture mapping for apartments, leak source detection, and pre-re-roofing assessment.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

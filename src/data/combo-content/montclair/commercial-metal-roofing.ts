@@ -4,7 +4,7 @@ export const montclairCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'montclair',
   overview: [
-    'Commercial metal roofing in Montclair serves a building market that ranges from the township\'s arts-district galleries and performance venues to professional office buildings, religious institutions, and the mixed-use developments reshaping pockets of the Bloomfield Avenue corridor. Standing seam metal panels deliver an architectural presence that flat membrane systems cannot match -- a consideration that carries weight in a community where building aesthetics are civic conversation and planning board discussions routinely address how roof materials affect streetscape character.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Montclair — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in Montclair serves a building market that ranges from the township\'s arts-district galleries and performance venues to professional office buildings, religious institutions, and the mixed-use developments reshaping pockets of the Bloomfield Avenue corridor. Standing seam metal panels deliver an architectural presence that flat membrane systems cannot match -- a consideration that carries weight in a community where building aesthetics are civic conversation and planning board discussions routinely address how roof materials affect streetscape character.',
     'The wind exposure along Montclair\'s Watchung Ridge position makes commercial metal roofing a performance-driven choice as much as an aesthetic one. Standing seam panels with concealed clip fastening systems resist wind uplift forces that challenge exposed-fastener metal panels and lightweight membrane systems at Montclair\'s upper elevations. Commercial buildings along Upper Montclair\'s shopping district and the Valley Road corridor face sustained wind loads during nor\'easters that property managers in sheltered valley locations like [Bloomfield](/commercial-metal-roofing-bloomfield-nj) and [Nutley](/commercial-metal-roofing-nutley-nj) rarely contend with.',
     'Our [commercial metal roofing](/commercial-metal-roofing) installations across [Montclair](/roofing-in-montclair-nj) commercial properties incorporate the acoustic management and thermal performance features that occupied buildings demand. Acoustic underlayment beneath metal panels eliminates the rain noise that tenant complaints consistently cite as the primary objection to metal roofing. Rigid insulation board integrated into the panel system provides thermal performance that meets current energy code requirements while reducing the thermal bridging inherent in metal roof assemblies.',
     'Color and finish selection on Montclair commercial metal roofs involves community design standards that informal commercial districts enforce through planning board review and neighborhood association input. Earth tones, weathered bronze finishes, and matte-surface PVDF coatings that complement the township\'s Victorian and Arts-and-Crafts residential architecture receive faster approval and warmer community reception than industrial-looking galvanized or bright metallic finishes. We guide Montclair commercial clients through finish options that satisfy both performance requirements and community aesthetic expectations.'
@@ -35,7 +35,25 @@ export const montclairCommercialMetalRoofing: ComboContent = {
     {
       question: 'What is the lifespan of commercial metal roofing in Montclair?',
       answer: 'Standing seam metal roofing with PVDF coating delivers forty to sixty years of service with minimal maintenance beyond periodic fastener inspection and debris clearing. The metal panels themselves resist the freeze-thaw cycling, wind exposure, and UV radiation at Montclair\'s elevation without the granule loss, membrane degradation, or seam failure that limits flat-roof system lifespans. The lifecycle cost per year of service is typically lower than membrane systems that require replacement every twenty to thirty years, making commercial metal roofing a strong long-term investment for Montclair building owners.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in Montclair, NJ?',
+      answer: 'Most commercial metal roofing projects in Montclair range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Montclair NJ -- standing seam panels for retail, office, and mixed-use buildings with wind-rated performance.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'orange',
   overview: [
-    'Flat roofs in Orange cover two distinct building types: the commercial structures along Main Street and Mitchell Street that carry the city\'s economic activity, and the multi-family residential buildings throughout the interior blocks where two-story and three-story flat-topped structures house rental units and owner-occupied duplexes. Each building type presents different demands on the flat roof system, and our [flat roof installation and repair](/flat-roof-installation-repair) approach in Orange differentiates between commercial performance requirements and residential livability standards.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roofs in Orange cover two distinct building types: the commercial structures along Main Street and Mitchell Street that carry the city\'s economic activity, and the multi-family residential buildings throughout the interior blocks where two-story and three-story flat-topped structures house rental units and owner-occupied duplexes. Each building type presents different demands on the flat roof system, and our [flat roof installation and repair](/flat-roof-installation-repair) approach in Orange differentiates between commercial performance requirements and residential livability standards.',
     'Main Street\'s commercial flat roofs tell a layered history of repair upon repair. Many of these two- and three-story buildings date to the late 1800s and have been through multiple roofing cycles -- original tar-and-gravel, followed by built-up roofing, then modified bitumen patches, then elastomeric coatings applied over everything. The result is a roof assembly with unpredictable adhesion between layers, trapped moisture between membranes, and drainage patterns altered by the accumulated material thickness. Our commercial flat-roof work on Main Street typically begins with a full tear-off to the structural deck, removing every layer to start fresh with a modern membrane system that performs for decades rather than years.',
     'Residential flat roofs in Orange serve a growing investment property market. Two-family and three-family homes throughout the city are being acquired by investors seeking affordable Essex County properties, and the roof is consistently the first capital expenditure. These buildings need flat-roof systems that minimize maintenance demands on landlords -- no annual coating, no repeated patching, just a clean membrane installation that stays watertight for 20 to 25 years. We install fully adhered EPDM and TPO membranes on Orange residential flat roofs with enhanced edge detailing and reinforced penetration flashings that eliminate the common failure points. Flat-roof investment property work in neighboring [East Orange](/flat-roof-installation-repair-east-orange-nj) follows an identical protocol for similar multi-family housing stock.'
   ],
@@ -34,7 +34,25 @@ export const orangeFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'Why does my flat roof on an Orange multi-family building keep leaking despite repeated patches?',
       answer: 'Repeated patching creates a layered assembly where moisture gets trapped between patch materials, new patches fail at the edges where they overlap old material, and the accumulated thickness alters drainage patterns to create new ponding areas. The only lasting solution is a full tear-off to the structural deck followed by a clean membrane installation with proper drainage design. This eliminates the patch-upon-patch cycle and provides a fresh start with a single, continuous waterproofing layer.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Orange, NJ?',
+      answer: 'Most flat roof installation repair projects in Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Orange NJ -- Main Street commercial tear-off, multi-family EPDM and TPO, ponding correction, and penetration flashing.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

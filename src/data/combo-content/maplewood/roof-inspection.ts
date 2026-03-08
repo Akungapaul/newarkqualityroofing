@@ -4,7 +4,7 @@ export const maplewoodRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'maplewood',
   overview: [
-    'Roof inspections in Maplewood serve a community where architectural preservation and property values are deeply intertwined. Whether evaluating a Queen Anne Victorian on Ridgewood Road for a prospective buyer, assessing storm damage on a Tudor in the Hilton neighborhood, or certifying roof condition for a refinancing application on a Colonial along Boyden Avenue, our inspections deliver the detailed, honest analysis that Maplewood\'s informed homeowner base expects. Our [roof inspection](/roof-inspection) methodology adapts to each architectural style, because inspecting a multi-gable Victorian with original slate requires fundamentally different expertise than examining a mid-century ranch with asphalt shingles.',
+    'Newark Quality Roofing delivers expert roof inspection in Maplewood — with prices starting from $150–$400 and free estimates available today. Roof inspections in Maplewood serve a community where architectural preservation and property values are deeply intertwined. Whether evaluating a Queen Anne Victorian on Ridgewood Road for a prospective buyer, assessing storm damage on a Tudor in the Hilton neighborhood, or certifying roof condition for a refinancing application on a Colonial along Boyden Avenue, our inspections deliver the detailed, honest analysis that Maplewood\'s informed homeowner base expects. Our [roof inspection](/roof-inspection) methodology adapts to each architectural style, because inspecting a multi-gable Victorian with original slate requires fundamentally different expertise than examining a mid-century ranch with asphalt shingles.',
     'Maplewood\'s real estate market moves quickly, and pre-purchase roof inspections are among our most requested services. Buyers relocating from Brooklyn, Hoboken, and Manhattan are drawn to Maplewood\'s walkable village and diverse architecture, but many have never owned a home with a 100-year-old slate roof or a Tudor with complex flashing details. Our inspection reports translate roofing condition into clear language that helps buyers make informed decisions, distinguishing between cosmetic wear that is normal for a home\'s age and structural concerns that require immediate investment. Sellers in neighboring [South Orange](/roof-inspection-south-orange-nj) use similar pre-listing inspections to build buyer confidence.',
     'South Mountain Reservation\'s environmental impact makes annual inspections essential for [Maplewood](/roofing-in-maplewood-nj) properties along the western border. The massive debris load from the Reservation\'s hardwood canopy conceals damage that only reveals itself when leaves are cleared from valleys and gutters. We schedule post-autumn inspections for Hilton and Prospect Street properties specifically to assess concealed damage before winter weather exploits any vulnerabilities.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodRoofInspection: ComboContent = {
       question: 'What does a Maplewood roof inspection report include?',
       answer: 'Our reports include overall condition rating, section-by-section material assessment with photos keyed to a roof diagram, identified failure points, estimated remaining service life, prioritized repair recommendations with cost estimates, and a recommended maintenance schedule. For historic homes, we include material identification and sourcing guidance for period-appropriate replacement materials.',
     },
+    {
+      question: 'How much does roof inspection cost in Maplewood, NJ?',
+      answer: 'Most roof inspection projects in Maplewood range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Professional roof inspection in Maplewood NJ. Victorian slate assessment, pre-purchase evaluations, and storm damage surveys. Detailed reports.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const livingstonHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'livingston',
   overview: [
-    'Historic roof restoration in Livingston addresses a specific but significant segment of the township\'s housing inventory: the pre-war and early postwar homes that predate the split-level construction boom of the 1960s. Scattered throughout the South Orange Avenue corridor, along Livingston Avenue, and in pockets of the original village center, these older homes carry slate, standing seam metal, and wood shake roofs that represent architectural craftsmanship from an era when roofing materials were expected to last a century. Restoring these roofs demands skills and materials that modern volume roofing contractors neither possess nor stock.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Livingston — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Livingston addresses a specific but significant segment of the township\'s housing inventory: the pre-war and early postwar homes that predate the split-level construction boom of the 1960s. Scattered throughout the South Orange Avenue corridor, along Livingston Avenue, and in pockets of the original village center, these older homes carry slate, standing seam metal, and wood shake roofs that represent architectural craftsmanship from an era when roofing materials were expected to last a century. Restoring these roofs demands skills and materials that modern volume roofing contractors neither possess nor stock.',
     'Unlike municipalities with formal historic preservation commissions such as [Glen Ridge](/historic-roof-restoration-glen-ridge-nj), Livingston does not impose regulatory requirements on roof restoration of historic homes. The impetus for historically accurate restoration here comes from homeowners who value their home\'s architectural heritage and understand that replacing a slate or copper roof with asphalt shingles diminishes both the property\'s character and its market value among buyers who specifically seek period homes. Our restoration approach preserves the original roofing intent while upgrading the underlayment, flashing, and ventilation systems to modern performance standards.',
     'Slate roof restoration constitutes the majority of our [historic roof restoration](/historic-roof-restoration) work in Livingston. Original Vermont and Pennsylvania slate installed on homes built between 1910 and 1940 may still retain serviceable individual slates while the fastening system, flashings, and underlayment have deteriorated beyond repair. Our restoration process selectively retains sound original slates, replaces failed units with quarry-matched replacements, and installs modern copper flashings and synthetic underlayment beneath the restored slate field.',
     'Standing seam copper and terne-coated steel roofs on Livingston\'s oldest homes represent another restoration category. These metal roofs develop pinhole failures at seam folds, panel fatigue cracks from decades of thermal cycling, and coating failure on terne surfaces. Restoration options range from targeted seam resoldering and panel replacement to full re-roofing with new period-appropriate metal panels over modern underlayment.'
@@ -35,7 +35,25 @@ export const livingstonHistoricRoofRestoration: ComboContent = {
     {
       question: 'Does Livingston require permits for historic roof restoration?',
       answer: 'Livingston does not have a historic preservation commission, so restoration work follows standard building permit requirements. Permits are needed if the work involves structural modifications or replacement of more than 25 percent of the roof surface. We handle all permit applications and ensure the restoration meets current building code requirements while preserving the historic roof\'s visual and material character.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Livingston, NJ?',
+      answer: 'Most historic roof restoration projects in Livingston range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Livingston NJ -- slate salvage and matching, copper flashing upgrades, and period-accurate preservation for pre-war homes.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

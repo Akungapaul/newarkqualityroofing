@@ -4,7 +4,7 @@ export const essexFellsHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'essex-fells',
   overview: [
-    'Historic roof restoration in Essex Fells preserves the architectural legacy of a borough whose earliest estate homes date to the late nineteenth century, when wealthy Newark industrialists established country retreats on the wooded hillsides overlooking the Caldwell Valley. These foundational properties -- many still standing along Fells Road and the original estate lanes -- feature roofing systems specified by prominent architects of the era: Vermont and Pennsylvania slate in multiple colors, standing-seam terne-coated steel, hand-split white cedar shake, and ornamental copper work that represents the finest metalcraft of its period. Restoring these roofs requires both reverence for the original craftsmanship and mastery of techniques that modern roofing practice has largely abandoned.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Essex Fells — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Essex Fells preserves the architectural legacy of a borough whose earliest estate homes date to the late nineteenth century, when wealthy Newark industrialists established country retreats on the wooded hillsides overlooking the Caldwell Valley. These foundational properties -- many still standing along Fells Road and the original estate lanes -- feature roofing systems specified by prominent architects of the era: Vermont and Pennsylvania slate in multiple colors, standing-seam terne-coated steel, hand-split white cedar shake, and ornamental copper work that represents the finest metalcraft of its period. Restoring these roofs requires both reverence for the original craftsmanship and mastery of techniques that modern roofing practice has largely abandoned.',
     'Essex Fells historic restoration operates in a different regulatory framework than the preservation commission-governed work common in [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) or downtown [Newark](/historic-roof-restoration-newark-nj). The borough has no historic preservation commission imposing material mandates or review procedures. Instead, Essex Fells historic restoration is driven by homeowner commitment to architectural authenticity -- a voluntary standard that often exceeds regulatory requirements. Property owners investing in century-old estates choose to maintain original materials and techniques because they value the historical integrity, not because a commission requires it.',
     'Our [historic roof restoration](/historic-roof-restoration) practice brings the material sourcing, fabrication capability, and period-appropriate installation techniques that Essex Fells estate restoration demands. We maintain relationships with quarries producing slate varieties matching those originally specified on the borough\'s oldest homes. Our sheet metal shop fabricates replacement copper and terne-coated steel components replicating original profiles documented during assessment. We employ traditional soldering, hand-seaming, and slate-hanging techniques alongside modern waterproofing methods, creating restorations that honor the original craft while incorporating invisible performance improvements beneath the period-accurate surface.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsHistoricRoofRestoration: ComboContent = {
     {
       question: 'Do you maintain salvaged historic roofing materials for Essex Fells projects?',
       answer: 'We maintain an inventory of salvaged slate, copper, and architectural metalwork sourced from regional estate demolitions and renovation projects. Vermont unfading green, Pennsylvania black, and Buckingham Virginia slate varieties common on Essex Fells estates are prioritized for salvage when we encounter them on other projects. Salvaged copper flashings and ornamental elements are cleaned, cataloged, and stored for use on restoration projects where matching patina and aging characteristics are important to the visual integrity of the completed work.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Essex Fells, NJ?',
+      answer: 'Most historic roof restoration projects in Essex Fells range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Essex Fells NJ -- period-accurate slate, copper, and cedar restoration for century-old estate properties.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

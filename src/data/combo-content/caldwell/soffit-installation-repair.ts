@@ -4,7 +4,7 @@ export const caldwellSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Soffit panels on Caldwell homes close the underside of the roof overhang between the fascia board and the exterior wall, creating a finished appearance while serving a critical ventilation function. Vented soffit panels draw fresh air into the attic space through perforated openings, establishing the intake side of the attic ventilation system that works in concert with ridge vents or roof vents to remove heat and moisture. When soffit ventilation is blocked, restricted, or absent on Caldwell homes, the attic environment deteriorates -- moisture condenses on roof sheathing, insulation becomes damp and loses effectiveness, and ice dams form at the eaves during winter.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Caldwell — with prices starting from $1,500–$4,000 and free estimates available today. Soffit panels on Caldwell homes close the underside of the roof overhang between the fascia board and the exterior wall, creating a finished appearance while serving a critical ventilation function. Vented soffit panels draw fresh air into the attic space through perforated openings, establishing the intake side of the attic ventilation system that works in concert with ridge vents or roof vents to remove heat and moisture. When soffit ventilation is blocked, restricted, or absent on Caldwell homes, the attic environment deteriorates -- moisture condenses on roof sheathing, insulation becomes damp and loses effectiveness, and ice dams form at the eaves during winter.',
     'Caldwell\'s colonial and cape cod housing stock presents specific soffit conditions that affect repair approach. Colonials with traditional eave overhangs typically carry plywood or aluminum soffit panels with ventilation holes or perforated strips. Cape cod homes with their shallow eave overhangs often have minimal soffit area and correspondingly limited ventilation intake capacity. Ranch homes from the 1960s may carry original hardboard soffits that have swollen and deteriorated after decades of moisture exposure beneath [Caldwell\'s](/roofing-in-caldwell-nj) tree canopy.',
     'Our [soffit installation and repair](/soffit-installation-repair) approach for Caldwell treats the soffit as a component of the building ventilation system, not merely a cosmetic trim element. Every soffit repair or replacement addresses the ventilation function alongside the appearance -- installing continuous vented soffit strips where solid panels currently block airflow, adding baffles at the eave to prevent insulation from blocking the soffit-to-attic pathway, and verifying that the combined soffit intake area balances with the exhaust ventilation at the roof ridge. Neighbors in [Bloomfield](/soffit-installation-repair-bloomfield-nj) and [Montclair](/soffit-installation-repair-montclair-nj) share similar soffit vintage and ventilation improvement needs.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSoffitInstallationRepair: ComboContent = {
     {
       question: 'Can I add soffit ventilation without replacing the entire soffit?',
       answer: 'Yes. If existing soffit panels are in good condition but lack ventilation, we can cut openings in the solid panels and install vented insert strips that provide intake airflow without full panel replacement. This approach is cost-effective when the existing soffit material is structurally sound and cosmetically acceptable. It does require attic-side baffle installation at each vent location to maintain a clear air path from the new vent opening to the attic space above the insulation.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Caldwell, NJ?',
+      answer: 'Most soffit installation repair projects in Caldwell range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Caldwell NJ -- vented aluminum soffits with attic ventilation optimization for colonial and cape cod homes.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

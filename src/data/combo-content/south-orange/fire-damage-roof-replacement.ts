@@ -4,7 +4,7 @@ export const southOrangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Fire damage roof replacement in South Orange Village addresses the catastrophic roofing failure that structural fires cause, restoring weather protection and building integrity to homes that have suffered partial or complete fire damage to their roof systems. The structural, material, and emotional complexity of fire damage restoration demands a contractor experienced in post-fire construction who can coordinate the roofing scope within the broader building restoration project.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in South Orange — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in South Orange Village addresses the catastrophic roofing failure that structural fires cause, restoring weather protection and building integrity to homes that have suffered partial or complete fire damage to their roof systems. The structural, material, and emotional complexity of fire damage restoration demands a contractor experienced in post-fire construction who can coordinate the roofing scope within the broader building restoration project.',
     'South Orange\'s densely developed residential neighborhoods create fire exposure conditions where adjacent properties may sustain radiant heat damage, ember impact, or firefighting water damage to roofing even when fire does not directly consume the roof structure. Our fire damage assessment distinguishes between direct fire damage requiring full structural replacement and exposure damage that may warrant material replacement without structural reconstruction.',
     'Insurance coordination on fire damage replacement in South Orange involves the most comprehensive documentation and claims advocacy in the roofing industry. Fire claims cover not just the roofing material but structural framing, decking, insulation, and any related building components damaged by fire, heat, smoke, or firefighting water. Our [fire damage roof replacement](/fire-damage-roof-replacement) documentation captures every affected element for complete claim support.',
     'Our post-fire roofing work in [South Orange](/roofing-in-south-orange-nj) coordinates with structural engineers, general contractors, and fire restoration specialists to ensure the roofing scope integrates properly with the broader building restoration. The roof cannot be replaced until structural framing is verified or restored, and the roofing timeline must align with the construction sequence that fire restoration projects demand.'
@@ -35,7 +35,25 @@ export const southOrangeFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Do you handle the entire fire restoration or just the roofing?',
       answer: 'We focus on the roofing and related exterior scope -- framing, decking, insulation, underlayment, roofing material, flashing, gutters, and associated exterior components. We coordinate with structural engineers and general contractors who handle the broader building restoration, ensuring the roofing scope integrates properly with the construction sequence and timeline.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in South Orange, NJ?',
+      answer: 'Most fire damage roof replacement projects in South Orange range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in South Orange NJ -- structural restoration and roofing for fire-damaged village homes.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

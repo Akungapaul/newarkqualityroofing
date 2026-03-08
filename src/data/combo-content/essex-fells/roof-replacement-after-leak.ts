@@ -4,7 +4,7 @@ export const essexFellsRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'essex-fells',
   overview: [
-    'Roof replacement after leak on Essex Fells estates addresses the decision point where chronic or severe water infiltration has demonstrated that the existing roof system can no longer be repaired to reliable performance. This determination typically follows a history of escalating repair interventions -- re-flashing that resolves one leak only to reveal another, patching that slows but does not stop water migration, and repeated service calls after each significant rainfall event. When the repair pattern indicates systemic failure rather than isolated deficiency, replacement becomes the responsible path to permanently resolving the water entry problem.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Essex Fells — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak on Essex Fells estates addresses the decision point where chronic or severe water infiltration has demonstrated that the existing roof system can no longer be repaired to reliable performance. This determination typically follows a history of escalating repair interventions -- re-flashing that resolves one leak only to reveal another, patching that slows but does not stop water migration, and repeated service calls after each significant rainfall event. When the repair pattern indicates systemic failure rather than isolated deficiency, replacement becomes the responsible path to permanently resolving the water entry problem.',
     'The leak-to-replacement decision on Essex Fells estates carries higher stakes than on standard residential properties because the interior damage consequences are proportionally greater. Water infiltrating through a failing roof on a home with custom millwork, museum-quality finishes, and irreplaceable architectural details accumulates damage costs that quickly exceed the replacement investment. Our assessment helps homeowners recognize the replacement threshold -- the point where continued repair spending fails to prevent interior damage accumulation and replacement provides both waterproofing restoration and cost-effective damage prevention.',
     'Our roof replacement practice following chronic leaks addresses both the roofing system replacement and the interior damage remediation that the leak history has produced. We coordinate with restoration contractors, document conditions for insurance claim purposes, and ensure that the new roofing system corrects the specific failure modes that caused the chronic leaking rather than simply installing new material over the same design deficiencies. This root-cause approach prevents the recurring leaks that result when replacement addresses symptoms without correcting underlying causes.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Can interior restoration begin before the roof is replaced?',
       answer: 'Interior restoration should not begin until the water source is eliminated. Restoring finishes while the roof continues to leak creates repeated damage and wasted restoration investment. We coordinate replacement timing with interior restoration contractors to ensure the roof is waterproof before interior work begins. Emergency interior stabilization -- dehumidification, mold prevention treatment, temporary protection of undamaged finishes -- can proceed during the replacement planning phase to prevent damage escalation while the permanent solution is executed.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Essex Fells, NJ?',
+      answer: 'Most roof replacement after leak projects in Essex Fells range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Essex Fells NJ -- root-cause replacement for chronic leaks protecting estate interiors.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

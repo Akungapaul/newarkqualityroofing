@@ -4,7 +4,7 @@ export const newarkSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'newark',
   overview: [
-    'Silicone elastomeric roof coating brings a critical performance characteristic to Newark\'s commercial roofing market that standard coatings cannot match: sustained flexibility across extreme temperature ranges. Newark\'s climate swings from single-digit winter lows to triple-digit summer roof surface temperatures, and this thermal cycling puts tremendous stress on rigid coating systems that crack at the very seams and joints they were applied to protect. Elastomeric silicone formulations maintain their flexibility from minus forty to two hundred degrees Fahrenheit, stretching and recovering with the daily and seasonal expansion cycles that Newark roofs endure without developing the hairline fractures that admit water.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Newark — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating brings a critical performance characteristic to Newark\'s commercial roofing market that standard coatings cannot match: sustained flexibility across extreme temperature ranges. Newark\'s climate swings from single-digit winter lows to triple-digit summer roof surface temperatures, and this thermal cycling puts tremendous stress on rigid coating systems that crack at the very seams and joints they were applied to protect. Elastomeric silicone formulations maintain their flexibility from minus forty to two hundred degrees Fahrenheit, stretching and recovering with the daily and seasonal expansion cycles that Newark roofs endure without developing the hairline fractures that admit water.',
     'The distinction between standard silicone coating and silicone elastomeric coating matters most at the points where commercial roofs in Newark are most vulnerable. Penetration flashings around HVAC curbs, pipe boots, and electrical conduit runs experience the greatest differential movement as metal components expand and contract at different rates than the surrounding membrane. Parapet wall caps and coping joints open and close with thermal cycling. Drain sumps flex under wind load and ponding weight. At each of these high-movement locations, elastomeric silicone maintains continuous waterproofing contact where non-elastomeric coatings eventually separate and admit moisture.',
     'Newark\'s commercial building inventory between Route 21 and the Passaic River includes hundreds of flat-roofed structures from the 1950s through 1970s whose original built-up roofing has been patched, coated, and re-patched through multiple maintenance cycles. These roofs exhibit a patchwork surface of different materials, ages, and adhesion qualities. Silicone elastomeric coating bridges these material transitions more effectively than rigid coatings because its elongation properties accommodate the differential movement between old and new materials, rigid and flexible substrates, and mechanically attached and adhered membrane sections.',
     'The reflective surface of white silicone elastomeric coating delivers the same urban heat island mitigation benefits as standard silicone, reducing roof surface temperatures by forty to sixty degrees on peak summer days. For Newark commercial buildings running rooftop HVAC equipment, this surface temperature reduction also extends the service life of compressor units and ductwork that bake on conventional dark roofs throughout the summer months -- an indirect cost savings that property managers rarely factor into their roofing decisions but that compounds significantly over a ten-to-fifteen-year HVAC equipment lifecycle.'
@@ -36,7 +36,25 @@ export const newarkSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Can elastomeric coating be applied over previous silicone coating on my Newark commercial roof?',
       answer: 'Yes, silicone elastomeric coating bonds well to previously applied silicone coatings after proper surface preparation. The existing coating must be intact, well-adhered, and free of contamination. We clean the surface, abrade any glossy areas to promote adhesion, and apply the new elastomeric layer directly over the existing silicone. This recoating capability is one of the system\'s long-term advantages -- each recoat cycle extends roof life at decreasing cost because no removal of the previous coating is required.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Newark, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Newark range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in Newark NJ. Flexible waterproofing for commercial flat roofs that withstands extreme thermal cycling and building movement.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

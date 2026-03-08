@@ -4,7 +4,7 @@ export const irvingtonRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'irvington',
   overview: [
-    'Roof deck deterioration is the hidden reality beneath Irvington\'s aging roofing surfaces. When we tear off a 25-year-old shingle roof on a 1930s colonial in Olympic Park or a 1940s Cape Cod along Union Avenue, we discover compromised decking on a majority of these projects -- softened plank boards, delaminated plywood patches from previous repairs, and outright rot where chronic leaks have saturated the wood for years. Our [roof deck repair](/roof-deck-repair-replacement) services address this structural foundation before new roofing materials are installed, because no surface material can perform when the substrate beneath it has failed.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Irvington — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck deterioration is the hidden reality beneath Irvington\'s aging roofing surfaces. When we tear off a 25-year-old shingle roof on a 1930s colonial in Olympic Park or a 1940s Cape Cod along Union Avenue, we discover compromised decking on a majority of these projects -- softened plank boards, delaminated plywood patches from previous repairs, and outright rot where chronic leaks have saturated the wood for years. Our [roof deck repair](/roof-deck-repair-replacement) services address this structural foundation before new roofing materials are installed, because no surface material can perform when the substrate beneath it has failed.',
     'The original plank decking on Irvington\'s pre-war homes presents a specific challenge that plywood-decked homes do not share. Individual 1x6 or 1x8 boards dry out, shrink, and develop gaps over decades, creating air channels beneath the shingle surface that allow wind-driven rain to enter the building even when the surface roofing appears intact. These gaps also reduce the holding power of roofing nails, leading to shingle blow-offs during moderate wind events that would not dislodge shingles on a solid plywood deck. Our deck repair approach for Irvington plank-decked homes includes full plywood overlay that creates the solid, continuous substrate that modern roofing materials require.',
     'Investment property owners purchasing Irvington multi-family homes encounter deck deterioration as a scope-expanding discovery during what they planned as routine re-roofing projects. The two-family and three-family homes along Chancellor Avenue and Stuyvesant Avenue frequently carry three decades of deferred maintenance beneath their surface shingles, and deck replacement can add 20 to 40 percent to the anticipated re-roofing budget. Our assessment protocol for Irvington investment properties includes pre-tear-off deck condition indicators -- interior stain patterns, attic-side decking inspection, and exterior nail-pop evaluation -- that help property owners anticipate deck repair costs before committing to the project. Property managers handling similar aging stock in [Newark](/roof-deck-repair-replacement-newark-nj) face comparable deck discovery situations, though Irvington\'s detached structures are generally more accessible for inspection.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofDeckRepairReplacement: ComboContent = {
       question: 'Why do Irvington homes have worse deck problems than newer houses?',
       answer: 'Three factors combine: age, construction method, and maintenance history. Irvington\'s 1920s-1940s homes use plank decking that absorbs moisture more readily than modern plywood. They have had 80 to 90 years of weather exposure. And many have experienced extended periods of deferred maintenance where slow leaks went unaddressed for years. This combination produces more extensive deck deterioration than homes built after plywood became the standard decking material in the 1950s.',
     },
+    {
+      question: 'How much does roof deck repair replacement cost in Irvington, NJ?',
+      answer: 'Most roof deck repair replacement projects in Irvington range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Irvington NJ for aging plank and plywood decking. Fix the structural foundation before re-roofing your home.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

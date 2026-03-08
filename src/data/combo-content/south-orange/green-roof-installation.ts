@@ -4,7 +4,7 @@ export const southOrangeGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'south-orange',
   overview: [
-    'Green roof installation in South Orange Village aligns with the community\'s deeply held environmental values and progressive approach to sustainable development. The village\'s support for farmers\' markets, sustainable initiatives, and green building practices creates a receptive market for vegetated roofing systems that manage stormwater, reduce urban heat island effects, and contribute to the ecological corridor connecting South Mountain Reservation to the developed village center below.',
+    'Newark Quality Roofing delivers expert green roof installation in South Orange — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in South Orange Village aligns with the community\'s deeply held environmental values and progressive approach to sustainable development. The village\'s support for farmers\' markets, sustainable initiatives, and green building practices creates a receptive market for vegetated roofing systems that manage stormwater, reduce urban heat island effects, and contribute to the ecological corridor connecting South Mountain Reservation to the developed village center below.',
     'Seton Hall University\'s campus presents compelling opportunities for green roof installation on both new construction and existing buildings where structural capacity supports the additional load. Institutional green roofs serve as living laboratories for environmental science programs, visible demonstrations of the university\'s sustainability commitment, and functional stormwater management systems that reduce the campus\'s contribution to the combined sewer system that serves the village center.',
     'South Orange\'s stormwater management challenges make green roofs particularly relevant for the village\'s building stock. The Rahway River valley through the eastern portion of the village has experienced flooding events that overwhelmed conventional drainage infrastructure. Vegetated roofing systems that absorb and retain rainfall reduce the peak stormwater volume that reaches storm drains during intense precipitation events -- the type of storms that have caused flooding in low-lying areas of the village and neighboring [Maplewood](/green-roof-installation-maplewood-nj).',
     'Our green roof installations in [South Orange](/roofing-in-south-orange-nj) range from extensive sedum systems with four inches of growing medium that add minimal structural load to intensive garden installations with deeper soil profiles that support diverse plantings. Each installation is designed within the structural capacity of the existing building, the maintenance commitment the owner is prepared to sustain, and the stormwater management goals that justify the investment in vegetated roofing.'
@@ -35,7 +35,25 @@ export const southOrangeGreenRoofInstallation: ComboContent = {
     {
       question: 'Are there incentives for green roof installation in South Orange?',
       answer: 'New Jersey offers stormwater management credits and potential property tax benefits for green roof installations in certain jurisdictions. South Orange\'s environmental policy framework may support additional local incentives. We help property owners navigate available incentive programs during the project planning phase and provide documentation needed for credit applications. The stormwater management value and energy savings a green roof provides supplement any direct financial incentives.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in South Orange, NJ?',
+      answer: 'Most green roof installation projects in South Orange range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in South Orange NJ -- vegetated roofing for stormwater management and sustainability on commercial buildings.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

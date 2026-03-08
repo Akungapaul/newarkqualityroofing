@@ -4,7 +4,7 @@ export const millburnTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Tile roof replacement on Millburn\'s Mediterranean-revival and Italianate estates restores the distinctive clay or concrete tile surfaces that define these properties\' architectural character. When the existing tile has reached the end of its service life -- crumbling mortar at ridges and hips, widespread underlayment failure beneath the tile field, or tile material that has become brittle and porous through decades of freeze-thaw cycling -- replacement with matched tile preserves the architectural vocabulary while upgrading the weather-barrier components to contemporary standards.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Millburn — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement on Millburn\'s Mediterranean-revival and Italianate estates restores the distinctive clay or concrete tile surfaces that define these properties\' architectural character. When the existing tile has reached the end of its service life -- crumbling mortar at ridges and hips, widespread underlayment failure beneath the tile field, or tile material that has become brittle and porous through decades of freeze-thaw cycling -- replacement with matched tile preserves the architectural vocabulary while upgrading the weather-barrier components to contemporary standards.',
     'Sourcing replacement tile that matches the existing roof\'s profile, color, and surface texture is the critical specification challenge on Millburn tile-replacement projects. The original tile may have been manufactured by companies that no longer exist, imported from European kilns that have changed their product lines, or custom-fired in colors that are not standard production items. Our [tile roof replacement](/tile-roof-replacement) procurement network includes domestic and international tile manufacturers, architectural salvage sources, and custom-fabrication kilns that can produce small-batch matches for Millburn restoration projects.',
     'The replacement scope includes full underlayment upgrade -- from the deteriorated original felt to modern synthetic underlayment with ice-and-water shield at eaves, valleys, and penetrations -- new hip and ridge mortar work, flashing replacement, and any battens or support-system components required for the specific tile profile. These under-tile components have shorter service lives than the tile itself, and their renewal during replacement ensures the new tile achieves its full seventy-five to one-hundred-year potential without the underlayment failures that shortened the previous installation\'s effective life.'
   ],
@@ -34,7 +34,25 @@ export const millburnTileRoofReplacement: ComboContent = {
     {
       question: 'Does my tile roof replacement require a structural engineer?',
       answer: 'We require structural engineering review for every tile replacement because the material weight -- up to twelve hundred pounds per square for clay tile -- demands confirmed structural capacity before new loading is applied. Properties originally built for tile typically have adequate framing, but our verification ensures that no modifications or deterioration since original construction have reduced the capacity below safe levels. The engineering review is included in our project planning process.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Millburn, NJ?',
+      answer: 'Most tile roof replacement projects in Millburn range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement for Millburn estates. Clay and concrete tile matching, structural verification, and Mediterranean-style restoration with mortar detailing.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

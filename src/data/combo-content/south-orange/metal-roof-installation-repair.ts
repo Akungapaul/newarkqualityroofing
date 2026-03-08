@@ -4,7 +4,7 @@ export const southOrangeMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Metal roofing has gained significant traction in South Orange Village as homeowners seek materials that combine longevity with architectural refinement. Standing-seam metal installations on Tudor Revival additions, contemporary renovations, and carriage house conversions throughout Montrose Park and the village center deliver the 50-year-plus service life that justifies the premium investment these properties represent. The clean vertical lines of standing-seam panels complement both modern architectural additions and the more traditional rooflines found along Prospect Street and Ward Place, where metal roofing often replaces aging asphalt shingle systems on homes that want permanent weather protection.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in South Orange — with prices starting from $15,000–$35,000 and free estimates available today. Metal roofing has gained significant traction in South Orange Village as homeowners seek materials that combine longevity with architectural refinement. Standing-seam metal installations on Tudor Revival additions, contemporary renovations, and carriage house conversions throughout Montrose Park and the village center deliver the 50-year-plus service life that justifies the premium investment these properties represent. The clean vertical lines of standing-seam panels complement both modern architectural additions and the more traditional rooflines found along Prospect Street and Ward Place, where metal roofing often replaces aging asphalt shingle systems on homes that want permanent weather protection.',
     'South Orange architects increasingly specify metal roofing for residential projects where the homeowner values a material that will outlast multiple asphalt shingle cycles. The village\'s higher median home values make the lifecycle cost argument compelling -- a standing-seam metal roof installed today eliminates two or three future tear-off-and-replace cycles that asphalt would demand over the same period. For homeowners in the [Maplewood](/metal-roof-installation-repair-maplewood-nj) and South Orange corridor who plan to remain in their homes long-term, metal roofing represents a genuine invest-once decision that adjacent communities increasingly embrace.',
     'Repair work on existing metal roofing in South Orange typically involves panel re-seaming after thermal expansion causes seam separation, recoating of factory finishes that have weathered beyond aesthetic acceptability, and re-flashing at transitions where metal panels meet slate or cedar on composite roof systems. The Montrose Park estates often feature copper standing-seam sections on porch roofs and porte-cocheres alongside primary slate surfaces, and maintaining these copper elements requires soldering skills and patina-matching techniques that our metal roofing crew brings to every [South Orange](/roofing-in-south-orange-nj) project.',
     'Environmental performance drives part of the metal roofing conversation in sustainability-conscious South Orange. Cool-coated metal panels reflect solar radiation, reducing attic heat gain and summer cooling loads. The material\'s complete recyclability at end of life appeals to homeowners who participate in the village\'s aggressive sustainability initiatives. Snow shedding characteristics help manage winter buildup on the steep pitches common throughout the village, though we install snow retention systems on all metal roofs to prevent dangerous slide events onto walkways and entryways below.'
@@ -35,7 +35,25 @@ export const southOrangeMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'Can you install metal roofing over my existing asphalt shingles?',
       answer: 'While overlay installation is technically possible and sometimes marketed as a cost-saving approach, we do not recommend it for South Orange homes. Full tear-off reveals deck conditions, allows proper underlayment installation, and provides the flat substrate that metal panels require for clean alignment and proper thermal movement. The modest savings from skipping tear-off do not justify the compromised installation quality, particularly on the architecturally significant homes throughout the village.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in South Orange, NJ?',
+      answer: 'Most metal roof installation repair projects in South Orange range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in South Orange NJ -- standing-seam systems for Tudor, Colonial, and contemporary homes throughout the village.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

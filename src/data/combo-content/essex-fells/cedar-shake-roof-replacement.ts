@@ -4,7 +4,7 @@ export const essexFellsCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Cedar shake roof replacement on Essex Fells estates restores the natural wood roofing character that complements the borough\'s wooded landscape with organic warmth that no manufactured material replicates. Cedar shake roofs on Essex Fells homes -- often installed on the main residence, guest cottage, and carriage house as a unified estate material -- reach replacement age within twenty-five to forty years depending on maintenance history and the specific canopy shade exposure each structure receives. When replacement becomes necessary, the project combines premium material sourcing with installation techniques adapted for the borough\'s challenging shade and moisture environment.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Essex Fells — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement on Essex Fells estates restores the natural wood roofing character that complements the borough\'s wooded landscape with organic warmth that no manufactured material replicates. Cedar shake roofs on Essex Fells homes -- often installed on the main residence, guest cottage, and carriage house as a unified estate material -- reach replacement age within twenty-five to forty years depending on maintenance history and the specific canopy shade exposure each structure receives. When replacement becomes necessary, the project combines premium material sourcing with installation techniques adapted for the borough\'s challenging shade and moisture environment.',
     'The replacement decision for Essex Fells cedar shake roofs balances the homeowner\'s commitment to natural wood roofing against the maintenance reality that the canopy environment imposes. Homeowners who value the cedar aesthetic and are prepared to maintain the preservative treatment schedule that shade exposure demands choose treated cedar shake replacement. Those seeking the cedar-inspired appearance with reduced maintenance commitment consider designer-grade architectural shingles or composite shake products that approximate the wood aesthetic. We present both paths with transparent lifecycle cost and maintenance projections.',
     'Our cedar shake roof replacement in Essex Fells specifies pressure-treated, premium-grade hand-split shakes with enhanced installation details developed for the borough\'s heavy-canopy environment. Skip sheathing with improved ventilation gaps beneath the shake surface, extended ice-and-water shield coverage beyond code minimum, and copper valley linings at every intersection create a shake roof assembly engineered for the specific conditions that Essex Fells properties face -- conditions significantly more demanding than the open-exposure installations where cedar achieves its longest published service life.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Can I replace cedar shake on one structure while keeping it on others?',
       answer: 'Individual structure replacement is feasible and common on Essex Fells estates managing phased replacement budgets. The replacement shake is specified from the same grade and mill source as the shake on remaining structures for maximum material consistency. New cedar weathers toward the silver-gray patina of existing installations within two to three years, achieving visual integration across structures at different points in their replacement cycle. We document the material specification to enable consistent sourcing for subsequent replacement phases.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Essex Fells range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Essex Fells NJ -- premium treated cedar shake with shade-adapted installation for estate homes.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

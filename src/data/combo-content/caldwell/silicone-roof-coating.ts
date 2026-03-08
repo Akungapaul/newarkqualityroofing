@@ -4,7 +4,7 @@ export const caldwellSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'caldwell',
   overview: [
-    'Silicone roof coating extends the service life of aging flat roofs on Caldwell commercial buildings by applying a seamless, reflective, waterproof membrane over existing roof surfaces without the disruption and cost of full tear-off replacement. The small-shop buildings along Bloomfield Avenue, professional offices near downtown, and light-commercial structures throughout the borough carry flat roof systems that reach a point where the original membrane has degraded but the underlying substrate remains structurally sound. Silicone coating restores waterproofing performance and adds reflective energy savings to these aging roofs at roughly one-third the cost of complete replacement.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Caldwell — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating extends the service life of aging flat roofs on Caldwell commercial buildings by applying a seamless, reflective, waterproof membrane over existing roof surfaces without the disruption and cost of full tear-off replacement. The small-shop buildings along Bloomfield Avenue, professional offices near downtown, and light-commercial structures throughout the borough carry flat roof systems that reach a point where the original membrane has degraded but the underlying substrate remains structurally sound. Silicone coating restores waterproofing performance and adds reflective energy savings to these aging roofs at roughly one-third the cost of complete replacement.',
     'The chemistry of silicone coating makes it particularly well-suited to [Caldwell\'s](/roofing-in-caldwell-nj) flat roof conditions. Silicone maintains flexibility through the full temperature range the borough experiences, resists ponding water without degradation, blocks UV radiation that breaks down the membrane beneath, and creates a reflective surface that reduces cooling loads during summer. Unlike acrylic coatings that soften in sustained ponding conditions, silicone sits in standing water indefinitely without performance loss -- a critical advantage on Caldwell flat roofs where tree debris blocks drains and creates temporary ponding after every rainfall.',
     'Silicone [roof coating](/silicone-roof-coating) for Caldwell commercial buildings serves as both a restoration treatment and a maintenance extension strategy. A building owner facing a full roof replacement can apply silicone coating to extend the existing roof\'s service life by ten to fifteen years, deferring the larger capital investment until the building\'s financial position, occupancy situation, or ownership timeline makes replacement more appropriate. Business owners in [Bloomfield](/silicone-roof-coating-bloomfield-nj) and [Montclair](/silicone-roof-coating-montclair-nj) apply similar coating strategies to their commercial flat roofs.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSiliconeRoofCoating: ComboContent = {
     {
       question: 'Is my Caldwell building a good candidate for silicone roof coating?',
       answer: 'The best candidates are commercial buildings with existing flat roofs that are aging but not failed -- meaning the membrane shows surface weathering, reduced reflectivity, and minor cracking but remains adhered to the substrate without widespread blistering, delamination, or wet insulation beneath. If our core samples reveal saturated insulation or our inspection finds membrane that lifts from the substrate, the roof needs replacement rather than coating. We provide an honest assessment of whether coating will deliver value on your specific building.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Caldwell, NJ?',
+      answer: 'Most silicone roof coating projects in Caldwell range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Caldwell NJ -- reflective restoration coating for aging commercial flat roofs on Bloomfield Avenue buildings.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

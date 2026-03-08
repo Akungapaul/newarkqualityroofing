@@ -4,7 +4,7 @@ export const bellevilleResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'belleville',
   overview: [
-    'Residential roof installation in Belleville confronts the practical realities of a township where homes stand shoulder to shoulder on narrow lots with minimal side-yard clearance. Every installation -- whether a full tear-off and re-roof on a 1950s Cape Cod or a new roof on one of Belleville\'s rare infill construction projects -- must navigate confined staging areas, protect adjacent properties from debris and material handling, and comply with township building codes that reflect the density-specific concerns of this tightly packed community. Our [residential roof installation](/residential-roof-installation) teams have refined protocols specifically for Belleville\'s compact lot conditions over two decades of work in the township.',
+    'Newark Quality Roofing delivers expert residential roof installation in Belleville — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Belleville confronts the practical realities of a township where homes stand shoulder to shoulder on narrow lots with minimal side-yard clearance. Every installation -- whether a full tear-off and re-roof on a 1950s Cape Cod or a new roof on one of Belleville\'s rare infill construction projects -- must navigate confined staging areas, protect adjacent properties from debris and material handling, and comply with township building codes that reflect the density-specific concerns of this tightly packed community. Our [residential roof installation](/residential-roof-installation) teams have refined protocols specifically for Belleville\'s compact lot conditions over two decades of work in the township.',
     'The predominant Belleville home types -- Cape Cods with simple gable roofs, small colonials with hip-to-gable transitions, and two-family homes with expanded footprints -- present straightforward roof geometries that keep installation labor efficient when executed by experienced crews. The complexity lies not in the roof shape but in the condition hidden beneath aging shingle layers. Multi-layer roofs, sagging sheathing, and ventilation systems compromised by decades of siding and addition work are standard discoveries during Belleville installations. Our scope always includes structural assessment and ventilation correction as integral components rather than surprise change orders.',
     'New roof installations in Belleville increasingly specify architectural shingles over the three-tab products that dominated previous generations. The dimensional appearance, improved wind ratings, and longer warranty periods of architectural shingles provide visible upgrades that Belleville homeowners appreciate as property values in the township continue to strengthen. Popular color selections -- Weathered Wood, Pewter Gray, and Charcoal -- complement the earth-tone vinyl siding and brick facades common throughout Belleville\'s residential blocks. Homeowners in adjacent [Bloomfield](/residential-roof-installation-bloomfield-nj) share similar housing stock and often make comparable material selections.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleResidentialRoofInstallation: ComboContent = {
     {
       question: 'How long does a complete roof installation take on a Belleville home?',
       answer: 'A typical Belleville Cape Cod or colonial installs in two to three working days. Day one covers tear-off, sheathing inspection and repair, underlayment, and ventilation component installation. Day two handles shingle installation on the main roof planes. Day three finishes hip and ridge detail, flashing, gutter reattachment, and thorough cleanup. Weather delays or extensive sheathing replacement can extend the timeline by a day.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in Belleville, NJ?',
+      answer: 'Most residential roof installation projects in Belleville range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ residential roof installation -- confined-lot staging, ventilation correction, and architectural shingle upgrades for post-war homes.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

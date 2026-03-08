@@ -4,7 +4,7 @@ export const essexFellsReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'essex-fells',
   overview: [
-    'Re-roofing Essex Fells estate properties involves the comprehensive replacement of roofing surface materials to restore weather protection, architectural appearance, and the structural integrity of the roof assembly. Whether the existing system is natural slate approaching its second century, cedar shake past its effective service life, or copper standing-seam showing fatigue at soldered connections, re-roofing delivers a new roof surface with modern underlayment, updated flashing systems, and the opportunity to correct ventilation and insulation deficiencies that the original construction left unaddressed.',
+    'Newark Quality Roofing delivers expert re roofing in Essex Fells — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing Essex Fells estate properties involves the comprehensive replacement of roofing surface materials to restore weather protection, architectural appearance, and the structural integrity of the roof assembly. Whether the existing system is natural slate approaching its second century, cedar shake past its effective service life, or copper standing-seam showing fatigue at soldered connections, re-roofing delivers a new roof surface with modern underlayment, updated flashing systems, and the opportunity to correct ventilation and insulation deficiencies that the original construction left unaddressed.',
     'The re-roofing decision on Essex Fells estates typically involves material continuity versus material upgrade considerations that suburban homeowners rarely face. Should a deteriorating slate roof be replaced with new slate from the same quarry region to maintain architectural authenticity, or should the homeowner transition to a lower-maintenance material that changes the home\'s character? Should cedar shake be replaced with treated shake that lasts longer in the canopy shade, or should the homeowner consider architectural shingles that replicate the shake appearance without the maintenance burden? These decisions benefit from our consultation process that presents options within the specific context of each estate property.',
     'Our [re-roofing](/re-roofing) practice in Essex Fells manages the full project scope from material consultation through completion. We coordinate with architects on material selection, manage the tear-off and disposal logistics specific to each roofing type, execute deck assessment and repair, install modern underlayment and waterproofing systems, and apply the selected roofing material with the installation quality that Essex Fells estate architecture demands. Each project phase builds on the previous, and we manage the entire sequence as a single coordinated engagement.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsReRoofing: ComboContent = {
     {
       question: 'What modern improvements should I include during re-roofing?',
       answer: 'Re-roofing presents the optimal opportunity for ice-and-water shield installation at eaves and valleys, ventilation upgrades, insulation augmentation, and solar-ready roof preparation. These improvements are significantly less expensive when integrated into a re-roofing project versus installed as standalone retrofits. We present the available improvement options with cost-benefit analysis during the material consultation phase so the homeowner can make informed decisions about which upgrades to incorporate while the roof is open.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Essex Fells, NJ?',
+      answer: 'Most re roofing projects in Essex Fells range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services in Essex Fells NJ -- comprehensive roof replacement with material consultation for estate properties.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

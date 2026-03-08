@@ -4,7 +4,7 @@ export const orangeTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'orange',
   overview: [
-    'TPO roofing has become the membrane of choice for Orange\'s commercial and mixed-use buildings, particularly along Main Street where property owners are replacing aging built-up and modified bitumen systems with reflective, energy-efficient single-ply membranes. Our [TPO roofing installation](/tpo-roofing-installation) projects in Orange consistently deliver the combination of performance, longevity, and energy savings that Main Street landlords and business owners demand -- white reflective surfaces cutting cooling costs on buildings that bake under summer sun with minimal shade from the compact urban streetscape.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Orange — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing has become the membrane of choice for Orange\'s commercial and mixed-use buildings, particularly along Main Street where property owners are replacing aging built-up and modified bitumen systems with reflective, energy-efficient single-ply membranes. Our [TPO roofing installation](/tpo-roofing-installation) projects in Orange consistently deliver the combination of performance, longevity, and energy savings that Main Street landlords and business owners demand -- white reflective surfaces cutting cooling costs on buildings that bake under summer sun with minimal shade from the compact urban streetscape.',
     'Orange\'s mixed-use architecture creates TPO installation scenarios that differ from standard commercial work. A typical Main Street property combines ground-floor retail with upper-story residential units, meaning the TPO membrane must protect two distinct occupancy types with different environmental sensitivity. Restaurant tenants generate heat and grease exhaust that attacks roof membranes from below; residential tenants above need comfortable temperatures that benefit from the TPO\'s reflective properties. Our split-zone TPO specifications address both needs within a single membrane installation, with enhanced vapor barriers near kitchen exhaust penetrations and upgraded insulation values over residential spaces.',
     'For property managers overseeing commercial portfolios in Orange, TPO offers a compelling lifecycle cost advantage over the patch-and-repair cycle that characterizes aging built-up roofs. A typical Main Street building that has spent $3,000 to $5,000 annually on flat roof patches for the past decade can switch to a new TPO installation that eliminates maintenance costs for 20 to 25 years. We have converted multiple Orange commercial roofs from chronic-leak built-up systems to maintenance-free TPO membranes, and the feedback from building owners consistently cites the elimination of tenant leak complaints as the greatest benefit. Similar commercial conversions are common across [East Orange](/tpo-roofing-installation-east-orange-nj)\'s Main Street corridor.'
   ],
@@ -34,7 +34,25 @@ export const orangeTpoRoofingInstallation: ComboContent = {
     {
       question: 'How long does a TPO roof last on an Orange commercial building?',
       answer: 'Properly installed TPO on Orange commercial buildings lasts 20 to 25 years with minimal maintenance. The membrane\'s heat-welded seams create a monolithic waterproof surface that resists the thermal cycling and UV exposure that Orange\'s urban microclimate produces. Annual inspections to check seams and penetration details are the only regular maintenance required.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Orange, NJ?',
+      answer: 'Most tpo roofing installation projects in Orange range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in Orange NJ -- Main Street commercial membranes, reflective energy savings, mixed-use specifications, and zero-setback access.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

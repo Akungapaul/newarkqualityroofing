@@ -4,7 +4,7 @@ export const fairfieldRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'fairfield',
   overview: [
-    'Roof replacement after leak in Fairfield addresses situations where chronic or severe water intrusion has damaged the roof system beyond the point where repairs can reliably restore waterproofing. When leaks recur despite multiple repair attempts, when interior damage reveals widespread deck deterioration beneath the shingle surface, or when the leak source involves systemic failure across multiple roof details rather than a single point, replacement becomes the permanent solution that stops the cycle of repair, failure, and progressive interior damage.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Fairfield — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak in Fairfield addresses situations where chronic or severe water intrusion has damaged the roof system beyond the point where repairs can reliably restore waterproofing. When leaks recur despite multiple repair attempts, when interior damage reveals widespread deck deterioration beneath the shingle surface, or when the leak source involves systemic failure across multiple roof details rather than a single point, replacement becomes the permanent solution that stops the cycle of repair, failure, and progressive interior damage.',
     'Fairfield homes that reach the replacement-after-leak threshold share common histories: an aging roof with deteriorating flashing at chimneys or sidewalls that was patched rather than properly addressed, builder-grade shingles that have lost their waterproofing integrity across large areas, or valley details that were never properly flashed during original construction and have leaked intermittently for years. Each repair addressed the immediate symptom without resolving the underlying system failure. Our [roof replacement after leak](/roof-replacement-after-leak) projects in Fairfield break this cycle by replacing the entire system rather than chasing individual leak points.',
     'The scope of replacement after leak extends beyond the roof surface to include all damage caused by the water intrusion. Saturated deck sheathing must be removed and replaced. Damaged rafters or trusses need structural repair. Wet attic insulation must be removed. Mold remediation may be needed in severe cases. Our replacement scope encompasses all leak-related damage, restoring the Fairfield home\'s roof system from structural framing through finished shingle surface.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Can you coordinate interior repairs after fixing my leaking Fairfield roof?',
       answer: 'We coordinate timing with interior contractors so that ceiling and wall restoration proceeds after the new roof is verified leak-free. While interior finish work is outside our direct scope, we can recommend contractors we have worked with on similar Fairfield projects and ensure that the roof is fully sealed before any interior surfaces are restored.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Fairfield, NJ?',
+      answer: 'Most roof replacement after leak projects in Fairfield range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Fairfield NJ. Permanent solution for chronic leaks with full deck repair and system restoration.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

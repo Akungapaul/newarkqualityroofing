@@ -4,7 +4,7 @@ export const maplewoodWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'maplewood',
   overview: [
-    'Wood shake roofing in Maplewood finds its natural home on the Tudor Revival and Craftsman homes that populate the Hilton neighborhood and the cross-streets between Springfield Avenue and Boyden Avenue. The textured, organic appearance of hand-split wood shakes complements the half-timber facades, stucco panels, and stone accents that define these architectural styles. Where asphalt shingles or synthetic materials might look flat against a Tudor\'s dramatic roofline, wood shakes provide the dimensional depth and rustic character that harmonize with the home\'s original design intent. Our [wood shake roofing](/wood-shake-roofing) installations honor this aesthetic tradition while incorporating modern treatment and ventilation technology.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Maplewood — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Maplewood finds its natural home on the Tudor Revival and Craftsman homes that populate the Hilton neighborhood and the cross-streets between Springfield Avenue and Boyden Avenue. The textured, organic appearance of hand-split wood shakes complements the half-timber facades, stucco panels, and stone accents that define these architectural styles. Where asphalt shingles or synthetic materials might look flat against a Tudor\'s dramatic roofline, wood shakes provide the dimensional depth and rustic character that harmonize with the home\'s original design intent. Our [wood shake roofing](/wood-shake-roofing) installations honor this aesthetic tradition while incorporating modern treatment and ventilation technology.',
     'Maplewood\'s South Mountain Reservation environment presents both opportunity and challenge for wood shake roofs. The forested mountain backdrop creates a visual context where natural wood roofing feels perfectly at home. Yet the same Reservation canopy that provides aesthetic harmony also generates the shade, moisture, and organic debris that accelerate wood shake deterioration. Persistent dampness beneath the canopy promotes fungal growth in untreated wood, and accumulated leaf debris traps moisture against shake surfaces. Homeowners in [South Orange](/wood-shake-roofing-south-orange-nj) with comparable tree cover navigate the same balance between natural beauty and environmental exposure.',
     'The progressive, quality-oriented community in [Maplewood](/roofing-in-maplewood-nj) appreciates wood shake roofing that delivers both visual authenticity and responsible material sourcing. We install shakes from mills that harvest sustainably managed forests, and our treatment applications protect the wood without the heavy metal preservatives that older treatment methods employed. For homeowners concerned about fire resistance, we offer fire-retardant-treated shakes that meet Class B or Class A fire ratings while maintaining the natural appearance that makes wood roofing compelling.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodWoodShakeRoofing: ComboContent = {
       question: 'Can wood shakes be installed on a previously shingled Maplewood home?',
       answer: 'Yes, with some structural considerations. Wood shakes are heavier than asphalt shingles, and the installation method using spaced sheathing or breather mats differs from solid-deck shingle installations. We evaluate the existing framing for adequate load capacity and modify the deck as needed. Many Maplewood Tudor and Craftsman homes were originally designed for shake weight and can accept the material without structural modification.',
     },
+    {
+      question: 'How much does wood shake roofing cost in Maplewood, NJ?',
+      answer: 'Most wood shake roofing projects in Maplewood range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Maplewood NJ. Hand-split installations for Tudor and Craftsman homes with treatment and maintenance for South Mountain exposure.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

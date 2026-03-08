@@ -4,7 +4,7 @@ export const westOrangeHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'west-orange',
   overview: [
-    'West Orange\'s position along the first Watchung Mountain ridge places it squarely in the path of summer thunderstorms that produce hail events with greater frequency and severity than surrounding lowland communities. The ridge-top updraft dynamics that develop as storms climb the Watchung escarpment generate larger hailstones at elevation, meaning properties above 300 feet -- Eagle Rock, St. Cloud, upper Gregory -- absorb impacts that valley-floor homes rarely encounter. Our [hail damage roof repair](/hail-damage-roof-repair) assessment uses grid-pattern sampling calibrated to West Orange\'s elevation-dependent hail exposure.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in West Orange — with prices starting from $500–$2,500 and free estimates available today. West Orange\'s position along the first Watchung Mountain ridge places it squarely in the path of summer thunderstorms that produce hail events with greater frequency and severity than surrounding lowland communities. The ridge-top updraft dynamics that develop as storms climb the Watchung escarpment generate larger hailstones at elevation, meaning properties above 300 feet -- Eagle Rock, St. Cloud, upper Gregory -- absorb impacts that valley-floor homes rarely encounter. Our [hail damage roof repair](/hail-damage-roof-repair) assessment uses grid-pattern sampling calibrated to West Orange\'s elevation-dependent hail exposure.',
     'Hail damage to roofing materials is deceptively invisible from ground level, which is why so many West Orange homeowners discover it only when leaks develop months or years after the triggering event. The impact of a one-inch hailstone displaces protective granules from asphalt shingles, fractures the reinforcing mat beneath, and breaks the seal strip adhesion that holds shingle tabs against wind uplift. Each of these failures progresses silently until weather conditions exploit the compromised material. Properties in neighboring [Montclair](/hail-damage-roof-repair-montclair-nj) experience similar hail exposure along the shared Watchung ridgeline.',
     'We document hail damage in West Orange with the precision that insurance claims demand. Our assessment includes grid-pattern sampling at multiple roof zones, close-up photography of individual impact marks with reference scaling, measurement of impact diameter and density per test square, and cross-referencing with National Weather Service hail reports for the specific storm event. This evidence-based documentation supports claim approval rates significantly higher than homeowner-submitted reports, because it demonstrates damage using the same methodology that insurance industry adjusters are trained to recognize.',
     'The [West Orange](/roofing-in-west-orange-nj) topography creates non-uniform hail damage patterns on individual roofs. A home positioned on the ridge with one side facing the prevailing storm direction and the other sheltered by the hill itself may sustain severe damage on two or three roof planes while the remaining planes show minimal impact. Our inspectors assess every plane independently rather than extrapolating damage from a single sample area, ensuring the repair scope and insurance claim accurately reflect the full extent of storm impact across all roof surfaces.'
@@ -35,7 +35,25 @@ export const westOrangeHailDamageRoofRepair: ComboContent = {
     {
       question: 'How long after a hail storm should I get my roof inspected?',
       answer: 'We recommend inspection within two weeks of any reported hail event. Hail damage progresses silently -- compromised granule coverage exposes the asphalt mat to UV degradation, and broken seal strips allow wind uplift that worsens with each subsequent wind event. For ridge-top West Orange properties where wind exposure accelerates secondary damage, earlier inspection is better. We maintain priority scheduling for hail inspections after significant storm events and can typically assess your property within 48 hours of contact.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in West Orange, NJ?',
+      answer: 'Most hail damage roof repair projects in West Orange range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in West Orange NJ. Ridge-top hail assessment, insurance documentation, and impact-resistant shingle upgrades.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

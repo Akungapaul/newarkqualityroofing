@@ -4,7 +4,7 @@ export const eastOrangeCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'east-orange',
   overview: [
-    'Commercial metal roofing in East Orange addresses a building segment that is smaller but growing: warehouse conversions along the railroad corridor, new retail construction on redevelopment parcels, and institutional buildings where building owners are willing to invest in 50-year roof systems that eliminate the re-roofing cycle that flat membrane systems impose every 20 years. The economics work differently for [commercial metal roofing](/commercial-metal-roofing) than for the membrane systems that dominate East Orange\'s existing flat-roof inventory -- higher initial cost is offset by a service life that spans two or three membrane roof lifecycles, making total cost of ownership competitive or favorable for buildings held long-term.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in East Orange — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in East Orange addresses a building segment that is smaller but growing: warehouse conversions along the railroad corridor, new retail construction on redevelopment parcels, and institutional buildings where building owners are willing to invest in 50-year roof systems that eliminate the re-roofing cycle that flat membrane systems impose every 20 years. The economics work differently for [commercial metal roofing](/commercial-metal-roofing) than for the membrane systems that dominate East Orange\'s existing flat-roof inventory -- higher initial cost is offset by a service life that spans two or three membrane roof lifecycles, making total cost of ownership competitive or favorable for buildings held long-term.',
     'Standing seam metal roofing on East Orange commercial buildings provides structural performance advantages that membrane systems cannot match. Wind uplift resistance exceeds any flat-roof membrane, eliminating the blow-off failures that East Orange apartment buildings experience during severe storms. Snow load shedding prevents the structural stress that ponded snowmelt creates on flat membrane roofs. And the interlocking panel system eliminates the exposed fastener penetrations that create leak points on less sophisticated metal roof types -- a critical detail for buildings where roof leaks disrupt commercial operations and trigger tenant damage claims.',
     'The institutional segment of East Orange\'s building stock -- schools, churches, community centers, and municipal facilities -- represents a natural market for commercial metal roofing where building owners plan in generational timeframes rather than investment hold periods. These buildings serve the community for decades, and roof systems that match that service horizon eliminate the operational disruption and capital expenditure of mid-life re-roofing. Several recent institutional roofing projects in neighboring [Newark](/commercial-metal-roofing-newark-nj) have demonstrated the lifecycle economics that make metal compelling for East Orange\'s civic buildings.',
     'Metal roof retrofit on existing East Orange commercial buildings with low-slope configurations uses structural standing seam systems installed over the existing flat roof on a sub-framing system that creates the minimum slope metal roofing requires. This retrofit approach avoids the cost and disruption of demolishing the existing flat roof structure and provides an insulation cavity between the existing deck and the new metal panels that dramatically improves building energy performance. The approach is particularly effective on East Orange warehouse buildings being converted to mixed-use or commercial loft space.'
@@ -35,7 +35,25 @@ export const eastOrangeCommercialMetalRoofing: ComboContent = {
     {
       question: 'How noisy is a metal roof during rain on an East Orange commercial building?',
       answer: 'A properly designed structural standing seam metal roof with insulation and acoustic damping performs acoustically similar to conventional roof assemblies. The combination of rigid insulation, metal deck or plywood substrate, and the standing seam panel system attenuates rain noise to levels that do not disrupt normal office or retail operations. Exposed-fastener metal systems without insulation are significantly noisier and are not appropriate for occupied commercial space.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in East Orange, NJ?',
+      answer: 'Most commercial metal roofing projects in East Orange range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing for East Orange NJ buildings -- standing seam installation, warehouse retrofit, and 50-year lifecycle roof systems.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

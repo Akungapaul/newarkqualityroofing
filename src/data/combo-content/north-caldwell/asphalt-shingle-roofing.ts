@@ -4,7 +4,7 @@ export const northCaldwellAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'Asphalt shingle selection for North Caldwell properties operates exclusively in the premium tier of the product spectrum. No homeowner in this borough installs three-tab commodity shingles -- the architectural and financial investment in these estate homes demands roofing materials that complement custom construction with appropriate visual weight, dimensional texture, and long-term durability. The designer shingle lines from GAF, Owens Corning, and CertainTeed offer profiles that replicate the shadow depth of natural slate and the rustic dimension of wood shakes while providing the proven weather protection and warranty support that [asphalt shingle roofing](/asphalt-shingle-roofing) delivers.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in North Caldwell — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle selection for North Caldwell properties operates exclusively in the premium tier of the product spectrum. No homeowner in this borough installs three-tab commodity shingles -- the architectural and financial investment in these estate homes demands roofing materials that complement custom construction with appropriate visual weight, dimensional texture, and long-term durability. The designer shingle lines from GAF, Owens Corning, and CertainTeed offer profiles that replicate the shadow depth of natural slate and the rustic dimension of wood shakes while providing the proven weather protection and warranty support that [asphalt shingle roofing](/asphalt-shingle-roofing) delivers.',
     'The specific designer shingle products most frequently installed on North Caldwell homes include the GAF Grand Sequoia and Camelot II, the Owens Corning Berkshire Collection, and the CertainTeed Grand Manor and Carriage House lines. These products feature thick, multilayer construction that produces pronounced shadow lines visible from the street, heavy per-square weights that resist wind uplift on exposed North Caldwell hilltop lots, and premium color blends with subtle color variation across each shingle that prevents the monotone appearance of standard architectural products. Homeowners in [Caldwell](/asphalt-shingle-roofing-caldwell-nj) often select from these same product lines, though the typical installation scale differs significantly from North Caldwell estates.',
     'North Caldwell\'s architectural diversity influences shingle color and profile selection across the borough. Tudor homes along Grandview Avenue pair naturally with the deep earth tones and thick profiles of the Grand Manor line. Colonial homes on Mountain Avenue complement the warmer slate-tone blends of the Berkshire Collection. Contemporary homes on wooded interior lots carry the bolder color options from the Camelot II range. Our design consultation process includes physical sample presentation at the property, allowing homeowners to evaluate shingle appearance against their home\'s specific siding, stone, and trim colors under the actual lighting conditions created by their wooded lot.',
     'Every North Caldwell asphalt shingle installation receives the enhanced installation protocol that distinguishes estate-grade work from standard residential practice. Full synthetic underlayment replaces the felt paper that budget installations use. Ice-and-water shield membrane extends past the exterior wall line at all eave lines, valleys, and penetrations -- typically six to eight feet up the roof from the eave edge rather than the code-minimum three feet. Hand-cut starter courses at eaves and rakes ensure precise alignment. Six-nail patterns replace the standard four-nail attachment in all wind-exposed zones.'
@@ -35,7 +35,25 @@ export const northCaldwellAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Do I need GAF Master Elite or equivalent certification for my North Caldwell installation?',
       answer: 'We are certified at the highest level with all three major manufacturers: GAF Master Elite, Owens Corning Platinum Preferred, and CertainTeed SELECT ShingleMaster. These certifications qualify your installation for the manufacturer\'s premium warranty programs with the longest coverage periods and most comprehensive terms. Only a small percentage of roofing contractors nationwide hold these top-tier certifications, and the enhanced warranty coverage they provide is particularly valuable on the large, premium installations typical of North Caldwell homes.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in North Caldwell, NJ?',
+      answer: 'Most asphalt shingle roofing projects in North Caldwell range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Designer asphalt shingle roofing in North Caldwell NJ -- GAF Grand Sequoia, CertainTeed Grand Manor on estate-scale custom homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

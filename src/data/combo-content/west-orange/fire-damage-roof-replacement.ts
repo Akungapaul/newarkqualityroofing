@@ -4,7 +4,7 @@ export const westOrangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Fire damage roof replacement in West Orange rebuilds the entire roof assembly after fire has compromised structural framing, sheathing, and roofing materials beyond repair. Our [fire damage roof replacement](/fire-damage-roof-replacement) service coordinates the structural restoration, insurance documentation, and weatherproofing installation that fire-damaged [West Orange](/roofing-in-west-orange-nj) homes require to return to habitable condition.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in West Orange — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in West Orange rebuilds the entire roof assembly after fire has compromised structural framing, sheathing, and roofing materials beyond repair. Our [fire damage roof replacement](/fire-damage-roof-replacement) service coordinates the structural restoration, insurance documentation, and weatherproofing installation that fire-damaged [West Orange](/roofing-in-west-orange-nj) homes require to return to habitable condition.',
     'West Orange\'s wooded hillside setting creates fire exposure risk from both interior sources and exterior wildfire conditions during dry seasons. Homes near South Mountain Reservation face proximity risk from brush fires that can spread to structures through landscaping and debris accumulation against foundations and siding. Homes at ridge elevation face amplified fire spread risk from wind-driven embers during wildfire conditions. Replacement roofing on fire-damaged homes incorporates fire-resistant materials and design details that reduce vulnerability to future fire exposure.',
     'Structural assessment by licensed engineers precedes any roofing work on fire-damaged West Orange homes. Fire compromises the structural integrity of wood framing through charring that reduces member cross-section, heat damage that weakens connections, and water damage from fire suppression that saturates insulation and sheathing. Engineering assessment determines which framing members require replacement versus those that retain adequate structural capacity despite fire exposure. Homeowners near [South Orange](/fire-damage-roof-replacement-south-orange-nj) navigate similar fire restoration processes on their own tree-canopy-adjacent properties.',
     'Insurance coordination for fire damage replacement involves more complex claims than storm damage, typically including structural engineering costs, temporary housing expenses, personal property loss, and the multi-trade restoration scope that fire damage requires. We coordinate with the homeowner\'s insurance carrier on the roofing component of the claim, providing detailed scope documentation that integrates with the overall restoration contractor\'s claim package.'
@@ -35,7 +35,25 @@ export const westOrangeFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Can I change my roof design during fire damage restoration?',
       answer: 'Fire damage restoration provides the opportunity to modify roof design because the framing is being rebuilt regardless. Adding dormers, changing roof pitch, or modifying the roof line can be incorporated into the structural restoration scope. Design changes require building permits and may affect the insurance claim if they exceed like-kind replacement. We coordinate design modifications with both the structural engineer and the insurance adjuster to ensure proper permitting and coverage alignment.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in West Orange, NJ?',
+      answer: 'Most fire damage roof replacement projects in West Orange range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in West Orange NJ. Structural restoration with fire-resistant upgrades and insurance coordination.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

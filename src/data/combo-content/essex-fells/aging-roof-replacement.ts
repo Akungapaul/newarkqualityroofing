@@ -4,7 +4,7 @@ export const essexFellsAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Aging roof replacement in Essex Fells addresses the inevitable end-of-service-life transition for roofing systems that have protected estate properties for decades. Even the most durable materials -- natural slate lasting eighty to one hundred twenty years, copper standing-seam performing sixty to eighty years, cedar shake serving twenty-five to forty years with maintenance -- eventually reach the point where repair frequency, maintenance cost, and declining weather protection make replacement the more responsible investment than continued service on an aging system.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Essex Fells — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Essex Fells addresses the inevitable end-of-service-life transition for roofing systems that have protected estate properties for decades. Even the most durable materials -- natural slate lasting eighty to one hundred twenty years, copper standing-seam performing sixty to eighty years, cedar shake serving twenty-five to forty years with maintenance -- eventually reach the point where repair frequency, maintenance cost, and declining weather protection make replacement the more responsible investment than continued service on an aging system.',
     'The replacement timing decision on Essex Fells estate roofs benefits from professional assessment rather than arbitrary age thresholds. A well-maintained slate roof at sixty years may have forty years of service remaining, while a poorly ventilated slate installation at forty years may be approaching failure. Our aging roof assessment evaluates actual material condition -- slate delamination patterns, copper fatigue cracking, cedar shake fiber degradation -- against the environmental exposure conditions on the specific property to project remaining service life and recommend replacement timing based on evidence rather than age alone.',
     'Our aging roof replacement practice in [Essex Fells](/roofing-in-essex-fells-nj) respects the property investment that homeowners have accumulated over decades of ownership. The replacement project is an opportunity to correct deficiencies in the original installation -- inadequate ventilation, insufficient underlayment, missing ice-and-water shield at eaves and valleys -- while installing the new surface material. These hidden improvements enhance the new roof\'s performance beyond what the original system achieved, protecting the estate for the next generation of ownership.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsAgingRoofReplacement: ComboContent = {
     {
       question: 'What improvements should I include when replacing an aging roof?',
       answer: 'Replacement provides the optimal opportunity for ventilation upgrades, insulation augmentation, ice-and-water shield installation at eaves and valleys, and updated flashing systems. These improvements are significantly less expensive during replacement than as standalone retrofits. We identify the specific improvement opportunities on your property during the assessment phase and present costs for each option so you can make informed decisions about which upgrades to incorporate during the replacement project.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most aging roof replacement projects in Essex Fells range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Essex Fells NJ -- planned replacement programs for estate properties based on material condition assessment.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Flat roof replacement in South Orange Village provides new membrane systems for the commercial buildings, institutional facilities, and residential low-slope sections where existing flat roofing has reached the end of its service life. The mixed-use buildings along South Orange Avenue, Seton Hall University campus structures, and the residential porch and addition roofs throughout the village all carry flat or low-slope surfaces that require periodic complete replacement to maintain waterproofing integrity.',
+    'Newark Quality Roofing delivers expert flat roof replacement in South Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in South Orange Village provides new membrane systems for the commercial buildings, institutional facilities, and residential low-slope sections where existing flat roofing has reached the end of its service life. The mixed-use buildings along South Orange Avenue, Seton Hall University campus structures, and the residential porch and addition roofs throughout the village all carry flat or low-slope surfaces that require periodic complete replacement to maintain waterproofing integrity.',
     'The replacement decision for South Orange flat roofs evaluates whether the existing membrane can be recovered with coating or overlay or requires full tear-off and replacement. Roofs with dry insulation and sound deck structure may be candidates for recover installation that saves tear-off cost and disruption. Roofs with wet insulation, deck deterioration, or drainage deficiencies benefit from full tear-off that addresses substrate conditions and allows insulation and drainage improvement.',
     'Our flat roof replacement work in [South Orange](/roofing-in-south-orange-nj) offers the full range of membrane options appropriate for each application. TPO for energy-efficient commercial buildings, PVC for restaurant and chemical-exposure environments, EPDM for residential porch and addition roofs, and modified bitumen for applications requiring maximum puncture resistance. The material recommendation follows building-specific assessment rather than contractor preference.',
     'Energy and drainage improvement during flat roof replacement provide the most cost-effective opportunity to upgrade performance on South Orange buildings. Tapered insulation eliminates ponding that the previous installation allowed, and increased insulation R-value reduces heating and cooling costs. These improvements add modest cost to the replacement project but deliver ongoing benefits throughout the new roof\'s 25-30-year service life.'
@@ -35,7 +35,25 @@ export const southOrangeFlatRoofReplacement: ComboContent = {
     {
       question: 'Can flat roof replacement improve my South Orange building energy efficiency?',
       answer: 'Yes, significantly. Adding tapered insulation during replacement brings the roof to current energy code R-values, often doubling the insulation present in older installations. Reflective membrane surfaces reduce cooling loads during summer. These improvements deliver ongoing energy savings that partially offset the replacement investment throughout the new roof\'s service life.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in South Orange, NJ?',
+      answer: 'Most flat roof replacement projects in South Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in South Orange NJ -- new TPO, EPDM, and PVC membrane systems for commercial and residential buildings.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

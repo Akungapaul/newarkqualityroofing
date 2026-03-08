@@ -4,7 +4,7 @@ export const livingstonSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'livingston',
   overview: [
-    'Silicone elastomeric roof coating provides Livingston commercial building owners with a flexible, UV-resistant surface restoration that accommodates the thermal expansion and contraction cycles that northern New Jersey roofs endure across a 130-degree annual temperature range. The elastomeric formulation stretches and recovers as the roof substrate moves beneath it -- expanding during summer heat and contracting during winter cold -- without cracking, delaminating, or losing waterproofing integrity at the stress points where rigid coatings fail.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Livingston — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating provides Livingston commercial building owners with a flexible, UV-resistant surface restoration that accommodates the thermal expansion and contraction cycles that northern New Jersey roofs endure across a 130-degree annual temperature range. The elastomeric formulation stretches and recovers as the roof substrate moves beneath it -- expanding during summer heat and contracting during winter cold -- without cracking, delaminating, or losing waterproofing integrity at the stress points where rigid coatings fail.',
     'This flexibility advantage is particularly relevant for Livingston commercial roofs with metal components -- standing seam panels, equipment curbs, and flashing systems -- where differential thermal movement between metal and membrane creates stress concentrations that rigid coatings cannot accommodate. The elastomeric silicone bridges these movement joints while maintaining a continuous waterproof seal, eliminating the cracking failures that standard silicone coatings experience at high-movement locations.',
     'Our [silicone elastomeric roof coating](/silicone-elastomeric-roof-coating) installations on Livingston commercial properties target buildings where the existing roof system is structurally adequate but the surface requires restoration. The elastomeric coating adds a self-healing surface layer -- minor scratches and abrasions from foot traffic and equipment maintenance close as the material recovers its original shape, reducing the maintenance burden that property managers face between scheduled inspection visits.',
     'Commercial corridors in neighboring [West Orange](/silicone-elastomeric-roof-coating-west-orange-nj) present similar building profiles where elastomeric coating extends existing roof investments, though Livingston\'s professional office market tends toward larger individual buildings with more complex mechanical equipment configurations that benefit from the coating\'s flexibility around penetration flashings.'
@@ -35,7 +35,25 @@ export const livingstonSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Is elastomeric coating appropriate for the flat section of my Livingston split-level?',
       answer: 'Elastomeric coating can restore a residential flat roof section in good structural condition. However, for small residential flat sections, EPDM membrane replacement often provides better long-term value than coating restoration. We evaluate the existing flat roof condition and recommend the approach that delivers the most reliable waterproofing for the specific situation and budget.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Livingston, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Livingston range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in Livingston NJ -- flexible commercial roof restoration with thermal movement accommodation for offices.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

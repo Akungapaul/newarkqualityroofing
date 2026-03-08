@@ -4,7 +4,7 @@ export const irvingtonCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'irvington',
   overview: [
-    'Commercial roof installation in Irvington spans two distinct building markets: the Springfield Avenue corridor where mixed-use buildings, retail storefronts, and institutional facilities need roofing systems that serve both commercial and residential functions simultaneously, and the Route 78 industrial zone where warehouses and distribution facilities require large-footprint membrane systems engineered for heavy-duty performance. Our [commercial roof installation](/commercial-roof-installation) services deliver specifications calibrated to each building\'s operational requirements rather than applying a one-size-fits-all approach.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Irvington — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Irvington spans two distinct building markets: the Springfield Avenue corridor where mixed-use buildings, retail storefronts, and institutional facilities need roofing systems that serve both commercial and residential functions simultaneously, and the Route 78 industrial zone where warehouses and distribution facilities require large-footprint membrane systems engineered for heavy-duty performance. Our [commercial roof installation](/commercial-roof-installation) services deliver specifications calibrated to each building\'s operational requirements rather than applying a one-size-fits-all approach.',
     'New commercial construction in Irvington is concentrated along the Route 78 corridor where redevelopment of underutilized industrial parcels creates opportunities for modern warehouse, distribution, and light-manufacturing facilities. These new builds receive purpose-engineered roofing systems from the start -- properly sloped decks, code-compliant insulation, and membrane systems selected for the specific operational exposure of each facility. Designing the roof system into the building from the beginning costs far less than retrofitting corrections onto a system that was installed cheaply during construction.',
     'Institutional new-build projects in Irvington -- community facilities, religious buildings, and educational structures -- require commercial roofing systems that balance long-term performance with budget constraints that congregation or community funding imposes. Our institutional specifications prioritize systems with proven 25 to 30-year track records, manageable maintenance requirements, and warranty programs that protect the organization\'s investment. Commercial roof installations in neighboring [Newark](/commercial-roof-installation-newark-nj) serve a broader mix of large-scale commercial projects, but Irvington\'s institutional sector represents a meaningful segment where community trust drives contractor selection.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonCommercialRoofInstallation: ComboContent = {
       question: 'What warranty comes with commercial roof installation in Irvington?',
       answer: 'We provide manufacturer-backed warranties ranging from 15 to 30 years depending on the membrane system and warranty tier selected. Premium warranty programs include no-dollar-limit coverage for both materials and labor for the full warranty period. Our workmanship warranty covers installation quality for 10 years independent of the manufacturer warranty.',
     },
+    {
+      question: 'How much does commercial roof installation cost in Irvington, NJ?',
+      answer: 'Most commercial roof installation projects in Irvington range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Irvington NJ for Springfield Ave businesses, Route 78 industrial, and institutional buildings. Engineered membrane systems.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

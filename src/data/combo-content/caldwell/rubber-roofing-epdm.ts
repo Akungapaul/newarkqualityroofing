@@ -4,7 +4,7 @@ export const caldwellRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'caldwell',
   overview: [
-    'EPDM rubber roofing serves a practical role across Caldwell\'s residential landscape, protecting the flat and low-slope roof sections that appear on ranch home carports, enclosed porches, room additions, and detached garage roofs throughout the borough. These secondary roof surfaces often receive less attention than the main house roof during replacement planning, but they protect living space, stored vehicles, and finished interiors just as critically. EPDM\'s combination of proven waterproofing performance, reasonable cost, and straightforward installation makes it the default choice for these applications in Caldwell\'s residential context.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Caldwell — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing serves a practical role across Caldwell\'s residential landscape, protecting the flat and low-slope roof sections that appear on ranch home carports, enclosed porches, room additions, and detached garage roofs throughout the borough. These secondary roof surfaces often receive less attention than the main house roof during replacement planning, but they protect living space, stored vehicles, and finished interiors just as critically. EPDM\'s combination of proven waterproofing performance, reasonable cost, and straightforward installation makes it the default choice for these applications in Caldwell\'s residential context.',
     'The small-shop commercial buildings along [Caldwell\'s](/roofing-in-caldwell-nj) Bloomfield Avenue also carry EPDM systems on buildings where TPO or PVC may be specified for new construction but where existing EPDM installations need maintenance, repair, or replacement-in-kind. These commercial EPDM roofs range from 1,500 to 8,000 square feet -- small enough that the membrane arrives as a single sheet requiring no field seams, which eliminates the most common failure point on larger EPDM installations in cities like [Newark](/rubber-roofing-epdm-newark-nj) or [East Orange](/rubber-roofing-epdm-east-orange-nj).',
     'Our [rubber roofing](/rubber-roofing-epdm) approach for Caldwell recognizes that EPDM performs differently under this borough\'s specific conditions. The persistent leaf debris from Caldwell\'s tree canopy creates organic acid contact on membrane surfaces, and standing water behind debris dams accelerates the UV and ozone degradation that ultimately breaks down EPDM chemistry. Specifying the right membrane thickness, adhesive system, and drainage details for Caldwell\'s canopy environment determines whether an EPDM installation delivers fifteen years or thirty.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRubberRoofingEpdm: ComboContent = {
     {
       question: 'Does EPDM rubber roofing work on a Caldwell porch roof with foot traffic?',
       answer: 'Standard EPDM handles occasional maintenance foot traffic but is not designed for regular walking surface use. If the porch roof serves as a deck or balcony with frequent foot traffic, we install walkway pads over the membrane surface to distribute weight and prevent abrasion. For high-traffic applications, PVC membrane with a textured walking surface may be a better material choice. We assess the intended use during the initial consultation to specify the membrane and protection system that matches how the space will actually be used.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Caldwell, NJ?',
+      answer: 'Most rubber roofing epdm projects in Caldwell range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Caldwell NJ -- fully-adhered membrane systems for ranch home flat sections and Bloomfield Avenue commercial buildings.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

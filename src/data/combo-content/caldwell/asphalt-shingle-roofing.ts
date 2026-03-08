@@ -4,7 +4,7 @@ export const caldwellAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'caldwell',
   overview: [
-    'Asphalt shingles are the overwhelmingly practical choice for Caldwell homeowners, and the borough\'s roofscape reflects that pragmatism. Drive any residential street in Caldwell and you see a consistent palette of earth-toned architectural shingles -- Weathered Wood, Charcoal, Pewter Gray, Driftwood -- sitting on colonial ridgelines and cape cod gambrels in quiet coordination with the neighborhood around them. This is not a town that chases the most exotic roofing material or the boldest color statement. Caldwell homeowners want a shingle that performs reliably for three decades, complements their home and their neighbor\'s home, and represents a sensible investment in a property they plan to own for the long term.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Caldwell — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingles are the overwhelmingly practical choice for Caldwell homeowners, and the borough\'s roofscape reflects that pragmatism. Drive any residential street in Caldwell and you see a consistent palette of earth-toned architectural shingles -- Weathered Wood, Charcoal, Pewter Gray, Driftwood -- sitting on colonial ridgelines and cape cod gambrels in quiet coordination with the neighborhood around them. This is not a town that chases the most exotic roofing material or the boldest color statement. Caldwell homeowners want a shingle that performs reliably for three decades, complements their home and their neighbor\'s home, and represents a sensible investment in a property they plan to own for the long term.',
     'The housing stock in Caldwell lends itself perfectly to asphalt shingle installation. Colonials and capes with moderate roof pitches in the 6:12 to 8:12 range provide ideal substrate geometry for architectural shingles. Split-level homes from the 1960s expansion offer straightforward hip-and-ridge configurations. Even the few ranch-style homes scattered through the borough present simple, low-complexity roof planes that install efficiently. Unlike the steep Victorian mansions of Montclair or the flat commercial rooftops of Newark, Caldwell roofs let installation crews work safely and efficiently, which translates directly into lower labor cost and faster project completion for the homeowner.',
     'Material selection in Caldwell tilts heavily toward the premium tier of asphalt shingles -- GAF Timberline HDZ and CertainTeed Landmark Pro dominate the installed base. These products deliver the dimensional appearance that Caldwell homeowners expect, with SBS-modified asphalt formulations that resist the freeze-thaw cycling of New Jersey winters and the summer heat that builds under the borough\'s tree canopy. The HDZ designation on GAF\'s flagship line indicates a layered nailing zone that improves wind resistance to 130 mph without requiring the six-nail patterns that add labor cost on standard architectural shingles. For Caldwell\'s moderate wind exposure -- sheltered by surrounding terrain and tree cover -- this wind rating exceeds practical requirements by a comfortable margin.',
     'Color selection in Caldwell follows neighborhood convention more closely than in larger, more diverse municipalities. When a homeowner on a Caldwell residential street replaces their roof, they typically look at the three or four homes visible from their front porch and select a shingle color that harmonizes with the existing street palette. We keep this community context in mind during the selection process and bring physical shingle samples to lay against the home\'s siding, trim, and stonework so the homeowner can evaluate the actual combination rather than choosing from a catalog photo. The result is a roof that enhances both the individual home and the streetscape that defines Caldwell\'s residential character.'
@@ -39,7 +39,25 @@ export const caldwellAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Can you install new shingles over the existing layer on my Caldwell home?',
       answer: 'New Jersey building code allows one overlay layer over a single existing shingle layer, but we recommend full tear-off for most Caldwell installations. Overlay hides deck damage that should be repaired, voids some manufacturer warranties, adds weight to structures designed for a single shingle layer, and creates an uneven surface that shortens the new shingle lifespan. The cost savings of overlay -- typically 15 to 20 percent -- rarely justify these compromises for homeowners planning to stay in their Caldwell home long-term. We discuss both options transparently and let you make the informed decision.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Caldwell, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Caldwell range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing for Caldwell NJ homes -- GAF and CertainTeed architectural shingles matched to colonial and cape cod neighborhood character.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

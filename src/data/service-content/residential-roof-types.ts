@@ -97,8 +97,54 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'Will a new roof increase my home value in Essex County?',
         answer: 'Yes, consistently. National Remodeling Magazine data shows that roof replacement recovers 60 to 70 percent of project cost at resale, making it one of the highest-return home improvements available. In Essex County\'s competitive real estate market, the return may be even higher because buyers in this area are particularly attentive to the condition of major systems. Beyond direct value recovery, a new roof eliminates a significant negotiation point that buyers use to reduce purchase offers, and it demonstrates the overall level of care applied to the property.',
       },
+    
+      {
+        question: 'How much does residential roof installation cost in Essex County, NJ?',
+        answer: 'Most residential roof installation projects in Essex County range from $8,500–$25,000, complete residential installation. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$8,500–$25,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Residential Roof Installation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 2. ASPHALT SHINGLE ROOFING
@@ -189,8 +235,54 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'Can asphalt shingles withstand the nor\'easters and storms in Essex County?',
         answer: 'Modern architectural shingles are engineered for severe weather. Premium products carry wind ratings of 110 to 130 miles per hour when properly installed with the enhanced nailing pattern specified by the manufacturer. Class 4 impact-resistant shingles can withstand two-inch hailstones without cracking. Algae-resistant granule technology prevents the dark streaking that plagues shingles in humid climates. The key is proper installation, particularly nail placement and adhesive strip activation. Our certified installation ensures your shingles achieve their rated performance in real-world storm conditions.',
       },
+    
+      {
+        question: 'How much does asphalt shingle roofing cost in Essex County, NJ?',
+        answer: 'Most asphalt shingle roofing projects in Essex County range from $8,500–$18,000, full installation with tear-off. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$8,500–$18,000',
+      factors: [
+        'Roof size and square footage',
+        'Material selection and quality grade',
+        'Complexity of roof design (pitch, valleys, penetrations)',
+        'Current condition and extent of existing damage',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Asphalt Shingle Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 3. SLATE ROOF INSTALLATION AND REPAIR
@@ -281,8 +373,54 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'Can individual broken slates be repaired without replacing the entire roof?',
         answer: 'Absolutely, and this is one of slate\'s great advantages. Individual cracked or broken tiles can be removed and replaced using a slate ripper tool without disturbing surrounding tiles. A skilled slate craftsman can replace individual tiles in under an hour. We maintain an inventory of salvaged and new slate in common sizes, colors, and thicknesses to ensure close matches with existing installations. This repairability is why slate roofs can last centuries -- they are maintained through selective component replacement rather than full system replacement.',
       },
+    
+      {
+        question: 'How much does slate roof installation repair cost in Essex County, NJ?',
+        answer: 'Most slate roof installation repair projects in Essex County range from $20,000–$45,000, natural slate installation or restoration. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$20,000–$45,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Slate Roof Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 4. WOOD SHAKE ROOFING
@@ -373,8 +511,54 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'What is the difference between wood shakes and wood shingles?',
         answer: 'Wood shakes are thicker and rougher-textured, produced by hand-splitting or tapersawing the wood along its natural grain. This creates an irregular, rustic surface with significant thickness variation. Wood shingles are machine-sawn on both sides to precise taper dimensions, creating a smoother, more uniform appearance. Shakes provide a more dramatic visual impact and somewhat better weather resistance due to their thickness, while shingles offer a more refined aesthetic. Both are made from cedar and share similar lifespans when properly maintained.',
       },
+    
+      {
+        question: 'How much does wood shake roofing cost in Essex County, NJ?',
+        answer: 'Most wood shake roofing projects in Essex County range from $14,000–$30,000, cedar shake or wood shingle installation. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$14,000–$30,000',
+      factors: [
+        'Roof size and square footage',
+        'Material selection and quality grade',
+        'Complexity of roof design (pitch, valleys, penetrations)',
+        'Current condition and extent of existing damage',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Wood Shake Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 5. METAL ROOF INSTALLATION AND REPAIR
@@ -465,8 +649,54 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'Does a metal roof attract lightning?',
         answer: 'No. Metal roofing does not attract lightning any more than other roofing materials. Lightning strikes the highest point in an area regardless of material composition. In the unlikely event that lightning does strike a metal roof, the metal actually provides a safety advantage by conducting the electrical charge across its surface and dissipating it without the combustion risk that non-metallic materials face. Metal roofing carries a Class A fire rating specifically because it does not ignite under any circumstances, including lightning strikes.',
       },
+    
+      {
+        question: 'How much does metal roof installation repair cost in Essex County, NJ?',
+        answer: 'Most metal roof installation repair projects in Essex County range from $15,000–$35,000, premium standing seam or panel systems. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$15,000–$35,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Metal Roof Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 6. FLAT ROOF INSTALLATION AND REPAIR
@@ -559,8 +789,54 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'Which flat roof membrane is best for energy efficiency?',
         answer: 'White TPO membrane provides the highest solar reflectivity of the common flat roof materials, reflecting up to 80 percent of solar radiation compared to the 5 to 15 percent reflected by dark EPDM. In summer, this can reduce roof surface temperature by 50 to 60 degrees Fahrenheit, significantly reducing cooling costs for the spaces below. White EPDM and white-coated modified bitumen also offer improved reflectivity compared to their standard dark-colored versions, though not quite matching TPO\'s performance.',
       },
+    
+      {
+        question: 'How much does flat roof installation repair cost in Essex County, NJ?',
+        answer: 'Most flat roof installation repair projects in Essex County range from $6,000–$18,000, EPDM, TPO, or modified bitumen. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$6,000–$18,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Flat Roof Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 7. TILE ROOF INSTALLATION AND REPAIR
@@ -652,8 +928,54 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'How does tile roofing compare in cost to other premium materials?',
         answer: 'Tile falls between asphalt shingles and natural slate in both initial cost and lifespan. A tile roof for a typical Essex County home costs roughly 25,000 to 50,000 dollars, placing it above premium asphalt shingles at 15,000 to 25,000 and below natural slate at 40,000 to 80,000. With a 50 to 100-year lifespan, the lifecycle cost of tile is competitive with materials that cost significantly less initially but require replacement two or three times during the period a single tile roof serves.',
       },
+    
+      {
+        question: 'How much does tile roof installation repair cost in Essex County, NJ?',
+        answer: 'Most tile roof installation repair projects in Essex County range from $18,000–$40,000, clay or concrete tile systems. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$18,000–$40,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Tile Roof Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 8. CEDAR SHAKE ROOFING
@@ -745,8 +1067,54 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'Will a cedar shake roof affect my homeowner insurance rates?',
         answer: 'Fire-treated cedar shakes that carry a Class A fire rating are accepted by all major insurance carriers without premium surcharge. Untreated cedar with a Class C rating may result in higher premiums or coverage restrictions from some carriers. We exclusively install fire-treated cedar shakes that meet Class A requirements, eliminating insurance concerns. Some insurance companies may still apply a modest surcharge for wood roofing compared to non-combustible materials like metal or tile, so we recommend checking with your carrier before making your material selection.',
       },
+    
+      {
+        question: 'How much does cedar shake roofing cost in Essex County, NJ?',
+        answer: 'Most cedar shake roofing projects in Essex County range from $15,000–$32,000, premium cedar shake with preservative treatment. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$15,000–$32,000',
+      factors: [
+        'Roof size and square footage',
+        'Material selection and quality grade',
+        'Complexity of roof design (pitch, valleys, penetrations)',
+        'Current condition and extent of existing damage',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Cedar Shake Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ═══════════════════════════════════════════════════════════════════════════════
   // 9. RUBBER ROOFING EPDM
@@ -838,6 +1206,52 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         question: 'What is the difference between EPDM and TPO for my flat roof?',
         answer: 'EPDM and TPO are both excellent flat roofing membranes with different characteristics. EPDM excels in cold-weather flexibility, proven longevity with 50-plus years of field data, ease of repair, and competitive cost. TPO excels in energy efficiency through high solar reflectivity, heat-welded seams that are stronger than adhesive seams, and resistance to chemical exposure. EPDM is typically black while TPO is typically white. For most Essex County residential applications, either material performs well, and the choice often comes down to energy efficiency priority and aesthetic preference.',
       },
+    
+      {
+        question: 'How much does rubber roofing epdm cost in Essex County, NJ?',
+        answer: 'Most rubber roofing epdm projects in Essex County range from $6,000–$16,000, EPDM rubber membrane system. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
     ],
-  },
+  
+    pricing: {
+      range: '$6,000–$16,000',
+      factors: [
+        'Building square footage and roof area',
+        'Membrane system selected (TPO, EPDM, PVC, modified bitumen)',
+        'Insulation requirements and R-value targets',
+        'Phasing requirements to maintain business operations',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Rubber Roofing EPDM',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 ];

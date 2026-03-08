@@ -4,7 +4,7 @@ export const irvingtonRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'irvington',
   overview: [
-    'Roof replacement cost in Irvington reflects the township\'s position in the Essex County market: more affordable than affluent western suburbs like Millburn and Montclair, but priced to deliver the quality materials and thorough installation that Irvington\'s aging housing stock demands. Our [roof replacement pricing](/roof-replacement-cost) provides Irvington homeowners with transparent, itemized estimates that break down every component of the project so property owners can make informed decisions based on understanding rather than guesswork.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Irvington — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in Irvington reflects the township\'s position in the Essex County market: more affordable than affluent western suburbs like Millburn and Montclair, but priced to deliver the quality materials and thorough installation that Irvington\'s aging housing stock demands. Our [roof replacement pricing](/roof-replacement-cost) provides Irvington homeowners with transparent, itemized estimates that break down every component of the project so property owners can make informed decisions based on understanding rather than guesswork.',
     'The cost range for Irvington roof replacement spans from approximately $8,000 for a straightforward colonial with standard architectural shingles to $16,000 or more for larger homes with complex geometries, extensive deck repair, and premium material selections. The primary variables driving cost within this range are roof area, deck condition discovered during tear-off, the specific shingle product selected, and the complexity of flashing and detail work that the roof geometry requires. Our estimates itemize each variable so homeowners understand exactly what drives their specific price.',
     'Investment property owners in Irvington evaluate roof replacement cost differently than homeowners -- as a capital expenditure with measurable return through rent premium, reduced maintenance expense, and property value increase. Our investment property estimates include ROI analysis showing the payback period based on the landlord\'s specific portfolio economics. Multi-property volume pricing further improves the investment return for landlords managing several [Irvington](/roofing-in-irvington-nj) properties. Replacement pricing in neighboring [East Orange](/roof-replacement-cost-east-orange-nj) falls in a similar range, reflecting comparable housing stock and market conditions.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofReplacementCost: ComboContent = {
       question: 'What financing terms are available for Irvington roof replacement?',
       answer: 'Our financing partners offer terms from 24 to 120 months with rates starting at competitive market levels. Many Irvington homeowners find that a 60-month financing plan produces monthly payments comparable to what they were spending annually on repairs divided across 12 months, making replacement affordable without a large upfront payment.',
     },
+    {
+      question: 'How much does roof replacement cost cost in Irvington, NJ?',
+      answer: 'Most roof replacement cost projects in Irvington range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in Irvington NJ with transparent pricing and itemized estimates. Understand what drives your price and financing options available.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

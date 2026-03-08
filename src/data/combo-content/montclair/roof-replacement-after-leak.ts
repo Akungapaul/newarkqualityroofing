@@ -4,7 +4,7 @@ export const montclairRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'montclair',
   overview: [
-    'Roof replacement after leak damage in Montclair becomes the appropriate response when repair attempts have failed to permanently resolve chronic water intrusion, when the leak investigation reveals widespread underlying deterioration that spot repairs cannot address, or when the cumulative cost of repeated repairs has approached the investment required for a new roof system. The decision to replace rather than repair again is an economic and practical judgment that our diagnostic process supports with evidence rather than sales pressure.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Montclair — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak damage in Montclair becomes the appropriate response when repair attempts have failed to permanently resolve chronic water intrusion, when the leak investigation reveals widespread underlying deterioration that spot repairs cannot address, or when the cumulative cost of repeated repairs has approached the investment required for a new roof system. The decision to replace rather than repair again is an economic and practical judgment that our diagnostic process supports with evidence rather than sales pressure.',
     'Chronic leaks on Montclair homes frequently trace to systemic conditions rather than isolated failures. Ice dam damage at eave lines, deteriorated flashing at multiple chimney and dormer transitions, and ventilation deficiencies causing condensation throughout the attic space are conditions that no amount of surface patching will permanently resolve. Our [roof replacement after leak](/roof-replacement-after-leak) assessments for [Montclair](/roofing-in-montclair-nj) homeowners identify whether the leak source is an isolated repairable failure or a systemic condition warranting replacement.',
     'The water damage that chronic leaks produce in Montclair homes -- stained ceilings, saturated insulation, mold growth in concealed spaces, and structural wood deterioration at penetration points -- often costs more to remediate than the roof replacement itself. Homeowners in [Glen Ridge](/roof-replacement-after-leak-glen-ridge-nj) and [Bloomfield](/roof-replacement-after-leak-bloomfield-nj) face similar escalation from deferred leak repair to interior damage restoration that early replacement would have prevented.'
   ],
@@ -30,7 +30,25 @@ export const montclairRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Should I fix interior damage before or after roof replacement?',
       answer: 'After. Replacing interior finishes before the new roof is installed risks repeat damage if the replacement is delayed or if any construction-phase moisture enters before the new roof is fully sealed. Complete the roof replacement, verify watertight performance through the first significant rainfall, then proceed with interior remediation. This sequence ensures that restoration work is permanent rather than preliminary.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Montclair, NJ?',
+      answer: 'Most roof replacement after leak projects in Montclair range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Montclair NJ -- permanent resolution for chronic leaks on Victorian and historic homes.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

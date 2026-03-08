@@ -4,7 +4,7 @@ export const roselandTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'roseland',
   overview: [
-    'TPO roofing dominates the commercial membrane market in Roseland, where the corporate office parks along Eisenhower Parkway and Eagle Rock Avenue feature some of the largest single-ply roof installations in western Essex County. The material\'s heat-welded seam technology, ENERGY STAR-rated reflectivity, and competitive cost-per-square-foot have made it the default specification for new commercial construction and re-roofing projects across the borough. Our [TPO roofing installation](/tpo-roofing-installation) service delivers manufacturer-certified installations that qualify for the 20 to 30 year warranties that Roseland\'s corporate property managers require.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Roseland — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing dominates the commercial membrane market in Roseland, where the corporate office parks along Eisenhower Parkway and Eagle Rock Avenue feature some of the largest single-ply roof installations in western Essex County. The material\'s heat-welded seam technology, ENERGY STAR-rated reflectivity, and competitive cost-per-square-foot have made it the default specification for new commercial construction and re-roofing projects across the borough. Our [TPO roofing installation](/tpo-roofing-installation) service delivers manufacturer-certified installations that qualify for the 20 to 30 year warranties that Roseland\'s corporate property managers require.',
     'The energy performance advantage of TPO is particularly relevant for Roseland\'s commercial buildings. White TPO membranes reflect up to 86 percent of solar radiation, reducing roof surface temperatures by 50 to 60 degrees compared to dark roofing surfaces. For office buildings running continuous HVAC systems, this translates to measurable reductions in cooling energy consumption. The ADP campus and neighboring corporate properties have recognized this benefit, and TPO has become the predominant re-roofing material in Roseland\'s commercial sector.',
     'Residential applications of TPO in Roseland are growing as homeowners learn about the material\'s performance advantages for flat and low-slope roof sections. The white reflective surface, strong welded seams, and 30-year warranty potential make TPO an attractive alternative to traditional EPDM on porch roofs, garage extensions, and the flat-over sections common on Roseland\'s split-level homes. Property owners in [Livingston](/tpo-roofing-installation-livingston-nj) have similarly embraced TPO for residential flat sections.'
   ],
@@ -34,7 +34,25 @@ export const roselandTpoRoofingInstallation: ComboContent = {
     {
       question: 'How does TPO compare to EPDM for our Roseland property?',
       answer: 'TPO offers heat-welded seams that are inherently stronger than EPDM adhesive seams, plus the white surface provides measurable energy savings on air-conditioned buildings. EPDM costs less initially and has a longer field-proven track record. For Roseland commercial properties with active cooling systems, TPO typically delivers better lifecycle value through energy savings. For residential flat sections where energy savings are marginal, EPDM may provide adequate performance at lower initial cost.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Roseland, NJ?',
+      answer: 'Most tpo roofing installation projects in Roseland range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in Roseland NJ -- energy-efficient commercial membrane systems for office parks and corporate buildings.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

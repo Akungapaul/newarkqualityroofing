@@ -4,7 +4,7 @@ export const irvingtonInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'irvington',
   overview: [
-    'Infrared roof leak detection provides Irvington\'s commercial property owners with the precision leak location capability that conventional visual inspection cannot deliver on flat-roof systems where water travels horizontally between membrane and insulation before dripping into the building far from the actual entry point. Our [infrared leak detection](/infrared-roof-leak-detection) services pinpoint the exact membrane breach location, allowing targeted repair that addresses the actual failure rather than guessing at entry points based on interior stain locations.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Irvington — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection provides Irvington\'s commercial property owners with the precision leak location capability that conventional visual inspection cannot deliver on flat-roof systems where water travels horizontally between membrane and insulation before dripping into the building far from the actual entry point. Our [infrared leak detection](/infrared-roof-leak-detection) services pinpoint the exact membrane breach location, allowing targeted repair that addresses the actual failure rather than guessing at entry points based on interior stain locations.',
     'The diagnostic advantage of infrared on Irvington\'s aging commercial roofs is particularly valuable on buildings with multiple accumulated roofing layers. Springfield Avenue buildings with three or four layers of roofing -- each applied over the previous system rather than torn off -- create labyrinthine water pathways where conventional leak-finding methods fail. Infrared detection bypasses the layers above to identify the moisture concentration in the insulation beneath, revealing the migration path from membrane breach to interior drip point regardless of how many layers conceal the failure.',
     'Targeted leak repair guided by infrared detection saves Irvington commercial property owners significant money compared to the shotgun approach of patching multiple suspected areas hoping to hit the right one. A single infrared scan that identifies the precise leak location typically costs less than one failed repair attempt, and it eliminates the cycle of ineffective repairs that drives building owners toward premature full roof replacement. Commercial properties in [East Orange](/infrared-roof-leak-detection-east-orange-nj) benefit from identical infrared diagnostic capability on their aging flat-roof commercial buildings.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonInfraredRoofLeakDetection: ComboContent = {
       question: 'Will infrared detection work on my multi-layer Irvington commercial roof?',
       answer: 'Yes. Infrared detection is particularly valuable on multi-layer roofs because it identifies moisture in the insulation regardless of how many membrane layers are above. The moisture concentration produces a thermal signature that penetrates through multiple roofing layers. This capability makes infrared the preferred diagnostic tool for Irvington commercial roofs with accumulated roofing systems.',
     },
+    {
+      question: 'How much does infrared roof leak detection cost in Irvington, NJ?',
+      answer: 'Most infrared roof leak detection projects in Irvington range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Irvington NJ for commercial flat roofs. Pinpoint leak location to target repairs and avoid unnecessary replacement.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

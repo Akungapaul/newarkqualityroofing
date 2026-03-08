@@ -4,7 +4,7 @@ export const eastOrangeCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Commercial roof replacement on East Orange buildings is a capital project that transforms the building\'s most critical protective system while the business operations, residential tenants, and institutional functions below continue without interruption. The mixed-use buildings along Main Street, the institutional facilities serving community organizations, and the commercial properties throughout Brick Church and the downtown area all reach the point where accumulated repairs, chronic ponding, and membrane deterioration make continued patching economically irrational -- and full [commercial roof replacement](/commercial-roof-replacement) becomes the sound investment decision.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in East Orange — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement on East Orange buildings is a capital project that transforms the building\'s most critical protective system while the business operations, residential tenants, and institutional functions below continue without interruption. The mixed-use buildings along Main Street, the institutional facilities serving community organizations, and the commercial properties throughout Brick Church and the downtown area all reach the point where accumulated repairs, chronic ponding, and membrane deterioration make continued patching economically irrational -- and full [commercial roof replacement](/commercial-roof-replacement) becomes the sound investment decision.',
     'East Orange\'s commercial building owners face a replacement decision shaped by the city\'s economic trajectory. Buildings positioned for long-term hold and appreciation justify premium membrane systems with 25 to 30-year service life and comprehensive manufacturer warranties. Properties in transitional use -- commercial space being repositioned for new tenants, buildings facing potential redevelopment -- may warrant mid-tier systems that provide reliable 20-year performance at lower capital cost. Our replacement specifications align membrane selection with the building owner\'s investment horizon, avoiding both underinvestment that creates premature failure and overinvestment that exceeds the building\'s remaining economic life.',
     'The replacement process on occupied East Orange commercial buildings must protect the revenue-generating operations below the work area throughout the project duration. A four-week roof replacement cannot cost the ground-floor restaurant its dinner service, cannot displace the upstairs tenants, and cannot compromise the inventory of the retail tenant operating adjacent to the staging area. Our project management on East Orange commercial replacements plans every logistics detail -- material staging, debris containment, noise scheduling, weather protection -- to maintain business continuity from tear-off through final inspection.',
     'Energy code compliance during commercial roof replacement triggers insulation upgrades that transform the building\'s thermal performance. New Jersey energy code requires current-standard R-values when existing roofing is removed to the deck, and meeting these requirements on East Orange buildings that were constructed with minimal insulation produces dramatic improvement in heating and cooling efficiency. The mandated insulation upgrade is not an added cost of replacement -- it is an embedded benefit that reduces operating costs for the remaining life of the building, a value recognized by commercial property owners across Essex County from East Orange to [Caldwell](/commercial-roof-replacement-caldwell-nj).'
@@ -35,7 +35,25 @@ export const eastOrangeCommercialRoofReplacement: ComboContent = {
     {
       question: 'Does my East Orange commercial roof replacement require a building permit?',
       answer: 'Yes. All commercial roof replacement projects in East Orange require building permits from the East Orange Building Department. The permit application requires contractor licensing, insurance certificates, project specifications including membrane type and insulation values, and structural documentation if the replacement changes the roof loading. We handle all permit applications and coordinate required inspections as part of our standard project scope.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in East Orange, NJ?',
+      answer: 'Most commercial roof replacement projects in East Orange range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement for East Orange NJ buildings -- phased flat roof installation with energy code insulation upgrades and tenant-safe construction.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

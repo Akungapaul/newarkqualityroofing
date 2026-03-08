@@ -4,7 +4,7 @@ export const southOrangeRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'south-orange',
   overview: [
-    'Roof waterproofing in South Orange Village addresses the comprehensive moisture management that this community\'s premium homes and challenging environmental conditions demand. Beyond the primary roofing material that sheds surface water, effective waterproofing encompasses the secondary barriers, sealant systems, and drainage components that prevent moisture from reaching the building structure through the countless penetrations, transitions, and vulnerable zones that South Orange\'s complex multi-gable rooflines create.',
+    'Newark Quality Roofing delivers expert roof waterproofing in South Orange — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in South Orange Village addresses the comprehensive moisture management that this community\'s premium homes and challenging environmental conditions demand. Beyond the primary roofing material that sheds surface water, effective waterproofing encompasses the secondary barriers, sealant systems, and drainage components that prevent moisture from reaching the building structure through the countless penetrations, transitions, and vulnerable zones that South Orange\'s complex multi-gable rooflines create.',
     'The village\'s position in the Rahway River watershed amplifies the importance of rooftop waterproofing. Intense rainfall events that have caused flooding in South Orange\'s low-lying areas drive extraordinary water volumes across roof surfaces and through gutter systems. The waterproofing assembly beneath the primary roofing material must perform under these extreme conditions, not just the average rainfall that standard specifications contemplate. Ice-and-water shield membrane, premium underlayments, and meticulous flashing details create the redundant waterproofing layers that protect South Orange homes during the worst storms.',
     'South Orange\'s tree canopy introduces moisture pathways that open suburban roofs do not experience. Organic debris trapped in valleys, behind dormers, and against chimneys creates dam effects that pool water on surfaces designed to shed it. Persistent shade retains surface moisture that promotes biological growth attacking sealant and membrane adhesion. Pine needle accumulation creates capillary paths that draw water under flashings. Our [roof waterproofing](/roof-waterproofing) approach for South Orange homes accounts for these canopy-specific moisture threats that properties in [Maplewood](/roof-waterproofing-maplewood-nj) share.',
     'Our waterproofing services in [South Orange](/roofing-in-south-orange-nj) range from targeted repairs addressing specific leak conditions to comprehensive waterproofing upgrades integrated into roof replacement projects. Each approach uses materials and techniques matched to the specific roofing material, substrate condition, and moisture exposure the property faces.'
@@ -35,7 +35,25 @@ export const southOrangeRoofWaterproofing: ComboContent = {
     {
       question: 'How does the tree canopy affect waterproofing on South Orange roofs?',
       answer: 'Tree debris creates dam effects that pool water against flashings, in valleys, and behind obstructions where the waterproofing system must resist standing water rather than flowing water. Persistent shade promotes biological growth that attacks sealant adhesion. Pine needles create capillary paths that draw water under flashing edges. These canopy-specific threats require enhanced waterproofing details -- wider flashing overlaps, additional sealant at exposed edges, and more frequent maintenance to clear debris before it creates moisture-trapping conditions.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in South Orange, NJ?',
+      answer: 'Most roof waterproofing projects in South Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in South Orange NJ -- membrane barriers, sealant systems, and moisture management for premium village homes.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

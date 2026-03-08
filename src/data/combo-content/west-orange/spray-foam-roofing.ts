@@ -4,7 +4,7 @@ export const westOrangeSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'west-orange',
   overview: [
-    'Spray polyurethane foam roofing creates a seamless, self-insulating membrane that solves two problems simultaneously on West Orange commercial buildings: waterproofing and thermal performance. Our [spray foam roofing](/spray-foam-roofing) installations in West Orange apply closed-cell SPF directly to existing roof substrates, building up a monolithic insulation-and-waterproofing layer that conforms to every surface irregularity, penetration, and flashing detail without seams or mechanical fasteners.',
+    'Newark Quality Roofing delivers expert spray foam roofing in West Orange — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing creates a seamless, self-insulating membrane that solves two problems simultaneously on West Orange commercial buildings: waterproofing and thermal performance. Our [spray foam roofing](/spray-foam-roofing) installations in West Orange apply closed-cell SPF directly to existing roof substrates, building up a monolithic insulation-and-waterproofing layer that conforms to every surface irregularity, penetration, and flashing detail without seams or mechanical fasteners.',
     'West Orange\'s aging commercial building stock along Pleasant Valley Way includes numerous properties where existing insulation has degraded to near-uselessness, driving heating costs far above modern standards. SPF retrofit installations add R-6.5 per inch of foam thickness directly to the existing roof surface, dramatically improving thermal performance without the disruption and cost of interior insulation work. Building owners near [East Orange](/spray-foam-roofing-east-orange-nj) face similar aging-building insulation challenges on their own commercial properties.',
     'The seamless nature of SPF eliminates the seam failures that plague membrane roofing systems on West Orange commercial buildings. Every membrane system -- EPDM, TPO, PVC, modified bitumen -- relies on seam integrity for waterproofing continuity. SPF has no seams. The foam application creates a single continuous surface from parapet to parapet, with penetrations and equipment curbs integrated into the monolithic foam mass rather than flashed with separate material components.',
     'SPF installations on [West Orange](/roofing-in-west-orange-nj) commercial roofs include a protective elastomeric coating that shields the foam from UV degradation and provides a walkable maintenance surface. Silicone or acrylic topcoats in reflective white add cool-roof performance to SPF\'s insulation value, creating a combined thermal management system that reduces both heating and cooling loads on buildings across the township\'s full elevation range.'
@@ -35,7 +35,25 @@ export const westOrangeSprayFoamRoofing: ComboContent = {
     {
       question: 'Is spray foam roofing noisy during rain like metal roofing?',
       answer: 'No. SPF\'s cellular structure provides excellent acoustic dampening. Rain noise on spray foam roofing is substantially quieter than on metal panels and comparable to traditional membrane-over-insulation assemblies. The foam mass absorbs sound energy rather than transmitting it to the building structure, making SPF a particularly effective choice for West Orange buildings with noise-sensitive occupancies such as offices, medical facilities, and educational spaces.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in West Orange, NJ?',
+      answer: 'Most spray foam roofing projects in West Orange range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in West Orange NJ. Seamless SPF systems with built-in insulation for commercial buildings across all elevations.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

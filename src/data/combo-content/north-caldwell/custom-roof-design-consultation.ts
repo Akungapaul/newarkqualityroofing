@@ -4,7 +4,7 @@ export const northCaldwellCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'north-caldwell',
   overview: [
-    'Custom roof design consultation in North Caldwell serves homeowners and architects navigating the intersection of ambitious architectural vision, premium material selection, and the practical constraints of roofing on estate-scale properties. The borough\'s custom-built homes -- many designed by architects to complement their wooded acre-plus settings -- demand roofing solutions that function as design elements rather than merely protective coverings. Every roof visible from the long driveways and elevated approaches that characterize these properties must deliver both performance and aesthetic authority.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in North Caldwell — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in North Caldwell serves homeowners and architects navigating the intersection of ambitious architectural vision, premium material selection, and the practical constraints of roofing on estate-scale properties. The borough\'s custom-built homes -- many designed by architects to complement their wooded acre-plus settings -- demand roofing solutions that function as design elements rather than merely protective coverings. Every roof visible from the long driveways and elevated approaches that characterize these properties must deliver both performance and aesthetic authority.',
     'Our [custom roof design](/custom-roof-design-consultation) consultations in North Caldwell typically begin before construction drawings are finalized, when the architect or homeowner is evaluating how roof material, profile, and color will integrate with the overall design concept. We provide material samples, performance data, and cost analysis for competing options -- comparing the visual impact and lifecycle costs of natural slate versus synthetic slate, standing seam copper versus pre-patinated zinc, or hand-split cedar versus composite shake alternatives. Property owners in [Essex Fells](/custom-roof-design-consultation-essex-fells-nj) engage us for similarly detailed design consultations on their estate projects.',
     'For renovation and re-roofing projects on existing North Caldwell homes, design consultation helps homeowners evaluate whether to replicate the original roofing material or transition to an alternative that improves performance while respecting the home\'s architectural character. Replacing deteriorated cedar shakes with fire-rated composite shake, or transitioning from aging three-tab shingles to designer architectural profiles, are decisions that benefit from professional guidance on how the new material will interact with existing trim, siding, and the broader streetscape along [North Caldwell](/roofing-in-north-caldwell-nj) residential corridors.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Can you help navigate North Caldwell HOA roofing requirements?',
       answer: 'We research applicable HOA covenants, architectural review requirements, and borough building codes as part of every North Caldwell consultation. Our material recommendations account for these constraints from the outset. We also prepare documentation packages for architectural review submissions, including material specifications, color samples, and installation detail drawings that address typical committee concerns.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in North Caldwell, NJ?',
+      answer: 'Most custom roof design consultation projects in North Caldwell range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in North Caldwell NJ -- material selection, architect collaboration, and HOA navigation for estate homes.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

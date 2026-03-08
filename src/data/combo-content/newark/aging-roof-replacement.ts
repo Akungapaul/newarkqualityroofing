@@ -4,7 +4,7 @@ export const newarkAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Drive through Vailsburg on a clear afternoon and the evidence is visible from the street: block after block of asphalt shingle roofs installed in the late 1990s and early 2000s, now showing the unmistakable signs of end-of-life -- granule loss exposing dark substrate, curling at the tab edges, ridge caps lifting away from the peak. These roofs are 20 to 25 years old, installed during a wave of replacement activity that swept through Newark\'s residential neighborhoods, and they are all aging out simultaneously. The same pattern repeats in Weequahic, across the South Ward, and into the Central Ward. Newark is not facing isolated roof failures; it is facing a generational replacement cycle that will touch thousands of buildings over the next five to ten years.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Newark — with prices starting from $8,500–$25,000 and free estimates available today. Drive through Vailsburg on a clear afternoon and the evidence is visible from the street: block after block of asphalt shingle roofs installed in the late 1990s and early 2000s, now showing the unmistakable signs of end-of-life -- granule loss exposing dark substrate, curling at the tab edges, ridge caps lifting away from the peak. These roofs are 20 to 25 years old, installed during a wave of replacement activity that swept through Newark\'s residential neighborhoods, and they are all aging out simultaneously. The same pattern repeats in Weequahic, across the South Ward, and into the Central Ward. Newark is not facing isolated roof failures; it is facing a generational replacement cycle that will touch thousands of buildings over the next five to ten years.',
     'The aging roof problem in Newark is compounded by the city\'s housing stock. More than 70 percent of Newark\'s residential structures were built before 1960, and many carry roofing systems that were installed as replacements decades ago -- meaning the buildings are on their second or third roof. Each generation of replacement reveals more about the underlying structure: skip sheathing that was acceptable in 1920 but fails modern code, ventilation designs that trap moisture and accelerate shingle deterioration, flashing details that were adequate for one material system but incompatible with the next. An aging roof in Newark is rarely just an aging roof; it is the surface layer of an accumulating structural narrative.',
     'Proactive replacement of an aging roof before catastrophic failure saves Newark homeowners significant money compared to emergency replacement after a leak or storm event. A planned replacement allows material comparison, contractor selection, permit scheduling, and budget preparation on the owner\'s timeline. An emergency replacement forces rapid decisions, premium pricing for urgent service, and potential interior damage remediation costs that dwarf the roof work itself. On a typical Newark three-family building, the cost difference between planned and emergency replacement ranges from $3,000 to $8,000 -- enough to cover the deductible on a future insurance claim or fund the next capital improvement.',
     'Our aging roof assessment for Newark properties goes beyond the standard inspection. We evaluate the roof system in the context of the building\'s full history: when was the current roof installed, what material was used, what is the original construction date, how many previous roof layers have been removed, what does the attic reveal about ventilation and moisture history. This contextual assessment produces a replacement recommendation that accounts for what the building has been through and what it needs going forward -- not just what the surface looks like today.'
@@ -39,7 +39,25 @@ export const newarkAgingRoofReplacement: ComboContent = {
     {
       question: 'What signs indicate my Newark roof has reached end-of-life rather than just needing repair?',
       answer: 'Five indicators distinguish end-of-life from repairable conditions: widespread granule loss visible as dark patches across the roof surface rather than localized to one area, curling or cupping of shingle tabs across multiple slopes, cracking along shingle fold lines, multiple repair locations within the past three years indicating systemic rather than isolated failure, and visible daylight through the roof deck from the attic. Any three of these five indicators on a roof over 18 years old strongly suggest replacement rather than continued repair investment.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Newark, NJ?',
+      answer: 'Most aging roof replacement projects in Newark range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Newark NJ -- proactive assessment for end-of-life shingles, Vailsburg and Weequahic replacement wave, planned vs emergency timing.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

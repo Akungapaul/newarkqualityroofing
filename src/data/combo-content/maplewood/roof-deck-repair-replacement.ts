@@ -4,7 +4,7 @@ export const maplewoodRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'maplewood',
   overview: [
-    'Roof deck repair and replacement addresses the structural substrate that supports every other roofing component on Maplewood\'s homes. When the plywood, OSB, or original skip sheathing beneath the roofing surface deteriorates from moisture damage, age, or structural stress, no roofing material installed above it can perform reliably. Our [roof deck repair](/roof-deck-repair-replacement) work in [Maplewood](/roofing-in-maplewood-nj) discovers and corrects decking failures during re-roofing projects and emergency repairs, restoring the solid structural foundation that quality roofing requires.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Maplewood — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement addresses the structural substrate that supports every other roofing component on Maplewood\'s homes. When the plywood, OSB, or original skip sheathing beneath the roofing surface deteriorates from moisture damage, age, or structural stress, no roofing material installed above it can perform reliably. Our [roof deck repair](/roof-deck-repair-replacement) work in [Maplewood](/roofing-in-maplewood-nj) discovers and corrects decking failures during re-roofing projects and emergency repairs, restoring the solid structural foundation that quality roofing requires.',
     'Maplewood\'s pre-war homes commonly feature original skip sheathing, individual boards spaced apart to allow air circulation beneath wood shake or slate roofing. When these homes are re-roofed with modern asphalt shingles, the skip sheathing must be overlaid with plywood or OSB to provide the continuous smooth substrate that shingle installation requires. Many past re-roofing projects on Maplewood homes used the minimum acceptable overlay thickness, and decades of thermal cycling have caused the thin overlay to delaminate, sag between the original board spacing, and create the wavy roof surface visible on many older Maplewood homes.',
     'Water damage from long-term leak exposure causes the most serious deck deterioration on Maplewood properties. A slow leak at a chimney flashing or valley intersection can saturate decking for years before interior damage becomes visible, converting solid plywood into spongy, structurally compromised material that cannot support roof loads or hold fasteners. South Mountain Reservation\'s shade environment extends drying times, allowing moisture to remain in the deck structure longer than on sun-exposed properties. Property owners in [Montclair](/roof-deck-repair-replacement-montclair-nj) with similar tree-shaded conditions encounter the same extended-moisture deck deterioration.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodRoofDeckRepairReplacement: ComboContent = {
       question: 'Can rotted roof decking cause structural problems beyond leaking?',
       answer: 'Yes. Severely deteriorated decking cannot support the dead load of roofing materials or the live load of snow, maintenance workers, or wind uplift forces. In extreme cases, localized deck failure allows concentrated loads to bear on individual rafters, potentially causing rafter deflection or failure. Addressing deck deterioration during re-roofing prevents these structural cascade effects that would be far more expensive to repair after roofing is installed.',
     },
+    {
+      question: 'How much does roof deck repair replacement cost in Maplewood, NJ?',
+      answer: 'Most roof deck repair replacement projects in Maplewood range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Maplewood NJ. Fix rotted plywood, skip sheathing overlay, and structural decking for solid foundations.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

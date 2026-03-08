@@ -4,7 +4,7 @@ export const maplewoodRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'maplewood',
   overview: [
-    'Roof overlay installation offers a cost-effective re-roofing option for Maplewood homeowners whose existing single-layer shingle roofs are in structurally sound condition but cosmetically and functionally worn. By installing new architectural shingles directly over the existing layer, overlay eliminates tear-off labor and disposal costs, reducing total project investment by 20-30% compared to full tear-off and replacement. Our [roof overlay](/roof-overlay-installation) consultations in [Maplewood](/roofing-in-maplewood-nj) evaluate whether each home is a suitable candidate based on existing roof condition, structural capacity, and the homeowner\'s long-term plans for the property.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Maplewood — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation offers a cost-effective re-roofing option for Maplewood homeowners whose existing single-layer shingle roofs are in structurally sound condition but cosmetically and functionally worn. By installing new architectural shingles directly over the existing layer, overlay eliminates tear-off labor and disposal costs, reducing total project investment by 20-30% compared to full tear-off and replacement. Our [roof overlay](/roof-overlay-installation) consultations in [Maplewood](/roofing-in-maplewood-nj) evaluate whether each home is a suitable candidate based on existing roof condition, structural capacity, and the homeowner\'s long-term plans for the property.',
     'Overlay suitability in Maplewood depends on several conditions that our assessment verifies. The existing roof must have only one layer of shingles, the deck beneath must be free of moisture damage, the existing shingles must lie reasonably flat without excessive curling or buckling, and the home\'s framing must support the additional weight of a second shingle layer. Homes that fail any of these criteria should pursue full tear-off for the best long-term result.',
     'For Maplewood homeowners on tight renovation budgets, particularly first-time buyers who have purchased fixer-upper properties near Valley Street or along eastern Springfield Avenue, overlay provides a practical path to reliable roof protection without the full investment of tear-off and replacement. The savings can be redirected toward other home improvements, and the overlay shingles provide 20-25 years of protection, often sufficient for the homeowner\'s planned ownership horizon. Budget-conscious homeowners in [Irvington](/roof-overlay-installation-irvington-nj) apply the same cost-saving calculation to their re-roofing decisions.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodRoofOverlayInstallation: ComboContent = {
       question: 'How long does an overlay roof last in Maplewood?',
       answer: 'Overlay shingles typically last 80-90% of their rated lifespan compared to shingles installed on bare deck. A 30-year architectural shingle installed as overlay may provide 22-27 years of service. The slight reduction results from the thermal effect of the existing layer beneath, which reduces air circulation around the new shingles. For homeowners planning 15-20 years of ownership, overlay provides excellent value.',
     },
+    {
+      question: 'How much does roof overlay installation cost in Maplewood, NJ?',
+      answer: 'Most roof overlay installation projects in Maplewood range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Maplewood NJ. Cost-effective re-roofing over existing single-layer shingles with 20-30% savings.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

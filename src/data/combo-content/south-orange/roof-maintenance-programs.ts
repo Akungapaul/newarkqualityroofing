@@ -4,7 +4,7 @@ export const southOrangeRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'south-orange',
   overview: [
-    'Roof maintenance in South Orange Village is not optional -- it is the operating cost of owning premium roofing materials in a demanding environmental setting. The natural slate, cedar shake, and copper components that distinguish South Orange rooftops from neighboring communities require ongoing attention that standard maintenance programs designed for asphalt shingle roofs simply do not address. Our South Orange maintenance program encompasses material-specific treatments, seasonal debris management, and condition monitoring calibrated to the particular deterioration patterns that this village\'s tree canopy, elevation exposure, and architectural complexity produce.',
+    'Newark Quality Roofing delivers expert roof maintenance programs in South Orange — with prices starting from $250–$600/year and free estimates available today. Roof maintenance in South Orange Village is not optional -- it is the operating cost of owning premium roofing materials in a demanding environmental setting. The natural slate, cedar shake, and copper components that distinguish South Orange rooftops from neighboring communities require ongoing attention that standard maintenance programs designed for asphalt shingle roofs simply do not address. Our South Orange maintenance program encompasses material-specific treatments, seasonal debris management, and condition monitoring calibrated to the particular deterioration patterns that this village\'s tree canopy, elevation exposure, and architectural complexity produce.',
     'The economics of maintenance versus repair make a compelling case for South Orange homeowners. Replacing a single cracked slate costs $150 during a scheduled maintenance visit but can cause $5,000 in water damage if left undetected until the next storm season. Cedar shake treatment and selective replacement during an annual maintenance visit costs a fraction of the full-section re-shake that deferred maintenance eventually requires. Homeowners in [Maplewood](/roof-maintenance-programs-maplewood-nj) and South Orange who maintain active maintenance programs consistently spend less on roofing over a twenty-year cycle than homeowners who address problems only when leaks appear.',
     'Seton Hall University\'s campus maintenance contracts demonstrate the institutional-scale application of our preventive approach. Annual membrane inspections, seam integrity testing, and drainage verification on campus buildings prevent the emergency failures that disrupt academic operations. The same systematic methodology applies to South Orange\'s residential portfolio, where each home receives a maintenance protocol tailored to its specific materials, exposure conditions, and the homeowner\'s long-term ownership plans.',
     'Our maintenance program for South Orange properties recognizes that the village\'s [roof maintenance](/roof-maintenance-programs) needs vary by neighborhood and elevation. Montrose Park estates along the South Mountain border require enhanced debris clearing and storm damage assessment due to their forest-edge exposure. Scotland Road bungalows need cedar shake treatment programs that address the biological growth promoted by the street\'s mature canopy. Village Center commercial buildings require membrane maintenance focused on drainage integrity and mechanical equipment penetration sealing.'
@@ -35,7 +35,25 @@ export const southOrangeRoofMaintenancePrograms: ComboContent = {
     {
       question: 'What happens if your maintenance visit discovers a major problem?',
       answer: 'Our maintenance reports clearly distinguish between routine maintenance items handled during the visit and significant findings that require separate repair scope and pricing. If we discover major deterioration, structural concerns, or conditions requiring immediate attention, we notify the homeowner the same day with photographs and a preliminary assessment. Repair proposals are provided within one business day, with priority scheduling for maintenance program members.'
-    }
+    },
+    {
+      question: 'How much does roof maintenance programs cost in South Orange, NJ?',
+      answer: 'Most roof maintenance programs projects in South Orange range from $250–$600/year. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof maintenance programs in South Orange NJ -- slate care, cedar shake treatment, and seasonal protection for village homes and estates.',
+  pricing: {
+    range: '$250–$600/year',
+    note: 'annual maintenance plan pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof maintenance programs estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

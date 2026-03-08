@@ -4,7 +4,7 @@ export const orangeRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'orange',
   overview: [
-    'Roof flashing is the first line of defense at every vulnerable intersection on an Orange roof -- where the roof meets a wall, where valleys channel water between slopes, where chimneys and vent pipes penetrate the roof surface, and where dormers create complex geometry on Scotland Road\'s Victorians. Our [roof flashing installation and repair](/roof-flashing-installation-repair) work across Orange addresses the reality that flashing failure is the leading cause of roof leaks in the city\'s diverse building stock, accounting for more service calls than shingle or membrane failures combined.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Orange — with prices starting from $300–$1,500 and free estimates available today. Roof flashing is the first line of defense at every vulnerable intersection on an Orange roof -- where the roof meets a wall, where valleys channel water between slopes, where chimneys and vent pipes penetrate the roof surface, and where dormers create complex geometry on Scotland Road\'s Victorians. Our [roof flashing installation and repair](/roof-flashing-installation-repair) work across Orange addresses the reality that flashing failure is the leading cause of roof leaks in the city\'s diverse building stock, accounting for more service calls than shingle or membrane failures combined.',
     'Orange\'s tight-lot construction creates flashing challenges that wider suburban lots never encounter. When buildings sit three to five feet apart, the narrow gap between structures becomes a channel where wind-driven rain accelerates and pressurizes. Flashing at these close-proximity wall-to-roof intersections must be engineered to resist water that approaches from unexpected angles and at higher velocity than standard wind-driven rain. Our Orange flashing details in tight-lot zones use stepped counter-flashing with enhanced sealant beads and extended kickout flashings that direct water away from the critical gap between buildings.',
     'Main Street\'s commercial buildings present flashing challenges at a larger scale -- parapet wall caps that span long perimeters, equipment curb flashings around HVAC units, and the transition details where older building sections meet additions built decades later. These commercial flashings deteriorate under thermal cycling, ponding water exposure, and the mechanical stress of building movement. Our commercial flashing repairs on Main Street often reveal that the original flashing was the weakest element in the roof system, failing long before the field membrane shows any distress. Property owners in [Newark](/roof-flashing-installation-repair-newark-nj) experience identical flashing-first failure patterns on their commercial buildings.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'How much does flashing repair cost in Orange?',
       answer: 'Minor flashing repairs -- resealing a chimney counter-flashing, replacing a damaged valley section -- typically run $300 to $800. Comprehensive flashing rehabilitation on a complex Victorian with multiple dormers, valleys, and intersections can run $2,000 to $5,000. Full copper flashing restoration on a historic home commands a premium based on material costs.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Orange, NJ?',
+      answer: 'Most roof flashing installation repair projects in Orange range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Orange NJ -- Victorian dormer detailing, tight-lot wall junctions, Main Street commercial parapets, and copper work.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

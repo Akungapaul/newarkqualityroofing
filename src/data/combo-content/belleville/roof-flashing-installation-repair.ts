@@ -4,7 +4,7 @@ export const bellevilleRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Roof flashing is the unsung critical system on Belleville\'s densely packed homes, where the consequences of flashing failure extend beyond the individual building. In a township where homes sit eight feet apart, water that breaches a flashing joint on one roof frequently drains into the narrow gap between buildings, pooling against the neighbor\'s siding and foundation before anyone notices. The tight spacing between Belleville homes means every flashing failure is potentially a two-property problem, demanding repair urgency that wider-spaced suburban homes do not face.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Belleville — with prices starting from $300–$1,500 and free estimates available today. Roof flashing is the unsung critical system on Belleville\'s densely packed homes, where the consequences of flashing failure extend beyond the individual building. In a township where homes sit eight feet apart, water that breaches a flashing joint on one roof frequently drains into the narrow gap between buildings, pooling against the neighbor\'s siding and foundation before anyone notices. The tight spacing between Belleville homes means every flashing failure is potentially a two-property problem, demanding repair urgency that wider-spaced suburban homes do not face.',
     'Belleville\'s post-war housing stock features numerous flashing challenge points created by decades of additions and modifications. The enclosed porch that meets the main house wall, the rear kitchen extension with its valley intersection, the dormer addition that was added in the 1970s -- each of these transitions requires properly integrated flashing that directs water away from the building envelope. Our [roof flashing](/roof-flashing-installation-repair) assessments in Belleville trace the water path from ridge to gutter at every transition, identifying the flashing details that original builders installed inadequately and subsequent remodelers ignored.',
     'Commercial flashing on Washington Avenue storefronts and Belleville Turnpike industrial buildings involves different materials and methods than residential work. Parapet wall cap flashings, through-wall flashings at masonry transitions, and equipment curb flashings on flat-roof commercial buildings require sheet-metal fabrication skills and membrane-compatible sealant knowledge that residential roofers typically do not carry. Our commercial flashing work in Belleville uses copper, galvanized steel, or membrane-compatible metal depending on the substrate and exposure conditions specific to each building.',
     'The most common flashing failure we encounter in [Belleville](/roofing-in-belleville-nj) is at the wall-to-roof transition where additions meet the original house. These junctions were frequently flashed with simple L-shaped metal tucked behind siding with no counter-flashing, no kick-out diverter at the base, and no ice-and-water shield beneath. Water migrates behind the siding, saturates the wall sheathing, and drips into the addition\'s interior far from the actual point of entry. Our flashing repairs at these critical junctions install step flashing with counter-flashing, kick-out diverters, and self-adhering membrane backup that provides redundant protection at the highest-risk transition on any Belleville home with additions, similar to the conditions we address in neighboring [Bloomfield](/roof-flashing-installation-repair-bloomfield-nj).'
@@ -35,7 +35,25 @@ export const bellevilleRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'What type of metal flashing do you use on Belleville homes?',
       answer: 'We use copper flashing for premium applications and pre-painted galvanized steel for standard installations. All metals at each junction are the same type to prevent galvanic corrosion. We never mix aluminum and copper or galvanized and copper at the same location. For homes near the Passaic River where moisture exposure is elevated, we recommend copper for its superior corrosion resistance and 75+ year lifespan.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Belleville, NJ?',
+      answer: 'Most roof flashing installation repair projects in Belleville range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Belleville NJ. Step, valley, and wall-transition flashing for closely-spaced homes and commercial buildings.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

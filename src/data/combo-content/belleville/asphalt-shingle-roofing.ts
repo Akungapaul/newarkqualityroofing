@@ -4,7 +4,7 @@ export const bellevilleAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'belleville',
   overview: [
-    'Asphalt shingle roofing dominates Belleville\'s residential landscape for good reason -- the material matches the township\'s housing stock perfectly. The simple gable and hip roof geometries on Belleville\'s Cape Cods and colonials are ideal candidates for architectural shingles that provide dimensional appearance, wind resistance, and cost efficiency in a single product system. Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations in Belleville specify algae-resistant, high-wind-rated architectural products that address the two environmental stressors most relevant to this Passaic River basin community: biological growth from elevated humidity and shingle lifting from channeled winds between closely-spaced structures.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Belleville — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roofing dominates Belleville\'s residential landscape for good reason -- the material matches the township\'s housing stock perfectly. The simple gable and hip roof geometries on Belleville\'s Cape Cods and colonials are ideal candidates for architectural shingles that provide dimensional appearance, wind resistance, and cost efficiency in a single product system. Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations in Belleville specify algae-resistant, high-wind-rated architectural products that address the two environmental stressors most relevant to this Passaic River basin community: biological growth from elevated humidity and shingle lifting from channeled winds between closely-spaced structures.',
     'The evolution of asphalt shingle technology benefits Belleville homeowners upgrading from the three-tab installations that have covered most township roofs since the 1970s and 1980s. Modern architectural shingles carry 130 mph wind ratings versus the 60-70 mph ratings on standard three-tab products, include copper or zinc granule coatings that resist algae colonization for fifteen to twenty-five years, and offer dimensional shadow lines that dramatically improve curb appeal on Belleville\'s straightforward roof profiles. The price premium over three-tab is modest -- typically fifteen to twenty percent of total project cost -- while the performance and longevity gains are substantial.',
     'Color selection for Belleville asphalt shingle installations reflects the neighborhood aesthetic. The dominant siding palette -- tan vinyl, red-brown brick, and white or cream trim -- pairs naturally with earth-tone shingle colors. Weathered Wood and Pewter Gray from GAF\'s Timberline HDZ line and Driftwood and Estate Gray from Owens Corning\'s Duration line are the four most requested colors in our Belleville installations. We bring full-size sample boards to the estimate visit for comparison against the specific siding, brick, and trim colors on each home, because shingle color samples viewed indoors look different under natural light against actual building materials. Homeowners in [Nutley](/asphalt-shingle-roofing-nutley-nj) share similar housing styles and often select from the same color palette.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Which asphalt shingle brand do you recommend for Belleville?',
       answer: 'We install GAF Timberline HDZ and Owens Corning Duration as our primary product lines. Both offer lifetime limited warranties, 130 mph wind ratings, and algae-resistant granule coatings. GAF is the most-installed residential roofing brand in North America, and Owens Corning offers a slightly different color palette that some Belleville homeowners prefer. We are certified installers for both manufacturers, which is required for the extended warranty coverage that supplements the standard material warranty.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Belleville, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Belleville range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ asphalt shingle roofing -- architectural upgrades, algae-resistant coatings, and enhanced wind fastening for dense-lot homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const roselandRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'roseland',
   overview: [
-    'Roof inspection in Roseland serves a borough where proactive property maintenance is the norm rather than the exception. Homeowners along Becker Farm Road, Harrison Avenue, and Laurel Avenue maintain their mid-century colonials and split-levels with care, and they expect the same attention to detail from the professionals they hire to evaluate their roofs. Our [roof inspection](/roof-inspection) approach for Roseland properties goes beyond surface observation -- we assess the complete roof system from attic ventilation and insulation through decking condition, underlayment integrity, shingle performance, flashing soundness, and drainage function.',
+    'Newark Quality Roofing delivers expert roof inspection in Roseland — with prices starting from $150–$400 and free estimates available today. Roof inspection in Roseland serves a borough where proactive property maintenance is the norm rather than the exception. Homeowners along Becker Farm Road, Harrison Avenue, and Laurel Avenue maintain their mid-century colonials and split-levels with care, and they expect the same attention to detail from the professionals they hire to evaluate their roofs. Our [roof inspection](/roof-inspection) approach for Roseland properties goes beyond surface observation -- we assess the complete roof system from attic ventilation and insulation through decking condition, underlayment integrity, shingle performance, flashing soundness, and drainage function.',
     'The timing of inspection matters significantly in Roseland because of the borough\'s housing age profile. Homes from the 1950s and 1960s that received roof replacements fifteen to twenty years ago are now approaching the critical evaluation window where inspection reveals whether the existing system will perform for another decade or whether planning for replacement should begin. Our Roseland inspections provide honest, data-driven assessments that help homeowners make informed investment decisions rather than reacting to emergency failures. Property owners in nearby [Livingston](/roof-inspection-livingston-nj) and [North Caldwell](/roof-inspection-north-caldwell-nj) face similar inspection timelines on comparable housing stock.',
     'Commercial roof inspection in Roseland supports the asset management programs that corporate property owners along Eisenhower Parkway and the ADP campus require. These large-area membrane roofs represent significant capital investments, and regular professional inspection is the foundation of lifecycle management that maximizes return on that investment. Our commercial inspection reports integrate with facility management systems, provide prioritized maintenance recommendations, and support long-range capital planning for eventual membrane replacement.',
     'Roseland\'s weather exposure along the Watchung ridgeline eastern slope makes annual inspection particularly valuable. The borough receives above-average precipitation and snow loads that test every roof detail, and the seasonal damage that accumulates between inspections can progress from minor maintenance items to structural concerns if left undetected. Our inspection schedules for Roseland properties align with the seasonal damage cycle -- fall inspections catch summer storm damage before winter, and spring inspections reveal winter ice dam effects before the rainy season.'
@@ -35,7 +35,25 @@ export const roselandRoofInspection: ComboContent = {
     {
       question: 'My Roseland home passed inspection two years ago. Could there be problems now?',
       answer: 'Conditions can change significantly in two years, particularly on Roseland roofs exposed to the weather patterns along the Watchung slope. Two additional winter ice cycles, summer storms, and seasonal thermal cycling can advance deterioration at flashing points, valley liners, and shingle edges that were serviceable during the previous inspection. Additionally, tree growth may have created new overhanging branches that deposit debris in valleys. A current inspection establishes current conditions and catches any progression that has occurred since the last evaluation.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Roseland, NJ?',
+      answer: 'Most roof inspection projects in Roseland range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roseland NJ roof inspection for residential and commercial properties -- thorough assessment of mid-century homes and corporate campus buildings.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

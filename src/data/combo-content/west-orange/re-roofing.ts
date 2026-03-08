@@ -4,7 +4,7 @@ export const westOrangeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'west-orange',
   overview: [
-    'Re-roofing in West Orange encompasses the full spectrum of roof replacement approaches -- from complete tear-off with deck repair to overlay installation on qualifying homes -- matched to each property\'s elevation, condition, and the homeowner\'s budget and performance priorities. Our [re-roofing](/re-roofing) consultations evaluate every West Orange home individually, recommending the approach that delivers the best long-term value for the property\'s specific circumstances.',
+    'Newark Quality Roofing delivers expert re roofing in West Orange — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in West Orange encompasses the full spectrum of roof replacement approaches -- from complete tear-off with deck repair to overlay installation on qualifying homes -- matched to each property\'s elevation, condition, and the homeowner\'s budget and performance priorities. Our [re-roofing](/re-roofing) consultations evaluate every West Orange home individually, recommending the approach that delivers the best long-term value for the property\'s specific circumstances.',
     'The re-roofing decision point arrives for most West Orange homes between 20 and 30 years after the previous installation, depending on material quality, maintenance history, and elevation exposure. Ridge-top homes along Eagle Rock Avenue reach re-roofing age faster due to amplified wind stress and UV exposure. Valley-floor homes in Pleasant Valley may extend toward the upper end of that range when shaded locations reduce UV degradation. Mid-slope split-levels along Gregory Avenue tend to need re-roofing at the earlier end due to the ice dam damage that accumulates at level-change transitions over time.',
     'Material upgrades during re-roofing provide the opportunity to install products engineered for West Orange\'s specific challenges. Homeowners replacing basic 3-tab shingles can upgrade to impact-resistant architectural shingles rated for the wind and hail exposure their elevation experiences. Ridge-top homeowners can transition from asphalt to standing seam metal that eliminates the shingle replacement cycle entirely. Homeowners near [Bloomfield](/re-roofing-bloomfield-nj) consider similar material upgrades during their own re-roofing projects.',
     'Energy efficiency improvements during re-roofing represent the most cost-effective time to upgrade attic insulation, ventilation, and barrier protection on [West Orange](/roofing-in-west-orange-nj) homes. With the roof surface removed during tear-off, insulation can be added from above, ventilation baffles can be installed at every rafter bay, and ice-and-water shield can be applied at all vulnerable details -- improvements that would require separate, more expensive projects if performed independently.'
@@ -35,7 +35,25 @@ export const westOrangeReRoofing: ComboContent = {
     {
       question: 'How much does re-roofing a West Orange home cost?',
       answer: 'Re-roofing cost depends on roof size, material selection, tear-off versus overlay approach, and deck repair requirements. We provide detailed estimates based on your property\'s actual measurements and conditions rather than generic per-square-foot pricing that does not account for complexity, access, or material quality. Our estimates itemize each project component so you understand exactly what is included and can compare options with full cost transparency.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in West Orange, NJ?',
+      answer: 'Most re roofing projects in West Orange range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services in West Orange NJ. Complete roof replacement with material upgrades for every elevation and housing type.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

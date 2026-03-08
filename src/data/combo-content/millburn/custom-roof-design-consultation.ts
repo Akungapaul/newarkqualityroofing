@@ -4,7 +4,7 @@ export const millburnCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'millburn',
   overview: [
-    'Custom roof design consultation in Millburn serves the township\'s architect-driven building culture where roofing decisions are made within a collaborative design process rather than a product-selection exercise. The architects practicing in Short Hills, Wyoming, and the broader Millburn market specify roof systems as integral elements of their architectural vision -- the material, color, texture, and detail vocabulary of the roof must harmonize with the facade, landscape, and interior design language that defines each project. Our [custom roof design and consultation](/custom-roof-design-consultation) practice brings roofing-system engineering into this design conversation, translating the architect\'s aesthetic vision into technically sound specifications that perform as beautifully as they present.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Millburn — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Millburn serves the township\'s architect-driven building culture where roofing decisions are made within a collaborative design process rather than a product-selection exercise. The architects practicing in Short Hills, Wyoming, and the broader Millburn market specify roof systems as integral elements of their architectural vision -- the material, color, texture, and detail vocabulary of the roof must harmonize with the facade, landscape, and interior design language that defines each project. Our [custom roof design and consultation](/custom-roof-design-consultation) practice brings roofing-system engineering into this design conversation, translating the architect\'s aesthetic vision into technically sound specifications that perform as beautifully as they present.',
     'New construction consultation on Millburn estate projects begins during schematic design, when roof form, material options, and budget parameters are still flexible. At this stage, we provide the architect and homeowner with performance data, cost comparisons, and constructability assessments for the roofing materials under consideration. Slate versus synthetic slate, standing seam copper versus coated steel, cedar shake versus composite -- each alternative involves tradeoffs in longevity, maintenance requirements, structural loading, and authentic appearance that the architect needs to evaluate before committing the design direction.',
     'Renovation consultation on existing Millburn properties often navigates the tension between preserving the original roofing vocabulary and upgrading performance, energy efficiency, and code compliance. A Tudor revival with its original slate may need ventilation improvements that require modifying the existing ridge detail. A colonial with cedar shakes may want to consider fire-resistant alternatives that maintain the natural-material appearance. These decisions benefit from the specialized perspective our consultation brings -- we understand both what the existing roof is doing right and where modern materials and techniques can improve performance without compromising the architectural character that [Millburn](/roofing-in-millburn-nj) homeowners cherish.'
   ],
@@ -34,7 +34,25 @@ export const millburnCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'What does a custom roof design consultation cost?',
       answer: 'Consultation fees are based on project scope and complexity. For straightforward material-selection guidance on a standard re-roofing project, the consultation may be incorporated into the project proposal at no additional fee. For complex new-construction or restoration projects requiring specification development, code-compliance analysis, and ongoing construction-phase consultation, fees are quoted based on the estimated hours and deliverables. The consultation fee is typically a fraction of one percent of the total roofing investment and routinely prevents specification errors that would cost far more to correct during construction.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Millburn, NJ?',
+      answer: 'Most custom roof design consultation projects in Millburn range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation for Millburn estates. Architect collaboration, material specification, and code-compliance guidance for premium residential.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

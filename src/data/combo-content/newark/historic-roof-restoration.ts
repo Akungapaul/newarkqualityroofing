@@ -4,7 +4,7 @@ export const newarkHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'newark',
   overview: [
-    'Few cities in New Jersey carry the depth of architectural history that Newark does, and that history is written most visibly on its rooftops. From the mansard-capped rowhouses lining Lincoln Park to the copper-clad domes of the Cathedral Basilica of the Sacred Heart, Newark\'s historic roofing represents over two centuries of building craft. Our historic roof restoration practice is dedicated to preserving these structures using period-appropriate materials and techniques while integrating modern weatherproofing systems that extend roof life well beyond what the original builders could achieve.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Newark — with prices starting from $15,000–$50,000 and free estimates available today. Few cities in New Jersey carry the depth of architectural history that Newark does, and that history is written most visibly on its rooftops. From the mansard-capped rowhouses lining Lincoln Park to the copper-clad domes of the Cathedral Basilica of the Sacred Heart, Newark\'s historic roofing represents over two centuries of building craft. Our historic roof restoration practice is dedicated to preserving these structures using period-appropriate materials and techniques while integrating modern weatherproofing systems that extend roof life well beyond what the original builders could achieve.',
     'The Forest Hill neighborhood contains one of the finest concentrations of late-Victorian and Edwardian residential architecture in the state. Queen Anne, Colonial Revival, and Tudor Revival homes line streets like Elwood Avenue and Parker Street, many featuring original slate roofs, ornamental ridge cresting, and decorative copper flashings that have survived a century of northeastern weather. Restoring these roofs demands sourcing slate that matches the original quarry color, fabricating replacement copper elements from hand-drawn patterns, and rebuilding deteriorated wooden cornices that support the roof edge detail.',
     'Newark\'s James Street Historic District and the Four Corners Historic District downtown present commercial and institutional restoration challenges at a different scale. Terra cotta-clad office buildings, cast-iron commercial facades, and limestone-faced civic structures all have roofing systems that were designed to be invisible from the street but are critical to the building\'s structural integrity. Restoration of these concealed roofing systems requires understanding the original drainage design, identifying where decades of improvised repairs have compromised the waterproof envelope, and designing replacement systems that maintain the original architectural intent while meeting current energy and stormwater codes.',
     'Coordination with the New Jersey Historic Preservation Office and the Newark Landmarks and Historic Preservation Commission is a routine part of our restoration workflow. Properties listed on the National Register of Historic Places or located within Newark\'s locally designated historic districts must satisfy review standards that govern material selection, color, profile, and installation method. Our team prepares all required documentation, sources approved materials, and manages the approval timeline so that restoration work proceeds without regulatory delays. For qualifying properties, we assist owners in applying for federal and state historic preservation tax credits that can offset twenty to forty percent of eligible restoration costs.',
@@ -40,6 +40,24 @@ export const newarkHistoricRoofRestoration: ComboContent = {
       question: 'Do you work with the Newark Landmarks and Historic Preservation Commission?',
       answer: 'Yes, routinely. We prepare and submit all required application materials for roofing work on properties within Newark\'s locally designated historic districts. This includes scope of work descriptions, material specifications, manufacturer data sheets, and physical samples when requested. We attend commission hearings to present and discuss proposed restoration approaches. Our familiarity with the commission\'s standards and expectations helps streamline the review process.',
     },
+    {
+      question: 'How much does historic roof restoration cost in Newark, NJ?',
+      answer: 'Most historic roof restoration projects in Newark range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Newark NJ. Period-accurate slate, copper, and timber work for Forest Hill, James Street, and landmark properties.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const nutleyMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'nutley',
   overview: [
-    'Metal roof replacement in Nutley addresses the growing demand from homeowners who want to transition from aging asphalt shingles to standing seam or stamped metal systems that deliver 50-year-plus lifespans, superior wind resistance, and the energy savings that come from reflective metal surfaces. Nutley\'s housing stock -- predominantly Colonials, Tudors, and Cape Cods built between the 1920s and 1960s -- is cycling through its second or third asphalt shingle installation, and forward-thinking homeowners are choosing metal as the last roof they will install on their home. Our [metal roof replacement](/metal-roof-replacement) projects in Nutley range from full standing seam installations on Colonial Revivals to stamped metal shingle systems that replicate traditional profiles on Tudor and Cape homes.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Nutley — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Nutley addresses the growing demand from homeowners who want to transition from aging asphalt shingles to standing seam or stamped metal systems that deliver 50-year-plus lifespans, superior wind resistance, and the energy savings that come from reflective metal surfaces. Nutley\'s housing stock -- predominantly Colonials, Tudors, and Cape Cods built between the 1920s and 1960s -- is cycling through its second or third asphalt shingle installation, and forward-thinking homeowners are choosing metal as the last roof they will install on their home. Our [metal roof replacement](/metal-roof-replacement) projects in Nutley range from full standing seam installations on Colonial Revivals to stamped metal shingle systems that replicate traditional profiles on Tudor and Cape homes.',
     'Standing seam metal roofing delivers particular advantages in Nutley\'s climate. Snow sheds cleanly from the smooth interlocking panels rather than accumulating and creating ice dam conditions at the eaves. Rain runs off without the granule degradation that limits asphalt shingle life. The concealed fastener system eliminates the exposed nail heads that are potential leak points on traditional roofing. For homeowners in neighboring [Bloomfield](/metal-roof-replacement-bloomfield-nj) and [Cedar Grove](/metal-roof-replacement-cedar-grove-nj), these same advantages apply, though Nutley\'s denser tree canopy means more careful consideration of panel gauging to resist branch impact during storms.',
     'The aesthetic transition from asphalt to metal requires careful color and profile selection to complement [Nutley](/roofing-in-nutley-nj)\'s established residential character. We offer Kynar 500 coated panels in 30-plus colors with matte finishes that avoid the industrial appearance some homeowners associate with metal roofing. For Tudor homes where standing seam panels would look out of character, stamped metal shingles from companies like DECRA and EDCO provide the shadow-line texture of dimensional shingles with the longevity and performance of steel substrate.'
   ],
@@ -34,7 +34,25 @@ export const nutleyMetalRoofReplacement: ComboContent = {
     {
       question: 'Does a metal roof increase home value in Nutley?',
       answer: 'Metal roofing typically recovers 85-95 percent of installed cost at resale and can increase appraised value by highlighting the home\'s premium systems. For Nutley buyers evaluating homes in the competitive Essex County market, a metal roof signals that the property requires no roofing expenditure for decades -- a significant advantage over homes with aging asphalt shingles approaching replacement.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Nutley, NJ?',
+      answer: 'Most metal roof replacement projects in Nutley range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Nutley NJ -- standing seam and stamped metal systems, custom fabrication, and 50-year performance for Colonial and Tudor homes.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

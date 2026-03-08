@@ -4,7 +4,7 @@ export const bloomfieldGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'bloomfield',
   overview: [
-    'Green roof technology is reaching Bloomfield\'s commercial and institutional buildings through stormwater management requirements that make vegetated roofing financially practical rather than purely aspirational. New Jersey\'s stormwater regulations increasingly mandate on-site retention for commercial development and major renovations, and green roofs provide retention capacity that reduces or eliminates the need for ground-level detention basins -- a significant advantage on Bloomfield\'s tight commercial lots along Bloomfield Avenue and in the GSP-corridor commercial zone where ground-level stormwater infrastructure competes with parking and building footprint for limited site area.',
+    'Newark Quality Roofing delivers expert green roof installation in Bloomfield — with prices starting from $15–$35/sq ft and free estimates available today. Green roof technology is reaching Bloomfield\'s commercial and institutional buildings through stormwater management requirements that make vegetated roofing financially practical rather than purely aspirational. New Jersey\'s stormwater regulations increasingly mandate on-site retention for commercial development and major renovations, and green roofs provide retention capacity that reduces or eliminates the need for ground-level detention basins -- a significant advantage on Bloomfield\'s tight commercial lots along Bloomfield Avenue and in the GSP-corridor commercial zone where ground-level stormwater infrastructure competes with parking and building footprint for limited site area.',
     'Bloomfield\'s institutional buildings are the township\'s most natural green roof candidates. The Bloomfield school district, municipal buildings, and the Bloomfield Public Library serve dual roles as public facilities and community landmarks where a green roof delivers visible environmental commitment alongside measurable performance benefits. The Watsessing Park area, where institutional buildings adjoin public green space, offers particularly suitable integration opportunities where the green roof extends the park\'s ecological function onto building surfaces that would otherwise be heat-absorbing dark membrane.',
     'Extensive green roof systems -- the lightweight, low-maintenance category -- are the practical specification for most [Bloomfield](/roofing-in-bloomfield-nj) commercial buildings. These systems use four to six inches of engineered growing media planted with drought-tolerant sedum varieties that survive northern New Jersey\'s climate extremes without irrigation or regular maintenance. The installed weight of thirty to forty pounds per square foot saturated is manageable on most commercial buildings with structural verification. Intensive green roofs with deeper soil and diverse plantings are suitable for institutional buildings with the structural capacity and maintenance commitment, but Bloomfield\'s commercial building owners generally prefer the minimal-maintenance extensive approach.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldGreenRoofInstallation: ComboContent = {
     {
       question: 'Will a green roof help with stormwater regulations for my Bloomfield property?',
       answer: 'Yes. Green roofs retain sixty to ninety percent of annual rainfall depending on growing media depth and storm intensity. This retention capacity can satisfy NJ stormwater management requirements for on-site retention, potentially eliminating the need for ground-level detention basins that consume valuable site area. We provide stormwater retention calculations suitable for regulatory submission as part of the green roof design package. For Bloomfield commercial properties with limited ground-level space for stormwater infrastructure, the green roof approach can unlock development or renovation capacity that surface-level detention makes impossible.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Bloomfield, NJ?',
+      answer: 'Most green roof installation projects in Bloomfield range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Bloomfield NJ -- vegetated roofing for stormwater management on commercial and institutional buildings.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

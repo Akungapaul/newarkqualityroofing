@@ -4,7 +4,7 @@ export const bellevilleModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'belleville',
   overview: [
-    'Modified bitumen roofing is deeply familiar to Belleville\'s commercial building landscape. Walk the length of Washington Avenue or drive the Belleville Turnpike corridor and the majority of flat commercial roofs you pass are some generation of modified bitumen -- SBS or APP polymer-modified asphalt sheets layered over aging substrates that have served these buildings through decades of New Jersey weather. When Belleville business owners need roof replacement or repair, modified bitumen remains a trusted option because its multi-layer redundancy provides the fault tolerance that single-ply systems lack.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Belleville — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing is deeply familiar to Belleville\'s commercial building landscape. Walk the length of Washington Avenue or drive the Belleville Turnpike corridor and the majority of flat commercial roofs you pass are some generation of modified bitumen -- SBS or APP polymer-modified asphalt sheets layered over aging substrates that have served these buildings through decades of New Jersey weather. When Belleville business owners need roof replacement or repair, modified bitumen remains a trusted option because its multi-layer redundancy provides the fault tolerance that single-ply systems lack.',
     'The technology behind modified bitumen has evolved substantially since the first-generation installations that still cover many Belleville commercial buildings. Modern SBS-modified sheets with granulated cap surfaces offer improved UV resistance, flexibility in cold-weather application, and self-healing properties where minor punctures reseal under solar heat. Our [modified bitumen](/modified-bitumen-roofing) installations in Belleville use two-ply SBS systems with staggered seam alignment, creating a redundant waterproof barrier that protects against the ponding, thermal cycling, and foot traffic that Belleville\'s commercial flat roofs endure.',
     'For Belleville building owners transitioning from failing built-up roofing, modified bitumen offers the multi-layer familiarity they trust with modern performance enhancements. The torch-applied or cold-adhesive installation methods we use create fully bonded assemblies that resist wind uplift without the mechanical fasteners that puncture the membrane. This is particularly valuable on Washington Avenue storefronts where occupied spaces directly below the roof make any penetration a potential leak path into active retail and restaurant operations.',
     'Modified bitumen\'s compatibility with existing asphalt-based roof systems makes it the logical re-roofing choice for many Belleville commercial buildings. Unlike TPO or EPDM, which require complete removal of existing asphalt-based systems, modified bitumen can be applied directly over compatible substrates after proper preparation. This compatibility reduces project duration and disposal costs for Belleville property owners who are managing renovation budgets on buildings that generate modest commercial rents compared to properties in neighboring [Bloomfield](/modified-bitumen-roofing-bloomfield-nj) or the affluent suburbs.'
@@ -35,7 +35,25 @@ export const bellevilleModifiedBitumenRoofing: ComboContent = {
     {
       question: 'How long does a modified bitumen roof last in Belleville?',
       answer: 'A properly installed two-ply SBS modified bitumen system typically lasts 20-25 years in Belleville\'s climate. With our annual maintenance program including seam testing and drainage verification, many installations reach 28-30 years before replacement becomes necessary. The granulated cap sheet surface requires periodic inspection for granule loss and UV degradation, which we include in our standard maintenance visits.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Belleville, NJ?',
+      answer: 'Most modified bitumen roofing projects in Belleville range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Belleville NJ. Multi-layer SBS membrane for commercial flat roofs on Washington Avenue and Belleville Turnpike buildings.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

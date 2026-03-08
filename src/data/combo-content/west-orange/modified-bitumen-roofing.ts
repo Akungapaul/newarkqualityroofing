@@ -4,7 +4,7 @@ export const westOrangeModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'west-orange',
   overview: [
-    'Modified bitumen roofing bridges the gap between traditional built-up roofing and modern single-ply membranes on West Orange\'s commercial and multi-family buildings, delivering the multi-layer waterproofing redundancy that property managers trust with the installation flexibility that complex roof geometries demand. Our [modified bitumen roofing](/modified-bitumen-roofing) installations in West Orange use SBS-modified base and cap sheets that maintain flexibility through the township\'s freeze-thaw extremes, preventing the cracking that unmodified asphalt systems develop during winter temperature cycling.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in West Orange — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing bridges the gap between traditional built-up roofing and modern single-ply membranes on West Orange\'s commercial and multi-family buildings, delivering the multi-layer waterproofing redundancy that property managers trust with the installation flexibility that complex roof geometries demand. Our [modified bitumen roofing](/modified-bitumen-roofing) installations in West Orange use SBS-modified base and cap sheets that maintain flexibility through the township\'s freeze-thaw extremes, preventing the cracking that unmodified asphalt systems develop during winter temperature cycling.',
     'Multi-family apartment buildings along Main Street and Pleasant Valley Way represent West Orange\'s core modified bitumen market. Property managers responsible for tenant satisfaction and building preservation select modified bitumen for its proven redundancy -- two or three membrane layers mean that a single-point failure does not result in interior water damage the way it can with single-ply systems. This reliability premium justifies the higher material cost for buildings where leak-related tenant complaints translate directly to vacancy loss and repair expenses.',
     'West Orange\'s elevation diversity creates installation method considerations unique to this township. Valley-floor buildings with adequate fire separation permit torch-applied installation, where propane torches heat-activate the modified bitumen adhesive for permanent membrane bonding. Ridge-top buildings and those adjacent to wooded areas near South Mountain Reservation require cold-applied or self-adhered installation methods that eliminate open-flame risk in fire-sensitive locations. Property owners near [Verona](/modified-bitumen-roofing-verona-nj) share similar fire-proximity concerns along the forested Watchung corridor.',
     'The material\'s granule-surfaced cap sheet provides built-in UV protection and walkability that commercial buildings require for rooftop equipment maintenance access. Maintenance technicians servicing HVAC units, exhaust fans, and communication equipment on West Orange commercial roofs walk on modified bitumen surfaces without the foot-traffic damage concerns that thinner single-ply membranes present.'
@@ -35,7 +35,25 @@ export const westOrangeModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Is modified bitumen suitable for a flat residential roof section in West Orange?',
       answer: 'Modified bitumen works well on residential flat sections -- garage roofs, addition roofs, and enclosed porch covers -- where the multi-layer redundancy provides extra protection for living spaces below. The walkable granule surface is also practical for homeowners who need occasional access to the flat roof area for maintenance. For small residential flat sections, self-adhered modified bitumen installation eliminates torch use entirely, addressing fire safety concerns while delivering the same multi-layer waterproofing performance.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in West Orange, NJ?',
+      answer: 'Most modified bitumen roofing projects in West Orange range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in West Orange NJ. Multi-layer waterproofing for commercial and multi-family buildings across all elevations.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

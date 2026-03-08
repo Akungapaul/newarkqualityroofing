@@ -4,7 +4,7 @@ export const millburnChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'millburn',
   overview: [
-    'Chimney flashing repair on Millburn estates addresses the single most leak-prone junction on any residential roof -- the point where a masonry chimney penetrates the roof plane. The homes throughout Short Hills, Wyoming, and Glenwood feature substantial masonry chimneys, often multiple chimneys per residence, built from brick, stone, or stucco-over-block construction that creates large penetrations requiring step flashing, counter-flashing, cricket fabrication, and base flashing on all four sides. When any element of this multi-component system fails, water finds the path of least resistance into the building interior, typically emerging as ceiling stains, wall discoloration, or moisture damage to the framing around the chimney chase.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Millburn — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair on Millburn estates addresses the single most leak-prone junction on any residential roof -- the point where a masonry chimney penetrates the roof plane. The homes throughout Short Hills, Wyoming, and Glenwood feature substantial masonry chimneys, often multiple chimneys per residence, built from brick, stone, or stucco-over-block construction that creates large penetrations requiring step flashing, counter-flashing, cricket fabrication, and base flashing on all four sides. When any element of this multi-component system fails, water finds the path of least resistance into the building interior, typically emerging as ceiling stains, wall discoloration, or moisture damage to the framing around the chimney chase.',
     'The chimney flashing on Millburn\'s older estates was originally installed using techniques and materials appropriate to their era -- hand-formed lead or copper step flashings set into mortar joints with lime-based pointing, fabricated crickets directing water around the uphill face. Decades of thermal cycling, mortar deterioration, and the freeze-thaw action that Millburn\'s climate imposes have fatigued these installations to varying degrees. Our [chimney flashing repair](/chimney-flashing-repair) practice evaluates the complete chimney-roof junction rather than addressing only the visible symptom, because partial repairs on chimney flashings are the most common source of recurring leak callbacks in residential roofing.',
     'Properties in [Montclair](/chimney-flashing-repair-montclair-nj) and [Bloomfield](/chimney-flashing-repair-bloomfield-nj) share similar chimney-flashing challenges, but Millburn\'s typically larger chimneys -- some incorporating multiple flues, decorative corbeling, and substantial mass -- create proportionally more complex flashing assemblies. A Short Hills estate chimney measuring four feet wide and three feet deep generates roughly twenty-eight linear feet of flashing perimeter, and the cricket required on the uphill face must divert water around a larger obstruction than standard chimney dimensions present.'
   ],
@@ -34,7 +34,25 @@ export const millburnChimneyFlashingRepair: ComboContent = {
     {
       question: 'How much does chimney flashing repair typically cost in Millburn?',
       answer: 'Cost varies with chimney size, the number of deteriorated components, the flashing material specified, and the accessibility of the chimney location on the roof. A targeted repair of counter-flashing mortar joints on a single standard chimney is a modest investment. Full replacement of all flashing components with custom-fabricated copper on a large estate chimney with cricket replacement represents a more substantial project. We provide detailed proposals with itemized costs for each component so you can understand exactly what the investment covers and make informed decisions about repair scope.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Millburn, NJ?',
+      answer: 'Most chimney flashing repair projects in Millburn range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair for Millburn and Short Hills estates. Custom copper step and counter-flashing, cricket fabrication, and mortar-joint restoration.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

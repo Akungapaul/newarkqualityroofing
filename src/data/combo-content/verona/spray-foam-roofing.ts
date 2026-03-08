@@ -4,7 +4,7 @@ export const veronaSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'verona',
   overview: [
-    'Spray polyurethane foam roofing delivers a seamless, self-insulating roof system that transforms Verona commercial buildings from energy liabilities into thermal performers. The liquid foam is sprayed directly onto the existing roof surface, expanding to fill every crack, gap, and penetration detail before curing into a rigid, closed-cell insulation layer that also serves as the waterproofing membrane. No other roofing system simultaneously insulates and waterproofs in a single monolithic application, making spray foam uniquely efficient for Verona buildings where energy performance upgrades are a priority.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Verona — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing delivers a seamless, self-insulating roof system that transforms Verona commercial buildings from energy liabilities into thermal performers. The liquid foam is sprayed directly onto the existing roof surface, expanding to fill every crack, gap, and penetration detail before curing into a rigid, closed-cell insulation layer that also serves as the waterproofing membrane. No other roofing system simultaneously insulates and waterproofs in a single monolithic application, making spray foam uniquely efficient for Verona buildings where energy performance upgrades are a priority.',
     'Newark Quality Roofing applies spray foam roofing on Verona commercial and institutional buildings where the material\'s integrated insulation and waterproofing properties address both weatherproofing and energy efficiency in a single application. Buildings along Bloomfield Avenue with minimal existing insulation gain the most dramatic benefit -- the spray foam adds R-6.5 per inch of thickness, creating an insulation envelope that older Verona commercial structures never had. Our [spray foam roofing](/spray-foam-roofing) installations include the elastomeric coating system that protects the foam surface from UV degradation and provides a walkable, maintainable surface.',
     'The seamless nature of spray foam eliminates every joint, seam, and lap that conventional membrane roofing systems rely on -- and that eventually become the failure points where leaks originate. On Verona commercial buildings with complex geometry, numerous penetrations, and irregular parapet configurations, spray foam conforms to every surface detail without the custom fabrication that membrane flashings require. Building owners in [West Orange](/spray-foam-roofing-west-orange-nj) with similarly complex commercial rooftops have chosen spray foam specifically for its ability to seal challenging geometry that membrane systems flash imperfectly.'
   ],
@@ -34,7 +34,25 @@ export const veronaSprayFoamRoofing: ComboContent = {
     {
       question: 'Does spray foam roofing smell during application near Verona businesses?',
       answer: 'The spray foam chemical reaction produces a brief odor during application that dissipates within hours as the foam cures. Modern low-odor foam formulations have reduced this issue significantly compared to earlier products. We coordinate application timing with building management to minimize occupant exposure, and we can ventilate interior spaces during application if needed. Once cured, the foam is completely inert and produces no ongoing odor. The elastomeric coating applied over the foam is also low-VOC and odor-free once dry.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Verona, NJ?',
+      answer: 'Most spray foam roofing projects in Verona range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Verona NJ -- seamless insulating roof systems for commercial buildings with built-in R-value and energy savings.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

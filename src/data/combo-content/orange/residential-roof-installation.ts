@@ -4,7 +4,7 @@ export const orangeResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'orange',
   overview: [
-    'Residential roof installation in Orange serves a housing market defined by two distinct forces: the renovation of existing older homes by NJ Transit commuters drawn to the city\'s affordability, and the occasional new construction infill that replaces deteriorated structures on Orange\'s compact lots. Both scenarios demand a roofing contractor who understands how to install on tight sites where standard suburban techniques fail. Our [residential roof installation](/residential-roof-installation) teams have refined their Orange protocols through hundreds of projects -- material delivery timed to avoid blocking narrow driveways, staging sequenced to use available space on 30-foot lots, and neighbor coordination built into every project timeline.',
+    'Newark Quality Roofing delivers expert residential roof installation in Orange — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Orange serves a housing market defined by two distinct forces: the renovation of existing older homes by NJ Transit commuters drawn to the city\'s affordability, and the occasional new construction infill that replaces deteriorated structures on Orange\'s compact lots. Both scenarios demand a roofing contractor who understands how to install on tight sites where standard suburban techniques fail. Our [residential roof installation](/residential-roof-installation) teams have refined their Orange protocols through hundreds of projects -- material delivery timed to avoid blocking narrow driveways, staging sequenced to use available space on 30-foot lots, and neighbor coordination built into every project timeline.',
     'The diversity of Orange\'s housing stock means that residential installation ranges from straightforward gable roofs on Oakwood Avenue bungalows to elaborate multi-plane configurations on Scotland Road Victorians with turrets, dormers, and intersecting hip lines. Each project demands a different installation approach: the bungalow may require a two-day crew with standard equipment, while the Victorian needs a week-long crew with specialized scaffold staging and custom flashing fabrication. We estimate Orange residential installations based on the actual complexity of the roof geometry, not generic square-footage pricing that underestimates the labor required for intricate rooflines.',
     'Orange\'s position between the higher elevation of West Orange to the west and the urban density of East Orange to the east creates a transitional climate zone that influences material selection. Properties on the western hillside near South Mountain face heavier tree debris and stronger wind exposure, warranting impact-resistant shingles and enhanced edge metal. Properties on the eastern valley floor contend with moisture management from below, requiring upgraded ventilation systems and vapor barriers. Our installation specifications for Orange homes reflect these neighborhood-level differences rather than applying a one-size-fits-all material package across the entire city. Homeowners in adjacent [West Orange](/residential-roof-installation-west-orange-nj) benefit from similar elevation-informed material selection.'
   ],
@@ -34,7 +34,25 @@ export const orangeResidentialRoofInstallation: ComboContent = {
     {
       question: 'Do I need to leave my home during a roof installation in Orange?',
       answer: 'No. You can remain in your home during the installation. There will be noise from tear-off and nailing, and we ask that vehicles be moved from the driveway for material staging and debris container placement. We also recommend covering attic items with tarps as a precaution during tear-off, though our crews take care to minimize interior dust and debris.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in Orange, NJ?',
+      answer: 'Most residential roof installation projects in Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in Orange NJ -- tight-lot delivery, Victorian roofline expertise, South Mountain wind-rated materials, and Valley ventilation.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

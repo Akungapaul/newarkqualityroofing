@@ -4,7 +4,7 @@ export const southOrangeSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'south-orange',
   overview: [
-    'Silicone elastomeric roof coating brings advanced flexible waterproofing technology to South Orange Village\'s commercial building portfolio. The elastomeric formulation stretches and recovers with the thermal expansion and contraction that flat-roof substrates experience through northern New Jersey\'s temperature extremes, maintaining continuous waterproof coverage where rigid coatings would crack and fail at the dimensional changes rooftop surfaces undergo between summer heat and winter cold.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in South Orange — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating brings advanced flexible waterproofing technology to South Orange Village\'s commercial building portfolio. The elastomeric formulation stretches and recovers with the thermal expansion and contraction that flat-roof substrates experience through northern New Jersey\'s temperature extremes, maintaining continuous waterproof coverage where rigid coatings would crack and fail at the dimensional changes rooftop surfaces undergo between summer heat and winter cold.',
     'The elastomeric properties of this coating system make it particularly appropriate for South Orange\'s older commercial buildings where minor structural movement, thermal cycling, and surface irregularities create demands that standard silicone coatings handle less effectively. Buildings along South Orange Avenue with masonry walls that shift seasonally, Seton Hall University facilities with long-span roof structures, and mixed-use buildings where rooftop equipment creates point loads all benefit from a coating that accommodates movement without losing adhesion or waterproofing integrity.',
     'Energy performance combines with waterproofing in the silicone elastomeric system. The reflective white surface reduces solar heat absorption measurably, lowering cooling costs during the months when South Orange commercial tenants run air conditioning. This energy benefit supplements the primary waterproofing function, providing value that offsets a portion of the coating investment through reduced utility expense each cooling season. Properties alongside [Maplewood](/silicone-elastomeric-roof-coating-maplewood-nj) businesses share similar potential for cooling savings through reflective coating applications.',
     'Our elastomeric coating applications in [South Orange](/roofing-in-south-orange-nj) follow manufacturer specifications for surface preparation, application thickness, and curing conditions. The elastomeric formulation requires precise application to develop the stretch-and-recovery properties that distinguish it from standard coating products, and our experienced applicators deliver the controlled coverage that consistent elastomeric performance demands.'
@@ -35,7 +35,25 @@ export const southOrangeSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Can elastomeric coating fix ponding water issues on my South Orange commercial roof?',
       answer: 'Elastomeric coating can withstand extended ponding contact better than many standard coatings, but it does not resolve the drainage deficiency that causes ponding. Before coating, we address ponding areas with tapered filler material that establishes positive drainage. Coating over unresolved ponding areas accelerates coating deterioration even with the elastomeric formulation\'s superior moisture tolerance. Proper drainage correction before coating application ensures the coating achieves its full rated service life.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in South Orange, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in South Orange range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in South Orange NJ -- flexible waterproof coating for commercial flat roofs with thermal movement.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

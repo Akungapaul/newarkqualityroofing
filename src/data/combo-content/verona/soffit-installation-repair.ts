@@ -4,7 +4,7 @@ export const veronaSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'verona',
   overview: [
-    'Soffit panels on Verona homes serve a dual purpose that makes them far more important than their understated appearance suggests: they enclose the eave overhang to create a finished appearance from below, and -- when properly vented -- they provide the intake airflow that drives the attic ventilation system keeping roof temperatures regulated. On Verona\'s split-level homes, soffit function becomes even more critical because the multiple attic compartments created by level transitions each need independent soffit ventilation to prevent moisture buildup and ice dam formation.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Verona — with prices starting from $1,500–$4,000 and free estimates available today. Soffit panels on Verona homes serve a dual purpose that makes them far more important than their understated appearance suggests: they enclose the eave overhang to create a finished appearance from below, and -- when properly vented -- they provide the intake airflow that drives the attic ventilation system keeping roof temperatures regulated. On Verona\'s split-level homes, soffit function becomes even more critical because the multiple attic compartments created by level transitions each need independent soffit ventilation to prevent moisture buildup and ice dam formation.',
     'Newark Quality Roofing installs and repairs vented soffit systems on Verona homes using aluminum or vinyl panels that resist the moisture, insect, and animal intrusion that wood soffits eventually succumb to. The ventilated panels incorporate perforated sections that draw outside air into the attic space, feeding the ridge-to-soffit airflow pattern that removes heat and moisture from the attic environment. Our [soffit installation](/soffit-installation-repair) specifications ensure that each attic compartment on a Verona split-level receives adequate intake airflow to balance the exhaust ventilation at the ridge.',
     'Deteriorated soffits on Verona homes create problems beyond aesthetics. Open gaps in rotted wood soffits allow squirrels, raccoons, birds, and insects to enter the attic space, creating nesting damage and health hazards. Blocked or painted-over soffit vents restrict attic airflow, trapping heat and moisture that accelerate shingle aging from below and promote mold growth on roof sheathing. Homeowners in [Bloomfield](/soffit-installation-repair-bloomfield-nj) with similar mid-century housing stock encounter identical soffit deterioration and wildlife intrusion patterns.'
   ],
@@ -34,7 +34,25 @@ export const veronaSoffitInstallationRepair: ComboContent = {
     {
       question: 'How much does soffit replacement cost on a Verona split-level?',
       answer: 'Full-perimeter soffit replacement with vented aluminum panels on a typical Verona split-level costs $2,000 to $4,500 depending on the linear footage, soffit width, and condition of the underlying framing. Selective repair of damaged sections costs $500 to $1,500. These costs include ventilation baffle installation where needed to maintain airflow past insulation. The investment addresses both aesthetics and the functional ventilation that protects the roof system from moisture and heat damage.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Verona, NJ?',
+      answer: 'Most soffit installation repair projects in Verona range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Verona NJ -- vented aluminum soffits for split-level attic ventilation and animal-proof eave enclosure.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

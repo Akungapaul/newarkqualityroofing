@@ -4,7 +4,7 @@ export const essexFellsPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'essex-fells',
   overview: [
-    'PVC roofing finds its Essex Fells application niche on the estate structures where chemical resistance and cleanliness standards exceed what EPDM or modified bitumen can provide. Indoor pool enclosures generate chlorinated atmosphere that condenses on roof membrane undersides. Estate kitchen wings and outdoor cooking pavilions produce grease-laden exhaust that settles on adjacent flat roof surfaces. Equipment buildings housing generators, pool mechanicals, and HVAC systems create chemical exposure conditions. In each of these contexts, PVC\'s inherent chemical resistance provides performance advantages that justify its specification over less expensive membrane alternatives.',
+    'Newark Quality Roofing delivers expert pvc roofing in Essex Fells — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing finds its Essex Fells application niche on the estate structures where chemical resistance and cleanliness standards exceed what EPDM or modified bitumen can provide. Indoor pool enclosures generate chlorinated atmosphere that condenses on roof membrane undersides. Estate kitchen wings and outdoor cooking pavilions produce grease-laden exhaust that settles on adjacent flat roof surfaces. Equipment buildings housing generators, pool mechanicals, and HVAC systems create chemical exposure conditions. In each of these contexts, PVC\'s inherent chemical resistance provides performance advantages that justify its specification over less expensive membrane alternatives.',
     'The exclusively residential character of Essex Fells means PVC installations serve estate and institutional applications rather than the restaurant, laboratory, and industrial buildings that drive PVC specification in commercial markets like [Newark](/pvc-roofing-newark-nj). This residential context changes the installation calculus -- Essex Fells PVC roofs are typically small (200 to 600 square feet), highly visible from the main residence, and installed on structures with finished interiors where membrane failure carries disproportionate consequences. Every detail must perform both technically and aesthetically within the estate environment.',
     'Our [PVC roofing](/pvc-roofing) specification for Essex Fells addresses the material\'s known vulnerability in shaded environments. PVC membranes rely on plasticizer compounds for flexibility, and these plasticizers can migrate faster in low-UV conditions -- counterintuitively, shade can reduce PVC membrane life relative to sun-exposed installations. We specify PVC formulations with stabilizer packages engineered for northern climates and shaded exposures, and we build plasticizer-migration monitoring into our maintenance protocols for Essex Fells PVC installations.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsPvcRoofing: ComboContent = {
     {
       question: 'What maintenance does PVC roofing require in Essex Fells?',
       answer: 'Quarterly debris clearing is essential to prevent organic material accumulation that retains moisture against the membrane surface. Semi-annual professional inspection assesses weld integrity, flashing conditions, and membrane flexibility. Biennial flexibility testing using a durometer provides objective measurement of plasticizer condition -- the most important long-term performance indicator for PVC in shaded environments. Properties maintaining our recommended inspection and maintenance schedule achieve the membrane\'s full warranted service life consistently.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Essex Fells, NJ?',
+      answer: 'Most pvc roofing projects in Essex Fells range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Essex Fells NJ -- chemical-resistant membrane for pool pavilions, estate kitchens, and specialty structures.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

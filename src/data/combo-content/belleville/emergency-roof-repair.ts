@@ -4,7 +4,7 @@ export const bellevilleEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'belleville',
   overview: [
-    'Emergency roof repair in Belleville operates under constraints that amplify the urgency beyond what suburban towns experience. When a storm tears shingles off a house separated from its neighbor by eight feet of concrete walkway, the exposed deck affects both properties -- water cascading off a damaged roof hits the adjacent home\'s siding, window frames, and foundation within minutes. Our [emergency roof repair](/emergency-roof-repair) response in Belleville prioritizes rapid tarping and water diversion not just for the damaged property but for the neighbor\'s exposure as well, because in this township\'s density, every emergency is a shared emergency.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Belleville — with prices starting from $500–$2,500 and free estimates available today. Emergency roof repair in Belleville operates under constraints that amplify the urgency beyond what suburban towns experience. When a storm tears shingles off a house separated from its neighbor by eight feet of concrete walkway, the exposed deck affects both properties -- water cascading off a damaged roof hits the adjacent home\'s siding, window frames, and foundation within minutes. Our [emergency roof repair](/emergency-roof-repair) response in Belleville prioritizes rapid tarping and water diversion not just for the damaged property but for the neighbor\'s exposure as well, because in this township\'s density, every emergency is a shared emergency.',
     'The Branch Brook Park border neighborhoods along Joralemon and Mill Streets face a compounded emergency risk: Passaic River basin storms bring intense rainfall volumes while the mature tree canopy along the park edge produces branch debris that punctures roofing during high winds. A single summer thunderstorm can generate multiple emergency calls from this three-block stretch as limbs crash through aging shingle systems that were already softened by the persistent humidity of the river corridor. Our crews maintain pre-staged tarping materials at our Essex County facility specifically for these clustered Belleville events.',
     'Belleville\'s commercial properties along Washington Avenue and the Turnpike corridor require emergency response protocols that protect interior inventory and business operations simultaneously. A membrane breach on a retail storefront during a nor\'easter sends water onto merchandise, electrical panels, and customer areas. Our commercial emergency team carries temporary membrane patch kits and industrial water extraction equipment to stop active intrusion and begin dryout before permanent repairs can be scheduled, keeping businesses open or minimizing closure duration during the recovery window.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleEmergencyRoofRepair: ComboContent = {
     {
       question: 'There is water coming through my ceiling right now. What should I do before you arrive?',
       answer: 'Place buckets or containers under active drip points and move furniture and electronics away from the wet area. If the leak is near an electrical fixture or panel, turn off the circuit at the breaker box. Do not attempt to go on the roof yourself, especially during active weather. If attic access is safe, you can place towels around the drip area to slow water spread. Our crew will handle all roof-level work when we arrive.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Belleville, NJ?',
+      answer: 'Most emergency roof repair projects in Belleville range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Belleville NJ -- rapid storm response for dense neighborhoods, branch impact tarping, and multi-property coordination.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

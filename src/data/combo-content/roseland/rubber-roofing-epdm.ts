@@ -4,7 +4,7 @@ export const roselandRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'roseland',
   overview: [
-    'EPDM rubber roofing serves Roseland properties at both residential and commercial scales, offering proven waterproofing performance with material simplicity that more complex membrane systems cannot match. For the flat and low-slope roof sections found on ranch home additions, enclosed porches, and garage extensions throughout the borough, EPDM provides a cost-effective solution that delivers 25 to 30 years of service without the seam welding equipment and specialized training that TPO and PVC installations demand. Our [rubber roofing EPDM](/rubber-roofing-epdm) installations use 60-mil and 90-mil single-ply membranes from Firestone, Carlisle, and GenFlex -- the manufacturers whose EPDM products have the longest track records.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Roseland — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing serves Roseland properties at both residential and commercial scales, offering proven waterproofing performance with material simplicity that more complex membrane systems cannot match. For the flat and low-slope roof sections found on ranch home additions, enclosed porches, and garage extensions throughout the borough, EPDM provides a cost-effective solution that delivers 25 to 30 years of service without the seam welding equipment and specialized training that TPO and PVC installations demand. Our [rubber roofing EPDM](/rubber-roofing-epdm) installations use 60-mil and 90-mil single-ply membranes from Firestone, Carlisle, and GenFlex -- the manufacturers whose EPDM products have the longest track records.',
     'Commercial applications of EPDM in Roseland include the older office buildings and smaller commercial structures along Eagle Rock Avenue where the original built-up roofing has reached end of life. EPDM conversion eliminates the periodic re-coating that BUR systems require, provides a clean membrane surface that simplifies leak detection, and installs faster than multi-layer built-up alternatives. The Eisenhower Parkway office campus buildings have largely transitioned to TPO for energy reflectivity, but Roseland\'s smaller commercial properties continue to benefit from EPDM\'s lower initial cost and proven durability.',
     'Repair work on existing EPDM roofs in Roseland addresses the specific deterioration patterns that rubber membranes develop over decades of service. Seam adhesive failure, surface crazing from UV exposure, and punctures from foot traffic or falling debris are all field-repairable conditions that extend the membrane\'s service life without full replacement. Homeowners in nearby [Caldwell](/rubber-roofing-epdm-caldwell-nj) rely on similar EPDM maintenance for their flat-section residential roofs.'
   ],
@@ -34,7 +34,25 @@ export const roselandRubberRoofingEpdm: ComboContent = {
     {
       question: 'Does a black EPDM roof make my home hotter in summer?',
       answer: 'Black EPDM absorbs more solar heat than white TPO or PVC membranes, but the impact on interior comfort depends on the insulation beneath the membrane. Well-insulated flat roof sections experience minimal heat transfer regardless of membrane color. For residential flat sections with adequate insulation, the color difference between EPDM and TPO translates to marginal cooling cost differences. If energy performance is a primary concern, we can specify white EPDM or recommend TPO as an alternative.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Roseland, NJ?',
+      answer: 'Most rubber roofing epdm projects in Roseland range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Roseland NJ -- flat roof membrane installation and repair for residential sections and commercial buildings.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

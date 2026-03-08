@@ -4,7 +4,7 @@ export const glenRidgeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Metal roof replacement in Glen Ridge finds its niche on homes and institutional buildings where copper or terne-coated steel was the original roofing material. Replacing metal with metal maintains the home\'s original material specification -- an approach that resonates with the Historic Preservation Commission and preserves the distinctive appearance that metal roofing provides on Glen Ridge\'s finest architectural specimens. Newark Quality Roofing fabricates and installs standing seam metal roofing in copper, zinc, and factory-finished steel that delivers century-spanning durability matched to each Glen Ridge building\'s architectural requirements.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Glen Ridge — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Glen Ridge finds its niche on homes and institutional buildings where copper or terne-coated steel was the original roofing material. Replacing metal with metal maintains the home\'s original material specification -- an approach that resonates with the Historic Preservation Commission and preserves the distinctive appearance that metal roofing provides on Glen Ridge\'s finest architectural specimens. Newark Quality Roofing fabricates and installs standing seam metal roofing in copper, zinc, and factory-finished steel that delivers century-spanning durability matched to each Glen Ridge building\'s architectural requirements.',
     'Copper roof replacement on Glen Ridge homes represents the pinnacle of the borough\'s roofing tradition. Original copper elements on Victorian homes -- bay window roofs, turret caps, porch roofs, and decorative details -- may have served for 80 to 120 years before requiring replacement. New copper installation begins bright and gradually develops the distinctive green verdigris patina that Glen Ridge homeowners associate with authentic historic character. This natural aging process creates a roof surface that grows more beautiful with time, eventually blending seamlessly with the surviving original copper on adjacent details.',
     'For Glen Ridge buildings where the original metal roof has reached end-of-life, replacement provides the opportunity to upgrade from the original terne-coated steel to modern standing seam systems with superior corrosion resistance and longevity. Factory-finished steel and aluminum standing seam products offer a range of matte finishes in historically appropriate colors that satisfy commission review while delivering performance that exceeds the original material. Properties in [Montclair](/metal-roof-replacement-montclair-nj) with similar metal-roof heritage benefit from the same preservation-focused replacement approach.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeMetalRoofReplacement: ComboContent = {
       question: 'How does metal roof replacement cost compare to slate in Glen Ridge?',
       answer: 'Copper standing seam is comparable to or slightly higher than premium natural slate in installed cost. Factory-finished steel standing seam is 30 to 50 percent less expensive than slate. Both metal options offer longer service life than most other materials, making the lifecycle cost competitive or superior when amortized over the roof\'s lifespan.',
     },
+    {
+      question: 'How much does metal roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most metal roof replacement projects in Glen Ridge range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Glen Ridge NJ. Copper and standing seam systems for homes with historic metal roofing heritage.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

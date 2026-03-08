@@ -4,7 +4,7 @@ export const livingstonGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'livingston',
   overview: [
-    'Green roof technology is finding a receptive market in Livingston among environmentally conscious commercial property developers and institutional building owners who see vegetated roofing as both a sustainability investment and a property differentiation strategy. The township\'s proximity to South Mountain Reservation and Eagle Rock Reservation embeds environmental stewardship in Livingston\'s community identity, creating a context where green roofing aligns with local values that extend beyond simple cost-benefit calculations.',
+    'Newark Quality Roofing delivers expert green roof installation in Livingston — with prices starting from $15–$35/sq ft and free estimates available today. Green roof technology is finding a receptive market in Livingston among environmentally conscious commercial property developers and institutional building owners who see vegetated roofing as both a sustainability investment and a property differentiation strategy. The township\'s proximity to South Mountain Reservation and Eagle Rock Reservation embeds environmental stewardship in Livingston\'s community identity, creating a context where green roofing aligns with local values that extend beyond simple cost-benefit calculations.',
     'Extensive green roof systems -- the lightweight, low-maintenance category using sedum and other drought-tolerant plants in four-inch-deep growing media -- dominate Livingston applications because they retrofit onto existing commercial structures without the structural upgrades that intensive garden-style green roofs demand. Professional office buildings along Eisenhower Parkway, the Livingston Public Library, and community facilities have explored extensive green roofing as a visible expression of environmental commitment that also delivers measurable stormwater management and thermal performance benefits.',
     'Our [green roof installation](/green-roof-installation) practice guides Livingston building owners through structural assessment, waterproofing system selection, drainage layer engineering, growing media specification, and plant palette design. Each element must perform as an integrated system -- a green roof is only as reliable as its waterproofing membrane, and the waterproofing membrane only lasts if the drainage layer prevents root-zone saturation that generates hydrostatic pressure against the membrane surface. Commercial buildings in [Montclair](/green-roof-installation-montclair-nj) have implemented similar green roof systems as part of that township\'s sustainability initiatives.',
     'Stormwater management is the most quantifiable benefit for Livingston property owners, particularly as Essex County enforces increasingly strict stormwater regulations on commercial development and redevelopment. An extensive green roof absorbs and evapotranspires 50 to 70 percent of annual rainfall, significantly reducing the stormwater infrastructure requirements that would otherwise apply to the property.'
@@ -35,7 +35,25 @@ export const livingstonGreenRoofInstallation: ComboContent = {
     {
       question: 'Will a green roof void my existing roof warranty in Livingston?',
       answer: 'A green roof installed over the existing membrane will void most membrane warranties because the assembly modifies the membrane exposure conditions. For this reason, we install a new root-resistant waterproofing membrane designed specifically for below-grade and below-assembly conditions before building the green roof layers. The new membrane carries its own warranty designed for green roof applications.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Livingston, NJ?',
+      answer: 'Most green roof installation projects in Livingston range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Livingston NJ -- extensive vegetated systems for commercial stormwater management and sustainability near South Mountain.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

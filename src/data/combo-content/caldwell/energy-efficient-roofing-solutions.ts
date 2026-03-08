@@ -4,7 +4,7 @@ export const caldwellEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'caldwell',
   overview: [
-    'Energy efficient roofing solutions for Caldwell homes address the heating and cooling costs that the borough\'s mid-century housing stock generates through poorly insulated roof assemblies, inadequate attic ventilation, and dark-colored roofing materials that absorb rather than reflect solar energy. The colonials and capes built during Caldwell\'s growth decades came with minimal attic insulation by modern standards and asphalt shingles in dark colors that convert sunlight to heat, pushing summer attic temperatures well above 140 degrees Fahrenheit and forcing air conditioning systems to work harder than necessary.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Caldwell — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing solutions for Caldwell homes address the heating and cooling costs that the borough\'s mid-century housing stock generates through poorly insulated roof assemblies, inadequate attic ventilation, and dark-colored roofing materials that absorb rather than reflect solar energy. The colonials and capes built during Caldwell\'s growth decades came with minimal attic insulation by modern standards and asphalt shingles in dark colors that convert sunlight to heat, pushing summer attic temperatures well above 140 degrees Fahrenheit and forcing air conditioning systems to work harder than necessary.',
     'Caldwell\'s tree canopy provides natural shading that already reduces solar heat gain on many homes, creating an energy efficiency baseline that open-exposure properties lack. This canopy advantage means that energy efficient roofing improvements in [Caldwell](/roofing-in-caldwell-nj) deliver different return profiles than identical improvements in sunnier, less shaded locations. South-facing roof planes with minimal tree coverage offer the highest return on reflective roofing investments, while heavily shaded north-facing planes see less benefit from reflective materials. Our [energy efficient roofing](/energy-efficient-roofing-solutions) approach for Caldwell accounts for each home\'s specific shade pattern when recommending efficiency upgrades.',
     'The energy efficiency conversation for Caldwell homes encompasses more than surface material selection. Attic insulation depth, ventilation balance, radiant barrier installation, and air sealing at penetrations through the ceiling plane each contribute to the thermal performance of the roof assembly as a complete system. Addressing one element without considering the others produces incomplete results. Homeowners in neighboring [Bloomfield](/energy-efficient-roofing-solutions-bloomfield-nj) and [Montclair](/energy-efficient-roofing-solutions-montclair-nj) face similar system-level efficiency challenges on their mid-century housing stock.'
   ],
@@ -34,7 +34,25 @@ export const caldwellEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Should I upgrade insulation when I replace my Caldwell roof?',
       answer: 'Roof replacement is the ideal time to upgrade attic insulation because the tear-off process provides access to the full attic floor without working in the cramped, hot attic space. Additional insulation can be blown in from the roof side efficiently and completely. Air sealing at penetrations is also easier with roof-side access. Coordinating insulation work with roof replacement adds modest cost to the project while delivering energy savings that partially offset the roofing investment.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Caldwell, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Caldwell range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in Caldwell NJ -- insulation upgrades, cool roof shingles, and attic air sealing for mid-century colonial homes.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

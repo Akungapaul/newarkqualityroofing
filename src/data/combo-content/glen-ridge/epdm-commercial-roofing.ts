@@ -4,7 +4,7 @@ export const glenRidgeEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'glen-ridge',
   overview: [
-    'EPDM rubber roofing serves Glen Ridge\'s small institutional and commercial buildings with the proven durability that has made it a flat-roof standard for over four decades. The borough\'s churches, municipal buildings, school annexes, and the handful of professional offices along Bloomfield Avenue rely on EPDM membranes to protect structures where flat or low-slope roof sections coexist with the steeply pitched historic rooflines Glen Ridge is known for. Newark Quality Roofing installs and maintains EPDM systems calibrated to the modest scale and preservation-sensitive context that define commercial roofing in this tiny borough.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Glen Ridge — with prices starting from $6–$11/sq ft and free estimates available today. EPDM rubber roofing serves Glen Ridge\'s small institutional and commercial buildings with the proven durability that has made it a flat-roof standard for over four decades. The borough\'s churches, municipal buildings, school annexes, and the handful of professional offices along Bloomfield Avenue rely on EPDM membranes to protect structures where flat or low-slope roof sections coexist with the steeply pitched historic rooflines Glen Ridge is known for. Newark Quality Roofing installs and maintains EPDM systems calibrated to the modest scale and preservation-sensitive context that define commercial roofing in this tiny borough.',
     'Unlike the large-footprint warehouse and industrial applications common in neighboring [Newark](/epdm-commercial-roofing-newark-nj) or even [East Orange](/epdm-commercial-roofing-east-orange-nj), Glen Ridge EPDM projects are measured in hundreds of square feet rather than thousands. A church fellowship hall roof, a school entrance canopy, or the flat rear section of a converted residential professional office represents the typical scope. This scale demands the same material quality and installation precision as any commercial project but requires crews who can work sensitively within Glen Ridge\'s residential-character streetscape without industrial-scale disruption.',
     'EPDM\'s black surface absorbs solar heat effectively, which in Glen Ridge\'s tree-shaded environment helps melt snow accumulation faster than reflective white membranes that would remain buried under snow for weeks during Essex County winters. For the borough\'s north-facing institutional roofs shaded by the mature elm and oak canopy, this thermal absorption characteristic actually reduces ice dam risk by promoting even snowmelt rather than the uneven patterns that create dam formation.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeEpdmCommercialRoofing: ComboContent = {
       question: 'Does EPDM require more maintenance in Glen Ridge due to tree shade?',
       answer: 'Yes. The heavy canopy in Glen Ridge promotes biological growth on EPDM surfaces that requires annual cleaning and biocide treatment. We recommend spring cleaning after winter debris accumulates and an autumn inspection after leaf fall. This maintenance schedule prevents the moss and algae colonization that can degrade EPDM seams prematurely in shaded environments.',
     },
+    {
+      question: 'How much does epdm commercial roofing cost in Glen Ridge, NJ?',
+      answer: 'Most epdm commercial roofing projects in Glen Ridge range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Glen Ridge NJ. Rubber membrane systems for churches, schools, and institutional buildings in the historic borough.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

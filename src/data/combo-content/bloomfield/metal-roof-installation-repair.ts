@@ -4,7 +4,7 @@ export const bloomfieldMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Metal roofing in Bloomfield represents a practical upgrade conversation that a growing number of homeowners are having as they face their second or third asphalt shingle replacement. The math is straightforward and appeals to Bloomfield\'s value-calculating homeowner base: a standing seam metal roof costs roughly twice what premium architectural shingles cost but lasts two to three times as long, makes the home measurably more energy efficient through solar reflectivity, and eliminates the fifteen-to-twenty-year replacement cycle that asphalt shingles perpetuate. For Bloomfield homeowners who plan to stay in their Cape Cod or colonial for the next twenty-plus years, the lifecycle cost comparison increasingly favors metal.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in Bloomfield — with prices starting from $15,000–$35,000 and free estimates available today. Metal roofing in Bloomfield represents a practical upgrade conversation that a growing number of homeowners are having as they face their second or third asphalt shingle replacement. The math is straightforward and appeals to Bloomfield\'s value-calculating homeowner base: a standing seam metal roof costs roughly twice what premium architectural shingles cost but lasts two to three times as long, makes the home measurably more energy efficient through solar reflectivity, and eliminates the fifteen-to-twenty-year replacement cycle that asphalt shingles perpetuate. For Bloomfield homeowners who plan to stay in their Cape Cod or colonial for the next twenty-plus years, the lifecycle cost comparison increasingly favors metal.',
     'The aesthetic question -- whether a metal roof looks appropriate on Bloomfield\'s post-war housing stock -- has been addressed by the modern standing seam profile options now available. Vertical-rib standing seam panels in earth-tone colors integrate with Cape Cods, ranches, and colonials without the agricultural appearance that older corrugated metal created. Bloomfield neighbors who installed metal roofs in the past five years have normalized the material in the township\'s visual landscape, and new metal installations no longer draw the skeptical attention they received a decade ago.',
     'Split-level homes in Bloomfield present an interesting [metal roof](/metal-roof-installation-repair) application where the different roof planes can receive different materials. Some homeowners install metal on the steeper upper planes where the panels are visible and the reflective benefits are greatest, while keeping asphalt on the lower, less visible planes where the cost savings offset the mixed-material appearance. This hybrid approach delivers most of the longevity and energy benefits at a cost between full metal and full asphalt. Homeowners in neighboring [Nutley](/metal-roof-installation-repair-nutley-nj) explore similar hybrid configurations on their comparable housing stock.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'Can a metal roof be installed over existing shingles on my Bloomfield home?',
       answer: 'Metal-over-shingle installation is possible in some cases but not our standard recommendation. Installing over existing shingles saves the tear-off cost but prevents deck inspection, may void certain manufacturer warranties, and can create moisture-trapping conditions between the old shingles and new metal. For the long service life a metal roof delivers, starting with a clean, inspected deck is worth the additional tear-off investment to ensure the foundation matches the durability of the material above it.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in Bloomfield, NJ?',
+      answer: 'Most metal roof installation repair projects in Bloomfield range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in Bloomfield NJ -- standing seam for Cape Cods and colonials, snow guards, and fifty-year lifecycle value.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

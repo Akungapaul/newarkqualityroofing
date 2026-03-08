@@ -4,7 +4,7 @@ export const roselandTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Tile roof replacement in Roseland provides the clay and concrete roofing options that deliver 75-year-plus service life with distinctive Mediterranean, Spanish, and European architectural character. For homeowners replacing existing tile roofs or upgrading from conventional materials during major renovation, our [tile roof replacement](/tile-roof-replacement) service manages the structural assessment, material selection, and skilled installation that tile systems require.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Roseland — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Roseland provides the clay and concrete roofing options that deliver 75-year-plus service life with distinctive Mediterranean, Spanish, and European architectural character. For homeowners replacing existing tile roofs or upgrading from conventional materials during major renovation, our [tile roof replacement](/tile-roof-replacement) service manages the structural assessment, material selection, and skilled installation that tile systems require.',
     'Replacement of existing tile roofs in Roseland typically involves removing aging tiles and underlayment, inspecting and repairing the batten system and structural framing, and installing new tiles over fresh high-temperature underlayment rated for the tile system\'s expected service life. The opportunity to upgrade from failing underlayment -- the weak link in most aging tile installations -- extends the next service cycle to the full potential of the new tiles.',
     'New tile installations on custom homes or comprehensive renovations in Roseland allow homeowners to select from the full range of clay and concrete profiles that the material market offers. Barrel tiles, flat interlocking profiles, and shake-mimicking concrete tiles each create distinct visual effects. Color options span natural terra cotta through custom-glazed finishes. We source tiles rated for freeze-thaw performance in New Jersey\'s climate, ensuring that the selected product handles four-season exposure without the spalling that warm-climate tiles develop in cold environments.'
   ],
@@ -34,7 +34,25 @@ export const roselandTileRoofReplacement: ComboContent = {
     {
       question: 'How does tile compare to other premium roofing options?',
       answer: 'Tile occupies a cost and longevity position between asphalt shingles and natural slate. It costs approximately twice the price of premium asphalt and half the cost of natural slate. Its 75-year-plus service life exceeds any synthetic material while approaching slate\'s century-plus expectation. The distinctive profiles available in tile provide architectural character that flat-profile materials cannot match. For Roseland homeowners seeking premium performance with distinctive aesthetics, tile delivers exceptional value.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Roseland, NJ?',
+      answer: 'Most tile roof replacement projects in Roseland range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Roseland NJ -- clay and concrete tiles with freeze-thaw rating and structural engineering for residential homes.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

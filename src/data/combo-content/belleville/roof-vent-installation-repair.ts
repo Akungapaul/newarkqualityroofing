@@ -4,7 +4,7 @@ export const bellevilleRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Roof ventilation is the silent partner in every roofing system, and in Belleville its importance is amplified by the township\'s humid climate and the urban heat island effect created between closely-spaced homes. Inadequate ventilation in Belleville\'s post-war attics traps summer heat that bakes shingles from below and winter moisture that condenses on cold roof sheathing, promoting the ice dams, wood rot, and premature shingle failure that generate the majority of roofing service calls across the township.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Belleville — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation is the silent partner in every roofing system, and in Belleville its importance is amplified by the township\'s humid climate and the urban heat island effect created between closely-spaced homes. Inadequate ventilation in Belleville\'s post-war attics traps summer heat that bakes shingles from below and winter moisture that condenses on cold roof sheathing, promoting the ice dams, wood rot, and premature shingle failure that generate the majority of roofing service calls across the township.',
     'Most Belleville homes built between the 1940s and 1960s were originally ventilated with static gable vents -- triangular or rectangular openings in the end walls of the attic. While these vents provided minimal air exchange, they do not create the continuous airflow from eave to ridge that modern ventilation science requires. The stagnant zones between gable vents accumulate heat and moisture that the limited cross-ventilation cannot evacuate. Our [roof vent](/roof-vent-installation-repair) upgrades convert Belleville attics from passive gable ventilation to active eave-to-ridge systems that maintain continuous air movement across the entire underside of the roof deck.',
     'The conversion from gable venting to ridge venting during roof replacement is the single most impactful ventilation improvement for Belleville homes. A continuous ridge vent replaces the ridge cap shingles with a ventilated profile that exhausts hot, moist attic air at the highest point of the roof. Paired with soffit intake ventilation at the eaves, this creates a convective airflow pattern driven by natural stack effect -- no fans or electricity required. The temperature difference between the cooler soffit intake and the warmer ridge exhaust drives continuous air movement that keeps the attic within a few degrees of ambient outdoor temperature.',
     'For commercial buildings in Belleville where mechanical ventilation supplements passive systems, our vent installation includes powered exhaust fans, gravity ventilators, and turbine vents sized for the building\'s square footage and interior heat load. Washington Avenue restaurants and Belleville Turnpike industrial facilities generate significant interior heat that must be exhausted through the roof to maintain comfortable and safe working conditions. We size commercial ventilation systems using ASHRAE calculations that account for both ambient temperature and internal heat generation from equipment and occupancy, serving the same commercial corridor as [Newark](/roof-vent-installation-repair-newark-nj) facilities.'
@@ -35,7 +35,25 @@ export const bellevilleRoofVentInstallationRepair: ComboContent = {
     {
       question: 'Should I add a powered attic fan to my Belleville home?',
       answer: 'We generally recommend passive ridge-and-soffit ventilation over powered fans. Powered fans can create negative attic pressure that pulls conditioned air from the living space through ceiling penetrations, increasing cooling costs rather than reducing them. Passive convective ventilation using ridge and soffit vents moves adequate air volume without these negative pressure effects and operates without electricity or maintenance.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Belleville, NJ?',
+      answer: 'Most roof vent installation repair projects in Belleville range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in Belleville NJ. Ridge vent upgrades and balanced ventilation for post-war Cape Cods and colonials near Branch Brook Park.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

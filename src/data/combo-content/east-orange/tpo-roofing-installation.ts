@@ -4,7 +4,7 @@ export const eastOrangeTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'east-orange',
   overview: [
-    'East Orange\'s commercial roofing market centers on two distinct building types: the mixed-use storefronts lining Main Street from Brick Church Plaza through the central business district, and the three-story and four-story apartment buildings scattered across every neighborhood from Ampere to Doddtown. Both building types feature flat or low-slope roof systems, and both are transitioning away from the built-up and modified bitumen systems installed decades ago toward TPO membrane -- a material that delivers superior reflectivity, cleaner installation, and lower lifecycle cost than the dark-surfaced roofs it replaces.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in East Orange — with prices starting from $7–$12/sq ft and free estimates available today. East Orange\'s commercial roofing market centers on two distinct building types: the mixed-use storefronts lining Main Street from Brick Church Plaza through the central business district, and the three-story and four-story apartment buildings scattered across every neighborhood from Ampere to Doddtown. Both building types feature flat or low-slope roof systems, and both are transitioning away from the built-up and modified bitumen systems installed decades ago toward TPO membrane -- a material that delivers superior reflectivity, cleaner installation, and lower lifecycle cost than the dark-surfaced roofs it replaces.',
     'Main Street\'s commercial corridor presents a concentrated TPO opportunity. Storefronts, professional offices, restaurants, and service businesses occupy buildings with roof footprints ranging from 1,500 to 5,000 square feet, small enough for efficient single-day or two-day installations but numerous enough that the corridor collectively represents a significant re-roofing market. Property owners along Main Street face the same economic pressure as residential landlords in East Orange -- thin margins that make every capital dollar count. TPO\'s lower installed cost compared to PVC, combined with energy savings from its reflective white surface, makes it the practical choice for small commercial buildings where roofing budget competes with storefront improvements, HVAC upgrades, and ADA compliance costs.',
     'Apartment buildings throughout East Orange represent the highest-volume flat roof replacement market in the city. Garden apartment complexes in Doddtown, mid-rise walk-ups near the East Orange train station, and scattered apartment blocks along Park Avenue all carry aging flat roof systems that are reaching or have exceeded their intended service life. For property managers overseeing multiple buildings, TPO offers standardization benefits: a single membrane system across the portfolio simplifies maintenance training, spare parts inventory, and warranty administration. When one building needs re-roofing, the owner already knows the material, the cost model, and the performance characteristics from experience with previous installations.',
     'The energy economics of TPO in East Orange are compelling for both commercial and residential-scale flat roofs. A dark built-up roof on a three-story apartment building absorbs solar radiation that penetrates through minimal insulation into the top-floor units -- the units that generate the most tenant complaints and the highest summer cooling costs. Replacing that dark surface with a white TPO membrane and modern polyiso insulation drops top-floor cooling loads measurably, improving tenant comfort and reducing the energy cost burden that falls on tenants in buildings where utilities are not included in rent.'
@@ -35,7 +35,25 @@ export const eastOrangeTpoRoofingInstallation: ComboContent = {
     {
       question: 'What warranty comes with a TPO installation on an East Orange commercial building?',
       answer: 'Standard TPO manufacturer warranties cover 15 to 20 years for materials and workmanship when installed by a factory-certified contractor. Extended NDL warranties covering 20 to 30 years with no dollar limit on repair costs are available for East Orange commercial buildings that opt for manufacturer inspection during installation and commit to annual maintenance inspections. We recommend NDL warranties for apartment building owners who plan to hold properties long-term, because the warranty eliminates unpredictable repair costs over the building\'s next two to three decades of operation.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in East Orange, NJ?',
+      answer: 'Most tpo roofing installation projects in East Orange range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing for East Orange NJ apartments and Main Street commercial buildings -- energy-efficient flat roof membrane with welded seam reliability.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

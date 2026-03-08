@@ -4,7 +4,7 @@ export const newarkAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Asphalt shingle replacement accounts for the majority of re-roofing work across Newark, and for good reason -- more than sixty percent of the city\'s residential structures carry some generation of asphalt shingle system. From the aging 3-tab installations blanketing Vailsburg\'s post-war Cape Cods to the early architectural shingles curling on Forest Hill colonials, the replacement cycle in Newark is relentless. The combination of urban heat island temperatures, coastal-influenced storm patterns, and decades of deferred maintenance means that shingle roofs here reach end-of-life faster than identical products installed thirty miles inland.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Newark — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle replacement accounts for the majority of re-roofing work across Newark, and for good reason -- more than sixty percent of the city\'s residential structures carry some generation of asphalt shingle system. From the aging 3-tab installations blanketing Vailsburg\'s post-war Cape Cods to the early architectural shingles curling on Forest Hill colonials, the replacement cycle in Newark is relentless. The combination of urban heat island temperatures, coastal-influenced storm patterns, and decades of deferred maintenance means that shingle roofs here reach end-of-life faster than identical products installed thirty miles inland.',
     'The tear-off phase of an asphalt shingle replacement in Newark is more complex than suburban contractors typically encounter. Row houses in the North Ward share party walls where shingle courses interlock with adjacent roofing -- removing your shingles without disturbing the neighbor\'s edge flashing requires surgical precision. Multi-story brownstones on narrow lots demand debris chutes and street-level dumpster staging that must comply with Newark Department of Engineering sidewalk obstruction permits. Every tear-off generates tonnage that has to navigate tight alleys and zero-setback building faces.',
     'Upgrading from 3-tab to architectural shingles during replacement is the single most impactful improvement Newark homeowners can make. The dimensional profile of laminated shingles creates shadow lines that complement the architectural character of Forest Hill\'s Tudor revivals and the Italianate detailing found along Roseville Avenue. Beyond aesthetics, architectural shingles carry 130-mph wind ratings that address the channeled wind corridors created by Newark\'s dense streetscapes, where gusts accelerate between tall buildings and lift vulnerable 3-tab edges.',
     'Color selection for Newark shingle replacement goes beyond personal preference into neighborhood-level coordination. The North Ward\'s historic brownstone rows create continuous rooflines visible from elevated vantage points across the Passaic River -- a single mismatched roof color disrupts blocks of visual continuity. We help homeowners select from weathered wood, charcoal, and slate-blend palettes that harmonize with Newark\'s dominant brick and stone facades while meeting the reflectivity standards that reduce cooling loads in the Central Ward\'s heat-island zones.'
@@ -40,7 +40,25 @@ export const newarkAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Does Newark require permits for a full asphalt shingle roof replacement?',
       answer: 'Yes. A full tear-off and replacement requires a roofing permit from the Newark Department of Buildings and Code Enforcement. We handle the permit application, including the required contractor licensing documentation and project specifications. The permit fee is typically included in our project pricing. Additionally, if dumpster placement requires street or sidewalk obstruction, we obtain separate permits from the Newark Department of Engineering. All permit costs are itemized in your proposal so there are no hidden fees.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Newark, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Newark range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Newark NJ -- 3-tab to architectural upgrades, row house tear-off, and party wall coordination.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'montclair',
   overview: [
-    'PVC roofing membrane has carved out a specific niche in Montclair\'s commercial roofing market -- the chemical-resistant, heat-welded single-ply system specified for restaurants, food-service operations, laboratories, and buildings where grease-laden exhaust, chemical fumes, or biological exposure would degrade conventional EPDM or modified bitumen systems. Along Bloomfield Avenue\'s restaurant row and in the township\'s healthcare and professional service buildings, PVC\'s inherent resistance to oils, animal fats, and chemical vapors makes it the only membrane system that maintains its integrity when exposed to the rooftop exhaust that food-service and laboratory operations produce.',
+    'Newark Quality Roofing delivers expert pvc roofing in Montclair — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing membrane has carved out a specific niche in Montclair\'s commercial roofing market -- the chemical-resistant, heat-welded single-ply system specified for restaurants, food-service operations, laboratories, and buildings where grease-laden exhaust, chemical fumes, or biological exposure would degrade conventional EPDM or modified bitumen systems. Along Bloomfield Avenue\'s restaurant row and in the township\'s healthcare and professional service buildings, PVC\'s inherent resistance to oils, animal fats, and chemical vapors makes it the only membrane system that maintains its integrity when exposed to the rooftop exhaust that food-service and laboratory operations produce.',
     'Montclair\'s dining scene -- one of the densest restaurant concentrations in Essex County -- generates substantial rooftop grease exhaust that settles on flat roof surfaces surrounding kitchen exhaust fans. EPDM and TPO membranes exposed to persistent grease contact soften, swell, and eventually fail at the molecular level. PVC membrane maintains dimensional stability and waterproofing integrity under the same exposure, a chemical resistance property that makes it the default specification for Montclair\'s restaurant and food-hall buildings. Property managers who oversee mixed-use buildings in [Bloomfield](/pvc-roofing-bloomfield-nj) and [West Orange](/pvc-roofing-west-orange-nj) with food-service tenants have learned this distinction through costly membrane failures on non-PVC systems.',
     'Beyond chemical resistance, PVC\'s heat-welded seams provide [Montclair](/roofing-in-montclair-nj) commercial properties with the strongest seam integrity available in single-ply roofing. Hot-air welding fuses overlapping membrane sheets into a monolithic waterproofing layer where the seam is actually stronger than the field membrane -- a claim that adhesive-bonded EPDM seams cannot match. For Montclair buildings where seam failure risk from wind uplift or ponding water is a primary concern, our [PVC roofing](/pvc-roofing) installations deliver the most reliable seam performance in the single-ply category.',
     'Energy performance from PVC\'s inherently white, reflective surface aligns with Montclair\'s progressive approach to building efficiency. The membrane reflects solar radiation without requiring a separate coating or white pigment addition -- the reflectivity is inherent in the PVC formulation and does not degrade over the membrane\'s service life. Commercial buildings with PVC roofs in Montclair typically see measurable cooling-cost reduction during summer months compared to dark-surfaced alternatives.'
@@ -35,7 +35,25 @@ export const montclairPvcRoofing: ComboContent = {
     {
       question: 'Can PVC membrane be installed over an existing roof in Montclair?',
       answer: 'PVC recovery installations over existing roofing are possible when the existing assembly meets structural, moisture, and code-compliance criteria. A critical consideration is chemical compatibility -- PVC membrane cannot be placed in direct contact with asphalt-based products, polystyrene insulation, or certain other materials without a separation barrier. We verify compatibility of the existing roof components with PVC chemistry and install appropriate barrier layers where needed. This compatibility assessment is unique to PVC and does not apply to EPDM or TPO recovery installations.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Montclair, NJ?',
+      answer: 'Most pvc roofing projects in Montclair range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Montclair NJ -- chemical-resistant membrane for restaurants, mixed-use buildings, and grease-exposure commercial rooftops.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

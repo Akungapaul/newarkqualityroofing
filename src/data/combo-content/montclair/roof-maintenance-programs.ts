@@ -4,7 +4,7 @@ export const montclairRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'montclair',
   overview: [
-    'Scheduled roof maintenance in Montclair addresses environmental stresses that most suburban roofing programs never contemplate. The township\'s protected tree canopy deposits an annual tonnage of leaves, twigs, seed pods, and organic detritus onto roof surfaces that would overwhelm any material without regular intervention. Combined with moss and lichen colonization accelerated by persistent shade, elevation-driven wind fatigue along the Watchung Ridge, and the aging infrastructure of Montclair\'s predominantly pre-1960 housing stock, a roof here needs active management rather than passive monitoring if it is to deliver its full service life.',
+    'Newark Quality Roofing delivers expert roof maintenance programs in Montclair — with prices starting from $250–$600/year and free estimates available today. Scheduled roof maintenance in Montclair addresses environmental stresses that most suburban roofing programs never contemplate. The township\'s protected tree canopy deposits an annual tonnage of leaves, twigs, seed pods, and organic detritus onto roof surfaces that would overwhelm any material without regular intervention. Combined with moss and lichen colonization accelerated by persistent shade, elevation-driven wind fatigue along the Watchung Ridge, and the aging infrastructure of Montclair\'s predominantly pre-1960 housing stock, a roof here needs active management rather than passive monitoring if it is to deliver its full service life.',
     'Our Montclair [roof maintenance programs](/roof-maintenance-programs) are structured around the township\'s seasonal rhythm. Spring visits address winter damage -- ice dam residue, wind-loosened materials, and moisture that accumulated under snow cover. Late autumn visits clear the leaf burden before winter freezing locks organic material against roof surfaces where it holds moisture and promotes decay. A midsummer visit catches storm damage from the thunderstorm season and addresses moss growth at its most aggressive phase. This three-visit annual cycle, calibrated to Montclair\'s specific conditions, prevents the compound deterioration that turns a serviceable roof into a replacement candidate years before its time.',
     'Victorian and Tudor homeowners in Upper Montclair and along the Glen Ridge border benefit disproportionately from structured maintenance because their roofs carry the highest replacement costs in the township. A $60,000 slate roof that fails at sixty years instead of ninety because of deferred maintenance represents a $20,000 acceleration of capital expense. Annual moss removal, flashing re-sealing, and fastener tightening on these roofs costs a fraction of that loss and keeps the slate performing through its full century-plus potential. For homeowners in neighboring [Glen Ridge](/roof-maintenance-programs-glen-ridge-nj) with comparable historic housing, the same calculus applies.'
   ],
@@ -34,7 +34,25 @@ export const montclairRoofMaintenancePrograms: ComboContent = {
     {
       question: 'Do you coordinate tree trimming with roof maintenance?',
       answer: 'We recommend and coordinate arborist services when our maintenance inspections identify branches that contact or threaten the roof surface, but tree work is quoted and performed separately from the roof maintenance program. Montclair\'s tree ordinance requires permits for pruning above certain caliper thresholds, and our partner arborists handle the township permit process. We time the arborist visit to coincide with our maintenance schedule when possible, so the tree work and roof maintenance occur in a coordinated sequence.'
-    }
+    },
+    {
+      question: 'How much does roof maintenance programs cost in Montclair, NJ?',
+      answer: 'Most roof maintenance programs projects in Montclair range from $250–$600/year. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Montclair NJ roof maintenance programs -- seasonal canopy clearing, slate and copper care, and moss treatment for historic homes.',
+  pricing: {
+    range: '$250–$600/year',
+    note: 'annual maintenance plan pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof maintenance programs estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

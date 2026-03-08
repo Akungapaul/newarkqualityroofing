@@ -92,9 +92,54 @@ export const designConsultationContent: ServiceContent[] = [
       {
         question: 'Do you work with architects on new construction projects?',
         answer: 'Yes, we collaborate frequently with architects on new construction and major renovation projects throughout Essex County. We provide roofing-specific technical expertise that complements the architect\'s overall design vision, including material compatibility analysis, structural load evaluation for roofing materials, detail development for complex roof intersections, and specification writing. Engaging roofing expertise during the design phase prevents costly field changes during construction.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does custom roof design consultation cost in Essex County, NJ?',
+        answer: 'Most custom roof design consultation projects in Essex County range from $200–$500, applied toward project cost. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$200–$500',
+      factors: [
+        'Roof size and square footage',
+        'Material selection and quality grade',
+        'Complexity of roof design (pitch, valleys, penetrations)',
+        'Current condition and extent of existing damage',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Custom Roof Design Consultation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 2. Historic Roof Restoration ─────────────────────────────────────────
   {
@@ -185,9 +230,54 @@ export const designConsultationContent: ServiceContent[] = [
       {
         question: 'Can modern waterproofing be installed beneath historic roofing materials?',
         answer: 'Absolutely, and it should be. One of the key advantages of a professional historic restoration is the opportunity to install modern ice and water shield membrane, synthetic underlayment, and improved flashing details beneath the historic roofing material. These modern components provide a waterproofing backup that the original installation did not have, dramatically improving the roof\'s weather resistance while maintaining the historic appearance from the exterior. This combination of historic aesthetics and modern performance is the hallmark of quality historic restoration.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does historic roof restoration cost in Essex County, NJ?',
+        answer: 'Most historic roof restoration projects in Essex County range from $15,000–$50,000, historic material sourcing and restoration. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$15,000–$50,000',
+      factors: [
+        'Roof size and square footage',
+        'Material selection and quality grade',
+        'Complexity of roof design (pitch, valleys, penetrations)',
+        'Current condition and extent of existing damage',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Historic Roof Restoration',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 3. Roof Ice Dam Prevention ───────────────────────────────────────────
   {
@@ -278,7 +368,52 @@ export const designConsultationContent: ServiceContent[] = [
       {
         question: 'How much does ice dam prevention cost?',
         answer: 'Ice dam prevention costs vary depending on the scope of improvements needed. Simple air sealing and insulation upgrades for a typical home represent a modest investment that often pays for itself within a few winters through prevented damage and energy savings. Heat cable systems add additional cost but provide reliable active protection for challenging roof configurations. We provide detailed estimates after our assessment, itemizing each improvement with its expected impact so you can prioritize based on your budget and risk tolerance. Many homeowners find that the prevention cost is a fraction of what a single ice dam event would cost in repairs.'
-      }
-    ]
-  }
+      },
+      {
+        question: 'How much does roof ice dam prevention cost in Essex County, NJ?',
+        answer: 'Most roof ice dam prevention projects in Essex County range from $800–$3,000, ice dam prevention system installation. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$800–$3,000',
+      factors: [
+        'Linear footage or unit count required',
+        'Material grade and finish selected',
+        'Accessibility and installation complexity',
+        'Integration with existing roofing system',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Ice Dam Prevention',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],}
 ];

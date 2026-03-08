@@ -4,7 +4,7 @@ export const caldwellHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'caldwell',
   overview: [
-    'Hail events in Caldwell produce damage patterns that interact with the borough\'s dominant housing stock in specific ways. The colonials and capes that line residential streets carry architectural asphalt shingles on moderate-pitch roofs, and hail impact on these shingles creates characteristic damage -- displaced granules exposing the black asphalt substrate beneath, fractured fiberglass mat visible as soft spots when pressed, and bruised sealant strips that release tab adhesion and make shingles vulnerable to wind uplift in subsequent storms. What makes Caldwell hail damage assessment distinct is the tree canopy variable. Homes shielded by mature oaks and maples may sustain minimal direct impact while their sun-exposed neighbors suffer significant damage, creating a patchwork of damage severity that varies house by house along the same street.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Caldwell — with prices starting from $500–$2,500 and free estimates available today. Hail events in Caldwell produce damage patterns that interact with the borough\'s dominant housing stock in specific ways. The colonials and capes that line residential streets carry architectural asphalt shingles on moderate-pitch roofs, and hail impact on these shingles creates characteristic damage -- displaced granules exposing the black asphalt substrate beneath, fractured fiberglass mat visible as soft spots when pressed, and bruised sealant strips that release tab adhesion and make shingles vulnerable to wind uplift in subsequent storms. What makes Caldwell hail damage assessment distinct is the tree canopy variable. Homes shielded by mature oaks and maples may sustain minimal direct impact while their sun-exposed neighbors suffer significant damage, creating a patchwork of damage severity that varies house by house along the same street.',
     'The aftermath of a hail event in Caldwell requires prompt professional assessment because hail damage is frequently invisible from the ground. A homeowner standing in their driveway looking up at a Caldwell colonial cannot see the granule displacement and shingle fractures that are obvious to an inspector walking the roof surface. Insurance policies require timely reporting of hail damage, and the deterioration that follows untreated hail impact -- accelerated UV degradation of exposed asphalt, water infiltration through fractured shingle mat, wind-lifted tabs from broken sealant -- progresses through multiple weather cycles until the damage that started as a cosmetic issue becomes a functional failure.',
     'Our [hail damage roof repair](/hail-damage-roof-repair) approach in Caldwell combines thorough damage documentation with honest assessment. Not every hail event produces damage that warrants a claim or repair. Small hail on quality architectural shingles may produce superficial granule marks that do not compromise shingle function or longevity. Larger hail that fractures the fiberglass mat or displaces granules in concentrated patterns does warrant repair or replacement. We differentiate between cosmetic and functional hail damage in our assessment, giving homeowners the information they need to make sound decisions rather than inflating every hail event into a roofing project.'
   ],
@@ -34,7 +34,25 @@ export const caldwellHailDamageRoofRepair: ComboContent = {
     {
       question: 'How long do I have to file a hail damage claim on my Caldwell home?',
       answer: 'Most New Jersey homeowner policies require damage reporting within a reasonable time after discovery, typically interpreted as within one year of the hail event. However, prompt reporting produces better outcomes -- damage documented within days of the event is easier to attribute definitively to the specific storm, and early detection prevents secondary deterioration from progressing. We recommend scheduling inspection within one to two weeks of a significant hail event and filing the claim based on inspection findings. Waiting months allows weather exposure to blur the distinction between hail damage and normal aging, complicating the claims process.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in Caldwell, NJ?',
+      answer: 'Most hail damage roof repair projects in Caldwell range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Caldwell NJ -- professional assessment, insurance claim support, and shingle repair for tree-canopy homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

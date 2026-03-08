@@ -4,7 +4,7 @@ export const bellevilleWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'belleville',
   overview: [
-    'Wind damage on Belleville roofs follows patterns shaped by the township\'s compact building density and its position within the Passaic River corridor. The closely-spaced homes create wind tunnels between structures where gusts accelerate beyond the ambient wind speed, subjecting roof edges, ridge caps, and the narrow gaps between buildings to uplift forces that isolated structures would not experience at the same wind velocity. Our [wind damage roof repair](/wind-damage-roof-repair) response in Belleville accounts for these amplified conditions by specifying enhanced fastening patterns at edges and ridges where channeled wind concentrates its destructive energy.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Belleville — with prices starting from $400–$2,000 and free estimates available today. Wind damage on Belleville roofs follows patterns shaped by the township\'s compact building density and its position within the Passaic River corridor. The closely-spaced homes create wind tunnels between structures where gusts accelerate beyond the ambient wind speed, subjecting roof edges, ridge caps, and the narrow gaps between buildings to uplift forces that isolated structures would not experience at the same wind velocity. Our [wind damage roof repair](/wind-damage-roof-repair) response in Belleville accounts for these amplified conditions by specifying enhanced fastening patterns at edges and ridges where channeled wind concentrates its destructive energy.',
     'The eastern neighborhoods near the Passaic River -- Joralemon Street, Mill Street, and the Branch Brook Park border -- experience wind exposure from the northeast that arrives unobstructed across the river basin. Homes facing east on these blocks sustain shingle lifting, tab tearing, and ridge cap displacement at wind speeds that leave western Belleville homes undamaged. Our damage records show a consistent pattern: after every significant wind event, the eastern blocks generate three to four times the repair volume of comparable blocks west of Washington Avenue. This geographic risk profile guides our material recommendations for new installations and repairs in the river-facing zone.',
     'Commercial flat-roof wind damage along the Belleville Turnpike and Washington Avenue manifests differently from pitched residential damage. Wind lifts membrane edges at parapet walls, peels back poorly adhered EPDM and modified bitumen seams, and shifts rooftop equipment that anchors to the deck through mounting curbs. Progressive peeling is the primary risk -- a small lifted section becomes a larger one with each subsequent wind event until the membrane fails catastrophically. Our commercial wind damage response re-adheres lifted membrane sections immediately to prevent this progressive failure. Property managers along [Newark](/wind-damage-roof-repair-newark-nj)\'s commercial corridors manage the same flat-roof wind vulnerability on their industrial buildings.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleWindDamageRoofRepair: ComboContent = {
     {
       question: 'Will my insurance cover wind damage repair on my Belleville roof?',
       answer: 'Wind damage is a named peril covered by standard homeowner insurance policies in New Jersey. Coverage applies when wind causes the damage, not when pre-existing deterioration is exposed by wind. Our documentation clearly establishes the causal connection between the wind event and the specific damage, which is the foundation of a successful wind damage claim. We coordinate with your adjuster to present findings and resolve scope questions before repairs begin.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Belleville, NJ?',
+      answer: 'Most wind damage roof repair projects in Belleville range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ wind damage roof repair -- Passaic River corridor wind exposure, channeled uplift repair, and multi-property assessment.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

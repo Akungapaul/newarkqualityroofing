@@ -4,7 +4,7 @@ export const veronaResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'verona',
   overview: [
-    'Residential roof installation in Verona serves a township where the dominant split-level and bi-level housing stock demands installation techniques that generic roofing crews rarely possess. The multi-elevation rooflines, shallow-pitched lower sections, and transition walls between levels require a coordinated installation sequence that builds weather protection systematically from the lowest eave upward through each elevation change. Newark Quality Roofing has installed new roofing systems on hundreds of Verona homes, developing a split-level-specific protocol that eliminates the chronic leak points these designs produce when conventional methods are applied.',
+    'Newark Quality Roofing delivers expert residential roof installation in Verona — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Verona serves a township where the dominant split-level and bi-level housing stock demands installation techniques that generic roofing crews rarely possess. The multi-elevation rooflines, shallow-pitched lower sections, and transition walls between levels require a coordinated installation sequence that builds weather protection systematically from the lowest eave upward through each elevation change. Newark Quality Roofing has installed new roofing systems on hundreds of Verona homes, developing a split-level-specific protocol that eliminates the chronic leak points these designs produce when conventional methods are applied.',
     'New construction and addition projects in Verona benefit from our understanding of how the township\'s terrain affects roofing performance. Hilltop sites along Claremont and Personette Avenues need wind-rated installations from day one -- not retrofitted after the first nor\'easter strips standard shingles. Valley-floor sites near [Verona Park](/roofing-in-verona-nj) need algae-resistant materials and enhanced ventilation to combat the shade-heavy microclimate. We consult with builders and architects during the design phase, recommending material specifications and ventilation strategies tailored to each site\'s specific exposure before the first truss is set.',
     'For Verona homeowners adding rooms, converting garages, or building dormers, the roof installation must integrate seamlessly with existing roofing systems. The tie-in point where new roofing meets old creates a potential weak point if flashing, membrane underlayment, and shingle coursing are not executed with precision. Our addition roofing integrates through continuous membrane at the junction, stepped flashing keyed into existing courses, and color-matched shingle selection that makes the addition look original rather than bolted on. Homeowners in neighboring [Montclair](/residential-roof-installation-montclair-nj) frequently renovate their colonials, but Verona additions on split-levels demand additional attention to the already-complex elevation transitions.'
   ],
@@ -34,7 +34,25 @@ export const veronaResidentialRoofInstallation: ComboContent = {
     {
       question: 'Can you install a new roof over existing shingles in Verona?',
       answer: 'While overlay installation is technically possible on homes with only one existing layer, we do not recommend it for Verona split-levels. Overlaying hides the transition-joint inspection that is essential for identifying deteriorated flashings and damaged sheathing -- the most common failure points on these homes. A full tear-off allows us to evaluate and repair the deck, install proper membrane underlayment at transitions, and build a roofing system that addresses the root causes of split-level leaking rather than adding another layer on top of existing problems.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in Verona, NJ?',
+      answer: 'Most residential roof installation projects in Verona range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in Verona NJ -- split-level specialists with wind-rated systems for hilltop homes and family neighborhoods.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

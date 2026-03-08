@@ -4,7 +4,7 @@ export const westOrangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'west-orange',
   overview: [
-    'Roof replacement cost in West Orange varies significantly based on factors unique to this township -- elevation-driven material specifications, hillside access complexity, and the split-level roof geometries that create more flashing intersections per square foot than standard residential designs. Our [roof replacement cost](/roof-replacement-cost) estimates itemize every component transparently, showing West Orange homeowners exactly where their investment goes and what drives cost differences between apparently similar homes.',
+    'Newark Quality Roofing delivers expert roof replacement cost in West Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in West Orange varies significantly based on factors unique to this township -- elevation-driven material specifications, hillside access complexity, and the split-level roof geometries that create more flashing intersections per square foot than standard residential designs. Our [roof replacement cost](/roof-replacement-cost) estimates itemize every component transparently, showing West Orange homeowners exactly where their investment goes and what drives cost differences between apparently similar homes.',
     'Ridge-top properties along Eagle Rock Avenue carry cost premiums for wind-rated materials and enhanced fastening that valley-floor homes do not require. The material cost difference between standard and wind-rated shingles adds 10 to 15 percent to material costs, while enhanced fastening patterns increase labor hours. This elevation-driven cost variation means that two homes with identical square footage but different locations on the Watchung slope can have meaningfully different replacement costs for sound engineering reasons.',
     'Split-level homes throughout [West Orange](/roofing-in-west-orange-nj)\'s mid-slope neighborhoods cost more per square foot to re-roof than simple gable or hip designs because the level-change geometry creates additional flashing intersections, ice-and-water shield coverage requirements, and complex transition details that consume both material and labor. A 2,000-square-foot split-level roof typically requires 20 to 30 percent more labor than a 2,000-square-foot ranch roof due to these geometric complications.',
     'West Orange\'s hillside terrain adds access costs that flat-lot properties avoid. Steep driveways limit dumpster placement. Terraced landscaping restricts material staging. Retaining walls prevent ladder access on certain elevations. These access challenges increase project costs through equipment rental, manual material transport, and extended setup time. Homeowners near [Verona](/roof-replacement-cost-verona-nj) see similar terrain-driven cost impacts on their own Watchung ridge-line properties.'
@@ -35,7 +35,25 @@ export const westOrangeRoofReplacementCost: ComboContent = {
     {
       question: 'How do I compare estimates from different contractors?',
       answer: 'Compare scope, not just price. Verify that each estimate includes the same items: tear-off method, ice-and-water shield locations, underlayment type, shingle product and warranty level, flashing replacement, ventilation work, and cleanup details. The lowest price often reflects excluded scope rather than better value. Our itemized estimates make scope comparison straightforward, and we welcome side-by-side review against competing proposals.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in West Orange, NJ?',
+      answer: 'Most roof replacement cost projects in West Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in West Orange NJ. Transparent pricing for split-levels, ridge-top homes, and hillside properties.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

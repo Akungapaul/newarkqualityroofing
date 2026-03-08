@@ -4,7 +4,7 @@ export const eastOrangeRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'east-orange',
   overview: [
-    'East Orange sits just west of Newark along the spine of Central Avenue, a city of densely packed multi-family housing where roof repair is less a homeowner convenience and more a landlord obligation. The Victorian two-families and three-families along Prospect Street and throughout the Elmwood Park neighborhood carry roofs that were last replaced a generation ago, and the economics of rental property ownership mean that deferred maintenance is the norm rather than the exception. Roof leaks in East Orange typically present as tenant complaints, not owner observations, and by the time the call reaches a contractor, water has often traveled through multiple floors of plaster ceilings, knob-and-tube wiring cavities, and balloon-framed wall assemblies that act as vertical highways for moisture.',
+    'Newark Quality Roofing delivers expert roof repair in East Orange — with prices starting from $350–$1,500 and free estimates available today. East Orange sits just west of Newark along the spine of Central Avenue, a city of densely packed multi-family housing where roof repair is less a homeowner convenience and more a landlord obligation. The Victorian two-families and three-families along Prospect Street and throughout the Elmwood Park neighborhood carry roofs that were last replaced a generation ago, and the economics of rental property ownership mean that deferred maintenance is the norm rather than the exception. Roof leaks in East Orange typically present as tenant complaints, not owner observations, and by the time the call reaches a contractor, water has often traveled through multiple floors of plaster ceilings, knob-and-tube wiring cavities, and balloon-framed wall assemblies that act as vertical highways for moisture.',
     'The apartment buildings along Main Street and scattered throughout the Brick Church district represent a different repair challenge entirely. Three-story and four-story walk-ups from the 1920s and 1930s feature flat roof systems -- some original built-up tar-and-gravel, others patched over decades with layers of modified bitumen, silver coating, and emergency repairs that created an archaeological record of previous failures. Repairing these roofs means cutting through the stratified history of past fixes to find the actual deck condition beneath. On many East Orange apartment buildings, the accumulation of re-roofing layers has exceeded the structural load capacity the building was designed to carry, making a targeted repair approach preferable to adding yet another layer.',
     'Post-war garden apartment complexes in Doddtown and along Springdale Avenue introduced a housing type that East Orange has in abundance: two-story wood-framed buildings with low-slope roofs arranged around shared courtyards. These complexes present a scale challenge for roof repair -- a single property manager may oversee eight to twelve buildings with identical construction and identical aging patterns, meaning one building showing leak symptoms is a leading indicator that the entire complex needs assessment. Our repair approach for garden apartment owners addresses the portfolio reality rather than treating each building as an isolated incident.',
     'For investors acquiring distressed properties in East Orange\'s rehabilitation zones, roof condition is frequently the make-or-break variable in a renovation budget. The city\'s Urban Enterprise Zone and rehabilitation incentive programs bring buyers who need accurate roof assessments to determine whether a property pencils out. We provide pre-purchase roof evaluations that go beyond surface inspection, including core sampling on flat roofs and moisture meter readings on pitched systems, giving investors the data they need to project repair costs before closing.'
@@ -35,7 +35,25 @@ export const eastOrangeRoofRepair: ComboContent = {
     {
       question: 'Can you provide a roof condition assessment for an East Orange investment property before I close on the purchase?',
       answer: 'Yes. Pre-purchase roof assessments are one of our most requested services for East Orange investment properties. We perform a thorough inspection including core samples on flat roofs to measure insulation condition and remaining membrane life, moisture meter readings on pitched roofs, and structural evaluation of the roof deck. The report provides estimated remaining life, itemized repair costs, and projected replacement timeline so you can factor roofing costs into your acquisition analysis and rehabilitation budget.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in East Orange, NJ?',
+      answer: 'Most roof repair projects in East Orange range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof repair for East Orange NJ multi-family buildings -- apartment leak diagnosis, flat roof patching, and investor property assessments.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

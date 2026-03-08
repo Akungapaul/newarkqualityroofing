@@ -4,7 +4,7 @@ export const caldwellRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'caldwell',
   overview: [
-    'Roof overlay installation in Caldwell places a new shingle layer directly over the existing roof surface, avoiding the labor, cost, and waste of full tear-off. When conditions permit -- a single existing shingle layer in sound condition with no evidence of moisture damage beneath -- overlay provides a legitimate path to a refreshed roof at reduced cost. The approach is particularly relevant for budget-conscious Caldwell homeowners whose existing roof has reached cosmetic end-of-life with curling, granule loss, and faded appearance but has not yet failed structurally.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Caldwell — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Caldwell places a new shingle layer directly over the existing roof surface, avoiding the labor, cost, and waste of full tear-off. When conditions permit -- a single existing shingle layer in sound condition with no evidence of moisture damage beneath -- overlay provides a legitimate path to a refreshed roof at reduced cost. The approach is particularly relevant for budget-conscious Caldwell homeowners whose existing roof has reached cosmetic end-of-life with curling, granule loss, and faded appearance but has not yet failed structurally.',
     'The decision between overlay and tear-off for [Caldwell](/roofing-in-caldwell-nj) homes must be made honestly, with the limitations of overlay clearly understood. Overlay conceals the existing deck -- if moisture damage exists beneath the current shingles, it will not be discovered or repaired. Overlay adds weight to the roof structure that accumulates through successive layers. Overlay traps any existing moisture between layers, potentially accelerating deck deterioration. Our [roof overlay](/roof-overlay-installation) recommendations for Caldwell are conservative: we suggest overlay only when we have confidence that the deck beneath is sound, the existing roof carries only one layer, and the homeowner accepts the tradeoffs.',
     'For Caldwell homes that qualify, overlay delivers meaningful savings. Eliminating tear-off labor, dumpster rental, and disposal fees typically reduces the project cost by fifteen to twenty-five percent compared to a tear-off-and-replace approach. The project timeline is also compressed -- overlay on a typical Caldwell colonial completes in one day versus two for a tear-off project. Homeowners in neighboring [Bloomfield](/roof-overlay-installation-bloomfield-nj) and [Montclair](/roof-overlay-installation-montclair-nj) evaluate the same overlay-versus-tearoff tradeoffs on their residential properties.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofOverlayInstallation: ComboContent = {
     {
       question: 'Will an overlay roof last as long as a tear-off roof in Caldwell?',
       answer: 'Shingle manufacturers generally warrant overlay installations for the same period as new installations, though some reduce warranty duration. The shingles themselves perform comparably in both installations. The difference in longevity comes from what is beneath: a tear-off roof sits on inspected, repaired decking that provides a solid foundation, while an overlay roof sits on an existing layer that may conceal developing problems. If the existing roof is truly sound, overlay longevity should approach tear-off longevity. If hidden issues exist, overlay life may be shortened.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Caldwell, NJ?',
+      answer: 'Most roof overlay installation projects in Caldwell range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Caldwell NJ -- new shingles over existing for colonials when conditions permit, with honest overlay-vs-tearoff guidance.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const nutleyCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'nutley',
   overview: [
-    'Custom roof design consultation in Nutley serves homeowners and architects navigating the aesthetic, structural, and regulatory decisions that shape a roofing project before the first material is ordered. The township\'s architecturally varied housing stock -- from the Tudor Revivals on Chestnut Street with their complex multi-gable geometries to the mid-century ranches in Yantacaw with their simple-but-aging rooflines -- means that design consultation covers an unusually wide range of conditions within a single 3.4-square-mile community. Every consultation begins with the specific building, its specific neighborhood context, and the specific goals of the homeowner standing in front of it.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Nutley — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Nutley serves homeowners and architects navigating the aesthetic, structural, and regulatory decisions that shape a roofing project before the first material is ordered. The township\'s architecturally varied housing stock -- from the Tudor Revivals on Chestnut Street with their complex multi-gable geometries to the mid-century ranches in Yantacaw with their simple-but-aging rooflines -- means that design consultation covers an unusually wide range of conditions within a single 3.4-square-mile community. Every consultation begins with the specific building, its specific neighborhood context, and the specific goals of the homeowner standing in front of it.',
     'Nutley homeowners approach roof design differently than homeowners in most Essex County communities. The township\'s civic pride, active historical society, and engaged neighborhood culture create an environment where roofing decisions are evaluated not just on performance metrics but on how the finished roof integrates with the streetscape, complements neighboring properties, and reflects the investment standards the community expects. Our consultation process acknowledges this by including neighborhood context analysis alongside the technical material and structural assessments that drive roofing decisions in less aesthetically conscious communities.',
     'Our [custom roof design](/custom-roof-design-consultation) consultations in [Nutley](/roofing-in-nutley-nj) produce detailed specification documents that guide material selection, color coordination, ventilation design, and installation methodology before the project enters the bidding or execution phase. For Tudor restorations along Chestnut Street, this might mean evaluating five shingle profiles against the home\'s half-timbering color palette and recommending the option that achieves the closest visual match to the original wood-shake aesthetic. For a Colonial renovation on Vreeland Avenue, it might mean designing a dormer addition that integrates with the existing roofline rather than looking like an afterthought bolted onto the original structure.',
     'Architect collaboration forms a significant portion of our Nutley consultation work. The township attracts renovation-minded homeowners who engage architects for additions, second-story expansions, and exterior makeovers that transform a dated home into a contemporary showpiece. These architects need a roofing consultant who speaks their design language while grounding aesthetic aspirations in the structural and weatherproofing realities of northern New Jersey construction. We bridge that gap, translating architectural vision into buildable roof assemblies that perform as beautifully as they look.'
@@ -35,7 +35,25 @@ export const nutleyCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Can you work with my architect on a Nutley renovation project?',
       answer: 'Yes, and we encourage architect collaboration on renovation projects. We bring the roofing-specific technical knowledge -- material performance data, flashing engineering, ventilation design, and installation methodology -- that complements the architect\'s design vision. Our involvement during the design phase prevents the costly field changes that occur when roofing details are left unresolved until construction. We can join the project at any design stage from concept through construction documents.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Nutley, NJ?',
+      answer: 'Most custom roof design consultation projects in Nutley range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Nutley NJ. Material selection, color coordination, and Tudor-specific design for Chestnut Street homes.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const roselandRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'roseland',
   overview: [
-    'Roof thermal imaging inspections provide Roseland\'s commercial property managers with non-destructive diagnostic capability that identifies moisture, insulation deficiencies, and active leaks hidden within the roof assembly. Infrared cameras detect temperature differentials across the roof surface -- wet insulation retains heat differently than dry material, and active leaks create thermal signatures invisible to the naked eye. Our [roof thermal imaging inspections](/roof-thermal-imaging-inspections) service surveys commercial flat roofs on the corporate campus buildings and business properties throughout the borough.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Roseland — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections provide Roseland\'s commercial property managers with non-destructive diagnostic capability that identifies moisture, insulation deficiencies, and active leaks hidden within the roof assembly. Infrared cameras detect temperature differentials across the roof surface -- wet insulation retains heat differently than dry material, and active leaks create thermal signatures invisible to the naked eye. Our [roof thermal imaging inspections](/roof-thermal-imaging-inspections) service surveys commercial flat roofs on the corporate campus buildings and business properties throughout the borough.',
     'The technology is particularly valuable for Roseland\'s large corporate roof systems where visual inspection alone cannot reveal conditions within the multi-layer assembly. A membrane that appears intact on the surface may conceal saturated insulation beneath -- insulation that has lost its thermal resistance and is actively promoting membrane deterioration from below. Thermal imaging identifies these concealed conditions across the full roof area in hours rather than the days that physical core testing of the same area would require.',
     'Pre-purchase and pre-lease inspections use thermal imaging to establish roof condition as part of commercial property due diligence. Roseland\'s corporate real estate market involves lease negotiations and property transactions where roof condition significantly affects property value and tenant improvement costs. An infrared survey provides objective evidence of roof system condition that supports purchase price negotiation, capital reserve planning, and lease responsibility allocation. Commercial property investors in [West Orange](/roof-thermal-imaging-inspections-west-orange-nj) use similar thermal documentation during acquisition due diligence.'
   ],
@@ -34,7 +34,25 @@ export const roselandRoofThermalImagingInspections: ComboContent = {
     {
       question: 'Does thermal imaging damage the roof?',
       answer: 'Thermal imaging is completely non-destructive. The infrared camera captures thermal radiation emitted from the roof surface without contacting or disturbing the membrane. The only physical interaction occurs during follow-up core testing at anomaly locations, where small cores are cut through the membrane to verify moisture conditions. These core test locations are repaired with membrane patches after sampling. The overall survey leaves the roof undisturbed.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Roseland, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Roseland range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Roseland NJ -- infrared moisture detection for commercial buildings and pre-purchase due diligence.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

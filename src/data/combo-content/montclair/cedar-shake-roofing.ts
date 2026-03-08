@@ -4,7 +4,7 @@ export const montclairCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'montclair',
   overview: [
-    'Cedar shake roofing in Montclair speaks to a specific subset of the township\'s architectural vocabulary: the Arts & Crafts and Craftsman homes where natural, hand-worked materials were a philosophical commitment, not just a practical choice. The original builders of Montclair\'s Craftsman bungalows selected cedar for its warmth, its hand-split irregularity, and its capacity to weather into the silver-gray tones that harmonize with stone foundations and earth-toned stucco -- an aesthetic agenda that manufactured materials have never convincingly replicated. Installing cedar shake on these homes is an act of material continuity that connects the current roofing surface to the original builder\'s intention.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Montclair — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing in Montclair speaks to a specific subset of the township\'s architectural vocabulary: the Arts & Crafts and Craftsman homes where natural, hand-worked materials were a philosophical commitment, not just a practical choice. The original builders of Montclair\'s Craftsman bungalows selected cedar for its warmth, its hand-split irregularity, and its capacity to weather into the silver-gray tones that harmonize with stone foundations and earth-toned stucco -- an aesthetic agenda that manufactured materials have never convincingly replicated. Installing cedar shake on these homes is an act of material continuity that connects the current roofing surface to the original builder\'s intention.',
     'Western red cedar -- the species that defines the cedar shake category -- brings genuine performance characteristics beyond aesthetics. Its natural oils resist decay and insect attack more effectively than any other North American softwood. Its cellular structure provides measurable thermal insulation, reducing heat transfer through the roof assembly by a margin that, while modest compared to dedicated insulation products, contributes to the energy performance of the overall envelope. And its dimensional stability through moisture cycling exceeds other wood species, reducing the splitting and warping that accelerate aging in less stable woods. These properties make cedar the premium standard for [cedar shake roofing](/cedar-shake-roofing) in climates as demanding as Montclair\'s Watchung Ridge environment.',
     'Cedar shake\'s relationship with Montclair\'s tree canopy environment is paradoxically both compatible and adversarial. The material blends visually with the wooded streetscape in a way no synthetic product achieves -- a cedar shake roof under a canopy of oaks and maples looks native to its setting. Yet that same canopy creates the persistent shade and moisture conditions that accelerate cedar\'s biological deterioration. Moss colonizes the textured shake surface within three to five years, fungal decay attacks the end grain at butt cuts, and the perpetual dampness from canopy drip prevents the solar drying that naturally preserves cedar on exposed roofs. Managing this tension between aesthetic compatibility and environmental hostility is the central challenge of cedar shake ownership in Montclair.'
   ],
@@ -34,7 +34,25 @@ export const montclairCedarShakeRoofing: ComboContent = {
     {
       question: 'Can cedar shake be installed over my existing roof?',
       answer: 'Cedar shake should never be installed over an existing roof layer. The material requires the ventilated spaced-sheathing substrate that promotes airflow and moisture management beneath each course. Installing over an existing surface traps moisture, eliminates ventilation, and accelerates decay. Full tear-off to the structural deck is mandatory for cedar shake installation, followed by the proper underlayment, skip-sheathing, and ventilation assembly that the material demands for long-term performance.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Montclair, NJ?',
+      answer: 'Most cedar shake roofing projects in Montclair range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Montclair NJ -- hand-split western red cedar for Craftsman homes, canopy-climate preservative care, and fire-rated installation.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

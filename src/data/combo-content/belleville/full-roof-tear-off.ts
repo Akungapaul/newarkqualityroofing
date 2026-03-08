@@ -4,7 +4,7 @@ export const bellevilleFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'belleville',
   overview: [
-    'Full roof tear-off is our standard recommendation for Belleville homes, not an optional premium upgrade. The township\'s post-war housing stock has typically undergone two or three re-roofing cycles since original construction, with each generation of contractor layering new shingles over the previous installation rather than stripping to the deck. New Jersey code allows a maximum of two asphalt shingle layers, but we routinely discover three-layer roofs on Belleville homes built in the 1940s-1960s. This accumulated weight stresses original rafters and sheathing, traps moisture between layers, and hides deck deterioration that worsens with each year it goes undetected.',
+    'Newark Quality Roofing delivers expert full roof tear off in Belleville — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off is our standard recommendation for Belleville homes, not an optional premium upgrade. The township\'s post-war housing stock has typically undergone two or three re-roofing cycles since original construction, with each generation of contractor layering new shingles over the previous installation rather than stripping to the deck. New Jersey code allows a maximum of two asphalt shingle layers, but we routinely discover three-layer roofs on Belleville homes built in the 1940s-1960s. This accumulated weight stresses original rafters and sheathing, traps moisture between layers, and hides deck deterioration that worsens with each year it goes undetected.',
     'The tear-off process on Belleville\'s closely-spaced homes requires debris containment discipline that open-lot suburban projects do not demand. When the neighbor\'s siding is six feet from the tear-off zone, every shovel of stripped shingles, every loose nail, and every piece of rotted sheathing must be controlled from roof edge to dumpster without landing on the adjacent property. Our crews install magnetic nail catchers along the ground perimeter, debris tarps against neighboring walls, and chute systems that direct material directly into the dumpster without ground-level exposure.',
     'Our [full tear-off](/full-roof-tear-off) exposes the structural deck for the thorough inspection that Belleville\'s moisture-prone housing stock requires. We probe every square foot of exposed sheathing, mark deteriorated sections for replacement, and assess rafter condition at every area showing deck damage. This inspection step is impossible on overlay installations, which is precisely why overlay fails to address the hidden problems that Belleville\'s aging building stock harbors beneath the surface. Similar conditions exist on homes across [Newark](/full-roof-tear-off-newark-nj) and Essex County.',
     'The environmental aspect of tear-off in Belleville involves managing significant waste volumes on narrow lots. A typical two-layer tear-off generates 4,000-6,000 pounds of debris from a standard Belleville home. Three-layer tear-offs produce even more. We coordinate dumpster placement on streets where driveway access may be limited, obtain temporary parking permits when street placement is necessary, and haul debris to licensed recycling facilities where asphalt shingles are processed for road material rather than landfilled.'
@@ -35,7 +35,25 @@ export const bellevilleFullRoofTearOff: ComboContent = {
     {
       question: 'How long does a full tear-off take in Belleville?',
       answer: 'A standard single-layer tear-off and complete re-roof on a typical Belleville home takes 2-3 days. Two or three-layer tear-offs may add a half-day for the additional stripping work and deck repair. Weather delays can extend the timeline, which is why we monitor forecasts carefully and maintain the ability to waterproof exposed deck areas within 30 minutes if conditions change.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Belleville, NJ?',
+      answer: 'Most full roof tear off projects in Belleville range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Belleville NJ. Complete shingle removal to deck for proper inspection and repair on post-war homes with multi-layer roofs.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

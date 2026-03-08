@@ -4,7 +4,7 @@ export const cedarGroveCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'cedar-grove',
   overview: [
-    'Commercial roof installation in Cedar Grove serves the township\'s business properties along Pompton Avenue, Route 23, and the professional office parks where new construction, tenant build-outs, and full re-roofing projects require engineered roof systems designed for northern Essex County conditions. From small professional offices to the retail strip centers that anchor Cedar Grove\'s commercial corridors, our [commercial roof installation](/commercial-roof-installation) delivers warranted systems with documented thermal performance, wind resistance, and drainage engineering tailored to each building.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Cedar Grove — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Cedar Grove serves the township\'s business properties along Pompton Avenue, Route 23, and the professional office parks where new construction, tenant build-outs, and full re-roofing projects require engineered roof systems designed for northern Essex County conditions. From small professional offices to the retail strip centers that anchor Cedar Grove\'s commercial corridors, our [commercial roof installation](/commercial-roof-installation) delivers warranted systems with documented thermal performance, wind resistance, and drainage engineering tailored to each building.',
     'Cedar Grove\'s commercial building stock spans decades of construction, and new roof installations on existing buildings must navigate the legacy conditions these structures carry -- outdated structural framing designed for lighter roof loads, inadequate drainage slope from an era of less demanding codes, and rooftop mechanical equipment that has been added incrementally without coordinated roof planning. Our installation approach integrates structural verification, drainage correction, and equipment flashing into a comprehensive scope that addresses the full building context, not just the membrane surface.',
     'New commercial construction in Cedar Grove\'s limited development zones requires roof systems that satisfy current energy code, wind uplift, and fire rating requirements from the ground up. We coordinate with general contractors and architects to specify and install roof assemblies that meet Cedar Grove\'s building code requirements while optimizing long-term maintenance cost and energy performance for the building owner. Facility managers overseeing properties in nearby [Caldwell](/commercial-roof-installation-caldwell-nj) engage similar coordination for their commercial roofing projects.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveCommercialRoofInstallation: ComboContent = {
       question: 'What warranties come with a commercial roof installation in Cedar Grove?',
       answer: 'We provide a ten-year workmanship warranty covering all installation labor, flashings, and penetration details. Membrane manufacturers provide system warranties ranging from fifteen to thirty years depending on the product and installation level. The manufacturer warranty is backed by the membrane maker directly, providing independent coverage beyond our company warranty.',
     },
+    {
+      question: 'How much does commercial roof installation cost in Cedar Grove, NJ?',
+      answer: 'Most commercial roof installation projects in Cedar Grove range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Cedar Grove NJ -- engineered membrane systems for Pompton Ave offices and Route 23 retail with full warranty coverage.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

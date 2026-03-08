@@ -4,7 +4,7 @@ export const newarkPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'newark',
   overview: [
-    'PVC roofing membrane occupies a specialized niche in Newark\'s commercial roofing market -- it is the material of choice where chemical exposure, grease exhaust, or fire resistance requirements eliminate other single-ply options from consideration. The Ironbound district\'s dense concentration of restaurants, commercial kitchens, and food processing facilities generates rooftop grease exhaust that chemically attacks TPO and EPDM membranes, causing them to swell, soften, and eventually fail. PVC\'s inherent resistance to animal fats, vegetable oils, and petroleum-based chemicals makes it the only single-ply membrane that can maintain its integrity beneath and around kitchen exhaust vents -- a non-negotiable specification for Newark\'s food service buildings.',
+    'Newark Quality Roofing delivers expert pvc roofing in Newark — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing membrane occupies a specialized niche in Newark\'s commercial roofing market -- it is the material of choice where chemical exposure, grease exhaust, or fire resistance requirements eliminate other single-ply options from consideration. The Ironbound district\'s dense concentration of restaurants, commercial kitchens, and food processing facilities generates rooftop grease exhaust that chemically attacks TPO and EPDM membranes, causing them to swell, soften, and eventually fail. PVC\'s inherent resistance to animal fats, vegetable oils, and petroleum-based chemicals makes it the only single-ply membrane that can maintain its integrity beneath and around kitchen exhaust vents -- a non-negotiable specification for Newark\'s food service buildings.',
     'Newark\'s industrial zones along Doremus Avenue, near Port Newark, and in the southern Ironbound contain chemical processing, petroleum distribution, and manufacturing operations that produce airborne compounds hostile to most roofing materials. PVC membrane stands apart with documented resistance to over 50 common industrial chemicals including acids, alkalis, and hydrocarbon solvents. For facility directors at these industrial properties, PVC isn\'t a premium choice -- it\'s the only membrane that won\'t degrade in their specific chemical environment. The cost premium over TPO, typically 15 to 25 percent, is irrelevant when the alternative is a roof that dissolves.',
     'Heat-welded seams give PVC roofing the same monolithic waterproofing advantage as TPO, but PVC\'s weld strength and longevity have a longer track record. PVC roofing was introduced to the United States in the 1970s, and the oldest PVC roofs in the Northeast -- now approaching 50 years of service -- demonstrate the material\'s exceptional long-term performance. The heat-welded seam creates a bond stronger than the sheet material itself, and unlike adhesive seams on EPDM, PVC welds do not degrade over time. For Newark building owners specifying a roof that must perform for 25 to 30 years without seam maintenance, PVC delivers proven confidence.',
     'Fire-rated PVC roof assemblies meet the stringent requirements of Newark\'s commercial building code for buildings in high-occupancy categories. Hospitals, schools, assembly buildings, and high-rise structures all face fire resistance requirements that PVC assemblies achieve without supplemental fire barriers. The material self-extinguishes when the flame source is removed, earning Class A fire ratings that satisfy Newark Fire Department requirements and reduce insurance premiums for building owners. In University Heights, where institutional buildings serve NJIT and Rutgers-Newark students, PVC\'s fire performance is frequently the deciding specification factor.'
@@ -35,7 +35,25 @@ export const newarkPvcRoofing: ComboContent = {
     {
       question: 'Can PVC roofing be installed over our existing roof system in Newark?',
       answer: 'PVC can be installed as a recover over certain existing systems, with one critical restriction: the existing roof must not contain asphalt-based materials that would contact the PVC membrane. Existing PVC, TPO, and mechanically attached single-ply systems can typically accept a PVC recover. Existing BUR, modified bitumen, and EPDM systems require either full tear-off or installation of an approved separation barrier between the existing system and the new PVC. We test the existing system during our assessment to determine recover eligibility. Newark building code permits one recover layer provided the combined system weight falls within the structural capacity of the roof deck.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Newark, NJ?',
+      answer: 'Most pvc roofing projects in Newark range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing for Newark NJ commercial buildings -- chemical-resistant membrane for restaurants, industrial facilities, and fire-rated assemblies.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

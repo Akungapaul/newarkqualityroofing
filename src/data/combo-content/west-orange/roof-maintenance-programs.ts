@@ -4,7 +4,7 @@ export const westOrangeRoofMaintenancePrograms: ComboContent = {
   serviceId: 'roof-maintenance-programs',
   cityId: 'west-orange',
   overview: [
-    'A roof maintenance program in West Orange must account for the township\'s three elevation zones that each present distinct seasonal maintenance demands. Valley-floor homes around Pleasant Valley require spring drainage clearing and gutter service after winter debris accumulation. Mid-slope properties along Gregory Avenue need pre-winter ice dam prevention checks and insulation assessments. Ridge-top homes near Eagle Rock demand post-storm wind-damage inspections after every significant nor\'easter. Our [roof maintenance programs](/roof-maintenance-programs) structure these zone-specific tasks into scheduled service plans that prevent small issues from becoming emergency repairs.',
+    'Newark Quality Roofing delivers expert roof maintenance programs in West Orange — with prices starting from $250–$600/year and free estimates available today. A roof maintenance program in West Orange must account for the township\'s three elevation zones that each present distinct seasonal maintenance demands. Valley-floor homes around Pleasant Valley require spring drainage clearing and gutter service after winter debris accumulation. Mid-slope properties along Gregory Avenue need pre-winter ice dam prevention checks and insulation assessments. Ridge-top homes near Eagle Rock demand post-storm wind-damage inspections after every significant nor\'easter. Our [roof maintenance programs](/roof-maintenance-programs) structure these zone-specific tasks into scheduled service plans that prevent small issues from becoming emergency repairs.',
     'West Orange homeowners who invest in preventive maintenance save significantly over the roof lifecycle. The township\'s demanding climate -- wind exposure on the ridge, ice damming at mid-slope, moisture retention in the valley -- accelerates deterioration on neglected roofs at rates substantially higher than sheltered suburban communities. A split-level in Gregory that receives annual maintenance typically achieves 22 to 25 years from an architectural shingle installation. The identical home with no maintenance program rarely exceeds 17 years. That five-to-eight-year difference represents $15,000 to $25,000 in avoided premature replacement cost.',
     'Our West Orange maintenance program addresses the specific challenges that the township\'s mature tree canopy creates. Properties near South Mountain Reservation and throughout the Crystal Lake and Hutton Park neighborhoods contend with heavy leaf fall, branch debris, and biological growth that shorten roofing material lifespan. Moss colonies, if left unchecked through even a single growing season, establish root networks that physically compromise shingle integrity. Homeowners in neighboring [Cedar Grove](/roof-maintenance-programs-cedar-grove-nj) share this tree canopy challenge along the northern Watchung slope.',
     'Maintenance scheduling in West Orange follows a seasonal calendar calibrated to the township\'s elevation-driven weather patterns. Spring visits address winter damage -- ice dam residue, frost-heaved flashings, and saturated insulation from snowmelt infiltration. Fall visits prepare for storm season: securing loose ridge caps, clearing debris from valleys and gutters, and verifying that ice-and-water shield remains intact at vulnerable eave lines. These [West Orange](/roofing-in-west-orange-nj) maintenance visits prevent the cascading failures that turn a $200 maintenance task into a $5,000 emergency repair.'
@@ -35,7 +35,25 @@ export const westOrangeRoofMaintenancePrograms: ComboContent = {
     {
       question: 'Do you offer maintenance programs for commercial properties in West Orange?',
       answer: 'Yes. Commercial maintenance programs cover the flat-roof and low-slope systems common on West Orange\'s commercial corridor along Pleasant Valley Way and Eagle Rock Avenue. Commercial visits include membrane seam inspection, drain clearing, ponding water assessment, mechanical equipment curb inspection, and flashing condition review. We provide detailed condition reports that help property managers budget for capital expenditures and maintain compliance with warranty maintenance requirements that many commercial membrane manufacturers mandate.'
-    }
+    },
+    {
+      question: 'How much does roof maintenance programs cost in West Orange, NJ?',
+      answer: 'Most roof maintenance programs projects in West Orange range from $250–$600/year. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'West Orange NJ roof maintenance programs by elevation zone. Scheduled inspections, debris clearing, and preventive care from valley to ridge.',
+  pricing: {
+    range: '$250–$600/year',
+    note: 'annual maintenance plan pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof maintenance programs estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

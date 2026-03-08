@@ -4,7 +4,7 @@ export const newarkHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'newark',
   overview: [
-    'Hail events in Newark tend to arrive embedded within severe thunderstorm cells that sweep across Essex County during late spring and summer months. Unlike the sustained hailstorms that pummel Midwestern cities, Newark\'s hail exposure is typically brief but intense -- 10 to 20 minutes of stones driven by high winds that create directional impact patterns across roof surfaces. These storms often catch property owners by surprise, and the damage they produce can be subtle enough to go undetected for months while granule loss and micro-fractures silently shorten the roof\'s remaining life.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Newark — with prices starting from $500–$2,500 and free estimates available today. Hail events in Newark tend to arrive embedded within severe thunderstorm cells that sweep across Essex County during late spring and summer months. Unlike the sustained hailstorms that pummel Midwestern cities, Newark\'s hail exposure is typically brief but intense -- 10 to 20 minutes of stones driven by high winds that create directional impact patterns across roof surfaces. These storms often catch property owners by surprise, and the damage they produce can be subtle enough to go undetected for months while granule loss and micro-fractures silently shorten the roof\'s remaining life.',
     'The diversity of roofing materials across Newark\'s neighborhoods means that hail impacts produce different types of damage depending on where the storm tracks. Asphalt shingle roofs across Vailsburg and the South Ward sustain granule displacement and substrate bruising that may not be visible from ground level. Slate installations on Forest Hill\'s historic homes can crack under hail impact, creating moisture entry points masked by the intact appearance of surrounding tiles. Flat-roof membranes on commercial buildings in the Ironbound develop surface pitting and, in severe cases, punctures that admit water slowly through the insulation layer below.',
     'Insurance documentation is central to the hail damage repair process in Newark. Hail damage claims require evidence that links observed roof damage to a specific weather event -- timestamped storm data, directional impact patterns consistent with recorded wind direction, and damage characteristics that match hailstone size. Our assessment protocol produces this evidence systematically, creating claim packages that satisfy adjuster requirements and withstand the scrutiny that insurance companies apply to hail claims in urban areas where roof age and deferred maintenance can complicate damage attribution.',
     'For property owners managing multiple buildings across Newark -- a common profile among investors in the North Ward and Central Ward -- a single hail event can produce damage across an entire portfolio simultaneously. Our multi-property hail assessment service inspects all buildings in a portfolio after a confirmed hail event, produces individual damage reports for each property, and coordinates insurance claims as a batch. This consolidated approach reduces the owner\'s administrative burden and ensures consistent documentation quality across all claims.'
@@ -39,7 +39,25 @@ export const newarkHailDamageRoofRepair: ComboContent = {
     {
       question: 'Do I need to get multiple estimates for hail damage repair on my Newark property?',
       answer: 'Your insurance company may recommend multiple estimates, but most New Jersey homeowner policies allow you to choose your own contractor. What matters more than the number of estimates is the quality of the damage documentation supporting the repair scope. Our estimates include detailed damage mapping, test-square impact counts, photographic evidence keyed to roof diagrams, and material specifications that align with manufacturer standards. This documentation-first approach produces estimates that withstand adjuster scrutiny and supports fair claim settlement. We also meet with your insurance adjuster on-site during their inspection to ensure all damage areas are included in the approved scope.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in Newark, NJ?',
+      answer: 'Most hail damage roof repair projects in Newark range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Newark NJ -- insurance-documented assessments, impact density testing, and repairs for shingle, slate, and commercial membrane roofs.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

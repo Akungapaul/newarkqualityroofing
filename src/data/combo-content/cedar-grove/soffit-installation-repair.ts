@@ -4,7 +4,7 @@ export const cedarGroveSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Soffit installation and repair in Cedar Grove maintains the critical attic ventilation intake that prevents moisture damage, ice dam formation, and premature roof deterioration on the township\'s ranch and colonial homes. The soffit panels enclosing the underside of roof overhangs serve as the primary air intake pathway for attic ventilation -- a function that becomes especially important on Cedar Grove\'s low-pitch ranch homes where shallow attic volumes and limited ridge height restrict natural convection and make every soffit vent opening essential for adequate airflow.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Cedar Grove — with prices starting from $1,500–$4,000 and free estimates available today. Soffit installation and repair in Cedar Grove maintains the critical attic ventilation intake that prevents moisture damage, ice dam formation, and premature roof deterioration on the township\'s ranch and colonial homes. The soffit panels enclosing the underside of roof overhangs serve as the primary air intake pathway for attic ventilation -- a function that becomes especially important on Cedar Grove\'s low-pitch ranch homes where shallow attic volumes and limited ridge height restrict natural convection and make every soffit vent opening essential for adequate airflow.',
     'Cedar Grove\'s original 1960s ranch construction typically used plywood or hardboard soffit panels with minimal ventilation openings. After sixty years of weather exposure in the township\'s humid, shaded environment, these materials have swollen, delaminated, and rotted, compromising both the ventilation function and the appearance of the roofline. Our [soffit installation](/soffit-installation-repair) replacement projects upgrade Cedar Grove homes to vented aluminum or vinyl soffit panels that provide continuous ventilation across the entire eave span while eliminating the maintenance burden of wood-based soffit materials.',
     'Damaged soffits on Cedar Grove homes create wildlife entry points that the township\'s suburban wildlife population exploits aggressively. Squirrels, raccoons, starlings, and bats enter attic spaces through deteriorated soffit panels, creating noise, odor, and insulation damage. Replacing compromised soffits with durable, properly sealed panels eliminates these entry points while restoring the ventilation capacity that Cedar Grove\'s attic spaces require for healthy roof performance.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveSoffitInstallationRepair: ComboContent = {
       question: 'Can animals get into my attic through damaged soffits?',
       answer: 'Yes. Gaps in deteriorated soffit panels are the most common wildlife entry point on Cedar Grove homes. Squirrels and raccoons can enlarge small openings in softened wood or hardboard, and birds and bats enter through gaps as small as a half inch. Soffit replacement with durable aluminum or vinyl panels, properly trimmed and sealed at all connections, eliminates these entry points while maintaining the ventilation airflow that the attic requires.',
     },
+    {
+      question: 'How much does soffit installation repair cost in Cedar Grove, NJ?',
+      answer: 'Most soffit installation repair projects in Cedar Grove range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Cedar Grove NJ -- vented aluminum and vinyl soffits for ranch home ventilation and wildlife exclusion.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

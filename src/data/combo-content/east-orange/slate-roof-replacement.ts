@@ -4,7 +4,7 @@ export const eastOrangeSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Slate roof replacement in East Orange preserves the most distinctive roofing character on the city\'s Victorian-era homes -- the natural stone surfaces that define the grand residences along Prospect Street, the ornamental patterns on Queen Anne homes in Elmwood Park, and the utilitarian slate on workers\' cottages that carried the most durable roofing material available when they were built in the late 1800s. When original slate reaches the end of its century-long service life -- individual tiles delaminating, hanging nails corroding through, underlying flashings disintegrating -- [slate replacement](/slate-roof-replacement) renews the building\'s most permanent architectural element.',
+    'Newark Quality Roofing delivers expert slate roof replacement in East Orange — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in East Orange preserves the most distinctive roofing character on the city\'s Victorian-era homes -- the natural stone surfaces that define the grand residences along Prospect Street, the ornamental patterns on Queen Anne homes in Elmwood Park, and the utilitarian slate on workers\' cottages that carried the most durable roofing material available when they were built in the late 1800s. When original slate reaches the end of its century-long service life -- individual tiles delaminating, hanging nails corroding through, underlying flashings disintegrating -- [slate replacement](/slate-roof-replacement) renews the building\'s most permanent architectural element.',
     'The replacement decision on East Orange slate roofs involves a fundamental choice: natural slate that maintains historic authenticity and delivers another century of service, or synthetic slate that provides similar appearance at significantly lower cost and weight. For buildings in the Elmwood Park Historic District or properties pursuing historic tax credits, natural slate is typically required. For non-designated East Orange buildings where the owner values the slate appearance without the historic preservation mandate, synthetic slate products provide a visually similar alternative at 40 to 60 percent of natural slate installed cost.',
     'Natural slate replacement on East Orange buildings is among the most expensive residential roofing investments, with installed costs of $20 to $40 per square foot depending on slate type, roof complexity, and structural preparation requirements. This investment delivers 75 to 150 years of service -- the longest lifespan of any roofing material. On a per-year basis, slate roof cost often falls below asphalt shingle cost when calculated across the slate\'s full service life. Property owners in [Millburn](/slate-roof-replacement-millburn-nj) and [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) make similar investment calculations on their historic slate-roofed homes.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeSlateRoofReplacement: ComboContent = {
     {
       question: 'Does slate roof replacement qualify for historic tax credits on my East Orange home?',
       answer: 'If your property is listed on or eligible for the National Register of Historic Places, slate roof replacement using historically appropriate materials and techniques may qualify for federal and New Jersey historic rehabilitation tax credits. The credit can offset 20 percent or more of the qualified rehabilitation cost. Application must be submitted before work begins, and the installation must meet Secretary of the Interior\'s Standards. We coordinate with preservation consultants on qualifying projects.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in East Orange, NJ?',
+      answer: 'Most slate roof replacement projects in East Orange range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement for East Orange NJ Victorian homes -- natural and synthetic slate options, historic preservation, and century-long roofing investment.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

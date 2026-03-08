@@ -4,7 +4,7 @@ export const millburnRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'millburn',
   overview: [
-    'Roof replacement after chronic leaking on Millburn estates becomes necessary when repeated repairs have failed to resolve persistent water intrusion -- a threshold crossed when the underlying roofing system has deteriorated beyond the point where targeted intervention can restore reliable weather protection. On Short Hills and Wyoming properties where previous repairs addressed individual leak symptoms without resolving the systemic conditions producing them, the cumulative repair investment may approach or exceed the cost of replacement while the leaks continue damaging increasingly expensive interior finishes.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Millburn — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after chronic leaking on Millburn estates becomes necessary when repeated repairs have failed to resolve persistent water intrusion -- a threshold crossed when the underlying roofing system has deteriorated beyond the point where targeted intervention can restore reliable weather protection. On Short Hills and Wyoming properties where previous repairs addressed individual leak symptoms without resolving the systemic conditions producing them, the cumulative repair investment may approach or exceed the cost of replacement while the leaks continue damaging increasingly expensive interior finishes.',
     'The decision to transition from repair to replacement is a financial and practical judgment that our assessment helps Millburn homeowners make with objective data. We evaluate the extent of existing damage, the history of previous repairs, the probable remaining service life of the undamaged sections, and the total cost of continued repair versus one-time replacement. When the analysis indicates that replacement delivers better value and reliability than ongoing repair, we present the comparison transparently so the homeowner can make an informed decision.',
     'Replacement after chronic leaking on Millburn estates includes remediation of the interior and structural damage that the leaking produced -- a scope component that distinguishes post-leak replacement from planned aging-roof replacement. Moisture-saturated insulation, mold-affected framing, water-damaged ceiling and wall finishes, and corroded electrical or plumbing components within the damage zone must all be addressed as part of the project. Our [roof replacement after leak](/roof-replacement-after-leak) scope integrates these remediation elements with the roofing replacement to restore the complete building assembly rather than merely installing a new roof over damage left unaddressed.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Can the interior damage be repaired as part of the same project?',
       answer: 'The roofing scope includes all damage within the roof assembly -- deck, insulation, framing. Interior finish damage -- ceilings, walls, paint -- is typically restored by the homeowner\'s interior contractors after the new roof eliminates the moisture source. We coordinate the timeline so interior restoration can begin promptly after the roofing project reaches the watertight stage, and we document the damage extent to support insurance claims for the interior component.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Millburn, NJ?',
+      answer: 'Most roof replacement after leak projects in Millburn range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after chronic leaks for Millburn estates. Moisture remediation, structural repair, and full re-roofing to resolve persistent water intrusion.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

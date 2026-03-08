@@ -4,7 +4,7 @@ export const cedarGroveRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'cedar-grove',
   overview: [
-    'Roof overlay installation in Cedar Grove offers a cost-effective alternative to full tear-off when the existing single-layer shingle roof is in fair condition and the underlying deck is sound. By installing new architectural shingles directly over the existing layer, Cedar Grove homeowners save the labor cost of stripping, the disposal fees for removed material, and the time required for deck inspection and repair -- reducing total project cost by fifteen to twenty-five percent compared to tear-off replacement.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Cedar Grove — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Cedar Grove offers a cost-effective alternative to full tear-off when the existing single-layer shingle roof is in fair condition and the underlying deck is sound. By installing new architectural shingles directly over the existing layer, Cedar Grove homeowners save the labor cost of stripping, the disposal fees for removed material, and the time required for deck inspection and repair -- reducing total project cost by fifteen to twenty-five percent compared to tear-off replacement.',
     'Our [roof overlay](/roof-overlay-installation) assessments for Cedar Grove homes evaluate whether overlay is technically appropriate for each specific property. The existing roof must have only one layer of shingles, the deck must be structurally sound without visible sagging or soft spots, and the existing shingles must lay flat enough to provide a smooth substrate for the new layer. Cedar Grove ranch homes with low-pitch roofs require particularly careful evaluation because moisture retention on shallow slopes increases the risk of concealed deck damage that overlay would hide.',
     'Cedar Grove homeowners considering overlay should understand the tradeoffs. While the cost savings are real, overlay adds weight to the roof structure, reduces the new shingle lifespan by approximately fifteen to twenty percent due to heat retention between layers, and conceals any deck damage that may exist beneath the existing shingles. For Cedar Grove properties where these tradeoffs are acceptable, overlay provides a practical, economical roofing solution.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofOverlayInstallation: ComboContent = {
       question: 'Can I add ice-and-water shield during an overlay installation?',
       answer: 'Ice-and-water shield requires adhesion to a clean deck surface and cannot be effectively installed over existing shingles. This is a significant consideration for Cedar Grove ranch homes prone to ice dams, where eave-zone ice-and-water shield provides critical protection. If ice dam protection is a priority, tear-off installation allows proper ice-and-water shield application at the eaves.',
     },
+    {
+      question: 'How much does roof overlay installation cost in Cedar Grove, NJ?',
+      answer: 'Most roof overlay installation projects in Cedar Grove range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Cedar Grove NJ -- cost-effective second-layer shingle installation for ranch homes with sound existing roofs.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

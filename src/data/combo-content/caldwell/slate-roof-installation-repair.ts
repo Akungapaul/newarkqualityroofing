@@ -4,7 +4,7 @@ export const caldwellSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Slate roofing in Caldwell occupies a narrow but meaningful niche within the borough\'s residential landscape. While colonials and capes from the postwar era predominantly wear asphalt shingles, a handful of older homes predating the 1950s construction boom carry original slate installations that have endured for seventy-five years or more. These homes -- scattered along the older streets closer to downtown Caldwell and near Bloomfield Avenue -- represent the architectural heritage of the borough before suburban development standardized the building stock. Maintaining their slate roofs preserves both the individual home character and the historical texture that gives Caldwell depth beyond its mid-century suburban identity.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Caldwell — with prices starting from $20,000–$45,000 and free estimates available today. Slate roofing in Caldwell occupies a narrow but meaningful niche within the borough\'s residential landscape. While colonials and capes from the postwar era predominantly wear asphalt shingles, a handful of older homes predating the 1950s construction boom carry original slate installations that have endured for seventy-five years or more. These homes -- scattered along the older streets closer to downtown Caldwell and near Bloomfield Avenue -- represent the architectural heritage of the borough before suburban development standardized the building stock. Maintaining their slate roofs preserves both the individual home character and the historical texture that gives Caldwell depth beyond its mid-century suburban identity.',
     'New slate installation on existing Caldwell homes is uncommon but not unprecedented. Homeowners renovating older properties or building custom additions sometimes choose slate to maintain architectural consistency or to make a distinctive material statement on their street. The structural requirements for natural slate -- a roof framing system capable of supporting twelve to fifteen pounds per square foot compared to three pounds for asphalt shingles -- limit retrofit candidates to homes with robust original framing or those undergoing structural renovation that can accommodate the additional load. Our [slate roof installation and repair](/slate-roof-installation-repair) team evaluates structural capacity as the first step in any Caldwell slate project.',
     'Slate repair on existing Caldwell installations requires the specialized skills and salvage material sourcing that distinguish slate work from standard roofing. Individual broken or slipped slates can be replaced without disturbing the surrounding installation, using the slate hook method that slides a new slate into position and secures it with a copper tab visible only from below. The replacement slate must match the original in thickness, exposure, and color -- a requirement that often means sourcing from salvage suppliers or matching to new quarry stock that approximates the weathered appearance of the existing field. Homeowners in [Montclair](/slate-roof-installation-repair-montclair-nj) and [Glen Ridge](/slate-roof-installation-repair-glen-ridge-nj) maintain much larger inventories of historic slate but Caldwell\'s few slate roofs deserve the same preservation attention.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'How much does slate roof repair cost in Caldwell?',
       answer: 'Individual slate replacement typically costs two hundred to four hundred dollars per slate including material sourcing, crew mobilization, and installation. Valley or chimney flashing replacement on a slate roof runs two thousand to five thousand dollars depending on the flashing length and the number of slates that must be lifted and reset. These costs reflect the specialized labor and material requirements that distinguish slate work from standard roofing. For homes with multiple repair needs, we bundle work into a single visit to reduce the per-item mobilization cost.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Caldwell, NJ?',
+      answer: 'Most slate roof installation repair projects in Caldwell range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Caldwell NJ -- traditional hook replacement, copper flashing, and salvage slate sourcing for historic homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

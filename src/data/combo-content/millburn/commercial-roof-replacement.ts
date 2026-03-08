@@ -4,7 +4,7 @@ export const millburnCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Commercial roof replacement in Millburn requires project management that coordinates the technical scope of a full re-roofing project with the operational continuity that professional tenants demand. The boutique commercial buildings along Millburn Avenue, the professional office complexes near the train station, and the institutional facilities throughout the township house businesses and services whose operations generate revenue every day the building is occupied. A replacement project that disrupts these operations through leaks, noise, debris, or access restrictions costs the building owner not just the construction expense but the tenant-relationship damage that poorly managed construction inflicts.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Millburn — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Millburn requires project management that coordinates the technical scope of a full re-roofing project with the operational continuity that professional tenants demand. The boutique commercial buildings along Millburn Avenue, the professional office complexes near the train station, and the institutional facilities throughout the township house businesses and services whose operations generate revenue every day the building is occupied. A replacement project that disrupts these operations through leaks, noise, debris, or access restrictions costs the building owner not just the construction expense but the tenant-relationship damage that poorly managed construction inflicts.',
     'Our [commercial roof replacement](/commercial-roof-replacement) practice for Millburn properties begins with the recognition that the roofing project exists within a business context. The project schedule must accommodate tenant lease obligations, seasonal business cycles, and the specific operational sensitivities of each tenant. A medical practice needs quiet during patient hours. A retail shop needs unimpeded storefront access during holiday seasons. A restaurant needs functioning kitchen exhaust during dinner service. These constraints shape the project schedule, phasing plan, and daily work windows that define how the replacement is executed.',
     'Material selection for Millburn commercial roof replacement balances lifecycle cost, energy performance, and maintenance requirements against the building owner\'s investment horizon and operating-expense priorities. A property owner planning to hold a Millburn Avenue building for twenty years evaluates roofing options differently than an investor preparing for a five-year sale. We present replacement options with lifecycle cost analyses calibrated to each owner\'s specific holding period, maintenance capability, and energy-performance objectives -- not generic product comparisons that ignore the business context of the investment decision.'
   ],
@@ -34,7 +34,25 @@ export const millburnCommercialRoofReplacement: ComboContent = {
     {
       question: 'What warranties are available on a commercial roof replacement?',
       answer: 'Comprehensive commercial warranties include the manufacturer\'s material and system warranty -- typically twenty to thirty years for premium systems -- plus our installation workmanship warranty. The manufacturer\'s warranty covers material defects and system failures, while our warranty covers installation quality. We specify only manufacturer systems that include labor coverage in their warranty, so the building owner has a single point of warranty service for any covered issue.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Millburn, NJ?',
+      answer: 'Most commercial roof replacement projects in Millburn range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement for Millburn offices and retail buildings. Phased installation with tenant coordination, lifecycle cost analysis, and full.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

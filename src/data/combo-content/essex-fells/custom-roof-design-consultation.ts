@@ -4,7 +4,7 @@ export const essexFellsCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'essex-fells',
   overview: [
-    'Custom roof design consultation in Essex Fells is not an optional add-on service -- it is the foundation of every significant roofing project in a borough where architect involvement is standard practice and material specification determines estate architectural integrity. New construction, major renovations, and even substantial repair projects on Essex Fells properties involve design professionals who expect their roofing contractor to participate as a technical collaborator, contributing material knowledge, installation expertise, and structural feasibility input to the design process before any specification is finalized.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Essex Fells — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Essex Fells is not an optional add-on service -- it is the foundation of every significant roofing project in a borough where architect involvement is standard practice and material specification determines estate architectural integrity. New construction, major renovations, and even substantial repair projects on Essex Fells properties involve design professionals who expect their roofing contractor to participate as a technical collaborator, contributing material knowledge, installation expertise, and structural feasibility input to the design process before any specification is finalized.',
     'The complexity of Essex Fells estate roofing -- multi-structure properties with distinct material systems on each building, steep terrain affecting drainage design, mature canopy dictating material selection -- demands consultation depth that single-home residential projects never require. A roof design engagement on a Fells Road estate might address natural slate specification for the main residence, standing-seam copper for the carriage house, cedar shake for the guest cottage, and TPO for the pool pavilion, while ensuring that the drainage systems for all four structures integrate into the property\'s overall water management plan. This is architecture-scale roofing design, not product selection.',
     'Our [custom roof design and consultation](/custom-roof-design-consultation) practice in Essex Fells has evolved through decades of collaboration with the architects, builders, and landscape professionals who serve the borough\'s estate market. We bring fabrication shop capability, regional material sourcing networks, and installation technique knowledge to the design table -- the practical expertise that transforms architectural vision into buildable roofing specifications. Architects in neighboring [Montclair](/custom-roof-design-consultation-montclair-nj) and throughout Essex County engage our consultation services specifically because we understand how design intent translates through material procurement, fabrication, and field installation into the finished roof surface.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Can you source custom or discontinued roofing materials specified in consultation?',
       answer: 'Our sourcing network includes domestic quarries, European slate and tile importers, architectural salvage firms, custom sheet metal fabricators, and specialty wood shake mills. We have procured Vermont unfading green slate, imported Welsh blue-gray slate, custom-glazed Ludowici tile, and hand-forged copper ornamental work for Essex Fells estate projects. When specified materials are genuinely unavailable, we present alternatives with the closest visual and performance characteristics, verified against the original specification through physical sample comparison.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Essex Fells, NJ?',
+      answer: 'Most custom roof design consultation projects in Essex Fells range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Essex Fells NJ -- architect collaboration, material specification, and estate-scale roofing design.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

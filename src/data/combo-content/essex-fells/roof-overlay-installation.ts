@@ -4,7 +4,7 @@ export const essexFellsRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'essex-fells',
   overview: [
-    'Roof overlay installation in Essex Fells applies primarily to the asphalt shingle roofs on the borough\'s secondary structures where installing a new shingle layer over an existing single layer provides a cost-effective re-roofing option. While the primary residences in Essex Fells typically feature slate, cedar shake, or copper roofing that does not accommodate overlay, garage buildings, garden structures, and occasional guest cottages with architectural shingle roofs can receive overlay installation when the existing single layer remains well-adhered and structurally sound.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Essex Fells — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Essex Fells applies primarily to the asphalt shingle roofs on the borough\'s secondary structures where installing a new shingle layer over an existing single layer provides a cost-effective re-roofing option. While the primary residences in Essex Fells typically feature slate, cedar shake, or copper roofing that does not accommodate overlay, garage buildings, garden structures, and occasional guest cottages with architectural shingle roofs can receive overlay installation when the existing single layer remains well-adhered and structurally sound.',
     'The overlay decision on Essex Fells properties must weigh the cost savings against the limitations overlay imposes on the new roof system. Overlay adds weight to the existing structure without revealing deck conditions beneath. It shortens the new shingle lifespan relative to installation over clean deck. And it creates a thicker roof edge profile that requires flashing and trim adjustments. For estate auxiliary structures where these limitations are acceptable, overlay provides a practical re-roofing option that reduces cost, construction duration, and debris generation compared to full tear-off and replacement.',
     'Our overlay assessment evaluates whether the specific structure and existing roof condition support successful overlay installation. We probe the existing shingles for adhesion, inspect the deck from below for moisture damage, verify that the structure carries only a single existing layer, and confirm that local building code permits overlay at the specific roof configuration. Properties where assessment reveals conditions unsuitable for overlay receive our [full roof tear-off](/full-roof-tear-off) recommendation with the specific conditions driving that determination.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRoofOverlayInstallation: ComboContent = {
     {
       question: 'How long does an overlay roof last compared to installation on clean deck?',
       answer: 'Overlay installations typically achieve eighty to ninety percent of the lifespan of the same shingles installed on clean deck. The reduction results from the slightly less stable substrate, the increased heat retention from the double-layer assembly, and the inability to address minor deck irregularities beneath the existing layer. For Essex Fells auxiliary structures where the cost savings of overlay are meaningful and the reduced lifespan is acceptable, overlay provides a practical re-roofing solution.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Essex Fells, NJ?',
+      answer: 'Most roof overlay installation projects in Essex Fells range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Essex Fells NJ -- cost-effective re-roofing for estate auxiliary structures over existing shingles.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'montclair',
   overview: [
-    'Wood shake roofing in Montclair finds its natural habitat on the township\'s Arts & Crafts bungalows and Craftsman-influenced homes, where the material\'s hand-split texture and organic irregularity complement the movement\'s aesthetic philosophy of handcraft over machine precision. The broad sheltering eaves, exposed rafter tails, and earthen color palettes of Montclair\'s Craftsman homes in the Watchung Plaza and South End neighborhoods call for a roofing material that looks as though it was shaped by hand and weathered by decades of mountain exposure -- a visual that no manufactured product convincingly replicates. Cedar and other wood shakes deliver that authentic character along with genuine thermal insulation properties that Montclair\'s colder ridge-elevation climate makes relevant.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Montclair — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Montclair finds its natural habitat on the township\'s Arts & Crafts bungalows and Craftsman-influenced homes, where the material\'s hand-split texture and organic irregularity complement the movement\'s aesthetic philosophy of handcraft over machine precision. The broad sheltering eaves, exposed rafter tails, and earthen color palettes of Montclair\'s Craftsman homes in the Watchung Plaza and South End neighborhoods call for a roofing material that looks as though it was shaped by hand and weathered by decades of mountain exposure -- a visual that no manufactured product convincingly replicates. Cedar and other wood shakes deliver that authentic character along with genuine thermal insulation properties that Montclair\'s colder ridge-elevation climate makes relevant.',
     'Tudor Revival homes in Montclair occasionally feature original or historically appropriate wood shake roofs, particularly on secondary roof planes, porch covers, and architectural features where the rustic texture contrasts with the primary slate or shingle field. These accent applications demand even more precise material quality and installation skill than full-roof installations because the shake work is visible at close range from porches, walkways, and neighboring properties. The shake quality, cut consistency, and weathering behavior must complement rather than conflict with the home\'s primary roof material.',
     'Environmental performance of wood shake under Montclair\'s canopy creates both advantages and maintenance obligations. The natural ventilation provided by shake\'s irregular thickness and installation spacing promotes airflow beneath the roof surface, reducing moisture accumulation that plagues solid-surface materials under heavy canopy shade. However, the same organic composition that makes wood shake visually compatible with Montclair\'s tree-rich streetscape also makes it a substrate for the moss, lichen, and fungal growth that thrive in the township\'s shaded microclimate. Untreated wood shake under Montclair\'s canopy will develop surface colonization within three to five years of installation, requiring the preservative treatment cycle that is the material\'s defining maintenance obligation.'
   ],
@@ -34,7 +34,25 @@ export const montclairWoodShakeRoofing: ComboContent = {
     {
       question: 'Can I install wood shake on my Montclair Tudor or Victorian?',
       answer: 'Wood shake is architecturally appropriate on Arts and Crafts, Craftsman, and rustic-influenced homes. On Tudor Revival homes, shake works well as an accent material on secondary roof planes and porch covers. On Victorians, shake was not a typical original material -- slate and wood shingle were the period standards. We can install shake on any structurally suitable Montclair home, but for historically designated properties, the HPC may require materials consistent with the original architectural specification. We advise on appropriateness during the consultation phase.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Montclair, NJ?',
+      answer: 'Most wood shake roofing projects in Montclair range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Montclair NJ -- fire-rated cedar for Craftsman bungalows, canopy-climate maintenance, and steep-slope installation.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

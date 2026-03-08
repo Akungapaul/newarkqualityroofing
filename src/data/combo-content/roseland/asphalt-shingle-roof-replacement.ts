@@ -4,7 +4,7 @@ export const roselandAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Asphalt shingle roof replacement is the most common re-roofing project on Roseland homes, reflecting both the prevalence of shingle roofs throughout the borough and the material\'s proven performance-to-cost ratio for residential applications. When existing architectural or three-tab shingles reach end-of-life, replacement with current-generation architectural shingles delivers dramatic improvement in wind resistance, impact performance, and warranty coverage compared to the products installed 20 to 30 years ago. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) service provides Roseland homeowners with access to the premium product lines from GAF, Owens Corning, and CertainTeed.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Roseland — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common re-roofing project on Roseland homes, reflecting both the prevalence of shingle roofs throughout the borough and the material\'s proven performance-to-cost ratio for residential applications. When existing architectural or three-tab shingles reach end-of-life, replacement with current-generation architectural shingles delivers dramatic improvement in wind resistance, impact performance, and warranty coverage compared to the products installed 20 to 30 years ago. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) service provides Roseland homeowners with access to the premium product lines from GAF, Owens Corning, and CertainTeed.',
     'Product evolution since most Roseland roofs were last shingled has been substantial. Current heavyweight architectural shingles carry 130-mph wind ratings, Class 4 impact resistance options, and algae-resistant granule formulations that the previous generation lacked. SBS-modified asphalt bases maintain flexibility through freeze-thaw cycles that crack standard oxidized-asphalt products. Enhanced warrantyy structures including manufacturer-backed system warranties cover both material and labor when certified contractors install the complete system. These improvements justify the investment in current products.',
     'Color and profile selection for Roseland replacement shingles should complement the home\'s existing siding, trim, and neighborhood context. The earth tones and slate-inspired blends that dominate Roseland\'s residential aesthetic are well-represented in every major manufacturer\'s palette. We bring physical sample boards to the home for evaluation in natural light rather than relying on printed color charts that cannot accurately represent the installed appearance. Homeowners in [Verona](/asphalt-shingle-roof-replacement-verona-nj) make similar color decisions within their community\'s established aesthetic.'
   ],
@@ -34,7 +34,25 @@ export const roselandAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Can I see the shingle colors on an actual Roseland home before choosing?',
       answer: 'We can provide references to recently completed Roseland projects using each color option you are considering. Seeing the product installed on a nearby home in similar lighting conditions provides the most accurate color representation. We also bring physical sample boards to your property for evaluation under your specific lighting conditions, which differs from showroom or website images that can misrepresent installed appearance.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Roseland, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Roseland range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Roseland NJ -- GAF, Owens Corning, and CertainTeed premium shingles with certified installation.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

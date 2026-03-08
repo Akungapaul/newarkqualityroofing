@@ -4,7 +4,7 @@ export const westOrangeRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'west-orange',
   overview: [
-    'Roof inspections in West Orange demand a geographic awareness that flat-terrain communities never require. The township\'s 500-foot elevation range creates three distinct inspection zones: valley-floor properties around Pleasant Valley that face moisture retention and drainage issues, mid-slope homes along Main Street and Gregory Avenue where ice dam risk peaks, and ridge-top estates near Eagle Rock where wind exposure dominates the damage profile. Our [roof inspection](/roof-inspection) methodology adapts to each zone, focusing diagnostic attention on the failure modes that elevation makes most likely.',
+    'Newark Quality Roofing delivers expert roof inspection in West Orange — with prices starting from $150–$400 and free estimates available today. Roof inspections in West Orange demand a geographic awareness that flat-terrain communities never require. The township\'s 500-foot elevation range creates three distinct inspection zones: valley-floor properties around Pleasant Valley that face moisture retention and drainage issues, mid-slope homes along Main Street and Gregory Avenue where ice dam risk peaks, and ridge-top estates near Eagle Rock where wind exposure dominates the damage profile. Our [roof inspection](/roof-inspection) methodology adapts to each zone, focusing diagnostic attention on the failure modes that elevation makes most likely.',
     'West Orange\'s diverse housing stock adds architectural complexity to every inspection. A thorough assessment of a 1960s split-level in Crystal Lake involves checking the multi-plane transitions and cricket flashings that define that era\'s roofing challenges. An inspection on a Llewellyn Park estate means evaluating century-old slate installations, hand-formed copper flashings, and decorative ridge details that modern building codes never contemplated. The same inspector who reviews a valley-floor ranch needs entirely different expertise ten minutes uphill at a St. Cloud Tudor revival.',
     'We perform more pre-purchase roof inspections in West Orange than in any other Essex County township, driven by the wide price range of housing stock and the elevation-dependent condition variance that surprises buyers unfamiliar with terrain effects. A home that looks pristine from the curb may carry hidden wind damage on its ridge-facing planes or ice dam deterioration on north-facing slopes invisible from ground level. Real estate agents in neighboring [Montclair](/roof-inspection-montclair-nj) refer clients to us specifically for our elevation-aware assessment protocol that catches terrain-driven damage patterns.',
     'Annual inspections matter more in West Orange than in sheltered communities because the township\'s storm exposure accelerates wear on every roofing component. Ridge-top homes should be inspected after every major nor\'easter and after summer hail events. Valley-floor homes benefit from spring inspections that catch winter ice dam damage before the wet season compounds it. Our inspection program for [West Orange](/roofing-in-west-orange-nj) homeowners includes elevation-specific scheduling recommendations that align inspection timing with the seasonal threats each property faces.'
@@ -35,7 +35,25 @@ export const westOrangeRoofInspection: ComboContent = {
     {
       question: 'Can you inspect a slate roof on a Llewellyn Park estate?',
       answer: 'Yes. Our inspectors are trained in historic slate roof assessment, including identifying slate origin and grade, evaluating individual slate condition using the knuckle-tap resonance test, assessing copper and lead flashing integrity, and documenting decorative elements that require preservation during any future repair work. Llewellyn Park inspections follow a specialized protocol that treats every component as architecturally significant, because on these estates the inspection informs not just maintenance planning but historic preservation strategy.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in West Orange, NJ?',
+      answer: 'Most roof inspection projects in West Orange range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof inspection in West Orange NJ with elevation-zone assessment. Valley, mid-slope, and ridge-top diagnostic protocols for every housing type.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

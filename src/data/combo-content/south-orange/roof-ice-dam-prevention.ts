@@ -4,7 +4,7 @@ export const southOrangeRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'south-orange',
   overview: [
-    'Ice dam prevention in South Orange Village addresses a winter roofing hazard that the community\'s older housing stock and complex roof geometries make particularly acute. The Tudor Revival and Colonial Revival homes throughout Montrose Park, Prospect Street, and Scotland Road feature multi-gable rooflines with valleys, dormers, and varying pitch angles that create the conditions ice dams exploit -- areas where warm air escaping through insufficiently insulated attic spaces melts snow that refreezes at colder roof edges, building ice barriers that force water backward under shingles and into living spaces.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in South Orange — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in South Orange Village addresses a winter roofing hazard that the community\'s older housing stock and complex roof geometries make particularly acute. The Tudor Revival and Colonial Revival homes throughout Montrose Park, Prospect Street, and Scotland Road feature multi-gable rooflines with valleys, dormers, and varying pitch angles that create the conditions ice dams exploit -- areas where warm air escaping through insufficiently insulated attic spaces melts snow that refreezes at colder roof edges, building ice barriers that force water backward under shingles and into living spaces.',
     'South Orange\'s housing stock predates modern building science understanding of the attic ventilation and insulation strategies that prevent ice dam formation. Homes built in the 1910s through 1940s were constructed with minimal attic insulation by contemporary standards, and their roof framing does not accommodate the ventilation pathways that modern construction provides. Retrofitting effective ice dam prevention into these architecturally significant homes requires solutions that improve thermal performance without compromising the exterior character that South Orange homeowners have invested in preserving.',
     'The village\'s location on the western slope approaching South Mountain Reservation exposes many South Orange homes to snow accumulation and wind-driven drifting that compounds ice dam formation on roof surfaces with northern exposure. Homes along the Reservation border and in the elevated Montrose Park section experience heavier snowfall and longer freeze durations than properties on the valley floor, increasing both the frequency and severity of ice dam events during New Jersey winters. Homeowners in neighboring [Maplewood](/roof-ice-dam-prevention-maplewood-nj) face similar elevation-related exposure along the southern slopes.',
     'Our [ice dam prevention](/roof-ice-dam-prevention) approach for South Orange homes prioritizes root-cause remediation -- improving insulation and ventilation to eliminate the thermal conditions that create ice dams -- over symptom-management solutions like heat cables that consume energy and treat the effect without addressing the cause. When insulation and ventilation improvements are physically constrained by the home\'s architecture, we layer prevention strategies that combine improved thermal performance with mechanical backup systems designed for the specific problem areas on each property.'
@@ -35,7 +35,25 @@ export const southOrangeRoofIceDamPrevention: ComboContent = {
     {
       question: 'Will ice dam prevention reduce my heating bills?',
       answer: 'Yes. The air sealing and insulation improvements that prevent ice dams also reduce heat loss from your living space, lowering heating energy consumption. South Orange homeowners who complete comprehensive ice dam prevention typically report noticeable heating cost reductions because the same thermal improvements that keep warmth off the roof deck also keep it inside the home. The energy savings partially offset the prevention investment over subsequent heating seasons.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in South Orange, NJ?',
+      answer: 'Most roof ice dam prevention projects in South Orange range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in South Orange NJ -- root-cause insulation and ventilation solutions for Tudor and Colonial Revival homes.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

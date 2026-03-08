@@ -4,7 +4,7 @@ export const caldwellStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'caldwell',
   overview: [
-    'Storm damage to Caldwell roofs carries a signature that distinguishes it from storm damage in other Essex County municipalities: trees are almost always part of the equation. When thunderstorms roll through this borough, the combination of sustained winds and heavy rain does not just strip shingles and displace flashing -- it sends branches, limbs, and sometimes entire tree sections crashing onto roof surfaces. The aftermath of a significant storm in Caldwell looks different from the aftermath in [Newark](/storm-damage-roof-repair-newark-nj) or [Bloomfield](/storm-damage-roof-repair-bloomfield-nj), where wind damage dominates. Here, the damage inventory typically includes both the direct wind effects on roofing materials and the secondary impact damage from the canopy above.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Caldwell — with prices starting from $500–$3,000 and free estimates available today. Storm damage to Caldwell roofs carries a signature that distinguishes it from storm damage in other Essex County municipalities: trees are almost always part of the equation. When thunderstorms roll through this borough, the combination of sustained winds and heavy rain does not just strip shingles and displace flashing -- it sends branches, limbs, and sometimes entire tree sections crashing onto roof surfaces. The aftermath of a significant storm in Caldwell looks different from the aftermath in [Newark](/storm-damage-roof-repair-newark-nj) or [Bloomfield](/storm-damage-roof-repair-bloomfield-nj), where wind damage dominates. Here, the damage inventory typically includes both the direct wind effects on roofing materials and the secondary impact damage from the canopy above.',
     'Caldwell homeowners experience the full spectrum of New Jersey storm types across the calendar year. Summer thunderstorms bring sudden wind gusts, heavy downpours, and occasional hail. Autumn nor\'easters deliver sustained winds that test every fastener and sealant joint. Winter storms pile heavy wet snow onto roof planes designed for lighter loads, and the freeze-thaw cycles that follow open gaps in compromised flashing. Spring brings the combination of rain volume and saturated soil that makes large trees vulnerable to root failure and toppling. Our [storm damage roof repair](/storm-damage-roof-repair) service addresses all of these damage profiles with the specific understanding of how each storm type manifests on Caldwell housing stock.',
     'Insurance claim navigation is a practical reality for most Caldwell storm damage repairs. Homeowner policies cover wind, hail, and falling object damage, but the claims process requires specific documentation, timely filing, and clear communication with adjusters who may be handling hundreds of claims from a single storm event. We function as the homeowner\'s technical advocate through this process, providing the detailed damage documentation, repair scope specifications, and cost substantiation that adjusters need to approve claims at fair value. Our involvement does not increase the claim amount -- it ensures the legitimate damage is fully documented and properly valued.'
   ],
@@ -34,7 +34,25 @@ export const caldwellStormDamageRoofRepair: ComboContent = {
     {
       question: 'Can you match the shingle color when repairing storm damage on my Caldwell roof?',
       answer: 'We maintain stock of the most common shingle profiles and colors used on Caldwell homes -- GAF Timberline HDZ and CertainTeed Landmark in Weathered Wood, Charcoal, Driftwood, and Pewter Gray. For standard repairs replacing a section of damaged shingles, we can typically provide an exact color match from our inventory without special-order delays. For larger repairs or less common colors, we source the matching product from our distributor network. Insurance claims cover the cost of matching materials, and in cases where the damaged shingle line has been discontinued, coverage may extend to replacing the entire roof slope to maintain consistent appearance.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Caldwell, NJ?',
+      answer: 'Most storm damage roof repair projects in Caldwell range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Caldwell NJ -- tree impact, wind, and hail damage repair with insurance claim documentation for colonial homes.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

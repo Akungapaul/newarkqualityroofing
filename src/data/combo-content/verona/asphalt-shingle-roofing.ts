@@ -4,7 +4,7 @@ export const veronaAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'verona',
   overview: [
-    'Asphalt shingle roofing is the predominant material on Verona homes, covering everything from 1950s ranches near the center of town to 1970s split-levels across the Lakeview and Personette neighborhoods. The material\'s versatility, affordability, and wide range of profiles make it the natural choice for a township where housing styles span five decades of suburban development. Newark Quality Roofing installs and maintains asphalt shingle systems across Verona, selecting specific product lines and installation techniques based on each property\'s architectural style, terrain exposure, and the canopy conditions that define different neighborhoods.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Verona — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roofing is the predominant material on Verona homes, covering everything from 1950s ranches near the center of town to 1970s split-levels across the Lakeview and Personette neighborhoods. The material\'s versatility, affordability, and wide range of profiles make it the natural choice for a township where housing styles span five decades of suburban development. Newark Quality Roofing installs and maintains asphalt shingle systems across Verona, selecting specific product lines and installation techniques based on each property\'s architectural style, terrain exposure, and the canopy conditions that define different neighborhoods.',
     'Modern architectural asphalt shingles bear little resemblance to the three-tab products that originally covered many Verona homes. Today\'s premium lines offer dimensional profiles that replicate the shadow lines of wood shake or slate, algae-resistant granule formulations that combat Verona\'s shade-driven biological growth, and impact-resistant options that withstand hail events tracking along the Watchung ridge corridor. We guide Verona homeowners through these options, matching product capabilities to the specific demands of their property location -- [wind-rated products](/asphalt-shingle-roofing) for Claremont Avenue hilltop homes, algae-resistant formulations for park-adjacent properties.',
     'The shingle selection process in Verona goes beyond color preference. Split-level and bi-level homes need shingles with strong tabular adhesion to resist the amplified uplift forces at their level transitions. Properties under heavy canopy need the copper-infused granule technology that prevents algae streaking. Homes on exposed hilltop lots need wind ratings matched to their measured exposure. Our product recommendations address these performance requirements first, then present color and profile options within the qualifying product range. Neighbors in [Caldwell](/asphalt-shingle-roofing-caldwell-nj) face similar canopy and colonial-home considerations, though Verona\'s split-level predominance adds the transition-performance dimension that Caldwell\'s simpler colonial rooflines do not require.'
   ],
@@ -34,7 +34,25 @@ export const veronaAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Can asphalt shingles be installed on a low-pitch split-level section?',
       answer: 'Asphalt shingles require a minimum 2:12 pitch for standard installation. Most Verona split-level lower sections meet or exceed this minimum at 3:12 or 4:12 pitch. For these low-slope sections, we install full ice-and-water shield membrane coverage underneath the shingles, providing a secondary waterproof layer that protects against the slower water runoff these pitches produce. Sections below 2:12 pitch require membrane or rolled roofing systems rather than shingles -- we evaluate each plane and specify the appropriate material based on actual measured pitch.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Verona, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Verona range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in Verona NJ -- split-level installations, algae-resistant options, and wind-rated systems for hilltop homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

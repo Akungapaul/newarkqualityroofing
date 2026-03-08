@@ -4,7 +4,7 @@ export const millburnRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'millburn',
   overview: [
-    'Roof ventilation on Millburn estates manages the thermal and moisture dynamics within attic spaces that are often larger and more architecturally complex than typical residential attics. The multi-gable rooflines, cathedral ceiling sections, intersecting dormers, and cupolas on Short Hills and Wyoming properties create attic geometries where simple ridge-to-soffit airflow cannot ventilate every zone without careful vent placement, baffle routing, and exhaust-to-intake balancing. Inadequate ventilation contributes directly to the ice dams, condensation damage, and premature roof-material degradation that affect properties across Millburn.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Millburn — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation on Millburn estates manages the thermal and moisture dynamics within attic spaces that are often larger and more architecturally complex than typical residential attics. The multi-gable rooflines, cathedral ceiling sections, intersecting dormers, and cupolas on Short Hills and Wyoming properties create attic geometries where simple ridge-to-soffit airflow cannot ventilate every zone without careful vent placement, baffle routing, and exhaust-to-intake balancing. Inadequate ventilation contributes directly to the ice dams, condensation damage, and premature roof-material degradation that affect properties across Millburn.',
     'Our [roof vent installation and repair](/roof-vent-installation-repair) practice addresses the full ventilation system rather than individual vent components. Ridge vents, box vents, turbine vents, gable louvers, soffit intake panels, and powered attic ventilators each serve specific functions within the ventilation circuit, and their effectiveness depends on proper sizing, placement, and balance. Installing a ridge vent without adequate soffit intake creates a negative-pressure situation that draws conditioned air from the living space through ceiling penetrations -- increasing energy costs while providing minimal attic ventilation benefit.',
     'Vent repair on existing Millburn homes often reveals ventilation design deficiencies that have persisted since original construction or were created by subsequent renovation work. A dormer addition that blocked a gable vent, insulation work that covered soffit intake openings, or a ridge vent installed without cutting the sheathing beneath it -- these are conditions we encounter regularly on Millburn properties where multiple contractors have worked over decades without coordinating their modifications\' impact on the ventilation system as a whole.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofVentInstallationRepair: ComboContent = {
     {
       question: 'What type of roof vent is least visible on a Millburn estate roof?',
       answer: 'Ridge vents are the least visible exhaust ventilation option because they follow the roofline and are covered by ridge cap material that matches the field roofing. From the ground, a properly installed ridge vent is virtually invisible on both shingle and slate roofs. For hip roofs without ridge length for continuous ridge vent, low-profile off-ridge vents positioned on the rear slope -- away from primary sight lines -- provide exhaust ventilation with minimal visual impact.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Millburn, NJ?',
+      answer: 'Most roof vent installation repair projects in Millburn range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair for Millburn estates. Ridge vents, attic ventilation balancing, and ice-dam prevention for complex roofline geometries.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

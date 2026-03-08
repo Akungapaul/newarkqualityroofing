@@ -4,7 +4,7 @@ export const bellevilleFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Flat roofs define a significant portion of Belleville\'s building landscape, from the enclosed porch additions on post-war Cape Cods to the expansive commercial structures lining Washington Avenue and the Belleville Turnpike. Unlike the pitched residential roofs that dominate neighborhoods in [Bloomfield](/flat-roof-installation-repair-bloomfield-nj) or the western suburbs, Belleville\'s flat-roof inventory reflects a community where practical additions and commercial density have produced roof geometries that demand membrane expertise rather than shingle skills alone.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Belleville — with prices starting from $6,000–$18,000 and free estimates available today. Flat roofs define a significant portion of Belleville\'s building landscape, from the enclosed porch additions on post-war Cape Cods to the expansive commercial structures lining Washington Avenue and the Belleville Turnpike. Unlike the pitched residential roofs that dominate neighborhoods in [Bloomfield](/flat-roof-installation-repair-bloomfield-nj) or the western suburbs, Belleville\'s flat-roof inventory reflects a community where practical additions and commercial density have produced roof geometries that demand membrane expertise rather than shingle skills alone.',
     'The two-family homes scattered throughout Belleville\'s central neighborhoods frequently feature flat-roof sections over rear additions, enclosed porches, and garage structures. These low-slope surfaces collect standing water, trap debris from street trees, and develop membrane failures at the transition points where flat sections meet the original pitched roof. Our [flat roof installation](/flat-roof-installation-repair) crews specialize in these hybrid configurations, ensuring that drainage slopes, flashing transitions, and membrane terminations create a watertight boundary between old construction and new.',
     'Belleville\'s position within the Passaic River basin adds moisture complexity to flat-roof performance. The elevated ambient humidity along Joralemon Street and Mill Street accelerates adhesive degradation on modified bitumen seams and promotes biological growth on standing-water surfaces. We specify fully adhered membrane systems with welded seams for Belleville installations, eliminating the mechanical fastener penetrations that ballasted or mechanically attached systems require -- because in this river-adjacent environment, every penetration is a potential leak path.',
     'Commercial flat roofs along Washington Avenue and the Route 21 corridor carry rooftop HVAC equipment, exhaust fans, and satellite dishes that create penetration challenges unique to Belleville\'s dense retail and light-industrial district. Our commercial flat-roof installations integrate pre-fabricated curb flashings, reinforced walkway pads at service access routes, and tapered insulation systems that direct water to internal drains rather than allowing ponding around equipment bases.'
@@ -39,7 +39,25 @@ export const bellevilleFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'What causes ponding water on my Belleville flat roof?',
       answer: 'Ponding typically results from inadequate original slope design, structural settling over decades, or drain blockage from debris accumulation. In Belleville\'s older commercial buildings, the original built-up roofing has often sagged between structural supports, creating low spots that hold water after rain. We correct ponding with tapered insulation systems that create positive drainage slope during re-roofing, eliminating the standing water that accelerates membrane deterioration.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Belleville, NJ?',
+      answer: 'Most flat roof installation repair projects in Belleville range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Belleville NJ. TPO, EPDM, and PVC membranes for residential additions and commercial buildings along Washington Avenue.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

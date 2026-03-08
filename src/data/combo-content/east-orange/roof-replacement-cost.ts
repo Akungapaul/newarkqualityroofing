@@ -4,7 +4,7 @@ export const eastOrangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'east-orange',
   overview: [
-    'Roof replacement cost in East Orange reflects the city\'s specific building characteristics: multi-story Victorian structures with complex roof geometry, multi-family buildings requiring phased construction on occupied properties, and narrow lot configurations that add access and staging costs beyond what suburban re-roofing encounters. Understanding the cost drivers unique to East Orange helps property owners budget accurately and evaluate contractor proposals critically. The cheapest estimate is rarely the best value, and the most expensive estimate is not necessarily the most thorough -- [cost transparency](/roof-replacement-cost) requires understanding what is included, what is excluded, and what assumptions each contractor has made about concealed conditions.',
+    'Newark Quality Roofing delivers expert roof replacement cost in East Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in East Orange reflects the city\'s specific building characteristics: multi-story Victorian structures with complex roof geometry, multi-family buildings requiring phased construction on occupied properties, and narrow lot configurations that add access and staging costs beyond what suburban re-roofing encounters. Understanding the cost drivers unique to East Orange helps property owners budget accurately and evaluate contractor proposals critically. The cheapest estimate is rarely the best value, and the most expensive estimate is not necessarily the most thorough -- [cost transparency](/roof-replacement-cost) requires understanding what is included, what is excluded, and what assumptions each contractor has made about concealed conditions.',
     'Cost ranges for East Orange residential re-roofing vary significantly based on building type. A straightforward colonial or cape with 1,500 square feet of simple roof area may cost $8,000 to $12,000 for tear-off and architectural shingle installation. A Victorian two-family with 3,000 square feet of complex geometry including dormers, multiple valleys, and decorative details may cost $15,000 to $28,000 for the same shingle product because the labor-intensive detail work dramatically increases the time and skill required. Flat roof membrane replacement on apartment buildings runs $6 to $12 per square foot depending on membrane type and insulation requirements.',
     'Investment property owners in East Orange evaluate roof replacement cost through a different lens than homeowners. The relevant metric is not absolute cost but cost-per-year of service life, cost impact on property value, and cost relationship to rental income. A $20,000 roof replacement that delivers 25 years of service costs $800 per year. If the annual repair cost on the aging roof it replaces exceeds that amount, the replacement is immediately cash-flow positive -- a financial reality that reframes roof replacement from expense to investment. The same financial analysis applies across Essex County, from East Orange to [Caldwell](/roof-replacement-cost-caldwell-nj).'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeRoofReplacementCost: ComboContent = {
     {
       question: 'Does a more expensive roof always mean a better roof for my East Orange building?',
       answer: 'Not necessarily. Cost correlates with material quality, warranty length, and installation detail level, but beyond a certain tier, additional cost provides diminishing returns in performance. For East Orange investment properties with 10 to 15-year hold periods, mid-tier architectural shingles with 30-year warranties provide all the performance needed. Premium products with 50-year warranties cost more without delivering proportionally more value within the hold period.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in East Orange, NJ?',
+      answer: 'Most roof replacement cost projects in East Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost for East Orange NJ buildings -- transparent pricing, material options, and investment analysis for multi-family property owners.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'millburn',
   overview: [
-    'Soffit panels beneath the roof overhang on Millburn estates serve the dual function of providing continuous ventilation to the attic space above while presenting a finished, architecturally refined surface when viewed from the grounds below. On the substantial homes of Short Hills and Wyoming -- where eave overhangs of twenty-four to thirty-six inches create deep soffit exposures visible from patios, walkways, and garden paths -- the soffit is an architectural element that contributes to the property\'s presentation, not merely a concealed functional component.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Millburn — with prices starting from $1,500–$4,000 and free estimates available today. Soffit panels beneath the roof overhang on Millburn estates serve the dual function of providing continuous ventilation to the attic space above while presenting a finished, architecturally refined surface when viewed from the grounds below. On the substantial homes of Short Hills and Wyoming -- where eave overhangs of twenty-four to thirty-six inches create deep soffit exposures visible from patios, walkways, and garden paths -- the soffit is an architectural element that contributes to the property\'s presentation, not merely a concealed functional component.',
     'Ventilation performance through the soffit system directly affects roof longevity on Millburn properties. Vented soffits draw cool exterior air into the attic, where it rises through the attic space and exhausts through ridge vents, gable vents, or power ventilators at the roof peak. This airflow prevents the moisture accumulation that causes condensation on the underside of roof sheathing, the ice-dam formation that damages slate and copper flashings, and the heat buildup that accelerates shingle degradation. On the multi-story estates throughout [Millburn](/roofing-in-millburn-nj), where attic volumes are proportionally larger and more complex, soffit ventilation design must account for longer air paths, internal partitions, and multiple attic zones that may require independent ventilation circuits.',
     'Soffit deterioration on aging Millburn properties frequently goes unnoticed because the panels are overhead and out of direct sight lines. Rotted wood soffits, displaced aluminum panels, and blocked ventilation openings may persist for years before their consequences -- moisture damage to attic framing, ice dams, pest intrusion -- become apparent through symptoms in the living space below. Our [soffit installation and repair](/soffit-installation-repair) service includes systematic inspection of the entire soffit system during roof assessments, identifying deterioration before it progresses to the point where attic framing or insulation damage has occurred.'
   ],
@@ -34,7 +34,25 @@ export const millburnSoffitInstallationRepair: ComboContent = {
     {
       question: 'How much soffit ventilation does my Millburn home need?',
       answer: 'Building code requires a minimum ratio of one square foot of net free ventilation area for every one hundred fifty square feet of attic floor space, balanced between intake at the soffits and exhaust at the ridge or near the roof peak. On Millburn\'s larger homes with complex attic geometries, this calculation must account for multiple attic zones, cathedral ceiling cavities, and bonus rooms that partition the attic into independent ventilation circuits. We calculate the required ventilation for each zone and specify the soffit panel configuration that provides adequate intake for the attic volume above.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Millburn, NJ?',
+      answer: 'Most soffit installation repair projects in Millburn range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair for Millburn estates. Beadboard and vented panel systems with proper attic ventilation and pest-exclusion detailing.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

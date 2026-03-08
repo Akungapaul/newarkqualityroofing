@@ -4,7 +4,7 @@ export const roselandSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'roseland',
   overview: [
-    'Spray polyurethane foam roofing delivers a unique combination of seamless waterproofing and built-in insulation that conventional membrane systems cannot match. For Roseland commercial buildings where energy efficiency drives the roofing decision, SPF creates a monolithic insulation-and-waterproofing layer that eliminates the thermal bridging inherent in mechanically fastened insulation board systems. Our [spray foam roofing](/spray-foam-roofing) installations apply closed-cell SPF directly to the existing roof substrate, creating a custom-contoured surface that conforms to every penetration, curb, and edge condition without seams or joints.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Roseland — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing delivers a unique combination of seamless waterproofing and built-in insulation that conventional membrane systems cannot match. For Roseland commercial buildings where energy efficiency drives the roofing decision, SPF creates a monolithic insulation-and-waterproofing layer that eliminates the thermal bridging inherent in mechanically fastened insulation board systems. Our [spray foam roofing](/spray-foam-roofing) installations apply closed-cell SPF directly to the existing roof substrate, creating a custom-contoured surface that conforms to every penetration, curb, and edge condition without seams or joints.',
     'The insulation performance of spray foam roofing is particularly valuable for Roseland\'s older commercial buildings where original insulation falls below current energy code requirements. SPF provides R-6.5 per inch of applied thickness, and the seamless application eliminates the thermal gaps between insulation boards that reduce effective R-value in traditional roof assemblies. A 2-inch SPF application delivers R-13 insulation with zero thermal bridging -- an energy performance improvement that translates to measurable heating and cooling cost reductions for office buildings along Eisenhower Parkway.',
     'Re-roofing applications represent SPF\'s strongest value proposition in Roseland. The foam can be applied directly over existing single-ply membranes, BUR, and metal roofing without tear-off, saving the cost and disruption of demolition while adding insulation value and creating a new waterproof surface. This recover approach is particularly appealing for occupied office buildings where the noise and debris of traditional tear-off create unacceptable disruption to business operations. Commercial buildings in [East Orange](/spray-foam-roofing-east-orange-nj) have used SPF recover to extend roof system life without displacing tenants.'
   ],
@@ -34,7 +34,25 @@ export const roselandSprayFoamRoofing: ComboContent = {
     {
       question: 'How is spray foam roofing maintained?',
       answer: 'Annual inspection and prompt repair of any coating damage constitute the primary maintenance requirements. Walk the roof each spring to identify coating wear, mechanical damage from foot traffic or equipment service, and drainage conditions. Small coating repairs are straightforward using compatible coating material applied over the affected area. Recoating the entire roof surface on the manufacturer\'s recommended schedule -- typically every 10 to 15 years for silicone -- renews the system for another full cycle.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Roseland, NJ?',
+      answer: 'Most spray foam roofing projects in Roseland range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Roseland NJ -- seamless SPF with built-in insulation for commercial buildings and recover over existing roof systems.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

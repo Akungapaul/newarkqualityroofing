@@ -4,7 +4,7 @@ export const bloomfieldFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Flat roofs in Bloomfield occupy two distinct market segments: the commercial buildings along Bloomfield Avenue and the GSP corridor that require full-scale flat-roof systems, and the residential flat sections found on hundreds of split-level homes throughout the township\'s residential neighborhoods. The split-level flat section -- typically covering a garage, entry foyer, or lower-level family room -- is Bloomfield\'s most common residential flat-roof application, and these small areas generate a steady stream of repair and replacement demand as their twenty-to-twenty-five-year-old rolled roofing or thin modified bitumen membranes reach end of life.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Bloomfield — with prices starting from $6,000–$18,000 and free estimates available today. Flat roofs in Bloomfield occupy two distinct market segments: the commercial buildings along Bloomfield Avenue and the GSP corridor that require full-scale flat-roof systems, and the residential flat sections found on hundreds of split-level homes throughout the township\'s residential neighborhoods. The split-level flat section -- typically covering a garage, entry foyer, or lower-level family room -- is Bloomfield\'s most common residential flat-roof application, and these small areas generate a steady stream of repair and replacement demand as their twenty-to-twenty-five-year-old rolled roofing or thin modified bitumen membranes reach end of life.',
     'The residential flat-roof challenge in Bloomfield is fundamentally different from commercial flat-roof work, even though the materials may overlap. A three-hundred-square-foot flat section on a split-level must integrate seamlessly with the adjacent sloped shingle roof at the transition line, handle concentrated runoff from the upper roof plane, and maintain watertight performance despite the thermal cycling and snow loading that northern New Jersey winters deliver. These small areas are too limited for the mechanically fastened membrane systems used on large commercial roofs but demand better performance than the rolled roofing products that were originally installed.',
     'Commercial [flat roof](/flat-roof-installation-repair) applications in Bloomfield serve the Bloomfield Avenue retail corridor, where one- and two-story storefronts with flat roofs line both sides of the street, and the light industrial and office buildings near the Garden State Parkway. These commercial projects range from two thousand to fifteen thousand square feet and typically involve TPO, EPDM, or modified bitumen system selection based on building use, budget, and equipment loading. Building owners along [Bloomfield](/roofing-in-bloomfield-nj) Avenue prioritize cost-effective flat-roof solutions that minimize tenant disruption during installation.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'How long should a flat roof last on a Bloomfield commercial building?',
       answer: 'A properly installed and maintained commercial flat-roof system delivers twenty to thirty years depending on the membrane type, insulation quality, and maintenance commitment. TPO and EPDM systems deliver twenty to twenty-five years. Modified bitumen delivers twenty to thirty years. PVC delivers twenty-five to thirty years. Annual drain cleaning and periodic professional inspection are the maintenance requirements that keep these systems performing to their full design life.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Bloomfield, NJ?',
+      answer: 'Most flat roof installation repair projects in Bloomfield range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Bloomfield NJ -- split-level flat sections, Bloomfield Avenue commercial roofing, and membrane system upgrades.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const nutleyRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'nutley',
   overview: [
-    'EPDM rubber roofing serves as the workhorse membrane for Nutley\'s flat and low-slope roof applications, protecting the rear additions, garage roofs, enclosed porches, and commercial buildings that complement the township\'s predominantly pitched residential architecture. Where shingle work on Tudor gables gets the aesthetic attention, EPDM quietly handles the water management on the horizontal surfaces where ponding, debris accumulation, and ice formation present year-round challenges. The material\'s proven track record across three decades of New Jersey weather cycles makes it the default recommendation for most flat roof sections in [Nutley](/roofing-in-nutley-nj).',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Nutley — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing serves as the workhorse membrane for Nutley\'s flat and low-slope roof applications, protecting the rear additions, garage roofs, enclosed porches, and commercial buildings that complement the township\'s predominantly pitched residential architecture. Where shingle work on Tudor gables gets the aesthetic attention, EPDM quietly handles the water management on the horizontal surfaces where ponding, debris accumulation, and ice formation present year-round challenges. The material\'s proven track record across three decades of New Jersey weather cycles makes it the default recommendation for most flat roof sections in [Nutley](/roofing-in-nutley-nj).',
     'Franklin Avenue\'s commercial corridor depends heavily on EPDM membrane systems. The one- and two-story retail buildings housing Nutley\'s locally owned businesses carry flat roofs that were originally built with tar-and-gravel systems in the mid-twentieth century, most of which have been converted to EPDM during subsequent re-roofing cycles. The material\'s relatively low installed cost, straightforward repair characteristics, and 25- to 30-year service life make it financially practical for the small-format commercial properties that define Nutley\'s downtown, where six-figure membrane investments in TPO or PVC would be disproportionate to building value.',
     'Residential EPDM applications in Nutley typically cover sections ranging from 100 to 800 square feet -- the rear kitchen extension on a 1930s Colonial along Park Avenue, the flat section of a split-level in Spring Garden, or the detached garage serving a Tudor on Highfield Lane. These smaller installations favor fully adhered EPDM because the membrane conforms tightly to the deck surface without the ballast or mechanical fastening that larger commercial installations may require. Homeowners in neighboring [Bloomfield](/rubber-roofing-epdm-bloomfield-nj) use EPDM for similar residential flat sections, though Nutley installations typically incorporate higher-grade edge details that satisfy the township\'s premium aesthetic expectations.',
     'Our [EPDM roofing](/rubber-roofing-epdm) installations in Nutley use 60-mil membrane as the standard specification, upgraded from the 45-mil product that was industry standard a decade ago. The thicker membrane provides superior puncture resistance from falling branches -- a real concern under Nutley\'s mature shade tree canopy -- and better dimensional stability through the thermal cycling that stresses seams and flashings during seasonal temperature swings. Every installation includes fully taped and sealed seams using manufacturer-specified adhesive systems that carry the 20-year warranty these membrane joints require for reliable long-term performance.'
@@ -35,7 +35,25 @@ export const nutleyRubberRoofingEpdm: ComboContent = {
     {
       question: 'Does EPDM rubber roofing work in Nutley winter conditions?',
       answer: 'EPDM performs well in cold weather. The rubber compound remains flexible at temperatures well below zero, unlike some thermoplastic membranes that become brittle. This flexibility allows the membrane to absorb the contraction stress that winter thermal cycling generates without cracking or seam separation. EPDM also handles ice and snow loads without structural concern. The main winter maintenance item is ensuring drains remain clear of ice so snowmelt exits the roof rather than ponding against the membrane.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Nutley, NJ?',
+      answer: 'Most rubber roofing epdm projects in Nutley range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Nutley NJ. Residential flat roof sections and Franklin Avenue commercial membranes with full-adhesion installation and 25-30 year life.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const cedarGroveHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'cedar-grove',
   overview: [
-    'Historic roof restoration in Cedar Grove preserves the architectural character of the township\'s earliest residential and institutional buildings -- pre-war colonials, stone-constructed properties along the Watchung Mountain slope, and civic structures that predate the post-war ranch construction boom that defined most of the community. While Cedar Grove lacks the concentration of historic architecture found in neighboring [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) or [Montclair](/historic-roof-restoration-montclair-nj), the township\'s pre-1940 structures carry distinctive roofing details that require preservation-sensitive restoration rather than conventional replacement.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Cedar Grove — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Cedar Grove preserves the architectural character of the township\'s earliest residential and institutional buildings -- pre-war colonials, stone-constructed properties along the Watchung Mountain slope, and civic structures that predate the post-war ranch construction boom that defined most of the community. While Cedar Grove lacks the concentration of historic architecture found in neighboring [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) or [Montclair](/historic-roof-restoration-montclair-nj), the township\'s pre-1940 structures carry distinctive roofing details that require preservation-sensitive restoration rather than conventional replacement.',
     'Our [historic roof restoration](/historic-roof-restoration) approach in Cedar Grove focuses on identifying and replicating original roofing materials, profiles, and installation methods that maintain the architectural authenticity of historic properties. Slate roofs on pre-war colonials, standing seam terne-coated steel on institutional buildings, and wood shingle systems on early twentieth-century homes each require material sourcing and installation techniques specific to the era and style of construction.',
     'Cedar Grove\'s historic properties often present restoration challenges compounded by modifications made during the township\'s mid-century development surge. Aluminum siding installed over original wood clapboard, replacement windows with altered trim proportions, and roofing materials substituted during previous renovation cycles have obscured the original design intent. Restoration work frequently involves removing these modifications to discover and replicate the original roof detailing beneath.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveHistoricRoofRestoration: ComboContent = {
       question: 'How do you handle hidden damage discovered during Cedar Grove restoration?',
       answer: 'Concealed conditions are expected in historic restoration work. We include contingency allowances in our proposals for the sheathing repair, structural reinforcement, and additional material that hidden conditions typically require. When unexpected damage is discovered, we document the condition, discuss repair options with the homeowner, and proceed with the approach that preserves the most original material while ensuring structural integrity and weather protection.',
     },
+    {
+      question: 'How much does historic roof restoration cost in Cedar Grove, NJ?',
+      answer: 'Most historic roof restoration projects in Cedar Grove range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Cedar Grove NJ -- period-accurate slate, metal, and wood shingle preservation for pre-war colonials and civic buildings.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

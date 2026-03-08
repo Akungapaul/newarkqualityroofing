@@ -4,7 +4,7 @@ export const millburnInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'millburn',
   overview: [
-    'Infrared roof leak detection in Millburn provides the precision diagnostic capability that eliminates the guesswork from flat-roof leak repair on commercial and institutional buildings. When a Millburn Avenue office building or institutional facility develops an interior leak, the water-entry point on the flat-roof membrane above may be thirty feet or more from where the water appears inside the building -- moisture travels laterally through insulation and along deck surfaces before finding a penetration through the ceiling below. Infrared technology pinpoints the actual entry location by detecting the moisture trail between the entry point and the interior symptom.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Millburn — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection in Millburn provides the precision diagnostic capability that eliminates the guesswork from flat-roof leak repair on commercial and institutional buildings. When a Millburn Avenue office building or institutional facility develops an interior leak, the water-entry point on the flat-roof membrane above may be thirty feet or more from where the water appears inside the building -- moisture travels laterally through insulation and along deck surfaces before finding a penetration through the ceiling below. Infrared technology pinpoints the actual entry location by detecting the moisture trail between the entry point and the interior symptom.',
     'The precision of infrared leak detection translates directly to cost savings for Millburn commercial property owners. Without infrared guidance, leak repair on flat roofs often involves exploratory membrane cutting across a broad area to locate the entry point -- cutting that damages sound membrane, expands the repair scope, and may still miss the actual source if the exploratory cuts do not intersect the moisture path. Infrared imaging narrows the repair zone to the specific area where moisture is trapped, allowing targeted membrane cutting, insulation replacement, and re-roofing of just the affected section.',
     'Our [infrared roof leak detection](/infrared-roof-leak-detection) service combines thermal imaging with systematic flood testing to produce definitive leak-source identification. Thermal imaging alone detects moisture in the roof assembly but does not always distinguish between moisture from an active leak and residual moisture from a previous leak that has already been repaired. Flood testing -- controlled water application to isolated roof sections while monitoring for interior water appearance -- confirms whether a thermally identified moisture zone is associated with an active or historic entry point.'
   ],
@@ -34,7 +34,25 @@ export const millburnInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'What happens after the leak is located?',
       answer: 'We provide a detailed report identifying the leak location on the roof plan, the probable cause based on the thermal pattern and visual inspection, and the recommended repair scope. The repair can proceed as a separate project or be authorized immediately if the property owner wants the leak resolved as quickly as possible. The infrared documentation becomes part of the repair record, confirming that the specific entry point was identified and addressed.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Millburn, NJ?',
+      answer: 'Most infrared roof leak detection projects in Millburn range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection for Millburn commercial buildings. Precision moisture mapping with thermal imaging and flood testing to pinpoint leak sources.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

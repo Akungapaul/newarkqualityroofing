@@ -4,7 +4,7 @@ export const nutleySolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'nutley',
   overview: [
-    'Solar shingle installation in Nutley answers the aesthetic objection that holds some homeowners back from conventional panel-based solar systems. In a township where curb appeal is a community value enforced as much by neighborly expectation as by any ordinance, the visible profile of traditional rack-mounted solar panels on a Tudor gable or Colonial facade can feel incongruent with the architectural character Chestnut Street and The Oval neighborhoods are known for. Solar shingles eliminate this tension by integrating photovoltaic generation directly into the roof surface, producing clean energy from a roof that looks like a conventional premium shingle installation from the street.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Nutley — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installation in Nutley answers the aesthetic objection that holds some homeowners back from conventional panel-based solar systems. In a township where curb appeal is a community value enforced as much by neighborly expectation as by any ordinance, the visible profile of traditional rack-mounted solar panels on a Tudor gable or Colonial facade can feel incongruent with the architectural character Chestnut Street and The Oval neighborhoods are known for. Solar shingles eliminate this tension by integrating photovoltaic generation directly into the roof surface, producing clean energy from a roof that looks like a conventional premium shingle installation from the street.',
     'The current generation of solar shingles -- primarily the GAF Energy Timberline Solar and Tesla Solar Roof products -- has matured beyond the early-generation products that suffered from reliability and efficiency limitations. Modern solar shingles achieve 15 to 20 percent cell efficiency, approaching the 20 to 22 percent efficiency of conventional panels. The trade-off is a higher cost per watt of installed capacity compared to rack-mounted panels, offset by the elimination of separate mounting hardware, the aesthetic premium, and the integration of roofing and energy generation into a single installed system with a single warranty relationship.',
     'Our [solar shingle](/solar-shingle-installation) installations in [Nutley](/roofing-in-nutley-nj) are full roof replacements by necessity -- solar shingles replace the conventional shingle field rather than mounting above it. This makes the technology most compelling for Nutley homeowners whose roofs are due for replacement, where the incremental cost of solar shingles versus premium conventional shingles represents the true solar investment rather than the full installed cost. For a Colonial on Vreeland Avenue facing a 22,000-dollar roof replacement, upgrading to solar shingles on the south-facing planes at an incremental cost of 15,000 to 20,000 dollars converts a maintenance expense into an energy-producing asset.',
     'Nutley\'s Tudor homes present a unique solar shingle opportunity. The steep pitches that make conventional rack-mounted panels visually obtrusive and structurally challenging are well-suited to solar shingles that lie flat within the roof plane regardless of pitch angle. The multi-gable geometries that constrain conventional panel arrays into awkward configurations can accommodate solar shingles across any plane with sufficient solar access, mixing active solar shingles with matching non-active shingles on shaded sections to create a uniform appearance across the entire roof surface.'
@@ -35,7 +35,25 @@ export const nutleySolarShingleInstallation: ComboContent = {
     {
       question: 'How long do solar shingles last compared to conventional shingles?',
       answer: 'Leading solar shingle products carry 25-year power production warranties and 25-year roofing warranties, comparable to premium conventional shingle warranty terms. The underlying shingle component is engineered to match or exceed the durability of premium architectural shingles. At end of power production warranty, the shingles continue functioning as conventional roofing material even if solar output has declined. The integrated design means there is no separate mounting hardware to maintain or replace over the system life.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Nutley, NJ?',
+      answer: 'Most solar shingle installation projects in Nutley range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Nutley NJ. Integrated photovoltaic roofing for Tudors and Colonials with seamless aesthetics and NJ solar incentives.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'south-orange',
   overview: [
-    'Residential roof installation in South Orange Village operates within an architectural context that demands more from the contractor than material selection and weather protection. The village\'s distinguished housing stock -- Tudor Revival estates in Montrose Park, Arts and Crafts bungalows along Scotland Road, stately Colonials on Prospect Street -- requires installation approaches tailored to each home\'s period character. A new roof installation that ignores the architectural heritage of a South Orange home diminishes both its aesthetic authority and its market value in a community where buyers pay premiums for authenticity.',
+    'Newark Quality Roofing delivers expert residential roof installation in South Orange — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in South Orange Village operates within an architectural context that demands more from the contractor than material selection and weather protection. The village\'s distinguished housing stock -- Tudor Revival estates in Montrose Park, Arts and Crafts bungalows along Scotland Road, stately Colonials on Prospect Street -- requires installation approaches tailored to each home\'s period character. A new roof installation that ignores the architectural heritage of a South Orange home diminishes both its aesthetic authority and its market value in a community where buyers pay premiums for authenticity.',
     'New construction roof installations in South Orange serve both ground-up custom homes and the significant renovation market where additions, dormers, and contemporary extensions meet existing historic structures. These hybrid projects demand particular skill in material transitions -- matching new [residential roof installation](/residential-roof-installation) materials to existing roof sections, creating weather-tight connections between old and new framing systems, and selecting products that complement rather than clash with the original architecture. Architects working in South Orange frequently specify our installations because we execute the material integration details that distinguish refined renovation from obvious addition.',
     'The village\'s proximity to South Mountain Reservation and the Watchung Ridge elevates the performance requirements for every residential roof installation. Properties on the upper slopes of Montrose Park face wind exposure significantly higher than valley-floor homes, requiring enhanced fastening schedules and material specifications beyond code minimum. The heavy tree canopy throughout the village demands drainage capacity that accounts for the leaf and debris loads that clean suburban rooftops never encounter. Our installation specifications for South Orange homes incorporate these environmental factors as standard practice, not as optional upgrades.',
     'South Orange homeowners contemplating roof installation benefit from the village\'s established architectural vocabulary. Unlike new developments where any material might work, South Orange\'s neighborhoods have clear material traditions -- slate and copper in Montrose Park, cedar shake along Scotland Road, architectural shingle in the mid-century sections near Newstead. Working within these traditions ensures that a new installation strengthens rather than disrupts the streetscape continuity that makes [South Orange](/roofing-in-south-orange-nj) one of the most visually cohesive communities in Essex County.'
@@ -35,7 +35,25 @@ export const southOrangeResidentialRoofInstallation: ComboContent = {
     {
       question: 'Can you match a new roof to my existing copper gutters and flashings?',
       answer: 'Yes. We select roofing materials that complement existing copper components, and when new flashings are needed, we fabricate them from copper to match the existing profile and patina stage. For homes with aged copper that has developed the characteristic green verdigris, we use pre-patinated copper or apply chemical patination to new copper so it blends with the existing components from day one.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in South Orange, NJ?',
+      answer: 'Most residential roof installation projects in South Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in South Orange NJ -- slate, cedar shake, and architectural shingle for Tudor estates and village Colonials.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

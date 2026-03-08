@@ -4,7 +4,7 @@ export const glenRidgeRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'glen-ridge',
   overview: [
-    'Roof overlay installation in Glen Ridge is a selectively appropriate option limited to homes where a single existing layer of asphalt shingles covers a verified-sound roof deck. The technique installs new shingles directly over the existing layer, eliminating tear-off cost and debris while providing a refreshed roof surface. However, in a borough where century-old homes frequently carry multiple roofing layers, concealed deck deterioration, and historic materials that overlay would permanently entomb, the number of Glen Ridge homes truly suited to overlay is small.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Glen Ridge — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Glen Ridge is a selectively appropriate option limited to homes where a single existing layer of asphalt shingles covers a verified-sound roof deck. The technique installs new shingles directly over the existing layer, eliminating tear-off cost and debris while providing a refreshed roof surface. However, in a borough where century-old homes frequently carry multiple roofing layers, concealed deck deterioration, and historic materials that overlay would permanently entomb, the number of Glen Ridge homes truly suited to overlay is small.',
     'The Historic Preservation Commission factor further limits overlay viability in Glen Ridge. Overlaying asphalt shingles on a roof that originally carried slate or cedar shake raises preservation questions about concealing original material evidence. And overlaying on a roof where the existing material is already the second layer violates building code. We evaluate overlay candidacy honestly, recommending it only when the existing single layer is asphalt shingle, the deck condition is confirmed sound, and the overlay will not compromise preservation interests. In most Glen Ridge situations, [full tear-off](/full-roof-tear-off-glen-ridge-nj) provides the thorough deck access and fresh-start quality these historic homes deserve.',
     'Where overlay is genuinely appropriate -- typically on post-war additions, garage roofs, or secondary structures that do not fall under strict preservation scrutiny -- the cost savings can be meaningful. Eliminating tear-off reduces labor cost by 25 to 35 percent and avoids disposal fees. The key requirement is confirmed deck soundness, which we verify through interior inspection and targeted moisture meter readings at multiple points across the roof surface before recommending overlay on any Glen Ridge property.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeRoofOverlayInstallation: ComboContent = {
       question: 'Does overlay void the new shingle warranty?',
       answer: 'Most major shingle manufacturers honor warranties on overlay installations when done according to their specifications. However, some manufacturers offer reduced warranty terms for overlay versus direct-to-deck installation. We specify the warranty implications clearly during consultation so Glen Ridge homeowners can make an informed decision.',
     },
+    {
+      question: 'How much does roof overlay installation cost in Glen Ridge, NJ?',
+      answer: 'Most roof overlay installation projects in Glen Ridge range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Glen Ridge NJ. Second-layer shingle option for qualified additions and secondary structures.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const roselandFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Fire damage roof replacement in Roseland restores homes and commercial buildings after fire events that damage or destroy the roof structure. Fire damage extends beyond surface material destruction -- heat weakens structural members, smoke permeates sheathing and insulation, and firefighting water saturates every component of the roof assembly. Our [fire damage roof replacement](/fire-damage-roof-replacement) service manages the complete restoration from structural assessment through rebuilding, working within the insurance claims framework that fire losses require.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Roseland — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Roseland restores homes and commercial buildings after fire events that damage or destroy the roof structure. Fire damage extends beyond surface material destruction -- heat weakens structural members, smoke permeates sheathing and insulation, and firefighting water saturates every component of the roof assembly. Our [fire damage roof replacement](/fire-damage-roof-replacement) service manages the complete restoration from structural assessment through rebuilding, working within the insurance claims framework that fire losses require.',
     'Roseland\'s residential fire damage typically involves kitchen fires, electrical fires, or chimney fires that may affect a localized area or the full roof structure depending on the fire\'s extent and response time. Even fires contained to one room can produce heat and smoke damage across the entire roof assembly through attic space convection. Our damage assessment evaluates the full roof structure rather than limiting scope to the area of visible fire impact, ensuring that heat-weakened framing and smoke-contaminated insulation are identified and addressed.',
     'Commercial fire damage on Roseland\'s business properties adds complexity through tenant displacement, business interruption considerations, and the building code requirements that fire-damaged structures trigger during reconstruction. Our commercial fire restoration coordinates with the building owner\'s insurance team, the general contractor managing overall building restoration, and Roseland building officials who review the reconstruction plans for code compliance. Businesses in [Fairfield](/fire-damage-roof-replacement-fairfield-nj) face similar commercial fire restoration coordination requirements.'
   ],
@@ -34,7 +34,25 @@ export const roselandFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Will the restored roof look the same as before the fire?',
       answer: 'The restored roof will match or exceed the pre-fire appearance with new materials installed to current standards. Color and profile matching with the existing home exterior may require coordination if siding or trim in the fire-affected area is also being restored. We coordinate material selection with the overall restoration team to ensure visual consistency across the completed project.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Roseland, NJ?',
+      answer: 'Most fire damage roof replacement projects in Roseland range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Roseland NJ -- structural assessment, insurance coordination, and full reconstruction after fire events.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

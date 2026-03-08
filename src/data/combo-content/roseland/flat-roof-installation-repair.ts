@@ -4,7 +4,7 @@ export const roselandFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Flat roof systems in Roseland serve both the borough\'s commercial sector and a growing number of residential applications. The office buildings along Eisenhower Parkway and Eagle Rock Avenue carry large-area membrane roofs that require professional installation and repair capabilities scaled to commercial dimensions. On the residential side, flat roofs appear as extensions on Roseland\'s ranch homes, over enclosed porches, and on the lower sections of split-level configurations where the garage or family room sits beneath its own low-slope covering. Our [flat roof installation and repair](/flat-roof-installation-repair) services address both markets with material and technique expertise appropriate to each building type.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Roseland — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof systems in Roseland serve both the borough\'s commercial sector and a growing number of residential applications. The office buildings along Eisenhower Parkway and Eagle Rock Avenue carry large-area membrane roofs that require professional installation and repair capabilities scaled to commercial dimensions. On the residential side, flat roofs appear as extensions on Roseland\'s ranch homes, over enclosed porches, and on the lower sections of split-level configurations where the garage or family room sits beneath its own low-slope covering. Our [flat roof installation and repair](/flat-roof-installation-repair) services address both markets with material and technique expertise appropriate to each building type.',
     'The commercial flat roofs in Roseland\'s corporate campuses represent some of the largest single roof areas in western Essex County. The ADP headquarters complex and neighboring office parks along Eisenhower Parkway feature TPO, EPDM, and modified bitumen systems that span thousands of square feet and support extensive rooftop mechanical equipment. Maintaining and repairing these systems requires the certifications, insurance coverage, and project management capacity that corporate facility teams demand. Our commercial division maintains current manufacturer certifications for all major single-ply and multi-ply flat roof systems.',
     'Residential flat roof work in Roseland follows different rhythms and priorities. Homeowners dealing with a leaking porch roof or failing garage extension membrane need responsive, precise repair rather than the large-scale system replacement that commercial properties require. We approach each residential flat roof as an individual project, selecting the membrane system best suited to the specific application -- EPDM for garage extensions where cost efficiency matters, TPO for sun-exposed sections where reflectivity provides energy benefit, and modified bitumen for areas requiring foot traffic resistance around rooftop access points.'
   ],
@@ -34,7 +34,25 @@ export const roselandFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'How do you handle the junction where my flat porch roof meets the main pitched roof?',
       answer: 'The flat-to-pitched transition is the most critical detail on any residential flat roof section. We install the membrane up the vertical wall face at the transition, counter-flash with metal that integrates beneath the shingle courses on the pitched section above, and apply ice-and-water shield membrane as secondary protection behind the counter-flashing. This layered approach prevents the water infiltration at this junction that causes the majority of residential flat roof leaks in Roseland.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Roseland, NJ?',
+      answer: 'Most flat roof installation repair projects in Roseland range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Roseland NJ -- TPO, EPDM, and modified bitumen for commercial office parks and residential sections.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const essexFellsStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Storm damage roof replacement on Essex Fells estates addresses the catastrophic damage scenarios that the borough\'s heavily wooded environment amplifies beyond typical suburban storm exposure. Mature oak, beech, and maple trees towering above estate rooflines become projectile sources during severe weather -- falling trunks, major limbs, and cascading branch debris can inflict damage across entire roof planes in seconds. The premium roofing materials on Essex Fells homes -- natural slate, hand-split cedar shake, standing-seam copper -- are particularly vulnerable to impact damage that would merely dent or lift asphalt shingles.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Essex Fells — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement on Essex Fells estates addresses the catastrophic damage scenarios that the borough\'s heavily wooded environment amplifies beyond typical suburban storm exposure. Mature oak, beech, and maple trees towering above estate rooflines become projectile sources during severe weather -- falling trunks, major limbs, and cascading branch debris can inflict damage across entire roof planes in seconds. The premium roofing materials on Essex Fells homes -- natural slate, hand-split cedar shake, standing-seam copper -- are particularly vulnerable to impact damage that would merely dent or lift asphalt shingles.',
     'The post-storm landscape in Essex Fells typically involves multiple properties with simultaneous damage, creating a demand surge for emergency response, tarping, and eventual replacement services. Our storm response protocol prioritizes emergency waterproofing across all affected properties before transitioning to permanent replacement sequencing based on damage severity, interior exposure risk, and insurance claim processing timelines. This community-scale response approach, developed through years of serving Essex Fells through storm events, ensures that every property receives immediate protection while replacement projects proceed in priority order.',
     'Storm damage replacement on Essex Fells properties integrates with our [insurance roof replacement](/insurance-roof-replacement-essex-fells-nj) claims management to ensure homeowners receive full coverage for premium material replacement. We document storm damage at the emergency response stage, producing the evidence package that insurance adjusters require before the cleanup process removes damage indicators. This documentation-first approach protects the homeowner\'s claim position while our crews execute the emergency protection that prevents interior damage escalation.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Can my insurance cover tree removal from the roof?',
       answer: 'Most homeowner policies cover tree removal costs when the fallen tree damages the structure. Trees that fall on the roof but cause no damage may have limited or no coverage. High-value property policies typically provide broader tree removal coverage. We document the tree location and resulting damage during emergency response to support the removal cost claim. Tree removal from the roof is coordinated to prevent additional damage during the cutting and lifting process, using crane support when the tree\'s weight and position create secondary damage risk.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most storm damage roof replacement projects in Essex Fells range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Essex Fells NJ -- emergency response and full replacement for tree-damaged estate roofs.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

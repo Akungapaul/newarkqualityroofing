@@ -4,7 +4,7 @@ export const caldwellSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'caldwell',
   overview: [
-    'Solar shingle technology offers Caldwell homeowners a way to generate renewable energy without the visual impact of traditional panel arrays mounted on rails above the roof surface. Solar shingles integrate photovoltaic cells directly into roofing material that installs in courses alongside conventional asphalt shingles, creating a roof surface that produces electricity while maintaining the traditional appearance that Caldwell\'s residential streetscape values. For homeowners who want solar energy but resist the industrial aesthetic of rack-mounted panels, solar shingles resolve the conflict between environmental commitment and neighborhood character.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Caldwell — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology offers Caldwell homeowners a way to generate renewable energy without the visual impact of traditional panel arrays mounted on rails above the roof surface. Solar shingles integrate photovoltaic cells directly into roofing material that installs in courses alongside conventional asphalt shingles, creating a roof surface that produces electricity while maintaining the traditional appearance that Caldwell\'s residential streetscape values. For homeowners who want solar energy but resist the industrial aesthetic of rack-mounted panels, solar shingles resolve the conflict between environmental commitment and neighborhood character.',
     'The Caldwell context for solar shingles differs from urban installations in [Newark](/solar-shingle-installation-newark-nj) or dense suburban settings in [Montclair](/solar-shingle-installation-montclair-nj). Caldwell\'s detached homes with individual roof planes offer the designer flexibility to position solar shingles where production is highest while leaving shaded or north-facing planes in conventional shingles. The smaller scale of Caldwell\'s colonial and cape cod roofs means that each solar shingle course contributes a meaningful percentage of total roof area, making system sizing more intuitive than on large commercial installations.',
     'Solar shingle [installation](/solar-shingle-installation) in Caldwell makes the most sense during complete roof replacement, when the entire roof surface is stripped to the deck and rebuilt with new materials. Integrating solar shingles into a partial roof means coordinating two different roofing materials on the same plane -- a technically achievable but more complex installation than a clean full-roof approach. The roof replacement cycle on Caldwell\'s mid-century housing stock creates natural opportunities for solar shingle adoption as homeowners invest in new roof systems.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSolarShingleInstallation: ComboContent = {
     {
       question: 'What happens if a tree branch damages solar shingles on my Caldwell roof?',
       answer: 'Damaged solar shingles require professional replacement that includes electrical disconnection, damaged shingle removal, new shingle installation, and reconnection to the system circuit. The process takes longer and costs more than conventional shingle replacement due to the electrical component. Homeowner insurance typically covers storm and tree damage to solar shingles. We recommend maintaining adequate tree canopy clearance around solar shingle areas to reduce the damage risk that Caldwell\'s tree cover presents.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Caldwell, NJ?',
+      answer: 'Most solar shingle installation projects in Caldwell range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Caldwell NJ -- integrated photovoltaic roofing for colonials with seamless appearance and NJ solar incentives.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

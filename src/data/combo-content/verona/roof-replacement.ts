@@ -4,7 +4,7 @@ export const veronaRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'verona',
   overview: [
-    'Roof replacement in Verona confronts the township\'s signature architectural reality: split-level and bi-level homes constitute the largest share of the housing stock, and replacing their multi-plane roofs demands techniques that standard residential reroofing does not cover. The elevation transitions between levels, the shallow-pitched lower sections, and the complex valley intersections where different planes meet all require careful demolition, structural assessment, and precision rebuilding that transforms a chronic problem into a permanent solution. Newark Quality Roofing has replaced roofs on hundreds of Verona split-levels, refining a protocol that addresses every vulnerability these designs carry.',
+    'Newark Quality Roofing delivers expert roof replacement in Verona — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement in Verona confronts the township\'s signature architectural reality: split-level and bi-level homes constitute the largest share of the housing stock, and replacing their multi-plane roofs demands techniques that standard residential reroofing does not cover. The elevation transitions between levels, the shallow-pitched lower sections, and the complex valley intersections where different planes meet all require careful demolition, structural assessment, and precision rebuilding that transforms a chronic problem into a permanent solution. Newark Quality Roofing has replaced roofs on hundreds of Verona split-levels, refining a protocol that addresses every vulnerability these designs carry.',
     'Verona families approach roof replacement as a long-term investment in homes they plan to keep through their children\'s school years and beyond. The township\'s excellent schools and strong neighborhood bonds mean turnover is low, and homeowners want roofing systems that will outlast a mortgage. We recommend 50-year architectural shingle systems with transferable warranties for most Verona homes, pairing premium materials with the installation techniques -- enhanced nailing, full membrane underlayment at critical zones, rebuilt flashings -- that justify the investment. Homeowners across [Roofing in Montclair NJ](/roofing-in-montclair-nj) share this same long-term ownership perspective, though Verona\'s split-level geometry adds complexity that Montclair\'s predominantly colonial stock does not present.',
     'The terrain variations across Verona create different replacement requirements within the same township. Hilltop homes along Claremont Avenue and upper Personette face sustained wind exposure during nor\'easters, requiring wind-rated shingles with six-nail patterns and starter strip adhesive. Valley-floor homes near [Verona Park](/roofing-in-verona-nj) need algae-resistant formulations and enhanced ventilation to combat the persistent shade from the Olmsted-designed tree canopy. Our replacement specifications are site-specific, not generic, because a one-size approach fails to protect Verona homes across their varied terrain.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofReplacement: ComboContent = {
     {
       question: 'What shingle brand do you recommend for Verona homes?',
       answer: 'For most Verona homes we install GAF Timberline HDZ or CertainTeed Landmark Pro, both rated for 130-mph winds with lifetime limited warranties. For hilltop properties along Claremont Avenue, we recommend the wind-rated versions with enhanced starter strip adhesive. For homes near Verona Park with heavy shade, we specify algae-resistant formulations that include copper granules to inhibit moss and algae colonization. The specific recommendation depends on your home location and exposure, which we assess during the estimate visit.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Verona, NJ?',
+      answer: 'Most roof replacement projects in Verona range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Verona NJ roof replacement for split-levels and bi-levels -- transition rebuilds, hilltop wind protection, and long-term warranties for families.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

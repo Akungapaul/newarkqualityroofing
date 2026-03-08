@@ -4,7 +4,7 @@ export const bellevilleEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'belleville',
   overview: [
-    'Energy-efficient roofing delivers measurable savings in Belleville where the urban heat island effect between closely-spaced homes amplifies summer cooling costs beyond what suburban homeowners experience. When buildings sit eight feet apart across entire residential blocks, the heat radiating from dark asphalt roofs creates a cumulative temperature zone that standard air conditioning systems must overcome. Upgrading to reflective roofing materials, radiant barriers, and improved ventilation reduces this thermal burden at the individual building level while contributing to neighborhood-wide temperature reduction.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Belleville — with prices starting from $10,000–$28,000 and free estimates available today. Energy-efficient roofing delivers measurable savings in Belleville where the urban heat island effect between closely-spaced homes amplifies summer cooling costs beyond what suburban homeowners experience. When buildings sit eight feet apart across entire residential blocks, the heat radiating from dark asphalt roofs creates a cumulative temperature zone that standard air conditioning systems must overcome. Upgrading to reflective roofing materials, radiant barriers, and improved ventilation reduces this thermal burden at the individual building level while contributing to neighborhood-wide temperature reduction.',
     'Belleville\'s post-war housing stock presents significant energy efficiency opportunities because most homes were built without the insulation, radiant barriers, or ventilation engineering that modern construction includes as standard. A 1950s Cape Cod in the Silver Lake neighborhood typically has R-11 attic insulation, no radiant barrier, and inadequate soffit-to-ridge ventilation that allows summer attic temperatures to exceed 140 degrees Fahrenheit. Our [energy-efficient roofing](/energy-efficient-roofing-solutions) upgrades address all three deficiencies during roof replacement, transforming the thermal performance of the entire building envelope.',
     'For Belleville\'s commercial buildings along Washington Avenue and the Belleville Turnpike, energy-efficient roofing is both a cost reduction strategy and a regulatory compliance pathway. New Jersey\'s commercial energy code increasingly requires roof insulation values that existing buildings do not meet. When these buildings undergo re-roofing, the work triggers code compliance requirements for insulation upgrade. Our commercial installations incorporate polyiso insulation layers that satisfy current code requirements while reducing heating and cooling costs by 20-40% compared to uninsulated conditions typical of Belleville\'s 1960s-1980s commercial building inventory.',
     'The financial incentives for energy-efficient roofing in [Belleville](/roofing-in-belleville-nj) include NJ Clean Energy Program rebates for qualifying insulation and reflective material upgrades, utility company incentive programs through PSE&G, and federal tax deductions for commercial building energy improvements under Section 179D. We help Belleville property owners navigate these incentive programs, identifying which upgrades qualify and assisting with the documentation required to claim available rebates and deductions. These incentives can offset 10-25% of the project cost for qualifying improvements in neighboring [Newark](/energy-efficient-roofing-solutions-newark-nj) and throughout Essex County.'
@@ -35,7 +35,25 @@ export const bellevilleEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Does energy-efficient roofing help with Belleville\'s summer heat?',
       answer: 'Significantly. Reflective shingles reduce roof surface temperature by 20-50 degrees Fahrenheit in summer, which lowers attic temperature and reduces air conditioning load. Combined with improved ventilation that moves hot air out of the attic space, these upgrades can reduce summer cooling costs by 20-30% in Belleville homes where heat island effects from adjacent buildings amplify summertime temperatures.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Belleville, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Belleville range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy-efficient roofing in Belleville NJ. Cool shingles, radiant barriers, and insulation upgrades for post-war homes and commercial buildings.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

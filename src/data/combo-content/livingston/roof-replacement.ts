@@ -4,7 +4,7 @@ export const livingstonRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Roof replacement in Livingston follows a predictable lifecycle driven by the township\'s construction history. The wave of split-levels, raised ranches, and colonials built during the 1960s and 1970s suburban expansion are now cycling through their second or third roof system, creating a steady demand for full tear-off and replacement across neighborhoods from Northland to Westminster. Each replacement presents an opportunity to correct the ventilation deficiencies, inadequate flashing details, and undersized gutter systems that original builders installed before modern building science reshaped residential roofing standards.',
+    'Newark Quality Roofing delivers expert roof replacement in Livingston — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement in Livingston follows a predictable lifecycle driven by the township\'s construction history. The wave of split-levels, raised ranches, and colonials built during the 1960s and 1970s suburban expansion are now cycling through their second or third roof system, creating a steady demand for full tear-off and replacement across neighborhoods from Northland to Westminster. Each replacement presents an opportunity to correct the ventilation deficiencies, inadequate flashing details, and undersized gutter systems that original builders installed before modern building science reshaped residential roofing standards.',
     'Livingston homeowners approach roof replacement as a planned investment rather than an emergency response. The professional families along Eisenhower Parkway and Collins Terrace typically gather multiple proposals, consult with neighbors who have recently completed projects, and evaluate long-term value alongside initial cost. This informed buyer profile means we present detailed system specifications, warranty comparisons, and lifecycle cost analyses rather than simple square-footage pricing. Property owners in [Caldwell](/roof-replacement-caldwell-nj) share this methodical approach, though Livingston\'s HOA requirements add architectural review steps that Caldwell\'s borough structure does not impose.',
     'HOA architectural review committees in Heritage Hills, Kingsland, and newer Livingston developments require pre-approval for roof replacement projects. We manage the full submission process -- color samples, product specifications, contractor licensing documentation -- so homeowners navigate the committee timeline without scrambling. Our familiarity with the shingle palettes and material standards each Livingston HOA has approved in recent years allows us to recommend products that will clear review without delays.',
     'The [roof replacement](/roof-replacement) process on Livingston homes addresses the full roof assembly from deck to ridge, including ventilation upgrades that transform stuffy attic spaces into properly balanced intake-and-exhaust systems. Split-level homes especially benefit from ventilation redesign during replacement, as their original construction often blocked soffit airflow at the transition between floor levels.'
@@ -35,7 +35,25 @@ export const livingstonRoofReplacement: ComboContent = {
     {
       question: 'Can you replace the roof on my Livingston home without damaging the landscaping?',
       answer: 'We install ground-level tarps along all eave lines to catch debris and protect planting beds, shrubs, and lawn areas. Debris chutes direct tear-off material directly into the dumpster rather than dropping it across the property. After completion, magnetic sweepers cover the entire yard, driveway, and sidewalk areas. Our crews understand that Livingston homeowners maintain their properties carefully, and the job is not complete until the grounds are restored to their pre-project condition.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Livingston, NJ?',
+      answer: 'Most roof replacement projects in Livingston range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Livingston NJ roof replacement for split-levels and colonials -- HOA-compliant installations with ventilation upgrades and premium shingle systems.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

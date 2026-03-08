@@ -4,7 +4,7 @@ export const northCaldwellSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Natural slate roofing represents the pinnacle of residential roofing materials, and North Caldwell\'s grand estates provide exactly the architectural context where slate achieves its fullest expression. The Tudor homes along Grandview Avenue, the stately colonials on Mountain Avenue, and the architect-designed residences throughout the borough carry slate roofs that anchor the property\'s visual identity with a material whose century-plus lifespan, natural variation in color and texture, and substantial physical presence cannot be replicated by any manufactured product. Our [slate roof](/slate-roof-installation-repair) work in North Caldwell encompasses both new installations on custom homes and the restoration of existing slate systems installed decades ago.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in North Caldwell — with prices starting from $20,000–$45,000 and free estimates available today. Natural slate roofing represents the pinnacle of residential roofing materials, and North Caldwell\'s grand estates provide exactly the architectural context where slate achieves its fullest expression. The Tudor homes along Grandview Avenue, the stately colonials on Mountain Avenue, and the architect-designed residences throughout the borough carry slate roofs that anchor the property\'s visual identity with a material whose century-plus lifespan, natural variation in color and texture, and substantial physical presence cannot be replicated by any manufactured product. Our [slate roof](/slate-roof-installation-repair) work in North Caldwell encompasses both new installations on custom homes and the restoration of existing slate systems installed decades ago.',
     'Sourcing slate for North Caldwell installations begins with understanding the quarry characteristics that define each slate variety. Vermont unfading green and gray-green slates provide the cool-toned elegance appropriate to colonial architecture. Pennsylvania Peach Bottom black slate delivers the dramatic contrast sought by homeowners with lighter masonry facades. Welsh purple and heathered slates, imported at premium cost, offer color profiles unavailable from domestic quarries. We maintain direct relationships with quarries and importers, specifying slate by quarry name, color designation, thickness, and surface finish to ensure that the material arriving at the North Caldwell job site matches the homeowner\'s selection exactly.',
     'Slate restoration on existing North Caldwell homes requires a different skill set than new installation. An original slate roof installed fifty or seventy years ago has developed a patina, a weathering profile, and structural relationships with the surrounding flashings, valleys, and ridge details that new work must honor. Replacement tiles must match not the quarry-fresh appearance of the original material but its current weathered state. Flashing repairs must integrate with existing copper or lead work without creating galvanic reactions. Our restoration crews bring the diagnostic sensitivity to distinguish tiles that need replacement from those that have decades of remaining service despite surface weathering -- a distinction that prevents unnecessary removal of sound material.',
     'The structural demands of natural slate inform every aspect of our North Caldwell installations. At 800 to 1,500 pounds per square, slate loads the roof structure at five to ten times the weight of asphalt shingles. Framing must be engineered for this load, sheathing must be the spaced-board type that allows moisture to escape from beneath the slate, and the fastening system must account for thermal expansion and wind uplift across the heavy individual tiles. For homes transitioning from shingles to slate, we coordinate structural reinforcement with the general contractor or structural engineer before committing to the installation.'
@@ -35,7 +35,25 @@ export const northCaldwellSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'What is the cost of a new slate roof on a North Caldwell estate?',
       answer: 'Natural slate installed on a North Caldwell home typically ranges from $1,500 to $2,500 per roofing square depending on the quarry source, tile size, thickness, and surface finish. For a 5,000-square-foot roof, total installed cost ranges from approximately $75,000 to $125,000. Premium imported slates and complex roof geometries with extensive hip and valley work push costs toward the higher end. While the initial investment is substantial, the 100-plus-year service life and the aesthetic distinction of natural stone make it the lowest cost-per-year roofing option available for homes of this caliber.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in North Caldwell, NJ?',
+      answer: 'Most slate roof installation repair projects in North Caldwell range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in North Caldwell NJ -- quarry-sourced natural slate on estate homes with copper flashings and expert craft.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

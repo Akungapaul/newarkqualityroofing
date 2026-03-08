@@ -4,7 +4,7 @@ export const cedarGroveRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Roof deck repair and replacement in Cedar Grove restores the structural foundation that supports every roofing system installed on the township\'s ranch and colonial homes. The plywood or oriented strand board sheathing that spans between rafters provides the nailing surface for shingles, the adhesion substrate for membranes, and the structural diaphragm that transfers wind and snow loads to the building frame. When this deck material deteriorates from moisture exposure, age, or impact damage, no roofing system installed above it can perform reliably.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Cedar Grove — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement in Cedar Grove restores the structural foundation that supports every roofing system installed on the township\'s ranch and colonial homes. The plywood or oriented strand board sheathing that spans between rafters provides the nailing surface for shingles, the adhesion substrate for membranes, and the structural diaphragm that transfers wind and snow loads to the building frame. When this deck material deteriorates from moisture exposure, age, or impact damage, no roofing system installed above it can perform reliably.',
     'Cedar Grove\'s housing stock carries roof decks installed during original construction in the 1950s and 1960s -- plywood panels and in some cases individual board sheathing that has absorbed moisture through failed roofing, condensation from inadequate ventilation, and ice dam water infiltration over six decades of northern Essex County weather. Our [roof deck repair](/roof-deck-repair-replacement) work in Cedar Grove addresses both the damaged sheathing and the conditions that caused the deterioration, preventing recurrence on the new deck material.',
     'Deck damage is almost always discovered during roof replacement rather than identified beforehand. Cedar Grove homeowners replacing an aging shingle system should budget for deck repair as a contingency line item, because the scope of damage beneath deteriorated roofing cannot be fully assessed until the old covering is removed. On the township\'s 1960s ranch homes, ten to twenty percent deck replacement is a common finding, with damage concentrated at eave zones, valleys, and around penetrations where water entry has been most persistent.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofDeckRepairReplacement: ComboContent = {
       question: 'Can deck damage be repaired without replacing the entire roof?',
       answer: 'Localized deck repair can be performed by removing shingles only in the damaged area, replacing the deteriorated sheathing, and reinstalling shingles. However, this is practical only when the surrounding roofing is in good condition with remaining service life. On Cedar Grove homes where deck damage has developed beneath aging shingles, full roof replacement with deck repair during tear-off is typically the most cost-effective approach.',
     },
+    {
+      question: 'How much does roof deck repair replacement cost in Cedar Grove, NJ?',
+      answer: 'Most roof deck repair replacement projects in Cedar Grove range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Cedar Grove NJ -- plywood and OSB sheathing restoration for ranch homes with moisture damage and rot.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

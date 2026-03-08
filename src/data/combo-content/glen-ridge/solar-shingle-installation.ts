@@ -4,7 +4,7 @@ export const glenRidgeSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'glen-ridge',
   overview: [
-    'Solar shingle technology holds particular promise for Glen Ridge, where the Historic Preservation Commission\'s concern about visible solar panels creates a barrier that building-integrated photovoltaics elegantly bypass. Unlike rack-mounted panels that project above the roof surface, solar shingles lie flat within the roof plane, producing electricity while presenting a profile nearly indistinguishable from conventional architectural shingles. This visual integration makes solar shingles the most preservation-compatible solar technology available to Glen Ridge homeowners who want renewable energy without compromising their home\'s historic appearance.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Glen Ridge — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology holds particular promise for Glen Ridge, where the Historic Preservation Commission\'s concern about visible solar panels creates a barrier that building-integrated photovoltaics elegantly bypass. Unlike rack-mounted panels that project above the roof surface, solar shingles lie flat within the roof plane, producing electricity while presenting a profile nearly indistinguishable from conventional architectural shingles. This visual integration makes solar shingles the most preservation-compatible solar technology available to Glen Ridge homeowners who want renewable energy without compromising their home\'s historic appearance.',
     'The current generation of solar shingles -- including products from CertainTeed, Tesla, and GAF -- has matured beyond the early-adopter stage into reliable building materials with meaningful production warranties. For Glen Ridge homes where the commission has expressed concern about traditional panel visibility, solar shingles offer a path to renewable energy that addresses the preservation objection directly. The shingle format integrates seamlessly with adjacent conventional shingles, creating a roof surface where the solar-active area is virtually undetectable from street level.',
     'Newark Quality Roofing evaluates solar shingle viability for each Glen Ridge property based on roof condition, available solar access, and the specific preservation constraints affecting the home. Because solar shingles are installed as part of the roofing system rather than mounted above it, they are most cost-effective when installed during a [roof replacement](/roof-replacement-glen-ridge-nj) project rather than as a retrofit on an existing roof. We coordinate solar shingle specification with our roofing design consultation to integrate energy production into the replacement plan from the outset.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeSolarShingleInstallation: ComboContent = {
       question: 'Can solar shingles be installed on a slate or cedar shake roof?',
       answer: 'Current solar shingle products are designed to integrate with asphalt shingle roofing systems, not with slate or cedar shake. For Glen Ridge homes carrying slate or cedar, conventional panel systems with non-penetrating mounts on non-visible roof planes remain the recommended solar approach. As solar shingle technology evolves, products compatible with premium roofing materials may become available.',
     },
+    {
+      question: 'How much does solar shingle installation cost in Glen Ridge, NJ?',
+      answer: 'Most solar shingle installation projects in Glen Ridge range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Glen Ridge NJ. Building-integrated photovoltaics for historic homes seeking preservation-compatible solar energy.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

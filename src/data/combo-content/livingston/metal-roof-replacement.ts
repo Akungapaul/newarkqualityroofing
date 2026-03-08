@@ -4,7 +4,7 @@ export const livingstonMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Metal roof replacement positions Livingston homes at the premium end of the residential roofing market with a material system engineered for 50-plus years of maintenance-free performance. Standing seam metal panels eliminate the replacement cycle that asphalt shingle homeowners face every 25 to 30 years, delivering a one-time investment that outlasts multiple shingle generations while providing superior wind resistance, fire protection, and energy performance.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Livingston — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement positions Livingston homes at the premium end of the residential roofing market with a material system engineered for 50-plus years of maintenance-free performance. Standing seam metal panels eliminate the replacement cycle that asphalt shingle homeowners face every 25 to 30 years, delivering a one-time investment that outlasts multiple shingle generations while providing superior wind resistance, fire protection, and energy performance.',
     'Livingston homeowners selecting metal roofing are making a long-term property investment decision. The installed cost exceeds asphalt shingles significantly, but the lifecycle cost over a 50-year analysis period favors metal because it eliminates one or two shingle replacement cycles during the same timeframe. For families planning to remain in their Livingston home long-term, or for homeowners investing in property value for eventual sale, metal\'s lifecycle economics justify the premium.',
     'Our [metal roof replacement](/metal-roof-replacement) installations on Livingston homes use concealed-fastener standing seam systems that accommodate thermal expansion without fastener hole stress. The panels interlock mechanically at each seam, creating a continuous weatherproof surface with no exposed fasteners, no sealant joints, and no penetration points that could develop leaks over the roof\'s multi-decade service life. Properties in [Millburn](/metal-roof-replacement-millburn-nj) frequently choose metal for its premium positioning in the luxury residential market.',
     'Aesthetic options for metal roofing on Livingston homes extend well beyond the agricultural barn appearance that metal historically conjured. Standing seam panels in 40-plus colors with Kynar 500 PVDF coatings that resist fading for 30 years provide a refined, contemporary appearance that complements both modern and traditional Livingston architectural styles. Metal profiles that replicate the look of slate, shake, or tile offer the metal performance benefits with a traditional appearance.'
@@ -35,7 +35,25 @@ export const livingstonMetalRoofReplacement: ComboContent = {
     {
       question: 'What colors are available for metal roofing on Livingston homes?',
       answer: 'Over 40 colors with Kynar 500 PVDF coatings that resist fading for 30 years. Popular Livingston selections include charcoal, slate gray, aged bronze, and colonial red. We provide physical color samples evaluated against your home\'s exterior in natural light. The color selection should coordinate with siding, trim, and the neighborhood context.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Livingston, NJ?',
+      answer: 'Most metal roof replacement projects in Livingston range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Livingston NJ -- standing seam panels for split-levels with 50-year performance, acoustic insulation, and snow retention.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

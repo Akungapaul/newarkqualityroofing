@@ -4,7 +4,7 @@ export const northCaldwellSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'north-caldwell',
   overview: [
-    'Solar shingle installations in North Caldwell appeal to estate homeowners who want solar energy generation without the visual impact of rack-mounted panel arrays on their custom-designed homes. Solar shingles integrate photovoltaic cells into a roofing product that replaces conventional shingles on designated roof sections, creating a solar-generating surface that is virtually indistinguishable from high-end architectural shingles when viewed from ground level or the approach driveways that frame these estate properties.',
+    'Newark Quality Roofing delivers expert solar shingle installation in North Caldwell — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installations in North Caldwell appeal to estate homeowners who want solar energy generation without the visual impact of rack-mounted panel arrays on their custom-designed homes. Solar shingles integrate photovoltaic cells into a roofing product that replaces conventional shingles on designated roof sections, creating a solar-generating surface that is virtually indistinguishable from high-end architectural shingles when viewed from ground level or the approach driveways that frame these estate properties.',
     'The aesthetic integration that [solar shingles](/solar-shingle-installation) provide addresses the primary reservation North Caldwell homeowners express about solar energy: visibility. On properties where the roof is a prominent architectural element visible from multiple vantage points along Mountain Avenue and Grandview Avenue, traditional panel arrays can compete visually with the roof design rather than complementing it. Solar shingles eliminate this conflict by making the solar element invisible to the casual observer.',
     'Our solar shingle work in [North Caldwell](/roofing-in-north-caldwell-nj) is typically coordinated with full re-roofing projects where the solar shingle sections replace conventional shingles on south-facing planes while the remainder of the roof receives matching non-solar architectural shingles. This whole-roof approach creates a unified appearance that integrates seamlessly with the home\'s architecture. Homeowners in neighboring [Essex Fells](/solar-shingle-installation-essex-fells-nj) express similar interest in the aesthetic integration that solar shingles provide on their estate properties.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellSolarShingleInstallation: ComboContent = {
     {
       question: 'What happens if a solar shingle is damaged on my North Caldwell home?',
       answer: 'Individual solar shingles can be replaced like conventional shingles. The damaged unit is removed and a replacement shingle is installed with the same electrical connections. Because each solar shingle operates with its own microinverter, damage to one unit does not affect production from the remaining shingles. We stock replacement units for the products we install and can typically complete repairs within one to two business days.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in North Caldwell, NJ?',
+      answer: 'Most solar shingle installation projects in North Caldwell range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in North Caldwell NJ -- integrated photovoltaic roofing for estate homes with seamless architectural appearance.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

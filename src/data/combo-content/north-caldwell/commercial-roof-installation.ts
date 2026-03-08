@@ -4,7 +4,7 @@ export const northCaldwellCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'north-caldwell',
   overview: [
-    'Commercial roof installation in North Caldwell serves the borough\'s modest commercial inventory: professional offices, medical and dental practices, small retail spaces, and municipal facilities that operate within this predominantly residential community. New [commercial roof installations](/commercial-roof-installation) here are infrequent -- occurring during new construction, major renovation, or total roof failure on existing buildings -- but they demand the same quality standards and professional execution as any commercial project in Essex County.',
+    'Newark Quality Roofing delivers expert commercial roof installation in North Caldwell — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in North Caldwell serves the borough\'s modest commercial inventory: professional offices, medical and dental practices, small retail spaces, and municipal facilities that operate within this predominantly residential community. New [commercial roof installations](/commercial-roof-installation) here are infrequent -- occurring during new construction, major renovation, or total roof failure on existing buildings -- but they demand the same quality standards and professional execution as any commercial project in Essex County.',
     'The commercial properties in North Caldwell are concentrated near the Route 23 corridor edge and the Caldwell border, where small professional buildings house the services that borough residents access locally. These buildings are modest in scale, typically 2,000 to 8,000 square feet, but their proximity to residential neighborhoods means that construction activity must respect the quiet character and aesthetic standards of the surrounding community. Commercial roof projects in neighboring [Caldwell](/commercial-roof-installation-caldwell-nj) operate within a more typical commercial district context.',
     'Our commercial installation work in [North Caldwell](/roofing-in-north-caldwell-nj) selects roofing systems appropriate to the building scale and tenant requirements. TPO or EPDM membrane for standard professional offices, PVC for buildings with restaurant or medical tenants, and standing seam metal for properties where appearance and longevity justify the premium investment. Each installation meets current energy code, wind uplift, and fire classification requirements regardless of building size.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellCommercialRoofInstallation: ComboContent = {
     {
       question: 'Can commercial roofing be done without disrupting tenant operations?',
       answer: 'Yes. We plan commercial roof installations to minimize tenant disruption. Noise-intensive work is scheduled during business hours when ambient noise levels are highest. We coordinate with building management to avoid conflicts with tenant events or operations. Membrane installation is generally quieter than tear-off, so we stage the project to complete noisy demolition quickly and transition to the quieter installation phase.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in North Caldwell, NJ?',
+      answer: 'Most commercial roof installation projects in North Caldwell range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in North Caldwell NJ -- TPO, EPDM, PVC, and metal systems for professional offices and small commercial buildings.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

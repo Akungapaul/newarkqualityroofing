@@ -4,7 +4,7 @@ export const newarkChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'newark',
   overview: [
-    'Newark\'s skyline from Branch Brook Park reveals thousands of brick chimneys rising from brownstone rooftops across the North Ward, Forest Hill, and Roseville -- silent witnesses to a century of coal heat, oil conversion, gas retrofits, and now, in many cases, decorative obsolescence. Whether your chimney still vents a furnace, serves a working fireplace, or stands as an architectural relic on a building that switched to forced air decades ago, the flashing where masonry meets roofing material is the single most leak-prone junction on any Newark roof.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Newark — with prices starting from $400–$1,500 and free estimates available today. Newark\'s skyline from Branch Brook Park reveals thousands of brick chimneys rising from brownstone rooftops across the North Ward, Forest Hill, and Roseville -- silent witnesses to a century of coal heat, oil conversion, gas retrofits, and now, in many cases, decorative obsolescence. Whether your chimney still vents a furnace, serves a working fireplace, or stands as an architectural relic on a building that switched to forced air decades ago, the flashing where masonry meets roofing material is the single most leak-prone junction on any Newark roof.',
     'Chimney flashing failure accounts for roughly a third of all residential roof leak calls we receive from Newark homeowners. The reason is mechanical: a chimney is a rigid masonry column penetrating a flexible roof plane, and every temperature cycle, wind gust, and settling event drives micro-movement between the two. In Newark\'s dense urban environment, this natural stress is compounded by the urban heat island effect -- chimney bricks absorb and radiate heat at rates that accelerate mortar deterioration and sealant breakdown faster than identical installations in surrounding suburbs.',
     'The wide chimneys on Newark\'s pre-war brownstones -- often thirty inches or more across the slope -- create a particular hydraulic challenge that smaller suburban chimneys don\'t face. Water running down the roof plane hits the upslope face of a wide chimney and pools behind it, creating hydrostatic pressure that forces water under base flashing and into the building. The solution is a cricket, also called a saddle: a peaked diverter built behind the chimney to shed water around rather than against it. Many of Newark\'s original chimney installations never included crickets, and retrofitting them is one of our most impactful chimney flashing repairs.',
     'Our chimney flashing work in Newark integrates roofing expertise with masonry knowledge, because the two disciplines are inseparable at the chimney junction. We repoint deteriorated mortar joints in the courses immediately adjacent to flashing embedments, rebuild crumbling chimney crowns that allow water to enter from above and bypass flashing entirely, and install stainless steel chimney caps that prevent rain entry into the flue. This holistic approach eliminates the common Newark scenario where a homeowner pays for flashing repair only to discover that water was also entering through the chimney crown or deteriorated mortar above the flashing line.'
@@ -40,7 +40,25 @@ export const newarkChimneyFlashingRepair: ComboContent = {
     {
       question: 'Can chimney flashing be repaired without replacing the entire roof?',
       answer: 'Yes. Chimney flashing repair is a standalone project that doesn\'t require full roof replacement. We remove shingles in the immediate chimney area -- typically two to three feet on each side and behind the chimney -- to access and replace step flashing and base flashing. New shingles are woven into the existing roof field. The only exception is when the surrounding shingles are so deteriorated that they can\'t be removed and reinstalled without breaking, which sometimes occurs on Newark roofs approaching the end of their service life. In that case, we may recommend combining flashing repair with a localized shingle replacement in the chimney zone.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Newark, NJ?',
+      answer: 'Most chimney flashing repair projects in Newark range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Newark NJ -- cricket installation, reglet counter-flashing, and mortar-compatible sealing for brownstone chimneys.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

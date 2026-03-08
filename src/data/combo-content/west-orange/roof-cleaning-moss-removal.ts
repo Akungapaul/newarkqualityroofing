@@ -4,7 +4,7 @@ export const westOrangeRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'west-orange',
   overview: [
-    'West Orange\'s dense hardwood canopy makes roof cleaning and moss removal a necessity rather than an aesthetic preference. The township\'s position against South Mountain Reservation creates extensive shade coverage across neighborhoods like Hutton Park, Crystal Lake, and South Mountain, where north-facing roof planes may receive fewer than three hours of direct sunlight during winter months. This persistent shade creates ideal conditions for moss colonization, algae streaking, and lichen establishment that physically degrade roofing materials when left untreated. Our [roof cleaning moss removal](/roof-cleaning-moss-removal) service addresses the biological threats that West Orange\'s tree canopy cultivates.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in West Orange — with prices starting from $300–$800 and free estimates available today. West Orange\'s dense hardwood canopy makes roof cleaning and moss removal a necessity rather than an aesthetic preference. The township\'s position against South Mountain Reservation creates extensive shade coverage across neighborhoods like Hutton Park, Crystal Lake, and South Mountain, where north-facing roof planes may receive fewer than three hours of direct sunlight during winter months. This persistent shade creates ideal conditions for moss colonization, algae streaking, and lichen establishment that physically degrade roofing materials when left untreated. Our [roof cleaning moss removal](/roof-cleaning-moss-removal) service addresses the biological threats that West Orange\'s tree canopy cultivates.',
     'Moss damage to West Orange roofs progresses through predictable stages. First-year colonization appears as thin green patches in shaded valleys and behind dormers -- cosmetically unappealing but not yet structurally harmful. By the second growing season, moss root networks (rhizoids) penetrate between shingle layers and begin lifting edges. By the third year, established moss colonies hold moisture against the shingle surface through freeze-thaw cycles, accelerating granule loss and mat deterioration at rates three to four times faster than sun-exposed surfaces. Homeowners in neighboring [Glen Ridge](/roof-cleaning-moss-removal-glen-ridge-nj) see similar moss progression patterns under that borough\'s mature tree canopy.',
     'Algae streaking, while less structurally damaging than moss, affects property values and energy efficiency across West Orange. The dark streaks caused by Gloeocapsa magma algae absorb solar radiation rather than reflecting it, increasing roof surface temperature and driving up cooling costs during summer months. On valley-floor homes where heat buildup is already a concern due to sheltered air circulation, algae-covered roofs can elevate attic temperatures by 10 to 15 degrees above clean-surface baselines.',
     'Our cleaning approach for [West Orange](/roofing-in-west-orange-nj) roofs uses low-pressure soft washing rather than high-pressure power washing, which strips protective granules and voids shingle warranties. The soft-wash method applies a biodegradable cleaning solution that kills moss, algae, and lichen colonies at the root level, followed by a gentle rinse that removes dead growth without damaging underlying materials. This approach is particularly critical for the historic slate and cedar shake roofs in Llewellyn Park and St. Cloud, where high-pressure washing would cause irreversible surface damage to irreplaceable materials.'
@@ -35,7 +35,25 @@ export const westOrangeRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'Are the cleaning solutions safe for my landscaping and pets?',
       answer: 'We use sodium percarbonate-based cleaning solutions that are biodegradable and break down into oxygen and water within 24 to 48 hours. We protect sensitive plantings with pre-rinse wetting and plastic sheeting during application, and we deploy runoff containment systems that capture concentrated discharge before it reaches garden beds or stormwater drains. Pets should be kept indoors during the cleaning process and for two hours after the final rinse. By the following morning, treated surfaces are safe for any contact.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in West Orange, NJ?',
+      answer: 'Most roof cleaning moss removal projects in West Orange range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in West Orange NJ. Soft-wash treatment for shaded roofs near South Mountain with zinc strip prevention.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

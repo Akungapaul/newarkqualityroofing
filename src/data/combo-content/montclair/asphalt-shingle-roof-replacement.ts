@@ -4,7 +4,7 @@ export const montclairAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Asphalt shingle roof replacement is the most common re-roofing project type in Montclair, serving the majority of homes where the existing shingle installation has reached end of life after twenty to thirty years of service. The replacement event represents both a maintenance necessity and an upgrade opportunity -- the chance to step up from the builder-grade or basic architectural shingles installed during the previous cycle to designer-series products with enhanced wind ratings, impact resistance, and the dimensional profiles that complement Montclair\'s architectural character.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Montclair — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common re-roofing project type in Montclair, serving the majority of homes where the existing shingle installation has reached end of life after twenty to thirty years of service. The replacement event represents both a maintenance necessity and an upgrade opportunity -- the chance to step up from the builder-grade or basic architectural shingles installed during the previous cycle to designer-series products with enhanced wind ratings, impact resistance, and the dimensional profiles that complement Montclair\'s architectural character.',
     'Material selection during asphalt shingle replacement carries outsized importance in [Montclair](/roofing-in-montclair-nj) because the steep-slope rooflines that define Victorian, Tudor, and Arts & Crafts homes make the shingle surface a dominant visual element from every viewing angle. Color, profile, and shadow-line depth are architectural choices as much as roofing decisions. Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) consultations provide large-format sample boards and, when possible, visits to recent installations on homes with similar architectural character so homeowners can evaluate their selection at full-roof scale.',
     'Properties in [Bloomfield](/asphalt-shingle-roof-replacement-bloomfield-nj) and [Verona](/asphalt-shingle-roof-replacement-verona-nj) face similar replacement cycles with less architectural complexity, making Montclair\'s steep-slope and designer-material focus the distinguishing characteristic of the township\'s shingle replacement market.'
   ],
@@ -30,7 +30,25 @@ export const montclairAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Should I upgrade to impact-resistant shingles during replacement?',
       answer: 'For Montclair homes with tree canopy exposure, impact-resistant Class 4 shingles provide meaningful protection against fallen branch damage and the insurance premium discount typically offsets the material premium within three to five years. We recommend impact resistance as a standard specification for canopy-exposed Montclair homes, treating it as a practical investment rather than an optional upgrade.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Montclair, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Montclair range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Montclair NJ -- designer-series upgrades for steep-slope Victorian and Tudor homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

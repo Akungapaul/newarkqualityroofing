@@ -4,7 +4,7 @@ export const montclairSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'montclair',
   overview: [
-    'Solar panel roofing installation in Montclair intersects with the township\'s progressive environmental values, its mature tree canopy reality, and the Historic Preservation Commission\'s authority over rooftop modifications on designated properties. The enthusiasm for solar energy among Montclair residents is among the highest in Essex County, but the path from intent to functioning installation navigates constraints that most suburban solar installations never encounter. Tree shade, historic preservation review, steep Victorian pitches, and complex multi-gabled rooflines all shape what a Montclair solar project can achieve and where the panels can realistically produce energy.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in Montclair — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in Montclair intersects with the township\'s progressive environmental values, its mature tree canopy reality, and the Historic Preservation Commission\'s authority over rooftop modifications on designated properties. The enthusiasm for solar energy among Montclair residents is among the highest in Essex County, but the path from intent to functioning installation navigates constraints that most suburban solar installations never encounter. Tree shade, historic preservation review, steep Victorian pitches, and complex multi-gabled rooflines all shape what a Montclair solar project can achieve and where the panels can realistically produce energy.',
     'Tree canopy analysis is the first and most consequential step in any Montclair solar assessment. The township\'s dense coverage of mature oaks, maples, and tulip poplars casts significant shade on roof surfaces throughout the day, with shade patterns that shift seasonally as sun angles change. South-facing roof planes that receive full sun in winter may be partially shaded during summer afternoons. A shading analysis using satellite imagery and sun-path modeling identifies which roof areas will actually produce meaningful solar output versus areas where canopy shade reduces production below the economic threshold. Properties in more open-canopy areas like [Caldwell](/solar-panel-roofing-installation-caldwell-nj) and [Roseland](/solar-panel-roofing-installation-roseland-nj) typically offer better solar access.',
     'Our combined [solar panel roofing](/solar-panel-roofing-installation) approach for [Montclair](/roofing-in-montclair-nj) homeowners coordinates roof replacement with solar installation to deliver both services in a single project mobilization. Installing solar panels on a roof that will need replacement within ten years creates a double-handling cost when the panels must be removed, the roof replaced, and the panels reinstalled. By combining both projects, the homeowner gets a fresh roof warrantied beneath the solar array, properly placed mounting penetrations sealed into the new roofing system, and a single project timeline that eliminates the future removal-and-reinstallation expense.',
     'New Jersey\'s solar incentives -- including the Successor Solar Incentive program, federal investment tax credit, and net metering -- make solar installation financially compelling for Montclair homeowners with adequate roof exposure, even accounting for the tree canopy limitations that reduce production compared to optimal open-sky installations.'
@@ -35,7 +35,25 @@ export const montclairSolarPanelRoofingInstallation: ComboContent = {
     {
       question: 'What solar incentives are available for Montclair homeowners?',
       answer: 'New Jersey offers the Successor Solar Incentive program providing per-kilowatt-hour credits for solar production over fifteen years. The federal Investment Tax Credit currently provides a thirty percent credit on total installation cost. Net metering allows excess production to offset utility bills at retail rates. Combined, these incentives typically reduce the effective cost of a Montclair solar installation by forty to fifty percent. We provide a financial analysis showing projected savings, payback period, and incentive values specific to each property\'s production potential.'
-    }
+    },
+    {
+      question: 'How much does solar panel roofing installation cost in Montclair, NJ?',
+      answer: 'Most solar panel roofing installation projects in Montclair range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing in Montclair NJ -- combined roof and solar installation with canopy shading analysis and HPC coordination.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

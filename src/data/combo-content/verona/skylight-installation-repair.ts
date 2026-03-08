@@ -4,7 +4,7 @@ export const veronaSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'verona',
   overview: [
-    'Skylight installation brings natural light into Verona homes where the township\'s dense tree canopy and split-level architecture often leave interior rooms darker than homeowners prefer. The upper-level bedrooms and hallways of split-levels, positioned beneath low-pitch roof sections, receive limited window light from small, high-set windows. A properly placed skylight transforms these dim spaces with overhead daylight that no window can replicate. Newark Quality Roofing installs VELUX and comparable skylights on Verona homes, integrating the opening into the existing roof system with flashing details that maintain full waterproofing integrity.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Verona — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation brings natural light into Verona homes where the township\'s dense tree canopy and split-level architecture often leave interior rooms darker than homeowners prefer. The upper-level bedrooms and hallways of split-levels, positioned beneath low-pitch roof sections, receive limited window light from small, high-set windows. A properly placed skylight transforms these dim spaces with overhead daylight that no window can replicate. Newark Quality Roofing installs VELUX and comparable skylights on Verona homes, integrating the opening into the existing roof system with flashing details that maintain full waterproofing integrity.',
     'Skylight placement on Verona split-levels requires careful evaluation of the roof structure, pitch, orientation, and interior ceiling configuration to deliver maximum light benefit without creating solar heat gain problems or structural complications. South-facing skylights provide the most daylight but may overheat upper-level rooms in summer. North-facing installations deliver consistent, glare-free light year-round. East and west orientations provide morning or afternoon light, respectively. Our [skylight installation](/skylight-installation-repair) consultations evaluate each Verona home\'s specific conditions to recommend the placement that balances light quality, energy impact, and structural feasibility.',
     'Skylight repair on existing Verona installations addresses the two most common failure modes: seal deterioration around the skylight frame and flashing failure where the skylight curb meets the surrounding shingle field. Many Verona homes carry skylights installed during the 1980s and 1990s renovation era when split-level homeowners sought to brighten their homes. These 30 to 40 year old units have outlived their seal and flashing systems, creating chronic leaks that homeowners in [Montclair](/skylight-installation-repair-montclair-nj) with similar-era installations also encounter.'
   ],
@@ -34,7 +34,25 @@ export const veronaSkylightInstallationRepair: ComboContent = {
     {
       question: 'Will a skylight make my Verona home hotter in summer?',
       answer: 'South-facing skylights can increase summer heat gain in upper-level rooms. We mitigate this through several approaches: specifying Low-E glazing that blocks infrared heat while transmitting visible light, installing skylights on north-facing planes where direct sun exposure is minimal, or adding interior shading options that the homeowner can close during peak heat hours. Properly specified skylights add minimal heat load while dramatically improving natural light quality.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Verona, NJ?',
+      answer: 'Most skylight installation repair projects in Verona range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Verona NJ -- VELUX skylights for split-level homes with proper flashing and natural light design.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

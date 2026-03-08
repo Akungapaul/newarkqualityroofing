@@ -4,7 +4,7 @@ export const eastOrangeTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'east-orange',
   overview: [
-    'Tile roofing in East Orange appears on a select group of homes that break from the city\'s dominant Victorian and colonial housing patterns. Mediterranean-influenced residences along the quieter blocks of Prospect Street, Spanish Revival detailing on homes in the Ampere neighborhood, and occasional mission-style buildings near the city\'s institutional zones carry clay or concrete tile roofs that their original builders specified for architectural distinction. These buildings stand out on their blocks precisely because tile is uncommon in East Orange, and the material\'s longevity means most original tile installations remain in service -- damaged but repairable, weathered but structurally sound.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in East Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in East Orange appears on a select group of homes that break from the city\'s dominant Victorian and colonial housing patterns. Mediterranean-influenced residences along the quieter blocks of Prospect Street, Spanish Revival detailing on homes in the Ampere neighborhood, and occasional mission-style buildings near the city\'s institutional zones carry clay or concrete tile roofs that their original builders specified for architectural distinction. These buildings stand out on their blocks precisely because tile is uncommon in East Orange, and the material\'s longevity means most original tile installations remain in service -- damaged but repairable, weathered but structurally sound.',
     'Tile roof repair in East Orange requires specialized skills that general roofing contractors rarely possess. Individual broken tiles must be removed without disturbing the surrounding tiles, replacement pieces must match the profile, color, and dimensions of the existing installation, and reinstallation must preserve the interlocking pattern that makes tile roofing weather-resistant. The underlayment beneath tile roofs has a finite lifespan -- typically 30 to 40 years -- and may need replacement even when the tiles themselves have decades of remaining service life. Accessing the underlayment requires systematic tile removal and reinstallation, a process that demands careful handling to minimize breakage of irreplaceable original tiles.',
     'For East Orange homeowners considering tile for a new installation, the material represents a generational investment. Clay tile roofs routinely exceed 75 years of service life, and concrete tiles commonly last 50 or more years. On a property expected to remain in the family or serve as a long-term investment, tile\'s upfront cost premium over asphalt shingles is offset by the elimination of re-roofing cycles that shingle roofs require every 25 to 30 years. The structural requirements of tile -- it is substantially heavier than any other residential roofing material -- must be verified before specification, particularly on East Orange\'s older wood-framed buildings where original framing may not support the added weight without reinforcement.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeTileRoofInstallationRepair: ComboContent = {
     {
       question: 'Is tile roofing appropriate for East Orange\'s climate?',
       answer: 'Both clay and concrete tiles perform well in the Northeast climate when properly installed with freeze-thaw considerations addressed. The key installation detail is adequate underlayment beneath the tiles, because wind-driven rain and snowmelt can penetrate between tiles and must be intercepted by the waterproofing layer below. East Orange installations also require ice-and-water shield at all eaves and valleys to prevent ice dam damage to the underlayment. With these climate-appropriate details, tile provides exceptional performance and longevity.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in East Orange, NJ?',
+      answer: 'Most tile roof installation repair projects in East Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair for East Orange NJ homes -- clay and concrete tile restoration, underlayment renewal, and structural load assessment.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

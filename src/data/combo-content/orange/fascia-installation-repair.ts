@@ -4,7 +4,7 @@ export const orangeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'orange',
   overview: [
-    'Fascia boards form the visible edge of Orange\'s rooflines and serve as the structural mounting surface for gutter systems -- a dual role that makes fascia condition critical to both aesthetics and drainage function. Our [fascia installation and repair](/fascia-installation-repair) work across Orange addresses the rot, pest damage, and paint failure that deteriorates fascia boards on the city\'s aging housing stock, particularly on homes where overflowing gutters have been saturating the fascia for years before the underlying problem was identified.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Orange — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards form the visible edge of Orange\'s rooflines and serve as the structural mounting surface for gutter systems -- a dual role that makes fascia condition critical to both aesthetics and drainage function. Our [fascia installation and repair](/fascia-installation-repair) work across Orange addresses the rot, pest damage, and paint failure that deteriorates fascia boards on the city\'s aging housing stock, particularly on homes where overflowing gutters have been saturating the fascia for years before the underlying problem was identified.',
     'Orange\'s proximity to South Mountain creates a fascia deterioration cycle specific to tree-canopy neighborhoods. Clogged gutters overflow backward onto fascia boards, keeping the wood saturated for extended periods. The persistent moisture promotes wood rot, attracts carpenter ants and termites, and causes paint to peel and blister. By the time the homeowner notices visible fascia damage, the wood behind the gutter may have rotted through to the rafter tails -- requiring structural repair beyond simple board replacement. Our fascia inspections in Orange always include removal of gutter sections to check the condition of the hidden fascia surface behind.',
     'For Scotland Road\'s Victorian homes, fascia boards are decorative architectural elements with molding profiles, returns, and cornices that contribute to the home\'s historic character. Repairing or replacing fascia on these properties requires matching the original profile -- either milling custom boards to replicate the existing molding or sourcing compatible millwork from architectural salvage suppliers. Standard flat fascia board from a lumber yard is architecturally inappropriate for these homes and diminishes their historic character. Properties in [Montclair](/fascia-installation-repair-montclair-nj) with similar Victorian architecture require the same profile-matching approach.'
   ],
@@ -34,7 +34,25 @@ export const orangeFasciaInstallationRepair: ComboContent = {
     {
       question: 'Can you replace fascia without removing my gutters?',
       answer: 'Gutters must be temporarily removed to access the fascia behind them. This is actually beneficial -- it allows us to inspect fascia condition behind the gutter where damage is worst, upgrade gutter hangers, and correct gutter slope during reinstallation. Gutter removal and reinstallation are included in our fascia replacement scope.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in Orange, NJ?',
+      answer: 'Most fascia installation repair projects in Orange range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Orange NJ -- rot repair behind gutters, Victorian profile matching, carpenter ant treatment, and PVC zero-maintenance options.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

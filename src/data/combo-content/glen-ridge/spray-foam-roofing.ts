@@ -4,7 +4,7 @@ export const glenRidgeSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'glen-ridge',
   overview: [
-    'Spray foam roofing in Glen Ridge offers a specialized solution for flat and low-slope roof sections where seamless waterproofing and built-in insulation deliver combined benefits that separate membrane-and-insulation systems cannot match. The borough\'s institutional buildings, school annexes, and select residential flat-roof sections benefit from SPF\'s monolithic application that conforms to irregular substrates -- a particular advantage on century-old Glen Ridge buildings where roof decks have developed undulations and irregularities over decades of service that make sheet membrane installation problematic.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Glen Ridge — with prices starting from $4–$8/sq ft and free estimates available today. Spray foam roofing in Glen Ridge offers a specialized solution for flat and low-slope roof sections where seamless waterproofing and built-in insulation deliver combined benefits that separate membrane-and-insulation systems cannot match. The borough\'s institutional buildings, school annexes, and select residential flat-roof sections benefit from SPF\'s monolithic application that conforms to irregular substrates -- a particular advantage on century-old Glen Ridge buildings where roof decks have developed undulations and irregularities over decades of service that make sheet membrane installation problematic.',
     'The insulation value inherent in spray foam roofing addresses a persistent challenge in Glen Ridge\'s older buildings: thermal performance. Many of the borough\'s institutional structures lack adequate roof insulation by modern standards, and adding conventional insulation beneath a new roof membrane requires removing the existing system, installing insulation boards, and then applying new membrane -- a multi-step process with significant cost and disruption. SPF achieves re-roofing and insulation upgrade in a single application, reducing project duration and cost while delivering R-values that transform energy performance.',
     'Glen Ridge\'s compact project scale aligns well with spray foam application. SPF equipment can be staged in tight spaces, and the application process generates less noise and disruption than tear-off-and-replace alternatives. For schools where roofing work must occur during summer breaks, SPF\'s faster installation timeline maximizes the work window. Our [roof inspection](/roof-inspection-glen-ridge-nj) services can determine whether your existing flat roof is a candidate for SPF overlay versus full replacement, helping Glen Ridge building owners make informed investment decisions.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeSprayFoamRoofing: ComboContent = {
       question: 'Can spray foam be applied over my existing flat roof?',
       answer: 'In many cases yes, provided the existing roof deck is structurally sound and free of trapped moisture. SPF overlay eliminates the cost and disruption of full tear-off, reducing project duration significantly. Our inspection process includes infrared moisture scanning to verify that the existing system is suitable for foam overlay.',
     },
+    {
+      question: 'How much does spray foam roofing cost in Glen Ridge, NJ?',
+      answer: 'Most spray foam roofing projects in Glen Ridge range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Glen Ridge NJ. Seamless SPF systems with built-in insulation for institutional and commercial flat roofs.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

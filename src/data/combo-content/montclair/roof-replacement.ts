@@ -4,7 +4,7 @@ export const montclairRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Roof replacement in Montclair is rarely a simple material swap -- it is a restoration decision that ripples through the architectural identity of each home and, by extension, each block. From the grand Queen Anne residences along North Mountain Avenue to the restrained Colonial Revivals near Watchung Plaza, the roof defines a home\'s visual signature more dramatically in Montclair than in any other Essex County township. When that roof reaches end of life, the replacement specification must reconcile the original architect\'s intention with twenty-first-century performance standards, an equation that demands both craft knowledge and material science.',
+    'Newark Quality Roofing delivers expert roof replacement in Montclair — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement in Montclair is rarely a simple material swap -- it is a restoration decision that ripples through the architectural identity of each home and, by extension, each block. From the grand Queen Anne residences along North Mountain Avenue to the restrained Colonial Revivals near Watchung Plaza, the roof defines a home\'s visual signature more dramatically in Montclair than in any other Essex County township. When that roof reaches end of life, the replacement specification must reconcile the original architect\'s intention with twenty-first-century performance standards, an equation that demands both craft knowledge and material science.',
     'Victorian-era homes in Upper Montclair and along the ridge present the most consequential replacement decisions. Original slate roofs installed in the 1880s through 1910s have often survived a century or more, but when the underlying nail beds corrode and the flashing network fails simultaneously, wholesale replacement becomes more economical than perpetual individual-slate repair. The homeowner faces a pivotal choice: invest in a new natural slate roof that preserves the home\'s architectural integrity for another century, or transition to a high-end architectural shingle that mimics the slate profile at roughly one-third the installed cost. Our consultations for these properties include long-horizon cost analysis, Historic Preservation Commission guidance for designated properties, and material samples viewed at full-roof scale rather than from small chips.',
     'Arts & Crafts bungalows and Tudor Revival homes throughout the South End and Watchung Plaza neighborhoods require replacement specifications that honor their handcrafted character. The broad overhanging eaves of a Craftsman bungalow demand materials with the visual weight to anchor the roofline -- lightweight three-tab shingles look incongruous on these heavily detailed homes. Tudor homes with their complex intersecting gable patterns create more lineal feet of valley, hip, and ridge detail per square foot of roof area than any other style, making the replacement labor component disproportionately large relative to material cost. Understanding these architectural realities before pricing prevents the sticker shock that generic roof replacement estimates produce.',
     'Mid-century modern homes scattered through Montclair\'s post-war neighborhoods along the Valley area and toward the Cedar Grove border introduce flat-roof and low-slope replacement challenges. Original built-up roofing on these homes has typically been recovered once or twice with additional membrane layers, and the accumulated weight and moisture-trapping potential of these layered systems often necessitates full tear-off to the original structural deck. The replacement specification for mid-century flat sections -- TPO, EPDM, or modified bitumen -- must address drainage pitch correction, insulation upgrades to current energy code, and integration with any sloped sections where the home transitions from flat to pitched geometry.'
@@ -39,7 +39,25 @@ export const montclairRoofReplacement: ComboContent = {
     {
       question: 'Can I replace just part of my Montclair roof or does it need to be the entire roof?',
       answer: 'Partial replacement is appropriate when one section has failed while others remain serviceable -- a common scenario on Montclair homes where south-facing slopes age faster than shaded north-facing sections. The challenge is matching new material to weathered existing material on the remaining sections. We source shingle colors that blend with aged installations and, for slate roofs, maintain salvaged slate inventory for partial replacements. If more than forty percent of the roof requires replacement, full replacement is typically more cost-effective than patchwork that leaves aging material in place.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Montclair, NJ?',
+      answer: 'Most roof replacement projects in Montclair range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Montclair NJ roof replacement for Victorian slate, Tudor shingle, and mid-century flat roofs -- HPC guidance, tree logistics, steep-slope expertise.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

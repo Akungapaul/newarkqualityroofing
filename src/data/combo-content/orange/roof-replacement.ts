@@ -4,7 +4,7 @@ export const orangeRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'orange',
   overview: [
-    'A roof replacement in Orange is a precision operation shaped by the city\'s compact geography. At just 2.2 square miles, Orange packs its housing stock tightly -- colonials on 30-foot lots along Oakwood Avenue, Victorians with steep cross-gables on Scotland Road, and mixed-use buildings lining Main Street with zero setback from the sidewalk. Dumpster placement, material delivery timing, and debris containment all require advance planning that accounts for Orange\'s narrow side yards and close neighbors. Our [roof replacement](/roof-replacement) teams have developed staging protocols specifically for these conditions, because the techniques that work on a half-acre suburban lot fail on an Orange side street.',
+    'Newark Quality Roofing delivers expert roof replacement in Orange — with prices starting from $8,500–$25,000+ and free estimates available today. A roof replacement in Orange is a precision operation shaped by the city\'s compact geography. At just 2.2 square miles, Orange packs its housing stock tightly -- colonials on 30-foot lots along Oakwood Avenue, Victorians with steep cross-gables on Scotland Road, and mixed-use buildings lining Main Street with zero setback from the sidewalk. Dumpster placement, material delivery timing, and debris containment all require advance planning that accounts for Orange\'s narrow side yards and close neighbors. Our [roof replacement](/roof-replacement) teams have developed staging protocols specifically for these conditions, because the techniques that work on a half-acre suburban lot fail on an Orange side street.',
     'The NJ Transit Orange station on the Morris and Essex Line has fueled a wave of home purchases by commuters seeking affordable alternatives to neighboring South Orange and Maplewood. These new homeowners typically prioritize the roof as their first major capital improvement, and we see a steady pipeline of replacement projects from recent buyers addressing decades of deferred maintenance. Many of these homes -- built in the 1930s through 1950s -- are on their third roof, with architectural shingles installed in the late 1990s now curling, losing granules, and failing at flashings. Our standard Orange residential replacement includes full tear-off, deck inspection and repair, ice and water shield at all eaves and valleys, and GAF or CertainTeed architectural shingles backed by a 50-year warranty.',
     'Main Street\'s commercial corridor presents replacement challenges distinct from residential work. Two- and three-story buildings with ground-floor retail and upper-floor apartments need phased installations that maintain business operations below while the crew works overhead. The flat roofs on these structures have accumulated layers of patching over decades -- built-up, modified bitumen, and elastomeric coatings stacked in succession. A proper replacement strips everything to the structural deck, addresses any deterioration beneath, installs new insulation, and applies a modern TPO or EPDM membrane that will perform for 25 years without the patching cycle that plagued the previous systems.',
     'Orange homeowners considering replacement should understand how South Mountain Reservation shapes material selection. Properties along Hillyer Street, South Valley Road, and the streets approaching the reservation face relentless tree debris -- falling branches, leaf accumulation, and heavy shade that promotes biological growth. We recommend impact-resistant shingles rated for Class 4 hail on these properties, which also withstand branch impacts far better than standard architectural shingles. The modest premium for impact-rated materials typically pays for itself within five years through reduced repair costs and lower insurance premiums. Homeowners in nearby [West Orange](/roof-replacement-west-orange-nj) face similar tree exposure on the mountain\'s western slopes.'
@@ -40,7 +40,25 @@ export const orangeRoofReplacement: ComboContent = {
     {
       question: 'Do you replace roofs on Orange Main Street commercial buildings?',
       answer: 'Yes. We have replaced multiple Main Street commercial roofs with TPO and EPDM membrane systems. We phase the work to maintain business operations below, coordinate schedules with tenants and property managers, and install rooftop equipment curbing and walkway pads as needed. Main Street replacements include enhanced edge metal and parapet flashing details suited to these older commercial structures.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Orange, NJ?',
+      answer: 'Most roof replacement projects in Orange range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement in Orange NJ -- tight-lot staging, Valley moisture management, Main Street commercial TPO, and South Mountain impact-resistant shingles.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

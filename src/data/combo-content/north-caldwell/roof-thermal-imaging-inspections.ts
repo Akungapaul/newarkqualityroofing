@@ -4,7 +4,7 @@ export const northCaldwellRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'north-caldwell',
   overview: [
-    'Thermal imaging inspections on North Caldwell properties reveal conditions that visual inspection cannot detect: moisture trapped beneath intact roof membranes, insulation gaps hidden beneath finished ceilings, and heat loss pathways through complex building envelopes that contribute to ice dam formation and energy waste. The infrared camera translates temperature differences into visible patterns that pinpoint precisely where the roof system is underperforming.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in North Caldwell — with prices starting from $300–$700 and free estimates available today. Thermal imaging inspections on North Caldwell properties reveal conditions that visual inspection cannot detect: moisture trapped beneath intact roof membranes, insulation gaps hidden beneath finished ceilings, and heat loss pathways through complex building envelopes that contribute to ice dam formation and energy waste. The infrared camera translates temperature differences into visible patterns that pinpoint precisely where the roof system is underperforming.',
     'Our [thermal imaging inspection](/roof-thermal-imaging-inspections) service in North Caldwell serves both commercial and residential applications. For the borough\'s small commercial buildings, thermal imaging locates saturated insulation beneath flat roof membranes that appear intact from the surface -- directing repair to the specific zones that need attention rather than coating or replacing the entire roof. For estate homes, thermal imaging maps heat loss through the roof assembly during winter, identifying the specific insulation deficiencies and air leakage paths that cause ice dams and energy waste.',
     'The technology provides particular value on [North Caldwell](/roofing-in-north-caldwell-nj) estate homes where the complexity and scale of the roof system makes visual inspection insufficient for comprehensive condition assessment. A 6,000-square-foot colonial with six dormer clusters and multiple attic compartments has too many potential failure points for visual inspection alone to evaluate reliably. Thermal imaging scans the entire roof area in a fraction of the time, flagging anomalies that direct targeted investigation to the specific locations where problems exist. Property owners in [Essex Fells](/roof-thermal-imaging-inspections-essex-fells-nj) use thermal imaging for similar diagnostic purposes on their estate properties.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofThermalImagingInspections: ComboContent = {
     {
       question: 'What does a thermal imaging inspection cost for a North Caldwell estate?',
       answer: 'The inspection fee covers drone and handheld scanning, data analysis, and a comprehensive report with annotated images and prioritized recommendations. For North Caldwell estates, the fee reflects the larger roof area and greater complexity compared to standard residential inspections. The investment typically pays for itself by directing repair spending to documented problems rather than speculative areas, eliminating wasted repair costs on conditions that visual inspection alone would misjudge.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in North Caldwell, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in North Caldwell range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in North Caldwell NJ -- infrared diagnostics for estate home heat loss and commercial moisture detection.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

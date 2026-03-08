@@ -4,7 +4,7 @@ export const essexFellsWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'essex-fells',
   overview: [
-    'Wood shake roofing complements the naturalistic estate character of Essex Fells in a way that few other materials achieve. The hand-split texture and organic irregularity of quality wood shakes integrate visually with the borough\'s dense hardwood canopy, fieldstone walls, and specimen plantings to create a roofscape that appears to emerge from its woodland setting rather than being imposed upon it. Properties along Winding Way, Oak Lane, and the wooded interior sections of Devon Road carry wood shake roofs that their architects specified precisely for this quality of integration -- a design choice that acknowledges the landscape as the dominant aesthetic element and positions the home within it rather than above it.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Essex Fells — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing complements the naturalistic estate character of Essex Fells in a way that few other materials achieve. The hand-split texture and organic irregularity of quality wood shakes integrate visually with the borough\'s dense hardwood canopy, fieldstone walls, and specimen plantings to create a roofscape that appears to emerge from its woodland setting rather than being imposed upon it. Properties along Winding Way, Oak Lane, and the wooded interior sections of Devon Road carry wood shake roofs that their architects specified precisely for this quality of integration -- a design choice that acknowledges the landscape as the dominant aesthetic element and positions the home within it rather than above it.',
     'Wood shake selection for Essex Fells encompasses multiple species and cut methods that produce distinctly different visual and performance characteristics. Hand-split shakes from Western Red Cedar, White Cedar, and Alaskan Yellow Cedar each offer unique grain patterns, color tones, and weathering trajectories. Hand-split shakes with their irregular, dimensional surfaces convey rustic authenticity suited to estate homes with natural stone and heavy timber detailing. Taper-sawn shakes provide a more uniform appearance appropriate for homes where controlled texture is preferred over dramatic relief. The species and cut method selected determine the roof\'s initial appearance, its weathering pattern over the first decade, and its ultimate service life.',
     'The maintenance reality of wood shake roofing in Essex Fells\' heavily canopied environment deserves honest discussion before material commitment. Wood shake performs beautifully when properly maintained but deteriorates rapidly when neglected, and Essex Fells\' perpetual shade, high humidity beneath canopy cover, and heavy organic debris loading create maintenance demands that exceed most other residential settings. We present homeowners with a complete ownership cost picture that includes installation, scheduled maintenance treatments, periodic shake replacement, and eventual full re-roofing, so the material decision accounts for the total commitment rather than just the installation price.',
     'Our [wood shake roofing](/wood-shake-roofing) expertise extends throughout the wooded communities of western Essex County. Homeowners in [Cedar Grove](/wood-shake-roofing-cedar-grove-nj) and the surrounding municipalities benefit from the same premium species sourcing and craft installation methods we apply to Essex Fells estate properties.'
@@ -35,7 +35,25 @@ export const essexFellsWoodShakeRoofing: ComboContent = {
     {
       question: 'Can you maintain a wood shake roof installed by another contractor?',
       answer: 'We maintain wood shake roofs regardless of the original installer. Our initial assessment documents the existing installation -- species, grade, exposure, fastening method, ventilation system, and current condition -- establishing the baseline for ongoing care. If we identify installation deficiencies during assessment, we report them with correction recommendations. Our maintenance programs include cleaning, preservative treatment, individual shake replacement, and detailed condition reporting that tracks the roof\'s performance over time.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Essex Fells, NJ?',
+      answer: 'Most wood shake roofing projects in Essex Fells range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Essex Fells NJ -- hand-split installation for wooded estate properties with maintenance programs for canopy conditions.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

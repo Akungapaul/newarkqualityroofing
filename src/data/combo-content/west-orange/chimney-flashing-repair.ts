@@ -4,7 +4,7 @@ export const westOrangeChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'west-orange',
   overview: [
-    'Chimney flashing repair addresses one of the most persistent leak sources on West Orange homes, where the intersection of masonry chimney and roofing surface creates a complex waterproofing challenge amplified by the township\'s elevation-driven weather stresses. Our [chimney flashing repair](/chimney-flashing-repair) work in West Orange treats the full chimney-to-roof junction as an integrated system -- step flashing, counter-flashing, cricket diverters, and sealant connections working together to keep water outside the building envelope.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in West Orange — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair addresses one of the most persistent leak sources on West Orange homes, where the intersection of masonry chimney and roofing surface creates a complex waterproofing challenge amplified by the township\'s elevation-driven weather stresses. Our [chimney flashing repair](/chimney-flashing-repair) work in West Orange treats the full chimney-to-roof junction as an integrated system -- step flashing, counter-flashing, cricket diverters, and sealant connections working together to keep water outside the building envelope.',
     'West Orange\'s older housing stock carries chimneys that have weathered 50 to 100 years of Essex County storms, with original mortar joints and flashing details that have deteriorated well beyond their intended service life. Step flashing embedded in crumbling mortar loses its seal as joints erode; counter-flashing pulled away from deteriorating masonry creates gaps that channel water directly into the wall cavity. Repairing these aged chimney flashings requires addressing both the metal flashing and the masonry condition simultaneously, because new flashing installed into failing mortar will fail just as quickly as the original.',
     'Ridge-top homes along Eagle Rock Avenue experience amplified chimney flashing stress from sustained wind that drives rain horizontally into gaps that gravity drainage cannot reach. The upslope face of chimneys on windward-facing roof planes absorbs direct wind-driven rain pressure that forces water behind standard flashing details. Our ridge-top chimney repairs include enhanced cricket diverters and extended counter-flashing coverage that account for this horizontal rain vector unique to West Orange\'s exposed elevations. Homeowners near [Cedar Grove](/chimney-flashing-repair-cedar-grove-nj) face similar ridge-top chimney exposure along the northern Watchung corridor.',
     'The mid-slope split-level neighborhoods present a distinctive chimney flashing scenario: chimneys located at the level-change wall where upper and lower roof sections intersect. These chimneys sit in the most complex waterproofing zone on any [West Orange](/roofing-in-west-orange-nj) split-level, where chimney flashing must integrate with step flashing at the level change, valley flashing where roof planes converge, and the chimney cricket that diverts water around the upslope face.'
@@ -35,7 +35,25 @@ export const westOrangeChimneyFlashingRepair: ComboContent = {
     {
       question: 'How much does chimney flashing repair cost in West Orange?',
       answer: 'Chimney flashing repair costs vary based on chimney size, masonry condition, and cricket requirements. Basic step and counter-flashing replacement on a standard single-flue chimney with sound masonry is a moderate repair. Adding cricket construction, masonry tuckpointing, or custom copper flashing increases the scope and cost proportionally. We provide detailed estimates that break out each component, so you understand exactly what work is included and why each element contributes to a lasting repair.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in West Orange, NJ?',
+      answer: 'Most chimney flashing repair projects in West Orange range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in West Orange NJ. Step flashing, counter-flashing, and cricket installation for leak-free chimney junctions.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

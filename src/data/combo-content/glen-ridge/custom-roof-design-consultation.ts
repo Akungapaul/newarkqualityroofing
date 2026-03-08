@@ -4,7 +4,7 @@ export const glenRidgeCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'glen-ridge',
   overview: [
-    'Custom roof design consultation in Glen Ridge is not a luxury -- it is a practical necessity. The borough\'s Historic Preservation Commission requires material and design decisions that align with each home\'s architectural period, the surrounding streetscape, and the preservation standards that protect one of New Jersey\'s most cohesive historic districts. Newark Quality Roofing provides expert consultation that navigates this approval process while helping homeowners select materials, colors, and details that honor their home\'s heritage and satisfy their practical requirements for weather protection and longevity.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Glen Ridge — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Glen Ridge is not a luxury -- it is a practical necessity. The borough\'s Historic Preservation Commission requires material and design decisions that align with each home\'s architectural period, the surrounding streetscape, and the preservation standards that protect one of New Jersey\'s most cohesive historic districts. Newark Quality Roofing provides expert consultation that navigates this approval process while helping homeowners select materials, colors, and details that honor their home\'s heritage and satisfy their practical requirements for weather protection and longevity.',
     'Every Glen Ridge roofing project benefits from design consultation that considers the full context: the home\'s original construction period, the roofing materials used on neighboring properties, the visibility of each roof plane from the street, and the Historic Preservation Commission\'s current interpretive guidance. A Victorian home on Ridgewood Avenue with original slate demands different material specifications than an Edwardian home on Forest Avenue that originally carried cedar shake. Our consultations establish these distinctions clearly, preventing homeowners from investing in materials that the commission will reject or that clash with the neighborhood character that gives Glen Ridge its extraordinary property values.',
     'We structure our Glen Ridge consultations as collaborative sessions where homeowners explore material options, review actual samples against their existing roof, and understand the commission approval timeline before making financial commitments. This approach saves money by preventing specification changes after approval, avoids delays caused by incomplete applications, and builds homeowner confidence that their investment will satisfy both preservation standards and performance requirements. Homeowners in neighboring [Montclair](/custom-roof-design-consultation-montclair-nj) benefit from similar HPC consultation, though Glen Ridge\'s standards carry their own distinct expectations.',
   ],
@@ -30,6 +30,24 @@ export const glenRidgeCustomRoofDesignConsultation: ComboContent = {
       question: 'Can you help me choose a roof color that the Glen Ridge commission will approve?',
       answer: 'Absolutely. Color selection is one of the most common areas where homeowners need guidance navigating commission expectations. We maintain current knowledge of which colors and finishes the commission has approved in recent decisions, and we provide actual material samples for comparison against your home and its neighbors. This informed selection process typically results in first-submission approval.',
     },
+    {
+      question: 'How much does custom roof design consultation cost in Glen Ridge, NJ?',
+      answer: 'Most custom roof design consultation projects in Glen Ridge range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Glen Ridge NJ. Historic Preservation Commission guidance, material selection, and approval coordination.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Asphalt shingle roof replacement is the most common re-roofing service in West Orange, where the majority of residential homes carry architectural shingles reaching the end of their 25 to 30-year service life. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) work in West Orange uses premium architectural shingles from GAF, Owens Corning, and CertainTeed, specified with the wind ratings, impact resistance, and algae protection appropriate for each property\'s elevation zone.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in West Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common re-roofing service in West Orange, where the majority of residential homes carry architectural shingles reaching the end of their 25 to 30-year service life. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) work in West Orange uses premium architectural shingles from GAF, Owens Corning, and CertainTeed, specified with the wind ratings, impact resistance, and algae protection appropriate for each property\'s elevation zone.',
     'Ridge-top West Orange homes receive asphalt shingles rated for 130-mph wind resistance with six-nail fastening patterns that exceed the standard four-nail pattern adequate for sheltered locations. This wind-rated specification addresses the 15 to 20 percent higher wind speeds that Eagle Rock elevation homes endure during nor\'easters, providing the mechanical resistance that standard shingles cannot sustain through repeated high-wind events. Homeowners near [Cedar Grove](/asphalt-shingle-roof-replacement-cedar-grove-nj) follow similar wind-rated specifications along the northern Watchung ridge.',
     'Mid-slope split-level homes along Gregory Avenue and Main Street benefit from shingle upgrades that address the ice dam exposure unique to their level-change architecture. SBS-modified shingles with enhanced flexibility maintain adhesive seal strength through freeze-thaw cycling that causes standard shingles to become brittle and lift. Combined with ice-and-water shield at level-change transitions, these modified shingles provide the comprehensive ice dam defense that [West Orange](/roofing-in-west-orange-nj) split-levels require.'
   ],
@@ -34,7 +34,25 @@ export const westOrangeAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Should I upgrade from 3-tab to architectural shingles?',
       answer: 'Yes. Architectural shingles provide 25 to 30-year warranties versus 20 to 25 for 3-tab, significantly higher wind resistance due to heavier weight and laminated construction, and substantially better curb appeal with dimensional shadow lines. The cost premium for architectural over 3-tab is modest relative to the total project cost and is recovered through extended service life, higher property value contribution, and reduced insurance premiums with higher wind-resistance ratings.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in West Orange, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in West Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in West Orange NJ. GAF, Owens Corning, and CertainTeed with wind-rated specs for every elevation.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

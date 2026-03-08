@@ -4,7 +4,7 @@ export const bloomfieldGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Gutter systems on Bloomfield homes handle a straightforward but relentless job: managing the rainwater and snowmelt that rolls off the asphalt shingle roofs covering nearly every residential property in the township. The typical Bloomfield gutter installation serves a Cape Cod, split-level, or colonial on a standard-sized lot -- homes where the roof area, pitch angle, and discharge requirements fall within a predictable range that seamless aluminum gutters address efficiently and economically. The challenge isn\'t engineering exotic solutions for complex architecture; it\'s delivering reliable, durable gutter systems at a value point that Bloomfield homeowners can budget for as part of normal home maintenance.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Bloomfield — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems on Bloomfield homes handle a straightforward but relentless job: managing the rainwater and snowmelt that rolls off the asphalt shingle roofs covering nearly every residential property in the township. The typical Bloomfield gutter installation serves a Cape Cod, split-level, or colonial on a standard-sized lot -- homes where the roof area, pitch angle, and discharge requirements fall within a predictable range that seamless aluminum gutters address efficiently and economically. The challenge isn\'t engineering exotic solutions for complex architecture; it\'s delivering reliable, durable gutter systems at a value point that Bloomfield homeowners can budget for as part of normal home maintenance.',
     'Leaf management is the dominant gutter maintenance concern across Bloomfield\'s residential neighborhoods. While the township\'s tree canopy is less dense than Montclair\'s protected forest, Bloomfield\'s mature suburban plantings -- oaks, maples, sweet gums, and sycamores in yards and along streets -- produce substantial seasonal leaf fall that clogs gutters and downspouts. The difference in Bloomfield is that homeowners approach this as a practical maintenance problem, not an aesthetic or preservation concern. They want gutter guards that actually work, cleaning schedules that prevent overflow damage, and gutter systems tough enough to handle the debris load without bending, sagging, or pulling away from the fascia under the weight of wet leaves.',
     'Split-level homes in Bloomfield create gutter configurations that single-story or uniform two-story homes do not. The step-down between roof levels requires a gutter run on the lower roof that receives both its own rainfall and the concentrated discharge from the upper roof\'s gutter system. If the upper gutter downspout dumps directly onto the lower roof surface, the splash impact accelerates shingle wear at the discharge point and overwhelms the lower gutter during heavy rain. Proper split-level gutter design routes the upper downspout into the lower gutter system through a direct connection, maintaining controlled flow and preventing the roof surface erosion that unmanaged discharge causes.',
     'Bloomfield\'s commercial properties along Bloomfield Avenue and in the GSP-adjacent commercial zones rely on gutters and scupper-conductor systems to drain their flat and low-slope roofs. These commercial drainage systems often receive less maintenance attention than residential gutters, leading to clogged internal drains, backed-up scuppers, and ponding water that accelerates roof membrane deterioration. Our commercial gutter and drainage services for Bloomfield businesses include condition assessment of existing systems, repair or replacement of corroded conductors and failed scuppers, and installation of overflow provisions that prevent interior water damage when primary drains clog during heavy storm events.'
@@ -40,7 +40,25 @@ export const bloomfieldGutterInstallationRepair: ComboContent = {
     {
       question: 'How do you handle gutter drainage on my split-level home in Bloomfield?',
       answer: 'Split-level gutter design requires connecting the upper roof\'s downspout into the lower gutter system rather than dumping water onto the lower roof surface. We route a downspout from the upper gutter into a sealed connection at the lower gutter, maintaining controlled flow throughout the system. The lower gutter is sized to handle the combined volume from both roof levels. This prevents the splash erosion on lower roof shingles and gutter overflow that occur when the upper discharge is unmanaged.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Bloomfield, NJ?',
+      answer: 'Most gutter installation repair projects in Bloomfield range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Bloomfield NJ gutter installation and repair -- seamless aluminum for Cape Cods and split-levels, fascia repair, and practical leaf management solutions.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

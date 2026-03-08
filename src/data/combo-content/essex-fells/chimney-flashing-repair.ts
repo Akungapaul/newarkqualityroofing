@@ -4,7 +4,7 @@ export const essexFellsChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'essex-fells',
   overview: [
-    'Chimney flashing repair on Essex Fells estates addresses the intersection of two aging systems -- the roofing material and the masonry chimney -- where deterioration of either component compromises the weathertight junction between them. The architect-designed homes throughout the borough feature chimneys constructed from fieldstone, cut bluestone, brick with corbeled caps, and occasionally copper-clad masonry that serves as an architectural focal point. The flashing systems connecting these chimneys to slate, cedar shake, or copper roof surfaces must be fabricated and installed with materials and methods consistent with both the roofing and the masonry craftsmanship.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Essex Fells — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair on Essex Fells estates addresses the intersection of two aging systems -- the roofing material and the masonry chimney -- where deterioration of either component compromises the weathertight junction between them. The architect-designed homes throughout the borough feature chimneys constructed from fieldstone, cut bluestone, brick with corbeled caps, and occasionally copper-clad masonry that serves as an architectural focal point. The flashing systems connecting these chimneys to slate, cedar shake, or copper roof surfaces must be fabricated and installed with materials and methods consistent with both the roofing and the masonry craftsmanship.',
     'Multi-chimney estates in Essex Fells present flashing repair requirements rarely encountered in standard residential practice. Properties along Fells Road and Devon Road may feature three to five chimneys across the main residence alone, with additional fireplaces in guest cottages and carriage houses. Each chimney presents unique flashing conditions based on its roof position, the roofing material surrounding it, the masonry type and mortar joint condition, and the chimney\'s dimensional relationship to adjacent roof features. A comprehensive flashing repair engagement may require multiple material specifications across a single property.',
     'Our chimney flashing repair practice in [Essex Fells](/roofing-in-essex-fells-nj) combines sheet metal fabrication expertise with masonry understanding developed through years of estate maintenance work. We read mortar joint conditions, assess masonry pointing integrity, and evaluate chimney structural stability as part of every flashing repair assessment -- because installing premium flashing on a deteriorating chimney displaces rather than solves the water infiltration problem. When masonry repair precedes flashing work, we coordinate with qualified masons to ensure that repointing cures before flashing installation loads the mortar joints.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsChimneyFlashingRepair: ComboContent = {
     {
       question: 'Does my chimney need a cricket built behind it?',
       answer: 'Chimneys wider than thirty inches on roof pitches above 4:12 benefit from cricket construction to divert water and debris around the upslope chimney face. Building code requires crickets on chimneys wider than thirty inches. Even smaller chimneys accumulate debris behind them on steep Essex Fells roofs, and adding a cricket during flashing repair prevents the water damming and ice formation that create recurring leak problems at the chimney-roof junction.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Essex Fells, NJ?',
+      answer: 'Most chimney flashing repair projects in Essex Fells range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Essex Fells NJ -- copper and lead-coated copper flashing for estate chimneys with masonry coordination.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'montclair',
   overview: [
-    'Commercial roof repair in Montclair serves a business community where downtime carries immediate revenue consequences and tenant relationships depend on responsive property management. The township\'s commercial districts -- Bloomfield Avenue\'s continuous retail frontage, the Church Street professional offices, the South End creative spaces, and the Valley Road mixed-use corridor -- house businesses that cannot tolerate water intrusion interrupting operations. A leaking roof above a restaurant dining room, a therapy practice, or an art gallery requires repair response measured in hours rather than days.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Montclair — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Montclair serves a business community where downtime carries immediate revenue consequences and tenant relationships depend on responsive property management. The township\'s commercial districts -- Bloomfield Avenue\'s continuous retail frontage, the Church Street professional offices, the South End creative spaces, and the Valley Road mixed-use corridor -- house businesses that cannot tolerate water intrusion interrupting operations. A leaking roof above a restaurant dining room, a therapy practice, or an art gallery requires repair response measured in hours rather than days.',
     'The commercial building inventory in Montclair spans a century of construction methods and roofing systems. Early-twentieth-century buildings carry built-up or modified bitumen roofs over timber framing. Mid-century structures have EPDM or early single-ply membranes over steel deck. Recent renovations and additions feature TPO or PVC systems over modern insulation assemblies. Each system type has specific failure modes, repair materials, and diagnostic approaches. A single property management company overseeing multiple Montclair buildings may need repairs across three or four different roofing system types simultaneously.',
     'Our [commercial roof repair](/commercial-roof-repair) work across [Montclair](/roofing-in-montclair-nj) commercial properties prioritizes accurate diagnosis over rapid patching. The most expensive commercial roof repair is the one performed incorrectly -- sealing a visible symptom while the actual water entry point continues delivering moisture to the building interior through concealed pathways. Membrane systems on flat commercial roofs allow water to travel horizontally between the membrane and insulation before entering the building at a point distant from the actual leak origin. Diagnostic precision prevents the repeated repair cycle that frustrates Montclair property managers and their tenants.',
     'Commercial properties in [Bloomfield](/commercial-roof-repair-bloomfield-nj) and [West Orange](/commercial-roof-repair-west-orange-nj) share similar building types and repair needs, but Montclair\'s compact commercial districts add logistical constraints that larger-footprint suburban commercial developments avoid -- street-level staging, neighboring business coordination, and pedestrian traffic management during repair operations.'
@@ -35,7 +35,25 @@ export const montclairCommercialRoofRepair: ComboContent = {
     {
       question: 'Do you work with commercial insurance claims for roof damage in Montclair?',
       answer: 'Yes. We document storm damage and sudden-event damage in the format that insurance adjusters require for claim processing. Our documentation includes pre-damage condition assessment when available, detailed damage mapping with photographs, repair scope and cost itemization, and cause-of-loss determination that supports the claim narrative. We meet with adjusters on site when requested and provide supplemental documentation when initial claim submissions require additional support. Our familiarity with the claims process helps Montclair property owners navigate insurance-covered repairs efficiently.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Montclair, NJ?',
+      answer: 'Most commercial roof repair projects in Montclair range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Montclair NJ -- diagnostic leak detection and system-specific repairs for Bloomfield Avenue businesses.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

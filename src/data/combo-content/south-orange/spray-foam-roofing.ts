@@ -4,7 +4,7 @@ export const southOrangeSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'south-orange',
   overview: [
-    'Spray polyurethane foam roofing provides South Orange Village commercial buildings with a seamless, self-insulating roofing system that eliminates the joints, seams, and fastener penetrations where conventional roofing systems are most vulnerable. The closed-cell foam simultaneously waterproofs and insulates, creating a monolithic envelope that conforms to irregular roof geometries, encapsulates penetrations, and fills the gaps and irregularities that flat-roof substrates inevitably present on South Orange\'s older commercial structures.',
+    'Newark Quality Roofing delivers expert spray foam roofing in South Orange — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing provides South Orange Village commercial buildings with a seamless, self-insulating roofing system that eliminates the joints, seams, and fastener penetrations where conventional roofing systems are most vulnerable. The closed-cell foam simultaneously waterproofs and insulates, creating a monolithic envelope that conforms to irregular roof geometries, encapsulates penetrations, and fills the gaps and irregularities that flat-roof substrates inevitably present on South Orange\'s older commercial structures.',
     'The energy performance advantage of spray foam roofing resonates with South Orange\'s sustainability-conscious property owners. The closed-cell foam provides R-6.5 per inch of thickness, delivering continuous insulation without the thermal bridging that rigid board insulation systems experience at fastener locations and board joints. For commercial buildings along South Orange Avenue where heating and cooling costs represent significant operating expenses, the insulation value of spray foam reduces energy consumption measurably -- a benefit that both reduces costs and aligns with the village\'s environmental values.',
     'Existing commercial buildings in [South Orange](/roofing-in-south-orange-nj) with complex rooftop configurations -- multiple equipment curbs, pipe penetrations, irregular parapet heights, and transitions between roof levels -- benefit particularly from spray foam\'s ability to conform to any geometry without the custom fabrication that sheet membrane systems demand at every irregular detail. The foam is sprayed in place, expanding to fill gaps and creating a continuous waterproofing surface that wraps seamlessly around every obstacle on the roof.',
     'Seton Hall University\'s campus facilities include buildings where spray foam has been applied over existing roofing substrates as a recover system, adding insulation and waterproofing without the cost and disruption of complete tear-off. This recover capability makes spray foam particularly attractive for institutional buildings under continuous occupancy where interior disruption must be minimized during roofing work.'
@@ -35,7 +35,25 @@ export const southOrangeSprayFoamRoofing: ComboContent = {
     {
       question: 'Is spray foam roofing noisy during rain?',
       answer: 'Spray foam roofing actually reduces rain noise compared to metal or single-ply membrane systems. The foam\'s cellular structure absorbs sound rather than transmitting it, creating a quieter interior environment during precipitation events. Building occupants in South Orange commercial spaces beneath spray foam roofs typically report less rain noise awareness than with previous roofing systems.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in South Orange, NJ?',
+      answer: 'Most spray foam roofing projects in South Orange range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in South Orange NJ -- seamless SPF systems with built-in insulation for commercial buildings and campus facilities.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

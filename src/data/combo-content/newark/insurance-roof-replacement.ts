@@ -4,7 +4,7 @@ export const newarkInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Filing a roof insurance claim in Newark follows a sequence that most homeowners encounter for the first and only time in their lives -- and that unfamiliarity is exactly what leads to underpaid claims, denied supplements, and replacement projects that stall for months in adjuster limbo. The process has specific steps, specific deadlines, and specific documentation requirements that vary by carrier. Knowing how State Farm handles Newark claims differently from NJ Manufacturers or Liberty Mutual is not academic knowledge; it is the difference between a fully funded replacement and an out-of-pocket shortfall that leaves the homeowner choosing between a compromised repair and a second mortgage.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Newark — with prices starting from $8,500–$30,000 and free estimates available today. Filing a roof insurance claim in Newark follows a sequence that most homeowners encounter for the first and only time in their lives -- and that unfamiliarity is exactly what leads to underpaid claims, denied supplements, and replacement projects that stall for months in adjuster limbo. The process has specific steps, specific deadlines, and specific documentation requirements that vary by carrier. Knowing how State Farm handles Newark claims differently from NJ Manufacturers or Liberty Mutual is not academic knowledge; it is the difference between a fully funded replacement and an out-of-pocket shortfall that leaves the homeowner choosing between a compromised repair and a second mortgage.',
     'Newark\'s insurance landscape is shaped by factors unique to the city. The density of claims following major weather events strains adjuster availability, pushing initial inspections weeks past the filing date. The age of the housing stock -- predominantly pre-1960 construction -- means that hidden damage behind the visible roof failure is the norm, not the exception, triggering supplement claims that many carriers resist. The prevalence of multi-family buildings creates coverage complexities around common-area responsibility and landlord policy structures that differ from single-family homeowner policies. Navigating these Newark-specific conditions requires a contractor who has worked the local insurance process across hundreds of claims.',
     'Our role in a Newark insurance roof replacement begins before the adjuster arrives. We conduct an independent damage assessment, documenting every affected area with photographs, measurements, and material identification. This documentation becomes the foundation of the claim. When the adjuster visits, we meet them on the roof -- literally and figuratively -- with our findings organized in a format their estimating software recognizes. If the adjuster\'s scope falls short of the actual damage, we file a supplement with the specific line items, photographs, and code references that justify the additional work. This process is adversarial by nature but professional in execution, and it consistently recovers the full replacement cost that Newark homeowners are entitled to under their policies.',
     'The insurance replacement itself follows our standard Newark installation protocol: complete tear-off, deck inspection and repair, code-compliant underlayment and shingle installation, and full flashing integration. The difference is in the documentation. Every phase of the project is photographed and recorded for the carrier\'s file. Hidden damage discovered during tear-off triggers immediate supplement documentation. Change orders are processed through the adjuster before work proceeds. The result is a fully funded replacement where the insurance company pays for the actual scope of work, and the homeowner\'s out-of-pocket responsibility is limited to their deductible.'
@@ -39,7 +39,25 @@ export const newarkInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Will my insurance premiums increase after filing a roof replacement claim in Newark?',
       answer: 'Premium impact varies by carrier, claim history, and policy type. A single weather-related roof claim on an otherwise clean history typically has minimal premium impact with most carriers. Multiple claims within a three-to-five-year window may trigger increases or non-renewal. We cannot advise on specific premium consequences -- that is a conversation with your agent or carrier -- but we can tell you that deferring legitimate storm damage repairs to avoid a claim often leads to larger, more expensive problems that are no longer covered because the original damage went unreported.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Newark, NJ?',
+      answer: 'Most insurance roof replacement projects in Newark range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Newark NJ -- claim documentation, adjuster coordination, supplement filing, and full-coverage replacement for storm-damaged roofs.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

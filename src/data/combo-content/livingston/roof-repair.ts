@@ -4,7 +4,7 @@ export const livingstonRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'livingston',
   overview: [
-    'Livingston\'s roofing repair landscape reflects a township built across three distinct construction eras, each leaving behind roof systems with their own failure patterns and material demands. The split-levels lining Northland Road and the raised ranches along South Orange Avenue carry original 1960s framing with multiple intersecting roof planes that create complex valley geometries where water concentrates and flashing deteriorates over decades of freeze-thaw cycling. These homes represent the bulk of Livingston\'s repair volume, and addressing them correctly requires understanding how mid-century builders detailed transitions between roof planes -- details that differ fundamentally from modern construction practices.',
+    'Newark Quality Roofing delivers expert roof repair in Livingston — with prices starting from $350–$1,500 and free estimates available today. Livingston\'s roofing repair landscape reflects a township built across three distinct construction eras, each leaving behind roof systems with their own failure patterns and material demands. The split-levels lining Northland Road and the raised ranches along South Orange Avenue carry original 1960s framing with multiple intersecting roof planes that create complex valley geometries where water concentrates and flashing deteriorates over decades of freeze-thaw cycling. These homes represent the bulk of Livingston\'s repair volume, and addressing them correctly requires understanding how mid-century builders detailed transitions between roof planes -- details that differ fundamentally from modern construction practices.',
     'Homeowners across Livingston\'s established neighborhoods invest consistently in property maintenance, which means we encounter repair situations earlier in the damage cycle than in denser urban markets. A Collins Terrace homeowner notices a ceiling stain within days rather than months, and a Heritage Hills resident catches wind-lifted shingles before the next rainstorm drives water into the deck. This proactive culture allows us to perform targeted repairs that preserve existing roof system life rather than escalating to full replacement. Families in neighboring [Montclair](/roof-repair-montclair-nj) share this maintenance-first approach, though their Victorian housing stock presents different geometric challenges than Livingston\'s mid-century split-levels.',
     'The commercial corridor along Route 10 and Eisenhower Parkway adds flat-roof repair demands to our Livingston practice. Professional office buildings, medical complexes, and retail centers require membrane patching, drain clearing, and flashing renewal that keeps business operations uninterrupted. Our [roof repair](/roof-repair) expertise spans both the residential split-level challenges and the commercial flat-roof systems that define Livingston\'s mixed property landscape.',
     'HOA-governed communities throughout western Livingston introduce an approval layer that shapes repair timelines and material selections. Before replacing shingles on a Heritage Hills or Kingsland home, we coordinate with the architectural review committee to confirm color matching and material specifications. This process adds planning time but ensures repairs integrate seamlessly with the community aesthetic -- a requirement that distinguishes Livingston repair work from municipalities without active HOA oversight.'
@@ -35,7 +35,25 @@ export const livingstonRoofRepair: ComboContent = {
     {
       question: 'How long does a typical Livingston roof repair take?',
       answer: 'Most Livingston residential repairs complete in a single day. Valley reflashing on a split-level intersection takes four to six hours. Replacing a section of storm-damaged shingles runs two to four hours depending on the area. If HOA approval is required, add one to three weeks of lead time for the architectural review process. We provide a realistic timeline during the initial assessment so you can plan accordingly.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Livingston, NJ?',
+      answer: 'Most roof repair projects in Livingston range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Livingston NJ roof repair for split-levels and colonials -- valley leaks, HOA-compliant repairs, and ice dam solutions for every neighborhood.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

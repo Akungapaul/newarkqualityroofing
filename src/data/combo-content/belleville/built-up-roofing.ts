@@ -4,7 +4,7 @@ export const bellevilleBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'belleville',
   overview: [
-    'Built-up roofing -- the tar-and-gravel systems that covered virtually every commercial flat roof in America during Belleville\'s mid-century building boom -- still protects a substantial number of commercial and industrial buildings throughout the township. These multi-layer asphalt and felt assemblies, while aging, have proven remarkably durable on Belleville Turnpike warehouses and Washington Avenue retail buildings where they were installed 30, 40, and even 50 years ago. Understanding BUR is essential for any contractor working on Belleville\'s commercial roofscape, because even new installations interact with existing BUR components during transitions and tie-ins.',
+    'Newark Quality Roofing delivers expert built up roofing in Belleville — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing -- the tar-and-gravel systems that covered virtually every commercial flat roof in America during Belleville\'s mid-century building boom -- still protects a substantial number of commercial and industrial buildings throughout the township. These multi-layer asphalt and felt assemblies, while aging, have proven remarkably durable on Belleville Turnpike warehouses and Washington Avenue retail buildings where they were installed 30, 40, and even 50 years ago. Understanding BUR is essential for any contractor working on Belleville\'s commercial roofscape, because even new installations interact with existing BUR components during transitions and tie-ins.',
     'The gravel ballast that defines traditional BUR serves multiple functions on Belleville\'s commercial buildings: UV protection for the bitumen below, fire resistance for closely-spaced structures, weight for wind uplift resistance, and impact protection from falling debris and rooftop foot traffic. In a township where commercial buildings share party walls and fire spread between structures is a genuine concern, BUR\'s Class A fire rating provides passive fire protection that property insurance underwriters recognize with favorable premium treatment.',
     'Our [built-up roofing](/built-up-roofing) work in Belleville spans both maintenance of existing BUR systems and selective replacement with modern multi-layer assemblies. For building owners who prefer the proven redundancy of BUR over single-ply membrane systems, we install contemporary hot-mopped or cold-applied systems using fiberglass-reinforced plies that offer improved tensile strength and dimensional stability compared to the organic-felt plies used in original installations. These modern BUR systems maintain the multi-layer philosophy while incorporating materials that resist the moisture and thermal stress that Belleville\'s Passaic River basin climate imposes.',
     'Many Belleville commercial properties face a decision point where their existing BUR system requires either comprehensive restoration or replacement with an alternative technology. We provide honest assessments that weigh the costs of BUR restoration against transition to TPO, EPDM, or modified bitumen, factoring in the specific building\'s mechanical equipment layout, access patterns, and the owner\'s budget timeline. In neighboring [Newark](/built-up-roofing-newark-nj), similar BUR-to-membrane transitions are common on the same generation of commercial buildings.'
@@ -35,7 +35,25 @@ export const bellevilleBuiltUpRoofing: ComboContent = {
     {
       question: 'Does the gravel on my Belleville BUR roof need to be replaced?',
       answer: 'Gravel rarely needs full replacement. However, bare spots where gravel has been displaced by wind, foot traffic, or drain maintenance expose the cap sheet to UV damage that accelerates aging. We redistribute displaced gravel during maintenance visits and add supplemental gravel to bare areas. If the cap sheet shows extensive UV degradation in bare zones, we apply a reflective coating over the exposed areas for protection.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Belleville, NJ?',
+      answer: 'Most built up roofing projects in Belleville range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Belleville NJ. Multi-layer BUR restoration and replacement for commercial buildings along Washington Avenue and the Turnpike.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

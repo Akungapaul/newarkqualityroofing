@@ -4,7 +4,7 @@ export const fairfieldRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'fairfield',
   overview: [
-    'Roof leaks in Fairfield trace to different sources depending on which side of Route 46 the property sits. In the residential neighborhoods, leaks most commonly originate at chimney flashings where the original mastic sealant has failed, at pipe boot penetrations where the rubber gasket has cracked from UV exposure, and in valleys where debris accumulation has backed water under shingle courses. Along the Route 46 commercial corridor, leaks develop at membrane seams stressed by thermal cycling, around equipment curb flashings disturbed by HVAC maintenance, and at interior drain connections where settling has disrupted the drain-to-membrane seal. Newark Quality Roofing diagnoses and resolves both residential and commercial leaks with the precision that Fairfield property owners expect.',
+    'Newark Quality Roofing delivers expert roof leak repair in Fairfield — with prices starting from $300–$1,200 and free estimates available today. Roof leaks in Fairfield trace to different sources depending on which side of Route 46 the property sits. In the residential neighborhoods, leaks most commonly originate at chimney flashings where the original mastic sealant has failed, at pipe boot penetrations where the rubber gasket has cracked from UV exposure, and in valleys where debris accumulation has backed water under shingle courses. Along the Route 46 commercial corridor, leaks develop at membrane seams stressed by thermal cycling, around equipment curb flashings disturbed by HVAC maintenance, and at interior drain connections where settling has disrupted the drain-to-membrane seal. Newark Quality Roofing diagnoses and resolves both residential and commercial leaks with the precision that Fairfield property owners expect.',
     'Diagnosing residential roof leaks in Fairfield requires tracing water paths that can be deceptively indirect. Water entering at a failed pipe boot on the upper roof plane may travel along a rafter, run horizontally across the top plate of an interior wall, and appear as a ceiling stain in a room nowhere near the actual roof penetration. Our [roof leak repair](/roof-leak-repair) diagnostic approach traces the water path from the visible stain backward to the point of entry, using moisture meters and visual inspection to follow the trail. This prevents the common mistake of repairing where the water appears rather than where it enters. Homeowners across western Essex County, including [Caldwell](/roof-leak-repair-caldwell-nj) and [Roseland](/roof-leak-repair-roseland-nj), trust our diagnostic thoroughness.',
     'Commercial leak detection on Fairfield\'s Route 46 properties employs technology beyond what residential leaks require. Infrared thermography identifies areas where moisture has saturated insulation beneath the membrane surface -- moisture that may not have produced a visible interior leak yet but is degrading insulation R-value and adding dead load to the structural deck. Electronic leak detection on single-ply membranes pinpoints breaches invisible to the naked eye. These diagnostic investments prevent the wasteful pattern of repeated emergency patches that address symptoms while the actual breach continues admitting water into the roof assembly.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldRoofLeakRepair: ComboContent = {
     {
       question: 'Is it worth repairing a leak on an old roof or should I just replace the whole roof?',
       answer: 'The answer depends on the roof age and overall condition. If the roof has five or more years of remaining useful life and the leak results from a localized failure rather than general deterioration, repair is cost-effective. If the roof is near the end of its service life and showing widespread granule loss, multiple flashing failures, or systemic membrane degradation, a repair only delays the inevitable replacement while adding cost that does not extend overall roof life. Our leak investigation report provides a remaining-life assessment alongside the repair recommendation so you can make an informed decision.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Fairfield, NJ?',
+      answer: 'Most roof leak repair projects in Fairfield range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fairfield NJ roof leak repair for homes and Route 46 commercial properties. Diagnostic precision and permanent solutions for every leak type.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

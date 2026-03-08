@@ -4,7 +4,7 @@ export const newarkRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'newark',
   overview: [
-    'Tracking a roof leak to its source inside a Newark building is detective work. Water that appears as a ceiling stain in a third-floor Ironbound apartment may have entered the roof two stories above and traveled laterally through framing, down a party wall, and across a ceiling joist before becoming visible. The vertical density of Newark\'s multi-story housing stock -- brownstones, triple-deckers, six-unit walk-ups -- creates interior water pathways that make pinpointing the actual entry point difficult without systematic diagnostic methods and experience reading how water moves through old urban buildings.',
+    'Newark Quality Roofing delivers expert roof leak repair in Newark — with prices starting from $300–$1,200 and free estimates available today. Tracking a roof leak to its source inside a Newark building is detective work. Water that appears as a ceiling stain in a third-floor Ironbound apartment may have entered the roof two stories above and traveled laterally through framing, down a party wall, and across a ceiling joist before becoming visible. The vertical density of Newark\'s multi-story housing stock -- brownstones, triple-deckers, six-unit walk-ups -- creates interior water pathways that make pinpointing the actual entry point difficult without systematic diagnostic methods and experience reading how water moves through old urban buildings.',
     'Flat commercial roofs throughout Newark\'s business districts present leak challenges rooted in geometry rather than gravity. Ponding water on low-slope membrane roofs along Broad Street and in the Ironbound sits for days after rain events, probing every seam, every penetration boot, every parapet junction for weakness. A single compromised sealant bead around an HVAC curb can admit water that spreads across the insulation layer beneath the membrane, appearing as leaks at multiple interior locations simultaneously. Diagnosing these distributed leak patterns requires moisture mapping of the roof assembly, not just surface inspection.',
     'Residential leak repair in Newark neighborhoods like Forest Hill, Roseville, and Vailsburg follows its own patterns. The steep-pitched roofs on Victorian and colonial homes develop leaks at valleys, chimney intersections, and dormer cheek walls -- locations where multiple roof planes converge and flashing must manage complex water paths. Aging slate installations on pre-war homes in Forest Hill lose individual tiles that admit water through gaps invisible from the ground. Deteriorated step flashing along shared party walls on row houses admits water that migrates between properties. Each of these leak types requires a different diagnostic approach and a different repair methodology.',
     'Our Newark leak repair service separates diagnosis from repair intentionally. Too many contractors arrive, observe wet spots, and apply sealant to the nearest suspicious area -- a guess-and-patch approach that has a poor success rate in Newark\'s complex building stock. We invest time in accurate leak sourcing before proposing any repair. Water testing, moisture meter surveys, and infrared scanning when appropriate allow us to identify the actual point of entry with confidence. The repair that follows addresses verified causes, not assumptions.'
@@ -39,7 +39,25 @@ export const newarkRoofLeakRepair: ComboContent = {
     {
       question: 'Can infrared scanning detect roof leaks on Newark commercial buildings?',
       answer: 'Infrared thermography is effective for detecting trapped moisture in flat-roof assemblies on commercial buildings, and we use it as a diagnostic tool when conditions are appropriate. The technique works by identifying temperature differentials between dry and moisture-saturated insulation beneath the membrane surface. Optimal scanning conditions occur on clear evenings after a sunny day, when retained heat in wet insulation creates visible thermal contrast. For Ironbound and Downtown commercial buildings, infrared scanning can map the extent of moisture infiltration across the entire roof surface in a single session, guiding repair priorities and revealing damage that may not be visible through surface inspection alone.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Newark, NJ?',
+      answer: 'Most roof leak repair projects in Newark range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in Newark NJ -- systematic leak tracing through brownstone party walls, flat-roof ponding diagnosis, and multi-story water path detection.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

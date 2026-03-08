@@ -4,7 +4,7 @@ export const orangeSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'orange',
   overview: [
-    'Skylight installation brings natural light into Orange homes where tight-lot construction and dense tree canopy limit the sunlight reaching windows. On blocks where buildings sit three to five feet apart, south-facing windows may receive only a few hours of direct light. A roof-mounted skylight bypasses the neighbor\'s wall and captures daylight directly from above, transforming dim interior spaces into naturally lit rooms. Our [skylight installation and repair](/skylight-installation-repair) projects in Orange address both the opportunity -- daylighting dark homes -- and the challenge -- proper weatherproofing on roofs already stressed by South Mountain debris and Orange\'s thermal cycling.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Orange — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation brings natural light into Orange homes where tight-lot construction and dense tree canopy limit the sunlight reaching windows. On blocks where buildings sit three to five feet apart, south-facing windows may receive only a few hours of direct light. A roof-mounted skylight bypasses the neighbor\'s wall and captures daylight directly from above, transforming dim interior spaces into naturally lit rooms. Our [skylight installation and repair](/skylight-installation-repair) projects in Orange address both the opportunity -- daylighting dark homes -- and the challenge -- proper weatherproofing on roofs already stressed by South Mountain debris and Orange\'s thermal cycling.',
     'Existing skylights on Orange homes are a leading source of roof leaks, not because the skylight units themselves fail, but because the flashing systems around them deteriorate over time. Skylights installed in the 1980s and 1990s used sheet metal pan flashings with caulk seals that have long since dried and cracked. These aging installations leak at the upslope curb where debris dams form, at the side flashings where thermal movement separates sealant joints, and at the downslope apron where ice dams push water backward under the flashing. Our skylight repair work in Orange replaces these outdated flashing systems with modern stepped and woven details that provide reliable waterproofing for another 20 years.',
     'For Orange homeowners considering new skylight installation, the design decision involves balancing light gain against the maintenance burden that South Mountain\'s tree canopy creates on any horizontal glass surface. Skylights on mountain-adjacent properties collect leaf debris, pollen film, and organic staining that reduces light transmission and requires periodic cleaning. We recommend self-cleaning glass coatings on skylights installed near the reservation, and fixed (non-opening) skylights in locations where debris accumulation would interfere with venting hardware. Homeowners in [West Orange](/skylight-installation-repair-west-orange-nj) navigate similar tree-canopy considerations for their hillside skylight projects.'
   ],
@@ -34,7 +34,25 @@ export const orangeSkylightInstallationRepair: ComboContent = {
     {
       question: 'How much does skylight installation cost in Orange?',
       answer: 'A single fixed skylight installation including the unit, flashing system, interior shaft finishing, and structural framing typically runs $2,500 to $4,500. Vented skylights with remote-control operation add $500 to $1,000. The cost varies based on roof access complexity, shaft depth, and any structural modifications needed at the installation location.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Orange, NJ?',
+      answer: 'Most skylight installation repair projects in Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Orange NJ -- natural light for tight-lot homes, leak-proof flashing, self-cleaning glass, and Victorian retrofits.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

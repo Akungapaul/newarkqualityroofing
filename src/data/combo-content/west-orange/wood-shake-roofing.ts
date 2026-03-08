@@ -4,7 +4,7 @@ export const westOrangeWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'west-orange',
   overview: [
-    'Wood shake roofing in West Orange occupies a niche between the township\'s premium slate installations and its standard asphalt shingle majority. Found primarily on Tudor revivals and craftsman-style homes in the mid-slope neighborhoods along Gregory Avenue and Northfield Road, wood shake delivers a rustic warmth that complements the organic character of West Orange\'s heavily wooded landscape. Our [wood shake roofing](/wood-shake-roofing) services address both new installations and the maintenance-intensive care that natural wood demands in a climate as variable as the Watchung ridge corridor.',
+    'Newark Quality Roofing delivers expert wood shake roofing in West Orange — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in West Orange occupies a niche between the township\'s premium slate installations and its standard asphalt shingle majority. Found primarily on Tudor revivals and craftsman-style homes in the mid-slope neighborhoods along Gregory Avenue and Northfield Road, wood shake delivers a rustic warmth that complements the organic character of West Orange\'s heavily wooded landscape. Our [wood shake roofing](/wood-shake-roofing) services address both new installations and the maintenance-intensive care that natural wood demands in a climate as variable as the Watchung ridge corridor.',
     'West Orange\'s elevation-driven climate creates specific challenges for wood shake performance. Ridge-top installations above 400 feet face intensified UV exposure on south-facing planes that dries and splits shake surfaces faster than sheltered locations. North-facing planes at the same elevation retain moisture in the cool shade of winter months, promoting the fungal decay that wood shake is inherently susceptible to. This dual degradation pattern -- UV on one side, moisture on the other -- compresses wood shake lifespan on West Orange ridge-top homes compared to valley-floor installations where conditions are more uniform.',
     'The township\'s dense tree canopy amplifies wood shake\'s natural vulnerability to biological growth. Leaf debris from oaks, maples, and hickories accumulates in shake profile valleys, holding moisture against the wood surface and creating ideal conditions for moss, algae, and fungal colonization. Properties near South Mountain Reservation experience this effect most acutely, requiring quarterly debris clearing and annual preservative treatment to maintain shake integrity. Homeowners in [Glen Ridge](/wood-shake-roofing-glen-ridge-nj) face similar canopy-driven maintenance on their historic wood shake installations.',
     'Fire resistance requirements have evolved since many West Orange wood shake roofs were originally installed. Modern building codes in New Jersey require fire-retardant treatment on all new wood shake installations, addressing the combustion risk that untreated wood roofing presents in residential settings. Our wood shake installations use pressure-treated shake products that carry Class A fire ratings, meeting current code requirements while preserving the natural aesthetic that draws homeowners to wood shake. Retardant-treated shake also resists decay and insect damage, extending service life in [West Orange\'s](/roofing-in-west-orange-nj) demanding environment.'
@@ -35,7 +35,25 @@ export const westOrangeWoodShakeRoofing: ComboContent = {
     {
       question: 'What is the annual maintenance cost for a wood shake roof in West Orange?',
       answer: 'Annual maintenance for wood shake in West Orange typically runs $500 to $1,200 depending on roof size and canopy exposure. This covers preservative treatment application, debris clearing from shake profiles and valleys, inspection for cracked or curled shakes, and replacement of individual damaged pieces. Properties near South Mountain with heavy canopy may fall at the higher end due to quarterly debris clearing needs. This ongoing cost should be factored into the total ownership calculation when comparing wood shake to lower-maintenance alternatives.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in West Orange, NJ?',
+      answer: 'Most wood shake roofing projects in West Orange range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in West Orange NJ. Fire-rated installations, preservative maintenance programs, and elevation-adapted performance on the Watchung ridge.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

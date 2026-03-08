@@ -4,7 +4,7 @@ export const maplewoodHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'maplewood',
   overview: [
-    'Historic roof restoration carries deep significance in Maplewood, where the township\'s finest homes date from the 1880s through the 1920s and carry architectural details that define the community\'s visual identity. The Queen Anne Victorians surrounding Maplewood Village, the Shingle Style homes on elevated lots near South Mountain, and the Colonial Revival estates along Ridgewood Road and Prospect Street all deserve roofing restoration that preserves their architectural authenticity. Our [historic roof restoration](/historic-roof-restoration) work in [Maplewood](/roofing-in-maplewood-nj) begins from the premise that these roofs are architectural assets, not merely weatherproofing systems.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Maplewood — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration carries deep significance in Maplewood, where the township\'s finest homes date from the 1880s through the 1920s and carry architectural details that define the community\'s visual identity. The Queen Anne Victorians surrounding Maplewood Village, the Shingle Style homes on elevated lots near South Mountain, and the Colonial Revival estates along Ridgewood Road and Prospect Street all deserve roofing restoration that preserves their architectural authenticity. Our [historic roof restoration](/historic-roof-restoration) work in [Maplewood](/roofing-in-maplewood-nj) begins from the premise that these roofs are architectural assets, not merely weatherproofing systems.',
     'Maplewood\'s historic housing stock encompasses an unusually wide range of architectural periods within a compact township footprint. Victorian-era homes with decorative slate patterns, copper ridge cresting, and elaborate box gutter systems sit alongside Arts and Crafts bungalows with exposed rafter tails and hand-split shake roofing, and Georgian Colonial Revivals with symmetrical hip roofs and standing-seam metal. This diversity demands restoration contractors who can move fluently between eras and materials, understanding the original construction intent behind each architectural style.',
     'While Maplewood does not currently maintain a local historic preservation commission, many homeowners pursue restoration out of personal commitment to their home\'s architectural heritage and an understanding that period-appropriate roofing contributes substantially to property value in the township\'s competitive real estate market. Homes with authentic slate, copper, and period-appropriate detailing command premium prices over comparable homes with standard replacement shingles. Homeowners in [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) navigate similar preservation priorities, though with formal commission oversight that Maplewood\'s voluntary approach does not require.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodHistoricRoofRestoration: ComboContent = {
       question: 'Can you restore the copper work on my Maplewood Victorian?',
       answer: 'We fabricate and install copper ridge caps, hip flashings, box gutter linings, finials, and decorative elements using the same copper weight and soldering techniques used in original construction. Our copper work uses 16-ounce or 20-ounce sheet copper with soldered seams rather than contemporary mechanical joints, producing restorations that develop the same verdigris patina as the original copper and blend seamlessly with any surviving period elements.',
     },
+    {
+      question: 'How much does historic roof restoration cost in Maplewood, NJ?',
+      answer: 'Most historic roof restoration projects in Maplewood range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Maplewood NJ. Period-accurate slate, copper, and specialty materials for Victorian and Colonial Revival homes.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

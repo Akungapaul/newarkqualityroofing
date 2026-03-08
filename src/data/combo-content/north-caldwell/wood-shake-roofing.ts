@@ -4,7 +4,7 @@ export const northCaldwellWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'Wood shake roofing on North Caldwell properties creates a visual harmony between home and landscape that no other material achieves. These estate homes sit within mature hardwood forests on lots that exceed one acre, and a wood shake roof -- with its natural grain texture, organic color variation, and weathered character -- becomes an extension of the wooded environment rather than an imposition upon it. The thick-butt hand-split shakes, with shadow lines that change with the sun angle and a surface texture that catches light differently from every direction, provide the dimensional richness that North Caldwell\'s custom architecture demands.',
+    'Newark Quality Roofing delivers expert wood shake roofing in North Caldwell — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing on North Caldwell properties creates a visual harmony between home and landscape that no other material achieves. These estate homes sit within mature hardwood forests on lots that exceed one acre, and a wood shake roof -- with its natural grain texture, organic color variation, and weathered character -- becomes an extension of the wooded environment rather than an imposition upon it. The thick-butt hand-split shakes, with shadow lines that change with the sun angle and a surface texture that catches light differently from every direction, provide the dimensional richness that North Caldwell\'s custom architecture demands.',
     'Proper [wood shake roofing](/wood-shake-roofing) installation in North Caldwell accounts for the environmental factors that the borough\'s wooded character intensifies. Heavy canopy reduces airflow across the roof surface, slowing the drying that keeps wood roofing healthy. Organic debris from overhanging branches settles into the gaps between shake courses, holding moisture against the wood and promoting the fungal growth that accelerates decay. These conditions do not make wood shakes inappropriate for North Caldwell -- they make proper ventilation design, shake spacing, and maintenance protocols essential for achieving the full service life the material can deliver.',
     'Species selection for North Caldwell wood shake installations focuses on Western Red Cedar for its natural resistance to moisture, insects, and UV degradation. We source premium Number 1 grade hand-split shakes with a minimum butt thickness of three-quarters inch, providing the dimensional weight and texture quality appropriate for estate homes. For homeowners who prefer the finer texture of sawn [cedar shake roofing](/cedar-shake-roofing), we offer hand-split-and-resawn profiles that provide a uniform face with the thick butt dimension of a hand-split product. The distinction between wood species and shake grades is critical for longevity -- lesser grades and thinner profiles deteriorate faster under North Caldwell\'s demanding canopy conditions.',
     'Fire resistance is an important consideration for wood shake installations on North Caldwell\'s wooded lots, where homes are surrounded by forest fuel loads. We install Class C fire-treated shakes as standard and offer Class A fire-rated underlayment systems for homeowners seeking maximum fire protection. The fire treatment process pressure-impregnates the shake with fire-retardant compounds that do not alter the wood\'s appearance but significantly reduce its combustibility. Combined with proper clearance between roof edges and overhanging vegetation, fire-treated shake installations provide responsible fire performance on North Caldwell\'s forest-edge properties.'
@@ -35,7 +35,25 @@ export const northCaldwellWoodShakeRoofing: ComboContent = {
     {
       question: 'Can you install wood shakes over my existing shingle roof?',
       answer: 'No. Wood shake roofs require a ventilated underlayment or skip sheathing substrate that is incompatible with overlay installation. The existing roofing must be completely removed, the deck inspected and repaired as needed, and the proper ventilation substrate installed before shake installation begins. This full tear-off approach is non-negotiable for wood shakes because inadequate ventilation beneath the shake field traps moisture that destroys the wood from below -- precisely the condition that overlay installation creates.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in North Caldwell, NJ?',
+      answer: 'Most wood shake roofing projects in North Caldwell range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in North Caldwell NJ -- premium hand-split cedar on estate homes with ventilation design for wooded canopy lots.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

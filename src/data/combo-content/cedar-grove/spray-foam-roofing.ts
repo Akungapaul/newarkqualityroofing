@@ -4,7 +4,7 @@ export const cedarGroveSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'Spray polyurethane foam roofing offers Cedar Grove commercial and industrial building owners a seamless, self-insulating roof system that addresses two of the township\'s most persistent building performance challenges simultaneously -- thermal efficiency in northern Essex County\'s demanding heating season and waterproof integrity on aging flat-roof structures with irregular surfaces and multiple penetrations that conventional membrane systems struggle to seal.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Cedar Grove — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing offers Cedar Grove commercial and industrial building owners a seamless, self-insulating roof system that addresses two of the township\'s most persistent building performance challenges simultaneously -- thermal efficiency in northern Essex County\'s demanding heating season and waterproof integrity on aging flat-roof structures with irregular surfaces and multiple penetrations that conventional membrane systems struggle to seal.',
     'Cedar Grove\'s commercial building inventory includes numerous properties along Route 23 and Pompton Avenue where the existing roof surface has accumulated decades of patches, equipment additions, and drainage modifications that create complex geometry for any roofing system. Our [spray foam roofing](/spray-foam-roofing) installations conform to these irregular surfaces without the cutting, fitting, and flashing work that membrane systems require, encapsulating the entire roof in a monolithic, self-adhering insulation and waterproofing layer applied in a single operation.',
     'The thermal performance of spray foam roofing is unmatched among commercial roofing systems. At R-6.5 per inch, a two-inch foam application delivers R-13 insulation with no thermal bridging -- there are no fasteners, seams, or gaps in the insulation envelope. For Cedar Grove buildings with inadequate existing insulation, spray foam roofing dramatically reduces heating costs during the township\'s northern Essex County winters while simultaneously eliminating the air infiltration that drives energy waste through conventional roof assemblies.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveSprayFoamRoofing: ComboContent = {
       question: 'What happens if spray foam roofing gets damaged on a Cedar Grove building?',
       answer: 'Spray foam repairs are straightforward. Small punctures or damage areas are cleaned, dried, and filled with new foam that bonds directly to the existing material. The repair area is then recoated to restore UV protection. Because the foam is continuous and self-adhering, damage remains isolated to the impact area and does not propagate to surrounding sections. This repairability is a significant advantage over membrane systems where a small puncture can allow water to travel unseen beneath the membrane.',
     },
+    {
+      question: 'How much does spray foam roofing cost in Cedar Grove, NJ?',
+      answer: 'Most spray foam roofing projects in Cedar Grove range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Cedar Grove NJ -- seamless insulating roof system for commercial buildings with R-6.5 per inch and zero thermal bridging.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'orange',
   overview: [
-    'Roof waterproofing in Orange goes beyond surface-level sealing to address the multi-directional moisture assault that the city\'s unique geography creates. Rain from above is only part of the equation -- South Mountain\'s runoff saturates soil around Valley foundations, driving moisture upward through building assemblies, while the tight-lot construction between buildings creates wind-driven rain corridors that pressurize water against roof-to-wall junctions. Our [roof waterproofing](/roof-waterproofing) solutions treat the complete moisture envelope, ensuring that waterproofing details protect against water approaching from every direction.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Orange — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Orange goes beyond surface-level sealing to address the multi-directional moisture assault that the city\'s unique geography creates. Rain from above is only part of the equation -- South Mountain\'s runoff saturates soil around Valley foundations, driving moisture upward through building assemblies, while the tight-lot construction between buildings creates wind-driven rain corridors that pressurize water against roof-to-wall junctions. Our [roof waterproofing](/roof-waterproofing) solutions treat the complete moisture envelope, ensuring that waterproofing details protect against water approaching from every direction.',
     'The Valley neighborhood represents Orange\'s most demanding waterproofing environment. When heavy storms send runoff cascading down from South Mountain, the Valley\'s low-lying streets become saturated zones where moisture attacks buildings from foundation to ridge. Waterproofing Valley roofs requires attention not just to the membrane surface but to the vapor barriers, ventilation, and drainage systems that prevent moisture from condensing within the roof assembly itself. A waterproofing approach that ignores below-deck moisture will fail even with a perfect membrane on top.',
     'Commercial waterproofing on Main Street addresses the aging flat-roof infrastructure that has been patched and re-coated for decades without achieving lasting results. Many Main Street building owners have spent more on repeated patches over the years than a comprehensive waterproofing solution would have cost initially. Our waterproofing assessments for Orange commercial buildings evaluate the entire roof system -- membrane, insulation, deck, drainage, and flashing -- to identify every water entry pathway and specify corrections that achieve lasting results rather than temporary patches. Building owners in [Newark](/roof-waterproofing-newark-nj) with similar aging commercial roofs benefit from the same comprehensive approach.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofWaterproofing: ComboContent = {
     {
       question: 'How much does comprehensive roof waterproofing cost in Orange?',
       answer: 'Costs vary widely based on the scope of work required. Targeted flashing and sealant repairs run $500 to $2,000. Membrane coating restoration on commercial roofs runs $4 to $8 per square foot. Complete waterproofing system installation including membrane, insulation, vapor barrier, and drainage correction on a commercial building runs $8 to $15 per square foot. Residential projects typically fall between $1,500 and $5,000 depending on the scope.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Orange, NJ?',
+      answer: 'Most roof waterproofing projects in Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Orange NJ -- Valley moisture barriers, tight-lot wind-driven rain solutions, multi-layer diagnostics, and Main Street commercial sealing.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

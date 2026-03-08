@@ -4,7 +4,7 @@ export const livingstonStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Storm damage roof replacement addresses Livingston homes where severe weather has damaged the roofing system beyond the point where repair can restore reliable performance. When nor\'easters strip large sections of shingles, hail compromises shingle integrity across entire roof planes, or fallen trees penetrate the roof structure, replacement becomes the appropriate response that restores the home to full protection rather than patching damage that will continue to underperform.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Livingston — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement addresses Livingston homes where severe weather has damaged the roofing system beyond the point where repair can restore reliable performance. When nor\'easters strip large sections of shingles, hail compromises shingle integrity across entire roof planes, or fallen trees penetrate the roof structure, replacement becomes the appropriate response that restores the home to full protection rather than patching damage that will continue to underperform.',
     'Livingston\'s mature tree canopy makes tree-strike damage the most dramatic storm replacement trigger. A large oak branch falling onto a split-level roof can damage multiple planes simultaneously, puncture the deck sheathing, and compromise the framing beneath. These structural impacts require replacement that goes beyond shingle installation to include deck repair, framing restoration, and complete waterproofing system installation.',
     'Our [storm damage roof replacement](/storm-damage-roof-replacement) process integrates emergency protection, insurance claim support, and quality replacement installation into a coordinated response. The emergency phase tarps the damaged area to prevent additional water intrusion. The documentation phase creates the photographic and written evidence that supports the insurance claim. The replacement phase installs a new roof system once the claim is approved. Homes in [Montclair](/storm-damage-roof-replacement-montclair-nj) experience similar storm damage patterns from their mature canopy and nor\'easter exposure.',
     'Livingston homeowners facing storm damage replacement often discover that the new roof represents an upgrade opportunity. Current shingle products, underlayment systems, and ventilation technology significantly outperform the materials installed during the home\'s previous roof cycle, and insurance-funded replacement provides the baseline while homeowners can supplement for premium materials and additional improvements.'
@@ -35,7 +35,25 @@ export const livingstonStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Will storm damage replacement improve my Livingston roof beyond its pre-storm condition?',
       answer: 'Insurance covers replacement to pre-loss condition with equivalent materials. However, current materials and installation techniques are superior to what was available when most Livingston homes were last roofed. The insurance-funded replacement provides a modern roofing system that outperforms the pre-storm roof even at equivalent material specifications. Homeowners who want additional upgrades can supplement the insurance proceeds.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Livingston, NJ?',
+      answer: 'Most storm damage roof replacement projects in Livingston range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Livingston NJ -- emergency tarping, insurance claim support, and full replacement for wind and tree-strike damage.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

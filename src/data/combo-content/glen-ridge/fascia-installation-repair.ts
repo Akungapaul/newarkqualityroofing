@@ -4,7 +4,7 @@ export const glenRidgeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'glen-ridge',
   overview: [
-    'Fascia boards on Glen Ridge\'s historic homes serve both structural and decorative functions that make their maintenance essential to the borough\'s architectural preservation. These boards cap the rafter tails at the roof edge, providing the mounting surface for gutter systems and creating the clean roofline profile that finishes the building\'s exterior composition. On Glen Ridge Victorians and Edwardians, fascia boards often feature decorative profiles -- ogee moldings, beaded edges, or compound curves -- that are integral to the home\'s period character and subject to Historic Preservation Commission scrutiny when replacement becomes necessary.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Glen Ridge — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards on Glen Ridge\'s historic homes serve both structural and decorative functions that make their maintenance essential to the borough\'s architectural preservation. These boards cap the rafter tails at the roof edge, providing the mounting surface for gutter systems and creating the clean roofline profile that finishes the building\'s exterior composition. On Glen Ridge Victorians and Edwardians, fascia boards often feature decorative profiles -- ogee moldings, beaded edges, or compound curves -- that are integral to the home\'s period character and subject to Historic Preservation Commission scrutiny when replacement becomes necessary.',
     'Fascia deterioration in Glen Ridge traces directly to the borough\'s tree canopy environment. Gutters clogged with leaf debris overflow onto fascia boards, saturating the wood repeatedly. In winter, ice dams form at the roof edge where fascia provides the structural backing, trapping water that soaks into end grain and freeze-thaw cycles the wood apart. The shaded conditions beneath Glen Ridge\'s elms and oaks slow drying between moisture events, creating the persistent dampness that promotes wood rot. Addressing fascia damage requires correcting the moisture sources -- typically gutter maintenance and [ice dam prevention](/roof-ice-dam-prevention-glen-ridge-nj) -- as well as replacing the deteriorated wood.',
     'Newark Quality Roofing replaces Glen Ridge fascia with materials and profiles matching the originals. For homes where the original fascia was clear-grain cedar or redwood, we source comparable material and mill it to match the existing decorative profile. Where the original profile has been lost to previous inappropriate repairs, we reference surviving examples on neighboring homes or period pattern books to reconstruct the correct detail. The result is fascia that restores the roofline\'s intended appearance while providing the sound structural platform that the gutter system and drip edge require.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeFasciaInstallationRepair: ComboContent = {
       question: 'What material should replacement fascia be in Glen Ridge?',
       answer: 'Clear-grain cedar or high-quality pine matches the original material on most Glen Ridge homes and provides good rot resistance with proper priming and painting. For homeowners seeking maximum durability, composite fascia boards offer superior moisture resistance with profiles that can replicate period details. We discuss material options during consultation, considering both preservation compatibility and long-term performance.',
     },
+    {
+      question: 'How much does fascia installation repair cost in Glen Ridge, NJ?',
+      answer: 'Most fascia installation repair projects in Glen Ridge range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Glen Ridge NJ. Custom-milled period profiles for Victorian and Edwardian homes in the historic district.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

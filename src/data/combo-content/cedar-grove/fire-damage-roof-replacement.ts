@@ -4,7 +4,7 @@ export const cedarGroveFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Fire damage roof replacement in Cedar Grove restores the structural roof assembly after fire has compromised rafters, sheathing, and roofing materials beyond repair. Whether the fire originated from an interior source, a chimney malfunction, or an exterior event, the heat, flame, and water from firefighting operations create damage that requires complete roof system rebuild in the affected areas rather than surface replacement alone.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Cedar Grove — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Cedar Grove restores the structural roof assembly after fire has compromised rafters, sheathing, and roofing materials beyond repair. Whether the fire originated from an interior source, a chimney malfunction, or an exterior event, the heat, flame, and water from firefighting operations create damage that requires complete roof system rebuild in the affected areas rather than surface replacement alone.',
     'Cedar Grove\'s residential construction -- wood-framed ranch and colonial homes with asphalt shingle roofing -- is susceptible to fire damage at the roof level from several township-specific sources: chimney fires in aging masonry flues that have not been cleaned or relined, electrical fires in shallow ranch attic spaces where outdated wiring runs close to framing, and exterior fires from lightning strikes to the mature tree canopy. Our [fire damage roof replacement](/fire-damage-roof-replacement) projects address the structural, waterproofing, and aesthetic restoration required to return a fire-damaged Cedar Grove home to its pre-loss condition.',
     'Insurance coordination is integral to fire damage roof replacement, as the scope and cost of fire restoration typically exceeds the homeowner\'s ability to fund independently. Our experience with fire damage claims in Cedar Grove ensures that the full scope of structural repair, code-triggered upgrades, and material replacement is documented and included in the insurance settlement.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveFireDamageRoofReplacement: ComboContent = {
       question: 'Do I need to move out during fire damage roof replacement?',
       answer: 'If the fire damage is limited to the roof structure and the living space is habitable, you can remain in the home during reconstruction. However, if smoke contamination, water damage, or structural compromise affects the living space, temporary relocation is advisable. Loss-of-use coverage in your homeowner\'s policy typically covers temporary housing expenses during the restoration period.',
     },
+    {
+      question: 'How much does fire damage roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most fire damage roof replacement projects in Cedar Grove range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Cedar Grove NJ -- structural rebuild, insurance coordination, and full restoration after residential fire events.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

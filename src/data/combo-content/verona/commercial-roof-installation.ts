@@ -4,7 +4,7 @@ export const veronaCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'verona',
   overview: [
-    'Commercial roof installation in Verona serves the Bloomfield Avenue business corridor and surrounding commercial properties with professionally engineered roofing systems designed for the specific demands of commercial building operation. Unlike residential roofing where aesthetics and homeowner preference drive material selection, commercial installations are guided by building performance requirements: tenant comfort, energy efficiency, equipment accommodation, and lifecycle cost analysis. Newark Quality Roofing designs commercial roof systems for Verona properties that meet operational requirements while minimizing total cost of ownership over the building\'s service life.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Verona — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Verona serves the Bloomfield Avenue business corridor and surrounding commercial properties with professionally engineered roofing systems designed for the specific demands of commercial building operation. Unlike residential roofing where aesthetics and homeowner preference drive material selection, commercial installations are guided by building performance requirements: tenant comfort, energy efficiency, equipment accommodation, and lifecycle cost analysis. Newark Quality Roofing designs commercial roof systems for Verona properties that meet operational requirements while minimizing total cost of ownership over the building\'s service life.',
     'The Bloomfield Avenue corridor through Verona includes single-story retail strip centers, two and three-story mixed-use buildings, professional office suites, and service businesses that each present different roofing requirements. Restaurants need chemical-resistant membranes that withstand grease exhaust. Office buildings prioritize energy efficiency and acoustic performance. Retail tenants need reliable leak protection above their merchandise. Our [commercial roof installation](/commercial-roof-installation) specifications address the specific operational profile of each Verona building, not a generic commercial roofing product.',
     'New commercial construction in Verona\'s redevelopment zones requires roofing systems designed into the building from the ground up -- coordinated with structural engineering, mechanical equipment placement, and energy code compliance. Retrofit installations on existing buildings must work within the constraints of existing structural capacity, drainage patterns, and equipment positions. Both scenarios benefit from early roofing design involvement that prevents costly mid-construction changes. Building owners in [Montclair](/commercial-roof-installation-montclair-nj) along the same commercial corridor have validated the value of integrated roofing design in their new construction projects.'
   ],
@@ -34,7 +34,25 @@ export const veronaCommercialRoofInstallation: ComboContent = {
     {
       question: 'How much does a commercial roof cost in Verona?',
       answer: 'Commercial roof installation in Verona ranges from $5 to $15 per square foot depending on the system type, insulation requirements, and building complexity. A 5,000-square-foot building typically costs $25,000 to $75,000 for complete tear-off and installation. The wide range reflects the difference between basic single-ply membrane and premium systems with extensive insulation, drainage modifications, and equipment integration. We provide detailed proposals with itemized costs so you can see exactly what each component contributes to the total.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Verona, NJ?',
+      answer: 'Most commercial roof installation projects in Verona range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Verona NJ -- engineered systems for Bloomfield Avenue businesses, offices, and mixed-use buildings.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

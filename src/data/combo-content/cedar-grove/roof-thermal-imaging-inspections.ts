@@ -4,7 +4,7 @@ export const cedarGroveRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'cedar-grove',
   overview: [
-    'Roof thermal imaging inspections in Cedar Grove use infrared camera technology to visualize temperature differentials across roof surfaces, revealing hidden moisture, insulation deficiencies, and air leakage patterns invisible to conventional visual inspection. For commercial building owners along Pompton Avenue and Route 23, thermal imaging provides diagnostic data that transforms roof maintenance from reactive leak chasing into proactive condition management -- identifying problems before they produce interior water damage.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Cedar Grove — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections in Cedar Grove use infrared camera technology to visualize temperature differentials across roof surfaces, revealing hidden moisture, insulation deficiencies, and air leakage patterns invisible to conventional visual inspection. For commercial building owners along Pompton Avenue and Route 23, thermal imaging provides diagnostic data that transforms roof maintenance from reactive leak chasing into proactive condition management -- identifying problems before they produce interior water damage.',
     'Cedar Grove\'s commercial flat roofs are ideal candidates for [thermal imaging inspection](/roof-thermal-imaging-inspections) because the horizontal surfaces retain heat patterns that clearly distinguish wet insulation zones from dry areas. After sunset, moisture-saturated insulation retains solar heat longer than dry insulation, creating temperature differences of five to fifteen degrees that infrared cameras capture as vivid thermal maps. These maps guide targeted repair to the specific areas holding moisture, eliminating the guesswork that makes conventional leak investigation expensive and disruptive.',
     'Residential thermal imaging applications in Cedar Grove focus on identifying attic heat loss patterns that cause ice dams, energy waste, and moisture condensation. The township\'s ranch homes with shallow attic spaces frequently exhibit localized heat loss at recessed lighting fixtures, bathroom exhaust fans, and unsealed plumbing penetrations -- conditions that thermal imaging reveals instantly from the exterior without requiring attic access.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofThermalImagingInspections: ComboContent = {
       question: 'Can thermal imaging be used on Cedar Grove residential roofs?',
       answer: 'Yes. Residential thermal imaging in Cedar Grove identifies attic heat loss patterns that cause ice dams, reveals missing or displaced insulation, and locates air leakage at recessed fixtures and exhaust fans. The scan is performed from the exterior, requiring no interior access. Residential thermal inspections are particularly valuable for Cedar Grove ranch homeowners experiencing ice dam problems, as they pinpoint the specific heat loss locations driving ice formation.',
     },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Cedar Grove, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Cedar Grove range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Cedar Grove NJ -- infrared moisture detection for commercial flat roofs and residential heat loss diagnosis.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

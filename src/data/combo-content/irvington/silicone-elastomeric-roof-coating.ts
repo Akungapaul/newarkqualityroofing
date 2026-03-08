@@ -4,7 +4,7 @@ export const irvingtonSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'irvington',
   overview: [
-    'Silicone elastomeric roof coating provides Irvington\'s commercial building owners with a restoration pathway that stretches and seals across the hairline cracks, seam separations, and surface fatigue that aging flat roofs develop without requiring the capital outlay of full membrane replacement. Our [silicone elastomeric coating](/silicone-elastomeric-roof-coating) installations across Irvington apply flexible, UV-stable films that bridge existing surface defects while maintaining their elasticity through the thermal cycling that Irvington\'s climate imposes on unshaded flat-roof surfaces.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Irvington — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating provides Irvington\'s commercial building owners with a restoration pathway that stretches and seals across the hairline cracks, seam separations, and surface fatigue that aging flat roofs develop without requiring the capital outlay of full membrane replacement. Our [silicone elastomeric coating](/silicone-elastomeric-roof-coating) installations across Irvington apply flexible, UV-stable films that bridge existing surface defects while maintaining their elasticity through the thermal cycling that Irvington\'s climate imposes on unshaded flat-roof surfaces.',
     'The elastomeric properties of silicone distinguish it from rigid coating systems that crack when the substrate beneath them moves. Springfield Avenue commercial buildings experience continuous thermal movement as their steel and concrete structures expand in summer heat and contract in winter cold. Rigid coatings applied over these moving substrates develop stress cracks within a few thermal cycles, allowing water to reach the membrane beneath. Silicone elastomeric coatings stretch and recover with the substrate movement, maintaining continuous waterproofing through temperature swings that span 120 degrees from winter minimum to summer rooftop maximum.',
     'Route 78 industrial facilities benefit from silicone elastomeric coating\'s chemical resistance in addition to its flexibility. Industrial rooftops exposed to chemical fumes, petroleum products, and atmospheric pollutants from the highway corridor encounter accelerated degradation of conventional coatings. Silicone resists this chemical exposure while the elastomeric formulation accommodates the vibration-induced movement that Route 78 proximity produces. Commercial properties in neighboring [Newark](/silicone-elastomeric-roof-coating-newark-nj) deploy elastomeric coatings for similar durability and chemical resistance on their industrial and commercial flat roofs.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonSiliconeElastomericRoofCoating: ComboContent = {
       question: 'Can silicone elastomeric coating be applied over any existing Irvington roof?',
       answer: 'Silicone elastomeric coating can be applied over most commercial roofing substrates -- EPDM, TPO, modified bitumen, built-up, metal, and concrete -- provided the existing surface is structurally sound, dry, and properly prepared. The specific primer system varies by substrate type. We test adhesion compatibility on every Irvington project before confirming that coating is the appropriate solution.',
     },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Irvington, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Irvington range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in Irvington NJ for aging commercial flat roofs. Flexible, UV-stable film that stretches with thermal movement.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

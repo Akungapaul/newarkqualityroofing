@@ -4,7 +4,7 @@ export const bloomfieldChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'bloomfield',
   overview: [
-    'Chimney flashing repair is one of the most frequent roof-related service calls in Bloomfield because the township\'s housing stock -- Cape Cods, colonials, and split-levels built from the late 1940s through the 1970s -- came equipped with masonry chimneys that have now weathered fifty to seventy years of northern New Jersey freeze-thaw cycles. The flashing system around each chimney includes step flashing along both sides, a headwall apron at the front, counter flashing embedded in mortar joints, and often a cricket or saddle on the upslope face. When any component of this multi-part system fails, water enters at the largest roof penetration and follows rafters and sheathing to create leaks that can appear far from the chimney itself.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Bloomfield — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is one of the most frequent roof-related service calls in Bloomfield because the township\'s housing stock -- Cape Cods, colonials, and split-levels built from the late 1940s through the 1970s -- came equipped with masonry chimneys that have now weathered fifty to seventy years of northern New Jersey freeze-thaw cycles. The flashing system around each chimney includes step flashing along both sides, a headwall apron at the front, counter flashing embedded in mortar joints, and often a cricket or saddle on the upslope face. When any component of this multi-part system fails, water enters at the largest roof penetration and follows rafters and sheathing to create leaks that can appear far from the chimney itself.',
     'Bloomfield\'s brick chimneys present flashing conditions that differ from newer construction. The mortar joints into which counter flashing was originally embedded have deteriorated over decades of weather exposure, losing their grip on the flashing and opening pathways for water to run behind the metal and down the chimney face inside the building envelope. Re-embedding counter flashing in deteriorated mortar without first repointing the damaged joints creates a temporary seal that fails again within two to three years. Proper chimney flashing repair on Bloomfield homes often requires coordinated masonry repointing and flashing replacement to create a durable connection.',
     'For homeowners in Bloomfield\'s Brookdale and Watsessing neighborhoods where the older housing stock concentrates, chimney leaks often overlap with the broader [roof repair](/roof-repair-bloomfield-nj) needs that aging roofs present. A chimney flashing failure discovered during inspection may be one of several flashing and shingle conditions requiring attention across the roof. We assess the full roof condition when responding to a chimney leak call so that Bloomfield homeowners can address all current issues in a single project rather than paying for multiple mobilizations as each problem surfaces separately.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldChimneyFlashingRepair: ComboContent = {
     {
       question: 'How much does chimney flashing repair cost in Bloomfield?',
       answer: 'Chimney flashing repair on a typical Bloomfield home ranges from eight hundred to two thousand dollars for complete step and counter flashing replacement, including ice-and-water membrane and shingle reinstallation. If mortar repointing is needed at the flashing embedment joints, add three hundred to six hundred dollars. Cricket construction, if the chimney lacks one, adds five hundred to eight hundred dollars. We provide a detailed line-item estimate so you know exactly what each component costs and can prioritize if budget requires phasing the work.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Bloomfield, NJ?',
+      answer: 'Most chimney flashing repair projects in Bloomfield range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Bloomfield NJ -- step flashing, counter flashing, and cricket installation for Cape Cods, colonials, and split-levels.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

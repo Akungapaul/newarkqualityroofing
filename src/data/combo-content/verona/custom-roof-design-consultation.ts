@@ -4,7 +4,7 @@ export const veronaCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'verona',
   overview: [
-    'Custom roof design consultation in Verona addresses the architectural complexity that the township\'s diverse housing stock presents. From the multi-plane geometry of 1960s split-levels to the steep-pitched colonials near the town center, every Verona roofing project benefits from design planning that evaluates material options, ventilation requirements, and aesthetic outcomes before the first shingle is ordered. Newark Quality Roofing provides design consultation services that translate homeowner goals into buildable specifications, accounting for Verona\'s specific building conditions, exposure patterns, and community character.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Verona — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Verona addresses the architectural complexity that the township\'s diverse housing stock presents. From the multi-plane geometry of 1960s split-levels to the steep-pitched colonials near the town center, every Verona roofing project benefits from design planning that evaluates material options, ventilation requirements, and aesthetic outcomes before the first shingle is ordered. Newark Quality Roofing provides design consultation services that translate homeowner goals into buildable specifications, accounting for Verona\'s specific building conditions, exposure patterns, and community character.',
     'The split-level and bi-level homes that dominate Verona\'s residential landscape present design challenges that cookie-cutter roofing proposals cannot solve. The elevation transitions, multiple roof planes, and combined steep-and-low-pitch sections require material selections and installation details tailored to each plane\'s specific exposure and geometry. A thorough [roof design consultation](/custom-roof-design-consultation) prevents the common mistake of specifying one material across all roof planes when different sections need different solutions -- standing seam on a low-pitch garage section, architectural shingles on the main roof, and enhanced flashing at every transition between them.',
     'Verona homeowners undertaking major renovations or new construction increasingly seek design guidance that considers energy performance, sustainability, and long-term maintenance alongside traditional weatherproofing. Cool-reflective shingles, integrated solar readiness, and enhanced insulation strategies all enter the design conversation alongside color selection and material durability. Our consultations with [Montclair](/custom-roof-design-consultation-montclair-nj) homeowners have explored similar multi-factor design decisions on architecturally complex properties, though Verona\'s predominant split-level geometry shapes the evaluation framework differently.'
   ],
@@ -34,7 +34,25 @@ export const veronaCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Do you work with architects on custom home projects in Verona?',
       answer: 'We collaborate regularly with architects on new construction and major renovation projects in Verona and throughout Essex County. Our role in the architect relationship includes material specification input, structural load calculations for the architect\'s consideration, ventilation design coordination, and constructability review of proposed roof designs. We provide practical field expertise that complements the architect\'s design vision, identifying potential issues during the design phase rather than discovering them during construction.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Verona, NJ?',
+      answer: 'Most custom roof design consultation projects in Verona range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Verona NJ -- split-level material planning, multi-plane design, and specification for every home style.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

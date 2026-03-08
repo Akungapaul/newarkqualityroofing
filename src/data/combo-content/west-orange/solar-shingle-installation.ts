@@ -4,7 +4,7 @@ export const westOrangeSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'west-orange',
   overview: [
-    'Solar shingle technology appeals to West Orange homeowners who want renewable energy production without the visual impact of traditional panel arrays on their rooflines. Our [solar shingle installation](/solar-shingle-installation) work in West Orange integrates photovoltaic cells into building-integrated roofing products that function simultaneously as weather protection and energy generation, creating a clean roofline indistinguishable from premium architectural shingles at street level.',
+    'Newark Quality Roofing delivers expert solar shingle installation in West Orange — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology appeals to West Orange homeowners who want renewable energy production without the visual impact of traditional panel arrays on their rooflines. Our [solar shingle installation](/solar-shingle-installation) work in West Orange integrates photovoltaic cells into building-integrated roofing products that function simultaneously as weather protection and energy generation, creating a clean roofline indistinguishable from premium architectural shingles at street level.',
     'Llewellyn Park and the estate neighborhoods surrounding West Orange\'s upper elevations present the strongest case for solar shingles, where homeowners value both energy independence and the architectural integrity of their historic or architecturally significant homes. Traditional racked solar panels alter roofline aesthetics in ways that concern community associations and homeowners invested in their property\'s visual character. Solar shingles eliminate this aesthetic trade-off entirely, producing energy from a roof surface that maintains the home\'s original design intention.',
     'The mid-slope neighborhoods along Gregory Avenue and Main Street offer favorable economics for solar shingle installation, where south-facing roof planes with moderate pitch angles provide the orientation and exposure that solar shingles require for productive energy generation. Homeowners near [Montclair](/solar-shingle-installation-montclair-nj) evaluate similar solar shingle options for their own architecturally significant homes where panel aesthetics raise community concerns.',
     'Solar shingle systems available for West Orange installations include GAF Energy Timberline Solar and Tesla Solar Roof, each with different integration approaches, efficiency ratings, and cost structures. Our consultations evaluate both options against each property\'s specific characteristics -- roof geometry, solar exposure, energy consumption patterns, and budget parameters -- recommending the system that delivers the best combination of production, aesthetics, and investment return for [West Orange](/roofing-in-west-orange-nj) homeowners.'
@@ -35,7 +35,25 @@ export const westOrangeSolarShingleInstallation: ComboContent = {
     {
       question: 'What warranty do solar shingles carry?',
       answer: 'Current solar shingle products carry 25-year power output warranties guaranteeing minimum production levels (typically 80 percent of rated output at year 25), along with 25-year weatherproofing warranties covering the shingle\'s roofing function. These warranties rival or exceed standard asphalt shingle warranty periods. We recommend evaluating the manufacturer\'s financial stability and market position when considering warranty value, as the warranty is only as reliable as the company standing behind it over a quarter-century timeframe.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in West Orange, NJ?',
+      answer: 'Most solar shingle installation projects in West Orange range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in West Orange NJ. Building-integrated solar roofing that preserves architectural character.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

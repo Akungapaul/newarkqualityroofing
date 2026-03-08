@@ -4,7 +4,7 @@ export const eastOrangeSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'east-orange',
   overview: [
-    'Silicone roof coating provides East Orange commercial and multi-family building owners with a restoration pathway that extends the service life of existing flat roof systems by 10 to 15 years at 30 to 40 percent of full replacement cost. The technology is particularly relevant for the apartment buildings and mixed-use commercial properties along Main Street, in Brick Church, and throughout Doddtown where flat roof membranes have lost surface integrity through UV degradation and weathering but retain structural soundness beneath the deteriorated surface. [Silicone roof coating](/silicone-roof-coating) bonds to the existing membrane, creating a new waterproofing surface that is seamless, UV-stable, and reflective -- restoring the roof\'s protective function without the cost, disruption, and debris of tear-off and replacement.',
+    'Newark Quality Roofing delivers expert silicone roof coating in East Orange — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating provides East Orange commercial and multi-family building owners with a restoration pathway that extends the service life of existing flat roof systems by 10 to 15 years at 30 to 40 percent of full replacement cost. The technology is particularly relevant for the apartment buildings and mixed-use commercial properties along Main Street, in Brick Church, and throughout Doddtown where flat roof membranes have lost surface integrity through UV degradation and weathering but retain structural soundness beneath the deteriorated surface. [Silicone roof coating](/silicone-roof-coating) bonds to the existing membrane, creating a new waterproofing surface that is seamless, UV-stable, and reflective -- restoring the roof\'s protective function without the cost, disruption, and debris of tear-off and replacement.',
     'The ponding water tolerance of silicone coating distinguishes it from acrylic and elastomeric alternatives that degrade in standing water. East Orange\'s flat-roofed apartment buildings frequently exhibit ponding conditions caused by structural deflection, inadequate original slope, and clogged drainage systems. While ponding should be addressed through proper drainage, the reality is that many East Orange building roofs will continue to pond water regardless of corrective efforts because the structural conditions creating the ponding cannot be economically altered. Silicone coating maintains its integrity in ponding conditions that would wash away or delaminate acrylic coatings within one or two seasons.',
     'Reflective performance of silicone coating delivers measurable energy savings on East Orange buildings where dark EPDM or modified bitumen surfaces currently absorb solar heat that transfers into top-floor living and commercial spaces. Converting a dark roof to a reflective silicone-coated surface reduces summer roof surface temperature by 50 to 70 degrees Fahrenheit, lowering cooling loads and improving tenant comfort in the top-floor apartments that East Orange\'s three-story buildings serve. Property owners in neighboring [Newark](/silicone-roof-coating-newark-nj) have documented similar cooling cost reductions after silicone coating application on their commercial buildings.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeSiliconeRoofCoating: ComboContent = {
     {
       question: 'How much does silicone roof coating cost compared to roof replacement on an East Orange building?',
       answer: 'Silicone coating typically costs 30 to 40 percent of full roof replacement for the same building. A coating project that costs $15,000 to $20,000 compares against a replacement project that would cost $40,000 to $60,000 on a typical East Orange apartment building. The savings are immediate, and the deferred replacement extends the building owner\'s capital planning horizon by 10 to 15 years.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in East Orange, NJ?',
+      answer: 'Most silicone roof coating projects in East Orange range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating for East Orange NJ buildings -- reflective flat roof restoration, ponding water tolerance, and cost-effective membrane life extension.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

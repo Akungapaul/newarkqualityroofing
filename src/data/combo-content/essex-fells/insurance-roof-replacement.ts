@@ -4,7 +4,7 @@ export const essexFellsInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Insurance roof replacement on Essex Fells estates navigates the intersection of premium roofing material claims, high-value home policies, and the documentation standards required to secure full replacement coverage for roofing systems that may cost five to twenty times more than standard residential roofs. A slate roof replacement claim on a 6,000-square-foot estate home represents a six-figure insurance engagement that demands meticulous damage documentation, material specification accuracy, and claims process management beyond the capability of contractors experienced only with standard shingle replacement claims.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Essex Fells — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement on Essex Fells estates navigates the intersection of premium roofing material claims, high-value home policies, and the documentation standards required to secure full replacement coverage for roofing systems that may cost five to twenty times more than standard residential roofs. A slate roof replacement claim on a 6,000-square-foot estate home represents a six-figure insurance engagement that demands meticulous damage documentation, material specification accuracy, and claims process management beyond the capability of contractors experienced only with standard shingle replacement claims.',
     'The insurance claim landscape for Essex Fells properties involves specialized high-value homeowner policies -- often through carriers like Chubb, AIG Private Client, or PURE -- that provide broader coverage for premium materials but also impose higher documentation and restoration standards than standard HO-3 policies. These carriers expect replacement with equivalent materials, not downgrade substitutions. A storm-damaged Vermont slate roof must be replaced with Vermont slate, not architectural shingles, and the claim documentation must support the material specification, procurement cost, and installation methodology for the full premium material replacement.',
     'Our [insurance roof replacement](/insurance-roof-replacement) practice in Essex Fells provides the damage documentation, material specification, and claims coordination that high-value property insurance claims require. We produce detailed damage assessments formatted for adjuster review, specify replacement materials with cost documentation from verified suppliers, and coordinate the claims process timeline with the replacement project schedule. This comprehensive claims support ensures that homeowners receive the full replacement coverage their premium policies provide rather than settling for reduced payments that force material downgrades.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Does my insurance cover the full cost of premium roofing replacement?',
       answer: 'Coverage depends on your specific policy terms. High-value property policies through specialty carriers typically provide full replacement cost coverage for premium materials. Standard policies may apply depreciation, impose material-type limitations, or cap per-square replacement costs. We review the claim estimate against actual replacement costs and identify any coverage gaps before work begins so the homeowner understands any out-of-pocket exposure and can dispute undervaluation with the carrier before committing to the replacement project.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most insurance roof replacement projects in Essex Fells range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Essex Fells NJ -- claims coordination for premium slate, copper, and cedar estate roofing systems.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

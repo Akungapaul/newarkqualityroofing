@@ -4,7 +4,7 @@ export const glenRidgeStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Storm damage roof replacement in Glen Ridge addresses the aftermath of severe weather events that overwhelm the borough\'s century-old roofing systems beyond repair. Nor\'easters channeling through the First Watchung Mountain gap deliver sustained winds that lift slate, strip cedar shakes, and peel architectural shingles from the steeply pitched Victorian roofs that define the borough. When the damage exceeds what targeted [storm repair](/storm-damage-roof-repair-glen-ridge-nj) can remedy, full replacement becomes necessary -- and in Glen Ridge, that replacement must satisfy the Historic Preservation Commission while restoring weather protection.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Glen Ridge — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Glen Ridge addresses the aftermath of severe weather events that overwhelm the borough\'s century-old roofing systems beyond repair. Nor\'easters channeling through the First Watchung Mountain gap deliver sustained winds that lift slate, strip cedar shakes, and peel architectural shingles from the steeply pitched Victorian roofs that define the borough. When the damage exceeds what targeted [storm repair](/storm-damage-roof-repair-glen-ridge-nj) can remedy, full replacement becomes necessary -- and in Glen Ridge, that replacement must satisfy the Historic Preservation Commission while restoring weather protection.',
     'The borough\'s mature tree canopy, while defining Glen Ridge\'s character, becomes a significant hazard during major storms. Heavy oak and elm limbs falling onto slate roofs create impact damage that shatters stone across entire roof planes. Wind-driven trees can collapse onto ridgelines, destroying both the roofing and the structural framing beneath. Storm damage replacement in Glen Ridge frequently involves structural restoration beneath the new roofing surface -- rafter repair, ridge beam reconstruction, and sheathing replacement -- that must be completed before the new roofing material can be installed.',
     'Newark Quality Roofing maintains emergency response capability for Glen Ridge, providing same-day temporary protection after major storm events. Our tarping and temporary membrane systems keep damaged homes weather-tight while the insurance claim, commission approval, and material procurement processes proceed. We understand that Glen Ridge homeowners facing storm damage need immediate security and a clear plan for restoration, and we provide both from the first emergency call through the final replacement installation.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeStormDamageRoofReplacement: ComboContent = {
       question: 'Can storm damage replacement improve my Glen Ridge roof over what it replaced?',
       answer: 'Absolutely. Storm damage replacement provides an opportunity to upgrade waterproofing underlayment, improve ventilation, enhance insulation, and install modern ice dam protection beneath the replacement roofing material. Many Glen Ridge homeowners emerge from storm damage with a roof that performs significantly better than the system the storm destroyed.',
     },
+    {
+      question: 'How much does storm damage roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most storm damage roof replacement projects in Glen Ridge range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Glen Ridge NJ. Emergency response and preservation-grade restoration for the historic district.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const essexFellsRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Roof replacement on an Essex Fells estate is an architectural undertaking that rivals new construction in scope and precision. These are not commodity re-roofing projects where a crew strips shingles and installs a matching product in a day or two. The borough\'s architect-designed homes carry roof systems that were specified as integral elements of the overall design -- natural slate coursing patterns chosen to complement stone facades, copper standing-seam panels proportioned to specific dormers and turrets, cedar shake profiles selected to harmonize with wooded surroundings. Replacing these systems demands the same level of material knowledge, craft skill, and architectural coordination that went into the original installation.',
+    'Newark Quality Roofing delivers expert roof replacement in Essex Fells — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement on an Essex Fells estate is an architectural undertaking that rivals new construction in scope and precision. These are not commodity re-roofing projects where a crew strips shingles and installs a matching product in a day or two. The borough\'s architect-designed homes carry roof systems that were specified as integral elements of the overall design -- natural slate coursing patterns chosen to complement stone facades, copper standing-seam panels proportioned to specific dormers and turrets, cedar shake profiles selected to harmonize with wooded surroundings. Replacing these systems demands the same level of material knowledge, craft skill, and architectural coordination that went into the original installation.',
     'The multi-structure nature of Essex Fells properties transforms roof replacement from a single-building project into an estate-wide material coordination exercise. When the main residence on a Fells Road estate requires full slate replacement, the homeowner and their architect must decide whether the guest cottage, carriage house, and pool pavilion should be updated simultaneously to maintain material consistency. Our approach includes a comprehensive estate roofing audit that documents every structure\'s condition, remaining service life, and material compatibility, giving homeowners the information needed to make phased replacement decisions that protect both budget and aesthetic coherence.',
     'Essex Fells homeowners selecting replacement materials face choices at the highest tier of residential roofing. Natural slate from Vermont, Pennsylvania, or imported quarries offers century-plus lifespans with unmatched visual authority. Standing-seam copper achieves a living patina that evolves over decades. Premium cedar shakes provide the naturalistic texture that complements the borough\'s wooded landscape. Even when the decision involves architectural shingles, Essex Fells homeowners specify designer-series products from GAF or CertainTeed with profiles and colorways that architects approve for compatibility with the home\'s design language.',
     'Our [roof replacement](/roof-replacement) projects in Essex Fells consistently involve collaboration with architects, builders, and interior designers who coordinate the roof system with concurrent renovation work. A replacement project on a Devon Road estate might align with a kitchen expansion that alters the roofline, requiring new framing details and flashing integration designed collaboratively between our team and the project architect. This multi-trade coordination is standard practice in Essex Fells, where homeowners invest in their properties with the long view and expect every contractor to contribute to a unified result.'
@@ -35,7 +35,25 @@ export const essexFellsRoofReplacement: ComboContent = {
     {
       question: 'Do you coordinate with my architect during the replacement process?',
       answer: 'Architect coordination is standard practice on every Essex Fells replacement project. We submit material specifications, color samples, and installation details for architectural review before procurement. During execution, we document progress and flag any field conditions that require design input. Post-completion, we provide the architect with as-built documentation for the property file. This collaborative approach is expected in Essex Fells and produces better results than independent contractor decisions.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most roof replacement projects in Essex Fells range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Essex Fells NJ roof replacement for estates -- natural slate, copper, cedar shake with architect coordination and multi-structure project management.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

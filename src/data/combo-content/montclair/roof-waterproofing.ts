@@ -4,7 +4,7 @@ export const montclairRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'montclair',
   overview: [
-    'Roof waterproofing in Montclair addresses the persistent moisture challenges created by the township\'s combination of dense tree canopy, steep terrain with concentrated runoff patterns, and a housing stock where complex roof geometries create more potential water entry points per home than any typical suburban municipality. The concept extends beyond the primary roofing membrane to encompass the secondary waterproofing layers, sealant systems, and moisture management details that determine whether a Montclair roof merely sheds rain during fair weather or genuinely resists water intrusion during the wind-driven storms, ice dam events, and prolonged saturation conditions that northern New Jersey delivers multiple times each year.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Montclair — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Montclair addresses the persistent moisture challenges created by the township\'s combination of dense tree canopy, steep terrain with concentrated runoff patterns, and a housing stock where complex roof geometries create more potential water entry points per home than any typical suburban municipality. The concept extends beyond the primary roofing membrane to encompass the secondary waterproofing layers, sealant systems, and moisture management details that determine whether a Montclair roof merely sheds rain during fair weather or genuinely resists water intrusion during the wind-driven storms, ice dam events, and prolonged saturation conditions that northern New Jersey delivers multiple times each year.',
     'Ice-and-water shield membrane application represents the most impactful waterproofing investment on Montclair homes. This self-adhering, rubberized asphalt membrane bonds directly to the roof deck, creating a secondary waterproofing layer that prevents water from reaching the interior even when the primary roofing material is temporarily overwhelmed by ice dams, wind-driven rain, or debris impact. Building codes require ice-and-water shield at eaves, but Montclair\'s exposure conditions warrant extended application at valleys, wall-to-roof transitions, and around all penetrations where concentrated water flow exceeds what felt underlayment can manage.',
     'Our [roof waterproofing](/roof-waterproofing) services in [Montclair](/roofing-in-montclair-nj) include liquid-applied membrane coatings for flat and low-slope roof sections, elastomeric sealant applications at flashing transitions and penetrations, and comprehensive moisture barrier systems that protect the structural deck from both exterior water infiltration and interior moisture vapor migration. Homeowners in neighboring [Glen Ridge](/roof-waterproofing-glen-ridge-nj) and [West Orange](/roof-waterproofing-west-orange-nj) benefit from similar waterproofing approaches, but Montclair\'s steeper terrain and more complex rooflines create more opportunities for water to exploit.',
     'The township\'s elevation along the Watchung Ridge amplifies rainfall intensity and wind-driven rain angles that challenge conventional waterproofing assumptions. Horizontal rain penetration at wall-to-roof junctions -- where wind forces rain uphill beneath counter flashing edges -- requires secondary waterproofing details that standard gravity-only water management does not provide.'
@@ -35,7 +35,25 @@ export const montclairRoofWaterproofing: ComboContent = {
     {
       question: 'Can waterproofing solve my Montclair attic condensation problem?',
       answer: 'Exterior waterproofing does not solve condensation problems because condensation moisture originates from inside the building. Interior moisture from cooking, bathing, and breathing rises into the attic where it condenses on cold roof deck surfaces during winter. The solution involves improved attic ventilation to remove humid air, vapor barrier installation on the warm side of the insulation to prevent moisture from reaching the attic, and air sealing at ceiling penetrations that allow conditioned air to leak into the attic space. We assess whether a moisture problem is exterior infiltration or interior condensation before recommending waterproofing solutions.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Montclair, NJ?',
+      answer: 'Most roof waterproofing projects in Montclair range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Montclair NJ -- ice-and-water shield, liquid membranes, and sealant systems for complex Victorian rooflines.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

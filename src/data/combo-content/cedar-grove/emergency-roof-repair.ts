@@ -4,7 +4,7 @@ export const cedarGroveEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'cedar-grove',
   overview: [
-    'When a nor\'easter tears shingles from a Cedar Grove ranch roof at midnight or a fallen oak limb punches through the sheathing during a summer thunderstorm, the response time of your roofing contractor determines how much additional damage your home sustains. Cedar Grove\'s mature tree canopy and exposed northern Essex County position make emergency roof situations more frequent here than in sheltered lowland communities. Our [emergency roof repair](/emergency-roof-repair) crews maintain staged materials and equipment ready for rapid Cedar Grove deployment, because in this township, storm damage waits for no one.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Cedar Grove — with prices starting from $500–$2,500 and free estimates available today. When a nor\'easter tears shingles from a Cedar Grove ranch roof at midnight or a fallen oak limb punches through the sheathing during a summer thunderstorm, the response time of your roofing contractor determines how much additional damage your home sustains. Cedar Grove\'s mature tree canopy and exposed northern Essex County position make emergency roof situations more frequent here than in sheltered lowland communities. Our [emergency roof repair](/emergency-roof-repair) crews maintain staged materials and equipment ready for rapid Cedar Grove deployment, because in this township, storm damage waits for no one.',
     'The ranch homes that dominate Cedar Grove\'s residential streets are particularly vulnerable to emergency-level wind damage. Low-pitched roof planes catch wind at angles that create strong uplift forces along eaves and rakes, and the wide, unbroken spans of a typical ranch roof offer more surface area for wind to exploit than the segmented planes of colonial or Cape Cod designs. When a section of shingles peels back on a Cedar Grove ranch during a storm, the exposed underlayment or bare sheathing can allow significant water infiltration within minutes. Homeowners along [Montclair](/emergency-roof-repair-montclair-nj) borders and throughout the Watchung foothills share this elevated storm exposure.',
     'Cedar Grove\'s Route 23 and Pompton Avenue commercial properties face emergency situations of their own, particularly flat-roof membrane damage from wind-borne debris and the occasional HVAC unit displacement during severe storms. Commercial tenants cannot afford the business interruption that comes with an active roof leak, making rapid response essential for property managers overseeing [Cedar Grove](/roofing-in-cedar-grove-nj) retail and office buildings.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveEmergencyRoofRepair: ComboContent = {
       question: 'How long will a temporary tarp last on my Cedar Grove roof?',
       answer: 'Our emergency tarps are installed with mechanical fasteners and furring strips designed to withstand subsequent weather events for four to six weeks. This provides adequate time to schedule the permanent repair and process insurance paperwork. We check tarp integrity after any significant storm that occurs before the permanent repair is completed.',
     },
+    {
+      question: 'How much does emergency roof repair cost in Cedar Grove, NJ?',
+      answer: 'Most emergency roof repair projects in Cedar Grove range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Cedar Grove NJ. Rapid response for storm damage, fallen trees, and wind-driven leaks on ranch and colonial homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

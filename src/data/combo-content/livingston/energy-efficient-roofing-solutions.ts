@@ -4,7 +4,7 @@ export const livingstonEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'livingston',
   overview: [
-    'Energy efficient roofing in Livingston addresses the thermal performance gap that exists across much of the township\'s mid-century housing stock. Split-levels and raised ranches built during the 1960s and 1970s carry roof systems designed to a fraction of current energy code insulation standards, with attic R-values often measuring below R-19 where modern code requires R-49 or higher. Every roof replacement or major repair presents an opportunity to close this thermal gap with materials and techniques that reduce heating and cooling costs while improving interior comfort year-round.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Livingston — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing in Livingston addresses the thermal performance gap that exists across much of the township\'s mid-century housing stock. Split-levels and raised ranches built during the 1960s and 1970s carry roof systems designed to a fraction of current energy code insulation standards, with attic R-values often measuring below R-19 where modern code requires R-49 or higher. Every roof replacement or major repair presents an opportunity to close this thermal gap with materials and techniques that reduce heating and cooling costs while improving interior comfort year-round.',
     'Cool roofing technology applies primarily to Livingston\'s commercial buildings where large roof footprints and continuous HVAC operation create significant energy consumption. Reflective membrane surfaces, radiant barrier underlayment, and above-deck insulation upgrades combine to reduce cooling loads by 20 to 30 percent on office buildings along Eisenhower Parkway and retail properties at the Town Center. Property managers in [East Orange](/energy-efficient-roofing-solutions-east-orange-nj) have realized similar cooling savings on their commercial portfolios by converting to reflective roofing systems.',
     'Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) for Livingston residential homes focus on the attic assembly rather than just the shingle surface. While lighter-colored shingles reflect marginally more solar radiation than dark colors, the dominant energy performance factor is the insulation and ventilation system beneath the shingles. A properly insulated and ventilated attic assembly reduces heating costs in winter by retaining conditioned air, reduces cooling costs in summer by preventing heat transfer into living spaces, and prevents ice dam formation by maintaining consistent roof deck temperatures.',
     'New Jersey\'s energy incentive programs provide financial support for Livingston homeowners investing in energy efficient roofing improvements. Utility rebates, property tax exemptions for renewable energy installations, and federal tax credits for qualifying materials reduce the net cost of energy upgrades that would otherwise carry premium pricing above standard roofing materials.'
@@ -35,7 +35,25 @@ export const livingstonEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Are there NJ rebates for energy efficient roofing in Livingston?',
       answer: 'New Jersey offers utility rebates for qualifying insulation upgrades, and federal tax credits apply to certain energy efficient building materials. The specific programs and amounts change periodically, so we verify current availability during the proposal phase and include applicable incentives in the project financial analysis. Our documentation packages meet the requirements for rebate applications and tax credit claims.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Livingston, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Livingston range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in Livingston NJ -- attic insulation upgrades, cool roof systems, and thermal performance for split-levels and offices.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

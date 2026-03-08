@@ -4,7 +4,7 @@ export const bloomfieldFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Flat roof replacement in Bloomfield addresses both the residential flat sections common on split-levels and ranches and the commercial flat roofs covering storefronts, offices, and industrial buildings throughout the township. The flat sections on Bloomfield\'s residential homes -- typically covering garages, family rooms, or entry foyers on split-levels -- are the most maintenance-intensive portions of the roof system, and their replacement with modern membrane materials permanently solves the chronic leaking that patching and temporary repairs cannot cure.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Bloomfield — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Bloomfield addresses both the residential flat sections common on split-levels and ranches and the commercial flat roofs covering storefronts, offices, and industrial buildings throughout the township. The flat sections on Bloomfield\'s residential homes -- typically covering garages, family rooms, or entry foyers on split-levels -- are the most maintenance-intensive portions of the roof system, and their replacement with modern membrane materials permanently solves the chronic leaking that patching and temporary repairs cannot cure.',
     'Residential flat roof replacement on Bloomfield split-levels transforms a problem area into a reliable, low-maintenance surface. The original rolled roofing or thin modified bitumen on these sections was never designed for the twenty-plus-year service that the adjacent shingle system provides. Modern EPDM or TPO membrane applied with heat-welded or adhesive-bonded seams eliminates the lap failures that plague rolled roofing, delivering waterproofing performance equivalent to a full commercial flat roof on the small residential scale.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners and commercial building owners with flat roofs approaching end of life, replacement provides the opportunity to address drainage deficiencies that the original construction created. Tapered insulation beneath the new membrane creates positive slope toward drains or scuppers, eliminating the ponding water that accelerated the previous roof\'s deterioration. Combined with code-compliant insulation depth, the replacement delivers both improved waterproofing and measurable energy performance.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldFlatRoofReplacement: ComboContent = {
     {
       question: 'How long does a flat roof membrane last on a Bloomfield home?',
       answer: 'Modern EPDM and TPO membranes deliver twenty to twenty-five years of service on residential flat sections with proper drainage and minimal maintenance. This significantly exceeds the ten-to-fifteen-year service of the rolled roofing or thin modified bitumen that the membrane replaces. The improvement in both longevity and leak-free performance makes membrane replacement the permanent solution for Bloomfield\'s chronically leaking split-level flat sections.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most flat roof replacement projects in Bloomfield range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Bloomfield NJ -- membrane systems for split-level flat sections and commercial flat roofs with drainage improvement.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

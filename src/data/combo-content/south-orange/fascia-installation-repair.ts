@@ -4,7 +4,7 @@ export const southOrangeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Fascia installation and repair in South Orange Village protects the structural roof edge and supports the gutter systems that manage the heavy rainfall and debris loads the village\'s tree canopy produces. On the Tudor Revival and Colonial Revival homes that define South Orange\'s architectural character, fascia boards serve both structural and decorative functions -- they provide the mounting surface for gutters while creating the finished roofline profile visible from the street. Deteriorated fascia compromises gutter stability, invites animal intrusion, and degrades the curb appeal these homeowners have invested substantially to maintain.',
+    'Newark Quality Roofing delivers expert fascia installation repair in South Orange — with prices starting from $1,200–$3,500 and free estimates available today. Fascia installation and repair in South Orange Village protects the structural roof edge and supports the gutter systems that manage the heavy rainfall and debris loads the village\'s tree canopy produces. On the Tudor Revival and Colonial Revival homes that define South Orange\'s architectural character, fascia boards serve both structural and decorative functions -- they provide the mounting surface for gutters while creating the finished roofline profile visible from the street. Deteriorated fascia compromises gutter stability, invites animal intrusion, and degrades the curb appeal these homeowners have invested substantially to maintain.',
     'South Orange\'s tree canopy creates moisture conditions that accelerate fascia deterioration. Persistent shade from mature oaks and maples retains moisture on fascia surfaces after rain events, promoting the fungal decay that softens wood fibers and eventually compromises structural integrity. Gutter overflow from debris-clogged systems saturates fascia boards repeatedly, and the freeze-thaw cycling of northern New Jersey winters splits wood that has absorbed moisture. These combined environmental pressures mean South Orange fascia boards require more frequent inspection and replacement than fascia in drier, sunnier suburban settings.',
     'Material selection for fascia replacement in South Orange balances durability, aesthetic compatibility, and maintenance requirements. Traditional wood fascia in cedar or primed pine matches the period character of the village\'s older homes but requires periodic painting and eventual replacement. Composite and PVC fascia materials provide rot-proof longevity but must be selected in profiles and colors that complement historic home exteriors. Aluminum fascia capping over existing wood provides weather protection while preserving the original material beneath.',
     'Our fascia work in [South Orange](/roofing-in-south-orange-nj) coordinates with gutter system service to address both components efficiently. Since gutter removal and reinstallation is often necessary for fascia replacement, combining both services in a single project reduces total labor cost and ensures the fascia and gutter system are properly integrated as an assembly rather than treated as independent components.'
@@ -35,7 +35,25 @@ export const southOrangeFasciaInstallationRepair: ComboContent = {
     {
       question: 'How long does fascia replacement take on a South Orange home?',
       answer: 'A typical South Orange Colonial with straightforward fascia profiles requires one to two days for complete replacement including gutter removal and reinstallation. Homes with decorative fascia profiles, extensive underlying structural repair, or difficult access conditions may require three to four days. The project timeline depends on the linear footage, material complexity, and the extent of hidden damage revealed during fascia removal.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in South Orange, NJ?',
+      answer: 'Most fascia installation repair projects in South Orange range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in South Orange NJ -- custom profiles for Tudor and Colonial homes with gutter system coordination.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

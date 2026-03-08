@@ -4,7 +4,7 @@ export const essexFellsResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'essex-fells',
   overview: [
-    'Residential roof installation in Essex Fells defines the upper tier of the craft in Essex County. New construction and full replacement projects on the borough\'s architect-designed estates involve material specifications, structural engineering requirements, and aesthetic standards that place these installations in a category fundamentally different from standard suburban roofing. A new roof on a Fells Road estate may call for architect-specified natural slate from a Vermont quarry, custom copper flashings fabricated to original profiles, and installation techniques refined over centuries of heritage roofing practice. Every detail is coordinated with the architect\'s design intent, from slate coursing patterns to copper patina expectations.',
+    'Newark Quality Roofing delivers expert residential roof installation in Essex Fells — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Essex Fells defines the upper tier of the craft in Essex County. New construction and full replacement projects on the borough\'s architect-designed estates involve material specifications, structural engineering requirements, and aesthetic standards that place these installations in a category fundamentally different from standard suburban roofing. A new roof on a Fells Road estate may call for architect-specified natural slate from a Vermont quarry, custom copper flashings fabricated to original profiles, and installation techniques refined over centuries of heritage roofing practice. Every detail is coordinated with the architect\'s design intent, from slate coursing patterns to copper patina expectations.',
     'The borough\'s one-acre minimum lot sizes and heavily wooded terrain create installation logistics that standard roofing contractors are not equipped to manage. Material delivery requires navigating narrow, winding roads without shoulders and maneuvering trucks down long private driveways designed for passenger vehicles. Crane positioning for hoisting slate pallets to upper elevations must accommodate mature specimen trees that cannot be damaged. Debris staging and removal operates through limited access points shared with homeowner vehicle traffic. These logistical realities add planning complexity to every Essex Fells installation.',
     'New construction roofing in Essex Fells integrates with broader building projects that involve architects, general contractors, landscape designers, and interior specialists. Our role in these multi-trade collaborations extends beyond installation execution -- we contribute to material specification during the design phase, coordinate scheduling with framing and waterproofing trades, and ensure that our work meets the architect\'s quality expectations at every milestone inspection. This collaborative approach is standard practice in a community where new homes are designed by leading regional architectural firms.',
     'Our [residential roof installation](/residential-roof-installation) capabilities serve homeowners throughout western Essex County\'s premium communities, including neighboring [North Caldwell](/residential-roof-installation-north-caldwell-nj) estates that share Essex Fells\' commitment to architect-specified quality and premium material selection.'
@@ -35,7 +35,25 @@ export const essexFellsResidentialRoofInstallation: ComboContent = {
     {
       question: 'Can I choose my own architect for the roofing design?',
       answer: 'Absolutely. Most Essex Fells homeowners work with their own architect, and we integrate seamlessly into that relationship. We provide technical input on material performance, structural requirements, and installation feasibility during the design phase. If you do not have an architect and are considering premium materials, we can recommend architects experienced with estate-scale roofing projects in Essex Fells and the surrounding communities.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in Essex Fells, NJ?',
+      answer: 'Most residential roof installation projects in Essex Fells range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in Essex Fells NJ -- architect-specified slate, copper, and cedar installations for estate homes and new construction.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const caldwellTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Tile roof replacement in Caldwell addresses the eventual renewal of clay and concrete tile systems on the borough\'s Mediterranean-styled and custom homes. While tile roofing delivers fifty to one hundred years of service from the tiles themselves, the underlayment beneath typically needs replacement at the thirty to forty year mark -- a project that requires lifting the entire tile field, replacing the waterproof membrane, and resetting the tiles. This underlayment-driven replacement cycle distinguishes tile roofing from materials where the visible surface is also the waterproof barrier.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Caldwell — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Caldwell addresses the eventual renewal of clay and concrete tile systems on the borough\'s Mediterranean-styled and custom homes. While tile roofing delivers fifty to one hundred years of service from the tiles themselves, the underlayment beneath typically needs replacement at the thirty to forty year mark -- a project that requires lifting the entire tile field, replacing the waterproof membrane, and resetting the tiles. This underlayment-driven replacement cycle distinguishes tile roofing from materials where the visible surface is also the waterproof barrier.',
     'The [tile roof replacement](/tile-roof-replacement) decision for [Caldwell](/roofing-in-caldwell-nj) homeowners involves evaluating whether the existing tiles can be salvaged and reused over new underlayment or whether the tile field itself has degraded to the point requiring complete replacement with new tiles. Clay tiles from quality manufacturers retain their structural integrity for a century or more and can typically be reused. Concrete tiles may deteriorate faster and may not warrant the labor cost of removal and reinstallation. Our assessment determines the condition of each tile field to guide this reuse-versus-replace decision.',
     'Structural considerations accompany every tile replacement project in Caldwell because tile weight significantly exceeds other roofing materials. If the original home was framed for tile, the structure typically remains adequate for replacement-in-kind. If the homeowner is converting from shingle to tile, structural reinforcement is required. Either scenario demands engineering verification before the project proceeds. Neighbors in [Montclair](/tile-roof-replacement-montclair-nj) and [Bloomfield](/tile-roof-replacement-bloomfield-nj) face comparable structural assessment requirements on their tile replacement projects.'
   ],
@@ -34,7 +34,25 @@ export const caldwellTileRoofReplacement: ComboContent = {
     {
       question: 'How much does tile roof replacement cost in Caldwell?',
       answer: 'Tile roof replacement with tile reuse over new underlayment costs roughly fifteen to twenty-five thousand dollars for a typical Caldwell home, depending on tile profile, accessibility, and deck repair scope. Full replacement with new tiles adds the material cost of the tile itself, bringing the total to twenty-five to forty thousand dollars. The specific cost depends on tile type, source, structural requirements, and project complexity. We provide detailed proposals reflecting the exact scope each Caldwell project requires.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Caldwell, NJ?',
+      answer: 'Most tile roof replacement projects in Caldwell range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Caldwell NJ -- clay and concrete tile relay with underlayment renewal and dry-fix ridge installation.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

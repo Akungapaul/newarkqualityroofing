@@ -4,7 +4,7 @@ export const eastOrangeSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'east-orange',
   overview: [
-    'Solar panel roofing installation in East Orange intersects with the city\'s multi-family housing reality in ways that differentiate it from the single-family suburban solar market. Landlords and property investors who own the two-families, three-families, and small apartment buildings that compose East Orange\'s residential fabric face a split-incentive challenge: the property owner pays for the solar installation, but tenants who pay their own electric bills capture the energy savings. Resolving this misalignment -- through shared savings agreements, rent-inclusive utility models, or community solar subscriptions -- is the prerequisite step that makes [solar panel](/solar-panel-roofing-installation) investment viable for East Orange rental properties.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in East Orange — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in East Orange intersects with the city\'s multi-family housing reality in ways that differentiate it from the single-family suburban solar market. Landlords and property investors who own the two-families, three-families, and small apartment buildings that compose East Orange\'s residential fabric face a split-incentive challenge: the property owner pays for the solar installation, but tenants who pay their own electric bills capture the energy savings. Resolving this misalignment -- through shared savings agreements, rent-inclusive utility models, or community solar subscriptions -- is the prerequisite step that makes [solar panel](/solar-panel-roofing-installation) investment viable for East Orange rental properties.',
     'New Jersey\'s solar incentive landscape provides compelling economics for East Orange building owners who structure their installations correctly. The Successor Solar Incentive (SuSI) program delivers Transition Renewable Energy Certificates worth approximately $90 per megawatt-hour for community solar installations, and East Orange\'s multi-family buildings qualify for community solar designation that allows tenants to subscribe to the building\'s solar output at a discount to their utility rate. This structure lets the property owner monetize the rooftop through energy production while tenants benefit from reduced electricity costs -- a value proposition that supports both investment returns and tenant satisfaction.',
     'Roof condition assessment before solar installation is critical on East Orange buildings where the roof may be within 5 to 10 years of its remaining service life. Installing solar panels on a roof that will need replacement during the solar system\'s 25-year warranty period creates a costly problem: the panels must be removed, the roof replaced, and the panels reinstalled, adding $5,000 to $15,000 of unnecessary expense. We coordinate roof assessment with solar planning to determine whether the existing roof has sufficient remaining life to support solar installation or whether combined roof replacement and solar installation provides better lifecycle economics. The same assessment logic applies to buildings in neighboring [Newark](/solar-panel-roofing-installation-newark-nj).',
     'Flat-roofed East Orange apartment buildings offer solar installation advantages that pitched residential roofs do not. Ballasted mounting systems on flat roofs require no roof penetrations, preserving membrane waterproofing integrity. Panel tilt angle and orientation can be optimized independently of roof slope and direction. And the typically unobstructed flat roof surfaces of East Orange apartment buildings avoid the shade impact from dormers, chimneys, and complex roof geometry that reduces production on pitched residential installations.'
@@ -35,7 +35,25 @@ export const eastOrangeSolarPanelRoofingInstallation: ComboContent = {
     {
       question: 'How long does solar panel installation take on an East Orange apartment building?',
       answer: 'Physical installation of a solar array on a typical East Orange apartment building takes three to five days after permitting and equipment delivery. The full project timeline from initial assessment to utility interconnection runs 8 to 12 weeks, with the majority of that time consumed by permitting, utility review, and equipment procurement rather than on-site construction.'
-    }
+    },
+    {
+      question: 'How much does solar panel roofing installation cost in East Orange, NJ?',
+      answer: 'Most solar panel roofing installation projects in East Orange range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing installation for East Orange NJ multi-family buildings -- community solar, flat roof arrays, and coordinated roof-solar projects.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

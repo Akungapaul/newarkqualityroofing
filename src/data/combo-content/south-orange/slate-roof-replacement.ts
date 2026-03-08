@@ -4,7 +4,7 @@ export const southOrangeSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Slate roof replacement in South Orange Village preserves the architectural identity that natural stone roofing contributes to the village\'s most distinguished homes. When a century-old slate installation has exhausted its geological service life -- stones delaminating, fasteners corroded throughout, widespread fracturing that selective repair can no longer address -- replacement with new quarry-matched slate maintains the visual character and material authenticity that these architecturally significant homes deserve.',
+    'Newark Quality Roofing delivers expert slate roof replacement in South Orange — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in South Orange Village preserves the architectural identity that natural stone roofing contributes to the village\'s most distinguished homes. When a century-old slate installation has exhausted its geological service life -- stones delaminating, fasteners corroded throughout, widespread fracturing that selective repair can no longer address -- replacement with new quarry-matched slate maintains the visual character and material authenticity that these architecturally significant homes deserve.',
     'The Montrose Park neighborhood contains the highest concentration of slate roofing in our service area, with Tudor Revival and Colonial Revival estates carrying Vermont and Pennsylvania slate installed by craftsmen who built these homes a century ago. Replacing this roofing represents both a technical challenge and a preservation responsibility. Our replacement specifications match the original quarry source when available, selecting slate in the color, texture, and thickness that maintains the roof\'s visual integration with the home\'s architectural design.',
     'South Orange homeowners investing in slate roof replacement make a generational decision. New Vermont or Pennsylvania slate properly installed provides 75-100 years of service, meaning the replacement roof will protect the home for longer than the original installation did. This permanence justifies the premium investment and aligns with the stewardship mentality that [South Orange](/roofing-in-south-orange-nj) homeowners apply to their properties.',
     'For South Orange homes where the architectural character demands the appearance of slate but the structural capacity or budget does not support natural stone, synthetic slate alternatives from manufacturers like DaVinci and EcoStar provide convincing visual approximation at reduced weight and cost. Our [slate roof replacement](/slate-roof-replacement) consultation presents both natural and synthetic options with transparent comparison of appearance, performance, cost, and longevity.'
@@ -35,7 +35,25 @@ export const southOrangeSlateRoofReplacement: ComboContent = {
     {
       question: 'What does slate roof replacement cost in South Orange?',
       answer: 'Natural slate roof replacement is the most expensive residential roofing option, with costs reflecting both the premium material and the specialized labor. The investment is justified by the 75-100-year service life that eliminates multiple future replacement cycles. Synthetic slate provides a more moderate investment with a 50-year warranty. We provide detailed pricing through our on-site estimate process, with material options presented at multiple investment levels.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in South Orange, NJ?',
+      answer: 'Most slate roof replacement projects in South Orange range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in South Orange NJ -- natural Vermont and Pennsylvania slate for Montrose Park estates and village homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

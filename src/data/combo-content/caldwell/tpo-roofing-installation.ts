@@ -4,7 +4,7 @@ export const caldwellTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'caldwell',
   overview: [
-    'Caldwell\'s commercial roofing landscape is a fraction of Newark\'s scale but no less important to the business owners who depend on it. Bloomfield Avenue, the borough\'s main commercial corridor, is lined with single-story retail shops, small professional offices, a bank branch, restaurants, and service businesses -- each occupying between 1,000 and 5,000 square feet of flat or low-slope roof surface. Municipal buildings including Borough Hall, the public library, and the fire station add institutional flat roofs to the mix. For these small-footprint commercial buildings, TPO membrane delivers the same energy-saving reflectivity and watertight welded-seam performance that large-scale urban installations provide, scaled to the practical budgets and straightforward access conditions that define Caldwell\'s commercial environment.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Caldwell — with prices starting from $7–$12/sq ft and free estimates available today. Caldwell\'s commercial roofing landscape is a fraction of Newark\'s scale but no less important to the business owners who depend on it. Bloomfield Avenue, the borough\'s main commercial corridor, is lined with single-story retail shops, small professional offices, a bank branch, restaurants, and service businesses -- each occupying between 1,000 and 5,000 square feet of flat or low-slope roof surface. Municipal buildings including Borough Hall, the public library, and the fire station add institutional flat roofs to the mix. For these small-footprint commercial buildings, TPO membrane delivers the same energy-saving reflectivity and watertight welded-seam performance that large-scale urban installations provide, scaled to the practical budgets and straightforward access conditions that define Caldwell\'s commercial environment.',
     'The economics of TPO installation on Caldwell\'s small commercial buildings differ from the large-footprint warehouse and office tower projects that dominate urban roofing markets. Material cost per square foot is comparable, but labor efficiency on smaller roofs is lower because setup, mobilization, and detail work consume a larger percentage of total project time. On a 3,000-square-foot Bloomfield Avenue storefront, penetration flashing, parapet detailing, and HVAC curb wrapping may account for half the installation hours -- a ratio that would be twenty percent on a 30,000-square-foot warehouse. Our pricing for Caldwell commercial TPO reflects these small-project realities honestly rather than quoting large-project rates that inevitably generate change orders.',
     'TPO\'s white reflective surface provides measurable cooling benefit even on Caldwell\'s modest commercial buildings. A single-story retail space with a dark EPDM or built-up roof absorbs solar heat directly into the occupied space below, driving air conditioning costs through the summer months. The same building with a white TPO membrane reflects seventy percent or more of solar radiation, reducing cooling loads and extending HVAC equipment life. For Caldwell business owners operating on thin retail margins, the energy savings compound year over year and typically recoup the premium over a dark-membrane alternative within five to seven years.'
   ],
@@ -34,7 +34,25 @@ export const caldwellTpoRoofingInstallation: ComboContent = {
     {
       question: 'Does Caldwell require permits for commercial roof replacement?',
       answer: 'Yes. Commercial roof replacement in Caldwell requires a building permit from the Borough Building Department. The permit process includes plan review to verify the proposed system meets current energy code and structural requirements. We prepare and submit the permit application as part of our project scope, coordinate the required inspections during and after installation, and ensure the final sign-off is completed before project closeout. The permit process in Caldwell is straightforward and typically adds one to two weeks to the project timeline for review and approval.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Caldwell, NJ?',
+      answer: 'Most tpo roofing installation projects in Caldwell range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing for Caldwell NJ commercial buildings -- energy-reflective membrane for Bloomfield Avenue shops, offices, and municipal facilities.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

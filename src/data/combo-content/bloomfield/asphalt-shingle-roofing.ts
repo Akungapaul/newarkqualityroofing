@@ -4,7 +4,7 @@ export const bloomfieldAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'bloomfield',
   overview: [
-    'Asphalt shingles are Bloomfield\'s roofing material -- they cover the Cape Cods in Brookdale, the split-levels in Watsessing, the colonials in Oakcrest, and the modest multi-family buildings scattered through Bloomfield Center. This isn\'t a township that debates between slate and cedar shake; the practical question for Bloomfield homeowners is which asphalt shingle product delivers the best balance of performance, appearance, and value for the twenty-five to thirty-five years it will protect their home. That calculation involves understanding what Bloomfield\'s specific housing stock and climate conditions demand from the material.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Bloomfield — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingles are Bloomfield\'s roofing material -- they cover the Cape Cods in Brookdale, the split-levels in Watsessing, the colonials in Oakcrest, and the modest multi-family buildings scattered through Bloomfield Center. This isn\'t a township that debates between slate and cedar shake; the practical question for Bloomfield homeowners is which asphalt shingle product delivers the best balance of performance, appearance, and value for the twenty-five to thirty-five years it will protect their home. That calculation involves understanding what Bloomfield\'s specific housing stock and climate conditions demand from the material.',
     'The upgrade path from three-tab to architectural shingles represents the most significant roofing improvement available to Bloomfield homeowners today. Thousands of Bloomfield homes still wear three-tab shingles -- either originals from mid-century construction or economy replacements from the 1990s and 2000s. Architectural shingles deliver measurably better performance in every category that matters: thirty-year-plus warranties versus fifteen-to-twenty on three-tab, 110-to-130 mph wind ratings versus 60-to-70 mph, superior impact resistance from laminated construction, and a dimensional appearance that adds visible curb appeal to homes where the roof is a prominent exterior feature. The installed cost premium for architectural over three-tab is typically fifteen to twenty percent -- a modest investment that roughly doubles the expected service life.',
     'Bloomfield\'s housing stock creates specific shingle performance requirements that differ from both urban Newark and affluent Montclair. The low-to-moderate roof pitches typical of Cape Cods, ranches, and split-levels -- generally 4:12 to 8:12 -- mean that shingles shed water more slowly than steep-slope installations, extending the time that moisture contacts the shingle surface during rain events. This slower drainage makes algae-resistant granule technology more important than on steep roofs where water sheets off quickly. The multi-plane geometry of split-levels also concentrates water flow at valley intersections, demanding shingle products with reinforced nail zones that resist the tear-through failure that occurs when wind uplift meets saturated shingles.',
     'For Bloomfield homeowners managing roofing as a home maintenance budget item rather than a design project, the shingle market\'s tiered product structure offers clear value optimization. Entry-level architectural shingles from major manufacturers provide the laminated construction, wind rating, and warranty improvements over three-tab at the lowest cost step. Mid-tier products add enhanced color blends, higher impact resistance, and longer warranty periods. Premium designer lines -- appropriate for Montclair\'s Victorians but overspecified for most Bloomfield applications -- add aesthetic features that Bloomfield\'s moderate pitch angles don\'t showcase effectively. We guide Bloomfield homeowners to the value tier that matches their home\'s characteristics and their budget priorities.'
@@ -39,7 +39,25 @@ export const bloomfieldAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Does my Bloomfield home need better attic ventilation with new shingles?',
       answer: 'Very likely. Cape Cods with finished second floors and split-levels with compartmented attic spaces commonly lack adequate ventilation. Insufficient ventilation voids shingle manufacturer warranties and accelerates aging from trapped heat and moisture. We assess ventilation during every re-roofing estimate. If your home falls short of the one-to-one-fifty ventilation ratio required by code and warranty, we add ridge vents, soffit intake vents, or power ventilation as part of the roofing scope. This improvement protects your shingle investment and reduces summer cooling costs simultaneously.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Bloomfield, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Bloomfield range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Bloomfield NJ asphalt shingle roofing -- 3-tab to architectural upgrades, split-level multi-plane expertise, and value-engineered solutions for post-war homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

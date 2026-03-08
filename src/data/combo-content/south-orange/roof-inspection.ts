@@ -4,7 +4,7 @@ export const southOrangeRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'south-orange',
   overview: [
-    'Roof inspection in South Orange Village serves a preservation function that transcends standard condition assessment. The community\'s concentration of natural slate, cedar shake, and copper roofing components means that early detection of deterioration can save thousands of dollars in restoration costs -- a cracked slate caught during inspection costs $150 to replace, while the water damage from an undetected crack can require $5,000 in ceiling and framing repair. Our inspection protocol for South Orange homes evaluates both the primary roofing material and every associated component, from copper valley liners and built-in box gutters to decorative chimney flashings and ridge ironwork.',
+    'Newark Quality Roofing delivers expert roof inspection in South Orange — with prices starting from $150–$400 and free estimates available today. Roof inspection in South Orange Village serves a preservation function that transcends standard condition assessment. The community\'s concentration of natural slate, cedar shake, and copper roofing components means that early detection of deterioration can save thousands of dollars in restoration costs -- a cracked slate caught during inspection costs $150 to replace, while the water damage from an undetected crack can require $5,000 in ceiling and framing repair. Our inspection protocol for South Orange homes evaluates both the primary roofing material and every associated component, from copper valley liners and built-in box gutters to decorative chimney flashings and ridge ironwork.',
     'Real estate transactions in South Orange generate a significant portion of our inspection workload. Buyers investing in Montrose Park estates, Scotland Road bungalows, and Prospect Street Colonials need accurate assessments of roof system remaining life and near-term maintenance requirements before committing to purchase prices that reflect the village\'s premium market. Our inspection reports for buyer clients quantify anticipated costs for the next five and ten years, giving negotiating leverage and budget planning data that generic home inspection roof sections cannot provide. Sellers in [Maplewood](/roof-inspection-maplewood-nj) and South Orange increasingly commission pre-listing roof inspections to address issues before they become negotiation points.',
     'Seton Hall University contracts annual roof inspections across its campus portfolio, where proactive assessment prevents the costly emergency failures that disrupt academic operations. Our institutional inspection methodology documents conditions in a format compatible with university capital planning processes, enabling facilities management to budget roof maintenance and replacement across multi-year cycles. This same systematic approach benefits South Orange homeowners who treat their roofing investment as a long-term asset requiring planned maintenance rather than reactive repair.',
     'Seasonal timing matters for South Orange [roof inspections](/roof-inspection). Spring inspections after winter reveal ice dam damage, freeze-thaw displaced slates, and flashing failures that developed under snow cover. Fall inspections before leaf drop identify conditions that heavy debris loads will worsen during winter. We recommend spring inspection for homes with slate or metal roofing where freeze-thaw is the primary deterioration driver, and fall inspection for cedar shake homes where biological growth assessment before the dormant season guides treatment planning.'
@@ -35,7 +35,25 @@ export const southOrangeRoofInspection: ComboContent = {
     {
       question: 'Should I get a specialized roof inspection before buying a home in South Orange?',
       answer: 'Absolutely. Standard home inspections include a basic roof assessment, but South Orange homes with slate, cedar shake, or copper components require specialized evaluation that general home inspectors are not equipped to provide. Our buyer inspection reports quantify remaining useful life and anticipated costs for the next decade, giving you the information needed for informed purchase decisions and accurate renovation budgeting.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in South Orange, NJ?',
+      answer: 'Most roof inspection projects in South Orange range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof inspection in South Orange NJ -- slate condition assessment, cedar shake evaluation, and buyer inspections for village homes and estates.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

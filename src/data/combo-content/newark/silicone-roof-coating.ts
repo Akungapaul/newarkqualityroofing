@@ -4,7 +4,7 @@ export const newarkSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'newark',
   overview: [
-    'Silicone roof coating extends the functional life of commercial flat roofs in Newark without the disruption, expense, and waste of a full tear-off replacement. For property managers overseeing multi-tenant buildings along Broad Street, warehouse operators in the Ironbound industrial corridor, and institutional facility directors managing Newark\'s school and municipal buildings, silicone coating converts a deteriorating roof membrane into a renewed waterproofing surface at roughly one-third the cost of complete replacement. The economics are particularly compelling in Newark, where commercial roof replacement on occupied buildings carries indirect costs -- tenant disruption, business interruption, parking lot staging -- that silicone coating eliminates entirely.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Newark — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating extends the functional life of commercial flat roofs in Newark without the disruption, expense, and waste of a full tear-off replacement. For property managers overseeing multi-tenant buildings along Broad Street, warehouse operators in the Ironbound industrial corridor, and institutional facility directors managing Newark\'s school and municipal buildings, silicone coating converts a deteriorating roof membrane into a renewed waterproofing surface at roughly one-third the cost of complete replacement. The economics are particularly compelling in Newark, where commercial roof replacement on occupied buildings carries indirect costs -- tenant disruption, business interruption, parking lot staging -- that silicone coating eliminates entirely.',
     'The technology works by applying a fluid-applied silicone elastomer directly over the existing roof membrane after cleaning and priming. Once cured, the silicone creates a seamless, monolithic waterproofing layer that bridges existing cracks, seals failed seams, and encapsulates deteriorated flashing. Unlike acrylic or urethane coatings that degrade in ponding water, silicone maintains its waterproofing integrity in standing water conditions -- a critical advantage on Newark\'s flat commercial roofs where drainage design was often an afterthought in mid-century construction and where parapet heights create chronic ponding zones.',
     'Newark\'s commercial building stock presents the ideal application profile for silicone roof coatings. Buildings constructed between 1940 and 1980 with BUR (built-up roofing), modified bitumen, or early single-ply membranes dominate the Ironbound, Downtown, and industrial areas flanking Route 21. These roofs have typically been patched and re-coated multiple times, creating layered surfaces that make clean tear-off expensive and environmentally burdensome. Silicone coating bonds to these existing surfaces, preserving the underlying membrane as part of the new waterproofing assembly rather than consigning it to a landfill.',
     'The reflective properties of white silicone coating deliver a measurable secondary benefit in Newark\'s urban heat island. Converting a dark asphalt or weathered membrane surface to a reflective silicone coating reduces roof surface temperature by forty to sixty degrees Fahrenheit on peak summer days. This temperature reduction translates directly to lower cooling energy consumption in the building below and contributes to neighborhood-level heat island mitigation -- a priority in Newark\'s climate action planning.'
@@ -40,7 +40,25 @@ export const newarkSiliconeRoofCoating: ComboContent = {
     {
       question: 'Does silicone roof coating meet Newark building code requirements?',
       answer: 'Silicone roof coating systems that meet FM approval or UL classifications satisfy Newark building code requirements for commercial roof maintenance and restoration. When the coating is applied as a maintenance procedure over an existing code-compliant roof assembly, a building permit is typically not required. When the application constitutes a re-roofing project -- such as coating over a roof that has failed inspection -- permit requirements apply. We evaluate each project against current Newark code requirements and obtain permits when applicable.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Newark, NJ?',
+      answer: 'Most silicone roof coating projects in Newark range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating for Newark NJ commercial buildings. Extend flat roof life 15-20 years without tear-off disruption at one-third replacement cost.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

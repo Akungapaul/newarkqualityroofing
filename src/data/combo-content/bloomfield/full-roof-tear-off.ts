@@ -4,7 +4,7 @@ export const bloomfieldFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'bloomfield',
   overview: [
-    'Full roof tear-off on Bloomfield homes strips the existing roofing down to the structural deck, removing every layer of shingles, underlayment, and flashing before installing the new system on a clean substrate. For the Cape Cods, colonials, and split-levels that have been re-roofed once or twice since their mid-century construction, tear-off is not optional -- it is mandated by New Jersey code, which limits asphalt shingle installations to two layers maximum. Many Bloomfield homes are approaching or at that two-layer limit, making full tear-off the mandatory starting point for their next roofing project.',
+    'Newark Quality Roofing delivers expert full roof tear off in Bloomfield — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on Bloomfield homes strips the existing roofing down to the structural deck, removing every layer of shingles, underlayment, and flashing before installing the new system on a clean substrate. For the Cape Cods, colonials, and split-levels that have been re-roofed once or twice since their mid-century construction, tear-off is not optional -- it is mandated by New Jersey code, which limits asphalt shingle installations to two layers maximum. Many Bloomfield homes are approaching or at that two-layer limit, making full tear-off the mandatory starting point for their next roofing project.',
     'Beyond code requirements, tear-off reveals the roof deck condition that recover installations conceal. Bloomfield homes with decades of slow leaking through aging flashing, ice dam backup at eaves, and condensation from inadequate ventilation frequently harbor deck deterioration that is invisible beneath the existing shingles. Tear-off exposes this damage for repair before new roofing is installed -- preventing the scenario where a fresh roof system sits atop rotted plywood that cannot hold fasteners, guaranteeing premature failure of the new installation.',
     'For budget-conscious [Bloomfield](/roofing-in-bloomfield-nj) homeowners comparing tear-off cost against [roof overlay](/roof-overlay-installation-bloomfield-nj), the additional investment in tear-off delivers measurable value: deck inspection and repair opportunity, proper ice-and-water shield installation at eaves, reduced dead load on the roof structure, and a smoother substrate that allows the new shingles to lay flat without telegraphing the contours of the layer beneath. The completed roof performs better, lasts longer, and carries full manufacturer warranty eligibility that overlaid roofs may not qualify for.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldFullRoofTearOff: ComboContent = {
     {
       question: 'What happens to my old shingles after tear-off in Bloomfield?',
       answer: 'Tear-off debris is loaded into dumpsters and hauled to licensed disposal facilities. Many facilities recycle asphalt shingles into road paving material rather than landfilling them. The disposal cost is included in our tear-off pricing -- there are no separate hauling charges. We clean the property of all debris including nail sweeps of the driveway, walkways, and yard areas within the work zone after the dumpster is removed.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Bloomfield, NJ?',
+      answer: 'Most full roof tear off projects in Bloomfield range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Bloomfield NJ -- complete shingle removal, deck inspection, and clean substrate for Cape Cods, colonials, and split-levels.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

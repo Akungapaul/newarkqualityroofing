@@ -4,7 +4,7 @@ export const bloomfieldResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'bloomfield',
   overview: [
-    'Residential roof installation in Bloomfield overwhelmingly means asphalt shingle installation on post-war housing stock built between the late 1940s and early 1970s. The Cape Cods filling Brookdale, the split-levels defining Watsessing, the colonials in the North End, and the ranches scattered throughout form a housing inventory where the roofing material conversation is practical rather than aspirational. Bloomfield homeowners selecting a new roof installation are choosing between asphalt shingle tiers -- entry architectural, mid-range architectural, or designer -- and making that choice based on cost-per-year-of-ownership rather than aesthetic ambition.',
+    'Newark Quality Roofing delivers expert residential roof installation in Bloomfield — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Bloomfield overwhelmingly means asphalt shingle installation on post-war housing stock built between the late 1940s and early 1970s. The Cape Cods filling Brookdale, the split-levels defining Watsessing, the colonials in the North End, and the ranches scattered throughout form a housing inventory where the roofing material conversation is practical rather than aspirational. Bloomfield homeowners selecting a new roof installation are choosing between asphalt shingle tiers -- entry architectural, mid-range architectural, or designer -- and making that choice based on cost-per-year-of-ownership rather than aesthetic ambition.',
     'New construction roofing in Bloomfield is limited compared to established suburban markets, but infill projects and major renovations do occur. Teardown-and-rebuild projects on older lots in Brookdale and near Bloomfield Center require new roof installations that must comply with current NJ building code energy requirements, wind resistance ratings, and ventilation standards. These new-construction installations differ from re-roofing in that they begin with fresh framing and sheathing, eliminating the deck condition uncertainties that re-roofing involves. Our [residential roof installation](/residential-roof-installation) process adapts to both scenarios -- re-roof on existing structures and new installation on fresh framing.',
     'Bloomfield\'s NJ Transit commuter community expects roofing contractors to work efficiently and minimize disruption. Homeowners leave for the train at six-thirty in the morning and return at six-thirty in the evening, and they want to find the project progressing predictably during their absence. Clear communication before, during, and after each work day matters as much as the technical quality of the installation. We provide daily text updates with photographs showing progress, and we ensure the property is secured and presentable when the homeowner returns each evening. Neighboring [Montclair](/residential-roof-installation-montclair-nj) homeowners share this commuter expectation for seamless project management.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldResidentialRoofInstallation: ComboContent = {
     {
       question: 'Do I need to be home during the roof installation on my Bloomfield house?',
       answer: 'No. Most Bloomfield homeowners continue their normal commute during installation. We require access to the property exterior and electrical outlet access for equipment. We send daily progress updates with photographs so you can follow the project remotely. If you have specific concerns about pets, landscaping, or access restrictions, we address those during the pre-installation planning meeting and note them in the crew instructions.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in Bloomfield, NJ?',
+      answer: 'Most residential roof installation projects in Bloomfield range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in Bloomfield NJ -- asphalt shingle systems for Cape Cods, split-levels, and colonials with ventilation upgrades included.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

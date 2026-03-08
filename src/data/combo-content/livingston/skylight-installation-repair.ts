@@ -4,7 +4,7 @@ export const livingstonSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'livingston',
   overview: [
-    'Skylights are a defining feature of Livingston\'s residential landscape, installed extensively during the 1980s and 1990s renovation wave when homeowners sought to brighten the interior spaces of mid-century split-levels and raised ranches that were designed with fewer and smaller windows than contemporary standards. These aging skylight units -- many now 30 or more years old -- represent one of the most common leak sources on Livingston roofs, with deteriorated seals, corroded flashing curbs, and single-pane glazing that promotes condensation and energy loss.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Livingston — with prices starting from $1,500–$5,000 and free estimates available today. Skylights are a defining feature of Livingston\'s residential landscape, installed extensively during the 1980s and 1990s renovation wave when homeowners sought to brighten the interior spaces of mid-century split-levels and raised ranches that were designed with fewer and smaller windows than contemporary standards. These aging skylight units -- many now 30 or more years old -- represent one of the most common leak sources on Livingston roofs, with deteriorated seals, corroded flashing curbs, and single-pane glazing that promotes condensation and energy loss.',
     'Our [skylight installation and repair](/skylight-installation-repair) practice in Livingston addresses the full spectrum from emergency leak repair on failing units to planned replacement during roof projects and new installations that add natural light to interior spaces. Each project category requires different approaches: emergency repair focuses on stopping active water intrusion with temporary sealing and scheduling permanent resolution; replacement coordinates new unit installation with the re-roofing timeline; and new installations involve roof framing modifications, interior finishing, and ventilation adjustments.',
     'Livingston homeowners replacing aging skylights discover that modern units offer dramatic improvements over the products installed decades ago. Low-E coated dual-pane glass reduces heat loss by 40 percent compared to the single-pane units common on 1980s installations. Improved curb flashing systems with integrated ice-and-water shield virtually eliminate the flashing leaks that plagued earlier skylight installations. Fresh air venting options add controlled ventilation that improves indoor air quality while maintaining weathertight performance. Homeowners in [West Orange](/skylight-installation-repair-west-orange-nj) are undertaking similar skylight modernization on their comparable-vintage homes.',
     'HOA communities in Livingston typically permit skylight replacement within existing opening dimensions without architectural review, though new skylight installations that create additional roof penetrations may require committee approval. We verify HOA requirements before proposing new installations in governed communities.'
@@ -35,7 +35,25 @@ export const livingstonSkylightInstallationRepair: ComboContent = {
     {
       question: 'Does my Livingston HOA need to approve skylight replacement?',
       answer: 'Most Livingston HOAs permit skylight replacement in the same size and location without architectural review, treating it as maintenance rather than modification. New skylight installations that add openings to the roof typically do require committee approval. We verify the specific requirements of your community before proposing work and handle HOA submissions when approval is needed.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Livingston, NJ?',
+      answer: 'Most skylight installation repair projects in Livingston range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Livingston NJ -- replacing aging 1980s units, flashing leak repair, and energy-efficient dual-pane upgrades.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'montclair',
   overview: [
-    'Thermal imaging roof inspections bring diagnostic precision to Montclair\'s commercial building management that visual inspection and educated guessing cannot match. An infrared camera detects temperature differentials across the roof surface that correspond to moisture trapped within the roof assembly -- wet insulation retains heat differently than dry insulation, creating thermal signatures visible to the camera after sunset when the roof surface radiates stored solar energy. This non-destructive diagnostic method maps moisture contamination across the entire roof without cutting a single core sample, providing property managers with a complete picture of their roof\'s internal condition.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Montclair — with prices starting from $300–$700 and free estimates available today. Thermal imaging roof inspections bring diagnostic precision to Montclair\'s commercial building management that visual inspection and educated guessing cannot match. An infrared camera detects temperature differentials across the roof surface that correspond to moisture trapped within the roof assembly -- wet insulation retains heat differently than dry insulation, creating thermal signatures visible to the camera after sunset when the roof surface radiates stored solar energy. This non-destructive diagnostic method maps moisture contamination across the entire roof without cutting a single core sample, providing property managers with a complete picture of their roof\'s internal condition.',
     'Montclair\'s commercial property managers increasingly use thermal imaging as a preventive asset management tool rather than a reactive leak investigation method. Annual thermal scans establish baseline moisture maps that track year-over-year changes in insulation condition, identifying areas where moisture is entering the assembly before it produces interior leaks. This early detection allows targeted repair at the entry point while the affected area is small, preventing the progressive insulation saturation that eventually requires full roof section replacement. Properties in [Bloomfield](/roof-thermal-imaging-inspections-bloomfield-nj) and [West Orange](/roof-thermal-imaging-inspections-west-orange-nj) have adopted the same preventive scanning approach.',
     'Our [thermal imaging inspection](/roof-thermal-imaging-inspections) service for [Montclair](/roofing-in-montclair-nj) commercial buildings produces actionable intelligence rather than pretty pictures. Each scan generates a moisture map overlaid on the building footprint, identifying wet zones by location, estimated area, and probable entry point. The report distinguishes between active moisture infiltration requiring immediate repair and historical moisture contamination that may not warrant urgent action. This prioritized presentation helps property managers allocate repair budgets toward the highest-impact interventions.',
     'Pre-purchase due diligence for commercial property transactions in Montclair is another high-value application. Thermal imaging reveals roof assembly moisture conditions that visual inspection and even core sampling at limited points can miss. A buyer investing in a Montclair commercial property can negotiate purchase price or repair escrow based on thermal imaging evidence of insulation moisture that would otherwise remain hidden until post-purchase leaks reveal the contamination.'
@@ -35,7 +35,25 @@ export const montclairRoofThermalImagingInspections: ComboContent = {
     {
       question: 'Should I get a thermal scan before buying a commercial building in Montclair?',
       answer: 'A pre-purchase thermal scan provides critical information about the roof assembly condition that visual inspection and limited core sampling cannot reveal. Hidden moisture contamination in the insulation layer indicates current or historical leak problems that affect the roof\'s remaining service life and future replacement cost. This information supports purchase price negotiation, repair escrow establishment, or informed acceptance of the roof\'s condition. The scan cost is negligible relative to the value of avoiding undisclosed roof problems on a Montclair commercial property purchase.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Montclair, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Montclair range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging in Montclair NJ -- infrared moisture detection for commercial flat roofs with diagnostic mapping reports.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

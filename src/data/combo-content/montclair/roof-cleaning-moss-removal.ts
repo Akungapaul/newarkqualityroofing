@@ -4,7 +4,7 @@ export const montclairRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'montclair',
   overview: [
-    'Montclair\'s tree canopy is the township\'s most beloved landscape feature and its roofs\' most persistent adversary. The dense shade cast by protected oaks, maples, and tulip poplars creates the ideal growth conditions for moss, lichen, and algae on every north-facing and partially shaded roof surface in the township. What appears as a charming green patina on a Victorian slate roof is in reality a biological assault -- moss roots prying between slate courses, lichen acids etching asphalt shingle surfaces, and algae blooms holding a perpetual moisture film against materials designed to shed water quickly. Roof cleaning in Montclair is not a cosmetic service; it is a material preservation necessity that determines whether the roof underneath reaches its intended lifespan.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Montclair — with prices starting from $300–$800 and free estimates available today. Montclair\'s tree canopy is the township\'s most beloved landscape feature and its roofs\' most persistent adversary. The dense shade cast by protected oaks, maples, and tulip poplars creates the ideal growth conditions for moss, lichen, and algae on every north-facing and partially shaded roof surface in the township. What appears as a charming green patina on a Victorian slate roof is in reality a biological assault -- moss roots prying between slate courses, lichen acids etching asphalt shingle surfaces, and algae blooms holding a perpetual moisture film against materials designed to shed water quickly. Roof cleaning in Montclair is not a cosmetic service; it is a material preservation necessity that determines whether the roof underneath reaches its intended lifespan.',
     'The extent of organic colonization on Montclair roofs exceeds what contractors encounter in any other Essex County municipality. Properties in Upper Montclair\'s oldest neighborhoods, where hundred-year-old oaks create near-continuous canopy cover, may develop visible moss colonies within two to three years of a new roof installation. By year five, north-facing slopes can support moss mats thick enough to trap several inches of water during rain events, creating a ponding condition on a surface engineered for rapid drainage. Neighboring [Bloomfield](/roof-cleaning-moss-removal-bloomfield-nj) shares portions of this canopy along the township border, but Montclair\'s combination of tree density and ridge-elevation moisture creates organic growth rates that outpace even heavily wooded properties to the east.',
     'Slate roofs present a paradox in Montclair: the material that has survived a century of weather can be undermined in a decade by unchecked moss growth. Moss rhizoids penetrate between slate courses and into the natural cleavage planes of the stone itself, creating leverage that lifts individual slates fractionally with each freeze-thaw cycle. Over multiple seasons, this biological leverage cumulatively displaces slates from their bedding position, admitting water that accelerates interior deterioration. Regular [roof cleaning and moss removal](/roof-cleaning-moss-removal) on Montclair\'s slate roofs is the single most effective maintenance investment for extending these century-plus-capable roofs toward their full potential lifespan.'
   ],
@@ -34,7 +34,25 @@ export const montclairRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'Do zinc strips really prevent moss growth on Montclair roofs?',
       answer: 'Zinc strips reduce moss and algae growth significantly on surfaces below the strip where rainwater washes zinc ions across the roof surface. The effect is strongest within twenty to thirty feet downslope of the strip and diminishes with distance. On long roof slopes, additional strips at mid-slope positions extend the protection zone. Zinc strips do not eliminate organic growth entirely under Montclair\'s heavy canopy, but they reduce growth rates enough to extend cleaning intervals from annual to every two to three years -- a meaningful reduction in maintenance cost and disruption.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Montclair, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Montclair range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in Montclair NJ -- slate-safe manual treatment, canopy-driven algae control, and zinc strip prevention for shaded roofs.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

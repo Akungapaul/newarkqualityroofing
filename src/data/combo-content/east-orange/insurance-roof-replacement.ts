@@ -4,7 +4,7 @@ export const eastOrangeInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Insurance roof replacement in East Orange navigates the intersection of storm damage, landlord insurance policies, and the claims process that determines whether a property owner pays for roof replacement out of pocket or through their carrier\'s coverage. Multi-family property insurance in East Orange carries different terms, deductibles, and coverage structures than homeowner policies in suburban communities, and the [insurance replacement](/insurance-roof-replacement) process on rental buildings involves documentation requirements, adjuster coordination, and claims management complexity that demands contractor experience with commercial and landlord policy structures.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in East Orange — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in East Orange navigates the intersection of storm damage, landlord insurance policies, and the claims process that determines whether a property owner pays for roof replacement out of pocket or through their carrier\'s coverage. Multi-family property insurance in East Orange carries different terms, deductibles, and coverage structures than homeowner policies in suburban communities, and the [insurance replacement](/insurance-roof-replacement) process on rental buildings involves documentation requirements, adjuster coordination, and claims management complexity that demands contractor experience with commercial and landlord policy structures.',
     'Storm damage claims on East Orange multi-family buildings require documentation that establishes the damage was caused by a covered peril -- wind, hail, fallen trees, lightning -- rather than by normal wear, deferred maintenance, or pre-existing deterioration. Insurance adjusters in East Orange are experienced at distinguishing storm-caused damage from maintenance-related deterioration, and claims submitted without proper cause documentation face denial. Our damage assessment photographs, cause analysis reports, and repair scope documentation provide the evidence that supports claim approval for legitimately storm-damaged East Orange roofs.',
     'The claims timeline on East Orange rental properties creates urgency that owner-occupied claims do not face. A landlord with a storm-damaged roof on an occupied building has immediate obligations to maintain habitable conditions for tenants, and the repair cannot wait for claims adjudication. We perform emergency stabilization immediately after damage occurs, document the emergency measures and costs separately from the permanent replacement scope, and manage the insurance process in parallel with the repair work to minimize the landlord\'s exposure to tenant habitability complaints and code enforcement action. Landlords in [Newark](/insurance-roof-replacement-newark-nj) and across Essex County face the same urgency on their multi-family buildings.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Can I choose my own roofing contractor for an insurance replacement in East Orange?',
       answer: 'Yes. Insurance carriers cannot require you to use a specific contractor. You have the right to select any licensed, insured contractor for the replacement work. We work with all major insurance carriers operating in the East Orange market and are experienced with the documentation and inspection requirements each carrier maintains.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in East Orange, NJ?',
+      answer: 'Most insurance roof replacement projects in East Orange range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement for East Orange NJ rental properties -- storm damage claims, adjuster coordination, and covered peril documentation.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

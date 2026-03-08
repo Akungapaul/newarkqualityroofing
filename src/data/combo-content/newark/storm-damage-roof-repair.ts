@@ -4,7 +4,7 @@ export const newarkStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'newark',
   overview: [
-    'Storms hit Newark differently than they hit the suburbs. The city\'s position at the western edge of Newark Bay, exposed to nor\'easters tracking up the coast and summer thunderstorm cells rolling off the Watchung ridge, creates wind and rain patterns that concentrate damage in predictable ways. Broad Street acts as a wind funnel during nor\'easters, stripping materials from commercial roofs along its corridor. The mature tree canopy in Forest Hill and Vailsburg produces limb-fall damage that suburban developments with younger landscaping rarely experience. Our storm damage repair work in Newark is shaped by these local patterns -- we know where damage concentrates and what forms it takes before the first call comes in.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Newark — with prices starting from $500–$3,000 and free estimates available today. Storms hit Newark differently than they hit the suburbs. The city\'s position at the western edge of Newark Bay, exposed to nor\'easters tracking up the coast and summer thunderstorm cells rolling off the Watchung ridge, creates wind and rain patterns that concentrate damage in predictable ways. Broad Street acts as a wind funnel during nor\'easters, stripping materials from commercial roofs along its corridor. The mature tree canopy in Forest Hill and Vailsburg produces limb-fall damage that suburban developments with younger landscaping rarely experience. Our storm damage repair work in Newark is shaped by these local patterns -- we know where damage concentrates and what forms it takes before the first call comes in.',
     'Following a significant storm event, Newark\'s damage profile typically includes three categories: wind-driven shingle loss on pitched residential roofs across the North Ward and Roseville, membrane lifting and tearing on flat commercial roofs in the Ironbound and Downtown districts, and tree-related structural damage in the heavily canopied neighborhoods of Forest Hill, Weequahic, and Vailsburg. Each category demands different repair expertise, different materials, and different response timelines. Our post-storm operation deploys specialized crews to each damage type rather than sending generalists to handle all three.',
     'The aftermath of a major storm in Newark also triggers a surge of contractor activity -- some legitimate, some not. Storm-chasing contractors from out of state appear in affected neighborhoods within 24 hours, soliciting door-to-door with promises of insurance-covered free roofs. Our role as a Newark-based company is to provide honest damage assessment and repair services grounded in actual conditions, not inflated claims. We photograph genuine damage, provide repair-versus-replacement recommendations based on the actual extent of the problem, and work within insurance claim processes that protect the homeowner\'s interests long-term.',
     'Commercial property owners and managers in Newark face different post-storm pressures. A damaged roof on an occupied office building, a leaking membrane over an Ironbound restaurant kitchen, or wind-stripped flashing on a warehouse near the port demands rapid functional restoration to prevent business interruption losses that exceed the roof repair cost. Our commercial storm response prioritizes operational buildings and sequences repairs to restore weather-tightness first, with cosmetic and warranty-grade finishes following as conditions allow.'
@@ -35,7 +35,25 @@ export const newarkStormDamageRoofRepair: ComboContent = {
     {
       question: 'My commercial building on Ferry Street lost membrane in a windstorm. How fast can you restore the roof?',
       answer: 'Commercial membrane restoration on a Ferry Street building depends on the extent of membrane loss and the availability of matching materials. For localized tears and seam failures, we can typically restore weather-tightness within 24 to 48 hours using emergency membrane patches and seam welding. If large sections of membrane have been peeled back or torn away, permanent restoration requires material ordering and may take five to seven business days. In that interim, we install temporary weatherproofing that keeps the building operational. For restaurants, retail, and other active businesses in the Ironbound, we schedule repair work during off-hours whenever possible to minimize operational disruption.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Newark, NJ?',
+      answer: 'Most storm damage roof repair projects in Newark range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Newark NJ -- nor\'easter wind damage, fallen tree restoration, and insurance-documented repairs across all neighborhoods.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'west-orange',
   overview: [
-    'Custom roof design in West Orange requires fluency with the township\'s entire architectural catalog -- from the gated estate mansions of Llewellyn Park to the postwar split-levels lining Gregory Avenue, and from the Victorian-era cottages near the Orange border to the contemporary builds climbing the upper Watchung ridge. Our [custom roof design and consultation](/custom-roof-design-consultation) process begins with understanding each property\'s position within this diverse building landscape, because design solutions that enhance an Eagle Rock colonial would overwhelm a Pleasant Valley cape.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in West Orange — with prices starting from $200–$500 and free estimates available today. Custom roof design in West Orange requires fluency with the township\'s entire architectural catalog -- from the gated estate mansions of Llewellyn Park to the postwar split-levels lining Gregory Avenue, and from the Victorian-era cottages near the Orange border to the contemporary builds climbing the upper Watchung ridge. Our [custom roof design and consultation](/custom-roof-design-consultation) process begins with understanding each property\'s position within this diverse building landscape, because design solutions that enhance an Eagle Rock colonial would overwhelm a Pleasant Valley cape.',
     'Llewellyn Park commissions represent West Orange\'s most complex custom roof design work. America\'s first planned residential community contains estates with slate mansard roofs, copper-clad turret caps, decorative ridge cresting, and architectural finials that require historically informed restoration or sensitive modernization. Our design consultations for these properties involve archival research, material sourcing from specialty suppliers, and coordination with preservation consultants who understand the covenant restrictions that govern this unique community. Homeowners in nearby [Glen Ridge](/custom-roof-design-consultation-glen-ridge-nj) navigate similar historic preservation design requirements.',
     'New construction projects on the upper Watchung ridge demand roof designs that reconcile modern aesthetics with extreme wind exposure. Contemporary architects designing for West Orange\'s hilltop lots specify dramatic roof forms -- butterfly profiles, extensive overhangs, and cantilevered planes -- that require engineering analysis beyond standard residential practice. Our design consultations for these projects integrate structural wind-load calculations with architectural vision, ensuring that bold design intentions survive the nor\'easters that define ridge-top living in [West Orange](/roofing-in-west-orange-nj).',
     'Mid-century renovation projects throughout West Orange\'s split-level neighborhoods present design opportunities to address the original architectural limitations of 1960s housing stock while modernizing performance. Raising roof pitches, adding dormers for attic conversion, and converting flat-over-sunken-living-room sections to sloped designs improve both aesthetics and functionality. Our consultations evaluate structural implications, zoning setback compliance, and material options that complement rather than clash with the mid-century character of these neighborhoods.'
@@ -35,7 +35,25 @@ export const westOrangeCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'How do you handle design for homes in Llewellyn Park with historic restrictions?',
       answer: 'Llewellyn Park design projects involve research into the property\'s original construction materials and architectural details, coordination with the community\'s architectural review process, and sourcing of historically appropriate materials. We maintain relationships with specialty slate suppliers, architectural copper fabricators, and ornamental metalwork artisans who can produce the period-specific components that Llewellyn Park restorations require. Our design specifications reference available materials and include supplier contacts, ensuring that the design can be built as specified.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in West Orange, NJ?',
+      answer: 'Most custom roof design consultation projects in West Orange range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in West Orange NJ. Elevation-aware design for estates, split-levels, and new construction.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

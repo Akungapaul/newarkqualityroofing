@@ -4,7 +4,7 @@ export const southOrangeCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Commercial roof replacement in South Orange Village delivers new roofing systems to buildings where repair is no longer cost-effective and the existing membrane has reached the end of its functional service life. The village\'s mixed-use commercial corridor along South Orange Avenue, the Seton Hall University campus, and the institutional buildings serving community organizations all carry flat-roof systems that eventually require complete replacement to maintain waterproofing integrity and protect the business and educational operations they shelter.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in South Orange — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in South Orange Village delivers new roofing systems to buildings where repair is no longer cost-effective and the existing membrane has reached the end of its functional service life. The village\'s mixed-use commercial corridor along South Orange Avenue, the Seton Hall University campus, and the institutional buildings serving community organizations all carry flat-roof systems that eventually require complete replacement to maintain waterproofing integrity and protect the business and educational operations they shelter.',
     'The replacement decision for South Orange commercial buildings often involves choosing between recover installation over the existing membrane and full tear-off-and-replace. Recover saves the cost and disruption of tear-off but conceals existing deck conditions and limits insulation improvement opportunities. Full tear-off reveals and corrects any substrate deterioration while allowing maximum insulation upgrade and drainage improvement. We present both options with transparent cost and benefit analysis for each South Orange building, recommending the approach that provides the best long-term value based on the specific conditions our inspection reveals.',
     'South Orange commercial building owners expect replacement projects managed with the professionalism that the village\'s business community standards demand. Project timelines are communicated clearly, tenant disruption is minimized through careful scheduling, and the finished installation presents the clean, professional appearance that South Orange\'s village center maintains. Our [commercial roof replacement](/commercial-roof-replacement) work along [South Orange](/roofing-in-south-orange-nj) Avenue delivers these expectations consistently.',
     'Energy performance improvement during commercial roof replacement provides an opportunity to reduce building operating costs through upgraded insulation and reflective membrane selection. Adding above-deck insulation to current code requirements during replacement transforms the roof from an energy liability into a thermal asset, and the reflective membrane surface reduces cooling loads measurably. These energy improvements partially offset replacement costs through ongoing utility savings.'
@@ -35,7 +35,25 @@ export const southOrangeCommercialRoofReplacement: ComboContent = {
     {
       question: 'What warranty coverage do you provide for commercial roof replacements?',
       answer: 'Our commercial replacements carry a manufacturer system warranty covering both materials and our installation labor, typically 15-25 years depending on the membrane system and warranty tier selected. Additionally, we provide our own workmanship warranty covering the installation details and flashing work that the manufacturer warranty may not fully address. Both warranties are documented and delivered to the building owner at project completion.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in South Orange, NJ?',
+      answer: 'Most commercial roof replacement projects in South Orange range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in South Orange NJ -- full tear-off and new membrane systems for village businesses and campus buildings.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

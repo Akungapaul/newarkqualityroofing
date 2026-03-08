@@ -4,7 +4,7 @@ export const orangeAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'orange',
   overview: [
-    'Asphalt shingles cover the vast majority of Orange\'s residential roofs -- from the colonials and Cape Cods filling the blocks between Main Street and the city borders to the larger homes along Park Avenue and the bungalows of the Oakwood-Lincoln area. The city\'s compact 2.2-square-mile footprint contains thousands of shingle roofs, many installed in the late 1990s and early 2000s when the previous generation of 20-year 3-tab products was the standard offering. These roofs are now at or past their rated lifespan, creating steady demand for [asphalt shingle roofing](/asphalt-shingle-roofing) replacement with modern architectural products that deliver better wind resistance, longer service life, and improved curb appeal.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingles cover the vast majority of Orange\'s residential roofs -- from the colonials and Cape Cods filling the blocks between Main Street and the city borders to the larger homes along Park Avenue and the bungalows of the Oakwood-Lincoln area. The city\'s compact 2.2-square-mile footprint contains thousands of shingle roofs, many installed in the late 1990s and early 2000s when the previous generation of 20-year 3-tab products was the standard offering. These roofs are now at or past their rated lifespan, creating steady demand for [asphalt shingle roofing](/asphalt-shingle-roofing) replacement with modern architectural products that deliver better wind resistance, longer service life, and improved curb appeal.',
     'Material selection for Orange asphalt shingle projects requires accounting for the city\'s position between South Mountain\'s tree canopy and the Valley\'s moisture dynamics. Homeowners along Hillyer Street and South Valley Road need shingles with enhanced impact resistance -- specifically Class 4 products that withstand branch impacts and hail without cracking through the mat. Valley homeowners need shingles with algae-resistant granule formulations because the higher moisture environment accelerates dark-streak algae growth on standard products. We specify the appropriate product line for each Orange neighborhood rather than defaulting to a single brand and model for the entire city.',
     'Orange\'s NJ Transit commuter community drives a particular pattern: new homeowners purchasing older homes and replacing the roof as their first major capital improvement. These buyers typically want a premium architectural shingle that enhances curb appeal -- designer profiles that mimic the dimensional look of wood shake or slate at a fraction of the cost. We offer the full GAF, Owens Corning, and CertainTeed designer lines for Orange homeowners who want their roof to make a visual statement, alongside standard architectural products for investment property owners who prioritize durability per dollar. Neighboring [East Orange](/asphalt-shingle-roofing-east-orange-nj) buyers follow a similar renovation cycle with comparable material preferences.'
   ],
@@ -34,7 +34,25 @@ export const orangeAsphaltShingleRoofing: ComboContent = {
     {
       question: 'How do I prevent black algae streaks on my new Orange roof?',
       answer: 'We specify algae-resistant shingle formulations with copper-infused granules for all Orange installations, especially on properties with heavy shade from South Mountain\'s tree canopy. These shingles prevent the Gloeocapsa magma algae that causes dark streaking on standard products. The algae-resistant formulation is included in the price for shaded properties -- it is not an optional upgrade because the aesthetic impact of streaking is so significant in Orange\'s tree-covered neighborhoods.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Orange, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in Orange NJ -- GAF, Owens Corning, and CertainTeed architectural shingles with impact and algae resistance for every neighborhood.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

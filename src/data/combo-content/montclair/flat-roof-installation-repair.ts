@@ -4,7 +4,7 @@ export const montclairFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Flat roofs in Montclair exist across a wider range of building types than the township\'s reputation as a steep-slope Victorian enclave might suggest. Mid-century modern homes with butterfly and flat-plane designs in the Valley area neighborhoods carry flat roofs as their primary envelope. Arts & Crafts bungalows throughout the South End incorporate flat-roof porch covers and additions that were original to the design. Victorian-era commercial buildings along Bloomfield Avenue and Valley Road have flat roofs concealed behind ornamental parapets. And contemporary new construction on infill lots occasionally features flat-roof elements as part of a modernist design vocabulary. Each of these flat-roof contexts demands a different approach to material selection, drainage design, and integration with the surrounding architecture.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Montclair — with prices starting from $6,000–$18,000 and free estimates available today. Flat roofs in Montclair exist across a wider range of building types than the township\'s reputation as a steep-slope Victorian enclave might suggest. Mid-century modern homes with butterfly and flat-plane designs in the Valley area neighborhoods carry flat roofs as their primary envelope. Arts & Crafts bungalows throughout the South End incorporate flat-roof porch covers and additions that were original to the design. Victorian-era commercial buildings along Bloomfield Avenue and Valley Road have flat roofs concealed behind ornamental parapets. And contemporary new construction on infill lots occasionally features flat-roof elements as part of a modernist design vocabulary. Each of these flat-roof contexts demands a different approach to material selection, drainage design, and integration with the surrounding architecture.',
     'The accumulated layering on Montclair\'s older flat roofs presents both a diagnostic challenge and a replacement opportunity. Many of the township\'s flat-roof structures have been re-roofed multiple times since their original construction, with each generation adding a new membrane layer over the previous installation to avoid the disruption and cost of full tear-off. These accumulated layers trap moisture between membranes, add dead load to structures not designed for it, and conceal deteriorated deck conditions that progress unseen until structural failure occurs. Our [flat roof installation and repair](/flat-roof-installation-repair) approach on layered Montclair flat roofs begins with a thorough assessment of the existing assembly to determine whether recover or full tear-off to the structural deck is the appropriate path.',
     'Drainage correction is the single most impactful improvement we make during flat-roof installations in Montclair. Original flat roofs on mid-century and Victorian-era buildings were frequently installed dead-level or with drainage slopes too minimal to prevent ponding. Decades of deflection under snow loads have created low spots where water ponds for days after rain events, accelerating membrane deterioration and adding weight to structures at their most vulnerable points. Modern flat-roof installations using tapered insulation to create positive drainage eliminate ponding and extend membrane life by years -- a specification that the original builders did not have available but that current installations should always include.'
   ],
@@ -34,7 +34,25 @@ export const montclairFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'Can I add a rooftop deck or garden over my Montclair flat roof?',
       answer: 'With proper structural assessment and membrane specification, flat roofs can support pedestrian decking, container gardens, and green roof systems. The key requirements are structural capacity for the added dead and live loads, a membrane system rated for buried or protected installations, and drainage design that accommodates the additional surface without creating ponding. We coordinate with structural engineers and landscape designers to develop integrated rooftop systems that transform utilitarian flat roofs into functional outdoor spaces.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Montclair, NJ?',
+      answer: 'Most flat roof installation repair projects in Montclair range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Montclair NJ -- mid-century home membranes, commercial drainage correction, and mixed-use phased installation.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Roof flashing guards every vulnerable intersection on West Orange homes -- where roof planes meet walls, where chimneys and vents penetrate the surface, and where valleys channel concentrated water flow. Our [roof flashing installation and repair](/roof-flashing-installation-repair) work in West Orange addresses flashing failures driven by the township\'s elevation-specific stresses: wind-lifted flashings at Eagle Rock ridge, ice-stressed flashings at Gregory Avenue mid-slope, and moisture-corroded flashings in shaded valley-floor locations near Pleasant Valley.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in West Orange — with prices starting from $300–$1,500 and free estimates available today. Roof flashing guards every vulnerable intersection on West Orange homes -- where roof planes meet walls, where chimneys and vents penetrate the surface, and where valleys channel concentrated water flow. Our [roof flashing installation and repair](/roof-flashing-installation-repair) work in West Orange addresses flashing failures driven by the township\'s elevation-specific stresses: wind-lifted flashings at Eagle Rock ridge, ice-stressed flashings at Gregory Avenue mid-slope, and moisture-corroded flashings in shaded valley-floor locations near Pleasant Valley.',
     'The multi-plane rooflines characteristic of West Orange\'s split-level housing stock create more flashing intersections per home than any other housing type in Essex County. Every level change requires step flashing where the roof meets the vertical wall of the adjacent level, and these transitions see concentrated water flow from upper sections draining across lower planes. Flashing failure at split-level transitions is the single most common leak source we repair in West Orange, accounting for more service calls than all other leak types combined.',
     'Historic properties in Llewellyn Park and the surrounding estate neighborhoods rely on copper flashing systems that were hand-fabricated during original construction. When these century-old flashings develop failures, replacement requires matching the original copper weight, profile, and soldering technique to maintain both waterproofing integrity and architectural authenticity. Our flashing work on West Orange historic properties uses 20-ounce cold-rolled copper with traditional lock-seam and soldered joints. Homeowners in nearby [Montclair](/roof-flashing-installation-repair-montclair-nj) maintain similar copper flashing traditions on their own Victorian-era homes.',
     'Commercial flashing systems on [West Orange](/roofing-in-west-orange-nj) buildings along Pleasant Valley Way and Eagle Rock Avenue address larger-scale transitions at parapet walls, equipment curbs, and expansion joints where building movement and thermal cycling stress flashing connections more aggressively than residential applications experience.'
@@ -35,7 +35,25 @@ export const westOrangeRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'Should I upgrade to copper flashing during my West Orange roof replacement?',
       answer: 'Copper flashing provides the longest service life and best corrosion resistance of any flashing material, making it the premium choice for homeowners planning to stay long-term. The cost premium over galvanized steel is significant but proportional to the lifespan advantage. For historic properties in Llewellyn Park and other estate neighborhoods, copper is the historically appropriate choice that maintains architectural integrity. For standard residential applications, quality galvanized or aluminum flashing provides reliable 25-year performance at substantially lower cost.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in West Orange, NJ?',
+      answer: 'Most roof flashing installation repair projects in West Orange range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in West Orange NJ. Step, counter, and valley flashing for split-levels and historic estates.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

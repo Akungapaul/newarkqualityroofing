@@ -4,7 +4,7 @@ export const southOrangeTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'south-orange',
   overview: [
-    'TPO roofing installation in South Orange Village addresses the commercial and institutional buildings that support the village\'s walkable downtown core and the Seton Hall University campus anchoring its northern boundary. While TPO membrane lacks the visual drama of the slate and cedar shake that define South Orange\'s residential streetscape, it delivers the reflective, energy-efficient, and durable flat-roof performance that commercial property owners and facility managers require for buildings along South Orange Avenue and the surrounding commercial blocks.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in South Orange — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing installation in South Orange Village addresses the commercial and institutional buildings that support the village\'s walkable downtown core and the Seton Hall University campus anchoring its northern boundary. While TPO membrane lacks the visual drama of the slate and cedar shake that define South Orange\'s residential streetscape, it delivers the reflective, energy-efficient, and durable flat-roof performance that commercial property owners and facility managers require for buildings along South Orange Avenue and the surrounding commercial blocks.',
     'Seton Hall University represents the single largest concentration of TPO roofing potential in South Orange. Academic buildings, dormitories, dining facilities, and athletic structures with expansive flat-roof footprints benefit from TPO\'s heat-welded seam integrity and energy-efficient white reflective surface. University property management values TPO\'s lower lifecycle cost compared to older membrane technologies, and we coordinate installations during academic breaks to minimize campus disruption while providing institutional-grade warranty coverage that protects the university\'s roofing investment.',
     'The mixed-use buildings along South Orange Avenue -- restaurants, retail spaces, professional offices above street-level storefronts -- carry rooftop mechanical equipment that TPO\'s chemical resistance and puncture tolerance support better than many alternative membranes. Property managers in this corridor appreciate TPO\'s heat-welded seams that create monolithic waterproofing across the entire roof surface, eliminating the seam-failure vulnerability that adhesive-bonded systems present. Our commercial TPO work along [South Orange](/roofing-in-south-orange-nj) Avenue maintains the aesthetic standards this culturally engaged village expects even for utilitarian building surfaces.',
     'Energy performance drives the TPO value proposition for South Orange commercial properties. The membrane\'s white reflective surface reduces rooftop heat absorption by up to 30 percent compared to dark-surfaced roofing, lowering cooling costs during New Jersey summers. For buildings participating in NJ Clean Energy incentive programs or pursuing green building certifications, TPO\'s documented thermal performance provides measurable energy savings and qualifies for available rebate programs that offset a portion of the installation investment.'
@@ -35,7 +35,25 @@ export const southOrangeTpoRoofingInstallation: ComboContent = {
     {
       question: 'What TPO membrane thickness do you recommend for South Orange commercial roofs?',
       answer: 'We specify 60-mil TPO membrane as the standard for South Orange commercial installations. The thicker 80-mil option is warranted for roofs with heavy foot traffic, extensive mechanical equipment, or elevated puncture risk from overhanging tree branches. The 45-mil thickness that some contractors offer as a budget option does not provide adequate long-term performance for the demands that South Orange commercial buildings place on their roofing systems.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in South Orange, NJ?',
+      answer: 'Most tpo roofing installation projects in South Orange range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in South Orange NJ -- energy-efficient membrane systems for commercial buildings and Seton Hall University campus.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

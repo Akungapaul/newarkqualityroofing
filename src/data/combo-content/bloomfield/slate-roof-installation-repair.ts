@@ -4,7 +4,7 @@ export const bloomfieldSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Slate roofs in Bloomfield are uncommon but not absent. A small inventory of pre-war homes -- primarily in the older sections near Bloomfield Center and along the streets closest to Glen Ridge -- carry original slate roofs dating from the 1910s through 1930s. These homes were built during a period when Bloomfield had a more affluent residential character, before the post-war building boom shifted the township\'s housing stock toward Cape Cods and split-levels. The surviving slate roofs are approaching or exceeding one hundred years of service, and their continued performance depends on maintenance practices that most residential roofing contractors cannot provide.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Bloomfield — with prices starting from $20,000–$45,000 and free estimates available today. Slate roofs in Bloomfield are uncommon but not absent. A small inventory of pre-war homes -- primarily in the older sections near Bloomfield Center and along the streets closest to Glen Ridge -- carry original slate roofs dating from the 1910s through 1930s. These homes were built during a period when Bloomfield had a more affluent residential character, before the post-war building boom shifted the township\'s housing stock toward Cape Cods and split-levels. The surviving slate roofs are approaching or exceeding one hundred years of service, and their continued performance depends on maintenance practices that most residential roofing contractors cannot provide.',
     'Slate roof repair on these Bloomfield homes requires specific skills that differ fundamentally from asphalt shingle work. Individual slate tiles must be removed and replaced using slate rippers and copper hooks without disturbing the surrounding tiles. Replacement slates must match the original in thickness, size, and material type -- Pennsylvania black, Vermont green-gray, or another quarry source that may no longer be in production. Flashing repair uses copper rather than aluminum, matching the corrosion resistance that the century-long slate material demands. Homeowners in nearby [Glen Ridge](/slate-roof-installation-repair-glen-ridge-nj) maintain a larger inventory of historic slate roofs and share the challenge of finding qualified slate craftsmen.',
     'For the occasional Bloomfield homeowner considering [slate roof installation](/slate-roof-installation-repair) on a renovation or infill project, the material represents a significant investment that delivers genuine century-long service when properly installed. The installed cost is three to four times that of premium architectural shingles, but the service life is three to four times longer, making the per-year ownership cost comparable. The decision typically comes down to whether the homeowner plans to remain in the property long enough to realize the lifecycle value, and whether the home\'s architectural character warrants the premium material.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'How do I find replacement slates that match my Bloomfield roof?',
       answer: 'We maintain salvage inventory and quarry contacts that cover most slate types found on Essex County homes. We begin by identifying your existing slate quarry origin based on color, thickness, and surface texture. Common types on Bloomfield pre-war homes include Pennsylvania black and Vermont unfading green-gray. We source matching salvage tiles from regional demolition projects or order from active quarries producing compatible material. Exact color matching with century-weathered slate is impossible, but close matches that blend over time are achievable.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Bloomfield, NJ?',
+      answer: 'Most slate roof installation repair projects in Bloomfield range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof repair and installation in Bloomfield NJ -- salvage matching, copper flashing, and century-old roof maintenance for pre-war homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

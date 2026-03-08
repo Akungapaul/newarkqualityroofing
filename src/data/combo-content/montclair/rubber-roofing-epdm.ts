@@ -4,7 +4,7 @@ export const montclairRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'montclair',
   overview: [
-    'EPDM rubber roofing in Montclair serves the township\'s substantial inventory of flat and low-slope roof sections that exist behind the steep-pitch facades of its historic streetscapes. Behind the Victorian parapets on Bloomfield Avenue, beneath the porch roofs on South End bungalows, and across the main planes of mid-century modern homes in the Valley area, flat-roof membranes quietly do the waterproofing work that the decorative facades above them merely suggest. EPDM -- a synthetic rubber membrane with a forty-year track record in commercial and residential flat-roof applications -- has become the default material for Montclair flat sections where the black membrane color is concealed from view and budget efficiency takes priority over the reflective energy benefits of white-surface alternatives.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Montclair — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing in Montclair serves the township\'s substantial inventory of flat and low-slope roof sections that exist behind the steep-pitch facades of its historic streetscapes. Behind the Victorian parapets on Bloomfield Avenue, beneath the porch roofs on South End bungalows, and across the main planes of mid-century modern homes in the Valley area, flat-roof membranes quietly do the waterproofing work that the decorative facades above them merely suggest. EPDM -- a synthetic rubber membrane with a forty-year track record in commercial and residential flat-roof applications -- has become the default material for Montclair flat sections where the black membrane color is concealed from view and budget efficiency takes priority over the reflective energy benefits of white-surface alternatives.',
     'The appeal of EPDM for Montclair\'s residential flat-roof applications lies in its material properties: genuine rubber flexibility that accommodates building movement and thermal cycling without cracking, UV resistance that allows the material to perform under direct solar exposure on south-facing surfaces, and installation simplicity that makes it cost-effective for the small-footprint flat sections typical of Montclair residential architecture. A porch roof replacement, a flat-roof addition, or a low-slope section behind a parapet can be waterproofed with EPDM in a single day on most Montclair homes -- a speed advantage that minimizes the weather-exposure window during installation.',
     'EPDM repair on Montclair\'s existing flat roofs addresses the aging installations from the material\'s first widespread adoption in the 1980s and 1990s. Early EPDM installations in Montclair are now reaching thirty to forty years of service, and while the membrane itself may remain flexible, the adhesive bonds at seams and flashings are approaching their design limits. These aging seams and flashing connections are the primary failure points, producing leaks that homeowners mistake for membrane failure when the actual deficiency is in the assembly, not the material. Targeted [rubber roofing EPDM](/rubber-roofing-epdm) seam and flashing repair can extend the service life of these aging Montclair installations by ten to fifteen years at a fraction of full replacement cost.'
   ],
@@ -34,7 +34,25 @@ export const montclairRubberRoofingEpdm: ComboContent = {
     {
       question: 'Does EPDM require any maintenance on my Montclair home?',
       answer: 'EPDM requires annual debris clearing, especially under Montclair\'s tree canopy where accumulated leaves and branches hold moisture against the membrane surface. Seam and flashing inspections every two to three years catch adhesive failures before they produce leaks. Drain and scupper clearing after leaf fall prevents the ponding that accelerates membrane aging. This light maintenance program extends EPDM service life and prevents the premature failures that deferred maintenance produces under Montclair\'s heavy organic debris load.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Montclair, NJ?',
+      answer: 'Most rubber roofing epdm projects in Montclair range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Montclair NJ -- durable flat-roof membranes for porch covers, mid-century homes, and concealed low-slope sections.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

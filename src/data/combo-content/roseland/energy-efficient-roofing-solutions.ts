@@ -4,7 +4,7 @@ export const roselandEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'roseland',
   overview: [
-    'Energy efficient roofing in Roseland addresses the performance gap between the borough\'s mid-century residential construction and modern energy standards. Homes built during the 1950s and 1960s along Harrison Avenue and Becker Farm Road typically carry original or second-generation roofing systems installed without radiant barriers, reflective surface treatments, or the insulation integration that current energy codes require. Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) retrofit these systems with materials and techniques that reduce heating and cooling costs while extending roof service life.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Roseland — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing in Roseland addresses the performance gap between the borough\'s mid-century residential construction and modern energy standards. Homes built during the 1950s and 1960s along Harrison Avenue and Becker Farm Road typically carry original or second-generation roofing systems installed without radiant barriers, reflective surface treatments, or the insulation integration that current energy codes require. Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) retrofit these systems with materials and techniques that reduce heating and cooling costs while extending roof service life.',
     'Commercial energy efficiency in Roseland carries particular weight because the corporate office buildings along Eisenhower Parkway operate continuous HVAC systems that consume substantial energy for climate control. Reflective roof surfaces, enhanced insulation, and properly engineered ventilation on these commercial properties reduce the cooling load during summer months when dark conventional roofing absorbs and retransmits solar heat into the building envelope. Property managers in [Livingston](/energy-efficient-roofing-solutions-livingston-nj) pursue similar commercial efficiency upgrades on their office building portfolios.',
     'The return on energy-efficient roofing investment is quantifiable through utility cost comparison before and after installation. For Roseland homes, we project energy savings based on the specific property\'s orientation, existing insulation levels, and HVAC system efficiency. The combination of reflective surface treatment, improved insulation, and balanced ventilation typically reduces annual heating and cooling costs by 15 to 25 percent -- a measurable return that compounds over the roof\'s entire service life.'
   ],
@@ -34,7 +34,25 @@ export const roselandEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Can energy improvements be added during a regular roof replacement?',
       answer: 'Coordinating energy improvements with roof replacement is the most cost-effective approach. When the roof is already being replaced, adding reflective underlayment, selecting cool-roof rated shingles, and performing attic air sealing and insulation work during the same project mobilization avoids the duplicate access costs of addressing each component separately. We recommend discussing energy upgrades during the planning phase of any Roseland roof replacement project.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Roseland, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Roseland range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in Roseland NJ -- cool-roof shingles, insulation upgrades, and ventilation for residential and commercial buildings.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

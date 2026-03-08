@@ -4,7 +4,7 @@ export const irvingtonCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'irvington',
   overview: [
-    'Custom roof design consultation in Irvington serves homeowners and property developers navigating roofing decisions on projects that exceed simple material replacement -- renovations that change roof geometry, additions that must integrate with existing rooflines, and investment property rehabilitations where roofing choices affect both curb appeal and rental income. Our [roof design consultation](/custom-roof-design-consultation) services provide professional guidance on material selection, architectural compatibility, structural requirements, and budget optimization for Irvington projects where the right design decisions prevent costly corrections later.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Irvington — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Irvington serves homeowners and property developers navigating roofing decisions on projects that exceed simple material replacement -- renovations that change roof geometry, additions that must integrate with existing rooflines, and investment property rehabilitations where roofing choices affect both curb appeal and rental income. Our [roof design consultation](/custom-roof-design-consultation) services provide professional guidance on material selection, architectural compatibility, structural requirements, and budget optimization for Irvington projects where the right design decisions prevent costly corrections later.',
     'Investment property developers actively renovating Irvington\'s housing stock rely on design consultation to make roofing decisions that maximize property value within tight renovation budgets. The choice between architectural shingles and standard three-tab, the decision to add dormers versus skylights for upper-floor light, and the selection of gutter and trim systems that elevate curb appeal without overspending -- these design decisions directly affect the property\'s rental rate and resale value. Our consultation quantifies the value impact of each option so developers allocate their roofing budget where it produces the highest return.',
     'Addition and renovation projects in Irvington present the most complex design consultation challenges. When a new roof section must tie into an existing 80-year-old structure, the junction between old and new requires careful detailing to prevent leaks, maintain structural integrity, and create a visual transition that does not look like an afterthought. Our design consultation for Irvington addition projects includes detailed junction specifications that our field crews execute -- preventing the disconnect between design intent and field execution that produces premature failures. Renovation projects in [South Orange](/custom-roof-design-consultation-south-orange-nj) involve similar old-to-new integration challenges on that township\'s comparable-era housing stock.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonCustomRoofDesignConsultation: ComboContent = {
       question: 'Do you provide design services for commercial roofing in Irvington?',
       answer: 'Yes. Commercial design consultation includes membrane system selection, energy code compliance, drainage engineering, and equipment coordination. For Springfield Avenue mixed-use buildings, we also address the specific challenges of commercial-residential hybrid structures. Commercial consultation includes preliminary specifications suitable for budgeting and competitive bidding.',
     },
+    {
+      question: 'How much does custom roof design consultation cost in Irvington, NJ?',
+      answer: 'Most custom roof design consultation projects in Irvington range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Irvington NJ for renovations, additions, and investment properties. Expert guidance on materials, budget, and style.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

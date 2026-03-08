@@ -4,7 +4,7 @@ export const caldwellRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Roof replacement in Caldwell unfolds against a backdrop of neighborhood stability that shapes every aspect of the project. Homeowners here have owned their colonials and capes for decades, watched their children grow up on these streets, and invested steadily in properties they intend to pass down or sell at peak value. When a Caldwell roof reaches the end of its service life -- typically after twenty-five to thirty years of shielding asphalt shingles from New Jersey weather -- the replacement decision carries weight beyond the immediate cost. It is a statement about continued commitment to the home and the community, and homeowners approach it with the care and deliberation that characterizes this small borough.',
+    'Newark Quality Roofing delivers expert roof replacement in Caldwell — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement in Caldwell unfolds against a backdrop of neighborhood stability that shapes every aspect of the project. Homeowners here have owned their colonials and capes for decades, watched their children grow up on these streets, and invested steadily in properties they intend to pass down or sell at peak value. When a Caldwell roof reaches the end of its service life -- typically after twenty-five to thirty years of shielding asphalt shingles from New Jersey weather -- the replacement decision carries weight beyond the immediate cost. It is a statement about continued commitment to the home and the community, and homeowners approach it with the care and deliberation that characterizes this small borough.',
     'The dominant housing types in Caldwell -- colonials from the postwar building boom, capes with their compact footprints, and split-levels from the 1960s expansion along streets like Personette Avenue and the Provost Square area -- present roof geometries that experienced crews handle efficiently. Colonial roofs with their straightforward gable-and-dormer configurations allow clean tear-off and systematic reinstallation. Cape cod roofs with steep front pitches and shallow rear planes require careful attention to the transition where pitch changes, a detail that determines long-term water management. Homeowners in neighboring [Roseland](/roof-replacement-roseland-nj) and [North Caldwell](/roof-replacement-north-caldwell-nj) face similar roof replacement decisions on comparable housing stock.',
     'Material selection for Caldwell roof replacements overwhelmingly favors architectural asphalt shingles, and the reasoning is practical rather than aesthetic. Premium shingles from GAF, CertainTeed, and Owens Corning deliver reliable thirty-year performance at a cost that respects the property values in this middle-market borough. The earth-tone palette that defines Caldwell streetscapes -- Weathered Wood, Charcoal, Driftwood -- coordinates naturally with the siding colors and trim details on homes throughout town. Our [roof replacement](/roof-replacement) team brings physical shingle samples to every Caldwell consultation so homeowners can evaluate color choices against their actual facade in natural daylight.',
     'Caldwell homeowners who have maintained their properties well often catch replacement timing before catastrophic failure. Annual inspections reveal the progressive granule loss, edge curling, and valley wear that signal approaching end-of-life. This proactive approach allows homeowners to plan replacement during favorable weather windows, compare contractor proposals without emergency pressure, and budget appropriately for a project that typically ranges from twelve to twenty thousand dollars on a standard Caldwell colonial.'
@@ -35,7 +35,25 @@ export const caldwellRoofReplacement: ComboContent = {
     {
       question: 'Can you match the shingle color to other homes on my Caldwell street?',
       answer: 'Yes, and we encourage this conversation. Caldwell neighborhoods have cohesive streetscapes where roof color choices affect the visual character of the entire block. We bring full-size shingle samples to your home and evaluate them not just against your siding and trim but in the context of neighboring roof colors. The most popular choices in Caldwell -- Weathered Wood, Charcoal, and Driftwood in GAF Timberline or CertainTeed Landmark -- are stocked and available for quick installation without special-order delays.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Caldwell, NJ?',
+      answer: 'Most roof replacement projects in Caldwell range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement in Caldwell NJ -- complete tear-off and installation for colonials, capes, and split-levels with neighborhood-matched shingle selection.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

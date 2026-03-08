@@ -4,7 +4,7 @@ export const millburnRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'millburn',
   overview: [
-    'Roof thermal imaging inspections in Millburn provide the non-destructive diagnostic capability that estate homeowners and commercial property managers require to assess roof conditions without invasive testing that damages premium roofing materials. Infrared thermography detects temperature differentials across the roof surface that indicate trapped moisture, insulation deficiencies, air leakage, and hidden damage patterns invisible to visual inspection. On Millburn\'s slate and copper roofs where cutting into the surface for moisture testing would destroy irreplaceable materials, thermal imaging provides diagnostic information that no other method can deliver without material sacrifice.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Millburn — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections in Millburn provide the non-destructive diagnostic capability that estate homeowners and commercial property managers require to assess roof conditions without invasive testing that damages premium roofing materials. Infrared thermography detects temperature differentials across the roof surface that indicate trapped moisture, insulation deficiencies, air leakage, and hidden damage patterns invisible to visual inspection. On Millburn\'s slate and copper roofs where cutting into the surface for moisture testing would destroy irreplaceable materials, thermal imaging provides diagnostic information that no other method can deliver without material sacrifice.',
     'Commercial property managers along Millburn Avenue use thermal imaging as the foundation of proactive roof-management programs that identify developing problems before they produce leaks. A wet-insulation zone detected by thermal imaging represents future membrane failure -- the moisture will eventually degrade the membrane from below, but the imaging catches the condition months or years before the leak appears. Addressing these conditions through targeted repair when they are small and contained costs a fraction of the emergency repair required when they eventually produce visible water intrusion into the occupied space below.',
     'Our [roof thermal imaging inspections](/roof-thermal-imaging-inspections) service is performed by thermographers trained in building-envelope diagnostics who interpret the thermal signatures in the context of roofing systems specifically -- not general-purpose thermal imaging operators who lack the roofing knowledge to distinguish between a wet-insulation signal and a thermal-bridging anomaly that produces a similar thermal pattern. This specialized interpretation produces actionable reports that identify specific repair locations rather than ambiguous heat maps that leave the building owner uncertain about what action to take.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofThermalImagingInspections: ComboContent = {
     {
       question: 'What time of year produces the best thermal imaging results?',
       answer: 'Late spring through early fall provides the strongest solar loading and the most reliable thermal contrast for moisture detection. Summer months produce the highest contrast because intense solar heating drives the greatest temperature differential between wet and dry zones after sunset. Winter inspections can detect heat-loss patterns and insulation deficiencies from inside the building but are less effective for roof-surface moisture detection due to reduced solar loading.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Millburn, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Millburn range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections for Millburn estates and commercial buildings. Non-destructive moisture detection and insulation assessment with IR technology.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

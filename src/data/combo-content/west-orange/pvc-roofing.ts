@@ -4,7 +4,7 @@ export const westOrangePvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'west-orange',
   overview: [
-    'PVC single-ply membrane roofing serves West Orange\'s most demanding commercial applications, where chemical resistance, fire performance, and welded-seam waterproofing provide capabilities that competing membrane systems cannot match. Our [PVC roofing](/pvc-roofing) installations in West Orange target restaurant buildings, medical facilities, and commercial kitchens where animal fats in exhaust discharge chemically attack TPO and EPDM membranes, leaving PVC as the only single-ply option that resists this exposure.',
+    'Newark Quality Roofing delivers expert pvc roofing in West Orange — with prices starting from $7–$13/sq ft and free estimates available today. PVC single-ply membrane roofing serves West Orange\'s most demanding commercial applications, where chemical resistance, fire performance, and welded-seam waterproofing provide capabilities that competing membrane systems cannot match. Our [PVC roofing](/pvc-roofing) installations in West Orange target restaurant buildings, medical facilities, and commercial kitchens where animal fats in exhaust discharge chemically attack TPO and EPDM membranes, leaving PVC as the only single-ply option that resists this exposure.',
     'West Orange\'s restaurant concentration along Eagle Rock Avenue and Pleasant Valley Way creates steady demand for PVC roofing where kitchen exhaust vents discharge cooking oils and grease onto adjacent membrane surfaces. These organic compounds plasticize TPO membrane and soften EPDM rubber, creating premature membrane failure within the exhaust plume zone. PVC\'s chemical inertness prevents this degradation, making it the correct specification for any [West Orange](/roofing-in-west-orange-nj) commercial building with food-service exhaust penetrating the roof surface.',
     'The hot-air-welded seam technology that distinguishes PVC from adhesive-bonded EPDM provides immediate full-strength waterproofing at every splice location. West Orange\'s commercial buildings experience the same elevation-driven thermal cycling that tests adhesive bonds on other membrane systems, but PVC\'s heat-welded seams create monolithic connections with strength exceeding the parent membrane. Building owners in neighboring [Livingston](/pvc-roofing-livingston-nj) invest in PVC for similar chemical-resistance applications along their own commercial corridors.',
     'PVC membrane\'s inherent fire resistance exceeds code requirements for most West Orange commercial applications. The material self-extinguishes when the ignition source is removed, earning FM Approvals and UL listings that simplify building department review and insurance underwriting. For buildings adjacent to West Orange\'s wooded areas near South Mountain Reservation, PVC\'s fire performance provides an additional safety margin that building owners and their insurers value.'
@@ -35,7 +35,25 @@ export const westOrangePvcRoofing: ComboContent = {
     {
       question: 'Can PVC membrane be installed during winter in West Orange?',
       answer: 'PVC installation requires ambient temperatures above 40 degrees Fahrenheit for proper membrane handling and welding. We schedule PVC projects for temperature-appropriate windows and can extend the installation season by storing membrane in heated enclosures before deployment. For projects with tight schedules that span cold-weather months, we may phase the work to install membrane sections during warm spells while completing substrate preparation and insulation work during colder periods.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in West Orange, NJ?',
+      answer: 'Most pvc roofing projects in West Orange range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in West Orange NJ. Chemical-resistant membrane for restaurants, medical facilities, and commercial kitchens.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

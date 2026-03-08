@@ -4,7 +4,7 @@ export const westOrangeTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Tile roof replacement restores the Mediterranean and Spanish Colonial character of West Orange\'s estate-era homes, installing clay or concrete tile systems that deliver 75 to 100 years of performance beneath a surface that improves with age. Our [tile roof replacement](/tile-roof-replacement) work in West Orange handles the structural requirements, freeze-thaw engineering, and material sourcing that northern New Jersey tile installations demand beyond the practices used in warmer climates.',
+    'Newark Quality Roofing delivers expert tile roof replacement in West Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement restores the Mediterranean and Spanish Colonial character of West Orange\'s estate-era homes, installing clay or concrete tile systems that deliver 75 to 100 years of performance beneath a surface that improves with age. Our [tile roof replacement](/tile-roof-replacement) work in West Orange handles the structural requirements, freeze-thaw engineering, and material sourcing that northern New Jersey tile installations demand beyond the practices used in warmer climates.',
     'West Orange\'s 1920s-era Mediterranean revival homes in the upper-elevation neighborhoods carry the township\'s most significant tile roof inventory. These century-old installations have reached the end of their service life in northern New Jersey\'s freeze-thaw climate, where tile longevity falls to 60 to 80 years rather than the 100-plus years achieved in frost-free regions. Replacement preserves the architectural character that defines these properties while installing modern underlayment and flashing systems concealed beneath the period-appropriate tile surface.',
     'Concrete tile provides a cost-effective alternative to clay for [West Orange](/roofing-in-west-orange-nj) homeowners who want the tile aesthetic without the premium price of natural clay. Modern concrete tile achieves close visual resemblance to clay profiles, and its lower water absorption rate resists freeze-thaw damage more effectively than some natural clay formulations. We present both options during consultation, comparing aesthetics, performance, and cost for each property\'s specific requirements. Homeowners near [Montclair](/tile-roof-replacement-montclair-nj) evaluate similar clay-versus-concrete decisions for their own period-revival homes.'
   ],
@@ -34,7 +34,25 @@ export const westOrangeTileRoofReplacement: ComboContent = {
     {
       question: 'What mortar do you use for ridge and hip caps?',
       answer: 'We use polymer-modified mortar rather than traditional portland cement for all West Orange tile roof cap bedding. Polymer modification provides flexibility that accommodates freeze-thaw expansion without the cracking that rigid portland cement develops after repeated temperature cycling. This flexible mortar maintains its bond and waterproof integrity through decades of West Orange winters, eliminating the recurring cap re-bedding that portland cement mortar requires.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in West Orange, NJ?',
+      answer: 'Most tile roof replacement projects in West Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in West Orange NJ. Clay and concrete tile with freeze-thaw engineering for estate-era Mediterranean homes.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

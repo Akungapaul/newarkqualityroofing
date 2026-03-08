@@ -4,7 +4,7 @@ export const livingstonGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'livingston',
   overview: [
-    'Gutter systems on Livingston homes manage the substantial rainwater volume that Essex County\'s weather patterns deliver, directing it safely away from foundations, landscaping, and walkways that would otherwise suffer erosion and water damage. The township\'s mature tree canopy makes gutter performance particularly demanding -- leaves, twigs, seed pods, and small branches accumulate in gutter troughs at rates that overwhelm undersized systems and clog even adequately sized gutters without regular maintenance. Our gutter installations are engineered for Livingston\'s specific combination of rainfall intensity and organic debris load.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Livingston — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems on Livingston homes manage the substantial rainwater volume that Essex County\'s weather patterns deliver, directing it safely away from foundations, landscaping, and walkways that would otherwise suffer erosion and water damage. The township\'s mature tree canopy makes gutter performance particularly demanding -- leaves, twigs, seed pods, and small branches accumulate in gutter troughs at rates that overwhelm undersized systems and clog even adequately sized gutters without regular maintenance. Our gutter installations are engineered for Livingston\'s specific combination of rainfall intensity and organic debris load.',
     'Many Livingston homes retain original sectional aluminum gutters from the 1960s and 1970s construction era, with joints that have separated, hangers that have pulled from deteriorated fascia, and downspouts that discharge against foundation walls rather than directing water away from the building. These aging systems create the conditions for basement water infiltration, fascia rot, and landscape erosion that accumulate gradually until the damage becomes visible and expensive to remediate. Homeowners in neighboring [South Orange](/gutter-installation-repair-south-orange-nj) face comparable aging gutter situations on their similar-vintage housing stock.',
     'Our [gutter installation and repair](/gutter-installation-repair) service provides Livingston homes with seamless aluminum gutter systems fabricated on-site to exact measurements, eliminating the joints that are the primary failure point on sectional systems. Seamless gutters maintain continuous flow channels that do not develop the leaking joint gaps that sectional gutters inevitably produce as sealant ages and thermal cycling works joints apart.',
     'Commercial gutter systems on Livingston office buildings and retail properties along Route 10 require larger profiles and higher-capacity downspout configurations that handle the water volume collected from extensive flat roof areas. We design and install commercial gutter systems sized to the building\'s drainage calculations, with overflow scuppers that prevent parapet overtopping during extreme rainfall events.'
@@ -35,7 +35,25 @@ export const livingstonGutterInstallationRepair: ComboContent = {
     {
       question: 'Do you offer copper gutters for Livingston homes?',
       answer: 'We install copper gutter systems for Livingston homeowners who want the premium aesthetic and 50-plus year durability that copper provides. Copper gutters develop a distinctive patina over time that complements homes with copper flashing details or historic architectural character. The installed cost is significantly higher than aluminum, so copper is typically selected for homes where the aesthetic value justifies the premium investment.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Livingston, NJ?',
+      answer: 'Most gutter installation repair projects in Livingston range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Livingston NJ -- seamless 6-inch aluminum systems for split-levels with heavy tree canopy drainage demands.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'west-orange',
   overview: [
-    'Commercial-grade EPDM roofing has protected West Orange\'s light-industrial buildings, multi-tenant offices, and retail plazas for decades, earning its reputation through reliable performance across the township\'s demanding elevation range. Our [EPDM commercial roofing](/epdm-commercial-roofing) installations in West Orange specify the heavier 90-mil reinforced membrane that commercial applications demand, delivering the puncture resistance, dimensional stability, and 30-plus-year service life that building owners require from their roof investment.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in West Orange — with prices starting from $6–$11/sq ft and free estimates available today. Commercial-grade EPDM roofing has protected West Orange\'s light-industrial buildings, multi-tenant offices, and retail plazas for decades, earning its reputation through reliable performance across the township\'s demanding elevation range. Our [EPDM commercial roofing](/epdm-commercial-roofing) installations in West Orange specify the heavier 90-mil reinforced membrane that commercial applications demand, delivering the puncture resistance, dimensional stability, and 30-plus-year service life that building owners require from their roof investment.',
     'Pleasant Valley Way\'s commercial corridor hosts the township\'s densest concentration of EPDM roofs, where office parks, medical facilities, and neighborhood retail centers rely on this proven membrane system. These valley-floor buildings benefit from EPDM\'s superior low-temperature flexibility -- the membrane remains pliable at minus-40 degrees Fahrenheit, ensuring watertight performance during the coldest West Orange winter nights when competing membranes become brittle and vulnerable to thermal cracking.',
     'Building owners managing properties in neighboring [Caldwell](/epdm-commercial-roofing-caldwell-nj) and [Fairfield](/epdm-commercial-roofing-fairfield-nj) face similar commercial roofing decisions, but West Orange\'s unique elevation gradient adds complexity. A commercial EPDM installation on a ridge-top Eagle Rock Avenue property requires different attachment engineering than the same membrane installed at valley elevation, because wind uplift forces increase significantly with terrain exposure. We engineer every [West Orange](/roofing-in-west-orange-nj) commercial EPDM system for its specific location on the Watchung slope.',
     'West Orange\'s commercial building stock includes numerous properties built during the 1970s and 1980s office-park development period, many of which carry original EPDM roofs now approaching or exceeding their design life. Re-roofing these buildings with modern EPDM formulations provides the opportunity to upgrade insulation levels, improve drainage engineering, and install the enhanced seam technology that was not available during original construction.'
@@ -35,7 +35,25 @@ export const westOrangeEpdmCommercialRoofing: ComboContent = {
     {
       question: 'Can you install new EPDM over my existing ballasted roof?',
       answer: 'We typically recommend removing the ballast and existing membrane rather than overlaying. Ballasted systems trap moisture beneath the stone layer, and covering this moisture with new membrane seals it against the insulation permanently. We remove the ballast, test insulation moisture content, replace wet sections, and install a new fully adhered EPDM system that eliminates the maintenance issues ballast creates. The removal and disposal cost is offset by the improved performance and reduced long-term maintenance of the adhered system.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in West Orange, NJ?',
+      answer: 'Most epdm commercial roofing projects in West Orange range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in West Orange NJ. Reinforced 90-mil membrane systems for offices, retail, and light-industrial buildings.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

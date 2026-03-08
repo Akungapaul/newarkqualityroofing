@@ -4,7 +4,7 @@ export const northCaldwellSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Skylight installation on North Caldwell estates brings natural light into interior spaces that the borough\'s wooded setting and deep floor plans can leave feeling enclosed despite generous square footage. Master bathrooms positioned interior to the floor plan, second-floor hallways running the length of a colonial, and kitchen areas set away from exterior walls all benefit from overhead natural light that skylights provide through the roof plane above. On properties where mature tree canopy limits window-level sunlight, roof-level openings capture light that never reaches the lower portions of the building envelope.',
+    'Newark Quality Roofing delivers expert skylight installation repair in North Caldwell — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation on North Caldwell estates brings natural light into interior spaces that the borough\'s wooded setting and deep floor plans can leave feeling enclosed despite generous square footage. Master bathrooms positioned interior to the floor plan, second-floor hallways running the length of a colonial, and kitchen areas set away from exterior walls all benefit from overhead natural light that skylights provide through the roof plane above. On properties where mature tree canopy limits window-level sunlight, roof-level openings capture light that never reaches the lower portions of the building envelope.',
     'Our [skylight](/skylight-installation-repair) work in North Caldwell uses VELUX fixed and operable units that integrate with the premium roofing materials installed on these homes. For slate roofs, we fabricate custom step flashing that transitions from the skylight curb to the surrounding slate field without disturbing the visual pattern of the roof surface. For standing seam metal, the skylight curb integrates with the panel system through fabricated transition pieces that maintain the continuous seam aesthetic. These integration details distinguish estate-quality skylight installation from standard residential work.',
     'Repair work on existing skylights across [North Caldwell](/roofing-in-north-caldwell-nj) addresses the two most common failure modes: seal degradation between the glass unit and the frame (causing condensation or fogging between panes), and flashing deterioration at the curb-to-roof junction (causing water infiltration around the skylight perimeter). Both problems worsen gradually, making early detection through routine inspection the key to preventing the interior damage that advanced skylight failures produce. Homeowners in [Caldwell](/skylight-installation-repair-caldwell-nj) experience similar age-related skylight issues on their residential properties.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellSkylightInstallationRepair: ComboContent = {
     {
       question: 'What size skylight works best in a North Caldwell estate bedroom or bathroom?',
       answer: 'For North Caldwell homes with standard eight-foot ceilings, a 21x46-inch fixed skylight provides excellent natural light for a bathroom or hallway. For cathedral ceiling applications or larger rooms, 30x55-inch or larger units deliver proportional illumination for the space volume. We recommend sizing based on the room dimensions and ceiling height rather than defaulting to standard sizes -- estate-scale rooms often benefit from larger units or multiple skylights coordinated for balanced light distribution.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in North Caldwell, NJ?',
+      answer: 'Most skylight installation repair projects in North Caldwell range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in North Caldwell NJ -- VELUX units with custom flashing for estate homes on wooded properties.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

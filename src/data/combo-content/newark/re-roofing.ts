@@ -4,7 +4,7 @@ export const newarkReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'newark',
   overview: [
-    'Every roof in Newark reaches the point where patching no longer makes sense. Re-roofing is the umbrella term for that transition -- the moment a building moves from repair mode to replacement mode, whether through full tear-off or overlay installation. The decision is not always dramatic. Sometimes it arrives as a contractor\'s honest assessment after the third leak repair in two years: the flashing is intact, the ventilation is adequate, but the shingles themselves have simply exhausted their service life across every slope and valley. That is the re-roofing conversation, and in Newark, it happens on buildings of every age, type, and neighborhood.',
+    'Newark Quality Roofing delivers expert re roofing in Newark — with prices starting from $7,500–$22,000 and free estimates available today. Every roof in Newark reaches the point where patching no longer makes sense. Re-roofing is the umbrella term for that transition -- the moment a building moves from repair mode to replacement mode, whether through full tear-off or overlay installation. The decision is not always dramatic. Sometimes it arrives as a contractor\'s honest assessment after the third leak repair in two years: the flashing is intact, the ventilation is adequate, but the shingles themselves have simply exhausted their service life across every slope and valley. That is the re-roofing conversation, and in Newark, it happens on buildings of every age, type, and neighborhood.',
     'The re-roofing landscape in Newark is shaped by the city\'s building stock. Roughly 70 percent of Newark\'s residential structures were built before 1960, which means the majority of roofs in the city are either original installations approaching or exceeding their material lifespan, or replacement roofs installed decades ago that are themselves aging out. Entire blocks in Vailsburg show the telltale signs of synchronized aging -- shingles installed during the same era across multiple buildings, now curling, cracking, and losing granules in unison. The re-roofing need in Newark is not isolated; it is systemic.',
     'Re-roofing in Newark requires navigating the city\'s permit process, which applies to both tear-off and overlay methods. The Department of Buildings and Code Enforcement reviews the scope, materials, and structural adequacy before issuing a permit. Inspections occur at the underlayment stage and upon completion. For buildings in Newark\'s historic districts or those flagged for architectural significance, additional review may apply. We handle the entire permit lifecycle as part of every re-roofing project -- application, fee payment, inspection scheduling, and final close-out -- so the building owner focuses on the roof, not the paperwork.',
     'Choosing between tear-off and overlay is the first major decision in any Newark re-roofing project, and it is a decision that should be driven by building conditions rather than price alone. We assess both options during our initial inspection and present each with honest cost, timeline, and longevity projections. On a building that qualifies for overlay, the savings are real and meaningful. On a building that needs tear-off, recommending overlay to save money is malpractice. Our role is to match the method to the building, and Newark\'s diverse housing stock means that decision is never one-size-fits-all.'
@@ -39,7 +39,25 @@ export const newarkReRoofing: ComboContent = {
     {
       question: 'How long does the complete re-roofing process take from initial call to finished roof?',
       answer: 'The typical timeline from initial assessment to completed installation is three to four weeks. The first week covers inspection, estimate preparation, and material selection. The second week handles permit application and material ordering. The third and fourth weeks are the construction phase, with the actual on-site work taking three to seven days depending on building size, method, and weather. Emergency situations with active leaks receive expedited scheduling. We provide a project timeline specific to your building at the estimate stage so you can plan accordingly.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Newark, NJ?',
+      answer: 'Most re roofing projects in Newark range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services in Newark NJ -- expert assessment for tear-off vs overlay, full permit handling, and method-matched installation for every building type.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

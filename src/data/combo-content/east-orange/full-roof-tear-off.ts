@@ -4,7 +4,7 @@ export const eastOrangeFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'east-orange',
   overview: [
-    'Full roof tear-off on East Orange multi-family buildings strips the accumulated layers of roofing material -- sometimes three or four generations of shingles, membranes, and patching -- down to the structural deck, revealing the true condition of the building\'s roof structure and creating the clean substrate that proper re-roofing requires. For landlords who have inherited buildings with unknown roofing histories and property investors acquiring distressed East Orange properties in the rehabilitation zones, [full tear-off](/full-roof-tear-off) is frequently the only responsible approach because the concealed conditions beneath accumulated layers cannot be assessed or addressed through overlay.',
+    'Newark Quality Roofing delivers expert full roof tear off in East Orange — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on East Orange multi-family buildings strips the accumulated layers of roofing material -- sometimes three or four generations of shingles, membranes, and patching -- down to the structural deck, revealing the true condition of the building\'s roof structure and creating the clean substrate that proper re-roofing requires. For landlords who have inherited buildings with unknown roofing histories and property investors acquiring distressed East Orange properties in the rehabilitation zones, [full tear-off](/full-roof-tear-off) is frequently the only responsible approach because the concealed conditions beneath accumulated layers cannot be assessed or addressed through overlay.',
     'East Orange Building Department may require tear-off when permit applications for re-roofing reveal that the building already carries the maximum number of roof layers that building code allows. Two layers of asphalt shingles is the typical code limit on residential buildings, and many East Orange properties that have received two or three re-roofings over their lifetime exceed this threshold. Tear-off becomes a code requirement rather than an owner choice, and the project budget must account for the demolition labor, debris removal, and disposal fees that overlay would have avoided.',
     'The discovery process during tear-off frequently reveals conditions that alter the project scope. Rotted deck sheathing, damaged rafters, inadequate or wet insulation, active pest infestations, and previous fire damage concealed beneath intact roofing material all emerge during tear-off. Our proposals include contingency allowances for concealed condition repair, and we communicate discoveries immediately with documented photographs and repair options. This transparency builds trust with East Orange property owners who need honest assessment rather than mid-project surprises, the same approach valued by property owners in neighboring [Newark](/full-roof-tear-off-newark-nj).'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeFullRoofTearOff: ComboContent = {
     {
       question: 'What happens to the roofing debris from my East Orange tear-off project?',
       answer: 'Roofing debris is loaded into roll-off dumpsters and hauled to approved disposal facilities. Standard asphalt shingle debris is recyclable and is directed to recycling facilities when available. If pre-tear-off testing identifies asbestos-containing materials, those materials are segregated and disposed of through licensed asbestos waste handlers in compliance with EPA and NJ DEP regulations.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in East Orange, NJ?',
+      answer: 'Most full roof tear off projects in East Orange range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off for East Orange NJ buildings -- complete strip to deck, concealed damage discovery, and clean substrate for multi-family re-roofing.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

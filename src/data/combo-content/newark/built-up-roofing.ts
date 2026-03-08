@@ -4,7 +4,7 @@ export const newarkBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'newark',
   overview: [
-    'Built-up roofing systems have protected Newark\'s commercial buildings for over a century, and the oldest office buildings in the downtown core -- the structures along Broad Street between Military Park and Lincoln Park -- still wear BUR systems that have been maintained, re-coated, and reinforced through generations of building ownership. For property managers and building owners operating these legacy Newark properties, built-up roofing represents continuity: a system they understand, their maintenance contractors know how to service, and their building\'s structural system was designed to support. Replacing a BUR system with a different technology isn\'t always the right answer when the existing system can be restored to full performance through re-coating and selective repair.',
+    'Newark Quality Roofing delivers expert built up roofing in Newark — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems have protected Newark\'s commercial buildings for over a century, and the oldest office buildings in the downtown core -- the structures along Broad Street between Military Park and Lincoln Park -- still wear BUR systems that have been maintained, re-coated, and reinforced through generations of building ownership. For property managers and building owners operating these legacy Newark properties, built-up roofing represents continuity: a system they understand, their maintenance contractors know how to service, and their building\'s structural system was designed to support. Replacing a BUR system with a different technology isn\'t always the right answer when the existing system can be restored to full performance through re-coating and selective repair.',
     'The multi-ply redundancy of built-up roofing is its defining engineering advantage. A typical BUR system consists of three to five alternating layers of reinforcing felt and bitumen (asphalt or coal tar), topped with a gravel ballast or mineral cap sheet. Each layer provides independent waterproofing, so a single point of damage -- a dropped tool, a technician\'s boot puncture, a hailstone impact -- compromises only the surface layer while the underlying plies continue protecting the building. For Newark\'s critical commercial facilities -- data centers, medical offices, financial services buildings -- this layered defense against water infiltration provides a margin of safety that single-membrane systems cannot match.',
     'Lifecycle cost analysis consistently favors BUR for Newark building owners with long holding periods. While the initial installation cost of BUR exceeds single-ply alternatives by 20 to 40 percent, the system\'s 30-to-40-year service life with periodic re-coating -- compared to 20-to-25-year replacement cycles for single-ply membranes -- delivers a lower annualized cost of ownership over a 50-year building life. For institutional owners like the universities in University Heights, government buildings, and long-term commercial investors in Newark\'s downtown, BUR\'s total cost proposition is compelling despite the higher upfront investment.',
     'Gravel-ballasted BUR systems offer an additional benefit increasingly valued by Newark building owners: fire resistance. The inorganic gravel surface provides a Class A fire rating without supplemental fire-retardant treatments, making BUR the preferred system for buildings adjacent to high-risk exposures or in areas where Newark Fire Department has identified fire spread concerns. The gravel ballast also provides UV protection for the bitumen layers below, wind uplift resistance through dead weight, and hail impact absorption -- a comprehensive surface protection layer that is essentially maintenance-free.'
@@ -35,7 +35,25 @@ export const newarkBuiltUpRoofing: ComboContent = {
     {
       question: 'Will the odor from BUR installation affect our tenants or neighboring businesses?',
       answer: 'Hot asphalt odor during BUR installation is detectable and must be managed proactively on Newark commercial projects. We develop fume mitigation plans specific to each building\'s location, HVAC configuration, and neighbor proximity. Measures include positioning asphalt kettles downwind of building air intakes, scheduling hot-work during low-occupancy periods, and notifying adjacent businesses in advance. For sensitive locations in downtown Newark, we can specify cold-applied BUR adhesives that eliminate hot asphalt odor entirely, though at a cost premium of approximately 15 to 20 percent. We discuss these options during the proposal phase so building owners can make informed decisions.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Newark, NJ?',
+      answer: 'Most built up roofing projects in Newark range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing for Newark NJ commercial buildings -- multi-ply redundancy, gravel ballast, and re-coating for downtown offices and institutional properties.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

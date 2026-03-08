@@ -4,7 +4,7 @@ export const bellevilleRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'belleville',
   overview: [
-    'Roof cleaning and moss removal in Belleville addresses biological growth driven by the township\'s position along the Passaic River basin and its dense tree canopy coverage. The humidity that rises from the river corridor combines with the shade cast by mature oaks and maples crowding Belleville\'s narrow lots to create conditions where moss, algae, and lichen colonize roof surfaces faster than in communities with wider lot spacing and better air circulation. Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) service in Belleville uses soft-wash chemical treatment rather than pressure washing, because the aging asphalt shingles on most Belleville homes cannot withstand the mechanical force that pressure washing delivers without losing granules and shortening remaining service life.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Belleville — with prices starting from $300–$800 and free estimates available today. Roof cleaning and moss removal in Belleville addresses biological growth driven by the township\'s position along the Passaic River basin and its dense tree canopy coverage. The humidity that rises from the river corridor combines with the shade cast by mature oaks and maples crowding Belleville\'s narrow lots to create conditions where moss, algae, and lichen colonize roof surfaces faster than in communities with wider lot spacing and better air circulation. Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) service in Belleville uses soft-wash chemical treatment rather than pressure washing, because the aging asphalt shingles on most Belleville homes cannot withstand the mechanical force that pressure washing delivers without losing granules and shortening remaining service life.',
     'The Branch Brook Park border neighborhoods are the epicenter of biological growth in Belleville. Homes along Joralemon Street and Mill Street face north-oriented slopes that receive limited direct sunlight during the fall and winter months when moisture persists longest on the roof surface. These slopes develop thick moss colonies that send root tendrils under shingle tabs, lifting edges and creating channels where rainwater penetrates beneath the shingle course. Algae streaking -- the black discoloration that runs vertically down south-facing slopes -- is more cosmetic than structural but signals the sustained moisture retention that accelerates granule deterioration. Homeowners in adjacent [Bloomfield](/roof-cleaning-moss-removal-bloomfield-nj) face similar tree-canopy growth conditions on their residential streets.',
     'Our Belleville cleaning approach integrates moss removal with preventive treatment to extend the interval between service visits. After removing existing growth, we install zinc or copper ridge-cap strips that release biocidal metal ions during rainfall, creating an ongoing growth-suppression environment on the shingle surface. For homes where ridge-cap strips are impractical, we apply professional-grade zinc sulfate treatments during the cleaning visit that provide six to twelve months of protection before the next application is needed.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'Will the cleaning chemicals harm my plants and shrubs along the foundation?',
       answer: 'Our cleaning solutions use sodium percarbonate, which breaks down into oxygen and water, and biodegradable surfactants. We pre-wet all foundation plantings before application and rinse them thoroughly after the treatment. In our experience across hundreds of Belleville cleanings, plant damage is extremely rare when proper pre-wetting and post-rinsing protocols are followed. We take particular care with the narrow planting areas between Belleville homes where runoff concentrates due to lot density.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Belleville, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Belleville range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ roof cleaning and moss removal -- soft-wash treatment for Passaic River humidity, algae control, and zinc strip prevention.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

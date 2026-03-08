@@ -4,7 +4,7 @@ export const westOrangeTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'west-orange',
   overview: [
-    'TPO single-ply membrane roofing dominates new commercial flat-roof installations in West Orange, where property owners along Pleasant Valley Way and Eagle Rock Avenue demand the energy efficiency and lifecycle economics that thermoplastic polyolefin delivers. Our [TPO roofing installation](/tpo-roofing-installation) work in West Orange addresses the specific thermal and wind challenges that the township\'s ridge-to-valley geography imposes on commercial roof systems.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in West Orange — with prices starting from $7–$12/sq ft and free estimates available today. TPO single-ply membrane roofing dominates new commercial flat-roof installations in West Orange, where property owners along Pleasant Valley Way and Eagle Rock Avenue demand the energy efficiency and lifecycle economics that thermoplastic polyolefin delivers. Our [TPO roofing installation](/tpo-roofing-installation) work in West Orange addresses the specific thermal and wind challenges that the township\'s ridge-to-valley geography imposes on commercial roof systems.',
     'West Orange\'s commercial corridor along Pleasant Valley Way hosts medical offices, professional services, and retail establishments whose building owners manage operating budgets tightly. TPO\'s reflective white surface reduces summer cooling loads by 20 to 30 percent compared to dark membrane systems, translating directly to lower utility bills in buildings where air conditioning runs six months of the year. Commercial operators in neighboring [Livingston](/tpo-roofing-installation-livingston-nj) achieve similar savings, though West Orange\'s valley-floor commercial buildings experience more intense heat absorption due to reduced air circulation at lower elevations.',
     'Ridge-top commercial properties along Eagle Rock Avenue require wind-rated TPO installations that valley-floor buildings do not. Sustained winds at ridge elevation generate uplift forces that can peel mechanically attached TPO from lightweight steel deck structures if clip spacing and fastener patterns do not account for the elevated wind zone. Our [West Orange](/roofing-in-west-orange-nj) TPO installations above 300 feet elevation use reduced fastener spacing and reinforced perimeter attachment details engineered for the specific wind loads these exposed locations experience.',
     'The township\'s environmental commitment, evidenced by energy efficiency programs and sustainable building incentives, makes TPO a natural fit for West Orange commercial properties pursuing reduced carbon footprints. Cool-roof rebates and utility incentive programs available to Essex County commercial buildings further offset TPO installation costs, creating a financial case that extends beyond basic lifecycle analysis.'
@@ -35,7 +35,25 @@ export const westOrangeTpoRoofingInstallation: ComboContent = {
     {
       question: 'Can TPO be installed over my existing commercial roof without tear-off?',
       answer: 'Overlay installation is possible when existing insulation is dry and the substrate is stable. We perform core cuts at multiple locations to test moisture content before recommending overlay versus tear-off. If existing insulation moisture content exceeds 5 percent in any test location, we recommend tear-off to prevent trapped moisture from degrading the new system from below. Recovery board installation over the existing surface creates a smooth substrate for TPO membrane attachment when overlay is appropriate.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in West Orange, NJ?',
+      answer: 'Most tpo roofing installation projects in West Orange range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in West Orange NJ. Energy-efficient commercial membrane systems with wind-rated engineering for ridge-top buildings.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

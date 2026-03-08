@@ -4,7 +4,7 @@ export const montclairStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'montclair',
   overview: [
-    'Storm damage in Montclair carries signatures that distinguish it from damage in the surrounding lowland communities. The township\'s position along the First Watchung Mountain creates a wind-acceleration corridor where coastal nor\'easters and summer thunderstorm outflows compress against the ridge face and intensify before passing over the crest. Properties in Upper Montclair, Montclair Heights, and along the ridge spine absorb wind loads measurably higher than instruments record in the valley neighborhoods of [Bloomfield](/storm-damage-roof-repair-bloomfield-nj) and [Nutley](/storm-damage-roof-repair-nutley-nj) just a few miles east. The roof damage patterns at these elevations -- wholesale ridge cap removal, entire shingle field uplift, and flashing peel-back at exposed wall transitions -- reflect this intensified exposure.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Montclair — with prices starting from $500–$3,000 and free estimates available today. Storm damage in Montclair carries signatures that distinguish it from damage in the surrounding lowland communities. The township\'s position along the First Watchung Mountain creates a wind-acceleration corridor where coastal nor\'easters and summer thunderstorm outflows compress against the ridge face and intensify before passing over the crest. Properties in Upper Montclair, Montclair Heights, and along the ridge spine absorb wind loads measurably higher than instruments record in the valley neighborhoods of [Bloomfield](/storm-damage-roof-repair-bloomfield-nj) and [Nutley](/storm-damage-roof-repair-nutley-nj) just a few miles east. The roof damage patterns at these elevations -- wholesale ridge cap removal, entire shingle field uplift, and flashing peel-back at exposed wall transitions -- reflect this intensified exposure.',
     'Tree-related storm damage constitutes the largest single category of Montclair roof repair calls after weather events. The township\'s protected canopy, preserved by one of northern New Jersey\'s strictest tree ordinances, includes oaks, maples, tulip poplars, and sycamores with mature crowns towering sixty to ninety feet above rooflines. During high-wind events, limb failures from these trees produce impacts that range from cosmetic shingle dislodgment to catastrophic structural penetration. The repair scope for tree-strike damage extends beyond the visible impact zone -- the energy transmitted through a slate or shingle field by a heavy limb can crack or loosen material for several feet in every direction from the strike point.',
     'Hail damage in Montclair manifests differently on the township\'s varied roofing materials. On asphalt shingles, hail produces the characteristic circular bruises that compromise granule adhesion and accelerate aging. On slate roofs, hail fractures individual slates from impact stress, creating cracks that may not leak immediately but will admit water progressively as freeze-thaw cycling works the fracture open over subsequent seasons. On copper and lead flashing, hail leaves dent patterns that concentrate water ponding at low points and weaken the metal through work-hardening. Thorough post-hail [storm damage roof repair](/storm-damage-roof-repair) in Montclair requires material-specific damage assessment rather than a single inspection protocol applied uniformly across all surfaces.'
   ],
@@ -34,7 +34,25 @@ export const montclairStormDamageRoofRepair: ComboContent = {
     {
       question: 'How long do I have to file a storm damage claim in New Jersey?',
       answer: 'New Jersey allows homeowners to file property damage claims within the timeframe specified in their policy, typically one to two years from the date of loss. However, we strongly recommend filing within thirty days of the storm event. Prompt filing produces better outcomes because the damage evidence is fresh, the adjuster can inspect before weathering obscures storm-specific indicators, and repairs can proceed before secondary damage from the initial breach accumulates. We provide same-week documentation to support prompt claim filing.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Montclair, NJ?',
+      answer: 'Most storm damage roof repair projects in Montclair range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Montclair NJ -- ridge-elevation wind damage, tree-strike repair, hail assessment, and insurance claim documentation.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

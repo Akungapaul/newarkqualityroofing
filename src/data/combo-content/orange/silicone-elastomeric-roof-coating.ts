@@ -4,7 +4,7 @@ export const orangeSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'orange',
   overview: [
-    'Silicone elastomeric roof coating combines the chemical durability of silicone with the stretch-and-recover flexibility that Orange\'s commercial flat roofs demand through seasonal temperature extremes. Standard coatings can crack when membranes expand in summer heat and contract in winter cold, but elastomeric formulations stretch up to 300% without losing adhesion or waterproofing integrity. Our [silicone elastomeric coating](/silicone-elastomeric-roof-coating) applications on Orange commercial buildings bridge the thermal movement that causes conventional coatings to fail, maintaining continuous protection across the full range of temperatures that Essex County delivers.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Orange — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating combines the chemical durability of silicone with the stretch-and-recover flexibility that Orange\'s commercial flat roofs demand through seasonal temperature extremes. Standard coatings can crack when membranes expand in summer heat and contract in winter cold, but elastomeric formulations stretch up to 300% without losing adhesion or waterproofing integrity. Our [silicone elastomeric coating](/silicone-elastomeric-roof-coating) applications on Orange commercial buildings bridge the thermal movement that causes conventional coatings to fail, maintaining continuous protection across the full range of temperatures that Essex County delivers.',
     'The elastomeric property is especially valuable on Orange\'s older commercial buildings where the existing membrane has developed minor movement cracks and seam separations from decades of thermal cycling. Rather than tearing off and replacing the entire membrane to address these distributed failures, elastomeric silicone coating seals and bridges every crack simultaneously while maintaining the flexibility to accommodate future movement. A Main Street building owner facing a $30,000 membrane replacement for thermal cracking can instead invest $10,000 to $15,000 in elastomeric coating that addresses the cracking while adding reflective energy savings.',
     'For Orange\'s mixed-use buildings where commercial roofs protect both business operations and residential living spaces, elastomeric coating adds a level of waterproofing redundancy that standard coatings cannot match. The flexible membrane adapts to building movement from wind loads, thermal expansion, and the vibration transmitted by HVAC equipment -- all forces that create stress concentrations where rigid coatings fracture. Property managers in [East Orange](/silicone-elastomeric-roof-coating-east-orange-nj) specify elastomeric coatings for the same thermal movement tolerance on their aging commercial portfolio.'
   ],
@@ -34,7 +34,25 @@ export const orangeSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'How long does elastomeric silicone coating last in Orange?',
       answer: 'Properly applied elastomeric silicone coating lasts 12 to 18 years on Orange commercial buildings. The elastomeric compound maintains its flexibility throughout its lifespan, continuing to accommodate thermal movement without cracking. When the coating eventually needs renewal, a maintenance recoat can be applied directly over the existing elastomeric silicone.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Orange, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Orange range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in Orange NJ -- thermal crack bridging, flexible membrane restoration, commercial flat roof protection, and energy savings.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

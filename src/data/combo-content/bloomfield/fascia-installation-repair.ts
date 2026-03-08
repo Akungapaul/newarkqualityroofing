@@ -4,7 +4,7 @@ export const bloomfieldFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Fascia boards on Bloomfield\'s homes are the unsung partners to the gutter system -- they provide the mounting surface for gutter hangers, cap the exposed rafter tails, and present the finished edge of the roofline visible from the street. On the Cape Cods, colonials, and split-levels that define Bloomfield\'s neighborhoods, the original wood fascia boards have endured fifty to seventy years of rain exposure, gutter overflow, ice backup, and paint failure. The result is widespread fascia deterioration that ranges from surface softness and paint peeling to deep rot that compromises gutter attachment and admits water and pests into the soffit and attic space.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Bloomfield — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards on Bloomfield\'s homes are the unsung partners to the gutter system -- they provide the mounting surface for gutter hangers, cap the exposed rafter tails, and present the finished edge of the roofline visible from the street. On the Cape Cods, colonials, and split-levels that define Bloomfield\'s neighborhoods, the original wood fascia boards have endured fifty to seventy years of rain exposure, gutter overflow, ice backup, and paint failure. The result is widespread fascia deterioration that ranges from surface softness and paint peeling to deep rot that compromises gutter attachment and admits water and pests into the soffit and attic space.',
     'Fascia rot on Bloomfield homes follows a predictable pattern driven by gutter condition. When gutters leak at seams, overflow from debris clogs, or back up during ice dam events, the overflow water runs down the fascia face and behind the gutter bracket, saturating the wood at its most vulnerable point. Years of repeated wetting and drying create the conditions for fungal decay that progresses from the top edge of the fascia downward. By the time rot is visible from the ground, the upper portion -- where the gutter hangs -- is often severely compromised. Many Bloomfield homeowners discover the extent of fascia damage only when gutter replacement reveals what was hidden behind the old system.',
     'For homeowners across [Bloomfield](/roofing-in-bloomfield-nj) who are planning [gutter replacement](/gutter-installation-repair-bloomfield-nj), fascia repair or replacement should be coordinated with the gutter project. New gutters hung on rotted fascia will pull away under snow and ice load. The gutter removal during replacement exposes the full fascia surface, making this the most cost-effective time to assess and replace deteriorated sections. Separating the projects means paying for gutter removal to access fascia later -- an inefficient duplication that Bloomfield\'s practical homeowners rightly want to avoid.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldFasciaInstallationRepair: ComboContent = {
     {
       question: 'Can fascia be repaired instead of replaced on my Bloomfield home?',
       answer: 'Small sections of surface softness can be stabilized with wood hardener and epoxy filler if the structural core of the board remains sound. However, once rot penetrates more than halfway through the board thickness, repair provides only a cosmetic fix that will fail again as the internal deterioration continues. For Bloomfield homes where the fascia has been rotting behind the gutter for years, board replacement is almost always the more durable and ultimately more economical approach.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in Bloomfield, NJ?',
+      answer: 'Most fascia installation repair projects in Bloomfield range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Bloomfield NJ -- wood, composite, and PVC fascia for Cape Cods, colonials, and split-levels with gutter coordination.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

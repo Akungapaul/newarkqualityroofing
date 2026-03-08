@@ -4,7 +4,7 @@ export const northCaldwellEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'EPDM commercial roofing in North Caldwell serves the borough\'s small professional office buildings, medical practices, and municipal facilities that require reliable flat roof protection without the complexity of multi-ply commercial systems. The limited commercial inventory in this predominantly residential community means EPDM projects here are measured in hundreds rather than thousands of square feet, but the performance expectations match those of any [commercial EPDM](/epdm-commercial-roofing) installation in Essex County.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in North Caldwell — with prices starting from $6–$11/sq ft and free estimates available today. EPDM commercial roofing in North Caldwell serves the borough\'s small professional office buildings, medical practices, and municipal facilities that require reliable flat roof protection without the complexity of multi-ply commercial systems. The limited commercial inventory in this predominantly residential community means EPDM projects here are measured in hundreds rather than thousands of square feet, but the performance expectations match those of any [commercial EPDM](/epdm-commercial-roofing) installation in Essex County.',
     'The professional offices along the Route 23 corridor edge and near the Caldwell border rely on EPDM\'s proven fifty-year track record for flat roof durability. Property managers in North Caldwell appreciate that EPDM requires minimal maintenance, accommodates thermal cycling without stress cracking, and delivers a service life that reduces the frequency of roof replacement on properties where tenant disruption carries real business costs. Commercial operators in [Caldwell](/epdm-commercial-roofing-caldwell-nj) share similar EPDM preferences for their Bloomfield Avenue business district.',
     'Our commercial EPDM work in [North Caldwell](/roofing-in-north-caldwell-nj) extends beyond new installations to include restoration and repair on aging systems where the original membrane remains serviceable but seams, flashings, and terminations need renewal. These targeted restoration projects extend the remaining service life by ten to fifteen years at a fraction of full replacement cost.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellEpdmCommercialRoofing: ComboContent = {
     {
       question: 'What maintenance schedule do you recommend for EPDM on a North Caldwell office building?',
       answer: 'Semi-annual inspection in spring and fall, with drain clearing after every significant leaf drop event in autumn. Professional inspection every two years to check seam adhesion, flashing condition, and membrane surface integrity. If rooftop HVAC technicians access the roof for equipment service, a post-visit inspection is recommended to identify any accidental membrane damage from tools, equipment, or foot traffic around units.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in North Caldwell, NJ?',
+      answer: 'Most epdm commercial roofing projects in North Caldwell range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in North Caldwell NJ -- rubber membrane systems for professional offices and small commercial buildings.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

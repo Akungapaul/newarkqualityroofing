@@ -4,7 +4,7 @@ export const millburnAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Asphalt shingle roof replacement in Millburn serves the segment of the township\'s housing stock where premium architectural shingles deliver the optimal balance of performance, aesthetics, and value. While the Short Hills estate market gravitates toward slate and cedar, the colonials, split-levels, and contemporary homes throughout Millburn\'s central and western neighborhoods feature asphalt shingle roofs that, after twenty-five to thirty years of service, require replacement with the next generation of shingle technology -- products that outperform their predecessors in wind resistance, algae resistance, and warranty coverage.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Millburn — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement in Millburn serves the segment of the township\'s housing stock where premium architectural shingles deliver the optimal balance of performance, aesthetics, and value. While the Short Hills estate market gravitates toward slate and cedar, the colonials, split-levels, and contemporary homes throughout Millburn\'s central and western neighborhoods feature asphalt shingle roofs that, after twenty-five to thirty years of service, require replacement with the next generation of shingle technology -- products that outperform their predecessors in wind resistance, algae resistance, and warranty coverage.',
     'The shingle-replacement market in Millburn demands premium-tier products from manufacturers like GAF, Owens Corning, and CertainTeed whose architectural lines -- Timberline HDZ, Duration, and Landmark Pro -- deliver the dimensional appearance, color depth, and performance specifications that differentiate them from the standard three-tab shingles that budget-focused contractors propose. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) practice specifies only the premium architectural product lines that provide the visual presence, wind-uplift resistance, and extended warranty coverage appropriate for Millburn\'s residential market.',
     'Our certified-installer status with major shingle manufacturers provides Millburn homeowners access to the enhanced warranty programs that these manufacturers reserve for their top-tier installer networks. GAF Master Elite, Owens Corning Platinum Preferred, and CertainTeed SELECT ShingleMaster certifications unlock warranty extensions -- fifty-year coverage with workmanship protection -- that standard installers cannot offer. These warranties protect the homeowner\'s investment with manufacturer-backed coverage that survives contractor changes and provides direct recourse for any warranty-covered issue.'
   ],
@@ -34,7 +34,25 @@ export const millburnAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Can I see completed asphalt shingle installations on Millburn homes?',
       answer: 'Yes. We maintain a portfolio of completed installations in Millburn and surrounding Essex County communities showing the premium shingle products in various colors on homes of different architectural styles. Viewing completed installations in person provides color and texture reference that brochure images cannot replicate. We can arrange drive-by viewing of recently completed projects in your neighborhood for the most relevant comparison.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Millburn, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Millburn range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement for Millburn homes. GAF, Owens Corning, and CertainTeed premium lines with certified-installer enhanced warranties.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

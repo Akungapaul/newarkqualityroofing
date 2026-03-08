@@ -4,7 +4,7 @@ export const bellevilleSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'belleville',
   overview: [
-    'Spray polyurethane foam roofing transforms the flat roofs of Belleville\'s commercial buildings into seamless, insulated surfaces that eliminate the seam failures, ponding problems, and thermal bridging that conventional membrane systems struggle with on aging substrates. SPF is applied as a liquid that expands into a rigid closed-cell foam, conforming to every irregular surface, penetration base, and drainage contour on the existing roof. For Belleville\'s older commercial buildings where decades of settling have created uneven surfaces that defy conventional re-roofing, SPF creates a smooth, properly sloped surface without the costly tapered insulation systems that membrane installations require.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Belleville — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing transforms the flat roofs of Belleville\'s commercial buildings into seamless, insulated surfaces that eliminate the seam failures, ponding problems, and thermal bridging that conventional membrane systems struggle with on aging substrates. SPF is applied as a liquid that expands into a rigid closed-cell foam, conforming to every irregular surface, penetration base, and drainage contour on the existing roof. For Belleville\'s older commercial buildings where decades of settling have created uneven surfaces that defy conventional re-roofing, SPF creates a smooth, properly sloped surface without the costly tapered insulation systems that membrane installations require.',
     'The insulation performance of spray foam roofing is its most compelling advantage for Belleville\'s energy-conscious building owners. At R-6.5 per inch of thickness, a 2-inch SPF application delivers R-13 insulation that most Belleville commercial buildings currently lack entirely. The uninsulated metal decks and deteriorated BUR systems on Turnpike corridor warehouses and Washington Avenue retail buildings transmit heat directly between exterior and interior, driving extreme seasonal energy costs. SPF eliminates this thermal bridge in a single application, reducing heating and cooling energy consumption by 30-50% in buildings that were previously uninsulated.',
     'Our [spray foam roofing](/spray-foam-roofing) installations in Belleville are protected by an elastomeric coating system that shields the foam from UV degradation, impact damage, and weather exposure. The coating -- typically silicone or acrylic depending on the building\'s chemical exposure profile -- creates a reflective, walkable surface that maintains the foam\'s integrity for 15-20 years before recoating is needed. This renewable coating system means the foam substrate itself can last indefinitely, with periodic recoating extending the total system life to 30, 40, or even 50 years at a fraction of membrane replacement costs.',
     'For building owners in the Belleville Turnpike industrial zone who are managing properties similar to those across the border in [Newark](/spray-foam-roofing-newark-nj), SPF\'s ability to be applied over existing roofing systems without tear-off reduces project cost, eliminates landfill disposal, and shortens installation timelines. The existing roof surface becomes the substrate for the foam application, provided it is dry, clean, and structurally sound. This recover-over capability makes SPF particularly attractive for Belleville warehouse and manufacturing facilities where operational disruption during a full tear-off would affect production schedules.'
@@ -35,7 +35,25 @@ export const bellevilleSprayFoamRoofing: ComboContent = {
     {
       question: 'How long does spray foam roofing last in Belleville?',
       answer: 'The foam substrate is essentially permanent when protected by a maintained coating system. The coating requires renewal every 15-20 years at approximately 25-35% of original installation cost. With proper coating maintenance, SPF roofing systems can provide 30-50 years of service. The first recoating is the key maintenance milestone that building owners must plan for and budget accordingly.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Belleville, NJ?',
+      answer: 'Most spray foam roofing projects in Belleville range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Belleville NJ. Seamless SPF insulation and waterproofing for commercial and industrial buildings with built-in R-13+ performance.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

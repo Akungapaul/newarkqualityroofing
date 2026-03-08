@@ -4,7 +4,7 @@ export const bloomfieldCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Cedar shake roof replacement in Bloomfield serves the small number of homes that chose natural wood roofing for its distinctive rustic character and natural insulation properties. These homes -- scattered across the township\'s established residential neighborhoods, often the custom builds and renovation projects from the 1970s through 1990s -- wear cedar that has aged thirty to forty years and is approaching the point where individual shake replacement no longer sustains the system. The splits, curling, and moss growth that characterize aging cedar indicate the wood preservative treatment has been depleted and the shakes are absorbing moisture that accelerates deterioration.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Bloomfield — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Bloomfield serves the small number of homes that chose natural wood roofing for its distinctive rustic character and natural insulation properties. These homes -- scattered across the township\'s established residential neighborhoods, often the custom builds and renovation projects from the 1970s through 1990s -- wear cedar that has aged thirty to forty years and is approaching the point where individual shake replacement no longer sustains the system. The splits, curling, and moss growth that characterize aging cedar indicate the wood preservative treatment has been depleted and the shakes are absorbing moisture that accelerates deterioration.',
     'Replacement with fresh cedar shakes restores the natural wood aesthetic that drew the original homeowner to the material. New hand-split cedar delivers the rich texture, warm color variation, and dimensional character that no synthetic product fully replicates. The replacement also provides an opportunity to upgrade the installation system: modern cedar shake installation over a breathable underlayment system with copper flashings and ridge ventilation outperforms the original installation methods that many Bloomfield cedar roofs received.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners considering whether to replace cedar with cedar or convert to [asphalt shingles](/asphalt-shingle-roof-replacement-bloomfield-nj), the decision involves aesthetic preference, maintenance commitment, and budget. Cedar replacement costs approximately twice what asphalt architectural shingles cost and requires periodic treatment to maintain the preservative protection. Asphalt conversion eliminates the maintenance requirement at lower cost. Synthetic cedar shake products offer a middle path -- reproducing the cedar appearance with polymer materials that do not require treatment.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Does cedar shake roofing affect my Bloomfield homeowner insurance?',
       answer: 'Some insurance carriers apply surcharges or exclusions for wood roofing due to fire risk. Fire-retardant-treated cedar shakes reduce this concern and may satisfy carrier requirements. We recommend verifying with your insurance agent before specifying cedar replacement to confirm that your policy will cover the cedar installation without premium increase or coverage limitation. If insurance is an issue, synthetic cedar alternatives provide the appearance without the combustibility concern.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Bloomfield range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Bloomfield NJ -- hand-split cedar and synthetic alternatives for homes with natural wood roofing character.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

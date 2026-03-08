@@ -4,7 +4,7 @@ export const livingstonFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'livingston',
   overview: [
-    'Fascia boards along Livingston rooflines serve as both the structural mounting surface for gutter systems and the finished face that frames the roof edge. When fascia deteriorates -- rotting from trapped moisture, splitting from ice dam overflow, or delaminating from paint failure -- the consequences cascade: gutters sag and detach, water intrusion reaches the rafter tails behind the fascia, and the home\'s exterior appearance degrades at its most visible edge. On Livingston\'s split-level homes where multiple roof elevations create long runs of exposed fascia, deterioration in one section can undermine the entire gutter system\'s performance.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Livingston — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards along Livingston rooflines serve as both the structural mounting surface for gutter systems and the finished face that frames the roof edge. When fascia deteriorates -- rotting from trapped moisture, splitting from ice dam overflow, or delaminating from paint failure -- the consequences cascade: gutters sag and detach, water intrusion reaches the rafter tails behind the fascia, and the home\'s exterior appearance degrades at its most visible edge. On Livingston\'s split-level homes where multiple roof elevations create long runs of exposed fascia, deterioration in one section can undermine the entire gutter system\'s performance.',
     'Original fascia on Livingston homes built in the 1960s and 1970s typically consists of nominal one-inch pine or fir boards that have endured over 50 years of exposure. Even with regular painting, these wood fascia boards absorb moisture at end grains, behind gutter brackets, and at joints between boards. The absorbed moisture freezes and thaws through Livingston winters, accelerating rot from the inside out. By the time the paint surface shows failure, the wood beneath may have deteriorated significantly.',
     'Our [fascia installation and repair](/fascia-installation-repair) service provides Livingston homeowners with replacement options that range from matching wood fascia for homes where traditional appearance matters to aluminum fascia capping that eliminates the wood-to-weather exposure that drives rot cycles. Aluminum capping covers existing or new fascia boards with a factory-finished metal wrap that provides a maintenance-free exterior surface while the wood beneath serves only as the structural backing for gutter attachment. Neighboring [Verona](/fascia-installation-repair-verona-nj) homeowners have adopted similar aluminum capping solutions to reduce exterior maintenance on their split-level stock.',
     'Fascia replacement integrates naturally with roof replacement and gutter installation projects. When gutters are removed for a re-roofing project, the exposed fascia can be assessed, repaired, or replaced with minimal additional labor cost. We recommend addressing fascia condition during every Livingston roof project rather than discovering problems after new gutters are installed on deteriorated mounting surfaces.'
@@ -35,7 +35,25 @@ export const livingstonFasciaInstallationRepair: ComboContent = {
     {
       question: 'Will my Livingston HOA approve aluminum fascia capping?',
       answer: 'Most HOAs approve aluminum fascia capping because it maintains a clean, uniform appearance consistent with community standards. The factory finish matches common trim colors, and the smooth profile integrates with both existing and new gutter systems. We submit material samples and color options to the architectural review committee when community approval is required.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in Livingston, NJ?',
+      answer: 'Most fascia installation repair projects in Livingston range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Livingston NJ -- rot replacement, aluminum capping, and rafter tail repair for split-level gutter system support.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

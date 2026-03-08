@@ -4,7 +4,7 @@ export const newarkMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Metal roof replacement in Newark spans two distinct markets that rarely overlap: upgrading aging corrugated metal on industrial conversions throughout the Ironbound and Central Ward, and replacing first-generation standing seam systems on upscale residential properties in Forest Hill and the upper North Ward. Each replacement scenario demands different materials, techniques, and project management approaches, but both share the challenge of working within Newark\'s dense urban fabric where metal panels cannot be maneuvered with the ease that open suburban lots allow.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Newark — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Newark spans two distinct markets that rarely overlap: upgrading aging corrugated metal on industrial conversions throughout the Ironbound and Central Ward, and replacing first-generation standing seam systems on upscale residential properties in Forest Hill and the upper North Ward. Each replacement scenario demands different materials, techniques, and project management approaches, but both share the challenge of working within Newark\'s dense urban fabric where metal panels cannot be maneuvered with the ease that open suburban lots allow.',
     'The Ironbound district\'s industrial heritage left dozens of buildings carrying corrugated galvanized steel roofing that has long exceeded its functional life. These roofs -- originally installed on factories, warehouses, and workshops that have since been converted to restaurants, residences, and retail spaces -- present unique replacement challenges. The underlying structure was engineered for industrial loads but may have been modified during conversion without updating the roof system. Replacing corrugated metal on these conversions means reconciling the original structural grid with modern standing seam attachment methods.',
     'Residential metal roof replacement in Newark\'s premium neighborhoods has accelerated as the first wave of standing seam installations from the early 2000s reaches the point where panel coatings have degraded, thermal movement has loosened fasteners, and the original Kynar finish has chalked beyond acceptable levels. Homeowners in Forest Hill who invested in metal roofing twenty years ago are now discovering that "lifetime" roof systems still require eventual replacement -- just on a longer cycle than asphalt alternatives.',
     'Every metal roof replacement in Newark generates a disposal challenge specific to the material. Metal panels are recyclable but must be handled differently from asphalt debris. Corrugated sheets from Ironbound industrial buildings may contain lead-based paint or asbestos-containing sealants applied during the mid-twentieth century, requiring environmental testing before tear-off. We coordinate hazmat sampling on all pre-1980 metal roofs in Newark as a standard precaution, protecting both our crews and the surrounding community from exposure during removal.'
@@ -36,7 +36,25 @@ export const newarkMetalRoofReplacement: ComboContent = {
     {
       question: 'Do old metal roofs in the Ironbound contain hazardous materials?',
       answer: 'Pre-1980 metal roofs in the Ironbound frequently have lead-based paint coatings and occasionally contain asbestos in the sealants used at seams and penetrations. We perform environmental sampling on all pre-1980 metal roofs before beginning tear-off. If hazardous materials are present, we engage licensed abatement contractors to handle removal under containment, following New Jersey Department of Environmental Protection regulations. The testing adds two to three days to the project timeline but is essential for crew and neighborhood safety.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Newark, NJ?',
+      answer: 'Most metal roof replacement projects in Newark range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Newark NJ -- standing seam upgrades, industrial conversion re-roofing, and corrugated metal removal.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

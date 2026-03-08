@@ -4,7 +4,7 @@ export const fairfieldFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'fairfield',
   overview: [
-    'Full roof tear-off in Fairfield removes every layer of existing roofing material down to the structural deck, providing the clean foundation that a new roof system requires for maximum performance and longevity. While overlay installations offer lower upfront cost, tear-off reveals and addresses the hidden deck damage, inadequate ventilation, and moisture problems that lurk beneath aging shingle layers on Fairfield homes built during the 1960s through 1990s. Our tear-off projects across the township\'s residential neighborhoods consistently uncover conditions -- soft decking, blocked ventilation, missing flashing details -- that overlay would have buried and perpetuated for another generation of roof life.',
+    'Newark Quality Roofing delivers expert full roof tear off in Fairfield — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off in Fairfield removes every layer of existing roofing material down to the structural deck, providing the clean foundation that a new roof system requires for maximum performance and longevity. While overlay installations offer lower upfront cost, tear-off reveals and addresses the hidden deck damage, inadequate ventilation, and moisture problems that lurk beneath aging shingle layers on Fairfield homes built during the 1960s through 1990s. Our tear-off projects across the township\'s residential neighborhoods consistently uncover conditions -- soft decking, blocked ventilation, missing flashing details -- that overlay would have buried and perpetuated for another generation of roof life.',
     'Fairfield township building code limits the number of roofing layers permitted on residential structures, and many homes from the primary development era already carry two layers from a previous overlay installation. These double-layer homes require tear-off as a code requirement, but even homes with a single existing layer benefit from the full-system renewal that tear-off enables. Removing the old shingles, inspecting and repairing the deck, installing modern underlayment with ice-and-water protection at vulnerable details, and starting fresh with architectural shingles provides performance that overlay simply cannot match.',
     'Our [full tear-off](/full-roof-tear-off) approach in Fairfield includes systematic deck inspection and repair as an integrated part of the project scope. Every sheet of exposed decking is walked, probed, and visually evaluated for moisture damage, delamination, and fastener withdrawal. Damaged sections are replaced before underlayment goes down, ensuring that the new roof system starts on a structurally sound foundation. Homeowners in [Caldwell](/full-roof-tear-off-caldwell-nj) and throughout western Essex County rely on this thorough approach to eliminate the hidden problems that shorten roof system life.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldFullRoofTearOff: ComboContent = {
     {
       question: 'What happens to the debris from my Fairfield roof tear-off?',
       answer: 'All tear-off debris is loaded into dumpsters positioned at the job site and hauled to licensed recycling and disposal facilities. Asphalt shingles are increasingly recycled into road surface applications in New Jersey. Our disposal costs are included in the project price, and we handle all hauling logistics. After the project, we sweep the property with magnetic nail finders to collect any fasteners that escaped the containment system.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Fairfield, NJ?',
+      answer: 'Most full roof tear off projects in Fairfield range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Fairfield NJ. Complete shingle removal with deck inspection and repair for 1960s-1990s homes.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

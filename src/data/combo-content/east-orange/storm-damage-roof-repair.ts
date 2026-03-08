@@ -4,7 +4,7 @@ export const eastOrangeStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'east-orange',
   overview: [
-    'Storm damage to East Orange roofs hits differently than in the suburban communities surrounding it. When a nor\'easter or summer thunderstorm tears through Essex County, the damage in [Verona](/storm-damage-roof-repair-verona-nj) or Cedar Grove is typically one homeowner\'s problem at a time -- a tree limb on a garage, shingles lifted from a colonial\'s ridge. In East Orange, the same storm produces cascading damage across densely packed multi-family buildings where shared lot lines, minimal setbacks, and aging roof systems create a concentrated failure zone. A single block of Prospect Street Victorians can produce a dozen emergency calls from landlords whose tenants are reporting water entry simultaneously.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in East Orange — with prices starting from $500–$3,000 and free estimates available today. Storm damage to East Orange roofs hits differently than in the suburban communities surrounding it. When a nor\'easter or summer thunderstorm tears through Essex County, the damage in [Verona](/storm-damage-roof-repair-verona-nj) or Cedar Grove is typically one homeowner\'s problem at a time -- a tree limb on a garage, shingles lifted from a colonial\'s ridge. In East Orange, the same storm produces cascading damage across densely packed multi-family buildings where shared lot lines, minimal setbacks, and aging roof systems create a concentrated failure zone. A single block of Prospect Street Victorians can produce a dozen emergency calls from landlords whose tenants are reporting water entry simultaneously.',
     'The building types that define East Orange -- Victorian two-families with steep complex rooflines, flat-roofed apartment walk-ups, and garden apartment complexes with low-slope membrane roofs -- each sustain different storm damage patterns. High winds strip shingles from the steep pitches and exposed rakes of Victorian roofs, while the same wind lifts membrane edges and displaces gravel surfacing on flat roofs. Heavy rain exploits every compromised flashing joint and aging sealant bead on buildings where deferred maintenance has accumulated over years. Our [storm damage repair](/storm-damage-roof-repair) approach addresses building-type-specific vulnerabilities rather than applying a one-size-fits-all response.',
     'Insurance claim navigation for East Orange storm damage involves complexities that single-family homeowners rarely encounter. A landlord filing a claim on a three-family walk-up must document damage across the entire building, coordinate with multiple tenant policies if personal property was affected, and satisfy the insurer that pre-existing conditions -- the deferred maintenance typical of investment properties -- did not contribute to the storm-related damage. Our storm damage documentation separates pre-existing conditions from storm-caused damage with photographic evidence and technical analysis, strengthening the property owner\'s claim position.',
     'Post-storm demand surges create contractor availability challenges throughout Essex County, and East Orange\'s high concentration of vulnerable multi-family buildings means the city\'s repair needs are disproportionately large relative to its size. Property owners who wait for contractor availability may face weeks of tarped roofs and displaced tenants. We maintain storm-response capacity specifically for the multi-family building market, with crew and material resources scaled to handle the volume that East Orange storms generate.'
@@ -35,7 +35,25 @@ export const eastOrangeStormDamageRoofRepair: ComboContent = {
     {
       question: 'Should I file a separate insurance claim for each building in my East Orange apartment complex?',
       answer: 'This depends on your insurance structure. If all buildings are covered under a single commercial policy, a single claim covering all buildings is typically more efficient and may result in a lower combined deductible. If buildings carry separate policies, each requires an individual claim. We provide building-by-building damage documentation that supports either approach, and we can coordinate with your insurance broker to determine the most advantageous filing strategy for your specific coverage structure.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in East Orange, NJ?',
+      answer: 'Most storm damage roof repair projects in East Orange range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair for East Orange NJ multi-family buildings -- emergency tarping, insurance documentation, and restoration for apartments.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

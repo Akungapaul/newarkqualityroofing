@@ -4,7 +4,7 @@ export const nutleyGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'nutley',
   overview: [
-    'Green roof installation in Nutley represents an emerging opportunity for commercial and municipal building owners who want to combine stormwater management, energy efficiency, and environmental stewardship into a single building-envelope improvement. The township\'s identity as a well-maintained suburban community with strong civic values makes green roofing a natural fit, particularly on public buildings, Franklin Avenue commercial properties, and the newer mixed-use developments where sustainability features enhance both building performance and community perception.',
+    'Newark Quality Roofing delivers expert green roof installation in Nutley — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Nutley represents an emerging opportunity for commercial and municipal building owners who want to combine stormwater management, energy efficiency, and environmental stewardship into a single building-envelope improvement. The township\'s identity as a well-maintained suburban community with strong civic values makes green roofing a natural fit, particularly on public buildings, Franklin Avenue commercial properties, and the newer mixed-use developments where sustainability features enhance both building performance and community perception.',
     'Nutley\'s stormwater management challenges provide practical motivation for green roof adoption beyond environmental aspiration. The Third River corridor through the Kingsland neighborhood and the Yantacaw Brook system that runs through western Nutley experience flooding during heavy rain events when impervious surfaces across the township shed water faster than the drainage infrastructure can absorb. Green roofs retain the first inch of rainfall in their growing media and plant material, releasing it through evapotranspiration over hours and days rather than discharging it immediately into the storm system. This detention function reduces the peak flow contribution from individual building footprints during the storm events that cause downstream flooding.',
     'Our [green roof](/green-roof-installation) installations in [Nutley](/roofing-in-nutley-nj) focus on extensive systems -- the lightweight, low-maintenance approach that uses sedum and drought-tolerant groundcover plants in four to six inches of engineered growing media. Extensive green roofs add 15 to 25 pounds per square foot of saturated load, which falls within the structural capacity of many Nutley commercial buildings without reinforcement. Intensive green roofs with deeper soil profiles, trees, and accessible gardens require significant structural upgrades that push project costs beyond what most Nutley commercial building owners find practical. The extensive approach delivers the stormwater, insulation, and longevity benefits at a cost point that works for Nutley\'s small-format commercial buildings.',
     'The thermal insulation benefit of green roofing aligns with Nutley property owners\' interest in building performance. The growing media and vegetation layer moderates roof surface temperature swings from the 160-degree summer peaks and sub-freezing winter troughs that stress conventional membrane roofs. This temperature buffering reduces both cooling and heating energy demand while dramatically extending the life of the waterproofing membrane beneath the green assembly -- protected from UV exposure and thermal cycling, the membrane typically lasts 40 to 50 years compared to 20 to 25 years in exposed service.'
@@ -35,7 +35,25 @@ export const nutleyGreenRoofInstallation: ComboContent = {
     {
       question: 'Will a green roof help with flooding near the Third River in Nutley?',
       answer: 'Green roofs contribute to flood reduction by retaining the first inch of rainfall on the building footprint and releasing it through evapotranspiration over hours and days rather than immediately discharging into the storm system. While a single green roof cannot solve watershed-level flooding, widespread adoption across multiple buildings in the Third River and Yantacaw Brook drainage areas would meaningfully reduce the peak stormwater flow that overwhelms infrastructure during heavy rain events. Each green roof installation reduces the contributing impervious surface by its full footprint area.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Nutley, NJ?',
+      answer: 'Most green roof installation projects in Nutley range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Nutley NJ. Extensive sedum systems for commercial buildings with stormwater retention and 40-50 year membrane protection.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

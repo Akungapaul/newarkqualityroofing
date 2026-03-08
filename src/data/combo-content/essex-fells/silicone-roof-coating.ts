@@ -4,7 +4,7 @@ export const essexFellsSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'essex-fells',
   overview: [
-    'Silicone roof coating in Essex Fells serves the borough\'s flat and low-slope auxiliary structures where extending existing membrane life provides a cost-effective alternative to full roof replacement. Pool pavilions, garage wing flat roofs, and covered walkway sections with aging modified bitumen or built-up roofing systems can receive silicone coating restoration that adds ten to fifteen years of waterproofing performance at approximately one-third the cost of membrane replacement. For Essex Fells estate owners managing roofing maintenance across multiple structures, coating offers a strategic approach to extending roof service life across an entire property portfolio.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Essex Fells — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating in Essex Fells serves the borough\'s flat and low-slope auxiliary structures where extending existing membrane life provides a cost-effective alternative to full roof replacement. Pool pavilions, garage wing flat roofs, and covered walkway sections with aging modified bitumen or built-up roofing systems can receive silicone coating restoration that adds ten to fifteen years of waterproofing performance at approximately one-third the cost of membrane replacement. For Essex Fells estate owners managing roofing maintenance across multiple structures, coating offers a strategic approach to extending roof service life across an entire property portfolio.',
     'The silicone coating applications common on large commercial buildings in [Newark](/silicone-roof-coating-newark-nj) translate to Essex Fells through the institutional buildings and the commercial-scale estate structures that define the borough\'s roofing market. The municipal complex, community recreation facilities, and the expansive estate buildings housing indoor pools, fitness centers, and entertainment spaces all present flat-roof surfaces where silicone coating restoration makes technical and financial sense -- provided the existing membrane substrate meets the adhesion and structural requirements for successful coating application.',
     'Our silicone roof coating practice in [Essex Fells](/roofing-in-essex-fells-nj) begins with substrate evaluation that determines whether the existing membrane is a suitable candidate for coating restoration or whether underlying deterioration makes replacement the more responsible recommendation. We reject coating applications on substrates with moisture saturation, widespread adhesion failure, or structural deterioration -- conditions that silicone coating cannot address and would merely conceal. This evaluation-first approach protects the homeowner\'s coating investment and maintains our reputation in a community where referral drives every project.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsSiliconeRoofCoating: ComboContent = {
     {
       question: 'What is the cost comparison between coating and full roof replacement?',
       answer: 'Silicone coating typically costs thirty to forty percent of full membrane replacement for equivalent roof area. The savings come from eliminated tear-off labor, reduced material volume, shorter project duration, and lower disposal costs. For Essex Fells estate owners managing flat roofs across multiple structures, coating the structures with sound existing membranes while replacing only those requiring full intervention optimizes the total property roofing maintenance budget.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Essex Fells, NJ?',
+      answer: 'Most silicone roof coating projects in Essex Fells range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Essex Fells NJ -- flat roof restoration for estate auxiliary structures extending membrane life 10-15 years.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

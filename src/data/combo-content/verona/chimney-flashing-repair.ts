@@ -4,7 +4,7 @@ export const veronaChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'verona',
   overview: [
-    'Chimney flashing repair is among the most frequent service calls Newark Quality Roofing receives from Verona homeowners. The township\'s pre-war colonials and mid-century split-levels both feature masonry chimneys that penetrate the roof at the most vulnerable intersection of two dissimilar materials -- brick masonry and roofing shingles. The flashing system bridging this junction deteriorates predictably as mortar joints age, metal corrodes, and sealants dry out, creating leak paths that channel water into the attic and wall cavities around the chimney penetration.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Verona — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is among the most frequent service calls Newark Quality Roofing receives from Verona homeowners. The township\'s pre-war colonials and mid-century split-levels both feature masonry chimneys that penetrate the roof at the most vulnerable intersection of two dissimilar materials -- brick masonry and roofing shingles. The flashing system bridging this junction deteriorates predictably as mortar joints age, metal corrodes, and sealants dry out, creating leak paths that channel water into the attic and wall cavities around the chimney penetration.',
     'Verona chimneys present repair complexity that varies by neighborhood and construction era. The 1920s colonials along Claremont Avenue carry original step-and-counter flashing systems with lead or copper metals embedded in lime mortar joints that have weathered for nearly a century. Mid-century split-levels across Lakeview and Personette have galvanized steel flashings set in portland cement mortar that corrodes the metal it contacts. Each era demands different repair materials and techniques. Our [chimney flashing](/chimney-flashing-repair) crews assess the existing system before proposing repair approaches that match the building\'s construction type.',
     'The relationship between chimney location and roof geometry affects flashing performance on every Verona home. Chimneys positioned on slope faces collect water flowing down the roof above, requiring cricket or saddle diverters that redirect flow around the chimney base. Chimneys at ridge lines avoid the upslope water problem but create complex four-sided flashing configurations. Split-level chimneys that penetrate at or near level transitions face the most demanding conditions, combining chimney flashing challenges with the transition-specific issues that [Montclair](/chimney-flashing-repair-montclair-nj) homeowners with multi-level Victorian homes also encounter.'
   ],
@@ -34,7 +34,25 @@ export const veronaChimneyFlashingRepair: ComboContent = {
     {
       question: 'Should I repair chimney flashing during a Verona roof replacement?',
       answer: 'Absolutely. Roof replacement is the ideal time for complete chimney reflashing because the shingle courses adjacent to the chimney are already removed, providing full access to the flashing details. Including chimney reflashing in a roof replacement adds modest cost compared to a standalone repair visit, and the new flashings match the new roofing material\'s expected lifespan. We include full chimney reflashing in every Verona roof replacement proposal as a standard scope item.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Verona, NJ?',
+      answer: 'Most chimney flashing repair projects in Verona range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Verona NJ -- counter-flashing reglet work, cricket rebuilds, and leak solutions for colonial and split-level homes.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

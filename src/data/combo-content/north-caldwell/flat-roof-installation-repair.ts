@@ -4,7 +4,7 @@ export const northCaldwellFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Flat roof sections on North Caldwell homes appear in places most homeowners rarely consider until a problem develops: above attached garages, over enclosed porches, beneath rooftop decks, and on the low-pitch transitions between multi-level wings that characterize the custom-designed estates scattered along Grandview Avenue and Mountain Avenue. While the primary roof planes on these properties are typically steeply pitched, the flat and low-slope sections demand equal attention because water finds its way to the weakest link in any system.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in North Caldwell — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof sections on North Caldwell homes appear in places most homeowners rarely consider until a problem develops: above attached garages, over enclosed porches, beneath rooftop decks, and on the low-pitch transitions between multi-level wings that characterize the custom-designed estates scattered along Grandview Avenue and Mountain Avenue. While the primary roof planes on these properties are typically steeply pitched, the flat and low-slope sections demand equal attention because water finds its way to the weakest link in any system.',
     'Our [flat roof](/flat-roof-installation-repair) work in North Caldwell focuses on the residential applications that define this community -- portico roofs over grand entrances, garage wing connections, sunroom additions, and the flat transitions between split-level sections on mid-century contemporaries. These installations use modified bitumen or TPO membrane systems engineered for residential aesthetics and the durability required under heavy tree canopy conditions where leaf debris, branch impacts, and limited sun exposure keep surfaces damp longer than open-lot installations in neighboring [Caldwell](/flat-roof-installation-repair-caldwell-nj).',
     'Repair work on existing flat roof sections in North Caldwell frequently involves addressing drainage failures caused by subtle settling in the underlying structure. Over two or three decades, wood-framed flat roof sections on older estates develop sags that create standing water pools. Our repair approach corrects both the membrane failure and the drainage problem underneath it, using tapered insulation to re-establish positive slope before installing new membrane material.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'Do I need a permit for flat roof replacement on my North Caldwell home?',
       answer: 'Flat roof membrane replacement in North Caldwell typically requires a building permit from the Borough of North Caldwell when the work involves structural modifications, insulation changes, or drainage system alterations. Straightforward membrane-only replacements on existing framing may not require a permit, but we confirm requirements with the building department for each project and handle all permit applications when required.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in North Caldwell, NJ?',
+      answer: 'Most flat roof installation repair projects in North Caldwell range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in North Caldwell NJ -- membrane systems for estate home garages, porticos, and low-slope roof transitions.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

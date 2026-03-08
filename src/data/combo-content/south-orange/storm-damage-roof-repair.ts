@@ -4,7 +4,7 @@ export const southOrangeStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'south-orange',
   overview: [
-    'Storm damage assessment in South Orange Village begins with a fundamental question that storm-damage work in other communities does not raise: what material was damaged, and what does authentic repair require? When a nor\'easter strips shingles from a ranch in a suburban development, the repair is straightforward. When the same storm cracks slates on a Montrose Park Tudor, dislodges hand-split cedar shakes from a Scotland Road bungalow, and buckles a copper valley liner on a Prospect Street Colonial, each property requires a different material response, a different crew composition, and a different insurance documentation approach.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in South Orange — with prices starting from $500–$3,000 and free estimates available today. Storm damage assessment in South Orange Village begins with a fundamental question that storm-damage work in other communities does not raise: what material was damaged, and what does authentic repair require? When a nor\'easter strips shingles from a ranch in a suburban development, the repair is straightforward. When the same storm cracks slates on a Montrose Park Tudor, dislodges hand-split cedar shakes from a Scotland Road bungalow, and buckles a copper valley liner on a Prospect Street Colonial, each property requires a different material response, a different crew composition, and a different insurance documentation approach.',
     'South Orange\'s position at the base of South Mountain Reservation concentrates storm impact on the western neighborhoods where the Watchung Ridge funnels wind through the tree canopy and launches debris across rooftops. Properties along the Reservation border experience storm damage at higher frequency and severity than homes in the valley-floor center of the village. Fallen branches from the Reservation\'s hardwood forest regularly exceed the size and impact force of debris from managed residential trees, and the cleanup coordination between South Orange Village, Essex County Parks, and individual homeowners adds administrative complexity to the repair process.',
     'Insurance claims for storm damage on South Orange\'s premium roofing materials require documentation that demonstrates both the storm-caused damage and the replacement-in-kind cost that authentic repair demands. An adjuster accustomed to pricing asphalt shingle repairs needs education on why slate sourcing from a specific quarry is necessary for color matching, why cedar shake must be a particular grade and species, and why copper flashing replacement cannot be substituted with aluminum. Our [storm damage roof repair](/storm-damage-roof-repair) documentation packages for South Orange properties include material specifications and pricing justification that support full replacement-in-kind claims.',
     'The aftermath of major storm events creates a surge in demand for roofing contractors across Essex County, and South Orange homeowners risk being serviced by companies unfamiliar with premium roofing materials. Storm chasers offering quick repairs can cause more damage to slate roofs than the storm itself by walking on fragile slates, using incompatible flashing materials, or installing patches that trap moisture against cedar shake surfaces. Homeowners in [Bloomfield](/storm-damage-roof-repair-bloomfield-nj) and other communities face similar storm-chaser risks, but the financial exposure on South Orange\'s higher-value roofing systems makes the consequences of poor repair work significantly more costly.'
@@ -35,7 +35,25 @@ export const southOrangeStormDamageRoofRepair: ComboContent = {
     {
       question: 'Will my insurance cover the full cost of slate replacement?',
       answer: 'Most homeowner policies with replacement cost coverage will pay for in-kind replacement, meaning if your damaged material is slate, the policy should cover slate replacement rather than cheaper alternatives. However, adjusters sometimes initially scope repairs using standard shingle pricing. Our documentation package includes material specifications and pricing for replacement-in-kind that supports supplement requests when the initial adjuster estimate falls short of actual authentic repair costs.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in South Orange, NJ?',
+      answer: 'Most storm damage roof repair projects in South Orange range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in South Orange NJ -- slate restoration, cedar shake repair, and insurance claim support for village homes.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

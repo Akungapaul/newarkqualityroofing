@@ -4,7 +4,7 @@ export const southOrangeAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'south-orange',
   overview: [
-    'Asphalt shingle roofing in South Orange Village occupies a nuanced position in the material hierarchy. While the village is known for its concentration of natural slate and cedar shake, a significant portion of South Orange homes -- particularly the mid-century Colonials and Capes in the Newstead and Hixon Place neighborhoods, and newer renovations throughout the village -- carry architectural asphalt shingle roofs that provide excellent performance without the maintenance commitment premium materials demand. The key distinction in South Orange is product selection: the builder-grade three-tab shingles acceptable in many suburban markets would be conspicuously out of place here, where even asphalt shingle installations use premium designer profiles.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in South Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roofing in South Orange Village occupies a nuanced position in the material hierarchy. While the village is known for its concentration of natural slate and cedar shake, a significant portion of South Orange homes -- particularly the mid-century Colonials and Capes in the Newstead and Hixon Place neighborhoods, and newer renovations throughout the village -- carry architectural asphalt shingle roofs that provide excellent performance without the maintenance commitment premium materials demand. The key distinction in South Orange is product selection: the builder-grade three-tab shingles acceptable in many suburban markets would be conspicuously out of place here, where even asphalt shingle installations use premium designer profiles.',
     'The South Orange market for asphalt shingle roofing centers on the designer and luxury tiers from GAF, CertainTeed, and Owens Corning. Products like the GAF Grand Sequoia, CertainTeed Grand Manor, and Owens Corning Berkshire provide dimensional profiles with deep shadow lines that approximate the visual weight of natural materials. These products satisfy homeowners who want the appearance of slate or shake without the installation cost, structural requirements, or ongoing maintenance. In a village where curb appeal directly correlates with property values, the visual performance of the shingle product matters as much as its weather protection capability.',
     'Environmental considerations specific to South Orange influence asphalt shingle selection beyond aesthetics. The village\'s tree canopy creates shade conditions that promote algae growth on light-colored shingles, producing the characteristic black streaking that homeowners find objectionable. We specify algae-resistant shingle products with copper granule formulations as standard for South Orange installations, preventing the biological staining that would require cleaning within a few years. The canopy also demands impact-resistant shingle options for properties near large trees where branch strikes are a realistic risk during storms.',
     'Our asphalt shingle installations in [South Orange](/roofing-in-south-orange-nj) meet the same quality standards we bring to premium material work in the village. Full ice-and-water shield at eaves and valleys, synthetic underlayment across the entire deck, copper or aluminum drip edge at every roof perimeter, and proper ventilation balancing ensure that shingle installations on South Orange Colonials and Capes perform to their full warranty potential in the village\'s demanding environmental conditions.'
@@ -35,7 +35,25 @@ export const southOrangeAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Can architectural shingles replicate the look of slate on my South Orange Tudor?',
       answer: 'Designer shingle products provide a closer approximation than standard architectural profiles, but they do not truly replicate natural slate\'s appearance. For a Montrose Park Tudor where slate is architecturally appropriate, we recommend synthetic slate products from DaVinci or EcoStar that provide a much more convincing visual match at a price point between premium shingles and natural slate. For Colonials and Capes where slate was not the original material, premium architectural shingles provide an appropriate and attractive roofing solution.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in South Orange, NJ?',
+      answer: 'Most asphalt shingle roofing projects in South Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in South Orange NJ -- premium designer shingles for Colonials, Capes, and mid-century homes throughout the village.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const roselandMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Metal roof replacement in Roseland upgrades homes from aging asphalt shingle systems to standing seam or metal shingle products that deliver 50-year-plus service life with virtually no maintenance. For homeowners who have cycled through two or three asphalt roofs since their mid-century home was built, switching to metal eliminates the cycle of deterioration and replacement that asphalt shingles impose every 25 to 30 years. Our [metal roof replacement](/metal-roof-replacement) service handles the transition from conventional shingles to metal with structural verification, material selection, and precision installation.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Roseland — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Roseland upgrades homes from aging asphalt shingle systems to standing seam or metal shingle products that deliver 50-year-plus service life with virtually no maintenance. For homeowners who have cycled through two or three asphalt roofs since their mid-century home was built, switching to metal eliminates the cycle of deterioration and replacement that asphalt shingles impose every 25 to 30 years. Our [metal roof replacement](/metal-roof-replacement) service handles the transition from conventional shingles to metal with structural verification, material selection, and precision installation.',
     'The financial argument for metal roof replacement becomes compelling when evaluated over the home\'s remaining ownership timeline. A Roseland homeowner at age 45 who replaces with asphalt shingles will likely need another replacement around age 70. The same homeowner who invests in metal at 45 will never need another roof. The initial cost premium for metal -- typically 2.5 to 3 times asphalt -- is offset by the eliminated future replacement, reduced maintenance, improved energy efficiency, and enhanced property value.',
     'Metal roofing options for Roseland homes include standing seam panels in residential profiles, stamped metal shingles that replicate the appearance of wood shake or slate, and stone-coated steel panels that combine metal durability with granulated surface aesthetics. Each style offers different visual effects that complement different architectural styles. Standing seam delivers the clean contemporary lines that suit modern renovation. Metal shingles replicate traditional appearances with modern longevity. We present options matched to each home\'s character. Homeowners in [Montclair](/metal-roof-replacement-montclair-nj) explore similar metal aesthetics for their residential upgrades.'
   ],
@@ -34,7 +34,25 @@ export const roselandMetalRoofReplacement: ComboContent = {
     {
       question: 'How noisy is a metal roof during rainstorms?',
       answer: 'Metal roofing installed over solid plywood decking with synthetic underlayment produces noise levels during rain comparable to asphalt shingles. The substrate assembly beneath the metal absorbs and dampens sound transmission. The perception of noisy metal roofs comes from agricultural and industrial installations over open purlins without solid decking -- a construction method never used for occupied residential buildings. Your Roseland home will not have a noise problem with properly installed metal roofing.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Roseland, NJ?',
+      answer: 'Most metal roof replacement projects in Roseland range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Roseland NJ -- standing seam and metal shingle upgrades with 50-year longevity for residential homes.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

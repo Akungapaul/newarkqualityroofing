@@ -4,7 +4,7 @@ export const essexFellsRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'essex-fells',
   overview: [
-    'Roof repair on Essex Fells estates operates at a level of precision and material specificity that separates this borough from every other community in Essex County. With roughly two thousand residents occupying architect-designed homes on wooded one-acre-minimum lots, every repair engagement involves premium materials -- natural slate, hand-split cedar shake, standing-seam copper -- and the expectation that restored sections will be indistinguishable from the original installation. Homeowners along Fells Road, Hawthorne Avenue, and Devon Road chose Essex Fells for its uncompromising residential character, and they hold their roofing contractor to the same standard that governed the home\'s initial construction.',
+    'Newark Quality Roofing delivers expert roof repair in Essex Fells — with prices starting from $350–$1,500 and free estimates available today. Roof repair on Essex Fells estates operates at a level of precision and material specificity that separates this borough from every other community in Essex County. With roughly two thousand residents occupying architect-designed homes on wooded one-acre-minimum lots, every repair engagement involves premium materials -- natural slate, hand-split cedar shake, standing-seam copper -- and the expectation that restored sections will be indistinguishable from the original installation. Homeowners along Fells Road, Hawthorne Avenue, and Devon Road chose Essex Fells for its uncompromising residential character, and they hold their roofing contractor to the same standard that governed the home\'s initial construction.',
     'Unlike the attached row houses and commercial blocks that define [Newark](/roofing-in-newark-nj) roofing challenges, Essex Fells repair work centers on multi-structure estate properties where a single address may encompass a main residence, carriage house, pool pavilion, and guest cottage -- each with its own roof system requiring distinct materials and techniques. A repair call on a Fells Road estate might involve sourcing salvaged Pennsylvania black slate for the main house, fabricating replacement copper ridge caps for the carriage house, and patching a modified bitumen membrane on the pool house -- three separate material disciplines executed under a single project scope.',
     'The wooded terrain that gives Essex Fells its secluded character also creates the borough\'s most persistent roofing challenges. Mature oak, beech, and maple canopies press close to rooflines, dropping branches during storms, depositing heavy leaf loads in valleys and behind dormers, and maintaining the perpetual shade that accelerates moss and lichen colonization on north-facing roof planes. Steep hillside lots along the borough\'s winding roads complicate equipment access -- standard roofing trucks and material deliveries require careful routing through narrow, shoulderless lanes never designed for commercial vehicle traffic.',
     'Our [roof repair](/roof-repair) approach in Essex Fells reflects the architect-collaboration culture that defines this community. Repair proposals include detailed material specifications and photographs submitted for architectural review before work begins. We coordinate scheduling with landscape architects to protect specimen plantings, and we communicate project progress to property managers who oversee estates for owners maintaining multiple residences. This consultation-first methodology ensures that every repair preserves the architectural integrity Essex Fells homeowners have invested decades in creating.'
@@ -35,7 +35,25 @@ export const essexFellsRoofRepair: ComboContent = {
     {
       question: 'How do you protect my landscaping during roof repair?',
       answer: 'We install plywood walkways over planted areas, position tarps to catch all debris, use boom lift access where ladder placement would damage landscape beds, and coordinate with your landscape maintenance company on areas requiring special protection. Specimen plantings, irrigation lines, landscape lighting, and hardscape surfaces are identified and flagged before work begins. Our crews understand that landscape damage is unacceptable on Essex Fells properties regardless of repair scope.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Essex Fells, NJ?',
+      answer: 'Most roof repair projects in Essex Fells range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Essex Fells NJ roof repair for estate properties -- slate matching, copper flashing, multi-structure coordination, and architect collaboration.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

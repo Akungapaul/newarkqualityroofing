@@ -4,7 +4,7 @@ export const caldwellEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'caldwell',
   overview: [
-    'Emergency roof situations in Caldwell almost always involve trees. The borough sits beneath one of the densest residential canopies in Essex County, with mature oaks, maples, and sweetgums that predate many of the homes they shade. When a summer thunderstorm or nor\'easter sends a limb crashing through a roof, or when sustained winds peel shingles off a colonial ridge, the damage exposes living space to water infiltration within minutes. Caldwell emergency roof repair operates in this specific context -- suburban homes surrounded by trees, occupied by families who need their shelter restored immediately, in a community where the contractor who answers the phone at midnight earns trust that persists for decades.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Caldwell — with prices starting from $500–$2,500 and free estimates available today. Emergency roof situations in Caldwell almost always involve trees. The borough sits beneath one of the densest residential canopies in Essex County, with mature oaks, maples, and sweetgums that predate many of the homes they shade. When a summer thunderstorm or nor\'easter sends a limb crashing through a roof, or when sustained winds peel shingles off a colonial ridge, the damage exposes living space to water infiltration within minutes. Caldwell emergency roof repair operates in this specific context -- suburban homes surrounded by trees, occupied by families who need their shelter restored immediately, in a community where the contractor who answers the phone at midnight earns trust that persists for decades.',
     'The scale and accessibility of Caldwell homes works in favor of rapid emergency response. Unlike the multi-story buildings of [Newark](/emergency-roof-repair-newark-nj) or the steep Victorian rooflines of [Montclair](/emergency-roof-repair-montclair-nj), most Caldwell homes stand two stories with moderate roof pitches accessible from standard extension ladders. Emergency tarping, debris removal, and temporary waterproofing can proceed without aerial lifts, scaffolding, or the specialized rigging that urban emergency work demands. This accessibility translates directly into faster response -- we can have a tarp secured over a Caldwell roof breach within hours of the call rather than the day-plus mobilization that complex urban buildings require.',
     'Caldwell homeowners tend to carry comprehensive homeowner insurance policies, and most emergency roof damage from storms and falling trees qualifies for coverage. Our [emergency roof repair](/emergency-roof-repair) crews document damage thoroughly from the moment we arrive -- photographing the point of impact, measuring the affected area, noting the condition of surrounding roofing materials, and preserving fallen tree sections that demonstrate the cause of damage. This documentation builds the insurance claim before the adjuster arrives, accelerating the approval process and ensuring the homeowner receives fair compensation for both the emergency stabilization and the permanent repair that follows.'
   ],
@@ -34,7 +34,25 @@ export const caldwellEmergencyRoofRepair: ComboContent = {
     {
       question: 'What should I do while waiting for emergency roof repair in Caldwell?',
       answer: 'Move furniture and valuables away from the leak area and place buckets or containers under active drips. If water is flowing along a ceiling, you can carefully poke a small hole in the drywall at the lowest point of the bulge to drain water into a container rather than letting it spread across the ceiling and collapse a larger section. Turn off electricity to any rooms with active water intrusion. Do not go on the roof yourself, especially during storm conditions. Take photographs of the damage from inside and outside if you can do so safely -- these help both our assessment and your insurance claim.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Caldwell, NJ?',
+      answer: 'Most emergency roof repair projects in Caldwell range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Caldwell NJ -- rapid response for tree damage, storm impacts, and ice dam leaks on colonial and cape cod homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

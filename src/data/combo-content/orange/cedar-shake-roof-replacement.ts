@@ -4,7 +4,7 @@ export const orangeCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Cedar shake roof replacement renews the natural beauty and distinctive texture that aging cedar shakes once provided on Orange homes near Scotland Road and South Mountain. When original cedar shakes have split, curled, and thinned beyond the point where selective replacement can maintain weather protection, full replacement with fresh hand-split cedar restores the roof\'s warmth and character while delivering 25 to 35 years of renewed performance. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) projects source premium Western Red Cedar shakes and install with the ventilation, fire treatment, and maintenance planning that Orange\'s conditions require.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Orange — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement renews the natural beauty and distinctive texture that aging cedar shakes once provided on Orange homes near Scotland Road and South Mountain. When original cedar shakes have split, curled, and thinned beyond the point where selective replacement can maintain weather protection, full replacement with fresh hand-split cedar restores the roof\'s warmth and character while delivering 25 to 35 years of renewed performance. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) projects source premium Western Red Cedar shakes and install with the ventilation, fire treatment, and maintenance planning that Orange\'s conditions require.',
     'The decision to replace cedar with cedar rather than switching to asphalt shingles reflects a commitment to the material\'s unique qualities -- natural insulating value, weathering beauty that improves with age, and an organic texture that synthetic materials cannot replicate. On Orange\'s mountain-adjacent properties where the surrounding landscape is dominated by South Mountain\'s hardwood forest, cedar shake roofing creates visual harmony between the home and its natural setting that factory-manufactured materials cannot achieve.',
     'For Orange homeowners considering whether to replace cedar with cedar or switch to an alternative material, the maintenance commitment is the central consideration. Cedar requires regular treatment and inspection -- particularly on mountain-adjacent properties where moss and debris accumulate aggressively. Homeowners who enjoy maintaining their home will find cedar rewarding. Homeowners who prefer zero-maintenance may be better served by premium architectural shingles or metal roofing that provides decades of performance without periodic treatment. We present both paths honestly during consultation. Cedar maintenance considerations are similar for homes in [West Orange](/cedar-shake-roof-replacement-west-orange-nj).'
   ],
@@ -34,7 +34,25 @@ export const orangeCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Are cedar shake roofs a fire risk on Orange\'s tight lots?',
       answer: 'Fire-rated cedar shakes treated with fire-retardant compounds meet Class A fire resistance requirements and are approved for use on Orange properties regardless of lot spacing. We install only fire-rated products and provide the certification documentation that insurance companies require. Untreated cedar does not meet Orange building code for close-proximity construction.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Orange, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Orange range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Orange NJ -- fire-rated hand-split cedar, South Mountain maintenance, ventilation systems, and Scotland Road restoration.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

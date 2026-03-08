@@ -4,7 +4,7 @@ export const veronaRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'verona',
   overview: [
-    'Roof ventilation on Verona homes controls the attic environment that directly affects shingle lifespan, ice dam formation, and energy efficiency. The split-level architecture that dominates the township creates ventilation challenges that homes with simple attic configurations do not face: multiple isolated attic compartments, low-clearance crawl spaces above lower-level ceilings, and transition areas between levels where airflow paths are interrupted by framing geometry. Newark Quality Roofing designs and installs ventilation systems that address each compartment on a Verona split-level independently.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Verona — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation on Verona homes controls the attic environment that directly affects shingle lifespan, ice dam formation, and energy efficiency. The split-level architecture that dominates the township creates ventilation challenges that homes with simple attic configurations do not face: multiple isolated attic compartments, low-clearance crawl spaces above lower-level ceilings, and transition areas between levels where airflow paths are interrupted by framing geometry. Newark Quality Roofing designs and installs ventilation systems that address each compartment on a Verona split-level independently.',
     'The balance between intake ventilation at soffits and exhaust ventilation at ridges determines whether the system functions effectively. Too much exhaust without adequate intake creates negative pressure that draws conditioned air from the living space through ceiling penetrations. Too little exhaust with ample intake traps heat at the peak where it accelerates shingle aging. Our [roof vent](/roof-vent-installation-repair) installations calculate the required Net Free Area for each attic space and specify the combination of ridge vents, box vents, and soffit vents that achieves balanced airflow.',
     'Verona homeowners often discover ventilation inadequacy through symptoms rather than direct observation: ice dams forming at eaves during winter, upper-level bedrooms that overheat in summer despite adequate air conditioning, or visible condensation on attic sheathing during cold weather. These symptoms all trace to the same cause -- insufficient attic ventilation that traps heat and moisture in a space designed to remain close to outside temperature. Properties in [Caldwell](/roof-vent-installation-repair-caldwell-nj) with comparable housing stock have resolved identical symptoms through ventilation improvements.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofVentInstallationRepair: ComboContent = {
     {
       question: 'Can roof vents be installed without removing shingles?',
       answer: 'Box vents and static vents can be installed by cutting a hole in the roof sheathing and integrating the vent flashing into the existing shingle field with minimal disturbance. Ridge vent installation requires removing the ridge cap shingles, cutting the sheathing slot, installing the vent, and applying new ridge caps over the vent profile. Neither installation requires stripping the entire roof. However, if the shingles are near end-of-life, we recommend combining vent installation with roof replacement to avoid disturbing aging materials that may not reseal effectively.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Verona, NJ?',
+      answer: 'Most roof vent installation repair projects in Verona range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in Verona NJ -- ridge vents, box vents, and balanced ventilation for split-level attic compartments.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

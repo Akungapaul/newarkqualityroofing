@@ -4,7 +4,7 @@ export const livingstonRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'livingston',
   overview: [
-    'Roof replacement cost in Livingston reflects the township\'s specific combination of housing complexity, material expectations, and project scope that distinguishes local pricing from regional averages and online calculators. Livingston homeowners researching replacement costs encounter generic estimates that do not account for the multi-plane split-level geometry, HOA compliance requirements, mature tree access challenges, and companion project bundling that shape actual project costs in this township.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Livingston — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in Livingston reflects the township\'s specific combination of housing complexity, material expectations, and project scope that distinguishes local pricing from regional averages and online calculators. Livingston homeowners researching replacement costs encounter generic estimates that do not account for the multi-plane split-level geometry, HOA compliance requirements, mature tree access challenges, and companion project bundling that shape actual project costs in this township.',
     'The cost drivers on Livingston homes differ from simpler suburban markets. A split-level with four intersecting roof planes, two dormers, and a chimney requires significantly more labor per square foot than a straightforward gable roof -- the flashing work, valley detailing, and ventilation engineering that complex geometry demands add cost that square-footage-based calculators miss entirely. Our [roof replacement cost](/roof-replacement-cost) proposals provide Livingston homeowners with accurate, itemized pricing that reflects their home\'s actual complexity.',
     'Material selection creates the widest cost range in Livingston replacement proposals. Standard architectural shingles represent the value tier, premium architectural shingles with extended warranties occupy the mid-range, and designer shingles replicating slate, cedar, or tile aesthetics command the premium tier. Each tier delivers different performance characteristics, warranty terms, and curb appeal enhancement that Livingston homeowners weigh against their budget and property investment goals. Homeowners in [Millburn](/roof-replacement-cost-millburn-nj) typically select premium and designer tiers, while Livingston covers the full range.',
     'Transparent cost communication is a cornerstone of our Livingston practice. Every proposal itemizes material costs, labor, waste and disposal, permits, ventilation improvements, companion work, and warranty registration so homeowners understand what they are paying for and can make informed choices about scope and material options that fit their budget.'
@@ -35,7 +35,25 @@ export const livingstonRoofReplacementCost: ComboContent = {
     {
       question: 'Do you offer financing for Livingston roof replacement?',
       answer: 'We connect homeowners with financing partners offering home improvement loans with fixed rates and terms from five to fifteen years. Financing allows homeowners to invest in higher-quality materials or additional improvements without depleting savings. The financing approval process runs concurrently with the project planning phase so approved homeowners can proceed without delay.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in Livingston, NJ?',
+      answer: 'Most roof replacement cost projects in Livingston range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in Livingston NJ -- transparent itemized pricing for split-levels with material tier options and financing guidance.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

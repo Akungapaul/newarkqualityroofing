@@ -4,7 +4,7 @@ export const maplewoodAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Aging roof replacement catches Maplewood homes before the gradual deterioration of worn-out roofing materials progresses to active leaking, water damage, and emergency repair scenarios that cost more and disrupt life more than planned replacement. Most residential roofing materials have defined service lives: 20-25 years for three-tab shingles, 25-30 years for architectural shingles, and even longer for slate and metal. Our [aging roof replacement](/aging-roof-replacement) consultations in [Maplewood](/roofing-in-maplewood-nj) assess remaining service life objectively, helping homeowners time replacement for maximum value.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Maplewood — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement catches Maplewood homes before the gradual deterioration of worn-out roofing materials progresses to active leaking, water damage, and emergency repair scenarios that cost more and disrupt life more than planned replacement. Most residential roofing materials have defined service lives: 20-25 years for three-tab shingles, 25-30 years for architectural shingles, and even longer for slate and metal. Our [aging roof replacement](/aging-roof-replacement) consultations in [Maplewood](/roofing-in-maplewood-nj) assess remaining service life objectively, helping homeowners time replacement for maximum value.',
     'Maplewood\'s housing market rewards proactive roof replacement. Homes listed with newer roofs sell faster and at higher prices than comparable properties where buyers see an aging roof as an immediate capital expense. Real estate agents in Maplewood consistently rank roof condition among the top factors influencing buyer decisions, and home inspectors flag aging roofs as material concerns that can delay or derail transactions. Replacing an aging roof before listing captures full return on investment through faster sale and higher price.',
     'The visual signs of an aging roof are familiar to Maplewood homeowners: granule loss exposing dark asphalt substrate, curling shingle edges, cracked shingle tabs, and missing pieces in valleys and along eaves. Less visible but equally important signs include interior attic moisture, increased heating and cooling costs from deteriorated thermal performance, and the growing frequency of spot repairs that signal systemic material failure. When these signs accumulate, planned replacement provides better outcomes than reactive repairs. Homeowners monitoring similar aging signs on their roofs in [Bloomfield](/aging-roof-replacement-bloomfield-nj) benefit from the same proactive replacement timing.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodAgingRoofReplacement: ComboContent = {
       question: 'Does roof replacement increase home value in Maplewood?',
       answer: 'National data indicates roof replacement recovers 60-70% of cost at resale, but in Maplewood\'s competitive market, the recovery can be higher because buyers factor roof condition heavily into their offers. A new roof eliminates the buyer\'s most significant immediate capital expenditure concern and signals overall home maintenance quality. For homes being prepared for sale, roof replacement is among the highest-return improvements available.',
     },
+    {
+      question: 'How much does aging roof replacement cost in Maplewood, NJ?',
+      answer: 'Most aging roof replacement projects in Maplewood range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Maplewood NJ. Proactive re-roofing before leaks start with material options for every budget and style.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

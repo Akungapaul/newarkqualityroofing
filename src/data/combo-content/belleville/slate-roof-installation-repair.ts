@@ -4,7 +4,7 @@ export const bellevilleSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Slate roofing in Belleville appears primarily on a handful of pre-war homes and institutional buildings that predate the township\'s massive post-war residential expansion. The original Belleville town center, several churches along Washington Avenue, and scattered larger homes built before 1940 carry natural slate roofs that have survived seventy to one hundred years of service. Our [slate roof installation and repair](/slate-roof-installation-repair) work in Belleville focuses overwhelmingly on preservation -- maintaining these existing slate systems through targeted repair rather than the wholesale installations that communities with larger historic housing stock require.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Belleville — with prices starting from $20,000–$45,000 and free estimates available today. Slate roofing in Belleville appears primarily on a handful of pre-war homes and institutional buildings that predate the township\'s massive post-war residential expansion. The original Belleville town center, several churches along Washington Avenue, and scattered larger homes built before 1940 carry natural slate roofs that have survived seventy to one hundred years of service. Our [slate roof installation and repair](/slate-roof-installation-repair) work in Belleville focuses overwhelmingly on preservation -- maintaining these existing slate systems through targeted repair rather than the wholesale installations that communities with larger historic housing stock require.',
     'Slate repair on Belleville\'s older buildings demands material sourcing skills as much as installation craft. The original slates may be Vermont black, Pennsylvania gray-green, or Buckingham Virginia blue-black, each with distinct thickness, texture, and weathering characteristics that make generic replacement slates visually obvious. We maintain relationships with salvage yards and quarries that supply period-appropriate replacement slates matching the color, thickness, and surface texture of the existing installation. For Belleville\'s slate buildings, the visual match matters as much as the waterproof function -- a repair should be invisible from the ground. Property owners considering slate work in [Newark](/slate-roof-installation-repair-newark-nj) face similar sourcing challenges for their more extensive historic slate inventory.',
     'New slate installations in Belleville are rare but occur when homeowners of the township\'s larger pre-war homes choose to invest in century-class roofing during a replacement. The structural requirements of natural slate -- the framing must support three to four times the weight of asphalt shingles -- limit candidates to homes with original heavy-timber roof framing or those where structural reinforcement is feasible. We evaluate slate candidacy based on existing framing capacity, foundation bearing capability, and the homeowner\'s commitment to the long-term investment that natural slate represents.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'Can you install a new slate roof on my Belleville home?',
       answer: 'New slate installation is technically possible on homes with adequate structural framing to support the weight, which is approximately 800 to 1,500 pounds per 100 square feet depending on slate thickness and variety. Most post-war Belleville homes were framed for asphalt shingles and would require significant structural reinforcement for slate. We evaluate framing capacity during the estimate process and provide an honest assessment of feasibility and cost before recommending slate for a new installation.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Belleville, NJ?',
+      answer: 'Most slate roof installation repair projects in Belleville range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ slate roof repair -- salvage-matched replacements, copper flashing restoration, and preservation of pre-war installations.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const newarkTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Tile roof replacement in Newark serves a distinctive niche within the city\'s roofing landscape. The concentration of clay and concrete tile roofs traces directly to the Ironbound district\'s Portuguese and Spanish immigrant communities, who brought Mediterranean roofing traditions to their Newark homes and businesses. Beyond the Ironbound, scattered tile installations appear on the stucco-clad homes in Vailsburg and on several notable institutional buildings throughout the city. Replacing these tile roofs demands an understanding of both the structural implications of the material and its cultural significance to the neighborhoods where it predominates.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Newark — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Newark serves a distinctive niche within the city\'s roofing landscape. The concentration of clay and concrete tile roofs traces directly to the Ironbound district\'s Portuguese and Spanish immigrant communities, who brought Mediterranean roofing traditions to their Newark homes and businesses. Beyond the Ironbound, scattered tile installations appear on the stucco-clad homes in Vailsburg and on several notable institutional buildings throughout the city. Replacing these tile roofs demands an understanding of both the structural implications of the material and its cultural significance to the neighborhoods where it predominates.',
     'The weight of tile roofing is the defining factor in every Newark replacement project. Clay barrel tiles weigh 900 to 1,200 pounds per square -- nearly double the load of architectural asphalt shingles. The original framing on many Ironbound homes was built to accommodate this weight, but decades of bearing have stressed connections, compressed joists, and in some cases caused visible deflection in the roof plane. Replacement with new tile of equivalent weight requires verification that the aged structure can accept another fifty to seventy-five years of loading without exceeding its residual capacity.',
     'Color matching represents a persistent challenge when replacing tile roofs in Newark\'s established neighborhoods. The original clay tiles on Ironbound homes have weathered over decades into unique patinas that no factory-fresh product can replicate. Adjacent homes along Ferry Street and surrounding blocks often share the same visual palette of aged terracotta, and a newly tiled roof can stand out conspicuously against its weathered neighbors. We source from manufacturers who offer pre-weathered and color-blended tile options, and we supplement with salvaged tiles from demolition sites across the greater Newark area to achieve visual continuity.',
     'Concrete tile has emerged as the practical alternative for Newark tile replacement projects where full clay tile weight exceeds structural capacity. Modern concrete tiles accurately reproduce the barrel, flat, and S-profile shapes of traditional clay at roughly seventy percent of the weight. The cost savings are substantial -- concrete tile replacement runs approximately forty percent less than equivalent clay installations. For Newark homeowners who want to maintain the tile aesthetic without the full structural investment that clay demands, concrete tile offers a credible compromise.'
@@ -40,7 +40,25 @@ export const newarkTileRoofReplacement: ComboContent = {
     {
       question: 'Can salvaged tiles from my old Newark roof be reused on the new installation?',
       answer: 'Salvageable tiles from the original installation can be incorporated into the new roof in areas where visual consistency matters most, such as street-facing elevations where weathered patina blends with neighboring roofs. We typically recover fifteen to twenty-five percent of tiles in usable condition from Newark clay tile tear-offs. These salvaged tiles are installed in the most visible courses while factory-fresh tiles go on rear elevations and less visible areas where the color difference is less noticeable. Surplus salvaged tiles are stored for future repair inventory.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Newark, NJ?',
+      answer: 'Most tile roof replacement projects in Newark range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Newark NJ -- clay and concrete tile, Ironbound district expertise, structural assessment, and weight management.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

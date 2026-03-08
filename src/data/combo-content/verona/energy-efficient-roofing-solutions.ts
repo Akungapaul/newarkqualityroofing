@@ -4,7 +4,7 @@ export const veronaEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'verona',
   overview: [
-    'Energy efficient roofing in Verona addresses the township\'s mix of mid-century split-levels and older colonials that were built long before modern energy codes existed. Most Verona homes carry roofing systems installed without radiant barriers, with minimal attic insulation, and with ventilation designs that create temperature extremes in both summer and winter. Newark Quality Roofing delivers energy-efficient roofing upgrades that reduce heating and cooling costs while improving comfort in every room -- particularly the upper-level bedrooms on split-levels where thermal performance failures are felt most acutely.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Verona — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing in Verona addresses the township\'s mix of mid-century split-levels and older colonials that were built long before modern energy codes existed. Most Verona homes carry roofing systems installed without radiant barriers, with minimal attic insulation, and with ventilation designs that create temperature extremes in both summer and winter. Newark Quality Roofing delivers energy-efficient roofing upgrades that reduce heating and cooling costs while improving comfort in every room -- particularly the upper-level bedrooms on split-levels where thermal performance failures are felt most acutely.',
     'The split-level architecture that defines Verona creates specific energy challenges at every level transition. The short wall sections between levels act as thermal bridges where conditioned air escapes directly to the roof deck, creating hot spots in summer and cold spots in winter that no amount of thermostat adjustment can solve. Our [energy efficient roofing](/energy-efficient-roofing-solutions) approach treats these transitions as priority insulation zones, sealing the bypass paths before addressing the broader roof surface with reflective materials or enhanced ventilation systems.',
     'Cool roofing technology has matured to the point where energy-efficient options exist in every material category used on Verona homes. Reflective asphalt shingles in standard earth-tone colors reduce heat absorption by 25 to 40 percent compared to conventional products. Radiant barrier underlayment reflects infrared energy back toward the roof surface before it enters the attic space. Enhanced ridge-and-soffit ventilation moves hot air out of attic cavities before it radiates into living spaces. Homeowners in [West Orange](/energy-efficient-roofing-solutions-west-orange-nj) have measured 15 to 20 percent cooling cost reductions from similar multi-component energy upgrades.'
   ],
@@ -34,7 +34,25 @@ export const veronaEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Is a radiant barrier worth adding during a Verona roof replacement?',
       answer: 'Radiant barrier underlayment adds $500 to $1,000 to a typical Verona roof replacement and reduces attic temperatures by 20 to 30 degrees during summer. The cooling cost savings are most significant in homes with living spaces directly below the roof -- upper-level bedrooms on split-levels, finished attics, and cape cod upper floors. If your home has a well-ventilated, unfinished attic between the roof and the living space, the radiant barrier provides less benefit because ventilation already removes much of the radiant heat.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Verona, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Verona range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in Verona NJ -- cool shingles, radiant barriers, and split-level thermal upgrades for lower utility costs.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

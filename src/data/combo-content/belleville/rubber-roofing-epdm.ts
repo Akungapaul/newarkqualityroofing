@@ -4,7 +4,7 @@ export const bellevilleRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'belleville',
   overview: [
-    'EPDM rubber roofing has become the workhorse membrane for Belleville\'s extensive inventory of flat and low-slope roof surfaces. From the enclosed porch additions on post-war colonials to the strip-mall storefronts along Washington Avenue, EPDM\'s proven durability and straightforward repair characteristics make it the practical choice for a township where building owners prioritize reliable performance over premium aesthetics. Homeowners in neighboring [Newark](/rubber-roofing-epdm-newark-nj) rely on the same membrane technology for similar flat-roof applications across their dense urban landscape.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Belleville — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing has become the workhorse membrane for Belleville\'s extensive inventory of flat and low-slope roof surfaces. From the enclosed porch additions on post-war colonials to the strip-mall storefronts along Washington Avenue, EPDM\'s proven durability and straightforward repair characteristics make it the practical choice for a township where building owners prioritize reliable performance over premium aesthetics. Homeowners in neighboring [Newark](/rubber-roofing-epdm-newark-nj) rely on the same membrane technology for similar flat-roof applications across their dense urban landscape.',
     'Belleville\'s two-family duplexes -- a dominant housing type throughout the central neighborhoods -- frequently feature flat-roof sections over rear additions, enclosed sun porches, and detached garages. These smaller flat surfaces are ideal EPDM candidates because the membrane\'s flexibility accommodates the thermal movement and minor structural settling common in Belleville\'s aging building stock. Our [EPDM roofing](/rubber-roofing-epdm) installations on residential additions use fully adhered application, bonding the membrane directly to the insulation substrate to prevent wind uplift and eliminate the ponding pockets that mechanically attached systems develop as fasteners back out over time.',
     'The commercial applications along the Belleville Turnpike and Route 21 corridor utilize EPDM on larger footprints where the membrane\'s cost-effectiveness at scale becomes significant. Light manufacturing facilities, auto repair shops, and warehouse spaces in this industrial zone feature EPDM installations spanning 10,000 to 30,000 square feet. At these scales, EPDM\'s material cost advantage over TPO and PVC is substantial, and its black surface absorbs heat that benefits these minimally climate-controlled spaces during winter months.',
     'EPDM repair in [Belleville](/roofing-in-belleville-nj) is among our most frequent service calls. The membrane\'s greatest practical advantage is its repairability -- patches bond chemically to the existing surface, creating repairs that are essentially invisible and permanent. For landlords managing rental properties and small business owners watching margins, this repairability extends the membrane\'s effective service life well beyond its original warranty period, making EPDM the lowest lifecycle-cost option for Belleville\'s budget-conscious property owners.'
@@ -39,7 +39,25 @@ export const bellevilleRubberRoofingEpdm: ComboContent = {
     {
       question: 'Does EPDM roofing work on Belleville residential porches?',
       answer: 'EPDM is an excellent choice for Belleville porch roofs. The membrane\'s flexibility accommodates the thermal movement that occurs where porch framing meets the main house structure, and its dark color blends visually with the shaded conditions typical of covered porches. We install EPDM on porch roofs using full adhesion with enhanced termination details at the house-wall junction where most porch roof leaks originate.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Belleville, NJ?',
+      answer: 'Most rubber roofing epdm projects in Belleville range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Belleville NJ. Durable membrane installation and repair for flat roofs on duplexes, porches, and commercial buildings.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

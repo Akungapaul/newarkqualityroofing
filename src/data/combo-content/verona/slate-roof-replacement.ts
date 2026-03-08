@@ -4,7 +4,7 @@ export const veronaSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Slate roof replacement in Verona preserves the premium natural stone roofing that distinguishes the township\'s finest pre-war homes along Claremont Avenue and the older Lakeview neighborhood. When an existing slate roof has reached the point where individual slate replacement can no longer keep pace with deterioration, full slate replacement reinstalls the building with a century-grade roof system using quarried natural stone that matches or improves upon the original installation. Newark Quality Roofing performs slate replacement on Verona homes with the material expertise and craftsmanship this premium work demands.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Verona — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Verona preserves the premium natural stone roofing that distinguishes the township\'s finest pre-war homes along Claremont Avenue and the older Lakeview neighborhood. When an existing slate roof has reached the point where individual slate replacement can no longer keep pace with deterioration, full slate replacement reinstalls the building with a century-grade roof system using quarried natural stone that matches or improves upon the original installation. Newark Quality Roofing performs slate replacement on Verona homes with the material expertise and craftsmanship this premium work demands.',
     'The decision to replace slate with slate rather than converting to a less expensive material reflects both preservation values and economic logic. A properly installed slate roof lasts 75 to 150 years depending on slate origin and quality. Replacing a 90-year-old slate roof with new natural slate provides another century of service, while converting to asphalt shingles provides 25 to 30 years. Over two or three generations, the slate investment produces lower per-year cost. Our [slate replacement](/slate-roof-replacement) consultations present the lifecycle cost comparison alongside the aesthetic and preservation arguments.',
     'Verona homeowners replacing slate roofs join a tradition of stewardship that has maintained these homes\' architectural integrity through nearly a century of ownership. The slate-roofed colonials and Tudor-influenced homes represent the township\'s architectural heritage, and maintaining them with authentic materials preserves neighborhood character and property values. Homeowners in [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) with historic preservation requirements have validated that authentic slate replacement maintains both the aesthetic and the appraised value that synthetic alternatives cannot match.'
   ],
@@ -34,7 +34,25 @@ export const veronaSlateRoofReplacement: ComboContent = {
     {
       question: 'What type of slate should I choose for my Verona home?',
       answer: 'Vermont slate in unfading colors (gray-green, purple, gray-black) provides the longest service life at 100 to 150 years. Pennsylvania soft slate in black provides a classic appearance at lower cost but shorter life of 60 to 75 years. We recommend matching the original slate type if it can be identified, or specifying unfading Vermont or equivalent for maximum longevity. Color selection considers the home\'s masonry, trim, and neighborhood context.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Verona, NJ?',
+      answer: 'Most slate roof replacement projects in Verona range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Verona NJ -- natural stone roofing for pre-war homes with century-grade durability and copper flashings.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

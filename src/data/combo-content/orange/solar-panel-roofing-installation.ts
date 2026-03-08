@@ -4,7 +4,7 @@ export const orangeSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'orange',
   overview: [
-    'Solar panel roofing installation in Orange pairs clean energy generation with the roof replacement or upgrade that many of the city\'s aging homes already need. Rather than installing solar panels on a 15-year-old roof that will require replacement within the solar system\'s lifespan, our [solar panel roofing installation](/solar-panel-roofing-installation) approach coordinates both projects into a single mobilization -- new roofing material installed first, followed immediately by solar panel mounting while scaffolding and crew are already on site. This integrated approach saves Orange homeowners 15 to 20% compared to completing the projects separately.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in Orange — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in Orange pairs clean energy generation with the roof replacement or upgrade that many of the city\'s aging homes already need. Rather than installing solar panels on a 15-year-old roof that will require replacement within the solar system\'s lifespan, our [solar panel roofing installation](/solar-panel-roofing-installation) approach coordinates both projects into a single mobilization -- new roofing material installed first, followed immediately by solar panel mounting while scaffolding and crew are already on site. This integrated approach saves Orange homeowners 15 to 20% compared to completing the projects separately.',
     'Orange\'s geography creates a solar production landscape with meaningful variation across its compact 2.2-square-mile footprint. Properties on the western hillside facing South Mountain receive excellent southern and western solar exposure, producing above-average energy yields that shorten payback periods. Homes in the Valley and on the eastern side of the city have slightly lower production due to shading from adjacent structures on tight lots, but still generate meaningful electricity when panel placement is optimized for available roof area. Our site-specific solar assessments account for the shade patterns created by Orange\'s tight-lot construction and South Mountain\'s tree canopy to project realistic production numbers.',
     'New Jersey\'s solar incentives make Orange installations financially compelling. The state\'s Solar Successor Incentive program pays homeowners for each megawatt-hour of solar electricity generated, on top of the federal solar investment tax credit. Net metering credits excess production against utility bills. For an Orange homeowner combining roof replacement with solar installation, the combined investment produces a roof that pays for itself through energy savings and incentive payments within 7 to 12 years, followed by 15 to 20 years of essentially free electricity. Similar incentive structures benefit homeowners across [East Orange](/solar-panel-roofing-installation-east-orange-nj) and the wider Essex County region.'
   ],
@@ -34,7 +34,25 @@ export const orangeSolarPanelRoofingInstallation: ComboContent = {
     {
       question: 'Can solar panels be installed on Orange homes with tight lot spacing?',
       answer: 'Yes, though panel placement requires careful shade analysis to optimize production. We use microinverters that allow each panel to operate independently, so shading on one panel does not reduce output from others. On heavily shaded properties, we may recommend a smaller system that generates meaningful energy from the available unshaded roof area rather than oversizing a system that would underperform.'
-    }
+    },
+    {
+      question: 'How much does solar panel roofing installation cost in Orange, NJ?',
+      answer: 'Most solar panel roofing installation projects in Orange range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing installation in Orange NJ -- integrated roof and solar, NJ incentive guidance, shade analysis for tight lots, and South Mountain exposure.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

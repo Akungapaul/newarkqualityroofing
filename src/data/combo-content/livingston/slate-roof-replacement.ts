@@ -4,7 +4,7 @@ export const livingstonSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Slate roof replacement serves the select Livingston homes where natural stone roofing has reached the end of its structural service life after 75 to 100 or more years of protection. The decision to replace slate -- rather than restore it -- comes when the slate material itself has softened, delaminated, and lost the structural integrity that makes individual slate repair viable. At this stage, the slate field has deteriorated beyond selective replacement, and a new roof system must be installed to protect the home for its next century.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Livingston — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement serves the select Livingston homes where natural stone roofing has reached the end of its structural service life after 75 to 100 or more years of protection. The decision to replace slate -- rather than restore it -- comes when the slate material itself has softened, delaminated, and lost the structural integrity that makes individual slate repair viable. At this stage, the slate field has deteriorated beyond selective replacement, and a new roof system must be installed to protect the home for its next century.',
     'Livingston\'s slate-roofed homes concentrate in the oldest neighborhoods along Livingston Avenue and the South Orange Avenue corridor, where pre-war construction used Pennsylvania and Vermont slate as the premium roofing material of the era. These homes represent architectural heritage that homeowners often wish to preserve through authentic slate replacement rather than conversion to asphalt shingles. Our [slate roof replacement](/slate-roof-replacement) work maintains this preservation intent by installing new natural slate that matches the original material character.',
     'The replacement decision involves evaluating whether the home\'s framing can continue to support slate\'s weight -- approximately 800 to 1,000 pounds per square -- or whether structural reinforcement is needed before new slate is installed. Homes in [Montclair](/slate-roof-replacement-montclair-nj) and [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) face similar structural evaluations on their more extensive inventory of slate-roofed Victorian and Edwardian homes.',
     'Alternative materials that replicate slate\'s appearance without its weight -- synthetic slate composites and architectural shingles with slate profiles -- provide options for homeowners who value the aesthetic but cannot invest in natural stone. We present the full range of options from authentic Vermont slate through composite alternatives during the replacement consultation.'
@@ -35,7 +35,25 @@ export const livingstonSlateRoofReplacement: ComboContent = {
     {
       question: 'Will new slate match the appearance of my Livingston home\'s original slate?',
       answer: 'New slate from the same quarry formation as the original installation will be similar in color and texture but will lack the weathered patina that decades of exposure develop. New slate weathers to match existing material over five to ten years of exposure. We select quarry sources based on the geological match to your original slate for the closest possible initial appearance.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Livingston, NJ?',
+      answer: 'Most slate roof replacement projects in Livingston range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Livingston NJ -- natural stone installation with structural assessment and quarry-matched sourcing for historic homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

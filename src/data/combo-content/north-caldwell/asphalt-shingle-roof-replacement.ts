@@ -4,7 +4,7 @@ export const northCaldwellAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Asphalt shingle roof replacement on North Caldwell estates focuses on the premium tier of shingle products that match the architectural standards of this community. Designer dimensional shingles from GAF, Owens Corning, and CertainTeed provide the heavyweight profiles, deep shadow lines, and color blends that complement the colonial, Tudor, and traditional homes along Mountain Avenue and Grandview Avenue. The three-tab shingles that may have been original to some older North Caldwell homes are replaced with architectural products that transform the roofline presence of the property.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in North Caldwell — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement on North Caldwell estates focuses on the premium tier of shingle products that match the architectural standards of this community. Designer dimensional shingles from GAF, Owens Corning, and CertainTeed provide the heavyweight profiles, deep shadow lines, and color blends that complement the colonial, Tudor, and traditional homes along Mountain Avenue and Grandview Avenue. The three-tab shingles that may have been original to some older North Caldwell homes are replaced with architectural products that transform the roofline presence of the property.',
     'Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) work on North Caldwell estates specifies products in the highest performance tier: Class IV impact-resistant shingles where hail and tree-limb damage is a concern, algae-resistant formulations for the shaded wooded lots typical of this community, and SBS-modified products that maintain flexibility through the thermal extremes that New Jersey seasons deliver. These performance features are not optional upgrades on North Caldwell homes -- they are appropriate specifications for properties where the roofing investment must perform reliably for decades.',
     'The scale of shingle replacement on [North Caldwell](/roofing-in-north-caldwell-nj) estates -- 4,000 to 8,000 square feet of roof area -- creates opportunities for manufacturer warranty programs that standard residential projects cannot access. GAF Golden Pledge and Owens Corning Platinum warranties provide 50-year material and workmanship coverage that requires factory-certified installation. We maintain these certifications and apply them to every qualifying North Caldwell project, delivering warranty protection that matches the investment scale. Homeowners in [Caldwell](/asphalt-shingle-roof-replacement-caldwell-nj) access similar warranty programs on their residential shingle projects.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'What warranty should I look for on North Caldwell shingle replacement?',
       answer: 'At minimum, seek a manufacturer warranty with 30-year non-prorated material coverage. For North Caldwell estates, we recommend the 50-year system warranties (GAF Golden Pledge, Owens Corning Platinum) that include both material and workmanship coverage. These top-tier warranties require certified installer status and system-specific component use -- both of which we provide on every qualifying project.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in North Caldwell range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in North Caldwell NJ -- premium designer shingles with manufacturer system warranties for estate homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

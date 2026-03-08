@@ -4,7 +4,7 @@ export const veronaGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'verona',
   overview: [
-    'Green roof installation in Verona brings living vegetation systems to commercial and institutional buildings, creating rooftop environments that manage stormwater, reduce energy consumption, extend membrane life, and add green space to a community that already values its parks and tree canopy. Verona\'s commitment to environmental character -- anchored by the Olmsted-designed Verona Park -- makes the township a natural fit for green roof technology that transforms underutilized flat rooftops into productive ecological assets.',
+    'Newark Quality Roofing delivers expert green roof installation in Verona — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Verona brings living vegetation systems to commercial and institutional buildings, creating rooftop environments that manage stormwater, reduce energy consumption, extend membrane life, and add green space to a community that already values its parks and tree canopy. Verona\'s commitment to environmental character -- anchored by the Olmsted-designed Verona Park -- makes the township a natural fit for green roof technology that transforms underutilized flat rooftops into productive ecological assets.',
     'Newark Quality Roofing designs and installs extensive green roof systems on Verona commercial buildings, using low-maintenance sedum and native grass plantings that thrive in northern New Jersey\'s climate without irrigation after establishment. The growing medium, drainage layer, root barrier, and waterproofing membrane work as an integrated system that protects the building structure while supporting plant life. Our [green roof](/green-roof-installation) installations follow the emerging standards for vegetated roofing that municipalities across Essex County are beginning to incentivize through stormwater management credits.',
     'The stormwater management benefits of green roofs directly address Verona\'s localized flooding concerns during intense rainfall events. A four-inch extensive green roof retains 50 to 70 percent of annual rainfall, releasing the remainder slowly through the drainage layer rather than as immediate runoff. For commercial buildings in the township\'s Bloomfield Avenue corridor, where impervious surfaces concentrate stormwater into aging drainage infrastructure, green roof retention provides measurable relief. Municipal buildings in [Montclair](/green-roof-installation-montclair-nj) have demonstrated these stormwater benefits on similar-scale installations.'
   ],
@@ -34,7 +34,25 @@ export const veronaGreenRoofInstallation: ComboContent = {
     {
       question: 'Does a green roof help with energy costs on my Verona building?',
       answer: 'Green roofs reduce cooling costs in summer by 25 to 40 percent through evapotranspiration cooling and insulation from the growing medium layer. Winter heating benefits are modest -- approximately 5 to 10 percent reduction -- because the growing medium\'s insulation value is relatively low compared to purpose-built roof insulation. The combined annual energy savings contribute to the green roof\'s lifecycle cost justification but typically do not alone pay for the premium over conventional roofing.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Verona, NJ?',
+      answer: 'Most green roof installation projects in Verona range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Verona NJ -- vegetated roofing systems for commercial buildings with stormwater management and energy benefits.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

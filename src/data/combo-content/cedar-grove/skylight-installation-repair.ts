@@ -4,7 +4,7 @@ export const cedarGroveSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Skylight installation and repair in Cedar Grove brings natural light into the township\'s ranch and colonial homes where shallow attic spaces, interior floor plans, and tree-shaded lot conditions create rooms that rely heavily on artificial lighting during daylight hours. The ranch home design dominant throughout Cedar Grove features long, deep floor plans where central rooms -- hallways, kitchens, and bathrooms -- sit far from exterior walls and receive little natural illumination. Strategically placed skylights transform these dark interior spaces while reducing daytime electricity consumption.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Cedar Grove — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in Cedar Grove brings natural light into the township\'s ranch and colonial homes where shallow attic spaces, interior floor plans, and tree-shaded lot conditions create rooms that rely heavily on artificial lighting during daylight hours. The ranch home design dominant throughout Cedar Grove features long, deep floor plans where central rooms -- hallways, kitchens, and bathrooms -- sit far from exterior walls and receive little natural illumination. Strategically placed skylights transform these dark interior spaces while reducing daytime electricity consumption.',
     'Cedar Grove\'s northern Essex County location provides strong seasonal variation in natural light, with short winter days and low sun angles making every available light source valuable during the heating season. Our [skylight installation](/skylight-installation-repair) designs for Cedar Grove homes position units to capture maximum winter sun while managing summer heat gain through glazing selection, shade accessories, and orientation relative to the tree canopy. Homeowners in nearby [Verona](/skylight-installation-repair-verona-nj) address similar natural light challenges in their split-level homes.',
     'Skylight repair on Cedar Grove homes addresses the leaking and condensation issues that aging skylight units develop after fifteen to twenty years of northern Essex County weather exposure. The seal failures, cracked glazing, and deteriorated flashing that plague older skylights create water damage disproportionate to their small roof footprint. Replacement with current-generation energy-efficient units eliminates the leak risk while dramatically improving insulation value and condensation resistance.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveSkylightInstallationRepair: ComboContent = {
       question: 'How long do skylights last before needing replacement in Cedar Grove?',
       answer: 'Quality skylights from tier-one manufacturers last twenty to thirty years in Cedar Grove\'s climate. The seals, glazing, and frame materials gradually degrade under UV exposure and thermal cycling, with leak susceptibility increasing after the fifteen-year mark. We recommend proactive replacement of skylights that show early signs of seal failure rather than waiting for active leaking, which can cause significant interior damage before detection.',
     },
+    {
+      question: 'How much does skylight installation repair cost in Cedar Grove, NJ?',
+      answer: 'Most skylight installation repair projects in Cedar Grove range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Cedar Grove NJ -- natural light solutions for ranch homes with low-pitch mounting and energy-efficient glazing.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

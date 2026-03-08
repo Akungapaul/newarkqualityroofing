@@ -4,7 +4,7 @@ export const orangeRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'orange',
   overview: [
-    'EPDM rubber roofing is the workhorse membrane on Orange\'s flat and low-slope buildings, covering everything from Main Street commercial storefronts to the flat rear sections of Scotland Road Victorians where low-pitch additions were built decades after the original steep-slope construction. Our [rubber roofing](/rubber-roofing-epdm) installations across Orange address the city\'s particular combination of tight-lot logistics, layered building history, and moisture-intensive conditions that demand a membrane proven to perform for decades without intensive maintenance.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Orange — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing is the workhorse membrane on Orange\'s flat and low-slope buildings, covering everything from Main Street commercial storefronts to the flat rear sections of Scotland Road Victorians where low-pitch additions were built decades after the original steep-slope construction. Our [rubber roofing](/rubber-roofing-epdm) installations across Orange address the city\'s particular combination of tight-lot logistics, layered building history, and moisture-intensive conditions that demand a membrane proven to perform for decades without intensive maintenance.',
     'Orange\'s Main Street commercial corridor relies heavily on EPDM for the flat roofs atop its two- and three-story buildings. Many of these structures carry aging built-up roofing that has been patched repeatedly, and EPDM replacement provides a clean, single-membrane solution that eliminates the maintenance cycle of patching old tar-and-gravel assemblies. The rubber membrane\'s flexibility handles the thermal expansion and contraction that Orange\'s seasonal temperature swings demand -- from summer heat reflecting off Main Street\'s asphalt to winter freeze cycles that would crack rigid membrane alternatives. Property managers in neighboring [East Orange](/rubber-roofing-epdm-east-orange-nj) choose EPDM for similar commercial corridor applications.',
     'In the Valley neighborhood, EPDM\'s waterproofing integrity becomes especially critical. The low-lying terrain collects stormwater runoff from South Mountain, and roofs in this area must provide absolute moisture exclusion from above while the building contends with ground moisture migrating from below. EPDM\'s seamless vulcanized seams and fully adhered installation method create an unbroken waterproof barrier that prevents the ponding-water infiltration that plagues many Valley commercial and residential flat roofs.'
   ],
@@ -34,7 +34,25 @@ export const orangeRubberRoofingEpdm: ComboContent = {
     {
       question: 'What does EPDM replacement cost for an Orange Main Street commercial building?',
       answer: 'EPDM replacement on Orange commercial properties typically runs $6 to $10 per square foot installed, depending on insulation requirements, the number of roofing layers to remove, and penetration count. A typical 3,000-square-foot Main Street storefront roof runs $18,000 to $30,000 including full tear-off, new insulation, and 60-mil membrane with a 20-year warranty.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Orange, NJ?',
+      answer: 'Most rubber roofing epdm projects in Orange range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Orange NJ -- Main Street commercial membranes, Victorian flat-section coverage, Valley moisture protection, and South Mountain.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

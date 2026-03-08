@@ -4,7 +4,7 @@ export const orangeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'orange',
   overview: [
-    'Re-roofing is the comprehensive process of replacing an Orange home\'s entire roof system -- removing the old, repairing the substrate, and installing new materials that protect the building for the next 25 to 30 years. Our [re-roofing](/re-roofing) projects in Orange go beyond material substitution to address the systemic deficiencies that most older Orange roofs carry: inadequate ventilation from an era before attic airflow was understood, missing ice and water shield at critical junctions, undersized flashing details, and insulation gaps that drive energy waste and ice dam formation.',
+    'Newark Quality Roofing delivers expert re roofing in Orange — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing is the comprehensive process of replacing an Orange home\'s entire roof system -- removing the old, repairing the substrate, and installing new materials that protect the building for the next 25 to 30 years. Our [re-roofing](/re-roofing) projects in Orange go beyond material substitution to address the systemic deficiencies that most older Orange roofs carry: inadequate ventilation from an era before attic airflow was understood, missing ice and water shield at critical junctions, undersized flashing details, and insulation gaps that drive energy waste and ice dam formation.',
     'Orange\'s NJ Transit station has made the city a target for homebuyers seeking affordable alternatives to neighboring South Orange and Maplewood. These new owners frequently purchase older homes that need comprehensive re-roofing as a first-priority renovation. The roof determines whether the house stays dry during the months of interior renovation that follow, and a properly executed re-roofing project gives new owners the confidence to invest in kitchens, bathrooms, and systems below a roof they can trust. Our new-homeowner re-roofing packages include everything needed for a complete roof reset.',
     'Re-roofing in Orange is also the natural inflection point for adding energy efficiency improvements, solar readiness, and enhanced storm resistance that the original construction did not provide. Adding R-49 attic insulation during re-roofing costs a fraction of the standalone retrofit price because the attic is fully accessible during the project. Installing solar-ready conduit pathways and reinforced panel mounting zones during re-roofing avoids the cost of future roof disassembly for solar installation. Our Orange re-roofing specifications include these forward-looking upgrades as standard options. Homebuyers in [West Orange](/re-roofing-west-orange-nj) apply the same comprehensive approach when upgrading hillside properties.'
   ],
@@ -34,7 +34,25 @@ export const orangeReRoofing: ComboContent = {
     {
       question: 'Should I re-roof before or after buying a home in Orange?',
       answer: 'If the inspection reveals roof issues, negotiating re-roofing cost into the purchase price or as a seller credit is ideal. If you have already purchased, address the roof before beginning interior renovations to protect your renovation investment from water damage. We offer priority scheduling for recent Orange homebuyers who need a new roof before moving in or starting renovation work.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Orange, NJ?',
+      answer: 'Most re roofing projects in Orange range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Orange NJ -- full system replacement, new homeowner packages, Victorian complex rooflines, and energy efficiency upgrades.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

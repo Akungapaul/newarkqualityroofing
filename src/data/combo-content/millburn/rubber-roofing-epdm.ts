@@ -4,7 +4,7 @@ export const millburnRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'millburn',
   overview: [
-    'EPDM rubber roofing in Millburn serves the township\'s flat and low-slope roof sections with a membrane system valued for its proven longevity, quiet installation process, and the dark surface that recedes visually against the surrounding landscape. Unlike the reflective white membranes that dominate commercial roofing in denser municipalities, EPDM\'s black or charcoal surface is often preferred on Millburn estate properties where flat-roof sections are visible from upper floors -- the dark membrane blends with shadows cast by the surrounding tree canopy rather than creating a bright, reflective surface that draws the eye from bedroom or study windows above.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Millburn — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing in Millburn serves the township\'s flat and low-slope roof sections with a membrane system valued for its proven longevity, quiet installation process, and the dark surface that recedes visually against the surrounding landscape. Unlike the reflective white membranes that dominate commercial roofing in denser municipalities, EPDM\'s black or charcoal surface is often preferred on Millburn estate properties where flat-roof sections are visible from upper floors -- the dark membrane blends with shadows cast by the surrounding tree canopy rather than creating a bright, reflective surface that draws the eye from bedroom or study windows above.',
     'Estate properties throughout Short Hills and along South Mountain incorporate EPDM on kitchen additions, sunroom extensions, garage flat sections, and enclosed breezeways where the flat-roof area connects to the main residence\'s primary steep-slope system. These applications demand the same watertight reliability as any commercial installation but operate within the residential context where our [rubber roofing](/rubber-roofing-epdm) crews must coordinate with homeowners on access scheduling, noise management, and site protection for landscape features that commercial projects never encounter.',
     'The commercial buildings along Millburn Avenue and near the train station also utilize EPDM for its cost-effective performance on professional office and retail flat roofs. Medical practices, law offices, and boutique retail tenants require uninterrupted operations during membrane installation, and EPDM\'s cold-applied adhesive system -- unlike the heat welding required for TPO or the torch application used on modified bitumen -- generates minimal fumes and noise. This installation characteristic makes EPDM particularly suitable for occupied commercial buildings in [Millburn](/roofing-in-millburn-nj) where tenant disruption must be minimized.'
   ],
@@ -34,7 +34,25 @@ export const millburnRubberRoofingEpdm: ComboContent = {
     {
       question: 'Can EPDM support foot traffic for rooftop access or equipment maintenance?',
       answer: 'Standard sixty-mil EPDM supports occasional foot traffic for maintenance access without damage. For areas with regular traffic -- paths to rooftop HVAC equipment, access hatches, or terrace transitions -- we install reinforced walk pads bonded to the membrane surface that distribute foot loads and prevent wear from concentrated traffic patterns. These pads are available in colors that blend with the black membrane surface and are positioned to create designated walkways that protect the field membrane from incidental traffic.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Millburn, NJ?',
+      answer: 'Most rubber roofing epdm projects in Millburn range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing for Millburn flat-roof sections. Estate additions, commercial buildings, and seamless membrane installation with proven 40-year durability.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Gutter systems in Montclair wage a perpetual battle against the township\'s most celebrated natural asset: its tree canopy. Protected by one of northern New Jersey\'s most aggressive tree preservation ordinances, Montclair\'s oaks, maples, sycamores, and tulip poplars drop an extraordinary volume of leaves, seed pods, and small branches onto residential roofs from September through December. A gutter system that performs adequately in a suburban development with young landscaping will be overwhelmed within a single autumn season on a tree-lined Montclair street. Every gutter specification in this township starts with leaf-load capacity as the primary design constraint.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Montclair — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems in Montclair wage a perpetual battle against the township\'s most celebrated natural asset: its tree canopy. Protected by one of northern New Jersey\'s most aggressive tree preservation ordinances, Montclair\'s oaks, maples, sycamores, and tulip poplars drop an extraordinary volume of leaves, seed pods, and small branches onto residential roofs from September through December. A gutter system that performs adequately in a suburban development with young landscaping will be overwhelmed within a single autumn season on a tree-lined Montclair street. Every gutter specification in this township starts with leaf-load capacity as the primary design constraint.',
     'The architectural diversity of Montclair\'s housing stock demands gutter solutions spanning the full material and style spectrum. Victorian mansions in the North Mountain Avenue corridor call for half-round copper gutters with ornate outlets and round downspouts that complement the home\'s period character. Tudor Revival homes pair best with heavy-gauge K-style gutters in dark bronze or forest green finishes that recede against the stucco-and-timber facade. Mid-century modern homes favor clean-lined square box gutters or concealed internal drainage. Even the standard seamless aluminum gutter -- the workhorse of residential drainage -- requires thoughtful color matching and profile selection to avoid looking like an afterthought on Montclair\'s architecturally conscious streetscapes.',
     'The steep roof pitches prevalent throughout Montclair -- particularly on Victorian and Tudor homes where 10:12, 12:12, and even steeper slopes are common -- generate higher-velocity water discharge than the moderate pitches of suburban ranch homes. Water sheeting off a steep slate or shingle roof at speed can overshoot an undersized gutter entirely, especially during intense summer thunderstorms that dump an inch or more per hour. Our gutter sizing calculations for Montclair account for both the rainfall intensity data and the accelerated runoff velocity that steep pitches produce, resulting in specifications that capture water the first time rather than allowing it to cascade past the gutter lip onto foundations and landscaping below.'
   ],
@@ -39,7 +39,25 @@ export const montclairGutterInstallationRepair: ComboContent = {
     {
       question: 'My hillside Montclair home has drainage problems from gutter downspouts. What are my options?',
       answer: 'Hillside properties in Upper Montclair and Montclair Heights need engineered downspout drainage rather than simple splash blocks. We install buried PVC drain lines from each downspout to daylight points downhill from the foundation, with cleanout access fittings at direction changes. On properties where lot configuration prevents running to daylight, we install dry wells or infiltration galleries that absorb the discharge volume below grade. All buried drainage is sized to handle the maximum flow rate from the connected gutter run during a design-storm rainfall event.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Montclair, NJ?',
+      answer: 'Most gutter installation repair projects in Montclair range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Montclair NJ gutter installation and repair -- copper half-rounds for Victorians, leaf-load engineering for tree canopy, and hillside drainage solutions.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'south-orange',
   overview: [
-    'Leak detection in South Orange Village operates within a built environment where water follows pathways that standard diagnostic methods may not anticipate. The Tudor Revival homes throughout the village channel water through half-timber wall junctions and decorative framing that creates migration routes invisible from the roof surface. Montrose Park estates with copper-lined box gutters can develop pinhole leaks that drip into wall cavities for months before staining becomes visible on interior plaster. Cedar shake roofs on Scotland Road bungalows leak not through gaps between shakes but through the shakes themselves as internal decay softens fibers that still appear intact from above.',
+    'Newark Quality Roofing delivers expert roof leak repair in South Orange — with prices starting from $300–$1,200 and free estimates available today. Leak detection in South Orange Village operates within a built environment where water follows pathways that standard diagnostic methods may not anticipate. The Tudor Revival homes throughout the village channel water through half-timber wall junctions and decorative framing that creates migration routes invisible from the roof surface. Montrose Park estates with copper-lined box gutters can develop pinhole leaks that drip into wall cavities for months before staining becomes visible on interior plaster. Cedar shake roofs on Scotland Road bungalows leak not through gaps between shakes but through the shakes themselves as internal decay softens fibers that still appear intact from above.',
     'The relationship between South Orange\'s tree canopy and roof leak frequency is direct and measurable. Persistent shade from the village\'s mature oaks, maples, and tulip poplars retains moisture on roof surfaces long after rain stops, keeping shingle granules, slate surfaces, and cedar fibers in constant contact with water. This prolonged moisture exposure accelerates the material deterioration that eventually produces leaks. Homeowners in neighboring [West Orange](/roof-leak-repair-west-orange-nj) share similar canopy challenges at the South Mountain Reservation interface, where the tree line creates a microclimate that keeps roofs damp well into the morning hours.',
     'Ice dam leaks represent a winter-specific challenge for South Orange homes, particularly the Cape Cod and colonial designs where eave overhangs create the sheltered, unheated roof edge that ice dam physics require. When attic heat melts snow on the upper roof and refreezing at the eave creates an ice barrier, meltwater backs up under shingles and enters the building through nail penetrations and sheathing joints. The damage compounds because South Orange homeowners with finished interiors immediately beneath the leak point face repair costs that include plaster restoration and hardwood floor refinishing alongside the roof repair itself.',
     'Our [roof leak repair](/roof-leak-repair) approach in South Orange prioritizes finding the actual entry point rather than treating the visible symptom. The symptom -- a water stain, a drip, a damp patch -- frequently appears far from where water actually enters the roof system. On complex rooflines with dormers, valleys, and multiple material transitions, water can travel ten or fifteen feet along a rafter, a flashing edge, or a wiring channel before gravity brings it through the ceiling. Tracing this path backward from stain to source is the critical diagnostic step that prevents the recurring leak cycles homeowners experience when repairs address the wrong location.'
@@ -39,7 +39,25 @@ export const southOrangeRoofLeakRepair: ComboContent = {
     {
       question: 'Will my homeowner insurance cover a roof leak repair?',
       answer: 'Coverage depends on the cause. Leaks resulting from sudden events like storm damage or falling tree impact are typically covered. Leaks from gradual deterioration, deferred maintenance, or material aging are generally excluded. We document the cause of every leak with photographs and a written assessment that supports your insurance claim when the damage is covered. Our documentation format aligns with adjuster requirements for efficient claims processing.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in South Orange, NJ?',
+      answer: 'Most roof leak repair projects in South Orange range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in South Orange NJ -- slate leak diagnosis, Tudor wall junction repair, and cedar shake leak solutions for village homes.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

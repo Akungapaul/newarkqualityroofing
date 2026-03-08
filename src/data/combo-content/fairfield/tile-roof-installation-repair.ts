@@ -4,7 +4,7 @@ export const fairfieldTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'fairfield',
   overview: [
-    'Tile roofing in Fairfield brings a Mediterranean or Spanish-colonial aesthetic to a township better known for conventional shingle roofs and commercial flat-roof membranes. While tile installations are less common here than in [Montclair](/tile-roof-installation-repair-montclair-nj) or [Glen Ridge](/tile-roof-installation-repair-glen-ridge-nj), homeowners in Fairfield\'s newer developments and custom-built properties increasingly select clay or concrete tile for its striking visual profile and exceptional lifespan. The township\'s predominantly 1960s-through-1990s housing stock provides solid structural platforms that, with proper reinforcement assessment, can support the additional weight tile roofing demands.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Fairfield — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Fairfield brings a Mediterranean or Spanish-colonial aesthetic to a township better known for conventional shingle roofs and commercial flat-roof membranes. While tile installations are less common here than in [Montclair](/tile-roof-installation-repair-montclair-nj) or [Glen Ridge](/tile-roof-installation-repair-glen-ridge-nj), homeowners in Fairfield\'s newer developments and custom-built properties increasingly select clay or concrete tile for its striking visual profile and exceptional lifespan. The township\'s predominantly 1960s-through-1990s housing stock provides solid structural platforms that, with proper reinforcement assessment, can support the additional weight tile roofing demands.',
     'Fairfield\'s residential neighborhoods west of Hollywood Avenue include scattered custom homes and upscale renovations where tile roofing distinguishes a property from the subdivision standard. Concrete tile options deliver the appearance of clay at reduced weight and cost, making them practical for Fairfield homes originally framed for conventional asphalt shingle loads. Our structural evaluation process confirms whether existing trusses and rafters can bear the increased dead load or whether supplemental bracing is needed before tile installation proceeds. This engineering-first approach prevents the costly callbacks that occur when tile is installed without accounting for Fairfield\'s specific framing practices.',
     'On the commercial side, several Route 46 hotels and upscale restaurant properties use tile roofing on pitched entry facades to project a premium image. These accent applications require integration between the pitched tile sections and the flat membrane systems covering the main roof area -- a transition detail that demands careful flashing design. Our [tile roof installation and repair](/tile-roof-installation-repair) crews handle both the aesthetic tile work and the waterproofing transition, delivering a unified system rather than leaving a gap between two separate contractor scopes.',
     'New Jersey\'s freeze-thaw climate is the primary performance consideration for tile roofs in Fairfield. Concrete tiles with high water absorption ratings can spall and crack when absorbed moisture freezes, particularly on north-facing roof planes that receive minimal winter sun. We specify low-absorption concrete tiles or genuine clay tiles for Fairfield installations and install them over battens with adequate ventilation beneath the tile field to minimize trapped moisture during cold months.'
@@ -35,7 +35,25 @@ export const fairfieldTileRoofInstallationRepair: ComboContent = {
     {
       question: 'Can you repair individual broken tiles on my Fairfield roof?',
       answer: 'Yes. Individual tile replacement is one of tile roofing\'s advantages -- damaged tiles can be removed and replaced without disturbing the surrounding field. The challenge is sourcing matching tiles for older installations. We maintain relationships with tile suppliers and salvage sources and recommend that homeowners store surplus tiles from the original installation for future repairs. For discontinued profiles, we can often find close matches or fabricate custom replacements.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Fairfield, NJ?',
+      answer: 'Most tile roof installation repair projects in Fairfield range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Fairfield NJ. Clay and concrete tile for residential homes with structural assessment and freeze-thaw rated materials.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

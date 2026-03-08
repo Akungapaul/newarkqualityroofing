@@ -4,7 +4,7 @@ export const montclairMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Metal roof replacement in Montclair appeals to homeowners seeking a fifty-plus-year roofing solution that eliminates the twenty-to-thirty-year replacement cycle of asphalt shingles. Standing seam metal panels in architectural finishes provide the longevity and wind resistance that Montclair\'s Watchung Ridge exposure demands, with PVDF coatings in earth tones and weathered metallics that complement the township\'s Victorian, Tudor, and Arts & Crafts architectural context.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Montclair — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Montclair appeals to homeowners seeking a fifty-plus-year roofing solution that eliminates the twenty-to-thirty-year replacement cycle of asphalt shingles. Standing seam metal panels in architectural finishes provide the longevity and wind resistance that Montclair\'s Watchung Ridge exposure demands, with PVDF coatings in earth tones and weathered metallics that complement the township\'s Victorian, Tudor, and Arts & Crafts architectural context.',
     'The material transition from asphalt to metal during a [metal roof replacement](/metal-roof-replacement) in [Montclair](/roofing-in-montclair-nj) involves structural evaluation, acoustic management planning, and finish selection that accounts for both the home\'s architectural period and the community\'s aesthetic expectations. Metal roofing\'s visual presence on steep Montclair pitches is significant -- the roof becomes an even more dominant architectural element than it already is with shingles. Properties in [West Orange](/metal-roof-replacement-west-orange-nj) and [Cedar Grove](/metal-roof-replacement-cedar-grove-nj) face similar material transition decisions.',
     'Lifecycle cost analysis often favors metal despite the higher initial investment. A standing seam metal roof at twice the installed cost of premium shingles but lasting twice as long delivers comparable per-year cost with the additional benefits of zero mid-life maintenance, superior wind and impact resistance, and enhanced resale positioning in Montclair\'s premium housing market.'
   ],
@@ -30,7 +30,25 @@ export const montclairMetalRoofReplacement: ComboContent = {
     {
       question: 'Does a metal roof increase home value in Montclair?',
       answer: 'A quality standing seam metal installation signals premium construction and zero-maintenance roofing to buyers in Montclair\'s market. The remaining service life at any point in the roof\'s lifespan exceeds what a same-age shingle roof would offer, providing tangible value in property negotiations. Real estate agents in premium markets increasingly list metal roofing as a material feature alongside granite countertops and hardwood floors.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Montclair, NJ?',
+      answer: 'Most metal roof replacement projects in Montclair range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Montclair NJ -- standing seam panels with architectural finishes for 50-year wind-rated protection.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

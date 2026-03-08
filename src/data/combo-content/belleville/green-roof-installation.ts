@@ -4,7 +4,7 @@ export const bellevilleGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'belleville',
   overview: [
-    'Green roof technology offers Belleville an opportunity to address several challenges simultaneously in this densely developed township: stormwater management in a community prone to Passaic River basin flooding, urban heat island reduction between closely-spaced buildings, and green space creation where ground-level land is fully built out. While green roofs remain uncommon in Belleville\'s traditional commercial landscape, the technology\'s stormwater management benefits are drawing interest from building owners and municipal planners seeking to reduce combined sewer overflow events that affect the township during heavy rain.',
+    'Newark Quality Roofing delivers expert green roof installation in Belleville — with prices starting from $15–$35/sq ft and free estimates available today. Green roof technology offers Belleville an opportunity to address several challenges simultaneously in this densely developed township: stormwater management in a community prone to Passaic River basin flooding, urban heat island reduction between closely-spaced buildings, and green space creation where ground-level land is fully built out. While green roofs remain uncommon in Belleville\'s traditional commercial landscape, the technology\'s stormwater management benefits are drawing interest from building owners and municipal planners seeking to reduce combined sewer overflow events that affect the township during heavy rain.',
     'The practical case for green roofs in [Belleville](/roofing-in-belleville-nj) centers on stormwater retention. The township\'s impervious surface coverage -- rooftops, parking lots, and streets with minimal absorption capacity -- channels rainwater directly into the combined sewer system, contributing to overflow events that discharge untreated wastewater into the Passaic River. A green roof retains 50-90% of rainfall on the building surface, releasing it gradually through evapotranspiration rather than overwhelming the drainage system. For Belleville commercial building owners, this stormwater reduction may qualify for municipal fee credits and stormwater utility incentives.',
     'Our [green roof installation](/green-roof-installation) approach for Belleville focuses on extensive (lightweight) systems using sedum and drought-tolerant plant selections that require minimal maintenance after establishment. These systems add 15-25 pounds per square foot to the roof load, compared to 60-150 pounds for intensive green roofs with deeper growing media. The extensive approach is appropriate for Belleville\'s commercial buildings, many of which were not engineered for the heavy loads that intensive green roofs would impose. Structural assessment before installation determines whether the existing building frame can accommodate even the extensive system without reinforcement.',
     'Adjacent municipalities including [Newark](/green-roof-installation-newark-nj) have implemented green roof incentive programs and stormwater fee structures that reward building owners for reducing impervious surface runoff. As similar regulations extend to Belleville and other Essex County communities, early adoption of green roof technology positions commercial building owners favorably for compliance with evolving environmental requirements while delivering immediate thermal and stormwater performance benefits.'
@@ -35,7 +35,25 @@ export const bellevilleGreenRoofInstallation: ComboContent = {
     {
       question: 'Will a green roof help with flooding issues in Belleville?',
       answer: 'Green roofs retain 50-90% of rainfall depending on storm intensity and antecedent moisture conditions. For a 5,000 square foot commercial roof in Belleville, this can retain 2,000-3,000 gallons during a typical rain event that would otherwise flow directly into the combined sewer system. While a single green roof does not solve Belleville\'s stormwater challenges, widespread adoption across the commercial building stock would measurably reduce combined sewer overflow frequency.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Belleville, NJ?',
+      answer: 'Most green roof installation projects in Belleville range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Belleville NJ. Extensive sedum systems for stormwater management and urban heat reduction on commercial buildings.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

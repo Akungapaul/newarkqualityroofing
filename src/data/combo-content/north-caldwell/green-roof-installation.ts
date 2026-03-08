@@ -4,7 +4,7 @@ export const northCaldwellGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'north-caldwell',
   overview: [
-    'Green roof installations in North Caldwell occupy a uniquely residential niche compared to the municipal and commercial applications that dominate green roof projects in denser Essex County communities. Estate homeowners along Grandview Avenue and Mountain Avenue explore green roofing for flat garage sections, porch overhangs, and poolhouse structures where a living vegetated surface integrates the built element into the surrounding wooded landscape rather than contrasting against it.',
+    'Newark Quality Roofing delivers expert green roof installation in North Caldwell — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installations in North Caldwell occupy a uniquely residential niche compared to the municipal and commercial applications that dominate green roof projects in denser Essex County communities. Estate homeowners along Grandview Avenue and Mountain Avenue explore green roofing for flat garage sections, porch overhangs, and poolhouse structures where a living vegetated surface integrates the built element into the surrounding wooded landscape rather than contrasting against it.',
     'The appeal of [green roof installation](/green-roof-installation) for North Caldwell residents connects directly to the borough\'s identity as a tree-covered, nature-oriented community. A sedum-planted green roof on a garage wing visible from the main house windows transforms what would otherwise be a flat membrane expanse into a living surface that changes with the seasons, supports pollinators, and manages stormwater in a way that aligns with how these estate properties interact with their natural setting.',
     'Our green roof work in North Caldwell focuses on extensive systems -- lightweight, low-maintenance installations using pre-grown sedum mats over engineered growing media, drainage layers, and waterproof membrane. These systems add fifteen to twenty-five pounds per square foot of saturated weight, which most North Caldwell estate structures can support without modification. For homeowners exploring living roofs in [North Caldwell](/roofing-in-north-caldwell-nj), the extensive system provides the visual and environmental benefits without the structural demands and ongoing care that intensive rooftop gardens require. Similar residential interest exists among homeowners in nearby [Essex Fells](/green-roof-installation-essex-fells-nj).'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellGreenRoofInstallation: ComboContent = {
     {
       question: 'Does a green roof affect the waterproof membrane beneath it?',
       answer: 'A green roof actually extends the life of the waterproof membrane by shielding it from UV radiation, thermal cycling, and mechanical damage. Studies show that membranes beneath green roofs last 40 to 60 percent longer than exposed membranes on the same building. The root-resistant membrane specified for green roof applications prevents plant root penetration from compromising the waterproofing layer.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in North Caldwell, NJ?',
+      answer: 'Most green roof installation projects in North Caldwell range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in North Caldwell NJ -- extensive sedum systems for estate home flat sections blending with wooded landscapes.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

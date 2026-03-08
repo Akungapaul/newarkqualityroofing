@@ -4,7 +4,7 @@ export const cedarGroveStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Storm damage roof replacement in Cedar Grove responds to the severe weather events that northern Essex County produces -- nor\'easters driving wind and rain against the Watchung Mountain slope, summer microbursts toppling mature oaks onto ranch roofs, and hail events that damage entire roof planes beyond repair. When storm damage exceeds the scope of targeted repair, full [storm damage roof replacement](/storm-damage-roof-replacement) restores the building envelope with a new system designed to resist the specific storm forces that caused the original failure.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Cedar Grove — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Cedar Grove responds to the severe weather events that northern Essex County produces -- nor\'easters driving wind and rain against the Watchung Mountain slope, summer microbursts toppling mature oaks onto ranch roofs, and hail events that damage entire roof planes beyond repair. When storm damage exceeds the scope of targeted repair, full [storm damage roof replacement](/storm-damage-roof-replacement) restores the building envelope with a new system designed to resist the specific storm forces that caused the original failure.',
     'Cedar Grove\'s dense tree canopy creates a unique storm damage profile. While communities without significant tree cover primarily sustain wind-driven shingle damage, Cedar Grove homes face the added risk of large branch and whole-tree impacts that cause structural damage to rafters, sheathing, and even load-bearing walls beneath the roof. Storm replacement on these properties often includes structural repair work that extends beyond the roof system into the building frame.',
     'Our storm damage replacement process integrates emergency response, insurance coordination, and full replacement construction into a managed sequence that moves Cedar Grove homeowners from damage event to completed new roof with minimum disruption and maximum insurance recovery.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveStormDamageRoofReplacement: ComboContent = {
       question: 'Does insurance cover the full cost of storm damage roof replacement?',
       answer: 'Insurance typically covers the full replacement cost minus your deductible when the damage results from a covered storm event. Code upgrade costs required by current building standards are also covered under most policies. Your out-of-pocket cost is limited to the deductible amount. We work directly with your insurance company to maximize coverage and minimize your financial exposure.',
     },
+    {
+      question: 'How much does storm damage roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most storm damage roof replacement projects in Cedar Grove range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Cedar Grove NJ -- emergency response, insurance coordination, and full replacement after severe weather events.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

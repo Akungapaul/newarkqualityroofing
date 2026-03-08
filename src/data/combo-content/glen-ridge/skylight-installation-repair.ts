@@ -4,7 +4,7 @@ export const glenRidgeSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'glen-ridge',
   overview: [
-    'Skylight installation in Glen Ridge navigates the tension between homeowners\' desire for natural light and the Historic Preservation Commission\'s mandate to maintain the borough\'s historic roofline character. Skylights are not inherently incompatible with preservation, but their placement, size, and visibility from the street determine whether a proposal will satisfy commission review. Newark Quality Roofing designs skylight installations that bring daylight into Glen Ridge\'s traditionally dark Victorian and Edwardian interiors while respecting the roofline aesthetics that the community has preserved for over a century.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Glen Ridge — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation in Glen Ridge navigates the tension between homeowners\' desire for natural light and the Historic Preservation Commission\'s mandate to maintain the borough\'s historic roofline character. Skylights are not inherently incompatible with preservation, but their placement, size, and visibility from the street determine whether a proposal will satisfy commission review. Newark Quality Roofing designs skylight installations that bring daylight into Glen Ridge\'s traditionally dark Victorian and Edwardian interiors while respecting the roofline aesthetics that the community has preserved for over a century.',
     'Rear-facing roof planes offer the greatest opportunity for skylight installation in Glen Ridge without triggering preservation concerns. A skylight on a south-facing rear slope receives optimal light exposure while remaining invisible from the street, satisfying both daylighting goals and commission expectations. For homes where rear-facing roof planes are not viable, low-profile skylights positioned on secondary side elevations or within the roof plane at locations concealed by dormers may be acceptable. Our design process identifies the best placement for each specific Glen Ridge home before any formal application is submitted.',
     'Skylight repair is equally important in Glen Ridge, where existing skylights installed decades ago may be leaking, fogged, or performing poorly. Older skylight curbs were often flashed with materials that have since deteriorated, and the seals on double-pane glazing fail over time, creating condensation between the panes. We repair and replace existing Glen Ridge skylights with modern units featuring improved thermal performance and leak-proof curb flashing systems, preserving the natural light these homeowners value while eliminating the water intrusion and energy loss that deteriorated skylights produce. Similar historic-context skylight work informs our projects in [Verona](/skylight-installation-repair-verona-nj) and other Essex County communities.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeSkylightInstallationRepair: ComboContent = {
       question: 'How long do skylights last in Glen Ridge before needing replacement?',
       answer: 'Modern skylights from manufacturers like VELUX last 20 to 30 years with proper flashing maintenance. The most common failure point is not the skylight unit itself but the curb flashing that waterproofs the intersection with the roof surface. We install skylights with copper curb flashings designed to last as long as the roofing material surrounding them, eliminating the premature leak failures caused by lesser flashing materials.',
     },
+    {
+      question: 'How much does skylight installation repair cost in Glen Ridge, NJ?',
+      answer: 'Most skylight installation repair projects in Glen Ridge range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Glen Ridge NJ. Preservation-compatible daylighting solutions for Victorian and Edwardian homes.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

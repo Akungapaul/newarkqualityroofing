@@ -4,7 +4,7 @@ export const eastOrangeModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'east-orange',
   overview: [
-    'Modified bitumen roofing remains the dominant flat roof system on East Orange\'s pre-war apartment buildings and commercial structures along Main Street, where generations of roofers have applied torch-down and self-adhered membrane layers over the original built-up roofing that these buildings carried when constructed. The material\'s familiarity among local roofing contractors, its compatibility with existing built-up roof substrates, and its forgiving installation characteristics on irregularly surfaced decks make it the default re-roofing choice for East Orange landlords and property managers who need reliable waterproofing without the capital outlay that single-ply membrane systems demand.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in East Orange — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing remains the dominant flat roof system on East Orange\'s pre-war apartment buildings and commercial structures along Main Street, where generations of roofers have applied torch-down and self-adhered membrane layers over the original built-up roofing that these buildings carried when constructed. The material\'s familiarity among local roofing contractors, its compatibility with existing built-up roof substrates, and its forgiving installation characteristics on irregularly surfaced decks make it the default re-roofing choice for East Orange landlords and property managers who need reliable waterproofing without the capital outlay that single-ply membrane systems demand.',
     'The multi-layer construction of [modified bitumen roofing](/modified-bitumen-roofing) provides redundancy that appeals to East Orange property owners managing risk across building portfolios. A two-ply modified bitumen system with an SBS base sheet and granule-surfaced cap sheet creates overlapping waterproofing layers -- if the cap sheet sustains damage from foot traffic, hail impact, or thermal cracking, the base sheet continues to prevent water entry while repairs are scheduled. This built-in redundancy reduces the urgency of emergency roof repairs on occupied apartment buildings where tenant displacement from active leaking carries legal and financial consequences that single-layer membrane failures trigger immediately.',
     'East Orange\'s building stock presents modified bitumen with the substrate conditions where it performs most reliably. Concrete decks on pre-war commercial buildings, plywood decks on post-war apartment complexes, and existing built-up roofing surfaces on buildings receiving their second or third re-roofing all provide acceptable substrates for modified bitumen application. The material\'s tolerance for minor substrate irregularities -- low spots, raised fasteners, patched areas -- means that preparation costs remain lower than the precise surface requirements that single-ply membranes demand.',
     'For investors purchasing distressed East Orange properties in the city\'s rehabilitation zones, modified bitumen provides a pragmatic roofing solution that balances initial cost with adequate performance during a renovation hold period. A properly installed two-ply modified bitumen system delivers 15 to 20 years of service -- typically exceeding the investor\'s hold period -- at an installed cost that preserves rehabilitation budget for interior renovations, mechanical upgrades, and code compliance work that directly impact rental income and property valuation. Neighboring [Bloomfield](/modified-bitumen-roofing-bloomfield-nj) property owners make similar calculations on their aging commercial stock.'
@@ -35,7 +35,25 @@ export const eastOrangeModifiedBitumenRoofing: ComboContent = {
     {
       question: 'How long does a modified bitumen roof last on an East Orange apartment building?',
       answer: 'A properly installed two-ply SBS modified bitumen system with granule-surfaced cap sheet delivers 15 to 20 years of reliable service in East Orange\'s climate. Lifespan depends on seam maintenance, ponding water management, and protection from foot traffic damage. Annual seam inspection and prompt repair of any thermal cracking or granule loss extends system life toward the upper end of this range.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in East Orange, NJ?',
+      answer: 'Most modified bitumen roofing projects in East Orange range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing for East Orange NJ apartments -- torch-down and self-adhered flat roof systems for multi-family and commercial buildings.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

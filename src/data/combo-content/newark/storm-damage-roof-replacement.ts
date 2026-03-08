@@ -4,7 +4,7 @@ export const newarkStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'newark',
   overview: [
-    'When a nor\'easter tears across the Passaic River basin or a July thunderstorm drops golf-ball hail on the Ironbound, the damage to Newark\'s rooftops is immediate and often severe -- but the response timeline determines whether the building suffers a roof replacement or a roof replacement plus extensive interior water damage. The first 24 hours after a major storm event are critical. Emergency tarping prevents secondary damage, damage documentation preserves the insurance claim, and rapid assessment separates buildings that need full replacement from those that can be restored with targeted repair. Our storm response protocol covers all three, and it deploys within hours of the event across every Newark neighborhood.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Newark — with prices starting from $9,000–$28,000 and free estimates available today. When a nor\'easter tears across the Passaic River basin or a July thunderstorm drops golf-ball hail on the Ironbound, the damage to Newark\'s rooftops is immediate and often severe -- but the response timeline determines whether the building suffers a roof replacement or a roof replacement plus extensive interior water damage. The first 24 hours after a major storm event are critical. Emergency tarping prevents secondary damage, damage documentation preserves the insurance claim, and rapid assessment separates buildings that need full replacement from those that can be restored with targeted repair. Our storm response protocol covers all three, and it deploys within hours of the event across every Newark neighborhood.',
     'Newark\'s geography amplifies storm damage patterns in ways that affect roof replacement decisions. The city sits in a wind corridor between the Watchung Mountains to the west and the open expanse of Newark Bay to the east. Nor\'easters drive sustained winds from the northeast directly into roof planes facing the bay, creating uplift forces that strip shingles in sheets and peel back flashing at ridge lines. Summer thunderstorms funnel through the Passaic River valley and accelerate across the city\'s flat terrain, producing localized wind gusts that exceed the rated capacity of aging shingle installations. The pattern is predictable: after every significant storm, the same neighborhoods show the heaviest damage -- elevated ridgelines in Forest Hill, bay-facing slopes in the Ironbound, and exposed commercial corridors along Broad Street and McCarter Highway.',
     'Storm damage replacement differs from planned replacement in urgency, scope discovery, and insurance involvement. A planned replacement starts with a thorough assessment and a defined timeline. A storm replacement starts with a tarp, proceeds through an insurance claim, and reveals its full scope only during tear-off when the extent of water infiltration and structural impact becomes visible. The two projects may end with the same finished roof, but the path to get there is fundamentally different, and the contractor\'s experience with storm-specific protocols determines whether the building is protected quickly and the insurance claim captures the full cost.',
     'Our storm damage replacement crews have responded to every major weather event in Newark over the past decade. The 2018 nor\'easter that stripped hundreds of roofs across the North Ward, the 2021 remnants of Hurricane Ida that overwhelmed drainage systems and drove water into buildings from above and below, the 2023 hailstorm that damaged nearly every roof along the South Ward\'s western edge -- each event refined our response protocol and deepened our understanding of how Newark buildings fail under weather stress.'
@@ -36,7 +36,25 @@ export const newarkStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Will my insurance cover the full cost of storm damage roof replacement?',
       answer: 'Coverage depends on your policy type, deductible structure, and the documented scope of damage. Replacement-cost-value policies cover the full replacement at current material and labor prices, though depreciation may be withheld until work is completed. Actual-cash-value policies pay the depreciated value only. Wind/hail deductibles on Newark policies are often percentage-based rather than flat-dollar amounts, typically 1 to 2 percent of the insured dwelling value. We review your policy terms during the initial consultation so you understand your coverage and out-of-pocket responsibility before work begins.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Newark, NJ?',
+      answer: 'Most storm damage roof replacement projects in Newark range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Newark NJ -- emergency tarping, insurance claim support, and full replacement after nor\'easters and severe weather events.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

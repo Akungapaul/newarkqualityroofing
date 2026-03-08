@@ -4,7 +4,7 @@ export const livingstonRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'livingston',
   overview: [
-    'Roof ventilation engineering is foundational to every roofing system\'s performance in Livingston, where the interaction between heated living spaces, attic insulation levels, and four-season weather extremes determines whether a roof lasts its full warranty life or fails prematurely from moisture damage, ice dam formation, or accelerated thermal aging. The township\'s dominant split-level architecture adds a complication that most ventilation discussions overlook: the staggered floor levels create multiple isolated attic compartments that each require independent ventilation analysis and solutions.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Livingston — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation engineering is foundational to every roofing system\'s performance in Livingston, where the interaction between heated living spaces, attic insulation levels, and four-season weather extremes determines whether a roof lasts its full warranty life or fails prematurely from moisture damage, ice dam formation, or accelerated thermal aging. The township\'s dominant split-level architecture adds a complication that most ventilation discussions overlook: the staggered floor levels create multiple isolated attic compartments that each require independent ventilation analysis and solutions.',
     'Ridge vents, box vents, and turbine vents each serve different Livingston applications based on roof geometry, attic configuration, and aesthetic considerations. Ridge vents provide the most uniform exhaust along the full roof peak and are our default recommendation for new installations and roof replacements. Box vents supplement ridge venting in areas where the ridge line is too short to provide adequate exhaust, common on hip roofs and the shorter ridge segments of split-level upper stories. HOA communities in Heritage Hills and Kingsland may restrict visible ventilation hardware, making ridge vents the preferred solution where low-profile appearance matters.',
     'Our [roof vent installation and repair](/roof-vent-installation-repair) practice in Livingston addresses both new ventilation installations during roof replacements and retrofit projects that improve ventilation on existing roofs without full replacement. Retrofit ventilation improvements are among the highest-return investments Livingston homeowners can make because improved airflow reduces ice dam risk, extends shingle life, and lowers attic temperatures that drive summer cooling costs. Homeowners in [Caldwell](/roof-vent-installation-repair-caldwell-nj) have implemented similar ventilation upgrades on their residential properties.',
     'The science behind roof ventilation is straightforward: balanced intake at soffits and exhaust at the ridge creates continuous airflow that removes heat and moisture from the attic space. The engineering challenge on Livingston homes lies in achieving this balance across compartmentalized attic spaces where airflow obstructions, insulation placement, and framing configurations disrupt the intake-to-exhaust pathway.'
@@ -35,7 +35,25 @@ export const livingstonRoofVentInstallationRepair: ComboContent = {
     {
       question: 'Does my Livingston HOA restrict the type of roof vents I can install?',
       answer: 'Some Livingston HOAs prefer low-profile ventilation options. Ridge vents are generally accepted because they sit flush with the roofline and are barely visible from street level. Box vents and turbine vents are more visible and may require architectural review approval. We recommend ridge vents as the default for HOA communities and submit specifications to the review committee when the project requires visible ventilation hardware.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Livingston, NJ?',
+      answer: 'Most roof vent installation repair projects in Livingston range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in Livingston NJ -- split-level ventilation engineering with ridge vents, soffit balancing, and ice dam prevention.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

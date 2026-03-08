@@ -4,7 +4,7 @@ export const westOrangeRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'west-orange',
   overview: [
-    'Roof replacement after chronic leak damage addresses the point where continued repair no longer provides reliable protection for West Orange homes whose aging roofs have developed systemic failures beyond isolated fix-it solutions. Our [roof replacement after leak](/roof-replacement-after-leak) service evaluates the full scope of leak-driven damage -- compromised sheathing, saturated insulation, degraded framing -- and delivers complete replacement that resolves the water entry permanently rather than chasing symptoms across an exhausted roof surface.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in West Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after chronic leak damage addresses the point where continued repair no longer provides reliable protection for West Orange homes whose aging roofs have developed systemic failures beyond isolated fix-it solutions. Our [roof replacement after leak](/roof-replacement-after-leak) service evaluates the full scope of leak-driven damage -- compromised sheathing, saturated insulation, degraded framing -- and delivers complete replacement that resolves the water entry permanently rather than chasing symptoms across an exhausted roof surface.',
     'West Orange homeowners often reach the replacement decision after multiple repair cycles at the same persistent leak locations. Split-level level-change transitions, north-facing eave lines prone to ice dam backup, and chimney-to-roof junctions where deteriorated mortar no longer supports flashing -- these recurring failure points signal systemic conditions that spot repairs cannot resolve. Replacement with modern barriers, proper flashing integration, and ventilation improvements eliminates the root causes that drove the repeat leak cycle.',
     'The interior damage from chronic leaks often extends beyond what ceiling stains reveal. Water traveling through framing members, along electrical wiring paths, and through insulation creates mold conditions, structural deterioration, and electrical hazards hidden behind walls and beneath attic insulation. Our replacement scope includes interior damage assessment that identifies these concealed problems, ensuring that the full water-damage picture is addressed alongside the roof replacement itself. Homeowners near [Orange](/roof-replacement-after-leak-orange-nj) face similar chronic leak escalation on their own aging housing stock.',
     'Insurance coverage for leak-driven replacement depends on whether the leak resulted from a covered peril or from maintenance neglect. Storm damage that initiates a new leak pathway is typically covered; gradual deterioration from deferred maintenance is not. We help [West Orange](/roofing-in-west-orange-nj) homeowners understand their coverage position and document damage appropriately for claims where covered perils contributed to the replacement need.'
@@ -35,7 +35,25 @@ export const westOrangeRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Can you fix the leak temporarily while I plan for replacement?',
       answer: 'Yes. Emergency tarping and temporary patching stop active water entry immediately, giving you time to plan the replacement project without the pressure of ongoing interior damage. We provide emergency stabilization within hours and then schedule a comprehensive replacement assessment at the earliest convenient time. This two-phase approach stops the damage now while ensuring the permanent replacement is properly planned rather than rushed.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in West Orange, NJ?',
+      answer: 'Most roof replacement after leak projects in West Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak damage in West Orange NJ. Permanent solutions for chronic leaks with concealed damage remediation.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

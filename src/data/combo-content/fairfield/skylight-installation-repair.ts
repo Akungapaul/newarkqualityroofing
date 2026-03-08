@@ -4,7 +4,7 @@ export const fairfieldSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'fairfield',
   overview: [
-    'Skylight installation and repair in Fairfield brings natural light into the township\'s homes and select commercial spaces where interior rooms, hallways, and bathrooms lack adequate window exposure. Many of Fairfield\'s ranch-style and split-level homes from the 1970s and 1980s feature interior rooms -- particularly hallways, center-hall bathrooms, and galley kitchens -- that benefit significantly from overhead natural light. Skylights transform these darker spaces with daylight that no wall-mounted window can provide. Our skylight installations integrate seamlessly with both existing and new roof systems, with flashing details engineered for Fairfield\'s rain and snow conditions.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Fairfield — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in Fairfield brings natural light into the township\'s homes and select commercial spaces where interior rooms, hallways, and bathrooms lack adequate window exposure. Many of Fairfield\'s ranch-style and split-level homes from the 1970s and 1980s feature interior rooms -- particularly hallways, center-hall bathrooms, and galley kitchens -- that benefit significantly from overhead natural light. Skylights transform these darker spaces with daylight that no wall-mounted window can provide. Our skylight installations integrate seamlessly with both existing and new roof systems, with flashing details engineered for Fairfield\'s rain and snow conditions.',
     'Skylight repair is equally important in Fairfield, where homes with existing skylights from the 1980s and 1990s face leaking, condensation, and energy-loss issues from aging units that have outlasted their seal integrity. Original skylights with dual-pane glass often develop seal failures that produce condensation between the panes, reducing clarity and insulation value. Flashing around aging skylights deteriorates through thermal cycling, creating leak paths that stain ceilings and damage drywall. Our [skylight repair](/skylight-installation-repair) service addresses both the skylight unit itself and the surrounding roof integration to eliminate leaks permanently.',
     'Commercial skylight applications in Fairfield include tubular daylighting devices for interior retail and office spaces along Route 46, where natural light improves occupant satisfaction and reduces daytime lighting energy consumption. These commercial installations require coordination with the building\'s membrane roof system and structural engineer to ensure that the penetration does not compromise waterproofing or structural integrity. Property owners in [Fairfield](/roofing-in-fairfield-nj) exploring energy-efficient lighting alternatives find tubular skylights particularly effective in single-story commercial spaces where the roof-to-interior distance is short.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldSkylightInstallationRepair: ComboContent = {
     {
       question: 'How long do skylights last before needing replacement in Fairfield?',
       answer: 'Premium skylights with double-pane glass and factory-sealed frames last twenty to thirty years before seal failure requires replacement. The surrounding flashing should be inspected and maintained every five to ten years to ensure continued waterproofing. When a skylight unit develops condensation between the panes or persistent leaking despite flashing repair, replacement of the unit is necessary. Modern replacement units offer improved energy performance and often fit existing curb frames without modification.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Fairfield, NJ?',
+      answer: 'Most skylight installation repair projects in Fairfield range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Fairfield NJ. VELUX skylights with leak-proof flashing for ranch homes and split-levels.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

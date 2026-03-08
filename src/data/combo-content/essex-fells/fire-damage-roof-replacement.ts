@@ -4,7 +4,7 @@ export const essexFellsFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Fire damage roof replacement on Essex Fells estate properties addresses the structural and material restoration required after fire compromises the roof assembly -- from localized chimney fires affecting adjacent roof sections to catastrophic structural fires requiring complete roof reconstruction. The estate scale of Essex Fells homes and the premium materials involved create fire restoration projects of extraordinary complexity, often requiring structural engineering, architect coordination, and material procurement timelines that extend well beyond standard residential fire restoration practice.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Essex Fells — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement on Essex Fells estate properties addresses the structural and material restoration required after fire compromises the roof assembly -- from localized chimney fires affecting adjacent roof sections to catastrophic structural fires requiring complete roof reconstruction. The estate scale of Essex Fells homes and the premium materials involved create fire restoration projects of extraordinary complexity, often requiring structural engineering, architect coordination, and material procurement timelines that extend well beyond standard residential fire restoration practice.',
     'The wooded environment surrounding Essex Fells estates creates both fire risk factors and fire response challenges unique to the borough. Embers from chimney fires can ignite cedar shake roofing and accumulate in leaf-filled gutters. Wildfire ember exposure during dry conditions threatens homes surrounded by mature hardwood forest. Fire department access through narrow, wooded estate driveways can delay response times. These risk factors inform our post-fire assessment approach, which evaluates not only the immediate fire damage but also the fire resistance improvements available during reconstruction.',
     'Our fire damage roof replacement capability coordinates the engineering assessment, insurance claims management, material specification, and phased reconstruction that Essex Fells estate fire restoration requires. We partner with structural engineers to evaluate framing integrity, coordinate with architects on material specification for the replacement system, and manage the insurance documentation that high-value property fire claims demand. This multi-disciplinary coordination delivers complete roof system restoration rather than the surface-level repair that simpler fire damage scenarios might permit.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Should I upgrade to more fire-resistant roofing material during reconstruction?',
       answer: 'Fire reconstruction presents the optimal opportunity to improve roof fire resistance. Class A fire-rated materials -- metal, tile, certain treated slate -- provide the highest fire resistance. Fire-treated cedar shake offers improved resistance over untreated wood. Fire-resistant underlayments and deck treatments add secondary protection beneath any surface material. We present fire-resistance options during material consultation, particularly for Essex Fells properties surrounded by mature forest where wildfire ember exposure is a recognized risk.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most fire damage roof replacement projects in Essex Fells range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Essex Fells NJ -- structural assessment and estate reconstruction with insurance coordination.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

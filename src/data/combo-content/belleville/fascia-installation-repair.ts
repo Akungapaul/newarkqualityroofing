@@ -4,7 +4,7 @@ export const bellevilleFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Fascia board deterioration is among the most visible signs of deferred maintenance on Belleville\'s post-war homes. The fascia -- the vertical board running along the roof edge that supports the gutter system and closes the exposed rafter tails -- takes direct punishment from gutter overflow, ice dam meltwater, and wind-driven rain. In Belleville where neighbors can see each other\'s rooflines from arm\'s length, peeling paint, rotted wood, and sagging fascia boards signal neglect that affects both curb appeal and neighborhood property values.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Belleville — with prices starting from $1,200–$3,500 and free estimates available today. Fascia board deterioration is among the most visible signs of deferred maintenance on Belleville\'s post-war homes. The fascia -- the vertical board running along the roof edge that supports the gutter system and closes the exposed rafter tails -- takes direct punishment from gutter overflow, ice dam meltwater, and wind-driven rain. In Belleville where neighbors can see each other\'s rooflines from arm\'s length, peeling paint, rotted wood, and sagging fascia boards signal neglect that affects both curb appeal and neighborhood property values.',
     'Belleville\'s closely-spaced homes create a microclimate along the fascia line that accelerates deterioration. The narrow gap between buildings reduces airflow across the fascia surface, trapping moisture from gutter overflow and preventing the drying that open-air exposure provides. North-facing fascia on homes shaded by the adjacent building may never fully dry between rain events, creating ideal conditions for the wood rot that propagates from the fascia into the rafter tails and soffit framing behind it.',
     'Our [fascia installation](/fascia-installation-repair) services in Belleville address both emergency repairs on actively deteriorating fascia and comprehensive fascia replacement as part of roof and gutter projects. We recommend combining fascia work with gutter replacement whenever possible, because the fascia must be sound before new gutters are hung and the gutter removal provides unobstructed access to the full fascia length. This integrated approach is more cost-effective than treating fascia and gutters as separate projects across homes in [Belleville](/roofing-in-belleville-nj) and neighboring [Newark](/fascia-installation-repair-newark-nj).',
     'Material selection for Belleville fascia replacement has evolved beyond traditional wood. While painted pine or cedar fascia remains appropriate for homes where wood character is desired, composite and aluminum-wrapped fascia options provide superior moisture resistance and eliminate the repainting cycle that Belleville\'s humid climate demands every 3-5 years. Aluminum fascia capping -- covering sound wood fascia with a factory-finished aluminum skin -- provides a middle-ground option that stops moisture penetration while preserving the existing structural wood behind.'
@@ -35,7 +35,25 @@ export const bellevilleFasciaInstallationRepair: ComboContent = {
     {
       question: 'Can you replace just part of my Belleville home\'s fascia?',
       answer: 'Yes. We can replace individual sections where damage is localized. However, if more than 30-40% of the fascia shows deterioration, full replacement is more cost-effective because the labor for gutter removal, scaffolding, and finish work is similar whether we replace two sections or the entire run. We provide both partial and full replacement pricing so you can make an informed decision.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in Belleville, NJ?',
+      answer: 'Most fascia installation repair projects in Belleville range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Belleville NJ. Wood, composite, and aluminum fascia for closely-spaced post-war homes with gutter integration.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

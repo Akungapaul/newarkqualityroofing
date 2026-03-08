@@ -4,7 +4,7 @@ export const irvingtonRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'irvington',
   overview: [
-    'Roof overlay installation offers Irvington homeowners a re-roofing option when specific conditions make installing new shingles over the existing single layer a viable approach. Our [roof overlay](/roof-overlay-installation) assessment for Irvington homes is deliberately conservative -- we recommend overlay only when the existing deck is verified as structurally sound, the current single layer of shingles lies flat without excessive curling, and the homeowner fully understands the trade-offs versus full tear-off.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Irvington — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation offers Irvington homeowners a re-roofing option when specific conditions make installing new shingles over the existing single layer a viable approach. Our [roof overlay](/roof-overlay-installation) assessment for Irvington homes is deliberately conservative -- we recommend overlay only when the existing deck is verified as structurally sound, the current single layer of shingles lies flat without excessive curling, and the homeowner fully understands the trade-offs versus full tear-off.',
     'The limited circumstances where overlay is appropriate in Irvington center on homes with a single layer of relatively flat asphalt shingles over plywood decking in confirmed good condition. These conditions exist on some of the township\'s newer construction -- homes built or re-roofed in the 1990s with plywood decks rather than original plank -- where the substrate has not been compromised by the chronic slow leaks common on Irvington\'s older housing stock. When these conditions are verified, overlay can save $2,000 to $3,500 in tear-off costs on a typical colonial.',
     'Transparency about overlay limitations is central to our Irvington consultation. Overlay adds weight to the roof structure, reduces the ability to detect and address developing deck problems, shortens the expected service life of the new shingles by 3 to 5 years compared to a clean-deck installation, and may affect manufacturer warranty terms. Homeowners considering overlay for their [Irvington](/roofing-in-irvington-nj) property must weigh these trade-offs against the immediate cost savings, and our role is to provide honest guidance rather than push the cheaper option or the more expensive one.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofOverlayInstallation: ComboContent = {
       question: 'Does overlay affect roof warranty on Irvington homes?',
       answer: 'Most shingle manufacturers offer reduced warranty terms on overlay installations compared to new-deck installations. The reduction varies by manufacturer but typically limits the warranty period to 15 to 20 years versus 25 to 30 years on a clean-deck installation. We provide specific warranty information for each overlay project so homeowners can make informed decisions.',
     },
+    {
+      question: 'How much does roof overlay installation cost in Irvington, NJ?',
+      answer: 'Most roof overlay installation projects in Irvington range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Irvington NJ when deck condition allows. Honest assessment of when overlay works and when tear-off is the better choice.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

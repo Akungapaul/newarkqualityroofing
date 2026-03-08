@@ -4,7 +4,7 @@ export const eastOrangeSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'east-orange',
   overview: [
-    'Solar shingle technology appeals to a specific segment of East Orange property owners: those who want solar energy generation without the visual impact of rack-mounted panels on a building\'s street-facing roof slopes. The Ampere neighborhood\'s owner-occupied homes and the better-maintained Victorian two-families in Elmwood Park are the properties where [solar shingle](/solar-shingle-installation) installations make practical and economic sense -- buildings where the owner values both energy independence and architectural appearance, and where the pitched roof geometry suits the panel-mimics-shingle installation approach that solar shingles employ.',
+    'Newark Quality Roofing delivers expert solar shingle installation in East Orange — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology appeals to a specific segment of East Orange property owners: those who want solar energy generation without the visual impact of rack-mounted panels on a building\'s street-facing roof slopes. The Ampere neighborhood\'s owner-occupied homes and the better-maintained Victorian two-families in Elmwood Park are the properties where [solar shingle](/solar-shingle-installation) installations make practical and economic sense -- buildings where the owner values both energy independence and architectural appearance, and where the pitched roof geometry suits the panel-mimics-shingle installation approach that solar shingles employ.',
     'Solar shingles integrate photovoltaic cells into roofing material that installs in courses like conventional shingles, eliminating the raised profile and visible racking hardware that standard solar panels present. On East Orange\'s Victorian homes with multiple street-facing roof slopes, this integrated approach produces energy from the same surfaces that define the building\'s architectural character -- the front-facing gable, the main roof slope visible from the sidewalk -- without the utilitarian appearance that rack-mounted panels impose. For neighborhoods rebuilding property values, preserving architectural aesthetics while adopting solar technology supports the community improvement trajectory.',
     'The economics of solar shingles differ from conventional solar panels in ways that East Orange property owners must understand before committing. Installed cost per watt is approximately double that of standard solar panels, while energy production per square foot is 20 to 30 percent lower due to less efficient cell technology and suboptimal tilt angle on roof-slope-mounted installations. The financial return takes longer to achieve than conventional solar, making solar shingles an aesthetic choice rather than a purely economic one. For owner-occupied East Orange homes where the roof needs replacement regardless, the incremental cost of choosing solar shingles over standard architectural shingles narrows the gap, similar to the calculation homeowners in neighboring [Montclair](/solar-shingle-installation-montclair-nj) evaluate.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeSolarShingleInstallation: ComboContent = {
     {
       question: 'Are solar shingles appropriate for an East Orange rental property?',
       answer: 'Solar shingles are generally not the optimal solar choice for rental properties because the aesthetic premium does not generate proportional rental income, and the higher cost extends the payback period beyond typical investment hold periods. Conventional solar panels on rental properties provide better financial returns. Solar shingles are best suited for owner-occupied homes where the property owner lives with and values the integrated appearance daily.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in East Orange, NJ?',
+      answer: 'Most solar shingle installation projects in East Orange range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation for East Orange NJ homes -- integrated photovoltaic roofing that generates energy while preserving Victorian architectural character.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

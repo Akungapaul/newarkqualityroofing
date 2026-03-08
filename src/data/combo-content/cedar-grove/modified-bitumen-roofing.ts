@@ -4,7 +4,7 @@ export const cedarGroveModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'Modified bitumen roofing systems serve Cedar Grove commercial properties and residential low-slope sections with a multi-layer waterproofing approach refined over decades of northern New Jersey performance. The polymer-modified asphalt membranes used in these systems combine the redundancy of traditional built-up roofing with the flexibility of modern polymers, creating a roof assembly particularly well-suited to Cedar Grove\'s temperature extremes and the township\'s inventory of buildings with flat or near-flat roof sections.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Cedar Grove — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing systems serve Cedar Grove commercial properties and residential low-slope sections with a multi-layer waterproofing approach refined over decades of northern New Jersey performance. The polymer-modified asphalt membranes used in these systems combine the redundancy of traditional built-up roofing with the flexibility of modern polymers, creating a roof assembly particularly well-suited to Cedar Grove\'s temperature extremes and the township\'s inventory of buildings with flat or near-flat roof sections.',
     'Cedar Grove\'s commercial buildings along Pompton Avenue and the office parks off Route 23 include numerous properties where modified bitumen was installed during the 1990s and early 2000s as a replacement for original built-up roofing systems. Many of these installations are now reaching end-of-life, and our [modified bitumen roofing](/modified-bitumen-roofing) replacement projects give Cedar Grove building owners the opportunity to upgrade insulation, correct drainage deficiencies, and install current-generation SBS or APP modified membranes with significantly improved flexibility and UV resistance compared to the products they replace.',
     'Residential applications in Cedar Grove focus on the flat roof sections found on ranch home additions, garage connections, and enclosed porches throughout the township. Modified bitumen provides a durable, walkable surface on these residential low-slope areas -- an advantage over single-ply membranes for Cedar Grove homeowners who access their roof sections for gutter cleaning or seasonal maintenance in the township\'s debris-heavy canopy environment.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveModifiedBitumenRoofing: ComboContent = {
       question: 'What causes blistering on modified bitumen roofs in Cedar Grove?',
       answer: 'Blistering occurs when moisture trapped beneath the membrane vaporizes during summer heat, creating pressure bubbles between membrane layers. The most common cause in Cedar Grove is installation over damp insulation or wet deck surfaces. Our installation protocol includes moisture testing of the substrate before membrane application and scheduling work during dry weather windows. If existing blisters are found during inspection, we cut, dry, and re-patch them before they grow large enough to compromise waterproof integrity.',
     },
+    {
+      question: 'How much does modified bitumen roofing cost in Cedar Grove, NJ?',
+      answer: 'Most modified bitumen roofing projects in Cedar Grove range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Cedar Grove NJ -- multi-layer waterproofing for commercial buildings and residential additions with SBS flexibility.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

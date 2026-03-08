@@ -4,7 +4,7 @@ export const montclairRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'montclair',
   overview: [
-    'Montclair\'s roofscape reads like a textbook of American residential architecture -- each block a progression through Victorian mansions with steep cross-gabled slate roofs, Tudor Revival homes where half-timber walls meet complex roof intersections, Arts & Crafts bungalows with broad sheltering eaves, and mid-century modern houses where flat and low-slope planes create a minimalist silhouette against the Watchung Ridge. Repairing these roofs demands more than material knowledge; it requires an understanding of how each architectural period solved the problem of shedding water, and why those original solutions eventually fail in specific, predictable ways.',
+    'Newark Quality Roofing delivers expert roof repair in Montclair — with prices starting from $350–$1,500 and free estimates available today. Montclair\'s roofscape reads like a textbook of American residential architecture -- each block a progression through Victorian mansions with steep cross-gabled slate roofs, Tudor Revival homes where half-timber walls meet complex roof intersections, Arts & Crafts bungalows with broad sheltering eaves, and mid-century modern houses where flat and low-slope planes create a minimalist silhouette against the Watchung Ridge. Repairing these roofs demands more than material knowledge; it requires an understanding of how each architectural period solved the problem of shedding water, and why those original solutions eventually fail in specific, predictable ways.',
     'Upper Montclair\'s grand Victorians present the most technically demanding repair work in Essex County. Original slate roofs from the 1890s and early 1900s survive on dozens of homes along North Mountain Avenue and the surrounding streets, their longevity a testament to the material but their maintenance a perpetual challenge. Individual slates crack from freeze-thaw cycling, copper flashing at dormers and chimney intersections develops pinhole corrosion after a century of service, and the iron nails holding original slates corrode and release their grip. Each repair requires sourcing replacement slate that matches the original quarry color and thickness -- a detail the Montclair Historic Preservation Commission monitors on designated properties.',
     'Tree damage defines a significant portion of Montclair\'s roof repair workload. The township\'s aggressive tree preservation ordinance has produced one of the densest mature canopies in northern New Jersey, with oaks, maples, and tulip poplars towering over rooflines throughout the township. Fallen limbs during summer thunderstorms and ice storms puncture shingles, crack slates, and dislodge flashing. The shade from this canopy also promotes moss and lichen growth that degrades roofing materials from above while preventing the solar drying that keeps suburban roofs healthy. A Montclair roof repair frequently begins with addressing the organic layer before the structural damage beneath it.',
     'Wind exposure along the upper elevations of the Watchung Ridge separates Montclair from the sheltered valleys below. Properties in Upper Montclair and Montclair Heights sit at elevations where sustained winds during nor\'easters exceed speeds measured in the valley neighborhoods by fifteen to twenty miles per hour. Shingle tabs lift, ridge caps peel, and even well-secured flashing vibrates loose under this persistent wind load. Our repair specifications for ridge-elevation properties include enhanced fastening schedules and wind-rated sealant applications that account for this measurably higher exposure.'
@@ -39,7 +39,25 @@ export const montclairRoofRepair: ComboContent = {
     {
       question: 'What roof repair materials hold up best on Montclair\'s upper-elevation properties?',
       answer: 'Properties along the Watchung Ridge and in Upper Montclair face higher wind loads than valley locations. For shingle roofs, we specify products rated for 130 mph wind resistance with enhanced six-nail fastening patterns. For slate roofs, copper hooks with stainless steel fasteners resist the wind uplift that loosens traditional iron nail installations. Ridge caps receive additional sealant applications, and exposed flashing uses heavier-gauge copper or stainless steel. These specifications add modest cost but dramatically reduce the frequency of wind-related repairs on high-elevation Montclair properties.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Montclair, NJ?',
+      answer: 'Most roof repair projects in Montclair range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Montclair NJ roof repair -- Victorian slate restoration, Tudor junction repair, tree damage solutions for historic homes along Watchung Ridge.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'millburn',
   overview: [
-    'Gutter systems on Millburn estates operate at a scale and material standard far removed from the aluminum K-style installations that serve most residential properties. The grand homes lining Old Short Hills Road, the Tudor revivals tucked along winding lanes in Wyoming, and the architect-designed residences throughout Glenwood and South Mountain feature copper half-round gutters hand-soldered at every joint, custom-fabricated collector boxes sized for roof areas exceeding five thousand square feet, and downspout systems routed through landscape designs where visible drainage infrastructure would compromise the property\'s aesthetic composition. Gutter work in Millburn is architectural metalwork, and it demands the sheet metal fabrication skills, material knowledge, and design sensitivity that distinguish estate-grade contractors from standard gutter installers.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Millburn — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems on Millburn estates operate at a scale and material standard far removed from the aluminum K-style installations that serve most residential properties. The grand homes lining Old Short Hills Road, the Tudor revivals tucked along winding lanes in Wyoming, and the architect-designed residences throughout Glenwood and South Mountain feature copper half-round gutters hand-soldered at every joint, custom-fabricated collector boxes sized for roof areas exceeding five thousand square feet, and downspout systems routed through landscape designs where visible drainage infrastructure would compromise the property\'s aesthetic composition. Gutter work in Millburn is architectural metalwork, and it demands the sheet metal fabrication skills, material knowledge, and design sensitivity that distinguish estate-grade contractors from standard gutter installers.',
     'Copper dominates the gutter material palette on Millburn\'s finest properties. The warm brown-to-green patina that develops over years on copper gutters is considered an integral part of the home\'s visual character -- homeowners pay a substantial premium for this material precisely because it develops beauty over time rather than degrading toward replacement. Repairing or replacing copper gutters on a Millburn estate requires fabrication capabilities most gutter companies lack: soldered joints rather than riveted or caulked connections, hand-formed miters at corners, custom collector heads that match existing ornamental patterns, and downspout connections fabricated from the same gauge copper as the original installation. We maintain a dedicated copper fabrication shop specifically because Millburn and Short Hills properties generate consistent demand for this caliber of metalwork.',
     'The sheer roof area on Millburn estates creates gutter capacity requirements that exceed standard residential engineering. A Short Hills estate with a main residence, attached garage with living space above, a carriage house, and a pool pavilion may present twelve thousand square feet of total roof area draining into gutter systems. Standard five-inch residential gutters cannot handle the volume these roofs generate during heavy rainfall. We specify six-inch or eight-inch half-round copper gutters with oversized four-by-five-inch rectangular downspouts, engineered to drain the actual roof area at the rainfall intensity rates recorded for Millburn\'s elevation in Essex County. Undersizing gutter capacity on these properties produces overflow that damages facades, erodes landscape beds, and undermines foundation drainage -- consequences that compound in cost far beyond the savings of smaller gutters.',
     'Heated gutter systems have become standard on many Millburn estates where ice dam formation threatens both the gutter infrastructure and the finished interiors below. Self-regulating heat cables installed in gutter troughs and downspout runs prevent ice accumulation without constant energy consumption -- the cables increase output as temperatures drop and reduce output as conditions warm. For properties with copper gutters, the heat cable specification must account for copper\'s high thermal conductivity, which draws heat away from the cable more rapidly than aluminum. We calibrate cable wattage and spacing specifically for copper gutter installations to ensure reliable ice prevention throughout Millburn\'s winter season.'
@@ -39,7 +39,25 @@ export const millburnGutterInstallationRepair: ComboContent = {
     {
       question: 'How do you handle downspout drainage on properties with elaborate landscaping?',
       answer: 'We route downspout drainage through below-grade conductor pipes to remote discharge points that avoid landscape features, patios, and driveways. The subsurface routing is coordinated with the property\'s existing drainage infrastructure and designed to discharge into dry wells, retention areas, or municipal storm connections at locations identified in consultation with the homeowner and landscape architect. For properties where underground routing is not feasible in certain areas, we design above-grade discharge with splash blocks or river rock dissipation beds positioned within landscape beds where the water flow integrates with the planting scheme rather than disrupting it.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Millburn, NJ?',
+      answer: 'Most gutter installation repair projects in Millburn range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Copper gutter installation and repair for Millburn estates. Custom-fabricated half-round systems, heated gutters, and multi-structure drainage engineering.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

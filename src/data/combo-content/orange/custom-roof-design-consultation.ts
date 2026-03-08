@@ -4,7 +4,7 @@ export const orangeCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'orange',
   overview: [
-    'Custom roof design consultation in Orange bridges the gap between what homeowners and building owners envision and what Orange\'s specific conditions demand. The city\'s 2.2-square-mile footprint contains an extraordinary range of design contexts -- Scotland Road Victorians where roof design must honor 130 years of architectural heritage, Main Street commercial properties where new roofing must integrate with revitalization aesthetics, and South Mountain hillside homes where design decisions affect structural performance under wind and debris loads. Our [custom roof design consultation](/custom-roof-design-consultation) process ensures that every Orange roofing project starts with a design that fits the specific building, neighborhood, and environmental context.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Orange — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in Orange bridges the gap between what homeowners and building owners envision and what Orange\'s specific conditions demand. The city\'s 2.2-square-mile footprint contains an extraordinary range of design contexts -- Scotland Road Victorians where roof design must honor 130 years of architectural heritage, Main Street commercial properties where new roofing must integrate with revitalization aesthetics, and South Mountain hillside homes where design decisions affect structural performance under wind and debris loads. Our [custom roof design consultation](/custom-roof-design-consultation) process ensures that every Orange roofing project starts with a design that fits the specific building, neighborhood, and environmental context.',
     'For owners renovating older Orange homes, design consultation prevents costly mistakes that arise from selecting materials or configurations inappropriate for the building\'s architecture or structural capacity. A homeowner drawn to heavy slate roofing on a bungalow with lightweight rafters needs guidance toward synthetic alternatives that deliver the aesthetic without exceeding the structural load. A Scotland Road Victorian restoration requires design consultation that coordinates slate source matching, copper flashing specification, and ventilation integration with the existing roof geometry. Our consultations produce detailed design specifications that contractors can execute with confidence.',
     'Commercial design consultation for Orange properties increasingly involves energy performance modeling alongside traditional waterproofing and structural considerations. Main Street building owners seeking to reduce operating costs want to understand how different roofing systems -- reflective TPO, insulated spray foam, green roof assemblies -- compare in lifecycle cost and energy performance for their specific building configuration. Our consultations include thermal modeling that projects energy savings for each option, giving building owners data-driven comparisons rather than relying on generic manufacturer claims. Similar energy-integrated design work guides commercial roofing decisions across [East Orange](/custom-roof-design-consultation-east-orange-nj)\'s commercial corridor.'
   ],
@@ -34,7 +34,25 @@ export const orangeCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'How long does the design consultation process take?',
       answer: 'From initial site visit to completed design specification typically takes one to two weeks. The site visit takes two to three hours. Option development takes three to five business days. After you select a direction, the final specification document is completed within three to five additional business days. We can expedite for urgent projects.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in Orange, NJ?',
+      answer: 'Most custom roof design consultation projects in Orange range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Orange NJ -- Victorian restoration design, commercial energy modeling, tight-lot solutions, and material selection guidance.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

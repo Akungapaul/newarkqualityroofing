@@ -4,7 +4,7 @@ export const cedarGroveRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'cedar-grove',
   overview: [
-    'Cedar Grove\'s dense tree canopy creates the shaded, moisture-retaining conditions that make roof cleaning and moss removal an essential maintenance service throughout the township. The Norway spruces, oaks, and maples that line residential streets provide welcome summer shade but also deposit needles, leaves, pollen, and organic debris that foster biological growth on roofing surfaces. North-facing ranch roof planes shaded by mature trees can develop thick moss colonies within a few seasons, their root systems working beneath shingle edges and lifting tabs away from the underlayment in a slow but relentless process. Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) service protects Cedar Grove homes from this progressive biological degradation.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Cedar Grove — with prices starting from $300–$800 and free estimates available today. Cedar Grove\'s dense tree canopy creates the shaded, moisture-retaining conditions that make roof cleaning and moss removal an essential maintenance service throughout the township. The Norway spruces, oaks, and maples that line residential streets provide welcome summer shade but also deposit needles, leaves, pollen, and organic debris that foster biological growth on roofing surfaces. North-facing ranch roof planes shaded by mature trees can develop thick moss colonies within a few seasons, their root systems working beneath shingle edges and lifting tabs away from the underlayment in a slow but relentless process. Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) service protects Cedar Grove homes from this progressive biological degradation.',
     'Moss, algae, and lichen each require different treatment approaches in Cedar Grove. Moss -- the thick, green, cushion-like growth most visible on shaded roof planes -- lifts shingle edges and retains moisture against the roof surface. Black algae streaking (Gloeocapsa magma) discolors shingles without causing structural damage but significantly degrades curb appeal. Lichen, the crusty white or grey growth that embeds into granule surfaces, is the most difficult to remove without damaging the shingle beneath. Our treatment protocols address each organism with the appropriate chemical and mechanical methods. Homeowners in neighboring [Montclair](/roof-cleaning-moss-removal-montclair-nj) face comparable biological growth under their own dense tree canopy.',
     'Prevention is more cost-effective than repeated treatment in Cedar Grove\'s persistently shaded environment. After cleaning, we install zinc or copper ridge strips that release metal ions during rain, creating an inhospitable surface chemistry that inhibits regrowth for years. Combined with tree trimming to improve sunlight penetration and airflow across the roof surface, this preventive approach reduces the frequency of cleaning visits from annual to every three to five years.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofCleaningMossRemoval: ComboContent = {
       question: 'Can you remove the black streaks on my Cedar Grove roof?',
       answer: 'Yes. Black streaking is caused by Gloeocapsa magma algae, which feeds on the limestone filler in asphalt shingles. Our soft-wash treatment kills the algae and allows the black discoloration to wash away through subsequent rain events. Full visual clearing typically takes two to four weeks after treatment. Zinc ridge strips prevent regrowth so the streaking does not return.',
     },
+    {
+      question: 'How much does roof cleaning moss removal cost in Cedar Grove, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Cedar Grove range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar Grove NJ roof cleaning and moss removal. Soft-wash treatment for moss, algae, and lichen on shaded ranch and colonial roofs.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

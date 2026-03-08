@@ -4,7 +4,7 @@ export const northCaldwellRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Roof ventilation on North Caldwell estates addresses the thermal and moisture management demands of large attic volumes that standard residential ventilation calculations underserve. A 6,000-square-foot colonial with four distinct attic compartments, cathedral ceiling sections, and bonus room areas above the garage requires a ventilation strategy that treats each zone independently -- not a one-size-fits-all ridge vent running the main ridge only while leaving secondary compartments stagnant.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in North Caldwell — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation on North Caldwell estates addresses the thermal and moisture management demands of large attic volumes that standard residential ventilation calculations underserve. A 6,000-square-foot colonial with four distinct attic compartments, cathedral ceiling sections, and bonus room areas above the garage requires a ventilation strategy that treats each zone independently -- not a one-size-fits-all ridge vent running the main ridge only while leaving secondary compartments stagnant.',
     'Our [roof vent](/roof-vent-installation-repair) work in North Caldwell designs complete ventilation circuits for every attic compartment on the home. Each circuit pairs intake ventilation at the soffit with exhaust ventilation at the ridge, gable, or roof surface to create the balanced airflow that prevents moisture accumulation and temperature extremes. For complex multi-level estates, some compartments may use ridge vents while others use low-profile roof-surface vents where ridge access is blocked by intersecting roof planes.',
     'Ventilation repair on established [North Caldwell](/roofing-in-north-caldwell-nj) homes often reveals that original construction provided inadequate ventilation for the attic volume -- a common condition on homes built before current ventilation ratio standards were codified. We encounter sealed soffits, insufficient ridge vent length, and missing ventilation in secondary compartments that create the moisture and heat problems homeowners experience as ice dams, condensation, and premature roofing material failure. Similar ventilation deficiencies affect homes throughout [Essex County](/roof-vent-installation-repair-essex-fells-nj).'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofVentInstallationRepair: ComboContent = {
     {
       question: 'Should I use powered or passive roof vents on my North Caldwell home?',
       answer: 'Passive ventilation (ridge vents with soffit intake) is preferred when the roof geometry allows adequate capacity. Passive systems have no moving parts, no electricity cost, and no maintenance. Power vents are appropriate for compartments where passive capacity cannot reach code minimum due to geometric constraints. Solar-powered attic fans offer a middle ground -- active ventilation without electrical operating cost -- and work well for secondary compartments on North Caldwell estate homes.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in North Caldwell, NJ?',
+      answer: 'Most roof vent installation repair projects in North Caldwell range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in North Caldwell NJ -- balanced ventilation for estate home attics with complex multi-level roof systems.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

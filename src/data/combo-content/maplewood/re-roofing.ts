@@ -4,7 +4,7 @@ export const maplewoodReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'maplewood',
   overview: [
-    'Re-roofing restores weatherproof protection and curb appeal to Maplewood homes where the existing roof has reached the end of its functional life. Whether through full tear-off and replacement or overlay on eligible single-layer roofs, re-roofing transforms an aging liability into a 25-30 year asset that protects the home, reduces energy costs, and enhances property value in Maplewood\'s competitive real estate market. Our [re-roofing](/re-roofing) projects in [Maplewood](/roofing-in-maplewood-nj) deliver material upgrades, ventilation improvements, and waterproofing enhancements that bring aging homes up to modern performance standards.',
+    'Newark Quality Roofing delivers expert re roofing in Maplewood — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing restores weatherproof protection and curb appeal to Maplewood homes where the existing roof has reached the end of its functional life. Whether through full tear-off and replacement or overlay on eligible single-layer roofs, re-roofing transforms an aging liability into a 25-30 year asset that protects the home, reduces energy costs, and enhances property value in Maplewood\'s competitive real estate market. Our [re-roofing](/re-roofing) projects in [Maplewood](/roofing-in-maplewood-nj) deliver material upgrades, ventilation improvements, and waterproofing enhancements that bring aging homes up to modern performance standards.',
     'Maplewood\'s active housing market makes re-roofing one of the highest-return home improvements available. Real estate agents consistently identify a new roof as a top-three factor in buyer decisions, and homes with recently replaced roofs sell faster and at higher prices than comparable homes with aging systems. For homeowners preparing properties for sale, re-roofing removes the most significant objection buyers raise during inspection while demonstrating overall home maintenance quality.',
     'Re-roofing also presents the opportunity to correct ventilation, insulation, and flashing deficiencies that have been hidden beneath the aging roof surface. During our re-roofing projects on Maplewood\'s older homes, we routinely upgrade soffit ventilation, install continuous ridge vent, add ice-and-water shield at all vulnerable transitions, and repair deteriorated fascia and soffit boards. These concurrent improvements are most cost-effective when performed during re-roofing, since the roof surface is already open and accessible. Homeowners re-roofing in [Millburn](/re-roofing-millburn-nj) capture the same concurrent improvement efficiencies during their projects.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodReRoofing: ComboContent = {
       question: 'What is included in a re-roofing project besides new shingles?',
       answer: 'Our re-roofing projects include new drip edge, ice-and-water shield at eaves and valleys, synthetic underlayment, pipe boot and penetration flashings, ridge vent installation, and step flashing at all wall-to-roof transitions. We also inspect and repair fascia, soffit, and existing flashing as needed. The scope extends well beyond the visible shingle surface to ensure comprehensive roof system performance.',
     },
+    {
+      question: 'How much does re roofing cost in Maplewood, NJ?',
+      answer: 'Most re roofing projects in Maplewood range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services in Maplewood NJ. Complete roof renewal for Victorians, Colonials, and Tudors with modern materials and ventilation.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'south-orange',
   overview: [
-    'Historic roof restoration in South Orange Village addresses a residential building stock whose architectural significance and material quality rank among the finest in Essex County. The Tudor Revival and Colonial Revival estates climbing the Montrose Park hillside toward South Mountain Reservation carry original slate roofs, copper guttering, and decorative metalwork installed by craftsmen who built for permanence. Restoring these roofing systems -- rather than replacing them with modern substitutes -- preserves both the architectural integrity and the material value that make South Orange homes exceptional.',
+    'Newark Quality Roofing delivers expert historic roof restoration in South Orange — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in South Orange Village addresses a residential building stock whose architectural significance and material quality rank among the finest in Essex County. The Tudor Revival and Colonial Revival estates climbing the Montrose Park hillside toward South Mountain Reservation carry original slate roofs, copper guttering, and decorative metalwork installed by craftsmen who built for permanence. Restoring these roofing systems -- rather than replacing them with modern substitutes -- preserves both the architectural integrity and the material value that make South Orange homes exceptional.',
     'South Orange\'s preservation-conscious community supports restoration work that respects the original design intent while integrating improvements invisible from the exterior. Homeowners in Montrose Park and along Prospect Street have invested in these properties precisely because of their historical character, and they expect roofing work that sustains rather than diminishes that character. A [historic roof restoration](/historic-roof-restoration) project in South Orange often becomes the most important exterior investment a homeowner makes, setting the standard for how the property is maintained for the next generation.',
     'The village\'s walking-tour heritage and informed homeowner base create accountability for restoration quality that less preservation-aware communities lack. Neighbors who can identify Vermont Unfading Gray slate by sight will notice if replacement slates arrive from the wrong quarry. Residents who have attended SOPAC lectures on village architecture will recognize if copper work uses lead-coated rather than genuine copper. This knowledge base raises the standard we must meet on every South Orange restoration project.',
     'Our restoration team brings the specialized skills that South Orange\'s historic roofing demands -- traditional slate installation with copper hook-and-bib techniques, soldered copper fabrication for valley liners and box gutters, and period-appropriate flashing details that replicate original construction methods. We work on properties in [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) and throughout the preservation-conscious communities of Essex County, but South Orange\'s concentration of premium historic properties represents the highest-demand market for these specialized services.'
@@ -35,7 +35,25 @@ export const southOrangeHistoricRoofRestoration: ComboContent = {
     {
       question: 'How long does a comprehensive roof restoration take on a Montrose Park estate?',
       answer: 'A complete restoration of a large Montrose Park property typically spans multiple phases over one to three years, with each phase addressing a portion of the roof system. Individual phases may take four to eight weeks of active work depending on scope and weather. The phased approach manages both cost and weather risk, ensuring the property remains watertight between phases while the restoration progresses systematically toward completion.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in South Orange, NJ?',
+      answer: 'Most historic roof restoration projects in South Orange range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in South Orange NJ -- slate repair, copper fabrication, and period-accurate work for Montrose Park estates.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'West Orange possesses one of Essex County\'s highest concentrations of historic slate roofs, centered in the Llewellyn Park gated community and extending through the St. Cloud, Hutton Park, and Walker Road estate neighborhoods. These installations, many dating to the late nineteenth and early twentieth centuries, represent roofing craftsmanship that predates modern building codes and demands equally skilled restoration. Our [slate roof installation repair](/slate-roof-installation-repair) team maintains the quarry relationships, copper fabrication skills, and historic preservation knowledge that West Orange\'s distinguished slate inventory requires.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in West Orange — with prices starting from $20,000–$45,000 and free estimates available today. West Orange possesses one of Essex County\'s highest concentrations of historic slate roofs, centered in the Llewellyn Park gated community and extending through the St. Cloud, Hutton Park, and Walker Road estate neighborhoods. These installations, many dating to the late nineteenth and early twentieth centuries, represent roofing craftsmanship that predates modern building codes and demands equally skilled restoration. Our [slate roof installation repair](/slate-roof-installation-repair) team maintains the quarry relationships, copper fabrication skills, and historic preservation knowledge that West Orange\'s distinguished slate inventory requires.',
     'Llewellyn Park alone contains dozens of significant slate roof installations spanning multiple quarry origins and installation eras. Pennsylvania black slate, Vermont unfading green, and Buckingham Virginia slate all appear within the community, each with distinct weathering characteristics, replacement sourcing requirements, and expected service lives. Our inspectors identify slate origin by color, texture, and grain pattern -- critical knowledge because replacing a Pennsylvania black slate with a generic import creates both aesthetic mismatch and performance incompatibility that degrades the installation. Homeowners in neighboring [Montclair](/slate-roof-installation-repair-montclair-nj) maintain comparable historic slate stock on their Victorian-era properties.',
     'New slate installations on West Orange\'s premium homes represent a growing segment of our work as homeowners recognize that natural slate offers the longest lifespan, lowest lifecycle cost, and highest aesthetic distinction of any roofing material. A properly installed slate roof lasts 75 to 150 years depending on slate grade, compared to 25 to 30 years for the best asphalt shingle alternatives. For estate-quality homes in St. Cloud and Llewellyn Park, where property values exceed $1 million, the investment in [natural slate](/roofing-in-west-orange-nj) aligns with the long-term ownership perspective these homeowners maintain.',
     'West Orange\'s ridge-top wind exposure adds a performance dimension to slate installation that coastal and sheltered installations do not face. Slate tiles rely primarily on gravity and friction to remain in position, supplemented by copper nails that serve as backup retention. On Eagle Rock ridge-top homes where sustained winds create uplift pressure, we install slate with enhanced nail patterns and hurricane clips on the most exposed courses, providing mechanical wind resistance that traditional gravity-dependent installations lack in high-exposure locations.'
@@ -35,7 +35,25 @@ export const westOrangeSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'Can my West Orange home\'s framing support a slate roof if it currently has asphalt shingles?',
       answer: 'Not necessarily. Slate weighs 800 to 1,500 pounds per roofing square compared to 200 to 350 pounds for asphalt shingles. Homes originally built with slate framing can support the load, but homes designed for lighter materials require structural engineering assessment before slate installation. We commission these assessments from licensed engineers experienced with West Orange\'s housing stock and will recommend framing reinforcement when needed. Synthetic slate alternatives that replicate the appearance at one-third the weight are available for homes where structural upgrade is not practical.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in West Orange, NJ?',
+      answer: 'Most slate roof installation repair projects in West Orange range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in West Orange NJ. Llewellyn Park restorations, quarry-matched replacement, and copper flashing fabrication.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

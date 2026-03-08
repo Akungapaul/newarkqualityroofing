@@ -4,7 +4,7 @@ export const essexFellsFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'essex-fells',
   overview: [
-    'Flat roofing in Essex Fells serves a fundamentally different role than in the urban and suburban communities throughout Essex County. Where [Newark](/flat-roof-installation-repair-newark-nj) properties rely on flat roofs as primary building coverage and [Bloomfield](/flat-roof-installation-repair-bloomfield-nj) multi-family buildings feature flat roof decks, Essex Fells flat roofing exists almost exclusively on auxiliary estate structures -- pool pavilions, covered walkways, porte-cocheres, garage wings, and the lower-level roofs connecting multi-structure residential compounds. These applications demand membrane systems that perform flawlessly while remaining visually subordinate to the prominent pitched roofs above them.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Essex Fells — with prices starting from $6,000–$18,000 and free estimates available today. Flat roofing in Essex Fells serves a fundamentally different role than in the urban and suburban communities throughout Essex County. Where [Newark](/flat-roof-installation-repair-newark-nj) properties rely on flat roofs as primary building coverage and [Bloomfield](/flat-roof-installation-repair-bloomfield-nj) multi-family buildings feature flat roof decks, Essex Fells flat roofing exists almost exclusively on auxiliary estate structures -- pool pavilions, covered walkways, porte-cocheres, garage wings, and the lower-level roofs connecting multi-structure residential compounds. These applications demand membrane systems that perform flawlessly while remaining visually subordinate to the prominent pitched roofs above them.',
     'The architectural context of flat roofing in Essex Fells requires materials and detailing standards that exceed typical residential specifications. Architects designing estate properties along Hawthorne Avenue and Devon Road specify modified bitumen or high-performance TPO membranes with custom-colored cap sheets that harmonize with adjacent slate or copper rooflines. Parapet cappings, scupper details, and overflow drainage must be executed with the same precision as the estate\'s primary roofing, because every flat-roofed structure remains visible from upper-story windows and elevated terrace vantage points.',
     'Our [flat roof installation and repair](/flat-roof-installation-repair) work in Essex Fells integrates with the larger estate roofing ecosystem. Drainage from flat-roofed structures must tie into the property\'s overall water management plan -- internal drains connecting to subsurface piping, scuppers directing flow away from foundation walls and formal landscape beds, and overflow provisions protecting below-grade finished spaces that are common in Essex Fells basement and lower-level construction. Every flat roof installation begins with a drainage engineering review, not just a membrane specification.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'Why does my flat roof develop ponding water after moderate rainfall?',
       answer: 'Ponding results from inadequate slope-to-drain, blocked drain openings, or deflection in the structural deck under load. On Essex Fells properties, leaf debris blocking drain strainers is the most common cause. If ponding persists after drain clearing, the issue may involve insufficient original slope design, settlement of the supporting structure, or internal drain capacity undersized for the roof catchment area. Our assessment includes level surveys to map standing water locations and determine whether slope correction or drain upsizing is required.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Essex Fells, NJ?',
+      answer: 'Most flat roof installation repair projects in Essex Fells range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Essex Fells NJ -- pool pavilions, estate wings, and auxiliary structures with premium membranes.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

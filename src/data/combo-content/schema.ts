@@ -13,8 +13,18 @@ export const ComboContentSchema = z.object({
   faqs: z.array(z.object({
     question: z.string(),
     answer: z.string(),
-  })).min(3).max(5),
+  })).min(3).max(6),
   metaDescription: z.string().max(160),
+  // Conversion-optimized fields (optional for backward compatibility)
+  pricing: z.object({
+    range: z.string(),
+    note: z.string().optional(),
+  }).optional(),
+  whyChooseUs: z.array(z.string()).optional(),
+  conversionHooks: z.object({
+    midPageCta: z.string().optional(),
+    urgencyNote: z.string().optional(),
+  }).optional(),
 });
 
 export type ComboContent = z.infer<typeof ComboContentSchema>;

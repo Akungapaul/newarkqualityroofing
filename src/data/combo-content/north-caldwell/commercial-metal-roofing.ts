@@ -4,7 +4,7 @@ export const northCaldwellCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'Commercial metal roofing in North Caldwell addresses a focused market: the professional offices, municipal buildings, and small commercial properties that serve this predominantly residential borough. While the scale of commercial metal installations here is modest compared to urban Essex County markets, the expectations for quality, appearance, and longevity match or exceed what any commercial property owner demands. A standing seam metal roof on a North Caldwell professional office must complement the surrounding residential neighborhood aesthetics while delivering decades of maintenance-free commercial performance.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in North Caldwell — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in North Caldwell addresses a focused market: the professional offices, municipal buildings, and small commercial properties that serve this predominantly residential borough. While the scale of commercial metal installations here is modest compared to urban Essex County markets, the expectations for quality, appearance, and longevity match or exceed what any commercial property owner demands. A standing seam metal roof on a North Caldwell professional office must complement the surrounding residential neighborhood aesthetics while delivering decades of maintenance-free commercial performance.',
     'The commercial properties along North Caldwell\'s Route 23 corridor edge benefit from [commercial metal roofing](/commercial-metal-roofing) systems that project professionalism while eliminating the maintenance cycle that membrane roofing requires. For medical practices, law offices, and financial services firms operating in converted or purpose-built commercial spaces, a metal roof communicates permanence and investment that reflects well on the business occupying the building.',
     'Our commercial metal work in North Caldwell matches the architectural sensitivity required in a residential-character community. We specify low-profile standing seam panels in muted colors that integrate with the surrounding streetscape rather than the industrial corrugated profiles that serve warehouse applications in [Caldwell](/commercial-metal-roofing-caldwell-nj) or other more commercially developed communities. Every commercial metal project in [North Caldwell](/roofing-in-north-caldwell-nj) is designed to enhance rather than disrupt the borough\'s estate-residential character.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellCommercialMetalRoofing: ComboContent = {
     {
       question: 'Can commercial metal roofing accommodate rooftop HVAC units?',
       answer: 'Yes. We design panel layouts around HVAC equipment locations and install curb-mounted penetration details that maintain the weathertight integrity of the standing seam system. Equipment curbs are fabricated from matching metal with proper cap flashing. We also provide walk pad paths from the roof access point to HVAC units so service technicians can reach equipment without walking directly on panel surfaces.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in North Caldwell, NJ?',
+      answer: 'Most commercial metal roofing projects in North Caldwell range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in North Caldwell NJ -- standing seam systems for professional offices with residential neighborhood aesthetics.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

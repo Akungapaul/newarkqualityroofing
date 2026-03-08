@@ -4,7 +4,7 @@ export const montclairFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Fire damage roof replacement in Montclair addresses the structural and waterproofing restoration required when fire has compromised the roof system -- whether from a building fire that burned through the roof structure, an adjacent property fire that radiated heat damage, or an exterior fire event that destroyed roofing material without breaching the deck below. Each scenario demands different assessment, remediation, and replacement approaches calibrated to the specific damage pattern.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Montclair — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Montclair addresses the structural and waterproofing restoration required when fire has compromised the roof system -- whether from a building fire that burned through the roof structure, an adjacent property fire that radiated heat damage, or an exterior fire event that destroyed roofing material without breaching the deck below. Each scenario demands different assessment, remediation, and replacement approaches calibrated to the specific damage pattern.',
     'Montclair\'s older housing stock with original wood framing, skip-sheathing, and close-proximity construction creates fire damage scenarios where the roof replacement scope extends into structural framing repair, fire-stop restoration, and compliance with current building codes that the original construction predated. Our [fire damage replacement](/fire-damage-roof-replacement) work in [Montclair](/roofing-in-montclair-nj) coordinates roofing restoration with the structural, electrical, and interior trades involved in the broader fire damage remediation project.',
     'Insurance coordination for fire damage is typically more straightforward than for weather damage because fire loss is a clearly covered peril under standard homeowner policies. The complexity lies in scope documentation -- capturing the full extent of heat, smoke, and water damage to the roof assembly so that the replacement scope addresses all fire-related deterioration rather than only the visibly burned areas.'
   ],
@@ -30,7 +30,25 @@ export const montclairFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Can fire-damaged framing be repaired or must it be replaced?',
       answer: 'The determination depends on the extent of heat exposure and charring. Lightly charred framing that retains its full cross-section and structural integrity may be treated and retained. Framing with significant charring depth, heat-induced strength loss, or dimensional reduction from combustion must be replaced. A structural engineer evaluates each member and provides the replacement-versus-retention determination that the building department requires before roofing work proceeds.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Montclair, NJ?',
+      answer: 'Most fire damage roof replacement projects in Montclair range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Montclair NJ -- structural restoration and insurance coordination for fire-damaged homes.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

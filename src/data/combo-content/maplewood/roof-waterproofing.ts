@@ -4,7 +4,7 @@ export const maplewoodRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'maplewood',
   overview: [
-    'Roof waterproofing encompasses the membrane, coating, and sealant systems that create the final barrier between Maplewood\'s weather and the building structure beneath. Beyond the primary roofing material, waterproofing layers at critical transitions, penetrations, and low-slope sections determine whether a roof system truly prevents moisture infiltration during the driving rain, ice dam conditions, and sustained wet weather that Essex County delivers seasonally. Our [roof waterproofing](/roof-waterproofing) services in [Maplewood](/roofing-in-maplewood-nj) address both new construction applications and remedial waterproofing on existing buildings where water infiltration has overwhelmed the primary roofing system.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Maplewood — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing encompasses the membrane, coating, and sealant systems that create the final barrier between Maplewood\'s weather and the building structure beneath. Beyond the primary roofing material, waterproofing layers at critical transitions, penetrations, and low-slope sections determine whether a roof system truly prevents moisture infiltration during the driving rain, ice dam conditions, and sustained wet weather that Essex County delivers seasonally. Our [roof waterproofing](/roof-waterproofing) services in [Maplewood](/roofing-in-maplewood-nj) address both new construction applications and remedial waterproofing on existing buildings where water infiltration has overwhelmed the primary roofing system.',
     'Maplewood\'s older homes frequently need supplemental waterproofing at locations where original construction provided minimal protection. Ice-and-water shield membrane, which is now standard practice at eaves, valleys, and wall-to-roof transitions, did not exist when most Maplewood homes were built. Retrofitting this critical waterproofing layer during re-roofing provides protection that the original builders could not have specified, dramatically reducing the leak vulnerability that has plagued Maplewood\'s aging housing stock.',
     'Flat and low-slope roof sections on Maplewood homes, including porch roofs, additions, and sunroom extensions, present the most demanding waterproofing applications. These surfaces collect and hold water in ways that pitched roofs do not, requiring membrane systems that maintain waterproof integrity under sustained ponding conditions. Our waterproofing specifications for Maplewood low-slope applications use fully adhered membrane systems with enhanced seam bonding that exceeds the performance of loose-laid or mechanically fastened alternatives. Homeowners managing similar flat-section waterproofing challenges in [Bloomfield](/roof-waterproofing-bloomfield-nj) choose the same fully-adhered approach.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodRoofWaterproofing: ComboContent = {
       question: 'How long does roof waterproofing last in Maplewood?',
       answer: 'Ice-and-water shield membrane beneath roofing materials lasts the lifetime of the roof installation. Exposed membrane waterproofing on flat and low-slope sections lasts 15-25 years depending on the product and exposure conditions. Elastomeric sealants at transitions last 7-12 years and should be inspected annually and refreshed as needed. A comprehensive waterproofing system with multiple materials provides layered protection that extends well beyond any single component.',
     },
+    {
+      question: 'How much does roof waterproofing cost in Maplewood, NJ?',
+      answer: 'Most roof waterproofing projects in Maplewood range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Maplewood NJ. Ice-and-water shield, membrane systems, and sealants for comprehensive leak protection.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

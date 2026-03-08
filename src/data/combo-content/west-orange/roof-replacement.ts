@@ -4,7 +4,7 @@ export const westOrangeRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Replacing a roof in West Orange means reckoning with geography. The township\'s dramatic terrain -- rising nearly 500 feet from the valley floor near Orange to the Eagle Rock plateau -- subjects roofing materials to fundamentally different stress profiles depending on where the house sits. Valley-floor homes along Pleasant Valley Way endure moisture retention and slower drainage, while ridge-top properties along Eagle Rock Avenue face sustained wind loads that shorten the lifespan of improperly specified materials by a decade or more. Our [roof replacement](/roof-replacement) planning begins with elevation analysis before a single shingle spec is written.',
+    'Newark Quality Roofing delivers expert roof replacement in West Orange — with prices starting from $8,500–$25,000+ and free estimates available today. Replacing a roof in West Orange means reckoning with geography. The township\'s dramatic terrain -- rising nearly 500 feet from the valley floor near Orange to the Eagle Rock plateau -- subjects roofing materials to fundamentally different stress profiles depending on where the house sits. Valley-floor homes along Pleasant Valley Way endure moisture retention and slower drainage, while ridge-top properties along Eagle Rock Avenue face sustained wind loads that shorten the lifespan of improperly specified materials by a decade or more. Our [roof replacement](/roof-replacement) planning begins with elevation analysis before a single shingle spec is written.',
     'West Orange\'s mid-century housing boom left thousands of split-levels and raised ranches across the Gregory, Crystal Lake, and Pleasantdale neighborhoods. These homes are now reaching their second or third roof lifecycle, and many carry the accumulated damage of level-change transitions that were never properly waterproofed during previous replacements. A full tear-off on a West Orange split-level reveals the history of every shortcut: missing cricket flashings, undersized step flashing at dormers, and ice-and-water shield that stops short of the vulnerable zones. Our replacement protocol addresses these inherited deficiencies systematically.',
     'For homeowners in West Orange\'s premium neighborhoods -- Llewellyn Park, St. Cloud, Hutton Park, and the Walker Road estates -- roof replacement is an architectural decision as much as a protective one. These properties demand materials that match their historic character: natural slate, copper standing seam, or designer shingle systems that replicate wood shake aesthetics without the maintenance liability. Residents in nearby [Montclair](/roof-replacement-montclair-nj) face similar architectural preservation concerns, though West Orange\'s elevation extremes add wind-resistance requirements that Montclair\'s relatively sheltered terrain does not.',
     'Every West Orange roof replacement includes a ventilation assessment calibrated to the property\'s elevation. Ridge-top homes lose heat faster through wind-driven infiltration and need balanced intake-exhaust systems that perform under sustained wind pressure. Valley-floor homes trap attic heat and moisture due to sheltered conditions and require enhanced exhaust capacity. Getting ventilation wrong during replacement shortens the new roof\'s lifespan regardless of material quality -- a mistake we see repeatedly on roofs installed by contractors unfamiliar with [West Orange](/roofing-in-west-orange-nj) terrain dynamics.'
@@ -35,7 +35,25 @@ export const westOrangeRoofReplacement: ComboContent = {
     {
       question: 'How long does a full roof replacement take on a West Orange hillside property?',
       answer: 'Standard valley-floor replacements on colonial or ranch-style homes typically complete in two to three days. Hillside properties add one to two days due to access staging, crane-assisted material delivery, and safety system installation on steep-slope lots. Complex homes in Llewellyn Park or St. Cloud with slate or multi-material roofs may require one to two weeks depending on material sourcing timelines and architectural detailing requirements. Weather contingency is always built into our West Orange schedules given the ridge-top storm exposure.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in West Orange, NJ?',
+      answer: 'Most roof replacement projects in West Orange range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement in West Orange NJ with elevation-specific materials. Split-level expertise, ridge-top wind rating, and premium estate installations.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const bellevillePvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'belleville',
   overview: [
-    'PVC roofing serves a specialized niche in Belleville\'s commercial roofing landscape, providing chemical resistance that standard TPO and EPDM membranes cannot match. The restaurants, auto repair facilities, and small manufacturing operations along Washington Avenue and the Belleville Turnpike generate rooftop exhaust containing cooking grease, petroleum vapors, and industrial solvents that degrade other membrane types within years. PVC\'s inherent resistance to these chemicals makes it the only appropriate membrane choice for Belleville commercial buildings where roof exposure to chemical exhaust is unavoidable.',
+    'Newark Quality Roofing delivers expert pvc roofing in Belleville — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing serves a specialized niche in Belleville\'s commercial roofing landscape, providing chemical resistance that standard TPO and EPDM membranes cannot match. The restaurants, auto repair facilities, and small manufacturing operations along Washington Avenue and the Belleville Turnpike generate rooftop exhaust containing cooking grease, petroleum vapors, and industrial solvents that degrade other membrane types within years. PVC\'s inherent resistance to these chemicals makes it the only appropriate membrane choice for Belleville commercial buildings where roof exposure to chemical exhaust is unavoidable.',
     'Belleville\'s Washington Avenue restaurant row -- a concentration of Italian, Portuguese, and Latin American kitchens -- produces heavy grease-laden exhaust that deposits on surrounding roof surfaces. Standard TPO membranes exposed to animal fats and cooking oils lose plasticizer content and become brittle, developing cracks within 5-7 years. Our [PVC roofing](/pvc-roofing) installations on Belleville restaurant buildings resist this chemical attack indefinitely, maintaining membrane flexibility and waterproof integrity even in the exhaust plume zone directly surrounding kitchen ventilation equipment.',
     'Beyond chemical resistance, PVC delivers the same reflective performance as TPO -- white PVC membranes reduce cooling costs in Belleville\'s commercial buildings by reflecting solar radiation that dark BUR and EPDM surfaces absorb. The hot-air welded seams on PVC installations create the same monolithic integrity as TPO, with weld strengths that exceed the membrane itself. For Belleville building owners choosing between TPO and PVC, the deciding factor is chemical exposure: if the roof will encounter grease, solvents, or petroleum products, PVC is the correct specification.',
     'PVC membrane\'s fire resistance provides an additional advantage in Belleville\'s dense commercial district. The self-extinguishing properties of PVC meet stringent fire code requirements without the additional fire barrier layers that some membrane types require. In a commercial zone where buildings share party walls and fire spread between adjacent roofs is a realistic concern, PVC\'s inherent fire performance contributes to the overall fire safety strategy that Belleville\'s closely packed commercial buildings in the [township](/roofing-in-belleville-nj) demand.'
@@ -35,7 +35,25 @@ export const bellevillePvcRoofing: ComboContent = {
     {
       question: 'How long does PVC roofing last in Belleville?',
       answer: 'PVC roofing typically lasts 25-30 years in Belleville\'s climate with proper maintenance. Premium PVC formulations with stabilized plasticizers can reach 30+ years. We recommend inspection for flexibility beginning at year 15 and proactive re-roofing at the first signs of embrittlement rather than waiting for crack failures that cause interior water damage.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Belleville, NJ?',
+      answer: 'Most pvc roofing projects in Belleville range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Belleville NJ. Chemical-resistant membrane for restaurants, auto shops, and industrial buildings on Washington Avenue and the Turnpike.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

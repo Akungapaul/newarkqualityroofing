@@ -4,7 +4,7 @@ export const fairfieldFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'fairfield',
   overview: [
-    'Flat roof replacement in Fairfield addresses both residential flat-roof sections -- additions, garages, porches, and sunrooms common on the township\'s ranch and split-level homes -- and the large commercial flat roofs covering Route 46 buildings. Each application requires membrane systems engineered for low-slope water management rather than the water-shedding approach that pitched shingle roofs use. When these membrane systems reach end-of-life through seam failure, surface degradation, or insulation saturation, full replacement with modern materials and improved drainage design provides decades of reliable waterproofing.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Fairfield — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Fairfield addresses both residential flat-roof sections -- additions, garages, porches, and sunrooms common on the township\'s ranch and split-level homes -- and the large commercial flat roofs covering Route 46 buildings. Each application requires membrane systems engineered for low-slope water management rather than the water-shedding approach that pitched shingle roofs use. When these membrane systems reach end-of-life through seam failure, surface degradation, or insulation saturation, full replacement with modern materials and improved drainage design provides decades of reliable waterproofing.',
     'Residential flat roof replacement in Fairfield typically involves EPDM or TPO membrane installation on relatively small sections -- three hundred to fifteen hundred square feet -- connected to the main pitched roof system. These flat sections are disproportionately leak-prone because they rely entirely on membrane integrity rather than gravity-assisted water shedding. Our [flat roof replacement](/flat-roof-replacement) specifications for Fairfield residential sections include tapered insulation for positive drainage, fully adhered membrane to prevent wind uplift, and termination details that integrate cleanly with the adjacent shingle system.',
     'Commercial flat roof replacement along Route 46 involves the comprehensive membrane system replacements covered in our commercial roofing services. Warehouse, hotel, retail, and office roofs spanning thousands to tens of thousands of square feet require the phased installation approach that maintains waterproofing over occupied spaces throughout the project. The principles are the same as residential flat work -- membrane waterproofing with positive drainage -- but the scale, logistics, and tenant coordination requirements elevate commercial flat replacement to a project-management challenge as much as a roofing challenge.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldFlatRoofReplacement: ComboContent = {
     {
       question: 'Why does my Fairfield home\'s flat roof leak more than the pitched sections?',
       answer: 'Flat roofs rely entirely on membrane waterproofing while pitched roofs use gravity-assisted water shedding. Any membrane defect on a flat surface allows water to pond over the failure point and enter the building, while a similar defect on a pitched surface may allow water to flow past without entering. Additionally, flat sections often accumulate debris that traps moisture, and inadequate drainage creates ponding that accelerates membrane degradation. Proper drainage design during replacement eliminates these chronic conditions.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Fairfield, NJ?',
+      answer: 'Most flat roof replacement projects in Fairfield range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Fairfield NJ. EPDM and TPO membrane for residential sections and Route 46 commercial flat roofs.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

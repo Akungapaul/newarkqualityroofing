@@ -4,7 +4,7 @@ export const nutleyBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'nutley',
   overview: [
-    'Built-up roofing systems have protected Nutley\'s commercial buildings since the township\'s downtown commercial district was constructed in the mid-twentieth century. The alternating layers of bitumen and reinforcing fabric that define BUR create a time-tested waterproofing assembly that many Franklin Avenue property owners continue to trust, even as single-ply membrane alternatives have gained market share. For building owners who prioritize proven redundancy over the newest technology, a properly installed built-up roof offers multi-layer protection that continues functioning even when individual layers sustain localized damage.',
+    'Newark Quality Roofing delivers expert built up roofing in Nutley — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems have protected Nutley\'s commercial buildings since the township\'s downtown commercial district was constructed in the mid-twentieth century. The alternating layers of bitumen and reinforcing fabric that define BUR create a time-tested waterproofing assembly that many Franklin Avenue property owners continue to trust, even as single-ply membrane alternatives have gained market share. For building owners who prioritize proven redundancy over the newest technology, a properly installed built-up roof offers multi-layer protection that continues functioning even when individual layers sustain localized damage.',
     'The BUR installations remaining on Nutley\'s commercial corridor range from well-maintained systems with years of remaining service life to deteriorated assemblies that are overdue for replacement. Understanding where each building falls on this spectrum is essential for making cost-effective roofing decisions. A 15-year-old BUR system with intact flood coat, firm gravel ballast, and no ponding zones may have another decade of service life with proper maintenance. A 25-year-old system with alligatored surface coating, displaced gravel, and active ponding needs replacement regardless of its original construction quality.',
     'Our [built-up roofing](/built-up-roofing) approach in [Nutley](/roofing-in-nutley-nj) includes both new BUR installations for building owners who prefer the multi-layer methodology and conversions from aging BUR to modern membrane systems for owners ready to take advantage of current technology. Both paths begin with the same rigorous substrate evaluation and drainage engineering that every commercial flat roof in Nutley deserves. The choice between rebuilding in BUR or converting to TPO, PVC, or modified bitumen depends on the building owner\'s priorities regarding cost, energy performance, maintenance commitment, and expected ownership duration.',
     'Nutley\'s commercial BUR roofs face the same environmental stresses that affect all flat roof systems in the township -- seasonal temperature extremes, debris accumulation from the mature tree canopy, and aging HVAC equipment that creates penetration-flashing challenges. The difference with BUR is that these stresses manifest in specific failure patterns: alligatoring of the flood coat under UV exposure, gravel displacement from wind scour along parapet edges, and bitumen embrittlement at flashing transitions where thermal cycling concentrates stress. Recognizing these BUR-specific failure signatures allows targeted maintenance that extends system life significantly compared to the reactive leak-chasing approach that accelerates system decline.'
@@ -35,7 +35,25 @@ export const nutleyBuiltUpRoofing: ComboContent = {
     {
       question: 'Can you repair my existing built-up roof without full replacement?',
       answer: 'Yes, when the existing BUR system retains structural integrity and the majority of its waterproofing function. Targeted repairs include patching areas where felt plies are exposed, re-coating alligatored flood coat sections, redistributing displaced gravel, and re-flashing deteriorated penetrations and parapet transitions. These maintenance interventions can extend a functional BUR system by five to ten years at a fraction of replacement cost. Our core-sample evaluation determines whether repair is viable or whether the system has deteriorated beyond cost-effective maintenance.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Nutley, NJ?',
+      answer: 'Most built up roofing projects in Nutley range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Nutley NJ. Multi-ply BUR systems for Franklin Avenue commercial buildings with gravel ballast and interply quality control.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

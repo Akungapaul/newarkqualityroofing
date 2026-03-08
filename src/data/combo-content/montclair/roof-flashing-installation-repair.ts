@@ -4,7 +4,7 @@ export const montclairRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Roof flashing is the silent infrastructure that keeps Montclair\'s architecturally complex homes dry -- the shaped metal pieces fitted at every junction where a roof plane meets a wall, chimney, dormer, valley, or penetration. On the simple ranch houses and capes of suburban Essex County, flashing details are routine. On Montclair\'s inventory of steep-gabled Victorians, half-timbered Tudors, and multi-dormered Arts & Crafts homes, flashing becomes the most technically demanding element of the entire roofing system, with more linear feet of critical transitions per roof than any comparably sized municipality.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Montclair — with prices starting from $300–$1,500 and free estimates available today. Roof flashing is the silent infrastructure that keeps Montclair\'s architecturally complex homes dry -- the shaped metal pieces fitted at every junction where a roof plane meets a wall, chimney, dormer, valley, or penetration. On the simple ranch houses and capes of suburban Essex County, flashing details are routine. On Montclair\'s inventory of steep-gabled Victorians, half-timbered Tudors, and multi-dormered Arts & Crafts homes, flashing becomes the most technically demanding element of the entire roofing system, with more linear feet of critical transitions per roof than any comparably sized municipality.',
     'Upper Montclair\'s grand homes along North Mountain Avenue and the surrounding streets present flashing challenges that test even experienced roofing crews. A single Victorian home may have eight to twelve dormers, two or three chimneys, multiple valley intersections, and decorative turrets where conical roof surfaces meet vertical walls at compound angles. Each of these transitions requires custom-fabricated flashing shaped to the specific geometry -- stock pre-formed flashing pieces from roofing suppliers simply do not fit the non-standard angles that Montclair\'s nineteenth-century architecture produces. Properties in neighboring [Glen Ridge](/roof-flashing-installation-repair-glen-ridge-nj) with similar Victorian stock face comparable complexity.',
     'Our [roof flashing](/roof-flashing-installation-repair) work across [Montclair](/roofing-in-montclair-nj) addresses the material compatibility requirements that the Historic Preservation Commission monitors on designated properties. Original flashing on many Montclair homes was copper -- a material choice driven by both the era\'s construction standards and the homeowner class that built these houses. Replacing deteriorated copper flashing with aluminum or galvanized steel on a designated property can trigger Commission enforcement. We maintain copper fabrication capabilities in-house, producing step flashing, counter flashing, and valley liners that match the gauge, profile, and patina of original installations.',
     'Tree canopy interaction with flashing systems defines a significant portion of Montclair\'s flashing repair workload. Falling branches dislodge step flashing at wall-to-roof junctions, accumulated leaf debris behind chimneys creates moisture dams that corrode flashing from below, and the persistent shade from Montclair\'s protected tree canopy prevents the solar drying that keeps flashing-to-sealant joints functional in open-canopy locations.'
@@ -35,7 +35,25 @@ export const montclairRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'How long does roof flashing last on Montclair homes?',
       answer: 'Copper flashing lasts fifty to one hundred years or more when properly installed. Aluminum flashing delivers twenty to thirty years. Galvanized steel typically provides fifteen to twenty-five years before corrosion requires replacement. The sealant at flashing-to-masonry joints has a shorter lifespan of eight to fifteen years regardless of flashing material and should be inspected and renewed as part of regular roof maintenance. On Montclair homes with mature tree canopy, debris accumulation accelerates flashing deterioration at chimney crickets and valley intersections.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Montclair, NJ?',
+      answer: 'Most roof flashing installation repair projects in Montclair range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing repair in Montclair NJ -- custom copper and metal flashing for Victorian dormers, Tudor walls, and complex roof transitions.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

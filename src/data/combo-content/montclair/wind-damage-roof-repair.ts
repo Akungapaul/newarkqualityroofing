@@ -4,7 +4,7 @@ export const montclairWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'montclair',
   overview: [
-    'Wind damage on Montclair roofs follows the township\'s topography with predictable precision. The Watchung Ridge runs northeast-to-southwest through the township, and homes along the crest and on the southeast-facing slope absorb the full force of coastal storm systems approaching from the Atlantic. Upper Montclair properties at ridge elevation regularly sustain wind damage from events that produce no visible effects on homes in the sheltered Valley area or South End below. This elevation-driven exposure gradient means that wind damage repair in Montclair requires specifications that account for the property\'s specific position on the ridge rather than applying a township-wide average wind load assumption.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Montclair — with prices starting from $400–$2,000 and free estimates available today. Wind damage on Montclair roofs follows the township\'s topography with predictable precision. The Watchung Ridge runs northeast-to-southwest through the township, and homes along the crest and on the southeast-facing slope absorb the full force of coastal storm systems approaching from the Atlantic. Upper Montclair properties at ridge elevation regularly sustain wind damage from events that produce no visible effects on homes in the sheltered Valley area or South End below. This elevation-driven exposure gradient means that wind damage repair in Montclair requires specifications that account for the property\'s specific position on the ridge rather than applying a township-wide average wind load assumption.',
     'The damage patterns on Montclair\'s architectural styles are as varied as the housing stock itself. Victorian mansions with their steep-pitch complex geometry experience wind damage at ridge caps, dormer faces, and the intersecting gable corners where wind eddies create localized suction that exceeds the ambient wind speed by thirty to fifty percent. Tudor homes lose stucco-and-timber detailing at the roof-to-wall junction where wind pressure differentials pry decorative elements away from the structural substrate. Mid-century modern flat roofs experience membrane peel-back at parapet edges where wind acceleration over the building creates the highest negative pressure. Our [wind damage roof repair](/wind-damage-roof-repair) approach addresses these style-specific vulnerabilities rather than treating all wind damage as a generic shingle problem.',
     'Recurring wind damage is a signal that the original roof installation was not specified for Montclair\'s actual wind exposure. Properties that sustain shingle loss or flashing displacement during events below the area\'s design wind speed have installation deficiencies -- inadequate fastening patterns, undersized flashing, or missing wind-rated sealant at critical transitions. Our wind damage repair specifications go beyond replacing what was lost to upgrading the installation to withstand the wind loads that Montclair\'s ridge elevation actually produces. This approach transforms a repair into a permanent upgrade that eliminates the recurring damage cycle.'
   ],
@@ -34,7 +34,25 @@ export const montclairWindDamageRoofRepair: ComboContent = {
     {
       question: 'How quickly can wind damage be repaired after a storm?',
       answer: 'Emergency tarping and stabilization typically occur within hours of the call. Permanent repair timing depends on material availability and weather conditions. Standard asphalt shingle repairs can usually proceed within one to two weeks. Repairs requiring specialty materials -- matched slate, fabricated copper, or specific membrane types -- may require three to four weeks for material sourcing. We install weathertight temporary protection immediately so the permanent repair can proceed on the correct timeline without risking additional interior damage during the wait.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Montclair, NJ?',
+      answer: 'Most wind damage roof repair projects in Montclair range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Montclair NJ -- ridge-elevation exposure repair, Victorian and Tudor restoration, and fastening upgrades for Watchung Ridge.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

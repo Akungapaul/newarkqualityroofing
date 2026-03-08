@@ -4,7 +4,7 @@ export const maplewoodRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'maplewood',
   overview: [
-    'Ice dam prevention addresses one of the most persistent winter roofing problems in Maplewood, where the township\'s older housing stock frequently lacks the insulation and ventilation systems that prevent the heat-loss-driven snow melt cycle responsible for ice dam formation. The Victorian, Colonial Revival, and Tudor homes throughout the Village area, Hilton neighborhood, and Boyden Avenue corridor were built decades before modern energy codes, and their attic assemblies allow conditioned heat to escape through the roof deck, melting snow from below. Our [ice dam prevention](/roof-ice-dam-prevention) programs in [Maplewood](/roofing-in-maplewood-nj) target the root causes of ice dam formation rather than treating symptoms after damage occurs.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Maplewood — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention addresses one of the most persistent winter roofing problems in Maplewood, where the township\'s older housing stock frequently lacks the insulation and ventilation systems that prevent the heat-loss-driven snow melt cycle responsible for ice dam formation. The Victorian, Colonial Revival, and Tudor homes throughout the Village area, Hilton neighborhood, and Boyden Avenue corridor were built decades before modern energy codes, and their attic assemblies allow conditioned heat to escape through the roof deck, melting snow from below. Our [ice dam prevention](/roof-ice-dam-prevention) programs in [Maplewood](/roofing-in-maplewood-nj) target the root causes of ice dam formation rather than treating symptoms after damage occurs.',
     'South Mountain Reservation\'s influence on Maplewood\'s western neighborhoods creates conditions that intensify ice dam formation. Properties along Prospect Street, Wyoming Avenue, and Crestwood Drive sit at higher elevations where temperatures are slightly colder and snowfall amounts are measurably greater than in the township\'s eastern lowlands. The mountain\'s shade holds snow on north-facing roof slopes longer, extending the melt-refreeze cycle that builds ice dams at the eaves. These western properties require more aggressive prevention measures than homes in eastern Maplewood where lower elevation, better sun exposure, and faster snowmelt reduce ice dam severity.',
     'Maplewood\'s design-conscious homeowners appreciate ice dam prevention approaches that address the underlying building science rather than applying heat cables as a visible band-aid. Root-cause remediation through attic air sealing, insulation upgrades, and balanced ventilation eliminates the temperature differential that creates ice dams, providing permanent protection without the ongoing electricity cost and aesthetic compromise of cable systems. Homeowners in [West Orange](/roof-ice-dam-prevention-west-orange-nj) on similar South Mountain slopes pursue the same root-cause approach for their elevation-challenged properties.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodRoofIceDamPrevention: ComboContent = {
       question: 'How much does ice dam prevention cost for a typical Maplewood home?',
       answer: 'Comprehensive air sealing and insulation upgrades on a typical Maplewood Colonial or Victorian range from $3,500 to $8,000 depending on the home\'s size and existing condition. This investment typically eliminates ice dams permanently and reduces annual heating costs by 15-25%, providing payback within 3-5 years through energy savings alone. Targeted heat cable installation for specific vulnerable areas adds $1,500 to $3,000 if needed as a supplement.',
     },
+    {
+      question: 'How much does roof ice dam prevention cost in Maplewood, NJ?',
+      answer: 'Most roof ice dam prevention projects in Maplewood range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Maplewood NJ. Root-cause insulation and ventilation solutions for Victorians and Colonials near South Mountain.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

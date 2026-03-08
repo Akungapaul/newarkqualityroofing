@@ -4,7 +4,7 @@ export const essexFellsSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'essex-fells',
   overview: [
-    'Natural slate roofing defines the architectural identity of Essex Fells\' most distinguished estates. The stone roofs crowning properties along Fells Road and Hawthorne Avenue were specified by architects who understood that no manufactured product replicates the visual authority, material permanence, and evolving character of quarried slate. These roofs are designed to outlast the homeowners who commission them -- a century or more of service from a material that gains presence with age rather than deteriorating. Our slate roofing practice in Essex Fells serves both the installation of new slate systems on custom-built estates and the repair and restoration of existing slate roofs that have protected these homes for generations.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Essex Fells — with prices starting from $20,000–$45,000 and free estimates available today. Natural slate roofing defines the architectural identity of Essex Fells\' most distinguished estates. The stone roofs crowning properties along Fells Road and Hawthorne Avenue were specified by architects who understood that no manufactured product replicates the visual authority, material permanence, and evolving character of quarried slate. These roofs are designed to outlast the homeowners who commission them -- a century or more of service from a material that gains presence with age rather than deteriorating. Our slate roofing practice in Essex Fells serves both the installation of new slate systems on custom-built estates and the repair and restoration of existing slate roofs that have protected these homes for generations.',
     'Slate selection for Essex Fells installations begins with understanding the geological characteristics that determine a stone\'s performance and appearance over decades. Vermont unfading green and gray slates maintain their quarried color throughout their service life -- critical for homeowners who want color permanence. Pennsylvania soft-weathering blacks and grays develop a silver-bronze patina over thirty to fifty years that some architects prefer for the sense of age it conveys. Imported Welsh purple and Cupa Spanish black offer color options unavailable from North American quarries. Each variety differs in weight, thickness, cleavage characteristics, and expected lifespan, and selecting the right stone for a specific project requires knowledge that only comes from years of working with the material.',
     'Slate repair on existing Essex Fells roofs demands the ability to source replacement material matching installations that may be sixty to one hundred years old. The original quarry may have closed, the specific color variety may no longer be produced, and the thickness and texture of aged weathering slates cannot be replicated by fresh-quarried stone. We maintain relationships with architectural salvage firms, regional demolition contractors, and the remaining active quarries to source matching material for Essex Fells repair projects. Our salvaged slate inventory, accumulated over years of regional sourcing, provides immediate access to the most common varieties found on the borough\'s estate roofs.',
     'Our [slate roof installation and repair](/slate-roof-installation-repair) expertise serves the premium residential communities of western Essex County, where slate roofing is not a specialty service but a core capability. Homeowners in [Millburn](/slate-roof-installation-repair-millburn-nj) and throughout the region trust us with the stone roof systems that define their properties\' architectural heritage.'
@@ -35,7 +35,25 @@ export const essexFellsSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'Do you install synthetic slate products?',
       answer: 'We install premium synthetic slate products when homeowners prefer the lower weight and reduced cost while maintaining a slate-like appearance. Products from DaVinci, EcoStar, and Brava offer convincing profiles at roughly half the installed cost of natural slate. However, we are transparent about the trade-offs: synthetic slate lacks the natural variation and evolving character of quarried stone, and no manufactured product matches the century-plus lifespan of quality natural slate. In Essex Fells, where natural materials are the community standard, we encourage homeowners to consider natural slate as the long-term value investment.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Essex Fells, NJ?',
+      answer: 'Most slate roof installation repair projects in Essex Fells range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Essex Fells NJ -- quarried stone from Vermont and Pennsylvania for estate homes with century-plus lifespans.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

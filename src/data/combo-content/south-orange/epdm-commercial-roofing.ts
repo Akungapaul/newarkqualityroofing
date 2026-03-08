@@ -4,7 +4,7 @@ export const southOrangeEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'south-orange',
   overview: [
-    'EPDM commercial roofing in South Orange Village serves the institutional, retail, and mixed-use buildings that support the village\'s compact, walkable commercial core. The synthetic rubber membrane\'s proven performance history across four decades of northern New Jersey winters and summers gives property owners and facility managers confidence in a material that has demonstrated its resilience through countless freeze-thaw cycles, hurricane remnants, and the intense UV exposure that south-facing flat roofs endure during Essex County summers.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in South Orange — with prices starting from $6–$11/sq ft and free estimates available today. EPDM commercial roofing in South Orange Village serves the institutional, retail, and mixed-use buildings that support the village\'s compact, walkable commercial core. The synthetic rubber membrane\'s proven performance history across four decades of northern New Jersey winters and summers gives property owners and facility managers confidence in a material that has demonstrated its resilience through countless freeze-thaw cycles, hurricane remnants, and the intense UV exposure that south-facing flat roofs endure during Essex County summers.',
     'Seton Hall University\'s campus maintenance portfolio includes EPDM installations on older academic and residential buildings that predate the TPO era. Our commercial team maintains and repairs these existing EPDM systems while also installing new EPDM where the material\'s specific properties -- superior cold-weather flexibility, excellent ozone resistance, and time-tested seam durability -- make it the most appropriate choice. The university\'s property management appreciates our ability to work within both EPDM and TPO systems without defaulting to a single-material approach regardless of application.',
     'The village center buildings along South Orange Avenue, many dating to the early and mid-twentieth century, carry flat roof systems that require periodic replacement as membranes reach the end of their service life. EPDM remains a preferred option for these buildings because the rubber membrane accommodates the minor structural movement that older masonry buildings experience without the seam stress that stiffer membranes can produce. Property owners along [South Orange](/roofing-in-south-orange-nj) Avenue value our transparent comparison of EPDM, TPO, and PVC options, with recommendations based on each building\'s specific conditions rather than crew preference or material markup.',
     'Commercial EPDM installations in South Orange deliver reliable waterproofing without the reflective surface appearance that TPO provides. For buildings where energy-efficient cool-roof performance is desired from an EPDM system, we offer factory-applied or field-applied reflective coatings that achieve comparable solar reflectance while maintaining EPDM\'s inherent flexibility and cold-weather performance advantages.'
@@ -35,7 +35,25 @@ export const southOrangeEpdmCommercialRoofing: ComboContent = {
     {
       question: 'Can you repair an existing EPDM roof rather than replacing it on my South Orange building?',
       answer: 'Yes, if the membrane is generally sound with localized damage. We repair punctures, seam separations, and flashing failures on existing EPDM systems, extending the roof\'s service life without the cost and disruption of full replacement. When repair locations become extensive or the membrane shows widespread surface degradation, replacement becomes more cost-effective than continued patching. Our inspection report provides an honest assessment of repair-versus-replace economics for each building.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in South Orange, NJ?',
+      answer: 'Most epdm commercial roofing projects in South Orange range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in South Orange NJ -- proven rubber membrane systems for village businesses and Seton Hall University facilities.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

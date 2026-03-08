@@ -4,7 +4,7 @@ export const roselandAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'roseland',
   overview: [
-    'Asphalt shingle roofing dominates Roseland\'s residential landscape, covering the colonials, split-levels, and ranches that line every residential street in the borough. The progression from builder-grade three-tab shingles installed during the 1950s through 1970s to today\'s heavyweight architectural shingles represents a generational improvement in wind resistance, impact protection, aesthetic depth, and warranty coverage. When Roseland homeowners replace aging roof systems, modern [asphalt shingle roofing](/asphalt-shingle-roofing) delivers performance capabilities that the original installations could never match -- 130-mph wind ratings, Class 4 impact resistance, and manufacturer lifetime warranties backed by certified installer programs.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Roseland — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roofing dominates Roseland\'s residential landscape, covering the colonials, split-levels, and ranches that line every residential street in the borough. The progression from builder-grade three-tab shingles installed during the 1950s through 1970s to today\'s heavyweight architectural shingles represents a generational improvement in wind resistance, impact protection, aesthetic depth, and warranty coverage. When Roseland homeowners replace aging roof systems, modern [asphalt shingle roofing](/asphalt-shingle-roofing) delivers performance capabilities that the original installations could never match -- 130-mph wind ratings, Class 4 impact resistance, and manufacturer lifetime warranties backed by certified installer programs.',
     'Material selection for Roseland asphalt shingle installations balances performance specifications with neighborhood aesthetic consistency. The borough\'s residential streets maintain a cohesive visual character built around earth-tone shingle palettes -- charcoal, weathered wood, and driftwood tones that complement the brick, stone, and siding facades of mid-century homes. Our shingle consultations bring physical sample boards to the home for evaluation in natural light against existing exterior finishes, because color photographs and online swatches cannot capture the dimensional appearance that modern architectural shingles achieve.',
     'Roseland\'s weather exposure along the eastern Watchung slope makes asphalt shingle specification particularly consequential. The borough experiences heavier precipitation, stronger wind events, and more intense freeze-thaw cycling than lower-elevation communities to the east. We specify shingle products with SBS-modified asphalt formulations that maintain flexibility through temperature extremes rather than the standard oxidized asphalt that becomes brittle in cold weather and accelerates cracking. Properties across the border in [Livingston](/asphalt-shingle-roofing-livingston-nj) benefit from similar material specification given comparable weather patterns.',
     'Our certified installer status with GAF, Owens Corning, and CertainTeed qualifies Roseland installations for the highest available warranty tiers. These manufacturer certifications require demonstrated installation competency, adherence to specific material and technique standards, and ongoing training. The practical benefit for Roseland homeowners is warranty coverage that extends beyond standard material protection to include workmanship -- a dual coverage that provides genuine financial protection throughout the shingle system\'s service life.'
@@ -35,7 +35,25 @@ export const roselandAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Which shingle colors are most popular in Roseland?',
       answer: 'Roseland homeowners most frequently select earth-tone architectural shingles that complement the borough\'s mid-century residential character. Charcoal and Weathered Wood from the GAF Timberline HDZ line, Estate Gray and Driftwood from Owens Corning Duration, and Moire Black and Georgetown Gray from CertainTeed Landmark are the leading selections. We recommend evaluating physical samples at the home in natural light rather than choosing from online images, as the dimensional granule blends of modern architectural shingles are difficult to represent accurately in photographs.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Roseland, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Roseland range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in Roseland NJ -- architectural shingles for colonials and split-levels with certified installation and full warranties.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

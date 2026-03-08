@@ -4,7 +4,7 @@ export const roselandMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Metal roofing has gained steady traction among Roseland homeowners who prioritize longevity and energy performance over the conventional asphalt aesthetic that characterizes most of the borough. Standing seam panels and metal shingle profiles offer 50-year service life with virtually no maintenance -- a compelling proposition for residents who have already cycled through two or three asphalt roofs since their mid-century homes were built. Our [metal roof installation and repair](/metal-roof-installation-repair) services cover every metal system appropriate for residential applications, from architectural standing seam to stamped metal shingles that replicate traditional profiles.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in Roseland — with prices starting from $15,000–$35,000 and free estimates available today. Metal roofing has gained steady traction among Roseland homeowners who prioritize longevity and energy performance over the conventional asphalt aesthetic that characterizes most of the borough. Standing seam panels and metal shingle profiles offer 50-year service life with virtually no maintenance -- a compelling proposition for residents who have already cycled through two or three asphalt roofs since their mid-century homes were built. Our [metal roof installation and repair](/metal-roof-installation-repair) services cover every metal system appropriate for residential applications, from architectural standing seam to stamped metal shingles that replicate traditional profiles.',
     'Roseland\'s corporate office parks along Eisenhower Parkway have used metal roofing on select buildings for decades, giving the borough familiarity with the material that many residential communities lack. This commercial precedent makes metal roofing less visually unfamiliar when it appears on residential streets, and several Roseland neighborhoods now feature enough metal roofs to demonstrate the material\'s aesthetic potential on single-family homes. Homeowners in neighboring [Caldwell](/metal-roof-installation-repair-caldwell-nj) are beginning to explore metal roofing options as well, driven by the same longevity and efficiency advantages.',
     'Repair work on existing metal roofs in Roseland addresses the specific failure modes that metal systems develop over time. Panel seam loosening from thermal cycling, fastener backup from expansion and contraction, and coating degradation from UV exposure are all correctable conditions that extend the roof\'s service life without full replacement. Our metal roof repair protocols use manufacturer-matched sealants, replacement fasteners, and touch-up coatings that maintain warranty compliance while restoring weathertight performance.'
   ],
@@ -34,7 +34,25 @@ export const roselandMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'Do metal roofs attract lightning?',
       answer: 'Metal roofs do not attract lightning. Lightning strikes the highest point in an area regardless of material composition, and metal roofing actually provides a safety advantage because it is non-combustible. A lightning strike on a metal roof disperses energy across the conductive surface rather than concentrating heat at the strike point. Metal roofing carries the highest Class A fire rating without any additional treatment.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in Roseland, NJ?',
+      answer: 'Most metal roof installation repair projects in Roseland range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in Roseland NJ -- standing seam panels and metal shingles for residential homes with 50-year warranties.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

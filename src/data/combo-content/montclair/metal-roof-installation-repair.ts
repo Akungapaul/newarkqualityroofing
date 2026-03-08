@@ -4,7 +4,7 @@ export const montclairMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Metal roofing in Montclair occupies a specific architectural niche: the mid-century modern homes where flat-seam and standing-seam profiles align with the design movement\'s emphasis on industrial materials expressed with precision, and the contemporary new-construction projects where architects specify metal as a deliberate contrast to the surrounding traditional roofscape. On these homes, metal is the architecturally correct choice. On Montclair\'s Victorian, Tudor, and Colonial housing stock, metal is generally inappropriate as a primary roof material -- though concealed copper standing seam has been used successfully on select historic restorations where the original roof incorporated metal elements.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in Montclair — with prices starting from $15,000–$35,000 and free estimates available today. Metal roofing in Montclair occupies a specific architectural niche: the mid-century modern homes where flat-seam and standing-seam profiles align with the design movement\'s emphasis on industrial materials expressed with precision, and the contemporary new-construction projects where architects specify metal as a deliberate contrast to the surrounding traditional roofscape. On these homes, metal is the architecturally correct choice. On Montclair\'s Victorian, Tudor, and Colonial housing stock, metal is generally inappropriate as a primary roof material -- though concealed copper standing seam has been used successfully on select historic restorations where the original roof incorporated metal elements.',
     'Standing-seam steel and aluminum roofing on Montclair\'s mid-century stock solves several problems that the original built-up and early-membrane roofs created. The low-slope planes characteristic of butterfly, flat, and shed-roof mid-century designs develop chronic ponding and membrane failures with flexible roofing systems, while a properly pitched standing-seam installation sheds water from even the lowest slopes without the ponding risk. The seam profile itself -- a raised interlocking joint running continuously from ridge to eave -- contains no exposed fasteners that can back out under thermal cycling, a failure mode that plagues exposed-fastener metal panels in Montclair\'s temperature extremes.',
     'Metal roof repair in Montclair addresses both the mid-century installations and the decorative metal elements found on the township\'s historic homes. Copper roof panels on Victorian turrets, copper standing-seam sections on mansard roofs, and lead-coated copper at dormer faces all require repair techniques specific to each metal and each period\'s fabrication method. A copper panel repair on a Victorian turret involves sheet metal work, soldering, and patina matching -- skills drawn from the decorative metalwork trade rather than the production roofing industry. Our crews include fabricators experienced with both production standing-seam installation and the hand-formed metal work that Montclair\'s historic roofs demand.'
   ],
@@ -34,7 +34,25 @@ export const montclairMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'Are metal roofs noisy during rain?',
       answer: 'A properly specified metal roof assembly with rigid insulation between the metal surface and the structural deck produces interior rain noise levels comparable to asphalt shingle roofs. Our standard metal roof specification for Montclair includes a minimum of two inches of polyisocyanurate insulation board for this purpose. Without the insulation layer, rain noise on a metal roof is noticeably louder than on mass materials -- which is why we include it as a non-negotiable specification element on every Montclair residential metal roof project.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in Montclair, NJ?',
+      answer: 'Most metal roof installation repair projects in Montclair range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in Montclair NJ -- standing seam for mid-century homes, copper turret restoration, and sound-insulated assemblies.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

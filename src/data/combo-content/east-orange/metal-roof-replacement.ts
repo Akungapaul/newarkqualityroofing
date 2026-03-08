@@ -4,7 +4,7 @@ export const eastOrangeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Metal roof replacement for East Orange residential and commercial buildings appeals to property owners seeking a terminal roofing solution -- one installation that eliminates the re-roofing cycle for the remaining economic life of the building. While asphalt shingle replacement delivers 25 to 30 years before the next replacement, [metal roof replacement](/metal-roof-replacement) delivers 50 to 60 years, meaning an East Orange building owner who installs metal roofing today may never face another re-roofing project on that property.',
+    'Newark Quality Roofing delivers expert metal roof replacement in East Orange — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement for East Orange residential and commercial buildings appeals to property owners seeking a terminal roofing solution -- one installation that eliminates the re-roofing cycle for the remaining economic life of the building. While asphalt shingle replacement delivers 25 to 30 years before the next replacement, [metal roof replacement](/metal-roof-replacement) delivers 50 to 60 years, meaning an East Orange building owner who installs metal roofing today may never face another re-roofing project on that property.',
     'The upfront cost premium for metal roofing over asphalt shingles on East Orange residential buildings typically runs 2x to 3x for standing seam systems. On a Victorian two-family where architectural shingle replacement costs $18,000, standing seam metal replacement may cost $40,000 to $55,000. The lifecycle math favors metal when the building will be held for more than 20 years: two shingle replacements at $18,000 each ($36,000 total over 50 years) versus one metal installation at $45,000 -- and the metal roof requires virtually no maintenance expenditure during that period while the shingle roof requires periodic repair, cleaning, and inspection.',
     'Metal roofing on East Orange\'s Victorian homes produces a distinctive aesthetic that can enhance or alter the building\'s architectural character depending on the panel profile and color selection. Standing seam profiles in dark bronze, charcoal, or slate gray complement Victorian architecture when the panel width and seam height are scaled appropriately. Factory-finished steel panels with Kynar coatings maintain color stability for 35 to 40 years without fading, chalking, or the weathering appearance that asphalt shingles develop. The aesthetic permanence appeals to East Orange owner-occupants in Ampere and Elmwood Park who are investing in their community\'s long-term housing quality, as well as to property owners in [Montclair](/metal-roof-replacement-montclair-nj) with similar architectural preservation interests.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeMetalRoofReplacement: ComboContent = {
     {
       question: 'How long does metal roof replacement take on an East Orange home?',
       answer: 'Metal roof replacement on a typical East Orange residential building takes five to eight days depending on roof size, complexity, and weather conditions. The timeline includes tear-off, deck preparation, underlayment, panel fabrication, installation, and trim work. Complex Victorian geometry with multiple dormers and intersecting roof planes extends the timeline toward the upper range.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in East Orange, NJ?',
+      answer: 'Most metal roof replacement projects in East Orange range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement for East Orange NJ homes -- standing seam installation, lifecycle cost analysis, and 50-year roofing for multi-family buildings.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

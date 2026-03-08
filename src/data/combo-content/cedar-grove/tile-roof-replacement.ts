@@ -4,7 +4,7 @@ export const cedarGroveTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Tile roof replacement in Cedar Grove addresses the end-of-life transition for clay and concrete tile systems on the township\'s custom-built and Mediterranean-inspired homes. While tile roofs offer exceptional longevity -- fifty to one hundred years for the tile material itself -- the underlayment, flashings, and battens beneath the tile field require replacement at the thirty to forty-year mark, necessitating a full lift-and-reset or complete tile replacement project.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Cedar Grove — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Cedar Grove addresses the end-of-life transition for clay and concrete tile systems on the township\'s custom-built and Mediterranean-inspired homes. While tile roofs offer exceptional longevity -- fifty to one hundred years for the tile material itself -- the underlayment, flashings, and battens beneath the tile field require replacement at the thirty to forty-year mark, necessitating a full lift-and-reset or complete tile replacement project.',
     'Cedar Grove properties with [tile roofs](/tile-roof-replacement) benefit from replacement approaches that preserve the original tile when possible. Lifting the existing tile field, replacing deteriorated underlayment and battens, and resetting the original tiles with new fasteners restores the waterproof integrity beneath a tile surface that may have decades of remaining life. When the tile itself has deteriorated -- cracked, spalled, or color-faded beyond acceptable appearance -- full replacement with new tile in matching or updated profiles completes the restoration.',
     'Northern Essex County\'s freeze-thaw climate accelerates underlayment deterioration beneath tile roofs, making Cedar Grove tile systems more likely to need underlayment replacement within the thirty-year window than tile roofs in milder climates. The moisture that migrates beneath tile edges during freeze-thaw cycles gradually degrades the felt or modified bitumen underlayment, eventually allowing water to reach the sheathing despite tile surfaces that remain intact above.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveTileRoofReplacement: ComboContent = {
       question: 'Does tile roof replacement require Cedar Grove building permits?',
       answer: 'Yes. Tile roof replacement involving underlayment and batten replacement requires a Cedar Grove building permit. The permit ensures that the replacement assembly meets current structural, wind uplift, and fire resistance requirements. We handle all permit applications and schedule required inspections as part of the project management.',
     },
+    {
+      question: 'How much does tile roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most tile roof replacement projects in Cedar Grove range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Cedar Grove NJ -- lift-and-reset or full replacement for clay and concrete tile with underlayment renewal.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

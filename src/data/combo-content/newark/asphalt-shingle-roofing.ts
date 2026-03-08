@@ -4,7 +4,7 @@ export const newarkAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'newark',
   overview: [
-    'Asphalt shingles cover more Newark rooftops than all other materials combined. From the three-tab installations on Vailsburg bungalows to the dimensional architectural shingles on Forest Hill colonials, this material dominates the city roofscape for good reason: it delivers reliable weather protection at a price point accessible to the full spectrum of Newark homeowners. The material has evolved substantially since the lightweight strip shingles that went onto many Newark homes in the 1960s and 1970s, and today offers wind ratings, impact resistance, and algae protection that those earlier generations could not match.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Newark — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingles cover more Newark rooftops than all other materials combined. From the three-tab installations on Vailsburg bungalows to the dimensional architectural shingles on Forest Hill colonials, this material dominates the city roofscape for good reason: it delivers reliable weather protection at a price point accessible to the full spectrum of Newark homeowners. The material has evolved substantially since the lightweight strip shingles that went onto many Newark homes in the 1960s and 1970s, and today offers wind ratings, impact resistance, and algae protection that those earlier generations could not match.',
     'Newark demands more from asphalt shingles than most suburban installations. The urban heat island effect pushes rooftop surface temperatures fifteen degrees or more above surrounding Essex County suburbs during summer months, accelerating granule loss and reducing the effective lifespan of standard three-tab shingles by three to five years. This thermal penalty makes the selection between economy three-tab and premium architectural shingles a critical decision for Newark homeowners rather than a simple aesthetic preference. Architectural shingles with SBS-modified asphalt maintain flexibility through extreme temperature swings and resist the thermal cracking that claims three-tab shingles prematurely in urban heat zones.',
     'Wind exposure varies dramatically across Newark neighborhoods. Properties along the Passaic River waterfront and in elevated sections of Branch Brook Park face sustained wind loads that demand shingles rated for 110 mph or higher. Sheltered interior streets in Roseville and the North Ward experience less exposure but still contend with wind tunnel effects created by row house corridors. We match wind rating specifications to the actual exposure conditions of each property rather than defaulting to minimum code requirements.',
     'Commercial property owners in Newark increasingly choose architectural asphalt shingles for smaller retail buildings and mixed-use structures where a residential-style appearance supports the property aesthetic. Strip malls along Broadway, converted residential buildings in University Heights, and small office structures throughout the city benefit from the cost efficiency and installation speed that asphalt shingles provide compared to commercial membrane systems.',
@@ -40,6 +40,24 @@ export const newarkAsphaltShingleRoofing: ComboContent = {
       question: 'Do you offer algae-resistant asphalt shingles for Newark homes?',
       answer: 'Yes. We stock and recommend copper-granule algae-resistant shingles for all Newark installations. The humid urban microclimate promotes algae growth faster than suburban areas. Algae-resistant shingles carry a manufacturer warranty against black streaking and eliminate the need for periodic roof cleaning treatments.',
     },
+    {
+      question: 'How much does asphalt shingle roofing cost in Newark, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Newark range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Newark NJ asphalt shingle roofing experts. Architectural and 3-tab shingles engineered for urban heat island conditions across Vailsburg and Forest Hill.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

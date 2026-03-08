@@ -4,7 +4,7 @@ export const northCaldwellRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Roof leaks in North Caldwell properties carry financial consequences amplified by the premium finishes beneath every roof plane. A leak that might cause $2,000 in drywall damage in a standard suburban home can produce $20,000 in losses when it reaches hand-scraped hardwood floors, custom crown molding, or a home office filled with electronics. The urgency of [roof leak repair](/roof-leak-repair) in North Caldwell is measured not in hours but in minutes -- the speed at which water migrates from the roof deck through insulation into the living spaces that represent the largest portion of the homeowner\'s investment.',
+    'Newark Quality Roofing delivers expert roof leak repair in North Caldwell — with prices starting from $300–$1,200 and free estimates available today. Roof leaks in North Caldwell properties carry financial consequences amplified by the premium finishes beneath every roof plane. A leak that might cause $2,000 in drywall damage in a standard suburban home can produce $20,000 in losses when it reaches hand-scraped hardwood floors, custom crown molding, or a home office filled with electronics. The urgency of [roof leak repair](/roof-leak-repair) in North Caldwell is measured not in hours but in minutes -- the speed at which water migrates from the roof deck through insulation into the living spaces that represent the largest portion of the homeowner\'s investment.',
     'Leak diagnosis on North Caldwell estates is complicated by the multi-level, multi-section roof geometry that defines these custom homes. Water entering through a failed valley flashing on the upper roof may travel along a rafter for fifteen feet, pass through a floor system, and emerge as a ceiling stain in a room that shares no exterior wall with the actual entry point. Tracing these migration paths through finished spaces requires systematic investigation -- moisture meter readings, thermal imaging in some cases, and an understanding of the structural framing paths that gravity drives water along. Neighboring [Caldwell](/roof-leak-repair-caldwell-nj) homeowners encounter simpler leak patterns on their more conventional roof designs.',
     'North Caldwell\'s wooded environment produces leak triggers that persist until the underlying condition is addressed. Debris accumulation in valleys creates micro-dams that hold water against shingle edges and force it laterally under courses. Moss colonies lift shingle tabs and create wicking paths beneath the surface layer. Ice dams along shaded eave lines back meltwater under roofing materials during every freeze-thaw cycle from December through March. A repair that addresses the leak point without addressing the organic debris, biological growth, or ice dam condition will fail again within the same season.',
     'Our approach to North Caldwell leak repair combines immediate water intrusion stoppage with root-cause correction. We do not simply patch the visible symptom; we trace the full water path, identify every contributing factor, and repair the system to prevent recurrence. This comprehensive methodology costs marginally more than a surface patch but eliminates the cycle of repeated leak repairs that frustrates homeowners and progressively damages the [premium properties](/roofing-in-north-caldwell-nj) that define this borough.'
@@ -35,7 +35,25 @@ export const northCaldwellRoofLeakRepair: ComboContent = {
     {
       question: 'Should I file an insurance claim for a roof leak on my North Caldwell home?',
       answer: 'Whether to file depends on the leak cause and the repair cost relative to your deductible. Storm-caused damage -- wind, hail, fallen branches -- is typically covered and worth claiming given the premium material costs on North Caldwell homes. Age-related deterioration and maintenance-deferred failures are generally not covered. We provide documentation suitable for insurance submission on every leak repair, including cause analysis, material specifications, and itemized costs, so the homeowner can make an informed filing decision with complete information.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in North Caldwell, NJ?',
+      answer: 'Most roof leak repair projects in North Caldwell range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in North Caldwell NJ -- expert diagnosis for complex estate roofs with slate, copper, and premium material restoration.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

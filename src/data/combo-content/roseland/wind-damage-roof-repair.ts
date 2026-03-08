@@ -4,7 +4,7 @@ export const roselandWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'roseland',
   overview: [
-    'Wind damage on Roseland roofs follows patterns dictated by the borough\'s geography and building stock. Positioned along the eastern Watchung slope, Roseland receives storm systems that gain momentum across the open terrain of Morris County before reaching the borough\'s residential streets and corporate campuses. The colonials and split-levels that predominate along Becker Farm Road and Harrison Avenue present wind-vulnerable roof geometries -- gable ends that catch gusts, hip-to-gable transitions where turbulence concentrates, and the offset planes of split-level designs where wind uplifts at the step junction. These specific vulnerabilities make [wind damage roof repair](/wind-damage-roof-repair) a recurring service need for Roseland homeowners.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Roseland — with prices starting from $400–$2,000 and free estimates available today. Wind damage on Roseland roofs follows patterns dictated by the borough\'s geography and building stock. Positioned along the eastern Watchung slope, Roseland receives storm systems that gain momentum across the open terrain of Morris County before reaching the borough\'s residential streets and corporate campuses. The colonials and split-levels that predominate along Becker Farm Road and Harrison Avenue present wind-vulnerable roof geometries -- gable ends that catch gusts, hip-to-gable transitions where turbulence concentrates, and the offset planes of split-level designs where wind uplifts at the step junction. These specific vulnerabilities make [wind damage roof repair](/wind-damage-roof-repair) a recurring service need for Roseland homeowners.',
     'The age of Roseland\'s shingle stock amplifies wind vulnerability. Builder-grade three-tab shingles from the 1960s and 1970s rely on a thin strip of thermally activated adhesive to bond each tab to the course below -- adhesive that hardens and fails after decades of thermal cycling. Modern architectural shingles carry significantly higher wind ratings and wider adhesive strips, but Roseland homes still wearing older shingle systems are particularly susceptible to tab lifting, creasing, and complete blow-off during events that newer roofs would survive without damage. Homeowners in adjacent [Caldwell](/wind-damage-roof-repair-caldwell-nj) with similar vintage housing face comparable wind susceptibility.',
     'Wind damage on Roseland\'s commercial buildings manifests differently than on residential properties. The large flat membrane roofs on office buildings along Eisenhower Parkway experience edge uplift rather than shingle displacement -- wind catches membrane edges at parapet transitions and can peel back membrane sections that were not properly secured with mechanical fasteners or adhesive. Our commercial wind damage repair addresses both the membrane repair and the edge securement detail that allowed the uplift, preventing the same failure from recurring during the next high-wind event.',
     'Insurance coordination is a standard element of our Roseland wind damage service. Wind damage is covered under the windstorm peril in virtually all homeowner policies, and our documentation provides the date-specific, damage-specific evidence that supports efficient claim processing. We document affected areas with photographs, measure the damaged section, identify the failure mode (adhesive bond failure, mechanical fastener withdrawal, or material fatigue), and produce the repair specification that the insurance process requires before authorizing permanent restoration.'
@@ -35,7 +35,25 @@ export const roselandWindDamageRoofRepair: ComboContent = {
     {
       question: 'My Roseland home loses shingles from the same gable end every storm. Is there a permanent fix?',
       answer: 'Recurring gable-end wind damage indicates inadequate edge securement rather than defective shingles. The permanent solution involves installing high-wind starter strips at the rake edge with construction adhesive reinforcement, using six-nail fastening patterns on all shingles within three feet of the gable edge, and ensuring proper metal drip edge that resists uplift. We may also recommend wind-rated architectural shingles with enhanced adhesive strips if the existing material is standard three-tab. This edge hardening approach eliminates the recurring blow-off that simple shingle replacement does not address.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Roseland, NJ?',
+      answer: 'Most wind damage roof repair projects in Roseland range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Roseland NJ -- gable-end blow-offs, split-level step damage, and commercial membrane uplift with insurance support.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const northCaldwellModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'Modified bitumen roofing fills a specific niche on North Caldwell properties: protecting smaller flat roof sections where the multi-layer durability of mod-bit outperforms single-ply membranes and where the torch-applied or self-adhered installation creates a robust waterproofing barrier on areas too small to justify a full commercial membrane system. Garage roof transitions, enclosed porch covers, and the flat connecting sections between multi-level wings on estate homes along Grandview Avenue are prime applications.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in North Caldwell — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing fills a specific niche on North Caldwell properties: protecting smaller flat roof sections where the multi-layer durability of mod-bit outperforms single-ply membranes and where the torch-applied or self-adhered installation creates a robust waterproofing barrier on areas too small to justify a full commercial membrane system. Garage roof transitions, enclosed porch covers, and the flat connecting sections between multi-level wings on estate homes along Grandview Avenue are prime applications.',
     'The appeal of [modified bitumen](/modified-bitumen-roofing) for North Caldwell homeowners lies in its proven layered construction. A two-ply mod-bit system creates redundancy that single-membrane roofing cannot match -- if one layer develops a defect, the second layer continues protecting the structure. On estate homes where even minor water intrusion can damage finished interiors with custom millwork and expensive flooring, this redundancy provides meaningful peace of mind. Residents of neighboring [Essex Fells](/modified-bitumen-roofing-essex-fells-nj) select modified bitumen for similarly high-value residential flat sections.',
     'Our modified bitumen work in [North Caldwell](/roofing-in-north-caldwell-nj) focuses exclusively on residential applications using self-adhered or cold-applied installation methods. We avoid torch application on occupied residential properties due to fire safety considerations, opting instead for peel-and-stick SBS-modified systems that deliver equivalent waterproofing performance without open-flame risk on wood-framed estate structures surrounded by wooded lots.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Can modified bitumen be installed in cold weather during North Caldwell winters?',
       answer: 'Self-adhered modified bitumen requires minimum temperatures of 40 degrees Fahrenheit for proper adhesive activation. We schedule North Caldwell installations for seasons when temperatures support proper adhesion -- generally March through November. Emergency repairs can be completed in colder temperatures using heat-activated adhesive techniques, but new installations are planned for optimal bonding conditions to ensure long-term system performance.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in North Caldwell, NJ?',
+      answer: 'Most modified bitumen roofing projects in North Caldwell range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in North Caldwell NJ -- torch-free two-ply systems for estate home flat sections with layered waterproofing protection.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

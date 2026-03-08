@@ -4,7 +4,7 @@ export const northCaldwellChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Chimney flashing repair ranks among the most common roofing service calls on North Caldwell estate homes where masonry chimneys -- often multiple chimneys serving separate fireplaces in different wings of the house -- pierce complex roof planes at intersections that are inherently vulnerable to water infiltration. The junction between a brick or stone chimney and the surrounding roof surface endures more thermal movement, weather exposure, and structural stress than any other point on the roof, making flashing deterioration at chimneys virtually inevitable over the decades that these estate properties remain in service.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in North Caldwell — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair ranks among the most common roofing service calls on North Caldwell estate homes where masonry chimneys -- often multiple chimneys serving separate fireplaces in different wings of the house -- pierce complex roof planes at intersections that are inherently vulnerable to water infiltration. The junction between a brick or stone chimney and the surrounding roof surface endures more thermal movement, weather exposure, and structural stress than any other point on the roof, making flashing deterioration at chimneys virtually inevitable over the decades that these estate properties remain in service.',
     'Our [chimney flashing](/chimney-flashing-repair) repair work on North Caldwell homes addresses the complete system: step flashing along the chimney sidewalls, apron flashing across the front face, counterflashing embedded in the mortar joints, and the cricket or saddle structure behind the chimney that diverts water flow around the masonry mass. Each element must function as part of an integrated system -- repairing the step flashing while ignoring deteriorated counterflashing above it produces a repair that fails within one or two seasons.',
     'North Caldwell estate chimneys present scale and complexity that distinguish them from standard residential chimney flashing work. A chimney on a large colonial may measure three feet by five feet at the roof penetration, creating substantial step flashing runs and a cricket structure that must manage water volume from significant roof area above. Homeowners in neighboring [Caldwell](/chimney-flashing-repair-caldwell-nj) deal with similar chimney issues on smaller scale. The craftsmanship required for [North Caldwell](/roofing-in-north-caldwell-nj) estate chimney flashings demands experienced technicians who understand both roofing waterproofing and masonry integration.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellChimneyFlashingRepair: ComboContent = {
     {
       question: 'Can you install a new cricket behind my chimney if it does not have one?',
       answer: 'Yes. Adding a cricket behind a chimney that was built without one is one of the most effective improvements for preventing chimney leaks. The cricket diverts water flow around the chimney rather than allowing it to dam against the uphill face. We build crickets with dimensional lumber and plywood, waterproofed with membrane and metal flashing that integrates with the surrounding roof surface. The improvement is permanent and dramatically reduces leak risk at the chimney location.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in North Caldwell, NJ?',
+      answer: 'Most chimney flashing repair projects in North Caldwell range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in North Caldwell NJ -- step, counter, and cricket flashing for estate home masonry chimneys on complex roofs.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'west-orange',
   overview: [
-    'Asphalt shingle selection in West Orange is fundamentally an elevation decision. The township\'s 500-foot terrain gradient means that the shingle product performing beautifully on a Pleasant Valley ranch at 150 feet elevation may fail prematurely on an Eagle Rock colonial at 550 feet where sustained wind loads, intensified UV exposure, and hail events stress materials beyond standard specifications. Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations match product grade, fastening pattern, and underlayment specification to each property\'s precise position on the Watchung ridge.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in West Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle selection in West Orange is fundamentally an elevation decision. The township\'s 500-foot terrain gradient means that the shingle product performing beautifully on a Pleasant Valley ranch at 150 feet elevation may fail prematurely on an Eagle Rock colonial at 550 feet where sustained wind loads, intensified UV exposure, and hail events stress materials beyond standard specifications. Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations match product grade, fastening pattern, and underlayment specification to each property\'s precise position on the Watchung ridge.',
     'The predominant West Orange housing stock -- mid-century split-levels, raised ranches, and colonials built during the 1960s -- was designed for the asphalt shingle systems of that era. Modern architectural shingles offer dramatically improved wind resistance, dimensional aesthetics, and lifespan over the original three-tab products, making them the natural upgrade choice during replacement. The transition from flat three-tab to dimensional architectural profiles also creates visual depth that enhances these homes\' relatively simple exterior lines, a consideration that matters in West Orange neighborhoods where curb appeal directly influences property values.',
     'For homes in the Gregory and Crystal Lake neighborhoods, we recommend SBS-modified asphalt shingles that maintain flexibility through the freeze-thaw cycling that mid-slope elevations experience intensely. Standard oxidized-asphalt products stiffen in cold weather, and the repeated thermal cycling between West Orange\'s winter lows and sunny mid-day warming creates micro-fractures that propagate into full shingle cracks. SBS-modified formulations resist this thermal cycling degradation, extending lifespan by three to five years on the mid-slope homes where the effect is most pronounced. Homeowners in [Cedar Grove](/asphalt-shingle-roofing-cedar-grove-nj) along the northern ridge face comparable thermal cycling stress.',
     'Color selection for West Orange asphalt shingles should account for elevation-specific thermal effects. Dark shingles on valley-floor homes absorb solar radiation and elevate attic temperatures, increasing cooling costs during summer months. Lighter or reflective-granule shingle colors mitigate heat gain on sun-exposed valley properties while darker tones work well on shaded mid-slope and ridge-top homes where solar heating provides a beneficial counterbalance to West Orange\'s higher-elevation cold exposure during [winter months](/roofing-in-west-orange-nj).'
@@ -35,7 +35,25 @@ export const westOrangeAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Do I need algae-resistant shingles in West Orange?',
       answer: 'We recommend algae-resistant shingles for the majority of West Orange homes due to the township\'s dense tree canopy. Properties near South Mountain Reservation, throughout Hutton Park and Crystal Lake, and on any north-facing slope with significant shade coverage should specify AR formulations as standard. The copper-granule technology adds minimal cost, typically $50 to $100 per roofing square, while preventing the black algae streaking that accelerates heat absorption, reduces curb appeal, and can require professional cleaning every two to three years on untreated surfaces.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in West Orange, NJ?',
+      answer: 'Most asphalt shingle roofing projects in West Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in West Orange NJ. Wind-rated products for ridge-top homes, SBS-modified for mid-slope, and algae-resistant for shaded lots.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

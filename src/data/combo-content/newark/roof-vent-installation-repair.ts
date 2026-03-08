@@ -4,7 +4,7 @@ export const newarkRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'newark',
   overview: [
-    'Roof ventilation in Newark operates against a thermal environment that suburban homes never experience. The urban heat island effect raises summer ambient temperatures in Newark\'s Central Ward and Ironbound five to eight degrees above surrounding suburban areas, and rooftop temperatures amplify that differential further. An unventilated attic in a North Ward brownstone can reach one hundred sixty degrees on a July afternoon, baking the underside of roof sheathing and accelerating asphalt shingle degradation from below while the sun attacks from above. Proper roof ventilation is the intervention that breaks this cycle, extending shingle life by reducing the temperature differential that causes premature aging.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Newark — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation in Newark operates against a thermal environment that suburban homes never experience. The urban heat island effect raises summer ambient temperatures in Newark\'s Central Ward and Ironbound five to eight degrees above surrounding suburban areas, and rooftop temperatures amplify that differential further. An unventilated attic in a North Ward brownstone can reach one hundred sixty degrees on a July afternoon, baking the underside of roof sheathing and accelerating asphalt shingle degradation from below while the sun attacks from above. Proper roof ventilation is the intervention that breaks this cycle, extending shingle life by reducing the temperature differential that causes premature aging.',
     'Winter ventilation matters equally in Newark\'s climate, though for different reasons. Brownstone attics that trap warm, humid interior air against cold roof sheathing create condensation that saturates the wood over months of heating season exposure. This moisture promotes mold growth, weakens sheathing adhesion, and -- when it reaches the roof edge where the deck extends beyond the heated wall below -- contributes to ice dam formation. The North Ward\'s tree-shaded streets compound this problem by keeping north-facing roof slopes in shadow where ice persists longest, making ventilation the most cost-effective ice dam prevention strategy available.',
     'Newark\'s attached building stock creates ventilation challenges that don\'t exist in detached suburban construction. Party walls between brownstones interrupt the continuous soffit-to-ridge airflow that ventilation design assumes. An attic in a center-unit row house may have effective ventilation only at the front and rear slopes, with the party walls on each side blocking lateral air movement. This condition requires ventilation strategies specific to row-house geometry -- individual ridge vents or roof-mounted exhaust vents paired with front-and-rear soffit intake, rather than the perimeter-to-ridge flow that works on detached homes.',
     'Our roof ventilation work in Newark addresses the complete airflow system rather than individual components. We calculate the net free ventilation area at both intake and exhaust, verify balanced ratios, ensure continuous air pathways between intake and exhaust openings, and select vent products that perform reliably in Newark\'s wind and rain exposure. The goal is a ventilation system calibrated to the building\'s specific attic volume, insulation configuration, and urban microclimate -- not a generic vent count based on a suburban rule of thumb.'
@@ -36,7 +36,25 @@ export const newarkRoofVentInstallationRepair: ComboContent = {
     {
       question: 'Should I install a powered attic fan or passive roof vents?',
       answer: 'For most Newark homes with standard peaked roofs and accessible soffit-to-ridge airflow paths, passive ventilation through ridge vents and soffit intake is preferred. Passive systems have no operating cost, no mechanical failure points, and provide continuous ventilation year-round. Powered fans are appropriate for specific Newark conditions: row houses with party wall constraints that limit passive airflow, low-slope roof sections where thermal buoyancy is insufficient to drive adequate exhaust, or buildings with documented moisture problems that require immediate aggressive ventilation improvement. We recommend powered fans with humidistat controls rather than thermostatic only, so they operate when moisture levels are elevated regardless of temperature.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Newark, NJ?',
+      answer: 'Most roof vent installation repair projects in Newark range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in Newark NJ -- attic ventilation for urban heat island, row house solutions, and ridge vent upgrades.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

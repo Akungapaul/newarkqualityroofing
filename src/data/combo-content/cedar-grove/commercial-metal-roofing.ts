@@ -4,7 +4,7 @@ export const cedarGroveCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'Commercial metal roofing provides Cedar Grove businesses with a long-term roofing solution that eliminates the recurring membrane replacement cycle plaguing the township\'s aging commercial building stock. Standing seam and structural metal panel systems installed on Cedar Grove\'s Route 23 retail properties, Pompton Avenue professional offices, and light industrial buildings deliver forty to sixty-year service life with minimal maintenance -- a compelling value proposition for building owners managing capital expenditure budgets across decades of ownership.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Cedar Grove — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing provides Cedar Grove businesses with a long-term roofing solution that eliminates the recurring membrane replacement cycle plaguing the township\'s aging commercial building stock. Standing seam and structural metal panel systems installed on Cedar Grove\'s Route 23 retail properties, Pompton Avenue professional offices, and light industrial buildings deliver forty to sixty-year service life with minimal maintenance -- a compelling value proposition for building owners managing capital expenditure budgets across decades of ownership.',
     'Cedar Grove\'s commercial footprint is modest compared to urban Essex County communities, but the township\'s business properties face the same roofing challenges that larger commercial districts contend with -- HVAC equipment loads, foot traffic during maintenance, thermal cycling from northern Essex County\'s seasonal extremes, and the snow accumulation that the township\'s elevated terrain produces during nor\'easters. Our [commercial metal roofing](/commercial-metal-roofing) installations for Cedar Grove businesses address each of these demands through engineered panel systems, structural attachment details, and snow management accessories calibrated to the specific building.',
     'The aesthetic upgrade that commercial metal roofing brings to Cedar Grove\'s business corridors aligns with the township\'s well-maintained character. Standing seam profiles in architectural colors transform flat-roofed commercial buildings from utilitarian to distinguished, and the clean sight lines that metal panel systems create at edges and transitions present a polished appearance from street level that membrane roofing cannot match.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveCommercialMetalRoofing: ComboContent = {
       question: 'How loud is rain on a commercial metal roof?',
       answer: 'Commercial metal roofing with proper acoustic treatment produces interior noise levels comparable to membrane-covered flat roofs. The acoustic liner system installed between the metal panels and building structure absorbs rain impact sound and reduces transmission to occupied spaces by twenty to twenty-five decibels. Professional offices, medical facilities, and retail environments in Cedar Grove receive enhanced acoustic treatment as standard practice.',
     },
+    {
+      question: 'How much does commercial metal roofing cost in Cedar Grove, NJ?',
+      answer: 'Most commercial metal roofing projects in Cedar Grove range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Cedar Grove NJ -- standing seam systems for Route 23 retail and Pompton Ave offices with 40-60 year performance.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

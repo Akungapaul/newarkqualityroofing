@@ -4,7 +4,7 @@ export const nutleyCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'nutley',
   overview: [
-    'Cedar shake roof replacement in Nutley serves the township\'s distinctive Tudor and Colonial homes where original or second-generation wood shake installations have reached the end of their functional lifespan. Nutley\'s tree-canopy density -- among the highest in Essex County -- creates the damp, shaded conditions that accelerate cedar deterioration through moss colonization, moisture retention, and the splitting that follows decades of freeze-thaw cycling on northern New Jersey rooflines. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) projects in Nutley range from transitioning to synthetic shake alternatives that replicate the original texture, to full cedar reinstallation for homeowners committed to maintaining authentic wood character.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Nutley — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Nutley serves the township\'s distinctive Tudor and Colonial homes where original or second-generation wood shake installations have reached the end of their functional lifespan. Nutley\'s tree-canopy density -- among the highest in Essex County -- creates the damp, shaded conditions that accelerate cedar deterioration through moss colonization, moisture retention, and the splitting that follows decades of freeze-thaw cycling on northern New Jersey rooflines. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) projects in Nutley range from transitioning to synthetic shake alternatives that replicate the original texture, to full cedar reinstallation for homeowners committed to maintaining authentic wood character.',
     'The decision between replacing cedar with cedar versus transitioning to a synthetic or architectural shingle alternative is the central question for Nutley homeowners facing shake replacement. New western red cedar shake carries a premium cost and requires ongoing maintenance -- annual treatments, periodic moss removal, and gutter cleaning to prevent the debris accumulation that traps moisture against the shake surface. Synthetic alternatives from DaVinci and Brava deliver the visual weight and shadow lines of genuine cedar with polymer durability, Class A fire ratings, and effectively zero maintenance. Homeowners in [Montclair](/cedar-shake-roof-replacement-montclair-nj) face identical material choices, though Montclair\'s Historic Preservation Commission occasionally mandates natural materials on designated properties.',
     'For [Nutley](/roofing-in-nutley-nj) homeowners choosing to maintain authentic cedar, we source premium Grade 1 Blue Label hand-split shakes from certified sustainable Pacific Northwest mills. These shakes are pressure-treated with a copper-based preservative system that resists the fungal growth and insect boring that limit untreated cedar lifespan in Essex County\'s humid continental climate. With proper treatment and ventilation, premium cedar shake installations in Nutley deliver 30 to 40 years of service -- roughly twice the lifespan of untreated material.'
   ],
@@ -34,7 +34,25 @@ export const nutleyCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Will my Nutley home need structural repairs under the cedar shake?',
       answer: 'Approximately 60 percent of cedar shake replacements we perform in Nutley require some degree of structural repair -- typically replacing deteriorated skip-sheathing boards and occasionally sistering weakened rafters. The extent depends on how long the cedar shake leaked before replacement was initiated. We include a structural repair allowance in our estimates and adjust the final cost based on actual conditions found during tear-off.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Nutley, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Nutley range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Nutley NJ -- genuine cedar or synthetic alternatives, skip-sheathing conversion, and structural repair expertise.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const eastOrangeCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'east-orange',
   overview: [
-    'Commercial roof installation in East Orange serves a building market defined by rehabilitation rather than new construction. While Newark\'s commercial roofing demand includes warehouse development and office tower renovation, East Orange\'s commercial corridor concentrates along Main Street and Central Avenue, where one-story and two-story retail, professional office, and mixed-use buildings are being repositioned by investors who see opportunity in the city\'s rehabilitation zone incentives. For these property owners, the roof system is often the first major capital expenditure in a renovation sequence that transforms a vacant or underperforming building into a producing commercial asset.',
+    'Newark Quality Roofing delivers expert commercial roof installation in East Orange — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in East Orange serves a building market defined by rehabilitation rather than new construction. While Newark\'s commercial roofing demand includes warehouse development and office tower renovation, East Orange\'s commercial corridor concentrates along Main Street and Central Avenue, where one-story and two-story retail, professional office, and mixed-use buildings are being repositioned by investors who see opportunity in the city\'s rehabilitation zone incentives. For these property owners, the roof system is often the first major capital expenditure in a renovation sequence that transforms a vacant or underperforming building into a producing commercial asset.',
     'Main Street between Brick Church Plaza and the East Orange city limits anchors the commercial roof installation market. Buildings along this corridor range from turn-of-the-century masonry storefronts with parapet walls and original built-up roofs to mid-century commercial blocks with steel bar-joist framing and deteriorated membrane systems. The common thread is age and deferred maintenance -- most buildings carry roof systems well past their intended service life, and many have been patched, coated, and re-covered multiple times without addressing the underlying insulation degradation and drainage deficiencies that cause recurring failures.',
     'Mixed-use buildings -- ground-floor retail with residential apartments above -- represent a growing segment of East Orange\'s commercial roofing demand. Investors converting vacant commercial buildings to mixed-use occupancy must meet both commercial building code requirements for the retail space and residential habitability standards for the apartments above. The roof system spans both uses, and its specification must satisfy the fire rating, insulation value, and energy code requirements applicable to the most restrictive occupancy type. These dual-standard projects require careful specification that addresses both code paths without over-engineering the system beyond what the building\'s value and rental market support.',
     'East Orange\'s Urban Enterprise Zone and rehabilitation incentive programs create a financial framework that influences commercial roof installation decisions. Property owners investing in qualifying improvements may access tax incentives, reduced sales tax on construction materials, and other benefits that improve the return on capital invested in building rehabilitation. Roof system selection in this context considers not just installed cost and performance, but also whether the materials and installation scope qualify under the applicable incentive program. We document our installations to support property owners\' incentive applications, including material specifications, energy performance calculations, and code compliance certifications.'
@@ -40,7 +40,25 @@ export const eastOrangeCommercialRoofInstallation: ComboContent = {
     {
       question: 'Can you coordinate commercial roof installation with other renovation trades on my East Orange rehabilitation project?',
       answer: 'Yes. On rehabilitation projects, roof installation typically must sequence with HVAC installation, electrical work, and sometimes structural modifications. We coordinate with the general contractor or directly with other trades to establish a sequencing plan that avoids conflicts. Roof penetrations for HVAC curbs and plumbing vents are located and reinforced before membrane installation so that these details are flashed correctly the first time. Our project manager attends coordination meetings and maintains a shared schedule with other trades to prevent the delays that arise when roofing work and mechanical work compete for the same building area.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in East Orange, NJ?',
+      answer: 'Most commercial roof installation projects in East Orange range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in East Orange NJ -- Main Street rehab projects, mixed-use conversions, and apartment building re-roofing with TPO and PVC.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

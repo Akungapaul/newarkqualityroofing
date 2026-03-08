@@ -4,7 +4,7 @@ export const veronaRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'verona',
   overview: [
-    'Roof replacement cost in Verona reflects the township\'s specific conditions: split-level architecture with complex multi-plane geometry, mature tree canopy requiring algae-resistant materials, and a well-maintained community where quality workmanship and clean jobsite practices are expected. The price range for Verona roof replacement spans from $12,000 for a small colonial with basic architectural shingles to $30,000 or more for a large split-level with premium materials, extensive deck repair, and ventilation upgrades. Newark Quality Roofing provides detailed cost breakdowns that show exactly where the investment goes.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Verona — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in Verona reflects the township\'s specific conditions: split-level architecture with complex multi-plane geometry, mature tree canopy requiring algae-resistant materials, and a well-maintained community where quality workmanship and clean jobsite practices are expected. The price range for Verona roof replacement spans from $12,000 for a small colonial with basic architectural shingles to $30,000 or more for a large split-level with premium materials, extensive deck repair, and ventilation upgrades. Newark Quality Roofing provides detailed cost breakdowns that show exactly where the investment goes.',
     'Cost transparency matters to Verona homeowners evaluating multiple proposals. A low-price quote that omits ice-and-water shield at transitions, skips ventilation improvements, or plans to overlay rather than tear-off creates a false comparison against a complete proposal. Our [roof replacement cost](/roof-replacement-cost) proposals itemize every component -- tear-off, deck repair allowance, underlayment, ice-and-water shield, flashings, ventilation, shingles, and cleanup -- so homeowners can compare scope-to-scope rather than price-to-price with other contractors.',
     'The total investment in a Verona roof replacement includes components that are not optional if the goal is a complete, warrantable, long-lasting roof system. Ice-and-water shield at eaves and transitions, synthetic underlayment over the full deck, proper starter strips, hand-sealed high-wind areas, and ridge vent installation are standard practice items that some contractors omit to present a lower price. Homeowners in [West Orange](/roof-replacement-cost-west-orange-nj) and throughout Essex County have learned the cost difference between a complete specification and a minimum-viable installation.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofReplacementCost: ComboContent = {
     {
       question: 'Are there financing options for roof replacement in Verona?',
       answer: 'We offer financing through established lending partners with terms from 36 to 144 months. Promotional same-as-cash periods are available on qualifying applications. Monthly payments for a typical Verona roof replacement range from $150 to $350 depending on the term selected and the total project cost. Financing allows homeowners to replace aging roofs at the optimal time rather than deferring until leaks force an emergency decision.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in Verona, NJ?',
+      answer: 'Most roof replacement cost projects in Verona range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in Verona NJ -- transparent pricing for split-level homes with detailed breakdowns and financing options.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

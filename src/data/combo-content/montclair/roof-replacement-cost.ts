@@ -4,7 +4,7 @@ export const montclairRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'montclair',
   overview: [
-    'Roof replacement cost in Montclair reflects the township\'s demanding combination of architectural complexity, premium material expectations, steep-slope labor requirements, and the Historic Preservation Commission considerations that apply to designated properties. A straightforward ranch re-roof that would cost twelve to sixteen thousand dollars in a suburban Essex County community routinely runs eighteen to thirty thousand or more on a Montclair Victorian with steep pitches, multiple dormers, chimney flashing complexity, and designer-series material specifications that the home\'s architectural character demands.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Montclair — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in Montclair reflects the township\'s demanding combination of architectural complexity, premium material expectations, steep-slope labor requirements, and the Historic Preservation Commission considerations that apply to designated properties. A straightforward ranch re-roof that would cost twelve to sixteen thousand dollars in a suburban Essex County community routinely runs eighteen to thirty thousand or more on a Montclair Victorian with steep pitches, multiple dormers, chimney flashing complexity, and designer-series material specifications that the home\'s architectural character demands.',
     'Understanding what drives cost variation in Montclair helps homeowners evaluate proposals with informed expectations rather than comparing incomparable bids. The material component -- shingles, underlayment, flashing, and ventilation hardware -- typically represents thirty-five to forty-five percent of the total project cost. Labor accounts for forty to fifty percent, with Montclair\'s steep pitches and complex geometries commanding premium rates compared to walkable-pitch installations. Our [roof replacement cost](/roof-replacement-cost) transparency for [Montclair](/roofing-in-montclair-nj) homeowners provides detailed cost breakdowns rather than lump-sum prices that obscure what drives the total.',
     'Material price differences between good, better, and best product tiers are smaller than most Montclair homeowners expect. Upgrading from standard architectural shingles to designer-series products typically adds eight to twelve percent to the total project cost -- a modest premium for a material that will define the home\'s exterior appearance for twenty-five to thirty-five years. Properties in [Glen Ridge](/roof-replacement-cost-glen-ridge-nj) and [West Orange](/roof-replacement-cost-west-orange-nj) face similar cost structures, though Montclair\'s steeper average pitches push labor costs somewhat higher.'
   ],
@@ -30,7 +30,25 @@ export const montclairRoofReplacementCost: ComboContent = {
     {
       question: 'How can I reduce roof replacement cost on my Montclair home?',
       answer: 'The most impactful cost reduction is selecting standard architectural shingles rather than designer-series products -- saving eight to twelve percent with minimal performance difference. Overlay installation instead of tear-off saves twenty-five to thirty-five percent when conditions permit. Scheduling during the slower winter months may yield modest pricing advantages. However, we caution against reducing specifications that affect long-term performance -- eliminating ice-and-water shield extension, ventilation improvements, or quality flashing to reduce cost creates false savings that result in premature repair needs.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in Montclair, NJ?',
+      answer: 'Most roof replacement cost projects in Montclair range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in Montclair NJ -- transparent pricing for Victorian, Tudor, and steep-slope homes with detailed breakdowns.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

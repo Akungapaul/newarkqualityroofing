@@ -4,7 +4,7 @@ export const bellevilleRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'belleville',
   overview: [
-    'Roof leak repair in Belleville requires diagnostic thinking shaped by the township\'s unique building conditions. When a Belleville homeowner reports a ceiling stain, the leak source might be directly above -- or it might originate two roof planes away at a dormer junction, travel laterally along a rafter, and emerge far from the actual failure point. The tightly packed Cape Cods and colonials built in the 1950s complicate tracing because attic access is often limited by low ceiling heights and stored belongings accumulated over decades. Our [roof leak repair](/roof-leak-repair) approach starts in the attic whenever possible, following moisture staining upstream to the penetration point before touching the exterior roof surface.',
+    'Newark Quality Roofing delivers expert roof leak repair in Belleville — with prices starting from $300–$1,200 and free estimates available today. Roof leak repair in Belleville requires diagnostic thinking shaped by the township\'s unique building conditions. When a Belleville homeowner reports a ceiling stain, the leak source might be directly above -- or it might originate two roof planes away at a dormer junction, travel laterally along a rafter, and emerge far from the actual failure point. The tightly packed Cape Cods and colonials built in the 1950s complicate tracing because attic access is often limited by low ceiling heights and stored belongings accumulated over decades. Our [roof leak repair](/roof-leak-repair) approach starts in the attic whenever possible, following moisture staining upstream to the penetration point before touching the exterior roof surface.',
     'The Passaic River corridor neighborhoods in eastern Belleville -- along Joralemon Street, Mill Street, and the Branch Brook Park border -- generate a disproportionate share of our Belleville leak calls. Elevated humidity promotes the biological growth that lifts shingle edges and creates micro-channels for water entry. The heavy street-tree canopy drops debris that accumulates in valleys and behind dormers, creating small dams that back water under shingle courses during moderate rainfall. Homes in these neighborhoods develop leak patterns that cycle with the seasons: ice dam leaks in January through March, debris-dam leaks during fall rains, and condensation-driven attic moisture year-round.',
     'Commercial leak repair along Washington Avenue frequently involves membrane failures at penetration points -- pipe boots, HVAC curbs, and parapet wall flashing on the flat-roofed storefronts and professional offices that line Belleville\'s main commercial corridor. These leaks often manifest during occupancy hours, threatening inventory, equipment, and tenant operations. Our commercial leak response carries temporary patch materials and water extraction equipment to arrest active intrusion while scheduling the permanent membrane repair for after-hours execution. Property managers in adjacent [Newark](/roof-leak-repair-newark-nj) operate under similar urgency protocols for their commercial tenants.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleRoofLeakRepair: ComboContent = {
     {
       question: 'Could the leak be coming from my neighbor\'s property? Our houses are very close together.',
       answer: 'In Belleville, cross-property water intrusion is more common than most homeowners realize. Failing gutters, misaligned downspouts, or roof runoff from an adjacent property can direct water against your siding and foundation. Our diagnostic process includes evaluating water sources from neighboring properties when the evidence suggests external contribution. We provide documentation and can facilitate the neighbor conversation needed to address a shared water management problem.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Belleville, NJ?',
+      answer: 'Most roof leak repair projects in Belleville range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ roof leak repair -- attic-traced diagnostics, condensation vs leak differentiation, and permanent fixes for post-war homes.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

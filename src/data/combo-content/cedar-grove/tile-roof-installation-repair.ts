@@ -4,7 +4,7 @@ export const cedarGroveTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Tile roofing in Cedar Grove occupies a niche within the township\'s predominantly ranch and colonial landscape, appearing on custom-built homes along the higher elevations near the Watchung ridge, on Mediterranean-inspired renovations, and on select properties where homeowners seek the century-long durability that clay and concrete tile provide. Our [tile roof installation](/tile-roof-installation-repair) work in Cedar Grove accounts for the structural demands these heavy materials place on existing framing, the specific weather exposure patterns of this northern Essex County location, and the aesthetic integration with a community built primarily in mid-century architectural styles.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Cedar Grove — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Cedar Grove occupies a niche within the township\'s predominantly ranch and colonial landscape, appearing on custom-built homes along the higher elevations near the Watchung ridge, on Mediterranean-inspired renovations, and on select properties where homeowners seek the century-long durability that clay and concrete tile provide. Our [tile roof installation](/tile-roof-installation-repair) work in Cedar Grove accounts for the structural demands these heavy materials place on existing framing, the specific weather exposure patterns of this northern Essex County location, and the aesthetic integration with a community built primarily in mid-century architectural styles.',
     'The township\'s position along the Second Watchung Mountain\'s western slope exposes roofs to stronger winds during nor\'easters and winter storms than the valley communities to the east. Tile roofing on Cedar Grove homes requires enhanced fastening protocols -- mechanical attachment of every tile rather than the adhesive-only methods acceptable in sheltered locations. Homeowners in nearby [Montclair](/tile-roof-installation-repair-montclair-nj) install tile on Victorian and Tudor structures with steeper pitches, while Cedar Grove\'s tile installations must adapt to the moderate-pitch ranch and colonial profiles that define the township.',
     'Concrete tile has emerged as the practical choice for most Cedar Grove tile installations, offering the dimensional appearance and longevity of clay at a lower weight and cost point. Profiles ranging from flat slate-look tiles to barrel shapes give Cedar Grove homeowners design flexibility while maintaining compatibility with the structural capacity of their existing roof framing. Whether installed on a Ridge Road contemporary or a Pompton Avenue professional office, tile roofing brings a permanence to Cedar Grove properties that outlasts every other roofing material available.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveTileRoofInstallationRepair: ComboContent = {
       question: 'Are concrete tiles as good as clay tiles for Cedar Grove homes?',
       answer: 'For most Cedar Grove applications, concrete tiles are the practical choice. They weigh slightly less than clay, cost twenty to thirty percent less, and offer comparable longevity in northern Essex County\'s climate. Concrete tiles also come in a wider range of profiles including flat designs that suit Cedar Grove\'s ranch aesthetic. We recommend clay tiles primarily for high-end custom homes where the distinctive color depth and century-plus lifespan justify the premium.',
     },
+    {
+      question: 'How much does tile roof installation repair cost in Cedar Grove, NJ?',
+      answer: 'Most tile roof installation repair projects in Cedar Grove range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Cedar Grove NJ -- clay and concrete tile for lasting beauty with structural engineering and freeze-thaw protection.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

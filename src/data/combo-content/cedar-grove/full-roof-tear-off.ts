@@ -4,7 +4,7 @@ export const cedarGroveFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'cedar-grove',
   overview: [
-    'Full roof tear-off in Cedar Grove strips every layer of existing roofing material down to the structural deck, providing a clean substrate for new roofing installation and the opportunity to inspect, repair, and upgrade the underlying structure. On the township\'s 1960s ranch and colonial homes, tear-off frequently reveals conditions invisible from the surface -- rotted sheathing at eaves where ice dams have driven moisture for decades, deteriorated valley boards beneath worn flashing, and ventilation obstructions from previous insulation installations.',
+    'Newark Quality Roofing delivers expert full roof tear off in Cedar Grove — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off in Cedar Grove strips every layer of existing roofing material down to the structural deck, providing a clean substrate for new roofing installation and the opportunity to inspect, repair, and upgrade the underlying structure. On the township\'s 1960s ranch and colonial homes, tear-off frequently reveals conditions invisible from the surface -- rotted sheathing at eaves where ice dams have driven moisture for decades, deteriorated valley boards beneath worn flashing, and ventilation obstructions from previous insulation installations.',
     'Cedar Grove building code requires full tear-off when a roof already carries two layers of shingles, when structural modifications are being made, or when the existing deck needs inspection for damage. Even on single-layer roofs where overlay would be code-compliant, we recommend tear-off for Cedar Grove ranch homes because the low-pitch geometry makes deck inspection especially important -- the shallow slopes that retain moisture and promote ice dam formation are the same slopes most likely to have developed sheathing damage over six decades of northern Essex County weather.',
     'Our [full roof tear-off](/full-roof-tear-off) process for Cedar Grove homes manages the debris, noise, and exposure that tear-off creates in the township\'s quiet residential neighborhoods. Magnetic nail sweepers, tarped landscaping, and single-day weatherproofing protect both the property and the neighborhood aesthetic throughout the project.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveFullRoofTearOff: ComboContent = {
       question: 'How much does full tear-off add to roof replacement cost?',
       answer: 'Full tear-off adds approximately one to two dollars per square foot compared to overlay installation, covering labor for stripping, disposal fees for the removed material, and deck inspection time. On a typical Cedar Grove ranch, this represents eight hundred to sixteen hundred dollars. The investment provides deck inspection access, proper underlayment installation, and a clean substrate that maximizes the new roof\'s service life.',
     },
+    {
+      question: 'How much does full roof tear off cost in Cedar Grove, NJ?',
+      answer: 'Most full roof tear off projects in Cedar Grove range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Cedar Grove NJ -- complete strip-to-deck removal for ranch homes with deck inspection and proper underlayment installation.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

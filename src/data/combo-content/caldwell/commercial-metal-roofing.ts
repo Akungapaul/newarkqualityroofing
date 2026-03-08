@@ -4,7 +4,7 @@ export const caldwellCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'caldwell',
   overview: [
-    'Commercial metal roofing in Caldwell serves a niche within the borough\'s small-scale commercial landscape where building owners seek decades of low-maintenance performance without the membrane replacement cycles that flat roof systems require. Auto repair shops on the periphery of downtown, warehouse units along the industrial pockets near the Caldwell-Fairfield border, and newer retail construction along Bloomfield Avenue have adopted standing seam and R-panel metal roofing for its combination of longevity, weather resistance, and contemporary appearance that distinguishes these buildings from the traditional flat-roofed commercial stock.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Caldwell — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in Caldwell serves a niche within the borough\'s small-scale commercial landscape where building owners seek decades of low-maintenance performance without the membrane replacement cycles that flat roof systems require. Auto repair shops on the periphery of downtown, warehouse units along the industrial pockets near the Caldwell-Fairfield border, and newer retail construction along Bloomfield Avenue have adopted standing seam and R-panel metal roofing for its combination of longevity, weather resistance, and contemporary appearance that distinguishes these buildings from the traditional flat-roofed commercial stock.',
     'The scale of [Caldwell](/roofing-in-caldwell-nj) commercial metal roofing differs fundamentally from the industrial installations in [Newark](/commercial-metal-roofing-newark-nj). Caldwell\'s commercial buildings rarely exceed 10,000 square feet of roof area, and many feature low-slope rather than flat configurations that accommodate standing seam metal panel systems. This building scale allows panel runs from ridge to eave without the structural expansion joints that larger buildings require, simplifying installation and eliminating potential leak points. Our [commercial metal roofing](/commercial-metal-roofing) approach for Caldwell leverages this scale advantage for tighter, simpler installations.',
     'Aesthetic considerations play a larger role in Caldwell commercial metal roofing decisions than in industrial applications. Bloomfield Avenue businesses operate within a small-town streetscape where building appearance affects neighboring property values and community perception. Standing seam metal in architectural colors -- slate gray, patina green, copper-tone brown -- integrates with Caldwell\'s traditional character while communicating the quality that attracts the borough\'s customer base. Metal roofing serves both the practical and visual needs of Caldwell\'s commercial district.'
   ],
@@ -34,7 +34,25 @@ export const caldwellCommercialMetalRoofing: ComboContent = {
     {
       question: 'What metal roof color works best for Caldwell commercial buildings?',
       answer: 'Caldwell\'s commercial streetscape favors earth tones and traditional colors that complement the borough\'s residential character. Charcoal gray, slate, and dark bronze are the most popular choices for Bloomfield Avenue storefronts. Lighter colors like light gray or off-white provide better energy performance through solar reflectivity and meet cool-roof energy code requirements. We provide color samples viewed against the building facade and neighboring structures so the selection integrates with the specific location rather than looking out of place in Caldwell\'s small-town context.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in Caldwell, NJ?',
+      answer: 'Most commercial metal roofing projects in Caldwell range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Caldwell NJ -- standing seam systems for Bloomfield Avenue shops and light-commercial buildings with acoustic insulation.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

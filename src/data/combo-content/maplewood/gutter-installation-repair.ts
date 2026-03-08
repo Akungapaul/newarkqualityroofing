@@ -4,7 +4,7 @@ export const maplewoodGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'maplewood',
   overview: [
-    'Gutter installation and repair carries outsized importance in Maplewood, where South Mountain Reservation\'s massive tree canopy generates leaf and debris volumes that overwhelm undersized or poorly maintained gutter systems. Properties along Prospect Street, Wyoming Avenue, and throughout the Hilton neighborhood contend with seasonal debris loads that can fill standard gutters within weeks of autumn\'s first drop. Our [gutter installation](/gutter-installation-repair) work in [Maplewood](/roofing-in-maplewood-nj) sizes gutter systems for the actual debris and water volumes that Maplewood\'s wooded environment produces, not the generic calculations that work in treeless subdivisions.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Maplewood — with prices starting from $1,000–$3,500 and free estimates available today. Gutter installation and repair carries outsized importance in Maplewood, where South Mountain Reservation\'s massive tree canopy generates leaf and debris volumes that overwhelm undersized or poorly maintained gutter systems. Properties along Prospect Street, Wyoming Avenue, and throughout the Hilton neighborhood contend with seasonal debris loads that can fill standard gutters within weeks of autumn\'s first drop. Our [gutter installation](/gutter-installation-repair) work in [Maplewood](/roofing-in-maplewood-nj) sizes gutter systems for the actual debris and water volumes that Maplewood\'s wooded environment produces, not the generic calculations that work in treeless subdivisions.',
     'Maplewood\'s elevation gradient from the South Mountain border down to the eastern lowlands creates drainage velocity variations that affect gutter system design. Western hillside homes on steep lots channel rainwater at velocities that standard gutter runs cannot handle at lower slope. We size downspouts and specify gutter capacity for the specific lot grade and roof collection area on each Maplewood property, preventing the overflow that erodes foundations and saturates basements on sloped sites.',
     'Architecturally, Maplewood\'s Victorian and Colonial Revival homes often retain original box gutters, half-round profiles, or decorative gutter configurations that contribute to curb appeal. Replacing these with standard K-style aluminum may be cost-effective but diminishes the home\'s architectural character. We offer half-round copper, half-round aluminum, and custom-profile gutter options that maintain period appearance while delivering modern drainage performance. Homeowners in [Millburn](/gutter-installation-repair-millburn-nj) with estate-scale homes share this preference for architecturally appropriate gutter profiles.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodGutterInstallationRepair: ComboContent = {
       question: 'How often should Maplewood gutters be cleaned?',
       answer: 'Properties near South Mountain Reservation need cleaning 3-4 times per year: late spring after seed drop, mid-summer after storm debris, late autumn after leaf fall, and early spring after winter residue. Properties in eastern Maplewood with less tree coverage can manage with 2 cleanings per year. Gutter guard installation reduces cleaning frequency to annual inspection and surface clearing.',
     },
+    {
+      question: 'How much does gutter installation repair cost in Maplewood, NJ?',
+      answer: 'Most gutter installation repair projects in Maplewood range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Maplewood NJ. Oversized systems for South Mountain debris, half-round profiles for Victorians.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

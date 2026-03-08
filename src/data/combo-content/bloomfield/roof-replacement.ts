@@ -4,7 +4,7 @@ export const bloomfieldRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Roof replacement in Bloomfield is a practical milestone that most homeowners reach when their post-war housing stock hits the fifty-to-seventy-year mark and patching no longer delivers cost-effective returns. The Cape Cods lining streets in Brookdale and Oakcrest, the split-levels filling out Watsessing, and the colonials dotting the North End were built during an era when standard-weight three-tab shingles and basic flashing details were the norm. Two or three decades of layered re-roofing have brought many of these homes to the code maximum, leaving full tear-off and replacement as the only remaining option. Homeowners in neighboring [Montclair](/roof-replacement-montclair-nj) face similar replacement timelines on their older housing stock, though Bloomfield\'s value-oriented market demands a different cost conversation.',
+    'Newark Quality Roofing delivers expert roof replacement in Bloomfield — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement in Bloomfield is a practical milestone that most homeowners reach when their post-war housing stock hits the fifty-to-seventy-year mark and patching no longer delivers cost-effective returns. The Cape Cods lining streets in Brookdale and Oakcrest, the split-levels filling out Watsessing, and the colonials dotting the North End were built during an era when standard-weight three-tab shingles and basic flashing details were the norm. Two or three decades of layered re-roofing have brought many of these homes to the code maximum, leaving full tear-off and replacement as the only remaining option. Homeowners in neighboring [Montclair](/roof-replacement-montclair-nj) face similar replacement timelines on their older housing stock, though Bloomfield\'s value-oriented market demands a different cost conversation.',
     'The township\'s housing variety creates distinct replacement scenarios that a one-size-fits-all approach cannot address. A Cape Cod with a simple gable roof and minimal penetrations is a straightforward two-day project. A split-level with four or five intersecting roof planes, multiple valleys, and step-down transitions between levels demands meticulous flashing work and an extra day of labor. A colonial with dormers, a chimney, and a screened porch roof extension adds complexity that must be reflected honestly in the estimate rather than hidden in vague line items. Our [roof replacement](/roof-replacement) process accounts for each building type\'s specific challenges.',
     'Bloomfield homeowners approach roof replacement as a budget-conscious investment decision, not a style upgrade. They want to understand the cost per year of ownership, the warranty implications of different material choices, and the honest trade-offs between economy and premium products. This practical orientation aligns with our approach: we present clear cost comparisons between material tiers, explain what the price difference actually buys in terms of performance and longevity, and let the homeowner decide where their budget delivers the most value. No pressure tactics, no artificial urgency -- just honest numbers for a major home investment.'
   ],
@@ -38,7 +38,25 @@ export const bloomfieldRoofReplacement: ComboContent = {
     {
       question: 'Do I need a permit for roof replacement in Bloomfield?',
       answer: 'Yes. Bloomfield Township requires a building permit for any roof replacement project, whether tear-off or overlay. The permit ensures that the installation meets current New Jersey building code requirements for materials, fastening, and ventilation. We handle the permit application, schedule any required inspections, and ensure the project closes with a final inspection approval. The permit cost is included in our project proposal as a separate line item.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most roof replacement projects in Bloomfield range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Bloomfield NJ roof replacement for Cape Cods, split-levels, and colonials -- full tear-off, ventilation upgrades, and value-focused material selection.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

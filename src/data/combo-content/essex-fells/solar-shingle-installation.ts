@@ -4,7 +4,7 @@ export const essexFellsSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'essex-fells',
   overview: [
-    'Solar shingle technology addresses the primary objection that Essex Fells homeowners raise against traditional solar panels: visible disruption of the home\'s architectural roofline. Building-integrated photovoltaic shingles replace conventional roofing material with energy-producing tiles that generate electricity while maintaining a unified roof appearance indistinguishable from premium roofing material at typical viewing distances. For Essex Fells estate properties where architect-designed roof forms are central to the home\'s architectural identity, solar shingles offer renewable energy production without the aesthetic compromise of rack-mounted panel arrays.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Essex Fells — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology addresses the primary objection that Essex Fells homeowners raise against traditional solar panels: visible disruption of the home\'s architectural roofline. Building-integrated photovoltaic shingles replace conventional roofing material with energy-producing tiles that generate electricity while maintaining a unified roof appearance indistinguishable from premium roofing material at typical viewing distances. For Essex Fells estate properties where architect-designed roof forms are central to the home\'s architectural identity, solar shingles offer renewable energy production without the aesthetic compromise of rack-mounted panel arrays.',
     'The current generation of solar shingles -- including Tesla Solar Roof tiles and CertainTeed Apollo systems -- has matured sufficiently for Essex Fells estate applications, though the technology involves trade-offs that homeowners must understand before committing. Solar shingles produce approximately thirty to fifty percent less electricity per square foot than conventional panels due to their fixed mounting angle, reduced cell area, and integration constraints. For Essex Fells properties already contending with canopy shade reduction, this efficiency gap means solar shingle systems require greater roof area to achieve equivalent production -- area that may not be available on shaded estate homes.',
     'Our [solar shingle installation](/solar-shingle-installation) capability in Essex Fells combines our roofing expertise with integrated photovoltaic system installation, providing the dual competence that building-integrated solar requires. Unlike rack-mounted panels installed by solar companies onto existing roofs, solar shingles ARE the roof -- they must be integrated into the complete roofing assembly with proper underlayment, flashing, and waterproofing details executed to the same standards as any premium roofing installation. This roof-first approach ensures that the energy-producing function does not compromise the waterproofing integrity that protects the estate below.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsSolarShingleInstallation: ComboContent = {
     {
       question: 'Do solar shingles work effectively under Essex Fells tree canopy?',
       answer: 'Solar shingle performance under canopy shade follows the same physics as conventional panels -- shaded units produce significantly less electricity. The critical difference is that solar shingles cannot be repositioned to avoid shade as ground-mounted panels can. Our shade analysis identifies which roof areas receive sufficient solar exposure for meaningful production. Properties with heavy canopy coverage across all roof surfaces may find that the production achievable with solar shingles does not justify the premium cost, in which case we recommend alternative solar strategies or energy efficiency improvements as more cost-effective investments.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Essex Fells, NJ?',
+      answer: 'Most solar shingle installation projects in Essex Fells range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Essex Fells NJ -- building-integrated photovoltaics for estate homes preserving architectural rooflines.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

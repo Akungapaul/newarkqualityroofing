@@ -4,7 +4,7 @@ export const newarkResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'newark',
   overview: [
-    'Residential roof installation in Newark is overwhelmingly a replacement market. With housing stock dating back to the 1880s across neighborhoods like Forest Hill, Roseville, and Vailsburg, the vast majority of projects involve tearing off deteriorated layers and installing modern roofing systems on structures that have already seen two or three roof lifetimes. New construction residential roofing accounts for less than ten percent of the work we perform across the city, concentrated primarily in redevelopment zones along the waterfront and in University Heights.',
+    'Newark Quality Roofing delivers expert residential roof installation in Newark — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Newark is overwhelmingly a replacement market. With housing stock dating back to the 1880s across neighborhoods like Forest Hill, Roseville, and Vailsburg, the vast majority of projects involve tearing off deteriorated layers and installing modern roofing systems on structures that have already seen two or three roof lifetimes. New construction residential roofing accounts for less than ten percent of the work we perform across the city, concentrated primarily in redevelopment zones along the waterfront and in University Heights.',
     'The diversity of Newark housing demands versatile installation expertise. Forest Hill presents stately Tudor and Colonial Revival homes with steep cross-gabled roofs that require precise valley flashing and dormer integration. Vailsburg offers rows of modest colonials and Cape Cods where cost-effective architectural shingles deliver the best value per square foot. The Ironbound features tightly packed two- and three-family homes where roof access logistics and neighbor coordination become as important as the installation itself. Each neighborhood presents a distinct installation challenge shaped by the original builders and the decades of wear that followed.',
     'Multi-family residential roofing comprises a significant portion of Newark installations. Two-family and three-family homes are prevalent throughout the North Ward, Central Ward, and South Ward, creating shared-roof scenarios where ownership responsibilities, cost-splitting arrangements, and HOA or condo association approvals add layers of coordination beyond the physical roofing work. Our installation process accounts for these complexities from the initial estimate through final inspection.',
     'Newark building codes require permits for all residential roof installations exceeding basic repairs. The city inspection process evaluates structural adequacy, underlayment compliance, flashing details, and ventilation standards. Properties in designated historic districts face additional review from the Newark Landmarks and Historic Preservation Commission, which may restrict material choices or color palettes to maintain neighborhood character. Understanding these regulatory requirements before ordering materials prevents costly delays and change orders.',
@@ -36,6 +36,24 @@ export const newarkResidentialRoofInstallation: ComboContent = {
       question: 'What happens if structural damage is found during the tear-off?',
       answer: 'Our crews are equipped and experienced to handle framing repairs discovered during tear-off. Common findings in older Newark homes include rotted rafter tails, deteriorated plank sheathing, and inadequate collar ties. We document and photograph all structural work, adjust the scope with your approval, and ensure repairs meet current building code before proceeding with the new roof installation.',
     },
+    {
+      question: 'How much does residential roof installation cost in Newark, NJ?',
+      answer: 'Most residential roof installation projects in Newark range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Professional residential roof installation in Newark NJ. Expert replacements for single-family and multi-family homes across Forest Hill and Vailsburg.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

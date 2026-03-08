@@ -4,7 +4,7 @@ export const fairfieldRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'fairfield',
   overview: [
-    'EPDM rubber roofing occupies a central role in Fairfield\'s roofing landscape, serving both the residential flat-roof additions common across the township\'s ranch-style homes and the commercial buildings lining the Route 46 corridor. Fairfield\'s dual residential-commercial character makes EPDM a workhorse material: it performs reliably on the small flat sections above garages and sunrooms on Hollywood Avenue homes while also covering the expansive warehouse and retail roofs that define the township\'s commercial tax base. Property owners throughout the western Essex County area, including neighboring [Caldwell](/rubber-roofing-epdm-caldwell-nj) and [Roseland](/rubber-roofing-epdm-roseland-nj), depend on EPDM for its proven forty-year track record on flat and low-slope applications.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Fairfield — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing occupies a central role in Fairfield\'s roofing landscape, serving both the residential flat-roof additions common across the township\'s ranch-style homes and the commercial buildings lining the Route 46 corridor. Fairfield\'s dual residential-commercial character makes EPDM a workhorse material: it performs reliably on the small flat sections above garages and sunrooms on Hollywood Avenue homes while also covering the expansive warehouse and retail roofs that define the township\'s commercial tax base. Property owners throughout the western Essex County area, including neighboring [Caldwell](/rubber-roofing-epdm-caldwell-nj) and [Roseland](/rubber-roofing-epdm-roseland-nj), depend on EPDM for its proven forty-year track record on flat and low-slope applications.',
     'Residential EPDM installations in Fairfield typically cover flat-roof sections that were added to originally pitched-roof homes during the renovation waves of the 1980s and 1990s. Family room additions, enclosed porches, and attached garage roofs throughout the subdivisions near the Caldwell border use EPDM membranes that have now aged twenty-five to thirty years -- approaching or past their serviceable lifespan. Our [rubber roofing EPDM](/rubber-roofing-epdm) replacement program for these residential sections provides a fresh forty-five or sixty-mil membrane with modern adhesive systems that outperform the ballasted installations common in Fairfield\'s earlier construction cycles.',
     'Route 46 commercial properties represent Fairfield\'s largest EPDM market by square footage. Distribution warehouses, hotel roofs, strip mall buildings, and office parks along this corridor were frequently built with EPDM membranes selected for cost-effectiveness and installation speed during the commercial construction boom. Many of these original installations are now reaching the end of their design life, and property managers face decisions between membrane replacement and re-cover options. We evaluate each Route 46 property individually, recommending full replacement when the existing membrane has exceeded its core integrity versus re-cover when the substrate remains sound and only the surface has degraded.',
     'The Passaic River corridor along Fairfield\'s eastern border creates standing-water conditions on flat roofs during heavy rain events and spring snowmelt. EPDM handles ponding water better than most membrane alternatives -- it does not degrade from UV-exposed standing water the way some single-ply systems can -- making it particularly well-suited for Fairfield\'s lower-elevation commercial properties where drainage design often underperforms during peak weather events.'
@@ -35,7 +35,25 @@ export const fairfieldRubberRoofingEpdm: ComboContent = {
     {
       question: 'What causes the most EPDM failures on Route 46 commercial roofs?',
       answer: 'Penetration failures around HVAC equipment and exhaust fans cause the majority of commercial EPDM leaks in Fairfield. The combination of thermal cycling, equipment vibration, and foot traffic from maintenance technicians stresses membrane boots and pitch pockets beyond their design limits. Seam failures on older installations with adhesive-bonded seams are the second most common issue. Modern tape-seamed EPDM and properly detailed equipment flashings have dramatically reduced both failure modes on new installations.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Fairfield, NJ?',
+      answer: 'Most rubber roofing epdm projects in Fairfield range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Fairfield NJ. Residential flat-roof sections and Route 46 commercial membrane installation with modern seam technology.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'montclair',
   overview: [
-    'TPO roofing in Montclair occupies a narrow but important niche -- the township is predominantly residential, but its commercial corridors along Valley Road and Bloomfield Avenue, the boutique retail district on Church Street, and the institutional buildings near Montclair State University all present flat-roof challenges that TPO membrane addresses efficiently. Unlike Newark\'s warehouse-scale commercial roofscapes, Montclair\'s commercial footprints are typically modest -- 2,000 to 8,000 square feet -- which means material waste, equipment mobilization, and seam density per square foot all factor differently in the installation calculus.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Montclair — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing in Montclair occupies a narrow but important niche -- the township is predominantly residential, but its commercial corridors along Valley Road and Bloomfield Avenue, the boutique retail district on Church Street, and the institutional buildings near Montclair State University all present flat-roof challenges that TPO membrane addresses efficiently. Unlike Newark\'s warehouse-scale commercial roofscapes, Montclair\'s commercial footprints are typically modest -- 2,000 to 8,000 square feet -- which means material waste, equipment mobilization, and seam density per square foot all factor differently in the installation calculus.',
     'Arts & Crafts bungalows and certain mid-century modern homes in Montclair incorporate flat or very-low-slope roof sections that were originally surfaced with built-up tar-and-gravel or early rubber membrane. These residential flat sections -- often porch roofs, additions, or the main roof plane on modernist designs -- are candidates for TPO conversion when the original material reaches end of life. The reflective white surface integrates cleanly with the restrained aesthetic of mid-century architecture, and on Arts & Crafts homes where the flat section sits behind a parapet or below the main roof plane, TPO provides superior waterproofing without affecting the visible architectural character.',
     'Montclair State University\'s campus expansion has driven commercial roofing activity in the Valley Road corridor and surrounding blocks. Mixed-use buildings combining ground-floor retail with upper-floor apartments, professional offices above storefronts, and small institutional buildings serving the university community all require flat-roof systems that balance performance, cost, and energy efficiency. TPO\'s competitive installed cost, twenty-year-plus warranty potential, and energy code compliance through inherent reflectivity make it the default specification for these mid-scale commercial applications in the Montclair market.'
   ],
@@ -34,7 +34,25 @@ export const montclairTpoRoofingInstallation: ComboContent = {
     {
       question: 'Can a TPO roof support solar panels on my Montclair commercial property?',
       answer: 'Yes. TPO membrane is compatible with ballasted and mechanically attached solar racking systems. We coordinate with solar installers during the roof design phase to position membrane seams, penetration flashings, and attachment points in alignment with the planned solar array layout. Installing the roof and solar mounting simultaneously avoids the warranty complications that arise when solar is added later and requires penetrating a warrantied membrane. For Montclair commercial properties pursuing SREC revenue or sustainability goals, TPO with integrated solar mounting is the most cost-effective combined system.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Montclair, NJ?',
+      answer: 'Most tpo roofing installation projects in Montclair range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation for Montclair NJ commercial buildings and flat-roof residential sections -- wind-rated for Watchung Ridge elevation.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

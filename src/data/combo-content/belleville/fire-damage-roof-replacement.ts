@@ -4,7 +4,7 @@ export const bellevilleFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'belleville',
   overview: [
-    'Fire damage roof replacement in Belleville involves unique complexities created by the township\'s dense residential fabric. When fire damages a roof on one of Belleville\'s closely-spaced homes, the heat, smoke, and water from firefighting operations frequently affect adjacent properties as well. The narrow gaps between buildings allow radiant heat to blister siding and damage roofing materials on neighboring homes, while water from fire hoses flows between buildings and floods through shared drainage paths.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Belleville — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Belleville involves unique complexities created by the township\'s dense residential fabric. When fire damages a roof on one of Belleville\'s closely-spaced homes, the heat, smoke, and water from firefighting operations frequently affect adjacent properties as well. The narrow gaps between buildings allow radiant heat to blister siding and damage roofing materials on neighboring homes, while water from fire hoses flows between buildings and floods through shared drainage paths.',
     'The structural assessment following a fire on a [Belleville](/roofing-in-belleville-nj) home extends beyond the roof surface into the entire structural frame. Fire compromises wood framing by charring the surface and reducing the cross-sectional strength of rafters, joists, and sheathing. The water used to suppress the fire saturates insulation, sheathing, and interior finishes, creating secondary moisture damage that compounds the fire damage. Our [fire damage replacement](/fire-damage-roof-replacement) assessment evaluates both fire and water damage to develop a complete restoration scope.',
     'Insurance coordination for fire damage in Belleville involves significantly larger claim values and more complex adjustment processes than storm damage claims. Fire claims typically include structural repair, interior restoration, temporary housing, and personal property replacement in addition to the roofing scope. We focus specifically on the roofing and structural restoration component, providing detailed documentation that integrates with the broader claim scope managed by the homeowner\'s public adjuster or insurance representative.',
     'Belleville\'s building department requires structural engineering review and permits for fire-damaged properties before reconstruction can proceed. The engineering assessment determines which structural elements must be replaced versus those that can be restored through sistering, reinforcement, or surface treatment. We coordinate with the structural engineer and Belleville building officials to develop a restoration plan that meets code requirements while managing the project timeline that fire-displaced homeowners are anxiously monitoring, similar to fire restoration projects in [Newark](/fire-damage-roof-replacement-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Can fire damage affect my Belleville neighbor\'s roof?',
       answer: 'Yes. On Belleville\'s closely-spaced lots, radiant heat from a house fire can blister siding and damage roofing materials on adjacent properties. Firefighting water may also cause damage to neighboring roofs and interiors. Each affected property files a separate claim with their own insurance carrier. We can assess and restore multiple adjacent properties from the same fire event.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Belleville, NJ?',
+      answer: 'Most fire damage roof replacement projects in Belleville range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Belleville NJ. Structural restoration and insurance coordination for fire-damaged homes on closely-spaced lots.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

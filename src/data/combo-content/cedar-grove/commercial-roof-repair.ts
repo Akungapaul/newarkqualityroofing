@@ -4,7 +4,7 @@ export const cedarGroveCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Commercial roof repair in Cedar Grove keeps the township\'s business properties along Pompton Avenue, Route 23, and the professional office parks operational through the membrane failures, flashing deterioration, and drainage problems that flat and low-slope commercial roofs develop over years of northern Essex County weather exposure. Our [commercial roof repair](/commercial-roof-repair) response for Cedar Grove businesses prioritizes rapid water entry mitigation followed by permanent repair that addresses the root cause rather than just the visible symptom.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Cedar Grove — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Cedar Grove keeps the township\'s business properties along Pompton Avenue, Route 23, and the professional office parks operational through the membrane failures, flashing deterioration, and drainage problems that flat and low-slope commercial roofs develop over years of northern Essex County weather exposure. Our [commercial roof repair](/commercial-roof-repair) response for Cedar Grove businesses prioritizes rapid water entry mitigation followed by permanent repair that addresses the root cause rather than just the visible symptom.',
     'Cedar Grove\'s commercial building managers face the challenge of maintaining aging roof systems on structures built during the township\'s 1960s through 1980s commercial development. These roofs carry decades of patch repairs, equipment additions, and weathering that create an increasingly complex maintenance profile. Our diagnostic approach identifies whether targeted repair remains cost-effective or whether the accumulation of issues has reached the threshold where roof replacement provides better long-term value for the building owner.',
     'Emergency commercial repair for active leaks in occupied Cedar Grove buildings requires rapid deployment and minimally disruptive repair techniques. Water entry during business hours threatens inventory, equipment, tenant operations, and the building owner\'s liability exposure. We maintain emergency repair materials for the most common commercial membrane types found in Cedar Grove and can typically have a crew on-site within four hours of an emergency call during business hours.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveCommercialRoofRepair: ComboContent = {
       question: 'What does commercial roof repair cost in Cedar Grove?',
       answer: 'Targeted commercial roof repairs in Cedar Grove typically range from five hundred to three thousand dollars depending on the type and extent of damage. Membrane patches, seam re-welds, and individual flashing repairs fall at the lower end. Multi-area repairs, equipment curb reflashing, and drain system repairs fall at the upper end. Emergency service calls include a diagnostic fee that is credited toward the repair cost.',
     },
+    {
+      question: 'How much does commercial roof repair cost in Cedar Grove, NJ?',
+      answer: 'Most commercial roof repair projects in Cedar Grove range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Cedar Grove NJ -- fast leak diagnosis and membrane repair for Pompton Ave offices and Route 23 retail buildings.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

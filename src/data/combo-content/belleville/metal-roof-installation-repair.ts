@@ -4,7 +4,7 @@ export const bellevilleMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Metal roofing in Belleville represents a growing interest among homeowners seeking a permanent roofing solution for the township\'s post-war housing stock. The appeal is straightforward: a standing seam or metal panel roof installed on a Belleville Cape Cod or colonial will outlast two full cycles of asphalt shingle replacement, resist the wind forces channeled between closely-spaced homes, and shed the debris from Belleville\'s street tree canopy more effectively than granulated shingle surfaces that trap leaves in their texture. Our [metal roof installation and repair](/metal-roof-installation-repair) work in Belleville focuses on residential standing seam systems that suit the township\'s architectural vernacular while delivering the fifty-year-plus performance that metal provides.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in Belleville — with prices starting from $15,000–$35,000 and free estimates available today. Metal roofing in Belleville represents a growing interest among homeowners seeking a permanent roofing solution for the township\'s post-war housing stock. The appeal is straightforward: a standing seam or metal panel roof installed on a Belleville Cape Cod or colonial will outlast two full cycles of asphalt shingle replacement, resist the wind forces channeled between closely-spaced homes, and shed the debris from Belleville\'s street tree canopy more effectively than granulated shingle surfaces that trap leaves in their texture. Our [metal roof installation and repair](/metal-roof-installation-repair) work in Belleville focuses on residential standing seam systems that suit the township\'s architectural vernacular while delivering the fifty-year-plus performance that metal provides.',
     'The noise concern that many Belleville homeowners raise about metal roofing is valid but manageable. Rain impact on a metal roof is audible, and in Belleville\'s dense neighborhoods where bedroom windows often face the adjacent home eight feet away, sound transmission matters. Our installation specification includes solid decking with high-density synthetic underlayment beneath the metal panels, creating a sound-dampening assembly that reduces rain noise to levels comparable to asphalt shingles. The result is metal roof performance without the soundtrack that older, uninsulated metal installations produced.',
     'Metal roof repair in Belleville is infrequent but occasionally necessary. Branch impacts from the mature tree canopy can dent panels or displace standing seam connections. Thermal expansion at panel seams requires periodic sealant renewal, particularly at the extreme temperature range that Belleville\'s heat island microclimate imposes. Our metal roof maintenance and repair service addresses these issues with the specialized tools and materials that metal roofing requires -- standard asphalt shingle repair techniques do not apply. Homeowners in neighboring [Bloomfield](/metal-roof-installation-repair-bloomfield-nj) are similarly exploring metal roofing for its longevity and weather resistance advantages.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'Do I need to worry about snow sliding off a metal roof onto my neighbor\'s property?',
       answer: 'Yes, snow release is a real concern on metal roofs in Belleville due to the proximity of adjacent properties. We install snow guard systems along the eave line above all pedestrian areas, property line zones, and doorway locations. These guards retain snow on the roof surface, allowing it to melt gradually rather than releasing in sudden sheets. Snow guard placement is calculated based on roof slope, exposure, and the specific locations below that require protection.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in Belleville, NJ?',
+      answer: 'Most metal roof installation repair projects in Belleville range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ metal roof installation -- standing seam systems for dense lots, sound-dampened assembly, and snow guard safety.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

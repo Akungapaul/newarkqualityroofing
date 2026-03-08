@@ -4,7 +4,7 @@ export const caldwellPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'caldwell',
   overview: [
-    'PVC roofing serves a specialized role within Caldwell\'s commercial building landscape, providing chemical-resistant membrane protection for buildings where kitchen exhaust, grease-laden air, and industrial emissions contact the roof surface. The restaurants along Bloomfield Avenue -- Italian, Portuguese, American grill houses, and pizza shops that anchor the borough\'s dining culture -- produce cooking exhaust that deteriorates EPDM and TPO membranes but leaves PVC unaffected. For these food-service buildings, PVC is not just an option but the technically correct material choice that prevents the premature membrane failure other materials would suffer.',
+    'Newark Quality Roofing delivers expert pvc roofing in Caldwell — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing serves a specialized role within Caldwell\'s commercial building landscape, providing chemical-resistant membrane protection for buildings where kitchen exhaust, grease-laden air, and industrial emissions contact the roof surface. The restaurants along Bloomfield Avenue -- Italian, Portuguese, American grill houses, and pizza shops that anchor the borough\'s dining culture -- produce cooking exhaust that deteriorates EPDM and TPO membranes but leaves PVC unaffected. For these food-service buildings, PVC is not just an option but the technically correct material choice that prevents the premature membrane failure other materials would suffer.',
     'Beyond restaurant applications, [Caldwell\'s](/roofing-in-caldwell-nj) PVC roofing installations appear on medical and dental offices where chemical sterilization equipment vents through the roof, auto service facilities where solvent vapors contact the roof surface, and nail salons where chemical exhaust reaches the building exterior. Each of these Caldwell businesses generates airborne chemicals that interact with roofing membranes, and PVC\'s chemical resistance protects the roof investment in ways that chemically vulnerable alternatives cannot.',
     'PVC membrane systems share TPO\'s hot-air welded seam technology, producing fusion bonds that actually exceed the parent membrane strength. Unlike adhesive-bonded seams on EPDM that can separate under Caldwell\'s thermal cycling, PVC welds create permanent joints immune to temperature-driven adhesive failure. This seam reliability, combined with chemical resistance, positions PVC as the premium single-ply choice for Caldwell commercial buildings where the operating environment demands more than standard membrane chemistry provides. Neighbors in [Bloomfield](/pvc-roofing-bloomfield-nj) and [Montclair](/pvc-roofing-montclair-nj) see similar PVC applications on their restaurant rows.'
   ],
@@ -34,7 +34,25 @@ export const caldwellPvcRoofing: ComboContent = {
     {
       question: 'Can PVC roofing be installed over existing roofing on my Caldwell building?',
       answer: 'PVC overlay is possible when the existing roof surface is dry, structurally sound, and chemically compatible with PVC membrane. PVC is chemically incompatible with asphalt-based products, so existing BUR or modified bitumen roofs require a separation layer between the old surface and the new PVC membrane. We evaluate the existing roof assembly for moisture content, adhesion quality, and chemical compatibility before recommending overlay versus tear-off. When conditions support it, overlay saves tear-off cost and eliminates the business disruption that full removal creates.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Caldwell, NJ?',
+      answer: 'Most pvc roofing projects in Caldwell range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Caldwell NJ -- chemical-resistant membrane for Bloomfield Avenue restaurants and commercial buildings with grease exhaust exposure.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

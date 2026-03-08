@@ -4,7 +4,7 @@ export const bloomfieldTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'bloomfield',
   overview: [
-    'Bloomfield\'s TPO roofing market serves two distinct segments: the commercial strip along Bloomfield Avenue and the flat-roof sections found on the township\'s residential building types. Bloomfield Avenue runs through the heart of town as a continuous commercial corridor -- retail storefronts, restaurants, professional offices, banks, and service businesses occupy one- and two-story buildings with flat or low-slope roofs that are candidates for TPO membrane when their aging built-up or modified bitumen surfaces reach end of life. This commercial strip generates steady demand for cost-effective flat-roof replacement, and TPO\'s competitive installed cost makes it the practical choice for Bloomfield\'s value-oriented business community.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Bloomfield — with prices starting from $7–$12/sq ft and free estimates available today. Bloomfield\'s TPO roofing market serves two distinct segments: the commercial strip along Bloomfield Avenue and the flat-roof sections found on the township\'s residential building types. Bloomfield Avenue runs through the heart of town as a continuous commercial corridor -- retail storefronts, restaurants, professional offices, banks, and service businesses occupy one- and two-story buildings with flat or low-slope roofs that are candidates for TPO membrane when their aging built-up or modified bitumen surfaces reach end of life. This commercial strip generates steady demand for cost-effective flat-roof replacement, and TPO\'s competitive installed cost makes it the practical choice for Bloomfield\'s value-oriented business community.',
     'The second TPO market in Bloomfield sits on the flat and low-slope roof sections of residential split-levels and bi-levels. Many split-level homes have a flat or near-flat section over the lower level -- often covering a garage, family room, or entry foyer -- that was originally roofed with rolled roofing or a thin modified bitumen membrane. These sections develop chronic leaking after fifteen to twenty years, and homeowners face a choice between repeated patching and a permanent membrane solution. TPO provides that permanent fix: a single-ply membrane with heat-welded seams that eliminates the seam and lap failures inherent in rolled roofing applications, delivering twenty-year-plus performance on these problem areas.',
     'Commercial properties near the Garden State Parkway interchanges in Bloomfield -- office parks, strip malls, and light industrial buildings along the GSP corridor -- represent the township\'s largest-footprint TPO installations. These buildings typically range from 5,000 to 20,000 square feet of roof area, large enough for the installation efficiencies that reduce TPO\'s per-square-foot cost but small enough to complete in one to two weeks without the multi-phase logistics that Newark warehouse projects demand. Building owners along this corridor are particularly receptive to TPO\'s energy savings, as cooling costs for commercially air-conditioned buildings in full sun exposure along the parkway are a significant operating expense that the reflective membrane directly reduces.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldTpoRoofingInstallation: ComboContent = {
     {
       question: 'Is a white TPO roof appropriate for Bloomfield, or will it look out of place?',
       answer: 'White TPO is standard for commercial flat roofs and is not visible from street level on most Bloomfield commercial buildings with parapet walls. The energy savings from the reflective surface -- typically ten to twenty percent reduction in cooling costs -- make white the clear performance choice. For buildings where the roof surface is visible from neighboring properties or elevated vantage points, we also offer tan and gray TPO options that blend more naturally while still providing measurably better reflective performance than dark-surfaced roofing materials.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Bloomfield, NJ?',
+      answer: 'Most tpo roofing installation projects in Bloomfield range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in Bloomfield NJ -- Bloomfield Avenue commercial corridor, split-level flat sections, and GSP-corridor commercial buildings.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

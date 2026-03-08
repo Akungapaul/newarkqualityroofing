@@ -4,7 +4,7 @@ export const northCaldwellRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'north-caldwell',
   overview: [
-    'Roof overlay installation provides North Caldwell homeowners with a re-roofing option that installs new shingles directly over the existing roof layer, avoiding the cost and disruption of full tear-off. For estate homes where the existing roof has only one layer, the deck condition is verified as sound through attic inspection, and the homeowner prefers the faster, cleaner installation process, overlay delivers a new roof surface at reduced cost with minimal property disturbance.',
+    'Newark Quality Roofing delivers expert roof overlay installation in North Caldwell — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation provides North Caldwell homeowners with a re-roofing option that installs new shingles directly over the existing roof layer, avoiding the cost and disruption of full tear-off. For estate homes where the existing roof has only one layer, the deck condition is verified as sound through attic inspection, and the homeowner prefers the faster, cleaner installation process, overlay delivers a new roof surface at reduced cost with minimal property disturbance.',
     'Our [overlay installation](/roof-overlay-installation) work in North Caldwell follows strict candidacy criteria. The existing roof must have only one layer (building code limits total layers to two). The existing shingles must lie flat without significant curling or buckling that would telegraph through the new layer. Attic inspection must confirm dry, solid deck sheathing with no evidence of moisture damage. When these criteria are met, overlay provides a legitimate installation option for [North Caldwell](/roofing-in-north-caldwell-nj) homes where the priority is a new roof surface on a confirmed-sound substrate.',
     'Overlay is not appropriate for every North Caldwell re-roofing situation. Homes with two existing layers, evidence of deck problems, or premium roofing materials like slate or cedar that cannot be overlaid require full tear-off. We provide honest assessment of overlay candidacy and recommend tear-off when the existing conditions indicate that overlay would compromise the new system\'s performance or longevity. Homeowners in [Caldwell](/roof-overlay-installation-caldwell-nj) receive the same straightforward evaluation.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofOverlayInstallation: ComboContent = {
     {
       question: 'Can overlay be done with any roofing material?',
       answer: 'Overlay works with asphalt shingles only -- new architectural shingles installed over existing asphalt shingles. Slate, cedar shake, tile, and metal roofing cannot be installed as overlays and cannot be overlaid with shingles. If your North Caldwell home has any of these premium materials, full tear-off is required for the re-roofing project.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in North Caldwell, NJ?',
+      answer: 'Most roof overlay installation projects in North Caldwell range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in North Caldwell NJ -- new shingles over existing layer for estate homes with verified sound deck condition.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

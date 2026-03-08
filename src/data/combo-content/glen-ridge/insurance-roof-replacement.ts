@@ -4,7 +4,7 @@ export const glenRidgeInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Insurance roof replacement in Glen Ridge presents unique challenges rooted in the borough\'s premium roofing materials and Historic Preservation Commission requirements. When storm damage necessitates roof replacement on a Glen Ridge home, the insurance claim must account for the period-appropriate materials the commission requires -- natural slate, cedar shake, or approved premium shingles -- rather than the standard asphalt shingles that generic replacement cost calculators assume. Newark Quality Roofing advocates for Glen Ridge homeowners during the claims process, ensuring that insurance adjusters understand the material requirements that preservation compliance imposes.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Glen Ridge — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Glen Ridge presents unique challenges rooted in the borough\'s premium roofing materials and Historic Preservation Commission requirements. When storm damage necessitates roof replacement on a Glen Ridge home, the insurance claim must account for the period-appropriate materials the commission requires -- natural slate, cedar shake, or approved premium shingles -- rather than the standard asphalt shingles that generic replacement cost calculators assume. Newark Quality Roofing advocates for Glen Ridge homeowners during the claims process, ensuring that insurance adjusters understand the material requirements that preservation compliance imposes.',
     'Standard homeowner insurance policies provide replacement cost coverage, but adjusters unfamiliar with Glen Ridge\'s preservation context may initially approve only standard-material replacement costs. The difference between standard asphalt shingle replacement and the slate or cedar shake required in Glen Ridge\'s historic district can represent tens of thousands of dollars. We provide detailed documentation to insurance companies explaining the commission\'s material requirements, including previous commission decisions, material specifications, and cost comparisons that demonstrate why premium materials are not optional but mandated for this specific property.',
     'Our insurance replacement process in Glen Ridge coordinates three parallel tracks: the insurance claim documentation and negotiation, the Historic Preservation Commission material approval, and the construction planning for the replacement itself. Managing these tracks simultaneously rather than sequentially saves Glen Ridge homeowners months of timeline and ensures that commission-approved materials are specified in the insurance scope before the claim is settled. This integrated approach avoids the common pitfall of settling a claim based on standard materials and then discovering that [commission requirements](/custom-roof-design-consultation-glen-ridge-nj) demand costlier options.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeInsuranceRoofReplacement: ComboContent = {
       question: 'How long does an insurance roof replacement take in Glen Ridge?',
       answer: 'The timeline depends on insurance processing speed, commission approval duration, and material procurement. From initial damage through completed replacement typically takes 8 to 16 weeks. Emergency temporary protection is installed within hours of our initial assessment, keeping your home weather-tight throughout the process.',
     },
+    {
+      question: 'How much does insurance roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most insurance roof replacement projects in Glen Ridge range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Glen Ridge NJ. Claims advocacy for preservation-grade slate, cedar, and premium materials.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

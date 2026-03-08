@@ -4,7 +4,7 @@ export const glenRidgeEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'glen-ridge',
   overview: [
-    'Energy-efficient roofing in Glen Ridge requires solutions that improve thermal performance within the constraints of century-old construction and Historic Preservation Commission oversight. The borough\'s Victorian and Edwardian homes were built with minimal insulation, single-layer roof assemblies, and ventilation strategies adequate to their era but woefully insufficient by modern standards. Newark Quality Roofing designs energy improvements that transform these thermal underperformers into comfortable, efficient homes without compromising the historic character that makes Glen Ridge one of Essex County\'s most treasured communities.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Glen Ridge — with prices starting from $10,000–$28,000 and free estimates available today. Energy-efficient roofing in Glen Ridge requires solutions that improve thermal performance within the constraints of century-old construction and Historic Preservation Commission oversight. The borough\'s Victorian and Edwardian homes were built with minimal insulation, single-layer roof assemblies, and ventilation strategies adequate to their era but woefully insufficient by modern standards. Newark Quality Roofing designs energy improvements that transform these thermal underperformers into comfortable, efficient homes without compromising the historic character that makes Glen Ridge one of Essex County\'s most treasured communities.',
     'The most impactful energy improvements in Glen Ridge happen beneath the roofing surface rather than on it. Spray foam insulation applied to the underside of roof sheathing from within the attic creates a thermal envelope that dramatically reduces heat loss in winter and heat gain in summer -- all without any visible exterior change. This interior-side approach aligns perfectly with preservation requirements, delivering modern energy performance through modifications invisible to the Historic Preservation Commission and the neighbors. Homeowners across [Montclair](/energy-efficient-roofing-solutions-montclair-nj) and the wider Essex County historic district face similar challenges reconciling efficiency with preservation.',
     'When roof replacement provides the opportunity for exterior energy improvements, we specify materials that enhance thermal performance within the commission\'s approved palette. Reflective granule formulations on premium architectural shingles reduce solar heat absorption measurably without altering the approved color or profile. Enhanced underlayment with radiant barrier backing reflects attic heat during summer months. Increased insulation thickness in re-decked sections adds R-value without affecting the roofline. These integrated improvements compound to create meaningful energy savings that homeowners experience immediately in reduced heating and cooling costs.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeEnergyEfficientRoofingSolutions: ComboContent = {
       question: 'Can you improve energy efficiency during a roof replacement without changing the approved materials?',
       answer: 'Absolutely. When we replace a Glen Ridge roof, we can add insulation beneath the new decking, install radiant barrier underlayment, and improve ventilation through concealed pathways -- all without changing the visible roofing material or profile. These improvements are invisible from the exterior and do not affect Historic Preservation Commission approval of the roofing material selection.',
     },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Glen Ridge, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Glen Ridge range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy-efficient roofing in Glen Ridge NJ. Interior thermal upgrades, reflective materials, and ventilation solutions for historic homes.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const nutleyPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'nutley',
   overview: [
-    'PVC roofing installation in Nutley targets the specific commercial applications where chemical resistance, grease imperviousness, and superior fire performance distinguish PVC from other single-ply membrane options. The restaurants along Franklin Avenue -- from the Italian trattorias to the newer Asian fusion spots -- generate cooking exhaust that deposits grease-laden condensate on rooftop surfaces, degrading EPDM and TPO membranes that lack PVC\'s inherent chemical resistance. For these food-service properties and for the medical and dental offices near Clara Maass Medical Center where strict facility standards apply, PVC delivers performance advantages that justify its premium over alternative membranes.',
+    'Newark Quality Roofing delivers expert pvc roofing in Nutley — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing installation in Nutley targets the specific commercial applications where chemical resistance, grease imperviousness, and superior fire performance distinguish PVC from other single-ply membrane options. The restaurants along Franklin Avenue -- from the Italian trattorias to the newer Asian fusion spots -- generate cooking exhaust that deposits grease-laden condensate on rooftop surfaces, degrading EPDM and TPO membranes that lack PVC\'s inherent chemical resistance. For these food-service properties and for the medical and dental offices near Clara Maass Medical Center where strict facility standards apply, PVC delivers performance advantages that justify its premium over alternative membranes.',
     'PVC membrane shares the hot-air welded seam technology that makes TPO popular on Nutley commercial buildings, but the base polymer provides characteristics that suit specific applications better. The rigid PVC compound resists animal fats, vegetable oils, and petroleum-based chemicals that soften thermoplastic olefin (TPO) membranes over extended exposure. PVC also carries a higher fire rating than either TPO or EPDM, meeting FM Global fire requirements without additional fire barriers on the buildings where insurers mandate that classification. These technical advantages make PVC the appropriate specification for roughly 15 to 20 percent of Nutley\'s commercial roofing projects.',
     'Our [PVC roofing](/pvc-roofing) installations in [Nutley](/roofing-in-nutley-nj) use reinforced membrane in 60-mil or 80-mil thickness, depending on the building\'s foot traffic patterns and equipment density. The reinforcing scrim within the membrane provides dimensional stability and puncture resistance that unreinforced PVC cannot match, particularly on Nutley\'s small commercial roofs where HVAC service technicians concentrate foot traffic on limited square footage. Every installation includes fully welded seams, pre-fabricated inside and outside corner patches, and custom-welded flashing at each penetration point.',
     'The energy performance of white PVC membrane aligns with current New Jersey commercial energy code requirements, providing the high solar reflectance that reduces cooling loads on buildings originally constructed without adequate roof insulation. Franklin Avenue\'s vintage commercial structures built in the 1950s and 1960s benefit substantially from the combination of reflective PVC membrane and the tapered polyiso insulation we install beneath it. Property owners converting from dark-surfaced built-up roofing to white PVC consistently report noticeable improvements in second-floor comfort levels and measurable reductions in summer electric bills.'
@@ -35,7 +35,25 @@ export const nutleyPvcRoofing: ComboContent = {
     {
       question: 'Can PVC roofing handle the cooking exhaust from my Nutley restaurant?',
       answer: 'Yes. PVC\'s chemical resistance to animal fats, vegetable oils, and grease makes it the recommended membrane for restaurant roofing. Cooking exhaust condensate that would soften and degrade EPDM or TPO membrane has no effect on PVC. We position exhaust discharge locations during the design phase to minimize concentrated grease deposition on the membrane surface, and we recommend semi-annual cleaning of the discharge zone to maintain appearance and facilitate inspection access.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Nutley, NJ?',
+      answer: 'Most pvc roofing projects in Nutley range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing in Nutley NJ. Chemical-resistant membrane for Franklin Avenue restaurants and commercial buildings with hot-air welded seams.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const irvingtonRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'irvington',
   overview: [
-    'Roof waterproofing in Irvington addresses the gap between standard roofing installation and the enhanced protection that the township\'s aging housing stock demands. On homes where decades of deferred maintenance have compromised the original waterproofing layers, and on commercial buildings where previous patch repairs have created a patchwork of incompatible materials, dedicated waterproofing treatments restore the moisture barrier that keeps water out of the building envelope. Our [roof waterproofing](/roof-waterproofing) services apply liquid membranes, coatings, and supplemental barriers that reinforce vulnerable areas without requiring full roof replacement.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Irvington — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Irvington addresses the gap between standard roofing installation and the enhanced protection that the township\'s aging housing stock demands. On homes where decades of deferred maintenance have compromised the original waterproofing layers, and on commercial buildings where previous patch repairs have created a patchwork of incompatible materials, dedicated waterproofing treatments restore the moisture barrier that keeps water out of the building envelope. Our [roof waterproofing](/roof-waterproofing) services apply liquid membranes, coatings, and supplemental barriers that reinforce vulnerable areas without requiring full roof replacement.',
     'Springfield Avenue commercial buildings are the primary waterproofing market in Irvington. Flat-roofed storefronts and mixed-use buildings with aging membrane systems that still have structural integrity but have lost surface waterproofing performance are ideal candidates for elastomeric coating applications that seal surface cracks, bridge minor splits, and restore reflective UV protection. These coatings extend the existing roof\'s service life by 7 to 10 years at a fraction of replacement cost -- a proposition that appeals to Irvington commercial property owners managing tight capital budgets.',
     'Residential waterproofing in Irvington focuses on targeted protection at the roof\'s most vulnerable points: ice dam zones at eave edges, valley intersections where converging water volumes overwhelm standard underlayment, and wall-to-roof transitions where flashing deterioration allows water penetration. Self-adhering ice-and-water shield membrane applied during re-roofing provides decades of waterproofing at these critical locations, and we specify it more aggressively on Irvington homes than on newer suburban construction because the underlying structures are more vulnerable to water damage. Homeowners in [Maplewood](/roof-waterproofing-maplewood-nj) also invest in enhanced waterproofing at vulnerable roof details, though Irvington\'s older framing is less forgiving of moisture intrusion.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRoofWaterproofing: ComboContent = {
       question: 'How often does roof waterproofing need to be reapplied in Irvington?',
       answer: 'Silicone elastomeric coatings maintain waterproofing performance for 10 to 15 years before recoating is needed. Acrylic coatings require reapplication every 5 to 8 years. Self-adhering ice-and-water shield membrane installed beneath surface roofing materials lasts the life of the roof above it. The coating type and quality directly affect the maintenance interval.',
     },
+    {
+      question: 'How much does roof waterproofing cost in Irvington, NJ?',
+      answer: 'Most roof waterproofing projects in Irvington range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Irvington NJ for commercial flat roofs and residential leak-prone areas. Coatings and membranes that extend roof life affordably.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

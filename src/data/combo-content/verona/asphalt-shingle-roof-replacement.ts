@@ -4,7 +4,7 @@ export const veronaAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Asphalt shingle roof replacement is the most common roofing project on Verona homes, returning the split-levels, colonials, and capes that define the township\'s streetscape to like-new condition with modern architectural shingles engineered for performance that the original three-tab products could not deliver. Today\'s premium shingles offer dimensional profiles, algae-resistant formulations, and wind ratings that represent a generational improvement over the products installed on many Verona homes 20 to 30 years ago.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Verona — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common roofing project on Verona homes, returning the split-levels, colonials, and capes that define the township\'s streetscape to like-new condition with modern architectural shingles engineered for performance that the original three-tab products could not deliver. Today\'s premium shingles offer dimensional profiles, algae-resistant formulations, and wind ratings that represent a generational improvement over the products installed on many Verona homes 20 to 30 years ago.',
     'Newark Quality Roofing selects asphalt shingle products for Verona replacements based on the specific conditions each property faces: algae-resistant formulations for canopy-shaded homes near [Verona Park](/roofing-in-verona-nj), wind-rated systems for Claremont Avenue hilltop properties, and impact-resistant options for homeowners seeking insurance premium reductions. Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) specifications match the product\'s performance capabilities to the property\'s exposure profile.',
     'The competitive landscape for asphalt shingle replacement in Verona includes contractors at every quality level. Our installations distinguish themselves through comprehensive scope -- full tear-off, deck inspection, enhanced underlayment, complete flashing systems, and ventilation improvements -- combined with the product quality and installation precision that manufacturer warranty programs require. Homeowners in [Caldwell](/asphalt-shingle-roof-replacement-caldwell-nj) consistently report that our complete-system approach delivers measurably better performance than minimum-specification alternatives.'
   ],
@@ -34,7 +34,25 @@ export const veronaAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Should I choose three-tab or architectural shingles for my Verona replacement?',
       answer: 'Architectural shingles are the standard recommendation for Verona replacements. The dimensional profile provides better wind resistance through tabular adhesion, longer warranty coverage (lifetime versus 25 years), and superior aesthetics that add curb appeal. The cost premium over three-tab is modest -- typically $500 to $1,000 for a whole-house installation -- and the performance and appearance benefits far exceed that investment over the shingle lifespan.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Verona, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Verona range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Verona NJ -- premium architectural shingles for split-levels with algae resistance and wind ratings.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

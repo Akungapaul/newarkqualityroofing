@@ -4,7 +4,7 @@ export const cedarGroveInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'cedar-grove',
   overview: [
-    'Infrared roof leak detection in Cedar Grove pinpoints the exact location of water entry on commercial flat roofs by mapping moisture-saturated insulation beneath the membrane surface. This precision targeting eliminates the costly and disruptive exploratory tear-off that conventional leak investigation requires, allowing Cedar Grove building owners to authorize repairs at specific, verified locations rather than guessing at probable leak areas. Our [infrared leak detection](/infrared-roof-leak-detection) service transforms commercial roof maintenance from a reactive expense into a strategic investment.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Cedar Grove — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection in Cedar Grove pinpoints the exact location of water entry on commercial flat roofs by mapping moisture-saturated insulation beneath the membrane surface. This precision targeting eliminates the costly and disruptive exploratory tear-off that conventional leak investigation requires, allowing Cedar Grove building owners to authorize repairs at specific, verified locations rather than guessing at probable leak areas. Our [infrared leak detection](/infrared-roof-leak-detection) service transforms commercial roof maintenance from a reactive expense into a strategic investment.',
     'Cedar Grove\'s commercial properties along Pompton Avenue and Route 23 carry flat roof systems where leaks can travel significant horizontal distances between the membrane entry point and the interior ceiling stain that prompts the repair call. Water entering through a membrane failure may flow along the top of the insulation for twenty or thirty feet before finding a path through the deck to the interior. Without infrared detection, repair crews would tear up membrane in a wide radius around the ceiling stain, often missing the actual entry point entirely.',
     'The economic case for infrared leak detection on Cedar Grove commercial buildings is compelling: a five to eight hundred dollar detection service typically saves two to five thousand dollars in unnecessary membrane tear-off and associated repair work. For building owners managing multiple properties, annual infrared surveys provide early detection of moisture infiltration before leaks produce interior damage, converting emergency repair expenses into planned maintenance.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveInfraredRoofLeakDetection: ComboContent = {
       question: 'What is the difference between infrared leak detection and thermal imaging inspection?',
       answer: 'Thermal imaging inspection is a broader diagnostic service that evaluates overall roof condition, insulation performance, and energy efficiency in addition to moisture detection. Infrared leak detection is specifically focused on locating and verifying active moisture infiltration for targeted repair. Both services use infrared cameras, but leak detection includes physical verification through moisture testing and core cuts for each identified anomaly.',
     },
+    {
+      question: 'How much does infrared roof leak detection cost in Cedar Grove, NJ?',
+      answer: 'Most infrared roof leak detection projects in Cedar Grove range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Cedar Grove NJ -- precision moisture mapping for commercial flat roofs to target repairs and avoid unnecessary tear-off.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

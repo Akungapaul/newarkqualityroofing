@@ -4,7 +4,7 @@ export const montclairCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Cedar shake roof replacement in Montclair renews the natural wood roofing that graces the township\'s Arts & Crafts bungalows, select Tudor Revival homes, and the distinctive residences where cedar\'s hand-split texture and warm natural tones define the property\'s character. Replacing aging cedar with fresh hand-split shakes restores the dimensional depth, natural color variation, and organic visual warmth that drew the homeowner to cedar originally -- a material renewal that synthetic alternatives attempt to approximate but cannot authentically replicate.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Montclair — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Montclair renews the natural wood roofing that graces the township\'s Arts & Crafts bungalows, select Tudor Revival homes, and the distinctive residences where cedar\'s hand-split texture and warm natural tones define the property\'s character. Replacing aging cedar with fresh hand-split shakes restores the dimensional depth, natural color variation, and organic visual warmth that drew the homeowner to cedar originally -- a material renewal that synthetic alternatives attempt to approximate but cannot authentically replicate.',
     'The replacement timeline for cedar shake in Montclair is shaped by the township\'s tree canopy environment. Cedar\'s natural resistance to rot and insect damage is compromised by persistent moisture retention under heavy shade, accelerating decay on north-facing slopes beneath dense oak and maple canopy. Shakes that would deliver forty years in an open-exposure location may reach replacement age in twenty to thirty years under Montclair\'s canopy conditions. Our [cedar shake replacement](/cedar-shake-roof-replacement) assessments for [Montclair](/roofing-in-montclair-nj) homes evaluate both the overall shake condition and the exposure factors that determine whether replacement or continued maintenance is the appropriate next step.',
     'Properties in [Glen Ridge](/cedar-shake-roof-replacement-glen-ridge-nj) and [Verona](/cedar-shake-roof-replacement-verona-nj) with cedar shake roofing face similar canopy-accelerated aging. Montclair\'s HPC oversight on designated properties adds a material-continuity consideration that favors in-kind cedar replacement over conversion to alternative materials.'
   ],
@@ -30,7 +30,25 @@ export const montclairCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Does the Montclair HPC require cedar replacement with cedar?',
       answer: 'On designated properties where cedar shake is a character-defining feature, the Commission expects in-kind replacement. Material substitution would require a Certificate of Appropriateness application with justification for the change. Non-designated properties can substitute freely. We recommend discussing material options with us early in the project planning process to understand any regulatory requirements before committing to a specification.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Montclair, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Montclair range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Montclair NJ -- premium hand-split western red cedar for Arts & Crafts and Tudor homes.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

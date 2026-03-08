@@ -4,7 +4,7 @@ export const veronaTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Tile roof replacement in Verona restores the distinctive clay or concrete tile systems that grace the township\'s Mediterranean-influenced homes with a new installation providing 75 to 100 years of service. When the existing tile system has deteriorated beyond repair -- cracked tiles too numerous to replace individually, failed underlayment beneath the tile field, or structural concerns from decades of heavy-load service -- full replacement reinstalls the building with modern tile products and contemporary underlayment systems that improve performance while maintaining the authentic appearance.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Verona — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Verona restores the distinctive clay or concrete tile systems that grace the township\'s Mediterranean-influenced homes with a new installation providing 75 to 100 years of service. When the existing tile system has deteriorated beyond repair -- cracked tiles too numerous to replace individually, failed underlayment beneath the tile field, or structural concerns from decades of heavy-load service -- full replacement reinstalls the building with modern tile products and contemporary underlayment systems that improve performance while maintaining the authentic appearance.',
     'Newark Quality Roofing performs tile replacement on Verona homes using both clay and concrete tile products selected for compatibility with the home\'s architectural style and the structural capacity of the existing framing. Modern concrete tiles replicate the profiles of traditional clay at lower weight and cost, expanding the options available to Verona homeowners. Our [tile replacement](/tile-roof-replacement) specifications match the replacement product to the home\'s specific requirements.',
     'Tile replacement on Verona homes is less common than shingle or metal replacement but requires significantly more specialized expertise. The weight handling, batten layout, interlocking patterns, and mortar or mechanical ridge and hip details demand crews experienced specifically in tile roofing. Homeowners in [Montclair](/tile-roof-replacement-montclair-nj) with similar period architecture have relied on our tile crews for both restoration and full replacement projects.'
   ],
@@ -34,7 +34,25 @@ export const veronaTileRoofReplacement: ComboContent = {
     {
       question: 'Will my Verona home look the same after tile replacement?',
       answer: 'We match the replacement tile profile to the original as closely as available products allow. Modern manufacturing produces tiles that replicate historic profiles with remarkable accuracy. Color matching is the greatest variable -- new tiles will not carry the weathered patina of 80-year-old originals, but they will develop their own character over time. We can blend salvaged original tiles into prominent visible areas with new tiles on less visible sections for transitional appearance.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Verona, NJ?',
+      answer: 'Most tile roof replacement projects in Verona range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Verona NJ -- clay and concrete tile systems for Mediterranean-style homes with structural verification.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

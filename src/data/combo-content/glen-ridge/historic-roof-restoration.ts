@@ -4,7 +4,7 @@ export const glenRidgeHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'glen-ridge',
   overview: [
-    'Historic roof restoration is not a niche service in Glen Ridge -- it is the core of roofing practice in a borough where virtually every home qualifies as historic. The National Register Historic District designation that encompasses Glen Ridge means that roof work on nearly any property requires the kind of material knowledge, period-appropriate craftsmanship, and preservation sensitivity that most contractors encounter only on isolated landmark projects. Newark Quality Roofing has made Glen Ridge historic restoration a cornerstone of our practice, maintaining the specialized skills, quarry relationships, and commission navigation expertise that this extraordinary community demands.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Glen Ridge — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration is not a niche service in Glen Ridge -- it is the core of roofing practice in a borough where virtually every home qualifies as historic. The National Register Historic District designation that encompasses Glen Ridge means that roof work on nearly any property requires the kind of material knowledge, period-appropriate craftsmanship, and preservation sensitivity that most contractors encounter only on isolated landmark projects. Newark Quality Roofing has made Glen Ridge historic restoration a cornerstone of our practice, maintaining the specialized skills, quarry relationships, and commission navigation expertise that this extraordinary community demands.',
     'Restoration in Glen Ridge goes beyond replacing worn materials with modern equivalents. True restoration recovers the original roofing intent -- the graduated slate coursing that created shadow lines on Victorian gables, the hand-split cedar shakes that gave Edwardian homes their warm texture, the copper flashing details that provided both waterproofing function and decorative accent. Our restoration projects reference historic photographs, original building specifications when available, and the surviving examples on neighboring homes to reconstruct the roofing character that made Glen Ridge\'s streetscapes architectural treasures worth preserving.',
     'The borough\'s Historic Preservation Commission serves as both regulator and resource in the restoration process. Commission members bring deep knowledge of Glen Ridge\'s architectural history and can guide material decisions when documentation of the original installation is incomplete. We maintain a productive working relationship with the commission, viewing their review process as quality assurance that protects both individual homeowners and the collective character that sustains property values throughout the borough. Similar preservation partnerships guide our [historic restoration work in Montclair](/historic-roof-restoration-montclair-nj), though Glen Ridge\'s smaller scale creates an even more intimate preservation community.',
   ],
@@ -34,6 +34,24 @@ export const glenRidgeHistoricRoofRestoration: ComboContent = {
       question: 'Can you restore just the visible portions and use modern materials elsewhere?',
       answer: 'Yes, and this blended approach is common in Glen Ridge. Premium restoration materials on street-facing primary elevations satisfy preservation requirements, while commission-approved modern alternatives on rear or concealed secondary elevations reduce overall project cost. We help homeowners design these blended specifications during consultation, identifying which roof planes require full restoration and where alternatives are acceptable.',
     },
+    {
+      question: 'How much does historic roof restoration cost in Glen Ridge, NJ?',
+      answer: 'Most historic roof restoration projects in Glen Ridge range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Glen Ridge NJ. Period-accurate slate, cedar, and copper craftsmanship for the National Register Historic District.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

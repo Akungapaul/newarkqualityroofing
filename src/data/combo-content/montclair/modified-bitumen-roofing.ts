@@ -4,7 +4,7 @@ export const montclairModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'montclair',
   overview: [
-    'Modified bitumen roofing occupies a particular niche in Montclair\'s commercial building landscape -- the multi-layer asphalt membrane system that property owners and facility managers specify when they need redundant waterproofing protection on roofs that receive regular foot traffic, support heavy mechanical equipment, or face the intense freeze-thaw cycling that Montclair\'s Watchung Ridge elevation delivers each winter. While single-ply membranes dominate new commercial construction, modified bitumen remains the preferred system for Montclair buildings where puncture resistance and repairability outweigh the lighter weight and simpler installation of TPO or EPDM alternatives.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Montclair — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing occupies a particular niche in Montclair\'s commercial building landscape -- the multi-layer asphalt membrane system that property owners and facility managers specify when they need redundant waterproofing protection on roofs that receive regular foot traffic, support heavy mechanical equipment, or face the intense freeze-thaw cycling that Montclair\'s Watchung Ridge elevation delivers each winter. While single-ply membranes dominate new commercial construction, modified bitumen remains the preferred system for Montclair buildings where puncture resistance and repairability outweigh the lighter weight and simpler installation of TPO or EPDM alternatives.',
     'The commercial properties along Montclair\'s Bloomfield Avenue corridor and Church Street district include restaurants, art galleries, and professional offices housed in early-twentieth-century mixed-use buildings where the original built-up roofs have been maintained, recovered, and eventually replaced with modified bitumen systems that follow the same multi-layer philosophy. These buildings share structural characteristics -- heavy masonry walls, timber or steel-beam roof framing, and interior ceiling heights that make roof access for maintenance a planned event rather than a casual task. Modified bitumen\'s ability to self-heal minor punctures and resist foot traffic during HVAC service calls makes it a practical match for properties in neighboring [West Orange](/modified-bitumen-roofing-west-orange-nj) as well.',
     'Montclair\'s elevation along the first Watchung Ridge produces winter conditions that test every flat-roof system, and modified bitumen\'s multi-layer construction provides inherent ice-damage resistance that single-ply membranes cannot match. The polymer-modified asphalt remains flexible at temperatures well below freezing, bridging the minor deck movements that occur as structural members contract in cold weather. Our [modified bitumen roofing](/modified-bitumen-roofing) installations across [Montclair](/roofing-in-montclair-nj) commercial properties account for these thermal extremes with material selections rated for the sustained cold that ridge-elevation buildings experience during January and February nor\'easters.',
     'The township\'s progressive approach to building performance has made energy-efficient modified bitumen installations the standard rather than the exception. Granule-surfaced cap sheets with reflective white or light-colored mineral surfaces reduce cooling loads on Montclair\'s commercial buildings while maintaining the puncture resistance and foot-traffic durability that define the system\'s practical advantages.'
@@ -35,7 +35,25 @@ export const montclairModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Can modified bitumen be installed over an existing roof on my Montclair building?',
       answer: 'Recovery installations over existing roofing are possible when the existing system is structurally sound, insulation is dry, and the building can support the additional weight. New Jersey code permits a maximum of two roof systems before full tear-off is required. We core-sample and evaluate the existing assembly to determine recovery viability. If moisture is present in the existing insulation, those areas must be removed and replaced regardless of the overall condition. Recovery installations save ten to twenty percent compared to full tear-off by avoiding demolition and disposal costs.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Montclair, NJ?',
+      answer: 'Most modified bitumen roofing projects in Montclair range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Montclair NJ -- multi-layer commercial membrane systems for Bloomfield Avenue retail and mixed-use buildings.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

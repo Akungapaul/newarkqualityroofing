@@ -4,7 +4,7 @@ export const cedarGroveSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'cedar-grove',
   overview: [
-    'Silicone elastomeric roof coating provides Cedar Grove commercial building owners with a flexible, self-healing waterproof barrier that stretches and recovers through the thermal cycling northern Essex County subjects roofing materials to year after year. Unlike rigid coating systems that crack under thermal stress, elastomeric formulations elongate up to three hundred percent without losing adhesion or waterproof integrity -- a performance characteristic specifically matched to Cedar Grove\'s temperature range from sub-zero winter nights to hundred-degree summer afternoons.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Cedar Grove — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating provides Cedar Grove commercial building owners with a flexible, self-healing waterproof barrier that stretches and recovers through the thermal cycling northern Essex County subjects roofing materials to year after year. Unlike rigid coating systems that crack under thermal stress, elastomeric formulations elongate up to three hundred percent without losing adhesion or waterproof integrity -- a performance characteristic specifically matched to Cedar Grove\'s temperature range from sub-zero winter nights to hundred-degree summer afternoons.',
     'The elastomeric properties of this coating system make it particularly effective for Cedar Grove commercial roofs exhibiting thermal-movement cracking in their existing membrane or coating surfaces. As buildings along Route 23 and Pompton Avenue age, their roof membranes develop stress cracks at seam edges, flashing terminations, and equipment curb details where thermal contraction concentrates force. Our [silicone elastomeric roof coating](/silicone-elastomeric-roof-coating) bridges these cracks and flexes with subsequent thermal movement, restoring waterproof continuity without the cost and disruption of membrane replacement.',
     'Cedar Grove properties that have received previous acrylic or urethane roof coatings often find that those products have cracked, peeled, or delaminated after a few northern Essex County winters. Silicone elastomeric coating outperforms these alternatives in cold-weather flexibility, UV stability, and ponding water tolerance, making it the appropriate upgrade for Cedar Grove buildings where previous coating attempts have failed to deliver the promised service life.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveSiliconeElastomericRoofCoating: ComboContent = {
       question: 'Will elastomeric coating work over my existing acrylic coating in Cedar Grove?',
       answer: 'Silicone elastomeric can be applied over existing acrylic coating if the acrylic is well-adhered to the substrate. Areas where the acrylic has peeled, cracked, or delaminated must be removed and primed before the silicone elastomeric is applied. We perform adhesion testing on every Cedar Grove project to verify compatibility and prepare the surface for reliable long-term bonding of the new coating system.',
     },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Cedar Grove, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Cedar Grove range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in Cedar Grove NJ -- flexible, self-healing waterproof coating for commercial flat roofs with 300% elongation.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

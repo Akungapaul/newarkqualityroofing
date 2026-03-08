@@ -4,7 +4,7 @@ export const maplewoodAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Asphalt shingle roof replacement is the most common re-roofing project on Maplewood homes, where architectural shingles from GAF, Owens Corning, and CertainTeed provide the optimal balance of aesthetic quality, weather protection, and value for the township\'s Colonial, Cape, and mid-century housing stock. Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) installations in [Maplewood](/roofing-in-maplewood-nj) use premium laminated architectural shingles that deliver 25-30 year performance with the dimensional profiles and color options that complement Maplewood\'s diverse residential architecture.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Maplewood — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common re-roofing project on Maplewood homes, where architectural shingles from GAF, Owens Corning, and CertainTeed provide the optimal balance of aesthetic quality, weather protection, and value for the township\'s Colonial, Cape, and mid-century housing stock. Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) installations in [Maplewood](/roofing-in-maplewood-nj) use premium laminated architectural shingles that deliver 25-30 year performance with the dimensional profiles and color options that complement Maplewood\'s diverse residential architecture.',
     'Material selection for Maplewood shingle replacement goes beyond color choice to specification-level decisions that affect long-term performance. We recommend SBS-modified asphalt formulations for their enhanced cold-weather flexibility and impact resistance, both critical in a climate that subjects roofs to freeze-thaw cycling and potential hail. Wind resistance ratings matter on western Maplewood properties where South Mountain channeling amplifies gusts above the 60-70 mph thresholds that standard shingles are rated for.',
     'GAF and Owens Corning certified installer programs provide Maplewood homeowners with manufacturer-backed warranty coverage that includes both material and workmanship protection. Our certifications with both manufacturers allow us to offer their most comprehensive warranty packages, including non-prorated coverage and workmanship guarantees that extend beyond the standard material warranty. Homeowners in [Verona](/asphalt-shingle-roof-replacement-verona-nj) choosing from the same manufacturer product lines appreciate the extended warranty coverage that certified installation provides.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodAsphaltShingleRoofReplacement: ComboContent = {
       question: 'Do algae-resistant shingles work in Maplewood\'s shaded environment?',
       answer: 'Algae-resistant shingles with copper-infused granules prevent the black streaking caused by Gloeocapsa magma algae for 15-20 years. In Maplewood\'s shaded Reservation-border environment, they are essential. Non-resistant shingles in these locations develop visible streaking within 5-7 years. The modest cost premium for algae resistance is one of the highest-value upgrades available.',
     },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Maplewood, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Maplewood range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Maplewood NJ. GAF and Owens Corning certified installations for Colonials, Capes, and Tudors.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

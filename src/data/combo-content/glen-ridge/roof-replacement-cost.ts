@@ -4,7 +4,7 @@ export const glenRidgeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'glen-ridge',
   overview: [
-    'Roof replacement cost in Glen Ridge reflects the premium materials and preservation craftsmanship that the borough\'s historic district demands. Standard asphalt shingle pricing from generic online calculators significantly understates the actual investment required for a Glen Ridge re-roofing project because these calculators assume commodity materials and standard installation, while Glen Ridge homeowners must specify preservation-approved materials installed to historic standards by qualified craftsmen. Newark Quality Roofing provides transparent, detailed cost estimates that reflect the true scope of Glen Ridge roof replacement.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Glen Ridge — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in Glen Ridge reflects the premium materials and preservation craftsmanship that the borough\'s historic district demands. Standard asphalt shingle pricing from generic online calculators significantly understates the actual investment required for a Glen Ridge re-roofing project because these calculators assume commodity materials and standard installation, while Glen Ridge homeowners must specify preservation-approved materials installed to historic standards by qualified craftsmen. Newark Quality Roofing provides transparent, detailed cost estimates that reflect the true scope of Glen Ridge roof replacement.',
     'Material cost is the primary driver of Glen Ridge roof pricing variability. Natural slate installation ranges from $25 to $50 per square foot installed, while premium architectural shingles range from $8 to $15 per square foot. Cedar shake falls between at $15 to $30 per square foot. For a typical 2,000-square-foot Glen Ridge Victorian roof, the difference between slate and architectural shingles can represent $30,000 or more. Understanding these material cost ranges helps homeowners evaluate options realistically before committing to a specification that exceeds their budget.',
     'Beyond material cost, Glen Ridge projects include expenses that suburban reroofing does not encounter: Historic Preservation Commission application and review, specialty material sourcing with extended lead times, custom copper flashing fabrication, and the careful logistics that the borough\'s compact lots and gaslit streets require. Our estimates itemize each cost component transparently, allowing homeowners to understand exactly what they are paying for and where cost-saving alternatives might exist without compromising preservation compliance or installation quality.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeRoofReplacementCost: ComboContent = {
       question: 'Do you offer financing for Glen Ridge roof replacement?',
       answer: 'We partner with lending institutions offering home improvement financing with competitive rates and flexible terms. Financing allows Glen Ridge homeowners to select the premium materials their homes deserve without the constraint of single-payment budgets. We provide financing pre-qualification information during the estimate consultation.',
     },
+    {
+      question: 'How much does roof replacement cost cost in Glen Ridge, NJ?',
+      answer: 'Most roof replacement cost projects in Glen Ridge range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in Glen Ridge NJ. Transparent pricing for slate, cedar shake, and premium shingle replacement on historic homes.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

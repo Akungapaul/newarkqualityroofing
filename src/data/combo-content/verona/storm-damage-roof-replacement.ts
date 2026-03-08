@@ -4,7 +4,7 @@ export const veronaStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Storm damage roof replacement in Verona responds to the severe weather events that periodically overwhelm repair solutions and require complete roof system replacement. When a nor\'easter strips dozens of shingles from multiple planes, when hail damage across the entire roof surface compromises every shingle\'s weather protection, or when a fallen tree crushes structural framing along with the roofing above it, repair is no longer adequate. Newark Quality Roofing provides storm damage replacement services that move from emergency stabilization through insurance coordination to permanent replacement with upgraded materials designed to resist the next storm.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Verona — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Verona responds to the severe weather events that periodically overwhelm repair solutions and require complete roof system replacement. When a nor\'easter strips dozens of shingles from multiple planes, when hail damage across the entire roof surface compromises every shingle\'s weather protection, or when a fallen tree crushes structural framing along with the roofing above it, repair is no longer adequate. Newark Quality Roofing provides storm damage replacement services that move from emergency stabilization through insurance coordination to permanent replacement with upgraded materials designed to resist the next storm.',
     'Verona\'s hilltop properties along Claremont Avenue and upper Personette absorb the full force of storms that approach from the west, experiencing wind speeds 15 to 20 percent higher than sheltered valley locations. This exposure differential means hilltop homes sustain replacement-level damage during events that cause only minor repair needs on valley properties. Our [storm damage replacement](/storm-damage-roof-replacement) specifications for hilltop Verona homes include wind-rated products and enhanced attachment methods that address the elevated exposure these properties face.',
     'The tree canopy that defines Verona\'s character becomes a liability during severe storms, dropping branches and whole trees onto roof surfaces. Branch impacts create localized structural damage that extends well beyond the visible damage zone, cracking sheathing, splitting rafters, and displacing flashings across a wide area. Our storm damage assessments examine the full extent of impact damage, not just the obvious penetration point. Homeowners in [Cedar Grove](/storm-damage-roof-replacement-cedar-grove-nj) surrounded by similar dense canopy face equivalent tree-fall risks during major storm events.'
   ],
@@ -34,7 +34,25 @@ export const veronaStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Should I get multiple estimates for storm damage replacement?',
       answer: 'Getting multiple estimates helps ensure fair pricing, but be cautious of storm-chasing contractors who appear after major events, quote low prices, and disappear before warranty obligations arise. Local contractors with established Verona presence provide accountability that transient operators cannot. We encourage homeowners to verify licensing, insurance, and local references before selecting any contractor for storm damage replacement.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Verona, NJ?',
+      answer: 'Most storm damage roof replacement projects in Verona range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Verona NJ -- emergency tarping, insurance coordination, and wind-rated upgrades for hilltop homes.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

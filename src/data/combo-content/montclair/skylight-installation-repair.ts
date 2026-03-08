@@ -4,7 +4,7 @@ export const montclairSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'montclair',
   overview: [
-    'Skylight installation and repair in Montclair responds to a practical reality of the township\'s housing stock -- many of the Victorian, Tudor, and Arts & Crafts homes that define Montclair\'s residential character have interior rooms darkened by complex multi-gabled rooflines, deep eave overhangs, and the dense tree canopy that filters natural light before it reaches window openings. Skylights compensate for what the architecture and landscape withhold, bringing daylight into third-floor bedrooms in Victorian attics, galley kitchens in Arts & Crafts bungalows, and interior hallways in Tudor homes where the floor plan prioritizes room depth over window exposure.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Montclair — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in Montclair responds to a practical reality of the township\'s housing stock -- many of the Victorian, Tudor, and Arts & Crafts homes that define Montclair\'s residential character have interior rooms darkened by complex multi-gabled rooflines, deep eave overhangs, and the dense tree canopy that filters natural light before it reaches window openings. Skylights compensate for what the architecture and landscape withhold, bringing daylight into third-floor bedrooms in Victorian attics, galley kitchens in Arts & Crafts bungalows, and interior hallways in Tudor homes where the floor plan prioritizes room depth over window exposure.',
     'The cultural value Montclair places on natural light reflects the township\'s arts-community identity. Studios, home galleries, creative workspaces, and the renovation projects that continually reshape Montclair\'s interior spaces frequently incorporate skylights as a design element that no artificial lighting can replicate. Architects working on Montclair renovations specify skylights with particular attention to light quality -- the color temperature, diffusion, and directional characteristics that affect how artwork, textiles, and interior finishes appear under natural illumination. Our skylight installations for [Montclair](/roofing-in-montclair-nj) homes address these aesthetic expectations alongside the practical waterproofing and energy performance requirements.',
     'Skylight repair constitutes a significant portion of our [skylight](/skylight-installation-repair) work in Montclair because the township\'s housing renovation cycles have left thousands of skylights installed over the past four decades in various states of aging. First-generation acrylic-dome skylights from the 1980s have yellowed, crazed, and lost their thermal seal. Fixed skylights from the 1990s with single-pane glazing fog between seal-failed insulated glass layers. Even well-maintained skylights from the 2000s develop flashing deterioration at the curb-to-roof junction as sealants age and surrounding roofing material reaches end of life.',
     'Properties in neighboring [West Orange](/skylight-installation-repair-west-orange-nj) and [Glen Ridge](/skylight-installation-repair-glen-ridge-nj) face similar skylight aging patterns, but Montclair\'s steep roof pitches and complex geometries make both installation and repair more technically demanding than on typical suburban ranch or colonial homes.'
@@ -35,7 +35,25 @@ export const montclairSkylightInstallationRepair: ComboContent = {
     {
       question: 'Do skylights cause leaks on Montclair homes?',
       answer: 'Properly installed skylights with current-generation flashing systems do not inherently leak. Leaks at skylights are caused by installation errors, flashing deterioration over time, or sealant failure -- not by the skylight concept itself. Modern skylight flashing kits from manufacturers like VELUX are engineered to integrate with shingle roofing and provide decades of leak-free performance when installed according to specifications. Most skylight leaks we diagnose on Montclair homes trace to aging flashing on units installed fifteen or more years ago, not to the skylight unit itself.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Montclair, NJ?',
+      answer: 'Most skylight installation repair projects in Montclair range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Montclair NJ -- natural light solutions for Victorian attics and Arts & Crafts interiors.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

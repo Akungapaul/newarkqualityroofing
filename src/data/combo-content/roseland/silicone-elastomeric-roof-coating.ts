@@ -4,7 +4,7 @@ export const roselandSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'roseland',
   overview: [
-    'Silicone elastomeric roof coating combines the ponding resistance of pure silicone with enhanced stretch recovery that accommodates the thermal movement commercial buildings in Roseland experience across seasonal temperature swings. The elastomeric formulation maintains 300 to 400 percent elongation capacity, bridging hairline cracks and seam movements that rigid coatings cannot follow without fracturing. Our [silicone elastomeric roof coating](/silicone-elastomeric-roof-coating) service applies these systems to commercial and institutional buildings where the membrane substrate retains structural integrity but the surface requires renewal.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Roseland — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating combines the ponding resistance of pure silicone with enhanced stretch recovery that accommodates the thermal movement commercial buildings in Roseland experience across seasonal temperature swings. The elastomeric formulation maintains 300 to 400 percent elongation capacity, bridging hairline cracks and seam movements that rigid coatings cannot follow without fracturing. Our [silicone elastomeric roof coating](/silicone-elastomeric-roof-coating) service applies these systems to commercial and institutional buildings where the membrane substrate retains structural integrity but the surface requires renewal.',
     'Roseland\'s corporate office buildings experience significant thermal cycling that creates movement at membrane seams, penetration flashings, and expansion joints. Standard silicone coatings handle moderate movement well, but buildings with large flat expanses, extensive mechanical equipment loads, and structural movement from settlement or thermal expansion benefit from the enhanced elongation capacity of elastomeric formulations. The coating stretches and recovers with the building movement rather than developing the stress cracks that accompany rigid coating applications.',
     'The reflective performance of silicone elastomeric coatings matches that of standard silicone, delivering the same ENERGY STAR-rated reflectivity that reduces cooling loads on Roseland\'s air-conditioned office buildings. The white surface coating reduces roof surface temperatures by 50 to 60 degrees compared to dark membrane surfaces, translating to measurable HVAC energy savings. Combined with the membrane-extending benefit, silicone elastomeric coating provides both immediate energy return and deferred capital expenditure for property owners along Eisenhower Parkway and Eagle Rock Avenue.'
   ],
@@ -34,7 +34,25 @@ export const roselandSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Can elastomeric coating fix existing cracks in my flat roof membrane?',
       answer: 'Elastomeric coating bridges hairline cracks and narrow seam openings through its superior elongation capacity. Cracks wider than 1/8 inch should be pre-filled with compatible sealant before coating application. The coating maintains this crack-bridging capability throughout its service life, accommodating the thermal movement that caused the original cracks without developing new fractures. Larger structural failures require membrane repair before coating can serve as an effective surface restoration.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Roseland, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Roseland range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone elastomeric roof coating in Roseland NJ -- flexible restoration coating for commercial roofs with enhanced stretch and ponding resistance.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

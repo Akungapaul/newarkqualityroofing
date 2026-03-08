@@ -4,7 +4,7 @@ export const irvingtonSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'irvington',
   overview: [
-    'Spray polyurethane foam roofing occupies a unique position in Irvington\'s commercial roofing market as the only system that simultaneously waterproofs, insulates, and corrects drainage in a single application. For Springfield Avenue commercial buildings struggling with chronic ponding, deteriorated insulation, and escalating heating costs, SPF offers a solution pathway that conventional membrane systems cannot replicate. Our [spray foam roofing](/spray-foam-roofing) installations across Irvington transform failing flat roofs into seamless, fully-insulated surfaces with built-in drainage slope -- addressing three problems with one system.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Irvington — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing occupies a unique position in Irvington\'s commercial roofing market as the only system that simultaneously waterproofs, insulates, and corrects drainage in a single application. For Springfield Avenue commercial buildings struggling with chronic ponding, deteriorated insulation, and escalating heating costs, SPF offers a solution pathway that conventional membrane systems cannot replicate. Our [spray foam roofing](/spray-foam-roofing) installations across Irvington transform failing flat roofs into seamless, fully-insulated surfaces with built-in drainage slope -- addressing three problems with one system.',
     'The Route 78 industrial corridor presents SPF\'s strongest value proposition in Irvington: large-footprint buildings with minimal rooftop penetrations and high energy costs. Warehouses and distribution facilities with under-insulated steel-deck roofs lose enormous thermal energy through their roof surface -- a surface that SPF can upgrade from R-5 to R-30 or higher without interior disruption. The foam\'s ability to be sprayed directly over existing metal decking, concrete, or membrane surfaces in many cases eliminates the cost of tear-off and disposal that conventional re-roofing requires.',
     'Irvington property owners managing aging commercial buildings with complex drainage problems find SPF particularly appealing because the foam is self-contouring -- it fills low spots and builds up at drain locations to create positive drainage slope that the original building may never have achieved. Properties in neighboring [Newark](/spray-foam-roofing-newark-nj) use SPF for similar drainage correction on aging commercial buildings, though Irvington\'s concentrated commercial corridors along Springfield Avenue present many candidates with the accumulated ponding problems that make SPF\'s drainage correction capability most valuable.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonSprayFoamRoofing: ComboContent = {
       question: 'How does spray foam fix drainage problems on Irvington flat roofs?',
       answer: 'SPF is applied in variable thickness across the roof surface, building up thicker at low spots and tapering toward drain locations. This creates positive drainage slope on roofs that were originally built flat or have settled over decades. The foam conforms to the existing surface geometry and builds corrective slope without the structural modifications that tapered insulation systems require -- a unique capability that no other roofing system offers.',
     },
+    {
+      question: 'How much does spray foam roofing cost in Irvington, NJ?',
+      answer: 'Most spray foam roofing projects in Irvington range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Irvington NJ for commercial and industrial buildings. Seamless SPF with built-in insulation and drainage correction.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const essexFellsMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'essex-fells',
   overview: [
-    'Standing-seam metal roofing on Essex Fells estates occupies a particular niche where architectural precision meets material longevity measured in generations rather than decades. The borough\'s architect-designed homes along Fells Road and Devon Road frequently incorporate metal roofing as accent elements -- copper-clad dormers, zinc-finished turret caps, standing-seam sections bridging roof transitions between the main residence and attached conservatories. These installations demand fabrication tolerances and material grades that separate estate-quality metalwork from standard commercial panel systems.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in Essex Fells — with prices starting from $15,000–$35,000 and free estimates available today. Standing-seam metal roofing on Essex Fells estates occupies a particular niche where architectural precision meets material longevity measured in generations rather than decades. The borough\'s architect-designed homes along Fells Road and Devon Road frequently incorporate metal roofing as accent elements -- copper-clad dormers, zinc-finished turret caps, standing-seam sections bridging roof transitions between the main residence and attached conservatories. These installations demand fabrication tolerances and material grades that separate estate-quality metalwork from standard commercial panel systems.',
     'The multi-structure nature of Essex Fells properties creates metal roofing scenarios rarely encountered in neighboring communities like [Caldwell](/metal-roof-installation-repair-caldwell-nj) or [Roseland](/metal-roof-installation-repair-roseland-nj). A single estate may feature a copper standing-seam main roof, zinc-coated gable accents on the carriage house, and Galvalume panels on a garden shed or equipment building. Each metal substrate demands specific fastening patterns, expansion joint spacing, and sealant compatibility -- a unified material approach would produce failures within the first thermal cycle season.',
     'Our [metal roof installation and repair](/metal-roof-installation-repair) practice in Essex Fells centers on the hand-fabricated details that mass-produced panel systems cannot replicate. Custom brake-formed ridge caps, field-soldered copper valley linings, and mechanically seamed panels joined with concealed clip fasteners produce a roof surface that architects specify and homeowners expect. We operate our own sheet metal shop where flashings, transitions, and specialty trim profiles are fabricated to match dimensioned drawings rather than forced into catalog dimensions.',
     'Repair work on existing metal roofs in Essex Fells requires forensic attention to patina and weathering patterns. A copper roof that has developed its characteristic verdigris over fifteen years cannot accept a bright-copper patch without visual disruption. We pre-patinate replacement copper panels using controlled chemical processes matched to the existing surface, and we maintain an inventory of salvaged copper and zinc stock from regional estate renovations for repairs requiring weathered material that cannot be replicated chemically.'
@@ -35,7 +35,25 @@ export const essexFellsMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'How long does a standing-seam copper roof last in Essex Fells?',
       answer: 'Properly installed copper standing-seam roofing lasts eighty to one hundred years or more in the Essex Fells environment. The wooded setting actually benefits copper longevity by moderating UV exposure and reducing thermal cycling extremes. Maintenance focuses on ensuring drainage paths remain clear of leaf debris, inspecting soldered joints every five to seven years, and addressing any galvanic issues where copper contacts dissimilar metals at flashings or gutter connections.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in Essex Fells, NJ?',
+      answer: 'Most metal roof installation repair projects in Essex Fells range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in Essex Fells NJ -- standing-seam copper, zinc, and custom fabrication for estate properties.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

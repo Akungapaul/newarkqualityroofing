@@ -4,7 +4,7 @@ export const irvingtonStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Storm damage roof replacement in Irvington addresses the catastrophic roof failures that severe weather inflicts on the township\'s aging housing stock -- failures that go beyond repair into full replacement territory. Our [storm damage replacement](/storm-damage-roof-replacement) services manage the complete process from emergency stabilization through insurance claim coordination to final replacement, providing Irvington homeowners with a single point of accountability during what is often the most stressful home improvement experience they face.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Irvington — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Irvington addresses the catastrophic roof failures that severe weather inflicts on the township\'s aging housing stock -- failures that go beyond repair into full replacement territory. Our [storm damage replacement](/storm-damage-roof-replacement) services manage the complete process from emergency stabilization through insurance claim coordination to final replacement, providing Irvington homeowners with a single point of accountability during what is often the most stressful home improvement experience they face.',
     'Irvington\'s aging roofs are disproportionately vulnerable to storm damage compared to newer construction. Shingles that have lost their adhesive bond, nails holding in softened decking, and deteriorated underlayment create conditions where moderate storm events produce severe damage. A nor\'easter that might lift a few shingles on a 10-year-old roof can strip entire sections from Irvington\'s 25 to 30-year-old surfaces, exposing the building to water damage that makes repair impractical and replacement necessary.',
     'Multi-family storm damage replacement on Irvington investment properties adds complexity around tenant displacement, insurance coordination for both building and contents coverage, and accelerated scheduling to restore habitability. Our storm response protocol for Irvington multi-family buildings prioritizes structural stabilization, tenant-impact documentation, and expedited replacement scheduling that minimizes the period of disrupted occupancy. Storm damage replacement on properties in [Bloomfield](/storm-damage-roof-replacement-bloomfield-nj) follows similar insurance coordination, though Irvington\'s higher proportion of multi-family investment properties adds the tenant-management dimension.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonStormDamageRoofReplacement: ComboContent = {
       question: 'Can you start repairs before my Irvington insurance claim is approved?',
       answer: 'We perform emergency stabilization immediately to prevent additional damage -- this is covered under most policies as loss mitigation. Full replacement work begins after claim approval to ensure the scope and materials are aligned with the approved coverage. Starting replacement before approval risks performing work that the insurer will not cover.',
     },
+    {
+      question: 'How much does storm damage roof replacement cost in Irvington, NJ?',
+      answer: 'Most storm damage roof replacement projects in Irvington range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Irvington NJ with emergency tarping and insurance claim coordination. Full replacement for aging roofs after severe weather.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

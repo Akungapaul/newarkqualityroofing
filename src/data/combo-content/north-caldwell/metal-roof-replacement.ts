@@ -4,7 +4,7 @@ export const northCaldwellMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Metal roof replacement on North Caldwell estates represents a strategic material upgrade for homeowners who want to eliminate the replacement cycle entirely. Standing seam metal delivers a fifty-year-plus service life that means the roof installed today will likely be the last roof the property needs during the current ownership and potentially the next. For estate homes where each re-roofing cycle costs five to six figures, this lifecycle advantage fundamentally changes the economics of roof ownership.',
+    'Newark Quality Roofing delivers expert metal roof replacement in North Caldwell — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement on North Caldwell estates represents a strategic material upgrade for homeowners who want to eliminate the replacement cycle entirely. Standing seam metal delivers a fifty-year-plus service life that means the roof installed today will likely be the last roof the property needs during the current ownership and potentially the next. For estate homes where each re-roofing cycle costs five to six figures, this lifecycle advantage fundamentally changes the economics of roof ownership.',
     'Our [metal roof replacement](/metal-roof-replacement) work on North Caldwell properties uses architectural-grade standing seam panels with Kynar 500 finish in colors that complement the traditional and contemporary homes throughout the borough. The on-site roll-forming process produces continuous panels from ridge to eave, eliminating transverse seams that could become failure points. For estate roofs where individual panel runs may exceed thirty feet, this continuous fabrication is essential for both performance and appearance on [North Caldwell](/roofing-in-north-caldwell-nj) properties.',
     'The transition from conventional roofing to metal on a North Caldwell estate includes upgrading the entire underlayment system, installing high-temperature synthetic underlayment rated for metal application, and engineering the concealed clip attachment system for the specific wind zone and panel length. Each detail contributes to a complete system that performs as a unified assembly rather than individual components. Homeowners in [Essex Fells](/metal-roof-replacement-essex-fells-nj) pursue similar metal roof upgrades on their estate properties.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellMetalRoofReplacement: ComboContent = {
     {
       question: 'Can metal roofing be installed on my North Caldwell home in winter?',
       answer: 'Yes. Metal roofing installation is not temperature-dependent the way asphalt shingle installation is. Panels and clips install properly in cold weather, and the underlayment products used for metal applications are rated for cold-temperature installation. Winter installation in North Caldwell is feasible and may offer scheduling advantages since demand for roofing services is lower during cold months.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most metal roof replacement projects in North Caldwell range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in North Caldwell NJ -- standing seam upgrade for estate homes with fifty-year performance and custom fabrication.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

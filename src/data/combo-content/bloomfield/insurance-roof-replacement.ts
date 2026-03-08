@@ -4,7 +4,7 @@ export const bloomfieldInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Insurance roof replacement in Bloomfield follows storm events that damage the roof beyond reasonable repair -- high winds that strip shingle sections, hail that cracks shingle surfaces across the entire roof, and fallen tree limbs that breach the roof structure. Bloomfield homeowners navigating the insurance claim process for the first time face unfamiliar procedures, adjustor terminology, and coverage questions that can delay repair and leave the home exposed to secondary water damage while the claim is processed. Our insurance coordination service guides Bloomfield homeowners through each step, from initial damage documentation through adjustor negotiation to final replacement.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Bloomfield — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Bloomfield follows storm events that damage the roof beyond reasonable repair -- high winds that strip shingle sections, hail that cracks shingle surfaces across the entire roof, and fallen tree limbs that breach the roof structure. Bloomfield homeowners navigating the insurance claim process for the first time face unfamiliar procedures, adjustor terminology, and coverage questions that can delay repair and leave the home exposed to secondary water damage while the claim is processed. Our insurance coordination service guides Bloomfield homeowners through each step, from initial damage documentation through adjustor negotiation to final replacement.',
     'The insurance claim process requires specific documentation that general roof inspections do not produce. Adjustors need date-stamped photographs of the damage with measurement references, a professional assessment distinguishing storm damage from pre-existing wear, and a detailed scope-of-work estimate using industry-standard line-item formatting. Many Bloomfield homeowners lose claim value because their initial documentation is insufficient or their contractor\'s estimate does not align with the format insurance companies recognize. We prepare documentation in the format adjustors expect, maximizing the probability of full-scope approval.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners with [storm damage](/storm-damage-roof-repair-bloomfield-nj), understanding what insurance covers and what it excludes prevents disagreements during the claim process. Homeowner policies typically cover sudden damage from named perils -- wind, hail, falling objects -- but exclude gradual deterioration, maintenance-related failures, and pre-existing conditions that the storm exposed rather than caused. A twenty-year-old roof that loses shingles in a windstorm may have legitimate storm damage coverage, but the adjustor will distinguish between shingles removed by wind force and shingles that were already deteriorated and simply released during the storm.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Can I upgrade my roof during an insurance replacement in Bloomfield?',
       answer: 'Yes. Insurance covers replacement with like-kind materials at pre-damage quality. If you want to upgrade from three-tab to architectural shingles, from standard to impact-resistant products, or add ridge ventilation, you pay the difference between the insurance-approved scope and the upgrade cost. We clearly separate the insurance-covered work from the homeowner-paid upgrades in our invoicing so the insurance payment and your out-of-pocket cost are transparent.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most insurance roof replacement projects in Bloomfield range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Bloomfield NJ -- storm damage claims coordination, adjustor advocacy, and full replacement for covered perils.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

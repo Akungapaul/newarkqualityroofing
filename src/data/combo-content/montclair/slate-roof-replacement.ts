@@ -4,7 +4,7 @@ export const montclairSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Slate roof replacement in Montclair preserves the material authenticity that defines the township\'s most architecturally significant homes -- the Victorian mansions along North Mountain Avenue, the Tudor estates near Watchung Plaza, and the Arts & Crafts residences throughout the Upper Montclair historic areas where natural slate has covered rooftops since original construction in the late nineteenth and early twentieth centuries. Replacing slate with slate maintains the architectural integrity, property value, and Historic Preservation Commission compliance that these homes demand.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Montclair — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Montclair preserves the material authenticity that defines the township\'s most architecturally significant homes -- the Victorian mansions along North Mountain Avenue, the Tudor estates near Watchung Plaza, and the Arts & Crafts residences throughout the Upper Montclair historic areas where natural slate has covered rooftops since original construction in the late nineteenth and early twentieth centuries. Replacing slate with slate maintains the architectural integrity, property value, and Historic Preservation Commission compliance that these homes demand.',
     'The decision to replace slate with slate rather than converting to a less expensive material represents a preservation commitment that [Montclair](/roofing-in-montclair-nj) homeowners make with full awareness of the cost premium. Our [slate roof replacement](/slate-roof-replacement) projects source material from active quarries and salvage dealers to match the original slate\'s color, thickness, and geological character. Properties in [Glen Ridge](/slate-roof-replacement-glen-ridge-nj), with its own preservation-conscious community, share Montclair\'s demand for authentic slate replacement.',
     'A properly installed slate replacement roof delivers seventy-five to one hundred-plus years of service -- meaning that the replacement performed today will outlast the homeowner, the next owner, and potentially the owner after that. This multi-generational perspective justifies the investment for families who view their Montclair home as a legacy asset rather than a transactional property.'
   ],
@@ -30,7 +30,25 @@ export const montclairSlateRoofReplacement: ComboContent = {
     {
       question: 'How long does slate roof replacement take in Montclair?',
       answer: 'Material sourcing typically requires four to eight weeks of lead time before installation begins. On-site installation spans two to four weeks for a typical Montclair Victorian, depending on roof size, complexity, and weather conditions. The total project timeline from contract to completion is six to twelve weeks. This extended timeline reflects the craftsmanship-intensive nature of slate work compared to shingle installation.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Montclair, NJ?',
+      answer: 'Most slate roof replacement projects in Montclair range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Montclair NJ -- quarry-matched natural slate for Victorian and Tudor landmark home preservation.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

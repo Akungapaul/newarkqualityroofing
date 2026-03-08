@@ -4,7 +4,7 @@ export const livingstonRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'livingston',
   overview: [
-    'Roof flashing is the most failure-prone component on Livingston homes, and the township\'s dominant split-level architecture multiplies the number of flashing junctions that each roof must maintain. Every plane intersection, wall transition, dormer cheek, and chimney base requires flashing that redirects water away from vulnerable joints while accommodating decades of thermal movement. On a typical Livingston split-level, the flashing system may include 15 or more individual step-flashing runs, multiple valley flashings, and kick-out diverters at wall-roof transitions -- each one a potential leak source when installation quality or material life degrades.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Livingston — with prices starting from $300–$1,500 and free estimates available today. Roof flashing is the most failure-prone component on Livingston homes, and the township\'s dominant split-level architecture multiplies the number of flashing junctions that each roof must maintain. Every plane intersection, wall transition, dormer cheek, and chimney base requires flashing that redirects water away from vulnerable joints while accommodating decades of thermal movement. On a typical Livingston split-level, the flashing system may include 15 or more individual step-flashing runs, multiple valley flashings, and kick-out diverters at wall-roof transitions -- each one a potential leak source when installation quality or material life degrades.',
     'Our [roof flashing installation and repair](/roof-flashing-installation-repair) work in Livingston addresses both emergency leak situations where failed flashing has allowed water intrusion and preventive replacement during roof projects where aging galvanized flashing is upgraded to copper or aluminum before failure occurs. The preventive approach saves significantly over reactive repair because replacing flashing during a roof project costs a fraction of what it costs to repair water damage caused by flashing failure between roof replacement cycles.',
     'Homes throughout Collins Terrace, Westminster, and the Northland neighborhood carry original 1960s and 1970s galvanized step flashing that has corroded through at multiple points, creating slow water infiltration paths that damage wall cavities and ceiling finishes without obvious exterior symptoms. Neighboring [Verona](/roof-flashing-installation-repair-verona-nj) homes share similar vintage flashing conditions on their split-level stock. The corrosion is invisible beneath siding and shingles, making it a hidden deterioration that only reveals itself through interior staining or moisture testing.',
     'Commercial flashing repair on Livingston\'s Route 10 and Eisenhower Parkway buildings focuses on parapet cap flashings, equipment curb flashings, and expansion joint covers that fail under the thermal cycling and UV exposure that flat roof environments produce. These commercial flashing failures create localized leaks that damage ceiling tiles, electrical systems, and inventory in the occupied spaces below.'
@@ -35,7 +35,25 @@ export const livingstonRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'Can you repair just the failed flashing section or does the entire run need replacement?',
       answer: 'We can replace individual sections of step flashing by working from the top of the affected area downward and weaving new pieces into the existing shingle courses. However, if the flashing material throughout the run has reached the same age and shows similar corrosion, replacing the full run during one project prevents return visits as adjacent sections fail in sequence. We assess the full run condition and recommend the most cost-effective scope.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Livingston, NJ?',
+      answer: 'Most roof flashing installation repair projects in Livingston range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Livingston NJ -- step flashing for split-levels, valley upgrades, and copper flashing at critical junctions.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

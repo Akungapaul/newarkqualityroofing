@@ -4,7 +4,7 @@ export const veronaFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Flat roof replacement in Verona addresses the membrane systems covering commercial buildings along Bloomfield Avenue and the low-slope sections on residential split-levels that have reached end-of-life. Aging membrane surfaces that blister, crack, and separate at seams despite repeated patching need complete replacement with modern materials engineered for another 20 to 30 years of reliable service. Newark Quality Roofing replaces flat roof systems on Verona properties with TPO, EPDM, modified bitumen, or PVC membranes selected for the building\'s specific operational requirements.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Verona — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Verona addresses the membrane systems covering commercial buildings along Bloomfield Avenue and the low-slope sections on residential split-levels that have reached end-of-life. Aging membrane surfaces that blister, crack, and separate at seams despite repeated patching need complete replacement with modern materials engineered for another 20 to 30 years of reliable service. Newark Quality Roofing replaces flat roof systems on Verona properties with TPO, EPDM, modified bitumen, or PVC membranes selected for the building\'s specific operational requirements.',
     'Flat roof replacement provides the opportunity to correct drainage deficiencies that the original installation created or that building settling has worsened over time. Tapered insulation systems engineered into the replacement create positive slope toward drain points, eliminating the ponding that accelerated the previous membrane\'s deterioration. Our [flat roof replacement](/flat-roof-replacement) specifications include drainage analysis and correction as a standard component, not an optional upgrade.',
     'Energy code compliance during flat roof replacement typically requires insulation upgrades that bring the roof assembly to current R-value minimums. Verona commercial buildings originally constructed with minimal insulation gain significant energy performance from the insulation added during replacement. The insulation also creates the tapered profiles needed for drainage improvement, addressing two requirements with a single component. Building owners in [Bloomfield](/flat-roof-replacement-bloomfield-nj) have documented 20 to 30 percent HVAC cost reductions after flat roof replacement with code-compliant insulation.'
   ],
@@ -34,7 +34,25 @@ export const veronaFlatRoofReplacement: ComboContent = {
     {
       question: 'Can flat roof replacement improve drainage on my Verona building?',
       answer: 'Yes -- this is one of the primary benefits of full replacement. Tapered insulation installed during replacement creates positive slope toward drain points, eliminating the ponding conditions that shortened the previous membrane\'s life. Additional drains or enlarged scuppers can be incorporated into the replacement design when existing drainage capacity is insufficient for the building\'s geometry.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Verona, NJ?',
+      answer: 'Most flat roof replacement projects in Verona range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Verona NJ -- TPO, EPDM, and modified bitumen with drainage correction for commercial and residential flat roofs.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

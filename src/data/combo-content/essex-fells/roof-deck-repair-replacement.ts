@@ -4,7 +4,7 @@ export const essexFellsRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Roof deck repair on Essex Fells estates addresses the structural substrate beneath premium roofing materials where water infiltration, age, or biological deterioration has compromised the plywood, OSB, or board sheathing that supports the entire roof system. Deck deterioration beneath slate or cedar shake is particularly insidious because the premium roofing material may show no exterior signs while the substrate beneath has softened from years of moisture contact at flashing failures, valley deficiencies, or ice dam locations. Discovery typically occurs during planned re-roofing when the existing surface material is removed to reveal the sheathing condition beneath.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Essex Fells — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair on Essex Fells estates addresses the structural substrate beneath premium roofing materials where water infiltration, age, or biological deterioration has compromised the plywood, OSB, or board sheathing that supports the entire roof system. Deck deterioration beneath slate or cedar shake is particularly insidious because the premium roofing material may show no exterior signs while the substrate beneath has softened from years of moisture contact at flashing failures, valley deficiencies, or ice dam locations. Discovery typically occurs during planned re-roofing when the existing surface material is removed to reveal the sheathing condition beneath.',
     'The historic Essex Fells estate homes feature original roof decking materials rarely encountered in modern construction -- skip-sheathing with individual boards spaced for cedar shake ventilation, full tongue-and-groove board sheathing predating plywood availability, and occasionally structural plank decking on the oldest carriage house and stable conversions. Repairing these historic decking systems requires understanding both their structural contribution and their compatibility with modern underlayment and roofing installation methods. Wholesale replacement of historic board sheathing with plywood changes the roof assembly\'s vapor behavior in ways that must be analyzed before specification.',
     'Our [roof deck repair and replacement](/roof-deck-repair-replacement) capability in Essex Fells encompasses both the structural carpentry required for sound deck restoration and the engineering understanding necessary to maintain proper vapor management and ventilation when deck materials are modified. We evaluate deck conditions during every re-roofing project, map deterioration areas before the homeowner commits to the full material replacement scope, and present repair options that address the structural problem while preserving the building\'s original deck characteristics where they contribute to the roof assembly\'s performance.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'How much does deck repair add to a re-roofing project cost?',
       answer: 'Deck repair typically adds ten to twenty percent to the re-roofing cost for localized deterioration affecting less than ten percent of the deck area. Extensive deterioration requiring replacement of larger sections can add thirty percent or more. Pre-project assessment reduces cost surprise by identifying probable repair scope before the project begins. We provide unit pricing for deck repair in our re-roofing proposals so homeowners can anticipate the cost range based on the assessment findings.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Essex Fells, NJ?',
+      answer: 'Most roof deck repair replacement projects in Essex Fells range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Essex Fells NJ -- structural substrate restoration for estate re-roofing projects.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

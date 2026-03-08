@@ -4,7 +4,7 @@ export const northCaldwellFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Flat roof replacement on North Caldwell estates addresses the secondary roof sections that connect multi-level wings, cover attached garages, and span enclosed porches and sunrooms. While these flat sections represent a small percentage of the total roof area on most estate homes, their failure produces the same interior water damage that a pitched roof failure would create. Replacing an aging flat section restores reliable waterproofing to areas that the primary roof system cannot protect.',
+    'Newark Quality Roofing delivers expert flat roof replacement in North Caldwell — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement on North Caldwell estates addresses the secondary roof sections that connect multi-level wings, cover attached garages, and span enclosed porches and sunrooms. While these flat sections represent a small percentage of the total roof area on most estate homes, their failure produces the same interior water damage that a pitched roof failure would create. Replacing an aging flat section restores reliable waterproofing to areas that the primary roof system cannot protect.',
     'Our [flat roof replacement](/flat-roof-replacement) approach for North Caldwell homes corrects the drainage deficiencies that many original installations created. Older flat sections were often built without positive slope toward drains, creating ponding conditions that accelerate membrane deterioration and create persistent leak risk. Replacement installs tapered insulation to establish proper drainage before the new membrane is applied, addressing the root cause of many chronic flat roof problems on [North Caldwell](/roofing-in-north-caldwell-nj) estate properties.',
     'The membrane selection for flat replacement depends on the specific section\'s conditions. TPO for sun-exposed sections where reflectivity benefits energy performance. EPDM for shaded sections under tree canopy where moisture resistance is the primary concern. Modified bitumen for high-traffic areas where durability matters. We evaluate each flat section individually and recommend the membrane that matches its specific exposure and use conditions. Similar section-by-section evaluation guides flat roof replacement on homes in [Caldwell](/flat-roof-replacement-caldwell-nj).'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellFlatRoofReplacement: ComboContent = {
     {
       question: 'Will the flat roof replacement match my existing gutters and trim?',
       answer: 'We integrate the new membrane with the existing gutter system and edge trim. When the existing edge metal or drip edge is deteriorated, we replace it with matching material as part of the flat roof project. The finished installation presents a clean, unified edge that connects the flat membrane to the gutter system and adjacent building elements without visible discontinuity.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most flat roof replacement projects in North Caldwell range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in North Caldwell NJ -- membrane systems with drainage correction for estate home garage and porch roof sections.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const glenRidgeTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Tile roof replacement in Glen Ridge serves the small number of borough homes that carry clay or concrete tile -- primarily Mediterranean-influenced and Spanish Revival residences that appeared during the 1920s and 1930s building period when these styles briefly flourished in Essex County. While tile is far less common in Glen Ridge than slate or cedar shake, the homes that carry it present distinctive character that the Historic Preservation Commission values and that tile-specific expertise is needed to maintain.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Glen Ridge — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Glen Ridge serves the small number of borough homes that carry clay or concrete tile -- primarily Mediterranean-influenced and Spanish Revival residences that appeared during the 1920s and 1930s building period when these styles briefly flourished in Essex County. While tile is far less common in Glen Ridge than slate or cedar shake, the homes that carry it present distinctive character that the Historic Preservation Commission values and that tile-specific expertise is needed to maintain.',
     'Clay tile on Glen Ridge homes has often lasted 80 to 100 years, a testament to the durability of fired ceramic in the northeastern climate. When replacement becomes necessary, it is typically because the original iron wire ties securing the tiles have corroded, allowing tiles to slip and break rather than because the tile material itself has failed. Modern replacement addresses this historical weakness by using copper or stainless steel fasteners that eliminate the corrosion-driven failure mode, giving the new tile installation a service life limited only by the ceramic material itself.',
     'Tile roof replacement on Glen Ridge homes must match the original tile profile precisely -- barrel tile, flat tile with interlocking channels, or the S-profile that creates the distinctive undulating shadow pattern. We source replacement tile from manufacturers producing profiles compatible with the home\'s original installation, ensuring that the new roof replicates the visual character that earned commission protection. When exact profile matches are unavailable from current production, we explore salvage sources and custom fabrication to achieve the specification the home requires. Similar tile restoration expertise serves our clients across Essex County including [Montclair](/tile-roof-installation-repair-montclair-nj).',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeTileRoofReplacement: ComboContent = {
       question: 'What does tile roof replacement cost in Glen Ridge?',
       answer: 'Tile roof replacement ranges from $25,000 to $60,000 depending on roof size, tile type, and structural work needed. Clay tile carries a higher material cost than concrete tile. Structural reinforcement, if required, adds to the project budget. We provide detailed estimates that itemize each cost component.',
     },
+    {
+      question: 'How much does tile roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most tile roof replacement projects in Glen Ridge range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Glen Ridge NJ. Clay and concrete tile restoration for Spanish and Mediterranean-style historic homes.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -15,6 +15,8 @@ import { ComboProcess } from '@/components/sections/ComboProcess';
 import { ComboFaqs } from '@/components/sections/ComboFaqs';
 import { ComboRelatedLinks } from '@/components/sections/ComboRelatedLinks';
 import { ComboCtaBanner } from '@/components/sections/ComboCtaBanner';
+import { ComboPricing } from '@/components/sections/ComboPricing';
+import { ComboWhyChooseUs } from '@/components/sections/ComboWhyChooseUs';
 import { StickyFormSidebar } from '@/components/sections/StickyFormSidebar';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
@@ -66,8 +68,13 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           {/* Mid-content CTA -- natural break after problem, before solution */}
           <div className="rounded-sm border-2 border-copper/30 bg-copper/5 p-6 text-center">
             <p className="font-heading text-lg font-semibold text-forest">
-              Ready to discuss {service.name.toLowerCase()} in {city.name}?
+              {content.conversionHooks?.midPageCta || `Ready to discuss ${service.name.toLowerCase()} in ${city.name}?`}
             </p>
+            {content.conversionHooks?.urgencyNote && (
+              <p className="mt-2 font-body text-sm font-medium text-copper-dark">
+                {content.conversionHooks.urgencyNote}
+              </p>
+            )}
             <p className="mt-2 font-body text-sm text-text-secondary">
               Call us or request a free estimate
             </p>
@@ -77,6 +84,20 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           </div>
 
           <ComboProcess steps={content.process} serviceName={service.name} />
+
+          {/* Pricing section — after process */}
+          {content.pricing && (
+            <ComboPricing
+              pricing={content.pricing}
+              serviceName={service.name}
+              cityName={city.name}
+            />
+          )}
+
+          {/* Why Choose Us — before FAQs */}
+          {content.whyChooseUs && content.whyChooseUs.length > 0 && (
+            <ComboWhyChooseUs reasons={content.whyChooseUs} />
+          )}
 
           <ComboFaqs faqs={content.faqs} />
 

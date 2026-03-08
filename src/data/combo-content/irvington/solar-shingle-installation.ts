@@ -4,7 +4,7 @@ export const irvingtonSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'irvington',
   overview: [
-    'Solar shingle technology offers Irvington homeowners an integrated roofing-and-energy solution that eliminates the rack-mounted panel aesthetic some neighborhoods find objectionable. Our [solar shingle installation](/solar-shingle-installation) projects in Irvington deploy building-integrated photovoltaic shingles that generate electricity while functioning as the primary roof surface -- a dual-purpose approach that makes sense on homes where the roof needs replacement anyway and the homeowner wants clean energy without visible hardware on the roofline.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Irvington — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle technology offers Irvington homeowners an integrated roofing-and-energy solution that eliminates the rack-mounted panel aesthetic some neighborhoods find objectionable. Our [solar shingle installation](/solar-shingle-installation) projects in Irvington deploy building-integrated photovoltaic shingles that generate electricity while functioning as the primary roof surface -- a dual-purpose approach that makes sense on homes where the roof needs replacement anyway and the homeowner wants clean energy without visible hardware on the roofline.',
     'The value proposition of solar shingles in Irvington\'s cost-conscious market hinges on the combined cost comparison: when a homeowner needs both a new roof and wants solar capability, the incremental cost of solar shingles over conventional shingles plus separate panels can be competitive. On Irvington homes where the full roof surface is south-facing and unshaded, solar shingles cover the entire production zone without the rack-mounted equipment that conventional panels require, delivering a cleaner appearance while generating comparable electricity.',
     'Irvington\'s housing renovation market creates a natural entry point for solar shingles. Investment property buyers rehabilitating two-family and three-family homes already plan for full re-roofing as part of their renovation scope. Adding solar shingle technology to the new roof generates rental premium and utility cost reduction that improves the property\'s investment return. Homeowners in neighboring [Maplewood](/solar-shingle-installation-maplewood-nj) also specify solar shingles for aesthetic integration, though Irvington\'s investment property applications add a financial return dimension beyond the homeowner market.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonSolarShingleInstallation: ComboContent = {
       question: 'Do solar shingles qualify for NJ solar incentives in Irvington?',
       answer: 'Yes. Solar shingles qualify for the same incentive programs as conventional panels: the federal 30 percent Investment Tax Credit, New Jersey SREC-II credits, and net metering through PSE&G. We handle all incentive enrollment as part of our installation service.',
     },
+    {
+      question: 'How much does solar shingle installation cost in Irvington, NJ?',
+      answer: 'Most solar shingle installation projects in Irvington range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Irvington NJ combining roof replacement with integrated solar. Clean energy without visible panels on your roofline.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

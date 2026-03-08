@@ -4,7 +4,7 @@ export const eastOrangeAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Aging roof replacement in East Orange is the planned capital expenditure that proactive landlords and property investors execute before their building\'s roof deteriorates from aging nuisance to active emergency. The multi-family buildings throughout Elmwood Park, Doddtown, and the Brick Church district carry roofs that have quietly aged past their effective service life -- shingles that have lost their granule protection and are cracking in freeze-thaw cycling, flat roof membranes that have dried and stiffened past the point where seam adhesion holds, and flashing systems that have fatigued beyond what sealant maintenance can sustain. [Aging roof replacement](/aging-roof-replacement) at the planned moment costs less, causes less disruption, and produces a better outcome than the emergency replacement that follows catastrophic failure.',
+    'Newark Quality Roofing delivers expert aging roof replacement in East Orange — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in East Orange is the planned capital expenditure that proactive landlords and property investors execute before their building\'s roof deteriorates from aging nuisance to active emergency. The multi-family buildings throughout Elmwood Park, Doddtown, and the Brick Church district carry roofs that have quietly aged past their effective service life -- shingles that have lost their granule protection and are cracking in freeze-thaw cycling, flat roof membranes that have dried and stiffened past the point where seam adhesion holds, and flashing systems that have fatigued beyond what sealant maintenance can sustain. [Aging roof replacement](/aging-roof-replacement) at the planned moment costs less, causes less disruption, and produces a better outcome than the emergency replacement that follows catastrophic failure.',
     'East Orange property investors acquiring buildings for rehabilitation frequently inherit aging roofs that are the primary capital expenditure needed to stabilize the property for rental operation. The acquisition analysis must account for the roof replacement cost that the previous owner deferred, and the rehabilitation timeline must sequence the roof replacement early enough to protect interior renovation work from weather damage. We provide pre-purchase roof assessments that quantify remaining service life and replacement cost, giving investors the data they need to factor roofing into their acquisition and renovation budgets.',
     'The aging roof on an East Orange rental property creates cascading costs beyond the eventual replacement: rising insurance premiums as carriers penalize aging roofs, tenant turnover from persistent leak-related complaints, code enforcement attention triggered by visible deterioration, and progressive damage to the building structure from water infiltration that minor repairs temporarily conceal. Replacing the aging roof eliminates these compounding costs simultaneously, often making the financial case for replacement stronger than the sum of the individual symptoms suggests. Property owners in [Newark](/aging-roof-replacement-newark-nj) and [Bloomfield](/aging-roof-replacement-bloomfield-nj) face identical aging-roof economics.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeAgingRoofReplacement: ComboContent = {
     {
       question: 'Will replacing an aging roof increase my East Orange property value?',
       answer: 'Yes. New roof installation typically returns 60 to 70 percent of its cost in immediate property value increase, and the full cost is often recovered through eliminated repair expense, reduced insurance premiums, and improved tenant retention. For properties being prepared for sale, a new roof removes one of the most common buyer negotiation points and supports stronger asking prices.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in East Orange, NJ?',
+      answer: 'Most aging roof replacement projects in East Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement for East Orange NJ rental properties -- planned replacement to prevent emergency failure on multi-family investment buildings.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

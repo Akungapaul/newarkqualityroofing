@@ -4,7 +4,7 @@ export const caldwellSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Skylight installations bring natural light into Caldwell homes where the borough\'s dense tree canopy can leave interior spaces feeling dark, particularly during the shorter days of fall and winter. Colonial and cape cod floor plans with central hallways, interior bathrooms, and upstairs bedrooms beneath low-pitch roof planes benefit from strategically placed skylights that transform dim rooms into light-filled spaces. The decision to add a skylight is both practical and emotional -- Caldwell homeowners choose skylights to improve how their home feels, not just how it functions.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Caldwell — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installations bring natural light into Caldwell homes where the borough\'s dense tree canopy can leave interior spaces feeling dark, particularly during the shorter days of fall and winter. Colonial and cape cod floor plans with central hallways, interior bathrooms, and upstairs bedrooms beneath low-pitch roof planes benefit from strategically placed skylights that transform dim rooms into light-filled spaces. The decision to add a skylight is both practical and emotional -- Caldwell homeowners choose skylights to improve how their home feels, not just how it functions.',
     'Skylight repair in [Caldwell](/roofing-in-caldwell-nj) addresses a common legacy issue on homes where skylights were installed during the renovation boom of the 1980s and 1990s. Many of these early installations used builder-grade skylights with single-pane glazing, minimal flashing kits, and installation methods that did not adequately integrate the skylight with the surrounding roof system. Thirty-plus years later, these skylights fog between panes, leak at deteriorated flashing seals, and lose energy through thermally inefficient glazing. Replacement with current-generation skylights delivers immediate improvements in both weather protection and energy performance.',
     'Our [skylight](/skylight-installation-repair) approach for Caldwell considers the tree canopy impact that makes this borough unique. Skylight placement must account for branch proximity -- both the shade effect on light delivery and the physical risk of branch impact on glazing surfaces. Skylights positioned beneath heavy canopy receive less natural light than their orientation would suggest, reducing the benefit that motivated the installation. We assess canopy conditions for each proposed skylight location and provide honest guidance about expected light levels before the homeowner commits to installation. Neighbors in [Bloomfield](/skylight-installation-repair-bloomfield-nj) and [Montclair](/skylight-installation-repair-montclair-nj) face similar canopy considerations.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSkylightInstallationRepair: ComboContent = {
     {
       question: 'How long does skylight installation take on a Caldwell home?',
       answer: 'A standard skylight installation on a Caldwell colonial with accessible attic space typically takes one to two days. Day one covers roof opening, framing, skylight setting, and flashing integration. Day two covers light shaft framing, insulation, and interior finish. Complex installations requiring extensive light shaft construction through attic obstacles or installations on steep or high roof planes may require additional time. We provide a specific timeline estimate during the proposal phase based on your home\'s particular conditions.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Caldwell, NJ?',
+      answer: 'Most skylight installation repair projects in Caldwell range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Caldwell NJ -- VELUX skylights with impact glazing and canopy-aware placement for colonial homes.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

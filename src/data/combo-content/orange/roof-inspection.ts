@@ -4,7 +4,7 @@ export const orangeRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'orange',
   overview: [
-    'Roof inspections in Orange serve a city where the housing stock is aging faster than most owners realize. Homes built in the 1930s through 1950s -- the colonials, Cape Cods, and bungalows that fill the blocks between Main Street and the city borders -- are commonly on their third roof, with shingles installed 20 to 25 years ago now approaching failure. A thorough [roof inspection](/roof-inspection) catches the early warning signs that homeowners miss from ground level: granule erosion exposing the asphalt substrate, lifted shingle edges creating wind-catch points, hairline cracks in aging flashing, and the subtle deck deflection that signals moisture damage beneath the surface.',
+    'Newark Quality Roofing delivers expert roof inspection in Orange — with prices starting from $150–$400 and free estimates available today. Roof inspections in Orange serve a city where the housing stock is aging faster than most owners realize. Homes built in the 1930s through 1950s -- the colonials, Cape Cods, and bungalows that fill the blocks between Main Street and the city borders -- are commonly on their third roof, with shingles installed 20 to 25 years ago now approaching failure. A thorough [roof inspection](/roof-inspection) catches the early warning signs that homeowners miss from ground level: granule erosion exposing the asphalt substrate, lifted shingle edges creating wind-catch points, hairline cracks in aging flashing, and the subtle deck deflection that signals moisture damage beneath the surface.',
     'Orange\'s real estate market drives significant inspection demand from a different direction: home purchases. The NJ Transit station and Orange\'s relative affordability compared to neighboring South Orange and Maplewood attract steady buyer interest, and lenders routinely require roof condition assessments before closing. Our buyer inspection reports go beyond pass-fail -- we provide estimated remaining service life, identify deferred maintenance items with cost estimates, and flag any conditions that should be addressed immediately versus those that can be scheduled over the coming year. Buyers in nearby [West Orange](/roof-inspection-west-orange-nj) receive similarly detailed reports, but Orange inspections place particular emphasis on tight-lot access conditions and tree exposure that West Orange\'s larger lots rarely present.',
     'South Mountain Reservation\'s tree canopy makes regular inspections especially critical for Orange properties along Hillyer Street, South Valley Road, and the streets approaching the park boundary. Branch impacts, accumulated leaf debris, moss and lichen colonization, and gutter blockages from seed pods all create conditions that deteriorate roofing materials faster than typical suburban exposure. We recommend annual inspections for mountain-adjacent Orange homes -- twice the frequency we suggest for properties on the city\'s interior blocks -- because the window between minor damage and significant water intrusion is much shorter under heavy tree canopy.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofInspection: ComboContent = {
     {
       question: 'Will you check the attic during a roof inspection?',
       answer: 'Yes, whenever attic access is available. Attic inspection is especially important in Orange because the Valley neighborhood and other low-lying areas experience moisture migration from below that damages roof decking before any surface symptoms appear. We check for moisture staining, mold, insulation condition, ventilation adequacy, and the structural integrity of rafters and decking from the underside.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Orange, NJ?',
+      answer: 'Most roof inspection projects in Orange range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof inspection in Orange NJ -- buyer assessments, annual tree-damage checks, Valley moisture evaluation, and Main Street commercial membrane testing.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const newarkSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Slate roof replacement in Newark is as much a preservation decision as it is a roofing project. The city\'s historic building stock -- particularly the Victorian-era mansions of Forest Hill, the institutional buildings along Broad Street, and the grand churches scattered throughout the North Ward -- carries some of the finest slate roofwork in northern New Jersey. When these roofs reach the end of their hundred-plus year lifespan, the replacement decision involves balancing historic authenticity, structural capacity, and modern performance requirements in ways that no other roofing material demands.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Newark — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Newark is as much a preservation decision as it is a roofing project. The city\'s historic building stock -- particularly the Victorian-era mansions of Forest Hill, the institutional buildings along Broad Street, and the grand churches scattered throughout the North Ward -- carries some of the finest slate roofwork in northern New Jersey. When these roofs reach the end of their hundred-plus year lifespan, the replacement decision involves balancing historic authenticity, structural capacity, and modern performance requirements in ways that no other roofing material demands.',
     'The fundamental question every Newark slate roof owner faces is whether to replace with natural slate or transition to synthetic alternatives. Natural Pennsylvania black slate, the material most commonly found on Newark\'s historic roofs, is still quarried and available but at costs that have tripled since the original installations. Synthetic slate products from manufacturers like DaVinci and CertainTeed now replicate the visual profile at roughly forty percent of natural slate pricing while weighing sixty percent less. For Newark\'s aging structural systems, that weight reduction can eliminate the need for costly framing reinforcement.',
     'Salvaging existing slate during replacement is a practice unique to this material and particularly relevant in Newark where many roofs carry irreplaceable quarry-specific slate. Our crews are trained in careful slate removal techniques that preserve intact tiles for reuse -- either on the same roof in areas where the deck is sound, or as inventory for future spot repairs. A hundred-year-old Newark slate roof typically yields thirty to forty percent salvageable material, which represents significant value both financially and historically.',
     'Structural assessment before any Newark slate replacement is non-negotiable. The original framing on a Forest Hill Victorian was engineered for the specific weight of slate -- roughly 800 to 1,500 pounds per square depending on thickness. A century of load bearing may have caused subtle deflection, joist fatigue, or bearing point compression that is invisible from below but compromises the structural capacity for a new full-weight slate installation. We engage structural engineers for every natural slate replacement in Newark to verify that the framing can accept another century of load.'
@@ -40,7 +40,25 @@ export const newarkSlateRoofReplacement: ComboContent = {
     {
       question: 'What permits does Newark require for a slate roof replacement on a historic building?',
       answer: 'A full slate replacement requires a standard roofing permit from Newark\'s Department of Buildings and Code Enforcement. Properties within designated historic districts or individually listed on the Newark historic register also require review by the Newark Landmarks and Historic Preservation Commission, which evaluates the proposed materials and methods for compatibility with the building\'s historic character. We prepare the preservation commission submission as part of our project management, including material samples and installation specifications that demonstrate fidelity to the original roofing system.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Newark, NJ?',
+      answer: 'Most slate roof replacement projects in Newark range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Newark NJ -- natural and synthetic slate, historic preservation, salvage, and structural reinforcement.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

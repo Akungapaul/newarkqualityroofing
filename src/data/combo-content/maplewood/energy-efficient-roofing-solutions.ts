@@ -4,7 +4,7 @@ export const maplewoodEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'maplewood',
   overview: [
-    'Energy-efficient roofing solutions address a growing priority among Maplewood\'s environmentally conscious homeowners, who understand that the roof is the single largest surface area influencing a home\'s thermal performance. Cool-roof shingles with high solar reflectance, radiant barrier underlayments, and properly engineered ventilation systems transform aging roofs from energy liabilities into performance assets. Our [energy-efficient roofing](/energy-efficient-roofing-solutions) consultations in [Maplewood](/roofing-in-maplewood-nj) evaluate each home\'s specific thermal challenges and recommend solutions calibrated to its architectural style, orientation, and climate exposure.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Maplewood — with prices starting from $10,000–$28,000 and free estimates available today. Energy-efficient roofing solutions address a growing priority among Maplewood\'s environmentally conscious homeowners, who understand that the roof is the single largest surface area influencing a home\'s thermal performance. Cool-roof shingles with high solar reflectance, radiant barrier underlayments, and properly engineered ventilation systems transform aging roofs from energy liabilities into performance assets. Our [energy-efficient roofing](/energy-efficient-roofing-solutions) consultations in [Maplewood](/roofing-in-maplewood-nj) evaluate each home\'s specific thermal challenges and recommend solutions calibrated to its architectural style, orientation, and climate exposure.',
     'Maplewood\'s older housing stock presents particular energy-efficiency opportunities because most homes were built before modern insulation and ventilation standards. Victorian, Colonial Revival, and Tudor homes throughout the Village area and Hilton neighborhood typically have minimal attic insulation, inadequate soffit ventilation, and roofing materials selected for appearance rather than thermal performance. Upgrading to reflective roofing materials during scheduled replacement captures efficiency gains that reduce heating and cooling costs for decades.',
     'The township\'s sustainability advisory committee and active environmental community have created a culture where energy performance matters alongside aesthetic quality. Maplewood homeowners researching roofing upgrades frequently ask about Energy Star-rated products, LEED-relevant specifications, and long-term energy cost projections. Our consultations provide data-driven answers specific to each property\'s orientation and shading conditions, helping homeowners make informed choices between standard and high-performance roofing options. Homeowners in neighboring [South Orange](/energy-efficient-roofing-solutions-south-orange-nj) share this informed approach to roofing decisions.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodEnergyEfficientRoofingSolutions: ComboContent = {
       question: 'Does energy-efficient roofing qualify for NJ incentives in Maplewood?',
       answer: 'New Jersey\'s Clean Energy Program periodically offers incentives for energy-efficient home improvements including roofing upgrades that meet specific reflectance or insulation thresholds. Federal tax credits for energy-efficient home improvements may also apply. We track current program availability and help Maplewood homeowners apply for all eligible incentives as part of our project coordination.',
     },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Maplewood, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Maplewood range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy-efficient roofing in Maplewood NJ. Cool-roof shingles, radiant barriers, and ventilation upgrades for Victorians and Colonials.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

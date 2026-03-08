@@ -4,7 +4,7 @@ export const bellevilleChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'belleville',
   overview: [
-    'Chimney flashing repair is one of the most frequently requested services in Belleville, where nearly every post-war home retains its original masonry chimney even as many households have converted to gas heating. These chimneys, often abandoned as functional flues, remain as structural elements that penetrate the roof surface and create the largest, most complex flashing assembly on any residential roof. The mortar joints that hold the chimney masonry deteriorate over decades, the counter-flashing embedded in those joints loosens, and water finds its way behind the step flashing into the building envelope.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Belleville — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is one of the most frequently requested services in Belleville, where nearly every post-war home retains its original masonry chimney even as many households have converted to gas heating. These chimneys, often abandoned as functional flues, remain as structural elements that penetrate the roof surface and create the largest, most complex flashing assembly on any residential roof. The mortar joints that hold the chimney masonry deteriorate over decades, the counter-flashing embedded in those joints loosens, and water finds its way behind the step flashing into the building envelope.',
     'Belleville\'s chimneys face accelerated deterioration from the township\'s Passaic River basin humidity and the freeze-thaw cycling that exploits every crack in aging mortar. The north-facing side of a chimney in Belleville\'s Silver Lake neighborhood retains moisture longer than any other roof surface, creating ideal conditions for frost damage that progressively opens mortar joints and displaces counter-flashing. By the time water stains appear on the ceiling near the chimney, the deterioration has often advanced to include rotted sheathing and rafters in the immediate area around the chimney penetration.',
     'Our [chimney flashing repair](/chimney-flashing-repair) approach in Belleville distinguishes between the chimney masonry condition and the flashing condition, because both systems must function together. Rebuilding flashing against a chimney with deteriorated mortar is temporary at best -- the new flashing will fail when the next mortar joint opens. We assess both systems simultaneously, recommending chimney masonry repair or rebuilding when joint deterioration has compromised the substrate into which counter-flashing must be anchored.',
     'The proximity between Belleville homes creates an additional chimney concern: a chimney that leans or has loose masonry at the top threatens not just the homeowner\'s property but the adjacent home as well. We inspect chimney structural condition from both ground level and rooftop, identifying lean, spalling, cap deterioration, and crown cracking that could lead to masonry falling onto neighboring property. For chimneys with significant structural issues, we coordinate with masonry contractors for chimney rebuilding before executing the flashing repair that seals the penetration in neighboring [Bloomfield](/chimney-flashing-repair-bloomfield-nj) and throughout Essex County.'
@@ -35,7 +35,25 @@ export const bellevilleChimneyFlashingRepair: ComboContent = {
     {
       question: 'Does my Belleville chimney need a cricket?',
       answer: 'If the chimney is wider than 30 inches on the side facing the ridge, building code requires a cricket. Most Belleville homes built before the 1980s lack crickets, and the water pooling behind the chimney is a primary cause of chronic leaks. We recommend cricket installation during any chimney flashing repair on chimneys wider than 24 inches, even if code only requires it at 30 inches.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Belleville, NJ?',
+      answer: 'Most chimney flashing repair projects in Belleville range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Belleville NJ. Step flashing, counter-flashing, and cricket installation for post-war homes with aging masonry chimneys.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

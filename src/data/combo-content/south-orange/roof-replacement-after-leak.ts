@@ -4,7 +4,7 @@ export const southOrangeRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'south-orange',
   overview: [
-    'Roof replacement after persistent leak damage in South Orange Village addresses the reality that some roofing systems have deteriorated beyond the point where continued repair serves the homeowner\'s interests. When a South Orange home develops recurring leaks despite multiple repair interventions, the underlying roofing system has likely reached a condition where each repair reveals additional failure points in an ongoing cycle that costs more cumulatively than replacement would.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in South Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after persistent leak damage in South Orange Village addresses the reality that some roofing systems have deteriorated beyond the point where continued repair serves the homeowner\'s interests. When a South Orange home develops recurring leaks despite multiple repair interventions, the underlying roofing system has likely reached a condition where each repair reveals additional failure points in an ongoing cycle that costs more cumulatively than replacement would.',
     'The decision to transition from repair to replacement often arrives gradually in South Orange. A homeowner repairs a valley leak, then discovers chimney flashing failure, then addresses a wind-lifted section, and eventually recognizes that the individual repairs represent symptoms of a system that has aged past its functional capacity. Our [roof replacement after leak](/roof-replacement-after-leak) assessment helps homeowners evaluate whether continued repair or full replacement provides better value from their current position.',
     'South Orange homes with chronic leak histories frequently show interior damage that extends beyond the visible ceiling stains. Water migrating through the roof assembly saturates insulation, promotes mold growth on framing and sheathing, and deteriorates the structural elements that support the roofing system. Replacement addresses not just the roofing surface but the accumulated damage beneath it, restoring the complete roof assembly to sound condition.',
     'Our replacement approach for leak-damaged South Orange homes includes thorough assessment of the damage extent within the roof assembly, not just the visible surface conditions. We inspect the attic space for moisture damage patterns, probe decking for deterioration, and evaluate framing condition at areas where chronic water exposure may have compromised structural elements. This complete assessment ensures the replacement project addresses every condition the leak history has created throughout [South Orange](/roofing-in-south-orange-nj) homes.'
@@ -35,7 +35,25 @@ export const southOrangeRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'How much more does leak-damaged roof replacement cost than standard replacement?',
       answer: 'The cost premium depends on the extent of deck damage, framing repair needs, and mold remediation scope. Roofs with minor localized leak damage may add 10-15 percent to the replacement cost. Roofs with extensive moisture damage involving widespread deck replacement and framing repair can add 25-40 percent. We include an estimated damage repair allowance in our proposals based on pre-tear-off assessment, with actual costs adjusted for conditions discovered during tear-off.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in South Orange, NJ?',
+      answer: 'Most roof replacement after leak projects in South Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak damage in South Orange NJ -- permanent solutions for chronic leaks on village homes.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

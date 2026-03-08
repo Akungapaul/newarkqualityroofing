@@ -4,7 +4,7 @@ export const caldwellMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Metal roofing in Caldwell represents a growing alternative to the asphalt shingles that have dominated the borough for decades. Homeowners researching their replacement options discover that standing seam metal delivers a fifty-year-plus lifespan that eliminates the repeat replacement cycle, sheds the leaf debris and snow loads that Caldwell tree canopy creates more effectively than textured shingle surfaces, and provides the energy-reflective performance that reduces cooling costs during New Jersey summers. The question for most Caldwell homeowners is not whether metal roofing performs well but whether the higher initial cost and different aesthetic fit their home, their neighborhood, and their ownership timeline.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in Caldwell — with prices starting from $15,000–$35,000 and free estimates available today. Metal roofing in Caldwell represents a growing alternative to the asphalt shingles that have dominated the borough for decades. Homeowners researching their replacement options discover that standing seam metal delivers a fifty-year-plus lifespan that eliminates the repeat replacement cycle, sheds the leaf debris and snow loads that Caldwell tree canopy creates more effectively than textured shingle surfaces, and provides the energy-reflective performance that reduces cooling costs during New Jersey summers. The question for most Caldwell homeowners is not whether metal roofing performs well but whether the higher initial cost and different aesthetic fit their home, their neighborhood, and their ownership timeline.',
     'The aesthetic question matters in Caldwell more than in many municipalities. This is a borough with cohesive streetscapes where roof color and material choices are visible from every neighboring property. A standing seam metal roof on a colonial that sits between two asphalt-shingled colonials will look distinctly different -- cleaner lines, sharper shadow patterns, a more contemporary character. Some Caldwell homeowners see this as an attractive distinction; others prefer to coordinate with the established neighborhood palette. We navigate this conversation honestly, bringing physical material samples and showing examples of metal installations on similar home styles so the homeowner can make the aesthetic decision with full visual context.',
     'Metal roof repair in Caldwell addresses a smaller but growing inventory of installed metal systems. Homeowners who installed standing seam or metal panel roofs ten to fifteen years ago may encounter panel expansion noise, fastener loosening on exposed-fastener systems, sealant deterioration at penetration flashings, or denting from branch impacts -- a particularly common issue under Caldwell\'s [tree canopy](/roofing-in-caldwell-nj). Our [metal roof installation and repair](/metal-roof-installation-repair) team understands the mechanical behavior of metal roofing systems and applies repair techniques appropriate to the specific panel profile and attachment method rather than the generic caulk-and-patch approach that undermines metal system integrity.'
   ],
@@ -34,7 +34,25 @@ export const caldwellMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'Does a metal roof attract lightning to my Caldwell home?',
       answer: 'No. Metal roofing does not attract lightning. Lightning strikes the highest point in an area regardless of the material, and Caldwell homes surrounded by tall trees are far less likely targets than the trees themselves. In the unlikely event of a lightning strike, a metal roof is actually safer than combustible roofing materials because metal does not ignite. The metal surface disperses the electrical energy across its surface rather than concentrating it at the strike point. No special grounding is required for residential metal roofing beyond the standard electrical grounding that all homes include.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in Caldwell, NJ?',
+      answer: 'Most metal roof installation repair projects in Caldwell range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in Caldwell NJ -- standing seam systems for colonials with branch impact repair and thermal expansion management.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

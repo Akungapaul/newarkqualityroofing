@@ -4,7 +4,7 @@ export const irvingtonSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'irvington',
   overview: [
-    'Soffit deterioration on Irvington\'s aging homes creates consequences that extend far beyond the cosmetic gap where a panel has fallen away. The soffit cavity is the primary pathway for attic ventilation on the hip-roofed colonials and Cape Cods that dominate the township\'s housing stock, and when soffits fail, they either block ventilation entirely or create uncontrolled openings that admit insects, birds, and weather into the attic space. Our [soffit installation](/soffit-installation-repair) and repair services across Irvington restore both the ventilation function and the weather protection that intact soffits provide.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Irvington — with prices starting from $1,500–$4,000 and free estimates available today. Soffit deterioration on Irvington\'s aging homes creates consequences that extend far beyond the cosmetic gap where a panel has fallen away. The soffit cavity is the primary pathway for attic ventilation on the hip-roofed colonials and Cape Cods that dominate the township\'s housing stock, and when soffits fail, they either block ventilation entirely or create uncontrolled openings that admit insects, birds, and weather into the attic space. Our [soffit installation](/soffit-installation-repair) and repair services across Irvington restore both the ventilation function and the weather protection that intact soffits provide.',
     'Ice dam problems on Irvington homes are directly linked to soffit ventilation performance. When vented soffits become blocked by deteriorated panels, displaced insulation, or accumulated debris, air circulation from soffit intake to ridge exhaust stops. Heat from the living space below accumulates in the attic, melts snow on the roof surface, and the resulting meltwater refreezes at the cold eave edge to form ice dams. Restoring proper soffit ventilation is the most cost-effective ice dam remedy on Irvington\'s under-insulated pre-war homes -- more impactful than heat cables or additional insulation alone.',
     'Multi-family properties throughout Irvington show soffit damage from both weather exposure and tenant-caused incidents. Disconnected dryer vents, bathroom exhaust fans venting into the soffit cavity rather than through the roof, and gutter overflow that saturates soffit panels from above all contribute to accelerated soffit deterioration on rental properties. Our repair approach for Irvington multi-family soffit work addresses the cause of the damage -- rerouting improper venting and fixing gutter overflow -- alongside the soffit replacement itself. Homeowners in neighboring [Newark](/soffit-installation-repair-newark-nj) face similar soffit ventilation challenges, though Irvington\'s detached multi-family structures allow for cleaner repair access.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonSoffitInstallationRepair: ComboContent = {
       question: 'Should I use vented or solid soffits on my Irvington home?',
       answer: 'Most Irvington homes need a combination of vented and solid soffit panels to provide proper attic ventilation. We typically install vented panels in every other panel bay, providing uniform intake ventilation while maintaining structural support. Homes with ridge vent exhaust need more intake area -- we calculate the required net free ventilation area and specify the vent panel ratio to match the attic ventilation balance.',
     },
+    {
+      question: 'How much does soffit installation repair cost in Irvington, NJ?',
+      answer: 'Most soffit installation repair projects in Irvington range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Irvington NJ for attic ventilation and ice dam prevention. Fix deteriorated soffits on aging colonials and Cape Cods.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

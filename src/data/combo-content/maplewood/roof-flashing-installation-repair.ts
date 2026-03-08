@@ -4,7 +4,7 @@ export const maplewoodRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'maplewood',
   overview: [
-    'Roof flashing installation and repair is the most technically demanding aspect of roofing work in Maplewood, where the township\'s architecturally complex homes create more flashing transitions per roof than any comparable community in Essex County. A single Victorian in the Village area may require step flashing at four dormer walls, counter-flashing at a chimney, valley flashing where multiple roof planes intersect, and drip edge along a dozen or more eave sections. Our [roof flashing](/roof-flashing-installation-repair) expertise in [Maplewood](/roofing-in-maplewood-nj) addresses every transition type with materials and methods matched to the home\'s architectural period and roofing system.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Maplewood — with prices starting from $300–$1,500 and free estimates available today. Roof flashing installation and repair is the most technically demanding aspect of roofing work in Maplewood, where the township\'s architecturally complex homes create more flashing transitions per roof than any comparable community in Essex County. A single Victorian in the Village area may require step flashing at four dormer walls, counter-flashing at a chimney, valley flashing where multiple roof planes intersect, and drip edge along a dozen or more eave sections. Our [roof flashing](/roof-flashing-installation-repair) expertise in [Maplewood](/roofing-in-maplewood-nj) addresses every transition type with materials and methods matched to the home\'s architectural period and roofing system.',
     'Flashing failures account for the majority of roof leaks on Maplewood\'s older homes. The original galvanized steel flashing installed on homes built between 1890 and 1950 has corroded through at critical points, allowing water infiltration at chimney bases, dormer sidewalls, and roof-to-wall transitions. Many previous repairs applied sealant over deteriorated flashing rather than replacing it, creating temporary fixes that fail within 2-3 years. Our approach removes failed flashing down to bare substrate, installs new material with proper overlap and integration, and eliminates the sealant-dependent shortcuts that lead to recurring leaks.',
     'Tudor Revival homes in the Hilton neighborhood present Maplewood\'s most challenging flashing conditions. The junction between steep-pitch roof slopes and stucco-and-timber wall cladding creates a waterproofing interface where dissimilar materials meet at complex angles. Original reglet-cut counter-flashing embedded in the stucco develops cracks as the building settles and the stucco expands seasonally. Our flashing solutions for Maplewood Tudors use flexible materials and sealant systems designed to accommodate this movement. Homeowners in [Montclair](/roof-flashing-installation-repair-montclair-nj) managing similar Tudor-era flashing challenges rely on the same flexible integration techniques.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodRoofFlashingInstallationRepair: ComboContent = {
       question: 'Can flashing be repaired without replacing the entire roof in Maplewood?',
       answer: 'Yes, in most cases. Flashing repair involves replacing the specific transition details where failure has occurred, which requires removing and reinstalling shingles in the immediate area but not across the entire roof surface. We carefully extract and preserve surrounding shingles for reinstallation, matching the existing roof appearance. On older Maplewood roofs where matching shingles are unavailable, we source the closest available match or discuss the visual trade-off with the homeowner.',
     },
+    {
+      question: 'How much does roof flashing installation repair cost in Maplewood, NJ?',
+      answer: 'Most roof flashing installation repair projects in Maplewood range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Maplewood NJ. Expert transition waterproofing for Victorians, Tudors, and Colonials.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'west-orange',
   overview: [
-    'Green roof systems transform West Orange\'s commercial flat roofs into productive ecological surfaces that manage stormwater, reduce energy consumption, and extend membrane life by decades. Our [green roof installation](/green-roof-installation) projects in West Orange design vegetated assemblies calibrated for the township\'s unique elevation-dependent growing conditions, where ridge-top wind exposure and valley-floor moisture patterns create distinct microenvironments that require different plant palettes and growing media depths.',
+    'Newark Quality Roofing delivers expert green roof installation in West Orange — with prices starting from $15–$35/sq ft and free estimates available today. Green roof systems transform West Orange\'s commercial flat roofs into productive ecological surfaces that manage stormwater, reduce energy consumption, and extend membrane life by decades. Our [green roof installation](/green-roof-installation) projects in West Orange design vegetated assemblies calibrated for the township\'s unique elevation-dependent growing conditions, where ridge-top wind exposure and valley-floor moisture patterns create distinct microenvironments that require different plant palettes and growing media depths.',
     'West Orange\'s proximity to South Mountain Reservation and Eagle Rock Reservation creates natural synergy for green roof installations that extend urban habitat connectivity. Sedum and native grass plantings on commercial rooftops provide pollinator habitat, reduce urban heat island intensity, and contribute to the watershed management goals that the township\'s stormwater infrastructure depends on. Building owners near [Montclair](/green-roof-installation-montclair-nj) pursue similar environmental objectives on their own commercial green roof installations.',
     'The stormwater management benefits of green roofing hold particular value in West Orange, where the township\'s hilly terrain channels runoff downhill through established neighborhoods. Extensive green roof systems retain 50 to 75 percent of annual rainfall on the roof surface, releasing the remainder slowly through controlled drainage layers. This retention reduces peak stormwater flow during intense rain events that overwhelm the combined sewer system serving [West Orange](/roofing-in-west-orange-nj)\'s lower-elevation neighborhoods.',
     'Energy efficiency gains from green roof insulation value complement the thermal management challenges that West Orange\'s commercial buildings face. The growing media and vegetation layers provide insulation equivalent to R-5 per inch of depth, reducing both heating and cooling loads on the building below. Valley-floor buildings that trap summer heat benefit from green roof cooling; ridge-top buildings exposed to winter wind benefit from green roof insulation during the heating season.'
@@ -35,7 +35,25 @@ export const westOrangeGreenRoofInstallation: ComboContent = {
     {
       question: 'What maintenance does a green roof require in West Orange?',
       answer: 'Established extensive green roofs require two to three maintenance visits per year: spring weed removal and fertility assessment, summer irrigation check and drought monitoring, and fall drain clearance and media inspection. During the first two growing seasons, monthly visits monitor plant establishment and adjust irrigation. The ongoing maintenance cost is modest compared to traditional roof systems and is offset by the extended membrane life, energy savings, and stormwater management benefits the green roof provides throughout its 40-plus-year service life.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in West Orange, NJ?',
+      answer: 'Most green roof installation projects in West Orange range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in West Orange NJ. Vegetated roofing systems for stormwater management, energy savings, and habitat connectivity.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

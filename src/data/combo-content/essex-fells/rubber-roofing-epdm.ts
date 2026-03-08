@@ -4,7 +4,7 @@ export const essexFellsRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'essex-fells',
   overview: [
-    'EPDM rubber roofing in Essex Fells serves a specialized but essential role across the borough\'s estate properties. While the primary residences feature architectural-grade slate, copper, or cedar shake on their prominent roof planes, the auxiliary structures that complete an Essex Fells estate compound -- equipment buildings, storage structures, covered utility areas, and flat-roofed garage extensions -- frequently rely on EPDM membranes for reliable, low-profile waterproofing. These installations must perform without maintenance attention for extended periods while remaining visually unobtrusive from the estate\'s principal sight lines.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Essex Fells — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing in Essex Fells serves a specialized but essential role across the borough\'s estate properties. While the primary residences feature architectural-grade slate, copper, or cedar shake on their prominent roof planes, the auxiliary structures that complete an Essex Fells estate compound -- equipment buildings, storage structures, covered utility areas, and flat-roofed garage extensions -- frequently rely on EPDM membranes for reliable, low-profile waterproofing. These installations must perform without maintenance attention for extended periods while remaining visually unobtrusive from the estate\'s principal sight lines.',
     'The EPDM installations we execute in Essex Fells differ from standard commercial rubber roofing applications in their integration requirements. An equipment building housing pool mechanicals sits thirty feet from the main residence\'s slate-roofed facade. A covered walkway connecting the main house to the guest cottage passes directly beneath bedroom windows. These proximity relationships demand that EPDM installations present clean, finished edges, properly detailed flashings, and surface treatments that complement rather than contrast with the estate\'s primary architectural materials -- standards that contractors experienced only with commercial flat roofs rarely consider.',
     'Our [rubber roofing EPDM](/rubber-roofing-epdm) specifications for Essex Fells properties exceed standard residential requirements. We install sixty-mil or greater membrane thickness where forty-five-mil is industry standard, use fully adhered application rather than mechanically fastened or ballasted systems to eliminate surface irregularities, and specify colored membrane options that harmonize with adjacent structure roofing. These premium specifications serve the estate context where every structure, regardless of its utilitarian function, reflects on the property\'s overall architectural presentation.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRubberRoofingEpdm: ComboContent = {
     {
       question: 'Can EPDM be installed on a structure with a low slope or slight ponding tendency?',
       answer: 'EPDM is tolerant of ponding water and performs reliably on very low slopes down to one-quarter inch per foot. For Essex Fells auxiliary structures where original construction created minimal slope, EPDM is often the preferred membrane because it maintains waterproofing integrity under standing water conditions that would compromise other single-ply systems. We do recommend adding tapered insulation to improve drainage where possible, reducing the maintenance burden of clearing standing water and the debris that collects in ponding areas.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Essex Fells, NJ?',
+      answer: 'Most rubber roofing epdm projects in Essex Fells range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Essex Fells NJ -- premium fully adhered membrane systems for estate auxiliary structures and flat-roofed buildings.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

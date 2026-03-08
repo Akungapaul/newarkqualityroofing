@@ -4,7 +4,7 @@ export const cedarGroveInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Insurance roof replacement in Cedar Grove guides homeowners through the claims process when storm damage, fallen trees, or catastrophic weather events warrant full roof replacement covered by homeowner\'s insurance. The township\'s dense tree canopy and northern Essex County storm exposure produce damage events that exceed repair scope -- large branch impacts that crack multiple rafters, hail damage affecting entire roof planes, and wind events that strip shingle sections beyond economical repair. Our [insurance roof replacement](/insurance-roof-replacement) coordination ensures Cedar Grove homeowners receive the full coverage their policies provide.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Cedar Grove — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Cedar Grove guides homeowners through the claims process when storm damage, fallen trees, or catastrophic weather events warrant full roof replacement covered by homeowner\'s insurance. The township\'s dense tree canopy and northern Essex County storm exposure produce damage events that exceed repair scope -- large branch impacts that crack multiple rafters, hail damage affecting entire roof planes, and wind events that strip shingle sections beyond economical repair. Our [insurance roof replacement](/insurance-roof-replacement) coordination ensures Cedar Grove homeowners receive the full coverage their policies provide.',
     'Navigating insurance claims for roof replacement requires documentation that satisfies adjuster requirements while accurately representing the damage scope. Cedar Grove homeowners who file claims without professional damage assessment often receive initial settlement offers that underestimate the true replacement cost, covering only visible surface damage while ignoring concealed deck damage, compromised underlayment, and code-upgrade requirements that become apparent only during tear-off.',
     'Our role in the Cedar Grove insurance replacement process begins before the claim is filed and continues through final inspection. We provide the initial damage assessment, prepare the documentation package that supports the claim, meet with the insurance adjuster on-site to ensure all damage is identified, and supplement the claim when additional damage is discovered during construction.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveInsuranceRoofReplacement: ComboContent = {
       question: 'Can you help if my insurance company denies my Cedar Grove roof claim?',
       answer: 'We can assist with claim denial appeals by providing additional documentation, independent engineering assessments, and supplemental evidence supporting the damage claim. Many initial denials result from incomplete documentation or adjuster oversight rather than legitimate coverage exclusions. Our detailed damage reports and on-roof photography frequently provide the additional evidence needed to reverse initial denial decisions.',
     },
+    {
+      question: 'How much does insurance roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most insurance roof replacement projects in Cedar Grove range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Cedar Grove NJ -- claims coordination, adjuster meetings, and full documentation for storm damage coverage.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

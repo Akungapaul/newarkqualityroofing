@@ -4,7 +4,7 @@ export const newarkRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'newark',
   overview: [
-    'Roof flashing in Newark is the silent architecture behind every waterproof joint -- the thin metal barriers between masonry and membrane, between chimney and shingle, between the nineteenth century and the twenty-first. In a city where brownstone party walls press against pitched roofs along the North Ward\'s narrow streets and commercial parapets rise above flat membranes in the Ironbound, flashing isn\'t an afterthought. It\'s the component that determines whether a roof system performs or leaks within the first five years of installation.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Newark — with prices starting from $300–$1,500 and free estimates available today. Roof flashing in Newark is the silent architecture behind every waterproof joint -- the thin metal barriers between masonry and membrane, between chimney and shingle, between the nineteenth century and the twenty-first. In a city where brownstone party walls press against pitched roofs along the North Ward\'s narrow streets and commercial parapets rise above flat membranes in the Ironbound, flashing isn\'t an afterthought. It\'s the component that determines whether a roof system performs or leaks within the first five years of installation.',
     'Newark\'s building stock spans three distinct flashing eras. Pre-war brownstones in Forest Hill and Roseville often retain original lead or tin flashing embedded in lime mortar reglets -- materials that have outlasted multiple roof replacements but now approach the end of their functional life. Mid-century homes in Vailsburg and Weequahic feature galvanized steel step flashing that has served its fifty-year duty and corroded through. Modern installations on Downtown\'s mixed-use buildings along Broad Street use copper or painted aluminum, selected for longevity in Newark\'s salt-air-and-exhaust atmosphere.',
     'The party wall condition is what makes Newark flashing work categorically different from suburban installations. When two brownstones share a masonry wall and each has an independently pitched roof, the flashing system at that junction must accommodate two different roof planes, two different material ages, and two different rates of thermal movement. Counter-flashing embedded in the shared masonry must seal against both sides without allowing lateral water migration through the mortar bed. This is detail work that suburban roofers rarely encounter and often mishandle when they attempt it.',
     'Our flashing installations in Newark follow material-specific protocols calibrated to building era and exposure. We use sixteen-ounce copper for historically significant brownstones in Forest Hill where visual continuity matters and corrosion resistance is essential. Painted aluminum with butyl sealant serves the mid-century housing stock in the Central Ward where cost-effectiveness aligns with remaining building life. For commercial flat roofs in the Ironbound, we install stainless steel through-wall flashing with self-adhering membrane backing to handle the thermal loads that Newark\'s urban heat island generates.'
@@ -36,7 +36,25 @@ export const newarkRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'What is the cost difference between step flashing repair and full replacement in Newark?',
       answer: 'Selective step flashing repair on a Newark brownstone typically runs forty to sixty percent less than full replacement, but it\'s only appropriate when the majority of existing flashing is sound and the failure is isolated to specific courses. Full replacement is necessary when corrosion has compromised more than a third of the step flashing run, when the existing material is galvanized steel past its service life, or when a roof replacement is already exposing the flashing line. We provide both options with honest assessment of which approach delivers lasting value for your specific building condition.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Newark, NJ?',
+      answer: 'Most roof flashing installation repair projects in Newark range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Newark roof flashing installation and repair -- copper and aluminum step flashing, party wall counter-flashing, and reglet work for brownstones.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

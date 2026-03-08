@@ -4,7 +4,7 @@ export const maplewoodTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'maplewood',
   overview: [
-    'Tile roofing in Maplewood occupies a distinctive niche, appearing primarily on the Mediterranean-influenced homes built during the 1920s-1930s period revival era and on contemporary renovations where homeowners seek a European aesthetic. Clay barrel tiles on a Spanish Revival bungalow near Springfield Avenue, concrete flat tiles on a 1930s stucco cottage in the Boyden Avenue area, and new installations on architecturally adventurous renovations near the Village all fall within our [tile roof installation and repair](/tile-roof-installation-repair) scope. These installations are uncommon enough in Maplewood to require specialist knowledge that general roofers rarely possess.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Maplewood — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Maplewood occupies a distinctive niche, appearing primarily on the Mediterranean-influenced homes built during the 1920s-1930s period revival era and on contemporary renovations where homeowners seek a European aesthetic. Clay barrel tiles on a Spanish Revival bungalow near Springfield Avenue, concrete flat tiles on a 1930s stucco cottage in the Boyden Avenue area, and new installations on architecturally adventurous renovations near the Village all fall within our [tile roof installation and repair](/tile-roof-installation-repair) scope. These installations are uncommon enough in Maplewood to require specialist knowledge that general roofers rarely possess.',
     'Tile repair in Maplewood addresses the specific failure modes of clay and concrete roofing in the Northeast climate. The freeze-thaw cycling that characterizes New Jersey winters is tile roofing\'s primary adversary, expanding absorbed moisture within the tile body until fractures develop. Older clay tiles with higher porosity are particularly susceptible. The interlocking profiles that make tile roofing effective at water shedding also complicate individual tile replacement, because removing one damaged tile often requires temporarily lifting several surrounding tiles to access the fastener and underlayment layer below.',
     'For homeowners considering new tile installation in [Maplewood](/roofing-in-maplewood-nj), the structural implications are significant. Clay and concrete tiles weigh three to five times more than asphalt shingles, requiring structural verification of rafters, purlins, and bearing walls before installation. Many of Maplewood\'s older homes were not framed to support tile weight, and retrofit structural reinforcement adds cost and complexity to the project. We provide engineering assessment as part of our tile proposal process, ensuring homeowners understand the full scope before committing.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodTileRoofInstallationRepair: ComboContent = {
       question: 'What maintenance does a tile roof need in Maplewood?',
       answer: 'Annual inspection for cracked or displaced tiles, debris clearing from beneath tile profiles, flashing inspection at all penetrations and transitions, and gutter clearing are the primary maintenance tasks. For properties near South Mountain Reservation, we recommend semi-annual debris clearing and more frequent inspection given the accelerated exposure to organic material and moisture. Ridge and hip mortar should be inspected annually for cracking.',
     },
+    {
+      question: 'How much does tile roof installation repair cost in Maplewood, NJ?',
+      answer: 'Most tile roof installation repair projects in Maplewood range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Maplewood NJ. Clay and concrete tile expertise for Mediterranean Revival homes and salvage tile sourcing.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

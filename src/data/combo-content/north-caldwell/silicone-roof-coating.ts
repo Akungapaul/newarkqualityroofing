@@ -4,7 +4,7 @@ export const northCaldwellSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'north-caldwell',
   overview: [
-    'Silicone roof coating serves North Caldwell\'s small commercial property inventory as a restoration technology that extends the service life of aging flat roof membranes without the cost and disruption of full tear-off replacement. For professional offices, medical practices, and municipal buildings operating on tight maintenance budgets, applying a reflective silicone coating over an existing membrane that still has structural integrity is a financially sound strategy that adds ten to fifteen years of protection at roughly forty percent of replacement cost.',
+    'Newark Quality Roofing delivers expert silicone roof coating in North Caldwell — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating serves North Caldwell\'s small commercial property inventory as a restoration technology that extends the service life of aging flat roof membranes without the cost and disruption of full tear-off replacement. For professional offices, medical practices, and municipal buildings operating on tight maintenance budgets, applying a reflective silicone coating over an existing membrane that still has structural integrity is a financially sound strategy that adds ten to fifteen years of protection at roughly forty percent of replacement cost.',
     'The [silicone roof coating](/silicone-roof-coating) process works by creating a seamless, UV-resistant, waterproof barrier over the existing roof surface. Unlike acrylic coatings that soften in standing water, silicone maintains its integrity in ponding conditions -- an important characteristic for North Caldwell commercial roofs where tree debris frequently blocks drains and creates temporary water accumulation. This ponding tolerance makes silicone the preferred coating choice over acrylic for commercial properties surrounded by the borough\'s dense tree canopy.',
     'Our silicone coating work in [North Caldwell](/roofing-in-north-caldwell-nj) extends to residential applications on estate home flat sections where the existing EPDM, modified bitumen, or built-up membrane is aging but not yet failed. Coating these sections during a planned maintenance cycle restores waterproofing, adds reflectivity for energy savings, and extends the interval before full membrane replacement becomes necessary. Commercial properties in [Caldwell](/silicone-roof-coating-caldwell-nj) use silicone coating for similar lifecycle extension on their more extensive flat roof inventory.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellSiliconeRoofCoating: ComboContent = {
     {
       question: 'What maintenance does a silicone-coated roof require in North Caldwell?',
       answer: 'Annual debris clearing (essential on tree-surrounded North Caldwell properties), visual inspection for coating damage or wear spots, and drain clearing to prevent ponding. Professional inspection every three years monitors coating thickness and identifies any areas where foot traffic or mechanical damage has worn through the coating surface. Spot repair of worn areas maintains continuous protection across the full roof surface.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in North Caldwell, NJ?',
+      answer: 'Most silicone roof coating projects in North Caldwell range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in North Caldwell NJ -- membrane restoration for commercial buildings and estate home flat roof sections.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const cedarGroveChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Chimney flashing repair is one of the most frequent roof service calls in Cedar Grove, where original 1950s and 1960s ranch homes and colonials feature masonry chimneys with galvanized steel flashing that has corroded through decades of northern Essex County weather exposure. The intersection between chimney masonry and roof surface creates the most complex flashing detail on any residential roof -- multiple material transitions, thermal movement differentials, and concentrated water flow all converge at a junction originally designed to last twenty years but expected to serve for sixty or more.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Cedar Grove — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is one of the most frequent roof service calls in Cedar Grove, where original 1950s and 1960s ranch homes and colonials feature masonry chimneys with galvanized steel flashing that has corroded through decades of northern Essex County weather exposure. The intersection between chimney masonry and roof surface creates the most complex flashing detail on any residential roof -- multiple material transitions, thermal movement differentials, and concentrated water flow all converge at a junction originally designed to last twenty years but expected to serve for sixty or more.',
     'Cedar Grove\'s chimney flashing failures produce water entry patterns that often mislead homeowners about the source of their leaks. Water infiltrating deteriorated counter-flashing embedded in mortar joints can travel along the chimney structure, down interior framing, and emerge as ceiling stains in rooms nowhere near the chimney. Our [chimney flashing repair](/chimney-flashing-repair) diagnostic in Cedar Grove traces every water path systematically before prescribing repairs, ensuring that the actual failure point receives attention rather than just the visible symptom.',
     'The township\'s low-pitch ranch roofs compound chimney flashing challenges because water drains more slowly past chimney bases on shallow slopes, increasing the volume and duration of water contact with flashing joints. Standard chimney flashing details designed for steeper roofs may underperform on Cedar Grove ranches, requiring wider base flashings, cricket installations on the upslope side, and enhanced sealant detailing to manage the slower drainage pattern.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveChimneyFlashingRepair: ComboContent = {
       question: 'What is a chimney cricket and does my Cedar Grove home need one?',
       answer: 'A chimney cricket is a peaked diverter structure built on the upslope side of a chimney to direct water and debris around the chimney base rather than allowing accumulation behind it. Current building code requires crickets on chimneys wider than thirty inches. Many Cedar Grove homes built before this code requirement lack crickets, and adding one during flashing repair dramatically improves drainage and extends the life of the new flashing installation.',
     },
+    {
+      question: 'How much does chimney flashing repair cost in Cedar Grove, NJ?',
+      answer: 'Most chimney flashing repair projects in Cedar Grove range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Cedar Grove NJ -- step flashing, counter-flashing, and cricket installation for ranch and colonial chimney leak solutions.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const montclairCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'montclair',
   overview: [
-    'Commercial roof installation in Montclair serves a market fundamentally different from Newark\'s industrial corridors and office towers. Montclair\'s commercial building stock consists primarily of boutique retail storefronts along Church Street, mixed-use buildings on Bloomfield Avenue and Valley Road where ground-floor businesses operate beneath upper-floor residences, and institutional facilities connected to Montclair State University\'s expanding footprint. These are buildings where the occupants -- restaurant owners, gallery operators, specialty retailers, professional service firms -- have a direct stake in the construction process because noise, dust, and access disruption during installation affect their revenue in real time.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Montclair — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Montclair serves a market fundamentally different from Newark\'s industrial corridors and office towers. Montclair\'s commercial building stock consists primarily of boutique retail storefronts along Church Street, mixed-use buildings on Bloomfield Avenue and Valley Road where ground-floor businesses operate beneath upper-floor residences, and institutional facilities connected to Montclair State University\'s expanding footprint. These are buildings where the occupants -- restaurant owners, gallery operators, specialty retailers, professional service firms -- have a direct stake in the construction process because noise, dust, and access disruption during installation affect their revenue in real time.',
     'The mixed-use building type that dominates Montclair\'s commercial corridors creates a roof installation dynamic that pure commercial or pure residential buildings do not. A roof replacement on a Bloomfield Avenue building with a ground-floor restaurant and second-floor apartments requires simultaneous management of commercial tenant concerns (kitchen ventilation, health department compliance, customer access), residential tenant needs (livability, noise, safety), and building code requirements that differ between commercial and residential occupancies under the same roof assembly. Our project management for Montclair mixed-use installations addresses each stakeholder group separately while maintaining a unified construction sequence.',
     'Montclair State University\'s campus growth has generated commercial development in the Valley Road corridor that brings institutional-grade roofing requirements to a suburban township. Student housing, retail space serving the campus community, and university-affiliated office buildings require roof systems that meet institutional warranty expectations, accommodate rooftop mechanical equipment, and comply with the university\'s sustainability guidelines when applicable. These projects bridge the gap between Montclair\'s traditional boutique commercial market and the large-scale institutional specifications more typically associated with urban campus environments.',
     'The township\'s planning board exercises active oversight of commercial building aesthetics, including roof-visible elements like mechanical equipment screening, parapet wall height, and rooftop antenna or satellite installations. Commercial roof installations in Montclair must account for these aesthetic requirements during the design phase, not as afterthoughts during construction. Equipment screens, parapet cap details, and edge treatments visible from the street or from uphill residential properties are integral parts of the roof specification, not optional additions.'
@@ -36,7 +36,25 @@ export const montclairCommercialRoofInstallation: ComboContent = {
     {
       question: 'Can you install a commercial roof in Montclair without crane access?',
       answer: 'Yes. Many Montclair commercial streets lack the overhead clearance or road width for crane operations due to protected street trees and narrow right-of-way. For these projects, we stage materials at street level and transport them to the roof through interior access -- stairways, freight elevators, or roof hatches. While this hand-delivery method adds labor time compared to crane delivery, it is standard practice for Montclair\'s constrained commercial sites and is factored into our project pricing from the proposal stage.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Montclair, NJ?',
+      answer: 'Most commercial roof installation projects in Montclair range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Montclair NJ -- boutique retail, mixed-use buildings, and university-area projects with tenant disruption management.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

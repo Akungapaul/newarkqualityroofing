@@ -4,7 +4,7 @@ export const nutleyCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'nutley',
   overview: [
-    'Commercial metal roofing in Nutley addresses a growing segment of property owners along Franklin Avenue and the township\'s light-commercial zones who want the 50-year durability and architectural distinction that metal panel systems deliver. While flat membrane roofs dominate Nutley\'s commercial landscape by volume, the smaller office buildings, mixed-use properties, and commercial structures with visible roof planes are increasingly adopting standing-seam metal as both a functional and aesthetic upgrade over aging asphalt or membrane systems. The material\'s clean lines and premium appearance align with the elevated standards that Nutley\'s business community expects.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Nutley — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in Nutley addresses a growing segment of property owners along Franklin Avenue and the township\'s light-commercial zones who want the 50-year durability and architectural distinction that metal panel systems deliver. While flat membrane roofs dominate Nutley\'s commercial landscape by volume, the smaller office buildings, mixed-use properties, and commercial structures with visible roof planes are increasingly adopting standing-seam metal as both a functional and aesthetic upgrade over aging asphalt or membrane systems. The material\'s clean lines and premium appearance align with the elevated standards that Nutley\'s business community expects.',
     'Standing-seam metal roofing on commercial properties in [Nutley](/roofing-in-nutley-nj) serves a different market position than the industrial R-panel and through-fastened systems installed on warehouses in more industrial communities. Nutley\'s commercial metal installations prioritize architectural presentation -- concealed-fastener standing seam in dark bronze, matte black, or copper-penny finishes that complement the township\'s streetscape. Professional offices on Centre Street, the mixed-use buildings along Harrison Street, and newer commercial construction near Route 3 have all adopted standing-seam metal for the combination of weather performance and visual refinement these finishes provide.',
     'The lifecycle economics of commercial metal roofing resonate with Nutley property owners who evaluate investments over decades rather than years. A standing-seam metal roof installed on a Nutley commercial building today will outlast two to three membrane replacement cycles, eliminating the disruption and cost of periodic re-roofing that membrane systems require. Insurance carriers also recognize metal\'s superior wind and fire resistance with premium reductions that further improve the long-term cost position. These cumulative advantages make the higher upfront investment rational for Nutley business owners who plan to hold their properties long-term.',
     'Our [commercial metal roofing](/commercial-metal-roofing) work in Nutley includes structural-standing-seam systems for new construction and retrofit panel systems that install over existing flat-roof assemblies without tear-off. The retrofit approach -- building a lightweight structural frame above the existing flat roof and attaching standing-seam panels -- converts a chronically problematic flat roof into a sloped metal system that sheds water, snow, and debris by gravity. Several Franklin Avenue buildings have used this retrofit approach to permanently solve ponding and drainage problems that had plagued their flat roofs for years, while simultaneously upgrading the building\'s street-level appearance.'
@@ -35,7 +35,25 @@ export const nutleyCommercialMetalRoofing: ComboContent = {
     {
       question: 'What colors and finishes are available for Nutley commercial metal roofing?',
       answer: 'Standing-seam metal panels are available in over 40 standard colors with Kynar 500 fluoropolymer finish that resists fading and chalking for decades. Popular choices for Nutley commercial buildings include dark bronze, charcoal gray, matte black, and colonial red. Copper-penny and aged-copper finishes are available for projects seeking the patina aesthetic without solid copper cost. Custom color matching is available for projects requiring specific architectural coordination. All colors maintain their appearance for the full warranty period with no painting or re-coating required.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in Nutley, NJ?',
+      answer: 'Most commercial metal roofing projects in Nutley range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Nutley NJ. Standing-seam systems for Franklin Avenue businesses with concealed fasteners and 40-60 year durability.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

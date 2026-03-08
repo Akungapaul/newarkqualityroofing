@@ -4,7 +4,7 @@ export const fairfieldBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'fairfield',
   overview: [
-    'Built-up roofing remains a reliable workhorse on Fairfield\'s older commercial buildings, particularly the industrial properties and original Route 46 retail structures constructed before single-ply membrane systems became the market standard. BUR systems -- alternating layers of bitumen and reinforcing fabric topped with a protective surface of gravel, mineral cap sheet, or reflective coating -- deliver redundant waterproofing that has proven itself across fifty-plus years of service on commercial flat roofs. In Fairfield, where many Route 46 buildings still carry original BUR installations that have outlasted their expected service life, property owners face decisions about restoration, recover, or conversion to modern membrane alternatives.',
+    'Newark Quality Roofing delivers expert built up roofing in Fairfield — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing remains a reliable workhorse on Fairfield\'s older commercial buildings, particularly the industrial properties and original Route 46 retail structures constructed before single-ply membrane systems became the market standard. BUR systems -- alternating layers of bitumen and reinforcing fabric topped with a protective surface of gravel, mineral cap sheet, or reflective coating -- deliver redundant waterproofing that has proven itself across fifty-plus years of service on commercial flat roofs. In Fairfield, where many Route 46 buildings still carry original BUR installations that have outlasted their expected service life, property owners face decisions about restoration, recover, or conversion to modern membrane alternatives.',
     'The appeal of built-up roofing for Fairfield\'s heavier commercial properties lies in its sheer toughness. Warehouse operations that stage equipment or materials on the roof surface, manufacturing facilities with heavy mechanical systems, and buildings that require regular maintenance access all benefit from the multi-ply assembly\'s resistance to punctures and foot traffic. Unlike single-ply membranes that can be cut or punctured by dropped tools or dragged equipment, a properly constructed BUR system absorbs physical abuse through its layered construction. Properties along Route 46 in [Fairfield](/roofing-in-fairfield-nj) and western Essex County industrial zones rely on this ruggedness.',
     'Gravel-surfaced BUR provides an additional benefit for Fairfield commercial buildings: ballast weight that resists wind uplift without mechanical fasteners. On exposed Route 46 buildings where wind loads are significant, the gravel surface adds dead weight that holds the membrane in place during storm events. This passive wind resistance eliminates the fastener penetrations required by mechanically attached systems, removing a potential failure point from the roof assembly. Our [built-up roofing](/built-up-roofing) installations and restorations in Fairfield leverage this natural uplift resistance while addressing the drainage challenges that gravel surfaces can create.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldBuiltUpRoofing: ComboContent = {
     {
       question: 'Can a BUR roof on my Fairfield building support rooftop solar panels?',
       answer: 'BUR\'s multi-ply construction provides an excellent substrate for ballasted solar panel systems because it resists the concentrated point loads from panel supports better than single-ply membranes. The gravel surface is removed in the panel array area, support pedestals are placed on protective pads, and the panels are ballasted in position without penetrating the membrane. We coordinate with solar installers on several Fairfield commercial properties where building owners are adding solar to existing BUR systems.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Fairfield, NJ?',
+      answer: 'Most built up roofing projects in Fairfield range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Fairfield NJ. Multi-ply BUR systems for Route 46 commercial warehouses, industrial buildings, and retail properties.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

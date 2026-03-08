@@ -4,7 +4,7 @@ export const roselandCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'roseland',
   overview: [
-    'Commercial roof repair in Roseland responds to the maintenance demands of the borough\'s corporate office parks and smaller commercial properties with the urgency and professionalism that business operations require. A roof leak in an occupied office building damages ceiling tiles, disrupts workspaces, threatens electronic equipment, and creates liability exposure that property managers must resolve immediately. Our [commercial roof repair](/commercial-roof-repair) service provides rapid-response capability for emergency situations and scheduled maintenance repair for developing conditions identified during inspections.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Roseland — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Roseland responds to the maintenance demands of the borough\'s corporate office parks and smaller commercial properties with the urgency and professionalism that business operations require. A roof leak in an occupied office building damages ceiling tiles, disrupts workspaces, threatens electronic equipment, and creates liability exposure that property managers must resolve immediately. Our [commercial roof repair](/commercial-roof-repair) service provides rapid-response capability for emergency situations and scheduled maintenance repair for developing conditions identified during inspections.',
     'The Eisenhower Parkway corporate campus buildings generate consistent repair demand because their large membrane roof areas present the statistical certainty that some portion will require repair attention annually. Penetration flashing failures, seam adhesion degradation, membrane punctures from equipment service activity, and drain clogging from organic debris accumulation each create specific repair scenarios that our commercial crews resolve efficiently. Facility managers along the corporate corridor value our ability to diagnose accurately, repair permanently, and document thoroughly.',
     'Smaller commercial properties along Eagle Rock Avenue require the same repair quality with different project dynamics. The mixed-use buildings with retail on the ground floor and apartments above cannot wait for corporate approval cycles -- leaks that affect residential tenants require immediate response. Our commercial repair protocols adapt to each building\'s decision-making structure, providing rapid estimates for small-business owners who approve directly and formal documentation packages for corporate facility management chains. Commercial building owners in [Caldwell](/commercial-roof-repair-caldwell-nj) along the Bloomfield Avenue corridor rely on similar responsive service.'
   ],
@@ -34,7 +34,25 @@ export const roselandCommercialRoofRepair: ComboContent = {
     {
       question: 'How do you determine if our roof needs repair versus replacement?',
       answer: 'We evaluate membrane condition, insulation moisture content, seam adhesion integrity, and the frequency and scope of recent repairs. A roof requiring frequent repairs at increasing scope is approaching replacement threshold. A roof with isolated failures and sound overall conditions is a repair candidate. We present honest assessment with cost projections for both paths -- continued repair versus planned replacement -- so the property owner can make an informed capital decision.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Roseland, NJ?',
+      answer: 'Most commercial roof repair projects in Roseland range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Roseland NJ -- rapid-response leak repair and scheduled maintenance for office parks and business buildings.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

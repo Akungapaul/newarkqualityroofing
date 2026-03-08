@@ -4,7 +4,7 @@ export const livingstonRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'livingston',
   overview: [
-    'Roof overlay installation provides Livingston homeowners with a re-roofing option that installs new shingles directly over the existing single layer, reducing project cost and timeline by eliminating the tear-off phase. The approach is valid when specific conditions are met: the home carries only one existing shingle layer, the current shingles lie reasonably flat without excessive curling or buckling, the roof deck beneath shows no signs of moisture damage, and the homeowner accepts the limitations on warranty coverage that overlay installation carries compared to tear-off.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Livingston — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation provides Livingston homeowners with a re-roofing option that installs new shingles directly over the existing single layer, reducing project cost and timeline by eliminating the tear-off phase. The approach is valid when specific conditions are met: the home carries only one existing shingle layer, the current shingles lie reasonably flat without excessive curling or buckling, the roof deck beneath shows no signs of moisture damage, and the homeowner accepts the limitations on warranty coverage that overlay installation carries compared to tear-off.',
     'The cost savings from overlay on Livingston homes -- eliminating dumpster rental, tear-off labor, and disposal fees -- can represent meaningful budget relief for homeowners managing renovation investments across multiple home systems simultaneously. On a straightforward Livingston colonial with a single-layer roof in fair condition and no evidence of concealed damage, overlay delivers a functional new roof surface with reduced cost and a shorter construction timeline that minimizes neighborhood disruption.',
     'Our [roof overlay installation](/roof-overlay-installation) approach in Livingston is transparent about the trade-offs. Overlay does not allow inspection of the deck beneath, does not accommodate ice-and-water shield installation at eaves and valleys, adds weight to the existing framing, and may void or reduce manufacturer warranty terms. We present these limitations alongside the cost savings so homeowners make an informed decision based on their specific priorities. Homeowners in [Verona](/roof-overlay-installation-verona-nj) evaluate similar overlay-versus-tear-off decisions on their split-level and bi-level homes.',
     'HOA requirements in some Livingston communities specify tear-off for re-roofing projects, eliminating overlay as an option regardless of the homeowner\'s preference. We verify community requirements during the proposal phase to ensure the recommended approach complies with applicable standards.'
@@ -35,7 +35,25 @@ export const livingstonRoofOverlayInstallation: ComboContent = {
     {
       question: 'Does overlay void my shingle warranty?',
       answer: 'Overlay does not void shingle warranties entirely but typically reduces coverage to material-only terms rather than the full system coverage available with tear-off installation. The specific warranty terms depend on the manufacturer and product line. We detail the warranty implications in the proposal so you can weigh the cost savings against the warranty reduction before making your decision.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Livingston, NJ?',
+      answer: 'Most roof overlay installation projects in Livingston range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Livingston NJ -- cost-effective re-roofing over single-layer shingles with transparent trade-off guidance.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

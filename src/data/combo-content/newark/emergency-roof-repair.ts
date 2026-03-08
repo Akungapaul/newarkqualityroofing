@@ -4,7 +4,7 @@ export const newarkEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'newark',
   overview: [
-    'A roof emergency in Newark doesn\'t wait for business hours. Nor\'easters barrel through the corridor between the Watchung Mountains and Newark Bay with wind speeds that strip shingles from ridge lines across the North Ward. Summer thunderstorms dump inches of rain in minutes, overwhelming aging gutter systems on Ironbound commercial buildings. Ice dams build silently on poorly ventilated brownstone roofs in Forest Hill until water breaches the interior at 2 AM on a January night. Our emergency roof repair service exists because Newark\'s weather and building stock conspire to produce urgent failures on schedules of their own.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Newark — with prices starting from $500–$2,500 and free estimates available today. A roof emergency in Newark doesn\'t wait for business hours. Nor\'easters barrel through the corridor between the Watchung Mountains and Newark Bay with wind speeds that strip shingles from ridge lines across the North Ward. Summer thunderstorms dump inches of rain in minutes, overwhelming aging gutter systems on Ironbound commercial buildings. Ice dams build silently on poorly ventilated brownstone roofs in Forest Hill until water breaches the interior at 2 AM on a January night. Our emergency roof repair service exists because Newark\'s weather and building stock conspire to produce urgent failures on schedules of their own.',
     'The density of Newark\'s neighborhoods shapes how we respond to emergencies. When a tree limb falls through a roof in Vailsburg, the adjacent building is often close enough to sustain collateral damage. When a commercial roof membrane tears in the Ironbound, water can cascade through multiple floors of occupied space within minutes. When a century-old slate tile slides off a mansard roof in Roseville, it endangers pedestrians on the sidewalk directly below. Each of these scenarios demands a response calibrated to urban proximity -- fast arrival, immediate hazard containment, and temporary weatherproofing that holds until permanent repair can be scheduled.',
     'Our Newark emergency operation maintains a staging protocol designed for rapid urban deployment. We keep tarping materials, emergency sealants, plywood sheeting, and battery-powered fastening systems loaded and ready at our facility. Our dispatchers are familiar with Newark\'s street grid, traffic patterns, and building access challenges, which means less time navigating and more time on the roof. During major storm events, we activate a priority triage system that ranks calls by severity of active water entry and occupant safety risk -- ensuring that the most dangerous situations receive attention first.',
     'Beyond the immediate crisis response, our emergency service includes documentation that Newark property owners need for insurance claims and building management records. We photograph all damage before and after temporary repairs, provide written damage assessments within 24 hours, and schedule permanent repair follow-ups within the first week. For property managers overseeing multi-family buildings in the Central Ward or commercial portfolios along McCarter Highway, this documentation trail is as critical as the physical repair itself.'
@@ -39,7 +39,25 @@ export const newarkEmergencyRoofRepair: ComboContent = {
     {
       question: 'Will my homeowners insurance cover emergency roof repairs in Newark?',
       answer: 'Most homeowner policies cover sudden storm damage including emergency temporary repairs. Insurance companies generally expect policyholders to take reasonable steps to prevent further damage -- which is exactly what emergency tarping accomplishes. We provide detailed documentation including timestamped photos, damage descriptions, and repair invoices formatted for insurance submission. For Newark properties, we also note any pre-existing conditions versus storm-caused damage in our assessment, which helps avoid claim disputes. We recommend filing your claim within 48 hours of the event and can coordinate directly with your adjuster if needed.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Newark, NJ?',
+      answer: 'Most emergency roof repair projects in Newark range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Newark NJ -- rapid storm response, 24/7 availability, brownstone and commercial building tarping across all neighborhoods.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

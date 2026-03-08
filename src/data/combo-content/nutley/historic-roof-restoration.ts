@@ -4,7 +4,7 @@ export const nutleyHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'nutley',
   overview: [
-    'Historic roof restoration in Nutley preserves the architectural legacy of a township whose built environment spans from the eighteenth-century Kingsland Manor on River Road to the Tudor Revival masterworks lining Chestnut Street and the Colonial Revivals filling the central residential neighborhoods. While Nutley does not maintain a mandatory historic preservation ordinance for most properties, the community\'s strong civic identity and active historical society create a cultural expectation that renovation work -- particularly on the township\'s signature architectural specimens -- will honor original design intent rather than replace it with generic modern alternatives.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Nutley — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Nutley preserves the architectural legacy of a township whose built environment spans from the eighteenth-century Kingsland Manor on River Road to the Tudor Revival masterworks lining Chestnut Street and the Colonial Revivals filling the central residential neighborhoods. While Nutley does not maintain a mandatory historic preservation ordinance for most properties, the community\'s strong civic identity and active historical society create a cultural expectation that renovation work -- particularly on the township\'s signature architectural specimens -- will honor original design intent rather than replace it with generic modern alternatives.',
     'Kingsland Manor, listed on the National Register of Historic Places, represents the most formally significant historic structure in Nutley. Its eighteenth-century stone construction and period roofing details require restoration techniques that follow the Secretary of the Interior\'s Standards for Rehabilitation -- sourcing period-appropriate slate, fabricating copper flashings to original profiles, and repointing mortar joints with compatible lime-based formulations rather than modern Portland cement. Our work on structures of this caliber follows preservation protocols that maintain eligibility for historic tax credits and satisfy the documentation requirements of preservation oversight bodies.',
     'The Tudor Revival homes built across Nutley in the 1920s and 1930s constitute the township\'s largest category of architecturally significant buildings requiring restoration-quality roofing work. These homes were originally roofed with wood shakes, slate, or heavy-weight asphalt shingles that integrated with the steep multi-gable geometries, decorative half-timbering, and catslide extensions defining the Tudor style. Restoring these roofs demands [historic restoration](/historic-roof-restoration) expertise that understands both the original construction methods and the modern materials that can replicate period appearance while incorporating contemporary weather protection invisible from the street.',
     'Our restoration portfolio in [Nutley](/roofing-in-nutley-nj) extends to the Colonial Revival, Dutch Colonial, and scattered Victorian-era homes that contribute to the township\'s architectural diversity. Each style carries distinct roof characteristics -- the gambrel profiles on Dutch Colonials, the side-gable symmetry of Colonial Revivals, the patterned slate and decorative ridge work on the occasional Queen Anne -- that must be understood and respected during restoration. Unlike the industrial-scale historic work found in denser communities like [Newark](/historic-roof-restoration-newark-nj) with its massive brownstone districts, Nutley\'s historic restorations are individual homes requiring customized approaches for each property\'s specific conditions and architectural details.'
@@ -35,7 +35,25 @@ export const nutleyHistoricRoofRestoration: ComboContent = {
     {
       question: 'How do you handle structural problems discovered during a Nutley roof restoration?',
       answer: 'Structural discoveries are addressed with preservation-first methodology. Damaged original members are reinforced and preserved whenever structurally viable, using sistering, scabbing, or epoxy consolidation techniques that maintain as much original material as possible. When replacement is unavoidable, we use dimensionally matched lumber and replicate the original joinery connections. All structural modifications are documented with photographs and engineering notes that become part of the restoration record. The goal is to restore structural capacity without erasing the evidence of original construction.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Nutley, NJ?',
+      answer: 'Most historic roof restoration projects in Nutley range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Nutley NJ. Tudor Revival preservation, Kingsland Manor-quality slate work, and period-appropriate materials for heritage homes.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

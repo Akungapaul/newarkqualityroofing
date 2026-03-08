@@ -4,7 +4,7 @@ export const maplewoodWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'maplewood',
   overview: [
-    'Wind damage in Maplewood follows a geographic gradient that makes the township unique within Essex County. South Mountain Reservation\'s ridgeline acts as a natural accelerator, compressing wind through the gap between the Watchung mountain formations and directing amplified gusts onto properties in the Hilton neighborhood, Jefferson Village, and along Prospect Street. Wind speeds that register at 45 mph at the Maplewood Village weather station can exceed 65 mph on rooftops along Crestwood Drive. This topographic amplification means that [wind damage roof repair](/wind-damage-roof-repair) in western Maplewood addresses damage patterns more commonly associated with coastal exposure.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Maplewood — with prices starting from $400–$2,000 and free estimates available today. Wind damage in Maplewood follows a geographic gradient that makes the township unique within Essex County. South Mountain Reservation\'s ridgeline acts as a natural accelerator, compressing wind through the gap between the Watchung mountain formations and directing amplified gusts onto properties in the Hilton neighborhood, Jefferson Village, and along Prospect Street. Wind speeds that register at 45 mph at the Maplewood Village weather station can exceed 65 mph on rooftops along Crestwood Drive. This topographic amplification means that [wind damage roof repair](/wind-damage-roof-repair) in western Maplewood addresses damage patterns more commonly associated with coastal exposure.',
     'The architectural diversity that defines Maplewood also determines how wind damage manifests across different roof types. Victorian multi-gable roofs present numerous edges and intersections where wind uplift concentrates, lifting shingles, slates, or flashing at the most vulnerable geometric points. Tudor roofs with steep pitches generate high leeward suction that can peel entire shingle courses from the downwind slope. Colonials with rear additions create step-height differences where wind accelerates over the lower section and attacks the upper wall flashing. Each pattern requires a different repair strategy, and our crews in [Maplewood](/roofing-in-maplewood-nj) arrive prepared for all three.',
     'Springfield Avenue\'s east-west orientation creates a wind corridor through Maplewood\'s center, channeling nor\'easter winds directly along the commercial strip and onto the rooftops flanking both sides. Flat-roofed commercial buildings along this corridor experience membrane lift, parapet cap displacement, and edge-metal peeling during sustained wind events. Residential properties on cross-streets north and south of Springfield Avenue catch turbulent eddies shed by the commercial buildings, creating secondary damage zones. Homeowners in [South Orange](/wind-damage-roof-repair-south-orange-nj) bordering Maplewood\'s northern edge see similar corridor effects.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodWindDamageRoofRepair: ComboContent = {
       question: 'Does my insurance cover wind damage to my Maplewood roof?',
       answer: 'Wind damage is typically covered under the windstorm or dwelling coverage provisions of standard homeowner policies. We document wind damage with directional analysis, impact pattern photography, and material-specific damage indicators that support accurate claim evaluation. Our documentation packages include wind speed data from local monitoring stations to correlate damage severity with recorded storm conditions.',
     },
+    {
+      question: 'How much does wind damage roof repair cost in Maplewood, NJ?',
+      answer: 'Most wind damage roof repair projects in Maplewood range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Maplewood NJ. South Mountain wind acceleration zone expertise for Victorian, Tudor, and Colonial homes.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

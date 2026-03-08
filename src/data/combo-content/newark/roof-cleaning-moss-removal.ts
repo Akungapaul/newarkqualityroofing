@@ -4,7 +4,7 @@ export const newarkRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'newark',
   overview: [
-    'Moss and algae growth on Newark roofs is driven by a combination of factors that the city\'s urban environment concentrates. The mature tree canopy in Forest Hill, Roseville, and Vailsburg casts persistent shade across north-facing roof slopes, creating the cool, damp microclimate that moss colonizes aggressively. Airborne organic debris from the city\'s extensive park system -- Branch Brook Park, Weequahic Park, the wooded slopes along the First and Second Rivers -- deposits the spores and nutrients that initiate growth. Even neighborhoods without heavy tree cover, like the Central Ward and portions of the South Ward, develop algae streaking from Gloeocapsa magma bacteria carried on wind and rain across the city.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Newark — with prices starting from $300–$800 and free estimates available today. Moss and algae growth on Newark roofs is driven by a combination of factors that the city\'s urban environment concentrates. The mature tree canopy in Forest Hill, Roseville, and Vailsburg casts persistent shade across north-facing roof slopes, creating the cool, damp microclimate that moss colonizes aggressively. Airborne organic debris from the city\'s extensive park system -- Branch Brook Park, Weequahic Park, the wooded slopes along the First and Second Rivers -- deposits the spores and nutrients that initiate growth. Even neighborhoods without heavy tree cover, like the Central Ward and portions of the South Ward, develop algae streaking from Gloeocapsa magma bacteria carried on wind and rain across the city.',
     'The damage from unchecked moss and algae extends beyond aesthetics. Moss roots penetrate beneath asphalt shingle edges, lifting tabs and breaking the sealant bond that holds shingles against wind uplift. On slate roofs -- still common on Forest Hill\'s Victorian homes and some of the grander brownstones in Roseville -- moss growth holds moisture against the stone surface, accelerating freeze-thaw spalling that shortens the slate\'s otherwise century-long lifespan. Algae streaking on commercial building fascia and mansard sections visible from the street degrades curb appeal and can trigger property maintenance complaints in Newark\'s more actively managed business districts.',
     'Roof cleaning in Newark requires methods calibrated to the roofing material, the extent of biological growth, and the building\'s relationship to its surroundings. Pressure washing, the default approach of general cleaning contractors, damages asphalt shingle granule surfaces, voids manufacturer warranties, and drives water under slate and tile installations. Our soft-wash methodology uses low-pressure chemical application that kills moss and algae at the root without mechanical damage to the roof surface. The treatment agents we use are formulated for residential proximity -- safe for the landscaping, pets, and garden plantings that Newark homeowners maintain in the compact yards typical of the city\'s residential blocks.',
     'For property owners throughout Newark, roof cleaning is both a maintenance investment and a preventive measure. Removing biological growth before it causes material damage extends roof life by years. Eliminating the moisture-retaining moss layer reduces the ice-dam risk that plagues shaded Newark roofs every winter. And restoring the roof\'s original appearance improves the property\'s visual presence in a real estate market where curb appeal directly affects valuation -- a consideration that matters in Newark\'s increasingly competitive housing market.'
@@ -39,7 +39,25 @@ export const newarkRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'How often should I have my shaded Newark roof cleaned to prevent moss from returning?',
       answer: 'For heavily shaded roofs in Forest Hill, Roseville, and the tree-lined streets of Vailsburg, we recommend a full soft-wash cleaning every two to three years with an annual preventive treatment application in between. Roofs with moderate shade -- partial canopy coverage or shade from adjacent buildings rather than overhanging trees -- can extend to every three to four years between cleanings. South-facing and sun-exposed roofs may only need cleaning every five years or when algae streaking first becomes visible. The annual preventive application, which takes about 30 minutes for a typical Newark residential roof, is the most cost-effective element of the program -- it costs a fraction of a full cleaning visit and significantly extends the interval between them.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Newark, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Newark range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in Newark NJ -- soft-wash treatment for shaded brownstone slopes, slate preservation, and algae streak elimination.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

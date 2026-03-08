@@ -4,7 +4,7 @@ export const southOrangeStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Storm damage roof replacement in South Orange Village responds to severe weather events that cause damage beyond repair scope on the village\'s premium residential and commercial roofing systems. When hurricane remnants, derecho-force winds, or intense hail events inflict widespread damage across a South Orange roof, replacement rather than repair becomes the appropriate restoration path -- and the urgency of the situation demands a contractor who can mobilize quickly while maintaining the quality standards these homes deserve.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in South Orange — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in South Orange Village responds to severe weather events that cause damage beyond repair scope on the village\'s premium residential and commercial roofing systems. When hurricane remnants, derecho-force winds, or intense hail events inflict widespread damage across a South Orange roof, replacement rather than repair becomes the appropriate restoration path -- and the urgency of the situation demands a contractor who can mobilize quickly while maintaining the quality standards these homes deserve.',
     'South Orange\'s proximity to South Mountain Reservation amplifies storm damage exposure on properties along the western boundary of the village. Falling trees and large branches from the Reservation forest cause impact damage that no roofing material can withstand, and the elevated terrain accelerates wind speeds that strip shingles, crack slates, and peel standing-seam metal panels from their clips. Homes in the Montrose Park section and along the Reservation border experience storm damage frequency and severity that exceed conditions on the village\'s more sheltered eastern side.',
     'Our [storm damage roof replacement](/storm-damage-roof-replacement) response in South Orange begins with emergency stabilization -- tarping exposed areas, removing hazardous debris, and preventing further water entry -- followed by comprehensive damage assessment that documents every affected area for insurance purposes. The transition from emergency response to planned replacement follows a structured process that protects the homeowner throughout.',
     'Storm replacement projects in [South Orange](/roofing-in-south-orange-nj) frequently present material upgrade opportunities. When insurance covers full replacement, homeowners can apply the coverage toward upgraded materials by paying the difference between the insured material and the desired upgrade. A homeowner whose three-tab shingles were destroyed can upgrade to designer architectural shingles; a homeowner whose damaged asphalt triggers replacement can consider the standing-seam metal they always wanted.'
@@ -35,7 +35,25 @@ export const southOrangeStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Will storm damage replacement affect my South Orange property value?',
       answer: 'A properly executed storm damage replacement with quality materials actually improves property value compared to the aged roof it replaces. The new installation carries full manufacturer warranty coverage and decades of remaining service life. Buyers view recent roof replacement positively, and the improved curb appeal of a fresh installation enhances the property\'s market position.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in South Orange, NJ?',
+      answer: 'Most storm damage roof replacement projects in South Orange range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in South Orange NJ -- emergency response and full restoration for wind, hail, and tree-damaged homes.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

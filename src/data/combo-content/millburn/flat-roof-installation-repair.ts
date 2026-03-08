@@ -4,7 +4,7 @@ export const millburnFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'millburn',
   overview: [
-    'Flat roof systems on Millburn properties occupy a specialized niche within the township\'s predominantly steep-slope residential landscape. The estate homes of Short Hills and Wyoming frequently incorporate flat-roof sections where architect-designed additions, sunroom extensions, rooftop terraces, and concealed mechanical platforms extend beyond the main roofline\'s pitch. These flat surfaces demand membrane-grade waterproofing installed to commercial standards, yet finished with the aesthetic consideration that estate homeowners expect when viewing their property from upper-story windows, terraces, or the manicured grounds below. Our [flat roof installation and repair](/flat-roof-installation-repair) practice in Millburn bridges this gap between commercial-grade performance and residential-grade presentation.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Millburn — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof systems on Millburn properties occupy a specialized niche within the township\'s predominantly steep-slope residential landscape. The estate homes of Short Hills and Wyoming frequently incorporate flat-roof sections where architect-designed additions, sunroom extensions, rooftop terraces, and concealed mechanical platforms extend beyond the main roofline\'s pitch. These flat surfaces demand membrane-grade waterproofing installed to commercial standards, yet finished with the aesthetic consideration that estate homeowners expect when viewing their property from upper-story windows, terraces, or the manicured grounds below. Our [flat roof installation and repair](/flat-roof-installation-repair) practice in Millburn bridges this gap between commercial-grade performance and residential-grade presentation.',
     'The boutique commercial buildings along Millburn Avenue and near the Short Hills train station present traditional flat-roof applications where TPO, EPDM, and modified bitumen systems protect professional offices, retail spaces, and restaurant kitchens. These properties, while smaller in scale than the urban commercial buildings found in [Newark](/flat-roof-installation-repair-newark-nj) or [East Orange](/flat-roof-installation-repair-east-orange-nj), demand the same watertight integrity because the tenants occupying them -- dermatologists, estate attorneys, wealth managers -- operate in finished interiors where even minor water intrusion creates disproportionate damage to specialized equipment and client-facing environments.',
     'Repair of existing flat-roof sections on Millburn estates frequently reveals legacy construction decisions that compromise current performance. A 1990s kitchen addition with built-up roofing may be ponding water against the main house\'s masonry wall. A converted garage with inadequate membrane detailing at the transition to the original pitched roof creates recurring leak paths during nor\'easters. Diagnosing these failures requires understanding both the flat-roof membrane system and its integration with the adjacent steep-slope materials -- slate, copper, standing seam -- that characterize Millburn\'s primary roofing vocabulary.'
   ],
@@ -34,7 +34,25 @@ export const millburnFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'How long should a flat-roof membrane last on a Millburn property?',
       answer: 'With proper installation and maintenance, TPO and PVC membranes deliver twenty-five to thirty years of service, EPDM achieves thirty to forty years, and modified bitumen systems last twenty to twenty-five years. These lifespans assume correct drainage, adequate ventilation of the assembly, and periodic maintenance inspections that catch minor issues before they become membrane failures. On Millburn properties where the flat-roof section is a small percentage of the overall roofing investment, we recommend including it in the annual roof maintenance program to ensure it receives the same attention as the primary steep-slope system.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Millburn, NJ?',
+      answer: 'Most flat roof installation repair projects in Millburn range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair for Millburn and Short Hills estates. Membrane systems for additions, terraces, and commercial properties along Millburn.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

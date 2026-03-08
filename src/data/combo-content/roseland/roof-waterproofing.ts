@@ -4,7 +4,7 @@ export const roselandRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'roseland',
   overview: [
-    'Roof waterproofing in Roseland protects both residential and commercial buildings at the vulnerable points where standard roofing materials alone cannot guarantee water exclusion. The membrane underlayments beneath shingle courses, the liquid-applied coatings over flat roof substrates, and the sealant systems at penetrations and intersections create the secondary and tertiary water barriers that keep interiors dry when primary roofing materials face their limits. Our [roof waterproofing](/roof-waterproofing) service applies these systems based on the specific water exposure conditions each Roseland property presents.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Roseland — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Roseland protects both residential and commercial buildings at the vulnerable points where standard roofing materials alone cannot guarantee water exclusion. The membrane underlayments beneath shingle courses, the liquid-applied coatings over flat roof substrates, and the sealant systems at penetrations and intersections create the secondary and tertiary water barriers that keep interiors dry when primary roofing materials face their limits. Our [roof waterproofing](/roof-waterproofing) service applies these systems based on the specific water exposure conditions each Roseland property presents.',
     'Residential waterproofing in Roseland focuses on the locations where ice dam water, wind-driven rain, and drainage concentration overwhelm the primary shingle system. Ice-and-water shield membrane at eaves, valleys, sidewalls, and penetrations provides the self-sealing barrier that prevents water infiltration when ice dams force standing water beneath shingle courses. This membrane protection is particularly critical on Roseland\'s split-level homes where the offset wall junction concentrates water and thermal stress at a single line. Homeowners in [Essex Fells](/roof-waterproofing-essex-fells-nj) invest in similar waterproofing attention for their premium properties.',
     'Commercial waterproofing on Roseland\'s office buildings encompasses the full membrane systems that flat and low-slope roofs require. Unlike residential roofs where shingles provide primary water shedding, commercial flat roofs depend entirely on the membrane and its associated flashings for waterproofing. Coating applications over aging membranes restore waterproofing integrity without full replacement, and targeted sealant applications at penetration flashings extend service life between replacement cycles.'
   ],
@@ -34,7 +34,25 @@ export const roselandRoofWaterproofing: ComboContent = {
     {
       question: 'Does waterproofing add to the cost of a roof replacement?',
       answer: 'Ice-and-water shield membrane adds modest cost per square foot to a re-roofing project. On a typical Roseland home, the total waterproofing membrane cost represents approximately 5 to 8 percent of the total project cost. This small investment provides the secondary water barrier that prevents the interior damage caused by ice dam backup, wind-driven rain, and concentrated drainage at vulnerable intersections -- damage that would cost far more to repair than the membrane cost to prevent.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Roseland, NJ?',
+      answer: 'Most roof waterproofing projects in Roseland range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Roseland NJ -- ice-and-water shield, liquid membranes, and sealant systems for residential and commercial protection.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

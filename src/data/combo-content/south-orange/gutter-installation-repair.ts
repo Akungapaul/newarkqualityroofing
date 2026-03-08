@@ -4,7 +4,7 @@ export const southOrangeGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Gutter installation and repair in South Orange Village must accommodate both the architectural expectations of the community\'s premier homes and the extraordinary debris loads that the village\'s mature tree canopy deposits on every roof surface. The village\'s Tudor Revival, Colonial Revival, and Arts and Crafts homes carry gutter systems ranging from original built-in copper box gutters on Montrose Park estates to standard K-style aluminum on mid-century Colonials. Each gutter type requires different installation, repair, and maintenance approaches calibrated to the property\'s architecture and the homeowner\'s quality expectations.',
+    'Newark Quality Roofing delivers expert gutter installation repair in South Orange — with prices starting from $1,000–$3,500 and free estimates available today. Gutter installation and repair in South Orange Village must accommodate both the architectural expectations of the community\'s premier homes and the extraordinary debris loads that the village\'s mature tree canopy deposits on every roof surface. The village\'s Tudor Revival, Colonial Revival, and Arts and Crafts homes carry gutter systems ranging from original built-in copper box gutters on Montrose Park estates to standard K-style aluminum on mid-century Colonials. Each gutter type requires different installation, repair, and maintenance approaches calibrated to the property\'s architecture and the homeowner\'s quality expectations.',
     'Copper guttering is more prevalent in South Orange than in any other community we serve. The Montrose Park estates and many of the larger homes along Prospect Street carry half-round copper gutters and round copper downspouts that complement the slate and cedar shake roofing these properties display. Copper gutter work requires soldering skill, patina matching on repairs, and careful handling that preserves the material\'s appearance as it develops the brown-to-green patina that South Orange homeowners value as an aesthetic asset rather than a maintenance deficiency.',
     'The debris management challenge in South Orange is substantial. Mature oaks, maples, beeches, and sycamores deposit leaves, seed pods, twigs, and bark fragments into gutter systems throughout the year, with peak accumulation during fall leaf drop and spring seed dispersal. A gutter system that handles rainfall adequately when clean becomes overwhelmed within days of fall canopy drop, overflowing onto foundations, walkways, and exterior finishes. Our gutter solutions for [South Orange](/roofing-in-south-orange-nj) factor in the debris reality that properties near [Maplewood](/gutter-installation-repair-maplewood-nj) and throughout the village contend with season after season.',
     'Our gutter services span the full range from new installation to repair of existing systems, with material options that match each South Orange neighborhood\'s character. Seamless aluminum in premium colors for standard installations, half-round copper for period homes, and oversized commercial profiles for buildings along South Orange Avenue provide the gutter capacity and visual integration each application requires.'
@@ -35,7 +35,25 @@ export const southOrangeGutterInstallationRepair: ComboContent = {
     {
       question: 'What gutter size do you recommend for South Orange homes?',
       answer: 'We calculate required capacity based on roof area and pitch rather than defaulting to standard sizes. Most South Orange homes with steep-pitch roofs require six-inch K-style or five-inch half-round gutters with oversized downspouts. Properties with particularly large roof areas or multiple drainage concentration points may need oversized gutters or additional downspout locations. We size each section individually to handle the peak rainfall events that stress undersized systems.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in South Orange, NJ?',
+      answer: 'Most gutter installation repair projects in South Orange range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in South Orange NJ -- seamless aluminum and copper systems for historic and modern village homes.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

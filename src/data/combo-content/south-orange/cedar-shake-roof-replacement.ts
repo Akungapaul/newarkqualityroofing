@@ -4,7 +4,7 @@ export const southOrangeCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Cedar shake roof replacement in South Orange Village renews the natural wood roofing that defines the village\'s Arts and Crafts bungalows along Scotland Road, Mead Street, and the smaller residential streets where Craftsman architecture sets the neighborhood character. When cedar shake has deteriorated beyond the maintenance treatments and selective repair that extend its service life, complete replacement with fresh premium cedar restores the warm, textured appearance that South Orange homeowners chose this material to achieve.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in South Orange — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in South Orange Village renews the natural wood roofing that defines the village\'s Arts and Crafts bungalows along Scotland Road, Mead Street, and the smaller residential streets where Craftsman architecture sets the neighborhood character. When cedar shake has deteriorated beyond the maintenance treatments and selective repair that extend its service life, complete replacement with fresh premium cedar restores the warm, textured appearance that South Orange homeowners chose this material to achieve.',
     'The replacement decision for cedar shake in South Orange typically arrives when the majority of shakes have softened internally, split along their grain, or developed moss penetration deep enough that surface treatment no longer reaches the root system. At this stage, the cumulative cost of continued selective replacement exceeds the value of installing a complete new cedar system on fresh underlayment with modern ventilation provisions that the original installation may have lacked.',
     'Our cedar shake replacement work in [South Orange](/roofing-in-south-orange-nj) uses premium #1 Grade western red cedar shakes from certified sustainable sources. The material selection honors both the aesthetic traditions of the village\'s Craftsman homes and the environmental values that South Orange homeowners consistently express. Skip sheathing or counter-batten ventilation systems beneath the new shakes provide the airflow that extends cedar service life significantly beyond installations on solid decking.',
     'For South Orange homeowners who love the cedar shake appearance but prefer reduced maintenance commitment, composite shake alternatives from manufacturers like DaVinci and Brava replicate the dimensional profile and color range of natural cedar with 50-year warranties and no biological growth vulnerability. Our consultation presents both natural and composite options with honest comparison of appearance, maintenance, cost, and longevity.'
@@ -35,7 +35,25 @@ export const southOrangeCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'How does cedar shake replacement cost compare to asphalt shingles?',
       answer: 'Cedar shake replacement costs approximately two to three times more than premium architectural shingles, reflecting the premium material cost and the specialized labor that individual shake installation requires. The investment provides natural beauty, superior insulation properties, and environmental credentials that asphalt cannot match. For South Orange Arts and Crafts homes where cedar is architecturally integral, no alternative material provides the same aesthetic result.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in South Orange, NJ?',
+      answer: 'Most cedar shake roof replacement projects in South Orange range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in South Orange NJ -- premium hand-split cedar for Arts and Crafts bungalows and village homes.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

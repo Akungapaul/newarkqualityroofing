@@ -4,7 +4,7 @@ export const eastOrangeAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'east-orange',
   overview: [
-    'Asphalt shingles are the dominant roofing material on East Orange\'s residential streets, covering the pitched roofs of Victorian two-families in Elmwood Park, the Cape Cods and colonials scattered through Doddtown, and the small commercial buildings along Central Avenue where a residential-style roof keeps the streetscape consistent. The material\'s affordability is its primary appeal in a market where property owners calculate every improvement against rental income, and where the difference between a budget three-tab shingle and a premium architectural product can shift a renovation from profitable to underwater.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in East Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingles are the dominant roofing material on East Orange\'s residential streets, covering the pitched roofs of Victorian two-families in Elmwood Park, the Cape Cods and colonials scattered through Doddtown, and the small commercial buildings along Central Avenue where a residential-style roof keeps the streetscape consistent. The material\'s affordability is its primary appeal in a market where property owners calculate every improvement against rental income, and where the difference between a budget three-tab shingle and a premium architectural product can shift a renovation from profitable to underwater.',
     'East Orange\'s multi-family housing stock puts unique demands on asphalt shingle performance. A two-family Victorian with separate heating systems generates uneven attic temperatures -- the occupied unit below pushes heat upward while the vacant unit stays cold, creating condensation patterns that age shingles from underneath through moisture cycling in the roof deck. Three-families compound this effect. Shingle selection for East Orange multi-families must account for the ventilation compromises inherent in buildings that were never designed with modern attic airflow in mind, and where adding ridge vents or soffit intake often conflicts with the building\'s Victorian-era roof geometry.',
     'The investor-owner dynamic in East Orange creates a shingle selection conversation that differs from owner-occupied communities. A property investor renovating a distressed two-family in the Brick Church area needs a shingle that satisfies three criteria simultaneously: low installed cost to preserve renovation margin, acceptable appearance for tenant attraction and property valuation, and sufficient warranty duration to cover the planned holding period. We help investors navigate this calculus rather than defaulting to the cheapest available option, because a shingle failure during the holding period creates vacancy costs that dwarf the savings from economy materials.',
     'For the owner-occupants who remain in East Orange -- particularly in the Elmwood Park and East Orange Historic District neighborhoods -- asphalt shingle selection takes on an aesthetic dimension that the investor market often ignores. These homeowners want their properties to look maintained and attractive, and the visual difference between a flat three-tab shingle and a dimensional architectural product is dramatic on the steep-pitched Victorian roof forms that define these neighborhoods. We offer color consultation that considers the existing palette of the streetscape, because a well-chosen shingle color elevates both the individual property and the block.'
@@ -35,7 +35,25 @@ export const eastOrangeAsphaltShingleRoofing: ComboContent = {
     {
       question: 'How long does an asphalt shingle installation take on an East Orange two-family home?',
       answer: 'A typical East Orange two-family with 2,000 to 2,500 square feet of roof area takes two to three days from tear-off through final cleanup. Victorian roofs with complex geometry -- multiple dormers, intersecting valleys, steep pitches -- add time compared to simple gable roofs. Three-story buildings require additional safety rigging that adds approximately half a day. We provide a specific timeline during the proposal phase based on your building\'s configuration and access conditions.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in East Orange, NJ?',
+      answer: 'Most asphalt shingle roofing projects in East Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing for East Orange NJ multi-family homes -- Victorian re-roofing, rental property upgrades, and budget-smart material selection.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'orange',
   overview: [
-    'Orange\'s slate roofs are concentrated along Scotland Road, Park Avenue, and the residential streets approaching South Mountain -- neighborhoods where grand Victorian and Colonial Revival homes were built with Pennsylvania and Vermont slate installations that have now endured for a century or more. These roofs represent both an architectural treasure and a maintenance commitment that requires specialized craftsmanship most modern roofing contractors cannot provide. Our [slate roof installation and repair](/slate-roof-installation-repair) work in Orange preserves these landmark rooflines while ensuring they continue to perform for decades to come.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Orange — with prices starting from $20,000–$45,000 and free estimates available today. Orange\'s slate roofs are concentrated along Scotland Road, Park Avenue, and the residential streets approaching South Mountain -- neighborhoods where grand Victorian and Colonial Revival homes were built with Pennsylvania and Vermont slate installations that have now endured for a century or more. These roofs represent both an architectural treasure and a maintenance commitment that requires specialized craftsmanship most modern roofing contractors cannot provide. Our [slate roof installation and repair](/slate-roof-installation-repair) work in Orange preserves these landmark rooflines while ensuring they continue to perform for decades to come.',
     'Slate repair on Orange\'s Victorians demands a sourcing network that can locate matching tiles from quarries that have operated continuously since the original installations. A Scotland Road Queen Anne may feature unfading green Vermont slate in a specific thickness and exposure pattern that cannot be matched with off-the-shelf product. We maintain relationships with quarries across Vermont and Pennsylvania, and carry an inventory of salvaged slate from regional demolition projects that provides matching options for repairs where new quarry stock is not available. This sourcing capability is what allows us to repair rather than replace -- preserving the character of Orange\'s most distinguished homes.',
     'New slate installation on Orange properties is rare but not unheard of. Homeowners restoring deteriorated homes along Scotland Road or building custom residences on the few remaining infill lots sometimes specify natural slate to match the neighborhood character. New slate installation requires structural verification -- slate is three to four times heavier than asphalt shingles per square foot, and the framing must be engineered to support the load. Our new slate installations in Orange include structural assessment, upgraded underlayment systems, copper flashing throughout, and snow guard installation to prevent slate avalanche hazards on steep-pitch Orange roofs. Similar period-appropriate restoration work extends to slate homes in [Montclair](/slate-roof-installation-repair-montclair-nj)\'s historic districts.'
   ],
@@ -34,7 +34,25 @@ export const orangeSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'Do you install snow guards on Orange slate roofs?',
       answer: 'Yes, and we strongly recommend them. Slate roofs develop a smooth, ice-like surface when wet or frosted, and snow and ice can avalanche off steep pitches without warning. On Orange\'s tight lots, a slate snow avalanche can injure people walking between buildings or damage the neighboring structure. We install pad-style snow guards in staggered rows that hold snow in place until it melts gradually, preventing sudden release.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Orange, NJ?',
+      answer: 'Most slate roof installation repair projects in Orange range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Orange NJ -- Scotland Road Victorian restoration, matching tile sourcing, copper flashing, and South Mountain debris care.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

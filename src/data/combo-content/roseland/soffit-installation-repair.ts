@@ -4,7 +4,7 @@ export const roselandSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Soffit panels close the underside of the roof overhang on Roseland homes, protecting the rafter bay spaces from weather, pests, and debris while providing the ventilation intake that every attic ventilation system requires. The vented soffit panels that replaced original solid wood on many Roseland homes during renovation projects serve the dual purpose of clean roofline presentation and continuous attic airflow intake. Our [soffit installation and repair](/soffit-installation-repair) service addresses both aesthetic restoration and ventilation functionality on the borough\'s residential properties.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Roseland — with prices starting from $1,500–$4,000 and free estimates available today. Soffit panels close the underside of the roof overhang on Roseland homes, protecting the rafter bay spaces from weather, pests, and debris while providing the ventilation intake that every attic ventilation system requires. The vented soffit panels that replaced original solid wood on many Roseland homes during renovation projects serve the dual purpose of clean roofline presentation and continuous attic airflow intake. Our [soffit installation and repair](/soffit-installation-repair) service addresses both aesthetic restoration and ventilation functionality on the borough\'s residential properties.',
     'Ventilation adequacy through soffit intake directly affects roof system performance and energy efficiency on Roseland homes. Without sufficient soffit intake, ridge vents and roof vents create negative attic pressure that draws conditioned air from the living space through ceiling penetrations -- increasing energy costs while reducing ventilation effectiveness. The mid-century homes in Roseland frequently have undersized or blocked soffit ventilation that limits attic airflow to a fraction of current code requirements. Upgrading soffit panels during repair projects provides the intake area that balanced ventilation demands.',
     'Soffit deterioration on Roseland homes produces both visual and functional consequences. Damaged or missing soffit panels expose rafter bay openings that admit rain, snow, insects, and nesting animals into the attic space. Squirrels, raccoons, and birds exploit soffit gaps as entry points, creating the wildlife intrusion problems that Roseland\'s wooded residential setting makes particularly common. Restoring soffit integrity addresses both the building envelope function and the pest exclusion that intact soffits provide. Homeowners in nearby [Cedar Grove](/soffit-installation-repair-cedar-grove-nj) experience similar pest entry through deteriorated soffits.'
   ],
@@ -34,7 +34,25 @@ export const roselandSoffitInstallationRepair: ComboContent = {
     {
       question: 'Should soffits be replaced during a roof replacement project?',
       answer: 'If existing soffits show deterioration, inadequate ventilation, or pest damage, coordinating replacement with the roofing project provides the best value. The roofing crew has the scaffolding and access already in place, and new soffit panels with integrated ventilation can be sized to match the ventilation improvements included in the new roof system. If existing soffits are in good condition with adequate ventilation, replacement is not necessary during re-roofing.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Roseland, NJ?',
+      answer: 'Most soffit installation repair projects in Roseland range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Roseland NJ -- vented panels for attic ventilation with pest exclusion on residential homes.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const livingstonFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Flat roof replacement addresses the low-slope sections found on Livingston split-level additions, raised ranch garage roofs, and commercial buildings along the Eisenhower Parkway and Route 10 corridors. These flat sections carry membrane roofing systems -- EPDM, modified bitumen, or aging roll roofing -- that deteriorate faster than the pitched shingle sections of the same building because they accumulate standing water, receive concentrated UV exposure, and endure foot traffic from equipment maintenance access.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Livingston — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement addresses the low-slope sections found on Livingston split-level additions, raised ranch garage roofs, and commercial buildings along the Eisenhower Parkway and Route 10 corridors. These flat sections carry membrane roofing systems -- EPDM, modified bitumen, or aging roll roofing -- that deteriorate faster than the pitched shingle sections of the same building because they accumulate standing water, receive concentrated UV exposure, and endure foot traffic from equipment maintenance access.',
     'On Livingston split-levels, the flat section connecting the lower garage level to the upper living level is frequently the first roof area requiring replacement. Original builders installed lightweight roll roofing or early-generation modified bitumen that has exceeded its 15-to-20 year service life. The transition from flat to sloped roof at this junction is the most failure-prone location on the home, requiring replacement detailing that creates a weatherproof connection between the new membrane and the adjacent shingle system.',
     'Our [flat roof replacement](/flat-roof-replacement) projects in Livingston install modern membrane systems -- EPDM, TPO, or modified bitumen depending on the application -- with tapered insulation that creates positive drainage eliminating the ponding water problems that deteriorated the previous system. The drainage engineering is as important as the membrane selection because standing water accelerates membrane aging regardless of the material used. Homes in [East Orange](/flat-roof-replacement-east-orange-nj) address similar flat roof replacement needs on their multi-family building stock.',
     'Commercial flat roof replacement on Livingston\'s Route 10 properties follows the same drainage-first engineering principle at larger scale. Office buildings and retail properties receive full membrane replacement with insulation upgrades that bring the building to current energy code compliance, reflective surfaces that reduce cooling loads, and penetration details engineered for the specific building\'s mechanical equipment layout.'
@@ -35,7 +35,25 @@ export const livingstonFlatRoofReplacement: ComboContent = {
     {
       question: 'Can the flat section be replaced independently from the shingled sections?',
       answer: 'The flat section can be replaced independently, with careful attention to the transition detail where the new membrane meets the existing shingle system. If the shingle section is also approaching replacement age, bundling both projects saves cost by allowing the transition detail to be fully integrated during a single project rather than retrofitted at the boundary between old and new materials.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Livingston, NJ?',
+      answer: 'Most flat roof replacement projects in Livingston range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Livingston NJ -- membrane systems with tapered drainage for split-level flat sections and commercial buildings.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

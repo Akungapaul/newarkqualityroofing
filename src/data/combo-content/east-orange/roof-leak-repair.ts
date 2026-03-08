@@ -4,7 +4,7 @@ export const eastOrangeRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'east-orange',
   overview: [
-    'Roof leak repair in East Orange is predominantly a multi-family building problem, and the leak dynamics in these densely occupied structures bear little resemblance to the straightforward drip-under-the-shingle that homeowners in [Glen Ridge](/roof-leak-repair-glen-ridge-nj) experience. When water enters a Victorian two-family on Prospect Street, it may travel through balloon-framed wall cavities, along shared floor joists, and across plaster-on-lath ceilings before producing a visible stain in a unit one or two floors below the actual entry point. The tenant who reports the leak sees water on their first-floor ceiling; the failure is on the third-floor roof plane behind a dormer cheek wall. Tracing these migration paths is the fundamental diagnostic challenge of East Orange [roof leak repair](/roof-leak-repair).',
+    'Newark Quality Roofing delivers expert roof leak repair in East Orange — with prices starting from $300–$1,200 and free estimates available today. Roof leak repair in East Orange is predominantly a multi-family building problem, and the leak dynamics in these densely occupied structures bear little resemblance to the straightforward drip-under-the-shingle that homeowners in [Glen Ridge](/roof-leak-repair-glen-ridge-nj) experience. When water enters a Victorian two-family on Prospect Street, it may travel through balloon-framed wall cavities, along shared floor joists, and across plaster-on-lath ceilings before producing a visible stain in a unit one or two floors below the actual entry point. The tenant who reports the leak sees water on their first-floor ceiling; the failure is on the third-floor roof plane behind a dormer cheek wall. Tracing these migration paths is the fundamental diagnostic challenge of East Orange [roof leak repair](/roof-leak-repair).',
     'Flat-roofed apartment buildings throughout East Orange present a different leak pattern entirely. Water entering through a membrane failure on a building along Main Street or in the Doddtown garden apartment complexes travels laterally between the membrane and the insulation layer, sometimes migrating twenty or thirty feet before finding a path through the deck into the living space below. The visible drip point bears no spatial relationship to the membrane failure, and patching the area directly above the drip does nothing because the actual entry point is across the roof. Solving these lateral-migration leaks requires systematic diagnostic work, not guesswork patching.',
     'The economic dimension of leak repair in East Orange amplifies urgency beyond physical damage. A landlord managing a three-family walk-up near the East Orange train station cannot afford extended leak investigation -- every day of active water entry erodes tenant satisfaction, risks habitability complaints, and may trigger the involvement of the East Orange Building Department. Our diagnostic approach prioritizes speed without sacrificing accuracy, using moisture meters, infrared cameras, and decades of multi-family building experience to locate entry points rapidly so that targeted repairs can be completed before a manageable maintenance issue escalates into a tenant relations crisis.',
     'Recurring leaks are East Orange\'s most frustrating roof problem. Property owners who have paid for multiple repairs at the same location without resolution are not experiencing contractor incompetence -- they are experiencing the consequence of treating symptoms rather than causes. A leak that returns after patching typically indicates either a systemic condition like inadequate drainage slope or deteriorated underlayment that no surface patch can resolve, or a water path that originates far from where the patch was applied. Our leak repair approach begins with the assumption that previous repairs were applied to the wrong location or the wrong layer of the problem.'
@@ -35,7 +35,25 @@ export const eastOrangeRoofLeakRepair: ComboContent = {
     {
       question: 'How quickly can you stop an active roof leak on my East Orange rental property?',
       answer: 'Active leaks on occupied East Orange multi-family buildings receive same-day emergency response. Our goal is to stop water entry within hours of arrival, using temporary measures if the permanent repair requires materials or conditions not immediately available. We prioritize stopping the water first and perfecting the repair second, because active water entry into occupied units creates tenant displacement risk and potential code enforcement action that accelerate with every hour of delay.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in East Orange, NJ?',
+      answer: 'Most roof leak repair projects in East Orange range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair for East Orange NJ multi-family properties -- diagnostic tracing through walk-ups, flat roof moisture mapping, and leak resolution.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

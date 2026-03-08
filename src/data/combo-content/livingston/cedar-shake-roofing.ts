@@ -4,7 +4,7 @@ export const livingstonCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'livingston',
   overview: [
-    'Cedar shake roofing brings a distinctive natural warmth to Livingston properties that no manufactured material can replicate. In a township where architectural expression ranges from postwar practicality to contemporary suburban luxury, cedar shakes offer homeowners a material that ages with character -- silvering from rich amber to elegant pewter tones over seasons of Essex County weather. The homes along Old Short Hills Road and in select Heritage Hills sections where cedar appears most frequently stand apart from their asphalt-roofed neighbors with a textured, dimensional appearance that photographs cannot fully capture.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Livingston — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing brings a distinctive natural warmth to Livingston properties that no manufactured material can replicate. In a township where architectural expression ranges from postwar practicality to contemporary suburban luxury, cedar shakes offer homeowners a material that ages with character -- silvering from rich amber to elegant pewter tones over seasons of Essex County weather. The homes along Old Short Hills Road and in select Heritage Hills sections where cedar appears most frequently stand apart from their asphalt-roofed neighbors with a textured, dimensional appearance that photographs cannot fully capture.',
     'Livingston\'s cedar shake installations require material selection calibrated to northern New Jersey\'s humidity and freeze-thaw cycles. Western red cedar from British Columbia mills provides the natural oils and tight grain structure that resist moisture absorption and fungal colonization, but even premium cedar demands proper installation detailing to perform across decades of Livingston weather. Our cedar shake projects incorporate ventilation engineering specific to the home\'s architecture, underlayment systems that manage moisture without trapping it, and treatment protocols that preserve the wood\'s natural preservatives while extending surface life.',
     'Homeowners in [Montclair](/cedar-shake-roofing-montclair-nj) share Livingston\'s appreciation for cedar\'s architectural distinction, though Montclair\'s Victorian housing stock presents different installation geometries than Livingston\'s mid-century split-levels. Our [cedar shake roofing](/cedar-shake-roofing) expertise spans both contexts -- from the steep-pitch Victorian applications to the complex multi-plane installations that Livingston\'s split-level and colonial designs demand.',
     'HOA communities in Livingston typically embrace cedar shake as a premium material that enhances neighborhood character, though some committees require fire-treated cedar or Class A fire-rated assemblies. We navigate these requirements during the approval process, specifying pressure-treated shakes or fire-resistant underlayment assemblies that satisfy safety codes while preserving cedar\'s natural appearance.'
@@ -35,7 +35,25 @@ export const livingstonCedarShakeRoofing: ComboContent = {
     {
       question: 'Can cedar shakes be installed on a Livingston split-level?',
       answer: 'Cedar shakes install well on split-levels, though the multiple plane intersections require more precise detailing than simple gable roofs. Our crews have extensive experience with Livingston\'s split-level geometry, fitting custom-cut shakes at every valley, dormer, and wall transition. The installation takes longer than asphalt shingles due to the individual handling of each shake, but the result is a dimensional, handcrafted appearance that dramatically elevates the home\'s curb appeal.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Livingston, NJ?',
+      answer: 'Most cedar shake roofing projects in Livingston range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Livingston NJ -- premium hand-split cedar for split-levels, moisture management, and HOA-approved fire-rated assemblies.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

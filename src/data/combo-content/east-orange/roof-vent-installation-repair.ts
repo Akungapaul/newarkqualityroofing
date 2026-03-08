@@ -4,7 +4,7 @@ export const eastOrangeRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'east-orange',
   overview: [
-    'Roof ventilation on East Orange\'s multi-family buildings operates as the pressure relief system for attic spaces that accumulate heat, moisture, and conditioned air leakage from the occupied units below. The Victorian two-families in Elmwood Park and Doddtown, the converted multi-units along Central Avenue, and the garden apartment complexes throughout the city all depend on functional roof venting to prevent the moisture damage, ice dam formation, and premature roofing deterioration that inadequate attic ventilation accelerates. Yet [roof vent](/roof-vent-installation-repair) systems on East Orange\'s rental buildings are among the most neglected building components -- painted shut, blocked by insulation, covered during re-roofing, or simply insufficient for the attic volume they are supposed to serve.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in East Orange — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation on East Orange\'s multi-family buildings operates as the pressure relief system for attic spaces that accumulate heat, moisture, and conditioned air leakage from the occupied units below. The Victorian two-families in Elmwood Park and Doddtown, the converted multi-units along Central Avenue, and the garden apartment complexes throughout the city all depend on functional roof venting to prevent the moisture damage, ice dam formation, and premature roofing deterioration that inadequate attic ventilation accelerates. Yet [roof vent](/roof-vent-installation-repair) systems on East Orange\'s rental buildings are among the most neglected building components -- painted shut, blocked by insulation, covered during re-roofing, or simply insufficient for the attic volume they are supposed to serve.',
     'The ventilation dynamics on East Orange\'s multi-family buildings differ fundamentally from single-family applications because multi-unit buildings generate substantially more interior moisture -- from cooking, bathing, and laundry in multiple households -- that migrates into the attic through ceiling penetrations, light fixtures, plumbing chases, and access hatches. This moisture load overwhelms ventilation systems designed for single-family occupancy, and the consequences appear as condensation dripping from roof sheathing, mold growth on attic framing, and insulation saturation that destroys R-value and promotes wood decay.',
     'Ridge vents represent the most effective exhaust ventilation solution for East Orange\'s pitched-roof housing stock, providing continuous exhaust along the full roof length without the visible profile that turbine and box vents present. On buildings where ridge venting was not installed during original construction -- the majority of East Orange\'s pre-war housing -- retrofit ridge vent installation during re-roofing provides the ventilation upgrade that many buildings desperately need. Combined with properly functioning soffit intake vents, ridge ventilation creates the balanced system that modern building science prescribes. The same ventilation principles apply to buildings across Essex County, from [Newark](/roof-vent-installation-repair-newark-nj) to the western suburbs.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeRoofVentInstallationRepair: ComboContent = {
     {
       question: 'How much does ridge vent installation cost on an East Orange two-family home?',
       answer: 'Ridge vent installation as a standalone retrofit on a typical East Orange two-family ranges from $800 to $1,500 depending on ridge length, existing ridge cap condition, and access requirements. As an add-on during re-roofing, the additional cost drops to $300 to $600 because the ridge cap replacement is already included in the roofing scope. The ventilation improvement typically produces measurable reduction in summer cooling costs and winter condensation problems.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in East Orange, NJ?',
+      answer: 'Most roof vent installation repair projects in East Orange range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair for East Orange NJ buildings -- ridge vent retrofit, attic ventilation balancing, and moisture control for multi-family homes.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'south-orange',
   overview: [
-    'Roof thermal imaging inspections in South Orange Village provide non-destructive diagnostic capability that identifies hidden moisture, insulation deficiencies, and energy loss patterns invisible to conventional visual inspection. The infrared camera detects temperature differentials across the roof surface that reveal wet insulation retaining daytime heat after sunset, air leakage paths where conditioned air escapes through the building envelope, and compromised membrane areas where moisture has infiltrated beneath the waterproofing layer.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in South Orange — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections in South Orange Village provide non-destructive diagnostic capability that identifies hidden moisture, insulation deficiencies, and energy loss patterns invisible to conventional visual inspection. The infrared camera detects temperature differentials across the roof surface that reveal wet insulation retaining daytime heat after sunset, air leakage paths where conditioned air escapes through the building envelope, and compromised membrane areas where moisture has infiltrated beneath the waterproofing layer.',
     'South Orange\'s commercial building portfolio -- particularly the mixed-use structures along South Orange Avenue and the institutional facilities on the Seton Hall University campus -- benefits from thermal imaging\'s ability to assess roof condition without destructive core cuts or membrane disturbance. Property managers can make informed repair-versus-replace decisions based on moisture maps that show exactly how much of the roof assembly is compromised, rather than extrapolating from a few random core samples.',
     'Residential thermal imaging in South Orange reveals the attic insulation deficiencies and air leakage patterns that cause the ice dams, excessive heating costs, and comfort problems common in the village\'s pre-war housing stock. Scanning a Tudor Revival home during winter heating season visualizes the heat loss through poorly insulated attic floors, around recessed light fixtures, at plumbing penetrations, and through balloon-frame wall cavities that bypass insulation layers entirely. This diagnostic information guides targeted improvement rather than the guesswork that generic insulation recommendations produce.',
     'Our [thermal imaging](/roof-thermal-imaging-inspections) inspections in [South Orange](/roofing-in-south-orange-nj) use commercial-grade radiometric cameras that produce calibrated temperature data suitable for engineering analysis, not the consumer-grade devices that provide colorful images without the resolution or accuracy needed for meaningful diagnostic conclusions.'
@@ -35,7 +35,25 @@ export const southOrangeRoofThermalImagingInspections: ComboContent = {
     {
       question: 'How much does a thermal imaging roof inspection cost in South Orange?',
       answer: 'Cost depends on the roof area, building type, and scanning scope. Commercial flat-roof moisture surveys are priced based on roof square footage. Residential energy scans are priced per property. The investment provides diagnostic information that prevents both unnecessary repair expenditure on areas that do not need attention and under-repair of areas where unseen moisture is deteriorating the roof assembly. The inspection cost typically pays for itself through better-targeted repair decisions.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in South Orange, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in South Orange range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in South Orange NJ -- infrared moisture detection for commercial buildings and energy loss scanning.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

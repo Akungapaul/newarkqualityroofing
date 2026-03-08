@@ -4,7 +4,7 @@ export const essexFellsCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Commercial roof replacement in Essex Fells transforms institutional and estate-scale buildings from aging, maintenance-intensive systems to modern, warranted roof assemblies designed for twenty-five to thirty-year service life. The borough\'s municipal buildings, school, recreation facilities, and fire station represent the institutional replacement market. Estate properties with aging flat-roof structures -- indoor pool enclosures, large garages, connected walkways, and entertainment buildings originally constructed in the 1970s and 1980s -- form the residential side of the commercial replacement demand.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Essex Fells — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Essex Fells transforms institutional and estate-scale buildings from aging, maintenance-intensive systems to modern, warranted roof assemblies designed for twenty-five to thirty-year service life. The borough\'s municipal buildings, school, recreation facilities, and fire station represent the institutional replacement market. Estate properties with aging flat-roof structures -- indoor pool enclosures, large garages, connected walkways, and entertainment buildings originally constructed in the 1970s and 1980s -- form the residential side of the commercial replacement demand.',
     'The replacement decision for commercial roofs in Essex Fells follows the same lifecycle analysis applied to commercial buildings in neighboring municipalities like [Caldwell](/commercial-roof-replacement-caldwell-nj), but with additional factors unique to the residential borough context. Annual repair costs trending upward, energy efficiency below current standards, insulation inadequate for updated code requirements, and warranty expiration on aging systems all contribute to the replacement decision. For institutional buildings funded by municipal budgets, the total lifecycle cost comparison between continued maintenance and replacement drives the timing decision.',
     'Our commercial roof replacement practice in [Essex Fells](/roofing-in-essex-fells-nj) manages these projects as both construction operations and community events. Institutional roof replacements affect public facilities that the borough relies on daily. Estate replacements involve large-scale construction on residential properties surrounded by neighbors. Both contexts demand project management that coordinates construction activity with community operations, controls noise and traffic impact, and delivers the completed system within schedules negotiated around seasonal weather, building operations, and residential community expectations.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsCommercialRoofReplacement: ComboContent = {
     {
       question: 'What energy improvements are available during commercial roof replacement?',
       answer: 'Replacement provides the optimal opportunity for energy upgrades. Insulation can be increased to current energy code requirements or beyond. Reflective membrane surfaces reduce cooling loads where sun exposure is significant. Upgraded mechanical curbs with insulated crickets reduce heat loss at equipment penetrations. These improvements are integrated into the new assembly at minimal incremental cost compared to stand-alone energy retrofit projects. The energy savings contribute to the lifecycle return on the replacement investment.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most commercial roof replacement projects in Essex Fells range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Essex Fells NJ -- full system replacement for institutional buildings and estate structures.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const caldwellRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'caldwell',
   overview: [
-    'Roof waterproofing in Caldwell extends beyond the primary roofing material to address the hidden moisture pathways that allow water into building assemblies despite intact shingles or membranes above. Ice-and-water shield membranes at eaves and valleys, liquid-applied waterproofing at parapet and wall intersections, penetration sealants around pipe boots and vent flashings, and deck-level treatments on flat roof sections each serve specific waterproofing functions that the primary roof surface cannot accomplish alone. In Caldwell\'s four-season climate where freeze-thaw cycling, wind-driven rain, and ice dam conditions all occur, these secondary waterproofing layers provide the redundancy that prevents water infiltration.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Caldwell — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Caldwell extends beyond the primary roofing material to address the hidden moisture pathways that allow water into building assemblies despite intact shingles or membranes above. Ice-and-water shield membranes at eaves and valleys, liquid-applied waterproofing at parapet and wall intersections, penetration sealants around pipe boots and vent flashings, and deck-level treatments on flat roof sections each serve specific waterproofing functions that the primary roof surface cannot accomplish alone. In Caldwell\'s four-season climate where freeze-thaw cycling, wind-driven rain, and ice dam conditions all occur, these secondary waterproofing layers provide the redundancy that prevents water infiltration.',
     'Caldwell\'s housing stock presents waterproofing opportunities at the dormer-to-roof junctions, chimney surrounds, and sidewall transitions where the original 1960s construction relied on tar-based sealants that have hardened and cracked after decades of thermal movement. Modern waterproofing products -- self-adhering membranes, polyurethane-based sealants, and liquid-applied flashing systems -- provide superior performance and longevity compared to the materials originally available. Upgrading waterproofing details during [roof repair](/roof-repair-caldwell-nj) or replacement on [Caldwell](/roofing-in-caldwell-nj) homes dramatically reduces the leak risk that aging sealant joints represent.',
     'Commercial waterproofing on [Caldwell\'s](/roofing-in-caldwell-nj) Bloomfield Avenue buildings targets the parapet walls, equipment curbs, and drain penetrations where water entry affects business operations below. Unlike residential leaks that stain a ceiling, commercial waterproofing failures can damage inventory, disrupt operations, and trigger tenant complaints. Our [roof waterproofing](/roof-waterproofing) approach for Caldwell commercial buildings treats every penetration and transition as a potential failure point that deserves redundant protection. Similar attention applies to commercial buildings in [Bloomfield](/roof-waterproofing-bloomfield-nj) and [Montclair](/roof-waterproofing-montclair-nj).'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofWaterproofing: ComboContent = {
     {
       question: 'How long does roof waterproofing last on Caldwell homes?',
       answer: 'Ice-and-water shield membrane lasts the full lifespan of the roof system it is installed beneath -- typically twenty-five to thirty-plus years. Polyurethane sealants at exposed joints last ten to fifteen years before requiring renewal. Liquid-applied flashing systems provide twenty-plus years of service. We specify maintenance intervals for each waterproofing component and recommend inspection timing so that sealant renewal happens before failure rather than after leaking begins.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Caldwell, NJ?',
+      answer: 'Most roof waterproofing projects in Caldwell range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Caldwell NJ -- ice-and-water shield, liquid flashing, and sealant systems for colonial homes and commercial buildings.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

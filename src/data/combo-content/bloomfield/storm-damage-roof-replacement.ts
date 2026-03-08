@@ -4,7 +4,7 @@ export const bloomfieldStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Storm damage roof replacement in Bloomfield addresses the aftermath of severe weather events that damage the roof beyond what targeted repair can restore. Nor\'easters driving sustained winds above seventy miles per hour strip entire shingle sections from exposed roof planes. Summer thunderstorm microbursts produce localized wind speeds exceeding one hundred miles per hour that peel shingles, bend flashings, and in extreme cases lift the roof deck from its framing connections. Fallen tree limbs from Bloomfield\'s mature oak and maple canopy puncture through the roof assembly, creating structural damage that requires full replacement of the affected roof section.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Bloomfield — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Bloomfield addresses the aftermath of severe weather events that damage the roof beyond what targeted repair can restore. Nor\'easters driving sustained winds above seventy miles per hour strip entire shingle sections from exposed roof planes. Summer thunderstorm microbursts produce localized wind speeds exceeding one hundred miles per hour that peel shingles, bend flashings, and in extreme cases lift the roof deck from its framing connections. Fallen tree limbs from Bloomfield\'s mature oak and maple canopy puncture through the roof assembly, creating structural damage that requires full replacement of the affected roof section.',
     'The distinction between repairable storm damage and replacement-warranting storm damage on Bloomfield homes centers on the extent and distribution of the damage across the roof area. Localized damage -- a fallen limb puncture, a single slope with stripped shingles -- can often be repaired by replacing the damaged section while leaving intact areas undisturbed. Widespread damage -- shingles missing across multiple slopes, cracked shingles covering more than thirty percent of the roof, or hail damage affecting the entire exposure -- makes targeted repair impractical because the remaining undamaged shingles are likely weakened and will fail progressively.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners with storm-damaged roofs, the priority sequence is safety, emergency weatherproofing, damage documentation, [insurance claim](/insurance-roof-replacement-bloomfield-nj) filing, and then replacement planning. Rushing into replacement before proper documentation risks inadequate insurance coverage. Delaying emergency weatherproofing risks secondary water damage that compounds the restoration cost. We manage this sequence professionally, deploying emergency tarps within hours while preparing the documentation the insurance process requires.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Should I get multiple bids for storm damage roof replacement in Bloomfield?',
       answer: 'Getting two to three bids is reasonable, but compare qualifications and specifications rather than price alone. Verify that each contractor carries current liability insurance and workers compensation, holds NJ contractor licensing, and can provide local references. After major storms, out-of-area contractors solicit aggressively with low prices -- these operators may lack insurance, skip permits, and be unreachable for warranty claims. We recommend working with established Essex County contractors who have verifiable track records.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most storm damage roof replacement projects in Bloomfield range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Bloomfield NJ -- emergency tarping, insurance coordination, and full replacement after severe weather.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

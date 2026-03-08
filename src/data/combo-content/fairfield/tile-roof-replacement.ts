@@ -4,7 +4,7 @@ export const fairfieldTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'fairfield',
   overview: [
-    'Tile roof replacement in Fairfield serves the select homes and commercial properties that carry clay or concrete tile roofing systems needing full replacement after decades of service. While tile is uncommon on Fairfield\'s standard suburban homes, custom-built residences and certain commercial properties with Mediterranean or Spanish architectural themes use tile roofing that eventually requires replacement when individual tile failures become too widespread for economical repair and the underlayment beneath has degraded beyond its useful life.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Fairfield — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Fairfield serves the select homes and commercial properties that carry clay or concrete tile roofing systems needing full replacement after decades of service. While tile is uncommon on Fairfield\'s standard suburban homes, custom-built residences and certain commercial properties with Mediterranean or Spanish architectural themes use tile roofing that eventually requires replacement when individual tile failures become too widespread for economical repair and the underlayment beneath has degraded beyond its useful life.',
     'Tile replacement in Fairfield offers homeowners the opportunity to upgrade from aging first-generation concrete tiles to modern products with improved freeze-thaw resistance, lighter weight options, and more consistent manufacturing quality. Current tile products rated for ASTM C1167 Grade 1 severe weathering exposure perform significantly better in Fairfield\'s freeze-thaw climate than the tiles installed twenty to thirty years ago. Our [tile roof replacement](/tile-roof-replacement) specifications for Fairfield always specify Grade 1 tiles to ensure appropriate climate performance.',
     'The replacement process involves more than swapping tiles. The entire underlayment system beneath the tile field has typically degraded over the decades, and the batten system that supports individual tiles may show rot or fastener corrosion. Full tile replacement includes removal of the complete existing system, deck inspection and repair, installation of modern waterproof underlayment and ventilated batten system, and precision installation of new tiles. This comprehensive approach addresses every layer of the roof system, not just the visible surface.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldTileRoofReplacement: ComboContent = {
     {
       question: 'How long does a new tile roof last in Fairfield?',
       answer: 'A properly installed tile roof with Grade 1 tiles lasts fifty to seventy-five years in Fairfield. The tiles themselves can exceed this range, but the underlayment system beneath the tiles typically needs attention around the forty-year mark. With periodic underlayment maintenance accessed by lifting and replacing tiles in sections, a tile roof system can approach century-long service.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Fairfield, NJ?',
+      answer: 'Most tile roof replacement projects in Fairfield range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Fairfield NJ. Clay and concrete tile with freeze-thaw rated materials and structural assessment.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

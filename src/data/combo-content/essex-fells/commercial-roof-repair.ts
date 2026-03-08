@@ -4,7 +4,7 @@ export const essexFellsCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'essex-fells',
   overview: [
-    'Commercial roof repair in Essex Fells maintains the institutional buildings and commercial-specification estate structures that require repair capabilities beyond standard residential roofing practice. The borough\'s municipal complex, fire station, recreation center, and school buildings operate on commercial roof systems -- TPO membranes, EPDM rubber, modified bitumen, and standing-seam metal -- that demand repair techniques, materials, and diagnostic methods specific to commercial flat-roof and low-slope applications.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Essex Fells — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Essex Fells maintains the institutional buildings and commercial-specification estate structures that require repair capabilities beyond standard residential roofing practice. The borough\'s municipal complex, fire station, recreation center, and school buildings operate on commercial roof systems -- TPO membranes, EPDM rubber, modified bitumen, and standing-seam metal -- that demand repair techniques, materials, and diagnostic methods specific to commercial flat-roof and low-slope applications.',
     'Estate structures built to commercial specifications present repair scenarios where residential experience proves insufficient. A leaking membrane on a 2,000-square-foot indoor pool enclosure requires core sampling to determine moisture saturation in the insulation layer, seam testing to locate weld failures, and drainage analysis to identify ponding zones -- diagnostic procedures standard in commercial roof maintenance but rarely performed by residential contractors. These commercial diagnostic and repair capabilities are essential for the growing inventory of estate structures in Essex Fells that function at commercial scale.',
     'Our commercial roof repair practice in [Essex Fells](/roofing-in-essex-fells-nj) provides the diagnostic precision and material-specific repair techniques that commercial roof systems require, delivered with the site management and communication standards that residential community operation demands. We maintain inventories of commercial membrane patch materials, sealants, and fasteners to enable rapid response for institutional buildings where roof failure affects public services and for estate structures where interior damage consequences are measured in hundreds of thousands of dollars.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsCommercialRoofRepair: ComboContent = {
     {
       question: 'Do you maintain commercial roofing materials for rapid Essex Fells repairs?',
       answer: 'We stock TPO and EPDM membrane patch materials, commercial sealants, and common flashing components at our regional facility for rapid deployment to Essex Fells institutional and estate properties. Specialty materials required for specific system types -- PVC membrane, particular modified bitumen products, or system-specific accessories -- may require one to three-day procurement depending on distributor availability. Emergency response staging includes the most commonly needed commercial repair materials for immediate stabilization.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Essex Fells, NJ?',
+      answer: 'Most commercial roof repair projects in Essex Fells range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Essex Fells NJ -- diagnostic assessment and membrane repair for institutional and estate buildings.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const nutleyModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'nutley',
   overview: [
-    'Modified bitumen roofing provides the multi-layer waterproofing redundancy that Nutley\'s commercial building owners and discerning residential homeowners value for flat and low-slope applications where a single membrane system feels insufficient. The material\'s two- or three-ply construction creates overlapping waterproofing barriers that continue protecting the building even if one layer is compromised by puncture, foot traffic wear, or seam degradation -- a fail-safe characteristic that resonates strongly with property owners in a township where maintenance standards and investment protection rank among the highest priorities in Essex County.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Nutley — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing provides the multi-layer waterproofing redundancy that Nutley\'s commercial building owners and discerning residential homeowners value for flat and low-slope applications where a single membrane system feels insufficient. The material\'s two- or three-ply construction creates overlapping waterproofing barriers that continue protecting the building even if one layer is compromised by puncture, foot traffic wear, or seam degradation -- a fail-safe characteristic that resonates strongly with property owners in a township where maintenance standards and investment protection rank among the highest priorities in Essex County.',
     'Franklin Avenue\'s older commercial buildings were originally constructed with built-up roofing systems that modified bitumen directly descends from, making mod-bit a natural upgrade path when those aging multi-layer systems reach the end of their service life. The installation techniques -- torch application, cold adhesive, or self-adhered sheets -- are familiar to the building tradespeople who maintain these properties, and the repair process for localized damage mirrors the patch-and-seal approach that building maintenance staff have practiced for decades. This continuity matters for Nutley business owners who want dependable roofing without the learning curve of an entirely new membrane technology.',
     'Residential modified bitumen applications in [Nutley](/roofing-in-nutley-nj) focus on the flat roof sections where foot traffic, rooftop access, and aesthetic concerns create demands beyond what single-ply EPDM handles optimally. The rear addition on a Park Avenue Colonial that doubles as a second-floor balcony, the flat garage roof that homeowners step onto for gutter cleaning, and the enclosed porch roof that catches debris from overhead trees -- these sections benefit from mod-bit\'s puncture resistance and the granulated cap sheet surface that provides UV protection and a finished appearance visible from adjacent windows.',
     'Our [modified bitumen](/modified-bitumen-roofing) installations in Nutley use SBS-polymer-modified sheets that maintain flexibility through the freeze-thaw cycling that stresses flat roof membranes during New Jersey winters. Unlike APP-modified systems that become rigid in cold temperatures, SBS modification allows the membrane to stretch and recover as the substrate expands and contracts, reducing the stress cracking that would otherwise develop at seams and flashing transitions. Homeowners in neighboring [Belleville](/modified-bitumen-roofing-belleville-nj) use similar SBS systems on comparable flat-roof residential sections, though Nutley installations typically specify premium granulated cap sheets in earth-tone colors that coordinate with the home\'s existing architectural palette.'
@@ -35,7 +35,25 @@ export const nutleyModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Can modified bitumen be installed over my existing flat roof?',
       answer: 'Overlay is possible when the existing substrate is dry, firmly attached, and structurally sound. On Nutley buildings where the existing roof has moisture-saturated insulation or multiple accumulated layers, full tear-off to bare deck is the responsible approach. Core sampling during our inspection determines moisture content at multiple locations, providing the data to make an informed overlay-versus-tearoff decision. When overlay is viable, it saves significant cost by eliminating demolition and disposal expenses.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Nutley, NJ?',
+      answer: 'Most modified bitumen roofing projects in Nutley range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Nutley NJ. Multi-layer flat roof systems for Franklin Avenue commercial and residential additions with SBS-polymer flexibility.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

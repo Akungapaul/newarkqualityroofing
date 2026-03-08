@@ -4,7 +4,7 @@ export const westOrangeRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Roof ventilation engineering in West Orange must account for the township\'s full elevation range, where ridge-top homes battling wind-driven moisture infiltration through vents face different challenges than valley-floor homes trapping stagnant humid air beneath poorly ventilated roof decks. Our [roof vent installation and repair](/roof-vent-installation-repair) work designs complete airflow systems tailored to each property\'s position on the Watchung slope.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in West Orange — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation engineering in West Orange must account for the township\'s full elevation range, where ridge-top homes battling wind-driven moisture infiltration through vents face different challenges than valley-floor homes trapping stagnant humid air beneath poorly ventilated roof decks. Our [roof vent installation and repair](/roof-vent-installation-repair) work designs complete airflow systems tailored to each property\'s position on the Watchung slope.',
     'The balanced ventilation principle -- equal soffit intake and ridge exhaust -- forms the foundation of every West Orange vent system we design, but implementing this balance requires elevation-specific adjustments. Ridge-top homes experience negative attic pressure from exterior wind, which can reverse airflow through exhaust vents and drive rain into the attic. Valley-floor homes experience positive attic pressure from heat buildup, requiring sufficient exhaust capacity to prevent moisture accumulation against the roof deck. Homeowners in nearby [Montclair](/roof-vent-installation-repair-montclair-nj) navigate similar ventilation challenges on their own Watchung slope homes.',
     'West Orange\'s mid-century split-level homes present the most complex ventilation scenarios in the township. The stacked roof planes create multiple attic spaces at different levels, each requiring independent ventilation circuits. Air rising through the lower attic space must exhaust before entering the upper attic, preventing the warm-air migration that creates the selective roof warming responsible for ice dam formation at level-change transitions.',
     'Commercial ventilation on [West Orange](/roofing-in-west-orange-nj) buildings addresses moisture and heat management at larger scale, using power ventilators, gravity curb exhausts, and economizer dampers sized for the building\'s specific occupancy heat load and moisture production. Restaurant kitchens, gym facilities, and indoor pool buildings generate interior moisture loads that overwhelm passive ventilation, requiring powered exhaust systems integrated with the roof assembly.'
@@ -35,7 +35,25 @@ export const westOrangeRoofVentInstallationRepair: ComboContent = {
     {
       question: 'How do you ventilate a split-level attic with multiple roof sections?',
       answer: 'Split-level attics require independent ventilation circuits for each roof section. The lower roof\'s attic space needs its own soffit intake and exhaust that prevents warm air from migrating into the upper attic through the level-change connection. We install fire-blocking and air barriers at the level-change framing, then provide separate intake-exhaust pathways for each attic section. This isolation prevents the cross-contamination of warm air between sections that creates the ice dam conditions split-levels are prone to.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in West Orange, NJ?',
+      answer: 'Most roof vent installation repair projects in West Orange range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in West Orange NJ. Balanced ventilation systems for split-levels with ridge-top wind protection.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

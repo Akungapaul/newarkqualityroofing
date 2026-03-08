@@ -4,7 +4,7 @@ export const orangeTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'orange',
   overview: [
-    'Tile roofs in Orange are architectural accents rather than the dominant roofing type -- found primarily on the Mediterranean and Spanish Revival homes that appear occasionally along Park Avenue, Scotland Road, and the residential streets approaching South Mountain. These clay and concrete tile installations add distinctive character to a streetscape otherwise defined by shingle and slate roofs, and maintaining them requires specialized knowledge of a material that most northern New Jersey contractors rarely encounter. Our [tile roof installation and repair](/tile-roof-installation-repair) experience extends to the full range of tile profiles found on Orange properties: flat Castilian tiles, barrel-shaped Mission tiles, and interlocking S-profile concrete tiles.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofs in Orange are architectural accents rather than the dominant roofing type -- found primarily on the Mediterranean and Spanish Revival homes that appear occasionally along Park Avenue, Scotland Road, and the residential streets approaching South Mountain. These clay and concrete tile installations add distinctive character to a streetscape otherwise defined by shingle and slate roofs, and maintaining them requires specialized knowledge of a material that most northern New Jersey contractors rarely encounter. Our [tile roof installation and repair](/tile-roof-installation-repair) experience extends to the full range of tile profiles found on Orange properties: flat Castilian tiles, barrel-shaped Mission tiles, and interlocking S-profile concrete tiles.',
     'Tile repair on Orange properties is driven by two primary causes: mechanical damage from South Mountain\'s tree debris and freeze-thaw deterioration of aging clay and concrete. Falling branches crack tiles at impact points, while years of freeze-thaw cycling cause surface spalling and internal fracturing that weaken tiles until they crumble under normal wind loads. Both failure modes require replacement with matching tiles -- a sourcing challenge because the original tiles may have been manufactured decades ago by companies that no longer exist. We maintain tile sourcing relationships with domestic and international manufacturers and carry salvaged tile inventory for matching purposes.',
     'New tile installation on Orange properties is uncommon but occurs during major renovations and custom home construction. Tile adds substantial weight to the roof structure -- three to five times heavier than asphalt shingles per square foot -- and Orange\'s older framing may not support the load without reinforcement. Our tile installations include structural engineering verification, upgraded underlayment with secondary waterproofing capability, and proper battened substrate installation that allows drainage behind the tile surface. For homeowners considering tile in Orange\'s [roofing](/roofing-in-orange-nj) market, the visual impact is undeniable, though the structural and cost commitments are significant.'
   ],
@@ -34,7 +34,25 @@ export const orangeTileRoofInstallationRepair: ComboContent = {
     {
       question: 'How heavy is a tile roof compared to shingles?',
       answer: 'Clay and concrete tile roofs weigh 600 to 1,100 pounds per roofing square (100 square feet), compared to 200 to 300 pounds for architectural asphalt shingles. This weight difference means Orange homes built for shingle roofs may need structural reinforcement before tile installation. We include structural assessment in every tile estimate and specify reinforcement when the existing framing does not meet load requirements for the selected tile product.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Orange, NJ?',
+      answer: 'Most tile roof installation repair projects in Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Orange NJ -- clay and concrete tile, freeze-thaw protection, structural assessment, and South Mountain debris care.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const essexFellsBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'essex-fells',
   overview: [
-    'Built-up roofing systems in Essex Fells trace their presence to the borough\'s mid-twentieth-century estate construction period, when BUR represented the dominant flat-roof waterproofing technology for the garages, pool houses, and covered walkways connecting multi-structure residential properties. Many of these original BUR installations have served thirty to forty years or more, now requiring assessment, repair, or replacement as the asphalt binder ages and the reinforcing felts lose tensile strength beneath Essex Fells\' heavy canopy debris loading.',
+    'Newark Quality Roofing delivers expert built up roofing in Essex Fells — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems in Essex Fells trace their presence to the borough\'s mid-twentieth-century estate construction period, when BUR represented the dominant flat-roof waterproofing technology for the garages, pool houses, and covered walkways connecting multi-structure residential properties. Many of these original BUR installations have served thirty to forty years or more, now requiring assessment, repair, or replacement as the asphalt binder ages and the reinforcing felts lose tensile strength beneath Essex Fells\' heavy canopy debris loading.',
     'The maintenance and repair requirements for existing BUR systems in Essex Fells differ substantially from the commercial flat-roof contexts in [Newark](/built-up-roofing-newark-nj) and [East Orange](/built-up-roofing-east-orange-nj) where built-up roofing covers warehouse and retail buildings. Essex Fells BUR applications involve relatively small roof areas -- rarely exceeding a thousand square feet -- connected to high-value residential structures where interior water damage carries disproportionate consequences. A BUR failure over a finished basement, collector car garage, or wine cellar demands immediate response capabilities that commercial building maintenance schedules do not require.',
     'Our built-up roofing expertise in [Essex Fells](/roofing-in-essex-fells-nj) encompasses both the preservation of existing BUR systems and the evaluation of replacement options when repair is no longer cost-effective. We assess existing assemblies through core sampling to determine remaining service life, identify moisture saturation within the multi-ply structure, and present informed recommendations on whether to repair, overlay, or replace the system with modern alternatives. This evaluation-first approach prevents premature replacement of sound BUR systems while identifying failing assemblies before catastrophic water entry occurs.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsBuiltUpRoofing: ComboContent = {
     {
       question: 'How long should a properly maintained BUR system last in Essex Fells?',
       answer: 'A well-specified BUR installation with proper drainage, regular debris clearing, and periodic flood-coat maintenance performs twenty-five to thirty years in the Essex Fells environment. Many existing BUR systems in the borough have exceeded thirty years because the shaded canopy conditions reduce UV degradation of the surface bitumen. The key maintenance requirement is preventing debris accumulation that traps moisture and accelerates binder deterioration between felt plies. Annual professional inspection and five-year flood-coat renewal extend service life predictably.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Essex Fells, NJ?',
+      answer: 'Most built up roofing projects in Essex Fells range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Essex Fells NJ -- assessment, repair, and replacement of multi-ply BUR on estate auxiliary structures.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

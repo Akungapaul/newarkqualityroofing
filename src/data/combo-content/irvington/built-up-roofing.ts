@@ -4,7 +4,7 @@ export const irvingtonBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'irvington',
   overview: [
-    'Built-up roofing systems have been protecting Irvington\'s commercial buildings since the postwar construction boom that gave Springfield Avenue and the Route 78 corridor their current building stock. Many of these original BUR installations survived 30 to 40 years before requiring replacement -- a longevity record that few modern systems can match. Our [built-up roofing](/built-up-roofing) installations across Irvington continue this tradition of multi-layer durability, deploying hot-mopped or cold-applied BUR systems on commercial properties where maximum service life justifies the higher installation cost compared to single-ply alternatives.',
+    'Newark Quality Roofing delivers expert built up roofing in Irvington — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems have been protecting Irvington\'s commercial buildings since the postwar construction boom that gave Springfield Avenue and the Route 78 corridor their current building stock. Many of these original BUR installations survived 30 to 40 years before requiring replacement -- a longevity record that few modern systems can match. Our [built-up roofing](/built-up-roofing) installations across Irvington continue this tradition of multi-layer durability, deploying hot-mopped or cold-applied BUR systems on commercial properties where maximum service life justifies the higher installation cost compared to single-ply alternatives.',
     'The Route 78 industrial corridor is BUR\'s natural habitat in Irvington. Warehouses and manufacturing facilities with heavy rooftop equipment, regular maintenance foot traffic, and exposure to chemical fumes and industrial fallout need a roofing system that shrugs off abuse that would puncture single-ply membranes. BUR\'s alternating layers of bitumen and reinforcing fabric create a thick, monolithic surface that resists impact from dropped tools, tolerates dragged equipment, and provides a walking surface that does not require supplemental walkway pads. For Route 78 building operators managing active industrial rooftops, BUR remains the most cost-effective long-term solution.',
     'Irvington\'s religious institutions represent a secondary BUR market where the system\'s decades-long track record appeals to congregation-funded building committees making once-in-a-generation roofing decisions. When a church invests in a new roof, the selection committee wants assurance that the system will last through the next generation of leadership. BUR\'s 30 to 40-year proven performance history in this climate provides that assurance. Commercial buildings in neighboring [Bloomfield](/built-up-roofing-bloomfield-nj) specify BUR for similar longevity reasons, though Irvington\'s industrial corridor applications add heavy-duty performance requirements beyond what typical commercial buildings demand.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonBuiltUpRoofing: ComboContent = {
       question: 'Can you install BUR over my existing roof in Irvington?',
       answer: 'We do not recommend BUR overlay on Irvington\'s aging commercial structures. The accumulated weight of multiple roofing layers risks exceeding structural load capacity, and trapped moisture between layers accelerates deck deterioration. Full tear-off ensures the new BUR system is installed on a verified, sound substrate with proper insulation and drainage -- the foundation that supports its 30 to 40-year service life.',
     },
+    {
+      question: 'How much does built up roofing cost in Irvington, NJ?',
+      answer: 'Most built up roofing projects in Irvington range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Irvington NJ for industrial, commercial, and institutional buildings. Multi-ply BUR systems with 30-40 year proven durability.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

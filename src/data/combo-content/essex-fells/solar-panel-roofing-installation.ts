@@ -4,7 +4,7 @@ export const essexFellsSolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'essex-fells',
   overview: [
-    'Solar panel roofing installation on Essex Fells estate properties navigates the intersection of renewable energy aspiration and the architectural standards that govern every visible modification to the borough\'s architect-designed homes. Unlike the straightforward panel-on-shingle installations common in suburban communities like [Caldwell](/solar-panel-roofing-installation-caldwell-nj) and [Livingston](/solar-panel-roofing-installation-livingston-nj), Essex Fells solar integration must satisfy aesthetic requirements that typically restrict panel placement to rear-facing roof planes, secondary structures, and ground-mounted arrays positioned behind landscape screening -- locations that may not coincide with optimal solar orientation.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in Essex Fells — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation on Essex Fells estate properties navigates the intersection of renewable energy aspiration and the architectural standards that govern every visible modification to the borough\'s architect-designed homes. Unlike the straightforward panel-on-shingle installations common in suburban communities like [Caldwell](/solar-panel-roofing-installation-caldwell-nj) and [Livingston](/solar-panel-roofing-installation-livingston-nj), Essex Fells solar integration must satisfy aesthetic requirements that typically restrict panel placement to rear-facing roof planes, secondary structures, and ground-mounted arrays positioned behind landscape screening -- locations that may not coincide with optimal solar orientation.',
     'The heavily wooded character of Essex Fells creates both the motivation for and the primary obstacle to solar energy production on estate properties. Large homes with significant energy consumption generate utility bills that solar systems can meaningfully offset, and the environmentally conscious homeowner community is receptive to renewable energy investment. However, the mature hardwood canopy that defines Essex Fells\' landscape character shades significant portions of most roof surfaces for much of the day, reducing solar production potential and requiring detailed shade analysis before any installation commitment.',
     'Our [solar panel roofing installation](/solar-panel-roofing-installation) approach in Essex Fells treats the solar array as an integrated estate infrastructure project rather than a rooftop appliance installation. We coordinate with architects on panel placement that respects the home\'s visual composition, with electricians on inverter and interconnection infrastructure, and with landscape architects on ground-mount screening when roof-mounted systems face aesthetic or shade-exposure limitations. The goal is a solar installation that produces meaningful energy while maintaining the estate aesthetic that Essex Fells homeowners have invested in creating.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsSolarPanelRoofingInstallation: ComboContent = {
     {
       question: 'What New Jersey incentives apply to Essex Fells solar installations?',
       answer: 'New Jersey offers Solar Renewable Energy Credits generating ongoing revenue per megawatt-hour produced, net metering allowing utility bill offset, sales tax exemption on solar equipment, and property tax exemption on the added home value from solar installation. The federal Investment Tax Credit provides a significant percentage reduction in federal tax liability. These combined incentives typically offset forty to fifty percent of installation costs over the system\'s production life, improving the economics for Essex Fells installations where canopy shade reduces overall production relative to fully exposed systems.'
-    }
+    },
+    {
+      question: 'How much does solar panel roofing installation cost in Essex Fells, NJ?',
+      answer: 'Most solar panel roofing installation projects in Essex Fells range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing installation in Essex Fells NJ -- shade-optimized solar systems for estate properties with architect coordination.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

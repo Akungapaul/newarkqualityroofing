@@ -4,7 +4,7 @@ export const roselandRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Roof flashing in Roseland protects the most vulnerable points on every residential and commercial roof -- the intersections where roof planes meet walls, chimneys, dormers, and each other. These transition points carry more water volume than the surrounding field and experience greater thermal movement from the junction of dissimilar materials. Our [roof flashing installation and repair](/roof-flashing-installation-repair) service addresses flashing failures on Roseland\'s mid-century homes and corporate buildings with techniques and materials appropriate to each building type and age.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Roseland — with prices starting from $300–$1,500 and free estimates available today. Roof flashing in Roseland protects the most vulnerable points on every residential and commercial roof -- the intersections where roof planes meet walls, chimneys, dormers, and each other. These transition points carry more water volume than the surrounding field and experience greater thermal movement from the junction of dissimilar materials. Our [roof flashing installation and repair](/roof-flashing-installation-repair) service addresses flashing failures on Roseland\'s mid-century homes and corporate buildings with techniques and materials appropriate to each building type and age.',
     'Residential flashing failures in Roseland follow patterns dictated by the borough\'s housing stock. The split-level homes that predominate feature the offset wall junction where upper and lower roof planes meet -- a flashing-intensive transition that deteriorates predictably after decades of thermal cycling. Colonials present chimney and dormer flashing challenges where galvanized step flashing installed during original construction has corroded through its useful life. Our repair crews address these specific failure patterns daily on homes throughout the borough and in neighboring communities like [Caldwell](/roof-flashing-installation-repair-caldwell-nj).',
     'Commercial flashing work on Roseland\'s office buildings focuses on the penetration flashings around rooftop mechanical equipment. Every HVAC unit, exhaust fan, and utility conduit that passes through the membrane roof requires flashing that maintains watertight integrity through equipment vibration, thermal movement, and years of UV exposure. These commercial flashings use materials and techniques specific to the membrane system -- TPO flashings are heat-welded, EPDM flashings use adhesive bonding, and BUR flashings integrate with the multi-ply assembly.'
   ],
@@ -34,7 +34,25 @@ export const roselandRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'Why does my split-level home leak at the step in the roofline?',
       answer: 'The offset wall junction on Roseland split-levels concentrates water drainage from the upper roof onto the flashing line at the split wall. Original galvanized step flashing installed during the 1960s has typically corroded through its useful life. The repair requires stripping shingles from both roof planes at the junction, removing corroded flashing, installing ice-and-water shield membrane and new aluminum or copper step flashing, and re-shingling with proper integration. This comprehensive approach addresses the root cause of the recurring leak.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Roseland, NJ?',
+      answer: 'Most roof flashing installation repair projects in Roseland range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Roseland NJ -- valley, chimney, and split-level junction flashing for residential and commercial buildings.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

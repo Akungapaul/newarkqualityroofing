@@ -4,7 +4,7 @@ export const northCaldwellGutterGuardInstallation: ComboContent = {
   serviceId: 'gutter-guard-installation',
   cityId: 'north-caldwell',
   overview: [
-    'Gutter guard installation on North Caldwell estates is not optional -- it is a functional necessity driven by the borough\'s defining landscape characteristic: mature hardwood canopy on acre-plus wooded lots. Properties along Mountain Avenue, Grandview Avenue, and Green Brook Road sit beneath some of the tallest, oldest trees in Essex County, and these trees deposit leaves, seed pods, pine needles, small branches, and organic debris into gutters at rates that make unprotected systems useless within weeks of cleaning during autumn season.',
+    'Newark Quality Roofing delivers expert gutter guard installation in North Caldwell — with prices starting from $800–$2,500 and free estimates available today. Gutter guard installation on North Caldwell estates is not optional -- it is a functional necessity driven by the borough\'s defining landscape characteristic: mature hardwood canopy on acre-plus wooded lots. Properties along Mountain Avenue, Grandview Avenue, and Green Brook Road sit beneath some of the tallest, oldest trees in Essex County, and these trees deposit leaves, seed pods, pine needles, small branches, and organic debris into gutters at rates that make unprotected systems useless within weeks of cleaning during autumn season.',
     'The [gutter guard](/gutter-guard-installation) systems we install on North Caldwell homes use micro-mesh technology that blocks even the smallest debris -- pine needles, shingle granules, maple seeds -- while allowing water to flow through the mesh surface and into the gutter below. This technology outperforms solid-top reverse-curve systems that shed heavy debris but allow fine particles to accumulate inside the gutter over time. For the diverse debris mix that North Caldwell\'s mixed hardwood and conifer canopy produces, micro-mesh is the only technology that delivers genuinely maintenance-reducing performance.',
     'Our installations integrate with both standard aluminum gutters and premium copper systems, using mounting hardware that matches the gutter material to prevent galvanic corrosion. For [North Caldwell](/roofing-in-north-caldwell-nj) homeowners tired of scheduling four or more gutter cleanings per year on homes where ladder access is complicated by multi-story elevations and steep terrain, gutter guards reduce maintenance to an annual surface clearing that can often be done with a leaf blower from the roof edge. Similar installations protect estate homes in nearby [Essex Fells](/gutter-guard-installation-essex-fells-nj).'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellGutterGuardInstallation: ComboContent = {
     {
       question: 'Do gutter guards handle heavy rain on North Caldwell estate roofs?',
       answer: 'Quality micro-mesh guards handle rainfall rates up to 22 inches per hour, which exceeds the most intense storm events recorded in northern New Jersey. The key to performance during heavy rain is proper installation angle and adequate gutter capacity beneath the guard. We size gutters and guards together to ensure the complete system handles peak storm flow without overflow on the large roof areas typical of North Caldwell estates.'
-    }
+    },
+    {
+      question: 'How much does gutter guard installation cost in North Caldwell, NJ?',
+      answer: 'Most gutter guard installation projects in North Caldwell range from $800–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter guard installation in North Caldwell NJ -- micro-mesh debris protection for estate homes with heavy tree canopy on wooded lots.',
+  pricing: {
+    range: '$800–$2,500',
+    note: 'for whole-home gutter protection',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter guard installation estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

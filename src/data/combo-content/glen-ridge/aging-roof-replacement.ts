@@ -4,7 +4,7 @@ export const glenRidgeAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Aging roof replacement in Glen Ridge follows a timeline shaped by the extraordinary longevity of the premium materials these historic homes carry. While a standard asphalt shingle roof in suburban New Jersey reaches end-of-life at 20 to 25 years, the slate roofs on Glen Ridge\'s finest Victorians have served for 100 years or more before aging demands replacement. Cedar shake roofs typically reach 30 to 40 years. The aging trajectory of Glen Ridge roofs is measured in decades rather than the years that govern commodity roofing decisions.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Glen Ridge — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Glen Ridge follows a timeline shaped by the extraordinary longevity of the premium materials these historic homes carry. While a standard asphalt shingle roof in suburban New Jersey reaches end-of-life at 20 to 25 years, the slate roofs on Glen Ridge\'s finest Victorians have served for 100 years or more before aging demands replacement. Cedar shake roofs typically reach 30 to 40 years. The aging trajectory of Glen Ridge roofs is measured in decades rather than the years that govern commodity roofing decisions.',
     'Recognizing when aging has progressed from graceful patina to functional decline requires assessment specific to each material type. Aging slate shows delamination -- layers separating within the stone, making individual slates fragile and water-absorbent. Aging cedar shake loses its surface integrity, becoming soft and punky as the wood fibers deteriorate. Aging architectural shingles show granule loss, curling, and cracking that expose the asphalt substrate to UV degradation. Our aging assessments grade each roofing material against the specific deterioration markers that indicate transition from serviceable to replacement-warranting condition.',
     'Planning replacement ahead of failure gives Glen Ridge homeowners the advantage of time -- time to [consult on materials](/custom-roof-design-consultation-glen-ridge-nj), time to navigate the commission review process, time to source premium materials from specific quarries, and time to schedule installation during optimal weather windows. Homeowners who replace proactively avoid the emergency premium pricing, limited material availability, and rushed installation quality that reactive replacement after failure inevitably produces. Our annual [inspection services](/roof-inspection-glen-ridge-nj) help Glen Ridge homeowners monitor aging progression and plan replacement at the optimal time.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeAgingRoofReplacement: ComboContent = {
       question: 'Should I wait until my Glen Ridge roof leaks before replacing it?',
       answer: 'No. Waiting for leaks means the aging roof has progressed to active failure, potentially damaging interior finishes, insulation, and structural framing. Proactive replacement before failure protects the home, preserves planning time for material selection and commission review, and avoids emergency pricing. Annual inspections help identify the right replacement window.',
     },
+    {
+      question: 'How much does aging roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most aging roof replacement projects in Glen Ridge range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Glen Ridge NJ. Proactive slate, cedar, and shingle replacement before failure on historic homes.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

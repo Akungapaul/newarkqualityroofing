@@ -4,7 +4,7 @@ export const caldwellSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'caldwell',
   overview: [
-    'Spray polyurethane foam roofing delivers a unique combination of waterproofing and insulation in a single application for Caldwell\'s commercial buildings seeking energy performance improvements alongside roof system renewal. The SPF membrane adheres directly to existing roof substrates, filling irregularities, bridging cracks, and creating a seamless monolithic surface that eliminates the seams, laps, and joints where conventional roofing systems develop leaks. For [Caldwell](/roofing-in-caldwell-nj) building owners facing both a worn roof and high energy costs, spray foam addresses both problems with a single installation.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Caldwell — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing delivers a unique combination of waterproofing and insulation in a single application for Caldwell\'s commercial buildings seeking energy performance improvements alongside roof system renewal. The SPF membrane adheres directly to existing roof substrates, filling irregularities, bridging cracks, and creating a seamless monolithic surface that eliminates the seams, laps, and joints where conventional roofing systems develop leaks. For [Caldwell](/roofing-in-caldwell-nj) building owners facing both a worn roof and high energy costs, spray foam addresses both problems with a single installation.',
     'The insulation value inherent in spray foam roofing makes it particularly attractive for Caldwell\'s older commercial buildings where original construction included minimal thermal protection. A two-inch SPF application adds approximately R-13 insulation value to the existing roof assembly -- enough to meaningfully reduce heating and cooling costs on Bloomfield Avenue shops and offices that currently lose conditioned air through poorly insulated roof decks. This thermal performance benefit, combined with the reflective elastomeric topcoat, creates an energy envelope improvement that pays returns through reduced utility bills from the first season.',
     'SPF roofing installations in Caldwell\'s small-building commercial context proceed faster than membrane replacement projects because the spray application eliminates the material handling, seam welding, and detail fabrication that conventional systems require. A [spray foam roofing](/spray-foam-roofing) project on a typical 3,000-square-foot Caldwell commercial building can complete in two days -- spray application on day one, protective coating on day two -- compared to the three-to-five-day timeline for membrane tear-off and replacement. Building owners in neighboring [Bloomfield](/spray-foam-roofing-bloomfield-nj) and [Montclair](/spray-foam-roofing-montclair-nj) see similar timeline advantages on their commercial SPF installations.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSprayFoamRoofing: ComboContent = {
     {
       question: 'Does spray foam roofing work on Caldwell buildings with many rooftop penetrations?',
       answer: 'SPF actually excels around penetrations because the foam conforms to any shape and creates seamless waterproofing around pipes, vents, curbs, and equipment bases without the custom flashing fabrication that membrane systems require. Each penetration receives a smooth foam cant that slopes water away from the vertical surface, topped with the protective coating for UV resistance. This seamless integration is one of SPF\'s strongest advantages on Caldwell commercial buildings crowded with rooftop equipment.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Caldwell, NJ?',
+      answer: 'Most spray foam roofing projects in Caldwell range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Caldwell NJ -- seamless SPF systems with built-in insulation for energy-efficient commercial building roof renewal.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

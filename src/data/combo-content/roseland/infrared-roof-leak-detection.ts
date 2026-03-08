@@ -4,7 +4,7 @@ export const roselandInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'roseland',
   overview: [
-    'Infrared roof leak detection pinpoints the exact locations where water enters Roseland commercial roof systems, eliminating the costly trial-and-error approach that exploratory cutting and broad-area repair represent. When interior leaks appear in an occupied office building, the source location on the roof above is rarely obvious from surface inspection alone. Water travels laterally through the roof assembly, emerging far from the actual entry point. Our [infrared roof leak detection](/infrared-roof-leak-detection) service locates the precise membrane failure, reducing repair scope to the actual problem area rather than the broad zone that conventional diagnosis would target.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Roseland — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection pinpoints the exact locations where water enters Roseland commercial roof systems, eliminating the costly trial-and-error approach that exploratory cutting and broad-area repair represent. When interior leaks appear in an occupied office building, the source location on the roof above is rarely obvious from surface inspection alone. Water travels laterally through the roof assembly, emerging far from the actual entry point. Our [infrared roof leak detection](/infrared-roof-leak-detection) service locates the precise membrane failure, reducing repair scope to the actual problem area rather than the broad zone that conventional diagnosis would target.',
     'The financial advantage of precise leak location is significant for Roseland\'s corporate property owners. Repairing a 10-square-foot membrane failure costs a fraction of the exploratory cutting, broad-area re-roofing, or full-system replacement that imprecise diagnosis leads to. By pinpointing the exact entry location, infrared detection converts a potential five-figure repair estimate into a targeted repair costing a fraction of that amount. This precision diagnosis pays for itself on virtually every commercial leak investigation.',
     'Roseland\'s office buildings present the ideal application for infrared leak detection -- large flat roof areas with multiple potential failure points including penetrations, seams, equipment flashings, and membrane field. The infrared survey scans the full roof surface systematically, identifying not only the primary leak source but also secondary moisture zones that have not yet produced visible interior symptoms. Addressing these developing problems during the same repair mobilization prevents future emergency calls. Commercial properties in [Livingston](/infrared-roof-leak-detection-livingston-nj) benefit from the same targeted diagnostic approach.'
   ],
@@ -34,7 +34,25 @@ export const roselandInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'How soon after the survey can repairs be performed?',
       answer: 'Repairs can be scheduled immediately after the detection report is delivered. The report provides the precise repair location and specification, allowing material procurement and crew scheduling within 24 to 48 hours of the survey. For active leaks on Roseland commercial buildings, we prioritize the repair scheduling to resolve the condition before the next rain event when possible, minimizing the period of interior vulnerability.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Roseland, NJ?',
+      answer: 'Most infrared roof leak detection projects in Roseland range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Roseland NJ -- pinpoint moisture location on commercial flat roofs to minimize repair scope and cost.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

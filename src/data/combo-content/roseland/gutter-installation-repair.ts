@@ -4,7 +4,7 @@ export const roselandGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'roseland',
   overview: [
-    'Gutter systems in Roseland manage the water flow from every residential and commercial roof surface, directing rainfall and snowmelt away from foundations, walkways, and landscaping that direct contact would damage. The borough\'s mid-century homes carry original or aging gutter systems -- sectional aluminum, galvanized steel, or even copper on premium properties -- that have served through decades of northeastern weather but now show the sagging, leaking, and overflow symptoms that signal replacement time. Our [gutter installation and repair](/gutter-installation-repair) service sizes, installs, and maintains gutter systems appropriate for each Roseland property.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Roseland — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems in Roseland manage the water flow from every residential and commercial roof surface, directing rainfall and snowmelt away from foundations, walkways, and landscaping that direct contact would damage. The borough\'s mid-century homes carry original or aging gutter systems -- sectional aluminum, galvanized steel, or even copper on premium properties -- that have served through decades of northeastern weather but now show the sagging, leaking, and overflow symptoms that signal replacement time. Our [gutter installation and repair](/gutter-installation-repair) service sizes, installs, and maintains gutter systems appropriate for each Roseland property.',
     'Seamless aluminum gutter installation has become the standard for residential gutter replacement in Roseland, eliminating the joints between sectional pieces where leaks develop and debris accumulates. Our on-site forming equipment produces continuous gutter runs in the exact lengths needed for each fascia section, creating a joint-free system that handles water flow without the weak points inherent in sectional construction. Homeowners in nearby [Livingston](/gutter-installation-repair-livingston-nj) and [Caldwell](/gutter-installation-repair-caldwell-nj) have transitioned to seamless systems for the same performance advantages.',
     'Commercial gutter and drainage systems on Roseland\'s office buildings operate at a scale that residential installations do not approach. Large-area flat roofs direct water to internal drains, scuppers, and commercial-grade gutter systems that must handle peak flow rates from intense storm events without overflow. Our commercial drainage solutions include internal drain maintenance, scupper repair, and commercial gutter sizing that matches the roof area and rainfall intensity data for western Essex County.'
   ],
@@ -34,7 +34,25 @@ export const roselandGutterInstallationRepair: ComboContent = {
     {
       question: 'Can you repair a sagging section of gutter without replacing the whole system?',
       answer: 'Yes, isolated sagging sections can be repaired by replacing failed hangers with new concealed hanger brackets. If the sagging is caused by fascia board rot at the hanger locations, the fascia must be repaired first to provide solid mounting. For sectional gutter systems, leaking joints can be resealed. However, if multiple sections show sagging, joint leaks, or corrosion, full replacement with a seamless system is more cost-effective than cumulative repairs.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Roseland, NJ?',
+      answer: 'Most gutter installation repair projects in Roseland range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Roseland NJ -- seamless aluminum systems with proper sizing for residential homes and commercial buildings.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

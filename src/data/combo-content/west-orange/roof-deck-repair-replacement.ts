@@ -4,7 +4,7 @@ export const westOrangeRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'west-orange',
   overview: [
-    'Roof deck repair restores the structural foundation beneath every West Orange roofing system, replacing plywood and OSB sheathing that has deteriorated from moisture infiltration, ice dam damage, and the prolonged exposure that aging roofs permit. Our [roof deck repair and replacement](/roof-deck-repair-replacement) work in West Orange addresses deck failures driven by the township\'s elevation-specific damage patterns: ridge-top wind-driven moisture, mid-slope ice dam saturation, and valley-floor condensation from inadequate ventilation.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in West Orange — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair restores the structural foundation beneath every West Orange roofing system, replacing plywood and OSB sheathing that has deteriorated from moisture infiltration, ice dam damage, and the prolonged exposure that aging roofs permit. Our [roof deck repair and replacement](/roof-deck-repair-replacement) work in West Orange addresses deck failures driven by the township\'s elevation-specific damage patterns: ridge-top wind-driven moisture, mid-slope ice dam saturation, and valley-floor condensation from inadequate ventilation.',
     'The scope of deck damage on West Orange homes frequently exceeds what pre-project estimates anticipate. Damage visible from the attic -- water staining, soft spots, fungal growth -- typically represents only the most advanced deterioration. Surrounding areas that appear sound from below may reveal delaminated plywood or swollen OSB when shingles and underlayment are removed during re-roofing. We budget contingency deck replacement into every West Orange re-roofing estimate, setting realistic expectations for the additional work that aging homes almost invariably require.',
     'West Orange\'s split-level homes concentrate deck damage at the level-change transitions where ice dams and inadequate flashing drive repeated moisture exposure into the sheathing at the same locations year after year. A split-level with 20 years of winter ice dam history may have sound deck across 90 percent of its surface but completely deteriorated sheathing at the level-change connection and along the north-facing eave line. Homeowners near [Montclair](/roof-deck-repair-replacement-montclair-nj) find similar concentrated deck damage on their own multi-level homes.',
     'Commercial deck repair on [West Orange](/roofing-in-west-orange-nj) buildings addresses steel deck corrosion, concrete deck deterioration, and wood nailer replacement on buildings where the structural deck is metal or concrete with wood components providing fastening surfaces for membrane attachment. These commercial repairs require different materials and techniques than residential plywood replacement, though the root cause -- moisture infiltration through failed roofing above -- is identical.'
@@ -35,7 +35,25 @@ export const westOrangeRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Can deck damage be repaired without replacing the entire roof?',
       answer: 'Localized deck damage can be repaired by removing shingles and underlayment from the damaged section, replacing the deteriorated sheathing, and reinstalling roofing materials. This approach works when damage is confined to a small area and the surrounding roofing materials can be salvaged and reused. For widespread deck damage, full re-roofing is more practical and cost-effective because the labor to carefully remove, store, and reinstall salvaged shingles exceeds the material cost of new shingles across the affected area.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in West Orange, NJ?',
+      answer: 'Most roof deck repair replacement projects in West Orange range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in West Orange NJ. Plywood and OSB sheathing for ice dam damage and aging split-level homes.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

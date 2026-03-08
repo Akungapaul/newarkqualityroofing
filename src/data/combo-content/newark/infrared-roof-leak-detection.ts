@@ -4,7 +4,7 @@ export const newarkInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'newark',
   overview: [
-    'Infrared roof leak detection locates the exact point of water entry on Newark commercial buildings without cutting into the roof membrane, disrupting tenants below, or relying on the imprecise guesswork that traditional leak investigation produces. The technology uses the thermal signature of trapped moisture to pinpoint where water has breached the membrane and where it has migrated beneath the surface -- information that is invisible to visual inspection and that conventional flood testing or hose testing can only approximate. For Newark facility managers dealing with persistent leaks that previous repairs failed to resolve, infrared detection breaks the cycle of misdiagnosis and repeated failure.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Newark — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection locates the exact point of water entry on Newark commercial buildings without cutting into the roof membrane, disrupting tenants below, or relying on the imprecise guesswork that traditional leak investigation produces. The technology uses the thermal signature of trapped moisture to pinpoint where water has breached the membrane and where it has migrated beneath the surface -- information that is invisible to visual inspection and that conventional flood testing or hose testing can only approximate. For Newark facility managers dealing with persistent leaks that previous repairs failed to resolve, infrared detection breaks the cycle of misdiagnosis and repeated failure.',
     'The distinction between infrared leak detection and thermal imaging inspection lies in their purpose and methodology. Thermal imaging surveys the entire roof to assess overall moisture condition for maintenance planning. Infrared leak detection targets a specific active leak problem, using thermal data in combination with electronic testing, visual inspection, and building interior investigation to trace the water path from the visible damage inside the building back to the membrane breach on the roof. The two services complement each other but serve different decision-making needs -- one supports capital planning, the other resolves an immediate operational problem.',
     'Newark\'s dense commercial building stock generates a high volume of leak detection demand because the buildings are old, the roof systems have been patched and overlaid multiple times, and the flat roof geometry allows water to travel long distances between the point of membrane failure and the point of visible interior damage. A property manager reporting a ceiling leak in a third-floor office on Broad Street may be dealing with a membrane failure directly above, a failed pipe boot thirty feet away, or a parapet flashing breach on the building\'s opposite face. Without systematic detection methodology, repairs target symptoms rather than causes, and the cycle of leak-repair-repeat continues at escalating cost.',
     'For occupied commercial spaces in Newark -- medical offices, data centers, retail stores, restaurants -- infrared leak detection offers a non-invasive alternative to the traditional approach of cutting exploratory holes in the ceiling to trace water paths. The infrared scan identifies moisture concentrations in the roof assembly from above, while interior thermal scanning from below confirms corresponding moisture patterns in the ceiling structure. This dual-surface approach narrows the investigation area to a precise zone, minimizing the exploratory demolition that disrupts tenants and generates repair costs beyond the roof work itself.'
@@ -40,7 +40,25 @@ export const newarkInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'Why have previous repairs failed to fix the leak on my Newark commercial building?',
       answer: 'The most common reason for repeated repair failure on Newark commercial flat roofs is misidentification of the leak source. On flat roofs, water enters at one location and can travel laterally through the insulation layer or along structural members for tens of feet before appearing inside the building. A repair targeted at the ceiling stain location -- or at the nearest visible roof defect -- may address a symptom rather than the cause. Infrared leak detection solves this by mapping the actual moisture path from interior damage back to the membrane breach, ensuring the repair targets the confirmed failure point rather than the most convenient assumption.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Newark, NJ?',
+      answer: 'Most infrared roof leak detection projects in Newark range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Newark NJ. Non-invasive pinpoint leak location for commercial flat roofs using thermal and electronic scanning.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

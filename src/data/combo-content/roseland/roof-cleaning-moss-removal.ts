@@ -4,7 +4,7 @@ export const roselandRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'roseland',
   overview: [
-    'Roseland\'s mature tree canopy creates the shade and moisture conditions that make roof cleaning and moss removal a necessary maintenance service for homes throughout the borough. The oak, maple, and ash trees lining residential streets like Laurel Avenue, Harrison Avenue, and Becker Farm Road cast deep shade across north-facing roof slopes for much of the year, maintaining the damp surface conditions that moss, algae, and lichen require to colonize and spread. Left unchecked, biological growth on Roseland roofs progresses from cosmetic concern to structural threat as moss root systems lift shingle edges, retain moisture against the granule surface, and accelerate the deterioration cycle that shortens roof system life.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Roseland — with prices starting from $300–$800 and free estimates available today. Roseland\'s mature tree canopy creates the shade and moisture conditions that make roof cleaning and moss removal a necessary maintenance service for homes throughout the borough. The oak, maple, and ash trees lining residential streets like Laurel Avenue, Harrison Avenue, and Becker Farm Road cast deep shade across north-facing roof slopes for much of the year, maintaining the damp surface conditions that moss, algae, and lichen require to colonize and spread. Left unchecked, biological growth on Roseland roofs progresses from cosmetic concern to structural threat as moss root systems lift shingle edges, retain moisture against the granule surface, and accelerate the deterioration cycle that shortens roof system life.',
     'The visual impact of roof-level biological growth matters particularly in Roseland, where well-maintained home presentation reflects the borough\'s property values and community standards. Dark algae streaking on a south-facing slope visible from Eagle Rock Avenue, or green moss carpeting a north-facing colonial roof on Becker Farm Road, diminishes curb appeal in a market where buyers evaluate exterior condition as a primary indicator of overall home maintenance. Our [roof cleaning and moss removal](/roof-cleaning-moss-removal) service restores the original shingle appearance while treating the biological growth at its source to extend the clean period between treatments.',
     'Roseland\'s conditions differ from neighboring communities in the density and maturity of the overhanging canopy. While homeowners in more open suburban settings like [Fairfield](/roof-cleaning-moss-removal-fairfield-nj) may experience algae as their primary biological concern, Roseland\'s heavy shade creates true moss conditions -- the thick, moisture-retaining growth that causes more aggressive shingle damage than the surface-level algae streaking common on sun-exposed roofs. This distinction matters because the cleaning approach and chemical treatment protocols differ between algae removal and established moss treatment.',
     'Our cleaning methodology prioritizes roof system preservation over speed. We use soft-wash chemical treatment rather than high-pressure power washing, applying professional-grade sodium hypochlorite solutions at concentrations calibrated to kill biological growth without damaging shingle granules or voiding manufacturer warranties. Power washing, while visually dramatic, strips protective granules from asphalt shingles and drives water beneath shingle laps -- problems that create more damage than the moss itself. Every Roseland homeowner who contacts us receives an explanation of why soft-wash methodology protects their investment while high-pressure alternatives compromise it.'
@@ -35,7 +35,25 @@ export const roselandRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'Is the moss on my Roseland roof actually causing damage or just looking bad?',
       answer: 'Moss causes real structural damage beyond the cosmetic issue. Moss rhizoids penetrate between shingle granules, lifting shingle edges and creating pathways for water infiltration. The moss body holds moisture against the shingle surface continuously, accelerating granule erosion and mat deterioration. In advanced cases, moss-retained moisture can soften the decking beneath and promote wood rot. Early-stage moss is primarily a cosmetic issue, but established moss colonies with visible thickness are actively degrading your roof system and should be treated before damage accumulates.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Roseland, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Roseland range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in Roseland NJ -- soft-wash treatment for shaded homes with landscape protection and regrowth prevention.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

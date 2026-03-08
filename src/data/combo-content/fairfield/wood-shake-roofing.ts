@@ -4,7 +4,7 @@ export const fairfieldWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'fairfield',
   overview: [
-    'Wood shake roofing in Fairfield appeals to homeowners seeking a natural material that stands apart from the asphalt shingle uniformity that covers most of the township\'s housing stock. The rustic texture and dimensional depth of hand-split wood shakes create a distinctive roof profile visible from the street, making it a popular upgrade choice for Fairfield homeowners investing in curb appeal. The material suits the colonial and raised-ranch architecture that predominates in Fairfield\'s residential neighborhoods, adding warmth and character to homes that might otherwise blend into the subdivision landscape.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Fairfield — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Fairfield appeals to homeowners seeking a natural material that stands apart from the asphalt shingle uniformity that covers most of the township\'s housing stock. The rustic texture and dimensional depth of hand-split wood shakes create a distinctive roof profile visible from the street, making it a popular upgrade choice for Fairfield homeowners investing in curb appeal. The material suits the colonial and raised-ranch architecture that predominates in Fairfield\'s residential neighborhoods, adding warmth and character to homes that might otherwise blend into the subdivision landscape.',
     'Fairfield\'s climate presents specific demands on [wood shake roofing](/wood-shake-roofing) that differ from the drier regions where the material originates. The township receives substantial precipitation throughout the year, and the humidity levels maintained by the Passaic River border and the mature tree canopy create a moisture-rich environment that tests wood\'s natural resistance to decay. Properly installed wood shakes with adequate ventilation beneath can deliver thirty to forty years of service in Fairfield conditions. Inadequately ventilated installations, or shakes installed over solid decking without the airspace that allows drying between rain events, may fail in half that time. Installation quality is the decisive factor in wood shake longevity, and property owners in nearby [Essex Fells](/wood-shake-roofing-essex-fells-nj) appreciate the same attention to underlayment and ventilation details.',
     'Material quality varies dramatically in the wood shake market, and Fairfield homeowners considering this investment need guidance on grade selection. We specify only premium-grade shakes from certified mills that maintain chain-of-custody documentation for the wood source. Taper-sawn shakes provide a more uniform appearance and better weather performance than hand-split shakes, with consistent thickness that creates reliable overlap at every course. Treatment with fire retardant and preservative extends service life and meets the fire-resistance requirements applicable to Fairfield residential construction.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldWoodShakeRoofing: ComboContent = {
     {
       question: 'Can I install wood shakes on a low-pitch roof?',
       answer: 'Wood shakes require a minimum roof pitch of 4:12 for proper water shedding. Most Fairfield colonials and split-levels meet this requirement on their primary roof planes. However, low-pitch sections such as porch roofs, dormers, and rear additions on ranch-style homes may fall below the minimum pitch and require alternative materials. We evaluate every roof plane during the consultation to identify any sections that need different treatment.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Fairfield, NJ?',
+      answer: 'Most wood shake roofing projects in Fairfield range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fairfield NJ wood shake roofing with ventilation mat underlayment. Premium treated shakes for colonials and custom homes in western Essex County.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

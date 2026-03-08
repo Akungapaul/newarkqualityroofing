@@ -4,7 +4,7 @@ export const caldwellRoofVentInstallationRepair: ComboContent = {
   serviceId: 'roof-vent-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Roof ventilation systems on Caldwell homes exhaust heat and moisture from attic spaces through ridge vents, box vents, turbine vents, or powered fans installed at or near the roof peak. This exhaust half of the ventilation equation works with soffit intake to create continuous airflow that keeps attics dry in winter and cool in summer. When the ventilation system underperforms -- whether from insufficient vent capacity, blocked pathways, or deteriorated vent hardware -- the attic environment deteriorates and the consequences appear as ice dams, condensation damage, premature shingle aging, and elevated energy costs.',
+    'Newark Quality Roofing delivers expert roof vent installation repair in Caldwell — with prices starting from $300–$1,200 and free estimates available today. Roof ventilation systems on Caldwell homes exhaust heat and moisture from attic spaces through ridge vents, box vents, turbine vents, or powered fans installed at or near the roof peak. This exhaust half of the ventilation equation works with soffit intake to create continuous airflow that keeps attics dry in winter and cool in summer. When the ventilation system underperforms -- whether from insufficient vent capacity, blocked pathways, or deteriorated vent hardware -- the attic environment deteriorates and the consequences appear as ice dams, condensation damage, premature shingle aging, and elevated energy costs.',
     'Caldwell\'s colonial and cape cod housing stock carries a mix of ventilation approaches depending on construction era. Homes from the 1950s and 1960s typically received small box vents or gable vents as their primary exhaust, providing adequate ventilation for the original attic configuration but often insufficient for modern insulation levels that restrict airflow. Later renovations may have added turbine vents or ridge vents without properly integrating them with the existing system, creating imbalanced ventilation that draws air from the wrong locations. Our [roof vent](/roof-vent-installation-repair) work in [Caldwell](/roofing-in-caldwell-nj) begins with assessing the complete ventilation system before modifying any individual component.',
     'Ridge ventilation represents the gold standard for [Caldwell](/roofing-in-caldwell-nj) homes because it provides continuous exhaust along the full ridge length, eliminating the hot spots and dead zones that point-source vents like box vents create. Converting from box vents to ridge ventilation during a roof replacement is one of the most impactful improvements Caldwell homeowners can make for attic health and energy performance. Homes in [Bloomfield](/roof-vent-installation-repair-bloomfield-nj) and [Montclair](/roof-vent-installation-repair-montclair-nj) make similar transitions as they update aging ventilation systems.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofVentInstallationRepair: ComboContent = {
     {
       question: 'How many roof vents does a typical Caldwell home need?',
       answer: 'Ventilation requirements are calculated based on attic floor area. Building code requires one square foot of net free ventilation area for every 150 square feet of attic floor when the ventilation is not balanced between intake and exhaust, or one per 300 square feet when properly balanced. A typical Caldwell colonial with 1,200 square feet of attic floor area needs approximately four square feet of net free exhaust ventilation when balanced with adequate soffit intake. We calculate the specific requirement for each home and specify the vent quantity and type that meets it.'
-    }
+    },
+    {
+      question: 'How much does roof vent installation repair cost in Caldwell, NJ?',
+      answer: 'Most roof vent installation repair projects in Caldwell range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof vent installation and repair in Caldwell NJ -- ridge vents, box vents, and attic ventilation balancing for colonial and cape cod homes.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'per vent unit installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof vent installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

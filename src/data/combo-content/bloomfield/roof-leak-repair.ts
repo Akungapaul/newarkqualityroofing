@@ -4,7 +4,7 @@ export const bloomfieldRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'bloomfield',
   overview: [
-    'Roof leaks in Bloomfield follow patterns dictated by the township\'s dominant housing types and their age-related vulnerabilities. The split-levels in Watsessing leak at valley intersections where the original galvanized flashing has corroded through. The Cape Cods in Brookdale leak around pipe penetrations where twenty-year-old rubber boots have cracked under UV exposure. The colonials along the North End leak at chimney step flashings where mortar deterioration has opened gaps between the counter-flashing and masonry. Each leak type demands specific diagnosis and targeted repair rather than the general-purpose patching that delays resolution without solving the problem.',
+    'Newark Quality Roofing delivers expert roof leak repair in Bloomfield — with prices starting from $300–$1,200 and free estimates available today. Roof leaks in Bloomfield follow patterns dictated by the township\'s dominant housing types and their age-related vulnerabilities. The split-levels in Watsessing leak at valley intersections where the original galvanized flashing has corroded through. The Cape Cods in Brookdale leak around pipe penetrations where twenty-year-old rubber boots have cracked under UV exposure. The colonials along the North End leak at chimney step flashings where mortar deterioration has opened gaps between the counter-flashing and masonry. Each leak type demands specific diagnosis and targeted repair rather than the general-purpose patching that delays resolution without solving the problem.',
     'What makes Bloomfield leak diagnosis distinctive is the indirect water path common in the township\'s multi-plane roof designs. On a split-level, water entering at a flashing failure on the upper roof can travel along a rafter, cross a ceiling joist, and appear as a stain two rooms away from the actual entry point. This displacement between entry and evidence frustrates homeowners who expect the leak to be directly above the stain. Our diagnostic approach traces the water path from evidence back to entry rather than assuming the closest roof feature above the stain is the culprit -- an assumption that leads to incorrect repairs and continued leaking.',
     'Budget-conscious Bloomfield homeowners need honest answers about whether a leak repair will resolve their problem permanently or merely delay an inevitable replacement. Our [roof leak repair](/roof-leak-repair) assessment distinguishes between isolated failures on an otherwise sound roof -- where targeted repair delivers full value -- and systemic deterioration where the leak is simply the first visible symptom of widespread material failure. Homeowners in neighboring [Nutley](/roof-leak-repair-nutley-nj) and [Glen Ridge](/roof-leak-repair-glen-ridge-nj) face similar age-related leak patterns on their post-war housing stock.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofLeakRepair: ComboContent = {
     {
       question: 'My Bloomfield home has a small leak. Can I wait to fix it?',
       answer: 'Waiting almost always increases the cost. A pipe boot leak dripping slowly rots the deck sheathing around the penetration over six to twelve months, turning a two-hundred-dollar boot replacement into an eight-hundred-dollar repair including deck replacement. A valley flashing leak saturates insulation, promotes mold growth, and damages ceiling finishes progressively. We recommend addressing any active leak within two weeks of discovery to limit secondary damage and keep the repair scope manageable.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Bloomfield, NJ?',
+      answer: 'Most roof leak repair projects in Bloomfield range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Bloomfield NJ roof leak repair -- split-level valley diagnosis, ice dam remediation, and honest repair-vs-replace assessment for post-war homes.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

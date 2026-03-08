@@ -4,7 +4,7 @@ export const orangeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Asphalt shingle roof replacement is the most common roofing project in Orange, serving the majority of residential homes throughout the Oakwood-Lincoln area, Valley neighborhood, and the more modest streets between Main Street and the city borders. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) installations use premium architectural shingles from GAF, CertainTeed, and Owens Corning that provide a dramatic upgrade over the aging 3-tab or early architectural shingles they replace -- enhanced wind resistance, superior granule retention, improved dimensional appearance, and warranties extending 40 to 50 years.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common roofing project in Orange, serving the majority of residential homes throughout the Oakwood-Lincoln area, Valley neighborhood, and the more modest streets between Main Street and the city borders. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) installations use premium architectural shingles from GAF, CertainTeed, and Owens Corning that provide a dramatic upgrade over the aging 3-tab or early architectural shingles they replace -- enhanced wind resistance, superior granule retention, improved dimensional appearance, and warranties extending 40 to 50 years.',
     'Orange\'s diverse neighborhood conditions influence shingle product selection within our asphalt replacement program. Mountain-adjacent homes on the western side need impact-resistant Class 4 shingles that withstand branch impact and the accelerated wind loads from South Mountain terrain. Valley homes need shingles with algae-resistant granules and enhanced moisture tolerance for the area\'s high-humidity microclimate. Standard residential areas benefit from mainstream architectural shingles that provide the best balance of performance and value.',
     'For Orange homebuyers replacing inherited aging roofs, asphalt shingle replacement offers the best combination of proven performance, wide color selection, competitive pricing, and contractor availability. Unlike specialty materials that limit the homeowner to a small pool of installers, architectural shingles can be serviced by any qualified roofer -- providing flexibility for future maintenance and warranty service. This practical consideration matters to Orange buyers making their first major home improvement investment. The same product flexibility benefits homeowners across [East Orange](/asphalt-shingle-roof-replacement-east-orange-nj).'
   ],
@@ -34,7 +34,25 @@ export const orangeAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'How much does asphalt shingle replacement cost in Orange?',
       answer: 'Standard architectural shingle replacement including full tear-off, ice shield, underlayment, and all flashings runs $10,000 to $16,000 for typical Orange colonials and Cape Cods. Premium impact-resistant shingle upgrades add $1,500 to $3,000. Victorian homes with complex rooflines at the higher end of the range. We provide exact project-specific pricing during the estimate visit.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Orange, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Orange NJ -- GAF, CertainTeed, and Owens Corning options, impact-resistant for South Mountain, and Valley algae resistance.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

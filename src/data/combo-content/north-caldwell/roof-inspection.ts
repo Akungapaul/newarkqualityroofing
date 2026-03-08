@@ -4,7 +4,7 @@ export const northCaldwellRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'north-caldwell',
   overview: [
-    'Roof inspection on a North Caldwell estate is an exercise in thoroughness that reflects the complexity and value of the properties involved. Where a typical suburban home presents a simple gable or hip roof with a dozen penetration points, a custom-built North Caldwell colonial along Mountain Avenue may feature six dormer clusters, two masonry chimneys, three skylights, a copper-clad porte-cochere, and a connected garage wing -- each element creating waterproofing details that require individual evaluation. Our [roof inspection](/roof-inspection) protocol for North Caldwell properties systematically examines every transition, valley, and penetration point across roof systems that routinely exceed 5,000 square feet.',
+    'Newark Quality Roofing delivers expert roof inspection in North Caldwell — with prices starting from $150–$400 and free estimates available today. Roof inspection on a North Caldwell estate is an exercise in thoroughness that reflects the complexity and value of the properties involved. Where a typical suburban home presents a simple gable or hip roof with a dozen penetration points, a custom-built North Caldwell colonial along Mountain Avenue may feature six dormer clusters, two masonry chimneys, three skylights, a copper-clad porte-cochere, and a connected garage wing -- each element creating waterproofing details that require individual evaluation. Our [roof inspection](/roof-inspection) protocol for North Caldwell properties systematically examines every transition, valley, and penetration point across roof systems that routinely exceed 5,000 square feet.',
     'The investment rationale for regular roof inspection in North Caldwell is straightforward arithmetic. The finished spaces beneath these roofs -- custom millwork, hardwood flooring, designer kitchens, home offices with sensitive electronics -- carry replacement costs that dwarf the roof system itself. A proactive inspection that identifies a failing valley flashing or a cracked slate tile before it produces interior water damage protects an investment measured in the hundreds of thousands, not just the thousands that the roofing repair itself would cost. Homeowners in [Caldwell](/roof-inspection-caldwell-nj) benefit from similar preventive inspection, though the stakes escalate significantly on North Caldwell\'s premium properties.',
     'North Caldwell\'s wooded environment creates inspection considerations that suburban communities with clear-cut lots do not face. Heavy tree canopy means roof surfaces receive limited sunlight, promoting moss and lichen growth that conceals developing problems beneath biological layers. Leaf debris accumulated in valleys and behind dormers traps moisture year-round, accelerating deterioration in precisely the areas most vulnerable to failure. Our inspectors clear debris from critical areas during the inspection to evaluate actual material conditions, not just what is visible beneath a carpet of decomposing foliage.',
     'We recommend annual inspections for North Caldwell properties, with additional targeted inspections following severe weather events. The borough\'s exposure to nor\'easters, summer thunderstorms with damaging hail, and heavy wet snow loads that persist beneath the tree canopy means that conditions can change significantly between annual visits. Our inspection reports provide a documented baseline that tracks material condition over time, enabling data-driven maintenance decisions rather than reactive emergency responses.'
@@ -36,7 +36,25 @@ export const northCaldwellRoofInspection: ComboContent = {
     {
       question: 'What does a North Caldwell roof inspection cost?',
       answer: 'Inspection cost scales with property complexity. A standard colonial with a single-level roof typically runs between $400 and $600. A large estate with multiple roof levels, outbuildings, and premium materials may range from $800 to $1,200 for a comprehensive evaluation. The investment is modest relative to the repair costs it prevents and the property value it protects. We provide a firm quote before scheduling based on the property profile.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in North Caldwell, NJ?',
+      answer: 'Most roof inspection projects in North Caldwell range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof inspection for North Caldwell NJ estates -- comprehensive evaluation of slate, copper, and premium roofing on large custom properties.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

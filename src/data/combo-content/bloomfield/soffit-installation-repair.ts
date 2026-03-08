@@ -4,7 +4,7 @@ export const bloomfieldSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Soffits on Bloomfield homes close the gap between the roof overhang and the exterior wall, creating a finished underside to the eave while performing a critical ventilation function that most homeowners never think about. The vented soffit panels on Cape Cods, colonials, and split-levels throughout Brookdale, Watsessing, and the North End admit fresh air into the attic space, creating the intake half of the balanced ventilation system that prevents moisture buildup, ice dam formation, and premature shingle aging. When soffits deteriorate or become blocked, the entire attic ventilation system fails regardless of how many ridge or roof vents are installed above.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Bloomfield — with prices starting from $1,500–$4,000 and free estimates available today. Soffits on Bloomfield homes close the gap between the roof overhang and the exterior wall, creating a finished underside to the eave while performing a critical ventilation function that most homeowners never think about. The vented soffit panels on Cape Cods, colonials, and split-levels throughout Brookdale, Watsessing, and the North End admit fresh air into the attic space, creating the intake half of the balanced ventilation system that prevents moisture buildup, ice dam formation, and premature shingle aging. When soffits deteriorate or become blocked, the entire attic ventilation system fails regardless of how many ridge or roof vents are installed above.',
     'Bloomfield\'s mid-century housing stock presents widespread soffit conditions that range from original plywood panels with paint failure and delamination to aluminum soffit covers installed over damaged original materials during 1980s and 1990s renovation projects. The aluminum cover approach concealed deteriorating plywood and provided a maintenance-free finished surface, but many of these covers were installed without ensuring that the ventilation perforations in the aluminum aligned with open paths through the underlying original soffit. The result is soffits that appear ventilated from below but actually block airflow, creating the attic moisture problems that proper ventilation is designed to prevent.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners experiencing attic moisture problems, ice dams in winter, or excessive summer heat in upper-floor rooms, compromised soffit ventilation is often the underlying cause that addressing visible symptoms alone cannot correct. Adding ridge vents or roof vents without functional soffit intake creates negative pressure that draws conditioned air from the living space rather than fresh exterior air through the soffit -- wasting energy and failing to provide the temperature and humidity control that balanced ventilation delivers.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldSoffitInstallationRepair: ComboContent = {
     {
       question: 'Squirrels are getting into my Bloomfield attic through the soffits. How do you fix that?',
       answer: 'We locate and close every entry point in the soffit system, then repair the damaged panels. Ventilation openings receive hardware cloth screening that allows airflow while preventing animal entry. For homes with active infestations, we coordinate with wildlife removal services to ensure animals are excluded before sealing entry points -- sealing animals inside the attic creates a worse problem than leaving the entry open. Once exclusion is complete, we repair all damaged soffit areas and screen all vents.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Bloomfield, NJ?',
+      answer: 'Most soffit installation repair projects in Bloomfield range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Bloomfield NJ -- vented aluminum soffits for attic ventilation, pest exclusion, and eave finishing on residential homes.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

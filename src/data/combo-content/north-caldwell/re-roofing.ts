@@ -4,7 +4,7 @@ export const northCaldwellReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'Re-roofing North Caldwell estates is a significant undertaking that transforms the protective envelope and visual character of properties valued well into seven figures. Whether transitioning from aging asphalt to designer architectural shingles, restoring a deteriorated slate roof with quarry-matched material, or upgrading from cedar shakes to fire-rated composite alternatives, the [re-roofing](/re-roofing) project on a North Caldwell home requires planning, material expertise, and execution quality that standard residential roofing companies rarely deliver.',
+    'Newark Quality Roofing delivers expert re roofing in North Caldwell — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing North Caldwell estates is a significant undertaking that transforms the protective envelope and visual character of properties valued well into seven figures. Whether transitioning from aging asphalt to designer architectural shingles, restoring a deteriorated slate roof with quarry-matched material, or upgrading from cedar shakes to fire-rated composite alternatives, the [re-roofing](/re-roofing) project on a North Caldwell home requires planning, material expertise, and execution quality that standard residential roofing companies rarely deliver.',
     'The re-roofing decision on North Caldwell properties typically involves material selection, not just replacement in kind. Homeowners at the twenty-to-thirty-year mark evaluate whether the original material still represents the best option or whether advances in roofing technology offer better performance, longer life, or lower maintenance. A cedar shake roof approaching replacement age might transition to synthetic shake that delivers the same appearance with fire resistance and no maintenance. An aging three-tab shingle roof is upgraded to premium architectural profiles that transform the home\'s streetside presence.',
     'Our re-roofing work in [North Caldwell](/roofing-in-north-caldwell-nj) treats every project as a custom installation designed for the specific home, its architectural style, and the homeowner\'s priorities. We present material options with samples, lifecycle cost projections, and installed examples from comparable properties. The result is a roofing system that reflects an informed decision rather than a default specification -- an approach that homeowners in [Essex Fells](/re-roofing-essex-fells-nj) and throughout the affluent west Essex suburbs expect and deserve.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellReRoofing: ComboContent = {
     {
       question: 'What happens if the deck needs significant repair during my re-roofing project?',
       answer: 'We communicate deck condition findings in real time as tear-off reveals the substrate. Any necessary repairs are discussed with the homeowner before proceeding, including cost implications and timeline adjustments. Our original estimate includes a deck repair contingency based on pre-project attic inspection findings, so minor discoveries are already budgeted. Significant unexpected conditions are addressed with transparent change order communication before repair work begins.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in North Caldwell, NJ?',
+      answer: 'Most re roofing projects in North Caldwell range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services in North Caldwell NJ -- material upgrades and full roof replacement for estate homes with premium specifications.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

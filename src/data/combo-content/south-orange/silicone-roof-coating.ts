@@ -4,7 +4,7 @@ export const southOrangeSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'south-orange',
   overview: [
-    'Silicone roof coating provides South Orange Village commercial building owners with a cost-effective alternative to full membrane replacement when existing flat-roof systems have reached mid-life but retain sound structural substrate. The coating restores waterproofing integrity, adds UV-reflective protection, and extends the existing roof\'s service life by ten to fifteen years at a fraction of replacement cost -- an appealing proposition for property managers along South Orange Avenue and institutional facilities on the Seton Hall University campus.',
+    'Newark Quality Roofing delivers expert silicone roof coating in South Orange — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating provides South Orange Village commercial building owners with a cost-effective alternative to full membrane replacement when existing flat-roof systems have reached mid-life but retain sound structural substrate. The coating restores waterproofing integrity, adds UV-reflective protection, and extends the existing roof\'s service life by ten to fifteen years at a fraction of replacement cost -- an appealing proposition for property managers along South Orange Avenue and institutional facilities on the Seton Hall University campus.',
     'The reflective properties of silicone coating align with South Orange\'s sustainability values by reducing building cooling loads during summer months. A properly applied silicone coating transforms a heat-absorbing dark membrane surface into a reflective barrier that significantly reduces rooftop temperature and the associated air conditioning demand. For commercial tenants paying utility costs, the energy savings provide a tangible financial benefit that supplements the waterproofing function of the coating application.',
     'Seton Hall University\'s campus maintenance budget benefits from silicone coating\'s ability to defer full roof replacement on buildings where the existing membrane substrate remains structurally sound but the surface has weathered beyond acceptable performance. Coating these roofs extends their service life within the university\'s capital planning cycle, distributing roofing costs more evenly across budget years rather than concentrating replacement expenditures.',
     'Our silicone coating work in [South Orange](/roofing-in-south-orange-nj) uses commercial-grade products applied at manufacturer-specified thickness to ensure the coating achieves its rated waterproofing and reflective performance. The application process requires surface preparation and weather conditions that our crews manage carefully, ensuring every coated roof receives the product coverage needed for reliable long-term results.'
@@ -35,7 +35,25 @@ export const southOrangeSiliconeRoofCoating: ComboContent = {
     {
       question: 'Will silicone coating reduce my cooling costs in South Orange?',
       answer: 'Yes. Reflective silicone coating reduces rooftop surface temperature by reflecting solar radiation that a dark roof surface would absorb. The cooling cost reduction depends on the building\'s insulation level, HVAC efficiency, and the roof\'s proportion of total building envelope. Commercial buildings with large flat-roof areas relative to floor space see the most significant cooling savings. We can estimate the projected energy benefit based on your building\'s specific characteristics.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in South Orange, NJ?',
+      answer: 'Most silicone roof coating projects in South Orange range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in South Orange NJ -- restore and extend commercial flat roof life with reflective UV-resistant coatings.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

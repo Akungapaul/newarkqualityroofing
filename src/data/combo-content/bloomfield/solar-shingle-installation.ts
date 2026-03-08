@@ -4,7 +4,7 @@ export const bloomfieldSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'bloomfield',
   overview: [
-    'Solar shingles represent the integration of energy production and weather protection into a single roofing material -- each shingle contains photovoltaic cells that generate electricity while serving as the primary roof surface. For Bloomfield homeowners who want solar energy but find the appearance of rack-mounted panels unappealing on their Cape Cods and colonials, solar shingles offer production capability without the visual disruption of conventional panel arrays. The technology has matured significantly in recent years, with products from GAF Energy, CertainTeed, and Tesla approaching the efficiency of traditional panels while maintaining a shingle-like profile.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Bloomfield — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingles represent the integration of energy production and weather protection into a single roofing material -- each shingle contains photovoltaic cells that generate electricity while serving as the primary roof surface. For Bloomfield homeowners who want solar energy but find the appearance of rack-mounted panels unappealing on their Cape Cods and colonials, solar shingles offer production capability without the visual disruption of conventional panel arrays. The technology has matured significantly in recent years, with products from GAF Energy, CertainTeed, and Tesla approaching the efficiency of traditional panels while maintaining a shingle-like profile.',
     'The practical calculus for solar shingles in Bloomfield differs from rack-mounted panels in one important respect: solar shingles make the most financial sense when the roof needs replacement anyway. Because solar shingles replace conventional shingles rather than mounting over them, the cost comparison should subtract the conventional re-roofing expense from the solar shingle total. A Bloomfield homeowner facing a fifteen-thousand-dollar re-roofing project who chooses solar shingles at forty thousand dollars is actually paying a twenty-five-thousand-dollar premium for the solar capability -- a premium that NJ solar incentives and the federal tax credit reduce further.',
     'For homeowners in the Brookdale and Oakcrest sections of [Bloomfield](/roofing-in-bloomfield-nj) where streetscape consistency and curb appeal influence property values, solar shingles provide the energy production of solar without the visual contrast of panel arrays. The shingle profile sits flush with the roof plane, maintaining the architectural line of Cape Cods and colonials that define these neighborhoods. Neighbors and passersby may not even realize the roof is producing electricity -- a distinction that matters to homeowners in communities where aesthetic harmony is valued alongside energy independence.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldSolarShingleInstallation: ComboContent = {
     {
       question: 'Do solar shingles qualify for the same NJ incentives as solar panels in Bloomfield?',
       answer: 'Yes. Solar shingles qualify for all the same incentives: the federal 30% Investment Tax Credit, New Jersey\'s Successor Solar Incentive program payments, PSE&G net metering, and the NJ property tax exemption for solar improvements. The incentive calculations are based on system production capacity, not the technology type. We include all applicable incentive projections in our solar shingle proposals for Bloomfield homeowners.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Bloomfield, NJ?',
+      answer: 'Most solar shingle installation projects in Bloomfield range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Bloomfield NJ -- integrated solar roofing for Cape Cods and colonials that produces energy while maintaining curb appeal.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

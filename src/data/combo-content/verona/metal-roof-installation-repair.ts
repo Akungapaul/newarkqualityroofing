@@ -4,7 +4,7 @@ export const veronaMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'verona',
   overview: [
-    'Metal roofing adoption in Verona has accelerated over the past decade as homeowners discover how well standing seam panels handle the township\'s split-level roofline geometry. Where traditional shingles create vulnerable seams at every elevation transition, a properly installed standing seam system carries water continuously across level changes without exposed fasteners or tab joints. Newark Quality Roofing has installed metal roofs on dozens of Verona split-levels and bi-levels, engineering each panel layout to follow the multi-plane geometry that defines this township\'s housing stock.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in Verona — with prices starting from $15,000–$35,000 and free estimates available today. Metal roofing adoption in Verona has accelerated over the past decade as homeowners discover how well standing seam panels handle the township\'s split-level roofline geometry. Where traditional shingles create vulnerable seams at every elevation transition, a properly installed standing seam system carries water continuously across level changes without exposed fasteners or tab joints. Newark Quality Roofing has installed metal roofs on dozens of Verona split-levels and bi-levels, engineering each panel layout to follow the multi-plane geometry that defines this township\'s housing stock.',
     'The color palette available in modern metal roofing complements Verona\'s suburban aesthetic far better than the utilitarian silver panels homeowners associate with agricultural buildings. Matte charcoal, weathered bronze, forest green, and slate gray profiles integrate seamlessly with the earth-tone brick and siding combinations prevalent across the Lakeview, Sunset, and Personette neighborhoods. Our [metal roof installation](/metal-roof-installation-repair) consultations include color samples held against your existing exterior materials under natural light, because the right metal roof enhances curb appeal while eliminating the maintenance cycle that asphalt shingles impose.',
     'Verona\'s hilltop properties along Claremont Avenue benefit disproportionately from metal roofing\'s wind resistance. Standing seam panels tested to 140-mph wind ratings outperform even the best asphalt shingles at half that threshold, and the interlocking panel design eliminates the tab-lifting failure mode that sends shingles into neighboring yards during nor\'easters. Homeowners in [Cedar Grove](/metal-roof-installation-repair-cedar-grove-nj) have embraced similar metal upgrades on their ranch homes, though Verona\'s multi-level transitions demand panel fabrication expertise that flat ranch rooflines simply do not require.'
   ],
@@ -34,7 +34,25 @@ export const veronaMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'How do metal panels handle the heavy leaf fall near Verona Park?',
       answer: 'Metal\'s smooth surface sheds leaves far more effectively than textured asphalt shingles. Debris that accumulates in shingle tab grooves and valleys slides off metal panels with wind or rain, reducing gutter blockage and eliminating the moisture-trapping effect that causes moss growth. Park-adjacent Verona homeowners consistently report less roof maintenance after switching to metal. We install snow guards at eave lines to prevent sudden sheet-release of accumulated debris or snow, protecting landscaping and walkways below.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in Verona, NJ?',
+      answer: 'Most metal roof installation repair projects in Verona range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation in Verona NJ -- standing seam panels for split-level homes, wind-rated hilltop systems, and low-maintenance solutions.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

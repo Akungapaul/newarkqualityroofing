@@ -4,7 +4,7 @@ export const cedarGroveRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'cedar-grove',
   overview: [
-    'Roof replacement after leak damage in Cedar Grove addresses the situation where chronic or catastrophic water infiltration has damaged the roof system beyond economical repair. When a Cedar Grove ranch home has endured recurring leaks that have saturated insulation, rotted deck sheathing, and stained interior finishes, targeted repair no longer provides a reliable solution -- the compromised materials surrounding each repair area create new failure points that perpetuate the leak cycle.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Cedar Grove — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak damage in Cedar Grove addresses the situation where chronic or catastrophic water infiltration has damaged the roof system beyond economical repair. When a Cedar Grove ranch home has endured recurring leaks that have saturated insulation, rotted deck sheathing, and stained interior finishes, targeted repair no longer provides a reliable solution -- the compromised materials surrounding each repair area create new failure points that perpetuate the leak cycle.',
     'Cedar Grove\'s low-pitch ranch roofs are particularly susceptible to the progressive damage that transforms a manageable leak into a replacement-triggering condition. Water moving slowly across shallow slopes has more time to infiltrate beneath shingles and saturate sheathing, and the wide roof planes mean that a single leak source can affect a large area before producing visible interior symptoms. By the time ceiling stains appear on a Cedar Grove ranch, the concealed damage above often extends well beyond the visible water mark.',
     'Our [roof replacement after leak](/roof-replacement-after-leak) projects in Cedar Grove address both the immediate roofing failure and the structural damage that the leak has caused. Replacing the roof surface without repairing the saturated deck, damaged rafters, and compromised insulation beneath creates a new roof on a failing foundation -- an outcome we prevent through comprehensive damage assessment before new roofing is installed.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofReplacementAfterLeak: ComboContent = {
       question: 'Can mold from roof leaks affect my Cedar Grove family\'s health?',
       answer: 'Yes. Mold growing on attic framing and insulation from chronic roof leaks can release spores into the living space, particularly on Cedar Grove ranch homes where the shallow attic space is close to interior living areas. If mold is visible in the attic or a musty odor is present, professional remediation should be completed before or during the roof replacement project.',
     },
+    {
+      question: 'How much does roof replacement after leak cost in Cedar Grove, NJ?',
+      answer: 'Most roof replacement after leak projects in Cedar Grove range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Cedar Grove NJ -- comprehensive replacement with deck repair and mold remediation for chronic leak damage.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

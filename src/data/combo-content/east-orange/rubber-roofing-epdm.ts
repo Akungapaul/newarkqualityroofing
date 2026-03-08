@@ -4,7 +4,7 @@ export const eastOrangeRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'east-orange',
   overview: [
-    'EPDM rubber roofing is the workhorse membrane on East Orange\'s apartment buildings, garden complexes, and converted multi-family properties where flat and low-slope roof surfaces dominate the skyline from Brick Church through Doddtown and along the Main Street commercial strip. For landlords and property managers overseeing portfolios of two-story and three-story walk-ups, EPDM delivers what investment property ownership demands: a proven waterproofing system with a 30-year track record, predictable lifecycle costs, and repair characteristics that do not require specialized equipment or exotic materials when maintenance is needed between major capital expenditures.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in East Orange — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing is the workhorse membrane on East Orange\'s apartment buildings, garden complexes, and converted multi-family properties where flat and low-slope roof surfaces dominate the skyline from Brick Church through Doddtown and along the Main Street commercial strip. For landlords and property managers overseeing portfolios of two-story and three-story walk-ups, EPDM delivers what investment property ownership demands: a proven waterproofing system with a 30-year track record, predictable lifecycle costs, and repair characteristics that do not require specialized equipment or exotic materials when maintenance is needed between major capital expenditures.',
     'The garden apartment complexes scattered throughout East Orange -- particularly the mid-century developments along Springdale Avenue and in the Doddtown neighborhood -- represent EPDM\'s ideal application environment. Low-slope roofs on wood-framed structures with moderate spans, no rooftop mechanical equipment, and straightforward drainage to perimeter gutters are the conditions where EPDM membrane performs reliably for decades. These complexes often carry original built-up roofing that has exceeded its useful life, and [rubber roofing](/rubber-roofing-epdm) replacement over polyiso insulation board provides both waterproofing renewal and energy performance improvement that reduces heating costs across the property.',
     'For East Orange property investors acquiring distressed buildings in the city\'s rehabilitation zones, EPDM offers a capital expenditure calculation that few other roofing systems can match. Installed cost per square foot runs 30 to 40 percent below TPO and PVC alternatives, labor requirements are straightforward, and the membrane is available in widths that minimize field seams on smaller East Orange apartment building footprints. A 60-mil fully adhered EPDM installation on a typical 3,000-square-foot East Orange apartment building can be completed in two days, minimizing the renovation timeline disruption that landlords experience during gut-rehabilitation projects.',
     'Unlike the TPO and PVC membranes gaining market share on [Newark](/rubber-roofing-epdm-newark-nj) commercial buildings, EPDM maintains its position in East Orange\'s residential multi-family market because its dark surface actually provides a benefit in heating-dominated buildings. East Orange\'s aging apartment stock loses more energy to winter heat loss through inadequately insulated roof assemblies than it gains from summer solar heat, making EPDM\'s thermal absorption characteristic a net positive in the energy balance equation -- a nuance that reflective white membranes cannot offer in buildings that spend more on heating than cooling.'
@@ -35,7 +35,25 @@ export const eastOrangeRubberRoofingEpdm: ComboContent = {
     {
       question: 'What maintenance does an EPDM roof require on an East Orange apartment building?',
       answer: 'Annual inspections that include seam probing, drain clearing, and surface debris removal are the minimum maintenance standard. We also recommend walk pad installation along common traffic routes, quarterly drain checks on buildings with interior drains, and prompt repair of any punctures or seam separations identified during inspection. Properties with rooftop equipment should schedule an EPDM inspection after every HVAC service call to verify that service technicians have not damaged the membrane.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in East Orange, NJ?',
+      answer: 'Most rubber roofing epdm projects in East Orange range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing for East Orange NJ apartments -- cost-effective flat roof membrane installation, seam repair, and ponding water solutions.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

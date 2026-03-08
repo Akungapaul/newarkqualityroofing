@@ -4,7 +4,7 @@ export const millburnCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'millburn',
   overview: [
-    'Cedar shake roofing on Millburn properties delivers an organic warmth that complements the township\'s wooded estate landscape with an authenticity that manufactured alternatives cannot approach. The hand-split texture, natural color variation, and dimensional depth of premium western red cedar shakes create a roof surface that appears to have grown from the same forest canopy shading the property beneath. Estates in Short Hills, South Mountain, and the Glenwood section -- where mature deciduous canopy frames the roofline from every vantage -- achieve a visual harmony with cedar shakes that no synthetic material replicates regardless of how convincingly the texture is molded.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Millburn — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing on Millburn properties delivers an organic warmth that complements the township\'s wooded estate landscape with an authenticity that manufactured alternatives cannot approach. The hand-split texture, natural color variation, and dimensional depth of premium western red cedar shakes create a roof surface that appears to have grown from the same forest canopy shading the property beneath. Estates in Short Hills, South Mountain, and the Glenwood section -- where mature deciduous canopy frames the roofline from every vantage -- achieve a visual harmony with cedar shakes that no synthetic material replicates regardless of how convincingly the texture is molded.',
     'Millburn\'s cedar shake installations demand the premium grade of material and installation technique that estate-scale properties require. We specify hand-split and resawn cedar shakes from certified old-growth or managed-growth sources, graded to CSSB Blue Label standards for consistent thickness, grain orientation, and freedom from sapwood that accelerates decay. The distinction between genuine hand-split shakes and machine-sawn alternatives matters profoundly to Millburn homeowners whose architect specified cedar for its artisanal character -- the irregular shadow lines, the natural taper variation, and the textural depth that only manual splitting produces.',
     'Properties throughout [Bloomfield](/cedar-shake-roofing-bloomfield-nj) and [Montclair](/cedar-shake-roofing-montclair-nj) feature cedar shake installations, but Millburn\'s typically larger roof areas and steeper pitches create installation conditions where material quality and installation precision compound across thousands of additional square feet. A minor alignment inconsistency in shake exposure that might pass unnoticed on a twelve-square cottage roof becomes a visible pattern defect on a forty-square Short Hills estate where the roof dominates the property\'s visual presentation from the street approach.'
   ],
@@ -34,7 +34,25 @@ export const millburnCedarShakeRoofing: ComboContent = {
     {
       question: 'What maintenance does a cedar shake roof in Millburn require?',
       answer: 'Annual maintenance includes clearing leaf debris that traps moisture, treating moss or algae growth with approved biocide solutions, inspecting for split or displaced shakes, and verifying that valley flashings and ridge caps remain secure. Every five to seven years, applying a penetrating wood preservative with UV inhibitors slows the degradation of the cedar\'s natural protective oils. Properties under heavy canopy benefit from semi-annual debris clearing in fall after leaf drop and spring after seed and catkin season. We include cedar shake maintenance in our annual maintenance programs.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Millburn, NJ?',
+      answer: 'Most cedar shake roofing projects in Millburn range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing for Millburn and Short Hills estates. Hand-split premium cedar installation, fire-retardant options, and canopy-environment maintenance.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Slate roof replacement on West Orange\'s historic estates and premium homes installs natural stone roofing that will outlast the building it protects -- 100 to 150 years of service from a material that gains character as it ages. Our [slate roof replacement](/slate-roof-replacement) work in West Orange sources stone from the Pennsylvania and Vermont quarries that supplied the original installations on Llewellyn Park estates and early twentieth-century homes throughout the township\'s upper-elevation neighborhoods.',
+    'Newark Quality Roofing delivers expert slate roof replacement in West Orange — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement on West Orange\'s historic estates and premium homes installs natural stone roofing that will outlast the building it protects -- 100 to 150 years of service from a material that gains character as it ages. Our [slate roof replacement](/slate-roof-replacement) work in West Orange sources stone from the Pennsylvania and Vermont quarries that supplied the original installations on Llewellyn Park estates and early twentieth-century homes throughout the township\'s upper-elevation neighborhoods.',
     'Llewellyn Park and surrounding estate neighborhoods drive West Orange\'s slate replacement market, where architectural integrity demands natural stone rather than synthetic alternatives that replicate the appearance without matching the material character. These properties carry the premium aesthetic expectations and long-term investment horizons that justify slate\'s substantial cost, and their owners value the centuries-proven performance that no engineered product has yet replicated. Homeowners near [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) invest in similar authentic slate restoration for their own historic district homes.',
     'New slate installations on West Orange homes choosing to upgrade from asphalt to natural stone require structural evaluation before material selection. Slate weighs 700 to 1,000 pounds per square compared to 200 to 300 for asphalt, and existing framing must be verified or reinforced to support this substantial load increase. We coordinate structural engineering as part of every new slate installation on [West Orange](/roofing-in-west-orange-nj) homes converting from lighter materials.'
   ],
@@ -34,7 +34,25 @@ export const westOrangeSlateRoofReplacement: ComboContent = {
     {
       question: 'Does my West Orange home need structural reinforcement for slate?',
       answer: 'Homes originally built with slate roofs have framing designed for the weight and generally do not need reinforcement for slate-to-slate replacement. Homes converting from asphalt or wood to slate almost always need structural evaluation, and reinforcement is commonly required. The engineering assessment determines specific reinforcement needs based on your home\'s existing framing capacity and the weight of the selected slate profile.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in West Orange, NJ?',
+      answer: 'Most slate roof replacement projects in West Orange range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in West Orange NJ. Natural Pennsylvania and Vermont slate for Llewellyn Park estates and historic homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

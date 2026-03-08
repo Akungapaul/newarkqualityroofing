@@ -4,7 +4,7 @@ export const orangeCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'orange',
   overview: [
-    'Commercial roof repair in Orange keeps Main Street businesses, Mitchell Street warehouses, and Park Avenue institutions operational while addressing the leaks, membrane failures, and drainage problems that plague the city\'s aging commercial flat-roof infrastructure. Our [commercial roof repair](/commercial-roof-repair) response prioritizes minimizing business disruption -- containing active leaks within hours, completing permanent repairs within days, and coordinating all work around tenant operations so that commerce continues uninterrupted above and below the roof line.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Orange — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Orange keeps Main Street businesses, Mitchell Street warehouses, and Park Avenue institutions operational while addressing the leaks, membrane failures, and drainage problems that plague the city\'s aging commercial flat-roof infrastructure. Our [commercial roof repair](/commercial-roof-repair) response prioritizes minimizing business disruption -- containing active leaks within hours, completing permanent repairs within days, and coordinating all work around tenant operations so that commerce continues uninterrupted above and below the roof line.',
     'Orange\'s commercial roofing stock spans multiple building eras, each with characteristic repair needs. Pre-1950 buildings along Main Street often have built-up roofing that has been patched so many times the original membrane is buried under layers of tar, fabric, and elastomeric coatings. Mid-century industrial buildings along the rail corridor carry modified bitumen or early single-ply membranes approaching the end of their design life. Newer mixed-use development has modern TPO or EPDM that needs only targeted repair when storm damage or equipment service causes localized membrane damage. Our repair approach is calibrated to the specific era and membrane type.',
     'For Orange\'s small business owners who operate on thin margins, the cost of commercial roof repair is a critical concern. A Main Street restaurant owner cannot absorb $15,000 for a new membrane when a $2,500 repair will extend the existing roof\'s life by five years. Our repair assessments distinguish clearly between conditions that require immediate attention, conditions that can be monitored, and conditions that warrant planning for eventual replacement. This honest categorization helps Orange business owners allocate limited capital effectively. Business owners in [East Orange](/commercial-roof-repair-east-orange-nj) rely on the same repair-versus-replace analysis for their Main Street properties.'
   ],
@@ -34,7 +34,25 @@ export const orangeCommercialRoofRepair: ComboContent = {
     {
       question: 'What does commercial roof repair cost in Orange?',
       answer: 'Targeted repairs for localized leaks and flashing failures typically run $500 to $3,000. Larger-scope repairs involving membrane section replacement, drain rehabilitation, or equipment curb reconstruction run $3,000 to $10,000. These costs compare favorably to full replacement at $30,000 to $80,000 when the existing roof has serviceable life remaining.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Orange, NJ?',
+      answer: 'Most commercial roof repair projects in Orange range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Orange NJ -- Main Street leak response, Mitchell Street industrial, business-hours scheduling, and repair-vs-replace guidance.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

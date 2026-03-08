@@ -4,7 +4,7 @@ export const irvingtonAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Asphalt shingle roof replacement dominates Irvington\'s residential re-roofing market because the material matches both the township\'s architectural character and its economic reality. Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) installations upgrade Irvington homes from aging three-tab surfaces to modern architectural shingles that deliver improved wind resistance, better aesthetics, and longer manufacturer warranties at a price point that works for the township\'s homeowners and investment property operators.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Irvington — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement dominates Irvington\'s residential re-roofing market because the material matches both the township\'s architectural character and its economic reality. Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) installations upgrade Irvington homes from aging three-tab surfaces to modern architectural shingles that deliver improved wind resistance, better aesthetics, and longer manufacturer warranties at a price point that works for the township\'s homeowners and investment property operators.',
     'The transition from three-tab to architectural shingles is particularly impactful on Irvington\'s colonials and Cape Cods, where the dimensional profile of architectural shingles adds visual depth and shadow lines that flat three-tab products cannot provide. This aesthetic upgrade enhances curb appeal without the cost of premium materials like slate or cedar, making architectural shingles the clear value choice for Irvington homes where appearance improvement supports property value without overinvesting relative to neighborhood comparables.',
     'GAF and CertainTeed architectural shingles are our primary products for Irvington installations, selected for their 130 mph wind ratings, comprehensive warranty programs, and color options that complement the township\'s pre-war housing styles. Both manufacturers offer lifetime limited warranties on their premium architectural lines, with enhanced warranty tiers available for installations using complete accessory systems. Homeowners in [Bloomfield](/asphalt-shingle-roof-replacement-bloomfield-nj) install the same manufacturer products, and the consistent material quality across both communities ensures uniform performance regardless of which Essex County township the home is located in.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonAsphaltShingleRoofReplacement: ComboContent = {
       question: 'How much does asphalt shingle replacement cost in Irvington?',
       answer: 'Standard architectural shingle replacement with full tear-off costs $8,000 to $13,000 on a typical Irvington colonial. This includes tear-off, deck repair, underlayment, ice-and-water shield, new flashings, ridge vent, and cleanup. Premium products and enhanced warranty tiers add 10 to 15 percent to the standard price.',
     },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Irvington, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Irvington range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Irvington NJ with GAF and CertainTeed architectural shingles. Full tear-off, deck repair, and enhanced wind ratings.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

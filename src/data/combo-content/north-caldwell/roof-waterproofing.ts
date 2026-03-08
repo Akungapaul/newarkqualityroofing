@@ -4,7 +4,7 @@ export const northCaldwellRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'north-caldwell',
   overview: [
-    'Roof waterproofing on North Caldwell estates goes beyond the primary roof surface to address the vulnerable zones where water infiltration actually occurs: the flashings, transitions, penetrations, and low-slope sections that connect the complex roof geometries on these custom-built homes. The primary roof materials -- whether slate, cedar, metal, or architectural shingles -- provide the first line of defense, but the waterproofing integrity of the complete system depends on the secondary barriers and sealing details that protect the joints between different roof elements.',
+    'Newark Quality Roofing delivers expert roof waterproofing in North Caldwell — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing on North Caldwell estates goes beyond the primary roof surface to address the vulnerable zones where water infiltration actually occurs: the flashings, transitions, penetrations, and low-slope sections that connect the complex roof geometries on these custom-built homes. The primary roof materials -- whether slate, cedar, metal, or architectural shingles -- provide the first line of defense, but the waterproofing integrity of the complete system depends on the secondary barriers and sealing details that protect the joints between different roof elements.',
     'Our [roof waterproofing](/roof-waterproofing) approach for North Caldwell homes focuses on ice-and-water shield membrane at eaves, valleys, and wall junctions; liquid-applied waterproof coatings on flat and low-slope transitions; and premium sealant applications at penetrations where pipes, vents, and mechanical equipment pierce the roof plane. These secondary waterproofing layers provide the backup protection that estate homes with complex roof systems require, because the consequences of water infiltration through finished interiors with custom millwork and hardwood floors are disproportionately expensive on high-value properties.',
     'Waterproofing assessment and improvement work on existing [North Caldwell](/roofing-in-north-caldwell-nj) homes identifies the specific locations where the current waterproofing system falls short. Homes built before ice-and-water shield membrane became standard practice may have felt underlayment at eaves and valleys that provides inadequate protection during ice dam events or heavy wind-driven rain. Upgrading these critical zones during a re-roofing project adds meaningful protection at modest incremental cost. Homeowners in [Essex Fells](/roof-waterproofing-essex-fells-nj) prioritize similar waterproofing upgrades on their estate properties.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofWaterproofing: ComboContent = {
     {
       question: 'Can waterproofing improvements prevent ice dam leaks without removing ice dams?',
       answer: 'Ice-and-water shield membrane at the eaves provides secondary protection that prevents water backed up behind ice dams from entering the building. It does not prevent the ice dam itself. For comprehensive ice dam prevention, insulation and ventilation improvements address the root cause. The waterproofing membrane serves as insurance for the times when conditions temporarily overcome even well-designed prevention measures.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in North Caldwell, NJ?',
+      answer: 'Most roof waterproofing projects in North Caldwell range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in North Caldwell NJ -- membrane, flashing, and sealant protection for estate home complex roof transitions.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

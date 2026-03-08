@@ -4,7 +4,7 @@ export const westOrangeCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Commercial roof replacement in West Orange delivers complete re-roofing of the township\'s aging office buildings, retail centers, and light-industrial properties, installing modern membrane systems that upgrade waterproofing, insulation, and drainage performance beyond what the original installation provided. Our [commercial roof replacement](/commercial-roof-replacement) projects manage the full scope from tear-off through final inspection, maintaining building operations throughout the construction period.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in West Orange — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in West Orange delivers complete re-roofing of the township\'s aging office buildings, retail centers, and light-industrial properties, installing modern membrane systems that upgrade waterproofing, insulation, and drainage performance beyond what the original installation provided. Our [commercial roof replacement](/commercial-roof-replacement) projects manage the full scope from tear-off through final inspection, maintaining building operations throughout the construction period.',
     'West Orange\'s commercial building stock includes a significant inventory of properties built during the 1970s and 1980s office-park development era, now carrying original roofs at or beyond their designed service life. These buildings represent the core of the township\'s commercial re-roofing market -- properties where repair frequency has escalated, insulation has absorbed moisture, and the membrane has lost the flexibility needed to withstand another round of West Orange\'s demanding thermal cycling.',
     'Building owners planning commercial roof replacement in [West Orange](/roofing-in-west-orange-nj) face decisions that affect building performance for the next 25 to 30 years: membrane type, insulation specifications, drainage engineering, and warranty structure. Our consultative approach presents options with clear performance-versus-cost comparisons, enabling informed decisions rather than defaulting to the cheapest available specification. Building owners near [Caldwell](/commercial-roof-replacement-caldwell-nj) navigate similar replacement decisions on their own aging commercial properties.',
     'Energy code compliance during commercial re-roofing requires insulation upgrades that bring the building envelope to current standards. West Orange commercial buildings from the 1970s and 1980s were insulated to codes that current standards have rendered inadequate. Re-roofing triggers the requirement to upgrade insulation to current energy code minimums, which increases project cost but delivers ongoing energy savings that offset the investment through reduced heating and cooling expenses.'
@@ -35,7 +35,25 @@ export const westOrangeCommercialRoofReplacement: ComboContent = {
     {
       question: 'What warranty should I expect on a commercial roof replacement?',
       answer: 'Standard commercial roof replacements include a manufacturer warranty of 15 to 20 years covering membrane and system components, plus our 10-year workmanship warranty covering installation quality. Premium specifications with enhanced membrane thickness, additional reinforcement, and manufacturer-trained installation crews qualify for NDL (No Dollar Limit) warranties of 20 to 25 years that cover all repair costs without deductibles or depreciation. We recommend the warranty level that matches your investment timeline and risk tolerance.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in West Orange, NJ?',
+      answer: 'Most commercial roof replacement projects in West Orange range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in West Orange NJ. Full tear-off and re-roof for offices and retail with minimal business disruption.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

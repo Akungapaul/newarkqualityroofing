@@ -4,7 +4,7 @@ export const fairfieldRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'fairfield',
   overview: [
-    'Roof flashing installation and repair in Fairfield protects the vulnerable transition points where different roof planes meet, where roofing meets walls, and where penetrations interrupt the waterproofing surface. Every chimney base, sidewall junction, valley intersection, pipe penetration, and skylight frame relies on properly installed flashing to redirect water away from the building interior. In Fairfield\'s residential neighborhoods, aging flashing on homes built during the 1960s through 1990s development boom represents one of the most common sources of water entry -- particularly at chimney-to-roof connections and sidewall step flashing where original caulk sealants have dried and cracked after decades of thermal cycling.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Fairfield — with prices starting from $300–$1,500 and free estimates available today. Roof flashing installation and repair in Fairfield protects the vulnerable transition points where different roof planes meet, where roofing meets walls, and where penetrations interrupt the waterproofing surface. Every chimney base, sidewall junction, valley intersection, pipe penetration, and skylight frame relies on properly installed flashing to redirect water away from the building interior. In Fairfield\'s residential neighborhoods, aging flashing on homes built during the 1960s through 1990s development boom represents one of the most common sources of water entry -- particularly at chimney-to-roof connections and sidewall step flashing where original caulk sealants have dried and cracked after decades of thermal cycling.',
     'Commercial flashing on Fairfield\'s Route 46 buildings serves a different but equally critical function. Membrane roofs on hotels, warehouses, and retail buildings require flashing details at every equipment curb, parapet wall, and roof edge. These commercial flashing installations use metal counterflashing, membrane-to-wall termination bars, and custom-fabricated curb wraps that integrate with the field membrane to maintain waterproofing continuity. When commercial flashing details fail in [Fairfield](/roofing-in-fairfield-nj), the consequences are often more severe than residential failures because water entry damages inventory, disrupts operations, and triggers insurance claims.',
     'Our [roof flashing](/roof-flashing-installation-repair) work in Fairfield addresses both residential repair of aging original flashing and commercial new-installation for re-roofing and renovation projects. Residential flashing repair typically involves replacing deteriorated step flashing at sidewalls, reinstalling counterflashing at chimneys with fresh mortar embedment, and upgrading valley flashing from aging rolled metal to modern W-profile valley metal with ice-and-water shield underlayment. Commercial flashing installation demands custom fabrication and precise integration with the selected membrane system.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'What type of flashing do you use for commercial buildings in Fairfield?',
       answer: 'Commercial flashing specifications match the existing membrane system. TPO roofs get TPO-coated metal or heat-welded TPO membrane flashings. EPDM roofs use EPDM-compatible rubber flashings bonded with approved adhesives. Modified bitumen roofs receive torch-applied or self-adhered flashing plies. Metal counterflashing at parapet walls uses stainless steel or galvanized steel with compatible sealant. We never mix incompatible materials in commercial flashing details because adhesion failure between mismatched products is a leading cause of commercial roof leaks.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Fairfield, NJ?',
+      answer: 'Most roof flashing installation repair projects in Fairfield range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Fairfield NJ. Residential chimney and sidewall flashing plus Route 46 commercial penetration details.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

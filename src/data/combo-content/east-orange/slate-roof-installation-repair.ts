@@ -4,7 +4,7 @@ export const eastOrangeSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'east-orange',
   overview: [
-    'Slate roofs in East Orange survive on the city\'s grandest Victorian residences -- the larger single-family homes and prominent two-family buildings concentrated along Prospect Street, in the Elmwood Park neighborhood, and scattered through the residential blocks near Upsala College\'s former campus. These buildings were constructed during East Orange\'s late-nineteenth-century development as a commuter suburb, and their original slate roofs represented a material investment that their builders expected to last a century. Many have. The slate itself remains structurally sound on buildings where the underlying structure has been maintained, but the flashings, valleys, and fastener systems that support the slate field have aged past their service life and require skilled intervention.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in East Orange — with prices starting from $20,000–$45,000 and free estimates available today. Slate roofs in East Orange survive on the city\'s grandest Victorian residences -- the larger single-family homes and prominent two-family buildings concentrated along Prospect Street, in the Elmwood Park neighborhood, and scattered through the residential blocks near Upsala College\'s former campus. These buildings were constructed during East Orange\'s late-nineteenth-century development as a commuter suburb, and their original slate roofs represented a material investment that their builders expected to last a century. Many have. The slate itself remains structurally sound on buildings where the underlying structure has been maintained, but the flashings, valleys, and fastener systems that support the slate field have aged past their service life and require skilled intervention.',
     'Slate repair in East Orange serves a mixed clientele: homeowners who treasure their building\'s architectural heritage, and investors who acquired Victorian properties with existing slate and must decide whether preservation or replacement serves their financial goals. The answer depends on the slate condition. Pennsylvania black slate on East Orange Victorians from the 1890s may have thirty or forty years of remaining life if the support systems are renewed, making preservation economically superior to the $40,000-plus cost of replacement with either new slate or architectural shingles. Vermont gray and green slates from the same era, however, may be approaching the end of their geological lifespan and delaminating beyond repair.',
     'East Orange\'s [slate roof](/slate-roof-installation-repair) population connects it to the broader Essex County tradition of stone roofing that defines the architectural character of nearby [Montclair](/slate-roof-installation-repair-montclair-nj) and Glen Ridge. Unlike those towns, where historic preservation commissions actively protect slate roofs from removal, East Orange has no municipal preservation requirement for slate retention. This regulatory freedom means that East Orange slate roof decisions are purely economic and aesthetic rather than compliance-driven -- property owners choose to preserve slate because it makes financial or personal sense, not because a commission requires it.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'How long does a slate roof repair take on an East Orange three-story Victorian?',
       answer: 'Timeline depends on scope. Isolated slate replacements and minor flashing repairs can be completed in one to two days from ladder access. Comprehensive flashing replacement with systematic slate restoration across the full roof requires scaffolding setup plus five to ten days of active work, depending on the building\'s complexity and the number of roof planes requiring attention. We provide a specific timeline during the proposal phase based on the assessment findings for your building.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in East Orange, NJ?',
+      answer: 'Most slate roof installation repair projects in East Orange range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair for East Orange NJ Victorians -- flashing renewal, salvaged slate matching, and structural assessment for century-old roofs.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

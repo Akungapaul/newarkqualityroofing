@@ -4,7 +4,7 @@ export const eastOrangeRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'east-orange',
   overview: [
-    'Roof inspections in East Orange serve a different clientele than in most Essex County towns. The majority of inspection requests here come from property investors evaluating acquisition targets, landlords responding to code enforcement notices, and property managers documenting conditions across multi-building portfolios. The owner-occupant requesting a peace-of-mind inspection exists in East Orange, but the dominant inspection market is transactional -- someone needs documented roof condition data to make a financial or regulatory decision, and the inspection report becomes a business document rather than a homeowner advisory.',
+    'Newark Quality Roofing delivers expert roof inspection in East Orange — with prices starting from $150–$400 and free estimates available today. Roof inspections in East Orange serve a different clientele than in most Essex County towns. The majority of inspection requests here come from property investors evaluating acquisition targets, landlords responding to code enforcement notices, and property managers documenting conditions across multi-building portfolios. The owner-occupant requesting a peace-of-mind inspection exists in East Orange, but the dominant inspection market is transactional -- someone needs documented roof condition data to make a financial or regulatory decision, and the inspection report becomes a business document rather than a homeowner advisory.',
     'The city\'s multi-family housing stock demands inspection methodologies that go beyond the walk-and-look approach adequate for a single-family colonial in [Caldwell](/roof-inspection-caldwell-nj). A Victorian two-family on Halsted Street presents multiple roof planes, shared chimney flashing between units, dormer cheek walls that channel water between living spaces, and balloon-framed cavities where roof leaks can travel two stories before becoming visible. Inspecting these buildings requires understanding the internal water pathways that connect a roof deficiency on the third floor to a stain appearing on the first floor -- a diagnostic skill that flat-surface inspection alone cannot provide.',
     'Garden apartment complexes throughout Doddtown and along Springdale Avenue require portfolio-scale inspection approaches. When a property manager needs condition assessments on twelve buildings with identical construction, inspecting each building independently wastes time repeating observations that apply across the entire complex. Our portfolio inspection protocol establishes the common construction details and known vulnerabilities for the building type, then focuses individual building inspections on the condition-specific variables -- drain function, membrane adhesion, flashing integrity, and insulation moisture -- that differentiate buildings within the complex.',
     'Pre-purchase [roof inspections](/roof-inspection) for East Orange investment properties are perhaps our most consequential service. An inspector\'s report on a distressed three-family in the Brick Church neighborhood can shift the purchase price by $20,000 or kill the deal entirely. Investors need more than a pass/fail assessment -- they need remaining service life estimates, prioritized repair lists with cost ranges, and replacement timeline projections that feed directly into their pro forma analysis. We deliver inspection reports formatted for investment decision-making, not generic condition summaries.'
@@ -35,7 +35,25 @@ export const eastOrangeRoofInspection: ComboContent = {
     {
       question: 'What does your infrared scanning detect that a visual inspection misses on East Orange flat roofs?',
       answer: 'Infrared thermal imaging detects moisture trapped in the insulation layer beneath the roof membrane -- moisture that is invisible during a visual surface inspection. On East Orange apartment buildings with aging flat roofs, trapped moisture can affect 30 to 50 percent of the insulation area without showing any surface symptoms. This hidden moisture data is critical for determining whether a roof can be repaired or requires full replacement, and it maps the exact areas of wet insulation that must be removed if a replacement is undertaken.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in East Orange, NJ?',
+      answer: 'Most roof inspection projects in East Orange range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof inspections for East Orange NJ investment properties -- pre-purchase assessments, code compliance reports, and portfolio evaluations.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

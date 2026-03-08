@@ -4,7 +4,7 @@ export const essexFellsGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'essex-fells',
   overview: [
-    'Green roof installation in Essex Fells extends the borough\'s defining relationship between architecture and nature from the landscape surrounding each estate to the building surfaces themselves. Where commercial green roofs in [Newark](/green-roof-installation-newark-nj) serve stormwater management mandates and urban heat island mitigation, Essex Fells green roof applications fulfill aesthetic and ecological goals aligned with the environmental consciousness that characterizes the borough\'s homeowner community. Pool pavilions, garage wings, and covered walkways become living surfaces that merge with the surrounding forest canopy when viewed from the estate\'s upper-level windows and terraces.',
+    'Newark Quality Roofing delivers expert green roof installation in Essex Fells — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Essex Fells extends the borough\'s defining relationship between architecture and nature from the landscape surrounding each estate to the building surfaces themselves. Where commercial green roofs in [Newark](/green-roof-installation-newark-nj) serve stormwater management mandates and urban heat island mitigation, Essex Fells green roof applications fulfill aesthetic and ecological goals aligned with the environmental consciousness that characterizes the borough\'s homeowner community. Pool pavilions, garage wings, and covered walkways become living surfaces that merge with the surrounding forest canopy when viewed from the estate\'s upper-level windows and terraces.',
     'The estate scale of Essex Fells properties provides ideal conditions for green roof installations that suburban homes cannot accommodate. Auxiliary structures with reinforced flat-roof decks, existing irrigation infrastructure for landscape maintenance, and the professional landscape management services that most Essex Fells properties already employ create an ecosystem where green roof integration adds incremental rather than transformational complexity. The environmental benefits -- stormwater retention, thermal mass insulation, habitat creation -- supplement rather than justify installations driven primarily by the aesthetic enhancement they bring to the estate landscape.',
     'Our [green roof installation](/green-roof-installation) practice in Essex Fells collaborates with the landscape architects and environmental consultants that estate-scale property owners typically engage. We provide the waterproofing and structural roofing expertise that forms the foundation of every green roof assembly -- the root barrier, drainage composite, growing media retention, and membrane protection layers that must perform flawlessly beneath the visible planting. The botanical layer receives specification from the landscape professional; we ensure the roofing system beneath it is engineered for the additional weight, moisture exposure, and maintenance access that a living roof surface demands.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsGreenRoofInstallation: ComboContent = {
     {
       question: 'What ongoing maintenance does a green roof require?',
       answer: 'Extensive green roofs require seasonal weeding, irrigation monitoring during drought periods, annual fertilization, and quarterly drainage system inspection. Intensive systems with deeper plantings require the maintenance level of a ground-level garden bed plus drainage system monitoring. Most Essex Fells properties integrate green roof maintenance into their existing landscape service contracts. We provide annual roofing system inspection -- drain function, edge restraint condition, and electronic leak detection scan -- as a separate service from the landscape maintenance.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Essex Fells, NJ?',
+      answer: 'Most green roof installation projects in Essex Fells range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Essex Fells NJ -- living roof systems for estate structures with structural engineering and waterproofing expertise.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

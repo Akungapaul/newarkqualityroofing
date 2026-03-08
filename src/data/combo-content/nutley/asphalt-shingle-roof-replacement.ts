@@ -4,7 +4,7 @@ export const nutleyAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'nutley',
   overview: [
-    'Asphalt shingle roof replacement in Nutley accounts for approximately 80 percent of all residential re-roofing projects we complete in the township. The dominance of Colonial Revivals, Cape Cods, and mid-century ranches across Nutley\'s residential neighborhoods makes architectural asphalt shingles the natural material choice -- delivering the dimensional shadow lines that complement period architecture at a cost point that aligns with the township\'s upper-middle housing market. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) crews have replaced hundreds of Nutley roofs, developing specific expertise in the steep Tudor gables along Chestnut Street and the low-slope ranch sections in western neighborhoods near Yanticaw Park.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Nutley — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement in Nutley accounts for approximately 80 percent of all residential re-roofing projects we complete in the township. The dominance of Colonial Revivals, Cape Cods, and mid-century ranches across Nutley\'s residential neighborhoods makes architectural asphalt shingles the natural material choice -- delivering the dimensional shadow lines that complement period architecture at a cost point that aligns with the township\'s upper-middle housing market. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) crews have replaced hundreds of Nutley roofs, developing specific expertise in the steep Tudor gables along Chestnut Street and the low-slope ranch sections in western neighborhoods near Yanticaw Park.',
     'The current generation of architectural shingles bears little resemblance to the three-tab products installed on many Nutley homes during the 1990s and early 2000s. Laminated dimensional shingles from GAF, Owens Corning, and CertainTeed now offer Class 4 impact ratings, 130-mph wind warranties, and algae-resistance treatments that address the moisture conditions created by Nutley\'s mature tree canopy. Homeowners in neighboring [Bloomfield](/asphalt-shingle-roof-replacement-bloomfield-nj) and [Belleville](/asphalt-shingle-roof-replacement-belleville-nj) face similar material decisions, but Nutley\'s higher proportion of steep-pitch Tudor rooflines demands installation crews with genuine high-angle experience.',
     'Selecting the right shingle profile for a Nutley home requires matching the material\'s visual weight to the architectural style. Tudors benefit from designer shingles with deep shadow lines that approximate the heavy texture of original wood shake installations. Colonials look best with standard architectural profiles in earth tones. Cape Cods suit clean-lined dimensional shingles that complement their simpler rooflines. We bring physical samples to each [Nutley](/roofing-in-nutley-nj) consultation so homeowners evaluate color and texture against their specific exterior, siding, and trim in natural light rather than relying on showroom swatches.'
   ],
@@ -34,7 +34,25 @@ export const nutleyAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'Can you replace my Nutley roof in winter?',
       answer: 'Yes. Asphalt shingles can be installed year-round in New Jersey with appropriate cold-weather techniques. We hand-seal tabs when temperatures are below 40 degrees Fahrenheit, since the thermal adhesive strips require warmth to self-seal. Winter installation avoids the spring-summer scheduling bottleneck and often provides faster project start dates for Nutley homeowners who need timely replacement.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Nutley, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Nutley range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Nutley NJ -- steep-pitch Tudor expertise, premium architectural shingles, and ventilation upgrades included.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

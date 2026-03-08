@@ -4,7 +4,7 @@ export const orangeTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Tile roof replacement in Orange serves the select homes where clay or concrete tile provides the architectural statement that the building\'s design demands. While tile roofing is less common in Orange than in Mediterranean-climate regions, specific homes along Scotland Road and Park Avenue feature tile roofs installed during the early 20th century when Spanish Revival and Mediterranean architectural styles influenced northeastern residential design. Our [tile roof replacement](/tile-roof-replacement) projects restore these distinctive rooflines with materials that match the original architectural intent while meeting modern structural and weatherproofing requirements.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Orange serves the select homes where clay or concrete tile provides the architectural statement that the building\'s design demands. While tile roofing is less common in Orange than in Mediterranean-climate regions, specific homes along Scotland Road and Park Avenue feature tile roofs installed during the early 20th century when Spanish Revival and Mediterranean architectural styles influenced northeastern residential design. Our [tile roof replacement](/tile-roof-replacement) projects restore these distinctive rooflines with materials that match the original architectural intent while meeting modern structural and weatherproofing requirements.',
     'Concrete tile has gained popularity as a replacement option for Orange homeowners who want the dimensional profile and visual impact of tile without the weight premium of traditional clay. Modern concrete tiles are available in profiles that replicate mission-style barrel tiles, flat interlocking designs, and shake-look textures -- all at approximately 60% of clay tile weight. For Orange homes where the existing structure may not support traditional clay, concrete tile provides the aesthetic at a practical weight.',
     'Tile\'s 50 to 75-year lifespan appeals to Orange homeowners who want to eliminate the repeated shingle replacement cycle. While the initial installation cost is higher than asphalt, the long-term ownership cost is lower because the tile roof serves the building through two or three shingle lifespans without replacement. For homeowners planning to stay in their Orange home long-term, tile replacement is an investment that pays for itself through decades of maintenance-free performance. Similar lifecycle calculations guide tile decisions on homes across [Montclair](/tile-roof-replacement-montclair-nj).'
   ],
@@ -34,7 +34,25 @@ export const orangeTileRoofReplacement: ComboContent = {
     {
       question: 'How long does tile roof installation take in Orange?',
       answer: 'Active tile installation takes 2 to 4 weeks for a typical Orange home depending on size and complexity. Material procurement adds 4 to 8 weeks of lead time. If structural reinforcement is needed, that work adds 1 to 2 weeks before tile installation begins. The total project timeline from commitment to completion is typically 3 to 4 months.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Orange, NJ?',
+      answer: 'Most tile roof replacement projects in Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Orange NJ -- clay and concrete tile, structural assessment, freeze-thaw rated products, and Mediterranean architectural matching.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

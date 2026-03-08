@@ -4,7 +4,7 @@ export const nutleySprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'nutley',
   overview: [
-    'Spray polyurethane foam roofing provides Nutley\'s commercial building owners with a seamless, self-insulating roofing system that addresses two chronic problems simultaneously: waterproofing failure and inadequate thermal performance. SPF is applied as a liquid that expands into a closed-cell foam layer conforming to every surface contour, penetration, and irregularity on the existing roof, creating a monolithic waterproof membrane with no seams, joints, or mechanical fasteners to fail. For Franklin Avenue\'s vintage commercial buildings where decades of rooftop modifications have created complex surfaces that sheet membranes struggle to navigate, spray foam\'s ability to coat every geometry cleanly makes it an elegant problem-solver.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Nutley — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing provides Nutley\'s commercial building owners with a seamless, self-insulating roofing system that addresses two chronic problems simultaneously: waterproofing failure and inadequate thermal performance. SPF is applied as a liquid that expands into a closed-cell foam layer conforming to every surface contour, penetration, and irregularity on the existing roof, creating a monolithic waterproof membrane with no seams, joints, or mechanical fasteners to fail. For Franklin Avenue\'s vintage commercial buildings where decades of rooftop modifications have created complex surfaces that sheet membranes struggle to navigate, spray foam\'s ability to coat every geometry cleanly makes it an elegant problem-solver.',
     'The built-in insulation value of spray foam distinguishes it from every other commercial roofing system available for Nutley properties. At two inches of thickness, closed-cell SPF provides approximately R-13 insulation value -- a significant upgrade for the uninsulated or minimally insulated commercial buildings constructed along Franklin Avenue and Centre Street in the 1950s and 1960s. Additional foam thickness adds proportional R-value, and the seamless application eliminates the thermal bridging at fastener points and insulation board joints that reduce the effective insulation value of mechanically attached membrane-over-insulation assemblies.',
     'Our [spray foam roofing](/spray-foam-roofing) installations in [Nutley](/roofing-in-nutley-nj) are protected with elastomeric coating systems that provide the UV resistance and weather durability that raw SPF lacks. Uncoated spray foam degrades rapidly under ultraviolet exposure, losing its waterproofing integrity within months. The protective coating -- typically silicone or acrylic elastomeric in white or light gray -- shields the foam from UV, provides a reflective surface for energy code compliance, and creates a walkable surface for HVAC maintenance access. This coating requires renewal every 10 to 15 years, but the foam substrate beneath can last 30 or more years with proper coating maintenance.',
     'Spray foam\'s application characteristics make it particularly effective for Nutley commercial buildings with complex rooftop equipment layouts. The foam conforms seamlessly around HVAC curbs, plumbing vents, electrical conduit runs, and the other penetrations that create flashing challenges for sheet membrane installations. Each penetration is encapsulated in a continuous foam envelope that eliminates the multi-piece flashing assemblies where conventional membrane systems are most vulnerable to failure. Buildings in more industrial settings like [Newark](/spray-foam-roofing-newark-nj) use spray foam for similar equipment-density reasons, though Nutley\'s smaller building scale allows for single-day foam application on most projects.'
@@ -35,7 +35,25 @@ export const nutleySprayFoamRoofing: ComboContent = {
     {
       question: 'Will spray foam overspray damage neighboring properties on Franklin Avenue?',
       answer: 'We take overspray prevention seriously in Nutley\'s commercial district. Our protocol includes temporary windscreen barriers on the upwind perimeter, spray rig positioning on the roof rather than at street level, and scheduling during early morning calm-air windows. We also provide advance notification to adjacent businesses and temporarily cover any vehicles parked within the potential drift zone. In over a decade of spray foam installations across Essex County, we have not had an overspray damage claim on a properly managed project.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Nutley, NJ?',
+      answer: 'Most spray foam roofing projects in Nutley range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Nutley NJ. Seamless SPF systems for Franklin Avenue commercial buildings with built-in insulation and silicone coating protection.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

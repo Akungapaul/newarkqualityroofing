@@ -4,7 +4,7 @@ export const eastOrangeSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'east-orange',
   overview: [
-    'Spray polyurethane foam roofing offers East Orange commercial and multi-family building owners a unique proposition: simultaneous roof replacement and insulation upgrade in a single application that bonds directly to the existing roof surface, eliminating tear-off costs and the construction disruption that conventional re-roofing imposes on occupied buildings. For landlords managing apartment complexes in Doddtown, property managers overseeing mixed-use buildings along Main Street, and institutional facility operators throughout the city, SPF roofing converts a capital expenditure that normally requires days of noisy tear-off and material staging into a spray application that can be completed over intact existing roofing with minimal noise and no debris.',
+    'Newark Quality Roofing delivers expert spray foam roofing in East Orange — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing offers East Orange commercial and multi-family building owners a unique proposition: simultaneous roof replacement and insulation upgrade in a single application that bonds directly to the existing roof surface, eliminating tear-off costs and the construction disruption that conventional re-roofing imposes on occupied buildings. For landlords managing apartment complexes in Doddtown, property managers overseeing mixed-use buildings along Main Street, and institutional facility operators throughout the city, SPF roofing converts a capital expenditure that normally requires days of noisy tear-off and material staging into a spray application that can be completed over intact existing roofing with minimal noise and no debris.',
     'The insulation value of [spray foam roofing](/spray-foam-roofing) is its most compelling attribute for East Orange\'s aging building stock, where roof assemblies frequently contain minimal or degraded insulation that drives heating costs far above what modern energy standards anticipate. SPF applied at 1.5 to 2 inches over an existing flat roof delivers R-9 to R-13 of continuous insulation with zero thermal bridging -- no fasteners, no seams, no gaps where cold air can bypass the insulation layer. On East Orange apartment buildings where tenants bear heating costs and landlords compete for tenants on value, reducing heating expense through roof insulation improvement supports both tenant retention and rental market positioning.',
     'The self-flashing characteristic of spray foam eliminates the complex detail work that conventional roofing requires at penetrations, equipment curbs, parapet walls, and drain locations. SPF is sprayed around and over these details, conforming to any geometry and creating a continuous, seamless waterproofing envelope that has no seams, laps, or mechanical fastener penetrations to fail. On East Orange commercial buildings with dense rooftop equipment arrays -- HVAC units, exhaust fans, communication antennas, plumbing vents -- this self-flashing capability reduces installation complexity and eliminates the detail failures that generate the majority of flat-roof leak calls.',
     'SPF roofing is renewable rather than replaceable. When the protective coating on an SPF roof system reaches the end of its service life -- typically 10 to 15 years -- the foam itself is intact and functional. A new coating application restores UV protection and waterproofing at a fraction of re-roofing cost. This recoating cycle can be repeated multiple times, extending the total system life to 30 to 50 years. For East Orange building owners comparing lifecycle costs, SPF\'s recoat-rather-than-replace model provides significant savings versus membrane systems that require complete replacement every 20 years, similar to the analysis facing property owners in neighboring [Newark](/spray-foam-roofing-newark-nj).'
@@ -35,7 +35,25 @@ export const eastOrangeSprayFoamRoofing: ComboContent = {
     {
       question: 'What R-value does spray foam roofing provide on an East Orange building?',
       answer: 'Closed-cell SPF delivers approximately R-6.5 per inch of thickness. A standard 1.5-inch application provides R-9.75 of continuous insulation with zero thermal bridging. A 2-inch application delivers R-13. This continuous insulation layer dramatically improves energy performance on East Orange buildings where existing roof insulation is minimal or degraded, reducing heating costs in buildings where energy expense directly affects operating margins and tenant satisfaction.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in East Orange, NJ?',
+      answer: 'Most spray foam roofing projects in East Orange range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing for East Orange NJ buildings -- seamless SPF application over existing flat roofs with built-in insulation and renewable coating.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

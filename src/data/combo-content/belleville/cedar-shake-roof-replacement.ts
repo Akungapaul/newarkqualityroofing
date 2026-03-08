@@ -4,7 +4,7 @@ export const bellevilleCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'belleville',
   overview: [
-    'Cedar shake roof replacement in Belleville addresses the handful of homes in the township that chose cedar for its natural beauty and character, only to discover that the material demands maintenance attention that Belleville\'s humid climate makes particularly unforgiving. Aging cedar shakes that have gone unmaintained in the Passaic River basin environment develop advanced splitting, cupping, and rot that no amount of preservative treatment can reverse. When the cedar has crossed this threshold, replacement is the only path to restoring reliable weather protection.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Belleville — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Belleville addresses the handful of homes in the township that chose cedar for its natural beauty and character, only to discover that the material demands maintenance attention that Belleville\'s humid climate makes particularly unforgiving. Aging cedar shakes that have gone unmaintained in the Passaic River basin environment develop advanced splitting, cupping, and rot that no amount of preservative treatment can reverse. When the cedar has crossed this threshold, replacement is the only path to restoring reliable weather protection.',
     'The replacement decision for Belleville cedar roofs involves choosing whether to recommit to cedar or transition to a lower-maintenance material. Homeowners who love the cedar aesthetic and are willing to commit to the maintenance program can replace with new premium cedar shakes and a proper ventilation system that extends the material\'s life in Belleville\'s moisture-prone environment. Homeowners who want the look without the maintenance can choose synthetic cedar products that replicate the split-face texture and natural color variation without the biological vulnerability.',
     'Our [cedar shake replacement](/cedar-shake-roof-replacement) process on Belleville homes includes a complete evaluation of the conditions that caused the original cedar to deteriorate, because installing new cedar into the same problematic environment guarantees repeat failure. Inadequate ventilation, missing preservative treatment, excessive debris accumulation from nearby trees, and fire code compliance are all addressed as part of the replacement scope, not treated as separate future maintenance items.',
     'For homeowners choosing to transition away from cedar, architectural shingles in cedar-tone colors like Barkwood, Weathered Wood, and Desert Tan provide a warm, natural aesthetic at a fraction of cedar cost. Standing-seam metal in copper or bronze finish offers another alternative that captures the premium feel of cedar without its maintenance requirements. We present all viable options with transparent cost comparison during the design consultation for homes in [Belleville](/roofing-in-belleville-nj) and the surrounding Essex County communities near [Bloomfield](/cedar-shake-roof-replacement-bloomfield-nj).'
@@ -35,7 +35,25 @@ export const bellevilleCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Are cedar shakes fire-safe on Belleville\'s closely-spaced lots?',
       answer: 'Only when installed as Class A fire-rated assemblies with pressure-treated shakes and fire-resistant underlayment. Untreated cedar is a significant fire risk on closely-spaced lots. We install only fire-rated cedar systems that meet the same Class A rating as asphalt shingles, providing Belleville homeowners with the cedar aesthetic without compromising fire safety for themselves or their neighbors.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Belleville, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Belleville range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Belleville NJ. Premium hand-split cedar with Class A fire rating or transition to lower-maintenance alternatives.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

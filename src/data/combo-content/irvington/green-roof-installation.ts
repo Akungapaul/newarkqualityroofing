@@ -4,7 +4,7 @@ export const irvingtonGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'irvington',
   overview: [
-    'Green roof installations in Irvington are emerging as a practical response to the township\'s stormwater management challenges and urban heat island effects rather than purely aesthetic amenities. Irvington\'s combined sewer system -- shared with adjacent [Newark](/green-roof-installation-newark-nj) -- overflows during heavy rainfall events, discharging untreated stormwater and sewage into the Elizabeth River watershed. Our [green roof installation](/green-roof-installation) projects in Irvington deploy extensive vegetated systems that retain 50 to 70 percent of annual rainfall on the building footprint, reducing stormwater runoff volumes that contribute to system overflows.',
+    'Newark Quality Roofing delivers expert green roof installation in Irvington — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installations in Irvington are emerging as a practical response to the township\'s stormwater management challenges and urban heat island effects rather than purely aesthetic amenities. Irvington\'s combined sewer system -- shared with adjacent [Newark](/green-roof-installation-newark-nj) -- overflows during heavy rainfall events, discharging untreated stormwater and sewage into the Elizabeth River watershed. Our [green roof installation](/green-roof-installation) projects in Irvington deploy extensive vegetated systems that retain 50 to 70 percent of annual rainfall on the building footprint, reducing stormwater runoff volumes that contribute to system overflows.',
     'Institutional buildings are leading Irvington\'s green roof adoption. Schools, municipal facilities, and religious buildings with flat-roof sections suitable for vegetation provide the structural capacity, maintenance access, and community visibility that make green roof projects viable. The Irvington Board of Education has expressed interest in green roof installations on school buildings as educational tools that demonstrate environmental science concepts while delivering measurable stormwater and energy benefits. These institutional projects anchor the knowledge base that will eventually extend green roof technology to Irvington\'s commercial and multi-family building stock.',
     'Springfield Avenue commercial buildings present future green roof opportunities as New Jersey\'s stormwater management regulations tighten and green infrastructure incentive programs expand. The corridor\'s flat-roofed commercial buildings have sufficient structural reserve for extensive green roof systems when properly engineered, and the economic benefit of stormwater fee credits and energy savings can offset installation costs over a 10 to 15-year payback period. Our Irvington green roof specifications are designed to maximize stormwater retention per dollar invested -- prioritizing hydrological performance over ornamental landscaping.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonGreenRoofInstallation: ComboContent = {
       question: 'What maintenance does a green roof require in Irvington?',
       answer: 'Extensive green roofs require quarterly maintenance visits for weeding, drain clearing, and vegetation health assessment, plus one annual fertilization application. The total annual maintenance cost runs $1 to $2 per square foot. We offer maintenance contracts for Irvington green roof installations that include all scheduled care plus emergency response for drainage issues or storm damage to vegetation.',
     },
+    {
+      question: 'How much does green roof installation cost in Irvington, NJ?',
+      answer: 'Most green roof installation projects in Irvington range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Irvington NJ for institutional and commercial buildings. Stormwater management, energy savings, and urban heat reduction.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

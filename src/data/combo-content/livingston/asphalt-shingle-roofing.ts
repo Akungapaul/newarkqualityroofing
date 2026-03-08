@@ -4,7 +4,7 @@ export const livingstonAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'livingston',
   overview: [
-    'Asphalt shingle roofing dominates Livingston\'s residential landscape, covering the vast majority of split-levels, colonials, and raised ranches across every established neighborhood. The material\'s versatility suits the township\'s diverse housing stock because architectural laminate shingles can be coursed effectively across the multi-plane geometries of mid-century split-levels while maintaining the clean sight lines that Livingston\'s well-maintained properties demand. From the 1960s-era homes along Northland Road to the newer developments near Livingston Town Center, asphalt shingles remain the default residential roofing choice.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Livingston — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roofing dominates Livingston\'s residential landscape, covering the vast majority of split-levels, colonials, and raised ranches across every established neighborhood. The material\'s versatility suits the township\'s diverse housing stock because architectural laminate shingles can be coursed effectively across the multi-plane geometries of mid-century split-levels while maintaining the clean sight lines that Livingston\'s well-maintained properties demand. From the 1960s-era homes along Northland Road to the newer developments near Livingston Town Center, asphalt shingles remain the default residential roofing choice.',
     'Livingston homeowners selecting asphalt shingle systems evaluate products with the informed methodology of the professional households that define this township. They compare dimensional profiles, wind uplift ratings, warranty structures, and algae resistance specifications rather than defaulting to the lowest bid. Our consultations walk homeowners through the meaningful differences between product tiers -- why an SBS-modified shingle outperforms standard oxidized asphalt in Livingston\'s thermal cycling environment, how wind rating certifications translate to real-world storm performance, and which warranty provisions actually protect the homeowner versus those that sound comprehensive but contain practical exclusions. Property owners in [Caldwell](/asphalt-shingle-roofing-caldwell-nj) make similar informed comparisons, though Livingston\'s HOA communities add material specification constraints that Caldwell\'s borough structure does not impose.',
     'Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations in Livingston prioritize system performance over component selection. The shingle is only one element of a roof assembly that includes underlayment, ice-and-water shield, ventilation, and flashing -- and on Livingston\'s split-levels, the flashing and ventilation components are often more critical to long-term performance than the shingle product itself. We engineer the full system, selecting each component for compatibility and designing the assembly to perform as an integrated whole.',
     'Color selection in HOA-governed Livingston communities follows approved palettes that the architectural review committee has established. We maintain familiarity with the approved color ranges for Heritage Hills, Kingsland, and other governed developments, helping homeowners choose from the subset of products that will clear review without pushing the process through additional approval cycles.'
@@ -35,7 +35,25 @@ export const livingstonAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Can you match the shingle color my Livingston HOA requires?',
       answer: 'Yes. We maintain familiarity with the approved shingle palettes for Livingston HOA communities and recommend products within each community\'s approved range. If your HOA has specific product requirements, we submit samples and specifications as part of the approval process. When an exact match is critical, we obtain advance committee approval before ordering materials to prevent delays.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Livingston, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Livingston range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in Livingston NJ -- architectural laminates for split-levels, HOA-approved colors, and ventilation-engineered installations.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

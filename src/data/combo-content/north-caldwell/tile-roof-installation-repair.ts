@@ -4,7 +4,7 @@ export const northCaldwellTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Tile roofing occupies a distinctive niche on North Caldwell estates where architectural ambition meets material longevity. Mediterranean-inspired homes along Grandview Avenue, Spanish Colonial revival properties near Mountain Avenue, and contemporary European-styled residences throughout the borough showcase clay and concrete tile in profiles ranging from barrel mission to flat interlocking formats. These tile roofs project permanence and distinction on properties where homeowners invest in materials that outlast conventional alternatives by generations.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in North Caldwell — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing occupies a distinctive niche on North Caldwell estates where architectural ambition meets material longevity. Mediterranean-inspired homes along Grandview Avenue, Spanish Colonial revival properties near Mountain Avenue, and contemporary European-styled residences throughout the borough showcase clay and concrete tile in profiles ranging from barrel mission to flat interlocking formats. These tile roofs project permanence and distinction on properties where homeowners invest in materials that outlast conventional alternatives by generations.',
     'Installation of tile roofing on North Caldwell estates requires structural engineering that accounts for the significant dead load these materials impose. A clay tile roof weighs eight hundred to one thousand pounds per square, roughly four times the load of architectural asphalt shingles. For new construction, this is designed into the framing from the start. For re-roofing projects on existing [North Caldwell](/roofing-in-north-caldwell-nj) homes, structural assessment determines whether the existing framing can carry tile weight or requires reinforcement before installation proceeds.',
     'Repair work on established tile roofs in North Caldwell demands specialized handling. Individual tiles crack from thermal cycling, tree limb impacts, or foot traffic during other roofing maintenance. Replacing these tiles requires matching the profile, color, and weathering patina of surrounding pieces -- a sourcing challenge that intensifies as tile installations age. Homeowners in [Essex Fells](/tile-roof-installation-repair-essex-fells-nj) share similar requirements on their estate-scale tile roof installations.',
     'Our [tile roofing](/tile-roof-installation-repair) team maintains inventory connections with both domestic manufacturers and European importers to source replacement tiles that integrate seamlessly with existing North Caldwell installations. For discontinued profiles, we work with specialty suppliers who salvage matching tiles from demolition projects across the Northeast.'
@@ -35,7 +35,25 @@ export const northCaldwellTileRoofInstallationRepair: ComboContent = {
     {
       question: 'Do North Caldwell architectural review boards approve tile roofing?',
       answer: 'Tile roofing is generally well-received by North Caldwell architectural committees due to its premium appearance and long-term durability. We provide material samples, color selections, and installation detail drawings for any review process. The key consideration is ensuring the tile profile and color complement neighboring properties -- we guide homeowners through selections that satisfy both their design vision and community aesthetic standards.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in North Caldwell, NJ?',
+      answer: 'Most tile roof installation repair projects in North Caldwell range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in North Caldwell NJ -- clay and concrete tile for estate homes with expert sourcing and structural assessment.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

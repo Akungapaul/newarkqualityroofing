@@ -4,7 +4,7 @@ export const essexFellsMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'essex-fells',
   overview: [
-    'Metal roof replacement on Essex Fells estates replaces aging copper, zinc, terne-coated steel, and aluminum standing-seam systems with modern metalwork that restores the architectural character these materials contribute to the estate\'s design vocabulary. Metal roofing on Essex Fells homes typically appears as accent elements -- dormer cladding, turret caps, bay window roofs, and the transition sections between main roof and auxiliary structure connections. When these metal elements reach end-of-life through fatigue cracking, solder joint failure, or corrosion breakthrough, replacement requires the sheet metal fabrication and field installation expertise specific to architectural metalwork.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Essex Fells — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement on Essex Fells estates replaces aging copper, zinc, terne-coated steel, and aluminum standing-seam systems with modern metalwork that restores the architectural character these materials contribute to the estate\'s design vocabulary. Metal roofing on Essex Fells homes typically appears as accent elements -- dormer cladding, turret caps, bay window roofs, and the transition sections between main roof and auxiliary structure connections. When these metal elements reach end-of-life through fatigue cracking, solder joint failure, or corrosion breakthrough, replacement requires the sheet metal fabrication and field installation expertise specific to architectural metalwork.',
     'The replacement of aging metal roofing on Essex Fells estates often presents the opportunity to upgrade from materials no longer available -- terne-coated steel, lead-coated copper -- to modern equivalents that offer comparable or superior performance. Terne-coated stainless steel replaces original terne plate with improved corrosion resistance. Freedom gray copper provides the dark patina aesthetic of lead-coated copper without the environmental concerns associated with lead. These material transitions require understanding of both the original material\'s architectural intent and the replacement material\'s different installation characteristics.',
     'Our metal roof replacement capability in [Essex Fells](/roofing-in-essex-fells-nj) combines architectural sensitivity with production-quality metalworking. We document original profiles, proportions, and detailing before removal, then fabricate replacement components in our sheet metal shop to replicate the architectural intent using specified modern materials. This documentation-fabrication-installation sequence preserves the design character of the estate\'s metalwork while delivering the performance improvements that modern metallurgy provides.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsMetalRoofReplacement: ComboContent = {
     {
       question: 'Is it possible to replace metal roofing on just one section of my estate?',
       answer: 'Sectional replacement is standard practice. Most Essex Fells metal roofing appears as accent elements -- dormers, turrets, bay windows, transition sections -- rather than whole-roof coverage. Each section can be replaced independently when it reaches end-of-life, provided the replacement material is specified to match or complement the existing metals on adjacent sections. We document the full property metalwork inventory during any replacement engagement to plan future sectional replacements as part of a coordinated estate maintenance strategy.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Essex Fells, NJ?',
+      answer: 'Most metal roof replacement projects in Essex Fells range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Essex Fells NJ -- copper, zinc, and standing-seam replacement with profile replication for estate homes.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

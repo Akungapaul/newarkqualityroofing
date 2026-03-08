@@ -4,7 +4,7 @@ export const livingstonEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'livingston',
   overview: [
-    'EPDM commercial roofing delivers proven performance for Livingston\'s professional office parks, retail centers, and institutional buildings where property managers prioritize long-term reliability over the reflective energy advantages of newer membrane technologies. The synthetic rubber membrane has logged decades of field performance across northern New Jersey\'s demanding climate, and Livingston\'s commercial building inventory includes numerous EPDM installations from the 1990s and early 2000s that continue performing well into their third decade of service.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Livingston — with prices starting from $6–$11/sq ft and free estimates available today. EPDM commercial roofing delivers proven performance for Livingston\'s professional office parks, retail centers, and institutional buildings where property managers prioritize long-term reliability over the reflective energy advantages of newer membrane technologies. The synthetic rubber membrane has logged decades of field performance across northern New Jersey\'s demanding climate, and Livingston\'s commercial building inventory includes numerous EPDM installations from the 1990s and early 2000s that continue performing well into their third decade of service.',
     'Property managers overseeing multi-tenant office buildings along Eisenhower Parkway select EPDM for its predictable lifecycle economics. The initial installed cost falls below TPO and PVC options, repair procedures are straightforward using readily available materials, and the membrane tolerates the foot traffic associated with rooftop HVAC maintenance without the scuffing concerns that affect some thermoplastic membranes. For building owners who view roofing as infrastructure rather than a performance differentiator, EPDM delivers dependable waterproofing at the lowest lifecycle cost.',
     'Our [EPDM commercial roofing](/epdm-commercial-roofing) installations in Livingston range from replacement of aging EPDM systems on 1980s office buildings to new installations on retail properties entering the commercial market along Route 10. Each project receives site-specific engineering that accounts for the building\'s mechanical equipment layout, drainage requirements, and wind exposure classification. Nearby commercial properties in [Bloomfield](/epdm-commercial-roofing-bloomfield-nj) share similar building profiles, though Livingston\'s newer construction presents different deck conditions than Bloomfield\'s aging commercial stock.',
     'Livingston\'s institutional buildings -- schools, community centers, and religious facilities -- represent a significant portion of our EPDM work in the township. These buildings operate under budget constraints that make EPDM\'s cost advantage meaningful, and the long service life aligns with the multi-decade planning horizons that institutional property managers apply to capital improvements.'
@@ -35,7 +35,25 @@ export const livingstonEpdmCommercialRoofing: ComboContent = {
     {
       question: 'Can EPDM be installed on my Livingston building during winter?',
       answer: 'EPDM adhesive application requires surface temperatures above 40 degrees Fahrenheit for proper bonding. Winter installations in Livingston are possible during mild periods, but we recommend scheduling for spring through fall when consistent temperatures ensure optimal adhesive performance. Emergency installations and repairs can proceed in cold weather using specialized cold-weather adhesive formulations with adjusted cure time allowances.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Livingston, NJ?',
+      answer: 'Most epdm commercial roofing projects in Livingston range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Livingston NJ -- cost-effective rubber membrane for offices, retail, and institutional buildings along Eisenhower Parkway.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

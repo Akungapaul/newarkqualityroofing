@@ -4,7 +4,7 @@ export const glenRidgeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Asphalt shingle roof replacement in Glen Ridge is viable only with premium architectural products that satisfy the Historic Preservation Commission\'s material standards. Standard three-tab shingles and basic architectural lines lack the dimensional profile, shadow detail, and visual weight needed to complement the borough\'s Victorian and Edwardian architecture. Newark Quality Roofing specifies designer-grade architectural shingles -- products like CertainTeed Grand Manor, GAF Camelot, and Owens Corning Berkshire -- that replicate the texture and depth of slate or wood shake while providing modern performance and maintainability.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Glen Ridge — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement in Glen Ridge is viable only with premium architectural products that satisfy the Historic Preservation Commission\'s material standards. Standard three-tab shingles and basic architectural lines lack the dimensional profile, shadow detail, and visual weight needed to complement the borough\'s Victorian and Edwardian architecture. Newark Quality Roofing specifies designer-grade architectural shingles -- products like CertainTeed Grand Manor, GAF Camelot, and Owens Corning Berkshire -- that replicate the texture and depth of slate or wood shake while providing modern performance and maintainability.',
     'The commission\'s acceptance of premium architectural shingles varies by application and visibility. On street-facing primary elevations of the borough\'s most architecturally significant homes, the commission may still prefer natural slate or cedar shake. On secondary elevations, rear-facing planes, and homes where the original roofing was never premium material, designer architectural shingles often receive approval. Our [consultation process](/custom-roof-design-consultation-glen-ridge-nj) determines which elevations and applications will benefit from shingle specification versus where premium traditional materials remain the appropriate choice.',
     'For Glen Ridge homeowners seeking the best balance between preservation compatibility and practical budget management, premium architectural shingles offer a compelling value proposition. These products deliver 40- to 50-year manufacturer warranties, Class 4 impact resistance in specific product lines, and wind ratings exceeding 130 miles per hour. The installed cost is typically 40 to 60 percent lower than natural slate, making quality roofing accessible to homeowners who cannot justify the slate investment but refuse to compromise on the visual standard their Glen Ridge neighborhood demands.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeAsphaltShingleRoofReplacement: ComboContent = {
       question: 'How long do premium architectural shingles last in Glen Ridge?',
       answer: 'Premium designer shingles carry 40- to 50-year manufacturer warranties and deliver 30 to 40 years of actual service in Essex County conditions. Enhanced installation techniques including six-nail patterns and full starter adhesive maximize wind resistance and longevity. While shorter-lived than natural slate, these shingles provide excellent value for the investment.',
     },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Glen Ridge range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Glen Ridge NJ. Premium designer shingles for Historic Preservation Commission approval.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

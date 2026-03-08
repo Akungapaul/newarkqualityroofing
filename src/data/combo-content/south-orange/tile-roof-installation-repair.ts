@@ -4,7 +4,7 @@ export const southOrangeTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Tile roofing occupies a select but visually prominent place in South Orange Village\'s roofscape. A handful of Mediterranean Revival, Spanish Colonial, and Italian Renaissance homes built during the 1920s boom era carry original clay tile roofs that define their architectural identity as strongly as slate defines the village\'s Tudor Revivals. These tile installations require specialized maintenance and repair expertise that general roofing contractors rarely possess, making qualified tile work among the most difficult roofing services for South Orange homeowners to source.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in South Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing occupies a select but visually prominent place in South Orange Village\'s roofscape. A handful of Mediterranean Revival, Spanish Colonial, and Italian Renaissance homes built during the 1920s boom era carry original clay tile roofs that define their architectural identity as strongly as slate defines the village\'s Tudor Revivals. These tile installations require specialized maintenance and repair expertise that general roofing contractors rarely possess, making qualified tile work among the most difficult roofing services for South Orange homeowners to source.',
     'Clay and concrete tile roofing appeals to South Orange homeowners undertaking new construction or substantial renovations where permanence and architectural distinction justify the material premium. The 75-to-100-year service life of quality clay tile eliminates the replacement cycles that other materials impose, aligning with the long-term property stewardship mindset prevalent in this affluent village. Homeowners who have invested in slate understand the lifecycle value argument, and tile offers comparable longevity with a different aesthetic vocabulary suitable for specific architectural styles found here and in neighboring [Maplewood](/tile-roof-installation-repair-maplewood-nj).',
     'Repair work on existing tile roofs in South Orange typically involves replacing individual cracked or broken tiles, re-bedding displaced ridge and hip tiles, and addressing underlayment deterioration beneath tiles that have shifted over decades of thermal movement. The original 1920s installations used felt underlayment that has long since deteriorated, leaving the tiles themselves as the primary waterproofing layer. Our restoration approach includes phased underlayment replacement that lifts and resets tiles in sections, upgrading the secondary waterproofing while preserving the original tile material.',
     'South Orange\'s [roofing](/roofing-in-south-orange-nj) contractors must understand that tile repair work involves the entire system -- not just individual tiles. Flashing at valleys, walls, and penetrations must be compatible with tile coursing, and mortar at ridges and hips must flex with thermal movement without cracking. Our tile repair protocol addresses the complete system, from the deck up through the ridge, ensuring each component supports long-term tile performance.'
@@ -35,7 +35,25 @@ export const southOrangeTileRoofInstallationRepair: ComboContent = {
     {
       question: 'What happens if a tree branch cracks tiles on my South Orange tile roof?',
       answer: 'Individual cracked tiles can be replaced without disturbing the surrounding installation. We remove the damaged tile by lifting the overlapping courses above it, slide in the replacement tile, and secure it with the appropriate fastener. The challenge is sourcing matching tiles for vintage installations. We recommend that South Orange tile roof owners keep a small inventory of spare tiles for future repairs -- we can source and store replacement stock during non-emergency periods when salvage availability and pricing are more favorable.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in South Orange, NJ?',
+      answer: 'Most tile roof installation repair projects in South Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in South Orange NJ -- clay and concrete tile systems for Mediterranean, Spanish, and Italian Revival homes.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

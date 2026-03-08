@@ -4,7 +4,7 @@ export const orangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Fire damage roof replacement in Orange restores roofing systems after fires that burn through the roof structure or compromise its integrity through heat, smoke, and water exposure from firefighting operations. Our [fire damage roof replacement](/fire-damage-roof-replacement) projects coordinate with fire marshals, insurance adjusters, structural engineers, and restoration contractors to rebuild the roof within the larger restoration timeline that fire-damaged Orange buildings require.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Orange — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Orange restores roofing systems after fires that burn through the roof structure or compromise its integrity through heat, smoke, and water exposure from firefighting operations. Our [fire damage roof replacement](/fire-damage-roof-replacement) projects coordinate with fire marshals, insurance adjusters, structural engineers, and restoration contractors to rebuild the roof within the larger restoration timeline that fire-damaged Orange buildings require.',
     'Orange\'s tight-lot construction creates fire spread risks that affect roofing on adjacent properties even when those buildings are not directly involved in the fire event. Radiant heat from a fully involved structure can melt or ignite shingles on the neighboring building three to five feet away. Firefighting water that overflows from the involved building soaks the adjacent roof and building envelope. Our fire damage assessments evaluate not just the fire-damaged building but the neighboring properties for heat damage, water intrusion, and smoke contamination.',
     'The intersection of fire damage with Orange\'s older housing stock compounds restoration complexity. Pre-1960 homes may have structural framing that does not meet current building code for fire-damaged reconstruction. Rewiring requirements triggered by fire damage often reveal the full extent of outdated electrical systems. Our roof replacement on fire-damaged Orange homes integrates with the structural and code upgrades that the building department requires for occupancy restoration. Fire-damaged properties across [Newark](/fire-damage-roof-replacement-newark-nj) face the same code-triggered upgrade requirements.'
   ],
@@ -34,7 +34,25 @@ export const orangeFireDamageRoofReplacement: ComboContent = {
     {
       question: 'What about my neighbor\'s roof if the fire was on my Orange property?',
       answer: 'Adjacent properties on tight Orange lots frequently sustain radiant heat damage to shingles, siding, and window glazing from neighboring fires. Your homeowner liability coverage may apply to damage your fire caused to neighboring properties. We assess adjacent buildings during our initial evaluation and document any fire-related damage for insurance purposes.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Orange, NJ?',
+      answer: 'Most fire damage roof replacement projects in Orange range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Orange NJ -- structural engineering, insurance coordination, tight-lot adjacent damage, and code-compliant reconstruction.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

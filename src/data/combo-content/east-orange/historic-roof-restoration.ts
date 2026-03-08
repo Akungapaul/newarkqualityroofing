@@ -4,7 +4,7 @@ export const eastOrangeHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'east-orange',
   overview: [
-    'Historic roof restoration in East Orange preserves the architectural character of a city whose Victorian, Queen Anne, and Colonial Revival building stock represents one of Essex County\'s most significant collections of late nineteenth and early twentieth century residential architecture. The Elmwood Park Historic District, the buildings along Prospect Street, and the scattered landmark structures throughout the city carry original or period-appropriate roofing systems -- slate, decorative metal, cedar shake, and patterned shingle work -- that define the architectural character worth preserving. [Historic roof restoration](/historic-roof-restoration) on these buildings requires material knowledge, installation techniques, and preservation philosophy that standard re-roofing contractors do not carry.',
+    'Newark Quality Roofing delivers expert historic roof restoration in East Orange — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in East Orange preserves the architectural character of a city whose Victorian, Queen Anne, and Colonial Revival building stock represents one of Essex County\'s most significant collections of late nineteenth and early twentieth century residential architecture. The Elmwood Park Historic District, the buildings along Prospect Street, and the scattered landmark structures throughout the city carry original or period-appropriate roofing systems -- slate, decorative metal, cedar shake, and patterned shingle work -- that define the architectural character worth preserving. [Historic roof restoration](/historic-roof-restoration) on these buildings requires material knowledge, installation techniques, and preservation philosophy that standard re-roofing contractors do not carry.',
     'East Orange\'s historic building inventory faces a preservation challenge unique to communities with high rental property conversion rates: the buildings most architecturally significant are often the ones most economically stressed. Victorian mansions converted to multi-family rentals generate income on tight margins that leave little room for the premium materials and specialized labor that authentic restoration requires. Finding the balance between preservation integrity and investment reality is the central design question in East Orange historic roofing work -- a balance that may involve synthetic slate where natural slate cost is prohibitive, or fire-retardant cedar where original untreated wood creates insurance barriers.',
     'Tax incentive programs provide financial support for East Orange property owners who undertake qualified historic rehabilitation. The federal Historic Tax Credit delivers a 20 percent credit on qualified rehabilitation expenditures for income-producing historic buildings listed on the National Register. The New Jersey Historic Preservation Tax Credit provides additional state-level support. Roof restoration work that meets the Secretary of the Interior\'s Standards for Rehabilitation qualifies for these credits, and the tax benefit can reduce the net cost of authentic restoration materials to a level competitive with conventional roofing. Property owners restoring historic buildings in [Newark](/historic-roof-restoration-newark-nj) benefit from the same tax credit programs.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeHistoricRoofRestoration: ComboContent = {
     {
       question: 'How long does a restored slate roof last on an East Orange historic building?',
       answer: 'Quality natural slate properly installed on a sound structure lasts 75 to 150 years depending on the slate source and thickness. Vermont slate in the standard roofing thickness range typically delivers 100 or more years of service. This extraordinary longevity is the original justification for slate as a roofing material and remains the most compelling argument for authentic restoration -- a single slate installation can outlast three or four cycles of conventional roofing alternatives.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in East Orange, NJ?',
+      answer: 'Most historic roof restoration projects in East Orange range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration for East Orange NJ buildings -- slate repair, Victorian preservation, and tax credit-qualifying rehabilitation work.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const newarkRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'newark',
   overview: [
-    'Newark\'s roofing landscape tells the story of a city built in layers -- Victorian-era brownstones in Forest Hill pressed shoulder-to-shoulder against their neighbors, mid-century multi-family walk-ups lining the avenues of Roseville, and flat-roofed commercial blocks anchoring the Ironbound district. Roof repair here is never a simple patch job. The density of construction, the age of materials, and the shared structural elements between adjacent buildings mean that every repair demands an understanding of how water, wind, and time interact with Newark\'s particular building stock.',
+    'Newark Quality Roofing delivers expert roof repair in Newark — with prices starting from $350–$1,500 and free estimates available today. Newark\'s roofing landscape tells the story of a city built in layers -- Victorian-era brownstones in Forest Hill pressed shoulder-to-shoulder against their neighbors, mid-century multi-family walk-ups lining the avenues of Roseville, and flat-roofed commercial blocks anchoring the Ironbound district. Roof repair here is never a simple patch job. The density of construction, the age of materials, and the shared structural elements between adjacent buildings mean that every repair demands an understanding of how water, wind, and time interact with Newark\'s particular building stock.',
     'Brownstone rows throughout the North Ward and Forest Hill present a recurring challenge: party walls. These shared masonry dividers between row houses create seams where flashing deteriorates, mortar joints crack, and water finds paths that no single homeowner can address alone. A roof repair on one unit frequently reveals damage migrating from -- or toward -- the adjoining property. Our crews understand the diplomacy and technical coordination required when repair work spans property lines, and we carry the liability coverage that Newark\'s multi-party repair situations demand.',
     'The Ironbound neighborhood, with its mix of Portuguese bakeries, Brazilian restaurants, and light industrial buildings, presents flat-roof repair challenges distinct from the pitched residential roofs found in Vailsburg or Weequahic. Commercial membrane roofs in the Ironbound accumulate standing water behind parapets, develop blistering under Newark\'s urban heat island effect, and suffer punctures from rooftop HVAC equipment that serves the dense commercial district below. Repairing these roofs requires material knowledge that goes beyond residential shingle work.',
     'From the steep slate roofs of Forest Hill\'s historic estates to the modified bitumen surfaces atop Downtown\'s mixed-use buildings along Broad Street, Newark demands roof repair technicians who can move fluently between eras and materials. Our team brings that versatility -- we carry both traditional copper soldering equipment and modern single-ply welding gear on every service call, because in Newark, you never know which century\'s roofing system you\'ll encounter until you\'re standing on it.'
@@ -39,7 +39,25 @@ export const newarkRoofRepair: ComboContent = {
     {
       question: 'What roof repair materials hold up best in Newark\'s urban heat island climate?',
       answer: 'For pitched residential roofs in Newark, we recommend architectural shingles rated for high thermal cycling -- specifically products with SBS-modified asphalt that maintains flexibility through temperature extremes. For flat commercial roofs, TPO and PVC membranes with high reflectivity ratings reduce surface temperature and resist the UV degradation that accelerates in Newark\'s heat island. We avoid standard 3-tab shingles on sun-exposed Newark roofs because their rigid composition cracks faster under the thermal stress that our urban environment produces.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Newark, NJ?',
+      answer: 'Most roof repair projects in Newark range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Expert roof repair in Newark NJ -- brownstone party wall leaks, flat roof patching, and multi-story access solutions for every neighborhood.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

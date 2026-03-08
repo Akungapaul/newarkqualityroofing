@@ -4,7 +4,7 @@ export const caldwellGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Gutter systems in Caldwell contend with a force that urban installations rarely face at the same intensity: trees. The borough\'s mature canopy of oaks, maples, and sweetgums drops an enormous volume of leaves, seeds, and small branches onto every roof surface from September through December, and the bulk of that debris ends up in the gutters. A Caldwell homeowner who neglects fall gutter cleaning for even a single season can find their six-inch K-style channels packed solid with decomposing leaf matter, backing water under shingle courses and sending overflow cascading against foundation walls. Gutter work here is inseparable from the leaf management reality that defines property maintenance in this tree-covered borough.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Caldwell — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems in Caldwell contend with a force that urban installations rarely face at the same intensity: trees. The borough\'s mature canopy of oaks, maples, and sweetgums drops an enormous volume of leaves, seeds, and small branches onto every roof surface from September through December, and the bulk of that debris ends up in the gutters. A Caldwell homeowner who neglects fall gutter cleaning for even a single season can find their six-inch K-style channels packed solid with decomposing leaf matter, backing water under shingle courses and sending overflow cascading against foundation walls. Gutter work here is inseparable from the leaf management reality that defines property maintenance in this tree-covered borough.',
     'The accessible scale of Caldwell\'s housing stock makes gutter installation and repair straightforward compared to the multi-story urban buildings of Newark or the steep-pitched Victorians of Montclair. Most Caldwell colonials stand two stories with standard eave heights of eighteen to twenty-two feet -- well within reach of extension ladders and manageable for single-crew operations. Ranch homes and capes bring the work even closer to ground level. This accessibility means gutter projects in Caldwell complete faster, cost less in labor, and carry lower risk than equivalent work on taller or more complex structures. The savings translate directly to the homeowner.',
     'Standard five-inch K-style seamless aluminum gutters serve most Caldwell homes well. The roof areas on typical colonials and capes generate manageable water volumes that five-inch channels handle without issue, and the two-by-three-inch downspouts that pair with them drain efficiently into the open yards that surround detached Caldwell homes. This contrasts sharply with the oversized six-inch systems and three-by-four downspouts required on Newark brownstones where limited discharge points and concentrated runoff demand larger capacity. In Caldwell, right-sizing the gutter system keeps costs reasonable and appearance proportional to the home.',
     'Gutter guard systems are genuinely worth the investment in Caldwell -- perhaps more so than in any other Essex County municipality. The leaf load here is not incidental; it is a seasonal onslaught that fills unprotected gutters multiple times between October and December. Micro-mesh gutter guards that allow water through while excluding leaves, pine needles, and seed pods reduce maintenance from multiple annual cleanings to a single annual inspection. For Caldwell homeowners tired of climbing ladders every few weeks in autumn or paying for repeated cleaning service, guards convert an ongoing labor burden into a one-time installation investment with measurable return.'
@@ -36,7 +36,25 @@ export const caldwellGutterInstallationRepair: ComboContent = {
     {
       question: 'My gutters are pulling away from the house. Can they be reattached?',
       answer: 'Gutters that have pulled away from the fascia almost always indicate fascia rot behind the gutter -- the screws or spikes have lost their grip in softened wood. Reattaching gutters to rotted fascia is a temporary fix that fails again within a season. The correct repair involves removing the gutter section, replacing the deteriorated fascia with new solid lumber or PVC board, and reinstalling the gutter with new hidden hangers into the sound substrate. We inspect the full fascia length during any gutter reattachment to identify all affected areas so the repair is comprehensive rather than piecemeal.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Caldwell, NJ?',
+      answer: 'Most gutter installation repair projects in Caldwell range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Caldwell NJ -- seamless aluminum systems, gutter guards for heavy leaf loads, and fascia repair for colonial homes.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

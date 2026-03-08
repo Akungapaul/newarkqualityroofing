@@ -4,7 +4,7 @@ export const bellevilleInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'belleville',
   overview: [
-    'Insurance-covered roof replacement in Belleville follows storm damage events that produce widespread shingle loss, structural impact from fallen trees, and hail damage across the township\'s closely-spaced residential blocks. When a severe weather event hits Belleville, the damage pattern often affects entire streets because the tight building spacing channels wind and debris across multiple properties simultaneously. Our [insurance roof replacement](/insurance-roof-replacement) team deploys immediately after storms, documenting damage and initiating claims before adjusters are overwhelmed by the volume of Belleville-area claims.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Belleville — with prices starting from $8,500–$30,000 and free estimates available today. Insurance-covered roof replacement in Belleville follows storm damage events that produce widespread shingle loss, structural impact from fallen trees, and hail damage across the township\'s closely-spaced residential blocks. When a severe weather event hits Belleville, the damage pattern often affects entire streets because the tight building spacing channels wind and debris across multiple properties simultaneously. Our [insurance roof replacement](/insurance-roof-replacement) team deploys immediately after storms, documenting damage and initiating claims before adjusters are overwhelmed by the volume of Belleville-area claims.',
     'Navigating the insurance claim process is the most stressful part of storm damage recovery for Belleville homeowners, and it is where our experience provides the greatest value. We have processed hundreds of storm damage claims across Essex County and understand the documentation standards, pricing formats, and coverage interpretations that adjusters apply. We prepare Xactimate-formatted estimates that speak the adjuster\'s language, photograph damage with the systematic thoroughness that claim reviewers require, and attend adjuster inspections to ensure that all damage is identified and properly scoped.',
     'Belleville\'s aging housing stock creates insurance complications that newer homes in the western suburbs do not face. Policies on older homes often carry depreciation schedules, material matching limitations, or coverage caps that reduce the claim payment below full replacement cost. We help Belleville homeowners understand their policy provisions before filing, identifying potential gaps between coverage and actual replacement cost that may affect their out-of-pocket expense.',
     'The proximity between Belleville homes means that storm damage frequently involves adjacent-property considerations. A tree that falls across two roofs, wind damage that tears shingles from one home and deposits them against the neighbor\'s siding, or debris impact that damages a roof along with the neighbor\'s fence -- these multi-property situations require separate claims for each affected property with coordinated documentation. We handle these multi-property situations regularly in [Belleville](/roofing-in-belleville-nj) and neighboring [Newark](/insurance-roof-replacement-newark-nj), preparing documentation that clearly delineates each owner\'s damage and claim.'
@@ -35,7 +35,25 @@ export const bellevilleInsuranceRoofReplacement: ComboContent = {
     {
       question: 'How long does the insurance replacement process take in Belleville?',
       answer: 'From initial damage to completed replacement, the timeline is typically 4-8 weeks. This includes 1-2 weeks for claim filing and adjuster inspection, 1-2 weeks for claim approval and payment processing, and 2-3 days for the actual replacement work. The adjuster inspection and approval process determines most of the timeline. We expedite every step within our control.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Belleville, NJ?',
+      answer: 'Most insurance roof replacement projects in Belleville range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Belleville NJ. Storm damage claims assistance with Xactimate documentation for post-war homes near Branch Brook Park.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const caldwellSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Slate roof replacement in Caldwell serves the select group of homes carrying natural slate roofing that has reached the end of its century-long service life or has sustained damage beyond selective repair scope. While slate is the most durable residential roofing material available, even properly maintained slate roofs eventually reach the point where the cumulative effect of freeze-thaw cycling, broken individual slates, and deteriorated flashings makes selective repair unsustainable. At that point, full slate replacement -- or transition to an alternative material -- becomes the appropriate investment.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Caldwell — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Caldwell serves the select group of homes carrying natural slate roofing that has reached the end of its century-long service life or has sustained damage beyond selective repair scope. While slate is the most durable residential roofing material available, even properly maintained slate roofs eventually reach the point where the cumulative effect of freeze-thaw cycling, broken individual slates, and deteriorated flashings makes selective repair unsustainable. At that point, full slate replacement -- or transition to an alternative material -- becomes the appropriate investment.',
     'The slate replacement decision for [Caldwell](/roofing-in-caldwell-nj) homeowners involves choosing between replacement-in-kind with new natural slate and transition to an alternative material that provides a different balance of cost, performance, and appearance. New natural slate delivers another century of protection with authentic appearance but at the highest cost of any residential roofing material. Synthetic slate products replicate the visual character at roughly half the cost and a fraction of the weight, with fifty-year performance expectations. Architectural asphalt shingles provide reliable protection at the lowest cost but sacrifice the premium appearance that motivated the original slate selection.',
     'Our [slate roof replacement](/slate-roof-replacement) capability for Caldwell includes both authentic natural slate installation and synthetic alternative options, allowing the homeowner to compare materials side by side before committing. We source natural slate from Pennsylvania, Vermont, and Virginia quarries that produce material compatible with the architectural styles found in Caldwell and across Essex County. Homeowners in [Montclair](/slate-roof-replacement-montclair-nj) and [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) face similar decisions on their historic slate-roofed properties.'
   ],
@@ -34,7 +34,25 @@ export const caldwellSlateRoofReplacement: ComboContent = {
     {
       question: 'How long does a new natural slate roof last in Caldwell?',
       answer: 'New natural slate roofing from quality quarries delivers seventy-five to one hundred fifty years of service depending on the slate grade and geographic origin. Vermont and Pennsylvania slates at the higher end of this range produce some of the most durable residential roofing material available. The copper flashings and fasteners specified for slate installation last fifty to seventy-five years and will need replacement during the slate\'s lifespan, but the slate itself continues performing for multiple generations of homeowners.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Caldwell, NJ?',
+      answer: 'Most slate roof replacement projects in Caldwell range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Caldwell NJ -- natural and synthetic slate options for colonial homes with quarry sourcing and copper flashing.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

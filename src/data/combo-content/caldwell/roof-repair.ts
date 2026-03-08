@@ -4,7 +4,7 @@ export const caldwellRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'caldwell',
   overview: [
-    'Caldwell sits at the western edge of Essex County where the suburban density of the inner ring gives way to tree-lined streets, detached single-family homes, and the kind of neighborhood continuity where the same families have lived on the same block for decades. Roof repair here operates in a fundamentally different context than the row houses and multi-story commercial buildings of Newark or East Orange. Most Caldwell homes are colonial and cape cod designs from the 1950s through the 1970s, set on quarter-acre lots with mature oak and maple canopies that define the town character but also create persistent roofing challenges -- from branch impact during storms to years of leaf debris accumulating in valleys and behind dormers.',
+    'Newark Quality Roofing delivers expert roof repair in Caldwell — with prices starting from $350–$1,500 and free estimates available today. Caldwell sits at the western edge of Essex County where the suburban density of the inner ring gives way to tree-lined streets, detached single-family homes, and the kind of neighborhood continuity where the same families have lived on the same block for decades. Roof repair here operates in a fundamentally different context than the row houses and multi-story commercial buildings of Newark or East Orange. Most Caldwell homes are colonial and cape cod designs from the 1950s through the 1970s, set on quarter-acre lots with mature oak and maple canopies that define the town character but also create persistent roofing challenges -- from branch impact during storms to years of leaf debris accumulating in valleys and behind dormers.',
     'The relationship between a Caldwell homeowner and their roofing contractor reflects the small-town dynamic that still governs this borough. Recommendations travel through neighborhood connections, school sports parents, and conversations at the Bloomfield Avenue shops. A botched repair gets discussed at the diner and at the Little League field, and a contractor who cuts corners loses the street, not just the job. We approach Caldwell roof repair with the understanding that our reputation here is built one neighbor at a time, and every repair has to satisfy not just the homeowner but the watching eyes of the people next door.',
     'Colonial roofs dominate Caldwell residential streets, and their geometry creates specific repair vulnerabilities. The intersecting roof planes where dormers meet the main roof create valleys that trap debris and concentrate water flow. Hip-to-gable transitions on split-level homes -- common in the developments built during the 1960s expansion -- produce flashing junctions where thermal movement opens gaps over time. Cape cod homes with their low-pitch rear roof planes collect snow loads that slide incrementally, tearing shingles loose at the drip edge. Each of these failure patterns is predictable and preventable when the repair addresses root cause rather than surface symptom.',
     'Caldwell homeowners tend to maintain their properties carefully and catch problems early. We see more proactive inspection-driven repairs here than emergency leak calls, which allows us to plan work around weather windows and material availability rather than scrambling for temporary patches. This maintenance-oriented culture means Caldwell roofs generally stay in better baseline condition than their urban counterparts, and our repair approach reflects that -- targeted, precise interventions that extend existing roof system life rather than the large-scale triage work that dense urban building stock demands.'
@@ -35,7 +35,25 @@ export const caldwellRoofRepair: ComboContent = {
     {
       question: 'How long does a typical roof repair take on a Caldwell home?',
       answer: 'Most Caldwell residential repairs complete in a single day. Valley reflashing on a colonial dormer takes four to six hours. Replacing a section of storm-damaged shingles runs two to four hours depending on the area. More involved repairs -- replacing deteriorated sheathing under a leaking section, addressing ice dam damage with membrane installation -- may take two days. We schedule start times and provide a realistic completion estimate so you can plan your day accordingly.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Caldwell, NJ?',
+      answer: 'Most roof repair projects in Caldwell range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Caldwell NJ roof repair for colonials and capes -- dormer valley leaks, storm branch damage, and ice dam solutions with small-town service.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

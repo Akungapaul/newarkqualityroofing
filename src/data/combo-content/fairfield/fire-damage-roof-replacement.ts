@@ -4,7 +4,7 @@ export const fairfieldFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'fairfield',
   overview: [
-    'Fire damage roof replacement in Fairfield restores weather protection after structural fires, chimney fires, and lightning strikes that compromise the roof system beyond repair. Fire damage to roofing extends beyond the visible burn area -- heat degrades shingle integrity, warps framing members, weakens connections, and compromises decking for a radius around the fire origin that may not be obvious from visual inspection. Complete assessment of heat-affected zones is essential before replacement specifications can be developed.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Fairfield — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Fairfield restores weather protection after structural fires, chimney fires, and lightning strikes that compromise the roof system beyond repair. Fire damage to roofing extends beyond the visible burn area -- heat degrades shingle integrity, warps framing members, weakens connections, and compromises decking for a radius around the fire origin that may not be obvious from visual inspection. Complete assessment of heat-affected zones is essential before replacement specifications can be developed.',
     'Fairfield\'s residential fire damage typically originates from chimney fires, electrical faults in attic spaces, or lightning strikes during summer thunderstorms. Each cause produces a different damage pattern: chimney fires concentrate heat at the chimney-to-roof junction, electrical fires may burn through attic framing before reaching the roof surface, and lightning strikes can split rafters and ignite sheathing at the point of impact. Our [fire damage replacement](/fire-damage-roof-replacement) assessments evaluate the specific damage pattern to determine the full extent of structural and roofing replacement needed.',
     'Insurance coordination for fire damage roof replacement in Fairfield follows a structured process similar to storm damage claims but with additional complexity. Fire damage claims often involve multiple trades -- structural, roofing, electrical, interior -- and the insurance settlement must cover all affected systems. Our scope documentation clearly delineates the roofing and structural roof framing portions of the damage, providing the insurance adjuster with the detailed information needed to process the roofing component of the claim without conflating it with other trade scopes.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Is the smoke-damaged portion of my Fairfield roof dangerous?',
       answer: 'Smoke and soot residue on roofing materials is not typically dangerous from the exterior but can affect indoor air quality if soot has infiltrated the attic and HVAC system. We recommend professional soot and smoke remediation for attic spaces affected by fire before re-occupancy. Our roofing scope includes removal of all contaminated insulation and roofing materials in the affected zone as part of the replacement process.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Fairfield, NJ?',
+      answer: 'Most fire damage roof replacement projects in Fairfield range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Fairfield NJ. Structural restoration and insurance coordination after chimney fires and lightning strikes.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

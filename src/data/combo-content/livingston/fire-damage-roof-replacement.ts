@@ -4,7 +4,7 @@ export const livingstonFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Fire damage roof replacement restores Livingston homes where fire has compromised the roofing system, underlying structure, or both. The scope ranges from localized replacement where a chimney fire damaged the surrounding roof area to complete reconstruction where structural fire consumed roof framing and required demolition to safe conditions. Each scenario demands coordination between the roofing contractor, structural engineer, general contractor, and insurance carrier to restore the home safely and completely.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Livingston — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement restores Livingston homes where fire has compromised the roofing system, underlying structure, or both. The scope ranges from localized replacement where a chimney fire damaged the surrounding roof area to complete reconstruction where structural fire consumed roof framing and required demolition to safe conditions. Each scenario demands coordination between the roofing contractor, structural engineer, general contractor, and insurance carrier to restore the home safely and completely.',
     'Livingston\'s detached residential construction means fire damage typically remains contained to a single property, unlike row house fires in urban areas where damage spans multiple buildings. However, the radiant heat from a Livingston house fire can melt and deform roofing materials on neighboring homes, potentially extending repair or replacement scope beyond the fire-origin property. Our assessment covers both the primary damage structure and any adjacent properties affected by heat exposure.',
     'Our [fire damage roof replacement](/fire-damage-roof-replacement) service integrates with the broader fire restoration process, coordinating with general contractors managing the overall rebuild and insurance adjusters overseeing the claim. The roofing scope must align precisely with the structural restoration -- new roof framing must be complete and inspected before roofing materials are installed, and the roofing installation must protect the restored interior from weather during the remaining renovation work below.',
     'Insurance coordination for fire damage replacement is typically more straightforward than storm damage claims because fire damage is clearly covered under standard homeowner policies. The documentation requirements focus on scope verification -- confirming that the replacement scope matches the damage extent -- rather than the causation disputes that sometimes complicate storm damage claims. We provide the detailed documentation carriers require for fire damage claim processing.'
@@ -35,7 +35,25 @@ export const livingstonFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Will neighboring Livingston homes need roof work from radiant heat damage?',
       answer: 'We assess neighboring properties when asked to evaluate fire damage. Radiant heat can melt shingle surfaces, deform flashing, and degrade material integrity on homes within close proximity to the fire structure. If adjacent damage is found, the neighbor\'s insurance would cover their repair under their own policy, and we provide assessment documentation to support their claim.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Livingston, NJ?',
+      answer: 'Most fire damage roof replacement projects in Livingston range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Livingston NJ -- structural coordination, insurance documentation, and complete restoration after residential fire.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

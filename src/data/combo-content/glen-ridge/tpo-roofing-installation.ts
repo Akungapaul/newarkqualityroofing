@@ -4,7 +4,7 @@ export const glenRidgeTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'glen-ridge',
   overview: [
-    'TPO roofing in Glen Ridge serves a narrow but important segment of the borough\'s building stock. While virtually all of Glen Ridge\'s homes carry traditional pitched roofs, the borough\'s institutional buildings, small commercial properties along Bloomfield Avenue, and select residential additions with flat-roof sections benefit from modern TPO membrane technology. Newark Quality Roofing brings the same meticulous standards we apply to Glen Ridge\'s historic slate and cedar work to our commercial membrane installations, ensuring that even utilitarian flat-roof surfaces perform reliably beneath the tree canopy that defines this gas-lit borough.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Glen Ridge — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing in Glen Ridge serves a narrow but important segment of the borough\'s building stock. While virtually all of Glen Ridge\'s homes carry traditional pitched roofs, the borough\'s institutional buildings, small commercial properties along Bloomfield Avenue, and select residential additions with flat-roof sections benefit from modern TPO membrane technology. Newark Quality Roofing brings the same meticulous standards we apply to Glen Ridge\'s historic slate and cedar work to our commercial membrane installations, ensuring that even utilitarian flat-roof surfaces perform reliably beneath the tree canopy that defines this gas-lit borough.',
     'The Historic Preservation Commission\'s purview extends primarily to street-visible roofing, which means TPO installations on rear additions, flat-roofed porches, and screened sections behind parapets can proceed without the lengthy material approval process that pitched-roof work requires. This makes TPO an efficient solution for Glen Ridge homeowners who need waterproof performance on low-slope sections that are not subject to the same aesthetic scrutiny as their home\'s primary [roof replacement](/roof-replacement-glen-ridge-nj). We specify white or light-grey TPO membranes that complement the borough\'s predominantly neutral roofscape rather than industrial-looking darker options.',
     'Glen Ridge\'s compact 1.3-square-mile footprint and narrow residential lots create access constraints that favor TPO\'s relatively lightweight rolls and simple heat-welded installation over bulkier commercial roofing systems. Our crews can stage TPO material in tight side yards and work efficiently on the small flat-roof sections typical of Glen Ridge residential additions, completing most installations in a single day without the heavy equipment that disrupts this quiet community. Neighboring [Bloomfield](/tpo-roofing-installation-bloomfield-nj) properties with larger commercial footprints require different staging approaches entirely.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeTpoRoofingInstallation: ComboContent = {
       question: 'Does heavy leaf fall damage TPO membranes?',
       answer: 'Leaf accumulation itself does not damage TPO, but prolonged moisture retention beneath organic debris can promote algae and accelerate wear at membrane seams. We recommend clearing flat-roof TPO surfaces twice annually -- after the main autumn leaf drop and again in early spring. Gutter and scupper drainage paths should be checked at the same time to prevent ponding.',
     },
+    {
+      question: 'How much does tpo roofing installation cost in Glen Ridge, NJ?',
+      answer: 'Most tpo roofing installation projects in Glen Ridge range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in Glen Ridge NJ. Flat-roof membrane solutions for additions and institutional buildings in the historic district.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

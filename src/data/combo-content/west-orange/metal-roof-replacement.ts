@@ -4,7 +4,7 @@ export const westOrangeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Metal roof replacement upgrades West Orange homes from aging asphalt, wood, or tile to standing seam or metal shingle systems that deliver 50-year performance and near-total wind resistance. Our [metal roof replacement](/metal-roof-replacement) work in West Orange engineers each system for the property\'s specific elevation, exposure, and architectural character, ensuring that the premium investment in metal roofing delivers the full performance advantage these systems provide.',
+    'Newark Quality Roofing delivers expert metal roof replacement in West Orange — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement upgrades West Orange homes from aging asphalt, wood, or tile to standing seam or metal shingle systems that deliver 50-year performance and near-total wind resistance. Our [metal roof replacement](/metal-roof-replacement) work in West Orange engineers each system for the property\'s specific elevation, exposure, and architectural character, ensuring that the premium investment in metal roofing delivers the full performance advantage these systems provide.',
     'Ridge-top West Orange homes along Eagle Rock Avenue represent the strongest engineering case for metal roof replacement. The sustained wind exposure that strips asphalt shingles every few years makes metal\'s interlocking panel system a practical necessity rather than a luxury upgrade. Standing seam panels with 180-mph wind ratings and concealed fastener systems eliminate the shingle replacement cycle that ridge-top homeowners endure with conventional materials. Homeowners near [Montclair](/metal-roof-replacement-montclair-nj) pursue similar metal upgrades on their own Watchung ridge-top homes.',
     'Metal shingle systems provide the aesthetic versatility that West Orange\'s architecturally diverse neighborhoods demand. Standing seam panels suit contemporary and modern home designs; metal shingles replicate the appearance of slate, shake, or tile without the weight or maintenance requirements of natural materials. For Llewellyn Park estates and other historic properties, metal shingle profiles matching the home\'s original material appearance deliver modern performance beneath a traditional aesthetic.',
     'The lifecycle cost analysis favors metal roofing for [West Orange](/roofing-in-west-orange-nj) homeowners planning extended ownership. A metal roof\'s 50-year service life eliminates the mid-life re-roofing event that asphalt shingles require at 25 years, and the near-zero maintenance requirement eliminates the annual inspection, repair, and moss treatment costs that West Orange\'s canopy-shaded environment imposes on other materials.'
@@ -35,7 +35,25 @@ export const westOrangeMetalRoofReplacement: ComboContent = {
     {
       question: 'Will a metal roof affect my cell phone or internet reception?',
       answer: 'No. Metal roofing does not interfere with cell phone signals, Wi-Fi, or internet service. Radio waves penetrate metal roofing through windows, walls, and eave openings. Any signal reception issues in a metal-roofed home exist independently of the roof material. This concern dates from an era of rooftop antennas that modern cellular and wireless technology has made obsolete.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in West Orange, NJ?',
+      answer: 'Most metal roof replacement projects in West Orange range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in West Orange NJ. Standing seam and metal shingle systems with 50-year performance for ridge-top homes.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

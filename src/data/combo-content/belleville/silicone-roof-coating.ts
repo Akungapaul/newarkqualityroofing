@@ -4,7 +4,7 @@ export const bellevilleSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'belleville',
   overview: [
-    'Silicone roof coating extends the service life of aging commercial flat roofs across Belleville\'s Washington Avenue corridor and Belleville Turnpike industrial zone without the cost, disruption, and landfill waste of a full tear-off and re-roof. For building owners managing tight capital budgets on properties that generate modest commercial rents, silicone coating transforms a deteriorating but structurally sound membrane into a reflective, waterproof surface that adds 10-15 years of service life at 30-40% of replacement cost.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Belleville — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating extends the service life of aging commercial flat roofs across Belleville\'s Washington Avenue corridor and Belleville Turnpike industrial zone without the cost, disruption, and landfill waste of a full tear-off and re-roof. For building owners managing tight capital budgets on properties that generate modest commercial rents, silicone coating transforms a deteriorating but structurally sound membrane into a reflective, waterproof surface that adds 10-15 years of service life at 30-40% of replacement cost.',
     'The ponding water tolerance of silicone coating makes it particularly suited for Belleville\'s older commercial buildings where structural settling has created low spots that trap standing water after rain events. Unlike acrylic coatings that soften and wash away under prolonged ponding, silicone maintains its waterproof integrity and UV-reflective properties even under permanent ponding conditions. For Belleville Turnpike warehouses and Washington Avenue retail buildings where eliminating ponding would require costly structural modification, silicone coating provides reliable protection over the ponding areas that would compromise other coating types.',
     'Our [silicone roof coating](/silicone-roof-coating) applications in Belleville are applied over properly prepared existing membrane surfaces -- EPDM, modified bitumen, BUR, TPO, and metal roofing are all compatible substrates. The coating creates a seamless, monolithic surface with no seams, laps, or joints that could fail. For aging EPDM roofs where seam adhesive failure is the primary leak source, a silicone coating encapsulates and reinforces every seam, flashing, and penetration detail, effectively renewing the entire waterproof surface without removing the existing membrane beneath.',
     'Energy savings from silicone\'s high reflectivity provide an ongoing financial benefit for Belleville commercial building owners beyond the immediate waterproofing restoration. A white silicone coating reflects 85-90% of solar radiation that a dark EPDM or BUR surface was absorbing, reducing cooling costs by 20-35% in climate-controlled commercial spaces. For Washington Avenue offices, retail spaces, and restaurants, this cooling cost reduction accelerates the payback on the coating investment, often recovering the full project cost within 4-6 years through combined savings on repairs and energy costs compared to buildings in [Newark](/silicone-roof-coating-newark-nj) with similar aging flat roofs.'
@@ -35,7 +35,25 @@ export const bellevilleSiliconeRoofCoating: ComboContent = {
     {
       question: 'Will silicone coating stop my Belleville flat roof from leaking?',
       answer: 'Silicone coating creates a seamless waterproof surface that eliminates seam-related and surface-deterioration leaks. However, it cannot repair structural failures, collapsed insulation, or damaged deck substrates. We repair all active leaks and substrate deficiencies before coating application, ensuring the coating is applied over a sound base. After coating, the monolithic surface provides leak protection superior to the original seamed membrane system.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Belleville, NJ?',
+      answer: 'Most silicone roof coating projects in Belleville range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Belleville NJ. Extend commercial flat roof life 10-15 years with reflective, ponding-tolerant coating at 40% of replacement cost.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const newarkTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'newark',
   overview: [
-    'Tile roofing in Newark is an uncommon but architecturally significant presence. Mediterranean Revival and Spanish Colonial homes built during the 1920s and 1930s in pockets of Forest Hill and along sections of Mount Prospect Avenue feature original clay tile roofs that contribute distinctive character to streetscapes otherwise dominated by asphalt and slate. Several Newark churches and institutional buildings also carry tile roofs installed during the same era, with barrel tiles and flat interlocking profiles that have weathered nine decades of northern New Jersey seasons.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Newark — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Newark is an uncommon but architecturally significant presence. Mediterranean Revival and Spanish Colonial homes built during the 1920s and 1930s in pockets of Forest Hill and along sections of Mount Prospect Avenue feature original clay tile roofs that contribute distinctive character to streetscapes otherwise dominated by asphalt and slate. Several Newark churches and institutional buildings also carry tile roofs installed during the same era, with barrel tiles and flat interlocking profiles that have weathered nine decades of northern New Jersey seasons.',
     'The rarity of tile roofing in Newark creates both preservation value and practical challenges. Few local roofing contractors maintain the specialized knowledge required for proper tile work, leading property owners to accept inappropriate repairs that compromise the roof system. Silicone sealant smeared over cracked tiles, cement mortar applied where mechanical fastening is required, and mismatched replacement tiles sourced without regard to profile or color create patchwork surfaces that leak and deteriorate faster than the original installation they were meant to preserve.',
     'Structural weight is the defining engineering concern for tile roofing in Newark. Clay and concrete tiles weigh eight to twelve pounds per square foot, three to four times the load of asphalt shingles. Original tile-framed Newark homes were built to carry this weight, but decades of exposure may have reduced the capacity of individual framing members. Any tile roof project must begin with a structural assessment that accounts for the cumulative weight of tiles, underlayment, battens, and potential snow loads that Newark experiences during winter months.',
     'Commercial property owners considering tile roofing for Newark buildings typically focus on high-visibility street-facing elevations where the tile profile creates a distinctive market presence. Restaurants, cultural venues, and retail spaces in revitalization districts use tile roofing as an architectural differentiator that communicates permanence and quality to customers approaching from the street.',
@@ -36,6 +36,24 @@ export const newarkTileRoofInstallationRepair: ComboContent = {
       question: 'How much does tile roof repair cost in Newark compared to replacement?',
       answer: 'Targeted tile repairs replacing individual broken units and reseating slipped tiles typically cost between one and three thousand dollars per service visit. Full tile roof replacement on a typical Newark home ranges from twenty to forty thousand dollars depending on tile type and roof complexity. We recommend annual maintenance inspections that catch small problems before they cascade into the widespread failures that force full replacement.',
     },
+    {
+      question: 'How much does tile roof installation repair cost in Newark, NJ?',
+      answer: 'Most tile roof installation repair projects in Newark range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Newark NJ. Clay and concrete tile expertise for Mediterranean Revival homes with freeze-thaw resistant materials.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

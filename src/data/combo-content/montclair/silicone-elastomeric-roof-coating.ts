@@ -4,7 +4,7 @@ export const montclairSiliconeElastomericRoofCoating: ComboContent = {
   serviceId: 'silicone-elastomeric-roof-coating',
   cityId: 'montclair',
   overview: [
-    'Silicone elastomeric roof coating extends the restoration concept beyond basic waterproofing into a flexible, self-healing membrane system engineered for the thermal cycling extremes that Montclair\'s Watchung Ridge elevation inflicts on commercial roof surfaces. The elastomeric formulation stretches and recovers with temperature-driven expansion and contraction -- maintaining film continuity across substrate cracks, seam separations, and surface irregularities that rigid coatings bridge temporarily but eventually split open as the underlying movement persists through seasonal cycles.',
+    'Newark Quality Roofing delivers expert silicone elastomeric roof coating in Montclair — with prices starting from $3–$7/sq ft and free estimates available today. Silicone elastomeric roof coating extends the restoration concept beyond basic waterproofing into a flexible, self-healing membrane system engineered for the thermal cycling extremes that Montclair\'s Watchung Ridge elevation inflicts on commercial roof surfaces. The elastomeric formulation stretches and recovers with temperature-driven expansion and contraction -- maintaining film continuity across substrate cracks, seam separations, and surface irregularities that rigid coatings bridge temporarily but eventually split open as the underlying movement persists through seasonal cycles.',
     'The distinction between standard silicone coating and elastomeric silicone matters on Montclair\'s commercial roofs because the township\'s elevation produces a wider annual temperature range than valley-floor communities in Essex County. Winter lows that drop well below zero contract metal flashing, membrane materials, and structural deck components. Summer highs above ninety degrees reverse the movement. Each cycle stresses every seam, joint, and surface discontinuity on the roof. Elastomeric coating absorbs this movement rather than transferring it to the coating surface as cracks -- the defining performance advantage over non-elastomeric coating products.',
     'Our [silicone elastomeric coating](/silicone-elastomeric-roof-coating) installations for [Montclair](/roofing-in-montclair-nj) commercial properties combine the ponding-water tolerance of silicone chemistry with the elongation and flexibility of elastomeric formulation, creating a restoration system suited to the specific demands of Montclair\'s commercial rooftop environment. Properties along the Bloomfield Avenue corridor and throughout the township\'s institutional building inventory benefit from a coating system that accommodates the thermal cycling, ponding-water conditions, and UV exposure that their roof surfaces endure year after year.',
     'Building owners in adjacent communities like [West Orange](/silicone-elastomeric-roof-coating-west-orange-nj) and [Caldwell](/silicone-elastomeric-roof-coating-caldwell-nj) have adopted elastomeric silicone coating for the same combination of flexibility, reflectivity, and ponding tolerance that makes it the premium restoration option for aging commercial flat roofs throughout western Essex County.'
@@ -35,7 +35,25 @@ export const montclairSiliconeElastomericRoofCoating: ComboContent = {
     {
       question: 'Can elastomeric silicone coating be applied over previous coatings?',
       answer: 'Yes, provided the previous coating is well-adhered and compatible with silicone chemistry. Existing acrylic coatings must be tested for adhesion and may require priming before silicone application. Previous silicone coatings provide an excellent substrate for recoating with elastomeric silicone. Existing coatings that are peeling, blistering, or poorly adhered must be removed to expose the underlying membrane before new coating application. We adhesion-test the existing coating at multiple locations to verify that the recoat will bond reliably across the entire surface.'
-    }
+    },
+    {
+      question: 'How much does silicone elastomeric roof coating cost in Montclair, NJ?',
+      answer: 'Most silicone elastomeric roof coating projects in Montclair range from $3–$7/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Elastomeric silicone roof coating in Montclair NJ -- flexible restoration coating for thermal cycling on commercial flat roofs.',
+  pricing: {
+    range: '$3–$7/sq ft',
+    note: 'reflective coating application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone elastomeric roof coating estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const westOrangeStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Storm damage roof replacement in West Orange addresses the catastrophic roof failures that severe weather produces on homes across the township\'s elevation gradient -- from wind-stripped ridge-top roofs to tree-crushed valley-floor structures. Our [storm damage roof replacement](/storm-damage-roof-replacement) service provides rapid emergency stabilization followed by complete replacement using materials and engineering upgraded to withstand the next storm event rather than repeating the vulnerability that allowed the current damage.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in West Orange — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in West Orange addresses the catastrophic roof failures that severe weather produces on homes across the township\'s elevation gradient -- from wind-stripped ridge-top roofs to tree-crushed valley-floor structures. Our [storm damage roof replacement](/storm-damage-roof-replacement) service provides rapid emergency stabilization followed by complete replacement using materials and engineering upgraded to withstand the next storm event rather than repeating the vulnerability that allowed the current damage.',
     'The Watchung ridge concentrates storm energy onto West Orange\'s highest-elevation homes with measurably greater force than valley-floor properties experience. Nor\'easters, severe thunderstorms, and the remnants of tropical systems all intensify as they climb the ridge, producing wind speeds at Eagle Rock elevation 15 to 20 percent higher than measurements at valley floor. Storm damage replacement at ridge elevation incorporates wind-rated materials and enhanced fastening that accounts for this amplified exposure. Homeowners near [Cedar Grove](/storm-damage-roof-replacement-cedar-grove-nj) face similar ridge-top storm intensity along the northern Watchung corridor.',
     'Tree-strike damage from South Mountain Reservation\'s mature hardwood canopy creates West Orange\'s most dramatic storm damage scenarios. Oak and maple trees weakened by disease or root disturbance collapse during severe weather, crushing roof sections and requiring structural rebuilding beyond simple re-roofing. Our storm damage response includes structural assessment by licensed engineers who determine the extent of framing damage and specify the repairs needed before replacement roofing can be installed.',
     'Insurance claim coordination is integral to every [West Orange](/roofing-in-west-orange-nj) storm damage replacement. We document damage immediately after the event, prepare detailed scope estimates in adjuster-compatible format, and coordinate with the assigned adjuster to ensure that the full replacement scope -- including code upgrades and structural repairs -- receives coverage under the homeowner\'s policy.'
@@ -35,7 +35,25 @@ export const westOrangeStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Does my insurance cover the full cost of storm damage replacement?',
       answer: 'Most homeowner policies cover storm damage replacement minus your deductible. Replacement cost value policies pay for full replacement with like-kind materials at current prices. Actual cash value policies apply depreciation, reducing the payout based on the roof\'s age and condition. We identify your policy type during the claims process and document the claim to maximize your coverage recovery, including code upgrade endorsements that provide additional funds for current-code compliance.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in West Orange, NJ?',
+      answer: 'Most storm damage roof replacement projects in West Orange range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in West Orange NJ. Emergency tarping, insurance claims, and upgraded replacement for all elevations.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

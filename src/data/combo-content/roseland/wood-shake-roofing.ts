@@ -4,7 +4,7 @@ export const roselandWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'roseland',
   overview: [
-    'Wood shake roofing in Roseland appeals to homeowners who want their homes to stand apart from the architectural asphalt shingles that dominate the borough\'s residential streetscape. The natural texture and dimensional depth of hand-split shakes create a visual warmth that manufactured products cannot replicate, and on Roseland\'s colonials and expanded ranch homes, wood shakes transform an otherwise conventional roof into an architectural statement. Our [wood shake roofing](/wood-shake-roofing) installations use premium cedar and treated wood products selected for durability in New Jersey\'s demanding four-season climate.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Roseland — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Roseland appeals to homeowners who want their homes to stand apart from the architectural asphalt shingles that dominate the borough\'s residential streetscape. The natural texture and dimensional depth of hand-split shakes create a visual warmth that manufactured products cannot replicate, and on Roseland\'s colonials and expanded ranch homes, wood shakes transform an otherwise conventional roof into an architectural statement. Our [wood shake roofing](/wood-shake-roofing) installations use premium cedar and treated wood products selected for durability in New Jersey\'s demanding four-season climate.',
     'Roseland\'s residential lots, while suburban in character, feature mature tree canopies that create both aesthetic opportunity and maintenance responsibility for wood shake roofs. The dappled shade produced by established hardwoods protects shakes from UV degradation but simultaneously slows drying after rain, creating conditions that favor moss and algae colonization if preventive treatment is neglected. Homeowners in nearby [Livingston](/wood-shake-roofing-livingston-nj) navigate similar tree-canopy dynamics with their wood roofs, and our maintenance protocols address the specific moisture management challenges of shaded suburban environments.',
     'Replacement of aging wood shake roofs in Roseland has increased as homes originally built in the 1960s and 1970s reach the end of their second or third roofing cycle. Some homeowners choose to reinstall wood shakes, preserving the natural aesthetic they value, while others transition to architectural shingles or composite products that mimic the shake appearance with lower maintenance requirements. We present both paths with honest assessments of cost, maintenance commitment, and visual outcome so Roseland homeowners can make informed decisions.'
   ],
@@ -34,7 +34,25 @@ export const roselandWoodShakeRoofing: ComboContent = {
     {
       question: 'What maintenance does a wood shake roof need each year?',
       answer: 'Annual maintenance includes clearing debris from the roof surface and valleys, inspecting for split, cupped, or displaced shakes, checking all flashing details, and cleaning gutters. Every three to five years, we recommend professional cleaning with low-pressure washing to remove algae and moss growth, followed by application of a wood preservative that restores natural oils and UV protection. This maintenance schedule is the difference between a 20-year roof and a 40-year roof on a shaded Roseland lot.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Roseland, NJ?',
+      answer: 'Most wood shake roofing projects in Roseland range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Roseland NJ -- cedar shake installation, maintenance, and replacement for residential homes with expert fire treatment.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

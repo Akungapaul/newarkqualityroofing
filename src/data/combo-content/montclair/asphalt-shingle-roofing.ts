@@ -4,7 +4,7 @@ export const montclairAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'montclair',
   overview: [
-    'Asphalt shingle selection in Montclair is an architectural decision as much as a practical one. The township\'s steep-slope Victorian rooflines, visible from the street and from neighboring properties uphill on the Watchung Ridge, make the roof a dominant visual element of every home\'s curb appeal. Montclair homeowners routinely invest in designer-series architectural shingles -- heavyweight laminated products with deep shadow lines, varied color blends, and profiles that approximate slate or cedar shake at a fraction of the material cost. The aesthetic bar in neighborhoods like Upper Montclair and the Glen Ridge border is set by homes with $40,000 slate roofs; asphalt shingle choices that look flat or monochromatic simply do not compete.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Montclair — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle selection in Montclair is an architectural decision as much as a practical one. The township\'s steep-slope Victorian rooflines, visible from the street and from neighboring properties uphill on the Watchung Ridge, make the roof a dominant visual element of every home\'s curb appeal. Montclair homeowners routinely invest in designer-series architectural shingles -- heavyweight laminated products with deep shadow lines, varied color blends, and profiles that approximate slate or cedar shake at a fraction of the material cost. The aesthetic bar in neighborhoods like Upper Montclair and the Glen Ridge border is set by homes with $40,000 slate roofs; asphalt shingle choices that look flat or monochromatic simply do not compete.',
     'Wind performance drives material specification on Montclair\'s exposed upper streets. Properties along the Watchung Ridge crest and in Montclair Heights sit at elevations where measured wind speeds during coastal storms exceed valley-floor readings by a consistent margin. Standard three-tab shingles -- already declining in market share -- are categorically inappropriate for these exposures. We specify Impact Resistant Class 4 architectural shingles with 130 mph wind ratings and laminated construction that resists the tab-lifting failure mode that destroys three-tab installations in high-wind events. The insurance premium discount for Class 4 impact-resistant shingles in many cases offsets the material cost premium within three to five years.',
     'Montclair\'s dense tree canopy creates a microclimate on roof surfaces that suburban installations never contend with. Perpetual shade on north-facing slopes promotes moss, lichen, and algae colonization that holds moisture against the shingle surface, accelerating granule erosion and shortening material lifespan. South-facing slopes receive intense sun exposure during summer months but remain shaded for shorter winter days. This mixed-exposure reality means that a single Montclair roof may have surfaces aging at dramatically different rates -- a condition that requires material selection accounting for the worst-case exposure on each plane rather than averaging conditions across the entire roof.',
     'The competitive renovation market in Montclair pushes asphalt shingle choices toward premium products that enhance resale positioning. Real estate transactions in Montclair\'s $800,000-to-$2,000,000 market segment scrutinize roof condition and material quality during inspection. A recently installed designer-series shingle roof with transferable warranty documentation appears on listing sheets as a material upgrade, while a basic builder-grade installation draws inspection contingencies and price negotiation. Our material recommendations account for this market reality alongside the technical performance requirements.'
@@ -39,7 +39,25 @@ export const montclairAsphaltShingleRoofing: ComboContent = {
     {
       question: 'Will a new shingle roof affect my Montclair home\'s resale value?',
       answer: 'A recently installed premium shingle roof is one of the highest-ROI exterior improvements in Montclair\'s real estate market. Buyers in the $800,000-plus price range expect to see quality roofing with transferable warranty documentation. Our installations include full manufacturer warranty registration with transfer provisions, a detailed installation record with photographs, and a maintenance guide -- documentation that strengthens a listing presentation and reduces inspection-related contingencies. The roof is typically the first exterior element a buyer notices, and in Montclair\'s architecturally conscious market, material quality signals overall property care.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Montclair, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Montclair range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Montclair NJ asphalt shingle roofing -- designer colors for steep-slope Victorians, wind-rated for Watchung Ridge, with algae protection for tree-canopy shade.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

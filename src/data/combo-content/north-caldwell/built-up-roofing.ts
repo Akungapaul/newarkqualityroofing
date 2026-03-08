@@ -4,7 +4,7 @@ export const northCaldwellBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'Built-up roofing systems on North Caldwell properties exist primarily as legacy installations on older commercial buildings and municipal structures that were constructed before modern single-ply membranes became the industry standard. The multi-layer BUR approach -- alternating plies of asphalt-saturated felt with hot-mopped bitumen and a gravel or cap sheet surface -- provided the flat roof waterproofing technology of its era and continues to protect several properties along the borough\'s limited commercial corridors.',
+    'Newark Quality Roofing delivers expert built up roofing in North Caldwell — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems on North Caldwell properties exist primarily as legacy installations on older commercial buildings and municipal structures that were constructed before modern single-ply membranes became the industry standard. The multi-layer BUR approach -- alternating plies of asphalt-saturated felt with hot-mopped bitumen and a gravel or cap sheet surface -- provided the flat roof waterproofing technology of its era and continues to protect several properties along the borough\'s limited commercial corridors.',
     'Our [built-up roofing](/built-up-roofing) work in North Caldwell focuses on maintenance, repair, and strategic restoration of existing BUR systems that still have serviceable life remaining. For property owners managing the cost of commercial roof assets, restoring a BUR system at forty to fifty percent of replacement cost makes financial sense when the existing plies remain adhered and the insulation beneath is dry. Properties in nearby [Caldwell](/built-up-roofing-caldwell-nj) maintain similar legacy BUR systems on their older commercial buildings.',
     'When full replacement becomes necessary, we transition North Caldwell commercial properties from BUR to modern single-ply systems that deliver equivalent or superior waterproofing with lower installed weight, better energy performance, and simpler long-term maintenance. This transition requires careful removal of the heavy existing BUR assembly and assessment of the deck structure that has supported several tons of roofing material for decades under [North Caldwell](/roofing-in-north-caldwell-nj) weather conditions.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellBuiltUpRoofing: ComboContent = {
     {
       question: 'Is BUR removal hazardous on an occupied North Caldwell building?',
       answer: 'BUR removal generates dust, debris, and potentially asphalt fumes that require containment measures on occupied buildings. We install dust barriers at building penetrations, schedule removal during off-hours when feasible, and use low-fume removal techniques. For North Caldwell commercial buildings in residential neighborhoods, we also manage noise and traffic impacts to minimize disruption to surrounding properties.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in North Caldwell, NJ?',
+      answer: 'Most built up roofing projects in North Caldwell range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing repair and replacement in North Caldwell NJ -- BUR restoration and modern system transitions for commercial properties.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'millburn',
   overview: [
-    'Commercial metal roofing in Millburn occupies a distinctive position where the material\'s industrial durability meets the architectural refinement that the township\'s commercial corridor demands. The boutique retail buildings, professional offices, and mixed-use properties along Millburn Avenue cannot install the utilitarian corrugated panels found on warehouse buildings in [Newark](/commercial-metal-roofing-newark-nj) or industrial parks -- Millburn\'s commercial metal applications require standing seam profiles in architectural finishes that complement the downtown\'s curated streetscape character while delivering the fifty-year performance that metal roofing systems provide.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Millburn — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in Millburn occupies a distinctive position where the material\'s industrial durability meets the architectural refinement that the township\'s commercial corridor demands. The boutique retail buildings, professional offices, and mixed-use properties along Millburn Avenue cannot install the utilitarian corrugated panels found on warehouse buildings in [Newark](/commercial-metal-roofing-newark-nj) or industrial parks -- Millburn\'s commercial metal applications require standing seam profiles in architectural finishes that complement the downtown\'s curated streetscape character while delivering the fifty-year performance that metal roofing systems provide.',
     'Standing seam metal panels on Millburn commercial buildings offer property owners a roofing system that eliminates the re-roofing cycle that flat-membrane alternatives impose every twenty to thirty years. For building owners who plan to hold their Millburn Avenue properties as long-term investments, the higher initial cost of architectural standing seam is offset by the elimination of two or three membrane replacements over the metal roof\'s service life. Our [commercial metal roofing](/commercial-metal-roofing) practice in Millburn focuses on this lifecycle value proposition, presenting total cost of ownership analyses that demonstrate the economic advantage for owners with long holding periods.',
     'Institutional buildings in Millburn -- the library, municipal facilities, school buildings, and houses of worship -- increasingly specify metal roofing during major renovation projects as the community recognizes the material\'s combination of longevity, energy efficiency, and reduced maintenance burden. These public-facing buildings benefit from metal\'s aesthetic versatility -- available in profiles and colors that range from traditional to contemporary -- while the institutional budget benefits from a roof that requires minimal maintenance beyond annual inspection and will not need replacement within the building\'s next renovation cycle.'
   ],
@@ -34,7 +34,25 @@ export const millburnCommercialMetalRoofing: ComboContent = {
     {
       question: 'How does the cost of commercial metal roofing compare to flat-roof membrane systems?',
       answer: 'Initial installed cost for standing seam metal is typically fifty to one hundred percent higher than single-ply membrane systems. However, the lifecycle cost comparison favors metal for building owners with long holding periods -- a metal roof lasting fifty years eliminates the cost of two or three membrane replacements that would occur over the same period. When the avoided re-roofing costs, reduced maintenance expenses, and potential energy savings from reflective metal panels are factored in, the total cost of ownership for metal roofing is often lower than the cumulative cost of membrane replacements.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in Millburn, NJ?',
+      answer: 'Most commercial metal roofing projects in Millburn range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing for Millburn offices, retail, and institutional buildings. Architectural standing seam in PVDF finishes with acoustic engineering.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

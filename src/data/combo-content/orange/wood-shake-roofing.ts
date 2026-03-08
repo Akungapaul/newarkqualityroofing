@@ -4,7 +4,7 @@ export const orangeWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'orange',
   overview: [
-    'Wood shake roofing in Orange occupies a niche defined by the city\'s residential architecture: the Craftsman bungalows and Tudor Revival homes that dot blocks between Main Street and the South Mountain border. These homes were built when wood shakes were a common roofing material in northern New Jersey, and some Orange properties still carry original or second-generation shake installations that define their architectural character. Our [wood shake roofing](/wood-shake-roofing) services in Orange range from maintenance and repair of existing installations to full replacement with modern treated shakes that deliver the traditional appearance with significantly improved longevity.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Orange — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Orange occupies a niche defined by the city\'s residential architecture: the Craftsman bungalows and Tudor Revival homes that dot blocks between Main Street and the South Mountain border. These homes were built when wood shakes were a common roofing material in northern New Jersey, and some Orange properties still carry original or second-generation shake installations that define their architectural character. Our [wood shake roofing](/wood-shake-roofing) services in Orange range from maintenance and repair of existing installations to full replacement with modern treated shakes that deliver the traditional appearance with significantly improved longevity.',
     'The relationship between wood shakes and South Mountain\'s tree canopy creates a maintenance dynamic unique to Orange. Heavy shade from the reservation\'s hardwood forest promotes moisture retention on shake surfaces, accelerating the biological colonization -- moss, lichen, and wood-decay fungi -- that shortens shake lifespan. A wood shake roof on a sun-exposed Orange property may last 25 to 30 years, while the same product on a mountain-adjacent property can deteriorate in 15 to 18 years without aggressive preventive maintenance. We counsel Orange homeowners on realistic lifespan expectations based on their specific shade exposure before recommending shake installation or replacement.',
     'For Orange homeowners who want the wood shake aesthetic without the intensive maintenance commitment, we offer synthetic shake alternatives that replicate the hand-split texture and shadow pattern of natural wood. These composite products resist moisture, biological growth, and impact damage that challenge natural shakes in Orange\'s tree-canopy environment, while providing 50-year warranties and Class A fire ratings that natural wood cannot match. The visual difference from ground level is minimal, and the lifecycle cost advantage is substantial -- particularly for [Orange](/roofing-in-orange-nj) properties near the reservation where natural shakes require disproportionate maintenance investment.'
   ],
@@ -34,7 +34,25 @@ export const orangeWoodShakeRoofing: ComboContent = {
     {
       question: 'Can I install wood shakes on a flat or low-slope section of my Orange roof?',
       answer: 'No. Wood shakes require a minimum roof pitch of 4:12 to shed water properly and allow air circulation for drying. Flat and low-slope sections -- common on Orange\'s mixed-use Main Street buildings and some residential additions -- require membrane roofing systems instead. On homes with both steep and flat sections, we install shakes on the steep-pitch areas and compatible membrane on the low-slope sections with transition flashing between the two systems.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Orange, NJ?',
+      answer: 'Most wood shake roofing projects in Orange range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Orange NJ -- South Mountain moisture management, fire-treated installation, synthetic alternatives, and shade-specific maintenance.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

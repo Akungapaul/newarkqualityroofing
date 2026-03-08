@@ -4,7 +4,7 @@ export const westOrangeWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'west-orange',
   overview: [
-    'Wind damage defines West Orange roofing more than any other weather factor. The township straddles the first Watchung Mountain ridge, and nor\'easters funneling through the South Mountain gap deliver sustained wind loads to ridge-top properties that exceed valley-floor conditions by 15 to 20 percent. Homes along Eagle Rock Avenue, Prospect Avenue, and the upper reaches of Northfield Road absorb the full force of these accelerated winds, suffering shingle loss, ridge cap displacement, and flashing separation at rates that make wind damage repair the single most common roofing service call in upper West Orange. Our [wind damage roof repair](/wind-damage-roof-repair) protocol addresses both immediate damage and the underlying vulnerabilities that elevation creates.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in West Orange — with prices starting from $400–$2,000 and free estimates available today. Wind damage defines West Orange roofing more than any other weather factor. The township straddles the first Watchung Mountain ridge, and nor\'easters funneling through the South Mountain gap deliver sustained wind loads to ridge-top properties that exceed valley-floor conditions by 15 to 20 percent. Homes along Eagle Rock Avenue, Prospect Avenue, and the upper reaches of Northfield Road absorb the full force of these accelerated winds, suffering shingle loss, ridge cap displacement, and flashing separation at rates that make wind damage repair the single most common roofing service call in upper West Orange. Our [wind damage roof repair](/wind-damage-roof-repair) protocol addresses both immediate damage and the underlying vulnerabilities that elevation creates.',
     'Wind damage patterns in West Orange follow predictable elevation contours. Ridge-top homes above 400 feet lose shingles from sustained aerodynamic uplift -- the constant wind pressure eventually fatigues seal strips that hold shingle tabs flat. Mid-slope homes along Gregory Avenue and Main Street experience turbulent wind conditions created by the terrain transition, causing localized damage at dormers, valleys, and roof-to-wall intersections where turbulence concentrates pressure. Valley-floor homes around Pleasant Valley sustain wind damage less frequently but face tree-limb impacts when weakened branches break under wind stress. Homeowners in neighboring [Verona](/wind-damage-roof-repair-verona-nj) experience similar ridge-top wind exposure along the adjacent Watchung section.',
     'The aerodynamic vulnerability of West Orange\'s mid-century split-levels deserves particular attention. These multi-plane rooflines create wind acceleration zones at the level-change transitions where upper and lower roof sections meet. Wind hitting the upper roof plane is deflected downward and accelerated as it passes over the transition, creating suction forces that lift shingles from the lower plane at rates disproportionate to actual wind speed. This architectural wind amplification effect explains why split-level homes in the Gregory and Crystal Lake neighborhoods sustain wind damage during storms that leave their colonial neighbors relatively unscathed.',
     'Our wind damage repair approach for [West Orange](/roofing-in-west-orange-nj) incorporates materials and techniques specifically selected for the township\'s sustained wind exposure. We specify 130-mph wind-rated shingles with six-nail high-wind fastening patterns, enhanced starter strip adhesive at all eaves and rakes, and wind-rated ridge cap systems for every repair above the mid-slope line. These specifications add modest material cost but dramatically reduce the recurrence rate that makes wind damage repair a frustrating annual expense for ridge-top homeowners who accept standard-specification repairs from contractors unfamiliar with West Orange\'s elevation dynamics.'
@@ -35,7 +35,25 @@ export const westOrangeWindDamageRoofRepair: ComboContent = {
     {
       question: 'What is the difference between wind damage and normal wear on shingles?',
       answer: 'Wind damage shows specific physical signatures: clean shingle tab separation at the seal strip line, creased or curled tabs bent against their normal lay direction, and missing shingles with intact nails still visible in the decking. Normal wear presents as gradual granule loss across the shingle surface, uniform curling at tab edges, and brittleness from UV degradation. Our certified assessors differentiate these patterns during inspection, which is essential for accurate insurance claim documentation. Wind damage qualifies for storm damage coverage while normal wear is a maintenance responsibility.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in West Orange, NJ?',
+      answer: 'Most wind damage roof repair projects in West Orange range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in West Orange NJ. Ridge-top shingle loss, split-level turbulence damage, and 130-mph wind-rated upgrade installations.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const livingstonSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'livingston',
   overview: [
-    'Slate roofing in Livingston occupies a specialized niche within the township\'s predominantly asphalt-shingle market. While the split-levels and raised ranches defining most neighborhoods carry conventional shingle systems, select homes in the older sections along Eisenhower Parkway and near South Mountain feature slate installations that predate the postwar building boom -- stately colonials and Tudor-influenced designs whose original builders specified natural slate for its century-spanning durability and distinguished aesthetic character.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Livingston — with prices starting from $20,000–$45,000 and free estimates available today. Slate roofing in Livingston occupies a specialized niche within the township\'s predominantly asphalt-shingle market. While the split-levels and raised ranches defining most neighborhoods carry conventional shingle systems, select homes in the older sections along Eisenhower Parkway and near South Mountain feature slate installations that predate the postwar building boom -- stately colonials and Tudor-influenced designs whose original builders specified natural slate for its century-spanning durability and distinguished aesthetic character.',
     'Homeowners choosing new slate installation in Livingston typically occupy custom-built properties where architectural distinction justifies the premium investment. These installations require structural verification that the roof framing can support slate\'s considerable weight, typically three to four times heavier than asphalt shingle systems. The split-level framing common throughout Livingston was not designed for slate loading, so new installations on existing homes require engineering assessment and often structural reinforcement at bearing points. In contrast, [Millburn](/slate-roof-installation-repair-millburn-nj) estates were frequently built with framing dimensioned for slate from original construction.',
     'Repair work on existing Livingston slate roofs demands access to compatible replacement material, specialized installation tools, and craft techniques that most roofing contractors do not maintain in their regular service rotation. We carry slate rippers, copper nail stock, and a salvaged slate inventory that enables responsive repair on the limited number of Livingston slate roofs without the extended lead times that custom quarry orders require.',
     'Our [slate roof installation and repair](/slate-roof-installation-repair) service in Livingston provides both the technical capability for maintaining existing slate systems and the design consultation for homeowners considering slate on new construction or major renovation projects.'
@@ -35,7 +35,25 @@ export const livingstonSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'What is the cost difference between natural slate and synthetic slate?',
       answer: 'Natural slate installation typically costs three to five times more than architectural asphalt shingles when including structural reinforcement for homes not originally designed for slate loads. Synthetic slate products reduce the cost to approximately two times the asphalt shingle price point while eliminating the need for structural upgrades. We present both options with lifecycle cost comparisons so homeowners can make informed decisions based on budget, aesthetic priorities, and planned ownership duration.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Livingston, NJ?',
+      answer: 'Most slate roof installation repair projects in Livingston range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Livingston NJ -- structural assessment, salvaged slate sourcing, and copper flashing for lasting elegance.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

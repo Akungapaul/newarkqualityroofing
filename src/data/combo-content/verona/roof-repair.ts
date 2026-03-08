@@ -4,7 +4,7 @@ export const veronaRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'verona',
   overview: [
-    'Verona is a township defined by its split-level and bi-level housing stock, and roof repair here revolves around the multi-plane geometry that makes these mid-century homes both architecturally distinctive and structurally demanding. The level transitions that give split-levels their open floor plans also create complex roof intersections where flashing deteriorates, valleys trap debris, and water finds paths between planes that no single patch can address. Newark Quality Roofing has repaired hundreds of Verona split-levels, developing specialized techniques for the transition joints that plague homeowners across the Lakeview, Sunset, and Personette neighborhoods.',
+    'Newark Quality Roofing delivers expert roof repair in Verona — with prices starting from $350–$1,500 and free estimates available today. Verona is a township defined by its split-level and bi-level housing stock, and roof repair here revolves around the multi-plane geometry that makes these mid-century homes both architecturally distinctive and structurally demanding. The level transitions that give split-levels their open floor plans also create complex roof intersections where flashing deteriorates, valleys trap debris, and water finds paths between planes that no single patch can address. Newark Quality Roofing has repaired hundreds of Verona split-levels, developing specialized techniques for the transition joints that plague homeowners across the Lakeview, Sunset, and Personette neighborhoods.',
     'Beyond the split-level majority, Verona\'s pre-war colonials near the center of town and larger custom homes along Claremont Avenue present their own repair challenges. The colonials carry aging chimney flashings and skip-sheathing that complicates localized repairs, while hilltop properties along the Claremont ridge absorb wind loads that accelerate shingle lifting and flashing fatigue. Homeowners in neighboring [Cedar Grove](/roof-repair-cedar-grove-nj) share similar ranch-style repair needs, but Verona\'s dominant split-level geometry demands a fundamentally different diagnostic approach that accounts for water movement across elevation changes.',
     'Verona Park, the Olmsted-designed centerpiece of the township, creates a distinct microclimate for surrounding homes along Lakeside Avenue and Park Place. The mature tree canopy generates persistent shade that promotes moss colonization and traps moisture against roof surfaces, accelerating granule loss on shingles that would otherwise last their full rated lifespan. Our [roof repair](/roof-repair) approach for park-adjacent properties includes targeted ventilation improvements and algae-resistant material recommendations that address the biological growth cycle unique to this heavily shaded zone.',
     'The hilltop sections of Verona -- Claremont, upper Personette, and portions of the Lakeview neighborhood -- experience wind exposure markedly different from the valley areas near the park. During nor\'easters, these elevated properties absorb gusts 15 to 20 percent stronger than sheltered homes below, tearing shingles loose at rake edges and driving rain laterally under ridge caps. Repair specifications for hilltop Verona homes include enhanced nailing patterns and wind-rated starter strips that account for this exposure differential, a consideration that homeowners in the adjacent [Montclair](/roof-repair-montclair-nj) ridgeline neighborhoods share.'
@@ -35,7 +35,25 @@ export const veronaRoofRepair: ComboContent = {
     {
       question: 'How long does a typical roof repair take on a Verona home?',
       answer: 'Most Verona residential repairs complete in one day. Valley reflashing or dormer junction repairs take four to six hours. Replacing storm-damaged shingle sections runs two to four hours depending on area. Split-level transition rebuilds are more involved, typically requiring one to two full days to strip, membrane, flash, and reshingle the affected area properly. We schedule precise start times and provide realistic completion estimates so Verona families can plan accordingly.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Verona, NJ?',
+      answer: 'Most roof repair projects in Verona range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Verona NJ roof repair specialists -- split-level transition leaks, hilltop wind damage, and park-area moss solutions for every neighborhood.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

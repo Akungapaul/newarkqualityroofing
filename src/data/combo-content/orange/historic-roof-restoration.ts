@@ -4,7 +4,7 @@ export const orangeHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'orange',
   overview: [
-    'Orange\'s architectural heritage centers on Scotland Road, Park Avenue, and the residential streets radiating from Main Street, where Victorian, Queen Anne, and Colonial Revival homes built between 1870 and 1920 retain original roof features that define the city\'s character. Our [historic roof restoration](/historic-roof-restoration) work in Orange preserves these irreplaceable rooflines -- hand-split slate in graduated courses, soldered copper turret caps, ornamental ridge cresting, and hand-formed standing seam details that no longer have modern manufacturing equivalents. When an Orange homeowner commits to authentic restoration rather than replacement with modern materials, they invest in maintaining the architectural fabric that distinguishes their neighborhood.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Orange — with prices starting from $15,000–$50,000 and free estimates available today. Orange\'s architectural heritage centers on Scotland Road, Park Avenue, and the residential streets radiating from Main Street, where Victorian, Queen Anne, and Colonial Revival homes built between 1870 and 1920 retain original roof features that define the city\'s character. Our [historic roof restoration](/historic-roof-restoration) work in Orange preserves these irreplaceable rooflines -- hand-split slate in graduated courses, soldered copper turret caps, ornamental ridge cresting, and hand-formed standing seam details that no longer have modern manufacturing equivalents. When an Orange homeowner commits to authentic restoration rather than replacement with modern materials, they invest in maintaining the architectural fabric that distinguishes their neighborhood.',
     'The Scottish Rite Cathedral and the historic churches along Park Avenue represent Orange\'s most prominent institutional restoration candidates. These buildings feature large-scale roof assemblies with complex geometries -- steep slate fields, copper-clad spires, decorative dormers, and multi-level intersecting roof planes that require restoration techniques spanning multiple material specialties. Our institutional restoration projects in Orange coordinate slate masons, copper fabricators, and structural engineers to address every component of these elaborate roof systems within a unified restoration plan.',
     'Orange\'s historic homes face a restoration challenge distinct from cities with formal historic district commissions: without mandated preservation standards, the decision to restore authentically rests entirely with the homeowner. Many Scotland Road homeowners have watched neighbors replace original slate with asphalt shingles, gradually eroding the streetscape\'s historic character. Our restoration consultations help homeowners understand both the aesthetic and financial case for authentic restoration -- period-accurate slate and copper work preserves property values, qualifies for potential historic tax credits, and provides a roof system that outlasts modern alternatives by decades. Homeowners in [Montclair](/historic-roof-restoration-montclair-nj) face similar preservation decisions guided by their Historic Preservation Commission.'
   ],
@@ -34,7 +34,25 @@ export const orangeHistoricRoofRestoration: ComboContent = {
     {
       question: 'Do Orange historic homes qualify for restoration tax credits?',
       answer: 'New Jersey offers historic preservation tax credits for qualifying properties, though eligibility depends on the building\'s listing status and the scope of work. Properties listed on or eligible for the National Register of Historic Places may qualify for federal and state tax credits that offset 20 to 40% of eligible restoration costs. We recommend consulting with a historic preservation specialist to determine eligibility before beginning restoration work.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Orange, NJ?',
+      answer: 'Most historic roof restoration projects in Orange range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Orange NJ -- Scotland Road Victorian slate, copper turret fabrication, period-accurate material sourcing, and institutional roofs.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

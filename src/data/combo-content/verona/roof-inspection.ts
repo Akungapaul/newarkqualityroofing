@@ -4,7 +4,7 @@ export const veronaRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'verona',
   overview: [
-    'Roof inspection in Verona serves a township where proactive maintenance is the cultural norm. Verona homeowners tend to catch problems early, requesting inspections before visible leaks develop rather than waiting for ceiling stains. This maintenance-oriented approach reflects the long-term ownership patterns in a community where families stay for decades, invested in schools and neighborhood bonds. Newark Quality Roofing provides thorough inspections calibrated to Verona\'s predominant housing types -- with particular attention to the split-level and bi-level transition joints that represent the township\'s most common roofing vulnerability.',
+    'Newark Quality Roofing delivers expert roof inspection in Verona — with prices starting from $150–$400 and free estimates available today. Roof inspection in Verona serves a township where proactive maintenance is the cultural norm. Verona homeowners tend to catch problems early, requesting inspections before visible leaks develop rather than waiting for ceiling stains. This maintenance-oriented approach reflects the long-term ownership patterns in a community where families stay for decades, invested in schools and neighborhood bonds. Newark Quality Roofing provides thorough inspections calibrated to Verona\'s predominant housing types -- with particular attention to the split-level and bi-level transition joints that represent the township\'s most common roofing vulnerability.',
     'Split-level inspections in Verona require a different protocol than standard residential assessments. The transition areas between levels, where upper and lower roof planes meet short wall sections, hide the most consequential damage behind shingle courses and inside wall cavities. Surface inspection alone misses the corroded flashings, moisture-damaged sheathing, and failed sealants that drive chronic leaking on these homes. Our inspection protocol includes moisture meter readings at every transition, probing of wall cavities where accessible, and thermal pattern analysis during cold months when moisture infiltration reveals itself through temperature differentials on interior surfaces.',
     'Verona\'s varied terrain creates inspection priorities that change depending on property location. Hilltop homes along Claremont Avenue and upper Personette need wind damage assessment -- lifted shingles, loosened ridge caps, displaced drip edge -- while valley-floor properties near [Verona Park](/roofing-in-verona-nj) need biological growth evaluation and canopy-related debris damage inspection. Our inspectors tailor the checklist to each property\'s specific microclimate, ensuring the report addresses the actual risk factors rather than applying a generic assessment template.',
     'Real estate transaction inspections form a significant portion of our Verona inspection work. Buyers purchasing split-levels and bi-levels benefit from inspectors who understand the specific failure patterns these designs carry. A general home inspector may note a stained ceiling but miss the failing transition flashing above it, leaving the buyer to discover a five-figure repair need after closing. Our roofing-specific inspection identifies current conditions, estimates remaining system life, and provides repair-or-replace recommendations with cost ranges that inform the buyer\'s negotiating position.'
@@ -35,7 +35,25 @@ export const veronaRoofInspection: ComboContent = {
     {
       question: 'Do you inspect commercial roofs on Verona\'s Bloomfield Avenue?',
       answer: 'Yes. Commercial roof inspections along Bloomfield Avenue and Pompton Avenue typically involve flat or low-slope membrane systems. We evaluate membrane condition, seam integrity, drainage adequacy, and flashing around HVAC equipment and penetrations. Commercial inspections include a condition rating, estimated remaining service life, and a maintenance or replacement recommendation with budget projections. Reports are formatted for property managers and can be adapted for insurance or lease documentation requirements.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Verona, NJ?',
+      answer: 'Most roof inspection projects in Verona range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Verona NJ roof inspection for split-levels and family homes -- transition joint diagnostics, moisture testing, and real estate assessments.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

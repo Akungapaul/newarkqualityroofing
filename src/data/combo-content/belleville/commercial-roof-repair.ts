@@ -4,7 +4,7 @@ export const bellevilleCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'belleville',
   overview: [
-    'Commercial roof repair in Belleville is driven by a building stock where most flat-roof commercial structures along Washington Avenue and the Belleville Turnpike have roofing systems in the second half of their expected service life. These aging membranes develop seam failures, flashing deterioration, and ponding-related degradation that require targeted repair to maintain waterproof integrity until a planned replacement can be budgeted. Our [commercial roof repair](/commercial-roof-repair) services keep Belleville businesses operational and dry while building owners work toward the capital expenditure that full replacement represents.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Belleville — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Belleville is driven by a building stock where most flat-roof commercial structures along Washington Avenue and the Belleville Turnpike have roofing systems in the second half of their expected service life. These aging membranes develop seam failures, flashing deterioration, and ponding-related degradation that require targeted repair to maintain waterproof integrity until a planned replacement can be budgeted. Our [commercial roof repair](/commercial-roof-repair) services keep Belleville businesses operational and dry while building owners work toward the capital expenditure that full replacement represents.',
     'The repair needs along Washington Avenue differ from those on the Turnpike corridor. Washington Avenue storefronts with modified bitumen or BUR systems develop surface cracks, blister failures, and parapet-wall flashing separation caused by thermal cycling against the south-facing masonry walls. Turnpike industrial buildings with EPDM or metal roofing experience seam failures from thermal expansion, penetration flashing deterioration around HVAC equipment, and punctures from maintenance foot traffic on membrane surfaces never designed for regular walking.',
     'Emergency commercial repair response is a critical service for Belleville businesses where an active leak threatens inventory, equipment, or occupancy. A restaurant on Washington Avenue experiencing water intrusion during service, a warehouse on the Turnpike with water reaching stored product, or a medical office near the town center with ceiling water -- each situation demands rapid response that stops active water entry before permanent repair can be scheduled. Our Belleville commercial crews maintain emergency materials and respond to active leak calls within 4-8 hours during business days.',
     'Preventive repair through routine inspection is the most cost-effective approach for Belleville commercial building owners. Our semi-annual inspection program identifies seam weaknesses, flashing deterioration, and drain blockages before they produce active leaks. The cost of preventive repairs identified during routine inspection is typically 20-30% of the emergency repair and interior damage costs that result from undetected failures on buildings across Belleville and neighboring [Newark](/commercial-roof-repair-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleCommercialRoofRepair: ComboContent = {
     {
       question: 'Do you offer commercial roof maintenance contracts in Belleville?',
       answer: 'Yes. Our semi-annual maintenance program includes comprehensive inspection, drain clearing, minor repairs, detailed condition reporting, and priority emergency response. For Belleville commercial buildings, the annual maintenance cost is typically $0.05-$0.10 per square foot. This preventive approach typically reduces total roofing expenditure by 40-60% compared to reactive repair-only management.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Belleville, NJ?',
+      answer: 'Most commercial roof repair projects in Belleville range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Belleville NJ. Emergency leak response and preventive maintenance for Washington Avenue retail and Turnpike industrial buildings.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

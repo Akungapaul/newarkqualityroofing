@@ -4,7 +4,7 @@ export const bellevilleAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'belleville',
   overview: [
-    'Asphalt shingle roof replacement is the most common roofing project in Belleville, where the vast majority of the township\'s post-war housing stock is covered with aging asphalt shingles that have reached or exceeded their design lifespan. The three-tab shingles installed during the 1990s and 2000s re-roofing cycle are being replaced with modern architectural shingles that deliver superior wind resistance, longer warranties, and algae-resistant technology suited to Belleville\'s humid climate near the Passaic River.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Belleville — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common roofing project in Belleville, where the vast majority of the township\'s post-war housing stock is covered with aging asphalt shingles that have reached or exceeded their design lifespan. The three-tab shingles installed during the 1990s and 2000s re-roofing cycle are being replaced with modern architectural shingles that deliver superior wind resistance, longer warranties, and algae-resistant technology suited to Belleville\'s humid climate near the Passaic River.',
     'Material selection for Belleville asphalt shingle replacement focuses on products engineered for the township\'s specific exposure conditions. We specify algae-resistant shingles as standard because the humidity from the Passaic River basin and the shade between closely-spaced buildings create ideal conditions for the black algae streaks that degrade both appearance and performance. Wind-rated products with enhanced nailing patterns address the channeled wind patterns that develop between Belleville\'s tightly packed homes during storms.',
     'The [asphalt shingle replacement](/asphalt-shingle-roof-replacement) process on Belleville homes follows our standard full tear-off protocol with deck inspection and repair. We do not install new shingles over existing layers on Belleville homes unless the strict overlay qualification criteria are met -- which on most of the township\'s multi-layer roofs, they are not. The tear-off investment exposes the deck for the thorough inspection that 60-80 year old Belleville homes require.',
     'Color and profile choices on Belleville\'s closely observed residential blocks matter more than in communities with greater distance between homes. Neighbors see each other\'s roofs from just a few yards away, and the visual impact of a new roof is immediate and permanent. We provide physical sample boards showing top-selling Belleville color options against background cards matching common siding colors in the township. The most popular choices in [Belleville](/roofing-in-belleville-nj) include Weathered Wood, Pewter Gray, Charcoal, and Barkwood in the GAF Timberline HDZ line, colors that complement the earth-tone brick and vinyl siding prevalent throughout neighboring [Bloomfield](/asphalt-shingle-roof-replacement-bloomfield-nj) and the first suburbs.'
@@ -35,7 +35,25 @@ export const bellevilleAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'What color asphalt shingles are most popular in Belleville?',
       answer: 'The most popular colors in Belleville are Weathered Wood and Pewter Gray in the GAF Timberline HDZ line, followed by Charcoal and Barkwood. These colors complement the earth-tone brick, vinyl siding, and painted wood exteriors common throughout the township. We provide sample boards during the estimate visit so you can see the actual shingle color against your home\'s exterior.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Belleville, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Belleville range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Belleville NJ. GAF and Owens Corning architectural shingles with algae resistance for post-war homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

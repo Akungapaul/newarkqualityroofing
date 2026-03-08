@@ -4,7 +4,7 @@ export const northCaldwellCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'north-caldwell',
   overview: [
-    'Cedar shake roofing harmonizes naturally with North Caldwell\'s wooded estate character in a way that few other roofing materials achieve. The hand-split texture, warm coloring, and organic grain patterns of western red cedar complement the mature oak and maple canopies that define properties along Mountain Avenue and Grandview Avenue. For homeowners who view their estate as an integrated landscape composition rather than a house sitting on a lot, cedar shakes create a visual continuity between the built structure and the surrounding natural environment.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in North Caldwell — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing harmonizes naturally with North Caldwell\'s wooded estate character in a way that few other roofing materials achieve. The hand-split texture, warm coloring, and organic grain patterns of western red cedar complement the mature oak and maple canopies that define properties along Mountain Avenue and Grandview Avenue. For homeowners who view their estate as an integrated landscape composition rather than a house sitting on a lot, cedar shakes create a visual continuity between the built structure and the surrounding natural environment.',
     'Installation of [cedar shake roofing](/cedar-shake-roofing) on North Caldwell estates follows the premium specification that these high-value properties warrant. We use Number 1 grade hand-split and resawn shakes from certified mills in British Columbia, installed over a breather mat ventilation system that promotes airflow beneath the shake field. This ventilation layer is essential in North Caldwell\'s shaded wooded setting, where limited sun exposure keeps roof surfaces damp longer than open-lot installations in neighboring communities like [Caldwell](/cedar-shake-roofing-caldwell-nj).',
     'Repair and maintenance of existing cedar shake roofs across North Caldwell is a growing portion of our work as installations from the 1990s and 2000s reach the age where individual shakes split, curl, or lose their preservative treatment. Our maintenance programs address these aging symptoms before they compromise the underlying waterproofing, extending the functional life of cedar roofs that still have decades of service remaining with proper care.',
     'The premium investment in cedar shake aligns with [North Caldwell](/roofing-in-north-caldwell-nj) property values and the community\'s architectural expectations. These homes are built to impress from the driveway approach, and a well-maintained cedar shake roof delivers the curb impact that estate-scale properties demand.'
@@ -35,7 +35,25 @@ export const northCaldwellCedarShakeRoofing: ComboContent = {
     {
       question: 'Can you repair sections of my cedar shake roof without replacing the entire roof?',
       answer: 'Yes. Cedar shake roofs are inherently modular -- individual damaged shakes or localized sections can be replaced without disturbing the surrounding field. We carry an inventory of weathered cedar in various profiles that blends with aged installations. For extensive section repairs, new shakes are installed with matching exposure and offset patterns. The new cedar will weather to match the surrounding field within two to three seasons of exposure.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in North Caldwell, NJ?',
+      answer: 'Most cedar shake roofing projects in North Caldwell range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in North Caldwell NJ -- hand-split cedar installation with breather mat ventilation for estate homes on wooded lots.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

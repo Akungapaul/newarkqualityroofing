@@ -4,7 +4,7 @@ export const newarkCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'newark',
   overview: [
-    'Newark presents one of the most architecturally diverse roofing design challenges in northern New Jersey. Within a single mile along Broad Street you encounter Richardson Romanesque commercial buildings, Art Deco theaters, Beaux-Arts civic structures, and contemporary glass-curtain mixed-use towers -- each demanding a fundamentally different roofing approach. Our design consultation service exists to bridge the gap between a building owner\'s functional requirements and the aesthetic, structural, and regulatory constraints that Newark\'s built environment imposes on every roofing project.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in Newark — with prices starting from $200–$500 and free estimates available today. Newark presents one of the most architecturally diverse roofing design challenges in northern New Jersey. Within a single mile along Broad Street you encounter Richardson Romanesque commercial buildings, Art Deco theaters, Beaux-Arts civic structures, and contemporary glass-curtain mixed-use towers -- each demanding a fundamentally different roofing approach. Our design consultation service exists to bridge the gap between a building owner\'s functional requirements and the aesthetic, structural, and regulatory constraints that Newark\'s built environment imposes on every roofing project.',
     'The adaptive reuse movement reshaping Newark\'s industrial corridors has created an entirely new category of roofing design work. Former breweries along Freeman Street, textile mills in the Ironbound, and warehouse complexes near Penn Station are being converted into loft apartments, creative offices, and mixed-use developments. These conversions demand roof designs that transform flat industrial decks into habitable or amenity spaces -- rooftop terraces, green roof installations, and solar-ready membranes -- while preserving the industrial character that makes these buildings desirable in the first place.',
     'Multi-family residential design consultations account for a substantial portion of our Newark work. The city\'s housing stock includes thousands of two-family and three-family homes where roof replacement offers an opportunity to correct ventilation deficiencies, improve insulation performance, and update drainage systems that were inadequate even when originally installed. Design consultation for these properties evaluates the full building envelope, not just the roof surface, to deliver a system that performs as an integrated whole.',
     'Newark\'s regulatory landscape adds design complexity that most suburban communities never encounter. The Newark Landmarks and Historic Preservation Commission reviews roofing projects in designated historic districts. The city\'s zoning overlay districts impose height restrictions that affect rooftop mechanical equipment placement. Green building incentives through the Newark Sustainability Office encourage cool-roof and vegetated-roof designs. Our consultation process navigates these overlapping requirements to produce a design that satisfies every reviewing authority before materials are ordered.',
@@ -40,6 +40,24 @@ export const newarkCustomRoofDesignConsultation: ComboContent = {
       question: 'Do I need a separate architect if I hire you for a roof design consultation?',
       answer: 'For most residential and straightforward commercial projects, our in-house design capabilities are sufficient. For large-scale adaptive reuse, new construction, or projects requiring stamped architectural drawings for permitting, we collaborate with licensed architects and structural engineers. We maintain working relationships with several Newark-area architecture firms experienced in historic preservation and adaptive reuse projects.',
     },
+    {
+      question: 'How much does custom roof design consultation cost in Newark, NJ?',
+      answer: 'Most custom roof design consultation projects in Newark range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in Newark NJ. Expert guidance for historic homes, adaptive reuse projects, and architecturally diverse buildings.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

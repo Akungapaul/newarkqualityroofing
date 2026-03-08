@@ -4,7 +4,7 @@ export const montclairGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'montclair',
   overview: [
-    'Green roof installation in Montclair aligns naturally with a township that has built its identity around environmental stewardship, arts-community progressivism, and the kind of civic ambition that turns sustainability goals into visible, tangible projects. The concept of a vegetated rooftop resonates in a community where residents actively campaign for tree preservation, support farmers markets, and expect their commercial buildings to contribute to rather than detract from the township\'s green character. Montclair is the rare Essex County municipality where a green roof proposal receives enthusiastic community support rather than skeptical scrutiny.',
+    'Newark Quality Roofing delivers expert green roof installation in Montclair — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Montclair aligns naturally with a township that has built its identity around environmental stewardship, arts-community progressivism, and the kind of civic ambition that turns sustainability goals into visible, tangible projects. The concept of a vegetated rooftop resonates in a community where residents actively campaign for tree preservation, support farmers markets, and expect their commercial buildings to contribute to rather than detract from the township\'s green character. Montclair is the rare Essex County municipality where a green roof proposal receives enthusiastic community support rather than skeptical scrutiny.',
     'Stormwater management is the engineering justification that transforms green roofs from environmental aspiration to practical infrastructure in Montclair. The township\'s position on the Watchung Ridge produces rapid surface runoff during storms, channeling water downhill through neighborhoods and commercial districts that experience periodic flooding at low-elevation collection points. Green roof systems absorb and retain rainfall in the growing medium, releasing it gradually through evapotranspiration rather than contributing to peak storm flows. Municipal stormwater regulations in [Montclair](/roofing-in-montclair-nj) and surrounding communities like [West Orange](/green-roof-installation-west-orange-nj) and [Glen Ridge](/green-roof-installation-glen-ridge-nj) increasingly incentivize green infrastructure that reduces impervious surface contribution to combined sewer systems.',
     'Our [green roof installation](/green-roof-installation) projects in Montclair range from extensive sedum systems on commercial buildings -- lightweight, low-maintenance assemblies that require minimal structural reinforcement -- to intensive rooftop gardens on institutional buildings with the structural capacity and maintenance commitment to support deeper growing media and diverse plantings. The system type depends on the building\'s structural capacity, the owner\'s maintenance willingness, and whether the rooftop will serve as accessible amenity space or remain a functional environmental surface visible primarily from neighboring uphill properties.',
     'The visual dimension matters in Montclair because the township\'s topography means that rooftops are visible from adjacent higher-elevation properties and public viewpoints along the Watchung Ridge. A green roof on a Bloomfield Avenue commercial building is seen from residential streets above, making the vegetated surface a neighborhood amenity that extends beyond the property line. This visibility factor has motivated several Montclair property owners to invest in green roof installations that enhance their building\'s community presence alongside its environmental performance.'
@@ -35,7 +35,25 @@ export const montclairGreenRoofInstallation: ComboContent = {
     {
       question: 'How long does a green roof system last?',
       answer: 'The waterproofing membrane beneath a green roof typically lasts forty to fifty years -- longer than exposed membranes because the growing medium protects it from UV radiation, thermal cycling, and physical damage. The vegetation layer is maintained indefinitely through seasonal care, plant replacement, and growing medium replenishment as needed. The combined system provides decades of service with ongoing maintenance, making the lifecycle cost competitive with conventional roofing systems that require replacement every twenty to thirty years while providing environmental benefits that conventional roofs cannot match.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in Montclair, NJ?',
+      answer: 'Most green roof installation projects in Montclair range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Montclair NJ -- vegetated roofing systems for stormwater management and sustainability on commercial buildings.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

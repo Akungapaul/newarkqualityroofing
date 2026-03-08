@@ -4,7 +4,7 @@ export const montclairCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Commercial roof replacement in Montclair is a capital investment that Bloomfield Avenue retailers, Church Street professional offices, Valley Road mixed-use buildings, and the township\'s institutional properties plan around the intersection of roof condition, business operations, and fiscal capacity. Unlike residential replacement where homeowner inconvenience is the primary scheduling constraint, commercial replacement must accommodate tenant lease obligations, business revenue cycles, code compliance timelines, and the physical logistics of executing a construction project in Montclair\'s walkable, densely built commercial districts.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Montclair — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Montclair is a capital investment that Bloomfield Avenue retailers, Church Street professional offices, Valley Road mixed-use buildings, and the township\'s institutional properties plan around the intersection of roof condition, business operations, and fiscal capacity. Unlike residential replacement where homeowner inconvenience is the primary scheduling constraint, commercial replacement must accommodate tenant lease obligations, business revenue cycles, code compliance timelines, and the physical logistics of executing a construction project in Montclair\'s walkable, densely built commercial districts.',
     'The decision to replace rather than continue repairing a commercial roof in Montclair typically crystallizes when annual repair costs approach the amortized annual cost of a new system, when wet insulation beneath the membrane has expanded beyond localized patches to cover a quarter or more of the roof area, or when tenant complaints about leaks create lease-renewal risk that threatens building income. These economic triggers rather than absolute roof failure drive the replacement timeline for well-managed Montclair commercial properties.',
     'Our [commercial roof replacement](/commercial-roof-replacement) projects in [Montclair](/roofing-in-montclair-nj) coordinate system selection, permitting, tenant notification, and construction staging with the property management rigor that Montclair\'s commercial building owners expect. System selection -- EPDM, TPO, PVC, modified bitumen, or metal -- matches the building\'s structural characteristics, tenant mix, rooftop equipment inventory, and the owner\'s lifecycle cost preferences. Properties in [Bloomfield](/commercial-roof-replacement-bloomfield-nj) and [West Orange](/commercial-roof-replacement-west-orange-nj) face similar system selection decisions, though Montclair\'s restaurant concentration and historic building character add PVC and material-aesthetic considerations that other markets weigh less heavily.',
     'Energy code compliance during commercial roof replacement provides an opportunity to upgrade insulation, reflective surfaces, and thermal performance that the building has operated without since its original construction. Current New Jersey energy code requires insulation values that most Montclair commercial buildings built before 2000 do not meet, and replacement triggers compliance requirements that transform a maintenance expenditure into a building performance upgrade.'
@@ -35,7 +35,25 @@ export const montclairCommercialRoofReplacement: ComboContent = {
     {
       question: 'What warranties are available for commercial roof replacement in Montclair?',
       answer: 'Manufacturer warranties range from ten to thirty years depending on the system type and specification level. Full-system warranties covering both materials and labor are available when the installation uses the manufacturer\'s complete product line installed by a certified applicator. We maintain certifications with major commercial roofing manufacturers and install full-system specifications that qualify for maximum warranty coverage. Extended warranties beyond the standard term are available for additional premium. All warranty documentation is provided to the property owner at project completion for inclusion in the building\'s asset management records.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Montclair, NJ?',
+      answer: 'Most commercial roof replacement projects in Montclair range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Montclair NJ -- phased installation for Bloomfield Avenue retail and mixed-use with tenant coordination.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

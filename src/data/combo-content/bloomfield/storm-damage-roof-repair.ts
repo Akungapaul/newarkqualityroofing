@@ -4,7 +4,7 @@ export const bloomfieldStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'bloomfield',
   overview: [
-    'Storm damage across Bloomfield\'s residential neighborhoods follows predictable patterns tied to the township\'s housing stock and exposure profile. The three-tab shingles still covering many Cape Cods and ranches in Brookdale and Oakcrest are the most wind-vulnerable material in the residential roofing inventory -- their single-layer construction and aging adhesive strips make tab lifting and blow-off almost inevitable during sixty-mile-per-hour-plus gusts. Architectural shingles on newer installations resist wind better but remain susceptible to hail impact that fractures the granule surface and compromises the waterproofing layer beneath. Each storm type -- nor\'easter wind, summer thunderstorm hail, tropical remnant rain loading -- creates different damage patterns requiring different assessment and repair approaches.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Bloomfield — with prices starting from $500–$3,000 and free estimates available today. Storm damage across Bloomfield\'s residential neighborhoods follows predictable patterns tied to the township\'s housing stock and exposure profile. The three-tab shingles still covering many Cape Cods and ranches in Brookdale and Oakcrest are the most wind-vulnerable material in the residential roofing inventory -- their single-layer construction and aging adhesive strips make tab lifting and blow-off almost inevitable during sixty-mile-per-hour-plus gusts. Architectural shingles on newer installations resist wind better but remain susceptible to hail impact that fractures the granule surface and compromises the waterproofing layer beneath. Each storm type -- nor\'easter wind, summer thunderstorm hail, tropical remnant rain loading -- creates different damage patterns requiring different assessment and repair approaches.',
     'Bloomfield\'s suburban tree coverage amplifies storm damage beyond what open-terrain communities experience. Mature oaks and maples along residential streets and in backyards shed limbs during high-wind events, and these limbs impact roof surfaces with force sufficient to crack shingles, dent flashing, and puncture deck sheathing. The tree-related damage often occurs on otherwise intact roof sections, creating repair situations where the structural impact is more significant than the surrounding wind damage to the shingles themselves. Properties bordering Watsessing Park and the Brookdale Park area face particularly high tree-strike risk from the mature canopy along the park edges.',
     'Our [storm damage roof repair](/storm-damage-roof-repair) process for Bloomfield homeowners integrates temporary weatherproofing, permanent repair, and insurance claim support into a coordinated response. We understand that Bloomfield homeowners managing storm damage are often dealing simultaneously with interior water damage, debris cleanup, insurance phone calls, and the stress of an unexpected major expense. Our role is to stabilize the roof, provide clear documentation for the insurance process, and deliver permanent repair on a timeline that prevents secondary damage without pressuring the homeowner into rushed decisions. Homeowners in [East Orange](/storm-damage-roof-repair-east-orange-nj) deal with similar nor\'easter vulnerability across their comparable housing stock.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldStormDamageRoofRepair: ComboContent = {
     {
       question: 'How quickly should I get storm damage repaired on my Bloomfield home?',
       answer: 'Temporary stabilization should happen within twenty-four to forty-eight hours to prevent secondary water damage. Permanent repair should be completed within thirty to sixty days, coordinated with insurance approval. Most carriers require repairs within a reasonable timeframe -- typically ninety days for non-emergency work. We schedule permanent repairs as soon as insurance approval is received and weather conditions permit quality installation.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Bloomfield, NJ?',
+      answer: 'Most storm damage roof repair projects in Bloomfield range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Bloomfield NJ -- wind and hail assessment, insurance claim documentation, and post-storm restoration for residential homes.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

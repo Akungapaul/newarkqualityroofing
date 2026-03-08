@@ -17,6 +17,8 @@ import { CityFaqs } from '@/components/sections/CityFaqs';
 import { CityMapNap } from '@/components/sections/CityMapNap';
 import { CityNearbyCities } from '@/components/sections/CityNearbyCities';
 import { CityCtaBanner } from '@/components/sections/CityCtaBanner';
+import { CityPricing } from '@/components/sections/CityPricing';
+import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
 
 // ─── Table of Contents sections ─────────────────────────────────────────────
 
@@ -59,6 +61,13 @@ export default function CityTemplate({ city }: CityTemplateProps) {
 
       <CityStatsBar stats={content.stats} cityName={city.name} />
 
+      {/* Credentials badge row */}
+      {content.credentialsHighlight && content.credentialsHighlight.length > 0 && (
+        <div className="mx-auto max-w-7xl px-6 pt-4 lg:px-8">
+          <ServiceCredentials credentials={content.credentialsHighlight} />
+        </div>
+      )}
+
       {/* Main content with ToC sidebar */}
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <div className="lg:grid lg:grid-cols-4 lg:gap-10">
@@ -90,6 +99,13 @@ export default function CityTemplate({ city }: CityTemplateProps) {
                 content={content.commercial.content}
               />
             </section>
+
+            {/* Pricing section — after commercial */}
+            {content.pricing && (
+              <section id="pricing">
+                <CityPricing pricing={content.pricing} cityName={city.name} />
+              </section>
+            )}
 
             <section id="neighborhoods">
               <CityNeighborhoods

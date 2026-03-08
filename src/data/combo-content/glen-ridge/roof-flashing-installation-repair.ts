@@ -4,7 +4,7 @@ export const glenRidgeRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'glen-ridge',
   overview: [
-    'Roof flashing in Glen Ridge performs the most critical waterproofing function on the borough\'s complex Victorian and Edwardian rooflines. Every dormer, valley, chimney, wall intersection, and roof-plane transition depends on properly installed flashing to channel water safely past these vulnerable junctions. On Glen Ridge homes built between 1895 and 1930, original flashing was typically hand-formed from copper or terne-coated steel -- materials chosen for longevity but subject to eventual fatigue after a century of thermal cycling and weather exposure. Newark Quality Roofing specializes in the period-appropriate flashing repair and replacement that these distinguished homes require.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Glen Ridge — with prices starting from $300–$1,500 and free estimates available today. Roof flashing in Glen Ridge performs the most critical waterproofing function on the borough\'s complex Victorian and Edwardian rooflines. Every dormer, valley, chimney, wall intersection, and roof-plane transition depends on properly installed flashing to channel water safely past these vulnerable junctions. On Glen Ridge homes built between 1895 and 1930, original flashing was typically hand-formed from copper or terne-coated steel -- materials chosen for longevity but subject to eventual fatigue after a century of thermal cycling and weather exposure. Newark Quality Roofing specializes in the period-appropriate flashing repair and replacement that these distinguished homes require.',
     'The complexity of Glen Ridge rooflines creates an unusually high ratio of flashing to field roofing. A Victorian home on Ridgewood Avenue with multiple gables, bay window roofs, a turret, and three chimneys may contain 30 or more individual flashing details, each one a potential failure point as original materials deteriorate. Our flashing assessment maps every detail systematically, identifying which flashings remain serviceable and which have deteriorated to the point where water intrusion is imminent or already occurring.',
     'Copper remains the flashing material of choice in Glen Ridge, both for its compatibility with the borough\'s historic aesthetic and its unmatched longevity in this application. We fabricate custom copper flashings in our shop, hand-forming step flashings, counter-flashings, valley liners, and decorative elements to match profiles found on the borough\'s finest homes. The copper develops a natural verdigris patina that harmonizes with [slate roofing](/slate-roof-installation-repair-glen-ridge-nj) and cedar shake surfaces, aging gracefully into the historic materials that surround it.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeRoofFlashingInstallationRepair: ComboContent = {
       question: 'What type of flashing material is appropriate for Glen Ridge homes?',
       answer: 'Copper is the standard flashing material for Glen Ridge\'s historic homes, consistent with original construction and the Historic Preservation Commission\'s expectations. We use 16-ounce copper for most residential flashings and 20-ounce copper for valleys and high-exposure details where additional durability is warranted. Copper flashings last 80 to 100 years, matching the longevity of the premium roofing materials used on Glen Ridge homes.',
     },
+    {
+      question: 'How much does roof flashing installation repair cost in Glen Ridge, NJ?',
+      answer: 'Most roof flashing installation repair projects in Glen Ridge range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing repair in Glen Ridge NJ. Hand-formed copper flashings for Victorian and Edwardian homes in the historic district.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

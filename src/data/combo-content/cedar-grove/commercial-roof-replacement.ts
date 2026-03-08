@@ -4,7 +4,7 @@ export const cedarGroveCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Commercial roof replacement in Cedar Grove provides building owners along Pompton Avenue, Route 23, and the township\'s professional office parks with an opportunity to upgrade aging roof systems to current performance standards while correcting the drainage, insulation, and structural deficiencies that decades of service have revealed. Our [commercial roof replacement](/commercial-roof-replacement) projects in Cedar Grove transform underperforming roofs into warranted systems that reduce operating costs, eliminate recurring repair expenses, and protect building value for the next twenty to thirty years.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Cedar Grove — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Cedar Grove provides building owners along Pompton Avenue, Route 23, and the township\'s professional office parks with an opportunity to upgrade aging roof systems to current performance standards while correcting the drainage, insulation, and structural deficiencies that decades of service have revealed. Our [commercial roof replacement](/commercial-roof-replacement) projects in Cedar Grove transform underperforming roofs into warranted systems that reduce operating costs, eliminate recurring repair expenses, and protect building value for the next twenty to thirty years.',
     'Many Cedar Grove commercial buildings are approaching or have passed their second roof lifecycle -- the original roof was replaced once during the 1990s or early 2000s, and that replacement is now reaching end-of-life. Building owners facing a second replacement have the advantage of experience: they understand the costs of deferred maintenance, the value of proper drainage, and the importance of selecting a contractor who delivers quality installation rather than the lowest bid. Our Cedar Grove commercial replacement proposals reflect this informed audience with detailed engineering, transparent pricing, and realistic project timelines.',
     'The replacement decision on Cedar Grove commercial buildings is driven by accumulated repair costs, energy performance decline, and tenant satisfaction concerns. When annual repair spending exceeds two percent of replacement cost, when energy bills climb due to saturated insulation and deteriorated reflective surfaces, or when recurring leaks threaten tenant retention, replacement becomes the economically rational decision.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveCommercialRoofReplacement: ComboContent = {
       question: 'Should I replace or recover my Cedar Grove commercial roof?',
       answer: 'Recover is viable when the building has only one existing roof layer, insulation is dry, and the deck is sound. It costs twenty to thirty percent less than full replacement. However, recover adds weight to the structure, cannot correct drainage deficiencies in the underlying deck, and limits future options since code restricts total layers to two. Full replacement is the better investment when deck repair is needed, drainage correction is required, or the building already has multiple roof layers.',
     },
+    {
+      question: 'How much does commercial roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most commercial roof replacement projects in Cedar Grove range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Cedar Grove NJ -- full tear-off and re-roof for Pompton Ave and Route 23 businesses with minimal disruption.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

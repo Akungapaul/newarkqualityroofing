@@ -4,7 +4,7 @@ export const caldwellRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Roof flashing in Caldwell protects the most vulnerable points on every residential and commercial roof -- valleys where roof planes intersect, walls where additions meet the main structure, chimneys rising through roof surfaces, and penetrations for plumbing vents, exhaust fans, and electrical conduits. These transition points cannot be waterproofed by shingles or membrane alone; they require precisely formed metal or membrane flashings that channel water away from joints and direct it onto the primary roof surface. In Caldwell\'s colonial and cape cod housing stock, flashing details at dormers, sidewalls, and multi-plane intersections determine whether the roof performs for decades or leaks within years.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Caldwell — with prices starting from $300–$1,500 and free estimates available today. Roof flashing in Caldwell protects the most vulnerable points on every residential and commercial roof -- valleys where roof planes intersect, walls where additions meet the main structure, chimneys rising through roof surfaces, and penetrations for plumbing vents, exhaust fans, and electrical conduits. These transition points cannot be waterproofed by shingles or membrane alone; they require precisely formed metal or membrane flashings that channel water away from joints and direct it onto the primary roof surface. In Caldwell\'s colonial and cape cod housing stock, flashing details at dormers, sidewalls, and multi-plane intersections determine whether the roof performs for decades or leaks within years.',
     'The age of [Caldwell\'s](/roofing-in-caldwell-nj) housing stock makes flashing repair a recurring need. Homes built in the 1950s through 1970s carry original galvanized steel flashing that has corroded through after half a century of exposure to Caldwell\'s freeze-thaw cycling and acidic leaf debris. This corroded flashing allows water into wall cavities, sheathing layers, and ceiling spaces at exactly the roof-to-wall junctions where damage is most costly to repair. Identifying and replacing failing flashing before interior damage develops saves Caldwell homeowners thousands in avoided wall and ceiling restoration costs.',
     'Our [roof flashing](/roof-flashing-installation-repair) approach for Caldwell emphasizes materials that outlast the roof surface they serve. Aluminum flashing with baked-enamel finish in colors matching trim paint, copper flashing for exposed applications where aesthetics matter, and ice-and-water shield membrane flashings at valleys and eave transitions -- each material serves specific roles in the Caldwell flashing system. Homes in nearby [Bloomfield](/roof-flashing-installation-repair-bloomfield-nj) and [Montclair](/roof-flashing-installation-repair-montclair-nj) share similar flashing needs, but Caldwell\'s detached single-family homes generally present simpler access than attached housing stock.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'How much does flashing repair cost on a Caldwell colonial?',
       answer: 'Flashing repair costs depend on the number of details requiring attention, the accessibility of each location, and whether shingle removal and replacement is needed to access the flashing. A single dormer reflashing on a Caldwell colonial typically runs between four hundred and eight hundred dollars. A comprehensive reflashing of all dormers, sidewalls, and penetrations on a typical colonial may range from fifteen hundred to three thousand dollars. We provide itemized estimates so you can prioritize repairs by urgency and budget.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Caldwell, NJ?',
+      answer: 'Most roof flashing installation repair projects in Caldwell range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Caldwell NJ -- dormer valleys, sidewall step flashing, and penetration sealing for colonials and capes.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

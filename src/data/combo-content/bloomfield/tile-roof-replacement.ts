@@ -4,7 +4,7 @@ export const bloomfieldTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'bloomfield',
   overview: [
-    'Tile roof replacement in Bloomfield applies to a small number of homes with clay or concrete tile roofing -- primarily Mediterranean-influenced and Spanish Colonial-style homes built during the 1920s and 1930s, along with scattered mid-century custom builds that chose tile for its distinctive appearance and exceptional longevity. While tile represents a tiny fraction of Bloomfield\'s overall housing stock, the homeowners who own these properties face replacement decisions that standard shingle contractors are not equipped to handle.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Bloomfield — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Bloomfield applies to a small number of homes with clay or concrete tile roofing -- primarily Mediterranean-influenced and Spanish Colonial-style homes built during the 1920s and 1930s, along with scattered mid-century custom builds that chose tile for its distinctive appearance and exceptional longevity. While tile represents a tiny fraction of Bloomfield\'s overall housing stock, the homeowners who own these properties face replacement decisions that standard shingle contractors are not equipped to handle.',
     'Clay tile roofs on Bloomfield\'s pre-war homes have often served for seventy to ninety years, demonstrating the material\'s legendary durability. Replacement becomes necessary when the tiles themselves begin crumbling from freeze-thaw cycling, when the underlayment beneath has deteriorated to the point where it no longer provides secondary waterproofing, or when structural concerns from decades of the material\'s significant weight require framing reinforcement that makes tear-off practical during the structural work.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners maintaining tile roofs, understanding the difference between tile failure and underlayment failure prevents unnecessary full replacement. Clay and concrete tiles are extremely durable surface materials, but the felt underlayment beneath them has a forty-to-sixty-year lifespan. When a tile roof begins leaking despite intact tile surface, the underlayment is the likely failure point. [Roof repair](/roof-repair-bloomfield-nj) options include selective tile removal, underlayment replacement in affected sections, and tile reinstallation -- extending the system\'s life without full replacement.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldTileRoofReplacement: ComboContent = {
     {
       question: 'Why is my Bloomfield tile roof leaking if the tiles look fine?',
       answer: 'The tiles are the water-shedding surface, but the underlayment beneath provides the actual waterproofing barrier. On tile roofs forty-plus years old, the original felt underlayment may have deteriorated beneath intact tiles. Water bypasses the tiles at laps, penetrations, and valleys, reaches the failed underlayment, and enters the building. The solution is not tile replacement but underlayment replacement -- lifting tiles in affected areas, installing new underlayment, and resetting the original tiles.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in Bloomfield, NJ?',
+      answer: 'Most tile roof replacement projects in Bloomfield range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Bloomfield NJ -- clay and concrete tile for pre-war homes with structural assessment and specialty installation.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

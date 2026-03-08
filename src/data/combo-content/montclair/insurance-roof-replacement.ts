@@ -4,7 +4,7 @@ export const montclairInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Insurance roof replacement in Montclair navigates the claims process that connects storm damage, fallen trees, and catastrophic weather events to the homeowner\'s insurance coverage and the contractor\'s ability to execute a qualifying replacement within the policy\'s requirements. Montclair\'s mature tree canopy and Watchung Ridge wind exposure create above-average storm damage frequency, making insurance-covered replacement a regular rather than exceptional event in the township\'s roofing market.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Montclair — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Montclair navigates the claims process that connects storm damage, fallen trees, and catastrophic weather events to the homeowner\'s insurance coverage and the contractor\'s ability to execute a qualifying replacement within the policy\'s requirements. Montclair\'s mature tree canopy and Watchung Ridge wind exposure create above-average storm damage frequency, making insurance-covered replacement a regular rather than exceptional event in the township\'s roofing market.',
     'The insurance claims process involves documentation standards, adjuster inspections, and scope-of-loss negotiations that homeowners rarely encounter outside of major property damage events. Our [insurance roof replacement](/insurance-roof-replacement) team works within the insurance process daily across [Montclair](/roofing-in-montclair-nj) and surrounding communities like [West Orange](/insurance-roof-replacement-west-orange-nj) and [Bloomfield](/insurance-roof-replacement-bloomfield-nj), bringing fluency with claims procedures that accelerates approval and ensures that covered damage is fully documented rather than partially acknowledged.',
     'The claims documentation we prepare exceeds the minimum requirements that most insurers request, providing the comprehensive evidence base that supports full-scope approval. Photographic documentation of every damaged area, material identification for matching replacement specifications, and itemized scope-of-loss breakdowns in the format adjusters use for their own estimates create alignment between our assessment and the insurer\'s review, reducing the supplements and disputes that delay projects.'
   ],
@@ -30,7 +30,25 @@ export const montclairInsuranceRoofReplacement: ComboContent = {
     {
       question: 'How long does the insurance replacement process take?',
       answer: 'From damage event to completed replacement, the typical timeline is four to eight weeks. Claims filing and adjuster inspection take one to two weeks. Scope agreement and approval take one to three weeks depending on complexity and any supplemental documentation needed. Material ordering and scheduling take one to two weeks. Installation takes three to five days. We manage the timeline actively, pushing for rapid adjuster scheduling and efficient scope resolution to minimize the period during which the home operates under temporary repairs.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Montclair, NJ?',
+      answer: 'Most insurance roof replacement projects in Montclair range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Montclair NJ -- claims documentation, adjuster coordination, and storm damage restoration.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

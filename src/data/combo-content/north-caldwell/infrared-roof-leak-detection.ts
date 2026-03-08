@@ -4,7 +4,7 @@ export const northCaldwellInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'north-caldwell',
   overview: [
-    'Infrared roof leak detection eliminates the guesswork that makes commercial roof repair on North Caldwell properties unnecessarily expensive. When water enters through a membrane defect on a flat commercial roof, it saturates the insulation beneath and travels laterally before producing visible evidence inside the building. Traditional leak investigation -- cutting exploratory holes in the membrane to find wet insulation -- destroys functional membrane in the search process. Infrared detection locates the saturated zones without cutting a single hole, directing repair precisely to the compromised area.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in North Caldwell — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection eliminates the guesswork that makes commercial roof repair on North Caldwell properties unnecessarily expensive. When water enters through a membrane defect on a flat commercial roof, it saturates the insulation beneath and travels laterally before producing visible evidence inside the building. Traditional leak investigation -- cutting exploratory holes in the membrane to find wet insulation -- destroys functional membrane in the search process. Infrared detection locates the saturated zones without cutting a single hole, directing repair precisely to the compromised area.',
     'Our [infrared leak detection](/infrared-roof-leak-detection) service for North Caldwell commercial properties uses thermal camera technology that visualizes moisture trapped beneath the membrane surface. Wet insulation retains heat differently than dry insulation, creating temperature differentials visible in infrared that are invisible to the naked eye. Scanning the roof surface during evening cooling hours reveals these moisture zones as warm signatures against the cooler dry background, mapping the exact extent of water infiltration beneath the intact membrane.',
     'The precision of infrared detection delivers significant cost savings for North Caldwell commercial property owners. Instead of replacing or coating the entire roof surface to address a leak of unknown extent, the property owner invests only in the targeted repair of the documented wet zone. For small commercial buildings where the full-roof approach would cost tens of thousands, targeted repair based on infrared findings may cost a fraction of that amount while fully resolving the leak condition. Similar targeted approaches serve commercial properties in [Caldwell](/infrared-roof-leak-detection-caldwell-nj) and throughout [North Caldwell](/roofing-in-north-caldwell-nj).'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'How does infrared detection save money on North Caldwell commercial roof repair?',
       answer: 'By precisely locating the wet zones, infrared detection allows targeted repair of only the affected areas rather than broad-scope repair or replacement of the entire roof. On a typical North Caldwell commercial building, the wet zone from a single leak may cover 50 to 200 square feet. Repairing that specific area costs a fraction of replacing the entire 4,000-square-foot roof. The infrared scan fee is recovered many times over in avoided unnecessary repair scope.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in North Caldwell, NJ?',
+      answer: 'Most infrared roof leak detection projects in North Caldwell range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in North Caldwell NJ -- non-destructive moisture mapping for targeted commercial flat roof repair.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

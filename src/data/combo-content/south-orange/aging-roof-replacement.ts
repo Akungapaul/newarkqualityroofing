@@ -4,7 +4,7 @@ export const southOrangeAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'south-orange',
   overview: [
-    'Aging roof replacement in South Orange Village addresses the planned transition from worn-out roofing to new installation before the deteriorating material fails catastrophically and causes the water damage that emergency replacement cannot prevent. South Orange homeowners who monitor their roof condition and plan replacement proactively protect both their home\'s interior and their financial position by avoiding the premium costs and limited material options that emergency situations impose.',
+    'Newark Quality Roofing delivers expert aging roof replacement in South Orange — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in South Orange Village addresses the planned transition from worn-out roofing to new installation before the deteriorating material fails catastrophically and causes the water damage that emergency replacement cannot prevent. South Orange homeowners who monitor their roof condition and plan replacement proactively protect both their home\'s interior and their financial position by avoiding the premium costs and limited material options that emergency situations impose.',
     'The pre-war homes that define South Orange carry roofing materials installed across multiple decades -- some original, some from mid-century renovations, some from the 1990s re-roofing boom. Each material has a finite service life, and recognizing when that life is ending allows planned replacement on the homeowner\'s schedule rather than the weather\'s. Asphalt shingles approaching 25-30 years, cedar shake beyond 30-35 years, and even century-old slate showing widespread delamination all signal that planned replacement serves the property better than continued patching.',
     'South Orange\'s real estate market rewards proactive roof replacement. Homes listed with recent roofing attract buyer confidence and stronger offers than properties where aging roofing raises inspection concerns. For homeowners planning to sell within the next several years, replacing an aging roof before listing eliminates a common negotiation point and presents the property in its best condition. The investment typically recovers a significant percentage of its cost through enhanced sale price.',
     'Our aging roof replacement service in [South Orange](/roofing-in-south-orange-nj) provides the planning timeline that proactive replacement demands. We assess aging roof conditions, project remaining service life, discuss material options for the replacement, and schedule the project within a timeline that optimizes weather conditions, material availability, and the homeowner\'s budget planning across seasons.'
@@ -35,7 +35,25 @@ export const southOrangeAgingRoofReplacement: ComboContent = {
     {
       question: 'How much advance notice do you need for a planned replacement?',
       answer: 'We recommend contacting us three to six months before your preferred installation window. This lead time allows thorough consultation, material selection, and scheduling during the optimal weather period. Standard shingle products require less lead time, while specialty materials like slate, cedar shake, or custom copper fabrication may need longer procurement periods. Early engagement ensures the project proceeds on your preferred timeline.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in South Orange, NJ?',
+      answer: 'Most aging roof replacement projects in South Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in South Orange NJ -- planned replacement with premium materials before deterioration causes damage.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

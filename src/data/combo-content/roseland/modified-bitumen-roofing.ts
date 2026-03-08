@@ -4,7 +4,7 @@ export const roselandModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'roseland',
   overview: [
-    'Modified bitumen roofing occupies a reliable middle ground for Roseland properties that need flat-roof performance with the multi-layer redundancy that single-ply membranes do not provide. The two-or-three-ply construction of mod-bit systems -- a base sheet bonded to the deck, one or two modified bitumen cap sheets with granular or smooth surfaces -- creates waterproofing redundancy where each layer independently resists water penetration. Our [modified bitumen roofing](/modified-bitumen-roofing) service installs these systems on Roseland commercial buildings and residential flat sections where durability and foot-traffic resistance justify the investment.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Roseland — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing occupies a reliable middle ground for Roseland properties that need flat-roof performance with the multi-layer redundancy that single-ply membranes do not provide. The two-or-three-ply construction of mod-bit systems -- a base sheet bonded to the deck, one or two modified bitumen cap sheets with granular or smooth surfaces -- creates waterproofing redundancy where each layer independently resists water penetration. Our [modified bitumen roofing](/modified-bitumen-roofing) service installs these systems on Roseland commercial buildings and residential flat sections where durability and foot-traffic resistance justify the investment.',
     'Roseland\'s mixed-use properties along Eagle Rock Avenue benefit particularly from modified bitumen\'s foot-traffic durability. Buildings where tenants, maintenance crews, and HVAC technicians regularly access the roof need a membrane that resists puncture and scuffing under repeated foot traffic -- conditions that wear through single-ply membranes at an accelerated rate. The granular cap sheet surface of mod-bit systems distributes foot pressure and resists the tearing that concentrated loads create on thinner membranes.',
     'Self-adhered modified bitumen installation has expanded the material\'s residential applicability by eliminating the open-flame torch application that limited its use near combustible building components. Roseland homeowners with flat porch roofs and low-slope garage extensions now have access to mod-bit\'s multi-layer protection through cold-applied systems that install safely against wood-framed walls and near attic spaces. This installation method maintains the material\'s performance advantages while addressing the fire safety concerns that [Caldwell](/modified-bitumen-roofing-caldwell-nj) and other residential communities share.'
   ],
@@ -34,7 +34,25 @@ export const roselandModifiedBitumenRoofing: ComboContent = {
     {
       question: 'Can modified bitumen be installed in cold weather?',
       answer: 'SBS-modified bitumen maintains workable flexibility at temperatures well below freezing, making it one of the most cold-weather-capable flat roof materials available. Torch application works effectively in cold conditions because the heating process occurs at the point of adhesion. Self-adhered products perform best above 40 degrees Fahrenheit. When winter installations are necessary in Roseland, we select the application method that suits the conditions to ensure proper adhesion and seam integrity.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Roseland, NJ?',
+      answer: 'Most modified bitumen roofing projects in Roseland range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Roseland NJ -- multi-ply flat roof systems for commercial buildings and residential sections with SBS flexibility.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

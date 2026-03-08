@@ -4,7 +4,7 @@ export const montclairHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'montclair',
   overview: [
-    'Historic roof restoration in Montclair occupies the intersection of preservation craft, regulatory compliance, and the architectural identity that makes the township one of northern New Jersey\'s most historically significant residential communities. The Montclair Historic Preservation Commission oversees designated landmarks and historic districts where roof work is not merely a maintenance activity but a preservation act subject to review, approval, and material compliance standards that ensure the township\'s architectural heritage survives each generation\'s stewardship.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Montclair — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Montclair occupies the intersection of preservation craft, regulatory compliance, and the architectural identity that makes the township one of northern New Jersey\'s most historically significant residential communities. The Montclair Historic Preservation Commission oversees designated landmarks and historic districts where roof work is not merely a maintenance activity but a preservation act subject to review, approval, and material compliance standards that ensure the township\'s architectural heritage survives each generation\'s stewardship.',
     'The scope of historically significant roofing in Montclair extends well beyond the formally designated properties. The township\'s residential streets are lined with Victorian-era mansions, Tudor Revival estates, Arts & Crafts bungalows, and early colonial revival homes whose architectural character depends on period-appropriate roofing materials, profiles, and detailing. Homeowners throughout Montclair -- regardless of designation status -- choose historic restoration approaches because they value the architectural coherence and market premium that period-appropriate materials deliver in a community where buyers actively seek homes with intact historical character.',
     'Our [historic roof restoration](/historic-roof-restoration) work across [Montclair](/roofing-in-montclair-nj) encompasses slate restoration and replacement, copper flashing and gutter fabrication, wood shake reproduction, clay tile rehabilitation, and the ornamental metalwork -- ridge cresting, finials, and decorative chimney caps -- that crown the township\'s most architecturally ambitious homes. Each material category demands specialized sourcing, fabrication, and installation techniques that the standard roofing trade does not practice. Properties in [Glen Ridge](/historic-roof-restoration-glen-ridge-nj), with its own active Historic Preservation Commission, share Montclair\'s demand for this specialized restoration capability.',
     'Tax credit programs at the state and federal level provide financial incentives for qualified historic rehabilitation projects on designated properties. The New Jersey Historic Trust and the federal Historic Rehabilitation Tax Credit program offset a meaningful portion of the premium cost associated with historically accurate materials and methods. Our experience navigating these programs helps Montclair property owners access financial support that makes restoration economically feasible.'
@@ -35,7 +35,25 @@ export const montclairHistoricRoofRestoration: ComboContent = {
     {
       question: 'Are there tax credits available for historic roof restoration in Montclair?',
       answer: 'Federal Historic Rehabilitation Tax Credits provide a twenty percent credit on qualified rehabilitation expenditures for income-producing properties listed on the National Register. New Jersey offers additional state-level historic preservation incentives through the Historic Trust. Residential properties on the National Register may qualify for property tax abatements on the increased value resulting from qualified rehabilitation. We assist Montclair property owners with identifying applicable programs, coordinating with preservation consultants for tax credit applications, and documenting the restoration work in the format these programs require.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Montclair, NJ?',
+      answer: 'Most historic roof restoration projects in Montclair range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Montclair NJ -- slate sourcing, copper fabrication, and HPC-compliant preservation for landmark homes.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

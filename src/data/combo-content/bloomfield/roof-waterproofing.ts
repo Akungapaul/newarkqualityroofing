@@ -4,7 +4,7 @@ export const bloomfieldRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'bloomfield',
   overview: [
-    'Roof waterproofing in Bloomfield addresses the specific vulnerable points where standard roofing materials meet their performance limits -- the flat sections on split-levels where ponding occurs, the low-slope areas on Cape Cod dormers where ice dams concentrate, the aging commercial flat roofs along Bloomfield Avenue where membrane replacement is not yet economically justified but leak prevention is urgent. Waterproofing treatments extend the functional life of these problem areas by adding protection layers that standard shingle and membrane systems were not designed to provide.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Bloomfield — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Bloomfield addresses the specific vulnerable points where standard roofing materials meet their performance limits -- the flat sections on split-levels where ponding occurs, the low-slope areas on Cape Cod dormers where ice dams concentrate, the aging commercial flat roofs along Bloomfield Avenue where membrane replacement is not yet economically justified but leak prevention is urgent. Waterproofing treatments extend the functional life of these problem areas by adding protection layers that standard shingle and membrane systems were not designed to provide.',
     'Liquid-applied waterproofing membranes have emerged as the most practical waterproofing solution for Bloomfield\'s residential and light commercial applications. These systems -- silicone, polyurethane, or acrylic-based -- are rolled or sprayed onto the existing roof surface, creating a seamless barrier that conforms to every irregularity, penetration, and surface variation without the joints and seams that sheet-applied systems require. For Bloomfield homeowners dealing with a chronically leaking flat section on a split-level where repeated patching has failed, a fully applied liquid membrane over the entire flat area provides the comprehensive waterproofing that spot repairs cannot deliver.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) commercial building owners along Bloomfield Avenue managing aging flat roofs, waterproofing coatings can extend the existing roof\'s service life by ten to fifteen years at twenty to thirty percent of the full replacement cost. This roof restoration approach is particularly valuable for building owners who plan to sell within five to ten years and need to maintain roof performance without the capital investment of full [commercial roof replacement](/commercial-roof-replacement-bloomfield-nj). The coating provides a manufacturer warranty on the restored surface, giving the building owner documented roof protection for the planned ownership period.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofWaterproofing: ComboContent = {
     {
       question: 'Does roof waterproofing work in Bloomfield\'s freeze-thaw climate?',
       answer: 'Yes. Modern silicone and polyurethane waterproofing coatings are formulated for freeze-thaw climates and maintain flexibility at temperatures well below zero degrees Fahrenheit. The seamless application actually performs better in freeze-thaw conditions than seamed membranes because there are no joints where ice expansion can create separation. The key requirement is proper application -- the coating must be applied in temperatures above fifty degrees with no rain expected for twenty-four hours, limiting application to the April-through-October window in Bloomfield.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Bloomfield, NJ?',
+      answer: 'Most roof waterproofing projects in Bloomfield range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Bloomfield NJ -- liquid coatings for commercial flat roofs, split-level flat sections, and aging membrane restoration.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

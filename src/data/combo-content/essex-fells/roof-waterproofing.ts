@@ -4,7 +4,7 @@ export const essexFellsRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'essex-fells',
   overview: [
-    'Roof waterproofing in Essex Fells encompasses the membrane systems, coatings, and sealant applications that protect estate structures beyond what primary roofing materials alone provide. Beneath every slate, cedar shake, and tile roof on an Essex Fells estate lies an underlayment and waterproofing system that serves as the true weather barrier -- the invisible layer that prevents water infiltration when the primary roofing material is compromised by wind-driven rain, ice dam formation, or age-related deterioration. On estate properties where interior finishes are measured in six-figure investments, this secondary waterproofing must be engineered to the highest standards.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Essex Fells — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Essex Fells encompasses the membrane systems, coatings, and sealant applications that protect estate structures beyond what primary roofing materials alone provide. Beneath every slate, cedar shake, and tile roof on an Essex Fells estate lies an underlayment and waterproofing system that serves as the true weather barrier -- the invisible layer that prevents water infiltration when the primary roofing material is compromised by wind-driven rain, ice dam formation, or age-related deterioration. On estate properties where interior finishes are measured in six-figure investments, this secondary waterproofing must be engineered to the highest standards.',
     'The below-grade and partially buried structures common on Essex Fells estate properties present waterproofing challenges distinct from conventional roofing. Walkout basements, wine cellars with earth-sheltered walls, underground connections between estate structures, and partially buried garage wings require waterproofing systems that resist hydrostatic pressure from saturated soil -- a fundamentally different challenge than the gravity-drainage orientation of conventional roof waterproofing. These applications demand membrane systems rated for below-grade installation with drainage composite and protection board layers shielding the membrane from construction backfill damage.',
     'Our [roof waterproofing](/roof-waterproofing) practice in Essex Fells addresses the full spectrum of waterproofing applications on estate properties, from the high-performance underlayments beneath premium roofing materials to the specialized membrane systems protecting below-grade finished spaces. We specify and install waterproofing systems based on the specific conditions each application presents -- exposure type, hydrostatic pressure, membrane accessibility for future maintenance, and the consequence of failure measured by the value of the space the waterproofing protects.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRoofWaterproofing: ComboContent = {
     {
       question: 'How long does roof underlayment waterproofing last?',
       answer: 'Self-adhered ice-and-water shield membranes are designed to last the life of the primary roofing material -- thirty to one hundred years depending on the roof type. Synthetic underlayments provide twenty to thirty years of protection beneath the primary roofing surface. Both products are protected from UV degradation by the roofing material above them, so their longevity depends primarily on the quality of the original installation and the structural stability of the roof deck they are bonded to.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Essex Fells, NJ?',
+      answer: 'Most roof waterproofing projects in Essex Fells range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Essex Fells NJ -- underlayment systems, below-grade membranes, and grade-line transitions for estate properties.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

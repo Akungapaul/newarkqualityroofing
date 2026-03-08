@@ -4,7 +4,7 @@ export const essexFellsRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'essex-fells',
   overview: [
-    'Thermal imaging roof inspections in Essex Fells provide non-destructive diagnostic intelligence about heat loss, moisture infiltration, and insulation deficiencies hidden beneath the premium roofing materials covering the borough\'s estate homes and institutional buildings. Infrared cameras detect temperature differentials on roof surfaces and interior ceilings that reveal conditions invisible to visual inspection -- saturated insulation retaining daytime heat after sunset, thermal bridges at structural connections allowing conditioned air to escape, and moisture migration paths behind finished surfaces directing water far from its entry point.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Essex Fells — with prices starting from $300–$700 and free estimates available today. Thermal imaging roof inspections in Essex Fells provide non-destructive diagnostic intelligence about heat loss, moisture infiltration, and insulation deficiencies hidden beneath the premium roofing materials covering the borough\'s estate homes and institutional buildings. Infrared cameras detect temperature differentials on roof surfaces and interior ceilings that reveal conditions invisible to visual inspection -- saturated insulation retaining daytime heat after sunset, thermal bridges at structural connections allowing conditioned air to escape, and moisture migration paths behind finished surfaces directing water far from its entry point.',
     'The diagnostic value of thermal imaging is particularly high on Essex Fells properties where the roofing materials themselves -- slate, copper, cedar shake -- prevent visual assessment of the conditions beneath. Opening a sound slate roof to inspect the deck below is destructive and expensive. Thermal imaging provides condition intelligence through the roofing surface without removing a single slate, guiding targeted investigation to areas where thermal anomalies indicate problems worth exploring. This non-destructive diagnostic approach preserves the premium roofing investment while identifying the concealed conditions that threaten it.',
     'Our thermal imaging inspection capability serves both the residential estate market and the institutional building portfolio in [Essex Fells](/roofing-in-essex-fells-nj). Estate inspections identify heat loss patterns for energy improvement planning, moisture infiltration sources for targeted repair, and ice dam formation zones for prevention design. Institutional inspections map moisture conditions in commercial roof assemblies to guide maintenance budgeting and replacement timing decisions. Both applications convert invisible conditions into documented evidence that supports informed property management decisions.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRoofThermalImagingInspections: ComboContent = {
     {
       question: 'What follow-up is needed after thermal imaging identifies an anomaly?',
       answer: 'Thermal anomalies identified as high-priority receive physical verification -- accessing the area from interior attic space, extracting a core sample from flat-roof membranes, or performing localized exploratory opening at the anomaly location. This physical verification confirms the thermal imaging interpretation and provides the specific condition data needed for repair specification. Low-priority monitoring anomalies are documented for comparison at the next thermal inspection to track whether the condition is stable or progressing.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Essex Fells, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Essex Fells range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Essex Fells NJ -- non-destructive infrared diagnostics for estate and institutional roofs.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

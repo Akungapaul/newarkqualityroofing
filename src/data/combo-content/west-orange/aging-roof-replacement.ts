@@ -4,7 +4,7 @@ export const westOrangeAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Aging roof replacement addresses the gradual decline that eventually brings every West Orange roof past its serviceable life -- curling shingles, granule loss, deteriorating flashing, and the cumulative fatigue of decades under Essex County weather. Our [aging roof replacement](/aging-roof-replacement) consultations help West Orange homeowners time replacement strategically, before emergency leaks force rushed decisions, but not so early that years of remaining life are wasted.',
+    'Newark Quality Roofing delivers expert aging roof replacement in West Orange — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement addresses the gradual decline that eventually brings every West Orange roof past its serviceable life -- curling shingles, granule loss, deteriorating flashing, and the cumulative fatigue of decades under Essex County weather. Our [aging roof replacement](/aging-roof-replacement) consultations help West Orange homeowners time replacement strategically, before emergency leaks force rushed decisions, but not so early that years of remaining life are wasted.',
     'West Orange roofs age at different rates depending on their elevation and exposure. Ridge-top homes along Eagle Rock Avenue experience accelerated aging from amplified wind stress and UV exposure, often needing replacement at 18 to 22 years. Mid-slope homes with mixed sun and shade age at typical rates of 22 to 28 years. Valley-floor homes with heavy shade from South Mountain canopy may see reduced UV aging but accelerated biological growth that compromises shingle integrity on a similar timeline. Homeowners near [Glen Ridge](/aging-roof-replacement-glen-ridge-nj) observe comparable aging patterns on their own Essex County homes.',
     'The mid-century split-level homes throughout [West Orange](/roofing-in-west-orange-nj) are entering their second or third re-roofing cycle, with original 1960s construction now requiring either the third roof or, for homes that received one replacement, their second. Each replacement cycle is an opportunity to upgrade from the basic materials of previous installations to modern products engineered for the specific challenges these homes face -- wind-rated shingles, ice-and-water shield at level-change transitions, and ventilation improvements that the original construction never included.'
   ],
@@ -34,7 +34,25 @@ export const westOrangeAgingRoofReplacement: ComboContent = {
     {
       question: 'How long does an aging roof replacement take?',
       answer: 'Most residential aging roof replacements in West Orange complete in 2 to 4 days depending on roof size, complexity, and deck repair scope. Split-level homes with multiple roof planes and level-change transitions typically require 3 to 4 days. The project includes full tear-off, deck inspection and repair, barrier installation, new shingle application, and thorough site cleanup. We provide a specific timeline estimate during the proposal phase based on your home\'s actual roof dimensions and complexity.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in West Orange, NJ?',
+      answer: 'Most aging roof replacement projects in West Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in West Orange NJ. Timely replacement with material upgrades before emergency leaks force rushed decisions.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

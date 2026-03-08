@@ -4,7 +4,7 @@ export const roselandCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'roseland',
   overview: [
-    'Cedar shake roofing brings a specific warmth and craftsmanship to Roseland homes that sets it apart from both standard wood shakes and the asphalt profiles that line most borough streets. Western red cedar -- the species that defines this roofing category -- offers natural oils that resist insect damage, a tight grain structure that manages moisture better than other wood species, and an insulation value roughly twice that of asphalt shingles. Our [cedar shake roofing](/cedar-shake-roofing) service provides Roseland homeowners with the genuine hand-split cedar experience, from material selection through installation and long-term preservation.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Roseland — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing brings a specific warmth and craftsmanship to Roseland homes that sets it apart from both standard wood shakes and the asphalt profiles that line most borough streets. Western red cedar -- the species that defines this roofing category -- offers natural oils that resist insect damage, a tight grain structure that manages moisture better than other wood species, and an insulation value roughly twice that of asphalt shingles. Our [cedar shake roofing](/cedar-shake-roofing) service provides Roseland homeowners with the genuine hand-split cedar experience, from material selection through installation and long-term preservation.',
     'The distinction between cedar shake and generic wood shake matters in Roseland\'s climate. Cedar\'s natural thujaplicin content provides measurable rot and insect resistance without chemical treatment, though fire-retardant pressure treatment remains standard for code compliance in New Jersey. Homeowners who appreciate this species-specific advantage invest in cedar knowing that its inherent properties complement the applied treatments rather than depending entirely on them. Properties in nearby [Montclair](/cedar-shake-roofing-montclair-nj) feature cedar shake installations that have weathered gracefully for decades under similar environmental conditions.',
     'Roseland\'s residential lots offer generally favorable conditions for cedar shake performance. Moderate lot sizes provide adequate sun exposure for moisture evaporation while the borough\'s mature but managed tree canopy avoids the extreme shading that accelerates organic growth on wood surfaces. This balance between shade and sunlight contributes to consistent weathering that produces the silvery-gray patina that cedar shake owners value -- the visual evidence that natural materials are performing as designed.'
   ],
@@ -34,7 +34,25 @@ export const roselandCedarShakeRoofing: ComboContent = {
     {
       question: 'How much more does cedar shake cost compared to architectural shingles?',
       answer: 'Cedar shake installation typically costs two to three times more than premium architectural asphalt shingles in Roseland. The premium reflects the material cost of kiln-dried, fire-treated western red cedar, the specialized ventilation system required beneath the shakes, and the longer installation timeline. The return on this investment includes a 30 to 40 year service life, natural insulation value, and the distinctive aesthetic that cannot be replicated by manufactured products.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Roseland, NJ?',
+      answer: 'Most cedar shake roofing projects in Roseland range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Roseland NJ -- hand-split western red cedar installation with fire treatment and ventilation for residential homes.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

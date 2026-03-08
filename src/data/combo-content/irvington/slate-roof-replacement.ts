@@ -4,7 +4,7 @@ export const irvingtonSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Slate roof replacement in Irvington serves the small but architecturally significant number of homes in the township that carry original or early-replacement natural slate surfaces -- primarily in the Olympic Park section and scattered throughout older residential blocks where pre-war construction included slate as a premium roofing material. Our [slate roof replacement](/slate-roof-replacement) services provide Irvington homeowners with both natural slate restoration and synthetic slate alternatives that preserve the visual character of these distinctive roofs within budgets appropriate to the township\'s market.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Irvington — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Irvington serves the small but architecturally significant number of homes in the township that carry original or early-replacement natural slate surfaces -- primarily in the Olympic Park section and scattered throughout older residential blocks where pre-war construction included slate as a premium roofing material. Our [slate roof replacement](/slate-roof-replacement) services provide Irvington homeowners with both natural slate restoration and synthetic slate alternatives that preserve the visual character of these distinctive roofs within budgets appropriate to the township\'s market.',
     'Natural slate replacement on Irvington homes requires structural assessment that verifies the existing framing can support the weight of new slate -- approximately 7 to 10 pounds per square foot compared to 2.5 to 3.5 pounds for architectural shingles. Homes that have carried slate for 80 to 90 years typically have framing adequate for the load, but decades of moisture exposure may have weakened rafters and ridge boards that originally supported the weight without difficulty.',
     'Synthetic slate products have expanded the options available to Irvington homeowners who want to maintain slate\'s appearance without the weight, cost, and fragility of natural stone. Modern composite and polymer slate products weigh one-quarter of natural slate, install with standard roofing techniques, and produce a surface appearance that is difficult to distinguish from natural stone at street level. For Irvington homes where budget precludes natural slate or where framing cannot support the weight, synthetic slate delivers the aesthetic preservation that homeowners seek. Historic homes in [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) face similar natural-versus-synthetic decisions, though that borough\'s historic commission involvement adds regulatory considerations that Irvington homeowners generally do not encounter.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonSlateRoofReplacement: ComboContent = {
       question: 'How long does a natural slate roof last in Irvington?',
       answer: 'Natural slate roofs last 75 to 150 years depending on the slate variety, installation quality, and flashing maintenance. Several Irvington homes still carry original 1920s and 1930s slate that has served for nearly a century with periodic repair. When replacement is needed, it is usually due to flashing failure or structural movement rather than the slate material itself deteriorating.',
     },
+    {
+      question: 'How much does slate roof replacement cost in Irvington, NJ?',
+      answer: 'Most slate roof replacement projects in Irvington range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Irvington NJ with natural stone and synthetic alternatives. Preserve your home\'s architectural character at the right price point.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

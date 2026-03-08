@@ -206,6 +206,18 @@ export const urbanCoreContent: CityContent[] = [
     metaTitle: 'Newark NJ Roofing Company — Roof Repair & Replacement',
     metaDescription:
       'Newark\'s trusted roofing contractor. 500+ projects across Ironbound, Forest Hill, Downtown and beyond. Free estimates for roof repair and replacement.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Newark.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Newark',
+      'Family-Owned & Local',
+    ],
   },
 
   // ─── East Orange ─────────────────────────────────────────────────────────
@@ -354,6 +366,11 @@ export const urbanCoreContent: CityContent[] = [
         answer:
           'East Orange\'s mature tree canopy is beautiful but hard on roofs. Falling branches cause punctures, accumulated leaves trap moisture in valleys and gutters, and shade promotes moss growth. We recommend annual gutter cleaning, roof inspections after major storms, and zinc ridge strips to prevent moss. Trimming branches back 10 feet from the roof edge is the single best preventive measure.',
       },
+    
+      {
+        question: 'How much does roofing cost in East Orange, NJ?',
+        answer: 'Most roof repairs in East Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why East Orange Homeowners Choose Newark Quality Roofing',
@@ -383,6 +400,18 @@ export const urbanCoreContent: CityContent[] = [
     metaTitle: 'East Orange NJ Roofing — Repair & Replacement Services',
     metaDescription:
       'Trusted East Orange roofer near Brick Church and Main Street. Multi-family, Victorian, and commercial roofing. Free estimates from Newark Quality Roofing.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in East Orange.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving East Orange',
+      'Family-Owned & Local',
+    ],
   },
 
   // ─── Orange ──────────────────────────────────────────────────────────────
@@ -530,6 +559,11 @@ export const urbanCoreContent: CityContent[] = [
         answer:
           'Orange\'s proximity to South Mountain creates localized ice conditions that can be more severe than surrounding flatland areas. Ice accumulates on trees and roofs, stressing structures and creating ice dams at eaves. We install reinforced gutter systems, enhanced ice and water shield, and improved attic ventilation to protect Orange homes from ice-related damage.',
       },
+    
+      {
+        question: 'How much does roofing cost in Orange, NJ?',
+        answer: 'Most roof repairs in Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why Orange Residents Choose Newark Quality Roofing',
@@ -559,6 +593,18 @@ export const urbanCoreContent: CityContent[] = [
     metaTitle: 'Orange NJ Roofer — Roof Repair & Replacement Experts',
     metaDescription:
       'Orange NJ roofing contractor serving Main Street to South Mountain. Victorian restoration, tight-lot expertise, and commercial flat roofs. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Orange.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Orange',
+      'Family-Owned & Local',
+    ],
   },
 
   // ─── Irvington ───────────────────────────────────────────────────────────
@@ -721,6 +767,10 @@ export const urbanCoreContent: CityContent[] = [
         answer:
           'Our Newark headquarters is adjacent to Irvington — we share a border along the Vailsburg neighborhood. We typically provide same-day estimates, and once a contract is signed, work begins within 5 to 10 business days depending on weather and material availability. Emergency repairs receive same-day response.',
       },
+      {
+        question: 'How much does roofing cost in Irvington, NJ?',
+        answer: 'Most roof repairs in Irvington range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why Irvington Trusts Newark Quality Roofing',
@@ -755,5 +805,17 @@ export const urbanCoreContent: CityContent[] = [
     metaTitle: 'Irvington NJ Roofing — Affordable Roof Repair & Replacement',
     metaDescription:
       'Irvington\'s trusted roofer for colonials, multi-family homes, and commercial buildings. Affordable quality from Newark Quality Roofing. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Irvington.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Irvington',
+      'Family-Owned & Local',
+    ],
   },
 ];

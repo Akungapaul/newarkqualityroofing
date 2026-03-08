@@ -4,7 +4,7 @@ export const millburnCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Cedar shake roof replacement on Millburn estates renews the organic warmth and textural richness that drew the homeowner to natural wood roofing while upgrading every component beneath the visible shake surface to contemporary performance standards. The cedar shakes installed on Short Hills and South Mountain properties during the 1980s and 1990s are now reaching or exceeding their thirty-to-forty-year service life, presenting homeowners with the decision to replace with new cedar, convert to fire-resistant composite alternatives, or transition to a different material entirely.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Millburn — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement on Millburn estates renews the organic warmth and textural richness that drew the homeowner to natural wood roofing while upgrading every component beneath the visible shake surface to contemporary performance standards. The cedar shakes installed on Short Hills and South Mountain properties during the 1980s and 1990s are now reaching or exceeding their thirty-to-forty-year service life, presenting homeowners with the decision to replace with new cedar, convert to fire-resistant composite alternatives, or transition to a different material entirely.',
     'Like-for-like cedar replacement using premium hand-split and resawn shakes from certified sources restores the natural character that the home\'s architecture was designed to express. The irregular shadow lines, natural color variation, and dimensional depth that machine-sawn or synthetic alternatives approximate but do not replicate are the qualities that Millburn homeowners who choose cedar replacement are specifically preserving. Our [cedar shake roof replacement](/cedar-shake-roof-replacement) practice sources CSSB Blue Label shakes from managed-growth western red cedar -- the grade specification that delivers consistent quality across the forty or more squares typically required for an estate installation.',
     'The replacement presents an opportunity to address the ventilation, underlayment, and fire-resistance requirements that have evolved since the original installation. Modern skip-sheathing or ventilated-mat underlayment systems provide superior air circulation beneath the shakes compared to the original construction methods. Ice-and-water shield coverage at eaves, valleys, and penetrations provides secondary waterproofing that the original installation may not have included. Zinc or copper ridge strips can be incorporated to inhibit the moss and algae growth that Millburn\'s tree-canopy environment promotes on cedar surfaces.'
   ],
@@ -34,7 +34,25 @@ export const millburnCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Can I salvage any of my existing shakes for future repairs?',
       answer: 'Cedar shakes at the end of their service life are generally too deteriorated for reuse. However, if sections of the existing roof remain in serviceable condition -- typically the youngest sections or those with the most favorable sun exposure -- sound shakes can be salvaged during tear-off for use as a reference standard when matching future repair material. We assess salvage potential during tear-off and set aside any material worth preserving.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Millburn, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Millburn range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement for Millburn estates. Premium hand-split shakes with fire-retardant treatment, canopy-environment ventilation, and maintenance.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const essexFellsFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'essex-fells',
   overview: [
-    'Full roof tear-off on Essex Fells estates represents the most comprehensive roofing intervention available -- complete removal of every layer of existing roofing material down to the structural deck, enabling assessment of deck condition, installation of modern underlayment systems, and fresh application of the specified roofing material without the compromises inherent in overlay installations. For estate homes where roofing materials have been in service for decades, tear-off reveals the hidden conditions that determine whether the next roof system will achieve its full projected lifespan.',
+    'Newark Quality Roofing delivers expert full roof tear off in Essex Fells — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on Essex Fells estates represents the most comprehensive roofing intervention available -- complete removal of every layer of existing roofing material down to the structural deck, enabling assessment of deck condition, installation of modern underlayment systems, and fresh application of the specified roofing material without the compromises inherent in overlay installations. For estate homes where roofing materials have been in service for decades, tear-off reveals the hidden conditions that determine whether the next roof system will achieve its full projected lifespan.',
     'The scale of tear-off projects on Essex Fells properties distinguishes them from standard residential work. Multi-structure estates may require coordinated tear-off across the main residence, carriage house, and guest cottage, with different roofing materials on each building demanding separate disposal streams and different replacement specifications. A single estate project might involve stripping eight thousand square feet of roofing across three structures -- a scope requiring the crew capacity, equipment staging, and debris management logistics of a small commercial project rather than a residential re-roof.',
     'Our [full roof tear-off](/full-roof-tear-off) practice in Essex Fells manages the estate-scale logistics, debris control, and site protection requirements that distinguish this borough\'s projects from suburban residential work. Slate tear-off generates heavy, sharp debris that requires structural-grade debris chutes and reinforced dumpsters. Cedar shake tear-off produces volatile, lightweight material that wind can scatter across the estate landscape. Each material type demands specific handling, containment, and disposal methods executed within the site-sensitivity standards governing construction on Essex Fells properties.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsFullRoofTearOff: ComboContent = {
     {
       question: 'How do you protect my estate landscape during tear-off?',
       answer: 'Ground protection includes tarps extending beyond the debris fall zone, plywood walkways protecting landscape beds and hardscape surfaces, and dedicated crew members managing containment during active stripping. Debris chutes direct material into dumpsters rather than allowing free-fall to ground level. Equipment and staging areas are positioned clear of specimen plantings and irrigation systems. After project completion, we remove all protection materials and restore disturbed areas to pre-construction condition.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Essex Fells, NJ?',
+      answer: 'Most full roof tear off projects in Essex Fells range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Essex Fells NJ -- estate-scale removal with deck assessment, debris management, and salvage recovery.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

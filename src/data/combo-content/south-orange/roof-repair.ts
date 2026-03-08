@@ -4,7 +4,7 @@ export const southOrangeRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'south-orange',
   overview: [
-    'South Orange Village occupies a distinctive place in the Essex County roofing landscape -- a community where natural slate and cedar shake roofing outnumber standard asphalt shingle installations on many residential streets. Repairing roofs here means working with premium materials on architecturally significant homes, from the Tudor Revival estates climbing the Montrose Park hillside toward South Mountain Reservation to the Arts and Crafts bungalows lining Scotland Road. Every repair call in South Orange begins with a material identification step that determines whether the crew needs copper soldering equipment, slate hooks, or cedar replacement stock before they even load the truck.',
+    'Newark Quality Roofing delivers expert roof repair in South Orange — with prices starting from $350–$1,500 and free estimates available today. South Orange Village occupies a distinctive place in the Essex County roofing landscape -- a community where natural slate and cedar shake roofing outnumber standard asphalt shingle installations on many residential streets. Repairing roofs here means working with premium materials on architecturally significant homes, from the Tudor Revival estates climbing the Montrose Park hillside toward South Mountain Reservation to the Arts and Crafts bungalows lining Scotland Road. Every repair call in South Orange begins with a material identification step that determines whether the crew needs copper soldering equipment, slate hooks, or cedar replacement stock before they even load the truck.',
     'The village governance structure -- South Orange is technically a village within a township -- means building permits and inspections follow a process shaped by a community that values its architectural heritage. Homeowners along Prospect Street, Ward Place, and throughout the Montrose Park section maintain properties that reflect decades of careful stewardship, and they expect repair work that honors that investment. A sloppy shingle patch on a [Maplewood](/roof-repair-maplewood-nj) Colonial might go unnoticed, but the same shortcut on a South Orange Tudor with original slate draws immediate neighbor scrutiny and justified complaint.',
     'Seton Hall University\'s 58-acre campus at the northern edge of the village adds institutional roofing repair work to our South Orange portfolio. Campus buildings range from 19th-century academic halls with slate roofs to modern athletic facilities with large-footprint membrane systems, each requiring different repair approaches and scheduling coordination with university operations. The residential neighborhoods surrounding Seton Hall also include multi-family rental properties serving the student population, where roof repair urgency stems from tenant-occupied conditions rather than owner-occupant aesthetics.',
     'South Orange\'s western boundary along South Mountain Reservation exposes homes to concentrated storm debris and sustained wind loads that accelerate roofing wear. Properties backing up to the Reservation contend with falling branches, heavy leaf accumulation in valleys and gutters, and the persistent shade that promotes moss colonization on both slate and cedar surfaces. Our [roof repair](/roof-repair) approach for these border properties factors in the environmental exposure that suburban locations further from the tree line never experience.'
@@ -39,7 +39,25 @@ export const southOrangeRoofRepair: ComboContent = {
     {
       question: 'Can you repair my roof without damaging the copper gutters?',
       answer: 'Yes. Our crews are trained to work around existing copper gutter systems, using protective padding on ladder contacts and avoiding staging materials on gutter runs. When repair work involves the roof edge near copper gutters, we remove gutter sections temporarily and reinstall them after the repair with fresh copper hangers if needed. Preserving original copper components is standard practice on South Orange homes where these elements are both functional and architecturally significant.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in South Orange, NJ?',
+      answer: 'Most roof repair projects in South Orange range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof repair in South Orange NJ -- slate restoration, cedar shake repair, and copper flashing work for Montrose Park estates and village homes.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

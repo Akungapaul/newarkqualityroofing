@@ -4,7 +4,7 @@ export const irvingtonSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'irvington',
   overview: [
-    'Silicone roof coating has become the most requested flat-roof restoration option on Irvington\'s commercial buildings, where Springfield Avenue property owners and Route 78 facility managers need a cost-effective alternative to full membrane replacement on roofs that still have structural integrity but have lost their surface waterproofing performance. Our [silicone roof coating](/silicone-roof-coating) installations across Irvington apply high-solids silicone elastomeric systems that restore waterproofing, add reflective UV protection, and extend the existing roof\'s useful life by 10 to 15 years at roughly one-third the cost of replacement.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Irvington — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating has become the most requested flat-roof restoration option on Irvington\'s commercial buildings, where Springfield Avenue property owners and Route 78 facility managers need a cost-effective alternative to full membrane replacement on roofs that still have structural integrity but have lost their surface waterproofing performance. Our [silicone roof coating](/silicone-roof-coating) installations across Irvington apply high-solids silicone elastomeric systems that restore waterproofing, add reflective UV protection, and extend the existing roof\'s useful life by 10 to 15 years at roughly one-third the cost of replacement.',
     'The chemical properties of silicone make it uniquely suited to Irvington\'s flat-roof conditions. Unlike acrylic coatings that soften and wash away in ponding water, silicone cures to a permanently waterproof film that tolerates indefinite standing water without degradation. On Springfield Avenue buildings where decades of structural settling have created ponding areas that conventional coatings cannot survive, silicone coating maintains its integrity regardless of water contact duration -- a critical advantage on roofs where correcting drainage slope would require expensive structural modifications.',
     'Energy savings from silicone\'s highly reflective white surface provide a secondary financial benefit for Irvington commercial property owners. A dark-surfaced modified bitumen roof absorbing solar heat can produce rooftop temperatures exceeding 170 degrees on a July afternoon, driving cooling costs on the floor below. The same roof coated with white silicone reflects 80 to 85 percent of solar energy, reducing surface temperature by 50 to 60 degrees and delivering measurable air conditioning savings. Commercial buildings in [Bloomfield](/silicone-roof-coating-bloomfield-nj) capture similar energy benefits from reflective coatings on their commercial flat roofs.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonSiliconeRoofCoating: ComboContent = {
       question: 'Is my Irvington commercial roof a candidate for silicone coating?',
       answer: 'Silicone coating is viable on commercial roofs with sound structural substrate, dry insulation, and intact membrane that has lost surface waterproofing performance. Roofs with trapped moisture, failed insulation, or structural deck damage require repair or replacement first. We perform core sampling and moisture scanning to determine candidacy before recommending coating versus replacement.',
     },
+    {
+      question: 'How much does silicone roof coating cost in Irvington, NJ?',
+      answer: 'Most silicone roof coating projects in Irvington range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Irvington NJ for commercial flat roofs. Restore waterproofing and reflectivity at one-third the cost of replacement.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

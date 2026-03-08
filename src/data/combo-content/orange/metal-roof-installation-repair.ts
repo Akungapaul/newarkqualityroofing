@@ -4,7 +4,7 @@ export const orangeMetalRoofInstallationRepair: ComboContent = {
   serviceId: 'metal-roof-installation-repair',
   cityId: 'orange',
   overview: [
-    'Metal roofing in Orange answers a practical question that many homeowners in this tree-heavy city are asking: how do I stop replacing my roof every 20 years? Standing seam metal panels and metal shingle systems resist the branch impacts, debris accumulation, and biological growth that plague asphalt shingles on South Mountain-adjacent properties. A metal roof installed today on a Scotland Road colonial or a Park Avenue transitional will still be performing in 50 years -- long after neighboring asphalt shingle roofs have been replaced twice. Our [metal roof installation and repair](/metal-roof-installation-repair) work in Orange has accelerated as homeowners calculate the lifecycle cost advantage of metal over repeated shingle replacements.',
+    'Newark Quality Roofing delivers expert metal roof installation repair in Orange — with prices starting from $15,000–$35,000 and free estimates available today. Metal roofing in Orange answers a practical question that many homeowners in this tree-heavy city are asking: how do I stop replacing my roof every 20 years? Standing seam metal panels and metal shingle systems resist the branch impacts, debris accumulation, and biological growth that plague asphalt shingles on South Mountain-adjacent properties. A metal roof installed today on a Scotland Road colonial or a Park Avenue transitional will still be performing in 50 years -- long after neighboring asphalt shingle roofs have been replaced twice. Our [metal roof installation and repair](/metal-roof-installation-repair) work in Orange has accelerated as homeowners calculate the lifecycle cost advantage of metal over repeated shingle replacements.',
     'Orange\'s compact lots and tight building spacing create acoustic concerns that make metal roof installation different here than in spread-out suburban communities. Rain on a standing seam metal roof generates more audible sound than rain on asphalt shingles, and on Orange\'s 30-foot lots where bedrooms may be ten feet from the neighboring structure, this noise differential matters. Our metal installations in Orange include solid decking with high-density insulation underlayment that significantly dampens rain noise -- reducing interior sound levels to comparable or lower than standard asphalt shingle performance. This acoustic treatment is standard on all our Orange metal projects, not an optional upgrade.',
     'The aesthetic range of modern metal roofing has expanded well beyond the agricultural ribbed-panel profile that older Orange homeowners may associate with the material. Standing seam panels in factory-applied colors coordinate with any architectural style. Stone-coated steel shingles replicate the profile of slate, wood shake, or Mediterranean tile with the performance advantages of metal. For Orange\'s Victorian and Colonial Revival homes on Scotland Road, metal shingle profiles provide a historically appropriate appearance that blends seamlessly with the neighborhood character while delivering the impact resistance and longevity that natural materials cannot match at comparable cost. Similar aesthetic flexibility appeals to homeowners in [West Orange](/metal-roof-installation-repair-west-orange-nj) who want metal\'s durability with traditional appearance.'
   ],
@@ -34,7 +34,25 @@ export const orangeMetalRoofInstallationRepair: ComboContent = {
     {
       question: 'How long does a metal roof installation take in Orange?',
       answer: 'Standing seam metal installations on standard Orange colonials take four to six days. Stone-coated steel shingle systems take three to five days. Victorian homes with complex rooflines, multiple dormers, and turret features take longer -- typically seven to ten days. Tight-lot access conditions may add a half-day for careful material staging. We provide specific timelines during the estimate based on your property geometry.'
-    }
+    },
+    {
+      question: 'How much does metal roof installation repair cost in Orange, NJ?',
+      answer: 'Most metal roof installation repair projects in Orange range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof installation and repair in Orange NJ -- standing seam, stone-coated steel, acoustic treatment for tight lots, and South Mountain impact resistance.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'premium standing seam or panel systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof installation repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

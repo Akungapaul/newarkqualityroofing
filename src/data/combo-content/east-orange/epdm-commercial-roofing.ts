@@ -4,7 +4,7 @@ export const eastOrangeEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'east-orange',
   overview: [
-    'Commercial-grade EPDM roofing in East Orange serves a building inventory that straddles the line between residential multi-family and true commercial construction. The three-story and four-story mixed-use buildings along Main Street, the institutional structures serving East Orange General Hospital, and the municipal and community buildings throughout the city all carry flat roof systems where EPDM\'s commercial-grade membrane delivers the performance characteristics that building owners and facility managers require: proven longevity, straightforward repair procedures, and installed costs that respect the fiscal realities of operating commercial property in a community rebuilding its economic base.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in East Orange — with prices starting from $6–$11/sq ft and free estimates available today. Commercial-grade EPDM roofing in East Orange serves a building inventory that straddles the line between residential multi-family and true commercial construction. The three-story and four-story mixed-use buildings along Main Street, the institutional structures serving East Orange General Hospital, and the municipal and community buildings throughout the city all carry flat roof systems where EPDM\'s commercial-grade membrane delivers the performance characteristics that building owners and facility managers require: proven longevity, straightforward repair procedures, and installed costs that respect the fiscal realities of operating commercial property in a community rebuilding its economic base.',
     'Main Street\'s commercial corridor presents [EPDM commercial roofing](/epdm-commercial-roofing) with conditions that test membrane durability across multiple stress vectors. Rooftop HVAC equipment on retail and office buildings creates penetration points and foot traffic zones where membrane puncture risk concentrates. Signage attachments, exhaust vents from ground-floor restaurants, and telecommunications equipment mounted on building parapets add complexity to the waterproofing envelope that a simple residential flat roof does not encounter. Each penetration requires properly fabricated EPDM flashing boots, and each traffic zone requires walk pad protection to prevent the progressive membrane damage that unprotected foot traffic creates.',
     'East Orange\'s commercial building owners operating on constrained budgets find EPDM attractive because the installed cost differential against TPO and PVC systems is meaningful at commercial scale. A 10,000-square-foot commercial roof -- typical for a Main Street mixed-use building or a Brick Church district office building -- saves $15,000 to $25,000 in installed cost by selecting EPDM over single-ply thermoplastic alternatives. For property owners managing tight operating margins in East Orange\'s recovering commercial market, that differential represents real capital available for tenant improvements, facade upgrades, or other investments that directly support occupancy and rental rates.',
     'Unlike the white reflective membranes increasingly specified on [Newark](/epdm-commercial-roofing-newark-nj) commercial properties for energy code compliance, EPDM\'s dark surface integrates with East Orange\'s commercial building stock where heating costs dominate the energy profile. Many of East Orange\'s older commercial buildings lack modern insulation and rely on outdated heating systems -- conditions where EPDM\'s passive solar heat gain during winter months provides a measurable offset to heating costs that reflective membranes would forfeit.'
@@ -35,7 +35,25 @@ export const eastOrangeEpdmCommercialRoofing: ComboContent = {
     {
       question: 'How do you prevent HVAC service technicians from damaging the new EPDM roof?',
       answer: 'We install permanent walk pad systems along all traffic routes between roof access points and HVAC equipment locations. Walk pads distribute foot traffic loads and protect the membrane from tool drops and equipment dragging. We also provide the building owner with a roof access protocol document that can be shared with HVAC and other service contractors, specifying the approved traffic routes and prohibited activities on the membrane surface.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in East Orange, NJ?',
+      answer: 'Most epdm commercial roofing projects in East Orange range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing for East Orange NJ buildings -- cost-effective membrane installation for mixed-use, office, and institutional flat roofs.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

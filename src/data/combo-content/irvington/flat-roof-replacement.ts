@@ -4,7 +4,7 @@ export const irvingtonFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Flat roof replacement in Irvington serves both the residential additions and porches that extend the township\'s colonials and Cape Cods, and the commercial buildings along Springfield Avenue and Route 78 that rely entirely on flat-roof membrane systems. Our [flat roof replacement](/flat-roof-replacement) services apply the appropriate membrane technology -- EPDM, TPO, or modified bitumen -- based on each Irvington building\'s specific exposure conditions, budget parameters, and performance requirements.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Irvington — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Irvington serves both the residential additions and porches that extend the township\'s colonials and Cape Cods, and the commercial buildings along Springfield Avenue and Route 78 that rely entirely on flat-roof membrane systems. Our [flat roof replacement](/flat-roof-replacement) services apply the appropriate membrane technology -- EPDM, TPO, or modified bitumen -- based on each Irvington building\'s specific exposure conditions, budget parameters, and performance requirements.',
     'Residential flat-roof replacement on Irvington homes typically addresses enclosed porches, kitchen additions, and garage extensions that were added to original homes in the 1940s through 1960s. These secondary structures carried rolled roofing or early-generation rubber membranes that have long since failed, and many have been patched and re-coated multiple times. Our residential flat-roof replacement strips these accumulated layers, repairs the substrate, establishes proper drainage slope, and installs a modern membrane system that will perform for 25 years on a surface where temporary patches were failing every 2 to 3 years.',
     'Commercial flat-roof replacement along Springfield Avenue and Route 78 addresses the aging membrane systems on Irvington\'s commercial building inventory. Many of these buildings carry their original 1980s or 1990s membrane installations, now well past expected service life and producing chronic leak problems. Our commercial flat-roof replacements bring these buildings up to current code standards for insulation, wind uplift, and fire resistance while resolving the drainage deficiencies that the original installations allowed. Commercial flat roof projects in [Newark](/flat-roof-replacement-newark-nj) address identical aging membrane conditions on that city\'s more extensive commercial inventory.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonFlatRoofReplacement: ComboContent = {
       question: 'Can flat roof replacement fix ponding problems on my Irvington building?',
       answer: 'Yes. Flat-roof replacement is the most effective way to correct ponding because the tapered insulation installed during replacement creates proper drainage slope that the original construction never provided. We design the tapered insulation layout to eliminate all identified ponding areas and direct water to properly functioning drains.',
     },
+    {
+      question: 'How much does flat roof replacement cost in Irvington, NJ?',
+      answer: 'Most flat roof replacement projects in Irvington range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Irvington NJ for residential additions and commercial buildings. EPDM, TPO, and mod-bit with proper drainage correction.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

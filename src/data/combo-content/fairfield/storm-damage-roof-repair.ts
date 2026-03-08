@@ -4,7 +4,7 @@ export const fairfieldStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'fairfield',
   overview: [
-    'Storm damage in Fairfield hits harder along the Route 46 corridor than anywhere else in western Essex County. The highway\'s east-west orientation creates a wind tunnel effect that amplifies storm gusts, and the large flat-roof commercial buildings lining both sides act as massive wind sails that stress membrane perimeters and seams during every significant weather event. On the residential side, the mature tree canopy throughout the neighborhoods west of the highway produces branch-impact damage during summer thunderstorms and ice-loading failures during winter events. Newark Quality Roofing responds to both categories of storm damage with the urgency and expertise that Fairfield property owners need in the aftermath of severe weather.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Fairfield — with prices starting from $500–$3,000 and free estimates available today. Storm damage in Fairfield hits harder along the Route 46 corridor than anywhere else in western Essex County. The highway\'s east-west orientation creates a wind tunnel effect that amplifies storm gusts, and the large flat-roof commercial buildings lining both sides act as massive wind sails that stress membrane perimeters and seams during every significant weather event. On the residential side, the mature tree canopy throughout the neighborhoods west of the highway produces branch-impact damage during summer thunderstorms and ice-loading failures during winter events. Newark Quality Roofing responds to both categories of storm damage with the urgency and expertise that Fairfield property owners need in the aftermath of severe weather.',
     'Residential [storm damage roof repair](/storm-damage-roof-repair) in Fairfield follows seasonal patterns that experienced contractors anticipate. Summer thunderstorms bring wind-lifted shingles and tree-branch punctures, with the heaviest damage occurring on the south and west elevations that face prevailing storm fronts. Winter nor\'easters deposit heavy wet snow that ice-loads valley intersections and stresses roof framing on the low-pitch rear sections common to Fairfield\'s cape cod and split-level housing stock. Spring brings a different threat -- rapid snowmelt combined with ground-thaw runoff that elevates moisture levels around foundations and in crawl spaces, contributing to secondary roof damage through condensation patterns in attic spaces. Property owners in [Caldwell](/storm-damage-roof-repair-caldwell-nj) and [North Caldwell](/storm-damage-roof-repair-north-caldwell-nj) face similar seasonal storm patterns.',
     'Commercial storm damage along Route 46 most commonly involves membrane edge peel-back during high-wind events and drainage overwhelm during heavy downpours. Both failure modes cascade quickly -- a membrane edge that lifts during one gust tears further with each subsequent gust, and a drainage system overwhelmed during a storm deposits inches of standing water that finds every weakened seam and failed flashing detail. Our storm response to Route 46 commercial properties prioritizes preventing secondary damage during the storm\'s aftermath, stabilizing membrane edges and restoring drainage before the next weather event arrives.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldStormDamageRoofRepair: ComboContent = {
     {
       question: 'Can you repair just the storm-damaged section or do I need a full roof replacement?',
       answer: 'Section repair is appropriate when storm damage is localized and the undamaged roof sections have significant remaining life. If the storm damaged a small area on an otherwise sound roof, we repair only the affected section with matching materials. However, if the storm revealed widespread underlying deterioration -- granule loss, brittle shingles, failed flashing -- a full replacement may be the better investment. Our assessment provides both options with honest cost-benefit analysis so you can make an informed decision.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Fairfield, NJ?',
+      answer: 'Most storm damage roof repair projects in Fairfield range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fairfield NJ storm damage roof repair with insurance claim support. Rapid response for homes and Route 46 commercial buildings after severe weather.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

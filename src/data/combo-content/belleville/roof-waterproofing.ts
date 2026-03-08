@@ -4,7 +4,7 @@ export const bellevilleRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'belleville',
   overview: [
-    'Roof waterproofing in Belleville operates at the intersection of the township\'s two defining challenges: dense building placement and elevated moisture exposure from the Passaic River basin. Standard roofing materials -- shingles, membranes, metal panels -- shed water from the exterior surface. Waterproofing goes deeper, protecting the structural components beneath the surface covering from the moisture that penetrates through wind-driven rain, ice dam backup, condensation, and capillary action through aging masonry walls. In Belleville, where these moisture sources compound each other, comprehensive waterproofing is the difference between a 15-year roof and a 30-year roof.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Belleville — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Belleville operates at the intersection of the township\'s two defining challenges: dense building placement and elevated moisture exposure from the Passaic River basin. Standard roofing materials -- shingles, membranes, metal panels -- shed water from the exterior surface. Waterproofing goes deeper, protecting the structural components beneath the surface covering from the moisture that penetrates through wind-driven rain, ice dam backup, condensation, and capillary action through aging masonry walls. In Belleville, where these moisture sources compound each other, comprehensive waterproofing is the difference between a 15-year roof and a 30-year roof.',
     'The most critical waterproofing locations on Belleville homes are the wall-to-roof transitions where additions meet the original house, the chimney penetrations where masonry absorbs and transmits moisture, and the eave areas where ice dams force water beneath shingles. These three zones account for over 80% of the water intrusion calls we receive from Belleville homeowners. Our [roof waterproofing](/roof-waterproofing) strategy addresses all three with self-adhering membrane systems, enhanced flashings, and moisture barrier coatings that create redundant protection layers at every vulnerable junction.',
     'Commercial waterproofing on Belleville\'s flat-roofed buildings along Washington Avenue and the Turnpike corridor involves membrane-level protection plus below-membrane moisture management. The polyiso insulation boards beneath commercial membranes absorb water through damaged membrane surfaces, and once saturated, they lose insulation value and create a permanent moisture reservoir that degrades the membrane from below. Our commercial waterproofing includes vapor barriers beneath insulation, moisture-resistant insulation facers, and drainage mat systems that channel any infiltrated water to drains rather than allowing it to saturate the insulation assembly.',
     'For Belleville homeowners with flat-roof additions, porches, and garage roofs, waterproofing means installing self-adhering modified bitumen membrane as the primary water barrier beneath the visible roof surface. This belt-and-suspenders approach provides protection even if the surface membrane or shingle layer is compromised by storm damage, foot traffic, or age-related deterioration. The self-adhering membrane seals around every fastener penetration, creating a waterproof envelope that remains functional even when the surface above it is damaged, using the same approach we deploy in [Newark](/roof-waterproofing-newark-nj) and across Essex County.'
@@ -35,7 +35,25 @@ export const bellevilleRoofWaterproofing: ComboContent = {
     {
       question: 'Can you waterproof my flat-roof addition in Belleville?',
       answer: 'Absolutely. Flat-roof additions are the highest-priority waterproofing application in Belleville because they collect water rather than shedding it, and the wall-to-house junction is the most common leak point on homes with additions. We install self-adhering membrane as the primary barrier beneath the visible membrane surface, with enhanced step flashing and counter-flashing at the house wall transition.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Belleville, NJ?',
+      answer: 'Most roof waterproofing projects in Belleville range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Belleville NJ. Self-adhering membranes, enhanced flashings, and moisture barriers for humid-climate homes near the Passaic River.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

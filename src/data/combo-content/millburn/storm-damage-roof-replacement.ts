@@ -4,7 +4,7 @@ export const millburnStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Storm damage roof replacement on Millburn estates responds to the catastrophic weather events that the township\'s elevated Essex County position and mature tree canopy amplify into roofing emergencies exceeding repair scope. When a nor\'easter drives a century-old oak through a Short Hills Tudor\'s slate field, or sustained winds shear an entire slope of cedar shakes from a Wyoming colonial, the damage crosses the threshold from repairable to replacement-requiring. Our storm-damage response for Millburn properties combines emergency stabilization with replacement planning that begins the day the storm passes.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Millburn — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement on Millburn estates responds to the catastrophic weather events that the township\'s elevated Essex County position and mature tree canopy amplify into roofing emergencies exceeding repair scope. When a nor\'easter drives a century-old oak through a Short Hills Tudor\'s slate field, or sustained winds shear an entire slope of cedar shakes from a Wyoming colonial, the damage crosses the threshold from repairable to replacement-requiring. Our storm-damage response for Millburn properties combines emergency stabilization with replacement planning that begins the day the storm passes.',
     'The tree-canopy exposure that makes Millburn\'s estate neighborhoods beautiful also makes them vulnerable to storm damage that less wooded municipalities experience less severely. Properties in [Newark](/storm-damage-roof-replacement-newark-nj) and [East Orange](/storm-damage-roof-replacement-east-orange-nj) face wind and hail damage on exposed roof surfaces, but Millburn adds the dimension of falling trees, large-limb impacts, and the debris loading that a mature hardwood canopy deposits across every roof surface during severe weather. This combined exposure profile means storm-damage replacement on Millburn properties frequently involves structural repair beyond the roofing surface itself.',
     'Our [storm damage roof replacement](/storm-damage-roof-replacement) practice integrates emergency tarping, insurance claims management, structural assessment, material procurement, and full replacement execution into a coordinated program that moves the property from emergency to restoration as efficiently as the material lead times and insurance processing allow. Each phase feeds into the next without the delays that occur when homeowners manage each step independently through separate service providers.'
   ],
@@ -34,7 +34,25 @@ export const millburnStormDamageRoofReplacement: ComboContent = {
     {
       question: 'How long will the emergency tarp protect my home while waiting for permanent replacement?',
       answer: 'Professional-grade emergency tarping provides reliable protection for sixty to ninety days under normal weather conditions. We inspect and maintain the tarping at two-week intervals during the procurement and construction period, repairing or reinforcing any sections that show wear from wind, UV exposure, or debris accumulation. If the procurement timeline extends beyond ninety days, we replace the tarping with fresh material to maintain continuous protection.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Millburn, NJ?',
+      answer: 'Most storm damage roof replacement projects in Millburn range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement for Millburn estates. Emergency tarping, insurance coordination, and full restoration with matching premium materials.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

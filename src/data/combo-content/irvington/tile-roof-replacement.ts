@@ -4,7 +4,7 @@ export const irvingtonTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Tile roof replacement in Irvington serves a specialized segment of the township\'s housing stock where Mediterranean, Spanish Colonial, or mission-style architecture features clay or concrete tile surfaces that define the building\'s aesthetic identity. Our [tile roof replacement](/tile-roof-replacement) services restore these distinctive roofs with matching tile profiles that preserve the architectural character while upgrading the waterproofing system beneath with modern underlayment and flashing materials.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Irvington — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in Irvington serves a specialized segment of the township\'s housing stock where Mediterranean, Spanish Colonial, or mission-style architecture features clay or concrete tile surfaces that define the building\'s aesthetic identity. Our [tile roof replacement](/tile-roof-replacement) services restore these distinctive roofs with matching tile profiles that preserve the architectural character while upgrading the waterproofing system beneath with modern underlayment and flashing materials.',
     'While tile roofing is less common in Irvington than in southwestern markets, the homes and institutional buildings that carry tile represent some of the township\'s most architecturally distinctive properties. Churches with mission-influenced design, residential properties with Mediterranean styling from the 1920s building boom, and custom-built homes with tile accents all require tile-specific expertise for proper replacement. The tile material itself may have decades of remaining life while the underlayment beneath has failed, making underlayment replacement with tile reinstallation a common service.',
     'Concrete tile alternatives to traditional clay provide Irvington homeowners with the tile aesthetic at reduced weight and cost. Modern concrete tiles reproduce the barrel, flat, and S-profile shapes of traditional clay in colors and textures that are difficult to distinguish at normal viewing distance. For Irvington properties where the structural framing or budget does not support natural clay tile, concrete alternatives deliver the visual impact at a more accessible price point. Tile replacement projects in neighboring [Montclair](/tile-roof-replacement-montclair-nj) serve that township\'s Mediterranean and Tudor-influenced homes with similar tile profile matching and structural verification.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonTileRoofReplacement: ComboContent = {
       question: 'How long does a tile roof last in Irvington?',
       answer: 'Clay tile roofs last 75 to 100 years. Concrete tile lasts 40 to 60 years. The tile material itself typically outlasts the underlayment beneath it, which may need replacement every 25 to 40 years. Several Irvington properties still carry original 1920s clay tile that continues to perform after nearly 100 years of service.',
     },
+    {
+      question: 'How much does tile roof replacement cost in Irvington, NJ?',
+      answer: 'Most tile roof replacement projects in Irvington range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Irvington NJ with clay and concrete options. Preserve Mediterranean and mission-style architecture with proper tile expertise.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

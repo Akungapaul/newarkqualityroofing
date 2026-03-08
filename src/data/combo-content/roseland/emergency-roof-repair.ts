@@ -4,7 +4,7 @@ export const roselandEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'roseland',
   overview: [
-    'Emergency roof situations in Roseland arise from the convergence of aging residential building stock and the borough\'s weather exposure along the eastern Watchung slope. When a winter nor\'easter tears shingles from a 1960s split-level on Harrison Avenue, or a summer thunderstorm drives a mature oak branch through the roof deck of a colonial on Becker Farm Road, the response window is measured in hours, not days. Standing water in an attic or an open breach in the roof surface during active precipitation creates cascading damage to insulation, drywall, electrical systems, and personal property that multiplies with every hour of delay.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Roseland — with prices starting from $500–$2,500 and free estimates available today. Emergency roof situations in Roseland arise from the convergence of aging residential building stock and the borough\'s weather exposure along the eastern Watchung slope. When a winter nor\'easter tears shingles from a 1960s split-level on Harrison Avenue, or a summer thunderstorm drives a mature oak branch through the roof deck of a colonial on Becker Farm Road, the response window is measured in hours, not days. Standing water in an attic or an open breach in the roof surface during active precipitation creates cascading damage to insulation, drywall, electrical systems, and personal property that multiplies with every hour of delay.',
     'Roseland\'s compact geography works to the homeowner\'s advantage during emergencies. Our crews can reach any residential or commercial address in the borough within a tight response radius, and the accessible lot configurations on most Roseland streets allow rapid equipment setup without the traffic coordination and aerial lift logistics that slow emergency response in denser urban settings. Homeowners in nearby [Caldwell](/emergency-roof-repair-caldwell-nj) and [Essex Fells](/emergency-roof-repair-essex-fells-nj) benefit from the same rapid deployment capability given their proximity within western Essex County.',
     'Commercial emergency response in Roseland carries additional urgency because of the borough\'s corporate campus presence. An active leak in an office building on Eisenhower Parkway threatens IT infrastructure, document archives, and tenant operations worth far more than the roof repair itself. Our [emergency roof repair](/emergency-roof-repair) protocols for commercial properties include interior protection measures -- covering equipment, redirecting water to floor drains, and deploying commercial-grade dehumidification -- that limit damage while the rooftop repair is executed. Corporate facility managers along the Eisenhower Parkway corridor keep our emergency contact number precisely because we address both the roof breach and the interior consequences simultaneously.',
     'Seasonal patterns drive Roseland\'s emergency call volume. Winter ice dam failures peak in January and February when accumulated freeze-thaw cycles overwhelm deteriorated flashing on mid-century homes. Spring reveals hidden storm damage through ceiling stains as attic ice melts. Summer thunderstorms produce acute damage from fallen branches and wind-lifted shingles. Our emergency inventory and crew scheduling account for these predictable surges so that Roseland homeowners receive prompt response regardless of how many concurrent calls the season generates.'
@@ -35,7 +35,25 @@ export const roselandEmergencyRoofRepair: ComboContent = {
     {
       question: 'What happens if the emergency damage reveals that my whole Roseland roof needs replacement?',
       answer: 'This occurs frequently on Roseland homes where storm damage exposes underlying conditions -- deteriorated decking, previous improper repairs, or shingles well past their service life. When emergency assessment reveals system-wide failure, we provide a comprehensive replacement proposal alongside the emergency repair scope. Insurance claims for storm-triggered replacement follow a specific process that we guide homeowners through, including supplemental claim filing when hidden damage exceeds the initial adjuster assessment.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Roseland, NJ?',
+      answer: 'Most emergency roof repair projects in Roseland range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Roseland NJ -- rapid response for storm damage, tree impacts, and ice dam failures on homes and commercial buildings.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

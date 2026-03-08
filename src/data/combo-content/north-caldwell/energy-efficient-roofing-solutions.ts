@@ -4,7 +4,7 @@ export const northCaldwellEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'north-caldwell',
   overview: [
-    'Energy efficient roofing on North Caldwell estates addresses the substantial heating and cooling loads that large custom-built homes generate across New Jersey\'s four-season climate. A 5,000-to-8,000-square-foot colonial with cathedral ceilings, multiple roof levels, and expansive attic volumes loses and gains heat through the roof assembly at rates that directly impact utility costs. Upgrading roofing insulation, reflectivity, and ventilation on these properties delivers energy savings proportional to the scale of the home -- savings that compound year after year.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in North Caldwell — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing on North Caldwell estates addresses the substantial heating and cooling loads that large custom-built homes generate across New Jersey\'s four-season climate. A 5,000-to-8,000-square-foot colonial with cathedral ceilings, multiple roof levels, and expansive attic volumes loses and gains heat through the roof assembly at rates that directly impact utility costs. Upgrading roofing insulation, reflectivity, and ventilation on these properties delivers energy savings proportional to the scale of the home -- savings that compound year after year.',
     'Our [energy efficient roofing](/energy-efficient-roofing-solutions) approach for North Caldwell homes begins with understanding where the existing roof assembly underperforms. Thermal imaging during heating season reveals heat loss through inadequately insulated attic floors, compressed insulation at dormer kneewalls, and air leakage at recessed light fixtures and HVAC penetrations. Addressing these specific deficiencies delivers measurable energy reduction without requiring a full re-roofing project, though coordinating efficiency upgrades with scheduled re-roofing maximizes the return on both investments.',
     'The wooded character of [North Caldwell](/roofing-in-north-caldwell-nj) properties influences which energy strategies deliver the greatest return. Cool roof reflective technology -- highly effective on sun-exposed commercial buildings -- provides limited benefit on roof planes shaded by mature hardwood canopy. Insulation and air sealing improvements, conversely, deliver consistent savings regardless of sun exposure. We tailor recommendations to each property\'s actual conditions rather than applying generic energy-efficient roofing prescriptions. Homeowners in neighboring [Caldwell](/energy-efficient-roofing-solutions-caldwell-nj) benefit from similar assessments on their more compact residential properties.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'What NJ incentives apply to energy efficient roofing in North Caldwell?',
       answer: 'New Jersey offers several programs for residential energy improvements. The NJ Home Performance with ENERGY STAR program provides rebates for comprehensive efficiency upgrades including insulation and air sealing. Federal tax credits may apply for qualifying insulation materials. We help North Caldwell homeowners identify applicable incentives and provide the documentation needed for program applications.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in North Caldwell, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in North Caldwell range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in North Caldwell NJ -- thermal imaging, insulation upgrades, and ventilation for estate home energy savings.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const bellevilleReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'belleville',
   overview: [
-    'Re-roofing Belleville\'s post-war homes transforms buildings that have endured 60-80 years of New Jersey weather into structures protected by modern materials engineered for the next 30 years. The township\'s housing stock -- Cape Cods, colonials, and two-family duplexes built predominantly between 1940 and 1965 -- represents one of the most concentrated re-roofing markets in Essex County, with thousands of homes cycling through replacement at various stages.',
+    'Newark Quality Roofing delivers expert re roofing in Belleville — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing Belleville\'s post-war homes transforms buildings that have endured 60-80 years of New Jersey weather into structures protected by modern materials engineered for the next 30 years. The township\'s housing stock -- Cape Cods, colonials, and two-family duplexes built predominantly between 1940 and 1965 -- represents one of the most concentrated re-roofing markets in Essex County, with thousands of homes cycling through replacement at various stages.',
     'The re-roofing opportunity in Belleville extends beyond simple material replacement. Every re-roofing project is a chance to upgrade ventilation from obsolete gable vents to continuous ridge-and-soffit systems, add insulation that post-war construction omitted, install ice-and-water shield at vulnerable transitions that original builders never protected, and replace aging fascia, soffits, and gutters in a single coordinated project. Our [re-roofing](/re-roofing) approach in Belleville treats the roof replacement as a building envelope upgrade, not just a surface swap.',
     'For Belleville\'s two-family and multi-family property owners, re-roofing is a maintenance investment that affects rental income, insurance costs, and tenant retention. A building with a new roof and updated gutters attracts better tenants, qualifies for improved insurance rates, and eliminates the emergency repair calls that disrupt property management operations. We work with dozens of Belleville landlords who schedule re-roofing into their property improvement cycles, often coordinating two or three properties per season for volume pricing efficiency.',
     'Material advancement since the last time most Belleville homes were roofed has been dramatic. The three-tab shingles commonly installed 20-25 years ago have given way to dimensional architectural shingles with significantly better wind resistance, longer warranties, and algae-resistant technology that addresses the biological growth Belleville\'s humid climate promotes. Homeowners comparing their aging three-tab installation to the rich, textured appearance of modern architectural shingles see the visual transformation that [re-roofing](/roofing-in-belleville-nj) delivers alongside the functional protection upgrade, similar to projects throughout [Newark](/re-roofing-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleReRoofing: ComboContent = {
     {
       question: 'Can I finance re-roofing for my Belleville home?',
       answer: 'Yes. We offer financing through multiple lending partners with terms from 12 to 144 months. Many Belleville homeowners combine roofing with gutter and fascia upgrades into a single financed project with manageable monthly payments. We provide pre-qualification during the estimate process so you know your financing options before committing to a project scope.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Belleville, NJ?',
+      answer: 'Most re roofing projects in Belleville range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing services in Belleville NJ. Modern architectural shingles with ventilation upgrades for post-war Cape Cods, colonials, and duplexes.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

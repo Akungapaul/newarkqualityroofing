@@ -4,7 +4,7 @@ export const bellevilleCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'belleville',
   overview: [
-    'Commercial roof installation in Belleville serves a building inventory that ranges from the single-story retail storefronts lining Washington Avenue to the 30,000+ square foot warehouse and manufacturing facilities along the Belleville Turnpike and Route 21 corridor. Each segment demands different membrane systems, insulation specifications, and project management approaches, but all share the common requirement of minimizing business disruption during installation while delivering roof systems that perform for 25-30 years in Belleville\'s demanding climate.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Belleville — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Belleville serves a building inventory that ranges from the single-story retail storefronts lining Washington Avenue to the 30,000+ square foot warehouse and manufacturing facilities along the Belleville Turnpike and Route 21 corridor. Each segment demands different membrane systems, insulation specifications, and project management approaches, but all share the common requirement of minimizing business disruption during installation while delivering roof systems that perform for 25-30 years in Belleville\'s demanding climate.',
     'Washington Avenue\'s commercial renaissance has generated new roof installation demand as adaptive reuse projects convert former retail spaces into restaurants, fitness studios, and professional offices. These renovation projects frequently require complete roof system replacement because the existing buildings were constructed in the 1960s-1980s with roofing systems that have exceeded their useful life. Our [commercial roof installation](/commercial-roof-installation) work on Washington Avenue integrates with the broader renovation scope, coordinating with general contractors, HVAC installers, and interior fit-out teams to deliver the roof system on the schedule that the overall project demands.',
     'The Belleville Turnpike industrial corridor presents large-scale installation opportunities on warehouse and light-manufacturing buildings where roof condition directly affects operational continuity. A leaking warehouse roof damages inventory, disrupts production schedules, and creates safety hazards for employees working below. Our installation teams execute these large-footprint projects in phased sections, maintaining weather-tight conditions on completed sections while work continues on the next zone. This phased approach allows Belleville industrial facilities to continue operations throughout the installation period.',
     'New construction commercial roofing in Belleville is limited by the township\'s dense buildout, but occasional infill development on former industrial sites and parking lots creates new-build installation projects. These installations allow us to design the roof system from the structural deck up, specifying optimal insulation values, drainage slopes, and membrane systems without the constraints that re-roofing existing buildings imposes. For new construction in [Belleville](/roofing-in-belleville-nj) and neighboring [Newark](/commercial-roof-installation-newark-nj), we work directly with architects and structural engineers to integrate the roof system with the building design from the earliest planning stages.'
@@ -35,7 +35,25 @@ export const bellevilleCommercialRoofInstallation: ComboContent = {
     {
       question: 'Can you install a new commercial roof in Belleville while my business stays open?',
       answer: 'Yes. Our phased installation approach maintains weather-tight conditions on completed sections while work continues on the next zone. For noise-sensitive businesses on Washington Avenue, we can schedule the loudest work (tear-off, equipment hoisting) during off-hours. Restaurant and retail businesses typically operate normally throughout the installation with minor scheduling accommodations for material delivery and crane operations.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Belleville, NJ?',
+      answer: 'Most commercial roof installation projects in Belleville range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Belleville NJ. TPO, EPDM, and modified bitumen for Washington Avenue retail and Belleville Turnpike warehouses.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

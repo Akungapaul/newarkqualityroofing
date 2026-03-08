@@ -4,7 +4,7 @@ export const westOrangeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Fascia boards protect the exposed rafter tails and provide the mounting surface for gutter systems on West Orange homes, making them a critical but often overlooked component of the building envelope. Our [fascia installation and repair](/fascia-installation-repair) work in West Orange addresses the rot, pest damage, and structural deterioration that West Orange\'s moisture-heavy, canopy-shaded environment accelerates on wooden fascia boards across every elevation zone.',
+    'Newark Quality Roofing delivers expert fascia installation repair in West Orange — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards protect the exposed rafter tails and provide the mounting surface for gutter systems on West Orange homes, making them a critical but often overlooked component of the building envelope. Our [fascia installation and repair](/fascia-installation-repair) work in West Orange addresses the rot, pest damage, and structural deterioration that West Orange\'s moisture-heavy, canopy-shaded environment accelerates on wooden fascia boards across every elevation zone.',
     'Valley-floor homes in Pleasant Valley experience the fastest fascia deterioration rates in West Orange due to reduced air circulation and prolonged moisture exposure in shaded, low-elevation locations. Wood fascia boards in these environments absorb moisture from clogged gutters, splashback from ground saturation, and humid air trapped beneath overhanging tree canopy. Rot establishes within 5 to 8 years on untreated pine fascia boards in valley-floor locations, compared to 12 to 15 years on the same material at well-ventilated ridge-top elevations.',
     'Carpenter ant and woodpecker damage to fascia boards creates structural failures that go unnoticed until gutters begin sagging or detaching from the roofline. West Orange\'s wooded setting provides habitat for both pests: carpenter ants colonize moisture-softened fascia and bore galleries that hollow out the board from inside; woodpeckers attack fascia searching for insects. Homeowners near [South Orange](/fascia-installation-repair-south-orange-nj) contend with similar pest pressure from the mature canopy along the shared South Mountain border.',
     'Composite and aluminum fascia materials eliminate the rot and pest vulnerability that wood fascia suffers in West Orange\'s demanding environment. Our replacement installations use cellular PVC or pre-finished aluminum fascia that provides the structural support gutter systems require without the biological degradation that forces repeated wood fascia replacement every 10 to 15 years on [West Orange](/roofing-in-west-orange-nj) homes.'
@@ -35,7 +35,25 @@ export const westOrangeFasciaInstallationRepair: ComboContent = {
     {
       question: 'What causes carpenter ants in my West Orange fascia boards?',
       answer: 'Carpenter ants are attracted to moisture-softened wood, which provides the conditions they need to excavate nesting galleries. In West Orange, the combination of tree canopy shade, gutter overflow from debris clogs, and high humidity in valley-floor locations creates ideal conditions for carpenter ant colonization. Eliminating moisture exposure through gutter maintenance, proper drainage, and conversion to composite fascia material removes the conditions that attract and support carpenter ant colonies.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in West Orange, NJ?',
+      answer: 'Most fascia installation repair projects in West Orange range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in West Orange NJ. Wood, composite, and aluminum fascia with gutter system coordination.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

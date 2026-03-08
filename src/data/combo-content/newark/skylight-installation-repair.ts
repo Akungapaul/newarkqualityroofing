@@ -4,7 +4,7 @@ export const newarkSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'newark',
   overview: [
-    'Skylights in Newark serve a purpose that transcends the aesthetic -- they solve a fundamental problem of urban density. Brownstones in the North Ward and Forest Hill stand shoulder to shoulder, their side walls blank masonry pressed against neighbors, leaving only the roof as a source of natural light for interior rooms that windows cannot reach. Top-floor bedrooms, stairwell landings, and interior bathrooms in these attached buildings exist in permanent shadow without overhead glazing. A well-placed skylight transforms these spaces from artificially lit corridors into rooms with daylight, ventilation, and a visual connection to the sky that Newark\'s tight lot lines otherwise deny.',
+    'Newark Quality Roofing delivers expert skylight installation repair in Newark — with prices starting from $1,500–$5,000 and free estimates available today. Skylights in Newark serve a purpose that transcends the aesthetic -- they solve a fundamental problem of urban density. Brownstones in the North Ward and Forest Hill stand shoulder to shoulder, their side walls blank masonry pressed against neighbors, leaving only the roof as a source of natural light for interior rooms that windows cannot reach. Top-floor bedrooms, stairwell landings, and interior bathrooms in these attached buildings exist in permanent shadow without overhead glazing. A well-placed skylight transforms these spaces from artificially lit corridors into rooms with daylight, ventilation, and a visual connection to the sky that Newark\'s tight lot lines otherwise deny.',
     'The warehouse-to-residential conversion wave reshaping neighborhoods from the Ironbound to Downtown has created a second, distinct market for skylight work in Newark. Former industrial buildings with deep floor plates and minimal window-to-floor ratios require extensive daylighting strategies to meet residential building code standards for habitable rooms. These conversions demand commercial-grade skylight systems -- curtain-wall ridge skylights, tubular daylighting devices through thick concrete decks, and custom fixed-glass installations in saw-tooth industrial roof profiles that were designed for nineteenth-century factory light but need twenty-first-century thermal performance.',
     'Skylight failure is one of the most common roof leak sources we diagnose on Newark homes, and the cause is almost always installation-related rather than product-related. Skylights installed during the 1980s and 1990s retrofit boom -- when natural light became a selling point for Newark\'s brownstone renovation market -- were frequently set directly onto roof sheathing with minimal flashing integration. These installations relied on sealant rather than proper step-and-counter flashing kits, and after twenty to thirty years, the sealant has failed while the skylight unit itself may still be functionally sound. Our repair protocol addresses the flashing system rather than automatically replacing the entire unit.',
     'Modern skylight installation in Newark follows a fundamentally different approach from those 1980s-era retrofits. We use manufacturer-integrated flashing kits that weave into the roof system the same way a chimney or dormer would, with step flashing, ice-and-water shield membrane, and counter-flashing creating a layered water barrier. Every skylight receives a curb-mounted installation rather than deck-mounted, raising the glazing unit above the roof plane to shed water positively and resist the ice dam conditions that form around skylights on Newark\'s shaded north-facing roof slopes.'
@@ -36,7 +36,25 @@ export const newarkSkylightInstallationRepair: ComboContent = {
     {
       question: 'Will a skylight make my Newark home hotter in summer?',
       answer: 'An improperly specified skylight can add significant solar heat gain, but modern units with low-solar-gain-coefficient glazing and integral blinds manage this effectively. We specify skylights with a solar heat gain coefficient of 0.25 or lower for Newark installations, which admits daylight while blocking roughly seventy-five percent of solar heat energy. South-facing and west-facing installations on Newark brownstones receive solar-control glazing as standard specification. Venting skylights also provide natural ventilation through the stack effect -- hot air rises and exits through the open skylight, drawing cooler air through lower windows, which can reduce air conditioning load on Newark\'s hottest summer days.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in Newark, NJ?',
+      answer: 'Most skylight installation repair projects in Newark range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in Newark NJ -- brownstone daylighting, warehouse conversion skylights, and flashing repair for leaking units.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

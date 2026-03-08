@@ -4,7 +4,7 @@ export const eastOrangeCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'east-orange',
   overview: [
-    'Commercial roof repair in East Orange serves a building inventory that reflects the city\'s transitional economy: Main Street retail storefronts operating on month-to-month leases, mixed-use buildings where ground-floor commercial space supports residential units above, institutional facilities serving the community, and light industrial properties along the railroad corridor that are finding new purpose as creative and flex-space users discover East Orange\'s transit accessibility and competitive rents. Each building type presents distinct [commercial roof repair](/commercial-roof-repair) challenges, but they share a common requirement: repairs that minimize business disruption and protect the commercial operations that anchor East Orange\'s economic recovery.',
+    'Newark Quality Roofing delivers expert commercial roof repair in East Orange — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in East Orange serves a building inventory that reflects the city\'s transitional economy: Main Street retail storefronts operating on month-to-month leases, mixed-use buildings where ground-floor commercial space supports residential units above, institutional facilities serving the community, and light industrial properties along the railroad corridor that are finding new purpose as creative and flex-space users discover East Orange\'s transit accessibility and competitive rents. Each building type presents distinct [commercial roof repair](/commercial-roof-repair) challenges, but they share a common requirement: repairs that minimize business disruption and protect the commercial operations that anchor East Orange\'s economic recovery.',
     'The mixed-use building is East Orange\'s dominant commercial property type, and roof repairs on these buildings must account for the residential tenants occupying upper floors above the commercial space. A repair that generates noise, dust, or water disruption during business hours may be acceptable to a ground-floor restaurant that closes between lunch and dinner, but the same disruption affects an upstairs apartment tenant who works from home. Our repair scheduling on East Orange mixed-use buildings coordinates with both commercial and residential occupants to minimize impact across all use types within the building.',
     'Budget constraints shape commercial roof repair decisions in East Orange more acutely than in wealthier Essex County commercial markets. Property owners operating buildings with marginal commercial rents and thin operating margins need repairs that stop active problems reliably without triggering capital expenditures that the building\'s income cannot support. We structure repair proposals with clear delineation between emergency stabilization, targeted repair, and comprehensive remediation -- allowing property owners to make informed decisions about immediate versus deferred expenditure based on their specific financial position, much like the tiered approach we provide to commercial property owners in [Newark](/commercial-roof-repair-newark-nj).'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeCommercialRoofRepair: ComboContent = {
     {
       question: 'How do I know if my East Orange commercial roof needs repair or replacement?',
       answer: 'General guidelines: if the roof is less than 15 years old and damage is localized, repair is typically appropriate. If the roof exceeds 20 years and exhibits widespread deterioration, replacement provides better value than cumulative repairs. We provide honest assessment that distinguishes between roofs worth repairing and roofs that will consume more in ongoing repairs than a single replacement investment. Our recommendation considers the building\'s operating budget and the owner\'s long-term plans for the property.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in East Orange, NJ?',
+      answer: 'Most commercial roof repair projects in East Orange range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair for East Orange NJ buildings -- flat roof leak repair, mixed-use building maintenance, and tenant-sensitive repair scheduling.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

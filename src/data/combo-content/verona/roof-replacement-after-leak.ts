@@ -4,7 +4,7 @@ export const veronaRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'verona',
   overview: [
-    'Roof replacement after leak addresses the point where repair is no longer the cost-effective or reliable solution for chronic water infiltration on Verona homes. When leak repairs have been attempted multiple times, when new leaks appear at different locations as the roof system reaches systemic failure, or when the cost of accumulated repairs approaches the replacement price, full replacement provides the permanent solution that patchwork cannot deliver. Newark Quality Roofing evaluates the repair-versus-replace economics honestly, recommending replacement only when the condition warrants it.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Verona — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak addresses the point where repair is no longer the cost-effective or reliable solution for chronic water infiltration on Verona homes. When leak repairs have been attempted multiple times, when new leaks appear at different locations as the roof system reaches systemic failure, or when the cost of accumulated repairs approaches the replacement price, full replacement provides the permanent solution that patchwork cannot deliver. Newark Quality Roofing evaluates the repair-versus-replace economics honestly, recommending replacement only when the condition warrants it.',
     'Verona split-levels with chronic leak histories often carry damage patterns that trace back to the level transitions where original flashings have corroded beyond repair capability. Each patch at the transition buys another season, but the underlying metal is failing along the entire transition line. Full replacement allows the corroded flashings to be stripped, the concealed wall and deck structure to be inspected and repaired, and modern flashing systems to be installed that provide decades of reliable service. Our [roof replacement after leak](/roof-replacement-after-leak) approach treats the structural water damage alongside the roofing replacement.',
     'The decision to replace after leak often follows a period of increasing repair frequency that the homeowner finds frustrating and financially draining. Annual leak repairs costing $500 to $1,500 each accumulate over five to ten years, eventually approaching a significant fraction of the replacement cost while providing diminishing protection. Our consultation calculates the total repair expenditure to date and the projected cost of continued repair, comparing both paths to demonstrate when replacement becomes the more economical choice. Homeowners in [Bloomfield](/roof-replacement-after-leak-bloomfield-nj) with aging housing stock face similar repair-fatigue decisions.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'How much does roof replacement after leak cost compared to standard replacement?',
       answer: 'Replacement after chronic leaking typically costs 15 to 30 percent more than standard re-roofing due to the structural repair, deck replacement, and potential mold remediation that water damage adds to the scope. A standard Verona split-level replacement at $15,000 to $20,000 may cost $18,000 to $26,000 when extensive water damage repair is included. The additional cost addresses damage that must be corrected for the new roof to function properly.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Verona, NJ?',
+      answer: 'Most roof replacement after leak projects in Verona range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Verona NJ -- permanent solution for chronic split-level leaks with structural repair and mold remediation.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const maplewoodFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Flat roof replacement restores reliable waterproofing on the low-slope sections that appear throughout Maplewood\'s residential and commercial building stock. Porch roofs, garage tops, sunroom additions, and multi-family building roofs all present flat or low-slope surfaces that require membrane systems rather than conventional shingles. Our [flat roof replacement](/flat-roof-replacement) installations in [Maplewood](/roofing-in-maplewood-nj) use EPDM, TPO, or modified bitumen membrane selected for each application\'s specific performance requirements and budget constraints.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Maplewood — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement restores reliable waterproofing on the low-slope sections that appear throughout Maplewood\'s residential and commercial building stock. Porch roofs, garage tops, sunroom additions, and multi-family building roofs all present flat or low-slope surfaces that require membrane systems rather than conventional shingles. Our [flat roof replacement](/flat-roof-replacement) installations in [Maplewood](/roofing-in-maplewood-nj) use EPDM, TPO, or modified bitumen membrane selected for each application\'s specific performance requirements and budget constraints.',
     'Maplewood\'s residential flat-roof inventory ranges from small porch extensions on Victorian homes to large-footprint flat sections on multi-family buildings along Springfield Avenue and eastern corridors. Each application has distinct performance requirements: a Village Victorian\'s flat porch roof prioritizes minimal visual impact and integration with the historic facade, while a multi-family building roof prioritizes cost-effective waterproofing at scale with minimal tenant disruption. Our flat-roof specifications match the membrane system to the application.',
     'Commercial flat-roof replacement along Springfield Avenue addresses aging modified bitumen and BUR systems on mixed-use buildings where decades of ponding water, mechanical equipment loading, and deferred maintenance have exhausted the original membrane\'s capacity. Modern TPO and PVC replacements on these commercial buildings include tapered insulation for positive drainage, eliminating the ponding conditions that shortened the previous system\'s life. Building owners in [Bloomfield](/flat-roof-replacement-bloomfield-nj) replacing similar vintage commercial flat roofs capture the same drainage improvement during their replacement projects.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodFlatRoofReplacement: ComboContent = {
       question: 'Can flat-roof replacement improve drainage on my Maplewood property?',
       answer: 'Yes. Tapered insulation installed during replacement creates drainage slopes that direct water toward drains or scuppers. Most aging flat roofs in Maplewood were originally installed flat with no drainage slope, creating ponding conditions that shorten membrane life. Adding tapered insulation during replacement is the most cost-effective time to correct this drainage deficiency.',
     },
+    {
+      question: 'How much does flat roof replacement cost in Maplewood, NJ?',
+      answer: 'Most flat roof replacement projects in Maplewood range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Maplewood NJ. EPDM, TPO, and modified bitumen for residential porches, additions, and commercial buildings.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

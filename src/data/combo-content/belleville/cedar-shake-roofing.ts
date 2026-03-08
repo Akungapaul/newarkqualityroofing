@@ -4,7 +4,7 @@ export const bellevilleCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'belleville',
   overview: [
-    'Cedar shake roofing brings a warmth and natural texture to Belleville that stands apart from the asphalt-dominated roofscape of the township\'s post-war neighborhoods. While cedar is not the default material in this working-class community of closely-spaced colonials and Cape Cods, a growing number of homeowners in Upper Belleville and along the quieter residential blocks near [Nutley](/cedar-shake-roofing-nutley-nj) are choosing hand-split cedar shakes to distinguish their homes from the repetitive profiles that define most blocks.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Belleville — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing brings a warmth and natural texture to Belleville that stands apart from the asphalt-dominated roofscape of the township\'s post-war neighborhoods. While cedar is not the default material in this working-class community of closely-spaced colonials and Cape Cods, a growing number of homeowners in Upper Belleville and along the quieter residential blocks near [Nutley](/cedar-shake-roofing-nutley-nj) are choosing hand-split cedar shakes to distinguish their homes from the repetitive profiles that define most blocks.',
     'The appeal of cedar in Belleville goes beyond aesthetics. Cedar\'s natural insulation properties -- roughly twice the R-value of asphalt shingles -- translate to measurable energy savings in the compact homes where interior comfort is affected by the urban heat island that forms between tightly-spaced structures. Our [cedar shake roofing](/cedar-shake-roofing) installations in Belleville incorporate ventilated batten systems that enhance cedar\'s natural thermal performance while providing the airflow needed to keep shakes dry in this humidity-prone environment near the Passaic River.',
     'Belleville\'s Italian-American heritage community values craftsmanship and permanence. Cedar shake roofing aligns with these values -- each shake is hand-split from Western red cedar, creating a textured surface that weathers to a silver-gray patina over decades. The material improves with age rather than degrading, which resonates with homeowners who have maintained their properties through multiple generations. We source our cedar exclusively from certified sustainable forests in British Columbia and the Pacific Northwest, ensuring the material\'s environmental credentials match its aesthetic promise.',
     'The biggest consideration for cedar shake in [Belleville](/roofing-in-belleville-nj) is fire safety. New Jersey\'s fire code requirements for cedar installation are strict, and the close proximity between Belleville homes amplifies fire spread risk. We install only Class A fire-rated cedar shake systems with pressure-treated shakes and fire-resistant underlayment that meet or exceed ASTM E108 testing standards, bringing cedar\'s beauty to Belleville without compromising the fire safety that dense residential construction demands.'
@@ -35,7 +35,25 @@ export const bellevilleCedarShakeRoofing: ComboContent = {
     {
       question: 'What maintenance does a cedar shake roof need in Belleville?',
       answer: 'We recommend biannual inspections with debris clearing in spring and fall, preservative retreatment every 5-7 years, and prompt replacement of any cracked or cupped shakes. In Belleville\'s humid climate, the fall inspection is particularly important for clearing leaf accumulation that traps moisture between shakes. Our maintenance program includes all of these services on a scheduled basis.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Belleville, NJ?',
+      answer: 'Most cedar shake roofing projects in Belleville range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Belleville NJ. Hand-split cedar with Class A fire rating for closely-spaced homes near Branch Brook Park and the Passaic River.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

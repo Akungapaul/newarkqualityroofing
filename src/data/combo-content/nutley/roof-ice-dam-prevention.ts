@@ -4,7 +4,7 @@ export const nutleyRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'nutley',
   overview: [
-    'Ice dam prevention in Nutley addresses one of the most frustrating and damaging winter roofing problems affecting the township\'s older housing stock. The Colonial Revivals on Park Avenue and Vreeland Avenue, the Cape Cods in the Yantacaw neighborhood, and even some of the grand Tudors near The Oval suffer from ice dam formation during the December-through-March freeze cycle. The problem is fundamentally an insulation and ventilation deficiency: heat escaping through the attic warms the roof deck, melting snow on the upper slopes while the cold eave overhang stays frozen, creating an ice ridge that traps meltwater and forces it under shingles and into the building interior.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Nutley — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Nutley addresses one of the most frustrating and damaging winter roofing problems affecting the township\'s older housing stock. The Colonial Revivals on Park Avenue and Vreeland Avenue, the Cape Cods in the Yantacaw neighborhood, and even some of the grand Tudors near The Oval suffer from ice dam formation during the December-through-March freeze cycle. The problem is fundamentally an insulation and ventilation deficiency: heat escaping through the attic warms the roof deck, melting snow on the upper slopes while the cold eave overhang stays frozen, creating an ice ridge that traps meltwater and forces it under shingles and into the building interior.',
     'Nutley\'s housing stock is particularly susceptible to ice dams because the majority of homes were built before modern energy codes mandated adequate attic insulation and ventilation. A 1940s Colonial on Passaic Avenue might have original R-7 fiberglass batts in the attic floor and no soffit ventilation whatsoever -- conditions that guarantee ice dam formation during any sustained cold spell with snow cover. The steep Tudor pitches along Chestnut Street are less susceptible on their south-facing exposures where solar gain keeps the surface warm, but the complex valley intersections on north-facing gables accumulate the ice ridges that generate emergency leak calls every January and February.',
     'Our [ice dam prevention](/roof-ice-dam-prevention) approach in [Nutley](/roofing-in-nutley-nj) prioritizes root-cause remediation over symptom treatment. Heat cables and ice melt products provide temporary relief during active ice events, but they consume energy continuously, require annual installation and removal, and do nothing to address the attic heat loss that causes the problem. Permanent prevention requires a three-part strategy: sealing air leaks that allow conditioned air to enter the attic, adding insulation to reduce conductive heat transfer through the attic floor, and establishing balanced ventilation that flushes residual heat before it can warm the roof deck. This comprehensive approach eliminates ice dams rather than managing them.',
     'Homeowners in neighboring [Belleville](/roof-ice-dam-prevention-belleville-nj) and [Bloomfield](/roof-ice-dam-prevention-bloomfield-nj) face similar ice dam challenges on comparable-vintage housing stock, and our prevention protocols have been refined across hundreds of projects throughout the region. The work often coincides with re-roofing projects where the combination of new ice-and-water shield membrane at eaves and valleys with improved attic thermal performance creates the layered defense that eliminates both the cause and the consequence of ice dam formation. Nutley homeowners who implement the full prevention package consistently report their first ice-dam-free winter after decades of annual damage.'
@@ -35,7 +35,25 @@ export const nutleyRoofIceDamPrevention: ComboContent = {
     {
       question: 'Will ice dam prevention also reduce my heating bills in Nutley?',
       answer: 'Yes, significantly. The same air sealing and insulation improvements that eliminate ice dams also reduce heating energy consumption by 15 to 25 percent in most Nutley homes. The attic is the largest uncontrolled heat-loss pathway in pre-1970 construction, and bringing insulation from R-7 to R-49 dramatically reduces the heat that escapes upward. Many Nutley homeowners report that the energy savings alone pay back the prevention investment within three to five winters, making the ice dam elimination effectively free over the system\'s lifetime.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Nutley, NJ?',
+      answer: 'Most roof ice dam prevention projects in Nutley range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Nutley NJ. Root-cause attic air sealing, R-49 insulation, and balanced ventilation for Colonials, Capes, and Tudors.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

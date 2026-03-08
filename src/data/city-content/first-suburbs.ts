@@ -218,6 +218,11 @@ export const firstSuburbsContent: CityContent[] = [
         answer:
           'Yes. Our annual maintenance program includes a comprehensive 28-point roof inspection, debris clearing from valleys and gutters, minor repair of loose or damaged shingles, and a written condition report with photos. Given Bloomfield\'s heavy tree cover, we especially recommend semi-annual gutter cleaning in spring and late fall to prevent water backup damage.',
       },
+    
+      {
+        question: 'How much does roofing cost in Bloomfield, NJ?',
+        answer: 'Most roof repairs in Bloomfield range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
 
     // ── Why Choose ──────────────────────────────────────────────────────────
@@ -260,6 +265,18 @@ export const firstSuburbsContent: CityContent[] = [
     metaTitle: 'Bloomfield NJ Roofing | Roof Repair & Replacement',
     metaDescription:
       'Expert roofing in Bloomfield, NJ. Roof replacement, repair, and storm damage restoration for Colonials, Capes, and commercial properties. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Bloomfield.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Bloomfield',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -480,6 +497,11 @@ export const firstSuburbsContent: CityContent[] = [
         answer:
           'A standard Belleville residential roof replacement typically takes 2-3 days for a complete tear-off and re-roof. The tight lot conditions may add a half-day for setup and cleanup logistics. Larger multi-family properties or complex commercial roofs may take 5-7 days. We provide a specific timeline in your written estimate and work to minimize disruption to your household and neighbors.',
       },
+    
+      {
+        question: 'How much does roofing cost in Belleville, NJ?',
+        answer: 'Most roof repairs in Belleville range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
 
     // ── Why Choose ──────────────────────────────────────────────────────────
@@ -522,6 +544,18 @@ export const firstSuburbsContent: CityContent[] = [
     metaTitle: 'Belleville NJ Roofing | Roof Repair & Replacement',
     metaDescription:
       'Trusted roofing contractor in Belleville, NJ. Expert roof replacements, gutter installations, and storm repairs for tightly-spaced homes. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Belleville.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Belleville',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -763,6 +797,18 @@ export const firstSuburbsContent: CityContent[] = [
     metaTitle: 'Nutley NJ Roofing | Tudor Roof Specialists',
     metaDescription:
       'Premium roofing in Nutley, NJ. Tudor roof specialists, architectural shingles, and proactive maintenance for distinctive homes. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Nutley.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Nutley',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -1004,6 +1050,18 @@ export const firstSuburbsContent: CityContent[] = [
     metaTitle: 'Maplewood NJ Roofing | Victorian & Historic Specialists',
     metaDescription:
       'Expert roofing in Maplewood, NJ. Victorian slate restoration, Tudor specialists, and storm damage repair near South Mountain Reservation. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Maplewood.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Maplewood',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -1203,6 +1261,11 @@ export const firstSuburbsContent: CityContent[] = [
         answer:
           'Yes, but it requires specialized mounting systems designed for slate roofs. Standard solar brackets that penetrate the roof deck will crack slate tiles. We install non-penetrating mounting systems and slate-compatible brackets that distribute load across multiple slates without damage. We coordinate with solar installers to ensure the mounting system protects both the slate warranty and the solar investment.',
       },
+    
+      {
+        question: 'How much does roofing cost in South Orange, NJ?',
+        answer: 'Most roof repairs in South Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
 
     // ── Why Choose ──────────────────────────────────────────────────────────
@@ -1240,5 +1303,17 @@ export const firstSuburbsContent: CityContent[] = [
     metaTitle: 'South Orange NJ Roofing | Slate & Cedar Specialists',
     metaDescription:
       'Premier roofing in South Orange, NJ. Slate restoration, cedar shake installation, and copper work for Montrose Park estates and village homes. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in South Orange.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving South Orange',
+      'Family-Owned & Local',
+    ],
   },
 ];

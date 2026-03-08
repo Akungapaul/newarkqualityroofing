@@ -4,7 +4,7 @@ export const livingstonRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'livingston',
   overview: [
-    'EPDM rubber roofing serves a specific and growing segment of Livingston\'s residential and commercial property landscape. The flat and low-slope roof sections found on split-level additions, raised ranch garage extensions, and commercial buildings along Eisenhower Parkway require membrane roofing systems that asphalt shingles cannot adequately protect. EPDM\'s proven 30-plus year track record on low-slope applications makes it a reliable choice for Livingston property owners managing these challenging roof geometries.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Livingston — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing serves a specific and growing segment of Livingston\'s residential and commercial property landscape. The flat and low-slope roof sections found on split-level additions, raised ranch garage extensions, and commercial buildings along Eisenhower Parkway require membrane roofing systems that asphalt shingles cannot adequately protect. EPDM\'s proven 30-plus year track record on low-slope applications makes it a reliable choice for Livingston property owners managing these challenging roof geometries.',
     'Livingston\'s split-level homes frequently include a flat or near-flat roof section over the lower-level garage or family room that connects the staggered living levels. These flat sections are often the first area to develop leaks because original builders installed roll roofing or early-generation modified bitumen that has long exceeded its service life. Our EPDM installations replace these failing flat sections with a modern fully-adhered membrane system that eliminates the ponding water problems and seam failures common on aging Livingston flat roofs.',
     'Commercial property managers along Route 10 and the Livingston Mall corridor select [rubber roofing EPDM](/rubber-roofing-epdm) for its cost-effectiveness on large footprint buildings where material economy scales significantly. A medical office complex on Eisenhower Parkway or retail building at the Town Center can roof 10,000 or more square feet with EPDM at a lower installed cost than TPO or PVC while achieving comparable waterproofing performance. The savings compound over the building lifecycle because EPDM repairs are straightforward and materials are universally available.',
     'Property owners in neighboring [East Orange](/rubber-roofing-epdm-east-orange-nj) often choose EPDM for multi-family flat-roof buildings, though Livingston\'s application profile tilts more toward residential flat sections and professional office buildings than the multi-story rental structures common in denser urban areas.'
@@ -35,7 +35,25 @@ export const livingstonRubberRoofingEpdm: ComboContent = {
     {
       question: 'How much does EPDM installation cost for a Livingston commercial building?',
       answer: 'EPDM installation on commercial buildings in Livingston typically costs less per square foot than TPO or PVC systems, with the savings increasing on larger footprints. The exact cost depends on deck condition, insulation requirements, drainage engineering needs, and the number of penetrations requiring custom detailing. We provide detailed proposals that break out each cost element so property managers can make informed decisions comparing EPDM against alternative membrane systems.'
-    }
+    },
+    {
+      question: 'How much does rubber roofing epdm cost in Livingston, NJ?',
+      answer: 'Most rubber roofing epdm projects in Livingston range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Livingston NJ -- flat section membrane replacement for split-levels, drainage engineering, and commercial installations.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

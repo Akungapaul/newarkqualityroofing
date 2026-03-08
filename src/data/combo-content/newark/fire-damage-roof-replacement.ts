@@ -4,7 +4,7 @@ export const newarkFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Fire-damaged roofs in Newark present a category of replacement work entirely different from age-related or weather-driven failures. The city\'s dense urban fabric -- row houses sharing party walls in the North Ward, triple-deckers packed along narrow Ironbound streets, mixed-use buildings with commercial ground floors beneath residential units -- means that fire damage rarely confines itself to a single structure. Radiant heat exposure can compromise roofing materials on adjacent buildings even when flames never make direct contact. Our fire-damage replacement program addresses both the directly burned structure and the heat-affected neighbors, ensuring that every building in the exposure zone receives the assessment it needs.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Newark — with prices starting from $12,000–$35,000 and free estimates available today. Fire-damaged roofs in Newark present a category of replacement work entirely different from age-related or weather-driven failures. The city\'s dense urban fabric -- row houses sharing party walls in the North Ward, triple-deckers packed along narrow Ironbound streets, mixed-use buildings with commercial ground floors beneath residential units -- means that fire damage rarely confines itself to a single structure. Radiant heat exposure can compromise roofing materials on adjacent buildings even when flames never make direct contact. Our fire-damage replacement program addresses both the directly burned structure and the heat-affected neighbors, ensuring that every building in the exposure zone receives the assessment it needs.',
     'Newark Fire Department ventilation operations create a specific damage pattern that shapes the replacement scope. When firefighters cut ventilation holes in the roof to release heat and smoke during suppression, these openings -- typically three-foot by three-foot squares cut through shingles, sheathing, and sometimes rafters -- become the starting point for structural assessment. The cuts themselves need repair, but the surrounding structure may be compromised by heat exposure, water saturation from suppression hoses, and smoke penetration into insulation and sheathing. A proper fire-damage replacement evaluates the entire roof system, not just the visible burn area and ventilation cuts.',
     'Insurance coordination on fire-damage roof replacements in Newark follows a more structured path than standard claims. Fire losses are typically covered under the dwelling protection portion of homeowner policies, and the claim process involves a fire department incident report, an insurance adjuster inspection, and often an independent structural engineering assessment. We work within this framework daily, providing the detailed damage documentation and itemized scope that adjusters require for approval. For multi-family properties and commercial buildings in Newark, we coordinate with commercial insurers whose claim processes differ significantly from residential carriers.',
     'Code upgrade requirements frequently expand the scope of a fire-damage replacement beyond simply restoring the pre-fire condition. Newark\'s building code mandates that any repair exceeding 50 percent of the roof area must bring the entire roof system into compliance with current code -- including fire-rated underlayment, updated wind uplift ratings, and modern ventilation standards. For buildings originally roofed decades ago under less stringent codes, this "code upgrade" component can represent a significant portion of the replacement cost. We identify these requirements during initial assessment and include them in the insurance claim documentation from the start, preventing coverage gaps that emerge when code upgrades are discovered mid-project.'
@@ -40,7 +40,25 @@ export const newarkFireDamageRoofReplacement: ComboContent = {
     {
       question: 'How do you handle fire-damage roof replacement on occupied multi-family buildings in Newark?',
       answer: 'We phase the work to maintain habitability in unaffected units while completing the replacement. Interior protection is installed in top-floor units before any roof work begins. If the fire department has condemned specific units, we coordinate with Newark housing inspection to establish clear boundaries between habitable and non-habitable areas. Our work schedule prioritizes closing the building envelope as quickly as possible to restore full occupancy. For properties with displaced tenants, we provide timeline commitments that landlords can share with tenants and their relocation assistance programs.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Newark, NJ?',
+      answer: 'Most fire damage roof replacement projects in Newark range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire-damage roof replacement in Newark NJ -- structural assessment, insurance coordination, code upgrades, and full replacement for fire-affected buildings.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

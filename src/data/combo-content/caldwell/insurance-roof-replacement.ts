@@ -4,7 +4,7 @@ export const caldwellInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Insurance roof replacement in Caldwell guides homeowners through the process of replacing storm-damaged or weather-degraded roofs with coverage from their homeowner insurance policy. Caldwell\'s tree canopy creates above-average exposure to branch impact damage during thunderstorms, nor\'easters, and winter ice events, making insurance-covered roof replacement a relatively common occurrence in this borough. The claims process can be navigated smoothly or can become adversarial depending on how the damage is documented, how the claim is filed, and how the contractor supports the homeowner through the insurer\'s evaluation process.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Caldwell — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Caldwell guides homeowners through the process of replacing storm-damaged or weather-degraded roofs with coverage from their homeowner insurance policy. Caldwell\'s tree canopy creates above-average exposure to branch impact damage during thunderstorms, nor\'easters, and winter ice events, making insurance-covered roof replacement a relatively common occurrence in this borough. The claims process can be navigated smoothly or can become adversarial depending on how the damage is documented, how the claim is filed, and how the contractor supports the homeowner through the insurer\'s evaluation process.',
     'Our [insurance roof replacement](/insurance-roof-replacement) approach for [Caldwell](/roofing-in-caldwell-nj) begins with thorough damage documentation that builds the strongest possible case for coverage before the insurance adjuster visits. We photograph every area of storm damage from multiple angles with reference measurements, document pre-existing conditions that should not be included in the claim, and prepare a detailed scope of work that shows the insurer exactly what replacement requires and what it costs. This documentation transforms the adjuster\'s visit from a discovery process into a confirmation process.',
     'Caldwell homeowners typically carry comprehensive homeowner insurance with replacement cost coverage, which means the policy pays to replace the damaged roof with equivalent new materials at current prices rather than depreciating the claim to reflect the old roof\'s remaining value. Understanding the difference between replacement cost and actual cash value coverage, knowing the deductible amount and how it applies, and recognizing what items the policy covers beyond shingles -- underlayment, flashing, drip edge, ice-and-water shield, code-required upgrades -- maximizes the claim recovery for each Caldwell homeowner. Neighbors in [Bloomfield](/insurance-roof-replacement-bloomfield-nj) and [Montclair](/insurance-roof-replacement-montclair-nj) navigate similar insurance replacement processes.'
   ],
@@ -34,7 +34,25 @@ export const caldwellInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Can you help me file my insurance claim for Caldwell roof damage?',
       answer: 'We provide the damage documentation, scope of work, and cost estimates that support your insurance claim, and we meet the adjuster on-site to walk the roof during their evaluation. The actual claim filing is your responsibility as the policyholder -- you file the claim with your insurance company using the documentation we provide. We do not file claims on behalf of homeowners because the policy relationship is between you and your insurer, and we believe that transparency is best served by keeping our role focused on documentation and construction.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Caldwell, NJ?',
+      answer: 'Most insurance roof replacement projects in Caldwell range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Caldwell NJ -- storm damage documentation, adjuster coordination, and honest claims guidance for homeowners.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

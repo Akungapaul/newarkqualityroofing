@@ -4,7 +4,7 @@ export const maplewoodFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'maplewood',
   overview: [
-    'Fascia installation and repair protects the critical roof edge on Maplewood\'s architecturally varied homes, where the fascia board serves as the structural anchor for gutter systems, the termination point for roofing materials, and a visible architectural element that frames the roofline. Deteriorated fascia on Maplewood\'s older Victorians and Colonials undermines gutter stability, allows water infiltration into rafter tails, and compromises the finished appearance of homes where curb appeal directly affects property value. Our [fascia work](/fascia-installation-repair) in [Maplewood](/roofing-in-maplewood-nj) addresses both the structural and aesthetic dimensions of this essential roof component.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Maplewood — with prices starting from $1,200–$3,500 and free estimates available today. Fascia installation and repair protects the critical roof edge on Maplewood\'s architecturally varied homes, where the fascia board serves as the structural anchor for gutter systems, the termination point for roofing materials, and a visible architectural element that frames the roofline. Deteriorated fascia on Maplewood\'s older Victorians and Colonials undermines gutter stability, allows water infiltration into rafter tails, and compromises the finished appearance of homes where curb appeal directly affects property value. Our [fascia work](/fascia-installation-repair) in [Maplewood](/roofing-in-maplewood-nj) addresses both the structural and aesthetic dimensions of this essential roof component.',
     'Maplewood\'s tree canopy creates fascia deterioration patterns distinct from less wooded communities. Leaves and debris trap moisture against fascia boards, accelerating rot on the wood faces that receive the least air circulation. Splash-back from overflowing gutters saturates fascia from the back side where paint protection is often thin or absent. Properties near South Mountain Reservation experience the worst fascia deterioration because the persistent shade and debris accumulation combine to create conditions where wood rot progresses faster than in sun-exposed environments.',
     'Victorian homes in Maplewood Village and along Ridgewood Road feature decorative fascia profiles, including crown-molded edges, recessed panels, and integrated bracket details, that require skilled carpentry to replicate during replacement. Standard aluminum fascia wrap covers the damage but eliminates the architectural detail that distinguishes these homes. Our approach preserves decorative profiles whenever possible, replacing damaged sections with custom-milled wood fascia that matches the original profile. Homeowners restoring historic homes in [Glen Ridge](/fascia-installation-repair-glen-ridge-nj) apply the same preservation-first philosophy to their fascia work.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodFasciaInstallationRepair: ComboContent = {
       question: 'How long does new fascia last in Maplewood\'s environment?',
       answer: 'Properly installed and maintained painted wood fascia lasts 20-30 years in Maplewood. Properties near South Mountain with heavy shade and debris may see shorter lifespan without diligent gutter maintenance. Aluminum-wrapped fascia provides 30-40 years of service with virtually no maintenance. Composite PVC fascia boards offer the longest lifespan at 40+ years with no painting required, though they lack the authentic appearance of painted wood on historic homes.',
     },
+    {
+      question: 'How much does fascia installation repair cost in Maplewood, NJ?',
+      answer: 'Most fascia installation repair projects in Maplewood range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Maplewood NJ. Custom-profile wood fascia for Victorians and durable replacement for all home styles.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

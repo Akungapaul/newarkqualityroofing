@@ -4,7 +4,7 @@ export const livingstonRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'livingston',
   overview: [
-    'Roof leak repair in Livingston confronts the specific geometry of the township\'s dominant split-level housing stock, where water infiltration at one roof plane routinely manifests as interior damage on a different floor. The multi-level intersections on homes throughout Northland and Westminster create internal pathways that funnel water along framing members, through wall cavities, and across ceiling planes before revealing a stain or drip far from the actual penetration point. Diagnosing these migrating leaks demands systematic moisture tracing rather than surface-level visual inspection.',
+    'Newark Quality Roofing delivers expert roof leak repair in Livingston — with prices starting from $300–$1,200 and free estimates available today. Roof leak repair in Livingston confronts the specific geometry of the township\'s dominant split-level housing stock, where water infiltration at one roof plane routinely manifests as interior damage on a different floor. The multi-level intersections on homes throughout Northland and Westminster create internal pathways that funnel water along framing members, through wall cavities, and across ceiling planes before revealing a stain or drip far from the actual penetration point. Diagnosing these migrating leaks demands systematic moisture tracing rather than surface-level visual inspection.',
     'Livingston homeowners report leaks quickly, which works in their favor. The proactive maintenance culture across Collins Terrace and Heritage Hills means stains get reported while they are still small, before extended water exposure damages structural framing or promotes mold growth in hidden cavities. This early detection gives us a repair window where the fix is targeted and cost-effective rather than requiring extensive tear-out of finished surfaces. Property owners in nearby [Bloomfield](/roof-leak-repair-bloomfield-nj) bring similar attentiveness, though Livingston\'s split-level geometry makes leak tracing more complex than Bloomfield\'s predominantly two-story colonials.',
     'Common leak sources on Livingston homes cluster around predictable failure points: step flashing at split-level wall-to-roof transitions, valley intersections where debris accumulation forces water under shingle courses, skylight perimeter seals on homes that added skylights during 1980s and 1990s renovations, and chimney crown deterioration on homes with masonry chimneys. Our [roof leak repair](/roof-leak-repair) approach addresses the root cause at each failure point rather than applying sealant over the symptom.',
     'Commercial properties along Eisenhower Parkway experience leak patterns tied to flat-roof drainage -- ponding water behind parapets, membrane seam separation at temperature extremes, and flashing failure around rooftop HVAC equipment. These leaks require different diagnostic tools and repair materials than residential work but demand the same root-cause methodology.'
@@ -35,7 +35,25 @@ export const livingstonRoofLeakRepair: ComboContent = {
     {
       question: 'Will my insurance cover roof leak repair on my Livingston home?',
       answer: 'Insurance typically covers leak damage caused by sudden events such as storms, fallen branches, or ice dams. Leaks resulting from gradual deterioration or deferred maintenance are generally excluded. We document the cause and extent of damage in our repair report, providing the evidence your insurance adjuster needs to evaluate the claim. If the leak resulted from a covered event, our documentation supports your claim for both the roof repair and any resulting interior damage.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Livingston, NJ?',
+      answer: 'Most roof leak repair projects in Livingston range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Livingston NJ roof leak repair -- split-level water migration tracing, skylight reflashing, and ice dam solutions with root-cause diagnostics.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const eastOrangeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'east-orange',
   overview: [
-    'Re-roofing in East Orange addresses the lifecycle moment when a building\'s roof system has reached the end of its effective service life and continued repair is no longer economically rational. For the landlords and property investors who own the Victorian two-families in Elmwood Park, the garden apartment complexes in Doddtown, and the mixed-use buildings along Main Street, [re-roofing](/re-roofing) is a capital expenditure that renews the building\'s most critical protective system -- transforming a liability that generates tenant complaints, repair costs, and code enforcement attention into an asset that provides decades of reliable, maintenance-minimal weatherproofing.',
+    'Newark Quality Roofing delivers expert re roofing in East Orange — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in East Orange addresses the lifecycle moment when a building\'s roof system has reached the end of its effective service life and continued repair is no longer economically rational. For the landlords and property investors who own the Victorian two-families in Elmwood Park, the garden apartment complexes in Doddtown, and the mixed-use buildings along Main Street, [re-roofing](/re-roofing) is a capital expenditure that renews the building\'s most critical protective system -- transforming a liability that generates tenant complaints, repair costs, and code enforcement attention into an asset that provides decades of reliable, maintenance-minimal weatherproofing.',
     'The timing of re-roofing on East Orange investment properties is driven by financial analysis as much as physical deterioration. A roof that can be maintained through annual repairs at $2,000 per year may still justify re-roofing if the maintenance trajectory shows escalating annual costs, if insurance underwriters are increasing premiums or restricting coverage due to roof age, or if the property owner is positioning the building for sale or refinancing where a new roof adds value exceeding its cost. Our assessment provides the data -- remaining service life estimate, projected repair cost trajectory, and replacement cost -- that supports the financial decision.',
     'Re-roofing East Orange\'s multi-family buildings on occupied properties requires project management that protects tenants, maintains habitability throughout the construction period, and communicates effectively with both the property owner and the building\'s residents. New Jersey tenant law requires advance notification of construction activity that affects occupied units, and our project coordination includes tenant notification protocols, noise scheduling, debris containment, and daily cleanup that maintain livable conditions while the work progresses above. Property owners throughout Essex County from [Bloomfield](/re-roofing-bloomfield-nj) to [Montclair](/re-roofing-montclair-nj) value this tenant-considerate approach.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeReRoofing: ComboContent = {
     {
       question: 'Can I re-roof my East Orange building while tenants are living in it?',
       answer: 'Yes. The majority of East Orange re-roofing projects are completed on occupied buildings. We provide advance tenant notification, schedule the noisiest work during standard business hours, contain debris away from building entries, and maintain habitability throughout the project. Interior access is needed only if attic ventilation modifications are included in the scope, and tenant coordination follows NJ notification requirements.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in East Orange, NJ?',
+      answer: 'Most re roofing projects in East Orange range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing for East Orange NJ multi-family buildings -- tear-off and overlay options for Victorian homes, apartments, and investment property upgrades.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

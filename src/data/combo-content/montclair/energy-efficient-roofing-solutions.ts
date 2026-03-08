@@ -4,7 +4,7 @@ export const montclairEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'montclair',
   overview: [
-    'Energy efficient roofing in Montclair operates at the intersection of the township\'s progressive environmental values and the practical realities of heating and cooling homes that were designed before energy performance was a construction consideration. The majority of Montclair\'s housing stock -- Victorian, Tudor, Arts & Crafts, and early colonial revival homes -- was built with minimal insulation, no vapor barriers, and ventilation strategies that prioritize structural longevity over thermal efficiency. Upgrading these homes\' energy performance through roofing interventions requires approaches that respect the architectural character while measurably reducing the energy waste that escapes through the roof assembly.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Montclair — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing in Montclair operates at the intersection of the township\'s progressive environmental values and the practical realities of heating and cooling homes that were designed before energy performance was a construction consideration. The majority of Montclair\'s housing stock -- Victorian, Tudor, Arts & Crafts, and early colonial revival homes -- was built with minimal insulation, no vapor barriers, and ventilation strategies that prioritize structural longevity over thermal efficiency. Upgrading these homes\' energy performance through roofing interventions requires approaches that respect the architectural character while measurably reducing the energy waste that escapes through the roof assembly.',
     'Attic insulation is the highest-impact energy upgrade available during any Montclair re-roofing project, and it costs a fraction of the roofing material investment that homeowners focus their budgets on. Many Montclair homes have original rock-wool or early fiberglass insulation at R-values of ten to fifteen -- well below the current code requirement of R-49 for New Jersey attic spaces. Adding blown cellulose or spray foam insulation during a re-roofing project, while the attic is accessible and the deck is exposed, delivers annual heating cost reductions of twenty to thirty percent that continue for the life of the insulation. Our [energy efficient roofing](/energy-efficient-roofing-solutions) projects for [Montclair](/roofing-in-montclair-nj) homeowners integrate insulation upgrades into the roofing scope rather than treating them as a separate, deferred improvement.',
     'Cool roofing materials -- reflective shingles, coatings, and membrane surfaces that reduce solar heat absorption -- provide measurable summer cooling benefits on Montclair homes with air conditioning. Reflective shingle products in light colors and cool-pigment formulations reduce attic temperatures by fifteen to twenty-five degrees compared to dark conventional shingles, directly lowering the cooling load on the air conditioning system. Properties in sunnier locations like [Bloomfield](/energy-efficient-roofing-solutions-bloomfield-nj) and [Nutley](/energy-efficient-roofing-solutions-nutley-nj) may see even greater cooling benefits, though Montclair\'s tree canopy provides natural shade that partially substitutes for reflective roofing on heavily canopied properties.',
     'The comprehensive approach combines material selection, insulation, ventilation, and air sealing into a coordinated energy performance upgrade that produces results measurable on utility bills rather than theoretical savings cited in product literature.'
@@ -35,7 +35,25 @@ export const montclairEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Are there incentives for energy efficient roofing in Montclair?',
       answer: 'New Jersey\'s Clean Energy Program offers rebates for insulation upgrades, and the federal government provides tax credits for qualified energy-efficient home improvements including certain roofing materials. ENERGY STAR rated roofing products may qualify for manufacturer rebates. Additionally, some utility providers offer incentives for documented energy reduction through home envelope improvements. We provide documentation of the energy upgrades performed during the roofing project in the format that incentive programs require for rebate applications.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Montclair, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Montclair range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in Montclair NJ -- insulation upgrades, cool-pigment shingles, and thermal improvements for older homes.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

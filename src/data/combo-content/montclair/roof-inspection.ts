@@ -4,7 +4,7 @@ export const montclairRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'montclair',
   overview: [
-    'A roof inspection in Montclair is an architectural forensics exercise as much as a condition assessment. The township\'s housing stock spans four distinct building eras -- Victorian (1870s-1910s), Tudor Revival and Colonial Revival (1920s-1940s), mid-century modern (1950s-1970s), and contemporary infill -- each with characteristic failure modes, original material specifications, and maintenance histories that a trained inspector reads like a diagnostic narrative. Walking a Montclair roof reveals not just current deficiencies but the entire maintenance biography of the home, including previous repairs done well and repairs done poorly that are now creating secondary failures.',
+    'Newark Quality Roofing delivers expert roof inspection in Montclair — with prices starting from $150–$400 and free estimates available today. A roof inspection in Montclair is an architectural forensics exercise as much as a condition assessment. The township\'s housing stock spans four distinct building eras -- Victorian (1870s-1910s), Tudor Revival and Colonial Revival (1920s-1940s), mid-century modern (1950s-1970s), and contemporary infill -- each with characteristic failure modes, original material specifications, and maintenance histories that a trained inspector reads like a diagnostic narrative. Walking a Montclair roof reveals not just current deficiencies but the entire maintenance biography of the home, including previous repairs done well and repairs done poorly that are now creating secondary failures.',
     'Pre-purchase inspections represent the largest share of Montclair\'s roof inspection demand. With median home prices exceeding one million dollars in several neighborhoods and transaction volume driven by a steady influx of buyers from Brooklyn and Manhattan, the financial stakes of roof condition are substantial. A failing roof on a $1.2 million Upper Montclair Victorian can generate a $40,000 to $80,000 repair or replacement estimate that reshapes the entire purchase negotiation. Buyers need inspections that quantify remaining useful life in years, identify hidden deficiencies that general home inspectors miss, and provide material-specific assessments that support informed negotiation. Our [roof inspection](/roof-inspection) reports serve this transaction-critical function with the technical depth that Montclair\'s high-value real estate market demands.',
     'Maintenance inspections for Montclair homeowners track the accelerated aging that the township\'s environmental conditions impose on roofing materials. The dense tree canopy promotes organic growth, the Watchung Ridge elevation increases wind exposure, and the older housing stock\'s ventilation deficiencies accelerate aging from below. Annual or biennial inspections catch these progressive conditions before they produce acute failures -- a practice that saves Montclair homeowners thousands in avoided emergency repairs and extends roof service life by years beyond what unmonitored roofs achieve in the same environment.'
   ],
@@ -34,7 +34,25 @@ export const montclairRoofInspection: ComboContent = {
     {
       question: 'Can you inspect a slate roof without damaging it?',
       answer: 'Yes. Our inspectors are experienced with slate roof access techniques that distribute weight across multiple slates rather than concentrating load on individual pieces. We use foam pads and chicken ladders on steep slate surfaces to prevent cracking. The inspection includes checking individual slates by tapping to identify delamination and testing fastener security without removing slates from their positions. This non-destructive approach provides comprehensive condition assessment while preserving the existing installation.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Montclair, NJ?',
+      answer: 'Most roof inspection projects in Montclair range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Montclair NJ roof inspection -- steep-slope Victorian assessment, pre-purchase reports for high-value homes, and organic growth diagnostics.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

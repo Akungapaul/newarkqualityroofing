@@ -4,7 +4,7 @@ export const bellevilleMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'belleville',
   overview: [
-    'Metal roof replacement offers Belleville homeowners a departure from the asphalt shingle cycle that has defined roofing in the township for generations. While most Belleville homes will continue to receive architectural shingles, a growing segment of homeowners who plan to stay in their homes long-term are choosing standing-seam metal for its 40-60 year lifespan, superior wind resistance, and zero-maintenance finish that eliminates the granule loss and algae growth that Belleville\'s humid climate accelerates on asphalt products.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Belleville — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement offers Belleville homeowners a departure from the asphalt shingle cycle that has defined roofing in the township for generations. While most Belleville homes will continue to receive architectural shingles, a growing segment of homeowners who plan to stay in their homes long-term are choosing standing-seam metal for its 40-60 year lifespan, superior wind resistance, and zero-maintenance finish that eliminates the granule loss and algae growth that Belleville\'s humid climate accelerates on asphalt products.',
     'The economics of [metal roof replacement](/metal-roof-replacement) in Belleville favor homeowners who plan to age in place. A metal roof costing $25,000-$45,000 lasts 40-60 years, while an asphalt shingle roof costing $14,000-$20,000 lasts 22-28 years and must be replaced at least once during the same period. Over a 50-year ownership horizon, metal roofing costs approximately the same as two shingle installations while eliminating the disruption, debris, and landfill waste of a mid-life replacement.',
     'Standing-seam metal integrates well with Belleville\'s residential aesthetic when the profile and color are selected to complement the existing neighborhood character. Low-profile panels in charcoal, slate gray, or dark bronze replicate the visual weight of dimensional shingles while providing the performance advantages of metal. On Belleville\'s closely-observed residential blocks where visual harmony matters, these architectural metal profiles avoid the industrial appearance that ribbed or corrugated metal would introduce.',
     'Metal roofing\'s reflective properties provide measurable energy savings in Belleville\'s urban heat island environment. A cool-finished metal roof reduces summer surface temperature by 50-70 degrees compared to dark asphalt shingles, lowering attic temperature and air conditioning demand in the compact homes where heat transfer between roof and living space is significant. For homeowners in [Belleville](/roofing-in-belleville-nj) concerned about energy costs, metal roofing delivers both immediate cooling savings and the long-term lifecycle value that makes the premium investment worthwhile, similar to installations we perform in [Newark](/metal-roof-replacement-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleMetalRoofReplacement: ComboContent = {
     {
       question: 'How long does a metal roof last in Belleville?',
       answer: 'Standing-seam metal roofing with a Kynar/PVDF finish lasts 40-60 years with minimal maintenance. The finish warranty typically covers 30-40 years against fading, chalking, and color change. The structural panel itself lasts longer than the finish and can be re-coated to extend the aesthetic life indefinitely. This lifespan means a metal roof installed today may be the last roof your Belleville home ever needs.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Belleville, NJ?',
+      answer: 'Most metal roof replacement projects in Belleville range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Belleville NJ. Standing-seam metal with 40-60 year lifespan for post-war homes seeking permanent roofing solutions.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

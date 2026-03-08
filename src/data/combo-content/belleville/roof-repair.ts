@@ -4,7 +4,7 @@ export const bellevilleRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'belleville',
   overview: [
-    'Belleville\'s tightly packed residential blocks -- Cape Cods, small colonials, and two-family homes built in the 1940s through 1960s on narrow 25-to-40-foot lots -- create roof repair conditions unlike anything in the wider-spaced suburbs farther west. When homes sit eight feet apart, a failing drip edge on one house directs water straight onto the siding of its neighbor. Roof repair in Belleville is never an isolated project; it always involves assessing how the repair affects adjacent structures and staging equipment in spaces that leave no margin for error. Homeowners in neighboring [Bloomfield](/roof-repair-bloomfield-nj) face similar density challenges, though Belleville\'s lot spacing is among the tightest in Essex County.',
+    'Newark Quality Roofing delivers expert roof repair in Belleville — with prices starting from $350–$1,500 and free estimates available today. Belleville\'s tightly packed residential blocks -- Cape Cods, small colonials, and two-family homes built in the 1940s through 1960s on narrow 25-to-40-foot lots -- create roof repair conditions unlike anything in the wider-spaced suburbs farther west. When homes sit eight feet apart, a failing drip edge on one house directs water straight onto the siding of its neighbor. Roof repair in Belleville is never an isolated project; it always involves assessing how the repair affects adjacent structures and staging equipment in spaces that leave no margin for error. Homeowners in neighboring [Bloomfield](/roof-repair-bloomfield-nj) face similar density challenges, though Belleville\'s lot spacing is among the tightest in Essex County.',
     'The eastern neighborhoods along Joralemon Street and Mill Street sit within the Passaic River basin, where elevated humidity accelerates shingle degradation in ways that homeowners farther from the river simply do not experience. Morning dew lingers on north-facing slopes well into midday, creating conditions where algae, moss, and lichen gain footholds that reduce shingle life by years. Our [roof repair](/roof-repair) teams carry moisture meters calibrated for the elevated baseline readings common in this river-adjacent zone, distinguishing active leaks from ambient humidity that would trigger false alarms with standard equipment.',
     'Belleville\'s Italian-American community character shapes how we work here. Referrals travel through family connections and conversations at the Washington Avenue bakeries, not through online advertising. A clean job site matters as much as a watertight repair -- neighbors watch from their porches, and our reputation on any given block depends on the crew that showed up last. We sweep driveways with magnetic nail catchers, protect plantings between houses with debris tarps, and speak with homeowners in Italian when that\'s the language of trust. This relational approach has generated multi-generational repeat business throughout the township.',
     'The commercial buildings along Washington Avenue and the Belleville Turnpike corridor present flat-roof repair challenges distinct from the pitched residential work. Modified bitumen and EPDM membranes on retail storefronts and small manufacturing facilities develop ponding issues where original drainage slopes have settled over decades, and penetration flashings around rooftop HVAC units fail as equipment vibration loosens sealant bonds. Our commercial repair protocols prioritize tenant notification and after-hours scheduling to keep businesses operational during repair work.'
@@ -39,7 +39,25 @@ export const bellevilleRoofRepair: ComboContent = {
     {
       question: 'My neighbor\'s gutter overflows onto my siding every rain. Can you fix that during my roof repair?',
       answer: 'Cross-property water problems are extremely common in Belleville due to lot density. During your roof repair, we can install kick-out flashing and extended drip edge profiles that redirect water away from the neighboring property line. However, fixing your neighbor\'s gutter requires their authorization and a separate service agreement. We often facilitate these conversations since addressing both properties simultaneously produces better results and we can offer bundled pricing when neighbors coordinate their repairs.'
-    }
+    },
+    {
+      question: 'How much does roof repair cost in Belleville, NJ?',
+      answer: 'Most roof repair projects in Belleville range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ roof repair for closely-spaced homes -- confined-lot staging, multi-layer tear-offs, and Passaic River humidity solutions.',
+  pricing: {
+    range: '$350–$1,500',
+    note: 'depending on scope and materials',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const veronaHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'verona',
   overview: [
-    'Hail events strike Verona when summer thunderstorms intensify along the Watchung ridge corridor, producing ice stones that pockmark roofing surfaces across the township\'s hilltop and valley neighborhoods alike. Unlike wind damage that concentrates on exposed elevations, hail falls indiscriminately -- a Claremont Avenue colonial and a Sunset Avenue ranch sustain the same impact density from the same cell. Newark Quality Roofing provides post-hail assessment, insurance documentation, and shingle replacement for Verona homeowners navigating the often-confusing claims process that follows a significant hail event.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Verona — with prices starting from $500–$2,500 and free estimates available today. Hail events strike Verona when summer thunderstorms intensify along the Watchung ridge corridor, producing ice stones that pockmark roofing surfaces across the township\'s hilltop and valley neighborhoods alike. Unlike wind damage that concentrates on exposed elevations, hail falls indiscriminately -- a Claremont Avenue colonial and a Sunset Avenue ranch sustain the same impact density from the same cell. Newark Quality Roofing provides post-hail assessment, insurance documentation, and shingle replacement for Verona homeowners navigating the often-confusing claims process that follows a significant hail event.',
     'Hail damage on asphalt shingles is deceptively subtle. Each impact creates a circular depression where granules have been dislodged, exposing the underlying asphalt mat to UV radiation that accelerates aging. A roof that looks unchanged from ground level may carry hundreds of impact marks visible only from the surface. Left unaddressed, these impacts reduce shingle life by 5 to 10 years as the exposed mat cracks and curls under solar exposure. Verona homeowners benefit from professional assessment after any reported hail event, even when no damage is visible from the yard below.',
     'Insurance coverage for hail damage is generally strong under standard homeowners policies, but the claims process requires specific documentation that casual photographs do not satisfy. Adjusters need impact density counts per test square, measurement-referenced close-up photographs, evidence of collateral damage on soft metals and painted surfaces, and clear identification of hail impact versus pre-existing wear. Our assessment protocol produces exactly this documentation, giving Verona homeowners the strongest possible foundation for a fair settlement that covers full [roof replacement](/roof-replacement) when damage density warrants it.'
   ],
@@ -34,7 +34,25 @@ export const veronaHailDamageRoofRepair: ComboContent = {
     {
       question: 'How soon after a hail storm should I schedule an assessment?',
       answer: 'Schedule within two weeks of the reported event. This protects your claims timeline and ensures fresh damage is documented before subsequent weather events obscure impact patterns. After significant hail events affecting the Verona area, we add assessment slots specifically for hail evaluations to accommodate demand. Early scheduling also positions you ahead of the contractor queue if replacement is needed -- after major hail events, material and labor demand in affected areas can extend project timelines by weeks.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in Verona, NJ?',
+      answer: 'Most hail damage roof repair projects in Verona range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Verona NJ -- professional assessment, insurance documentation, and shingle replacement after hail storms.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

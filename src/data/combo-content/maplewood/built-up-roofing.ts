@@ -4,7 +4,7 @@ export const maplewoodBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'maplewood',
   overview: [
-    'Built-up roofing has sheltered Maplewood\'s larger commercial and institutional buildings since before the township\'s mid-century expansion, and many of these original multi-layer systems still protect the flat-roofed structures along Springfield Avenue and within the Village commercial district. The BUR system\'s alternating layers of bitumen and reinforcing fabric create a waterproofing assembly with inherent redundancy that single-membrane alternatives cannot match. Our [built-up roofing](/built-up-roofing) projects in [Maplewood](/roofing-in-maplewood-nj) restore or replace these proven systems using modern materials that extend the original concept with improved performance.',
+    'Newark Quality Roofing delivers expert built up roofing in Maplewood — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing has sheltered Maplewood\'s larger commercial and institutional buildings since before the township\'s mid-century expansion, and many of these original multi-layer systems still protect the flat-roofed structures along Springfield Avenue and within the Village commercial district. The BUR system\'s alternating layers of bitumen and reinforcing fabric create a waterproofing assembly with inherent redundancy that single-membrane alternatives cannot match. Our [built-up roofing](/built-up-roofing) projects in [Maplewood](/roofing-in-maplewood-nj) restore or replace these proven systems using modern materials that extend the original concept with improved performance.',
     'Maplewood\'s institutional buildings represent the core of the township\'s BUR inventory. School facilities, the community center, and municipal buildings with large flat-roof footprints were originally specified with built-up systems by architects who valued the multi-ply redundancy for buildings that must remain weather-tight regardless of maintenance schedules. Today, facility managers maintaining these structures appreciate BUR\'s repairability, since individual plies can be patched without disturbing the underlying waterproofing layers.',
     'For commercial property owners weighing re-roofing options on older Maplewood buildings, BUR remains competitive when evaluated on lifecycle cost rather than initial installation price. The system\'s 25-30 year service life, combined with low maintenance requirements and straightforward repairability, delivers total cost of ownership comparable to or better than single-ply alternatives. Building owners in neighboring [West Orange](/built-up-roofing-west-orange-nj) reach similar conclusions when evaluating re-roofing their aging commercial flat-roof inventory.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodBuiltUpRoofing: ComboContent = {
       question: 'Can you install BUR without the odor from hot asphalt kettles?',
       answer: 'Yes. Cold-applied BUR systems use solvent-based or water-based adhesives instead of hot asphalt to bond the reinforcing plies. While cold-applied systems cost slightly more in materials, they eliminate the odor concerns that are particularly relevant in Maplewood Village\'s pedestrian commercial environment. We recommend cold-applied BUR for any installation adjacent to restaurants, retail, or residential units where asphalt odor would impact occupants.',
     },
+    {
+      question: 'How much does built up roofing cost in Maplewood, NJ?',
+      answer: 'Most built up roofing projects in Maplewood range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Maplewood NJ. Multi-ply commercial waterproofing for institutional buildings and Springfield Avenue commercial properties.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

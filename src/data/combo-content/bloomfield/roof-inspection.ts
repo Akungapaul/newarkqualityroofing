@@ -4,7 +4,7 @@ export const bloomfieldRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'bloomfield',
   overview: [
-    'Roof inspection in Bloomfield serves a housing market where most homeowners inherited their roofing problems from previous owners or from the passage of time. The Cape Cods, split-levels, and colonials filling Bloomfield\'s residential neighborhoods were built between the late 1940s and early 1970s, and many have been through two or three ownership cycles since original construction. Each transition introduces uncertainty about the roof\'s history: when was it last replaced, how many shingle layers exist, was the flashing ever updated, and are there hidden repairs concealed beneath surface patches? A professional inspection answers these questions with documented evidence rather than guesswork.',
+    'Newark Quality Roofing delivers expert roof inspection in Bloomfield — with prices starting from $150–$400 and free estimates available today. Roof inspection in Bloomfield serves a housing market where most homeowners inherited their roofing problems from previous owners or from the passage of time. The Cape Cods, split-levels, and colonials filling Bloomfield\'s residential neighborhoods were built between the late 1940s and early 1970s, and many have been through two or three ownership cycles since original construction. Each transition introduces uncertainty about the roof\'s history: when was it last replaced, how many shingle layers exist, was the flashing ever updated, and are there hidden repairs concealed beneath surface patches? A professional inspection answers these questions with documented evidence rather than guesswork.',
     'Real estate transaction inspections drive a substantial share of our Bloomfield roof inspection work. Buyers want to know what they are inheriting before committing to a purchase, and sellers benefit from understanding their roof\'s condition before listing -- either to make pre-sale repairs that protect the asking price or to price the property with transparent disclosure of roof condition. Bloomfield\'s active residential market, fueled by the township\'s NJ Transit commuter access and relative affordability compared to neighboring [Montclair](/roof-inspection-montclair-nj), generates steady demand for objective roof condition reports that both parties can rely on during negotiation.',
     'Insurance-motivated inspections represent a growing segment of our Bloomfield roof inspection work. Insurance carriers increasingly require roof condition reports before issuing or renewing homeowner policies on properties with aging roofs. A documented inspection demonstrating that the roof is functional and maintained -- even if not new -- can prevent coverage denial or premium surcharges that make homeownership unnecessarily expensive. We provide [roof inspection](/roof-inspection) reports formatted for insurance submission with clear condition assessments, estimated remaining useful life, and photographic documentation of each roof component.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofInspection: ComboContent = {
     {
       question: 'My insurance company is asking for a roof inspection on my Bloomfield home. What do they want?',
       answer: 'Insurance carriers typically want documentation of the roof material type, estimated age, current condition, and any damage or deterioration that could lead to claims. Our insurance-formatted inspection report covers all these data points with photographic evidence. A favorable report demonstrating adequate condition and maintenance can prevent premium increases or coverage restrictions that carriers sometimes apply to homes with aging roofs in the 07003 zip code.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Bloomfield, NJ?',
+      answer: 'Most roof inspection projects in Bloomfield range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Bloomfield NJ roof inspection for real estate, insurance, and maintenance -- split-level expertise, multi-layer detection, and documented condition reports.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

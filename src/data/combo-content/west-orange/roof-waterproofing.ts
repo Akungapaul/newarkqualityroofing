@@ -4,7 +4,7 @@ export const westOrangeRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'west-orange',
   overview: [
-    'Roof waterproofing in West Orange goes beyond standard shingle installation to address the township\'s elevation-specific water infiltration pathways that standard roofing practice does not anticipate. Our [roof waterproofing](/roof-waterproofing) work applies liquid membranes, sheet-applied barriers, and sealant systems to the vulnerable intersections, transitions, and penetrations where water finds entry points driven by the wind pressure, ice dam forces, and terrain-concentrated rainfall unique to Watchung Mountain living.',
+    'Newark Quality Roofing delivers expert roof waterproofing in West Orange — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in West Orange goes beyond standard shingle installation to address the township\'s elevation-specific water infiltration pathways that standard roofing practice does not anticipate. Our [roof waterproofing](/roof-waterproofing) work applies liquid membranes, sheet-applied barriers, and sealant systems to the vulnerable intersections, transitions, and penetrations where water finds entry points driven by the wind pressure, ice dam forces, and terrain-concentrated rainfall unique to Watchung Mountain living.',
     'Valley-floor homes in Pleasant Valley contend with the highest water volume per storm event in West Orange, as terrain channels runoff from the ridge through lower-elevation neighborhoods. This concentrated water load overwhelms standard roofing details at valleys, wall transitions, and gutter convergence points. Our waterproofing approach for valley-floor properties extends barrier coverage beyond code minimums at every vulnerable detail, applying ice-and-water shield membrane and liquid-applied reinforcement at transitions that standard practice leaves protected only by shingle overlap.',
     'Ridge-top properties above Eagle Rock Avenue face waterproofing challenges driven by wind rather than volume. Horizontal rain driven at sustained speeds exceeding 60 miles per hour penetrates gaps that gravity drainage would never reach, finding pathways behind step flashing, through ridge vent baffles, and around pipe boot collars. Waterproofing these ridge-top homes requires wind-driven-rain engineering at every detail, closing the lateral water pathways that sheltered properties never experience. Homeowners near [Glen Ridge](/roof-waterproofing-glen-ridge-nj) rarely need this level of wind-waterproofing given that community\'s uniformly sheltered terrain.',
     'Basement and foundation waterproofing connections to roof drainage represent an often-overlooked component of [West Orange](/roofing-in-west-orange-nj)\'s complete waterproofing strategy. The township\'s sloped terrain concentrates roof drainage at downspout discharge points where water saturates soil against foundation walls, creating the hydrostatic pressure that basement waterproofing systems must resist. Our complete waterproofing approach extends from ridge to foundation, ensuring that water managed at the roof level does not create problems at ground level.'
@@ -35,7 +35,25 @@ export const westOrangeRoofWaterproofing: ComboContent = {
     {
       question: 'How does roof waterproofing relate to basement water problems?',
       answer: 'On West Orange\'s sloped terrain, roof drainage concentrated at downspout discharge points saturates soil against foundation walls, creating the hydrostatic pressure that drives water through basement wall cracks and floor joints. Extending downspout discharge away from the foundation through underground piping reduces the water volume reaching foundation walls. Complete waterproofing addresses both roof and foundation water management as connected components of the building\'s overall water performance.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in West Orange, NJ?',
+      answer: 'Most roof waterproofing projects in West Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in West Orange NJ. Ice-and-water shield, liquid membrane, and ridge-to-foundation water management solutions.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

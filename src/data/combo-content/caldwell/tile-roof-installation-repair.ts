@@ -4,7 +4,7 @@ export const caldwellTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'caldwell',
   overview: [
-    'Tile roofing in Caldwell appears on a select group of homes that break from the borough\'s dominant colonial and cape cod aesthetic. Mediterranean-influenced designs built during the 1980s and 1990s in the neighborhoods west of Personette Avenue, along with custom homes on larger lots near the Caldwell-North Caldwell border, carry concrete and clay tile roofs that bring distinctive character to streets otherwise defined by asphalt shingles. These tile installations demand specialized knowledge that goes beyond standard roofing practice -- from understanding the structural load requirements that tile imposes on framing to mastering the interlocking installation patterns that make each manufacturer\'s profile unique.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Caldwell — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Caldwell appears on a select group of homes that break from the borough\'s dominant colonial and cape cod aesthetic. Mediterranean-influenced designs built during the 1980s and 1990s in the neighborhoods west of Personette Avenue, along with custom homes on larger lots near the Caldwell-North Caldwell border, carry concrete and clay tile roofs that bring distinctive character to streets otherwise defined by asphalt shingles. These tile installations demand specialized knowledge that goes beyond standard roofing practice -- from understanding the structural load requirements that tile imposes on framing to mastering the interlocking installation patterns that make each manufacturer\'s profile unique.',
     'Tile roof repair in [Caldwell](/roofing-in-caldwell-nj) most commonly involves replacing individual tiles cracked by falling branches from the borough\'s mature tree canopy. Unlike shingle damage where a patch blends into the surrounding surface, tile repair requires sourcing exact profile matches -- a barrel tile cannot substitute for a flat interlocking tile, and color variations between manufacturers make cross-brand substitution visually obvious. We maintain relationships with tile suppliers who stock replacement inventory for the profiles most commonly installed across Essex County, reducing the wait time that leaves Caldwell tile roofs vulnerable between damage and repair.',
     'The weight of tile roofing -- eight to twelve pounds per square foot compared to two to three pounds for asphalt shingles -- means that [tile roof](/tile-roof-installation-repair) installations in Caldwell require structural verification before the first tile is set. Homes in neighboring [Bloomfield](/tile-roof-installation-repair-bloomfield-nj) and [Montclair](/tile-roof-installation-repair-montclair-nj) carry similar considerations, but Caldwell\'s housing stock of predominantly wood-framed construction from the mid-twentieth century often needs rafter reinforcement to carry tile loads safely. This structural assessment is the first step in any Caldwell tile roof project, not an afterthought.'
   ],
@@ -34,7 +34,25 @@ export const caldwellTileRoofInstallationRepair: ComboContent = {
     {
       question: 'Is a tile roof worth the investment for a Caldwell home?',
       answer: 'Tile roofing costs roughly three to four times more than architectural asphalt shingles for initial installation including structural reinforcement. However, the lifecycle cost comparison favors tile when the home is a long-term investment -- one tile roof outlasts two to three shingle installations. Tile also enhances property value, particularly on homes with architectural designs that complement the tile aesthetic. For Caldwell homes where the owner plans to stay twenty years or more, tile roofing delivers both financial and aesthetic returns that shingles cannot match.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Caldwell, NJ?',
+      answer: 'Most tile roof installation repair projects in Caldwell range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Caldwell NJ -- clay and concrete tile for custom homes with structural assessment and branch damage repair.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const orangeEnergyEfficientRoofingSolutions: ComboContent = {
   serviceId: 'energy-efficient-roofing-solutions',
   cityId: 'orange',
   overview: [
-    'Energy efficient roofing in Orange addresses the dual reality of aging housing stock and rising utility costs in a city where many homes were built with minimal insulation and no consideration for thermal performance. Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) transform Orange roofs from thermal liabilities into energy assets -- reflective surfaces that reject summer heat, enhanced insulation that retains winter warmth, and ventilation designs that manage attic temperature year-round. For Orange homeowners spending hundreds monthly on heating and cooling in poorly insulated homes, an energy-focused roof upgrade pays for its premium within years.',
+    'Newark Quality Roofing delivers expert energy efficient roofing solutions in Orange — with prices starting from $10,000–$28,000 and free estimates available today. Energy efficient roofing in Orange addresses the dual reality of aging housing stock and rising utility costs in a city where many homes were built with minimal insulation and no consideration for thermal performance. Our [energy efficient roofing solutions](/energy-efficient-roofing-solutions) transform Orange roofs from thermal liabilities into energy assets -- reflective surfaces that reject summer heat, enhanced insulation that retains winter warmth, and ventilation designs that manage attic temperature year-round. For Orange homeowners spending hundreds monthly on heating and cooling in poorly insulated homes, an energy-focused roof upgrade pays for its premium within years.',
     'The city\'s compact urban layout amplifies the thermal challenges that energy efficient roofing addresses. Dense construction on tight lots creates a localized heat island effect where asphalt, concrete, and dark rooftops absorb and re-radiate solar energy. During Orange summers, conventional dark shingle roofs reach surface temperatures exceeding 150 degrees -- radiating that heat into attic spaces that become ovens, overwhelming air conditioning systems and driving up electricity costs. Reflective roofing materials -- cool-color shingles, white TPO membranes, or elastomeric roof coatings -- reduce surface temperatures by 50 to 60 degrees, directly lowering cooling loads.',
     'Main Street\'s commercial buildings benefit from energy efficient roofing through both reduced operating costs and compliance with evolving energy codes. New Jersey\'s commercial building energy code increasingly mandates minimum roof insulation values and cool-roof compliance for new construction and major re-roofing projects. Our energy efficient commercial roof specifications for Orange meet or exceed these requirements, positioning building owners ahead of tightening standards while delivering immediate operational savings. Commercial property owners across [East Orange](/energy-efficient-roofing-solutions-east-orange-nj) face identical code requirements and benefit from the same reflective membrane solutions.'
   ],
@@ -34,7 +34,25 @@ export const orangeEnergyEfficientRoofingSolutions: ComboContent = {
     {
       question: 'Does New Jersey offer incentives for energy efficient roofing?',
       answer: 'New Jersey\'s Clean Energy Program offers rebates for insulation upgrades and energy efficiency improvements. Federal tax credits for energy efficient home improvements may apply to qualifying roofing materials. Our energy audits identify which improvements qualify for available incentives and include the documentation needed to file for rebates and credits.'
-    }
+    },
+    {
+      question: 'How much does energy efficient roofing solutions cost in Orange, NJ?',
+      answer: 'Most energy efficient roofing solutions projects in Orange range from $10,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Energy efficient roofing in Orange NJ -- cool-color shingles, attic insulation upgrades, thermal audits, and Valley moisture-aware energy solutions.',
+  pricing: {
+    range: '$10,000–$28,000',
+    note: 'cool-roof or reflective systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free energy efficient roofing solutions estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

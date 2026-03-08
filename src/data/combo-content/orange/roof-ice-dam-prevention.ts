@@ -4,7 +4,7 @@ export const orangeRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'orange',
   overview: [
-    'Ice dam prevention takes on heightened urgency in Orange because South Mountain\'s terrain creates localized freezing conditions that intensify ice accumulation beyond what flatland communities experience. Moist air rising over the mountain cools rapidly, depositing ice on trees and roofs in the hillside neighborhoods at rates exceeding the Valley and Main Street areas below. Our [ice dam prevention](/roof-ice-dam-prevention) approach for Orange homes targets the root causes -- inadequate attic insulation, insufficient ventilation, and thermal bridging through roof assemblies -- rather than treating symptoms with reactive measures like ice melt cables that consume energy without solving the underlying problem.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Orange — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention takes on heightened urgency in Orange because South Mountain\'s terrain creates localized freezing conditions that intensify ice accumulation beyond what flatland communities experience. Moist air rising over the mountain cools rapidly, depositing ice on trees and roofs in the hillside neighborhoods at rates exceeding the Valley and Main Street areas below. Our [ice dam prevention](/roof-ice-dam-prevention) approach for Orange homes targets the root causes -- inadequate attic insulation, insufficient ventilation, and thermal bridging through roof assemblies -- rather than treating symptoms with reactive measures like ice melt cables that consume energy without solving the underlying problem.',
     'Orange\'s older housing stock is particularly vulnerable to ice dam formation because the homes were built before modern insulation and ventilation standards existed. The Victorian and colonial homes along Scotland Road and Park Avenue have complex roof geometries with intersecting gables, dormers, and valleys that concentrate snow accumulation and create differential melting patterns. Heat escaping from living spaces below melts snow on upper roof slopes, and the meltwater refreezes at the cold eave overhang where attic insulation ends, building an ice dam that forces water back under shingles and into the building envelope.',
     'The Valley neighborhood experiences a different ice dam dynamic: while the terrain is lower and warmer than the mountain-adjacent areas, the homes in the Valley often have the poorest insulation in the city. Older bungalows and duplexes with minimal or no attic insulation lose heat so rapidly through their roof assemblies that even modest snowfall triggers ice dam formation at the eaves. Addressing ice dams on Valley homes requires insulation upgrades that pay for themselves through winter heating cost reductions -- a compelling economic argument that homeowners in neighboring [East Orange](/roof-ice-dam-prevention-east-orange-nj) recognize when facing the same vintage housing stock.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofIceDamPrevention: ComboContent = {
     {
       question: 'Can ice dam prevention be done without changing the appearance of my Orange Victorian?',
       answer: 'Yes. Our concealed ventilation systems introduce airflow at the eave line using perforated drip edge profiles and hidden intake vents that are invisible from the ground. Insulation and air sealing work is completed entirely from inside the attic. The only visible exterior change is improved ridge ventilation, which we design to be architecturally appropriate for the home\'s period.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Orange, NJ?',
+      answer: 'Most roof ice dam prevention projects in Orange range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Orange NJ -- South Mountain thermal assessment, Victorian attic insulation, concealed ventilation retrofit, and root-cause solutions.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

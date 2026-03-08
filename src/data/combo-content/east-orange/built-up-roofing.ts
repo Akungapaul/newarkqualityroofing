@@ -4,7 +4,7 @@ export const eastOrangeBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'east-orange',
   overview: [
-    'Built-up roofing -- the alternating layers of bitumen and reinforcing fabric that roofers have applied to flat commercial and residential structures for over a century -- is woven into the architectural DNA of East Orange\'s pre-war building stock. The apartment houses lining Central Avenue, the commercial buildings along Main Street in the Brick Church district, and the institutional structures serving the city\'s schools and community organizations all carry flat roof systems where built-up roofing was the original specification, and many of these buildings still operate under their second or third generation of BUR application applied over the decades since initial construction.',
+    'Newark Quality Roofing delivers expert built up roofing in East Orange — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing -- the alternating layers of bitumen and reinforcing fabric that roofers have applied to flat commercial and residential structures for over a century -- is woven into the architectural DNA of East Orange\'s pre-war building stock. The apartment houses lining Central Avenue, the commercial buildings along Main Street in the Brick Church district, and the institutional structures serving the city\'s schools and community organizations all carry flat roof systems where built-up roofing was the original specification, and many of these buildings still operate under their second or third generation of BUR application applied over the decades since initial construction.',
     'For East Orange property owners who know their buildings intimately -- landlords who have managed the same apartment complex in Doddtown for twenty years, commercial property owners whose families have held Main Street storefronts for generations -- [built-up roofing](/built-up-roofing) represents a known quantity in an industry constantly promoting new alternatives. The material science has improved with modern glass-fiber felts replacing the organic felts of previous generations, and hot-mopped asphalt application produces a seamless, fully adhered membrane that has no factory seams to fail. This seamlessness is BUR\'s defining advantage over single-ply membrane systems, and on East Orange buildings where roof geometry includes multiple elevation changes, equipment curbs, and irregular parapet configurations, the absence of seams reduces the number of potential failure points significantly.',
     'The multi-ply construction of built-up roofing provides a structural redundancy that resonates with East Orange landlords managing risk across occupied multi-family buildings. A three-ply BUR system creates three independent waterproofing layers -- each capable of preventing water entry if the layers above sustain localized damage. This redundancy provides a margin of safety that single-layer membranes cannot offer, and on buildings where tenant displacement from active roof leaks carries legal and financial consequences under New Jersey habitability law, that margin has real economic value. Property managers in neighboring [Bloomfield](/built-up-roofing-bloomfield-nj) face similar calculations on their aging commercial flat roofs.',
     'Gravel-surfaced built-up roofing remains common on older East Orange buildings, and the ballast layer provides UV protection, fire resistance, and hail impact resistance that extend system life without relying on chemical coatings that degrade over time. The aggregate surface also provides secure footing for maintenance workers accessing rooftop equipment, reducing the slip hazard that smooth membrane surfaces present when wet -- a practical benefit on occupied East Orange buildings where HVAC service technicians, plumbers, and building maintenance staff access the roof regularly.'
@@ -35,7 +35,25 @@ export const eastOrangeBuiltUpRoofing: ComboContent = {
     {
       question: 'What is the fire rating of built-up roofing for East Orange buildings?',
       answer: 'Built-up roofing systems achieve Class A fire ratings -- the highest available -- when installed with mineral-surfaced cap sheets or aggregate ballast over approved assemblies. This rating satisfies East Orange Building Department requirements for all occupancy types including multi-family residential, commercial, and institutional buildings. The inherent fire resistance of the multi-ply asphalt and felt construction provides superior fire protection compared to single-ply membrane alternatives.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in East Orange, NJ?',
+      answer: 'Most built up roofing projects in East Orange range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing for East Orange NJ commercial and apartment buildings -- multi-ply BUR installation, gravel ballast systems, and seamless flat roof.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

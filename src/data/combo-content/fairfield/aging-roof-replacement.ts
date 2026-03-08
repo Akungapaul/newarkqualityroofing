@@ -4,7 +4,7 @@ export const fairfieldAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'fairfield',
   overview: [
-    'Aging roof replacement in Fairfield addresses the proactive decision to replace a roof that has reached the end of its serviceable life before it fails catastrophically. Unlike storm damage replacement driven by sudden events, aging replacement is a planned improvement that allows Fairfield homeowners to select materials, schedule installation during optimal weather, and budget the project on their own timeline. Homes built during the township\'s primary development era with original or first-replacement roofing systems approaching their twenty-five to thirty year design life are entering the replacement decision zone where proactive action prevents the emergency repairs and interior damage that deferred replacement inevitably produces.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Fairfield — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Fairfield addresses the proactive decision to replace a roof that has reached the end of its serviceable life before it fails catastrophically. Unlike storm damage replacement driven by sudden events, aging replacement is a planned improvement that allows Fairfield homeowners to select materials, schedule installation during optimal weather, and budget the project on their own timeline. Homes built during the township\'s primary development era with original or first-replacement roofing systems approaching their twenty-five to thirty year design life are entering the replacement decision zone where proactive action prevents the emergency repairs and interior damage that deferred replacement inevitably produces.',
     'Recognizing when a Fairfield roof has aged beyond repair requires understanding the difference between cosmetic aging and functional failure. Surface granule loss that exposes the asphalt substrate, shingle edges that curl upward or cup downward, ridge caps that crack along the fold line, and flashing sealants that have dried and separated from surfaces all indicate a roof approaching failure. These symptoms progress gradually, allowing homeowners to mistake them for normal wear, until a heavy rain or wind event overwhelms the weakened system and causes the interior damage that emergency replacement cannot undo.',
     'Our [aging roof replacement](/aging-roof-replacement) program in Fairfield helps homeowners identify the optimal replacement timing -- early enough to avoid emergency conditions but late enough to extract full value from the existing system. We provide free aging assessments that estimate remaining service life based on visible condition, material type, installation quality, and environmental exposure. This assessment gives Fairfield homeowners a planning horizon for budgeting and scheduling their replacement project. Homeowners in [Caldwell](/aging-roof-replacement-caldwell-nj) and throughout western Essex County use the same assessment service to plan their re-roofing investments.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldAgingRoofReplacement: ComboContent = {
     {
       question: 'Does a new roof on my Fairfield home qualify for any incentives?',
       answer: 'Energy-efficient roofing materials -- including reflective shingles and certain premium products -- may qualify for federal energy efficiency tax credits. Some utility companies offer rebates when roof replacement includes insulation upgrades that meet specified R-value improvements. We identify applicable incentives during the project planning phase and provide the documentation needed for applications.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Fairfield, NJ?',
+      answer: 'Most aging roof replacement projects in Fairfield range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Fairfield NJ. Proactive replacement planning for homes reaching end-of-life before emergency damage occurs.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

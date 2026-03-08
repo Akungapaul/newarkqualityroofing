@@ -4,7 +4,7 @@ export const cedarGroveAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Asphalt shingle roof replacement is the most common roofing project on Cedar Grove homes, where the township\'s ranch and colonial housing stock has cycled through multiple shingle installations since original construction during the 1950s and 1960s. Current-generation architectural asphalt shingles offer significant performance improvements over the products they replace -- higher wind ratings, better granule adhesion, enhanced algae resistance, and more dimensional profiles that add visual depth to Cedar Grove\'s characteristic low-pitch rooflines.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Cedar Grove — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common roofing project on Cedar Grove homes, where the township\'s ranch and colonial housing stock has cycled through multiple shingle installations since original construction during the 1950s and 1960s. Current-generation architectural asphalt shingles offer significant performance improvements over the products they replace -- higher wind ratings, better granule adhesion, enhanced algae resistance, and more dimensional profiles that add visual depth to Cedar Grove\'s characteristic low-pitch rooflines.',
     'Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) projects for Cedar Grove homes use GAF, Owens Corning, and CertainTeed products selected for the specific performance requirements that northern Essex County\'s climate and the township\'s low-pitch geometry demand. SBS-modified shingle formulations that maintain flexibility through freeze-thaw cycling perform best on Cedar Grove roofs, resisting the cracking and splitting that standard oxidized-asphalt products develop after a few northern New Jersey winters.',
     'Color and profile selection during replacement gives Cedar Grove homeowners the opportunity to update their home\'s appearance within the township\'s established aesthetic. The earth-toned palette that characterizes Cedar Grove neighborhoods -- Weathered Wood, Driftwood, Charcoal, and Brownwood -- remains the dominant preference, but bolder designer blends and high-definition profiles have gained acceptance on renovated homes throughout the township.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveAsphaltShingleRoofReplacement: ComboContent = {
       question: 'Can I change my shingle color during replacement?',
       answer: 'Absolutely. Roof replacement is the ideal time to update your Cedar Grove home\'s shingle color. We provide physical shingle samples viewed against your home\'s siding, trim, and landscape rather than relying on digital color tools. Our recommendation accounts for the neighborhood aesthetic context and the specific tree canopy conditions that affect how colors appear on shaded versus sun-exposed roof sections.',
     },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Cedar Grove range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Cedar Grove NJ -- GAF, Owens Corning, and CertainTeed architectural shingles for ranch and colonial homes.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

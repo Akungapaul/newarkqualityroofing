@@ -4,7 +4,7 @@ export const essexFellsCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'essex-fells',
   overview: [
-    'Cedar shake roofing and Essex Fells share a natural affinity that makes this material one of the most frequently specified options on the borough\'s estate properties. The hand-split texture of premium cedar shakes complements the wooded, naturalistic setting that defines life along Fells Road, Hawthorne Avenue, and the winding lanes bordering the Caldwell reservation. Architects designing homes in Essex Fells select cedar for its organic warmth against stone and timber facades -- a visual connection between the built structure and the surrounding hardwood canopy that no manufactured roofing material can replicate.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in Essex Fells — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing and Essex Fells share a natural affinity that makes this material one of the most frequently specified options on the borough\'s estate properties. The hand-split texture of premium cedar shakes complements the wooded, naturalistic setting that defines life along Fells Road, Hawthorne Avenue, and the winding lanes bordering the Caldwell reservation. Architects designing homes in Essex Fells select cedar for its organic warmth against stone and timber facades -- a visual connection between the built structure and the surrounding hardwood canopy that no manufactured roofing material can replicate.',
     'Cedar shake installations in Essex Fells operate at the premium end of the material spectrum. Where suburban communities might accept machine-sawn cedar shingles, Essex Fells architects specify hand-split and resawn shakes from old-growth or sustainably harvested western red cedar, typically in twenty-four-inch lengths with one-half to three-quarter-inch butt thickness. The resulting roof presents a deep, textured shadow line visible from the estate\'s approach that becomes more pronounced as the cedar weathers to its characteristic silver-gray patina -- a transformation that residents of neighboring [North Caldwell](/cedar-shake-roofing-north-caldwell-nj) estates appreciate equally.',
     'Our [cedar shake roofing](/cedar-shake-roofing) work in Essex Fells addresses the complete lifecycle from new installation through maintenance and eventual replacement. We source exclusively from mills producing CCA or borate pressure-treated shakes rated for the high-moisture, heavy-shade conditions that Essex Fells\' canopy environment creates. Every installation includes enhanced ventilation provisions to promote air circulation beneath the shake surface -- a critical detail in the perpetually shaded conditions that distinguish Essex Fells from more open suburban settings where cedar performs with less intervention.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsCedarShakeRoofing: ComboContent = {
     {
       question: 'What causes the dark streaking on my cedar shake roof?',
       answer: 'Dark streaks indicate tannin extraction accelerated by moisture retention. In Essex Fells shaded conditions, rainwater lingers on the cedar surface and leaches extractive compounds that create visible discoloration patterns, often following water drainage paths. While cosmetic, heavy streaking signals excessive moisture contact that may be accelerating wood deterioration. Treatment involves gentle cleaning with a wood-compatible solution followed by preservative application. Improving ventilation beneath the shakes and clearing overhanging branches where practical reduces the moisture conditions that drive tannin extraction.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in Essex Fells, NJ?',
+      answer: 'Most cedar shake roofing projects in Essex Fells range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in Essex Fells NJ -- hand-split premium cedar for wooded estate properties with shade-adapted maintenance programs.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

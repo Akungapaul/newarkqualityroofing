@@ -4,7 +4,7 @@ export const northCaldwellAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Aging roof replacement on North Caldwell estates addresses the natural end-of-life transition that every roofing material eventually reaches. Asphalt shingles at twenty-five to thirty years show granule loss, curling, and brittleness. Cedar shakes at thirty to forty years develop splitting, moss infiltration, and thinning. Even slate at sixty to eighty years can show delamination and fastener corrosion that signals the need for comprehensive restoration. Replacing an aging roof before it fails protects the estate from the water damage, emergency costs, and disruption that catastrophic failure produces.',
+    'Newark Quality Roofing delivers expert aging roof replacement in North Caldwell — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement on North Caldwell estates addresses the natural end-of-life transition that every roofing material eventually reaches. Asphalt shingles at twenty-five to thirty years show granule loss, curling, and brittleness. Cedar shakes at thirty to forty years develop splitting, moss infiltration, and thinning. Even slate at sixty to eighty years can show delamination and fastener corrosion that signals the need for comprehensive restoration. Replacing an aging roof before it fails protects the estate from the water damage, emergency costs, and disruption that catastrophic failure produces.',
     'The proactive replacement approach we recommend for [North Caldwell](/roofing-in-north-caldwell-nj) homes is driven by the economics of estate property ownership. Water damage to a home with custom millwork, hardwood floors, and finished spaces costs exponentially more to repair than the roof replacement that would have prevented it. Scheduling [aging roof replacement](/aging-roof-replacement) while the existing system is still marginally functional -- rather than waiting for failure -- gives the homeowner control over timing, material selection, and budget planning that emergency replacement does not allow.',
     'Our replacement consultations for aging roofs on North Caldwell estates evaluate the current roof condition objectively and provide an honest assessment of remaining useful life. Some aging roofs have five to ten years remaining with maintenance support. Others are one heavy storm from catastrophic failure. The assessment gives the homeowner the information needed to plan the replacement on their schedule rather than reacting to a crisis. Property owners in [Essex Fells](/aging-roof-replacement-essex-fells-nj) appreciate similar proactive assessment for their estate roof systems.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellAgingRoofReplacement: ComboContent = {
     {
       question: 'How much does aging roof replacement cost on a North Caldwell estate?',
       answer: 'Cost depends on roof area, material selection, and deck repair scope. North Caldwell estate roof areas of 4,000 to 8,000 square feet with premium material specifications represent significant investments. We provide detailed estimates broken down by material, labor, and contingency so the homeowner understands exactly what each component contributes to the total. Financing options are available for homeowners who prefer to spread the investment over time.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most aging roof replacement projects in North Caldwell range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in North Caldwell NJ -- proactive planning and premium material options for estate homes approaching end of roof life.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

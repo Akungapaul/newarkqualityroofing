@@ -4,7 +4,7 @@ export const glenRidgeRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'glen-ridge',
   overview: [
-    'Roof waterproofing in Glen Ridge addresses the moisture management challenges inherent in maintaining century-old homes beneath one of Essex County\'s densest tree canopies. The borough\'s Victorian and Edwardian homes were built with waterproofing strategies appropriate to their era -- slate and copper as primary barriers, tar-based flashings at penetrations, and natural drainage via steep pitch -- but these systems deteriorate over decades of service, creating moisture pathways that threaten the irreplaceable historic materials and structures they were designed to protect.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Glen Ridge — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Glen Ridge addresses the moisture management challenges inherent in maintaining century-old homes beneath one of Essex County\'s densest tree canopies. The borough\'s Victorian and Edwardian homes were built with waterproofing strategies appropriate to their era -- slate and copper as primary barriers, tar-based flashings at penetrations, and natural drainage via steep pitch -- but these systems deteriorate over decades of service, creating moisture pathways that threaten the irreplaceable historic materials and structures they were designed to protect.',
     'Modern waterproofing technology provides Glen Ridge homeowners with protection layers that original builders could not have imagined. Self-adhering ice-and-water shield membranes applied beneath roofing materials create a secondary waterproof barrier at the most vulnerable locations: eaves where ice dams form, valleys where water concentrates, and around penetrations where flashing failure would otherwise admit water directly into the roof structure. These concealed waterproofing layers add critical protection without any visible change to the home\'s exterior appearance -- an approach perfectly aligned with Glen Ridge\'s [historic preservation](/historic-roof-restoration-glen-ridge-nj) priorities.',
     'Waterproofing flat and low-slope sections on Glen Ridge buildings demands particular attention because these surfaces collect the extraordinary debris load deposited by the borough\'s mature trees. Leaves, twigs, and organic matter create micro-dams that trap water against roofing surfaces, testing the waterproof integrity of every seam and penetration. Our waterproofing specifications for Glen Ridge flat-roof sections include fully adhered membrane systems with reinforced seam details designed to withstand the persistent ponding that organic debris accumulation creates beneath the canopy.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeRoofWaterproofing: ComboContent = {
       question: 'Is roof waterproofing visible from the outside of my Glen Ridge home?',
       answer: 'No. All waterproofing membranes are installed beneath the visible roofing material. Ice-and-water shield, synthetic underlayment, and flat-roof membranes are concealed by the final roofing surface. The waterproofing layer is invisible but provides critical protection for the roof structure and interior spaces below.',
     },
+    {
+      question: 'How much does roof waterproofing cost in Glen Ridge, NJ?',
+      answer: 'Most roof waterproofing projects in Glen Ridge range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Glen Ridge NJ. Ice-and-water shield and membrane solutions beneath historic slate, cedar, and shingle roofs.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

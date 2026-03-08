@@ -4,7 +4,7 @@ export const veronaFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'verona',
   overview: [
-    'Flat roof systems in Verona serve a specific but important segment of the township\'s building stock. The Bloomfield Avenue commercial corridor that runs through Verona\'s southern edge features retail storefronts, small office buildings, and mixed-use structures that rely on flat or low-slope membrane roofing for weather protection. Beyond commercial applications, many Verona split-levels include low-pitch sections over garages, sunrooms, and additions where traditional shingles cannot perform adequately, making flat roof membrane systems the appropriate material choice for these residential transitions.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Verona — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof systems in Verona serve a specific but important segment of the township\'s building stock. The Bloomfield Avenue commercial corridor that runs through Verona\'s southern edge features retail storefronts, small office buildings, and mixed-use structures that rely on flat or low-slope membrane roofing for weather protection. Beyond commercial applications, many Verona split-levels include low-pitch sections over garages, sunrooms, and additions where traditional shingles cannot perform adequately, making flat roof membrane systems the appropriate material choice for these residential transitions.',
     'Newark Quality Roofing installs TPO, EPDM, and modified bitumen flat roof systems across Verona, matching the membrane type to the specific application. Commercial properties along Bloomfield Avenue benefit from TPO\'s reflective surface and heat-welded seam integrity, while residential low-pitch sections often warrant EPDM\'s flexibility and simpler installation profile. Our [flat roof](/flat-roof-installation-repair) expertise spans the full range of membrane technologies, and we guide Verona property owners toward the system that delivers the best performance for their specific building geometry and budget.',
     'The intersection of flat and pitched roofing on Verona homes creates unique detailing challenges at transition points. Where a flat garage roof meets the main house wall, or where a sunroom addition connects to the original split-level structure, the membrane-to-shingle transition demands precise flashing integration that prevents water from migrating between the two systems. Homeowners in neighboring [Montclair](/flat-roof-installation-repair-montclair-nj) deal with similar mixed-system transitions on their older homes, though Verona\'s split-level predominance creates more frequent and geometrically complex connection points.'
   ],
@@ -34,7 +34,25 @@ export const veronaFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'What causes bubbles in the flat roof on my Bloomfield Avenue commercial building?',
       answer: 'Blistering in flat roof membranes results from moisture trapped beneath the membrane that vaporizes when heated by sun exposure. The vapor pressure lifts the membrane away from the substrate, creating visible bubbles. Common causes include installation over damp insulation, inadequate vapor barriers, and residual moisture in the deck from a previous leak. Small blisters can be cut, dried, and patched in place. Widespread blistering indicates a systemic moisture problem that may require partial or full membrane replacement with proper vapor barrier installation.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in Verona, NJ?',
+      answer: 'Most flat roof installation repair projects in Verona range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Verona NJ -- TPO, EPDM, and modified bitumen for commercial buildings and split-level low-pitch sections.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

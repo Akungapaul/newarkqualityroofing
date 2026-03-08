@@ -4,7 +4,7 @@ export const livingstonAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Aging roof replacement addresses the planned end-of-life transition on Livingston homes where the existing roofing system has delivered its expected service but now approaches the failure threshold where leaks, energy loss, and cosmetic deterioration accelerate simultaneously. This planned replacement -- rather than emergency response to sudden failure -- gives Livingston homeowners control over timing, material selection, budget planning, and contractor scheduling that reactive replacement does not allow.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Livingston — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement addresses the planned end-of-life transition on Livingston homes where the existing roofing system has delivered its expected service but now approaches the failure threshold where leaks, energy loss, and cosmetic deterioration accelerate simultaneously. This planned replacement -- rather than emergency response to sudden failure -- gives Livingston homeowners control over timing, material selection, budget planning, and contractor scheduling that reactive replacement does not allow.',
     'Livingston\'s construction timeline creates predictable replacement waves. Homes built in the 1960s and 1970s that were re-roofed in the mid-1990s to early 2000s now carry shingle systems approaching or exceeding their 25-to-30 year warranty periods. The architectural shingles of that era have performed well but are showing the age-related symptoms -- granule loss in gutters, shingle edge curling, color fading, and occasional wind-lifted tabs -- that signal the final years of reliable service.',
     'Our [aging roof replacement](/aging-roof-replacement) approach in Livingston converts the end-of-life transition into a whole-home improvement opportunity. The new roof system addresses not just the worn shingles but the ventilation inadequacies, insulation gaps, and flashing deterioration that have accumulated over the previous roof\'s service life. Homeowners in [South Orange](/aging-roof-replacement-south-orange-nj) manage similar aging replacement timelines on their comparable-vintage suburban housing stock.',
     'Proactive replacement before failure occurs prevents the water damage, emergency scheduling pressure, and limited-option decision-making that reactive replacement forces on homeowners. Livingston families who plan replacement 12 to 18 months before the roof reaches its failure point can optimize timing for favorable weather, secure preferred contractors, coordinate companion projects, and navigate HOA approvals without urgency.'
@@ -35,7 +35,25 @@ export const livingstonAgingRoofReplacement: ComboContent = {
     {
       question: 'Is financing available for aging roof replacement in Livingston?',
       answer: 'We work with financing partners who offer home improvement loans for Livingston roofing projects. Financing options include fixed-rate loans with terms from five to fifteen years, allowing homeowners to replace their aging roof without depleting savings or competing with other planned improvements. We provide financing information during the consultation so homeowners can evaluate the investment on terms that fit their financial planning.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Livingston, NJ?',
+      answer: 'Most aging roof replacement projects in Livingston range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Livingston NJ -- planned end-of-life transition for split-levels with ventilation upgrades and proactive scheduling.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const newarkEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'newark',
   overview: [
-    'EPDM rubber membrane has earned its reputation on Newark\'s industrial and commercial buildings through decades of proven performance in conditions that punish lesser materials. The Ironbound district alone contains hundreds of warehouse and light-industrial buildings wearing EPDM roofs installed in the 1980s and 1990s that are still performing -- a testament to the material\'s extraordinary durability when properly installed and maintained. For Newark property owners managing buildings in the industrial corridors near Port Newark, along Doremus Avenue, and throughout the Ironbound, EPDM remains the workhorse membrane that delivers reliable waterproofing without demanding constant attention.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Newark — with prices starting from $6–$11/sq ft and free estimates available today. EPDM rubber membrane has earned its reputation on Newark\'s industrial and commercial buildings through decades of proven performance in conditions that punish lesser materials. The Ironbound district alone contains hundreds of warehouse and light-industrial buildings wearing EPDM roofs installed in the 1980s and 1990s that are still performing -- a testament to the material\'s extraordinary durability when properly installed and maintained. For Newark property owners managing buildings in the industrial corridors near Port Newark, along Doremus Avenue, and throughout the Ironbound, EPDM remains the workhorse membrane that delivers reliable waterproofing without demanding constant attention.',
     'The chemical resistance of EPDM makes it uniquely suited to Newark\'s industrial landscape. Buildings adjacent to chemical storage facilities, food processing operations in the Ironbound, and manufacturing sites along the Passaic River face airborne chemical exposure that degrades many roofing materials. EPDM\'s synthetic rubber composition shrugs off ozone, UV radiation, and the acidic particulates that settle on roofs in Newark\'s industrial zones. This chemical indifference is why EPDM continues to dominate the roofing specification on industrial buildings near Port Newark, where salt air, diesel exhaust, and chemical vapors create a corrosive atmospheric cocktail.',
     'For facility directors managing large-footprint buildings, EPDM offers an installation advantage that directly affects project cost and timeline. The membrane is manufactured in sheets up to 50 feet wide and 200 feet long, allowing crews to cover vast warehouse roofs with fewer seams than any competing single-ply system. Fewer seams mean fewer potential leak points and faster installation -- critical factors for Newark logistics buildings and distribution centers where every day of roofing work means coordinated disruption to loading dock operations and inventory protection protocols.',
     'The lifecycle economics of EPDM favor long-term Newark building owners. While TPO and PVC offer reflective surfaces and slightly lower initial costs, EPDM\'s 30-to-40-year proven track record in Newark\'s climate means fewer replacement cycles over a building\'s life. For industrial building owners planning to hold properties for decades rather than flip them, EPDM\'s durability delivers the lowest total cost of ownership. The material also accepts coatings later in life -- a white acrylic coating over aged EPDM can add reflectivity and extend service life by another 10 to 15 years without a full replacement.'
@@ -35,7 +35,25 @@ export const newarkEpdmCommercialRoofing: ComboContent = {
     {
       question: 'What maintenance does an EPDM roof require on a Newark commercial building?',
       answer: 'EPDM maintenance on Newark commercial buildings should include annual professional inspections, semi-annual drain clearing, and prompt repair of any punctures or seam separations. The inspection focuses on seam adhesion -- particularly at penetration flashings and perimeter terminations where thermal movement concentrates stress -- and membrane condition in ponding areas. We also check sealant at pipe boots and equipment curbs, which typically needs replacement every 7 to 10 years in Newark\'s climate. For industrial buildings with heavy rooftop equipment, we inspect walk pads and equipment supports for membrane wear beneath them.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Newark, NJ?',
+      answer: 'Most epdm commercial roofing projects in Newark range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing for Newark NJ industrial and warehouse buildings -- chemical-resistant rubber membrane for Ironbound and Port Newark properties.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

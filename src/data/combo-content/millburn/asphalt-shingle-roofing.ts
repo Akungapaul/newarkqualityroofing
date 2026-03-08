@@ -4,7 +4,7 @@ export const millburnAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'millburn',
   overview: [
-    'Asphalt shingle selection in Millburn operates in an entirely different market than neighboring municipalities. Homeowners along Hobart Gap Road, in the Wyoming section, and throughout the Glenwood neighborhood are not choosing between three-tab and architectural shingles -- that decision was settled a generation ago in favor of premium architectural lines. The conversation here centers on designer collections: CertainTeed Grand Manor, GAF Grand Sequoia, Owens Corning Berkshire -- heavyweight shingles that replicate the dimensional profile of natural wood shakes or slate at a fraction of the installed cost and maintenance burden. These luxury lines deliver the visual weight and shadow depth that Millburn\'s architect-designed homes demand.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Millburn — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle selection in Millburn operates in an entirely different market than neighboring municipalities. Homeowners along Hobart Gap Road, in the Wyoming section, and throughout the Glenwood neighborhood are not choosing between three-tab and architectural shingles -- that decision was settled a generation ago in favor of premium architectural lines. The conversation here centers on designer collections: CertainTeed Grand Manor, GAF Grand Sequoia, Owens Corning Berkshire -- heavyweight shingles that replicate the dimensional profile of natural wood shakes or slate at a fraction of the installed cost and maintenance burden. These luxury lines deliver the visual weight and shadow depth that Millburn\'s architect-designed homes demand.',
     'Color coordination on Millburn properties requires a design-centric approach absent from standard shingle installations. A Tudor revival in Wyoming may need a shingle that complements exposed timber framing, stucco infill, and copper accents simultaneously. A Colonial in South Mountain must harmonize its roof color with painted clapboard siding, a stone foundation, and shutters in a contrasting accent. We bring large-format color boards to every consultation and recommend viewing samples on the actual roof plane under both morning and afternoon light -- a step that matters enormously on Millburn homes where the roof is a prominent architectural element visible from the street, not a hidden surface above a flat suburban ranch.',
     'The structural characteristics of Millburn homes support premium shingle installations that would overload lighter building stock. Estate-class framing with oversized rafters and closely spaced structural members can carry the additional weight of designer shingles that run 400 to 480 pounds per square -- nearly double the weight of standard architectural shingles. This structural capacity opens the full designer product range to Millburn homeowners without the deck reinforcement that would be required on lighter-framed construction. We verify structural adequacy during our pre-installation assessment and specify shingle weight accordingly.',
     'Property value dynamics in Millburn make shingle selection a financial decision as well as an aesthetic one. A Short Hills home entering the market with a visibly economy-grade roof faces buyer skepticism about what other maintenance the seller may have deferred. Conversely, a premium designer shingle installation with a documented fifty-year warranty signals investment quality that supports the asking price. Our specifications for Millburn installations emphasize the highest-tier products with transferable lifetime warranties precisely because the roofing material contributes to the property\'s market narrative in this ultra-competitive real estate market.'
@@ -35,7 +35,25 @@ export const millburnAsphaltShingleRoofing: ComboContent = {
     {
       question: 'How do you handle color selection for homes with complex material palettes?',
       answer: 'We bring large-format sample boards to the property and view them against the existing siding, masonry, trim, and hardscape in natural daylight. We photograph samples on the roof plane at different times of day because sunlight angle dramatically affects how shingle colors read against surrounding materials. For homes where an architect is involved, we provide samples to their office for review against the broader design specification. We never select shingle color from a brochure or website image -- screen and print colors are unreliable, and the investment scale of a Millburn roof demands in-person material evaluation on the actual property.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roofing cost in Millburn, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Millburn range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Designer asphalt shingle roofing for Millburn and Short Hills homes. Grand Manor, Grand Sequoia, and Berkshire lines with architect-grade color coordination.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

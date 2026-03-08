@@ -4,7 +4,7 @@ export const montclairRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'montclair',
   overview: [
-    'Roof leaks in Montclair follow patterns dictated by the township\'s architectural diversity, and diagnosing them requires understanding how each building era\'s design creates specific water entry pathways. A Victorian mansard roof leaks through corroded standing-seam joints and failed step flashing at dormer faces. A Tudor Revival home leaks where the half-timber wall panels meet complex roof intersections, with water migrating through concealed timber channels to emerge in rooms far from the actual penetration point. An Arts & Crafts bungalow leaks at the broad eave-to-wall transitions where bracket-supported overhangs create flashing geometries that age faster than the surrounding roof surface. Treating these leaks effectively means treating the architecture, not just the symptom.',
+    'Newark Quality Roofing delivers expert roof leak repair in Montclair — with prices starting from $300–$1,200 and free estimates available today. Roof leaks in Montclair follow patterns dictated by the township\'s architectural diversity, and diagnosing them requires understanding how each building era\'s design creates specific water entry pathways. A Victorian mansard roof leaks through corroded standing-seam joints and failed step flashing at dormer faces. A Tudor Revival home leaks where the half-timber wall panels meet complex roof intersections, with water migrating through concealed timber channels to emerge in rooms far from the actual penetration point. An Arts & Crafts bungalow leaks at the broad eave-to-wall transitions where bracket-supported overhangs create flashing geometries that age faster than the surrounding roof surface. Treating these leaks effectively means treating the architecture, not just the symptom.',
     'Montclair\'s tree canopy contributes to leak formation through mechanisms that operate over months and years rather than during single storm events. Accumulated organic debris in valleys and behind penetrations holds moisture against roof surfaces through continuous wicking action, degrading underlayment and creating pinhole corrosion in flashing. Moss colonies on shaded slopes lift shingle edges and slate courses through root penetration, creating water entry points that admit rain laterally rather than through obvious surface breaks. These slow-acting, canopy-driven leak sources are the most common reason Montclair homeowners call for [roof leak repair](/roof-leak-repair) -- leaks that appear during moderate rain when the gradual damage finally completes a water pathway.',
     'Ice dam leaks represent a seasonal crisis specific to Montclair\'s elevated microclimate and older housing stock. The township sits higher and colder than the valley communities to the east, and its pre-war homes were built before modern insulation and ventilation standards existed. Heat escaping through poorly insulated ceilings melts snow on upper roof planes; the meltwater flows to the colder eaves where the tree canopy blocks solar warming, freezes into an ice dam, and backs water up under shingle courses and into wall cavities. These leaks appear far from any obvious roof defect, confounding homeowners who see a perfectly intact roof surface above an actively dripping ceiling.'
   ],
@@ -34,7 +34,25 @@ export const montclairRoofLeakRepair: ComboContent = {
     {
       question: 'Is a leak always an emergency, or can it wait?',
       answer: 'Active dripping during rain is urgent because water intrusion causes progressive damage to insulation, drywall, framing, and electrical systems with every rain event. A stain that appeared once and has not grown may indicate a one-time event such as wind-driven rain or ice dam that has since resolved. We recommend scheduling a diagnostic inspection within one week of any new interior water evidence. Delaying beyond that risks additional damage during the next rain event and makes the water trail harder to trace as surfaces dry and the evidence fades.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Montclair, NJ?',
+      answer: 'Most roof leak repair projects in Montclair range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in Montclair NJ -- Tudor migration leaks, Victorian chimney flashing, ice dam solutions, and canopy-driven moisture damage.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

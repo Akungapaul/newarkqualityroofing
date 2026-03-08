@@ -4,7 +4,7 @@ export const veronaGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'verona',
   overview: [
-    'Gutter systems on Verona homes manage the substantial rainfall that northern New Jersey delivers -- 50 inches annually -- routing water from roof surfaces away from foundations, landscaping, and walkways. The township\'s split-level homes create unique gutter configurations where upper-level gutters discharge onto lower roof sections, requiring intermediate collection systems that prevent the concentrated water flow from eroding shingles or overwhelming lower gutters. Newark Quality Roofing designs and installs seamless aluminum gutter systems configured specifically for the multi-level geometry that defines Verona\'s housing stock.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Verona — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems on Verona homes manage the substantial rainfall that northern New Jersey delivers -- 50 inches annually -- routing water from roof surfaces away from foundations, landscaping, and walkways. The township\'s split-level homes create unique gutter configurations where upper-level gutters discharge onto lower roof sections, requiring intermediate collection systems that prevent the concentrated water flow from eroding shingles or overwhelming lower gutters. Newark Quality Roofing designs and installs seamless aluminum gutter systems configured specifically for the multi-level geometry that defines Verona\'s housing stock.',
     'Verona\'s mature tree canopy deposits extraordinary volumes of leaves, seeds, and small branches into gutter troughs throughout the year. Oak leaves arrive in fall, maple seeds helicopter in spring, and small branches accumulate year-round from the dense canopy overhanging most residential streets. This debris load clogs gutters faster in Verona than in less-canopied communities, making gutter design, sizing, and protection critical to long-term performance. Our [gutter installation](/gutter-installation-repair) specifications for Verona homes account for this debris reality from the outset.',
     'Proper gutter function protects Verona homes from foundation damage, basement flooding, and landscape erosion that improper drainage causes. The township\'s rolling terrain means that some properties sit on slopes where concentrated roof runoff accelerates downhill erosion, while valley properties near [Verona Park](/roofing-in-verona-nj) face grade-level saturation that requires carefully routed downspout extensions to direct water away from the foundation perimeter. Every gutter installation we design considers the full drainage path from roofline to final discharge point.'
   ],
@@ -34,7 +34,25 @@ export const veronaGutterInstallationRepair: ComboContent = {
     {
       question: 'How much do new gutters cost on a Verona home?',
       answer: 'Seamless aluminum gutter installation on a typical Verona home ranges from $1,500 to $3,500 depending on linear footage, downspout count, and the complexity of split-level transitions. Six-inch gutters cost approximately 15 to 20 percent more than five-inch, and the added capacity is worth the modest premium in Verona\'s canopy environment. We provide itemized proposals showing the cost per linear foot, downspout charges, and any special transition work required for your specific home.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Verona, NJ?',
+      answer: 'Most gutter installation repair projects in Verona range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Verona NJ -- six-inch seamless gutters for split-level homes with heavy canopy debris management.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

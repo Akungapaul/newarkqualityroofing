@@ -4,7 +4,7 @@ export const montclairResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'montclair',
   overview: [
-    'Residential roof installation in Montclair means building on top of architecture that spans five generations of American housing design, where every material choice and installation detail must honor the home beneath it. The township\'s streetscapes read as a living museum: Queen Anne mansions with octagonal turrets and fish-scale shingle accents beside Tudor Revivals with swooping catslide roofs, Craftsman bungalows with deep rafter-tail eaves alongside Georgian Colonials with symmetrical dormers, and mid-century split-levels with butterfly roof profiles next to contemporary infill with standing-seam metal. Installing a roof in Montclair is an act of architectural stewardship as much as weatherproofing.',
+    'Newark Quality Roofing delivers expert residential roof installation in Montclair — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Montclair means building on top of architecture that spans five generations of American housing design, where every material choice and installation detail must honor the home beneath it. The township\'s streetscapes read as a living museum: Queen Anne mansions with octagonal turrets and fish-scale shingle accents beside Tudor Revivals with swooping catslide roofs, Craftsman bungalows with deep rafter-tail eaves alongside Georgian Colonials with symmetrical dormers, and mid-century split-levels with butterfly roof profiles next to contemporary infill with standing-seam metal. Installing a roof in Montclair is an act of architectural stewardship as much as weatherproofing.',
     'New construction installations on Montclair\'s remaining buildable lots and tear-down-rebuild sites face strict architectural review from the township\'s planning board. The board evaluates roof form, pitch, material, and color for compatibility with the surrounding streetscape, and has rejected proposals that introduced roof profiles or materials inconsistent with the neighborhood\'s character. Our new construction specifications for Montclair anticipate this review process, presenting material and profile options that satisfy both the architect\'s design vision and the board\'s compatibility expectations. This front-end alignment prevents costly redesigns after a planning board rejection.',
     'Re-roofing installations on existing Montclair homes must navigate the combined constraints of historic character, structural capacity, and environmental exposure. A Victorian home converting from failed original slate to architectural shingle requires structural assessment of the lighter live load, HPC review if the property is designated, and material selection that complements rather than diminishes the home\'s architectural presence. Homeowners in neighboring [Glen Ridge](/residential-roof-installation-glen-ridge-nj) face identical HPC constraints on their own Victorian and Colonial housing stock. Our consultations present the full option spectrum -- from in-kind slate replacement to premium shingle conversion -- with honest evaluation of how each choice affects the home\'s character and long-term value.'
   ],
@@ -34,7 +34,25 @@ export const montclairResidentialRoofInstallation: ComboContent = {
     {
       question: 'Can I install solar panels as part of my new Montclair roof?',
       answer: 'Yes. We coordinate with solar installers to integrate panel mounting infrastructure into the roof installation, which is more efficient and less risky than adding solar to an existing roof later. The roof membrane or shingle field is installed with penetration-free mounting points or reinforced areas at planned panel locations. For HPC-designated properties, solar panel placement may require Commission review if the panels are visible from the public right-of-way. We advise on placement options that satisfy both energy goals and historic preservation requirements.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in Montclair, NJ?',
+      answer: 'Most residential roof installation projects in Montclair range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in Montclair NJ -- architectural matching for Victorians, Tudors, and mid-century homes with HPC coordination.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

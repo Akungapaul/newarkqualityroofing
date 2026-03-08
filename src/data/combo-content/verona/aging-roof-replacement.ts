@@ -4,7 +4,7 @@ export const veronaAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Aging roof replacement in Verona addresses the proactive decision to replace a roof that has reached the end of its rated lifespan before active leaking begins. The split-level homes built during Verona\'s 1960s and 1970s construction boom are now on their second or third roof, and homeowners watching shingles curl, granules accumulate in gutters, and valleys darken with algae growth face the question of timing. Replacing before failure prevents the water damage, emergency costs, and interior disruption that waiting for leaks inevitably produces.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Verona — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Verona addresses the proactive decision to replace a roof that has reached the end of its rated lifespan before active leaking begins. The split-level homes built during Verona\'s 1960s and 1970s construction boom are now on their second or third roof, and homeowners watching shingles curl, granules accumulate in gutters, and valleys darken with algae growth face the question of timing. Replacing before failure prevents the water damage, emergency costs, and interior disruption that waiting for leaks inevitably produces.',
     'Newark Quality Roofing helps Verona homeowners evaluate the remaining useful life of their aging roof and plan replacement timing that aligns with budget, season, and the home\'s specific condition. Some aging roofs have years of serviceable life remaining despite cosmetic deterioration. Others show subtle signs of imminent failure that homeowners may not recognize. Our [aging roof replacement](/aging-roof-replacement) assessment distinguishes between cosmetic aging and functional failure, providing honest guidance about when replacement is urgent versus when monitoring is appropriate.',
     'Planned replacement during favorable season and market conditions gives Verona homeowners advantages that emergency replacement does not: competitive pricing during off-peak periods, full material selection from available inventory, and weather windows that allow thorough, unhurried installation. Homeowners in [Montclair](/aging-roof-replacement-montclair-nj) who planned their replacements during late summer or early fall consistently achieved better pricing and installation quality than those who waited for winter failures.'
   ],
@@ -34,7 +34,25 @@ export const veronaAgingRoofReplacement: ComboContent = {
     {
       question: 'Can I finance an aging roof replacement in Verona?',
       answer: 'We offer financing options through established lending partners that allow Verona homeowners to spread the replacement cost over monthly payments. Terms typically range from 36 to 144 months with competitive interest rates for qualified borrowers. Same-as-cash promotional periods are available on some programs. Financing allows planned replacement at the optimal time rather than deferring until the budget accumulates while the roof continues to deteriorate.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Verona, NJ?',
+      answer: 'Most aging roof replacement projects in Verona range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Verona NJ -- proactive replacement planning for split-level homes before leaks cause interior damage.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

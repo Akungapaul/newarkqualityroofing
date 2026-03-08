@@ -4,7 +4,7 @@ export const orangeRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'orange',
   overview: [
-    'Roof deck repair and replacement addresses the structural foundation beneath every Orange roofing system. When the plywood, OSB, or plank sheathing that supports shingles and membranes deteriorates from moisture damage, age, or structural stress, the roofing material above it loses its structural substrate and begins to fail -- sagging between rafters, cracking at unsupported spans, and allowing water to pool where the deck has deflected. Our [roof deck repair and replacement](/roof-deck-repair-replacement) work in Orange restores the flat, solid, and dry substrate that every roofing material requires to perform to its design specification.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Orange — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement addresses the structural foundation beneath every Orange roofing system. When the plywood, OSB, or plank sheathing that supports shingles and membranes deteriorates from moisture damage, age, or structural stress, the roofing material above it loses its structural substrate and begins to fail -- sagging between rafters, cracking at unsupported spans, and allowing water to pool where the deck has deflected. Our [roof deck repair and replacement](/roof-deck-repair-replacement) work in Orange restores the flat, solid, and dry substrate that every roofing material requires to perform to its design specification.',
     'Orange\'s housing stock concentrates deck deterioration in predictable patterns based on building age and neighborhood conditions. Pre-1960 homes often have original skip sheathing -- spaced 1x6 boards that provide adequate support for slate and wood shingle installations but are insufficient for modern asphalt shingle systems. These skip-sheathed roofs must be over-sheathed with plywood before new roofing can be installed. Valley homes develop deck rot from below when attic moisture condenses on cold sheathing in winter. Mountain-adjacent properties show deck damage at locations where branch impacts have cracked sheathing and allowed water entry.',
     'Commercial buildings along Main Street and Mitchell Street present deck challenges at a larger scale. Structural steel decks with decades of ponding water exposure develop corroded fastener points that compromise membrane attachment. Concrete decks on older commercial buildings show spalling and surface deterioration that prevents proper adhesion of new membrane or insulation. Our commercial deck assessment identifies these substrate conditions before new roofing is specified, because installing quality membrane over a deteriorated deck is an expensive mistake that guarantees premature failure. Similar commercial deck assessments guide [Newark](/roof-deck-repair-replacement-newark-nj) warehouse re-roofing decisions.'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Why does my Orange home have skip sheathing instead of plywood?',
       answer: 'Skip sheathing was standard construction practice before plywood became widely available in the 1950s. The spaced boards were designed to support slate and wood shingle roofing that bridged the gaps. When these homes are re-roofed with modern asphalt shingles, the skip sheathing must be over-sheathed with plywood to provide the continuous support surface that shingle nailing and performance require.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Orange, NJ?',
+      answer: 'Most roof deck repair replacement projects in Orange range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Orange NJ -- plywood sheathing, skip sheathing overlay, Valley moisture rot, and structural rafter reinforcement.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

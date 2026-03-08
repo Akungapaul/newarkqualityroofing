@@ -4,7 +4,7 @@ export const roselandReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'roseland',
   overview: [
-    'Re-roofing in Roseland encompasses the full scope of roof system replacement -- from material selection and structural assessment through installation and warranty documentation. Whether approached as tear-off-and-replace or as overlay installation, re-roofing provides the opportunity to upgrade material quality, improve ventilation, enhance energy efficiency, and correct the accumulated deficiencies that aging roof systems develop over decades of service. Our [re-roofing](/re-roofing) service guides Roseland homeowners through each decision point with transparent options and honest recommendations.',
+    'Newark Quality Roofing delivers expert re roofing in Roseland — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Roseland encompasses the full scope of roof system replacement -- from material selection and structural assessment through installation and warranty documentation. Whether approached as tear-off-and-replace or as overlay installation, re-roofing provides the opportunity to upgrade material quality, improve ventilation, enhance energy efficiency, and correct the accumulated deficiencies that aging roof systems develop over decades of service. Our [re-roofing](/re-roofing) service guides Roseland homeowners through each decision point with transparent options and honest recommendations.',
     'The timing of re-roofing decisions on Roseland homes depends on measurable condition indicators rather than arbitrary age thresholds. A 20-year-old roof in good condition with well-maintained flashings and adequate ventilation may have several years of remaining life, while a 15-year-old roof with chronic leak issues, poor ventilation, and granule loss may be ready for replacement. Our assessment evaluates shingle condition, flashing integrity, ventilation adequacy, and deck stiffness to recommend timing based on actual conditions rather than general life-expectancy estimates.',
     'Material upgrade opportunities during re-roofing give Roseland homeowners options that did not exist when their current roof was installed. Impact-resistant shingles with Class 4 hail ratings, cool-roof formulations with enhanced infrared reflectivity, and synthetic underlayments with superior tear resistance represent genuine performance improvements over the products installed 20 to 30 years ago. Our re-roofing consultations present these options with comparative performance data and cost-benefit analysis. Homeowners in [South Orange](/re-roofing-south-orange-nj) and throughout Essex County evaluate the same upgrade options during their re-roofing decisions.'
   ],
@@ -34,7 +34,25 @@ export const roselandReRoofing: ComboContent = {
     {
       question: 'Can I stay in my home during re-roofing?',
       answer: 'Yes, most homeowners remain in their homes during re-roofing. The primary inconvenience is noise from tear-off and nailing, which is concentrated during work hours. We advise planning activities away from home during the noisiest phases of the project. Interior areas directly beneath the work zone may experience vibration and occasional dust. Pets that are sensitive to noise may benefit from temporary relocation during work hours.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Roseland, NJ?',
+      answer: 'Most re roofing projects in Roseland range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Roseland NJ -- complete roof system replacement with material upgrades and ventilation improvement for residential homes.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

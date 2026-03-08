@@ -4,7 +4,7 @@ export const caldwellReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'caldwell',
   overview: [
-    'Re-roofing in Caldwell encompasses the full scope of roof system renewal -- from the decision-making process through material selection, structural preparation, installation, and final inspection. Whether the project involves full tear-off or permitted overlay, the re-roofing milestone represents the most significant exterior investment most Caldwell homeowners make during their ownership tenure. The borough\'s colonial and cape cod homes, many approaching or exceeding their second roof system lifespan, present re-roofing decisions shaped by decades of material advances, energy code evolution, and building science understanding that did not exist when their previous roofs were installed.',
+    'Newark Quality Roofing delivers expert re roofing in Caldwell — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Caldwell encompasses the full scope of roof system renewal -- from the decision-making process through material selection, structural preparation, installation, and final inspection. Whether the project involves full tear-off or permitted overlay, the re-roofing milestone represents the most significant exterior investment most Caldwell homeowners make during their ownership tenure. The borough\'s colonial and cape cod homes, many approaching or exceeding their second roof system lifespan, present re-roofing decisions shaped by decades of material advances, energy code evolution, and building science understanding that did not exist when their previous roofs were installed.',
     'Caldwell\'s re-roofing season concentrates in the spring-through-fall window when temperature and moisture conditions support proper shingle installation. Asphalt shingles require temperatures above forty degrees Fahrenheit for the self-sealing adhesive strips to activate, and above-freezing temperatures for proper nail gun operation and worker safety on pitched surfaces. This seasonal constraint creates scheduling demand that Caldwell homeowners should plan for -- contacting contractors in winter for spring-summer installation avoids the backlog that develops when everyone calls at the first sign of roof trouble in March.',
     'Our [re-roofing](/re-roofing) approach for [Caldwell](/roofing-in-caldwell-nj) treats the project as a system upgrade rather than a material swap. Beyond installing new shingles, the re-roofing scope includes ventilation assessment and improvement, ice-and-water shield installation at all code-required locations, drip edge renewal, flashing replacement at valleys and wall transitions, and deck inspection and repair. Each of these components contributes to a roof system that outperforms the one it replaces by a margin that mere material improvement cannot achieve alone. Homeowners in [North Caldwell](/re-roofing-north-caldwell-nj) and [Roseland](/re-roofing-roseland-nj) follow similar system-level re-roofing approaches.'
   ],
@@ -34,7 +34,25 @@ export const caldwellReRoofing: ComboContent = {
     {
       question: 'Should I get multiple estimates for re-roofing in Caldwell?',
       answer: 'We recommend obtaining three estimates from contractors with verifiable credentials, insurance, and local references. Compare scope, not just price -- ensure each estimate includes the same components: tear-off versus overlay, underlayment type, ice-and-water shield placement, ventilation work, and flashing details. The lowest price may omit elements that higher bids include. We welcome comparison because our proposals specify every component transparently, giving homeowners a clear basis for evaluating competing bids.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Caldwell, NJ?',
+      answer: 'Most re roofing projects in Caldwell range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Caldwell NJ -- complete roof system renewal for colonials with material selection, ventilation upgrades, and deck repair.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

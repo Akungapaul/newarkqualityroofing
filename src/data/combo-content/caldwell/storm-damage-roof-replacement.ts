@@ -4,7 +4,7 @@ export const caldwellStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Storm damage roof replacement in Caldwell addresses the complete roof system failures that severe weather events produce -- situations where the damage is too extensive for repair to restore adequate protection. When a major limb crashes through the roof structure, when sustained high winds strip shingles from multiple elevations, or when severe hail compromises shingle integrity across the entire roof surface, replacement becomes the appropriate response over the piecemeal repairs that would leave the Caldwell homeowner with a patchwork roof of diminished reliability.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Caldwell — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Caldwell addresses the complete roof system failures that severe weather events produce -- situations where the damage is too extensive for repair to restore adequate protection. When a major limb crashes through the roof structure, when sustained high winds strip shingles from multiple elevations, or when severe hail compromises shingle integrity across the entire roof surface, replacement becomes the appropriate response over the piecemeal repairs that would leave the Caldwell homeowner with a patchwork roof of diminished reliability.',
     'Caldwell\'s tree canopy makes the borough particularly vulnerable to storm damage that exceeds repair scope. A single large oak limb can weigh several hundred pounds and cause structural penetration damage across multiple rafter bays, breaking sheathing, displacing framing, and crushing everything from ridge to eave along its fall path. This scale of damage requires structural rebuilding followed by complete roof system installation -- not the targeted repair that smaller branch impacts warrant. Our [storm damage roof replacement](/storm-damage-roof-replacement) capability for [Caldwell](/roofing-in-caldwell-nj) includes the structural reconstruction that severe impacts demand.',
     'The emotional urgency following severe storm damage in Caldwell must be balanced against the practical steps that produce the best outcome. Rushing into replacement without proper damage documentation jeopardizes insurance coverage. Selecting a contractor during the stress of an emergency favors whoever is available rather than whoever is qualified. Our approach guides Caldwell homeowners through the sequence -- emergency stabilization first, thorough damage documentation second, insurance claim support third, and planned replacement fourth -- to ensure the best financial and construction outcome. Homeowners in [Bloomfield](/storm-damage-roof-replacement-bloomfield-nj) and [Montclair](/storm-damage-roof-replacement-montclair-nj) follow the same measured approach after severe weather events.'
   ],
@@ -34,7 +34,25 @@ export const caldwellStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Should I get my Caldwell roof inspected after every major storm?',
       answer: 'We recommend professional inspection after storms producing sustained winds above fifty miles per hour, hail exceeding half-inch diameter, or any storm that drops tree limbs in your neighborhood. Minor storms rarely produce roof damage on well-maintained Caldwell homes, but severe events can cause damage invisible from the ground -- cracked shingles, displaced flashing, loosened ridge cap. Early detection prevents the secondary damage that develops when storm damage goes undetected through subsequent rain events.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Caldwell, NJ?',
+      answer: 'Most storm damage roof replacement projects in Caldwell range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Caldwell NJ -- emergency stabilization, insurance coordination, and full replacement after severe weather events.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

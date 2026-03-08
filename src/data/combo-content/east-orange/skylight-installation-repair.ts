@@ -4,7 +4,7 @@ export const eastOrangeSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'east-orange',
   overview: [
-    'Skylight installation and repair in East Orange serves two distinct property segments: owner-occupied homes in the Ampere and Elmwood Park neighborhoods where skylights bring natural light into upper-floor living spaces, and multi-family rental buildings where landlords install skylights to improve the habitability and rental appeal of top-floor units that often feel cramped beneath steep Victorian roof slopes. In both cases, [skylight](/skylight-installation-repair) work on East Orange buildings requires careful attention to the waterproofing integration between the skylight frame and the surrounding roof surface -- an interface that is the single most common source of skylight-related leaks on the city\'s aged housing stock.',
+    'Newark Quality Roofing delivers expert skylight installation repair in East Orange — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in East Orange serves two distinct property segments: owner-occupied homes in the Ampere and Elmwood Park neighborhoods where skylights bring natural light into upper-floor living spaces, and multi-family rental buildings where landlords install skylights to improve the habitability and rental appeal of top-floor units that often feel cramped beneath steep Victorian roof slopes. In both cases, [skylight](/skylight-installation-repair) work on East Orange buildings requires careful attention to the waterproofing integration between the skylight frame and the surrounding roof surface -- an interface that is the single most common source of skylight-related leaks on the city\'s aged housing stock.',
     'Repair work on existing East Orange skylights frequently reveals installation deficiencies from previous decades when flashing kits were less sophisticated and installation standards were less rigorous. Skylights installed in the 1980s and 1990s on East Orange buildings commonly show deteriorated step flashing, dried-out sealant at frame corners, and condensation damage to surrounding wood framing caused by inadequate insulation around the skylight curb. These repairs address the accumulated damage while upgrading the installation to current standards, providing the property owner with a skylight that performs properly rather than simply patching the latest symptom of an underlying installation problem.',
     'For landlords considering skylight installation on East Orange rental properties, the investment analysis weighs the natural light benefit against the long-term maintenance liability. Skylights on rental buildings receive less attentive maintenance than owner-occupied installations, and a skylight leak in a top-floor apartment creates tenant complaints, potential habitability issues, and repair costs that may exceed the rental premium the skylight commands. We advise East Orange landlords to consider fixed skylights with tempered glass and no-maintenance frames over operable models that add complexity, and to budget for biannual skylight inspection as part of their property maintenance program. Property owners in neighboring [West Orange](/skylight-installation-repair-west-orange-nj) benefit from similar guidance.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeSkylightInstallationRepair: ComboContent = {
     {
       question: 'How long do skylights last before needing replacement on an East Orange home?',
       answer: 'Quality skylights from manufacturers like VELUX last 20 to 30 years with proper maintenance. The flashing system and weatherseals may require attention before the unit itself needs replacement. We recommend biannual exterior inspection and interior condensation monitoring to identify maintenance needs early. When replacement is needed, modern units offer significantly better thermal performance and condensation resistance than skylights installed 20 or more years ago.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in East Orange, NJ?',
+      answer: 'Most skylight installation repair projects in East Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair for East Orange NJ homes -- leak-free flashing, condensation solutions, and Victorian roof skylight upgrades.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

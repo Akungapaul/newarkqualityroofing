@@ -4,7 +4,7 @@ export const westOrangeCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'west-orange',
   overview: [
-    'Cedar shake roofing in West Orange connects the township\'s residential character to its wooded mountain setting, where hand-split cedar complements the natural landscape surrounding South Mountain Reservation and the mature hardwood canopy that defines upper-elevation neighborhoods. Our [cedar shake roofing](/cedar-shake-roofing) installations in West Orange use premium Western red cedar selected for tight grain patterns and natural oil content that resists the moisture retention endemic to shaded, elevation-variable terrain.',
+    'Newark Quality Roofing delivers expert cedar shake roofing in West Orange — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing in West Orange connects the township\'s residential character to its wooded mountain setting, where hand-split cedar complements the natural landscape surrounding South Mountain Reservation and the mature hardwood canopy that defines upper-elevation neighborhoods. Our [cedar shake roofing](/cedar-shake-roofing) installations in West Orange use premium Western red cedar selected for tight grain patterns and natural oil content that resists the moisture retention endemic to shaded, elevation-variable terrain.',
     'The mid-slope neighborhoods along Gregory Avenue and Rock Spring Avenue represent West Orange\'s strongest market for cedar shake installations. Homeowners in these areas often seek roofing materials that harmonize with the township\'s semi-rural character while delivering performance suited to the specific microclimate of their elevation band. Cedar\'s natural insulation properties prove particularly valuable on these mid-slope homes, where winter heating demands exceed valley-floor properties but fall below the extreme exposure of ridge-top locations.',
     'Eagle Rock and St. Cloud area estates have maintained cedar shake traditions dating to the original construction of these premium residences. Replacement work on these properties demands architectural-grade shakes with hand-split faces and sawn backs, installed at the historically appropriate 10-inch exposure that preserves the shadow line and dimensional character of the original installation. Neighboring [Verona](/cedar-shake-roofing-verona-nj) shares a similar aesthetic tradition along the Watchung ridge, though West Orange\'s larger estate lots allow more dramatic roof expressions.',
     'Cedar shake selection for West Orange must account for the township\'s elevation-specific moisture dynamics. Valley-floor installations in Pleasant Valley experience prolonged dampness from poor air circulation and shaded conditions, accelerating the biological degradation that shortens cedar life. We specify #1 blue-label shakes with factory-applied preservative treatment for valley installations, while ridge-top properties with superior air circulation and sun exposure can use untreated premium shakes that will dry naturally between weather events.'
@@ -35,7 +35,25 @@ export const westOrangeCedarShakeRoofing: ComboContent = {
     {
       question: 'What is the cost difference between cedar shakes and asphalt shingles in West Orange?',
       answer: 'Cedar shake installation typically costs two to three times more than premium architectural asphalt shingles for a West Orange home. However, cedar provides 30 to 40 years of service life versus 20 to 25 for asphalt, superior natural insulation value that reduces heating and cooling costs, and significantly higher property value contribution. When evaluated on a cost-per-year basis including energy savings and property value impact, cedar shake roofing often delivers comparable or better total value than asphalt over the full lifecycle of the installation.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roofing cost in West Orange, NJ?',
+      answer: 'Most cedar shake roofing projects in West Orange range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roofing in West Orange NJ. Premium hand-split cedar with fire-retardant treatment for mountain homes and wooded estates.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'premium cedar shake with preservative treatment',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

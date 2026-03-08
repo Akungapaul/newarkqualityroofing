@@ -4,7 +4,7 @@ export const westOrangeFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'west-orange',
   overview: [
-    'Flat roof replacement on West Orange homes and commercial buildings installs modern membrane systems with engineered drainage that eliminates the ponding, leaking, and premature failure that aging flat roofs develop as original materials reach the end of their service life. Our [flat roof replacement](/flat-roof-replacement) work addresses the elevation-specific drainage challenges that West Orange\'s terrain creates for horizontal roof surfaces.',
+    'Newark Quality Roofing delivers expert flat roof replacement in West Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement on West Orange homes and commercial buildings installs modern membrane systems with engineered drainage that eliminates the ponding, leaking, and premature failure that aging flat roofs develop as original materials reach the end of their service life. Our [flat roof replacement](/flat-roof-replacement) work addresses the elevation-specific drainage challenges that West Orange\'s terrain creates for horizontal roof surfaces.',
     'Residential flat roof sections on West Orange garages, additions, and sunroom covers typically carry original built-up or roll roofing from mid-century construction that has long exceeded its design life. These aging systems develop chronic leaks at seams, blistering across field areas, and ponding behind deteriorated flashings. Replacement with modern EPDM, TPO, or PVC membrane eliminates these multi-failure-point systems with seamless waterproofing that performs reliably for 25 to 30 years.',
     'Commercial flat roof replacement along Pleasant Valley Way and Eagle Rock Avenue serves building owners whose aging membrane systems have reached the repair-versus-replace tipping point. When repair frequency, wet insulation, and tenant complaints escalate beyond manageable levels, full replacement with modern membrane and upgraded insulation delivers both immediate performance restoration and long-term energy savings. Building owners near [East Orange](/flat-roof-replacement-east-orange-nj) reach the same replacement decision on their own aging commercial flat roofs.',
     'Drainage engineering distinguishes quality flat roof replacement from simple membrane swap on [West Orange](/roofing-in-west-orange-nj) properties. Tapered insulation systems that create positive slope toward drains and scuppers eliminate the ponding that previous flat roof installations tolerated, extending membrane life by decades and preventing the structural loading that standing water imposes on framing designed for drainage, not storage.'
@@ -35,7 +35,25 @@ export const westOrangeFlatRoofReplacement: ComboContent = {
     {
       question: 'Will a new flat roof eliminate my ponding water problem?',
       answer: 'Yes, if the replacement includes tapered insulation creating positive drainage slope. Simply replacing the membrane without correcting the drainage deficiency installs new material over the same ponding conditions that degraded the previous system. We specify tapered insulation on every flat roof replacement to create minimum quarter-inch-per-foot slope toward drains, eliminating the standing water that is the primary cause of premature flat roof failure.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in West Orange, NJ?',
+      answer: 'Most flat roof replacement projects in West Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in West Orange NJ. Modern membrane systems with tapered drainage for garages, additions, and commercial buildings.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

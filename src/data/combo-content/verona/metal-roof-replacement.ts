@@ -4,7 +4,7 @@ export const veronaMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Metal roof replacement in Verona transforms aging shingle roofs into high-performance standing seam or panel systems designed for the next 50 years. Homeowners choosing metal during a replacement project gain wind resistance exceeding 140 mph, elimination of the moss and algae maintenance that Verona\'s canopy environment demands, and energy savings from reflective coatings that reduce cooling costs. The initial investment premium over asphalt shingles pays back through eliminated maintenance, extended service life, and the energy performance that metal delivers year-round.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Verona — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Verona transforms aging shingle roofs into high-performance standing seam or panel systems designed for the next 50 years. Homeowners choosing metal during a replacement project gain wind resistance exceeding 140 mph, elimination of the moss and algae maintenance that Verona\'s canopy environment demands, and energy savings from reflective coatings that reduce cooling costs. The initial investment premium over asphalt shingles pays back through eliminated maintenance, extended service life, and the energy performance that metal delivers year-round.',
     'Verona\'s split-level architecture presents metal roof opportunities that simpler rooflines cannot achieve. The multi-plane geometry of a split-level creates visual interest in standing seam that flat ranch roofs lack -- the panel lines accentuate the level transitions and roof plane intersections that give these homes their architectural character. Our [metal roof replacement](/metal-roof-replacement) designs leverage the split-level geometry as a design asset rather than treating it as a complication.',
     'The color options available in modern metal roofing allow Verona homeowners to complement or refresh their exterior palette during the replacement. Matte finishes in charcoal, bronze, slate, and forest green integrate with the township\'s established earth-tone aesthetic. PVDF (Kynar) coating systems resist fading for 30 years or more, maintaining the color selected at installation throughout the roof\'s service life. Homeowners in [Montclair](/metal-roof-replacement-montclair-nj) have embraced similar standing seam conversions on their architecturally complex Victorian and Tudor homes.'
   ],
@@ -34,7 +34,25 @@ export const veronaMetalRoofReplacement: ComboContent = {
     {
       question: 'Can standing seam metal work on my Verona split-level\'s low-pitch sections?',
       answer: 'Standing seam metal performs well on pitches as low as 1:12 when installed with mechanically-seamed panels and appropriate sealant. Most Verona split-level lower sections range from 3:12 to 5:12, well within the range for standard snap-lock profiles. We verify each plane\'s pitch during measurement and specify the appropriate seam profile -- snap-lock for standard pitches, mechanical-lock for low-pitch sections -- ensuring water-shedding performance matches the geometry.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Verona, NJ?',
+      answer: 'Most metal roof replacement projects in Verona range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Verona NJ -- standing seam conversion for split-level homes with 50-year lifespan and wind resistance.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

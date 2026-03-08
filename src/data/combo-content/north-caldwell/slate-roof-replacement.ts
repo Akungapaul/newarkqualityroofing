@@ -4,7 +4,7 @@ export const northCaldwellSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Slate roof replacement on North Caldwell estates preserves the material that defines the architectural character of the borough\'s most distinguished homes. When an existing slate roof reaches the end of its service life -- typically sixty to one hundred years depending on slate origin -- the replacement decision weighs the substantial investment in new natural slate against the architectural integrity and property value that only genuine slate delivers on these premium properties.',
+    'Newark Quality Roofing delivers expert slate roof replacement in North Caldwell — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement on North Caldwell estates preserves the material that defines the architectural character of the borough\'s most distinguished homes. When an existing slate roof reaches the end of its service life -- typically sixty to one hundred years depending on slate origin -- the replacement decision weighs the substantial investment in new natural slate against the architectural integrity and property value that only genuine slate delivers on these premium properties.',
     'Our [slate roof replacement](/slate-roof-replacement) work on North Caldwell homes sources material from the same quarry regions that supplied the original installations whenever possible. Vermont unfading green, Pennsylvania Peach Bottom, and New York red slate each have distinct characteristics that contribute to the home\'s identity. Matching the replacement to the original maintains the historical and aesthetic continuity that [North Caldwell](/roofing-in-north-caldwell-nj) estate homeowners value and that contributes to the property\'s market distinction.',
     'For homeowners considering alternatives to natural slate, we present synthetic slate products that replicate the appearance at lower weight and cost. These alternatives have their place, but we provide honest assessment of how they compare to natural slate in durability, appearance, and long-term value retention on a North Caldwell estate. The decision is the homeowner\'s, informed by our experience with both materials on comparable properties throughout [Essex County](/slate-roof-replacement-essex-fells-nj).'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellSlateRoofReplacement: ComboContent = {
     {
       question: 'What does slate roof replacement cost on a North Caldwell estate?',
       answer: 'Natural slate replacement is the most expensive residential roofing option, typically costing three to five times more per square foot than premium asphalt shingles. For a North Caldwell estate with 4,000 to 6,000 square feet of roof area, the investment is substantial. The offsetting value is a roof that lasts 100-plus years with minimal maintenance, preserves the home\'s architectural character, and contributes to property values that reflect the material quality.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most slate roof replacement projects in North Caldwell range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in North Caldwell NJ -- quarry-matched natural slate for estate homes with century-scale durability.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

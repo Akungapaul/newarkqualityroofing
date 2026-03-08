@@ -4,7 +4,7 @@ export const irvingtonMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Metal roof replacement provides Irvington homeowners with a permanent roofing solution that eliminates the 25-year replacement cycle that asphalt shingle roofs impose on the township\'s aging housing stock. Our [metal roof replacement](/metal-roof-replacement) installations on Irvington homes deliver 40 to 50-year roof systems that the homeowner will likely never need to replace again -- a compelling proposition for property owners planning to age in place or investors seeking to minimize long-term capital expenditure on their rental portfolios.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Irvington — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement provides Irvington homeowners with a permanent roofing solution that eliminates the 25-year replacement cycle that asphalt shingle roofs impose on the township\'s aging housing stock. Our [metal roof replacement](/metal-roof-replacement) installations on Irvington homes deliver 40 to 50-year roof systems that the homeowner will likely never need to replace again -- a compelling proposition for property owners planning to age in place or investors seeking to minimize long-term capital expenditure on their rental portfolios.',
     'Standing seam metal roofing on Irvington\'s colonials and Cape Cods creates a distinctive appearance that differentiates the property while providing functional superiority over shingle systems. Metal\'s complete resistance to wind uplift, its shedding capability that prevents ice dam formation, and its fire-resistant surface address three of the most common roofing problems on Irvington\'s aging housing stock simultaneously. The premium investment -- typically 2 to 2.5 times the cost of architectural shingles -- is offset by a service life that is 2 to 3 times longer.',
     'Irvington\'s investment property market presents a selective case for metal roofing on properties that the owner plans to hold for 15 or more years. The higher upfront cost creates a longer payback period than shingles, but the elimination of the next replacement cycle makes metal the lower-total-cost option on a 40-year ownership horizon. Landlords in [Maplewood](/metal-roof-replacement-maplewood-nj) specify metal on similar long-hold investment properties where the total-cost-of-ownership calculation favors the premium material.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonMetalRoofReplacement: ComboContent = {
       question: 'What colors are available for metal roofing on Irvington homes?',
       answer: 'Standing seam metal is available in over 30 standard colors with Kynar PVDF finishes that retain color for 30+ years without fading. Popular choices for Irvington colonials include Charcoal Gray, Slate Blue, Forest Green, and Dark Bronze. Custom color matching is available for homeowners seeking specific coordination with existing exterior materials.',
     },
+    {
+      question: 'How much does metal roof replacement cost in Irvington, NJ?',
+      answer: 'Most metal roof replacement projects in Irvington range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Irvington NJ with standing seam panels for 40-50 year performance. Permanent roofing that ends the shingle replacement cycle.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

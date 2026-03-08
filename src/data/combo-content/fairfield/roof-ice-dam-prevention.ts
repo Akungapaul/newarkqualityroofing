@@ -4,7 +4,7 @@ export const fairfieldRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'fairfield',
   overview: [
-    'Ice dam prevention in Fairfield addresses a winter roofing problem that affects homes throughout the township\'s residential neighborhoods, particularly those built during the 1960s through 1980s development boom when energy efficiency standards were minimal and attic insulation was an afterthought. Ice dams form when heat escaping through inadequately insulated attic floors warms the roof deck, melting snow on upper roof planes. The meltwater flows downslope to the colder eave overhang, where it refreezes and builds up a dam of ice that traps subsequent meltwater behind it. This trapped water backs up under shingles and into the building interior, causing ceiling stains, wall damage, and hidden rot that can go undetected for years.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Fairfield — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in Fairfield addresses a winter roofing problem that affects homes throughout the township\'s residential neighborhoods, particularly those built during the 1960s through 1980s development boom when energy efficiency standards were minimal and attic insulation was an afterthought. Ice dams form when heat escaping through inadequately insulated attic floors warms the roof deck, melting snow on upper roof planes. The meltwater flows downslope to the colder eave overhang, where it refreezes and builds up a dam of ice that traps subsequent meltwater behind it. This trapped water backs up under shingles and into the building interior, causing ceiling stains, wall damage, and hidden rot that can go undetected for years.',
     'Fairfield\'s housing stock is particularly susceptible because the builder-standard construction from its primary development era featured minimal attic insulation -- often four to six inches of fiberglass batts with an R-value well below today\'s R-38 to R-49 code requirements -- and inadequate ventilation that traps warm, moist air against the roof deck. The combination of heated living space below, poorly insulated attic floors, and restricted airflow creates the temperature differential that drives ice dam formation. Homes in neighboring [Caldwell](/roof-ice-dam-prevention-caldwell-nj) and [North Caldwell](/roof-ice-dam-prevention-north-caldwell-nj) share similar construction-era vulnerabilities, though each township\'s specific housing types present slightly different prevention challenges.',
     'Our [ice dam prevention](/roof-ice-dam-prevention) approach in Fairfield prioritizes root-cause remediation over symptom treatment. Rather than relying on heat cables that merely manage ice formation at the roof edge, we address the underlying thermal and ventilation deficiencies that cause the problem. Improving attic insulation to code-compliant levels, sealing air leaks around ceiling penetrations, and ensuring adequate soffit-to-ridge ventilation eliminates the temperature differential that produces ice dams in the first place. This systems approach delivers permanent prevention rather than ongoing management of a chronic condition.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldRoofIceDamPrevention: ComboContent = {
     {
       question: 'Can ice dam prevention be done at the same time as roof replacement on my Fairfield home?',
       answer: 'Roof replacement is the ideal time for ice dam prevention work. With the roof surface removed, our crew has direct access to install ice-and-water shield membrane at eaves and valleys, add soffit ventilation baffles at every rafter bay, and verify ridge ventilation adequacy. Insulation and air-sealing work in the attic can be coordinated with the roofing project to address all thermal deficiencies while the roof system is open. Combining these projects saves labor cost and eliminates the need for a separate service visit.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Fairfield, NJ?',
+      answer: 'Most roof ice dam prevention projects in Fairfield range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Fairfield NJ. Root-cause insulation and ventilation solutions for 1960s-1990s homes prone to winter ice dams.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

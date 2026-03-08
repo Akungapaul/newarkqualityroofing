@@ -4,7 +4,7 @@ export const southOrangeBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'south-orange',
   overview: [
-    'Built-up roofing systems on South Orange Village commercial buildings represent the oldest continuous flat-roof technology still in active service. Several commercial structures along South Orange Avenue and institutional buildings associated with Seton Hall University carry BUR assemblies installed decades ago that continue to provide waterproof protection through the redundancy of their multi-layer bitumen-and-fabric construction. Understanding these existing systems -- their strengths, failure modes, and maintenance requirements -- is essential for any roofing contractor serving South Orange\'s commercial property owners.',
+    'Newark Quality Roofing delivers expert built up roofing in South Orange — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems on South Orange Village commercial buildings represent the oldest continuous flat-roof technology still in active service. Several commercial structures along South Orange Avenue and institutional buildings associated with Seton Hall University carry BUR assemblies installed decades ago that continue to provide waterproof protection through the redundancy of their multi-layer bitumen-and-fabric construction. Understanding these existing systems -- their strengths, failure modes, and maintenance requirements -- is essential for any roofing contractor serving South Orange\'s commercial property owners.',
     'The BUR approach -- alternating layers of hot-mopped bitumen and reinforcing felt fabric built up to create a monolithic waterproofing membrane -- predates the single-ply era by generations. Its continued relevance in South Orange rests on the material\'s proven long-term durability, exceptional waterproofing redundancy, and resistance to the foot traffic that commercial rooftop maintenance demands. Property managers who have experienced the 30-plus-year service life of properly installed BUR systems trust the technology even as newer alternatives enter the market.',
     'New BUR installations in [South Orange](/roofing-in-south-orange-nj) serve specific applications where the material\'s unique properties justify its higher installation cost and weight. Buildings requiring maximum puncture resistance beneath heavy rooftop equipment, structures where redundant waterproofing protects irreplaceable contents, and institutional buildings under long-term ownership that values lifecycle cost over initial price all represent appropriate BUR applications in the village.',
     'Our BUR crews maintain the traditional hot-kettle skills and modern cold-applied techniques that this roofing system demands. The declining availability of craftsmen experienced in built-up roofing installation makes qualified BUR service increasingly valuable to South Orange property owners whose buildings carry existing systems that need maintenance, repair, or eventual replacement.'
@@ -35,7 +35,25 @@ export const southOrangeBuiltUpRoofing: ComboContent = {
     {
       question: 'Can you repair my existing BUR roof instead of replacing it?',
       answer: 'Yes, targeted repairs on fundamentally sound BUR systems can extend service life significantly. We repair blistering, cracking, and localized damage by cutting back to sound material and patching with compatible bitumen and fabric layers. When repair locations become extensive or infrared scanning reveals widespread moisture entrapment within the plies, replacement becomes more cost-effective. Our inspection report provides an honest repair-versus-replace recommendation for each building.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in South Orange, NJ?',
+      answer: 'Most built up roofing projects in South Orange range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in South Orange NJ -- traditional multi-layer BUR systems for commercial and institutional flat-roof buildings.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

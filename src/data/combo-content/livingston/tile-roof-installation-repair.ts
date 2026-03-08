@@ -4,7 +4,7 @@ export const livingstonTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'livingston',
   overview: [
-    'Tile roofing in Livingston occupies a distinctive niche within a township dominated by asphalt shingle installations on mid-century split-levels and colonials. The homeowners who choose clay or concrete tile for their Livingston properties are making a deliberate architectural statement -- selecting a material that sets their home apart from the neighborhood standard while delivering a lifespan measured in generations rather than decades. Along Eisenhower Parkway and in the newer developments near Livingston Town Center, Mediterranean-inspired and transitional designs increasingly incorporate tile roofing as a premium exterior element.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Livingston — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Livingston occupies a distinctive niche within a township dominated by asphalt shingle installations on mid-century split-levels and colonials. The homeowners who choose clay or concrete tile for their Livingston properties are making a deliberate architectural statement -- selecting a material that sets their home apart from the neighborhood standard while delivering a lifespan measured in generations rather than decades. Along Eisenhower Parkway and in the newer developments near Livingston Town Center, Mediterranean-inspired and transitional designs increasingly incorporate tile roofing as a premium exterior element.',
     'The structural requirements of tile roofing demand careful engineering attention in Livingston, particularly on the split-level and raised ranch homes where original framing was designed for lightweight asphalt shingles. Concrete tiles weigh eight to twelve pounds per square foot -- three to four times the load of dimensional shingles. Before any tile installation proceeds, we conduct a structural evaluation to determine whether the existing roof framing can bear the additional weight or whether reinforcement is necessary. Homeowners in neighboring [Millburn](/tile-roof-installation-repair-millburn-nj) frequently install tile on their estate-scale homes where framing capacity is less constrained, but Livingston\'s mid-century housing stock requires more careful structural verification.',
     'Our [tile roof installation and repair](/tile-roof-installation-repair) work in Livingston ranges from full installations on new construction and major renovations to targeted repair on existing tile systems. Repair work focuses on replacing cracked or displaced tiles, resealing underlayment around penetrations, and addressing the flashing degradation that occurs at tile-to-wall transitions over time. Each repair preserves the original tile pattern and color profile to maintain the cohesive appearance that makes tile roofing such a compelling aesthetic investment.',
     'HOA communities in Livingston generally welcome tile roofing as a premium material that elevates neighborhood property values, though architectural review committees still require submission of product specifications and color samples before approval. We navigate this process routinely and can advise homeowners on tile profiles and colors that satisfy both their personal preferences and HOA guidelines.'
@@ -35,7 +35,25 @@ export const livingstonTileRoofInstallationRepair: ComboContent = {
     {
       question: 'How long does a tile roof last in the Livingston climate?',
       answer: 'A properly installed tile roof in Livingston lasts 50 to 75 years or longer. The tiles themselves are the most durable element, but the underlayment beneath them typically requires replacement at the 30 to 40 year mark, which involves carefully removing and reinstalling the tiles. This mid-life underlayment replacement is significantly less costly than a full roof replacement and extends the overall system life to match the tile material longevity.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Livingston, NJ?',
+      answer: 'Most tile roof installation repair projects in Livingston range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Livingston NJ -- structural engineering for split-levels, freeze-thaw rated materials, and HOA coordination.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

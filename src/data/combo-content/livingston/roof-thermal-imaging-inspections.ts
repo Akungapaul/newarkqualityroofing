@@ -4,7 +4,7 @@ export const livingstonRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'livingston',
   overview: [
-    'Thermal imaging roof inspections provide Livingston property managers with non-destructive diagnostic data that reveals moisture infiltration, insulation deficiencies, and leak pathways invisible to conventional visual inspection. Infrared cameras detect temperature differentials on the roof surface created by moisture-saturated insulation that retains heat differently than dry insulation, producing thermal maps that pinpoint problem areas with precision unachievable through manual inspection methods.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Livingston — with prices starting from $300–$700 and free estimates available today. Thermal imaging roof inspections provide Livingston property managers with non-destructive diagnostic data that reveals moisture infiltration, insulation deficiencies, and leak pathways invisible to conventional visual inspection. Infrared cameras detect temperature differentials on the roof surface created by moisture-saturated insulation that retains heat differently than dry insulation, producing thermal maps that pinpoint problem areas with precision unachievable through manual inspection methods.',
     'The technology is most valuable on Livingston\'s commercial properties where large roof footprints make comprehensive visual inspection impractical and destructive core sampling at multiple locations is costly. A single thermal imaging survey covers the entire roof surface in hours, identifying every area of moisture intrusion and insulation degradation simultaneously. The resulting thermal map guides targeted repair investment rather than the speculative repair approach that visual inspection alone supports.',
     'Our [roof thermal imaging inspections](/roof-thermal-imaging-inspections) serve Livingston building owners in multiple contexts: pre-purchase due diligence for commercial property transactions, warranty claim documentation for membrane defects, repair planning that targets investment at documented problem areas, and annual monitoring that tracks roof system condition over time. Commercial properties in [Caldwell](/roof-thermal-imaging-inspections-caldwell-nj) utilize thermal imaging for similar diagnostic purposes on their commercial buildings.',
     'Livingston\'s professional office market particularly benefits from thermal imaging because the high-value interior buildouts in medical, legal, and financial offices create outsized damage potential from undetected roof moisture. A thermal survey that identifies wet insulation before it produces a visible ceiling leak prevents the disruption and repair costs that active water intrusion generates in these sensitive commercial environments.'
@@ -35,7 +35,25 @@ export const livingstonRoofThermalImagingInspections: ComboContent = {
     {
       question: 'Will a thermal inspection work on my Livingston building\'s metal roof?',
       answer: 'Thermal imaging is effective on metal roofs with insulation beneath, detecting moisture that has penetrated through seams or fastener points. The metal surface must cool sufficiently after sunset to create the thermal differential between wet and dry zones. Bare metal without insulation does not produce useful thermal signatures because there is no insulation layer to retain moisture and create temperature variation.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Livingston, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Livingston range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Livingston NJ -- infrared moisture detection for commercial offices and retail along Eisenhower Parkway.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

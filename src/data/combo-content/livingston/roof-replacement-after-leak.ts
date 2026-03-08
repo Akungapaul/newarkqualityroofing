@@ -4,7 +4,7 @@ export const livingstonRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'livingston',
   overview: [
-    'Roof replacement after persistent or severe leak damage addresses Livingston homes where the roofing system has failed to the point where repair can no longer restore reliable performance. Recurring leaks at the same locations despite multiple repair attempts, leaks appearing at new locations as the system degrades progressively, and severe water intrusion that has damaged the structural deck beneath the shingles all signal that the roof has crossed the threshold from repairable to replacement-warranted.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Livingston — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after persistent or severe leak damage addresses Livingston homes where the roofing system has failed to the point where repair can no longer restore reliable performance. Recurring leaks at the same locations despite multiple repair attempts, leaks appearing at new locations as the system degrades progressively, and severe water intrusion that has damaged the structural deck beneath the shingles all signal that the roof has crossed the threshold from repairable to replacement-warranted.',
     'Livingston\'s split-level homes are particularly susceptible to chronic leak patterns because the multiple plane intersections create numerous flashing junctions that age simultaneously. A split-level that develops a leak at one step-flashing run likely has deterioration at every step-flashing run of the same vintage, and repairing them individually costs nearly as much as a comprehensive replacement that addresses them all while adding modern waterproofing protection. Our [roof replacement after leak](/roof-replacement-after-leak) approach resolves the entire system rather than chasing individual symptoms.',
     'The interior damage caused by chronic leaks on Livingston homes often exceeds the cost of the roof repair that could have prevented it. Ceiling replacement, wall cavity mold remediation, damaged flooring, and ruined furnishings accumulate costs that make the postponed roof replacement more expensive in total than it would have been as a proactive investment. We help homeowners evaluate the full cost picture -- ongoing repair costs plus interior damage risk versus replacement investment -- to make a financially sound decision.',
     'Post-leak replacement on Livingston homes includes comprehensive deck inspection and repair that corrects the structural damage accumulated from water intrusion. Homes in [Bloomfield](/roof-replacement-after-leak-bloomfield-nj) face comparable post-leak replacement decisions on their aging housing stock, though Livingston\'s split-level complexity typically means more extensive flashing system renewal as part of the replacement scope.'
@@ -35,7 +35,25 @@ export const livingstonRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Will the new roof prevent the same leak pattern from recurring?',
       answer: 'Our post-leak replacement specifically targets the conditions that produced the chronic leak. Enhanced waterproofing membranes, upgraded flashings, improved ventilation, and properly detailed transitions address the systemic failures rather than just covering them with new shingles. The new installation is engineered to prevent the specific failure patterns that the previous system allowed.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Livingston, NJ?',
+      answer: 'Most roof replacement after leak projects in Livingston range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Livingston NJ -- chronic leak resolution with deck repair, mold assessment, and enhanced waterproofing for split-levels.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

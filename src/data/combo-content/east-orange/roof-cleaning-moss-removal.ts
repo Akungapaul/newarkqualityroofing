@@ -4,7 +4,7 @@ export const eastOrangeRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'east-orange',
   overview: [
-    'Moss, algae, and lichen growth on East Orange roofs thrive in the conditions that the city\'s dense multi-family housing creates. Victorian two-families and three-families along tree-lined streets in Elmwood Park and the Doddtown neighborhood sit beneath mature canopies that shade north-facing roof planes for most of the day, creating the cool, damp microclimate where bryophytes establish permanent colonies. The narrow side yards between buildings -- often less than four feet -- trap moisture and restrict airflow across roof surfaces, extending drying times after rain and creating conditions where biological growth accelerates season over season.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in East Orange — with prices starting from $300–$800 and free estimates available today. Moss, algae, and lichen growth on East Orange roofs thrive in the conditions that the city\'s dense multi-family housing creates. Victorian two-families and three-families along tree-lined streets in Elmwood Park and the Doddtown neighborhood sit beneath mature canopies that shade north-facing roof planes for most of the day, creating the cool, damp microclimate where bryophytes establish permanent colonies. The narrow side yards between buildings -- often less than four feet -- trap moisture and restrict airflow across roof surfaces, extending drying times after rain and creating conditions where biological growth accelerates season over season.',
     'For East Orange landlords, roof biological growth is both a property value concern and a functional maintenance issue. A two-family Victorian in the Brick Church area with dark algae streaks running from ridge to eave signals neglect to prospective tenants and reduces curb appeal that affects rental rates. Beyond aesthetics, moss colonies lifting shingle edges allow wind-driven rain beneath the material, and algae-produced acids slowly dissolve the limestone filler in asphalt shingle granules, accelerating the surface degradation that shortens roof service life. Proactive [roof cleaning](/roof-cleaning-moss-removal) recovers appearance and extends the existing roof investment.',
     'The owner-occupied pockets of East Orange -- particularly the well-maintained blocks in the Ampere neighborhood and sections of Elmwood Park -- include homeowners who take pride in property appearance and view biological growth as an eyesore that diminishes their block\'s character. These homeowners often notice the contrast between their cleaned roof and the moss-covered roofs on adjacent rental properties, creating a neighborhood dynamic where [roof cleaning](/roof-cleaning-moss-removal) on one property motivates attention to adjacent buildings. We offer multi-property scheduling discounts that encourage block-wide cleaning efforts.',
     'East Orange\'s garden apartment complexes present a scale opportunity for biological growth treatment. Complexes with ten or twelve buildings sharing a common landscape of mature trees, ground-cover plantings, and minimal sunlight penetration develop widespread moss and algae problems across every building simultaneously. Portfolio treatment of an entire complex in a single mobilization costs significantly less per building than treating individual structures independently, and it eliminates the visual contrast between treated and untreated buildings that property managers in nearby [Newark](/roof-cleaning-moss-removal-newark-nj) also navigate.'
@@ -35,7 +35,25 @@ export const eastOrangeRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'Can you clean the roof on my East Orange three-story Victorian without damaging the landscaping?',
       answer: 'Yes. We wet all landscape plantings, grass areas, and adjacent surfaces before application and rinse them after treatment to dilute any chemical contact. On East Orange three-story Victorians with narrow side yards, we use directional spray nozzles that minimize overspray beyond the target roof surface. Treatment chemicals used at our application concentrations are biodegradable and break down rapidly when diluted with rinsing water.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in East Orange, NJ?',
+      answer: 'Most roof cleaning moss removal projects in East Orange range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal for East Orange NJ properties -- low-pressure treatment for Victorian homes, apartments, and rental portfolios.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

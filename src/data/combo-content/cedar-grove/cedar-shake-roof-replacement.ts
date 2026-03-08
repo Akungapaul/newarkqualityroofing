@@ -4,7 +4,7 @@ export const cedarGroveCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Cedar shake roof replacement in Cedar Grove renews the natural wood roofing on the township\'s custom and premium homes where the hand-split texture and warm tone of western red cedar define the property\'s architectural character. When an aging cedar shake roof has deteriorated beyond the point where individual shake replacement can maintain weather protection, full [cedar shake roof replacement](/cedar-shake-roof-replacement) installs a new field of premium shakes on upgraded underlayment with modern ventilation and moisture management detailing.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Cedar Grove — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Cedar Grove renews the natural wood roofing on the township\'s custom and premium homes where the hand-split texture and warm tone of western red cedar define the property\'s architectural character. When an aging cedar shake roof has deteriorated beyond the point where individual shake replacement can maintain weather protection, full [cedar shake roof replacement](/cedar-shake-roof-replacement) installs a new field of premium shakes on upgraded underlayment with modern ventilation and moisture management detailing.',
     'Cedar Grove\'s wooded environment and northern Essex County climate accelerate cedar shake aging through persistent shade moisture, biological colonization, and extended freeze-thaw cycling. Shakes that might last thirty-five years on a sun-exposed, well-ventilated roof in a drier climate often reach replacement threshold at twenty to twenty-five years on Cedar Grove\'s shaded, low-pitch ranch homes. Replacement provides the opportunity to incorporate the ventilation improvements and moisture management upgrades that will extend the new shake installation\'s service life beyond its predecessor.',
     'The replacement decision involves a material choice: renew with cedar shakes to maintain the natural wood aesthetic, or transition to an alternative material -- architectural shingles, standing seam metal, or synthetic shake -- that provides a different balance of appearance, performance, and maintenance requirements. Our Cedar Grove consultations present all viable options with life-cycle cost comparisons so the homeowner can make an informed decision aligned with their aesthetic preferences and maintenance commitment.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveCedarShakeRoofReplacement: ComboContent = {
       question: 'How long do new cedar shakes last on Cedar Grove homes?',
       answer: 'With proper installation modifications for Cedar Grove\'s low-pitch and shade conditions, plus consistent maintenance, new cedar shakes last twenty-five to thirty years. This represents a meaningful improvement over previous installations that lacked pitch-appropriate detailing and biological growth management. Annual debris removal, biennial treatment, and periodic professional inspection are the maintenance commitments that achieve this lifespan.',
     },
+    {
+      question: 'How much does cedar shake roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Cedar Grove range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Cedar Grove NJ -- premium hand-split cedar renewal with ventilation upgrades and low-pitch moisture management.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

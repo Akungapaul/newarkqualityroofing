@@ -4,7 +4,7 @@ export const westOrangeBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'west-orange',
   overview: [
-    'Built-up roofing systems have protected West Orange\'s commercial buildings for generations, and the township\'s older office parks, industrial facilities, and institutional buildings still carry BUR installations that testify to this material\'s durability. Our [built-up roofing](/built-up-roofing) expertise in West Orange encompasses both new installations using modern BUR materials and the maintenance of legacy systems on buildings where existing roof conditions support continued service rather than full replacement.',
+    'Newark Quality Roofing delivers expert built up roofing in West Orange — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing systems have protected West Orange\'s commercial buildings for generations, and the township\'s older office parks, industrial facilities, and institutional buildings still carry BUR installations that testify to this material\'s durability. Our [built-up roofing](/built-up-roofing) expertise in West Orange encompasses both new installations using modern BUR materials and the maintenance of legacy systems on buildings where existing roof conditions support continued service rather than full replacement.',
     'The multi-ply redundancy of built-up roofing makes it a natural choice for West Orange buildings requiring maximum waterproofing reliability. Three to five alternating layers of bitumen and reinforcing felts create a monolithic membrane with no seams to fail and no single point of vulnerability. Commercial buildings along Pleasant Valley Way and institutional properties throughout [West Orange](/roofing-in-west-orange-nj) benefit from this built-in redundancy, particularly where interior water damage would disrupt critical building functions.',
     'Valley-floor industrial buildings in West Orange\'s lower-elevation zones rely on BUR systems for heavy-duty applications where foot traffic, equipment vibration, and chemical exposure exceed the capacity of lighter single-ply membranes. The aggregate or mineral cap surface of a properly constructed BUR assembly withstands maintenance worker traffic, dropped tools, and dragged equipment that would puncture thinner roofing systems. Facility managers in nearby [East Orange](/built-up-roofing-east-orange-nj) rely on similar BUR installations for their own industrial and commercial properties.',
     'Modern BUR installations in West Orange incorporate significant improvements over the legacy systems they replace: polymer-modified bitumens that maintain flexibility through freeze-thaw cycling, fiberglass reinforcing felts that resist rot and dimensional instability, and reflective mineral cap surfaces that reduce thermal absorption. These material advances extend BUR\'s service life while reducing the installation hazards associated with traditional hot-asphalt application methods.'
@@ -35,7 +35,25 @@ export const westOrangeBuiltUpRoofing: ComboContent = {
     {
       question: 'What causes alligator cracking on my existing BUR roof?',
       answer: 'Alligator cracking results from thermal cycling that stresses the bitumen surface beyond its flexibility limit. Unmodified asphalt hardens over time as volatile oils evaporate, losing the flexibility needed to accommodate West Orange\'s temperature swings. Surface cracking allows water infiltration into the ply system, accelerating deterioration. Polymer-modified BUR resists this degradation by maintaining bitumen flexibility. For existing cracked surfaces, we can apply reflective coatings that reduce thermal stress and seal surface cracks, extending roof life by 5 to 10 years when the underlying plies remain intact.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in West Orange, NJ?',
+      answer: 'Most built up roofing projects in West Orange range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in West Orange NJ. Multi-ply BUR systems for commercial and industrial buildings with redundant waterproofing.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

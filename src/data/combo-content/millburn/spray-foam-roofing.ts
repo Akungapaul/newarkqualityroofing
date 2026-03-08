@@ -4,7 +4,7 @@ export const millburnSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'millburn',
   overview: [
-    'Spray polyurethane foam roofing in Millburn provides a seamless, self-insulating roof system for commercial and institutional buildings where energy efficiency and leak elimination are the primary performance objectives. The material is applied as a liquid that expands and cures into a rigid, closed-cell foam layer bonded directly to the existing roof surface, creating a monolithic membrane with no seams, laps, or mechanical fasteners that could become leak paths. For Millburn commercial property owners managing aging flat roofs with chronic leak histories, SPF offers a restoration pathway that avoids the cost, disruption, and landfill waste of full tear-off and replacement.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Millburn — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing in Millburn provides a seamless, self-insulating roof system for commercial and institutional buildings where energy efficiency and leak elimination are the primary performance objectives. The material is applied as a liquid that expands and cures into a rigid, closed-cell foam layer bonded directly to the existing roof surface, creating a monolithic membrane with no seams, laps, or mechanical fasteners that could become leak paths. For Millburn commercial property owners managing aging flat roofs with chronic leak histories, SPF offers a restoration pathway that avoids the cost, disruption, and landfill waste of full tear-off and replacement.',
     'The insulation value integrated into the spray foam layer -- typically R-6.5 per inch of applied thickness -- transforms SPF from a roofing material into a building-envelope upgrade. On Millburn\'s older commercial buildings along Millburn Avenue and Essex Street, the original roof insulation may provide R-values far below current energy code requirements. An SPF application adds insulation simultaneously with waterproofing, bringing the building\'s thermal performance closer to contemporary standards without the cost and complexity of a separate insulation upgrade project. This dual function is particularly valuable on Millburn institutional buildings where energy budgets are scrutinized and building-envelope improvements reduce operating costs annually.',
     'Millburn\'s building stock presents SPF opportunities on structures where conventional re-roofing would be complicated by irregular geometries, numerous penetrations, or unusual substrate conditions. The spray-applied format conforms to any shape -- curved surfaces, domed sections, complex equipment curbing, irregular drain locations -- without the cutting, fitting, and seaming that sheet membranes require. Commercial buildings with dense rooftop equipment arrays and institutional buildings with architectural details that complicate conventional membrane application benefit from SPF\'s ability to form a continuous waterproofing layer that wraps around obstacles rather than terminating against them.'
   ],
@@ -34,7 +34,25 @@ export const millburnSprayFoamRoofing: ComboContent = {
     {
       question: 'What happens if the spray foam roof is damaged by hail or impact?',
       answer: 'Localized damage to SPF roofing is repaired by cutting away the damaged foam section, filling the void with new foam or compatible patching compound, and re-coating the repair area. Because the foam is monolithic with no seams or laps, damage does not propagate beyond the impact zone -- unlike sheet membranes where a puncture can allow water to migrate laterally beneath the membrane. This repairability is a significant advantage for Millburn properties under the tree canopy where branch impacts are an ongoing exposure.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Millburn, NJ?',
+      answer: 'Most spray foam roofing projects in Millburn range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing for Millburn commercial and institutional buildings. Seamless SPF application with built-in insulation over existing roof surfaces.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

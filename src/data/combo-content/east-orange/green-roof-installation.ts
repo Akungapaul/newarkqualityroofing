@@ -4,7 +4,7 @@ export const eastOrangeGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'east-orange',
   overview: [
-    'Green roof installation in East Orange represents an emerging opportunity within a city actively pursuing environmental resilience strategies to address its combined sewer overflow challenges and urban heat island effects. The city\'s stormwater management infrastructure -- much of it dating to the early twentieth century -- combines sanitary and storm sewage in a single system that overwhelms treatment capacity during heavy rain events, discharging untreated wastewater into waterways. [Green roof](/green-roof-installation) systems absorb and retain rainfall on the rooftop where it falls, reducing the volume reaching the overburdened combined sewer by 50 to 80 percent of annual precipitation. For institutional and commercial buildings in East Orange, green roofs deliver measurable environmental benefit that aligns with municipal stormwater management goals.',
+    'Newark Quality Roofing delivers expert green roof installation in East Orange — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in East Orange represents an emerging opportunity within a city actively pursuing environmental resilience strategies to address its combined sewer overflow challenges and urban heat island effects. The city\'s stormwater management infrastructure -- much of it dating to the early twentieth century -- combines sanitary and storm sewage in a single system that overwhelms treatment capacity during heavy rain events, discharging untreated wastewater into waterways. [Green roof](/green-roof-installation) systems absorb and retain rainfall on the rooftop where it falls, reducing the volume reaching the overburdened combined sewer by 50 to 80 percent of annual precipitation. For institutional and commercial buildings in East Orange, green roofs deliver measurable environmental benefit that aligns with municipal stormwater management goals.',
     'East Orange\'s Urban Enterprise Zone designation and community development programs create potential funding pathways for green roof projects that reduce the cost barrier for building owners. Stormwater utility fee credits, green infrastructure grants through the New Jersey Department of Environmental Protection, and municipal incentive programs for environmentally beneficial building improvements can offset a significant portion of green roof installation costs. We help East Orange property owners identify and apply for applicable incentive programs, connecting the environmental benefits of green roofing with the financial mechanisms that make installation feasible for buildings operating on tight budgets.',
     'The practical application of green roof technology in East Orange focuses on extensive (lightweight) systems rather than intensive (rooftop garden) installations. Extensive green roofs use sedum and drought-tolerant plant species in shallow growing medium -- typically three to five inches deep -- that adds minimal structural load while providing stormwater management, thermal insulation, and urban heat island mitigation. These systems require no irrigation after establishment, tolerate East Orange\'s seasonal temperature extremes, and demand maintenance limited to biannual weeding and annual inspection. The simplicity of extensive systems makes them appropriate for East Orange buildings where ownership structures and maintenance budgets cannot support the ongoing care that intensive garden roofs demand.',
     'Neighboring municipalities including [Newark](/green-roof-installation-newark-nj) and [Bloomfield](/green-roof-installation-bloomfield-nj) have implemented green roof programs on institutional buildings, providing local examples of the technology\'s performance in Essex County\'s climate and building conditions. East Orange can leverage these established installations as reference points, reducing the uncertainty that building owners feel about adopting unfamiliar roofing technology. Our green roof installations in the region provide the performance data and maintenance experience that validates the system\'s reliability for East Orange applications.'
@@ -35,7 +35,25 @@ export const eastOrangeGreenRoofInstallation: ComboContent = {
     {
       question: 'How long does a green roof last before it needs replacement?',
       answer: 'The waterproofing membrane beneath a green roof lasts 30 to 40 years -- significantly longer than an exposed membrane roof because the growing medium and vegetation protect the membrane from UV degradation, thermal cycling, and physical damage. The vegetation layer is self-renewing through natural growth cycles. With proper maintenance, a green roof system provides 40 or more years of service, making it one of the longest-lasting roofing investments available.'
-    }
+    },
+    {
+      question: 'How much does green roof installation cost in East Orange, NJ?',
+      answer: 'Most green roof installation projects in East Orange range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation for East Orange NJ buildings -- extensive sedum systems for stormwater management, urban heat reduction, and energy savings.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

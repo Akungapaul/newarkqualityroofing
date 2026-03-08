@@ -4,7 +4,7 @@ export const eastOrangeGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'east-orange',
   overview: [
-    'Gutter systems on East Orange\'s multi-family housing serve a function that extends beyond the individual building. When a gutter fails on a densely packed two-family in Elmwood Park, the concentrated roof runoff does not dissipate across an open lawn -- it cascades against the neighboring foundation three feet away, saturates the narrow shared walkway between buildings, and pools against basement walls that were never waterproofed for sustained water contact. In a city where buildings stand shoulder to shoulder across entire blocks, every gutter system is part of a drainage chain that affects the properties on either side.',
+    'Newark Quality Roofing delivers expert gutter installation repair in East Orange — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems on East Orange\'s multi-family housing serve a function that extends beyond the individual building. When a gutter fails on a densely packed two-family in Elmwood Park, the concentrated roof runoff does not dissipate across an open lawn -- it cascades against the neighboring foundation three feet away, saturates the narrow shared walkway between buildings, and pools against basement walls that were never waterproofed for sustained water contact. In a city where buildings stand shoulder to shoulder across entire blocks, every gutter system is part of a drainage chain that affects the properties on either side.',
     'East Orange\'s Victorian multi-families present gutter challenges rooted in their original construction. These buildings were designed with decorative wood cornices and integrated box gutters -- built-in troughs concealed behind ornamental fascia boards that direct water to internal downspouts within the wall cavity. When these concealed systems fail, as they inevitably do after a century of service, water enters the wall structure silently, rotting framing members, staining plaster ceilings, and creating mold conditions that trigger habitability complaints from tenants. Exterior inspection reveals nothing because the failure is entirely concealed behind decorative trim.',
     'Garden apartment complexes throughout Doddtown and the Ampere neighborhood multiply the gutter management challenge by scale. A typical East Orange garden apartment property includes six to ten buildings arranged around shared courtyards, with interconnected drainage that flows from roof gutters through downspouts into shared surface drains and eventually to the municipal storm system. When one building\'s gutters fail, the excess water overloads the courtyard drainage, floods ground-floor unit entries, and creates standing water conditions that attract mosquitoes and accelerate pavement deterioration. Property managers who address gutters building-by-building rather than as an integrated system spend more over time and never fully resolve the drainage problems.',
     'For property investors acquiring multi-family buildings in East Orange\'s rehabilitation zones, gutter condition is a reliable indicator of overall maintenance history. A building with functional gutters, clean downspouts, and intact fascia boards has likely been maintained attentively. Missing gutters, disconnected downspouts, and rotted fascia tell a different story -- one of deferred maintenance that probably extends to the roof, windows, and structural systems. Our gutter assessments for investment properties include fascia and soffit condition evaluation, drainage path mapping, and foundation moisture assessment at downspout discharge points.'
@@ -35,7 +35,25 @@ export const eastOrangeGutterInstallationRepair: ComboContent = {
     {
       question: 'Should I replace gutters on all buildings in my East Orange garden apartment complex at once or one at a time?',
       answer: 'Replacing the entire complex at once is more cost-effective per linear foot because mobilization, material delivery, and equipment setup happen once instead of repeatedly. More importantly, replacing all buildings together allows us to engineer the drainage system as an integrated whole -- ensuring courtyard drainage capacity matches the combined gutter output and that no building\'s new high-capacity system overwhelms a neighboring building still running on failing gutters. If budget requires phasing, we design the full system upfront and install in phases that follow the drainage flow direction, starting with the highest buildings and working downstream.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in East Orange, NJ?',
+      answer: 'Most gutter installation repair projects in East Orange range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair for East Orange NJ multi-family properties -- Victorian box gutters, apartment complexes, and shared drainage solutions.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const fairfieldChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'fairfield',
   overview: [
-    'Chimney flashing repair is one of the most frequently requested residential roof services in Fairfield, where homes built during the township\'s primary development decades feature masonry chimneys with original flashing installations that have deteriorated through thirty to fifty years of thermal cycling and mortar aging. The junction between chimney masonry and roof surface represents the single largest penetration on most Fairfield homes, and the multi-part flashing system required to waterproof this junction -- base flashing, step flashing, counterflashing, and cricket or saddle diverter -- contains more potential failure points than any other roof detail. When any component of this system fails, water enters the building at one of its most damage-prone locations.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Fairfield — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is one of the most frequently requested residential roof services in Fairfield, where homes built during the township\'s primary development decades feature masonry chimneys with original flashing installations that have deteriorated through thirty to fifty years of thermal cycling and mortar aging. The junction between chimney masonry and roof surface represents the single largest penetration on most Fairfield homes, and the multi-part flashing system required to waterproof this junction -- base flashing, step flashing, counterflashing, and cricket or saddle diverter -- contains more potential failure points than any other roof detail. When any component of this system fails, water enters the building at one of its most damage-prone locations.',
     'Fairfield\'s chimney flashing failures follow predictable patterns tied to the township\'s construction era. Homes from the 1960s and 1970s typically have galvanized steel step flashing that has corroded through at the lower exposed edges, with counterflashing embedded in mortar joints that have dried and cracked. Homes from the 1980s and 1990s may have aluminum flashing that remains structurally sound but with sealant joints that have dried, cracked, and pulled away from the masonry surface. In both cases, the mortar joints holding the counterflashing have typically deteriorated enough to admit water behind the metal, rendering the entire flashing assembly ineffective regardless of the metal\'s condition.',
     'Our [chimney flashing repair](/chimney-flashing-repair) approach in Fairfield addresses the complete flashing system rather than spot-treating visible failures. Homeowners in [Caldwell](/chimney-flashing-repair-caldwell-nj) and across western Essex County often call with a single leak location, but our inspection frequently reveals multiple failing components that will produce future leaks if not addressed during the current repair. A comprehensive chimney flashing renewal prevents the recurring service calls that incremental repairs generate.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldChimneyFlashingRepair: ComboContent = {
     {
       question: 'Should chimney flashing be replaced during a roof replacement in Fairfield?',
       answer: 'Absolutely. Roof replacement is the ideal time for chimney flashing replacement because the surrounding shingles are already removed, giving full access to the chimney-to-roof junction. Installing new flashing during a roof replacement adds relatively modest cost compared to doing it as a standalone project, and it ensures that the new roof system\'s most vulnerable penetration point has fresh, properly integrated flashing from day one. We include chimney flashing replacement in every Fairfield roof replacement proposal.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Fairfield, NJ?',
+      answer: 'Most chimney flashing repair projects in Fairfield range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Fairfield NJ. Complete chimney-to-roof flashing renewal for 1960s-1990s homes with mortar and sealant restoration.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const livingstonRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'livingston',
   overview: [
-    'Roof inspection in Livingston serves a homeowner base that treats property maintenance as ongoing stewardship rather than reactive repair. The professional families throughout Collins Terrace, Northland, and Westminster schedule inspections proactively -- before winter storm season, after major weather events, and as part of real estate transactions that move at the pace Livingston\'s competitive housing market demands. Each inspection must account for the township\'s dominant split-level and raised ranch architectures, where multiple roof plane intersections create hidden vulnerability points that surface-level visual checks consistently miss.',
+    'Newark Quality Roofing delivers expert roof inspection in Livingston — with prices starting from $150–$400 and free estimates available today. Roof inspection in Livingston serves a homeowner base that treats property maintenance as ongoing stewardship rather than reactive repair. The professional families throughout Collins Terrace, Northland, and Westminster schedule inspections proactively -- before winter storm season, after major weather events, and as part of real estate transactions that move at the pace Livingston\'s competitive housing market demands. Each inspection must account for the township\'s dominant split-level and raised ranch architectures, where multiple roof plane intersections create hidden vulnerability points that surface-level visual checks consistently miss.',
     'The construction eras represented across Livingston create distinct inspection priorities. A 1965 split-level in Northland demands different diagnostic attention than a 2015 colonial near Livingston Town Center. Original mid-century homes carry aging step flashing at plane transitions, undersized ventilation systems designed before modern building science, and decades of tree-related wear from the mature canopy overhead. Newer construction requires verification that builder-installed systems meet warranty specifications and that initial settling has not opened gaps at flashing junctions. Homeowners in [Montclair](/roof-inspection-montclair-nj) face similar era-spanning inspection needs, though their Victorian and Tudor housing stock presents different geometric challenges.',
     'Our [roof inspection](/roof-inspection) process maps every component of the Livingston roof system from ridge cap to gutter line, producing a documented condition assessment that homeowners use for maintenance planning, insurance documentation, and HOA compliance records. For homes in governed communities, the inspection report provides the evidence base that architectural review committees require before approving repair or replacement work.',
     'Real estate inspections in Livingston\'s active market require turnaround speed without sacrificing thoroughness. Buyers and sellers operating on attorney-review timelines need inspection reports delivered within 24 hours of the on-site visit. We accommodate these timelines because delays in Livingston\'s competitive market cost clients deals.'
@@ -35,7 +35,25 @@ export const livingstonRoofInspection: ComboContent = {
     {
       question: 'How quickly can I get an inspection report for a Livingston real estate transaction?',
       answer: 'We deliver real estate inspection reports within 24 hours of the on-site visit. The report includes a summary cover page for attorneys and agents, detailed condition documentation with photographs, and recommended actions that buyers can use during negotiation. For urgent transactions, same-day preliminary reports are available by request.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Livingston, NJ?',
+      answer: 'Most roof inspection projects in Livingston range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Livingston NJ roof inspection for split-levels and colonials -- detailed assessments with HOA-compliant reports and 24-hour real estate turnaround.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

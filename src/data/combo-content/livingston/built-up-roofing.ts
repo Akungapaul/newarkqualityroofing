@@ -4,7 +4,7 @@ export const livingstonBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'livingston',
   overview: [
-    'Built-up roofing maintains a role in Livingston\'s commercial property portfolio as the original multi-layer flat roof technology that predates modern single-ply membranes. The system builds waterproofing through alternating layers of bitumen and reinforcing felts -- typically three to five plies that create a monolithic membrane with redundancy engineered into every layer. Livingston commercial buildings constructed through the 1980s and early 1990s frequently carry BUR systems approaching or exceeding their expected service life, creating a steady flow of replacement projects where property managers must decide whether to continue with BUR or transition to contemporary alternatives.',
+    'Newark Quality Roofing delivers expert built up roofing in Livingston — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing maintains a role in Livingston\'s commercial property portfolio as the original multi-layer flat roof technology that predates modern single-ply membranes. The system builds waterproofing through alternating layers of bitumen and reinforcing felts -- typically three to five plies that create a monolithic membrane with redundancy engineered into every layer. Livingston commercial buildings constructed through the 1980s and early 1990s frequently carry BUR systems approaching or exceeding their expected service life, creating a steady flow of replacement projects where property managers must decide whether to continue with BUR or transition to contemporary alternatives.',
     'The gravel-surfaced BUR installations common on Livingston\'s older commercial buildings along Route 10 provide exceptional resistance to foot traffic, UV degradation, and hail impact. Property managers overseeing buildings with frequent rooftop maintenance access -- HVAC servicing, satellite equipment adjustments, plumbing vent work -- value the walkable, puncture-resistant surface that a properly maintained gravel BUR provides. These durability characteristics remain unmatched by thinner single-ply membrane systems.',
     'Our [built-up roofing](/built-up-roofing) practice in Livingston spans full replacement of aging BUR systems, conversion from BUR to modern alternatives, and maintenance programs that extend the service life of existing installations. Conversion projects frequently involve removing accumulated gravel ballast -- sometimes representing thousands of pounds of material per roof section -- before installing new insulation and membrane. The weight reduction alone can benefit older structural systems not designed for the combined loads of gravel BUR plus equipment additions accumulated over decades.',
     'Commercial properties in neighboring [West Orange](/built-up-roofing-west-orange-nj) share similar vintage BUR installations requiring assessment and replacement planning, though Livingston\'s professional office corridor tends toward larger individual roof footprints that create material economy advantages during replacement.'
@@ -35,7 +35,25 @@ export const livingstonBuiltUpRoofing: ComboContent = {
     {
       question: 'How long does BUR replacement take on a Livingston commercial property?',
       answer: 'A BUR replacement on a 10,000 square foot Livingston commercial building typically requires two to three weeks including tear-off, deck repair, and new roofing installation. The timeline extends with larger footprints, significant deck repair needs, or phased installation required to keep the building operational. We provide a detailed project schedule during the proposal phase that accounts for the specific building\'s size, condition, and operational constraints.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Livingston, NJ?',
+      answer: 'Most built up roofing projects in Livingston range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Livingston NJ -- multi-ply BUR replacement and repair for commercial offices and retail along Route 10 corridor.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

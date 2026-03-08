@@ -4,7 +4,7 @@ export const bellevilleFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'belleville',
   overview: [
-    'Flat roof replacement in Belleville addresses the significant inventory of low-slope surfaces on commercial buildings, residential additions, enclosed porches, and two-family duplexes throughout the township. Unlike pitched roof replacement where shingle selection is the primary decision, flat roof replacement involves membrane technology choices, insulation engineering, and drainage design that materially affect both performance and cost over the 20-30 year system life.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Belleville — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Belleville addresses the significant inventory of low-slope surfaces on commercial buildings, residential additions, enclosed porches, and two-family duplexes throughout the township. Unlike pitched roof replacement where shingle selection is the primary decision, flat roof replacement involves membrane technology choices, insulation engineering, and drainage design that materially affect both performance and cost over the 20-30 year system life.',
     'Washington Avenue\'s commercial buildings and the Belleville Turnpike industrial facilities represent the largest flat roof replacement market in the township. These buildings, constructed between 1960 and 1985, are now on their second or third membrane system. Each replacement cycle presents an opportunity to upgrade from the original built-up roofing or first-generation single-ply to modern TPO, PVC, or EPDM membranes with integrated insulation that transforms both waterproofing performance and energy efficiency.',
     'Residential [flat roof replacement](/flat-roof-replacement) in Belleville focuses on the porch, addition, and garage roofs that are common on the township\'s post-war housing stock. These smaller flat surfaces -- typically 200-800 square feet -- develop leaks at the wall-to-house transition where the flat roof meets the main building structure. Our replacement approach rebuilds this critical junction with step flashing, counter-flashing, and self-adhering membrane that creates a permanently watertight boundary at the transition that caused the original membrane to fail.',
     'Drainage engineering is integral to every Belleville flat roof replacement. The ponding water problems common on the township\'s aging flat roofs result from inadequate original drainage slope, structural settling, and blocked drain locations. Our replacement installations incorporate tapered insulation systems that create positive drainage slope toward properly located drains, eliminating the standing water that shortens membrane life on every flat roof in [Belleville](/roofing-in-belleville-nj) and neighboring [Newark](/flat-roof-replacement-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleFlatRoofReplacement: ComboContent = {
     {
       question: 'How long does flat roof replacement take in Belleville?',
       answer: 'Residential flat roof replacement takes 1-3 days depending on surface area and access conditions. Commercial replacement on a 5,000 square foot building takes 5-8 days. Larger industrial facilities may take 2-4 weeks with phased execution. Every project maintains weather-tight conditions on completed sections throughout the installation period.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Belleville, NJ?',
+      answer: 'Most flat roof replacement projects in Belleville range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Belleville NJ. TPO, EPDM, and PVC membrane systems for commercial buildings and residential additions with drainage engineering.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

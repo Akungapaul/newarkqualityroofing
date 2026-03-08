@@ -4,7 +4,7 @@ export const westOrangeRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'west-orange',
   overview: [
-    'Roof thermal imaging inspections reveal hidden moisture, insulation deficiencies, and air leaks on West Orange commercial and residential buildings without destructive testing. Our [roof thermal imaging inspections](/roof-thermal-imaging-inspections) use calibrated infrared cameras to map temperature differentials across the roof surface, identifying wet insulation zones, thermal bridges, and ventilation failures that visual inspection cannot detect.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in West Orange — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections reveal hidden moisture, insulation deficiencies, and air leaks on West Orange commercial and residential buildings without destructive testing. Our [roof thermal imaging inspections](/roof-thermal-imaging-inspections) use calibrated infrared cameras to map temperature differentials across the roof surface, identifying wet insulation zones, thermal bridges, and ventilation failures that visual inspection cannot detect.',
     'West Orange\'s elevation diversity creates distinct thermal imaging opportunities at different altitudes. Ridge-top buildings scanned during cold weather reveal heat-loss patterns driven by wind-convective cooling that standard insulation assessments overlook. Valley-floor buildings scanned during warm weather show moisture retention patterns where reduced air circulation prevents normal evaporative drying. Our technicians schedule scans for the weather conditions that maximize diagnostic value at each property\'s specific elevation.',
     'Commercial building owners in [West Orange](/roofing-in-west-orange-nj) use thermal imaging to prioritize roof maintenance budgets based on objective data rather than guesswork. A thermal scan identifies the specific areas where wet insulation is degrading roof performance, quantifies the scope of affected area, and documents conditions for insurance claims or capital expenditure justification. Building owners near [Montclair](/roof-thermal-imaging-inspections-montclair-nj) apply thermal imaging diagnostics for similar data-driven maintenance planning.',
     'Pre-purchase roof assessment through thermal imaging provides buyers of West Orange commercial properties with objective condition data before closing. The scan reveals hidden moisture problems and insulation deficiencies that a visual roof inspection cannot identify, supporting informed purchase decisions and realistic capital planning for needed repairs or replacement.'
@@ -35,7 +35,25 @@ export const westOrangeRoofThermalImagingInspections: ComboContent = {
     {
       question: 'How much does a thermal roof inspection cost?',
       answer: 'Thermal inspection cost is based on roof area and complexity. Standard commercial roof scans covering up to 20,000 square feet include the scan, analysis, and written report with recommendations. Core sampling verification adds per-sample cost for physical moisture testing at anomaly locations. The investment is modest compared to the cost of unnecessary roof replacement driven by assumed conditions rather than verified data. Most building owners find that the diagnostic clarity thermal imaging provides saves money by targeting repairs precisely rather than over-scoping based on worst-case assumptions.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in West Orange, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in West Orange range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in West Orange NJ. Infrared moisture detection for commercial buildings at every elevation zone.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

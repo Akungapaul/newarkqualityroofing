@@ -4,7 +4,7 @@ export const caldwellResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'caldwell',
   overview: [
-    'Residential roof installation in Caldwell serves a borough where new construction is rare and complete roof system installation typically means replacing the aging roof on an existing home with a modern, code-compliant system that will protect the property for the next three decades. The homes that define Caldwell -- colonials from the 1950s, capes from the postwar expansion, split-levels from the 1960s development along streets near downtown Caldwell and the Personette Avenue neighborhoods -- are reaching or have passed the age where their second or third roofing system needs replacement. Each of these installations is an opportunity to correct the ventilation deficiencies, insulation gaps, and drainage shortcomings that the original builders could not have anticipated.',
+    'Newark Quality Roofing delivers expert residential roof installation in Caldwell — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Caldwell serves a borough where new construction is rare and complete roof system installation typically means replacing the aging roof on an existing home with a modern, code-compliant system that will protect the property for the next three decades. The homes that define Caldwell -- colonials from the 1950s, capes from the postwar expansion, split-levels from the 1960s development along streets near downtown Caldwell and the Personette Avenue neighborhoods -- are reaching or have passed the age where their second or third roofing system needs replacement. Each of these installations is an opportunity to correct the ventilation deficiencies, insulation gaps, and drainage shortcomings that the original builders could not have anticipated.',
     'The scope of residential roof installation in Caldwell extends well beyond nailing new shingles to the existing deck. Modern installation includes synthetic underlayment replacing the felt paper that was standard decades ago, ice-and-water shield membrane at all eaves and valleys regardless of minimum code requirements, continuous ridge ventilation replacing the inadequate passive vents on older homes, and properly sized drip edge at every eave and rake. Homeowners in [West Orange](/residential-roof-installation-west-orange-nj) and [Verona](/residential-roof-installation-verona-nj) face similar upgrade opportunities when replacing aging roof systems on comparable mid-century housing stock.',
     'Material selection for Caldwell residential roof installations reflects the practical sensibilities of this community. Premium architectural asphalt shingles dominate the installed base because they deliver the dimensional appearance that complements colonial and cape cod architecture, the weather performance that New Jersey seasons demand, and the thirty-year warranty coverage that provides long-term investment protection. For homeowners considering alternatives, our [residential roof installation](/residential-roof-installation) consultations include side-by-side comparisons of asphalt, metal, and specialty materials with honest discussion of cost, performance, and aesthetic fit for the specific home and neighborhood context.'
   ],
@@ -34,7 +34,25 @@ export const caldwellResidentialRoofInstallation: ComboContent = {
     {
       question: 'Will a new roof increase my Caldwell home value?',
       answer: 'A new roof is consistently rated among the top home improvements for return on investment, and in Caldwell market where buyers expect well-maintained properties, the impact is particularly significant. Appraisers in this market factor roof age and condition directly into property valuation. Real estate agents report that Caldwell homes with new roofs sell faster and closer to asking price. The return typically ranges from sixty to eighty percent of the installation cost through increased sale price, with additional value from reduced buyer negotiation leverage and faster transaction closure.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in Caldwell, NJ?',
+      answer: 'Most residential roof installation projects in Caldwell range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in Caldwell NJ -- complete systems for colonials, capes, and split-levels with ventilation upgrades and deck repair.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const bloomfieldWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'bloomfield',
   overview: [
-    'Wind damage to Bloomfield roofs concentrates on the township\'s most vulnerable roofing material: the three-tab shingles that still cover thousands of Cape Cods, ranches, and older split-levels across the residential neighborhoods. Three-tab shingles rely on a factory-applied adhesive strip to bond each tab to the course below, and after fifteen to twenty years of thermal cycling this adhesive loses its grip. Nor\'easter gusts exceeding sixty miles per hour catch these unsealed tabs and peel them back, tearing the shingle at the nail line and leaving exposed underlayment or bare deck. A single wind event can strip twenty to fifty tabs from an aging Bloomfield roof, converting a borderline maintenance issue into an urgent repair need.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Bloomfield — with prices starting from $400–$2,000 and free estimates available today. Wind damage to Bloomfield roofs concentrates on the township\'s most vulnerable roofing material: the three-tab shingles that still cover thousands of Cape Cods, ranches, and older split-levels across the residential neighborhoods. Three-tab shingles rely on a factory-applied adhesive strip to bond each tab to the course below, and after fifteen to twenty years of thermal cycling this adhesive loses its grip. Nor\'easter gusts exceeding sixty miles per hour catch these unsealed tabs and peel them back, tearing the shingle at the nail line and leaving exposed underlayment or bare deck. A single wind event can strip twenty to fifty tabs from an aging Bloomfield roof, converting a borderline maintenance issue into an urgent repair need.',
     'The interaction between Bloomfield\'s residential tree canopy and wind damage creates a compounding effect that pure wind exposure alone does not produce. Falling branches impact roof surfaces during the same events that lift shingles, adding puncture damage to wind peel damage. Small branches wedge under lifted shingle tabs and prevent re-adhesion after the wind subsides. Leaf and debris accumulation in valleys and against wall intersections holds moisture against shingle surfaces, accelerating the adhesive deterioration that makes the next wind event more damaging. Homeowners in the tree-lined sections of Watsessing and Brookdale face this compound exposure more acutely than those on more open streets.',
     'Commercial properties along Bloomfield Avenue and the GSP corridor sustain wind damage to flat-roof membrane systems through a different mechanism than residential shingle roofs. Wind uplift on flat roofs creates negative pressure that lifts membrane edges, peels back flashing at parapet walls, and detaches mechanically fastened membrane sheets from the insulation layer. Our [wind damage roof repair](/wind-damage-roof-repair) service addresses both the residential shingle and commercial membrane damage patterns common in [Bloomfield](/roofing-in-bloomfield-nj), applying the appropriate repair technique for each roof system type.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldWindDamageRoofRepair: ComboContent = {
     {
       question: 'Should I file an insurance claim for wind damage to my Bloomfield roof?',
       answer: 'File a claim when the repair estimate exceeds your deductible by a significant margin. Wind damage from documented storm events is a standard covered peril on homeowner policies. Our damage assessment includes photographs, a repair estimate, and the storm date and conditions that your insurer requires. For minor damage near your deductible amount, weigh the repair cost against the potential premium impact of filing a claim before deciding.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Bloomfield, NJ?',
+      answer: 'Most wind damage roof repair projects in Bloomfield range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Bloomfield NJ -- shingle blow-off restoration, ridge cap replacement, and storm repair for Cape Cods and split-levels.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

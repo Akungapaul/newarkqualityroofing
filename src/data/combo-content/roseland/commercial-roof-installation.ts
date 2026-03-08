@@ -4,7 +4,7 @@ export const roselandCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'roseland',
   overview: [
-    'Commercial roof installation in Roseland serves the borough\'s significant corporate office sector alongside the smaller retail and professional buildings that line Eagle Rock Avenue. The scale ranges from 50,000-plus square-foot membrane systems on the Eisenhower Parkway corporate campuses to 3,000-square-foot flat roof installations on neighborhood commercial properties. Our [commercial roof installation](/commercial-roof-installation) service matches the system specification, installation capacity, and project management approach to each building\'s specific requirements and the property owner\'s operational constraints.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Roseland — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Roseland serves the borough\'s significant corporate office sector alongside the smaller retail and professional buildings that line Eagle Rock Avenue. The scale ranges from 50,000-plus square-foot membrane systems on the Eisenhower Parkway corporate campuses to 3,000-square-foot flat roof installations on neighborhood commercial properties. Our [commercial roof installation](/commercial-roof-installation) service matches the system specification, installation capacity, and project management approach to each building\'s specific requirements and the property owner\'s operational constraints.',
     'New construction commercial roofing in Roseland follows the borough\'s building development patterns -- corporate office additions, medical office build-outs, and retail construction along the Eagle Rock corridor. These new-build projects allow roof system design from the structural deck up, with insulation, membrane, and drainage engineered as an integrated assembly rather than constrained by existing conditions. Our commercial division coordinates with general contractors during the design phase to ensure roof system specifications align with structural capacity, mechanical equipment placement, and architectural expectations.',
     'Re-roofing existing commercial buildings in Roseland requires balancing system performance with operational disruption. Corporate tenants cannot tolerate extended noise, debris, and access restrictions that interfere with business operations. Phased installation sequences, after-hours work scheduling, and containment strategies minimize the impact on occupied buildings. Property managers at corporate campus properties in [Fairfield](/commercial-roof-installation-fairfield-nj) face similar tenant-sensitivity requirements.'
   ],
@@ -34,7 +34,25 @@ export const roselandCommercialRoofInstallation: ComboContent = {
     {
       question: 'What warranties are available on commercial roofing?',
       answer: 'Commercial roof warranties range from 15 to 30 years depending on membrane type, thickness, and the warranty tier selected. Standard warranties cover material defects. Enhanced warranties add coverage for workmanship, consequential damage, and full no-dollar-limit repairs. The highest warranty tiers require manufacturer inspection during and after installation. We install to the standards required for the warranty tier the property owner selects and handle all warranty registration documentation.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Roseland, NJ?',
+      answer: 'Most commercial roof installation projects in Roseland range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Roseland NJ -- TPO, PVC, and membrane systems for corporate office parks and business properties.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const fairfieldSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'fairfield',
   overview: [
-    'Slate roof replacement in Fairfield serves the handful of homes and historic structures in the township that carry natural slate roofing -- typically the older farmhouse properties and pre-war buildings that predate the suburban development defining most of the community. While slate is uncommon in Fairfield compared to communities like [Montclair](/slate-roof-replacement-montclair-nj) or [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) where Victorian and Edwardian homes feature slate extensively, the few Fairfield properties with slate deserve specialists who understand the material\'s unique installation requirements, sourcing challenges, and century-long performance expectations.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Fairfield — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Fairfield serves the handful of homes and historic structures in the township that carry natural slate roofing -- typically the older farmhouse properties and pre-war buildings that predate the suburban development defining most of the community. While slate is uncommon in Fairfield compared to communities like [Montclair](/slate-roof-replacement-montclair-nj) or [Glen Ridge](/slate-roof-replacement-glen-ridge-nj) where Victorian and Edwardian homes feature slate extensively, the few Fairfield properties with slate deserve specialists who understand the material\'s unique installation requirements, sourcing challenges, and century-long performance expectations.',
     'Slate replacement in Fairfield may involve either full replacement with new natural slate or conversion to synthetic slate products that replicate the appearance at reduced weight and cost. Both approaches have legitimate applications: full natural slate replacement preserves the authentic character and century-plus lifespan of the original material, while synthetic slate provides the visual profile at a cost and weight that may better suit the building\'s structural capacity and the owner\'s budget. Our [slate roof replacement](/slate-roof-replacement) consultation presents both options with honest comparison of aesthetics, longevity, cost, and structural requirements.',
     'The structural demands of natural slate exceed those of any other residential roofing material. Slate tiles weigh eight hundred to fifteen hundred pounds per square (one hundred square feet), compared to two hundred to three hundred pounds for asphalt shingles. This weight requires structural framing designed or reinforced for the load -- a consideration that applies equally to new installations and replacements where the original structure was designed for slate and may have been weakened by age.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldSlateRoofReplacement: ComboContent = {
     {
       question: 'Does my Fairfield home need structural reinforcement for a slate roof?',
       answer: 'It depends on the existing framing design. If the home was originally built with slate and the framing was designed for slate loads, reinforcement may not be needed if the framing is still sound. If the home has been re-roofed with lighter materials and the framing has been assessed only for shingle loads, reinforcement will likely be required. Our structural engineer evaluates the specific framing and provides a definitive answer before any work begins.'
-    }
+    },
+    {
+      question: 'How much does slate roof replacement cost in Fairfield, NJ?',
+      answer: 'Most slate roof replacement projects in Fairfield range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Fairfield NJ. Natural and synthetic slate options for historic homes with structural assessment.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

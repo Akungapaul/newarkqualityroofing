@@ -4,7 +4,7 @@ export const cedarGroveEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'cedar-grove',
   overview: [
-    'EPDM commercial roofing systems protect Cedar Grove\'s business properties along the Pompton Avenue corridor, Route 23 commercial strip, and the township\'s professional office buildings with a synthetic rubber membrane proven across four decades of northern New Jersey service. The ethylene propylene diene monomer formulation delivers exceptional cold-weather flexibility that Cedar Grove\'s northern Essex County winters demand -- the membrane stretches and contracts through freeze-thaw cycles without cracking, maintaining waterproof integrity across temperature ranges from negative twenty to over one hundred fifty degrees Fahrenheit.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Cedar Grove — with prices starting from $6–$11/sq ft and free estimates available today. EPDM commercial roofing systems protect Cedar Grove\'s business properties along the Pompton Avenue corridor, Route 23 commercial strip, and the township\'s professional office buildings with a synthetic rubber membrane proven across four decades of northern New Jersey service. The ethylene propylene diene monomer formulation delivers exceptional cold-weather flexibility that Cedar Grove\'s northern Essex County winters demand -- the membrane stretches and contracts through freeze-thaw cycles without cracking, maintaining waterproof integrity across temperature ranges from negative twenty to over one hundred fifty degrees Fahrenheit.',
     'Cedar Grove\'s commercial building inventory features a substantial number of properties originally roofed with built-up systems during the 1960s and 1970s construction era. As these multi-ply roofs reach end of life, EPDM provides a single-ply replacement that simplifies the roof assembly, reduces dead load on aging structures, and offers a maintenance profile far less demanding than the periodic recoating that built-up systems require. Our [EPDM commercial roofing](/epdm-commercial-roofing) installations for Cedar Grove businesses convert these aging assemblies to modern, warranted systems without the complexity of hot-applied materials.',
     'The cost-effectiveness of EPDM makes it particularly attractive for Cedar Grove\'s small to mid-sized commercial properties where roofing budgets must balance long-term performance with immediate capital constraints. Building owners along Pompton Avenue and in the township\'s office parks find that EPDM delivers thirty-plus-year service life at a lower initial investment than TPO or PVC alternatives, especially on buildings where the reflective energy benefits of white membranes provide minimal return due to heavy tree canopy shading.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveEpdmCommercialRoofing: ComboContent = {
       question: 'What maintenance does a Cedar Grove commercial EPDM roof need?',
       answer: 'Quarterly debris removal is essential in Cedar Grove\'s wooded environment -- more frequent than the biannual schedule recommended for less canopied locations. Annual professional inspection of seams, flashings, and penetration details catches developing issues before water entry occurs. Drain strainers should be cleared after every significant storm. EPDM conditioner application every seven to ten years restores surface flexibility on sun-exposed membrane sections.',
     },
+    {
+      question: 'How much does epdm commercial roofing cost in Cedar Grove, NJ?',
+      answer: 'Most epdm commercial roofing projects in Cedar Grove range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Cedar Grove NJ -- proven rubber membrane systems for Pompton Ave offices and Route 23 businesses with 30+ year durability.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

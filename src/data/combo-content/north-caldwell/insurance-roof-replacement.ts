@@ -4,7 +4,7 @@ export const northCaldwellInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Insurance roof replacement on North Caldwell estates involves navigating claims processes with unique complexities that standard residential claims rarely encounter. The premium roofing materials on these homes -- natural slate, standing seam copper, designer shingles -- carry replacement costs that general adjusters may undervalue if they are unfamiliar with the material specifications installed on estate-grade properties. Our role is ensuring that the insurance claim accurately reflects the actual cost of restoring the roof system to its pre-loss condition.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in North Caldwell — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement on North Caldwell estates involves navigating claims processes with unique complexities that standard residential claims rarely encounter. The premium roofing materials on these homes -- natural slate, standing seam copper, designer shingles -- carry replacement costs that general adjusters may undervalue if they are unfamiliar with the material specifications installed on estate-grade properties. Our role is ensuring that the insurance claim accurately reflects the actual cost of restoring the roof system to its pre-loss condition.',
     'Our [insurance roof replacement](/insurance-roof-replacement) service for North Caldwell homeowners provides end-to-end claims support from initial damage assessment through project completion. We document the damage with the detail and specificity that insurance adjusters require, prepare replacement cost estimates using the actual material specifications installed on the home, and coordinate directly with the adjuster to resolve any scope or pricing disagreements before the homeowner is caught between the insurance company and the contractor.',
     'The high property values in [North Caldwell](/roofing-in-north-caldwell-nj) mean that homeowners typically carry replacement cost coverage adequate for their roofing materials. However, policy endorsements, depreciation schedules, and code upgrade provisions can significantly affect the claim outcome. We help homeowners understand how their specific policy provisions apply to the replacement scope and identify supplemental claim items -- such as code-required ventilation upgrades or ice-and-water shield that was not installed originally -- that increase the covered replacement cost. Similar insurance claim navigation supports homeowners in [Caldwell](/insurance-roof-replacement-caldwell-nj) and throughout Essex County.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Do you work with all insurance companies on North Caldwell claims?',
       answer: 'Yes. We work with every homeowner insurance carrier on North Caldwell estate claims. Our documentation and claims process follows the industry-standard Xactimate format that all major carriers use. We coordinate directly with your assigned adjuster to resolve scope and pricing questions efficiently. Our goal is a fair settlement that covers the actual cost of restoring your roof to pre-loss condition with matching materials.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most insurance roof replacement projects in North Caldwell range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in North Caldwell NJ -- claims coordination for estate homes with premium slate, copper, and designer materials.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

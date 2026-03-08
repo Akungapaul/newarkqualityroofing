@@ -4,7 +4,7 @@ export const orangeRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'orange',
   overview: [
-    'Roof overlay installation offers Orange homeowners a cost-effective path to a new roof surface when the existing single-layer shingle system and deck below are in sound condition. By installing new shingles directly over the existing layer, [roof overlay](/roof-overlay-installation) eliminates the labor, debris, and neighbor-disruption costs of tear-off -- a meaningful advantage on Orange\'s tight lots where debris containment between buildings three to five feet apart adds significant cost to full tear-off projects.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Orange — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation offers Orange homeowners a cost-effective path to a new roof surface when the existing single-layer shingle system and deck below are in sound condition. By installing new shingles directly over the existing layer, [roof overlay](/roof-overlay-installation) eliminates the labor, debris, and neighbor-disruption costs of tear-off -- a meaningful advantage on Orange\'s tight lots where debris containment between buildings three to five feet apart adds significant cost to full tear-off projects.',
     'The overlay decision in Orange is not automatic -- it requires careful assessment of the existing roof\'s condition to determine whether the substrate will support a second layer effectively. Curled, cupped, or heavily granulated shingles create an uneven surface that prevents new shingles from laying flat and sealing properly. Soft spots in the deck indicate rot that overlay would conceal rather than address. Our Orange overlay assessments include walking the full roof surface, probing suspect areas, and checking the existing layer count to confirm eligibility before recommending overlay as an appropriate approach.',
     'For budget-conscious Orange homeowners -- particularly those purchasing investment properties in a city where affordability attracts new buyers -- overlay delivers substantial savings. A typical Orange overlay saves $1,500 to $3,000 compared to full tear-off by eliminating debris removal, disposal fees, and the additional labor of stripping old material. The trade-off is that the deck condition remains uninspected and the new roof sits on a substrate that may have hidden issues. We present both options with honest discussion of the benefits and limitations so homeowners can make informed decisions. Similar overlay-versus-tear-off considerations guide decisions in neighboring [East Orange](/roof-overlay-installation-east-orange-nj).'
   ],
@@ -34,7 +34,25 @@ export const orangeRoofOverlayInstallation: ComboContent = {
     {
       question: 'How do you know if my Orange home is eligible for overlay?',
       answer: 'We check three factors: the existing roof must be a single layer of shingles (not two layers), the existing shingles must be laying reasonably flat without severe cupping or curling, and the deck must be structurally sound without soft spots. An attic inspection for moisture damage and structural condition completes the assessment. Properties failing any criterion should proceed with tear-off.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Orange, NJ?',
+      answer: 'Most roof overlay installation projects in Orange range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Orange NJ -- second-layer shingle savings, tight-lot cost advantage, eligibility assessment, and Valley moisture cautions.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

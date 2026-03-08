@@ -4,7 +4,7 @@ export const caldwellRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'caldwell',
   overview: [
-    'Roof replacement cost in Caldwell is driven by material selection, roof size and complexity, deck condition, and the specific installation details that the project requires. The borough\'s residential housing stock of colonials, capes, and ranch homes spans a manageable range of roof sizes -- typically 1,500 to 2,800 square feet of roof area -- that allows cost estimation with reasonable accuracy once the material and scope are defined. Understanding the components that make up the total cost empowers Caldwell homeowners to evaluate contractor proposals, compare bids meaningfully, and make informed decisions about material and scope tradeoffs.',
+    'Newark Quality Roofing delivers expert roof replacement cost in Caldwell — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in Caldwell is driven by material selection, roof size and complexity, deck condition, and the specific installation details that the project requires. The borough\'s residential housing stock of colonials, capes, and ranch homes spans a manageable range of roof sizes -- typically 1,500 to 2,800 square feet of roof area -- that allows cost estimation with reasonable accuracy once the material and scope are defined. Understanding the components that make up the total cost empowers Caldwell homeowners to evaluate contractor proposals, compare bids meaningfully, and make informed decisions about material and scope tradeoffs.',
     'Cost transparency matters in [Caldwell](/roofing-in-caldwell-nj) because the small-town dynamic means contractor pricing is discussed among neighbors. A homeowner who pays significantly more than a neighbor for comparable work feels exploited, while a contractor who undercuts quality to win on price produces failures that travel through the neighborhood grapevine. Our [roof replacement cost](/roof-replacement-cost) structure for Caldwell is built on itemized pricing that shows exactly what each component costs -- material, labor, tear-off, deck repair, ventilation, and cleanup -- so the homeowner can see where their money goes and compare proposals on an apples-to-apples basis.',
     'The Caldwell market for residential roofing services is competitive among established contractors, and pricing reflects that competition. Homeowners in the borough can expect architectural shingle replacement to fall within a well-defined price range per square foot that varies based on shingle tier, installation complexity, and contractor quality. Outlier bids -- significantly below or above the market range -- warrant scrutiny: low bids may indicate corners cut on materials or labor, while high bids may reflect margin padding rather than superior quality. Neighbors in [North Caldwell](/roof-replacement-cost-north-caldwell-nj) and [Roseland](/roof-replacement-cost-roseland-nj) see comparable market pricing for similar housing stock.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofReplacementCost: ComboContent = {
     {
       question: 'Is it cheaper to replace a Caldwell roof in winter?',
       answer: 'Some contractors offer modest discounts during the slower winter months to maintain crew employment. However, winter installation carries risks -- cold temperatures prevent shingle adhesive from sealing properly, ice on the roof surface creates safety hazards, and snow events interrupt the project. Spring and early fall offer the best balance of favorable installation conditions and reasonable scheduling availability. We do not discount for winter installation because the quality risks do not justify the cost reduction.'
-    }
+    },
+    {
+      question: 'How much does roof replacement cost cost in Caldwell, NJ?',
+      answer: 'Most roof replacement cost projects in Caldwell range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement cost in Caldwell NJ -- transparent pricing for colonials with itemized proposals and material-tier cost comparisons.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'NJ average for Essex County homes',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement cost estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

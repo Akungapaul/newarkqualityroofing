@@ -4,7 +4,7 @@ export const roselandRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'roseland',
   overview: [
-    'Roof deck repair and replacement addresses the structural foundation beneath every Roseland roof surface. The plywood, OSB, or board sheathing that spans between rafters provides the nailing surface for shingles and the structural diaphragm that transfers wind loads to the building frame. When this decking deteriorates from moisture exposure, age, or structural stress, the roof system above it loses both its mounting integrity and its structural capacity. Our [roof deck repair and replacement](/roof-deck-repair-replacement) service restores this critical foundation during re-roofing projects and as standalone structural repair when deck failure threatens building safety.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Roseland — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement addresses the structural foundation beneath every Roseland roof surface. The plywood, OSB, or board sheathing that spans between rafters provides the nailing surface for shingles and the structural diaphragm that transfers wind loads to the building frame. When this decking deteriorates from moisture exposure, age, or structural stress, the roof system above it loses both its mounting integrity and its structural capacity. Our [roof deck repair and replacement](/roof-deck-repair-replacement) service restores this critical foundation during re-roofing projects and as standalone structural repair when deck failure threatens building safety.',
     'Deck deterioration on Roseland\'s mid-century homes follows patterns related to original construction materials and chronic moisture exposure at specific locations. Homes built during the 1950s often used board sheathing -- individual planks rather than sheet goods -- that develop gaps between boards as the wood dries and shrinks over decades. The 1960s brought plywood and later OSB sheathing that performs well when dry but delaminates rapidly when exposed to sustained moisture from ice dams, condensation, or flashing failures. Each failure type requires a specific repair approach.',
     'The scope of deck repair is rarely visible before tear-off exposes the sheathing surface. Soft spots detectable by walking the roof suggest deterioration, but the full extent emerges only when the existing roofing is removed. Our re-roofing proposals include deck inspection contingency that accounts for the likely repair scope based on the home\'s age, visible condition indicators, and known exposure history. This upfront communication prevents unpleasant surprises during the project. Homeowners in [Livingston](/roof-deck-repair-replacement-livingston-nj) encounter similar deck repair needs on homes from the same construction era.'
   ],
@@ -34,7 +34,25 @@ export const roselandRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'Is plywood or OSB better for roof deck replacement?',
       answer: 'CDX plywood provides superior moisture resistance and structural resilience compared to standard OSB. When individual plywood plies separate from moisture exposure, the panel retains partial structural capacity. OSB loses all structural value when its binding resin fails. However, premium-grade OSB products with enhanced moisture resistance approach plywood performance at lower cost. We use CDX plywood for repairs at moisture-vulnerable locations and premium OSB for field replacement where moisture exposure is minimal.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Roseland, NJ?',
+      answer: 'Most roof deck repair replacement projects in Roseland range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in Roseland NJ -- plywood and OSB sheathing restoration for mid-century homes during re-roofing.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

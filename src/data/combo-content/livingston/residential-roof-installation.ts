@@ -4,7 +4,7 @@ export const livingstonResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'livingston',
   overview: [
-    'Residential roof installation in Livingston serves a housing market spanning postwar split-levels reaching the end of their second roof cycle, colonial renovations adding square footage and roofline complexity, and new construction in planned developments where HOA specifications govern every material choice. Each installation scenario draws on different technical skills, material selections, and coordination requirements that reflect the township\'s architectural diversity within its family-focused suburban character.',
+    'Newark Quality Roofing delivers expert residential roof installation in Livingston — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in Livingston serves a housing market spanning postwar split-levels reaching the end of their second roof cycle, colonial renovations adding square footage and roofline complexity, and new construction in planned developments where HOA specifications govern every material choice. Each installation scenario draws on different technical skills, material selections, and coordination requirements that reflect the township\'s architectural diversity within its family-focused suburban character.',
     'The split-level homes defining Northland, Westminster, and the South Orange Avenue corridor demand installation techniques specifically adapted to their multi-plane geometry. Every roof plane intersection requires custom-fitted step flashing, precisely coursed shingle alignment across elevation changes, and ventilation engineering that accounts for the interrupted attic spaces that split-level framing creates. These homes cannot be shingled like a simple gable roof -- the installation must address each transition individually while integrating the full system into a unified weathertight assembly. Neighboring [West Orange](/residential-roof-installation-west-orange-nj) homeowners face comparable multi-plane challenges on their hillside split-levels, though the slope variations add a different dimension to installation logistics.',
     'New construction installations near Livingston Town Center and along Eisenhower Parkway follow builder specifications and HOA material standards. These projects require coordination with general contractors, adherence to architectural review timelines, and installation quality that satisfies both the builder\'s warranty requirements and the homeowner\'s expectations for a premium suburban property. Our [residential roof installation](/residential-roof-installation) teams bring the production capacity for new construction timelines without compromising the craft quality that distinguishes professional installation from volume-driven work.',
     'Material selection for Livingston installations balances performance against aesthetic expectations. The township\'s well-maintained neighborhoods set a visual standard where roof appearance contributes measurably to curb appeal and property value. We guide homeowners through product comparisons that weigh dimensional shingle profiles, color coordination with siding and trim, warranty structures, and wind resistance ratings appropriate for northern Essex County storm exposure.'
@@ -35,7 +35,25 @@ export const livingstonResidentialRoofInstallation: ComboContent = {
     {
       question: 'Can you install a roof on my Livingston home without damaging the landscaping?',
       answer: 'We protect landscaping with ground-level tarps along all eave lines and position debris chutes to direct tear-off material directly into the dumpster. Magnetic sweepers cover the entire property after installation. Our crews understand that Livingston homeowners invest significantly in their landscapes, and we treat property protection as a non-negotiable part of every installation.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in Livingston, NJ?',
+      answer: 'Most residential roof installation projects in Livingston range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation in Livingston NJ -- split-level ventilation design, HOA-compliant materials, and professional craftsmanship.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

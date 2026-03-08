@@ -4,7 +4,7 @@ export const orangeCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'orange',
   overview: [
-    'Commercial roof installation in Orange serves a business landscape in transition -- Main Street revitalization bringing new mixed-use construction, adaptive reuse converting older buildings to new commercial purposes, and the ongoing need to replace aging roof systems on the industrial and warehouse properties along Mitchell Street and the rail corridor. Our [commercial roof installation](/commercial-roof-installation) projects in Orange deliver roofing systems engineered for each building\'s specific purpose, structural capacity, and environmental exposure, whether the project is a ground-up new build or a complete re-roof of an existing commercial structure.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Orange — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Orange serves a business landscape in transition -- Main Street revitalization bringing new mixed-use construction, adaptive reuse converting older buildings to new commercial purposes, and the ongoing need to replace aging roof systems on the industrial and warehouse properties along Mitchell Street and the rail corridor. Our [commercial roof installation](/commercial-roof-installation) projects in Orange deliver roofing systems engineered for each building\'s specific purpose, structural capacity, and environmental exposure, whether the project is a ground-up new build or a complete re-roof of an existing commercial structure.',
     'New commercial construction on Main Street reflects Orange\'s revitalization momentum. Mixed-use buildings with ground-floor retail and upper-story residential are replacing vacant lots and deteriorated structures, and each new building needs a roof system that serves dual occupancy types. The commercial spaces below need watertight protection for inventory and equipment. The residential spaces above need thermal comfort and acoustic isolation from rain noise. Our new-construction installations specify membrane systems, insulation values, and drainage designs that address both requirements within a single integrated roof assembly.',
     'Orange\'s existing commercial building stock -- the storefronts, offices, churches, and industrial buildings that predate the current revitalization -- needs roof systems that account for decades of structural changes, equipment additions, and deferred maintenance. A new commercial roof installation on an existing Orange building is never as simple as removing the old and installing the new. The existing structure has settled, been modified, and may have hidden damage that only reveals itself during tear-off. Our commercial installation process includes the structural assessment and remediation scope that existing Orange buildings require. Similar existing-building complexities characterize commercial installations across [Newark](/commercial-roof-installation-newark-nj)\'s older commercial districts.'
   ],
@@ -34,7 +34,25 @@ export const orangeCommercialRoofInstallation: ComboContent = {
     {
       question: 'What warranties are available for commercial roofing in Orange?',
       answer: 'We offer manufacturer-backed membrane warranties ranging from 15 to 30 years depending on the system specification. These warranties cover material defects and, when we install as a manufacturer-certified contractor, include labor coverage for warranty repairs. We also provide our own workmanship warranty covering installation quality for 10 years.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Orange, NJ?',
+      answer: 'Most commercial roof installation projects in Orange range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Orange NJ -- Main Street mixed-use, Mitchell Street industrial, new construction, and existing building re-roofing.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

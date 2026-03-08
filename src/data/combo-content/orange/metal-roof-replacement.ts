@@ -4,7 +4,7 @@ export const orangeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Metal roof replacement in Orange upgrades homes from aging asphalt shingle systems to standing seam or metal panel roofing that lasts 40 to 60 years with virtually zero maintenance. Our [metal roof replacement](/metal-roof-replacement) projects appeal to Orange homeowners who are tired of the 20 to 25-year shingle replacement cycle and want a permanent roofing solution -- particularly those on South Mountain\'s hillside where branch impacts, high winds, and debris loading destroy conventional shingles faster than their rated lifespan suggests.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Orange — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Orange upgrades homes from aging asphalt shingle systems to standing seam or metal panel roofing that lasts 40 to 60 years with virtually zero maintenance. Our [metal roof replacement](/metal-roof-replacement) projects appeal to Orange homeowners who are tired of the 20 to 25-year shingle replacement cycle and want a permanent roofing solution -- particularly those on South Mountain\'s hillside where branch impacts, high winds, and debris loading destroy conventional shingles faster than their rated lifespan suggests.',
     'The aesthetics of metal roofing have evolved far beyond the corrugated barn-roof image. Modern standing seam panels in factory-applied colors -- deep charcoal, forest green, matte black, bronze -- complement the architectural character of Orange\'s Victorian homes on Scotland Road and the traditional colonials throughout the city. Metal\'s clean lines and sharp shadow details add a refined quality that distinguishes a home on the block. Several Orange homeowners have chosen metal specifically for its visual impact alongside its performance advantages.',
     'Metal roofing\'s total cost of ownership outperforms asphalt shingles when measured across the building\'s remaining life rather than just the initial installation. An Orange homeowner who would need two shingle replacements over the next 50 years -- approximately $24,000 to $36,000 combined -- can invest $18,000 to $28,000 in metal roofing that needs only one installation and no replacement during that same period. The financial argument is strongest for homeowners planning to stay in their Orange home long-term. Similar lifecycle calculations favor metal for homeowners in [West Orange](/metal-roof-replacement-west-orange-nj).'
   ],
@@ -34,7 +34,25 @@ export const orangeMetalRoofReplacement: ComboContent = {
     {
       question: 'How much does metal roof replacement cost in Orange?',
       answer: 'Standing seam metal roof replacement on a typical Orange home runs $18,000 to $28,000 depending on roof size, complexity, and metal type (Galvalume steel, aluminum, or copper). This is 50 to 80% more than premium asphalt shingle replacement, but the 40 to 60-year lifespan eliminates the second replacement cycle that shingles would require.'
-    }
+    },
+    {
+      question: 'How much does metal roof replacement cost in Orange, NJ?',
+      answer: 'Most metal roof replacement projects in Orange range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Orange NJ -- standing seam installation, South Mountain impact resistance, lifecycle cost advantage, and Victorian color matching.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

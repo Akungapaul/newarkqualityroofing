@@ -4,7 +4,7 @@ export const livingstonWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'livingston',
   overview: [
-    'Wind damage on Livingston roofs presents repair challenges shaped by the township\'s dominant split-level architecture, where multiple roof planes at varying heights create turbulence zones and differential wind loading that conventional gable or hip roofs do not experience. When nor\'easters drive sustained winds across the township or thunderstorm downbursts channel through the tree-lined streets of Northland and Westminster, the upper-story walls on split-levels act as vertical surfaces that redirect wind energy onto adjacent lower roof planes, lifting shingles along the transition and creating entry points for wind-driven rain.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Livingston — with prices starting from $400–$2,000 and free estimates available today. Wind damage on Livingston roofs presents repair challenges shaped by the township\'s dominant split-level architecture, where multiple roof planes at varying heights create turbulence zones and differential wind loading that conventional gable or hip roofs do not experience. When nor\'easters drive sustained winds across the township or thunderstorm downbursts channel through the tree-lined streets of Northland and Westminster, the upper-story walls on split-levels act as vertical surfaces that redirect wind energy onto adjacent lower roof planes, lifting shingles along the transition and creating entry points for wind-driven rain.',
     'The prevailing northwest wind exposure across Livingston\'s relatively flat terrain means west-facing and north-facing roof elevations absorb the greatest wind loading during storm events. Homes along South Orange Avenue and Beaufort Avenue that present broad western exposures are particularly susceptible to shingle tab lifting, ridge cap displacement, and drip edge separation. Our wind damage assessment begins with directional analysis that identifies which roof planes received primary loading based on the storm track, then examines those exposures for the specific failure patterns that wind produces. Homeowners in neighboring [Verona](/wind-damage-roof-repair-verona-nj) share similar northwest exposure vulnerabilities, though their hilltop properties experience higher sustained wind speeds than Livingston\'s sheltered valley terrain.',
     'Our [wind damage roof repair](/wind-damage-roof-repair) methodology distinguishes between cosmetic lift and structural compromise. A shingle tab that lifted during a gust and re-sealed may show a crease line but retain adequate adhesion. A tab that lifted and broke the sealant bond permanently becomes a failure point that will lift again in every subsequent wind event, progressively deteriorating until the shingle releases entirely. Repair decisions depend on this distinction, and our assessment documents the adhesion status of every affected shingle rather than treating all creased tabs as equivalent damage.',
     'HOA communities in western Livingston occasionally experience wind damage across multiple homes simultaneously during severe events. We manage multi-home response efficiently, coordinating with the HOA property manager to assess and repair affected homes within the community using consistent material specifications and scheduling that minimizes disruption across the neighborhood.'
@@ -35,7 +35,25 @@ export const livingstonWindDamageRoofRepair: ComboContent = {
     {
       question: 'Can you repair just the wind-damaged section or does the whole roof need replacement?',
       answer: 'If damage is confined to specific elevations and the remaining roof is in good condition, targeted repair is appropriate and cost-effective. We repair the damaged section with matching shingles and enhanced wind-resistant installation techniques. If damage is widespread across multiple elevations or the existing roof was near end-of-life before the storm, full replacement may be warranted and potentially covered by insurance. Our assessment provides clear guidance on which approach suits your situation.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Livingston, NJ?',
+      answer: 'Most wind damage roof repair projects in Livingston range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Livingston NJ -- split-level uplift repair, directional damage assessment, and insurance-documented restoration.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

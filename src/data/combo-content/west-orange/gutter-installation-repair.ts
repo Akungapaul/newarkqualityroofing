@@ -4,7 +4,7 @@ export const westOrangeGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Gutter systems in West Orange manage more water per linear foot than most Essex County communities, driven by the township\'s terrain that concentrates rainfall into high-velocity runoff patterns from ridge to valley. Our [gutter installation and repair](/gutter-installation-repair) work in West Orange sizes and positions gutters based on each property\'s elevation, roof area, and the drainage watershed that terrain funnels toward the building, ensuring that gutter capacity matches actual water volume rather than generic sizing charts.',
+    'Newark Quality Roofing delivers expert gutter installation repair in West Orange — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems in West Orange manage more water per linear foot than most Essex County communities, driven by the township\'s terrain that concentrates rainfall into high-velocity runoff patterns from ridge to valley. Our [gutter installation and repair](/gutter-installation-repair) work in West Orange sizes and positions gutters based on each property\'s elevation, roof area, and the drainage watershed that terrain funnels toward the building, ensuring that gutter capacity matches actual water volume rather than generic sizing charts.',
     'Ridge-top homes along Eagle Rock Avenue and Prospect Avenue require gutters engineered for wind-driven rain that misses the gutter opening entirely during severe storms. Standard 5-inch K-style gutters with conventional hangers allow water to overshoot the outer edge when wind pushes rain at steep angles. We install 6-inch gutters with extended back flanges on windward roof planes at ridge elevation, capturing the wind-diverted water that narrower gutters miss. Homeowners near [Verona](/gutter-installation-repair-verona-nj) benefit from similar oversized gutter specifications along the exposed Watchung ridge.',
     'Valley-floor properties in Pleasant Valley and Pleasantdale face gutter overflow from concentrated runoff volume. Steep roof pitches accelerate water velocity, and complex multi-gable rooflines converge drainage from multiple roof planes into single gutter runs. These convergence points overwhelm standard gutter capacity during intense rainfall, sending water cascading over gutter edges at the precise locations where foundation protection matters most. We install oversized collector boxes and secondary downspout connections at convergence points on valley-floor [West Orange](/roofing-in-west-orange-nj) homes.',
     'The mature hardwood canopy surrounding South Mountain Reservation creates West Orange\'s most persistent gutter maintenance challenge: leaf and debris accumulation. Oak leaves, maple seeds, hickory nuts, and pine needles fill unprotected gutters within weeks during autumn, creating blockages that transform gutters from drainage channels into water-trapping troughs. Our gutter installations in canopy-adjacent neighborhoods include integrated gutter protection systems that maintain flow capacity through debris season.'
@@ -35,7 +35,25 @@ export const westOrangeGutterInstallationRepair: ComboContent = {
     {
       question: 'How do you handle downspout drainage on hillside lots in West Orange?',
       answer: 'We install underground drainage connections that pipe downspout discharge to approved release points downhill from the foundation. PVC drain pipe runs from the downspout base through a below-grade trench to a pop-up emitter or daylight outlet positioned to drain away from the building and neighboring properties. This underground system prevents the surface erosion and foundation undermining that unmanaged downspout discharge creates on West Orange\'s sloped terrain.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in West Orange, NJ?',
+      answer: 'Most gutter installation repair projects in West Orange range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in West Orange NJ. Seamless aluminum and copper gutters sized for ridge-top to valley-floor drainage.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

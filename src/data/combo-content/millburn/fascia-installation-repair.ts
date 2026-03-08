@@ -4,7 +4,7 @@ export const millburnFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'millburn',
   overview: [
-    'Fascia boards on Millburn estates frame the roofline with a finished edge that supports the gutter system, seals the rafter tails against weather and pests, and presents the clean architectural line that estate-grade construction demands. On the Tudor revivals, Georgian colonials, and custom contemporary homes throughout Short Hills and Wyoming, fascia is not merely a functional component -- it is an architectural detail that defines the home\'s character at the roof edge, often crafted from clear cedar, painted mahogany, or wrapped in custom-bent copper or aluminum coil stock profiled to match the original design specification.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Millburn — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards on Millburn estates frame the roofline with a finished edge that supports the gutter system, seals the rafter tails against weather and pests, and presents the clean architectural line that estate-grade construction demands. On the Tudor revivals, Georgian colonials, and custom contemporary homes throughout Short Hills and Wyoming, fascia is not merely a functional component -- it is an architectural detail that defines the home\'s character at the roof edge, often crafted from clear cedar, painted mahogany, or wrapped in custom-bent copper or aluminum coil stock profiled to match the original design specification.',
     'Fascia deterioration on Millburn properties typically originates from gutter overflow or ice-dam melt that saturates the wood substrate behind the protective paint film or metal wrap. The moisture migrates into the fascia board from the top edge -- the one surface that paint rarely protects fully -- and initiates rot that spreads downward through the board while the visible painted face still appears sound. By the time exterior deterioration becomes visible, the rot has often extended into the rafter tails or soffit framing behind the fascia, transforming a board replacement into a carpentry repair that addresses the structural connection between the fascia and the roof framework.',
     'Our [fascia installation and repair](/fascia-installation-repair) approach on Millburn estates treats the fascia as a system connected to the gutter, soffit, drip edge, and rafter tails rather than as an isolated board. Replacing a rotted fascia board without addressing the gutter overflow that caused the rot, the missing drip edge that allowed water behind the fascia, or the deteriorated rafter tails that no longer provide adequate nailing substrate produces a repair that will fail within a few years. Properties across Essex County -- from [Montclair](/fascia-installation-repair-montclair-nj) to [Caldwell](/fascia-installation-repair-caldwell-nj) -- face similar fascia challenges, but Millburn\'s premium materials and architectural expectations elevate the repair standard significantly.'
   ],
@@ -34,7 +34,25 @@ export const millburnFasciaInstallationRepair: ComboContent = {
     {
       question: 'Can you wrap my existing wood fascia with aluminum or copper instead of repainting?',
       answer: 'Yes, provided the existing wood is structurally sound. Metal wrapping eliminates future paint maintenance and provides a weather-resistant shell over the wood substrate. Aluminum coil stock in baked-enamel finishes is the most common wrap material, available in colors that match the home\'s trim palette. For estate properties where copper gutters define the roofline aesthetic, copper fascia wrap creates a unified material vocabulary at the roof edge. We verify the wood condition before wrapping because encapsulating deteriorated wood behind metal conceals a problem that will eventually require more extensive repair.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in Millburn, NJ?',
+      answer: 'Most fascia installation repair projects in Millburn range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair for Millburn and Short Hills estates. Custom-milled profiles, copper wrapping, and rot remediation with rafter-tail restoration.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const millburnPvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'millburn',
   overview: [
-    'PVC roofing in Millburn addresses a specific niche within the township\'s commercial building stock where chemical resistance and grease tolerance are essential performance requirements that other single-ply membranes cannot satisfy. The restaurants along Millburn Avenue -- from upscale dining establishments to neighborhood bistros -- exhaust cooking fumes containing oils and greases that degrade TPO and EPDM membranes over time but leave PVC unaffected. Medical and dental offices with chemical sterilization equipment, veterinary practices, and dry-cleaning facilities similarly produce airborne chemicals that accumulate on roof surfaces and require a membrane engineered to resist degradation from these exposures.',
+    'Newark Quality Roofing delivers expert pvc roofing in Millburn — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing in Millburn addresses a specific niche within the township\'s commercial building stock where chemical resistance and grease tolerance are essential performance requirements that other single-ply membranes cannot satisfy. The restaurants along Millburn Avenue -- from upscale dining establishments to neighborhood bistros -- exhaust cooking fumes containing oils and greases that degrade TPO and EPDM membranes over time but leave PVC unaffected. Medical and dental offices with chemical sterilization equipment, veterinary practices, and dry-cleaning facilities similarly produce airborne chemicals that accumulate on roof surfaces and require a membrane engineered to resist degradation from these exposures.',
     'PVC\'s heat-welded seam technology produces the strongest seam bond available in single-ply roofing, creating a monolithic membrane where seam strength actually exceeds field-sheet strength. This characteristic is particularly valuable on Millburn commercial buildings where small roof areas create proportionally more linear feet of seam per square foot of membrane than larger commercial installations in municipalities like [Newark](/pvc-roofing-newark-nj) or [Bloomfield](/pvc-roofing-bloomfield-nj). The concentration of seams on compact roofs means that seam performance is the governing reliability factor, and PVC\'s welded seams outperform the adhesive or tape seams used on TPO and EPDM systems.',
     'Beyond chemical resistance, PVC membranes offer Millburn commercial property owners a reflective roofing surface that meets New Jersey\'s energy code requirements for cool-roof compliance. The white membrane surface reduces cooling loads during summer months, and the rigid PVC formulation maintains its dimensional stability through temperature extremes without the thermal-expansion challenges that affect more flexible membrane materials. For Millburn\'s professional office buildings where energy costs and building performance are managed as part of the property\'s operating budget, PVC delivers measurable efficiency improvements.'
   ],
@@ -34,7 +34,25 @@ export const millburnPvcRoofing: ComboContent = {
     {
       question: 'Can PVC roofing be recycled at the end of its service life?',
       answer: 'Yes. PVC is one of the most recyclable roofing membranes available. Post-consumer PVC membrane is collected, cleaned, and reprocessed into new roofing material, reducing landfill waste and raw-material consumption. Several PVC manufacturers operate take-back programs for end-of-life membrane. When we remove PVC roofing during re-roofing projects, we separate the membrane for recycling rather than sending it to landfill, supporting the material\'s lifecycle sustainability.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in Millburn, NJ?',
+      answer: 'Most pvc roofing projects in Millburn range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing for Millburn restaurants, medical offices, and commercial buildings. Chemical-resistant membrane with heat-welded seams and cool-roof performance.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

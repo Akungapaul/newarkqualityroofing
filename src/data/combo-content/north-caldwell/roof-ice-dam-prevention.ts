@@ -4,7 +4,7 @@ export const northCaldwellRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'north-caldwell',
   overview: [
-    'Ice dam prevention on North Caldwell estates addresses the root causes of a winter problem that plagues homes with complex roof geometries, deep valleys, and the multiple intersecting planes that characterize custom-built properties throughout the borough. The large attic volumes in these estate homes, combined with inadequate insulation boundaries and insufficient ventilation pathways, create the temperature differentials between roof surface and ambient air that melt snow on upper roof sections and refreeze it at colder eaves -- forming the ice dams that back water under shingles and into living spaces.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in North Caldwell — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention on North Caldwell estates addresses the root causes of a winter problem that plagues homes with complex roof geometries, deep valleys, and the multiple intersecting planes that characterize custom-built properties throughout the borough. The large attic volumes in these estate homes, combined with inadequate insulation boundaries and insufficient ventilation pathways, create the temperature differentials between roof surface and ambient air that melt snow on upper roof sections and refreeze it at colder eaves -- forming the ice dams that back water under shingles and into living spaces.',
     'Our [ice dam prevention](/roof-ice-dam-prevention) approach in North Caldwell prioritizes permanent remediation over symptom treatment. Heat cables taped along eaves manage the symptom but not the cause. The root cause is almost always insufficient attic insulation, air leakage from living space into attic cavities, or blocked ventilation pathways that prevent cold outdoor air from maintaining a consistent roof surface temperature. Addressing these three factors eliminates ice dams permanently on the vast majority of North Caldwell homes.',
     'The estate-scale complexity of [North Caldwell](/roofing-in-north-caldwell-nj) homes creates ice dam conditions in locations that smaller homes rarely experience. Dormered sections where attic insulation is compressed against roof sheathing, cathedral ceiling areas where ventilation channels are blocked by framing, and multi-level transitions where warm air from lower living spaces migrates into upper attic cavities all contribute to the uneven roof temperatures that produce ice dams. Homeowners in neighboring [Caldwell](/roof-ice-dam-prevention-caldwell-nj) experience ice dams primarily at eaves, while North Caldwell\'s complex roof forms create damming in valleys, at dormers, and along sidewall transitions as well.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellRoofIceDamPrevention: ComboContent = {
     {
       question: 'How do I know if my North Caldwell home\'s ice dam problem is solved?',
       answer: 'Post-remediation thermal imaging confirms that heat loss patterns have been eliminated. The true test comes during the next winter with snow cover -- a properly remediated roof maintains uniform snow coverage without the melt-refreeze patterns that indicate heat loss. We schedule follow-up imaging during the first winter after remediation to verify results and address any remaining issues.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in North Caldwell, NJ?',
+      answer: 'Most roof ice dam prevention projects in North Caldwell range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in North Caldwell NJ -- thermal imaging, insulation, and ventilation solutions for estate homes with complex roof systems.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

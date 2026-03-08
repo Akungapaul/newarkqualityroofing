@@ -4,7 +4,7 @@ export const cedarGroveRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'cedar-grove',
   overview: [
-    'Cedar Grove homeowners tend toward careful property stewardship, and roof inspections are a natural extension of that maintenance-oriented culture. In a township where ranch homes from the 1950s through 1970s constitute the dominant housing type, regular inspections catch the subtle signs of low-pitch roof deterioration -- granule accumulation in gutters, softening sheathing beneath persistent shade, ventilation inadequacy -- before these conditions escalate into expensive repair or premature replacement. Our [roof inspection](/roof-inspection) protocol for Cedar Grove addresses the specific vulnerabilities that the township\'s housing stock and northern Essex County climate create.',
+    'Newark Quality Roofing delivers expert roof inspection in Cedar Grove — with prices starting from $150–$400 and free estimates available today. Cedar Grove homeowners tend toward careful property stewardship, and roof inspections are a natural extension of that maintenance-oriented culture. In a township where ranch homes from the 1950s through 1970s constitute the dominant housing type, regular inspections catch the subtle signs of low-pitch roof deterioration -- granule accumulation in gutters, softening sheathing beneath persistent shade, ventilation inadequacy -- before these conditions escalate into expensive repair or premature replacement. Our [roof inspection](/roof-inspection) protocol for Cedar Grove addresses the specific vulnerabilities that the township\'s housing stock and northern Essex County climate create.',
     'The timing of Cedar Grove roof inspections matters as much as the inspection itself. Spring inspections reveal winter damage from ice dam activity, freeze-thaw cycling, and heavy snow loads that Cedar Grove\'s elevated terrain produces in greater measure than lowland Essex communities. Fall inspections assess the roof\'s readiness for the coming winter, checking that ventilation is adequate, flashing is secure, and the leaf debris from Cedar Grove\'s abundant deciduous trees has been cleared from valleys and gutters. Homeowners in neighboring [North Caldwell](/roof-inspection-north-caldwell-nj) face similar seasonal inspection needs along the shared ridge.',
     'Commercial property managers along Route 23 and Pompton Avenue rely on scheduled roof inspections to manage maintenance budgets and prevent the tenant disruption that unexpected leaks cause. Our commercial inspection reports include condition scoring, photographic documentation, and prioritized repair recommendations that allow building owners to plan capital expenditures rather than react to emergencies.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofInspection: ComboContent = {
       question: 'Can your inspection detect hidden leaks in my Cedar Grove home?',
       answer: 'Our inspection combines visual assessment with moisture meter probing at critical junctions to identify active and developing leak paths. We check beneath flashing at chimney and wall intersections, around plumbing vents, and along ice-dam-prone eave lines. For suspected concealed leaks behind siding overlays, we use infrared scanning when conditions permit to map temperature differentials that indicate moisture presence.',
     },
+    {
+      question: 'How much does roof inspection cost in Cedar Grove, NJ?',
+      answer: 'Most roof inspection projects in Cedar Grove range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar Grove NJ roof inspection for ranch and colonial homes. Thorough low-pitch assessment, ventilation checks, and tree damage evaluation.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

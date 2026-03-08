@@ -4,7 +4,7 @@ export const millburnFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Fire damage roof replacement on Millburn estates addresses the catastrophic structural destruction that fire inflicts on roof framing, sheathing, and all roofing materials above the fire origin. Whether the fire started within the home and burned through the roof structure from below, or began externally from a chimney fire, electrical fault, or lightning strike and destroyed the roofing from above, the replacement scope encompasses not just roofing materials but structural framing, sheathing, insulation, and the complete weather-barrier assembly that the fire compromised or destroyed.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Millburn — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement on Millburn estates addresses the catastrophic structural destruction that fire inflicts on roof framing, sheathing, and all roofing materials above the fire origin. Whether the fire started within the home and burned through the roof structure from below, or began externally from a chimney fire, electrical fault, or lightning strike and destroyed the roofing from above, the replacement scope encompasses not just roofing materials but structural framing, sheathing, insulation, and the complete weather-barrier assembly that the fire compromised or destroyed.',
     'The restoration of fire-damaged roofs on Millburn\'s estate properties involves rebuilding roofing systems that may have incorporated premium materials -- slate, copper, cedar -- whose replacement requires the same material-sourcing expertise and installation craftsmanship as the original construction. A fire that destroys a section of Vermont unfading green slate on a Short Hills Tudor demands restoration with matching slate sourced from quarry or salvage, not substitution with a generic alternative that would compromise the home\'s architectural integrity and diminish its market value.',
     'Our [fire damage roof replacement](/fire-damage-roof-replacement) practice coordinates with the homeowner\'s general contractor, structural engineer, and insurance carrier to integrate the roof replacement into the broader fire-restoration project. The roof must be weathertight before interior restoration can proceed, making the roofing timeline the critical path in the overall restoration schedule. We prioritize temporary weatherproofing immediately after the fire is extinguished, then develop the permanent replacement specification and procurement plan that governs the project timeline.'
   ],
@@ -34,7 +34,25 @@ export const millburnFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Can the roof restoration incorporate improvements or upgrades?',
       answer: 'Yes. The insurance claim covers restoration to pre-loss condition, but the homeowner can elect to upgrade materials or add improvements -- better insulation, enhanced ventilation, upgraded flashings -- at their own expense for the cost difference. Fire-damage restoration provides a unique opportunity to improve the roof assembly because the structural framing is exposed and accessible for modifications that would be impractical without the full tear-off that fire restoration requires.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Millburn, NJ?',
+      answer: 'Most fire damage roof replacement projects in Millburn range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement for Millburn estates. Emergency weatherproofing, structural repair, and premium material restoration with insurance coordination.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

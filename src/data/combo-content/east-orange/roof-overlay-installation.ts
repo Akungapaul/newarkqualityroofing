@@ -4,7 +4,7 @@ export const eastOrangeRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'east-orange',
   overview: [
-    'Roof overlay installation provides East Orange property owners with a re-roofing option that eliminates tear-off labor and disposal costs by installing new shingles directly over the existing single layer of roofing. For landlords managing tight renovation budgets on multi-family investment properties throughout Doddtown, Elmwood Park, and the Ampere neighborhood, [overlay](/roof-overlay-installation) can reduce re-roofing costs by 25 to 35 percent compared to full tear-off and replacement -- savings that redirect capital toward interior renovations, mechanical upgrades, and code compliance work that directly impact rental income and property valuation.',
+    'Newark Quality Roofing delivers expert roof overlay installation in East Orange — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation provides East Orange property owners with a re-roofing option that eliminates tear-off labor and disposal costs by installing new shingles directly over the existing single layer of roofing. For landlords managing tight renovation budgets on multi-family investment properties throughout Doddtown, Elmwood Park, and the Ampere neighborhood, [overlay](/roof-overlay-installation) can reduce re-roofing costs by 25 to 35 percent compared to full tear-off and replacement -- savings that redirect capital toward interior renovations, mechanical upgrades, and code compliance work that directly impact rental income and property valuation.',
     'Overlay eligibility requires specific conditions that not all East Orange buildings meet. The existing roof must carry only one layer of shingles, the deck beneath must be structurally sound with no evidence of rot or moisture damage, the existing shingles must lie reasonably flat without excessive curling or buckling, and East Orange Building Department must approve the overlay approach on the building permit application. Buildings with two existing layers, known deck problems, or pronounced shingle distortion require tear-off rather than overlay.',
     'The tradeoff between overlay cost savings and reduced long-term performance is a conversation East Orange property owners should have before committing. Overlay roofs typically deliver 15 to 20 percent shorter service life than tear-off installations because the new shingles rest on an irregular surface that prevents full underlayment adhesion and creates void spaces that trap heat and accelerate granule loss. For investment properties with 5 to 10-year hold periods, the shorter absolute lifespan may not matter -- the overlay will outlast the hold period. For owner-occupied homes where 25-year performance is the expectation, tear-off installation provides better value despite higher initial cost, the same calculation property owners across Essex County from [Bloomfield](/roof-overlay-installation-bloomfield-nj) to Caldwell evaluate.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeRoofOverlayInstallation: ComboContent = {
     {
       question: 'Can I do overlay on my East Orange flat-roofed apartment building?',
       answer: 'Overlay on flat roofs uses different technology than shingle-over-shingle overlay. Modified bitumen or certain membrane systems can be installed over existing flat roof membranes if the existing system is dry, adhered, and structurally sound. The same eligibility criteria apply: existing conditions must support the additional material without concealing problems. Flat-roof overlay assessment is more complex than pitched-roof evaluation because moisture trapped in flat-roof insulation is more common and more damaging.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in East Orange, NJ?',
+      answer: 'Most roof overlay installation projects in East Orange range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation for East Orange NJ homes -- cost-effective re-roofing over existing shingles for multi-family investment properties.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

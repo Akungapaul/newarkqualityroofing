@@ -4,7 +4,7 @@ export const veronaRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'verona',
   overview: [
-    'Roof waterproofing in Verona goes beyond standard roofing installation to address the specific moisture vulnerability points that the township\'s split-level architecture and mature canopy environment create. Standard shingle installation with minimum code underlayment may suffice on a simple gable home in an open setting, but Verona homes demand enhanced waterproofing at level transitions, in canopy-shaded valleys, and on low-pitch sections where water dwells longer than steep surfaces allow. Newark Quality Roofing provides waterproofing solutions that address each vulnerability with targeted membrane and coating applications.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Verona — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Verona goes beyond standard roofing installation to address the specific moisture vulnerability points that the township\'s split-level architecture and mature canopy environment create. Standard shingle installation with minimum code underlayment may suffice on a simple gable home in an open setting, but Verona homes demand enhanced waterproofing at level transitions, in canopy-shaded valleys, and on low-pitch sections where water dwells longer than steep surfaces allow. Newark Quality Roofing provides waterproofing solutions that address each vulnerability with targeted membrane and coating applications.',
     'The critical waterproofing locations on Verona homes cluster where geometry concentrates water or slows its drainage. Level transitions on split-levels collect runoff from the upper plane and funnel it along the transition wall before releasing it onto the lower roof section. Valleys where roof planes converge channel the combined runoff into a narrow stream that develops hydrostatic pressure against shingle courses. Low-pitch sections over garages and additions hold water longer during rain events, testing the underlying membrane more aggressively than steep planes. Our [roof waterproofing](/roof-waterproofing) specifications address each of these conditions with appropriate membrane products.',
     'The distinction between roofing and waterproofing is important for Verona homeowners to understand. Roofing sheds water by gravity through overlapping courses -- it works only because the water keeps moving. Waterproofing creates a continuous, sealed membrane that resists standing water -- it works even when water stops moving. The vulnerable locations on Verona homes need waterproofing, not just roofing, because water accumulates and dwells at transitions, valleys, and low-pitch areas rather than flowing cleanly off the surface. Homeowners in [Montclair](/roof-waterproofing-montclair-nj) with Victorian multi-level homes face similar waterproofing challenges at their complex roof intersections.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofWaterproofing: ComboContent = {
     {
       question: 'How much does enhanced waterproofing add to a Verona roof replacement?',
       answer: 'Extending ice-and-water shield membrane beyond code minimums to cover all transitions, valleys, and vulnerable junctions on a Verona split-level typically adds $800 to $1,500 to the roof replacement cost. This represents roughly 3 to 5 percent of the total project cost and eliminates the most common leak sources for the entire life of the new roof. We consider this the highest-return investment available during a roof replacement and include it as a standard specification rather than an optional upgrade.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Verona, NJ?',
+      answer: 'Most roof waterproofing projects in Verona range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Verona NJ -- ice-and-water shield, transition membranes, and valley waterproofing for split-level leak prevention.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

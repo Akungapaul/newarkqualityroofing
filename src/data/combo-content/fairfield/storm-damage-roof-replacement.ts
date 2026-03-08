@@ -4,7 +4,7 @@ export const fairfieldStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'fairfield',
   overview: [
-    'Storm damage roof replacement in Fairfield responds to the severe weather events that periodically overwhelm residential roofing systems beyond repair. The township\'s exposure to the Route 46 wind corridor amplifies storm damage potential -- homes along Fairfield Road and in the developments near the highway experience higher wind speeds during thunderstorms and nor\'easters than sheltered interior neighborhoods. When storm damage -- wind-lifted shingle fields, fallen tree impacts, or widespread hail damage -- exceeds the threshold where repair is practical, full replacement becomes the path to restoring complete weather protection.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Fairfield — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Fairfield responds to the severe weather events that periodically overwhelm residential roofing systems beyond repair. The township\'s exposure to the Route 46 wind corridor amplifies storm damage potential -- homes along Fairfield Road and in the developments near the highway experience higher wind speeds during thunderstorms and nor\'easters than sheltered interior neighborhoods. When storm damage -- wind-lifted shingle fields, fallen tree impacts, or widespread hail damage -- exceeds the threshold where repair is practical, full replacement becomes the path to restoring complete weather protection.',
     'Storm damage assessment in Fairfield must distinguish between surface damage that affects appearance and structural damage that compromises waterproofing. Missing shingle tabs, dented metal flashing, and displaced ridge caps may look alarming but often represent repairable conditions. Torn shingle mats, punctured decking from fallen trees, and widespread hail fracturing that compromises shingle integrity require replacement because the damage has penetrated beyond the surface layer. Our [storm damage replacement](/storm-damage-roof-replacement) assessments evaluate the full depth of damage -- not just what is visible from the ground -- to provide accurate repair-versus-replace recommendations for Fairfield homeowners.',
     'Insurance coordination is integral to storm damage replacement in Fairfield. Most storm-damaged roofs qualify for homeowner insurance coverage, and the claims process determines both the financial scope and timing of the replacement. We work with Fairfield homeowners through every stage -- emergency tarping, damage documentation, adjuster coordination, supplement filing when needed, and finally the replacement itself. Properties in [North Caldwell](/storm-damage-roof-replacement-north-caldwell-nj) and across western Essex County receive the same comprehensive storm-response support.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Can I upgrade my roof materials during a storm damage replacement in Fairfield?',
       answer: 'Yes. Insurance covers replacement with equivalent materials, and you can upgrade by paying the difference between the covered replacement cost and the upgraded material cost. Many Fairfield homeowners use storm damage replacement as an opportunity to upgrade from builder-grade three-tab shingles to premium architectural shingles or impact-resistant products that reduce future storm damage risk. We present upgrade options with clear cost differentials during the planning process.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Fairfield, NJ?',
+      answer: 'Most storm damage roof replacement projects in Fairfield range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Fairfield NJ. Emergency response, insurance coordination, and full replacement after severe weather.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

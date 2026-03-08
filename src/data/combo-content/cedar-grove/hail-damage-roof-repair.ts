@@ -4,7 +4,7 @@ export const cedarGroveHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'cedar-grove',
   overview: [
-    'Hail events in Cedar Grove arrive with the severe summer thunderstorms that build along the Watchung Mountain ridge, delivering ice projectiles that dent, crack, and bruise roofing materials across the township\'s residential neighborhoods. The damage is often deceptive -- a hail-impacted asphalt shingle may show no visible cracking from the ground but carry granule displacement and bruised underlayment that compromises weather resistance for years. Our [hail damage roof repair](/hail-damage-roof-repair) approach in Cedar Grove combines thorough on-roof damage mapping with the insurance documentation expertise that converts legitimate damage claims into properly funded repairs.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Cedar Grove — with prices starting from $500–$2,500 and free estimates available today. Hail events in Cedar Grove arrive with the severe summer thunderstorms that build along the Watchung Mountain ridge, delivering ice projectiles that dent, crack, and bruise roofing materials across the township\'s residential neighborhoods. The damage is often deceptive -- a hail-impacted asphalt shingle may show no visible cracking from the ground but carry granule displacement and bruised underlayment that compromises weather resistance for years. Our [hail damage roof repair](/hail-damage-roof-repair) approach in Cedar Grove combines thorough on-roof damage mapping with the insurance documentation expertise that converts legitimate damage claims into properly funded repairs.',
     'Cedar Grove\'s ranch-style homes take hail impacts across their wide, low-pitched roof planes with minimal self-drainage of accumulated hailstones. Where steep-pitched roofs shed hailstones rapidly as they accumulate, the shallow slopes of Cedar Grove ranches hold hail in place during the storm, allowing repeated impacts to the same shingle surfaces. This concentration effect means that hail damage on a Cedar Grove ranch roof can be significantly more severe than on steeper-pitched homes in nearby [Verona](/hail-damage-roof-repair-verona-nj) that experienced the same storm with equal hailstone size.',
     'Insurance carriers serving Cedar Grove properties have specific documentation requirements for hail damage claims, and our assessment methodology meets every standard. We map damage density across defined test squares, photograph individual impact marks with scale references, and provide material specifications that demonstrate the repair or replacement scope required. This documentation ensures Cedar Grove homeowners receive fair claim settlements.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveHailDamageRoofRepair: ComboContent = {
       question: 'Can hail damage be repaired or does the entire roof need replacement?',
       answer: 'The answer depends on damage density and distribution. If hail impacts are concentrated on one or two roof planes and the remaining surfaces are undamaged, targeted repair by replacing the affected sections is appropriate. When damage is widespread across multiple planes -- which is common on Cedar Grove ranch roofs due to their low-pitch retention of hailstones -- full replacement provides the most cost-effective long-term solution and resets the warranty clock.',
     },
+    {
+      question: 'How much does hail damage roof repair cost in Cedar Grove, NJ?',
+      answer: 'Most hail damage roof repair projects in Cedar Grove range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Cedar Grove NJ. Professional damage assessment, insurance claim documentation, and repair for ranch homes.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

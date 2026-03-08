@@ -4,7 +4,7 @@ export const livingstonAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'livingston',
   overview: [
-    'Asphalt shingle roof replacement is the most common roofing project on Livingston homes, serving the township\'s broad middle market of split-levels, colonials, and raised ranches where dimensional architectural shingles provide the optimal balance of performance, appearance, and investment value. The current generation of architectural shingles from GAF, CertainTeed, and Owens Corning delivers dramatic improvements over the three-tab products installed on many Livingston homes during previous roof cycles -- heavier weight, stronger wind resistance, more dimensional profiles, and longer warranty terms.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Livingston — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common roofing project on Livingston homes, serving the township\'s broad middle market of split-levels, colonials, and raised ranches where dimensional architectural shingles provide the optimal balance of performance, appearance, and investment value. The current generation of architectural shingles from GAF, CertainTeed, and Owens Corning delivers dramatic improvements over the three-tab products installed on many Livingston homes during previous roof cycles -- heavier weight, stronger wind resistance, more dimensional profiles, and longer warranty terms.',
     'Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) projects on Livingston homes follow a whole-system approach that replaces the shingles, underlayment, flashing, and ventilation components as an integrated assembly rather than just swapping the surface material. This comprehensive approach addresses the accumulated deterioration throughout the roof system that contributes to premature failure of the new shingles if left unaddressed.',
     'Product selection for Livingston asphalt shingle replacement draws from the premium architectural lines that carry the strongest warranty terms and performance ratings. GAF Timberline HDZ, CertainTeed Landmark Pro, and Owens Corning Duration are our most frequently installed products in the township -- each offering 130+ MPH wind resistance, algae resistance for Livingston\'s humid summers, and dimensional profiles that enhance curb appeal. Homeowners in [Cedar Grove](/asphalt-shingle-roof-replacement-cedar-grove-nj) select from the same product lines for their comparable ranch-style replacement projects.',
     'HOA color matching in Livingston\'s governed communities requires attention during replacement. We verify community color standards before ordering materials and bring physical samples to the home for evaluation against the existing siding and trim. The color selection process ensures the new roof enhances the home\'s appearance within the community context.'
@@ -35,7 +35,25 @@ export const livingstonAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'How long does asphalt shingle replacement take on a Livingston split-level?',
       answer: 'Most Livingston split-level replacements complete in three to four days including tear-off, deck repair, underlayment, and shingle installation. The multi-plane geometry requires more time per square than simple gable roofs. Weather delays may extend the timeline, but the underlayment system protects the home between work sessions. We provide a specific timeline estimate based on your home\'s size and complexity.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Livingston, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Livingston range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Livingston NJ -- GAF, CertainTeed, and Owens Corning architectural shingles with whole-system installation.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

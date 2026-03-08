@@ -4,7 +4,7 @@ export const southOrangeRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'south-orange',
   overview: [
-    'Roof deck repair and replacement in South Orange Village addresses the structural substrate beneath the premium roofing materials these homes carry. The plywood or board sheathing that forms the roof deck is invisible once roofing is installed, yet its condition determines whether the roofing material above performs properly, how long it lasts, and whether the structural integrity of the roof framing is maintained. Deteriorated decking beneath South Orange\'s slate and cedar shake installations silently undermines investments that homeowners made with the expectation of decades of service.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in South Orange — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck repair and replacement in South Orange Village addresses the structural substrate beneath the premium roofing materials these homes carry. The plywood or board sheathing that forms the roof deck is invisible once roofing is installed, yet its condition determines whether the roofing material above performs properly, how long it lasts, and whether the structural integrity of the roof framing is maintained. Deteriorated decking beneath South Orange\'s slate and cedar shake installations silently undermines investments that homeowners made with the expectation of decades of service.',
     'South Orange\'s older homes were built with solid board sheathing rather than the plywood panels that modern construction uses. These original 1x6 or 1x8 tongue-and-groove boards have served admirably for a century, but localized deterioration from past roof leaks, ice dam damage, and biological attack from the village\'s persistent moisture environment creates soft spots and structural weakness that must be addressed during any roof replacement or repair project. Ignoring deck condition and installing new roofing over deteriorated substrate is a costly mistake that produces premature failure.',
     'Deck conditions become visible only when the existing roofing material is removed, which is why we emphasize full tear-off rather than overlay on every South Orange project. Overlay installations conceal deteriorated decking that continues to worsen beneath the new roofing, eventually requiring the premature removal of roofing material that should have had decades of service life remaining. Our [roof deck repair](/roof-deck-repair-replacement) commitment to full tear-off ensures every South Orange installation begins with verified substrate integrity.',
     'Our deck repair and replacement work in [South Orange](/roofing-in-south-orange-nj) uses materials and techniques that match the specific requirements of the roofing material to be installed above. Slate roofing requires thicker decking than asphalt shingles due to the concentrated point loads from individual slate fasteners. Cedar shake installed over skip sheathing needs the board spacing that provides ventilation beneath the shakes. Metal roofing demands flat, smooth decking that prevents panel distortion. Each roofing material imposes specific substrate requirements that our deck work satisfies.'
@@ -35,7 +35,25 @@ export const southOrangeRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'What causes roof deck deterioration on South Orange homes?',
       answer: 'The primary causes are water infiltration through failed flashing or roofing, ice dam damage that forces water under the roofing material, and condensation from inadequate attic ventilation that deposits moisture on the underside of the decking. South Orange\'s heavy tree canopy creates persistent shade and debris accumulation that concentrates moisture exposure on the roof surface, accelerating deterioration where the canopy influence is strongest.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in South Orange, NJ?',
+      answer: 'Most roof deck repair replacement projects in South Orange range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair and replacement in South Orange NJ -- structural substrate restoration for slate, cedar, and shingle roof systems.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

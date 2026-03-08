@@ -4,7 +4,7 @@ export const nutleyFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'nutley',
   overview: [
-    'Flat roof replacement in Nutley serves the commercial buildings along Franklin Avenue, the mixed-use properties on Centre Street, and the residential additions and attached garages where low-slope membranes protect living spaces below. While Nutley\'s residential identity centers on pitched-roof Tudors and Colonials, the township\'s commercial core depends on flat-roof systems that perform invisibly -- keeping inventory dry, HVAC equipment stable, and occupied spaces below free from the ceiling stains and mold growth that signal membrane failure. Our [flat roof replacement](/flat-roof-replacement) projects in Nutley prioritize positive drainage, energy-efficient membrane selection, and the warranty coverage that commercial property owners require.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Nutley — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement in Nutley serves the commercial buildings along Franklin Avenue, the mixed-use properties on Centre Street, and the residential additions and attached garages where low-slope membranes protect living spaces below. While Nutley\'s residential identity centers on pitched-roof Tudors and Colonials, the township\'s commercial core depends on flat-roof systems that perform invisibly -- keeping inventory dry, HVAC equipment stable, and occupied spaces below free from the ceiling stains and mold growth that signal membrane failure. Our [flat roof replacement](/flat-roof-replacement) projects in Nutley prioritize positive drainage, energy-efficient membrane selection, and the warranty coverage that commercial property owners require.',
     'The most common flat roof replacement scenario in Nutley involves transitioning from aging modified bitumen or built-up roofing to modern single-ply membranes -- TPO or PVC -- that deliver superior reflectivity, chemical resistance, and weld-seam integrity compared to the torch-applied or hot-mopped systems installed during the 1990s and early 2000s. Property owners in neighboring [Bloomfield](/flat-roof-replacement-bloomfield-nj) and [Belleville](/flat-roof-replacement-belleville-nj) face similar transition decisions on their commercial stock, though Nutley\'s smaller building footprints often allow single-day membrane installation once preparation is complete.',
     'Residential flat roof replacement in [Nutley](/roofing-in-nutley-nj) typically involves rear additions, sunroom roofs, and attached garage sections where the original construction used rolled roofing or single-ply rubber that has exceeded its service life. These smaller residential flat sections benefit from TPO or EPDM membranes installed with fully adhered attachment and properly designed edge-metal terminations that integrate with the adjacent pitched-roof system.'
   ],
@@ -34,7 +34,25 @@ export const nutleyFlatRoofReplacement: ComboContent = {
     {
       question: 'Can a new flat roof be installed over the existing membrane?',
       answer: 'Recover installations -- installing new membrane over existing -- are possible when the existing insulation is dry and structurally sound, confirmed by core sampling. Recovers save tear-off costs but add weight and may not allow tapered insulation installation for drainage correction. We recommend full tear-off when core samples show wet insulation or when drainage problems need correction through tapered insulation.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Nutley, NJ?',
+      answer: 'Most flat roof replacement projects in Nutley range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Nutley NJ -- TPO and PVC membranes, tapered drainage systems, and commercial expertise for Franklin Avenue properties.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

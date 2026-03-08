@@ -4,7 +4,7 @@ export const roselandCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Commercial roof replacement in Roseland transitions aging membrane systems on the borough\'s office buildings and business properties to modern roofing assemblies with improved insulation, energy performance, and warranty coverage. When repair costs accumulate, membrane integrity declines systemically, or insulation moisture renders the existing assembly ineffective, planned replacement provides better long-term value than continued reactive maintenance. Our [commercial roof replacement](/commercial-roof-replacement) manages the full process from system specification through installation, tenant coordination, and warranty documentation.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Roseland — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Roseland transitions aging membrane systems on the borough\'s office buildings and business properties to modern roofing assemblies with improved insulation, energy performance, and warranty coverage. When repair costs accumulate, membrane integrity declines systemically, or insulation moisture renders the existing assembly ineffective, planned replacement provides better long-term value than continued reactive maintenance. Our [commercial roof replacement](/commercial-roof-replacement) manages the full process from system specification through installation, tenant coordination, and warranty documentation.',
     'The corporate office buildings along Eisenhower Parkway are entering replacement cycles as the membrane systems installed during the 1990s and 2000s reach their design life limits. These large-scale replacements represent significant capital projects requiring engineering specification, competitive bidding, tenant disruption planning, and multi-week execution timelines. Our commercial division manages projects at this scale with the project management resources, crew capacity, and manufacturer relationships that corporate property standards require.',
     'Smaller commercial replacements on Roseland\'s Eagle Rock Avenue buildings demand the same system quality with greater scheduling flexibility. Single-story retail buildings and professional offices can often be re-roofed over a weekend, minimizing business disruption. Our ability to scale crew size and equipment deployment between corporate campus projects and small commercial buildings serves Roseland\'s full range of commercial property types effectively. Property managers in [North Caldwell](/commercial-roof-replacement-north-caldwell-nj) similarly rely on our scalable commercial capabilities.'
   ],
@@ -34,7 +34,25 @@ export const roselandCommercialRoofReplacement: ComboContent = {
     {
       question: 'Can the replacement be done in sections to minimize tenant disruption?',
       answer: 'Yes, phased replacement is our standard approach for occupied Roseland commercial buildings. The roof is divided into work zones that can be completed and made weathertight within a single work day. Work proceeds sequentially through the zones with temporary weather barriers protecting completed sections. Tenants in the area directly beneath the active work zone receive advance notice of noise and vibration periods. This phased approach adds modest project duration but virtually eliminates tenant impact.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Roseland, NJ?',
+      answer: 'Most commercial roof replacement projects in Roseland range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Roseland NJ -- full membrane replacement for office parks and businesses with phased tenant coordination.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

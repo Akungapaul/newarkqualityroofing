@@ -4,7 +4,7 @@ export const nutleyTpoRoofingInstallation: ComboContent = {
   serviceId: 'tpo-roofing-installation',
   cityId: 'nutley',
   overview: [
-    'TPO roofing installation in Nutley serves the township\'s commercial building owners who need energy-efficient, code-compliant membrane systems on the flat-roof retail and office structures concentrated along Franklin Avenue and Centre Street. While Nutley\'s residential identity revolves around Tudor gables and Colonial pitched roofs, the commercial infrastructure supporting these neighborhoods relies on single-ply thermoplastic membranes that deliver the reflectivity, weldability, and lifecycle value that modern commercial roofing demands. TPO has become the membrane of choice for new commercial roof installations in [Nutley](/roofing-in-nutley-nj) when energy performance and warranty coverage are primary selection criteria.',
+    'Newark Quality Roofing delivers expert tpo roofing installation in Nutley — with prices starting from $7–$12/sq ft and free estimates available today. TPO roofing installation in Nutley serves the township\'s commercial building owners who need energy-efficient, code-compliant membrane systems on the flat-roof retail and office structures concentrated along Franklin Avenue and Centre Street. While Nutley\'s residential identity revolves around Tudor gables and Colonial pitched roofs, the commercial infrastructure supporting these neighborhoods relies on single-ply thermoplastic membranes that deliver the reflectivity, weldability, and lifecycle value that modern commercial roofing demands. TPO has become the membrane of choice for new commercial roof installations in [Nutley](/roofing-in-nutley-nj) when energy performance and warranty coverage are primary selection criteria.',
     'The reflective white surface of TPO membrane addresses New Jersey\'s commercial energy code requirements while reducing cooling costs on buildings that lack the insulation depth found in newer construction. Franklin Avenue\'s mid-century commercial buildings were built with minimal roof insulation, and adding tapered polyiso beneath a new TPO membrane transforms both the building envelope and the energy expense profile. Property owners along this corridor who have converted from aged EPDM or built-up roofing to reflective TPO report meaningful reductions in summer cooling costs -- a persuasive financial argument alongside the 20-year manufacturer warranty.',
     'Our [TPO roofing](/tpo-roofing-installation) installations in Nutley differ from the large-scale warehouse and industrial applications common in places like [Newark](/tpo-roofing-installation-newark-nj). Nutley\'s commercial buildings are predominantly small-format: 1,500 to 5,000 square feet of roof area housing professional offices, medical practices, restaurants, and retail shops. This smaller scale allows hot-air welded seam execution in a single day for most projects, minimizing the business disruption that Nutley property owners correctly prioritize. The compact project size also permits tighter quality control -- our crew chief inspects every welded seam personally before the project closes out.',
     'TPO membrane in Nutley also serves select residential applications where flat roof sections require high-performance waterproofing beyond standard EPDM capabilities. Rear additions on Colonials that incorporate rooftop terraces or accessible flat sections benefit from TPO\'s superior puncture resistance and UV stability compared to rubber membrane. The material\'s heat-weldable seams create monolithic waterproofing at the critical transition points where flat residential sections meet the main pitched roof, eliminating the adhesive-based seam joints that represent the most common failure point on residential flat roofs.'
@@ -35,7 +35,25 @@ export const nutleyTpoRoofingInstallation: ComboContent = {
     {
       question: 'What TPO membrane thickness do you recommend for Nutley?',
       answer: 'We specify 60-mil TPO as standard for Nutley commercial installations, upgraded to 80-mil for buildings with heavy rooftop equipment traffic or locations where falling tree debris from the surrounding canopy creates puncture risk. The thicker membrane costs approximately 15 percent more at installation but provides significantly better puncture resistance and UV stability over the 20-year service life. Most Franklin Avenue buildings receive the 60-mil specification given their manageable foot traffic patterns.'
-    }
+    },
+    {
+      question: 'How much does tpo roofing installation cost in Nutley, NJ?',
+      answer: 'Most tpo roofing installation projects in Nutley range from $7–$12/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'TPO roofing installation in Nutley NJ. Energy-efficient commercial membrane for Franklin Avenue businesses with hot-air welded seams and R-20 insulation.',
+  pricing: {
+    range: '$7–$12/sq ft',
+    note: 'TPO membrane system installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tpo roofing installation estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

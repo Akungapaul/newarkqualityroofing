@@ -4,7 +4,7 @@ export const bloomfieldTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'bloomfield',
   overview: [
-    'Tile roofing in Bloomfield is an uncommon choice that serves a specific homeowner profile: the renovation-minded buyer transforming a property into something that stands apart from the asphalt-shingle uniformity of the surrounding neighborhood. Bloomfield\'s post-war Cape Cods and split-levels were never designed for tile roofing, and the township\'s housing character does not call for the Mediterranean or Spanish Colonial aesthetic that clay and concrete tile traditionally serve. But for the occasional custom renovation project or the homeowner building new on an infill lot, tile provides a distinctive material option with genuine longevity advantages.',
+    'Newark Quality Roofing delivers expert tile roof installation repair in Bloomfield — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in Bloomfield is an uncommon choice that serves a specific homeowner profile: the renovation-minded buyer transforming a property into something that stands apart from the asphalt-shingle uniformity of the surrounding neighborhood. Bloomfield\'s post-war Cape Cods and split-levels were never designed for tile roofing, and the township\'s housing character does not call for the Mediterranean or Spanish Colonial aesthetic that clay and concrete tile traditionally serve. But for the occasional custom renovation project or the homeowner building new on an infill lot, tile provides a distinctive material option with genuine longevity advantages.',
     'Concrete tile has emerged as the more practical tile option for Bloomfield applications, offering the dimensional profile and color range of clay tile at a lower weight and cost point. Flat-profile concrete tiles can approximate the appearance of slate or wood shake without the weight penalty of clay barrel tiles, making them feasible on some Bloomfield homes where the structural framing can accommodate the moderate additional load. The installed cost positions concrete tile between premium architectural shingles and natural slate, offering seventy-five-year-plus service life that justifies the premium for homeowners planning long-term occupancy.',
     'Our [tile roof](/tile-roof-installation-repair) installation and repair service addresses both the rare new tile installations in Bloomfield and the maintenance needs of the handful of existing tile roofs in the township. Neighboring communities like [Montclair](/tile-roof-installation-repair-montclair-nj) and [West Orange](/tile-roof-installation-repair-west-orange-nj) maintain more diverse roofing material inventories including tile, and homeowners in those communities provide a reference point for Bloomfield residents considering tile as a material option for their renovation project.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldTileRoofInstallationRepair: ComboContent = {
     {
       question: 'Is tile roofing appropriate for Bloomfield\'s climate?',
       answer: 'Yes, with proper product specification. Freeze-thaw-rated concrete and clay tiles perform well in northern New Jersey climates. The key is specifying tiles tested and rated for severe weathering exposure, not economy tiles designed for mild climates. The tile material itself is among the most durable roofing options available. The underlayment and flashing components beneath the tiles require more attention to freeze-thaw performance than the tiles themselves.'
-    }
+    },
+    {
+      question: 'How much does tile roof installation repair cost in Bloomfield, NJ?',
+      answer: 'Most tile roof installation repair projects in Bloomfield range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof installation and repair in Bloomfield NJ -- concrete and clay options with structural engineering for post-war homes and renovation projects.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'clay or concrete tile systems',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof installation repair estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

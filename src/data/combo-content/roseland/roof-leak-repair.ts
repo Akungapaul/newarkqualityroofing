@@ -4,7 +4,7 @@ export const roselandRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'roseland',
   overview: [
-    'Leak detection and repair in Roseland requires understanding how water behaves within the specific building types that define this borough. The colonials and split-levels lining Harrison Avenue and Becker Farm Road develop leaks at predictable locations -- chimney flashings that have corroded through decades of service, dormer valley intersections where debris accumulation backs water under shingle courses, and the characteristic split-level wall junction where offset roof planes create a concentrated drainage and flashing failure point. Our [roof leak repair](/roof-leak-repair) approach for Roseland homes traces every leak to its origin rather than treating the visible symptom, because the entry point and the appearance point on a Roseland roof are frequently separated by several feet of rafter bay travel.',
+    'Newark Quality Roofing delivers expert roof leak repair in Roseland — with prices starting from $300–$1,200 and free estimates available today. Leak detection and repair in Roseland requires understanding how water behaves within the specific building types that define this borough. The colonials and split-levels lining Harrison Avenue and Becker Farm Road develop leaks at predictable locations -- chimney flashings that have corroded through decades of service, dormer valley intersections where debris accumulation backs water under shingle courses, and the characteristic split-level wall junction where offset roof planes create a concentrated drainage and flashing failure point. Our [roof leak repair](/roof-leak-repair) approach for Roseland homes traces every leak to its origin rather than treating the visible symptom, because the entry point and the appearance point on a Roseland roof are frequently separated by several feet of rafter bay travel.',
     'The split-level wall junction leak is so common in Roseland that it deserves its own category. Water entering at the flashing line where the upper and lower roof planes meet the vertical split wall travels down through the wall cavity and emerges as staining on interior walls, often at the first floor level while the actual entry point is at the second-floor roofline. Homeowners who have had this leak repeatedly caulked or sealed from outside continue to experience water entry because the underlying flashing assembly has failed and surface sealant cannot substitute for properly integrated step flashing with kick-out diverters.',
     'Commercial leak repair in Roseland addresses the membrane roof systems on the borough\'s office buildings and corporate campus structures along Eisenhower Parkway. Membrane leaks on these buildings often manifest far from their source -- water enters through a failed penetration flashing, travels along a trapped insulation layer, and appears as a ceiling stain in a tenant space thirty feet from the actual roof breach. Our commercial leak diagnosis uses systematic elimination and, when warranted, infrared moisture scanning to map the water migration path and identify the precise entry point. Property managers in [Caldwell](/roof-leak-repair-caldwell-nj) rely on similar diagnostic approaches for their commercial flat roofs.',
     'Roseland\'s weather patterns along the Watchung slope create leak conditions that seasonal changes reveal and conceal in cycles. Winter ice dam leaks may only appear during mid-January thaw events and disappear when temperatures drop below freezing, leading homeowners to assume the problem resolved itself. Spring rain leaks may trace to flashing damage caused by winter ice that went unnoticed. Our diagnostic approach accounts for these seasonal patterns and identifies underlying conditions that produce intermittent leaks, not just the conditions that produce water during the diagnostic visit.'
@@ -35,7 +35,25 @@ export const roselandRoofLeakRepair: ComboContent = {
     {
       question: 'Should I call you for a commercial roof leak at one of the Roseland office buildings?',
       answer: 'Yes, we provide commercial leak diagnosis and repair for office buildings throughout Roseland including the Eisenhower Parkway corridor. Commercial leak investigation uses systematic diagnostic techniques including moisture metering and, when warranted, infrared scanning to identify membrane breach points that may be far from the interior water appearance. We coordinate with property management for building access and provide the documentation that facility managers and building owners require for their records and insurance claims.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Roseland, NJ?',
+      answer: 'Most roof leak repair projects in Roseland range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roseland NJ roof leak repair -- split-level junction leaks, chimney flashing failures, and commercial membrane diagnostics for lasting fixes.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

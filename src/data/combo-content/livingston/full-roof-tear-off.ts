@@ -4,7 +4,7 @@ export const livingstonFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'livingston',
   overview: [
-    'Full roof tear-off on Livingston homes strips the existing roofing system down to bare deck sheathing, removing every layer of shingles, underlayment, and flashing to expose the structural substrate for inspection and restoration before new materials go on. This clean-slate approach is our standard recommendation for Livingston homes carrying two layers of shingles, homes with suspected deck damage beneath the existing roofing, and any home where the original underlayment and flashing system has exceeded its service life alongside the shingles above.',
+    'Newark Quality Roofing delivers expert full roof tear off in Livingston — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off on Livingston homes strips the existing roofing system down to bare deck sheathing, removing every layer of shingles, underlayment, and flashing to expose the structural substrate for inspection and restoration before new materials go on. This clean-slate approach is our standard recommendation for Livingston homes carrying two layers of shingles, homes with suspected deck damage beneath the existing roofing, and any home where the original underlayment and flashing system has exceeded its service life alongside the shingles above.',
     'Livingston\'s mid-century split-levels and colonials frequently carry two layers of shingles from a previous overlay re-roof that added new shingles on top of the original layer rather than removing them. While overlay saved cost during the previous roof cycle, it concealed deck deterioration, prevented waterproofing membrane installation, and added weight that the original framing was not designed to carry permanently. Our [full roof tear-off](/full-roof-tear-off) process resolves all of these deferred issues in a single project.',
     'The tear-off process on Livingston homes reveals conditions that overlay re-roofing perpetuates -- valley flashing that should have been replaced a cycle ago, ice-and-water shield that was never installed at eaves and valleys, and deck sheathing with moisture damage concentrated at chimney transitions and wall junctions. Addressing these concealed conditions is the primary value of tear-off over overlay. Properties in [South Orange](/full-roof-tear-off-south-orange-nj) face similar two-layer conditions on their comparable-vintage housing stock.',
     'HOA communities in Livingston uniformly prefer tear-off over overlay because the resulting installation meets current building code, carries full manufacturer warranty coverage, and presents the flat, uniform appearance that community standards require. Overlay installations frequently produce a wavy, telegraphed surface appearance that architectural review committees find objectionable.'
@@ -35,7 +35,25 @@ export const livingstonFullRoofTearOff: ComboContent = {
     {
       question: 'How much more does tear-off cost compared to overlay on a Livingston home?',
       answer: 'Tear-off adds the cost of material removal, dumpster rental, and additional labor for stripping and deck inspection. For a typical Livingston home, the tear-off premium represents a modest percentage of the total project cost. The investment returns value through manufacturer warranty eligibility, concealed damage discovery, ice-and-water shield installation, and the flat installation surface that prevents the wavy appearance overlay produces.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in Livingston, NJ?',
+      answer: 'Most full roof tear off projects in Livingston range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in Livingston NJ -- complete strip to deck on split-levels, two-layer removal, and concealed damage repair before re-roofing.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

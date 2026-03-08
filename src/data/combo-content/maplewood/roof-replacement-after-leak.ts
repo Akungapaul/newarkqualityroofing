@@ -4,7 +4,7 @@ export const maplewoodRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'maplewood',
   overview: [
-    'Roof replacement after leak resolves the chronic water infiltration that repair alone cannot permanently stop on Maplewood homes where systemic material failure, widespread deck damage, or fundamental design flaws make continued patching impractical. When a Maplewood homeowner has invested in multiple leak repairs without lasting resolution, the roof is telling them that the problem is no longer localized. Our [replacement after leak](/roof-replacement-after-leak) approach in [Maplewood](/roofing-in-maplewood-nj) eliminates every contributing failure point by removing the entire compromised system and installing new roofing with modern waterproofing protection at every vulnerable location.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Maplewood — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak resolves the chronic water infiltration that repair alone cannot permanently stop on Maplewood homes where systemic material failure, widespread deck damage, or fundamental design flaws make continued patching impractical. When a Maplewood homeowner has invested in multiple leak repairs without lasting resolution, the roof is telling them that the problem is no longer localized. Our [replacement after leak](/roof-replacement-after-leak) approach in [Maplewood](/roofing-in-maplewood-nj) eliminates every contributing failure point by removing the entire compromised system and installing new roofing with modern waterproofing protection at every vulnerable location.',
     'Maplewood\'s older Victorian and Colonial homes are the most frequent candidates for leak-driven replacement. These homes accumulate decades of repair history, often involving multiple contractors with varying skill levels, creating a patchwork of incompatible repairs that undermine the roof system\'s overall integrity. Each repair may have temporarily stopped one leak path only to redirect water to a different failure point. Full replacement is the definitive solution that addresses every accumulated deficiency simultaneously.',
     'Water damage from chronic leaks on Maplewood homes often extends well beyond the roof itself. Saturated insulation, rotted framing, damaged plaster and drywall, and mold growth in concealed wall and ceiling cavities accumulate over months or years of recurring leaks. Our replacement scope includes assessment and remediation of water damage within the accessible roof structure, providing a clean foundation for the new roof system. Homeowners facing similar chronic leak situations in [South Orange](/roof-replacement-after-leak-south-orange-nj) reach the same conclusion that comprehensive replacement outperforms continued repair investment.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodRoofReplacementAfterLeak: ComboContent = {
       question: 'How much more does replacement after leak cost versus standard replacement?',
       answer: 'The primary additional cost is deck and framing repair, which varies based on the extent of water damage. Homes with limited damage may add $1,000 to $3,000. Homes with extensive damage from years of chronic leaks may require $5,000 to $10,000 in structural remediation. We provide contingency estimates based on the known leak severity and adjust the final invoice to reflect actual conditions found.',
     },
+    {
+      question: 'How much does roof replacement after leak cost in Maplewood, NJ?',
+      answer: 'Most roof replacement after leak projects in Maplewood range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Maplewood NJ. Permanent solution for chronic leaks with deck repair and enhanced waterproofing.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

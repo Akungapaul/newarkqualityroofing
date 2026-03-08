@@ -4,7 +4,7 @@ export const veronaFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Fire damage roof replacement in Verona addresses the complete structural and roofing restoration needed after a fire event damages or destroys the roof system. Fire damage extends beyond the charred surface -- heat compromises structural framing integrity, smoke permeates insulation and sheathing, and firefighting water saturates every component of the roof assembly. The replacement project must address all three damage vectors to restore the building to safe, habitable condition. Newark Quality Roofing coordinates fire damage roof restoration from structural assessment through final inspection, working alongside insurance adjusters and general contractors to return Verona homes to pre-loss condition.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Verona — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Verona addresses the complete structural and roofing restoration needed after a fire event damages or destroys the roof system. Fire damage extends beyond the charred surface -- heat compromises structural framing integrity, smoke permeates insulation and sheathing, and firefighting water saturates every component of the roof assembly. The replacement project must address all three damage vectors to restore the building to safe, habitable condition. Newark Quality Roofing coordinates fire damage roof restoration from structural assessment through final inspection, working alongside insurance adjusters and general contractors to return Verona homes to pre-loss condition.',
     'The structural assessment after fire damage determines the full extent of framing compromise. Heat weakens wood framing even when it does not visibly char the surface -- rafters, ridge beams, and collar ties exposed to sustained temperatures above 300 degrees Fahrenheit lose structural capacity that visual inspection cannot detect. Our [fire damage](/fire-damage-roof-replacement) assessment includes load testing and deflection measurement on exposed framing to identify members that appear sound but have been thermally compromised.',
     'Verona\'s residential character means that fire damage roof replacement must navigate neighborhood sensitivity to the visible damage and restoration timeline. Extended construction activity on a fire-damaged home affects adjacent properties and community aesthetics. Our project management prioritizes efficient scheduling that minimizes the period between damage and completed restoration, keeping the community impact as brief as possible. Insurance carriers in [Essex County](/fire-damage-roof-replacement-east-orange-nj) generally support expedited timelines that reduce additional living expense payments and property value impact.'
   ],
@@ -34,7 +34,25 @@ export const veronaFireDamageRoofReplacement: ComboContent = {
     {
       question: 'Do I need to vacate my Verona home during fire damage roof restoration?',
       answer: 'Most fire damage roof restoration requires temporary relocation, which is typically covered by the Additional Living Expense provision in your homeowner\'s insurance policy. The duration depends on the restoration scope and the extent of interior damage. We coordinate our timeline with the general contractor to minimize the displacement period and provide regular progress updates so you know when the home will be ready for re-occupancy.'
-    }
+    },
+    {
+      question: 'How much does fire damage roof replacement cost in Verona, NJ?',
+      answer: 'Most fire damage roof replacement projects in Verona range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Verona NJ -- structural restoration, smoke remediation, and insurance coordination for fire-damaged homes.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

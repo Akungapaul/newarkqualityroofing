@@ -4,7 +4,7 @@ export const southOrangeFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Flat roofing in South Orange Village serves a niche but important segment of the local roofing market. While the village is best known for its steeply pitched slate and cedar shake roofs, flat and low-slope roof sections are integral components on many properties -- from the porch roofs and porte-cocheres of Montrose Park estates to the commercial buildings lining South Orange Avenue and the institutional facilities on the Seton Hall University campus. These low-slope surfaces require membrane roofing systems fundamentally different from the pitched-roof materials that dominate the village streetscape.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in South Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roofing in South Orange Village serves a niche but important segment of the local roofing market. While the village is best known for its steeply pitched slate and cedar shake roofs, flat and low-slope roof sections are integral components on many properties -- from the porch roofs and porte-cocheres of Montrose Park estates to the commercial buildings lining South Orange Avenue and the institutional facilities on the Seton Hall University campus. These low-slope surfaces require membrane roofing systems fundamentally different from the pitched-roof materials that dominate the village streetscape.',
     'The commercial corridor along South Orange Avenue from the NJ Transit station north toward Seton Hall features mixed-use buildings with flat rooftops supporting HVAC equipment, exhaust systems, and increasingly, solar panel arrays. The South Orange Performing Arts Center and surrounding commercial properties rely on membrane roofing that maintains watertight integrity beneath mechanical loads while meeting the aesthetic standards this culturally progressive village maintains. Property owners in neighboring [Maplewood](/flat-roof-installation-repair-maplewood-nj) share similar commercial flat-roof needs along their own village center.',
     'Residential flat-roof work in South Orange typically involves sections rather than entire roofing systems. Tudor Revival homes feature low-slope sections over bay windows, sunrooms, and covered entries that require membrane treatment while the primary roof carries slate or architectural shingles. Colonial homes with enclosed porches often have rubber membrane or modified bitumen surfaces that need periodic replacement as they age. Our [flat roof](/flat-roof-installation-repair) expertise ensures these secondary surfaces receive the same attention to detail that the primary roof commands.',
     'Seton Hall University represents South Orange\'s largest flat-roof portfolio, with academic buildings, dormitories, and athletic facilities spanning decades of construction. Our commercial team has completed membrane installations and repairs on campus facilities, coordinating schedules around academic calendars and maintaining the safety protocols that university property management requires for work above occupied buildings.'
@@ -35,7 +35,25 @@ export const southOrangeFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'Do flat roofs require more maintenance than pitched roofs in South Orange?',
       answer: 'Yes. Flat roofs collect debris that pitched roofs shed naturally, and standing water on poorly drained flat surfaces accelerates membrane aging. We recommend twice-annual inspections and cleanings for South Orange flat roofs -- once after fall leaf drop and once after spring pollen season. This maintenance schedule prevents drain blockages, identifies membrane damage early, and ensures the roof reaches its full expected service life.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in South Orange, NJ?',
+      answer: 'Most flat roof installation repair projects in South Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in South Orange NJ -- TPO, EPDM, and membrane systems for commercial buildings and residential low-slope sections.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

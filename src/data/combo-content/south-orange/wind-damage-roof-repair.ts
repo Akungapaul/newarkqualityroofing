@@ -4,7 +4,7 @@ export const southOrangeWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'south-orange',
   overview: [
-    'Wind damage patterns in South Orange Village differ from those in the flatland communities to the east because the village sits at the interface between the Watchung Ridge and the Essex County lowlands. When nor\'easters and frontal systems push through the region, South Mountain Reservation channels wind through the tree canopy and creates turbulent gusts that buffet rooftops at angles and velocities that straight-line wind models do not predict. Montrose Park properties on the upper hillside face sustained winds measurably stronger than homes in the valley-floor Village Center, and the damage patterns reflect this gradient -- ridge-elevation properties lose more material per storm event than their sheltered counterparts below.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in South Orange — with prices starting from $400–$2,000 and free estimates available today. Wind damage patterns in South Orange Village differ from those in the flatland communities to the east because the village sits at the interface between the Watchung Ridge and the Essex County lowlands. When nor\'easters and frontal systems push through the region, South Mountain Reservation channels wind through the tree canopy and creates turbulent gusts that buffet rooftops at angles and velocities that straight-line wind models do not predict. Montrose Park properties on the upper hillside face sustained winds measurably stronger than homes in the valley-floor Village Center, and the damage patterns reflect this gradient -- ridge-elevation properties lose more material per storm event than their sheltered counterparts below.',
     'The village\'s premium roofing materials respond to wind forces in characteristically different ways. Asphalt shingles lift at their unsealed tabs and peel in strips. Natural slate, being rigid and heavy, resists uplift but is vulnerable when corroded fasteners release individual slates that then become airborne projectiles threatening adjacent courses and neighboring properties. Cedar shake lifts differently from shingles -- the thick, textured profile catches wind under the butt edge and levers the shake upward against its fasteners, splitting the wood or pulling the nails. Copper flashing and ridge components vibrate under sustained wind load, work loose from their sealant beds, and create penetration points for wind-driven rain.',
     'Wind-driven rain infiltration causes damage out of proportion to the wind speed that produces it. During high-wind events in South Orange, rain is pushed horizontally against roof surfaces at angles that exploit every gap in the roofing system -- beneath lifted shingle tabs, through the joints between cedar shake courses, around the edges of slate courses where fasteners have loosened. The resulting leaks appear during the storm and often stop afterward, making diagnosis difficult unless the homeowner documents the conditions under which the leak occurred. Properties in neighboring [West Orange](/wind-damage-roof-repair-west-orange-nj) along the Reservation border experience identical wind-rain patterns.',
     'Our [wind damage roof repair](/wind-damage-roof-repair) approach for South Orange accounts for the material diversity and elevation-dependent wind exposure that make this village\'s repair needs distinct from standard suburban wind damage work.'
@@ -35,7 +35,25 @@ export const southOrangeWindDamageRoofRepair: ComboContent = {
     {
       question: 'How do I prevent wind damage to my cedar shake roof?',
       answer: 'Preventive measures for South Orange cedar shake roofs include verifying fastener integrity during annual maintenance visits, applying flexible sealant at the butt edge of shakes in high-exposure zones, and maintaining the tree canopy to reduce branch impact risk. Cedar shake that has dried and curled with age is more vulnerable to wind uplift than properly maintained shake with its original flexibility. Our cedar maintenance program keeps shake surfaces treated and flexible, reducing wind damage susceptibility.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in South Orange, NJ?',
+      answer: 'Most wind damage roof repair projects in South Orange range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in South Orange NJ -- slate re-fastening, cedar shake restoration, and enhanced wind protection for village homes.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

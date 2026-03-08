@@ -4,7 +4,7 @@ export const bloomfieldRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'bloomfield',
   overview: [
-    'Ice dams form on Bloomfield homes when heat escaping through the roof melts snow on the upper roof surface, sending meltwater toward the cold eave overhang where it refreezes into an ice ridge that blocks further drainage. The backed-up water pools behind the ice dam and seeps under shingles, through the roof deck, and into the home -- staining ceilings, soaking insulation, saturating wall cavities, and creating the conditions for mold growth in concealed spaces. Bloomfield\'s Cape Cods are the township\'s most ice-dam-prone building type: the low-slope roof, finished second-floor rooms tight against the roof plane, and minimal eave overhang create the thermal conditions that drive persistent ice dam formation.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Bloomfield — with prices starting from $800–$3,000 and free estimates available today. Ice dams form on Bloomfield homes when heat escaping through the roof melts snow on the upper roof surface, sending meltwater toward the cold eave overhang where it refreezes into an ice ridge that blocks further drainage. The backed-up water pools behind the ice dam and seeps under shingles, through the roof deck, and into the home -- staining ceilings, soaking insulation, saturating wall cavities, and creating the conditions for mold growth in concealed spaces. Bloomfield\'s Cape Cods are the township\'s most ice-dam-prone building type: the low-slope roof, finished second-floor rooms tight against the roof plane, and minimal eave overhang create the thermal conditions that drive persistent ice dam formation.',
     'Ice dams are not a weather problem -- they are a building performance problem that weather reveals. The root causes are inadequate attic insulation that allows heat to reach the roof surface, insufficient ventilation that fails to flush warm air from the attic before it heats the sheathing, and air leakage paths that bypass insulation entirely by conveying warm air from the living space directly to the roof deck. A Bloomfield Cape Cod with all three conditions -- common in homes that have never received thermal upgrades -- will form ice dams during every sustained cold period with snow cover, regardless of whether the winter is mild or severe.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners tired of the annual cycle of ice damage, ceiling stains, and emergency repairs, permanent ice dam prevention requires addressing the root causes rather than treating the symptoms. Heat cables melt channels through ice dams but do not prevent the conditions that form them. Roof raking removes snow before it can melt, but the labor is ongoing and the roof surface sustains abrasion damage from repeated raking. Our approach targets the building envelope -- insulation, air sealing, and ventilation -- to eliminate the heat loss that causes ice dams to form in the first place.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofIceDamPrevention: ComboContent = {
     {
       question: 'Can ice dam prevention be done during re-roofing on my Bloomfield home?',
       answer: 'Re-roofing is an excellent time to address ice dam prevention because the roof deck is exposed and accessible. Ice-and-water shield membrane can be extended from the eave up the roof to the recommended six-foot depth. Ridge vents can be added or improved. Soffit intake baffles can be installed from above. However, the insulation and air sealing work that addresses root-cause heat loss is typically performed from the attic interior rather than the roof surface. Coordinating both scopes during the same project delivers the most complete ice dam prevention at the most efficient cost.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in Bloomfield, NJ?',
+      answer: 'Most roof ice dam prevention projects in Bloomfield range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention in Bloomfield NJ -- root-cause insulation, air sealing, and ventilation for Cape Cods and split-levels with chronic ice dams.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

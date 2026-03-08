@@ -4,7 +4,7 @@ export const eastOrangeSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'east-orange',
   overview: [
-    'Soffit condition on East Orange\'s multi-family buildings directly controls attic ventilation performance, pest exclusion, and the visual presentation of the roofline -- three functions that converge at the underside of the roof overhang where soffits span between the building wall and the fascia board. Victorian two-families in Elmwood Park and Doddtown carry original wood plank soffits that have absorbed decades of moisture, paint cycling, and insect activity. Apartment buildings from the mid-century era feature plywood or hardboard soffits that delaminate and sag when moisture penetrates their painted surfaces. In both cases, [soffit repair](/soffit-installation-repair) addresses a building component that landlords overlook until the consequences -- inadequate ventilation, animal intrusion, visible deterioration -- create problems that demand attention.',
+    'Newark Quality Roofing delivers expert soffit installation repair in East Orange — with prices starting from $1,500–$4,000 and free estimates available today. Soffit condition on East Orange\'s multi-family buildings directly controls attic ventilation performance, pest exclusion, and the visual presentation of the roofline -- three functions that converge at the underside of the roof overhang where soffits span between the building wall and the fascia board. Victorian two-families in Elmwood Park and Doddtown carry original wood plank soffits that have absorbed decades of moisture, paint cycling, and insect activity. Apartment buildings from the mid-century era feature plywood or hardboard soffits that delaminate and sag when moisture penetrates their painted surfaces. In both cases, [soffit repair](/soffit-installation-repair) addresses a building component that landlords overlook until the consequences -- inadequate ventilation, animal intrusion, visible deterioration -- create problems that demand attention.',
     'Attic ventilation through perforated or vented soffit panels is the primary functional role that soffits serve on East Orange\'s residential buildings. Intake air entering through soffit vents flows upward through the attic space and exits at ridge vents or gable-end vents, creating the air circulation pattern that prevents moisture accumulation, ice dam formation, and premature shingle deterioration from trapped heat. On East Orange buildings where soffit vents are blocked by insulation, sealed by paint coats, or eliminated by previous repairs that replaced vented soffits with solid panels, the attic environment deteriorates rapidly -- condensation soaks insulation, mold colonizes framing surfaces, and heat buildup accelerates shingle aging from below.',
     'For East Orange landlords managing multi-family properties, soffit damage creates pest entry opportunities that generate tenant complaints and code enforcement attention. Gaps between deteriorated soffit panels and the building wall provide access for squirrels, raccoons, birds, and bats that nest in attic spaces and wall cavities. Once established, animal colonies create noise complaints, odor issues, and potential health hazards from droppings that accumulate in attic insulation. Soffit repair that seals all gaps while maintaining ventilation airflow eliminates the entry points without compromising the airflow that the building\'s ventilation system requires, similar to pest-related soffit concerns on buildings in [Newark](/soffit-installation-repair-newark-nj).'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeSoffitInstallationRepair: ComboContent = {
     {
       question: 'How much does soffit replacement cost on an East Orange two-family home?',
       answer: 'Soffit replacement on a typical East Orange two-family ranges from $2,500 to $5,000 depending on building height, total soffit area, access requirements, and whether lead paint abatement is necessary. Aluminum vented soffit panels are competitively priced with wood alternatives and eliminate the painting maintenance that wood requires every five to seven years. Combined soffit and fascia replacement projects benefit from shared access setup costs.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in East Orange, NJ?',
+      answer: 'Most soffit installation repair projects in East Orange range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair for East Orange NJ buildings -- vented aluminum panels for attic ventilation, pest exclusion, and roofline restoration.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

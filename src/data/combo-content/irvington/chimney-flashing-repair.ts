@@ -4,7 +4,7 @@ export const irvingtonChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'irvington',
   overview: [
-    'Chimney flashing failures are among the most frequent leak sources on Irvington\'s pre-war housing stock, where 80 to 90-year-old masonry chimneys paired with deteriorated flashings create persistent water entry points that previous repair attempts have typically failed to resolve permanently. Our [chimney flashing repair](/chimney-flashing-repair) approach for Irvington homes addresses both the metal flashing components and the masonry substrate they attach to -- because one cannot function without the other on these aging structures.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Irvington — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing failures are among the most frequent leak sources on Irvington\'s pre-war housing stock, where 80 to 90-year-old masonry chimneys paired with deteriorated flashings create persistent water entry points that previous repair attempts have typically failed to resolve permanently. Our [chimney flashing repair](/chimney-flashing-repair) approach for Irvington homes addresses both the metal flashing components and the masonry substrate they attach to -- because one cannot function without the other on these aging structures.',
     'Olympic Park colonials and the Tudor-style homes scattered throughout Irvington\'s residential neighborhoods feature prominent chimneys that penetrate the roof at locations where two or more roof planes converge. These complex intersections create cricket details, saddle flashings, and multi-plane step flashing runs that demand precise metalwork fitted to each chimney\'s unique geometry. The hand-fitted nature of chimney flashing work means that prefabricated flashing kits -- the type sold at home centers and used by handyman services -- rarely produce watertight results on Irvington\'s irregularly shaped older chimneys.',
     'Landlords managing multi-family properties throughout Irvington encounter chimney flashing problems amplified by deferred maintenance. Two-family and three-family homes on Chancellor Avenue and Stuyvesant Avenue often have chimneys that serve multiple flues -- furnace, water heater, and sometimes a fireplace -- creating wide chimney profiles with extensive flashing perimeters. When these flashings fail, water enters between units and creates tenant habitability issues that trigger [Irvington](/roofing-in-irvington-nj) housing code enforcement. Our chimney flashing repairs on investment properties prioritize permanent resolution over temporary patching.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonChimneyFlashingRepair: ComboContent = {
       question: 'Should I repair the chimney flashing or wait until I re-roof my Irvington home?',
       answer: 'If the chimney is actively leaking, repair now rather than waiting. Water damage to interior finishes, attic framing, and insulation accelerates rapidly once a leak path is established. When you eventually re-roof, the chimney flashings will be replaced again as part of the full project -- but allowing ongoing water damage while waiting for re-roofing is far more expensive than a standalone flashing repair now.',
     },
+    {
+      question: 'How much does chimney flashing repair cost in Irvington, NJ?',
+      answer: 'Most chimney flashing repair projects in Irvington range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Irvington NJ for aging colonials and multi-family homes. Permanent fixes with masonry repointing and cricket installation.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

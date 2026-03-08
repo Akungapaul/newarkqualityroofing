@@ -4,7 +4,7 @@ export const orangeEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'orange',
   overview: [
-    'Commercial-grade EPDM roofing anchors the flat-roof infrastructure across Orange\'s industrial and institutional buildings, providing the proven waterproofing that larger roof footprints demand. While TPO has gained popularity on Main Street\'s smaller commercial properties, [EPDM commercial roofing](/epdm-commercial-roofing) remains the preferred choice for Orange\'s warehouses along Mitchell Street, the larger institutional buildings near Park Avenue, and any commercial structure where long-term durability outweighs reflectivity as the primary selection criterion.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Orange — with prices starting from $6–$11/sq ft and free estimates available today. Commercial-grade EPDM roofing anchors the flat-roof infrastructure across Orange\'s industrial and institutional buildings, providing the proven waterproofing that larger roof footprints demand. While TPO has gained popularity on Main Street\'s smaller commercial properties, [EPDM commercial roofing](/epdm-commercial-roofing) remains the preferred choice for Orange\'s warehouses along Mitchell Street, the larger institutional buildings near Park Avenue, and any commercial structure where long-term durability outweighs reflectivity as the primary selection criterion.',
     'Orange\'s industrial corridor along the eastern rail line features warehouse and light-manufacturing buildings with roof areas ranging from 5,000 to 20,000 square feet -- scales where EPDM\'s availability in large sheet sizes minimizes seam count and speeds installation. A single sheet of commercial EPDM can cover up to 10,000 square feet without a field seam, reducing the number of potential leak points to only the perimeter and penetration details. For Orange building owners who have spent years chasing leaks along seams in aging built-up roofing, this near-seamless coverage provides genuine peace of mind.',
     'The institutional buildings that define Orange\'s civic identity -- churches along Park Avenue, the public library, community centers, and municipal facilities -- rely on EPDM\'s four-decade track record of reliable performance. These organizations cannot afford the disruption and unexpected costs of roof failures, and EPDM\'s predictable lifespan and minimal maintenance requirements fit the budgeting needs of institutions that plan years in advance. Our commercial EPDM installations for Orange institutions include extended warranty packages and scheduled maintenance programs that provide budgetary certainty. Institutional buildings in [Newark](/epdm-commercial-roofing-newark-nj) benefit from similar long-horizon EPDM planning.'
   ],
@@ -34,7 +34,25 @@ export const orangeEpdmCommercialRoofing: ComboContent = {
     {
       question: 'What maintenance does commercial EPDM require on Orange buildings?',
       answer: 'Annual inspections of seams, penetrations, and edge details are the primary maintenance requirement. We also recommend semi-annual debris clearing for buildings near South Mountain where leaf and branch accumulation can block drains. Minor repairs -- reseal a pipe boot, patch a small puncture -- are inexpensive and prevent small issues from becoming leaks that damage inventory or equipment below.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Orange, NJ?',
+      answer: 'Most epdm commercial roofing projects in Orange range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Orange NJ -- warehouse membranes, institutional buildings, large-format installation, and wind-rated attachment for South Mountain.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const essexFellsRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'essex-fells',
   overview: [
-    'Roof flashing on Essex Fells estates demands materials and fabrication methods that match the premium roofing systems they serve. Where standard residential flashing uses pre-formed aluminum or galvanized steel components, Essex Fells properties require custom-fabricated copper, lead-coated copper, or zinc flashings formed in our sheet metal shop to replicate the profiles specified by the home\'s original architect. Every valley lining, step flashing sequence, and counter-flashing detail must integrate visually with the slate, copper, or cedar shake roofing it protects -- because on architect-designed estates, flashing is an architectural element, not a hidden utility.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in Essex Fells — with prices starting from $300–$1,500 and free estimates available today. Roof flashing on Essex Fells estates demands materials and fabrication methods that match the premium roofing systems they serve. Where standard residential flashing uses pre-formed aluminum or galvanized steel components, Essex Fells properties require custom-fabricated copper, lead-coated copper, or zinc flashings formed in our sheet metal shop to replicate the profiles specified by the home\'s original architect. Every valley lining, step flashing sequence, and counter-flashing detail must integrate visually with the slate, copper, or cedar shake roofing it protects -- because on architect-designed estates, flashing is an architectural element, not a hidden utility.',
     'The multi-structure character of Essex Fells properties multiplies flashing complexity beyond single-home residential practice. A carriage house wall meeting the main residence roof, a covered walkway connecting the main house to a guest cottage, a pool pavilion abutting a garden wall -- each junction creates unique flashing conditions requiring individual design and fabrication. Properties along Fells Road and Hawthorne Avenue may present fifteen to twenty distinct flashing conditions across their estate compound, compared to four or five on a typical suburban home in neighboring [Caldwell](/roof-flashing-installation-repair-caldwell-nj).',
     'Our [roof flashing installation and repair](/roof-flashing-installation-repair) capability in Essex Fells integrates custom fabrication with field installation expertise developed through decades of estate roofing work. We operate a sheet metal shop where flashing profiles are formed to dimensioned drawings taken during on-site measurement. This shop-fabrication approach produces cleaner bends, tighter tolerances, and more consistent profiles than field-bent components, delivering the finished quality that Essex Fells architects specify and homeowners expect.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'How do you prevent galvanic corrosion where different metals meet at flashings?',
       answer: 'We install isolation barriers -- typically butyl rubber or EPDM separation strips -- between dissimilar metals at every contact point. Fasteners are specified in metallurgy compatible with both metals they connect. Drainage routing prevents water from carrying dissolved metal ions from one material to contact another downstream. These precautions add minor installation detail but prevent the accelerated corrosion that unprotected dissimilar-metal contact produces within a few years.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in Essex Fells, NJ?',
+      answer: 'Most roof flashing installation repair projects in Essex Fells range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in Essex Fells NJ -- custom copper, zinc, and lead-coated copper fabrication for estate roofs.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

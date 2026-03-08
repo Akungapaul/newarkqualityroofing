@@ -91,9 +91,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Will a tear-off damage my landscaping, gutters, or siding?',
         answer: 'Our comprehensive property protection protocol specifically addresses this concern. We install plywood lean-tos over delicate shrubs, cover flower beds with tarps, protect gutters with board shields during the removal process, and use controlled removal techniques near siding and trim. Magnetic sweepers collect nails from lawns and driveways. While some minor landscape disturbance is unavoidable with any major roofing project, our protection measures minimize impact, and we restore any displaced landscaping materials as part of our cleanup process.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does full roof tear off cost in Essex County, NJ?',
+        answer: 'Most full roof tear off projects in Essex County range from $9,000–$26,000, complete tear-off and replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$9,000–$26,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Full Roof Tear Off',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 2. Roof Overlay Installation ─────────────────────────────────────────
   {
@@ -184,9 +229,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'What happens when my overlay roof eventually needs replacement?',
         answer: 'When an overlay roof reaches end of life, a full tear-off will be required because building codes do not permit more than two layers of roofing. At that point, both the overlay layer and the original layer beneath it will be removed down to bare deck, the deck will be inspected and repaired, and a completely new roof system will be installed. The future tear-off cost will be somewhat higher than a single-layer tear-off because two layers must be removed, but this additional future cost is typically far less than the savings realized by choosing an overlay now rather than a tear-off.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does roof overlay installation cost in Essex County, NJ?',
+        answer: 'Most roof overlay installation projects in Essex County range from $6,000–$14,000, overlay without full tear-off. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$6,000–$14,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Overlay Installation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 3. Re-Roofing ────────────────────────────────────────────────────────
   {
@@ -278,9 +368,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Can I stay in my home during a re-roofing project?',
         answer: 'Yes, most homeowners remain in their homes throughout the re-roofing process. The work is conducted entirely from the exterior, so your interior living spaces are not affected. You should expect noise from hammering and equipment during work hours, some vibration transmitted through the structure, and temporary restrictions on access to areas immediately surrounding the house where debris protection and equipment are staged. We communicate daily about what to expect and work to minimize inconvenience.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does re roofing cost in Essex County, NJ?',
+        answer: 'Most re roofing projects in Essex County range from $7,500–$22,000, full re-roofing project. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$7,500–$22,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Re Roofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 4. Insurance Roof Replacement ────────────────────────────────────────
   {
@@ -372,9 +507,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Can I choose my own contractor for an insurance roof replacement?',
         answer: 'Absolutely. You have the legal right to select your own contractor for insurance-funded repairs and replacements. While some insurance companies may suggest or recommend specific contractors through preferred vendor programs, you are under no obligation to use them. Choosing an experienced, local contractor like Newark Quality Roofing who understands the insurance process and will advocate for your interests often results in better claim outcomes and higher quality work than using a company whose primary relationship is with the insurer rather than with you.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does insurance roof replacement cost in Essex County, NJ?',
+        answer: 'Most insurance roof replacement projects in Essex County range from $8,500–$30,000, we handle the claims process. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$8,500–$30,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Insurance Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 5. Storm Damage Roof Replacement ─────────────────────────────────────
   {
@@ -465,9 +645,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Does insurance cover the full cost of a storm damage replacement?',
         answer: 'If you have a Replacement Cost Value policy, your insurance should cover the full cost to replace the damaged roof with equivalent materials at current prices, minus your deductible. The key is ensuring that the claim accurately captures all damage and all legitimate replacement costs including code upgrades, overhead, and supplemental items. Our claims expertise is specifically focused on maximizing your recovery so that your deductible is your only out-of-pocket cost for covered damage.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does storm damage roof replacement cost in Essex County, NJ?',
+        answer: 'Most storm damage roof replacement projects in Essex County range from $9,000–$28,000, often insurance-covered. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$9,000–$28,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Storm Damage Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 6. Aging Roof Replacement ────────────────────────────────────────────
   {
@@ -560,9 +785,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Does an aging roof replacement qualify for any tax benefits or rebates?',
         answer: 'Certain energy-efficient roofing materials may qualify for federal tax credits under the Inflation Reduction Act, and some New Jersey utility programs offer rebates for reflective or cool roof installations that reduce energy consumption. Metal roofs and asphalt shingles with high solar reflectance ratings are the most common qualifying materials. We can identify which materials in your price range qualify for available incentives and provide the documentation needed to claim them.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does aging roof replacement cost in Essex County, NJ?',
+        answer: 'Most aging roof replacement projects in Essex County range from $8,500–$25,000, replacing end-of-life roofing. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$8,500–$25,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Aging Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 7. Roof Replacement After Leak ───────────────────────────────────────
   {
@@ -653,9 +923,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'How do you ensure the new roof will not develop the same leak problems?',
         answer: 'We approach every leak-driven replacement as a forensic project: understanding why the previous roof failed and specifically addressing those failure modes in the new installation. If the leak was caused by inadequate ventilation, we upgrade the ventilation system. If flashing details were poorly executed, we install premium flashing with enhanced weatherproofing. If ice dams were the culprit, we install extended ice and water shield and improve eave ventilation. This root-cause approach ensures that the new roof addresses the specific vulnerabilities that caused the previous system to fail.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does roof replacement after leak cost in Essex County, NJ?',
+        answer: 'Most roof replacement after leak projects in Essex County range from $8,500–$25,000, when repair is no longer viable. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$8,500–$25,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Replacement After Leak',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 8. Fire Damage Roof Replacement ──────────────────────────────────────
   {
@@ -747,9 +1062,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'What fire-resistant roofing options do you recommend for replacement?',
         answer: 'We recommend Class A fire-rated roofing materials, which provide the highest level of fire resistance available. Options include most asphalt shingles (which achieve Class A rating with proper underlayment), metal roofing panels and shingles, concrete and clay tile, and slate. The specific recommendation depends on your building\'s architectural style, structural capacity, budget, and the fire exposure conditions in your area. Metal roofing is often an excellent choice for fire restoration because it combines non-combustible construction with excellent durability and aesthetic options.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does fire damage roof replacement cost in Essex County, NJ?',
+        answer: 'Most fire damage roof replacement projects in Essex County range from $12,000–$35,000, including structural repair. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$12,000–$35,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Fire Damage Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 9. Roof Replacement Cost ─────────────────────────────────────────────
   {
@@ -842,9 +1202,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Are there ways to reduce roof replacement cost without sacrificing quality?',
         answer: 'Several strategies can reduce cost while maintaining quality: scheduling during the fall shoulder season when contractor demand is lower, choosing standard architectural shingles rather than premium or designer options for reliable performance at a lower price point, considering an overlay if your single-layer roof qualifies, bundling roof replacement with gutter replacement for combined labor efficiency, and taking advantage of manufacturer promotions or rebate programs that periodically offer enhanced value. We help identify applicable savings opportunities for every project without compromising the quality of materials or workmanship.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does roof replacement cost cost in Essex County, NJ?',
+        answer: 'Most roof replacement cost projects in Essex County range from $8,500–$25,000, NJ average for Essex County homes. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$8,500–$25,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Replacement Cost',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 10. Asphalt Shingle Roof Replacement ─────────────────────────────────
   {
@@ -935,9 +1340,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Is impact-resistant shingle worth the extra cost?',
         answer: 'Impact-resistant shingles rated Class 4 for hail resistance cost approximately 10 to 20 percent more than standard shingles but offer significant benefits: they resist hail damage that would crack or bruise standard shingles, they may qualify for homeowner\'s insurance discounts of 5 to 28 percent depending on your insurer, and they provide peace of mind during the severe thunderstorms and hail events that periodically affect the Newark area. For many homeowners, the insurance premium reduction alone offsets the additional shingle cost within a few years.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does asphalt shingle roof replacement cost in Essex County, NJ?',
+        answer: 'Most asphalt shingle roof replacement projects in Essex County range from $8,500–$18,000, asphalt shingle tear-off and replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$8,500–$18,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Asphalt Shingle Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 11. Metal Roof Replacement ───────────────────────────────────────────
   {
@@ -1028,9 +1478,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'What is the price difference between metal and asphalt shingle roofing?',
         answer: 'Metal roofing typically costs two to three times more than architectural asphalt shingles for the initial installation. For a typical Essex County home, expect $25,000 to $45,000 for a metal roof compared to $12,000 to $22,000 for asphalt. However, when evaluated over a 50-year period, metal\'s longer life, lower maintenance, energy savings, and potential insurance premium reductions can make it comparable to or less expensive than the cumulative cost of two asphalt shingle roofs over the same period.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does metal roof replacement cost in Essex County, NJ?',
+        answer: 'Most metal roof replacement projects in Essex County range from $15,000–$35,000, metal roof replacement installed. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$15,000–$35,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Metal Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 12. Slate Roof Replacement ───────────────────────────────────────────
   {
@@ -1121,9 +1616,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Can individual broken slates be replaced rather than doing a full replacement?',
         answer: 'Yes, individual slate replacement is a standard maintenance technique and is the appropriate approach when the majority of slates and the underlying structure remain in good condition. A skilled slate roofer can remove broken slates and install matching replacements using copper hooks or tabs. Full replacement becomes advisable when individual failures have become so frequent that annual repair costs are substantial, or when the underlying fasteners or structure have deteriorated to the point where individual repairs no longer provide lasting results.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does slate roof replacement cost in Essex County, NJ?',
+        answer: 'Most slate roof replacement projects in Essex County range from $20,000–$45,000, slate roof replacement or restoration. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$20,000–$45,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Slate Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 13. Tile Roof Replacement ────────────────────────────────────────────
   {
@@ -1215,9 +1755,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Are there lighter alternatives that look like tile?',
         answer: 'Yes. Synthetic tile products made from polymer, rubber, or fiber cement can replicate the appearance of clay or concrete tile at 50 to 75 percent less weight and typically 30 to 50 percent less cost. These products offer advantages in installation speed, impact resistance, and structural compatibility with lighter framing systems. However, they may not match the longevity of natural tile, and their appearance, while good, is distinguishable from natural tile at close inspection. We can show you both natural and synthetic options so you can evaluate the trade-offs for your specific project.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does tile roof replacement cost in Essex County, NJ?',
+        answer: 'Most tile roof replacement projects in Essex County range from $18,000–$40,000, tile roof replacement installed. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$18,000–$40,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Tile Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 14. Flat Roof Replacement ────────────────────────────────────────────
   {
@@ -1309,9 +1894,54 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'Should I add more insulation during flat roof replacement?',
         answer: 'In most cases, yes. Flat roof replacement provides the ideal opportunity to upgrade insulation because the insulation is fully accessible when the membrane is removed. Current New Jersey energy codes require higher R-values than most existing flat roofs provide, and meeting current code is typically mandatory during a full replacement. Even beyond code compliance, the energy savings from improved insulation provide measurable return on the insulation investment. We calculate the energy impact and include insulation upgrade costs in our proposals so you can see the value clearly.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does flat roof replacement cost in Essex County, NJ?',
+        answer: 'Most flat roof replacement projects in Essex County range from $6,000–$18,000, flat roof membrane replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$6,000–$18,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Flat Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 15. Cedar Shake Roof Replacement ─────────────────────────────────────
   {
@@ -1402,7 +2032,52 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'What is the cost difference between natural and synthetic cedar shake?',
         answer: 'In the Essex County market, natural cedar shake installation typically costs $12 to $18 per square foot, while premium synthetic shake products cost $14 to $22 per square foot. The initial cost of synthetic is moderately higher, but when you factor in the maintenance costs that natural cedar requires every few years and the longer warranty life of synthetic products, the lifetime cost of synthetic shake is typically lower. Additionally, some insurance companies offer premium reductions for synthetic shake\'s Class A fire rating that are not available for natural cedar, further offsetting the initial cost difference.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does cedar shake roof replacement cost in Essex County, NJ?',
+        answer: 'Most cedar shake roof replacement projects in Essex County range from $15,000–$32,000, cedar shake roof replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$15,000–$32,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Cedar Shake Roof Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 ];

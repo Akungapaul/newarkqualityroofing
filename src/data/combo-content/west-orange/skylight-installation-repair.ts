@@ -4,7 +4,7 @@ export const westOrangeSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Skylight installation brings natural light into West Orange homes where the township\'s mature tree canopy and north-facing hillside orientations create interior darkness that artificial lighting cannot match. Our [skylight installation and repair](/skylight-installation-repair) work in West Orange positions skylights to capture available light based on each home\'s specific canopy coverage, roof orientation, and elevation zone, maximizing daylight harvest while maintaining the waterproofing integrity that mountain-weather exposure demands.',
+    'Newark Quality Roofing delivers expert skylight installation repair in West Orange — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation brings natural light into West Orange homes where the township\'s mature tree canopy and north-facing hillside orientations create interior darkness that artificial lighting cannot match. Our [skylight installation and repair](/skylight-installation-repair) work in West Orange positions skylights to capture available light based on each home\'s specific canopy coverage, roof orientation, and elevation zone, maximizing daylight harvest while maintaining the waterproofing integrity that mountain-weather exposure demands.',
     'Mid-slope split-level homes along Gregory Avenue and Main Street represent West Orange\'s strongest skylight market. The level-change architecture of split-levels creates interior rooms that receive minimal window light from side walls, and the stacked floor plan limits the depth that exterior windows can illuminate. Skylights on the upper roof section flood these deep interior spaces with overhead light, transforming dim hallways and interior bathrooms into naturally lit spaces. Homeowners in nearby [Montclair](/skylight-installation-repair-montclair-nj) install skylights for similar daylight enhancement in their own multi-level homes.',
     'Ridge-top installations along Eagle Rock Avenue must withstand the sustained wind and driven rain that lower-elevation installations rarely encounter. We specify impact-rated skylight glazing on ridge-top homes and install curb-mounted frames with enhanced flashing systems that resist the horizontal rain penetration unique to exposed ridgeline locations. Standard deck-mounted skylights appropriate for sheltered valley-floor homes do not provide adequate weather resistance at [West Orange](/roofing-in-west-orange-nj)\'s highest elevations.',
     'Tubular skylights offer an alternative for West Orange homes where traditional skylights face structural constraints or excessive shade. These compact light tubes capture sunlight at the roof surface through a dome collector and channel it through a reflective tube to a ceiling-mounted diffuser, bringing natural light to rooms beneath attic spaces, within floor stacks, or on heavily shaded roof planes where traditional skylights would produce disappointing results.'
@@ -35,7 +35,25 @@ export const westOrangeSkylightInstallationRepair: ComboContent = {
     {
       question: 'Can I add a skylight without major interior construction?',
       answer: 'Tubular skylights install with minimal interior disruption, requiring only a small ceiling-mounted diffuser connected to the roof dome by a flexible reflective tube. Traditional skylights require a framed light well through the attic space and ceiling penetration that involves drywall, insulation, and trim work. For rooms directly beneath the roof with no attic space between, traditional skylights install with minimal interior construction. We evaluate the simplest installation path during our design consultation.'
-    }
+    },
+    {
+      question: 'How much does skylight installation repair cost in West Orange, NJ?',
+      answer: 'Most skylight installation repair projects in West Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Skylight installation and repair in West Orange NJ. VELUX certified with enhanced flashing for ridge-top and split-level homes.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'per skylight installed or repaired',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free skylight installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

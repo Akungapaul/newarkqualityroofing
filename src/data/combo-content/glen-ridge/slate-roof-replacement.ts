@@ -4,7 +4,7 @@ export const glenRidgeSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'glen-ridge',
   overview: [
-    'Slate roof replacement in Glen Ridge represents the ultimate preservation investment -- returning a distinguished Victorian or Edwardian home to the roofing material its architect originally specified, with modern installation refinements that extend performance beyond what the original builders achieved. When an original slate roof has deteriorated beyond economical repair or when a home is transitioning back to slate from an interim material, full slate replacement restores both the weather protection and the architectural authenticity that defines Glen Ridge\'s most valued properties.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Glen Ridge — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Glen Ridge represents the ultimate preservation investment -- returning a distinguished Victorian or Edwardian home to the roofing material its architect originally specified, with modern installation refinements that extend performance beyond what the original builders achieved. When an original slate roof has deteriorated beyond economical repair or when a home is transitioning back to slate from an interim material, full slate replacement restores both the weather protection and the architectural authenticity that defines Glen Ridge\'s most valued properties.',
     'Slate selection for Glen Ridge replacement projects draws on the same quarry relationships we maintain for [repair work](/slate-roof-installation-repair-glen-ridge-nj), but at a scale that requires careful specification across the entire roof. Color uniformity, thickness grading, and slate quality must be consistent across hundreds or thousands of individual stones. We specify slate from single quarry veins to ensure color consistency, and we inspect delivered pallets for conformance before installation begins. For homes replacing original slate, we source stone from quarries producing the closest match to the existing color, preserving the continuity of appearance within the Glen Ridge streetscape.',
     'The Historic Preservation Commission views natural slate as the gold standard for Glen Ridge\'s most architecturally significant homes. Slate replacement proposals on primary residences along Ridgewood Avenue, Baldwin Street, and Hillside Avenue receive strong commission support, as these projects reinforce the material tradition that has defined Glen Ridge\'s roofscape for over a century. Our commission applications for slate replacement are straightforward, with quarry specifications, color samples, and installation details that demonstrate our commitment to the quality standard the commission protects.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeSlateRoofReplacement: ComboContent = {
       question: 'Can I phase a slate roof replacement over multiple years in Glen Ridge?',
       answer: 'Phasing is possible but requires careful planning to maintain weather integrity between phases. We can replace the most deteriorated sections first and schedule remaining sections for subsequent years. Each phase is completed as a self-contained waterproof installation with temporary transition details at phase boundaries.',
     },
+    {
+      question: 'How much does slate roof replacement cost in Glen Ridge, NJ?',
+      answer: 'Most slate roof replacement projects in Glen Ridge range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Glen Ridge NJ. Full natural slate installation with quarry-matched stone for the historic district.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

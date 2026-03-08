@@ -4,7 +4,7 @@ export const bellevilleGutterInstallationRepair: ComboContent = {
   serviceId: 'gutter-installation-repair',
   cityId: 'belleville',
   overview: [
-    'Gutter systems carry outsized importance in Belleville where the consequences of gutter failure extend beyond the individual property. When homes sit six to eight feet apart on narrow lots, overflowing or misdirected gutters dump water directly onto the neighbor\'s siding, foundation, and basement window wells. A single house with failing gutters can create moisture problems for two or three adjacent properties, generating neighborhood friction that goes beyond the typical homeowner-contractor relationship. Our [gutter installation](/gutter-installation-repair) work in Belleville treats the gutter system as a neighborhood-level infrastructure element, not just a building component.',
+    'Newark Quality Roofing delivers expert gutter installation repair in Belleville — with prices starting from $1,000–$3,500 and free estimates available today. Gutter systems carry outsized importance in Belleville where the consequences of gutter failure extend beyond the individual property. When homes sit six to eight feet apart on narrow lots, overflowing or misdirected gutters dump water directly onto the neighbor\'s siding, foundation, and basement window wells. A single house with failing gutters can create moisture problems for two or three adjacent properties, generating neighborhood friction that goes beyond the typical homeowner-contractor relationship. Our [gutter installation](/gutter-installation-repair) work in Belleville treats the gutter system as a neighborhood-level infrastructure element, not just a building component.',
     'Belleville\'s aging housing stock includes a high percentage of original 4-inch K-style gutters that are undersized for the debris load and water volume these compact roofs must handle. Street trees along residential blocks drop leaves, seed pods, and twigs into gutters that are too small to accommodate the debris while maintaining adequate water flow. The result is a predictable cycle of overflow, fascia rot, foundation saturation, and basement flooding that repeats every fall and spring across Belleville\'s central neighborhoods and the Branch Brook Park border area.',
     'We specify 6-inch seamless aluminum gutters with oversized 3x4-inch downspouts as the standard replacement system for Belleville homes. The 50% increase in water capacity over standard 5-inch gutters, combined with larger downspouts that resist debris clogging, provides the drainage performance that Belleville\'s compact lots and tree-heavy blocks demand. Seamless construction eliminates the seam joints every 10 feet that sectional gutters develop leaks at within 3-5 years. The one-piece gutter runs from corner to corner, with joints only at inside and outside corners where hand-welded connections ensure permanent waterproof integrity.',
     'For Belleville landlords managing multi-family properties, gutter performance directly affects tenant retention and property insurance costs. Basement flooding caused by inadequate gutters creates uninhabitable conditions, generates insurance claims, and triggers building department complaints. Our gutter replacement services for Belleville rental properties include downspout extensions and splash blocks sized to direct water away from both the subject building and adjacent foundations, addressing the neighborhood-wide drainage responsibility that Belleville\'s tight lot spacing creates for property owners throughout the township and neighboring [Newark](/gutter-installation-repair-newark-nj).'
@@ -35,7 +35,25 @@ export const bellevilleGutterInstallationRepair: ComboContent = {
     {
       question: 'Can you install gutters on my Belleville home without damaging the neighbor\'s property?',
       answer: 'Yes. Our crews use compact equipment and careful staging protocols designed for Belleville\'s tight lot conditions. We place protective tarps against adjacent property walls, use lightweight ladders with wall standoffs to prevent siding contact, and clean debris from the gap between buildings after work is complete. We have performed hundreds of gutter installations on Belleville\'s closely-spaced homes without adjacent property damage.'
-    }
+    },
+    {
+      question: 'How much does gutter installation repair cost in Belleville, NJ?',
+      answer: 'Most gutter installation repair projects in Belleville range from $1,000–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Gutter installation and repair in Belleville NJ. Seamless 6-inch aluminum gutters with oversized downspouts for closely-spaced homes and heavy tree debris.',
+  pricing: {
+    range: '$1,000–$3,500',
+    note: 'full gutter system for typical home',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free gutter installation repair estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

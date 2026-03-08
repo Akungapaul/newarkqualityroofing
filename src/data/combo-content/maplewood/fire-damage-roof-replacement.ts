@@ -4,7 +4,7 @@ export const maplewoodFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Fire damage roof replacement addresses the unique structural and material challenges that fire events impose on Maplewood homes, where heat-compromised framing, charred decking, and smoke-damaged materials must be fully remediated before new roofing can be safely installed. Fire damage extends beyond the visible burn area, weakening structural members through heat exposure that reduces wood strength even without visible charring. Our [fire damage replacement](/fire-damage-roof-replacement) work in [Maplewood](/roofing-in-maplewood-nj) coordinates with structural engineers, fire investigators, and insurance carriers to deliver complete roof restoration that addresses every safety and performance requirement.',
+    'Newark Quality Roofing delivers expert fire damage roof replacement in Maplewood — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement addresses the unique structural and material challenges that fire events impose on Maplewood homes, where heat-compromised framing, charred decking, and smoke-damaged materials must be fully remediated before new roofing can be safely installed. Fire damage extends beyond the visible burn area, weakening structural members through heat exposure that reduces wood strength even without visible charring. Our [fire damage replacement](/fire-damage-roof-replacement) work in [Maplewood](/roofing-in-maplewood-nj) coordinates with structural engineers, fire investigators, and insurance carriers to deliver complete roof restoration that addresses every safety and performance requirement.',
     'Maplewood\'s attached and closely-spaced housing in the Village area and eastern neighborhoods creates fire exposure risk where chimney fires, electrical events, or kitchen fires can damage roofing on adjacent structures even when the fire originates in a neighboring building. Radiant heat exposure can degrade shingle adhesive, warp flashing metal, and crack underlayment on nearby homes without direct flame contact. Our assessment after fire events evaluates both directly burned areas and heat-exposed adjacent surfaces for damage that may not be immediately visible.',
     'Insurance coordination for fire damage claims in Maplewood involves more complex documentation than wind or storm claims because fire loss triggers different policy provisions. Structural restoration, smoke remediation, and debris removal all fall under the claim scope alongside the roofing replacement itself. We coordinate our roofing scope documentation with the general contractor and public adjuster managing the overall fire restoration, ensuring the roofing component is properly valued and sequenced within the broader recovery timeline. Fire recovery coordination on properties in [East Orange](/fire-damage-roof-replacement-east-orange-nj) follows the same multi-party coordination model.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodFireDamageRoofReplacement: ComboContent = {
       question: 'Can you determine if my Maplewood roof was damaged by a neighbor\'s fire?',
       answer: 'We assess adjacent roofs for radiant heat damage including shingle blistering, adhesive softening, flashing distortion, and underlayment degradation. Radiant heat exposure does not always produce visible surface damage but can compromise material performance. Our assessment documents heat exposure evidence that supports insurance claims for damage caused by neighboring fire events.',
     },
+    {
+      question: 'How much does fire damage roof replacement cost in Maplewood, NJ?',
+      answer: 'Most fire damage roof replacement projects in Maplewood range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fire damage roof replacement in Maplewood NJ. Structural restoration and complete re-roofing with insurance claim coordination.',
+  pricing: {
+    range: '$12,000–$35,000',
+    note: 'including structural repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fire damage roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

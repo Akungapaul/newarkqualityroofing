@@ -4,7 +4,7 @@ export const bloomfieldInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'bloomfield',
   overview: [
-    'Infrared roof leak detection provides Bloomfield commercial building owners with the precision they need to target repairs efficiently rather than replacing entire roof sections to catch an elusive leak. Traditional leak investigation relies on visual inspection and educated guessing -- but on Bloomfield\'s flat commercial roofs where water can travel twenty feet horizontally between the membrane entry point and the interior drip location, visual methods frequently miss the actual source. Infrared technology eliminates the guesswork by mapping the moisture trail beneath the membrane, tracing it back to the entry point with pinpoint accuracy.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Bloomfield — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection provides Bloomfield commercial building owners with the precision they need to target repairs efficiently rather than replacing entire roof sections to catch an elusive leak. Traditional leak investigation relies on visual inspection and educated guessing -- but on Bloomfield\'s flat commercial roofs where water can travel twenty feet horizontally between the membrane entry point and the interior drip location, visual methods frequently miss the actual source. Infrared technology eliminates the guesswork by mapping the moisture trail beneath the membrane, tracing it back to the entry point with pinpoint accuracy.',
     'The value proposition of infrared leak detection is straightforward for Bloomfield\'s pragmatic commercial building owners: spend five hundred to a thousand dollars on precise diagnosis rather than five thousand to fifteen thousand dollars on exploratory repair that may not find the leak on the first attempt. Buildings along Bloomfield Avenue with persistent leaks that have resisted previous repair attempts are the most common candidates -- the leak persists because the previous repair addressed a suspected location rather than the verified source.',
     'Infrared leak detection complements [thermal imaging inspection](/roof-thermal-imaging-inspections-bloomfield-nj) but serves a different purpose. Thermal imaging maps the broad moisture footprint beneath the membrane for condition assessment. Infrared leak detection focuses specifically on tracing the water path from the interior symptom to the membrane entry point for targeted repair. We often use both techniques together on [Bloomfield](/roofing-in-bloomfield-nj) commercial roofs -- thermal imaging first to understand the overall moisture condition, then focused infrared detection to pinpoint the active entry point for immediate repair.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'When is the best time for infrared leak detection in Bloomfield?',
       answer: 'The optimal time is during warm months -- May through October -- on a clear evening following a sunny day, after at least forty-eight hours without rain. These conditions create the maximum thermal contrast between wet and dry insulation. Emergency leak investigations can be performed in less-than-ideal conditions with adjusted interpretation, but scheduled diagnostic scans should target the optimal weather window for the most reliable results.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Bloomfield, NJ?',
+      answer: 'Most infrared roof leak detection projects in Bloomfield range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Bloomfield NJ -- precision moisture tracing for commercial flat roofs to target repairs and stop persistent leaks.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const livingstonSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'livingston',
   overview: [
-    'Silicone roof coating offers Livingston commercial property managers a restoration pathway that extends existing roof life by 10 to 15 years without the cost and disruption of full membrane replacement. The fluid-applied silicone creates a seamless, reflective, waterproof surface over aging membrane systems -- BUR, modified bitumen, EPDM, and metal -- sealing minor deterioration and adding UV protection that the original membrane no longer provides. For Livingston office buildings and retail properties where the existing roof structure remains sound but the surface has degraded, coating represents the most economical approach to reliable waterproofing.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Livingston — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating offers Livingston commercial property managers a restoration pathway that extends existing roof life by 10 to 15 years without the cost and disruption of full membrane replacement. The fluid-applied silicone creates a seamless, reflective, waterproof surface over aging membrane systems -- BUR, modified bitumen, EPDM, and metal -- sealing minor deterioration and adding UV protection that the original membrane no longer provides. For Livingston office buildings and retail properties where the existing roof structure remains sound but the surface has degraded, coating represents the most economical approach to reliable waterproofing.',
     'The ponding water tolerance of silicone distinguishes it from acrylic and other coating chemistries that break down when submerged. Livingston commercial buildings with dead-level roof sections that accumulate standing water after rainfall need a coating that performs reliably in both dry and ponded conditions. Silicone maintains its waterproofing integrity indefinitely under standing water, making it the appropriate coating chemistry for Livingston roofs where drainage improvement is not part of the project scope.',
     'Our [silicone roof coating](/silicone-roof-coating) installations restore and protect commercial roofs along Route 10, Eisenhower Parkway, and the Livingston Town Center commercial area. Each project begins with a thorough substrate assessment that determines whether the existing roof is a suitable candidate for coating or whether conditions require membrane replacement instead. Not every aging roof qualifies for coating -- the substrate must be structurally sound and reasonably dry for the silicone to adhere properly and deliver its expected performance life.',
     'Property managers in [Caldwell](/silicone-roof-coating-caldwell-nj) have adopted silicone coating for similar budget-conscious roof restoration on their smaller commercial properties, while Livingston\'s larger building footprints generate proportionally greater cost savings compared to full replacement alternatives.'
@@ -35,7 +35,25 @@ export const livingstonSiliconeRoofCoating: ComboContent = {
     {
       question: 'Can silicone coating be applied over ponding water areas on my Livingston roof?',
       answer: 'Silicone\'s unique ponding water tolerance makes it the appropriate coating chemistry for Livingston roofs with standing water areas. Unlike acrylic coatings that degrade in ponded conditions, silicone maintains full waterproofing performance when submerged. We apply additional coating thickness in identified ponding zones to provide extra protection where water accumulation is persistent.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Livingston, NJ?',
+      answer: 'Most silicone roof coating projects in Livingston range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Livingston NJ -- commercial roof restoration for offices and retail with ponding water tolerance and energy savings.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

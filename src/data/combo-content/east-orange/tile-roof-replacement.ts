@@ -4,7 +4,7 @@ export const eastOrangeTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'east-orange',
   overview: [
-    'Tile roof replacement in East Orange serves a small but distinctive segment of the city\'s residential architecture: the Mediterranean-influenced homes, mission-style buildings, and Spanish colonial revival structures that carry clay or concrete tile roofing as an integral part of their architectural identity. While tile roofs are far less common in East Orange than asphalt shingle or flat roof systems, the buildings that carry them require specialized [tile replacement](/tile-roof-replacement) knowledge that general roofing contractors typically lack -- from understanding the load requirements of clay and concrete tile to fabricating the transition details between tile field areas and adjacent roofing materials.',
+    'Newark Quality Roofing delivers expert tile roof replacement in East Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement in East Orange serves a small but distinctive segment of the city\'s residential architecture: the Mediterranean-influenced homes, mission-style buildings, and Spanish colonial revival structures that carry clay or concrete tile roofing as an integral part of their architectural identity. While tile roofs are far less common in East Orange than asphalt shingle or flat roof systems, the buildings that carry them require specialized [tile replacement](/tile-roof-replacement) knowledge that general roofing contractors typically lack -- from understanding the load requirements of clay and concrete tile to fabricating the transition details between tile field areas and adjacent roofing materials.',
     'Concrete tile has emerged as the practical alternative to clay tile for East Orange replacement projects where the original clay tiles have deteriorated beyond repair but the building owner wants to maintain the tiled appearance. Modern concrete tiles replicate clay tile profiles at 30 to 50 percent lower installed cost, with color-through formulations that maintain appearance without the glazing that original clay tiles provided. The weight is comparable, the service life of 50 to 75 years approaches clay tile longevity, and the aesthetic from street level is virtually indistinguishable.',
     'For East Orange property owners considering tile roof replacement on buildings that did not originally carry tile, the investment must be evaluated against the building\'s market context. Tile roofing adds distinctive character and substantial durability, but East Orange\'s current market may not return the full installation premium in property value increase. Tile replacement is most justified on buildings where preserving the existing tile aesthetic is the objective, or on owner-occupied homes where the property owner values the material for personal satisfaction rather than market return, similar to the decision process homeowners in [West Orange](/tile-roof-replacement-west-orange-nj) evaluate.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeTileRoofReplacement: ComboContent = {
     {
       question: 'How much does tile roof replacement cost on an East Orange home?',
       answer: 'Tile roof replacement ranges from $15 to $30 per square foot installed depending on tile type, roof complexity, and structural preparation requirements. Concrete tile costs toward the lower end; clay tile toward the upper end. On a 2,500-square-foot East Orange home, total project cost ranges from $37,500 to $75,000. The investment delivers decades of maintenance-free performance that amortizes the cost over a longer service life than any conventional roofing alternative.'
-    }
+    },
+    {
+      question: 'How much does tile roof replacement cost in East Orange, NJ?',
+      answer: 'Most tile roof replacement projects in East Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement for East Orange NJ homes -- clay and concrete tile installation preserving architectural character with decades of durability.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

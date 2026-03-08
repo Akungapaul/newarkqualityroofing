@@ -4,7 +4,7 @@ export const maplewoodTileRoofReplacement: ComboContent = {
   serviceId: 'tile-roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Tile roof replacement serves the select Maplewood homes where clay or concrete tile roofing provides the architecturally appropriate crown for Mediterranean, Spanish Revival, or eclectic-style homes that dot the township\'s residential landscape. While tiles are less common than slate or shingle in Maplewood, the homes that carry tile roofs prize the distinctive appearance and 75-100 year service life that quality tile installations deliver. Our [tile replacement](/tile-roof-replacement) work in [Maplewood](/roofing-in-maplewood-nj) sources premium clay and concrete tile products and installs them with the structural support and waterproofing systems that tile roofing requires.',
+    'Newark Quality Roofing delivers expert tile roof replacement in Maplewood — with prices starting from $18,000–$40,000 and free estimates available today. Tile roof replacement serves the select Maplewood homes where clay or concrete tile roofing provides the architecturally appropriate crown for Mediterranean, Spanish Revival, or eclectic-style homes that dot the township\'s residential landscape. While tiles are less common than slate or shingle in Maplewood, the homes that carry tile roofs prize the distinctive appearance and 75-100 year service life that quality tile installations deliver. Our [tile replacement](/tile-roof-replacement) work in [Maplewood](/roofing-in-maplewood-nj) sources premium clay and concrete tile products and installs them with the structural support and waterproofing systems that tile roofing requires.',
     'Concrete tile has gained popularity among Maplewood homeowners renovating or building contemporary homes where the flat-profile tile provides a clean, modern appearance that standing seam metal and architectural shingles cannot replicate. The material\'s thermal mass, fire resistance, and color retention through decades of UV exposure make it attractive for design-forward projects. We install both traditional barrel-profile clay and flat-profile concrete tile on Maplewood homes where the structural framing supports the substantial tile weight.',
     'Tile roof replacement on existing Maplewood tile homes requires meticulous matching of the replacement tile to the existing profile, color, and dimension. Original installations may have used tile from manufacturers that no longer produce the specific profile, requiring sourcing from specialty suppliers or substituting compatible profiles that blend with the building\'s architectural vocabulary. Our tile sourcing network includes domestic and imported clay tile suppliers who can match most historic and contemporary tile profiles. Homeowners replacing tile on properties in [Montclair](/tile-roof-replacement-montclair-nj) value the same meticulous profile matching.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodTileRoofReplacement: ComboContent = {
       question: 'Is concrete tile cheaper than clay tile for Maplewood homes?',
       answer: 'Concrete tile is typically 30-40% less expensive than clay tile for materials. Installation costs are similar. Concrete tile offers more color options and profiles, while clay tile provides superior longevity and the authentic appearance that purists prefer. Both materials provide excellent performance in Maplewood\'s climate, and the choice often comes down to aesthetic preference and budget.',
     },
+    {
+      question: 'How much does tile roof replacement cost in Maplewood, NJ?',
+      answer: 'Most tile roof replacement projects in Maplewood range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Tile roof replacement in Maplewood NJ. Clay and concrete tile for Mediterranean-style and contemporary homes with 75+ year lifespan.',
+  pricing: {
+    range: '$18,000–$40,000',
+    note: 'tile roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free tile roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const southOrangeCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'south-orange',
   overview: [
-    'Custom roof design consultation in South Orange Village addresses the architectural sophistication and material diversity that distinguish this community\'s roofscape from standard suburban markets. Homeowners renovating Tudor Revival estates in Montrose Park, architects designing contemporary additions on Arts and Crafts bungalows along Scotland Road, and property owners converting carriage houses and accessory structures all require design guidance that accounts for the village\'s architectural heritage, material expectations, and regulatory framework.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in South Orange — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in South Orange Village addresses the architectural sophistication and material diversity that distinguish this community\'s roofscape from standard suburban markets. Homeowners renovating Tudor Revival estates in Montrose Park, architects designing contemporary additions on Arts and Crafts bungalows along Scotland Road, and property owners converting carriage houses and accessory structures all require design guidance that accounts for the village\'s architectural heritage, material expectations, and regulatory framework.',
     'South Orange\'s governing structure as a village within a township, combined with the community\'s active preservation consciousness, creates a design environment where roofing material and detail decisions carry weight beyond basic weather protection. A roof design that ignores the neighborhood context -- selecting standard three-tab shingles for a street of slate-roofed Tudors, or installing bright metal panels adjacent to muted cedar shake -- generates the kind of visual dissonance that South Orange homeowners and neighbors find unacceptable. Our [custom roof design](/custom-roof-design-consultation) consultation prevents these missteps by evaluating every project within its streetscape context.',
     'The material complexity of South Orange\'s housing stock demands design consultation that goes beyond selecting a shingle color. Composite roof systems combining slate, cedar, copper, and membrane materials on a single property require coordination of flashing details, drainage patterns, and material transitions that generic roofing proposals do not address. Montrose Park estates frequently present design challenges involving four or five distinct roofing materials on interconnected roof planes, each requiring different installation techniques and maintenance schedules that the design must integrate.',
     'Our consultation process engages South Orange homeowners, their architects when applicable, and the village\'s building department to develop roofing designs that satisfy aesthetic expectations, structural requirements, and regulatory compliance before the first material is ordered. This design-first approach prevents the costly mid-project changes that occur when roofing work begins without adequate design preparation, particularly on homes in communities like [Millburn](/custom-roof-design-consultation-millburn-nj) and South Orange where expectations run high.'
@@ -35,7 +35,25 @@ export const southOrangeCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Can you help select roofing materials that match the neighborhood character?',
       answer: 'Material selection within neighborhood context is a core element of our consultation process. We evaluate the roofscape visible from the project site, identify the predominant materials and colors on neighboring homes, and recommend options that complement rather than conflict with the existing streetscape character. In South Orange, where neighborhoods have distinct architectural identities, this contextual approach prevents installations that look fine in isolation but jar within their surroundings.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in South Orange, NJ?',
+      answer: 'Most custom roof design consultation projects in South Orange range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation in South Orange NJ -- expert guidance for material selection and architectural integration on village homes.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

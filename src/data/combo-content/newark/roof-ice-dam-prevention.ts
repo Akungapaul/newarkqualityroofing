@@ -4,7 +4,7 @@ export const newarkRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'newark',
   overview: [
-    'Ice dams form when heat escaping through an inadequately insulated roof melts snow on the upper roof surface, sending meltwater down the slope to the eaves where it refreezes into a thickening ridge of ice. Behind this ice barrier, pooling water backs up under shingles, penetrates the roof deck, and infiltrates ceilings, walls, and insulation below. Newark\'s combination of aging housing stock, dense urban fabric, and northern New Jersey freeze-thaw cycles creates conditions that make ice dams one of the most damaging and recurring winter roofing problems in the city.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in Newark — with prices starting from $800–$3,000 and free estimates available today. Ice dams form when heat escaping through an inadequately insulated roof melts snow on the upper roof surface, sending meltwater down the slope to the eaves where it refreezes into a thickening ridge of ice. Behind this ice barrier, pooling water backs up under shingles, penetrates the roof deck, and infiltrates ceilings, walls, and insulation below. Newark\'s combination of aging housing stock, dense urban fabric, and northern New Jersey freeze-thaw cycles creates conditions that make ice dams one of the most damaging and recurring winter roofing problems in the city.',
     'The mechanics of ice dam formation in Newark are driven by the city\'s building characteristics. Older homes in Forest Hill, Roseville, and Vailsburg were constructed with minimal or no attic insulation, allowing heated interior air to warm the roof deck far above freezing even during sub-zero nights. Balloon-frame construction common in pre-1940 homes creates hidden air channels that funnel warm air from basements and living spaces directly into the attic cavity. The result is a roof surface that melts snow rapidly from below while the eaves, which extend past the heated building envelope, remain at ambient temperature -- the textbook setup for ice dam formation.',
     'Newark\'s dense urban layout amplifies ice dam severity in ways that suburban homeowners rarely experience. Tightly packed rowhouses and two-family homes share party walls that create differential heat loss patterns across the roof plane. A well-insulated unit next to a poorly insulated one produces uneven snowmelt that concentrates ice dam formation at the boundary between the two thermal zones. North-facing brownstone rows receive minimal solar gain throughout winter, allowing ice dams to persist and grow for weeks during sustained cold snaps. Gutter systems on these older buildings were sized for rainfall, not ice loads, and frequently pull away from fascia boards under the weight of accumulated ice.',
     'Our ice dam prevention program addresses the root causes rather than treating symptoms. While emergency ice removal provides immediate relief during active leaking, lasting prevention requires correcting the thermal deficiencies that cause ice dams in the first place. We provide comprehensive attic assessments, air sealing, insulation upgrades, and ventilation improvements that eliminate the temperature differential between the upper roof and eaves -- removing the conditions that allow ice dams to form.',
@@ -40,6 +40,24 @@ export const newarkRoofIceDamPrevention: ComboContent = {
       question: 'How much does ice dam prevention work cost for a typical Newark home?',
       answer: 'Costs depend on the scope of work required. Attic air sealing and insulation upgrades for a typical Newark two-story home range from two thousand to five thousand dollars. Ventilation improvements add five hundred to fifteen hundred dollars. These investments typically reduce heating costs by fifteen to twenty-five percent, providing payback within three to seven years independent of the ice dam prevention benefit. Emergency steam removal during an active ice dam event is billed separately.',
     },
+    {
+      question: 'How much does roof ice dam prevention cost in Newark, NJ?',
+      answer: 'Most roof ice dam prevention projects in Newark range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention services in Newark NJ. Attic insulation, air sealing, and ventilation solutions for older homes prone to winter ice damage.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

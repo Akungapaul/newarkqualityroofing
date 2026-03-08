@@ -4,7 +4,7 @@ export const bloomfieldRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'bloomfield',
   overview: [
-    'Roof overlay -- installing new shingles directly over the existing layer -- offers Bloomfield homeowners a lower-cost re-roofing option when conditions permit. The township\'s Cape Cods, ranches, and colonials on a first layer of shingles with flat-laying, structurally sound existing material can receive a second layer without tear-off, saving the demolition labor, dumpster rental, and disposal costs that full tear-off requires. For Bloomfield homeowners managing home maintenance on a working household budget, the overlay savings of two to three dollars per square foot can make the difference between re-roofing now and deferring another season.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Bloomfield — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay -- installing new shingles directly over the existing layer -- offers Bloomfield homeowners a lower-cost re-roofing option when conditions permit. The township\'s Cape Cods, ranches, and colonials on a first layer of shingles with flat-laying, structurally sound existing material can receive a second layer without tear-off, saving the demolition labor, dumpster rental, and disposal costs that full tear-off requires. For Bloomfield homeowners managing home maintenance on a working household budget, the overlay savings of two to three dollars per square foot can make the difference between re-roofing now and deferring another season.',
     'Overlay is appropriate under specific conditions that we verify before recommending the approach. The existing shingles must be laying flat without curling, buckling, or significant granule loss. The roof must have only one existing layer -- NJ code prohibits a third layer. The roof deck beneath must be sound, without soft spots or moisture damage that concealed deterioration indicates. The roof\'s structural framing must have capacity for the additional weight of a second shingle layer. When all conditions are met, overlay delivers a new roof surface with full manufacturer warranty at reduced cost.',
     'For [Bloomfield](/roofing-in-bloomfield-nj) homeowners weighing overlay against [full tear-off](/full-roof-tear-off-bloomfield-nj), the decision involves tradeoffs beyond cost. Overlay conceals the deck condition, preventing inspection and repair of any hidden deterioration. The new shingles may telegraph the contour of the layer beneath, creating a slightly less smooth appearance than new shingles on a clean deck. The combined weight of two shingle layers is approximately five to six pounds per square foot -- within the capacity of most Bloomfield homes but approaching the limit on structures with lightweight framing. We present both options honestly so homeowners can choose based on their priorities.'
   ],
@@ -34,7 +34,25 @@ export const bloomfieldRoofOverlayInstallation: ComboContent = {
     {
       question: 'How long does a roof overlay last on a Bloomfield home?',
       answer: 'Overlay installations typically deliver twenty to twenty-five years of service -- slightly less than the twenty-five to thirty-year expectation for tear-off installations on a clean deck. The reduced lifespan results from the additional heat buildup in a double-layer roof and the potential for underlying shingle contours to affect the new layer\'s performance. The new shingle product warranty applies regardless, covering the material for its stated warranty period.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Bloomfield, NJ?',
+      answer: 'Most roof overlay installation projects in Bloomfield range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation in Bloomfield NJ -- second-layer shingle installation over existing roofs for budget-conscious homeowners.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Bloomfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Bloomfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

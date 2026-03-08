@@ -4,7 +4,7 @@ export const eastOrangeRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'east-orange',
   overview: [
-    'Roof replacement after leak damage in East Orange addresses the endpoint of a deterioration sequence that many landlords have experienced: a small leak appears, gets patched, reappears in a different location, gets patched again, and gradually multiplies until the building is experiencing water entry at multiple points simultaneously. At this stage, the roof system has degraded beyond what targeted repair can restore, and [replacement after leak](/roof-replacement-after-leak) becomes the only path to reliable weatherproofing. The transition from repair to replacement is a financial inflection point that East Orange property owners resist -- until the math makes the answer obvious.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in East Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak damage in East Orange addresses the endpoint of a deterioration sequence that many landlords have experienced: a small leak appears, gets patched, reappears in a different location, gets patched again, and gradually multiplies until the building is experiencing water entry at multiple points simultaneously. At this stage, the roof system has degraded beyond what targeted repair can restore, and [replacement after leak](/roof-replacement-after-leak) becomes the only path to reliable weatherproofing. The transition from repair to replacement is a financial inflection point that East Orange property owners resist -- until the math makes the answer obvious.',
     'Chronic leak damage on East Orange multi-family buildings produces secondary costs that exceed the direct repair expense. Mold remediation in tenant units, ceiling and wall repair across multiple floors, tenant relocation during habitability-affecting leaks, and property damage claims from tenants whose belongings were damaged by roof water all accumulate alongside the roofing repair bills. The total cost of managing a chronically leaking roof often exceeds the cost of replacement within two to three years, and replacement eliminates all of these cascading expenses simultaneously.',
     'East Orange Building Department code enforcement adds urgency to leak-driven replacement on rental properties. Persistent leaks that affect tenant units may trigger housing code violations, and repeated violations can result in penalties that escalate with each subsequent inspection. A property owner who replaces the roof in response to the first violation demonstrates good faith compliance. One who continues patching while violations accumulate faces a regulatory trajectory that leads to fines and potential rent withholding by tenants, a scenario familiar to landlords managing aging buildings throughout [Essex County](/roof-replacement-after-leak-newark-nj).'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Can I hold my East Orange tenants responsible for leak damage they did not report promptly?',
       answer: 'New Jersey lease law varies on tenant reporting obligations, and many standard lease agreements include a clause requiring tenants to report maintenance issues promptly. However, holding tenants financially responsible for damage resulting from their failure to report is difficult to enforce. The practical approach is including explicit reporting requirements in lease agreements and conducting annual interior inspections that identify water damage regardless of tenant reporting.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in East Orange, NJ?',
+      answer: 'Most roof replacement after leak projects in East Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak damage for East Orange NJ rentals -- ending chronic leak cycles on multi-family buildings with full roof system renewal.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

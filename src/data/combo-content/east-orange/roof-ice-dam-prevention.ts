@@ -4,7 +4,7 @@ export const eastOrangeRoofIceDamPrevention: ComboContent = {
   serviceId: 'roof-ice-dam-prevention',
   cityId: 'east-orange',
   overview: [
-    'Ice dam prevention in East Orange targets the root causes of a winter roofing problem that plagues the city\'s Victorian two-families, multi-family walk-ups, and converted residential buildings where inadequate attic insulation and ventilation create the conditions that allow ice dams to form, back water under shingles, and leak into occupied units below. Rather than treating symptoms with heat cables and ice melt -- temporary measures that consume energy and require annual maintenance -- genuine [ice dam prevention](/roof-ice-dam-prevention) addresses the building envelope deficiencies that allow warm interior air to reach the roof surface, melt snow, and create the meltwater that refreezes at the cold eaves to form the dam.',
+    'Newark Quality Roofing delivers expert roof ice dam prevention in East Orange — with prices starting from $800–$3,000 and free estimates available today. Ice dam prevention in East Orange targets the root causes of a winter roofing problem that plagues the city\'s Victorian two-families, multi-family walk-ups, and converted residential buildings where inadequate attic insulation and ventilation create the conditions that allow ice dams to form, back water under shingles, and leak into occupied units below. Rather than treating symptoms with heat cables and ice melt -- temporary measures that consume energy and require annual maintenance -- genuine [ice dam prevention](/roof-ice-dam-prevention) addresses the building envelope deficiencies that allow warm interior air to reach the roof surface, melt snow, and create the meltwater that refreezes at the cold eaves to form the dam.',
     'The multi-family occupancy of most East Orange buildings amplifies the ice dam problem because multiple households generate substantially more interior heat and moisture than single-family occupancy. Cooking steam from three apartments, shower humidity from six bathrooms, and heat from three separate heating systems all contribute warm, moisture-laden air that migrates into the attic through ceiling penetrations, plumbing chases, and light fixture openings. This concentrated heat load melts roof snow faster than a single-family building would, creating larger meltwater volumes and more aggressive ice dam formation at the eaves.',
     'The physical damage from ice dams on East Orange multi-family buildings extends beyond the water stains that tenants report on their ceilings. Meltwater backing under shingles saturates roof sheathing, rots rafter ends at the eaves, destroys insulation in exterior wall cavities, and creates conditions for mold growth in concealed wall and ceiling assemblies. The repair cost from a single severe ice dam season can exceed the cost of the prevention measures that would have eliminated the problem entirely. Property owners in neighboring [West Orange](/roof-ice-dam-prevention-west-orange-nj) and [Montclair](/roof-ice-dam-prevention-montclair-nj) face similar ice dam dynamics on their Victorian housing stock.',
     'East Orange landlords who have installed heat cables as an ice dam solution quickly discover the limitations: cables consume electricity continuously during winter, require annual inspection and replacement of failed sections, and address only the specific eave section where they are installed -- while ice dams form at any location where warm attic air reaches the roof surface. Prevention through insulation and ventilation improvement eliminates ice dams across the entire roof simultaneously, permanently, and without ongoing energy cost.'
@@ -35,7 +35,25 @@ export const eastOrangeRoofIceDamPrevention: ComboContent = {
     {
       question: 'Can ice dam prevention work be done from outside without entering tenant units?',
       answer: 'Most ice dam prevention work is performed from the attic space, which is typically accessed through a common area hatch rather than through individual tenant units. Air sealing and insulation work occur entirely within the attic. Ventilation improvements may require exterior work at soffit and ridge locations. In most cases, tenant disruption is minimal -- limited to potential noise during work hours and temporary access to common-area attic hatches.'
-    }
+    },
+    {
+      question: 'How much does roof ice dam prevention cost in East Orange, NJ?',
+      answer: 'Most roof ice dam prevention projects in East Orange range from $800–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Ice dam prevention for East Orange NJ buildings -- attic insulation, air sealing, and ventilation upgrades to stop ice dams on multi-family homes.',
+  pricing: {
+    range: '$800–$3,000',
+    note: 'ice dam prevention system installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof ice dam prevention estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

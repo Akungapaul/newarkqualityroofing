@@ -4,7 +4,7 @@ export const essexFellsHailDamageRoofRepair: ComboContent = {
   serviceId: 'hail-damage-roof-repair',
   cityId: 'essex-fells',
   overview: [
-    'Hail damage assessment on Essex Fells estates requires distinguishing impact effects across roofing materials that respond to hail in fundamentally different ways than the asphalt shingles found on standard residential roofs. Natural slate absorbs hail impact without the granule displacement that indicates damage on asphalt products, but severe hailstorms can fracture slates internally -- creating damage invisible from the surface that leads to delamination and leaks months later. Cedar shake shows hail impact as compression marks and fiber splitting that weakens the shake\'s watershed integrity. Standing-seam copper dents visibly but rarely loses structural function from hail alone. Each material demands its own damage assessment methodology, and Essex Fells properties frequently carry all three systems across multiple structures.',
+    'Newark Quality Roofing delivers expert hail damage roof repair in Essex Fells — with prices starting from $500–$2,500 and free estimates available today. Hail damage assessment on Essex Fells estates requires distinguishing impact effects across roofing materials that respond to hail in fundamentally different ways than the asphalt shingles found on standard residential roofs. Natural slate absorbs hail impact without the granule displacement that indicates damage on asphalt products, but severe hailstorms can fracture slates internally -- creating damage invisible from the surface that leads to delamination and leaks months later. Cedar shake shows hail impact as compression marks and fiber splitting that weakens the shake\'s watershed integrity. Standing-seam copper dents visibly but rarely loses structural function from hail alone. Each material demands its own damage assessment methodology, and Essex Fells properties frequently carry all three systems across multiple structures.',
     'The borough\'s elevated position along the Watchung ridgeline exposes Essex Fells properties to hail events with greater frequency and intensity than lower-elevation communities in the Passaic River valley. Hailstones that have melted to pea-size by the time they reach [Bloomfield](/hail-damage-roof-repair-bloomfield-nj) may arrive at golf-ball diameter on Fells Road and Hawthorne Avenue. This exposure pattern, combined with the premium materials protecting these homes, means that accurate hail damage documentation is essential for insurance claims that reflect the actual cost of restoring architectural-grade roofing systems.',
     'Our hail damage assessment for Essex Fells properties goes beyond the standard grid-pattern inspection used on commodity shingle roofs. We examine every material system on every structure, using magnification and tap-testing on slate to detect concealed fractures, measuring compression depth on cedar shake to evaluate watershed compromise, and documenting copper denting patterns for insurance records. This material-specific approach produces the evidence that supports full-value insurance claims for premium roofing restoration.',
     'Post-hail restoration in Essex Fells preserves the architectural character of each property rather than defaulting to the fastest repair option. Our [hail damage roof repair](/hail-damage-roof-repair) expertise ensures that damaged slates are replaced with matching quarry material, compromised cedar shakes are woven into existing coursing patterns, and copper surfaces are restored without losing the patina development the homeowner values.'
@@ -35,7 +35,25 @@ export const essexFellsHailDamageRoofRepair: ComboContent = {
     {
       question: 'How soon after a hailstorm should I schedule an inspection?',
       answer: 'We recommend inspection within two weeks of a significant hail event. Early inspection ensures damage is documented while clearly attributable to the storm, which is essential for insurance claims. For slate roofs specifically, early identification of internal fractures allows proactive replacement before freeze-thaw cycling converts concealed damage into active leaks. Our post-hail inspection schedule prioritizes Essex Fells and other estate communities where delayed-failure risk on premium materials is highest.'
-    }
+    },
+    {
+      question: 'How much does hail damage roof repair cost in Essex Fells, NJ?',
+      answer: 'Most hail damage roof repair projects in Essex Fells range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Hail damage roof repair in Essex Fells NJ -- slate fracture detection, cedar shake assessment, and copper restoration with insurance claim support.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'often covered by homeowner insurance',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free hail damage roof repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

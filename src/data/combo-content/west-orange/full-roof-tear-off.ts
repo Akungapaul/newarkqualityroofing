@@ -4,7 +4,7 @@ export const westOrangeFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'west-orange',
   overview: [
-    'Full roof tear-off removes every layer of existing roofing material down to the structural deck, providing the clean substrate that West Orange\'s demanding weather conditions require for maximum new-roof performance. Our [full roof tear off](/full-roof-tear-off) process in West Orange exposes and repairs deck damage hidden beneath aging shingles, replaces deteriorated underlayment, and installs modern ice-and-water shield protection at the vulnerable eave and valley details where elevation-driven weather creates the most aggressive infiltration pressure.',
+    'Newark Quality Roofing delivers expert full roof tear off in West Orange — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off removes every layer of existing roofing material down to the structural deck, providing the clean substrate that West Orange\'s demanding weather conditions require for maximum new-roof performance. Our [full roof tear off](/full-roof-tear-off) process in West Orange exposes and repairs deck damage hidden beneath aging shingles, replaces deteriorated underlayment, and installs modern ice-and-water shield protection at the vulnerable eave and valley details where elevation-driven weather creates the most aggressive infiltration pressure.',
     'West Orange homes benefit from full tear-off over overlay because the township\'s ice dam history and elevation-variable wind exposure demand the layered waterproofing barriers that only clean-deck installation allows. Ice-and-water shield membrane at eaves and valleys, synthetic underlayment across the full deck surface, and properly integrated flashing at every transition require direct contact with sound sheathing -- connections that overlay installation through existing shingle layers cannot achieve.',
     'The mid-century split-level homes along Gregory Avenue and Main Street almost always require tear-off rather than overlay because their level-change transitions need full access for waterproofing barrier installation. Decades of ice dam damage at these transitions have typically compromised both the shingles above and the deck sheathing below. Only tear-off reveals the full scope of this concealed damage and allows comprehensive repair before new roofing is installed. Homeowners near [Montclair](/full-roof-tear-off-montclair-nj) follow similar tear-off protocols for their own aging multi-level homes.'
   ],
@@ -34,7 +34,25 @@ export const westOrangeFullRoofTearOff: ComboContent = {
     {
       question: 'Will tear-off damage my landscaping or siding?',
       answer: 'We protect vulnerable areas with plywood shields against walls, tarps over foundation plantings, and debris chute systems that direct material into dumpsters without scattering across the property. Despite these precautions, some minor landscape disturbance is unavoidable during any tear-off project. We restore any displaced mulch, repair any damaged plantings, and perform a thorough magnetic nail sweep of the entire property perimeter after project completion.'
-    }
+    },
+    {
+      question: 'How much does full roof tear off cost in West Orange, NJ?',
+      answer: 'Most full roof tear off projects in West Orange range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Full roof tear-off in West Orange NJ. Complete removal to deck for clean installation with ice-and-water shield protection.',
+  pricing: {
+    range: '$9,000–$26,000',
+    note: 'complete tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free full roof tear off estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

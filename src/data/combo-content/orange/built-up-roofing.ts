@@ -4,7 +4,7 @@ export const orangeBuiltUpRoofing: ComboContent = {
   serviceId: 'built-up-roofing',
   cityId: 'orange',
   overview: [
-    'Built-up roofing has covered Orange\'s commercial buildings for over a century, and many of the BUR systems still in service on Main Street date back 30 to 40 years -- well beyond their intended lifespan but still partially functional thanks to the inherent redundancy of the multi-layer approach. Our [built-up roofing](/built-up-roofing) work in Orange encompasses both the replacement of these aging systems with modern BUR assemblies and the strategic repair of existing systems that still have serviceable life remaining. Understanding when an Orange BUR roof needs replacement versus repair saves building owners thousands of dollars in premature replacement costs.',
+    'Newark Quality Roofing delivers expert built up roofing in Orange — with prices starting from $5–$9/sq ft and free estimates available today. Built-up roofing has covered Orange\'s commercial buildings for over a century, and many of the BUR systems still in service on Main Street date back 30 to 40 years -- well beyond their intended lifespan but still partially functional thanks to the inherent redundancy of the multi-layer approach. Our [built-up roofing](/built-up-roofing) work in Orange encompasses both the replacement of these aging systems with modern BUR assemblies and the strategic repair of existing systems that still have serviceable life remaining. Understanding when an Orange BUR roof needs replacement versus repair saves building owners thousands of dollars in premature replacement costs.',
     'The multi-layer construction of built-up roofing -- alternating plies of reinforcing fabric and bitumen topped with a protective surface -- creates a roof that tolerates the abuse that Orange commercial buildings endure. Rooftop foot traffic from HVAC technicians, standing water from inadequate drainage on older buildings, and seasonal debris accumulation from South Mountain\'s tree canopy all stress the roof surface. BUR absorbs these stresses across multiple layers, providing a margin of safety that single-layer membranes cannot match. For Orange building owners who prioritize durability and damage tolerance over lightweight installation, built-up roofing remains a compelling choice.',
     'Orange\'s institutional buildings -- churches, the library, civic structures along Park Avenue -- are natural candidates for built-up roofing because these organizations value longevity and predictable maintenance over cutting-edge material technology. A properly installed BUR system on an Orange institutional building will perform reliably for 25 to 30 years with annual maintenance. The gravel or mineral-surfaced top layer protects the underlying plies from UV degradation, provides natural fire resistance, and helps manage the hail impact energy that occasional severe storms deliver to [Orange](/roofing-in-orange-nj) rooftops.'
   ],
@@ -34,7 +34,25 @@ export const orangeBuiltUpRoofing: ComboContent = {
     {
       question: 'Can you repair my existing Orange BUR roof instead of replacing it?',
       answer: 'Often yes. If core samples show the existing plies are still intact and adhered, targeted repairs at failed areas, flashings, and penetrations can extend the roof\'s life by 5 to 10 years at a fraction of replacement cost. We always evaluate repair feasibility before recommending full replacement -- unnecessary tear-off wastes both money and landfill space.'
-    }
+    },
+    {
+      question: 'How much does built up roofing cost in Orange, NJ?',
+      answer: 'Most built up roofing projects in Orange range from $5–$9/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Built-up roofing in Orange NJ -- multi-layer commercial systems, Main Street BUR replacement, institutional roofing, and structural load assessment.',
+  pricing: {
+    range: '$5–$9/sq ft',
+    note: 'traditional built-up roofing system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free built up roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

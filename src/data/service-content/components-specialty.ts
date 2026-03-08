@@ -90,9 +90,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'Do you replace flashing during a roof replacement?',
         answer: 'Yes, all flashing should be replaced during a full roof replacement. Reusing old flashing on a new roof is a false economy that can lead to leaks within the first few years. When we perform roof replacements, all step flashing, valley flashing, drip edges, pipe boots, and counter flashing are replaced with new materials that are properly integrated with the new roofing system. This ensures your entire roof performs as a unified weather barrier.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does roof flashing installation repair cost in Essex County, NJ?',
+        answer: 'Most roof flashing installation repair projects in Essex County range from $300–$1,500, per area of flashing work. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$300–$1,500',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Flashing Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 2. Chimney Flashing Repair ───────────────────────────────────────────
   {
@@ -183,9 +228,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'Does a chimney cricket need to be installed with new chimney flashing?',
         answer: 'New Jersey building code requires a chimney cricket on the uphill side of any chimney wider than 30 inches. Even for narrower chimneys, a cricket is beneficial because it diverts water and debris away from the vulnerable chimney-to-roof junction. If your chimney does not have a cricket and is experiencing water pooling or debris accumulation on the uphill side, we strongly recommend adding one as part of any chimney flashing repair project.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does chimney flashing repair cost in Essex County, NJ?',
+        answer: 'Most chimney flashing repair projects in Essex County range from $400–$1,500, chimney flashing and counter-flashing. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$400–$1,500',
+      factors: [
+        'Size and location of the damaged area',
+        'Roofing material type (shingle, membrane, slate, tile)',
+        'Accessibility and roof pitch',
+        'Whether underlying decking needs repair',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Chimney Flashing Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 3. Gutter Installation Repair ────────────────────────────────────────
   {
@@ -274,9 +364,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'How long do seamless aluminum gutters last?',
         answer: 'Quality seamless aluminum gutters with a baked enamel finish typically last 20 to 30 years with proper maintenance, including regular cleaning and timely repair of any damage. Copper gutters can last 50 years or more. The most common cause of premature gutter failure is not the gutter material itself but neglected maintenance that allows debris accumulation, standing water, and ice damage to degrade the system over time.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does gutter installation repair cost in Essex County, NJ?',
+        answer: 'Most gutter installation repair projects in Essex County range from $1,000–$3,500, full gutter system for typical home. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$1,000–$3,500',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Gutter Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 4. Gutter Guard Installation ─────────────────────────────────────────
   {
@@ -364,9 +499,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'How much do gutter guards cost to install?',
         answer: 'Gutter guard pricing varies based on the type of system selected, the linear footage of gutter on your property, the number of stories, and the complexity of your roofline. Professional micro-mesh systems represent a higher investment but provide superior performance and longer warranties. We provide detailed written estimates after our property assessment so you can compare the installation cost against your current annual gutter cleaning and repair expenses. Most homeowners find the long-term savings make gutter guards a sound financial decision.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does gutter guard installation cost in Essex County, NJ?',
+        answer: 'Most gutter guard installation projects in Essex County range from $800–$2,500, for whole-home gutter protection. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$800–$2,500',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Gutter Guard Installation',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 5. Skylight Installation Repair ──────────────────────────────────────
   {
@@ -458,9 +638,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'Are there tax credits available for skylight installation?',
         answer: 'Yes, Velux solar-powered skylights and solar-powered blinds qualify for the federal solar investment tax credit, which covers a significant percentage of the product and installation cost. Additionally, energy-efficient skylights that meet Energy Star criteria may qualify for state and utility rebates through the New Jersey Clean Energy Program. We provide documentation of qualifying products and can help you understand which incentives apply to your project.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does skylight installation repair cost in Essex County, NJ?',
+        answer: 'Most skylight installation repair projects in Essex County range from $1,500–$5,000, per skylight installed or repaired. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$1,500–$5,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Skylight Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 6. Fascia Installation Repair ────────────────────────────────────────
   {
@@ -548,9 +773,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'How much does fascia replacement cost?',
         answer: 'Fascia replacement costs depend on the total linear footage, material selected, extent of underlying structural repair needed, and the height and accessibility of your roofline. Wood fascia replacement is the most economical option, while PVC composite costs more upfront but eliminates future painting costs. Aluminum wrapping falls in between and is ideal when the existing wood is still structurally sound but you want to eliminate ongoing maintenance. We provide detailed estimates after inspection.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does fascia installation repair cost in Essex County, NJ?',
+        answer: 'Most fascia installation repair projects in Essex County range from $1,200–$3,500, fascia board replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$1,200–$3,500',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Fascia Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 7. Soffit Installation Repair ────────────────────────────────────────
   {
@@ -638,9 +908,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'What soffit material is best for the New Jersey climate?',
         answer: 'Aluminum soffit is the preferred choice for most New Jersey properties because it is impervious to moisture, resists freeze-thaw cycling, will not rot or support mold growth, and never needs painting. Vinyl soffit is a less expensive alternative that performs adequately but can become brittle in extreme cold and may fade or warp in direct sun exposure. For historic properties where maintaining authentic appearances matters, primed wood and fiber cement are available but require periodic painting and more vigilant maintenance.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does soffit installation repair cost in Essex County, NJ?',
+        answer: 'Most soffit installation repair projects in Essex County range from $1,500–$4,000, soffit replacement or repair. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$1,500–$4,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Soffit Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 8. Roof Vent Installation Repair ─────────────────────────────────────
   {
@@ -728,9 +1043,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'Does attic insulation affect ventilation needs?',
         answer: 'Attic insulation and ventilation work together as a system. Insulation slows heat transfer between the living space and the attic, while ventilation removes the heat and moisture that does make it into the attic space. When insulation is upgraded, ventilation becomes even more important because the attic runs cooler and moisture is more likely to condense on cold surfaces. Conversely, excellent ventilation cannot compensate for inadequate insulation. We evaluate both components during our assessment and make integrated recommendations.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does roof vent installation repair cost in Essex County, NJ?',
+        answer: 'Most roof vent installation repair projects in Essex County range from $300–$1,200, per vent unit installed. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$300–$1,200',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Vent Installation Repair',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 9. Roof Waterproofing ────────────────────────────────────────────────
   {
@@ -818,9 +1178,54 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'Does waterproofing help with ice dams?',
         answer: 'Waterproofing enhances ice dam protection by providing a secondary barrier that prevents water from entering the building even when ice dams force meltwater under the shingles. Ice and water shield membrane installed along the eaves is the standard waterproofing measure for ice dam protection, and it is required by code in our climate zone. While waterproofing does not prevent ice dams from forming, it prevents the resulting water from causing interior damage.'
-      }
-    ]
-  },
+      },
+      {
+        question: 'How much does roof waterproofing cost in Essex County, NJ?',
+        answer: 'Most roof waterproofing projects in Essex County range from $1,500–$5,000, waterproofing membrane application. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$1,500–$5,000',
+      factors: [
+        'Linear footage or unit count required',
+        'Material grade and finish selected',
+        'Accessibility and installation complexity',
+        'Integration with existing roofing system',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Waterproofing',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],},
 
   // ─── 10. Roof Deck Repair Replacement ─────────────────────────────────────
   {
@@ -912,7 +1317,52 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       {
         question: 'Can a new roof be installed over a damaged deck?',
         answer: 'Absolutely not. Installing new roofing materials over a damaged deck is the most serious mistake a roofer can make. The roofing materials will fail prematurely because they cannot be properly fastened to deteriorated sheathing, and the structural weakness will worsen over time as it continues to support the weight of the new roofing materials. Any reputable roofer will insist on repairing the deck before proceeding with new material installation.'
-      }
-    ]
-  }
+      },
+      {
+        question: 'How much does roof deck repair replacement cost in Essex County, NJ?',
+        answer: 'Most roof deck repair replacement projects in Essex County range from $2,000–$6,000, structural deck repair pricing. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
+      },
+    ],
+  
+    pricing: {
+      range: '$2,000–$6,000',
+      factors: [
+        'Total roof square footage',
+        'Material chosen (architectural shingles, metal, slate, tile)',
+        'Number of layers to tear off',
+        'Structural repairs needed (decking, rafters, fascia)',
+      ],
+      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Newark Quality Roofing for Roof Deck Repair Replacement',
+      reasons: [
+        {
+          title: 'Licensed & Certified Experts',
+          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+        },
+        {
+          title: 'Transparent, Upfront Pricing',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+        },
+        {
+          title: 'Premium Materials & Warranties',
+          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+        },
+        {
+          title: 'Fast Response & Emergency Service',
+          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+        },
+        {
+          title: 'Local Team, Local Reputation',
+          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+        },
+      ],
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years in Essex County',
+    ],}
 ];

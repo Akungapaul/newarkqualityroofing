@@ -4,7 +4,7 @@ export const newarkWindDamageRoofRepair: ComboContent = {
   serviceId: 'wind-damage-roof-repair',
   cityId: 'newark',
   overview: [
-    'Wind damage on Newark roofs follows the city\'s topography and built environment in patterns distinct from open suburban terrain. Downtown\'s corridor of mid-rise and high-rise buildings along Broad Street and Market Street creates wind acceleration zones where gusts channeled between structures exceed open-field speeds by 30 to 50 percent. The exposed ridge lines running through Forest Hill and Roseville catch nor\'easter winds without the buffering that valley-floor neighborhoods receive. Industrial buildings near the port and along Doremus Avenue face unobstructed wind off Newark Bay. Understanding these localized wind dynamics is essential to both repairing current damage and preventing recurrence.',
+    'Newark Quality Roofing delivers expert wind damage roof repair in Newark — with prices starting from $400–$2,000 and free estimates available today. Wind damage on Newark roofs follows the city\'s topography and built environment in patterns distinct from open suburban terrain. Downtown\'s corridor of mid-rise and high-rise buildings along Broad Street and Market Street creates wind acceleration zones where gusts channeled between structures exceed open-field speeds by 30 to 50 percent. The exposed ridge lines running through Forest Hill and Roseville catch nor\'easter winds without the buffering that valley-floor neighborhoods receive. Industrial buildings near the port and along Doremus Avenue face unobstructed wind off Newark Bay. Understanding these localized wind dynamics is essential to both repairing current damage and preventing recurrence.',
     'Residential wind damage in Newark most commonly manifests as shingle loss on ridge lines and exposed gable ends. The architectural shingles standard on homes throughout Vailsburg, Weequahic, and the South Ward are rated for sustained winds of 110 to 130 mph, but the turbulence created by Newark\'s dense building fabric generates uplift forces at vulnerable edges that exceed the shingle\'s fastening resistance during severe gusts. A properly installed roof in an open field might survive the same storm that strips shingles from a Newark ridge line where adjacent buildings create vortex patterns.',
     'Commercial wind damage in Newark takes different forms. Membrane roofs on flat commercial buildings in the Ironbound and along McCarter Highway sustain wind-driven uplift at perimeter edges and corners where the wind pressure differential is greatest. Gravel-ballasted systems on older commercial buildings lose ballast that becomes airborne debris -- a hazard to pedestrians and adjacent properties. Parapet cap flashing on Downtown office buildings peels back under sustained gusts, admitting water behind the wall assembly. Metal edge flashing on industrial buildings near the airport flexes, fatigues, and eventually separates. Each failure mode demands specific repair methodology and materials.',
     'Our wind damage repair service addresses both the immediate damage and the conditions that enabled it. Replacing stripped shingles without upgrading the fastening pattern in the vulnerable zone guarantees repeat failure. Re-adhering a lifted membrane edge without adding mechanical fastening at the perimeter invites the same uplift during the next storm. Every wind damage repair we perform in Newark includes an assessment of whether the original installation met current wind-resistance standards and, where it fell short, upgrades that bring the repaired area to code-compliant wind performance.'
@@ -39,7 +39,25 @@ export const newarkWindDamageRoofRepair: ComboContent = {
     {
       question: 'Should I replace my entire roof after significant wind damage or just repair the damaged sections?',
       answer: 'The repair-versus-replace decision depends on the percentage of the roof affected, the age of the existing materials, and the availability of matching products. If wind damage affects more than 30 to 40 percent of the roof surface and the existing shingles are past their midpoint age, full replacement is usually the better investment because patched areas will visually and functionally mismatch the aging surrounding material. If damage is localized to one or two planes and the roof is relatively young, targeted repair with matching materials is appropriate. We provide both options in our assessment with honest cost-benefit analysis, and we support whichever approach your insurance adjuster approves.'
-    }
+    },
+    {
+      question: 'How much does wind damage roof repair cost in Newark, NJ?',
+      answer: 'Most wind damage roof repair projects in Newark range from $400–$2,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wind damage roof repair in Newark NJ -- urban wind tunnel effects, uplift-resistant shingle and membrane repairs, and code-compliant restoration.',
+  pricing: {
+    range: '$400–$2,000',
+    note: 'for wind-lifted or missing shingle repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wind damage roof repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

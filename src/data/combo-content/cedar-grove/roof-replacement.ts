@@ -4,7 +4,7 @@ export const cedarGroveRoofReplacement: ComboContent = {
   serviceId: 'roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Roof replacement in Cedar Grove follows the natural lifecycle of the township\'s mid-century housing stock. Hundreds of ranch homes built between 1950 and 1975 are now wearing their second or third roof, and the shingles installed during the last replacement wave of the 1990s and early 2000s have reached the end of their useful life. The decision to replace is rarely dramatic in Cedar Grove -- no catastrophic failures or emergency tarps -- but rather a gradual recognition that granule loss, curling edges, and increasing maintenance calls signal that the system has given everything it can. Our [roof replacement](/roof-replacement) approach treats each Cedar Grove project as an opportunity to address the ventilation and underlayment deficiencies that shortened the previous roof\'s life.',
+    'Newark Quality Roofing delivers expert roof replacement in Cedar Grove — with prices starting from $8,500–$25,000+ and free estimates available today. Roof replacement in Cedar Grove follows the natural lifecycle of the township\'s mid-century housing stock. Hundreds of ranch homes built between 1950 and 1975 are now wearing their second or third roof, and the shingles installed during the last replacement wave of the 1990s and early 2000s have reached the end of their useful life. The decision to replace is rarely dramatic in Cedar Grove -- no catastrophic failures or emergency tarps -- but rather a gradual recognition that granule loss, curling edges, and increasing maintenance calls signal that the system has given everything it can. Our [roof replacement](/roof-replacement) approach treats each Cedar Grove project as an opportunity to address the ventilation and underlayment deficiencies that shortened the previous roof\'s life.',
     'Cedar Grove\'s ranch-dominated roofscape presents replacement challenges distinct from communities with steeper-pitched housing. Low-slope roof planes between 3:12 and 5:12 pitch require shingle products specifically rated for shallow installation, enhanced ice-and-water shield coverage extending well beyond eaves, and ventilation redesign to compensate for the cramped attic spaces that these homes provide. Homeowners in nearby [Verona](/roof-replacement-verona-nj) deal with similar mid-century housing, but Cedar Grove\'s concentration of ranch architecture means our crews encounter these low-pitch conditions on the majority of township projects.',
     'Beyond the residential streets, Cedar Grove\'s Pompton Avenue and Route 23 commercial properties face their own replacement timelines. Strip retail centers and professional offices with flat or low-slope membrane roofs require periodic full replacement when patching and coating can no longer maintain watertight integrity. Our commercial division handles these [Cedar Grove](/roofing-in-cedar-grove-nj) projects with the same attention to building-specific conditions and honest assessment that residential homeowners have come to expect from our work in the township.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofReplacement: ComboContent = {
       question: 'Do I need to be home during my Cedar Grove roof replacement?',
       answer: 'You do not need to be present during the replacement. We review the complete scope and material selections before work begins, and our crew chief manages the project on-site. We ask that vehicles be moved from the driveway for material staging, and that any pets be kept indoors during tear-off. We contact you immediately if concealed damage is discovered that affects the scope, and we conduct the final walk-through at a time convenient for your schedule.',
     },
+    {
+      question: 'How much does roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most roof replacement projects in Cedar Grove range from $8,500–$25,000+. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar Grove NJ roof replacement for ranch and colonial homes. Ventilation upgrades, ice dam protection, and quality shingles with honest pricing.',
+  pricing: {
+    range: '$8,500–$25,000+',
+    note: 'based on roof size and material choice',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

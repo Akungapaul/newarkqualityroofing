@@ -4,7 +4,7 @@ export const veronaRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'verona',
   overview: [
-    'Roof leak repair in Verona almost always traces back to the township\'s signature architecture. Split-level and bi-level homes dominate the housing stock, and their multi-plane rooflines create more potential leak points per square foot than any other residential design. The level transitions where upper and lower roof sections meet short wall segments are ground zero for water infiltration -- corroded flashings, cracked sealants, and deteriorated membrane underlayment conspire to channel water into wall cavities and down to ceilings and floors below. Newark Quality Roofing has diagnosed and repaired thousands of these transition leaks, developing a systematic approach that finds the actual entry point rather than chasing symptoms.',
+    'Newark Quality Roofing delivers expert roof leak repair in Verona — with prices starting from $300–$1,200 and free estimates available today. Roof leak repair in Verona almost always traces back to the township\'s signature architecture. Split-level and bi-level homes dominate the housing stock, and their multi-plane rooflines create more potential leak points per square foot than any other residential design. The level transitions where upper and lower roof sections meet short wall segments are ground zero for water infiltration -- corroded flashings, cracked sealants, and deteriorated membrane underlayment conspire to channel water into wall cavities and down to ceilings and floors below. Newark Quality Roofing has diagnosed and repaired thousands of these transition leaks, developing a systematic approach that finds the actual entry point rather than chasing symptoms.',
     'What makes Verona leak diagnosis challenging is the distance water travels between entry and appearance. On a split-level, water entering at a second-floor transition flashing can migrate along a ceiling joist, follow electrical conduit, and emerge as a stain in the first-floor dining room -- ten feet or more from the breach. Homeowners often focus repair efforts on the area directly above the stain, wasting money on work that addresses the wrong location entirely. Our diagnostic approach starts at the roof and works downward, using moisture meters and visual tracing to map the full infiltration path before any repair material is applied.',
     'Beyond split-level transitions, Verona leaks originate from the typical suburban culprits amplified by local conditions. Chimney flashings on pre-war colonials near the center of town deteriorate as mortar joints crack and counter-flashings separate from the masonry. Dormer valleys on larger homes along [Claremont Avenue](/roofing-in-verona-nj) accumulate leaf debris that backs water under shingle courses. And ice dams on the low-pitched rear planes of 1950s ranches and capes force meltwater into eave cavities every winter. Each leak type requires a different repair strategy, and the correct diagnosis determines whether the fix lasts one storm or twenty years.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofLeakRepair: ComboContent = {
     {
       question: 'Do you charge for a leak diagnosis if I don\'t proceed with the repair?',
       answer: 'We charge a diagnostic fee of $150 to $250 for Verona leak investigations, which covers the interior moisture mapping, rooftop inspection, and written diagnosis report. If you proceed with the repair through us, the diagnostic fee is credited toward the repair cost. The fee ensures we invest the time needed for accurate diagnosis rather than rushing to a guess. Many Verona homeowners find that the thorough diagnosis alone saves money by preventing misdirected repair attempts.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in Verona, NJ?',
+      answer: 'Most roof leak repair projects in Verona range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in Verona NJ -- split-level transition diagnostics, moisture tracing, and permanent fixes for every leak source.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

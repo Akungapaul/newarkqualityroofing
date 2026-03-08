@@ -4,7 +4,7 @@ export const eastOrangeResidentialRoofInstallation: ComboContent = {
   serviceId: 'residential-roof-installation',
   cityId: 'east-orange',
   overview: [
-    'Residential roof installation in East Orange serves a market dominated by multi-family investment properties where the word "residential" applies to the building\'s use, not its ownership structure. The Victorian two-families in Elmwood Park, the colonials converted to three-unit rentals in Doddtown, and the scattered single-family homes in the Ampere neighborhood all qualify as residential construction, but the installation decisions are shaped by rental income projections, tenant turnover timelines, and building code requirements for multi-unit occupancy rather than the personal preference and long-term ownership mindset that drives installations in [Montclair](/residential-roof-installation-montclair-nj) or Glen Ridge.',
+    'Newark Quality Roofing delivers expert residential roof installation in East Orange — with prices starting from $8,500–$25,000 and free estimates available today. Residential roof installation in East Orange serves a market dominated by multi-family investment properties where the word "residential" applies to the building\'s use, not its ownership structure. The Victorian two-families in Elmwood Park, the colonials converted to three-unit rentals in Doddtown, and the scattered single-family homes in the Ampere neighborhood all qualify as residential construction, but the installation decisions are shaped by rental income projections, tenant turnover timelines, and building code requirements for multi-unit occupancy rather than the personal preference and long-term ownership mindset that drives installations in [Montclair](/residential-roof-installation-montclair-nj) or Glen Ridge.',
     'New construction residential roofing in East Orange is concentrated in infill development and gut-renovation projects where existing buildings are stripped to framing and rebuilt to current code standards. The city\'s rehabilitation zones encourage this transformation, and investors purchasing distressed properties for renovation need roofing contractors who understand the specific requirements of East Orange\'s building department for new [residential roof installations](/residential-roof-installation) on renovated structures -- including structural engineering documentation, energy code compliance for insulation and ventilation, and fire-rating requirements that apply when buildings are converted between occupancy classifications.',
     'The steep, complex roof geometry of East Orange\'s Victorian housing stock presents installation challenges that standard residential work in suburban ranch-and-colonial neighborhoods does not encounter. Intersecting gable roofs with 10/12 and 12/12 pitches, decorative turrets, bay window roofs, dormer cheek walls, and ornamental ridge details create installation environments where square-footage pricing models break down. These buildings require substantially more flashing, valley work, edge trim, and specialty detailing per square of roof area than geometrically simple structures, and accurate pricing must account for this complexity.',
     'For the segment of East Orange homeowners who own and occupy their properties -- a smaller but meaningful population concentrated in the Ampere and Elmwood Park neighborhoods -- residential roof installation represents a significant personal investment in a community where property values are rebuilding. These owner-occupants deserve the same quality of installation, material selection guidance, and warranty coverage that homeowners in any Essex County town receive, and we approach owner-occupied East Orange projects with the same attention to aesthetics, ventilation, and long-term performance that we bring to work throughout the county.'
@@ -35,7 +35,25 @@ export const eastOrangeResidentialRoofInstallation: ComboContent = {
     {
       question: 'Can you install a new roof on my East Orange property while tenants are living in the building?',
       answer: 'Yes. Most East Orange residential roof installations are completed on occupied multi-family buildings. We coordinate with property managers on tenant notification, schedule the noisiest work during business hours, and contain debris to prevent damage to tenant belongings or common areas. Interior work -- such as attic ventilation modifications -- requires unit access coordination with tenants, following New Jersey tenant notification requirements.'
-    }
+    },
+    {
+      question: 'How much does residential roof installation cost in East Orange, NJ?',
+      answer: 'Most residential roof installation projects in East Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Residential roof installation for East Orange NJ multi-family homes -- Victorian re-roofing, investment upgrades, and new construction on renovations.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'complete residential installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free residential roof installation estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

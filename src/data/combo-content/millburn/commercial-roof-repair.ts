@@ -4,7 +4,7 @@ export const millburnCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'millburn',
   overview: [
-    'Commercial roof repair in Millburn serves a concentrated but discerning market of boutique retail owners, professional office operators, and institutional facility managers whose buildings demand the same caliber of roofing service that the township\'s estate homeowners expect. The commercial properties along Millburn Avenue, Essex Street, and the Short Hills train station corridor house medical practices, law firms, wealth management offices, and curated retail shops whose operations -- and whose patients, clients, and customers -- cannot tolerate water intrusion, construction disruption, or deferred maintenance that signals neglect.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Millburn — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Millburn serves a concentrated but discerning market of boutique retail owners, professional office operators, and institutional facility managers whose buildings demand the same caliber of roofing service that the township\'s estate homeowners expect. The commercial properties along Millburn Avenue, Essex Street, and the Short Hills train station corridor house medical practices, law firms, wealth management offices, and curated retail shops whose operations -- and whose patients, clients, and customers -- cannot tolerate water intrusion, construction disruption, or deferred maintenance that signals neglect.',
     'Our [commercial roof repair](/commercial-roof-repair) approach for Millburn properties recognizes that commercial repair decisions are business decisions. A leaking roof above a dermatology practice is not merely a building-maintenance issue -- it threatens equipment, disrupts appointments, and damages the practice\'s professional image. The repair must be executed quickly, with minimal disruption to business operations, and with documentation that satisfies the property owner\'s insurance carrier and the tenant\'s lease requirements for habitable space. These business-context considerations shape our repair planning as much as the technical roofing scope.',
     'The Short Hills Mall complex and the larger commercial properties in Millburn\'s retail zones present repair-management challenges distinct from the small office and retail buildings along Millburn Avenue. Multi-tenant commercial buildings require coordination between the property manager, multiple tenant businesses, and roofing contractors to schedule repair work without disrupting any individual tenant disproportionately. Our commercial repair coordination includes tenant notification, access scheduling, and interior protection that property managers at similar commercial properties in [Newark](/commercial-roof-repair-newark-nj) and across Essex County rely upon.'
   ],
@@ -34,7 +34,25 @@ export const millburnCommercialRoofRepair: ComboContent = {
     {
       question: 'How do I know if my commercial roof needs repair versus replacement?',
       answer: 'Repair is appropriate when the membrane field is structurally sound with isolated failure points -- seam separations, flashing deterioration, puncture damage. Replacement is warranted when failures are widespread, the membrane has exceeded its expected service life, or the insulation beneath is moisture-saturated. Our diagnosis includes membrane condition assessment and a recommendation that identifies the cost-effective intervention -- repair, coating restoration, or replacement -- for the current roof condition.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Millburn, NJ?',
+      answer: 'Most commercial roof repair projects in Millburn range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair for Millburn offices, retail, and medical buildings. Rapid leak response with minimal tenant disruption along Millburn Avenue corridor.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

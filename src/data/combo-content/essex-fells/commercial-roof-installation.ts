@@ -4,7 +4,7 @@ export const essexFellsCommercialRoofInstallation: ComboContent = {
   serviceId: 'commercial-roof-installation',
   cityId: 'essex-fells',
   overview: [
-    'Commercial roof installation in Essex Fells serves the borough\'s institutional buildings and the estate-scale residential structures whose size and specification exceed standard residential construction parameters. The municipal complex, community recreation center, fire station, and school buildings require commercial-grade roofing systems installed to specifications governing structural capacity, fire rating, wind-uplift resistance, and energy code compliance. These institutional projects demand the same technical competence as commercial installations in [Newark](/commercial-roof-installation-newark-nj), executed within a residential community that holds construction activity to elevated standards of site management, noise control, and neighbor communication.',
+    'Newark Quality Roofing delivers expert commercial roof installation in Essex Fells — with prices starting from $8–$14/sq ft and free estimates available today. Commercial roof installation in Essex Fells serves the borough\'s institutional buildings and the estate-scale residential structures whose size and specification exceed standard residential construction parameters. The municipal complex, community recreation center, fire station, and school buildings require commercial-grade roofing systems installed to specifications governing structural capacity, fire rating, wind-uplift resistance, and energy code compliance. These institutional projects demand the same technical competence as commercial installations in [Newark](/commercial-roof-installation-newark-nj), executed within a residential community that holds construction activity to elevated standards of site management, noise control, and neighbor communication.',
     'Estate-scale residential construction in Essex Fells increasingly incorporates structures built to commercial specifications. Indoor pool enclosures spanning fifty-plus feet, multi-bay garages engineered for vehicle lifts and workshop equipment, and entertainment buildings with commercial kitchen and HVAC installations require roofing systems designed, specified, and installed as commercial projects. The architectural context is residential -- the structure must complement the estate -- but the roofing engineering is commercial in every technical dimension.',
     'Our commercial roof installation capability bridges institutional and estate markets in [Essex Fells](/roofing-in-essex-fells-nj) with project management that addresses both the technical requirements of commercial roofing and the community expectations governing construction in an exclusively residential borough. We manage permits through the Essex Fells building department, coordinate material deliveries through residential streets, and schedule high-impact construction operations within the borough\'s noise and traffic restrictions while maintaining the installation quality standards that commercial warranty requirements demand.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsCommercialRoofInstallation: ComboContent = {
     {
       question: 'Can you handle both the commercial roofing and the residential estate roofing on my property?',
       answer: 'Yes, and this integrated capability is a significant advantage for Essex Fells estate owners. Managing both the commercial-specification pool enclosure roof and the residential slate main house roof under a single contractor ensures material compatibility, drainage coordination, and maintenance scheduling coherence across the entire estate. We maintain the commercial certifications and equipment for large-format membrane and metal work alongside the craft skills for premium residential slate, copper, and cedar shake installation.'
-    }
+    },
+    {
+      question: 'How much does commercial roof installation cost in Essex Fells, NJ?',
+      answer: 'Most commercial roof installation projects in Essex Fells range from $8–$14/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof installation in Essex Fells NJ -- institutional and estate-scale projects with residential community coordination.',
+  pricing: {
+    range: '$8–$14/sq ft',
+    note: 'varies by system and building size',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof installation estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

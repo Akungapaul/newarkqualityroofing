@@ -4,7 +4,7 @@ export const bellevilleRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'belleville',
   overview: [
-    'Roof inspection in Belleville requires a diagnostic approach calibrated to the township\'s particular housing stock and lot conditions. The 1940s-through-1960s Cape Cods and colonials that fill Belleville\'s residential blocks have aged through multiple ownership cycles, re-roofing campaigns, and DIY patch jobs that layer complexity on top of simplicity. A thorough [roof inspection](/roof-inspection) here means reading not just the current roof surface but the history embedded beneath it -- previous repair quality, layer count, ventilation modifications, and the structural consequences of decades of deferred maintenance on closely-spaced homes that trap heat and humidity between them.',
+    'Newark Quality Roofing delivers expert roof inspection in Belleville — with prices starting from $150–$400 and free estimates available today. Roof inspection in Belleville requires a diagnostic approach calibrated to the township\'s particular housing stock and lot conditions. The 1940s-through-1960s Cape Cods and colonials that fill Belleville\'s residential blocks have aged through multiple ownership cycles, re-roofing campaigns, and DIY patch jobs that layer complexity on top of simplicity. A thorough [roof inspection](/roof-inspection) here means reading not just the current roof surface but the history embedded beneath it -- previous repair quality, layer count, ventilation modifications, and the structural consequences of decades of deferred maintenance on closely-spaced homes that trap heat and humidity between them.',
     'The Branch Brook Park border and Silver Lake neighborhoods present distinct inspection profiles. Eastern properties near the Passaic River show humidity-driven degradation patterns -- algae colonization, accelerated granule loss on north-facing slopes, and moisture readings elevated above baseline even on dry days. Silver Lake homes bordering [Bloomfield](/roof-inspection-bloomfield-nj) tend toward the ranch and split-level designs of the late 1950s with low-pitch rear sections that accumulate debris and develop ponding. Each neighborhood demands different diagnostic emphasis, and our inspection teams adjust their protocols accordingly rather than running a generic checklist.',
     'Commercial property inspections along Washington Avenue and the Belleville Turnpike assess flat membrane systems where ponding, seam separation, and penetration flashing deterioration are the primary concerns. Business owners in Belleville often request inspections as part of lease negotiations, property sales, or insurance renewals. Our commercial inspection reports include remaining service life estimates, repair-versus-replacement cost analysis, and photo-documented condition ratings that serve the specific documentation needs these transactions require.'
   ],
@@ -34,7 +34,25 @@ export const bellevilleRoofInspection: ComboContent = {
     {
       question: 'What does a Belleville roof inspection cost?',
       answer: 'Residential roof inspections in Belleville typically range from two hundred fifty to four hundred dollars depending on roof size, accessibility, and whether drone photography is included. The investment is modest compared to the cost of discovering hidden damage after closing on a purchase or allowing a small repairable issue to progress into a full replacement need. Our inspection fee is credited toward any repair or replacement work you authorize within six months of the inspection date.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Belleville, NJ?',
+      answer: 'Most roof inspection projects in Belleville range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Belleville NJ roof inspection -- multi-layer assessment, humidity diagnostics, and ventilation evaluation for post-war homes.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Belleville — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Belleville — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

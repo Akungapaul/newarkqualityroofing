@@ -4,7 +4,7 @@ export const newarkRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'newark',
   overview: [
-    'Roof inspections in Newark serve a purpose distinct from those in surrounding suburban towns. The city\'s building stock -- brownstones pushing past their centennial, multi-family walk-ups that have changed ownership dozens of times, commercial structures in the Ironbound carrying decades of tenant modifications -- demands inspections that go beyond surface-level shingle counting. A meaningful Newark roof inspection reads the building\'s history through its roof: previous repairs both competent and improvised, structural adaptations hidden under layers of roofing, and deterioration patterns shaped by the specific microclimate of each neighborhood.',
+    'Newark Quality Roofing delivers expert roof inspection in Newark — with prices starting from $150–$400 and free estimates available today. Roof inspections in Newark serve a purpose distinct from those in surrounding suburban towns. The city\'s building stock -- brownstones pushing past their centennial, multi-family walk-ups that have changed ownership dozens of times, commercial structures in the Ironbound carrying decades of tenant modifications -- demands inspections that go beyond surface-level shingle counting. A meaningful Newark roof inspection reads the building\'s history through its roof: previous repairs both competent and improvised, structural adaptations hidden under layers of roofing, and deterioration patterns shaped by the specific microclimate of each neighborhood.',
     'Pre-purchase inspections represent the highest-stakes category of our Newark work. Buyers acquiring brownstones in Forest Hill or investment properties in the Central Ward need accurate assessments that quantify remaining roof life and identify hidden liabilities. A general home inspector\'s cursory roof check -- typically conducted from ground level with binoculars -- misses the party-wall flashing failures, concealed flat-roof sections behind parapets, and attic ventilation deficiencies that drive major costs after closing. Our specialized roof inspections provide the granular data that protects buyers from unexpected five-figure expenditures.',
     'Commercial property inspections in Newark follow a different cadence and scope. Building owners along McCarter Highway, Broad Street, and throughout the Ironbound maintain flat-roof systems that require annual professional inspection to preserve manufacturer warranties and satisfy insurance requirements. These inspections evaluate membrane condition, drainage function, penetration seal integrity, and parapet cap condition -- all failure points specific to the low-slope commercial roof systems that dominate Newark\'s business districts.',
     'Multi-family building inspections add occupant-safety considerations to the standard structural and weatherproofing assessment. A six-unit walk-up in the North Ward presents inspection complexities that a single-family home does not: multiple interior access points for leak evidence, shared attic spaces where ventilation problems compound, and fire-escape attachments that penetrate the roof membrane. Our multi-family inspection protocol covers all of these elements and produces reporting suitable for both building owners and municipal code compliance.'
@@ -35,7 +35,25 @@ export const newarkRoofInspection: ComboContent = {
     {
       question: 'What should I look for in a roof inspection report before buying a multi-family building in the North Ward?',
       answer: 'The three most critical elements for a North Ward multi-family purchase are: remaining roof life estimate (anything under ten years means you\'re facing a replacement capital expense soon), party-wall flashing condition (the most expensive and persistent repair issue on attached row buildings), and attic ventilation adequacy (poor ventilation in Newark\'s humid climate accelerates sheathing deterioration and drives ice dam formation in winter). Our reports highlight these three factors prominently for multi-family purchases and include estimated costs for addressing any deficiencies found -- giving you negotiation leverage and accurate budgeting data before you close.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Newark, NJ?',
+      answer: 'Most roof inspection projects in Newark range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Professional roof inspections in Newark NJ -- pre-purchase brownstone evaluations, commercial flat-roof assessments, and multi-family building reports.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

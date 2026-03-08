@@ -4,7 +4,7 @@ export const orangeEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'orange',
   overview: [
-    'Emergency roof repair in Orange means one thing more than anything else: fallen trees. South Mountain Reservation\'s dense hardwood canopy -- oak, maple, beech, and hickory stretching over 2,100 acres -- borders the city\'s southern and western residential neighborhoods directly. During summer thunderstorms, winter ice events, and the increasingly intense nor\'easters that track through Essex County, large limbs and entire trees come down onto Orange roofs with devastating force. Our [emergency roof repair](/emergency-roof-repair) response team maintains staged tarping materials at our Newark facility specifically because Orange storm calls are among the most frequent and most urgent we receive.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Orange — with prices starting from $500–$2,500 and free estimates available today. Emergency roof repair in Orange means one thing more than anything else: fallen trees. South Mountain Reservation\'s dense hardwood canopy -- oak, maple, beech, and hickory stretching over 2,100 acres -- borders the city\'s southern and western residential neighborhoods directly. During summer thunderstorms, winter ice events, and the increasingly intense nor\'easters that track through Essex County, large limbs and entire trees come down onto Orange roofs with devastating force. Our [emergency roof repair](/emergency-roof-repair) response team maintains staged tarping materials at our Newark facility specifically because Orange storm calls are among the most frequent and most urgent we receive.',
     'The compact nature of Orange\'s residential blocks amplifies emergency situations. When a tree limb crashes through a roof on a 30-foot lot in the Oakwood-Lincoln area, the debris field extends onto adjacent properties. Water from the punctured roof flows not just into the affected home but potentially onto the neighboring structure three feet away. An emergency response in Orange often means securing two properties simultaneously -- tarping the damaged roof while protecting the adjacent structure from secondary water exposure. Homeowners in neighboring [East Orange](/emergency-roof-repair-east-orange-nj) share some of these tight-lot challenges, though Orange\'s proximity to the reservation concentrates tree-related emergencies more intensely.',
     'Main Street commercial properties generate a different category of emergency calls. Flat-roof membrane failures on mixed-use buildings send water cascading through retail ceilings and into merchandise, equipment, and tenant living spaces. These calls demand immediate interior protection -- containing water flow, moving vulnerable inventory, and covering fixtures -- before the exterior repair can begin. Our commercial emergency protocol for Orange includes interior damage mitigation as a first step, because on Main Street, a leaking roof can destroy a business\'s inventory faster than the roof itself.'
   ],
@@ -34,7 +34,25 @@ export const orangeEmergencyRoofRepair: ComboContent = {
     {
       question: 'Should I have the tree removed before calling you for the roof repair?',
       answer: 'No -- call us first. We need to assess the damage with the tree debris in place to document the impact for insurance purposes. We coordinate tree removal with our partner arborist services after documenting the damage. Removing the tree prematurely can disturb the evidence that adjusters need to see and may cause additional roof damage if not done carefully.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Orange, NJ?',
+      answer: 'Most emergency roof repair projects in Orange range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Orange NJ -- rapid response for South Mountain tree damage, storm tarping, and Main Street commercial leak emergencies.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

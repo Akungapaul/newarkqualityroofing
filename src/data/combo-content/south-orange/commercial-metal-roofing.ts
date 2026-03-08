@@ -4,7 +4,7 @@ export const southOrangeCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'south-orange',
   overview: [
-    'Commercial metal roofing in South Orange Village occupies a particular niche where architectural appearance must satisfy a community that scrutinizes commercial building aesthetics as carefully as residential curb appeal. Standing-seam and architectural metal panel systems on South Orange commercial buildings provide the 50-year-plus durability and energy efficiency that property owners value, while the clean lines and modern finish complement the village center\'s ongoing revitalization along South Orange Avenue.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in South Orange — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in South Orange Village occupies a particular niche where architectural appearance must satisfy a community that scrutinizes commercial building aesthetics as carefully as residential curb appeal. Standing-seam and architectural metal panel systems on South Orange commercial buildings provide the 50-year-plus durability and energy efficiency that property owners value, while the clean lines and modern finish complement the village center\'s ongoing revitalization along South Orange Avenue.',
     'Seton Hall University\'s newer campus facilities incorporate metal roofing as an architectural statement that distinguishes modern buildings from the slate-roofed historic structures. Athletic facilities, performing arts spaces, and student services buildings use standing-seam metal panels in muted color selections that reference the university\'s brand identity while providing the low-maintenance longevity that institutional property management requires. Our commercial metal work on campus coordinates with the university\'s architectural guidelines and construction schedules, maintaining campus aesthetics across building generations.',
     'The mixed-use buildings and commercial properties along South Orange Avenue benefit from metal roofing\'s combination of durability and design flexibility. Metal panels can be configured for both steep-slope architectural applications and low-slope commercial installations, accommodating the varied building profiles in the village commercial district. Property owners in [South Orange](/roofing-in-south-orange-nj) appreciate that metal roofing eliminates the periodic replacement cycles that membrane systems require, reducing the long-term maintenance burden and lifecycle cost of commercial roof ownership.',
     'Environmental credentials strengthen the metal roofing value proposition for South Orange\'s sustainability-conscious business community. Metal panels are manufactured from recycled content, fully recyclable at end of life, and reflective coatings reduce building cooling loads measurably. For commercial tenants and customers who value environmental responsibility, a metal roof signals the property owner\'s commitment to sustainable building practices in a village that actively promotes those values.'
@@ -35,7 +35,25 @@ export const southOrangeCommercialMetalRoofing: ComboContent = {
     {
       question: 'How does a metal roof perform in South Orange\'s wind conditions?',
       answer: 'Properly engineered metal roofing provides superior wind resistance compared to membrane systems. Standing-seam panels with mechanically seamed joints and engineered clip attachment resist wind uplift loads that exceed the performance of adhered or mechanically attached membranes. Our wind uplift calculations for South Orange account for the elevated exposure that hillside properties and buildings near South Mountain Reservation experience.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in South Orange, NJ?',
+      answer: 'Most commercial metal roofing projects in South Orange range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in South Orange NJ -- standing-seam panels for village businesses and Seton Hall University campus facilities.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

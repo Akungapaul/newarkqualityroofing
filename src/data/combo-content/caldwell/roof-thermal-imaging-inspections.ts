@@ -4,7 +4,7 @@ export const caldwellRoofThermalImagingInspections: ComboContent = {
   serviceId: 'roof-thermal-imaging-inspections',
   cityId: 'caldwell',
   overview: [
-    'Roof thermal imaging inspections use infrared camera technology to reveal conditions invisible to the naked eye on Caldwell commercial buildings -- trapped moisture within insulation layers, thermal bridging at structural connections, insulation voids beneath membrane surfaces, and active leak pathways that have not yet produced visible interior symptoms. This non-destructive diagnostic method maps the thermal signature across the entire roof surface, identifying problem areas by their temperature differential against the surrounding dry, properly insulated roof assembly.',
+    'Newark Quality Roofing delivers expert roof thermal imaging inspections in Caldwell — with prices starting from $300–$700 and free estimates available today. Roof thermal imaging inspections use infrared camera technology to reveal conditions invisible to the naked eye on Caldwell commercial buildings -- trapped moisture within insulation layers, thermal bridging at structural connections, insulation voids beneath membrane surfaces, and active leak pathways that have not yet produced visible interior symptoms. This non-destructive diagnostic method maps the thermal signature across the entire roof surface, identifying problem areas by their temperature differential against the surrounding dry, properly insulated roof assembly.',
     'For [Caldwell](/roofing-in-caldwell-nj) building owners, thermal imaging serves as both a diagnostic and planning tool. As a diagnostic, it locates moisture infiltration that explains interior ceiling stains or elevated HVAC costs without the destructive core sampling that would otherwise be required to find wet insulation. As a planning tool, it establishes the percentage of insulation that has been compromised by moisture, which determines whether targeted repair or full [commercial roof replacement](/commercial-roof-replacement-caldwell-nj) is the appropriate response. This information directly affects the financial decision between repair investment and replacement capital expenditure.',
     'Thermal imaging inspection provides particular value on [Caldwell\'s](/roofing-in-caldwell-nj) aging commercial building stock where decades of small leaks may have saturated insulation beneath apparently sound membrane surfaces. A roof that shows no visible membrane damage may carry twenty or thirty percent wet insulation from years of minor infiltration through deteriorated flashing joints, worn pipe boots, and membrane seam cracks too small to see without magnification. Building owners in [Bloomfield](/roof-thermal-imaging-inspections-bloomfield-nj) and [Montclair](/roof-thermal-imaging-inspections-montclair-nj) use thermal imaging for similar pre-replacement condition assessment on their commercial properties.'
   ],
@@ -34,7 +34,25 @@ export const caldwellRoofThermalImagingInspections: ComboContent = {
     {
       question: 'Does thermal imaging damage the roof surface?',
       answer: 'No. Thermal imaging is completely non-destructive. The infrared camera reads the heat emitted from the roof surface without physical contact. Walking on the roof for camera positioning is the only physical interaction with the membrane, and we follow the same careful walking practices used during any roof inspection. Verification core samples, if taken to confirm thermal findings, penetrate the membrane at selected points and are sealed with standard repair procedures after sampling.'
-    }
+    },
+    {
+      question: 'How much does roof thermal imaging inspections cost in Caldwell, NJ?',
+      answer: 'Most roof thermal imaging inspections projects in Caldwell range from $300–$700. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof thermal imaging inspections in Caldwell NJ -- infrared moisture mapping for commercial buildings before repair or replacement decisions.',
+  pricing: {
+    range: '$300–$700',
+    note: 'infrared thermal scan with report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof thermal imaging inspections estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

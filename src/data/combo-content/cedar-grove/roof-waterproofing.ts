@@ -4,7 +4,7 @@ export const cedarGroveRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'cedar-grove',
   overview: [
-    'Roof waterproofing in Cedar Grove applies advanced membrane and coating technologies to protect the township\'s residential and commercial buildings from water infiltration at the most vulnerable points in the roof assembly. Beyond standard shingle and membrane installation, waterproofing addresses the secondary barriers, sealant systems, and penetration details that serve as the last line of defense when primary roof coverings are overwhelmed by northern Essex County\'s driving rain, ice dam meltwater, and wind-driven precipitation.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Cedar Grove — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Cedar Grove applies advanced membrane and coating technologies to protect the township\'s residential and commercial buildings from water infiltration at the most vulnerable points in the roof assembly. Beyond standard shingle and membrane installation, waterproofing addresses the secondary barriers, sealant systems, and penetration details that serve as the last line of defense when primary roof coverings are overwhelmed by northern Essex County\'s driving rain, ice dam meltwater, and wind-driven precipitation.',
     'Cedar Grove\'s low-pitch ranch homes benefit most from comprehensive [roof waterproofing](/roof-waterproofing) strategies because their shallow slopes retain water longer and shed it less effectively than steeper designs. Ice-and-water shield membrane at eaves and valleys, liquid-applied waterproofing at penetrations, and self-adhering underlayment on low-slope sections create layered protection that compensates for the geometric disadvantage that low-pitch roofs present in Cedar Grove\'s wet climate.',
     'Commercial flat roofs along Pompton Avenue and Route 23 require waterproofing systems engineered for zero-slope conditions where standing water is inevitable despite drainage improvements. Liquid-applied membrane coatings, spray-on rubberized barriers, and reinforced sheet membranes each serve specific commercial waterproofing applications in Cedar Grove, selected based on the building\'s existing roof type, traffic requirements, and budget constraints.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveRoofWaterproofing: ComboContent = {
       question: 'How long does roof waterproofing last on Cedar Grove homes?',
       answer: 'Self-adhering membrane waterproofing installed during roof replacement lasts the life of the roof -- typically twenty to thirty years. Liquid-applied waterproofing coatings last ten to fifteen years before reapplication. Sealant-based waterproofing at penetrations requires inspection and maintenance every five to seven years. The key is matching the waterproofing system lifespan to the primary roof covering lifespan so both are addressed simultaneously during roof replacement.',
     },
+    {
+      question: 'How much does roof waterproofing cost in Cedar Grove, NJ?',
+      answer: 'Most roof waterproofing projects in Cedar Grove range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Cedar Grove NJ -- ice-and-water shield, liquid membranes, and penetration sealing for ranch homes and commercial buildings.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

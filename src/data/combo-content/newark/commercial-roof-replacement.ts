@@ -4,7 +4,7 @@ export const newarkCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Commercial roof replacement in Newark represents a capital expenditure that property owners and facility directors plan years in advance -- or scramble to fund when a catastrophic failure forces the timeline. Either way, the decision involves system selection, budget allocation, tenant coordination, and regulatory compliance at a scale that residential roofing never approaches. A single commercial roof replacement on a 20,000-square-foot Newark office building or Ironbound warehouse typically ranges from one hundred forty thousand to three hundred thousand dollars depending on the system specified, structural modifications required, and energy code compliance upgrades mandated by current building standards.',
+    'Newark Quality Roofing delivers expert commercial roof replacement in Newark — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Newark represents a capital expenditure that property owners and facility directors plan years in advance -- or scramble to fund when a catastrophic failure forces the timeline. Either way, the decision involves system selection, budget allocation, tenant coordination, and regulatory compliance at a scale that residential roofing never approaches. A single commercial roof replacement on a 20,000-square-foot Newark office building or Ironbound warehouse typically ranges from one hundred forty thousand to three hundred thousand dollars depending on the system specified, structural modifications required, and energy code compliance upgrades mandated by current building standards.',
     'The replacement decision itself requires economic analysis beyond simple repair-versus-replace arithmetic. Property managers must weigh remaining roof service life against projected repair frequency, current energy performance against code-mandated insulation upgrades, warranty status against remaining coverage value, and tenant satisfaction against ongoing leak disruption. For Newark commercial buildings approaching the twenty-to-twenty-five-year mark on their current roof system, the analysis increasingly favors replacement because repair costs accelerate exponentially in the final years while tenant retention costs from ongoing leak complaints compound the financial exposure.',
     'Newark\'s current building energy code transforms commercial roof replacement from a waterproofing project into a building envelope upgrade. When a commercial roof is stripped to the deck, the replacement assembly must meet current insulation R-value requirements -- typically R-25 to R-30 for Newark\'s climate zone -- regardless of what the original roof provided. For buildings that operated with R-8 or R-12 insulation for decades, this mandatory upgrade delivers immediate energy savings that offset a meaningful portion of the replacement cost over the first five to ten years of the new roof\'s service life.',
     'For portfolio investors and REIT property managers overseeing multiple Newark commercial assets, roof replacement planning integrates with capital budgeting cycles, depreciation schedules, and tenant lease renewal timelines. We provide multi-year replacement forecasts based on condition assessments across your portfolio, allowing you to schedule replacements during lease turnover periods, align expenditures with capital reserve funding, and avoid the premium costs of emergency replacement when planning gives way to failure.'
@@ -41,7 +41,25 @@ export const newarkCommercialRoofReplacement: ComboContent = {
     {
       question: 'Will my Newark commercial building need to meet current energy code during roof replacement?',
       answer: 'Yes. When a commercial roof in Newark is replaced to the deck, the new assembly must comply with the current New Jersey energy code, which requires minimum insulation R-values and, for low-slope roofs, minimum solar reflectance values. This code-triggered upgrade is mandatory regardless of what the original roof provided. While it increases the initial investment compared to a like-for-like replacement, the energy performance improvement typically reduces annual HVAC costs by fifteen to twenty-five percent -- delivering measurable return on the mandated upgrade throughout the new roof\'s service life.'
-    }
+    },
+    {
+      question: 'How much does commercial roof replacement cost in Newark, NJ?',
+      answer: 'Most commercial roof replacement projects in Newark range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof replacement in Newark NJ. Full system replacement with budget forecasting, tenant coordination, and energy code compliance for properties.',
+  pricing: {
+    range: '$8–$16/sq ft',
+    note: 'full tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

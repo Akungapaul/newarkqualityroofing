@@ -4,7 +4,7 @@ export const cedarGroveSlateRoofReplacement: ComboContent = {
   serviceId: 'slate-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Slate roof replacement in Cedar Grove preserves the distinctive natural stone roofing on the township\'s pre-war colonials and custom-built homes where slate has protected the structure for decades. When individual slate tile replacement can no longer keep pace with the number of failing tiles, full [slate roof replacement](/slate-roof-replacement) installs a new field of natural slate on upgraded underlayment and flashing, extending the building\'s century-scale roof protection for another generation.',
+    'Newark Quality Roofing delivers expert slate roof replacement in Cedar Grove — with prices starting from $20,000–$45,000 and free estimates available today. Slate roof replacement in Cedar Grove preserves the distinctive natural stone roofing on the township\'s pre-war colonials and custom-built homes where slate has protected the structure for decades. When individual slate tile replacement can no longer keep pace with the number of failing tiles, full [slate roof replacement](/slate-roof-replacement) installs a new field of natural slate on upgraded underlayment and flashing, extending the building\'s century-scale roof protection for another generation.',
     'Cedar Grove\'s slate-roofed homes are relatively rare compared to the dominant asphalt-shingle ranch inventory, but they represent some of the township\'s most architecturally significant properties. These homes, typically built before the post-war ranch construction era, feature steeper roof pitches and heavier framing that were designed to carry slate\'s considerable weight. Replacing the slate preserves both the architectural character and the structural investment that the original builder made.',
     'Natural slate roofing remains the premium residential roofing material for Cedar Grove properties where longevity, aesthetics, and historical accuracy matter. No synthetic or manufactured product replicates the color depth, texture variation, and century-plus service life of quarry-cut natural slate. For Cedar Grove homeowners committed to maintaining their home\'s original character, slate replacement is a once-in-a-lifetime project that serves the next three to four generations of owners.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveSlateRoofReplacement: ComboContent = {
       question: 'Does slate roof replacement require structural reinforcement?',
       answer: 'If the home was originally built for slate, the framing is typically adequate for replacement slate of similar weight. However, sixty-plus years of service may have weakened individual members, and engineering evaluation is recommended before installation. Homes being converted from shingles to slate almost certainly require structural reinforcement, as slate weighs three to four times more than asphalt shingles per square foot.',
     },
+    {
+      question: 'How much does slate roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most slate roof replacement projects in Cedar Grove range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof replacement in Cedar Grove NJ -- natural stone roofing for pre-war colonials with century-plus lifespan and historical accuracy.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'slate roof replacement or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

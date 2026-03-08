@@ -4,7 +4,7 @@ export const caldwellCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Cedar shake roof replacement in Caldwell renews the natural wood roofing on homes where the existing cedar has reached the end of its service life through weathering, splitting, and decay. Cedar shakes on Caldwell homes face accelerated aging from the borough\'s dense tree canopy -- persistent shade holds moisture against shake surfaces, leaf debris promotes biological growth between courses, and the humid microclimate beneath canopy prevents the drying that cedar needs for longevity. When the shake field shows widespread splitting, curling, and moss colonization, replacement provides the comprehensive renewal that spot repair cannot achieve.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Caldwell — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Caldwell renews the natural wood roofing on homes where the existing cedar has reached the end of its service life through weathering, splitting, and decay. Cedar shakes on Caldwell homes face accelerated aging from the borough\'s dense tree canopy -- persistent shade holds moisture against shake surfaces, leaf debris promotes biological growth between courses, and the humid microclimate beneath canopy prevents the drying that cedar needs for longevity. When the shake field shows widespread splitting, curling, and moss colonization, replacement provides the comprehensive renewal that spot repair cannot achieve.',
     'The replacement decision for Caldwell cedar shake homeowners involves choosing between replacement-in-kind with new cedar shakes and transition to an alternative material. New [cedar shake](/cedar-shake-roofing-caldwell-nj) delivers the authentic natural appearance that motivated the original selection but requires the same maintenance commitment in [Caldwell\'s](/roofing-in-caldwell-nj) demanding canopy environment. Composite shake products replicate the cedar appearance with significantly reduced maintenance requirements and improved fire resistance. Architectural asphalt shingles provide reliable protection at the lowest cost but sacrifice the premium character that wood roofing provides.',
     'Our [cedar shake roof replacement](/cedar-shake-roof-replacement) capability for Caldwell includes complete tear-off of the existing shake system -- which typically includes the skip-sheathing substrate beneath the shakes -- followed by solid deck installation, modern underlayment, and the selected replacement material. The tear-off phase on cedar shake roofs reveals deck conditions specific to this material system: skip-sheathing boards that may have deteriorated at their rafter-bearing points, and open gaps between boards that require filling or complete replacement with solid plywood. Homeowners in [Montclair](/cedar-shake-roof-replacement-montclair-nj) and [Glen Ridge](/cedar-shake-roof-replacement-glen-ridge-nj) face similar shake replacement decisions on their residential properties.'
   ],
@@ -34,7 +34,25 @@ export const caldwellCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Does my Caldwell home need fire-retardant cedar shakes?',
       answer: 'We specify fire-retardant-treated cedar shakes as standard on every Caldwell installation. The canopy-surrounded setting means falling embers from any fire source would contact the shake surface before any other part of the home. Fire-retardant treatment achieves Class A or Class B fire rating compared to untreated cedar\'s Class C rating, significantly reducing ignition risk. The treatment cost is modest relative to the safety improvement and is included in our standard cedar shake pricing for Caldwell installations.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Caldwell, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Caldwell range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Caldwell NJ -- tear-off with deck conversion and cedar or composite replacement for canopy-surrounded homes.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

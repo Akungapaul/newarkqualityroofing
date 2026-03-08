@@ -4,7 +4,7 @@ export const livingstonSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'livingston',
   overview: [
-    'Spray polyurethane foam roofing creates a seamless, self-insulating roof system that addresses two critical needs simultaneously on Livingston\'s commercial buildings: waterproofing and thermal performance. The closed-cell foam conforms to any roof geometry, encapsulating penetrations, equipment curbs, and irregular surfaces in a monolithic barrier that has no seams to fail and no fastener penetrations to leak. For Livingston building owners facing aging roofs with deteriorated insulation, SPF roofing provides a solution that does not require tear-off of the existing roof membrane.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Livingston — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing creates a seamless, self-insulating roof system that addresses two critical needs simultaneously on Livingston\'s commercial buildings: waterproofing and thermal performance. The closed-cell foam conforms to any roof geometry, encapsulating penetrations, equipment curbs, and irregular surfaces in a monolithic barrier that has no seams to fail and no fastener penetrations to leak. For Livingston building owners facing aging roofs with deteriorated insulation, SPF roofing provides a solution that does not require tear-off of the existing roof membrane.',
     'The no-tear-off installation advantage is particularly valuable for occupied Livingston commercial properties where interior business operations make traditional roof replacement disruptive. Medical offices along Eisenhower Parkway, retail establishments at the Town Center, and professional services firms cannot easily accommodate the noise, debris, and weather exposure that tear-off construction produces. SPF applies directly over the existing roof surface after cleaning and priming, creating the new weatherproofing layer without exposing the building interior to the elements during construction.',
     'Our [spray foam roofing](/spray-foam-roofing) installations in Livingston are protected with elastomeric coatings that shield the foam from UV degradation and provide a walkable, maintenance-accessible surface. The coating system -- typically silicone or acrylic-based -- adds reflectivity that enhances the thermal performance already built into the foam insulation. The combined R-value of foam insulation plus reflective coating delivers energy savings that Livingston building owners report as immediately noticeable in reduced HVAC operating costs.',
     'Commercial property managers in [Caldwell](/spray-foam-roofing-caldwell-nj) have adopted SPF for smaller commercial buildings where the no-tear-off advantage and insulation improvement combine to produce the fastest return on roofing investment. Livingston\'s larger commercial footprints generate proportionally greater energy savings that strengthen the lifecycle economics further.'
@@ -35,7 +35,25 @@ export const livingstonSprayFoamRoofing: ComboContent = {
     {
       question: 'Is spray foam roofing noisy to install on an occupied Livingston building?',
       answer: 'SPF application produces moderate noise from the spray equipment compressor, comparable to a large commercial lawn mower. The noise level is significantly lower than the demolition noise produced during conventional tear-off roof replacement. Most Livingston office and retail tenants find the sound manageable during normal business hours. For noise-sensitive medical facilities, we can schedule application during off-hours.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Livingston, NJ?',
+      answer: 'Most spray foam roofing projects in Livingston range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Livingston NJ -- seamless SPF insulation systems for commercial buildings with no tear-off disruption to business operations.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

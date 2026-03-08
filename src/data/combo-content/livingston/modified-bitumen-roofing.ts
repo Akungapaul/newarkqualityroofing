@@ -4,7 +4,7 @@ export const livingstonModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'livingston',
   overview: [
-    'Modified bitumen roofing anchors Livingston\'s commercial and multi-layer flat roof market with a multi-ply waterproofing system that builds redundancy into every square foot of membrane. The material\'s layered construction -- base sheet, modified bitumen membrane, and protective cap sheet or granule surface -- creates a fault-tolerant assembly where damage to the surface layer does not immediately compromise the waterproofing integrity beneath. For Livingston property managers overseeing professional offices and retail properties where any leak produces costly interior damage, this built-in redundancy has tangible business value.',
+    'Newark Quality Roofing delivers expert modified bitumen roofing in Livingston — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing anchors Livingston\'s commercial and multi-layer flat roof market with a multi-ply waterproofing system that builds redundancy into every square foot of membrane. The material\'s layered construction -- base sheet, modified bitumen membrane, and protective cap sheet or granule surface -- creates a fault-tolerant assembly where damage to the surface layer does not immediately compromise the waterproofing integrity beneath. For Livingston property managers overseeing professional offices and retail properties where any leak produces costly interior damage, this built-in redundancy has tangible business value.',
     'Livingston\'s commercial building mix along Route 10 and Eisenhower Parkway includes properties from the 1970s through the 2000s that were originally roofed with modified bitumen and are now due for replacement. These re-roofing projects represent a significant portion of our modified bitumen work in the township. Property owners familiar with the system\'s multi-decade track record often choose to replace modified bitumen with updated modified bitumen rather than switching to single-ply alternatives, valuing the known performance characteristics and maintenance simplicity.',
     'Our [modified bitumen roofing](/modified-bitumen-roofing) installations serve both the commercial corridor and the residential flat-roof segments found on Livingston\'s split-level and raised ranch additions. While single-ply membranes dominate larger commercial footprints, modified bitumen remains competitive on smaller residential flat sections where the torch-applied or self-adhered system provides robust waterproofing without the specialized seaming equipment that single-ply requires. Homeowners in [South Orange](/modified-bitumen-roofing-south-orange-nj) face similar decisions on their mixed-roof-style homes.',
     'The granule-surfaced cap sheet option provides a walkable, UV-resistant surface that serves well on Livingston commercial roofs with regular maintenance traffic. Property managers who need frequent HVAC technician access prefer the abrasion resistance of granulated modified bitumen over membrane systems that require dedicated walkway pads to protect from foot traffic wear.'
@@ -35,7 +35,25 @@ export const livingstonModifiedBitumenRoofing: ComboContent = {
     {
       question: 'How long does modified bitumen roofing last on Livingston commercial properties?',
       answer: 'A properly installed modified bitumen system in Livingston performs for 20 to 30 years depending on the specification level, maintenance practices, and traffic exposure. SBS-modified systems with granule-surfaced cap sheets represent the premium specification that maximizes service life in our freeze-thaw climate. Regular maintenance including biannual inspections and prompt repair of any membrane damage extends performance toward the upper end of the expected service life range.'
-    }
+    },
+    {
+      question: 'How much does modified bitumen roofing cost in Livingston, NJ?',
+      answer: 'Most modified bitumen roofing projects in Livingston range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Modified bitumen roofing in Livingston NJ -- multi-ply commercial waterproofing for offices and retail along Eisenhower Parkway and Route 10.',
+  pricing: {
+    range: '$6–$10/sq ft',
+    note: 'modified bitumen membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free modified bitumen roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

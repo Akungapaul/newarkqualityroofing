@@ -4,7 +4,7 @@ export const eastOrangeInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'east-orange',
   overview: [
-    'Infrared roof leak detection gives East Orange landlords and property managers the ability to pinpoint exact leak locations on flat-roofed apartment buildings and commercial properties where conventional visual inspection cannot identify the membrane failure causing water entry into occupied space below. The technology exploits the thermal mass difference between wet and dry roof insulation -- wet insulation retains daytime solar heat longer than dry insulation, creating temperature differentials that [infrared leak detection](/infrared-roof-leak-detection) cameras visualize as distinct thermal patterns on the roof surface after sunset.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in East Orange — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection gives East Orange landlords and property managers the ability to pinpoint exact leak locations on flat-roofed apartment buildings and commercial properties where conventional visual inspection cannot identify the membrane failure causing water entry into occupied space below. The technology exploits the thermal mass difference between wet and dry roof insulation -- wet insulation retains daytime solar heat longer than dry insulation, creating temperature differentials that [infrared leak detection](/infrared-roof-leak-detection) cameras visualize as distinct thermal patterns on the roof surface after sunset.',
     'On East Orange\'s multi-family buildings where flat roof leaks have been patched repeatedly without resolution, infrared detection breaks the cycle of failed repairs by identifying the actual water entry point rather than the visible drip location. A ceiling stain in a third-floor apartment may appear directly below a patched seam on the roof, but infrared imaging frequently reveals that the moisture migration path begins at a different membrane failure ten or fifteen feet from the patch -- explaining why previous repairs at the obvious location failed to resolve the leak. This precision targeting eliminates the iterative patching that wastes landlord maintenance budgets while tenants continue reporting water damage.',
     'Pre-purchase infrared assessment has become a standard due diligence tool for investors acquiring East Orange multi-family properties. The infrared scan quantifies the percentage of roof area with trapped moisture -- data that directly impacts the acquisition analysis. A building with 5 percent wet insulation needs localized repair during planned re-roofing. A building with 40 percent wet insulation needs immediate roof replacement that may alter the deal economics. This information transforms roof condition from a visual guess into a quantified data point in the purchase negotiation, the same approach sophisticated buyers use on [Newark](/infrared-roof-leak-detection-newark-nj) investment properties.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'Should I get infrared detection before re-roofing my East Orange building?',
       answer: 'Yes. Pre-re-roofing infrared surveys are one of the highest-value applications of the technology. Knowing the extent of wet insulation before tear-off begins enables accurate budgeting for insulation replacement, prevents mid-project cost surprises, and allows the re-roofing contractor to plan material quantities and labor allocation with precision. The survey cost is recovered through avoided change orders and accurate initial budgeting.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in East Orange, NJ?',
+      answer: 'Most infrared roof leak detection projects in East Orange range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection for East Orange NJ buildings -- thermal imaging to pinpoint hidden flat roof leaks and map moisture damage before re-roofing.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

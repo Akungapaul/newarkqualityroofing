@@ -4,7 +4,7 @@ export const veronaInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Insurance roof replacement in Verona navigates the claims process that homeowners face after storm, wind, or hail damage exceeds repair scope. The insurance claim process involves damage documentation, adjuster coordination, scope negotiation, and supplement filing -- steps that require roofing expertise the homeowner typically does not have. Newark Quality Roofing manages the insurance coordination alongside the physical roof replacement, ensuring that the claim covers the full scope of storm-related damage and that the replacement meets both building code and manufacturer warranty requirements.',
+    'Newark Quality Roofing delivers expert insurance roof replacement in Verona — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Verona navigates the claims process that homeowners face after storm, wind, or hail damage exceeds repair scope. The insurance claim process involves damage documentation, adjuster coordination, scope negotiation, and supplement filing -- steps that require roofing expertise the homeowner typically does not have. Newark Quality Roofing manages the insurance coordination alongside the physical roof replacement, ensuring that the claim covers the full scope of storm-related damage and that the replacement meets both building code and manufacturer warranty requirements.',
     'Verona\'s exposure to nor\'easters, summer thunderstorms, and occasional hail events generates insurance claims across the township each storm season. The hilltop properties along Claremont Avenue and upper Personette sustain more wind damage than sheltered valley homes, creating claim frequency patterns that insurance adjusters are familiar with. Our [insurance roof replacement](/insurance-roof-replacement) documentation meets the specific standards that Essex County adjusters expect, providing the photographic evidence, damage mapping, and scope justification that supports full claim approval.',
     'The insurance replacement process differs from elective re-roofing in important ways. Insurance policies typically cover replacement with like-kind materials -- matching the existing shingle type and quality. Code upgrade coverage, when included in the policy, pays for improvements required by current building codes that did not exist when the original roof was installed. We identify both the storm-damage scope and applicable code upgrades, filing supplements when the original claim settlement falls short of the actual replacement requirement. Homeowners in [West Orange](/insurance-roof-replacement-west-orange-nj) have recovered significant additional coverage through our supplement filing process.'
   ],
@@ -34,7 +34,25 @@ export const veronaInsuranceRoofReplacement: ComboContent = {
     {
       question: 'Can I upgrade my shingles during an insurance replacement?',
       answer: 'The insurance claim covers replacement with like-kind materials -- the same type and quality as the damaged roof. If you want to upgrade to a higher-grade product, you pay the difference between the insurance-approved cost and the upgrade cost. For example, upgrading from three-tab to architectural shingles during an insurance replacement typically costs the homeowner $1,500 to $3,000 beyond the claim amount, depending on roof size. We present upgrade options with clear cost differentials.'
-    }
+    },
+    {
+      question: 'How much does insurance roof replacement cost in Verona, NJ?',
+      answer: 'Most insurance roof replacement projects in Verona range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Insurance roof replacement in Verona NJ -- storm damage claims coordination, adjuster meetings, and supplement filing for full coverage.',
+  pricing: {
+    range: '$8,500–$30,000',
+    note: 'we handle the claims process',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free insurance roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

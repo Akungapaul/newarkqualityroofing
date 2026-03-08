@@ -4,7 +4,7 @@ export const orangeSprayFoamRoofing: ComboContent = {
   serviceId: 'spray-foam-roofing',
   cityId: 'orange',
   overview: [
-    'Spray polyurethane foam roofing offers Orange building owners something no other system can deliver: a seamless, self-insulating roof membrane applied directly over existing roofing without tear-off, filling every gap, seam, and irregularity in a single monolithic application. Our [spray foam roofing](/spray-foam-roofing) installations in Orange are particularly effective on the older commercial buildings along Main Street and Mitchell Street where aging flat roofs have complex geometries, multiple penetrations, and drainage problems that conventional membrane systems struggle to address without extensive substrate preparation.',
+    'Newark Quality Roofing delivers expert spray foam roofing in Orange — with prices starting from $4–$8/sq ft and free estimates available today. Spray polyurethane foam roofing offers Orange building owners something no other system can deliver: a seamless, self-insulating roof membrane applied directly over existing roofing without tear-off, filling every gap, seam, and irregularity in a single monolithic application. Our [spray foam roofing](/spray-foam-roofing) installations in Orange are particularly effective on the older commercial buildings along Main Street and Mitchell Street where aging flat roofs have complex geometries, multiple penetrations, and drainage problems that conventional membrane systems struggle to address without extensive substrate preparation.',
     'The built-in insulation of spray foam provides thermal performance that separate membrane-plus-insulation assemblies cannot match. Closed-cell SPF delivers R-6.5 per inch -- meaning a two-inch spray foam application adds R-13 of continuous insulation with no thermal bridging at seams or fastener points. For Orange\'s older commercial buildings with minimal existing insulation, spray foam installation doubles as an energy retrofit that reduces heating and cooling costs from the day the coating cures. Building owners along Main Street routinely report 20 to 30% reductions in HVAC energy costs after spray foam installation.',
     'Orange\'s compact building stock creates ideal conditions for spray foam\'s key advantage: installation without tear-off. On Main Street\'s zero-setback buildings, traditional tear-off generates debris that must be lowered to the street, requiring lane closures and dumpster space that is difficult to arrange on the busy commercial corridor. Spray foam eliminates this disruption entirely -- the existing roof stays in place, the foam is sprayed over it, and the protective coating is applied over the foam. The entire installation produces minimal debris, no street-level disruption, and can be completed while the building remains fully occupied below. Similar advantages make spray foam popular on tight-access commercial properties in [Newark](/spray-foam-roofing-newark-nj).'
   ],
@@ -34,7 +34,25 @@ export const orangeSprayFoamRoofing: ComboContent = {
     {
       question: 'How much energy savings can I expect from spray foam on my Orange building?',
       answer: 'Orange building owners typically report 20 to 30% reductions in heating and cooling costs after spray foam installation. The continuous insulation with no thermal bridging is significantly more effective than insulation boards with gaps at seams and fasteners. A two-inch application provides R-13 of added insulation -- a substantial upgrade for Orange commercial buildings that currently have minimal or no roof insulation.'
-    }
+    },
+    {
+      question: 'How much does spray foam roofing cost in Orange, NJ?',
+      answer: 'Most spray foam roofing projects in Orange range from $4–$8/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Spray foam roofing in Orange NJ -- seamless SPF installation over existing roofs, built-in insulation, Main Street no-tearoff solutions, and energy savings.',
+  pricing: {
+    range: '$4–$8/sq ft',
+    note: 'spray polyurethane foam application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free spray foam roofing estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

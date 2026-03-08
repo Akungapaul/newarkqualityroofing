@@ -4,7 +4,7 @@ export const orangeStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'orange',
   overview: [
-    'Storm damage roof replacement in Orange responds to the severe weather events that periodically overwhelm even well-maintained roofs -- nor\'easters driving 60-mph winds through the South Mountain corridor, summer thunderstorms dropping large oak branches onto residential rooflines, and the occasional hail event that peppers an entire neighborhood with impact damage. Our [storm damage roof replacement](/storm-damage-roof-replacement) process moves from emergency stabilization through insurance coordination to complete reconstruction, handling every phase so that Orange homeowners can focus on their family\'s safety rather than project management.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Orange — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Orange responds to the severe weather events that periodically overwhelm even well-maintained roofs -- nor\'easters driving 60-mph winds through the South Mountain corridor, summer thunderstorms dropping large oak branches onto residential rooflines, and the occasional hail event that peppers an entire neighborhood with impact damage. Our [storm damage roof replacement](/storm-damage-roof-replacement) process moves from emergency stabilization through insurance coordination to complete reconstruction, handling every phase so that Orange homeowners can focus on their family\'s safety rather than project management.',
     'South Mountain\'s topographic influence on storm intensity makes Orange homes disproportionately vulnerable to severe weather damage. Wind speeds accelerate as storms cross the mountain ridge, and the dense hardwood canopy becomes a projectile field during high winds. A summer thunderstorm that passes uneventfully through flatland communities can drop multiple large branches onto Orange roofs, causing structural damage that far exceeds normal wind damage. Our storm damage crews have responded to dozens of tree-impact emergencies in the mountain-adjacent neighborhoods, and we maintain relationships with tree removal companies who clear the fallen wood while we secure the roof beneath it.',
     'The timing pressure after storm damage creates urgency that homeowners should not allow to drive poor decisions. Orange homeowners with damaged roofs are vulnerable to storm chasers -- out-of-area contractors who appear after major weather events offering fast, cheap repairs that use substandard materials and disappear before problems surface. Our community presence in the [Orange](/roofing-in-orange-nj) area means we are here before, during, and after the storm -- and we will be here for the warranty work that storm chasers will not.'
   ],
@@ -34,7 +34,25 @@ export const orangeStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Will my insurance cover the full cost of replacement after storm damage?',
       answer: 'Most homeowner policies cover storm damage replacement minus your deductible. If your policy covers replacement cost value, the payout should cover the full replacement at current prices. Actual cash value policies depreciate the payout based on roof age, which may leave a gap. We review the relevant policy provisions and help you understand expected coverage before work begins.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Orange, NJ?',
+      answer: 'Most storm damage roof replacement projects in Orange range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Orange NJ -- emergency tarping, South Mountain tree impact, insurance claim support, and full system reconstruction.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

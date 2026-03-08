@@ -4,7 +4,7 @@ export const glenRidgeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'glen-ridge',
   overview: [
-    'Re-roofing a Glen Ridge home is among the most consequential improvement decisions a homeowner in the borough will make. The choice of roofing material, the quality of installation, and the compatibility with the home\'s architectural period will affect the property\'s appearance, protection, and value for decades. In a community where the Historic Preservation Commission reviews material selections and neighbors take genuine pride in the streetscape they share, re-roofing carries aesthetic and social significance beyond the practical waterproofing function.',
+    'Newark Quality Roofing delivers expert re roofing in Glen Ridge — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing a Glen Ridge home is among the most consequential improvement decisions a homeowner in the borough will make. The choice of roofing material, the quality of installation, and the compatibility with the home\'s architectural period will affect the property\'s appearance, protection, and value for decades. In a community where the Historic Preservation Commission reviews material selections and neighbors take genuine pride in the streetscape they share, re-roofing carries aesthetic and social significance beyond the practical waterproofing function.',
     'Newark Quality Roofing guides Glen Ridge homeowners through the full re-roofing process from material consultation through commission approval, installation, and final inspection. We begin with the home\'s architectural context -- its construction period, original roofing material, the materials used on neighboring homes -- and narrow material options to those that satisfy both preservation requirements and performance expectations. This front-loaded design process prevents the costly mid-project changes that occur when homeowners or contractors discover too late that their material selection will not pass commission review.',
     'Glen Ridge re-roofing projects demand logistics planning that generic roofing contractors often underestimate. The borough\'s narrow lots, close house spacing, mature street trees, and gaslit thoroughfares create staging constraints where equipment must be positioned precisely to avoid property damage and borough infrastructure. Our Glen Ridge project managers develop site-specific logistics plans for every re-roofing project, coordinating with neighbors and the borough when necessary to ensure smooth execution. We apply the same precision to re-roofing in historic communities throughout Essex County including [Montclair](/re-roofing-montclair-nj) and [Verona](/re-roofing-verona-nj).',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeReRoofing: ComboContent = {
       question: 'How long should a new roof last on a Glen Ridge home?',
       answer: 'Natural slate lasts 100 or more years. Cedar shake lasts 30 to 40 years with proper maintenance. Premium architectural shingles last 30 to 50 years depending on product line. Standing seam copper lasts 75 to 100 years. We present lifespan and lifecycle cost data for each material option during consultation so homeowners can evaluate long-term value.',
     },
+    {
+      question: 'How much does re roofing cost in Glen Ridge, NJ?',
+      answer: 'Most re roofing projects in Glen Ridge range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Glen Ridge NJ. Preservation-grade slate, cedar shake, and premium shingle replacement for historic homes.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

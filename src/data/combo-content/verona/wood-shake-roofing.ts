@@ -4,7 +4,7 @@ export const veronaWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'verona',
   overview: [
-    'Wood shake roofing in Verona appears on custom-built homes along Claremont and Personette Avenues and on selected properties throughout the township where homeowners chose natural materials to complement traditional or rustic architectural styles. The warm, textured appearance of hand-split wood shakes creates a distinctive roofline that asphalt shingles cannot replicate, but the material demands ongoing maintenance attention that Verona\'s climate and canopy conditions amplify. Newark Quality Roofing installs, maintains, and repairs wood shake roofs for Verona homeowners committed to preserving this premium material.',
+    'Newark Quality Roofing delivers expert wood shake roofing in Verona — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in Verona appears on custom-built homes along Claremont and Personette Avenues and on selected properties throughout the township where homeowners chose natural materials to complement traditional or rustic architectural styles. The warm, textured appearance of hand-split wood shakes creates a distinctive roofline that asphalt shingles cannot replicate, but the material demands ongoing maintenance attention that Verona\'s climate and canopy conditions amplify. Newark Quality Roofing installs, maintains, and repairs wood shake roofs for Verona homeowners committed to preserving this premium material.',
     'Verona\'s dense tree canopy creates conditions that accelerate wood shake deterioration if maintenance is neglected. The persistent shade from mature oaks and maples along Sunset Avenue and near Verona Park prevents shakes from drying fully after rain, promoting the moisture retention that leads to moss colonization, fungal growth, and premature splitting. Without regular treatment, wood shakes in Verona\'s shadiest locations can deteriorate in 15 years rather than the 30-year lifespan achievable in drier, sunnier environments. Our [wood shake](/wood-shake-roofing) maintenance programs are calibrated to Verona\'s specific canopy density, applying preservative treatments at intervals that keep the material healthy despite persistent shade.',
     'For Verona homeowners considering wood shake for new installations, the material choice involves understanding both the aesthetic rewards and the maintenance commitment. Wood shakes require biannual treatment with preservative and fire retardant compounds, periodic replacement of individually failed shakes, and vigilant moss and debris management in canopy-heavy neighborhoods. The result is a roof that ages with distinctive character -- the natural silver-gray patina of weathered cedar or redwood creates a look that improves with age when properly maintained.'
   ],
@@ -34,7 +34,25 @@ export const veronaWoodShakeRoofing: ComboContent = {
     {
       question: 'Can wood shakes be installed on my Verona split-level?',
       answer: 'Yes, though the installation requires split-level-specific detailing at the elevation transitions. Wood shakes need ventilation space beneath each course, which complicates the transition junction where the roof meets the short wall between levels. We use concealed copper flashings and modified coursing at these transitions to maintain both weather protection and ventilation. The additional detail work adds cost compared to a standard colonial installation, but produces a distinctive appearance on the township\'s most common architectural style.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in Verona, NJ?',
+      answer: 'Most wood shake roofing projects in Verona range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing in Verona NJ -- installation, maintenance, and repair for homes with natural shake roofs under heavy tree canopy.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

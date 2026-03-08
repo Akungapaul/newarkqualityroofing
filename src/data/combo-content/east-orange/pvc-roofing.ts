@@ -4,7 +4,7 @@ export const eastOrangePvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'east-orange',
   overview: [
-    'PVC roofing serves a specific niche in East Orange\'s commercial building inventory: restaurants, food service facilities, and light industrial operations where rooftop grease exhaust, chemical vapors, and cooking fumes would destroy EPDM and modified bitumen membranes within years. The ground-floor restaurants along Main Street in the Brick Church district, the commercial kitchens operating in mixed-use buildings, and the institutional cafeteria facilities all produce airborne oils and chemicals that attack petroleum-based roofing membranes from above. [PVC roofing](/pvc-roofing) is engineered to resist these exposures -- its polyvinyl chloride chemistry is inert to the animal fats, vegetable oils, and chemical compounds that degrade competing membrane materials.',
+    'Newark Quality Roofing delivers expert pvc roofing in East Orange — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing serves a specific niche in East Orange\'s commercial building inventory: restaurants, food service facilities, and light industrial operations where rooftop grease exhaust, chemical vapors, and cooking fumes would destroy EPDM and modified bitumen membranes within years. The ground-floor restaurants along Main Street in the Brick Church district, the commercial kitchens operating in mixed-use buildings, and the institutional cafeteria facilities all produce airborne oils and chemicals that attack petroleum-based roofing membranes from above. [PVC roofing](/pvc-roofing) is engineered to resist these exposures -- its polyvinyl chloride chemistry is inert to the animal fats, vegetable oils, and chemical compounds that degrade competing membrane materials.',
     'Beyond chemical resistance, PVC membrane offers East Orange commercial building owners the highest reflectivity and energy efficiency of any single-ply roofing system. The bright white surface reflects solar radiation that dark EPDM and modified bitumen absorb, reducing rooftop surface temperature by 50 to 70 degrees Fahrenheit during summer months. For East Orange buildings with significant cooling loads -- restaurants with commercial kitchen equipment generating constant heat, retail spaces with large glass storefronts facing south, or office buildings with dense computer equipment -- this reflectivity translates to measurable cooling cost reduction.',
     'Hot-air welded seams give PVC roofing a waterproofing advantage over adhesive-bonded EPDM seams and heat-welded modified bitumen seams on East Orange commercial buildings. The thermoplastic welding process fuses the PVC membrane at seam locations into a continuous, homogeneous material that is actually stronger than the field membrane -- a seam that cannot peel, delaminate, or separate because it is no longer two separate pieces of material. This weld strength provides long-term seam integrity that East Orange building owners notice when their PVC roof shows zero seam failures after ten or fifteen years, while neighboring buildings with adhesive-bonded membrane seams are cycling through regular seam repairs.',
     'East Orange\'s commercial building owners considering PVC installation should understand that the membrane commands a premium over EPDM and modified bitumen alternatives -- typically 20 to 35 percent higher installed cost. That premium delivers chemical resistance, superior energy performance, and the strongest seam technology available in single-ply roofing. For buildings in [Newark](/pvc-roofing-newark-nj) and East Orange where these characteristics align with building use, PVC provides value that justifies the cost differential. For standard commercial or multi-family residential applications without chemical exposure or high cooling loads, EPDM or modified bitumen typically provide equivalent performance at lower cost.'
@@ -35,7 +35,25 @@ export const eastOrangePvcRoofing: ComboContent = {
     {
       question: 'Can PVC roofing be installed on my East Orange building during winter?',
       answer: 'We avoid PVC installation during the coldest winter months because the membrane stiffens below 40 degrees Fahrenheit, making proper detailing at penetrations and terminations difficult. Late fall and early spring installations are feasible when daytime temperatures remain above 45 degrees. Emergency PVC repairs during winter use localized heating techniques to restore membrane flexibility at repair locations. For projects with winter timelines, EPDM offers equivalent waterproofing with better cold-weather installation characteristics.'
-    }
+    },
+    {
+      question: 'How much does pvc roofing cost in East Orange, NJ?',
+      answer: 'Most pvc roofing projects in East Orange range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'PVC roofing for East Orange NJ commercial buildings -- chemical-resistant membrane for restaurants, reflective energy-efficient flat roof installation.',
+  pricing: {
+    range: '$7–$13/sq ft',
+    note: 'PVC single-ply membrane',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free pvc roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

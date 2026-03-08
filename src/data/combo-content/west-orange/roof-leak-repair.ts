@@ -4,7 +4,7 @@ export const westOrangeRoofLeakRepair: ComboContent = {
   serviceId: 'roof-leak-repair',
   cityId: 'west-orange',
   overview: [
-    'Roof leaks in West Orange follow elevation patterns as predictable as the township\'s terrain. Valley-floor homes around Pleasant Valley develop leaks from moisture accumulation and sluggish drainage during extended rain events. Mid-slope split-levels along Gregory Avenue leak at the level-change transitions that define their architecture. Ridge-top homes near Eagle Rock develop leaks from wind-driven rain that penetrates through flashings and ridge caps compromised by sustained high-wind exposure. Our [roof leak repair](/roof-leak-repair) diagnostics begin with understanding which elevation zone the home occupies.',
+    'Newark Quality Roofing delivers expert roof leak repair in West Orange — with prices starting from $300–$1,200 and free estimates available today. Roof leaks in West Orange follow elevation patterns as predictable as the township\'s terrain. Valley-floor homes around Pleasant Valley develop leaks from moisture accumulation and sluggish drainage during extended rain events. Mid-slope split-levels along Gregory Avenue leak at the level-change transitions that define their architecture. Ridge-top homes near Eagle Rock develop leaks from wind-driven rain that penetrates through flashings and ridge caps compromised by sustained high-wind exposure. Our [roof leak repair](/roof-leak-repair) diagnostics begin with understanding which elevation zone the home occupies.',
     'The most common leak pattern in West Orange involves mid-slope split-level homes built during the 1960s. These homes feature the multi-plane roofline transitions where upper and lower roof sections meet at a wall -- a design that requires cricket flashings and stepped counter-flashings to redirect water around the intersection. Original installations often omitted or undersized these critical components, and decades of freeze-thaw cycling have deteriorated the caulk-based substitutes that many previous repairs used. Homeowners in neighboring [Orange](/roof-leak-repair-orange-nj) rarely encounter this specific failure pattern because their housing stock lacks the split-level concentration that defines West Orange\'s mid-slope neighborhoods.',
     'Ice dam leaks represent a seasonal epidemic across West Orange\'s north-facing slopes above 300 feet elevation. When attic heat melts snow on the upper roof plane, meltwater runs to the cold eave overhang where it refreezes into a dam that forces water backward under shingles and into the building envelope. The Gregory and Rock Spring neighborhoods experience these conditions during most Essex County winters, producing interior water damage that appears far from the actual point of roof penetration. Tracing an ice dam leak to its source requires understanding thermal dynamics, not just following water stains.',
     'West Orange\'s Llewellyn Park and St. Cloud estates present leak scenarios unique to historic roofing materials. Century-old slate roofs develop leaks through individual cracked or slipped slates, deteriorated copper flashings at valley and hip intersections, and failed mortar bedding at ridge lines. These leaks often progress slowly, damaging attic framing and plaster ceilings before becoming visible. Our historic roof leak diagnosis for [West Orange](/roofing-in-west-orange-nj) estates includes attic inspection with moisture meters to map hidden damage before it manifests as the dramatic ceiling failures that panic homeowners into hasty, poorly planned repairs.'
@@ -35,7 +35,25 @@ export const westOrangeRoofLeakRepair: ComboContent = {
     {
       question: 'Can you repair a slate roof leak in Llewellyn Park without damaging surrounding slates?',
       answer: 'Yes. Our slate roof repair technicians use slate hooks and copper clips to remove and replace individual slates without disturbing adjacent pieces. For valley and flashing leaks, we carefully lift surrounding slates to access the underlying metalwork, perform the repair, and re-set each slate in its original position. Every repair uses matching slate sourced to the closest possible color and thickness match. We document the repair with photographs and material specifications that become part of the property\'s historic roofing record, essential for estates with preservation significance.'
-    }
+    },
+    {
+      question: 'How much does roof leak repair cost in West Orange, NJ?',
+      answer: 'Most roof leak repair projects in West Orange range from $300–$1,200. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof leak repair in West Orange NJ. Split-level transition leaks, ice dam damage, and wind-driven penetration diagnosis by elevation zone.',
+  pricing: {
+    range: '$300–$1,200',
+    note: 'for most residential leak repairs',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof leak repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

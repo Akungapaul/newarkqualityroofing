@@ -4,7 +4,7 @@ export const northCaldwellStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'north-caldwell',
   overview: [
-    'Storm damage roof replacement on North Caldwell estates responds to the catastrophic events that the borough\'s wooded landscape makes more likely: mature trees falling onto roof structures, heavy limbs puncturing through multiple roof layers, and concentrated wind damage where the tree canopy funnels gusts across exposed roof planes. When storm damage exceeds repair scope, full replacement -- coordinated with insurance claims -- restores the home\'s protective envelope and architectural character.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in North Caldwell — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement on North Caldwell estates responds to the catastrophic events that the borough\'s wooded landscape makes more likely: mature trees falling onto roof structures, heavy limbs puncturing through multiple roof layers, and concentrated wind damage where the tree canopy funnels gusts across exposed roof planes. When storm damage exceeds repair scope, full replacement -- coordinated with insurance claims -- restores the home\'s protective envelope and architectural character.',
     'Our [storm damage replacement](/storm-damage-roof-replacement) service for North Caldwell homes provides the rapid response, insurance coordination, and premium material sourcing that estate-scale storm recovery demands. Fallen tree removal, emergency tarping, temporary interior protection, and permanent roof replacement are managed as a coordinated sequence rather than separate contracted services. This continuity ensures that the homeowner deals with one team from emergency response through project completion on their [North Caldwell](/roofing-in-north-caldwell-nj) property.',
     'The replacement scope following storm damage on North Caldwell estates often extends beyond the visible roof damage to include structural framing repair, deck replacement, fascia and soffit restoration, and gutter system replacement. We assess the complete scope of storm impact before providing the replacement estimate, ensuring that the insurance claim captures every element of damage rather than limiting the claim to the most obvious roof surface damage. Homeowners in [Caldwell](/storm-damage-roof-replacement-caldwell-nj) rely on similar comprehensive storm damage assessment and replacement coordination.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellStormDamageRoofReplacement: ComboContent = {
     {
       question: 'Can I upgrade materials during an insurance storm replacement?',
       answer: 'Yes. Insurance covers replacement with like-kind-and-quality materials. If you want to upgrade -- from asphalt shingles to metal, for example -- the insurance payment covers the cost of replacing with the original material type, and you pay the difference for the upgrade. We structure the estimate to clearly show the insurance-covered scope and the homeowner-funded upgrade cost so the financial decision is transparent.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in North Caldwell, NJ?',
+      answer: 'Most storm damage roof replacement projects in North Caldwell range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in North Caldwell NJ -- emergency response, tree removal, and insurance coordination for estate homes.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const fairfieldSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'fairfield',
   overview: [
-    'Slate roofing in Fairfield represents a premium material choice rather than a restoration necessity. Unlike the historic communities of [Montclair](/slate-roof-installation-repair-montclair-nj) or [Glen Ridge](/slate-roof-installation-repair-glen-ridge-nj) where original slate roofs from the late 1800s require preservation, Fairfield\'s relatively newer housing stock rarely features original slate installations. Instead, Fairfield homeowners choose [slate roof installation](/slate-roof-installation-repair) to distinguish their property from the asphalt-shingle uniformity that defines most township neighborhoods. Custom-built homes on larger lots, particularly in the areas near Essex Fells and along the northern border, represent the primary market for new slate installation in Fairfield.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Fairfield — with prices starting from $20,000–$45,000 and free estimates available today. Slate roofing in Fairfield represents a premium material choice rather than a restoration necessity. Unlike the historic communities of [Montclair](/slate-roof-installation-repair-montclair-nj) or [Glen Ridge](/slate-roof-installation-repair-glen-ridge-nj) where original slate roofs from the late 1800s require preservation, Fairfield\'s relatively newer housing stock rarely features original slate installations. Instead, Fairfield homeowners choose [slate roof installation](/slate-roof-installation-repair) to distinguish their property from the asphalt-shingle uniformity that defines most township neighborhoods. Custom-built homes on larger lots, particularly in the areas near Essex Fells and along the northern border, represent the primary market for new slate installation in Fairfield.',
     'New slate installation on Fairfield homes requires structural verification that the existing framing can support the material weight. Natural slate weighs seven hundred to one thousand pounds per roofing square compared to two hundred fifty to three hundred pounds for architectural asphalt shingles. Most Fairfield homes built with standard residential framing need no structural modification for lightweight synthetic slate alternatives, but natural slate may require rafter reinforcement or additional bearing support. Our assessment includes a structural evaluation before any material commitment to prevent costly mid-project changes.',
     'Synthetic slate products have expanded the slate aesthetic to Fairfield homes that cannot support natural stone weight. Products from DaVinci, Brava, and EcoStar replicate the visual depth and shadow lines of natural slate at roughly half the weight and two-thirds the cost. For Fairfield homeowners seeking the distinctive appearance without the structural requirements, synthetic slate delivers an excellent compromise. Our installation crews work with both natural and synthetic slate, maintaining the craft techniques that each material demands for proper weather performance and aesthetic results.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'How long does a slate roof installation take in Fairfield?',
       answer: 'A complete slate installation on a Fairfield home typically takes five to eight days depending on roof size, complexity, and material type. Natural slate requires more careful handling and installation time than synthetic products. Complex roof geometries with multiple valleys, dormers, and hip intersections add to the timeline. We provide a specific schedule during the design consultation phase.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Fairfield, NJ?',
+      answer: 'Most slate roof installation repair projects in Fairfield range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fairfield NJ slate roof installation and repair. Natural and synthetic slate for premium homes with structural assessment and copper flashing details.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

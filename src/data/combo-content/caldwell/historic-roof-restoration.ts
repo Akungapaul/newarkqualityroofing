@@ -4,7 +4,7 @@ export const caldwellHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'caldwell',
   overview: [
-    'Historic roof restoration in Caldwell addresses the preservation needs of the borough\'s older residential and institutional buildings that carry architectural character worth maintaining through authentic material choices and period-appropriate construction methods. While Caldwell lacks a formal historic preservation commission like neighboring [Glen Ridge](/historic-roof-restoration-glen-ridge-nj), the borough holds several properties of historical significance -- pre-war homes along the older residential streets, the Grover Cleveland Birthplace historic site, and civic buildings whose architectural integrity contributes to Caldwell\'s identity as a community that values its past.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Caldwell — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Caldwell addresses the preservation needs of the borough\'s older residential and institutional buildings that carry architectural character worth maintaining through authentic material choices and period-appropriate construction methods. While Caldwell lacks a formal historic preservation commission like neighboring [Glen Ridge](/historic-roof-restoration-glen-ridge-nj), the borough holds several properties of historical significance -- pre-war homes along the older residential streets, the Grover Cleveland Birthplace historic site, and civic buildings whose architectural integrity contributes to Caldwell\'s identity as a community that values its past.',
     'Historic restoration roofing work in [Caldwell](/roofing-in-caldwell-nj) differs from standard replacement in its commitment to maintaining the visual character that original materials provide. Slate roofs on turn-of-the-century homes demand replacement slate sourced from quarries producing compatible color, thickness, and texture rather than synthetic substitutes that approximate the appearance but lack authenticity. Copper flashings, half-round gutters, and decorative ridge details on period buildings require fabrication techniques that standard roofing practice has largely abandoned. Our [historic roof restoration](/historic-roof-restoration) capability serves the small but significant segment of Caldwell properties where authenticity matters.',
     'The intersection of preservation values and practical roofing performance creates decisions that Caldwell historic property owners must navigate thoughtfully. Original materials may be available but prohibitively expensive. Period-accurate installation methods may produce results that modern building code does not fully address. Visible modern additions like ridge vents may compromise the historic appearance. Our consultation helps Caldwell property owners balance authenticity with functionality, finding solutions that honor the building\'s character while delivering reliable weather protection for decades ahead. Homeowners in [Montclair](/historic-roof-restoration-montclair-nj) and [Bloomfield](/historic-roof-restoration-bloomfield-nj) face similar preservation decisions on their historic properties.'
   ],
@@ -34,7 +34,25 @@ export const caldwellHistoricRoofRestoration: ComboContent = {
     {
       question: 'What alternatives exist if original materials are unavailable for my Caldwell historic roof?',
       answer: 'When original materials cannot be sourced, the alternatives range in authenticity: salvage materials from other buildings may provide exact matches; new production materials from the same quarry or manufacturer provide close matches; synthetic products designed to replicate the appearance of the original material provide visual similarity without material authenticity. We present the available options with physical samples so you can evaluate each alternative\'s appearance and make an informed decision about the appropriate level of authenticity for your specific property and goals.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Caldwell, NJ?',
+      answer: 'Most historic roof restoration projects in Caldwell range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Caldwell NJ -- authentic slate, copper, and period-material restoration for architecturally significant properties.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

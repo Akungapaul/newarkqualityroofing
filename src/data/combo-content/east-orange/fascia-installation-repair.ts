@@ -4,7 +4,7 @@ export const eastOrangeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'east-orange',
   overview: [
-    'Fascia board deterioration on East Orange\'s multi-family buildings is both a structural concern and a visible indicator of deferred maintenance that affects tenant perception and property marketability. The fascia -- the flat board running along the roof edge behind the gutter -- bears the weight of the gutter system, receives direct water exposure from roof runoff, and sustains the paint-and-weather cycling that East Orange\'s seasons impose. On Victorian two-families and pre-war apartment buildings where original wood fascia has served for decades, rot, paint failure, and insect damage accumulate until the fascia can no longer support the gutter system securely.',
+    'Newark Quality Roofing delivers expert fascia installation repair in East Orange — with prices starting from $1,200–$3,500 and free estimates available today. Fascia board deterioration on East Orange\'s multi-family buildings is both a structural concern and a visible indicator of deferred maintenance that affects tenant perception and property marketability. The fascia -- the flat board running along the roof edge behind the gutter -- bears the weight of the gutter system, receives direct water exposure from roof runoff, and sustains the paint-and-weather cycling that East Orange\'s seasons impose. On Victorian two-families and pre-war apartment buildings where original wood fascia has served for decades, rot, paint failure, and insect damage accumulate until the fascia can no longer support the gutter system securely.',
     'For East Orange landlords managing rental properties, [fascia repair](/fascia-installation-repair) addresses both the functional requirement of gutter support and the curb appeal factor that influences tenant attraction and retention. A building with visibly rotted, peeling, or detached fascia boards communicates neglect to prospective tenants who are evaluating whether the property owner maintains the building reliably. Replacing deteriorated wood fascia with painted aluminum or composite material eliminates the rot cycle entirely, providing a maintenance-free roof edge detail that maintains its appearance through East Orange\'s weather extremes without the periodic painting that wood demands.',
     'Fascia damage on East Orange buildings frequently extends beyond the visible board to the rafter tail ends behind it. Water that penetrates deteriorated fascia saturates the exposed end grain of the rafter tails -- the structural members that support the roof overhang and carry the gutter load. When rafter tail rot progresses, the fascia board, gutter system, and soffit can all detach from the building under wind or snow load. Our fascia repairs include evaluation of the rafter tail condition behind the fascia, with structural repair of compromised rafter ends before new fascia is installed, a concern also common on aging buildings in [Bloomfield](/fascia-installation-repair-bloomfield-nj).'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeFasciaInstallationRepair: ComboContent = {
     {
       question: 'Does rotted fascia mean the roof structure is damaged on my East Orange building?',
       answer: 'Not necessarily, but it is possible. Water that rots fascia boards can also penetrate into the rafter tail ends behind the fascia. We inspect rafter tails during every fascia replacement to identify structural damage that may require sistering new lumber alongside deteriorated rafter ends. Catching rafter tail rot during fascia replacement is far less expensive than addressing the structural failure that occurs if damaged rafter tails are concealed behind new fascia.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in East Orange, NJ?',
+      answer: 'Most fascia installation repair projects in East Orange range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair for East Orange NJ buildings -- rot-proof replacement, rafter tail repair, and aluminum wrap for multi-family properties.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

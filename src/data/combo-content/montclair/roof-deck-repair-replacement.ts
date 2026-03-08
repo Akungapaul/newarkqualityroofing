@@ -4,7 +4,7 @@ export const montclairRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'montclair',
   overview: [
-    'Beneath every roofing material on every Montclair home lies the structural deck -- the plywood, OSB, or original skip-sheathing that carries the roofing system\'s weight and transfers it to the rafters below. When this deck deteriorates from moisture infiltration, ice dam damage, or age-related degradation, no amount of surface roofing work produces a lasting result. Roof deck repair and replacement addresses the foundation layer that determines whether a new roof installation succeeds for decades or fails within years because the substrate beneath it was compromised before the first shingle was nailed.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in Montclair — with prices starting from $2,000–$6,000 and free estimates available today. Beneath every roofing material on every Montclair home lies the structural deck -- the plywood, OSB, or original skip-sheathing that carries the roofing system\'s weight and transfers it to the rafters below. When this deck deteriorates from moisture infiltration, ice dam damage, or age-related degradation, no amount of surface roofing work produces a lasting result. Roof deck repair and replacement addresses the foundation layer that determines whether a new roof installation succeeds for decades or fails within years because the substrate beneath it was compromised before the first shingle was nailed.',
     'Montclair\'s century-old Victorian and early-twentieth-century housing stock frequently reveals original skip-sheathing -- spaced boards rather than continuous plywood sheets -- when roof replacement exposes the deck surface. Skip-sheathing was standard construction practice through the early 1900s and works adequately under slate, wood shakes, and clay tile roofing systems that bridge the gaps between boards. Modern asphalt shingles, however, require continuous deck support, and Montclair homes transitioning from original slate or shake to asphalt shingle roofing need full deck overlay with plywood or OSB panels. Properties in neighboring [Glen Ridge](/roof-deck-repair-replacement-glen-ridge-nj) and [West Orange](/roof-deck-repair-replacement-west-orange-nj) with similar vintage housing face the same skip-sheathing challenge.',
     'Our [roof deck repair](/roof-deck-repair-replacement) work in [Montclair](/roofing-in-montclair-nj) ranges from targeted panel replacement of localized rot spots to full deck overlay or replacement on homes where widespread deterioration has compromised the structural substrate across the entire roof surface. The scope is determined by what we find after the existing roofing material is removed -- a condition assessment that cannot be fully completed until tear-off exposes the deck for inspection.',
     'Ice dam damage on Montclair\'s north-facing and shaded roof slopes creates the most common pattern of deck deterioration we encounter. Repeated freeze-thaw cycling drives water beneath shingles at the eave line, saturating the deck plywood at the roof\'s lowest edge where drainage should be occurring. This chronic moisture exposure produces soft, delaminated plywood in a band extending from the eave inward by two to four feet -- a decay pattern so predictable on Montclair homes that we include deck replacement in eave zones as a standard contingency item in re-roofing proposals.'
@@ -35,7 +35,25 @@ export const montclairRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'How much does roof deck replacement add to re-roofing cost?',
       answer: 'Targeted deck panel replacement at localized deterioration zones typically adds five to fifteen percent to the total re-roofing cost, depending on the extent of damage. Full deck overlay on skip-sheathing homes adds fifteen to twenty-five percent because the entire roof surface receives new plywood panels. These costs include material, labor for panel removal and replacement, and the additional time required for deck preparation before new roofing installation can proceed. We include per-panel unit pricing in our proposals so homeowners can calculate deck replacement cost as the actual scope becomes clear during tear-off.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in Montclair, NJ?',
+      answer: 'Most roof deck repair replacement projects in Montclair range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair in Montclair NJ -- plywood replacement, skip-sheathing overlay, and structural deck restoration for Victorian homes.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

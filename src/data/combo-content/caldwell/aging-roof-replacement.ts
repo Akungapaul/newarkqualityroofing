@@ -4,7 +4,7 @@ export const caldwellAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'caldwell',
   overview: [
-    'Aging roof replacement in Caldwell addresses the planned transition from an old roof system to a new one before emergency failure forces reactive replacement under unfavorable conditions. The borough\'s colonial and cape cod homes, many carrying roofs installed twenty to thirty years ago during the 1990s or early 2000s replacement wave, are approaching or entering the window where proactive replacement delivers better outcomes than waiting for leaks to force the decision. Planned replacement allows material selection, contractor vetting, budget preparation, and scheduling during favorable weather -- advantages that emergency replacement after failure eliminates.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Caldwell — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement in Caldwell addresses the planned transition from an old roof system to a new one before emergency failure forces reactive replacement under unfavorable conditions. The borough\'s colonial and cape cod homes, many carrying roofs installed twenty to thirty years ago during the 1990s or early 2000s replacement wave, are approaching or entering the window where proactive replacement delivers better outcomes than waiting for leaks to force the decision. Planned replacement allows material selection, contractor vetting, budget preparation, and scheduling during favorable weather -- advantages that emergency replacement after failure eliminates.',
     'Recognizing the signs of an aging roof on [Caldwell](/roofing-in-caldwell-nj) homes requires understanding what normal aging looks like versus what indicates urgent concern. Granule accumulation in gutters signals surface erosion. Curling shingle edges indicate dried adhesive and lost flexibility. Visible nail pops suggest deck movement or improper fastening. Dark staining indicates algae growth that retains moisture against the shingle surface. Each of these signs reduces remaining roof life, and their combined presence on a roof approaching twenty years typically signals that the replacement timeline should be measured in seasons rather than years.',
     'Our [aging roof replacement](/aging-roof-replacement) consultations in Caldwell begin long before the replacement date. We recommend scheduling a professional roof assessment at the fifteen-year mark to establish a baseline condition, then annual assessments from year twenty forward to track deterioration rate and identify the optimal replacement timing. This approach lets Caldwell homeowners budget for the project, compare contractor proposals thoughtfully, and schedule installation during the weather window that produces the best results. Homeowners in [North Caldwell](/aging-roof-replacement-north-caldwell-nj) and [Roseland](/aging-roof-replacement-roseland-nj) follow similar proactive assessment schedules.'
   ],
@@ -34,7 +34,25 @@ export const caldwellAgingRoofReplacement: ComboContent = {
     {
       question: 'Should I replace my Caldwell roof before selling the house?',
       answer: 'A new roof adds immediate value to a Caldwell home sale by removing a major inspection concern, eliminating buyer negotiation leverage, and providing a warranty that transfers to the new owner. The return on investment depends on your local market, but replacing an aging roof typically recovers sixty to seventy percent of the investment through increased sale price and faster closing. If your roof is within five years of replacement and you are planning to sell, the investment improves both sale price and sale speed.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Caldwell, NJ?',
+      answer: 'Most aging roof replacement projects in Caldwell range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Caldwell NJ -- proactive replacement planning for colonial homes approaching end of shingle life.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

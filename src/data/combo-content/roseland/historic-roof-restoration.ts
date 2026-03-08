@@ -4,7 +4,7 @@ export const roselandHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'roseland',
   overview: [
-    'Historic roof restoration in Roseland serves the borough\'s oldest residential properties -- homes predating the mid-century suburban development that defines most of the community. The colonials and farmhouse-style homes built in the early twentieth century along Harrison Avenue and the original settlement areas near Eagle Rock Avenue carry architectural details and construction methods that require specialized restoration techniques distinct from modern re-roofing. Our [historic roof restoration](/historic-roof-restoration) service preserves the character of these properties while upgrading weatherproofing performance to modern standards.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Roseland — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Roseland serves the borough\'s oldest residential properties -- homes predating the mid-century suburban development that defines most of the community. The colonials and farmhouse-style homes built in the early twentieth century along Harrison Avenue and the original settlement areas near Eagle Rock Avenue carry architectural details and construction methods that require specialized restoration techniques distinct from modern re-roofing. Our [historic roof restoration](/historic-roof-restoration) service preserves the character of these properties while upgrading weatherproofing performance to modern standards.',
     'While Roseland lacks the formal historic district designation found in communities like [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) or [Montclair](/historic-roof-restoration-montclair-nj), the borough\'s older homes carry architectural significance that their owners value deeply. Restoration projects on these properties focus on material accuracy -- sourcing slate that matches original quarry characteristics, fabricating copper flashings that replicate period profiles, and preserving decorative elements that define the home\'s character. The absence of regulatory review provides owners with flexibility in approach while our expertise ensures that restoration quality equals or exceeds what historic commissions would require.',
     'Restoration scope on Roseland\'s older homes frequently extends beyond the roof surface to include structural repair of the timber framing systems that original construction methods employed. Hand-hewn rafters, board sheathing, and mortise-and-tenon connections require repair techniques compatible with the original construction rather than modern framing that would compromise structural integrity or visual character when viewed from attic spaces. Our restoration crews include carpenters experienced with traditional timber construction methods.'
   ],
@@ -34,7 +34,25 @@ export const roselandHistoricRoofRestoration: ComboContent = {
     {
       question: 'Can modern ice protection be added beneath a historic slate roof?',
       answer: 'Yes, ice-and-water shield membrane installs beneath the slate coursing where it is completely invisible from the exterior. This modern protection layer prevents the ice-dam water infiltration that damages plaster ceilings in older homes without altering the historic roof appearance. We install ice-and-water shield at all eaves, valleys, and sidewall intersections as standard practice during every historic restoration, combining period-accurate surface materials with modern underlayment technology.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Roseland, NJ?',
+      answer: 'Most historic roof restoration projects in Roseland range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Roseland NJ -- period-accurate slate, copper, and timber repair for early-century homes and architectural preservation.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

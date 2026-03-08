@@ -4,7 +4,7 @@ export const irvingtonFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'irvington',
   overview: [
-    'Fascia board deterioration on Irvington\'s pre-war homes runs far deeper than cosmetic concern -- these boards serve as the structural mounting surface for the entire gutter system and protect exposed rafter tails from weather penetration. When fascia rots on an 80-year-old colonial in Olympic Park, the gutters sag away from the house, water overflows behind the gutter into the soffit cavity, and moisture reaches the rafter ends where it initiates structural decay. Our [fascia installation](/fascia-installation-repair) and repair services across Irvington address this cascade before it progresses from surface deterioration to structural damage.',
+    'Newark Quality Roofing delivers expert fascia installation repair in Irvington — with prices starting from $1,200–$3,500 and free estimates available today. Fascia board deterioration on Irvington\'s pre-war homes runs far deeper than cosmetic concern -- these boards serve as the structural mounting surface for the entire gutter system and protect exposed rafter tails from weather penetration. When fascia rots on an 80-year-old colonial in Olympic Park, the gutters sag away from the house, water overflows behind the gutter into the soffit cavity, and moisture reaches the rafter ends where it initiates structural decay. Our [fascia installation](/fascia-installation-repair) and repair services across Irvington address this cascade before it progresses from surface deterioration to structural damage.',
     'Investment property renovations throughout Irvington frequently reveal fascia conditions that previous owners concealed with paint rather than repaired. Two-family and three-family homes on Chancellor Avenue and Stuyvesant Avenue change hands with freshly painted exterior trim that masks advanced wood rot behind the paint film. New owners discover the true condition when gutters pull away from the building or when soffit panels begin dropping. Our fascia assessment for Irvington investment properties includes probing beneath paint surfaces to determine actual wood condition before recommending repair scope.',
     'Springfield Avenue commercial buildings present fascia challenges at a different scale, where metal fascia covers and composite panels protect roof edges on flat-roofed structures. These commercial fascia systems conceal the roof edge termination detail and provide a finished appearance -- but when they deteriorate or separate from the building, they expose the roof membrane edge to wind uplift and water infiltration. Commercial fascia repair in [Irvington](/roofing-in-irvington-nj) requires access equipment and material handling that differs from residential work but serves the same protective function.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonFasciaInstallationRepair: ComboContent = {
       question: 'How much does fascia replacement cost on Irvington homes?',
       answer: 'Wood fascia replacement costs $8 to $14 per linear foot including gutter removal and reinstallation. Composite PVC or fiber-cement fascia costs $12 to $20 per linear foot. Rafter tail repair adds $150 to $300 per affected rafter. A typical Irvington colonial requires 80 to 120 linear feet of fascia, making total project costs range from $700 to $2,400 depending on material choice and structural repair needs.',
     },
+    {
+      question: 'How much does fascia installation repair cost in Irvington, NJ?',
+      answer: 'Most fascia installation repair projects in Irvington range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in Irvington NJ for aging colonials and multi-family homes. Protect rafter tails and restore gutter mounting integrity.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

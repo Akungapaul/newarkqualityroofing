@@ -4,7 +4,7 @@ export const eastOrangeRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'east-orange',
   overview: [
-    'Roof deck damage on East Orange\'s multi-family buildings represents the most consequential roofing problem a landlord can face because compromised decking undermines the structural platform that every other roofing component depends on. When plywood or board sheathing rots beneath the roofing membrane, the deterioration progresses invisibly until the surface above it sags, a worker\'s foot breaks through during maintenance, or water damage in the occupied space below reaches a level that code enforcement cannot ignore. The Victorian two-families and pre-war apartment buildings throughout Elmwood Park, Doddtown, and the Brick Church district carry [roof decks](/roof-deck-repair-replacement) that range from original tongue-and-groove board sheathing to plywood installed during previous re-roofings -- and the condition of these decks determines whether a re-roofing project can proceed as planned or must expand to include structural restoration.',
+    'Newark Quality Roofing delivers expert roof deck repair replacement in East Orange — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck damage on East Orange\'s multi-family buildings represents the most consequential roofing problem a landlord can face because compromised decking undermines the structural platform that every other roofing component depends on. When plywood or board sheathing rots beneath the roofing membrane, the deterioration progresses invisibly until the surface above it sags, a worker\'s foot breaks through during maintenance, or water damage in the occupied space below reaches a level that code enforcement cannot ignore. The Victorian two-families and pre-war apartment buildings throughout Elmwood Park, Doddtown, and the Brick Church district carry [roof decks](/roof-deck-repair-replacement) that range from original tongue-and-groove board sheathing to plywood installed during previous re-roofings -- and the condition of these decks determines whether a re-roofing project can proceed as planned or must expand to include structural restoration.',
     'The primary cause of deck deterioration on East Orange rental buildings is prolonged moisture exposure from leaks that were reported by tenants but addressed with surface patching rather than investigation into the damage below. A membrane patch that stops the visible drip does not dry the plywood that absorbed water for weeks before the repair call was made. That wet plywood continues to decay beneath the waterproofing above it, losing structural capacity progressively until the deck can no longer support foot traffic, snow loads, or even the dead weight of the roofing material sitting on it.',
     'Deck assessment during re-roofing is a standard part of our process on every East Orange building because concealed deck damage cannot be fully evaluated until the existing roofing material is removed. Our proposals include contingency allowances for deck repair based on the building\'s age, leak history, and the observable condition of sheathing from the attic side. This upfront transparency helps East Orange property owners budget realistically for re-roofing projects where deck repair is a probability rather than a possibility, avoiding the mid-project cost surprises that strain relationships between contractors and building owners in [Newark](/roof-deck-repair-replacement-newark-nj) and across Essex County.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeRoofDeckRepairReplacement: ComboContent = {
     {
       question: 'What causes roof deck rot on East Orange apartment buildings?',
       answer: 'The primary cause is prolonged moisture exposure from roof leaks that were patched at the surface without addressing the water that already reached the decking. Secondary causes include condensation from inadequate attic ventilation, ice dam water infiltration during winter, and moisture migration through poorly sealed plumbing and HVAC penetrations. On East Orange multi-family buildings, the combination of multiple moisture sources and deferred maintenance creates cumulative deck damage that progresses until re-roofing exposes it.'
-    }
+    },
+    {
+      question: 'How much does roof deck repair replacement cost in East Orange, NJ?',
+      answer: 'Most roof deck repair replacement projects in East Orange range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof deck repair for East Orange NJ apartments -- plywood replacement, structural sheathing restoration, and concealed rot detection during re-roofing.',
+  pricing: {
+    range: '$2,000–$6,000',
+    note: 'structural deck repair pricing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof deck repair replacement estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

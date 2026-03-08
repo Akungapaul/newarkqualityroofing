@@ -4,7 +4,7 @@ export const eastOrangeCustomRoofDesignConsultation: ComboContent = {
   serviceId: 'custom-roof-design-consultation',
   cityId: 'east-orange',
   overview: [
-    'Custom roof design consultation in East Orange serves property owners navigating decisions where the standard material-and-install approach is insufficient -- gut renovations of distressed Victorian two-families, mixed-use building conversions requiring new roof configurations, and infill development projects where the roof design must satisfy East Orange Building Department requirements, neighborhood architectural context, and the owner\'s investment return objectives simultaneously. These projects demand [design consultation](/custom-roof-design-consultation) that bridges architecture, engineering, and practical roofing construction into a coherent plan.',
+    'Newark Quality Roofing delivers expert custom roof design consultation in East Orange — with prices starting from $200–$500 and free estimates available today. Custom roof design consultation in East Orange serves property owners navigating decisions where the standard material-and-install approach is insufficient -- gut renovations of distressed Victorian two-families, mixed-use building conversions requiring new roof configurations, and infill development projects where the roof design must satisfy East Orange Building Department requirements, neighborhood architectural context, and the owner\'s investment return objectives simultaneously. These projects demand [design consultation](/custom-roof-design-consultation) that bridges architecture, engineering, and practical roofing construction into a coherent plan.',
     'East Orange\'s rehabilitation zone properties present the most frequent design consultation scenarios. Investors acquiring distressed buildings for renovation encounter roof conditions that require more than material replacement -- structural inadequacy, drainage failure, code-deficient ventilation, and energy performance far below current standards all demand design-level solutions. Our consultation process evaluates the building\'s existing roof structure, defines the performance requirements for the renovated use, and specifies a roof system that satisfies structural, waterproofing, energy code, and aesthetic requirements within the renovation budget.',
     'For the owner-occupied segment of East Orange\'s housing market -- homeowners in Ampere and Elmwood Park investing in their properties -- design consultation addresses material selection, color coordination, ventilation improvement, and long-term performance planning with the personalized attention that production-volume roofing contractors cannot provide. These homeowners deserve the same design thoughtfulness that homeowners in [Montclair](/custom-roof-design-consultation-montclair-nj) and [Millburn](/custom-roof-design-consultation-millburn-nj) expect, adapted to East Orange\'s specific building stock and market conditions.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeCustomRoofDesignConsultation: ComboContent = {
     {
       question: 'Does East Orange require architectural plans for roof work on residential buildings?',
       answer: 'Standard re-roofing on residential buildings typically requires a permit but not formal architectural plans. Renovation projects involving structural modifications, use changes, or additions that alter the building footprint or height require plans prepared by a licensed architect or engineer for submission to the East Orange Building Department. Our design consultation produces the technical documentation needed for either level of permit review.'
-    }
+    },
+    {
+      question: 'How much does custom roof design consultation cost in East Orange, NJ?',
+      answer: 'Most custom roof design consultation projects in East Orange range from $200–$500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Custom roof design consultation for East Orange NJ properties -- renovation planning, material selection, and code compliance for multi-family rehab projects.',
+  pricing: {
+    range: '$200–$500',
+    note: 'applied toward project cost',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free custom roof design consultation estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

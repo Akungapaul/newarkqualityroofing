@@ -4,7 +4,7 @@ export const southOrangeRoofFlashingInstallationRepair: ComboContent = {
   serviceId: 'roof-flashing-installation-repair',
   cityId: 'south-orange',
   overview: [
-    'Roof flashing installation and repair in South Orange Village demands mastery across a wider range of flashing materials and techniques than most Essex County communities require. The village\'s concentration of slate, cedar shake, and premium metal roofing means flashing work here involves copper fabrication, lead-coated copper detailing, and soldered joints rather than the aluminum and caulk methods adequate for standard shingle installations. Every valley, wall junction, chimney intersection, and roof penetration on a Montrose Park estate carries flashing that was originally crafted to the standards of its era.',
+    'Newark Quality Roofing delivers expert roof flashing installation repair in South Orange — with prices starting from $300–$1,500 and free estimates available today. Roof flashing installation and repair in South Orange Village demands mastery across a wider range of flashing materials and techniques than most Essex County communities require. The village\'s concentration of slate, cedar shake, and premium metal roofing means flashing work here involves copper fabrication, lead-coated copper detailing, and soldered joints rather than the aluminum and caulk methods adequate for standard shingle installations. Every valley, wall junction, chimney intersection, and roof penetration on a Montrose Park estate carries flashing that was originally crafted to the standards of its era.',
     'Flashing failure is the leading cause of roof leaks in South Orange, surpassing material deterioration as the primary entry point for water. The complex multi-gable rooflines on Tudor Revival and Colonial Revival homes create dozens of flashing junctions on a single property -- step flashings where roof planes meet walls, valley liners where intersecting pitches converge, counter-flashings at chimney bases, and drip edges at every perimeter. Each junction represents a potential failure point where age, thermal movement, or material incompatibility can allow water past the primary roofing surface.',
     'Our [roof flashing](/roof-flashing-installation-repair) work in South Orange matches the flashing material to the roofing material and the property\'s architectural standard. Copper flashing on slate and cedar shake installations, matching-metal flashing on standing-seam metal roofs, and premium aluminum on architectural shingle systems ensure compatibility and longevity. We fabricate custom flashing profiles in our shop when standard manufactured products do not fit the specific geometry or aesthetic requirements a South Orange home presents.',
     'Repair of existing flashing on South Orange homes requires diagnostic skill that identifies the actual failure mechanism rather than simply re-caulking visible gaps. Step flashing that has separated from masonry due to mortar deterioration requires re-embedding in fresh mortar, not surface sealant. Valley liners that have developed pinhole corrosion need section replacement rather than patch coating. Our crews trace every leak to its flashing origin point and address the underlying failure before restoring the weatherproof seal that homeowners in [Maplewood](/roof-flashing-installation-repair-maplewood-nj) and South Orange depend on.'
@@ -35,7 +35,25 @@ export const southOrangeRoofFlashingInstallationRepair: ComboContent = {
     {
       question: 'How often should flashing be inspected on a South Orange home?',
       answer: 'Annual inspection is appropriate for most South Orange homes. Properties with complex multi-gable rooflines, multiple chimney and wall intersections, and older flashing installations benefit from semi-annual checks -- once in spring after freeze-thaw cycling and once in fall before winter weather begins. We include flashing evaluation as a standard component of every roof inspection we perform.'
-    }
+    },
+    {
+      question: 'How much does roof flashing installation repair cost in South Orange, NJ?',
+      answer: 'Most roof flashing installation repair projects in South Orange range from $300–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof flashing installation and repair in South Orange NJ -- copper, lead-coated, and specialty flashing for slate and cedar homes.',
+  pricing: {
+    range: '$300–$1,500',
+    note: 'per area of flashing work',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows South Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof flashing installation repair estimate in South Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

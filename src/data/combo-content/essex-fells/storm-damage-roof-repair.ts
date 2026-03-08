@@ -4,7 +4,7 @@ export const essexFellsStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'essex-fells',
   overview: [
-    'Storm damage repair on Essex Fells estates confronts the intersection of severe weather impact and premium roofing materials that cannot be restored with commodity products or standard techniques. When a summer thunderstorm drives a mature oak limb through a hand-laid slate roof on a Fells Road estate, the repair requires sourcing matching slate from salvage inventories, fabricating replacement copper flashings in our sheet metal shop, and coordinating the restoration with the homeowner\'s architect to ensure the repaired section integrates seamlessly with the original installation. This is not a patch-and-move-on situation -- it is a precision restoration project executed under the pressure of weather exposure.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Essex Fells — with prices starting from $500–$3,000 and free estimates available today. Storm damage repair on Essex Fells estates confronts the intersection of severe weather impact and premium roofing materials that cannot be restored with commodity products or standard techniques. When a summer thunderstorm drives a mature oak limb through a hand-laid slate roof on a Fells Road estate, the repair requires sourcing matching slate from salvage inventories, fabricating replacement copper flashings in our sheet metal shop, and coordinating the restoration with the homeowner\'s architect to ensure the repaired section integrates seamlessly with the original installation. This is not a patch-and-move-on situation -- it is a precision restoration project executed under the pressure of weather exposure.',
     'The borough\'s topography and forest cover create storm damage patterns distinct from surrounding communities. Essex Fells occupies elevated terrain along the Watchung ridgeline where wind velocities during severe weather events consistently exceed conditions in the lower-elevation municipalities nearby. The dense mature hardwood canopy -- oak, beech, maple, and tulip trees reaching eighty feet or higher -- produces projectile debris during high winds that no amount of roofing engineering can withstand. Impact damage from branches and limbs accounts for the majority of our Essex Fells storm repair calls, far outnumbering the wind-lift shingle damage that dominates storm work in neighboring [Caldwell](/storm-damage-roof-repair-caldwell-nj) or [Roseland](/storm-damage-roof-repair-roseland-nj).',
     'Insurance claim management for storm-damaged Essex Fells properties requires documentation specificity that standard residential claim processes rarely encounter. When an adjuster assesses storm damage on a $3 million estate with a natural slate roof, the claim must distinguish between the cost of generic roofing material and the actual cost of sourcing matching quarried or salvaged slate, fabricating custom copper flashings, and engaging craftspeople trained in heritage roofing techniques. We prepare claim documentation that educates adjusters on premium material replacement costs, preventing the under-valuation that generic estimating software produces for these properties.',
     'Our storm damage response for Essex Fells integrates immediate protection, permanent repair planning, and insurance advocacy into a coordinated service. We stop the water, plan the restoration, and support the claim -- managing every phase so the homeowner\'s only role is approving the scope and reviewing the finished result.'
@@ -35,7 +35,25 @@ export const essexFellsStormDamageRoofRepair: ComboContent = {
     {
       question: 'How long does storm damage repair take on an Essex Fells estate?',
       answer: 'Emergency stabilization completes within hours of our arrival. Permanent repair timing depends on material procurement -- standard architectural shingles may be available immediately, while matching slate or fabricated copper components require four to eight weeks. The on-site repair work typically runs three to ten days depending on damage extent and material complexity. We provide a detailed timeline during the damage assessment so the homeowner can plan accordingly.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Essex Fells, NJ?',
+      answer: 'Most storm damage roof repair projects in Essex Fells range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Essex Fells NJ -- tree impact restoration, slate matching, copper fabrication, and insurance claim support for estates.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

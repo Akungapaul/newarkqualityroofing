@@ -4,7 +4,7 @@ export const newarkFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'newark',
   overview: [
-    'Flat roofs define Newark commercial corridors and multi-family residential blocks. From the three-story apartment buildings lining South Orange Avenue to the warehouse conversions along Ferry Street in the Ironbound, low-slope and dead-flat roof systems cover more square footage in Newark than any other roof type. The material choices for these installations have evolved from the built-up tar-and-gravel systems that still cap many older structures to modern single-ply membranes that offer superior performance with lighter weight and faster installation.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in Newark — with prices starting from $6,000–$18,000 and free estimates available today. Flat roofs define Newark commercial corridors and multi-family residential blocks. From the three-story apartment buildings lining South Orange Avenue to the warehouse conversions along Ferry Street in the Ironbound, low-slope and dead-flat roof systems cover more square footage in Newark than any other roof type. The material choices for these installations have evolved from the built-up tar-and-gravel systems that still cap many older structures to modern single-ply membranes that offer superior performance with lighter weight and faster installation.',
     'Ponding water is the universal challenge on Newark flat roofs. Urban sites with limited lot area leave no room for the landscape grading that helps suburban properties manage runoff. Parapet walls that define roof perimeters on commercial and multi-family buildings create contained basins where water accumulates if drain systems are undersized, clogged, or improperly positioned. Standing water accelerates membrane degradation, adds structural load, and breeds mosquitoes in warm months -- a public health concern in densely populated Newark neighborhoods where rooftop ponding goes unnoticed from street level.',
     'Rooftop mechanical equipment complicates flat roof installations throughout Newark commercial districts. HVAC condensing units, exhaust fans, satellite dishes, and telecommunications antennas all penetrate or load the roof membrane. Each penetration requires a custom curb detail and flashing that maintains watertight integrity through years of thermal cycling and maintenance foot traffic. The number and arrangement of rooftop equipment on Newark commercial buildings often exceeds suburban installations, demanding careful layout planning during the roof design phase.',
     'Multi-family property owners in Newark face the additional complexity of coordinating flat roof work across multiple occupied units. Tear-off generates noise and debris that affects tenant comfort, adhesive application produces odors that require ventilation management, and the work schedule must account for building access patterns. We plan flat roof projects on multi-family Newark buildings with tenant communication protocols that minimize disruption while maintaining installation quality.',
@@ -36,6 +36,24 @@ export const newarkFlatRoofInstallationRepair: ComboContent = {
       question: 'How long does a flat roof last on Newark multi-family buildings?',
       answer: 'Quality single-ply membrane systems last twenty to thirty years on Newark multi-family buildings when properly maintained. Modified bitumen typically lasts fifteen to twenty years. Maintenance is the key variable: annual drain clearing, prompt repair of punctures from rooftop foot traffic, and periodic seam inspection extend service life toward the upper end of these ranges. Neglected flat roofs in Newark often fail at ten to fifteen years regardless of initial material quality.',
     },
+    {
+      question: 'How much does flat roof installation repair cost in Newark, NJ?',
+      answer: 'Most flat roof installation repair projects in Newark range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in Newark NJ. TPO, PVC, and modified bitumen systems for commercial and multi-family buildings with ponding solutions.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

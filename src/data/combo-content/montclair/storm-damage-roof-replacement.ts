@@ -4,7 +4,7 @@ export const montclairStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'montclair',
   overview: [
-    'Storm damage roof replacement in Montclair responds to the nor\'easters, tropical remnant systems, and severe thunderstorms that exploit the township\'s Watchung Ridge exposure to inflict damage that exceeds repair-viable limits. When wind has torn large shingle sections, fallen trees have breached the deck, or hail has compromised material integrity across the majority of the roof surface, replacement is the only restoration path that returns the home to sound condition.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Montclair — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Montclair responds to the nor\'easters, tropical remnant systems, and severe thunderstorms that exploit the township\'s Watchung Ridge exposure to inflict damage that exceeds repair-viable limits. When wind has torn large shingle sections, fallen trees have breached the deck, or hail has compromised material integrity across the majority of the roof surface, replacement is the only restoration path that returns the home to sound condition.',
     'Montclair\'s tree canopy -- the township\'s signature natural asset -- is also its primary storm damage vector. Mature oaks, maples, and tulip poplars reaching heights of sixty to eighty feet produce limb failures during high-wind events that puncture roofs, destroy dormers, and create structural damage requiring both roofing and framing repair. Our [storm damage replacement](/storm-damage-roof-replacement) response for [Montclair](/roofing-in-montclair-nj) homes coordinates emergency tarping, structural assessment, insurance documentation, and permanent replacement as a managed sequence.',
     'Storm damage patterns in Montclair differ from valley-floor communities like [Bloomfield](/storm-damage-roof-replacement-bloomfield-nj) and [Nutley](/storm-damage-roof-replacement-nutley-nj) because the ridge elevation produces higher sustained wind speeds and the dense canopy creates concentrated debris impact zones rather than the distributed wind damage typical of open-exposure locations.'
   ],
@@ -30,7 +30,25 @@ export const montclairStormDamageRoofReplacement: ComboContent = {
     {
       question: 'How long after storm damage should replacement happen?',
       answer: 'Permanent replacement should proceed as soon as insurance approval is received and materials are available -- typically four to eight weeks after the damage event. Extended delays under temporary tarping increase the risk of secondary damage from tarp failure or subsequent storms. During peak storm seasons, contractor scheduling may extend timelines, making rapid claims filing and approval essential to securing an early installation slot.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Montclair, NJ?',
+      answer: 'Most storm damage roof replacement projects in Montclair range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Montclair NJ -- emergency response, insurance claims, and full replacement for wind and tree damage.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

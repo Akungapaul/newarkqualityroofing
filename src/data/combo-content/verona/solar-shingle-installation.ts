@@ -4,7 +4,7 @@ export const veronaSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'verona',
   overview: [
-    'Solar shingle installation in Verona offers homeowners who want clean energy generation without the visual impact of traditional panel arrays a building-integrated solution that looks like conventional roofing. Solar shingles replace standard asphalt or slate-profile roofing on designated roof sections, generating electricity from the same surface that provides weather protection. For Verona homeowners who value the township\'s established suburban aesthetic but also want to reduce their carbon footprint and energy costs, solar shingles represent the convergence of architectural discretion and renewable energy performance.',
+    'Newark Quality Roofing delivers expert solar shingle installation in Verona — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installation in Verona offers homeowners who want clean energy generation without the visual impact of traditional panel arrays a building-integrated solution that looks like conventional roofing. Solar shingles replace standard asphalt or slate-profile roofing on designated roof sections, generating electricity from the same surface that provides weather protection. For Verona homeowners who value the township\'s established suburban aesthetic but also want to reduce their carbon footprint and energy costs, solar shingles represent the convergence of architectural discretion and renewable energy performance.',
     'Newark Quality Roofing installs solar shingle systems on Verona homes where the rooftop solar exposure justifies the investment and where the homeowner\'s aesthetic preferences favor integration over the visibility of rack-mounted panels. The technology has matured significantly -- current-generation solar shingles achieve 15 to 20 percent conversion efficiency, approaching the 20 to 22 percent range of conventional panels while maintaining the low-profile appearance that makes them nearly indistinguishable from premium architectural shingles at street level. Our [solar shingle](/solar-shingle-installation) installations coordinate the roofing and electrical components as a single integrated system.',
     'Verona\'s split-level rooflines actually complement solar shingle installations by distributing the energy-generating surface across multiple planes at different orientations. While a south-facing plane produces peak generation at midday, east and west-facing planes extend the production curve into morning and afternoon hours, smoothing the daily output profile. This multi-plane advantage, unique to split-levels and multi-faceted roofs, generates more usable energy throughout the day than a single-orientation array would produce. Homeowners in [Montclair](/solar-shingle-installation-montclair-nj) with similarly complex rooflines have seen comparable multi-plane production benefits.'
   ],
@@ -34,7 +34,25 @@ export const veronaSolarShingleInstallation: ComboContent = {
     {
       question: 'How long do solar shingles last compared to regular roofing shingles?',
       answer: 'Solar shingles are designed for a 25 to 30 year service life, matching or exceeding the lifespan of premium architectural asphalt shingles. The energy production degrades gradually -- approximately 0.5 percent per year -- so a 25-year-old solar shingle system still produces roughly 87 percent of its original output. The roofing weatherproofing function remains effective throughout the product life, as the shingle substrate materials are the same as those used in premium non-solar architectural shingles.'
-    }
+    },
+    {
+      question: 'How much does solar shingle installation cost in Verona, NJ?',
+      answer: 'Most solar shingle installation projects in Verona range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar shingle installation in Verona NJ -- building-integrated solar roofing for split-level homes that looks like premium shingles.',
+  pricing: {
+    range: '$25,000–$50,000',
+    note: 'integrated solar shingle system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar shingle installation estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

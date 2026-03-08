@@ -4,7 +4,7 @@ export const millburnRoofOverlayInstallation: ComboContent = {
   serviceId: 'roof-overlay-installation',
   cityId: 'millburn',
   overview: [
-    'Roof overlay installation in Millburn provides a re-roofing option for properties where the existing single layer of asphalt shingles is in stable condition, the deck beneath is sound, and the homeowner prioritizes reduced cost and project duration over the comprehensive benefits of full tear-off. The overlay approach installs new shingles directly over the existing layer, eliminating the debris, noise, and extended timeline that tear-off generates -- considerations that resonate with Millburn homeowners whose estate properties include landscape features, pool areas, and outdoor living spaces vulnerable to construction disruption.',
+    'Newark Quality Roofing delivers expert roof overlay installation in Millburn — with prices starting from $6,000–$14,000 and free estimates available today. Roof overlay installation in Millburn provides a re-roofing option for properties where the existing single layer of asphalt shingles is in stable condition, the deck beneath is sound, and the homeowner prioritizes reduced cost and project duration over the comprehensive benefits of full tear-off. The overlay approach installs new shingles directly over the existing layer, eliminating the debris, noise, and extended timeline that tear-off generates -- considerations that resonate with Millburn homeowners whose estate properties include landscape features, pool areas, and outdoor living spaces vulnerable to construction disruption.',
     'Our [roof overlay installation](/roof-overlay-installation) assessment for Millburn properties applies strict qualification criteria before recommending overlay as the appropriate approach. The existing roof must have only one layer of shingles, the deck must be structurally sound with no evidence of moisture damage, the existing shingles must lie flat without excessive curling or buckling that would telegraph through the new layer, and the structural capacity must accommodate the additional weight of the second shingle layer. Properties that fail any criterion receive a tear-off recommendation instead.',
     'The overlay option on Millburn estates is most commonly appropriate for secondary structures -- guest houses, pool houses, detached garages -- where the roofing budget is allocated proportionally to the structure\'s role within the property rather than to the same standard applied to the main residence. A pool house with a single layer of aging architectural shingles on a sound deck is a sensible overlay candidate when the homeowner plans to invest the premium-material budget on the main residence\'s slate or cedar restoration instead.'
   ],
@@ -34,7 +34,25 @@ export const millburnRoofOverlayInstallation: ComboContent = {
     {
       question: 'Can I install premium architectural shingles as an overlay?',
       answer: 'Yes, architectural shingles can be installed as overlay provided the existing surface is qualified. The dimensional thickness of architectural shingles actually helps mask minor irregularities in the existing surface that would be more visible through thinner three-tab shingles. However, the overlay warranty for architectural shingles is still reduced compared to the clean-deck warranty, so the premium material investment receives less warranty protection in the overlay configuration.'
-    }
+    },
+    {
+      question: 'How much does roof overlay installation cost in Millburn, NJ?',
+      answer: 'Most roof overlay installation projects in Millburn range from $6,000–$14,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof overlay installation for Millburn properties. Second-layer shingle application with qualification assessment, cost savings, and warranty comparison.',
+  pricing: {
+    range: '$6,000–$14,000',
+    note: 'overlay without full tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof overlay installation estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

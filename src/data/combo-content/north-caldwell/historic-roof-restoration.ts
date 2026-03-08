@@ -4,7 +4,7 @@ export const northCaldwellHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'north-caldwell',
   overview: [
-    'Historic roof restoration in North Caldwell preserves the architectural legacy of the borough\'s early twentieth-century estates -- Georgian colonials, Tudor revivals, and Craftsman-style homes that were built when this community first attracted wealthy families seeking spacious wooded lots within commuting distance of Newark and New York. These homes carry roofing details that reflect the craftsmanship standards of their era: hand-cut slate, soldered copper valleys, ornamental ridge cresting, and decorative gable vents that modern production roofing cannot replicate without specialist knowledge.',
+    'Newark Quality Roofing delivers expert historic roof restoration in North Caldwell — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in North Caldwell preserves the architectural legacy of the borough\'s early twentieth-century estates -- Georgian colonials, Tudor revivals, and Craftsman-style homes that were built when this community first attracted wealthy families seeking spacious wooded lots within commuting distance of Newark and New York. These homes carry roofing details that reflect the craftsmanship standards of their era: hand-cut slate, soldered copper valleys, ornamental ridge cresting, and decorative gable vents that modern production roofing cannot replicate without specialist knowledge.',
     'The distinction between [historic roof restoration](/historic-roof-restoration) and standard roof replacement matters enormously on North Caldwell\'s period homes. Replacing a deteriorated slate roof with architectural shingles saves money but destroys a defining element of the home\'s character that contributes to both its architectural significance and its market value. Restoration preserves the original material -- or replaces it with historically accurate alternatives -- while upgrading the invisible components (underlayment, flashing, ventilation) to modern performance standards.',
     'Our restoration work in [North Caldwell](/roofing-in-north-caldwell-nj) covers homes ranging from the 1910s through the 1940s, an era when builders used materials and techniques that have largely disappeared from standard construction practice. Re-creating hand-formed copper flashing details, sourcing slate that matches century-old quarry profiles, and rebuilding ornamental woodwork on fascias and cornices requires craftsmen who understand both the historical construction methods and the modern waterproofing science that ensures these restored elements perform for another century. Homeowners in [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) face parallel restoration challenges on their nationally registered historic housing stock.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellHistoricRoofRestoration: ComboContent = {
     {
       question: 'Do you handle the copper work on North Caldwell historic roof restorations?',
       answer: 'Yes. Copper fabrication is an integral part of our historic restoration capability. We hand-form valleys, step flashings, counter flashings, ridge caps, and ornamental elements using traditional copper working techniques. Our copper work uses lead-free solder and maintains material purity to prevent galvanic reactions. For particularly complex ornamental pieces, we produce shop drawings from the existing elements before fabrication.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in North Caldwell, NJ?',
+      answer: 'Most historic roof restoration projects in North Caldwell range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in North Caldwell NJ -- period-accurate slate and copper work on estate homes with modern substrate upgrades.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

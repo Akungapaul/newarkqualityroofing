@@ -4,7 +4,7 @@ export const veronaSlateRoofInstallationRepair: ComboContent = {
   serviceId: 'slate-roof-installation-repair',
   cityId: 'verona',
   overview: [
-    'Natural slate roofing in Verona appears on a select number of pre-war homes near the center of town and on custom-built residences along Claremont and Personette Avenues where homeowners chose premium materials to complement high-value architecture. These installations represent significant investments -- both financially and aesthetically -- and demand maintenance and repair from contractors who understand the specific handling, fastening, and replacement techniques that natural slate requires. Newark Quality Roofing provides slate roof service for Verona\'s existing installations and new slate installation for homeowners upgrading to this century-lasting material.',
+    'Newark Quality Roofing delivers expert slate roof installation repair in Verona — with prices starting from $20,000–$45,000 and free estimates available today. Natural slate roofing in Verona appears on a select number of pre-war homes near the center of town and on custom-built residences along Claremont and Personette Avenues where homeowners chose premium materials to complement high-value architecture. These installations represent significant investments -- both financially and aesthetically -- and demand maintenance and repair from contractors who understand the specific handling, fastening, and replacement techniques that natural slate requires. Newark Quality Roofing provides slate roof service for Verona\'s existing installations and new slate installation for homeowners upgrading to this century-lasting material.',
     'Verona\'s pre-war slate roofs, primarily on colonials and Dutch Colonial Revival homes built in the 1920s and 1930s, carry Pennsylvania black or Vermont unfading green slate that has already performed for 80 to 100 years. These roofs often have decades of service remaining if properly maintained -- individual cracked or slipped slates can be replaced without disturbing the surrounding field, and deteriorated copper flashings can be renewed to extend the system indefinitely. The key is working with contractors who carry the hook ladders, slate rippers, and copper fabrication skills that this work requires.',
     'For Verona homeowners building custom homes or renovating historic properties, new natural slate installation offers unmatched longevity and distinctive beauty that asphalt shingles cannot replicate. A properly installed slate roof will outlast the mortgage, the next owner, and the owner after that. We source slate from quarries in Pennsylvania and Vermont, matching the color and texture profile to the home\'s architectural character. Our [slate roofing](/slate-roof-installation-repair) installations use traditional copper fastening and flashing techniques adapted with modern ice-and-water shield underlayment for enhanced weather protection.'
   ],
@@ -34,7 +34,25 @@ export const veronaSlateRoofInstallationRepair: ComboContent = {
     {
       question: 'How much does slate roof repair cost in Verona?',
       answer: 'Individual slate replacements run $75 to $150 per slate including the matching material, removal of the damaged piece, and installation of the replacement with copper fastening. A typical repair visit addressing 5 to 15 damaged slates costs $800 to $2,500. Flashing repairs at chimneys or valleys using copper fabrication range from $1,500 to $4,000 depending on scope. New full slate installations start at approximately $30 per square foot installed. Every estimate is itemized so you know exactly what each component costs.'
-    }
+    },
+    {
+      question: 'How much does slate roof installation repair cost in Verona, NJ?',
+      answer: 'Most slate roof installation repair projects in Verona range from $20,000–$45,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Slate roof installation and repair in Verona NJ -- historic restoration, quarry-matched replacement, and copper flashing for pre-war homes.',
+  pricing: {
+    range: '$20,000–$45,000',
+    note: 'natural slate installation or restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free slate roof installation repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

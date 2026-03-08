@@ -4,7 +4,7 @@ export const irvingtonRubberRoofingEpdm: ComboContent = {
   serviceId: 'rubber-roofing-epdm',
   cityId: 'irvington',
   overview: [
-    'EPDM rubber roofing has become the default low-slope solution across Irvington\'s residential landscape for a practical reason: the township\'s 1920s-1940s housing stock includes thousands of flat-roofed additions, enclosed porches, and garage extensions that were tacked onto original colonials and Cape Cods decades after initial construction. These secondary structures rarely received the same attention as the main roof, and many still carry their original rolled roofing or first-generation rubber membranes from the 1980s. Our [rubber roofing](/rubber-roofing-epdm) installations on Irvington homes replace these failing systems with modern 60-mil EPDM that delivers genuine 25-year performance on surfaces where traditional shingles cannot function.',
+    'Newark Quality Roofing delivers expert rubber roofing epdm in Irvington — with prices starting from $6,000–$16,000 and free estimates available today. EPDM rubber roofing has become the default low-slope solution across Irvington\'s residential landscape for a practical reason: the township\'s 1920s-1940s housing stock includes thousands of flat-roofed additions, enclosed porches, and garage extensions that were tacked onto original colonials and Cape Cods decades after initial construction. These secondary structures rarely received the same attention as the main roof, and many still carry their original rolled roofing or first-generation rubber membranes from the 1980s. Our [rubber roofing](/rubber-roofing-epdm) installations on Irvington homes replace these failing systems with modern 60-mil EPDM that delivers genuine 25-year performance on surfaces where traditional shingles cannot function.',
     'Springfield Avenue commercial properties lean heavily on EPDM for a different set of reasons. The corridor\'s retail storefronts and medical offices need a roofing membrane that handles the thermal cycling of Irvington\'s climate without the higher material cost of TPO or PVC. EPDM\'s dark surface absorbs heat -- a drawback in some applications -- but Springfield Avenue buildings with occupied second-floor apartments actually benefit from winter heat absorption that reduces heating costs. Our EPDM installations along Springfield Avenue pair the membrane with proper insulation to balance winter heat gain against summer heat control.',
     'Irvington landlords managing multi-family properties have discovered that EPDM rubber roofing on flat-roofed two-family and three-family homes offers the lowest lifecycle cost of any membrane option. The material resists UV degradation, tolerates standing water from partially clogged drains, and requires only periodic inspections rather than regular maintenance coating. Homeowners in neighboring [Newark](/rubber-roofing-epdm-newark-nj) rely on EPDM for similar flat-roof applications, though Irvington\'s detached multi-family structures allow for cleaner membrane termination at parapet walls without the party-wall complications that Newark row houses present.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonRubberRoofingEpdm: ComboContent = {
       question: 'What is the difference between EPDM and TPO for flat roofs in Irvington?',
       answer: 'EPDM is a rubber membrane with superior flexibility and UV resistance at a lower material cost. TPO is a thermoplastic membrane with heat-welded seams and higher reflectivity. For Irvington residential flat roofs, EPDM\'s lower cost and proven 30-year track record make it the standard recommendation. For large commercial properties along Route 78 where energy efficiency incentives apply, TPO\'s reflective surface may justify the cost premium.',
     },
+    {
+      question: 'How much does rubber roofing epdm cost in Irvington, NJ?',
+      answer: 'Most rubber roofing epdm projects in Irvington range from $6,000–$16,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM rubber roofing in Irvington NJ for flat-roof additions, porches, and multi-family buildings. Affordable 25-year membrane from your nearest roofer.',
+  pricing: {
+    range: '$6,000–$16,000',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free rubber roofing epdm estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

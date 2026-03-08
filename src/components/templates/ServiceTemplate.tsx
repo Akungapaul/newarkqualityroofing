@@ -12,6 +12,9 @@ import { ServiceApproach } from '@/components/sections/ServiceApproach';
 import { ServiceAudience } from '@/components/sections/ServiceAudience';
 import { ServiceProcess } from '@/components/sections/ServiceProcess';
 import { ServiceFaq } from '@/components/sections/ServiceFaq';
+import { ServicePricing } from '@/components/sections/ServicePricing';
+import { ServiceWhyChooseUs } from '@/components/sections/ServiceWhyChooseUs';
+import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
 import { RelatedServices } from '@/components/sections/RelatedServices';
 import { ServiceCtaBanner } from '@/components/sections/ServiceCtaBanner';
 
@@ -148,6 +151,13 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         benefits={benefits}
       />
 
+      {/* Credentials badge row — below hero */}
+      {content.credentialsHighlight && content.credentialsHighlight.length > 0 && (
+        <div className="mx-auto max-w-7xl px-6 pt-6 lg:px-8">
+          <ServiceCredentials credentials={content.credentialsHighlight} />
+        </div>
+      )}
+
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column */}
         <div className="space-y-12 pb-16 lg:col-span-2">
@@ -193,6 +203,19 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           )}
 
           <ServiceProcess steps={content.processSteps} />
+
+          {/* Pricing section — after process */}
+          {content.pricing && (
+            <ServicePricing pricing={content.pricing} serviceName={service.name} />
+          )}
+
+          {/* Why Choose Us — before FAQs */}
+          {content.whyChooseUs && (
+            <ServiceWhyChooseUs
+              heading={content.whyChooseUs.heading}
+              reasons={content.whyChooseUs.reasons}
+            />
+          )}
 
           <ServiceFaq faqs={content.faqs} />
         </div>

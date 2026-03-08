@@ -4,7 +4,7 @@ export const roselandStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'roseland',
   overview: [
-    'Storm damage roof replacement in Roseland addresses the severe weather events that periodically overwhelm roof systems across the borough -- high winds that strip entire shingle sections, hail that fractures shingle surfaces beyond repair, and fallen tree limbs that penetrate the roof structure. When damage exceeds the scope of repair, full replacement restores the home\'s weather protection with modern materials and code-compliant installation that the damaged system cannot match through patching. Our [storm damage roof replacement](/storm-damage-roof-replacement) service manages the emergency stabilization, insurance coordination, and permanent replacement process.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Roseland — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in Roseland addresses the severe weather events that periodically overwhelm roof systems across the borough -- high winds that strip entire shingle sections, hail that fractures shingle surfaces beyond repair, and fallen tree limbs that penetrate the roof structure. When damage exceeds the scope of repair, full replacement restores the home\'s weather protection with modern materials and code-compliant installation that the damaged system cannot match through patching. Our [storm damage roof replacement](/storm-damage-roof-replacement) service manages the emergency stabilization, insurance coordination, and permanent replacement process.',
     'Roseland\'s position along the eastern slope of the Watchung ridgeline subjects the borough to storm patterns that can produce localized wind damage exceeding regional averages. Storms approaching from the west accelerate over the ridge and descend onto Roseland with increased force. This topographic wind acceleration creates damage patterns where Roseland homes sustain more shingle loss than homes in the valley communities to the east. The resulting replacements require wind-rated shingle systems installed with enhanced nailing patterns that account for the borough\'s specific wind exposure.',
     'Emergency response following storm damage determines how much secondary water damage the home sustains before permanent replacement occurs. The hours between roof damage and temporary protection installation are critical -- interior ceilings, walls, insulation, and personal property are all at risk from water intrusion through the damaged roof. Our emergency tarping crews deploy within hours of a storm event, providing waterproof temporary coverage that protects the home during the weeks-long insurance and replacement process. Property owners in [Essex Fells](/storm-damage-roof-replacement-essex-fells-nj) rely on the same rapid stabilization response.'
   ],
@@ -34,7 +34,25 @@ export const roselandStormDamageRoofReplacement: ComboContent = {
     {
       question: 'What if the insurance settlement does not cover the full replacement cost?',
       answer: 'Settlement disputes are common in storm damage claims. When our assessment identifies legitimate damage beyond what the adjuster approves, we prepare supplemental documentation supporting the additional items. This supplement process recovers additional funds from the insurance company in the majority of cases. We advocate for our Roseland homeowners throughout the claims process to ensure fair settlement that covers the actual cost of proper replacement.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof replacement cost in Roseland, NJ?',
+      answer: 'Most storm damage roof replacement projects in Roseland range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Roseland NJ -- emergency tarping, insurance coordination, and wind-rated replacement installation.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

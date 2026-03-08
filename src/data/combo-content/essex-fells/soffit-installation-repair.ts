@@ -4,7 +4,7 @@ export const essexFellsSoffitInstallationRepair: ComboContent = {
   serviceId: 'soffit-installation-repair',
   cityId: 'essex-fells',
   overview: [
-    'Soffit systems on Essex Fells estates serve a dual role that standard residential installations rarely address with equal emphasis: attic ventilation performance and architectural finish quality. The large attic volumes beneath steep estate roofs require substantial soffit ventilation area to maintain proper air circulation, while the visible soffit surfaces on the elaborate eave overhangs of architect-designed homes must present the same finish quality as interior ceiling surfaces. Balancing ventilation capacity with aesthetic standards defines the Essex Fells soffit specification challenge.',
+    'Newark Quality Roofing delivers expert soffit installation repair in Essex Fells — with prices starting from $1,500–$4,000 and free estimates available today. Soffit systems on Essex Fells estates serve a dual role that standard residential installations rarely address with equal emphasis: attic ventilation performance and architectural finish quality. The large attic volumes beneath steep estate roofs require substantial soffit ventilation area to maintain proper air circulation, while the visible soffit surfaces on the elaborate eave overhangs of architect-designed homes must present the same finish quality as interior ceiling surfaces. Balancing ventilation capacity with aesthetic standards defines the Essex Fells soffit specification challenge.',
     'The wooded Essex Fells environment creates soffit maintenance demands distinct from the open-exposure suburban settings where soffit installations typically function for decades without attention. Wildlife -- squirrels, raccoons, and bats -- view soffit panels as access points to the warm, protected attic spaces of large estate homes. Wood soffit panels softened by canopy-shade moisture become vulnerable to gnawing, prying, and scratching by animals seeking entry. Screening at ventilation openings deteriorates faster in the humid canopy environment. These wildlife and moisture pressures create a maintenance cycle that Essex Fells homeowners must anticipate.',
     'Our [soffit installation and repair](/soffit-installation-repair) practice in Essex Fells addresses both the ventilation engineering and the architectural finish quality that estate homes demand. We calculate ventilation area requirements based on attic volume and roof geometry, specify ventilation panel configurations that meet these requirements without compromising the soffit\'s visual appearance, and install panels using the concealed fastening methods that eliminate the visible screw or nail patterns inappropriate on architect-designed eave overhangs.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsSoffitInstallationRepair: ComboContent = {
     {
       question: 'Can you repair sections of soffit without replacing the entire run?',
       answer: 'Sectional repair is our standard approach when damage is localized. We remove deteriorated panels, inspect and repair the underlying nailer framing, and install matching replacement panels with joints positioned at architectural break points for concealment. The replacement section receives prime coating and paint to match the surrounding intact soffit. Full-run replacement is reserved for situations where deterioration is widespread or where an upgrade to moisture-resistant material makes comprehensive replacement the better investment.'
-    }
+    },
+    {
+      question: 'How much does soffit installation repair cost in Essex Fells, NJ?',
+      answer: 'Most soffit installation repair projects in Essex Fells range from $1,500–$4,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Soffit installation and repair in Essex Fells NJ -- ventilation engineering and wildlife exclusion for estate eave overhangs.',
+  pricing: {
+    range: '$1,500–$4,000',
+    note: 'soffit replacement or repair',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free soffit installation repair estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

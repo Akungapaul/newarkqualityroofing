@@ -4,7 +4,7 @@ export const newarkFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'newark',
   overview: [
-    'Flat roof replacement drives a substantial portion of Newark\'s commercial and multi-family roofing market. The city\'s building stock includes thousands of flat-roofed structures -- from the three-story mixed-use buildings lining Broad Street and Market Street to the warehouse conversions in the Ironbound, the apartment complexes throughout the Central and South Wards, and the industrial facilities along the Passaic River corridor. These flat roofs operate on predictable lifecycle curves, and Newark\'s combination of urban heat, ponding water, and heavy rooftop mechanical equipment accelerates every curve toward replacement.',
+    'Newark Quality Roofing delivers expert flat roof replacement in Newark — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement drives a substantial portion of Newark\'s commercial and multi-family roofing market. The city\'s building stock includes thousands of flat-roofed structures -- from the three-story mixed-use buildings lining Broad Street and Market Street to the warehouse conversions in the Ironbound, the apartment complexes throughout the Central and South Wards, and the industrial facilities along the Passaic River corridor. These flat roofs operate on predictable lifecycle curves, and Newark\'s combination of urban heat, ponding water, and heavy rooftop mechanical equipment accelerates every curve toward replacement.',
     'The dominant replacement scenario in Newark today is TPO or PVC membrane replacing aging built-up roofing (BUR) systems. The multi-ply asphalt-and-gravel BUR roofs installed on Newark commercial buildings during the 1970s through 1990s are reaching end-of-life in waves. These systems were durable for their era but have exhausted their waterproofing capacity -- the inter-ply adhesion has failed, the gravel ballast has migrated into drains, and the base felts have become saturated reservoirs that hold water rather than repel it. Replacement with single-ply membrane technology represents a generational leap in performance.',
     'Tapered insulation installation during flat roof replacement has become standard practice on Newark buildings, addressing the chronic ponding water problem that plagued previous flat roof generations. Rather than relying on the roof membrane alone to handle standing water, tapered insulation creates positive slope toward drain locations, ensuring that water moves to exits within forty-eight hours of rainfall. For Newark buildings where the original roof structure was dead-level -- common in industrial and commercial construction -- tapered insulation is the only practical way to achieve drainage without structural modification.',
     'Energy code compliance adds a significant layer to flat roof replacement in Newark. Current New Jersey energy code requires minimum R-30 insulation on commercial roof replacements, which means that the tear-off-and-replace project also becomes an insulation upgrade project. For buildings currently carrying little or no roof insulation -- a common condition on older Newark commercial structures -- the energy improvement from replacement is dramatic, often reducing heating and cooling costs by twenty to thirty percent and qualifying for utility rebate programs through PSE&G.'
@@ -40,7 +40,25 @@ export const newarkFlatRoofReplacement: ComboContent = {
     {
       question: 'What happens to the rooftop HVAC equipment during a Newark flat roof replacement?',
       answer: 'Rooftop mechanical equipment is handled in one of three ways depending on size and configuration. Small units under 500 pounds are temporarily relocated to completed roof sections during the phased installation. Medium units are raised on temporary supports while new membrane and curb flashings are installed beneath them. Large units that cannot be moved are worked around with custom membrane detailing. In all cases, HVAC systems remain operational -- we coordinate with mechanical contractors to maintain ductwork connections during equipment handling so the building\'s climate control is not interrupted.'
-    }
+    },
+    {
+      question: 'How much does flat roof replacement cost in Newark, NJ?',
+      answer: 'Most flat roof replacement projects in Newark range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof replacement in Newark NJ -- TPO and PVC membrane, tapered insulation, phased commercial installation.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'flat roof membrane replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof replacement estimate in Newark — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

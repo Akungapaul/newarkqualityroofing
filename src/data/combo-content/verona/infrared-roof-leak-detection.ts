@@ -4,7 +4,7 @@ export const veronaInfraredRoofLeakDetection: ComboContent = {
   serviceId: 'infrared-roof-leak-detection',
   cityId: 'verona',
   overview: [
-    'Infrared roof leak detection pinpoints the exact location of water entry on Verona commercial flat roofs, eliminating the guesswork that makes conventional leak investigation expensive and unreliable. Traditional leak hunting on flat roofs involves cutting test holes through the membrane at suspected locations -- a destructive process that damages the roof it is trying to fix. Infrared technology surveys the entire roof surface without cutting a single hole, identifying moisture trapped in the insulation beneath the membrane through the temperature signature it produces during evening cool-down periods.',
+    'Newark Quality Roofing delivers expert infrared roof leak detection in Verona — with prices starting from $350–$800 and free estimates available today. Infrared roof leak detection pinpoints the exact location of water entry on Verona commercial flat roofs, eliminating the guesswork that makes conventional leak investigation expensive and unreliable. Traditional leak hunting on flat roofs involves cutting test holes through the membrane at suspected locations -- a destructive process that damages the roof it is trying to fix. Infrared technology surveys the entire roof surface without cutting a single hole, identifying moisture trapped in the insulation beneath the membrane through the temperature signature it produces during evening cool-down periods.',
     'Newark Quality Roofing deploys infrared leak detection on Verona commercial buildings when leak source location is unclear, when multiple leaks complicate the diagnostic picture, or when the building owner needs data-driven justification for targeted repair versus full replacement. The infrared scan produces a moisture map of the entire roof assembly, showing exactly where water has infiltrated and how far it has spread from the entry point. This precision allows [leak detection](/infrared-roof-leak-detection) repairs to target only the damaged areas, avoiding the cost of replacing sound membrane sections that a less precise diagnostic would sacrifice.',
     'Verona commercial buildings with persistent leak problems that have resisted multiple repair attempts benefit most from infrared investigation. When previous repairs sealed the visible damage without addressing the actual water entry point -- a common scenario when the leak source is ten or more feet from the interior stain -- the problem recurs despite the investment. Infrared detection breaks this cycle by identifying the true entry location, which may be a failed seam at a drain collar, a pulled flashing at an equipment curb, or a puncture in an area never suspected. Building managers in [Bloomfield](/infrared-roof-leak-detection-bloomfield-nj) have used infrared detection to resolve chronic leaks that years of conventional repair attempts failed to stop.'
   ],
@@ -34,7 +34,25 @@ export const veronaInfraredRoofLeakDetection: ComboContent = {
     {
       question: 'Does infrared leak detection guarantee finding the leak source?',
       answer: 'Infrared detection identifies where moisture is present in the roof assembly with approximately 90 percent accuracy under proper scanning conditions. The moisture location points to the probable entry area, but the specific membrane defect may require physical investigation once the wet zone is defined. In our experience, infrared detection combined with targeted physical investigation identifies the leak source on the first attempt in over 90 percent of cases, compared to approximately 50 percent success for conventional investigation without infrared guidance.'
-    }
+    },
+    {
+      question: 'How much does infrared roof leak detection cost in Verona, NJ?',
+      answer: 'Most infrared roof leak detection projects in Verona range from $350–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Infrared roof leak detection in Verona NJ -- pinpoint commercial flat roof leaks without destructive testing using thermal imaging.',
+  pricing: {
+    range: '$350–$800',
+    note: 'pinpoint leak detection service',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free infrared roof leak detection estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const veronaSiliconeRoofCoating: ComboContent = {
   serviceId: 'silicone-roof-coating',
   cityId: 'verona',
   overview: [
-    'Silicone roof coating extends the service life of aging commercial flat roofs in Verona without the cost and disruption of full membrane replacement. The liquid-applied silicone cures into a seamless, UV-resistant surface that seals minor cracks, bridges small gaps at flashings and seams, and reflects solar energy to reduce rooftop temperatures and cooling costs. For Verona building owners managing Bloomfield Avenue retail properties, office buildings, and municipal structures with aging but structurally sound flat roofs, silicone coating provides a cost-effective alternative to tear-off and re-roof.',
+    'Newark Quality Roofing delivers expert silicone roof coating in Verona — with prices starting from $3–$6/sq ft and free estimates available today. Silicone roof coating extends the service life of aging commercial flat roofs in Verona without the cost and disruption of full membrane replacement. The liquid-applied silicone cures into a seamless, UV-resistant surface that seals minor cracks, bridges small gaps at flashings and seams, and reflects solar energy to reduce rooftop temperatures and cooling costs. For Verona building owners managing Bloomfield Avenue retail properties, office buildings, and municipal structures with aging but structurally sound flat roofs, silicone coating provides a cost-effective alternative to tear-off and re-roof.',
     'Newark Quality Roofing applies silicone coating systems on Verona commercial roofs where the existing membrane is still adhered and structurally sound but has lost its surface protection to UV degradation, granule erosion, or surface cracking. The coating restores the weathering surface without disturbing the underlying waterproofing layers, avoiding the waste generation, noise, and tenant disruption that full replacement requires. Our [silicone roof coating](/silicone-roof-coating) assessments verify that the existing roof is a suitable candidate before recommending the coating approach.',
     'The reflective properties of silicone coating transform dark-surfaced roofs on Verona commercial buildings into cool-roof performers. Buildings with aging BUR or modified bitumen that originally installed with dark gravel or mineral-cap surfaces see the most dramatic energy improvement -- the white silicone surface reduces rooftop temperatures by 50 to 70 degrees compared to the dark original surface. Commercial buildings in [Bloomfield](/silicone-roof-coating-bloomfield-nj) along the same Bloomfield Avenue corridor have measured 20 to 30 percent cooling cost reductions after silicone coating application.'
   ],
@@ -34,7 +34,25 @@ export const veronaSiliconeRoofCoating: ComboContent = {
     {
       question: 'Will silicone coating make my Verona commercial roof slippery?',
       answer: 'Silicone coatings are smooth when wet and can be slippery for foot traffic. We incorporate non-skid granules in the coating at designated walk paths around rooftop equipment, access hatches, and maintenance routes. These granulated areas provide safe footing for service personnel while maintaining the smooth reflective surface across the majority of the roof field where foot traffic is not expected.'
-    }
+    },
+    {
+      question: 'How much does silicone roof coating cost in Verona, NJ?',
+      answer: 'Most silicone roof coating projects in Verona range from $3–$6/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Silicone roof coating in Verona NJ -- extend commercial flat roof life with reflective, seamless coating over existing membranes.',
+  pricing: {
+    range: '$3–$6/sq ft',
+    note: 'extends roof life 10–15 years',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free silicone roof coating estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

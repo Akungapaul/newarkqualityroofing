@@ -4,7 +4,7 @@ export const veronaCedarShakeRoofReplacement: ComboContent = {
   serviceId: 'cedar-shake-roof-replacement',
   cityId: 'verona',
   overview: [
-    'Cedar shake roof replacement in Verona renews the natural wood roofing that gives select homes their distinctive organic character. When existing cedar shakes have weathered past the point of individual replacement -- splitting extensively, losing structural thickness to decay, or hosting biological growth that penetrates into the wood fiber -- full replacement with premium hand-split western red cedar restores the roof to its original warmth and dimensional beauty.',
+    'Newark Quality Roofing delivers expert cedar shake roof replacement in Verona — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roof replacement in Verona renews the natural wood roofing that gives select homes their distinctive organic character. When existing cedar shakes have weathered past the point of individual replacement -- splitting extensively, losing structural thickness to decay, or hosting biological growth that penetrates into the wood fiber -- full replacement with premium hand-split western red cedar restores the roof to its original warmth and dimensional beauty.',
     'Newark Quality Roofing replaces cedar shake roofs on Verona homes using the same premium materials and installation techniques we apply to new installations: hand-selected heavy-grade shakes, corrosion-resistant ring-shank fasteners, skip sheathing for ventilation, and preservative treatment applied within 60 days of installation. Our [cedar shake replacement](/cedar-shake-roof-replacement) projects address not just the shake surface but the underlying deck, flashing, and ventilation systems that support cedar\'s long-term performance.',
     'Verona homeowners replacing cedar shake face the decision of whether to reinstall cedar or convert to an alternative material. The conversion question arises most frequently for park-adjacent properties where persistent shade accelerated the original cedar\'s deterioration. We present the honest assessment: cedar replacement with enhanced treatment and maintenance protocols can succeed even in canopy-heavy locations, while conversion to algae-resistant architectural shingles eliminates the biological growth concern at lower cost. Homeowners in [Montclair](/cedar-shake-roof-replacement-montclair-nj) surrounded by similar canopy have made both choices successfully.'
   ],
@@ -34,7 +34,25 @@ export const veronaCedarShakeRoofReplacement: ComboContent = {
     {
       question: 'Will new cedar shakes match the gray weathered look of my old roof?',
       answer: 'New cedar shakes start as warm golden-brown and weather to silver-gray over approximately two to three years of exposure. The transition is gradual and natural. If you prefer to accelerate the gray appearance, weathering stains can be applied during the preservative treatment to achieve the silver-gray tone immediately. Untreated cedar weathers unevenly; our preservative treatment ensures uniform aging across all roof planes.'
-    }
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost in Verona, NJ?',
+      answer: 'Most cedar shake roof replacement projects in Verona range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Cedar shake roof replacement in Verona NJ -- premium hand-split cedar with preservative treatment for split-levels and custom homes.',
+  pricing: {
+    range: '$15,000–$32,000',
+    note: 'cedar shake roof replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free cedar shake roof replacement estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

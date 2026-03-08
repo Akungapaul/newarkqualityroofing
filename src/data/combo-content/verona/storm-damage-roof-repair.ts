@@ -4,7 +4,7 @@ export const veronaStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'verona',
   overview: [
-    'Storm damage in Verona follows predictable patterns dictated by the township\'s terrain and tree canopy. Hilltop properties along Claremont Avenue and upper Personette absorb the brunt of wind during nor\'easters and summer thunderstorms, losing shingles at rake edges and ridge caps while lower-elevation homes remain relatively sheltered. Meanwhile, tree-heavy neighborhoods near Verona Park and along Sunset Avenue suffer branch impacts and canopy debris that puncture and abrade roofing surfaces. Newark Quality Roofing responds to storm damage across both exposure profiles, providing emergency stabilization, permanent repair, and the insurance documentation that Verona homeowners need to restore their homes without financial burden.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Verona — with prices starting from $500–$3,000 and free estimates available today. Storm damage in Verona follows predictable patterns dictated by the township\'s terrain and tree canopy. Hilltop properties along Claremont Avenue and upper Personette absorb the brunt of wind during nor\'easters and summer thunderstorms, losing shingles at rake edges and ridge caps while lower-elevation homes remain relatively sheltered. Meanwhile, tree-heavy neighborhoods near Verona Park and along Sunset Avenue suffer branch impacts and canopy debris that puncture and abrade roofing surfaces. Newark Quality Roofing responds to storm damage across both exposure profiles, providing emergency stabilization, permanent repair, and the insurance documentation that Verona homeowners need to restore their homes without financial burden.',
     'Split-level homes are disproportionately affected by storm damage in Verona because their multi-plane geometry creates more edges, transitions, and exposed surfaces per unit of roof area. Wind catches shingle tabs at the level transitions where upper and lower roof planes meet, peeling them back and exposing underlayment to rain. The short wall sections between levels act as wind scoops that accelerate airflow across adjacent shingle courses, increasing uplift forces beyond what standard installation methods can resist. Our storm damage assessments on Verona split-levels examine every transition point, because damage at one elevation change often indicates stress at others that have not yet failed visibly.',
     'Post-storm insurance claims are a routine part of storm damage repair in Verona, and our experience with the process ensures homeowners receive fair settlements. We provide detailed damage documentation -- photographed and measured to the standards Essex County adjusters require -- and meet with adjusters on-site to walk through findings. Neighbors in [Montclair](/storm-damage-roof-repair-montclair-nj) face comparable storm exposure along the shared ridgeline, and our [storm damage repair](/storm-damage-roof-repair) protocols apply consistently across both communities with adjustments for each township\'s distinct housing stock.'
   ],
@@ -34,7 +34,25 @@ export const veronaStormDamageRoofRepair: ComboContent = {
     {
       question: 'How long after a storm should I wait before calling for a damage assessment?',
       answer: 'Call immediately if you see visible damage or experience active leaking. For suspected damage without active water entry, call within a few days of the storm event. Insurance policies require timely reporting of damage, and delay can complicate claims. After major storms affecting all of Essex County, our schedule fills quickly -- early callers receive earlier assessment dates. We provide emergency tarping for active leaks on the same day when possible, with full assessments following within one to three days of the initial call.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Verona, NJ?',
+      answer: 'Most storm damage roof repair projects in Verona range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Verona NJ -- wind, hail, and tree impact repair with insurance claims support for split-level and hilltop homes.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

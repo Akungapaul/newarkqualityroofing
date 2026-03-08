@@ -4,7 +4,7 @@ export const roselandEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'roseland',
   overview: [
-    'EPDM commercial roofing has protected Roseland\'s business properties for decades, predating the TPO systems that now dominate new installations. Many of the borough\'s older commercial buildings along Eagle Rock Avenue and the secondary office parks off Eisenhower Parkway still operate under EPDM membranes installed during the 1990s and 2000s -- systems approaching or reaching replacement age that require evaluation, repair, or conversion to modern membrane alternatives. Our [EPDM commercial roofing](/epdm-commercial-roofing) services cover the full lifecycle from new installation through maintenance, repair, and end-of-life replacement.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Roseland — with prices starting from $6–$11/sq ft and free estimates available today. EPDM commercial roofing has protected Roseland\'s business properties for decades, predating the TPO systems that now dominate new installations. Many of the borough\'s older commercial buildings along Eagle Rock Avenue and the secondary office parks off Eisenhower Parkway still operate under EPDM membranes installed during the 1990s and 2000s -- systems approaching or reaching replacement age that require evaluation, repair, or conversion to modern membrane alternatives. Our [EPDM commercial roofing](/epdm-commercial-roofing) services cover the full lifecycle from new installation through maintenance, repair, and end-of-life replacement.',
     'For Roseland commercial properties where budget efficiency takes priority over energy reflectivity, EPDM remains a strong specification choice. The material\'s 40-year track record in commercial applications provides confidence that no newer membrane technology can yet match through field-proven longevity data. Property managers in Roseland who oversee multiple buildings often standardize on EPDM for maintenance simplicity -- every repair uses the same materials and techniques regardless of which building needs attention. Commercial property owners in nearby [Fairfield](/epdm-commercial-roofing-fairfield-nj) similarly value EPDM\'s proven reliability for their industrial and office buildings.',
     'Repair and maintenance of existing EPDM roofs constitute a significant portion of our commercial work in Roseland. Many buildings carry membranes with 10 to 15 years of remaining useful life that justify targeted repair rather than wholesale replacement. Seam re-adhesion, puncture patching, and flashing renewal extend membrane service life at a fraction of replacement cost, allowing property managers to align roof replacement with larger capital planning cycles.'
   ],
@@ -34,7 +34,25 @@ export const roselandEpdmCommercialRoofing: ComboContent = {
     {
       question: 'Can you convert our EPDM roof to TPO during the next replacement?',
       answer: 'Yes, EPDM-to-TPO conversion is straightforward during full replacement. The existing EPDM and insulation are removed, the structural deck is inspected, and the new TPO system is installed with fresh insulation at current code R-values. The conversion provides an opportunity to upgrade insulation, correct drainage deficiencies, and integrate modern edge details. Many Roseland commercial property managers are executing this conversion as their EPDM systems reach end of life.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Roseland, NJ?',
+      answer: 'Most epdm commercial roofing projects in Roseland range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Roseland NJ -- rubber membrane installation, repair, and replacement for office buildings and commercial properties.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

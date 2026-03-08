@@ -4,7 +4,7 @@ export const livingstonCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'livingston',
   overview: [
-    'Commercial metal roofing addresses the high-end segment of Livingston\'s commercial property market where building owners invest in 50-plus year roof systems that eliminate the replacement cycles associated with membrane roofing. Standing seam metal panels provide a combination of longevity, aesthetic distinction, and weather performance that positions buildings competitively in Livingston\'s professional office and retail leasing market. Properties along Eisenhower Parkway and near Livingston Town Center increasingly feature metal roofing as an architectural element that communicates quality construction to potential tenants and clients.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Livingston — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing addresses the high-end segment of Livingston\'s commercial property market where building owners invest in 50-plus year roof systems that eliminate the replacement cycles associated with membrane roofing. Standing seam metal panels provide a combination of longevity, aesthetic distinction, and weather performance that positions buildings competitively in Livingston\'s professional office and retail leasing market. Properties along Eisenhower Parkway and near Livingston Town Center increasingly feature metal roofing as an architectural element that communicates quality construction to potential tenants and clients.',
     'The standing seam profile dominates Livingston commercial metal installations because the concealed fastener design eliminates the thermal cycling failures that exposed-fastener systems experience across northern New Jersey\'s temperature extremes. Panels expand and contract freely along their length as temperatures swing from below zero to above 100 degrees Fahrenheit on summer roof surfaces, with the standing seam clips accommodating this movement without stress on fastener holes. This thermal management engineering is what delivers the multi-decade performance that justifies metal\'s premium installed cost.',
     'Our [commercial metal roofing](/commercial-metal-roofing) projects in Livingston serve both new construction and retrofit applications. New construction installations coordinate with structural engineers to specify purlin spacing and load paths designed for the metal panel system. Retrofit projects on existing Livingston commercial buildings assess the current deck structure for compatibility with metal panel attachment requirements and may include sub-framing additions that provide the mounting surface metal systems demand.',
     'Commercial property owners in nearby [Montclair](/commercial-metal-roofing-montclair-nj) have adopted metal roofing on boutique commercial properties where the architectural profile enhances street-level appeal, while Livingston\'s applications tend toward larger professional buildings where lifecycle cost savings drive the material selection.'
@@ -35,7 +35,25 @@ export const livingstonCommercialMetalRoofing: ComboContent = {
     {
       question: 'What colors and profiles are available for commercial metal roofing in Livingston?',
       answer: 'Standing seam metal roofing is available in over 40 colors with Kynar 500 PVDF coatings that resist fading for 30 or more years. Common choices for Livingston commercial properties include charcoal, slate gray, colonial red, and dark bronze. Panel widths of 12, 16, or 18 inches create different visual scales appropriate to the building\'s architectural character. We provide physical samples for review during the specification process.'
-    }
+    },
+    {
+      question: 'How much does commercial metal roofing cost in Livingston, NJ?',
+      answer: 'Most commercial metal roofing projects in Livingston range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Livingston NJ -- standing seam systems for offices and retail with acoustic engineering and snow retention.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

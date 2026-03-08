@@ -4,7 +4,7 @@ export const cedarGroveGreenRoofInstallation: ComboContent = {
   serviceId: 'green-roof-installation',
   cityId: 'cedar-grove',
   overview: [
-    'Green roof installation in Cedar Grove aligns with the township\'s natural character -- a community already defined by its mature tree canopy and proximity to the Watchung Mountains, where vegetated roofing extends the landscape onto building surfaces. Commercial properties along Pompton Avenue and institutional buildings in Cedar Grove can incorporate extensive green roof systems that manage stormwater, reduce urban heat, and create habitat continuity with the surrounding wooded environment that gives this northern Essex County township its identity.',
+    'Newark Quality Roofing delivers expert green roof installation in Cedar Grove — with prices starting from $15–$35/sq ft and free estimates available today. Green roof installation in Cedar Grove aligns with the township\'s natural character -- a community already defined by its mature tree canopy and proximity to the Watchung Mountains, where vegetated roofing extends the landscape onto building surfaces. Commercial properties along Pompton Avenue and institutional buildings in Cedar Grove can incorporate extensive green roof systems that manage stormwater, reduce urban heat, and create habitat continuity with the surrounding wooded environment that gives this northern Essex County township its identity.',
     'Our [green roof installation](/green-roof-installation) approach for Cedar Grove addresses the specific structural, drainage, and horticultural requirements of a community situated along the Watchung Mountain slope. The elevation and exposure patterns produce growing conditions distinct from valley-floor communities -- more wind, slightly cooler temperatures, and greater precipitation that influence plant selection, growing medium depth, and drainage system design. These variables differentiate a Cedar Grove green roof from installations in [Montclair](/green-roof-installation-montclair-nj) or other Essex County communities with different microclimates.',
     'Stormwater management is the primary engineering justification for green roof systems in Cedar Grove. The township\'s position within the Peckman River watershed makes runoff reduction a regulatory and practical priority, and green roofs can retain fifty to seventy percent of annual precipitation on the building footprint, significantly reducing the volume and rate of stormwater discharge into the municipal collection system during peak rainfall events.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveGreenRoofInstallation: ComboContent = {
       question: 'What maintenance does a Cedar Grove green roof require?',
       answer: 'Extensive sedum green roofs require biannual weeding, annual slow-release fertilization, drain inspection each spring and fall, and supplemental irrigation during extended drought periods. Semi-intensive systems with native plants need quarterly maintenance visits during the growing season. Total annual maintenance cost is typically two to three dollars per square foot -- comparable to the cost of membrane roof maintenance plus landscape maintenance that the green roof replaces.',
     },
+    {
+      question: 'How much does green roof installation cost in Cedar Grove, NJ?',
+      answer: 'Most green roof installation projects in Cedar Grove range from $15–$35/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Green roof installation in Cedar Grove NJ -- vegetated roofing systems for stormwater management and habitat continuity in the Watchung foothills.',
+  pricing: {
+    range: '$15–$35/sq ft',
+    note: 'living green roof system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free green roof installation estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

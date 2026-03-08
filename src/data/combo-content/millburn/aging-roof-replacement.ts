@@ -4,7 +4,7 @@ export const millburnAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'millburn',
   overview: [
-    'Aging roof replacement on Millburn estates is a planned capital improvement rather than an emergency response -- a proactive decision to replace roofing that has served its expected lifespan before deterioration progresses to the point of water intrusion, structural damage, and the cascading interior costs that deferred replacement produces. The asphalt shingle roofs on mid-century Millburn homes reach their twenty-five to thirty-year service life, the cedar shakes on 1980s and 1990s-era estates approach their thirty-to-forty-year threshold, and even the slate roofs on pre-war properties may need their first major restoration after seventy-five to ninety years of service.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Millburn — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement on Millburn estates is a planned capital improvement rather than an emergency response -- a proactive decision to replace roofing that has served its expected lifespan before deterioration progresses to the point of water intrusion, structural damage, and the cascading interior costs that deferred replacement produces. The asphalt shingle roofs on mid-century Millburn homes reach their twenty-five to thirty-year service life, the cedar shakes on 1980s and 1990s-era estates approach their thirty-to-forty-year threshold, and even the slate roofs on pre-war properties may need their first major restoration after seventy-five to ninety years of service.',
     'Timing the replacement decision on Millburn properties requires balancing the remaining functional life of the existing roof against the risk of waiting too long. A roof that appears adequate from the ground may be two or three years from failures that produce interior damage exceeding the cost of the replacement itself. Our assessment practice for aging [Millburn](/roofing-in-millburn-nj) roofs evaluates the material condition, deck integrity, flashing status, and environmental exposure to project the remaining reliable service life and recommend the replacement timing that prevents damage while maximizing the value of the existing installation.',
     'The replacement presents an opportunity to upgrade roofing performance -- energy efficiency, ventilation, waterproofing coverage -- beyond the standards of the original installation. Code requirements have advanced since most Millburn aging roofs were installed, and the re-roofing project triggers compliance with current insulation, ventilation, and fire-resistance standards. These mandated upgrades, combined with voluntary improvements the homeowner selects, produce a new roof system that outperforms the aging installation in every measurable dimension.'
   ],
@@ -34,7 +34,25 @@ export const millburnAgingRoofReplacement: ComboContent = {
     {
       question: 'What is the best time of year to replace an aging roof in Millburn?',
       answer: 'Late spring through early fall provides the optimal installation conditions -- moderate temperatures for material handling and adhesive activation, adequate daylight hours for full work days, and the lowest probability of weather delays. Early fall is particularly favorable because the moderate temperatures produce excellent shingle-sealing conditions and the project is completed before winter weather arrives. We recommend scheduling six to twelve months in advance to secure the preferred installation window.'
-    }
+    },
+    {
+      question: 'How much does aging roof replacement cost in Millburn, NJ?',
+      answer: 'Most aging roof replacement projects in Millburn range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement for Millburn and Short Hills estates. Proactive replacement planning with material upgrades, lifecycle cost analysis, and optimal timing.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Millburn — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Millburn — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

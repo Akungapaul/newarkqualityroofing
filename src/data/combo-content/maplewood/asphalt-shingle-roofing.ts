@@ -4,7 +4,7 @@ export const maplewoodAsphaltShingleRoofing: ComboContent = {
   serviceId: 'asphalt-shingle-roofing',
   cityId: 'maplewood',
   overview: [
-    'Asphalt shingle roofing covers the majority of Maplewood homes, from the Colonial Revivals along Oakland Road and Elmwood Avenue to the Cape Cods on Rutgers Street and the mid-century ranches near the Irvington border. While the township\'s Victorian and Tudor showpieces may wear slate and cedar, the workday homes that make up most of Maplewood\'s residential landscape depend on asphalt shingles for reliable, affordable weather protection. Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations in Maplewood use premium architectural-grade products that deliver both performance and the dimensional aesthetics this design-conscious community expects.',
+    'Newark Quality Roofing delivers expert asphalt shingle roofing in Maplewood — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roofing covers the majority of Maplewood homes, from the Colonial Revivals along Oakland Road and Elmwood Avenue to the Cape Cods on Rutgers Street and the mid-century ranches near the Irvington border. While the township\'s Victorian and Tudor showpieces may wear slate and cedar, the workday homes that make up most of Maplewood\'s residential landscape depend on asphalt shingles for reliable, affordable weather protection. Our [asphalt shingle roofing](/asphalt-shingle-roofing) installations in Maplewood use premium architectural-grade products that deliver both performance and the dimensional aesthetics this design-conscious community expects.',
     'Maplewood\'s environmental conditions demand more from asphalt shingles than typical suburban installations. South Mountain Reservation\'s shade canopy promotes algae growth that stains and degrades standard shingles within a few years. The mountain-channeled winds on western Maplewood properties subject shingles to uplift forces exceeding normal suburban exposure. And the heavy debris load from Reservation trees impacts shingle surfaces with falling branches, acorns, and woody seedpods. We specify algae-resistant, high-wind-rated shingles as standard for all [Maplewood](/roofing-in-maplewood-nj) installations and upgrade to impact-resistant products for the most exposed Hilton and Prospect Street properties.',
     'Color and profile selection matter in a community where homeowners actively engage with their home\'s exterior aesthetics. Maplewood\'s earthy palette of brick, stone, stucco, and natural wood siding pairs well with deeper shingle tones that provide visual weight and depth. Popular choices include GAF Timberline HDZ in Charcoal, Weathered Wood, and Barkwood, and Owens Corning Duration in Brownwood and Estate Gray. We bring physical samples for side-by-side comparison against your specific exterior, because digital color representations rarely capture the subtlety that matters on a [Bloomfield](/asphalt-shingle-roofing-bloomfield-nj) or Maplewood streetscape.',
   ],
@@ -34,6 +34,24 @@ export const maplewoodAsphaltShingleRoofing: ComboContent = {
       question: 'What color shingles look best on Maplewood Colonials?',
       answer: 'Maplewood\'s Colonial homes typically pair best with mid-to-dark tones that provide visual weight. Charcoal, Weathered Wood, and Pewter Gray are our most requested colors. The choice depends on your siding color, trim paint, and masonry elements. We bring 6-8 sample boards to your home for direct comparison against your specific exterior in natural light, because screen colors are unreliable for this decision.',
     },
+    {
+      question: 'How much does asphalt shingle roofing cost in Maplewood, NJ?',
+      answer: 'Most asphalt shingle roofing projects in Maplewood range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roofing in Maplewood NJ. Algae-resistant, high-wind-rated installations for Colonials and Cape Cods. GAF and Owens Corning certified.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'full installation with tear-off',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roofing estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

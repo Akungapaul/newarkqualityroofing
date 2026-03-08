@@ -4,7 +4,7 @@ export const livingstonCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'livingston',
   overview: [
-    'Commercial roof repair in Livingston demands response speed and diagnostic precision that minimizes business disruption while permanently resolving leak sources that threaten interior operations, equipment, and inventory. The township\'s commercial properties along Eisenhower Parkway and Route 10 house medical practices, professional offices, retail operations, and technology firms where even minor ceiling leaks can damage expensive equipment, disrupt client-facing operations, and create liability concerns that property managers cannot tolerate.',
+    'Newark Quality Roofing delivers expert commercial roof repair in Livingston — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Livingston demands response speed and diagnostic precision that minimizes business disruption while permanently resolving leak sources that threaten interior operations, equipment, and inventory. The township\'s commercial properties along Eisenhower Parkway and Route 10 house medical practices, professional offices, retail operations, and technology firms where even minor ceiling leaks can damage expensive equipment, disrupt client-facing operations, and create liability concerns that property managers cannot tolerate.',
     'Livingston\'s commercial building stock spans several construction decades, each with characteristic roof system types and failure patterns. Office buildings from the 1980s carry aging BUR and modified bitumen systems with deteriorated seam flashings. Retail properties from the 1990s have first-generation single-ply membranes reaching the end of their service life. Newer buildings along the Town Center feature TPO and PVC systems that may develop penetration seal failures as rooftop equipment ages. Our repair teams carry materials and equipment for every system type, enabling same-visit diagnosis and repair across Livingston\'s full commercial building inventory.',
     'Our [commercial roof repair](/commercial-roof-repair) approach prioritizes tenant impact minimization alongside permanent repair quality. We coordinate repair scheduling with building management to identify work windows that avoid peak business hours, schedule noisy operations during tenant off-hours when possible, and stage materials to prevent parking area disruption. Commercial property managers in [East Orange](/commercial-roof-repair-east-orange-nj) apply similar tenant-sensitive scheduling to their repair projects.',
     'Preventive maintenance contracts for Livingston commercial properties reduce emergency repair frequency by identifying and addressing deterioration before it produces leaks. Biannual inspections with documented condition reports give property managers the data to budget for repairs proactively rather than reacting to tenant complaints about ceiling stains and active dripping.'
@@ -35,7 +35,25 @@ export const livingstonCommercialRoofRepair: ComboContent = {
     {
       question: 'Should I repair or replace my aging Livingston commercial roof?',
       answer: 'Repair is cost-effective when the majority of the roof system is performing adequately with isolated failure areas. Replacement becomes more economical when repair frequency and cumulative repair cost approach the amortized annual cost of a new roof system. We provide an honest assessment of your roof\'s overall condition and project future repair costs to help you determine the crossover point where replacement delivers better financial value than continued repair.'
-    }
+    },
+    {
+      question: 'How much does commercial roof repair cost in Livingston, NJ?',
+      answer: 'Most commercial roof repair projects in Livingston range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial roof repair in Livingston NJ -- diagnostic leak detection, membrane patching, and tenant-sensitive scheduling for offices and retail.',
+  pricing: {
+    range: '$500–$5,000',
+    note: 'for most commercial repair projects',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial roof repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

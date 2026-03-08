@@ -4,7 +4,7 @@ export const northCaldwellFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'north-caldwell',
   overview: [
-    'Fascia boards on North Caldwell estate homes serve both structural and aesthetic roles that are amplified by the scale and architectural ambition of these properties. Structurally, fascia supports the gutter system that manages water runoff from roof areas often exceeding five thousand square feet. Aesthetically, fascia defines the roofline edge visible from the long driveways and elevated approach angles that characterize properties along Mountain Avenue and Grandview Avenue. When fascia deteriorates, both functions fail simultaneously -- gutters pull away and the roofline loses its crisp architectural definition.',
+    'Newark Quality Roofing delivers expert fascia installation repair in North Caldwell — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards on North Caldwell estate homes serve both structural and aesthetic roles that are amplified by the scale and architectural ambition of these properties. Structurally, fascia supports the gutter system that manages water runoff from roof areas often exceeding five thousand square feet. Aesthetically, fascia defines the roofline edge visible from the long driveways and elevated approach angles that characterize properties along Mountain Avenue and Grandview Avenue. When fascia deteriorates, both functions fail simultaneously -- gutters pull away and the roofline loses its crisp architectural definition.',
     'Our [fascia installation](/fascia-installation-repair) work in North Caldwell uses materials that match the premium character of these homes. For traditional colonials and Tudors, we install clear-grade cedar or PVC composite fascia that accepts paint and maintains dimensional stability through decades of weather exposure. For contemporary homes, aluminum fascia wrap over wood substrate provides a maintenance-free surface that never needs painting. Each material choice is selected for compatibility with the home\'s architectural style and the homeowner\'s maintenance preferences.',
     'Fascia repair on established [North Caldwell](/roofing-in-north-caldwell-nj) estates frequently reveals hidden damage that extends beyond the fascia board itself. Water intrusion behind deteriorated fascia migrates into rafter tails, soffit framing, and sheathing edges. A repair that replaces only the visible fascia board without addressing the concealed moisture damage behind it produces a cosmetically improved but structurally deficient condition that fails again within a few years. Homeowners in neighboring [Caldwell](/fascia-installation-repair-caldwell-nj) encounter similar hidden damage on their aging residential fascia systems.'
   ],
@@ -34,7 +34,25 @@ export const northCaldwellFasciaInstallationRepair: ComboContent = {
     {
       question: 'Does fascia damage indicate a larger problem on my North Caldwell estate roof?',
       answer: 'Fascia damage often signals ice dam issues, gutter overflow, or inadequate attic ventilation that allows moisture to migrate to the roof edge. We investigate the cause of fascia deterioration as part of every repair assessment. Addressing only the fascia without correcting the underlying cause -- whether that is ice damming, gutter failure, or ventilation deficiency -- results in the replacement material deteriorating on the same timeline as the original.'
-    }
+    },
+    {
+      question: 'How much does fascia installation repair cost in North Caldwell, NJ?',
+      answer: 'Most fascia installation repair projects in North Caldwell range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fascia installation and repair in North Caldwell NJ -- premium wood and composite fascia for estate home rooflines and gutter support.',
+  pricing: {
+    range: '$1,200–$3,500',
+    note: 'fascia board replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows North Caldwell — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free fascia installation repair estimate in North Caldwell — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

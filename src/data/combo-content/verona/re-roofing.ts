@@ -4,7 +4,7 @@ export const veronaReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'verona',
   overview: [
-    'Re-roofing in Verona restores weather protection and curb appeal to homes where the existing roof has reached the end of its functional life. Whether your split-level carries 25-year-old three-tab shingles that have lost their granule coating, or a colonial\'s original architectural shingles are curling and lifting after three decades of service, re-roofing delivers a complete reset with modern materials engineered for the demands that Verona\'s climate and tree canopy environment impose. Newark Quality Roofing approaches every Verona re-roofing project as an opportunity to upgrade both the roofing material and the underlying systems -- ventilation, insulation, and flashing -- that the original installation may have left deficient.',
+    'Newark Quality Roofing delivers expert re roofing in Verona — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in Verona restores weather protection and curb appeal to homes where the existing roof has reached the end of its functional life. Whether your split-level carries 25-year-old three-tab shingles that have lost their granule coating, or a colonial\'s original architectural shingles are curling and lifting after three decades of service, re-roofing delivers a complete reset with modern materials engineered for the demands that Verona\'s climate and tree canopy environment impose. Newark Quality Roofing approaches every Verona re-roofing project as an opportunity to upgrade both the roofing material and the underlying systems -- ventilation, insulation, and flashing -- that the original installation may have left deficient.',
     'The re-roofing process on Verona split-levels addresses the structural complexities that simple re-roofing specifications overlook. Level transitions, multi-plane valleys, and varied pitch sections each receive material and detailing appropriate to their specific geometry. Algae-resistant shingles for park-adjacent canopy zones, wind-rated products for Claremont Avenue hilltop exposure, and enhanced underlayment at every transition point customize the installation to your home\'s particular environment. Our [re-roofing](/re-roofing) specifications treat each Verona home as a unique project, not a standard square-footage calculation.',
     'Modern re-roofing products available for Verona homes represent a generational leap from the materials installed 20 to 30 years ago. Impact-resistant shingles withstand hail events that destroy standard products. Cool-reflective granules reduce attic temperatures and energy costs. Algae-resistant formulations prevent the black streaking that canopy-shaded roofs develop within a few years of installation. Homeowners in [Montclair](/re-roofing-montclair-nj) upgrading from aging three-tab to modern architectural shingles consistently report both visual improvement and measurable performance gains.'
   ],
@@ -34,7 +34,25 @@ export const veronaReRoofing: ComboContent = {
     {
       question: 'Should I re-roof my entire Verona home or just the damaged sections?',
       answer: 'Partial re-roofing creates color mismatches between new and weathered sections and creates transition points between old and new materials that can become future leak locations. Unless the existing roof has significant remaining life on most planes with only one section failing, full re-roofing provides better aesthetics, more reliable weather protection, and simpler warranty coverage. We evaluate the remaining useful life of each roof plane and recommend the most cost-effective approach for your specific situation.'
-    }
+    },
+    {
+      question: 'How much does re roofing cost in Verona, NJ?',
+      answer: 'Most re roofing projects in Verona range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Re-roofing in Verona NJ -- complete roof replacement with modern materials for split-level homes, colonials, and custom properties.',
+  pricing: {
+    range: '$7,500–$22,000',
+    note: 'full re-roofing project',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free re roofing estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

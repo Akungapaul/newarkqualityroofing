@@ -161,6 +161,11 @@ export const westEssexContent: CityContent[] = [
         question: 'How much does a typical roof replacement cost in West Orange?',
         answer: 'West Orange roof replacement costs vary significantly based on home size, elevation, and complexity. Valley-floor capes and ranches typically range from $12,000 to $18,000 for standard architectural shingles. Mid-size colonials and split-levels in the Gregory and Crystal Lake neighborhoods average $18,000 to $28,000. Premium installations in Llewellyn Park, St. Cloud, and Eagle Rock can range from $35,000 to $75,000 or more depending on materials and architectural complexity. Every estimate includes a detailed breakdown with no hidden charges.',
       },
+    
+      {
+        question: 'How much does roofing cost in West Orange, NJ?',
+        answer: 'Most roof repairs in West Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why West Orange Homeowners Choose Newark Quality Roofing',
@@ -195,6 +200,18 @@ export const westEssexContent: CityContent[] = [
     metaTitle: 'West Orange Roofer | Roof Repair & Replacement NJ',
     metaDescription:
       'Expert roofing in West Orange NJ. From Llewellyn Park estates to valley-floor homes, we deliver elevation-informed craftsmanship. Free estimates. Call today.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in West Orange.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving West Orange',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -337,6 +354,11 @@ export const westEssexContent: CityContent[] = [
         question: 'What is the typical timeline for a historic roof restoration in Montclair?',
         answer: 'Historic restorations typically take longer than standard replacements due to material sourcing, custom fabrication, and the careful workmanship these projects demand. A straightforward slate re-roof on a medium-sized Victorian takes 3 to 4 weeks. Complex projects involving turrets, decorative patterns, and custom metalwork can extend to 6 to 8 weeks. If Historic Preservation Commission review is required, add 4 to 6 weeks for the application and approval process. We manage the full timeline and coordinate all approvals.',
       },
+    
+      {
+        question: 'How much does roofing cost in Montclair, NJ?',
+        answer: 'Most roof repairs in Montclair range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why Montclair Homeowners Trust Newark Quality Roofing',
@@ -371,6 +393,18 @@ export const westEssexContent: CityContent[] = [
     metaTitle: 'Montclair Roofer | Historic & Modern Roof Services NJ',
     metaDescription:
       'Montclair roofing specialists. Victorian, Tudor, Arts & Crafts expertise. Slate restoration, cedar shake, and modern systems. Free estimates. Call now.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Montclair.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Montclair',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -532,6 +566,11 @@ export const westEssexContent: CityContent[] = [
         question: 'How long do slate roofs last in Glen Ridge?',
         answer: 'Quality slate roofs in Glen Ridge routinely last 100 years or more when properly maintained. Many of the original 1890s and early 1900s slate installations in the borough remain functional today. Longevity depends on slate quality, with unfading varieties from Vermont and Pennsylvania lasting longest. The most common failure point is not the slate itself but the ferrous nails used in original installations, which corrode after 80 to 100 years, allowing slates to slip. Our re-roofing projects use copper or stainless steel fasteners that eliminate this failure mode entirely.',
       },
+    
+      {
+        question: 'How much does roofing cost in Glen Ridge, NJ?',
+        answer: 'Most roof repairs in Glen Ridge range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why Glen Ridge Homeowners Choose Newark Quality Roofing',
@@ -571,6 +610,18 @@ export const westEssexContent: CityContent[] = [
     metaTitle: 'Glen Ridge Roofer | Historic Slate & Cedar Roofing NJ',
     metaDescription:
       'Glen Ridge historic roofing specialists. Slate restoration, cedar shake, copper work. Historic Preservation Commission expertise. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Glen Ridge.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Glen Ridge',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -726,6 +777,11 @@ export const westEssexContent: CityContent[] = [
         question: 'How much does a roof replacement cost in Verona?',
         answer: 'Verona roof replacement costs depend on home size, roof complexity, and material selection. Ranch and cape homes typically range from $12,000 to $18,000 for quality architectural shingles. Split-levels and bi-levels with their multi-plane designs average $16,000 to $24,000. Larger colonials and custom homes range from $22,000 to $35,000. Premium designer shingle or cedar shake installations cost more. Every estimate includes a detailed line-item breakdown with no hidden fees or surprise charges.',
       },
+    
+      {
+        question: 'How much does roofing cost in Verona, NJ?',
+        answer: 'Most roof repairs in Verona range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why Verona Families Choose Newark Quality Roofing',
@@ -765,6 +821,18 @@ export const westEssexContent: CityContent[] = [
     metaTitle: 'Verona NJ Roofer | Roof Repair & Replacement Services',
     metaDescription:
       'Trusted Verona NJ roofing contractor. Split-level specialists, storm damage repair, complete replacements. Family-focused service. Free estimates.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Verona.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Verona',
+      'Family-Owned & Local',
+    ],
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -902,6 +970,11 @@ export const westEssexContent: CityContent[] = [
         question: 'Do you offer free roof inspections in Cedar Grove?',
         answer: 'Yes, we provide complimentary roof inspections for all Cedar Grove homeowners. Our inspection includes a visual assessment of shingle condition, flashing integrity, ventilation adequacy, gutter function, and chimney condition. We document findings with photographs and provide a written report with recommendations and priority rankings. There is no obligation associated with our inspection, and we never use scare tactics to pressure unnecessary repairs. If your roof is in good condition, we will tell you so honestly.',
       },
+    
+      {
+        question: 'How much does roofing cost in Cedar Grove, NJ?',
+        answer: 'Most roof repairs in Cedar Grove range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+      },
     ],
     whyChoose: {
       heading: 'Why Cedar Grove Homeowners Trust Newark Quality Roofing',
@@ -941,5 +1014,17 @@ export const westEssexContent: CityContent[] = [
     metaTitle: 'Cedar Grove NJ Roofer | Roof Repair & Replacement',
     metaDescription:
       'Cedar Grove NJ roofing contractor. Ranch roof specialists, storm repairs, full replacements. Honest service, quality materials. Free inspections.',
+    pricing: {
+      averageRepair: '$350–$1,500',
+      averageReplacement: '$8,500–$25,000',
+      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Cedar Grove.',
+    },
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'GAF Certified Contractor',
+      'Fully Insured & Bonded',
+      '15+ Years Serving Cedar Grove',
+      'Family-Owned & Local',
+    ],
   },
 ];

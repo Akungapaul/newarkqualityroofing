@@ -4,7 +4,7 @@ export const livingstonEmergencyRoofRepair: ComboContent = {
   serviceId: 'emergency-roof-repair',
   cityId: 'livingston',
   overview: [
-    'When a nor\'easter tears shingles off a split-level in Westminster or a fallen oak limb punctures a colonial roof in Collins Terrace, Livingston homeowners need a response calibrated to the township\'s specific building stock and neighborhood realities. Emergency roof repair here operates in a context of well-maintained properties, mature tree canopies, and families who cannot tolerate water intrusion into finished living spaces that represent significant financial and emotional investment. The split-level and raised ranch designs dominant across Livingston create emergency scenarios where damage on one roof plane rapidly cascades through the multi-level interior below.',
+    'Newark Quality Roofing delivers expert emergency roof repair in Livingston — with prices starting from $500–$2,500 and free estimates available today. When a nor\'easter tears shingles off a split-level in Westminster or a fallen oak limb punctures a colonial roof in Collins Terrace, Livingston homeowners need a response calibrated to the township\'s specific building stock and neighborhood realities. Emergency roof repair here operates in a context of well-maintained properties, mature tree canopies, and families who cannot tolerate water intrusion into finished living spaces that represent significant financial and emotional investment. The split-level and raised ranch designs dominant across Livingston create emergency scenarios where damage on one roof plane rapidly cascades through the multi-level interior below.',
     'Our emergency response covers Livingston\'s full geographic range, from the established neighborhoods south of South Orange Avenue to the newer developments along Eisenhower Parkway. Response times typically run under two hours for active leak situations because we maintain staging equipment and tarping materials at locations accessible to Livingston\'s major corridors. Homeowners in neighboring [West Orange](/emergency-roof-repair-west-orange-nj) and [Caldwell](/emergency-roof-repair-caldwell-nj) receive the same rapid deployment, though Livingston\'s wider residential streets and detached home layouts generally allow faster equipment staging than dense urban environments.',
     'Storm events affecting Livingston\'s tree-heavy neighborhoods generate emergency volume that requires crew depth and material reserves beyond what a single-truck operation can deliver. After significant wind events, we may field simultaneous calls from Northland, Heritage Hills, and the Beaufort Avenue corridor -- each requiring immediate tarping to prevent water damage before permanent repairs can be scheduled. Our [emergency roof repair](/emergency-roof-repair) capacity is built for these multi-site storm responses.',
     'HOA notification requirements in Livingston\'s governed communities do not delay emergency response. We perform immediate protective measures -- tarping, debris removal, temporary waterproofing -- under the emergency exception that all Livingston HOAs recognize, then follow up with the architectural review committee for permanent repair approval once the immediate crisis is resolved.'
@@ -35,7 +35,25 @@ export const livingstonEmergencyRoofRepair: ComboContent = {
     {
       question: 'Does my HOA need to approve emergency repairs before you can start?',
       answer: 'No. All Livingston HOAs recognize emergency exceptions for protective measures that prevent further property damage. We tarp, remove hazardous debris, and secure the roof opening immediately. The permanent repair -- which may involve shingle color matching and material specification -- goes through the normal architectural review process after the emergency is resolved. We handle the HOA submission for the permanent repair as part of our follow-up service.'
-    }
+    },
+    {
+      question: 'How much does emergency roof repair cost in Livingston, NJ?',
+      answer: 'Most emergency roof repair projects in Livingston range from $500–$2,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Emergency roof repair in Livingston NJ -- rapid storm response for split-levels, tree damage tarping, and HOA-compliant temporary protection.',
+  pricing: {
+    range: '$500–$2,500',
+    note: 'including after-hours and storm response',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free emergency roof repair estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

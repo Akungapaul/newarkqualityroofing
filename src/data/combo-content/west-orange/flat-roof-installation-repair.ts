@@ -4,7 +4,7 @@ export const westOrangeFlatRoofInstallationRepair: ComboContent = {
   serviceId: 'flat-roof-installation-repair',
   cityId: 'west-orange',
   overview: [
-    'Flat roof systems in West Orange serve a narrower but critical segment of the township\'s housing stock -- garage roofs on colonials, sunroom additions on split-levels, and the occasional mid-century modern design that embraced low-slope architecture. Our [flat roof installation and repair](/flat-roof-installation-repair) work in West Orange addresses the specific drainage challenges that elevation and terrain impose on horizontal surfaces where water has no natural escape path.',
+    'Newark Quality Roofing delivers expert flat roof installation repair in West Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof systems in West Orange serve a narrower but critical segment of the township\'s housing stock -- garage roofs on colonials, sunroom additions on split-levels, and the occasional mid-century modern design that embraced low-slope architecture. Our [flat roof installation and repair](/flat-roof-installation-repair) work in West Orange addresses the specific drainage challenges that elevation and terrain impose on horizontal surfaces where water has no natural escape path.',
     'Valley-floor flat roofs in Pleasant Valley contend with the highest rainfall accumulation rates in West Orange, as terrain channels runoff downhill from the Watchung ridge through these low-lying neighborhoods. A flat garage roof on a valley-floor property handles 20 to 30 percent more water volume per storm event than the same structure at ridge elevation, demanding membrane systems and drainage designs calibrated for sustained ponding loads. Homeowners in neighboring [Orange](/flat-roof-installation-repair-orange-nj) face similar valley-floor drainage challenges along the shared municipal boundary.',
     'Commercial properties along Pleasant Valley Way and Eagle Rock Avenue rely on flat roof systems for their retail and office spaces, where HVAC penetrations, rooftop equipment pads, and parapet walls create the concentrated leak-risk zones that define commercial flat-roof maintenance. We serve building owners in [West Orange](/roofing-in-west-orange-nj) with membrane systems engineered for foot traffic, equipment vibration, and the thermal cycling amplified by the township\'s ridge-to-valley elevation range.',
     'The township\'s architectural evolution created flat-roof pockets within predominantly pitched-roof neighborhoods. Mid-century additions, enclosed porches, and attached garage conversions grafted flat sections onto homes originally designed without them, and the waterproofing junctions between these additions and the original pitched structure are the primary failure points we address in West Orange flat roof repair work.'
@@ -35,7 +35,25 @@ export const westOrangeFlatRoofInstallationRepair: ComboContent = {
     {
       question: 'Why does my flat roof section always leak where it meets the main pitched roof?',
       answer: 'The junction between a flat addition and the original pitched roof is the most leak-prone detail on any home because it must accommodate differential structural movement, concentrated water flow, and material transitions. Most West Orange flat-to-pitched junctions were built with single-piece flashing and caulk sealant during the 1960s and 1970s addition boom. We replace these with two-piece counter-flashing systems that allow movement without breaking the waterproof seal, combined with ice-and-water shield membrane extending 3 feet in both directions from the transition.'
-    }
+    },
+    {
+      question: 'How much does flat roof installation repair cost in West Orange, NJ?',
+      answer: 'Most flat roof installation repair projects in West Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Flat roof installation and repair in West Orange NJ. Drainage-engineered membrane systems for additions, garages, and commercial properties.',
+  pricing: {
+    range: '$6,000–$18,000',
+    note: 'EPDM, TPO, or modified bitumen',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows West Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free flat roof installation repair estimate in West Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

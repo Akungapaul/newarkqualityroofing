@@ -4,7 +4,7 @@ export const veronaRoofCleaningMossRemoval: ComboContent = {
   serviceId: 'roof-cleaning-moss-removal',
   cityId: 'verona',
   overview: [
-    'Verona\'s dense mature tree canopy creates ideal conditions for moss, algae, and lichen colonization on residential roofs throughout the township. Properties near Verona Park, along Sunset Avenue, and in the tree-shaded Lakeview neighborhood experience persistent biological growth that discolors shingles, retains moisture against roof surfaces, and gradually degrades the roofing material from the outside in. Newark Quality Roofing provides safe, effective roof cleaning and moss removal for Verona homeowners using methods that eliminate biological growth without damaging shingle surfaces or overwhelming the surrounding landscape with harsh chemical runoff.',
+    'Newark Quality Roofing delivers expert roof cleaning moss removal in Verona — with prices starting from $300–$800 and free estimates available today. Verona\'s dense mature tree canopy creates ideal conditions for moss, algae, and lichen colonization on residential roofs throughout the township. Properties near Verona Park, along Sunset Avenue, and in the tree-shaded Lakeview neighborhood experience persistent biological growth that discolors shingles, retains moisture against roof surfaces, and gradually degrades the roofing material from the outside in. Newark Quality Roofing provides safe, effective roof cleaning and moss removal for Verona homeowners using methods that eliminate biological growth without damaging shingle surfaces or overwhelming the surrounding landscape with harsh chemical runoff.',
     'Moss growth on Verona roofs follows the shade patterns created by the township\'s oak, maple, and ash canopy. North-facing roof planes under heavy canopy develop thick moss colonies within three to five years of shingle installation, while south-facing planes with direct sunlight remain largely clear. The moss root systems -- called rhizoids -- penetrate beneath shingle tab edges, lifting them incrementally and creating pathways for water infiltration that would not exist on a clean surface. Left untreated, moss colonization shortens shingle life by 25 to 40 percent in Verona\'s shadiest locations.',
     'Beyond moss, Verona roofs accumulate dark algae streaks -- the black staining caused by Gloeocapsa magma -- that diminish curb appeal without necessarily causing structural damage. These streaks concentrate on north-facing and shaded planes where moisture lingers after rain. While algae staining alone does not compromise roof function, many Verona homeowners address it for aesthetic reasons, particularly when preparing properties for sale. Our cleaning approach treats both the functional moss problem and the cosmetic algae issue simultaneously, restoring the roof\'s original appearance while eliminating the biological organisms that accelerate material degradation.'
   ],
@@ -34,7 +34,25 @@ export const veronaRoofCleaningMossRemoval: ComboContent = {
     {
       question: 'Can moss damage my roof or is it just cosmetic?',
       answer: 'Moss causes genuine structural damage beyond cosmetic discoloration. The rhizoid root systems penetrate beneath shingle tab edges, lifting them and creating water infiltration pathways. Moss colonies retain moisture against the roof surface for days after rain, accelerating shingle deterioration and promoting wood rot in the sheathing beneath. In Verona\'s shaded neighborhoods, untreated moss can reduce shingle lifespan by 25 to 40 percent. Addressing moss is maintenance, not vanity -- it directly protects your roofing investment.'
-    }
+    },
+    {
+      question: 'How much does roof cleaning moss removal cost in Verona, NJ?',
+      answer: 'Most roof cleaning moss removal projects in Verona range from $300–$800. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof cleaning and moss removal in Verona NJ -- soft-wash treatment for shaded homes near Verona Park with zinc strip prevention systems.',
+  pricing: {
+    range: '$300–$800',
+    note: 'based on roof size and growth severity',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof cleaning moss removal estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

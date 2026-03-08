@@ -4,7 +4,7 @@ export const essexFellsEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'essex-fells',
   overview: [
-    'Commercial-grade EPDM roofing systems find application in Essex Fells through the institutional and estate contexts unique to this exclusively residential borough. The Essex Fells Country Day School, the borough\'s municipal building, the fire station, and the community recreation facilities all employ commercial-specification EPDM membranes on their flat and low-slope roof sections. These institutional applications demand the same performance standards that govern commercial installations in [Newark](/epdm-commercial-roofing-newark-nj), but within a residential community that expects construction activity to respect the borough\'s quiet, secluded character.',
+    'Newark Quality Roofing delivers expert epdm commercial roofing in Essex Fells — with prices starting from $6–$11/sq ft and free estimates available today. Commercial-grade EPDM roofing systems find application in Essex Fells through the institutional and estate contexts unique to this exclusively residential borough. The Essex Fells Country Day School, the borough\'s municipal building, the fire station, and the community recreation facilities all employ commercial-specification EPDM membranes on their flat and low-slope roof sections. These institutional applications demand the same performance standards that govern commercial installations in [Newark](/epdm-commercial-roofing-newark-nj), but within a residential community that expects construction activity to respect the borough\'s quiet, secluded character.',
     'Estate properties in Essex Fells increasingly specify commercial-grade EPDM for the large-format auxiliary structures that contemporary home design incorporates -- indoor swimming pool enclosures with spans exceeding residential framing standards, multi-bay garages housing collector vehicle collections, and home gymnasium buildings with mechanical systems rivaling light commercial installations. These structures require the sixty-mil or ninety-mil membrane thicknesses, the mechanical attachment systems, and the drain infrastructure specified for commercial buildings, executed with the aesthetic sensitivity that residential context demands.',
     'Our EPDM installation capability serves both the institutional and estate markets in [Essex Fells](/roofing-in-essex-fells-nj) with commercial-specification membrane systems adapted to the borough\'s unique operating environment. We schedule material deliveries during school hours to avoid residential traffic, stage equipment on private estate driveways rather than public roadways, and coordinate work schedules with the borough\'s noise ordinance restrictions. These logistical accommodations distinguish our Essex Fells EPDM practice from the commercial installation approach appropriate for urban and suburban business districts.'
   ],
@@ -34,7 +34,25 @@ export const essexFellsEpdmCommercialRoofing: ComboContent = {
     {
       question: 'What maintenance does commercial EPDM require in the Essex Fells environment?',
       answer: 'Quarterly drain clearing and debris removal is essential for Essex Fells EPDM installations beneath tree canopy. Semi-annual professional inspections assess membrane condition, seam integrity, and flashing performance. Annual preventive maintenance includes sealant renewal at penetrations and terminations, drain strainer cleaning, and evaluation of membrane surface condition for signs of biological growth or chemical degradation from organic debris contact. Institutional buildings should maintain service agreements with priority storm response provisions.'
-    }
+    },
+    {
+      question: 'How much does epdm commercial roofing cost in Essex Fells, NJ?',
+      answer: 'Most epdm commercial roofing projects in Essex Fells range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'EPDM commercial roofing in Essex Fells NJ -- institutional and estate-scale rubber membrane systems for large auxiliary structures.',
+  pricing: {
+    range: '$6–$11/sq ft',
+    note: 'EPDM rubber membrane system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Essex Fells — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free epdm commercial roofing estimate in Essex Fells — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

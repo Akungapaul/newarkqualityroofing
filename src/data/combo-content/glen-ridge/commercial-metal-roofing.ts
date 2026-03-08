@@ -4,7 +4,7 @@ export const glenRidgeCommercialMetalRoofing: ComboContent = {
   serviceId: 'commercial-metal-roofing',
   cityId: 'glen-ridge',
   overview: [
-    'Commercial metal roofing in Glen Ridge finds its niche on the borough\'s institutional buildings where longevity and architectural distinction matter more than upfront cost. Standing seam copper and painted steel systems serve the borough\'s churches, the municipal complex, and the Glen Ridge train station area where metal roofing\'s clean lines and century-spanning durability align with the community\'s preservation values. Newark Quality Roofing fabricates and installs commercial metal roofing systems engineered for Glen Ridge\'s specific scale, maintaining the artisanal quality that the borough\'s Historic Preservation Commission and discerning residents expect.',
+    'Newark Quality Roofing delivers expert commercial metal roofing in Glen Ridge — with prices starting from $10–$18/sq ft and free estimates available today. Commercial metal roofing in Glen Ridge finds its niche on the borough\'s institutional buildings where longevity and architectural distinction matter more than upfront cost. Standing seam copper and painted steel systems serve the borough\'s churches, the municipal complex, and the Glen Ridge train station area where metal roofing\'s clean lines and century-spanning durability align with the community\'s preservation values. Newark Quality Roofing fabricates and installs commercial metal roofing systems engineered for Glen Ridge\'s specific scale, maintaining the artisanal quality that the borough\'s Historic Preservation Commission and discerning residents expect.',
     'Metal roofing on Glen Ridge\'s institutional buildings often appears as a hybrid installation: standing seam metal on visible sloped sections combined with membrane systems on concealed flat areas behind parapets. This combination leverages metal\'s aesthetic and longevity advantages where they matter most -- on the street-visible elevations that define Glen Ridge\'s architectural character -- while using cost-effective membrane technology on concealed sections. We design these hybrid systems as integrated assemblies where the transition between metal and membrane is engineered for waterproof performance, not just visual concealment.',
     'The borough\'s professional offices, which typically occupy converted residential buildings along Bloomfield Avenue, occasionally specify metal roofing when the existing structure\'s architectural character supports it. A converted Victorian with a copper standing seam replacement can satisfy preservation requirements while delivering modern performance, creating a synthesis of historic appearance and contemporary technology that represents the best of Glen Ridge\'s approach to building stewardship. Similar preservation-focused metal projects in [Montclair](/commercial-metal-roofing-montclair-nj) reflect the broader Essex County trend toward premium materials on historically significant structures.',
   ],
@@ -29,6 +29,24 @@ export const glenRidgeCommercialMetalRoofing: ComboContent = {
       question: 'Is metal roofing noisy during rain on Glen Ridge buildings?',
       answer: 'Not with proper installation. The solid decking, insulation layers, and interior ceiling assemblies beneath commercial metal roofing absorb sound transmission effectively. A properly installed standing seam metal roof on a Glen Ridge institutional building produces no more interior noise during rain than any other roofing material. The notion of noisy metal roofing comes from uninsulated agricultural buildings, not commercial or institutional construction.',
     },
+    {
+      question: 'How much does commercial metal roofing cost in Glen Ridge, NJ?',
+      answer: 'Most commercial metal roofing projects in Glen Ridge range from $10–$18/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Commercial metal roofing in Glen Ridge NJ. Standing seam and copper systems for institutional buildings in the historic borough.',
+  pricing: {
+    range: '$10–$18/sq ft',
+    note: 'commercial metal panel system',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Glen Ridge — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free commercial metal roofing estimate in Glen Ridge — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

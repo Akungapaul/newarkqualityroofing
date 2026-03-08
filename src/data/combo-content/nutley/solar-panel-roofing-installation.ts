@@ -4,7 +4,7 @@ export const nutleySolarPanelRoofingInstallation: ComboContent = {
   serviceId: 'solar-panel-roofing-installation',
   cityId: 'nutley',
   overview: [
-    'Solar panel roofing installation in Nutley combines the township\'s environmentally conscious homeowner culture with the practical economics of New Jersey\'s aggressive solar incentive programs. Nutley\'s residential roofscape -- predominantly south- and southwest-facing roof planes on Colonial Revivals, Cape Cods, and mid-century ranches -- provides favorable solar exposure that, when paired with NJ\'s net metering and SREC-II program, makes residential solar installation a financially compelling decision for homeowners whose roofs are within 10 years of replacement age.',
+    'Newark Quality Roofing delivers expert solar panel roofing installation in Nutley — with prices starting from $18,000–$35,000 and free estimates available today. Solar panel roofing installation in Nutley combines the township\'s environmentally conscious homeowner culture with the practical economics of New Jersey\'s aggressive solar incentive programs. Nutley\'s residential roofscape -- predominantly south- and southwest-facing roof planes on Colonial Revivals, Cape Cods, and mid-century ranches -- provides favorable solar exposure that, when paired with NJ\'s net metering and SREC-II program, makes residential solar installation a financially compelling decision for homeowners whose roofs are within 10 years of replacement age.',
     'The coordination between solar installation and roofing condition is the critical planning factor that separates successful long-term solar investments from costly mistakes. A solar array installed on a roof with 15 years of remaining life will eventually require removal, re-roofing, and reinstallation at significant additional expense. Our integrated approach addresses both systems simultaneously: when a Nutley homeowner\'s roof is approaching replacement age, we recommend combining the re-roofing project with solar installation so the new roof enters service with a 25-to-30-year shingle warranty beneath a 25-year solar panel warranty, aligning both system lifecycles and eliminating the future disruption of panel removal.',
     'Nutley\'s architectural variety creates both opportunities and constraints for solar placement. The simple side-gable rooflines on Colonial Revivals along Park Avenue and Vreeland Avenue offer large, unobstructed south-facing planes ideal for maximizing array size. Cape Cods in the Yantacaw neighborhood have lower roof heights that simplify installation access. The Tudor Revivals along Chestnut Street present more complex conditions -- their steep multi-gable rooflines create smaller individual roof planes, and the decorative half-timbering and catslide extensions limit mounting options. Our [solar panel installation](/solar-panel-roofing-installation) designs for [Nutley](/roofing-in-nutley-nj) Tudors typically concentrate panels on the least visible gable face to preserve the street-facing architectural character that homeowners in this community value.',
     'New Jersey\'s solar incentive structure makes Nutley installations particularly attractive. The SREC-II program provides ongoing revenue for solar energy production over 15 years, the federal Investment Tax Credit reduces installation cost by 30 percent, and net metering credits excess generation against utility bills at full retail rate. For a typical Nutley Colonial with a 7 to 9 kW system, these incentives combine to achieve payback in six to eight years on a system with a 25-year production warranty -- turning the remaining 17 to 19 years into pure savings against rising utility rates.'
@@ -35,7 +35,25 @@ export const nutleySolarPanelRoofingInstallation: ComboContent = {
     {
       question: 'Does Nutley shade tree canopy disqualify my home for solar?',
       answer: 'Not necessarily. Our solar pathfinder assessment maps shadow patterns across all seasons to determine whether shading reduces production below the threshold where financial returns justify investment. Selective pruning of lower branches can sometimes recover significant solar access without removing trees. However, properties heavily shaded on all south-facing planes may not be viable candidates for rooftop solar. We provide honest assessments that prevent disappointing installations on shading-compromised properties.'
-    }
+    },
+    {
+      question: 'How much does solar panel roofing installation cost in Nutley, NJ?',
+      answer: 'Most solar panel roofing installation projects in Nutley range from $18,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Solar panel roofing installation in Nutley NJ. Integrated roof and solar design for Colonials and Capes with NJ incentive optimization.',
+  pricing: {
+    range: '$18,000–$35,000',
+    note: 'full solar panel roof integration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Nutley — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free solar panel roofing installation estimate in Nutley — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

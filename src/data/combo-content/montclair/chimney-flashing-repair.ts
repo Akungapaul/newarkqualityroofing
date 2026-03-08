@@ -4,7 +4,7 @@ export const montclairChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'montclair',
   overview: [
-    'Chimney flashing repair ranks among the most frequently requested roofing services in Montclair, where the township\'s pre-war housing stock carries an extraordinary concentration of masonry chimneys per residential block. Victorian homes along North Mountain Avenue and throughout the Upper Montclair historic districts typically have two or three chimneys each -- some functional, some ornamental, all presenting the same weathering and flashing deterioration challenges after a century or more of exposure to Essex County\'s freeze-thaw climate. The chimney-to-roof junction is statistically the most common leak origin point on Montclair homes, and proper flashing is the only reliable defense.',
+    'Newark Quality Roofing delivers expert chimney flashing repair in Montclair — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair ranks among the most frequently requested roofing services in Montclair, where the township\'s pre-war housing stock carries an extraordinary concentration of masonry chimneys per residential block. Victorian homes along North Mountain Avenue and throughout the Upper Montclair historic districts typically have two or three chimneys each -- some functional, some ornamental, all presenting the same weathering and flashing deterioration challenges after a century or more of exposure to Essex County\'s freeze-thaw climate. The chimney-to-roof junction is statistically the most common leak origin point on Montclair homes, and proper flashing is the only reliable defense.',
     'Montclair\'s chimneys vary dramatically in construction, condition, and architectural significance. Grand Victorian homes feature elaborate corbeled chimney caps with decorative brick courses and multiple flues, while Arts & Crafts bungalows in the South End present simpler, broader chimney masses with exposed-mortar aesthetics. Tudor Revival homes in the Watchung Plaza area integrate chimneys into the half-timber wall expression, creating complex three-dimensional intersections where chimney, wall, and roof converge. Each architectural type demands a flashing approach calibrated to its specific geometry and the material expectations of [Montclair](/roofing-in-montclair-nj) homeowners who invest in period-appropriate maintenance.',
     'Our [chimney flashing repair](/chimney-flashing-repair) work in Montclair extends beyond the metal work itself to address the masonry conditions that cause flashing failure. Chimney mortar joints that have deteriorated from decades of water penetration and freeze-thaw cycling create voids behind counter flashing where water bypasses the metal entirely. Brick faces that have spalled, cracked, or eroded no longer provide the flat surface that counter flashing needs for a reliable seal. A chimney flashing repair that ignores the masonry condition beneath the metal is a temporary fix on a permanent problem.',
     'Properties in neighboring [Glen Ridge](/chimney-flashing-repair-glen-ridge-nj) and [Bloomfield](/chimney-flashing-repair-bloomfield-nj) share Montclair\'s high chimney density, but Montclair\'s Historic Preservation Commission oversight on designated properties adds a material-compliance dimension that standard chimney flashing repairs in other municipalities do not require.'
@@ -35,7 +35,25 @@ export const montclairChimneyFlashingRepair: ComboContent = {
     {
       question: 'What flashing material is best for Montclair chimneys?',
       answer: 'Copper is the premium choice for Montclair chimneys, offering fifty-to-one-hundred-year lifespan, natural patina that complements historic architecture, and compatibility with the original copper installations found on many Montclair Victorian homes. For homes where copper cost is prohibitive, twenty-ounce lead-coated copper provides similar longevity at somewhat lower cost. Aluminum flashing is the budget option with a twenty-to-thirty-year lifespan. We recommend matching the original flashing material whenever possible, particularly on homes where the Historic Preservation Commission or neighborhood character warrants period-appropriate materials.'
-    }
+    },
+    {
+      question: 'How much does chimney flashing repair cost in Montclair, NJ?',
+      answer: 'Most chimney flashing repair projects in Montclair range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Chimney flashing repair in Montclair NJ -- step and counter flashing for Victorian multi-chimney homes with masonry restoration.',
+  pricing: {
+    range: '$400–$1,500',
+    note: 'chimney flashing and counter-flashing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Montclair — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free chimney flashing repair estimate in Montclair — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

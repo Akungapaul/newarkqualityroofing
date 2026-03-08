@@ -4,7 +4,7 @@ export const maplewoodStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'maplewood',
   overview: [
-    'Storm damage roof replacement responds to the severe weather events that periodically devastate Maplewood roofs beyond repair, particularly in the western neighborhoods where South Mountain Reservation\'s towering trees become projectiles during nor\'easters and summer thunderstorms. When storm damage exceeds the threshold where repair can restore functional integrity, full replacement provides the comprehensive solution that eliminates compromised materials and structural damage. Our [storm damage replacement](/storm-damage-roof-replacement) protocol in [Maplewood](/roofing-in-maplewood-nj) moves rapidly from emergency tarping through permanent replacement, coordinating insurance claims throughout the process.',
+    'Newark Quality Roofing delivers expert storm damage roof replacement in Maplewood — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement responds to the severe weather events that periodically devastate Maplewood roofs beyond repair, particularly in the western neighborhoods where South Mountain Reservation\'s towering trees become projectiles during nor\'easters and summer thunderstorms. When storm damage exceeds the threshold where repair can restore functional integrity, full replacement provides the comprehensive solution that eliminates compromised materials and structural damage. Our [storm damage replacement](/storm-damage-roof-replacement) protocol in [Maplewood](/roofing-in-maplewood-nj) moves rapidly from emergency tarping through permanent replacement, coordinating insurance claims throughout the process.',
     'Maplewood\'s storm damage patterns reflect the township\'s unique geography. Western neighborhoods along Prospect Street, Wyoming Avenue, and throughout the Hilton area experience disproportionate tree-impact damage from Reservation-edge trees that grow to 60-80 feet without municipal pruning. Central and eastern neighborhoods face wind-driven shingle loss and flashing displacement from storms that channel through the South Mountain gap. Both damage types can trigger replacement when the affected area exceeds repair feasibility.',
     'The distinction between repairable storm damage and replacement-requiring damage depends on the percentage of roof area affected, the structural integrity of the framing, and the condition of the remaining undamaged roofing. When storm damage removes more than 25-30% of the shingle field, exposes large areas of underlayment to UV degradation, or causes structural damage to rafters and decking, replacement provides better long-term value than extensive repair. Homeowners recovering from storm damage in [South Orange](/storm-damage-roof-replacement-south-orange-nj) apply the same repair-versus-replacement analysis to their recovery decisions.',
   ],
@@ -30,6 +30,24 @@ export const maplewoodStormDamageRoofReplacement: ComboContent = {
       question: 'How long does storm damage replacement take from start to finish?',
       answer: 'The full timeline from storm event through completed replacement typically spans 4-8 weeks. This includes emergency tarping within hours, damage documentation within 48 hours, insurance claim processing over 2-4 weeks, and replacement installation over 3-7 working days depending on roof complexity and any required structural repairs. We manage the entire timeline to minimize the period your Maplewood home is under temporary protection.',
     },
+    {
+      question: 'How much does storm damage roof replacement cost in Maplewood, NJ?',
+      answer: 'Most storm damage roof replacement projects in Maplewood range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof replacement in Maplewood NJ. Emergency tarping to full replacement with insurance coordination near South Mountain.',
+  pricing: {
+    range: '$9,000–$28,000',
+    note: 'often insurance-covered',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Maplewood — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof replacement estimate in Maplewood — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

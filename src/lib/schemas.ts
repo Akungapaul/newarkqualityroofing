@@ -136,6 +136,20 @@ export const ServiceContentSchema = z.object({
     question: z.string(),
     answer: z.string(),
   })).min(4).max(10),
+  // Conversion-optimized fields (optional for backward compatibility)
+  pricing: z.object({
+    range: z.string(),
+    factors: z.array(z.string()),
+    financingNote: z.string().optional(),
+  }).optional(),
+  whyChooseUs: z.object({
+    heading: z.string(),
+    reasons: z.array(z.object({
+      title: z.string(),
+      description: z.string(),
+    })),
+  }).optional(),
+  credentialsHighlight: z.array(z.string()).optional(),
 });
 
 // ─── City Content ──────────────────────────────────────────────────────────
@@ -191,4 +205,11 @@ export const CityContentSchema = z.object({
   }),
   metaTitle: z.string().max(70),
   metaDescription: z.string().max(160),
+  // Conversion-optimized fields (optional for backward compatibility)
+  pricing: z.object({
+    averageRepair: z.string(),
+    averageReplacement: z.string(),
+    note: z.string().optional(),
+  }).optional(),
+  credentialsHighlight: z.array(z.string()).optional(),
 });

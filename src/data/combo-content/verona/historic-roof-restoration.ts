@@ -4,7 +4,7 @@ export const veronaHistoricRoofRestoration: ComboContent = {
   serviceId: 'historic-roof-restoration',
   cityId: 'verona',
   overview: [
-    'Historic roof restoration in Verona preserves the architectural legacy of the township\'s earliest residential construction -- the pre-war colonials, Tudor-influenced homes, and Mediterranean-style residences built during the 1920s and 1930s when Verona was developing as a commuter suburb of Newark. These homes carry original roofing materials including clay tile, slate, and architectural copper details that modern replacements cannot replicate without specialized knowledge and period-appropriate installation techniques. Newark Quality Roofing restores these historic roof systems with the craftsmanship and material authenticity they deserve.',
+    'Newark Quality Roofing delivers expert historic roof restoration in Verona — with prices starting from $15,000–$50,000 and free estimates available today. Historic roof restoration in Verona preserves the architectural legacy of the township\'s earliest residential construction -- the pre-war colonials, Tudor-influenced homes, and Mediterranean-style residences built during the 1920s and 1930s when Verona was developing as a commuter suburb of Newark. These homes carry original roofing materials including clay tile, slate, and architectural copper details that modern replacements cannot replicate without specialized knowledge and period-appropriate installation techniques. Newark Quality Roofing restores these historic roof systems with the craftsmanship and material authenticity they deserve.',
     'Verona\'s historic homes cluster primarily along Claremont Avenue, around the town center, and in the older sections of the Lakeview neighborhood where pre-war construction preceded the mid-century split-level building boom. These properties represent a small but architecturally significant portion of the township\'s housing stock, carrying roof details -- decorative copper ridge caps, ornamental gable returns, period slate in graduated courses -- that connect the community to its origins as a carefully planned suburban development. Our [historic roof restoration](/historic-roof-restoration) approach preserves these details while upgrading the weatherproofing systems beneath them to modern performance standards.',
     'The restoration philosophy we bring to Verona historic homes balances preservation with practicality. Homeowners living in 90-year-old houses need roofs that perform reliably, not museum pieces that leak authentically. We achieve both objectives by maintaining historically accurate visible materials -- matching slate colors and sizes, replicating original copper fabrication profiles, preserving decorative woodwork -- while installing modern ice-and-water shield, synthetic underlayment, and improved ventilation beneath the restored surface. Properties in [Glen Ridge](/historic-roof-restoration-glen-ridge-nj) with formal historic preservation requirements have validated this approach as meeting both preservation standards and modern performance expectations.'
   ],
@@ -34,7 +34,25 @@ export const veronaHistoricRoofRestoration: ComboContent = {
     {
       question: 'What does historic roof restoration cost compared to regular roofing in Verona?',
       answer: 'Historic roof restoration typically costs three to six times more than standard asphalt shingle roofing, reflecting the premium materials, specialized labor, and extended project timeline involved. A slate roof restoration on a Verona pre-war colonial might range from $30,000 to $60,000 depending on scope and material availability. The investment preserves a roof system with a 100-year-plus original design life and maintains the architectural authenticity that significantly enhances the home\'s market value in Verona\'s competitive real estate market.'
-    }
+    },
+    {
+      question: 'How much does historic roof restoration cost in Verona, NJ?',
+      answer: 'Most historic roof restoration projects in Verona range from $15,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Historic roof restoration in Verona NJ -- slate, clay tile, and copper preservation for pre-war colonials and Tudor-style homes.',
+  pricing: {
+    range: '$15,000–$50,000',
+    note: 'historic material sourcing and restoration',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Verona — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free historic roof restoration estimate in Verona — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const livingstonRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'livingston',
   overview: [
-    'Roof waterproofing in Livingston extends beyond the primary roofing membrane to address the supplementary barriers, sealants, and coatings that protect the most vulnerable points on every roof system. Valley intersections, wall transitions, penetration surrounds, and flat-to-slope junctions on the township\'s split-level homes represent concentrated water pathways where primary shingle or membrane protection alone may not prevent infiltration during wind-driven rain, ice dam conditions, or heavy rainfall events. Waterproofing these critical zones with self-adhering membranes, liquid-applied barriers, and specialized sealants creates the redundant protection that Livingston\'s weather demands.',
+    'Newark Quality Roofing delivers expert roof waterproofing in Livingston — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Livingston extends beyond the primary roofing membrane to address the supplementary barriers, sealants, and coatings that protect the most vulnerable points on every roof system. Valley intersections, wall transitions, penetration surrounds, and flat-to-slope junctions on the township\'s split-level homes represent concentrated water pathways where primary shingle or membrane protection alone may not prevent infiltration during wind-driven rain, ice dam conditions, or heavy rainfall events. Waterproofing these critical zones with self-adhering membranes, liquid-applied barriers, and specialized sealants creates the redundant protection that Livingston\'s weather demands.',
     'The self-adhering ice-and-water shield membrane has transformed waterproofing practice on Livingston roofs since it became a code requirement at eaves and valleys. However, many homes built before the code change -- the majority of Livingston\'s split-level stock -- lack this critical waterproofing layer. Every roof replacement provides the opportunity to install ice-and-water shield at all eaves, valleys, wall transitions, and around penetrations, creating a secondary waterproofing plane that catches any water that penetrates past the primary shingle or membrane surface.',
     'Our [roof waterproofing](/roof-waterproofing) services address both residential and commercial applications in Livingston. Residential waterproofing focuses on the critical zones of split-level geometry where water concentrates. Commercial waterproofing on Route 10 and Eisenhower Parkway buildings involves liquid-applied membrane systems, penetration sealants, and parapet waterproofing that protect the building envelope at locations where factory-fabricated membrane details cannot adequately address irregular geometries.',
     'Livingston homes neighboring [Montclair](/roof-waterproofing-montclair-nj) benefit from similar waterproofing upgrades, particularly on the older housing stock where original waterproofing practices fell short of current standards. The investment in comprehensive waterproofing during roof projects prevents the water damage that costs multiples of the waterproofing investment to repair.'
@@ -35,7 +35,25 @@ export const livingstonRoofWaterproofing: ComboContent = {
     {
       question: 'What waterproofing is most important for Livingston split-levels?',
       answer: 'The roof-to-wall transitions where upper story walls meet lower rooflines are the highest-priority waterproofing locations on Livingston split-levels. These transitions concentrate water flow and are exposed to wind-driven rain from multiple angles. Ice-and-water shield membrane extending 36 inches past the transition point, combined with properly installed step flashing and kick-out diverters, provides the layered waterproofing that prevents the water intrusion these junctions are prone to.'
-    }
+    },
+    {
+      question: 'How much does roof waterproofing cost in Livingston, NJ?',
+      answer: 'Most roof waterproofing projects in Livingston range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof waterproofing in Livingston NJ -- ice-and-water shield at split-level transitions, valley membranes, and penetration sealing for leak prevention.',
+  pricing: {
+    range: '$1,500–$5,000',
+    note: 'waterproofing membrane application',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Livingston — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof waterproofing estimate in Livingston — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const cedarGroveMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'cedar-grove',
   overview: [
-    'Metal roof replacement in Cedar Grove upgrades the township\'s ranch and colonial homes from aging asphalt shingle systems to standing seam or metal panel roofing that delivers forty to sixty-year service life with minimal maintenance. For Cedar Grove homeowners tired of replacing shingles every eighteen to twenty-two years on their low-pitch ranch roofs, [metal roof replacement](/metal-roof-replacement) represents a once-in-a-lifetime investment that eliminates the recurring replacement cycle.',
+    'Newark Quality Roofing delivers expert metal roof replacement in Cedar Grove — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Cedar Grove upgrades the township\'s ranch and colonial homes from aging asphalt shingle systems to standing seam or metal panel roofing that delivers forty to sixty-year service life with minimal maintenance. For Cedar Grove homeowners tired of replacing shingles every eighteen to twenty-two years on their low-pitch ranch roofs, [metal roof replacement](/metal-roof-replacement) represents a once-in-a-lifetime investment that eliminates the recurring replacement cycle.',
     'Cedar Grove\'s low-pitch ranch geometry, which shortens asphalt shingle life through moisture retention and limited drainage, actually favors metal roofing performance. Standing seam panels install reliably on slopes as low as 2:12, shed snow before ice dams can form, and resist the thermal cycling that cracks shingle materials. The performance advantage of metal roofing on Cedar Grove\'s shallow-slope ranch homes is greater than on steeper-pitched homes where shingles perform adequately.',
     'The township\'s quiet residential character and well-maintained property standards make metal roof aesthetics an important consideration. Standing seam profiles in architectural colors -- Charcoal, Slate, Forest Green, Dark Bronze -- complement Cedar Grove\'s wooded setting and integrate with the existing neighborhood palette. The clean sight lines of concealed-fastener standing seam panels present a refined appearance that has gained steady acceptance throughout the township.',
   ],
@@ -35,6 +35,24 @@ export const cedarGroveMetalRoofReplacement: ComboContent = {
       question: 'How long does metal roof replacement take on a Cedar Grove home?',
       answer: 'Metal roof replacement on a typical Cedar Grove ranch takes three to five days from tear-off through completion. Panel roll-forming on-site adds a day compared to pre-cut panels but produces superior results through continuous ridge-to-eave panel runs. Weather delays may extend the calendar timeline, but temporary weatherproofing protects the home whenever work is interrupted.',
     },
+    {
+      question: 'How much does metal roof replacement cost in Cedar Grove, NJ?',
+      answer: 'Most metal roof replacement projects in Cedar Grove range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Metal roof replacement in Cedar Grove NJ -- standing seam upgrade for ranch homes with 40-60 year lifespan and ice dam elimination.',
+  pricing: {
+    range: '$15,000–$35,000',
+    note: 'metal roof replacement installed',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Cedar Grove — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free metal roof replacement estimate in Cedar Grove — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

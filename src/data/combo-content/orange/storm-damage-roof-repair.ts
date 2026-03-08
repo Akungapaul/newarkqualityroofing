@@ -4,7 +4,7 @@ export const orangeStormDamageRoofRepair: ComboContent = {
   serviceId: 'storm-damage-roof-repair',
   cityId: 'orange',
   overview: [
-    'Storm damage in Orange follows a pattern shaped by the city\'s geography: South Mountain Reservation funnels wind through the valley floor, accelerates downdrafts onto hillside properties, and sends tree debris raining onto residential neighborhoods that border 2,100 acres of mature hardwood forest. When summer thunderstorms, winter ice events, or coastal nor\'easters track through Essex County, Orange absorbs concentrated impacts that cities just a few miles away on flat terrain experience differently. Our [storm damage roof repair](/storm-damage-roof-repair) teams know which Orange streets take the worst hits during each storm type, because we have been responding to these calls for years.',
+    'Newark Quality Roofing delivers expert storm damage roof repair in Orange — with prices starting from $500–$3,000 and free estimates available today. Storm damage in Orange follows a pattern shaped by the city\'s geography: South Mountain Reservation funnels wind through the valley floor, accelerates downdrafts onto hillside properties, and sends tree debris raining onto residential neighborhoods that border 2,100 acres of mature hardwood forest. When summer thunderstorms, winter ice events, or coastal nor\'easters track through Essex County, Orange absorbs concentrated impacts that cities just a few miles away on flat terrain experience differently. Our [storm damage roof repair](/storm-damage-roof-repair) teams know which Orange streets take the worst hits during each storm type, because we have been responding to these calls for years.',
     'The damage patterns vary predictably by neighborhood. Scotland Road and South Mountain-area homes sustain branch impacts and shingle displacement from wind-driven tree debris. Valley properties face a combination of wind damage above and flooding below during the same storm event. Main Street commercial buildings with flat roofs suffer membrane lifting at perimeter edges where wind accelerates over parapet walls. And across all neighborhoods, Orange\'s tight-lot construction means that storm damage on one property frequently extends to adjacent structures -- a downed tree can damage two or three roofs on a single block where houses sit just feet apart.',
     'Insurance claim coordination is central to storm damage work in Orange, where the scale of damage during major events can overwhelm individual homeowners. We document every storm damage project with the detail that insurance adjusters require: timestamped photographs of all damage, measurements of affected areas, material specifications for the original roof, and a line-item repair estimate formatted for claim submission. Our experience with Essex County insurance processes helps Orange homeowners navigate claims efficiently, and we coordinate directly with adjusters during their site inspections. Homeowners in neighboring [East Orange](/storm-damage-roof-repair-east-orange-nj) and [West Orange](/storm-damage-roof-repair-west-orange-nj) rely on the same documentation standards when filing their claims after shared storm events.'
   ],
@@ -34,7 +34,25 @@ export const orangeStormDamageRoofRepair: ComboContent = {
     {
       question: 'Should I get a roof inspection after every storm in Orange even if I do not see visible damage?',
       answer: 'After any storm with sustained winds above 50 mph or significant hail, we recommend a professional inspection. Much of the damage from Orange storms is not visible from ground level -- lifted flashing, loosened ridge caps, debris-blocked drainage paths, and granule loss from hail impact all require on-roof assessment to detect. Early detection prevents minor storm damage from developing into major leaks during subsequent rain events.'
-    }
+    },
+    {
+      question: 'How much does storm damage roof repair cost in Orange, NJ?',
+      answer: 'Most storm damage roof repair projects in Orange range from $500–$3,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Storm damage roof repair in Orange NJ -- South Mountain wind and tree damage, multi-property assessment, and insurance claim documentation.',
+  pricing: {
+    range: '$500–$3,000',
+    note: 'varies by extent of storm damage',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free storm damage roof repair estimate in Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

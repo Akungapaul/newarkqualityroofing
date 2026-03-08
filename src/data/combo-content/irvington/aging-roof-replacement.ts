@@ -4,7 +4,7 @@ export const irvingtonAgingRoofReplacement: ComboContent = {
   serviceId: 'aging-roof-replacement',
   cityId: 'irvington',
   overview: [
-    'Aging roof replacement is the single most common roofing service in Irvington, where the township-wide cycle of shingle deterioration on housing built between the 1920s and 1940s creates a steady pipeline of homes reaching the point where continued repair is no longer cost-effective. Our [aging roof replacement](/aging-roof-replacement) services help Irvington homeowners recognize the signs of end-of-life deterioration and make the transition from reactive patching to proactive replacement before the aging roof causes interior damage that multiplies the total project cost.',
+    'Newark Quality Roofing delivers expert aging roof replacement in Irvington — with prices starting from $8,500–$25,000 and free estimates available today. Aging roof replacement is the single most common roofing service in Irvington, where the township-wide cycle of shingle deterioration on housing built between the 1920s and 1940s creates a steady pipeline of homes reaching the point where continued repair is no longer cost-effective. Our [aging roof replacement](/aging-roof-replacement) services help Irvington homeowners recognize the signs of end-of-life deterioration and make the transition from reactive patching to proactive replacement before the aging roof causes interior damage that multiplies the total project cost.',
     'The financial calculus for aging roof replacement in Irvington favors earlier action over waiting. Homeowners spending $800 to $1,500 annually on leak repairs, ceiling stain repainting, and emergency patches reach the break-even point with replacement within 5 to 7 years of accumulated repair spending. Meanwhile, the water entering through the aging roof during each leak event damages insulation, rots framing, grows mold, and deteriorates interior finishes -- secondary damage that replacement would have prevented. Our consultation quantifies both the direct repair costs and the indirect damage costs to present the complete financial picture.',
     'Investment property owners in Irvington face an additional aging-roof dimension: tenant retention. Properties with chronic leak problems lose tenants to competitors offering better-maintained housing, and vacancy losses during tenant turnover can exceed the cost of the roof replacement that would have prevented the departures. Landlords managing two-family and three-family homes along Chancellor Avenue and Stuyvesant Avenue increasingly view aging roof replacement as a tenant-retention investment. Property managers handling similar aging stock in [Newark](/aging-roof-replacement-newark-nj) make identical calculations on their investment portfolios.',
   ],
@@ -35,6 +35,24 @@ export const irvingtonAgingRoofReplacement: ComboContent = {
       question: 'What financing options exist for aging roof replacement in Irvington?',
       answer: 'We offer financing through lending partners with terms from 24 to 120 months and competitive interest rates. Many Irvington homeowners find that the monthly financing payment is comparable to what they were spending on annual repairs, making replacement affordable without a large upfront cash outlay.',
     },
+    {
+      question: 'How much does aging roof replacement cost in Irvington, NJ?',
+      answer: 'Most aging roof replacement projects in Irvington range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Aging roof replacement in Irvington NJ for pre-war homes past their shingle lifespan. Replace before leaks cause costly interior damage.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'replacing end-of-life roofing',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Irvington — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free aging roof replacement estimate in Irvington — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

@@ -4,7 +4,7 @@ export const fairfieldAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'fairfield',
   overview: [
-    'Asphalt shingle roof replacement is the most common residential roofing project in Fairfield, where the vast majority of homes built during the 1960s through 1990s development era carry asphalt shingle systems that have reached or are approaching the end of their twenty-five to thirty year design life. Today\'s architectural shingles represent a significant performance upgrade over the three-tab and early laminate products installed during original construction -- offering better wind ratings, improved impact resistance, enhanced aesthetics, and longer warranty periods. For Fairfield homeowners, asphalt shingle replacement is an opportunity to upgrade from builder-standard products to premium-grade shingles that will protect their home for the next three decades.',
+    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Fairfield — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common residential roofing project in Fairfield, where the vast majority of homes built during the 1960s through 1990s development era carry asphalt shingle systems that have reached or are approaching the end of their twenty-five to thirty year design life. Today\'s architectural shingles represent a significant performance upgrade over the three-tab and early laminate products installed during original construction -- offering better wind ratings, improved impact resistance, enhanced aesthetics, and longer warranty periods. For Fairfield homeowners, asphalt shingle replacement is an opportunity to upgrade from builder-standard products to premium-grade shingles that will protect their home for the next three decades.',
     'Material selection for asphalt shingle replacement in Fairfield centers on the major manufacturer product lines: GAF Timberline, Owens Corning Duration, and CertainTeed Landmark. Each offers architectural profiles with lifetime limited warranties, Class A fire ratings, and wind resistance ratings exceeding current code requirements. The differences between brands are subtle and often come down to color availability, warranty specifics, and installer certification programs. Our [asphalt shingle replacement](/asphalt-shingle-roof-replacement) consultations help Fairfield homeowners navigate these options with sample comparisons and honest assessments of each product\'s strengths.',
     'Beyond shingle selection, asphalt shingle replacement in Fairfield should include the underlayment, flashing, ventilation, and deck improvements that determine long-term system performance. Premium shingles installed over deteriorated deck, with inadequate ventilation and aging flashing, will underperform budget shingles installed on a properly prepared and ventilated substrate. Our replacement approach treats the complete system, ensuring that the investment in premium shingles delivers the full performance those products are designed to provide.'
   ],
@@ -34,7 +34,25 @@ export const fairfieldAsphaltShingleRoofReplacement: ComboContent = {
     {
       question: 'How long does asphalt shingle replacement take on a Fairfield home?',
       answer: 'Most Fairfield residential asphalt shingle replacements are completed in one to two days for standard-sized homes. Larger homes with complex roof geometry may require two to three days. Weather delays can extend the timeline. We schedule projects within favorable weather forecasts and complete each section from tear-off through shingle installation within the same day to minimize weather exposure risk.'
-    }
+    },
+    {
+      question: 'How much does asphalt shingle roof replacement cost in Fairfield, NJ?',
+      answer: 'Most asphalt shingle roof replacement projects in Fairfield range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Asphalt shingle roof replacement in Fairfield NJ. GAF, Owens Corning, and CertainTeed architectural shingles with full system upgrades.',
+  pricing: {
+    range: '$8,500–$18,000',
+    note: 'asphalt shingle tear-off and replacement',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

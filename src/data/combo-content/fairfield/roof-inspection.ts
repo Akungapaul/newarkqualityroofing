@@ -4,7 +4,7 @@ export const fairfieldRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'fairfield',
   overview: [
-    'Roof inspection in Fairfield serves a broader range of property types than almost any other Essex County township. A single week of inspections might include a pre-purchase evaluation on a split-level near the Caldwell border, an annual maintenance assessment on a Route 46 hotel roof, a hail damage survey on a residential colonial off Hollywood Avenue, and a warranty compliance check on a warehouse membrane system near the Passaic River. Each inspection type demands different expertise, different equipment, and different reporting formats. Newark Quality Roofing delivers all four with equal competence because Fairfield\'s market requires nothing less.',
+    'Newark Quality Roofing delivers expert roof inspection in Fairfield — with prices starting from $150–$400 and free estimates available today. Roof inspection in Fairfield serves a broader range of property types than almost any other Essex County township. A single week of inspections might include a pre-purchase evaluation on a split-level near the Caldwell border, an annual maintenance assessment on a Route 46 hotel roof, a hail damage survey on a residential colonial off Hollywood Avenue, and a warranty compliance check on a warehouse membrane system near the Passaic River. Each inspection type demands different expertise, different equipment, and different reporting formats. Newark Quality Roofing delivers all four with equal competence because Fairfield\'s market requires nothing less.',
     'Residential [roof inspection](/roof-inspection) in Fairfield centers on the aging subdivision housing stock. Homes built during the 1970s and 1980s development boom are reaching the age where original second-generation roofs need evaluation. Homeowners want to know whether they have three more years or need to plan for replacement this season. Our inspection answers that question with specificity -- not a vague "it looks okay" but a documented assessment of remaining shingle life, flashing condition at every penetration, ventilation adequacy, and decking integrity at visible access points. This information lets Fairfield homeowners budget and schedule replacements proactively rather than reacting to leaks. Similar proactive inspection culture exists in [Roseland](/roof-inspection-roseland-nj) and [Essex Fells](/roof-inspection-essex-fells-nj) where homeowners maintain their properties carefully.',
     'Commercial roof inspection on Route 46 properties follows industry protocols that go beyond the visual walk-through adequate for residential roofs. We perform core cuts to evaluate insulation condition and moisture content, conduct infrared scans during appropriate weather conditions to map subsurface moisture, test membrane adhesion at representative locations, assess drainage adequacy by measuring ponding depth and duration, and inventory every rooftop penetration with its current flashing condition. The resulting report serves property managers, building owners, and insurance carriers with the quantitative data they need for capital planning and risk assessment.',
     'Real estate transaction inspections represent a significant portion of Fairfield residential inspection work. The township\'s active housing market means homes change hands regularly, and buyers increasingly request dedicated roof inspections beyond the general home inspection. Our transaction inspection provides a condition rating, estimated remaining life, identification of any active deficiencies, and a cost estimate for addressing identified issues -- giving buyers the information they need to negotiate effectively and plan future capital expenses.'
@@ -35,7 +35,25 @@ export const fairfieldRoofInspection: ComboContent = {
     {
       question: 'Do you provide roof inspections for Fairfield insurance claims?',
       answer: 'Yes. We conduct insurance-focused inspections after storm events, documenting damage with the specificity that adjusters require: timestamped photographs, damage measurements, affected area calculations, and material specifications for proposed repairs. Our reports are formatted to align with the documentation standards used by major insurance carriers serving Fairfield properties, which accelerates the claims approval process.'
-    }
+    },
+    {
+      question: 'How much does roof inspection cost in Fairfield, NJ?',
+      answer: 'Most roof inspection projects in Fairfield range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Fairfield NJ roof inspection for homes and Route 46 commercial buildings. Detailed assessments, infrared scans, and insurance documentation.',
+  pricing: {
+    range: '$150–$400',
+    note: 'comprehensive inspection with written report',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Fairfield — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof inspection estimate in Fairfield — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

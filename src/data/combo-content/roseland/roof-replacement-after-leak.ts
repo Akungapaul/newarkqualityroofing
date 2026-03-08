@@ -4,7 +4,7 @@ export const roselandRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'roseland',
   overview: [
-    'Roof replacement after leak addresses the point where repeated repairs no longer solve the underlying problem on Roseland homes. When the same roof generates leak after leak despite targeted repairs, the system has reached a state of deterioration where individual fixes cannot restore reliable weatherproofing. Our [roof replacement after leak](/roof-replacement-after-leak) service evaluates whether the current leak represents a repairable condition or a replacement trigger, providing honest assessment that prevents both premature replacement and endless repair spending on a failing system.',
+    'Newark Quality Roofing delivers expert roof replacement after leak in Roseland — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after leak addresses the point where repeated repairs no longer solve the underlying problem on Roseland homes. When the same roof generates leak after leak despite targeted repairs, the system has reached a state of deterioration where individual fixes cannot restore reliable weatherproofing. Our [roof replacement after leak](/roof-replacement-after-leak) service evaluates whether the current leak represents a repairable condition or a replacement trigger, providing honest assessment that prevents both premature replacement and endless repair spending on a failing system.',
     'Chronic leaking on Roseland\'s mid-century homes typically signals systemic deterioration rather than isolated failure. The shingle adhesion, flashing integrity, and underlayment condition have degraded to the point where each repair creates stress on adjacent components that triggers the next failure. This cascade effect means that the cost of continued repairs eventually exceeds the cost of replacement while delivering inferior protection between each repair cycle.',
     'The decision to replace rather than repair again depends on several factors specific to each Roseland property: the number of repairs within recent years, the age and overall condition of the remaining roof surface, the scope of each successive repair, and the homeowner\'s tolerance for ongoing leak risk. We present repair and replacement options with cost projections that help homeowners see the financial crossover point where replacement becomes more economical than continued patching. Homeowners in nearby [North Caldwell](/roof-replacement-after-leak-north-caldwell-nj) face similar repair-versus-replace decisions.'
   ],
@@ -34,7 +34,25 @@ export const roselandRoofReplacementAfterLeak: ComboContent = {
     {
       question: 'Does my homeowners insurance cover replacement after chronic leaking?',
       answer: 'Insurance typically covers damage from sudden events -- storms, falling trees, hail -- rather than gradual deterioration from aging or deferred maintenance. Chronic leaking from roof system aging is generally not a covered loss. However, if a specific covered event triggered the most recent damage, a claim for that event may be appropriate. We help distinguish between claim-eligible and maintenance-related replacement situations.'
-    }
+    },
+    {
+      question: 'How much does roof replacement after leak cost in Roseland, NJ?',
+      answer: 'Most roof replacement after leak projects in Roseland range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Roof replacement after leak in Roseland NJ -- when repairs no longer solve chronic leaking on aging residential roofs.',
+  pricing: {
+    range: '$8,500–$25,000',
+    note: 'when repair is no longer viable',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows Roseland — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free roof replacement after leak estimate in Roseland — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };

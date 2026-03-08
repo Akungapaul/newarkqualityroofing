@@ -4,7 +4,7 @@ export const eastOrangeWoodShakeRoofing: ComboContent = {
   serviceId: 'wood-shake-roofing',
   cityId: 'east-orange',
   overview: [
-    'Wood shake roofing in East Orange occupies a small but distinctive niche within the city\'s residential landscape. The material appears primarily on owner-occupied homes in the Ampere neighborhood and the better-maintained blocks of Elmwood Park, where homeowners chose wood shakes for their natural texture and craftsman character on Cape Cods, Tudor-influenced colonials, and the occasional Arts and Crafts bungalow that diversifies East Orange\'s predominantly Victorian streetscape. Unlike the dense multi-family rental properties that dominate much of the city, these wood-shake homes represent individual owner investments in distinctive curb appeal.',
+    'Newark Quality Roofing delivers expert wood shake roofing in East Orange — with prices starting from $14,000–$30,000 and free estimates available today. Wood shake roofing in East Orange occupies a small but distinctive niche within the city\'s residential landscape. The material appears primarily on owner-occupied homes in the Ampere neighborhood and the better-maintained blocks of Elmwood Park, where homeowners chose wood shakes for their natural texture and craftsman character on Cape Cods, Tudor-influenced colonials, and the occasional Arts and Crafts bungalow that diversifies East Orange\'s predominantly Victorian streetscape. Unlike the dense multi-family rental properties that dominate much of the city, these wood-shake homes represent individual owner investments in distinctive curb appeal.',
     'The maintenance demands of wood shake roofing create particular challenges in East Orange\'s humid, heavily treed environment. Streets lined with mature oaks and maples deposit organic debris on roof surfaces season after season, and the narrow lots that characterize even the single-family sections of East Orange restrict sunlight penetration and airflow across shake surfaces. These conditions accelerate the biological growth, moisture retention, and decay processes that shorten wood shake service life. Property owners with [wood shake roofing](/wood-shake-roofing) in East Orange must commit to more aggressive maintenance schedules than similar installations in the sunnier, more open-lot communities of [West Orange](/wood-shake-roofing-west-orange-nj) or Cedar Grove.',
     'For East Orange homeowners considering wood shake for a new installation or re-roofing project, the material choice signals a commitment to architectural character over purely economic calculation. Wood shakes cost more than asphalt shingles, require more maintenance, and deliver a shorter service life in East Orange\'s challenging conditions. But the visual impact of hand-split shakes on a craftsman-style home in the Ampere neighborhood is unmistakable -- the dimensional texture, natural color variation, and aging patina create an appearance that no manufactured product replicates. We help homeowners weigh this aesthetic value against the practical realities so the decision is informed rather than aspirational.'
   ],
@@ -34,7 +34,25 @@ export const eastOrangeWoodShakeRoofing: ComboContent = {
     {
       question: 'Does my East Orange wood shake roof need preservative treatment?',
       answer: 'Yes, preservative treatment is essential for wood shake roofs in East Orange\'s humid, shaded environment. Treatment with a combined UV protectant, fungicide, and water repellent extends shake life significantly by preventing the fungal decay and moisture damage that East Orange conditions accelerate. We recommend initial treatment three to six months after installation, then renewal every five to seven years. The treatment cost is a fraction of the expense of premature shake replacement and is the single most impactful maintenance investment for wood shake roofs.'
-    }
+    },
+    {
+      question: 'How much does wood shake roofing cost in East Orange, NJ?',
+      answer: 'Most wood shake roofing projects in East Orange range from $14,000–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+    },
   ],
   metaDescription: 'Wood shake roofing for East Orange NJ homes -- craftsman and colonial installation, preservative treatment, and shake repair in humid conditions.',
+  pricing: {
+    range: '$14,000–$30,000',
+    note: 'cedar shake or wood shingle installation',
+  },
+  whyChooseUs: [
+    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
+    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
+    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
+    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+  ],
+  conversionHooks: {
+    midPageCta: 'Get your free wood shake roofing estimate in East Orange — call now or fill out our form.',
+    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+  },
 };
