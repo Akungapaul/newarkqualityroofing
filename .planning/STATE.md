@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: Completed 06-14-PLAN.md (Maplewood 65 combo content files)
-last_updated: "2026-03-08T01:16:42.917Z"
+stopped_at: Completed 06-08-PLAN.md (Irvington combo content -- 65 files)
+last_updated: "2026-03-08T01:21:55.436Z"
 last_activity: 2026-03-07 -- Completed 06-01-PLAN.md (Combo template and link engine)
 progress:
   total_phases: 9
   completed_phases: 5
   total_plans: 63
-  completed_plans: 44
+  completed_plans: 45
   percent: 68
 ---
 
@@ -57,6 +57,7 @@ Progress: [███████░░░] 68%
 *Updated after each plan completion*
 | Phase 06 P16 | 26min | 2 tasks | 47 files |
 | Phase 06 P14 | 27min | 2 tasks | 66 files |
+| Phase 06 P08 | 33min | 2 tasks | 48 files |
 
 ## Accumulated Context
 
@@ -159,6 +160,8 @@ Recent decisions affecting current work:
 - [06-02]: Content-pending combo pages flagged separately from true orphans in audit output
 - [Phase 06]: Glen Ridge commercial content scaled to tiny-borough reality (churches, schools, offices -- not warehouses)
 - [Phase 06]: Maplewood voice derives from Village district, South Mountain Reservation, Victorian/Tudor/Colonial architectural diversity
+- [Phase 06]: Irvington voice uses aging housing stock, Springfield Ave corridor, Route 78 industrial, and investment property focus as defining themes
+- [Phase 06]: metaDescription trimmed for irvington/historic-roof-restoration to fit Zod 160-char max
 
 ### Pending Todos
 
@@ -247,6 +250,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-08T01:16:39.438Z
-Stopped at: Completed 06-14-PLAN.md (Maplewood 65 combo content files)
+Last session: 2026-03-08T01:21:55.434Z
+Stopped at: Completed 06-08-PLAN.md (Irvington combo content -- 65 files)
 Resume file: None
