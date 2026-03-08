@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: Completed 07-02-PLAN.md (comparison template with 7 section components)
-last_updated: "2026-03-08T18:53:11.607Z"
-last_activity: 2026-03-08 -- Completed 07-03-PLAN.md (article template)
+stopped_at: Completed 07-06-PLAN.md (54 commercial and component articles)
+last_updated: "2026-03-08T19:13:28.724Z"
+last_activity: 2026-03-08 -- Completed 07-06-PLAN.md (54 articles for commercial and component services)
 progress:
   total_phases: 9
   completed_phases: 6
   total_plans: 73
-  completed_plans: 66
-  percent: 89
+  completed_plans: 67
+  percent: 92
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 7 in progress -- article template built, comparison template and content plans next.
+**Current focus:** Phase 7 in progress -- article content for commercial roof types and components/specialty complete.
 
 ## Current Position
 
 Phase: 7 of 9 (Supporting Content)
-Plan: 3 of 10 in current phase
-Status: Plan 07-03 complete
-Last activity: 2026-03-08 -- Completed 07-03-PLAN.md (article template)
+Plan: 6 of 10 in current phase
+Status: Plan 07-06 complete
+Last activity: 2026-03-08 -- Completed 07-06-PLAN.md (54 articles for commercial and component services)
 
-Progress: [█████████░] 89%
+Progress: [█████████░] 92%
 
 ## Performance Metrics
 
@@ -74,6 +74,7 @@ Progress: [█████████░] 89%
 | Phase 07 P01 | 11min | 2 tasks | 9 files |
 | Phase 07 P03 | 3min | 2 tasks | 5 files |
 | Phase 07 P02 | 4min | 2 tasks | 8 files |
+| Phase 07 P06 | 17min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -204,6 +205,8 @@ Recent decisions affecting current work:
 - [Phase 07-02]: ComparisonTable uses HTML table for A-vs-B and ranked card list for decision-helpers
 - [Phase 07-02]: Content loading via try/catch require() for graceful fallback before comparison aggregator exists
 - [Phase 07-02]: ComparisonRelated uses fuzzy name matching for A-vs-B items and category mapping for decision-helpers
+- [Phase 07-06]: Commercial articles use B2B voice: property managers, facility directors, building owners as primary audience
+- [Phase 07-06]: Flashing vs chimney flashing differentiated: general covers step/counter/valley; chimney covers masonry, cricket, mortar joints
 
 ### Pending Todos
 
@@ -292,6 +295,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-08T18:53:11.605Z
-Stopped at: Completed 07-02-PLAN.md (comparison template with 7 section components)
+Last session: 2026-03-08T19:13:28.721Z
+Stopped at: Completed 07-06-PLAN.md (54 commercial and component articles)
 Resume file: None
