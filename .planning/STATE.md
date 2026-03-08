@@ -182,6 +182,7 @@ Recent decisions affecting current work:
 - [Phase 06]: West Orange content uses elevation zones (valley, mid-slope, ridge) as primary content differentiator for roofing challenges
 - [Phase 06]: Essex Fells commercial content framed as commercial-grade materials for residential estate applications
 - [Phase 06]: Belleville voice uses Italian-American community character, compact lots, Passaic River humidity as defining themes
+- [Phase 06]: Orange voice uses compact-city identity, Main Street revitalization, tight-lot construction, sandwich position between East Orange and West Orange
 
 ### Pending Todos
 
