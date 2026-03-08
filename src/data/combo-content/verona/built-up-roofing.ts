@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const veronaBuiltUpRoofing: ComboContent = {
+  serviceId: 'built-up-roofing',
+  cityId: 'verona',
+  overview: [
+    'Built-up roofing represents the original flat roof technology, and many Verona commercial buildings still carry BUR systems installed decades ago that continue to perform. The alternating layers of bitumen and reinforcing fabric create a monolithic waterproofing membrane whose thickness and redundancy exceed any single-ply system. For Verona property owners managing older Bloomfield Avenue retail buildings, municipal structures, or institutional facilities, built-up roofing offers the heavy-duty, time-proven protection that the building\'s original architects specified.',
+    'Newark Quality Roofing installs and maintains built-up roofing systems on Verona commercial properties where the material\'s strengths align with the building\'s operational demands. Heavy foot traffic environments, rooftop storage areas, and buildings requiring fire-rated roof assemblies benefit from BUR\'s inherent durability and non-combustible configuration. Our [built-up roofing](/built-up-roofing) crews understand both traditional hot-mopped and modern cold-applied BUR systems, matching the application method to each Verona building\'s specific conditions and code requirements.',
+    'While newer membrane technologies have captured market share from built-up roofing, BUR retains advantages that modern single-ply systems cannot replicate. The multi-ply construction distributes stress across multiple reinforcing layers, preventing the catastrophic single-point failures that puncture single-ply membranes. Gravel-surfaced BUR provides UV protection, hail resistance, and ballast weight that resists wind uplift without mechanical fastening. Commercial property owners in [East Orange](/built-up-roofing-east-orange-nj) with similar multi-story office buildings have maintained BUR systems for 30 years or more, validating the technology\'s staying power.'
+  ],
+  challenges: [
+    'Installing built-up roofing on Verona commercial buildings requires managing the odor and fume exposure that hot-mopped asphalt application produces. Heated bitumen generates smoke and volatile organic compounds that drift into occupied spaces, adjacent properties, and street-level pedestrian areas. Along Bloomfield Avenue, where retail storefronts sit directly below commercial roof surfaces, hot-mopped BUR installation must be scheduled to minimize tenant disruption and comply with air quality considerations. Our crews use low-odor oxidized asphalt products and coordinate installation timing with building management to reduce occupant impact.',
+    'Weight is the critical structural consideration for built-up roofing on Verona buildings. A four-ply gravel-surfaced BUR system weighs 500 to 700 pounds per square -- significantly heavier than single-ply membrane systems. Older Verona commercial buildings designed for BUR loads can accept re-roofing with the same system, but buildings originally roofed with lighter materials require structural verification before BUR installation. We commission structural assessments for any building where the existing roof system is lighter than the proposed BUR assembly.',
+    'Leak detection in built-up roofing challenges even experienced roofers because water entering through a surface defect travels laterally between plies before emerging at the ceiling level far from the actual point of entry. On Verona commercial buildings with complex roof geometry, the leak can migrate ten feet or more from the surface failure to the visible interior stain. Our diagnostic approach uses infrared moisture scanning to map the wet insulation beneath the BUR, identifying the actual failure point rather than the symptom location.'
+  ],
+  process: [
+    'Built-up roofing installation on Verona commercial properties begins with the same thorough survey and specification process we apply to all flat roof systems: structural capacity verification, drainage assessment, insulation requirements, and equipment accommodation. The specification defines ply count, bitumen type, reinforcing fabric material, and surfacing -- smooth, mineral cap sheet, or gravel flood coat -- based on the building\'s traffic patterns, fire rating requirements, and aesthetic preferences.',
+    'Installation layers build from the deck upward: vapor retarder, insulation boards, base sheet, alternating layers of hot or cold-applied bitumen and reinforcing plies, and the final surfacing layer. Each ply is offset from the one below to stagger the lap positions, preventing a straight-line path for water to penetrate multiple layers. At penetrations and perimeter flashings, additional plies wrap the base detail before field plies continue over the top, building redundancy where the roof system meets vertical surfaces.',
+    'Gravel surfacing -- when specified -- involves flooding the completed membrane with hot bitumen and embedding river-washed gravel in the molten surface. The gravel provides UV protection, fire resistance, and wind-uplift ballast. Smooth-surfaced BUR receives an aluminum or elastomeric coating for UV protection and reflectivity. The completed system is inspected for ply adhesion, surfacing coverage, and flashing integrity before warranty documentation is submitted.'
+  ],
+  faqs: [
+    {
+      question: 'Is built-up roofing still a good choice for Verona commercial buildings?',
+      answer: 'BUR remains an excellent choice for Verona commercial buildings that require heavy traffic tolerance, fire-rated roof assemblies, or maximum redundancy. The multi-ply construction provides waterproofing security that single-ply membranes cannot match, and gravel surfacing adds hail resistance and UV protection. The material is heavier and more labor-intensive to install than single-ply alternatives, so it is best suited for buildings where its specific strengths address identified needs rather than as a default specification.'
+    },
+    {
+      question: 'How long does a built-up roof last on a Verona building?',
+      answer: 'Well-installed BUR systems routinely last 25 to 35 years in the northern New Jersey climate. Some Verona commercial buildings are maintaining BUR installations that have exceeded 30 years with periodic maintenance and coating renewal. The multi-ply construction degrades gradually rather than failing suddenly, providing warning signs -- alligator cracking in the surfacing, soft spots, and moisture detection -- that allow planned replacement before active leaking begins.'
+    },
+    {
+      question: 'Can you re-roof my Verona building with built-up roofing over the existing roof?',
+      answer: 'Built-up roofing can sometimes be installed over an existing BUR system if the current roof is dry, well-adhered, and the structure can support the additional weight. However, building codes in most jurisdictions limit the total number of roof layers, and adding BUR over BUR can create a system too heavy for the structural framing. We evaluate the existing conditions, check the layer count, and verify structural capacity before recommending overlay versus full tear-off and replacement.'
+    },
+    {
+      question: 'What maintenance does built-up roofing need in Verona?',
+      answer: 'Annual inspections should check for alligator cracking in exposed bitumen surfaces, gravel displacement or thinning, and membrane softness indicating moisture beneath the plies. Clear drains and scuppers of debris accumulation. Re-coat smooth-surfaced BUR every five to seven years with compatible coating to renew UV protection. Address any identified defects promptly -- the multi-ply construction provides time before leaking starts, but ignoring early signs leads to more extensive repairs than catching them during routine inspection.'
+    }
+  ],
+  metaDescription: 'Built-up roofing in Verona NJ -- multi-ply BUR systems for commercial buildings with heavy traffic tolerance and proven long-term performance.',
+};

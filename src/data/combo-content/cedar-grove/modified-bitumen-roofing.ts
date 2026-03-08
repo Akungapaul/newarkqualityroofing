@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const cedarGroveModifiedBitumenRoofing: ComboContent = {
+  serviceId: 'modified-bitumen-roofing',
+  cityId: 'cedar-grove',
+  overview: [
+    'Modified bitumen roofing systems serve Cedar Grove commercial properties and residential low-slope sections with a multi-layer waterproofing approach refined over decades of northern New Jersey performance. The polymer-modified asphalt membranes used in these systems combine the redundancy of traditional built-up roofing with the flexibility of modern polymers, creating a roof assembly particularly well-suited to Cedar Grove\'s temperature extremes and the township\'s inventory of buildings with flat or near-flat roof sections.',
+    'Cedar Grove\'s commercial buildings along Pompton Avenue and the office parks off Route 23 include numerous properties where modified bitumen was installed during the 1990s and early 2000s as a replacement for original built-up roofing systems. Many of these installations are now reaching end-of-life, and our [modified bitumen roofing](/modified-bitumen-roofing) replacement projects give Cedar Grove building owners the opportunity to upgrade insulation, correct drainage deficiencies, and install current-generation SBS or APP modified membranes with significantly improved flexibility and UV resistance compared to the products they replace.',
+    'Residential applications in Cedar Grove focus on the flat roof sections found on ranch home additions, garage connections, and enclosed porches throughout the township. Modified bitumen provides a durable, walkable surface on these residential low-slope areas -- an advantage over single-ply membranes for Cedar Grove homeowners who access their roof sections for gutter cleaning or seasonal maintenance in the township\'s debris-heavy canopy environment.',
+  ],
+  challenges: [
+    'Application method selection for Cedar Grove modified bitumen installations requires balancing performance with safety in a densely wooded residential township. Torch-applied membranes provide the strongest bond and most reliable seam integrity, but open-flame application near Cedar Grove\'s mature tree canopy and wood-sided homes creates fire risk that must be carefully managed. Self-adhered cold-applied membranes eliminate fire risk entirely but achieve lower initial bond strength. Our Cedar Grove installations use torch application on commercial buildings with adequate setbacks and self-adhered application on residential sections near combustible construction.',
+    'Northern Essex County\'s extended freeze-thaw cycling demands SBS (styrene-butadiene-styrene) modified bitumen rather than APP (atactic polypropylene) modified products for Cedar Grove installations. SBS-modified membranes maintain flexibility at temperatures below zero degrees Fahrenheit, stretching rather than cracking when ice formation beneath the membrane creates point loads. APP-modified products, while offering superior heat resistance, become rigid at the low temperatures Cedar Grove routinely produces during January and February, increasing the risk of cold-weather cracking at seam edges and flashing terminations.',
+    'Granule surface erosion on modified bitumen roofs exposed to Cedar Grove\'s tree debris and foot traffic shortens the UV protection that factory-applied granules provide. The protective mineral granule layer erodes when debris is dragged across the surface during cleaning, when maintenance workers traverse the roof to service equipment, and when falling branches scrape along the membrane. Once granules are displaced, the underlying asphalt membrane degrades rapidly under UV exposure. Cedar Grove installations benefit from granule-surface modified bitumen on walkway areas and smooth-surface cap sheets with reflective coatings on field areas where foot traffic is minimal.',
+  ],
+  process: [
+    'Modified bitumen installation in Cedar Grove begins with existing roof evaluation and drainage analysis. We strip the existing roof to the deck, inspect sheathing or structural deck for damage, and install new polyiso insulation in a tapered configuration that directs water to drains or scuppers. For Cedar Grove residential sections, this often corrects the flat-to-no-slope conditions that original addition contractors installed decades ago.',
+    'The membrane system is installed in multiple layers: a base sheet mechanically fastened to the insulation, followed by one or two plies of SBS-modified bitumen interply sheet, and finished with a granule-surface or smooth-surface cap sheet. On Cedar Grove commercial buildings, we torch-apply the interply and cap sheets for maximum adhesion. On residential sections near combustible construction, we use self-adhered or hot-mopped application to eliminate fire risk while maintaining multi-layer redundancy.',
+    'Flashing details at walls, curbs, and penetrations receive two-ply membrane coverage extending at least eight inches up vertical surfaces, with metal counter-flashing providing mechanical termination. Cedar Grove\'s tree debris environment requires oversized drain bowls with strainer domes and secondary overflow provisions at every low point. We provide post-installation documentation including a warranty registration, maintenance schedule calibrated to Cedar Grove conditions, and before-and-after photography of all critical details.',
+  ],
+  faqs: [
+    {
+      question: 'Is modified bitumen better than TPO for Cedar Grove flat roofs?',
+      answer: 'Modified bitumen and TPO serve different priorities. Modified bitumen excels on roofs requiring a durable, walkable surface and offers built-in redundancy through multi-layer construction -- valuable on Cedar Grove commercial buildings with frequent rooftop equipment servicing. TPO provides better energy efficiency through reflective white surfaces and lower initial cost. For Cedar Grove residential additions where foot traffic and maintenance access matter, modified bitumen is typically the better choice.',
+    },
+    {
+      question: 'How long does modified bitumen roofing last in Cedar Grove?',
+      answer: 'SBS-modified bitumen roofing lasts twenty to thirty years in Cedar Grove\'s climate when properly installed with adequate drainage. The multi-layer construction provides inherent redundancy -- even if the cap sheet develops localized damage, the underlying interply and base sheets maintain waterproof protection while repairs are scheduled. This safety margin makes modified bitumen particularly forgiving in Cedar Grove\'s debris-heavy environment where branch impacts and maintenance traffic are regular occurrences.',
+    },
+    {
+      question: 'Can modified bitumen be applied to residential roof sections in Cedar Grove?',
+      answer: 'Yes, and it is often the preferred choice for flat sections on Cedar Grove ranch home additions. We use self-adhered application rather than torch application near residential construction, eliminating fire risk while maintaining the multi-layer waterproofing performance. The granule surface provides a durable walking surface for homeowners accessing the roof for gutter cleaning and seasonal maintenance in Cedar Grove\'s leaf-heavy environment.',
+    },
+    {
+      question: 'What causes blistering on modified bitumen roofs in Cedar Grove?',
+      answer: 'Blistering occurs when moisture trapped beneath the membrane vaporizes during summer heat, creating pressure bubbles between membrane layers. The most common cause in Cedar Grove is installation over damp insulation or wet deck surfaces. Our installation protocol includes moisture testing of the substrate before membrane application and scheduling work during dry weather windows. If existing blisters are found during inspection, we cut, dry, and re-patch them before they grow large enough to compromise waterproof integrity.',
+    },
+  ],
+  metaDescription: 'Modified bitumen roofing in Cedar Grove NJ -- multi-layer waterproofing for commercial buildings and residential additions with SBS flexibility.',
+};
