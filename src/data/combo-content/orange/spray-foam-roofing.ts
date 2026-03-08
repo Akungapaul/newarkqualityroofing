@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const orangeSprayFoamRoofing: ComboContent = {
+  serviceId: 'spray-foam-roofing',
+  cityId: 'orange',
+  overview: [
+    'Spray polyurethane foam roofing offers Orange building owners something no other system can deliver: a seamless, self-insulating roof membrane applied directly over existing roofing without tear-off, filling every gap, seam, and irregularity in a single monolithic application. Our [spray foam roofing](/spray-foam-roofing) installations in Orange are particularly effective on the older commercial buildings along Main Street and Mitchell Street where aging flat roofs have complex geometries, multiple penetrations, and drainage problems that conventional membrane systems struggle to address without extensive substrate preparation.',
+    'The built-in insulation of spray foam provides thermal performance that separate membrane-plus-insulation assemblies cannot match. Closed-cell SPF delivers R-6.5 per inch -- meaning a two-inch spray foam application adds R-13 of continuous insulation with no thermal bridging at seams or fastener points. For Orange\'s older commercial buildings with minimal existing insulation, spray foam installation doubles as an energy retrofit that reduces heating and cooling costs from the day the coating cures. Building owners along Main Street routinely report 20 to 30% reductions in HVAC energy costs after spray foam installation.',
+    'Orange\'s compact building stock creates ideal conditions for spray foam\'s key advantage: installation without tear-off. On Main Street\'s zero-setback buildings, traditional tear-off generates debris that must be lowered to the street, requiring lane closures and dumpster space that is difficult to arrange on the busy commercial corridor. Spray foam eliminates this disruption entirely -- the existing roof stays in place, the foam is sprayed over it, and the protective coating is applied over the foam. The entire installation produces minimal debris, no street-level disruption, and can be completed while the building remains fully occupied below. Similar advantages make spray foam popular on tight-access commercial properties in [Newark](/spray-foam-roofing-newark-nj).'
+  ],
+  challenges: [
+    'Spray foam application is weather-dependent to a degree that other roofing systems are not. The foam chemicals require ambient temperatures above 50 degrees Fahrenheit and dry conditions for proper expansion and adhesion. High humidity, rain, or temperatures below threshold cause the foam to cure improperly -- resulting in soft spots, poor adhesion, and compromised waterproofing. Orange\'s spring and fall shoulder seasons, which provide the best working temperatures for traditional roofing, can be unpredictable for foam application due to morning dew, afternoon rain showers, and rapid temperature swings. We schedule Orange SPF installations during confirmed weather windows and monitor conditions hourly during application.',
+    'The protective coating over spray foam requires reapplication every 10 to 15 years to maintain UV protection and waterproofing integrity. Building owners must commit to this recoating schedule, because unprotected foam degrades rapidly under UV exposure -- the cellular structure breaks down, absorbs water, and loses both its insulating and waterproofing properties. While recoating is far less expensive than full roof replacement, it represents an ongoing maintenance commitment that some Orange building owners do not anticipate when choosing spray foam based solely on initial installation cost.',
+    'Spray foam roofing requires specialized equipment and certified applicators that limit the contractor pool. The two-component foam is mixed and heated at the spray gun, and any variation in component ratio, application temperature, or spray technique produces foam with compromised properties. Our spray foam applicators hold manufacturer certification and maintain their equipment to specifications that ensure consistent foam quality across every Orange installation.'
+  ],
+  process: [
+    'Spray foam installation in Orange begins with surface preparation of the existing roof. The surface must be clean, dry, and free of loose gravel or deteriorated membrane that would prevent foam adhesion. We power-wash the existing roof, repair any major structural deficiencies in the deck, and seal any active leaks that could introduce moisture into the foam layer. Penetrations are prepared with compatible primers that ensure foam adhesion around pipes, curbs, and equipment bases.',
+    'Foam application proceeds in multiple passes, building thickness gradually rather than applying the full depth in a single pass. Each pass deposits approximately one-half inch of foam, which expands to roughly one inch of cured thickness. Multiple passes allow the foam to cure properly between layers, preventing the heat buildup and shrinkage that can occur with single-pass thick applications. We build the foam profile to create drainage slopes where the existing roof is flat, directing water toward drains and scuppers without the tapered insulation boards that conventional systems require.',
+    'After the foam reaches specified thickness and cure, a protective elastomeric coating is applied in two contrasting-color coats. The two-color system -- typically a base coat and a top coat in different colors -- ensures complete coverage because any uncoated spot is visible as the wrong color. The coating provides UV protection, waterproofing, and a walkable surface for maintenance access. We specify coating systems rated for Orange\'s UV exposure and thermal cycling conditions, with a 10 to 15-year recoating interval included in the maintenance schedule we provide to the building owner.'
+  ],
+  faqs: [
+    {
+      question: 'Can spray foam be applied over my existing Orange flat roof without removing it?',
+      answer: 'In most cases, yes. Spray foam adheres to existing built-up, modified bitumen, metal, and single-ply membranes as long as the surface is clean and structurally sound. This eliminates tear-off labor, debris disposal, and the street-level disruption that tear-off causes on Main Street\'s zero-setback buildings. We assess the existing roof condition to confirm it is a suitable substrate before proceeding.'
+    },
+    {
+      question: 'How long does spray foam roofing last in Orange?',
+      answer: 'The foam itself lasts indefinitely if the protective coating is maintained. The elastomeric coating requires reapplication every 10 to 15 years to maintain UV protection and waterproofing. With proper coating maintenance, spray foam roofing systems on Orange buildings can perform for 30 to 50 years or longer, making them among the longest-lasting commercial roofing options available.'
+    },
+    {
+      question: 'What happens if the foam coating is not maintained?',
+      answer: 'Uncoated spray foam degrades under UV exposure within two to three years. The cellular structure breaks down, absorbs water, and loses both insulating and waterproofing properties. Recoating before degradation begins is essential. We include a recoating schedule with every Orange installation and offer maintenance contracts that ensure timely reapplication.'
+    },
+    {
+      question: 'How much energy savings can I expect from spray foam on my Orange building?',
+      answer: 'Orange building owners typically report 20 to 30% reductions in heating and cooling costs after spray foam installation. The continuous insulation with no thermal bridging is significantly more effective than insulation boards with gaps at seams and fasteners. A two-inch application provides R-13 of added insulation -- a substantial upgrade for Orange commercial buildings that currently have minimal or no roof insulation.'
+    }
+  ],
+  metaDescription: 'Spray foam roofing in Orange NJ -- seamless SPF installation over existing roofs, built-in insulation, Main Street no-tearoff solutions, and energy savings.',
+};
