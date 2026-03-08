@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
-import { generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
 
 // ─── Category config for footer service display ─────────────────────────────
 
@@ -12,6 +12,68 @@ const footerCategories: { category: string; label: string; limit: number }[] = [
   { category: 'components-specialty', label: 'Components & Specialty', limit: 4 },
   { category: 'energy-solar', label: 'Energy & Solar', limit: 4 },
   { category: 'commercial-services', label: 'Commercial Services', limit: 3 },
+];
+
+// ─── Popular combo links for footer mega-links ─────────────────────────────
+
+const footerComboLinks: { city: string; citySlug: string; services: { name: string; serviceSlug: string }[] }[] = [
+  {
+    city: 'Newark',
+    citySlug: 'newark',
+    services: [
+      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
+      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
+      { name: 'Emergency Roof Repair', serviceSlug: 'emergency-roof-repair' },
+      { name: 'Roof Leak Repair', serviceSlug: 'roof-leak-repair' },
+      { name: 'Flat Roof Installation', serviceSlug: 'flat-roof-installation-repair' },
+    ],
+  },
+  {
+    city: 'Montclair',
+    citySlug: 'montclair',
+    services: [
+      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
+      { name: 'Slate Roof Repair', serviceSlug: 'slate-roof-installation-repair' },
+      { name: 'Historic Roof Restoration', serviceSlug: 'historic-roof-restoration' },
+      { name: 'Roof Inspection', serviceSlug: 'roof-inspection' },
+    ],
+  },
+  {
+    city: 'Bloomfield',
+    citySlug: 'bloomfield',
+    services: [
+      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
+      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
+      { name: 'Storm Damage Repair', serviceSlug: 'storm-damage-roof-repair' },
+    ],
+  },
+  {
+    city: 'East Orange',
+    citySlug: 'east-orange',
+    services: [
+      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
+      { name: 'Flat Roof Repair', serviceSlug: 'flat-roof-installation-repair' },
+      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
+    ],
+  },
+  {
+    city: 'West Orange',
+    citySlug: 'west-orange',
+    services: [
+      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
+      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
+      { name: 'Roof Inspection', serviceSlug: 'roof-inspection' },
+    ],
+  },
+  {
+    city: 'Belleville',
+    citySlug: 'belleville',
+    services: [
+      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
+      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
+      { name: 'Storm Damage Repair', serviceSlug: 'storm-damage-roof-repair' },
+    ],
+  },
 ];
 
 // ─── Footer component (server component) ───────────────────────────────────
@@ -148,6 +210,34 @@ export function Footer() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+
+        {/* Popular services by city (combo mega-links) */}
+        <div className="mt-10 border-t border-forest-light/20 pt-8">
+          <h3 className="mb-5 font-heading text-sm font-bold uppercase tracking-widest text-copper">
+            Popular Services by City
+          </h3>
+          <div className="grid grid-cols-2 gap-x-8 gap-y-5 sm:grid-cols-3 lg:grid-cols-6">
+            {footerComboLinks.map((group) => (
+              <div key={group.citySlug}>
+                <h4 className="mb-1.5 font-heading text-xs font-bold uppercase tracking-wider text-parchment/50">
+                  {group.city}
+                </h4>
+                <ul className="space-y-0.5">
+                  {group.services.map((svc) => (
+                    <li key={svc.serviceSlug}>
+                      <Link
+                        href={`/${generateComboSlug(svc.serviceSlug, group.citySlug)}`}
+                        className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+                      >
+                        {svc.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
 
