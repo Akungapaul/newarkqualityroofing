@@ -37,5 +37,5 @@ export const eastOrangeBuiltUpRoofing: ComboContent = {
       answer: 'Built-up roofing systems achieve Class A fire ratings -- the highest available -- when installed with mineral-surfaced cap sheets or aggregate ballast over approved assemblies. This rating satisfies East Orange Building Department requirements for all occupancy types including multi-family residential, commercial, and institutional buildings. The inherent fire resistance of the multi-ply asphalt and felt construction provides superior fire protection compared to single-ply membrane alternatives.'
     }
   ],
-  metaDescription: 'Built-up roofing for East Orange NJ commercial and apartment buildings -- multi-ply BUR installation, gravel ballast systems, and seamless flat roof waterproofing.',
+  metaDescription: 'Built-up roofing for East Orange NJ commercial and apartment buildings -- multi-ply BUR installation, gravel ballast systems, and seamless flat roof.',
 };

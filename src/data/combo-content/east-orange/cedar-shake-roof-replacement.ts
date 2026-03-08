@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const eastOrangeCedarShakeRoofReplacement: ComboContent = {
+  serviceId: 'cedar-shake-roof-replacement',
+  cityId: 'east-orange',
+  overview: [
+    'Cedar shake roof replacement in East Orange addresses the small number of residential buildings that carry original or previously installed cedar shake roofing now reaching the end of its service life. The Victorian homes in Elmwood Park and scattered properties in the Ampere neighborhood that still feature cedar shakes present owners with a decision: replace with fresh cedar shakes that maintain the natural wood character, or transition to a different material -- architectural shingles, synthetic shake, or standing seam metal -- that eliminates the maintenance demands that cedar shake imposes in East Orange\'s humid urban environment.',
+    'Replacement with new [cedar shake](/cedar-shake-roof-replacement) preserves the distinctive hand-split texture and natural weathering appearance that defines the building\'s architectural character. Premium western red cedar shakes properly installed on an East Orange home deliver 25 to 35 years of service with annual maintenance -- debris clearing, preservative reapplication, and individual shake replacement as needed. The maintenance commitment is the critical variable: cedar shake that receives annual attention lasts decades; cedar shake that is neglected deteriorates rapidly in East Orange\'s shade-heavy, moisture-retaining urban canopy.',
+    'For East Orange property owners who appreciate the cedar aesthetic but prefer lower maintenance, synthetic cedar shake products provide the visual character of natural wood without the rot susceptibility, fire risk, and maintenance cycle. Polymer and composite shake products from manufacturers like DaVinci and Brava reproduce the hand-split cedar appearance with 50-year warranties, Class A fire ratings, and zero maintenance requirements. The installed cost runs 30 to 50 percent higher than natural cedar but is recovered within two maintenance cycles through eliminated annual treatment, cleaning, and individual shake replacement costs. Homeowners in neighboring [Montclair](/cedar-shake-roof-replacement-montclair-nj) and [Glen Ridge](/cedar-shake-roof-replacement-glen-ridge-nj) evaluate the same natural-versus-synthetic decision.'
+  ],
+  challenges: [
+    'Fire code compliance for cedar shake on East Orange residential buildings in dense neighborhoods requires fire-retardant treated shakes that achieve Class A or Class B ratings. Untreated cedar carries a Class C rating that does not meet East Orange Building Department requirements for residential construction in closely spaced housing. Fire-retardant treatment adds cost to the material and requires periodic re-treatment during the roof\'s service life to maintain the fire rating as the treatment chemicals dissipate over time.',
+    'Insurance carrier acceptance of cedar shake roofing varies in the East Orange market. Some carriers surcharge wood roofing regardless of fire-retardant treatment, while others decline coverage for properties with wood roofs in dense urban settings. Property owners should verify insurance implications and obtain written confirmation of coverage before committing to cedar shake replacement. Synthetic shake products that achieve Class A fire ratings typically avoid insurance complications entirely.',
+    'Existing deck ventilation configuration on buildings transitioning from cedar to a different material -- or from an old cedar installation to a new one -- must be evaluated for compatibility. Original cedar installations on East Orange Victorian homes often used skip sheathing for air circulation beneath the shakes. Transitioning to asphalt shingles or synthetic shake requires converting to solid sheathing, which changes the ventilation dynamics and may require additional exhaust venting to compensate for the lost air circulation beneath the roofing surface.'
+  ],
+  process: [
+    'Cedar shake replacement begins with careful removal of existing shakes and assessment of the deck structure beneath. On East Orange Victorian homes with skip sheathing, the spaced boards are evaluated for condition and spacing. If replacement with new cedar is planned and the skip sheathing is sound, it is retained with selective board replacement as needed. If the new roofing requires solid sheathing -- as synthetic shake and asphalt shingles do -- plywood overlay is installed over the existing skip sheathing, adding the solid substrate while preserving the underlying structural framework.',
+    'New cedar shake installation follows traditional coursing from eave to ridge with each shake offset from the course below for water drainage. Stainless steel nails provide corrosion resistance through the full shake service life. Exposure is calculated based on roof pitch and shake length. All valley, chimney, wall, and penetration details receive metal flashing compatible with the cedar material -- typically copper or stainless steel that will not corrode in contact with the naturally acidic cedar extract.',
+    'Fire-retardant treatment documentation is compiled for the East Orange Building Department permit file and the property owner\'s insurance carrier. Post-installation, a UV-protective preservative coating is applied to all exposed cedar surfaces to establish the baseline protection that annual maintenance will renew. We schedule a one-year follow-up inspection to assess the cedar\'s performance through its first full year of weather exposure and recommend the ongoing maintenance schedule appropriate for the property\'s specific conditions.'
+  ],
+  faqs: [
+    {
+      question: 'Should I replace my East Orange cedar shake roof with new cedar or switch to a different material?',
+      answer: 'Replace with cedar if you value the natural wood aesthetic and are committed to the annual maintenance the material requires. Switch to synthetic shake if you want the cedar appearance without maintenance. Switch to architectural shingles if maintenance elimination and cost optimization are the priorities. We present all options with cost, maintenance, and longevity comparisons to support your decision.'
+    },
+    {
+      question: 'How much does cedar shake roof replacement cost on an East Orange home?',
+      answer: 'Natural cedar shake replacement costs $15 to $25 per square foot installed on East Orange homes, depending on shake grade, roof complexity, and fire-retardant treatment requirements. Synthetic cedar shake costs $18 to $30 per square foot but eliminates ongoing maintenance costs. On a typical 2,000 to 3,000-square-foot East Orange home, total project costs range from $30,000 to $75,000 for natural cedar and $36,000 to $90,000 for premium synthetic alternatives.'
+    },
+    {
+      question: 'Does East Orange allow cedar shake roofing on residential buildings?',
+      answer: 'Yes, with fire-retardant treated shakes that meet minimum Class B fire rating requirements. Untreated cedar shake does not meet East Orange fire code for residential construction in the city\'s dense housing neighborhoods. Fire-retardant treatment documentation must be submitted with the building permit application. We use only pressure-treated fire-retardant shakes that meet or exceed the required fire rating.'
+    },
+    {
+      question: 'How long does cedar shake roof replacement take on an East Orange home?',
+      answer: 'Cedar shake replacement on a typical East Orange home takes five to eight days depending on roof size and complexity. The hand-split material requires individual installation of each shake, which is slower than shingle coursing. Complex Victorian geometry with multiple dormers, valleys, and decorative elements extends the timeline toward the upper range. Weather delays can add additional days as cedar installation should not proceed during active rain.'
+    }
+  ],
+  metaDescription: 'Cedar shake roof replacement for East Orange NJ homes -- natural and synthetic cedar options with fire-retardant treatment for dense residential neighborhoods.',
+};

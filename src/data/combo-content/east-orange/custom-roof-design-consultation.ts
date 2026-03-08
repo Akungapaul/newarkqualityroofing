@@ -1,0 +1,40 @@
+import type { ComboContent } from '../schema';
+
+export const eastOrangeCustomRoofDesignConsultation: ComboContent = {
+  serviceId: 'custom-roof-design-consultation',
+  cityId: 'east-orange',
+  overview: [
+    'Custom roof design consultation in East Orange serves property owners navigating decisions where the standard material-and-install approach is insufficient -- gut renovations of distressed Victorian two-families, mixed-use building conversions requiring new roof configurations, and infill development projects where the roof design must satisfy East Orange Building Department requirements, neighborhood architectural context, and the owner\'s investment return objectives simultaneously. These projects demand [design consultation](/custom-roof-design-consultation) that bridges architecture, engineering, and practical roofing construction into a coherent plan.',
+    'East Orange\'s rehabilitation zone properties present the most frequent design consultation scenarios. Investors acquiring distressed buildings for renovation encounter roof conditions that require more than material replacement -- structural inadequacy, drainage failure, code-deficient ventilation, and energy performance far below current standards all demand design-level solutions. Our consultation process evaluates the building\'s existing roof structure, defines the performance requirements for the renovated use, and specifies a roof system that satisfies structural, waterproofing, energy code, and aesthetic requirements within the renovation budget.',
+    'For the owner-occupied segment of East Orange\'s housing market -- homeowners in Ampere and Elmwood Park investing in their properties -- design consultation addresses material selection, color coordination, ventilation improvement, and long-term performance planning with the personalized attention that production-volume roofing contractors cannot provide. These homeowners deserve the same design thoughtfulness that homeowners in [Montclair](/custom-roof-design-consultation-montclair-nj) and [Millburn](/custom-roof-design-consultation-millburn-nj) expect, adapted to East Orange\'s specific building stock and market conditions.'
+  ],
+  challenges: [
+    'Balancing design quality with investment economics on East Orange renovation projects requires honest conversation about where to invest and where to economize. A rehabilitation project with a fixed budget cannot specify premium materials at every turn, and design consultation must identify the components where quality investment provides disproportionate return and the components where standard-grade products deliver adequate performance. On East Orange rental properties, this analysis is driven by expected rental rates, hold period, and maintenance cost projections rather than personal preference.',
+    'Code compliance complexity on East Orange renovation projects involving use changes -- converting commercial space to residential, adding units within existing structures, or modifying building height -- triggers building code requirements that affect roof design. Fire-rated assemblies, egress considerations, structural load requirements for different occupancy classifications, and energy code standards all vary by building use, and roof design must accommodate the specific requirements that the building\'s intended use imposes.',
+    'Coordinating roof design with other building systems during gut renovation requires integration across trades. Roof drainage must connect to the building\'s stormwater management system. Ventilation design must coordinate with HVAC ducting and exhaust routing. Structural modifications must align with architectural drawings and engineering specifications. Our design consultation operates within the renovation team rather than in isolation, coordinating with the general contractor, architect, and engineers to ensure the roof design integrates with the full building renovation plan.'
+  ],
+  process: [
+    'Design consultation begins with a site visit that evaluates the existing building condition, documents structural configuration, identifies code compliance requirements, and discusses the property owner\'s objectives for the renovated building. For renovation projects, this visit is coordinated with the project architect and general contractor to ensure alignment across all trades. The site assessment produces the baseline information needed to develop roof design options.',
+    'Design development presents two to three roof system options with comparative analysis of installed cost, expected lifespan, maintenance requirements, energy performance, and aesthetic impact. Each option includes material specifications, structural requirements, and preliminary cost estimates. For investment properties, the analysis includes lifecycle cost modeling that compares total cost of ownership across the options\' service lives, helping property owners evaluate options on a true-cost basis rather than lowest-first-cost selection.',
+    'Specification documentation delivers the construction-ready details that the roofing contractor needs to bid and execute the project. Specifications include material selections, installation details, flashing configurations, ventilation provisions, insulation specifications, and quality assurance requirements. For projects requiring East Orange building permits, the specification package includes the technical documentation that the Building Department requires for plan review approval.'
+  ],
+  faqs: [
+    {
+      question: 'When do I need roof design consultation versus just a contractor estimate for my East Orange property?',
+      answer: 'Design consultation is valuable when the project involves structural modifications, building use changes, complex geometry, energy code compliance requirements, or decisions among fundamentally different roofing systems. Standard re-roofing with the same or similar material on a structurally sound building typically does not require design consultation -- a qualified contractor estimate provides adequate guidance for straightforward replacement.'
+    },
+    {
+      question: 'How much does roof design consultation cost for an East Orange renovation project?',
+      answer: 'Design consultation for East Orange renovation projects ranges from $500 to $2,500 depending on project complexity and the scope of documentation required. The fee is typically credited toward the roofing installation contract if we are selected for the construction phase. For projects requiring structural engineering analysis, engineering fees are additional and quoted separately based on the specific analysis required.'
+    },
+    {
+      question: 'Can you coordinate roof design with my architect on an East Orange renovation?',
+      answer: 'Yes. We regularly coordinate with architects, structural engineers, and general contractors on East Orange renovation projects. Our role in the design team is providing roofing-specific expertise -- material performance, installation feasibility, cost analysis, and code compliance for the roof assembly -- that architectural firms may not carry in-house. This collaboration produces integrated designs that work constructibly and stay within budget.'
+    },
+    {
+      question: 'Does East Orange require architectural plans for roof work on residential buildings?',
+      answer: 'Standard re-roofing on residential buildings typically requires a permit but not formal architectural plans. Renovation projects involving structural modifications, use changes, or additions that alter the building footprint or height require plans prepared by a licensed architect or engineer for submission to the East Orange Building Department. Our design consultation produces the technical documentation needed for either level of permit review.'
+    }
+  ],
+  metaDescription: 'Custom roof design consultation for East Orange NJ properties -- renovation planning, material selection, and code compliance for multi-family rehab projects.',
+};
