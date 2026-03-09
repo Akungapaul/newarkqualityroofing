@@ -23,6 +23,7 @@ import {
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { AnimateIn } from '@/components/animations/AnimateIn';
 
 // ─── Content loader (graceful fallback until Plan 03 creates aggregator) ──
 
@@ -76,31 +77,37 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
-          <ComparisonIntro
-            heading={content.introHeading}
-            paragraphs={content.introParagraphs}
-          />
+          <AnimateIn>
+            <ComparisonIntro
+              heading={content.introHeading}
+              paragraphs={content.introParagraphs}
+            />
+          </AnimateIn>
 
-          <ComparisonTable
-            comparison={comparison}
-            rows={content.comparisonRows}
-          />
+          <AnimateIn>
+            <ComparisonTable
+              comparison={comparison}
+              rows={content.comparisonRows}
+            />
+          </AnimateIn>
 
-          <ComparisonAnalysis
-            analysis={content.detailedAnalysis}
-            njSpecific={content.njSpecific}
-            homeownerSection={content.homeownerSection}
-            businessOwnerSection={content.businessOwnerSection}
-          />
+          <AnimateIn>
+            <ComparisonAnalysis
+              analysis={content.detailedAnalysis}
+              njSpecific={content.njSpecific}
+              homeownerSection={content.homeownerSection}
+              businessOwnerSection={content.businessOwnerSection}
+            />
+          </AnimateIn>
 
-          <ComparisonVerdict verdict={content.verdict} />
+          <AnimateIn><ComparisonVerdict verdict={content.verdict} /></AnimateIn>
 
-          <ComparisonFaqs faqs={content.faqs} />
+          <AnimateIn><ComparisonFaqs faqs={content.faqs} /></AnimateIn>
 
           {/* Learn More -- reverse silo link to position-1 article */}
           {(() => {
             const article = getMoneyPageArticle(comparison.id, 'comparison');
-            return article ? <ComparisonLearnMore article={article} comparisonName={comparison.name} /> : null;
+            return article ? <AnimateIn><ComparisonLearnMore article={article} comparisonName={comparison.name} /></AnimateIn> : null;
           })()}
         </article>
 

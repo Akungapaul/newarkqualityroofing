@@ -33,6 +33,7 @@ import {
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { AnimateIn } from '@/components/animations/AnimateIn';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -191,78 +192,92 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
-          <ServiceOverview paragraphs={content.overview} />
+          <AnimateIn><ServiceOverview paragraphs={content.overview} /></AnimateIn>
 
-          <ServiceSigns heading={content.signsHeading} signs={content.signs} />
+          <AnimateIn><ServiceSigns heading={content.signsHeading} signs={content.signs} /></AnimateIn>
 
-          <ServiceApproach
-            heading={content.approachHeading}
-            content={content.approachContent}
-          />
+          <AnimateIn>
+            <ServiceApproach
+              heading={content.approachHeading}
+              content={content.approachContent}
+            />
+          </AnimateIn>
 
           {isCommercialFirst ? (
             <>
-              <ServiceAudience
-                variant="commercial"
-                heading={content.commercial.heading}
-                content={content.commercial.content}
-                ctaLabel={content.commercial.ctaLabel}
-              />
-              <ServiceAudience
-                variant="residential"
-                heading={content.residential.heading}
-                content={content.residential.content}
-                ctaLabel={content.residential.ctaLabel}
-              />
+              <AnimateIn>
+                <ServiceAudience
+                  variant="commercial"
+                  heading={content.commercial.heading}
+                  content={content.commercial.content}
+                  ctaLabel={content.commercial.ctaLabel}
+                />
+              </AnimateIn>
+              <AnimateIn>
+                <ServiceAudience
+                  variant="residential"
+                  heading={content.residential.heading}
+                  content={content.residential.content}
+                  ctaLabel={content.residential.ctaLabel}
+                />
+              </AnimateIn>
             </>
           ) : (
             <>
-              <ServiceAudience
-                variant="residential"
-                heading={content.residential.heading}
-                content={content.residential.content}
-                ctaLabel={content.residential.ctaLabel}
-              />
-              <ServiceAudience
-                variant="commercial"
-                heading={content.commercial.heading}
-                content={content.commercial.content}
-                ctaLabel={content.commercial.ctaLabel}
-              />
+              <AnimateIn>
+                <ServiceAudience
+                  variant="residential"
+                  heading={content.residential.heading}
+                  content={content.residential.content}
+                  ctaLabel={content.residential.ctaLabel}
+                />
+              </AnimateIn>
+              <AnimateIn>
+                <ServiceAudience
+                  variant="commercial"
+                  heading={content.commercial.heading}
+                  content={content.commercial.content}
+                  ctaLabel={content.commercial.ctaLabel}
+                />
+              </AnimateIn>
             </>
           )}
 
-          <ServiceProcess steps={content.processSteps} />
+          <AnimateIn><ServiceProcess steps={content.processSteps} /></AnimateIn>
 
           {/* Pricing section -- after process */}
           {content.pricing && (
-            <ServicePricing pricing={content.pricing} serviceName={service.name} />
+            <AnimateIn><ServicePricing pricing={content.pricing} serviceName={service.name} /></AnimateIn>
           )}
 
           {/* Why Choose Us -- before FAQs */}
           {content.whyChooseUs && (
-            <ServiceWhyChooseUs
-              heading={content.whyChooseUs.heading}
-              reasons={content.whyChooseUs.reasons}
-            />
+            <AnimateIn>
+              <ServiceWhyChooseUs
+                heading={content.whyChooseUs.heading}
+                reasons={content.whyChooseUs.reasons}
+              />
+            </AnimateIn>
           )}
 
-          <ServiceFaq faqs={content.faqs} />
+          <AnimateIn><ServiceFaq faqs={content.faqs} /></AnimateIn>
 
           {/* Learn More -- reverse silo link to position-1 article */}
           {(() => {
             const article = getMoneyPageArticle(service.id, 'service');
-            return article ? <ServiceLearnMore article={article} serviceName={service.name} /> : null;
+            return article ? <AnimateIn><ServiceLearnMore article={article} serviceName={service.name} /></AnimateIn> : null;
           })()}
 
           {/* Related Comparisons -- contextual comparison links */}
-          <ServiceRelatedComparisons comparisons={getRelatedComparisons(service.id)} />
+          <AnimateIn><ServiceRelatedComparisons comparisons={getRelatedComparisons(service.id)} /></AnimateIn>
 
           {/* Compact testimonials -- 1-2 relevant reviews */}
-          <CompactTestimonial
-            testimonials={testimonials}
-            filterBy={{ type: 'service', value: service.name }}
-          />
+          <AnimateIn>
+            <CompactTestimonial
+              testimonials={testimonials}
+              filterBy={{ type: 'service', value: service.name }}
+            />
+          </AnimateIn>
         </article>
 
         {/* Sticky sidebar */}

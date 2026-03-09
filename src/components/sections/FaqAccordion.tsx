@@ -1,13 +1,28 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import type { FaqItem } from '@/data/faq';
+import { AnimateIn } from '@/components/animations/AnimateIn';
 
 interface FaqAccordionProps {
   items: FaqItem[];
 }
 
+function wrapFirstSentence(text: string, useEmphasis: boolean = true) {
+  const periodIdx = text.indexOf('. ');
+  if (periodIdx === -1) return useEmphasis ? <><em>{text}</em></> : <>{text}</>;
+  const first = text.slice(0, periodIdx + 1);
+  const rest = text.slice(periodIdx + 1);
+  return useEmphasis ? (
+    <>
+      <em>{first}</em>{rest}
+    </>
+  ) : <>{first}{rest}</>;
+}
+
 export function FaqAccordion({ items }: FaqAccordionProps) {
   return (
     <section className="bg-parchment py-16 lg:py-24" aria-labelledby="faq-heading">
-      <div className="mx-auto max-w-3xl px-6 lg:px-8">
+      <AnimateIn className="mx-auto max-w-3xl px-6 lg:px-8">
         <h2
           id="faq-heading"
           className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
@@ -15,9 +30,21 @@ export function FaqAccordion({ items }: FaqAccordionProps) {
           Frequently Asked Questions
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-center font-body text-lg text-text-secondary">
-          Answers to common questions about our roofing services, costs,
-          and process.
+          Answers to common questions about our process, costs,
+          and what to expect. See our{' '}
+          <Link href="/roof-replacement" className="text-copper underline hover:text-copper-dark">replacement guide</Link>{' '}
+          for detailed pricing.
         </p>
+
+        <div className="mt-8 flex justify-center">
+          <Image
+            src="/images/homeowner-roofing-options.jpg"
+            alt="reviewing options"
+            width={400}
+            height={260}
+            className="rounded-lg shadow-md"
+          />
+        </div>
 
         <div className="mt-12 divide-y divide-border">
           {items.map((item, index) => (
@@ -37,12 +64,20 @@ export function FaqAccordion({ items }: FaqAccordionProps) {
                 </svg>
               </summary>
               <div className="pb-4 font-body text-base leading-relaxed text-text-secondary">
-                {item.answer}
+                {wrapFirstSentence(item.answer, index >= 5)}
+                {item.linkHref && item.linkText && (
+                  <>
+                    {' '}
+                    <Link href={item.linkHref} className="text-copper underline hover:text-copper-dark">
+                      {item.linkText} &rarr;
+                    </Link>
+                  </>
+                )}
               </div>
             </details>
           ))}
         </div>
-      </div>
+      </AnimateIn>
     </section>
   );
 }

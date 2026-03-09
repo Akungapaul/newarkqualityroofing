@@ -30,6 +30,7 @@ import {
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { generateComboSlug } from '@/lib/slug-utils';
+import { AnimateIn } from '@/components/animations/AnimateIn';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -84,52 +85,58 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
-          <ComboOverview paragraphs={content.overview} />
+          <AnimateIn><ComboOverview paragraphs={content.overview} /></AnimateIn>
 
-          <ComboChallenges paragraphs={content.challenges} cityName={city.name} />
+          <AnimateIn><ComboChallenges paragraphs={content.challenges} cityName={city.name} /></AnimateIn>
 
           {/* Mid-content CTA -- natural break after problem, before solution */}
-          <div className="rounded-sm border-2 border-copper/30 bg-copper/5 p-6 text-center">
-            <p className="font-heading text-lg font-semibold text-forest">
-              {content.conversionHooks?.midPageCta || `Ready to discuss ${service.name.toLowerCase()} in ${city.name}?`}
-            </p>
-            {content.conversionHooks?.urgencyNote && (
-              <p className="mt-2 font-body text-sm font-medium text-copper-dark">
-                {content.conversionHooks.urgencyNote}
+          <AnimateIn>
+            <div className="rounded-sm border-2 border-copper/30 bg-copper/5 p-6 text-center">
+              <p className="font-heading text-lg font-semibold text-forest">
+                {content.conversionHooks?.midPageCta || `Ready to discuss ${service.name.toLowerCase()} in ${city.name}?`}
               </p>
-            )}
-            <p className="mt-2 font-body text-sm text-text-secondary">
-              Call us or request a free estimate
-            </p>
-            <div className="mt-3">
-              <PhoneNumber size="lg" className="text-copper font-semibold hover:text-copper-dark" />
+              {content.conversionHooks?.urgencyNote && (
+                <p className="mt-2 font-body text-sm font-medium text-copper-dark">
+                  {content.conversionHooks.urgencyNote}
+                </p>
+              )}
+              <p className="mt-2 font-body text-sm text-text-secondary">
+                Call us or request a free estimate
+              </p>
+              <div className="mt-3">
+                <PhoneNumber size="lg" className="text-copper font-semibold hover:text-copper-dark" />
+              </div>
             </div>
-          </div>
+          </AnimateIn>
 
-          <ComboProcess steps={content.process} serviceName={service.name} />
+          <AnimateIn><ComboProcess steps={content.process} serviceName={service.name} /></AnimateIn>
 
           {/* Pricing section -- after process */}
           {content.pricing && (
-            <ComboPricing
-              pricing={content.pricing}
-              serviceName={service.name}
-              cityName={city.name}
-            />
+            <AnimateIn>
+              <ComboPricing
+                pricing={content.pricing}
+                serviceName={service.name}
+                cityName={city.name}
+              />
+            </AnimateIn>
           )}
 
           {/* Why Choose Us -- before FAQs */}
           {content.whyChooseUs && content.whyChooseUs.length > 0 && (
-            <ComboWhyChooseUs reasons={content.whyChooseUs} />
+            <AnimateIn><ComboWhyChooseUs reasons={content.whyChooseUs} /></AnimateIn>
           )}
 
-          <ComboFaqs faqs={content.faqs} />
+          <AnimateIn><ComboFaqs faqs={content.faqs} /></AnimateIn>
 
-          <ComboRelatedLinks
-            nearbyCities={nearbyCities}
-            relatedServices={relatedServices}
-            parents={parentLinks}
-            cityName={city.name}
-          />
+          <AnimateIn>
+            <ComboRelatedLinks
+              nearbyCities={nearbyCities}
+              relatedServices={relatedServices}
+              parents={parentLinks}
+              cityName={city.name}
+            />
+          </AnimateIn>
         </article>
 
         {/* Sticky sidebar */}

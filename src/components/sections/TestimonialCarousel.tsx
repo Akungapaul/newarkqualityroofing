@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import type { Testimonial } from '@/data/testimonials';
+import { AnimateIn } from '@/components/animations/AnimateIn';
 
 interface TestimonialCarouselProps {
   testimonials: Testimonial[];
@@ -95,7 +96,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
 
   return (
     <section className="bg-parchment-light py-16 lg:py-24" aria-labelledby="testimonials-heading">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <AnimateIn className="mx-auto max-w-7xl px-6 lg:px-8">
         <p
           id="testimonials-heading"
           className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
@@ -162,7 +163,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
           ))}
         </div>
 
-      </div>
+      </AnimateIn>
     </section>
   );
 }

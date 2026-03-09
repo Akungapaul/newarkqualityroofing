@@ -1,18 +1,23 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import { PRICING } from '@/data/content-constants';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { AnimateIn } from '@/components/animations/AnimateIn';
 
 const pricingRows = [
-  { key: 'roof-repair' as const, label: 'Roof Repair' },
-  { key: 'roof-replacement' as const, label: 'Roof Replacement' },
-  { key: 'roof-inspection' as const, label: 'Roof Inspection' },
+  { key: 'roof-repair' as const, label: 'Roof Repair', slug: 'roof-repair' },
+  { key: 'roof-replacement' as const, label: 'Roof Replacement', slug: 'roof-replacement' },
+  { key: 'roof-inspection' as const, label: 'Roof Inspection', slug: 'roof-inspection' },
   {
     key: 'gutter-installation-repair' as const,
     label: 'Gutter Installation & Repair',
+    slug: 'gutter-installation-repair',
   },
-  { key: 'emergency-roof-repair' as const, label: 'Emergency Roof Repair' },
+  { key: 'emergency-roof-repair' as const, label: 'Emergency Roof Repair', slug: 'emergency-roof-repair' },
   {
     key: 'roof-maintenance-programs' as const,
     label: 'Roof Maintenance Program',
+    slug: 'roof-maintenance-programs',
   },
 ];
 
@@ -22,17 +27,23 @@ export function HomePricingTable() {
       className="bg-forest-dark py-16 text-text-on-dark lg:py-24"
       aria-labelledby="home-pricing-heading"
     >
-      <div className="mx-auto max-w-4xl px-6 lg:px-8">
+      <AnimateIn className="mx-auto max-w-4xl px-6 lg:px-8">
         <div className="text-center">
           <h2
             id="home-pricing-heading"
             className="font-heading text-3xl font-bold sm:text-4xl"
           >
-            Affordable Roofing Services — Pricing and Cost Guide
+            Affordable Pricing and Cost Guide
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/70">
-            Transparent pricing with no hidden fees. Every estimate includes
-            materials, labor, and cleanup.
+            Transparent pricing with <em>no-obligation</em> quotes. Roof replacement in Newark, NJ starts with a clear estimate. Every roofing quote includes
+            materials, labor, and cleanup. Get a{' '}
+            <Link href="/roof-replacement" className="text-copper-light underline hover:text-copper">replacement quote</Link>,{' '}
+            <Link href="/roof-repair" className="text-copper-light underline hover:text-copper">repairs estimate</Link>, or{' '}
+            <Link href="/emergency-roof-repair" className="text-copper-light underline hover:text-copper">emergency help</Link>,{' '}
+            <Link href="/roof-inspection" className="text-copper-light underline hover:text-copper">inspections</Link>, or{' '}
+            <Link href="/roof-maintenance-programs" className="text-copper-light underline hover:text-copper">maintenance plans</Link>{' '}
+            today.
           </p>
         </div>
 
@@ -66,7 +77,9 @@ export function HomePricingTable() {
                     }
                   >
                     <td className="px-5 py-4 font-heading text-base font-semibold text-parchment">
-                      {row.label}
+                      <Link href={`/${row.slug}`} className="underline decoration-parchment/30 hover:decoration-copper-light hover:text-copper-light transition-colors">
+                        {row.label}
+                      </Link>
                     </td>
                     <td className="px-5 py-4 font-body text-base tabular-nums text-copper-light">
                       {data.range}
@@ -81,39 +94,49 @@ export function HomePricingTable() {
           </table>
         </div>
 
+        <div className="mt-8 flex justify-center">
+          <Image
+            src="/images/affordable-roofing-estimate.jpg"
+            alt="affordable roofing estimate in Newark"
+            width={400}
+            height={260}
+            className="rounded-lg shadow-md"
+          />
+        </div>
+
         {/* PAA answers */}
         <div className="mt-10 space-y-6">
+          <h4 className="font-heading text-xl font-semibold text-copper-light">
+            Common Pricing Questions
+          </h4>
           <div>
             <p className="font-heading text-lg font-semibold text-parchment">
-              How much does a roof replacement cost in NJ?
+              How much does a replacement cost in NJ?
             </p>
             <p className="mt-2 font-body text-base leading-relaxed text-parchment/70">
               A typical residential roof replacement in New Jersey costs between
-              $8,500 and $25,000, depending on roof size, pitch, material
-              choice, and whether a full tear-off is required.{' '}
-              <strong className="text-parchment/90">
-                Newark homeowners can request a free, detailed estimate from our
-                team to get an exact figure for their home.
-              </strong>
+              $8,500 and $25,000, depending on size, pitch, material
+              choice, and whether a full tear-off is required. Request a free
+              roofing estimate to get an exact figure for your home.
             </p>
           </div>
           <div>
             <p className="font-heading text-lg font-semibold text-parchment">
-              What is the 25% rule in roofing?
+              What is the 25% rule?
             </p>
             <p className="mt-2 font-body text-base leading-relaxed text-parchment/70">
-              The 25% rule states that if more than 25% of your roof is damaged,
-              most building codes and insurance policies require a full roof
-              replacement rather than a partial roof repair. In Newark and
-              across New Jersey, this threshold often determines whether your
-              insurer covers a repair or a complete replacement.
+              If more than 25% of your roof is damaged, most building codes
+              require a full roof replacement rather than a partial repair. This
+              threshold often determines insurance coverage in NJ.
             </p>
           </div>
         </div>
 
         <div className="mt-10 text-center">
           <p className="font-body text-base text-parchment/70">
-            Prices vary by project. Call for your personalized free estimate.
+            Roofing prices vary by project. Call for your personalized free roof repair or replacement estimate.{' '}
+            <Link href="/asphalt-shingle-roofing" className="text-copper-light underline hover:text-copper">Shingle options</Link>{' '}and{' '}
+            <Link href="/flat-roof-installation-repair" className="text-copper-light underline hover:text-copper">flat roof systems</Link>{' '}available.
           </p>
           <div className="mt-4">
             <PhoneNumber
@@ -122,7 +145,7 @@ export function HomePricingTable() {
             />
           </div>
         </div>
-      </div>
+      </AnimateIn>
     </section>
   );
 }

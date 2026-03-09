@@ -101,3 +101,16 @@ body::after {
   border-radius: 1.25rem; /* 20px */
   overflow: hidden;
 }
+
+/* Button hover micro-interaction -- scale transform only (no layout shift) */
+.btn-hover {
+  transition: transform 200ms ease-out, background-color 200ms ease-out;
+}
+.btn-hover:hover {
+  transform: scale(1.02);
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn-hover:hover {
+    transform: none;
+  }
+}

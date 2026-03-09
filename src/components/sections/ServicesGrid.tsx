@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { services } from '@/data/services';
+import { AnimateIn } from '@/components/animations/AnimateIn';
+import { StaggerGrid, StaggerItem } from '@/components/animations/StaggerGrid';
 
 // Gradient backgrounds for visual variety per card
 const cardGradients: string[] = [
@@ -88,76 +90,80 @@ export function ServicesGrid() {
 
   return (
     <section className="bg-parchment py-16 lg:py-24" aria-labelledby="services-heading">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="text-center">
-          <h2
-            id="services-heading"
-            className="font-heading text-3xl font-bold text-forest sm:text-4xl"
-          >
-            Our Roofing Services
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
-            From emergency repairs to complete replacements, we deliver expert
-            craftsmanship for every project.
-          </p>
-        </div>
-
-        {/* Residential */}
-        <div className="mt-14">
-          <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
-            For Homeowners
-          </h3>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {residentialServices.map((service, i) => (
-              <ServiceCard
-                key={service.id}
-                name={service.name}
-                slug={service.slug}
-                shortDescription={service.shortDescription}
-                index={i}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* Commercial */}
-        <div className="mt-14">
-          <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
-            For Businesses
-          </h3>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {commercialServices.map((service, i) => (
-              <ServiceCard
-                key={service.id}
-                name={service.name}
-                slug={service.slug}
-                shortDescription={service.shortDescription}
-                index={i}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* View All Link */}
-        <div className="mt-12 text-center">
-          <Link
-            href="/services"
-            className="inline-flex items-center gap-2 rounded-md border-2 border-forest bg-transparent px-8 py-3 font-heading text-lg font-semibold text-forest transition-colors hover:bg-forest hover:text-text-on-dark"
-          >
-            View All Services
-            <svg
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-              aria-hidden="true"
+      <AnimateIn>
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center">
+            <h2
+              id="services-heading"
+              className="font-heading text-3xl font-bold text-forest sm:text-4xl"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+              Our Roofing Services
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
+              From emergency repairs to complete replacements, we deliver expert
+              craftsmanship for every project.
+            </p>
+          </div>
+
+          {/* Residential */}
+          <div className="mt-14">
+            <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
+              For Homeowners
+            </h3>
+            <StaggerGrid className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              {residentialServices.map((service, i) => (
+                <StaggerItem key={service.id}>
+                  <ServiceCard
+                    name={service.name}
+                    slug={service.slug}
+                    shortDescription={service.shortDescription}
+                    index={i}
+                  />
+                </StaggerItem>
+              ))}
+            </StaggerGrid>
+          </div>
+
+          {/* Commercial */}
+          <div className="mt-14">
+            <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
+              For Businesses
+            </h3>
+            <StaggerGrid className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              {commercialServices.map((service, i) => (
+                <StaggerItem key={service.id}>
+                  <ServiceCard
+                    name={service.name}
+                    slug={service.slug}
+                    shortDescription={service.shortDescription}
+                    index={i}
+                  />
+                </StaggerItem>
+              ))}
+            </StaggerGrid>
+          </div>
+
+          {/* View All Link */}
+          <div className="mt-12 text-center">
+            <Link
+              href="/services"
+              className="inline-flex items-center gap-2 rounded-md border-2 border-forest bg-transparent px-8 py-3 font-heading text-lg font-semibold text-forest transition-colors hover:bg-forest hover:text-text-on-dark"
+            >
+              View All Services
+              <svg
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+                aria-hidden="true"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
         </div>
-      </div>
+      </AnimateIn>
     </section>
   );
 }

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { AnimateIn } from '@/components/animations/AnimateIn';
 
 const residentialBullets = [
   'Asphalt shingle, slate, metal, and tile roof installations',
@@ -21,7 +22,7 @@ export function HomeResidentialCommercial() {
       className="bg-parchment py-16 lg:py-24"
       aria-labelledby="res-comm-heading"
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <AnimateIn className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section heading */}
         <h2
           id="res-comm-heading"
@@ -148,7 +149,7 @@ export function HomeResidentialCommercial() {
             </div>
           </div>
         </div>
-      </div>
+      </AnimateIn>
     </section>
   );
 }

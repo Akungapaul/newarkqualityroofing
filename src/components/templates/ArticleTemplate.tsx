@@ -14,6 +14,7 @@ import {
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { AnimateIn } from '@/components/animations/AnimateIn';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -140,24 +141,30 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
       />
 
       <article className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
-        <ArticleBody
-          intro={content.intro}
-          sections={content.sections}
-          conclusion={content.conclusion}
-        />
+        <AnimateIn>
+          <ArticleBody
+            intro={content.intro}
+            sections={content.sections}
+            conclusion={content.conclusion}
+          />
+        </AnimateIn>
 
-        <ArticleCta
-          heading={content.ctaHeading}
-          text={content.ctaText}
-          moneyPageName={links.moneyPage.name}
-          moneyPageSlug={links.moneyPage.slug}
-        />
+        <AnimateIn>
+          <ArticleCta
+            heading={content.ctaHeading}
+            text={content.ctaText}
+            moneyPageName={links.moneyPage.name}
+            moneyPageSlug={links.moneyPage.slug}
+          />
+        </AnimateIn>
 
-        <ArticleNav
-          nextArticle={links.nextArticle}
-          prevArticle={links.prevArticle}
-          moneyPage={links.moneyPage}
-        />
+        <AnimateIn>
+          <ArticleNav
+            nextArticle={links.nextArticle}
+            prevArticle={links.prevArticle}
+            moneyPage={links.moneyPage}
+          />
+        </AnimateIn>
       </article>
     </>
   );
