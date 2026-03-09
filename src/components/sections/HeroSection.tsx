@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { getServiceMenuGroups } from '@/data/nav-data';
@@ -47,21 +49,32 @@ export function HeroSection() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28">
         {/* Left: Headline + subtitle */}
         <div className="text-text-on-dark">
+          <div className="photo-treatment mb-6 inline-block">
+            <Image
+              src="/images/newark-roofing-at-work.jpg"
+              alt="Newark Quality Roofing team at work on a residential and commercial project"
+              width={120}
+              height={80}
+              className="rounded shadow-md"
+            />
+          </div>
           <h1
             id="hero-heading"
             className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
           >
-            Roof Repair in Newark NJ
+            Residential &amp; Commercial Roofing in Newark NJ
             <br />
             <span className="text-copper">
-              Trusted Roofing Contractors for Your Home
+              Licensed Contractors You Can Trust
             </span>
           </h1>
           <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
-            Newark Quality Roofing provides affordable roofing services for
-            residential roofing and commercial roof projects across Newark,
-            New Jersey. From roof repairs and roof replacement to siding and
-            gutter installation — call today for your free estimate.
+            Expert roofing services for homeowners and businesses across Newark and Essex County.
+            Repairs, replacements, flat roof systems, and more — call today for your free estimate.
+            Browse our <Link href="/services" className="underline text-copper-light hover:text-copper">full list of services</Link>,{' '}
+            <Link href="/roof-replacement" className="underline text-copper-light hover:text-copper">roof replacements</Link>,{' '}
+            <Link href="/commercial-roof-installation" className="underline text-copper-light hover:text-copper">commercial installations</Link>, or{' '}
+            <Link href="/contact" className="underline text-copper-light hover:text-copper">contact us</Link> directly.
           </p>
           <div className="mt-8 flex items-center gap-3 font-body text-parchment/70">
             <span>Or call us directly:</span>

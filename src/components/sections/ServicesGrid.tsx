@@ -1,19 +1,7 @@
 import Link from 'next/link';
 import { services } from '@/data/services';
 
-// Category display labels for section headings
-const categoryLabels: Record<string, string> = {
-  'repair-maintenance': 'Repair & Maintenance',
-  'residential-roof-types': 'Residential Roof Types',
-  'commercial-roof-types': 'Commercial Roof Types',
-  'components-specialty': 'Components & Specialty',
-  'energy-solar': 'Energy & Solar',
-  'commercial-services': 'Commercial Services',
-  'design-consultation': 'Design & Consultation',
-  'replacement-sub-pages': 'Replacement Services',
-};
-
-// Gradient backgrounds for visual variety per category
+// Gradient backgrounds for visual variety per card
 const cardGradients: string[] = [
   'from-forest-dark/95 via-forest/80 to-forest-dark/90',
   'from-forest/90 via-forest-dark/85 to-forest/95',
@@ -21,20 +9,31 @@ const cardGradients: string[] = [
 ];
 
 /**
- * Get one representative service per category, filtered by residential or commercial.
+ * Curated service slugs for a balanced 4+4 residential/commercial grid.
+ * One representative service per major category to showcase breadth.
  */
-function getRepresentativeServices(isResidential: boolean) {
-  const seen = new Set<string>();
-  const result: typeof services = [];
+const residentialSlugs = [
+  'roof-repair',                    // repair-maintenance
+  'asphalt-shingle-roofing',        // residential-roof-types
+  'gutter-installation-repair',     // components-specialty
+  'roof-replacement',               // replacement-sub-pages
+];
 
-  for (const service of services) {
-    if (isResidential ? !service.isResidential : !service.isCommercial) continue;
-    if (seen.has(service.category)) continue;
-    seen.add(service.category);
-    result.push(service);
-  }
+const commercialSlugs = [
+  'tpo-roofing-installation',       // commercial-roof-types
+  'commercial-roof-installation',   // commercial-services
+  'energy-efficient-roofing-solutions', // energy-solar
+  'epdm-commercial-roofing',        // commercial-roof-types
+];
 
-  return result;
+/** Look up a service by slug from the validated services array. */
+function getServicesBySlug(slugs: string[]) {
+  const slugSet = new Set(slugs);
+  const found = services.filter((s) => slugSet.has(s.slug));
+  // Preserve the curated order
+  return slugs
+    .map((slug) => found.find((s) => s.slug === slug))
+    .filter((s) => s !== undefined);
 }
 
 function ServiceCard({
@@ -60,12 +59,12 @@ function ServiceCard({
         className="absolute -right-8 -top-8 h-24 w-24 rotate-45 bg-copper/10 transition-transform duration-300 group-hover:rotate-[55deg]"
         aria-hidden="true"
       />
-      <p className="relative font-heading text-xl font-bold text-text-on-dark">
+      <span className="relative block font-heading text-xl font-bold text-text-on-dark">
         {name}
-      </p>
-      <p className="relative mt-2 line-clamp-2 font-body text-sm leading-relaxed text-parchment/75">
-        {shortDescription}
-      </p>
+      </span>
+      <span className="relative mt-2 block line-clamp-2 font-body text-sm leading-relaxed text-parchment/75">
+        <em>{shortDescription}</em>
+      </span>
       <span className="relative mt-4 inline-flex items-center gap-1 font-body text-sm font-semibold text-copper-light transition-colors group-hover:text-copper">
         Learn more
         <svg
@@ -84,8 +83,8 @@ function ServiceCard({
 }
 
 export function ServicesGrid() {
-  const residentialServices = getRepresentativeServices(true);
-  const commercialServices = getRepresentativeServices(false);
+  const residentialServices = getServicesBySlug(residentialSlugs);
+  const commercialServices = getServicesBySlug(commercialSlugs);
 
   return (
     <section className="bg-parchment py-16 lg:py-24" aria-labelledby="services-heading">
@@ -95,10 +94,10 @@ export function ServicesGrid() {
             id="services-heading"
             className="font-heading text-3xl font-bold text-forest sm:text-4xl"
           >
-            Our Roofing Services in Newark, NJ
+            Our Roofing Services
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
-            From emergency repairs to complete roof replacements, we deliver expert
+            From emergency repairs to complete replacements, we deliver expert
             craftsmanship for every project.
           </p>
         </div>
@@ -106,12 +105,9 @@ export function ServicesGrid() {
         {/* Residential */}
         <div className="mt-14">
           <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
-            Residential Roofing Services
+            For Homeowners
           </h3>
-          <h4 className="mb-4 font-heading text-lg font-semibold text-copper">
-            Roof Repair and Maintenance
-          </h4>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {residentialServices.map((service, i) => (
               <ServiceCard
                 key={service.id}
@@ -127,12 +123,9 @@ export function ServicesGrid() {
         {/* Commercial */}
         <div className="mt-14">
           <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
-            Commercial Roofing Services
+            For Businesses
           </h3>
-          <h4 className="mb-4 font-heading text-lg font-semibold text-copper">
-            Roofing Installation and Replacements
-          </h4>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {commercialServices.map((service, i) => (
               <ServiceCard
                 key={service.id}
