@@ -5,6 +5,7 @@ import { siteConfig } from "@/data/site-config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PreloadResources } from "./preload-resources";
+import { MotionProvider } from "@/components/animations/MotionProvider";
 import "./globals.css";
 
 const cormorant = Cormorant({
@@ -47,9 +48,11 @@ export default function RootLayout({
       </head>
       <body className="flex min-h-screen flex-col antialiased">
         <PreloadResources />
-        <Header serviceGroups={serviceGroups} cityItems={cityItems} comparisonGroups={comparisonGroups} phoneDisplay={siteConfig.phone.display} phoneTel={siteConfig.phone.tel} />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <MotionProvider>
+          <Header serviceGroups={serviceGroups} cityItems={cityItems} comparisonGroups={comparisonGroups} phoneDisplay={siteConfig.phone.display} phoneTel={siteConfig.phone.tel} />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </MotionProvider>
       </body>
     </html>
   );
