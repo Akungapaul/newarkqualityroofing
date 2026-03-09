@@ -225,7 +225,7 @@ Plans:
 **Plans**: 4 plans
 
 Plans:
-- [ ] 09-01-PLAN.md -- Editorial Trust CSS foundation: Motion install, photo treatment utility, grain texture, AnimateIn/CountUp/StaggerGrid components, MotionConfig
+- [x] 09-01-PLAN.md -- Editorial Trust CSS foundation: Motion install, photo treatment utility, grain texture, AnimateIn/CountUp/StaggerGrid components, MotionConfig
 - [ ] 09-02-PLAN.md -- Trust signals: TrustBar redesign (text-only, SVG icons, count-up), TestimonialCarousel (aggregate rating, no outbound links), CompactTestimonial, BeforeAfterGallery
 - [ ] 09-03-PLAN.md -- Animations: hero entrance orchestration, header scroll shrink, floating CTA entrance, section AnimateIn wrappers across all templates
 - [ ] 09-04-PLAN.md -- Residential/commercial balance: unified hero headline, 50/50 split section, balanced services grid, footer restructure, commercial badge
@@ -246,8 +246,8 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 | 6. Programmatic Scale | 23/23 | Complete   | 2026-03-08 |
 | 7. Supporting Content | 9/10 | In Progress|  |
 | 8. SEO Infrastructure | 4/4 | Complete   | 2026-03-09 |
-| 9. Conversion and Design Polish | 0/4 | Not started | - |
+| 9. Conversion and Design Polish | 1/4 | In Progress | - |
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-09 -- Phase 9 planned (4 plans across 2 waves)*
+*Last updated: 2026-03-09 -- Phase 9 in progress (09-01 complete: Motion + CSS foundation)*
