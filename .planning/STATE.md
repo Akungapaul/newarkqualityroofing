@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in-progress
-stopped_at: Completed 09-01-PLAN.md
-last_updated: "2026-03-09T17:31:15Z"
+status: executing
+stopped_at: Completed 09-04-PLAN.md
+last_updated: "2026-03-09T17:39:09.509Z"
 last_activity: 2026-03-09 -- Completed 09-01 (Motion + Editorial Trust CSS + animation components)
 progress:
   total_phases: 9
   completed_phases: 8
   total_plans: 81
-  completed_plans: 78
-  percent: 96
+  completed_plans: 79
+  percent: 98
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 ## Current Position
 
 Phase: 9 of 9 (Conversion and Design Polish)
-Plan: 1 of 4 in current phase (09-01 complete)
+Plan: 2 of 4 in current phase (09-01, 09-04 complete)
 Status: Phase 9 in progress
-Last activity: 2026-03-09 -- Completed 09-01 (Motion + Editorial Trust CSS + animation components)
+Last activity: 2026-03-09 -- Completed 09-04 (Residential/commercial balance: hero, split section, grid, footer, badge)
 
-Progress: [█████████░] 96%
+Progress: [██████████] 98%
 
 ## Performance Metrics
 
@@ -84,6 +84,7 @@ Progress: [█████████░] 96%
 | Phase 08 P01 | 3min | 2 tasks | 8 files |
 | Phase 08 P04 | 5min | 2 tasks | 7 files |
 | Phase 09 P01 | 3min | 2 tasks | 7 files |
+| Phase 09 P04 | 3min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -241,6 +242,10 @@ Recent decisions affecting current work:
 - [Phase 08-04]: tsx installed as devDependency for npm script execution
 - [09-01]: MotionProvider client wrapper keeps layout.tsx as server component while providing app-wide reducedMotion config
 - [09-01]: as const on motion variants prevents TypeScript string widening for ease property type
+- [Phase 09]: ServicesGrid uses curated slug arrays instead of dynamic category filtering for exact 4+4 balance
+- [Phase 09]: Footer uses curated slug-based service lists (10 residential + 10 commercial) instead of category-limit approach
+- [Phase 09]: LeadForm commercial balance verified as adequate (no-op) -- commercial categories at positions 3 and 6 in optgroup order
+- [Phase 09]: Commercial badge only shown for commercial-roof-types and commercial-services categories (not mixed services)
 
 ### Pending Todos
 
@@ -359,6 +364,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-09T17:31:15Z
-Stopped at: Completed 09-01-PLAN.md
-Resume file: .planning/phases/09-conversion-and-design-polish/09-02-PLAN.md
+Last session: 2026-03-09T17:39:09.507Z
+Stopped at: Completed 09-04-PLAN.md
+Resume file: None

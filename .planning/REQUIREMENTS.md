@@ -139,13 +139,13 @@
 - [ ] **DSGN-03**: Testimonials section with star ratings (placeholder content initially)
 - [ ] **DSGN-04**: Before/after project gallery with CSS brand treatment on stock photos
 - [x] **DSGN-05**: Curated stock photos with CSS warm tone filter, grain texture, consistent cropping
-- [ ] **DSGN-06**: 50/50 residential and commercial content split throughout site
+- [x] **DSGN-06**: 50/50 residential and commercial content split throughout site
 - [ ] **DSGN-07**: Animations and micro-interactions using motion library
 - [x] **DSGN-08**: Rounded corners, organic shapes, grain texture per Editorial Trust aesthetic
 
 ### Content — Residential/Commercial Split
 
-- [ ] **CONT-01**: Homepage addresses both homeowners and business owners equally
+- [x] **CONT-01**: Homepage addresses both homeowners and business owners equally
 - [x] **CONT-02**: Service pages have residential AND commercial sections
 - [x] **CONT-03**: Commercial-specific service pages (commercial install, repair, replacement, thermal imaging, infrared detection)
 - [x] **CONT-04**: City pages cover both residential and commercial roofing needs
@@ -288,10 +288,10 @@
 | DSGN-03 | Phase 9 | Pending |
 | DSGN-04 | Phase 9 | Pending |
 | DSGN-05 | Phase 9 | Complete |
-| DSGN-06 | Phase 9 | Pending |
+| DSGN-06 | Phase 9 | Complete |
 | DSGN-07 | Phase 9 | Pending |
 | DSGN-08 | Phase 9 | Complete |
-| CONT-01 | Phase 9 | Pending |
+| CONT-01 | Phase 9 | Complete |
 
 **Coverage:**
 - v1 requirements: 101 total (corrected from initial estimate of 75)
