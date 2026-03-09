@@ -10,6 +10,8 @@ import { corePages } from '@/data/core-pages';
 import { getCityContent } from '@/data/city-content';
 import { getComboContent } from '@/data/combo-content';
 import { getComparisonContent } from '@/data/comparison-content';
+import { generateCityPageSlug } from '@/lib/slug-utils';
+import { SEO_CONFIG } from '@/lib/seo-config';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -28,6 +30,27 @@ export const dynamicParams = false;
 
 // ─── Metadata ────────────────────────────────────────────────────────────────
 
+/** Pages that should have robots noindex */
+const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy']);
+
+/** Build OG metadata for a page */
+function buildOG(title: string, description: string, slug: string, type: 'website' | 'article' = 'website') {
+  return {
+    title,
+    description,
+    url: `/${slug}`,
+    siteName: SEO_CONFIG.SITE_NAME,
+    type,
+    images: [
+      {
+        url: SEO_CONFIG.OG_IMAGE.url,
+        width: SEO_CONFIG.OG_IMAGE.width,
+        height: SEO_CONFIG.OG_IMAGE.height,
+      },
+    ],
+  };
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -40,18 +63,24 @@ export async function generateMetadata({
   switch (pageData.type) {
     case 'service': {
       const service = services.find((s) => s.id === pageData.serviceId);
+      if (!service) return {};
       return {
-        title: service?.metaTitle,
-        description: service?.metaDescription,
+        title: service.metaTitle,
+        description: service.metaDescription,
+        alternates: { canonical: `/${service.slug}` },
+        openGraph: buildOG(service.metaTitle, service.metaDescription, service.slug),
       };
     }
     case 'city': {
       const city = cities.find((c) => c.id === pageData.cityId);
       if (!city) return {};
       const cityContent = getCityContent(city.id);
+      const citySlug = generateCityPageSlug(city.slug);
       return {
         title: cityContent.metaTitle,
         description: cityContent.metaDescription,
+        alternates: { canonical: `/${citySlug}` },
+        openGraph: buildOG(cityContent.metaTitle, cityContent.metaDescription, citySlug),
       };
     }
     case 'combo': {
@@ -72,6 +101,8 @@ export async function generateMetadata({
       return {
         title: combo.metaTitle,
         description: comboDescription,
+        alternates: { canonical: `/${combo.slug}` },
+        openGraph: buildOG(combo.metaTitle, comboDescription, combo.slug),
       };
     }
     case 'comparison': {
@@ -90,21 +121,34 @@ export async function generateMetadata({
       return {
         title: comparison.metaTitle,
         description,
+        alternates: { canonical: `/${comparison.slug}` },
+        openGraph: buildOG(comparison.metaTitle, description, comparison.slug),
       };
     }
     case 'article': {
       const article = articles.find((a) => a.id === pageData.articleId);
+      if (!article) return {};
       return {
-        title: article?.metaTitle,
-        description: article?.metaDescription,
+        title: article.metaTitle,
+        description: article.metaDescription,
+        alternates: { canonical: `/${article.slug}` },
+        openGraph: buildOG(article.metaTitle, article.metaDescription, article.slug, 'article'),
       };
     }
     case 'core': {
       const corePage = corePages.find((c) => c.id === pageData.corePageId);
-      return {
-        title: corePage?.metaTitle,
-        description: corePage?.metaDescription,
+      if (!corePage) return {};
+      const base: Metadata = {
+        title: corePage.metaTitle,
+        description: corePage.metaDescription,
+        alternates: { canonical: `/${corePage.slug}` },
+        openGraph: buildOG(corePage.metaTitle, corePage.metaDescription, corePage.slug),
       };
+      // Add noindex for thank-you and privacy-policy pages
+      if (NOINDEX_PAGES.has(corePage.id)) {
+        base.robots = { index: false, follow: false };
+      }
+      return base;
     }
     default:
       return {};

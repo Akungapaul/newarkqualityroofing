@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant, Cormorant_Garamond } from "next/font/google";
-import { getServiceMenuGroups, getCityMenuItems } from "@/data/nav-data";
+import { getServiceMenuGroups, getCityMenuItems, getComparisonMenuGroups } from "@/data/nav-data";
 import { siteConfig } from "@/data/site-config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -21,6 +21,7 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.newarkqualityroofing.com'),
   title: "Newark Quality Roofing | Expert Roofing Services in Essex County, NJ",
   description:
     "Professional roofing contractor serving Essex County and Northern New Jersey. Expert roof repair, replacement, and installation with free estimates and licensed, insured service.",
@@ -36,6 +37,7 @@ export default function RootLayout({
 }>) {
   const serviceGroups = getServiceMenuGroups();
   const cityItems = getCityMenuItems();
+  const comparisonGroups = getComparisonMenuGroups();
 
   return (
     <html lang="en" className={`${cormorant.variable} ${cormorantGaramond.variable}`}>
@@ -43,7 +45,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#1A3A2A" />
       </head>
       <body className="flex min-h-screen flex-col antialiased">
-        <Header serviceGroups={serviceGroups} cityItems={cityItems} phoneDisplay={siteConfig.phone.display} phoneTel={siteConfig.phone.tel} />
+        <Header serviceGroups={serviceGroups} cityItems={cityItems} comparisonGroups={comparisonGroups} phoneDisplay={siteConfig.phone.display} phoneTel={siteConfig.phone.tel} />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

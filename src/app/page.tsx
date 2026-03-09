@@ -12,6 +12,8 @@ import { TestimonialCarousel } from '@/components/sections/TestimonialCarousel';
 import { LocationsGrid } from '@/components/sections/LocationsGrid';
 import { FaqAccordion } from '@/components/sections/FaqAccordion';
 import { HomepageGuides } from '@/components/sections/HomepageGuides';
+import { HomeComparisonGrid } from '@/components/sections/HomeComparisonGrid';
+import { getComparisonMenuGroups } from '@/data/nav-data';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { testimonials } from '@/data/testimonials';
 import { faqItems } from '@/data/faq';
@@ -22,6 +24,24 @@ export const metadata: Metadata = {
   title: 'Roof Repair in Newark NJ | Quality Local Contractors',
   description:
     'Trusted local roof repair services in Newark, NJ. Residential and commercial projects — replacements, inspections, siding, and gutters. Call for a free quote.',
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Roof Repair in Newark NJ | Quality Local Contractors',
+    description:
+      'Trusted local roof repair services in Newark, NJ. Residential and commercial projects — replacements, inspections, siding, and gutters. Call for a free quote.',
+    url: '/',
+    siteName: 'Newark Quality Roofing',
+    type: 'website',
+    images: [
+      {
+        url: '/images/og-default.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 };
 
 
@@ -134,6 +154,8 @@ function HomeJsonLd() {
 }
 
 export default function Home() {
+  const comparisonGroups = getComparisonMenuGroups();
+
   // Homepage articles: core articles linked to homepage, sorted by position
   const homepageArticles = articles
     .filter((a) => a.parentType === 'core' && a.parentId === 'homepage')
@@ -209,6 +231,9 @@ export default function Home() {
 
       {/* FAQ: common questions, no-JS accordion — H2 */}
       <FaqAccordion items={faqItems} />
+
+      {/* Compare Roofing Options: categorized comparison links */}
+      <HomeComparisonGrid groups={comparisonGroups} />
 
       {/* Roofing Guides: editorial cards linking to homepage articles */}
       {homepageArticles.length > 0 && <HomepageGuides articles={homepageArticles} />}
