@@ -23,9 +23,37 @@ export const siteConfig = {
   ],
 
   trustStats: [
-    { label: 'Roofs Completed', value: '500+' },
-    { label: 'Years Experience', value: '15+' },
-    { label: 'Star Rating', value: '5.0' },
-    { label: 'Licensed & Insured', value: 'Yes' },
+    {
+      label: 'Roofs Completed',
+      value: '500+',
+      numericValue: 500,
+      suffix: '+',
+      prefix: '',
+      icon: 'checkmark' as const,
+    },
+    {
+      label: 'Years Experience',
+      value: '15+',
+      numericValue: 15,
+      suffix: '+',
+      prefix: '',
+      icon: 'clock' as const,
+    },
+    {
+      label: 'Star Rating',
+      value: '5.0',
+      numericValue: 5,
+      suffix: '.0',
+      prefix: '',
+      icon: 'certificate' as const,
+    },
+    {
+      label: 'Licensed & Insured',
+      value: 'Yes',
+      numericValue: null,
+      suffix: '',
+      prefix: '',
+      icon: 'shield' as const,
+    },
   ],
 } as const;
