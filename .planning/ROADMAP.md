@@ -222,13 +222,13 @@ Plans:
   3. Testimonials section with star ratings and before/after project gallery with CSS brand treatment are visible on appropriate pages
   4. Page load animations, scroll-triggered reveals, and hover micro-interactions are present using the motion library
   5. The homepage addresses both homeowners and business owners equally with balanced residential/commercial messaging
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 09-01: Editorial Trust design implementation (grain, rounded corners, organic shapes, CSS photo treatment)
-- [ ] 09-02: Trust signals (trust bar, testimonials, star ratings, before/after gallery)
-- [ ] 09-03: Animations and micro-interactions (page load orchestration, scroll triggers, hover states)
-- [ ] 09-04: Residential/commercial content balance audit, homepage messaging, 50/50 split enforcement
+- [ ] 09-01-PLAN.md -- Editorial Trust CSS foundation: Motion install, photo treatment utility, grain texture, AnimateIn/CountUp/StaggerGrid components, MotionConfig
+- [ ] 09-02-PLAN.md -- Trust signals: TrustBar redesign (text-only, SVG icons, count-up), TestimonialCarousel (aggregate rating, no outbound links), CompactTestimonial, BeforeAfterGallery
+- [ ] 09-03-PLAN.md -- Animations: hero entrance orchestration, header scroll shrink, floating CTA entrance, section AnimateIn wrappers across all templates
+- [ ] 09-04-PLAN.md -- Residential/commercial balance: unified hero headline, 50/50 split section, balanced services grid, footer restructure, commercial badge
 
 ## Progress
 
@@ -250,4 +250,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-09 -- Phase 8 planned (4 plans across 3 waves)*
+*Last updated: 2026-03-09 -- Phase 9 planned (4 plans across 2 waves)*
