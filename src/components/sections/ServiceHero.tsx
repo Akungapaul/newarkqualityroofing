@@ -62,6 +62,12 @@ export function ServiceHero({ service, serviceGroups, benefits }: ServiceHeroPro
         <div className="grid items-center gap-10 lg:grid-cols-5 lg:gap-16">
           {/* Left: Headline + benefits */}
           <div className="text-text-on-dark lg:col-span-3">
+            {/* Commercial badge pill -- shown for commercial-only categories */}
+            {(service.category === 'commercial-roof-types' || service.category === 'commercial-services') && (
+              <span className="mb-4 inline-block rounded-full bg-copper px-3 py-1 font-body text-xs font-semibold uppercase tracking-wider text-text-on-copper">
+                Commercial
+              </span>
+            )}
             <h1
               id="service-hero-heading"
               className="font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"

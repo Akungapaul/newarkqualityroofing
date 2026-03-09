@@ -1,80 +1,81 @@
 import Link from 'next/link';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
-import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
+import { comparisons } from '@/data/comparisons';
+import { generateCityPageSlug } from '@/lib/slug-utils';
 
-// ─── Category config for footer service display ─────────────────────────────
+// ─── Curated residential services for footer ────────────────────────────────
 
-const footerCategories: { category: string; label: string; limit: number }[] = [
-  { category: 'repair-maintenance', label: 'Repair & Maintenance', limit: 5 },
-  { category: 'residential-roof-types', label: 'Residential Roofing', limit: 4 },
-  { category: 'commercial-roof-types', label: 'Commercial Roofing', limit: 4 },
-  { category: 'components-specialty', label: 'Components & Specialty', limit: 4 },
-  { category: 'energy-solar', label: 'Energy & Solar', limit: 4 },
-  { category: 'commercial-services', label: 'Commercial Services', limit: 3 },
+const residentialFooterSlugs = [
+  'roof-repair',
+  'roof-replacement',
+  'asphalt-shingle-roofing',
+  'metal-roof-installation-repair',
+  'slate-roof-installation-repair',
+  'roof-inspection',
+  'storm-damage-roof-repair',
+  'gutter-installation-repair',
+  'skylight-installation-repair',
+  'roof-maintenance-programs',
 ];
 
-// ─── Popular combo links for footer mega-links ─────────────────────────────
+// ─── Curated commercial services for footer ─────────────────────────────────
 
-const footerComboLinks: { city: string; citySlug: string; services: { name: string; serviceSlug: string }[] }[] = [
+const commercialFooterSlugs = [
+  'commercial-roof-installation',
+  'commercial-roof-repair',
+  'commercial-roof-replacement',
+  'tpo-roofing-installation',
+  'epdm-commercial-roofing',
+  'flat-roof-installation-repair',
+  'roof-thermal-imaging-inspections',
+  'silicone-roof-coating',
+  'energy-efficient-roofing-solutions',
+  'roof-waterproofing',
+];
+
+// ─── Curated comparison links for footer ────────────────────────────────────
+
+const footerComparisonSlugs: { category: string; label: string; slugs: string[] }[] = [
   {
-    city: 'Newark',
-    citySlug: 'newark',
-    services: [
-      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
-      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
-      { name: 'Emergency Roof Repair', serviceSlug: 'emergency-roof-repair' },
-      { name: 'Roof Leak Repair', serviceSlug: 'roof-leak-repair' },
-      { name: 'Flat Roof Installation', serviceSlug: 'flat-roof-installation-repair' },
+    category: 'material-vs-material',
+    label: 'Materials',
+    slugs: [
+      'asphalt-shingles-vs-metal-roofing',
+      'slate-vs-tile-roofing',
+      'tpo-vs-epdm-roofing',
+      'architectural-vs-3-tab-shingles',
     ],
   },
   {
-    city: 'Montclair',
-    citySlug: 'montclair',
-    services: [
-      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
-      { name: 'Slate Roof Repair', serviceSlug: 'slate-roof-installation-repair' },
-      { name: 'Historic Roof Restoration', serviceSlug: 'historic-roof-restoration' },
-      { name: 'Roof Inspection', serviceSlug: 'roof-inspection' },
+    category: 'service-vs-service',
+    label: 'Services',
+    slugs: [
+      'roof-repair-vs-replacement',
+      'roof-overlay-vs-tear-off',
+      'diy-vs-professional-roof-repair',
     ],
   },
   {
-    city: 'Bloomfield',
-    citySlug: 'bloomfield',
-    services: [
-      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
-      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
-      { name: 'Storm Damage Repair', serviceSlug: 'storm-damage-roof-repair' },
-    ],
-  },
-  {
-    city: 'East Orange',
-    citySlug: 'east-orange',
-    services: [
-      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
-      { name: 'Flat Roof Repair', serviceSlug: 'flat-roof-installation-repair' },
-      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
-    ],
-  },
-  {
-    city: 'West Orange',
-    citySlug: 'west-orange',
-    services: [
-      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
-      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
-      { name: 'Roof Inspection', serviceSlug: 'roof-inspection' },
-    ],
-  },
-  {
-    city: 'Belleville',
-    citySlug: 'belleville',
-    services: [
-      { name: 'Roof Repair', serviceSlug: 'roof-repair' },
-      { name: 'Roof Replacement', serviceSlug: 'roof-replacement' },
-      { name: 'Storm Damage Repair', serviceSlug: 'storm-damage-roof-repair' },
+    category: 'decision-helper',
+    label: 'Decisions',
+    slugs: [
+      'best-roofing-material-nj-weather',
+      'best-roofing-for-flat-roofs',
+      'cheapest-vs-most-durable-roofing',
     ],
   },
 ];
+
+/** Look up services by slug in the validated array */
+function getServiceLinksBySlugs(slugs: string[]) {
+  const slugSet = new Set(slugs);
+  const found = services.filter((s) => slugSet.has(s.slug));
+  return slugs
+    .map((slug) => found.find((s) => s.slug === slug))
+    .filter((s) => s !== undefined)
+    .map((s) => ({ name: s.name, slug: s.slug }));
+}
 
 // ─── Footer component (server component) ───────────────────────────────────
 
@@ -85,19 +86,24 @@ export function Footer() {
     state: city.state,
   }));
 
-  const servicesByCategory = footerCategories.map((cat) => ({
-    ...cat,
-    services: services
-      .filter((s) => s.category === cat.category)
-      .slice(0, cat.limit)
-      .map((s) => ({ name: s.name, slug: s.slug })),
+  const residentialServiceLinks = getServiceLinksBySlugs(residentialFooterSlugs);
+  const commercialServiceLinks = getServiceLinksBySlugs(commercialFooterSlugs);
+
+  // Build comparison lookup
+  const comparisonBySlug = new Map(comparisons.map((c) => [c.slug, c]));
+  const footerGuideLinks = footerComparisonSlugs.map((group) => ({
+    ...group,
+    items: group.slugs
+      .map((slug) => comparisonBySlug.get(slug))
+      .filter((c) => c !== undefined)
+      .map((c) => ({ name: c.name, slug: c.slug })),
   }));
 
   return (
     <footer className="bg-forest-dark text-text-on-dark" role="contentinfo">
       {/* Main footer grid */}
       <div className="mx-auto max-w-7xl px-4 pb-12 pt-16 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5 lg:gap-8">
           {/* Column 1: Company info + NAP */}
           <div className="lg:col-span-1">
             <Link
@@ -167,9 +173,9 @@ export function Footer() {
 
           {/* Column 2: Service areas (cities) */}
           <div>
-            <h3 className="mb-4 font-heading text-sm font-bold uppercase tracking-widest text-copper">
+            <span className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
               Service Areas
-            </h3>
+            </span>
             <ul className="grid grid-cols-2 gap-x-4 gap-y-1">
               {cityLinks.map((city) => (
                 <li key={city.slug}>
@@ -177,32 +183,32 @@ export function Footer() {
                     href={`/${city.slug}`}
                     className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                   >
-                    Roofing in {city.name}
+                    {city.name}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Columns 3-4: Services by category */}
-          <div className="lg:col-span-2">
-            <h3 className="mb-4 font-heading text-sm font-bold uppercase tracking-widest text-copper">
-              Our Services
-            </h3>
-            <div className="grid grid-cols-2 gap-x-8 gap-y-5 sm:grid-cols-3">
-              {servicesByCategory.map((cat) => (
-                <div key={cat.category}>
-                  <h4 className="mb-1.5 font-heading text-xs font-bold uppercase tracking-wider text-parchment/50">
-                    {cat.label}
-                  </h4>
+          {/* Column 3: Roofing Guides */}
+          <div>
+            <span className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
+              Roofing Guides
+            </span>
+            <div className="space-y-4">
+              {footerGuideLinks.map((group) => (
+                <div key={group.category}>
+                  <span className="mb-1.5 block font-heading text-xs font-bold uppercase tracking-wider text-parchment/50">
+                    {group.label}
+                  </span>
                   <ul className="space-y-0.5">
-                    {cat.services.map((service) => (
-                      <li key={service.slug}>
+                    {group.items.map((item) => (
+                      <li key={item.slug}>
                         <Link
-                          href={`/${service.slug}`}
+                          href={`/${item.slug}`}
                           className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
                         >
-                          {service.name}
+                          {item.name}
                         </Link>
                       </li>
                     ))}
@@ -211,40 +217,50 @@ export function Footer() {
               ))}
             </div>
           </div>
-        </div>
 
-        {/* Popular services by city (combo mega-links) */}
-        <div className="mt-10 border-t border-forest-light/20 pt-8">
-          <h3 className="mb-5 font-heading text-sm font-bold uppercase tracking-widest text-copper">
-            Popular Services by City
-          </h3>
-          <div className="grid grid-cols-2 gap-x-8 gap-y-5 sm:grid-cols-3 lg:grid-cols-6">
-            {footerComboLinks.map((group) => (
-              <div key={group.citySlug}>
-                <h4 className="mb-1.5 font-heading text-xs font-bold uppercase tracking-wider text-parchment/50">
-                  {group.city}
-                </h4>
-                <ul className="space-y-0.5">
-                  {group.services.map((svc) => (
-                    <li key={svc.serviceSlug}>
-                      <Link
-                        href={`/${generateComboSlug(svc.serviceSlug, group.citySlug)}`}
-                        className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
-                      >
-                        {svc.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+          {/* Column 4: Services (Residential) */}
+          <div>
+            <span className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
+              Services (Residential)
+            </span>
+            <ul className="space-y-0.5">
+              {residentialServiceLinks.map((service) => (
+                <li key={service.slug}>
+                  <Link
+                    href={`/${service.slug}`}
+                    className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+                  >
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 5: Services (Commercial) */}
+          <div>
+            <span className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
+              Services (Commercial)
+            </span>
+            <ul className="space-y-0.5">
+              {commercialServiceLinks.map((service) => (
+                <li key={service.slug}>
+                  <Link
+                    href={`/${service.slug}`}
+                    className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+                  >
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 
         {/* Mini lead form placeholder */}
         <div className="mt-12 rounded-lg border border-forest-light/20 bg-forest/40 p-6 text-center">
           <p className="font-heading text-lg font-semibold text-parchment">
-            Ready for a Free Roof Estimate?
+            Ready for a Free Estimate?
           </p>
           <p className="mt-1 font-body text-sm text-parchment/60">
             Contact us today for a no-obligation inspection and quote.
