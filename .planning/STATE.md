@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Phase 8 context gathered
-last_updated: "2026-03-09T07:19:27.283Z"
-last_activity: 2026-03-09 -- Completed 07-10-PLAN.md (final integration and verification of Phase 7)
+status: executing
+stopped_at: Completed 08-01-PLAN.md
+last_updated: "2026-03-09T07:54:32.619Z"
+last_activity: 2026-03-09 -- Completed 08-01-PLAN.md (crawlability foundation)
 progress:
   total_phases: 9
   completed_phases: 7
-  total_plans: 73
-  completed_plans: 73
-  percent: 100
+  total_plans: 77
+  completed_plans: 74
+  percent: 96
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 7 complete -- 30 comparisons + 252 articles + reverse silo linking verified. Ready for Phase 8.
+**Current focus:** Phase 8 in progress -- SEO infrastructure: crawlability foundation complete, structured data next.
 
 ## Current Position
 
-Phase: 7 of 9 (Supporting Content) -- COMPLETE
-Plan: 10 of 10 in current phase
-Status: Phase 07 complete
-Last activity: 2026-03-09 -- Completed 07-10-PLAN.md (final integration and verification of Phase 7)
+Phase: 8 of 9 (SEO Infrastructure)
+Plan: 1 of 4 in current phase
+Status: Executing phase 08
+Last activity: 2026-03-09 -- Completed 08-01-PLAN.md (crawlability foundation)
 
-Progress: [██████████] 100%
+Progress: [██████████] 96%
 
 ## Performance Metrics
 
@@ -81,6 +81,7 @@ Progress: [██████████] 100%
 | Phase 07 P08 | 64min | 2 tasks | 2 files |
 | Phase 07 P09 | 3min | 2 tasks | 7 files |
 | Phase 07 P10 | 7min | 2 tasks | 0 files |
+| Phase 08 P01 | 3min | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -228,6 +229,9 @@ Recent decisions affecting current work:
 - [Phase 07-09]: Learn More sections placed after FAQ, before sidebar close (last content section before related services)
 - [Phase 07]: Comparison metadata update pre-committed in 62039ee; Task 1 focused on build verification and programmatic silo validation
 - [Phase 07]: 30 comparison page orphans are expected (standalone content, not navigation-linked); 0 new orphans from 252 articles
+- [Phase 08]: SEO_CONFIG as single exported constant object for shared SEO values (BASE_URL, OG_IMAGE, SITE_NAME)
+- [Phase 08]: 6 type-split sitemap IDs (core, services, cities, combos, comparisons, articles) via generateSitemaps()
+- [Phase 08]: buildOG helper and NOINDEX_PAGES set in [slug]/page.tsx for DRY OG and noindex management
 
 ### Pending Todos
 
@@ -331,6 +335,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-09T07:19:27.279Z
-Stopped at: Phase 8 context gathered
-Resume file: .planning/phases/08-seo-infrastructure/08-CONTEXT.md
+Last session: 2026-03-09T07:54:32.616Z
+Stopped at: Completed 08-01-PLAN.md
+Resume file: None

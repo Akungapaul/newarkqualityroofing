@@ -88,13 +88,13 @@
 
 ### SEO — Technical
 
-- [ ] **SEOT-01**: XML sitemap auto-generated, split by page type
-- [ ] **SEOT-02**: HTML sitemap (crawlable page listing all URLs)
-- [ ] **SEOT-03**: robots.txt
-- [ ] **SEOT-04**: Canonical tags on every page
+- [x] **SEOT-01**: XML sitemap auto-generated, split by page type
+- [x] **SEOT-02**: HTML sitemap (crawlable page listing all URLs)
+- [x] **SEOT-03**: robots.txt
+- [x] **SEOT-04**: Canonical tags on every page
 - [ ] **SEOT-05**: Core Web Vitals optimized (LCP, FID, CLS)
 - [ ] **SEOT-06**: Breadcrumbs on all pages
-- [ ] **SEOT-07**: Flat URL structure (no nesting)
+- [x] **SEOT-07**: Flat URL structure (no nesting)
 - [ ] **SEOT-08**: No page more than 3 clicks from homepage
 
 ### SEO — Schema Markup
@@ -265,13 +265,13 @@
 | ARTL-03 | Phase 7 | Complete |
 | ARTL-04 | Phase 7 | Complete |
 | ARTL-05 | Phase 7 | Complete |
-| SEOT-01 | Phase 8 | Pending |
-| SEOT-02 | Phase 8 | Pending |
-| SEOT-03 | Phase 8 | Pending |
-| SEOT-04 | Phase 8 | Pending |
+| SEOT-01 | Phase 8 | Complete |
+| SEOT-02 | Phase 8 | Complete |
+| SEOT-03 | Phase 8 | Complete |
+| SEOT-04 | Phase 8 | Complete |
 | SEOT-05 | Phase 8 | Pending |
 | SEOT-06 | Phase 8 | Pending |
-| SEOT-07 | Phase 8 | Pending |
+| SEOT-07 | Phase 8 | Complete |
 | SEOT-08 | Phase 8 | Pending |
 | SCHM-01 | Phase 8 | Pending |
 | SCHM-02 | Phase 8 | Pending |
