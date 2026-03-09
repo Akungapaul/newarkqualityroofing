@@ -16,6 +16,7 @@
     "seo:validate": "tsx scripts/validate-flat-urls.ts && tsx scripts/validate-click-depth.ts && tsx scripts/validate-topical-map.ts"
   },
   "dependencies": {
+    "motion": "^12.35.2",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
