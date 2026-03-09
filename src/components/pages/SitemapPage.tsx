@@ -169,23 +169,40 @@ export default function SitemapPage() {
           {/* Service Comparisons */}
           <section className="mb-10">
             <h2 className="mb-4 border-b border-border pb-2 font-heading text-2xl font-bold text-forest">
-              Service Comparisons
+              Roofing Guides &amp; Comparisons
               <span className="ml-2 font-body text-base font-normal text-text-secondary">
                 ({comparisons.length})
               </span>
             </h2>
-            <ul className="grid gap-1.5 sm:grid-cols-2">
-              {comparisons.map((comparison) => (
-                <li key={comparison.id}>
-                  <a
-                    href={`/${comparison.slug}`}
-                    className="font-body text-sm text-copper underline-offset-2 hover:underline"
-                  >
-                    {comparison.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <div className="space-y-6">
+              {[
+                { category: 'material-vs-material', label: 'Material Comparisons' },
+                { category: 'service-vs-service', label: 'Service Comparisons' },
+                { category: 'decision-helper', label: 'Decision Guides' },
+              ].map(({ category, label }) => {
+                const items = comparisons.filter((c) => c.category === category);
+                if (items.length === 0) return null;
+                return (
+                  <div key={category}>
+                    <h3 className="mb-2 font-heading text-lg font-semibold text-forest-dark">
+                      {label}
+                    </h3>
+                    <ul className="grid gap-1.5 pl-4 sm:grid-cols-2">
+                      {items.map((comparison) => (
+                        <li key={comparison.id}>
+                          <a
+                            href={`/${comparison.slug}`}
+                            className="font-body text-sm text-copper underline-offset-2 hover:underline"
+                          >
+                            {comparison.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+            </div>
           </section>
 
           {/* Service + City Pages */}
