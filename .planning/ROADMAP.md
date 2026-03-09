@@ -195,7 +195,7 @@ Plans:
 - [ ] 07-10-PLAN.md -- Final integration: metadata update, build verification, link chain validation, visual checkpoint
 
 ### Phase 8: SEO Infrastructure
-**Goal**: Complete technical SEO, schema markup, and semantic optimization are in place across all ~1,697 pages
+**Goal**: Complete technical SEO, schema markup, and semantic optimization are in place across all ~1,744 pages
 **Depends on**: Phase 6
 **Requirements**: SEOT-01, SEOT-02, SEOT-03, SEOT-04, SEOT-05, SEOT-06, SEOT-07, SEOT-08, SCHM-01, SCHM-02, SCHM-03, SCHM-04, SEMA-01, SEMA-02, SEMA-03, SEMA-04, SEMA-05, SEMA-07
 **Success Criteria** (what must be TRUE):
@@ -204,13 +204,13 @@ Plans:
   3. LocalBusiness schema renders on homepage, contact page, and city pages; Service schema on service and combo pages; FAQ schema on pages with FAQ sections; Breadcrumb schema on all pages
   4. Every page has an H1 with primary keyword + location, H2s with secondary keywords, and H3s with long-tail/FAQ keywords
   5. Core Web Vitals pass (LCP < 2.5s, FID < 100ms, CLS < 0.1) on representative pages across all templates
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 08-01: XML sitemaps (split by type), HTML sitemap updates, robots.txt, canonical tags
-- [ ] 08-02: Schema markup generators (LocalBusiness, Service, FAQ, Breadcrumb) with per-page-type strategy
-- [ ] 08-03: Semantic heading audit (H1/H2/H3 keyword mapping), NLP content optimization, topical map validation
-- [ ] 08-04: Core Web Vitals optimization, 3-click depth validation, flat URL audit, AI detection QA pass
+- [ ] 08-01-PLAN.md -- XML sitemaps (split by type), robots.txt, canonical tags, OG tags, seo-config, trailingSlash config
+- [ ] 08-02-PLAN.md -- Schema markup utility library (10 builder functions) and JSON-LD wiring into all 7 page types
+- [ ] 08-03-PLAN.md -- Semantic HTML upgrades, heading audit, meta audit, anchor text rotation, enhanced 404 page
+- [ ] 08-04-PLAN.md -- Validation scripts (3-click depth, flat URLs, topical map, cannibalization), preconnect hints, final integration
 
 ### Phase 9: Conversion and Design Polish
 **Goal**: The site looks and feels like a premium, trustworthy roofing company with polished design, animations, and balanced residential/commercial messaging
@@ -250,4 +250,4 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-08 -- Phase 7 planned (10 plans across 5 waves)*
+*Last updated: 2026-03-09 -- Phase 8 planned (4 plans across 3 waves)*
