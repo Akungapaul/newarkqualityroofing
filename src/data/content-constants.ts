@@ -132,7 +132,7 @@ export const CREDENTIALS_SHORT = [
 
 export const RESPONSE = {
   estimate: 'Same-day free estimates available',
-  emergency: '24/7 emergency roof repair response',
+  emergency: '24/7 emergency response for urgent issues',
   inspection: 'Schedule your free inspection within 24 hours',
   callback: 'We return every call within 1 hour',
 } as const;
@@ -161,23 +161,23 @@ export const NJ_WEATHER = {
 
 export const CTAS = {
   freeEstimate: 'Call today for your free, no-obligation estimate.',
-  scheduleInspection: 'Schedule your free roof inspection today.',
-  emergencyCall: 'Need emergency service? Call us 24/7.',
-  actNow: "Don't wait for a small problem to become a costly repair — call now.",
+  scheduleInspection: 'Schedule your free inspection today.',
+  emergencyCall: 'Need emergency help? Call us 24/7.',
+  actNow: "Don't wait for a small problem to become a costly project — call now.",
   financing: 'Ask about our 0% financing options when you call.',
   sameDay: 'Same-day estimates available — call now to get started.',
   seasonal: 'Book your project now before the busy season fills our schedule.',
-  insurance: 'We handle the insurance paperwork — you get a new roof stress-free.',
+  insurance: 'We handle the insurance paperwork — you get peace of mind stress-free.',
 } as const;
 
 // ─── Urgency Notes ──────────────────────────────────────────────────────────
 
 export const URGENCY = {
-  leakDamage: 'Every day a roof leak goes unrepaired, water damage spreads to insulation, framing, and drywall — multiplying your repair costs.',
+  leakDamage: 'Every day a leak goes unaddressed, water damage spreads to insulation, framing, and drywall — multiplying your costs.',
   stormSeason: "With storm season approaching, now is the time to address vulnerable areas before the next nor'easter hits Essex County.",
-  winterPrep: "Don't let winter catch you off guard. Schedule your roof inspection before freeze-thaw cycles expose hidden weaknesses.",
+  winterPrep: "Don't let winter catch you off guard. Schedule your inspection before freeze-thaw cycles expose hidden weaknesses.",
   insurance: 'Insurance claims have strict filing deadlines. Call us within 48 hours of storm damage for documentation and filing support.',
-  aging: "If your roof is over 20 years old, it's already past its designed lifespan. A proactive replacement saves thousands versus emergency repairs.",
+  aging: "If your structure is over 20 years old, it's already past its designed lifespan. A proactive replacement saves thousands versus emergency work.",
 } as const;
 
 // ─── Why Choose Us Reasons (reusable across page types) ─────────────────────
@@ -185,11 +185,11 @@ export const URGENCY = {
 export const WHY_CHOOSE_US_REASONS = [
   {
     title: 'Licensed & Certified Professionals',
-    description: 'NJ HIC licensed, GAF Certified Contractor — every job meets the highest industry standards and manufacturer specifications.',
+    description: 'NJ HIC licensed, GAF Certified roofing Contractor — every roofing job meets the highest industry standards and manufacturer specifications.',
   },
   {
     title: '15+ Years of Essex County Experience',
-    description: "We know every neighborhood, building style, and weather pattern in Essex County. Your roof isn't just another job — it's a local project we stake our reputation on.",
+    description: "We know every neighborhood, building style, and weather pattern in Essex County. Your roofing project isn't just another job — it's local roof work we stake our reputation on.",
   },
   {
     title: 'Transparent, Honest Pricing',
@@ -200,11 +200,11 @@ export const WHY_CHOOSE_US_REASONS = [
     description: 'We install GAF, CertainTeed, Owens Corning, and Firestone products backed by manufacturer warranties up to 50 years.',
   },
   {
-    title: 'Same-Day Estimates & 24/7 Emergency Service',
-    description: "When your roof needs attention, waiting isn't an option. We provide same-day estimates and emergency crews ready around the clock.",
+    title: 'Same-Day Estimates & 24/7 Emergency Response',
+    description: "When your roof needs attention, waiting isn't an option. We provide same-day roofing estimates and emergency repair crews ready around the clock.",
   },
   {
     title: 'Family-Owned, Community-Committed',
-    description: 'We live and work in Essex County. Our reputation is everything — we treat every home and business like it belongs to a neighbor, because it does.',
+    description: 'We live and work in Newark and Essex County. Our roofing reputation is everything — we treat every home and business roof like it belongs to a neighbor, because it does.',
   },
 ] as const;

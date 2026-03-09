@@ -50,9 +50,9 @@ export function LeadForm({
 
   return (
     <div className={`${wrapperClasses} ${className ?? ''}`}>
-      <h3 className="mb-6 font-heading text-2xl font-bold">
+      <p className="mb-6 font-heading text-2xl font-bold">
         Get Your Free Roofing Estimate
-      </h3>
+      </p>
 
       <form action={formAction} className="space-y-4">
         {/* Full Name */}

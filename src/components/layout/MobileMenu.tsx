@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
-import type { NavServiceGroup, NavCityItem } from '@/data/nav-data';
+import type { NavServiceGroup, NavCityItem, NavComparisonGroup } from '@/data/nav-data';
 
 // ─── Props ──────────────────────────────────────────────────────────────────
 
@@ -11,6 +11,7 @@ interface MobileMenuProps {
   onClose: () => void;
   serviceGroups: NavServiceGroup[];
   cityItems: NavCityItem[];
+  comparisonGroups: NavComparisonGroup[];
   phoneDisplay: string;
   phoneTel: string;
 }
@@ -62,7 +63,7 @@ function AccordionSection({
 
 // ─── Mobile menu component ──────────────────────────────────────────────────
 
-export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, phoneDisplay, phoneTel }: MobileMenuProps) {
+export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, comparisonGroups, phoneDisplay, phoneTel }: MobileMenuProps) {
   // Scroll lock
   useEffect(() => {
     if (isOpen) {
@@ -88,6 +89,8 @@ export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, phoneDis
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, handleKeyDown]);
+
+  if (!isOpen) return null;
 
   return (
     <div
@@ -165,9 +168,9 @@ export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, phoneDis
             <div className="space-y-4">
               {serviceGroups.map((group) => (
                 <div key={group.category}>
-                  <h4 className="mb-1.5 font-heading text-xs font-bold uppercase tracking-widest text-copper-light">
+                  <p className="mb-1.5 font-heading text-xs font-bold uppercase tracking-widest text-copper-light">
                     {group.categoryLabel}
-                  </h4>
+                  </p>
                   <ul className="space-y-0.5">
                     {group.services.map((service) => (
                       <li key={service.slug}>
@@ -201,6 +204,32 @@ export function MobileMenu({ isOpen, onClose, serviceGroups, cityItems, phoneDis
                 </li>
               ))}
             </ul>
+          </AccordionSection>
+
+          {/* Roofing Guides */}
+          <AccordionSection title="Roofing Guides">
+            <div className="space-y-4">
+              {comparisonGroups.map((group) => (
+                <div key={group.category}>
+                  <p className="mb-1.5 font-heading text-xs font-bold uppercase tracking-widest text-copper-light">
+                    {group.categoryLabel}
+                  </p>
+                  <ul className="space-y-0.5">
+                    {group.comparisons.map((comparison) => (
+                      <li key={comparison.slug}>
+                        <Link
+                          href={`/${comparison.slug}`}
+                          onClick={onClose}
+                          className="block rounded px-3 py-1.5 font-body text-sm text-parchment/80 transition-colors duration-150 hover:bg-forest-light/20 hover:text-parchment focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-copper"
+                        >
+                          {comparison.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
           </AccordionSection>
 
           {/* Static links */}

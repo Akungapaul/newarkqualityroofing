@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4 — Editorial Trust</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600;700;800&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --forest: #1A3A2A;
+    --forest-deep: #0E2218;
+    --sage: #5A7A66;
+    --copper: #C17F4E;
+    --copper-light: #D4955F;
+    --parchment: #F5F0E8;
+    --parchment-dark: #EAE3D6;
+    --ink: #1A1A1A;
+    --ink-light: #555;
+    --warm-white: #FDFBF7;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', serif;
+    background: var(--parchment);
+    color: var(--ink);
+    overflow-x: hidden;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: var(--forest);
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  .logo {
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: var(--parchment);
+    letter-spacing: -0.02em;
+  }
+  .logo em { font-style: italic; color: var(--copper); }
+  .nav-center { display: flex; gap: 2.5rem; list-style: none; }
+  .nav-center a {
+    color: rgba(245,240,232,0.6);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    transition: color 0.3s;
+  }
+  .nav-center a:hover { color: var(--copper-light); }
+  .nav-right { display: flex; align-items: center; gap: 1.5rem; }
+  .nav-phone {
+    color: rgba(245,240,232,0.6);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .nav-phone:hover { color: var(--copper-light); }
+  .nav-cta {
+    background: var(--copper);
+    color: var(--warm-white);
+    padding: 0.65rem 1.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background 0.3s;
+  }
+  .nav-cta:hover { background: var(--copper-light); }
+
+  /* HERO WITH FORM */
+  .hero {
+    min-height: 100vh;
+    padding: 10rem 4rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 440px;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    background: var(--forest);
+    overflow: hidden;
+  }
+  .hero-shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.04;
+    background: var(--copper);
+  }
+  .hero-shape-1 { width: 600px; height: 600px; top: -200px; right: -100px; }
+  .hero-shape-2 { width: 400px; height: 400px; bottom: -100px; left: -100px; }
+
+  .hero-content {
+    max-width: 600px;
+    position: relative;
+    z-index: 2;
+  }
+  .hero-eyebrow { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+  .hero-dot { width: 8px; height: 8px; background: var(--copper); border-radius: 50%; }
+  .hero-eyebrow-text {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--copper);
+  }
+
+  h1 {
+    font-family: 'Cormorant', serif;
+    font-size: clamp(3rem, 5.5vw, 4.5rem);
+    line-height: 1.1;
+    color: var(--parchment);
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  h1 em { font-style: italic; color: var(--copper); }
+
+  .hero-text {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: rgba(245,240,232,0.55);
+    max-width: 480px;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  .hero-phone {
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: var(--copper);
+    text-decoration: none;
+  }
+
+  /* HERO FORM */
+  .hero-form {
+    position: relative;
+    z-index: 2;
+    background: var(--warm-white);
+    padding: 2.5rem;
+    border-radius: 16px;
+  }
+  .form-heading {
+    font-family: 'Cormorant', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.25rem;
+    color: var(--ink);
+  }
+  .form-subheading {
+    font-size: 0.9rem;
+    color: var(--ink-light);
+    font-weight: 400;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid rgba(26,58,42,0.08);
+  }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .form-group { margin-bottom: 1rem; }
+  .form-group label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--sage);
+    margin-bottom: 0.4rem;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    background: var(--parchment);
+    border: 1px solid rgba(26,58,42,0.1);
+    color: var(--ink);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { outline: none; border-color: var(--copper); }
+  .form-group textarea { min-height: 80px; resize: vertical; }
+  .form-submit {
+    width: 100%;
+    background: var(--forest);
+    color: var(--parchment);
+    padding: 1rem;
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 0.3s;
+    margin-top: 0.25rem;
+  }
+  .form-submit:hover { background: var(--copper); }
+  .form-note { text-align: center; font-size: 0.8rem; color: var(--ink-light); margin-top: 0.75rem; }
+
+  /* HERO STATS */
+  .hero-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    border-top: 1px solid rgba(245,240,232,0.08);
+    z-index: 2;
+  }
+  .hero-stat {
+    flex: 1;
+    padding: 2rem 4rem;
+    border-right: 1px solid rgba(245,240,232,0.08);
+    color: var(--parchment);
+  }
+  .hero-stat:last-child { border-right: none; }
+  .hero-stat-number {
+    font-family: 'Cormorant', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--copper);
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+  .hero-stat-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    opacity: 0.5;
+    font-weight: 500;
+  }
+
+  /* INTRO */
+  .intro { padding: 6rem 4rem; max-width: 900px; margin: 0 auto; text-align: center; }
+  .intro-eyebrow {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--sage);
+    margin-bottom: 1.5rem;
+  }
+  .intro h2 {
+    font-family: 'Cormorant', serif;
+    font-size: clamp(2rem, 3.5vw, 2.8rem);
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  .intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--ink-light);
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* SERVICES */
+  .services { padding: 2rem 4rem 7rem; max-width: 1400px; margin: 0 auto; }
+  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .service-card {
+    background: var(--warm-white);
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(26,58,42,0.06);
+    transition: all 0.4s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 50px rgba(26,58,42,0.08);
+    border-color: var(--copper);
+  }
+  .service-icon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, var(--forest), var(--sage));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    color: var(--parchment);
+  }
+  .service-name {
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+  .service-desc { font-size: 0.95rem; line-height: 1.65; color: var(--ink-light); font-weight: 400; }
+  .service-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 1.25rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--copper);
+    text-decoration: none;
+  }
+
+  /* CTA */
+  .cta-section {
+    margin: 0 4rem 6rem;
+    background: var(--forest);
+    border-radius: 20px;
+    padding: 5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cta-section::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: var(--copper);
+    opacity: 0.05;
+    top: -200px;
+    right: -100px;
+  }
+  .cta-section h2 {
+    font-family: 'Cormorant', serif;
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    color: var(--parchment);
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+    line-height: 1.1;
+    position: relative;
+  }
+  .cta-section h2 em { font-style: italic; color: var(--copper); }
+  .cta-section p {
+    color: rgba(245,240,232,0.5);
+    font-size: 1.1rem;
+    font-weight: 400;
+    max-width: 450px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+    position: relative;
+  }
+  .btn-copper {
+    background: var(--copper);
+    color: var(--warm-white);
+    padding: 1rem 2.5rem;
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .btn-copper:hover { background: var(--copper-light); transform: translateY(-1px); }
+
+  /* LOCATIONS */
+  .locations { padding: 6rem 4rem; max-width: 1400px; margin: 0 auto; }
+  .locations-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .locations-header h2 {
+    font-family: 'Cormorant', serif;
+    font-size: 2.5rem;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+  .locations-header p { color: var(--ink-light); font-weight: 400; }
+  .locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+  .location-pill {
+    background: var(--warm-white);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(26,58,42,0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .location-pill:hover { border-color: var(--copper); background: rgba(193,127,78,0.05); }
+  .location-pill-name {
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+  .location-pill-arrow { color: var(--copper); opacity: 0; transition: opacity 0.3s; font-size: 1.1rem; }
+  .location-pill:hover .location-pill-arrow { opacity: 1; }
+
+  /* FOOTER */
+  footer {
+    background: var(--forest-deep);
+    color: var(--parchment);
+    padding: 5rem 4rem 2rem;
+  }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; }
+  .footer-brand-name {
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    margin-bottom: 0.25rem;
+  }
+  .footer-brand-name em { font-style: italic; color: var(--copper); }
+  .footer-brand-sub {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--copper);
+    opacity: 0.7;
+    margin-bottom: 1rem;
+  }
+  .footer-text { color: rgba(245,240,232,0.4); font-size: 0.95rem; line-height: 1.65; font-weight: 400; }
+  .footer-heading {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--copper);
+    margin-bottom: 1.25rem;
+  }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.6rem; }
+  .footer-links a { color: rgba(245,240,232,0.4); text-decoration: none; font-size: 0.95rem; font-weight: 400; transition: color 0.3s; }
+  .footer-links a:hover { color: var(--copper); }
+  .footer-bottom {
+    border-top: 1px solid rgba(245,240,232,0.06);
+    padding-top: 2rem;
+    text-align: center;
+    color: rgba(245,240,232,0.25);
+    font-size: 0.85rem;
+  }
+
+  .design-label {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--copper);
+    color: var(--warm-white);
+    padding: 0.75rem 1.5rem;
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 100px;
+    z-index: 1000;
+  }
+
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; padding: 8rem 2rem 8rem; }
+    .hero-bottom { flex-wrap: wrap; }
+    .hero-stat { padding: 1.5rem 2rem; }
+    .services-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    nav { padding: 0 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Newark <em>Quality</em> Roofing</div>
+  <ul class="nav-center">
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Locations</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="tel:+19735551234" class="nav-phone">(973) 555-1234</a>
+    <a href="#" class="nav-cta">Free Estimate</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-shape hero-shape-1"></div>
+  <div class="hero-shape hero-shape-2"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="hero-dot"></span>
+      <span class="hero-eyebrow-text">Trusted Across Essex County</span>
+    </div>
+    <h1>Roofing done <em>right,</em> from people who <em>care</em></h1>
+    <p class="hero-text">We protect the homes and businesses of Newark and Essex County with roofing that's built to last. Honest work, quality materials, real people.</p>
+    <a href="tel:+19735551234" class="hero-phone">&#9742; (973) 555-1234</a>
+  </div>
+
+  <form class="hero-form">
+    <div class="form-heading">Get Your Free Estimate</div>
+    <div class="form-subheading">No obligation &bull; Response within 24 hours</div>
+    <div class="form-row">
+      <div class="form-group"><label>First Name</label><input type="text" placeholder="John"></div>
+      <div class="form-group"><label>Last Name</label><input type="text" placeholder="Smith"></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Phone</label><input type="tel" placeholder="(973) 555-1234"></div>
+      <div class="form-group"><label>Email</label><input type="email" placeholder="john@example.com"></div>
+    </div>
+    <div class="form-group"><label>Service Needed</label><select><option>Select a service...</option><option>Roof Repair</option><option>Roof Replacement</option><option>Emergency Service</option><option>Roof Inspection</option><option>Commercial Roofing</option><option>Other</option></select></div>
+    <div class="form-group"><label>Project Details</label><textarea placeholder="Describe your roofing needs..."></textarea></div>
+    <button type="submit" class="form-submit">Request Free Estimate</button>
+    <div class="form-note">Response within 24 hours &bull; No spam, guaranteed</div>
+  </form>
+
+  <div class="hero-bottom">
+    <div class="hero-stat"><div class="hero-stat-number">500+</div><div class="hero-stat-label">Roofs Completed</div></div>
+    <div class="hero-stat"><div class="hero-stat-number">4.9</div><div class="hero-stat-label">Star Rating</div></div>
+    <div class="hero-stat"><div class="hero-stat-number">20+</div><div class="hero-stat-label">Years Experience</div></div>
+    <div class="hero-stat"><div class="hero-stat-number">24/7</div><div class="hero-stat-label">Emergency Service</div></div>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="intro-eyebrow">Who We Are</div>
+  <h2>Newark's most trusted roofers, serving every corner of Essex County</h2>
+  <p>Whether it's a small repair or a complete replacement, we bring the same care and craftsmanship to every job. Licensed, insured, and committed to doing right by our neighbors.</p>
+</section>
+
+<section class="services">
+  <div class="services-grid">
+    <div class="service-card"><div class="service-icon">&#9881;</div><div class="service-name">Roof Repair</div><div class="service-desc">Expert repair for leaks, storm damage, and wear. We diagnose the real problem and fix it to last.</div><a href="#" class="service-link">Learn more &rarr;</a></div>
+    <div class="service-card"><div class="service-icon">&#9650;</div><div class="service-name">Roof Replacement</div><div class="service-desc">Full replacement with premium materials. Architectural shingles, metal, tile, and flat roof systems.</div><a href="#" class="service-link">Learn more &rarr;</a></div>
+    <div class="service-card"><div class="service-icon">&#9889;</div><div class="service-name">Emergency Service</div><div class="service-desc">24/7 rapid response for urgent roof emergencies. Storm damage, leaks, and structural issues.</div><a href="#" class="service-link">Learn more &rarr;</a></div>
+    <div class="service-card"><div class="service-icon">&#9906;</div><div class="service-name">Roof Inspection</div><div class="service-desc">Thorough inspections that catch small problems before they become expensive ones.</div><a href="#" class="service-link">Learn more &rarr;</a></div>
+    <div class="service-card"><div class="service-icon">&#9670;</div><div class="service-name">Metal Roofing</div><div class="service-desc">Standing seam and metal panels. Superior weather resistance, energy efficiency, and 50+ year lifespan.</div><a href="#" class="service-link">Learn more &rarr;</a></div>
+    <div class="service-card"><div class="service-icon">&#9632;</div><div class="service-name">Commercial Roofing</div><div class="service-desc">Professional-grade flat and low-slope systems for businesses. TPO, EPDM, and modified bitumen.</div><a href="#" class="service-link">Learn more &rarr;</a></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <h2>Your roof protects <em>everything.</em><br>Let us protect <em>it.</em></h2>
+  <p>Free, honest estimates with no pressure. Just expert advice from people who've been doing this for decades.</p>
+  <button class="btn-copper">Schedule Free Estimate</button>
+</section>
+
+<section class="locations">
+  <div class="locations-header">
+    <div><h2>Service Areas</h2><p>Proudly serving all of Essex County, NJ</p></div>
+  </div>
+  <div class="locations-grid">
+    <a class="location-pill" href="#"><span class="location-pill-name">Newark</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">East Orange</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Orange</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">West Orange</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Montclair</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Bloomfield</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Belleville</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Nutley</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Irvington</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Maplewood</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">South Orange</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Livingston</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Millburn</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Cedar Grove</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Verona</span><span class="location-pill-arrow">&rarr;</span></a>
+    <a class="location-pill" href="#"><span class="location-pill-name">Glen Ridge</span><span class="location-pill-arrow">&rarr;</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div><div class="footer-brand-name">Newark <em>Quality</em> Roofing</div><div class="footer-brand-sub">Essex County, New Jersey</div><p class="footer-text">Honest roofing craftsmanship for residential and commercial properties across Newark and all of Essex County.</p></div>
+    <div><div class="footer-heading">Services</div><ul class="footer-links"><li><a href="#">Roof Repair</a></li><li><a href="#">Roof Replacement</a></li><li><a href="#">Emergency Service</a></li><li><a href="#">Roof Inspection</a></li><li><a href="#">Metal Roofing</a></li><li><a href="#">Commercial</a></li></ul></div>
+    <div><div class="footer-heading">Locations</div><ul class="footer-links"><li><a href="#">Newark</a></li><li><a href="#">East Orange</a></li><li><a href="#">Montclair</a></li><li><a href="#">Bloomfield</a></li><li><a href="#">Irvington</a></li><li><a href="#">All Cities &rarr;</a></li></ul></div>
+    <div><div class="footer-heading">Company</div><ul class="footer-links"><li><a href="#">About Us</a></li><li><a href="#">Contact</a></li><li><a href="#">Blog</a></li><li><a href="#">Privacy Policy</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 Newark Quality Roofing. All rights reserved. Licensed & Insured in New Jersey.</div>
+</footer>
+
+<div class="design-label">4 — Editorial Trust</div>
+</body>
+</html>
