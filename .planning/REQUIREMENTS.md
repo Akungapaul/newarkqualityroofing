@@ -135,9 +135,9 @@
 ### Design & UI
 
 - [x] **DSGN-01**: Editorial Trust design direction implemented per approved preview
-- [ ] **DSGN-02**: Trust bar with text cards (licenses, insurance, years experience, BBB) — no images
-- [ ] **DSGN-03**: Testimonials section with star ratings (placeholder content initially)
-- [ ] **DSGN-04**: Before/after project gallery with CSS brand treatment on stock photos
+- [x] **DSGN-02**: Trust bar with text cards (licenses, insurance, years experience, BBB) — no images
+- [x] **DSGN-03**: Testimonials section with star ratings (placeholder content initially)
+- [x] **DSGN-04**: Before/after project gallery with CSS brand treatment on stock photos
 - [x] **DSGN-05**: Curated stock photos with CSS warm tone filter, grain texture, consistent cropping
 - [x] **DSGN-06**: 50/50 residential and commercial content split throughout site
 - [ ] **DSGN-07**: Animations and micro-interactions using motion library
@@ -284,9 +284,9 @@
 | SEMA-05 | Phase 8 | Complete |
 | SEMA-07 | Phase 8 | Complete |
 | DSGN-01 | Phase 9 | Complete |
-| DSGN-02 | Phase 9 | Pending |
-| DSGN-03 | Phase 9 | Pending |
-| DSGN-04 | Phase 9 | Pending |
+| DSGN-02 | Phase 9 | Complete |
+| DSGN-03 | Phase 9 | Complete |
+| DSGN-04 | Phase 9 | Complete |
 | DSGN-05 | Phase 9 | Complete |
 | DSGN-06 | Phase 9 | Complete |
 | DSGN-07 | Phase 9 | Pending |
