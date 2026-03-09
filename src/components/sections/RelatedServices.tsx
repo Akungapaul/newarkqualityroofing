@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getServiceAnchorText } from '@/data/linking/anchor-text';
 
 interface RelatedService {
   name: string;
@@ -26,14 +27,14 @@ export function RelatedServices({ services }: RelatedServicesProps) {
           Related Services
         </h2>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {services.map((service) => (
+          {services.map((service, index) => (
             <Link
               key={service.slug}
               href={`/${service.slug}`}
               className="group rounded-lg border border-border bg-white p-6 transition-all hover:border-copper hover:shadow-md focus-visible:ring-2 focus-visible:ring-copper focus-visible:outline-none"
             >
               <h3 className="font-heading text-lg font-bold text-forest transition-colors group-hover:text-copper">
-                {service.name}
+                {getServiceAnchorText(service.name, index)}
               </h3>
               <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary line-clamp-3">
                 {service.shortDescription}

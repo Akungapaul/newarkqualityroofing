@@ -18,7 +18,9 @@ import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
 import { RelatedServices } from '@/components/sections/RelatedServices';
 import { ServiceCtaBanner } from '@/components/sections/ServiceCtaBanner';
 import { ServiceLearnMore } from '@/components/sections/ServiceLearnMore';
+import { ServiceRelatedComparisons } from '@/components/sections/ServiceRelatedComparisons';
 import { getMoneyPageArticle } from '@/data/linking/link-engine';
+import { getRelatedComparisons } from '@/data/linking/comparison-links';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -161,8 +163,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       )}
 
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
-        {/* Main content column */}
-        <div className="space-y-12 pb-16 lg:col-span-2">
+        {/* Main content column -- child components render their own <section> with aria-labelledby */}
+        <article className="space-y-12 pb-16 lg:col-span-2">
           <ServiceOverview paragraphs={content.overview} />
 
           <ServiceSigns heading={content.signsHeading} signs={content.signs} />
@@ -206,12 +208,12 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
           <ServiceProcess steps={content.processSteps} />
 
-          {/* Pricing section — after process */}
+          {/* Pricing section -- after process */}
           {content.pricing && (
             <ServicePricing pricing={content.pricing} serviceName={service.name} />
           )}
 
-          {/* Why Choose Us — before FAQs */}
+          {/* Why Choose Us -- before FAQs */}
           {content.whyChooseUs && (
             <ServiceWhyChooseUs
               heading={content.whyChooseUs.heading}
@@ -221,12 +223,15 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
           <ServiceFaq faqs={content.faqs} />
 
-          {/* Learn More — reverse silo link to position-1 article */}
+          {/* Learn More -- reverse silo link to position-1 article */}
           {(() => {
             const article = getMoneyPageArticle(service.id, 'service');
             return article ? <ServiceLearnMore article={article} serviceName={service.name} /> : null;
           })()}
-        </div>
+
+          {/* Related Comparisons -- contextual comparison links */}
+          <ServiceRelatedComparisons comparisons={getRelatedComparisons(service.id)} />
+        </article>
 
         {/* Sticky sidebar */}
         <StickyFormSidebar>

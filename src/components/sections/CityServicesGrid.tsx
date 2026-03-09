@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { services } from '@/data/services';
 import { generateComboSlug } from '@/lib/slug-utils';
+import { getServiceAnchorText } from '@/data/linking/anchor-text';
 
 // Category label mapping (duplicated for self-containment per project pattern)
 const categoryLabels: Record<string, string> = {
@@ -62,13 +63,13 @@ export function CityServicesGrid({ cityName, citySlug }: CityServicesGridProps) 
               {cat.label}
             </h3>
             <ul className="mt-3 space-y-1.5">
-              {cat.services.map((service) => (
+              {cat.services.map((service, svcIndex) => (
                 <li key={service.slug}>
                   <Link
                     href={`/${generateComboSlug(service.slug, citySlug)}`}
                     className="font-body text-sm text-copper transition-colors hover:text-copper-dark"
                   >
-                    {service.name}
+                    {getServiceAnchorText(service.name, svcIndex)}
                   </Link>
                 </li>
               ))}

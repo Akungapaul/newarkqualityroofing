@@ -60,7 +60,7 @@ function ArticlePlaceholder({
         moneyPageName={moneyPageName}
         moneyPageSlug={moneyPageSlug}
       />
-      <main className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
+      <article className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
         <div className="rounded-lg border border-border bg-parchment-light p-8 text-center">
           <p className="font-heading text-xl font-semibold text-forest">
             Content Coming Soon
@@ -88,7 +88,7 @@ function ArticlePlaceholder({
             Back to {moneyPageName}
           </Link>
         </div>
-      </main>
+      </article>
     </>
   );
 }
@@ -121,7 +121,7 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
         wordCount={wordCount}
       />
 
-      <main className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
+      <article className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
         <ArticleBody
           intro={content.intro}
           sections={content.sections}
@@ -140,7 +140,7 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
           prevArticle={links.prevArticle}
           moneyPage={links.moneyPage}
         />
-      </main>
+      </article>
     </>
   );
 }

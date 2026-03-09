@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { NearbyLink, GroupedRelatedServices, ParentPageLinks } from '@/data/linking/link-engine';
+import { getCityAnchorText, getServiceAnchorText } from '@/data/linking/anchor-text';
 
 interface ComboRelatedLinksProps {
   nearbyCities: NearbyLink[];
@@ -30,14 +31,14 @@ export function ComboRelatedLinks({
             Nearby Cities
           </h3>
           <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {nearbyCities.map((link) => (
+            {nearbyCities.map((link, index) => (
               <Link
                 key={link.slug}
                 href={`/${link.slug}`}
                 className="group rounded-sm border border-border bg-white p-4 shadow-sm transition-all hover:border-copper hover:shadow-md"
               >
                 <span className="font-heading text-sm font-semibold text-forest group-hover:text-copper">
-                  {link.label}
+                  {getCityAnchorText(link.name, index)}
                 </span>
                 <span className="mt-1 block font-body text-xs text-text-secondary">
                   {link.name}, NJ
@@ -61,13 +62,13 @@ export function ComboRelatedLinks({
                   {group.categoryLabel}
                 </h4>
                 <ul className="mt-2 space-y-1">
-                  {group.services.map((svc) => (
+                  {group.services.map((svc, svcIndex) => (
                     <li key={svc.slug}>
                       <Link
                         href={`/${svc.slug}`}
                         className="font-body text-sm text-forest underline decoration-copper/30 underline-offset-2 transition-colors hover:text-copper"
                       >
-                        {svc.name}
+                        {getServiceAnchorText(svc.name, svcIndex)}
                       </Link>
                     </li>
                   ))}

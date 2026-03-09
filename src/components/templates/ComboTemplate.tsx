@@ -59,8 +59,8 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
       {/* Placed before the 2-column layout since ComboChallenges is inside it */}
 
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
-        {/* Main content column */}
-        <div className="space-y-12 pb-16 lg:col-span-2">
+        {/* Main content column -- child components render their own <section> with aria-labelledby */}
+        <article className="space-y-12 pb-16 lg:col-span-2">
           <ComboOverview paragraphs={content.overview} />
 
           <ComboChallenges paragraphs={content.challenges} cityName={city.name} />
@@ -85,7 +85,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
 
           <ComboProcess steps={content.process} serviceName={service.name} />
 
-          {/* Pricing section — after process */}
+          {/* Pricing section -- after process */}
           {content.pricing && (
             <ComboPricing
               pricing={content.pricing}
@@ -94,7 +94,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             />
           )}
 
-          {/* Why Choose Us — before FAQs */}
+          {/* Why Choose Us -- before FAQs */}
           {content.whyChooseUs && content.whyChooseUs.length > 0 && (
             <ComboWhyChooseUs reasons={content.whyChooseUs} />
           )}
@@ -107,7 +107,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             parents={parentLinks}
             cityName={city.name}
           />
-        </div>
+        </article>
 
         {/* Sticky sidebar */}
         <StickyFormSidebar>
@@ -121,12 +121,12 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
 
             {/* Nearby cities quick links -- sidebar section (3rd format) */}
             {nearbyCities.length > 0 && (
-              <div className="rounded-lg border border-border bg-parchment-light p-4">
+              <aside className="rounded-lg border border-border bg-parchment-light p-4" aria-label="Nearby service areas">
                 <h4 className="font-heading text-sm font-bold text-forest">
                   Nearby
                 </h4>
                 <ul className="mt-2 space-y-1">
-                  {nearbyCities.map((link) => (
+                  {nearbyCities.map((link, index) => (
                     <li key={link.slug}>
                       <Link
                         href={`/${link.slug}`}
@@ -137,7 +137,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </aside>
             )}
           </div>
         </StickyFormSidebar>

@@ -56,8 +56,8 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
       />
 
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
-        {/* Main content column */}
-        <div className="space-y-12 pb-16 lg:col-span-2">
+        {/* Main content column -- child components render their own <section> with aria-labelledby */}
+        <article className="space-y-12 pb-16 lg:col-span-2">
           <ComparisonIntro
             heading={content.introHeading}
             paragraphs={content.introParagraphs}
@@ -79,12 +79,12 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
 
           <ComparisonFaqs faqs={content.faqs} />
 
-          {/* Learn More — reverse silo link to position-1 article */}
+          {/* Learn More -- reverse silo link to position-1 article */}
           {(() => {
             const article = getMoneyPageArticle(comparison.id, 'comparison');
             return article ? <ComparisonLearnMore article={article} comparisonName={comparison.name} /> : null;
           })()}
-        </div>
+        </article>
 
         {/* Sticky sidebar */}
         <StickyFormSidebar>

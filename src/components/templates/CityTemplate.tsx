@@ -77,8 +77,8 @@ export default function CityTemplate({ city }: CityTemplateProps) {
           </aside>
 
           {/* Main content column */}
-          <main className="space-y-16 lg:col-span-3">
-            <section id="overview">
+          <article className="space-y-16 lg:col-span-3">
+            <section id="overview" aria-labelledby="overview-heading">
               <CityOverview
                 paragraphs={content.overview}
                 cityName={city.name}
@@ -86,40 +86,40 @@ export default function CityTemplate({ city }: CityTemplateProps) {
               />
             </section>
 
-            <section id="residential">
+            <section id="residential" aria-labelledby="residential-heading">
               <CityResidential
                 heading={content.residential.heading}
                 content={content.residential.content}
               />
             </section>
 
-            <section id="commercial">
+            <section id="commercial" aria-labelledby="commercial-heading">
               <CityCommercial
                 heading={content.commercial.heading}
                 content={content.commercial.content}
               />
             </section>
 
-            {/* Pricing section — after commercial */}
+            {/* Pricing section -- after commercial */}
             {content.pricing && (
-              <section id="pricing">
+              <section id="pricing" aria-labelledby="pricing-heading">
                 <CityPricing pricing={content.pricing} cityName={city.name} />
               </section>
             )}
 
-            <section id="neighborhoods">
+            <section id="neighborhoods" aria-labelledby="neighborhoods-heading">
               <CityNeighborhoods
                 neighborhoods={content.neighborhoods}
                 cityName={city.name}
               />
             </section>
 
-            <section id="services">
+            <section id="services" aria-labelledby="services-heading">
               <CityServicesGrid cityName={city.name} citySlug={city.slug} />
             </section>
 
-            <section id="why-choose">
-              <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+            <section id="why-choose" aria-labelledby="why-choose-heading">
+              <h2 id="why-choose-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
                 {content.whyChoose.heading}
               </h2>
               <div className="mt-6 grid gap-6 sm:grid-cols-2">
@@ -139,35 +139,35 @@ export default function CityTemplate({ city }: CityTemplateProps) {
               </div>
             </section>
 
-            <section id="testimonials">
+            <section id="testimonials" aria-labelledby="testimonials-heading">
               <CityTestimonials
                 testimonials={content.testimonials}
                 cityName={city.name}
               />
             </section>
 
-            <section id="projects">
+            <section id="projects" aria-labelledby="projects-heading">
               <CityProjectSpotlights
                 spotlights={content.projectSpotlights}
                 cityName={city.name}
               />
             </section>
 
-            <section id="faqs">
+            <section id="faqs" aria-labelledby="faqs-heading">
               <CityFaqs faqs={content.faqs} cityName={city.name} />
             </section>
 
-            <section id="location">
+            <section id="location" aria-labelledby="location-heading">
               <CityMapNap cityName={city.name} state={city.state} />
             </section>
 
-            <section id="nearby">
+            <section id="nearby" aria-labelledby="nearby-heading">
               <CityNearbyCities
                 adjacentCities={adjacentCities}
                 currentCityName={city.name}
               />
             </section>
-          </main>
+          </article>
         </div>
       </div>
 
