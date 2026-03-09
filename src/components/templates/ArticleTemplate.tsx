@@ -6,6 +6,14 @@ import { ArticleHero } from '@/components/sections/ArticleHero';
 import { ArticleBody } from '@/components/sections/ArticleBody';
 import { ArticleCta } from '@/components/sections/ArticleCta';
 import { ArticleNav } from '@/components/sections/ArticleNav';
+import { JsonLd } from '@/components/seo/JsonLd';
+import {
+  buildArticleSchema,
+  buildWebPageSchema,
+  buildBreadcrumbSchema,
+  buildJsonLdGraph,
+} from '@/lib/schema';
+import { SEO_CONFIG } from '@/lib/seo-config';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -114,6 +122,16 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
 
   return (
     <>
+      <JsonLd data={buildJsonLdGraph(
+        buildArticleSchema({ title: article.metaTitle, slug: article.slug, description: article.metaDescription }),
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${article.slug}`, article.metaTitle),
+        buildBreadcrumbSchema([
+          { name: 'Home', url: SEO_CONFIG.BASE_URL },
+          { name: links.moneyPage.name, url: `${SEO_CONFIG.BASE_URL}/${links.moneyPage.slug}` },
+          { name: article.metaTitle },
+        ]),
+      )} />
+
       <ArticleHero
         article={article}
         moneyPageName={links.moneyPage.name}

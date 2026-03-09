@@ -15,6 +15,14 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { ComparisonLearnMore } from '@/components/sections/ComparisonLearnMore';
 import { getMoneyPageArticle } from '@/data/linking/link-engine';
+import { JsonLd } from '@/components/seo/JsonLd';
+import {
+  buildWebPageSchema,
+  buildBreadcrumbSchema,
+  buildFaqSchema,
+  buildJsonLdGraph,
+} from '@/lib/schema';
+import { SEO_CONFIG } from '@/lib/seo-config';
 
 // ─── Content loader (graceful fallback until Plan 03 creates aggregator) ──
 
@@ -48,6 +56,16 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
 
   return (
     <>
+      <JsonLd data={buildJsonLdGraph(
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comparison.slug}`, comparison.metaTitle),
+        buildBreadcrumbSchema([
+          { name: 'Home', url: SEO_CONFIG.BASE_URL },
+          { name: 'Comparisons' },
+          { name: comparison.metaTitle },
+        ]),
+        buildFaqSchema(content.faqs),
+      )} />
+
       <FloatingCtaButton />
 
       <ComparisonHero

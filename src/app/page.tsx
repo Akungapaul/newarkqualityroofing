@@ -19,6 +19,17 @@ import { testimonials } from '@/data/testimonials';
 import { faqItems } from '@/data/faq';
 import { articles } from '@/data/articles';
 import { siteConfig } from '@/data/site-config';
+import { JsonLd } from '@/components/seo/JsonLd';
+import {
+  buildOrganizationSchema,
+  buildRoofingContractorSchema,
+  buildWebSiteSchema,
+  buildWebPageSchema,
+  buildBreadcrumbSchema,
+  buildFaqSchema,
+  buildJsonLdGraph,
+} from '@/lib/schema';
+import { SEO_CONFIG } from '@/lib/seo-config';
 
 export const metadata: Metadata = {
   title: 'Roof Repair in Newark NJ | Quality Local Contractors',
@@ -45,113 +56,6 @@ export const metadata: Metadata = {
 };
 
 
-function HomeJsonLd() {
-  const baseUrl = 'https://www.newarkqualityroofing.com';
-
-  const graph = [
-    {
-      '@type': 'Organization',
-      '@id': `${baseUrl}/#organization`,
-      name: siteConfig.companyName,
-      url: baseUrl,
-      telephone: siteConfig.phone.tel,
-      email: siteConfig.email,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
-        addressLocality: siteConfig.address.city,
-        addressRegion: siteConfig.address.state,
-        postalCode: siteConfig.address.zip,
-        addressCountry: 'US',
-      },
-    },
-    {
-      '@type': 'RoofingContractor',
-      '@id': `${baseUrl}/#roofingcontractor`,
-      name: siteConfig.companyName,
-      url: baseUrl,
-      telephone: siteConfig.phone.tel,
-      email: siteConfig.email,
-      priceRange: '$$',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: siteConfig.address.street,
-        addressLocality: siteConfig.address.city,
-        addressRegion: siteConfig.address.state,
-        postalCode: siteConfig.address.zip,
-        addressCountry: 'US',
-      },
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '5.0',
-        reviewCount: '500',
-        bestRating: '5',
-        worstRating: '1',
-      },
-      openingHoursSpecification: [
-        {
-          '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-          opens: '07:00',
-          closes: '18:00',
-        },
-        {
-          '@type': 'OpeningHoursSpecification',
-          dayOfWeek: 'Saturday',
-          opens: '08:00',
-          closes: '14:00',
-        },
-      ],
-    },
-    {
-      '@type': 'WebSite',
-      '@id': `${baseUrl}/#website`,
-      url: baseUrl,
-      name: siteConfig.companyName,
-      publisher: { '@id': `${baseUrl}/#organization` },
-    },
-    {
-      '@type': 'WebPage',
-      '@id': `${baseUrl}/#webpage`,
-      url: baseUrl,
-      name: siteConfig.companyName,
-      isPartOf: { '@id': `${baseUrl}/#website` },
-    },
-    {
-      '@type': 'BreadcrumbList',
-      '@id': `${baseUrl}/#breadcrumb`,
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: baseUrl,
-        },
-      ],
-    },
-    {
-      '@type': 'FAQPage',
-      '@id': `${baseUrl}/#faqpage`,
-      mainEntity: faqItems.map((item) => ({
-        '@type': 'Question',
-        name: item.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: item.answer,
-        },
-      })),
-    },
-  ];
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }),
-      }}
-    />
-  );
-}
 
 export default function Home() {
   const comparisonGroups = getComparisonMenuGroups();
@@ -163,7 +67,14 @@ export default function Home() {
 
   return (
     <>
-      <HomeJsonLd />
+      <JsonLd data={buildJsonLdGraph(
+        buildOrganizationSchema(),
+        buildRoofingContractorSchema(),
+        buildWebSiteSchema(),
+        buildWebPageSchema(SEO_CONFIG.BASE_URL, siteConfig.companyName),
+        buildBreadcrumbSchema([{ name: 'Home', url: SEO_CONFIG.BASE_URL }]),
+        buildFaqSchema(faqItems),
+      )} />
 
       {/* Hero with lead form above the fold */}
       <HeroSection />

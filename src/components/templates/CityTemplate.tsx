@@ -19,6 +19,16 @@ import { CityNearbyCities } from '@/components/sections/CityNearbyCities';
 import { CityCtaBanner } from '@/components/sections/CityCtaBanner';
 import { CityPricing } from '@/components/sections/CityPricing';
 import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
+import { JsonLd } from '@/components/seo/JsonLd';
+import {
+  buildLocalBusinessSchema,
+  buildWebPageSchema,
+  buildBreadcrumbSchema,
+  buildFaqSchema,
+  buildJsonLdGraph,
+} from '@/lib/schema';
+import { SEO_CONFIG } from '@/lib/seo-config';
+import { generateCityPageSlug } from '@/lib/slug-utils';
 
 // ─── Table of Contents sections ─────────────────────────────────────────────
 
@@ -55,6 +65,17 @@ export default function CityTemplate({ city }: CityTemplateProps) {
 
   return (
     <>
+      <JsonLd data={buildJsonLdGraph(
+        buildLocalBusinessSchema({ name: city.name, state: city.state, zipCodes: city.zipCodes }),
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${generateCityPageSlug(city.slug)}`, content.metaTitle),
+        buildBreadcrumbSchema([
+          { name: 'Home', url: SEO_CONFIG.BASE_URL },
+          { name: 'Locations', url: `${SEO_CONFIG.BASE_URL}/locations` },
+          { name: city.name },
+        ]),
+        buildFaqSchema(content.faqs),
+      )} />
+
       <FloatingCtaButton />
 
       <CityHero city={city} content={content} serviceGroups={serviceGroups} />

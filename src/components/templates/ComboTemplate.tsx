@@ -20,6 +20,16 @@ import { ComboWhyChooseUs } from '@/components/sections/ComboWhyChooseUs';
 import { StickyFormSidebar } from '@/components/sections/StickyFormSidebar';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { JsonLd } from '@/components/seo/JsonLd';
+import {
+  buildServiceSchema,
+  buildWebPageSchema,
+  buildBreadcrumbSchema,
+  buildFaqSchema,
+  buildJsonLdGraph,
+} from '@/lib/schema';
+import { SEO_CONFIG } from '@/lib/seo-config';
+import { generateComboSlug } from '@/lib/slug-utils';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -45,8 +55,21 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
   const relatedServices = getRelatedServiceLinks(service, city);
   const parentLinks = getParentPageLinks(service, city);
 
+  const comboSlug = generateComboSlug(service.slug, city.slug);
+
   return (
     <>
+      <JsonLd data={buildJsonLdGraph(
+        buildServiceSchema({ name: service.name, slug: comboSlug, shortDescription: service.shortDescription }),
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${comboSlug}`, content.metaDescription),
+        buildBreadcrumbSchema([
+          { name: 'Home', url: SEO_CONFIG.BASE_URL },
+          { name: service.name, url: `${SEO_CONFIG.BASE_URL}/${service.slug}` },
+          { name: `${service.name} in ${city.name}` },
+        ]),
+        buildFaqSchema(content.faqs),
+      )} />
+
       <FloatingCtaButton />
 
       <ComboHero

@@ -21,6 +21,15 @@ import { ServiceLearnMore } from '@/components/sections/ServiceLearnMore';
 import { ServiceRelatedComparisons } from '@/components/sections/ServiceRelatedComparisons';
 import { getMoneyPageArticle } from '@/data/linking/link-engine';
 import { getRelatedComparisons } from '@/data/linking/comparison-links';
+import { JsonLd } from '@/components/seo/JsonLd';
+import {
+  buildServiceSchema,
+  buildWebPageSchema,
+  buildBreadcrumbSchema,
+  buildFaqSchema,
+  buildJsonLdGraph,
+} from '@/lib/schema';
+import { SEO_CONFIG } from '@/lib/seo-config';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -147,6 +156,17 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
   return (
     <>
+      <JsonLd data={buildJsonLdGraph(
+        buildServiceSchema({ name: service.name, slug: service.slug, shortDescription: service.shortDescription }),
+        buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${service.slug}`, service.metaTitle),
+        buildBreadcrumbSchema([
+          { name: 'Home', url: SEO_CONFIG.BASE_URL },
+          { name: 'Services', url: `${SEO_CONFIG.BASE_URL}/services` },
+          { name: service.name },
+        ]),
+        buildFaqSchema(content.faqs),
+      )} />
+
       <FloatingCtaButton />
 
       <ServiceHero
