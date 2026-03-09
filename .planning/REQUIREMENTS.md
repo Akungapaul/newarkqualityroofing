@@ -140,7 +140,7 @@
 - [x] **DSGN-04**: Before/after project gallery with CSS brand treatment on stock photos
 - [x] **DSGN-05**: Curated stock photos with CSS warm tone filter, grain texture, consistent cropping
 - [x] **DSGN-06**: 50/50 residential and commercial content split throughout site
-- [ ] **DSGN-07**: Animations and micro-interactions using motion library
+- [x] **DSGN-07**: Animations and micro-interactions using motion library
 - [x] **DSGN-08**: Rounded corners, organic shapes, grain texture per Editorial Trust aesthetic
 
 ### Content — Residential/Commercial Split
@@ -289,7 +289,7 @@
 | DSGN-04 | Phase 9 | Complete |
 | DSGN-05 | Phase 9 | Complete |
 | DSGN-06 | Phase 9 | Complete |
-| DSGN-07 | Phase 9 | Pending |
+| DSGN-07 | Phase 9 | Complete |
 | DSGN-08 | Phase 9 | Complete |
 | CONT-01 | Phase 9 | Complete |
 
