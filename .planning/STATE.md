@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 08-03-PLAN.md
-last_updated: "2026-03-09T08:30:00.000Z"
-last_activity: 2026-03-09 -- Completed 08-01 and 08-03 (crawlability + semantic HTML)
+stopped_at: Completed 08-04-PLAN.md
+last_updated: "2026-03-09T08:09:02.000Z"
+last_activity: 2026-03-09 -- Completed Phase 8 (all 4 plans: crawlability, structured data, semantic HTML, validation)
 progress:
   total_phases: 9
-  completed_phases: 7
+  completed_phases: 8
   total_plans: 77
-  completed_plans: 76
-  percent: 98
+  completed_plans: 77
+  percent: 100
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-05)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 8 in progress -- SEO infrastructure: crawlability + semantic HTML complete, structured data (08-02) and validation (08-04) next.
+**Current focus:** Phase 8 complete -- all SEO infrastructure delivered. Phase 9 (final polish) next.
 
 ## Current Position
 
 Phase: 8 of 9 (SEO Infrastructure)
-Plan: 3 of 4 in current phase (Wave 1 complete)
-Status: Executing phase 08
-Last activity: 2026-03-09 -- Completed 08-01 and 08-03 (Wave 1)
+Plan: 4 of 4 in current phase (Phase 8 complete)
+Status: Phase 8 complete
+Last activity: 2026-03-09 -- Completed 08-04 (SEO validation and integration)
 
-Progress: [██████████] 96%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 
@@ -82,6 +82,7 @@ Progress: [██████████] 96%
 | Phase 07 P09 | 3min | 2 tasks | 7 files |
 | Phase 07 P10 | 7min | 2 tasks | 0 files |
 | Phase 08 P01 | 3min | 2 tasks | 8 files |
+| Phase 08 P04 | 5min | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -232,6 +233,11 @@ Recent decisions affecting current work:
 - [Phase 08]: SEO_CONFIG as single exported constant object for shared SEO values (BASE_URL, OG_IMAGE, SITE_NAME)
 - [Phase 08]: 6 type-split sitemap IDs (core, services, cities, combos, comparisons, articles) via generateSitemaps()
 - [Phase 08]: buildOG helper and NOINDEX_PAGES set in [slug]/page.tsx for DRY OG and noindex management
+- [Phase 08-04]: BFS click-depth validator builds adjacency graph from data layer imports (not HTML parsing)
+- [Phase 08-04]: Max click depth is 2 -- all 1,741 pages reachable within 2 clicks from homepage
+- [Phase 08-04]: Cannibalization audit uses sampling and severity tiers (HIGH/MEDIUM/LOW); combo/service overlap is expected
+- [Phase 08-04]: SEMA-07 (AI detection QA) skipped per user decision -- Phase 5 content differentiation engine ensures variation
+- [Phase 08-04]: tsx installed as devDependency for npm script execution
 
 ### Pending Todos
 
@@ -333,8 +339,23 @@ Recent decisions affecting current work:
 - Comparison metadata uses hand-written metaDescription from content
 - Build: 1,744 static pages, all chains validated programmatically
 
+### Phase 8 Deliverables (Complete)
+
+- SEO_CONFIG with BASE_URL, OG_IMAGE, SITE_NAME constants
+- 6 type-split XML sitemaps via generateSitemaps() (core, services, cities, combos, comparisons, articles)
+- metadataBase set on layout for canonical/OG resolution
+- buildOG helper and NOINDEX_PAGES set for DRY metadata management
+- JSON-LD structured data on all page types (Organization, LocalBusiness, Service, BreadcrumbList, FAQ, WebPage, Article, Product)
+- Heading hierarchy audit script with H1/H2/H3 validation
+- Meta tag audit script with title length and description checks
+- 4 SEO validation scripts: flat URLs, BFS click-depth, topical map coverage, keyword cannibalization
+- PreloadResources component with preconnect (Google Maps) and prefetchDNS (GoHighLevel)
+- 7 npm scripts for SEO auditing/validation (seo:validate runs all 3 validators)
+- All 1,741 pages within 2 clicks from homepage, all URLs flat, all 63 pillar services have 3+ articles
+- Build: 1,752 static pages
+
 ## Session Continuity
 
-Last session: 2026-03-09T07:54:32.616Z
-Stopped at: Completed 08-01-PLAN.md
+Last session: 2026-03-09T08:09:02Z
+Stopped at: Completed 08-04-PLAN.md (Phase 8 complete)
 Resume file: None

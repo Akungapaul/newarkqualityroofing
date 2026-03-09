@@ -92,10 +92,10 @@
 - [x] **SEOT-02**: HTML sitemap (crawlable page listing all URLs)
 - [x] **SEOT-03**: robots.txt
 - [x] **SEOT-04**: Canonical tags on every page
-- [ ] **SEOT-05**: Core Web Vitals optimized (LCP, FID, CLS)
+- [x] **SEOT-05**: Core Web Vitals optimized (LCP, FID, CLS)
 - [ ] **SEOT-06**: Breadcrumbs on all pages
 - [x] **SEOT-07**: Flat URL structure (no nesting)
-- [ ] **SEOT-08**: No page more than 3 clicks from homepage
+- [x] **SEOT-08**: No page more than 3 clicks from homepage
 
 ### SEO — Schema Markup
 
@@ -121,9 +121,9 @@
 - [ ] **SEMA-02**: H1: primary keyword + location (one per page)
 - [ ] **SEMA-03**: H2s: secondary keywords (major sections)
 - [ ] **SEMA-04**: H3s: long-tail keywords and FAQ questions
-- [ ] **SEMA-05**: Full topical map with pillar pages and content clusters
+- [x] **SEMA-05**: Full topical map with pillar pages and content clusters
 - [x] **SEMA-06**: Content variation patterns to avoid duplicate content detection
-- [ ] **SEMA-07**: AI detection QA pass (ZeroGPT or similar as sanity check)
+- [x] **SEMA-07**: AI detection QA pass (ZeroGPT or similar as sanity check)
 
 ### SEO — Local
 
@@ -269,10 +269,10 @@
 | SEOT-02 | Phase 8 | Complete |
 | SEOT-03 | Phase 8 | Complete |
 | SEOT-04 | Phase 8 | Complete |
-| SEOT-05 | Phase 8 | Pending |
+| SEOT-05 | Phase 8 | Complete |
 | SEOT-06 | Phase 8 | Pending |
 | SEOT-07 | Phase 8 | Complete |
-| SEOT-08 | Phase 8 | Pending |
+| SEOT-08 | Phase 8 | Complete |
 | SCHM-01 | Phase 8 | Pending |
 | SCHM-02 | Phase 8 | Pending |
 | SCHM-03 | Phase 8 | Pending |
@@ -281,8 +281,8 @@
 | SEMA-02 | Phase 8 | Pending |
 | SEMA-03 | Phase 8 | Pending |
 | SEMA-04 | Phase 8 | Pending |
-| SEMA-05 | Phase 8 | Pending |
-| SEMA-07 | Phase 8 | Pending |
+| SEMA-05 | Phase 8 | Complete |
+| SEMA-07 | Phase 8 | Complete |
 | DSGN-01 | Phase 9 | Pending |
 | DSGN-02 | Phase 9 | Pending |
 | DSGN-03 | Phase 9 | Pending |
