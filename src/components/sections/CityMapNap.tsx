@@ -10,7 +10,7 @@ export function CityMapNap({ cityName, state = 'NJ' }: CityMapNapProps) {
 
   return (
     <div>
-      <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <h2 id="location-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
         Find Us Near {cityName}
       </h2>
       <div className="mt-6 grid gap-8 lg:grid-cols-2">

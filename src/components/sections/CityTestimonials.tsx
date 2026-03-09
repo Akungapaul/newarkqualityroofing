@@ -23,7 +23,7 @@ export function CityTestimonials({
 }: CityTestimonialsProps) {
   return (
     <div>
-      <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <h2 id="testimonials-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
         What {cityName} Homeowners Say
       </h2>
       <div className="mt-6 grid gap-6 md:grid-cols-2">

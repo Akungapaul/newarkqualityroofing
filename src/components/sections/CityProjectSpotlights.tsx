@@ -11,7 +11,7 @@ export function CityProjectSpotlights({
 }: CityProjectSpotlightsProps) {
   return (
     <div>
-      <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <h2 id="projects-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
         Featured Projects in {cityName}
       </h2>
       <div className="mt-6 space-y-6">

@@ -102,7 +102,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
 
             {/* Pricing section -- after commercial */}
             {content.pricing && (
-              <section id="pricing" aria-labelledby="pricing-heading">
+              <section id="pricing" aria-labelledby="city-pricing-heading">
                 <CityPricing pricing={content.pricing} cityName={city.name} />
               </section>
             )}

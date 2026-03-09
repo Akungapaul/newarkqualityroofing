@@ -8,7 +8,7 @@ interface CityFaqsProps {
 export function CityFaqs({ faqs, cityName }: CityFaqsProps) {
   return (
     <div>
-      <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <h2 id="faqs-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
         Common Roofing Questions in {cityName}
       </h2>
       <div className="mt-6 divide-y divide-border">

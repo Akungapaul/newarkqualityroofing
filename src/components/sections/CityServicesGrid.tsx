@@ -50,7 +50,7 @@ export function CityServicesGrid({ cityName, citySlug }: CityServicesGridProps) 
 
   return (
     <div>
-      <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <h2 id="services-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
         Roofing Services Available in {cityName}
       </h2>
       <div className="mt-6 grid gap-6 sm:grid-cols-2">

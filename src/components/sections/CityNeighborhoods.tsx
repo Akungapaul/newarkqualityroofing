@@ -11,7 +11,7 @@ export function CityNeighborhoods({
 }: CityNeighborhoodsProps) {
   return (
     <div>
-      <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <h2 id="neighborhoods-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
         Neighborhoods We Serve in {cityName}
       </h2>
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

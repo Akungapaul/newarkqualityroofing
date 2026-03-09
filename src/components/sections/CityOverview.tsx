@@ -15,7 +15,7 @@ export function CityOverview({
   return (
     <div className="space-y-8">
       <div>
-        <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+        <h2 id="overview-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
           Roofing in {cityName}: Local Expertise You Can Trust
         </h2>
         <div className="mt-4 space-y-4">
