@@ -13,6 +13,7 @@ import { LocationsGrid } from '@/components/sections/LocationsGrid';
 import { FaqAccordion } from '@/components/sections/FaqAccordion';
 import { HomepageGuides } from '@/components/sections/HomepageGuides';
 import { HomeComparisonGrid } from '@/components/sections/HomeComparisonGrid';
+import { BeforeAfterGallery } from '@/components/sections/BeforeAfterGallery';
 import { getComparisonMenuGroups } from '@/data/nav-data';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { testimonials } from '@/data/testimonials';
@@ -90,6 +91,9 @@ export default function Home() {
 
       {/* Residential & commercial deep content — 1 H2 + 1 H3 + image */}
       <HomeResidentialCommercial />
+
+      {/* Before/after gallery: project showcase with drag sliders */}
+      <BeforeAfterGallery />
 
       {/* Why choose us — H2 + H3 + bold */}
       <HomeWhyChooseUs />

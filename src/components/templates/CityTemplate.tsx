@@ -19,6 +19,9 @@ import { CityNearbyCities } from '@/components/sections/CityNearbyCities';
 import { CityCtaBanner } from '@/components/sections/CityCtaBanner';
 import { CityPricing } from '@/components/sections/CityPricing';
 import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
+import { TrustBar } from '@/components/sections/TrustBar';
+import { CompactTestimonial } from '@/components/sections/CompactTestimonial';
+import { testimonials } from '@/data/testimonials';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
   buildLocalBusinessSchema,
@@ -79,6 +82,9 @@ export default function CityTemplate({ city }: CityTemplateProps) {
       <FloatingCtaButton />
 
       <CityHero city={city} content={content} serviceGroups={serviceGroups} />
+
+      {/* Trust bar: text-only stats with SVG icons */}
+      <TrustBar variant="compact" />
 
       <CityStatsBar stats={content.stats} cityName={city.name} />
 
@@ -177,6 +183,12 @@ export default function CityTemplate({ city }: CityTemplateProps) {
             <section id="faqs" aria-labelledby="faqs-heading">
               <CityFaqs faqs={content.faqs} cityName={city.name} />
             </section>
+
+            {/* Compact testimonials -- 1-2 relevant reviews by location */}
+            <CompactTestimonial
+              testimonials={testimonials}
+              filterBy={{ type: 'location', value: city.name }}
+            />
 
             <section id="location" aria-labelledby="location-heading">
               <CityMapNap cityName={city.name} state={city.state} />

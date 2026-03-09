@@ -19,6 +19,9 @@ import { RelatedServices } from '@/components/sections/RelatedServices';
 import { ServiceCtaBanner } from '@/components/sections/ServiceCtaBanner';
 import { ServiceLearnMore } from '@/components/sections/ServiceLearnMore';
 import { ServiceRelatedComparisons } from '@/components/sections/ServiceRelatedComparisons';
+import { TrustBar } from '@/components/sections/TrustBar';
+import { CompactTestimonial } from '@/components/sections/CompactTestimonial';
+import { testimonials } from '@/data/testimonials';
 import { getMoneyPageArticle } from '@/data/linking/link-engine';
 import { getRelatedComparisons } from '@/data/linking/comparison-links';
 import { JsonLd } from '@/components/seo/JsonLd';
@@ -175,6 +178,9 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         benefits={benefits}
       />
 
+      {/* Trust bar: text-only stats with SVG icons */}
+      <TrustBar variant="compact" />
+
       {/* Credentials badge row — below hero */}
       {content.credentialsHighlight && content.credentialsHighlight.length > 0 && (
         <div className="mx-auto max-w-7xl px-6 pt-6 lg:px-8">
@@ -251,6 +257,12 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
           {/* Related Comparisons -- contextual comparison links */}
           <ServiceRelatedComparisons comparisons={getRelatedComparisons(service.id)} />
+
+          {/* Compact testimonials -- 1-2 relevant reviews */}
+          <CompactTestimonial
+            testimonials={testimonials}
+            filterBy={{ type: 'service', value: service.name }}
+          />
         </article>
 
         {/* Sticky sidebar */}
