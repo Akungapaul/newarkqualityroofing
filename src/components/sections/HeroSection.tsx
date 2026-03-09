@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { getServiceMenuGroups } from '@/data/nav-data';
+import { AnimateIn } from '@/components/animations/AnimateIn';
+import { HeroFormReveal } from '@/components/animations/HeroFormReveal';
 
 export function HeroSection() {
   const serviceGroups = getServiceMenuGroups();
@@ -49,43 +51,51 @@ export function HeroSection() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28">
         {/* Left: Headline + subtitle */}
         <div className="text-text-on-dark">
-          <div className="photo-treatment mb-6 inline-block">
-            <Image
-              src="/images/newark-roofing-at-work.jpg"
-              alt="Newark Quality Roofing team at work on a residential and commercial project"
-              width={120}
-              height={80}
-              className="rounded shadow-md"
-            />
-          </div>
-          <h1
-            id="hero-heading"
-            className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
-          >
-            Residential &amp; Commercial Roofing in Newark NJ
-            <br />
-            <span className="text-copper">
-              Licensed Contractors You Can Trust
-            </span>
-          </h1>
-          <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
-            Expert roofing services for homeowners and businesses across Newark and Essex County.
-            Repairs, replacements, flat roof systems, and more — call today for your free estimate.
-            Browse our <Link href="/services" className="underline text-copper-light hover:text-copper">full list of services</Link>,{' '}
-            <Link href="/roof-replacement" className="underline text-copper-light hover:text-copper">roof replacements</Link>,{' '}
-            <Link href="/commercial-roof-installation" className="underline text-copper-light hover:text-copper">commercial installations</Link>, or{' '}
-            <Link href="/contact" className="underline text-copper-light hover:text-copper">contact us</Link> directly.
-          </p>
-          <div className="mt-8 flex items-center gap-3 font-body text-parchment/70">
-            <span>Or call us directly:</span>
-            <PhoneNumber size="lg" className="text-copper-light hover:text-copper" />
-          </div>
+          <AnimateIn delay={0.2}>
+            <div className="photo-treatment mb-6 inline-block">
+              <Image
+                src="/images/newark-roofing-at-work.jpg"
+                alt="Newark Quality Roofing team at work on a residential and commercial project"
+                width={120}
+                height={80}
+                className="rounded shadow-md"
+              />
+            </div>
+          </AnimateIn>
+          <AnimateIn delay={0.4}>
+            <h1
+              id="hero-heading"
+              className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
+            >
+              Residential &amp; Commercial Roofing in Newark NJ
+              <br />
+              <span className="text-copper">
+                Licensed Contractors You Can Trust
+              </span>
+            </h1>
+          </AnimateIn>
+          <AnimateIn delay={0.6}>
+            <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
+              Expert roofing services for homeowners and businesses across Newark and Essex County.
+              Repairs, replacements, flat roof systems, and more — call today for your free estimate.
+              Browse our <Link href="/services" className="underline text-copper-light hover:text-copper">full list of services</Link>,{' '}
+              <Link href="/roof-replacement" className="underline text-copper-light hover:text-copper">roof replacements</Link>,{' '}
+              <Link href="/commercial-roof-installation" className="underline text-copper-light hover:text-copper">commercial installations</Link>, or{' '}
+              <Link href="/contact" className="underline text-copper-light hover:text-copper">contact us</Link> directly.
+            </p>
+          </AnimateIn>
+          <AnimateIn delay={0.8}>
+            <div className="mt-8 flex items-center gap-3 font-body text-parchment/70">
+              <span>Or call us directly:</span>
+              <PhoneNumber size="lg" className="text-copper-light hover:text-copper" />
+            </div>
+          </AnimateIn>
         </div>
 
-        {/* Right: Lead Form */}
-        <div id="lead-form">
+        {/* Right: Lead Form -- slides in from right */}
+        <HeroFormReveal id="lead-form">
           <LeadForm variant="hero" serviceGroups={serviceGroups} />
-        </div>
+        </HeroFormReveal>
       </div>
     </section>
   );

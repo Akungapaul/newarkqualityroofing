@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
-import type { NavServiceGroup, NavCityItem } from '@/data/nav-data';
+import type { NavServiceGroup, NavCityItem, NavComparisonGroup } from '@/data/nav-data';
 import { MobileMenu } from './MobileMenu';
 
 // ─── Props ──────────────────────────────────────────────────────────────────
@@ -10,6 +10,7 @@ import { MobileMenu } from './MobileMenu';
 interface HeaderProps {
   serviceGroups: NavServiceGroup[];
   cityItems: NavCityItem[];
+  comparisonGroups: NavComparisonGroup[];
   phoneDisplay: string;
   phoneTel: string;
 }
@@ -74,7 +75,7 @@ function DropdownTrigger({
         }`}
         role="menu"
       >
-        {children}
+        {isOpen && children}
       </div>
     </div>
   );
@@ -150,18 +151,57 @@ function LocationsDropdown({
   );
 }
 
+// ─── Guides dropdown ────────────────────────────────────────────────────────
+
+function GuidesDropdown({
+  groups,
+  onClose,
+}: {
+  groups: NavComparisonGroup[];
+  onClose: () => void;
+}) {
+  return (
+    <div className="w-[520px] rounded-lg border border-border bg-parchment p-6 shadow-2xl">
+      <div className="grid grid-cols-3 gap-x-6 gap-y-4">
+        {groups.map((group) => (
+          <div key={group.category}>
+            <h3 className="mb-2 font-heading text-sm font-bold uppercase tracking-widest text-copper-dark">
+              {group.categoryLabel}
+            </h3>
+            <ul className="space-y-0.5" role="group" aria-label={group.categoryLabel}>
+              {group.comparisons.map((comparison) => (
+                <li key={comparison.slug}>
+                  <Link
+                    href={`/${comparison.slug}`}
+                    onClick={onClose}
+                    className="block rounded px-2 py-1 font-body text-sm text-text-primary transition-colors duration-150 hover:bg-forest/5 hover:text-forest focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+                    role="menuitem"
+                  >
+                    {comparison.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 // ─── Header component ───────────────────────────────────────────────────────
 
-export function Header({ serviceGroups, cityItems, phoneDisplay, phoneTel }: HeaderProps) {
-  const [openDropdown, setOpenDropdown] = useState<'services' | 'locations' | null>(null);
+export function Header({ serviceGroups, cityItems, comparisonGroups, phoneDisplay, phoneTel }: HeaderProps) {
+  const [openDropdown, setOpenDropdown] = useState<'services' | 'locations' | 'guides' | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const closeAll = useCallback(() => {
     setOpenDropdown(null);
   }, []);
 
   const toggleDropdown = useCallback(
-    (dropdown: 'services' | 'locations') => {
+    (dropdown: 'services' | 'locations' | 'guides') => {
       setOpenDropdown((prev) => (prev === dropdown ? null : dropdown));
     },
     []
@@ -179,10 +219,17 @@ export function Header({ serviceGroups, cityItems, phoneDisplay, phoneTel }: Hea
     return () => document.removeEventListener('keydown', handleEscape);
   }, [closeAll]);
 
+  // Scroll-based header shrink + shadow
+  useEffect(() => {
+    const handler = () => setScrolled(window.scrollY > 50);
+    window.addEventListener('scroll', handler, { passive: true });
+    return () => window.removeEventListener('scroll', handler);
+  }, []);
+
   return (
     <>
-      <header className="sticky top-0 z-40 border-b border-forest-dark/30 bg-forest shadow-lg shadow-forest-dark/20">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+      <header className={`sticky top-0 z-40 transition-all duration-300 ${scrolled ? 'border-b border-forest-dark/20 bg-forest/95 shadow-lg shadow-forest-dark/30 backdrop-blur-md' : 'bg-forest'}`}>
+        <div className={`mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 transition-all duration-300 ${scrolled ? 'py-1.5' : 'py-3'}`}>
           {/* Logo */}
           <Link
             href="/"
@@ -215,6 +262,15 @@ export function Header({ serviceGroups, cityItems, phoneDisplay, phoneTel }: Hea
               onClose={closeAll}
             >
               <LocationsDropdown cityItems={cityItems} onClose={closeAll} />
+            </DropdownTrigger>
+
+            <DropdownTrigger
+              label="Roofing Guides"
+              isOpen={openDropdown === 'guides'}
+              onToggle={() => toggleDropdown('guides')}
+              onClose={closeAll}
+            >
+              <GuidesDropdown groups={comparisonGroups} onClose={closeAll} />
             </DropdownTrigger>
 
             <Link
@@ -293,6 +349,7 @@ export function Header({ serviceGroups, cityItems, phoneDisplay, phoneTel }: Hea
         onClose={() => setMobileMenuOpen(false)}
         serviceGroups={serviceGroups}
         cityItems={cityItems}
+        comparisonGroups={comparisonGroups}
         phoneDisplay={phoneDisplay}
         phoneTel={phoneTel}
       />
