@@ -37,15 +37,25 @@ export function readManifest(): ImageEntry[] {
     endIdx
   );
 
-  // Find the array content between [ and ]
-  const arrayStart = arraySection.indexOf('[');
+  // Find the array literal: look for `= [` pattern to skip type annotations like `ImageEntry[]`
+  const assignmentMatch = arraySection.match(/=\s*\[/);
+  if (!assignmentMatch || assignmentMatch.index === undefined) {
+    return [];
+  }
+
+  const arrayStart = arraySection.indexOf('[', assignmentMatch.index);
   const arrayEnd = arraySection.lastIndexOf(']');
 
-  if (arrayStart === -1 || arrayEnd === -1) {
+  if (arrayStart === -1 || arrayEnd === -1 || arrayEnd <= arrayStart) {
     return [];
   }
 
   const arrayContent = arraySection.slice(arrayStart, arrayEnd + 1);
+
+  // Fast check for empty array
+  if (arrayContent.trim() === '[]') {
+    return [];
+  }
 
   // Parse the array -- it's valid JSON-like TypeScript
   // We need to handle TypeScript syntax (no trailing comma issues in JSON.parse)

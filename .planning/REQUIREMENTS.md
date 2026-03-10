@@ -160,9 +160,9 @@
 - [ ] **IMG-05**: Image generation CLI (npm run images:generate) with dry-run mode and category filtering
 - [ ] **IMG-06**: Staging/approve workflow (npm run images:approve) with HTML preview page for visual review
 - [x] **IMG-07**: Status reporting (npm run images:status) with cost tracking and generation reports
-- [ ] **IMG-08**: Coverage audit (npm run images:audit) validating every page has a mapped image in manifest
-- [ ] **IMG-09**: OG image compositor using sharp SVG overlay with branded gradient, copper accent bar, and auto-wrapping title text
-- [ ] **IMG-10**: OG generation CLI (npm run images:og) producing ~87 OG composites for homepage, service, and city pages
+- [x] **IMG-08**: Coverage audit (npm run images:audit) validating every page has a mapped image in manifest
+- [x] **IMG-09**: OG image compositor using sharp SVG overlay with branded gradient, copper accent bar, and auto-wrapping title text
+- [x] **IMG-10**: OG generation CLI (npm run images:og) producing ~87 OG composites for homepage, service, and city pages
 - [ ] **IMG-11**: Component manifest integration: all 8 image-referencing components use manifest lookups with graceful stock photo fallbacks
 - [ ] **IMG-12**: Per-page OG images in buildOG() metadata function with fallback to shared SEO_CONFIG.OG_IMAGE
 - [x] **IMG-13**: Dead file cleanup (3 empty badge files) and infrastructure updates (.gitignore, .env.example, package.json)
@@ -315,9 +315,9 @@
 | IMG-05 | Phase 10 | Pending |
 | IMG-06 | Phase 10 | Pending |
 | IMG-07 | Phase 10 | Complete |
-| IMG-08 | Phase 10 | Pending |
-| IMG-09 | Phase 10 | Pending |
-| IMG-10 | Phase 10 | Pending |
+| IMG-08 | Phase 10 | Complete |
+| IMG-09 | Phase 10 | Complete |
+| IMG-10 | Phase 10 | Complete |
 | IMG-11 | Phase 10 | Pending |
 | IMG-12 | Phase 10 | Pending |
 | IMG-13 | Phase 10 | Complete |
