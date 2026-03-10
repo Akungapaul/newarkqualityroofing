@@ -2,9 +2,9 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: executing
-stopped_at: Completed 10-04-PLAN.md
-last_updated: "2026-03-10T06:20:20Z"
+status: completed
+stopped_at: Completed 10-02-PLAN.md
+last_updated: "2026-03-10T06:24:12.130Z"
 last_activity: 2026-03-10 -- Completed 10-04 (Site integration - manifest lookups and per-page OG images)
 progress:
   total_phases: 10
@@ -90,6 +90,7 @@ Progress: [██████████] 100%
 | Phase 10 P01 | 8min | 2 tasks | 12 files |
 | Phase 10 P03 | 5min | 2 tasks | 3 files |
 | Phase 10 P04 | 7min | 2 tasks | 11 files |
+| Phase 10 P02 | 9min | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -267,6 +268,9 @@ Recent decisions affecting current work:
 - [10-04]: Combo pages reuse service OG image rather than having unique combo OG images (shared visual identity per service)
 - [10-04]: Comparison and article pages use shared default OG image (per-page OG deferred per CONTEXT.md)
 - [10-04]: Gallery pair captions stored as local PAIR_CAPTIONS map rather than in manifest (captions are presentation-layer)
+- [Phase 10-02]: Lazy OpenAI client initialization to allow dry-run/preview without API key
+- [Phase 10-02]: Category-grouped generation calls for organized staging subdirectories
+- [Phase 10-02]: Approve requires explicit filter (--all/--category/--id/--name) to prevent accidental mass approval
 
 ### Pending Todos
 
@@ -389,6 +393,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-10T06:20:20Z
-Stopped at: Completed 10-04-PLAN.md (all plans complete)
-Resume file: N/A (all phases and plans complete)
+Last session: 2026-03-10T06:24:12.126Z
+Stopped at: Completed 10-02-PLAN.md
+Resume file: None

@@ -157,8 +157,8 @@
 - [x] **IMG-02**: Prompt definitions for all ~137 images organized by category (homepage, service heroes, city heroes, gallery, content pool) with shared style prefix
 - [x] **IMG-03**: OpenAI client wrapper for gpt-image-1 with rate limiting, concurrency control, and exponential backoff
 - [x] **IMG-04**: Sharp processing pipeline for resize, WebP conversion, and optimization
-- [ ] **IMG-05**: Image generation CLI (npm run images:generate) with dry-run mode and category filtering
-- [ ] **IMG-06**: Staging/approve workflow (npm run images:approve) with HTML preview page for visual review
+- [x] **IMG-05**: Image generation CLI (npm run images:generate) with dry-run mode and category filtering
+- [x] **IMG-06**: Staging/approve workflow (npm run images:approve) with HTML preview page for visual review
 - [x] **IMG-07**: Status reporting (npm run images:status) with cost tracking and generation reports
 - [x] **IMG-08**: Coverage audit (npm run images:audit) validating every page has a mapped image in manifest
 - [x] **IMG-09**: OG image compositor using sharp SVG overlay with branded gradient, copper accent bar, and auto-wrapping title text
@@ -312,8 +312,8 @@
 | IMG-02 | Phase 10 | Complete |
 | IMG-03 | Phase 10 | Complete |
 | IMG-04 | Phase 10 | Complete |
-| IMG-05 | Phase 10 | Pending |
-| IMG-06 | Phase 10 | Pending |
+| IMG-05 | Phase 10 | Complete |
+| IMG-06 | Phase 10 | Complete |
 | IMG-07 | Phase 10 | Complete |
 | IMG-08 | Phase 10 | Complete |
 | IMG-09 | Phase 10 | Complete |
