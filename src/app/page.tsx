@@ -31,7 +31,13 @@ import {
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
-import { getHomepageImage } from '@/data/image-manifest';
+import { getHomepageImage, getOGImage } from '@/data/image-manifest';
+
+// Per-page OG image for homepage (falls back to shared default when manifest is empty)
+const homepageOg = getOGImage('homepage', 'homepage');
+const homepageOgImage = homepageOg?.path
+  ? { url: `/${homepageOg.path}`, width: 1200, height: 630 }
+  : { url: SEO_CONFIG.OG_IMAGE.url, width: SEO_CONFIG.OG_IMAGE.width, height: SEO_CONFIG.OG_IMAGE.height };
 
 export const metadata: Metadata = {
   title: 'Roof Repair in Newark NJ | Quality Local Contractors',
@@ -47,13 +53,7 @@ export const metadata: Metadata = {
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',
-    images: [
-      {
-        url: '/images/og-default.jpg',
-        width: 1200,
-        height: 630,
-      },
-    ],
+    images: [homepageOgImage],
   },
 };
 

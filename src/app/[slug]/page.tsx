@@ -12,6 +12,7 @@ import { getComboContent } from '@/data/combo-content';
 import { getComparisonContent } from '@/data/comparison-content';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { getOGImage } from '@/data/image-manifest';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -33,8 +34,14 @@ export const dynamicParams = false;
 /** Pages that should have robots noindex */
 const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy']);
 
-/** Build OG metadata for a page */
-function buildOG(title: string, description: string, slug: string, type: 'website' | 'article' = 'website') {
+/** Build OG metadata for a page (uses per-page OG image when available, otherwise shared default) */
+function buildOG(
+  title: string,
+  description: string,
+  slug: string,
+  type: 'website' | 'article' = 'website',
+  ogImagePath?: string
+) {
   return {
     title,
     description,
@@ -42,11 +49,9 @@ function buildOG(title: string, description: string, slug: string, type: 'websit
     siteName: SEO_CONFIG.SITE_NAME,
     type,
     images: [
-      {
-        url: SEO_CONFIG.OG_IMAGE.url,
-        width: SEO_CONFIG.OG_IMAGE.width,
-        height: SEO_CONFIG.OG_IMAGE.height,
-      },
+      ogImagePath
+        ? { url: ogImagePath, width: 1200, height: 630 }
+        : { url: SEO_CONFIG.OG_IMAGE.url, width: SEO_CONFIG.OG_IMAGE.width, height: SEO_CONFIG.OG_IMAGE.height },
     ],
   };
 }
@@ -64,11 +69,12 @@ export async function generateMetadata({
     case 'service': {
       const service = services.find((s) => s.id === pageData.serviceId);
       if (!service) return {};
+      const serviceOg = getOGImage('service', service.id);
       return {
         title: service.metaTitle,
         description: service.metaDescription,
         alternates: { canonical: `/${service.slug}` },
-        openGraph: buildOG(service.metaTitle, service.metaDescription, service.slug),
+        openGraph: buildOG(service.metaTitle, service.metaDescription, service.slug, 'website', serviceOg?.path ? `/${serviceOg.path}` : undefined),
       };
     }
     case 'city': {
@@ -76,11 +82,12 @@ export async function generateMetadata({
       if (!city) return {};
       const cityContent = getCityContent(city.id);
       const citySlug = generateCityPageSlug(city.slug);
+      const cityOg = getOGImage('city', city.id);
       return {
         title: cityContent.metaTitle,
         description: cityContent.metaDescription,
         alternates: { canonical: `/${citySlug}` },
-        openGraph: buildOG(cityContent.metaTitle, cityContent.metaDescription, citySlug),
+        openGraph: buildOG(cityContent.metaTitle, cityContent.metaDescription, citySlug, 'website', cityOg?.path ? `/${cityOg.path}` : undefined),
       };
     }
     case 'combo': {
@@ -98,11 +105,13 @@ export async function generateMetadata({
       } catch {
         // No hand-written content for this combo -- use auto-generated description
       }
+      // Reuse service OG image for combo pages
+      const comboOg = getOGImage('service', combo.serviceId);
       return {
         title: combo.metaTitle,
         description: comboDescription,
         alternates: { canonical: `/${combo.slug}` },
-        openGraph: buildOG(combo.metaTitle, comboDescription, combo.slug),
+        openGraph: buildOG(combo.metaTitle, comboDescription, combo.slug, 'website', comboOg?.path ? `/${comboOg.path}` : undefined),
       };
     }
     case 'comparison': {
@@ -138,11 +147,13 @@ export async function generateMetadata({
     case 'core': {
       const corePage = corePages.find((c) => c.id === pageData.corePageId);
       if (!corePage) return {};
+      // Look up per-page OG image for homepage; other core pages use default
+      const coreOg = corePage.id === 'homepage' ? getOGImage('homepage', 'homepage') : undefined;
       const base: Metadata = {
         title: corePage.metaTitle,
         description: corePage.metaDescription,
         alternates: { canonical: `/${corePage.slug}` },
-        openGraph: buildOG(corePage.metaTitle, corePage.metaDescription, corePage.slug),
+        openGraph: buildOG(corePage.metaTitle, corePage.metaDescription, corePage.slug, 'website', coreOg?.path ? `/${coreOg.path}` : undefined),
       };
       // Add noindex for thank-you and privacy-policy pages
       if (NOINDEX_PAGES.has(corePage.id)) {
