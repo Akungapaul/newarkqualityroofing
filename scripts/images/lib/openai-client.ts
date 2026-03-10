@@ -12,11 +12,23 @@ import type {
   COST_CONSTANTS,
 } from './types';
 
-// ─── Client Initialization ──────────────────────────────────────────────────
+// ─── Client Initialization (Lazy) ──────────────────────────────────────────
+// Lazy-initialized so that importing this module for non-generation tasks
+// (dry-run, status, preview) does not throw when OPENAI_API_KEY is absent.
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+let _openai: OpenAI | null = null;
+
+function getClient(): OpenAI {
+  if (!_openai) {
+    if (!process.env.OPENAI_API_KEY) {
+      throw new Error(
+        'OPENAI_API_KEY not set. Add it to your .env file: OPENAI_API_KEY=sk-...'
+      );
+    }
+    _openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  }
+  return _openai;
+}
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -61,7 +73,7 @@ export async function generateImage(
   prompt: string,
   size: APIImageSize = '1536x1024'
 ): Promise<Buffer> {
-  const result = await openai.images.generate({
+  const result = await getClient().images.generate({
     model: 'gpt-image-1',
     prompt,
     size,
