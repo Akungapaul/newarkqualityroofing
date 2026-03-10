@@ -13,7 +13,13 @@
     "validate:urls": "tsx scripts/validate-flat-urls.ts",
     "validate:depth": "tsx scripts/validate-click-depth.ts",
     "validate:topical": "tsx scripts/validate-topical-map.ts",
-    "seo:validate": "tsx scripts/validate-flat-urls.ts && tsx scripts/validate-click-depth.ts && tsx scripts/validate-topical-map.ts"
+    "seo:validate": "tsx scripts/validate-flat-urls.ts && tsx scripts/validate-click-depth.ts && tsx scripts/validate-topical-map.ts",
+    "images:generate": "tsx scripts/images/generate.ts",
+    "images:approve": "tsx scripts/images/approve.ts",
+    "images:status": "tsx scripts/images/status.ts",
+    "images:audit": "tsx scripts/images/audit.ts",
+    "images:og": "tsx scripts/images/og-generate.ts",
+    "images:preview": "tsx scripts/images/preview.ts"
   },
   "dependencies": {
     "motion": "^12.35.2",
@@ -28,8 +34,11 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "cmpstr": "^3.2.1",
+    "dotenv": "^16.6.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "openai": "^6.27.0",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5"
