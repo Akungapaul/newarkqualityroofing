@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { WHY_CHOOSE_US_REASONS } from '@/data/content-constants';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getHomepageImage } from '@/data/image-manifest';
 
 const reasonImages: Record<number, { src: string; alt: string } | null> = {
   0: { src: '/images/nj-licensed-contractor.jpg', alt: 'NJ licensed contractor certification' },
@@ -11,6 +12,10 @@ const reasonImages: Record<number, { src: string; alt: string } | null> = {
 };
 
 export function HomeWhyChooseUs() {
+  const teamImg = getHomepageImage('why-team');
+  const teamSrc = teamImg?.path ? `/${teamImg.path}` : '/images/newark-roofing-team.jpg';
+  const teamAlt = teamImg?.alt ?? 'our professional team';
+
   return (
     <section
       className="bg-parchment py-16 lg:py-24"
@@ -79,8 +84,8 @@ export function HomeWhyChooseUs() {
 
         <div className="mx-auto mt-10 max-w-md">
           <Image
-            src="/images/newark-roofing-team.jpg"
-            alt="our professional team"
+            src={teamSrc}
+            alt={teamAlt}
             width={600}
             height={400}
             className="rounded-lg shadow-md"

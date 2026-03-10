@@ -4,10 +4,12 @@ import { useState, useCallback, useRef } from 'react';
 import Image from 'next/image';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { getGalleryPairs } from '@/data/image-manifest';
 
-// ─── Gallery Data ───────────────────────────────────────────────────────────
+// ─── Fallback Gallery Data ──────────────────────────────────────────────────
+// Used when the manifest has fewer than 4 before/after pairs (i.e., images not yet generated).
 
-const galleryProjects = [
+const FALLBACK_PROJECTS = [
   {
     id: 'residential-shingle',
     before: '/images/residential-roof-repair-newark.jpg',
@@ -41,6 +43,45 @@ const galleryProjects = [
     altAfter: 'After commercial TPO membrane installation in Bloomfield NJ',
   },
 ];
+
+// ─── Caption mapping for manifest-sourced gallery pairs ─────────────────────
+
+const PAIR_CAPTIONS: Record<string, string> = {
+  'residential-shingles': 'Residential Shingle Repair — Newark, NJ',
+  'leak-damage': 'Chimney Leak Repair — East Orange, NJ',
+  'aged-roof': 'Full Roof Replacement — Montclair, NJ',
+  'storm-damage': 'Storm Damage Restoration — Bloomfield, NJ',
+  'commercial-ponding': 'Commercial Drainage Fix — Newark, NJ',
+  'commercial-membrane': 'TPO Membrane Installation — West Orange, NJ',
+  'commercial-metal': 'Metal Roof Restoration — Caldwell, NJ',
+  'commercial-bur': 'Modified Bitumen Replacement — Irvington, NJ',
+};
+
+/** Build gallery projects from manifest pairs, falling back to hardcoded data */
+function buildGalleryProjects() {
+  const manifestPairs = getGalleryPairs();
+
+  // Require at least 4 pairs from the manifest before switching away from fallback
+  if (manifestPairs.length < 4) {
+    return FALLBACK_PROJECTS;
+  }
+
+  // Use up to 8 manifest pairs
+  return manifestPairs.map((pair) => {
+    // Extract pair ID from the before entry (e.g., "gallery-before-residential-shingles" -> "residential-shingles")
+    const pairId = pair.before.id.replace('gallery-before-', '');
+    return {
+      id: pairId,
+      before: `/${pair.before.path}`,
+      after: `/${pair.after.path}`,
+      caption: PAIR_CAPTIONS[pairId] ?? `Roofing Project — Essex County, NJ`,
+      altBefore: pair.before.alt,
+      altAfter: pair.after.alt,
+    };
+  });
+}
+
+const galleryProjects = buildGalleryProjects();
 
 // ─── ImageObject JSON-LD ────────────────────────────────────────────────────
 

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { PRICING } from '@/data/content-constants';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getHomepageImage } from '@/data/image-manifest';
 
 const pricingRows = [
   { key: 'roof-repair' as const, label: 'Roof Repair', slug: 'roof-repair' },
@@ -22,6 +23,10 @@ const pricingRows = [
 ];
 
 export function HomePricingTable() {
+  const estimateImg = getHomepageImage('pricing-estimate');
+  const estimateSrc = estimateImg?.path ? `/${estimateImg.path}` : '/images/affordable-roofing-estimate.jpg';
+  const estimateAlt = estimateImg?.alt ?? 'affordable roofing estimate in Newark';
+
   return (
     <section
       className="bg-forest-dark py-16 text-text-on-dark lg:py-24"
@@ -96,8 +101,8 @@ export function HomePricingTable() {
 
         <div className="mt-8 flex justify-center">
           <Image
-            src="/images/affordable-roofing-estimate.jpg"
-            alt="affordable roofing estimate in Newark"
+            src={estimateSrc}
+            alt={estimateAlt}
             width={400}
             height={260}
             className="rounded-lg shadow-md"

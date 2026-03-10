@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getHomepageImage } from '@/data/image-manifest';
 
 const residentialBullets = [
   'Asphalt shingle, slate, metal, and tile roof installations',
@@ -17,6 +18,14 @@ const commercialBullets = [
 ];
 
 export function HomeResidentialCommercial() {
+  const residentialImg = getHomepageImage('residential-split');
+  const residentialSrc = residentialImg?.path ? `/${residentialImg.path}` : '/images/residential-roof-repair-newark.jpg';
+  const residentialAlt = residentialImg?.alt ?? 'Residential roof repair project in Newark NJ';
+
+  const commercialImg = getHomepageImage('commercial-split');
+  const commercialSrc = commercialImg?.path ? `/${commercialImg.path}` : '/images/commercial-roofing-newark.jpg';
+  const commercialAlt = commercialImg?.alt ?? 'Commercial roofing system installation in Newark NJ';
+
   return (
     <section
       className="bg-parchment py-16 lg:py-24"
@@ -37,8 +46,8 @@ export function HomeResidentialCommercial() {
           <div className="flex flex-col">
             <div className="photo-treatment aspect-[4/3] overflow-hidden">
               <Image
-                src="/images/residential-roof-repair-newark.jpg"
-                alt="Residential roof repair project in Newark NJ"
+                src={residentialSrc}
+                alt={residentialAlt}
                 width={800}
                 height={600}
                 className="h-full w-full object-cover"
@@ -95,8 +104,8 @@ export function HomeResidentialCommercial() {
           <div className="flex flex-col">
             <div className="photo-treatment aspect-[4/3] overflow-hidden">
               <Image
-                src="/images/commercial-roofing-newark.jpg"
-                alt="Commercial roofing system installation in Newark NJ"
+                src={commercialSrc}
+                alt={commercialAlt}
                 width={800}
                 height={600}
                 className="h-full w-full object-cover"

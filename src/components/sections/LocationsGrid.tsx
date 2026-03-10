@@ -4,8 +4,13 @@ import { cities } from '@/data/cities';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { StaggerGrid, StaggerItem } from '@/components/animations/StaggerGrid';
+import { getHomepageImage } from '@/data/image-manifest';
 
 export function LocationsGrid() {
+  const mapImg = getHomepageImage('service-map');
+  const mapSrc = mapImg?.path ? `/${mapImg.path}` : '/images/essex-county-service-map.jpg';
+  const mapAlt = mapImg?.alt ?? 'service area map';
+
   return (
     <section
       className="bg-forest-dark py-16 text-text-on-dark lg:py-24"
@@ -36,8 +41,8 @@ export function LocationsGrid() {
 
           <div className="mt-8 flex justify-center">
             <Image
-              src="/images/essex-county-service-map.jpg"
-              alt="service area map"
+              src={mapSrc}
+              alt={mapAlt}
               width={400}
               height={260}
               className="rounded-lg shadow-md"

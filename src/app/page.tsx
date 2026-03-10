@@ -31,6 +31,7 @@ import {
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
+import { getHomepageImage } from '@/data/image-manifest';
 
 export const metadata: Metadata = {
   title: 'Roof Repair in Newark NJ | Quality Local Contractors',
@@ -60,6 +61,11 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const comparisonGroups = getComparisonMenuGroups();
+
+  // Manifest lookup for consultation image with fallback
+  const consultationImg = getHomepageImage('consultation');
+  const consultationSrc = consultationImg?.path ? `/${consultationImg.path}` : '/images/free-roofing-consultation.jpg';
+  const consultationAlt = consultationImg?.alt ?? 'free roofing consultation Newark NJ';
 
   // Homepage articles: core articles linked to homepage, sorted by position
   const homepageArticles = articles
@@ -210,8 +216,8 @@ export default function Home() {
           </p>
           <div className="mt-6 flex justify-center">
             <Image
-              src="/images/free-roofing-consultation.jpg"
-              alt="free roofing consultation Newark NJ"
+              src={consultationSrc}
+              alt={consultationAlt}
               width={300}
               height={200}
               className="rounded-lg shadow-md"

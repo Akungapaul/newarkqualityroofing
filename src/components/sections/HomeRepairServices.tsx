@@ -1,8 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getHomepageImage } from '@/data/image-manifest';
 
 export function HomeRepairServices() {
+  const repairImg = getHomepageImage('repair-services');
+  const repairSrc = repairImg?.path ? `/${repairImg.path}` : '/images/roof-replacement-newark.jpg';
+  const repairAlt = repairImg?.alt ?? 'completed project';
+
   return (
     <section
       className="bg-parchment py-16 lg:py-24"
@@ -123,8 +128,8 @@ export function HomeRepairServices() {
           {/* Right column: image */}
           <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
             <Image
-              src="/images/roof-replacement-newark.jpg"
-              alt="completed project"
+              src={repairSrc}
+              alt={repairAlt}
               width={800}
               height={600}
               className="h-full w-full object-cover"

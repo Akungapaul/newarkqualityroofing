@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { FaqItem } from '@/data/faq';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getHomepageImage } from '@/data/image-manifest';
 
 interface FaqAccordionProps {
   items: FaqItem[];
@@ -20,6 +21,10 @@ function wrapFirstSentence(text: string, useEmphasis: boolean = true) {
 }
 
 export function FaqAccordion({ items }: FaqAccordionProps) {
+  const faqImg = getHomepageImage('faq-options');
+  const faqSrc = faqImg?.path ? `/${faqImg.path}` : '/images/homeowner-roofing-options.jpg';
+  const faqAlt = faqImg?.alt ?? 'reviewing options';
+
   return (
     <section className="bg-parchment py-16 lg:py-24" aria-labelledby="faq-heading">
       <AnimateIn className="mx-auto max-w-3xl px-6 lg:px-8">
@@ -38,8 +43,8 @@ export function FaqAccordion({ items }: FaqAccordionProps) {
 
         <div className="mt-8 flex justify-center">
           <Image
-            src="/images/homeowner-roofing-options.jpg"
-            alt="reviewing options"
+            src={faqSrc}
+            alt={faqAlt}
             width={400}
             height={260}
             className="rounded-lg shadow-md"
