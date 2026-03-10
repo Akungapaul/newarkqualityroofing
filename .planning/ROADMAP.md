@@ -21,6 +21,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 7: Supporting Content** - 30 comparison pages, 252 supporting articles, reverse silo article linking
 - [x] **Phase 8: SEO Infrastructure** - Technical SEO, schema markup, semantic optimization, sitemaps, AI detection QA (completed 2026-03-09)
 - [ ] **Phase 9: Conversion and Design Polish** - Editorial Trust design refinement, animations, trust signals, gallery, residential/commercial homepage balance
+- [ ] **Phase 10: Add Image Creation System** - AI-powered image generation with GPT-4o, ~120 core photos + ~87 OG images, CLI toolset
 
 ## Phase Details
 
@@ -230,11 +231,29 @@ Plans:
 - [ ] 09-03-PLAN.md -- Animations: hero entrance orchestration, header scroll shrink, floating CTA entrance, section AnimateIn wrappers across all templates
 - [ ] 09-04-PLAN.md -- Residential/commercial balance: unified hero headline, 50/50 split section, balanced services grid, footer restructure, commercial badge
 
+### Phase 10: Add Image Creation System
+**Goal**: A complete AI-powered image generation system using GPT-4o produces ~120 core photos and ~87 OG images, replaces all stock photos with AI-generated images matching the Editorial Trust aesthetic, and delivers a reusable CLI toolset for generating, reviewing, approving, and auditing images
+**Depends on**: Phase 9
+**Requirements**: IMG-01, IMG-02, IMG-03, IMG-04, IMG-05, IMG-06, IMG-07, IMG-08, IMG-09, IMG-10, IMG-11, IMG-12, IMG-13
+**Success Criteria** (what must be TRUE):
+  1. A manifest-driven image system maps all ~120 core photos to their page associations with SEO-optimized alt text
+  2. CLI scripts (images:generate, images:approve, images:status, images:audit, images:og, images:preview) provide a complete workflow for generating, reviewing, and deploying images
+  3. All 8 homepage components use manifest lookups with graceful fallback to existing stock photos
+  4. Per-page OG images are served for homepage, 65 service pages, and 21 city pages via buildOG() metadata function
+  5. Coverage audit script validates that every page has a mapped image in the manifest
+**Plans**: 4 plans
+
+Plans:
+- [ ] 10-01-PLAN.md -- Foundation: types, manifest schema, shared libraries (OpenAI client, sharp pipeline, cost tracker), prompt definitions, npm deps
+- [ ] 10-02-PLAN.md -- CLI scripts: generate (with dry-run and category filter), approve (stage-to-production), status, preview (HTML review page)
+- [ ] 10-03-PLAN.md -- OG image compositor with sharp SVG overlay, OG generation CLI, coverage audit script
+- [ ] 10-04-PLAN.md -- Site integration: component manifest lookups, per-page OG metadata, dead file cleanup
+
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9
-Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7 and 8 can run in parallel (both depend on Phase 6). Phase 9 can run anytime after Phase 2.
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
+Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7 and 8 can run in parallel (both depend on Phase 6). Phase 9 can run anytime after Phase 2. Phase 10 depends on Phase 9.
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
@@ -247,7 +266,8 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 | 7. Supporting Content | 9/10 | In Progress|  |
 | 8. SEO Infrastructure | 4/4 | Complete   | 2026-03-09 |
 | 9. Conversion and Design Polish | 1/4 | In Progress | - |
+| 10. Add Image Creation System | 0/4 | Planned | - |
 
 ---
 *Roadmap created: 2026-03-05*
-*Last updated: 2026-03-09 -- Phase 9 in progress (09-01 complete: Motion + CSS foundation)*
+*Last updated: 2026-03-10 -- Phase 10 planned (4 plans in 2 waves)*

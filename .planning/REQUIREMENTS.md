@@ -151,6 +151,22 @@
 - [x] **CONT-04**: City pages cover both residential and commercial roofing needs
 - [x] **CONT-05**: Different CTA language for residential vs commercial audiences
 
+### Image Creation System
+
+- [ ] **IMG-01**: Image manifest schema with Zod validation mapping image IDs to file paths, alt text, dimensions, and page associations
+- [ ] **IMG-02**: Prompt definitions for all ~137 images organized by category (homepage, service heroes, city heroes, gallery, content pool) with shared style prefix
+- [ ] **IMG-03**: OpenAI client wrapper for gpt-image-1 with rate limiting, concurrency control, and exponential backoff
+- [ ] **IMG-04**: Sharp processing pipeline for resize, WebP conversion, and optimization
+- [ ] **IMG-05**: Image generation CLI (npm run images:generate) with dry-run mode and category filtering
+- [ ] **IMG-06**: Staging/approve workflow (npm run images:approve) with HTML preview page for visual review
+- [ ] **IMG-07**: Status reporting (npm run images:status) with cost tracking and generation reports
+- [ ] **IMG-08**: Coverage audit (npm run images:audit) validating every page has a mapped image in manifest
+- [ ] **IMG-09**: OG image compositor using sharp SVG overlay with branded gradient, copper accent bar, and auto-wrapping title text
+- [ ] **IMG-10**: OG generation CLI (npm run images:og) producing ~87 OG composites for homepage, service, and city pages
+- [ ] **IMG-11**: Component manifest integration: all 8 image-referencing components use manifest lookups with graceful stock photo fallbacks
+- [ ] **IMG-12**: Per-page OG images in buildOG() metadata function with fallback to shared SEO_CONFIG.OG_IMAGE
+- [ ] **IMG-13**: Dead file cleanup (3 empty badge files) and infrastructure updates (.gitignore, .env.example, package.json)
+
 ## v2 Requirements
 
 ### Enhanced Lead Capture
@@ -292,12 +308,25 @@
 | DSGN-07 | Phase 9 | Complete |
 | DSGN-08 | Phase 9 | Complete |
 | CONT-01 | Phase 9 | Complete |
+| IMG-01 | Phase 10 | Pending |
+| IMG-02 | Phase 10 | Pending |
+| IMG-03 | Phase 10 | Pending |
+| IMG-04 | Phase 10 | Pending |
+| IMG-05 | Phase 10 | Pending |
+| IMG-06 | Phase 10 | Pending |
+| IMG-07 | Phase 10 | Pending |
+| IMG-08 | Phase 10 | Pending |
+| IMG-09 | Phase 10 | Pending |
+| IMG-10 | Phase 10 | Pending |
+| IMG-11 | Phase 10 | Pending |
+| IMG-12 | Phase 10 | Pending |
+| IMG-13 | Phase 10 | Pending |
 
 **Coverage:**
-- v1 requirements: 101 total (corrected from initial estimate of 75)
-- Mapped to phases: 101
+- v1 requirements: 114 total (101 original + 13 image creation system)
+- Mapped to phases: 114
 - Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-05*
-*Last updated: 2026-03-05 after roadmap creation -- traceability complete*
+*Last updated: 2026-03-10 -- Phase 10 requirements added (IMG-01 through IMG-13)*
