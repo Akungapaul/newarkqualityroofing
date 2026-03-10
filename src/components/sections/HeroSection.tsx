@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
@@ -51,17 +50,6 @@ export function HeroSection() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28">
         {/* Left: Headline + subtitle */}
         <div className="text-text-on-dark">
-          <AnimateIn delay={0.2}>
-            <div className="photo-treatment mb-6 inline-block">
-              <Image
-                src="/images/newark-roofing-at-work.jpg"
-                alt="Newark Quality Roofing team at work on a residential and commercial project"
-                width={120}
-                height={80}
-                className="rounded shadow-md"
-              />
-            </div>
-          </AnimateIn>
           <AnimateIn delay={0.4}>
             <h1
               id="hero-heading"
