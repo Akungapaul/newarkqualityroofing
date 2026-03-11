@@ -12,7 +12,7 @@ import { getGalleryPairs } from '@/data/image-manifest';
 const FALLBACK_PROJECTS = [
   {
     id: 'residential-shingle',
-    before: '/images/residential-roof-repair-newark.jpg',
+    before: '/images/gallery/gallery-before-residential-shingles.webp',
     after: '/images/newark-roofing-at-work.jpg',
     caption: 'Residential Shingle Repair — Newark, NJ',
     altBefore: 'Before residential shingle repair in Newark NJ',
@@ -72,8 +72,8 @@ function buildGalleryProjects() {
     const pairId = pair.before.id.replace('gallery-before-', '');
     return {
       id: pairId,
-      before: `/${pair.before.path}`,
-      after: `/${pair.after.path}`,
+      before: pair.before.path,
+      after: pair.after.path,
       caption: PAIR_CAPTIONS[pairId] ?? `Roofing Project — Essex County, NJ`,
       altBefore: pair.before.alt,
       altAfter: pair.after.alt,

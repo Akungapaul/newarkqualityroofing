@@ -11,17 +11,22 @@ import type {
 import { COST_CONSTANTS } from './types';
 
 /**
+ * Estimate cost for a single image based on megapixels (Flux 2 Pro pricing).
+ * $0.03 for first megapixel + $0.015 per extra megapixel.
+ */
+function estimateSingleCost(targetWidth: number, targetHeight: number): number {
+  const megapixels = (targetWidth * targetHeight) / 1_000_000;
+  if (megapixels <= 1) return 0.03;
+  return 0.03 + (megapixels - 1) * 0.015;
+}
+
+/**
  * Estimate the total cost for generating a list of prompts.
- * Uses medium quality pricing from OpenAI.
+ * Uses Flux 2 Pro megapixel-based pricing via fal.ai.
  */
 export function estimateCost(prompts: PromptDefinition[]): number {
   return prompts.reduce((total, p) => {
-    // Square images (1:1 aspect) use SQUARE pricing, everything else LANDSCAPE
-    const isSquare = p.targetWidth === p.targetHeight;
-    const cost = isSquare
-      ? COST_CONSTANTS.SQUARE_MEDIUM
-      : COST_CONSTANTS.LANDSCAPE_MEDIUM;
-    return total + cost;
+    return total + estimateSingleCost(p.targetWidth, p.targetHeight);
   }, 0);
 }
 
@@ -34,10 +39,7 @@ export function formatCostEstimate(
   const byCategory = new Map<string, { count: number; cost: number }>();
 
   for (const p of prompts) {
-    const isSquare = p.targetWidth === p.targetHeight;
-    const cost = isSquare
-      ? COST_CONSTANTS.SQUARE_MEDIUM
-      : COST_CONSTANTS.LANDSCAPE_MEDIUM;
+    const cost = estimateSingleCost(p.targetWidth, p.targetHeight);
     const existing = byCategory.get(p.category) ?? { count: 0, cost: 0 };
     byCategory.set(p.category, {
       count: existing.count + 1,
@@ -45,7 +47,7 @@ export function formatCostEstimate(
     });
   }
 
-  const lines: string[] = ['Cost Estimate (medium quality):', ''];
+  const lines: string[] = ['Cost Estimate (Flux 2 Pro via fal.ai):', ''];
   let totalCost = 0;
   let totalCount = 0;
 

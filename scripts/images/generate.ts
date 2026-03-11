@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 // ─── Image Generation CLI ───────────────────────────────────────────────────
-// Main CLI for generating AI images via OpenAI gpt-image-1.
+// Main CLI for generating AI images via Flux 2 Pro (fal.ai).
 // Usage:
 //   npm run images:generate -- --dry-run                     # List all images without API calls
 //   npm run images:generate -- --dry-run --category homepage  # List only homepage images
@@ -12,7 +12,7 @@ import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import { ALL_PROMPTS, getPromptsByCategory, getPromptById, buildPrompt } from './lib/prompts';
-import { generateWithConcurrency } from './lib/openai-client';
+import { generateWithConcurrency } from './lib/gemini-client';
 import { estimateCost, formatCostEstimate, generateReport, writeReport } from './lib/cost-tracker';
 import { generatePreviewHTML } from './preview';
 import type { PromptDefinition, ImageCategory } from './lib/types';
@@ -224,10 +224,10 @@ async function executeGeneration(
   force: boolean
 ): Promise<void> {
   // Validate API key
-  if (!process.env.OPENAI_API_KEY) {
-    console.error('Error: OPENAI_API_KEY not set in environment.');
+  if (!process.env.GEMINI_API_KEY) {
+    console.error('Error: GEMINI_API_KEY not set in environment.');
     console.error('Add it to your .env file:');
-    console.error('  OPENAI_API_KEY=sk-...');
+    console.error('  GEMINI_API_KEY=AIza...');
     process.exit(1);
   }
 

@@ -77,7 +77,7 @@ export async function generateImage(
     model: 'gpt-image-1',
     prompt,
     size,
-    quality: 'medium',
+    quality: 'high',
     output_format: 'png',
     n: 1,
   });

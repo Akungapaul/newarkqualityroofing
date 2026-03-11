@@ -5,7 +5,7 @@ import { getHomepageImage } from '@/data/image-manifest';
 
 export function HomeRepairServices() {
   const repairImg = getHomepageImage('repair-services');
-  const repairSrc = repairImg?.path ? `/${repairImg.path}` : '/images/roof-replacement-newark.jpg';
+  const repairSrc = repairImg?.path ?? '/images/roof-replacement-newark.jpg';
   const repairAlt = repairImg?.alt ?? 'completed project';
 
   return (

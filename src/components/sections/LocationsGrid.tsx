@@ -8,7 +8,7 @@ import { getHomepageImage } from '@/data/image-manifest';
 
 export function LocationsGrid() {
   const mapImg = getHomepageImage('service-map');
-  const mapSrc = mapImg?.path ? `/${mapImg.path}` : '/images/essex-county-service-map.jpg';
+  const mapSrc = mapImg?.path ?? '/images/essex-county-service-map.jpg';
   const mapAlt = mapImg?.alt ?? 'service area map';
 
   return (

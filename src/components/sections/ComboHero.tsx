@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
+import { getServiceHeroImage, getCityHeroImage } from '@/data/image-manifest';
 import type { Service, City } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
 
@@ -26,19 +28,36 @@ interface ComboHeroProps {
 export function ComboHero({ service, city, serviceGroups }: ComboHeroProps) {
   const categoryLabel = categoryLabels[service.category] ?? service.category;
 
+  // Try service hero first, then city hero, then fallback
+  const serviceImg = getServiceHeroImage(service.id);
+  const cityImg = getCityHeroImage(city.id);
+  const heroImg = serviceImg ?? cityImg;
+  const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
+  const heroAlt = heroImg?.alt ?? `${service.name} in ${city.name}, NJ`;
+
   return (
     <section
       className="relative overflow-hidden bg-forest-dark"
       aria-labelledby="combo-hero-heading"
     >
-      {/* Layered CSS background: gradient + geometric grid + grain */}
+      {/* Background image */}
+      <Image
+        src={heroSrc}
+        alt={heroAlt}
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover"
+        quality={75}
+      />
+      {/* Dark overlay for text readability */}
       <div
         className="absolute inset-0"
         style={{
           background: `
-            radial-gradient(ellipse 80% 60% at 20% 40%, rgba(42,90,58,0.5) 0%, transparent 70%),
-            radial-gradient(ellipse 60% 50% at 80% 60%, rgba(193,127,78,0.15) 0%, transparent 60%),
-            linear-gradient(160deg, #0F2218 0%, #1A3A2A 40%, #0F2218 100%)
+            radial-gradient(ellipse 80% 60% at 20% 40%, rgba(42,90,58,0.7) 0%, transparent 70%),
+            radial-gradient(ellipse 60% 50% at 80% 60%, rgba(193,127,78,0.2) 0%, transparent 60%),
+            linear-gradient(160deg, rgba(15,34,24,0.85) 0%, rgba(26,58,42,0.75) 40%, rgba(15,34,24,0.85) 100%)
           `,
         }}
         aria-hidden="true"

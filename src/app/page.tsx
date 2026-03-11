@@ -36,7 +36,7 @@ import { getHomepageImage, getOGImage } from '@/data/image-manifest';
 // Per-page OG image for homepage (falls back to shared default when manifest is empty)
 const homepageOg = getOGImage('homepage', 'homepage');
 const homepageOgImage = homepageOg?.path
-  ? { url: `/${homepageOg.path}`, width: 1200, height: 630 }
+  ? { url: homepageOg.path, width: 1200, height: 630 }
   : { url: SEO_CONFIG.OG_IMAGE.url, width: SEO_CONFIG.OG_IMAGE.width, height: SEO_CONFIG.OG_IMAGE.height };
 
 export const metadata: Metadata = {
@@ -64,7 +64,7 @@ export default function Home() {
 
   // Manifest lookup for consultation image with fallback
   const consultationImg = getHomepageImage('consultation');
-  const consultationSrc = consultationImg?.path ? `/${consultationImg.path}` : '/images/free-roofing-consultation.jpg';
+  const consultationSrc = consultationImg?.path ?? '/images/free-roofing-consultation.jpg';
   const consultationAlt = consultationImg?.alt ?? 'free roofing consultation Newark NJ';
 
   // Homepage articles: core articles linked to homepage, sorted by position

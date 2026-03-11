@@ -19,11 +19,11 @@ const commercialBullets = [
 
 export function HomeResidentialCommercial() {
   const residentialImg = getHomepageImage('residential-split');
-  const residentialSrc = residentialImg?.path ? `/${residentialImg.path}` : '/images/residential-roof-repair-newark.jpg';
+  const residentialSrc = residentialImg?.path ?? '/images/residential-roof-repair-newark.jpg';
   const residentialAlt = residentialImg?.alt ?? 'Residential roof repair project in Newark NJ';
 
   const commercialImg = getHomepageImage('commercial-split');
-  const commercialSrc = commercialImg?.path ? `/${commercialImg.path}` : '/images/commercial-roofing-newark.jpg';
+  const commercialSrc = commercialImg?.path ?? '/images/commercial-roofing-newark.jpg';
   const commercialAlt = commercialImg?.alt ?? 'Commercial roofing system installation in Newark NJ';
 
   return (

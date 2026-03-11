@@ -22,7 +22,7 @@ function wrapFirstSentence(text: string, useEmphasis: boolean = true) {
 
 export function FaqAccordion({ items }: FaqAccordionProps) {
   const faqImg = getHomepageImage('faq-options');
-  const faqSrc = faqImg?.path ? `/${faqImg.path}` : '/images/homeowner-roofing-options.jpg';
+  const faqSrc = faqImg?.path ?? '/images/homeowner-roofing-options.jpg';
   const faqAlt = faqImg?.alt ?? 'reviewing options';
 
   return (

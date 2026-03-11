@@ -13,7 +13,7 @@ const reasonImages: Record<number, { src: string; alt: string } | null> = {
 
 export function HomeWhyChooseUs() {
   const teamImg = getHomepageImage('why-team');
-  const teamSrc = teamImg?.path ? `/${teamImg.path}` : '/images/newark-roofing-team.jpg';
+  const teamSrc = teamImg?.path ?? '/images/newark-roofing-team.jpg';
   const teamAlt = teamImg?.alt ?? 'our professional team';
 
   return (

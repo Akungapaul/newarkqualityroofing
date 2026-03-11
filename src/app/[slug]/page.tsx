@@ -74,7 +74,7 @@ export async function generateMetadata({
         title: service.metaTitle,
         description: service.metaDescription,
         alternates: { canonical: `/${service.slug}` },
-        openGraph: buildOG(service.metaTitle, service.metaDescription, service.slug, 'website', serviceOg?.path ? `/${serviceOg.path}` : undefined),
+        openGraph: buildOG(service.metaTitle, service.metaDescription, service.slug, 'website', serviceOg?.path ?? undefined),
       };
     }
     case 'city': {
@@ -87,7 +87,7 @@ export async function generateMetadata({
         title: cityContent.metaTitle,
         description: cityContent.metaDescription,
         alternates: { canonical: `/${citySlug}` },
-        openGraph: buildOG(cityContent.metaTitle, cityContent.metaDescription, citySlug, 'website', cityOg?.path ? `/${cityOg.path}` : undefined),
+        openGraph: buildOG(cityContent.metaTitle, cityContent.metaDescription, citySlug, 'website', cityOg?.path ?? undefined),
       };
     }
     case 'combo': {
@@ -111,7 +111,7 @@ export async function generateMetadata({
         title: combo.metaTitle,
         description: comboDescription,
         alternates: { canonical: `/${combo.slug}` },
-        openGraph: buildOG(combo.metaTitle, comboDescription, combo.slug, 'website', comboOg?.path ? `/${comboOg.path}` : undefined),
+        openGraph: buildOG(combo.metaTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined),
       };
     }
     case 'comparison': {
@@ -153,7 +153,7 @@ export async function generateMetadata({
         title: corePage.metaTitle,
         description: corePage.metaDescription,
         alternates: { canonical: `/${corePage.slug}` },
-        openGraph: buildOG(corePage.metaTitle, corePage.metaDescription, corePage.slug, 'website', coreOg?.path ? `/${coreOg.path}` : undefined),
+        openGraph: buildOG(corePage.metaTitle, corePage.metaDescription, corePage.slug, 'website', coreOg?.path ?? undefined),
       };
       // Add noindex for thank-you and privacy-policy pages
       if (NOINDEX_PAGES.has(corePage.id)) {

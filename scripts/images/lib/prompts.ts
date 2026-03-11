@@ -10,10 +10,10 @@ import { DIMENSIONS } from './types';
 // with the CSS .photo-treatment overlay (see Research Pitfall 5).
 
 export const STYLE_PREFIX =
-  'Soft natural daylight with slightly warm undertones, shallow depth of field, magazine-quality editorial photography. New Jersey residential context with East Coast architecture, deciduous trees, and brick or vinyl siding homes.';
+  'Extreme close-up professional photograph. The camera is RIGHT NEXT TO the worker — only 2 feet away, shooting over their shoulder or from directly beside them. The worker\'s upper body, arms, and hands dominate the entire frame, filling 90% of the image. You can see the texture of their shirt fabric, individual hairs on their forearms, and the grain of the wood or grit of the shingle they are touching. Shot on Canon EOS R5, 24mm wide-angle f/2.0, making the viewer feel like they are standing on the roof beside the worker. Natural daylight with warm fill. Every tool, fastener, and material is large and identifiable in frame. This is intimate, immersive craftsmanship photography — the viewer feels the physicality of the work. Commercial photography for a premium contractor website. Warm, rich colors. Essex County, New Jersey suburban homes, colonial and Cape Cod architecture.';
 
 export const BRAND_ELEMENTS =
-  'Workers wearing forest green (#1A3A2A) uniforms. Work trucks in matching forest green. No text, logos, signs, or watermarks in the image.';
+  'Workers in navy blue (#1B2A4A) polo shirts with the text "Newark Quality Roofing" embroidered in white on the left chest, with khaki work pants, clearly visible in frame. The company name "Newark Quality Roofing" must be legible on every worker\'s shirt. Faces shown from chest-up or waist-up — close enough to see expressions, confidence, and focus on their craft. Hands actively engaged with tools and materials: nail guns, chalk lines, pry bars, tin snips, caulk guns, shingle bundles. Every image tells a clear story of what specific roofing work is happening. Diverse crew, professional appearance, clean jobsite. No watermarks or overlaid graphics anywhere in the image.';
 
 /**
  * Build a full generation prompt by combining style prefix, brand elements, and scene description.

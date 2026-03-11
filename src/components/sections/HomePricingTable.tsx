@@ -24,7 +24,7 @@ const pricingRows = [
 
 export function HomePricingTable() {
   const estimateImg = getHomepageImage('pricing-estimate');
-  const estimateSrc = estimateImg?.path ? `/${estimateImg.path}` : '/images/affordable-roofing-estimate.jpg';
+  const estimateSrc = estimateImg?.path ?? '/images/affordable-roofing-estimate.jpg';
   const estimateAlt = estimateImg?.alt ?? 'affordable roofing estimate in Newark';
 
   return (

@@ -1,26 +1,41 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { getServiceMenuGroups } from '@/data/nav-data';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { HeroFormReveal } from '@/components/animations/HeroFormReveal';
+import { getHomepageImage } from '@/data/image-manifest';
 
 export function HeroSection() {
   const serviceGroups = getServiceMenuGroups();
+  const heroImg = getHomepageImage('hero-main');
+  const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
+  const heroAlt = heroImg?.alt ?? 'Professional roofing crew working on a home in Newark NJ';
 
   return (
     <section
       className="relative min-h-[85vh] overflow-hidden bg-forest-dark"
       aria-labelledby="hero-heading"
     >
-      {/* Layered CSS background: gradient + geometric pattern + grain */}
+      {/* Background image */}
+      <Image
+        src={heroSrc}
+        alt={heroAlt}
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover"
+        quality={75}
+      />
+      {/* Dark overlay for text readability */}
       <div
         className="absolute inset-0"
         style={{
           background: `
-            radial-gradient(ellipse 80% 60% at 20% 40%, rgba(42,90,58,0.5) 0%, transparent 70%),
-            radial-gradient(ellipse 60% 50% at 80% 60%, rgba(193,127,78,0.15) 0%, transparent 60%),
-            linear-gradient(160deg, #0F2218 0%, #1A3A2A 40%, #0F2218 100%)
+            radial-gradient(ellipse 80% 60% at 20% 40%, rgba(42,90,58,0.7) 0%, transparent 70%),
+            radial-gradient(ellipse 60% 50% at 80% 60%, rgba(193,127,78,0.2) 0%, transparent 60%),
+            linear-gradient(160deg, rgba(15,34,24,0.85) 0%, rgba(26,58,42,0.75) 40%, rgba(15,34,24,0.85) 100%)
           `,
         }}
         aria-hidden="true"
