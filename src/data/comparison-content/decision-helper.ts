@@ -57,15 +57,15 @@ export const decisionHelpers: ComparisonContent[] = [
         'NJ\'s 50 inches of rainfall, 28 inches of snowfall, and temperature range from sub-zero to 95°F+ create the most demanding residential roofing environment in the Mid-Atlantic. Material selection directly affects how long your roof lasts under these conditions.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Matching Material to Your Home and Budget',
+    residentialSection: {
+      heading: 'Residential: Matching Material to Your Home and Budget',
       content: [
         'For most Essex County homes, architectural asphalt shingles from GAF, CertainTeed, or Owens Corning deliver the best balance of NJ weather performance, aesthetics, and cost. At $8,500–$18,000 installed, they provide 25–30 years of reliable protection.',
         'If your budget allows and you plan long-term ownership, standing seam metal at $15,000–$35,000 delivers 50+ years with virtually zero weather-related maintenance. The per-year cost is actually lower than asphalt over the full lifespan.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Commercial Material Selection',
+    commercialSection: {
+      heading: 'Commercial: Commercial Material Selection',
       content: [
         'For commercial flat roofs, TPO dominates NJ new construction for good reason: heat-welded seams handle our heavy rainfall, white surface cuts cooling costs 15–25%, and it qualifies for NJ Clean Energy Program rebates.',
         'For commercial steep-slope applications (retail, mixed-use, office buildings), standing seam metal provides the best weather performance with minimal maintenance — critical for buildings where roof access for repairs disrupts business operations.',
@@ -131,15 +131,15 @@ export const decisionHelpers: ComparisonContent[] = [
         'NJ prevailing wage requirements apply to public and some quasi-public commercial projects, affecting labor costs. Verify applicability with your contractor before project budgeting.',
       ],
     },
-    homeownerSection: {
+    residentialSection: {
       heading: 'For Homeowners with Mixed-Use Properties',
       content: [
         'Essex County mixed-use buildings — residential above, commercial below — benefit from TPO or PVC on flat commercial sections and architectural shingles on residential steep-slope sections. We coordinate both systems for seamless transitions.',
         'For home-based businesses with flat roof sections, commercial-grade membrane systems protect inventory, equipment, and work space better than residential-grade materials.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Making the Investment Decision',
+    commercialSection: {
+      heading: 'Commercial: Making the Investment Decision',
       content: [
         'Your roofing material affects operating expenses for 20–30 years. Investing $1–$3 more per sq ft for TPO over EPDM pays for itself in 3–5 years through energy savings on any building with significant cooling loads.',
         'Before bidding, define your priorities: lowest upfront cost, lowest lifecycle cost, maximum energy savings, or maximum durability. Each priority points to a different material. We provide comparative bids for your top 2–3 options to facilitate decision-making.',
@@ -205,15 +205,15 @@ export const decisionHelpers: ComparisonContent[] = [
         'All flat roof installations in Essex County require building permits and must use UL-listed roofing assemblies. Our team handles permit applications and inspection coordination as part of every flat roof project.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Flat Sections Done Right',
+    residentialSection: {
+      heading: 'Residential: Flat Sections Done Right',
       content: [
         'Many Essex County homes have flat roof sections that leak repeatedly because they were improperly installed or use inappropriate materials. Common problems: asphalt shingles on flat surfaces (they require slope), improper flashing at flat-to-steep transitions, and inadequate drainage.',
         'A properly installed flat roof membrane — TPO or EPDM — with correct slope, flashing, and drainage eliminates the chronic leak problems that plague flat sections on Essex County homes.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: System Selection by Building Type',
+    commercialSection: {
+      heading: 'Commercial: System Selection by Building Type',
       content: [
         'Match your flat roof system to your building use: office and retail (TPO for energy savings), warehouse and storage (EPDM for budget), restaurant and food processing (PVC for chemical resistance), manufacturing (modified bitumen for foot traffic durability).',
         'Ask your contractor for a 20-year total cost of ownership analysis that includes installation, energy impact, and projected maintenance for your top two material choices. The cheapest installation is not always the cheapest roof.',
@@ -279,15 +279,15 @@ export const decisionHelpers: ComparisonContent[] = [
         'Essex County municipalities with active HPCs include Glen Ridge, Montclair, South Orange, Orange, and portions of Newark. Even outside designated districts, individually listed properties face review requirements. Confirm your property\'s status with your municipal clerk before planning roof work.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Preserving Your Home\'s Legacy',
+    residentialSection: {
+      heading: 'Residential: Preserving Your Home\'s Legacy',
       content: [
         'Your historic home\'s roof is more than weather protection — it is an architectural feature that defines the home\'s character. A slate roof on a Montclair Victorian or cedar shake on a Maplewood Craftsman tells the story of the home\'s era and the craftsmanship of its builders.',
         'Investing in authentic materials preserves that legacy and protects property value. In Essex County\'s competitive historic-home market, buyers pay premiums for homes with original or properly restored roofing materials. Cutting corners with inappropriate materials reduces both authenticity and marketability.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Historic Commercial Properties',
+    commercialSection: {
+      heading: 'Commercial: Historic Commercial Properties',
       content: [
         'Historic commercial buildings in Newark\'s downtown, Montclair\'s Bloomfield Avenue, and South Orange Village benefit from authentic restoration that attracts quality tenants. Restaurants, boutiques, and professional offices in historic buildings use architectural authenticity as a competitive advantage.',
         'Federal and NJ historic tax credits for commercial rehabilitation projects can offset 20–25% of qualifying restoration costs, making premium roofing materials financially viable even for cost-conscious property owners.',
@@ -353,16 +353,16 @@ export const decisionHelpers: ComparisonContent[] = [
         'Material costs fluctuate with commodity markets. Metal and asphalt prices have increased 20–40% since 2020. Slate pricing has been more stable due to domestic quarry supply. We provide fixed-price quotes that protect you from material cost fluctuations during your project.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Matching Budget to Timeline',
+    residentialSection: {
+      heading: 'Residential: Matching Budget to Timeline',
       content: [
         'Tight budget, short timeline (under 10 years): 3-tab or architectural asphalt shingles. The lowest upfront cost gets you a reliable roof through your ownership period.',
         'Moderate budget, medium timeline (10–25 years): Architectural shingles are the clear winner. Slightly more than 3-tab with significantly longer life — the best cost-per-year in this ownership window.',
         'Premium budget, long timeline (25+ years): Standing seam metal or slate. Higher upfront investment yields the lowest cost-per-year and eliminates replacement cycles during your ownership.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Capital Planning',
+    commercialSection: {
+      heading: 'Commercial: Capital Planning',
       content: [
         'Commercial property decisions should use 20–30 year lifecycle cost analysis, not first-cost comparison. A TPO roof at $10/sq ft with 25-year life and energy savings beats EPDM at $8/sq ft with no energy benefit over the full cycle.',
         'For properties in your portfolio long-term, invest in durability. For properties you plan to sell within 5–10 years, match investment to hold period. We provide lifecycle cost comparisons for every commercial bid.',
@@ -429,15 +429,15 @@ export const decisionHelpers: ComparisonContent[] = [
         'NJ\'s dual-season climate (significant heating AND cooling) means total-year energy performance matters more than summer-only reflectivity. Materials that insulate well in winter and reflect in summer — spray foam, insulated metal panels — deliver the best total NJ energy performance.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Practical Energy Upgrades',
+    residentialSection: {
+      heading: 'Residential: Practical Energy Upgrades',
       content: [
         'The most impactful energy upgrade for most Essex County homes is proper attic insulation and ventilation — this matters more than roofing material choice. Once attic insulation meets code (R-49), cool-roof material adds incremental savings.',
         'If you are replacing your roof anyway, upgrading to cool-roof asphalt shingles or reflective metal adds modest cost for meaningful cooling savings. It is the easiest time to improve your roof\'s energy performance since the roof is already being replaced.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Energy ROI by Building Type',
+    commercialSection: {
+      heading: 'Commercial: Energy ROI by Building Type',
       content: [
         'Buildings with high cooling loads (restaurants, data centers, retail with large glass facades) benefit most from reflective roofing. A TPO or cool metal roof pays for its premium in 3–5 years through cooling savings on these building types.',
         'Warehouses and storage with minimal HVAC see little benefit from reflective roofing. Invest in insulation instead — R-30 polyiso boards under any membrane provide the most cost-effective energy improvement for unconditioned or lightly conditioned commercial spaces.',
@@ -503,15 +503,15 @@ export const decisionHelpers: ComparisonContent[] = [
         'Each Essex County municipality has distinct Colonial character: Maplewood\'s tree-lined Colonials differ from Livingston\'s split-level-era Colonials, which differ from the Caldwells\' more formal expressions. Roofing material and color should respect each neighborhood\'s specific character.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Enhancing Colonial Curb Appeal',
+    residentialSection: {
+      heading: 'Residential: Enhancing Colonial Curb Appeal',
       content: [
         'A new roof is the single largest visual change you can make to a Colonial home\'s exterior. Choose material and color that enhance the home\'s symmetry and proportion. Clean, consistent rooflines in dark muted tones make Colonial homes look their best.',
         'Consider copper accents — bay window roofs, entry portico roofing, dormer cheeks — as an affordable upgrade that adds authentic Colonial detail. Copper develops a green patina over time that is quintessentially Colonial.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Colonial Commercial Properties',
+    commercialSection: {
+      heading: 'Commercial: Colonial Commercial Properties',
       content: [
         'Essex County\'s commercial corridors include many Colonial-style buildings — professional offices in converted Colonials, Colonial-style retail buildings, and mixed-use properties. Maintaining Colonial roofing character on commercial properties preserves neighborhood aesthetic and property value.',
         'Architectural shingles or standing seam metal on Colonial commercial buildings communicate quality and permanence to clients and tenants. The modest premium over basic materials pays for itself in property positioning.',
@@ -577,15 +577,15 @@ export const decisionHelpers: ComparisonContent[] = [
         'NJ Home Improvement Contractor registration requires contractors to disclose warranty terms in writing before work begins. If a NJ contractor provides unclear or misleading warranty information, you have legal recourse through the NJ Division of Consumer Affairs.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Warranty Questions to Ask Every Contractor',
+    residentialSection: {
+      heading: 'Residential: Warranty Questions to Ask Every Contractor',
       content: [
         'Before signing: How many years of non-prorated coverage? Does the manufacturer warranty cover workmanship or only materials? What voids the warranty? Who administers claims if your company closes? Is the warranty transferable if I sell my home? Will you register the warranty on my behalf?',
         'Any contractor who cannot clearly answer these questions or who offers only a contractor workmanship warranty without manufacturer backing should be viewed with caution. In Essex County\'s competitive roofing market, there is no reason to settle for inferior warranty protection.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Commercial Warranty Programs',
+    commercialSection: {
+      heading: 'Commercial: Commercial Warranty Programs',
       content: [
         'Commercial NDL (No-Dollar-Limit) warranties are the gold standard for business properties. They cover ALL costs — labor, materials, investigation — for the warranty period without caps or depreciation. NDL warranties from manufacturers like GAF, Carlisle, and Firestone run 15–30 years.',
         'NDL warranties require annual roof maintenance to remain valid. Our commercial maintenance programs satisfy warranty requirements and provide documentation proving compliance — critical if you ever need to file a warranty claim.',

@@ -58,15 +58,15 @@ export const serviceComparisons: ComparisonContent[] = [
         'Permits are required for full replacement in all Essex County municipalities. Most repairs do not require permits unless structural decking is involved. We handle all permit filing for replacement projects.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Financial Decision Framework',
+    residentialSection: {
+      heading: 'Residential: Financial Decision Framework',
       content: [
         'If repair costs exceed 50% of replacement cost, replace. You are paying half the price for a fraction of the value. This is the most common mistake we see — homeowners spending $4,000–$6,000 on repairs when $10,000–$15,000 buys a brand new roof with full warranty.',
         'If you are selling within 3 years, a new roof is one of the best return-on-investment improvements. NJ buyers strongly prefer homes with new or recent roofs, and a roof replacement recoups 60–70% at resale while eliminating buyer objections.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Minimize Disruption, Maximize Asset Value',
+    commercialSection: {
+      heading: 'Commercial: Minimize Disruption, Maximize Asset Value',
       content: [
         'Commercial roof decisions should be driven by total cost of ownership over your planned hold period. Repeated repairs on an aging commercial roof accumulate cost, create recurring tenant disruption, and risk interior damage from eventual failures.',
         'For long-hold commercial properties, proactive replacement before failure prevents emergency costs (which run 50–100% higher than planned replacement) and demonstrates building maintenance quality to tenants and lenders.',
@@ -132,15 +132,15 @@ export const serviceComparisons: ComparisonContent[] = [
         'Silicone coatings perform best in NJ because they handle ponding water without degradation. Acrylic coatings are less expensive but re-emulsify in ponding conditions — problematic for flat roofs with poor drainage. We recommend silicone for all Essex County flat roof coating projects.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Flat Roof Life Extension',
+    residentialSection: {
+      heading: 'Residential: Flat Roof Life Extension',
       content: [
         'If your home\'s flat roof section (porch, addition, garage) is aging but not leaking, coating can extend its life at a fraction of replacement cost. A 500 sq ft flat section coating costs $1,500–$3,000 versus $4,000–$9,000 for full replacement.',
         'Coating works on residential EPDM, modified bitumen, and metal flat roof sections. It is not typically applied to steep-slope asphalt shingles — those require repair or replacement.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Capital Expense vs Operating Expense',
+    commercialSection: {
+      heading: 'Commercial: Capital Expense vs Operating Expense',
       content: [
         'Roof coating often qualifies as a maintenance expense rather than capital improvement for tax purposes. Consult your accountant, but this distinction can provide meaningful tax advantages over capitalized roof replacement.',
         'Coating also avoids the disruption of full tear-off, which can require temporary tenant relocation, store closures, or production shutdowns. For occupied commercial buildings, the reduced disruption has real economic value beyond the coating cost itself.',
@@ -206,15 +206,15 @@ export const serviceComparisons: ComparisonContent[] = [
         'Even where overlay is code-compliant, some Essex County municipalities have inspectors who prefer tear-off and may scrutinize overlay permits more closely. We navigate local permit requirements as part of every project.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Short-Term Savings vs Long-Term Protection',
+    residentialSection: {
+      heading: 'Residential: Short-Term Savings vs Long-Term Protection',
       content: [
         'Overlay saves $3,000–$12,000 upfront but delivers 5–10 fewer years of lifespan, voids some manufacturer warranty provisions, and conceals deck problems. The savings are real, but so are the trade-offs.',
         'Our recommendation for most Essex County homeowners: invest in tear-off. The per-year cost difference between overlay and tear-off is small when you account for the longevity gap, and the peace of mind from a clean, inspected deck is worth the premium.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Due Diligence and Property Value',
+    commercialSection: {
+      heading: 'Commercial: Due Diligence and Property Value',
       content: [
         'Commercial property buyers and lenders scrutinize roof condition. An overlay raises questions about what is underneath — a liability during due diligence. A documented tear-off and replacement with full warranty provides clean documentation for sales, refinancing, and tenant negotiations.',
         'For commercial steep-slope roofs on mixed-use buildings, tear-off is the professional standard. The investment protects property value and provides defensible documentation.',
@@ -279,15 +279,15 @@ export const serviceComparisons: ComparisonContent[] = [
         'Scheduling comprehensive repair during NJ\'s fall dry season (September–October) is ideal. You address all issues before winter freeze-thaw cycling stresses every weak point in your roof.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Budget-Smart Approach',
+    residentialSection: {
+      heading: 'Residential: Budget-Smart Approach',
       content: [
         'If you call for a patch, we will inspect the surrounding area at no extra charge and tell you honestly whether a patch addresses the full problem. Many homeowners expecting a $200 patch discover $800 in comprehensive repair needs — but catching everything now prevents $2,000+ in water damage later.',
         'Our free inspection identifies all issues and lets you prioritize repairs within your budget. Fix critical items now and schedule less urgent items for the next cycle.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Systematic Maintenance',
+    commercialSection: {
+      heading: 'Commercial: Systematic Maintenance',
       content: [
         'Commercial buildings benefit most from systematic repair rather than reactive patching. A semi-annual inspection and repair program addresses all issues per visit, reducing total service call costs and preventing the cumulative damage that comes from deferred maintenance.',
         'Each patch-only service call costs a truck roll, crew mobilization, and minimum charge. Consolidating repairs into comprehensive service visits saves 30–50% versus individual patch calls over a year.',
@@ -353,15 +353,15 @@ export const serviceComparisons: ComparisonContent[] = [
         'After major NJ weather events — nor\'easters, severe thunderstorms, hail — maintenance customers receive priority inspection scheduling. We check your roof first because we know its condition and can identify new damage quickly against the baseline.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Peace of Mind for $250–$600 Per Year',
+    residentialSection: {
+      heading: 'Residential: Peace of Mind for $250–$600 Per Year',
       content: [
         'Annual roof maintenance costs less than most home insurance deductibles. For $250–$600 per year, you get professional eyes on your roof twice annually, minor repairs included, and the confidence that problems are caught before they damage your home.',
         'Our maintenance program includes priority scheduling for storm response. When the next nor\'easter hits Essex County, maintenance customers get called first.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Protect Your Investment',
+    commercialSection: {
+      heading: 'Commercial: Protect Your Investment',
       content: [
         'Commercial roof maintenance is not optional — it is asset protection. A $500/year maintenance program on a $100,000 commercial roof is a 0.5% annual investment that extends roof life 25–40% and prevents business-disrupting emergencies.',
         'Maintenance documentation also strengthens warranty claims. When manufacturer warranties require "reasonable maintenance," documented inspection records prove compliance. Without records, warranty claims can be denied.',
@@ -428,15 +428,15 @@ export const serviceComparisons: ComparisonContent[] = [
         'If your repair involves structural elements (deck replacement, rafter repair), NJ building code requires a permit and inspection regardless of who does the work. Failed inspections on DIY structural work can require costly professional remediation.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Know Your Limits',
+    residentialSection: {
+      heading: 'Residential: Know Your Limits',
       content: [
         'Safe DIY tasks: cleaning gutters from a ladder, replacing a missing gutter end cap, clearing roof debris with a roof rake from ground level, and applying sealant to a visible small crack from a safely positioned ladder at eave height.',
         'Call a professional for: anything requiring walking on the roof, replacing shingles, flashing work, any repair near roof edges or on steep slopes, and any leak that you cannot pinpoint from inside the attic. The $350–$1,500 professional repair cost is inexpensive compared to a hospital visit or failed DIY attempt that causes water damage.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Liability and Compliance',
+    commercialSection: {
+      heading: 'Commercial: Liability and Compliance',
       content: [
         'Commercial property owners should never allow unlicensed DIY roof work. OSHA regulations apply to all commercial work sites, insurance requires licensed contractors for coverage validity, and building code compliance requires professional installation.',
         'The liability exposure from a fall or failed repair on a commercial property far exceeds any savings from avoiding professional service. Licensed, insured contractors protect your business from liability.',

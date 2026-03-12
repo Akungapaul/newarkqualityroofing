@@ -1,8 +1,11 @@
+import Image from 'next/image';
+
 interface ServiceProcessProps {
   steps: { title: string; description: string }[];
+  image?: { src: string; alt: string };
 }
 
-export function ServiceProcess({ steps }: ServiceProcessProps) {
+export function ServiceProcess({ steps, image }: ServiceProcessProps) {
   return (
     <section aria-labelledby="service-process-heading">
       <h2
@@ -11,6 +14,19 @@ export function ServiceProcess({ steps }: ServiceProcessProps) {
       >
         Our Process
       </h2>
+      {image && (
+        <div className="mt-6 photo-treatment overflow-hidden rounded-lg aspect-[3/1]">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            width={1200}
+            height={400}
+            className="h-full w-full object-cover"
+            sizes="(max-width: 1024px) 100vw, 66vw"
+            loading="lazy"
+          />
+        </div>
+      )}
       <ol className="mt-8 space-y-6">
         {steps.map((step, index) => (
           <li key={index} className="flex gap-4">

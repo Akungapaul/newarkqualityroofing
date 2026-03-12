@@ -90,7 +90,7 @@ export function ServiceHero({ service, serviceGroups, benefits }: ServiceHeroPro
             >
               {service.name}
               <br />
-              <span className="text-copper">in Newark &amp; Essex County</span>
+              <span className="text-copper">in Newark, NJ</span>
             </h1>
 
             <ul className="mt-6 space-y-3" aria-label="Service benefits">

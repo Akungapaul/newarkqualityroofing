@@ -24,7 +24,7 @@ export function CityTestimonials({
   return (
     <div>
       <h2 id="testimonials-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-        What {cityName} Homeowners Say
+        What {cityName} Residents Say
       </h2>
       <div className="mt-6 grid gap-6 md:grid-cols-2">
         {testimonials.map((testimonial, index) => (

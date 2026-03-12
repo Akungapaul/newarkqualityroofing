@@ -1253,7 +1253,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
       'In older Essex County homes built before the 1970s, we frequently encounter original board sheathing made from 1x6 or 1x8 lumber rather than modern plywood or OSB panels. While sound board sheathing can continue to serve effectively, damaged sections require careful replacement with matching material or a transition to panel sheathing that maintains proper fastening patterns and structural continuity. Our crews carry both board lumber and panel sheathing on every tear-off project to handle whichever condition is discovered beneath the old roofing.'
     ],
     residential: {
-      heading: 'Roof Deck Services for Homeowners',
+      heading: 'Residential Roof Deck Services',
       content: [
         'For homeowners, discovering that your roof deck needs repair during a roof replacement can feel like an unwelcome surprise and an unexpected expense. At Newark Quality Roofing, we prepare you for this possibility during our initial estimate by explaining the common causes and frequency of deck damage in Essex County homes and providing a per-sheet price for deck replacement so you know what to expect. Our goal is transparency, so there are no shocking invoices after the work is complete.',
         'Many older homes in Newark, Montclair, Glen Ridge, and surrounding communities have original plywood or board sheathing that has endured decades of exposure. Even well-maintained roofs can have isolated areas of deck damage around old flashing failures, chimney leaks, or inadequate ventilation zones. Catching and repairing these areas during a roof replacement is essential for ensuring your new roof performs to its full potential and warranty coverage.',

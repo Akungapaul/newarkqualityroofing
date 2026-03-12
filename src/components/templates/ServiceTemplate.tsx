@@ -34,6 +34,7 @@ import {
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getContentPoolImages } from '@/data/image-manifest';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -151,6 +152,14 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       shortDescription: s.shortDescription,
     }));
 
+  // Content pool images for sections
+  const consultationImgs = getContentPoolImages('consultation');
+  const materialsImgs = getContentPoolImages('materials');
+  const crewImgs = getContentPoolImages('crew');
+  const overviewImg = consultationImgs[0];
+  const approachImg = materialsImgs[0];
+  const processImg = crewImgs[0];
+
   // Derive hero benefits from short description
   const benefits = [
     `Professional ${service.name.toLowerCase()} services`,
@@ -192,7 +201,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
-          <AnimateIn><ServiceOverview paragraphs={content.overview} /></AnimateIn>
+          <AnimateIn><ServiceOverview paragraphs={content.overview} image={overviewImg ? { src: overviewImg.path, alt: overviewImg.alt } : undefined} /></AnimateIn>
 
           <AnimateIn><ServiceSigns heading={content.signsHeading} signs={content.signs} /></AnimateIn>
 
@@ -200,6 +209,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             <ServiceApproach
               heading={content.approachHeading}
               content={content.approachContent}
+              image={approachImg ? { src: approachImg.path, alt: approachImg.alt } : undefined}
             />
           </AnimateIn>
 
@@ -243,7 +253,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             </>
           )}
 
-          <AnimateIn><ServiceProcess steps={content.processSteps} /></AnimateIn>
+          <AnimateIn><ServiceProcess steps={content.processSteps} image={processImg ? { src: processImg.path, alt: processImg.alt } : undefined} /></AnimateIn>
 
           {/* Pricing section -- after process */}
           {content.pricing && (

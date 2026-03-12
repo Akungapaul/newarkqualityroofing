@@ -10,7 +10,7 @@ export const urbanCoreContent: CityContent[] = [
   // ─── Newark ──────────────────────────────────────────────────────────────
   {
     cityId: 'newark',
-    heroHeadline: 'Newark NJ Roofing Experts — Trusted Since Day One',
+    heroHeadline: 'Roofing Services in Newark, NJ',
     heroSubheadline:
       'From Ironbound brownstones to downtown high-rises, Newark Quality Roofing delivers proven results across every neighborhood in New Jersey\'s largest city.',
     stats: {
@@ -203,7 +203,7 @@ export const urbanCoreContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Newark NJ Roofing Company — Roof Repair & Replacement',
+    metaTitle: 'Roofing Services in Newark, NJ | Newark Quality Roofing',
     metaDescription:
       'Newark\'s trusted roofing contractor. 500+ projects across Ironbound, Forest Hill, Downtown and beyond. Free estimates for roof repair and replacement.',
     pricing: {
@@ -223,7 +223,7 @@ export const urbanCoreContent: CityContent[] = [
   // ─── East Orange ─────────────────────────────────────────────────────────
   {
     cityId: 'east-orange',
-    heroHeadline: 'East Orange NJ Roofing — Multi-Family & Residential Experts',
+    heroHeadline: 'Roofing Services in East Orange, NJ',
     heroSubheadline:
       'From Brick Church Victorians to Main Street commercial properties, we deliver reliable roofing solutions for East Orange\'s diverse housing stock and growing business corridor.',
     stats: {
@@ -373,7 +373,7 @@ export const urbanCoreContent: CityContent[] = [
       },
     ],
     whyChoose: {
-      heading: 'Why East Orange Homeowners Choose Newark Quality Roofing',
+      heading: 'Why East Orange Residents Choose Newark Quality Roofing',
       reasons: [
         {
           title: 'Minutes Away in Newark',
@@ -397,7 +397,7 @@ export const urbanCoreContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'East Orange NJ Roofing — Repair & Replacement Services',
+    metaTitle: 'Roofing Services in East Orange, NJ | Newark Quality Roofing',
     metaDescription:
       'Trusted East Orange roofer near Brick Church and Main Street. Multi-family, Victorian, and commercial roofing. Free estimates from Newark Quality Roofing.',
     pricing: {
@@ -417,7 +417,7 @@ export const urbanCoreContent: CityContent[] = [
   // ─── Orange ──────────────────────────────────────────────────────────────
   {
     cityId: 'orange',
-    heroHeadline: 'Orange NJ Roofing — Your Local Roof Repair Specialists',
+    heroHeadline: 'Roofing Services in Orange, NJ',
     heroSubheadline:
       'Serving Orange\'s diverse neighborhoods from Main Street to the Valley, with expert roofing for tight-lot homes, mixed housing stock, and commercial properties near South Mountain.',
     stats: {
@@ -590,7 +590,7 @@ export const urbanCoreContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Orange NJ Roofer — Roof Repair & Replacement Experts',
+    metaTitle: 'Roofing Services in Orange, NJ | Newark Quality Roofing',
     metaDescription:
       'Orange NJ roofing contractor serving Main Street to South Mountain. Victorian restoration, tight-lot expertise, and commercial flat roofs. Free estimates.',
     pricing: {
@@ -610,7 +610,7 @@ export const urbanCoreContent: CityContent[] = [
   // ─── Irvington ───────────────────────────────────────────────────────────
   {
     cityId: 'irvington',
-    heroHeadline: 'Irvington NJ Roofing — Affordable Quality for Every Home',
+    heroHeadline: 'Roofing Services in Irvington, NJ',
     heroSubheadline:
       'From Springfield Avenue to Olympic Park, we deliver dependable roofing solutions that protect Irvington\'s homes and businesses without breaking the budget.',
     stats: {
@@ -802,7 +802,7 @@ export const urbanCoreContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Irvington NJ Roofing — Affordable Roof Repair & Replacement',
+    metaTitle: 'Roofing Services in Irvington, NJ | Newark Quality Roofing',
     metaDescription:
       'Irvington\'s trusted roofer for colonials, multi-family homes, and commercial buildings. Affordable quality from Newark Quality Roofing. Free estimates.',
     pricing: {

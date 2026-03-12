@@ -1,5 +1,7 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Article } from '@/data/articles';
+import { getContentPoolImages } from '@/data/image-manifest';
 
 // ─── HomepageGuides ─────────────────────────────────────────────────────────
 // Roofing Guides section for the homepage. Shows 3 editorial cards linking
@@ -13,6 +15,12 @@ interface HomepageGuidesProps {
 export function HomepageGuides({ articles }: HomepageGuidesProps) {
   if (articles.length === 0) return null;
 
+  const thumbnails = [
+    getContentPoolImages('crew')[0],
+    getContentPoolImages('materials')[0],
+    getContentPoolImages('consultation')[0],
+  ];
+
   return (
     <section
       className="bg-white py-12 lg:py-16"
@@ -23,19 +31,33 @@ export function HomepageGuides({ articles }: HomepageGuidesProps) {
           id="roofing-guides-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
-          Roofing Guides for NJ Homeowners
+          Roofing Guides for NJ Property Owners
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
           Expert resources to help you make informed roofing decisions for your Essex County property.
         </p>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {articles.map((article) => (
+          {articles.map((article, index) => (
             <Link
               key={article.id}
               href={`/${article.slug}`}
-              className="group flex flex-col rounded-sm border border-border bg-parchment p-6 transition-all hover:border-copper hover:shadow-md focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2 focus-visible:outline-none"
+              className="group flex flex-col overflow-hidden rounded-sm border border-border bg-parchment transition-all hover:border-copper hover:shadow-md focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2 focus-visible:outline-none"
             >
+              {/* Thumbnail image */}
+              {thumbnails[index] && (
+                <Image
+                  src={thumbnails[index].path}
+                  alt={thumbnails[index].alt}
+                  width={400}
+                  height={225}
+                  className="aspect-[16/9] w-full rounded-t-sm object-cover"
+                  loading="lazy"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+              )}
+
+              <div className="p-6">
               {/* Decorative top bar */}
               <div className="mb-4 h-1 w-12 rounded-full bg-copper transition-all group-hover:w-20" />
 
@@ -60,6 +82,7 @@ export function HomepageGuides({ articles }: HomepageGuidesProps) {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
               </span>
+              </div>
             </Link>
           ))}
         </div>

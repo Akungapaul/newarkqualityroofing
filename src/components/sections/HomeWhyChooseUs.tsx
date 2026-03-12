@@ -27,7 +27,7 @@ export function HomeWhyChooseUs() {
             id="home-why-heading"
             className="font-heading text-3xl font-bold text-forest sm:text-4xl"
           >
-            Why Homeowners Choose Our Roofing Team
+            Why Customers Choose Our Roofing Team
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
             Newark roofing contractors you can trust — our team provides reliable

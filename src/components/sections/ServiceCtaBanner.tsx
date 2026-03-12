@@ -32,11 +32,11 @@ export function ServiceCtaBanner({
           id="service-cta-heading"
           className="text-center font-heading text-2xl font-bold text-text-on-dark sm:text-3xl lg:text-4xl"
         >
-          Ready to Get Started?
+          Don&rsquo;t Let a Small Leak Become a $10,000 Problem
         </h2>
         <p className="mt-4 text-center font-body text-lg text-parchment/80">
-          Request your free, no-obligation roofing estimate today. Our team
-          will get back to you within 24 hours.
+          Get your free estimate today &mdash; same-day response, no obligation.
+          We&rsquo;ve helped 500+ Essex County property owners protect their biggest investment.
         </p>
         <div className="mt-10">
           <LeadForm

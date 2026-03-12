@@ -95,8 +95,8 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
             <ComparisonAnalysis
               analysis={content.detailedAnalysis}
               njSpecific={content.njSpecific}
-              homeownerSection={content.homeownerSection}
-              businessOwnerSection={content.businessOwnerSection}
+              residentialSection={content.residentialSection}
+              commercialSection={content.commercialSection}
             />
           </AnimateIn>
 

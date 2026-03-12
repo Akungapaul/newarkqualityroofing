@@ -3,15 +3,15 @@ import type { ComparisonContent } from '@/data/comparison-content/schema';
 interface ComparisonAnalysisProps {
   analysis: ComparisonContent['detailedAnalysis'];
   njSpecific: ComparisonContent['njSpecific'];
-  homeownerSection: ComparisonContent['homeownerSection'];
-  businessOwnerSection: ComparisonContent['businessOwnerSection'];
+  residentialSection: ComparisonContent['residentialSection'];
+  commercialSection: ComparisonContent['commercialSection'];
 }
 
 export function ComparisonAnalysis({
   analysis,
   njSpecific,
-  homeownerSection,
-  businessOwnerSection,
+  residentialSection,
+  commercialSection,
 }: ComparisonAnalysisProps) {
   return (
     <section aria-labelledby="comparison-analysis-heading">
@@ -62,13 +62,13 @@ export function ComparisonAnalysis({
 
       {/* Audience subsections */}
       <div className="mt-10 grid gap-8 md:grid-cols-2">
-        {/* For Homeowners */}
+        {/* Residential */}
         <div className="border-l-4 border-copper pl-6">
           <h3 className="font-heading text-xl font-bold text-forest">
-            {homeownerSection.heading}
+            {residentialSection.heading}
           </h3>
           <div className="mt-3 space-y-3">
-            {homeownerSection.content.map((paragraph, index) => (
+            {residentialSection.content.map((paragraph, index) => (
               <p
                 key={index}
                 className="font-body text-sm leading-relaxed text-text-primary"
@@ -79,13 +79,13 @@ export function ComparisonAnalysis({
           </div>
         </div>
 
-        {/* For Business Owners */}
+        {/* Commercial */}
         <div className="border-l-4 border-forest pl-6">
           <h3 className="font-heading text-xl font-bold text-forest">
-            {businessOwnerSection.heading}
+            {commercialSection.heading}
           </h3>
           <div className="mt-3 space-y-3">
-            {businessOwnerSection.content.map((paragraph, index) => (
+            {commercialSection.content.map((paragraph, index) => (
               <p
                 key={index}
                 className="font-body text-sm leading-relaxed text-text-primary"

@@ -58,16 +58,16 @@ export const materialComparisons: ComparisonContent[] = [
         'Our 28 inches of average snowfall means metal roofs need snow guards to prevent dangerous sheet slides, adding $500–$1,500 to installation. Asphalt shingles hold snow in place naturally but must withstand ice dam pressure along eaves.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Curb Appeal, Comfort, and Warranty',
+    residentialSection: {
+      heading: 'Residential: Curb Appeal, Comfort, and Warranty',
       content: [
         'If curb appeal matters most, asphalt architectural shingles offer the widest selection of colors and profiles — from slate-look to wood-shake appearance — that blend with any Essex County neighborhood. Metal panels suit modern, farmhouse, or colonial revival aesthetics.',
         'For comfort, metal roofing with proper ventilation and underlayment reduces attic temperatures by 20–25% in summer, lowering your PSEG bill. GAF Timberline shingles with reflective granules offer moderate cool-roof performance at lower cost.',
         'Warranty comparison: GAF offers a 50-year non-prorated warranty on Timberline HDZ when installed by a certified contractor. Standing seam metal carries manufacturer warranties of 30–50 years with paint finish warranties of 20–35 years.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Lifecycle Cost and Tenant Impact',
+    commercialSection: {
+      heading: 'Commercial: Lifecycle Cost and Tenant Impact',
       content: [
         'Commercial property owners in Essex County should consider metal roofing for any structure with adequate pitch. The 50+ year lifespan eliminates one full replacement cycle, and reflective metal qualifies for NJ Clean Energy Program rebates.',
         'Tenant disruption during installation is slightly longer with metal (3–7 days vs 1–3 days for asphalt), but the decades of zero-maintenance service afterward more than compensate. Insurance premium reductions of 10–35% apply to many commercial metal roof policies.',
@@ -135,15 +135,15 @@ export const materialComparisons: ComparisonContent[] = [
         'NJ UCC requires engineered documentation when roof loads exceed original design. Both slate and tile installations on retrofit projects need structural engineer sign-off in most Essex County municipalities.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Heritage, Beauty, and Investment',
+    residentialSection: {
+      heading: 'Residential: Heritage, Beauty, and Investment',
       content: [
         'A slate roof is a generational investment — installed once, it protects your family\'s home for a century or more. In Essex County towns like Glen Ridge and Montclair, original slate roofs are architectural treasures that buyers actively seek.',
         'Tile roofing adds Mediterranean warmth and character. If your home\'s architecture calls for tile — stucco walls, arched entries, terracotta accents — no substitute captures that authentic aesthetic.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Prestige and Lifecycle Economics',
+    commercialSection: {
+      heading: 'Commercial: Prestige and Lifecycle Economics',
       content: [
         'Premium roofing materials signal quality and permanence. Commercial properties with slate or tile roofs — boutique hotels, upscale retail, professional offices — communicate prestige that attracts higher-value tenants and clients.',
         'On a lifecycle basis, slate\'s 100+ year lifespan means one installation versus two or three roof replacements with conventional materials. For long-hold commercial properties, the math favors slate despite higher upfront cost.',
@@ -210,15 +210,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Essex County building departments require UL-listed roofing assemblies with FM Global wind uplift ratings appropriate for our 110 mph design wind zone. Both TPO and EPDM systems from major manufacturers carry the required listings.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Flat Roof Sections and Porches',
+    residentialSection: {
+      heading: 'Residential: Flat Roof Sections and Porches',
       content: [
         'Many Essex County homes have flat roof sections — rear additions, sun porches, and attached garages. For these residential flat areas, TPO offers the cleaner white appearance that complements modern renovations, while EPDM\'s black color blends with traditional rooflines.',
         'For residential flat roofs under 1,000 sq ft, cost differences between TPO and EPDM are modest ($500–$1,500). Choose based on aesthetics and whether cooling savings matter for that section of your home.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: ROI and Building Performance',
+    commercialSection: {
+      heading: 'Commercial: ROI and Building Performance',
       content: [
         'For commercial buildings over 5,000 sq ft, TPO\'s energy savings compound meaningfully. A 20,000 sq ft retail building in East Orange switching from EPDM to TPO can save $3,000–$6,000 annually in cooling costs, recovering the $10,000–$20,000 premium within 3–5 years.',
         'EPDM remains the value leader for warehouses, storage facilities, and buildings with minimal HVAC loads where cooling savings are negligible. Its slightly lower installed cost and longer track record reduce risk for budget-conscious property managers.',
@@ -285,15 +285,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Both materials meet NJ UCC wind and fire requirements. Metal installations require grounding per NJ electrical code. Tile installations require structural documentation for building permit approval.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Style, Weight, and Peace of Mind',
+    residentialSection: {
+      heading: 'Residential: Style, Weight, and Peace of Mind',
       content: [
         'Metal roofing suits a wide range of Essex County homes — from Newark row houses to Livingston colonials. Standing seam panels deliver a clean modern line, while metal shingles can mimic shake, slate, or tile appearances.',
         'Tile is irreplaceable for homes designed around Mediterranean aesthetics. If your home has stucco walls, arched windows, and terracotta accents, a metal roof would clash. Choose the material that honors your home\'s architectural intent.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Installation Speed and Disruption',
+    commercialSection: {
+      heading: 'Commercial: Installation Speed and Disruption',
       content: [
         'Metal roofing installs faster than tile, minimizing business disruption. Lightweight panels are easier to lift, stage, and fasten, reducing labor hours by 30–50% compared to tile. For commercial properties where every day of construction costs revenue, metal is the pragmatic choice.',
         'Tile can make sense for hospitality, restaurants, or retail spaces where Mediterranean aesthetics drive customer experience and brand identity.',
@@ -359,15 +359,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Both materials handle NJ winds, rain, and snow effectively when properly installed with ice-and-water shield underlayment as required by NJ building code.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Budget vs Legacy',
+    residentialSection: {
+      heading: 'Residential: Budget vs Legacy',
       content: [
         'If you love your home and plan to stay for decades, slate is a once-in-a-lifetime investment that you will never need to repeat. Your children and grandchildren inherit a protected home.',
         'If you are improving a property for near-term sale, or managing a budget carefully, premium architectural asphalt shingles from GAF, CertainTeed, or Owens Corning deliver excellent curb appeal and reliable protection at one-third the cost.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Image and Investment',
+    commercialSection: {
+      heading: 'Commercial: Image and Investment',
       content: [
         'For prestigious commercial properties — law offices, boutique retail, historic buildings — a slate roof communicates permanence, quality, and attention to detail. The optics justify the premium in client-facing contexts.',
         'For functional commercial buildings, strip malls, and industrial properties, asphalt or commercial membrane systems make far more sense from a pure ROI perspective.',
@@ -434,15 +434,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Essex County municipalities may have local amendments affecting wood roofing, particularly in densely built areas where fire spread risk is elevated. Always confirm local requirements during the permit process.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Character vs Convenience',
+    residentialSection: {
+      heading: 'Residential: Character vs Convenience',
       content: [
         'A cedar shake roof ages gracefully, turning silver-gray over time and giving your home a distinctive character that no manufactured material can match. In neighborhoods like Montclair\'s Upper and Glen Ridge, wood shake aligns with the architectural heritage.',
         'But be honest about maintenance commitment. If you prefer a set-it-and-forget-it roof, asphalt architectural shingles deliver excellent curb appeal with minimal ongoing effort. GAF and CertainTeed offer profiles that mimic wood shake texture at a fraction of the maintenance.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Practical Considerations',
+    commercialSection: {
+      heading: 'Commercial: Practical Considerations',
       content: [
         'Commercial applications for wood shake are limited. Higher fire risk, maintenance demands, and insurance complications make asphalt or commercial membrane systems far more practical for business properties.',
         'The exception: hospitality and upscale retail where rustic wood aesthetics drive brand identity. Even then, synthetic shake or metal shake profiles achieve the look without wood\'s drawbacks.',
@@ -508,15 +508,15 @@ export const materialComparisons: ComparisonContent[] = [
         'For buildings near NJ industrial areas or highways (Routes 21, 78, 280 through Essex County), PVC\'s chemical resistance provides additional protection against airborne pollutants that can degrade TPO over decades.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Flat Roof Sections',
+    residentialSection: {
+      heading: 'Residential: Flat Roof Sections',
       content: [
         'For residential flat roof sections, TPO is typically the better value. Homeowners rarely have rooftop chemical exposure, and the cost savings are meaningful on small residential projects.',
         'If you have a rooftop deck or patio that will see food preparation (outdoor kitchen, grill), PVC is worth the modest premium for grease resistance in those specific areas.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Match Membrane to Building Use',
+    commercialSection: {
+      heading: 'Commercial: Match Membrane to Building Use',
       content: [
         'Simple rule: if your building has commercial kitchen exhaust, food processing, automotive service, or chemical storage — specify PVC. The extra $0.50–$1.50 per sq ft is cheap insurance against premature membrane failure from chemical attack.',
         'For offices, retail, schools, and warehouses — TPO delivers identical weather performance at lower cost. Save the PVC premium for buildings that genuinely need chemical resistance.',
@@ -582,15 +582,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Both systems require grounding per NJ electrical code and must be installed per manufacturer specifications for warranty validity.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: The Premium Metal Experience',
+    residentialSection: {
+      heading: 'Residential: The Premium Metal Experience',
       content: [
         'Standing seam delivers the sleek, modern metal roof aesthetic that transforms a home\'s appearance. Available in 30+ colors with Kynar 500 finishes that resist fading for 30+ years, it is the premium choice for Essex County homeowners investing in curb appeal and longevity.',
         'Corrugated metal on a home sends an agricultural or industrial signal that may not suit residential neighborhoods. If budget is the primary concern, consider metal shingle profiles that offer metal\'s benefits with a more conventional appearance.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Cost per Square Foot Economics',
+    commercialSection: {
+      heading: 'Commercial: Cost per Square Foot Economics',
       content: [
         'For large commercial roofs (10,000+ sq ft), the cost difference is substantial. At $6 vs $15 per sq ft, corrugated metal saves $90,000 on a 10,000 sq ft warehouse roof. If the building is not client-facing, corrugated metal is the rational economic choice.',
         'For offices, retail, and client-facing commercial buildings, standing seam\'s premium appearance and reduced maintenance justify the investment. The roof visible from the parking lot communicates building quality to tenants and customers.',
@@ -656,15 +656,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Many Essex County commercial buildings — especially those along Bloomfield Avenue, Broad Street, and Route 21 corridors — have existing modified bitumen roofs. Re-roofing with the same material simplifies the permit process and avoids compatibility concerns.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Flat Sections and Additions',
+    residentialSection: {
+      heading: 'Residential: Flat Sections and Additions',
       content: [
         'For flat-roofed home additions, porches, and garages, TPO offers a cleaner white appearance and better energy performance. Modified bitumen\'s toughness is overkill for residential applications where foot traffic is rare.',
         'If your home has a rooftop deck or accessible flat area, modified bitumen\'s superior foot traffic durability makes it a reasonable choice for those specific sections.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Total Cost of Ownership',
+    commercialSection: {
+      heading: 'Commercial: Total Cost of Ownership',
       content: [
         'For large commercial buildings, TPO\'s energy savings compound over its 20–30 year lifespan. A 20,000 sq ft building saves $40,000–$80,000 in cooling costs over the roof\'s life — more than covering any installation premium over modified bitumen.',
         'Modified bitumen remains the value choice for warehouses, storage, and industrial buildings where energy savings are minimal and rooftop durability matters more than reflectivity.',
@@ -729,15 +729,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Both membranes meet NJ UCC requirements and are accepted by all Essex County building departments without special review.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Flat Roof Sections',
+    residentialSection: {
+      heading: 'Residential: Flat Roof Sections',
       content: [
         'For flat sections on Essex County homes — porches, additions, garages — both materials work well. TPO\'s white color is more visible from neighboring properties and may be preferred in areas where appearance matters. EPDM\'s black color blends with traditional rooflines and is less conspicuous.',
         'Cost difference on small residential areas (200–500 sq ft) is modest: $200–$500. Choose based on color preference and whether cooling savings apply to that section of your home.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Specification Guidance',
+    commercialSection: {
+      heading: 'Commercial: Specification Guidance',
       content: [
         'For new commercial construction: specify TPO to meet energy codes efficiently and qualify for NJ Clean Energy Program incentives.',
         'For re-roofing existing EPDM: evaluate whether switching to TPO is worth the full tear-off cost, or whether re-covering with new EPDM over a recover board is more economical. We provide cost comparisons for both scenarios during our free commercial roof evaluation.',
@@ -802,15 +802,15 @@ export const materialComparisons: ComparisonContent[] = [
         'In Essex County historic districts like Glen Ridge and Montclair, wood roofing materials may be required for contributing structures. Verify with the local HPC whether shakes or shingles match the original specification before proceeding.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Matching Your Home\'s Character',
+    residentialSection: {
+      heading: 'Residential: Matching Your Home\'s Character',
       content: [
         'Cedar shakes suit Craftsman bungalows, rustic colonials, and homes that embrace natural, textured aesthetics. Their rugged character says "handcrafted" in a way that resonates in towns like Montclair and South Orange.',
         'Wood shingles suit formal colonials, Cape Cods, and traditional homes where a refined wood appearance is desired. Their uniform profile creates orderly, clean roof lines that complement structured architectural styles.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Limited Commercial Application',
+    commercialSection: {
+      heading: 'Commercial: Limited Commercial Application',
       content: [
         'Wood roofing is rarely specified for commercial buildings due to fire concerns, maintenance demands, and insurance complications. Exceptions include boutique hospitality and high-end retail where natural wood aesthetics drive brand positioning.',
         'For commercial properties seeking wood aesthetics, synthetic cedar shake products deliver the look with Class A fire rating and zero maintenance — a practical compromise for business applications.',
@@ -876,15 +876,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Both systems meet NJ UCC requirements and carry FM Global approvals for commercial applications. Insurance companies and building departments treat them equivalently.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Flat Roof Sections',
+    residentialSection: {
+      heading: 'Residential: Flat Roof Sections',
       content: [
         'For residential flat roofs, modified bitumen is almost always the better choice. Its multiple installation methods, easier repairs, and flexibility in cold weather suit home applications perfectly. BUR\'s hot-asphalt process is impractical for most residential settings.',
         'Modified bitumen with a granule cap sheet in a complementary color provides a finished appearance appropriate for visible flat sections on Essex County homes.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Minimizing Disruption',
+    commercialSection: {
+      heading: 'Commercial: Minimizing Disruption',
       content: [
         'For occupied commercial buildings — offices, retail, medical facilities — modified bitumen with cold-adhesive installation minimizes occupant disruption. No fumes, no flames, and faster installation than BUR mean less impact on your business operations.',
         'BUR\'s economic advantage ($0.50–$1.50/sq ft cheaper) matters on large-area roofs. For a 20,000 sq ft warehouse, that is $10,000–$30,000 in savings. Weigh the savings against the installation drawbacks for your specific situation.',
@@ -950,15 +950,15 @@ export const materialComparisons: ComparisonContent[] = [
         'Both systems qualify for NJ Clean Energy Program incentives. Spray foam\'s superior R-value per inch may qualify for enhanced rebates in high-performance building programs.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Specialty Applications',
+    residentialSection: {
+      heading: 'Residential: Specialty Applications',
       content: [
         'Spray foam is excellent for hard-to-insulate residential flat roofs where adding thick insulation boards would create height problems at door thresholds or parapet walls. A thin SPF application delivers high R-value in minimal thickness.',
         'For most residential flat roof sections, TPO over polyiso insulation is simpler, requires less maintenance, and provides excellent performance without spray foam\'s re-coating requirements.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Energy ROI Calculation',
+    commercialSection: {
+      heading: 'Commercial: Energy ROI Calculation',
       content: [
         'For buildings with high HVAC costs — restaurants, data centers, manufacturing — spray foam\'s superior insulation value delivers the fastest energy payback. A 20,000 sq ft building can save $5,000–$10,000 annually in heating and cooling with spray foam versus standard insulation under TPO.',
         'For standard office and retail buildings where HVAC costs are moderate, TPO with adequate insulation boards provides energy performance within 10–15% of spray foam at lower complexity and maintenance cost.',
@@ -1024,15 +1024,15 @@ export const materialComparisons: ComparisonContent[] = [
         'NJ building code requires structural engineer certification for green roof installations, confirming the building can support wet-weight loads. Fire code requires firebreak zones around rooftop equipment and at building perimeters.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Boutique Green Roof Applications',
+    residentialSection: {
+      heading: 'Residential: Boutique Green Roof Applications',
       content: [
         'Small-scale residential green roofs on garages, porches, or extensions can be charming focal points that reduce your carbon footprint. Extensive sedum trays on a 200 sq ft garage roof cost $5,000–$10,000 installed and require minimal maintenance.',
         'Full residential green roofs are rare due to cost and structural requirements. If sustainability is your priority, a cool-roof membrane with added insulation delivers most energy benefits at traditional roofing prices.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: ROI and Brand Value',
+    commercialSection: {
+      heading: 'Commercial: ROI and Brand Value',
       content: [
         'For corporate offices and institutions, green roofs signal environmental leadership and can achieve LEED credits. The brand value in industries where sustainability matters — healthcare, education, technology — can justify the premium investment.',
         'For pure financial ROI, green roofs rarely pay for themselves through energy savings alone. The economic case depends on stormwater management credits, avoided detention basins, membrane life extension, and property value enhancement combined.',
@@ -1100,15 +1100,15 @@ export const materialComparisons: ComparisonContent[] = [
         'NJ interconnection rules and net metering apply equally to both. Your PSEG or JCP&L meter runs backward when you generate excess power, crediting your account at full retail rate. Both technologies benefit identically from NJ\'s strong net metering policy.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: Aesthetics, HOAs, and Neighborhood Fit',
+    residentialSection: {
+      heading: 'Residential: Aesthetics, HOAs, and Neighborhood Fit',
       content: [
         'In Essex County towns with active Historic Preservation Commissions — Glen Ridge, Montclair, South Orange — solar shingles may be the only approved option. Their flush, integrated appearance preserves roofline aesthetics in ways that rack-mounted panels cannot.',
         'If your HOA restricts solar panel visibility (NJ law limits but does not eliminate HOA solar restrictions), solar shingles provide a compliant alternative. For homes with no aesthetic constraints, traditional panels deliver more energy for less money.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Maximizing Energy Production',
+    commercialSection: {
+      heading: 'Commercial: Maximizing Energy Production',
       content: [
         'For commercial buildings seeking maximum solar output, traditional panels are the clear choice. Higher efficiency, lower cost per watt, and modular expandability let you scale your solar system as energy needs grow.',
         'Solar shingles on commercial buildings are rare due to cost and the practical reality that commercial flat roofs are not visible — aesthetics matter less, making panels\' efficiency and cost advantages decisive.',
@@ -1175,15 +1175,15 @@ export const materialComparisons: ComparisonContent[] = [
         'NJ building code does not distinguish between the two products, but insurance companies increasingly offer discounts for architectural shingles with Class 4 impact ratings, rewarding the upgrade financially.',
       ],
     },
-    homeownerSection: {
-      heading: 'For Homeowners: The Clear Upgrade',
+    residentialSection: {
+      heading: 'Residential: The Clear Upgrade',
       content: [
         'For the $1,500–$5,000 premium on a typical Essex County home, architectural shingles deliver 10+ extra years of life, dramatically better wind resistance, superior curb appeal, and stronger warranties. It is one of the best value-per-dollar upgrades in residential roofing.',
         'If you are financing your roof replacement, the monthly cost difference between 3-tab and architectural is often $10–$25 — a negligible amount for significantly better protection and appearance.',
       ],
     },
-    businessOwnerSection: {
-      heading: 'For Business Owners: Property Image',
+    commercialSection: {
+      heading: 'Commercial: Property Image',
       content: [
         'For commercial properties with steep-slope sections (strip malls, mixed-use buildings, offices), architectural shingles project quality. 3-tab shingles on a commercial building signal cost-cutting that may concern tenants and their customers.',
         'The modest cost premium on commercial steep-slope sections is easily justified by the 10+ year lifespan extension and improved property appearance.',

@@ -37,7 +37,7 @@ export function HomeResidentialCommercial() {
           id="res-comm-heading"
           className="mb-12 text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
-          Serving Homeowners &amp; Businesses Across Essex County
+          Residential &amp; Commercial Roofing Across Essex County
         </h2>
 
         {/* 50/50 grid */}
@@ -55,7 +55,7 @@ export function HomeResidentialCommercial() {
               />
             </div>
             <h3 className="mt-6 font-heading text-2xl font-bold text-forest">
-              For Homeowners
+              Residential
             </h3>
             <ul className="mt-4 space-y-2.5">
               {residentialBullets.map((item) => (
@@ -76,6 +76,14 @@ export function HomeResidentialCommercial() {
                 </li>
               ))}
             </ul>
+            <div className="mt-5 rounded-md bg-forest/5 px-4 py-3">
+              <p className="font-body text-sm font-medium text-forest">
+                Most repairs: $350&ndash;$1,500 | Full replacement: $8,500&ndash;$25,000+
+              </p>
+              <p className="mt-1 font-body text-xs text-text-secondary">
+                Free estimates &mdash; no obligation
+              </p>
+            </div>
             <div className="mt-8">
               <Link
                 href="/residential-roof-installation"
@@ -113,7 +121,7 @@ export function HomeResidentialCommercial() {
               />
             </div>
             <h3 className="mt-6 font-heading text-2xl font-bold text-forest">
-              For Businesses
+              Commercial
             </h3>
             <ul className="mt-4 space-y-2.5">
               {commercialBullets.map((item) => (
@@ -134,6 +142,14 @@ export function HomeResidentialCommercial() {
                 </li>
               ))}
             </ul>
+            <div className="mt-5 rounded-md bg-forest/5 px-4 py-3">
+              <p className="font-body text-sm font-medium text-forest">
+                Commercial systems: $6&ndash;$16/sq ft | Coatings from $3/sq ft
+              </p>
+              <p className="mt-1 font-body text-xs text-text-secondary">
+                Free estimates &mdash; no obligation
+              </p>
+            </div>
             <div className="mt-8">
               <Link
                 href="/commercial-roof-installation"

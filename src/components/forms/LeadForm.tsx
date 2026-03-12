@@ -157,6 +157,9 @@ export function LeadForm({
         )}
 
         <SubmitButton />
+        <p className="mt-3 text-center font-body text-xs text-text-secondary/70">
+          100% free, no obligation. We respond within 1 hour.
+        </p>
       </form>
     </div>
   );

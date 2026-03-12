@@ -10,7 +10,7 @@ export const affluentSuburbanContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'livingston',
-    heroHeadline: 'Trusted Roofing Contractor in Livingston, NJ',
+    heroHeadline: 'Roofing Services in Livingston, NJ',
     heroSubheadline:
       'From split-level renovations along Eisenhower Parkway to full roof replacements in Collins Terrace, Newark Quality Roofing delivers professional craftsmanship tailored to Livingston\'s diverse housing landscape.',
     stats: {
@@ -174,7 +174,7 @@ export const affluentSuburbanContent: CityContent[] = [
       },
     ],
     whyChoose: {
-      heading: 'Why Livingston Homeowners Choose Newark Quality Roofing',
+      heading: 'Why Livingston Residents Choose Newark Quality Roofing',
       reasons: [
         {
           title: 'Split-Level Specialists',
@@ -203,7 +203,7 @@ export const affluentSuburbanContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Roofing Contractor Livingston NJ | Newark Quality Roofing',
+    metaTitle: 'Roofing Services in Livingston, NJ | Newark Quality Roofing',
     metaDescription:
       'Expert roofing in Livingston, NJ. Split-level specialists, HOA-approved installations, and commercial roofing along Eisenhower Parkway. Free estimates.',
     pricing: {
@@ -225,7 +225,7 @@ export const affluentSuburbanContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'millburn',
-    heroHeadline: 'Premier Roofing Contractor in Millburn & Short Hills, NJ',
+    heroHeadline: 'Roofing Services in Millburn, NJ',
     heroSubheadline:
       'Slate restoration, copper flashing, and architect-specified installations for Millburn\'s most distinguished estates. Newark Quality Roofing delivers the premium craftsmanship that Short Hills and Millburn Village properties demand.',
     stats: {
@@ -411,7 +411,7 @@ export const affluentSuburbanContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Roofing Contractor Millburn & Short Hills NJ | Premium',
+    metaTitle: 'Roofing Services in Millburn, NJ | Newark Quality Roofing',
     metaDescription:
       'Premier roofing in Millburn & Short Hills, NJ. Slate restoration, copper work, and architect-specified installations for estates. Free consultation.',
     pricing: {

@@ -8,7 +8,7 @@ export const caldwellsRoselandContent: CityContent[] = [
   // ─── Caldwell ─────────────────────────────────────────────────────────────
   {
     cityId: 'caldwell',
-    heroHeadline: 'Trusted Roofing Services in Caldwell, NJ',
+    heroHeadline: 'Roofing Services in Caldwell, NJ',
     heroSubheadline:
       'Dependable craftsmanship for Caldwell\'s charming homes and local businesses — from Victorian restorations on Bloomfield Avenue to modern upgrades across every neighborhood.',
     stats: {
@@ -158,7 +158,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
     ],
     whyChoose: {
-      heading: 'Why Caldwell Homeowners Choose Newark Quality Roofing',
+      heading: 'Why Caldwell Residents Choose Newark Quality Roofing',
       reasons: [
         {
           title: 'Small-Town Accountability',
@@ -186,7 +186,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Roofing Contractor in Caldwell NJ | Newark Quality Roofing',
+    metaTitle: 'Roofing Services in Caldwell, NJ | Newark Quality Roofing',
     metaDescription:
       'Expert roofing in Caldwell, NJ. Residential and commercial roof repair, replacement, and restoration. Licensed, insured, and trusted by Caldwell homeowners.',
     pricing: {
@@ -206,7 +206,7 @@ export const caldwellsRoselandContent: CityContent[] = [
   // ─── North Caldwell ───────────────────────────────────────────────────────
   {
     cityId: 'north-caldwell',
-    heroHeadline: 'Premium Roofing Services in North Caldwell, NJ',
+    heroHeadline: 'Roofing Services in North Caldwell, NJ',
     heroSubheadline:
       'Delivering the precision craftsmanship and superior materials that North Caldwell\'s distinguished properties deserve — from slate restorations to copper accent installations on the borough\'s finest estates.',
     stats: {
@@ -390,7 +390,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Premium Roofing in North Caldwell NJ | Newark Quality Roofing',
+    metaTitle: 'Roofing Services in North Caldwell, NJ | Newark Quality Roofing',
     metaDescription:
       'Premium roofing for North Caldwell, NJ estates. Slate, cedar shake, copper, and architectural shingle specialists. Trusted by North Caldwell homeowners.',
     pricing: {
@@ -410,7 +410,7 @@ export const caldwellsRoselandContent: CityContent[] = [
   // ─── Essex Fells ──────────────────────────────────────────────────────────
   {
     cityId: 'essex-fells',
-    heroHeadline: 'Estate Roofing Specialists in Essex Fells, NJ',
+    heroHeadline: 'Roofing Services in Essex Fells, NJ',
     heroSubheadline:
       'Architect-specified materials, master craftsmanship, and meticulous estate-scale project management for one of New Jersey\'s most exclusive residential communities.',
     stats: {
@@ -592,7 +592,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Estate Roofing in Essex Fells NJ | Newark Quality Roofing',
+    metaTitle: 'Roofing Services in Essex Fells, NJ | Newark Quality Roofing',
     metaDescription:
       'Estate roofing in Essex Fells, NJ. Slate, cedar, copper, and premium materials for NJ\'s most exclusive community. Architect-trusted craftsmanship.',
     pricing: {
@@ -612,7 +612,7 @@ export const caldwellsRoselandContent: CityContent[] = [
   // ─── Fairfield ────────────────────────────────────────────────────────────
   {
     cityId: 'fairfield',
-    heroHeadline: 'Residential & Commercial Roofing in Fairfield, NJ',
+    heroHeadline: 'Roofing Services in Fairfield, NJ',
     heroSubheadline:
       'From suburban neighborhoods to the Route 46 commercial corridor, Newark Quality Roofing delivers comprehensive roofing solutions for every property type in Fairfield Township.',
     stats: {
@@ -801,7 +801,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Roofing Contractor in Fairfield NJ | Newark Quality Roofing',
+    metaTitle: 'Roofing Services in Fairfield, NJ | Newark Quality Roofing',
     metaDescription:
       'Residential and commercial roofing in Fairfield, NJ. Route 46 corridor specialists. Roof replacement, TPO, EPDM, and maintenance programs. Licensed and insured.',
     pricing: {
@@ -821,7 +821,7 @@ export const caldwellsRoselandContent: CityContent[] = [
   // ─── Roseland ─────────────────────────────────────────────────────────────
   {
     cityId: 'roseland',
-    heroHeadline: 'Professional Roofing Services in Roseland, NJ',
+    heroHeadline: 'Roofing Services in Roseland, NJ',
     heroSubheadline:
       'Quality craftsmanship for Roseland\'s established neighborhoods and corporate properties — from residential upgrades along Eagle Rock Avenue to commercial solutions for the borough\'s premier business campuses.',
     stats: {
@@ -999,7 +999,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Roofing Services in Roseland NJ | Newark Quality Roofing',
+    metaTitle: 'Roofing Services in Roseland, NJ | Newark Quality Roofing',
     metaDescription:
       'Professional roofing in Roseland, NJ. Residential and commercial specialists serving established neighborhoods and corporate campuses. Licensed and insured.',
     pricing: {

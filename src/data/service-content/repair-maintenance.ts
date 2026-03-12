@@ -34,7 +34,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Our repair methodology also accounts for the long-term trajectory of your roof system. During every repair visit, our technicians assess the overall condition of surrounding materials and provide an honest evaluation of remaining service life. If a repair will hold for another decade, we tell you that. If the area around the repair is nearing the end of its useful life and a larger project is on the horizon, we tell you that too. This transparent approach helps you plan and budget rather than being surprised by escalating repair frequency as your roof ages. We maintain detailed records of every repair we perform on your property, creating a service history that proves invaluable for insurance claims, warranty discussions, and future maintenance planning.',
     ],
     residential: {
-      heading: 'Roof Repair for Homeowners',
+      heading: 'Residential Roof Repair',
       content: [
         'Your home is the single largest investment most families make, and the roof is its first line of defense against everything the New Jersey climate delivers. When you notice a leak, damaged shingles, or any sign that your roof is not performing as it should, acting quickly protects not just the structure but the health and comfort of everyone living under it. Water infiltration leads to mold growth that can trigger respiratory problems, and even small leaks can destroy insulation, warp framing lumber, and stain finishes that are expensive to restore.',
         'We understand that an unexpected roof repair can strain a household budget. That is why we provide detailed written estimates before beginning any work, explain exactly what needs attention versus what can be monitored, and offer financing options for larger repairs. Our residential repair crews are trained to work efficiently and respectfully on occupied homes. We protect landscaping with drop cloths, contain debris as we work, and perform a magnetic sweep of the yard to collect any stray fasteners before we leave.',
@@ -44,7 +44,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Roof Repair for Business Owners',
+      heading: 'Commercial Roof Repair',
       content: [
         'A compromised commercial roof threatens more than the building envelope. It jeopardizes inventory, disrupts operations, creates liability exposure, and erodes tenant confidence. In the competitive Essex County commercial market, where properties compete for quality tenants and favorable lease terms, demonstrating proactive roof maintenance directly supports property value and occupancy rates. Our commercial repair teams understand that downtime translates to revenue loss, which is why we schedule work around your business hours and complete most repairs within a single day.',
         'Commercial roofing systems differ fundamentally from residential installations. Flat and low-slope configurations, membrane materials, heavy HVAC equipment loads, and complex drainage designs all require specialized knowledge and equipment. Our technicians hold certifications from major commercial roofing manufacturers including Firestone, Carlisle, and Johns Manville, enabling us to perform warranty-preserving repairs that keep your manufacturer coverage intact. We document every repair with photographs, material specifications, and moisture readings so you maintain a complete roof maintenance record for insurance and property management purposes.',
@@ -188,7 +188,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Waste management and environmental responsibility are integral to our replacement process. Roofing tear-off generates substantial waste, and we ensure all debris is contained, sorted where recycling is feasible, and disposed of through licensed waste haulers in full compliance with New Jersey Department of Environmental Protection regulations. Asphalt shingle recycling programs divert old roofing material from landfills and repurpose it for road paving aggregate, and we participate in these programs whenever facilities are accepting material in our service area. Your property is left completely clean after every project, with no remnants of the old roof left behind.',
     ],
     residential: {
-      heading: 'Roof Replacement for Homeowners',
+      heading: 'Residential Roof Replacement',
       content: [
         'Replacing your home\'s roof is an investment that protects your family, preserves your property value, and can dramatically transform your home\'s curb appeal. In Essex County\'s competitive real estate market, a new roof consistently ranks among the highest-return home improvements, with studies showing recovery rates between 60 and 70 percent of the project cost at resale. Beyond financial returns, a new roof eliminates the anxiety of wondering whether the next storm will bring leaks, and it provides the peace of mind that comes from knowing your family is protected by materials engineered to withstand decades of New Jersey weather.',
         'We recognize that roof replacement represents a significant financial commitment for most homeowners. Our process is designed to make that commitment as comfortable as possible. You receive a detailed written proposal that itemizes every component of the project, from ice shield and underlayment to ridge ventilation and trim work. We offer multiple financing options including same-as-cash programs that let you spread the cost over time without interest charges. And we complete most residential replacements in one to three days, minimizing disruption to your household routine.',
@@ -198,7 +198,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Roof Replacement for Business Owners',
+      heading: 'Commercial Roof Replacement',
       content: [
         'Commercial roof replacement demands meticulous project management because the stakes extend beyond the roof itself. Tenant operations, inventory protection, equipment safety, and business continuity all depend on executing the replacement efficiently and on schedule. Our commercial division has managed replacement projects on office buildings, warehouses, retail centers, medical facilities, and industrial plants across Essex County, and we understand that every day of disruption carries a real cost to your business or your tenants\' businesses.',
         'We develop detailed project plans that include phased installation schedules, weather contingency protocols, and daily progress reporting. For occupied buildings, we coordinate work to minimize noise during business hours, ensure common areas remain accessible, and protect HVAC equipment and roof-mounted utilities throughout the installation. For warehouse and industrial facilities, we schedule tear-off and exposure work in manageable sections to prevent interior damage if unexpected weather arrives during the project.',
@@ -345,7 +345,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Our emergency repair inventory includes materials for every roof type common in Essex County. For shingle roofs, we carry architectural and three-tab shingles in the most common profiles and colors, along with ice-and-water shield, synthetic underlayment, and step flashing components. For flat and low-slope commercial systems, our trucks stock TPO and EPDM membrane patches, bonding adhesives, peel-and-stick reinforcement strips, and emergency coating compounds. This comprehensive inventory means that in many cases, we can proceed directly from stabilization to permanent repair during the same visit, eliminating the vulnerable period between temporary protection and permanent restoration that less-prepared contractors require.',
     ],
     residential: {
-      heading: 'Emergency Roof Repair for Homeowners',
+      heading: 'Residential Emergency Roof Repair',
       content: [
         'A roofing emergency at home is one of the most stressful experiences a family can face. Water pouring through your ceiling, wind howling through a damaged section, or the terrifying sound of a tree striking your roof in the middle of the night triggers immediate fear for your family\'s safety and your home\'s integrity. Our residential emergency team understands this stress and responds with urgency, professionalism, and clear communication every step of the way. When you call, we tell you exactly when to expect our crew and what to do in the meantime to protect your family and belongings.',
         'While waiting for our arrival, we guide you through immediate safety steps over the phone. Move family members away from areas where water is entering. Place containers to collect water and protect flooring. If water is near electrical outlets or fixtures, turn off power to affected circuits at the breaker panel. Move valuable items and furniture away from the leak path. These simple steps can prevent thousands of dollars in secondary damage during the window between your call and our arrival.',
@@ -355,7 +355,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Emergency Roof Repair for Business Owners',
+      heading: 'Commercial Emergency Roof Repair',
       content: [
         'A commercial roofing emergency threatens business continuity, employee safety, and asset protection simultaneously. Water entering a warehouse damages inventory. A retail space with ceiling leaks becomes a slip-and-fall liability. An office building with active roof damage may need to evacuate tenants, creating lease obligation complications. Our commercial emergency response team understands these compounding risks and prioritizes rapid stabilization to get your facility back to operational status as quickly as possible.',
         'For commercial properties, we deploy larger crews with the equipment needed to address the scale of commercial roof systems. Industrial-grade tarping systems that cover thousands of square feet, emergency membrane patching kits for flat roof systems, and structural bracing for compromised deck areas are all part of our commercial emergency toolkit. We coordinate with building management, security, and tenant contacts to manage building access and communicate status updates throughout the emergency response.',
@@ -495,7 +495,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Technology enhances but does not replace hands-on inspection expertise. We deploy drone-mounted cameras for initial surveys of large commercial roofs and steep residential roofs where foot traffic should be minimized. Thermal imaging cameras reveal moisture trapped beneath roof surfaces that is invisible to the eye, identifying areas where insulation has been compromised or where slow leaks are developing. However, technology serves as a supplement to physical inspection, not a substitute. Our inspectors physically test flashing adhesion, probe sealant integrity, lift shingle edges to assess underlayment condition, and evaluate fastener withdrawal resistance in ways that remote imaging simply cannot replicate.',
     ],
     residential: {
-      heading: 'Roof Inspection for Homeowners',
+      heading: 'Residential Roof Inspection',
       content: [
         'For homeowners, a roof inspection provides essential knowledge about the condition of your home\'s most critical protective system. Many homeowners assume that if nothing is visibly wrong from the ground and no leaks have appeared inside, the roof must be fine. The reality is that roof deterioration is a gradual process, and by the time visible symptoms appear inside the home, the underlying damage is often extensive. An inspection catches problems in their early stages when repairs are minor and affordable rather than after they have escalated into emergencies.',
         'Inspection is particularly valuable at key moments in homeownership. Before purchasing a home, an independent roof inspection protects you from inheriting hidden problems that the seller may not even be aware of. Before listing a home for sale, an inspection report demonstrating a well-maintained roof gives buyers confidence and can accelerate the transaction. After major storms, an inspection documents any damage for insurance claims even when nothing is visible from ground level. And as a routine maintenance practice, annual inspections extend the service life of your roof by catching and addressing small issues before they compound.',
@@ -505,7 +505,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Roof Inspection for Business Owners',
+      heading: 'Commercial Roof Inspection',
       content: [
         'Commercial roof inspections serve multiple business functions beyond simple condition assessment. They create the documentation trail that protects your investment, supports insurance coverage, satisfies tenant obligations, and informs capital expenditure planning. A well-documented inspection history demonstrates responsible property management, which matters when negotiating insurance premiums, responding to tenant concerns, planning renovation projects, or preparing properties for sale or refinancing.',
         'Our commercial inspection services include specialized assessments for specific situations. Pre-purchase due diligence inspections provide prospective buyers with detailed condition analysis and estimated remaining service life. Warranty compliance inspections verify that manufacturer maintenance requirements have been met, protecting your coverage. Post-storm damage assessments provide the documentation insurers require for claim processing. Annual maintenance inspections create the ongoing record that supports long-term roof asset management.',
@@ -651,7 +651,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'The scope of each maintenance visit goes beyond simple visual inspection and cleaning. Our technicians perform functional testing of drainage systems by verifying water flow through gutters and downspouts. We check caulk and sealant at every penetration point, reapplying where deterioration has begun before it progresses to the point of water entry. Vent screens are inspected for blockage from debris or animal nesting. Metal components are checked for corrosion, and painted surfaces are evaluated for peeling that exposes base metal to accelerated deterioration. This thorough approach ensures that every maintenance visit addresses the full spectrum of conditions that lead to premature roof failure when left unattended.',
     ],
     residential: {
-      heading: 'Roof Maintenance Programs for Homeowners',
+      heading: 'Residential Roof Maintenance Programs',
       content: [
         'Owning a home in Essex County means accepting responsibility for a roof that faces one of the most demanding climates in the northeastern United States. Most homeowners understand the importance of maintaining their heating system, servicing their air conditioning, and caring for their landscaping. Yet the roof, which protects every other system and possession in the home, often receives no professional attention between the day it is installed and the day it fails. A maintenance program changes this pattern by providing scheduled professional care that catches problems early and keeps your roof performing as designed.',
         'Our residential maintenance programs are designed for convenience and value. The standard program includes two visits per year, timed for spring and fall. Each visit includes a comprehensive inspection, cleaning of all drainage systems, removal of debris from valleys and low areas, resealing of exposed fasteners and minor flashings, and a written condition report. The cost of the program is typically less than a single emergency repair call, yet it dramatically reduces the likelihood that you will ever need one.',
@@ -661,7 +661,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Roof Maintenance Programs for Business Owners',
+      heading: 'Commercial Roof Maintenance Programs',
       content: [
         'Commercial roof maintenance programs are not an optional expense but a sound business practice that protects asset value, reduces operating costs, and supports tenant satisfaction. A well-maintained commercial roof prevents the disruption, liability, and reputation damage that leaks and roof failures create. For multi-tenant properties, demonstrating a proactive maintenance program builds tenant confidence and supports lease renewal negotiations. For owner-occupied facilities, it protects inventory, equipment, and operational continuity.',
         'Our commercial programs are structured around the specific demands of commercial roof systems. Flat and low-slope roofs require different maintenance than sloped systems, with particular attention to membrane condition, seam integrity, drainage performance, and the areas around roof-mounted equipment where maintenance traffic creates wear. We inspect and maintain all penetration flashings, expansion joints, parapet cap flashings, and edge details that are common failure points on commercial installations. Drain clearing is included because a single blocked drain can create ponding loads that exceed the structural capacity of the roof deck.',
@@ -786,7 +786,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Once the entry point is identified, we design a repair that addresses the root cause permanently. If a flashing has failed, we do not simply recaulk the existing flashing but instead remove it, address any underlying deterioration, and install new flashing with proper overlap and sealing. If shingles have failed, we replace the affected area with matched materials, verifying that the underlayment beneath is intact. Every repair is tested before we leave the property, either with controlled water application or by monitoring through the next rainfall event.',
     ],
     residential: {
-      heading: 'Roof Leak Repair for Homeowners',
+      heading: 'Residential Roof Leak Repair',
       content: [
         'Discovering a leak in your home triggers immediate anxiety about damage to your belongings, the health of your family, and the cost of repairs. We understand this urgency and prioritize leak repair calls accordingly. In many cases, we can schedule a diagnostic visit within 24 hours and complete the repair during the same visit if the issue is straightforward. For complex leaks that require controlled water testing or extensive investigation, we communicate a clear timeline and ensure temporary protection is in place while we work toward a permanent solution.',
         'The most important thing you can do as a homeowner is address a leak immediately rather than waiting to see if it gets worse. Every day that water enters your home, it saturates more insulation, spreads into more wall cavities, and creates better conditions for mold growth. A leak that costs a few hundred dollars to repair today could cost thousands if left unaddressed for even a few weeks. Placing a bucket under a drip is not a repair -- it is a delay that allows damage to compound.',
@@ -796,7 +796,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Roof Leak Repair for Business Owners',
+      heading: 'Commercial Roof Leak Repair',
       content: [
         'Commercial roof leaks pose particular challenges because of the building types involved. Flat and low-slope commercial roofs have different failure modes than residential pitched roofs, and the consequences of leaks in commercial settings can be severe. Water damage to inventory, equipment, and tenant improvements can far exceed the cost of the roof repair itself. Slip-and-fall liability from interior water accumulation creates legal exposure. And persistent leaks erode tenant confidence, threatening occupancy rates and lease renewals that drive property value.',
         'Our commercial leak detection utilizes advanced diagnostic tools appropriate to commercial roof systems. Electronic leak detection can pinpoint membrane breaches to within inches on single-ply systems. Infrared thermal imaging reveals moisture trapped within the roof assembly that is invisible to visual inspection. Core sampling provides definitive assessment of insulation saturation levels. These technologies complement traditional diagnostic methods to deliver precise, efficient leak identification on large commercial roof surfaces where traditional methods alone would be impractical.',
@@ -923,7 +923,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'The greater Newark area is particularly vulnerable to storm damage because of its aging building stock and dense construction patterns. Many residential neighborhoods contain homes built between 1920 and 1970 with original or aging roof systems that have reduced resilience to storm forces. Dense urban construction creates wind tunneling effects between buildings that amplify wind speeds beyond the reported meteorological values, meaning localized damage can be more severe than weather station data might suggest. Our damage assessments account for these microclimate factors, and we reference hyperlocal weather data from stations throughout Essex County rather than relying on a single airport reporting station to establish the storm conditions that affected your specific property.',
     ],
     residential: {
-      heading: 'Storm Damage Roof Repair for Homeowners',
+      heading: 'Residential Storm Damage Roof Repair',
       content: [
         'After a storm passes through your neighborhood, the immediate question is whether your home sustained damage and what you should do about it. Do not climb onto your roof to inspect it yourself, as storm-weakened materials can give way underfoot and wet surfaces are extremely hazardous. Instead, look for visible signs from ground level: missing shingles, debris on the roof, dents in gutters, and granules washed into the yard. If you observe any of these signs, or if neighboring homes report damage, contact us for a professional assessment even if no interior leaks have appeared yet.',
         'Navigating a homeowner\'s insurance claim for storm damage can feel overwhelming, especially when you are also dealing with the stress of possible damage to your home. We walk you through the process step by step. We document the damage thoroughly, help you file the initial claim, meet with the insurance adjuster on site to ensure all damage is identified, and provide supplemental documentation if the initial assessment misses items. Our goal is a fair settlement that covers the full scope of legitimate storm damage so your home is restored to its pre-storm condition.',
@@ -933,7 +933,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Storm Damage Roof Repair for Business Owners',
+      heading: 'Commercial Storm Damage Roof Repair',
       content: [
         'Commercial storm damage demands rapid assessment and response because every hour of exposure increases the risk to building contents, operations, and tenant satisfaction. Our commercial storm response protocol begins with emergency stabilization, including tarping exposed areas and addressing active water entry, followed by a systematic damage assessment that documents every impact point across the entire roof surface. For large commercial buildings, this assessment may require multiple days to complete thoroughly, but the investment in comprehensive documentation pays dividends during the insurance claim process.',
         'Commercial insurance claims for storm damage involve larger dollar amounts and more scrutiny than residential claims. Adjusters may engage engineering firms to dispute damage claims or argue that damage is pre-existing rather than storm-related. Our detailed documentation protocol, including damage pattern analysis that correlates with meteorological data for the specific storm event, provides the objective evidence needed to counter these challenges. We work with your insurance broker and can coordinate with public adjusters when the claim warrants additional advocacy.',
@@ -1062,7 +1062,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'Collateral hail damage extends beyond the roof surface to gutters, downspouts, vent caps, skylights, and siding. Our comprehensive hail assessment documents all exterior damage caused by the same storm event, ensuring your insurance claim captures the full scope of restoration needed. Gutter systems with extensive denting may function adequately but can indicate the hailstone size that struck your roof, which is valuable corroborating evidence for the roof damage claim. We photograph and measure collateral damage on all accessible building surfaces as standard practice during every hail assessment.',
     ],
     residential: {
-      heading: 'Hail Damage Roof Repair for Homeowners',
+      heading: 'Residential Hail Damage Roof Repair',
       content: [
         'Hail damage is one of the most common reasons homeowners in Essex County need roof repair, yet it is also one of the most frequently missed because most homeowners cannot see hail damage from the ground. If a hailstorm passes through your area and you notice dents on your car, damage to outdoor furniture, or dimples on gutter surfaces, there is a strong probability that your roof sustained damage as well. We strongly recommend a professional inspection after any hailstorm that produces stones large enough to be felt or that damages other property surfaces.',
         'The insurance claim process for hail damage follows a specific sequence that we guide you through from start to finish. You report the potential damage to your insurer, who assigns an adjuster. We meet the adjuster at your property, walk the roof together, and ensure all damage is identified and documented. Our detailed assessment often identifies damage that adjusters working under time pressure might miss, and our documentation meets the technical standards adjusters use for their evaluation. This collaborative approach produces more accurate and complete claim assessments.',
@@ -1072,7 +1072,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Hail Damage Roof Repair for Business Owners',
+      heading: 'Commercial Hail Damage Roof Repair',
       content: [
         'Commercial buildings in Essex County with flat or low-slope membrane roofing are particularly susceptible to hail damage because the impact angle on horizontal surfaces is more direct than on sloped residential roofs. Hailstones striking TPO, EPDM, or modified bitumen membranes can puncture the material outright, create compression fractures that compromise waterproofing over time, or damage the protective coating that shields the membrane from UV degradation. Even impacts that do not produce immediate leaks can significantly reduce the remaining service life of the membrane system.',
         'Our commercial hail damage assessment includes both visual inspection and diagnostic testing appropriate to the roof system type. For single-ply membranes, we check for punctures, compression fractures, and seam disruption caused by hail-induced movement. For built-up roofing, we look for displaced surfacing aggregate and fractured flood coat. For metal roofing, we assess panel dents that may have compromised sealant joints or created ponding depressions. Each system type has specific damage indicators that require experienced assessment to identify accurately.',
@@ -1197,7 +1197,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'For flat roof wind damage, our repair protocol includes assessment of the entire membrane attachment system, not just the visibly affected area. Wind events that balloon membrane sections may have loosened attachment across a much larger area than the visible damage suggests. We perform adhesion testing at multiple points to determine whether the damage is localized or indicates a broader attachment failure that requires more extensive repair. This thorough approach prevents recurring wind damage from the same root cause.',
     ],
     residential: {
-      heading: 'Wind Damage Roof Repair for Homeowners',
+      heading: 'Residential Wind Damage Roof Repair',
       content: [
         'Wind damage to your home\'s roof is often the most immediately visible type of storm damage, with missing shingles, loose flashing, and debris plainly apparent from ground level. While the visible damage is concerning, the greater threat may be what you cannot see. Shingles that were lifted by wind gusts and then settled back into position may look normal but have lost their adhesive bond, making them vulnerable to blowing off in the next storm. Underlayment exposed by missing shingles degrades rapidly in sunlight and rain, so every day of exposure reduces the secondary protection that should last decades.',
         'After a windstorm, resist the temptation to climb onto your roof for a closer look. Wind-loosened materials can shift underfoot, and the roof structure itself may be compromised in ways not visible from outside. Instead, document what you can see from ground level with photographs, note any new interior water stains or drafts, and call for professional assessment. We prioritize wind damage calls after major storm events because we understand that exposed areas need attention before the next weather system arrives.',
@@ -1207,7 +1207,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Wind Damage Roof Repair for Business Owners',
+      heading: 'Commercial Wind Damage Roof Repair',
       content: [
         'Commercial buildings face amplified wind damage risk due to their typically larger roof areas, which present greater surface for wind loading, and their often flat roof profiles, which are susceptible to negative-pressure uplift effects. Wind events that leave residential roofs largely intact can cause significant membrane separation, edge flashing displacement, and equipment damage on commercial buildings in the same area. The financial exposure is correspondingly larger, with wind damage to commercial roofs potentially affecting thousands of square feet of membrane and the business operations beneath.',
         'Our commercial wind damage response prioritizes operational continuity alongside repair quality. We deploy emergency tarping and temporary membrane patching to restore weather-tightness immediately, then conduct the comprehensive assessment needed for permanent repair planning and insurance documentation. For buildings with critical operations such as data centers, healthcare facilities, or manufacturing operations with environmental control requirements, we coordinate with facility management to ensure that temporary measures meet the operational standards required during the repair period.',
@@ -1330,7 +1330,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       'After cleaning, we offer preventive treatment that inhibits regrowth for 12 to 24 months depending on environmental conditions. For properties with persistent shade and heavy tree canopy that promote rapid regrowth, we recommend zinc or copper strip installation along the ridge line. These metal strips release trace amounts of fungicidal ions with each rainfall that flow down the roof surface and inhibit the biological activity that leads to moss, algae, and lichen establishment. Combined with periodic tree trimming to improve sunlight exposure, these preventive measures can keep your roof clean between professional cleaning visits.',
     ],
     residential: {
-      heading: 'Roof Cleaning for Homeowners',
+      heading: 'Residential Roof Cleaning',
       content: [
         'A clean roof transforms the entire appearance of your home. Dark algae streaks, green moss patches, and grey lichen colonies make even a structurally sound roof look old, neglected, and in need of replacement. In Essex County\'s real estate market, curb appeal directly influences property value and buyer interest. A professional roof cleaning can make a ten-year-old roof look nearly new, supporting home value and neighborhood aesthetics at a fraction of the cost of replacement. For homeowners not yet ready to sell, a clean roof simply looks better and provides the satisfaction of a well-maintained property.',
         'Beyond appearance, cleaning your roof extends its functional life. Moss holds moisture against the shingle surface, which accelerates the freeze-thaw cycling damage that is the primary cause of shingle failure in New Jersey. By removing moss before it establishes deep root systems that pry shingles apart, you prevent the most common mode of premature shingle deterioration in humid, tree-canopied environments. A roof that might last 20 years without maintenance can last 25 or more with periodic cleaning and moss prevention, delaying the significant expense of replacement.',
@@ -1340,7 +1340,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Roof Cleaning for Business Owners',
+      heading: 'Commercial Roof Cleaning',
       content: [
         'Commercial roof cleaning serves both operational and presentation purposes. For buildings with visible roof surfaces, such as retail properties viewed from elevated roadways or adjacent multi-story buildings, biological growth creates an impression of neglect that can affect customer perception and tenant satisfaction. For buildings where the roof is not visible to the public, cleaning still serves an important maintenance function by removing moisture-trapping growth that accelerates membrane and coating deterioration, potentially shortening the service life of expensive commercial roof systems.',
         'Commercial cleaning protocols differ from residential applications because of the roof systems involved. Flat membrane roofs require different chemical formulations than sloped shingle roofs, and drainage management during cleaning is critical to prevent cleaning solution from ponding and potentially damaging the membrane. We adjust our cleaning chemistry, application rates, and rinse procedures to match the specific commercial roof system on your building, whether it is TPO, EPDM, PVC, modified bitumen, built-up, or metal.',

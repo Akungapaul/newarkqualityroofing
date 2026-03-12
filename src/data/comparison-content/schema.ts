@@ -27,11 +27,11 @@ export const ComparisonContentSchema = z.object({
     heading: z.string(),
     content: z.array(z.string()).min(1).max(3),
   }),
-  homeownerSection: z.object({
+  residentialSection: z.object({
     heading: z.string(),
     content: z.array(z.string()).min(1).max(3),
   }),
-  businessOwnerSection: z.object({
+  commercialSection: z.object({
     heading: z.string(),
     content: z.array(z.string()).min(1).max(3),
   }),

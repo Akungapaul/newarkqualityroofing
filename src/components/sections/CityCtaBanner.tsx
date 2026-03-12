@@ -22,11 +22,11 @@ export function CityCtaBanner({ cityName }: CityCtaBannerProps) {
 
       <div className="relative mx-auto max-w-4xl px-6 py-16 text-center lg:py-20">
         <h2 className="font-heading text-3xl font-bold text-parchment sm:text-4xl">
-          Ready for Expert Roofing in {cityName}?
+          Don&rsquo;t Let a Small Leak Become a $10,000 Problem
         </h2>
         <p className="mt-4 font-body text-lg leading-relaxed text-parchment/80">
-          Get your free estimate today. Our local team is ready to help with any
-          roofing project -- from minor repairs to complete replacements.
+          Get your free estimate today &mdash; same-day response, no obligation.
+          We&rsquo;ve helped 500+ Essex County property owners protect their biggest investment.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
           <Link

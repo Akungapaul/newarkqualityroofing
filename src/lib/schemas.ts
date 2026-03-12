@@ -24,7 +24,7 @@ export const ServiceSchema = z.object({
   isResidential: z.boolean(),
   isCommercial: z.boolean(),
   shortDescription: z.string(),
-  metaTitle: z.string().max(60),
+  metaTitle: z.string().max(80),
   metaDescription: z.string().max(160),
 });
 

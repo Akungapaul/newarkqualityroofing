@@ -33,6 +33,7 @@ import {
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getGalleryPairs } from '@/data/image-manifest';
 
 // ─── Table of Contents sections ─────────────────────────────────────────────
 
@@ -66,6 +67,13 @@ export default function CityTemplate({ city }: CityTemplateProps) {
 
   // Load city content (all 21 cities have content -- throws if missing)
   const content = getCityContent(city.id);
+
+  // Gallery pairs for project spotlights
+  const pairs = getGalleryPairs().slice(0, 2);
+  const galleryPairs = pairs.map((p) => ({
+    before: { src: p.before.path, alt: p.before.alt },
+    after: { src: p.after.path, alt: p.after.alt },
+  }));
 
   return (
     <>
@@ -195,6 +203,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
                 <CityProjectSpotlights
                   spotlights={content.projectSpotlights}
                   cityName={city.name}
+                  galleryPairs={galleryPairs}
                 />
               </section>
             </AnimateIn>

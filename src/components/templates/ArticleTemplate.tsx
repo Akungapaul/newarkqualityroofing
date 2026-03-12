@@ -15,6 +15,7 @@ import {
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getServiceHeroImage, getContentPoolImages } from '@/data/image-manifest';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -57,10 +58,12 @@ function ArticlePlaceholder({
   article,
   moneyPageName,
   moneyPageSlug,
+  heroImage,
 }: {
   article: Article;
   moneyPageName: string;
   moneyPageSlug: string;
+  heroImage?: { src: string; alt: string };
 }) {
   return (
     <>
@@ -68,6 +71,7 @@ function ArticlePlaceholder({
         article={article}
         moneyPageName={moneyPageName}
         moneyPageSlug={moneyPageSlug}
+        heroImage={heroImage}
       />
       <article className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
         <div className="rounded-lg border border-border bg-parchment-light p-8 text-center">
@@ -108,6 +112,26 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
   const links = getArticleLinks(article.id);
   const content = loadArticleContent(article.id);
 
+  // ─── Hero image lookup ───────────────────────────────────────────────
+  const heroEntry =
+    article.parentType === 'service'
+      ? getServiceHeroImage(article.parentId)
+      : undefined;
+  const heroImage = heroEntry
+    ? { src: heroEntry.path, alt: heroEntry.alt }
+    : (() => {
+        const fallback = getContentPoolImages('consultation')[0];
+        return fallback ? { src: fallback.path, alt: fallback.alt } : undefined;
+      })();
+
+  // ─── Section image for ArticleBody ───────────────────────────────────
+  const poolCategories = ['crew', 'materials', 'consultation', 'seasonal'] as const;
+  const poolCategory = poolCategories[article.slug.length % 4];
+  const sectionEntry = getContentPoolImages(poolCategory)[0];
+  const sectionImage = sectionEntry
+    ? { src: sectionEntry.path, alt: sectionEntry.alt }
+    : undefined;
+
   // Graceful fallback when content doesn't exist yet
   if (!content) {
     return (
@@ -115,6 +139,7 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
         article={article}
         moneyPageName={links.moneyPage.name}
         moneyPageSlug={links.moneyPage.slug}
+        heroImage={heroImage}
       />
     );
   }
@@ -138,6 +163,7 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
         moneyPageName={links.moneyPage.name}
         moneyPageSlug={links.moneyPage.slug}
         wordCount={wordCount}
+        heroImage={heroImage}
       />
 
       <article className="mx-auto max-w-3xl px-6 py-12 lg:px-8">
@@ -146,6 +172,7 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
             intro={content.intro}
             sections={content.sections}
             conclusion={content.conclusion}
+            sectionImage={sectionImage}
           />
         </AnimateIn>
 

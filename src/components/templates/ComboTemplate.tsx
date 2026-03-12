@@ -31,6 +31,7 @@ import {
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { generateComboSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { getServiceHeroImage } from '@/data/image-manifest';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -50,6 +51,10 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
     // Content not yet created for this combo -- render graceful placeholder
     return <ComboPlaceholder service={service} city={city} serviceGroups={serviceGroups} />;
   }
+
+  // Section image: reuse service hero
+  const serviceHeroImg = getServiceHeroImage(service.id);
+  const comboOverviewImage = serviceHeroImg ? { src: serviceHeroImg.path, alt: serviceHeroImg.alt } : undefined;
 
   // Compute internal links
   const nearbyCities = getNearbyCityLinks(service, city);
@@ -85,7 +90,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
-          <AnimateIn><ComboOverview paragraphs={content.overview} /></AnimateIn>
+          <AnimateIn><ComboOverview paragraphs={content.overview} image={comboOverviewImage} /></AnimateIn>
 
           <AnimateIn><ComboChallenges paragraphs={content.challenges} cityName={city.name} /></AnimateIn>
 

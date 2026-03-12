@@ -6,6 +6,7 @@ import { getServiceMenuGroups } from '@/data/nav-data';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { HeroFormReveal } from '@/components/animations/HeroFormReveal';
 import { getHomepageImage } from '@/data/image-manifest';
+import { URGENCY } from '@/data/content-constants';
 
 export function HeroSection() {
   const serviceGroups = getServiceMenuGroups();
@@ -14,6 +15,7 @@ export function HeroSection() {
   const heroAlt = heroImg?.alt ?? 'Professional roofing crew working on a home in Newark NJ';
 
   return (
+    <>
     <section
       className="relative min-h-[85vh] overflow-hidden bg-forest-dark"
       aria-labelledby="hero-heading"
@@ -70,22 +72,25 @@ export function HeroSection() {
               id="hero-heading"
               className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
             >
-              Residential &amp; Commercial Roofing in Newark NJ
+              Roof Leaking? Storm Damage? We Fix It Today.
               <br />
               <span className="text-copper">
-                Licensed Contractors You Can Trust
+                Newark&rsquo;s Trusted Roofing Contractors &mdash; Same-Day Response
               </span>
             </h1>
           </AnimateIn>
           <AnimateIn delay={0.6}>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
-              Expert roofing services for homeowners and businesses across Newark and Essex County.
-              Repairs, replacements, flat roof systems, and more — call today for your free estimate.
-              Browse our <Link href="/services" className="underline text-copper-light hover:text-copper">full list of services</Link>,{' '}
-              <Link href="/roof-replacement" className="underline text-copper-light hover:text-copper">roof replacements</Link>,{' '}
-              <Link href="/commercial-roof-installation" className="underline text-copper-light hover:text-copper">commercial installations</Link>, or{' '}
-              <Link href="/contact" className="underline text-copper-light hover:text-copper">contact us</Link> directly.
+              Water damage spreads fast &mdash; every day you wait costs more. We provide same-day
+              free estimates, 24/7 emergency crews, and 0% financing. 500+ five-star reviews
+              from Essex County property owners.
             </p>
+            <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 font-body text-sm text-parchment/70">
+              <Link href="/services" className="underline text-copper-light hover:text-copper">All Services</Link>
+              <Link href="/roof-replacement" className="underline text-copper-light hover:text-copper">Replacements</Link>
+              <Link href="/commercial-roof-installation" className="underline text-copper-light hover:text-copper">Commercial</Link>
+              <Link href="/contact" className="underline text-copper-light hover:text-copper">Contact Us</Link>
+            </div>
           </AnimateIn>
           <AnimateIn delay={0.8}>
             <div className="mt-8 flex items-center gap-3 font-body text-parchment/70">
@@ -101,5 +106,13 @@ export function HeroSection() {
         </HeroFormReveal>
       </div>
     </section>
+
+    {/* Urgency strip */}
+    <div className="bg-forest py-3 text-center">
+      <p className="mx-auto max-w-3xl px-6 font-body text-sm leading-relaxed text-parchment/80">
+        {URGENCY.leakDamage}
+      </p>
+    </div>
+    </>
   );
 }

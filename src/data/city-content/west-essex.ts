@@ -9,7 +9,7 @@ export const westEssexContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'west-orange',
-    heroHeadline: 'Trusted Roofing Contractor in West Orange, NJ',
+    heroHeadline: 'Roofing Services in West Orange, NJ',
     heroSubheadline:
       'From valley-floor capes to Llewellyn Park estates, West Orange roofing demands expertise across every elevation and architectural style. Newark Quality Roofing delivers precision craftsmanship that protects homes from Eagle Rock to Pleasant Valley.',
     stats: {
@@ -168,7 +168,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
     whyChoose: {
-      heading: 'Why West Orange Homeowners Choose Newark Quality Roofing',
+      heading: 'Why West Orange Residents Choose Newark Quality Roofing',
       reasons: [
         {
           title: 'Elevation-Informed Expertise',
@@ -197,7 +197,7 @@ export const westEssexContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'West Orange Roofer | Roof Repair & Replacement NJ',
+    metaTitle: 'Roofing Services in West Orange, NJ | Newark Quality Roofing',
     metaDescription:
       'Expert roofing in West Orange NJ. From Llewellyn Park estates to valley-floor homes, we deliver elevation-informed craftsmanship. Free estimates. Call today.',
     pricing: {
@@ -219,7 +219,7 @@ export const westEssexContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'montclair',
-    heroHeadline: 'Expert Roofing Services in Montclair, NJ',
+    heroHeadline: 'Roofing Services in Montclair, NJ',
     heroSubheadline:
       'Montclair\'s extraordinary architectural diversity demands roofing contractors who understand Victorian, Tudor, Arts & Crafts, and mid-century design. Newark Quality Roofing matches precision craftsmanship to every style across Essex County\'s most architecturally significant township.',
     stats: {
@@ -361,7 +361,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
     whyChoose: {
-      heading: 'Why Montclair Homeowners Trust Newark Quality Roofing',
+      heading: 'Why Montclair Residents Trust Newark Quality Roofing',
       reasons: [
         {
           title: 'Architectural Period Expertise',
@@ -390,7 +390,7 @@ export const westEssexContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Montclair Roofer | Historic & Modern Roof Services NJ',
+    metaTitle: 'Roofing Services in Montclair, NJ | Newark Quality Roofing',
     metaDescription:
       'Montclair roofing specialists. Victorian, Tudor, Arts & Crafts expertise. Slate restoration, cedar shake, and modern systems. Free estimates. Call now.',
     pricing: {
@@ -412,7 +412,7 @@ export const westEssexContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'glen-ridge',
-    heroHeadline: 'Premier Roofing Contractor in Glen Ridge, NJ',
+    heroHeadline: 'Roofing Services in Glen Ridge, NJ',
     heroSubheadline:
       'Glen Ridge\'s gaslit streets and nationally recognized historic district demand roofing that honors a century of architectural heritage. Newark Quality Roofing delivers period-appropriate craftsmanship approved by the borough\'s Historic Preservation Commission.',
     stats: {
@@ -573,7 +573,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
     whyChoose: {
-      heading: 'Why Glen Ridge Homeowners Choose Newark Quality Roofing',
+      heading: 'Why Glen Ridge Residents Choose Newark Quality Roofing',
       reasons: [
         {
           title: 'Historic Preservation Mastery',
@@ -607,7 +607,7 @@ export const westEssexContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Glen Ridge Roofer | Historic Slate & Cedar Roofing NJ',
+    metaTitle: 'Roofing Services in Glen Ridge, NJ | Newark Quality Roofing',
     metaDescription:
       'Glen Ridge historic roofing specialists. Slate restoration, cedar shake, copper work. Historic Preservation Commission expertise. Free estimates.',
     pricing: {
@@ -629,7 +629,7 @@ export const westEssexContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'verona',
-    heroHeadline: 'Reliable Roofing Contractor in Verona, NJ',
+    heroHeadline: 'Roofing Services in Verona, NJ',
     heroSubheadline:
       'From Olmsted-designed Verona Park to hilltop homes with skyline views, Verona families trust Newark Quality Roofing for roof replacements and repairs that protect their homes through every Essex County season.',
     stats: {
@@ -818,7 +818,7 @@ export const westEssexContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Verona NJ Roofer | Roof Repair & Replacement Services',
+    metaTitle: 'Roofing Services in Verona, NJ | Newark Quality Roofing',
     metaDescription:
       'Trusted Verona NJ roofing contractor. Split-level specialists, storm damage repair, complete replacements. Family-focused service. Free estimates.',
     pricing: {
@@ -840,7 +840,7 @@ export const westEssexContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'cedar-grove',
-    heroHeadline: 'Dependable Roofing Services in Cedar Grove, NJ',
+    heroHeadline: 'Roofing Services in Cedar Grove, NJ',
     heroSubheadline:
       'Cedar Grove\'s quiet suburban neighborhoods deserve roofing contractors who treat every home like their own. Newark Quality Roofing delivers honest assessments, quality materials, and reliable craftsmanship to protect your Cedar Grove home year-round.',
     stats: {
@@ -977,7 +977,7 @@ export const westEssexContent: CityContent[] = [
       },
     ],
     whyChoose: {
-      heading: 'Why Cedar Grove Homeowners Trust Newark Quality Roofing',
+      heading: 'Why Cedar Grove Residents Trust Newark Quality Roofing',
       reasons: [
         {
           title: 'Ranch Roof Expertise',
@@ -1011,7 +1011,7 @@ export const westEssexContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Cedar Grove NJ Roofer | Roof Repair & Replacement',
+    metaTitle: 'Roofing Services in Cedar Grove, NJ | Newark Quality Roofing',
     metaDescription:
       'Cedar Grove NJ roofing contractor. Ranch roof specialists, storm repairs, full replacements. Honest service, quality materials. Free inspections.',
     pricing: {

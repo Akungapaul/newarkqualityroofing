@@ -8,7 +8,7 @@ export const firstSuburbsContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'bloomfield',
-    heroHeadline: 'Trusted Roofing Experts Serving Bloomfield, NJ',
+    heroHeadline: 'Roofing Services in Bloomfield, NJ',
     heroSubheadline:
       'From the tree-lined streets around Brookdale Park to the bustling Broad Street corridor, Newark Quality Roofing delivers dependable roof installations, repairs, and storm-damage restoration for Bloomfield homeowners and businesses.',
     stats: {
@@ -227,7 +227,7 @@ export const firstSuburbsContent: CityContent[] = [
 
     // ── Why Choose ──────────────────────────────────────────────────────────
     whyChoose: {
-      heading: 'Why Bloomfield Homeowners Trust Newark Quality Roofing',
+      heading: 'Why Bloomfield Residents Trust Newark Quality Roofing',
       reasons: [
         {
           title: 'Deep Knowledge of Bloomfield\'s Housing Stock',
@@ -262,7 +262,7 @@ export const firstSuburbsContent: CityContent[] = [
       ],
     },
 
-    metaTitle: 'Bloomfield NJ Roofing | Roof Repair & Replacement',
+    metaTitle: 'Roofing Services in Bloomfield, NJ | Newark Quality Roofing',
     metaDescription:
       'Expert roofing in Bloomfield, NJ. Roof replacement, repair, and storm damage restoration for Colonials, Capes, and commercial properties. Free estimates.',
     pricing: {
@@ -284,7 +284,7 @@ export const firstSuburbsContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'belleville',
-    heroHeadline: 'Belleville\'s Reliable Roofing Contractor Since 2005',
+    heroHeadline: 'Roofing Services in Belleville, NJ',
     heroSubheadline:
       'Protecting Belleville homes from Branch Brook Park to Silver Lake with expert roof replacements, gutter system installations, and emergency storm repairs built to withstand New Jersey\'s toughest weather.',
     stats: {
@@ -541,7 +541,7 @@ export const firstSuburbsContent: CityContent[] = [
       ],
     },
 
-    metaTitle: 'Belleville NJ Roofing | Roof Repair & Replacement',
+    metaTitle: 'Roofing Services in Belleville, NJ | Newark Quality Roofing',
     metaDescription:
       'Trusted roofing contractor in Belleville, NJ. Expert roof replacements, gutter installations, and storm repairs for tightly-spaced homes. Free estimates.',
     pricing: {
@@ -563,7 +563,7 @@ export const firstSuburbsContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'nutley',
-    heroHeadline: 'Premium Roofing Services for Nutley, NJ Homes',
+    heroHeadline: 'Roofing Services in Nutley, NJ',
     heroSubheadline:
       'From the stately Tudors along Chestnut Street to the family-friendly neighborhoods around The Oval, Newark Quality Roofing provides expert roof installations, historic restorations, and proactive maintenance that preserves Nutley\'s curb appeal.',
     stats: {
@@ -764,7 +764,7 @@ export const firstSuburbsContent: CityContent[] = [
 
     // ── Why Choose ──────────────────────────────────────────────────────────
     whyChoose: {
-      heading: 'Why Nutley Homeowners Choose Newark Quality Roofing',
+      heading: 'Why Nutley Residents Choose Newark Quality Roofing',
       reasons: [
         {
           title: 'Tudor Roof Specialists',
@@ -794,7 +794,7 @@ export const firstSuburbsContent: CityContent[] = [
       ],
     },
 
-    metaTitle: 'Nutley NJ Roofing | Tudor Roof Specialists',
+    metaTitle: 'Roofing Services in Nutley, NJ | Newark Quality Roofing',
     metaDescription:
       'Premium roofing in Nutley, NJ. Tudor roof specialists, architectural shingles, and proactive maintenance for distinctive homes. Free estimates.',
     pricing: {
@@ -816,7 +816,7 @@ export const firstSuburbsContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'maplewood',
-    heroHeadline: 'Maplewood\'s Trusted Roofing Partner for Every Home Style',
+    heroHeadline: 'Roofing Services in Maplewood, NJ',
     heroSubheadline:
       'From the grand Victorians of Maplewood Village to the Colonials climbing toward South Mountain Reservation, Newark Quality Roofing delivers expert installations, storm restoration, and maintenance for Maplewood\'s architecturally diverse housing stock.',
     stats: {
@@ -1017,7 +1017,7 @@ export const firstSuburbsContent: CityContent[] = [
 
     // ── Why Choose ──────────────────────────────────────────────────────────
     whyChoose: {
-      heading: 'Why Maplewood Homeowners Choose Newark Quality Roofing',
+      heading: 'Why Maplewood Residents Choose Newark Quality Roofing',
       reasons: [
         {
           title: 'Multi-Style Expertise',
@@ -1047,7 +1047,7 @@ export const firstSuburbsContent: CityContent[] = [
       ],
     },
 
-    metaTitle: 'Maplewood NJ Roofing | Victorian & Historic Specialists',
+    metaTitle: 'Roofing Services in Maplewood, NJ | Newark Quality Roofing',
     metaDescription:
       'Expert roofing in Maplewood, NJ. Victorian slate restoration, Tudor specialists, and storm damage repair near South Mountain Reservation. Free estimates.',
     pricing: {
@@ -1069,7 +1069,7 @@ export const firstSuburbsContent: CityContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════
   {
     cityId: 'south-orange',
-    heroHeadline: 'South Orange\'s Premier Roofing Contractor',
+    heroHeadline: 'Roofing Services in South Orange, NJ',
     heroSubheadline:
       'Serving South Orange from the grand estates of Montrose Park to the charming bungalows along Scotland Road, Newark Quality Roofing provides expert slate, cedar shake, and architectural shingle installations worthy of this distinguished village.',
     stats: {
@@ -1270,7 +1270,7 @@ export const firstSuburbsContent: CityContent[] = [
 
     // ── Why Choose ──────────────────────────────────────────────────────────
     whyChoose: {
-      heading: 'Why South Orange Homeowners Trust Newark Quality Roofing',
+      heading: 'Why South Orange Residents Trust Newark Quality Roofing',
       reasons: [
         {
           title: 'Slate and Cedar Specialists',
@@ -1300,7 +1300,7 @@ export const firstSuburbsContent: CityContent[] = [
       ],
     },
 
-    metaTitle: 'South Orange NJ Roofing | Slate & Cedar Specialists',
+    metaTitle: 'Roofing Services in South Orange, NJ | Newark Quality Roofing',
     metaDescription:
       'Premier roofing in South Orange, NJ. Slate restoration, cedar shake installation, and copper work for Montrose Park estates and village homes. Free estimates.',
     pricing: {

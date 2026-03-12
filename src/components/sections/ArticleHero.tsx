@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Breadcrumbs, type BreadcrumbItem } from '@/components/sections/Breadcrumbs';
 import type { Article } from '@/data/articles';
 
@@ -6,6 +7,7 @@ interface ArticleHeroProps {
   moneyPageName: string;
   moneyPageSlug: string;
   wordCount?: number;
+  heroImage?: { src: string; alt: string };
 }
 
 function estimateReadingTime(wordCount: number): string {
@@ -34,6 +36,7 @@ export function ArticleHero({
   moneyPageName,
   moneyPageSlug,
   wordCount = 800,
+  heroImage,
 }: ArticleHeroProps) {
   const breadcrumbs = buildBreadcrumbs(article, moneyPageName, moneyPageSlug);
   const readingTime = estimateReadingTime(wordCount);
@@ -87,6 +90,20 @@ export function ArticleHero({
           className="mt-8 h-px bg-gradient-to-r from-copper/40 via-copper/20 to-transparent"
           aria-hidden="true"
         />
+
+        {heroImage && (
+          <div className="mt-8 overflow-hidden rounded-lg">
+            <Image
+              src={heroImage.src}
+              alt={heroImage.alt}
+              width={960}
+              height={320}
+              className="photo-treatment aspect-[3/1] w-full object-cover"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, 768px"
+            />
+          </div>
+        )}
       </div>
     </section>
   );

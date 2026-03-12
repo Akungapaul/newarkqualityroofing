@@ -17,7 +17,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Expert roof repair services for leaks, missing shingles, and structural damage across Essex County.',
-    metaTitle: 'Roof Repair Services in Newark NJ',
+    metaTitle: 'Roof Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Professional roof repair in Newark and Essex County. We fix leaks, missing shingles, and storm damage fast. Free estimates available.',
   },
   {
@@ -29,7 +29,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Complete roof replacement with premium materials and expert installation for homes and businesses.',
-    metaTitle: 'Roof Replacement Services in Newark NJ',
+    metaTitle: 'Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Full roof replacement in Newark and Essex County. Quality materials, expert installation, and financing options. Get a free quote.',
   },
   {
@@ -41,7 +41,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: '24/7 emergency roof repair for sudden leaks, storm damage, and fallen trees in Essex County.',
-    metaTitle: 'Emergency Roof Repair Newark NJ | 24/7',
+    metaTitle: 'Emergency Roof Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: '24/7 emergency roof repair in Newark NJ. Rapid response for storm damage, sudden leaks, and fallen trees. Call now for immediate help.',
   },
   {
@@ -53,7 +53,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Thorough roof inspections to assess condition, identify damage, and plan repairs or replacements.',
-    metaTitle: 'Roof Inspection Services Newark NJ',
+    metaTitle: 'Roof Inspection in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Detailed roof inspections in Newark and Essex County. Identify hidden damage, plan repairs, and get certified inspection reports.',
   },
   {
@@ -65,7 +65,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Scheduled roof maintenance plans to extend roof life and prevent costly emergency repairs.',
-    metaTitle: 'Roof Maintenance Programs Newark NJ',
+    metaTitle: 'Roof Maintenance Programs in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Preventive roof maintenance programs in Newark NJ. Regular inspections, cleaning, and minor repairs to extend your roof lifespan.',
   },
   {
@@ -77,7 +77,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Fast, reliable roof leak detection and repair to stop water damage before it spreads.',
-    metaTitle: 'Roof Leak Repair Services Newark NJ',
+    metaTitle: 'Roof Leak Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Expert roof leak repair in Newark and Essex County. We find and fix leaks fast to prevent water damage. Same-day service available.',
   },
   {
@@ -89,7 +89,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Comprehensive storm damage assessment and repair for roofs hit by wind, rain, and debris.',
-    metaTitle: 'Storm Damage Roof Repair Newark NJ',
+    metaTitle: 'Storm Damage Roof Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Storm damage roof repair in Newark NJ. Insurance claim assistance, emergency tarping, and full restoration after severe weather.',
   },
   {
@@ -101,7 +101,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Specialized hail damage repair including shingle replacement and insurance documentation.',
-    metaTitle: 'Hail Damage Roof Repair Newark NJ',
+    metaTitle: 'Hail Damage Roof Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Hail damage roof repair in Newark NJ. Expert assessment, insurance claim support, and full shingle replacement after hail storms.',
   },
   {
@@ -113,7 +113,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Repair lifted, torn, or missing shingles and structural wind damage on residential and commercial roofs.',
-    metaTitle: 'Wind Damage Roof Repair Newark NJ',
+    metaTitle: 'Wind Damage Roof Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Wind damage roof repair in Newark and Essex County. Fix lifted shingles, torn membranes, and structural damage from high winds.',
   },
   {
@@ -125,7 +125,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Safe roof cleaning and moss, algae, and lichen removal to restore appearance and prevent damage.',
-    metaTitle: 'Roof Cleaning & Moss Removal Newark NJ',
+    metaTitle: 'Roof Cleaning and Moss Removal in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Professional roof cleaning and moss removal in Newark NJ. Safe, effective treatment for algae, moss, and lichen buildup.',
   },
 
@@ -141,7 +141,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Complete residential roof installation for new construction and full replacements across Essex County homes.',
-    metaTitle: 'Residential Roof Installation Newark NJ',
+    metaTitle: 'Residential Roof Installation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Residential roof installation in Newark and Essex County NJ. New construction and replacement roofing for homes. Licensed, insured, free estimates.',
   },
   {
@@ -153,7 +153,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Affordable, durable asphalt shingle installation with top brands like GAF, Owens Corning, and CertainTeed.',
-    metaTitle: 'Asphalt Shingle Roofing Newark NJ',
+    metaTitle: 'Asphalt Shingle Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Asphalt shingle roofing in Newark NJ. GAF, Owens Corning, and CertainTeed certified installer. Free estimates for new roofs.',
   },
   {
@@ -165,7 +165,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Premium slate roofing installation and expert repair for lasting beauty and century-long durability.',
-    metaTitle: 'Slate Roof Installation & Repair Newark NJ',
+    metaTitle: 'Slate Roof Installation and Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Slate roof installation and repair in Newark NJ. Authentic natural slate for historic and luxury homes. Expert craftsmanship.',
   },
   {
@@ -177,7 +177,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Classic wood shake roofing installation and maintenance for natural, rustic curb appeal.',
-    metaTitle: 'Wood Shake Roofing Newark NJ',
+    metaTitle: 'Wood Shake Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Wood shake roofing installation in Newark NJ. Natural beauty and rustic charm with proper treatment for NJ weather protection.',
   },
   {
@@ -189,7 +189,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Standing seam and metal panel roofing for energy efficiency and 50+ year lifespan.',
-    metaTitle: 'Metal Roof Installation & Repair Newark NJ',
+    metaTitle: 'Metal Roof Installation and Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Metal roof installation and repair in Newark NJ. Standing seam, corrugated, and metal panel options. Energy efficient and long-lasting.',
   },
   {
@@ -201,7 +201,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Flat roof solutions including membrane, built-up, and modified bitumen systems for low-slope applications.',
-    metaTitle: 'Flat Roof Installation & Repair Newark NJ',
+    metaTitle: 'Flat Roof Installation and Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Flat roof installation and repair in Newark NJ. EPDM, TPO, and modified bitumen options for residential and commercial flat roofs.',
   },
   {
@@ -213,7 +213,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Clay and concrete tile roofing for Mediterranean, Spanish, and classic architectural styles.',
-    metaTitle: 'Tile Roof Installation & Repair Newark NJ',
+    metaTitle: 'Tile Roof Installation and Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Tile roof installation and repair in Newark NJ. Clay and concrete tiles for beautiful, durable roofing that lasts 75+ years.',
   },
   {
@@ -225,7 +225,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Premium cedar shake installation with natural insulation and distinctive hand-split appearance.',
-    metaTitle: 'Cedar Shake Roofing Newark NJ',
+    metaTitle: 'Cedar Shake Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Cedar shake roofing in Newark NJ. Premium hand-split cedar shakes with natural insulation and classic New England appearance.',
   },
   {
@@ -237,7 +237,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'EPDM rubber roofing for flat and low-slope roofs with superior weather resistance and easy maintenance.',
-    metaTitle: 'Rubber Roofing EPDM Newark NJ',
+    metaTitle: 'Rubber Roofing EPDM in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'EPDM rubber roofing in Newark NJ. Durable, waterproof membrane for flat roofs. Cost-effective with 30+ year lifespan.',
   },
 
@@ -253,7 +253,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Energy-efficient TPO single-ply membrane roofing for commercial and industrial flat roofs.',
-    metaTitle: 'TPO Roofing Installation Newark NJ',
+    metaTitle: 'TPO Roofing Installation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'TPO roofing installation in Newark NJ. Energy-efficient single-ply membrane for commercial flat roofs. Reflective and durable.',
   },
   {
@@ -265,7 +265,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Commercial-grade EPDM roofing systems for large buildings, warehouses, and industrial facilities.',
-    metaTitle: 'EPDM Commercial Roofing Newark NJ',
+    metaTitle: 'EPDM Commercial Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'EPDM commercial roofing in Newark NJ. Proven rubber membrane systems for warehouses, offices, and industrial buildings.',
   },
   {
@@ -277,7 +277,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Multi-layer modified bitumen roofing for superior waterproofing on commercial flat roofs.',
-    metaTitle: 'Modified Bitumen Roofing Newark NJ',
+    metaTitle: 'Modified Bitumen Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Modified bitumen roofing in Newark NJ. Multi-layer waterproofing system for commercial flat roofs. Torch-applied and self-adhered.',
   },
   {
@@ -289,7 +289,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Traditional built-up roofing (BUR) with alternating layers of bitumen and reinforcing fabrics.',
-    metaTitle: 'Built-Up Roofing (BUR) Newark NJ',
+    metaTitle: 'Built-Up Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Built-up roofing systems in Newark NJ. Time-tested BUR with multiple layers for superior waterproofing on commercial buildings.',
   },
   {
@@ -301,7 +301,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Heavy-duty commercial metal roofing for warehouses, retail centers, and office buildings.',
-    metaTitle: 'Commercial Metal Roofing Newark NJ',
+    metaTitle: 'Commercial Metal Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Commercial metal roofing in Newark NJ. Standing seam and R-panel systems for warehouses, retail, and office buildings.',
   },
   {
@@ -313,7 +313,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Chemical-resistant PVC single-ply roofing ideal for restaurants, labs, and industrial facilities.',
-    metaTitle: 'PVC Roofing Installation Newark NJ',
+    metaTitle: 'PVC Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'PVC roofing in Newark NJ. Chemical-resistant single-ply membrane ideal for restaurants, labs, and industrial facilities.',
   },
   {
@@ -325,7 +325,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Sustainable green roof systems with vegetation layers for energy savings and stormwater management.',
-    metaTitle: 'Green Roof Installation Newark NJ',
+    metaTitle: 'Green Roof Installation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Green roof installation in Newark NJ. Sustainable vegetated roofing for energy savings, stormwater management, and urban greenery.',
   },
   {
@@ -337,7 +337,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Seamless spray polyurethane foam roofing with built-in insulation for commercial buildings.',
-    metaTitle: 'Spray Foam Roofing Newark NJ',
+    metaTitle: 'Spray Foam Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Spray foam roofing in Newark NJ. Seamless SPF systems with built-in insulation for energy-efficient commercial buildings.',
   },
 
@@ -353,7 +353,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Professional flashing installation and repair at roof valleys, walls, and penetrations to prevent leaks.',
-    metaTitle: 'Roof Flashing Installation & Repair NJ',
+    metaTitle: 'Roof Flashing Installation Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Roof flashing installation and repair in Newark NJ. Prevent leaks at valleys, walls, chimneys, and roof penetrations.',
   },
   {
@@ -365,7 +365,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Expert chimney flashing repair and replacement to stop water infiltration around chimney bases.',
-    metaTitle: 'Chimney Flashing Repair Newark NJ',
+    metaTitle: 'Chimney Flashing Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Chimney flashing repair in Newark NJ. Stop leaks around your chimney with expert step and counter flashing installation.',
   },
   {
@@ -377,7 +377,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Seamless gutter installation, repair, and replacement to protect foundations and landscaping.',
-    metaTitle: 'Gutter Installation & Repair Newark NJ',
+    metaTitle: 'Gutter Installation Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Gutter installation and repair in Newark NJ. Seamless aluminum gutters, copper gutters, and downspout systems for proper drainage.',
   },
   {
@@ -389,7 +389,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Gutter guard and leaf protection systems to eliminate clogs and reduce gutter maintenance.',
-    metaTitle: 'Gutter Guard Installation Newark NJ',
+    metaTitle: 'Gutter Guard Installation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Gutter guard installation in Newark NJ. Prevent clogs with micro-mesh and screen gutter protection systems.',
   },
   {
@@ -401,7 +401,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Skylight installation, replacement, and leak repair for natural light and ventilation.',
-    metaTitle: 'Skylight Installation & Repair Newark NJ',
+    metaTitle: 'Skylight Installation Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Skylight installation and repair in Newark NJ. VELUX certified installer. Fixed, vented, and tubular skylight options.',
   },
   {
@@ -413,7 +413,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Fascia board installation and repair to protect roof edges and support gutter systems.',
-    metaTitle: 'Fascia Installation & Repair Newark NJ',
+    metaTitle: 'Fascia Installation Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Fascia installation and repair in Newark NJ. Wood, aluminum, and composite fascia boards to protect your roof edge.',
   },
   {
@@ -425,7 +425,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Soffit installation and repair for proper attic ventilation and a polished roofline appearance.',
-    metaTitle: 'Soffit Installation & Repair Newark NJ',
+    metaTitle: 'Soffit Installation Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Soffit installation and repair in Newark NJ. Vented and solid soffits for proper attic airflow and clean roofline aesthetics.',
   },
   {
@@ -437,7 +437,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Ridge vents, box vents, and attic ventilation systems for temperature and moisture control.',
-    metaTitle: 'Roof Vent Installation & Repair NJ',
+    metaTitle: 'Roof Vent Installation Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Roof vent installation and repair in Newark NJ. Ridge vents, box vents, and turbine vents for proper attic ventilation.',
   },
   {
@@ -449,7 +449,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Advanced roof waterproofing membranes and coatings to prevent water infiltration and extend roof life.',
-    metaTitle: 'Roof Waterproofing Services Newark NJ',
+    metaTitle: 'Roof Waterproofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Roof waterproofing in Newark NJ. Liquid membranes, coatings, and sealants to stop leaks and protect your roof from moisture.',
   },
   {
@@ -461,7 +461,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Structural roof deck repair and plywood replacement for a solid roofing foundation.',
-    metaTitle: 'Roof Deck Repair & Replacement Newark NJ',
+    metaTitle: 'Roof Deck Repair and Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Roof deck repair and replacement in Newark NJ. Fix rotted plywood, OSB, and structural decking for a solid roof foundation.',
   },
 
@@ -477,7 +477,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Integrated solar panel and roofing installation for clean energy and reduced utility bills.',
-    metaTitle: 'Solar Panel Roofing Installation NJ',
+    metaTitle: 'Solar Panel Roofing Installation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Solar panel roofing installation in Newark NJ. Combined roof and solar installation for maximum energy savings and NJ incentives.',
   },
   {
@@ -489,7 +489,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Solar shingle systems that blend seamlessly with your roof for clean energy without visible panels.',
-    metaTitle: 'Solar Shingle Installation Newark NJ',
+    metaTitle: 'Solar Shingle Installation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Solar shingle installation in Newark NJ. Seamless solar roofing that generates power while looking like traditional shingles.',
   },
   {
@@ -501,7 +501,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Cool roofing, reflective coatings, and insulated systems to reduce energy costs year-round.',
-    metaTitle: 'Energy Efficient Roofing Newark NJ',
+    metaTitle: 'Energy Efficient Roofing Solutions in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Energy efficient roofing in Newark NJ. Cool roofs, reflective coatings, and insulated systems to lower heating and cooling costs.',
   },
   {
@@ -513,7 +513,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Reflective silicone roof coatings to restore aging roofs and improve energy efficiency without replacement.',
-    metaTitle: 'Silicone Roof Coating Newark NJ',
+    metaTitle: 'Silicone Roof Coating in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Silicone roof coating in Newark NJ. Restore and protect commercial roofs with reflective UV-resistant silicone coatings.',
   },
   {
@@ -525,7 +525,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Elastomeric silicone coatings that stretch and seal to protect flat and low-slope commercial roofs from leaks and UV damage.',
-    metaTitle: 'Elastomeric Roof Coating Newark NJ',
+    metaTitle: 'Silicone Elastomeric Roof Coating in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Silicone elastomeric roof coating in Newark NJ. Flexible, waterproof coating for commercial flat roofs. Extends roof life 15+ years.',
   },
 
@@ -541,7 +541,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Full-service commercial roof installation for new construction, expansions, and build-outs.',
-    metaTitle: 'Commercial Roof Installation Newark NJ',
+    metaTitle: 'Commercial Roof Installation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Commercial roof installation in Newark NJ. New construction and build-out roofing for offices, retail, and industrial buildings.',
   },
   {
@@ -553,7 +553,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Expert commercial roof repair to minimize downtime and protect business operations.',
-    metaTitle: 'Commercial Roof Repair Newark NJ',
+    metaTitle: 'Commercial Roof Repair in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Commercial roof repair in Newark NJ. Fast, reliable repairs for flat roofs, membrane systems, and metal roofing on commercial buildings.',
   },
   {
@@ -565,7 +565,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Complete commercial roof replacement with minimal disruption to your business operations.',
-    metaTitle: 'Commercial Roof Replacement Newark NJ',
+    metaTitle: 'Commercial Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Commercial roof replacement in Newark NJ. Full tear-off and re-roof for offices, warehouses, and retail with minimal downtime.',
   },
   {
@@ -577,7 +577,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Infrared thermal imaging to detect hidden moisture, insulation gaps, and leak sources without destructive testing.',
-    metaTitle: 'Roof Thermal Imaging Inspections NJ',
+    metaTitle: 'Roof Thermal Imaging Inspections in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Roof thermal imaging inspections in Newark NJ. Non-destructive infrared scans to find hidden moisture and insulation defects.',
   },
   {
@@ -589,7 +589,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Pinpoint leak locations with infrared technology to target repairs and avoid unnecessary roof replacement.',
-    metaTitle: 'Infrared Roof Leak Detection Newark NJ',
+    metaTitle: 'Infrared Roof Leak Detection in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Infrared roof leak detection in Newark NJ. Precisely locate hidden leaks with thermal imaging to target repairs efficiently.',
   },
 
@@ -605,7 +605,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Expert roof design consultation for new builds, renovations, and complex architectural projects.',
-    metaTitle: 'Custom Roof Design & Consultation NJ',
+    metaTitle: 'Custom Roof Design and Consultation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Custom roof design and consultation in Newark NJ. Expert guidance for material selection, style, and budget on any roofing project.',
   },
   {
@@ -617,7 +617,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Historically accurate roof restoration preserving architectural integrity for landmark and heritage buildings.',
-    metaTitle: 'Historic Roof Restoration Newark NJ',
+    metaTitle: 'Historic Roof Restoration in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Historic roof restoration in Newark NJ. Preserve architectural integrity with period-accurate materials and expert craftsmanship.',
   },
   {
@@ -629,7 +629,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Ice dam prevention systems including heat cables, ventilation upgrades, and insulation improvements.',
-    metaTitle: 'Roof Ice Dam Prevention Newark NJ',
+    metaTitle: 'Roof Ice Dam Prevention in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Ice dam prevention in Newark NJ. Heat cables, improved ventilation, and insulation upgrades to stop ice dams and winter leaks.',
   },
 
@@ -645,7 +645,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Complete tear-off of existing roofing down to the deck for a fresh, clean installation.',
-    metaTitle: 'Full Roof Tear Off Services Newark NJ',
+    metaTitle: 'Full Roof Tear Off in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Full roof tear off in Newark NJ. Complete removal of old roofing materials down to the deck for a clean new installation.',
   },
   {
@@ -657,7 +657,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Cost-effective roof overlay installing new shingles directly over the existing roof layer.',
-    metaTitle: 'Roof Overlay Installation Newark NJ',
+    metaTitle: 'Roof Overlay Installation in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Roof overlay installation in Newark NJ. Save time and money by installing new shingles over your existing roof.',
   },
   {
@@ -669,7 +669,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Professional re-roofing services to restore protection and curb appeal with modern materials.',
-    metaTitle: 'Re-Roofing Services Newark NJ',
+    metaTitle: 'Re-Roofing in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Re-roofing services in Newark NJ. Upgrade your aging roof with modern materials, improved insulation, and better weather protection.',
   },
   {
@@ -681,7 +681,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Insurance claim assistance and roof replacement coordination for covered storm and weather damage.',
-    metaTitle: 'Insurance Roof Replacement Newark NJ',
+    metaTitle: 'Insurance Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Insurance roof replacement in Newark NJ. We handle the claims process and coordinate with your insurer for covered replacements.',
   },
   {
@@ -693,7 +693,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Full roof replacement after severe storm damage with insurance claim support.',
-    metaTitle: 'Storm Damage Roof Replacement Newark NJ',
+    metaTitle: 'Storm Damage Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Storm damage roof replacement in Newark NJ. Full replacement after severe weather with insurance claim coordination.',
   },
   {
@@ -705,7 +705,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Replace your aging roof before leaks start with modern, energy-efficient materials and warranties.',
-    metaTitle: 'Aging Roof Replacement Newark NJ',
+    metaTitle: 'Aging Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Aging roof replacement in Newark NJ. Replace your worn-out roof before costly damage with modern materials and warranties.',
   },
   {
@@ -717,7 +717,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'When repair is not enough, full roof replacement to permanently solve chronic leak problems.',
-    metaTitle: 'Roof Replacement After Leak Newark NJ',
+    metaTitle: 'Roof Replacement After Leak in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Roof replacement after leak damage in Newark NJ. Permanent solution for chronic leaks when repairs are no longer sufficient.',
   },
   {
@@ -729,7 +729,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Complete roof replacement and structural restoration after fire damage with insurance coordination.',
-    metaTitle: 'Fire Damage Roof Replacement Newark NJ',
+    metaTitle: 'Fire Damage Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Fire damage roof replacement in Newark NJ. Full structural restoration and insurance coordination after fire damage.',
   },
   {
@@ -741,7 +741,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Transparent roof replacement pricing with detailed cost breakdowns for Essex County homeowners.',
-    metaTitle: 'Roof Replacement Cost Newark NJ | Pricing',
+    metaTitle: 'Roof Replacement Cost in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Roof replacement cost in Newark NJ. Transparent pricing, financing options, and free detailed estimates for Essex County homes.',
   },
   {
@@ -753,7 +753,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Complete asphalt shingle roof replacement with GAF, Owens Corning, or CertainTeed products.',
-    metaTitle: 'Asphalt Shingle Roof Replacement NJ',
+    metaTitle: 'Asphalt Shingle Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Asphalt shingle roof replacement in Newark NJ. Premium shingles from GAF, Owens Corning, and CertainTeed with full warranty.',
   },
   {
@@ -765,7 +765,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Upgrade to a new metal roof for superior durability, energy efficiency, and 50+ year lifespan.',
-    metaTitle: 'Metal Roof Replacement Newark NJ',
+    metaTitle: 'Metal Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Metal roof replacement in Newark NJ. Upgrade to standing seam or metal panel roofing for 50+ years of protection.',
   },
   {
@@ -777,7 +777,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Premium slate roof replacement preserving the elegance and longevity of natural stone roofing.',
-    metaTitle: 'Slate Roof Replacement Newark NJ',
+    metaTitle: 'Slate Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Slate roof replacement in Newark NJ. Authentic natural slate installation for historic and luxury homes with 100+ year lifespan.',
   },
   {
@@ -789,7 +789,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Clay and concrete tile roof replacement for lasting beauty and Mediterranean-style curb appeal.',
-    metaTitle: 'Tile Roof Replacement Newark NJ',
+    metaTitle: 'Tile Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Tile roof replacement in Newark NJ. Beautiful clay and concrete tile options for Mediterranean and classic architectural styles.',
   },
   {
@@ -801,7 +801,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Complete flat roof replacement with modern membrane systems for leak-free, long-lasting protection.',
-    metaTitle: 'Flat Roof Replacement Newark NJ',
+    metaTitle: 'Flat Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Flat roof replacement in Newark NJ. Modern TPO, EPDM, and modified bitumen systems for residential and commercial flat roofs.',
   },
   {
@@ -813,7 +813,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Replace aging cedar shakes with fresh, premium hand-split cedar for renewed natural beauty.',
-    metaTitle: 'Cedar Shake Roof Replacement Newark NJ',
+    metaTitle: 'Cedar Shake Roof Replacement in Newark, NJ | Newark Quality Roofing',
     metaDescription: 'Cedar shake roof replacement in Newark NJ. Premium hand-split cedar shakes for natural beauty and classic New England style.',
   },
 ];

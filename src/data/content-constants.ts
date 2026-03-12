@@ -185,26 +185,26 @@ export const URGENCY = {
 export const WHY_CHOOSE_US_REASONS = [
   {
     title: 'Licensed & Certified Professionals',
-    description: 'NJ HIC licensed, GAF Certified roofing Contractor — every roofing job meets the highest industry standards and manufacturer specifications.',
+    description: "You shouldn't have to wonder if your roofer is legit. We're NJ HIC licensed and GAF Certified — your job meets the highest industry standards.",
   },
   {
     title: '15+ Years of Essex County Experience',
-    description: "We know every neighborhood, building style, and weather pattern in Essex County. Your roofing project isn't just another job — it's local roof work we stake our reputation on.",
+    description: "Your Newark colonial has different needs than a Belleville cape cod. After 15 years in Essex County, we know every neighborhood, building code, and weather pattern.",
   },
   {
     title: 'Transparent, Honest Pricing',
-    description: "Detailed written estimates before work begins. No hidden fees, no surprise charges. We explain every line item so you know exactly what you're paying for.",
+    description: "Scared of hidden fees? We give you a detailed written estimate before touching your roof. Every line item explained — no surprises, no pressure.",
   },
   {
     title: 'Premium Materials, Manufacturer Warranties',
-    description: 'We install GAF, CertainTeed, Owens Corning, and Firestone products backed by manufacturer warranties up to 50 years.',
+    description: 'Your roof is only as good as what\u2019s on it. We install GAF, CertainTeed, and Owens Corning products with manufacturer warranties up to 50 years.',
   },
   {
     title: 'Same-Day Estimates & 24/7 Emergency Response',
-    description: "When your roof needs attention, waiting isn't an option. We provide same-day roofing estimates and emergency repair crews ready around the clock.",
+    description: "A leaking roof can't wait until Monday. We provide same-day estimates and have emergency crews ready 24/7 — call us and we're there.",
   },
   {
     title: 'Family-Owned, Community-Committed',
-    description: 'We live and work in Newark and Essex County. Our roofing reputation is everything — we treat every home and business roof like it belongs to a neighbor, because it does.',
+    description: "We're not a franchise that disappears after the job. We live here, our kids go to school here, and our reputation depends on every roof we touch.",
   },
 ] as const;

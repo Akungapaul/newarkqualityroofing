@@ -41,7 +41,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'TPO Roofing for Business Owners',
+      heading: 'Commercial TPO Roofing',
       content: [
         'TPO has become the membrane of choice for commercial building owners who prioritize energy efficiency and long-term value. The material\'s reflective properties directly reduce cooling costs that represent a substantial operating expense for commercial buildings with large roof footprints. Warehouses, retail centers, office buildings, and industrial facilities across Essex County are replacing aging dark-membrane roofs with TPO to capture energy savings that often offset the installation cost within five to eight years through reduced utility bills alone.',
         'For commercial property owners evaluating roofing options, TPO provides an attractive balance of performance and cost. The installed cost of TPO is typically comparable to EPDM and lower than PVC, while the energy savings and heat-welded seam technology provide performance advantages that justify the investment. Manufacturer warranties of 15 to 30 years are available depending on membrane thickness and system configuration, with our certified installation qualifying your project for the maximum warranty tier each manufacturer offers.',
@@ -181,7 +181,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'EPDM Roofing for Business Owners',
+      heading: 'Commercial EPDM Roofing',
       content: [
         'Commercial EPDM roofing delivers the combination of proven performance, competitive cost, and strong warranty coverage that commercial property owners and managers require. The material\'s half-century of documented field performance eliminates the uncertainty that newer materials inevitably carry, providing a risk-managed roofing investment backed by the longest performance record in the single-ply membrane category. For building owners who value proven reliability over the newest technology, EPDM is the clear choice.',
         'The total cost of ownership for commercial EPDM is among the lowest in the flat roofing category when initial cost, maintenance requirements, and expected service life are all considered. Initial installed cost is competitive with TPO and lower than PVC. Maintenance requirements are modest, consisting primarily of annual inspection, drain clearing, and periodic seam inspection. And the documented 30 to 50-year service life means that a single EPDM installation can serve the building for decades before replacement becomes necessary, spreading the initial investment over an exceptionally long period.',
@@ -311,7 +311,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       'Quality control during modified bitumen installation involves monitoring application temperature, roll speed, and adhesion verification at each stage of the multi-ply assembly. For torch-applied installations, our certified technicians use infrared thermometers to verify that the asphalt compound reaches the activation temperature needed for full-surface bonding without overheating that degrades the reinforcing fabric. Self-adhered installations require ambient temperature monitoring to ensure the adhesive achieves proper tack for permanent bonding. After each ply is applied, we perform adhesion testing by lifting small sections to verify full-surface contact, and any areas showing incomplete bonding are re-applied immediately. This systematic verification at each construction stage ensures that the finished assembly meets manufacturer quality standards and qualifies for maximum warranty coverage.',
     ],
     residential: {
-      heading: 'Modified Bitumen Roofing for Homeowners',
+      heading: 'Residential Modified Bitumen Roofing',
       content: [
         'Modified bitumen serves residential applications on flat and low-slope roof sections where its puncture resistance and multi-layer waterproofing provide advantages over single-ply alternatives. For homeowners with rooftop decks, balconies, or flat roof areas that receive regular foot traffic, modified bitumen\'s inherent toughness protects against the wear and puncture damage that thinner single-ply membranes may experience. The material\'s ability to self-heal minor surface scratches through the soft asphalt matrix adds further durability for trafficked applications.',
         'Residential modified bitumen installations use the same professional-grade materials as commercial applications scaled to the smaller dimensions of residential flat roof sections. Self-adhered application is preferred for residential work because it eliminates the open flame required for torch application, providing a safer installation process on occupied homes. The finished roof provides reliable, long-lasting waterproofing with the same multi-layer redundancy that makes modified bitumen a trusted choice on commercial buildings.',
@@ -321,7 +321,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Modified Bitumen Roofing for Business Owners',
+      heading: 'Commercial Modified Bitumen Roofing',
       content: [
         'Modified bitumen is the commercial roofing material of choice when roof conditions demand exceptional durability, puncture resistance, and damage tolerance. Buildings with rooftop HVAC systems requiring regular service access, facilities where heavy equipment is staged on the roof, and properties with rooftop amenity spaces all benefit from modified bitumen\'s ability to withstand concentrated loads and traffic without compromising waterproofing integrity. The multi-layer construction provides a margin of protection that single-ply membranes, by their single-layer nature, cannot offer.',
         'For commercial property owners replacing existing built-up or modified bitumen roofs, the new installation may be compatible with the existing system as a recover application. This involves installing the new modified bitumen membrane system over the existing roof without full tear-off, saving significant cost and eliminating the disruption and waste of complete removal. Compatibility testing and core sampling of the existing system determine whether recover is appropriate, and when it is, the savings can be substantial while still providing a fully warrantied new roof system.',
@@ -461,7 +461,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Built-Up Roofing for Business Owners',
+      heading: 'Commercial Built-Up Roofing',
       content: [
         'For commercial buildings where the roof must withstand heavy foot traffic, equipment staging, and mechanical abuse, BUR remains a compelling choice. Industrial facilities, maintenance shops, and buildings with rooftop mechanical equipment that requires regular service benefit from BUR\'s inherent toughness. The gravel surfacing distributes point loads across the membrane plies, and the multiple ply construction provides damage tolerance that single-layer membranes cannot match. When a dropped tool punctures a single-ply membrane, it creates a leak. When it strikes a BUR surface, the gravel absorbs the impact and the redundant plies beneath maintain waterproofing integrity.',
         'Commercial BUR warranties are typically backed by the asphalt and reinforcing fabric manufacturers, with terms ranging from 10 to 20 years depending on the number of plies and the system configuration. Premium hybrid systems combining BUR plies with modified bitumen cap sheets can achieve warranty terms comparable to single-ply systems. Our manufacturer relationships and installation quality qualify your project for the maximum warranty tier available for BUR systems.',
@@ -600,7 +600,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Metal Roofing for Business Owners',
+      heading: 'Commercial Metal Roofing',
       content: [
         'Commercial metal roofing is the long-term value leader among commercial roofing materials. While the initial installed cost is higher than membrane alternatives, the 40 to 60-year service life means the roof may never need replacement during the building\'s useful life. Maintenance requirements are minimal: annual visual inspection, periodic fastener tightening on exposed-fastener systems, and sealant renewal at penetrations every 10 to 15 years. No membrane re-coating, no seam regluing, no gravel redistribution. The simplicity and infrequency of maintenance translates directly to lower operating costs over the building\'s life.',
         'For industrial and warehouse applications, metal roofing\'s light weight is a significant structural advantage. Where a built-up roof might weigh 6 to 8 pounds per square foot, a metal roof system weighs 1 to 2 pounds per square foot. This weight reduction can enable longer clear spans between structural supports, reducing construction costs for new buildings. For existing buildings being re-roofed, the lighter weight may allow installation over existing roofing without structural modification, saving the cost of tear-off and potential structural reinforcement.',
@@ -740,7 +740,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'PVC Roofing for Business Owners',
+      heading: 'Commercial PVC Roofing',
       content: [
         'For commercial buildings where PVC\'s specific advantages address a genuine need, no other membrane provides the same combination of chemical resistance, weld strength, and proven performance. Restaurants with rooftop grease exhaust, manufacturing facilities with chemical processes, automotive repair shops with solvent exposure, and healthcare facilities with stringent fire and performance requirements all benefit from PVC\'s unique properties. The membrane\'s premium cost is offset by its ability to perform in conditions that would compromise less resistant materials.',
         'Commercial PVC warranty programs from premium manufacturers like Sika Sarnafil provide 15 to 30-year coverage with options for both material and labor inclusion. Some manufacturers offer fully warranted, prefabricated roof systems where the membrane, flashings, and accessories are factory-welded to the specific dimensions of your building, delivered as a custom kit, and installed by certified applicators. These prefabricated systems provide the highest quality control because the majority of welding occurs in a controlled factory environment rather than on the rooftop.',
@@ -871,7 +871,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       'The growing media used in green roof systems is an engineered lightweight substrate specifically formulated for rooftop conditions, not conventional garden soil. Standard soil is too heavy, retains too much water when saturated, compacts over time reducing drainage capacity, and contains organic matter that decomposes and reduces volume. Green roof growing media consists of expanded lightweight aggregate such as expanded shale, slate, or clay mixed with carefully proportioned organic components that provide nutrient capacity and moisture retention while maintaining the porosity and lightweight characteristics essential for rooftop use. The media formulation is tailored to the plant palette specified for each project, with deeper media depths and higher organic content for intensive green roofs supporting diverse plantings, and shallower, more mineral-based media for extensive sedum installations that thrive in lean growing conditions. Our green roof specifications reference FLL guidelines -- the German landscape research standard that has become the international benchmark for green roof growing media performance -- ensuring that the media installed on your building meets documented performance standards for drainage, water retention, weight, and long-term stability.',
     ],
     residential: {
-      heading: 'Green Roofs for Homeowners',
+      heading: 'Residential Green Roofs',
       content: [
         'Residential green roofs are gaining popularity among Essex County homeowners who want to reduce their environmental footprint while creating distinctive, beautiful rooftop landscapes. Small-scale extensive green roofs on garage roofs, porch roofs, or flat extensions transform otherwise unused space into living ecosystems that attract butterflies, support pollinators, and create a visual amenity visible from upper-story windows. The cooling benefit of a green roof on a flat section directly below a living space is noticeable during summer months.',
         'Residential green roof installation requires the same rigorous waterproofing and structural assessment as commercial applications. Your home\'s flat roof section must have structural capacity to support the saturated weight of the green roof system, which typically ranges from 15 to 25 pounds per square foot for extensive installations. We coordinate structural assessment and, if needed, reinforcement before proceeding with waterproofing and green roof layer installation.',
@@ -882,7 +882,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Green Roofs for Business Owners',
+      heading: 'Commercial Green Roofs',
       content: [
         'Commercial green roofs serve strategic business purposes that extend beyond environmental benefit. Properties with green roofs command premium lease rates, attract environmentally conscious tenants, and generate goodwill that supports corporate sustainability messaging. In municipalities that offer stormwater management fee credits for green infrastructure, the annual fee reduction provides ongoing financial return on the green roof investment. LEED and other green building certifications that include green roof credits can qualify the building for additional incentives and marketing advantages.',
         'For large commercial buildings, the stormwater management benefit of green roofs is substantial and quantifiable. A green roof retains 50 to 80 percent of annual rainfall, depending on growing media depth and plant coverage, reducing the volume of stormwater that must be managed by municipal systems. In Newark and surrounding Essex County municipalities where combined sewer systems are under regulatory pressure to reduce overflow events, green roofs provide a compliance pathway that building owners can leverage for both regulatory and financial benefit.',
@@ -1021,7 +1021,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Spray Foam Roofing for Business Owners',
+      heading: 'Commercial Spray Foam Roofing',
       content: [
         'Commercial spray foam roofing offers distinct advantages for buildings where conventional membrane systems face limitations. Facilities with complex roof geometries, extensive rooftop equipment, or irregular substrate conditions benefit from foam\'s ability to conform to any surface shape and seal around penetrations without the custom fabrication that membrane flashings require. The seamless application eliminates the seams that account for the majority of flat roof leak calls, providing inherently more reliable waterproofing than any system assembled from separate sheets.',
         'The energy economics of spray foam are compelling for commercial buildings with large roof areas. The superior insulation value reduces heating and cooling loads measurably, and the reflective coating further reduces cooling costs during Essex County\'s hot summers. For buildings upgrading from uninsulated or poorly insulated existing roofs, the energy savings alone can provide a meaningful return on the spray foam investment within several years, with the savings continuing to accumulate over the system\'s multi-decade life.',

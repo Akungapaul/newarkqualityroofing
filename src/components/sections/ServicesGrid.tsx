@@ -108,7 +108,7 @@ export function ServicesGrid() {
           {/* Residential */}
           <div className="mt-14">
             <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
-              For Homeowners
+              Residential
             </h3>
             <StaggerGrid className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {residentialServices.map((service, i) => (
@@ -127,7 +127,7 @@ export function ServicesGrid() {
           {/* Commercial */}
           <div className="mt-14">
             <h3 className="mb-6 font-heading text-2xl font-semibold text-forest">
-              For Businesses
+              Commercial
             </h3>
             <StaggerGrid className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {commercialServices.map((service, i) => (
