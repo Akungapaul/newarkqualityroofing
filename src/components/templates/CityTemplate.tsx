@@ -20,6 +20,7 @@ import { CityCtaBanner } from '@/components/sections/CityCtaBanner';
 import { CityPricing } from '@/components/sections/CityPricing';
 import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
 import { TrustBar } from '@/components/sections/TrustBar';
+import { getCityOverviewImage } from '@/data/image-manifest';
 import { CompactTestimonial } from '@/components/sections/CompactTestimonial';
 import { testimonials } from '@/data/testimonials';
 import { JsonLd } from '@/components/seo/JsonLd';
@@ -120,6 +121,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
                   paragraphs={content.overview}
                   cityName={city.name}
                   weatherChallenges={content.weatherChallenges}
+                  overviewImage={getCityOverviewImage(city.id)}
                 />
               </section>
             </AnimateIn>

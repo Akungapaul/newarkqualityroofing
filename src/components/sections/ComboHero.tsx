@@ -103,7 +103,7 @@ export function ComboHero({ service, city, serviceGroups }: ComboHeroProps) {
 
             <h1
               id="combo-hero-heading"
-              className="mt-4 font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
+              className="mt-4 text-balance font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
             >
               {service.name}
               <br />

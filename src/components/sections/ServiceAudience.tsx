@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import { getSectionImage } from '@/data/image-manifest';
+
 interface ServiceAudienceProps {
   variant: 'residential' | 'commercial';
   heading: string;
@@ -12,10 +15,12 @@ export function ServiceAudience({
   ctaLabel,
 }: ServiceAudienceProps) {
   const isCommercial = variant === 'commercial';
-  const accentColor = isCommercial ? 'copper' : 'forest';
   const borderClass = isCommercial
     ? 'border-l-4 border-copper pl-6'
     : 'border-l-4 border-forest pl-6';
+  const sectionImage = getSectionImage(
+    isCommercial ? 'section-commercial' : 'section-residential'
+  );
 
   return (
     <section aria-labelledby={`service-${variant}-heading`}>
@@ -38,6 +43,19 @@ export function ServiceAudience({
             </p>
           ))}
         </div>
+        {sectionImage && (
+          <div className="mt-6 overflow-hidden rounded-sm">
+            <Image
+              src={sectionImage.path}
+              alt={sectionImage.alt}
+              width={sectionImage.width}
+              height={sectionImage.height}
+              className="h-auto w-full object-cover"
+              loading="lazy"
+            />
+          </div>
+        )}
+
         <a
           href="#lead-form"
           className={`mt-6 inline-block rounded-lg px-6 py-3 font-heading text-base font-bold transition-colors focus-visible:ring-2 focus-visible:outline-none ${

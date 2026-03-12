@@ -4,6 +4,7 @@ import type { Combo } from '@/lib/types';
 import { services } from './services';
 import { cities } from './cities';
 import { generateComboSlug } from '@/lib/slug-utils';
+import { buildComboDescription } from '@/lib/seo-utils';
 
 // ─── Generate All Service x City Combos ─────────────────────────────────────
 
@@ -23,14 +24,8 @@ function buildCombos(): Combo[] {
         metaTitle = `${service.name} in ${city.name}, NJ`;
       }
 
-      // Build meta description, ensure under 160 chars
-      let metaDescription = `Professional ${service.name.toLowerCase()} services in ${city.name}, NJ. Licensed and insured local roofers serving ${city.name} and Essex County. Free estimates.`;
-      if (metaDescription.length > 160) {
-        metaDescription = `${service.name.toLowerCase()} in ${city.name}, NJ. Licensed Essex County roofers. Free estimates for ${city.name} residents.`;
-      }
-      if (metaDescription.length > 160) {
-        metaDescription = `${service.name.toLowerCase()} in ${city.name}, NJ. Licensed roofers serving Essex County. Free estimates.`;
-      }
+      // Build enriched meta description with pricing + differentiators
+      const metaDescription = buildComboDescription(service, city);
 
       result.push({
         slug,

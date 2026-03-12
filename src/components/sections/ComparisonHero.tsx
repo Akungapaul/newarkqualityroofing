@@ -78,7 +78,7 @@ export function ComparisonHero({ comparison, serviceGroups }: ComparisonHeroProp
 
             <h1
               id="comparison-hero-heading"
-              className="mt-4 font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
+              className="mt-4 text-balance font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
             >
               {comparison.name}
             </h1>

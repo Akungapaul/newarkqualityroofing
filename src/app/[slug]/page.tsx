@@ -13,6 +13,7 @@ import { getComparisonContent } from '@/data/comparison-content';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { getOGImage } from '@/data/image-manifest';
+import { buildServiceDescription, buildCityDescription } from '@/lib/seo-utils';
 import ServiceTemplate from '@/components/templates/ServiceTemplate';
 import CityTemplate from '@/components/templates/CityTemplate';
 import ComboTemplate from '@/components/templates/ComboTemplate';
@@ -70,11 +71,12 @@ export async function generateMetadata({
       const service = services.find((s) => s.id === pageData.serviceId);
       if (!service) return {};
       const serviceOg = getOGImage('service', service.id);
+      const serviceDesc = buildServiceDescription(service);
       return {
         title: service.metaTitle,
-        description: service.metaDescription,
+        description: serviceDesc,
         alternates: { canonical: `/${service.slug}` },
-        openGraph: buildOG(service.metaTitle, service.metaDescription, service.slug, 'website', serviceOg?.path ?? undefined),
+        openGraph: buildOG(service.metaTitle, serviceDesc, service.slug, 'website', serviceOg?.path ?? undefined),
       };
     }
     case 'city': {
@@ -83,11 +85,12 @@ export async function generateMetadata({
       const cityContent = getCityContent(city.id);
       const citySlug = generateCityPageSlug(city.slug);
       const cityOg = getOGImage('city', city.id);
+      const cityDesc = buildCityDescription(cityContent, city);
       return {
         title: cityContent.metaTitle,
-        description: cityContent.metaDescription,
+        description: cityDesc,
         alternates: { canonical: `/${citySlug}` },
-        openGraph: buildOG(cityContent.metaTitle, cityContent.metaDescription, citySlug, 'website', cityOg?.path ?? undefined),
+        openGraph: buildOG(cityContent.metaTitle, cityDesc, citySlug, 'website', cityOg?.path ?? undefined),
       };
     }
     case 'combo': {

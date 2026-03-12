@@ -16,6 +16,7 @@ import { ServicePricing } from '@/components/sections/ServicePricing';
 import { ServiceWhyChooseUs } from '@/components/sections/ServiceWhyChooseUs';
 import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
 import { RelatedServices } from '@/components/sections/RelatedServices';
+import { ServiceInlineCta } from '@/components/sections/ServiceInlineCta';
 import { ServiceCtaBanner } from '@/components/sections/ServiceCtaBanner';
 import { ServiceLearnMore } from '@/components/sections/ServiceLearnMore';
 import { ServiceRelatedComparisons } from '@/components/sections/ServiceRelatedComparisons';
@@ -205,11 +206,15 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
           <AnimateIn><ServiceSigns heading={content.signsHeading} signs={content.signs} /></AnimateIn>
 
+          <ServiceInlineCta serviceName={service.name} />
+
           <AnimateIn>
             <ServiceApproach
               heading={content.approachHeading}
               content={content.approachContent}
               image={approachImg ? { src: approachImg.path, alt: approachImg.alt } : undefined}
+              subheadings={content.approachSubheadings}
+              imagePosition="above"
             />
           </AnimateIn>
 

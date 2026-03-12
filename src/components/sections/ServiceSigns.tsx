@@ -1,9 +1,14 @@
+import Image from 'next/image';
+import { getSectionImages } from '@/data/image-manifest';
+
 interface ServiceSignsProps {
   heading: string;
   signs: string[];
 }
 
 export function ServiceSigns({ heading, signs }: ServiceSignsProps) {
+  const signImages = getSectionImages('section-warning-signs');
+
   return (
     <section aria-labelledby="service-signs-heading">
       <h2
@@ -12,6 +17,25 @@ export function ServiceSigns({ heading, signs }: ServiceSignsProps) {
       >
         {heading}
       </h2>
+
+      {/* Warning sign images grid */}
+      {signImages.length > 0 && (
+        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {signImages.map((img) => (
+            <div key={img.id} className="overflow-hidden rounded-sm">
+              <Image
+                src={img.path}
+                alt={img.alt}
+                width={img.width}
+                height={img.height}
+                className="h-auto w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          ))}
+        </div>
+      )}
+
       <ul className="mt-6 space-y-3">
         {signs.map((sign, index) => (
           <li

@@ -4,9 +4,35 @@ interface ServiceApproachProps {
   heading: string;
   content: string[];
   image?: { src: string; alt: string };
+  subheadings?: string[];
+  imagePosition?: 'above' | 'below';
 }
 
-export function ServiceApproach({ heading, content, image }: ServiceApproachProps) {
+function boldFirstSentence(text: string) {
+  const match = text.match(/^(.*?[.!?])\s*([\s\S]*)/);
+  if (!match) return <>{text}</>;
+  return (
+    <>
+      <strong className="text-forest">{match[1]}</strong> {match[2]}
+    </>
+  );
+}
+
+export function ServiceApproach({ heading, content, image, subheadings, imagePosition = 'above' }: ServiceApproachProps) {
+  const imageBlock = image && (
+    <div className="photo-treatment mt-6 overflow-hidden rounded-lg">
+      <Image
+        src={image.src}
+        alt={image.alt}
+        width={1200}
+        height={400}
+        className="aspect-[3/1] w-full object-cover"
+        sizes="(max-width: 768px) 100vw, 65vw"
+        loading="lazy"
+      />
+    </div>
+  );
+
   return (
     <section aria-labelledby="service-approach-heading">
       <h2
@@ -15,33 +41,25 @@ export function ServiceApproach({ heading, content, image }: ServiceApproachProp
       >
         {heading}
       </h2>
-      <div className={`mt-4 ${image ? 'grid gap-8 md:grid-cols-5' : ''}`}>
-        <div className={`space-y-4 ${image ? 'md:col-span-3' : ''}`}>
-          {content.map((paragraph, index) => (
-            <p
-              key={index}
-              className="font-body text-base leading-relaxed text-text-secondary"
-            >
-              {paragraph}
+
+      {imagePosition === 'above' && imageBlock}
+
+      <div className="mt-6 space-y-4">
+        {content.map((paragraph, index) => (
+          <div key={index}>
+            {subheadings?.[index] && (
+              <h3 className="mb-2 font-heading text-lg font-semibold text-forest">
+                {subheadings[index]}
+              </h3>
+            )}
+            <p className="font-body text-base leading-relaxed text-text-secondary">
+              {index === 0 ? boldFirstSentence(paragraph) : paragraph}
             </p>
-          ))}
-        </div>
-        {image && (
-          <div className="md:col-span-2">
-            <div className="photo-treatment overflow-hidden rounded-lg">
-              <Image
-                src={image.src}
-                alt={image.alt}
-                width={600}
-                height={450}
-                className="h-full w-full object-cover"
-                sizes="(max-width: 768px) 100vw, 40vw"
-                loading="lazy"
-              />
-            </div>
           </div>
-        )}
+        ))}
       </div>
+
+      {imagePosition === 'below' && imageBlock}
     </section>
   );
 }

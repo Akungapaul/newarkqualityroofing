@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import type { ImageEntry } from '@/data/image-manifest';
+
 interface CityOverviewProps {
   paragraphs: string[];
   cityName: string;
@@ -5,12 +8,14 @@ interface CityOverviewProps {
     heading: string;
     content: string[];
   };
+  overviewImage?: ImageEntry;
 }
 
 export function CityOverview({
   paragraphs,
   cityName,
   weatherChallenges,
+  overviewImage,
 }: CityOverviewProps) {
   return (
     <div className="space-y-8">
@@ -18,6 +23,20 @@ export function CityOverview({
         <h2 id="overview-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
           Roofing in {cityName}: Local Expertise You Can Trust
         </h2>
+
+        {overviewImage && (
+          <div className="mt-4 overflow-hidden rounded-sm">
+            <Image
+              src={overviewImage.path}
+              alt={overviewImage.alt}
+              width={overviewImage.width}
+              height={overviewImage.height}
+              className="h-auto w-full object-cover"
+              loading="lazy"
+            />
+          </div>
+        )}
+
         <div className="mt-4 space-y-4">
           {paragraphs.map((paragraph, index) => (
             <p

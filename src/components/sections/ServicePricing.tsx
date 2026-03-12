@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { getSectionImage } from '@/data/image-manifest';
 
 interface ServicePricingProps {
   pricing: {
@@ -10,6 +12,8 @@ interface ServicePricingProps {
 }
 
 export function ServicePricing({ pricing, serviceName }: ServicePricingProps) {
+  const pricingImage = getSectionImage('section-pricing');
+
   return (
     <section aria-labelledby="service-pricing-heading">
       <h2
@@ -60,6 +64,19 @@ export function ServicePricing({ pricing, serviceName }: ServicePricingProps) {
           <p className="mt-4 rounded-sm bg-forest/5 px-4 py-2 font-body text-sm text-forest">
             {pricing.financingNote}
           </p>
+        )}
+
+        {pricingImage && (
+          <div className="mt-4 overflow-hidden rounded-sm">
+            <Image
+              src={pricingImage.path}
+              alt={pricingImage.alt}
+              width={pricingImage.width}
+              height={pricingImage.height}
+              className="h-auto w-full object-cover"
+              loading="lazy"
+            />
+          </div>
         )}
       </div>
     </section>

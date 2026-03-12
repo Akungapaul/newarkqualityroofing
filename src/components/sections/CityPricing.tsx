@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { getSectionImage } from '@/data/image-manifest';
 
 interface CityPricingProps {
   pricing: {
@@ -10,6 +12,8 @@ interface CityPricingProps {
 }
 
 export function CityPricing({ pricing, cityName }: CityPricingProps) {
+  const costImage = getSectionImage('section-city-pricing');
+
   return (
     <section aria-labelledby="city-pricing-heading">
       <h2
@@ -48,6 +52,19 @@ export function CityPricing({ pricing, cityName }: CityPricingProps) {
         <p className="mt-3 font-body text-sm text-text-secondary">
           {pricing.note}
         </p>
+      )}
+
+      {costImage && (
+        <div className="mt-4 overflow-hidden rounded-sm">
+          <Image
+            src={costImage.path}
+            alt={costImage.alt}
+            width={costImage.width}
+            height={costImage.height}
+            className="h-auto w-full object-cover"
+            loading="lazy"
+          />
+        </div>
       )}
 
       <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:items-center">

@@ -86,7 +86,7 @@ export function ServiceHero({ service, serviceGroups, benefits }: ServiceHeroPro
             )}
             <h1
               id="service-hero-heading"
-              className="font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
+              className="text-balance font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
             >
               {service.name}
               <br />

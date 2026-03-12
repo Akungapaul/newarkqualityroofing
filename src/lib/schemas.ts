@@ -119,6 +119,7 @@ export const ServiceContentSchema = z.object({
   signs: z.array(z.string()).min(4).max(10),
   approachHeading: z.string(),
   approachContent: z.array(z.string()).min(2).max(5),
+  approachSubheadings: z.array(z.string()).optional(),
   residential: z.object({
     heading: z.string(),
     content: z.array(z.string()).min(2).max(5),

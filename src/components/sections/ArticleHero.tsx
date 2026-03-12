@@ -60,7 +60,7 @@ export function ArticleHero({
 
         <h1
           id="article-hero-heading"
-          className="font-heading text-3xl font-bold leading-tight tracking-tight text-forest sm:text-4xl"
+          className="text-balance font-heading text-3xl font-bold leading-tight tracking-tight text-forest sm:text-4xl"
         >
           {article.title}
         </h1>

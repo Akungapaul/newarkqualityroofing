@@ -40,16 +40,16 @@ const homepageOgImage = homepageOg?.path
   : { url: SEO_CONFIG.OG_IMAGE.url, width: SEO_CONFIG.OG_IMAGE.width, height: SEO_CONFIG.OG_IMAGE.height };
 
 export const metadata: Metadata = {
-  title: 'Roof Repair in Newark NJ | Quality Local Contractors',
+  title: 'Roofing Contractor in Newark, NJ | Newark Quality Roofing',
   description:
-    'Trusted local roof repair services in Newark, NJ. Residential and commercial projects — replacements, inspections, siding, and gutters. Call for a free quote.',
+    "Newark's top-rated roofing contractor. Same-day estimates, 24/7 emergency service, 0% financing. Roof repair, replacement & installation. Call for a free quote.",
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Roof Repair in Newark NJ | Quality Local Contractors',
+    title: 'Roofing Contractor in Newark, NJ | Newark Quality Roofing',
     description:
-      'Trusted local roof repair services in Newark, NJ. Residential and commercial projects — replacements, inspections, siding, and gutters. Call for a free quote.',
+      "Newark's top-rated roofing contractor. Same-day estimates, 24/7 emergency service, 0% financing. Roof repair, replacement & installation. Call for a free quote.",
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',

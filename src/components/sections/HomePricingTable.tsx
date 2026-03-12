@@ -99,13 +99,14 @@ export function HomePricingTable() {
           </table>
         </div>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8">
           <Image
             src={estimateSrc}
             alt={estimateAlt}
-            width={400}
-            height={260}
-            className="rounded-lg shadow-md"
+            width={1200}
+            height={500}
+            className="w-full rounded-lg object-cover shadow-md"
+            sizes="(max-width: 768px) 100vw, 900px"
           />
         </div>
 

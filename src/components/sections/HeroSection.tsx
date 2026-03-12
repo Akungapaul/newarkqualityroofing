@@ -70,20 +70,20 @@ export function HeroSection() {
           <AnimateIn delay={0.4}>
             <h1
               id="hero-heading"
-              className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
+              className="text-balance font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
             >
-              Roof Leaking? Storm Damage? We Fix It Today.
+              Roofing Contractor in Newark, NJ
               <br />
               <span className="text-copper">
-                Newark&rsquo;s Trusted Roofing Contractors &mdash; Same-Day Response
+                Same-Day Estimates · 24/7 Emergency Crews
               </span>
             </h1>
           </AnimateIn>
           <AnimateIn delay={0.6}>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
-              Water damage spreads fast &mdash; every day you wait costs more. We provide same-day
-              free estimates, 24/7 emergency crews, and 0% financing. 500+ five-star reviews
-              from Essex County property owners.
+              Full-service roof replacement, repairs, commercial installation,
+              and gutter services for Newark and Essex County. Licensed, insured,
+              and backed by 500+ five-star reviews. 0% financing available.
             </p>
             <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 font-body text-sm text-parchment/70">
               <Link href="/services" className="underline text-copper-light hover:text-copper">All Services</Link>

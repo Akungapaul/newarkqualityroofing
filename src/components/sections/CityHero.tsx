@@ -80,7 +80,7 @@ export function CityHero({ city, content, serviceGroups }: CityHeroProps) {
           <div className="text-text-on-dark lg:col-span-3">
             <h1
               id="city-hero-heading"
-              className="font-heading text-4xl font-bold leading-tight tracking-tight text-parchment sm:text-5xl lg:text-6xl"
+              className="text-balance font-heading text-4xl font-bold leading-tight tracking-tight text-parchment sm:text-5xl lg:text-6xl"
             >
               {content.heroHeadline}
             </h1>

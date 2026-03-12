@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import { renderParagraphWithLinks } from '@/lib/render-inline-links';
+import { getSectionImages } from '@/data/image-manifest';
 
 interface ComboChallengesProps {
   paragraphs: string[];
@@ -6,6 +8,8 @@ interface ComboChallengesProps {
 }
 
 export function ComboChallenges({ paragraphs, cityName }: ComboChallengesProps) {
+  const challengeImages = getSectionImages('section-challenges');
+
   return (
     <section aria-labelledby="combo-challenges-heading">
       <h2
@@ -14,6 +18,25 @@ export function ComboChallenges({ paragraphs, cityName }: ComboChallengesProps) 
       >
         Local Challenges in {cityName}
       </h2>
+
+      {/* Challenge images grid */}
+      {challengeImages.length > 0 && (
+        <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {challengeImages.map((img) => (
+            <div key={img.id} className="overflow-hidden rounded-sm">
+              <Image
+                src={img.path}
+                alt={img.alt}
+                width={img.width}
+                height={img.height}
+                className="h-auto w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          ))}
+        </div>
+      )}
+
       <div className="mt-4 space-y-4">
         {paragraphs.map((paragraph, index) => (
           <div

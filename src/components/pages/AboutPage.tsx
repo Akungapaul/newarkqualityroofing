@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { getTeamMemberImage } from '@/data/image-manifest';
 
 /* ─── SVG Icons ────────────────────────────────────────────────────────────── */
 
@@ -218,19 +220,29 @@ export default function AboutPage() {
           <h2 className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl">
             Our Team
           </h2>
-          <p className="mt-2 text-center font-body text-sm text-text-secondary italic">
-            Photos coming soon
-          </p>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
-            {team.map((member) => (
+            {team.map((member) => {
+              const headshot = getTeamMemberImage(`team-${member.initials.toLowerCase()}`);
+              return (
               <div
                 key={member.name}
                 className="rounded-lg border border-border bg-parchment p-6 text-center"
               >
-                {/* Initials avatar */}
-                <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-forest text-2xl font-bold text-text-on-dark">
-                  {member.initials}
-                </div>
+                {/* Team headshot or initials fallback */}
+                {headshot ? (
+                  <Image
+                    src={headshot.path}
+                    alt={headshot.alt}
+                    width={80}
+                    height={80}
+                    className="mx-auto h-20 w-20 rounded-full object-cover"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-forest text-2xl font-bold text-text-on-dark">
+                    {member.initials}
+                  </div>
+                )}
                 <h3 className="mt-4 font-heading text-xl font-bold text-forest">
                   {member.name}
                 </h3>
@@ -241,7 +253,8 @@ export default function AboutPage() {
                   {member.bio}
                 </p>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

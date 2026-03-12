@@ -1,7 +1,9 @@
+import Image from 'next/image';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { siteConfig } from '@/data/site-config';
 import { getServiceMenuGroups } from '@/data/nav-data';
+import { getSectionImage } from '@/data/image-manifest';
 
 /* ─── Icons ────────────────────────────────────────────────────────────────── */
 
@@ -147,6 +149,25 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* Office exterior photo */}
+      {(() => {
+        const officeImage = getSectionImage('office');
+        return officeImage ? (
+          <section className="px-6 pb-6">
+            <div className="mx-auto max-w-5xl overflow-hidden rounded-lg">
+              <Image
+                src={officeImage.path}
+                alt={officeImage.alt}
+                width={officeImage.width}
+                height={officeImage.height}
+                className="h-auto w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          </section>
+        ) : null;
+      })()}
 
       {/* Google Maps Embed */}
       <section className="px-6 pb-12">
