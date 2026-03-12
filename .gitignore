@@ -44,3 +44,6 @@ next-env.d.ts
 # Image generation staging (not committed)
 /staging/
 /scripts/reports/
+
+# git worktrees
+.worktrees/
