@@ -5,6 +5,8 @@ import ServicesHubPage from '@/components/pages/ServicesHubPage';
 import LocationsHubPage from '@/components/pages/LocationsHubPage';
 import SitemapPage from '@/components/pages/SitemapPage';
 import PrivacyPolicyPage from '@/components/pages/PrivacyPolicyPage';
+import TermsOfServicePage from '@/components/pages/TermsOfServicePage';
+import ResourcesPage from '@/components/pages/ResourcesPage';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
   buildRoofingContractorSchema,
@@ -16,7 +18,7 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 
 // ─── Schema strategy by page ID ─────────────────────────────────────────────
 
-const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy']);
+const NOINDEX_PAGES = new Set(['thank-you', 'privacy-policy', 'terms-of-service']);
 
 function buildCorePageSchema(corePage: CorePage): Record<string, unknown> | null {
   if (NOINDEX_PAGES.has(corePage.id)) return null;
@@ -64,6 +66,10 @@ export default function CoreTemplate({ corePage }: CoreTemplateProps) {
         return <SitemapPage />;
       case 'privacy-policy':
         return <PrivacyPolicyPage />;
+      case 'terms-of-service':
+        return <TermsOfServicePage />;
+      case 'resources':
+        return <ResourcesPage />;
       default:
         return (
           <div className="min-h-screen bg-parchment px-6 py-16">

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { getSectionImage } from '@/data/image-manifest';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceAudienceProps {
   variant: 'residential' | 'commercial';
@@ -39,7 +40,7 @@ export function ServiceAudience({
               key={index}
               className="font-body text-base leading-relaxed text-text-secondary"
             >
-              {paragraph}
+              {parseRichText(paragraph)}
             </p>
           ))}
         </div>

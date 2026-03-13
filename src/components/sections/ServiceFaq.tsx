@@ -1,3 +1,5 @@
+import { parseRichText } from '@/lib/rich-text';
+
 interface ServiceFaqProps {
   faqs: { question: string; answer: string }[];
 }
@@ -32,7 +34,7 @@ export function ServiceFaq({ faqs }: ServiceFaqProps) {
               </svg>
             </summary>
             <div className="pb-4 font-body text-base leading-relaxed text-text-secondary">
-              {faq.answer}
+              {parseRichText(faq.answer)}
             </div>
           </details>
         ))}

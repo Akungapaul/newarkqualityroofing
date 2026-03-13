@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import type { NavServiceGroup, NavCityItem, NavComparisonGroup } from '@/data/nav-data';
 import { MobileMenu } from './MobileMenu';
 
@@ -236,9 +237,14 @@ export function Header({ serviceGroups, cityItems, comparisonGroups, phoneDispla
             className="group flex-shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2 focus-visible:ring-offset-forest"
             aria-label="Newark Quality Roofing - Home"
           >
-            <span className="block font-heading text-xl font-bold tracking-tight text-parchment transition-colors duration-200 group-hover:text-copper-light sm:text-2xl">
-              Newark Quality Roofing
-            </span>
+            <Image
+              src="/logo.svg"
+              alt="Newark Quality Roofing"
+              width={320}
+              height={41}
+              priority
+              className={`transition-all duration-300 ${scrolled ? 'h-8 w-auto' : 'h-10 w-auto'}`}
+            />
           </Link>
 
           {/* Desktop navigation */}

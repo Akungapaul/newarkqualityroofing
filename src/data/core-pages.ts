@@ -54,6 +54,20 @@ const rawCorePages: CorePage[] = [
     metaTitle: 'Privacy Policy | Newark Quality Roofing',
     metaDescription: 'Privacy policy for Newark Quality Roofing. How we collect, use, and protect your personal information.',
   },
+  {
+    id: 'terms-of-service',
+    name: 'Terms of Service',
+    slug: 'terms-of-service',
+    metaTitle: 'Terms of Service | Newark Quality Roofing',
+    metaDescription: 'Terms of service for Newark Quality Roofing. Service agreements, warranties, and policies for roofing projects in Essex County NJ.',
+  },
+  {
+    id: 'resources',
+    name: 'Roofing Resources',
+    slug: 'resources',
+    metaTitle: 'Roofing Resources & Guides | Newark Quality Roofing',
+    metaDescription: 'Expert roofing guides, cost breakdowns, and decision-making resources for Essex County NJ homeowners and businesses.',
+  },
 ];
 
 // ─── Runtime Validation ──────────────────────────────────────────────────────

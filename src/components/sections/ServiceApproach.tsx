@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceApproachProps {
   heading: string;
@@ -53,7 +54,7 @@ export function ServiceApproach({ heading, content, image, subheadings, imagePos
               </h3>
             )}
             <p className="font-body text-base leading-relaxed text-text-secondary">
-              {index === 0 ? boldFirstSentence(paragraph) : paragraph}
+              {index === 0 ? boldFirstSentence(paragraph) : parseRichText(paragraph)}
             </p>
           </div>
         ))}

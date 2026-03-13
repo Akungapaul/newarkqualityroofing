@@ -31,6 +31,9 @@ import {
   buildWebPageSchema,
   buildBreadcrumbSchema,
   buildFaqSchema,
+  buildOrganizationSchema,
+  buildRoofingContractorSchema,
+  buildWebSiteSchema,
   buildJsonLdGraph,
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
@@ -171,6 +174,9 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
   return (
     <>
       <JsonLd data={buildJsonLdGraph(
+        buildOrganizationSchema(),
+        buildRoofingContractorSchema(),
+        buildWebSiteSchema(),
         buildServiceSchema({ name: service.name, slug: service.slug, shortDescription: service.shortDescription }),
         buildWebPageSchema(`${SEO_CONFIG.BASE_URL}/${service.slug}`, service.metaTitle),
         buildBreadcrumbSchema([
@@ -202,7 +208,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
-          <AnimateIn><ServiceOverview paragraphs={content.overview} image={overviewImg ? { src: overviewImg.path, alt: overviewImg.alt } : undefined} /></AnimateIn>
+          <AnimateIn><ServiceOverview paragraphs={content.overview} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
 
           <AnimateIn><ServiceSigns heading={content.signsHeading} signs={content.signs} /></AnimateIn>
 
@@ -212,7 +218,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             <ServiceApproach
               heading={content.approachHeading}
               content={content.approachContent}
-              image={approachImg ? { src: approachImg.path, alt: approachImg.alt } : undefined}
+              image={approachImg ? { src: approachImg.path, alt: `${service.name} materials and approach - ${approachImg.alt}` } : undefined}
               subheadings={content.approachSubheadings}
               imagePosition="above"
             />
@@ -258,7 +264,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             </>
           )}
 
-          <AnimateIn><ServiceProcess steps={content.processSteps} image={processImg ? { src: processImg.path, alt: processImg.alt } : undefined} /></AnimateIn>
+          <AnimateIn><ServiceProcess steps={content.processSteps} image={processImg ? { src: processImg.path, alt: `${service.name} crew at work - ${processImg.alt}` } : undefined} /></AnimateIn>
 
           {/* Pricing section -- after process */}
           {content.pricing && (

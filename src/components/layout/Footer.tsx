@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { comparisons } from '@/data/comparisons';
@@ -110,9 +111,13 @@ export function Footer() {
               href="/"
               className="group inline-block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper focus-visible:ring-offset-2 focus-visible:ring-offset-forest-dark"
             >
-              <span className="block font-heading text-2xl font-bold tracking-tight text-parchment transition-colors duration-200 group-hover:text-copper-light">
-                Newark Quality Roofing
-              </span>
+              <Image
+                src="/logo.svg"
+                alt="Newark Quality Roofing"
+                width={220}
+                height={38}
+                className="h-9 w-auto transition-opacity duration-200 group-hover:opacity-80"
+              />
             </Link>
 
             {/* NAP (Name, Address, Phone) */}
@@ -286,6 +291,18 @@ export function Footer() {
               className="font-body text-xs text-parchment/50 transition-colors duration-150 hover:text-parchment/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
             >
               Privacy Policy
+            </Link>
+            <Link
+              href="/terms-of-service"
+              className="font-body text-xs text-parchment/50 transition-colors duration-150 hover:text-parchment/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+            >
+              Terms of Service
+            </Link>
+            <Link
+              href="/resources"
+              className="font-body text-xs text-parchment/50 transition-colors duration-150 hover:text-parchment/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+            >
+              Resources
             </Link>
             <Link
               href="/sitemap.xml"

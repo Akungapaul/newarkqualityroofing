@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceProcessProps {
   steps: { title: string; description: string }[];
@@ -42,7 +43,7 @@ export function ServiceProcess({ steps, image }: ServiceProcessProps) {
                 {step.title}
               </h3>
               <p className="mt-1 font-body text-base leading-relaxed text-text-secondary">
-                {step.description}
+                {parseRichText(step.description)}
               </p>
             </div>
           </li>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#1A3A2A"/>
+  <!-- Roof shape -->
+  <path d="M96 380L256 100L416 380" stroke="#C17F4E" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Chimney -->
+  <rect x="340" y="160" width="40" height="90" rx="4" fill="#C17F4E"/>
+  <!-- Inner ridge highlight -->
+  <path d="M160 280L256 130L352 280" stroke="#F5F0E8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.35"/>
+  <!-- NQR letters -->
+  <text x="256" y="450" font-family="Georgia, serif" font-size="100" font-weight="700" fill="#F5F0E8" text-anchor="middle" letter-spacing="12" opacity="0.9">NQR</text>
+</svg>

@@ -47,3 +47,10 @@ next-env.d.ts
 
 # git worktrees
 .worktrees/
+
+# Claude Code settings
+.claude/
+
+# GHL scripts with API tokens
+scripts/ghl-setup.js
+scripts/ghl-tags-and-values.js

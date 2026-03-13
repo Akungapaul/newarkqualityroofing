@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { CREDENTIALS } from '@/data/content-constants';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceOverviewProps {
   paragraphs: string[];
@@ -49,7 +50,7 @@ export function ServiceOverview({ paragraphs, image, imagePosition = 'above' }: 
             key={index}
             className="font-body text-base leading-relaxed text-text-secondary"
           >
-            {index === 0 ? boldFirstSentence(paragraph) : paragraph}
+            {index === 0 ? boldFirstSentence(paragraph) : parseRichText(paragraph)}
           </p>
         ))}
       </div>
