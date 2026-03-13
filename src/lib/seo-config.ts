@@ -2,7 +2,7 @@
 
 export const SEO_CONFIG = {
   /** Canonical base URL (no trailing slash) */
-  BASE_URL: 'https://www.newarkqualityroofing.com',
+  BASE_URL: 'https://newarkqualityroofing.com',
 
   /** Default Open Graph image (placeholder path -- actual branded image created in Phase 9) */
   OG_IMAGE: {
