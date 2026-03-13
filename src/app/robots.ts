@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/thank-you', '/_next/'],
       },
     ],
-    sitemap: 'https://www.newarkqualityroofing.com/sitemap-index.xml',
+    sitemap: 'https://www.newarkqualityroofing.com/sitemap.xml',
   };
 }
