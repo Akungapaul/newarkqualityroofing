@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { getSectionImages } from '@/data/image-manifest';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceSignsProps {
   heading: string;
@@ -54,7 +55,7 @@ export function ServiceSigns({ heading, signs }: ServiceSignsProps) {
                 clipRule="evenodd"
               />
             </svg>
-            <span>{sign}</span>
+            <span>{parseRichText(sign)}</span>
           </li>
         ))}
       </ul>

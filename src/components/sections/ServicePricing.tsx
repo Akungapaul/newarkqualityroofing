@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { getSectionImage } from '@/data/image-manifest';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ServicePricingProps {
   pricing: {
@@ -53,7 +54,7 @@ export function ServicePricing({ pricing, serviceName }: ServicePricingProps) {
                   className="flex items-start gap-2 font-body text-sm leading-relaxed text-text-secondary"
                 >
                   <span className="mt-1 block h-1.5 w-1.5 shrink-0 rounded-full bg-copper" aria-hidden="true" />
-                  {factor}
+                  {parseRichText(factor)}
                 </li>
               ))}
             </ul>
@@ -62,7 +63,7 @@ export function ServicePricing({ pricing, serviceName }: ServicePricingProps) {
 
         {pricing.financingNote && (
           <p className="mt-4 rounded-sm bg-forest/5 px-4 py-2 font-body text-sm text-forest">
-            {pricing.financingNote}
+            {parseRichText(pricing.financingNote)}
           </p>
         )}
 

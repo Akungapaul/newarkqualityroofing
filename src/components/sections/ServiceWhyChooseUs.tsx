@@ -1,3 +1,5 @@
+import { parseRichText } from '@/lib/rich-text';
+
 interface ServiceWhyChooseUsProps {
   heading: string;
   reasons: { title: string; description: string }[];
@@ -90,11 +92,11 @@ export function ServiceWhyChooseUs({ heading, reasons }: ServiceWhyChooseUsProps
                 {getIconForReason(reason.title, index)}
               </span>
               <div>
-                <h3 className="font-heading text-base font-bold text-forest">
+                <h4 className="font-heading text-base font-bold text-forest">
                   {reason.title}
-                </h3>
+                </h4>
                 <p className="mt-1 font-body text-sm leading-relaxed text-text-secondary">
-                  {reason.description}
+                  {parseRichText(reason.description)}
                 </p>
               </div>
             </div>
