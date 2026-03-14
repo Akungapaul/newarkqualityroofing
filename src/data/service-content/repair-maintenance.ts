@@ -9,28 +9,39 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-repair',
     overview: [
-      'Northeastern storms, freeze-thaw cycles, and summer humidity create relentless wear on residential and commercial roofing systems across Essex County. A cracked component or lifted flashing piece can escalate within a single season into water damage, mold growth, and insulation failure. Professional roofing services from experienced roofing contractors in Newark NJ prevent small issues from becoming costly structural problems and protect your investment for decades.',
-      'At Newark Quality Roofing, every call is a diagnostic opportunity. Rather than patching visible symptoms, our Newark, NJ technicians trace moisture pathways, inspect underlayment integrity, and evaluate the remaining life of surrounding areas. As a trusted *newark roofing* company providing full-spectrum *roofing services*, we carry a complete inventory on our trucks so most jobs finish in a single visit. From minor *roof repairs* to complex *commercial roof* projects, our approach prioritizes lasting performance over quick fixes.',
+      'Northeastern storms, freeze-thaw cycles, and summer humidity create relentless wear on residential and *commercial roofing* systems across Essex County. **Cracked shingles**, lifted flashing, or a compromised *membrane* can escalate within a single season into water damage, mold growth, and insulation failure. Professional *roofing services* from experienced *roofing contractors* in Newark NJ prevent small issues from becoming costly structural problems and protect your investment for decades.',
+      'At **Newark Quality Roofing**, every call is a diagnostic opportunity. Rather than patching visible symptoms, our Newark, NJ technicians trace moisture pathways, inspect underlayment integrity, and evaluate the remaining life of surrounding areas. As a trusted *roofing company* providing full-spectrum *roofing services*, we carry a complete inventory on our trucks so most jobs finish in a single visit. From minor *roof repairs* to complex *commercial roof* projects, our approach prioritizes lasting performance over quick fixes.',
+      'Whether you need emergency leak intervention, scheduled *roof maintenance*, or a comprehensive assessment to weigh *roof repair* against *roof replacement*, our team delivers *affordable roofing services* backed by transparent pricing and a written workmanship warranty. Every *roofing* project we complete in Newark strengthens our reputation as the area\'s most reliable *roofing company* for both residential and *commercial roofing* needs.',
     ],
     signsHeading: 'Warning Signs Your Newark NJ Property Needs Roofing Attention',
     signs: [
       'Water stains spreading across ceiling drywall or running down interior walls after rainfall — a sign that *roofing* components have failed and *roof maintenance* is overdue',
-      'Shingles curling at edges, cracking along surfaces, or missing entirely from visible sections of the *roofing* system',
-      'Granule buildup in *gutter* channels and at downspout discharge points, indicating advanced wear on *roofing* materials',
-      'Daylight visible through the deck when viewed from inside the attic space, suggesting structural gaps that demand immediate *roof repairs*',
-      'Unexplained spikes in energy bills caused by compromised *membrane* underlayment from moisture infiltration through the *roofing* structure',
+      '**Cracked shingles**, curling edges, or missing sections across visible areas of your *roofing* system that leave the underlayment exposed',
+      'Granule buildup in *gutter* channels and at downspout discharge points, indicating advanced wear on *roofing* materials that may require *roof repair* or *roof replacement*',
+      'Daylight visible through the deck when viewed from inside the attic space, suggesting structural gaps that demand immediate *roof repairs* from qualified *roofing contractors*',
+      'Unexplained spikes in energy bills caused by compromised *membrane* underlayment allowing moisture infiltration through the *roofing* structure',
+      'Sagging sections on a *commercial roof* or residential deck, indicating prolonged moisture damage that *roofing solutions* must address before structural failure occurs',
     ],
     approachHeading: 'How Our Roofing Contractors Handle Every Project',
     approachContent: [
-      'Every job begins with a thorough diagnostic assessment using professional roofing inspection techniques. Our technicians climb onto the surface, probe suspect areas with moisture meters, and photograph every finding so you receive a clear picture before work begins. We check the entire drainage pathway from ridge to eave, because water often enters at one location and travels significant distances before manifesting as a visible leak. Comprehensive roof inspections like these catch problems that surface-level checks miss entirely, and they inform whether targeted roof repairs or a broader roof replacement strategy makes the most financial sense for your roofing system.',
-      'We match manufacturer, product line, and color to maintain visual consistency across your property. For *membrane* and low-slope *flat roofing* systems, we use manufacturer-approved bonding methods rather than relying solely on adhesive. All flashing is fabricated from corrosion-resistant stock appropriate to the local environment. Our *roofing* crews back every project with a written workmanship warranty and maintain detailed *maintenance* records that prove invaluable for tracking total roofing cost over the life of your system.',
+      'Every job begins with a thorough diagnostic assessment using professional *roofing* inspection techniques. Our technicians climb onto the surface, probe suspect areas with moisture meters, and photograph every finding so you receive a clear picture before work begins. We check the entire drainage pathway from ridge to eave, because water often enters at one location and travels significant distances before manifesting as a visible leak. Comprehensive *roof inspections* catch problems that surface-level checks miss entirely, and they inform whether targeted *roof repairs* or a broader *roof replacement* strategy makes the most financial sense for your *roofing* system.',
+      'We match manufacturer, product line, and color to maintain visual consistency across your property. For *membrane* and low-slope *flat roofing* systems, we use manufacturer-approved bonding methods rather than relying solely on adhesive. All flashing is fabricated from corrosion-resistant stock appropriate to the local environment. Our *roofing* crews back every project with a written workmanship warranty and maintain detailed records that prove invaluable for tracking total *roofing* cost over the life of your system.',
+      'Proactive *roof maintenance* is the most cost-effective way to extend the service life of any *roofing* system. **Newark Quality Roofing** offers scheduled maintenance programs that include biannual inspections, *gutter* clearing, flashing resealing, and minor *roof repairs* before they escalate. Regular *maintenance* catches early-stage deterioration in *shingle* granules, *membrane* seams, and sealant joints — addressing these during routine visits prevents emergency calls and preserves manufacturer warranty coverage on both residential and *commercial roofing* systems.',
+      'Our *roofing contractors* tailor every *roof repair* to the specific conditions of your property. Newark properties face unique challenges — from century-old Ironbound row homes with layered *roofing* systems to modern *commercial roof* assemblies on Route 21 warehouses. We carry materials for *asphalt shingle*, *flat roofing*, *EPDM*, TPO, and modified bitumen systems so we can address your **roofing needs** during a single visit without scheduling delays.',
+      'Quality control is built into every stage of our process. A lead technician performs a final walkthrough after every *roof repair*, verifying watertight integrity with moisture detection equipment and confirming that all work meets both manufacturer specifications and our internal standards. Before-and-after photographs document every project, giving you a permanent record of the *roofing services* performed and supporting any future insurance or warranty claims.',
     ],
-    approachSubheadings: ['Expert Roofing Diagnostics and Roof Inspections', 'Quality Roofing Solutions Built to Last'],
+    approachSubheadings: [
+      'Expert Roofing Diagnostics and Roof Inspections',
+      'Quality Roofing Solutions Built to Last',
+      'Preventative Roof Maintenance Programs',
+      'Tailored Repairs for Newark Properties',
+      'Built-In Quality Assurance',
+    ],
     residential: {
       heading: 'Residential Roofing Services in Newark',
       content: [
-        'Your home is the single largest investment most families make, and its covering is the first line of defense against New Jersey weather. As a trusted local *residential roofing company* in Newark, NJ, we treat every home with care. When you notice a leak or damaged areas, acting quickly protects the structure and the health of everyone inside — water infiltration leads to mold growth, and even minor issues destroy underlayment and warp framing lumber. Our residential *roofing services* cover everything from *shingle* replacement to full *roof replacement* projects.',
-        'We deliver *affordable roofing services* with detailed written estimates before beginning any project. Our Newark, NJ crews protect landscaping, contain debris, and perform a magnetic sweep before leaving. Request a *free quote* today — for homeowners dealing with storm damage, we also provide documentation that adjusters require, including timestamped photographs and a detailed scope of work. Regular *roof maintenance* extends the life of any residential roofing system and reduces the likelihood of emergency *roof repairs* down the road.',
+        'Your home is the single largest investment most families make, and its covering is the first line of defense against New Jersey weather. As a trusted local *roofing company* in Newark, NJ, we treat every home with care. When you notice a leak, **cracked shingles**, or damaged areas, acting quickly protects the structure and the health of everyone inside — water infiltration leads to mold growth, and even minor issues destroy underlayment and warp framing lumber. Our residential *roofing services* cover everything from *shingle* replacement to full *roof replacement* projects.',
+        'We deliver *affordable roofing services* with detailed written estimates before beginning any project. Our Newark, NJ crews protect landscaping, contain debris, and perform a magnetic sweep before leaving. Request a *free quote* today — for homeowners dealing with storm damage, we also provide documentation that adjusters require, including timestamped photographs and a detailed scope of work. Regular *roof maintenance* extends the life of any residential *roofing* system and reduces the likelihood of emergency *roof repairs* down the road.',
       ],
       ctaLabel: 'Get Home Estimate',
     },
@@ -38,7 +49,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       heading: 'Commercial Roofing Solutions',
       content: [
         'A compromised *commercial roof* threatens inventory, disrupts operations, creates liability exposure, and erodes tenant confidence. Our team provides expert *commercial roofing* services, scheduling work around your business hours to complete most *commercial roof* projects within a single day. We handle all *commercial roofing* system types including *EPDM* rubber, TPO *membrane*, modified bitumen, and *flat roofing* assemblies — each requiring specialized techniques and manufacturer-specific bonding protocols.',
-        'Our technicians hold certifications from Firestone, Carlisle, and Johns Manville, enabling warranty-preserving *commercial roofing* work that keeps your coverage intact. Every *commercial roof* project meets current New Jersey building code requirements, and we provide professional reporting you can share with building owners and carriers. Scheduled *maintenance* programs for *commercial roofing* systems prevent costly emergency situations and extend the service life of *EPDM*, TPO, and built-up roofing assemblies. Contact us for a *commercial roof* assessment and learn how proactive *maintenance* saves thousands over the life of your roofing system.',
+        'Our technicians hold certifications from Firestone, Carlisle, and Johns Manville, enabling warranty-preserving *commercial roofing* work that keeps your coverage intact. Every *commercial roof* project meets current New Jersey building code requirements, and we provide professional reporting you can share with building owners and carriers. Scheduled *maintenance* programs for *commercial roofing* systems prevent costly emergency situations and extend the service life of *EPDM*, TPO, and built-up *roofing* assemblies. Contact us for a *commercial roof* assessment and learn how proactive *roof maintenance* saves thousands over the life of your *roofing* system.',
       ],
       ctaLabel: 'Get Commercial Quote',
     },
@@ -49,7 +60,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       },
       {
         title: 'Estimate and Planning',
-        description: 'We present a transparent written estimate breaking down *roofing* costs, labor, and timeline. Where multiple options exist — from targeted *roof repairs* to complete *roof replacement* — we explain the trade-offs so you can make an informed decision.',
+        description: 'We present a transparent written estimate breaking down costs, labor, and timeline for your *roof repair*. Where multiple options exist — from targeted *roof repairs* to complete *roof replacement* — we explain the trade-offs so you can make an informed decision about your **roofing needs**.',
       },
       {
         title: 'Professional Execution',
@@ -62,31 +73,35 @@ export const repairMaintenanceContent: ServiceContent[] = [
     ],
     faqs: [
       {
-        question: 'How quickly can you respond to a roofing service request in Newark or Essex County?',
-        answer: 'For standard requests, we typically schedule an on-site assessment within 24 to 48 hours. Emergency situations involving active leaks or storm damage receive same-day response. Our trucks carry common *roofing* materials, so many straightforward *roof repairs* can be completed during the initial visit. We also offer scheduled *roof inspections* for property owners who want to stay ahead of potential problems.',
+        question: 'How quickly can you respond to a roof repair request in Newark or Essex County?',
+        answer: 'For standard requests, we typically schedule an on-site assessment within 24 to 48 hours. Emergency situations involving active leaks or storm damage receive same-day response. Our trucks carry common materials for *roof repair*, so many straightforward *roof repairs* can be completed during the initial visit. We also offer scheduled *roof inspections* and *roof maintenance* programs for property owners who want to stay ahead of potential problems.',
       },
       {
         question: 'Should I fix the damage or consider a full roof replacement?',
-        answer: 'The answer depends on age, extent of damage, and the condition of underlying components like the deck and underlayment. If damage is localized and the rest of the *roofing* system has substantial remaining life, targeted *roof repairs* are the cost-effective choice. If the system is approaching end of lifespan or damage covers more than a third of the surface, full *roof replacement* often provides better long-term value. Our *roof inspections* give you the data to make a confident decision.',
+        answer: 'The answer depends on age, extent of damage, and the condition of underlying components like the deck and underlayment. If damage is localized and the rest of the *roofing* system has substantial remaining life, targeted *roof repairs* are the cost-effective choice. If the system is approaching end of lifespan or damage covers more than a third of the surface, full *roof replacement* often provides better long-term value. Our *roof inspections* give you the data to make a confident decision about your **roofing needs**.',
       },
       {
         question: 'How much do roofing services cost in Essex County, NJ?',
-        answer: 'Most projects in Essex County range from **$350 to $1,500**, depending on scope. Your exact cost depends on area size, material selection, and project complexity. *Commercial roofing* projects and full *roof replacement* work typically fall into higher ranges. We provide free, detailed written estimates — call us today or fill out our online form. Ask about our **0% financing** options for qualifying projects.',
+        answer: 'Most *roof repair* projects in Essex County range from **$350 to $1,500**, depending on scope. Your exact cost depends on area size, material selection, and project complexity. *Commercial roofing* projects and full *roof replacement* work typically fall into higher ranges. We provide free, detailed written estimates — call us today or fill out our online form. Ask about our **0% financing** options for qualifying *roofing* projects.',
       },
       {
         question: 'What is the 25% rule in roofing?',
-        answer: 'The 25% rule is a common industry guideline suggesting that if more than 25% of your *roofing* surface is damaged, full *roof replacement* typically makes more economic sense than continued spot work. This threshold accounts for diminishing returns of repeated fixes on an aging system. During our assessment, we calculate the percentage of affected area and provide an honest recommendation based on your specific *roofing* conditions.',
+        answer: 'The 25% rule is a common industry guideline suggesting that if more than 25% of your *roofing* surface is damaged, full *roof replacement* typically makes more economic sense than continued spot *roof repairs*. This threshold accounts for diminishing returns of repeated fixes on an aging system. During our assessment, we calculate the percentage of affected area and provide an honest recommendation based on your specific conditions.',
       },
       {
         question: 'What time of year is cheapest for roofing work in New Jersey?',
-        answer: 'Late fall and early spring tend to offer the most competitive pricing in the Newark area for *roofing services*. Scheduling during these windows can mean shorter wait times and potentially lower labor costs. However, we provide fair year-round pricing and handle every type of *roofing* project in every season. The best time to address any issue is as soon as you notice it — waiting often allows damage to worsen and increases eventual *roof replacement* costs.',
+        answer: 'Late fall and early spring tend to offer the most competitive pricing in the Newark area for *roofing services*. Scheduling during these windows can mean shorter wait times and potentially lower labor costs. However, we provide fair year-round pricing and handle every type of *roof repair* in every season. The best time to address any issue is as soon as you notice it — waiting often allows damage to worsen and increases eventual *roof replacement* costs.',
+      },
+      {
+        question: 'How does preventative roof maintenance reduce long-term costs?',
+        answer: 'Regular *roof maintenance* catches minor issues — loose flashing, cracked sealant, early *shingle* granule loss — before they require expensive *roof repairs*. A biannual *maintenance* program from **Newark Quality Roofing** typically costs a fraction of a single emergency *roof repair* call. Proactive *maintenance* also preserves manufacturer warranty coverage, extends the total lifespan of your *roofing* system by years, and gives our *roofing contractors* the opportunity to recommend *roofing solutions* before problems escalate.',
       },
     ],
     pricing: {
       range: '$350–$1,500',
       factors: [
         'Size and location of the damaged area on your *roofing* system',
-        'Material type and color-matching requirements for *roofing* components',
+        'Material type and color-matching requirements for *roof repair* components',
         'Accessibility and pitch of the structure',
         'Whether underlying decking or *gutter* components need attention',
       ],
@@ -97,15 +112,15 @@ export const repairMaintenanceContent: ServiceContent[] = [
       reasons: [
         {
           title: 'Licensed and Certified Roofing Contractors',
-          description: 'NJ HIC licensed, **GAF Certified** Contractor with 15+ years of hands-on *roofing* experience across Essex County. Every *commercial roofing* and residential project meets the highest industry standards.',
+          description: 'NJ HIC licensed, **GAF Certified** Contractor with 15+ years of hands-on experience across Essex County. Every *commercial roofing* and residential *roof repair* project meets the highest industry standards for *roofing services*.',
         },
         {
           title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. From minor *roof repairs* to *roof replacement*, you know exactly what you are paying for.',
+          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. From minor *roof repairs* to *roof replacement*, you know exactly what you are paying for — *affordable roofing services* you can trust.',
         },
         {
           title: 'Fast Local Response',
-          description: 'Same-day estimates, emergency crews available, and a team that lives and works in Essex County. Our *roofing services* reputation rides on every job we complete in the Newark community.',
+          description: 'Same-day estimates, emergency crews available, and a team that lives and works in Essex County. Our *roofing company* reputation rides on every job we complete in the Newark community, delivering *roofing solutions* that last.',
         },
       ],
     },

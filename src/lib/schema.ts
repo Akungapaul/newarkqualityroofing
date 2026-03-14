@@ -8,6 +8,11 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 
 const BASE_URL = SEO_CONFIG.BASE_URL;
 
+/** Strip markdown bold/italic markers for clean JSON-LD text */
+function stripMarkdown(text: string): string {
+  return text.replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
+}
+
 // ─── Internal helper ─────────────────────────────────────────────────────────
 
 function buildPostalAddress(): Record<string, unknown> {
@@ -153,10 +158,10 @@ export function buildFaqSchema(
     '@type': 'FAQPage',
     mainEntity: faqs.map((faq) => ({
       '@type': 'Question',
-      name: faq.question,
+      name: stripMarkdown(faq.question),
       acceptedAnswer: {
         '@type': 'Answer',
-        text: faq.answer,
+        text: stripMarkdown(faq.answer),
       },
     })),
   };

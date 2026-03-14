@@ -16,9 +16,9 @@ const rawServices: Service[] = [
     parentId: null,
     isResidential: true,
     isCommercial: true,
-    shortDescription: 'Expert roof repair services for leaks, missing shingles, and structural damage across Essex County.',
-    metaTitle: 'Roof Repair Newark NJ | Expert NJ Roofers | NQR',
-    metaDescription: 'Professional roof repair in Newark and Essex County. We fix leaks, missing shingles, and storm damage fast. Free estimates available.',
+    shortDescription: 'Expert roofing repair and maintenance for leaks, missing shingles, and structural damage across Essex County.',
+    metaTitle: 'Roof Repair in Newark NJ | NJ Roofing Services | NQR',
+    metaDescription: 'Professional roof repair in Newark NJ and Essex County. We fix leaks, storm damage, and structural issues fast. Free estimates — call today.',
   },
   {
     id: 'roof-replacement',
@@ -657,7 +657,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Cost-effective roof overlay installing new shingles directly over the existing roof layer.',
-    metaTitle: 'Roof Overlay Installation in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Roof Overlay Installation | Newark NJ | NQR',
     metaDescription: 'Roof overlay installation in Newark NJ. Save time and money by installing new shingles over your existing roof.',
   },
   {
@@ -669,7 +669,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Professional re-roofing services to restore protection and curb appeal with modern materials.',
-    metaTitle: 'Re-Roofing in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Re-Roofing Services | Newark NJ Roofers | NQR',
     metaDescription: 'Re-roofing services in Newark NJ. Upgrade your aging roof with modern materials, improved insulation, and better weather protection.',
   },
   {
@@ -681,7 +681,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Insurance claim assistance and roof replacement coordination for covered storm and weather damage.',
-    metaTitle: 'Insurance Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Insurance Roof Replacement | Newark NJ | NQR',
     metaDescription: 'Insurance roof replacement in Newark NJ. We handle the claims process and coordinate with your insurer for covered replacements.',
   },
   {
@@ -693,7 +693,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Full roof replacement after severe storm damage with insurance claim support.',
-    metaTitle: 'Storm Damage Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Storm Damage Roof Replacement | Newark NJ',
     metaDescription: 'Storm damage roof replacement in Newark NJ. Full replacement after severe weather with insurance claim coordination.',
   },
   {
@@ -705,7 +705,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Replace your aging roof before leaks start with modern, energy-efficient materials and warranties.',
-    metaTitle: 'Aging Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Aging Roof Replacement | Newark NJ | NQR',
     metaDescription: 'Aging roof replacement in Newark NJ. Replace your worn-out roof before costly damage with modern materials and warranties.',
   },
   {
@@ -717,7 +717,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'When repair is not enough, full roof replacement to permanently solve chronic leak problems.',
-    metaTitle: 'Roof Replacement After Leak in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Roof Replacement After Leak | Newark NJ | NQR',
     metaDescription: 'Roof replacement after leak damage in Newark NJ. Permanent solution for chronic leaks when repairs are no longer sufficient.',
   },
   {
@@ -729,7 +729,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Complete roof replacement and structural restoration after fire damage with insurance coordination.',
-    metaTitle: 'Fire Damage Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Fire Damage Roof Replacement | Newark NJ',
     metaDescription: 'Fire damage roof replacement in Newark NJ. Full structural restoration and insurance coordination after fire damage.',
   },
   {
@@ -741,7 +741,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Transparent roof replacement pricing with detailed cost breakdowns for Essex County homeowners.',
-    metaTitle: 'Roof Replacement Cost in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Roof Replacement Cost | Newark NJ Guide | NQR',
     metaDescription: 'Roof replacement cost in Newark NJ. Transparent pricing, financing options, and free detailed estimates for Essex County homes.',
   },
   {
@@ -753,7 +753,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Complete asphalt shingle roof replacement with GAF, Owens Corning, or CertainTeed products.',
-    metaTitle: 'Asphalt Shingle Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Asphalt Shingle Replacement | Newark NJ | NQR',
     metaDescription: 'Asphalt shingle roof replacement in Newark NJ. Premium shingles from GAF, Owens Corning, and CertainTeed with full warranty.',
   },
   {
@@ -765,7 +765,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Upgrade to a new metal roof for superior durability, energy efficiency, and 50+ year lifespan.',
-    metaTitle: 'Metal Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Metal Roof Replacement | Newark NJ | NQR',
     metaDescription: 'Metal roof replacement in Newark NJ. Upgrade to standing seam or metal panel roofing for 50+ years of protection.',
   },
   {
@@ -777,7 +777,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Premium slate roof replacement preserving the elegance and longevity of natural stone roofing.',
-    metaTitle: 'Slate Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Slate Roof Replacement | Newark NJ | NQR',
     metaDescription: 'Slate roof replacement in Newark NJ. Authentic natural slate installation for historic and luxury homes with 100+ year lifespan.',
   },
   {
@@ -789,7 +789,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Clay and concrete tile roof replacement for lasting beauty and Mediterranean-style curb appeal.',
-    metaTitle: 'Tile Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Tile Roof Replacement | Newark NJ | NQR',
     metaDescription: 'Tile roof replacement in Newark NJ. Beautiful clay and concrete tile options for Mediterranean and classic architectural styles.',
   },
   {
@@ -801,7 +801,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Complete flat roof replacement with modern membrane systems for leak-free, long-lasting protection.',
-    metaTitle: 'Flat Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Flat Roof Replacement | Newark NJ | NQR',
     metaDescription: 'Flat roof replacement in Newark NJ. Modern TPO, EPDM, and modified bitumen systems for residential and commercial flat roofs.',
   },
   {
@@ -813,7 +813,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: false,
     shortDescription: 'Replace aging cedar shakes with fresh, premium hand-split cedar for renewed natural beauty.',
-    metaTitle: 'Cedar Shake Roof Replacement in Newark, NJ | Newark Quality Roofing',
+    metaTitle: 'Cedar Shake Replacement | Newark NJ | NQR',
     metaDescription: 'Cedar shake roof replacement in Newark NJ. Premium hand-split cedar shakes for natural beauty and classic New England style.',
   },
 ];

@@ -10,10 +10,10 @@ interface ServiceOverviewProps {
 
 function boldFirstSentence(text: string) {
   const match = text.match(/^(.*?[.!?])\s*([\s\S]*)/);
-  if (!match) return <>{text}</>;
+  if (!match) return <>{parseRichText(text)}</>;
   return (
     <>
-      <strong className="text-forest">{match[1]}</strong> {match[2]}
+      <strong className="text-forest">{match[1]}</strong> {parseRichText(match[2])}
     </>
   );
 }
