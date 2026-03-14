@@ -17,7 +17,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Expert roofing repair and maintenance for leaks, missing shingles, and structural damage across Essex County.',
-    metaTitle: 'Roof Repair in Newark NJ | NJ Roofing Services | NQR',
+    metaTitle: 'Roof Repair in Newark NJ | Free Estimates | NQR',
     metaDescription: 'Professional roof repair in Newark NJ and Essex County. We fix leaks, storm damage, and structural issues fast. Free estimates — call today.',
   },
   {
