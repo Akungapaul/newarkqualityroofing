@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { comparisons } from '@/data/comparisons';
-import { generateCityPageSlug } from '@/lib/slug-utils';
+import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
 
 // ─── Curated residential services for footer ────────────────────────────────
 
@@ -33,6 +33,23 @@ const commercialFooterSlugs = [
   'silicone-roof-coating',
   'energy-efficient-roofing-solutions',
   'roof-waterproofing',
+];
+
+// ─── Curated combo links (service + city) for sitewide internal linking ──────
+
+const footerComboLinks: { service: string; serviceSlug: string; city: string; citySlug: string }[] = [
+  { service: 'Roof Repair', serviceSlug: 'roof-repair', city: 'Newark', citySlug: 'newark' },
+  { service: 'Roof Replacement', serviceSlug: 'roof-replacement', city: 'Newark', citySlug: 'newark' },
+  { service: 'Emergency Roof Repair', serviceSlug: 'emergency-roof-repair', city: 'Newark', citySlug: 'newark' },
+  { service: 'Roof Repair', serviceSlug: 'roof-repair', city: 'Bloomfield', citySlug: 'bloomfield' },
+  { service: 'Roof Replacement', serviceSlug: 'roof-replacement', city: 'Montclair', citySlug: 'montclair' },
+  { service: 'Roof Inspection', serviceSlug: 'roof-inspection', city: 'Newark', citySlug: 'newark' },
+  { service: 'Storm Damage Repair', serviceSlug: 'storm-damage-roof-repair', city: 'Newark', citySlug: 'newark' },
+  { service: 'Roof Repair', serviceSlug: 'roof-repair', city: 'East Orange', citySlug: 'east-orange' },
+  { service: 'Roof Replacement', serviceSlug: 'roof-replacement', city: 'Irvington', citySlug: 'irvington' },
+  { service: 'Roof Repair', serviceSlug: 'roof-repair', city: 'Montclair', citySlug: 'montclair' },
+  { service: 'Emergency Roof Repair', serviceSlug: 'emergency-roof-repair', city: 'Bloomfield', citySlug: 'bloomfield' },
+  { service: 'Roof Repair', serviceSlug: 'roof-repair', city: 'West Orange', citySlug: 'west-orange' },
 ];
 
 // ─── Curated comparison links for footer ────────────────────────────────────
@@ -104,7 +121,7 @@ export function Footer() {
     <footer className="bg-forest-dark text-text-on-dark" role="contentinfo">
       {/* Main footer grid */}
       <div className="mx-auto max-w-7xl px-4 pb-12 pt-16 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5 lg:gap-8">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-6 lg:gap-8">
           {/* Column 1: Company info + NAP */}
           <div className="lg:col-span-1">
             <Link
@@ -195,7 +212,29 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Roofing Guides */}
+          {/* Column 3: Popular Services by City (combo links) */}
+          <div>
+            <span className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
+              Popular Services by City
+            </span>
+            <ul className="space-y-0.5">
+              {footerComboLinks.map((combo) => {
+                const slug = generateComboSlug(combo.serviceSlug, combo.citySlug);
+                return (
+                  <li key={slug}>
+                    <Link
+                      href={`/${slug}`}
+                      className="font-body text-sm text-parchment/70 transition-colors duration-150 hover:text-copper-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+                    >
+                      {combo.service} in {combo.city}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+
+          {/* Column 4: Roofing Guides */}
           <div>
             <span className="mb-4 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
               Roofing Guides

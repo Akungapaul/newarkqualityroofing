@@ -15,6 +15,7 @@ import { HomepageGuides } from '@/components/sections/HomepageGuides';
 import { HomeComparisonGrid } from '@/components/sections/HomeComparisonGrid';
 import { BeforeAfterGallery } from '@/components/sections/BeforeAfterGallery';
 import { getComparisonMenuGroups } from '@/data/nav-data';
+import { FeaturedCombos } from '@/components/sections/FeaturedCombos';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { testimonials } from '@/data/testimonials';
 import { faqItems } from '@/data/faq';
@@ -109,6 +110,9 @@ export default function Home() {
 
       {/* Social proof: customer testimonials */}
       <TestimonialCarousel testimonials={testimonials} />
+
+      {/* Popular services by city — combo page links for internal linking */}
+      <FeaturedCombos />
 
       {/* Service area: all 21 Essex County cities — H2 */}
       <LocationsGrid />

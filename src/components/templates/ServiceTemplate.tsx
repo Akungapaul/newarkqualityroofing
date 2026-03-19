@@ -38,6 +38,7 @@ import {
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
 import { getContentPoolImages } from '@/data/image-manifest';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
@@ -310,6 +311,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           />
         </StickyFormSidebar>
       </div>
+
+      <ServiceAreasGrid service={service} />
 
       <RelatedServices services={relatedServices} />
 
