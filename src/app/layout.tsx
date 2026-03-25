@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Cormorant, Cormorant_Garamond } from "next/font/google";
 import { getServiceMenuGroups, getCityMenuItems, getComparisonMenuGroups } from "@/data/nav-data";
 import { siteConfig } from "@/data/site-config";
@@ -7,6 +8,8 @@ import { Footer } from "@/components/layout/Footer";
 import { PreloadResources } from "./preload-resources";
 import { MotionProvider } from "@/components/animations/MotionProvider";
 import "./globals.css";
+
+const GA_MEASUREMENT_ID = "G-B8B35BVZ54";
 
 const cormorant = Cormorant({
   variable: "--font-cormorant",
@@ -77,6 +80,18 @@ export default function RootLayout({
     <html lang="en" className={`${cormorant.variable} ${cormorantGaramond.variable}`}>
       <head>
         <meta name="theme-color" content="#1A3A2A" />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
       </head>
       <body className="flex min-h-screen flex-col antialiased">
         <PreloadResources />
