@@ -129,7 +129,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
 
           {/* Why Choose Us -- before FAQs */}
           {content.whyChooseUs && content.whyChooseUs.length > 0 && (
-            <AnimateIn><ComboWhyChooseUs reasons={content.whyChooseUs} /></AnimateIn>
+            <AnimateIn><ComboWhyChooseUs reasons={content.whyChooseUs} serviceName={service.name} cityName={city.name} /></AnimateIn>
           )}
 
           <AnimateIn><ComboFaqs faqs={content.faqs} /></AnimateIn>

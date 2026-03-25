@@ -13,7 +13,7 @@ export function ComboFaqs({ faqs }: ComboFaqsProps) {
       </h2>
       <div className="mt-6 divide-y divide-border">
         {faqs.map((faq, index) => (
-          <details key={index} className="group">
+          <details key={index} className="group" open={index === 0}>
             <summary className="flex cursor-pointer items-center justify-between py-4 font-heading text-base font-semibold text-forest transition-colors hover:text-copper [&::-webkit-details-marker]:hidden">
               <span>{faq.question}</span>
               <svg

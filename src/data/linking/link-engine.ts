@@ -92,23 +92,44 @@ export function getNearbyCityLinks(service: Service, city: City): NearbyLink[] {
     .filter((link): link is NearbyLink => link !== null);
 }
 
+// ─── Related-category affinity map ──────────────────────────────────────────
+// For each category, list the most closely related categories (in priority order).
+// This ensures contextual linking — a roof repair page links to other repair
+// services and related residential roof types, not every category on the site.
+const relatedCategories: Record<string, string[]> = {
+  'repair-maintenance': ['components-specialty', 'residential-roof-types'],
+  'residential-roof-types': ['repair-maintenance', 'replacement-sub-pages'],
+  'commercial-roof-types': ['commercial-services', 'energy-solar'],
+  'components-specialty': ['repair-maintenance', 'residential-roof-types'],
+  'energy-solar': ['commercial-roof-types', 'residential-roof-types'],
+  'commercial-services': ['commercial-roof-types', 'energy-solar'],
+  'design-consultation': ['residential-roof-types', 'replacement-sub-pages'],
+  'replacement-sub-pages': ['repair-maintenance', 'residential-roof-types'],
+};
+
 /**
  * Get other services available in the same city, grouped by category.
- * Returns top 3-5 per category, excluding the current service.
+ * Returns contextually relevant services: all from the same category,
+ * plus a few from the most closely related categories.
+ * Capped at ~15 total links for SEO (avoids thin duplicate link blocks).
  */
 export function getRelatedServiceLinks(
   currentService: Service,
   city: City,
 ): GroupedRelatedServices[] {
-  const MAX_PER_CATEGORY = 5;
+  const MAX_SAME_CATEGORY = 5;
+  const MAX_RELATED_PER_CATEGORY = 3;
+  const MAX_RELATED_CATEGORIES = 2;
 
   const grouped = new Map<string, RelatedServiceLink[]>();
 
+  // 1. Same category — show up to MAX_SAME_CATEGORY
   for (const service of services) {
     if (service.id === currentService.id) continue;
+    if (service.category !== currentService.category) continue;
 
     const existing = grouped.get(service.category) ?? [];
-    if (existing.length >= MAX_PER_CATEGORY) continue;
+    if (existing.length >= MAX_SAME_CATEGORY) continue;
 
     existing.push({
       name: service.name,
@@ -116,6 +137,31 @@ export function getRelatedServiceLinks(
       category: service.category,
     });
     grouped.set(service.category, existing);
+  }
+
+  // 2. Related categories — show up to MAX_RELATED_PER_CATEGORY from each
+  const related = relatedCategories[currentService.category] ?? [];
+  let relatedCategoriesAdded = 0;
+
+  for (const relCat of related) {
+    if (relatedCategoriesAdded >= MAX_RELATED_CATEGORIES) break;
+
+    const catServices: RelatedServiceLink[] = [];
+    for (const service of services) {
+      if (service.category !== relCat) continue;
+      if (catServices.length >= MAX_RELATED_PER_CATEGORY) break;
+
+      catServices.push({
+        name: service.name,
+        slug: generateComboSlug(service.slug, city.slug),
+        category: service.category,
+      });
+    }
+
+    if (catServices.length > 0) {
+      grouped.set(relCat, catServices);
+      relatedCategoriesAdded++;
+    }
   }
 
   return Array.from(grouped.entries())
@@ -126,6 +172,8 @@ export function getRelatedServiceLinks(
     }))
     .sort(
       (a, b) =>
+        // Current category first, then by standard order
+        (a.category === currentService.category ? -1 : b.category === currentService.category ? 1 : 0) ||
         Object.keys(categoryLabels).indexOf(a.category) -
         Object.keys(categoryLabels).indexOf(b.category),
     );

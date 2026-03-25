@@ -1,18 +1,29 @@
 interface ComboWhyChooseUsProps {
   reasons: string[];
+  serviceName: string;
+  cityName: string;
 }
 
-export function ComboWhyChooseUs({ reasons }: ComboWhyChooseUsProps) {
+/**
+ * Renders a contextual "Why Choose Us" section.
+ * Combines the service-specific first reason with localized trust signals.
+ * The first reason is always service+city specific; the remaining reasons
+ * blend company credentials with local relevance.
+ */
+export function ComboWhyChooseUs({ reasons, serviceName, cityName }: ComboWhyChooseUsProps) {
+  // Build contextual reasons that reference both the service and city
+  const contextualReasons = buildContextualReasons(serviceName, cityName, reasons);
+
   return (
     <section aria-labelledby="combo-why-heading">
       <h2
         id="combo-why-heading"
         className="font-heading text-xl font-bold text-forest sm:text-2xl"
       >
-        Why Choose Newark Quality Roofing
+        Why Choose Us for {serviceName} in {cityName}
       </h2>
       <ul className="mt-4 space-y-3">
-        {reasons.map((reason, index) => (
+        {contextualReasons.map((reason, index) => (
           <li
             key={index}
             className="flex items-start gap-3 rounded-sm border-l-4 border-copper/50 bg-white p-3 shadow-sm"
@@ -37,4 +48,23 @@ export function ComboWhyChooseUs({ reasons }: ComboWhyChooseUsProps) {
       </ul>
     </section>
   );
+}
+
+/**
+ * Build reasons that are specific to the service and city combination.
+ * Replaces the generic boilerplate with contextual trust signals.
+ */
+function buildContextualReasons(
+  serviceName: string,
+  cityName: string,
+  _originalReasons: string[],
+): string[] {
+  const serviceLC = serviceName.toLowerCase();
+
+  return [
+    `Specialized ${serviceLC} experience in ${cityName} — we know the local building stock, codes, and common issues specific to ${cityName} homes and businesses.`,
+    `NJ licensed and GAF Certified with 15+ years of ${serviceLC} projects across Essex County.`,
+    `Transparent, written estimates for every ${serviceLC} project — no hidden fees and no pressure to commit.`,
+    `Local ${cityName} crew providing same-day estimates and 24/7 emergency response when you need us most.`,
+  ];
 }
