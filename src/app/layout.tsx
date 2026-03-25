@@ -9,7 +9,7 @@ import { PreloadResources } from "./preload-resources";
 import { MotionProvider } from "@/components/animations/MotionProvider";
 import "./globals.css";
 
-const GA_MEASUREMENT_ID = "G-NC5N7CLMND";
+const GA_MEASUREMENT_ID = "G-B8B35BVZ54";
 
 const cormorant = Cormorant({
   variable: "--font-cormorant",
