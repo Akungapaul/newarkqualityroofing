@@ -10,13 +10,11 @@ const KEY_LOCATION = `${BASE_URL}/${KEY}.txt`;
 
 // IndexNow endpoints
 const ENDPOINTS = [
-  'https://api.indexnow.org/indexnow',
   'https://www.bing.com/indexnow',
   'https://yandex.com/indexnow',
 ];
 
 async function getAllUrls() {
-  // Dynamic import of TS files via tsx
   const { services } = await import('../src/data/services.ts');
   const { cities } = await import('../src/data/cities.ts');
   const { combos } = await import('../src/data/combos.ts');
@@ -25,19 +23,12 @@ async function getAllUrls() {
   const { corePages } = await import('../src/data/core-pages.ts');
 
   const urls = [
-    // Homepage
     BASE_URL,
-    // Core pages
     ...corePages.map((p) => `${BASE_URL}/${p.slug}`),
-    // Services
     ...services.map((s) => `${BASE_URL}/${s.slug}`),
-    // Cities
     ...cities.map((c) => `${BASE_URL}/roofing-in-${c.slug}-nj`),
-    // Combos
     ...combos.map((c) => `${BASE_URL}/${c.slug}`),
-    // Comparisons
     ...comparisons.map((c) => `${BASE_URL}/${c.slug}`),
-    // Articles
     ...articles.map((a) => `${BASE_URL}/${a.slug}`),
   ];
 
@@ -61,28 +52,46 @@ async function submitBatch(endpoint, urlBatch) {
   return { status: res.status, ok: res.ok };
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function main() {
   const urls = await getAllUrls();
   console.log(`Found ${urls.length} URLs to submit\n`);
 
-  // IndexNow accepts up to 10,000 URLs per request
-  const BATCH_SIZE = 10000;
+  // Use smaller batches for compatibility
+  const BATCH_SIZE = 500;
 
   for (const endpoint of ENDPOINTS) {
     const name = new URL(endpoint).hostname;
     console.log(`Submitting to ${name}...`);
+    let totalOk = 0;
 
     for (let i = 0; i < urls.length; i += BATCH_SIZE) {
       const batch = urls.slice(i, i + BATCH_SIZE);
       try {
         const { status, ok } = await submitBatch(endpoint, batch);
-        const label = ok ? 'OK' : 'ISSUE';
-        console.log(`  Batch ${Math.floor(i / BATCH_SIZE) + 1}: ${label} (HTTP ${status}) - ${batch.length} URLs`);
+        const label = ok ? 'OK' : `ISSUE (${status})`;
+        console.log(`  Batch ${Math.floor(i / BATCH_SIZE) + 1}: ${label} - ${batch.length} URLs`);
+        if (ok) totalOk += batch.length;
       } catch (err) {
         console.log(`  Batch ${Math.floor(i / BATCH_SIZE) + 1}: FAILED - ${err.message}`);
       }
+      // Small delay between batches
+      await sleep(1000);
     }
-    console.log();
+    console.log(`  Total accepted: ${totalOk}/${urls.length}\n`);
+  }
+
+  // Ping Google to re-read sitemaps
+  console.log('Pinging Google sitemap...');
+  try {
+    const pingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(`${BASE_URL}/sitemap.xml`)}`;
+    const res = await fetch(pingUrl);
+    console.log(`  Google ping: ${res.ok ? 'OK' : `ISSUE (${res.status})`}\n`);
+  } catch (err) {
+    console.log(`  Google ping: FAILED - ${err.message}\n`);
   }
 
   console.log('Done!');

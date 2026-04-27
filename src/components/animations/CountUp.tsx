@@ -21,7 +21,7 @@ export function CountUp({
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true });
   const [value, setValue] = useState(0);
-  const [hasAnimated, setHasAnimated] = useState(false);
+  const hasAnimatedRef = useRef(false);
 
   const prefersReducedMotion = useCallback(() => {
     if (typeof window === 'undefined') return false;
@@ -29,15 +29,15 @@ export function CountUp({
   }, []);
 
   useEffect(() => {
-    if (!isInView || hasAnimated) return;
+    if (!isInView || hasAnimatedRef.current) return;
+
+    hasAnimatedRef.current = true;
 
     if (prefersReducedMotion()) {
-      setValue(target);
-      setHasAnimated(true);
+      requestAnimationFrame(() => setValue(target));
       return;
     }
 
-    setHasAnimated(true);
     const startTime = performance.now();
 
     function animate(currentTime: number) {
@@ -56,7 +56,7 @@ export function CountUp({
     }
 
     requestAnimationFrame(animate);
-  }, [isInView, target, duration, hasAnimated, prefersReducedMotion]);
+  }, [isInView, target, duration, prefersReducedMotion]);
 
   return (
     <span ref={ref} className={className}>

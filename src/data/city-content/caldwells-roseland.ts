@@ -390,7 +390,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         },
       ],
     },
-    metaTitle: 'Roofing Services in North Caldwell, NJ | Newark Quality Roofing',
+    metaTitle: 'Roofing Services in North Caldwell, NJ | NQR',
     metaDescription:
       'Premium roofing for North Caldwell, NJ estates. Slate, cedar shake, copper, and architectural shingle specialists. Trusted by North Caldwell homeowners.',
     pricing: {

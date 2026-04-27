@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { corePages } from '@/data/core-pages';
@@ -91,12 +92,12 @@ export default function SitemapPage() {
             </h2>
             <ul className="space-y-1.5">
               <li>
-                <a
+                <Link
                   href="/"
                   className="font-body text-copper underline-offset-2 hover:underline"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               {corePages.map((page) => (
                 <li key={page.id}>

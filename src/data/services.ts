@@ -525,7 +525,7 @@ const rawServices: Service[] = [
     isResidential: false,
     isCommercial: true,
     shortDescription: 'Elastomeric silicone coatings that stretch and seal to protect flat and low-slope commercial roofs from leaks and UV damage.',
-    metaTitle: 'Elastomeric Roof Coating | Newark NJ | NQR',
+    metaTitle: 'Silicone Elastomeric Roof Coating | Newark NJ | NQR',
     metaDescription: 'Silicone elastomeric roof coating in Newark NJ. Flexible, waterproof coating for commercial flat roofs. Extends roof life 15+ years.',
   },
 

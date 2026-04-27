@@ -39,9 +39,9 @@ export function ServiceProcess({ steps, image }: ServiceProcessProps) {
               {index + 1}
             </div>
             <div className="pt-1">
-              <h3 className="font-heading text-lg font-bold text-forest">
+              <h4 className="font-heading text-lg font-bold text-forest">
                 {step.title}
-              </h3>
+              </h4>
               <p className="mt-1 font-body text-base leading-relaxed text-text-secondary">
                 {parseRichText(step.description)}
               </p>

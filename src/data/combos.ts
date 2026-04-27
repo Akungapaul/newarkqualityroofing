@@ -4,7 +4,7 @@ import type { Combo } from '@/lib/types';
 import { services } from './services';
 import { cities } from './cities';
 import { generateComboSlug } from '@/lib/slug-utils';
-import { buildComboDescription } from '@/lib/seo-utils';
+import { buildComboDescription, buildComboTitle } from '@/lib/seo-utils';
 
 // ─── Generate All Service x City Combos ─────────────────────────────────────
 
@@ -15,14 +15,8 @@ function buildCombos(): Combo[] {
     for (const city of cities) {
       const slug = generateComboSlug(service.slug, city.slug);
 
-      // Build meta title, ensure under 70 chars
-      let metaTitle = `${service.name} in ${city.name}, NJ | Newark Quality Roofing`;
-      if (metaTitle.length > 70) {
-        metaTitle = `${service.name} in ${city.name}, NJ | NQR`;
-      }
-      if (metaTitle.length > 70) {
-        metaTitle = `${service.name} in ${city.name}, NJ`;
-      }
+      // Build compact meta title, target <= 60 chars for SERP display
+      const metaTitle = buildComboTitle(service, city);
 
       // Build enriched meta description with pricing + differentiators
       const metaDescription = buildComboDescription(service, city);

@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Cormorant, Cormorant_Garamond } from "next/font/google";
 import { getServiceMenuGroups, getCityMenuItems, getComparisonMenuGroups } from "@/data/nav-data";
 import { siteConfig } from "@/data/site-config";
+import { SEO_CONFIG } from "@/lib/seo-config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PreloadResources } from "./preload-resources";
@@ -26,7 +27,7 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.newarkqualityroofing.com'),
+  metadataBase: new URL(SEO_CONFIG.BASE_URL),
   title: "Newark Quality Roofing | Expert Roofing Services in Essex County, NJ",
   description:
     "Professional roofing contractor serving Essex County and Northern New Jersey. Expert roof repair, replacement, and installation with free estimates and licensed, insured service.",
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Newark Quality Roofing | Expert Roofing Services in Essex County, NJ',
     description: 'Professional roofing contractor serving Essex County and Northern New Jersey. Expert roof repair, replacement, and installation with free estimates.',
-    url: 'https://www.newarkqualityroofing.com',
+    url: SEO_CONFIG.BASE_URL,
     siteName: 'Newark Quality Roofing',
     images: [
       {

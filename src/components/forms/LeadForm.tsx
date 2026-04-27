@@ -1,6 +1,6 @@
 'use client';
 
-import { useActionState } from 'react';
+import { useActionState, useState, useEffect } from 'react';
 import { submitLead, type LeadFormState } from '@/app/actions/submit-lead';
 import { SubmitButton } from './SubmitButton';
 import type { NavServiceGroup } from '@/data/nav-data';
@@ -37,6 +37,11 @@ export function LeadForm({
   serviceGroups,
 }: LeadFormProps) {
   const [state, formAction] = useActionState(submitLead, initialState);
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setHydrated(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
 
   const isHero = variant === 'hero';
 
@@ -121,15 +126,21 @@ export function LeadForm({
             <option value="" disabled>
               Select a service...
             </option>
-            {serviceGroups.map((group) => (
-              <optgroup key={group.category} label={group.categoryLabel}>
-                {group.services.map((service) => (
-                  <option key={service.slug} value={service.slug}>
-                    {service.name}
-                  </option>
-                ))}
-              </optgroup>
-            ))}
+            {hydrated ? (
+              serviceGroups.map((group) => (
+                <optgroup key={group.category} label={group.categoryLabel}>
+                  {group.services.map((service) => (
+                    <option key={service.slug} value={service.slug}>
+                      {service.name}
+                    </option>
+                  ))}
+                </optgroup>
+              ))
+            ) : (
+              defaultService && (
+                <option value={defaultService}>{defaultService.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}</option>
+              )
+            )}
           </select>
           {/* Custom chevron */}
           <svg

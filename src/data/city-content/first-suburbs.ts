@@ -1300,7 +1300,7 @@ export const firstSuburbsContent: CityContent[] = [
       ],
     },
 
-    metaTitle: 'Roofing Services in South Orange, NJ | Newark Quality Roofing',
+    metaTitle: 'Roofing Services in South Orange, NJ | NQR',
     metaDescription:
       'Premier roofing in South Orange, NJ. Slate restoration, cedar shake installation, and copper work for Montrose Park estates and village homes. Free estimates.',
     pricing: {

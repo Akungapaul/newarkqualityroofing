@@ -16,6 +16,32 @@ function cap(text: string, max = 160): string {
   return lastSpace > 80 ? trimmed.slice(0, lastSpace) + '…' : trimmed.slice(0, max - 1) + '…';
 }
 
+
+// ─── Title Builders ─────────────────────────────────────────────────────────
+
+/** Keep SERP titles compact while preserving service + city intent. */
+export function buildComboTitle(service: Service, city: City): string {
+  const candidates = [
+    `${service.name} in ${city.name}, NJ | NQR`,
+    `${service.name} ${city.name} NJ | NQR`,
+    `${service.name} ${city.name} NJ`,
+    `${service.name} | ${city.name} NJ`,
+  ];
+
+  return candidates.find((title) => title.length <= 60) ?? cap(`${service.name} ${city.name} NJ`, 60);
+}
+
+/** City page title with compact fallback for longer municipality names. */
+export function buildCityTitle(city: City): string {
+  const candidates = [
+    `Roofing Services in ${city.name}, NJ | Newark Quality Roofing`,
+    `Roofing Services in ${city.name}, NJ | NQR`,
+    `Roofing Services ${city.name} NJ | NQR`,
+  ];
+
+  return candidates.find((title) => title.length <= 60) ?? cap(`Roofing Services ${city.name} NJ`, 60);
+}
+
 // ─── Combo Descriptions ─────────────────────────────────────────────────────
 
 export function buildComboDescription(service: Service, city: City): string {

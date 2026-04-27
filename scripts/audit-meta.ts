@@ -9,6 +9,7 @@ import { combos } from '@/data/combos';
 import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
+import { getCityContent } from '@/data/city-content';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -96,18 +97,16 @@ function main() {
     allIssues.push(...checkMeta('service', service.id, service.metaTitle, service.metaDescription));
   }
 
-  // Cities (meta comes from city content, but base data has metaTitle-equivalent)
+  // Cities
   for (const city of cities) {
     totalPages++;
-    // City pages use getCityContent().metaTitle — check the base city data name as proxy
-    // The actual metaTitle is in city-content files; for a full audit we'd import those too
-    // For now, flag if city name is present (basic check)
+    const cityContent = getCityContent(city.id);
     allIssues.push(
       ...checkMeta(
         'city',
         city.id,
-        `Roofing Services in ${city.name}, NJ | Newark Quality Roofing`,
-        `Professional roofing services in ${city.name}, NJ.`,
+        cityContent.metaTitle,
+        cityContent.metaDescription,
       ),
     );
   }

@@ -66,10 +66,13 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
 
   useEffect(() => {
     const mql = window.matchMedia('(prefers-reduced-motion: reduce)');
-    setPrefersReducedMotion(mql.matches);
+    const frame = requestAnimationFrame(() => setPrefersReducedMotion(mql.matches));
     const handler = (e: MediaQueryListEvent) => setPrefersReducedMotion(e.matches);
     mql.addEventListener('change', handler);
-    return () => mql.removeEventListener('change', handler);
+    return () => {
+      cancelAnimationFrame(frame);
+      mql.removeEventListener('change', handler);
+    };
   }, []);
 
   const next = useCallback(() => {
