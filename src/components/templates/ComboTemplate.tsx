@@ -32,6 +32,7 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 import { generateComboSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getServiceHeroImage } from '@/data/image-manifest';
+import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -93,6 +94,8 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           <AnimateIn><ComboOverview paragraphs={content.overview} image={comboOverviewImage} /></AnimateIn>
 
           <AnimateIn><ComboChallenges paragraphs={content.challenges} cityName={city.name} /></AnimateIn>
+
+          <AnimateIn><ContentAuthorityBlock service={service} city={city} pageType="combo" /></AnimateIn>
 
           {/* Mid-content CTA -- natural break after problem, before solution */}
           <AnimateIn>

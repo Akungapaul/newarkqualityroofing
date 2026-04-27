@@ -24,6 +24,7 @@ import {
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 
 // ─── Content loader (graceful fallback until Plan 03 creates aggregator) ──
 
@@ -83,6 +84,8 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
               paragraphs={content.introParagraphs}
             />
           </AnimateIn>
+
+          <AnimateIn><ContentAuthorityBlock pageType="comparison" /></AnimateIn>
 
           <AnimateIn>
             <ComparisonTable

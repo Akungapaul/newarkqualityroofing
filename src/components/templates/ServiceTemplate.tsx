@@ -39,6 +39,7 @@ import {
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
+import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 import { getContentPoolImages } from '@/data/image-manifest';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
@@ -210,6 +211,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
           <AnimateIn><ServiceOverview paragraphs={content.overview} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
+
+          <AnimateIn><ContentAuthorityBlock service={service} pageType="service" /></AnimateIn>
 
           <AnimateIn><ServiceSigns heading={content.signsHeading} signs={content.signs} /></AnimateIn>
 

@@ -7,6 +7,7 @@ import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
 import { generateCityPageSlug } from '@/lib/slug-utils';
+import { getComboChangeFrequency, getComboSitemapPriority, isPriorityCity, isPriorityService } from '@/data/seo-priority';
 
 // ─── Sitemap IDs ────────────────────────────────────────────────────────────
 
@@ -48,25 +49,29 @@ export default async function sitemap({
       return services.map((service) => ({
         url: `${BASE_URL}/${service.slug}`,
         lastModified: NOW,
-        changeFrequency: 'weekly' as const,
-        priority: 0.9,
+        changeFrequency: isPriorityService(service) ? 'weekly' as const : 'monthly' as const,
+        priority: isPriorityService(service) ? 0.95 : 0.75,
       }));
 
     case 'cities':
       return cities.map((city) => ({
         url: `${BASE_URL}/${generateCityPageSlug(city.slug)}`,
         lastModified: NOW,
-        changeFrequency: 'weekly' as const,
-        priority: 0.8,
+        changeFrequency: isPriorityCity(city) ? 'weekly' as const : 'monthly' as const,
+        priority: isPriorityCity(city) ? 0.9 : 0.65,
       }));
 
     case 'combos':
-      return combos.map((combo) => ({
-        url: `${BASE_URL}/${combo.slug}`,
-        lastModified: NOW,
-        changeFrequency: 'monthly' as const,
-        priority: 0.8,
-      }));
+      return combos.map((combo) => {
+        const service = services.find((item) => item.id === combo.serviceId);
+        const city = cities.find((item) => item.id === combo.cityId);
+        return {
+          url: `${BASE_URL}/${combo.slug}`,
+          lastModified: NOW,
+          changeFrequency: service && city ? getComboChangeFrequency(service, city) : 'yearly' as const,
+          priority: service && city ? getComboSitemapPriority(service, city) : 0.35,
+        };
+      });
 
     case 'comparisons':
       return comparisons.map((comparison) => ({

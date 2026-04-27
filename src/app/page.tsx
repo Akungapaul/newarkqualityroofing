@@ -16,6 +16,7 @@ import { HomeComparisonGrid } from '@/components/sections/HomeComparisonGrid';
 import { BeforeAfterGallery } from '@/components/sections/BeforeAfterGallery';
 import { getComparisonMenuGroups } from '@/data/nav-data';
 import { FeaturedCombos } from '@/components/sections/FeaturedCombos';
+import { PriorityIndexingHub } from '@/components/sections/PriorityIndexingHub';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { testimonials } from '@/data/testimonials';
 import { faqItems } from '@/data/faq';
@@ -95,6 +96,9 @@ export default function Home() {
 
       {/* Services: residential + commercial grid — H2 + 2 H3s + 2 H4s */}
       <ServicesGrid />
+
+      {/* Priority crawl/indexing hub for the pages most likely to earn commercial impressions first */}
+      <PriorityIndexingHub />
 
       {/* Residential & commercial deep content — 1 H2 + 1 H3 + image */}
       <HomeResidentialCommercial />

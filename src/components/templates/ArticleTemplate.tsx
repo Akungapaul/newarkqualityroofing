@@ -16,6 +16,8 @@ import {
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getServiceHeroImage, getContentPoolImages } from '@/data/image-manifest';
+import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
+import { services } from '@/data/services';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -145,6 +147,9 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
   }
 
   const wordCount = countWords(content);
+  const parentService = article.parentType === 'service'
+    ? services.find((service) => service.id === article.parentId)
+    : undefined;
 
   return (
     <>
@@ -174,6 +179,10 @@ export default function ArticleTemplate({ article }: ArticleTemplateProps) {
             conclusion={content.conclusion}
             sectionImage={sectionImage}
           />
+        </AnimateIn>
+
+        <AnimateIn>
+          <ContentAuthorityBlock service={parentService} pageType="article" />
         </AnimateIn>
 
         <AnimateIn>

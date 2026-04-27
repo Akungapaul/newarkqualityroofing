@@ -35,6 +35,7 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getGalleryPairs } from '@/data/image-manifest';
+import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 
 // ─── Table of Contents sections ─────────────────────────────────────────────
 
@@ -125,6 +126,8 @@ export default function CityTemplate({ city }: CityTemplateProps) {
                 />
               </section>
             </AnimateIn>
+
+            <AnimateIn><ContentAuthorityBlock city={city} pageType="city" /></AnimateIn>
 
             <AnimateIn>
               <section id="residential" aria-labelledby="residential-heading">
