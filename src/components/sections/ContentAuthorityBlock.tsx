@@ -12,6 +12,80 @@ interface ContentAuthorityBlockProps {
   pageType: 'service' | 'city' | 'combo' | 'comparison' | 'article';
 }
 
+interface OpportunityLink {
+  serviceId: string;
+  cityId: string;
+  reason: string;
+}
+
+const gscServiceOpportunities: Record<string, OpportunityLink[]> = {
+  'roof-leak-repair': [
+    { serviceId: 'roof-leak-repair', cityId: 'newark', reason: 'Top GSC query cluster: roof leak repair NJ' },
+    { serviceId: 'roof-leak-repair', cityId: 'glen-ridge', reason: 'Early local impression signal' },
+    { serviceId: 'roof-leak-repair', cityId: 'cedar-grove', reason: 'Early local impression signal' },
+  ],
+  'emergency-roof-repair': [
+    { serviceId: 'emergency-roof-repair', cityId: 'newark', reason: 'Strong 24-hour emergency repair query demand' },
+    { serviceId: 'emergency-roof-repair', cityId: 'east-orange', reason: 'Adjacent-city emergency route' },
+    { serviceId: 'emergency-roof-repair', cityId: 'irvington', reason: 'Adjacent-city emergency route' },
+  ],
+  'roof-replacement': [
+    { serviceId: 'roof-replacement', cityId: 'newark', reason: 'GSC query: roof replacement Newark NJ' },
+    { serviceId: 'roof-replacement', cityId: 'south-orange', reason: 'Replacement page already earning impressions' },
+    { serviceId: 'roof-replacement', cityId: 'millburn', reason: 'Replacement page already earning impressions' },
+  ],
+  'roof-repair': [
+    { serviceId: 'roof-repair', cityId: 'newark', reason: 'GSC query: roof repair Newark' },
+    { serviceId: 'roof-repair', cityId: 'irvington', reason: 'Local repair page already earning impressions' },
+    { serviceId: 'roof-repair', cityId: 'belleville', reason: 'Local repair page already earning impressions' },
+    { serviceId: 'roof-repair', cityId: 'caldwell', reason: 'Local repair page already earning impressions' },
+  ],
+  'roof-inspection': [
+    { serviceId: 'roof-inspection', cityId: 'newark', reason: 'Inspection pillar has GSC impressions' },
+    { serviceId: 'roof-inspection', cityId: 'east-orange', reason: 'Local inspection page already earning impressions' },
+    { serviceId: 'roof-inspection', cityId: 'fairfield', reason: 'Local inspection page already earning impressions' },
+  ],
+  'built-up-roofing': [
+    { serviceId: 'built-up-roofing', cityId: 'newark', reason: 'Commercial comparison demand supports local BUR page' },
+    { serviceId: 'built-up-roofing', cityId: 'millburn', reason: 'Local BUR page already earning impressions' },
+  ],
+  'silicone-elastomeric-roof-coating': [
+    { serviceId: 'silicone-elastomeric-roof-coating', cityId: 'newark', reason: 'Coating page has early search visibility' },
+    { serviceId: 'silicone-elastomeric-roof-coating', cityId: 'east-orange', reason: 'Local coating page already earning impressions' },
+    { serviceId: 'silicone-elastomeric-roof-coating', cityId: 'belleville', reason: 'Local coating page already earning impressions' },
+  ],
+  'soffit-installation-repair': [
+    { serviceId: 'soffit-installation-repair', cityId: 'cedar-grove', reason: 'Soffit page has early search visibility' },
+    { serviceId: 'soffit-installation-repair', cityId: 'maplewood', reason: 'Soffit page has early search visibility' },
+  ],
+};
+
+const gscCityOpportunities: Record<string, OpportunityLink[]> = {
+  newark: [
+    { serviceId: 'roof-leak-repair', cityId: 'newark', reason: 'Highest-impression service cluster' },
+    { serviceId: 'emergency-roof-repair', cityId: 'newark', reason: '24-hour emergency repair demand' },
+    { serviceId: 'roof-replacement', cityId: 'newark', reason: 'Replacement query demand' },
+    { serviceId: 'roof-repair', cityId: 'newark', reason: 'Core Newark repair intent' },
+    { serviceId: 'commercial-roof-installation', cityId: 'newark', reason: 'Commercial Newark money page' },
+    { serviceId: 'flat-roof-installation-repair', cityId: 'newark', reason: 'Flat-roof query demand' },
+  ],
+  'east-orange': [
+    { serviceId: 'emergency-roof-repair', cityId: 'east-orange', reason: 'Emergency repair route from indexed city page' },
+    { serviceId: 'roof-inspection', cityId: 'east-orange', reason: 'Inspection page has early impressions' },
+    { serviceId: 'storm-damage-roof-replacement', cityId: 'east-orange', reason: 'Storm replacement page has early impressions' },
+    { serviceId: 'silicone-elastomeric-roof-coating', cityId: 'east-orange', reason: 'Coating page has early impressions' },
+  ],
+  orange: [
+    { serviceId: 'roof-repair', cityId: 'orange', reason: 'Core repair route from indexed city page' },
+    { serviceId: 'storm-damage-roof-repair', cityId: 'orange', reason: 'Storm repair page has early impressions' },
+    { serviceId: 'roof-replacement', cityId: 'orange', reason: 'Replacement intent route' },
+    { serviceId: 'emergency-roof-repair', cityId: 'orange', reason: 'Emergency repair intent route' },
+  ],
+};
+
+const serviceById = new Map(services.map((item) => [item.id, item]));
+const cityById = new Map(cities.map((item) => [item.id, item]));
+
 function PillList({ items }: { items: string[] }) {
   return (
     <ul className="mt-3 flex flex-wrap gap-2">
@@ -29,6 +103,11 @@ export function ContentAuthorityBlock({ service, city, pageType }: ContentAuthor
   const serviceProfile = service ? getServiceProofProfile(service) : null;
   const priorityServices = services.filter((s) => PRIORITY_SERVICE_IDS.includes(s.id as (typeof PRIORITY_SERVICE_IDS)[number])).slice(0, 6);
   const priorityCities = cities.filter((c) => PRIORITY_CITY_IDS.includes(c.id as (typeof PRIORITY_CITY_IDS)[number])).slice(0, 6);
+  const opportunityLinks = service && !city
+    ? (gscServiceOpportunities[service.id] ?? [])
+    : city && !service
+      ? (gscCityOpportunities[city.id] ?? [])
+      : [];
 
   const title = city && service
     ? `Why ${service.name} in ${city.name} needs a local roofing plan`
@@ -90,6 +169,37 @@ export function ContentAuthorityBlock({ service, city, pageType }: ContentAuthor
           </div>
         )}
       </div>
+
+      {opportunityLinks.length > 0 && (
+        <div className="mt-6 rounded-lg border border-copper/30 bg-copper/5 p-4">
+          <h3 className="font-heading text-lg font-semibold text-forest">Search Console opportunity routes</h3>
+          <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
+            These are the local money pages we want Google to recrawl from pages already getting impressions.
+          </p>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+            {opportunityLinks.map((link) => {
+              const linkedService = serviceById.get(link.serviceId);
+              const linkedCity = cityById.get(link.cityId);
+              if (!linkedService || !linkedCity) return null;
+              return (
+                <li key={`${link.serviceId}:${link.cityId}`}>
+                  <Link
+                    href={`/${generateComboSlug(linkedService.slug, linkedCity.slug)}`}
+                    className="block rounded-md border border-border bg-white p-3 transition-colors hover:border-copper"
+                  >
+                    <span className="block font-body text-sm font-semibold text-copper underline-offset-2 hover:underline">
+                      {linkedService.name} in {linkedCity.name}, NJ
+                    </span>
+                    <span className="mt-1 block font-body text-xs leading-relaxed text-text-secondary">
+                      {link.reason}
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
 
       <div className="mt-6 rounded-lg border border-forest/10 bg-forest/5 p-4">
         <h3 className="font-heading text-lg font-semibold text-forest">Priority crawl paths</h3>
