@@ -39,9 +39,15 @@ const commercialFooterSlugs = [
 
 const footerComboLinks: { service: string; serviceSlug: string; city: string; citySlug: string }[] = [
   { service: 'Roof Repair', serviceSlug: 'roof-repair', city: 'Newark', citySlug: 'newark' },
+  { service: 'Roof Leak Repair', serviceSlug: 'roof-leak-repair', city: 'Newark', citySlug: 'newark' },
+  { service: '24 Hour Emergency Roof Repair', serviceSlug: 'emergency-roof-repair', city: 'Newark', citySlug: 'newark' },
   { service: 'Roof Replacement', serviceSlug: 'roof-replacement', city: 'Newark', citySlug: 'newark' },
+  { service: 'Flat Roof Installation', serviceSlug: 'flat-roof-installation-repair', city: 'Newark', citySlug: 'newark' },
   { service: 'Emergency Roof Repair', serviceSlug: 'emergency-roof-repair', city: 'Newark', citySlug: 'newark' },
+  { service: 'Green Roof Installation', serviceSlug: 'green-roof-installation', city: 'Newark', citySlug: 'newark' },
+  { service: 'Modified Bitumen Roofing', serviceSlug: 'modified-bitumen-roofing', city: 'Newark', citySlug: 'newark' },
   { service: 'Roof Repair', serviceSlug: 'roof-repair', city: 'Bloomfield', citySlug: 'bloomfield' },
+  { service: 'Gutter Guard Installation', serviceSlug: 'gutter-guard-installation', city: 'Belleville', citySlug: 'belleville' },
   { service: 'Roof Replacement', serviceSlug: 'roof-replacement', city: 'Montclair', citySlug: 'montclair' },
   { service: 'Roof Inspection', serviceSlug: 'roof-inspection', city: 'Newark', citySlug: 'newark' },
   { service: 'Storm Damage Repair', serviceSlug: 'storm-damage-roof-repair', city: 'Newark', citySlug: 'newark' },

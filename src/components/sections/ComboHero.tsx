@@ -105,11 +105,8 @@ export function ComboHero({ service, city, serviceGroups }: ComboHeroProps) {
               id="combo-hero-heading"
               className="mt-4 text-balance font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
             >
-              {service.name}
-              <br />
-              <span className="text-copper">in {city.name}, NJ</span>
+              {service.name} <span className="text-copper">in {city.name}, NJ</span>
             </h1>
-
             {/* Compact trust bar -- 3 items inline (combo-specific, not benefit list) */}
             <div
               className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 font-body text-sm text-parchment/80"

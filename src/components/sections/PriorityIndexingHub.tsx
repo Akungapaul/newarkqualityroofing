@@ -4,10 +4,19 @@ import { services } from '@/data/services';
 import { PRIORITY_CITY_IDS, PRIORITY_SERVICE_IDS, PRIORITY_COMBO_PAIRS } from '@/data/seo-priority';
 import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
 
+const gscPriorityLinks = [
+  { href: '/roof-repair-newark-nj', label: 'Roof repair in Newark', note: 'Primary repair page with existing GSC impressions' },
+  { href: '/emergency-roof-repair-newark-nj', label: 'Emergency roof repair in Newark', note: '24/7 storm and leak intent' },
+  { href: '/roof-replacement-newark-nj', label: 'Roof replacement in Newark', note: 'High-value replacement intent' },
+  { href: '/roof-leak-repair-newark-nj', label: 'Roof leak repair in Newark', note: 'Top visible query cluster' },
+  { href: '/flat-roof-installation-repair-newark-nj', label: 'Flat roof installation in Newark', note: 'Correct target for flat-roof installation searches' },
+  { href: '/commercial-roof-installation-newark-nj', label: 'Commercial roof installation in Newark', note: 'Commercial Newark money page' },
+] as const;
+
 export function PriorityIndexingHub() {
-  const priorityServices = services.filter((s) => PRIORITY_SERVICE_IDS.includes(s.id as (typeof PRIORITY_SERVICE_IDS)[number])).slice(0, 8);
-  const priorityCities = cities.filter((c) => PRIORITY_CITY_IDS.includes(c.id as (typeof PRIORITY_CITY_IDS)[number])).slice(0, 8);
-  const comboLinks = [...PRIORITY_COMBO_PAIRS].slice(0, 10).map((pair) => {
+  const priorityServices = services.filter((s) => PRIORITY_SERVICE_IDS.includes(s.id as (typeof PRIORITY_SERVICE_IDS)[number]));
+  const priorityCities = cities.filter((c) => PRIORITY_CITY_IDS.includes(c.id as (typeof PRIORITY_CITY_IDS)[number]));
+  const comboLinks = [...PRIORITY_COMBO_PAIRS].map((pair) => {
     const [serviceId, cityId] = pair.split(':');
     const service = services.find((s) => s.id === serviceId);
     const city = cities.find((c) => c.id === cityId);
@@ -24,8 +33,31 @@ export function PriorityIndexingHub() {
             Start with the Newark roofing pages Google is most likely to trust first
           </h2>
           <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
-            Instead of treating every long-tail page equally, these crawl paths concentrate authority around the services, cities, and service-area pages with the strongest commercial intent.
+            Instead of treating every long-tail page equally, these visible crawl paths concentrate authority around the services, cities, and service-area pages already showing Search Console impressions.
           </p>
+        </div>
+
+        <div className="mt-8 rounded-xl border border-copper/30 bg-copper/5 p-6">
+          <h3 className="font-heading text-xl font-semibold text-forest">GSC priority pages to crawl first</h3>
+          <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
+            These internal links point homepage authority directly at the Newark money pages that already show search demand or need faster recrawling.
+          </p>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {gscPriorityLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-lg border border-border bg-white p-4 transition-colors hover:border-copper"
+              >
+                <span className="block font-body text-sm font-semibold text-copper underline-offset-2 hover:underline">
+                  {link.label}
+                </span>
+                <span className="mt-1 block font-body text-xs leading-relaxed text-text-secondary">
+                  {link.note}
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
 
         <div className="mt-10 grid gap-6 lg:grid-cols-3">

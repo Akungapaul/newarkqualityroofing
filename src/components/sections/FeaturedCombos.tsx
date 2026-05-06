@@ -56,7 +56,7 @@ export function FeaturedCombos() {
                         href={`/${comboSlug}`}
                         className="font-body text-sm text-forest transition-colors hover:text-copper"
                       >
-                        {city.name}, NJ
+                        {service.name} in {city.name}, NJ
                       </Link>
                     </li>
                   );
