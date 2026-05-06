@@ -34,6 +34,7 @@ export function ComboHero({ service, city, serviceGroups }: ComboHeroProps) {
   const heroImg = serviceImg ?? cityImg;
   const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
   const heroAlt = heroImg?.alt ?? `${service.name} in ${city.name}, NJ`;
+  const h1Text = `${service.name} in ${city.name}, NJ`;
 
   return (
     <section
@@ -105,7 +106,7 @@ export function ComboHero({ service, city, serviceGroups }: ComboHeroProps) {
               id="combo-hero-heading"
               className="mt-4 text-balance font-heading text-3xl font-bold leading-tight tracking-tight text-copper sm:text-4xl lg:text-5xl"
             >
-              {service.name} in {city.name}, NJ
+              {h1Text}
             </h1>
             {/* Compact trust bar -- 3 items inline (combo-specific, not benefit list) */}
             <div
