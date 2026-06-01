@@ -3,11 +3,11 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Full-Site Topical-Map Overhaul
 status: planning
-last_updated: "2026-06-01T17:50:44.155Z"
+last_updated: "2026-06-01T18:00:00.000Z"
 last_activity: 2026-06-01
 progress:
-  total_phases: 0
-  completed_phases: 0
+  total_phases: 17
+  completed_phases: 10
   total_plans: 0
   completed_plans: 0
   percent: 0
@@ -17,18 +17,17 @@ progress:
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-03-05)
+See: .planning/PROJECT.md (updated 2026-06-01)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 10 in progress -- AI image creation system.
+**Current focus:** Milestone v1.1 Full-Site Topical-Map Overhaul — Phase 11 (IA, Routing, Canonical Data & URL Classification) ready to plan. Implements IMPLEMENTATION-PLAN.md verbatim across Phases 11–17.
 
 ## Current Position
 
-Phase: Not started (defining requirements)
+Phase: Phase 11 — IA, Routing, Canonical Data & URL Classification (v1.1)
 Plan: —
-Status: Defining requirements
-Last activity: 2026-06-01 — Milestone v1.1 started
-
+Status: Roadmap complete; ready to plan Phase 11
+Last activity: 2026-06-01 — Milestone v1.1 roadmap created (7 phases 11–17, 59 reqs mapped)
 ## Performance Metrics
 
 **Velocity:**
@@ -278,6 +277,7 @@ Recent decisions affecting current work:
 ### Roadmap Evolution
 
 - Phase 10 added: Add Image Creation System
+- Milestone v1.1 added: Phases 11–17 (Full-Site Topical-Map Overhaul) appended to ROADMAP.md; 59 requirements mapped (100% coverage). Execution order 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable anytime after 11 and Phase 17 as the final QA gate.
 
 ### Blockers/Concerns
 

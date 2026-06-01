@@ -271,3 +271,127 @@ Note: Phases 3 and 4 can run in parallel (both depend only on Phase 2). Phases 7
 ---
 *Roadmap created: 2026-03-05*
 *Last updated: 2026-03-10 -- Phase 10 planned (4 plans in 2 waves)*
+
+---
+
+## Milestone v1.1 — Full-Site Topical-Map Overhaul
+
+Brownfield milestone (Phases 11–17) continuing from the shipped v1.0 site. Implements `.planning/IMPLEMENTATION-PLAN.md` verbatim (authoritative) with the verbatim question-form H-tag trees in `.planning/IMPLEMENTATION-BRIEF.md §4.1–4.4, §5, §6, §7`. Transforms the programmatic-SEO site into a nested roofing-contractor topical-map system: a contained combo index (255 keep / 942 noindex / 168+8 redirect), a question-form H-tag hierarchy with explicit Core-before-Outer structure on every template, a real Knowledge Base (hub + 6 cluster hubs + 44 nested articles + 253 folded), a 25-term roofing glossary, a knowledge-graph internal-linking model, single-identity schema, truthful trust signals, and 11 build-failing audit scripts aggregated by `audit:all`. Source of indexation truth: `URL-Classification.csv`.
+
+### Phases
+
+- [ ] **Phase 11: IA, Routing, Canonical Data & URL Classification** - Canonical siteConfig, generated URL-classification pipeline (255 keep / 942 noindex / 168+8 redirect) with redirect>404>keep>noindex precedence, hub 301 migrations, nested KB + glossary routes, 6 new hubs, article cluster taxonomy
+- [ ] **Phase 12: Question-Form H-Tag & Core/Outer Template System** - Verbatim question-form H1/H2/H3 trees on home/service/city/combo/core, 253 article titles → questions, Core-before-Outer policy, `audit:headings`
+- [ ] **Phase 13: Knowledge Base Hub, Clusters & 44 KB Articles** - `/roofing-knowledge-base/` hub + 6 cluster hubs + 44 nested KB articles + 253 folded + article/FAQPage schema, `audit:kb`
+- [ ] **Phase 14: Roofing Glossary & Entity Dictionary** - `/roofing-glossary/` with 25 DefinedTerm entries + DefinedTermSet schema + KB cross-links, `audit:glossary`
+- [ ] **Phase 15: Knowledge-Graph Linking & Schema** - `kb-graph` + bidirectional §15 edges, repointed hub links, single Organization/LocalBusiness @id + Place areaServed, per-type JSON-LD, `audit:links` + `audit:schema`
+- [ ] **Phase 16: Trust/NAP Cleanup, Deduplication & SEO-Language Removal** - Single-source siteConfig enforced, gated AggregateRating, shared CtaBanner/dedup, scrubbed SEO jargon, deleted dead components, `audit:trust` + `audit:dedupe` + `audit:seo-language`
+- [ ] **Phase 17: Launch QA, Crawl Verification & Indexation Monitoring** - Staging + production crawl, indexation/redirect/schema verification, Search Console monitoring, §22 completion report, `audit:sitemap` + `audit:redirects` + `audit:all`
+
+### Phase Details
+
+#### Phase 11: IA, Routing, Canonical Data & URL Classification
+**Goal**: The site has a single canonical config and a generated indexation pipeline that classifies every URL, so the routing layer serves the correct verdict (keep / noindex / redirect / 404) and all new topical-map routes resolve
+**Depends on**: Phase 10 (shipped v1.0 baseline)
+**Requirements**: IA-01, IA-02, IA-03, IA-04, IA-05, INDX-01, INDX-02, INDX-03, INDX-04, INDX-05, INDX-06, INDX-07, INDX-08, KB-01, KB-02
+**Success Criteria** (what must be TRUE):
+  1. `npm run build` is green; visiting any of the 255 KEEP combos returns an indexable page in the sitemap, and visiting any of the 942 NOINDEX combos returns a live page emitting `robots:{index:false,follow:true}` that is excluded from the sitemap
+  2. The 168 combo redirects and 8 legacy redirects (incl. `/services`→`/roofing-services`, `/locations`→`/service-areas`, `/resources`→`/roofing-knowledge-base`) return permanent 301s to their CSV targets; existing flat-roof + www redirects are preserved; unknown slugs return 404
+  3. The build validates the counts 255 keep / 942 noindex / 168 combo-redirect / 8 legacy-redirect and fails on any mismatch; routing precedence is redirect > 404 > keep > noindex; `PRIORITY_COMBO_PAIRS` ⊆ the 255 KEEP set
+  4. `/roofing-knowledge-base/` + all 6 cluster hubs (HTTP 200, `dynamicParams=false`), `/roofing-glossary/` (HTTP 200 via dedicated route), and all 44 KB-article nested URLs (`/roofing-knowledge-base/{cluster}/{slug}/`) resolve collision-free
+  5. The 6 new hubs (`/residential-roofing`, `/commercial-roofing`, `/flat-roof-systems`, `/roofing-materials`, `/free-roofing-estimate`, `/our-roofing-process`) resolve at 200; the "Full page content coming soon" placeholder is removed; incomplete scaffolds are noindexed until content lands; no public placeholder trust values render
+  6. `ArticleSchema` has a required 6-value `cluster` enum with all 253 articles assigned (none undefined); `ArticleContentSchema` supports ≥10 sections + a `faqs[]` array; `PageTypeSchema` + slug registry are extended with `kb-hub`/`kb-cluster-hub`/`kb-article`/`glossary`/hub types with build-time collision checking
+**Plans**: TBD
+
+#### Phase 12: Question-Form H-Tag & Core/Outer Template System
+**Goal**: Every important template emits a single question-form H1 and an all-questions heading tree with Core-before-Outer ordering, enforced by a build-failing heading audit
+**Depends on**: Phase 11
+**Requirements**: KB-03, HTAG-01, HTAG-02, HTAG-03, HTAG-04, HTAG-05, HTAG-06, HTAG-07, HTAG-08, AUD-01
+**Success Criteria** (what must be TRUE):
+  1. `npm run audit:headings` passes in the build: every important page has exactly one question-form H1 rendered as a single uninterrupted string (no `<br>`/split-`<span>`), all H2/H3/H4 are questions, no skipped heading levels, the H1 is never repeated as an H2, and there are no H-tags in nav/footer/buttons/form-labels
+  2. The homepage emits the verbatim §4.1 tree Core-first — the "What Roofing Services Do We Provide…" H2 (7 service H3s) precedes every Outer section — and includes the 5-step "How Does Our Roofing Process Work?" H2 plus a Roofing-Knowledge-Base link section
+  3. Every service page H1 is "Who Provides [Service] in Newark?" (§4.2 tree), every city page H1 is "Who Provides Roofing Services in [City]?" (§4.3 tree, incl. new Permits and Materials-for-[City] sections), and every combo page H1 is "Who Provides [Service] in [City]?" (§4.4 tree)
+  4. Pseudo-headings (testimonials/CTA/pricing-PAA/maps introduced by `<p>`/`<span>`/`<div>`) are promoted to real headings; `ContentAuthorityBlock` is out of the Core band; the first major H2 after the hero is the Core Section per §17 page-type rules on every template
+  5. All 253 article titles are rewritten to cluster-keyed question form, are unique, and keep their slugs stable
+**Plans**: TBD
+**UI hint**: yes
+
+#### Phase 13: Knowledge Base Hub, Clusters & 44 KB Articles
+**Goal**: The Knowledge Base exists end-to-end — a hub, 6 cluster hubs, and 44 authored nested articles — with the 253 existing articles folded under clusters and correct Article/FAQPage schema
+**Depends on**: Phase 11, Phase 12
+**Requirements**: IA-06, KB-04, KB-05, KB-06, KB-07, SCHM-01, AUD-02
+**Success Criteria** (what must be TRUE):
+  1. `npm run audit:kb` (and `audit:schema`) pass in the build; the KB hub + 6 cluster hubs + all 44 KB articles return HTTP 200 with complete content — no "Content Coming Soon"/placeholder/thin sections
+  2. `/roofing-knowledge-base/` renders the §5 H1 + 7-H2 tree, links all 6 clusters + the glossary, and each cluster hub lists its member articles
+  3. All 44 KB articles are authored at their nested URLs via the §6 template — question-form H1, visible FAQs that match FAQPage schema, internal links to services + related KB
+  4. The 253 existing articles are surfaced under their clusters with cluster-aware breadcrumbs; `/resources` returns 301 to `/roofing-knowledge-base`
+  5. KB articles emit Article + WebPage + BreadcrumbList (+ FAQPage where FAQs are visible); Article includes datePublished/dateModified/image/mainEntityOfPage + `isPartOf` its cluster hub; every new KB/cluster/glossary/hub page exports metadata (title, description, openGraph, `alternates.canonical`) with exactly one h1
+**Plans**: TBD
+**UI hint**: yes
+
+#### Phase 14: Roofing Glossary & Entity Dictionary
+**Goal**: A 25-term roofing glossary is live with structured definitions, KB cross-links, and DefinedTermSet schema, enforced by a build-failing glossary audit
+**Depends on**: Phase 11, Phase 13
+**Requirements**: GLOS-01, SCHM-02, AUD-03
+**Success Criteria** (what must be TRUE):
+  1. `npm run audit:glossary` (and `audit:schema`) pass in the build
+  2. `/roofing-glossary/` renders the §7 H1 + 5 H2 term-group headings + all 25 DefinedTerm entries, each with definition · why it matters · related services/problems/materials/components · internal links
+  3. Every glossary term is cross-linked to its matching KB article and related service; no orphan terms
+  4. The glossary emits exactly one DefinedTermSet whose members are DefinedTerm nodes + a BreadcrumbList, via new `buildDefinedTermSetSchema`/`buildDefinedTermSchema`, and the schema validates
+**Plans**: TBD
+**UI hint**: yes
+
+#### Phase 15: Knowledge-Graph Linking & Schema
+**Goal**: A single knowledge-graph link source wires the §15 edges across the site and the site emits single-identity, per-type JSON-LD, with no links to retired hubs and no orphans
+**Depends on**: Phase 13, Phase 14 (link targets must exist)
+**Requirements**: LINK-01, LINK-02, LINK-03, LINK-04, SCHM-03, SCHM-04, AUD-04
+**Success Criteria** (what must be TRUE):
+  1. `npm run audit:links` and `npm run audit:schema` pass in the build; no internal `next/link` points to `/services`, `/locations`, or `/resources` — all hub links use the new URLs
+  2. `src/linking/kb-graph.ts` is the single source the link-engine uses for §15 definition links (no KB targets hard-coded in components); Roof Repair / Replacement / Storm / Commercial pages link the §15 KB definitions under question-form headings with bidirectional commercial↔definition links; location pages link city services + nearby cities + local KB + free estimate
+  3. There are no broken internal links and no orphan KB articles or glossary terms
+  4. Exactly one `Organization` @id and one `LocalBusiness` @id exist sitewide; `Service.provider` references the LocalBusiness @id; `Place` is used for `areaServed` on city + combo pages; no per-page LocalBusiness entities; the combo WebPage `name` bug is fixed
+  5. Per-type JSON-LD @graphs validate (home/service/location/combo/KB/glossary) per §16; FAQPage appears only where FAQs are visible; AggregateRating is omitted unless `rating.enabled` is true
+**Plans**: TBD
+
+#### Phase 16: Trust/NAP Cleanup, Deduplication & SEO-Language Removal
+**Goal**: All trust/NAP values flow from a single config with no fabricated or placeholder claims, duplicate crawlable sections are collapsed, and all internal-SEO-facing language is removed — penalty-risk hardening
+**Depends on**: Phase 11 (independent of Phases 12–15; may run anytime after 11)
+**Requirements**: TRST-01, TRST-02, TRST-03, TRST-04, TRST-05, DEDP-01, DEDP-02, DEDP-03, SEOL-01, SEOL-02, AUD-05
+**Success Criteria** (what must be TRUE):
+  1. `npm run audit:trust`, `audit:dedupe`, and `audit:seo-language` (plus `audit:schema`) pass in the build
+  2. `src/config/site-config.ts` is the single source for all NAP/trust/identity values; no template or JSON-LD hardcodes them; no fabricated rating/review/project counts and no public placeholders (`[License #]`, `[Policy Info]`, `[CANONICAL VALUE REQUIRED]`, `0.0`, `0+`, fake `5.0`, fake `500+`) render in HTML or JSON-LD
+  3. AggregateRating is gated behind `rating.enabled` and omitted from HTML + JSON-LD while false; the NJ HIC license renders wherever a licensed claim appears (or the claim is omitted), with legal-entity clarification if shared across brands; the Contact map and every CityMapNap embed reference the canonical address/geo or are omitted
+  4. A shared `<CtaBanner/>` replaces the triplicated "$10,000" CTA; each page renders at most one crawlable LeadForm and one crawlable testimonial section; one process block per page, with full process detail only on `/our-roofing-process`; the footer duplicate-comment + mini lead-form placeholder are removed
+  5. A repo grep over rendered components returns zero matches for Google/GSC/Search Console/impressions/indexing quality/content target/`10/10`/crawl-paths/"money page"; `PriorityIndexingHub` + `ContentAuthorityBlock` + dead jargon components are deleted; any replacement headings are question-form
+**Plans**: TBD
+**UI hint**: yes
+
+#### Phase 17: Launch QA, Crawl Verification & Indexation Monitoring
+**Goal**: A full staging + production crawl confirms the entire overhaul holds end-to-end, `audit:all` gates the build, and the §22 completion report ships
+**Depends on**: Phase 11, Phase 12, Phase 13, Phase 14, Phase 15, Phase 16 (final gate)
+**Requirements**: QA-01, QA-02, QA-03, QA-04, QA-05, AUD-06
+**Success Criteria** (what must be TRUE):
+  1. `audit:sitemap`, `audit:redirects`, and `audit:all` exist; `audit:all` aggregates every audit and fails the build on any violation; `npm run build` and `npm run audit:all` both pass
+  2. Staging + production crawl verifies all H-tags are questions, there are no nav/footer/form H-tags, and Core-before-Outer holds on every template
+  3. Crawl verifies the 255 keep combos are indexable, the 942 noindex combos emit `noindex,follow`, no noindex/redirected URLs appear in the sitemap, the 168+8 redirects are correct with no chains, and no old-hub internal links remain
+  4. KB hub + 6 clusters + 44 articles return 200 and are complete; the glossary returns 200 with 25 terms; schema validates per page type; no fake ratings/placeholders render in HTML or JSON-LD; no SEO-facing language remains
+  5. The updated sitemap is submitted and Search Console is monitored for 404s, redirect issues, noindex pages, and indexed-page count; the §22 completion report is produced
+**Plans**: TBD
+
+### Progress (Milestone v1.1)
+
+**Execution Order:**
+Phases execute: 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable anytime after Phase 11 (independent of Phases 12–15; penalty-risk hardening) and Phase 17 as the final QA gate after all others (11–16).
+
+| Phase | Plans Complete | Status | Completed |
+|-------|----------------|--------|-----------|
+| 11. IA, Routing, Canonical Data & URL Classification | 0/? | Not started | - |
+| 12. Question-Form H-Tag & Core/Outer Template System | 0/? | Not started | - |
+| 13. Knowledge Base Hub, Clusters & 44 KB Articles | 0/? | Not started | - |
+| 14. Roofing Glossary & Entity Dictionary | 0/? | Not started | - |
+| 15. Knowledge-Graph Linking & Schema | 0/? | Not started | - |
+| 16. Trust/NAP Cleanup, Deduplication & SEO-Language Removal | 0/? | Not started | - |
+| 17. Launch QA, Crawl Verification & Indexation Monitoring | 0/? | Not started | - |
+
+---
+*Milestone v1.1 roadmap appended: 2026-06-01 — 7 phases (11–17) derived from IMPLEMENTATION-PLAN.md §19; 59 requirements mapped, 100% coverage*

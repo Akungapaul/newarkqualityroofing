@@ -422,11 +422,80 @@
 | IMG-12 | Phase 10 | Complete |
 | IMG-13 | Phase 10 | Complete |
 
-**Coverage:**
+**Coverage (v1):**
 - v1 requirements: 114 total (101 original + 13 image creation system)
 - Mapped to phases: 114
 - Unmapped: 0
 
+### Milestone v1.1 Traceability
+
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| IA-01 | Phase 11 | Pending |
+| IA-02 | Phase 11 | Pending |
+| IA-03 | Phase 11 | Pending |
+| IA-04 | Phase 11 | Pending |
+| IA-05 | Phase 11 | Pending |
+| INDX-01 | Phase 11 | Pending |
+| INDX-02 | Phase 11 | Pending |
+| INDX-03 | Phase 11 | Pending |
+| INDX-04 | Phase 11 | Pending |
+| INDX-05 | Phase 11 | Pending |
+| INDX-06 | Phase 11 | Pending |
+| INDX-07 | Phase 11 | Pending |
+| INDX-08 | Phase 11 | Pending |
+| KB-01 | Phase 11 | Pending |
+| KB-02 | Phase 11 | Pending |
+| KB-03 | Phase 12 | Pending |
+| HTAG-01 | Phase 12 | Pending |
+| HTAG-02 | Phase 12 | Pending |
+| HTAG-03 | Phase 12 | Pending |
+| HTAG-04 | Phase 12 | Pending |
+| HTAG-05 | Phase 12 | Pending |
+| HTAG-06 | Phase 12 | Pending |
+| HTAG-07 | Phase 12 | Pending |
+| HTAG-08 | Phase 12 | Pending |
+| AUD-01 | Phase 12 | Pending |
+| IA-06 | Phase 13 | Pending |
+| KB-04 | Phase 13 | Pending |
+| KB-05 | Phase 13 | Pending |
+| KB-06 | Phase 13 | Pending |
+| KB-07 | Phase 13 | Pending |
+| SCHM-01 | Phase 13 | Pending |
+| AUD-02 | Phase 13 | Pending |
+| GLOS-01 | Phase 14 | Pending |
+| SCHM-02 | Phase 14 | Pending |
+| AUD-03 | Phase 14 | Pending |
+| LINK-01 | Phase 15 | Pending |
+| LINK-02 | Phase 15 | Pending |
+| LINK-03 | Phase 15 | Pending |
+| LINK-04 | Phase 15 | Pending |
+| SCHM-03 | Phase 15 | Pending |
+| SCHM-04 | Phase 15 | Pending |
+| AUD-04 | Phase 15 | Pending |
+| TRST-01 | Phase 16 | Pending |
+| TRST-02 | Phase 16 | Pending |
+| TRST-03 | Phase 16 | Pending |
+| TRST-04 | Phase 16 | Pending |
+| TRST-05 | Phase 16 | Pending |
+| DEDP-01 | Phase 16 | Pending |
+| DEDP-02 | Phase 16 | Pending |
+| DEDP-03 | Phase 16 | Pending |
+| SEOL-01 | Phase 16 | Pending |
+| SEOL-02 | Phase 16 | Pending |
+| AUD-05 | Phase 16 | Pending |
+| QA-01 | Phase 17 | Pending |
+| QA-02 | Phase 17 | Pending |
+| QA-03 | Phase 17 | Pending |
+| QA-04 | Phase 17 | Pending |
+| QA-05 | Phase 17 | Pending |
+| AUD-06 | Phase 17 | Pending |
+
+**Milestone v1.1 coverage:**
+- v1.1 requirements: 59 total
+- Mapped to phases (11–17): 59
+- Unmapped: 0
+
 ---
 *Requirements defined: 2026-03-05*
-*Last updated: 2026-03-10 -- Phase 10 requirements added (IMG-01 through IMG-13)*
+*Last updated: 2026-06-01 -- Milestone v1.1 requirements traceability added (59 reqs across Phases 11–17)*
