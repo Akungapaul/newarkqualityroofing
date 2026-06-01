@@ -8,6 +8,21 @@ A conversion-first roofing lead generation website for newarkqualityroofing.com 
 
 Every page converts visitors into roofing leads through above-the-fold forms and click-to-call — the entire site architecture, content, and design exists to generate phone calls and form submissions.
 
+## Current Milestone: v1.1 Full-Site Topical-Map Overhaul
+
+**Goal:** Implement `.planning/IMPLEMENTATION-PLAN.md` verbatim — transform the site into a nested roofing-contractor topical-map system (lead-gen site + roofing knowledge base + local reference hub) with a question-form H-tag hierarchy, explicit Core/Outer structure on every page, a real KB + glossary, knowledge-graph internal linking, single-identity schema, truthful trust signals, and a contained combo index.
+
+**Target features (7 phases, 11–17):**
+- **Phase 11 — IA & Routing Foundation:** canonical `src/config/site-config.ts`; generated URL-classification pipeline (255 keep / 942 noindex / 168+8 redirect) with redirect>404>keep>noindex precedence; hub 301 migrations (`/services`→`/roofing-services`, `/locations`→`/service-areas`, `/resources`→`/roofing-knowledge-base`); nested KB + glossary routes; 5 new hubs + `/our-roofing-process`; article `cluster` taxonomy (fold all 253)
+- **Phase 12 — Question-Form H-Tag + Core/Outer Template System:** verbatim H1/H2/H3 trees on home/service/city/combo; 253 article titles → questions; heading policy
+- **Phase 13 — Knowledge Base:** `/roofing-knowledge-base/` hub + 6 cluster hubs + 44 NESTED KB articles + fold 253 + article FAQPage schema
+- **Phase 14 — Roofing Glossary:** `/roofing-glossary/` + 25 DefinedTerms + DefinedTermSet schema + cross-links
+- **Phase 15 — Knowledge-Graph Linking + Schema:** `kb-graph` + bidirectional §15 edges; single `Organization`/`LocalBusiness` @id + `Place` areaServed; per-type graphs
+- **Phase 16 — Trust/NAP + Dedup + SEO-Language Removal:** single-source siteConfig, gate fabricated rating, shared CtaBanner, scrub jargon, delete dead components
+- **Phase 17 — Launch QA:** crawl verification, indexation monitoring, `audit:all`, §22 completion report
+
+**Spec:** `.planning/IMPLEMENTATION-PLAN.md` (authoritative) + `.planning/IMPLEMENTATION-BRIEF.md` (verbatim H-tag trees). 11 build-failing audit scripts gate completion. Source classification: `URL-Classification.csv`.
+
 ## Requirements
 
 ### Validated
@@ -212,5 +227,12 @@ Plus 4 more to reach 30 (to be determined during content planning)
 | All schema types | LocalBusiness + Service + FAQ + Review for maximum rich result coverage | — Pending |
 | Flat URL structure | SEO-friendly, keeps pages close to root, max 3 clicks from homepage | — Pending |
 
+## Evolution
+
+This document evolves at phase transitions and milestone boundaries.
+
+**After each phase transition:** update Validated/Out-of-Scope/Active requirements, log decisions, keep "What This Is" accurate.
+**After each milestone:** full review of all sections, Core Value check, audit Out of Scope, update Context.
+
 ---
-*Last updated: 2026-03-05 after initialization*
+*Last updated: 2026-06-01 — started milestone v1.1 Full-Site Topical-Map Overhaul (implements IMPLEMENTATION-PLAN.md; 7 phases 11–17)*

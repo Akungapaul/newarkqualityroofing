@@ -1,17 +1,16 @@
 ---
 gsd_state_version: 1.0
-milestone: v1.0
-milestone_name: milestone
-status: completed
-stopped_at: Completed 10-02-PLAN.md
-last_updated: "2026-03-10T06:29:53.385Z"
-last_activity: 2026-03-10 -- Completed 10-04 (Site integration - manifest lookups and per-page OG images)
+milestone: v1.1
+milestone_name: Full-Site Topical-Map Overhaul
+status: planning
+last_updated: "2026-06-01T17:50:44.155Z"
+last_activity: 2026-06-01
 progress:
-  total_phases: 10
-  completed_phases: 10
-  total_plans: 85
-  completed_plans: 85
-  percent: 100
+  total_phases: 0
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
+  percent: 0
 ---
 
 # Project State
@@ -25,16 +24,15 @@ See: .planning/PROJECT.md (updated 2026-03-05)
 
 ## Current Position
 
-Phase: 10 of 10 (Add Image Creation System)
-Plan: 4 of 4 in current phase (all complete)
-Status: All phases complete
-Last activity: 2026-03-10 -- Completed 10-04 (Site integration - manifest lookups and per-page OG images)
-
-Progress: [██████████] 100%
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-06-01 — Milestone v1.1 started
 
 ## Performance Metrics
 
 **Velocity:**
+
 - Total plans completed: 41
 - Average duration: 5.3min
 - Total execution time: ~5.4 hours
@@ -51,6 +49,7 @@ Progress: [██████████] 100%
 | 06 | 2/2 | 6min | 3.0min |
 
 **Recent Trend:**
+
 - Last 5 plans: 07-01 (11min), 06-01 (3min), 06-02 (3min), 05-11 (8min), 05-10b (6min)
 - Trend: Phase 7 started -- infrastructure plan with 252 article definitions
 
