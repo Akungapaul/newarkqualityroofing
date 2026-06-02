@@ -345,7 +345,7 @@ Brownfield milestone (Phases 11–17) continuing from the shipped v1.0 site. Imp
   5. The 6 new hubs (`/residential-roofing`, `/commercial-roofing`, `/flat-roof-systems`, `/roofing-materials`, `/free-roofing-estimate`, `/our-roofing-process`) resolve at 200; the "Full page content coming soon" placeholder is removed; incomplete scaffolds are noindexed until content lands; no public placeholder trust values render
   6. `ArticleSchema` has a required 6-value `cluster` enum with all 253 articles assigned (none undefined); `ArticleContentSchema` supports ≥10 sections + a `faqs[]` array; `PageTypeSchema` + slug registry are extended with `kb-hub`/`kb-cluster-hub`/`kb-article`/`glossary`/hub types with build-time collision checking
 
-**Plans**: 5 plans (2 waves)
+**Plans**: 5 plans (3 waves)
 
 Plans:
 **Wave 1**
