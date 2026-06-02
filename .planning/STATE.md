@@ -4,8 +4,8 @@ milestone: v1.1
 milestone_name: Full-Site Topical-Map Overhaul
 status: executing
 stopped_at: Completed 10-02-PLAN.md
-last_updated: "2026-06-02T03:54:24.161Z"
-last_activity: 2026-06-02 -- Phase 11 planning complete
+last_updated: "2026-06-02T04:04:23.923Z"
+last_activity: 2026-06-02 -- Phase 11 execution started
 progress:
   total_phases: 7
   completed_phases: 0
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-06-01)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Milestone v1.1 Full-Site Topical-Map Overhaul — Phase 11 (IA, Routing, Canonical Data & URL Classification) ready to plan. Implements IMPLEMENTATION-PLAN.md verbatim across Phases 11–17.
+**Current focus:** Phase 11 — ia-routing-canonical-data-url-classification
 
 ## Current Position
 
-Phase: Phase 11 — IA, Routing, Canonical Data & URL Classification (v1.1)
-Plan: —
-Status: Ready to execute
-Last activity: 2026-06-02 -- Phase 11 planning complete
+Phase: 11 (ia-routing-canonical-data-url-classification) — EXECUTING
+Plan: 1 of 5
+Status: Executing Phase 11
+Last activity: 2026-06-02 -- Phase 11 execution started
 
 ## Performance Metrics
 
