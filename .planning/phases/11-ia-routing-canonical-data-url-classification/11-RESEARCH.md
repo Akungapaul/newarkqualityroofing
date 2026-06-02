@@ -469,7 +469,12 @@ The cleanest enforcement: make `cluster` a **required** zod enum field on `Artic
 | A5 | KB nested paths stay OUT of the flat `slug-registry.ts` (live in the catch-all's own data) | Pitfall 4 | MEDIUM — affects D-13 implementation; if registry must hold them, `validate-flat-urls.ts` needs an exemption. |
 | A6 | The 6th cluster `local-roofing-knowledge` has 0 NEW authored articles in Phase 11/13 (only folded existing articles); BRIEF §16 lists 44 new across the other 5 clusters | IA-03 / KB inventory | LOW — verified: §16 enumerates 8+11+9+8+8 = 44 with no local-roofing-knowledge list; the cluster hub still resolves (scaffold). |
 
-## Open Questions
+## Open Questions (RESOLVED 2026-06-01)
+
+> Q1 → **RESOLVED:** validate length-agnostically (252 actual in file + CSV); make `cluster` a required zod enum and assert every article has one — do NOT hardcode 252/253. Discrepancy noted in Plan 03. (D-14 [RESOLVED]).
+> Q2 → **RESOLVED:** gate `buildAggregateRating()` behind `rating.enabled` in Phase 11 (omit the fake 5.0/500). (D-01 [RESOLVED]; Plan 01).
+> Q3 → **RESOLVED:** KB nested paths stay OUT of the flat `slug-registry.ts`; the KB catch-all owns its enumeration; `validate-flat-urls.ts` exempts the `roofing-knowledge-base/` prefix. (Plan 03 / Plan 05).
+> Q4 → **RESOLVED:** the 6 new hubs are dedicated route files under `src/app/{hub}/page.tsx`, each setting its own `robots:{index:false}`. (D-12; Plan 05).
 
 1. **252 vs 253 articles.**
    - What we know: `articles.ts` defines exactly 252 (`grep -c id` = 252); CSV "Knowledge base article" rows = 252.
