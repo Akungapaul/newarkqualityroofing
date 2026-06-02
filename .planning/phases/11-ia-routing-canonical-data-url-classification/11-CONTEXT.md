@@ -46,9 +46,9 @@ Every decision is LOCKED by `.planning/IMPLEMENTATION-PLAN.md`. Each `D-NN` maps
 - **D-08** — Reconcile `src/data/seo-priority.ts` so `PRIORITY_COMBO_PAIRS ⊆ the 255 KEEP set`; no NOINDEX/CONSOLIDATE combo is priority-boosted. → **INDX-07**
 
 ### New Topical-Map Routes (must resolve)
-- **D-10** — Create `app/roofing-knowledge-base/[[...slug]]/page.tsx` (optional-catch-all) that serves `/roofing-knowledge-base/` + all **6 cluster hubs** + all **44 KB-article NESTED URLs** (`/roofing-knowledge-base/{cluster}/{slug}/`). `dynamicParams = false` with the fixed nested paths enumerated in `generateStaticParams`; all paths resolve **collision-free** at HTTP 200. _(Phase 11 makes them resolve with scaffolding; authored content is Phase 13.)_ → **IA-01, IA-03**
-- **D-11** — Create `app/roofing-glossary/page.tsx` as a **dedicated** route resolving at HTTP 200 (NOT via the flat `app/[slug]` dispatcher). _(25 terms + DefinedTermSet schema are Phase 14.)_ → **IA-02**
-- **D-12** — Scaffold the 6 new hubs so they resolve at 200: `/residential-roofing`, `/commercial-roofing`, `/flat-roof-systems`, `/roofing-materials`, `/free-roofing-estimate`, `/our-roofing-process`. Remove the "Full page content coming soon" placeholder. **Incomplete scaffolds are noindexed until content lands**; no public placeholder trust values render. → **IA-04**
+- **D-10** — Create `src/app/roofing-knowledge-base/[[...slug]]/page.tsx` (optional-catch-all) that serves `/roofing-knowledge-base/` + all **6 cluster hubs** + all **44 KB-article NESTED URLs** (`/roofing-knowledge-base/{cluster}/{slug}/`). `dynamicParams = false` with the fixed nested paths enumerated in `generateStaticParams`; all paths resolve **collision-free** at HTTP 200. Per RESEARCH: keep nested KB paths OUT of the flat `src/data/slug-registry.ts` (the KB route owns its own enumeration); `scripts/validate-flat-urls.ts` stays applying only to flat slugs. _(Phase 11 makes them resolve with scaffolding; authored content is Phase 13.)_ → **IA-01, IA-03**
+- **D-11** — Create `src/app/roofing-glossary/page.tsx` as a **dedicated** route resolving at HTTP 200 (NOT via the flat `src/app/[slug]` dispatcher). _(25 terms + DefinedTermSet schema are Phase 14.)_ → **IA-02**
+- **D-12** — Scaffold the 6 new hubs (under `src/app/`) so they resolve at 200: `/residential-roofing`, `/commercial-roofing`, `/flat-roof-systems`, `/roofing-materials`, `/free-roofing-estimate`, `/our-roofing-process`. Per RESEARCH recommendation, prefer dedicated route files (`src/app/residential-roofing/page.tsx` etc.) so each sets its own `robots:{index:false}` cleanly and stays off the flat registry. Remove the "Full page content coming soon" placeholder. **Incomplete scaffolds are noindexed until content lands**; no public placeholder trust values render. → **IA-04**
 
 ### Schema & Registry Extensions
 - **D-13** — Extend `PageTypeSchema` + the slug registry (`src/data/slug-registry.ts`) with the new page types `kb-hub`, `kb-cluster-hub`, `kb-article`, `glossary`, and the hub page type, with **build-time collision checking**. → **IA-05**
@@ -81,13 +81,13 @@ The spec locks WHAT and the target file paths/APIs. The planner/executor decide 
 - `.planning/REQUIREMENTS.md` → IA-01..IA-05, INDX-01..INDX-08, KB-01..KB-02 — the 15 requirement definitions this phase must satisfy.
 
 ### Existing code the phase modifies/extends (source of truth for current state)
-- `src/data/site-config.ts` — existing config to consolidate into `src/config/site-config.ts` (D-01).
+- `src/data/site-config.ts` — existing config to consolidate into `src/config/site-config.ts` (D-01). **Caveat (per PATTERNS):** it has **9 importers** — Phase 11 should add `src/config/site-config.ts` and re-export from the old path (shim) to avoid breaking 9 files; the full 9-file repoint is Phase 16.
 - `next.config.ts` — existing redirects (flat-roof + www to preserve) where generated redirects are imported (D-05).
-- `app/[slug]/` — the existing flat dispatcher (combos/cities/services/glossary today); glossary moves to a dedicated route (D-11).
-- `app/sitemap.ts`, `app/robots.ts` — sitemap include/exclude logic (D-04, D-06).
+- `src/app/[slug]/page.tsx` — the existing flat dispatcher (combos/cities/services/glossary today); glossary moves to a dedicated route (D-11). **The app dir is `src/app/`, not `app/`.**
+- `src/app/sitemap.ts`, `src/app/robots.ts` — sitemap include/exclude logic (D-04, D-06).
 - `src/data/seo-priority.ts` — `PRIORITY_COMBO_PAIRS` to reconcile (D-08).
 - `src/data/slug-registry.ts` — slug registry to extend (D-13).
-- `src/data/articles.ts` + `src/data/article-content/schema.ts` — ArticleSchema + content schema to extend (D-14, D-15).
+- `src/data/articles.ts` + `src/data/article-content/schema.ts` — ArticleSchema + content schema to extend (D-14, D-15). **Caveat (per PATTERNS):** `scripts/generate-articles-ts.ts` EMITS `articles.ts` — the required `cluster` field must be added to the generator too (or the generator retired as source of truth), else a regen wipes the clusters.
 - `src/data/combos.ts`, `src/data/combo-content/schema.ts`, `src/lib/schema.ts`/`src/lib/schemas.ts` — combo generation + PageTypeSchema location (D-13, D-04).
 </canonical_refs>
 
