@@ -301,7 +301,14 @@ Brownfield milestone (Phases 11–17) continuing from the shipped v1.0 site. Imp
   4. `/roofing-knowledge-base/` + all 6 cluster hubs (HTTP 200, `dynamicParams=false`), `/roofing-glossary/` (HTTP 200 via dedicated route), and all 44 KB-article nested URLs (`/roofing-knowledge-base/{cluster}/{slug}/`) resolve collision-free
   5. The 6 new hubs (`/residential-roofing`, `/commercial-roofing`, `/flat-roof-systems`, `/roofing-materials`, `/free-roofing-estimate`, `/our-roofing-process`) resolve at 200; the "Full page content coming soon" placeholder is removed; incomplete scaffolds are noindexed until content lands; no public placeholder trust values render
   6. `ArticleSchema` has a required 6-value `cluster` enum with all 253 articles assigned (none undefined); `ArticleContentSchema` supports ≥10 sections + a `faqs[]` array; `PageTypeSchema` + slug registry are extended with `kb-hub`/`kb-cluster-hub`/`kb-article`/`glossary`/hub types with build-time collision checking
-**Plans**: TBD
+**Plans**: 5 plans (2 waves)
+
+Plans:
+- [ ] 11-01-PLAN.md — Canonical src/config/site-config.ts (rating.enabled=false, env phone preserved) + re-export shim + gated buildAggregateRating (D-01)
+- [ ] 11-02-PLAN.md — URL-classification generator (255/942/168/8 + zero-chain asserts) emits JSON+redirects.mjs; verdict API consumer; prebuild wiring (D-02, D-03)
+- [ ] 11-03-PLAN.md — ArticleSchema cluster enum + classify all articles + generator update; parallel KB content schema (≥10 sections + faqs[]); PageTypeSchema + slug registry extension (D-13, D-14, D-15)
+- [ ] 11-04-PLAN.md — next.config redirects (168+8 301s, flat-roof+www preserved) + hub core-slug renames; combo robots/canonical gate; sitemap keep-filter; PRIORITY_COMBO_PAIRS reconciliation (D-04..D-09)
+- [ ] 11-05-PLAN.md — KB catch-all route (hub+6 clusters+44 articles) + dedicated glossary route + 6 hub scaffolds (noindexed, no placeholder); audit:sitemap + audit:redirects validators (D-10, D-11, D-12)
 
 #### Phase 12: Question-Form H-Tag & Core/Outer Template System
 **Goal**: Every important template emits a single question-form H1 and an all-questions heading tree with Core-before-Outer ordering, enforced by a build-failing heading audit
@@ -385,7 +392,7 @@ Phases execute: 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable an
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 11. IA, Routing, Canonical Data & URL Classification | 0/? | Not started | - |
+| 11. IA, Routing, Canonical Data & URL Classification | 0/5 | Planned | - |
 | 12. Question-Form H-Tag & Core/Outer Template System | 0/? | Not started | - |
 | 13. Knowledge Base Hub, Clusters & 44 KB Articles | 0/? | Not started | - |
 | 14. Roofing Glossary & Entity Dictionary | 0/? | Not started | - |
