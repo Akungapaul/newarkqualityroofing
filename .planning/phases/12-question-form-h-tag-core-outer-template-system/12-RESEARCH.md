@@ -406,19 +406,21 @@ npx tsx scripts/generate-articles-ts.ts > src/data/articles.ts
 
 **If this table looks short:** the locked trees/policy (D-01..D-08) are CITED from the spec, not assumed; the codebase facts are VERIFIED. Only the items above rest on judgement.
 
-## Open Questions
+## Open Questions (RESOLVED)
 
-1. **Article count: 252 (reality) vs 253 (spec).**
+> All three were resolved during planning — each resolution is baked into a Phase 12 plan task with concrete acceptance criteria (see 12-01, 12-04, 12-05). Listed here for provenance.
+
+1. **[RESOLVED — 12-01/12-04/12-05] Article count: 252 (reality) vs 253 (spec).**
    - What we know: `articles.ts` and the generator both produce exactly 252; spec/REQUIREMENTS/CONTEXT say 253.
    - What's unclear: whether one article is meant to be added, or "253" is a stale figure.
    - Recommendation: audit asserts question-form + uniqueness over `articles.length` (252), and the plan records the reconciliation. Do not hardcode `=== 253`.
 
-2. **Does `audit:headings` enforce the full question-form tree on the 6 noindexed hub scaffolds?**
+2. **[RESOLVED — 12-01/12-04] Does `audit:headings` enforce the full question-form tree on the 6 noindexed hub scaffolds?**
    - What we know: D-10 lists the 6 new hubs in the enforced set; Phase 11 left them as noindexed scaffolds (`HubScaffold`, single H1, no tree).
    - What's unclear: Phase 12 is not chartered to build hub *content* (that's later); enforcing a full tree on an intentional scaffold would fail.
    - Recommendation: enforce only the **DOM-safety rules** (one H1, H1 is a question, no split, no nav/footer H-tags, no skipped levels) on the scaffolds, and the **full tree** only on home/service/city/combo + the content-bearing core pages. Planner to confirm the scaffold H1s are rewritten to question form (cheap, satisfies HTAG-01 at H1 level).
 
-3. **CoreTemplate in-scope page H1 sources.**
+3. **[RESOLVED — 12-04] CoreTemplate in-scope page H1 sources.**
    - What we know: `/roofing-services`, `/service-areas`, `/contact`, `/about` render via `CoreTemplate` → page components (`ServicesHubPage`, `LocationsHubPage`, `ContactPage`, `AboutPage`) each with their own `<h1>`.
    - What's unclear: exact verbatim question H1 for each (spec gives Home/Service/City/Combo H1s, not these hubs).
    - Recommendation: planner assigns a natural question-form H1 per page (e.g. "/roofing-services" → "What Roofing Services Do We Provide?"), enforced by the audit's "H1 is a question" rule.
