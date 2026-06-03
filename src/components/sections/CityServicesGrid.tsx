@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { services } from '@/data/services';
 import { generateComboSlug } from '@/lib/slug-utils';
 import { getServiceAnchorText } from '@/data/linking/anchor-text';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 // Category label mapping (duplicated for self-containment per project pattern)
 const categoryLabels: Record<string, string> = {
@@ -29,9 +30,13 @@ const categoryOrder: string[] = [
 interface CityServicesGridProps {
   cityName: string;
   citySlug: string;
+  /** §4.3 Core H2. Defaults to HEADING_CONFIG.city.coreH2; the template may pass it
+   *  explicitly to keep heading-config the single source of truth for the page. */
+  coreHeading?: string;
 }
 
-export function CityServicesGrid({ cityName, citySlug }: CityServicesGridProps) {
+export function CityServicesGrid({ cityName, citySlug, coreHeading }: CityServicesGridProps) {
+  const heading = coreHeading ?? HEADING_CONFIG.city.coreH2(cityName);
   // Group services by category
   const grouped = new Map<string, { name: string; slug: string }[]>();
   for (const service of services) {
@@ -51,7 +56,7 @@ export function CityServicesGrid({ cityName, citySlug }: CityServicesGridProps) 
   return (
     <div>
       <h2 id="services-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-        Roofing Services Available in {cityName}
+        {heading}
       </h2>
       <div className="mt-6 grid gap-6 sm:grid-cols-2">
         {categories.map((cat) => (
@@ -59,9 +64,9 @@ export function CityServicesGrid({ cityName, citySlug }: CityServicesGridProps) 
             key={cat.category}
             className="rounded-lg border border-border bg-white p-5 shadow-sm"
           >
-            <h3 className="font-heading text-lg font-semibold text-forest">
+            <span className="block font-heading text-lg font-semibold text-forest">
               {cat.label}
-            </h3>
+            </span>
             <ul className="mt-3 space-y-1.5">
               {cat.services.map((service, svcIndex) => (
                 <li key={service.slug}>

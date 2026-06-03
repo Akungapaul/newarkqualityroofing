@@ -3,17 +3,19 @@ import { renderParagraphWithLinks } from '@/lib/render-inline-links';
 
 interface ComboOverviewProps {
   paragraphs: string[];
+  /** §4.4 Core H2 ("What [Service] Is Available in [City]?") from heading-config. */
+  heading: string;
   image?: { src: string; alt: string };
 }
 
-export function ComboOverview({ paragraphs, image }: ComboOverviewProps) {
+export function ComboOverview({ paragraphs, heading, image }: ComboOverviewProps) {
   return (
     <section aria-labelledby="combo-overview-heading">
       <h2
         id="combo-overview-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        Overview
+        {heading}
       </h2>
       <div className={`mt-4 ${image ? 'grid gap-8 md:grid-cols-5' : ''}`}>
         <div className={`space-y-4 ${image ? 'md:col-span-3' : ''}`}>

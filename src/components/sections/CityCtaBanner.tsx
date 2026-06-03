@@ -22,7 +22,7 @@ export function CityCtaBanner({ cityName }: CityCtaBannerProps) {
 
       <div className="relative mx-auto max-w-4xl px-6 py-16 text-center lg:py-20">
         <h2 className="font-heading text-3xl font-bold text-parchment sm:text-4xl">
-          Don&rsquo;t Let a Small Leak Become a $10,000 Problem
+          How Can You Request a Free Roofing Estimate in {cityName}?
         </h2>
         <p className="mt-4 font-body text-lg leading-relaxed text-parchment/80">
           Get your free estimate today &mdash; same-day response, no obligation.

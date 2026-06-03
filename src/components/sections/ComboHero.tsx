@@ -3,6 +3,7 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { getServiceHeroImage, getCityHeroImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 import type { Service, City } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
 
@@ -34,7 +35,7 @@ export function ComboHero({ service, city, serviceGroups }: ComboHeroProps) {
   const heroImg = serviceImg ?? cityImg;
   const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
   const heroAlt = heroImg?.alt ?? `${service.name} in ${city.name}, NJ`;
-  const h1Text = `${service.name} in ${city.name}, NJ`;
+  const h1Text = HEADING_CONFIG.combo.h1(service.name, city.name);
 
   return (
     <section

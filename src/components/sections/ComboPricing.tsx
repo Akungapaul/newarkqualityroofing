@@ -19,7 +19,7 @@ export function ComboPricing({ pricing, serviceName, cityName }: ComboPricingPro
         id="combo-pricing-heading"
         className="font-heading text-xl font-bold text-forest sm:text-2xl"
       >
-        {serviceName} Cost in {cityName}
+        How Much Does {serviceName} Cost in {cityName}?
       </h2>
       <p className="mt-3 font-heading text-3xl font-bold text-copper">
         {pricing.range}

@@ -20,7 +20,7 @@ export function ComboWhyChooseUs({ reasons, serviceName, cityName }: ComboWhyCho
         id="combo-why-heading"
         className="font-heading text-xl font-bold text-forest sm:text-2xl"
       >
-        Why Choose Us for {serviceName} in {cityName}
+        Why Choose Our Roofing Company for {serviceName} in {cityName}?
       </h2>
       <ul className="mt-4 space-y-3">
         {contextualReasons.map((reason, index) => (

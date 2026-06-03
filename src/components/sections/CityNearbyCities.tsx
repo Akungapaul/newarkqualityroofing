@@ -24,7 +24,7 @@ export function CityNearbyCities({
   return (
     <div>
       <h2 id="nearby-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-        Roofing Services Near {currentCityName}
+        Where Else Do We Provide Roofing Services Near {currentCityName}?
       </h2>
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {adjacentCities.map((city, index) => (
@@ -33,9 +33,9 @@ export function CityNearbyCities({
             href={`/${generateCityPageSlug(city.slug)}`}
             className="group rounded-lg border border-border bg-white p-5 shadow-sm transition-all hover:border-copper/40 hover:shadow-md"
           >
-            <h3 className="font-heading text-lg font-semibold text-forest transition-colors group-hover:text-copper">
+            <span className="block font-heading text-lg font-semibold text-forest transition-colors group-hover:text-copper">
               {getCityAnchorText(city.name, index)}
-            </h3>
+            </span>
             <ul className="mt-2 space-y-1">
               {popularServices.map((service) => (
                 <li

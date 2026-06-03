@@ -21,7 +21,7 @@ export function CityOverview({
     <div className="space-y-8">
       <div>
         <h2 id="overview-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-          Roofing in {cityName}: Local Expertise You Can Trust
+          What Roofing Problems Are Common in {cityName}?
         </h2>
 
         {overviewImage && (
@@ -50,9 +50,9 @@ export function CityOverview({
       </div>
 
       <div>
-        <h3 className="font-heading text-xl font-bold text-forest sm:text-2xl">
+        <span className="block font-heading text-xl font-bold text-forest sm:text-2xl">
           {weatherChallenges.heading}
-        </h3>
+        </span>
         <div className="mt-3 space-y-3">
           {weatherChallenges.content.map((paragraph, index) => (
             <p

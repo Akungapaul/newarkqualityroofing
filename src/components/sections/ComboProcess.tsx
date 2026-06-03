@@ -3,10 +3,13 @@ import { getSectionImages } from '@/data/image-manifest';
 
 interface ComboProcessProps {
   steps: string[];
-  serviceName: string;
+  /** Retained for call-site compatibility; the H2 now comes from `heading`. */
+  serviceName?: string;
+  /** §4.4 H2 ("What Is Our Process for [Service] in [City]?") from heading-config. */
+  heading: string;
 }
 
-export function ComboProcess({ steps, serviceName }: ComboProcessProps) {
+export function ComboProcess({ steps, heading }: ComboProcessProps) {
   const processImages = getSectionImages('section-process');
 
   return (
@@ -15,7 +18,7 @@ export function ComboProcess({ steps, serviceName }: ComboProcessProps) {
         id="combo-process-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        Our {serviceName} Process
+        {heading}
       </h2>
       <ol className="mt-8 space-y-4">
         {steps.map((step, index) => (

@@ -11,7 +11,7 @@ export function CityMapNap({ cityName, state = 'NJ' }: CityMapNapProps) {
   return (
     <div>
       <h2 id="location-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-        Find Us Near {cityName}
+        Where Can You Find Us Near {cityName}?
       </h2>
       <div className="mt-6 grid gap-8 lg:grid-cols-2">
         {/* Google Maps embed */}
@@ -27,9 +27,9 @@ export function CityMapNap({ cityName, state = 'NJ' }: CityMapNapProps) {
 
         {/* NAP block */}
         <div className="flex flex-col justify-center">
-          <h3 className="font-heading text-xl font-semibold text-forest">
+          <span className="block font-heading text-xl font-semibold text-forest">
             {siteConfig.companyName}
-          </h3>
+          </span>
 
           <address className="mt-4 space-y-3 not-italic">
             <div className="flex items-start gap-3">
@@ -87,9 +87,9 @@ export function CityMapNap({ cityName, state = 'NJ' }: CityMapNapProps) {
 
           {/* Business hours */}
           <div className="mt-6">
-            <h4 className="font-heading text-sm font-bold uppercase tracking-wider text-forest">
+            <span className="block font-heading text-sm font-bold uppercase tracking-wider text-forest">
               Business Hours
-            </h4>
+            </span>
             <dl className="mt-2 space-y-1">
               {siteConfig.businessHours.map((entry) => (
                 <div
