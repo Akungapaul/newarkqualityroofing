@@ -1,4 +1,5 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 export const metadata = buildHubMetadata({
   slug: 'our-roofing-process',
@@ -11,7 +12,7 @@ export default function OurRoofingProcessPage() {
   return (
     <HubScaffold
       eyebrow="Our Process"
-      heading="How Does Our Roofing Process Work?"
+      heading={HEADING_CONFIG.hub['our-roofing-process']}
       intro="From the free roof inspection through the final walkthrough, Newark Quality Roofing follows a clear, step-by-step process on every roofing project in Essex County."
     />
   );

@@ -32,7 +32,7 @@ export type Article = z.infer<typeof ArticleSchema>;
 const rawArticles: Article[] = [
   {
     id: 'roof-repair-signs',
-    title: 'Signs You Need Roof Repair in NJ',
+    title: 'What Are the Signs You Need Roof Repair?',
     slug: 'signs-you-need-roof-repair-nj',
     parentId: 'roof-repair',
     parentType: 'service',
@@ -43,7 +43,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-repair-cost-guide',
-    title: 'Roof Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Repair Cost in NJ?',
     slug: 'how-much-does-roof-repair-cost-in-nj',
     parentId: 'roof-repair',
     parentType: 'service',
@@ -54,7 +54,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-repair-decision',
-    title: 'Choosing the Right Roof Repair Contractor in NJ',
+    title: 'How Do You Choose a Roof Repair Contractor?',
     slug: 'choosing-the-right-roof-repair-contractor-nj',
     parentId: 'roof-repair',
     parentType: 'service',
@@ -65,7 +65,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-replacement-signs',
-    title: 'Signs You Need Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Roof Replacement?',
     slug: 'signs-you-need-roof-replacement-nj',
     parentId: 'roof-replacement',
     parentType: 'service',
@@ -76,7 +76,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-replacement-cost-guide',
-    title: 'Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Replacement Cost in NJ?',
     slug: 'how-much-does-roof-replacement-cost-in-nj',
     parentId: 'roof-replacement',
     parentType: 'service',
@@ -87,7 +87,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-replacement-decision',
-    title: 'Choosing the Right Roof Replacement Contractor in NJ',
+    title: 'How Do You Choose a Roof Replacement Contractor?',
     slug: 'choosing-the-right-roof-replacement-contractor-nj',
     parentId: 'roof-replacement',
     parentType: 'service',
@@ -98,7 +98,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'emergency-roof-repair-signs',
-    title: 'Signs You Need Emergency Roof Repair in NJ',
+    title: 'What Are the Signs You Need Emergency Roof Repair?',
     slug: 'signs-you-need-emergency-roof-repair-nj',
     parentId: 'emergency-roof-repair',
     parentType: 'service',
@@ -109,7 +109,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'emergency-roof-repair-cost-guide',
-    title: 'Emergency Roof Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Emergency Roof Repair Cost in NJ?',
     slug: 'how-much-does-emergency-roof-repair-cost-in-nj',
     parentId: 'emergency-roof-repair',
     parentType: 'service',
@@ -120,7 +120,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'emergency-roof-repair-decision',
-    title: 'Choosing the Right Emergency Roof Repair Contractor in NJ',
+    title: 'How Do You Choose a Emergency Roof Repair Contractor?',
     slug: 'choosing-the-right-emergency-roof-repair-contractor-nj',
     parentId: 'emergency-roof-repair',
     parentType: 'service',
@@ -131,7 +131,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-inspection-signs',
-    title: 'Signs You Need Roof Inspection in NJ',
+    title: 'What Are the Signs You Need Roof Inspection?',
     slug: 'signs-you-need-roof-inspection-nj',
     parentId: 'roof-inspection',
     parentType: 'service',
@@ -142,7 +142,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-inspection-cost-guide',
-    title: 'Roof Inspection Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Inspection Cost in NJ?',
     slug: 'how-much-does-roof-inspection-cost-in-nj',
     parentId: 'roof-inspection',
     parentType: 'service',
@@ -153,7 +153,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-inspection-decision',
-    title: 'Choosing the Right Roof Inspection Contractor in NJ',
+    title: 'How Do You Choose a Roof Inspection Contractor?',
     slug: 'choosing-the-right-roof-inspection-contractor-nj',
     parentId: 'roof-inspection',
     parentType: 'service',
@@ -164,7 +164,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-maintenance-programs-signs',
-    title: 'Signs You Need Roof Maintenance Programs in NJ',
+    title: 'What Are the Signs You Need Roof Maintenance Programs?',
     slug: 'signs-you-need-roof-maintenance-programs-nj',
     parentId: 'roof-maintenance-programs',
     parentType: 'service',
@@ -175,7 +175,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-maintenance-programs-cost-guide',
-    title: 'Roof Maintenance Programs Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Maintenance Programs Cost in NJ?',
     slug: 'how-much-does-roof-maintenance-programs-cost-in-nj',
     parentId: 'roof-maintenance-programs',
     parentType: 'service',
@@ -186,7 +186,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-maintenance-programs-decision',
-    title: 'Choosing the Right Roof Maintenance Programs Contractor in NJ',
+    title: 'How Do You Choose a Roof Maintenance Programs Contractor?',
     slug: 'choosing-the-right-roof-maintenance-programs-contractor-nj',
     parentId: 'roof-maintenance-programs',
     parentType: 'service',
@@ -197,7 +197,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-leak-repair-signs',
-    title: 'Signs You Need Roof Leak Repair in NJ',
+    title: 'What Are the Signs You Need Roof Leak Repair?',
     slug: 'signs-you-need-roof-leak-repair-nj',
     parentId: 'roof-leak-repair',
     parentType: 'service',
@@ -208,7 +208,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-leak-repair-cost-guide',
-    title: 'Roof Leak Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Leak Repair Cost in NJ?',
     slug: 'how-much-does-roof-leak-repair-cost-in-nj',
     parentId: 'roof-leak-repair',
     parentType: 'service',
@@ -219,7 +219,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-leak-repair-decision',
-    title: 'Choosing the Right Roof Leak Repair Contractor in NJ',
+    title: 'How Do You Choose a Roof Leak Repair Contractor?',
     slug: 'choosing-the-right-roof-leak-repair-contractor-nj',
     parentId: 'roof-leak-repair',
     parentType: 'service',
@@ -230,7 +230,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'storm-damage-roof-repair-signs',
-    title: 'Signs You Need Storm Damage Roof Repair in NJ',
+    title: 'What Are the Signs You Need Storm Damage Roof Repair?',
     slug: 'signs-you-need-storm-damage-roof-repair-nj',
     parentId: 'storm-damage-roof-repair',
     parentType: 'service',
@@ -241,7 +241,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'storm-damage-roof-repair-cost-guide',
-    title: 'Storm Damage Roof Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Storm Damage Roof Repair Cost in NJ?',
     slug: 'how-much-does-storm-damage-roof-repair-cost-in-nj',
     parentId: 'storm-damage-roof-repair',
     parentType: 'service',
@@ -252,7 +252,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'storm-damage-roof-repair-decision',
-    title: 'Choosing the Right Storm Damage Roof Repair Contractor in NJ',
+    title: 'How Do You Choose a Storm Damage Roof Repair Contractor?',
     slug: 'choosing-the-right-storm-damage-roof-repair-contractor-nj',
     parentId: 'storm-damage-roof-repair',
     parentType: 'service',
@@ -263,7 +263,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'hail-damage-roof-repair-signs',
-    title: 'Signs You Need Hail Damage Roof Repair in NJ',
+    title: 'What Are the Signs You Need Hail Damage Roof Repair?',
     slug: 'signs-you-need-hail-damage-roof-repair-nj',
     parentId: 'hail-damage-roof-repair',
     parentType: 'service',
@@ -274,7 +274,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'hail-damage-roof-repair-cost-guide',
-    title: 'Hail Damage Roof Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Hail Damage Roof Repair Cost in NJ?',
     slug: 'how-much-does-hail-damage-roof-repair-cost-in-nj',
     parentId: 'hail-damage-roof-repair',
     parentType: 'service',
@@ -285,7 +285,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'hail-damage-roof-repair-decision',
-    title: 'Choosing the Right Hail Damage Roof Repair Contractor in NJ',
+    title: 'How Do You Choose a Hail Damage Roof Repair Contractor?',
     slug: 'choosing-the-right-hail-damage-roof-repair-contractor-nj',
     parentId: 'hail-damage-roof-repair',
     parentType: 'service',
@@ -296,7 +296,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'wind-damage-roof-repair-signs',
-    title: 'Signs You Need Wind Damage Roof Repair in NJ',
+    title: 'What Are the Signs You Need Wind Damage Roof Repair?',
     slug: 'signs-you-need-wind-damage-roof-repair-nj',
     parentId: 'wind-damage-roof-repair',
     parentType: 'service',
@@ -307,7 +307,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'wind-damage-roof-repair-cost-guide',
-    title: 'Wind Damage Roof Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Wind Damage Roof Repair Cost in NJ?',
     slug: 'how-much-does-wind-damage-roof-repair-cost-in-nj',
     parentId: 'wind-damage-roof-repair',
     parentType: 'service',
@@ -318,7 +318,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'wind-damage-roof-repair-decision',
-    title: 'Choosing the Right Wind Damage Roof Repair Contractor in NJ',
+    title: 'How Do You Choose a Wind Damage Roof Repair Contractor?',
     slug: 'choosing-the-right-wind-damage-roof-repair-contractor-nj',
     parentId: 'wind-damage-roof-repair',
     parentType: 'service',
@@ -329,7 +329,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-cleaning-moss-removal-signs',
-    title: 'Signs You Need Roof Cleaning & Moss Removal in NJ',
+    title: 'What Are the Signs You Need Roof Cleaning & Moss Removal?',
     slug: 'signs-you-need-roof-cleaning-moss-removal-nj',
     parentId: 'roof-cleaning-moss-removal',
     parentType: 'service',
@@ -340,7 +340,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-cleaning-moss-removal-cost-guide',
-    title: 'Roof Cleaning & Moss Removal Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Cleaning & Moss Removal Cost in NJ?',
     slug: 'how-much-does-roof-cleaning-moss-removal-cost-in-nj',
     parentId: 'roof-cleaning-moss-removal',
     parentType: 'service',
@@ -351,7 +351,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-cleaning-moss-removal-decision',
-    title: 'Choosing the Right Roof Cleaning & Moss Removal Contractor in NJ',
+    title: 'How Do You Choose a Roof Cleaning & Moss Removal Contractor?',
     slug: 'choosing-the-right-roof-cleaning-moss-removal-contractor-nj',
     parentId: 'roof-cleaning-moss-removal',
     parentType: 'service',
@@ -362,7 +362,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'residential-roof-installation-signs',
-    title: 'Signs You Need Residential Roof Installation in NJ',
+    title: 'What Are the Signs You Need Residential Roof Installation?',
     slug: 'residential-roof-installation-warning-signs-nj',
     parentId: 'residential-roof-installation',
     parentType: 'service',
@@ -373,7 +373,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'residential-roof-installation-cost-guide',
-    title: 'Residential Roof Installation Cost in NJ: What to Expect',
+    title: 'How Much Does Residential Roof Installation Cost in NJ?',
     slug: 'how-much-does-residential-roof-installation-cost-in-nj',
     parentId: 'residential-roof-installation',
     parentType: 'service',
@@ -384,7 +384,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'residential-roof-installation-decision',
-    title: 'Residential Roof Installation: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Residential Roof Installation?',
     slug: 'residential-roof-installation-pros-and-cons-nj-homeowners',
     parentId: 'residential-roof-installation',
     parentType: 'service',
@@ -395,7 +395,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-shingle-roofing-signs',
-    title: 'Signs You Need Asphalt Shingle Roofing in NJ',
+    title: 'What Are the Signs You Need Asphalt Shingle Roofing?',
     slug: 'asphalt-shingle-roofing-warning-signs-nj',
     parentId: 'asphalt-shingle-roofing',
     parentType: 'service',
@@ -406,7 +406,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-shingle-roofing-cost-guide',
-    title: 'Asphalt Shingle Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does Asphalt Shingle Roofing Cost in NJ?',
     slug: 'how-much-does-asphalt-shingle-roofing-cost-in-nj',
     parentId: 'asphalt-shingle-roofing',
     parentType: 'service',
@@ -417,7 +417,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-shingle-roofing-decision',
-    title: 'Asphalt Shingle Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Asphalt Shingle Roofing?',
     slug: 'asphalt-shingle-roofing-pros-and-cons-nj-homeowners',
     parentId: 'asphalt-shingle-roofing',
     parentType: 'service',
@@ -428,7 +428,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'slate-roof-installation-repair-signs',
-    title: 'Signs You Need Slate Roof Installation & Repair in NJ',
+    title: 'What Are the Signs You Need Slate Roof Installation & Repair?',
     slug: 'slate-roof-installation-repair-warning-signs-nj',
     parentId: 'slate-roof-installation-repair',
     parentType: 'service',
@@ -439,7 +439,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'slate-roof-installation-repair-cost-guide',
-    title: 'Slate Roof Installation & Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Slate Roof Installation & Repair Cost in NJ?',
     slug: 'how-much-does-slate-roof-installation-repair-cost-in-nj',
     parentId: 'slate-roof-installation-repair',
     parentType: 'service',
@@ -450,7 +450,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'slate-roof-installation-repair-decision',
-    title: 'Slate Roof Installation & Repair: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Slate Roof Installation & Repair?',
     slug: 'slate-roof-installation-repair-pros-and-cons-nj-homeowners',
     parentId: 'slate-roof-installation-repair',
     parentType: 'service',
@@ -461,7 +461,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'wood-shake-roofing-signs',
-    title: 'Signs You Need Wood Shake Roofing in NJ',
+    title: 'What Are the Signs You Need Wood Shake Roofing?',
     slug: 'wood-shake-roofing-warning-signs-nj',
     parentId: 'wood-shake-roofing',
     parentType: 'service',
@@ -472,7 +472,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'wood-shake-roofing-cost-guide',
-    title: 'Wood Shake Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does Wood Shake Roofing Cost in NJ?',
     slug: 'how-much-does-wood-shake-roofing-cost-in-nj',
     parentId: 'wood-shake-roofing',
     parentType: 'service',
@@ -483,7 +483,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'wood-shake-roofing-decision',
-    title: 'Wood Shake Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Wood Shake Roofing?',
     slug: 'wood-shake-roofing-pros-and-cons-nj-homeowners',
     parentId: 'wood-shake-roofing',
     parentType: 'service',
@@ -494,7 +494,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'metal-roof-installation-repair-signs',
-    title: 'Signs You Need Metal Roof Installation & Repair in NJ',
+    title: 'What Are the Signs You Need Metal Roof Installation & Repair?',
     slug: 'metal-roof-installation-repair-warning-signs-nj',
     parentId: 'metal-roof-installation-repair',
     parentType: 'service',
@@ -505,7 +505,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'metal-roof-installation-repair-cost-guide',
-    title: 'Metal Roof Installation & Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Metal Roof Installation & Repair Cost in NJ?',
     slug: 'how-much-does-metal-roof-installation-repair-cost-in-nj',
     parentId: 'metal-roof-installation-repair',
     parentType: 'service',
@@ -516,7 +516,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'metal-roof-installation-repair-decision',
-    title: 'Metal Roof Installation & Repair: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Metal Roof Installation & Repair?',
     slug: 'metal-roof-installation-repair-pros-and-cons-nj-homeowners',
     parentId: 'metal-roof-installation-repair',
     parentType: 'service',
@@ -527,7 +527,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'flat-roof-installation-repair-signs',
-    title: 'Signs You Need Flat Roof Installation & Repair in NJ',
+    title: 'What Are the Signs You Need Flat Roof Installation & Repair?',
     slug: 'flat-roof-installation-repair-warning-signs-nj',
     parentId: 'flat-roof-installation-repair',
     parentType: 'service',
@@ -538,7 +538,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'flat-roof-installation-repair-cost-guide',
-    title: 'Flat Roof Installation & Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Flat Roof Installation & Repair Cost in NJ?',
     slug: 'how-much-does-flat-roof-installation-repair-cost-in-nj',
     parentId: 'flat-roof-installation-repair',
     parentType: 'service',
@@ -549,7 +549,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'flat-roof-installation-repair-decision',
-    title: 'Flat Roof Installation & Repair: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Flat Roof Installation & Repair?',
     slug: 'flat-roof-installation-repair-pros-and-cons-nj-homeowners',
     parentId: 'flat-roof-installation-repair',
     parentType: 'service',
@@ -560,7 +560,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tile-roof-installation-repair-signs',
-    title: 'Signs You Need Tile Roof Installation & Repair in NJ',
+    title: 'What Are the Signs You Need Tile Roof Installation & Repair?',
     slug: 'tile-roof-installation-repair-warning-signs-nj',
     parentId: 'tile-roof-installation-repair',
     parentType: 'service',
@@ -571,7 +571,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tile-roof-installation-repair-cost-guide',
-    title: 'Tile Roof Installation & Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Tile Roof Installation & Repair Cost in NJ?',
     slug: 'how-much-does-tile-roof-installation-repair-cost-in-nj',
     parentId: 'tile-roof-installation-repair',
     parentType: 'service',
@@ -582,7 +582,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tile-roof-installation-repair-decision',
-    title: 'Tile Roof Installation & Repair: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Tile Roof Installation & Repair?',
     slug: 'tile-roof-installation-repair-pros-and-cons-nj-homeowners',
     parentId: 'tile-roof-installation-repair',
     parentType: 'service',
@@ -593,7 +593,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cedar-shake-roofing-signs',
-    title: 'Signs You Need Cedar Shake Roofing in NJ',
+    title: 'What Are the Signs You Need Cedar Shake Roofing?',
     slug: 'cedar-shake-roofing-warning-signs-nj',
     parentId: 'cedar-shake-roofing',
     parentType: 'service',
@@ -604,7 +604,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cedar-shake-roofing-cost-guide',
-    title: 'Cedar Shake Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does Cedar Shake Roofing Cost in NJ?',
     slug: 'how-much-does-cedar-shake-roofing-cost-in-nj',
     parentId: 'cedar-shake-roofing',
     parentType: 'service',
@@ -615,7 +615,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cedar-shake-roofing-decision',
-    title: 'Cedar Shake Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Cedar Shake Roofing?',
     slug: 'cedar-shake-roofing-pros-and-cons-nj-homeowners',
     parentId: 'cedar-shake-roofing',
     parentType: 'service',
@@ -626,7 +626,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'rubber-roofing-epdm-signs',
-    title: 'Signs You Need Rubber Roofing EPDM in NJ',
+    title: 'What Are the Signs You Need Rubber Roofing EPDM?',
     slug: 'rubber-roofing-epdm-warning-signs-nj',
     parentId: 'rubber-roofing-epdm',
     parentType: 'service',
@@ -637,7 +637,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'rubber-roofing-epdm-cost-guide',
-    title: 'Rubber Roofing EPDM Cost in NJ: What to Expect',
+    title: 'How Much Does Rubber Roofing EPDM Cost in NJ?',
     slug: 'how-much-does-rubber-roofing-epdm-cost-in-nj',
     parentId: 'rubber-roofing-epdm',
     parentType: 'service',
@@ -648,7 +648,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'rubber-roofing-epdm-decision',
-    title: 'Rubber Roofing EPDM: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Rubber Roofing EPDM?',
     slug: 'rubber-roofing-epdm-pros-and-cons-nj-homeowners',
     parentId: 'rubber-roofing-epdm',
     parentType: 'service',
@@ -659,7 +659,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tpo-roofing-installation-signs',
-    title: 'Signs You Need TPO Roofing Installation in NJ',
+    title: 'What Are the Signs You Need TPO Roofing Installation?',
     slug: 'tpo-roofing-installation-warning-signs-nj',
     parentId: 'tpo-roofing-installation',
     parentType: 'service',
@@ -670,7 +670,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tpo-roofing-installation-cost-guide',
-    title: 'TPO Roofing Installation Cost in NJ: What to Expect',
+    title: 'How Much Does TPO Roofing Installation Cost in NJ?',
     slug: 'how-much-does-tpo-roofing-installation-cost-in-nj',
     parentId: 'tpo-roofing-installation',
     parentType: 'service',
@@ -681,7 +681,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tpo-roofing-installation-decision',
-    title: 'TPO Roofing Installation: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of TPO Roofing Installation?',
     slug: 'tpo-roofing-installation-pros-and-cons-nj-homeowners',
     parentId: 'tpo-roofing-installation',
     parentType: 'service',
@@ -692,7 +692,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'epdm-commercial-roofing-signs',
-    title: 'Signs You Need EPDM Commercial Roofing in NJ',
+    title: 'What Are the Signs You Need EPDM Commercial Roofing?',
     slug: 'epdm-commercial-roofing-warning-signs-nj',
     parentId: 'epdm-commercial-roofing',
     parentType: 'service',
@@ -703,7 +703,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'epdm-commercial-roofing-cost-guide',
-    title: 'EPDM Commercial Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does EPDM Commercial Roofing Cost in NJ?',
     slug: 'how-much-does-epdm-commercial-roofing-cost-in-nj',
     parentId: 'epdm-commercial-roofing',
     parentType: 'service',
@@ -714,7 +714,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'epdm-commercial-roofing-decision',
-    title: 'EPDM Commercial Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of EPDM Commercial Roofing?',
     slug: 'epdm-commercial-roofing-pros-and-cons-nj-homeowners',
     parentId: 'epdm-commercial-roofing',
     parentType: 'service',
@@ -725,7 +725,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'modified-bitumen-roofing-signs',
-    title: 'Signs You Need Modified Bitumen Roofing in NJ',
+    title: 'What Are the Signs You Need Modified Bitumen Roofing?',
     slug: 'modified-bitumen-roofing-warning-signs-nj',
     parentId: 'modified-bitumen-roofing',
     parentType: 'service',
@@ -736,7 +736,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'modified-bitumen-roofing-cost-guide',
-    title: 'Modified Bitumen Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does Modified Bitumen Roofing Cost in NJ?',
     slug: 'how-much-does-modified-bitumen-roofing-cost-in-nj',
     parentId: 'modified-bitumen-roofing',
     parentType: 'service',
@@ -747,7 +747,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'modified-bitumen-roofing-decision',
-    title: 'Modified Bitumen Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Modified Bitumen Roofing?',
     slug: 'modified-bitumen-roofing-pros-and-cons-nj-homeowners',
     parentId: 'modified-bitumen-roofing',
     parentType: 'service',
@@ -758,7 +758,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'built-up-roofing-signs',
-    title: 'Signs You Need Built-Up Roofing in NJ',
+    title: 'What Are the Signs You Need Built-Up Roofing?',
     slug: 'built-up-roofing-warning-signs-nj',
     parentId: 'built-up-roofing',
     parentType: 'service',
@@ -769,7 +769,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'built-up-roofing-cost-guide',
-    title: 'Built-Up Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does Built-Up Roofing Cost in NJ?',
     slug: 'how-much-does-built-up-roofing-cost-in-nj',
     parentId: 'built-up-roofing',
     parentType: 'service',
@@ -780,7 +780,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'built-up-roofing-decision',
-    title: 'Built-Up Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Built-Up Roofing?',
     slug: 'built-up-roofing-pros-and-cons-nj-homeowners',
     parentId: 'built-up-roofing',
     parentType: 'service',
@@ -791,7 +791,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-metal-roofing-signs',
-    title: 'Signs You Need Commercial Metal Roofing in NJ',
+    title: 'What Are the Signs You Need Commercial Metal Roofing?',
     slug: 'commercial-metal-roofing-warning-signs-nj',
     parentId: 'commercial-metal-roofing',
     parentType: 'service',
@@ -802,7 +802,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-metal-roofing-cost-guide',
-    title: 'Commercial Metal Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does Commercial Metal Roofing Cost in NJ?',
     slug: 'how-much-does-commercial-metal-roofing-cost-in-nj',
     parentId: 'commercial-metal-roofing',
     parentType: 'service',
@@ -813,7 +813,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-metal-roofing-decision',
-    title: 'Commercial Metal Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Commercial Metal Roofing?',
     slug: 'commercial-metal-roofing-pros-and-cons-nj-homeowners',
     parentId: 'commercial-metal-roofing',
     parentType: 'service',
@@ -824,7 +824,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'pvc-roofing-signs',
-    title: 'Signs You Need PVC Roofing in NJ',
+    title: 'What Are the Signs You Need PVC Roofing?',
     slug: 'pvc-roofing-warning-signs-nj',
     parentId: 'pvc-roofing',
     parentType: 'service',
@@ -835,7 +835,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'pvc-roofing-cost-guide',
-    title: 'PVC Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does PVC Roofing Cost in NJ?',
     slug: 'how-much-does-pvc-roofing-cost-in-nj',
     parentId: 'pvc-roofing',
     parentType: 'service',
@@ -846,7 +846,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'pvc-roofing-decision',
-    title: 'PVC Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of PVC Roofing?',
     slug: 'pvc-roofing-pros-and-cons-nj-homeowners',
     parentId: 'pvc-roofing',
     parentType: 'service',
@@ -857,7 +857,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'green-roof-installation-signs',
-    title: 'Signs You Need Green Roof Installation in NJ',
+    title: 'What Are the Signs You Need Green Roof Installation?',
     slug: 'green-roof-installation-warning-signs-nj',
     parentId: 'green-roof-installation',
     parentType: 'service',
@@ -868,7 +868,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'green-roof-installation-cost-guide',
-    title: 'Green Roof Installation Cost in NJ: What to Expect',
+    title: 'How Much Does Green Roof Installation Cost in NJ?',
     slug: 'how-much-does-green-roof-installation-cost-in-nj',
     parentId: 'green-roof-installation',
     parentType: 'service',
@@ -879,7 +879,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'green-roof-installation-decision',
-    title: 'Green Roof Installation: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Green Roof Installation?',
     slug: 'green-roof-installation-pros-and-cons-nj-homeowners',
     parentId: 'green-roof-installation',
     parentType: 'service',
@@ -890,7 +890,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'spray-foam-roofing-signs',
-    title: 'Signs You Need Spray Foam Roofing in NJ',
+    title: 'What Are the Signs You Need Spray Foam Roofing?',
     slug: 'spray-foam-roofing-warning-signs-nj',
     parentId: 'spray-foam-roofing',
     parentType: 'service',
@@ -901,7 +901,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'spray-foam-roofing-cost-guide',
-    title: 'Spray Foam Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does Spray Foam Roofing Cost in NJ?',
     slug: 'how-much-does-spray-foam-roofing-cost-in-nj',
     parentId: 'spray-foam-roofing',
     parentType: 'service',
@@ -912,7 +912,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'spray-foam-roofing-decision',
-    title: 'Spray Foam Roofing: Pros and Cons for NJ Properties',
+    title: 'What Are the Pros and Cons of Spray Foam Roofing?',
     slug: 'spray-foam-roofing-pros-and-cons-nj-homeowners',
     parentId: 'spray-foam-roofing',
     parentType: 'service',
@@ -923,7 +923,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-flashing-installation-repair-signs',
-    title: 'Signs You Need Roof Flashing Installation Repair in NJ',
+    title: 'What Are the Signs You Need Roof Flashing Installation Repair?',
     slug: 'when-to-replace-roof-flashing-installation-repair-nj',
     parentId: 'roof-flashing-installation-repair',
     parentType: 'service',
@@ -934,7 +934,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-flashing-installation-repair-cost-guide',
-    title: 'Roof Flashing Installation Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Flashing Installation Repair Cost in NJ?',
     slug: 'how-much-does-roof-flashing-installation-repair-cost-in-nj',
     parentId: 'roof-flashing-installation-repair',
     parentType: 'service',
@@ -945,7 +945,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-flashing-installation-repair-decision',
-    title: 'Roof Flashing Installation Repair: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Roof Flashing Installation Repair?',
     slug: 'roof-flashing-installation-repair-complete-homeowner-guide-nj',
     parentId: 'roof-flashing-installation-repair',
     parentType: 'service',
@@ -956,7 +956,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'chimney-flashing-repair-signs',
-    title: 'Signs You Need Chimney Flashing Repair in NJ',
+    title: 'What Are the Signs You Need Chimney Flashing Repair?',
     slug: 'when-to-replace-chimney-flashing-repair-nj',
     parentId: 'chimney-flashing-repair',
     parentType: 'service',
@@ -967,7 +967,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'chimney-flashing-repair-cost-guide',
-    title: 'Chimney Flashing Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Chimney Flashing Repair Cost in NJ?',
     slug: 'how-much-does-chimney-flashing-repair-cost-in-nj',
     parentId: 'chimney-flashing-repair',
     parentType: 'service',
@@ -978,7 +978,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'chimney-flashing-repair-decision',
-    title: 'Chimney Flashing Repair: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Chimney Flashing Repair?',
     slug: 'chimney-flashing-repair-complete-homeowner-guide-nj',
     parentId: 'chimney-flashing-repair',
     parentType: 'service',
@@ -989,7 +989,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'gutter-installation-repair-signs',
-    title: 'Signs You Need Gutter Installation Repair in NJ',
+    title: 'What Are the Signs You Need Gutter Installation Repair?',
     slug: 'when-to-replace-gutter-installation-repair-nj',
     parentId: 'gutter-installation-repair',
     parentType: 'service',
@@ -1000,7 +1000,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'gutter-installation-repair-cost-guide',
-    title: 'Gutter Installation Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Gutter Installation Repair Cost in NJ?',
     slug: 'how-much-does-gutter-installation-repair-cost-in-nj',
     parentId: 'gutter-installation-repair',
     parentType: 'service',
@@ -1011,7 +1011,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'gutter-installation-repair-decision',
-    title: 'Gutter Installation Repair: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Gutter Installation Repair?',
     slug: 'gutter-installation-repair-complete-homeowner-guide-nj',
     parentId: 'gutter-installation-repair',
     parentType: 'service',
@@ -1022,7 +1022,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'gutter-guard-installation-signs',
-    title: 'Signs You Need Gutter Guard Installation in NJ',
+    title: 'What Are the Signs You Need Gutter Guard Installation?',
     slug: 'when-to-replace-gutter-guard-installation-nj',
     parentId: 'gutter-guard-installation',
     parentType: 'service',
@@ -1033,7 +1033,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'gutter-guard-installation-cost-guide',
-    title: 'Gutter Guard Installation Cost in NJ: What to Expect',
+    title: 'How Much Does Gutter Guard Installation Cost in NJ?',
     slug: 'how-much-does-gutter-guard-installation-cost-in-nj',
     parentId: 'gutter-guard-installation',
     parentType: 'service',
@@ -1044,7 +1044,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'gutter-guard-installation-decision',
-    title: 'Gutter Guard Installation: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Gutter Guard Installation?',
     slug: 'gutter-guard-installation-complete-homeowner-guide-nj',
     parentId: 'gutter-guard-installation',
     parentType: 'service',
@@ -1055,7 +1055,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'skylight-installation-repair-signs',
-    title: 'Signs You Need Skylight Installation Repair in NJ',
+    title: 'What Are the Signs You Need Skylight Installation Repair?',
     slug: 'when-to-replace-skylight-installation-repair-nj',
     parentId: 'skylight-installation-repair',
     parentType: 'service',
@@ -1066,7 +1066,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'skylight-installation-repair-cost-guide',
-    title: 'Skylight Installation Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Skylight Installation Repair Cost in NJ?',
     slug: 'how-much-does-skylight-installation-repair-cost-in-nj',
     parentId: 'skylight-installation-repair',
     parentType: 'service',
@@ -1077,7 +1077,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'skylight-installation-repair-decision',
-    title: 'Skylight Installation Repair: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Skylight Installation Repair?',
     slug: 'skylight-installation-repair-complete-homeowner-guide-nj',
     parentId: 'skylight-installation-repair',
     parentType: 'service',
@@ -1088,7 +1088,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'fascia-installation-repair-signs',
-    title: 'Signs You Need Fascia Installation Repair in NJ',
+    title: 'What Are the Signs You Need Fascia Installation Repair?',
     slug: 'when-to-replace-fascia-installation-repair-nj',
     parentId: 'fascia-installation-repair',
     parentType: 'service',
@@ -1099,7 +1099,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'fascia-installation-repair-cost-guide',
-    title: 'Fascia Installation Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Fascia Installation Repair Cost in NJ?',
     slug: 'how-much-does-fascia-installation-repair-cost-in-nj',
     parentId: 'fascia-installation-repair',
     parentType: 'service',
@@ -1110,7 +1110,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'fascia-installation-repair-decision',
-    title: 'Fascia Installation Repair: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Fascia Installation Repair?',
     slug: 'fascia-installation-repair-complete-homeowner-guide-nj',
     parentId: 'fascia-installation-repair',
     parentType: 'service',
@@ -1121,7 +1121,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'soffit-installation-repair-signs',
-    title: 'Signs You Need Soffit Installation Repair in NJ',
+    title: 'What Are the Signs You Need Soffit Installation Repair?',
     slug: 'when-to-replace-soffit-installation-repair-nj',
     parentId: 'soffit-installation-repair',
     parentType: 'service',
@@ -1132,7 +1132,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'soffit-installation-repair-cost-guide',
-    title: 'Soffit Installation Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Soffit Installation Repair Cost in NJ?',
     slug: 'how-much-does-soffit-installation-repair-cost-in-nj',
     parentId: 'soffit-installation-repair',
     parentType: 'service',
@@ -1143,7 +1143,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'soffit-installation-repair-decision',
-    title: 'Soffit Installation Repair: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Soffit Installation Repair?',
     slug: 'soffit-installation-repair-complete-homeowner-guide-nj',
     parentId: 'soffit-installation-repair',
     parentType: 'service',
@@ -1154,7 +1154,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-vent-installation-repair-signs',
-    title: 'Signs You Need Roof Vent Installation Repair in NJ',
+    title: 'What Are the Signs You Need Roof Vent Installation Repair?',
     slug: 'when-to-replace-roof-vent-installation-repair-nj',
     parentId: 'roof-vent-installation-repair',
     parentType: 'service',
@@ -1165,7 +1165,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-vent-installation-repair-cost-guide',
-    title: 'Roof Vent Installation Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Vent Installation Repair Cost in NJ?',
     slug: 'how-much-does-roof-vent-installation-repair-cost-in-nj',
     parentId: 'roof-vent-installation-repair',
     parentType: 'service',
@@ -1176,7 +1176,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-vent-installation-repair-decision',
-    title: 'Roof Vent Installation Repair: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Roof Vent Installation Repair?',
     slug: 'roof-vent-installation-repair-complete-homeowner-guide-nj',
     parentId: 'roof-vent-installation-repair',
     parentType: 'service',
@@ -1187,7 +1187,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-waterproofing-signs',
-    title: 'Signs You Need Roof Waterproofing in NJ',
+    title: 'What Are the Signs You Need Roof Waterproofing?',
     slug: 'when-to-replace-roof-waterproofing-nj',
     parentId: 'roof-waterproofing',
     parentType: 'service',
@@ -1198,7 +1198,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-waterproofing-cost-guide',
-    title: 'Roof Waterproofing Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Waterproofing Cost in NJ?',
     slug: 'how-much-does-roof-waterproofing-cost-in-nj',
     parentId: 'roof-waterproofing',
     parentType: 'service',
@@ -1209,7 +1209,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-waterproofing-decision',
-    title: 'Roof Waterproofing: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Roof Waterproofing?',
     slug: 'roof-waterproofing-complete-homeowner-guide-nj',
     parentId: 'roof-waterproofing',
     parentType: 'service',
@@ -1220,7 +1220,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-deck-repair-replacement-signs',
-    title: 'Signs You Need Roof Deck Repair & Replacement in NJ',
+    title: 'What Are the Signs You Need Roof Deck Repair & Replacement?',
     slug: 'when-to-replace-roof-deck-repair-replacement-nj',
     parentId: 'roof-deck-repair-replacement',
     parentType: 'service',
@@ -1231,7 +1231,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-deck-repair-replacement-cost-guide',
-    title: 'Roof Deck Repair & Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Deck Repair & Replacement Cost in NJ?',
     slug: 'how-much-does-roof-deck-repair-replacement-cost-in-nj',
     parentId: 'roof-deck-repair-replacement',
     parentType: 'service',
@@ -1242,7 +1242,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-deck-repair-replacement-decision',
-    title: 'Roof Deck Repair & Replacement: Complete NJ Homeowner Guide',
+    title: 'What Should You Know About Roof Deck Repair & Replacement?',
     slug: 'roof-deck-repair-replacement-complete-homeowner-guide-nj',
     parentId: 'roof-deck-repair-replacement',
     parentType: 'service',
@@ -1253,7 +1253,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'solar-panel-roofing-installation-signs',
-    title: 'Signs You Need Solar Panel Roofing Installation in NJ',
+    title: 'What Are the Signs You Need Solar Panel Roofing Installation?',
     slug: 'is-solar-panel-roofing-installation-right-for-your-home',
     parentId: 'solar-panel-roofing-installation',
     parentType: 'service',
@@ -1264,7 +1264,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'solar-panel-roofing-installation-cost-guide',
-    title: 'Solar Panel Roofing Installation Cost in NJ: What to Expect',
+    title: 'How Much Does Solar Panel Roofing Installation Cost in NJ?',
     slug: 'how-much-does-solar-panel-roofing-installation-cost-in-nj',
     parentId: 'solar-panel-roofing-installation',
     parentType: 'service',
@@ -1275,7 +1275,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'solar-panel-roofing-installation-decision',
-    title: 'Solar Panel Roofing Installation: NJ Incentives and Savings',
+    title: 'What NJ Incentives and Savings Apply to Solar Panel Roofing Installation?',
     slug: 'solar-panel-roofing-installation-nj-incentives-and-savings',
     parentId: 'solar-panel-roofing-installation',
     parentType: 'service',
@@ -1286,7 +1286,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'solar-shingle-installation-signs',
-    title: 'Signs You Need Solar Shingle Installation in NJ',
+    title: 'What Are the Signs You Need Solar Shingle Installation?',
     slug: 'is-solar-shingle-installation-right-for-your-home',
     parentId: 'solar-shingle-installation',
     parentType: 'service',
@@ -1297,7 +1297,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'solar-shingle-installation-cost-guide',
-    title: 'Solar Shingle Installation Cost in NJ: What to Expect',
+    title: 'How Much Does Solar Shingle Installation Cost in NJ?',
     slug: 'how-much-does-solar-shingle-installation-cost-in-nj',
     parentId: 'solar-shingle-installation',
     parentType: 'service',
@@ -1308,7 +1308,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'solar-shingle-installation-decision',
-    title: 'Solar Shingle Installation: NJ Incentives and Savings',
+    title: 'What NJ Incentives and Savings Apply to Solar Shingle Installation?',
     slug: 'solar-shingle-installation-nj-incentives-and-savings',
     parentId: 'solar-shingle-installation',
     parentType: 'service',
@@ -1319,7 +1319,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'energy-efficient-roofing-solutions-signs',
-    title: 'Signs You Need Energy Efficient Roofing Solutions in NJ',
+    title: 'What Are the Signs You Need Energy Efficient Roofing Solutions?',
     slug: 'is-energy-efficient-roofing-solutions-right-for-your-home',
     parentId: 'energy-efficient-roofing-solutions',
     parentType: 'service',
@@ -1330,7 +1330,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'energy-efficient-roofing-solutions-cost-guide',
-    title: 'Energy Efficient Roofing Solutions Cost in NJ: What to Expect',
+    title: 'How Much Does Energy Efficient Roofing Solutions Cost in NJ?',
     slug: 'how-much-does-energy-efficient-roofing-solutions-cost-in-nj',
     parentId: 'energy-efficient-roofing-solutions',
     parentType: 'service',
@@ -1341,7 +1341,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'energy-efficient-roofing-solutions-decision',
-    title: 'Energy Efficient Roofing Solutions: NJ Incentives and Savings',
+    title: 'What NJ Incentives and Savings Apply to Energy Efficient Roofing Solutions?',
     slug: 'energy-efficient-roofing-solutions-nj-incentives-and-savings',
     parentId: 'energy-efficient-roofing-solutions',
     parentType: 'service',
@@ -1352,7 +1352,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'silicone-roof-coating-signs',
-    title: 'Signs You Need Silicone Roof Coating in NJ',
+    title: 'What Are the Signs You Need Silicone Roof Coating?',
     slug: 'is-silicone-roof-coating-right-for-your-home',
     parentId: 'silicone-roof-coating',
     parentType: 'service',
@@ -1363,7 +1363,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'silicone-roof-coating-cost-guide',
-    title: 'Silicone Roof Coating Cost in NJ: What to Expect',
+    title: 'How Much Does Silicone Roof Coating Cost in NJ?',
     slug: 'how-much-does-silicone-roof-coating-cost-in-nj',
     parentId: 'silicone-roof-coating',
     parentType: 'service',
@@ -1374,7 +1374,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'silicone-roof-coating-decision',
-    title: 'Silicone Roof Coating: NJ Incentives and Savings',
+    title: 'What NJ Incentives and Savings Apply to Silicone Roof Coating?',
     slug: 'silicone-roof-coating-nj-incentives-and-savings',
     parentId: 'silicone-roof-coating',
     parentType: 'service',
@@ -1385,7 +1385,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-installation-signs',
-    title: 'Signs You Need Commercial Roof Installation in NJ',
+    title: 'What Are the Signs You Need Commercial Roof Installation?',
     slug: 'signs-your-building-needs-commercial-roof-installation',
     parentId: 'commercial-roof-installation',
     parentType: 'service',
@@ -1396,7 +1396,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-installation-cost-guide',
-    title: 'Commercial Roof Installation Cost in NJ: What to Expect',
+    title: 'How Much Does Commercial Roof Installation Cost in NJ?',
     slug: 'how-much-does-commercial-roof-installation-cost-in-nj',
     parentId: 'commercial-roof-installation',
     parentType: 'service',
@@ -1407,7 +1407,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-installation-decision',
-    title: 'Commercial Roof Installation: What NJ Business Owners Should Know',
+    title: 'What Should NJ Business Owners Know About Commercial Roof Installation?',
     slug: 'commercial-roof-installation-what-business-owners-should-know',
     parentId: 'commercial-roof-installation',
     parentType: 'service',
@@ -1418,7 +1418,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-repair-signs',
-    title: 'Signs You Need Commercial Roof Repair in NJ',
+    title: 'What Are the Signs You Need Commercial Roof Repair?',
     slug: 'signs-your-building-needs-commercial-roof-repair',
     parentId: 'commercial-roof-repair',
     parentType: 'service',
@@ -1429,7 +1429,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-repair-cost-guide',
-    title: 'Commercial Roof Repair Cost in NJ: What to Expect',
+    title: 'How Much Does Commercial Roof Repair Cost in NJ?',
     slug: 'how-much-does-commercial-roof-repair-cost-in-nj',
     parentId: 'commercial-roof-repair',
     parentType: 'service',
@@ -1440,7 +1440,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-repair-decision',
-    title: 'Commercial Roof Repair: What NJ Business Owners Should Know',
+    title: 'What Should NJ Business Owners Know About Commercial Roof Repair?',
     slug: 'commercial-roof-repair-what-business-owners-should-know',
     parentId: 'commercial-roof-repair',
     parentType: 'service',
@@ -1451,7 +1451,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-replacement-signs',
-    title: 'Signs You Need Commercial Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Commercial Roof Replacement?',
     slug: 'signs-your-building-needs-commercial-roof-replacement',
     parentId: 'commercial-roof-replacement',
     parentType: 'service',
@@ -1462,7 +1462,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-replacement-cost-guide',
-    title: 'Commercial Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Commercial Roof Replacement Cost in NJ?',
     slug: 'how-much-does-commercial-roof-replacement-cost-in-nj',
     parentId: 'commercial-roof-replacement',
     parentType: 'service',
@@ -1473,7 +1473,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'commercial-roof-replacement-decision',
-    title: 'Commercial Roof Replacement: What NJ Business Owners Should Know',
+    title: 'What Should NJ Business Owners Know About Commercial Roof Replacement?',
     slug: 'commercial-roof-replacement-what-business-owners-should-know',
     parentId: 'commercial-roof-replacement',
     parentType: 'service',
@@ -1484,7 +1484,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-thermal-imaging-inspections-signs',
-    title: 'Signs You Need Roof Thermal Imaging Inspections in NJ',
+    title: 'What Are the Signs You Need Roof Thermal Imaging Inspections?',
     slug: 'signs-your-building-needs-roof-thermal-imaging-inspections',
     parentId: 'roof-thermal-imaging-inspections',
     parentType: 'service',
@@ -1495,7 +1495,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-thermal-imaging-inspections-cost-guide',
-    title: 'Roof Thermal Imaging Inspections Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Thermal Imaging Inspections Cost in NJ?',
     slug: 'how-much-does-roof-thermal-imaging-inspections-cost-in-nj',
     parentId: 'roof-thermal-imaging-inspections',
     parentType: 'service',
@@ -1506,7 +1506,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-thermal-imaging-inspections-decision',
-    title: 'Roof Thermal Imaging Inspections: What NJ Business Owners Should Know',
+    title: 'What Should NJ Business Owners Know About Roof Thermal Imaging Inspections?',
     slug: 'roof-thermal-imaging-inspections-what-business-owners-should-know',
     parentId: 'roof-thermal-imaging-inspections',
     parentType: 'service',
@@ -1517,7 +1517,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'infrared-roof-leak-detection-signs',
-    title: 'Signs You Need Infrared Roof Leak Detection in NJ',
+    title: 'What Are the Signs You Need Infrared Roof Leak Detection?',
     slug: 'signs-your-building-needs-infrared-roof-leak-detection',
     parentId: 'infrared-roof-leak-detection',
     parentType: 'service',
@@ -1528,7 +1528,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'infrared-roof-leak-detection-cost-guide',
-    title: 'Infrared Roof Leak Detection Cost in NJ: What to Expect',
+    title: 'How Much Does Infrared Roof Leak Detection Cost in NJ?',
     slug: 'how-much-does-infrared-roof-leak-detection-cost-in-nj',
     parentId: 'infrared-roof-leak-detection',
     parentType: 'service',
@@ -1539,7 +1539,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'infrared-roof-leak-detection-decision',
-    title: 'Infrared Roof Leak Detection: What NJ Business Owners Should Know',
+    title: 'What Should NJ Business Owners Know About Infrared Roof Leak Detection?',
     slug: 'infrared-roof-leak-detection-what-business-owners-should-know',
     parentId: 'infrared-roof-leak-detection',
     parentType: 'service',
@@ -1550,7 +1550,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'custom-roof-design-consultation-signs',
-    title: 'Signs You Need Custom Roof Design & Consultation in NJ',
+    title: 'What Are the Signs You Need Custom Roof Design & Consultation?',
     slug: 'when-to-consider-custom-roof-design-consultation-nj',
     parentId: 'custom-roof-design-consultation',
     parentType: 'service',
@@ -1561,7 +1561,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'custom-roof-design-consultation-cost-guide',
-    title: 'Custom Roof Design & Consultation Cost in NJ: What to Expect',
+    title: 'How Much Does Custom Roof Design & Consultation Cost in NJ?',
     slug: 'how-much-does-custom-roof-design-consultation-cost-in-nj',
     parentId: 'custom-roof-design-consultation',
     parentType: 'service',
@@ -1572,7 +1572,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'custom-roof-design-consultation-decision',
-    title: 'Custom Roof Design & Consultation: What to Expect in NJ',
+    title: 'What Should You Expect From Custom Roof Design & Consultation?',
     slug: 'custom-roof-design-consultation-what-to-expect-nj',
     parentId: 'custom-roof-design-consultation',
     parentType: 'service',
@@ -1583,7 +1583,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'historic-roof-restoration-signs',
-    title: 'Signs You Need Historic Roof Restoration in NJ',
+    title: 'What Are the Signs You Need Historic Roof Restoration?',
     slug: 'when-to-consider-historic-roof-restoration-nj',
     parentId: 'historic-roof-restoration',
     parentType: 'service',
@@ -1594,7 +1594,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'historic-roof-restoration-cost-guide',
-    title: 'Historic Roof Restoration Cost in NJ: What to Expect',
+    title: 'How Much Does Historic Roof Restoration Cost in NJ?',
     slug: 'how-much-does-historic-roof-restoration-cost-in-nj',
     parentId: 'historic-roof-restoration',
     parentType: 'service',
@@ -1605,7 +1605,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'historic-roof-restoration-decision',
-    title: 'Historic Roof Restoration: What to Expect in NJ',
+    title: 'What Should You Expect From Historic Roof Restoration?',
     slug: 'historic-roof-restoration-what-to-expect-nj',
     parentId: 'historic-roof-restoration',
     parentType: 'service',
@@ -1616,7 +1616,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-ice-dam-prevention-signs',
-    title: 'Signs You Need Roof Ice Dam Prevention in NJ',
+    title: 'What Are the Signs You Need Roof Ice Dam Prevention?',
     slug: 'when-to-consider-roof-ice-dam-prevention-nj',
     parentId: 'roof-ice-dam-prevention',
     parentType: 'service',
@@ -1627,7 +1627,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-ice-dam-prevention-cost-guide',
-    title: 'Roof Ice Dam Prevention Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Ice Dam Prevention Cost in NJ?',
     slug: 'how-much-does-roof-ice-dam-prevention-cost-in-nj',
     parentId: 'roof-ice-dam-prevention',
     parentType: 'service',
@@ -1638,7 +1638,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-ice-dam-prevention-decision',
-    title: 'Roof Ice Dam Prevention: What to Expect in NJ',
+    title: 'What Should You Expect From Roof Ice Dam Prevention?',
     slug: 'roof-ice-dam-prevention-what-to-expect-nj',
     parentId: 'roof-ice-dam-prevention',
     parentType: 'service',
@@ -1649,7 +1649,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'full-roof-tear-off-signs',
-    title: 'Signs You Need Full Roof Tear Off in NJ',
+    title: 'What Are the Signs You Need Full Roof Tear Off?',
     slug: 'signs-you-need-full-roof-tear-off-nj',
     parentId: 'full-roof-tear-off',
     parentType: 'service',
@@ -1660,7 +1660,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'full-roof-tear-off-cost-guide',
-    title: 'Full Roof Tear Off Cost in NJ: What to Expect',
+    title: 'How Much Does Full Roof Tear Off Cost in NJ?',
     slug: 'full-roof-tear-off-cost-breakdown-nj',
     parentId: 'full-roof-tear-off',
     parentType: 'service',
@@ -1671,7 +1671,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'full-roof-tear-off-decision',
-    title: 'Complete Guide to Full Roof Tear Off in NJ',
+    title: 'What Should You Know About Full Roof Tear Off Roofing?',
     slug: 'full-roof-tear-off-complete-guide-nj',
     parentId: 'full-roof-tear-off',
     parentType: 'service',
@@ -1682,7 +1682,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-overlay-installation-signs',
-    title: 'Signs You Need Roof Overlay Installation in NJ',
+    title: 'What Are the Signs You Need Roof Overlay Installation?',
     slug: 'signs-you-need-roof-overlay-installation-nj',
     parentId: 'roof-overlay-installation',
     parentType: 'service',
@@ -1693,7 +1693,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-overlay-installation-cost-guide',
-    title: 'Roof Overlay Installation Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Overlay Installation Cost in NJ?',
     slug: 'roof-overlay-installation-cost-breakdown-nj',
     parentId: 'roof-overlay-installation',
     parentType: 'service',
@@ -1704,7 +1704,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-overlay-installation-decision',
-    title: 'Complete Guide to Roof Overlay Installation in NJ',
+    title: 'What Should You Know About Roof Overlay Installation Roofing?',
     slug: 'roof-overlay-installation-complete-guide-nj',
     parentId: 'roof-overlay-installation',
     parentType: 'service',
@@ -1715,7 +1715,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 're-roofing-signs',
-    title: 'Signs You Need Re-Roofing in NJ',
+    title: 'What Are the Signs You Need Re-Roofing?',
     slug: 'signs-you-need-re-roofing-nj',
     parentId: 're-roofing',
     parentType: 'service',
@@ -1726,7 +1726,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 're-roofing-cost-guide',
-    title: 'Re-Roofing Cost in NJ: What to Expect',
+    title: 'How Much Does Re-Roofing Cost in NJ?',
     slug: 're-roofing-cost-breakdown-nj',
     parentId: 're-roofing',
     parentType: 'service',
@@ -1737,7 +1737,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 're-roofing-decision',
-    title: 'Complete Guide to Re-Roofing in NJ',
+    title: 'What Should You Know About Re-Roofing Roofing?',
     slug: 're-roofing-complete-guide-nj',
     parentId: 're-roofing',
     parentType: 'service',
@@ -1748,7 +1748,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'insurance-roof-replacement-signs',
-    title: 'Signs You Need Insurance Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Insurance Roof Replacement?',
     slug: 'signs-you-need-insurance-roof-replacement-nj',
     parentId: 'insurance-roof-replacement',
     parentType: 'service',
@@ -1759,7 +1759,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'insurance-roof-replacement-cost-guide',
-    title: 'Insurance Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Insurance Roof Replacement Cost in NJ?',
     slug: 'insurance-roof-replacement-cost-breakdown-nj',
     parentId: 'insurance-roof-replacement',
     parentType: 'service',
@@ -1770,7 +1770,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'insurance-roof-replacement-decision',
-    title: 'Complete Guide to Insurance Roof Replacement in NJ',
+    title: 'What Should You Know About Insurance Roof Replacement Roofing?',
     slug: 'insurance-roof-replacement-complete-guide-nj',
     parentId: 'insurance-roof-replacement',
     parentType: 'service',
@@ -1781,7 +1781,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'storm-damage-roof-replacement-signs',
-    title: 'Signs You Need Storm Damage Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Storm Damage Roof Replacement?',
     slug: 'signs-you-need-storm-damage-roof-replacement-nj',
     parentId: 'storm-damage-roof-replacement',
     parentType: 'service',
@@ -1792,7 +1792,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'storm-damage-roof-replacement-cost-guide',
-    title: 'Storm Damage Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Storm Damage Roof Replacement Cost in NJ?',
     slug: 'storm-damage-roof-replacement-cost-breakdown-nj',
     parentId: 'storm-damage-roof-replacement',
     parentType: 'service',
@@ -1803,7 +1803,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'storm-damage-roof-replacement-decision',
-    title: 'Complete Guide to Storm Damage Roof Replacement in NJ',
+    title: 'What Should You Know About Storm Damage Roof Replacement Roofing?',
     slug: 'storm-damage-roof-replacement-complete-guide-nj',
     parentId: 'storm-damage-roof-replacement',
     parentType: 'service',
@@ -1814,7 +1814,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'aging-roof-replacement-signs',
-    title: 'Signs You Need Aging Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Aging Roof Replacement?',
     slug: 'signs-you-need-aging-roof-replacement-nj',
     parentId: 'aging-roof-replacement',
     parentType: 'service',
@@ -1825,7 +1825,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'aging-roof-replacement-cost-guide',
-    title: 'Aging Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Aging Roof Replacement Cost in NJ?',
     slug: 'aging-roof-replacement-cost-breakdown-nj',
     parentId: 'aging-roof-replacement',
     parentType: 'service',
@@ -1836,7 +1836,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'aging-roof-replacement-decision',
-    title: 'Complete Guide to Aging Roof Replacement in NJ',
+    title: 'What Should You Know About Aging Roof Replacement Roofing?',
     slug: 'aging-roof-replacement-complete-guide-nj',
     parentId: 'aging-roof-replacement',
     parentType: 'service',
@@ -1847,7 +1847,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-replacement-after-leak-signs',
-    title: 'Signs You Need Roof Replacement After Leak in NJ',
+    title: 'What Are the Signs You Need Roof Replacement After Leak?',
     slug: 'signs-you-need-roof-replacement-after-leak-nj',
     parentId: 'roof-replacement-after-leak',
     parentType: 'service',
@@ -1858,7 +1858,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-replacement-after-leak-cost-guide',
-    title: 'Roof Replacement After Leak Cost in NJ: What to Expect',
+    title: 'How Much Does Roof Replacement After Leak Cost in NJ?',
     slug: 'roof-replacement-after-leak-cost-breakdown-nj',
     parentId: 'roof-replacement-after-leak',
     parentType: 'service',
@@ -1869,7 +1869,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-replacement-after-leak-decision',
-    title: 'Complete Guide to Roof Replacement After Leak in NJ',
+    title: 'What Should You Know About Roof Replacement After Leak Roofing?',
     slug: 'roof-replacement-after-leak-complete-guide-nj',
     parentId: 'roof-replacement-after-leak',
     parentType: 'service',
@@ -1880,7 +1880,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'fire-damage-roof-replacement-signs',
-    title: 'Signs You Need Fire Damage Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Fire Damage Roof Replacement?',
     slug: 'signs-you-need-fire-damage-roof-replacement-nj',
     parentId: 'fire-damage-roof-replacement',
     parentType: 'service',
@@ -1891,7 +1891,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'fire-damage-roof-replacement-cost-guide',
-    title: 'Fire Damage Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Fire Damage Roof Replacement Cost in NJ?',
     slug: 'fire-damage-roof-replacement-cost-breakdown-nj',
     parentId: 'fire-damage-roof-replacement',
     parentType: 'service',
@@ -1902,7 +1902,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'fire-damage-roof-replacement-decision',
-    title: 'Complete Guide to Fire Damage Roof Replacement in NJ',
+    title: 'What Should You Know About Fire Damage Roof Replacement Roofing?',
     slug: 'fire-damage-roof-replacement-complete-guide-nj',
     parentId: 'fire-damage-roof-replacement',
     parentType: 'service',
@@ -1913,7 +1913,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-shingle-roof-replacement-signs',
-    title: 'Signs You Need Asphalt Shingle Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Asphalt Shingle Roof Replacement?',
     slug: 'signs-you-need-asphalt-shingle-roof-replacement-nj',
     parentId: 'asphalt-shingle-roof-replacement',
     parentType: 'service',
@@ -1924,7 +1924,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-shingle-roof-replacement-cost-guide',
-    title: 'Asphalt Shingle Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Asphalt Shingle Roof Replacement Cost in NJ?',
     slug: 'asphalt-shingle-roof-replacement-cost-breakdown-nj',
     parentId: 'asphalt-shingle-roof-replacement',
     parentType: 'service',
@@ -1935,7 +1935,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-shingle-roof-replacement-decision',
-    title: 'Complete Guide to Asphalt Shingle Roof Replacement in NJ',
+    title: 'What Should You Know About Asphalt Shingle Roof Replacement Roofing?',
     slug: 'asphalt-shingle-roof-replacement-complete-guide-nj',
     parentId: 'asphalt-shingle-roof-replacement',
     parentType: 'service',
@@ -1946,7 +1946,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'metal-roof-replacement-signs',
-    title: 'Signs You Need Metal Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Metal Roof Replacement?',
     slug: 'signs-you-need-metal-roof-replacement-nj',
     parentId: 'metal-roof-replacement',
     parentType: 'service',
@@ -1957,7 +1957,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'metal-roof-replacement-cost-guide',
-    title: 'Metal Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Metal Roof Replacement Cost in NJ?',
     slug: 'metal-roof-replacement-cost-breakdown-nj',
     parentId: 'metal-roof-replacement',
     parentType: 'service',
@@ -1968,7 +1968,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'metal-roof-replacement-decision',
-    title: 'Complete Guide to Metal Roof Replacement in NJ',
+    title: 'What Should You Know About Metal Roof Replacement Roofing?',
     slug: 'metal-roof-replacement-complete-guide-nj',
     parentId: 'metal-roof-replacement',
     parentType: 'service',
@@ -1979,7 +1979,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'slate-roof-replacement-signs',
-    title: 'Signs You Need Slate Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Slate Roof Replacement?',
     slug: 'signs-you-need-slate-roof-replacement-nj',
     parentId: 'slate-roof-replacement',
     parentType: 'service',
@@ -1990,7 +1990,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'slate-roof-replacement-cost-guide',
-    title: 'Slate Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Slate Roof Replacement Cost in NJ?',
     slug: 'slate-roof-replacement-cost-breakdown-nj',
     parentId: 'slate-roof-replacement',
     parentType: 'service',
@@ -2001,7 +2001,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'slate-roof-replacement-decision',
-    title: 'Complete Guide to Slate Roof Replacement in NJ',
+    title: 'What Should You Know About Slate Roof Replacement Roofing?',
     slug: 'slate-roof-replacement-complete-guide-nj',
     parentId: 'slate-roof-replacement',
     parentType: 'service',
@@ -2012,7 +2012,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tile-roof-replacement-signs',
-    title: 'Signs You Need Tile Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Tile Roof Replacement?',
     slug: 'signs-you-need-tile-roof-replacement-nj',
     parentId: 'tile-roof-replacement',
     parentType: 'service',
@@ -2023,7 +2023,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tile-roof-replacement-cost-guide',
-    title: 'Tile Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Tile Roof Replacement Cost in NJ?',
     slug: 'tile-roof-replacement-cost-breakdown-nj',
     parentId: 'tile-roof-replacement',
     parentType: 'service',
@@ -2034,7 +2034,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tile-roof-replacement-decision',
-    title: 'Complete Guide to Tile Roof Replacement in NJ',
+    title: 'What Should You Know About Tile Roof Replacement Roofing?',
     slug: 'tile-roof-replacement-complete-guide-nj',
     parentId: 'tile-roof-replacement',
     parentType: 'service',
@@ -2045,7 +2045,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'flat-roof-replacement-signs',
-    title: 'Signs You Need Flat Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Flat Roof Replacement?',
     slug: 'signs-you-need-flat-roof-replacement-nj',
     parentId: 'flat-roof-replacement',
     parentType: 'service',
@@ -2056,7 +2056,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'flat-roof-replacement-cost-guide',
-    title: 'Flat Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Flat Roof Replacement Cost in NJ?',
     slug: 'flat-roof-replacement-cost-breakdown-nj',
     parentId: 'flat-roof-replacement',
     parentType: 'service',
@@ -2067,7 +2067,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'flat-roof-replacement-decision',
-    title: 'Complete Guide to Flat Roof Replacement in NJ',
+    title: 'What Should You Know About Flat Roof Replacement Roofing?',
     slug: 'flat-roof-replacement-complete-guide-nj',
     parentId: 'flat-roof-replacement',
     parentType: 'service',
@@ -2078,7 +2078,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cedar-shake-roof-replacement-signs',
-    title: 'Signs You Need Cedar Shake Roof Replacement in NJ',
+    title: 'What Are the Signs You Need Cedar Shake Roof Replacement?',
     slug: 'signs-you-need-cedar-shake-roof-replacement-nj',
     parentId: 'cedar-shake-roof-replacement',
     parentType: 'service',
@@ -2089,7 +2089,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cedar-shake-roof-replacement-cost-guide',
-    title: 'Cedar Shake Roof Replacement Cost in NJ: What to Expect',
+    title: 'How Much Does Cedar Shake Roof Replacement Cost in NJ?',
     slug: 'cedar-shake-roof-replacement-cost-breakdown-nj',
     parentId: 'cedar-shake-roof-replacement',
     parentType: 'service',
@@ -2100,7 +2100,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cedar-shake-roof-replacement-decision',
-    title: 'Complete Guide to Cedar Shake Roof Replacement in NJ',
+    title: 'What Should You Know About Cedar Shake Roof Replacement Roofing?',
     slug: 'cedar-shake-roof-replacement-complete-guide-nj',
     parentId: 'cedar-shake-roof-replacement',
     parentType: 'service',
@@ -2111,7 +2111,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-shingles-vs-metal-roofing-buyers-guide',
-    title: 'How to Choose: Asphalt Shingles vs Metal Roofing in NJ',
+    title: 'Which Is Better: Asphalt Shingles vs Metal Roofing?',
     slug: 'how-to-choose-asphalt-shingles-vs-metal-roofing-nj',
     parentId: 'asphalt-shingles-vs-metal-roofing',
     parentType: 'comparison',
@@ -2122,7 +2122,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-shingles-vs-metal-roofing-expert-picks',
-    title: 'What NJ Roofers Recommend: Asphalt Shingles vs Metal Roofing',
+    title: 'What Do NJ Roofers Recommend for Asphalt Shingles vs Metal Roofing?',
     slug: 'what-nj-roofers-recommend-asphalt-shingles-vs-metal-roofing',
     parentId: 'asphalt-shingles-vs-metal-roofing',
     parentType: 'comparison',
@@ -2133,7 +2133,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'slate-vs-tile-roofing-buyers-guide',
-    title: 'How to Choose: Slate vs Tile Roofing in NJ',
+    title: 'Which Is Better: Slate vs Tile Roofing?',
     slug: 'how-to-choose-slate-vs-tile-roofing-nj',
     parentId: 'slate-vs-tile-roofing',
     parentType: 'comparison',
@@ -2144,7 +2144,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'slate-vs-tile-roofing-expert-picks',
-    title: 'What NJ Roofers Recommend: Slate vs Tile Roofing',
+    title: 'What Do NJ Roofers Recommend for Slate vs Tile Roofing?',
     slug: 'what-nj-roofers-recommend-slate-vs-tile-roofing',
     parentId: 'slate-vs-tile-roofing',
     parentType: 'comparison',
@@ -2155,7 +2155,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tpo-vs-epdm-roofing-buyers-guide',
-    title: 'How to Choose: TPO vs EPDM Roofing in NJ',
+    title: 'Which Is Better: TPO vs EPDM Roofing?',
     slug: 'how-to-choose-tpo-vs-epdm-roofing-nj',
     parentId: 'tpo-vs-epdm-roofing',
     parentType: 'comparison',
@@ -2166,7 +2166,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'tpo-vs-epdm-roofing-expert-picks',
-    title: 'What NJ Roofers Recommend: TPO vs EPDM Roofing',
+    title: 'What Do NJ Roofers Recommend for TPO vs EPDM Roofing?',
     slug: 'what-nj-roofers-recommend-tpo-vs-epdm-roofing',
     parentId: 'tpo-vs-epdm-roofing',
     parentType: 'comparison',
@@ -2177,7 +2177,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'metal-vs-tile-roofing-buyers-guide',
-    title: 'How to Choose: Metal vs Tile Roofing in NJ',
+    title: 'Which Is Better: Metal vs Tile Roofing?',
     slug: 'how-to-choose-metal-vs-tile-roofing-nj',
     parentId: 'metal-vs-tile-roofing',
     parentType: 'comparison',
@@ -2188,7 +2188,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'metal-vs-tile-roofing-expert-picks',
-    title: 'What NJ Roofers Recommend: Metal vs Tile Roofing',
+    title: 'What Do NJ Roofers Recommend for Metal vs Tile Roofing?',
     slug: 'what-nj-roofers-recommend-metal-vs-tile-roofing',
     parentId: 'metal-vs-tile-roofing',
     parentType: 'comparison',
@@ -2199,7 +2199,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-vs-slate-roofing-buyers-guide',
-    title: 'How to Choose: Asphalt vs Slate Roofing in NJ',
+    title: 'Which Is Better: Asphalt vs Slate Roofing?',
     slug: 'how-to-choose-asphalt-vs-slate-roofing-nj',
     parentId: 'asphalt-vs-slate-roofing',
     parentType: 'comparison',
@@ -2210,7 +2210,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'asphalt-vs-slate-roofing-expert-picks',
-    title: 'What NJ Roofers Recommend: Asphalt vs Slate Roofing',
+    title: 'What Do NJ Roofers Recommend for Asphalt vs Slate Roofing?',
     slug: 'what-nj-roofers-recommend-asphalt-vs-slate-roofing',
     parentId: 'asphalt-vs-slate-roofing',
     parentType: 'comparison',
@@ -2221,7 +2221,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'wood-shake-vs-asphalt-shingles-buyers-guide',
-    title: 'How to Choose: Wood Shake vs Asphalt Shingles in NJ',
+    title: 'Which Is Better: Wood Shake vs Asphalt Shingles?',
     slug: 'how-to-choose-wood-shake-vs-asphalt-shingles-nj',
     parentId: 'wood-shake-vs-asphalt-shingles',
     parentType: 'comparison',
@@ -2232,7 +2232,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'wood-shake-vs-asphalt-shingles-expert-picks',
-    title: 'What NJ Roofers Recommend: Wood Shake vs Asphalt Shingles',
+    title: 'What Do NJ Roofers Recommend for Wood Shake vs Asphalt Shingles?',
     slug: 'what-nj-roofers-recommend-wood-shake-vs-asphalt-shingles',
     parentId: 'wood-shake-vs-asphalt-shingles',
     parentType: 'comparison',
@@ -2243,7 +2243,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'pvc-vs-tpo-roofing-buyers-guide',
-    title: 'How to Choose: PVC vs TPO Roofing in NJ',
+    title: 'Which Is Better: PVC vs TPO Roofing?',
     slug: 'how-to-choose-pvc-vs-tpo-roofing-nj',
     parentId: 'pvc-vs-tpo-roofing',
     parentType: 'comparison',
@@ -2254,7 +2254,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'pvc-vs-tpo-roofing-expert-picks',
-    title: 'What NJ Roofers Recommend: PVC vs TPO Roofing',
+    title: 'What Do NJ Roofers Recommend for PVC vs TPO Roofing?',
     slug: 'what-nj-roofers-recommend-pvc-vs-tpo-roofing',
     parentId: 'pvc-vs-tpo-roofing',
     parentType: 'comparison',
@@ -2265,7 +2265,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'standing-seam-vs-corrugated-metal-buyers-guide',
-    title: 'How to Choose: Standing Seam vs Corrugated Metal in NJ',
+    title: 'Which Is Better: Standing Seam vs Corrugated Metal?',
     slug: 'how-to-choose-standing-seam-vs-corrugated-metal-nj',
     parentId: 'standing-seam-vs-corrugated-metal',
     parentType: 'comparison',
@@ -2276,7 +2276,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'standing-seam-vs-corrugated-metal-expert-picks',
-    title: 'What NJ Roofers Recommend: Standing Seam vs Corrugated Metal',
+    title: 'What Do NJ Roofers Recommend for Standing Seam vs Corrugated Metal?',
     slug: 'what-nj-roofers-recommend-standing-seam-vs-corrugated-metal',
     parentId: 'standing-seam-vs-corrugated-metal',
     parentType: 'comparison',
@@ -2287,7 +2287,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'modified-bitumen-vs-tpo-buyers-guide',
-    title: 'How to Choose: Modified Bitumen vs TPO in NJ',
+    title: 'Which Is Better: Modified Bitumen vs TPO?',
     slug: 'how-to-choose-modified-bitumen-vs-tpo-nj',
     parentId: 'modified-bitumen-vs-tpo',
     parentType: 'comparison',
@@ -2298,7 +2298,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'modified-bitumen-vs-tpo-expert-picks',
-    title: 'What NJ Roofers Recommend: Modified Bitumen vs TPO',
+    title: 'What Do NJ Roofers Recommend for Modified Bitumen vs TPO?',
     slug: 'what-nj-roofers-recommend-modified-bitumen-vs-tpo',
     parentId: 'modified-bitumen-vs-tpo',
     parentType: 'comparison',
@@ -2309,7 +2309,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'rubber-roofing-vs-tpo-buyers-guide',
-    title: 'How to Choose: Rubber Roofing vs TPO in NJ',
+    title: 'Which Is Better: Rubber Roofing vs TPO?',
     slug: 'how-to-choose-rubber-roofing-vs-tpo-nj',
     parentId: 'rubber-roofing-vs-tpo',
     parentType: 'comparison',
@@ -2320,7 +2320,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'rubber-roofing-vs-tpo-expert-picks',
-    title: 'What NJ Roofers Recommend: Rubber Roofing vs TPO',
+    title: 'What Do NJ Roofers Recommend for Rubber Roofing vs TPO?',
     slug: 'what-nj-roofers-recommend-rubber-roofing-vs-tpo',
     parentId: 'rubber-roofing-vs-tpo',
     parentType: 'comparison',
@@ -2331,7 +2331,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cedar-shake-vs-wood-shingle-buyers-guide',
-    title: 'How to Choose: Cedar Shake vs Wood Shingle in NJ',
+    title: 'Which Is Better: Cedar Shake vs Wood Shingle?',
     slug: 'how-to-choose-cedar-shake-vs-wood-shingle-nj',
     parentId: 'cedar-shake-vs-wood-shingle',
     parentType: 'comparison',
@@ -2342,7 +2342,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cedar-shake-vs-wood-shingle-expert-picks',
-    title: 'What NJ Roofers Recommend: Cedar Shake vs Wood Shingle',
+    title: 'What Do NJ Roofers Recommend for Cedar Shake vs Wood Shingle?',
     slug: 'what-nj-roofers-recommend-cedar-shake-vs-wood-shingle',
     parentId: 'cedar-shake-vs-wood-shingle',
     parentType: 'comparison',
@@ -2353,7 +2353,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'built-up-roofing-vs-modified-bitumen-buyers-guide',
-    title: 'How to Choose: Built-Up Roofing vs Modified Bitumen in NJ',
+    title: 'Which Is Better: Built-Up Roofing vs Modified Bitumen?',
     slug: 'how-to-choose-built-up-roofing-vs-modified-bitumen-nj',
     parentId: 'built-up-roofing-vs-modified-bitumen',
     parentType: 'comparison',
@@ -2364,7 +2364,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'built-up-roofing-vs-modified-bitumen-expert-picks',
-    title: 'What NJ Roofers Recommend: Built-Up Roofing vs Modified Bitumen',
+    title: 'What Do NJ Roofers Recommend for Built-Up Roofing vs Modified Bitumen?',
     slug: 'what-nj-roofers-recommend-built-up-roofing-vs-modified-bitumen',
     parentId: 'built-up-roofing-vs-modified-bitumen',
     parentType: 'comparison',
@@ -2375,7 +2375,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'spray-foam-vs-tpo-buyers-guide',
-    title: 'How to Choose: Spray Foam vs TPO in NJ',
+    title: 'Which Is Better: Spray Foam vs TPO?',
     slug: 'how-to-choose-spray-foam-vs-tpo-nj',
     parentId: 'spray-foam-vs-tpo',
     parentType: 'comparison',
@@ -2386,7 +2386,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'spray-foam-vs-tpo-expert-picks',
-    title: 'What NJ Roofers Recommend: Spray Foam vs TPO',
+    title: 'What Do NJ Roofers Recommend for Spray Foam vs TPO?',
     slug: 'what-nj-roofers-recommend-spray-foam-vs-tpo',
     parentId: 'spray-foam-vs-tpo',
     parentType: 'comparison',
@@ -2397,7 +2397,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'green-roof-vs-traditional-roofing-buyers-guide',
-    title: 'How to Choose: Green Roof vs Traditional Roofing in NJ',
+    title: 'Which Is Better: Green Roof vs Traditional Roofing?',
     slug: 'how-to-choose-green-roof-vs-traditional-roofing-nj',
     parentId: 'green-roof-vs-traditional-roofing',
     parentType: 'comparison',
@@ -2408,7 +2408,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'green-roof-vs-traditional-roofing-expert-picks',
-    title: 'What NJ Roofers Recommend: Green Roof vs Traditional Roofing',
+    title: 'What Do NJ Roofers Recommend for Green Roof vs Traditional Roofing?',
     slug: 'what-nj-roofers-recommend-green-roof-vs-traditional-roofing',
     parentId: 'green-roof-vs-traditional-roofing',
     parentType: 'comparison',
@@ -2419,7 +2419,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'solar-shingles-vs-solar-panels-buyers-guide',
-    title: 'How to Choose: Solar Shingles vs Solar Panels in NJ',
+    title: 'Which Is Better: Solar Shingles vs Solar Panels?',
     slug: 'how-to-choose-solar-shingles-vs-solar-panels-nj',
     parentId: 'solar-shingles-vs-solar-panels',
     parentType: 'comparison',
@@ -2430,7 +2430,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'solar-shingles-vs-solar-panels-expert-picks',
-    title: 'What NJ Roofers Recommend: Solar Shingles vs Solar Panels',
+    title: 'What Do NJ Roofers Recommend for Solar Shingles vs Solar Panels?',
     slug: 'what-nj-roofers-recommend-solar-shingles-vs-solar-panels',
     parentId: 'solar-shingles-vs-solar-panels',
     parentType: 'comparison',
@@ -2441,7 +2441,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-repair-vs-replacement-buyers-guide',
-    title: 'How to Choose: Roof Repair vs Replacement in NJ',
+    title: 'Which Is Better: Roof Repair vs Replacement?',
     slug: 'how-to-choose-roof-repair-vs-replacement-nj',
     parentId: 'roof-repair-vs-replacement',
     parentType: 'comparison',
@@ -2452,7 +2452,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-repair-vs-replacement-expert-picks',
-    title: 'What NJ Roofers Recommend: Roof Repair vs Replacement',
+    title: 'What Do NJ Roofers Recommend for Roof Repair vs Replacement?',
     slug: 'what-nj-roofers-recommend-roof-repair-vs-replacement',
     parentId: 'roof-repair-vs-replacement',
     parentType: 'comparison',
@@ -2463,7 +2463,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-coating-vs-replacement-buyers-guide',
-    title: 'How to Choose: Roof Coating vs Replacement in NJ',
+    title: 'Which Is Better: Roof Coating vs Replacement?',
     slug: 'how-to-choose-roof-coating-vs-replacement-nj',
     parentId: 'roof-coating-vs-replacement',
     parentType: 'comparison',
@@ -2474,7 +2474,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-coating-vs-replacement-expert-picks',
-    title: 'What NJ Roofers Recommend: Roof Coating vs Replacement',
+    title: 'What Do NJ Roofers Recommend for Roof Coating vs Replacement?',
     slug: 'what-nj-roofers-recommend-roof-coating-vs-replacement',
     parentId: 'roof-coating-vs-replacement',
     parentType: 'comparison',
@@ -2485,7 +2485,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-overlay-vs-tear-off-buyers-guide',
-    title: 'How to Choose: Roof Overlay vs Tear Off in NJ',
+    title: 'Which Is Better: Roof Overlay vs Tear Off?',
     slug: 'how-to-choose-roof-overlay-vs-tear-off-nj',
     parentId: 'roof-overlay-vs-tear-off',
     parentType: 'comparison',
@@ -2496,7 +2496,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-overlay-vs-tear-off-expert-picks',
-    title: 'What NJ Roofers Recommend: Roof Overlay vs Tear Off',
+    title: 'What Do NJ Roofers Recommend for Roof Overlay vs Tear Off?',
     slug: 'what-nj-roofers-recommend-roof-overlay-vs-tear-off',
     parentId: 'roof-overlay-vs-tear-off',
     parentType: 'comparison',
@@ -2507,7 +2507,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'patching-vs-full-roof-repair-buyers-guide',
-    title: 'How to Choose: Patching vs Full Roof Repair in NJ',
+    title: 'Which Is Better: Patching vs Full Roof Repair?',
     slug: 'how-to-choose-patching-vs-full-roof-repair-nj',
     parentId: 'patching-vs-full-roof-repair',
     parentType: 'comparison',
@@ -2518,7 +2518,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'patching-vs-full-roof-repair-expert-picks',
-    title: 'What NJ Roofers Recommend: Patching vs Full Roof Repair',
+    title: 'What Do NJ Roofers Recommend for Patching vs Full Roof Repair?',
     slug: 'what-nj-roofers-recommend-patching-vs-full-roof-repair',
     parentId: 'patching-vs-full-roof-repair',
     parentType: 'comparison',
@@ -2529,7 +2529,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'preventive-maintenance-vs-emergency-repair-buyers-guide',
-    title: 'How to Choose: Preventive Maintenance vs Emergency Repair in NJ',
+    title: 'Which Is Better: Preventive Maintenance vs Emergency Repair?',
     slug: 'how-to-choose-preventive-maintenance-vs-emergency-repair-nj',
     parentId: 'preventive-maintenance-vs-emergency-repair',
     parentType: 'comparison',
@@ -2540,7 +2540,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'preventive-maintenance-vs-emergency-repair-expert-picks',
-    title: 'What NJ Roofers Recommend: Preventive Maintenance vs Emergency Repair',
+    title: 'What Do NJ Roofers Recommend for Preventive Maintenance vs Emergency Repair?',
     slug: 'what-nj-roofers-recommend-preventive-maintenance-vs-emergency-repair',
     parentId: 'preventive-maintenance-vs-emergency-repair',
     parentType: 'comparison',
@@ -2551,7 +2551,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-roofing-material-nj-weather-buyers-guide',
-    title: 'How to Choose: Best Roofing Material for NJ Weather in NJ',
+    title: 'Which Is Better: Best Roofing Material for NJ Weather?',
     slug: 'how-to-choose-best-roofing-material-nj-weather-nj',
     parentId: 'best-roofing-material-nj-weather',
     parentType: 'comparison',
@@ -2562,7 +2562,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-roofing-material-nj-weather-expert-picks',
-    title: 'What NJ Roofers Recommend: Best Roofing Material for NJ Weather',
+    title: 'What Do NJ Roofers Recommend for Best Roofing Material for NJ Weather?',
     slug: 'what-nj-roofers-recommend-best-roofing-material-nj-weather',
     parentId: 'best-roofing-material-nj-weather',
     parentType: 'comparison',
@@ -2573,7 +2573,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-commercial-roofing-material-buyers-guide',
-    title: 'How to Choose: Best Commercial Roofing Material in NJ',
+    title: 'Which Is Better: Best Commercial Roofing Material?',
     slug: 'how-to-choose-best-commercial-roofing-material-nj',
     parentId: 'best-commercial-roofing-material',
     parentType: 'comparison',
@@ -2584,7 +2584,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-commercial-roofing-material-expert-picks',
-    title: 'What NJ Roofers Recommend: Best Commercial Roofing Material',
+    title: 'What Do NJ Roofers Recommend for Best Commercial Roofing Material?',
     slug: 'what-nj-roofers-recommend-best-commercial-roofing-material',
     parentId: 'best-commercial-roofing-material',
     parentType: 'comparison',
@@ -2595,7 +2595,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-roofing-for-flat-roofs-buyers-guide',
-    title: 'How to Choose: Best Roofing for Flat Roofs in NJ',
+    title: 'Which Is Better: Best Roofing for Flat Roofs?',
     slug: 'how-to-choose-best-roofing-for-flat-roofs-nj',
     parentId: 'best-roofing-for-flat-roofs',
     parentType: 'comparison',
@@ -2606,7 +2606,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-roofing-for-flat-roofs-expert-picks',
-    title: 'What NJ Roofers Recommend: Best Roofing for Flat Roofs',
+    title: 'What Do NJ Roofers Recommend for Best Roofing for Flat Roofs?',
     slug: 'what-nj-roofers-recommend-best-roofing-for-flat-roofs',
     parentId: 'best-roofing-for-flat-roofs',
     parentType: 'comparison',
@@ -2617,7 +2617,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-roofing-for-historic-homes-nj-buyers-guide',
-    title: 'How to Choose: Best Roofing for Historic Homes NJ in NJ',
+    title: 'Which Is Better: Best Roofing for Historic Homes NJ?',
     slug: 'how-to-choose-best-roofing-for-historic-homes-nj-nj',
     parentId: 'best-roofing-for-historic-homes-nj',
     parentType: 'comparison',
@@ -2628,7 +2628,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-roofing-for-historic-homes-nj-expert-picks',
-    title: 'What NJ Roofers Recommend: Best Roofing for Historic Homes NJ',
+    title: 'What Do NJ Roofers Recommend for Best Roofing for Historic Homes NJ?',
     slug: 'what-nj-roofers-recommend-best-roofing-for-historic-homes-nj',
     parentId: 'best-roofing-for-historic-homes-nj',
     parentType: 'comparison',
@@ -2639,7 +2639,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cheapest-vs-most-durable-roofing-buyers-guide',
-    title: 'How to Choose: Cheapest vs Most Durable Roofing in NJ',
+    title: 'Which Is Better: Cheapest vs Most Durable Roofing?',
     slug: 'how-to-choose-cheapest-vs-most-durable-roofing-nj',
     parentId: 'cheapest-vs-most-durable-roofing',
     parentType: 'comparison',
@@ -2650,7 +2650,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'cheapest-vs-most-durable-roofing-expert-picks',
-    title: 'What NJ Roofers Recommend: Cheapest vs Most Durable Roofing',
+    title: 'What Do NJ Roofers Recommend for Cheapest vs Most Durable Roofing?',
     slug: 'what-nj-roofers-recommend-cheapest-vs-most-durable-roofing',
     parentId: 'cheapest-vs-most-durable-roofing',
     parentType: 'comparison',
@@ -2661,7 +2661,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'most-energy-efficient-roofing-materials-buyers-guide',
-    title: 'How to Choose: Most Energy Efficient Roofing Materials in NJ',
+    title: 'Which Is Better: Most Energy Efficient Roofing Materials?',
     slug: 'how-to-choose-most-energy-efficient-roofing-materials-nj',
     parentId: 'most-energy-efficient-roofing-materials',
     parentType: 'comparison',
@@ -2672,7 +2672,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'most-energy-efficient-roofing-materials-expert-picks',
-    title: 'What NJ Roofers Recommend: Most Energy Efficient Roofing Materials',
+    title: 'What Do NJ Roofers Recommend for Most Energy Efficient Roofing Materials?',
     slug: 'what-nj-roofers-recommend-most-energy-efficient-roofing-materials',
     parentId: 'most-energy-efficient-roofing-materials',
     parentType: 'comparison',
@@ -2683,7 +2683,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'architectural-vs-3-tab-shingles-buyers-guide',
-    title: 'How to Choose: Architectural vs 3-Tab Shingles in NJ',
+    title: 'Which Is Better: Architectural vs 3-Tab Shingles?',
     slug: 'how-to-choose-architectural-vs-3-tab-shingles-nj',
     parentId: 'architectural-vs-3-tab-shingles',
     parentType: 'comparison',
@@ -2694,7 +2694,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'architectural-vs-3-tab-shingles-expert-picks',
-    title: 'What NJ Roofers Recommend: Architectural vs 3-Tab Shingles',
+    title: 'What Do NJ Roofers Recommend for Architectural vs 3-Tab Shingles?',
     slug: 'what-nj-roofers-recommend-architectural-vs-3-tab-shingles',
     parentId: 'architectural-vs-3-tab-shingles',
     parentType: 'comparison',
@@ -2705,7 +2705,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'diy-vs-professional-roof-repair-buyers-guide',
-    title: 'How to Choose: DIY vs Professional Roof Repair in NJ',
+    title: 'Which Is Better: DIY vs Professional Roof Repair?',
     slug: 'how-to-choose-diy-vs-professional-roof-repair-nj',
     parentId: 'diy-vs-professional-roof-repair',
     parentType: 'comparison',
@@ -2716,7 +2716,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'diy-vs-professional-roof-repair-expert-picks',
-    title: 'What NJ Roofers Recommend: DIY vs Professional Roof Repair',
+    title: 'What Do NJ Roofers Recommend for DIY vs Professional Roof Repair?',
     slug: 'what-nj-roofers-recommend-diy-vs-professional-roof-repair',
     parentId: 'diy-vs-professional-roof-repair',
     parentType: 'comparison',
@@ -2727,7 +2727,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-roofing-for-essex-county-colonial-homes-buyers-guide',
-    title: 'How to Choose: Best Roofing for Essex County Colonial Homes in NJ',
+    title: 'Which Is Better: Best Roofing for Essex County Colonial Homes?',
     slug: 'how-to-choose-best-roofing-for-essex-county-colonial-homes-nj',
     parentId: 'best-roofing-for-essex-county-colonial-homes',
     parentType: 'comparison',
@@ -2738,7 +2738,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'best-roofing-for-essex-county-colonial-homes-expert-picks',
-    title: 'What NJ Roofers Recommend: Best Roofing for Essex County Colonial Homes',
+    title: 'What Do NJ Roofers Recommend for Best Roofing for Essex County Colonial Homes?',
     slug: 'what-nj-roofers-recommend-best-roofing-for-essex-county-colonial-homes',
     parentId: 'best-roofing-for-essex-county-colonial-homes',
     parentType: 'comparison',
@@ -2749,7 +2749,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-warranty-comparison-guide-buyers-guide',
-    title: 'How to Choose: Roof Warranty Comparison Guide in NJ',
+    title: 'Which Is Better: Roof Warranty Comparison Guide?',
     slug: 'how-to-choose-roof-warranty-comparison-guide-nj',
     parentId: 'roof-warranty-comparison-guide',
     parentType: 'comparison',
@@ -2760,7 +2760,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'roof-warranty-comparison-guide-expert-picks',
-    title: 'What NJ Roofers Recommend: Roof Warranty Comparison Guide',
+    title: 'What Do NJ Roofers Recommend for Roof Warranty Comparison Guide?',
     slug: 'what-nj-roofers-recommend-roof-warranty-comparison-guide',
     parentId: 'roof-warranty-comparison-guide',
     parentType: 'comparison',
@@ -2771,7 +2771,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'homepage-nj-roofing-guide',
-    title: 'Complete NJ Roofing Guide for Homeowners',
+    title: 'What Should NJ Homeowners Know About Roofing?',
     slug: 'complete-nj-roofing-guide-homeowners',
     parentId: 'homepage',
     parentType: 'core',
@@ -2782,7 +2782,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'homepage-finding-roofer-essex-county',
-    title: 'Finding a Reliable Roofer in Essex County NJ',
+    title: 'How Do You Find a Reliable Roofer in Essex County?',
     slug: 'finding-reliable-roofer-essex-county-nj',
     parentId: 'homepage',
     parentType: 'core',
@@ -2793,7 +2793,7 @@ const rawArticles: Article[] = [
   },
   {
     id: 'homepage-nj-roofing-licensing-insurance',
-    title: 'NJ Roofing Licensing and Insurance Guide',
+    title: 'What Are NJ Roofing Licensing and Insurance Requirements?',
     slug: 'nj-roofing-licensing-insurance-guide',
     parentId: 'homepage',
     parentType: 'core',

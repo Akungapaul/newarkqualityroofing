@@ -1,6 +1,7 @@
 import { cities } from '@/data/cities';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { HEADING_CONFIG } from '@/data/heading-config';
 import Link from 'next/link';
 
 export default function LocationsHubPage() {
@@ -9,7 +10,7 @@ export default function LocationsHubPage() {
       {/* Hero */}
       <header className="px-6 pb-8 pt-16 text-center">
         <h1 className="font-heading text-4xl font-bold text-forest sm:text-5xl">
-          Roofing Services Across Essex County, NJ
+          {HEADING_CONFIG.core['service-areas']}
         </h1>
         <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
           Proudly serving all 21 communities in Essex County. Licensed, insured,

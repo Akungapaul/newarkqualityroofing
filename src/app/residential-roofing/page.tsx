@@ -1,4 +1,5 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 export const metadata = buildHubMetadata({
   slug: 'residential-roofing',
@@ -11,7 +12,7 @@ export default function ResidentialRoofingPage() {
   return (
     <HubScaffold
       eyebrow="Residential Roofing"
-      heading="Who Provides Residential Roofing in Newark and Essex County?"
+      heading={HEADING_CONFIG.hub['residential-roofing']}
       intro="Newark Quality Roofing repairs, replaces, and inspects residential roofs across Newark and Essex County, matching the right roofing system to each home and budget."
     />
   );

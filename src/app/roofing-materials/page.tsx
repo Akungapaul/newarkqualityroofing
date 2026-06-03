@@ -1,4 +1,5 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 export const metadata = buildHubMetadata({
   slug: 'roofing-materials',
@@ -11,7 +12,7 @@ export default function RoofingMaterialsHubPage() {
   return (
     <HubScaffold
       eyebrow="Roofing Materials"
-      heading="Which Roofing Materials Work Best for New Jersey Properties?"
+      heading={HEADING_CONFIG.hub['roofing-materials']}
       intro="Newark Quality Roofing helps Newark and Essex County property owners compare roofing materials — from asphalt and architectural shingles to metal and flat-roof membranes."
     />
   );

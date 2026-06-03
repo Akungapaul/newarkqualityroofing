@@ -1,5 +1,6 @@
 import { services } from '@/data/services';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { HEADING_CONFIG } from '@/data/heading-config';
 import Link from 'next/link';
 
 // ─── Category labels and order ──────────────────────────────────────────────
@@ -164,7 +165,7 @@ export default function ServicesHubPage() {
       {/* Hero */}
       <header className="px-6 pb-8 pt-16 text-center">
         <h1 className="font-heading text-4xl font-bold text-forest sm:text-5xl">
-          Our Roofing Services
+          {HEADING_CONFIG.core['roofing-services']}
         </h1>
         <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
           Comprehensive residential and commercial roofing services across Essex

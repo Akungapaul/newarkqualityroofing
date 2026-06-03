@@ -1,4 +1,5 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 export const metadata = buildHubMetadata({
   slug: 'free-roofing-estimate',
@@ -11,7 +12,7 @@ export default function FreeRoofingEstimatePage() {
   return (
     <HubScaffold
       eyebrow="Free Estimate"
-      heading="How Can You Request a Free Roofing Estimate?"
+      heading={HEADING_CONFIG.hub['free-roofing-estimate']}
       intro="Newark Quality Roofing provides free roofing estimates and on-site inspections across Newark and Essex County for repair, replacement, and new roofing projects."
     />
   );
