@@ -118,7 +118,7 @@ function serviceSignsArticle(s: typeof articleServices[0]): RawArticle {
     slug = makeSlug(['signs-you-need', s.slug, 'nj']);
   }
 
-  const title = truncTitle(`Signs You Need ${shortName} in NJ`, 90); // title field no max, but keep reasonable
+  const title = `What Are the Signs You Need ${shortName}?`; // on-page H1 (no length cap); question form (D-12)
   const metaTitle = truncTitle(`Signs You Need ${shortName} | NJ Guide`);
   const metaDescription = truncDesc(`How to tell if you need ${name.toLowerCase()} in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.`);
 
@@ -146,7 +146,7 @@ function serviceCostArticle(s: typeof articleServices[0]): RawArticle {
     slug = makeSlug(['how-much-does', s.slug, 'cost-in-nj']);
   }
 
-  const title = `${shortName} Cost in NJ: What to Expect`;
+  const title = `How Much Does ${shortName} Cost in NJ?`;
   const metaTitle = truncTitle(`${shortName} Cost in NJ | Pricing Guide`);
   const metaDescription = truncDesc(`${name} cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.`);
 
@@ -169,30 +169,40 @@ function serviceDecisionArticle(s: typeof articleServices[0]): RawArticle {
 
   let slug: string;
   let title: string;
+  // metaTitleBase keeps the original concise declarative SERP wording so the
+  // ≤60-char metaTitle stays decoupled from the question-form on-page H1 (D-12).
+  let metaTitleBase: string;
   if (s.category === 'repair-maintenance') {
     slug = makeSlug(['choosing-the-right', s.slug, 'contractor-nj']);
-    title = `Choosing the Right ${shortName} Contractor in NJ`;
+    title = `How Do You Choose a ${shortName} Contractor?`;
+    metaTitleBase = `Choosing the Right ${shortName} Contractor in NJ`;
   } else if (s.category === 'residential-roof-types' || s.category === 'commercial-roof-types') {
     slug = makeSlug([s.slug, 'pros-and-cons-nj-homeowners']);
-    title = `${shortName}: Pros and Cons for NJ Properties`;
+    title = `What Are the Pros and Cons of ${shortName}?`;
+    metaTitleBase = `${shortName}: Pros and Cons for NJ Properties`;
   } else if (s.category === 'components-specialty') {
     slug = makeSlug([s.slug, 'complete-homeowner-guide-nj']);
-    title = `${shortName}: Complete NJ Homeowner Guide`;
+    title = `What Should You Know About ${shortName}?`;
+    metaTitleBase = `${shortName}: Complete NJ Homeowner Guide`;
   } else if (s.category === 'energy-solar') {
     slug = makeSlug([s.slug, 'nj-incentives-and-savings']);
-    title = `${shortName}: NJ Incentives and Savings`;
+    title = `What NJ Incentives and Savings Apply to ${shortName}?`;
+    metaTitleBase = `${shortName}: NJ Incentives and Savings`;
   } else if (s.category === 'commercial-services') {
     slug = makeSlug([s.slug, 'what-business-owners-should-know']);
-    title = `${shortName}: What NJ Business Owners Should Know`;
+    title = `What Should NJ Business Owners Know About ${shortName}?`;
+    metaTitleBase = `${shortName}: What NJ Business Owners Should Know`;
   } else if (s.category === 'design-consultation') {
     slug = makeSlug([s.slug, 'what-to-expect-nj']);
-    title = `${shortName}: What to Expect in NJ`;
+    title = `What Should You Expect From ${shortName}?`;
+    metaTitleBase = `${shortName}: What to Expect in NJ`;
   } else {
     slug = makeSlug([s.slug, 'complete-guide-nj']);
-    title = `Complete Guide to ${shortName} in NJ`;
+    title = `What Should You Know About ${shortName} Roofing?`;
+    metaTitleBase = `Complete Guide to ${shortName} in NJ`;
   }
 
-  const metaTitle = truncTitle(title.length <= 60 ? title : `${shortName} Guide | NJ`);
+  const metaTitle = truncTitle(metaTitleBase.length <= 60 ? metaTitleBase : `${shortName} Guide | NJ`);
   const metaDescription = truncDesc(`Everything NJ homeowners need to know about ${name.toLowerCase()}. Expert advice from Essex County roofing professionals.`);
 
   return {
@@ -215,7 +225,7 @@ function serviceDecisionArticle(s: typeof articleServices[0]): RawArticle {
 function compBuyerGuide(c: typeof comparisons[0]): RawArticle {
   const slug = makeSlug(['how-to-choose', c.slug, 'nj']);
   const shortName = c.name.length > 35 ? c.name.slice(0, 35).trim() : c.name;
-  const title = `How to Choose: ${c.name} in NJ`;
+  const title = `Which Is Better: ${c.name}?`;
   const metaTitle = truncTitle(`How to Choose: ${shortName} | NJ`);
   const metaDescription = truncDesc(`A NJ homeowner guide to choosing between ${c.name.toLowerCase()}. Key factors, local considerations, and expert advice.`);
 
@@ -236,7 +246,7 @@ function compBuyerGuide(c: typeof comparisons[0]): RawArticle {
 function compExpertPicks(c: typeof comparisons[0]): RawArticle {
   const slug = makeSlug(['what-nj-roofers-recommend', c.slug]);
   const shortName = c.name.length > 30 ? c.name.slice(0, 30).trim() : c.name;
-  const title = `What NJ Roofers Recommend: ${c.name}`;
+  const title = `What Do NJ Roofers Recommend for ${c.name}?`;
   const metaTitle = truncTitle(`NJ Roofer Picks: ${shortName}`);
   const metaDescription = truncDesc(`What New Jersey roofing contractors actually recommend for ${c.name.toLowerCase()}. Professional insights from Essex County.`);
 
@@ -259,7 +269,7 @@ function compExpertPicks(c: typeof comparisons[0]): RawArticle {
 const coreArticles: RawArticle[] = [
   {
     id: 'homepage-nj-roofing-guide',
-    title: 'Complete NJ Roofing Guide for Homeowners',
+    title: 'What Should NJ Homeowners Know About Roofing?',
     slug: 'complete-nj-roofing-guide-homeowners',
     parentId: 'homepage',
     parentType: 'core',
@@ -270,7 +280,7 @@ const coreArticles: RawArticle[] = [
   },
   {
     id: 'homepage-finding-roofer-essex-county',
-    title: 'Finding a Reliable Roofer in Essex County NJ',
+    title: 'How Do You Find a Reliable Roofer in Essex County?',
     slug: 'finding-reliable-roofer-essex-county-nj',
     parentId: 'homepage',
     parentType: 'core',
@@ -281,7 +291,7 @@ const coreArticles: RawArticle[] = [
   },
   {
     id: 'homepage-nj-roofing-licensing-insurance',
-    title: 'NJ Roofing Licensing and Insurance Guide',
+    title: 'What Are NJ Roofing Licensing and Insurance Requirements?',
     slug: 'nj-roofing-licensing-insurance-guide',
     parentId: 'homepage',
     parentType: 'core',
