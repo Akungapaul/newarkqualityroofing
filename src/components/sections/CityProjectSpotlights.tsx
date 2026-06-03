@@ -15,7 +15,7 @@ export function CityProjectSpotlights({
   return (
     <div>
       <h2 id="projects-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-        Featured Projects in {cityName}
+        What Roofing Projects Have We Completed in {cityName}?
       </h2>
 
       {/* Before/After Gallery */}
@@ -71,9 +71,9 @@ export function CityProjectSpotlights({
               }`}
             >
               <div className="flex items-start justify-between gap-4">
-                <h3 className="font-heading text-xl font-bold text-forest">
+                <span className="block font-heading text-xl font-bold text-forest">
                   {spotlight.title}
-                </h3>
+                </span>
                 <span
                   className={`shrink-0 rounded-sm px-2.5 py-0.5 font-body text-xs font-semibold uppercase tracking-wider ${
                     isResidential

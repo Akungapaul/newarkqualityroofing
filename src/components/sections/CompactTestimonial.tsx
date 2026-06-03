@@ -96,7 +96,7 @@ export function CompactTestimonial({
         id="compact-testimonials-heading"
         className="font-heading text-xl font-semibold text-forest"
       >
-        What Our Customers Say
+        What Do Our Customers Say About Our Roofing Work?
       </h2>
       <div className="mt-4 space-y-4">
         {selected.map((testimonial) => (

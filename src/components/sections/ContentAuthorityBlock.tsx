@@ -110,12 +110,12 @@ export function ContentAuthorityBlock({ service, city, pageType }: ContentAuthor
       : [];
 
   const title = city && service
-    ? `Why ${service.name} in ${city.name} needs a local roofing plan`
+    ? `Why Does ${service.name} in ${city.name} Need a Local Roofing Plan?`
     : city
-      ? `Why roofing in ${city.name} needs local proof`
+      ? `Why Does Roofing in ${city.name} Need Local Expertise?`
       : service
-        ? `How we evaluate ${service.name} for Essex County properties`
-        : 'How this guide supports better roofing decisions';
+        ? `How Do We Evaluate ${service.name} for Essex County Properties?`
+        : 'How Does This Guide Support Better Roofing Decisions?';
 
   return (
     <section aria-labelledby={`${pageType}-authority-heading`} className="rounded-xl border border-copper/25 bg-white p-6 shadow-sm">
@@ -141,7 +141,7 @@ export function ContentAuthorityBlock({ service, city, pageType }: ContentAuthor
       <div className="mt-6 grid gap-4 md:grid-cols-3">
         {cityProfile && (
           <div className="rounded-lg border border-border bg-parchment-light p-4">
-            <h3 className="font-heading text-lg font-semibold text-forest">Local property context</h3>
+            <h3 className="font-heading text-lg font-semibold text-forest">What Is the Local Property Context?</h3>
             <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
               Common local roof work involves {cityProfile.propertyTypes.slice(0, 3).join(', ')}.
             </p>
@@ -151,7 +151,7 @@ export function ContentAuthorityBlock({ service, city, pageType }: ContentAuthor
 
         {cityProfile && (
           <div className="rounded-lg border border-border bg-parchment-light p-4">
-            <h3 className="font-heading text-lg font-semibold text-forest">Roof problems we expect</h3>
+            <h3 className="font-heading text-lg font-semibold text-forest">What Roof Problems Do We Expect Here?</h3>
             <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
               The page accounts for {cityProfile.roofPatterns.slice(0, 3).join(', ')}.
             </p>
@@ -161,7 +161,7 @@ export function ContentAuthorityBlock({ service, city, pageType }: ContentAuthor
 
         {serviceProfile && (
           <div className="rounded-lg border border-border bg-parchment-light p-4">
-            <h3 className="font-heading text-lg font-semibold text-forest">Service decision factors</h3>
+            <h3 className="font-heading text-lg font-semibold text-forest">What Factors Guide the Service Decision?</h3>
             <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
               We evaluate {serviceProfile.decisionFactors.slice(0, 4).join(', ')} before recommending scope.
             </p>
@@ -172,7 +172,7 @@ export function ContentAuthorityBlock({ service, city, pageType }: ContentAuthor
 
       {opportunityLinks.length > 0 && (
         <div className="mt-6 rounded-lg border border-copper/30 bg-copper/5 p-4">
-          <h3 className="font-heading text-lg font-semibold text-forest">Search Console opportunity routes</h3>
+          <h3 className="font-heading text-lg font-semibold text-forest">Which Related Roofing Pages Should You Explore Next?</h3>
           <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
             These are the local money pages we want Google to recrawl from pages already getting impressions.
           </p>
@@ -202,7 +202,7 @@ export function ContentAuthorityBlock({ service, city, pageType }: ContentAuthor
       )}
 
       <div className="mt-6 rounded-lg border border-forest/10 bg-forest/5 p-4">
-        <h3 className="font-heading text-lg font-semibold text-forest">Priority crawl paths</h3>
+        <h3 className="font-heading text-lg font-semibold text-forest">Which Roofing Services and Locations Should You Consider?</h3>
         <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
           These links reinforce the pages most likely to earn impressions and leads first.
         </p>

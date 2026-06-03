@@ -2,17 +2,18 @@ import Image from 'next/image';
 import { getSectionImage } from '@/data/image-manifest';
 
 interface CityResidentialProps {
-  heading: string;
+  /** Legacy data heading — no longer rendered; the H2 is now the fixed §4.3 question. */
+  heading?: string;
   content: string[];
 }
 
-export function CityResidential({ heading, content }: CityResidentialProps) {
+export function CityResidential({ content }: CityResidentialProps) {
   const residentialImage = getSectionImage('section-city-residential');
 
   return (
     <div className="rounded-lg border-l-4 border-forest bg-forest/5 p-6 lg:p-8">
       <h2 id="residential-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
-        {heading}
+        What Residential Roofing Services Do We Provide?
       </h2>
 
       {residentialImage && (
