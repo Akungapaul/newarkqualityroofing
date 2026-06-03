@@ -75,7 +75,7 @@ export function HomeComparisonGrid({ groups }: HomeComparisonGridProps) {
           id="compare-options-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
-          Compare Roofing Options
+          How Do Different Roofing Options Compare?
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
           Side-by-side comparisons and decision guides to help you choose the right roofing solution for your property.
@@ -98,9 +98,9 @@ export function HomeComparisonGrid({ groups }: HomeComparisonGridProps) {
 
                 <div className="mb-3 flex items-center gap-2 text-copper-dark">
                   {categoryIcons[group.category]}
-                  <h3 className="font-heading text-lg font-semibold text-forest">
+                  <span className="block font-heading text-lg font-semibold text-forest">
                     {group.categoryLabel}
-                  </h3>
+                  </span>
                 </div>
 
                 <ul className="flex-1 space-y-1.5">

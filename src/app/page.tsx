@@ -92,26 +92,100 @@ export default function Home() {
       {/* Trust bar: credentials + stats */}
       <TrustBar />
 
-      {/* Roof repair & replacement content — H2 + 2 H3s + bold + italic + image + list */}
-      <HomeRepairServices />
-
-      {/* Services: residential + commercial grid — H2 + 2 H3s + 2 H4s */}
+      {/* ── §4.1 CORE band (first content H2 = Core string) ───────────────── */}
+      {/* Core: "What Roofing Services Do We Provide…?" H2 + 7 service H3s */}
       <ServicesGrid />
 
-      {/* Priority crawl/indexing hub for the pages most likely to earn commercial impressions first */}
-      <PriorityIndexingHub />
+      {/* Core supporting narrative: repair & replacement detail */}
+      <HomeRepairServices />
 
-      {/* Residential & commercial deep content — 1 H2 + 1 H3 + image */}
+      {/* Core supporting: residential & commercial split */}
       <HomeResidentialCommercial />
 
-      {/* Before/after gallery: project showcase with drag sliders */}
-      <BeforeAfterGallery />
-
-      {/* Why choose us — H2 + H3 + bold */}
+      {/* ── §4.1 OUTER band (after Core) ──────────────────────────────────── */}
+      {/* Outer H2[0]: Why Should Homeowners and Businesses Choose Our Roofing Company? */}
       <HomeWhyChooseUs />
 
-      {/* Pricing table — H2 + H3 + H4 + table + bold */}
+      {/* Outer H2[1]: How Does Our Roofing Process Work? — 5-step process */}
+      <section className="bg-white py-16 lg:py-24" aria-labelledby="home-process-heading">
+        <div className="mx-auto max-w-5xl px-6 lg:px-8">
+          <div className="text-center">
+            <h2
+              id="home-process-heading"
+              className="font-heading text-3xl font-bold text-forest sm:text-4xl"
+            >
+              {HEADING_CONFIG.home.outerH2s[1]}
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
+              From your first call to the final walkthrough, our roofing process keeps
+              your project on schedule and your home protected at every step.
+            </p>
+          </div>
+          <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                q: 'What Happens During the Free Roof Inspection?',
+                a: 'We document your roof with photos and a written report so you know exactly what your home needs — at no cost and with no obligation.',
+              },
+              {
+                q: 'What Is Included in the Roofing Estimate?',
+                a: 'Your written estimate covers materials, labor, and cleanup, with transparent pricing and manufacturer-backed material options.',
+              },
+              {
+                q: 'How Do We Schedule Your Roofing Work?',
+                a: 'Once you approve the estimate, we set a start date that works for you and confirm the crew, materials, and timeline in advance.',
+              },
+              {
+                q: 'What Happens During Installation, Repair, or Replacement?',
+                a: 'Our licensed crew completes the work on time, to code, and within budget, protecting your property throughout the project.',
+              },
+              {
+                q: 'What Happens During Final Cleanup and Walkthrough?',
+                a: 'We clear all debris, perform a magnetic nail sweep, and walk the finished roof with you before we leave the job site.',
+              },
+            ].map((step, i) => (
+              <div key={step.q} className="rounded-lg border border-border bg-parchment p-6 shadow-sm">
+                <span
+                  className="flex h-9 w-9 items-center justify-center rounded-full bg-copper/15 font-heading text-base font-bold text-copper"
+                  aria-hidden="true"
+                >
+                  {i + 1}
+                </span>
+                <h3 className="mt-4 font-heading text-lg font-semibold text-forest">
+                  {step.q}
+                </h3>
+                <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
+                  {step.a}
+                </p>
+              </div>
+            ))}
+          </ol>
+          <div className="mt-10 text-center">
+            <Link
+              href="/our-roofing-process"
+              className="inline-flex items-center gap-2 font-heading text-lg font-semibold text-copper transition-colors hover:text-copper-dark"
+            >
+              Learn more about our roofing process
+              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Outer H2[2]: Where Do We Provide Roofing Services? — all 21 cities */}
+      <LocationsGrid />
+
+      {/* Outer H2[3]: How Much Do Roofing Services Cost? */}
       <HomePricingTable />
+
+      {/* Outer H2[4]: What Roofing Questions Do Customers Ask Most Often? */}
+      <FaqAccordion items={faqItems} />
+
+      {/* ── Supporting / internal-linking sections (after the §4.1 tree) ──── */}
+      {/* Before/after gallery: project showcase with drag sliders */}
+      <BeforeAfterGallery />
 
       {/* Social proof: customer testimonials */}
       <TestimonialCarousel testimonials={testimonials} />
@@ -119,8 +193,41 @@ export default function Home() {
       {/* Popular services by city — combo page links for internal linking */}
       <FeaturedCombos />
 
-      {/* Service area: all 21 Essex County cities — H2 */}
-      <LocationsGrid />
+      {/* Popular roofing pages hub (moved OUT of the Core band — deletion is Phase 16) */}
+      <PriorityIndexingHub />
+
+      {/* Compare Roofing Options: categorized comparison links */}
+      <HomeComparisonGrid groups={comparisonGroups} />
+
+      {/* Roofing Knowledge Base link section */}
+      <section className="bg-forest py-14 text-text-on-dark lg:py-20" aria-labelledby="kb-link-heading">
+        <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
+          <h2
+            id="kb-link-heading"
+            className="font-heading text-3xl font-bold sm:text-4xl"
+          >
+            Where Can You Learn More in Our Roofing Knowledge Base?
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/80">
+            Explore expert roofing guides, cost breakdowns, and material comparisons written for
+            Newark and Essex County property owners.
+          </p>
+          <div className="mt-8">
+            <Link
+              href="/roofing-knowledge-base"
+              className="inline-flex items-center gap-2 rounded-md bg-copper px-8 py-3 font-heading text-lg font-semibold text-text-on-copper transition-colors hover:bg-copper-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper-light focus-visible:ring-offset-2 focus-visible:ring-offset-forest"
+            >
+              Visit the Roofing Knowledge Base
+              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Roofing Guides: editorial cards linking to homepage articles */}
+      {homepageArticles.length > 0 && <HomepageGuides articles={homepageArticles} />}
 
       {/* Browse Our Services — curated service links for anchor text */}
       <section className="bg-parchment py-12 lg:py-16" aria-labelledby="browse-services-heading">
@@ -129,7 +236,7 @@ export default function Home() {
             id="browse-services-heading"
             className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
           >
-            Browse Our Services
+            What Other Roofing Services Can You Browse?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
             Explore our full range of roofing services for Newark and Essex County homeowners and businesses.
@@ -158,15 +265,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* FAQ: common questions, no-JS accordion — H2 */}
-      <FaqAccordion items={faqItems} />
-
-      {/* Compare Roofing Options: categorized comparison links */}
-      <HomeComparisonGrid groups={comparisonGroups} />
-
-      {/* Roofing Guides: editorial cards linking to homepage articles */}
-      {homepageArticles.length > 0 && <HomepageGuides articles={homepageArticles} />}
 
       {/* Embeds: Google Maps + YouTube */}
       <section className="bg-parchment py-12 lg:py-16" aria-labelledby="embeds-heading">

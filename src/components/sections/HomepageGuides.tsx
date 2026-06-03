@@ -31,7 +31,7 @@ export function HomepageGuides({ articles }: HomepageGuidesProps) {
           id="roofing-guides-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
-          Roofing Guides for NJ Property Owners
+          What Roofing Knowledge Base Articles Can Help You Decide?
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
           Expert resources to help you make informed roofing decisions for your Essex County property.

@@ -4,6 +4,7 @@ import { WHY_CHOOSE_US_REASONS } from '@/data/content-constants';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getHomepageImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 /* Themed SVG icons keyed by pattern-matched reason titles. */
 const REASON_ICONS: { pattern: RegExp; icon: React.ReactNode }[] = [
@@ -87,7 +88,7 @@ export function HomeWhyChooseUs() {
             id="home-why-heading"
             className="font-heading text-3xl font-bold text-forest sm:text-4xl"
           >
-            Why Customers Choose Our Roofing Team
+            {HEADING_CONFIG.home.outerH2s[0]}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-secondary">
             Newark roofing contractors you can trust — our team provides reliable
@@ -104,7 +105,7 @@ export function HomeWhyChooseUs() {
         </div>
 
         <h3 className="mt-12 text-center font-heading text-2xl font-semibold text-forest">
-          Licensed and Insured Professionals
+          Are We Licensed and Insured Professionals?
         </h3>
 
         <div className="mt-8 grid gap-5 sm:grid-cols-2">
