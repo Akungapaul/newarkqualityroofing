@@ -11,6 +11,8 @@
     "audit:headings": "tsx scripts/audit-headings.ts",
     "audit:meta": "tsx scripts/audit-meta.ts",
     "audit:cannibalization": "tsx scripts/audit-cannibalization.ts",
+    "audit:redirects": "tsx scripts/audit-redirects.ts",
+    "audit:sitemap": "tsx scripts/audit-sitemap.ts",
     "validate:urls": "tsx scripts/validate-flat-urls.ts",
     "validate:depth": "tsx scripts/validate-click-depth.ts",
     "validate:topical": "tsx scripts/validate-topical-map.ts",
