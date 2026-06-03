@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Full-Site Topical-Map Overhaul
 status: executing
-stopped_at: Completed 10-02-PLAN.md
-last_updated: "2026-06-03T06:03:30.157Z"
-last_activity: "2026-06-03 -- 11-01 complete: canonical site-config + gated AggregateRating"
+stopped_at: Completed 11-02-PLAN.md
+last_updated: "2026-06-03T06:09:24.241Z"
+last_activity: "2026-06-03 -- 11-02 complete: generated URL-classification pipeline + verdict API + prebuild"
 progress:
   total_phases: 7
   completed_phases: 0
   total_plans: 5
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -26,9 +26,9 @@ See: .planning/PROJECT.md (updated 2026-06-01)
 ## Current Position
 
 Phase: 11 (ia-routing-canonical-data-url-classification) — EXECUTING
-Plan: 2 of 5
-Status: Executing Phase 11 (11-01 complete)
-Last activity: 2026-06-03 -- 11-01 complete: canonical site-config + gated AggregateRating
+Plan: 3 of 5
+Status: Executing Phase 11 (11-01, 11-02 complete)
+Last activity: 2026-06-03 -- 11-02 complete: generated URL-classification pipeline + verdict API + prebuild
 
 ## Performance Metrics
 
@@ -92,6 +92,7 @@ Last activity: 2026-06-03 -- 11-01 complete: canonical site-config + gated Aggre
 | Phase 10 P04 | 7min | 2 tasks | 11 files |
 | Phase 10 P02 | 9min | 2 tasks | 6 files |
 | Phase 11 P01 | 11min | 2 tasks | 4 files |
+| Phase 11 P02 | 5min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -275,6 +276,10 @@ Recent decisions affecting current work:
 - [11-01]: Re-export shim keeps the 9 importers on the legacy siteConfig shape (full repoint deferred to Phase 16); shim sources truthful values from the canonical config and drops fabricated literals
 - [11-01]: Unknown canonical trust values (street, ZIP, geo, license #, rating value/count, founding year, project count) exposed as empty/disabled (omit-not-placeholder) -- never rendered as placeholders or fabricated literals
 - [11-01]: AggregateRating key conditionally spread (omitted entirely while rating.enabled=false), not set to null, so the fake 5.0/500 appears nowhere in HTML/JSON-LD (D-01 RESOLVED, T-11-01 mitigated)
+- [11-02]: URL-classification generator chain-check validates redirect targets against the FULL 622-slug KEEP-INDEX universe (all page types) so the 8 legacy /roof-replacement hub redirects pass; emitted json.keep stays combo-only (255 KEEP-INDEX combos)
+- [11-02]: Combo KEEP bucket maps verdict 'KEEP-INDEX' exactly (the CSV's 22 'KEEP-INDEX (review)' + 1 'REVIEW' are non-combo); any future review-verdict combo trips the count assertion rather than silently inflating keep
+- [11-02]: url-classification.json redirects map = 168 combo redirects only; the 8 legacy redirects live solely in redirects.generated.mjs that next.config.ts imports (so getComboRedirects() returns 168)
+- [11-02]: prebuild tsx codegen wired in package.json so next.config.ts static .mjs import never hits a missing-file build crash; generated artifacts committed + deterministically sorted for zero PR drift (T-11-04)
 
 ### Pending Todos
 
@@ -398,6 +403,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-06-03T06:03:30.154Z
-Stopped at: Completed 10-02-PLAN.md
+Last session: 2026-06-03T06:09:24.237Z
+Stopped at: Completed 11-02-PLAN.md
 Resume file: None
