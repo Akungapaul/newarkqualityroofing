@@ -375,7 +375,23 @@ Plans:
   4. Pseudo-headings (testimonials/CTA/pricing-PAA/maps introduced by `<p>`/`<span>`/`<div>`) are promoted to real headings; `ContentAuthorityBlock` is out of the Core band; the first major H2 after the hero is the Core Section per §17 page-type rules on every template
   5. All 253 article titles are rewritten to cluster-keyed question form, are unique, and keep their slugs stable
 
-**Plans**: TBD
+**Plans**: 5 plans (3 waves)
+
+Plans:
+**Wave 1**
+
+- [ ] 12-01-PLAN.md — Central heading-config module + hybrid build-failing audit:headings (static + rendered passes) + gated node-html-parser install (AUD-01, KB-03 static checks)
+
+**Wave 2** *(parallel; all depend on 12-01; disjoint file sets)*
+
+- [ ] 12-02-PLAN.md — Homepage §4.1 Core-first + service §4.2 tree; split-H1 fix + Header nav H-tag demote + pseudo-heading promotion (HTAG-01/02/03/04/07/08)
+- [ ] 12-03-PLAN.md — City §4.3 tree + new shared Permits/Materials sections; combo §4.4 tree incl. placeholder; ContentAuthorityBlock out of Core band (HTAG-05/06/07/08, D-11)
+- [ ] 12-04-PLAN.md — Generator title patterns → question form + regenerate articles.ts (252 unique, slugs stable); in-scope core/hub H1s (KB-03, HTAG-01/03, D-12)
+
+**Wave 3** *(phase gate; depends on 12-01..12-04)*
+
+- [ ] 12-05-PLAN.md — Full `next build && audit:headings` green; fix residual violations; wire build-failing gate; human-verify new copy + tree fidelity (AUD-01, §19 verify)
+
 **UI hint**: yes
 
 #### Phase 13: Knowledge Base Hub, Clusters & 44 KB Articles
@@ -463,7 +479,7 @@ Phases execute: 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable an
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 11. IA, Routing, Canonical Data & URL Classification | 5/5 | Complete   | 2026-06-03 |
-| 12. Question-Form H-Tag & Core/Outer Template System | 0/? | Not started | - |
+| 12. Question-Form H-Tag & Core/Outer Template System | 0/5 | Planned | - |
 | 13. Knowledge Base Hub, Clusters & 44 KB Articles | 0/? | Not started | - |
 | 14. Roofing Glossary & Entity Dictionary | 0/? | Not started | - |
 | 15. Knowledge-Graph Linking & Schema | 0/? | Not started | - |
