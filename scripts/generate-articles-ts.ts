@@ -5,6 +5,14 @@
 import { services } from '../src/data/services';
 import { comparisons } from '../src/data/comparisons';
 
+type Cluster =
+  | 'roof-problems'
+  | 'roof-components'
+  | 'roofing-materials'
+  | 'roofing-process'
+  | 'roofing-costs'
+  | 'local-roofing-knowledge';
+
 interface RawArticle {
   id: string;
   title: string;
@@ -14,6 +22,49 @@ interface RawArticle {
   position: number;
   metaTitle: string;
   metaDescription: string;
+  cluster: Cluster;
+}
+
+// ─── Cluster Classification ──────────────────────────────────────────────────
+// Every article is deterministically assigned to one of six topical clusters so
+// later phases (KB folding, knowledge-graph linking) can group by cluster.
+// Derivation (all from data the generator already holds — category + position):
+//   - cost/pricing article (service position 2)          → roofing-costs
+//   - core/homepage articles (NJ guide, roofer, licensing) → local-roofing-knowledge
+//   - comparison articles (material/option selection)     → roofing-materials
+//   - service articles (position 1 or 3) by category:
+//       repair-maintenance        → roof-problems
+//       residential-roof-types    → roofing-materials
+//       commercial-roof-types     → roofing-materials
+//       components-specialty      → roof-components
+//       energy-solar              → roofing-materials
+//       commercial-services       → roofing-process
+//       design-consultation       → roofing-process
+//       replacement-sub-pages     → roofing-process
+function clusterForServiceArticle(
+  category: string,
+  position: number
+): Cluster {
+  // The cost/pricing article (position 2) belongs to the costs cluster
+  // regardless of the parent service category.
+  if (position === 2) return 'roofing-costs';
+
+  switch (category) {
+    case 'repair-maintenance':
+      return 'roof-problems';
+    case 'residential-roof-types':
+    case 'commercial-roof-types':
+    case 'energy-solar':
+      return 'roofing-materials';
+    case 'components-specialty':
+      return 'roof-components';
+    case 'commercial-services':
+    case 'design-consultation':
+    case 'replacement-sub-pages':
+      return 'roofing-process';
+    default:
+      return 'roofing-process';
+  }
 }
 
 const excluded = new Set(['silicone-elastomeric-roof-coating', 'roof-replacement-cost']);
@@ -80,6 +131,7 @@ function serviceSignsArticle(s: typeof articleServices[0]): RawArticle {
     position: 1,
     metaTitle,
     metaDescription,
+    cluster: clusterForServiceArticle(s.category, 1),
   };
 }
 
@@ -107,6 +159,7 @@ function serviceCostArticle(s: typeof articleServices[0]): RawArticle {
     position: 2,
     metaTitle,
     metaDescription,
+    cluster: clusterForServiceArticle(s.category, 2),
   };
 }
 
@@ -151,6 +204,7 @@ function serviceDecisionArticle(s: typeof articleServices[0]): RawArticle {
     position: 3,
     metaTitle,
     metaDescription,
+    cluster: clusterForServiceArticle(s.category, 3),
   };
 }
 
@@ -174,6 +228,8 @@ function compBuyerGuide(c: typeof comparisons[0]): RawArticle {
     position: 1,
     metaTitle,
     metaDescription,
+    // Comparison articles help readers choose between materials/options.
+    cluster: 'roofing-materials',
   };
 }
 
@@ -193,6 +249,8 @@ function compExpertPicks(c: typeof comparisons[0]): RawArticle {
     position: 2,
     metaTitle,
     metaDescription,
+    // Comparison articles help readers choose between materials/options.
+    cluster: 'roofing-materials',
   };
 }
 
@@ -208,6 +266,7 @@ const coreArticles: RawArticle[] = [
     position: 1,
     metaTitle: 'Complete NJ Roofing Guide | Homeowners',
     metaDescription: 'Everything NJ homeowners need to know about roofing. Materials, costs, maintenance, and finding a contractor in Essex County.',
+    cluster: 'local-roofing-knowledge',
   },
   {
     id: 'homepage-finding-roofer-essex-county',
@@ -218,6 +277,7 @@ const coreArticles: RawArticle[] = [
     position: 2,
     metaTitle: 'Find a Roofer in Essex County NJ',
     metaDescription: 'How to find and vet a reliable roofing contractor in Essex County NJ. Licensing, insurance, and red flags to watch for.',
+    cluster: 'local-roofing-knowledge',
   },
   {
     id: 'homepage-nj-roofing-licensing-insurance',
@@ -228,6 +288,7 @@ const coreArticles: RawArticle[] = [
     position: 3,
     metaTitle: 'NJ Roofing Licensing & Insurance Guide',
     metaDescription: 'Understanding NJ roofing contractor licensing and insurance requirements. What homeowners should verify before hiring.',
+    cluster: 'local-roofing-knowledge',
   },
 ];
 
@@ -301,6 +362,14 @@ lines.push(`  parentType: z.enum(['service', 'comparison', 'core']),`);
 lines.push(`  position: z.number().min(1).max(3),`);
 lines.push(`  metaTitle: z.string().max(60),`);
 lines.push(`  metaDescription: z.string().max(160),`);
+lines.push(`  cluster: z.enum([`);
+lines.push(`    'roof-problems',`);
+lines.push(`    'roof-components',`);
+lines.push(`    'roofing-materials',`);
+lines.push(`    'roofing-process',`);
+lines.push(`    'roofing-costs',`);
+lines.push(`    'local-roofing-knowledge',`);
+lines.push(`  ]),`);
 lines.push(`});`);
 lines.push(``);
 lines.push(`export type Article = z.infer<typeof ArticleSchema>;`);
@@ -323,6 +392,7 @@ for (const a of allArticles) {
   lines.push(`    position: ${a.position},`);
   lines.push(`    metaTitle: '${a.metaTitle.replace(/'/g, "\\'")}',`);
   lines.push(`    metaDescription: '${a.metaDescription.replace(/'/g, "\\'")}',`);
+  lines.push(`    cluster: '${a.cluster}',`);
   lines.push(`  },`);
 }
 

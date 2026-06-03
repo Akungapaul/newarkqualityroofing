@@ -11,6 +11,14 @@ export const ArticleSchema = z.object({
   position: z.number().min(1).max(3),
   metaTitle: z.string().max(60),
   metaDescription: z.string().max(160),
+  cluster: z.enum([
+    'roof-problems',
+    'roof-components',
+    'roofing-materials',
+    'roofing-process',
+    'roofing-costs',
+    'local-roofing-knowledge',
+  ]),
 });
 
 export type Article = z.infer<typeof ArticleSchema>;
@@ -31,6 +39,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Repair | NJ Guide',
     metaDescription: 'How to tell if you need roof repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-repair-cost-guide',
@@ -41,6 +50,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-repair-decision',
@@ -51,6 +61,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Choosing the Right Roof Repair Contractor in NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-replacement-signs',
@@ -61,6 +72,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-replacement-cost-guide',
@@ -71,6 +83,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-replacement-decision',
@@ -81,6 +94,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Choosing the Right Roof Replacement Contractor in NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'emergency-roof-repair-signs',
@@ -91,6 +105,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Emergency Roof Repair | NJ Guide',
     metaDescription: 'How to tell if you need emergency roof repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'emergency-roof-repair-cost-guide',
@@ -101,6 +116,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Emergency Roof Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Emergency Roof Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'emergency-roof-repair-decision',
@@ -111,6 +127,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Choosing the Right Emergency Roof Repair Contractor in NJ',
     metaDescription: 'Everything NJ homeowners need to know about emergency roof repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-inspection-signs',
@@ -121,6 +138,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Inspection | NJ Guide',
     metaDescription: 'How to tell if you need roof inspection in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-inspection-cost-guide',
@@ -131,6 +149,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Inspection Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Inspection cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-inspection-decision',
@@ -141,6 +160,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Choosing the Right Roof Inspection Contractor in NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof inspection. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-maintenance-programs-signs',
@@ -151,6 +171,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Maintenance Programs | NJ Guide',
     metaDescription: 'How to tell if you need roof maintenance programs in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-maintenance-programs-cost-guide',
@@ -161,6 +182,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Maintenance Programs Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Maintenance Programs cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-maintenance-programs-decision',
@@ -171,6 +193,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Roof Maintenance Programs Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof maintenance programs. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-leak-repair-signs',
@@ -181,6 +204,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Leak Repair | NJ Guide',
     metaDescription: 'How to tell if you need roof leak repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-leak-repair-cost-guide',
@@ -191,6 +215,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Leak Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Leak Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-leak-repair-decision',
@@ -201,6 +226,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Choosing the Right Roof Leak Repair Contractor in NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof leak repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'storm-damage-roof-repair-signs',
@@ -211,6 +237,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Storm Damage Roof Repair | NJ Guide',
     metaDescription: 'How to tell if you need storm damage roof repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'storm-damage-roof-repair-cost-guide',
@@ -221,6 +248,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Storm Damage Roof Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Storm Damage Roof Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'storm-damage-roof-repair-decision',
@@ -231,6 +259,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Choosing the Right Storm Damage Roof Repair Contractor in NJ',
     metaDescription: 'Everything NJ homeowners need to know about storm damage roof repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'hail-damage-roof-repair-signs',
@@ -241,6 +270,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Hail Damage Roof Repair | NJ Guide',
     metaDescription: 'How to tell if you need hail damage roof repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'hail-damage-roof-repair-cost-guide',
@@ -251,6 +281,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Hail Damage Roof Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Hail Damage Roof Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'hail-damage-roof-repair-decision',
@@ -261,6 +292,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Choosing the Right Hail Damage Roof Repair Contractor in NJ',
     metaDescription: 'Everything NJ homeowners need to know about hail damage roof repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'wind-damage-roof-repair-signs',
@@ -271,6 +303,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Wind Damage Roof Repair | NJ Guide',
     metaDescription: 'How to tell if you need wind damage roof repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'wind-damage-roof-repair-cost-guide',
@@ -281,6 +314,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Wind Damage Roof Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Wind Damage Roof Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'wind-damage-roof-repair-decision',
@@ -291,6 +325,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Choosing the Right Wind Damage Roof Repair Contractor in NJ',
     metaDescription: 'Everything NJ homeowners need to know about wind damage roof repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-cleaning-moss-removal-signs',
@@ -301,6 +336,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Cleaning & Moss Removal | NJ Guide',
     metaDescription: 'How to tell if you need roof cleaning and moss removal in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-problems',
   },
   {
     id: 'roof-cleaning-moss-removal-cost-guide',
@@ -311,6 +347,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Cleaning & Moss Removal Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Cleaning and Moss Removal cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-cleaning-moss-removal-decision',
@@ -321,6 +358,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Roof Cleaning & Moss Removal Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof cleaning and moss removal. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-problems',
   },
   {
     id: 'residential-roof-installation-signs',
@@ -331,6 +369,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Residential Roof Installation | NJ Guide',
     metaDescription: 'How to tell if you need residential roof installation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'residential-roof-installation-cost-guide',
@@ -341,6 +380,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Residential Roof Installation Cost in NJ | Pricing Guide',
     metaDescription: 'Residential Roof Installation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'residential-roof-installation-decision',
@@ -351,6 +391,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Residential Roof Installation Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about residential roof installation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'asphalt-shingle-roofing-signs',
@@ -361,6 +402,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Asphalt Shingle Roofing | NJ Guide',
     metaDescription: 'How to tell if you need asphalt shingle roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'asphalt-shingle-roofing-cost-guide',
@@ -371,6 +413,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Asphalt Shingle Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'Asphalt Shingle Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'asphalt-shingle-roofing-decision',
@@ -381,6 +424,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Asphalt Shingle Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about asphalt shingle roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'slate-roof-installation-repair-signs',
@@ -391,6 +435,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Slate Roof Installation & Repair | NJ Guide',
     metaDescription: 'How to tell if you need slate roof installation and repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'slate-roof-installation-repair-cost-guide',
@@ -401,6 +446,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Slate Roof Installation & Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Slate Roof Installation and Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'slate-roof-installation-repair-decision',
@@ -411,6 +457,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Slate Roof Installation & Repair Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about slate roof installation and repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'wood-shake-roofing-signs',
@@ -421,6 +468,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Wood Shake Roofing | NJ Guide',
     metaDescription: 'How to tell if you need wood shake roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'wood-shake-roofing-cost-guide',
@@ -431,6 +479,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Wood Shake Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'Wood Shake Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'wood-shake-roofing-decision',
@@ -441,6 +490,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Wood Shake Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about wood shake roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'metal-roof-installation-repair-signs',
@@ -451,6 +501,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Metal Roof Installation & Repair | NJ Guide',
     metaDescription: 'How to tell if you need metal roof installation and repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'metal-roof-installation-repair-cost-guide',
@@ -461,6 +512,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Metal Roof Installation & Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Metal Roof Installation and Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'metal-roof-installation-repair-decision',
@@ -471,6 +523,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Metal Roof Installation & Repair Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about metal roof installation and repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'flat-roof-installation-repair-signs',
@@ -481,6 +534,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Flat Roof Installation & Repair | NJ Guide',
     metaDescription: 'How to tell if you need flat roof installation and repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'flat-roof-installation-repair-cost-guide',
@@ -491,6 +545,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Flat Roof Installation & Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Flat Roof Installation and Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'flat-roof-installation-repair-decision',
@@ -501,6 +556,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Flat Roof Installation & Repair Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about flat roof installation and repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'tile-roof-installation-repair-signs',
@@ -511,6 +567,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Tile Roof Installation & Repair | NJ Guide',
     metaDescription: 'How to tell if you need tile roof installation and repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'tile-roof-installation-repair-cost-guide',
@@ -521,6 +578,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Tile Roof Installation & Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Tile Roof Installation and Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'tile-roof-installation-repair-decision',
@@ -531,6 +589,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Tile Roof Installation & Repair Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about tile roof installation and repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'cedar-shake-roofing-signs',
@@ -541,6 +600,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Cedar Shake Roofing | NJ Guide',
     metaDescription: 'How to tell if you need cedar shake roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'cedar-shake-roofing-cost-guide',
@@ -551,6 +611,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Cedar Shake Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'Cedar Shake Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'cedar-shake-roofing-decision',
@@ -561,6 +622,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Cedar Shake Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about cedar shake roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'rubber-roofing-epdm-signs',
@@ -571,6 +633,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Rubber Roofing EPDM | NJ Guide',
     metaDescription: 'How to tell if you need rubber roofing epdm in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'rubber-roofing-epdm-cost-guide',
@@ -581,6 +644,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Rubber Roofing EPDM Cost in NJ | Pricing Guide',
     metaDescription: 'Rubber Roofing EPDM cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'rubber-roofing-epdm-decision',
@@ -591,6 +655,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Rubber Roofing EPDM: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about rubber roofing epdm. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'tpo-roofing-installation-signs',
@@ -601,6 +666,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need TPO Roofing Installation | NJ Guide',
     metaDescription: 'How to tell if you need tpo roofing installation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'tpo-roofing-installation-cost-guide',
@@ -611,6 +677,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'TPO Roofing Installation Cost in NJ | Pricing Guide',
     metaDescription: 'TPO Roofing Installation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'tpo-roofing-installation-decision',
@@ -621,6 +688,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'TPO Roofing Installation: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about tpo roofing installation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'epdm-commercial-roofing-signs',
@@ -631,6 +699,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need EPDM Commercial Roofing | NJ Guide',
     metaDescription: 'How to tell if you need epdm commercial roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'epdm-commercial-roofing-cost-guide',
@@ -641,6 +710,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'EPDM Commercial Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'EPDM Commercial Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'epdm-commercial-roofing-decision',
@@ -651,6 +721,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'EPDM Commercial Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about epdm commercial roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'modified-bitumen-roofing-signs',
@@ -661,6 +732,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Modified Bitumen Roofing | NJ Guide',
     metaDescription: 'How to tell if you need modified bitumen roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'modified-bitumen-roofing-cost-guide',
@@ -671,6 +743,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Modified Bitumen Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'Modified Bitumen Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'modified-bitumen-roofing-decision',
@@ -681,6 +754,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Modified Bitumen Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about modified bitumen roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'built-up-roofing-signs',
@@ -691,6 +765,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Built-Up Roofing | NJ Guide',
     metaDescription: 'How to tell if you need built-up roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'built-up-roofing-cost-guide',
@@ -701,6 +776,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Built-Up Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'Built-Up Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'built-up-roofing-decision',
@@ -711,6 +787,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Built-Up Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about built-up roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'commercial-metal-roofing-signs',
@@ -721,6 +798,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Commercial Metal Roofing | NJ Guide',
     metaDescription: 'How to tell if you need commercial metal roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'commercial-metal-roofing-cost-guide',
@@ -731,6 +809,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Commercial Metal Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'Commercial Metal Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'commercial-metal-roofing-decision',
@@ -741,6 +820,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Commercial Metal Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about commercial metal roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'pvc-roofing-signs',
@@ -751,6 +831,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need PVC Roofing | NJ Guide',
     metaDescription: 'How to tell if you need pvc roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'pvc-roofing-cost-guide',
@@ -761,6 +842,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'PVC Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'PVC Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'pvc-roofing-decision',
@@ -771,6 +853,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'PVC Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about pvc roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'green-roof-installation-signs',
@@ -781,6 +864,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Green Roof Installation | NJ Guide',
     metaDescription: 'How to tell if you need green roof installation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'green-roof-installation-cost-guide',
@@ -791,6 +875,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Green Roof Installation Cost in NJ | Pricing Guide',
     metaDescription: 'Green Roof Installation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'green-roof-installation-decision',
@@ -801,6 +886,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Green Roof Installation: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about green roof installation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'spray-foam-roofing-signs',
@@ -811,6 +897,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Spray Foam Roofing | NJ Guide',
     metaDescription: 'How to tell if you need spray foam roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'spray-foam-roofing-cost-guide',
@@ -821,6 +908,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Spray Foam Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'Spray Foam Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'spray-foam-roofing-decision',
@@ -831,6 +919,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Spray Foam Roofing: Pros and Cons for NJ Properties',
     metaDescription: 'Everything NJ homeowners need to know about spray foam roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-flashing-installation-repair-signs',
@@ -841,6 +930,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Flashing Installation Repair | NJ Guide',
     metaDescription: 'How to tell if you need roof flashing installation repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'roof-flashing-installation-repair-cost-guide',
@@ -851,6 +941,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Flashing Installation Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Flashing Installation Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-flashing-installation-repair-decision',
@@ -861,6 +952,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Roof Flashing Installation Repair Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof flashing installation repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'chimney-flashing-repair-signs',
@@ -871,6 +963,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Chimney Flashing Repair | NJ Guide',
     metaDescription: 'How to tell if you need chimney flashing repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'chimney-flashing-repair-cost-guide',
@@ -881,6 +974,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Chimney Flashing Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Chimney Flashing Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'chimney-flashing-repair-decision',
@@ -891,6 +985,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Chimney Flashing Repair: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about chimney flashing repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'gutter-installation-repair-signs',
@@ -901,6 +996,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Gutter Installation Repair | NJ Guide',
     metaDescription: 'How to tell if you need gutter installation repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'gutter-installation-repair-cost-guide',
@@ -911,6 +1007,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Gutter Installation Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Gutter Installation Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'gutter-installation-repair-decision',
@@ -921,6 +1018,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Gutter Installation Repair: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about gutter installation repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'gutter-guard-installation-signs',
@@ -931,6 +1029,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Gutter Guard Installation | NJ Guide',
     metaDescription: 'How to tell if you need gutter guard installation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'gutter-guard-installation-cost-guide',
@@ -941,6 +1040,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Gutter Guard Installation Cost in NJ | Pricing Guide',
     metaDescription: 'Gutter Guard Installation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'gutter-guard-installation-decision',
@@ -951,6 +1051,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Gutter Guard Installation: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about gutter guard installation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'skylight-installation-repair-signs',
@@ -961,6 +1062,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Skylight Installation Repair | NJ Guide',
     metaDescription: 'How to tell if you need skylight installation repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'skylight-installation-repair-cost-guide',
@@ -971,6 +1073,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Skylight Installation Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Skylight Installation Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'skylight-installation-repair-decision',
@@ -981,6 +1084,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Skylight Installation Repair: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about skylight installation repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'fascia-installation-repair-signs',
@@ -991,6 +1095,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Fascia Installation Repair | NJ Guide',
     metaDescription: 'How to tell if you need fascia installation repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'fascia-installation-repair-cost-guide',
@@ -1001,6 +1106,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Fascia Installation Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Fascia Installation Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'fascia-installation-repair-decision',
@@ -1011,6 +1117,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Fascia Installation Repair: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about fascia installation repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'soffit-installation-repair-signs',
@@ -1021,6 +1128,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Soffit Installation Repair | NJ Guide',
     metaDescription: 'How to tell if you need soffit installation repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'soffit-installation-repair-cost-guide',
@@ -1031,6 +1139,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Soffit Installation Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Soffit Installation Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'soffit-installation-repair-decision',
@@ -1041,6 +1150,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Soffit Installation Repair: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about soffit installation repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'roof-vent-installation-repair-signs',
@@ -1051,6 +1161,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Vent Installation Repair | NJ Guide',
     metaDescription: 'How to tell if you need roof vent installation repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'roof-vent-installation-repair-cost-guide',
@@ -1061,6 +1172,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Vent Installation Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Vent Installation Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-vent-installation-repair-decision',
@@ -1071,6 +1183,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Roof Vent Installation Repair: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about roof vent installation repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'roof-waterproofing-signs',
@@ -1081,6 +1194,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Waterproofing | NJ Guide',
     metaDescription: 'How to tell if you need roof waterproofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'roof-waterproofing-cost-guide',
@@ -1091,6 +1205,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Waterproofing Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Waterproofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-waterproofing-decision',
@@ -1101,6 +1216,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Roof Waterproofing: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about roof waterproofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'roof-deck-repair-replacement-signs',
@@ -1111,6 +1227,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Deck Repair & Replacement | NJ Guide',
     metaDescription: 'How to tell if you need roof deck repair and replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roof-components',
   },
   {
     id: 'roof-deck-repair-replacement-cost-guide',
@@ -1121,6 +1238,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Deck Repair & Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Deck Repair and Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-deck-repair-replacement-decision',
@@ -1131,6 +1249,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Roof Deck Repair & Replacement: Complete NJ Homeowner Guide',
     metaDescription: 'Everything NJ homeowners need to know about roof deck repair and replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roof-components',
   },
   {
     id: 'solar-panel-roofing-installation-signs',
@@ -1141,6 +1260,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Solar Panel Roofing Installation | NJ Guide',
     metaDescription: 'How to tell if you need solar panel roofing installation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'solar-panel-roofing-installation-cost-guide',
@@ -1151,6 +1271,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Solar Panel Roofing Installation Cost in NJ | Pricing Guide',
     metaDescription: 'Solar Panel Roofing Installation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'solar-panel-roofing-installation-decision',
@@ -1161,6 +1282,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Solar Panel Roofing Installation: NJ Incentives and Savings',
     metaDescription: 'Everything NJ homeowners need to know about solar panel roofing installation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'solar-shingle-installation-signs',
@@ -1171,6 +1293,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Solar Shingle Installation | NJ Guide',
     metaDescription: 'How to tell if you need solar shingle installation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'solar-shingle-installation-cost-guide',
@@ -1181,6 +1304,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Solar Shingle Installation Cost in NJ | Pricing Guide',
     metaDescription: 'Solar Shingle Installation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'solar-shingle-installation-decision',
@@ -1191,6 +1315,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Solar Shingle Installation: NJ Incentives and Savings',
     metaDescription: 'Everything NJ homeowners need to know about solar shingle installation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'energy-efficient-roofing-solutions-signs',
@@ -1201,6 +1326,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Energy Efficient Roofing Solutions | NJ Guide',
     metaDescription: 'How to tell if you need energy efficient roofing solutions in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'energy-efficient-roofing-solutions-cost-guide',
@@ -1211,6 +1337,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Energy Efficient Roofing Solutions Cost in NJ | Pricing G...',
     metaDescription: 'Energy Efficient Roofing Solutions cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'energy-efficient-roofing-solutions-decision',
@@ -1221,6 +1348,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Energy Efficient Roofing Solutions Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about energy efficient roofing solutions. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'silicone-roof-coating-signs',
@@ -1231,6 +1359,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Silicone Roof Coating | NJ Guide',
     metaDescription: 'How to tell if you need silicone roof coating in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'silicone-roof-coating-cost-guide',
@@ -1241,6 +1370,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Silicone Roof Coating Cost in NJ | Pricing Guide',
     metaDescription: 'Silicone Roof Coating cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'silicone-roof-coating-decision',
@@ -1251,6 +1381,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Silicone Roof Coating: NJ Incentives and Savings',
     metaDescription: 'Everything NJ homeowners need to know about silicone roof coating. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'commercial-roof-installation-signs',
@@ -1261,6 +1392,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Commercial Roof Installation | NJ Guide',
     metaDescription: 'How to tell if you need commercial roof installation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'commercial-roof-installation-cost-guide',
@@ -1271,6 +1403,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Commercial Roof Installation Cost in NJ | Pricing Guide',
     metaDescription: 'Commercial Roof Installation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'commercial-roof-installation-decision',
@@ -1281,6 +1414,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Commercial Roof Installation Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about commercial roof installation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'commercial-roof-repair-signs',
@@ -1291,6 +1425,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Commercial Roof Repair | NJ Guide',
     metaDescription: 'How to tell if you need commercial roof repair in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'commercial-roof-repair-cost-guide',
@@ -1301,6 +1436,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Commercial Roof Repair Cost in NJ | Pricing Guide',
     metaDescription: 'Commercial Roof Repair cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'commercial-roof-repair-decision',
@@ -1311,6 +1447,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Commercial Roof Repair: What NJ Business Owners Should Know',
     metaDescription: 'Everything NJ homeowners need to know about commercial roof repair. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'commercial-roof-replacement-signs',
@@ -1321,6 +1458,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Commercial Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need commercial roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'commercial-roof-replacement-cost-guide',
@@ -1331,6 +1469,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Commercial Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Commercial Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'commercial-roof-replacement-decision',
@@ -1341,6 +1480,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Commercial Roof Replacement Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about commercial roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'roof-thermal-imaging-inspections-signs',
@@ -1351,6 +1491,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Thermal Imaging Inspections | NJ Guide',
     metaDescription: 'How to tell if you need roof thermal imaging inspections in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'roof-thermal-imaging-inspections-cost-guide',
@@ -1361,6 +1502,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Thermal Imaging Inspections Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Thermal Imaging Inspections cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-thermal-imaging-inspections-decision',
@@ -1371,6 +1513,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Roof Thermal Imaging Inspections Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof thermal imaging inspections. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'infrared-roof-leak-detection-signs',
@@ -1381,6 +1524,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Infrared Roof Leak Detection | NJ Guide',
     metaDescription: 'How to tell if you need infrared roof leak detection in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'infrared-roof-leak-detection-cost-guide',
@@ -1391,6 +1535,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Infrared Roof Leak Detection Cost in NJ | Pricing Guide',
     metaDescription: 'Infrared Roof Leak Detection cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'infrared-roof-leak-detection-decision',
@@ -1401,6 +1546,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Infrared Roof Leak Detection Guide | NJ',
     metaDescription: 'Everything NJ homeowners need to know about infrared roof leak detection. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'custom-roof-design-consultation-signs',
@@ -1411,6 +1557,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Custom Roof Design & Consultation | NJ Guide',
     metaDescription: 'How to tell if you need custom roof design and consultation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'custom-roof-design-consultation-cost-guide',
@@ -1421,6 +1568,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Custom Roof Design & Consultation Cost in NJ | Pricing Guide',
     metaDescription: 'Custom Roof Design and Consultation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'custom-roof-design-consultation-decision',
@@ -1431,6 +1579,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Custom Roof Design & Consultation: What to Expect in NJ',
     metaDescription: 'Everything NJ homeowners need to know about custom roof design and consultation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'historic-roof-restoration-signs',
@@ -1441,6 +1590,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Historic Roof Restoration | NJ Guide',
     metaDescription: 'How to tell if you need historic roof restoration in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'historic-roof-restoration-cost-guide',
@@ -1451,6 +1601,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Historic Roof Restoration Cost in NJ | Pricing Guide',
     metaDescription: 'Historic Roof Restoration cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'historic-roof-restoration-decision',
@@ -1461,6 +1612,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Historic Roof Restoration: What to Expect in NJ',
     metaDescription: 'Everything NJ homeowners need to know about historic roof restoration. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'roof-ice-dam-prevention-signs',
@@ -1471,6 +1623,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Ice Dam Prevention | NJ Guide',
     metaDescription: 'How to tell if you need roof ice dam prevention in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'roof-ice-dam-prevention-cost-guide',
@@ -1481,6 +1634,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Ice Dam Prevention Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Ice Dam Prevention cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-ice-dam-prevention-decision',
@@ -1491,6 +1645,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Roof Ice Dam Prevention: What to Expect in NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof ice dam prevention. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'full-roof-tear-off-signs',
@@ -1501,6 +1656,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Full Roof Tear Off | NJ Guide',
     metaDescription: 'How to tell if you need full roof tear off in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'full-roof-tear-off-cost-guide',
@@ -1511,6 +1667,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Full Roof Tear Off Cost in NJ | Pricing Guide',
     metaDescription: 'Full Roof Tear Off cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'full-roof-tear-off-decision',
@@ -1521,6 +1678,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Full Roof Tear Off in NJ',
     metaDescription: 'Everything NJ homeowners need to know about full roof tear off. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'roof-overlay-installation-signs',
@@ -1531,6 +1689,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Overlay Installation | NJ Guide',
     metaDescription: 'How to tell if you need roof overlay installation in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'roof-overlay-installation-cost-guide',
@@ -1541,6 +1700,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Overlay Installation Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Overlay Installation cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-overlay-installation-decision',
@@ -1551,6 +1711,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Roof Overlay Installation in NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof overlay installation. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 're-roofing-signs',
@@ -1561,6 +1722,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Re-Roofing | NJ Guide',
     metaDescription: 'How to tell if you need re-roofing in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 're-roofing-cost-guide',
@@ -1571,6 +1733,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Re-Roofing Cost in NJ | Pricing Guide',
     metaDescription: 'Re-Roofing cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 're-roofing-decision',
@@ -1581,6 +1744,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Re-Roofing in NJ',
     metaDescription: 'Everything NJ homeowners need to know about re-roofing. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'insurance-roof-replacement-signs',
@@ -1591,6 +1755,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Insurance Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need insurance roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'insurance-roof-replacement-cost-guide',
@@ -1601,6 +1766,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Insurance Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Insurance Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'insurance-roof-replacement-decision',
@@ -1611,6 +1777,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Insurance Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about insurance roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'storm-damage-roof-replacement-signs',
@@ -1621,6 +1788,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Storm Damage Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need storm damage roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'storm-damage-roof-replacement-cost-guide',
@@ -1631,6 +1799,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Storm Damage Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Storm Damage Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'storm-damage-roof-replacement-decision',
@@ -1641,6 +1810,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Storm Damage Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about storm damage roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'aging-roof-replacement-signs',
@@ -1651,6 +1821,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Aging Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need aging roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'aging-roof-replacement-cost-guide',
@@ -1661,6 +1832,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Aging Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Aging Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'aging-roof-replacement-decision',
@@ -1671,6 +1843,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Aging Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about aging roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'roof-replacement-after-leak-signs',
@@ -1681,6 +1854,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Roof Replacement After Leak | NJ Guide',
     metaDescription: 'How to tell if you need roof replacement after leak in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'roof-replacement-after-leak-cost-guide',
@@ -1691,6 +1865,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Roof Replacement After Leak Cost in NJ | Pricing Guide',
     metaDescription: 'Roof Replacement After Leak cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'roof-replacement-after-leak-decision',
@@ -1701,6 +1876,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Roof Replacement After Leak in NJ',
     metaDescription: 'Everything NJ homeowners need to know about roof replacement after leak. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'fire-damage-roof-replacement-signs',
@@ -1711,6 +1887,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Fire Damage Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need fire damage roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'fire-damage-roof-replacement-cost-guide',
@@ -1721,6 +1898,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Fire Damage Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Fire Damage Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'fire-damage-roof-replacement-decision',
@@ -1731,6 +1909,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Fire Damage Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about fire damage roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'asphalt-shingle-roof-replacement-signs',
@@ -1741,6 +1920,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Asphalt Shingle Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need asphalt shingle roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'asphalt-shingle-roof-replacement-cost-guide',
@@ -1751,6 +1931,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Asphalt Shingle Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Asphalt Shingle Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'asphalt-shingle-roof-replacement-decision',
@@ -1761,6 +1942,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Asphalt Shingle Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about asphalt shingle roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'metal-roof-replacement-signs',
@@ -1771,6 +1953,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Metal Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need metal roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'metal-roof-replacement-cost-guide',
@@ -1781,6 +1964,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Metal Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Metal Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'metal-roof-replacement-decision',
@@ -1791,6 +1975,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Metal Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about metal roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'slate-roof-replacement-signs',
@@ -1801,6 +1986,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Slate Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need slate roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'slate-roof-replacement-cost-guide',
@@ -1811,6 +1997,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Slate Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Slate Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'slate-roof-replacement-decision',
@@ -1821,6 +2008,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Slate Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about slate roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'tile-roof-replacement-signs',
@@ -1831,6 +2019,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Tile Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need tile roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'tile-roof-replacement-cost-guide',
@@ -1841,6 +2030,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Tile Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Tile Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'tile-roof-replacement-decision',
@@ -1851,6 +2041,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Tile Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about tile roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'flat-roof-replacement-signs',
@@ -1861,6 +2052,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Flat Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need flat roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'flat-roof-replacement-cost-guide',
@@ -1871,6 +2063,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Flat Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Flat Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'flat-roof-replacement-decision',
@@ -1881,6 +2074,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Flat Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about flat roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'cedar-shake-roof-replacement-signs',
@@ -1891,6 +2085,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Signs You Need Cedar Shake Roof Replacement | NJ Guide',
     metaDescription: 'How to tell if you need cedar shake roof replacement in New Jersey. Warning signs, timing, and what to expect from Essex County roofers.',
+    cluster: 'roofing-process',
   },
   {
     id: 'cedar-shake-roof-replacement-cost-guide',
@@ -1901,6 +2096,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Cedar Shake Roof Replacement Cost in NJ | Pricing Guide',
     metaDescription: 'Cedar Shake Roof Replacement cost in New Jersey. Average prices, factors that affect cost, and how to get the best value in Essex County.',
+    cluster: 'roofing-costs',
   },
   {
     id: 'cedar-shake-roof-replacement-decision',
@@ -1911,6 +2107,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'Complete Guide to Cedar Shake Roof Replacement in NJ',
     metaDescription: 'Everything NJ homeowners need to know about cedar shake roof replacement. Expert advice from Essex County roofing professionals.',
+    cluster: 'roofing-process',
   },
   {
     id: 'asphalt-shingles-vs-metal-roofing-buyers-guide',
@@ -1921,6 +2118,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Asphalt Shingles vs Metal Roofing | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between asphalt shingles vs metal roofing. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'asphalt-shingles-vs-metal-roofing-expert-picks',
@@ -1931,6 +2129,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Asphalt Shingles vs Metal Roof',
     metaDescription: 'What New Jersey roofing contractors actually recommend for asphalt shingles vs metal roofing. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'slate-vs-tile-roofing-buyers-guide',
@@ -1941,6 +2140,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Slate vs Tile Roofing | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between slate vs tile roofing. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'slate-vs-tile-roofing-expert-picks',
@@ -1951,6 +2151,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Slate vs Tile Roofing',
     metaDescription: 'What New Jersey roofing contractors actually recommend for slate vs tile roofing. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'tpo-vs-epdm-roofing-buyers-guide',
@@ -1961,6 +2162,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: TPO vs EPDM Roofing | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between tpo vs epdm roofing. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'tpo-vs-epdm-roofing-expert-picks',
@@ -1971,6 +2173,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: TPO vs EPDM Roofing',
     metaDescription: 'What New Jersey roofing contractors actually recommend for tpo vs epdm roofing. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'metal-vs-tile-roofing-buyers-guide',
@@ -1981,6 +2184,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Metal vs Tile Roofing | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between metal vs tile roofing. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'metal-vs-tile-roofing-expert-picks',
@@ -1991,6 +2195,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Metal vs Tile Roofing',
     metaDescription: 'What New Jersey roofing contractors actually recommend for metal vs tile roofing. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'asphalt-vs-slate-roofing-buyers-guide',
@@ -2001,6 +2206,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Asphalt vs Slate Roofing | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between asphalt vs slate roofing. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'asphalt-vs-slate-roofing-expert-picks',
@@ -2011,6 +2217,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Asphalt vs Slate Roofing',
     metaDescription: 'What New Jersey roofing contractors actually recommend for asphalt vs slate roofing. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'wood-shake-vs-asphalt-shingles-buyers-guide',
@@ -2021,6 +2228,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Wood Shake vs Asphalt Shingles | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between wood shake vs asphalt shingles. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'wood-shake-vs-asphalt-shingles-expert-picks',
@@ -2031,6 +2239,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Wood Shake vs Asphalt Shingles',
     metaDescription: 'What New Jersey roofing contractors actually recommend for wood shake vs asphalt shingles. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'pvc-vs-tpo-roofing-buyers-guide',
@@ -2041,6 +2250,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: PVC vs TPO Roofing | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between pvc vs tpo roofing. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'pvc-vs-tpo-roofing-expert-picks',
@@ -2051,6 +2261,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: PVC vs TPO Roofing',
     metaDescription: 'What New Jersey roofing contractors actually recommend for pvc vs tpo roofing. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'standing-seam-vs-corrugated-metal-buyers-guide',
@@ -2061,6 +2272,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Standing Seam vs Corrugated Metal | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between standing seam vs corrugated metal. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'standing-seam-vs-corrugated-metal-expert-picks',
@@ -2071,6 +2283,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Standing Seam vs Corrugated Me',
     metaDescription: 'What New Jersey roofing contractors actually recommend for standing seam vs corrugated metal. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'modified-bitumen-vs-tpo-buyers-guide',
@@ -2081,6 +2294,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Modified Bitumen vs TPO | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between modified bitumen vs tpo. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'modified-bitumen-vs-tpo-expert-picks',
@@ -2091,6 +2305,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Modified Bitumen vs TPO',
     metaDescription: 'What New Jersey roofing contractors actually recommend for modified bitumen vs tpo. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'rubber-roofing-vs-tpo-buyers-guide',
@@ -2101,6 +2316,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Rubber Roofing vs TPO | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between rubber roofing vs tpo. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'rubber-roofing-vs-tpo-expert-picks',
@@ -2111,6 +2327,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Rubber Roofing vs TPO',
     metaDescription: 'What New Jersey roofing contractors actually recommend for rubber roofing vs tpo. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'cedar-shake-vs-wood-shingle-buyers-guide',
@@ -2121,6 +2338,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Cedar Shake vs Wood Shingle | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between cedar shake vs wood shingle. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'cedar-shake-vs-wood-shingle-expert-picks',
@@ -2131,6 +2349,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Cedar Shake vs Wood Shingle',
     metaDescription: 'What New Jersey roofing contractors actually recommend for cedar shake vs wood shingle. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'built-up-roofing-vs-modified-bitumen-buyers-guide',
@@ -2141,6 +2360,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Built-Up Roofing vs Modified Bitume | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between built-up roofing vs modified bitumen. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'built-up-roofing-vs-modified-bitumen-expert-picks',
@@ -2151,6 +2371,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Built-Up Roofing vs Modified B',
     metaDescription: 'What New Jersey roofing contractors actually recommend for built-up roofing vs modified bitumen. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'spray-foam-vs-tpo-buyers-guide',
@@ -2161,6 +2382,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Spray Foam vs TPO | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between spray foam vs tpo. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'spray-foam-vs-tpo-expert-picks',
@@ -2171,6 +2393,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Spray Foam vs TPO',
     metaDescription: 'What New Jersey roofing contractors actually recommend for spray foam vs tpo. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'green-roof-vs-traditional-roofing-buyers-guide',
@@ -2181,6 +2404,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Green Roof vs Traditional Roofing | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between green roof vs traditional roofing. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'green-roof-vs-traditional-roofing-expert-picks',
@@ -2191,6 +2415,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Green Roof vs Traditional Roof',
     metaDescription: 'What New Jersey roofing contractors actually recommend for green roof vs traditional roofing. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'solar-shingles-vs-solar-panels-buyers-guide',
@@ -2201,6 +2426,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Solar Shingles vs Solar Panels | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between solar shingles vs solar panels. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'solar-shingles-vs-solar-panels-expert-picks',
@@ -2211,6 +2437,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Solar Shingles vs Solar Panels',
     metaDescription: 'What New Jersey roofing contractors actually recommend for solar shingles vs solar panels. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-repair-vs-replacement-buyers-guide',
@@ -2221,6 +2448,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Roof Repair vs Replacement | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between roof repair vs replacement. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-repair-vs-replacement-expert-picks',
@@ -2231,6 +2459,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Roof Repair vs Replacement',
     metaDescription: 'What New Jersey roofing contractors actually recommend for roof repair vs replacement. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-coating-vs-replacement-buyers-guide',
@@ -2241,6 +2470,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Roof Coating vs Replacement | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between roof coating vs replacement. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-coating-vs-replacement-expert-picks',
@@ -2251,6 +2481,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Roof Coating vs Replacement',
     metaDescription: 'What New Jersey roofing contractors actually recommend for roof coating vs replacement. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-overlay-vs-tear-off-buyers-guide',
@@ -2261,6 +2492,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Roof Overlay vs Tear Off | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between roof overlay vs tear off. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-overlay-vs-tear-off-expert-picks',
@@ -2271,6 +2503,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Roof Overlay vs Tear Off',
     metaDescription: 'What New Jersey roofing contractors actually recommend for roof overlay vs tear off. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'patching-vs-full-roof-repair-buyers-guide',
@@ -2281,6 +2514,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Patching vs Full Roof Repair | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between patching vs full roof repair. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'patching-vs-full-roof-repair-expert-picks',
@@ -2291,6 +2525,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Patching vs Full Roof Repair',
     metaDescription: 'What New Jersey roofing contractors actually recommend for patching vs full roof repair. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'preventive-maintenance-vs-emergency-repair-buyers-guide',
@@ -2301,6 +2536,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Preventive Maintenance vs Emergency | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between preventive maintenance vs emergency repair. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'preventive-maintenance-vs-emergency-repair-expert-picks',
@@ -2311,6 +2547,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Preventive Maintenance vs Emer',
     metaDescription: 'What New Jersey roofing contractors actually recommend for preventive maintenance vs emergency repair. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-roofing-material-nj-weather-buyers-guide',
@@ -2321,6 +2558,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Best Roofing Material for NJ Weathe | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between best roofing material for nj weather. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-roofing-material-nj-weather-expert-picks',
@@ -2331,6 +2569,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Best Roofing Material for NJ W',
     metaDescription: 'What New Jersey roofing contractors actually recommend for best roofing material for nj weather. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-commercial-roofing-material-buyers-guide',
@@ -2341,6 +2580,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Best Commercial Roofing Material | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between best commercial roofing material. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-commercial-roofing-material-expert-picks',
@@ -2351,6 +2591,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Best Commercial Roofing Materi',
     metaDescription: 'What New Jersey roofing contractors actually recommend for best commercial roofing material. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-roofing-for-flat-roofs-buyers-guide',
@@ -2361,6 +2602,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Best Roofing for Flat Roofs | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between best roofing for flat roofs. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-roofing-for-flat-roofs-expert-picks',
@@ -2371,6 +2613,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Best Roofing for Flat Roofs',
     metaDescription: 'What New Jersey roofing contractors actually recommend for best roofing for flat roofs. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-roofing-for-historic-homes-nj-buyers-guide',
@@ -2381,6 +2624,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Best Roofing for Historic Homes NJ | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between best roofing for historic homes nj. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-roofing-for-historic-homes-nj-expert-picks',
@@ -2391,6 +2635,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Best Roofing for Historic Home',
     metaDescription: 'What New Jersey roofing contractors actually recommend for best roofing for historic homes nj. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'cheapest-vs-most-durable-roofing-buyers-guide',
@@ -2401,6 +2646,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Cheapest vs Most Durable Roofing | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between cheapest vs most durable roofing. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'cheapest-vs-most-durable-roofing-expert-picks',
@@ -2411,6 +2657,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Cheapest vs Most Durable Roofi',
     metaDescription: 'What New Jersey roofing contractors actually recommend for cheapest vs most durable roofing. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'most-energy-efficient-roofing-materials-buyers-guide',
@@ -2421,6 +2668,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Most Energy Efficient Roofing Mater | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between most energy efficient roofing materials. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'most-energy-efficient-roofing-materials-expert-picks',
@@ -2431,6 +2679,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Most Energy Efficient Roofing',
     metaDescription: 'What New Jersey roofing contractors actually recommend for most energy efficient roofing materials. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'architectural-vs-3-tab-shingles-buyers-guide',
@@ -2441,6 +2690,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Architectural vs 3-Tab Shingles | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between architectural vs 3-tab shingles. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'architectural-vs-3-tab-shingles-expert-picks',
@@ -2451,6 +2701,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Architectural vs 3-Tab Shingle',
     metaDescription: 'What New Jersey roofing contractors actually recommend for architectural vs 3-tab shingles. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'diy-vs-professional-roof-repair-buyers-guide',
@@ -2461,6 +2712,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: DIY vs Professional Roof Repair | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between diy vs professional roof repair. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'diy-vs-professional-roof-repair-expert-picks',
@@ -2471,6 +2723,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: DIY vs Professional Roof Repai',
     metaDescription: 'What New Jersey roofing contractors actually recommend for diy vs professional roof repair. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-roofing-for-essex-county-colonial-homes-buyers-guide',
@@ -2481,6 +2734,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Best Roofing for Essex County Colon | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between best roofing for essex county colonial homes. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'best-roofing-for-essex-county-colonial-homes-expert-picks',
@@ -2491,6 +2745,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Best Roofing for Essex County',
     metaDescription: 'What New Jersey roofing contractors actually recommend for best roofing for essex county colonial homes. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-warranty-comparison-guide-buyers-guide',
@@ -2501,6 +2756,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'How to Choose: Roof Warranty Comparison Guide | NJ',
     metaDescription: 'A NJ homeowner guide to choosing between roof warranty comparison guide. Key factors, local considerations, and expert advice.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'roof-warranty-comparison-guide-expert-picks',
@@ -2511,6 +2767,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'NJ Roofer Picks: Roof Warranty Comparison Guide',
     metaDescription: 'What New Jersey roofing contractors actually recommend for roof warranty comparison guide. Professional insights from Essex County.',
+    cluster: 'roofing-materials',
   },
   {
     id: 'homepage-nj-roofing-guide',
@@ -2521,6 +2778,7 @@ const rawArticles: Article[] = [
     position: 1,
     metaTitle: 'Complete NJ Roofing Guide | Homeowners',
     metaDescription: 'Everything NJ homeowners need to know about roofing. Materials, costs, maintenance, and finding a contractor in Essex County.',
+    cluster: 'local-roofing-knowledge',
   },
   {
     id: 'homepage-finding-roofer-essex-county',
@@ -2531,6 +2789,7 @@ const rawArticles: Article[] = [
     position: 2,
     metaTitle: 'Find a Roofer in Essex County NJ',
     metaDescription: 'How to find and vet a reliable roofing contractor in Essex County NJ. Licensing, insurance, and red flags to watch for.',
+    cluster: 'local-roofing-knowledge',
   },
   {
     id: 'homepage-nj-roofing-licensing-insurance',
@@ -2541,6 +2800,7 @@ const rawArticles: Article[] = [
     position: 3,
     metaTitle: 'NJ Roofing Licensing & Insurance Guide',
     metaDescription: 'Understanding NJ roofing contractor licensing and insurance requirements. What homeowners should verify before hiring.',
+    cluster: 'local-roofing-knowledge',
   },
 ];
 
