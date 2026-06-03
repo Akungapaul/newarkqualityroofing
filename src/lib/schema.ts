@@ -4,6 +4,7 @@
 // All @id references are consistent so Google connects entities across @graph.
 
 import { siteConfig } from '@/data/site-config';
+import { siteConfig as canonicalConfig } from '@/config/site-config';
 import { SEO_CONFIG } from '@/lib/seo-config';
 
 const BASE_URL = SEO_CONFIG.BASE_URL;
@@ -46,12 +47,24 @@ function buildOpeningHours(): Record<string, unknown>[] {
 }
 
 // ─── Aggregate rating (shared) ───────────────────────────────────────────────
+//
+// D-01 [RESOLVED 2026-06-01]: gated behind canonicalConfig.rating.enabled.
+// While rating.enabled === false, this returns null and BOTH call sites
+// conditionally spread the result so the `aggregateRating` KEY is OMITTED
+// entirely from the emitted JSON-LD (never set to null). The known-false
+// 5.0/500 claim therefore appears nowhere in HTML or JSON-LD. When rating
+// becomes canonical and rating.enabled is flipped to true, the value/count
+// flow from siteConfig.rating — never hardcoded.
 
-function buildAggregateRating(): Record<string, unknown> {
+function buildAggregateRating(): Record<string, unknown> | null {
+  const { rating } = canonicalConfig;
+  if (!rating.enabled) {
+    return null;
+  }
   return {
     '@type': 'AggregateRating',
-    ratingValue: '5.0',
-    reviewCount: '500',
+    ratingValue: rating.value,
+    reviewCount: rating.count,
     bestRating: '5',
     worstRating: '1',
   };
@@ -72,6 +85,7 @@ export function buildOrganizationSchema(): Record<string, unknown> {
 }
 
 export function buildRoofingContractorSchema(): Record<string, unknown> {
+  const aggregateRating = buildAggregateRating();
   return {
     '@type': 'RoofingContractor',
     '@id': `${BASE_URL}/#roofingcontractor`,
@@ -81,7 +95,8 @@ export function buildRoofingContractorSchema(): Record<string, unknown> {
     email: siteConfig.email,
     priceRange: '$$',
     address: buildPostalAddress(),
-    aggregateRating: buildAggregateRating(),
+    // D-01: aggregateRating key omitted entirely while rating is disabled.
+    ...(aggregateRating ? { aggregateRating } : {}),
     openingHoursSpecification: buildOpeningHours(),
   };
 }
@@ -111,6 +126,7 @@ export function buildLocalBusinessSchema(city: {
   state: string;
   zipCodes: string[];
 }): Record<string, unknown> {
+  const aggregateRating = buildAggregateRating();
   return {
     '@type': 'RoofingContractor',
     '@id': `${BASE_URL}/#roofingcontractor`,
@@ -128,7 +144,8 @@ export function buildLocalBusinessSchema(city: {
         name: 'NJ',
       },
     },
-    aggregateRating: buildAggregateRating(),
+    // D-01: aggregateRating key omitted entirely while rating is disabled.
+    ...(aggregateRating ? { aggregateRating } : {}),
     openingHoursSpecification: buildOpeningHours(),
   };
 }
