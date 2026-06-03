@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Full-Site Topical-Map Overhaul
 status: executing
-stopped_at: Completed 11-02-PLAN.md
-last_updated: "2026-06-03T06:09:24.241Z"
-last_activity: "2026-06-03 -- 11-02 complete: generated URL-classification pipeline + verdict API + prebuild"
+stopped_at: Completed 11-03-PLAN.md
+last_updated: "2026-06-03T06:19:39.720Z"
+last_activity: "2026-06-03 -- 11-03 complete: required cluster enum (all 252 classified) + parallel KB content schema + PageTypeSchema/registry extension"
 progress:
   total_phases: 7
   completed_phases: 0
   total_plans: 5
-  completed_plans: 2
+  completed_plans: 3
   percent: 0
 ---
 
@@ -26,9 +26,9 @@ See: .planning/PROJECT.md (updated 2026-06-01)
 ## Current Position
 
 Phase: 11 (ia-routing-canonical-data-url-classification) — EXECUTING
-Plan: 3 of 5
-Status: Executing Phase 11 (11-01, 11-02 complete)
-Last activity: 2026-06-03 -- 11-02 complete: generated URL-classification pipeline + verdict API + prebuild
+Plan: 4 of 5
+Status: Executing Phase 11 (11-01, 11-02, 11-03 complete)
+Last activity: 2026-06-03 -- 11-03 complete: cluster enum + classify 252 + KB schema + registry extension
 
 ## Performance Metrics
 
@@ -93,6 +93,7 @@ Last activity: 2026-06-03 -- 11-02 complete: generated URL-classification pipeli
 | Phase 10 P02 | 9min | 2 tasks | 6 files |
 | Phase 11 P01 | 11min | 2 tasks | 4 files |
 | Phase 11 P02 | 5min | 2 tasks | 5 files |
+| Phase 11 P03 | 9min | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -280,6 +281,11 @@ Recent decisions affecting current work:
 - [11-02]: Combo KEEP bucket maps verdict 'KEEP-INDEX' exactly (the CSV's 22 'KEEP-INDEX (review)' + 1 'REVIEW' are non-combo); any future review-verdict combo trips the count assertion rather than silently inflating keep
 - [11-02]: url-classification.json redirects map = 168 combo redirects only; the 8 legacy redirects live solely in redirects.generated.mjs that next.config.ts imports (so getComboRedirects() returns 168)
 - [11-02]: prebuild tsx codegen wired in package.json so next.config.ts static .mjs import never hits a missing-file build crash; generated artifacts committed + deterministically sorted for zero PR drift (T-11-04)
+- [11-03]: Updated generate-articles-ts.ts to EMIT the cluster field and REGENERATED articles.ts from it (generator stays source of truth; T-11-06 mitigated) -- temp-file diff confirmed zero non-cluster drift
+- [11-03]: Cluster derivation is fully deterministic (service category + position): cost-guide pos2 -> roofing-costs; comparisons -> roofing-materials; core -> local-roofing-knowledge; repair-maintenance -> roof-problems; components-specialty -> roof-components; histogram 102/63/44/20/20/3 sums to 252
+- [11-03]: KB content schema is a SEPARATE parallel KbArticleContentSchema (sections.min(10) + faqs[]) so the locked ArticleContentSchema (.min(2).max(4)) keeps validating the 252 short articles untouched
+- [11-03]: Nested KB paths kept OUT of the flat slug-registry; only flat glossary + 6 hub slugs registered through the existing collision loop; validate-flat-urls.ts gains a defensive roofing-knowledge-base/ prefix exemption
+- [11-03]: 252-vs-253 discrepancy noted -- registry holds 252 articles (63 article-services x 3 + 60 comparison + 3 core; 2 services excluded in 07-01); spec says 253; validator is length-agnostic (binds to z.array(ArticleSchema).parse, no hardcoded count)
 
 ### Pending Todos
 
@@ -403,6 +409,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-06-03T06:09:24.237Z
+Last session: 2026-06-03T06:19:39.717Z
 Stopped at: Completed 11-02-PLAN.md
 Resume file: None

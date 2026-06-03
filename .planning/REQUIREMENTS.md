@@ -178,7 +178,7 @@
 - [ ] **IA-02**: `/roofing-glossary/` resolves at HTTP 200 via a dedicated route (not the flat `[slug]` dispatcher)
 - [ ] **IA-03**: All 44 KB-article NESTED URLs (`/roofing-knowledge-base/{cluster}/{slug}/`) resolve at HTTP 200 and are registered collision-free
 - [x] **IA-04**: The 5 new hubs (`/residential-roofing`, `/commercial-roofing`, `/flat-roof-systems`, `/roofing-materials`, `/free-roofing-estimate`) + `/our-roofing-process` resolve at 200 with real content; the "Full page content coming soon" placeholder is removed; incomplete scaffolds are noindexed until content lands
-- [ ] **IA-05**: `PageTypeSchema` + slug registry are extended with `kb-hub`, `kb-cluster-hub`, `kb-article`, `glossary`, and the hub page type, with build-time collision checking
+- [x] **IA-05**: `PageTypeSchema` + slug registry are extended with `kb-hub`, `kb-cluster-hub`, `kb-article`, `glossary`, and the hub page type, with build-time collision checking
 - [ ] **IA-06**: `/resources` returns 301 to `/roofing-knowledge-base` so the site has a single canonical KB index _(Phase 13)_
 
 ### Indexation Pipeline (Phase 11)
@@ -194,8 +194,8 @@
 
 ### Knowledge Base Data & Content (Phases 11 & 13)
 
-- [ ] **KB-01**: `ArticleSchema` gains a required `cluster` enum (6 clusters); all 253 existing articles are cluster-assigned (none undefined) and the build validates _(Phase 11)_
-- [ ] **KB-02**: `ArticleContentSchema` (or a KB content schema) supports ≥10 sections + a `faqs[]` array _(Phase 11)_
+- [x] **KB-01**: `ArticleSchema` gains a required `cluster` enum (6 clusters); all 253 existing articles are cluster-assigned (none undefined) and the build validates _(Phase 11)_
+- [x] **KB-02**: `ArticleContentSchema` (or a KB content schema) supports ≥10 sections + a `faqs[]` array _(Phase 11)_
 - [ ] **KB-03**: All 253 article titles are rewritten to question form, cluster-keyed; slugs stay stable; titles are unique _(Phase 12)_
 - [ ] **KB-04**: `/roofing-knowledge-base/` renders the §5 H1 + 7-H2 tree; each of the 6 cluster hubs lists its member articles; the hub links all 6 clusters + the glossary _(Phase 13)_
 - [ ] **KB-05**: All 44 KB articles are authored at their nested URLs via the §6 template — question-form H1, visible FAQs matching FAQPage schema, internal links to services + related KB; no "Content Coming Soon"/placeholder/thin sections _(Phase 13)_
@@ -435,7 +435,7 @@
 | IA-02 | Phase 11 | Pending |
 | IA-03 | Phase 11 | Pending |
 | IA-04 | Phase 11 | Complete |
-| IA-05 | Phase 11 | Pending |
+| IA-05 | Phase 11 | Complete |
 | INDX-01 | Phase 11 | Complete |
 | INDX-02 | Phase 11 | Complete |
 | INDX-03 | Phase 11 | Pending |
@@ -444,8 +444,8 @@
 | INDX-06 | Phase 11 | Pending |
 | INDX-07 | Phase 11 | Pending |
 | INDX-08 | Phase 11 | Pending |
-| KB-01 | Phase 11 | Pending |
-| KB-02 | Phase 11 | Pending |
+| KB-01 | Phase 11 | Complete |
+| KB-02 | Phase 11 | Complete |
 | KB-03 | Phase 12 | Pending |
 | HTAG-01 | Phase 12 | Pending |
 | HTAG-02 | Phase 12 | Pending |
