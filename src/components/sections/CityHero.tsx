@@ -3,6 +3,7 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { getCityHeroImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 import type { City, CityContent } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
 
@@ -82,7 +83,7 @@ export function CityHero({ city, content, serviceGroups }: CityHeroProps) {
               id="city-hero-heading"
               className="text-balance font-heading text-4xl font-bold leading-tight tracking-tight text-parchment sm:text-5xl lg:text-6xl"
             >
-              {content.heroHeadline}
+              {HEADING_CONFIG.city.h1(city.name)}
             </h1>
 
             <p className="mt-6 font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
