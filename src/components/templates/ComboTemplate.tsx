@@ -187,9 +187,9 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             {/* Nearby cities quick links -- sidebar section (3rd format) */}
             {nearbyCities.length > 0 && (
               <aside className="rounded-lg border border-border bg-parchment-light p-4" aria-label="Nearby service areas">
-                <h4 className="font-heading text-sm font-bold text-forest">
+                <span className="block font-heading text-sm font-bold text-forest">
                   Nearby
-                </h4>
+                </span>
                 <ul className="mt-2 space-y-1">
                   {nearbyCities.map((link, index) => (
                     <li key={link.slug}>

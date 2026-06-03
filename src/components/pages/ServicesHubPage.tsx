@@ -101,13 +101,13 @@ function ServiceSection({
           .filter((cat) => grouped.has(cat))
           .map((cat) => (
             <div key={cat}>
-              <h3
-                className={`mb-4 font-heading text-xl font-semibold ${
+              <span
+                className={`mb-4 block font-heading text-xl font-semibold ${
                   isCommercial ? 'text-parchment' : 'text-forest-dark'
                 }`}
               >
                 {categoryLabels[cat] ?? cat}
-              </h3>
+              </span>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {grouped.get(cat)!.map((service) => (
                   <Link
@@ -120,13 +120,13 @@ function ServiceSection({
                     }`}
                   >
                     <div>
-                      <h4
-                        className={`font-heading text-base font-semibold ${
+                      <span
+                        className={`block font-heading text-base font-semibold ${
                           isCommercial ? 'text-parchment' : 'text-forest-dark'
                         }`}
                       >
                         {service.name}
-                      </h4>
+                      </span>
                       <p
                         className={`mt-1.5 font-body text-sm leading-relaxed ${
                           isCommercial
@@ -177,7 +177,7 @@ export default function ServicesHubPage() {
       <main className="mx-auto max-w-6xl space-y-12 px-6 pb-20">
         {/* Residential Section */}
         <ServiceSection
-          title="Residential Roofing Services"
+          title="What Residential Roofing Services Do We Provide?"
           description="Expert roofing solutions for homeowners across Essex County. Quality materials, skilled craftsmanship, and warranties you can trust."
           grouped={residentialGrouped}
           variant="residential"
@@ -185,7 +185,7 @@ export default function ServicesHubPage() {
 
         {/* Commercial Section */}
         <ServiceSection
-          title="Commercial Roofing Services"
+          title="What Commercial Roofing Services Do We Provide?"
           description="Industrial-grade roofing systems for businesses, warehouses, and commercial properties throughout Newark and Essex County."
           grouped={commercialGrouped}
           variant="commercial"

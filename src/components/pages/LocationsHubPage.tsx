@@ -34,9 +34,9 @@ export default function LocationsHubPage() {
                 </span>
               )}
 
-              <h2 className="font-heading text-xl font-bold text-forest-dark group-hover:text-copper">
+              <span className="block font-heading text-xl font-bold text-forest-dark group-hover:text-copper">
                 {city.name}
-              </h2>
+              </span>
               <p className="mt-1 font-body text-sm text-text-secondary">
                 Essex County, NJ
               </p>
@@ -81,7 +81,7 @@ export default function LocationsHubPage() {
         {/* Bottom CTA */}
         <section className="mt-16 rounded-lg border border-copper/30 bg-copper/5 px-6 py-10 text-center">
           <h2 className="font-heading text-2xl font-bold text-forest">
-            Serving All of Essex County
+            Do We Serve Every Community in Essex County?
           </h2>
           <p className="mx-auto mt-3 max-w-lg font-body text-text-secondary">
             From Newark to Montclair, Livingston to Belleville, our team

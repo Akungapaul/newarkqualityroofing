@@ -140,7 +140,7 @@ export default function AboutPage() {
       <section className="bg-parchment px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Our Story
+            What Is Our Story as a Newark Roofing Company?
           </h2>
           <div className="mt-8 space-y-5 font-body text-lg leading-relaxed text-text-secondary">
             <p>
@@ -171,7 +171,7 @@ export default function AboutPage() {
       <section className="bg-parchment-light px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Our Values
+            What Values Guide Our Roofing Work?
           </h2>
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
             {values.map((value) => (
@@ -180,9 +180,9 @@ export default function AboutPage() {
                 className="rounded-lg border border-border bg-parchment p-6"
               >
                 <div className="mb-4">{value.icon}</div>
-                <h3 className="font-heading text-xl font-bold text-forest">
+                <span className="block font-heading text-xl font-bold text-forest">
                   {value.title}
-                </h3>
+                </span>
                 <p className="mt-2 font-body text-text-secondary">
                   {value.description}
                 </p>
@@ -196,7 +196,7 @@ export default function AboutPage() {
       <section className="bg-parchment px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Credentials &amp; Certifications
+            What Credentials and Certifications Do We Hold?
           </h2>
           <p className="mt-4 font-body text-lg text-text-secondary">
             Our certifications reflect our commitment to excellence, safety, and
@@ -219,7 +219,7 @@ export default function AboutPage() {
       <section className="bg-parchment-light px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Our Team
+            Who Is on Our Roofing Team?
           </h2>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {team.map((member) => {
@@ -244,9 +244,9 @@ export default function AboutPage() {
                     {member.initials}
                   </div>
                 )}
-                <h3 className="mt-4 font-heading text-xl font-bold text-forest">
+                <span className="mt-4 block font-heading text-xl font-bold text-forest">
                   {member.name}
-                </h3>
+                </span>
                 <p className="font-body text-sm font-semibold uppercase tracking-wider text-copper">
                   {member.title}
                 </p>
@@ -264,7 +264,7 @@ export default function AboutPage() {
       <section className="bg-parchment px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Community Involvement
+            How Are We Involved in the Community?
           </h2>
           <div className="mt-6 space-y-4 font-body text-lg leading-relaxed text-text-secondary">
             <p>
