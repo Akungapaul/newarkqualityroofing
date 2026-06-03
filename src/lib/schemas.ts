@@ -89,6 +89,14 @@ export const PageTypeSchema = z.enum([
   'comparison',
   'article',
   'core',
+  // Topical-map page types (Phase 11+). KB hub/cluster/article paths are nested
+  // and owned by the KB catch-all route's own enumeration, NOT the flat registry;
+  // 'glossary' and 'hub' are flat single-segment pages registered below.
+  'kb-hub',
+  'kb-cluster-hub',
+  'kb-article',
+  'glossary',
+  'hub',
 ]);
 
 export const SlugEntrySchema = z.object({
@@ -99,6 +107,11 @@ export const SlugEntrySchema = z.object({
   comparisonId: z.string().optional(),
   articleId: z.string().optional(),
   corePageId: z.string().optional(),
+  // Topical-map identifiers (optional — set only for the new page types).
+  kbArticleId: z.string().optional(),
+  clusterId: z.string().optional(),
+  glossaryId: z.string().optional(),
+  hubId: z.string().optional(),
 });
 
 // ─── Lead Form ──────────────────────────────────────────────────────────────

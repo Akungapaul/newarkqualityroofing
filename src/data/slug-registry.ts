@@ -41,7 +41,7 @@ function buildRegistry(): Map<string, SlugEntry> {
     });
   }
 
-  // Combos (1,323 = 63 services x 21 cities)
+  // Combos (1,365 = 65 services x 21 cities)
   for (const combo of combos) {
     register({
       slug: combo.slug,
@@ -69,12 +69,39 @@ function buildRegistry(): Map<string, SlugEntry> {
     });
   }
 
-  // Core Pages (7)
+  // Core Pages (9)
   for (const corePage of corePages) {
     register({
       slug: corePage.slug,
       type: 'core',
       corePageId: corePage.id,
+    });
+  }
+
+  // Roofing Glossary (1) -- flat, dedicated route at /roofing-glossary
+  register({
+    slug: 'roofing-glossary',
+    type: 'glossary',
+    glossaryId: 'roofing-glossary',
+  });
+
+  // Hub pages (6) -- flat, single-segment topical hubs.
+  // NOTE: nested KB hub/cluster/article paths (/roofing-knowledge-base/...) are
+  // deliberately NOT registered here -- they live in the KB catch-all route's own
+  // enumeration so validate-flat-urls.ts never sees a '/'-containing slug.
+  const HUB_SLUGS = [
+    'residential-roofing',
+    'commercial-roofing',
+    'flat-roof-systems',
+    'roofing-materials',
+    'free-roofing-estimate',
+    'our-roofing-process',
+  ] as const;
+  for (const hubSlug of HUB_SLUGS) {
+    register({
+      slug: hubSlug,
+      type: 'hub',
+      hubId: hubSlug,
     });
   }
 
