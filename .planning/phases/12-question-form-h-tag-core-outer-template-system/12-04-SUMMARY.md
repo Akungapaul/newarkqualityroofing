@@ -147,6 +147,10 @@ This phase has **no unit-test framework** (no jest/vitest in the repo). Per the 
 - 12-05 (rebuild + full rendered gate): after `next build`, the rendered DOM pass will read the core/hub `.html` files; each in-scope core/hub page should now render exactly one question-form H1 with no element children. The article titles are already question-form + unique in the static registry.
 - HEADING_CONFIG remains the single source for the core/hub H1 strings, so any future wording change is one edit in `src/data/heading-config.ts`.
 
+## Self-Check: PASSED
+
+All 12 modified files and the SUMMARY exist on disk; all 3 commits (4783d5b, 4c94ee0, 27f9ac4) exist in git history.
+
 ---
 *Phase: 12-question-form-h-tag-core-outer-template-system*
 *Completed: 2026-06-03*
