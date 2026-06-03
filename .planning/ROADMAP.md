@@ -321,7 +321,7 @@ Brownfield milestone (Phases 11–17) continuing from the shipped v1.0 site. Imp
 
 ### Phases
 
-- [ ] **Phase 11: IA, Routing, Canonical Data & URL Classification** - Canonical siteConfig, generated URL-classification pipeline (255 keep / 942 noindex / 168+8 redirect) with redirect>404>keep>noindex precedence, hub 301 migrations, nested KB + glossary routes, 6 new hubs, article cluster taxonomy
+- [x] **Phase 11: IA, Routing, Canonical Data & URL Classification** - Canonical siteConfig, generated URL-classification pipeline (255 keep / 942 noindex / 168+8 redirect) with redirect>404>keep>noindex precedence, hub 301 migrations, nested KB + glossary routes, 6 new hubs, article cluster taxonomy (completed 2026-06-03)
 - [ ] **Phase 12: Question-Form H-Tag & Core/Outer Template System** - Verbatim question-form H1/H2/H3 trees on home/service/city/combo/core, 253 article titles → questions, Core-before-Outer policy, `audit:headings`
 - [ ] **Phase 13: Knowledge Base Hub, Clusters & 44 KB Articles** - `/roofing-knowledge-base/` hub + 6 cluster hubs + 44 nested KB articles + 253 folded + article/FAQPage schema, `audit:kb`
 - [ ] **Phase 14: Roofing Glossary & Entity Dictionary** - `/roofing-glossary/` with 25 DefinedTerm entries + DefinedTermSet schema + KB cross-links, `audit:glossary`
@@ -360,7 +360,7 @@ Plans:
 
 **Wave 3** *(blocked on Wave 2 completion)*
 
-- [ ] 11-05-PLAN.md — KB catch-all route (hub+6 clusters+44 articles) + dedicated glossary route + 6 hub scaffolds (noindexed, no placeholder); audit:sitemap + audit:redirects validators (D-10, D-11, D-12)
+- [x] 11-05-PLAN.md — KB catch-all route (hub+6 clusters+44 articles) + dedicated glossary route + 6 hub scaffolds (noindexed, no placeholder); audit:sitemap + audit:redirects validators (D-10, D-11, D-12)
 
 #### Phase 12: Question-Form H-Tag & Core/Outer Template System
 
@@ -462,7 +462,7 @@ Phases execute: 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable an
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 11. IA, Routing, Canonical Data & URL Classification | 4/5 | In Progress|  |
+| 11. IA, Routing, Canonical Data & URL Classification | 5/5 | Complete   | 2026-06-03 |
 | 12. Question-Form H-Tag & Core/Outer Template System | 0/? | Not started | - |
 | 13. Knowledge Base Hub, Clusters & 44 KB Articles | 0/? | Not started | - |
 | 14. Roofing Glossary & Entity Dictionary | 0/? | Not started | - |

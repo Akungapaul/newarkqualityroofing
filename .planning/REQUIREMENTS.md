@@ -174,9 +174,9 @@
 
 ### Information Architecture & Routing (Phase 11)
 
-- [ ] **IA-01**: The nested KB route (`app/roofing-knowledge-base/[[...slug]]`) serves `/roofing-knowledge-base/` + all 6 cluster hubs at HTTP 200; `dynamicParams=false` with the fixed nested paths enumerated in `generateStaticParams`
-- [ ] **IA-02**: `/roofing-glossary/` resolves at HTTP 200 via a dedicated route (not the flat `[slug]` dispatcher)
-- [ ] **IA-03**: All 44 KB-article NESTED URLs (`/roofing-knowledge-base/{cluster}/{slug}/`) resolve at HTTP 200 and are registered collision-free
+- [x] **IA-01**: The nested KB route (`app/roofing-knowledge-base/[[...slug]]`) serves `/roofing-knowledge-base/` + all 6 cluster hubs at HTTP 200; `dynamicParams=false` with the fixed nested paths enumerated in `generateStaticParams`
+- [x] **IA-02**: `/roofing-glossary/` resolves at HTTP 200 via a dedicated route (not the flat `[slug]` dispatcher)
+- [x] **IA-03**: All 44 KB-article NESTED URLs (`/roofing-knowledge-base/{cluster}/{slug}/`) resolve at HTTP 200 and are registered collision-free
 - [x] **IA-04**: The 5 new hubs (`/residential-roofing`, `/commercial-roofing`, `/flat-roof-systems`, `/roofing-materials`, `/free-roofing-estimate`) + `/our-roofing-process` resolve at 200 with real content; the "Full page content coming soon" placeholder is removed; incomplete scaffolds are noindexed until content lands
 - [x] **IA-05**: `PageTypeSchema` + slug registry are extended with `kb-hub`, `kb-cluster-hub`, `kb-article`, `glossary`, and the hub page type, with build-time collision checking
 - [ ] **IA-06**: `/resources` returns 301 to `/roofing-knowledge-base` so the site has a single canonical KB index _(Phase 13)_
@@ -431,9 +431,9 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| IA-01 | Phase 11 | Pending |
-| IA-02 | Phase 11 | Pending |
-| IA-03 | Phase 11 | Pending |
+| IA-01 | Phase 11 | Complete |
+| IA-02 | Phase 11 | Complete |
+| IA-03 | Phase 11 | Complete |
 | IA-04 | Phase 11 | Complete |
 | IA-05 | Phase 11 | Complete |
 | INDX-01 | Phase 11 | Complete |
