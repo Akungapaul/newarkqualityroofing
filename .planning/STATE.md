@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Full-Site Topical-Map Overhaul
 status: executing
-stopped_at: Completed 11-03-PLAN.md
-last_updated: "2026-06-03T06:19:39.720Z"
-last_activity: "2026-06-03 -- 11-03 complete: required cluster enum (all 252 classified) + parallel KB content schema + PageTypeSchema/registry extension"
+stopped_at: Completed 11-02-PLAN.md
+last_updated: "2026-06-03T06:33:47.437Z"
+last_activity: 2026-06-03
 progress:
   total_phases: 7
   completed_phases: 0
   total_plans: 5
-  completed_plans: 3
+  completed_plans: 4
   percent: 0
 ---
 
@@ -26,9 +26,9 @@ See: .planning/PROJECT.md (updated 2026-06-01)
 ## Current Position
 
 Phase: 11 (ia-routing-canonical-data-url-classification) — EXECUTING
-Plan: 4 of 5
-Status: Executing Phase 11 (11-01, 11-02, 11-03 complete)
-Last activity: 2026-06-03 -- 11-03 complete: cluster enum + classify 252 + KB schema + registry extension
+Plan: 5 of 5
+Status: Ready to execute
+Last activity: 2026-06-03
 
 ## Performance Metrics
 
@@ -94,6 +94,7 @@ Last activity: 2026-06-03 -- 11-03 complete: cluster enum + classify 252 + KB sc
 | Phase 11 P01 | 11min | 2 tasks | 4 files |
 | Phase 11 P02 | 5min | 2 tasks | 5 files |
 | Phase 11 P03 | 9min | 2 tasks | 6 files |
+| Phase 11 P04 | 8min | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -286,6 +287,9 @@ Recent decisions affecting current work:
 - [11-03]: KB content schema is a SEPARATE parallel KbArticleContentSchema (sections.min(10) + faqs[]) so the locked ArticleContentSchema (.min(2).max(4)) keeps validating the 252 short articles untouched
 - [11-03]: Nested KB paths kept OUT of the flat slug-registry; only flat glossary + 6 hub slugs registered through the existing collision loop; validate-flat-urls.ts gains a defensive roofing-knowledge-base/ prefix exemption
 - [11-03]: 252-vs-253 discrepancy noted -- registry holds 252 articles (63 article-services x 3 + 60 comparison + 3 core; 2 services excluded in 07-01); spec says 253; validator is length-agnostic (binds to z.array(ArticleSchema).parse, no hardcoded count)
+- [Phase ?]: 11-04: 168 redirected combos excluded from generateStaticParams + sitemap; 942 noindex combos serve live noindex,follow self-canonical pages; 255 keep indexable + in sitemap
+- [Phase ?]: 11-04: core hub slugs renamed services->roofing-services, locations->service-areas (ids kept); /resources retired (301 to KB hub); sitewide link repointing deferred to Phase 15
+- [Phase ?]: 11-04: PRIORITY_COMBO_PAIRS reconciled subset-of 255 keep + isKeep hard floor in isPriorityCombo closes implicit Newark OR-clause noindex leak (D-08)
 
 ### Pending Todos
 
@@ -409,6 +413,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-06-03T06:19:39.717Z
+Last session: 2026-06-03T06:33:41.094Z
 Stopped at: Completed 11-02-PLAN.md
 Resume file: None

@@ -356,7 +356,7 @@ Plans:
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
-- [ ] 11-04-PLAN.md — next.config redirects (168+8 301s, flat-roof+www preserved) + hub core-slug renames; combo robots/canonical gate; sitemap keep-filter; PRIORITY_COMBO_PAIRS reconciliation (D-04..D-09)
+- [x] 11-04-PLAN.md — next.config redirects (168+8 301s, flat-roof+www preserved) + hub core-slug renames; combo robots/canonical gate; sitemap keep-filter; PRIORITY_COMBO_PAIRS reconciliation (D-04..D-09)
 
 **Wave 3** *(blocked on Wave 2 completion)*
 
@@ -462,7 +462,7 @@ Phases execute: 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable an
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 11. IA, Routing, Canonical Data & URL Classification | 3/5 | In Progress|  |
+| 11. IA, Routing, Canonical Data & URL Classification | 4/5 | In Progress|  |
 | 12. Question-Form H-Tag & Core/Outer Template System | 0/? | Not started | - |
 | 13. Knowledge Base Hub, Clusters & 44 KB Articles | 0/? | Not started | - |
 | 14. Roofing Glossary & Entity Dictionary | 0/? | Not started | - |

@@ -185,12 +185,12 @@
 
 - [x] **INDX-01**: `scripts/build-url-classification.ts` generates `src/generated/url-classification.json` + `src/generated/redirects.generated.mjs` from `URL-Classification.csv`; `src/data/url-classification.ts` consumes the JSON and exposes `getComboVerdict`/`getComboRedirects`/`getClassification`/`isKeep`/`isNoindex`/`isRedirect`
 - [x] **INDX-02**: The build validates the counts 255 keep / 942 noindex / 168 combo-redirect / 8 legacy-redirect and fails on mismatch
-- [ ] **INDX-03**: Routing precedence is redirect > 404 > keep > noindex; all 942 NOINDEX combos emit `robots:{index:false,follow:true}` and are excluded from the sitemap
-- [ ] **INDX-04**: The 168 combo + 8 legacy redirects emit permanent 301s to their CSV targets via the generated redirects imported into `next.config.ts`, and are excluded from `generateStaticParams` + sitemap; existing flat-roof + www redirects are preserved
-- [ ] **INDX-05**: All 255 KEEP combos are indexable and in the sitemap; unknown slugs return 404
-- [ ] **INDX-06**: `/services`→`/roofing-services`, `/locations`→`/service-areas`, `/resources`→`/roofing-knowledge-base` 301 migrations are in place and the core slugs are updated
-- [ ] **INDX-07**: `seo-priority.ts` is reconciled — `PRIORITY_COMBO_PAIRS` ⊆ the 255 KEEP set; no NOINDEX/CONSOLIDATE combo is priority-boosted
-- [ ] **INDX-08**: `trailingSlash: false` is retained; nested KB/glossary URLs are served without a trailing slash
+- [x] **INDX-03**: Routing precedence is redirect > 404 > keep > noindex; all 942 NOINDEX combos emit `robots:{index:false,follow:true}` and are excluded from the sitemap
+- [x] **INDX-04**: The 168 combo + 8 legacy redirects emit permanent 301s to their CSV targets via the generated redirects imported into `next.config.ts`, and are excluded from `generateStaticParams` + sitemap; existing flat-roof + www redirects are preserved
+- [x] **INDX-05**: All 255 KEEP combos are indexable and in the sitemap; unknown slugs return 404
+- [x] **INDX-06**: `/services`→`/roofing-services`, `/locations`→`/service-areas`, `/resources`→`/roofing-knowledge-base` 301 migrations are in place and the core slugs are updated
+- [x] **INDX-07**: `seo-priority.ts` is reconciled — `PRIORITY_COMBO_PAIRS` ⊆ the 255 KEEP set; no NOINDEX/CONSOLIDATE combo is priority-boosted
+- [x] **INDX-08**: `trailingSlash: false` is retained; nested KB/glossary URLs are served without a trailing slash
 
 ### Knowledge Base Data & Content (Phases 11 & 13)
 
@@ -438,12 +438,12 @@
 | IA-05 | Phase 11 | Complete |
 | INDX-01 | Phase 11 | Complete |
 | INDX-02 | Phase 11 | Complete |
-| INDX-03 | Phase 11 | Pending |
-| INDX-04 | Phase 11 | Pending |
-| INDX-05 | Phase 11 | Pending |
-| INDX-06 | Phase 11 | Pending |
-| INDX-07 | Phase 11 | Pending |
-| INDX-08 | Phase 11 | Pending |
+| INDX-03 | Phase 11 | Complete |
+| INDX-04 | Phase 11 | Complete |
+| INDX-05 | Phase 11 | Complete |
+| INDX-06 | Phase 11 | Complete |
+| INDX-07 | Phase 11 | Complete |
+| INDX-08 | Phase 11 | Complete |
 | KB-01 | Phase 11 | Complete |
 | KB-02 | Phase 11 | Complete |
 | KB-03 | Phase 12 | Pending |
