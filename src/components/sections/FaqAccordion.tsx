@@ -3,6 +3,7 @@ import Link from 'next/link';
 import type { FaqItem } from '@/data/faq';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getHomepageImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 interface FaqAccordionProps {
   items: FaqItem[];
@@ -32,7 +33,7 @@ export function FaqAccordion({ items }: FaqAccordionProps) {
           id="faq-heading"
           className="text-center font-heading text-3xl font-bold text-forest sm:text-4xl"
         >
-          Frequently Asked Questions
+          {HEADING_CONFIG.home.outerH2s[4]}
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-center font-body text-lg text-text-secondary">
           Answers to common questions about our process, costs,

@@ -1,17 +1,18 @@
 import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceFaqProps {
+  heading: string;
   faqs: { question: string; answer: string }[];
 }
 
-export function ServiceFaq({ faqs }: ServiceFaqProps) {
+export function ServiceFaq({ heading, faqs }: ServiceFaqProps) {
   return (
     <section aria-labelledby="service-faq-heading">
       <h2
         id="service-faq-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        Frequently Asked Questions
+        {heading}
       </h2>
       <div className="mt-6 divide-y divide-border">
         {faqs.map((faq, index) => (

@@ -62,11 +62,13 @@ interface CompactTestimonialProps {
     type: 'service' | 'location';
     value: string;
   };
+  heading?: string;
 }
 
 export function CompactTestimonial({
   testimonials,
   filterBy,
+  heading = 'What Do Customers Say About Our Roofing Work?',
 }: CompactTestimonialProps) {
   // Filter by type (case-insensitive partial match)
   const filtered = testimonials.filter((t) => {
@@ -96,7 +98,7 @@ export function CompactTestimonial({
         id="compact-testimonials-heading"
         className="font-heading text-xl font-semibold text-forest"
       >
-        What Our Customers Say
+        {heading}
       </h2>
       <div className="mt-4 space-y-4">
         {selected.map((testimonial) => (

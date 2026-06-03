@@ -35,7 +35,7 @@ export function FeaturedCombos() {
           id="featured-combos-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
-          Popular Roofing Services by City
+          Which Roofing Services Are Popular in Each Essex County City?
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
           Find expert roofing services in your Essex County neighborhood. Select your city and service below.
@@ -44,9 +44,9 @@ export function FeaturedCombos() {
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
           {TOP_SERVICES.map((service) => (
             <div key={service.slug}>
-              <h3 className="mb-2.5 font-heading text-sm font-bold uppercase tracking-widest text-copper">
+              <span className="mb-2.5 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
                 {service.name}
-              </h3>
+              </span>
               <ul className="space-y-1">
                 {TOP_CITIES.map((city) => {
                   const comboSlug = generateComboSlug(service.slug, city.slug);

@@ -4,6 +4,7 @@ import { getSectionImage } from '@/data/image-manifest';
 import { parseRichText } from '@/lib/rich-text';
 
 interface ServicePricingProps {
+  heading: string;
   pricing: {
     range: string;
     factors: string[];
@@ -12,7 +13,7 @@ interface ServicePricingProps {
   serviceName: string;
 }
 
-export function ServicePricing({ pricing, serviceName }: ServicePricingProps) {
+export function ServicePricing({ heading, pricing }: ServicePricingProps) {
   const pricingImage = getSectionImage('section-pricing');
 
   return (
@@ -21,7 +22,7 @@ export function ServicePricing({ pricing, serviceName }: ServicePricingProps) {
         id="service-pricing-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        {serviceName} Pricing in Essex County
+        {heading}
       </h2>
 
       <div className="mt-6 rounded-sm border-2 border-copper/40 bg-white p-6 shadow-sm">

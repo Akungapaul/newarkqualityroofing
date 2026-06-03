@@ -8,10 +8,11 @@ interface RelatedService {
 }
 
 interface RelatedServicesProps {
+  heading: string;
   services: RelatedService[];
 }
 
-export function RelatedServices({ services }: RelatedServicesProps) {
+export function RelatedServices({ heading, services }: RelatedServicesProps) {
   if (services.length === 0) return null;
 
   return (
@@ -24,7 +25,7 @@ export function RelatedServices({ services }: RelatedServicesProps) {
           id="related-services-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
-          Related Services
+          {heading}
         </h2>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service, index) => (
@@ -33,9 +34,9 @@ export function RelatedServices({ services }: RelatedServicesProps) {
               href={`/${service.slug}`}
               className="group rounded-lg border border-border bg-white p-6 transition-all hover:border-copper hover:shadow-md focus-visible:ring-2 focus-visible:ring-copper focus-visible:outline-none"
             >
-              <h3 className="font-heading text-lg font-bold text-forest transition-colors group-hover:text-copper">
+              <span className="block font-heading text-lg font-bold text-forest transition-colors group-hover:text-copper">
                 {getServiceAnchorText(service.name, index)}
-              </h3>
+              </span>
               <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary line-clamp-3">
                 {service.shortDescription}
               </p>

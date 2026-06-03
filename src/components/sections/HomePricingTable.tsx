@@ -4,6 +4,7 @@ import { PRICING } from '@/data/content-constants';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getHomepageImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 const pricingRows = [
   { key: 'roof-repair' as const, label: 'Roof Repair', slug: 'roof-repair' },
@@ -38,7 +39,7 @@ export function HomePricingTable() {
             id="home-pricing-heading"
             className="font-heading text-3xl font-bold sm:text-4xl"
           >
-            Affordable Pricing and Cost Guide
+            {HEADING_CONFIG.home.outerH2s[3]}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/70">
             Transparent pricing with <em>no-obligation</em> quotes. Roof replacement in Newark, NJ starts with a clear estimate. Every roofing quote includes
@@ -53,7 +54,7 @@ export function HomePricingTable() {
         </div>
 
         <h3 className="mt-12 font-heading text-2xl font-semibold text-copper-light">
-          Roof Replacement Cost in New Jersey
+          How Much Does Roof Replacement Cost in New Jersey?
         </h3>
 
         <div className="mt-6 overflow-hidden rounded-lg border border-parchment/15 shadow-lg">
@@ -113,7 +114,7 @@ export function HomePricingTable() {
         {/* PAA answers */}
         <div className="mt-10 space-y-6">
           <h4 className="font-heading text-xl font-semibold text-copper-light">
-            Common Pricing Questions
+            What Do Customers Ask About Roofing Prices?
           </h4>
           <div>
             <p className="font-heading text-lg font-semibold text-parchment">

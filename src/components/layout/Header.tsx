@@ -96,9 +96,9 @@ function ServicesMegaMenu({
       <div className="grid grid-cols-2 gap-x-8 gap-y-5">
         {groups.map((group) => (
           <div key={group.category}>
-            <h3 className="mb-2 font-heading text-sm font-bold uppercase tracking-widest text-copper-dark">
+            <span className="mb-2 block font-heading text-sm font-bold uppercase tracking-widest text-copper-dark">
               {group.categoryLabel}
-            </h3>
+            </span>
             <ul className="space-y-0.5" role="group" aria-label={group.categoryLabel}>
               {group.services.map((service) => (
                 <li key={service.slug}>
@@ -131,9 +131,9 @@ function LocationsDropdown({
 }) {
   return (
     <div className="w-[340px] rounded-lg border border-border bg-parchment p-5 shadow-2xl">
-      <h3 className="mb-3 font-heading text-sm font-bold uppercase tracking-widest text-copper-dark">
+      <span className="mb-3 block font-heading text-sm font-bold uppercase tracking-widest text-copper-dark">
         Service Areas
-      </h3>
+      </span>
       <ul className="grid grid-cols-2 gap-x-4 gap-y-0.5" role="group" aria-label="Service locations">
         {cityItems.map((city) => (
           <li key={city.slug}>
@@ -166,9 +166,9 @@ function GuidesDropdown({
       <div className="grid grid-cols-3 gap-x-6 gap-y-4">
         {groups.map((group) => (
           <div key={group.category}>
-            <h3 className="mb-2 font-heading text-sm font-bold uppercase tracking-widest text-copper-dark">
+            <span className="mb-2 block font-heading text-sm font-bold uppercase tracking-widest text-copper-dark">
               {group.categoryLabel}
-            </h3>
+            </span>
             <ul className="space-y-0.5" role="group" aria-label={group.categoryLabel}>
               {group.comparisons.map((comparison) => (
                 <li key={comparison.slug}>

@@ -5,6 +5,7 @@ import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { getServiceHeroImage } from '@/data/image-manifest';
 import type { Service } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 interface ServiceHeroProps {
   service: Service;
@@ -88,9 +89,7 @@ export function ServiceHero({ service, serviceGroups, benefits }: ServiceHeroPro
               id="service-hero-heading"
               className="text-balance font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl"
             >
-              {service.name}
-              <br />
-              <span className="text-copper">in Newark NJ</span>
+              {HEADING_CONFIG.service.h1(service.name)}
             </h1>
 
             <ul className="mt-6 space-y-3" aria-label="Service benefits">

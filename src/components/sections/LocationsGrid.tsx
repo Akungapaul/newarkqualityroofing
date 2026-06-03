@@ -5,6 +5,7 @@ import { generateCityPageSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { StaggerGrid, StaggerItem } from '@/components/animations/StaggerGrid';
 import { getHomepageImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 export function LocationsGrid() {
   const mapImg = getHomepageImage('service-map');
@@ -23,7 +24,7 @@ export function LocationsGrid() {
               id="locations-heading"
               className="font-heading text-3xl font-bold sm:text-4xl"
             >
-              Serving All of Essex County and the Newark Area
+              {HEADING_CONFIG.home.outerH2s[2]}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment/70">
               From our{' '}

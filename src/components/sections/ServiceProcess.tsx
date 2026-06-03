@@ -2,18 +2,19 @@ import Image from 'next/image';
 import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceProcessProps {
+  heading: string;
   steps: { title: string; description: string }[];
   image?: { src: string; alt: string };
 }
 
-export function ServiceProcess({ steps, image }: ServiceProcessProps) {
+export function ServiceProcess({ heading, steps, image }: ServiceProcessProps) {
   return (
     <section aria-labelledby="service-process-heading">
       <h2
         id="service-process-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        Our Process
+        {heading}
       </h2>
       {image && (
         <div className="mt-6 photo-treatment overflow-hidden rounded-lg aspect-[3/1]">
@@ -39,9 +40,9 @@ export function ServiceProcess({ steps, image }: ServiceProcessProps) {
               {index + 1}
             </div>
             <div className="pt-1">
-              <h4 className="font-heading text-lg font-bold text-forest">
+              <span className="block font-heading text-lg font-bold text-forest">
                 {step.title}
-              </h4>
+              </span>
               <p className="mt-1 font-body text-base leading-relaxed text-text-secondary">
                 {parseRichText(step.description)}
               </p>

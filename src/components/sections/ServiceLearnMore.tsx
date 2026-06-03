@@ -7,11 +7,12 @@ import type { Article } from '@/data/articles';
 // Gracefully renders nothing when called with null article.
 
 interface ServiceLearnMoreProps {
+  heading: string;
   article: Article;
   serviceName: string;
 }
 
-export function ServiceLearnMore({ article, serviceName }: ServiceLearnMoreProps) {
+export function ServiceLearnMore({ heading, article }: ServiceLearnMoreProps) {
   return (
     <section
       className="mt-12"
@@ -21,7 +22,7 @@ export function ServiceLearnMore({ article, serviceName }: ServiceLearnMoreProps
         id="learn-more-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        Learn More About {serviceName}
+        {heading}
       </h2>
 
       <Link

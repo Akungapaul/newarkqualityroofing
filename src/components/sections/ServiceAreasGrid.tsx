@@ -29,10 +29,11 @@ const cityById = new Map(cities.map((c) => [c.id, c]));
 // ─── Component ───────────────────────────────────────────────────────────────
 
 interface ServiceAreasGridProps {
+  heading: string;
   service: Service;
 }
 
-export function ServiceAreasGrid({ service }: ServiceAreasGridProps) {
+export function ServiceAreasGrid({ heading, service }: ServiceAreasGridProps) {
   return (
     <section
       className="bg-parchment py-12 lg:py-16"
@@ -43,7 +44,7 @@ export function ServiceAreasGrid({ service }: ServiceAreasGridProps) {
           id="service-areas-heading"
           className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
         >
-          Get {service.name} in Your Area
+          {heading}
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-center font-body text-base text-text-secondary">
           We provide professional {service.name.toLowerCase()} services across all 21 communities in Essex County, NJ.
@@ -52,9 +53,9 @@ export function ServiceAreasGrid({ service }: ServiceAreasGridProps) {
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {REGIONS.map((region) => (
             <div key={region.name}>
-              <h3 className="mb-3 font-heading text-sm font-bold uppercase tracking-widest text-copper">
+              <span className="mb-3 block font-heading text-sm font-bold uppercase tracking-widest text-copper">
                 {region.name}
-              </h3>
+              </span>
               <ul className="space-y-1.5">
                 {region.cityIds.map((cityId) => {
                   const city = cityById.get(cityId);

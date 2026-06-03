@@ -28,19 +28,19 @@ export function PriorityIndexingHub() {
     <section className="bg-white py-16 lg:py-24" aria-labelledby="priority-indexing-heading">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="max-w-3xl">
-          <p className="font-body text-sm font-bold uppercase tracking-[0.18em] text-copper-dark">Priority roofing pages</p>
+          <p className="font-body text-sm font-bold uppercase tracking-[0.18em] text-copper-dark">Popular roofing pages</p>
           <h2 id="priority-indexing-heading" className="mt-3 font-heading text-3xl font-bold text-forest sm:text-4xl">
-            Start with the Newark roofing pages Google is most likely to trust first
+            Which Newark Roofing Pages Should You Explore First?
           </h2>
           <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
-            Instead of treating every long-tail page equally, these visible crawl paths concentrate authority around the services, cities, and service-area pages already showing Search Console impressions.
+            These quick links point you straight to the roofing services, cities, and service-area pages Newark and Essex County property owners search for most.
           </p>
         </div>
 
         <div className="mt-8 rounded-xl border border-copper/30 bg-copper/5 p-6">
-          <h3 className="font-heading text-xl font-semibold text-forest">GSC priority pages to crawl first</h3>
+          <h3 className="font-heading text-xl font-semibold text-forest">Which Newark Roofing Services Are Most Requested?</h3>
           <p className="mt-2 font-body text-sm leading-relaxed text-text-secondary">
-            These internal links point homepage authority directly at the Newark money pages that already show search demand or need faster recrawling.
+            These links take you to the Newark roofing services homeowners and businesses ask about most often.
           </p>
           <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {gscPriorityLinks.map((link) => (
@@ -62,7 +62,7 @@ export function PriorityIndexingHub() {
 
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           <div className="rounded-xl border border-border bg-parchment-light p-6">
-            <h3 className="font-heading text-xl font-semibold text-forest">Core services</h3>
+            <h3 className="font-heading text-xl font-semibold text-forest">What Are Our Core Roofing Services?</h3>
             <ul className="mt-4 space-y-2">
               {priorityServices.map((service) => (
                 <li key={service.id}>
@@ -75,7 +75,7 @@ export function PriorityIndexingHub() {
           </div>
 
           <div className="rounded-xl border border-border bg-parchment-light p-6">
-            <h3 className="font-heading text-xl font-semibold text-forest">Primary cities</h3>
+            <h3 className="font-heading text-xl font-semibold text-forest">Which Essex County Cities Do We Serve First?</h3>
             <ul className="mt-4 space-y-2">
               {priorityCities.map((city) => (
                 <li key={city.id}>
@@ -88,7 +88,7 @@ export function PriorityIndexingHub() {
           </div>
 
           <div className="rounded-xl border border-border bg-parchment-light p-6">
-            <h3 className="font-heading text-xl font-semibold text-forest">Money-page combinations</h3>
+            <h3 className="font-heading text-xl font-semibold text-forest">Which Roofing Service and City Combinations Are Popular?</h3>
             <ul className="mt-4 space-y-2">
               {comboLinks.map((combo) => (
                 <li key={combo.slug}>
