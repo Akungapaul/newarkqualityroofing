@@ -1,4 +1,5 @@
 import HubScaffold, { buildHubMetadata } from '@/components/templates/HubScaffold';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 export const metadata = buildHubMetadata({
   slug: 'flat-roof-systems',
@@ -11,7 +12,7 @@ export default function FlatRoofSystemsPage() {
   return (
     <HubScaffold
       eyebrow="Flat Roof Systems"
-      heading="Who Installs and Repairs Flat Roof Systems in Newark?"
+      heading={HEADING_CONFIG.hub['flat-roof-systems']}
       intro="Newark Quality Roofing installs and services flat roof systems — TPO, EPDM, PVC, and modified bitumen — for commercial and residential buildings across Essex County."
     />
   );

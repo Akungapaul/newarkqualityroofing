@@ -4,6 +4,7 @@ import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { siteConfig } from '@/data/site-config';
 import { getServiceMenuGroups } from '@/data/nav-data';
 import { getSectionImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 /* ─── Icons ────────────────────────────────────────────────────────────────── */
 
@@ -56,7 +57,7 @@ export default function ContactPage() {
       <section className="bg-forest px-6 py-16 text-center text-text-on-dark">
         <div className="mx-auto max-w-5xl">
           <h1 className="font-heading text-4xl font-bold sm:text-5xl">
-            Contact Newark Quality Roofing
+            {HEADING_CONFIG.core.contact}
           </h1>
           <p className="mx-auto mt-3 max-w-xl font-body text-lg text-parchment-dark/90">
             Get your free roofing estimate today

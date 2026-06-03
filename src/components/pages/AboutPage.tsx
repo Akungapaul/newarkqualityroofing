@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { getTeamMemberImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 /* ─── SVG Icons ────────────────────────────────────────────────────────────── */
 
@@ -126,7 +127,7 @@ export default function AboutPage() {
       <section className="bg-forest px-6 py-20 text-center text-text-on-dark">
         <div className="mx-auto max-w-5xl">
           <h1 className="font-heading text-4xl font-bold sm:text-5xl lg:text-6xl">
-            About Newark Quality Roofing
+            {HEADING_CONFIG.core.about}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-parchment-dark/90">
             Serving Essex County with trusted, high-quality roofing for over 15 years.
