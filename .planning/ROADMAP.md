@@ -350,7 +350,7 @@ Brownfield milestone (Phases 11–17) continuing from the shipped v1.0 site. Imp
 Plans:
 **Wave 1**
 
-- [ ] 11-01-PLAN.md — Canonical src/config/site-config.ts (rating.enabled=false, env phone preserved) + re-export shim + gated buildAggregateRating (D-01)
+- [x] 11-01-PLAN.md — Canonical src/config/site-config.ts (rating.enabled=false, env phone preserved) + re-export shim + gated buildAggregateRating (D-01)
 - [ ] 11-02-PLAN.md — URL-classification generator (255/942/168/8 + zero-chain asserts) emits JSON+redirects.mjs; verdict API consumer; prebuild wiring (D-02, D-03)
 - [ ] 11-03-PLAN.md — ArticleSchema cluster enum + classify all articles + generator update; parallel KB content schema (≥10 sections + faqs[]); PageTypeSchema + slug registry extension (D-13, D-14, D-15)
 
@@ -462,7 +462,7 @@ Phases execute: 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable an
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 11. IA, Routing, Canonical Data & URL Classification | 0/5 | Planned | - |
+| 11. IA, Routing, Canonical Data & URL Classification | 1/5 | In Progress|  |
 | 12. Question-Form H-Tag & Core/Outer Template System | 0/? | Not started | - |
 | 13. Knowledge Base Hub, Clusters & 44 KB Articles | 0/? | Not started | - |
 | 14. Roofing Glossary & Entity Dictionary | 0/? | Not started | - |

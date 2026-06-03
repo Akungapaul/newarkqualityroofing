@@ -4,13 +4,13 @@ milestone: v1.1
 milestone_name: Full-Site Topical-Map Overhaul
 status: executing
 stopped_at: Completed 10-02-PLAN.md
-last_updated: "2026-06-03T05:47:58.864Z"
-last_activity: 2026-06-03 -- Phase 11 execution started
+last_updated: "2026-06-03T06:03:30.157Z"
+last_activity: "2026-06-03 -- 11-01 complete: canonical site-config + gated AggregateRating"
 progress:
   total_phases: 7
   completed_phases: 0
   total_plans: 5
-  completed_plans: 0
+  completed_plans: 1
   percent: 0
 ---
 
@@ -26,9 +26,9 @@ See: .planning/PROJECT.md (updated 2026-06-01)
 ## Current Position
 
 Phase: 11 (ia-routing-canonical-data-url-classification) — EXECUTING
-Plan: 1 of 5
-Status: Executing Phase 11
-Last activity: 2026-06-03 -- Phase 11 execution started
+Plan: 2 of 5
+Status: Executing Phase 11 (11-01 complete)
+Last activity: 2026-06-03 -- 11-01 complete: canonical site-config + gated AggregateRating
 
 ## Performance Metrics
 
@@ -91,6 +91,7 @@ Last activity: 2026-06-03 -- Phase 11 execution started
 | Phase 10 P03 | 5min | 2 tasks | 3 files |
 | Phase 10 P04 | 7min | 2 tasks | 11 files |
 | Phase 10 P02 | 9min | 2 tasks | 6 files |
+| Phase 11 P01 | 11min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -271,6 +272,9 @@ Recent decisions affecting current work:
 - [Phase 10-02]: Lazy OpenAI client initialization to allow dry-run/preview without API key
 - [Phase 10-02]: Category-grouped generation calls for organized staging subdirectories
 - [Phase 10-02]: Approve requires explicit filter (--all/--category/--id/--name) to prevent accidental mass approval
+- [11-01]: Re-export shim keeps the 9 importers on the legacy siteConfig shape (full repoint deferred to Phase 16); shim sources truthful values from the canonical config and drops fabricated literals
+- [11-01]: Unknown canonical trust values (street, ZIP, geo, license #, rating value/count, founding year, project count) exposed as empty/disabled (omit-not-placeholder) -- never rendered as placeholders or fabricated literals
+- [11-01]: AggregateRating key conditionally spread (omitted entirely while rating.enabled=false), not set to null, so the fake 5.0/500 appears nowhere in HTML/JSON-LD (D-01 RESOLVED, T-11-01 mitigated)
 
 ### Pending Todos
 
@@ -394,6 +398,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-10T06:24:12.126Z
+Last session: 2026-06-03T06:03:30.154Z
 Stopped at: Completed 10-02-PLAN.md
 Resume file: None
