@@ -380,7 +380,7 @@ Plans:
 Plans:
 **Wave 1**
 
-- [ ] 12-01-PLAN.md — Central heading-config module + hybrid build-failing audit:headings (static + rendered passes) + gated node-html-parser install (AUD-01, KB-03 static checks)
+- [x] 12-01-PLAN.md — Central heading-config module + hybrid build-failing audit:headings (static + rendered passes) + gated node-html-parser install (AUD-01, KB-03 static checks)
 
 **Wave 2** *(parallel; all depend on 12-01; disjoint file sets)*
 
@@ -479,7 +479,7 @@ Phases execute: 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable an
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 11. IA, Routing, Canonical Data & URL Classification | 5/5 | Complete   | 2026-06-03 |
-| 12. Question-Form H-Tag & Core/Outer Template System | 0/5 | Planned | - |
+| 12. Question-Form H-Tag & Core/Outer Template System | 1/5 | In Progress|  |
 | 13. Knowledge Base Hub, Clusters & 44 KB Articles | 0/? | Not started | - |
 | 14. Roofing Glossary & Entity Dictionary | 0/? | Not started | - |
 | 15. Knowledge-Graph Linking & Schema | 0/? | Not started | - |

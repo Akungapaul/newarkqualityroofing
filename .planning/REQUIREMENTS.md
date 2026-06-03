@@ -252,7 +252,7 @@
 
 ### Audit Scripts (Phases 12–17) — each fails the build on violation
 
-- [ ] **AUD-01**: `audit:headings` created _(Phase 12)_
+- [x] **AUD-01**: `audit:headings` created _(Phase 12)_
 - [ ] **AUD-02**: `audit:kb` created _(Phase 13)_
 - [ ] **AUD-03**: `audit:glossary` created _(Phase 14)_
 - [ ] **AUD-04**: `audit:links` + `audit:schema` created _(Phase 15)_
@@ -455,7 +455,7 @@
 | HTAG-06 | Phase 12 | Pending |
 | HTAG-07 | Phase 12 | Pending |
 | HTAG-08 | Phase 12 | Pending |
-| AUD-01 | Phase 12 | Pending |
+| AUD-01 | Phase 12 | Complete |
 | IA-06 | Phase 13 | Pending |
 | KB-04 | Phase 13 | Pending |
 | KB-05 | Phase 13 | Pending |

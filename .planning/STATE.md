@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Full-Site Topical-Map Overhaul
 status: executing
-stopped_at: Phase 12 context gathered
-last_updated: "2026-06-03T15:36:55.533Z"
-last_activity: 2026-06-03 -- Phase 12 planning complete
+stopped_at: Phase 12 Plan 01 complete (audit foundation)
+last_updated: "2026-06-03T16:16:15.403Z"
+last_activity: 2026-06-03
 progress:
   total_phases: 7
   completed_phases: 1
   total_plans: 10
-  completed_plans: 5
+  completed_plans: 6
   percent: 14
 ---
 
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-06-01)
 
 **Core value:** Every page converts visitors into roofing leads through above-the-fold forms and click-to-call
-**Current focus:** Phase 11 — ia-routing-canonical-data-url-classification
+**Current focus:** Phase 12 — question-form-h-tag-core-outer-template-system
 
 ## Current Position
 
-Phase: 11 (ia-routing-canonical-data-url-classification) — EXECUTING
-Plan: 5 of 5
-Status: Ready to execute
-Last activity: 2026-06-03 -- Phase 12 planning complete
+Phase: 12 (question-form-h-tag-core-outer-template-system) — EXECUTING
+Plan: 2 of 5
+Status: 12-01 complete (audit foundation; AUD-01 shipped, audit RED by design until 12-02..12-04). Ready to execute 12-02.
+Last activity: 2026-06-03 -- completed 12-01 (heading-config + hybrid build-failing audit-headings)
 
 ## Performance Metrics
 
@@ -96,6 +96,7 @@ Last activity: 2026-06-03 -- Phase 12 planning complete
 | Phase 11 P03 | 9min | 2 tasks | 6 files |
 | Phase 11 P04 | 8min | 2 tasks | 6 files |
 | Phase 11 P05 | 7min | 2 tasks | 12 files |
+| Phase 12 P01 | 18min | 3 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -295,6 +296,10 @@ Recent decisions affecting current work:
 - [Phase ?]: [11-05]: 6 flat hubs + glossary have dedicated static route files AND flat registry entries; Next 16 resolves collision-free (static segment precedence over [slug])
 - [Phase ?]: [11-05]: audit-redirects validates 168 combo targets via isKeep + 8 legacy targets via full-universe getPageDataBySlug; both assert no chains
 - [Phase ?]: [11-05]: audit-sitemap re-derives expected sitemap membership from verdict API + data layer (255 keep + core/KB/glossary in; 942 noindex + 168 redirected + 6 flat hubs + 44 nested KB articles out)
+- [Phase ?]: [12-01]: node-html-parser pinned EXACT 7.1.0 (no caret) post-checkpoint; T-12-SC supply-chain gate human-approved
+- [Phase ?]: [12-01]: audit:headings rewritten as hybrid static+rendered build-failing audit; intentionally RED (exit 1) against current code — strictness proof, green in 12-05
+- [Phase ?]: [12-01]: 252-vs-253 reconciled — audit asserts question-form+uniqueness over articles.length (252 actual), never hardcodes a count
+- [Phase ?]: [12-01]: core/hub H1s assigned (Q3); 6 hub scaffolds enforced at H1 level only (Q2); heading-config.ts is single source for templates+audit
 
 ### Pending Todos
 
@@ -418,6 +423,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-06-03T14:33:18.103Z
+Last session: 2026-06-03T16:15:54.849Z
 Stopped at: Phase 12 context gathered
-Resume file: .planning/phases/12-question-form-h-tag-core-outer-template-system/12-CONTEXT.md
+Resume file: None
