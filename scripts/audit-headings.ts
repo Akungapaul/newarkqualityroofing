@@ -1,263 +1,315 @@
-// Heading hierarchy audit script
-// Run with: npx tsx scripts/audit-headings.ts
-// Analyzes the DATA that feeds H1/H2/H3 headings in templates, not HTML output.
-// Reports issues per page type with suggested fixes.
+/**
+ * Question-Form Heading Policy Audit (AUD-01 — build-failing gate).
+ *
+ * Hybrid two-pass audit (D-08 / D-09). Fully REPLACES the old advisory
+ * location-keyword audit (the OLD policy is the OPPOSITE of this one and is
+ * discarded). Model: scripts/audit-redirects.ts (errors[]/process.exit) +
+ * scripts/audit-sitemap.ts (registry enumeration + errors.slice(0,40) cap).
+ *
+ *   STATIC PASS  (always runs): asserts the §17 policy at config/data level —
+ *     every HEADING_CONFIG string (interpolated with real service/city names)
+ *     ends in "?"; exactly one H1 per page type; the page-type H1 never equals
+ *     any of its H2 strings; every article title ends in "?" and titles are
+ *     unique via Set(titles).size === articles.length (NEVER hardcodes a count).
+ *
+ *   RENDERED PASS (runs only if .next/server/app/*.html exists; otherwise prints
+ *     a "run `next build` first" notice and skips DOM checks without failing):
+ *     parses one prerendered file per template with node-html-parser and asserts
+ *     the §17 DOM rules — exactly one <h1> ending "?" with ZERO element children
+ *     (no <br>/<span> split); every <h2>/<h3>/<h4> ends "?"; no H-tag inside
+ *     nav/footer/button/label (incl. role="navigation"/role="contentinfo"); no
+ *     skipped levels (monotonic h1→h2→h3→h4 in document order); the first <h2>
+ *     after the hero === the §17 Core string (Core-before-Outer, HTAG-07/08).
+ *     The 6 noindex hub scaffolds enforce only the DOM-safety subset (Q2).
+ *
+ * Any violation -> process.exit(1); else process.exit(0).
+ *
+ * Run with: tsx scripts/audit-headings.ts  (npm run audit:headings)
+ * The rendered pass requires a fresh build: npm run audit:headings:full
+ */
+
+import { readFileSync, existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
+import { parse, type HTMLElement } from 'node-html-parser';
 
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { combos } from '@/data/combos';
-import { comparisons } from '@/data/comparisons';
 import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
+import { isKeep, isNoindex } from '@/data/url-classification';
+import { getSlugsByType } from '@/data/slug-registry';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
-// ─── Types ──────────────────────────────────────────────────────────────────
+const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
 
-interface HeadingIssue {
-  pageType: string;
-  pageId: string;
-  level: 'H1' | 'H2' | 'H3';
-  current: string;
-  issue: string;
-  suggested?: string;
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+const isQuestion = (text: string): boolean => text.trim().endsWith('?');
+
+/** Element-node children (nodeType 1) — used for the split-H1 rule. */
+function hasElementChildren(el: HTMLElement): boolean {
+  return el.childNodes.some((n) => n.nodeType === 1);
 }
 
-// ─── Validators ─────────────────────────────────────────────────────────────
+/** Is this heading inside a nav/footer/button/label region (by tag OR role)? */
+function inForbiddenRegion(h: HTMLElement): boolean {
+  if (h.closest('nav,footer,button,label')) return true;
+  // role-based variants the repo also uses
+  let cur: HTMLElement | null = h;
+  while (cur) {
+    const role = cur.getAttribute?.('role');
+    if (role === 'navigation' || role === 'contentinfo') return true;
+    cur = cur.parentNode as HTMLElement | null;
+  }
+  return false;
+}
 
-function hasLocationRef(text: string): boolean {
-  const locationTerms = [
-    'essex county', 'newark', 'nj', 'new jersey',
-    'montclair', 'bloomfield', 'east orange', 'west orange',
-    'irvington', 'belleville', 'nutley', 'maplewood',
+// ════════════════════════════════════════════════════════════════════════════
+//  STATIC PASS
+// ════════════════════════════════════════════════════════════════════════════
+
+function staticPass(errors: string[]): void {
+  const H = HEADING_CONFIG;
+
+  // Sample entity names for the question-form check (interpolated from real data).
+  const sampleService = services[0]?.name ?? 'Roof Repair';
+  const sampleCity = cities[0]?.name ?? 'Newark';
+
+  // ── 1. Every config heading (interpolated) ends in "?" ───────────────────────
+  const configStrings: Array<[string, string]> = [
+    ['home.h1', H.home.h1],
+    ['home.coreH2', H.home.coreH2],
+    ...H.home.coreH3s.map((s, i) => [`home.coreH3[${i}]`, s] as [string, string]),
+    ...H.home.outerH2s.map((s, i) => [`home.outerH2[${i}]`, s] as [string, string]),
+    ['service.h1', H.service.h1(sampleService)],
+    ['service.coreH2', H.service.coreH2(sampleService)],
+    ...H.service.h2s(sampleService).map((s, i) => [`service.h2[${i}]`, s] as [string, string]),
+    ['city.h1', H.city.h1(sampleCity)],
+    ['city.coreH2', H.city.coreH2(sampleCity)],
+    ['city.permitsH2', H.city.permitsH2(sampleCity)],
+    ['city.materialsH2', H.city.materialsH2(sampleCity)],
+    ...H.city.h2s(sampleCity).map((s, i) => [`city.h2[${i}]`, s] as [string, string]),
+    ['combo.h1', H.combo.h1(sampleService, sampleCity)],
+    ['combo.coreH2', H.combo.coreH2(sampleService, sampleCity)],
+    ...H.combo.h2s(sampleService, sampleCity).map((s, i) => [`combo.h2[${i}]`, s] as [string, string]),
+    ...Object.entries(H.core).map(([k, v]) => [`core.${k}.h1`, v] as [string, string]),
+    ...Object.entries(H.hub).map(([k, v]) => [`hub.${k}.h1`, v] as [string, string]),
   ];
-  const lower = text.toLowerCase();
-  return locationTerms.some((term) => lower.includes(term));
-}
-
-function auditServicePages(): HeadingIssue[] {
-  const issues: HeadingIssue[] = [];
-
-  for (const service of services) {
-    // H1 is the service metaTitle (rendered by ServiceHero)
-    const h1 = service.metaTitle;
-
-    // Check H1 contains service name
-    if (!h1.toLowerCase().includes(service.name.toLowerCase().split(' ')[0])) {
-      issues.push({
-        pageType: 'service',
-        pageId: service.id,
-        level: 'H1',
-        current: h1,
-        issue: 'H1 missing primary service keyword',
-        suggested: `${service.name} in Essex County, NJ`,
-      });
-    }
-
-    // Check H1 contains location
-    if (!hasLocationRef(h1)) {
-      issues.push({
-        pageType: 'service',
-        pageId: service.id,
-        level: 'H1',
-        current: h1,
-        issue: 'H1 missing location reference (NJ/Essex County)',
-        suggested: `${h1} | Essex County, NJ`,
-      });
-    }
+  for (const [name, str] of configStrings) {
+    if (!isQuestion(str)) errors.push(`STATIC config heading not a question (${name}): "${str}"`);
   }
 
-  return issues;
-}
-
-function auditCityPages(): HeadingIssue[] {
-  const issues: HeadingIssue[] = [];
-
-  for (const city of cities) {
-    // H1 pattern: "Roofing Services in {city.name}, NJ" (from CityHero)
-    const expectedH1Pattern = `roofing services in ${city.name.toLowerCase()}, nj`;
-    // The actual H1 comes from city content metaTitle — check it matches expected pattern
-    // For audit purposes, we flag if the metaTitle doesn't contain city name + "NJ"
-    if (!city.name) continue;
-
-    const h1 = `Roofing Services in ${city.name}, NJ`; // Template-generated H1
-    if (!h1.toLowerCase().includes(city.name.toLowerCase())) {
-      issues.push({
-        pageType: 'city',
-        pageId: city.id,
-        level: 'H1',
-        current: h1,
-        issue: 'H1 missing city name',
-        suggested: expectedH1Pattern,
-      });
-    }
-  }
-
-  return issues;
-}
-
-function auditComboPages(): HeadingIssue[] {
-  const issues: HeadingIssue[] = [];
-
-  for (const combo of combos) {
-    const service = services.find((s) => s.id === combo.serviceId);
-    const city = cities.find((c) => c.id === combo.cityId);
-    if (!service || !city) continue;
-
-    // H1 pattern: "{Service Name} in {City Name}, NJ" (from ComboHero)
-    const expectedH1 = `${service.name} in ${city.name}, NJ`;
-    const h1 = combo.metaTitle;
-
-    // Check metaTitle contains service name
-    if (!h1.toLowerCase().includes(service.name.toLowerCase().split(' ')[0])) {
-      issues.push({
-        pageType: 'combo',
-        pageId: combo.slug,
-        level: 'H1',
-        current: h1,
-        issue: 'metaTitle missing service keyword',
-        suggested: expectedH1,
-      });
-    }
-
-    // Check metaTitle contains city name
-    if (!h1.toLowerCase().includes(city.name.toLowerCase())) {
-      issues.push({
-        pageType: 'combo',
-        pageId: combo.slug,
-        level: 'H1',
-        current: h1,
-        issue: 'metaTitle missing city name',
-        suggested: expectedH1,
-      });
-    }
-  }
-
-  return issues;
-}
-
-function auditComparisonPages(): HeadingIssue[] {
-  const issues: HeadingIssue[] = [];
-
-  for (const comparison of comparisons) {
-    const h1 = comparison.metaTitle;
-
-    if (comparison.category === 'material-vs-material' || comparison.category === 'service-vs-service') {
-      // A-vs-B comparisons should contain both items
-      if (!h1.toLowerCase().includes('vs') && !h1.toLowerCase().includes('versus')) {
-        issues.push({
-          pageType: 'comparison',
-          pageId: comparison.id,
-          level: 'H1',
-          current: h1,
-          issue: 'A-vs-B comparison H1 missing "vs" or item names',
-        });
-      }
-    }
-  }
-
-  return issues;
-}
-
-function auditArticlePages(): HeadingIssue[] {
-  const issues: HeadingIssue[] = [];
-
-  for (const article of articles) {
-    const h1 = article.metaTitle;
-
-    // Articles should contain a keyword + ideally location
-    if (h1.length < 10) {
-      issues.push({
-        pageType: 'article',
-        pageId: article.id,
-        level: 'H1',
-        current: h1,
-        issue: 'Article metaTitle too short',
-      });
-    }
-  }
-
-  return issues;
-}
-
-function auditCorePages(): HeadingIssue[] {
-  const issues: HeadingIssue[] = [];
-
-  for (const page of corePages) {
-    const h1 = page.metaTitle;
-
-    if (!h1 || h1.length < 5) {
-      issues.push({
-        pageType: 'core',
-        pageId: page.id,
-        level: 'H1',
-        current: h1 ?? '(empty)',
-        issue: 'Core page missing or too-short metaTitle',
-      });
-    }
-  }
-
-  return issues;
-}
-
-// ─── Main ───────────────────────────────────────────────────────────────────
-
-function main() {
-  console.log('=== Heading Hierarchy Audit ===\n');
-
-  const allIssues: HeadingIssue[] = [
-    ...auditServicePages(),
-    ...auditCityPages(),
-    ...auditComboPages(),
-    ...auditComparisonPages(),
-    ...auditArticlePages(),
-    ...auditCorePages(),
+  // ── 2. Exactly one H1 per page type + H1 never equals any of its own H2s ─────
+  const h1VsH2: Array<[string, string, string[]]> = [
+    ['home', H.home.h1, [H.home.coreH2, ...H.home.outerH2s]],
+    ['service', H.service.h1(sampleService), H.service.h2s(sampleService)],
+    ['city', H.city.h1(sampleCity), H.city.h2s(sampleCity)],
+    ['combo', H.combo.h1(sampleService, sampleCity), H.combo.h2s(sampleService, sampleCity)],
   ];
-
-  // Summary
-  const byType = new Map<string, HeadingIssue[]>();
-  for (const issue of allIssues) {
-    const existing = byType.get(issue.pageType) ?? [];
-    existing.push(issue);
-    byType.set(issue.pageType, existing);
+  for (const [type, h1, h2s] of h1VsH2) {
+    if (h2s.includes(h1)) errors.push(`STATIC ${type}: H1 is repeated as an H2 → "${h1}"`);
   }
 
-  console.log('SUMMARY');
-  console.log('-------');
-  console.log(`Total pages checked: ${services.length + cities.length + combos.length + comparisons.length + articles.length + corePages.length}`);
-  console.log(`Total issues found: ${allIssues.length}`);
-  console.log('');
-
-  for (const [type, issues] of byType) {
-    console.log(`  ${type}: ${issues.length} issues`);
-  }
-
-  if (allIssues.length === 0) {
-    console.log('\nNo heading issues found. All H1 patterns look correct.');
-    return;
-  }
-
-  // Detail report by page type
-  console.log('\n\nDETAILED REPORT');
-  console.log('===============\n');
-
-  for (const [type, issues] of byType) {
-    console.log(`\n## ${type.toUpperCase()} PAGES (${issues.length} issues)`);
-    console.log('-'.repeat(50));
-
-    for (const issue of issues.slice(0, 20)) {
-      console.log(`  Page: ${issue.pageId}`);
-      console.log(`  Level: ${issue.level}`);
-      console.log(`  Current: "${issue.current}"`);
-      console.log(`  Issue: ${issue.issue}`);
-      if (issue.suggested) {
-        console.log(`  Suggested: "${issue.suggested}"`);
-      }
-      console.log('');
-    }
-
-    if (issues.length > 20) {
-      console.log(`  ... and ${issues.length - 20} more`);
+  // ── 3. Article titles: every title ends "?" + uniqueness via Set === length ──
+  //     NEVER hardcode 253 (actual count is 252). Assert against articles.length.
+  const titles = articles.map((a) => a.title);
+  console.log(`Static pass: auditing ${articles.length} article titles (count NOT hardcoded).`);
+  for (const a of articles) {
+    if (!isQuestion(a.title)) {
+      errors.push(`STATIC article ${a.id}: title not a question → "${a.title}"`);
     }
   }
+  const uniqueTitles = new Set(titles);
+  if (uniqueTitles.size !== articles.length) {
+    errors.push(
+      `STATIC article titles not unique: ${uniqueTitles.size} unique of ${articles.length} total (${articles.length - uniqueTitles.size} duplicate(s))`,
+    );
+    // Surface the duplicates for actionability.
+    const seen = new Set<string>();
+    for (const t of titles) {
+      if (seen.has(t)) errors.push(`STATIC duplicate article title: "${t}"`);
+      seen.add(t);
+    }
+  }
+
+  // ── 4. Registry sanity: in-scope page-set is enumerated from the registries ──
+  //     (no hardcoded slug lists — mirrors the Phase 11 audits).
+  const serviceSlugs = getSlugsByType('service').length;
+  const citySlugs = getSlugsByType('city').length;
+  const liveCombos = combos.filter((c) => isKeep(c.slug) || isNoindex(c.slug)).length;
+  console.log(
+    `Static pass: in-scope registries — ${serviceSlugs} services, ${citySlugs} cities, ${liveCombos} live combos, ${corePages.length} core pages.`,
+  );
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+//  RENDERED PASS
+// ════════════════════════════════════════════════════════════════════════════
+
+type SampleKind = 'full' | 'scaffold';
+
+interface RenderedSample {
+  label: string;
+  file: string; // relative to .next/server/app
+  coreH2?: string; // expected first <h2> after hero (full templates only)
+  kind: SampleKind;
+}
+
+const H = HEADING_CONFIG;
+
+/** One representative prerendered file per template (Pattern 3). */
+function buildSampleSet(): RenderedSample[] {
+  // Resolve the names used by the representative pages so the expected Core H2
+  // strings match what the template renders (interpolated from real data).
+  const repairName = services.find((s) => s.slug === 'roof-repair')?.name ?? 'Roof Repair';
+  const newarkName = cities.find((c) => c.slug === 'newark')?.name ?? 'Newark';
+  const keepComboService = services.find((s) => s.slug === 'asphalt-shingle-roofing')?.name ?? 'Asphalt Shingle Roofing';
+  const keepComboCity = cities.find((c) => c.slug === 'belleville')?.name ?? 'Belleville';
+
+  return [
+    { label: 'home', file: 'index.html', coreH2: H.home.coreH2, kind: 'full' },
+    { label: 'service (roof-repair)', file: 'roof-repair.html', coreH2: H.service.coreH2(repairName), kind: 'full' },
+    { label: 'city (newark)', file: 'roofing-in-newark-nj.html', coreH2: H.city.coreH2(newarkName), kind: 'full' },
+    {
+      label: 'keep combo (roof-repair/newark)',
+      file: 'roof-repair-newark-nj.html',
+      coreH2: H.combo.coreH2(repairName, newarkName),
+      kind: 'full',
+    },
+    {
+      label: 'noindex combo (asphalt-shingle-roofing/belleville)',
+      file: 'asphalt-shingle-roofing-belleville-nj.html',
+      coreH2: H.combo.coreH2(keepComboService, keepComboCity),
+      kind: 'full',
+    },
+    // Content-bearing core/hub pages — full DOM rules, Core H2 not asserted
+    // (their first H2 is page-specific, not in the §4.x trees).
+    { label: 'core (roofing-services)', file: 'roofing-services.html', kind: 'full' },
+    { label: 'core (service-areas)', file: 'service-areas.html', kind: 'full' },
+    { label: 'core (contact)', file: 'contact.html', kind: 'full' },
+    { label: 'core (about)', file: 'about.html', kind: 'full' },
+    // 6 noindex hub scaffolds — DOM-safety subset only (Q2): one question H1,
+    // no split, no nav/footer H-tags, no skipped levels. No full-tree assertion.
+    { label: 'hub (residential-roofing)', file: 'residential-roofing.html', kind: 'scaffold' },
+    { label: 'hub (commercial-roofing)', file: 'commercial-roofing.html', kind: 'scaffold' },
+    { label: 'hub (flat-roof-systems)', file: 'flat-roof-systems.html', kind: 'scaffold' },
+    { label: 'hub (roofing-materials)', file: 'roofing-materials.html', kind: 'scaffold' },
+    { label: 'hub (free-roofing-estimate)', file: 'free-roofing-estimate.html', kind: 'scaffold' },
+    { label: 'hub (our-roofing-process)', file: 'our-roofing-process.html', kind: 'scaffold' },
+  ];
+}
+
+function auditRenderedFile(sample: RenderedSample, errors: string[]): void {
+  const abs = join(PRERENDER_DIR, sample.file);
+  const root = parse(readFileSync(abs, 'utf8'));
+  const tag = `[${sample.label}]`;
+
+  const h1s = root.querySelectorAll('h1');
+  // ── exactly one <h1> ──────────────────────────────────────────────────────
+  if (h1s.length !== 1) {
+    errors.push(`${tag} expected exactly 1 <h1>, found ${h1s.length}`);
+  }
+  const h1 = h1s[0];
+  if (h1) {
+    // ── H1 is a question ──────────────────────────────────────────────────────
+    if (!isQuestion(h1.text)) errors.push(`${tag} H1 not a question → "${h1.text.trim()}"`);
+    // ── H1 has zero element children (no <br>/<span> split) ───────────────────
+    if (hasElementChildren(h1)) {
+      errors.push(`${tag} H1 has element children (<br>/<span> split): "${h1.text.trim()}"`);
+    }
+  }
+
+  // ── all h1..h4 outside nav/footer/button/label; questions; level order ──────
+  const headings = root.querySelectorAll('h1,h2,h3,h4');
+  let prevLevel = 0;
+  for (const h of headings) {
+    const text = h.text.trim();
+    if (inForbiddenRegion(h)) {
+      errors.push(`${tag} forbidden <${h.tagName.toLowerCase()}> inside nav/footer/button/label: "${text}"`);
+      continue; // do not let a nav heading drive level-order
+    }
+    if (!isQuestion(text)) {
+      errors.push(`${tag} <${h.tagName.toLowerCase()}> not a question → "${text}"`);
+    }
+    const level = Number(h.tagName[1]);
+    if (prevLevel && level > prevLevel + 1) {
+      errors.push(`${tag} skipped level: h${prevLevel} → h${level} ("${text}")`);
+    }
+    prevLevel = level;
+  }
+
+  // ── first <h2> after the hero === §17 Core string (full templates only) ─────
+  if (sample.kind === 'full' && sample.coreH2) {
+    const firstH2 = root.querySelectorAll('h2').find((h) => !inForbiddenRegion(h));
+    const firstH2Text = firstH2?.text.trim() ?? '(none)';
+    if (firstH2Text !== sample.coreH2) {
+      errors.push(
+        `${tag} first content <h2> is not the §17 Core string. Expected "${sample.coreH2}", got "${firstH2Text}"`,
+      );
+    }
+  }
+}
+
+function renderedPass(errors: string[]): boolean {
+  const samples = buildSampleSet();
+  const missing = samples.filter((s) => !existsSync(join(PRERENDER_DIR, s.file)));
+
+  if (!existsSync(PRERENDER_DIR) || missing.length === samples.length) {
+    console.log();
+    console.log('NOTICE: No prerendered HTML found in .next/server/app — skipping the rendered (DOM) pass.');
+    console.log('        Run `next build` first (or `npm run audit:headings:full`) to enforce DOM rules.');
+    return false;
+  }
+
+  if (missing.length > 0) {
+    // Some samples present, some not — report the gaps but audit what exists.
+    for (const m of missing) {
+      errors.push(`RENDERED sample missing (run a fresh build): ${m.file} (${m.label})`);
+    }
+  }
+
+  for (const s of samples) {
+    if (existsSync(join(PRERENDER_DIR, s.file))) auditRenderedFile(s, errors);
+  }
+  return true;
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+//  MAIN
+// ════════════════════════════════════════════════════════════════════════════
+
+function main(): void {
+  console.log('='.repeat(72));
+  console.log('  HEADING POLICY VALIDATION (question-form §17 — build-failing)');
+  console.log('='.repeat(72));
+  console.log();
+
+  const errors: string[] = [];
+
+  staticPass(errors);
+  const ranRendered = renderedPass(errors);
+
+  console.log();
+  console.log(`Rendered pass: ${ranRendered ? 'ran' : 'SKIPPED (no .next HTML)'}.`);
+  console.log(`${errors.length} violation(s) found.`);
+  console.log();
+
+  if (errors.length > 0) {
+    console.log('-'.repeat(72));
+    console.log('  VIOLATIONS:');
+    console.log('-'.repeat(72));
+    for (const e of errors.slice(0, 40)) console.log(`  - ${e}`);
+    if (errors.length > 40) console.log(`  ...and ${errors.length - 40} more`);
+    console.log();
+    process.exit(1);
+  }
+
+  console.log('Heading policy valid: question-form H1/H2/H3/H4, Core-before-Outer,');
+  console.log('no nav/footer H-tags, no skipped levels, article titles unique questions. PASS');
+  process.exit(0);
 }
 
 main();
