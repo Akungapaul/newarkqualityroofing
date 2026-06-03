@@ -102,7 +102,6 @@ export function TrustBar({ variant = 'full' }: TrustBarProps) {
         <div className="grid grid-cols-2 gap-6 sm:gap-8 lg:flex lg:items-center lg:justify-between">
           {siteConfig.trustStats.map((stat, index) => {
             const IconComponent = iconMap[stat.icon];
-            const isNumeric = stat.numericValue !== null;
 
             return (
               <AnimateIn key={stat.label} delay={index * 0.1}>
@@ -113,7 +112,7 @@ export function TrustBar({ variant = 'full' }: TrustBarProps) {
                       isCompact ? 'text-2xl' : 'text-3xl'
                     }`}
                   >
-                    {isNumeric ? (
+                    {stat.numericValue !== null ? (
                       <CountUp
                         target={stat.numericValue}
                         suffix={stat.suffix}
