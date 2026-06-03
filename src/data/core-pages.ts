@@ -20,16 +20,22 @@ const rawCorePages: CorePage[] = [
     metaDescription: 'Contact Newark Quality Roofing for a free estimate. Call, email, or visit our Newark NJ office for all your roofing needs.',
   },
   {
+    // D-07 hub migration: canonical hub now lives at /roofing-services; old
+    // /services 301s here (next.config.ts). Page id kept so CoreTemplate keeps
+    // rendering ServicesHubPage; sitewide internal-link repointing is Phase 15.
     id: 'services',
     name: 'Our Services',
-    slug: 'services',
+    slug: 'roofing-services',
     metaTitle: 'Roofing Services | Newark Quality Roofing',
     metaDescription: 'Complete roofing services in Newark and Essex County NJ. Residential, commercial, repair, replacement, and specialty roofing.',
   },
   {
+    // D-07 hub migration: canonical hub now lives at /service-areas; old
+    // /locations 301s here (next.config.ts). Page id kept so CoreTemplate keeps
+    // rendering LocationsHubPage; sitewide internal-link repointing is Phase 15.
     id: 'locations',
     name: 'Service Areas',
-    slug: 'locations',
+    slug: 'service-areas',
     metaTitle: 'Service Areas | Newark Quality Roofing NJ',
     metaDescription: 'Newark Quality Roofing serves all 21 Essex County towns. Find roofing services near you in Newark, Montclair, and beyond.',
   },
@@ -61,13 +67,11 @@ const rawCorePages: CorePage[] = [
     metaTitle: 'Terms of Service | Newark Quality Roofing',
     metaDescription: 'Terms of service for Newark Quality Roofing. Service agreements, warranties, and policies for roofing projects in Essex County NJ.',
   },
-  {
-    id: 'resources',
-    name: 'Roofing Resources',
-    slug: 'resources',
-    metaTitle: 'Roofing Resources & Guides | Newark Quality Roofing',
-    metaDescription: 'Expert roofing guides, cost breakdowns, and decision-making resources for Essex County NJ homeowners and businesses.',
-  },
+  // D-07 hub migration: the former /resources core page is RETIRED. /resources now
+  // 301s to /roofing-knowledge-base (the KB catch-all hub built in Plan 05 — NOT a
+  // renamed core page). The entry is removed so /resources no longer serves a core
+  // page; the CoreTemplate 'resources' case + ResourcesPage become dead code (Phase 16
+  // dead-component cleanup). next.config.ts owns the 301.
 ];
 
 // ─── Runtime Validation ──────────────────────────────────────────────────────
