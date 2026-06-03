@@ -21,14 +21,14 @@ export function ComboRelatedLinks({
         id="combo-related-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        Related Services & Locations
+        What Related Roofing Services and Locations Should You Consider?
       </h2>
 
       {/* 1. Nearby Cities -- card grid */}
       {nearbyCities.length > 0 && (
         <div>
           <h3 className="font-heading text-lg font-bold text-forest">
-            Nearby Cities
+            Where Else Do We Provide Roofing Services Nearby?
           </h3>
           <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {nearbyCities.map((link, index) => (
@@ -53,14 +53,14 @@ export function ComboRelatedLinks({
       {relatedServices.length > 0 && (
         <div>
           <h3 className="font-heading text-lg font-bold text-forest">
-            Other Services in {cityName}
+            What Other Roofing Services Are Available in {cityName}?
           </h3>
           <div className="mt-4 space-y-4">
             {relatedServices.map((group) => (
               <div key={group.category}>
-                <h4 className="font-body text-sm font-semibold uppercase tracking-wider text-text-secondary">
+                <span className="block font-body text-sm font-semibold uppercase tracking-wider text-text-secondary">
                   {group.categoryLabel}
-                </h4>
+                </span>
                 <ul className="mt-2 space-y-1">
                   {group.services.map((svc, svcIndex) => (
                     <li key={svc.slug}>
@@ -82,7 +82,7 @@ export function ComboRelatedLinks({
       {/* 3. Parent Pages */}
       <div>
         <h3 className="font-heading text-lg font-bold text-forest">
-          Parent Pages
+          Where Can You Explore the Full Service and Location?
         </h3>
         <ul className="mt-3 space-y-2">
           <li>

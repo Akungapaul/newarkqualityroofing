@@ -4,10 +4,13 @@ import { getSectionImages } from '@/data/image-manifest';
 
 interface ComboChallengesProps {
   paragraphs: string[];
-  cityName: string;
+  /** Retained for call-site compatibility; the H2 now comes from `heading`. */
+  cityName?: string;
+  /** §4.4 H2 ("What [Service] Problems Are Common in [City]?") from heading-config. */
+  heading: string;
 }
 
-export function ComboChallenges({ paragraphs, cityName }: ComboChallengesProps) {
+export function ComboChallenges({ paragraphs, heading }: ComboChallengesProps) {
   const challengeImages = getSectionImages('section-challenges');
 
   return (
@@ -16,7 +19,7 @@ export function ComboChallenges({ paragraphs, cityName }: ComboChallengesProps) 
         id="combo-challenges-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        Local Challenges in {cityName}
+        {heading}
       </h2>
 
       {/* Challenge images grid */}

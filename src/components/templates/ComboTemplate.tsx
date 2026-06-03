@@ -33,6 +33,7 @@ import { generateComboSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getServiceHeroImage } from '@/data/image-manifest';
 import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -89,13 +90,27 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
       {/* Placed before the 2-column layout since ComboChallenges is inside it */}
 
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
-        {/* Main content column -- child components render their own <section> with aria-labelledby */}
+        {/* Main content column -- §4.4 Core-before-Outer order.
+            The FIRST content H2 after the hero MUST be the §4.4 Core string
+            (HEADING_CONFIG.combo.coreH2), rendered by ComboOverview.
+            ContentAuthorityBlock is moved OUT of the Core band (D-06/HTAG-07). */}
         <article className="space-y-12 pb-16 lg:col-span-2">
-          <AnimateIn><ComboOverview paragraphs={content.overview} image={comboOverviewImage} /></AnimateIn>
+          {/* §4.4 Core: "What [Service] Is Available in [City]?" -- FIRST */}
+          <AnimateIn>
+            <ComboOverview
+              paragraphs={content.overview}
+              heading={HEADING_CONFIG.combo.coreH2(service.name, city.name)}
+              image={comboOverviewImage}
+            />
+          </AnimateIn>
 
-          <AnimateIn><ComboChallenges paragraphs={content.challenges} cityName={city.name} /></AnimateIn>
-
-          <AnimateIn><ContentAuthorityBlock service={service} city={city} pageType="combo" /></AnimateIn>
+          {/* §4.4 "What [Service] Problems Are Common in [City]?" */}
+          <AnimateIn>
+            <ComboChallenges
+              paragraphs={content.challenges}
+              heading={`What ${service.name} Problems Are Common in ${city.name}?`}
+            />
+          </AnimateIn>
 
           {/* Mid-content CTA -- natural break after problem, before solution */}
           <AnimateIn>
@@ -117,9 +132,15 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             </div>
           </AnimateIn>
 
-          <AnimateIn><ComboProcess steps={content.process} serviceName={service.name} /></AnimateIn>
+          {/* §4.4 "What Is Our Process for [Service] in [City]?" */}
+          <AnimateIn>
+            <ComboProcess
+              steps={content.process}
+              heading={`What Is Our Process for ${service.name} in ${city.name}?`}
+            />
+          </AnimateIn>
 
-          {/* Pricing section -- after process */}
+          {/* §4.4 "How Much Does [Service] Cost in [City]?" */}
           {content.pricing && (
             <AnimateIn>
               <ComboPricing
@@ -130,13 +151,12 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             </AnimateIn>
           )}
 
-          {/* Why Choose Us -- before FAQs */}
+          {/* §4.4 "Why Choose Our Roofing Company for [Service] in [City]?" */}
           {content.whyChooseUs && content.whyChooseUs.length > 0 && (
             <AnimateIn><ComboWhyChooseUs reasons={content.whyChooseUs} serviceName={service.name} cityName={city.name} /></AnimateIn>
           )}
 
-          <AnimateIn><ComboFaqs faqs={content.faqs} /></AnimateIn>
-
+          {/* §4.4 "What Other Roofing Services..." + "Where Else Do We Provide..." */}
           <AnimateIn>
             <ComboRelatedLinks
               nearbyCities={nearbyCities}
@@ -145,6 +165,13 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
               cityName={city.name}
             />
           </AnimateIn>
+
+          {/* §4.4 "What Questions Do Customers Ask About This Roofing Service?" */}
+          <AnimateIn><ComboFaqs faqs={content.faqs} /></AnimateIn>
+
+          {/* Content authority block -- moved OUT of the Core band (D-06/HTAG-07).
+              Component kept; full removal is Phase 16. */}
+          <AnimateIn><ContentAuthorityBlock service={service} city={city} pageType="combo" /></AnimateIn>
         </article>
 
         {/* Sticky sidebar */}
@@ -216,8 +243,10 @@ function ComboPlaceholder({
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         <div className="space-y-8 pb-16 lg:col-span-2">
           <div className="rounded-sm border border-border bg-white p-8">
+            {/* §4.4 Core question -- the 942 noindex combos render this placeholder
+                path, so its first H2 must be the Core string (HTAG-06/08). */}
             <h2 className="font-heading text-2xl font-bold text-forest">
-              {service.name} in {city.name}, NJ
+              {HEADING_CONFIG.combo.coreH2(service.name, city.name)}
             </h2>
             <p className="mt-4 font-body text-base leading-relaxed text-text-secondary">
               Newark Quality Roofing provides professional {service.name.toLowerCase()} services
