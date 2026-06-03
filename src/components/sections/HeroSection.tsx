@@ -7,6 +7,7 @@ import { AnimateIn } from '@/components/animations/AnimateIn';
 import { HeroFormReveal } from '@/components/animations/HeroFormReveal';
 import { getHomepageImage } from '@/data/image-manifest';
 import { URGENCY } from '@/data/content-constants';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 export function HeroSection() {
   const serviceGroups = getServiceMenuGroups();
@@ -72,12 +73,11 @@ export function HeroSection() {
               id="hero-heading"
               className="text-balance font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
             >
-              Roofing Contractor in Newark, NJ
-              <br />
-              <span className="text-copper">
-                Same-Day Estimates · 24/7 Emergency Crews
-              </span>
+              {HEADING_CONFIG.home.h1}
             </h1>
+            <p className="mt-4 font-heading text-lg font-semibold text-copper sm:text-xl">
+              Same-Day Estimates · 24/7 Emergency Crews
+            </p>
           </AnimateIn>
           <AnimateIn delay={0.6}>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">

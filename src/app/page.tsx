@@ -34,6 +34,7 @@ import {
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { getHomepageImage, getOGImage } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 // Per-page OG image for homepage (falls back to shared default when manifest is empty)
 const homepageOg = getOGImage('homepage', 'homepage');
@@ -168,12 +169,20 @@ export default function Home() {
       {homepageArticles.length > 0 && <HomepageGuides articles={homepageArticles} />}
 
       {/* Embeds: Google Maps + YouTube */}
-      <section className="bg-parchment py-12 lg:py-16">
-        <div className="mx-auto grid max-w-7xl gap-8 px-6 md:grid-cols-2 lg:px-8">
+      <section className="bg-parchment py-12 lg:py-16" aria-labelledby="embeds-heading">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <h2
+            id="embeds-heading"
+            className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
+          >
+            Where Can You Find Us and See Our Roofing Work?
+          </h2>
+        </div>
+        <div className="mx-auto mt-8 grid max-w-7xl gap-8 px-6 md:grid-cols-2 lg:px-8">
           <div>
-            <p className="mb-4 font-heading text-xl font-semibold text-forest">
-              Find Us in Newark, NJ
-            </p>
+            <h3 className="mb-4 font-heading text-xl font-semibold text-forest">
+              Where Are We Located in Newark, NJ?
+            </h3>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48421.58762696192!2d-74.19967!3d40.73566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2547cb4c18891%3A0x6ec8c91e844010e!2sNewark%2C%20NJ!5e0!3m2!1sen!2sus!4v1700000000000"
               width="100%"
@@ -187,9 +196,9 @@ export default function Home() {
             />
           </div>
           <div>
-            <p className="mb-4 font-heading text-xl font-semibold text-forest">
-              See Our Work
-            </p>
+            <h3 className="mb-4 font-heading text-xl font-semibold text-forest">
+              What Does Our Roofing Work Look Like?
+            </h3>
             <iframe
               src="https://www.youtube.com/embed/dQw4w9WgXcQ"
               width="100%"
@@ -211,12 +220,12 @@ export default function Home() {
         aria-labelledby="cta-heading"
       >
         <div className="mx-auto max-w-3xl px-6 lg:px-8">
-          <p
+          <h2
             id="cta-heading"
             className="font-heading text-3xl font-bold text-text-on-copper sm:text-4xl"
           >
-            Contact Us for Your Free Estimate
-          </p>
+            {HEADING_CONFIG.home.outerH2s[5]}
+          </h2>
           <p className="mx-auto mt-4 max-w-xl font-body text-lg text-white/80">
             Get a no-obligation quote from our <em>experienced</em> roofing contractors. We serve
             all of Essex County with licensed, insured professionals.{' '}
