@@ -24,12 +24,23 @@ import CoreTemplate from '@/components/templates/CoreTemplate';
 
 // ─── SSG: Generate all static pages at build time ────────────────────────────
 
+// Slug types served by their OWN dedicated app/ route segments (the glossary and
+// the 6 hub scaffolds), not by this flat [slug] dispatcher — whose switch has no
+// case for them. Excluding them here stops the dynamic route from double-claiming
+// those paths and shipping a dead notFound() fall-through if a dedicated route is
+// ever removed/changed (CR-01). They stay registered for getAllSlugs/validate-flat-urls.
+const DEDICATED_ROUTE_TYPES = new Set(['hub', 'glossary']);
+
 export async function generateStaticParams() {
   // D-05: redirected combo slugs (168) are NOT prerendered — next.config.ts 301s
   // them before the route resolves. Excluding them here keeps the prerender set
   // and the sitemap aligned (redirected slugs appear in neither).
   return getAllSlugs()
-    .filter((slug) => !isRedirect(slug))
+    .filter((slug) => {
+      if (isRedirect(slug)) return false;
+      const entry = getPageDataBySlug(slug);
+      return entry !== undefined && !DEDICATED_ROUTE_TYPES.has(entry.type);
+    })
     .map((slug) => ({ slug }));
 }
 
