@@ -8,10 +8,28 @@ import { articles } from '@/data/articles';
 import { corePages } from '@/data/core-pages';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 import { getComboChangeFrequency, getComboSitemapPriority, isPriorityCity, isPriorityService } from '@/data/seo-priority';
+import { isKeep } from '@/data/url-classification';
 
 // ─── Sitemap IDs ────────────────────────────────────────────────────────────
 
-const SITEMAP_IDS = ['core', 'services', 'cities', 'combos', 'comparisons', 'articles'] as const;
+const SITEMAP_IDS = ['core', 'services', 'cities', 'combos', 'comparisons', 'articles', 'knowledge-base'] as const;
+
+/**
+ * The 6 KB cluster hub slugs (D-14 taxonomy). The KB index, these cluster hubs,
+ * and the glossary belong in the sitemap (they are the permanent topical-map IA;
+ * content lands Phase 13/14). The 6 FLAT hub scaffolds (residential-roofing,
+ * commercial-roofing, flat-roof-systems, roofing-materials, free-roofing-estimate,
+ * our-roofing-process) and the 44 nested KB articles are deliberately NOT emitted
+ * here (D-06; audit:sitemap in Plan 05 enforces this exclusion).
+ */
+const KB_CLUSTER_SLUGS = [
+  'roof-problems',
+  'roof-components',
+  'roofing-materials',
+  'roofing-process',
+  'roofing-costs',
+  'local-roofing-knowledge',
+] as const;
 
 export async function generateSitemaps() {
   return SITEMAP_IDS.map((id) => ({ id }));
@@ -62,16 +80,21 @@ export default async function sitemap({
       }));
 
     case 'combos':
-      return combos.map((combo) => {
-        const service = services.find((item) => item.id === combo.serviceId);
-        const city = cities.find((item) => item.id === combo.cityId);
-        return {
-          url: `${BASE_URL}/${combo.slug}`,
-          lastModified: NOW,
-          changeFrequency: service && city ? getComboChangeFrequency(service, city) : 'yearly' as const,
-          priority: service && city ? getComboSitemapPriority(service, city) : 0.35,
-        };
-      });
+      // D-06: only the 255 KEEP combos are indexable + in the sitemap. The 942
+      // noindex combos (live but robots:noindex,follow) and the 168 redirected
+      // combos (301 before routing) are excluded.
+      return combos
+        .filter((combo) => isKeep(combo.slug))
+        .map((combo) => {
+          const service = services.find((item) => item.id === combo.serviceId);
+          const city = cities.find((item) => item.id === combo.cityId);
+          return {
+            url: `${BASE_URL}/${combo.slug}`,
+            lastModified: NOW,
+            changeFrequency: service && city ? getComboChangeFrequency(service, city) : 'yearly' as const,
+            priority: service && city ? getComboSitemapPriority(service, city) : 0.35,
+          };
+        });
 
     case 'comparisons':
       return comparisons.map((comparison) => ({
@@ -88,6 +111,20 @@ export default async function sitemap({
         changeFrequency: 'monthly' as const,
         priority: 0.5,
       }));
+
+    case 'knowledge-base':
+      // D-06: KB hub index + 6 cluster hubs + glossary. Excludes the 44 nested KB
+      // articles and the 6 FLAT hub scaffolds (those are NOT emitted anywhere).
+      return [
+        { url: `${BASE_URL}/roofing-knowledge-base`, lastModified: NOW, changeFrequency: 'weekly' as const, priority: 0.7 },
+        ...KB_CLUSTER_SLUGS.map((cluster) => ({
+          url: `${BASE_URL}/roofing-knowledge-base/${cluster}`,
+          lastModified: NOW,
+          changeFrequency: 'monthly' as const,
+          priority: 0.6,
+        })),
+        { url: `${BASE_URL}/roofing-glossary`, lastModified: NOW, changeFrequency: 'monthly' as const, priority: 0.6 },
+      ];
 
     default:
       return [];

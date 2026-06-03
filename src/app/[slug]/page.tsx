@@ -11,6 +11,7 @@ import { getCityContent } from '@/data/city-content';
 import { getComboContent } from '@/data/combo-content';
 import { getComparisonContent } from '@/data/comparison-content';
 import { generateCityPageSlug } from '@/lib/slug-utils';
+import { isNoindex, isRedirect } from '@/data/url-classification';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { getOGImage } from '@/data/image-manifest';
 import { buildServiceDescription, buildCityDescription } from '@/lib/seo-utils';
@@ -24,7 +25,12 @@ import CoreTemplate from '@/components/templates/CoreTemplate';
 // ─── SSG: Generate all static pages at build time ────────────────────────────
 
 export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  // D-05: redirected combo slugs (168) are NOT prerendered — next.config.ts 301s
+  // them before the route resolves. Excluding them here keeps the prerender set
+  // and the sitemap aligned (redirected slugs appear in neither).
+  return getAllSlugs()
+    .filter((slug) => !isRedirect(slug))
+    .map((slug) => ({ slug }));
 }
 
 // Reject unknown slugs with 404
@@ -110,10 +116,15 @@ export async function generateMetadata({
       }
       // Reuse service OG image for combo pages
       const comboOg = getOGImage('service', combo.serviceId);
+      // D-04 indexation gate: all 942 noindex combos serve a LIVE page emitting
+      // robots:{index:false,follow:true}; the 255 keep combos stay indexable.
+      // Canonical is ALWAYS the combo's OWN slug (self-canonical) — never point a
+      // noindex combo at its keep parent or any unrelated page.
       return {
         title: combo.metaTitle,
         description: comboDescription,
         alternates: { canonical: `/${combo.slug}` },
+        robots: isNoindex(combo.slug) ? { index: false, follow: true } : undefined,
         openGraph: buildOG(combo.metaTitle, comboDescription, combo.slug, 'website', comboOg?.path ?? undefined),
       };
     }
