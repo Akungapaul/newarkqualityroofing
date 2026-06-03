@@ -384,9 +384,9 @@ Plans:
 
 **Wave 2** *(parallel; all depend on 12-01; disjoint file sets)*
 
-- [ ] 12-02-PLAN.md — Homepage §4.1 Core-first + service §4.2 tree; split-H1 fix + Header nav H-tag demote + pseudo-heading promotion (HTAG-01/02/03/04/07/08)
-- [ ] 12-03-PLAN.md — City §4.3 tree + new shared Permits/Materials sections; combo §4.4 tree incl. placeholder; ContentAuthorityBlock out of Core band (HTAG-05/06/07/08, D-11)
-- [ ] 12-04-PLAN.md — Generator title patterns → question form + regenerate articles.ts (252 unique, slugs stable); in-scope core/hub H1s (KB-03, HTAG-01/03, D-12)
+- [x] 12-02-PLAN.md — Homepage §4.1 Core-first + service §4.2 tree; split-H1 fix + Header nav H-tag demote + pseudo-heading promotion (HTAG-01/02/03/04/07/08)
+- [x] 12-03-PLAN.md — City §4.3 tree + new shared Permits/Materials sections; combo §4.4 tree incl. placeholder; ContentAuthorityBlock out of Core band (HTAG-05/06/07/08, D-11)
+- [x] 12-04-PLAN.md — Generator title patterns → question form + regenerate articles.ts (252 unique, slugs stable); in-scope core/hub H1s (KB-03, HTAG-01/03, D-12)
 
 **Wave 3** *(phase gate; depends on 12-01..12-04)*
 
@@ -479,7 +479,7 @@ Phases execute: 11 → 12 → 13 → 14 → 15 → 17, with Phase 16 runnable an
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 11. IA, Routing, Canonical Data & URL Classification | 5/5 | Complete   | 2026-06-03 |
-| 12. Question-Form H-Tag & Core/Outer Template System | 1/5 | In Progress|  |
+| 12. Question-Form H-Tag & Core/Outer Template System | 4/5 | In Progress|  |
 | 13. Knowledge Base Hub, Clusters & 44 KB Articles | 0/? | Not started | - |
 | 14. Roofing Glossary & Entity Dictionary | 0/? | Not started | - |
 | 15. Knowledge-Graph Linking & Schema | 0/? | Not started | - |
