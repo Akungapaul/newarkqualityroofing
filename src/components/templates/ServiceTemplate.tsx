@@ -41,6 +41,7 @@ import { AnimateIn } from '@/components/animations/AnimateIn';
 import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
 import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 import { getContentPoolImages } from '@/data/image-manifest';
+import { HEADING_CONFIG } from '@/data/heading-config';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -173,6 +174,17 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
     'Free estimates with no obligation',
   ];
 
+  // §4.2 question-form H2 tree (Core first, then Outer) sourced from the central config.
+  const serviceH2s = HEADING_CONFIG.service.h2s(service.name);
+  const coreH2 = HEADING_CONFIG.service.coreH2(service.name); // serviceH2s[0]
+  const signsH2 = serviceH2s[1];      // How Do You Know If You Need [Service]?
+  const approachH2 = serviceH2s[2];   // How Do Our Roofing Contractors Perform [Service]?
+  const costH2 = serviceH2s[3];       // How Much Does [Service] Cost?
+  const whyChooseH2 = serviceH2s[5];  // Why Choose Our Roofing Company for [Service]?
+  const relatedH2 = serviceH2s[6];    // What Related Roofing Services Should You Consider?
+  const kbH2 = serviceH2s[7];         // What Knowledge Base Articles Explain This Service?
+  const scheduleH2 = serviceH2s[8];   // How Can You Schedule [Service]?
+
   return (
     <>
       <JsonLd data={buildJsonLdGraph(
@@ -210,17 +222,18 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
-          <AnimateIn><ServiceOverview paragraphs={content.overview} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
+          {/* ── §4.2 CORE band: first content H2 = "What [Service] Do We Provide?" ── */}
+          <AnimateIn><ServiceOverview heading={coreH2} paragraphs={content.overview} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
 
-          <AnimateIn><ContentAuthorityBlock service={service} pageType="service" /></AnimateIn>
-
-          <AnimateIn><ServiceSigns heading={content.signsHeading} signs={content.signs} /></AnimateIn>
+          {/* Outer: How Do You Know If You Need [Service]? */}
+          <AnimateIn><ServiceSigns heading={signsH2} signs={content.signs} /></AnimateIn>
 
           <ServiceInlineCta serviceName={service.name} />
 
+          {/* Outer: How Do Our Roofing Contractors Perform [Service]? */}
           <AnimateIn>
             <ServiceApproach
-              heading={content.approachHeading}
+              heading={approachH2}
               content={content.approachContent}
               image={approachImg ? { src: approachImg.path, alt: `${service.name} materials and approach - ${approachImg.alt}` } : undefined}
               subheadings={content.approachSubheadings}
@@ -233,7 +246,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
               <AnimateIn>
                 <ServiceAudience
                   variant="commercial"
-                  heading={content.commercial.heading}
+                  heading={`What Commercial ${service.name} Do We Provide?`}
                   content={content.commercial.content}
                   ctaLabel={content.commercial.ctaLabel}
                 />
@@ -241,7 +254,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
               <AnimateIn>
                 <ServiceAudience
                   variant="residential"
-                  heading={content.residential.heading}
+                  heading={`What Residential ${service.name} Do We Provide?`}
                   content={content.residential.content}
                   ctaLabel={content.residential.ctaLabel}
                 />
@@ -252,7 +265,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
               <AnimateIn>
                 <ServiceAudience
                   variant="residential"
-                  heading={content.residential.heading}
+                  heading={`What Residential ${service.name} Do We Provide?`}
                   content={content.residential.content}
                   ctaLabel={content.residential.ctaLabel}
                 />
@@ -260,7 +273,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
               <AnimateIn>
                 <ServiceAudience
                   variant="commercial"
-                  heading={content.commercial.heading}
+                  heading={`What Commercial ${service.name} Do We Provide?`}
                   content={content.commercial.content}
                   ctaLabel={content.commercial.ctaLabel}
                 />
@@ -268,37 +281,42 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
             </>
           )}
 
-          <AnimateIn><ServiceProcess steps={content.processSteps} image={processImg ? { src: processImg.path, alt: `${service.name} crew at work - ${processImg.alt}` } : undefined} /></AnimateIn>
+          <AnimateIn><ServiceProcess heading={`What Are the Steps in Our ${service.name} Process?`} steps={content.processSteps} image={processImg ? { src: processImg.path, alt: `${service.name} crew at work - ${processImg.alt}` } : undefined} /></AnimateIn>
 
-          {/* Pricing section -- after process */}
+          {/* ContentAuthorityBlock -- moved OUT of the Core band (D-06/HTAG-07); component kept (deletion is Phase 16) */}
+          <AnimateIn><ContentAuthorityBlock service={service} pageType="service" /></AnimateIn>
+
+          {/* Outer: How Much Does [Service] Cost? */}
           {content.pricing && (
-            <AnimateIn><ServicePricing pricing={content.pricing} serviceName={service.name} /></AnimateIn>
+            <AnimateIn><ServicePricing heading={costH2} pricing={content.pricing} serviceName={service.name} /></AnimateIn>
           )}
 
-          {/* Why Choose Us -- before FAQs */}
+          {/* Outer: Why Choose Our Roofing Company for [Service]? */}
           {content.whyChooseUs && (
             <AnimateIn>
               <ServiceWhyChooseUs
-                heading={content.whyChooseUs.heading}
+                heading={whyChooseH2}
                 reasons={content.whyChooseUs.reasons}
               />
             </AnimateIn>
           )}
 
-          <AnimateIn><ServiceFaq faqs={content.faqs} /></AnimateIn>
+          {/* Outer: What Questions Do Customers Ask About [Service]? */}
+          <AnimateIn><ServiceFaq heading={`What Questions Do Customers Ask About ${service.name}?`} faqs={content.faqs} /></AnimateIn>
 
-          {/* Learn More -- reverse silo link to position-1 article */}
+          {/* Outer: What Knowledge Base Articles Explain This Service? (reverse-silo link) */}
           {(() => {
             const article = getMoneyPageArticle(service.id, 'service');
-            return article ? <AnimateIn><ServiceLearnMore article={article} serviceName={service.name} /></AnimateIn> : null;
+            return article ? <AnimateIn><ServiceLearnMore heading={kbH2} article={article} serviceName={service.name} /></AnimateIn> : null;
           })()}
 
           {/* Related Comparisons -- contextual comparison links */}
-          <AnimateIn><ServiceRelatedComparisons comparisons={getRelatedComparisons(service.id)} /></AnimateIn>
+          <AnimateIn><ServiceRelatedComparisons heading="How Do Your Roofing Options Compare?" comparisons={getRelatedComparisons(service.id)} /></AnimateIn>
 
           {/* Compact testimonials -- 1-2 relevant reviews */}
           <AnimateIn>
             <CompactTestimonial
+              heading="What Do Customers Say About Our Roofing Work?"
               testimonials={testimonials}
               filterBy={{ type: 'service', value: service.name }}
             />
@@ -315,11 +333,12 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         </StickyFormSidebar>
       </div>
 
-      <ServiceAreasGrid service={service} />
+      <ServiceAreasGrid heading={`Where Can You Get ${service.name} in Essex County?`} service={service} />
 
-      <RelatedServices services={relatedServices} />
+      <RelatedServices heading={relatedH2} services={relatedServices} />
 
       <ServiceCtaBanner
+        heading={scheduleH2}
         serviceGroups={serviceGroups}
         defaultService={service.slug}
       />

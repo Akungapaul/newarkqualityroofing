@@ -49,9 +49,9 @@ export function ServiceApproach({ heading, content, image, subheadings, imagePos
         {content.map((paragraph, index) => (
           <div key={index}>
             {subheadings?.[index] && (
-              <h3 className="mb-2 font-heading text-lg font-semibold text-forest">
+              <span className="mb-2 block font-heading text-lg font-semibold text-forest">
                 {subheadings[index]}
-              </h3>
+              </span>
             )}
             <p className="font-body text-base leading-relaxed text-text-secondary">
               {index === 0 ? boldFirstSentence(paragraph) : parseRichText(paragraph)}

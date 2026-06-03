@@ -3,6 +3,7 @@ import { CREDENTIALS } from '@/data/content-constants';
 import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceOverviewProps {
+  heading: string;
   paragraphs: string[];
   image?: { src: string; alt: string };
   imagePosition?: 'above' | 'below';
@@ -18,7 +19,7 @@ function boldFirstSentence(text: string) {
   );
 }
 
-export function ServiceOverview({ paragraphs, image, imagePosition = 'above' }: ServiceOverviewProps) {
+export function ServiceOverview({ heading, paragraphs, image, imagePosition = 'above' }: ServiceOverviewProps) {
   const imageBlock = image && (
     <div className="photo-treatment mt-6 overflow-hidden rounded-lg">
       <Image
@@ -39,7 +40,7 @@ export function ServiceOverview({ paragraphs, image, imagePosition = 'above' }: 
         id="service-overview-heading"
         className="font-heading text-2xl font-bold text-forest sm:text-3xl"
       >
-        Overview
+        {heading}
       </h2>
 
       {imagePosition === 'above' && imageBlock}

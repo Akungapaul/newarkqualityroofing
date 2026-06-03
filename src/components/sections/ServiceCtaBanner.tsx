@@ -2,11 +2,13 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import type { NavServiceGroup } from '@/data/nav-data';
 
 interface ServiceCtaBannerProps {
+  heading: string;
   serviceGroups: NavServiceGroup[];
   defaultService: string;
 }
 
 export function ServiceCtaBanner({
+  heading,
   serviceGroups,
   defaultService,
 }: ServiceCtaBannerProps) {
@@ -32,7 +34,7 @@ export function ServiceCtaBanner({
           id="service-cta-heading"
           className="text-center font-heading text-2xl font-bold text-text-on-dark sm:text-3xl lg:text-4xl"
         >
-          Don&rsquo;t Let a Small Leak Become a $10,000 Problem
+          {heading}
         </h2>
         <p className="mt-4 text-center font-body text-lg text-parchment/80">
           Get your free estimate today &mdash; same-day response, no obligation.

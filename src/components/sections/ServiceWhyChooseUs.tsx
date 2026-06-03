@@ -92,9 +92,9 @@ export function ServiceWhyChooseUs({ heading, reasons }: ServiceWhyChooseUsProps
                 {getIconForReason(reason.title, index)}
               </span>
               <div>
-                <h4 className="font-heading text-base font-bold text-forest">
+                <span className="block font-heading text-base font-bold text-forest">
                   {reason.title}
-                </h4>
+                </span>
                 <p className="mt-1 font-body text-sm leading-relaxed text-text-secondary">
                   {parseRichText(reason.description)}
                 </p>
