@@ -127,7 +127,17 @@ export const LeadFormSchema = z.object({
 
 export const ServiceContentSchema = z.object({
   serviceId: z.string(),
+  // Answer-first hero answer (≤40 words). Optional for backward compatibility:
+  // the ~64 other services omit it and still validate. Consumed by the hero
+  // when present (gated on presence at render time).
+  directAnswer: z.string().optional(),
   overview: z.array(z.string()).min(2).max(5),
+  // Structured Core sub-services (the 6 core repairs for roof-repair). Optional
+  // for backward compatibility; services lacking it render exactly as before.
+  subServices: z.array(z.object({
+    name: z.string(),
+    description: z.string(),
+  })).optional(),
   signsHeading: z.string(),
   signs: z.array(z.string()).min(4).max(10),
   approachHeading: z.string(),

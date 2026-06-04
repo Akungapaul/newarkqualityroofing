@@ -316,7 +316,7 @@ export function Header({ serviceGroups, cityItems, comparisonGroups, phoneDispla
               </svg>
               <span className="flex flex-col leading-none">
                 <span className="font-heading text-sm font-semibold">{phoneDisplay}</span>
-                <span className="text-xs text-parchment/50">24/7 Emergency</span>
+                <span className="text-xs text-parchment/50">Call for a Free Estimate</span>
               </span>
             </a>
 

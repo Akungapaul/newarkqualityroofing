@@ -4,6 +4,7 @@ import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { comparisons } from '@/data/comparisons';
 import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
+import { siteConfig } from '@/config/site-config';
 
 // ─── Curated residential services for footer ────────────────────────────────
 
@@ -143,23 +144,38 @@ export function Footer() {
               />
             </Link>
 
-            {/* NAP (Name, Address, Phone) */}
+            {/* NAP (Name, Address, Phone) — gated on canonical site-config (D-01).
+                Unknown values are empty in site-config and render nothing here,
+                never a fabricated placeholder. */}
             <address className="mt-4 space-y-2 not-italic">
               <p className="font-body text-sm text-parchment/70">
-                123 Main Street<br />
-                Newark, NJ 07102
+                {siteConfig.address.streetAddress && (
+                  <>
+                    {siteConfig.address.streetAddress}
+                    <br />
+                  </>
+                )}
+                {[siteConfig.address.locality, siteConfig.address.region]
+                  .filter(Boolean)
+                  .join(', ')}
+                {siteConfig.address.postalCode
+                  ? ` ${siteConfig.address.postalCode}`
+                  : ''}
               </p>
-              <a
-                href="tel:+19735550123"
-                className="block font-heading text-lg font-semibold text-copper-light transition-colors duration-200 hover:text-copper focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
-              >
-                (973) 555-0123
-              </a>
+              {siteConfig.phone && siteConfig.formattedPhone && (
+                <a
+                  href={`tel:${siteConfig.formattedPhone}`}
+                  className="block font-heading text-lg font-semibold text-copper-light transition-colors duration-200 hover:text-copper focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+                >
+                  {siteConfig.phone}
+                </a>
+              )}
             </address>
 
-            {/* Trust signals */}
+            {/* Trust signals — truthful, non-fabricated badges from canonical
+                site-config only (D-01); no unqualified 24/7 hours claim. */}
             <div className="mt-6 space-y-2">
-              {['Licensed & Insured', 'Free Estimates', '24/7 Emergency Service'].map(
+              {siteConfig.trustBadges.map(
                 (signal) => (
                   <div key={signal} className="flex items-center gap-2">
                     <svg

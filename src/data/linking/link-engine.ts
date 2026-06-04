@@ -283,3 +283,19 @@ export function getMoneyPageArticle(parentId: string, parentType: string): Artic
   if (!group || group.length === 0) return null;
   return group[0]; // position-1 article (sorted by position)
 }
+
+/**
+ * Get ALL supporting articles for a given parent page (sorted by position).
+ * Used by ServiceTemplate/ComparisonTemplate to surface the full set of sibling
+ * KB articles in the "What Knowledge Base Articles Explain This Service?" section
+ * (the reverse-silo block) — not just the position-1 article.
+ *
+ * Backward-compatible: `getMoneyPageArticle` (singular) is unchanged for callers
+ * that only need the lead article.
+ */
+export function getMoneyPageArticles(parentId: string, parentType: string): Article[] {
+  const key = `${parentType}:${parentId}`;
+  const group = articlesByParent.get(key);
+  if (!group || group.length === 0) return [];
+  return group; // already sorted by position at module load
+}

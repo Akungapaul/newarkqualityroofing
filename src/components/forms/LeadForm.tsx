@@ -105,7 +105,7 @@ export function LeadForm({
             type="tel"
             autoComplete="tel"
             required
-            placeholder="(973) 555-0123"
+            placeholder="(555) 123-4567"
             className={inputClasses}
           />
           <FieldError errors={state.errors?.phone} />
@@ -169,7 +169,7 @@ export function LeadForm({
 
         <SubmitButton />
         <p className="mt-3 text-center font-body text-xs text-text-secondary/70">
-          100% free, no obligation. We respond within 1 hour.
+          100% free, no obligation.
         </p>
       </form>
     </div>

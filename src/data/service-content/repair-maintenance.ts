@@ -8,88 +8,173 @@ export const repairMaintenanceContent: ServiceContent[] = [
   // ═══════════════════════════════════════════════════════════════════════════════
   {
     serviceId: 'roof-repair',
+    directAnswer:
+      '**Newark Quality Roofing provides roof repair across Newark and Essex County, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** as a New Jersey Home Improvement Contractor.',
     overview: [
-      'Northeastern storms, freeze-thaw cycles, and summer humidity create relentless wear on residential and commercial systems across Essex County. **Cracked shingles**, lifted flashing, or a compromised membrane can escalate within a single season into water damage, mold growth, and insulation failure. Professional intervention from experienced contractors in Newark NJ prevents small issues from becoming costly structural problems.',
-      'At **Newark Quality Roofing**, every call is a diagnostic opportunity. Rather than patching visible symptoms, our technicians trace moisture pathways, inspect underlayment integrity, and evaluate the remaining life of surrounding materials. We carry a complete inventory on our trucks so most jobs finish in a single visit, prioritizing lasting performance over quick fixes.',
+      '**Newark Quality Roofing repairs 6 roof problems across Essex County: roof leaks, missing and cracked shingles, flashing failures, pipe-boot leaks, chimney, skylight, and valley leaks, and storm damage** — for residential and commercial properties. Roof repair restores the water layer at the detail that admits water, from a single failed pipe boot to full storm-damage restoration.',
+      'A Newark Quality Roofing roof-repair job traces the moisture path from ridge to eave, because water enters at one detail and travels before showing as a stain, per Integrity Home Exteriors repair-process guidance. The roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA, so a Newark Quality Roofing repair diagnoses the root cause before sealing the failed component.',
+    ],
+    subServices: [
+      {
+        name: 'Roof leak repair',
+        description:
+          'Roof leak repair traces the leak to the source detail, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA.',
+      },
+      {
+        name: 'Missing and cracked shingle repair',
+        description:
+          'Missing and cracked shingle repair restores the water layer where wind blow-off and impact expose the underlayment and the roof deck, per GAF and This Old House inspection guidance.',
+      },
+      {
+        name: 'Flashing repair',
+        description:
+          'Flashing repair reseals the sheet metal at chimneys, walls, skylights, and valleys, where the metal corrodes and the sealant laps lift, the most common leak source per GAF technical guidance.',
+      },
+      {
+        name: 'Pipe-boot repair',
+        description:
+          'Pipe-boot repair replaces the rubber collar at vent stacks, the most common penetration failure point, where the collar cracks and the seal opens at exposed fasteners, per GAF and This Old House inspection guidance.',
+      },
+      {
+        name: 'Chimney, skylight, and valley leak repair',
+        description:
+          'Chimney, skylight, and valley leak repair rebuilds the transitions where water concentrates, because valley repair removes and reinstalls the surrounding shingles, with the NJ cost range named in the cost section, per HomeAdvisor.',
+      },
+      {
+        name: 'Storm-damage roof repair',
+        description:
+          'Storm-damage roof repair addresses wind and hail, the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute (Triple-I, 2019–2023).',
+      },
     ],
     signsHeading: 'Warning Signs Your Property Needs Attention',
     signs: [
-      'Water stains spreading across ceiling drywall or running down interior walls after rainfall — a sign that components have failed and maintenance is overdue',
-      '**Cracked shingles**, curling edges, or missing sections that leave the underlayment exposed to weather',
-      'Granule buildup in gutter channels and at downspout discharge points, indicating advanced material wear',
-      'Daylight visible through the deck when viewed from inside the attic, suggesting structural gaps that demand immediate professional attention',
+      '**Brown or yellow ceiling and wall stains** that spread or darken after rainfall indicate an active roof leak or trapped attic moisture, per GAF and This Old House inspection guidance.',
+      '**Missing, cracked, or torn shingles** expose the underlayment and the roof deck to wind-driven rain, per GAF inspection guidance.',
+      '**Granule loss with sandy grit in gutters** indicates shingles nearing end of life; granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF.',
+      '**Rusted, lifted, or bent flashing** at chimneys, walls, skylights, and valleys ranks as the most common leak source, because flashing seals the roof transitions that 90–95% of leaks trace back to, an industry estimate attributed to the NRCA.',
+      '**Daylight through the roof deck** seen from inside the attic indicates holes in the decking and shingles, a sign that points toward replacement rather than a patch, per This Old House.',
+      '**A sagging ceiling or roofline** indicates sheathing decay from prolonged moisture and ranks as a structural priority, per GAF.',
     ],
     approachHeading: 'How We Handle Every Project',
     approachContent: [
-      'Every job begins with a thorough diagnostic assessment. Our technicians climb onto the surface, probe suspect areas with moisture meters, and photograph every finding so you receive a clear picture before work begins. We check the entire drainage pathway from ridge to eave, because water often enters at one location and travels significant distances before manifesting as a visible leak.',
-      'We match manufacturer, product line, and color to maintain visual consistency across your property. For membrane and low-slope systems, we use manufacturer-approved bonding methods rather than relying solely on adhesive. All flashing is fabricated from corrosion-resistant stock appropriate to the local environment, and every project is backed by a written workmanship warranty.',
+      '**Newark Quality Roofing contractors diagnose a roof leak by tracing the moisture path from ridge to eave to the root-cause detail — flashing, shingles, underlayment, or pipe boot — not the drip point.** Water enters at one detail and travels before showing as an interior stain, so a Newark Quality Roofing diagnosis identifies the failed component rather than the visible symptom, per Integrity Home Exteriors repair-process guidance. The roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA, so the diagnosis starts at the flashing details.',
+      '**Newark Quality Roofing repairs the failed component to manufacturer specification with a written workmanship warranty.** Flashing fabricated from corrosion-resistant stock matches the existing color and product line, and membrane and low-slope systems use manufacturer-approved bonding rather than adhesive alone, which keeps a manufacturer system warranty intact. A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance.',
     ],
     approachSubheadings: [
-      'Expert Diagnostics and Inspections',
-      'Quality Solutions Built to Last',
+      'Root-Cause Diagnostics and Inspection',
+      'Repair to Manufacturer Specification',
     ],
     residential: {
       heading: 'Residential Services in Newark',
       content: [
-        'Your home is the single largest investment most families make. When you notice a leak, **cracked shingles**, or damaged areas, acting quickly protects the structure and the health of everyone inside — water infiltration leads to mold growth, and even minor issues destroy underlayment and warp framing lumber.',
-        'We deliver *affordable roofing services* with detailed written estimates before beginning any project. Our Newark, NJ crews protect landscaping, contain debris, and perform a magnetic sweep before leaving. For homeowners dealing with storm damage, we provide documentation that adjusters require, including timestamped photographs and a detailed scope of work.',
+        '**Newark Quality Roofing repairs residential roofs across Essex County, fixing roof leaks, missing and cracked shingles, and storm damage on detached one- and two-family homes with insurance-claim documentation.** A detached one- and two-family re-roof or repair of the roof covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code.',
+        'A Newark Quality Roofing storm repair documents the damage with timestamped photographs and a detailed scope of work for insurance adjusters, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute. A Newark Quality Roofing crew contains debris and runs a magnet sweep for nails before leaving the property.',
       ],
       ctaLabel: 'Get Home Estimate',
     },
     commercial: {
       heading: 'Commercial Solutions',
       content: [
-        'A compromised *commercial roof* threatens inventory, disrupts operations, and erodes tenant confidence. Our team schedules work around your business hours to complete most projects within a single day. We handle EPDM rubber, TPO membrane, modified bitumen, and flat assemblies — each requiring specialized techniques and manufacturer-specific bonding protocols.',
-        'Our technicians hold certifications from Firestone, Carlisle, and Johns Manville, enabling warranty-preserving work that keeps your coverage intact. Every project meets current New Jersey building code requirements, and we provide professional reporting you can share with building owners and carriers.',
+        '**Newark Quality Roofing repairs commercial low-slope roofs across Essex County, servicing EPDM rubber, TPO, and modified-bitumen membranes with manufacturer-approved bonding that keeps a system warranty intact.** EPDM lasts 15–25 years, TPO 7–20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and EPDM fails most often at the seams while TPO fails at the welded seams.',
+        'Ponding water remaining on a low-slope roof more than 48 hours counts as a defect, and a flat roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA. On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
       ],
       ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Assessment and Diagnosis',
-        description: 'A certified technician inspects the entire surface, probes suspected damage with moisture detection equipment, and documents findings with photographs.',
+        title: 'Inspection and Diagnosis',
+        description:
+          'A Newark Quality Roofing technician inspects the roof from ridge to eave, traces the moisture path to the root-cause detail, and probes suspect areas, per the inspection-to-diagnosis sequence in Integrity Home Exteriors and North Coast Roofing repair-process guidance.',
       },
       {
-        title: 'Estimate and Planning',
-        description: 'We present a transparent written estimate breaking down costs, labor, and timeline. Where multiple options exist, we explain the trade-offs so you can make an informed decision.',
+        title: 'Written Estimate',
+        description:
+          'A Newark Quality Roofing written estimate documents the damage with photographs and sets the scope, labor, materials, and timeline before any work begins, per Integrity Home Exteriors documentation guidance.',
       },
       {
-        title: 'Professional Execution',
-        description: 'Our crew performs the work following manufacturer specifications, addressing both visible damage and underlying issues such as deteriorated underlayment or corroded fasteners.',
+        title: 'Stabilization of Active Leaks',
+        description:
+          'A Newark Quality Roofing crew tarps or temporarily patches an active leak first to stop water entry, then schedules the permanent repair once materials arrive and weather allows, per Integrity Home Exteriors stabilization guidance.',
       },
       {
-        title: 'Quality Verification',
-        description: 'A lead technician verifies watertight integrity. We remove all debris, leave the property clean, and provide before-and-after photographs plus our written workmanship guarantee.',
+        title: 'Repair to Specification',
+        description:
+          'A Newark Quality Roofing crew replaces the failed shingles, reseals the flashing, and ties in the underlayment to manufacturer specification, matching the color and product line to the existing roof, per Integrity Home Exteriors repair-execution guidance.',
+      },
+      {
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies watertight execution, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, per Integrity Home Exteriors verification and cleanup guidance.',
       },
     ],
     faqs: [
       {
         question: 'How quickly can you respond to a request in Newark or Essex County?',
-        answer: 'We typically schedule an on-site assessment within 24 to 48 hours. Emergency situations involving active leaks or storm damage receive same-day response. Our trucks carry common materials, so many straightforward jobs can be completed during the initial visit.',
+        answer:
+          '**Newark Quality Roofing schedules an on-site roof inspection during business hours, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.** A Newark Quality Roofing crew stocks common materials, so a straightforward repair often finishes during the inspection visit across Essex County.',
       },
       {
         question: 'Should I fix the damage or consider a full replacement?',
-        answer: 'The answer depends on age, extent of damage, and the condition of underlying components like the deck and underlayment. If damage is localized and the rest of the system has substantial remaining life, targeted repairs are the cost-effective choice. If the system is approaching end of lifespan or damage covers more than a third of the surface, full replacement often provides better long-term value.',
+        answer:
+          '**Repair a roof when the damage stays localized and covers under 25–30% of the roof area; replace the roof when damage exceeds 25–30% of the area or one repair approaches 50% of replacement cost.** The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and repair favors an asphalt roof under 10–15 years old.',
       },
       {
-        question: 'How much does this type of work cost in Essex County, NJ?',
-        answer: 'Most projects in Essex County range from **$350 to $1,500**, depending on scope. Your exact cost depends on area size, material selection, and project complexity. We provide free, detailed written estimates — call us today or fill out our online form.',
+        question: 'How much does roof repair cost in Essex County, NJ?',
+        answer:
+          '**Roof-leak repair in New Jersey costs $400–$1,000, roughly 10–15% above the national average, and flashing reseal runs $200–$500**, per HomeAdvisor and Modernize cost data. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code. Newark Quality Roofing provides a free written estimate.',
       },
       {
         question: 'What is the 25% rule?',
-        answer: 'The 25% rule is an industry guideline suggesting that if more than 25% of your surface is damaged, full replacement typically makes more economic sense than continued spot work. During our assessment, we calculate the percentage of affected area and provide an honest recommendation.',
+        answer:
+          '**The 25% rule states that damage covering more than 25–30% of the roof area makes full replacement more economical than continued spot repair.** The 25–30% area rule is a contractor-consensus threshold, paired with the 50% rule, which favors replacement when one repair approaches 50% of replacement cost.',
       },
       {
-        question: 'What time of year is cheapest for this work in New Jersey?',
-        answer: 'Late fall and early spring tend to offer the most competitive pricing in the Newark area. Scheduling during these windows can mean shorter wait times and potentially lower labor costs. However, we provide fair year-round pricing. The best time to address any issue is as soon as you notice it — waiting often allows damage to worsen.',
+        question: 'What time of year is cheapest for roof repair in New Jersey?',
+        answer:
+          '**Late fall and early spring offer the most competitive roof-repair pricing in the Newark area, with shorter scheduling windows.** The NRCA recommends a roof inspection twice per year, spring and fall, plus an inspection after any major storm, which aligns repair scheduling with the lower-demand seasons.',
       },
     ],
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
     ],
+    pricing: {
+      range: '$200–$1,000+ for most repairs',
+      factors: [
+        'Roof-leak repair in New Jersey costs $400–$1,000, roughly 10–15% above the national average, per HomeAdvisor.',
+        'Flashing reseal or a small flashing section costs $200–$500, per Modernize flashing cost data.',
+        'Valley repair costs $400–$1,000 or more, because valley repair removes and reinstalls the surrounding shingles, per HomeAdvisor.',
+        'NJ ranges sit 10–40% above national figures, because labor accounts for roughly 60% of a repair total and NJ code is stricter, per Integrity Home Exteriors.',
+        'Emergency or after-hours repair adds 25–50% to the standard rate, per Integrity Home Exteriors.',
+      ],
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Roof Repair?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that trace a leak to the source flashing, shingle, pipe-boot, or valley detail before a repair quote.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing repairs residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
   },
 
   // ═══════════════════════════════════════════════════════════════════════════════

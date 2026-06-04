@@ -6,7 +6,11 @@ import { PRICING } from '@/data/content-constants';
 import type { Service, CityContent } from '@/lib/types';
 import type { City } from '@/lib/types';
 
-const DIFFERENTIATORS = 'NJ licensed, GAF Certified, 0% financing';
+// D-01 / Rule 25: meta descriptions must carry only truthful, canonical-safe
+// claims — never [VERIFY] trust literals (license #/status as a hard claim,
+// "GAF Certified", financing, same-day hours). These differentiators are the
+// non-fabricated truths also exposed via siteConfig.trustBadges.
+const DIFFERENTIATORS = 'Local Essex County roofers, free estimates';
 
 /** Trim to 160 chars, cutting at last full word */
 function cap(text: string, max = 160): string {
@@ -55,7 +59,7 @@ export function buildComboDescription(service: Service, city: City): string {
   }
 
   // Tier 2: no pricing, shorter differentiators
-  const t2 = `Professional ${svc} in ${city.name}, NJ. ${DIFFERENTIATORS}. Same-day estimates. Call now.`;
+  const t2 = `Professional ${svc} in ${city.name}, NJ. ${DIFFERENTIATORS}. Call for a free quote.`;
   if (t2.length <= 160) return t2;
 
   // Tier 3: minimal
@@ -70,7 +74,7 @@ export function buildServiceDescription(service: Service): string {
 
   // Tier 1: pricing + service-specific + differentiators
   if (pricing) {
-    const t1 = `${service.name} in Newark, NJ from ${pricing.range}. ${DIFFERENTIATORS}. Same-day estimates for Essex County.`;
+    const t1 = `${service.name} in Newark, NJ from ${pricing.range}. ${DIFFERENTIATORS}. Serving Essex County.`;
     if (t1.length <= 160) return t1;
   }
 
@@ -92,11 +96,11 @@ export function buildCityDescription(cityContent: CityContent, city: City): stri
     .join(', ');
 
   // Tier 1: neighborhoods + differentiators
-  const t1 = `Top-rated roofers in ${city.name}, NJ serving ${neighborhoodNames} & more. ${DIFFERENTIATORS}. Free estimates.`;
+  const t1 = `Roofers in ${city.name}, NJ serving ${neighborhoodNames} & more. ${DIFFERENTIATORS}.`;
   if (t1.length <= 160) return t1;
 
   // Tier 2: no neighborhoods
-  const t2 = `Trusted roofing contractor in ${city.name}, NJ. ${DIFFERENTIATORS}. Same-day estimates for repair, replacement & installation.`;
+  const t2 = `Roofing contractor in ${city.name}, NJ. ${DIFFERENTIATORS} for repair, replacement & installation.`;
   if (t2.length <= 160) return t2;
 
   // Tier 3: minimal

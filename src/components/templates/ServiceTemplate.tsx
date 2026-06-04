@@ -23,7 +23,7 @@ import { ServiceRelatedComparisons } from '@/components/sections/ServiceRelatedC
 import { TrustBar } from '@/components/sections/TrustBar';
 import { CompactTestimonial } from '@/components/sections/CompactTestimonial';
 import { testimonials } from '@/data/testimonials';
-import { getMoneyPageArticle } from '@/data/linking/link-engine';
+import { getMoneyPageArticles } from '@/data/linking/link-engine';
 import { getRelatedComparisons } from '@/data/linking/comparison-links';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
@@ -207,6 +207,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         service={service}
         serviceGroups={serviceGroups}
         benefits={benefits}
+        directAnswer={content.directAnswer}
       />
 
       {/* Trust bar: text-only stats with SVG icons */}
@@ -223,7 +224,7 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
           {/* ── §4.2 CORE band: first content H2 = "What [Service] Do We Provide?" ── */}
-          <AnimateIn><ServiceOverview heading={coreH2} paragraphs={content.overview} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
+          <AnimateIn><ServiceOverview heading={coreH2} paragraphs={content.overview} subServices={content.subServices} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
 
           {/* Outer: How Do You Know If You Need [Service]? */}
           <AnimateIn><ServiceSigns heading={signsH2} signs={content.signs} /></AnimateIn>
@@ -306,8 +307,8 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
           {/* Outer: What Knowledge Base Articles Explain This Service? (reverse-silo link) */}
           {(() => {
-            const article = getMoneyPageArticle(service.id, 'service');
-            return article ? <AnimateIn><ServiceLearnMore heading={kbH2} article={article} serviceName={service.name} /></AnimateIn> : null;
+            const kbArticles = getMoneyPageArticles(service.id, 'service');
+            return kbArticles.length > 0 ? <AnimateIn><ServiceLearnMore heading={kbH2} articles={kbArticles} serviceName={service.name} /></AnimateIn> : null;
           })()}
 
           {/* Related Comparisons -- contextual comparison links */}

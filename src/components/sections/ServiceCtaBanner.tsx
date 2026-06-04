@@ -37,8 +37,7 @@ export function ServiceCtaBanner({
           {heading}
         </h2>
         <p className="mt-4 text-center font-body text-lg text-parchment/80">
-          Get your free estimate today &mdash; same-day response, no obligation.
-          We&rsquo;ve helped 500+ Essex County property owners protect their biggest investment.
+          Get your free, no-obligation estimate from local Essex County roofers.
         </p>
         <div className="mt-10">
           <LeadForm

@@ -13,7 +13,7 @@ interface ServicePricingProps {
   serviceName: string;
 }
 
-export function ServicePricing({ heading, pricing }: ServicePricingProps) {
+export function ServicePricing({ heading, pricing, serviceName }: ServicePricingProps) {
   const pricingImage = getSectionImage('section-pricing');
 
   return (
@@ -24,6 +24,13 @@ export function ServicePricing({ heading, pricing }: ServicePricingProps) {
       >
         {heading}
       </h2>
+
+      {/* Definition sentence — frames the cost breakdown that follows. */}
+      <p className="mt-6 font-body text-base leading-relaxed text-text-secondary">
+        {serviceName} cost in Essex County, NJ runs{' '}
+        <strong className="text-forest">{pricing.range}</strong>, with the cost factors below
+        setting where a given job lands in that range.
+      </p>
 
       <div className="mt-6 rounded-sm border-2 border-copper/40 bg-white p-6 shadow-sm">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
@@ -59,6 +66,11 @@ export function ServicePricing({ heading, pricing }: ServicePricingProps) {
                 </li>
               ))}
             </ul>
+            {/* Outro — closes the cost breakdown. */}
+            <p className="mt-4 font-body text-sm leading-relaxed text-text-secondary">
+              A free written estimate confirms the exact figure for a specific roof before any
+              work begins.
+            </p>
           </div>
         )}
 

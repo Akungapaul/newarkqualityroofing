@@ -3,6 +3,7 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { getServiceHeroImage } from '@/data/image-manifest';
+import { parseRichText } from '@/lib/rich-text';
 import type { Service } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
 import { HEADING_CONFIG } from '@/data/heading-config';
@@ -11,9 +12,14 @@ interface ServiceHeroProps {
   service: Service;
   serviceGroups: NavServiceGroup[];
   benefits: string[];
+  /**
+   * Answer-first hero answer (≤40 words, with the answer span pre-bolded via
+   * **markdown**). Optional — services without it render exactly as before.
+   */
+  directAnswer?: string;
 }
 
-export function ServiceHero({ service, serviceGroups, benefits }: ServiceHeroProps) {
+export function ServiceHero({ service, serviceGroups, benefits, directAnswer }: ServiceHeroProps) {
   const heroImg = getServiceHeroImage(service.id);
   const heroSrc = heroImg?.path ?? '/images/newark-roofing-at-work.jpg';
   const heroAlt = heroImg?.alt ?? `${service.name} services in Newark and Essex County NJ`;
@@ -91,6 +97,12 @@ export function ServiceHero({ service, serviceGroups, benefits }: ServiceHeroPro
             >
               {HEADING_CONFIG.service.h1(service.name)}
             </h1>
+
+            {directAnswer && (
+              <p className="mt-5 font-body text-base leading-relaxed text-parchment/90 sm:text-lg [&_strong]:font-semibold [&_strong]:text-copper-light">
+                {parseRichText(directAnswer)}
+              </p>
+            )}
 
             <ul className="mt-6 space-y-3" aria-label="Service benefits">
               {benefits.map((benefit, index) => (

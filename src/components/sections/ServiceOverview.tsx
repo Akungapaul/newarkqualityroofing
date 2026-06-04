@@ -1,10 +1,15 @@
 import Image from 'next/image';
-import { CREDENTIALS } from '@/data/content-constants';
 import { parseRichText } from '@/lib/rich-text';
 
 interface ServiceOverviewProps {
   heading: string;
   paragraphs: string[];
+  /**
+   * Structured Core sub-services (e.g. the 6 core roof repairs). Optional —
+   * when present, renders a counted definition list beneath the overview
+   * paragraphs. Services without it render exactly as before.
+   */
+  subServices?: { name: string; description: string }[];
   image?: { src: string; alt: string };
   imagePosition?: 'above' | 'below';
 }
@@ -19,7 +24,7 @@ function boldFirstSentence(text: string) {
   );
 }
 
-export function ServiceOverview({ heading, paragraphs, image, imagePosition = 'above' }: ServiceOverviewProps) {
+export function ServiceOverview({ heading, paragraphs, subServices, image, imagePosition = 'above' }: ServiceOverviewProps) {
   const imageBlock = image && (
     <div className="photo-treatment mt-6 overflow-hidden rounded-lg">
       <Image
@@ -56,17 +61,28 @@ export function ServiceOverview({ heading, paragraphs, image, imagePosition = 'a
         ))}
       </div>
 
-      {imagePosition === 'below' && imageBlock}
+      {/* Counted Core sub-services list (e.g. the 6 core roof repairs).
+          Rendered only when the structured field is supplied. */}
+      {subServices && subServices.length > 0 && (
+        <ul className="mt-8 space-y-4">
+          {subServices.map((sub, index) => (
+            <li
+              key={index}
+              className="flex items-start gap-3 font-body text-base leading-relaxed text-text-secondary"
+            >
+              <span
+                className="mt-1 block h-1.5 w-1.5 shrink-0 rounded-full bg-copper"
+                aria-hidden="true"
+              />
+              <span>
+                <strong className="text-forest">{sub.name}</strong> — {parseRichText(sub.description)}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
 
-      {/* Stat callout */}
-      <div className="mt-8 rounded-lg border border-copper/20 bg-copper/5 px-6 py-4">
-        <p className="font-heading text-lg font-semibold text-copper">
-          500+ projects completed in Essex County
-        </p>
-        <p className="mt-1 font-body text-sm text-text-secondary">
-          {CREDENTIALS.experience} · {CREDENTIALS.certification} · {CREDENTIALS.insurance}
-        </p>
-      </div>
+      {imagePosition === 'below' && imageBlock}
     </section>
   );
 }

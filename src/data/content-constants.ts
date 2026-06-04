@@ -109,23 +109,21 @@ export const TOP_BRANDS = 'GAF, CertainTeed, Owens Corning, and Firestone';
 
 // ─── Credentials ────────────────────────────────────────────────────────────
 
+// NOTE: D-01 — unverified marketing literals ("15+ years", "GAF Certified",
+// "A+ BBB", "5-star", aggregate rating, financing) are WITHHELD. Only D-01-cleared
+// trust claims remain. Do not re-add a [VERIFY] credential as a hard claim.
 export const CREDENTIALS = {
-  experience: '15+ years serving Essex County',
   license: 'NJ Home Improvement Contractor (HIC) licensed',
-  certification: 'GAF Certified Contractor',
-  insurance: 'Fully insured and bonded',
-  ownership: 'Family-owned and locally operated',
-  bbb: 'A+ rated with the Better Business Bureau',
-  warranty: 'Manufacturer-backed warranty coverage',
-  reviews: '5-star rated across Google and HomeAdvisor',
+  insurance: 'Insured',
+  inspections: 'Free roof inspections',
+  ownership: 'Local Essex County roofers',
 } as const;
 
 export const CREDENTIALS_SHORT = [
   'NJ HIC Licensed',
-  'GAF Certified',
-  'Fully Insured & Bonded',
-  '15+ Years in Essex County',
-  'Family-Owned',
+  'Insured',
+  'Free Roof Inspections',
+  'Local Essex County Roofers',
 ] as const;
 
 // ─── Response Times ─────────────────────────────────────────────────────────
