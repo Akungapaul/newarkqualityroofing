@@ -154,7 +154,7 @@ const rawServices: Service[] = [
     isCommercial: false,
     shortDescription: 'Affordable, durable asphalt shingle installation with top brands like GAF, Owens Corning, and CertainTeed.',
     metaTitle: 'Asphalt Shingle Roofing | Newark NJ Roofers | NQR',
-    metaDescription: 'Asphalt shingle roofing in Newark NJ. GAF, Owens Corning, and CertainTeed certified installer. Free estimates for new roofs.',
+    metaDescription: 'Asphalt shingle roofing in Newark and Essex County NJ. 3-tab and architectural shingle installation for new roofs and replacements. Free estimates.',
   },
   {
     id: 'slate-roof-installation-repair',
@@ -214,7 +214,7 @@ const rawServices: Service[] = [
     isCommercial: false,
     shortDescription: 'Clay and concrete tile roofing for Mediterranean, Spanish, and classic architectural styles.',
     metaTitle: 'Tile Roof Installation & Repair | Newark NJ',
-    metaDescription: 'Tile roof installation and repair in Newark NJ. Clay and concrete tiles for beautiful, durable roofing that lasts 75+ years.',
+    metaDescription: 'Tile roof installation and repair in Newark NJ. Clay and concrete tile roofing for Mediterranean, Spanish, and classic homes. Free estimates.',
   },
   {
     id: 'cedar-shake-roofing',
@@ -238,7 +238,7 @@ const rawServices: Service[] = [
     isCommercial: true,
     shortDescription: 'EPDM rubber roofing for flat and low-slope roofs with superior weather resistance and easy maintenance.',
     metaTitle: 'EPDM Rubber Roofing | Newark NJ Roofers | NQR',
-    metaDescription: 'EPDM rubber roofing in Newark NJ. Durable, waterproof membrane for flat roofs. Cost-effective with 30+ year lifespan.',
+    metaDescription: 'EPDM rubber roofing in Newark and Essex County NJ. Durable single-ply membrane for flat and low-slope roofs. Free estimates.',
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
