@@ -1,750 +1,932 @@
 import type { ServiceContent } from '@/lib/types';
 
+// ─── Energy & Solar Content (5) — answer-first rewrite (Batch 6) ───
+
 export const energySolarContent: ServiceContent[] = [
-  // ─── 1. Solar Panel Roofing Installation ──────────────────────────────────
+  // ─── 1. Solar Panel Roofing Installation ───
   {
     serviceId: 'solar-panel-roofing-installation',
+    directAnswer:
+      '**Newark Quality Roofing handles the roofing side of solar panel installation across Newark and Essex County — flashing each rack-mount foot watertight, verifying the structure, and coordinating with the solar installer** as a New Jersey Home Improvement Contractor.',
     overview: [
-      '**Solar panel roofing** installation represents one of the most impactful investments a property owner in New Jersey can make, combining immediate energy cost reduction with long-term environmental stewardship and substantial financial incentives. New Jersey consistently ranks among the top five states nationally for solar energy adoption, driven by some of the most generous solar incentive programs in the country, including the Successor Solar Incentive Program (SuSI), net metering, property tax exemptions for solar improvements, and sales tax exemptions on solar equipment. At Newark Quality Roofing, we combine deep roofing expertise with solar integration knowledge to deliver installations that protect your roof\'s integrity while maximizing your solar energy production for decades to come.',
-      'The intersection of roofing and solar installation is where many solar companies fall short. A solar panel system that is bolted through your roof membrane without proper flashing, sealant, and waterproofing at every attachment point creates dozens of potential leak locations that may not manifest for months or years. Our dual expertise in roofing and solar means we approach every installation from the roof\'s perspective first, ensuring that the structural attachments, flashing details, and waterproofing at every penetration point meet the same rigorous standards we apply to any roofing project. This roofing-first approach protects your building envelope while delivering optimal solar performance.',
-      'Whether you are a homeowner looking to reduce your electricity bills and increase your property value, or a commercial property owner seeking to lock in long-term energy costs, reduce your carbon footprint, and take advantage of accelerated depreciation tax benefits, our solar panel roofing installation service delivers a turnkey solution. We handle every aspect from initial site assessment and system design through permitting, installation, electrical connection, utility interconnection, and incentive program enrollment, providing a single point of responsibility for your entire solar project.'
+      '**Newark Quality Roofing covers 4 roofing tasks that a rack-mounted solar array depends on across Essex County: watertight mount flashing, roof-structure load verification, fire and electrical code coordination, and roof-age assessment before install** — for residential and commercial properties. Solar panel roofing installation secures the photovoltaic array to the roof without compromising the water layer, the warranty, or the structure.',
+      'A Newark Quality Roofing solar-mount job flashes each attachment so water sheds onto intact shingles, because the flashing flange tucks under the upslope shingle course while a flashing sitting on top of the course is a leak path, per the NRCA Rooftop PV Guidelines and IronRidge. Mount flashing follows the roof-covering manufacturer flashing instructions with a compatible sealant, because deviation voids the roofing warranty, so the solar installer coordinates with the roofer before the array goes on, per the NRCA and Solar Power World.',
     ],
-    signsHeading: 'Is Your Property Ready for Solar Panel Installation?',
+    subServices: [
+      {
+        name: 'Pitched-roof flashed-foot mounting',
+        description:
+          'Pitched-roof flashed-foot mounting fastens each rail attachment with a lag bolt into the rafter and an integrated flashed foot whose upper flange tucks under the upslope shingle course, so water sheds onto intact shingles, per the NRCA Rooftop PV Guidelines and IronRidge.',
+      },
+      {
+        name: 'Flat-roof ballasted and attached mounting',
+        description:
+          'Flat-roof ballasted and attached mounting uses 2 methods on a low-slope commercial membrane: non-penetrating ballasted racking weighted on a protection pad over the membrane, or mechanically-attached penetrating anchors that are flashed, per the NRCA and SPRI.',
+      },
+      {
+        name: 'Roof-structure load verification',
+        description:
+          'Roof-structure load verification confirms the roof carries the added array dead load before install, because uplift and required ballast follow ASCE 7, with corner and perimeter zones needing more ballast than the field, per ASCE 7.',
+      },
+      {
+        name: 'Re-roof before solar',
+        description:
+          'Re-roof before solar replaces a roof covering with less remaining service life than the array, a roofing rule of thumb that avoids removing and reinstalling panels mid-roof, because crystalline-silicon modules operate roughly 25 to 30-plus years, per NREL and the DOE.',
+      },
+      {
+        name: 'Mount-flashing coordination with the solar installer',
+        description:
+          'Mount-flashing coordination with the solar installer matches the mount flashing to the roof-covering manufacturer instructions with a compatible sealant, because deviation voids the roofing warranty, per the NRCA and Solar Power World.',
+      },
+    ],
+    signsHeading: 'Signs Your Roof Needs Attention Before Solar',
     signs: [
-      'Your monthly electricity bills consistently exceed expectations, consuming a significant portion of your household or business operating budget that could be dramatically reduced or eliminated with a properly sized solar energy system.',
-      'Your roof faces south, southeast, or southwest with minimal shading from trees or adjacent buildings, providing the optimal sun exposure that makes solar energy production most cost-effective in our northern New Jersey latitude.',
-      'Your current roof is in good condition with significant remaining lifespan, ideally 15 years or more, meaning solar panels can be installed without the need for a concurrent or near-term roof replacement that would require panel removal and reinstallation.',
-      'You are aware of the generous New Jersey solar incentives including SuSI program credits, net metering, property tax exemptions, and sales tax exemptions that substantially reduce the net cost of solar installation and accelerate your return on investment.',
-      'Your property has adequate roof area or unshaded ground space to accommodate a solar array large enough to offset a meaningful percentage of your electricity consumption, making the investment worthwhile.',
-      'You are planning a roof replacement in the near future, which presents an ideal opportunity to coordinate new roofing with solar installation, eliminating the future cost and disruption of removing panels for roof work.'
+      '**A roof covering with less remaining service life than the array** signals a re-roof before solar, because crystalline-silicon modules operate roughly 25 to 30-plus years and a roof replaced mid-array forces removal and reinstallation of the panels, per NREL and the DOE.',
+      '**An array attachment flashed on top of the shingle course rather than tucked under the upslope course** marks a leak path, because the flashing flange sheds water onto intact shingles only when the flange sits under the upslope course, per the NRCA Rooftop PV Guidelines.',
+      '**A mount flashing that does not match the roof-covering manufacturer flashing instructions** voids the roofing warranty, because the roof-covering manufacturer specifies the flashing detail and a compatible sealant, per the NRCA and Solar Power World.',
+      '**A roof structure of unconfirmed load capacity** halts a ballasted or rail-mounted install, because uplift and required ballast follow ASCE 7 and corner and perimeter zones carry more ballast than the field, per ASCE 7.',
+      '**A rooftop array without rapid shutdown** fails NEC 690.12, because rooftop photovoltaic conductors drop to 30 volts or less outside the array boundary and 80 volts or less inside within 30 seconds, per NEC 690.12.',
+      '**An array blocking firefighter roof access** fails IRC R324.6, because the code sets pathways of 36 inches or more and a ridge setback of 18 inches for an array covering 33 percent or less of the roof and 36 inches above 33 percent, per IRC R324.6.',
     ],
-    approachHeading: 'Our Roofing-First Solar Installation Approach',
+    approachHeading: 'How We Handle Every Solar Roofing Project',
     approachContent: [
-      'Every solar project begins with a comprehensive site assessment that evaluates your roof from both structural and solar perspectives. We analyze roof age, condition, remaining lifespan, structural capacity, pitch, orientation, and shading patterns throughout the year using satellite imagery and on-site measurements. If your roof needs replacement within the next 10 years, we recommend combining the projects to avoid the future cost of removing and reinstalling panels during a roof replacement. This honest assessment sometimes means advising a client to invest in a new roof first, which saves them thousands of dollars in long-term solar project costs.',
-      'System design is tailored to your energy consumption patterns, roof geometry, and financial goals. We analyze your utility bills to determine optimal system size, design the panel layout to maximize production while maintaining code-required setbacks and fire access pathways, and select inverter technology appropriate for your roof configuration. String inverters with optimizers or microinverters at each panel are chosen based on your specific shading conditions and monitoring preferences.',
-      'Our installation crews are trained in both roofing and solar disciplines, which means the critical attachment points where panels mount to your roof structure receive the same attention to waterproofing detail as any other roof penetration. We use engineered mounting systems rated for New Jersey wind loads, flash every roof attachment with compatible materials and sealants, and install conduit runs that maintain the roof membrane integrity throughout their path from the array to the electrical panel.',
-      'After physical installation, we handle all electrical connections, utility interconnection applications, building inspections, and enrollment in New Jersey incentive programs. Your system is fully commissioned and producing energy before we consider the project complete, and we provide monitoring setup so you can track your solar production and savings in real time from your phone or computer.'
+      '**Newark Quality Roofing assesses the roof covering, the structure, and the roof age before the array goes on, because a solar array stays on a roof for the 25 to 30-plus-year module life.** Crystalline-silicon modules carry roughly 25-year performance warranties and operate 25 to 30-plus years, degrading at a median near 0.5 percent per year to roughly 85 to 88 percent of rated output after 25 to 30 years, per NREL and the DOE, so a worn roof under the array forces a costly removal and reinstall. A Newark Quality Roofing assessment replaces a roof covering with less remaining service life than the array first, a roofing rule of thumb rather than a code requirement, and verifies the roof structure carries the added dead load per ASCE 7 before install.',
+      '**Newark Quality Roofing flashes each mount watertight to the roof-covering manufacturer instructions and coordinates the attachment detail with the solar installer to keep the roofing warranty intact.** On a pitched roof, each rail attachment uses a lag bolt into the rafter and an integrated flashed foot whose upper flange tucks under the upslope shingle course so water sheds onto intact shingles, per the NRCA Rooftop PV Guidelines and IronRidge. On a low-slope commercial roof, the mount uses 1 of 2 methods — non-penetrating ballasted racking on a protection pad over the membrane, or mechanically-attached penetrating anchors that are flashed — with the mount flashing matched to the membrane manufacturer instructions and a compatible sealant, per the NRCA and SPRI.',
+      '**Newark Quality Roofing coordinates the roofing scope with the photovoltaic fire and electrical code that governs a rooftop array, sequencing the roof work so the array meets NEC and fire-code requirements.** A rooftop photovoltaic system meets NEC 690.12 rapid shutdown by dropping to 30 volts or less outside the array boundary and 80 volts or less inside within 30 seconds, through module-level electronics or a listed UL 3741 hazard-control system, per NEC 690.12, and the fire Class A, B, or C rating applies to the module, mounting, and roof-covering assembly together rather than the module alone, per UL 790. The array leaves firefighter access pathways of 36 inches or more and a ridge setback of 18 inches at 33 percent or less roof coverage or 36 inches above 33 percent, per IRC R324.6, and a rooftop array requires an AHJ building and electrical permit and inspection.',
     ],
-    approachSubheadings: ['Integrated Roof and Solar Design', 'NJ Solar Incentive Programs', 'Energy Production Optimization'],
+    approachSubheadings: [
+      'Roof, Structure, and Age Assessment',
+      'Watertight Mount Flashing and Installer Coordination',
+      'Fire and Electrical Code Coordination',
+    ],
     residential: {
-      heading: 'Solar Power for Your Home',
+      heading: 'Residential Solar Roofing in Newark',
       content: [
-        'Homeowners across Newark, Montclair, South Orange, and **Essex County** are discovering that solar panel installation is one of the smartest financial decisions they can make for their property. With New Jersey\'s strong net metering policy, the electricity your panels produce during peak sunlight hours is credited against your usage during evenings and cloudy periods, effectively spinning your meter backwards and reducing your annual electricity costs by 70 to 100 percent in many cases. Combined with the SuSI program incentive credits, federal investment tax credit, and no property tax increase on the added value, the financial case for residential solar in New Jersey is among the strongest in the nation.',
-        'Beyond the financial benefits, solar panels increase your home\'s market value. Studies by the Lawrence Berkeley National Laboratory have shown that homes with solar panel systems sell for a premium compared to similar homes without solar, and they sell faster. As energy costs continue to rise and environmental awareness grows among homebuyers, solar-equipped homes become increasingly desirable. Our installations use high-efficiency panels and sleek, low-profile mounting systems that maintain your home\'s curb appeal while delivering maximum energy production.',
-        'We make the residential solar process simple and stress-free. From the initial consultation through final interconnection, you have a single point of contact who manages every aspect of your project. We handle utility paperwork, building permits, HOA submissions if needed, and incentive program enrollment so you can enjoy the benefits of solar without the administrative burden. Our installations include a 25-year panel performance warranty and our own workmanship warranty covering roof penetrations and mounting integrity.'
+        '**Newark Quality Roofing prepares and flashes residential roofs for rack-mounted solar across Essex County, fastening each mount with a lag bolt into the rafter and an integrated flashed foot on detached one- and two-family homes.** A re-roof or repair of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while the rooftop array itself requires an AHJ building and electrical permit and inspection, per the NJ Uniform Construction Code and NEC.',
+        'A Newark Quality Roofing residential mount flashes each attachment so the upper flange tucks under the upslope shingle course and water sheds onto intact shingles, per the NRCA Rooftop PV Guidelines, and matches the flashing to the shingle manufacturer instructions to keep the roofing warranty intact. New Jersey homeowners offset cost through the Successor Solar Incentive program administered by the NJ Board of Public Utilities, NJ net metering, the NJ sales-tax exemption claimed via Form ST-4, and the NJ property-tax exemption claimed via Form CRES; the federal residential solar credit was 30 percent for systems completed through 2025 and is repealed for systems completed after December 31, 2025, per the IRS, so a 2026 homeowner consults a tax professional for current incentives.',
       ],
-      ctaLabel: 'Get Your Free Solar Assessment'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial Solar Installation for Business Properties',
+      heading: 'Commercial Solar Roofing',
       content: [
-        'Commercial solar installation delivers compelling returns for business properties through a combination of energy cost reduction, accelerated depreciation tax benefits, positive brand positioning, and potential LEED certification contributions. For commercial property owners and managers in the Newark metropolitan area, solar represents an opportunity to lock in electricity costs for 25 years or more, insulating your operating budget from the utility rate increases that have averaged 2 to 3 percent annually in New Jersey over the past decade.',
-        'The federal investment tax credit combined with the Modified Accelerated Cost Recovery System (MACRS) allows commercial solar system costs to be substantially recovered through tax benefits within the first several years of operation. When combined with New Jersey\'s SuSI program credits and the ongoing energy savings, commercial solar installations typically achieve full payback within 5 to 8 years, with decades of near-free electricity following. For businesses looking to demonstrate environmental leadership, solar installations also contribute to sustainability reporting, ESG goals, and customer expectations for corporate responsibility.',
-        'Our commercial solar team works with property owners, tenants, general contractors, and architects to integrate solar into both new construction and retrofit projects. We design systems that accommodate existing rooftop equipment, future building expansion plans, and structural limitations. Large commercial installations may qualify for utility-scale interconnection that allows excess production to generate revenue, and we guide commercial clients through the interconnection process to maximize the financial return on their solar investment.'
+        '**Newark Quality Roofing prepares and flashes commercial low-slope roofs for rack-mounted solar across Essex County, mounting the array by 1 of 2 methods: non-penetrating ballasted racking on a protection pad over the membrane, or mechanically-attached penetrating anchors that are flashed.** Uplift and required ballast follow ASCE 7, with corner and perimeter zones needing more ballast than the field, so a Newark Quality Roofing assessment verifies the roof structure carries the added dead load before install, per ASCE 7.',
+        'A Newark Quality Roofing commercial mount matches the flashing to the membrane manufacturer instructions with a compatible sealant, because deviation voids the roofing warranty, per the NRCA and SPRI. A commercial property reaches business-owned solar incentives that differ from the residential path: the federal §48E Clean Electricity Investment Credit remains for business-owned and third-party-owned solar, with solar facilities terminating after December 31, 2027 unless construction begins within 12 months of the One Big Beautiful Bill enactment, per the IRS, alongside the Successor Solar Incentive program administered by the NJ Board of Public Utilities, so a commercial owner consults a tax professional for current incentives.',
       ],
-      ctaLabel: 'Request a Commercial Solar Analysis'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Site Assessment and Roof Evaluation',
-        description: 'We evaluate your roof condition, structural capacity, orientation, pitch, shading, and remaining lifespan to determine solar feasibility. If roof work is needed, we recommend coordinating it with the solar installation for maximum cost efficiency.'
+        title: 'Roof and Structure Assessment',
+        description:
+          'A Newark Quality Roofing technician inspects the roof covering, the roof age, and the structure, confirming the roof carries the added array dead load per ASCE 7 and that the covering outlasts the 25 to 30-plus-year module life before solar, per ASCE 7, NREL, and the DOE.',
       },
       {
-        title: 'System Design and Financial Analysis',
-        description: 'Based on your energy usage and site conditions, we design an optimally sized system and provide a detailed financial analysis showing projected savings, incentive values, payback period, and long-term return on investment.'
+        title: 'Re-Roof or Repair First',
+        description:
+          'A Newark Quality Roofing crew replaces or repairs a roof covering with less remaining service life than the array first, a roofing rule of thumb that avoids removing and reinstalling the panels mid-roof, because crystalline-silicon modules operate roughly 25 to 30-plus years, per NREL and the DOE.',
       },
       {
-        title: 'Permitting and Approvals',
-        description: 'We prepare and submit all required building permits, utility interconnection applications, and HOA or historic district submissions. All paperwork is handled by our team, keeping you informed of progress throughout.'
+        title: 'Mount Flashing to Manufacturer Specification',
+        description:
+          'A Newark Quality Roofing crew fastens each pitched-roof attachment with a lag bolt into the rafter and a flashed foot tucked under the upslope shingle course, or flashes the low-slope mount anchors, matching the roof-covering manufacturer instructions and a compatible sealant, per the NRCA Rooftop PV Guidelines and IronRidge.',
       },
       {
-        title: 'Roofing Preparation and Panel Installation',
-        description: 'Engineered mounting hardware is attached to roof structure with full waterproofing at every penetration point. Panels are installed, wired, and secured according to manufacturer specifications and NEC electrical code requirements.'
+        title: 'Solar Installer Coordination',
+        description:
+          'A Newark Quality Roofing crew coordinates the mount detail with the solar installer so the attachment meets NEC 690.12 rapid shutdown and the module, mounting, and roof-covering assembly carry a UL 790 fire rating together, per NEC 690.12 and UL 790.',
       },
       {
-        title: 'Electrical and Monitoring Setup',
-        description: 'Inverters and electrical connections are installed, the system is connected to your building electrical panel, and monitoring equipment is configured for real-time production tracking via smartphone app or web portal.'
+        title: 'Permits and Firefighter Access',
+        description:
+          'A Newark Quality Roofing crew confirms the array leaves firefighter access pathways of 36 inches or more and a ridge setback of 18 inches at 33 percent or less coverage or 36 inches above 33 percent, and that the rooftop array carries an AHJ building and electrical permit, per IRC R324.6.',
       },
       {
-        title: 'Inspection and Interconnection',
-        description: 'Municipal building inspection and utility interconnection approval are obtained. Your system is activated, your meter is set to net metering, and we enroll you in applicable incentive programs to begin earning credits.'
+        title: 'Verification and Watertight Cleanup',
+        description:
+          'A Newark Quality Roofing lead verifies each mount flashing sheds water onto intact shingles, runs a magnet sweep for nails at cleanup, and documents the watertight detail that keeps the roofing warranty intact, per the NRCA Rooftop PV Guidelines.',
       },
-      {
-        title: 'Commissioning and Warranty Registration',
-        description: 'Final system commissioning confirms optimal performance. All warranties are registered, maintenance guidelines are provided, and you receive comprehensive documentation of your complete solar installation.'
-      }
     ],
     faqs: [
       {
-        question: 'Will solar panels damage my roof or void my roof warranty?',
-        answer: 'When installed by a qualified roofing professional like Newark Quality Roofing, solar panels should not damage your roof or void your warranty. Our installations use engineered mounting systems with proper flashing and waterproofing at every attachment point, maintaining the integrity of your roof membrane. Because we are a licensed roofing contractor, we can coordinate with your roofing material manufacturer to ensure warranty compliance. In fact, the portion of your roof covered by panels is actually protected from UV exposure, hail, and weather, potentially extending its lifespan.'
+        question: 'Should you repair or replace your roof before installing solar panels?',
+        answer:
+          '**Replace or re-roof before solar when the roof covering has less remaining service life than the array, because crystalline-silicon modules operate roughly 25 to 30-plus years and a roof replaced under an array forces panel removal and reinstallation.** The roof-age-before-solar rule is a roofing rule of thumb, not a code requirement, and module life traces to NREL and the DOE.',
       },
       {
-        question: 'What happens to my solar panels when I need a new roof?',
-        answer: 'If your roof needs replacement while solar panels are installed, the panels must be removed, the roof replaced, and the panels reinstalled. This adds cost to the roofing project for the panel removal and reinstallation labor. This is why we strongly recommend addressing any roofing needs before or simultaneously with solar installation. If your roof has less than 15 years of remaining life, we advise replacing it first or at the same time as the solar installation to avoid this future expense.'
+        question: 'Do solar panel mounts leak the roof?',
+        answer:
+          '**A solar panel mount stays watertight when each attachment uses a flashed foot whose upper flange tucks under the upslope shingle course, so water sheds onto intact shingles.** A flashing sitting on top of the shingle course is a leak path, and the mount flashing follows the roof-covering manufacturer instructions with a compatible sealant to keep the roofing warranty intact, per the NRCA Rooftop PV Guidelines and IronRidge.',
       },
       {
-        question: 'How much can I save on electricity with solar panels in New Jersey?',
-        answer: 'Most residential solar installations in New Jersey offset 70 to 100 percent of annual electricity costs, depending on system size, roof orientation, and shading conditions. With New Jersey\'s net metering policy, excess electricity produced during sunny periods is credited against your usage during other times, often resulting in very small or even zero electricity bills. The exact savings depend on your current usage, system size, and utility rate, which we calculate during our free solar assessment.'
+        question: 'Do you need a permit to install rooftop solar in Newark, NJ?',
+        answer:
+          '**A rooftop solar array requires an AHJ building and electrical permit and inspection for NEC and fire-code compliance, while the underlying re-roof on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 with no construction permit.** The permit covers the array and electrical work, per the NJ Uniform Construction Code and NEC.',
       },
       {
-        question: 'What solar incentives are available in New Jersey?',
-        answer: 'New Jersey offers some of the most generous solar incentives in the country. The SuSI (Successor Solar Incentive) program provides ongoing incentive credits for every kilowatt-hour your system produces. Net metering credits excess production against future usage. Solar installations are exempt from New Jersey sales tax and property tax increases. The federal investment tax credit also applies, allowing you to deduct a significant percentage of installation costs from your federal income taxes. Together, these incentives can reduce the effective cost of solar by 40 to 60 percent.'
+        question: 'How long do solar panels last on a roof?',
+        answer:
+          '**Crystalline-silicon solar panels carry roughly 25-year performance warranties and operate 25 to 30-plus years, degrading at a median near 0.5 percent per year to roughly 85 to 88 percent of rated output after 25 to 30 years.** The service-life and degradation figures trace to NREL and the DOE, which sets the roof-covering lifespan the array stays on.',
       },
       {
-        question: 'Do solar panels work during cloudy weather and winter months?',
-        answer: 'Yes, solar panels produce electricity on cloudy days, though at reduced output compared to full sun conditions. Modern panels are designed to generate power from diffuse light as well as direct sunlight. During New Jersey winters, shorter days and lower sun angles reduce production, but the annual net metering system credits your surplus summer production against your winter usage. A properly designed system accounts for seasonal variations to optimize your annual energy offset.'
+        question: 'What incentives apply to solar in New Jersey in 2026?',
+        answer:
+          '**New Jersey solar incentives include the Successor Solar Incentive program administered by the NJ Board of Public Utilities, NJ net metering, the NJ sales-tax exemption via Form ST-4, and the NJ property-tax exemption via Form CRES.** The federal residential solar credit was 30 percent for systems completed through 2025 and is repealed for systems completed after December 31, 2025, per the IRS, so a homeowner consults a tax professional for current rates.',
       },
       {
-        question: 'How long do solar panels last?',
-        answer: 'Modern solar panels are warranted for 25 to 30 years of performance, and they continue producing electricity well beyond their warranty period, typically at 80 to 85 percent of original capacity at year 25. The panels themselves have no moving parts and require very little maintenance beyond occasional cleaning. Inverters typically have 12 to 25 year warranties depending on the type and may need replacement once during the panel lifetime. Our installations are designed for long-term durability with materials and mounting systems that withstand New Jersey weather conditions.'
-      },
-      {
-        question: 'How much does solar panel roofing installation cost in Essex County, NJ?',
-        answer: 'Most solar panel roofing installation projects in Essex County range from $18,000–$35,000, full solar panel roof integration. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your solar roofing?',
-        answer: 'Homeowners rate our **solar panel roofing** highly for *seamless integration* of solar panels with new or existing roofing systems. Reviews highlight the energy savings and NJ incentive benefits our clients enjoy.',
-      },
-      {
-        question: 'How experienced is your solar team?',
-        answer: 'Our **solar roofing** specialists have over 15 years of combined roofing and solar experience. This dual expertise ensures your roof is *properly engineered for panel loads* while maximizing energy production.',
+        question: 'How does rapid shutdown work on a rooftop solar array?',
+        answer:
+          '**Rapid shutdown drops rooftop photovoltaic conductors to 30 volts or less outside the array boundary and 80 volts or less inside the boundary within 30 seconds, through module-level electronics or a listed UL 3741 hazard-control system.** Rapid shutdown limits voltage rather than zeroing the modules, per NEC 690.12, and the array boundary extends 1 foot outside the array.',
       },
     ],
-  
-    pricing: {
-      range: '$18,000–$35,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Solar Panel Roofing Installation',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: 'Free written estimate — roofing scope priced per roof',
+      factors: [
+        'Roof age and condition set the scope, because a roof covering with less remaining service life than the 25 to 30-plus-year module life calls for a re-roof before solar, per NREL and the DOE.',
+        'Mount type sets the flashing labor: a pitched-roof flashed-foot attachment differs from a low-slope ballasted or mechanically-attached and flashed mount, per the NRCA and SPRI.',
+        'Roof structure sets the verification, because uplift and required ballast follow ASCE 7 with corner and perimeter zones carrying more ballast than the field, per ASCE 7.',
+        'Code coordination adds scope, because the array meets NEC 690.12 rapid shutdown, a UL 790 system fire rating, and IRC R324.6 firefighter access under an AHJ permit, per NEC 690.12, UL 790, and IRC R324.6.',
+        'New Jersey incentives offset owner cost through the Successor Solar Incentive program administered by the NJ Board of Public Utilities, NJ net metering, and the NJ sales-tax and property-tax exemptions, per the NJ Board of Public Utilities and the IRS.',
+      ],
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Solar Panel Roofing Installation?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Watertight Mount Flashing',
+          description:
+            'Newark Quality Roofing flashes each solar mount so the upper flange tucks under the upslope shingle course and water sheds onto intact shingles, matching the roof-covering manufacturer instructions to keep the roofing warranty intact, per the NRCA Rooftop PV Guidelines.',
+        },
+        {
+          title: 'Solar Installer Coordination',
+          description:
+            'Newark Quality Roofing coordinates the mount and flashing detail with the solar installer so the array meets NEC 690.12 rapid shutdown and a UL 790 system fire rating, per NEC 690.12 and UL 790.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing prepares and flashes residential and commercial roofs for solar across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 2. Solar Shingle Installation ────────────────────────────────────────
+// ─── 2. Solar Shingle Installation ───
   {
     serviceId: 'solar-shingle-installation',
+    directAnswer:
+      '**Newark Quality Roofing installs solar shingles across Newark and Essex County, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself** as a New Jersey Home Improvement Contractor.',
     overview: [
-      '**Solar shingle**s represent the cutting edge of building-integrated photovoltaics (BIPV), combining the energy-generating capability of traditional solar panels with the weather protection and aesthetic appearance of conventional roofing shingles. Unlike rack-mounted solar panels that sit above your existing roof, solar shingles replace a portion of your roofing material entirely, serving as both the weatherproofing layer and the energy generation system simultaneously. This dual-purpose approach creates a streamlined, architecturally integrated appearance that eliminates the visual profile of traditional panel arrays, making solar shingles an ideal choice for homeowners and property owners who want solar energy without the bolted-on look of conventional panels.',
-      'Newark Quality Roofing is certified to install solar shingle systems from leading manufacturers, bringing together the roofing installation expertise and electrical knowledge required to deliver a seamlessly integrated solar roof. Solar shingle installation demands a higher level of roofing skill than conventional panel mounting because the solar shingles must integrate with surrounding conventional shingles at every course, creating both a watertight roof surface and a properly wired electrical system. Our technicians are trained in the specific installation techniques, wiring protocols, and flashing details that these products require, ensuring your solar shingle roof performs as both a high-quality roof and an efficient energy generator.',
-      'The economics of solar shingles differ from traditional panels because you are replacing roofing material that would need to be purchased anyway. When you combine the cost of a new roof with the incremental cost of solar shingles versus conventional shingles, the net investment in solar generation capacity is significantly lower than it appears when viewed as a standalone solar purchase. For property owners who need a new roof and want solar energy, solar shingles offer a compelling value proposition that delivers both needs in a single, aesthetically superior installation.',
-      'New Jersey\'s robust solar incentive landscape applies equally to solar shingle installations as to traditional panel systems. The SuSI program credits, federal investment tax credit, property tax exemption on the added value, and sales tax exemption on solar equipment all apply to building-integrated photovoltaic products, ensuring that solar shingle adopters receive the same financial advantages as conventional panel owners. Additionally, because solar shingles are classified as building materials rather than equipment for many code and insurance purposes, they may offer advantages in permitting timelines and homeowner insurance treatment compared to rack-mounted panel systems. Our team navigates these program requirements on behalf of every client, maximizing the financial return on your combined roofing and solar investment.'
+      '**Newark Quality Roofing installs 3 building-integrated solar-shingle systems across Essex County: GAF Energy Timberline Solar, Tesla Solar Roof, and CertainTeed Solstice** — for residential properties replacing or re-roofing a home. A solar shingle is building-integrated photovoltaics, BIPV, where the photovoltaic material is the roof covering itself, distinct from building-applied photovoltaics, BAPV, the rack-mounted panels added on top of an existing roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS.',
+      'A solar shingle installation replaces the roof covering rather than adding hardware to a finished roof, so a solar-shingle project pairs with a new roof or a full reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. A solar shingle costs more per watt and generates less per square foot than a rack-mounted panel, so a solar-shingle roof suits a homeowner prioritizing the integrated appearance of a uniform roof surface over the lower per-watt cost of panels, per SolarReviews and EnergySage cost data.',
     ],
-    signsHeading: 'Is a Solar Shingle Roof Right for Your Property?',
+    subServices: [
+      {
+        name: 'GAF Energy Timberline Solar installation',
+        description:
+          'GAF Energy Timberline Solar installs the world’s first nailable solar shingle, rated 57 watts per energy shingle at roughly 16.7 watts per square foot, integrated into the asphalt-shingle field with the same nail gun and crew as Timberline asphalt shingles, per GAF Energy.',
+      },
+      {
+        name: 'Tesla Solar Roof installation',
+        description:
+          'Tesla Solar Roof installs a full-replacement glass-tile system rated 72 watts per active tile, where active and matching inactive tiles read as one uniform roof surface, per Tesla.',
+      },
+      {
+        name: 'CertainTeed Solstice installation',
+        description:
+          'CertainTeed Solstice installs a solar shingle rated 70 watts at 19.85% module efficiency and roughly 16.1 watts per square foot on a new roof or reroof only, because the Solstice system cannot go over an existing roof, per CertainTeed.',
+      },
+      {
+        name: 'Solar-shingle reroof pairing',
+        description:
+          'Solar-shingle reroof pairing replaces the existing roof covering with the building-integrated solar shingle as a single project, because a solar shingle is the roof covering rather than an add-on, per the DOE Office of Energy Efficiency and Renewable Energy.',
+      },
+    ],
+    signsHeading: 'Signs a Solar Shingle Installation Fits Your Home',
     signs: [
-      'You need a new roof within the next few years and are interested in solar energy, making this the perfect opportunity to combine both investments into a single project that costs less than doing them separately at different times.',
-      'You want solar energy but find the appearance of traditional rack-mounted panels objectionable or unsuitable for your home\'s architectural style, whether it is a historic colonial, a mid-century ranch, or a contemporary design where visual integration matters.',
-      'Your homeowners association or historic district has restrictions on traditional solar panel installations that may be addressed by solar shingles, which have a much lower visual profile and more closely resemble conventional roofing materials.',
-      'Your roof has a complex geometry with multiple facets, dormers, hips, and valleys that make traditional panel array layout challenging, since solar shingles can be installed on irregular roof sections that cannot accommodate standard panel mounting systems.',
-      'You want to maximize the solar-producing area of your roof by covering surfaces that are too small for standard panels but can accommodate individual solar shingles within the normal shingling pattern.',
-      'You value the concept of a building-integrated system where the solar generation is an inherent part of the roof structure rather than an add-on, providing a unified warranty and maintenance approach for your entire roof system.'
+      '**A roof at or near reroof age** fits a solar-shingle installation, because a solar shingle replaces the roof covering and pairs with a new roof or full reroof rather than mounting on a finished roof, per the DOE Office of Energy Efficiency and Renewable Energy.',
+      '**A preference for a uniform roof surface over visible rack-mounted panels** points to a solar shingle, because building-integrated solar shingles serve as the roof covering itself while building-applied panels mount on top, per IEA-PVPS.',
+      '**A roof pitch of 2:12 or steeper** suits the named solar-shingle products, because GAF Energy Timberline Solar and Tesla Solar Roof list a minimum pitch of 2:12, per GAF Energy and Tesla.',
+      '**Available roof area roughly 44% larger than a panel array** supports a solar shingle, because a 6-kilowatt solar-shingle system needs about 360 square feet against about 250 square feet for panels, per SolarReviews from the GAF Energy datasheet.',
+      '**A budget that accepts a higher per-watt cost for integrated appearance** fits a solar shingle, because solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, roughly 1.5 to 2 times the per-watt cost, per EnergySage, SolarReviews, and WattBuild.',
+      '**A Class 4 impact and Class A fire requirement** aligns with the named products, because GAF Energy Timberline Solar, Tesla Solar Roof, CertainTeed Solstice, and SunTegra Shingle list UL 2218 Class 4 hail and UL 790 Class A fire ratings, per each manufacturer.',
     ],
-    approachHeading: 'Expert Solar Shingle Installation Process',
+    approachHeading: 'How Our Roofing Contractors Install Solar Shingles',
     approachContent: [
-      'Solar shingle installation begins with a comprehensive roof assessment that evaluates your existing roof structure for compatibility, determines the optimal areas for solar shingle placement based on sun exposure and shading analysis, and designs the electrical system layout for maximum energy production. Unlike traditional solar where panels simply mount above the existing roof, solar shingle installation requires complete integration planning because the solar shingles must be properly sequenced within the overall shingling pattern, with electrical wiring routed through the roof assembly to inverters and the electrical panel below.',
-      'The roofing phase of installation follows standard best practices for roof replacement, including old roofing removal, deck inspection and repair, ice and water shield installation at eaves and in valleys, synthetic underlayment over the full deck, and drip edge and flashing installation. The solar shingles are then installed in their designated areas using manufacturer-specified techniques that integrate them seamlessly with the surrounding conventional shingles. The transition between solar and conventional shingle courses requires precise alignment and weatherproofing to maintain both aesthetic continuity and water resistance.',
-      'Electrical integration is performed concurrently with the shingle installation, with wiring connections made at each solar shingle course and routed through the roof assembly to combiner boxes and inverters. This wiring must be protected from weather, heat, and physical damage throughout its entire path, and all connections must meet National Electrical Code requirements for rooftop photovoltaic systems. Our electricians work alongside our roofing crews to ensure both systems are installed correctly and inspected before the roof is closed up.',
-      'The completed solar shingle roof provides the same weather protection as a conventional shingle roof while generating clean electricity from every square foot of solar coverage. The system connects to your electrical panel through inverters that convert the DC power from the shingles to AC power for your building, and net metering allows excess production to reduce your utility bills through energy credits.'
+      '**Newark Quality Roofing matches the solar-shingle system to the home from 3 named products and sets honest expectations against rack-mounted panels before tear-off.** A solar shingle costs more per watt and produces less per square foot than a panel: solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for panels, and module efficiency clusters around 14% to 18% against more than 20% for premium panels, per SolarReviews, EnergySage, and NREL, so a solar shingle is an integration and appearance choice rather than an efficiency or per-watt-value choice. GAF Energy Timberline Solar rates 57 watts per energy shingle, Tesla Solar Roof 72 watts per active tile, and CertainTeed Solstice 70 watts per shingle, per each manufacturer.',
+      '**Newark Quality Roofing replaces the roof covering with the building-integrated solar shingle to manufacturer specification, integrating the photovoltaic shingle into the roof field.** GAF Energy Timberline Solar installs as a nailable shingle with the same nail gun and crew as Timberline asphalt shingles at a minimum 2:12 pitch, and the named products list ASTM D3161 Class F wind to roughly 130 miles per hour, UL 2218 Class 4 hail, and UL 790 Class A fire, per GAF Energy and the listed manufacturers. Installing to manufacturer specification keeps the manufacturer system warranty intact, and GAF Energy states a Solar Max warranty addendum requires a certified install, per GAF Energy.',
+      '**Newark Quality Roofing wires the array to code and coordinates the electrical work for rapid shutdown and fire-service access.** The named solar-shingle systems meet NEC 690.12 rapid shutdown, which drops conductors outside the array boundary to 30 volts or less and inside the boundary to 80 volts or less within 30 seconds, met by module-level electronics or a listed UL 3741 photovoltaic hazard control system, per the NEC and UL. GAF Energy lists UL 7103 building-integrated photovoltaic certification for the Timberline Solar system, per GAF Energy.',
     ],
-    approachSubheadings: ['Seamless Solar Shingle Design', 'Power Generation and Aesthetics', 'Manufacturer Warranty Coverage'],
+    approachSubheadings: [
+      'Product Selection and Honest Comparison to Panels',
+      'Building-Integrated Installation to Manufacturer Specification',
+      'Code-Compliant Wiring and Rapid Shutdown',
+    ],
     residential: {
-      heading: 'Solar Shingles for Your Home',
+      heading: 'Residential Solar Shingle Installation in Newark',
       content: [
-        'For homeowners who love the idea of solar energy but not the look of bulky panels on their roof, solar shingles offer the perfect solution. These sleek, low-profile solar generators integrate into your roofline so naturally that neighbors may not even realize your roof is producing electricity. In the architecturally diverse communities of **Essex County**, from the Victorian mansions of Montclair to the Tudor homes of Glen Ridge to the colonial neighborhoods of West Orange, solar shingles complement rather than compromise your home\'s character.',
-        'The financial benefits of solar shingles are particularly attractive for homeowners who already need a roof replacement. Instead of paying separately for a new roof and a solar panel system, you invest in a solar shingle roof that serves both purposes simultaneously. When the cost of the conventional shingles you would have purchased is subtracted from the total solar shingle roof cost, the net investment in solar capacity is significantly reduced. Add New Jersey\'s excellent solar incentives, and the economics become very compelling.',
-        'We guide homeowners through every aspect of the solar shingle decision, from comparing the energy production and cost against traditional panels to navigating HOA approvals and historic district requirements. Our consultations are thorough and pressure-free, because we want you to make the choice that truly serves your goals. Whether solar shingles, traditional panels, or a combination approach is right for your home, we provide the expertise to deliver it flawlessly.',
-        'Homeowners in HOA-governed communities and historic districts throughout Montclair, Glen Ridge, and South Orange find solar shingles particularly appealing because their low-profile integration satisfies architectural review requirements that would reject conventional rack-mounted panels. We have successfully navigated approvals with multiple local architectural review boards and historic preservation commissions, demonstrating that solar shingles preserve neighborhood character while enabling **clean energy** generation. Our documentation packages for these applications include manufacturer specification sheets, visual simulations showing the installed appearance from street level, and precedent examples from comparable installations in architecturally sensitive settings.'
+        '**Newark Quality Roofing installs solar shingles on detached one- and two-family homes across Essex County, replacing the roof covering with a building-integrated solar shingle during a new roof or full reroof.** A reroof of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7, while the photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, per the NJ Uniform Construction Code and the NEC.',
+        'A New Jersey homeowner installing a solar shingle in 2026 has no federal residential solar tax credit, because the IRS reports the section 25D residential clean energy credit, the 30% credit available for systems completed through 2025, is repealed for any system completed after December 31, 2025, under the One Big Beautiful Bill, per the IRS. New Jersey programs remain: the Successor Solar Incentive program, administered by the NJ Board of Public Utilities, pays a fixed per-megawatt-hour SREC-II incentive over a 15-year term, New Jersey net metering credits exported power at the full retail rate up to annual usage, and solar equipment is exempt from the 6.625% New Jersey sales tax through Form ST-4 and from added property-tax assessment through Form CRES, per the NJ Board of Public Utilities and the NJ Division of Taxation. Newark Quality Roofing installs eligible solar-shingle equipment and refers tax and incentive questions to a tax professional and the NJ Clean Energy Program.',
       ],
-      ctaLabel: 'Explore Solar Shingle Options'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial Solar Shingle Applications',
+      heading: 'Commercial and Multi-Family Solar Shingle Installation',
       content: [
-        'Commercial properties with aesthetic requirements, such as retail buildings, corporate campuses, and mixed-use developments in historically sensitive areas, benefit from solar shingle technology that generates clean energy without the industrial appearance of traditional panel arrays. For commercial property owners seeking LEED certification credits or demonstrating sustainability leadership to customers and tenants, building-integrated photovoltaic systems like solar shingles make a visible statement about environmental commitment.',
-        'Commercial solar shingle installations offer the same tax benefits as traditional commercial solar, including the federal investment tax credit and MACRS accelerated depreciation. When installed during a commercial roof replacement, the incremental cost of solar shingles over conventional roofing can be recovered through combined tax benefits and energy savings within a shorter payback period than standalone solar installations.',
-        'Our commercial solar shingle projects include full design engineering, permitting, installation, electrical integration, and utility interconnection services. We work with architects and property managers to ensure the installation meets both aesthetic and performance standards while maintaining full building code compliance and fire access requirements.'
+        '**Newark Quality Roofing installs solar shingles on small commercial, mixed-use, and multi-family pitched roofs across Essex County, replacing the roof covering with a building-integrated solar shingle during a reroof.** A solar shingle suits a steep-slope commercial or multi-family roof seeking an integrated appearance, while a flat or low-slope commercial roof takes rack-mounted or ballasted panels rather than a shingle product, per the DOE Office of Energy Efficiency and Renewable Energy.',
+        'A business-owned or third-party-owned commercial solar system follows the federal section 48E Clean Electricity Investment Credit rather than the repealed residential section 25D credit, with solar facilities terminating after December 31, 2027 unless construction begins within 12 months of the One Big Beautiful Bill enactment, per the IRS. New Jersey net metering, the Successor Solar Incentive program administered by the NJ Board of Public Utilities, and the New Jersey sales-tax and property-tax exemptions apply to a qualifying commercial system, per the NJ Board of Public Utilities and the NJ Division of Taxation. Newark Quality Roofing installs eligible equipment and refers tax questions to a tax professional.',
       ],
-      ctaLabel: 'Discuss Commercial Solar Shingle Options'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Roof and Solar Assessment',
-        description: 'We evaluate your existing roof, determine solar shingle compatibility, model energy production based on roof orientation and shading, and provide a comprehensive financial analysis comparing solar shingle options to traditional alternatives.'
+        title: 'Roof and Electrical Assessment',
+        description:
+          'A Newark Quality Roofing technician assesses the roof pitch, the roof area, and the reroof scope, confirming a minimum 2:12 pitch for the named solar-shingle products and sizing the array against the roughly 44% larger area a solar shingle needs versus panels, per GAF Energy and SolarReviews.',
       },
       {
-        title: 'System Design and Permitting',
-        description: 'The solar shingle layout is designed for maximum energy production integrated with your roof geometry. We prepare and submit all building permits, electrical permits, and utility interconnection applications.'
+        title: 'Product Selection and Written Estimate',
+        description:
+          'A Newark Quality Roofing written estimate presents 3 solar-shingle products — GAF Energy Timberline Solar at 57 watts per shingle, Tesla Solar Roof at 72 watts per active tile, and CertainTeed Solstice at 70 watts per shingle — with the per-watt cost and efficiency stated honestly against rack-mounted panels, per each manufacturer and SolarReviews.',
       },
       {
-        title: 'Roof Preparation',
-        description: 'Existing roofing is removed, the deck is inspected and repaired as needed, and the full underlayment system is installed following manufacturer requirements for the solar shingle product.'
+        title: 'Permits and Material Ordering',
+        description:
+          'A Newark Quality Roofing crew files the building and electrical permits the photovoltaic and electrical work requires for NEC and fire-code compliance, then orders the solar-shingle system to arrive on the scheduled start date, per the NJ Uniform Construction Code and the NEC.',
       },
       {
-        title: 'Solar Shingle and Conventional Shingle Installation',
-        description: 'Solar shingles are installed in designated areas and seamlessly integrated with conventional shingles on remaining roof sections. Electrical wiring is routed through the roof assembly as courses are laid.'
+        title: 'Tear-Off and Roof Preparation',
+        description:
+          'A Newark Quality Roofing crew strips the existing roof to the deck, repairs deteriorated sheathing, and prepares the underlayment, because a solar shingle replaces the roof covering and pairs with a full reroof rather than mounting on a finished roof, per the DOE Office of Energy Efficiency and Renewable Energy.',
       },
       {
-        title: 'Electrical Integration',
-        description: 'All wiring connections are completed, inverters are installed and connected, and the system is integrated with your building electrical panel. Full electrical testing verifies proper voltage, current, and ground fault protection.'
+        title: 'Solar Shingle Installation to Specification',
+        description:
+          'A Newark Quality Roofing crew installs the building-integrated solar shingle to manufacturer specification — GAF Energy Timberline Solar nails into the field with the same crew and tools as Timberline asphalt shingles — keeping the manufacturer system warranty intact, per GAF Energy.',
       },
       {
-        title: 'Inspection, Interconnection, and Commissioning',
-        description: 'Building and electrical inspections are completed, utility interconnection is activated, net metering is established, and the system is commissioned with monitoring configured for ongoing performance tracking.'
-      }
+        title: 'Wiring, Rapid Shutdown, and Inspection',
+        description:
+          'A Newark Quality Roofing crew coordinates the array wiring to NEC 690.12 rapid shutdown, which drops conductors to 30 volts or less outside and 80 volts or less inside the array boundary within 30 seconds, then schedules the electrical and building inspection, per the NEC and UL 3741.',
+      },
     ],
     faqs: [
       {
-        question: 'How do solar shingles compare to traditional solar panels in terms of energy production?',
-        answer: 'Solar shingles currently produce slightly less energy per square foot than the most efficient traditional solar panels, with typical efficiencies around 14 to 17 percent compared to 19 to 22 percent for premium panels. However, solar shingles can cover more of your roof area because they are not limited to rectangular panel layouts, partially offsetting the efficiency difference. For many homes, solar shingles can still offset a substantial portion of electricity usage while providing a much more integrated appearance.'
+        question: 'What is a solar shingle and how does it differ from solar panels?',
+        answer:
+          '**A solar shingle is building-integrated photovoltaics, BIPV, where the photovoltaic material is the roof covering itself, while solar panels are building-applied photovoltaics, BAPV, rack-mounted hardware added on top of an existing roof.** A solar shingle replaces the roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS.',
       },
       {
-        question: 'Can solar shingles be installed on any type of roof?',
-        answer: 'Solar shingles are designed for steep-slope roofs and install similarly to conventional asphalt shingles. They work best on roofs with standard pitches between 3/12 and 12/12. They are not suitable for flat or low-slope roofs, metal roofs, or tile roofs. The roof must be in condition for full replacement since solar shingles replace the roofing material rather than mounting over it. During our assessment, we verify that your roof is compatible with the solar shingle products available.'
+        question: 'Are solar shingles more efficient than solar panels?',
+        answer:
+          '**Solar shingles are less efficient and cost more per watt than solar panels, clustering around 14% to 18% module efficiency against more than 20% for premium panels.** Solar shingles run about $3.50 to $8.00 per watt against about $2.50 to $4.00 per watt for panels — a solar shingle is an integration choice, per SolarReviews, EnergySage, and NREL.',
       },
       {
-        question: 'Are solar shingles more expensive than regular panels?',
-        answer: 'On a standalone comparison, solar shingles cost more per watt of generating capacity than traditional panels. However, when you factor in that solar shingles replace roofing material you would otherwise need to purchase, the net cost difference narrows substantially. For homeowners who need both a new roof and solar energy, the combined cost of a solar shingle roof is often comparable to or only slightly more than a new conventional roof plus a traditional panel system installed separately.'
+        question: 'Should you repair or replace your roof before solar shingles?',
+        answer:
+          '**Replace the roof with the solar shingle as one project, because a solar shingle is building-integrated photovoltaics that serve as the roof covering and pair with a new roof or full reroof.** CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed and the DOE Office of Energy Efficiency and Renewable Energy.',
       },
       {
-        question: 'How long do solar shingles last?',
-        answer: 'Solar shingles from major manufacturers carry warranties of 25 to 30 years for both weather protection and energy production, similar to traditional solar panel warranties. The roofing warranty covers wind, rain, and hail resistance, while the power warranty guarantees a minimum energy production level over the warranty period. With no moving parts and proven photovoltaic technology, solar shingles are expected to continue functioning well beyond their warranty period.'
+        question: 'Is there a federal tax credit for solar shingles in 2026?',
+        answer:
+          '**No federal residential solar tax credit applies to a system completed after December 31, 2025, because the IRS reports the section 25D residential clean energy credit, the 30% credit available through 2025, is repealed under the One Big Beautiful Bill.** A business-owned commercial system follows the section 48E credit, per the IRS.',
       },
       {
-        question: 'What happens if a solar shingle is damaged by a storm?',
-        answer: 'Individual damaged solar shingles can be replaced without disturbing the surrounding shingles or the overall system, similar to replacing a damaged conventional shingle. The modular nature of solar shingle systems means that a single damaged unit can be swapped out and reconnected electrically without significant labor or disruption. Our roofing expertise ensures that the replacement maintains both weather protection and electrical continuity with the rest of the system.'
+        question: 'What New Jersey incentives apply to a solar shingle installation?',
+        answer:
+          '**New Jersey applies the Successor Solar Incentive program paying a fixed per-megawatt-hour SREC-II incentive over a 15-year term, plus net metering, a sales-tax exemption through Form ST-4, and a property-tax exemption through Form CRES.** The Successor Solar Incentive program is administered by the NJ Board of Public Utilities, and Newark Quality Roofing refers rate questions to the NJ Clean Energy Program, per the NJ Board of Public Utilities and the NJ Division of Taxation.',
       },
       {
-        question: 'How much does solar shingle installation cost in Essex County, NJ?',
-        answer: 'Most solar shingle installation projects in Essex County range from $25,000–$50,000, integrated solar shingle system. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your solar shingle installations?',
-        answer: 'Homeowners love our **solar shingle** installations for their *invisible clean energy*. Reviews praise how solar shingles look like traditional roofing while generating power.',
+        question: 'How much roof area does a solar shingle system need?',
+        answer:
+          '**A 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet of panels, roughly 44% more roof area, because solar shingles generate about 16.7 watts per square foot.** The area figure traces to SolarReviews from the GAF Energy datasheet, per SolarReviews and GAF Energy.',
       },
       {
-        question: 'How experienced is your solar shingle team?',
-        answer: 'Our **solar shingle** specialists are trained on the latest integrated solar products. With over 15 years of roofing experience, we ensure *proper electrical integration and weatherproofing* for reliable long-term performance.',
+        question: 'How much does a solar shingle installation cost in Essex County, NJ?',
+        answer:
+          '**Solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, roughly 1.5 to 2 times the per-watt cost, per EnergySage, SolarReviews, and WattBuild.** Roof size, pitch, product, and reroof scope set the total. Newark Quality Roofing provides a free written estimate.',
       },
     ],
-  
-    pricing: {
-      range: '$25,000–$50,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Solar Shingle Installation',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: 'Free written estimate; solar shingles ~$3.50–$8.00/W installed',
+      factors: [
+        'Solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, roughly 1.5 to 2 times the per-watt cost, per EnergySage, SolarReviews, and WattBuild.',
+        'Roof area drives cost, because a 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet of panels, roughly 44% more area, per SolarReviews from the GAF Energy datasheet.',
+        'Product selection sets the wattage and price: GAF Energy Timberline Solar rates 57 watts per shingle, Tesla Solar Roof 72 watts per active tile, and CertainTeed Solstice 70 watts per shingle, per each manufacturer.',
+        'A solar shingle pairs with a reroof, so the roof tear-off and deck repair add to the photovoltaic cost, because a solar shingle replaces the roof covering, per the DOE Office of Energy Efficiency and Renewable Energy.',
+        'No federal residential solar tax credit offsets a 2026 system, because the IRS reports the section 25D credit is repealed for systems completed after December 31, 2025; New Jersey net metering, the SREC-II incentive, and the sales-tax and property-tax exemptions remain, per the IRS and the NJ Board of Public Utilities.',
+      ],
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Solar Shingle Installation?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Roof-First Solar Integration',
+          description:
+            'Newark Quality Roofing replaces the roof covering with the building-integrated solar shingle during a reroof, because a solar shingle is the roof covering itself, per the DOE Office of Energy Efficiency and Renewable Energy.',
+        },
+        {
+          title: 'Honest Panel Comparison',
+          description:
+            'Newark Quality Roofing states the per-watt cost and efficiency of a solar shingle honestly against rack-mounted panels, because solar shingles cost roughly 1.5 to 2 times the per-watt cost and produce less per square foot, per SolarReviews and EnergySage.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing installs solar shingles across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 3. Energy Efficient Roofing Solutions ────────────────────────────────
+  // ─── 3. Energy Efficient Roofing Solutions ───
   {
     serviceId: 'energy-efficient-roofing-solutions',
+    directAnswer:
+      '**Newark Quality Roofing provides energy efficient roofing solutions across Newark and Essex County, installing cool reflective membranes and coatings, above-deck insulation, radiant barriers, and balanced attic ventilation** as a New Jersey Home Improvement Contractor.',
     overview: [
-      'Energy-efficient roofing encompasses a broad range of materials, technologies, and design strategies that reduce the energy consumed by your building\'s heating and cooling systems through improved thermal performance of the roof assembly. In the Newark and **Essex County** area, where summer temperatures regularly exceed 90 degrees and winter temperatures drop well below freezing, the roof is the largest single surface exchanging heat with the exterior environment, making it the most impactful target for energy efficiency improvements. Newark Quality Roofing specializes in selecting and installing roofing systems that minimize this heat exchange, lowering your energy bills, extending the life of your HVAC equipment, and improving the comfort of your indoor environment year-round.',
-      'Energy-efficient roofing is not a single product but rather an integrated approach that considers the reflectivity of the roof surface, the thermal resistance of the insulation, the ventilation of the roof assembly, and the radiant barrier properties of the underlayment working together as a system. A **cool roof** coating that reflects solar heat is less effective without adequate insulation below it, and the best insulation performs poorly without proper ventilation to manage moisture. Our comprehensive approach evaluates and optimizes all these factors to deliver meaningful energy savings rather than relying on any single component.',
-      'The financial incentives for energy-efficient roofing in New Jersey are substantial. The New Jersey Clean Energy Program offers rebates for qualifying energy improvements, and Energy Star-rated roofing products may qualify for federal tax credits. Beyond these immediate incentives, the reduction in energy consumption lowers your utility bills month after month, year after year, providing ongoing returns on your roofing investment. For commercial property owners, energy-efficient roofing also contributes to LEED certification credits and meets increasingly common tenant expectations for sustainable building practices.',
-      'Essex County\'s position in climate zone 4A creates unique energy demands that make roofing efficiency improvements particularly impactful. The region experiences approximately 4,800 heating degree days and 1,100 cooling degree days annually, meaning the roof assembly works against significant temperature differentials for the majority of the year. Urban heat island effects in the Newark core elevate summer roof surface temperatures 5 to 10 degrees above suburban locations, amplifying cooling loads on commercial buildings in the city center. Our energy-efficient roofing designs account for these localized climate factors, selecting materials and insulation levels calibrated to the specific thermal challenges your building faces rather than relying on generic national energy code minimums that may underperform in our demanding Northeast climate.'
+      '**Newark Quality Roofing installs 5 energy efficient roofing solutions across Essex County: white reflective TPO and PVC membrane, reflective elastomeric coatings, continuous above-deck insulation, radiant barriers, and attic ventilation with code-minimum ceiling insulation** — for residential and commercial properties. Energy efficient roofing combines a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow, two separate levers that lower roof surface temperature and the cooling load beneath the roof.',
+      'A cool roof works on 2 measured radiative properties: solar reflectance, the fraction of solar energy the roof reflects on a 0-to-1 scale, and thermal emittance, how efficiently the surface re-radiates absorbed heat on a 0-to-1 scale, per the EPA and the CRRC. The EPA calls solar reflectance the most important characteristic of a cool roof, and the CRRC-1 Rated Products Directory lists the initial and 3-year aged reflectance and emittance of rated products, reporting performance only rather than declaring a product cool, per the CRRC.',
     ],
-    signsHeading: 'Signs Your Roof Is Wasting Energy',
+    subServices: [
+      {
+        name: 'Cool reflective membrane',
+        description:
+          'Cool reflective membrane installs a white TPO or PVC single-ply system with roughly 0.70-to-0.85 initial solar reflectance and 0.80-to-0.90 thermal emittance measured per ASTM C1549, CRRC-listed, on a low-slope commercial roof, per the CRRC and ASTM.',
+      },
+      {
+        name: 'Reflective roof coating',
+        description:
+          'Reflective roof coating restores a low-slope roof with a white elastomeric coating that lowers surface temperature through reflectance and emittance; the coating adds no R-value, because savings come from reflecting sunlight rather than added insulation, per the RCMA, the DOE, and the CRRC.',
+      },
+      {
+        name: 'Above-deck insulation',
+        description:
+          'Above-deck insulation adds continuous rigid board over the roof deck to raise conductive resistance, the R-value lever that governs heat flow through the assembly separate from the reflectance lever at the surface, per the DOE.',
+      },
+      {
+        name: 'Radiant barrier',
+        description:
+          'Radiant barrier installs a low-emittance reflective layer in the attic to reduce radiant heat transfer to the conditioned space below, one of the cool-roof levers the DOE names alongside reflective surfaces and insulation, per the DOE.',
+      },
+      {
+        name: 'Attic ventilation and ceiling insulation',
+        description:
+          'Attic ventilation and ceiling insulation pairs balanced intake-and-exhaust airflow with code-minimum ceiling insulation; the 2021 IECC Table R402.1.3 sets ceiling R-60 for Climate Zones 4 and 5, with an R-49 full-ceiling exception at raised-heel eaves, per the 2021 IECC and the NJ DCA.',
+      },
+    ],
+    signsHeading: 'Signs You Need Energy Efficient Roofing Solutions',
     signs: [
-      'Noticeably higher heating and cooling bills compared to similar-sized properties in your area, which may indicate that your roof assembly is allowing excessive heat transfer between your conditioned space and the exterior environment.',
-      'Rooms directly below the roof feel significantly warmer in summer and cooler in winter than the rest of your building, suggesting inadequate roof insulation, poor ventilation, or excessive radiant heat transfer through the roof assembly.',
-      'Your existing roof surface is dark colored and absorbs solar heat rather than reflecting it, raising attic temperatures dramatically in summer and forcing your air conditioning system to work overtime to maintain comfortable indoor temperatures.',
-      'Aging or missing insulation in your attic space, which can be identified by visible gaps, compressed batts, settled blow-in insulation, or attic floor areas where insulation is thin or absent.',
-      'Ice dam formation along the roof edges in winter, indicating heat loss from the living space through the roof, which not only wastes energy but also creates conditions for water damage as ice dams trap meltwater behind the dam.',
-      'Your HVAC system runs constantly during extreme temperature periods without maintaining comfortable temperatures, suggesting that the building envelope, particularly the roof, is losing conditioned air or admitting unconditioned air at a rate that overwhelms the HVAC capacity.'
+      '**A dark conventional roof surface reaching over 150°F on a sunny afternoon** signals a roof rejecting little solar heat, because a reflective roof can stay over 50°F cooler than a conventional roof, per the DOE.',
+      '**A top-floor or top-story space that overheats under summer sun** indicates a roof transferring solar heat into the conditioned space, the load a high-reflectance surface reduces by lowering roof surface temperature, per the EPA and the DOE.',
+      '**A low-slope commercial roof with a weathered dark or aged membrane** signals lost reflectance, because a clean white roof reflecting 80% of sunlight stays roughly 55°F, or 31°C, cooler than a gray roof reflecting 20%, per the LBNL Heat Island Group.',
+      '**Ceiling insulation below the code-minimum depth** marks an under-insulated assembly, because the 2021 IECC Table R402.1.3 sets ceiling R-60 for Climate Zones 4 and 5, with an R-49 full-ceiling exception at raised-heel eaves, per the 2021 IECC.',
+      '**Rising summer cooling demand in an air-conditioned building** points to a heat-absorbing roof, because a cool roof can reduce peak cooling demand by 11-to-27% in air-conditioned residential buildings, per the EPA.',
+      '**An attic with blocked, missing, or unbalanced intake-and-exhaust ventilation** traps heat and moisture against the deck, the condition balanced attic ventilation paired with code-minimum ceiling insulation corrects, per the DOE.',
     ],
-    approachHeading: 'Our Comprehensive Energy Efficiency Approach',
+    approachHeading: 'How We Install Energy Efficient Roofing Solutions',
     approachContent: [
-      'We begin every energy-efficient roofing project with a building envelope assessment that identifies the specific energy weaknesses in your current roof system. This assessment evaluates roof surface reflectivity, insulation R-value and coverage, ventilation adequacy, air sealing integrity, and radiant barrier presence to create a baseline understanding of your roof\'s thermal performance. We then prioritize improvements based on their impact per dollar invested, so your budget delivers the maximum energy savings possible.',
-      'Cool roofing products are a cornerstone of our energy-efficient approach. Cool roofs use highly reflective surfaces and high thermal emittance to reduce the amount of solar energy absorbed by your roof, keeping the roof surface and the space below it significantly cooler. We offer cool-rated asphalt shingles, metal roofing in reflective finishes, cool roof coatings for flat roofs, and tile products that meet Energy Star reflectivity standards. For New Jersey\'s climate, we balance cooling benefits with heating season considerations, selecting products that optimize year-round performance.',
-      'Insulation improvements deliver the most consistent energy savings across all seasons. We assess your current insulation and recommend upgrades where the existing R-value falls below current code requirements or best practices for our climate zone. Options include blown-in cellulose or fiberglass, spray foam for maximum R-value per inch, rigid foam board for flat roof applications, and batt insulation for accessible attic spaces. We ensure proper installation techniques that eliminate gaps, compression, and thermal bridging.',
-      'Ventilation optimization ties the energy efficiency system together by managing moisture and temperature extremes in the attic space. Proper ventilation prevents summer heat buildup that drives cooling costs and winter moisture accumulation that degrades insulation performance. We design ventilation systems that work with your insulation and roof surface improvements rather than undermining them, creating a coordinated roof assembly that performs efficiently in every season.'
+      '**Newark Quality Roofing measures the roof against 2 separate energy levers — surface reflectance and emittance, and conductive R-value — because reflectance governs solar heat gain at the surface while R-value governs conductive heat flow through the assembly.** Solar reflectance and thermal emittance combine into the Solar Reflectance Index per ASTM E1980 on a 0-to-100 nominal scale, with reflectance measured per ASTM C1549 and emittance per ASTM C1371, per ASTM and the CRRC. A reflective coating changes the surface radiative properties and adds no R-value, so a Newark Quality Roofing assessment specifies the reflective surface and the insulation as separate measures, per the RCMA and the DOE.',
+      '**Newark Quality Roofing selects CRRC-listed reflective products and sizes insulation to the Essex County climate zone, because Newark sits in IRC and IECC Climate Zone 4A-to-5, a heating-dominated mixed climate.** A reflective roof reduces peak summer cooling demand but carries a winter heating penalty in a heating-dominated climate, so the net annual benefit depends on the climate and the insulation, per the DOE and the EPA. The ENERGY STAR roof products program ended, with new certifications stopping June 1, 2021 and recognition ending June 1, 2022, so a Newark Quality Roofing specification references the CRRC-1 rating rather than an ENERGY STAR roof label, per the EPA and the CRRC.',
+      '**Newark Quality Roofing installs the reflective membrane, coating, insulation, and ventilation to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** A white TPO or PVC membrane carries roughly 0.70-to-0.85 initial solar reflectance and 0.80-to-0.90 thermal emittance measured per ASTM C1549, CRRC-listed, and balanced attic ventilation pairs with the 2021 IECC ceiling R-60 minimum for Climate Zones 4 and 5, per the CRRC, ASTM, and the 2021 IECC. Newark Quality Roofing installs Firestone, Carlisle, and Johns Manville membrane systems on low-slope commercial roofs.',
     ],
-    approachSubheadings: ['Cool Roof Technology', 'Reflective Coating Systems', 'Insulation Upgrade Options'],
+    approachSubheadings: [
+      'Reflectance and R-Value Assessment',
+      'Climate-Zone Product Selection',
+      'Installation to Manufacturer Specification',
+    ],
     residential: {
-      heading: 'Energy-Efficient Roofing for Your Home',
+      heading: 'Residential Energy Efficient Roofing',
       content: [
-        'For homeowners across Essex County, energy-efficient roofing improvements are among the most cost-effective upgrades available, delivering ongoing savings that compound year after year. Unlike kitchen or bathroom renovations that enhance livability but do not reduce operating costs, energy-efficient roofing actually pays you back through lower utility bills while simultaneously improving your home\'s comfort and value. In our New Jersey climate with its hot summers, cold winters, and significant temperature swings in between, the roof is the single most important element in your home\'s thermal envelope.',
-        'When it is time for a roof replacement, choosing energy-efficient materials adds only a modest premium to the project cost while delivering decades of energy savings. Even without a full replacement, improvements such as attic insulation upgrades, ventilation enhancements, and radiant barrier installation can substantially reduce your energy consumption. We help homeowners identify the improvements that deliver the biggest return for their specific home and budget, providing clear cost-versus-savings projections for each option.',
-        'The comfort improvements from energy-efficient roofing are often as valued as the cost savings. Rooms that were always too hot in summer or too cold in winter become comfortable year-round, eliminating the hot spots and cold zones that make parts of your home unpleasant to use. Your HVAC system runs less frequently and operates more efficiently, reducing wear and extending its service life. These quality-of-life improvements make energy-efficient roofing one of the most satisfying home improvement investments.',
-        'For homeowners considering solar panel installation in the future, upgrading your roof\'s energy efficiency first creates a foundation that maximizes the value of solar by reducing the system size needed to offset your energy consumption. A well-insulated, properly ventilated roof with a cool surface coating requires less electricity for heating and cooling, meaning a smaller and less expensive solar array can achieve complete energy independence. We help homeowners plan this phased approach to whole-house energy optimization, ensuring each investment builds on the one before it.'
+        '**Newark Quality Roofing installs energy efficient roofing on detached one- and two-family homes across Essex County, pairing a reflective roof surface with above-deck insulation, a radiant barrier, and code-minimum ceiling insulation.** A re-roof or repair of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code, so a Newark Quality Roofing energy upgrade to the covering proceeds without a permit while the insulation meets the 2021 IECC ceiling R-60 minimum for Climate Zones 4 and 5.',
+        'A reflective roof reduces peak summer cooling demand by 11-to-27% in air-conditioned residential buildings, per the EPA, and carries a winter heating penalty in the Essex County heating-dominated climate, so a Newark Quality Roofing residential design balances the reflective surface against the ceiling insulation for the climate, per the DOE. The federal residential solar credit was 30% for systems completed through 2025 and the federal residential insulation credit applied through property placed in service in 2025, and both credits are repealed for 2026, per the IRS; Newark Quality Roofing installs eligible equipment and refers a homeowner to a tax professional rather than advising on tax credits.',
       ],
-      ctaLabel: 'Get an Energy Efficiency Assessment'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial Energy-Efficient Roofing Solutions',
+      heading: 'Commercial Energy Efficient Roofing',
       content: [
-        'For commercial property owners and managers, energy costs are a significant and ongoing operating expense that directly impacts profitability and property value. Energy-efficient roofing improvements reduce these costs predictably and permanently, improving your building\'s net operating income and increasing its capitalized value. In an era when tenants increasingly expect and demand sustainable building practices, energy-efficient roofing also strengthens your competitive position in the commercial real estate market.',
-        'Commercial buildings offer particularly strong returns on energy-efficient roofing investments because of their larger roof areas, higher cooling loads, and eligibility for commercial energy tax deductions. Cool roof coatings on flat commercial roofs can reduce cooling costs by 15 to 30 percent, and upgraded insulation brings additional savings throughout the year. These improvements often qualify for utility rebates through the New Jersey Clean Energy Program and can contribute to LEED certification points that attract premium tenants.',
-        'We work with commercial clients to develop energy-efficient roofing strategies that align with their building improvement plans, budget cycles, and tenant requirements. Whether you are addressing energy efficiency during a scheduled roof replacement or implementing targeted improvements on an existing roof, we provide engineering-based recommendations and professional installation that delivers measurable results.'
+        '**Newark Quality Roofing installs energy efficient roofing on commercial low-slope roofs across Essex County, applying white reflective TPO and PVC membrane or a reflective elastomeric coating with CRRC-listed reflectance and emittance.** A white PVC or TPO membrane carries roughly 0.70-to-0.85 initial solar reflectance and 0.80-to-0.90 thermal emittance measured per ASTM C1549, and a reflective coating lowers membrane temperature through reflectance and emittance while adding no R-value, per the CRRC, ASTM, the RCMA, and the DOE.',
+        'A reflective commercial roof cuts peak cooling demand and lowers the membrane operating temperature, with the net annual benefit smaller in the Essex County heating-dominated Climate Zone 4-to-5, per the RCMA and the DOE. The federal commercial Clean Electricity Investment Credit under §48E remains for business-owned solar, and §179D is a whole-building deduction measured against ASHRAE 90.1 rather than a standalone roof credit, per the IRS; Newark Quality Roofing installs Firestone, Carlisle, and Johns Manville membrane systems and refers an owner to a tax professional.',
       ],
-      ctaLabel: 'Request Commercial Energy Assessment'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
         title: 'Energy Assessment',
-        description: 'We evaluate your current roof system\'s thermal performance including surface reflectivity, insulation R-value, ventilation capacity, and air sealing integrity. Utility bill analysis establishes your baseline energy consumption.'
+        description:
+          'A Newark Quality Roofing technician assesses the roof against 2 levers — surface reflectance and emittance, and conductive R-value — and checks ceiling insulation against the 2021 IECC R-60 minimum for Climate Zones 4 and 5, per the 2021 IECC and the DOE.',
       },
       {
-        title: 'Improvement Recommendations',
-        description: 'Based on the assessment, we prioritize improvements by energy savings impact per dollar invested, providing clear projections for each option so you can make informed decisions about which upgrades to pursue.'
+        title: 'Product Selection from the CRRC Directory',
+        description:
+          'A Newark Quality Roofing estimate specifies CRRC-listed reflective membrane or coating with named initial and 3-year aged reflectance and emittance, because the CRRC-1 Rated Products Directory reports product performance measured per ASTM C1549 and ASTM C1371, per the CRRC and ASTM.',
       },
       {
-        title: 'Material Selection',
-        description: 'We specify Energy Star-rated and cool-rated roofing products, appropriate insulation materials, and ventilation components that work together as an integrated system optimized for New Jersey\'s climate.'
+        title: 'Surface Preparation',
+        description:
+          'A Newark Quality Roofing crew cleans and dries the existing roof, repairs seams, splits, and flashing, and reinforces details before a field coating, because a clean dry surface is required even for a ponding-resistant reflective coating, per the RCMA.',
       },
       {
-        title: 'Professional Installation',
-        description: 'All energy efficiency improvements are installed according to manufacturer specifications and building science best practices, with attention to the details that determine real-world performance: proper coverage, no gaps, no compression.'
+        title: 'Reflective Surface and Insulation Installation',
+        description:
+          'A Newark Quality Roofing crew installs the white reflective membrane or coating, the above-deck insulation, and the radiant barrier to manufacturer specification, keeping the surface reflectance and the conductive R-value as separate measures, per the RCMA and the DOE.',
       },
       {
-        title: 'Verification and Documentation',
-        description: 'Post-installation performance is verified through temperature measurements and visual inspection. Documentation is provided for rebate applications, tax credit claims, and building performance records.'
-      }
+        title: 'Ventilation and Ceiling Insulation',
+        description:
+          'A Newark Quality Roofing crew balances attic intake-and-exhaust ventilation and brings ceiling insulation to the 2021 IECC R-60 minimum for Climate Zones 4 and 5, with the R-49 full-ceiling exception at raised-heel eaves, per the 2021 IECC and the DOE.',
+      },
+      {
+        title: 'Verification and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies the install against manufacturer specification, confirms the reflective surface and insulation are complete, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty.',
+      },
     ],
     faqs: [
       {
-        question: 'What is the most cost-effective energy efficiency improvement for my roof?',
-        answer: 'For most properties in Essex County, attic insulation upgrades deliver the highest return on investment because they reduce both heating and cooling costs and their benefits are immediate and year-round. If your attic insulation is less than 12 inches deep or has gaps and thin spots, upgrading to current code-minimum levels is typically the single best energy investment you can make. Cool roof surface improvements offer the next-best return, particularly for buildings with high cooling loads.'
+        question: 'Does a cool roof save energy in the New Jersey climate?',
+        answer:
+          '**A cool roof reduces peak summer cooling demand by 11-to-27% in air-conditioned residential buildings, per the EPA, and carries a winter heating penalty in the Essex County heating-dominated climate, per the DOE.** The net annual benefit depends on the climate and the insulation, so Newark Quality Roofing balances the reflective surface against the ceiling insulation for the Essex County climate.',
       },
       {
-        question: 'What is a cool roof and does it work in New Jersey winters?',
-        answer: 'A cool roof has a highly reflective surface that reduces solar heat absorption, keeping the roof and building cooler in summer. In New Jersey, cool roofs provide significant cooling savings in summer, and the wintertime heating penalty from reflecting solar warmth is relatively small because winter sun angles are low and days are short. Studies show that the net annual energy savings from cool roofs in our climate zone are positive, with summer cooling savings substantially outweighing any minor winter heating increase.'
+        question: 'Should you repair or replace your roof?',
+        answer:
+          '**Replace a roof when damage exceeds 25-to-30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the damage stays localized on a covering under 10-to-15 years old.** An energy upgrade pairs with a replacement when the existing roof reaches the end of service, because a new reflective membrane and full insulation install at once, and the 25-to-30% area rule and the 50% cost rule are contractor-consensus thresholds.',
       },
       {
-        question: 'Does energy-efficient roofing qualify for tax credits or rebates?',
-        answer: 'Yes, several incentives are available. Energy Star-rated roofing products may qualify for federal tax credits. The New Jersey Clean Energy Program offers rebates for qualifying energy improvements in residential and commercial buildings. Commercial properties can also take advantage of the Section 179D energy-efficient commercial building deduction. We provide documentation of qualifying products and improvements to support your incentive applications.'
+        question: 'What makes a roof a cool roof?',
+        answer:
+          '**A cool roof combines high solar reflectance, the fraction of solar energy reflected on a 0-to-1 scale, with high thermal emittance, the rate the surface re-radiates absorbed heat, per the EPA and the CRRC.** Solar reflectance and thermal emittance combine into the Solar Reflectance Index per ASTM E1980, and the EPA calls solar reflectance the most important characteristic of a cool roof.',
       },
       {
-        question: 'Can I improve my roof\'s energy efficiency without replacing it?',
-        answer: 'Absolutely. Several improvements can be made without a full roof replacement, including adding attic insulation, improving roof ventilation, installing radiant barriers, and applying cool roof coatings to flat or low-slope roofs. These measures can substantially reduce energy costs and improve comfort without the investment of a complete roof replacement. We assess which improvements are feasible for your specific situation and provide cost-effective recommendations.'
+        question: 'Does a reflective roof coating add insulation or R-value?',
+        answer:
+          '**A reflective roof coating adds no meaningful R-value, because the coating changes the surface radiative properties — solar reflectance and thermal emittance — rather than conductive resistance, per the RCMA, the DOE, and the CRRC.** Energy savings come from reflecting sunlight and lowering roof surface temperature, and a separate above-deck or ceiling insulation layer carries the R-value, per the DOE.',
       },
       {
-        question: 'How much can I save on energy costs with an energy-efficient roof?',
-        answer: 'Energy savings vary depending on your current roof condition, building type, and the specific improvements made. Typical residential savings from a comprehensive energy-efficient roofing upgrade range from 15 to 30 percent of annual heating and cooling costs. Commercial buildings with large roof areas and high cooling loads can see even greater percentage reductions. We provide projected savings estimates based on your building\'s characteristics and local energy costs during our assessment.'
+        question: 'Is an ENERGY STAR roof rating still available?',
+        answer:
+          '**The ENERGY STAR roof products program ended, with new certifications stopping June 1, 2021 and recognition ending June 1, 2022, per the EPA, so the CRRC-1 rating is the successor.** The CRRC-1 Rated Products Directory lists initial and 3-year aged solar reflectance and thermal emittance measured per ASTM C1549 and ASTM C1371, reporting product performance, per the CRRC.',
       },
       {
-        question: 'How much does energy efficient roofing solutions cost in Essex County, NJ?',
-        answer: 'Most **energy efficient roofing** solutions projects in Essex County range from $10,000–$28,000, cool-roof or reflective systems. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your energy efficient roofing?',
-        answer: 'Property owners rate our **energy efficient roofing** for *measurable cost savings*. Reviews frequently cite 20-30% reductions in cooling costs after installing reflective roofing systems.',
+        question: 'What tax incentives apply to energy efficient roofing in New Jersey?',
+        answer:
+          '**The federal residential solar credit was 30% for systems completed through 2025 and the federal residential insulation credit applied through 2025, and both credits are repealed for 2026, per the IRS.** New Jersey offers the Successor Solar Incentive program administered by the NJ Board of Public Utilities, net metering under N.J.S.A. 48:3-87, a solar sales-tax exemption claimed via NJ Form ST-4, and a solar property-tax exemption claimed via NJ Form CRES; Newark Quality Roofing refers a customer to a tax professional.',
       },
       {
-        question: 'How experienced is your energy efficiency team?',
-        answer: 'Our **energy efficient roofing** specialists have over 15 years of experience with cool roofs, reflective coatings, and insulated systems. This expertise helps us recommend the *right energy solution* for your building type and budget.',
+        question: 'How much do energy efficient roofing solutions cost in Essex County, NJ?',
+        answer:
+          '**Energy efficient roofing cost varies by roof size, the reflective product, and the insulation scope, because a white membrane, a reflective coating, above-deck insulation, and ceiling insulation price separately.** Newark Quality Roofing provides a free written estimate that sets the reflective surface and the insulation scope for the Essex County climate before any work begins.',
       },
     ],
-  
-    pricing: {
-      range: '$10,000–$28,000',
-      factors: [
-        'Roof size and square footage',
-        'Material selection and quality grade',
-        'Complexity of roof design (pitch, valleys, penetrations)',
-        'Current condition and extent of existing damage',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Energy Efficient Roofing Solutions',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: 'Free written estimate; cost varies by roof size, reflective product, and insulation scope',
+      factors: [
+        'A white reflective TPO or PVC membrane prices by roof area and membrane thickness, carrying roughly 0.70-to-0.85 initial solar reflectance and 0.80-to-0.90 thermal emittance measured per ASTM C1549, CRRC-listed.',
+        'A reflective elastomeric coating prices by roof area and dry-film thickness and adds no R-value, because the coating lowers surface temperature through reflectance rather than insulation, per the RCMA and the DOE.',
+        'Above-deck insulation and ceiling insulation price by the R-value target, with the 2021 IECC setting ceiling R-60 for Climate Zones 4 and 5 and an R-49 full-ceiling exception at raised-heel eaves, per the 2021 IECC.',
+        'Attic ventilation and radiant-barrier work price by attic area and access, the levers the DOE names alongside reflective surfaces and insulation, per the DOE.',
+        'New Jersey roofing ranges sit above national figures because of higher labor and stricter NJ code, and Newark Quality Roofing provides a free written estimate.',
+      ],
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Energy Efficient Roofing Solutions?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'CRRC-Referenced Cool-Roof Specification',
+          description:
+            'Newark Quality Roofing specifies CRRC-listed reflective membrane and coating with named reflectance and emittance, because the ENERGY STAR roof products program ended in 2021 and the CRRC-1 rating is the successor, per the EPA and the CRRC.',
+        },
+        {
+          title: 'Climate-Zone Insulation Sizing',
+          description:
+            'Newark Quality Roofing sizes ceiling insulation to the 2021 IECC R-60 minimum for the Essex County Climate Zones 4 and 5 and balances the reflective surface against the winter heating penalty, per the 2021 IECC and the DOE.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing installs energy efficient roofing on residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 4. Silicone Roof Coating ─────────────────────────────────────────────
+// ─── 4. Silicone Roof Coating ───
   {
     serviceId: 'silicone-roof-coating',
+    directAnswer:
+      '**Newark Quality Roofing provides silicone roof coating across Newark and Essex County, restoring low-slope and flat roofs with a liquid-applied silicone membrane that resists ponding water and reflects sunlight** as a New Jersey Home Improvement Contractor.',
     overview: [
-      '**Silicone roof coating** is a liquid-applied, fully adhered **roof restoration** system that transforms aging flat and low-slope roofs into high-performance, **reflective**, waterproof surfaces without the cost and disruption of a full roof replacement. Applied as a liquid that cures into a seamless, flexible membrane, silicone coating bridges cracks, seals seams, and creates a continuous waterproof barrier across the entire roof surface. For property owners in the Newark and **Essex County** area, silicone coating represents one of the most cost-effective approaches to extending the life of a flat roof by 10 to 20 years while simultaneously improving energy efficiency through its highly reflective white surface that reduces cooling costs by reflecting solar radiation away from the building.',
-      'Unlike acrylic and other water-based roof coatings that can wash off during cure and degrade in standing water, silicone coatings are moisture-cured and remain stable in ponding water conditions, making them the superior choice for flat roofs in New Jersey where heavy rainfall events are common and some degree of ponding is inevitable despite proper drainage design. Silicone also maintains its flexibility and reflectivity over time without chalking, cracking, or becoming brittle, even through the extreme temperature swings our region experiences between summer and winter seasons.',
-      'Newark Quality Roofing has applied silicone roof coatings to hundreds of flat and low-slope roofs throughout Essex County, giving us deep experience in surface preparation, application techniques, and the long-term performance of these systems under real New Jersey weather conditions. We work with premium silicone coating products from manufacturers who back their systems with comprehensive warranties, and we follow strict application protocols that ensure the coating achieves the thickness, adhesion, and coverage necessary for reliable long-term performance.',
-      'The environmental advantages of silicone coating extend beyond energy savings from the reflective surface. By restoring an existing roof rather than tearing it off and replacing it, coating eliminates the landfill waste generated by full replacement, which can amount to several tons of material for a typical commercial building. The reduced material and labor requirements also lower the carbon footprint of the project compared to new construction. For property owners pursuing sustainability goals or LEED certification, silicone coating restoration earns credits for waste diversion, reduced material use, and enhanced energy performance, combining environmental responsibility with sound financial management.'
+      '**Newark Quality Roofing restores low-slope and flat commercial roofs across Essex County with silicone roof coating, a liquid-applied silicone membrane governed by ASTM D6694 that seals seams, splits, and flashings under one monolithic surface.** Silicone roof coating recoats an existing roof in place rather than tearing it off, extending service life at a fraction of replacement cost and keeping the old roof out of landfill, per the RCMA.',
+      'Silicone roof coating cures by reacting with atmospheric moisture as a single-component moisture-cure system, which allows application in colder and higher-humidity conditions than water-evaporation acrylics, per Henry and the RCMA. A 100% silicone coating carries a hydrophobic silicon-oxygen backbone that resists permanent and standing water without softening or losing adhesion, the property that separates silicone restoration from water-based coatings on ponding-prone Essex County flat roofs, per the RCMA, Gaco, Tremco, Henry, and GE/Momentive.',
+    ],
+    subServices: [
+      {
+        name: 'Ponding-resistant silicone restoration',
+        description:
+          'Ponding-resistant silicone restoration coats a flat roof where water stands after rain, because a 100% silicone coating resists permanent and standing water without softening, while water-based acrylic re-emulsifies under continuous immersion, per the RCMA, Gaco, Tremco, and Henry.',
+      },
+      {
+        name: 'Reflective cool-roof silicone coating',
+        description:
+          'Reflective cool-roof silicone coating lowers roof surface temperature with an initial solar reflectance near 0.80 to 0.88 and thermal emittance near 0.85 to 0.92, per the CRRC, Henry, and Mule-Hide, with a reflective roof staying more than 50°F cooler than a conventional roof on a sunny afternoon, per the DOE.',
+      },
+      {
+        name: 'Seam, split, and flashing reinforcement',
+        description:
+          'Seam, split, and flashing reinforcement repairs and embeds reinforcing fabric at the details before the field coat, because even ponding-resistant silicone needs a clean dry surface and reinforced details, per the RCMA, Gaco, and Henry.',
+      },
+      {
+        name: 'Silicone recoat of an existing coated roof',
+        description:
+          'Silicone recoat of an existing coated roof renews a maintained silicone roof at the 15 to 20 year interval, because cured silicone is recoated with silicone rather than torn off, and a recoated roof is recoated again, per the RCMA and Gaco.',
+      },
+      {
+        name: 'Spray polyurethane foam recoat',
+        description:
+          'Spray polyurethane foam recoat reapplies the protective silicone topcoat that keeps a UV-sensitive SPF roof serviceable, on a recoat cycle near 15 to 20 years for silicone, per the SPFA and manufacturer guidance.',
+      },
     ],
     signsHeading: 'Signs Your Flat Roof Is a Candidate for Silicone Coating',
     signs: [
-      'Your flat or low-slope roof membrane is aging and showing surface deterioration such as cracking, crazing, or granule loss, but the underlying structure and insulation are still in good condition, making full replacement premature.',
-      'Seams, flashings, and penetrations on your flat roof are developing leaks as the original adhesives and sealants age, creating multiple small leak points across the roof surface that individual repairs cannot keep up with.',
-      'Your energy bills are higher than expected because the dark-colored or weathered roof surface absorbs solar heat, transferring it into the building and forcing air conditioning systems to work harder during warm months.',
-      'Water ponds on sections of your flat roof for extended periods after rainfall, creating areas of concentrated moisture exposure where most coating types would fail but silicone maintains its integrity.',
-      'Previous roof coating applications have failed, chalked, or washed off, possibly because a water-based acrylic product was used that could not withstand ponding water conditions common on your roof.',
-      'You want to extend your roof\'s lifespan without the major capital expenditure, tenant disruption, and construction waste associated with a full tear-off and replacement.'
+      '**Standing water that ponds on a flat roof section more than 48 hours after rain** marks a roof for silicone restoration, because a 100% silicone coating resists permanent and standing water without softening, while a flat roof needs at least ¼ inch per foot of slope to drain, per the RCMA and NRCA.',
+      '**Aging seams, splits, and lifted flashings leaking across the field** signal a coating candidate, because silicone roof coating seals every seam and detail under one monolithic membrane rather than chasing individual repairs, per the RCMA.',
+      '**A dark or weathered low-slope roof driving high peak-summer cooling demand** favors a reflective silicone coating, because a cool roof reduces peak cooling demand by 11 to 27% in air-conditioned residential buildings, per the EPA.',
+      '**A prior water-based acrylic coating that has softened, chalked, or washed off in ponded areas** indicates the wrong chemistry for the roof, because acrylic re-emulsifies under continuous immersion and most acrylic warranties exclude ponded areas, per the RCMA and Western Colloid.',
+      '**A sound roof deck and dry insulation under a deteriorated membrane surface** makes restoration the economical path, because recoating extends service life at a fraction of tear-off cost and avoids landfill, per the RCMA.',
+      '**A spray polyurethane foam roof with an eroded topcoat** needs recoating, because foam is UV-sensitive and stays serviceable only while the protective coating is maintained, on a silicone recoat cycle near 15 to 20 years, per the SPFA and NRCA.',
     ],
     approachHeading: 'Professional Silicone Roof Coating Application',
     approachContent: [
-      'Surface preparation is the single most important factor in the long-term success of any roof coating application, and we invest significant time and effort in this critical step. The existing roof surface must be clean, dry, and free of all contaminants, loose material, and failed previous coatings before silicone application. We use commercial pressure washing, scraping, and priming to prepare the substrate, and we perform adhesion testing to verify that the silicone will bond properly to the existing membrane material.',
-      'Repairs to the existing roof are completed before coating application. All damaged sections, failed seams, cracked flashings, and deteriorated penetration seals are repaired or replaced using compatible materials. These pre-coating repairs are essential because the silicone coating seals over the existing surface, and any defects left beneath it will eventually telegraph through and compromise the coating system. We also address drainage issues, adding tapered insulation or crickets where ponding water indicates inadequate slope.',
-      'The silicone coating is applied in multiple coats to achieve a uniform total thickness that meets the manufacturer\'s specification for full warranty coverage, typically 20 to 30 mils dry film thickness. We use airless spray equipment for uniform application on large field areas and roller application for detail areas around penetrations, edges, and flashings. Reinforcing fabric is embedded in the coating at seams, transitions, and other high-stress areas to provide additional crack-bridging capability.',
-      'The completed coating system creates a seamless, UV-resistant, highly reflective surface that waterproofs the entire roof while reflecting up to 85 percent of solar energy. This dual benefit of waterproofing and energy savings makes silicone coating one of the highest-return roof improvements available for flat and low-slope buildings in our climate. The bright white finish also enhances visibility for rooftop maintenance personnel working during daylight hours, improving safety on the roof surface.'
+      '**Newark Quality Roofing cleans and dries the roof, repairs the seams, splits, and flashings, and runs an adhesion test before any field coat, because a clean dry surface and reinforced details govern coating performance.** Newark Quality Roofing pressure-washes the roof and lets the surface dry fully, because a primer is no substitute for thorough cleaning, per the RCMA, Gaco, and Henry. Newark Quality Roofing verifies adhesion before full application with a 24-hour adhesion test, and an aged asphalt surface takes an epoxy primer to stop bleed-through, per Gaco.',
+      '**Newark Quality Roofing applies high-solids silicone to the manufacturer dry-film thickness, near 1.5 gallons per 100 square feet for roughly 22 dry mils, because warranty term scales with film thickness.** Silicone roof coating is high-solids near 90% with low shrinkage, so one application reaches the specified thickness, per Gaco, Henry, and Mule-Hide. A renewable warranty term scales with dry-film thickness, near 10 to 15 years at 20 to 22 mils and 15 to 20 years at 30 mils, per the RCMA, Henry, Mule-Hide, and Gaco.',
+      '**Newark Quality Roofing coats for reflectance and surface-temperature reduction, not for added insulation, because a silicone coating changes surface radiative properties rather than conductive resistance.** A white silicone coating carries an initial solar reflectance near 0.80 to 0.88 and emittance near 0.85 to 0.92, per the CRRC, Henry, and Mule-Hide, and reflectance drops faster than emittance as silicone holds dirt, near 0.88 to 0.73 at 3 years for Henry Tropi-Cool, per the CRRC and Henry. A silicone coating adds no meaningful R-value, and energy benefit comes from reflectance and a lower roof surface temperature, never from insulation, per the RCMA, DOE, and CRRC.',
     ],
-    approachSubheadings: ['UV-Resistant Silicone Application', 'Aging Roof Restoration', 'Cost-Effective Alternative to Replacement'],
+    approachSubheadings: [
+      'Surface Preparation and Adhesion Testing',
+      'Dry-Film Thickness and Warranty Term',
+      'Reflectance and Surface-Temperature Reduction',
+    ],
     residential: {
-      heading: 'Silicone Roof Coating for Residential Properties',
+      heading: 'Silicone Roof Coating for Residential Flat Roofs',
       content: [
-        'Many homes in the Newark area have flat or low-slope roof sections over additions, garages, porches, and contemporary-design main roofs that are prime candidates for silicone roof coating. These residential flat roof areas often develop leaks at aging seams and flashings, and homeowners face the choice between expensive full replacement and a more economical coating restoration that can extend the roof\'s service life by a decade or more while improving its weather resistance and energy performance.',
-        'Silicone coating is particularly valuable for residential flat roofs because it eliminates every seam, lap, and penetration seal on the existing roof surface under a continuous, monolithic membrane. This is important because the seams and laps in flat roofing membranes are the most common leak sources, and coating over them with reinforced silicone provides a level of waterproofing that the original installation may not have achieved. The reflective white surface also reduces heat gain through flat roof sections, keeping rooms below noticeably cooler in summer.',
-        'Our residential silicone coating projects are typically completed in one to two days with minimal disruption to your household. There are no heavy materials to hoist, no loud tear-off demolition, and no construction debris to manage. The coating cures to foot traffic within hours and reaches full performance within a day, making it one of the quickest and least disruptive roof improvements available.'
+        '**Newark Quality Roofing coats residential low-slope and flat roof sections across Essex County — porch, garage, addition, and row-home flat roofs — with a silicone membrane that seals the aging seams and flashings where these sections leak.** A repair of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code.',
+        'A residential silicone coating resists the standing water that collects on a low-slope porch or addition roof, because a 100% silicone coating resists permanent and standing water without softening, per the RCMA and Gaco. The reflective white surface reduces peak-summer heat gain through the flat section, because a cool roof reduces peak cooling demand by 11 to 27% in air-conditioned residential buildings, per the EPA, with a smaller net annual benefit in Newark’s heating-dominated Climate Zone 4 to 5, per the DOE.',
       ],
-      ctaLabel: 'Get a Roof Coating Estimate'
+      ctaLabel: 'Get a Roof Coating Estimate',
     },
     commercial: {
       heading: 'Commercial Silicone Roof Coating Solutions',
       content: [
-        'For commercial building owners and property managers, silicone roof coating offers a compelling alternative to full roof replacement that saves 50 to 70 percent of replacement cost while providing comparable waterproofing performance and superior energy efficiency. Commercial flat roofs are the ideal application for silicone coating because of their large, relatively unobstructed surfaces that can be coated efficiently, and because the energy savings from the reflective coating surface scale directly with roof area.',
-        'The business case for commercial silicone coating extends beyond direct cost savings. By avoiding full tear-off, you eliminate business disruption from construction noise and activity, avoid landfill disposal of old roofing materials, and complete the project in a fraction of the time required for replacement. Many commercial silicone coating projects can be performed over weekends or during off-hours without any impact on daily business operations, which is particularly valuable for retail, medical, and hospitality properties.',
-        'We work with commercial clients to schedule coating projects during optimal weather windows and phase large projects to accommodate building operations. Our commercial coating applications come with manufacturer-backed warranties of 10 to 20 years depending on the coating system and thickness specified, giving you long-term assurance of waterproofing performance.',
-        'For commercial property managers evaluating capital expenditure versus operating expense treatment, silicone coating often qualifies as a maintenance expenditure rather than a capital improvement, allowing the full cost to be expensed in the year of application rather than depreciated over the roof\'s remaining life. This tax treatment distinction can significantly improve the after-tax return on coating projects compared to full replacement, which must be capitalized. We recommend consulting your tax advisor to confirm the appropriate treatment for your specific situation and building classification.'
+        '**Newark Quality Roofing restores commercial low-slope roofs across Essex County with silicone roof coating, recoating an existing membrane or spray-foam roof in place rather than tearing it off and sending it to landfill.** Recoating extends service life at a fraction of tear-off and replacement cost and avoids landfill disposal, per the RCMA, and a maintained silicone roof is recoated at the 15 to 20 year interval rather than replaced, per the RCMA and Gaco.',
+        'A commercial silicone coating resists the ponding common on a large low-slope roof, because a 100% silicone coating resists permanent and standing water without softening, while a flat roof needs at least ¼ inch per foot of slope to drain, per the RCMA and NRCA. The reflective coating lowers membrane temperature and extends membrane life, and the cool-roof reflectance is listed by the CRRC under ASTM C1549 rather than the retired ENERGY STAR roof program, per the CRRC and EPA.',
+'A commercial coating is typically classified as maintenance rather than a capital improvement, per the RCMA, though the RCMA defers the tax treatment to the building owner’s tax professional. Newark Quality Roofing applies silicone systems from Gaco, Henry, and Mule-Hide and recoats cured silicone with silicone, because cured silicone is not recoated with acrylic or urethane, per Gaco and the RCMA.',
       ],
-      ctaLabel: 'Request Commercial Coating Assessment'
+      ctaLabel: 'Request Commercial Coating Assessment',
     },
     processSteps: [
       {
-        title: 'Roof Inspection and Condition Assessment',
-        description: 'We thoroughly inspect the existing roof membrane, seams, flashings, penetrations, and drainage to determine if the roof is a suitable candidate for coating restoration. Core samples may be taken to assess insulation condition and moisture content.'
+        title: 'Roof Inspection and Coating-Candidate Assessment',
+        description:
+          'A Newark Quality Roofing technician inspects the membrane, seams, flashings, and drainage and confirms the deck and insulation are sound, because recoating fits a roof with surface deterioration over a sound deck, per the RCMA.',
       },
       {
-        title: 'Surface Preparation',
-        description: 'The roof is pressure washed, cleaned of all debris and contaminants, and allowed to dry completely. Failed seams, damaged areas, and deteriorated flashings are repaired with compatible materials before coating.'
+        title: 'Cleaning and Drying',
+        description:
+          'A Newark Quality Roofing crew removes debris, pressure-washes the roof, and lets the surface dry fully, because a primer is no substitute for thorough cleaning and even ponding-resistant silicone needs a clean dry surface, per the RCMA, Gaco, and Henry.',
       },
       {
-        title: 'Primer Application',
-        description: 'Where required by the manufacturer for the specific substrate type, primer is applied to ensure optimal adhesion between the existing membrane and the silicone coating system.'
+        title: 'Detail Repair and Reinforcement',
+        description:
+          'A Newark Quality Roofing crew repairs seams, splits, and flashings and embeds reinforcing fabric at the details, because the seams and flashings are the most common leak points and silicone seals them under one monolithic membrane, per the RCMA.',
       },
       {
-        title: 'Reinforcement and Detail Work',
-        description: 'Polyester reinforcing fabric is embedded in the coating at all seams, penetrations, transitions, and high-stress areas. This fabric provides additional strength and crack-bridging capability at these vulnerable locations.'
+        title: 'Adhesion Test and Primer',
+        description:
+          'A Newark Quality Roofing crew verifies adhesion before full application with a 24-hour adhesion test and primes where the substrate requires it, because an aged asphalt surface takes an epoxy primer to stop bleed-through, per Gaco.',
       },
       {
-        title: 'Silicone Coating Application',
-        description: 'Multiple coats of silicone coating are applied using airless spray equipment to achieve the specified total dry film thickness. Each coat is applied uniformly and allowed appropriate cure time before the next application.'
+        title: 'Silicone Field Application',
+        description:
+          'A Newark Quality Roofing crew sprays high-solids silicone near 1.5 gallons per 100 square feet to roughly 22 dry mils, because warranty term scales with dry-film thickness, near 10 to 15 years at 20 to 22 mils and 15 to 20 years at 30 mils, per the RCMA, Henry, Mule-Hide, and Gaco.',
       },
       {
-        title: 'Quality Inspection and Warranty',
-        description: 'Final thickness measurements verify specification compliance. The completed system is inspected for uniform coverage and proper detail work. Manufacturer warranty documentation is processed and provided to the building owner.'
-      }
+        title: 'Thickness Verification and Warranty',
+        description:
+          'A Newark Quality Roofing lead confirms the dry-film thickness against the manufacturer specification, documents uniform coverage, and processes the manufacturer warranty, the term that scales with the verified film thickness, per the RCMA and Henry.',
+      },
     ],
     faqs: [
       {
+        question: 'Does silicone roof coating hold up in ponding water?',
+        answer:
+          '**A 100% silicone roof coating resists permanent and standing water without softening or losing adhesion, the property that separates silicone from water-based coatings on ponding-prone flat roofs.** A hydrophobic silicon-oxygen backbone stays stable in water, UV, and heat, while water-based acrylic re-emulsifies under continuous immersion and most acrylic warranties exclude ponded areas, per the RCMA, Gaco, and Western Colloid.',
+      },
+      {
+        question: 'Should you repair or replace your roof?',
+        answer:
+          '**Silicone roof coating restores a roof when the deck and insulation stay sound and only the membrane surface has deteriorated; full replacement fits a wet or deteriorated insulation layer or a damaged deck.** Recoating extends service life at a fraction of tear-off and replacement cost and avoids landfill, and a maintained silicone roof is recoated at the 15 to 20 year interval, per the RCMA and Gaco.',
+      },
+      {
         question: 'How long does a silicone roof coating last?',
-        answer: 'A properly applied silicone roof coating typically lasts 10 to 20 years depending on the thickness applied and the level of foot traffic and environmental exposure. At the end of the coating\'s service life, the roof can be recoated with a fresh layer of silicone at a fraction of the original cost, further extending the roof\'s total lifespan. This recoating capability makes silicone an excellent long-term investment because each recoat is simpler and less expensive than the original application.'
+        answer:
+          '**A silicone roof coating carries a renewable 10, 15, or 20 year manufacturer warranty, with the term scaling to dry-film thickness — near 10 to 15 years at 20 to 22 mils and 15 to 20 years at 30 mils.** A maintained silicone roof is recoated with silicone at the end of the term rather than torn off, and a recoated roof is recoated again, per the RCMA, Henry, Mule-Hide, and Gaco.',
       },
       {
-        question: 'Can silicone coating be applied over any type of flat roof?',
-        answer: 'Silicone coating can be applied over most common flat roof membranes including EPDM, TPO, PVC, modified bitumen, built-up roofing, and metal. However, each substrate requires specific surface preparation and may need primer for proper adhesion. Silicone cannot be applied over existing acrylic coatings without removal because silicone does not adhere well to acrylic surfaces. Our inspection determines your substrate type and the appropriate preparation protocol.'
+        question: 'Does silicone roof coating lower energy costs?',
+        answer:
+          '**A reflective white silicone coating lowers roof surface temperature, with a reflective roof staying more than 50°F cooler than a conventional roof on a sunny afternoon, per the DOE.** A cool roof reduces peak cooling demand by 11 to 27% in air-conditioned residential buildings, per the EPA, a peak-demand figure rather than an annual bill. A silicone coating adds no meaningful R-value, and the benefit comes from reflectance, not insulation, with a smaller net annual benefit in Newark’s heating-dominated climate, per the RCMA and DOE.',
       },
       {
-        question: 'Is silicone roof coating worth the investment compared to full replacement?',
-        answer: 'For roofs where the existing structure and insulation are in good condition and only the membrane surface has deteriorated, silicone coating saves 50 to 70 percent compared to full tear-off and replacement while providing excellent waterproofing and energy efficiency. If the underlying insulation is wet or deteriorated, or the deck structure is damaged, full replacement is the better investment. Our inspection identifies which approach is right for your specific roof condition.'
-      },
-      {
-        question: 'Does silicone coating hold up in ponding water?',
-        answer: 'Yes, this is one of silicone\'s key advantages over other roof coating types. Silicone is inherently resistant to ponding water and does not absorb moisture, swell, or degrade when standing water sits on its surface for extended periods. This makes silicone the preferred coating choice for flat roofs in New Jersey where heavy rainfall and imperfect drainage create ponding conditions that would damage acrylic or other water-based coatings.'
-      },
-      {
-        question: 'How much does silicone roof coating reduce energy costs?',
-        answer: 'The highly reflective white surface of silicone coating reflects up to 85 percent of solar energy that would otherwise be absorbed by a dark roof surface. This can reduce roof surface temperatures by 50 to 60 degrees Fahrenheit compared to a dark membrane, translating to cooling cost reductions of 15 to 30 percent depending on your building type, insulation level, and HVAC efficiency. The energy savings alone can offset a significant portion of the coating cost over its service life.'
+        question: 'Can silicone coating be recoated with acrylic later?',
+        answer:
+          '**Cured silicone is recoated with silicone, not with acrylic or urethane, because coatings adhere to silicone only as silicone, and switching away from silicone generally requires removal first.** A silicone roof recoats over silicone after cleaning, which keeps each renewal simpler than the original application, per Gaco and the RCMA.',
       },
       {
         question: 'How much does silicone roof coating cost in Essex County, NJ?',
-        answer: 'Most silicone roof coating projects in Essex County range from $3–$6/sq ft, extends roof life 10–15 years. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your silicone coating service?',
-        answer: 'Commercial building owners praise our **silicone roof coating** for *extending roof life 10-15 years* without full replacement. Reviews highlight the energy savings from reflective properties and seamless waterproofing.',
+        answer:
+          '**Silicone roof coating cost depends on roof size, the dry-film thickness specified, and the surface preparation the existing roof requires, and Newark Quality Roofing provides a free written estimate.** Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill disposal, per the RCMA.',
       },
       {
-        question: 'How experienced is your silicone coating team?',
-        answer: 'Our **silicone coating** specialists have over 15 years of experience restoring commercial roofs. This expertise ensures *proper mil-thickness application, surface preparation, and primer selection* for lasting adhesion.',
+        question: 'What standard governs silicone roof coating?',
+        answer:
+          '**ASTM D6694 governs liquid-applied silicone coating for spray-polyurethane-foam roofing, with the principal polymer more than 95% silicone.** The cool-roof reflectance and emittance of a silicone coating are rated by the Cool Roof Rating Council under ASTM C1549, the successor program to the retired ENERGY STAR roof label, per ASTM and the CRRC.',
       },
     ],
-  
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
     pricing: {
-      range: '$3–$6/sq ft',
+      range: 'Free written estimate — priced by roof size, dry-film thickness, and surface prep',
       factors: [
-        'Roof size and square footage',
-        'Material selection and quality grade',
-        'Complexity of roof design (pitch, valleys, penetrations)',
-        'Current condition and extent of existing damage',
+        'Roof size and square footage set the silicone volume, near 1.5 gallons per 100 square feet for roughly 22 dry mils, per Gaco and Henry.',
+        'Dry-film thickness sets the warranty term, near 10 to 15 years at 20 to 22 mils and 15 to 20 years at 30 mils, per the RCMA, Henry, Mule-Hide, and Gaco.',
+        'Surface preparation adds cost when seams, splits, and flashings need repair before the field coat, because a clean dry reinforced surface governs coating performance, per the RCMA and Gaco.',
+        'Substrate condition sets the primer, because an aged asphalt surface takes an epoxy primer to stop bleed-through after a 24-hour adhesion test, per Gaco.',
+        'Recoating restores a roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA.',
       ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
     },
     whyChooseUs: {
       heading: 'Why Choose Newark Quality Roofing for Silicone Roof Coating',
       reasons: [
         {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
         },
         {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+          title: 'Ponding-Resistant Silicone Restoration',
+          description:
+            'Newark Quality Roofing coats ponding-prone flat roofs with 100% silicone, the chemistry that resists permanent and standing water without softening, per the RCMA, Gaco, and Henry.',
         },
         {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
+          title: 'Surface Prep and Adhesion Testing',
+          description:
+            'Newark Quality Roofing cleans and dries the roof, repairs the details, and runs a 24-hour adhesion test before the field coat, because a primer is no substitute for thorough cleaning, per the RCMA and Gaco.',
         },
         {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing restores commercial and residential low-slope roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
         },
       ],
     },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+  },
 
-  // ─── 5. Silicone Elastomeric Roof Coating ─────────────────────────────────
-  {
-    serviceId: 'silicone-elastomeric-roof-coating',
-    overview: [
-      'Silicone **elastomeric roof coating** combines the **waterproof**ing and UV-resistance of silicone chemistry with enhanced elastomeric stretch properties that allow the coating membrane to expand and contract with the roof surface through extreme temperature swings without cracking, splitting, or losing adhesion. This stretch-and-seal capability is particularly valuable in northern New Jersey, where roof surfaces regularly cycle between summer temperatures exceeding 150 degrees Fahrenheit and winter temperatures well below freezing, creating thermal expansion and contraction that stresses any rigid coating or membrane. The elastomeric formulation maintains its protective integrity through these cycles, bridging hairline cracks and movement joints that would defeat less **flexible** coating systems.',
-      'Newark Quality Roofing applies silicone elastomeric coatings as a premium roof restoration solution for flat and low-slope commercial and residential properties throughout **Essex County**. This coating type is our recommendation for roofs with significant thermal movement, buildings with expansion joints in the roof structure, and older flat roofs where the substrate has developed a network of hairline cracks from decades of thermal cycling. The elastomeric properties allow the coating to stretch across these features and maintain a watertight seal even as the underlying materials continue to move with temperature changes.',
-      'The combination of silicone base chemistry and elastomeric performance creates a roof coating that excels in every dimension important for New Jersey flat roof protection: complete waterproofing in standing water conditions, UV stability without chalking or degradation, solar reflectivity for energy savings, and the flexibility to accommodate the building movement that our extreme seasonal temperature range demands. Applied as a liquid that cures into a seamless membrane, it eliminates every seam, lap, and penetration seal on the existing roof under a monolithic barrier that works as hard in year fifteen as it does on day one.',
-      'For building owners evaluating restoration options alongside full replacement, the financial analysis strongly favors elastomeric coating when the existing roof structure and insulation are sound. The installed cost typically runs 40 to 60 percent less than tear-off replacement, the project timeline is measured in days rather than weeks, and the roof generates immediate energy savings from its highly reflective finish. When combined with the ability to recoat at end of service life rather than replacing again, the cumulative lifecycle savings over a 30-year horizon can be substantial, freeing capital for other facility improvements or operational priorities.'
-    ],
-    signsHeading: 'Is Your Roof a Candidate for Elastomeric Coating?',
-    signs: [
-      'Your flat or low-slope roof has developed a network of hairline cracks, alligator patterns, or surface checking from years of thermal expansion and contraction, creating pathways for water infiltration that are too numerous to address with individual repairs.',
-      'Previous roof coating applications have cracked or split because they lacked the elasticity to accommodate the thermal movement of your roof surface, indicating that a more flexible elastomeric formulation is needed for lasting protection.',
-      'Your building has expansion joints, structural movement joints, or a roof surface that exhibits noticeable thermal expansion between early morning and midday, requiring a coating that can stretch and recover without losing adhesion.',
-      'The roof membrane shows signs of UV degradation including fading, chalking, or surface erosion, reducing its effectiveness as a weather barrier and accelerating the approach of costly full replacement.',
-      'Water ponding occurs on your roof after rainfall, requiring a coating that can maintain its waterproofing integrity in prolonged contact with standing water rather than absorbing it and failing like many standard coatings.',
-      'You need to extend the service life of an existing commercial flat roof to align with your capital planning cycle, deferring full replacement by 10 to 15 years while maintaining reliable waterproofing performance.'
-    ],
-    approachHeading: 'Advanced Elastomeric Coating Application Process',
-    approachContent: [
-      'The performance of any elastomeric coating system depends fundamentally on the quality of surface preparation and the skill of application. We follow a rigorous preparation protocol that begins with thorough cleaning of the roof surface to remove all dirt, biological growth, oil residues, and loose material that would compromise adhesion. Failed areas of the existing membrane are cut out and patched, deteriorated flashings are replaced, and penetration seals are renewed before any coating is applied. This foundation work ensures the elastomeric coating has a solid, clean base to bond to.',
-      'We apply a primer coat tailored to the specific substrate material, whether it is EPDM, TPO, modified bitumen, built-up roofing, or metal. Proper primer selection and application is critical because the elastomeric coating must adhere tenaciously to the existing surface through the stretching and relaxing cycles that occur with every temperature change. After the primer has cured, we install polyester reinforcing fabric at all seams, flashings, penetrations, and high-stress areas, embedding it in the first coat of elastomeric coating.',
-      'The elastomeric coating is applied in multiple passes using professional airless spray equipment, building up to the specified dry film thickness that provides full waterproofing protection and warranty coverage. Each pass is applied uniformly, and we use wet film thickness gauges to verify proper application rates throughout the process. The multiple-pass approach ensures uniform coverage without holidays or thin spots that could become failure points.',
-      'Detail areas including drains, scuppers, pipe boots, HVAC curbs, parapet walls, and rooftop equipment receive concentrated attention with additional coating layers and reinforcing fabric. These details are the most common leak points on any flat roof, and our protocol provides extra protection at each one. The completed system presents a seamless, brilliant white surface that reflects solar radiation, sheds water, and flexes with the building through every season while maintaining its performance characteristics without degradation for the full duration of the manufacturer warranty period.'
-    ],
-    approachSubheadings: ['Flexible Elastomeric Formula', 'Thermal Expansion Accommodation', 'UV and Weather Protection'],
-    residential: {
-      heading: 'Elastomeric Coating for Residential Flat Roofs',
-      content: [
-        'Homeowners with flat or low-slope roof sections know the challenges of maintaining these areas, where ponding water, UV exposure, and thermal movement combine to test any roofing material. Silicone elastomeric coating provides a permanent solution for residential flat roofs that have reached the midpoint of their lifespan and are beginning to show signs of surface deterioration without full structural failure. Applied over the existing roof in a single-day process, the coating seals every crack, seam, and vulnerable detail under a reflective, waterproof membrane.',
-        'The energy efficiency benefit of the reflective white surface is particularly noticeable on residential flat roofs, where the close proximity of the roof to the living space makes heat transfer a significant comfort and cost factor. Rooms below coated flat roof sections are measurably cooler in summer, and your air conditioning runs less as a result. This improvement in comfort and efficiency happens immediately upon coating application and continues throughout the coating\'s 15 to 20 year service life.',
-        'We apply elastomeric coating to residential flat roof sections of all sizes, from small porch and addition roofs to full-sized flat-roofed homes. The process is clean, quiet, and quick compared to tear-off replacement, making it an excellent option for homeowners who want to restore their flat roof without the extended construction process of a full replacement.'
-      ],
-      ctaLabel: 'Get a Coating Assessment'
+// ─── 5. Silicone Elastomeric Roof Coating ───
+{
+  serviceId: 'silicone-elastomeric-roof-coating',
+  directAnswer:
+    '**Newark Quality Roofing applies silicone elastomeric roof coating on commercial and flat residential roofs across Essex County, selecting the chemistry — silicone or acrylic — that matches the ponding, dirt-pickup, and thermal-movement conditions** as a New Jersey Home Improvement Contractor.',
+  overview: [
+    '**Newark Quality Roofing applies silicone elastomeric roof coating across Essex County and matches the coating chemistry to the roof, because the RCMA recognizes 3 liquid-applied elastomeric coating chemistries: silicone (ASTM D6694), acrylic (ASTM D6083), and polyurethane (ASTM D6947)** — for low-slope commercial and flat residential roofs. An elastomeric roof coating is a liquid-applied membrane that stretches and recovers to accommodate the daily thermal movement of the roof, the property that separates an elastomeric coating from a rigid film.',
+    'Elastomeric describes the high elongation of the cured film: a Simiron TEKTOP silicone coating reaches 279% elongation per ASTM D412, and an Acrymax AF-130FR acrylic coating reaches 220% per ASTM D2370, the manufacturer datasheet values that show each chemistry exceeds elastomeric minimums, per Simiron and Acrymax product data. A silicone elastomeric coating cures by reacting with atmospheric moisture, a single-component moisture-cure that allows colder and higher-humidity application than a water-evaporation acrylic, per Henry and the RCMA, so a Newark Quality Roofing coating selection starts with the roof condition rather than the product.',
+  ],
+  subServices: [
+    {
+      name: 'Silicone elastomeric coating',
+      description:
+        'Silicone elastomeric coating uses a moisture-cure silicone chemistry under ASTM D6694, the high-solids choice that resists permanent standing water without softening, because the hydrophobic Si-O backbone stays stable in water, UV, and heat, per the RCMA, Gaco, Henry, and GE/Momentive.',
     },
-    commercial: {
-      heading: 'Commercial Elastomeric Coating Systems',
-      content: [
-        'Commercial property owners and facility managers recognize silicone elastomeric coating as a strategic asset management tool that extends the productive life of flat roof systems at a fraction of replacement cost. For buildings where the roof structure and insulation remain sound but the membrane surface has deteriorated, elastomeric coating restoration delivers 10 to 15 additional years of reliable waterproofing performance while improving energy efficiency through the reflective surface. This translates directly to improved net operating income through reduced utility costs and deferred capital expenditure.',
-        'The minimal business disruption of coating application is a major advantage for commercial properties where tenant operations, retail traffic, or manufacturing processes cannot tolerate the noise, debris, and extended timeline of full roof tear-off. Our commercial coating crews work systematically across the roof surface, typically completing projects in days rather than weeks, with no interior disruption whatsoever. The coating is odor-free, produces no debris, and creates no safety hazards for occupants below.',
-        'We provide detailed cost-benefit analyses for commercial clients comparing elastomeric coating restoration against full replacement, including life-cycle cost modeling that accounts for recoating intervals, energy savings, and deferred capital investment. For most commercial flat roofs in our service area, the coating approach delivers significantly better financial returns over a 20-year analysis period.',
-        'Our commercial elastomeric coating projects integrate seamlessly with facility maintenance programs, and we offer extended service agreements that include periodic inspections, touch-up maintenance, and recoating services timed to maximize the system\'s protective life. This turnkey approach to long-term roof asset management simplifies vendor coordination for property managers and ensures the coating system continues to perform at its designed level throughout its warranty period and beyond.'
-      ],
-      ctaLabel: 'Request Commercial Coating Analysis'
+    {
+      name: 'Acrylic elastomeric coating',
+      description:
+        'Acrylic elastomeric coating uses a water-dispersed acrylic latex under ASTM D6083, the recoatable choice that re-washes cleaner with rainfall and holds reflectance longer on a draining roof, because acrylic re-emulsifies under continuous immersion and most acrylic warranties exclude ponded areas, per the RCMA and Western Colloid.',
     },
-    processSteps: [
-      {
-        title: 'Comprehensive Roof Survey',
-        description: 'We document existing roof conditions through detailed inspection, core sampling if needed, and moisture scanning to determine the roof\'s suitability for elastomeric coating restoration.'
-      },
-      {
-        title: 'Surface Preparation and Repair',
-        description: 'The roof is pressure washed, all failed areas are repaired, deteriorated flashings are replaced, and the surface is primed with substrate-specific primer to ensure optimal coating adhesion.'
-      },
-      {
-        title: 'Reinforcement Installation',
-        description: 'Polyester reinforcing fabric is applied at all seams, flashings, penetrations, transitions, and expansion joints, embedded in the first coat of elastomeric coating to provide enhanced crack-bridging and tear resistance at high-stress locations.'
-      },
-      {
-        title: 'Multi-Coat Application',
-        description: 'The silicone elastomeric coating is applied in multiple passes using professional airless spray equipment, building to the specified thickness with wet film measurements taken throughout to verify uniform application.'
-      },
-      {
-        title: 'Detail and Penetration Finishing',
-        description: 'All roof penetrations, drains, curbs, and edge conditions receive additional coating layers and sealant application to ensure complete waterproofing protection at these critical detail areas.'
-      },
-      {
-        title: 'Inspection, Documentation, and Warranty',
-        description: 'Final thickness measurements, adhesion verification, and visual inspection confirm specification compliance. Full warranty documentation is provided along with a maintenance schedule for ongoing performance optimization.'
-      }
+    {
+      name: 'Polyurethane elastomeric coating',
+      description:
+        'Polyurethane elastomeric coating uses an ASTM D6947 chemistry with a tensile floor of 1,500 psi, the abrasion-resistant choice for high-traffic detail areas, per the RCMA.',
+    },
+    {
+      name: 'Elastomeric chemistry selection',
+      description:
+        'Elastomeric chemistry selection matches the coating to the roof: silicone over acrylic when ponding or standing water is present, and acrylic over silicone when dirt-pickup and recoatability matter, because silicone holds dirt and loses reflectance faster while acrylic re-washes cleaner, per the RCMA, Henry, and Mule-Hide.',
+    },
+  ],
+  signsHeading: 'Signs Your Roof Suits an Elastomeric Coating',
+  signs: [
+    '**A weathered but structurally sound low-slope membrane with no widespread saturation** suits an elastomeric coating, because a maintained coated roof is recoated rather than replaced at a fraction of tear-off cost and avoids landfill, per the RCMA.',
+    '**Ponding or standing water that lingers on a low-slope roof** points to a silicone elastomeric coating over an acrylic, because water-based acrylic re-emulsifies under continuous immersion and most acrylic warranties exclude ponded areas, per the RCMA and Western Colloid.',
+    '**A dust-prone or tree-shaded roof where reflectance loss from dirt-pickup matters** points to an acrylic elastomeric coating, because acrylic re-washes cleaner with rainfall while silicone holds dirt and loses reflectance faster, per the CRRC, Henry, and Mule-Hide.',
+    '**Daily thermal expansion and contraction opening hairline cracks at seams and details** suits an elastomeric coating, because the cured film stretches to 220–279% elongation and recovers, per Acrymax and Simiron datasheet values measured under ASTM D2370 and ASTM D412.',
+    '**A dark low-slope roof that drives high summer surface temperature** suits a white elastomeric coating, because a white silicone or acrylic coating carries an initial solar reflectance near 0.80–0.88, per the CRRC, which a cool roof uses to reduce peak summer cooling demand by 11–27% in air-conditioned residential buildings, per the EPA.',
+    '**Open seams, splits, and flashing details on an otherwise serviceable membrane** suit a reinforced elastomeric coating, because the RCMA directs repair and reinforcement of seams, splits, and flashing before the field coat, per the RCMA, Gaco, and Henry.',
+  ],
+  approachHeading: 'Our Silicone Elastomeric Roof Coating Approach',
+  approachContent: [
+    '**Newark Quality Roofing selects the elastomeric chemistry from the roof condition, applying the silicone-over-acrylic-when-ponding and acrylic-over-silicone-when-dirt-pickup-matters decision before any coating reaches the roof.** Silicone over acrylic governs a ponding roof, because 100% silicone resists permanent standing water without softening while water-based acrylic re-emulsifies under continuous immersion and most acrylic warranties exclude ponded areas, per the RCMA and Western Colloid. Acrylic over silicone governs a draining dust-prone roof, because acrylic re-washes cleaner with rainfall while silicone holds dirt and loses reflectance faster — a Henry Tropi-Cool silicone drops from 0.88 to 0.73 over 3 years while a Mule-Hide A-300 acrylic drops from 0.87 to 0.75, per the CRRC, Henry, and Mule-Hide.',
+    '**Newark Quality Roofing cleans the membrane, repairs and reinforces the details, then applies the elastomeric coating to the dry-film thickness that sets the warranty length.** A coated roof needs a clean, fully dry surface with seams, splits, and flashing repaired and reinforced before the field coat, because a primer is no substitute for thorough cleaning, per the RCMA, Gaco, and Henry. A high-solids silicone near 90% solids often covers in one coat while a lower-solids acrylic near 50–60% solids usually needs two coats, and the renewable warranty scales with the dry-film thickness on a 10/15/20-year scale, per the RCMA, Gaco, Henry, and Mule-Hide.',
+    '**Newark Quality Roofing frames the elastomeric coating as a reflectance upgrade, not an insulation upgrade, because a coating adds negligible R-value.** An elastomeric coating changes the surface radiative properties — solar reflectance and thermal emittance, with white coatings near 0.85–0.92 emittance per the CRRC and Mule-Hide — and the energy effect comes from a lower roof surface temperature, never from added insulation, per the RCMA, the DOE, and the CRRC. A reflective roof reduces peak summer cooling demand but carries a winter heating penalty in Newark, an IRC Climate Zone 4–5 heating-dominated climate, so the net annual benefit depends on insulation and climate, per the DOE and the RCMA.',
+  ],
+  approachSubheadings: [
+    'Silicone-vs-Acrylic Chemistry Selection',
+    'Surface Prep and Dry-Film-Thickness Application',
+    'Reflectance, Not Insulation, in the NJ Climate',
+  ],
+  residential: {
+    heading: 'Residential Flat and Low-Slope Coating',
+    content: [
+      '**Newark Quality Roofing applies silicone elastomeric roof coating on residential flat and low-slope sections across Essex County — row-home flat roofs, porch and garage low-slope roofs, and multi-family flat roofs.** A residential coating selection matches silicone to a ponding section and acrylic to a draining dust-prone section, and a repair or recoat of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code.',
+      'A residential elastomeric coating restores a weathered but sound low-slope section at a fraction of tear-off cost and avoids landfill, per the RCMA, and a white coating carries an initial solar reflectance near 0.80–0.88, per the CRRC. The cool-roof reflectance reduces peak summer cooling demand by 11–27% in air-conditioned residential buildings, per the EPA, while carrying a winter heating penalty in Newark, an IRC Climate Zone 4–5 heating-dominated climate, so a Newark Quality Roofing coating selection weighs the net annual benefit against insulation and climate, per the DOE.',
     ],
-    faqs: [
+    ctaLabel: 'Get Home Estimate',
+  },
+  commercial: {
+    heading: 'Commercial Elastomeric Roof Coating',
+    content: [
+      '**Newark Quality Roofing applies silicone elastomeric roof coating on commercial low-slope membranes and spray-foam roofs across Essex County, selecting the chemistry from the ponding, dirt-pickup, and thermal-movement condition of the roof.** A 100% silicone coating resists permanent standing water without softening, per the RCMA, Gaco, and GE/Momentive, while an acrylic coating re-washes cleaner on a draining roof, so a Newark Quality Roofing commercial scope matches silicone to a ponding roof and acrylic to a draining one.',
+      'A commercial recoat renews a spray-polyurethane-foam or single-ply roof on a cycle of roughly 10–15 years for acrylic and 15–20 years for silicone, per SPFA and RCMA guidance, and a recoated roof is recoated again rather than torn off. A cured silicone coating is recoated only with silicone, because switching away from silicone generally requires removal first, per Gaco and the RCMA. The RCMA classifies a coating as maintenance and defers the tax treatment to the owner\'s tax professional, so Newark Quality Roofing names the framing rather than the outcome.',
+    ],
+    ctaLabel: 'Get Commercial Quote',
+  },
+  processSteps: [
+    {
+      title: 'Roof Assessment and Chemistry Selection',
+      description:
+        'A Newark Quality Roofing technician assesses the membrane, the ponding pattern, and the dirt-pickup exposure, then selects silicone for a ponding roof and acrylic for a draining dust-prone roof, because acrylic re-emulsifies under immersion while silicone holds dirt, per the RCMA, Western Colloid, and Mule-Hide.',
+    },
+    {
+      title: 'Adhesion Test',
+      description:
+        'A Newark Quality Roofing crew verifies coating adhesion before full application, because an aged asphalt surface takes an epoxy primer to stop bleed-through, with a 24-hour adhesion-test result confirming the bond, per Gaco.',
+    },
+    {
+      title: 'Cleaning and Drying',
+      description:
+        'A Newark Quality Roofing crew removes debris and carefully pressure-washes the roof, then lets the surface dry fully, because a primer is no substitute for thorough cleaning and even a ponding-resistant silicone needs a clean dry surface, per the RCMA, Gaco, and Henry.',
+    },
+    {
+      title: 'Detail Repair and Reinforcement',
+      description:
+        'A Newark Quality Roofing crew repairs and reinforces the seams, splits, and flashing details before the field coat, because the elastomeric film stretches to 220–279% elongation across moving details, per the RCMA and the Acrymax and Simiron datasheet values under ASTM D2370 and ASTM D412.',
+    },
+    {
+      title: 'Field Coating to Dry-Film Thickness',
+      description:
+        'A Newark Quality Roofing crew applies the field coat to the dry-film thickness that sets the warranty, with a high-solids silicone near 90% solids often covering in one coat and a lower-solids acrylic near 50–60% solids usually needing two coats, per Gaco, Henry, and Mule-Hide.',
+    },
+    {
+      title: 'Verification and Renewable Warranty',
+      description:
+        'A Newark Quality Roofing lead verifies the cured film and dry-film thickness, then registers the renewable warranty on the 10/15/20-year scale that lengthens with thickness, the coating a maintained roof recoats again rather than replaces, per the RCMA, Henry, and Mule-Hide.',
+    },
+  ],
+  faqs: [
+    {
+      question: 'Should you choose a silicone or an acrylic elastomeric roof coating?',
+      answer:
+        '**Choose silicone over acrylic when ponding or standing water is present, and acrylic over silicone when dirt-pickup and recoatability matter.** Silicone resists permanent immersion while acrylic re-emulsifies under standing water, and acrylic re-washes cleaner with rainfall while silicone holds dirt and loses reflectance faster, per the RCMA, Western Colloid, Henry, and Mule-Hide.',
+    },
+    {
+      question: 'What makes a roof coating elastomeric?',
+      answer:
+        '**An elastomeric roof coating stretches and recovers to accommodate the daily thermal movement of the roof, with a cured film reaching high elongation.** A Simiron TEKTOP silicone coating reaches 279% elongation per ASTM D412 and an Acrymax AF-130FR acrylic coating reaches 220% per ASTM D2370, the manufacturer datasheet values that exceed elastomeric minimums, per Simiron and Acrymax product data.',
+    },
+    {
+      question: 'Should you repair, recoat, or replace your roof?',
+      answer:
+        '**Recoat a low-slope roof when the membrane stays structurally sound without widespread saturation; replace the roof when saturation spreads or the membrane fails across more than 25–30% of the area.** A maintained coated roof recoats at a fraction of tear-off cost and avoids landfill, and a recoated roof recoats again, per the RCMA.',
+    },
+    {
+      question: 'Does an elastomeric roof coating add R-value or insulation?',
+      answer:
+        '**An elastomeric roof coating adds negligible R-value and does not insulate; the energy effect comes from reflectance and emittance that lower the roof surface temperature.** A white elastomeric coating carries an initial solar reflectance near 0.80–0.88 and an emittance near 0.85–0.92, per the CRRC, never from added conductive resistance, per the RCMA and the DOE.',
+    },
+    {
+      question: 'How much does a silicone elastomeric roof coating cost in Essex County, NJ?',
+      answer:
+        '**A silicone elastomeric roof coating restores a low-slope roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA, and Newark Quality Roofing sets the scope and price in a free written estimate.** Coating cost tracks roof size, chemistry, dry-film thickness, and the prep and detail repair the roof needs.',
+    },
+    {
+      question: 'How long does a silicone elastomeric roof coating last before recoating?',
+      answer:
+        '**A silicone elastomeric coating renews on a cycle of roughly 15–20 years and an acrylic on roughly 10–15 years, with the warranty scaling on a 10/15/20-year scale that lengthens with dry-film thickness.** A cured silicone coating recoats only with silicone, because switching away from silicone generally requires removal first, per the RCMA, Gaco, and Mule-Hide.',
+    },
+    {
+      question: 'Does a white elastomeric coating lower energy use in New Jersey?',
+      answer:
+        '**A white elastomeric coating reduces peak summer cooling demand by 11–27% in air-conditioned residential buildings, per the EPA, while carrying a winter heating penalty in Newark, an IRC Climate Zone 4–5 heating-dominated climate.** The net annual benefit depends on insulation and climate, per the DOE, so the EPA figure measures peak cooling demand, not an annual bill, per the RCMA.',
+    },
+  ],
+  credentialsHighlight: [
+    'NJ HIC Licensed',
+    'Insured',
+    'Free Roof Inspections',
+    'Local Essex County Roofers',
+  ],
+  pricing: {
+    range: 'Free written estimate — a fraction of tear-off and replacement cost',
+    factors: [
+      'A maintained elastomeric coating recoats a sound roof at a fraction of tear-off and replacement cost and avoids landfill, per the RCMA.',
+      'Coating chemistry sets the coverage: a high-solids silicone near 90% solids often covers in one coat while a lower-solids acrylic near 50–60% solids usually needs two coats, per Gaco, Henry, and Mule-Hide.',
+      'Dry-film thickness sets the warranty length on a 10/15/20-year scale, so a thicker film raises both material and cost, per the RCMA, Henry, and Mule-Hide.',
+      'Surface prep, seam and flashing repair, and an epoxy primer over bleed-prone aged asphalt add cost on a roof that needs the extra prep, per the RCMA and Gaco.',
+      'NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per regional NJ cost guidance.',
+    ],
+  },
+  whyChooseUs: {
+    heading: 'Why Choose Our Roofing Company for Silicone Elastomeric Roof Coating?',
+    reasons: [
       {
-        question: 'What makes elastomeric coating different from standard silicone coating?',
-        answer: 'Elastomeric coating is formulated with enhanced elongation properties that allow it to stretch 300 percent or more without cracking or losing adhesion. Standard [silicone coating](/silicone-roof-coating)s offer excellent waterproofing and UV resistance but have more limited stretch capability. The elastomeric formulation is specifically designed for roofs with significant thermal movement, expansion joints, or existing crack patterns that require a coating capable of bridging and accommodating ongoing movement without failure.'
+        title: 'NJ Home Improvement Contractor',
+        description:
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
       },
       {
-        question: 'How does elastomeric coating handle the freeze-thaw cycles in New Jersey?',
-        answer: 'Elastomeric coating excels in freeze-thaw conditions because its flexibility allows it to expand and contract with the roof surface through temperature cycles without cracking. The silicone base chemistry is inherently resistant to water absorption, so frozen moisture on the surface does not damage the coating. This combination of flexibility and moisture resistance makes it one of the most durable coating options for our northern New Jersey climate where freeze-thaw cycling is aggressive and persistent throughout winter months.'
+        title: 'Insured',
+        description:
+          'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
       },
       {
-        question: 'Can elastomeric coating be applied over previously coated roofs?',
-        answer: 'Elastomeric coating can be applied over most existing coating types after proper surface preparation and adhesion testing. If the previous coating was a silicone product, the surface must be thoroughly cleaned and may require a tie coat for adhesion. If it was an acrylic coating, removal may be necessary because silicone products do not adhere well to acrylic surfaces. We test adhesion on your specific roof before specifying the preparation protocol.'
+        title: 'Chemistry-Matched Coating Selection',
+        description:
+          'Newark Quality Roofing selects silicone for a ponding roof and acrylic for a draining dust-prone roof, because acrylic re-emulsifies under immersion while silicone holds dirt, per the RCMA, Western Colloid, and Mule-Hide.',
       },
       {
-        question: 'What is the warranty on elastomeric roof coating?',
-        answer: 'Manufacturer warranties for silicone elastomeric coating systems range from 10 to 20 years depending on the product system and the coating thickness specified. Higher thickness applications qualify for longer warranty terms. These warranties cover waterproofing performance and are backed by major coating manufacturers with established track records. Our workmanship warranty covers the quality of application and detail work for the full product warranty period.'
+        title: 'CRRC-Referenced Reflectance',
+        description:
+          'Newark Quality Roofing references CRRC reflectance and emittance values near 0.80–0.88 and 0.85–0.92 for a white elastomeric coating, the third-party rating system that succeeded the ended ENERGY STAR roof program, per the CRRC.',
       },
       {
-        question: 'How often does elastomeric coating need to be reapplied?',
-        answer: 'A properly applied silicone elastomeric coating typically provides 15 to 20 years of service before recoating is advisable. When recoating time arrives, the process is simpler and less expensive than the original application because the surface preparation is minimal, there are no membrane repairs to make, and a single coat is often sufficient to restore full thickness and performance. This recoatability is one of the key advantages of the silicone elastomeric system over replacement alternatives.'
-      },
-      {
-        question: 'How much does silicone elastomeric roof coating cost in Essex County, NJ?',
-        answer: 'Most silicone elastomeric roof coating projects in Essex County range from $3–$7/sq ft, reflective coating application. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your elastomeric coating?',
-        answer: 'Building owners rate our **elastomeric roof coating** for *flexible waterproofing* that moves with the building. Reviews highlight the extended roof life and energy savings from our coating applications.',
-      },
-      {
-        question: 'How experienced is your elastomeric coating team?',
-        answer: 'Our **elastomeric coating** specialists have over 15 years of experience with flexible coating systems. This expertise ensures *proper application technique, mil thickness, and compatibility testing* with existing roof materials.',
+        title: 'Local Essex County Roofers',
+        description:
+          'Newark Quality Roofing coats residential and commercial low-slope roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
       },
     ],
-  
-    pricing: {
-      range: '$3–$7/sq ft',
-      factors: [
-        'Roof size and square footage',
-        'Material selection and quality grade',
-        'Complexity of roof design (pitch, valleys, penetrations)',
-        'Current condition and extent of existing damage',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Silicone Elastomeric Roof Coating',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],}
+  },
+},
+
 ];
