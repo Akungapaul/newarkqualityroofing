@@ -402,7 +402,7 @@ const rawServices: Service[] = [
     isCommercial: true,
     shortDescription: 'Skylight installation, replacement, and leak repair for natural light and ventilation.',
     metaTitle: 'Skylight Installation & Repair | Newark NJ',
-    metaDescription: 'Skylight installation and repair in Newark NJ. VELUX certified installer. Fixed, vented, and tubular skylight options.',
+    metaDescription: 'Skylight installation and repair in Newark NJ. Fixed, vented, and tubular skylights installed with watertight manufacturer flashing kits.',
   },
   {
     id: 'fascia-installation-repair',
