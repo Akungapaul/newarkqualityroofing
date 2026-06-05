@@ -346,3 +346,29 @@ housing stock often needing extra decking work). [SECONDARY consensus]
 | Test standard | Roof-covering fire class determined by **UL 790 / ASTM E108** (intermittent flame, spread of flame, burning brand) | UL; ASTM; ICC IRC/IBC | [PRIMARY] |
 
 > CORRECTION: earlier draft copy stated "untreated cedar = Class C" — that is FALSE; untreated cedar is nonclassified. FR-treated = Class B/C; Class A is assembly-only.
+
+---
+
+## 6. Commercial single-ply / specialty: PVC & SPF (added 2026-06-05, Batch 3 research)
+
+> Sources: NRCA technical library; Single Ply Roofing Industry; GAF (EverGuard); Duro-Last; Spray Polyurethane Foam Alliance (SPFA); ICC-ES / ASTM C1289 LTTR & ASTM C1549; commercial cost guides (M&M Roofing, WeatherStar). Verified via web research 2026-06-05. Most lifespan/cost figures are industry/manufacturer-cited (not a primary standards body) — cite by name accordingly.
+
+### PVC single-ply membrane
+| Claim | Value | Source | Flag |
+|---|---|---|---|
+| Service life | **20–30 years** typical (premium/thicker membranes longer) | Single Ply Roofing Industry; GAF EverGuard warranties up to 30–35 yr | [SECONDARY-named] |
+| Installed cost | **$6–$12 / sq ft** (clusters ~$8–$12) | commercial cost guides (M&M Roofing; WeatherStar) | [SECONDARY] |
+| Failure modes | plasticizer loss → embrittlement/cracking/pinholes; cold-weather shattering of unreinforced PVC; welded-seam failure | NRCA technical library | [PRIMARY-attrib, qualitative] |
+| Energy | white PVC is a "cool roof": high solar reflectance (~0.70–0.85) + emittance (~0.80–0.90), measured per ASTM C1549, listed by CRRC/ENERGY STAR; strong chemical/grease resistance | Duro-Last; UL/ASTM C1549; CRRC | [SECONDARY-named] |
+| NJ install $/sqft (TPO proxy) | TPO flat **$8–$12/sqft** | Josten Roofing (NJ) | [SECONDARY] |
+
+### Spray Polyurethane Foam (SPF) roofing
+| Claim | Value | Source | Flag |
+|---|---|---|---|
+| Service life | foam layer **30+ years** when the protective coating is maintained | SPFA; SPF manufacturers | [SECONDARY-named] |
+| Recoat / maintenance cycle | **~10–20 years** (acrylic 10–15, silicone 15–20) | manufacturer/SPFA guidance | [SECONDARY-named] |
+| Installed cost | **$4–$8 / sq ft** | commercial cost guides | [SECONDARY] |
+| R-value (closed-cell roofing SPF) | **R-6.0 to R-6.5 per inch (aged)** | ICC-ES reports / ASTM C1289 LTTR; SPFA | [PRIMARY-attrib] |
+| Key facts / failure modes | foam is UV-sensitive and must stay coated; seamless/monolithic + adds insulation; failures = blistering (trapped moisture/poor prep), adhesion loss, coating erosion under ponding; NRCA requires positive drainage | SPFA; NRCA | [PRIMARY-attrib, qualitative] |
+
+> Green/vegetation roof lifespan **5–40 yr** is already in §0 master table (InterNACHI). Commercial metal reuses §3 metal facts. TPO/EPDM/modified-bitumen/BUR are in §4.
