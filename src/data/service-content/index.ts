@@ -43,3 +43,8 @@ export function getServiceContent(serviceId: string): ServiceContent {
   }
   return content;
 }
+
+/** All service-content objects (validated). Used by audits/tooling. */
+export function getAllServiceContent(): ServiceContent[] {
+  return allContent;
+}

@@ -35,3 +35,8 @@ export function getCityContent(cityId: string): CityContent {
   }
   return content;
 }
+
+/** All city-content objects (validated). Used by audits/tooling. */
+export function getAllCityContent(): CityContent[] {
+  return allContent;
+}

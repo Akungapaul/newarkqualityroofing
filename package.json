@@ -12,6 +12,8 @@
     "audit:headings:full": "next build && npm run audit:headings",
     "generate:articles": "tsx scripts/generate-articles-ts.ts > src/data/articles.ts",
     "audit:meta": "tsx scripts/audit-meta.ts",
+    "audit:semantics": "tsx scripts/audit-semantics.ts",
+    "audit:all": "npm run audit:headings && npm run audit:meta && npm run audit:semantics",
     "audit:cannibalization": "tsx scripts/audit-cannibalization.ts",
     "audit:redirects": "tsx scripts/audit-redirects.ts",
     "audit:sitemap": "tsx scripts/audit-sitemap.ts",
