@@ -29,7 +29,7 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Full roof replacement for homes and businesses when repair is no longer cost-effective.',
-    metaTitle: 'Roof Replacement Newark NJ | Top Roofers | NQR',
+    metaTitle: 'Roof Replacement Newark NJ | Free Estimates | NQR',
     metaDescription: 'Full roof replacement in Newark and Essex County. Quality materials, expert installation, and financing options. Get a free quote.',
   },
   {
@@ -41,8 +41,8 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Emergency roof repair for sudden leaks, storm damage, and fallen trees in Essex County.',
-    metaTitle: 'Emergency Roof Repair Newark NJ | 24/7 | NQR',
-    metaDescription: '24/7 emergency roof repair in Newark NJ. Rapid response for storm damage, sudden leaks, and fallen trees. Call now for immediate help.',
+    metaTitle: 'Emergency Roof Repair Newark NJ | Essex County | NQR',
+    metaDescription: 'Emergency roof repair in Newark NJ and Essex County. Rapid response for storm damage, sudden leaks, and fallen trees. Call now for help.',
   },
   {
     id: 'roof-inspection',
@@ -77,8 +77,8 @@ const rawServices: Service[] = [
     isResidential: true,
     isCommercial: true,
     shortDescription: 'Fast, reliable roof leak detection and repair to stop water damage before it spreads.',
-    metaTitle: 'Roof Leak Repair Newark NJ | Same-Day | NQR',
-    metaDescription: 'Expert roof leak repair in Newark and Essex County. We find and fix leaks fast to prevent water damage. Same-day service available.',
+    metaTitle: 'Roof Leak Repair Newark NJ | Free Estimates | NQR',
+    metaDescription: 'Roof leak repair in Newark and Essex County. We find and fix leaks to prevent water damage. Free estimates — call today.',
   },
   {
     id: 'storm-damage-roof-repair',
