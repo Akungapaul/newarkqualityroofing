@@ -331,3 +331,18 @@ housing stock often needing extra decking work). [SECONDARY consensus]
 3. **Repair ROI percentages by material** (e.g. "slate repairs recoup 128%," "tile 112%") — attributed to "Remodeling 2025 Cost vs Value" but Cost vs Value reports roof *replacement*, not per-material *repair* ROI; treat as UNVERIFIED.
 4. **TPO lifespan**: InterNACHI lists 7–20 yr but industry commonly says 15–25 yr — flag the spread when citing.
 5. **NJ slate / cedar / clay-tile *repair* (not install) $ figures** — national figures used as proxy; confirm a NJ-specific source before stating an NJ repair price for these premium materials.
+
+---
+
+## 5b. Wood / cedar — FIRE RATINGS (added 2026-06-05, Batch 2 research)
+
+> Sources: Cedar Shake & Shingle Bureau (CSSB) "Certi-Guard" program; NAHB wildfire-retrofit guidance (citing IRC/IBC); UL 790 / ASTM E108; InterNACHI. Verified via web research 2026-06-05.
+
+| Claim | Value | Source | Flag |
+|---|---|---|---|
+| Untreated cedar shakes/shingles fire class | **Nonclassified / unrated** under UL 790 / ASTM E108 (NOT Class C) | NAHB; CSSB | [PRIMARY-attrib] |
+| Pressure-impregnated fire-retardant (FR) cedar shakes/shingles, as products | **Class B or Class C** | CSSB Certi-Guard | [PRIMARY-attrib] |
+| Class A wood roof | **Assembly only** — Class B FR shakes over a fire-retardant cap sheet (component system); no single shake/shingle is Class A | CSSB Certi-Guard; InterNACHI | [PRIMARY-attrib] |
+| Test standard | Roof-covering fire class determined by **UL 790 / ASTM E108** (intermittent flame, spread of flame, burning brand) | UL; ASTM; ICC IRC/IBC | [PRIMARY] |
+
+> CORRECTION: earlier draft copy stated "untreated cedar = Class C" — that is FALSE; untreated cedar is nonclassified. FR-treated = Class B/C; Class A is assembly-only.
