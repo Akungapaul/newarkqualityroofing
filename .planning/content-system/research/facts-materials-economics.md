@@ -372,3 +372,23 @@ housing stock often needing extra decking work). [SECONDARY consensus]
 | Key facts / failure modes | foam is UV-sensitive and must stay coated; seamless/monolithic + adds insulation; failures = blistering (trapped moisture/poor prep), adhesion loss, coating erosion under ponding; NRCA requires positive drainage | SPFA; NRCA | [PRIMARY-attrib, qualitative] |
 
 > Green/vegetation roof lifespan **5–40 yr** is already in §0 master table (InterNACHI). Commercial metal reuses §3 metal facts. TPO/EPDM/modified-bitumen/BUR are in §4.
+
+---
+
+## 7. Infrared / thermal roof moisture surveys (added 2026-06-05, Batch 4 research)
+
+> Sources: ASTM C1153 (primary standard); ASTM D7954 (nuclear, companion); NRCA; IIBEC/RCI; FLIR & Fluke application notes. Verified via web research 2026-06-05. For the `roof-thermal-imaging-inspections` and `infrared-roof-leak-detection` service pages.
+
+| Claim | Value | Source | Flag |
+|---|---|---|---|
+| Governing standard | **ASTM C1153** "Standard Practice for Location of Wet Insulation in Roofing Systems Using Infrared Imaging" — the most commonly used standard for IR roof moisture inspection | ASTM; NRCA | [PRIMARY] |
+| Companion methods | ASTM D7954 (nuclear moisture surveys); capacitance/moisture meters (e.g. Tramex) for confirmation | ASTM; industry | [PRIMARY/SECONDARY] |
+| Physics | wet insulation has higher heat capacity and cools more slowly than dry; after sunset dry insulation releases heat fast while wet areas stay warmer, producing warm anomalies on a thermal scan | Fluke; IIBEC | [SECONDARY-named] |
+| Non-destructive | IR survey is non-destructive/non-intrusive; evaluates surface thermal patterns without opening the assembly | NRCA; IIBEC | [PRIMARY-attrib] |
+| Verification required | ASTM C1153 requires suspected wet areas be verified by core cut, probe, or calibrated moisture meter — thermal anomalies are not diagnostic alone | ASTM C1153; Fluke | [PRIMARY] |
+| Optimal conditions | no appreciable precipitation ~48 hours prior; dry surface (no standing water/snow/debris); wind under ~15 mph; adequate temperature differential (commonly ~10°C/18°F); clear sunny day + clear night; scan after sunset | ASTM C1153 via IIBEC/NRCA/Fluke | [PRIMARY-attrib] |
+| What it detects / not | locates subsurface wet/moisture-contaminated insulation, not the leak entry point itself (the wet area can be displaced from the breach); detects temperature patterns, not water directly | Fluke; IIBEC; NRCA | [SECONDARY-named] |
+| Sensitivity / contrast | modern IR imagers resolve ~±0.2°F; wet-area anomalies range ~0.5°F to 30°F; winter differential ~5°F vs ~20°F in summer (harder in cold) | IIBEC; Fluke | [SECONDARY-named] |
+| Efficiency | fast broad-area scanning of large low-slope roofs; more efficient than point-by-point moisture-meter surveys | IIBEC; NRCA | [SECONDARY-named, qualitative] |
+
+> Commercial-services repair/replacement/installation reuse §0/§3/§4/§6 membrane + economics facts and facts-cost-stats.md.
