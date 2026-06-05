@@ -9,12 +9,44 @@ interface ServiceApproachProps {
   imagePosition?: 'above' | 'below';
 }
 
-function boldFirstSentence(text: string) {
+/**
+ * Splits the leading answer sentence from the remainder so the answer can be
+ * rendered bold. Authors wrap the answer in **…** markdown. The closing **
+ * may sit mid-sentence (e.g. "…storm damage** — for residential …properties.")
+ * or at the sentence end (e.g. "…drip point.** Water enters…"). In both cases
+ * the surrounding ** must be stripped — never rendered as literal asterisks —
+ * and the full answer sentence bolded with no stray ** leaking downstream.
+ */
+function splitAnswer(text: string): { answer: string | null; rest: string } {
+  if (text.startsWith('**')) {
+    const close = text.indexOf('**', 2);
+    if (close !== -1) {
+      const inner = text.slice(2, close);
+      const rest = text.slice(close + 2);
+      // If the bolded span does not already end in sentence punctuation, the
+      // answer sentence continues past the closing ** — pull that tail into
+      // the bolded answer. Otherwise the bolded span is the whole sentence.
+      if (!/[.!?]$/.test(inner.trimEnd())) {
+        const tail = rest.match(/^(\s*[^.!?]*[.!?])([\s\S]*)/);
+        if (tail) {
+          return { answer: inner + tail[1], rest: tail[2].replace(/^\s+/, '') };
+        }
+      }
+      return { answer: inner, rest: rest.replace(/^\s+/, '') };
+    }
+  }
   const match = text.match(/^(.*?[.!?])\s*([\s\S]*)/);
-  if (!match) return <>{parseRichText(text)}</>;
+  if (!match) return { answer: null, rest: text };
+  return { answer: match[1], rest: match[2] };
+}
+
+function boldFirstSentence(text: string) {
+  const { answer, rest } = splitAnswer(text);
+  if (answer === null) return <>{parseRichText(text)}</>;
   return (
     <>
-      <strong className="text-forest">{match[1]}</strong> {parseRichText(match[2])}
+      <strong className="text-forest">{parseRichText(answer)}</strong>
+      {rest ? <> {parseRichText(rest)}</> : null}
     </>
   );
 }
