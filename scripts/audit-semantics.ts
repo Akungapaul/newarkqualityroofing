@@ -98,8 +98,10 @@ const DEFAB: Array<[string, RegExp]> = [
   ['Master Elite', /\bmaster[-\s]elite\b/i],
   ['0% financing', /\b0\s*%?\s*(?:percent\s*)?financing\b/i],
   ['top-rated', /\btop[-\s]rated\b/i],
-  // trust-count claims ("500+ projects", "15+ years") — NOT prices like "$1,000+ for repairs"
-  ['N+ trust count', /\b\d+\+\s*(?:years?|projects?|roofs?|homes?|homeowners?|jobs?|customers?|clients?|installs?|installations?|reviews?|five[-\s]star)\b/i],
+  // NQR tenure claim ("15+ years of experience") — NOT material lifespans ("tile lasts 75+ years")
+  ['N+ experience claim', /\b\d+\+\s*years?\s+(?:of\s+)?(?:experience|in business|in the (?:roofing\s+)?(?:business|industry)|serving)/i],
+  // trust-count claims ("500+ projects/roofs/reviews") — NOT prices ("$1,000+") or lifespans
+  ['N+ count claim', /\b\d+\+\s*(?:projects?|roofs?|homes?|homeowners?|jobs?|customers?|clients?|installs?|installations?|reviews?|five[-\s]star)\b/i],
   ['fake NAP', /123\s+main\s+st|\(973\)\s*555-0123/i],
 ];
 const SENTIMENT = /\b(best|amazing|trusted|leading|premier|top[-\s]rated|unbeatable|world[-\s]class|stunning|incredible|exceptional|renowned|cutting[-\s]edge|game[-\s]changing|top\s+roofers)\b/gi;
