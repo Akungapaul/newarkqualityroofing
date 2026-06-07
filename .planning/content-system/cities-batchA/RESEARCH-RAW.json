@@ -1,0 +1,911 @@
+{
+ "research": [
+  {
+   "city": "Newark, NJ",
+   "demographics": [
+    {
+     "claim": "2020 Decennial Census total population",
+     "value": "311,549 (Census reference date April 1, 2020) — confirms the ~311,549 baseline; Newark is New Jersey's most populous city",
+     "source": "U.S. Census Bureau QuickFacts, Newark city, NJ (2020 Decennial Census); corroborated by Wikipedia and Essex County profile",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Land area",
+     "value": "24.14 square miles of land (total area ~25.89 sq mi including ~1.75 sq mi water). 2010 land area was 24.19 sq mi.",
+     "source": "U.S. Census Bureau QuickFacts / TIGER-Line geography; Wikipedia (Census geographic data)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Population density (2020)",
+     "value": "~12,904 persons per square mile (12,903.8) — a dense urban core, far above the metro average",
+     "source": "U.S. Census Bureau QuickFacts (2020 population / 24.14 sq mi land)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Essex County seat and largest municipality",
+     "value": "Newark is the county seat of Essex County and its largest municipality; Essex County 2020 population 863,728",
+     "source": "Essex County profile; Wikipedia (Census-derived)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Owner-occupied housing unit rate",
+     "value": "24.4% (2020–2024 ACS 5-year) — a predominantly renter city (~3/4 renter-occupied)",
+     "source": "U.S. Census Bureau QuickFacts (ACS 5-year, 2020–2024)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Persons per household",
+     "value": "2.62 (2020–2024 ACS 5-year)",
+     "source": "U.S. Census Bureau QuickFacts (ACS 5-year, 2020–2024)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Median value of owner-occupied housing units",
+     "value": "~$373,700 (2020–2024 ACS 5-year)",
+     "source": "U.S. Census Bureau QuickFacts (ACS 5-year, 2020–2024)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Total housing units (2020 Census)",
+     "value": "Listed on Census QuickFacts 'Housing units, 2020' but the exact decennial value was NOT captured in this pass. ACS recent estimate is ~118,991 housing units (±3,983, ACS 2024 1-year). 2010 Census had 108,907 units. Use qualitatively ('roughly 115,000–120,000 housing units') or verify the exact 2020 figure on QuickFacts.",
+     "source": "Census Reporter (ACS 2024 1-year ~118,991); 2010 Census 108,907 (secondary tabulation)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Share of housing built before 1940",
+     "value": "Approximately one-quarter of Newark's housing predates 1940 (secondary aggregators cite ~23.7%–25% built before 1940; median construction year ~1966). NOT pulled directly from ACS table B25034 in this pass — frame qualitatively ('a large share, roughly a quarter, of Newark homes were built before 1940') or verify B25034 directly.",
+     "source": "Point2Homes (~23.7%) and BiggestUSCities (~25%) tabulations of Census/ACS data; underlying ACS table is B25034 'Year Structure Built'",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Housing-type mix (single- vs multi-family)",
+     "value": "Newark is heavily multi-family: a large majority of units are in multi-family structures (one secondary report cites ~81% multi-family / ~19% single-family). This supports the city-wide 'two- and three-family house' framing but the exact split should be treated as secondary.",
+     "source": "Regional Plan Association Newark report / secondary tabulation (~81% multi-family)",
+     "flag": "SECONDARY-named"
+    }
+   ],
+   "permitsOffice": [
+    {
+     "claim": "Municipal construction/permit office (CORRECTION to baseline)",
+     "value": "The office that administers construction permits and enforces the NJ Uniform Construction Code is the Office of Uniform Construction Code (UCC) / Building Division within the City of Newark DEPARTMENT OF ENGINEERING — NOT the Department of Economic & Housing Development as the baseline pack assumed. The Building Division is 'responsible for the issuance of building permits and inspection services for the construction, renovation and rehabilitation of new and old buildings, both residential and commercial.' The Department of Engineering is 'responsible for ... the issuance of all construction permits.'",
+     "source": "City of Newark official .gov site: 'Building Division - Office of Uniform Construction Code (UCC)' page (newarknj.gov/543) and 'Engineering' department page (newarknj.gov/171)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Permit office location",
+     "value": "Office of Uniform Construction Code / Central Permit Office at Newark City Hall, 920 Broad Street, Room B23 (basement level), Newark, NJ 07102. (Engineering dept also lists Room 412 for some functions.) Treat the exact room/phone as time-sensitive.",
+     "source": "City of Newark .gov Engineering page; Newark permit-office descriptions",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Department designation as the UCC enforcing agency",
+     "value": "Newark designates a Construction Official plus building/electrical/plumbing/fire-protection subcode officials operating within the Engineering Department's Building Division, per the statewide UCC delegation model (NJ DCA adopts technical codes; municipalities enforce). Newark Municipal Code Title 7 (Chapter 7:1 Code Enforcing Agency; Chapter 7:2 Permits and Fees) governs the local agency and fees.",
+     "source": "City of Newark Municipal Code Title 7 (ecode360); NJ DCA UCC framework (N.J.A.C. 5:23)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "N.J.A.C. 5:23-2.7 ordinary-maintenance exemption applies in Newark",
+     "value": "CONFIRMED applies. For a detached one- or two-family dwelling, repair or replacement (including total replacement) of the roof covering is 'ordinary maintenance' — NO construction permit, no inspection, no notice. The 25% rule + permit applies to commercial / multi-family / attached buildings. Newark enforces but does not override the statewide classification.",
+     "source": "NJ DCA Uniform Construction Code, N.J.A.C. 5:23-2.7 (statewide); confirmed against the baseline pack facts-nj-regulatory-climate.md §1",
+     "flag": "PRIMARY"
+    }
+   ],
+   "historic": [
+    {
+     "claim": "Newark Landmarks & Historic Preservation Commission issues COAs",
+     "value": "CONFIRMED. The Newark Landmarks and Historic Preservation Commission is the municipal body that reviews exterior work on locally designated landmarks and properties in local historic districts and issues a Certificate of Appropriateness (COA) (and a Certificate of No Effect for minor work). It is established under and governed by the Newark Municipal Code historic-preservation regulations.",
+     "source": "City of Newark Landmarks & Historic Preservation page (newarknj.gov/188); Newark Municipal Code Chapter 41:10 (ecode360); Chapter 41:15 fee schedule referencing the COA",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Newark code chapter for historic preservation (resolves baseline gap)",
+     "value": "The historic-preservation ordinance is Newark Municipal Code CHAPTER 41:10 ('Newark Landmarks and Historic Preservation Regulations'); the COA fee schedule sits in Chapter 41:15. This resolves the prior gap where facts-historic-restoration.md §8/Gap 2 flagged the Newark code section as unverified (ecode360 had returned 403). Cite as 'Newark Municipal Code Chapter 41:10' — but treat the precise sub-section for the COA trigger as not separately quoted.",
+     "source": "Newark Municipal Code Chapter 41:10 (ecode360); Chapter 41:15 fee schedule",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Auto-designation of Register sites as LOCAL (May 30, 2007)",
+     "value": "CONFIRMED with a wording nuance. Chapter 41:10 provides that districts and landmarks already listed on the National or State Register of Historic Places AS OF MAY 30, 2007 'shall automatically be designated a local historic site or district' (the ordinance language is 'local historic site or district'; the baseline pack paraphrased this as 'local landmark'). Effect: such Register-listed districts ARE locally designated and exterior roofing work there is subject to local COA review. (Sites Register-listed AFTER May 30, 2007 need separate local designation.)",
+     "source": "Newark Municipal Code Chapter 41:10 (ecode360)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "James Street Commons Historic District",
+     "value": "LOCAL-DESIGNATED. National Register listed January 9, 1978 (~65-acre, ~21 blocks incl. Washington Park). Because it was NR-listed well before May 30, 2007, it is auto-designated a LOCAL historic district under Chapter 41:10 → COA applies to exterior roofing work.",
+     "source": "National Register of Historic Places (NR 1/9/1978); Newark Municipal Code Chapter 41:10; Advisory Council on Historic Preservation (Preserve America profile)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Lincoln Park Historic District",
+     "value": "LOCAL-DESIGNATED. National Register-listed (~10 blocks around Lincoln and Clinton/Colleoni Parks; ~42 late-19th/early-20th-c. townhouse properties; NPS calls it the finest collection of such townhouse architecture in Essex County). NR-listed before May 30, 2007 → auto-designated LOCAL under Chapter 41:10 → COA applies. (Exact NR listing date not captured this pass.)",
+     "source": "National Register of Historic Places nomination (NPS); Newark Municipal Code Chapter 41:10; Newark Landmarks",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Forest Hill Historic District (the key verification ask)",
+     "value": "LOCAL-DESIGNATED. There IS a Forest Hill Historic District on the National Register (listed August 3, 1990; ~57 blocks in the North Ward, bounded roughly by Verona Ave, Mount Prospect Ave, Second Ave, and Branch Brook Park; Victorian/revival-style homes c.1890–1925). Because it was NR-listed before May 30, 2007, it is auto-designated a LOCAL Newark historic district under Chapter 41:10 → COA applies to exterior roofing work. (It is NOT 'National-Register-only.')",
+     "source": "National Register of Historic Places (NR 8/3/1990, NPS); Newark Municipal Code Chapter 41:10; NJIT DANA archive; Newark Landmarks",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Other Newark Register districts auto-designated LOCAL (pre-2007)",
+     "value": "LOCAL-DESIGNATED via the same Chapter 41:10 mechanism: Four Corners Historic District; Military Park Commons Historic District (NR June 18, 2004); Weequahic Park Historic District (NR February 12, 2003, Olmsted Brothers landscape). All NR-listed before May 30, 2007 → local COA review applies. Mount Pleasant Cemetery was designated a Newark Historic Landmark (locally) as early as 1962. Old First Presbyterian Church (NR 1972, in the Four Corners area) is an individually listed pre-2007 landmark.",
+     "source": "National Register of Historic Places (NPS); Newark Landmarks 'landmarks' list; NJ DCA/NJHT (Mount Pleasant Cemetery); Newark Municipal Code Chapter 41:10",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Register listing alone does NOT restrict a private reroof",
+     "value": "The binding gate is the LOCAL Chapter 41:10 designation + COA, not National/State Register listing per se. Per NPS: 'Listing in the National Register places no federal restrictions on a private property owner.' In Newark the local hook exists BECAUSE Chapter 41:10 converts pre-2007 Register sites into local designations — verify a specific parcel's local-district/landmark status (and whether it is a contributing property) before asserting a COA requirement.",
+     "source": "National Park Service (National Register FAQs); Newark Municipal Code Chapter 41:10",
+     "flag": "PRIMARY"
+    }
+   ],
+   "neighborhoods": [
+    {
+     "claim": "Five political wards",
+     "value": "Newark is divided into five wards: East, West, South, North, and Central. Demographic/housing character varies sharply by ward.",
+     "source": "Wikipedia 'Newark, New Jersey' (Census-derived)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Ironbound / East Ward",
+     "value": "Dense, multi-ethnic, largely working-class neighborhood (~50,000 residents, ~4 sq mi) covering most of the East Ward, with Ferry Street as its commercial spine. Housing is dense: large apartment buildings and rowhouses, plus one-, two-, and three-family homes and public housing, interspersed with active factories/warehouses. Also includes much of Downtown.",
+     "source": "Wikipedia 'Newark, New Jersey'; Ironbound Community Corporation (ironboundcc.org)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Forest Hill / North Ward",
+     "value": "Pre-WWII North Ward neighborhood near Branch Brook Park; from the 1870s–1920s wealthy Newarkers built hundreds of stately, large single-family homes in Beaux-Arts, Victorian, Colonial Revival, Gothic Revival, and Spanish Revival styles. Predominantly single-family historic homes (some converted to multi-family).",
+     "source": "Wikipedia 'Forest Hill, Newark, New Jersey'",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Vailsburg / West Ward",
+     "value": "West Ward neighborhood (~280 ft elevation); significant stock of Dutch Colonial and Victorian-inspired homes. Upper Vailsburg is largely single-family; Lower Vailsburg mixes single- and two-family homes. Home to Ivy Hill Apartments (a very large rental complex). (NOTE: a Wikipedia-sourced '1945–1947' build-window appears in research; treat that narrow date range as unreliable — frame Vailsburg homes as early/mid-20th-century without a precise build-window.)",
+     "source": "Wikipedia 'Vailsburg, Newark'",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Roseville / West Ward",
+     "value": "Victorian-era brownstones and row-homes (built mid-1800s) plus Victorian 'mini-mansions'; an older, denser West-Ward residential fabric.",
+     "source": "Wikipedia 'Roseville, Newark'",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Weequahic, Clinton Hill, Dayton / South Ward",
+     "value": "South Ward comprises Weequahic, Clinton Hill, Dayton, and South Broad Valley. Weequahic developed in the late 19th–early 20th c. as a middle-class neighborhood of detached single-family homes around Weequahic Park, with later multi-unit homes to the west and a few modernist high-rises; historically a middle-class Jewish neighborhood until the late 1960s. Dayton borders Newark Liberty Airport and Elizabeth.",
+     "source": "Wikipedia 'Weequahic, Newark'; 'Newark, New Jersey'; South Ward Environmental Alliance",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Central Ward / University Heights / Downtown",
+     "value": "Central Ward includes University Heights (Rutgers-Newark, NJIT, Essex County College — heavy rental/student housing), Government Center (institutional), Springfield/Belmont, Seventh Avenue, and brownstone areas near James Street Commons. Mixed character: institutional buildings, public housing, and historic brownstones/townhouses.",
+     "source": "Wikipedia 'Newark, New Jersey'; Newark Housing Authority; City of Newark boards/commissions page",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Multi-family concentration",
+     "value": "Two- and three-family houses and apartment stock are concentrated city-wide, especially in the East (Ironbound), Central, South, and lower West wards; many original single-family homes were converted to two-/three-family use over time. The North Ward (Forest Hill) retains the most single-family character.",
+     "source": "Wikipedia neighborhood articles; Regional Plan Association Newark report",
+     "flag": "SECONDARY-named"
+    }
+   ],
+   "geographyClimate": [
+    {
+     "claim": "Passaic River corridor + Ironbound flood exposure",
+     "value": "The Passaic River forms Newark's eastern/northeastern boundary; its lower reach is a ~17-mile TIDAL stretch from Dundee Dam (Clifton) to Newark Bay (per EPA). The low-lying Ironbound/East Ward (near sea level) has significant flood exposure from rainfall, sewer back-ups, river/tidal influence, and storm surge. A First Street analysis cited ~60.7% of North Ironbound properties at flood risk over 30 years (secondary). Frame flood risk qualitatively unless using First Street/FEMA by name.",
+     "source": "U.S. EPA Urban Waters (Passaic River / Newark) for the tidal-reach fact; South Ironbound Resiliency Action Plan; First Street (flood-risk %, secondary)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Newark Liberty International Airport (EWR) location",
+     "value": "EWR is at Newark's southern edge, located in BOTH Newark and neighboring Elizabeth, straddling the Essex/Union county line; ~4.5 mi south of downtown Newark and ~9 mi west-southwest of Manhattan. Operated by the Port Authority of NY & NJ.",
+     "source": "Wikipedia 'Newark Liberty International Airport' (Port Authority data)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Urban heat island — EPA framing (use this exact framing)",
+     "value": "Per the U.S. EPA: in the United States the heat island effect makes daytime air temperatures in urban areas about 1–7°F higher than outlying areas, and nighttime temperatures about 2–5°F higher; HUMID regions (primarily the eastern U.S.) and LARGER, DENSER cities experience the greatest differences — a framing that fits Newark (dense, eastern-U.S. city). Use the EPA national range; do NOT assert a Newark-specific number.",
+     "source": "U.S. EPA, 'What Are Heat Islands?' / 'Learn About Heat Islands' (epa.gov/heatislands)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Urban heat island — roof/surface temperature framing",
+     "value": "Per the U.S. EPA, urban surfaces (buildings, roads, roofs) absorb and re-emit the sun's heat far more than natural landscapes; conventional roofs reach much higher SURFACE temperatures than air temperature. EPA: green roofs can have surface temperatures up to 56°F lower than conventional roofs and can reduce nearby air temperatures by up to 20°F. (Conventional dark roofs commonly run far above air temperature in summer — keep this qualitative unless quoting EPA's green-roof differential.)",
+     "source": "U.S. EPA, 'Using Green Roofs to Reduce Heat Islands' and 'Reduce Heat Islands' (epa.gov/heatislands)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Topography (east-low to west-high)",
+     "value": "Newark is essentially a basin sloping toward the Passaic River; elevation rises from 0 ft (sea level) in the east (Ironbound/meadowlands) to ~230 ft above sea level in the western section (Forest Hill, Vailsburg, toward the Watchung ridge area). This drives the east-flood / west-elevated pattern.",
+     "source": "Topographic-map.com (Newark elevation profile); Wikipedia 'Watchung Mountains' (ridge context)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Shared climate baseline (confirm, do not re-derive)",
+     "value": "Newark Liberty/EWR NOAA 1991–2020 normals apply to all four cities: ~31.5 in/yr snow; ground snow load Pg ~25 psf; ~110–115 mph ASCE 7-16 design wind; nor'easters Oct–April; ~25–30 thunderstorms/yr. Already in facts-nj-regulatory-climate.md §3.",
+     "source": "NOAA 1991–2020 Climate Normals (EWR); ASCE 7-16; baseline pack facts-nj-regulatory-climate.md §3",
+     "flag": "PRIMARY-attrib"
+    }
+   ],
+   "cautions": [
+    "CORRECTION: Do NOT attribute Newark construction permits to the 'Department of Economic & Housing Development, Division of Buildings' (the baseline pack's assumption). The City of Newark's own .gov site assigns construction permitting and UCC enforcement to the OFFICE OF UNIFORM CONSTRUCTION CODE / BUILDING DIVISION within the DEPARTMENT OF ENGINEERING (City Hall, Room B23). Economic & Housing Development is a development/policy department, not the UCC enforcing agency. Use 'Newark Department of Engineering — Building Division / Office of Uniform Construction Code.'",
+    "Do NOT say a detached one- or two-family reroof in Newark needs a permit. Per N.J.A.C. 5:23-2.7 it is 'ordinary maintenance' — no permit, no inspection, no notice. The permit/25% rule is for commercial, multi-family, and attached buildings only.",
+    "Do NOT assert that any specific Newark home needs a Certificate of Appropriateness without confirming (a) the parcel is in a LOCALLY designated district or is a locally designated landmark under Newark Municipal Code Chapter 41:10, and (b) it is a contributing property. Newark's hook is real (Chapter 41:10 auto-designates pre-May-30-2007 Register sites as local), but Register-boundary ≠ contributing-status for an individual parcel, and post-2007 Register listings are NOT automatically local.",
+    "Forest Hill: do NOT describe it as 'National-Register-only / no local restriction.' Forest Hill Historic District is on the National Register (1990) AND, because it predates May 30, 2007, is auto-designated a LOCAL Newark historic district under Chapter 41:10 — so a COA does apply to exterior roofing work on contributing properties there.",
+    "Quote the ordinance accurately: Chapter 41:10 auto-designates pre-2007 Register sites as a 'local historic site or district' (not necessarily the word 'landmark'). Frame the COA gate around 'locally designated historic site/district or landmark,' and cite 'Newark Municipal Code Chapter 41:10' rather than inventing a sub-section number.",
+    "Urban heat island: do NOT publish a Newark-specific number like '10–15°F hotter than the suburbs' or 'roof surface temps reduced 50°F' as fact. Use the EPA national framing: daytime ~1–7°F and nighttime ~2–5°F higher in urban areas, greatest in humid eastern-U.S. and dense cities (which fits Newark). For roof/surface heat, use EPA's green-roof figures (surface up to 56°F lower; air up to 20°F lower) or keep qualitative.",
+    "Do NOT state an exact Newark 'total housing units (2020 Census)' or 'percent built before 1940' as a precise Census figure unless verified directly on Census QuickFacts / ACS B25034. The available figures (~118,991 units ACS; ~23.7–25% pre-1940; median year built ~1966) are secondary aggregators — frame qualitatively ('roughly 115,000–120,000 housing units'; 'about a quarter of Newark's homes predate 1940').",
+    "Vailsburg housing age: do NOT publish the oddly narrow 'built 1945–1947' window that appears in a Wikipedia-sourced summary — it is implausible as stated. Describe Vailsburg as early/mid-20th-century Dutch Colonial and Victorian-inspired homes without a precise build-window.",
+    "Geography precision: the Passaic River is Newark's EASTERN/northeastern boundary and drains to NEWARK BAY (south/southeast); the Hackensack River and meadowlands are WEST of Newark Bay, not within Newark. Don't conflate the Passaic and Hackensack. EWR is partly in Newark AND partly in Elizabeth (Essex/Union line) — don't call it 'entirely in Newark.'",
+    "Do not imply National/State Register listing by itself restricts a private reroof anywhere in Newark. Per NPS, Register listing places no federal restriction on a private owner; the restriction comes from the LOCAL Chapter 41:10 designation + COA (or a federal/state funding/permit/license trigger)."
+   ],
+   "unresolved": [
+    "Exact 2020 Decennial Census TOTAL HOUSING UNITS for Newark — present on Census QuickFacts 'Housing units, 2020' but not captured in this pass (Census QuickFacts blocked direct fetch; aggregators gave ACS ~118,991 and 2010 Census 108,907). Verify the precise 2020 figure on QuickFacts or omit and frame qualitatively.",
+    "Exact ACS B25034 percentages for housing built before 1940 and before 1960 for Newark city — secondary aggregators cite ~23.7%–25% pre-1940 and median year built ~1966, but these were not pulled directly from ACS table B25034 (Census API needs a key; Census Reporter table data didn't render). Frame qualitatively or verify B25034 (2020–2024 ACS 5-year) directly.",
+    "Exact NR listing date for Lincoln Park Historic District (confirmed NR-listed and pre-2007, but the specific date was not captured this pass).",
+    "Current Newark UCC permit FEE schedule and exact office room/phone (Chapter 7:2 / Engineering page) — time-sensitive; verify before publishing any fee or contact detail. (Note: detached 1–2 family reroofs are exempt anyway.)",
+    "Whether specific Newark historic districts contain a verified CONCENTRATION of slate/tile/metal/period roofs (e.g., 'many slate roofs in Forest Hill') — NOT verified against district nominations; keep local roofing-material claims generic (carried over from facts-historic-restoration.md Gap 5).",
+    "Precise Chapter 41:10 sub-section that states the COA trigger for exterior roofing work, and the exact list (Exhibit A) of auto-designated local sites — the chapter and the May-30-2007 mechanism are confirmed, but the specific sub-section/exhibit text was not quoted verbatim in this pass.",
+    "FEMA flood-zone designation specifics for the Ironbound (Special Flood Hazard Area boundaries / zone letters) — flood exposure is well-established qualitatively, but the precise FEMA zone classification per parcel was not pulled from FEMA MSC in this pass; cite First Street/South Ironbound plan by name or keep qualitative."
+   ]
+  },
+  {
+   "city": "East Orange, NJ (Essex County)",
+   "demographics": [
+    {
+     "claim": "2020 Census total population",
+     "value": "69,612",
+     "source": "U.S. Census Bureau 2020 Decennial Census (East Orange city, NJ); corroborated by Wikipedia 'East Orange, New Jersey'",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Land area",
+     "value": "3.93 square miles (land area, 2020)",
+     "source": "U.S. Census Bureau QuickFacts, East Orange city, New Jersey (Geography: 'Land area in square miles, 2020')",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Owner-occupied housing unit rate (ACS 5-year 2020-2024)",
+     "value": "31.0%",
+     "source": "U.S. Census Bureau QuickFacts, East Orange city, NJ ('Owner-occupied housing unit rate, 2020-2024')",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Renter-occupied share of occupied housing units (derived)",
+     "value": "~69.0% (computed as 100% minus the 31.0% owner-occupied rate)",
+     "source": "Derived from U.S. Census Bureau QuickFacts owner-occupied rate (31.0%); ACS DP04 tenure",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Units in multi-unit structures (2+ units), percent (ACS 5-year 2020-2024)",
+     "value": "87.6%",
+     "source": "U.S. Census Bureau QuickFacts, East Orange city, NJ ('Units in multi-unit structures, percent, 2020-2024')",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Median household income (in 2023 dollars, ACS 5-year 2020-2024)",
+     "value": "$63,156",
+     "source": "U.S. Census Bureau QuickFacts, East Orange city, NJ ('Median household income (in 2023 dollars), 2020-2024')",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Total housing units (2020 Census)",
+     "value": "~28,677 (cited via Census Reporter's 2020 profile, attributed to 2020 Census H1; NOT independently confirmed on Census QuickFacts in this pass)",
+     "source": "Census Reporter profile for East Orange city (attributing 2020 Decennial Census H1)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Housing units in structures with 5 or more units (ACS 5-year 2020-2024 DP04)",
+     "value": "~64.5% (cited as ACS DP04 'Units in structure - 5 or more units'; surfaced via Perplexity, NOT directly read off the Census table in this pass)",
+     "source": "Perplexity citing ACS 2020-2024 5-year DP04, East Orange city",
+     "flag": "UNVERIFIED"
+    },
+    {
+     "claim": "East Orange is a transit-connected commuter city / NJ Transit Village",
+     "value": "City states it 'is one of 28 cities to be designated as a Transit Village'; Brick Church and East Orange stations offer daily direct service to midtown Manhattan",
+     "source": "City of East Orange official site, 'About East Orange'",
+     "flag": "PRIMARY-attrib"
+    }
+   ],
+   "permitsOffice": [
+    {
+     "claim": "Municipal construction/permit administration office",
+     "value": "The Building Division administers building/construction permits in East Orange; it is part of the city's code-enforcement structure (the Building/Construction Division). Construction-permit applications are submitted in person at the Department of Property Maintenance, East Orange City Hall, 44 City Hall Plaza, 3rd floor, East Orange, NJ 07018.",
+     "source": "City of East Orange official site, Building Division page (eastorange-nj.gov/256/Building)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "State UCC enforcement-agency status",
+     "value": "'The Building Division is designated as a State Uniform Construction Code Enforcement Agency,' led by a licensed Construction Official; subcode officials perform inspections; a Certificate of Occupancy is required after new construction.",
+     "source": "City of East Orange official site, Building Division page",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "NJ UCC ordinary-maintenance roofing rule applies (baseline, confirmed)",
+     "value": "Under N.J.A.C. 5:23-2.7, repair/replacement (including total replacement) of existing roof covering on a detached one- or two-family dwelling is 'ordinary maintenance' requiring NO permit; commercial/multi-family/attached buildings are subject to the 25% rule and permitting. East Orange enforces, but does not override, the statewide UCC classification.",
+     "source": "NJ DCA Uniform Construction Code, N.J.A.C. 5:23-2.7 (shared pack facts-nj-regulatory-climate.md, confirmed)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Code-enforcement chapter exists in the East Orange municipal code",
+     "value": "East Orange's municipal code includes a 'Department of Code Enforcement' chapter and a 'Construction Codes, Uniform' chapter (hosted on eCode360), consistent with the Building Division being the UCC enforcement agency. Exact section numbers were not read (eCode360 returned HTTP 403 in this pass).",
+     "source": "eCode360 East Orange municipal code (titles only; section text inaccessible this pass)",
+     "flag": "SECONDARY-named"
+    }
+   ],
+   "historic": [
+    {
+     "claim": "Local Historic Preservation Commission (HPC) + local ordinance",
+     "value": "NONE CONFIRMED. East Orange's own 2006 Master Plan Historic Preservation Element states verbatim: 'Even in the absence of a designated Historic Preservation Commission (HPC) and Ordinance, there are several means by which historic properties throughout the East Orange can be protected, renovated, and rehabilitated.' It treats an HPC/ordinance as RECOMMENDED future actions ('the City should consider establishing a Historic Preservation Committee'; 'Pursue the development of a City Historic Preservation Committee with adopted powers to review cases for historical significance'). No later municipal source (code chapter, boards/commissions listing, COA forms) confirming a created HPC was found. => No local Certificate of Appropriateness (COA) regime is confirmed for East Orange.",
+     "source": "City of East Orange 2006 Master Plan, Historic Preservation Element (Schoor DePalma), pp. VI-5-VI-6",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "No locally DESIGNATED historic districts or landmarks",
+     "value": "NONE CONFIRMED. The 2006 Element catalogs only State/National Register listings and SHPO opinion-letter (eligible) sites; it identifies NO municipally designated landmarks or districts created under a local ordinance. Because a COA only applies to locally designated property, there is no confirmed parcel in East Orange where a COA is required for exterior roofing.",
+     "source": "City of East Orange 2006 Historic Preservation Element (lists only State/National Register + SHPO-eligible sites)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "National Register listings in East Orange (REGISTER-ONLY; no private-reroof restriction)",
+     "value": "Central Avenue Commercial Historic District (560-654 Central Ave, listed Aug 26 1983); Brick Church Railroad Station (Brick Church Plaza, listed Jun 22 1984); East Orange Railroad Station (65 City Hall Plaza; National Historic Landmark); Ampere Railroad Station (Ampere Plaza & Whitney Pl, listed Jun 22 1984 - station since demolished); Ambrose-Ward Mansion (132 S. Harrison St, listed Sep 20 1982); East Orange VA Medical Center / VA Hospital (385 Tremont Ave, listed Sep 4 2018). These are REGISTER-ONLY; per NPS, Register listing places no federal restrictions on a private owner.",
+     "source": "Wikipedia 'NRHP listings in Essex County, NJ' (cross-checked against City of East Orange 2006 Historic Preservation Element)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "NJ-Register / SHPO opinion-letter (eligible) sites near Brick Church / Munn / Elmwood area",
+     "value": "SHPO opinion-letter eligible (NOT locally designated, NOT a COA trigger): East Hill Historic District (Warrington Place); Elmwood Avenue Historic District (Elmwood Avenue); North Walnut Street Streetscape; Park Avenue Streetscape; Washington Street Streetscape; Clinton Street Streetscape; Bakery Village; 75 Prospect Avenue; East Orange Main Post Office; Old Main DL&W (Morris & Essex) Railroad Right-of-Way; Maple Avenue Footbridge. These are State Register / eligibility status only - no local design review.",
+     "source": "City of East Orange 2006 Historic Preservation Element, 'SHPO Opinion Letters' & 'Properties Listed on State and National Historic Registers' sections (pp. VI-2-VI-4)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Independent local preservation advocacy (NOT a regulatory body)",
+     "value": "The Historical Society of East Orange (independent non-profit, established 1995) conducts church tours and monitors rehabilitation of the East Orange and Brick Church train stations. It is an advocacy/heritage group, NOT a regulatory HPC and issues no COAs.",
+     "source": "City of East Orange 2006 Historic Preservation Element, 'Historical Society of East Orange' section (p. VI-1)",
+     "flag": "PRIMARY"
+    }
+   ],
+   "neighborhoods": [
+    {
+     "claim": "Brick Church",
+     "value": "Real named area/neighborhood within East Orange, anchored by the Brick Church NJ Transit station (named for the former Brick Presbyterian Church); commercial district along the corridor. Housing fabric of pre-war apartment buildings and older single-family homes on tree-lined streets.",
+     "source": "Wikipedia 'Brick Church station' / City of East Orange site; housing character via apartments.com East Orange local guide",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Ampere",
+     "value": "Real named neighborhood in northeastern East Orange, formerly anchored by the (now-demolished) Ampere rail station; mix of single-family homes, duplexes, and apartment buildings.",
+     "source": "Wikipedia 'East Orange, New Jersey' (localities); neighborhood guides (proximitii/apartments.com)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Elmwood / Elmwood Park",
+     "value": "Real neighborhood in southeast East Orange centered on Elmwood Park (city park with pool, ballfields, track, and a 1912 Carnegie library branch); mix of single-family houses and apartment buildings. (Note: 'Elmwood Park' here is a NEIGHBORHOOD/park in East Orange - NOT the separate Borough of Elmwood Park in Bergen County.)",
+     "source": "Wikipedia 'East Orange, New Jersey'; Movoto/realtor neighborhood profiles",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Doddtown (Franklin)",
+     "value": "Real neighborhood, historically 'Franklin (Doddtown)' tied to John Dodd's early settlement on the Watsessing Plain; primarily residential (single-family homes and smaller multifamily structures).",
+     "source": "Wikipedia 'East Orange, New Jersey'; realtor.com Doddtown market page",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Greenwood",
+     "value": "Real named East Orange neighborhood; described as known for its architectural character; mixed older housing stock (single-family + multifamily).",
+     "source": "Neighborhood guides (apartments.com East Orange local guide; proximitii)",
+     "flag": "SECONDARY"
+    },
+    {
+     "claim": "Presidential Estates",
+     "value": "Real named neighborhood (a more recent designation) in the city's northern section with streets named after U.S. presidents; characterized by larger, well-maintained single-family homes on streets with mature shade trees.",
+     "source": "Wikipedia 'East Orange, New Jersey'; neighborhood guides (hotheadtech/proximitii)",
+     "flag": "SECONDARY"
+    },
+    {
+     "claim": "NJ Transit stations serving East Orange",
+     "value": "TWO active stations: Brick Church Station and East Orange Station (~0.6 mi apart), both on NJ Transit's Morristown Line, part of the Morris & Essex Lines. Brick Church carries Midtown Direct service to NY Penn Station via the Kearny Connection. (Ampere station closed 1991 and was demolished.)",
+     "source": "NJ Transit; Wikipedia 'Morristown Line', 'Brick Church station', 'East Orange station'",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Housing character — converted/older multi-family + apartment concentration",
+     "value": "East Orange has a high concentration of multi-family/rental housing (87.6% of units in multi-unit structures; ~69% renter-occupied) combined with older spacious single-family homes; northern neighborhoods (e.g. Presidential Estates) skew larger single-family, while corridors near transit (Brick Church) carry pre-war and high-rise apartment buildings. ('Converted Victorian' is a reasonable qualitative characterization of the older subdivided stock but is NOT stated verbatim by a named source - frame qualitatively.)",
+     "source": "U.S. Census QuickFacts (multi-unit %, tenure); City of East Orange 'About' page; neighborhood guides",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Commercial corridors",
+     "value": "Main Street (renamed Dr. Martin Luther King Jr. Boulevard in 1987) and Central Avenue are the principal commercial corridors; the city calls Central Avenue the former 'Fifth Avenue of New Jersey.'",
+     "source": "City of East Orange 'About East Orange' page; 2006 Historic Preservation Element (1987 Main St -> MLK Jr. Blvd renaming)",
+     "flag": "PRIMARY-attrib"
+    }
+   ],
+   "geographyClimate": [
+    {
+     "claim": "Shared climate baseline (proximity to Newark / EWR)",
+     "value": "East Orange is immediately adjacent to/northwest of Newark and shares the Newark Liberty (EWR) climate regime used across the four Essex cities: ~31.5 in/yr snow, ground snow load Pg ~25 psf, ASCE 7-16 design wind ~110-115 mph, nor'easters Oct-April, ~25-30 thunderstorms/yr. (Do NOT publish a separate, distinct East Orange microclimate number - use the shared EWR baseline.)",
+     "source": "NOAA 1991-2020 Climate Normals (Newark Liberty Intl) via shared pack facts-nj-regulatory-climate.md §3",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Mature street-tree canopy (roofing stressor: leaf/branch debris, shade/moss)",
+     "value": "The City describes East Orange as 'known for its spacious homes and wide, tree-lined streets,' and northern neighborhoods (Presidential Estates) are described with large mature shade trees. This supports a tree-debris / shade-and-moss roofing-maintenance angle, framed qualitatively (no quantified canopy figure is sourced).",
+     "source": "City of East Orange 'About East Orange' page; neighborhood descriptions (hotheadtech)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Commercial corridors (flat/low-slope commercial roofing context)",
+     "value": "Main Street / Dr. MLK Jr. Boulevard and Central Avenue ('Fifth Avenue of NJ') are the principal commercial corridors, with mixed-use and high-rise development near transit - relevant to commercial/flat-roof and multi-family roofing (where the 25% rule + permitting apply, unlike detached 1-2 family homes).",
+     "source": "City of East Orange 'About East Orange' page",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Medical corridor anchor (current name)",
+     "value": "The city's general acute-care hospital, the historic East Orange General Hospital, was acquired Jan 1, 2022 and rebranded CareWell Health Medical Center (rebrand announced ~Jan 12, 2022). Use the CURRENT name 'CareWell Health Medical Center' - do not call it 'East Orange General Hospital' as if current.",
+     "source": "ROI-NJ; NJ Business Magazine; CareWell Health (carewellhealth.org)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Topography / setting",
+     "value": "East Orange sits on the relatively flat Watsessing/Newark plain inland from the coast; it is a fully built-out, dense inner-ring suburb of Newark. (No distinct river-frontage or reservation adjacency - see cautions.)",
+     "source": "Wikipedia 'East Orange, New Jersey'; 2006 Historic Preservation Element (Watsessing Plain reference)",
+     "flag": "SECONDARY-named"
+    }
+   ],
+   "cautions": [
+    "DO NOT assert that any East Orange neighborhood or property requires a Certificate of Appropriateness (COA) for reroofing. East Orange has NO confirmed local Historic Preservation Commission and NO local historic preservation ordinance - its own 2006 Historic Preservation Element states this and only RECOMMENDS creating one. Correct framing: 'East Orange's listed historic resources (e.g., the Central Avenue Commercial Historic District, Brick Church and East Orange stations) are on the National and/or New Jersey Registers; per the National Park Service, Register listing places no federal restrictions on a private property owner, and East Orange does not have a local historic-preservation ordinance imposing Certificate-of-Appropriateness review on private reroofing.'",
+    "DO NOT call the Central Avenue Commercial Historic District (or any East Orange district) a LOCALLY designated district requiring COA review. It is REGISTER-ONLY (National + NJ Register). Same for Brick Church / East Orange / Ampere stations, the Ambrose-Ward Mansion, and the VA Medical Center.",
+    "DO NOT treat the SHPO opinion-letter 'eligible' sites (East Hill, Elmwood Avenue, Park Avenue / Washington Street / Clinton Street / North Walnut Street streetscapes, Bakery Village, 75 Prospect Ave) as designated or as triggering any review. They are eligibility/State-Register-track only - no local design control.",
+    "DO NOT call the Historical Society of East Orange a regulatory body or imply it issues approvals. It is an independent non-profit advocacy/heritage group (founded 1995); it does not issue COAs.",
+    "DO NOT publish a distinct East Orange microclimate number (snow inches, wind mph, freeze-thaw count). Use the shared Newark Liberty (EWR) NOAA baseline that covers all four cities; do not fabricate an East-Orange-specific figure.",
+    "DO NOT quantify the street-tree canopy (e.g., a % canopy-cover statistic) - no named source for a number was found. Keep tree-debris / shade-moss roofing stressors qualitative, anchored to the city's own 'wide, tree-lined streets' language.",
+    "DO NOT refer to the hospital as 'East Orange General Hospital' in the present tense - it has been CareWell Health Medical Center since January 2022. Use the current name (note the former name only as history).",
+    "DO NOT confuse the East Orange neighborhood 'Elmwood / Elmwood Park' with the separate Borough of Elmwood Park in Bergen County - they are different places.",
+    "DO NOT imply Ampere Station is operational - it closed in 1991 and was demolished. Only Brick Church and East Orange stations are active.",
+    "DO NOT call Main Street and Dr. Martin Luther King Jr. Boulevard two different streets - Main Street was renamed Dr. MLK Jr. Boulevard in 1987; they are the same corridor.",
+    "DO NOT assert East Orange is adjacent to a reservation, a major river, or has waterfront - it is a built-out inner-ring suburb on the flat Newark/Watsessing plain. (No reservation adjacency exists; that would be a geography error.)",
+    "DO NOT state the total housing-unit count (~28,677) or the 5+-unit share (~64.5%) as Census-confirmed - the unit count is from Census Reporter (secondary) and the 5+-unit figure was surfaced via Perplexity, not read off the Census table. The owner-occupied rate (31.0%) and multi-unit-structures % (87.6%) ARE QuickFacts-confirmed; lead with those for the rental/multi-family angle."
+   ],
+   "unresolved": [
+    "Total housing-unit count for East Orange (cited ~28,677 via Census Reporter attributing 2020 Census H1) was NOT confirmed directly on Census QuickFacts in this pass (QuickFacts returned HTTP 403). Either omit a hard unit count or verify against data.census.gov table H1/DP04 before publishing.",
+    "ACS 5+-unit share (~64.5%) was reported by Perplexity citing ACS DP04 but not directly read from the Census table; verify on data.census.gov DP04 for East Orange before asserting. The QuickFacts 'units in multi-unit structures' 87.6% (2+ units) IS confirmed - prefer that figure.",
+    "Exact East Orange municipal code section/chapter numbers for the Building/Construction-code-enforcement and any property-maintenance provisions were not read (eCode360 returned HTTP 403). Name the Building Division / Department of Code Enforcement qualitatively; do not cite a specific East Orange code section number.",
+    "Whether East Orange created a local HPC/ordinance at any point AFTER the 2006 Master Plan could not be affirmatively confirmed (no current boards/commissions listing or code chapter located). The safe, sourced statement is that the 2006 Element documents NO HPC/ordinance and recommended one; do not assert one was later adopted, and do not assert with certainty it was never adopted - frame as 'no local historic-preservation ordinance has been identified.' If a definitive statement is needed, the page should say 'verify current local designation status with the East Orange Department of Planning, Policy & Development before asserting any COA requirement.'",
+    "Persons-per-household and any per-neighborhood housing values were not independently sourced to Census in this pass; keep neighborhood housing character qualitative (single-family vs apartment mix) rather than citing neighborhood-level statistics.",
+    "No quantified street-tree canopy coverage figure for East Orange was found; the tree-debris/shade-moss roofing angle must stay qualitative.",
+    "Essex County-specific snow-load (Pg) and design-wind values remain UNVERIFIED in the shared pack (ASCE 7-22 revised NJ values); do not state a precise psf/mph as East-Orange-specific - attribute to the shared EWR/ASCE baseline with the existing pack's hedge."
+   ]
+  },
+  {
+   "city": "Orange, NJ (City of Orange Township, Essex County)",
+   "demographics": [
+    {
+     "claim": "2020 Census total population",
+     "value": "34,447",
+     "source": "U.S. Census Bureau, QuickFacts — City of Orange township, Essex County, NJ (Population, Census, April 1, 2020); corroborated by Wikipedia 'Orange, New Jersey'",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Most recent population estimate",
+     "value": "35,079 (July 1, 2024, V2024)",
+     "source": "U.S. Census Bureau, QuickFacts — City of Orange township (Population estimates, July 1, 2024, V2024)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Land area",
+     "value": "~2.21 sq mi (5.73 km2) land — very compact/dense",
+     "source": "Wikipedia 'Orange, New Jersey' (citing U.S. Census Bureau geography); Census Reporter profile lists 2.2 sq mi",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Total housing units (2020 Census)",
+     "value": "14,943",
+     "source": "U.S. Census Bureau 2020 Decennial Census, via Census Reporter profile for City of Orange township",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Owner-occupied housing unit rate",
+     "value": "23.8% (i.e., ~76% renter-occupied — predominantly a renter/rental-housing city)",
+     "source": "U.S. Census Bureau, QuickFacts — City of Orange township (Owner-occupied housing unit rate, 2019-2023 ACS 5-year)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Housing age (median year structure built)",
+     "value": "1939 (older urban housing stock; roughly half built before ~1939)",
+     "source": "U.S. Census Bureau, American Community Survey 2019-2023 5-year, table B25035 (Median Year Structure Built), via Census-based profile",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Legal municipal name/type",
+     "value": "City of Orange Township (a township that operates under the name 'City of Orange'; reincorporated as a city 1872, reverted to township status 1982)",
+     "source": "Wikipedia 'Orange, New Jersey'; City of Orange Township official site (orangenj.gov)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "NJ Transit rail service",
+     "value": "Two NJ Transit stations serve Orange — the Orange station and the Highland Avenue station — both on the Morris & Essex Lines (formerly Erie Lackawanna), connecting to Newark, Secaucus Junction and New York Penn Station",
+     "source": "Wikipedia 'Orange, New Jersey' (NJ Transit service)",
+     "flag": "SECONDARY-named"
+    }
+   ],
+   "permitsOffice": [
+    {
+     "claim": "Municipal construction/permit department",
+     "value": "City of Orange Township Building & Construction Division (administers and enforces the NJ Uniform Construction Code and Municipal Code; issues Building, Electrical, Plumbing and Fire permits, performs inspections, issues certificates of occupancy). Housed under Planning & Economic Development.",
+     "source": "City of Orange Township official site — Building & Construction Division (orangenj.gov/200/Building-Construction-Division); Planning & Economic Development (orangenj.gov/189)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "UCC applicability to reroofing",
+     "value": "N.J.A.C. 5:23-2.7 'ordinary maintenance' applies statewide in Orange: a detached one- or two-family dwelling reroof is ordinary maintenance (no construction permit). The 25% rule + permit applies to commercial, multi-family, and attached structures; recover-vs-tear-off governed by Rehab Subcode 5:23-6.4. Orange's Building & Construction Division enforces the state UCC.",
+     "source": "NJ DCA Uniform Construction Code N.J.A.C. 5:23-2.7 and 5:23-6.4 (shared pack facts-nj-regulatory-climate.md, confirmed); City of Orange Township Building & Construction Division",
+     "flag": "PRIMARY"
+    }
+   ],
+   "historic": [
+    {
+     "claim": "Local Historic Preservation Commission exists by ordinance",
+     "value": "YES. The City of Orange Township Historic Preservation Commission is established by ordinance (Development Regulations Ch. 210, Article X) pursuant to N.J.S.A. 40:55D-65(i) and 40:55D-107 et seq.; 7 regular + 2 alternate members appointed by the Mayor with City Council consent. Code sections: §210-91 (purpose), §210-92 (criteria for designation of historic sites/districts), §210-93 (actions requiring a Certificate of Appropriateness).",
+     "source": "City of Orange Township Code, Ch. 210 Art. X — Historic Preservation Commission (ecode360.com/34568641, ecode360.com/34566581); N.J.S.A. 40:55D-107 et seq.",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "COA process — binding for designated districts/sites; roofing is in scope",
+     "value": "A Certificate of Appropriateness from the Orange HPC is required to deviate from the Design Guidelines in the alteration/rehabilitation/construction of any property in an APPROVED Historic District or a property designated historically significant by City Council or in the Master Plan historic preservation element. For property in a designated district the COA is DECISIONAL/BINDING (the Commission must decide the COA, not merely advise); the HPC plays an advisory role to the Planning/Zoning Board for development applications. Roofing-related exterior work is within COA scope (HPC resolutions cover roof solar panels and new construction). Emergency repairs to protect health/safety/habitability may proceed without first obtaining a COA. A COA is separate from and does not replace a UCC construction permit.",
+     "source": "City of Orange Township Code Ch. 210 Art. X, COA definition + §210-93 (ecode360.com/34568641); City of Orange Township HPC resolutions (616 Lincoln Ave — Montrose-Seven Oaks district; 338 Elizabeth St — roof solar; orangetwpnjcc.org); HPC public meeting June 19, 2024 ('it's in a designated district... this commission has to decide the certificate of appropriateness... that takes it out of the advisory')",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Locally designated historic districts (four) — COA applies to exterior work",
+     "value": "Orange's official 'Historic Districts - Orange, NJ' map (City of Orange Township) shows FOUR historic districts: (1) Orange Valley Historic District; (2) Montrose/Seven Oaks Park Historic District (the large southern residential district); (3) Main Street Historic District (the downtown Main Street corridor); (4) St. John's Historic District. These function as the city's locally designated/approved historic districts in which the HPC decides COAs. LOCAL-DESIGNATED (COA applies to regulated exterior work, including roofing).",
+     "source": "City of Orange Township — Historic Preservation Map / 'Historic Districts - Orange, NJ' (orangenj.gov/DocumentCenter/View/433); HPC resolutions naming 'Montrose-Seven Oaks Historic District' and 'Orange Valley Historic District' as designated districts where COAs are decided (orangetwpnjcc.org)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "National/State Register listings in Orange (distinct from local designation)",
+     "value": "Only ONE property carries the municipality label 'Orange' (City of Orange Township) on the National Register: Day Street Public School, 29 N. Day St., listed Aug 28, 2012 (NRHP ref #12000568). The Orange Public Library / Orange Free Public Library, 348 Main St., is on the National Register (NRHP ref #81000393, listed Sep 28, 1981; NJ Register #1354, Aug 7, 1981) per the Orange Public Library nomination record. Register listing alone places NO restriction on a private owner; it is the LOCAL ordinance + COA that binds.",
+     "source": "Wikipedia 'National Register of Historic Places listings in Essex County, New Jersey' (Day Street Public School, municipality 'Orange', #12000568, 2012-08-28); NPS NRHP nomination / Wikipedia 'Orange Public Library' (#81000393, 1981); NPS National Register FAQs (listing places no federal restriction on private owner)",
+     "flag": "PRIMARY"
+    }
+   ],
+   "neighborhoods": [
+    {
+     "claim": "Seven Oaks (Montrose/Seven Oaks Park)",
+     "value": "Real Orange neighborhood — a leafy, historic residential section in the southern part of the city near the East Orange/South Orange edges, characterized by tree-lined streets and larger older single-family homes; it corresponds to the locally designated Montrose/Seven Oaks Park Historic District. (Some real-estate sites mis-tag a 'Seven Oaks' to East Orange; the City of Orange historic-district map places Montrose/Seven Oaks Park within Orange.)",
+     "source": "City of Orange Township Historic Districts map (orangenj.gov/DocumentCenter/View/433); City of Orange HPC resolution referencing 'Montrose-Seven Oaks Historic District' (orangetwpnjcc.org); NJ-real-estate descriptions of Seven Oaks",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "The Valley / Valley Arts District",
+     "value": "Real area — a former industrial neighborhood/arts district centered on the NJ Transit Highland Avenue station that spans sections of Orange and West Orange (the Orange portion is locally known as 'the Valley' / Valley Arts District; ~15-block area). Distinct from the separately designated 'Orange Valley Historic District.'",
+     "source": "NJ Monthly 'An Arts District Takes Root in Orange'; ValleyArts (visitnj.org / idealist.org); NJTV/PBS State of the Arts coverage; Jersey Digs (Orange's Valley neighborhood)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Main Street corridor / downtown",
+     "value": "Real — Main Street is Orange's principal downtown commercial corridor (Orange Public Library at 348 Main St; Orange's locally designated Main Street Historic District follows this corridor).",
+     "source": "City of Orange Township Historic Districts map (Main Street Historic District); Orange Public Library, 348 Main Street (orangepl.org / NRHP record)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Orange Valley",
+     "value": "Real historic area in the western part of Orange (a former hat-manufacturing district; site of the historic Orange Valley Social Institute). Corresponds to the locally designated Orange Valley Historic District.",
+     "source": "Wikipedia 'Orange Valley Social Institute'; City of Orange Township Historic Districts map (Orange Valley Historic District)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Scotland Road / Park Avenue corridors",
+     "value": "Real Orange streets — Scotland Road runs through the western/Seven Oaks side of the city (the Highland Avenue station is on Scotland Road); Park Avenue is an established residential corridor (Park Avenue Elementary School at 231 Park Ave). Both are real named corridors; do NOT assert a blanket COA requirement for homes on them unless the specific parcel is inside a designated district.",
+     "source": "NJ-real-estate / local descriptions (Highland Avenue station on Scotland Road; Park Avenue Elementary); geographic.org Orange street list",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "St. John's Historic District",
+     "value": "Real — a small locally designated historic district in the central/northern part of Orange shown on the city's historic-district map.",
+     "source": "City of Orange Township Historic Districts map (St. John's Historic District)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Housing character",
+     "value": "Predominantly older (median structure year ~1939), dense, and heavily rental (owner-occupancy ~23.8%); mix of two-/three-family homes, older detached houses (e.g., Seven Oaks), rowhouse/attached stock, and converted industrial/loft buildings in the Valley Arts area.",
+     "source": "U.S. Census Bureau QuickFacts / ACS 2019-2023 (owner-occupancy, median year built); Valley Arts District descriptions (loft/industrial conversions)",
+     "flag": "PRIMARY-attrib"
+    }
+   ],
+   "geographyClimate": [
+    {
+     "claim": "Bordering municipalities",
+     "value": "Orange borders East Orange, Glen Ridge, Montclair, South Orange and West Orange (all in Essex County). Interstate 280 runs east-west through the city between the West Orange and East Orange lines.",
+     "source": "Wikipedia 'Orange, New Jersey' (geography)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "South Mountain Reservation adjacency — CORRECTED",
+     "value": "Orange does NOT contain or directly abut the South Mountain Reservation. The Reservation lies within West Orange, Maplewood and Millburn and borders South Orange. Orange is ONE municipality removed — separated from the Reservation by West Orange (Orange borders West Orange to its west). Frame any tree-canopy/branch-debris stressor as deriving from Orange's OWN mature street trees and from the wooded West Orange/first-Watchung-ridge terrain immediately to the west, not from the Reservation abutting Orange.",
+     "source": "Essex County Parks — South Mountain Reservation (West Orange, Maplewood, Millburn, bordering South Orange); Wikipedia 'South Mountain Reservation'; Wikipedia 'Orange, New Jersey' (borders West Orange)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Topography / 'the Valley' low-lying stormwater stressor",
+     "value": "Orange sits at the eastern foot of the first Watchung ridge; the 'Valley' (Valley Arts) area is a low-lying former-industrial section near the rail line. The City maintains a municipal Stormwater program. Frame stormwater/drainage load qualitatively (compact, highly impervious older city draining toward low points); do NOT cite a specific flood-zone percentage or flood depth without a FEMA/NJDEP source.",
+     "source": "City of Orange Township — Stormwater (orangenj.gov/365/Stormwater); Wikipedia 'Orange, New Jersey' (Watchung-foot setting); general topography",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Urban heat island / dense low-canopy stressor",
+     "value": "Orange is a compact (~2.2 sq mi), densely built older urban city. Per the U.S. EPA, dense urban areas with extensive roofs, pavement and dark impervious surfaces and relatively little vegetation become urban heat islands because these materials absorb and store solar heat and re-radiate it, while reduced tree canopy lessens shade and evaporative cooling; conventional dark roofs are a major contributor (basis for EPA 'cool roofs' guidance). Use as a GENERAL EPA-attributable statement — do NOT attach a specific degree figure to Orange.",
+     "source": "U.S. EPA — Heat Island Effect overview and Cool Roofs guidance (general, EPA-attributable)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Climate baseline (shared)",
+     "value": "Orange shares the Newark Liberty (EWR) climate baseline: ~31.5 in/yr snow; ground snow load Pg ~25 psf (ASCE 7-16, northern/central NJ); ASCE 7-16 design wind ~110-115 mph; nor'easters Oct-April; frequent winter freeze-thaw cycles; ~25-30 thunderstorms/yr.",
+     "source": "NOAA 1991-2020 Climate Normals (EWR); ASCE 7-16 maps; shared pack facts-nj-regulatory-climate.md (confirmed). Note Pg/wind values flagged UNVERIFIED for exact Essex County code-edition value in the pack.",
+     "flag": "PRIMARY-attrib"
+    }
+   ],
+   "cautions": [
+    "Do NOT assert that Orange directly borders or abuts the South Mountain Reservation. The Reservation is in West Orange/Maplewood/Millburn (bordering South Orange). Orange is separated from it by West Orange. Correct framing: 'Orange borders West Orange to its west; the wooded first Watchung ridge and South Mountain Reservation lie just beyond, in West Orange' — tree/branch-debris stressor should be tied to Orange's own mature street trees, not Reservation adjacency.",
+    "Do NOT call the Main Street landmark a 'Scottish Rite Cathedral.' The building at 239 Main Street is a Masonic Temple (damaged by fire in 2022). No 'Scottish Rite Cathedral' in Orange was confirmed, and the Masonic Temple is NOT confirmed on the National or NJ Register. Omit it or describe it only as 'the former Masonic Temple on Main Street' without register/landmark claims.",
+    "Do NOT assert a blanket COA requirement for 'Scotland Road / Park Avenue homes' or any neighborhood by name unless the SPECIFIC parcel falls within one of Orange's four locally designated historic districts (Orange Valley, Montrose/Seven Oaks Park, Main Street, St. John's). Correct framing: 'A Certificate of Appropriateness from the Orange Historic Preservation Commission is required for regulated exterior work — including roofing — only on properties inside a designated Orange historic district or on a locally designated historic site; verify the specific address before asserting a COA applies.'",
+    "Do NOT conflate the National Register with the local ordinance. Per the NPS, National/State Register listing places no federal restriction on a private owner; the binding gate for a private reroof is Orange's LOCAL ordinance (Ch. 210 Art. X) + a COA inside a designated district. Day Street Public School (NRHP 2012) and the Orange Public Library (NRHP 1981) are Register listings — do not state that Register status alone forces COA review.",
+    "Do NOT state that a 1- or 2-family reroof needs a construction permit in Orange. Under N.J.A.C. 5:23-2.7 a detached 1-2 family reroof is ordinary maintenance (no UCC permit). The permit/25% rule is for commercial/multi-family/attached. (A COA, where a property is in a designated district, is a SEPARATE historic approval and does not replace a building permit; in Orange a 1-2 family reroof needs no UCC permit, but if the home is in a designated district the HPC's COA process may still apply to the exterior change.)",
+    "Do NOT cite a specific urban-heat-island temperature delta, a specific wind-gust mph, a specific snow-load psf as Orange-verified, or a specific flood-zone percentage/flood depth for Orange. Use EPA UHI language generally; cite EWR/NOAA climate and ASCE design values as the shared regional baseline (and note the Pg/wind exact-value caveats already in the pack); describe 'the Valley' stormwater risk qualitatively.",
+    "Do NOT claim an 'Orange Valley Historic District' on the National Register. 'Orange Valley Historic District' is confirmed as a LOCALLY designated Orange district (city historic-district map + HPC resolutions); it does NOT appear in the Wikipedia Essex County NRHP list and no NRHP reference number was located. Treat it as LOCAL-designated, not Register-listed.",
+    "Do NOT describe Orange as a high-homeownership suburb. Owner-occupancy is ~23.8% (predominantly renter-occupied, dense multi-family/rental housing stock). Frame the roofing audience accordingly (many 2-3 family and investor/landlord-owned buildings, multi-family/attached stock that DOES trigger UCC permits)."
+   ],
+   "unresolved": [
+    "Exact NRHP/NJRHP reference numbers and listing dates for the four LOCALLY designated Orange districts (Orange Valley, Montrose/Seven Oaks Park, Main Street, St. John's) were not located — these appear to be local-ordinance designations (city historic-district map + HPC resolutions), and only Day Street Public School (#12000568) carries the 'Orange' municipality label on the Essex County NRHP list. Frame the four districts as 'locally designated' rather than 'National Register' unless a nomination record is confirmed per district.",
+    "Precise boundaries/contributing-property counts for each of the four Orange historic districts were not extracted (only the city's color-coded map). State district presence qualitatively; verify a specific address against the city's Historic Preservation Map / Historic Sites and Districts List before asserting it is inside a district.",
+    "Exact ACS total-housing-units (B25001) figure and a precise 'share of housing built before 1940/1950' percentage for Orange were not pulled from a named Census table in this pass (only the 2020 Decennial unit count ~14,943 and median-year-built 1939). State housing age qualitatively ('older urban stock, roughly half pre-1939') unless the exact percentage is pulled from ACS B25034.",
+    "Whether the Orange HPC's design guidelines impose specific roofing-material requirements (e.g., slate/tile retention, prohibited materials) for any district was not confirmed; the ordinance references adopted Design Guidelines but their roofing content was not extracted. Do not assert a specific roofing-material rule for any Orange district without the guidelines text.",
+    "FEMA flood-zone designation, NJDEP flood-mapping, or any quantified flood/stormwater statistic for 'the Valley' or other Orange areas was not confirmed from a primary FEMA/NJDEP source — keep stormwater framing qualitative.",
+    "The current construction-official name and permit fee schedule for the Orange Building & Construction Division were not captured (department named; individual official's name and fees are time-sensitive — verify on orangenj.gov before stating)."
+   ]
+  },
+  {
+   "city": "Irvington, NJ (Township of Irvington, Essex County)",
+   "demographics": [
+    {
+     "claim": "2020 Census total population",
+     "value": "61,176 (up 13.4% from 53,926 in 2010)",
+     "source": "U.S. Census Bureau / 2020 Decennial Census (via Census QuickFacts and Wikipedia tabulation of Census data)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Total housing units (ACS 5-year estimate)",
+     "value": "25,155 housing units (±1,154 MOE), ACS 2024 5-year estimate",
+     "source": "U.S. Census Bureau ACS 2020-2024 5-year estimates (surfaced via Census Reporter profile for Irvington township)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Housing units (older Census tabulation)",
+     "value": "~24,116 housing units cited in Wikipedia's Census-sourced infobox (older figure; superseded by the ACS 25,155)",
+     "source": "Wikipedia 'Irvington, New Jersey' (citing U.S. Census)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Population density",
+     "value": "~20,994 persons per square mile (Wikipedia, from 2020 Census); ~20,886/sq mi per ACS 2024 5-year via Census Reporter",
+     "source": "Wikipedia 'Irvington, New Jersey' (2020 Census); Census Reporter (ACS 2024 5-year)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Median value of owner-occupied housing units",
+     "value": "$335,600 (2020-2024 ACS 5-year, in 2024 dollars)",
+     "source": "U.S. Census Bureau QuickFacts — Irvington township",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Median household income",
+     "value": "$61,609 (2020-2024 ACS 5-year, in 2024 dollars)",
+     "source": "U.S. Census Bureau QuickFacts — Irvington township",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Inner-ring suburban density / aging housing stock character",
+     "value": "Physically small (~2.9 sq mi) but very densely settled inner-ring township adjacent to Newark; predominantly older, pre- and immediate-postwar housing stock — describe qualitatively as 'dense aging housing stock,' NOT with a specific pre-1940 percentage (see unresolved)",
+     "source": "U.S. Census (density/area); qualitative development-history framing from Wikipedia + Rutgers CLiME 'Divergent Paths of Irvington and Maplewood'",
+     "flag": "PRIMARY-attrib"
+    }
+   ],
+   "permitsOffice": [
+    {
+     "claim": "NJ Uniform Construction Code applies (no permit for detached 1-2 family reroof)",
+     "value": "N.J.A.C. 5:23-2.7 'ordinary maintenance' exemption applies in Irvington exactly as statewide: a detached 1- or 2-family dwelling reroof (including full tear-off/replacement of roof covering) needs NO construction permit; the 25% rule + permit applies to commercial/multi-family/attached structures; Rehab Subcode 5:23-6.4 governs recover-vs-tear-off",
+     "source": "NJ DCA Uniform Construction Code, N.J.A.C. 5:23-2.7 and 5:23-6.4 (shared baseline pack facts-nj-regulatory-climate.md §1)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Municipal construction-permit office name",
+     "value": "The Township of Irvington administers construction permits through its building/construction office at the Municipal Building, 1 Civic Square, Irvington, NJ 07111. The township's codified ordinance (Chapter 240, Construction Code, Uniform) refers to the 'Construction Code Department' as the UCC enforcing agency; the township website also presents 'Building Construction' / 'Housing and Building' pages. Safest on-page phrasing: 'the Township of Irvington's construction-code (building) office.'",
+     "source": "Township of Irvington Municipal Code, Chapter 240 (Construction Code, Uniform), via eCode360; Township of Irvington official site (irvingtonnj.gov 'Building Construction' / 'Construction Official' pages)",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "Permit administration is local but does not override the state UCC ordinary-maintenance classification",
+     "value": "Each NJ municipality enforces the UCC through its own construction office; Irvington enforces but cannot override the state classification that a detached 1-2 family reroof is ordinary maintenance",
+     "source": "NJ DCA N.J.A.C. 5:23 (statewide UCC)",
+     "flag": "PRIMARY"
+    }
+   ],
+   "historic": [
+    {
+     "claim": "No local Historic Preservation Commission / no locally designated historic districts found",
+     "value": "No evidence of a LOCAL Historic Preservation Commission established by Irvington ordinance, and no locally designated historic districts or landmarks. Irvington's codified ordinances (reviewed chapters) and official site list no HPC. Frame explicitly: a private homeowner's reroof in Irvington is NOT subject to a Certificate of Appropriateness because Irvington has no local historic-district ordinance gate (verify against the current municipal code before asserting absolute nonexistence).",
+     "source": "Township of Irvington official site + Municipal Code (eCode360) — no HPC chapter located; corroborated by absence from NJ DEP HPO commission directory in materials reviewed",
+     "flag": "PRIMARY-attrib"
+    },
+    {
+     "claim": "No National Register of Historic Places listings in Irvington",
+     "value": "Irvington township does not appear as a location in the 'National Register of Historic Places listings in Essex County, New Jersey.' (Other Essex municipalities — Newark, Montclair, East Orange, Bloomfield, West Orange, Glen Ridge, Nutley, etc. — do have listings; Irvington does not.) Note: even where NRHP listings exist, listing alone places no federal restriction on a private reroof — but here there are none anyway.",
+     "source": "Wikipedia 'National Register of Historic Places listings in Essex County, New Jersey' (NPS-derived); NPS National Register database",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Olympic Park amusement park — real local-history reference",
+     "value": "Olympic Park was a ~40-acre amusement park that operated 1887-1965, straddling the Irvington/Maplewood border, with a main entrance on Chancellor Avenue in Irvington. Usable as the real-history origin of the 'Olympic Park' neighborhood name — present as HISTORY, not as a current attraction (it closed in 1965).",
+     "source": "Wikipedia 'Irvington, New Jersey'; NJ Monthly; NAPHA 'Lost Amusement Parks' (Olympic Park)",
+     "flag": "SECONDARY-named"
+    }
+   ],
+   "neighborhoods": [
+    {
+     "claim": "Springfield Avenue corridor",
+     "value": "Springfield Avenue is the township's principal commercial corridor; it runs from Newark through Irvington and continues toward Union County (it becomes NJ Route 124 west of the Maplewood/Irvington line; in Irvington/Newark it is a county route). The central business district around the Irvington Bus Terminal on Springfield Avenue is a state-designated Urban Enterprise Zone.",
+     "source": "Wikipedia / Charliesballparks NJ Route 124 history (corridor); Township of Irvington UEZ plan (irvingtonnj.gov) for the UEZ/Springfield Ave CBD designation",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Chancellor Avenue",
+     "value": "Real Irvington corridor; historically the location of Olympic Park's main entrance; a recognized commercial/residential street",
+     "source": "NJ Monthly / NAPHA (Olympic Park entrance on Chancellor Ave); street-listing sources",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Union Avenue",
+     "value": "Real Irvington street/corridor in the eastern/northeastern part of the township near the Newark border",
+     "source": "Irvington street listings (geographic.org); local guides",
+     "flag": "SECONDARY"
+    },
+    {
+     "claim": "Stuyvesant Avenue",
+     "value": "Real Irvington street/corridor",
+     "source": "Irvington street listings (geographic.org)",
+     "flag": "SECONDARY"
+    },
+    {
+     "claim": "Olympic Park neighborhood",
+     "value": "Neighborhood name derived from the former Olympic Park amusement park near the Irvington/Maplewood border (Chancellor Avenue area). Present the name with its real historical origin; treat 'Olympic Park' as a colloquial/area name rather than an officially bounded municipal district.",
+     "source": "NJ Monthly / NAPHA Lost Amusement Parks (Olympic Park history); local-history forums",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Upper Irvington",
+     "value": "Recognized section/neighborhood label for part of Irvington (used in real-estate/rental market geography)",
+     "source": "Realtor.com / Rent.com neighborhood pages (Upper Irvington, Irvington NJ)",
+     "flag": "SECONDARY"
+    },
+    {
+     "claim": "Irvington Center / central business district",
+     "value": "Irvington's central business district (around the Irvington Bus Terminal on Springfield Avenue) is real and is the UEZ core; 'Irvington Center' is a reasonable descriptive label for the downtown commercial core",
+     "source": "Township of Irvington UEZ plan (irvingtonnj.gov); Wikipedia",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Vailsburg is in Newark, adjacent to Irvington (NOT an Irvington neighborhood)",
+     "value": "Vailsburg is a neighborhood of NEWARK that borders Irvington on the east. Frame Union Avenue / the eastern edge as 'near Newark's Vailsburg section,' never as 'Irvington's Vailsburg neighborhood.'",
+     "source": "Wikipedia (Newark Vailsburg); local guides",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Renter-heavy, multi-family housing character",
+     "value": "Irvington is widely characterized as a dense, majority-renter inner-ring township with a substantial multi-family/apartment component; present this QUALITATIVELY (high rental and multi-family share) — do NOT publish a specific renter % or 5+-unit % (those figures are unverified; see unresolved)",
+     "source": "Rutgers CLiME 'The Divergent Paths of Irvington and Maplewood' (qualitative); ACS exists but specific % not verified",
+     "flag": "PRIMARY-attrib"
+    }
+   ],
+   "geographyClimate": [
+    {
+     "claim": "Shared EWR / Newark Liberty climate baseline",
+     "value": "Irvington uses the same shared Newark Liberty (EWR) climate baseline as the other Batch A cities: ~31.5 in/yr snow; ground snow load Pg ~25 psf (ASCE 7-16); ~110-115 mph ASCE 7-16 design wind; nor'easters Oct-April; ~25-30 thunderstorms/yr. Do NOT assert any Irvington-specific microclimate numbers beyond this shared baseline.",
+     "source": "NOAA 1991-2020 Climate Normals (Newark Liberty Intl / EWR); ASCE 7-16; NOAA NJ State Climate Summary (shared baseline pack facts-nj-regulatory-climate.md §3)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Borders Newark (Vailsburg) to the east",
+     "value": "Irvington is bordered by Newark to the east (Newark's Vailsburg section adjoins Irvington's eastern edge), Maplewood to the west, Hillside to the south, and Union (Union County) to the southwest",
+     "source": "Wikipedia 'Irvington, New Jersey' (bordering municipalities)",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Interstate 78 along the southeastern edge",
+     "value": "Verbatim (Wikipedia): 'Interstate 78 also passes through very briefly along the southeastern border at Exit 54.' Supports the light-industrial/commercial flat-roof angle along the southern/southeastern edge. Frame as I-78 touching/running along the southeastern border, not as bisecting the township.",
+     "source": "Wikipedia 'Irvington, New Jersey'",
+     "flag": "SECONDARY-named"
+    },
+    {
+     "claim": "Small, dense, fully built-out township",
+     "value": "~2.92 sq mi total area (~2.91 sq mi land); one of NJ's most densely settled municipalities; effectively fully built out with aging housing stock",
+     "source": "U.S. Census Bureau (area); Wikipedia (Census-sourced)",
+     "flag": "PRIMARY"
+    },
+    {
+     "claim": "Springfield Avenue corridor as a cross-municipal commercial/light-industrial spine",
+     "value": "Springfield Avenue carries commercial and mixed-use development from Newark through Irvington into Union County — supports the commercial/flat-roof angle along that corridor",
+     "source": "Wikipedia / NJ Route 124 history; Irvington UEZ plan",
+     "flag": "SECONDARY-named"
+    }
+   ],
+   "cautions": [
+    "DO NOT assert that any Irvington home or neighborhood requires a Certificate of Appropriateness (COA). Irvington has no local Historic Preservation Commission and no locally designated historic district found in research. Per the NPS, listing alone places no restriction — and here there are no NRHP listings in Irvington anyway. Corrected framing: 'Irvington has no local historic-district ordinance, so a homeowner reroof faces no Certificate-of-Appropriateness step' (verify against the current municipal code before publishing as absolute).",
+    "DO NOT publish a specific 'percent of housing built before 1940/1950,' a renter-occupancy %, or a 5+-unit %. The exact ACS figures (e.g. the ~18% pre-1940 / ~70% renter numbers seen in one secondary aggregator pass) could NOT be verified against data.census.gov or a named ACS table. Corrected framing: describe the stock qualitatively as 'older, predominantly early-20th-century housing' and 'a dense, rental- and multi-family-heavy market.' Only publish a number if pulled directly from a named ACS table (B25034/B25003/B25024 or DP04) for Irvington.",
+    "DO NOT call 'Hilton' an Irvington neighborhood. Hilton is a section of MAPLEWOOD on the Maplewood side of the Springfield Avenue / Irvington border (confirmed via Springfield Avenue Partnership and NeighborhoodScout). Corrected framing: 'the Hilton section of neighboring Maplewood, just across Irvington's western Springfield Avenue border.'",
+    "DO NOT call 'Vailsburg' an Irvington neighborhood. Vailsburg is a NEWARK neighborhood adjacent to Irvington's eastern edge. Corrected framing: 'near Newark's Vailsburg section, across Irvington's eastern border.'",
+    "DO NOT present Olympic Park as a current amusement park or attraction. It operated 1887-1965 and closed; it survives only as the origin of the 'Olympic Park' neighborhood NAME (its entrance was on Chancellor Avenue; the park straddled the Irvington/Maplewood line). Frame strictly as history.",
+    "DO NOT assert Irvington-specific microclimate numbers (UHI degrees, local wind/temperature/snow figures). Only the shared EWR/NOAA baseline is sourced. Any heat-island statement must be qualitative ('dense, built-out township with limited tree canopy retains summer heat'), not a numeric UHI delta.",
+    "DO NOT say I-78 runs THROUGH the middle of Irvington. The sourced fact is that I-78 passes 'very briefly along the southeastern border at Exit 54' (Wikipedia). Frame it as bordering/touching the southeastern edge.",
+    "DO NOT pin a single official department name with certainty. Sources show both 'Construction Code Department' (Chapter 240 ordinance) and 'Building Construction'/'Housing and Building' (township website), and gave conflicting director names (Tharien Karim-Arnold, Director of Building and Housing, vs. Joseph Ouseley). Use the generic safe phrasing 'the Township of Irvington's construction-code (building) office' and do not name a specific director or fee on-page without live verification.",
+    "DO NOT state that a permit is required for a normal Irvington home reroof. Under N.J.A.C. 5:23-2.7 a detached 1-2 family reroof is ordinary maintenance statewide — Irvington's local enforcement does not change that. (Commercial / multi-family / attached buildings exceeding the 25% rule do require a permit, consistent with Irvington's high multi-family share.)"
+   ],
+   "unresolved": [
+    "Exact ACS housing-age percentage for Irvington (percent of units built 1939 or earlier; percent built before 1950) and the median year structure built — could not be tied to a named, directly-verified ACS table (data.census.gov B25034/DP04 did not render Irvington-specific values in research; an aggregator gave ~18% pre-1940 / ~38% pre-1950 but unverified). Authors must either pull the exact figure from a named ACS table for Irvington or state it qualitatively ('older, predominantly early-20th-century stock').",
+    "Exact renter-occupied % and owner-occupied % (ACS B25003/DP04) for Irvington — not verified to a named table (an aggregator suggested ~70% renter, unverified). State qualitatively as 'majority-renter / rental-heavy' or pull the exact figure from a named ACS table.",
+    "Exact share of housing in structures with 5+ units / multi-family (ACS B25024/DP04) — not verified (aggregator ~55%, unverified). State qualitatively as 'substantial multi-family/apartment component' or source the exact number from a named ACS table.",
+    "Definitive single official name of Irvington's construction-permit department and the current Construction Official/Director — sources conflict ('Construction Code Department' per Chapter 240 vs. 'Building Construction'/'Housing and Building'; Karim-Arnold vs. Ouseley). Verify on irvingtonnj.gov before naming a department head or specific office title; use the generic 'construction-code (building) office' otherwise.",
+    "Absolute confirmation that Irvington has NEVER had a local HPC or any locally designated district — research found NONE (no HPC chapter, no NRHP listings, not in the HPO directory materials reviewed), which is strong, but the live NJ DEP HPO commission directory PDF was unreachable (404). Frame as 'Irvington has no local historic-district ordinance' (well supported) and verify against the current municipal code/HPO directory before asserting it as an absolute.",
+    "Current 2026 Irvington permit fee schedule (Chapter 290 Fees) and exact construction-permit fees — time-sensitive and not extracted (eCode360 returned 403). Do not publish specific Irvington permit-fee dollar amounts without live verification.",
+    "Precise list of officially-bounded Irvington neighborhoods — only 'Irving Place' is named as an unincorporated community in Wikipedia; 'Upper Irvington,' 'Olympic Park,' and 'Irvington Center' are colloquial/market labels rather than formally bounded municipal districts. Treat them as descriptive area names, not official districts."
+   ]
+  }
+ ],
+ "critique": {
+  "gaps": [
+   "NEWARK — exact 2020 Decennial total housing units NOT sourced (QuickFacts blocked; only ACS ~118,991 and 2010 Census 108,907 captured, both secondary). City-page writers need either the verified QuickFacts figure or must frame qualitatively ('roughly 115,000–120,000 housing units').",
+   "NEWARK — share of housing built before 1940 not pulled from ACS B25034 (only ~23.7–25% from Point2Homes/BiggestUSCities aggregators; median year built ~1966 secondary). Needs B25034 verification or qualitative framing.",
+   "NEWARK — Forest Hill / Lincoln Park / Four Corners / Military Park Commons / Weequahic Park local-designation status is INFERRED from the Chapter 41:10 May-30-2007 auto-designation rule, not verified against Exhibit A (the City-Clerk list of auto-designated sites), which no researcher extracted. Writers need the Exhibit A list (or must hedge per-district COA claims).",
+   "ALL FOUR — no researcher pulled an EPA-attributable urban-heat-island framing as a reusable block; only Newark and Orange cite EPA generally. East Orange and Irvington flagged UHI must stay qualitative but gave no EPA sentence. A single shared EPA UHI sentence (daytime ~1–7°F / nighttime ~2–5°F higher, greatest in humid eastern-US dense cities; green roofs up to 56°F lower surface / 20°F lower air) should be standardized across all four city pages.",
+   "EAST ORANGE — total housing-unit count (~28,677 Census Reporter) and 5+-unit share (~64.5% via Perplexity) are unverified; only owner-occupied 31.0% and multi-unit-structures 87.6% are QuickFacts-confirmed. Writers need to lead with the two confirmed figures.",
+   "IRVINGTON — no verified renter-occupancy %, 5+-unit %, or pre-1940 housing % tied to a named ACS table (aggregator ~70% renter / ~18% pre-1940 unverified). Must stay qualitative or pull B25003/B25024/B25034 directly.",
+   "ORANGE — exact NRHP/NJRHP reference numbers and listing dates for the four LOCALLY designated districts (Orange Valley, Montrose/Seven Oaks Park, Main Street, St. John's) and their boundaries/contributing-property counts not located; only Day Street Public School (#12000568, 2012) and Orange Public Library (#81000393, 1981) carry confirmed Register records.",
+   "ALL FOUR — current construction-permit FEE schedules and the live construction-official names were not captured for any city (time-sensitive; researchers correctly deferred). Note that detached 1–2 family reroofs are exempt anyway, so fees only matter for commercial/multi-family copy.",
+   "NEWARK — exact NR listing date for Lincoln Park Historic District not captured (confirmed listed and pre-2007, date missing).",
+   "ALL FOUR — no verified concentration of slate/tile/metal/period roofs in any specific historic district (carried over from facts-historic-restoration.md Gap 5/13); local roofing-material claims must stay generic."
+  ],
+  "contradictions": [
+   "NEWARK CONSTRUCTION OFFICE — the shared pack facts-nj-regulatory-climate.md §1.6 still names the WRONG office: 'City of Newark Department of Economic & Housing Development, Division of Buildings / construction office.' The live City of Newark site (newarknj.gov/543, Engineering dept) and the Newark researcher both confirm it is the Office of Uniform Construction Code / Building Division within the DEPARTMENT OF ENGINEERING (Central Permit Office, 920 Broad Street/City Hall). The shared pack §1.6 must be corrected; city pages must not inherit its wrong office name.",
+   "NEWARK ORDINANCE WORDING — internal contradiction between the Newark researcher and the live code. The researcher's caution says Chapter 41:10 auto-designates pre-2007 Register sites as a 'local historic site or district' and instructs writers NOT to use the word 'landmark.' But the live ecode360 text (Chapter 41:10, Historic Sites and Districts) reads: 'Districts and landmarks already listed on the National or State Register of Historic Places as of May 30, 2007 shall automatically be designated a local landmark.' The ordinance uses 'local landmark' — the researcher's 'do not say landmark' correction is itself wrong on this point.",
+   "HISTORIC PACK COVERAGE vs NEWARK FINDINGS — facts-historic-restoration.md §9 grounds the Newark local angle on only TWO districts (James Street Commons 1978, Lincoln Park). The Newark researcher adds Forest Hill (1990), Four Corners, Military Park Commons (2004), Weequahic Park (2003), Mount Pleasant Cemetery as auto-designated LOCAL. These extra districts are NOT in the shared pack and are inferred from the auto-designation rule, not verified against Exhibit A — a coverage mismatch writers should not silently resolve by asserting COA on all of them.",
+   "HOSPITAL NAME — East Orange researcher correctly flags East Orange General Hospital was rebranded CareWell Health Medical Center (Jan 2022); any inherited copy or sibling-city template using 'East Orange General Hospital' present-tense would conflict with current fact.",
+   "ESSEX COUNTY SNOW-LOAD/WIND VALUES — shared pack §3.1/§3.4 flags Pg ~25 psf and ~110–115 mph design wind as [UNVERIFIED] for the exact Essex County code-edition value (ASCE 7-22 revised NJ). All four researchers reuse these as the shared baseline; the city pages must carry the same hedge, not state them as Essex-County-confirmed."
+  ],
+  "overclaimsToCut": [
+   "NEWARK — 'Forest Hill Historic District IS local-designated → COA applies to exterior roofing work' stated as flat fact. The NR listing (1990, ref #90001193) is verified, but local designation is INFERRED from the Chapter 41:10 auto-designation rule and not confirmed against Exhibit A. Demote to: 'Newark's ordinance auto-designates pre-May-30-2007 Register districts as local; verify a specific Forest Hill parcel's local/contributing status before asserting a COA.' Same demotion for Lincoln Park, Four Corners, Military Park Commons, Weequahic Park.",
+   "ORANGE — any claim that Orange contains or directly abuts the South Mountain Reservation. CONFIRMED FALSE: the Reservation is in West Orange/Maplewood/Millburn and borders South Orange; Orange is separated from it by West Orange. Cut and reframe tree/branch-debris stressor to Orange's own street trees + the wooded West Orange ridge to its west.",
+   "ALL FOUR — any Newark-specific or city-specific urban-heat-island number such as '10–15°F hotter than the suburbs' or 'roof surface temps reduced 50°F.' No source supports a city-specific delta; use only EPA national framing.",
+   "ALL FOUR — any '80 mph downtown wind tunnel' / city-specific gust figure. Only the shared ASCE 7-16 ~110–115 mph design wind (hedged) and qualitative nor'easter language are sourced; no city-specific gust statistic exists.",
+   "EAST ORANGE — any assertion that the Central Avenue Commercial Historic District, Brick Church/East Orange stations, Ambrose-Ward Mansion, or VA Medical Center requires a COA. These are REGISTER-ONLY (National/NJ Register); East Orange has NO confirmed local HPC/ordinance (its own 2006 Historic Preservation Element states none exists and only recommends creating one). Register listing alone places no restriction on a private reroof (NPS).",
+   "EAST ORANGE — any treatment of SHPO opinion-letter 'eligible' sites (East Hill, Elmwood Avenue, Park/Washington/Clinton/North Walnut streetscapes, Bakery Village, 75 Prospect Ave) as designated or COA-triggering. They are eligibility/State-Register-track only.",
+   "IRVINGTON — any COA assertion for any Irvington home/neighborhood. No local HPC, no local historic district, and NO NRHP listings in Irvington at all. Cut any COA step entirely.",
+   "EAST ORANGE — the unverified ~28,677 total housing units and ~64.5% 5+-unit share stated as Census-confirmed. Demote to secondary/qualitative; lead with the QuickFacts-confirmed 31.0% owner-occupied and 87.6% multi-unit-structures.",
+   "IRVINGTON — any specific renter %, 5+-unit %, or pre-1940 % (e.g. the aggregator ~70% renter / ~18% pre-1940). Cut as unsourced; keep qualitative.",
+   "NEWARK — the oddly narrow 'Vailsburg homes built 1945–1947' window from a Wikipedia summary; implausible as stated. Cut the precise window, keep 'early/mid-20th-century Dutch Colonial and Victorian-inspired homes.'",
+   "NEWARK — do not call EWR 'entirely in Newark' (it straddles Newark and Elizabeth on the Essex/Union line) and do not conflate the Passaic River (Newark's eastern boundary, drains to Newark Bay) with the Hackensack River."
+  ],
+  "corrections": [
+   "NEWARK construction office: NOT 'Department of Economic & Housing Development, Division of Buildings.' Correct = City of Newark Office of Uniform Construction Code (UCC) / Building Division within the DEPARTMENT OF ENGINEERING; Central Permit Office at City Hall, 920 Broad Street. (Verified live: newarknj.gov/543 + Engineering dept page. Fix the shared pack §1.6 too.)",
+   "NEWARK ordinance wording: the Chapter 41:10 auto-designation language is 'shall automatically be designated a local landmark' (live ecode360 text), NOT 'local historic site or district.' Correct the Newark researcher's reverse instruction — the word 'landmark' is the ordinance's own term. Cite as 'Newark Municipal Code Chapter 41:10 (Historic Sites and Districts / Newark Landmarks and Historic Preservation Regulations)'; the auto-designated list is Exhibit A on file with the City Clerk.",
+   "EAST ORANGE construction office: confirmed = the Building Division (a designated State Uniform Construction Code Enforcement Agency); construction-permit applications submitted in person at the Department of Property Maintenance, East Orange City Hall, 44 City Hall Plaza, 3rd floor (verified live: eastorange-nj.gov/256/Building).",
+   "ORANGE construction office: confirmed = City of Orange Township Building & Construction Division (under Planning & Economic Development), orangenj.gov/200. Orange HAS a real local HPC by ordinance (Code Ch. 210 Art. X, §§210-91/92/93) that DECIDES (binding) COAs in its four locally designated districts — Orange is the ONLY Batch A city besides Newark with a COA gate. (Verified live: ecode360.com/34568641 + orangetwpnjcc.org HPC.)",
+   "IRVINGTON construction office: live township site uses 'Building Construction' department; the codified ordinance Ch. 240 uses 'Construction Code Department.' Current director is Karim Arnold (Director of Building Construction) per irvingtonnj.gov — this resolves the researcher's Karim-Arnold-vs-Ouseley conflict in favor of Karim Arnold, but the safe on-page phrasing remains 'the Township of Irvington's construction-code (building) office.'",
+   "DESIGNATION STATUS per city (LOCAL HPC + COA gate): Newark = YES (Landmarks & HP Commission, Chapter 41:10, COA). Orange = YES (HPC, Ch. 210 Art. X, binding COA in 4 districts). East Orange = NO confirmed local HPC/ordinance (2006 Element documents none; Register-only sites). Irvington = NO local HPC, no local district, and no NRHP listings at all.",
+   "CENSUS 2020 population + land area (all verified live): Newark 311,549 / 24.14 sq mi land (25.89 total). East Orange 69,612 / 3.93 sq mi land. Orange (City of Orange township) 34,447 / 2.21 sq mi land (2.22 total). Irvington 61,176 / 2.91 sq mi land (2.92 total).",
+   "ORANGE adjacency: Orange does NOT border the South Mountain Reservation; it borders West Orange to its west, and the Reservation (West Orange/Maplewood/Millburn, bordering South Orange) lies beyond West Orange (verified live).",
+   "EAST ORANGE corridor: 'Main Street' and 'Dr. Martin Luther King Jr. Boulevard' are the SAME corridor (Main St renamed in 1987), not two streets; Ampere Station is closed (1991) and demolished — only Brick Church and East Orange stations are active.",
+   "IRVINGTON adjacency: Vailsburg is a NEWARK neighborhood bordering Irvington's eastern edge (not an Irvington neighborhood); Hilton is a MAPLEWOOD section across Irvington's western Springfield Ave border (not Irvington); I-78 only touches Irvington's southeastern border 'very briefly' at Exit 54 (does not bisect the township)."
+  ],
+  "readyToSynthesize": true
+ }
+}
