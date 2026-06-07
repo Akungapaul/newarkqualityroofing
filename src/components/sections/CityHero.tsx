@@ -3,6 +3,7 @@ import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
 import { getCityHeroImage } from '@/data/image-manifest';
+import { parseRichText } from '@/lib/rich-text';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import type { City, CityContent } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
@@ -86,7 +87,13 @@ export function CityHero({ city, content, serviceGroups }: CityHeroProps) {
               {HEADING_CONFIG.city.h1(city.name)}
             </h1>
 
-            <p className="mt-6 font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
+            {content.directAnswer && (
+              <p className="mt-6 font-body text-lg leading-relaxed text-parchment/90 sm:text-xl [&_strong]:font-semibold [&_strong]:text-copper-light">
+                {parseRichText(content.directAnswer)}
+              </p>
+            )}
+
+            <p className={`${content.directAnswer ? 'mt-4' : 'mt-6'} font-body text-lg leading-relaxed text-parchment/80 sm:text-xl`}>
               {content.heroSubheadline}
             </p>
 

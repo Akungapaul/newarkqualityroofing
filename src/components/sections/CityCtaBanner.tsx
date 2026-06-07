@@ -25,8 +25,10 @@ export function CityCtaBanner({ cityName }: CityCtaBannerProps) {
           How Can You Request a Free Roofing Estimate in {cityName}?
         </h2>
         <p className="mt-4 font-body text-lg leading-relaxed text-parchment/80">
-          Get your free estimate today &mdash; same-day response, no obligation.
-          We&rsquo;ve helped 500+ Essex County property owners protect their biggest investment.
+          Request your free, no-obligation roofing estimate online or by phone.
+          Newark Quality Roofing inspects your {cityName} property and provides a
+          written quote, serving homeowners and businesses across {cityName} and
+          Essex County.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
           <Link

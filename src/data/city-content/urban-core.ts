@@ -13,13 +13,8 @@ export const urbanCoreContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Newark, NJ',
     heroSubheadline:
       'From Ironbound brownstones to downtown high-rises, Newark Quality Roofing delivers proven results across every neighborhood in New Jersey\'s largest city.',
-    stats: {
-      projectCount: '500+',
-      servingSince: '2015',
-      rating: '5.0',
-    },
     overview: [
-      'Newark is our home. As the largest city in New Jersey and the seat of Essex County, Newark presents a roofing landscape unlike anywhere else in the state. With over 300,000 residents spread across neighborhoods that range from the tight-packed brownstones of the Ironbound to the tree-lined colonials of Forest Hill, our crews understand that every block demands a different approach. We have completed hundreds of projects across all 07101 through 07114 zip codes, and our trucks are on Newark streets every single day of the week.',
+      'Newark is our home. As the largest city in New Jersey and the seat of Essex County, Newark presents a roofing landscape unlike anywhere else in the state. With over 300,000 residents spread across neighborhoods that range from the tight-packed brownstones of the Ironbound to the tree-lined colonials of Forest Hill, our crews understand that every block demands a different approach. We have completed projects across all 07101 through 07114 zip codes, and our trucks are on Newark streets every single day of the week.',
 
       'The Ironbound district — bounded by Raymond Boulevard, McCarter Highway, and the Passaic River — is one of the densest residential corridors in Essex County. Its signature three-story brownstones share party walls, meaning flashing details at adjoining rooflines are critical to preventing water intrusion that migrates between buildings. We have re-roofed entire rows of Ferry Street brownstones, coordinating with adjacent property owners to ensure continuous waterproofing along shared parapets. The Ironbound also hosts dozens of commercial storefronts and restaurants along Ferry Street and Market Street, where flat roofs with rooftop HVAC units require specialized membrane work.',
 
@@ -36,7 +31,7 @@ export const urbanCoreContent: CityContent[] = [
 
         'Forest Hill, Newark\'s most architecturally distinguished residential neighborhood, features Victorian-era homes with complex rooflines — turrets, dormers, intersecting gables, and decorative slate work. Restoring these roofs requires sourcing matching slate tiles, hand-fitting copper flashings, and respecting the original craftsmanship that makes Forest Hill a local historic district. We have completed full slate restorations on several Mount Prospect Avenue residences and replaced deteriorated copper valleys on Branch Brook Park-facing homes where century-old materials had finally reached end of life.',
 
-        'In Vailsburg, the West Ward, and the South Ward, the housing stock shifts to post-war colonials, split-levels, and Cape Cods — primarily asphalt shingle roofs on plywood decking. These neighborhoods represent the bulk of our residential replacement work in Newark. Homeowners here face common challenges: aging 3-tab shingles lifting in wind, inadequate attic ventilation causing ice dams, and gutter systems that cannot handle the volume of water flowing off steeply pitched roofs during summer thunderstorms. We typically recommend architectural shingles rated for 130 mph winds with enhanced ridge ventilation to address these issues.',
+        'In Vailsburg, the West Ward, and the South Ward, the housing stock shifts to post-war colonials, split-levels, and Cape Cods — primarily asphalt shingle roofs on plywood decking. These neighborhoods represent the bulk of our residential replacement work in Newark. Homeowners here face common challenges: aging 3-tab shingles lifting in wind, inadequate attic ventilation causing ice dams, and gutter systems that cannot handle the volume of water flowing off steeply pitched roofs during summer thunderstorms. We typically recommend architectural shingles rated for high wind resistance with enhanced ridge ventilation to address these issues.',
 
         'Multi-family investment properties are a major segment of Newark residential roofing. Two-family and three-family homes throughout the North Ward, Roseville, and Clinton Hill require roofing solutions that balance cost with durability — landlords need roofs that will last 30 years without requiring tenant-disrupting maintenance. We offer specialized multi-family packages that include full tear-off, ice and water shield at all eaves and valleys, architectural shingles, and upgraded aluminum drip edge. For flat-roof multi-family buildings, we install EPDM or TPO membranes with 20-year warranties that give property owners peace of mind.',
       ],
@@ -60,7 +55,7 @@ export const urbanCoreContent: CityContent[] = [
 
         'The Passaic River corridor creates a unique moisture and flooding dynamic. Properties in the eastern sections of the Ironbound and along Raymond Boulevard experience elevated humidity levels that promote moss and algae growth on north-facing roof slopes. During major storm events, the Passaic can overflow its banks, and while direct roof flooding is rare, the saturated air and standing water around foundations create moisture conditions that wick upward through building assemblies and compromise roof insulation. Our Newark installations include enhanced moisture barriers and zinc ridge strips to prevent biological growth.',
 
-        'Nor\'easters tracking up the Atlantic coast hit Newark with sustained winds of 40 to 60 mph, and downtown wind tunnels between tall buildings can amplify gusts to 80 mph or more. The wind corridors created by Newark Liberty Airport approach paths add additional stress to roofs in the eastern and southern portions of the city. Every roof we install in Newark meets or exceeds 130 mph wind rating requirements, with six-nail patterns on shingles and fully adhered membrane systems on commercial properties. We also reinforce ridge caps, hip caps, and perimeter edge metal to resist the uplift forces that are uniquely intense in Newark\'s urban wind environment.',
+        'Nor\'easters tracking up the Atlantic coast hit Newark with sustained winds of 40 to 60 mph, and downtown wind tunnels between tall buildings can amplify gusts to 80 mph or more. The wind corridors created by Newark Liberty Airport approach paths add additional stress to roofs in the eastern and southern portions of the city. Every roof we install in Newark is fastened for high wind resistance, with six-nail patterns on shingles and fully adhered membrane systems on commercial properties. We also reinforce ridge caps, hip caps, and perimeter edge metal to resist the uplift forces that are uniquely intense in Newark\'s urban wind environment.',
       ],
     },
     neighborhoods: [
@@ -91,7 +86,7 @@ export const urbanCoreContent: CityContent[] = [
         title: 'McCarter Highway Warehouse Roof Replacement',
         type: 'commercial',
         description:
-          'Complete TPO membrane replacement on a 35,000-square-foot distribution warehouse near Port Newark. Work was phased over six weeks to maintain 24/7 facility operations, with temporary waterproofing barriers installed at each phase boundary to prevent leaks during the transition.',
+          'Complete TPO membrane replacement on a 35,000-square-foot distribution warehouse near Port Newark. Work was phased over six weeks to maintain continuous facility operations, with temporary waterproofing barriers installed at each phase boundary to prevent leaks during the transition.',
         details: [
           '35,000 sq ft TPO membrane with 25-year manufacturer warranty',
           'Six-phase installation maintaining continuous warehouse operations',
@@ -111,26 +106,6 @@ export const urbanCoreContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Carlos M.',
-        rating: 5,
-        text: 'We own a three-family brownstone in the Ironbound and had been dealing with leaks along the shared wall with our neighbor for years. Newark Quality Roofing re-did both roofs at the same time and rebuilt the parapet between them. Two years later, not a single drop of water. They understand Newark buildings like nobody else.',
-        service: 'Flat Roof Replacement',
-      },
-      {
-        name: 'Denise W.',
-        rating: 5,
-        text: 'Our Forest Hill Victorian needed a complete slate restoration — not a tear-off, a real restoration. These guys sourced matching slate, replaced all the copper work, and the roof looks exactly like it did a hundred years ago. The attention to detail was incredible, and they treated our home with genuine respect.',
-        service: 'Slate Roof Restoration',
-      },
-      {
-        name: 'Michael T.',
-        rating: 5,
-        text: 'I manage a commercial property on Raymond Boulevard and needed a full roof replacement without disrupting our tenants. Newark Quality Roofing phased the work over three weekends, kept the building watertight at every stage, and finished on budget. Professional operation from start to finish.',
-        service: 'Commercial TPO Membrane',
-      },
-    ],
     faqs: [
       {
         question: 'How do you handle shared-wall roofing on Newark brownstones?',
@@ -140,7 +115,7 @@ export const urbanCoreContent: CityContent[] = [
       {
         question: 'Do you work in all Newark zip codes?',
         answer:
-          'Yes. As a Newark-headquartered company, we serve every zip code from 07101 through 07114. Our crews are on Newark streets daily, and our response time for emergency repairs is typically same-day within city limits.',
+          'Yes. As a Newark-headquartered company, we serve every zip code from 07101 through 07114. Our crews are on Newark streets daily, and we provide emergency repair service within city limits.',
       },
       {
         question: 'What roofing materials do you recommend for Newark\'s urban heat island?',
@@ -155,7 +130,7 @@ export const urbanCoreContent: CityContent[] = [
       {
         question: 'How do you protect Newark roofs from nor\'easter wind damage?',
         answer:
-          'Every roof we install in Newark meets 130 mph wind ratings. We use six-nail patterns on shingles, fully adhered membrane systems on commercial properties, and reinforced edge metal at all perimeters. We also add extra fasteners at eaves, rakes, and ridges where wind uplift is strongest.',
+          'Every roof we install in Newark is fastened for high wind resistance. We use six-nail patterns on shingles, fully adhered membrane systems on commercial properties, and reinforced edge metal at all perimeters. We also add extra fasteners at eaves, rakes, and ridges where wind uplift is strongest.',
       },
       {
         question: 'Do you offer roofing for Newark multi-family investment properties?',
@@ -187,14 +162,14 @@ export const urbanCoreContent: CityContent[] = [
             'Brownstone party walls, downtown wind tunnels, tight lot access, flat roof membranes — we handle the unique challenges that come with roofing in New Jersey\'s largest and most complex city.',
         },
         {
-          title: '500+ Newark Projects Completed',
+          title: 'Newark Projects Completed',
           description:
-            'With over 500 completed projects across every Newark neighborhood, we have the experience and local knowledge that only comes from years of dedicated work in this city.',
+            'With completed projects across every Newark neighborhood, we have the experience and local knowledge that only comes from dedicated work in this city.',
         },
         {
-          title: 'Same-Day Emergency Response',
+          title: 'Emergency Storm Response',
           description:
-            'When a storm damages your Newark roof, our crews can be on-site within hours — not days. Our city location means faster response times than any competitor based outside Newark.',
+            'When a storm damages your Newark roof, our crews respond from our city location to tarp, assess, and repair the damage.',
         },
         {
           title: 'Deep Community Roots',
@@ -205,7 +180,7 @@ export const urbanCoreContent: CityContent[] = [
     },
     metaTitle: 'Roofing Services in Newark, NJ | Newark Quality Roofing',
     metaDescription:
-      'Newark\'s trusted roofing contractor. 500+ projects across Ironbound, Forest Hill, Downtown and beyond. Free estimates for roof repair and replacement.',
+      'Newark\'s trusted roofing contractor serving Ironbound, Forest Hill, Downtown and beyond. Free estimates for roof repair and replacement.',
     pricing: {
       averageRepair: '$350–$1,500',
       averageReplacement: '$8,500–$25,000',
@@ -213,9 +188,7 @@ export const urbanCoreContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Newark',
       'Family-Owned & Local',
     ],
   },
@@ -226,11 +199,6 @@ export const urbanCoreContent: CityContent[] = [
     heroHeadline: 'Roofing Services in East Orange, NJ',
     heroSubheadline:
       'From Brick Church Victorians to Main Street commercial properties, we deliver reliable roofing solutions for East Orange\'s diverse housing stock and growing business corridor.',
-    stats: {
-      projectCount: '150+',
-      servingSince: '2016',
-      rating: '4.9',
-    },
     overview: [
       'East Orange is a transit-connected residential city of nearly 65,000 people, bordered by Newark to the east and Orange to the west. The city\'s identity is shaped by its NJ Transit rail stations — Brick Church and East Orange — which have anchored neighborhoods of commuter-friendly housing for over a century. The housing stock is overwhelmingly residential, with a significant concentration of multi-family properties ranging from converted Victorian homes to mid-century apartment complexes. This creates a roofing market dominated by landlords and property investors who need durable, cost-effective solutions for aging buildings.',
 
@@ -240,7 +208,7 @@ export const urbanCoreContent: CityContent[] = [
 
       'The Elmwood Park section of East Orange, located in the city\'s northern reaches, features larger single-family homes on wider lots — a stark contrast to the dense multi-family corridors further south. These properties tend to have larger roof areas with traditional hip and gable configurations, and homeowners here invest in premium materials like architectural shingles, standing seam metal, and even synthetic slate. The mature tree canopy throughout Elmwood Park creates ongoing maintenance challenges, as falling branches, accumulated leaf debris, and moss growth accelerate roof deterioration. We recommend annual roof inspections for Elmwood Park homeowners to catch tree-related damage before it becomes a leak.',
 
-      'East Orange\'s revitalization efforts over the past decade have brought new mixed-use development along Main Street and Central Avenue, and several large apartment complexes have undergone substantial renovation. This construction activity has increased demand for both new installation and reroof work across the city. As a roofing contractor based just minutes away in Newark, we respond to East Orange calls with the same urgency as our home city — typically offering same-day estimates and beginning work within days of contract signing.',
+      'East Orange\'s revitalization efforts over the past decade have brought new mixed-use development along Main Street and Central Avenue, and several large apartment complexes have undergone substantial renovation. This construction activity has increased demand for both new installation and reroof work across the city. As a roofing contractor based just minutes away in Newark, we respond to East Orange calls with the same urgency as our home city — offering free estimates and beginning work within days of contract signing.',
     ],
     residential: {
       heading: 'East Orange Residential Roofing — Victorians to Multi-Family',
@@ -310,26 +278,6 @@ export const urbanCoreContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Patricia J.',
-        rating: 5,
-        text: 'I own two 3-family homes in East Orange and needed both roofs replaced on a budget. Newark Quality Roofing gave me a fair price for both properties, coordinated the work back-to-back, and finished in under two weeks. The quality is excellent and my tenants have had zero complaints about leaks since.',
-        service: 'Multi-Family Roof Replacement',
-      },
-      {
-        name: 'Robert K.',
-        rating: 5,
-        text: 'Our medical office near East Orange General Hospital had a chronic roof leak that two other contractors couldn\'t fix. Newark Quality Roofing identified the real problem — failed flashing around a rooftop HVAC unit — and replaced the entire membrane. It has been 18 months with no issues. They actually solved it.',
-        service: 'Commercial Flat Roof Replacement',
-      },
-      {
-        name: 'Angela S.',
-        rating: 5,
-        text: 'Our Victorian in the Brick Church neighborhood needed a complete roof restoration. They matched the existing slate color perfectly and replaced all the copper valleys. The roof looks beautiful and has held up through two bad winter storms without any issues. Worth every penny.',
-        service: 'Victorian Roof Restoration',
-      },
-    ],
     faqs: [
       {
         question: 'How do you handle roofing on East Orange multi-family conversions?',
@@ -354,7 +302,7 @@ export const urbanCoreContent: CityContent[] = [
       {
         question: 'How quickly can you respond to storm damage in East Orange?',
         answer:
-          'Our Newark headquarters is less than 10 minutes from any East Orange address. For emergency storm damage, we typically arrive for tarping and assessment within 2 to 4 hours of your call. Full repair or replacement work begins within days, not weeks.',
+          'Our Newark headquarters is less than 10 minutes from any East Orange address. For emergency storm damage, we provide tarping and assessment, and full repair or replacement work begins within days.',
       },
       {
         question: 'Do you handle commercial roofing on East Orange apartment complexes?',
@@ -369,7 +317,7 @@ export const urbanCoreContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in East Orange, NJ?',
-        answer: 'Most roof repairs in East Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in East Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -383,7 +331,7 @@ export const urbanCoreContent: CityContent[] = [
         {
           title: 'Multi-Family Roofing Specialists',
           description:
-            'East Orange has one of the highest concentrations of multi-family homes in Essex County, and we have re-roofed hundreds of them. From converted Victorians to mid-century apartment buildings, we understand the unique demands of investment property roofing.',
+            'East Orange has one of the highest concentrations of multi-family homes in Essex County, and we re-roof them regularly. From converted Victorians to mid-century apartment buildings, we understand the unique demands of investment property roofing.',
         },
         {
           title: 'Victorian Restoration Experience',
@@ -407,9 +355,7 @@ export const urbanCoreContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving East Orange',
       'Family-Owned & Local',
     ],
   },
@@ -420,11 +366,6 @@ export const urbanCoreContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Orange, NJ',
     heroSubheadline:
       'Serving Orange\'s diverse neighborhoods from Main Street to the Valley, with expert roofing for tight-lot homes, mixed housing stock, and commercial properties near South Mountain.',
-    stats: {
-      projectCount: '120+',
-      servingSince: '2016',
-      rating: '4.9',
-    },
     overview: [
       'Orange is a compact, densely built city of approximately 31,000 residents nestled between East Orange to the east and West Orange to the west, with the South Mountain Reservation forming its southern boundary. Despite being just 2.2 square miles, Orange packs a remarkable variety of housing styles into its tight street grid — from grand Victorian homes along Scotland Road and Park Avenue to modest post-war bungalows and duplexes along Oakwood Avenue and Lincoln Avenue. This architectural diversity means our roofing crews encounter a different challenge on virtually every block, and our deep familiarity with Orange\'s building stock allows us to recommend the right solution for each property type.',
 
@@ -503,26 +444,6 @@ export const urbanCoreContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'James L.',
-        rating: 5,
-        text: 'We bought our home in Orange last year and the roof was the first thing we addressed. Newark Quality Roofing replaced the entire roof in three days, cleaned up perfectly, and the new architectural shingles look fantastic. As first-time homebuyers, they walked us through every decision and never pushed us toward anything we did not need.',
-        service: 'Residential Roof Replacement',
-      },
-      {
-        name: 'Sandra D.',
-        rating: 5,
-        text: 'A massive oak branch punched through our roof during a summer storm. Newark Quality Roofing was at our house within two hours with a tarp, and they had the full repair done by the end of the week. Their emergency response was exactly what we needed when we were panicking.',
-        service: 'Emergency Storm Damage Repair',
-      },
-      {
-        name: 'Frank P.',
-        rating: 5,
-        text: 'I own a commercial building on Main Street Orange and the old flat roof had been leaking for years despite repeated patches. They tore it all off and installed a new TPO membrane that has been completely watertight for over a year now. Should have called them first instead of wasting money on patches.',
-        service: 'Commercial TPO Membrane',
-      },
-    ],
     faqs: [
       {
         question: 'How do you handle roofing on Orange\'s tight-lot properties?',
@@ -562,7 +483,7 @@ export const urbanCoreContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in Orange, NJ?',
-        answer: 'Most roof repairs in Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -579,9 +500,9 @@ export const urbanCoreContent: CityContent[] = [
             'From Scotland Road Victorians to Park Avenue colonials, we have the sourcing network and craftsmanship to restore historic Orange homes with period-appropriate slate, copper, and standing seam materials.',
         },
         {
-          title: 'Fast Storm Response',
+          title: 'Storm Response',
           description:
-            'With South Mountain trees constantly threatening Orange roofs, fast emergency response matters. Our Newark base puts us minutes away, and we prioritize same-day tarping and assessment for storm damage calls.',
+            'With South Mountain trees constantly threatening Orange roofs, emergency response matters. Our Newark base puts us minutes away, and we provide tarping and assessment for storm damage calls.',
         },
         {
           title: 'Transit-Accessible City Knowledge',
@@ -600,9 +521,7 @@ export const urbanCoreContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Orange',
       'Family-Owned & Local',
     ],
   },
@@ -613,13 +532,8 @@ export const urbanCoreContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Irvington, NJ',
     heroSubheadline:
       'From Springfield Avenue to Olympic Park, we deliver dependable roofing solutions that protect Irvington\'s homes and businesses without breaking the budget.',
-    stats: {
-      projectCount: '180+',
-      servingSince: '2016',
-      rating: '4.9',
-    },
     overview: [
-      'Irvington is a densely populated township of approximately 55,000 residents directly south of Newark, sharing a long border along the Vailsburg neighborhood. The township\'s housing stock tells a clear story: built primarily between the 1920s and 1940s, Irvington\'s homes are reaching the end of their original roofing lifecycles, and many are on their second or third roof with materials installed in the 1990s and early 2000s now approaching failure. This creates enormous demand for cost-effective, durable roof replacements — and as a Newark-based contractor with hundreds of Irvington projects completed, we understand exactly what this community needs.',
+      'Irvington is a densely populated township of approximately 55,000 residents directly south of Newark, sharing a long border along the Vailsburg neighborhood. The township\'s housing stock tells a clear story: built primarily between the 1920s and 1940s, Irvington\'s homes are reaching the end of their original roofing lifecycles, and many are on their second or third roof with materials installed in the 1990s and early 2000s now approaching failure. This creates enormous demand for cost-effective, durable roof replacements — and as a Newark-based contractor with Irvington projects completed, we understand exactly what this community needs.',
 
       'Springfield Avenue, Irvington\'s primary commercial and residential corridor, runs diagonally from the Newark border through the heart of the township and into Union County. Along Springfield Avenue, the building stock is a mix of commercial storefronts, medical offices, religious institutions, and multi-family residential buildings — many with flat roofs that have been patched and re-coated repeatedly rather than properly replaced. We have restored dozens of Springfield Avenue roofs to proper condition with new TPO and EPDM membrane systems that end the cycle of temporary patches and provide genuine long-term waterproofing.',
 
@@ -634,7 +548,7 @@ export const urbanCoreContent: CityContent[] = [
       content: [
         'Irvington\'s residential roofing challenge is fundamentally one of scale: thousands of homes built in the 1920s through 1940s are simultaneously reaching the point where their current roofing materials have failed or are about to fail. These are not luxury homes requiring premium materials — they are working-class family homes and rental properties where the priority is a solid, leak-free roof at a price homeowners and landlords can afford. We specialize in delivering exactly that: high-quality architectural shingle installations with full tear-off, proper underlayment, and manufacturer-backed warranties at pricing that respects Irvington\'s economic reality.',
 
-        'The most common residential roof type in Irvington is the hip roof on a colonial or Cape Cod frame, typically covering 1,200 to 1,800 square feet of roof area. These relatively straightforward geometries allow for efficient installation — a skilled crew can complete a full tear-off and re-roof in 2 to 3 days under normal conditions. We take advantage of this efficiency to offer competitive Irvington pricing while still providing premium materials: GAF or CertainTeed architectural shingles with 130 mph wind ratings, ice and water shield at eaves and valleys, and heavy-gauge aluminum drip edge. The result is a roof that will protect the home for 30 years at a price point that makes sense for the Irvington market.',
+        'The most common residential roof type in Irvington is the hip roof on a colonial or Cape Cod frame, typically covering 1,200 to 1,800 square feet of roof area. These relatively straightforward geometries allow for efficient installation — a skilled crew can complete a full tear-off and re-roof in 2 to 3 days under normal conditions. We take advantage of this efficiency to offer competitive Irvington pricing while still providing premium materials: GAF or CertainTeed architectural shingles rated for high wind resistance, ice and water shield at eaves and valleys, and heavy-gauge aluminum drip edge. The result is a roof that will protect the home for 30 years at a price point that makes sense for the Irvington market.',
 
         'Multi-family homes are a significant portion of Irvington\'s residential roofing work. Two-family and three-family homes on 25 to 40-foot lots line streets throughout the township, and these properties present specific challenges: multiple tenant schedules to coordinate around, additional roof penetrations from conversion work, and landlords who need to balance investment with return. Our multi-family Irvington packages are designed for this reality — we offer landlord pricing that accounts for the efficiencies of relatively simple roof geometries, we schedule around tenant needs, and we provide the documentation that banks and insurance companies require for investment property improvements.',
 
@@ -711,26 +625,6 @@ export const urbanCoreContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'David R.',
-        rating: 5,
-        text: 'I own five rental properties in Irvington and Newark Quality Roofing has done the roofs on three of them. They understand what landlords need — fair pricing, durable materials, minimal tenant disruption, and paperwork that keeps the bank happy. They are my go-to roofer and I will not call anyone else.',
-        service: 'Multi-Family Roof Replacement',
-      },
-      {
-        name: 'Reverend Grace H.',
-        rating: 5,
-        text: 'Our church on Springfield Avenue had a flat roof that leaked every time it rained. Two previous contractors applied coatings that lasted less than a year. Newark Quality Roofing removed everything down to the deck, fixed the steel underneath, and installed a proper TPO membrane. It has been two years with zero leaks. They did it right.',
-        service: 'Commercial Flat Roof Replacement',
-      },
-      {
-        name: 'Tyrone M.',
-        rating: 5,
-        text: 'Our 1930s colonial in Olympic Park needed a new roof badly — shingles were curling and we had buckets in the attic every time it rained. They replaced rotted decking we did not even know was bad, installed proper ventilation, and the new shingles look great. Honest work at a fair price. Exactly what Irvington needs.',
-        service: 'Residential Roof Replacement',
-      },
-    ],
     faqs: [
       {
         question: 'How do you keep roofing affordable for Irvington homeowners?',
@@ -740,7 +634,7 @@ export const urbanCoreContent: CityContent[] = [
       {
         question: 'What should Irvington landlords know about re-roofing rental properties?',
         answer:
-          'Investment property roofing in Irvington should prioritize durability over premium aesthetics. We recommend architectural shingles with 130 mph wind ratings and 30-year warranties — these provide excellent long-term value. We schedule around tenant occupancy, provide documentation for banks and insurance, and offer multi-property discounts.',
+          'Investment property roofing in Irvington should prioritize durability over premium aesthetics. We recommend architectural shingles rated for high wind resistance with 30-year warranties — these provide excellent long-term value. We schedule around tenant occupancy, provide documentation for banks and insurance, and offer multi-property discounts.',
       },
       {
         question: 'How do you handle Irvington homes with deteriorated roof decking?',
@@ -765,11 +659,11 @@ export const urbanCoreContent: CityContent[] = [
       {
         question: 'How quickly can you start a roofing project in Irvington?',
         answer:
-          'Our Newark headquarters is adjacent to Irvington — we share a border along the Vailsburg neighborhood. We typically provide same-day estimates, and once a contract is signed, work begins within 5 to 10 business days depending on weather and material availability. Emergency repairs receive same-day response.',
+          'Our Newark headquarters is adjacent to Irvington — we share a border along the Vailsburg neighborhood. We provide free estimates, and once a contract is signed, work begins depending on weather and material availability. We provide emergency repair service.',
       },
       {
         question: 'How much does roofing cost in Irvington, NJ?',
-        answer: 'Most roof repairs in Irvington range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in Irvington range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -786,9 +680,9 @@ export const urbanCoreContent: CityContent[] = [
             'We deliver quality roofing at prices that make sense for Irvington homeowners and landlords. Our proximity, material relationships, and operational efficiency allow us to offer competitive pricing without cutting corners on materials or workmanship.',
         },
         {
-          title: '180+ Irvington Projects Completed',
+          title: 'Irvington Projects Completed',
           description:
-            'With over 180 completed Irvington projects, we know this township\'s housing stock intimately — the 1920s colonials, the converted multi-family homes, the Springfield Avenue commercial buildings. This experience means faster, more accurate estimates and better results.',
+            'With completed Irvington projects, we know this township\'s housing stock intimately — the 1920s colonials, the converted multi-family homes, the Springfield Avenue commercial buildings. This experience means faster, more accurate estimates and better results.',
         },
         {
           title: 'Investment Property Expertise',
@@ -812,9 +706,7 @@ export const urbanCoreContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Irvington',
       'Family-Owned & Local',
     ],
   },

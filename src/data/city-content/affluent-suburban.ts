@@ -13,14 +13,9 @@ export const affluentSuburbanContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Livingston, NJ',
     heroSubheadline:
       'From split-level renovations along Eisenhower Parkway to full roof replacements in Collins Terrace, Newark Quality Roofing delivers professional craftsmanship tailored to Livingston\'s diverse housing landscape.',
-    stats: {
-      projectCount: '320+',
-      servingSince: '2005',
-      rating: '4.9',
-    },
     overview: [
-      'Livingston is one of Essex County\'s most desirable residential townships, known for its top-rated school district, proximity to major transit corridors, and a housing market that blends mid-century heritage with modern luxury construction. Originally developed as a suburban retreat from Newark and the Oranges during the postwar building boom, Livingston experienced rapid residential growth through the 1960s and 1970s, producing entire neighborhoods of split-level homes, raised ranches, and center-hall colonials that now define the township\'s architectural character. Today these homes stand alongside newer luxury construction in planned developments, creating a roofing landscape that demands versatility, technical knowledge, and an understanding of how different building eras respond to New Jersey\'s demanding four-season climate.',
-      'Newark Quality Roofing has served Livingston homeowners and commercial property managers for nearly two decades, accumulating deep expertise in the specific roof systems found throughout the township. We understand that a 1960s split-level on South Orange Avenue presents fundamentally different challenges than a 2010s colonial in a gated community off Eisenhower Parkway. Our team has worked extensively with the architectural styles, material choices, and building codes that shape roofing outcomes in Livingston, from navigating HOA approval processes in newer developments to preserving the architectural integrity of established neighborhoods like Northland and Collins Terrace.',
+      'Livingston is one of Essex County\'s most desirable residential townships, known for its well-regarded public school district, proximity to major transit corridors, and a housing market that blends mid-century heritage with modern luxury construction. Originally developed as a suburban retreat from Newark and the Oranges during the postwar building boom, Livingston experienced rapid residential growth through the 1960s and 1970s, producing entire neighborhoods of split-level homes, raised ranches, and center-hall colonials that now define the township\'s architectural character. Today these homes stand alongside newer luxury construction in planned developments, creating a roofing landscape that demands versatility, technical knowledge, and an understanding of how different building eras respond to New Jersey\'s demanding four-season climate.',
+      'Newark Quality Roofing serves Livingston homeowners and commercial property managers, accumulating deep expertise in the specific roof systems found throughout the township. We understand that a 1960s split-level on South Orange Avenue presents fundamentally different challenges than a 2010s colonial in a gated community off Eisenhower Parkway. Our team has worked extensively with the architectural styles, material choices, and building codes that shape roofing outcomes in Livingston, from navigating HOA approval processes in newer developments to preserving the architectural integrity of established neighborhoods like Northland and Collins Terrace.',
       'The township\'s commercial corridor along Eisenhower Parkway and Route 10 adds another dimension to our Livingston practice. Retail centers, professional office buildings, medical facilities, and mixed-use developments all require specialized commercial roofing solutions including flat roof systems, TPO membranes, and metal roofing engineered for large-footprint structures. Our commercial division maintains the certifications, equipment, and crew capacity to handle projects ranging from strip mall roof replacements to new construction installations on multi-story office buildings.',
       'Livingston\'s geographic position in northern Essex County means its roofs face the full force of nor\'easters tracking up the coast, heavy snow loads during winter storms, intense summer heat that accelerates shingle deterioration, and frequent freeze-thaw cycles that stress flashings, valleys, and penetration seals. Our maintenance programs and material selections are specifically calibrated to these regional weather patterns, ensuring Livingston roofs perform reliably through decades of seasonal extremes.',
       'Skylight-related issues are a frequent concern in Livingston homes, particularly the split-levels and raised ranches where skylights were popular additions during the 1980s and 1990s renovation wave. Aging skylight units with deteriorated seals, corroded aluminum curb flashings, and single-pane glass that promotes condensation are common sources of both leaks and energy loss. During every Livingston re-roofing project, we assess existing skylights and recommend either reflashing with modern step-and-counter flashing systems or complete replacement with energy-efficient low-E units. This proactive approach eliminates one of the most persistent leak sources in Livingston homes while improving natural light quality and thermal performance.',
@@ -110,38 +105,6 @@ export const affluentSuburbanContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'David K.',
-        rating: 5,
-        text: 'Our 1970s split-level had been leaking at the garage junction for years. Two other companies tried to patch it, but Newark Quality Roofing identified the real problem and fixed it permanently. The new roof looks fantastic and we haven\'t had a single leak since installation.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Priya S.',
-        rating: 5,
-        text: 'We needed our medical office roof replaced without disrupting patient appointments. They worked weekends and had a detailed phasing plan that kept us dry and operational the entire time. Very professional team that understands commercial requirements.',
-        service: 'Commercial Roofing',
-      },
-      {
-        name: 'Michael R.',
-        rating: 5,
-        text: 'Living in Heritage Hills means dealing with HOA approval for everything. Newark Quality handled all the paperwork, submitted samples, and got approval before we even had to think about it. The installation was clean and fast.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Jennifer L.',
-        rating: 5,
-        text: 'Our Livingston split-level had leaking skylights that four companies tried to fix with sealant. Newark Quality Roofing replaced both skylights with modern low-E units during our roof replacement and completely rebuilt the flashing around them. Two years later, not a single drop. They also added blown-in insulation that noticeably reduced our heating bills. Thorough approach to the whole system, not just the surface.',
-        service: 'Roof Replacement with Skylight Upgrade',
-      },
-      {
-        name: 'Robert and Maria G.',
-        rating: 5,
-        text: 'We needed the roof replaced on our Livingston colonial during a tight renovation timeline. Newark Quality Roofing coordinated perfectly with our general contractor and the painting crew, staying on schedule and keeping the work area organized despite multiple trades on site. The finished roof is beautiful and the seamless gutters they installed handle even the heaviest storms.',
-        service: 'Roof & Gutter Replacement',
-      },
-    ],
     faqs: [
       {
         question: 'How do you handle HOA approval for roofing projects in Livingston developments?',
@@ -170,7 +133,7 @@ export const affluentSuburbanContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in Livingston, NJ?',
-        answer: 'Most roof repairs in Livingston range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in Livingston range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -179,7 +142,7 @@ export const affluentSuburbanContent: CityContent[] = [
         {
           title: 'Split-Level Specialists',
           description:
-            'We\'ve replaced hundreds of roofs on Livingston\'s split-level homes and understand the complex flashing, valley, and ventilation requirements these designs demand.',
+            'We replace roofs on Livingston\'s split-level homes and understand the complex flashing, valley, and ventilation requirements these designs demand.',
         },
         {
           title: 'HOA Navigation',
@@ -199,7 +162,7 @@ export const affluentSuburbanContent: CityContent[] = [
         {
           title: 'Local Knowledge',
           description:
-            'Nearly two decades of Livingston service means we know the township\'s housing stock, permit requirements, and weather patterns intimately.',
+            'Our Livingston service means we know the township\'s housing stock, permit requirements, and weather patterns intimately.',
         },
       ],
     },
@@ -213,9 +176,7 @@ export const affluentSuburbanContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Livingston',
       'Family-Owned & Local',
     ],
   },
@@ -228,11 +189,6 @@ export const affluentSuburbanContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Millburn, NJ',
     heroSubheadline:
       'Slate restoration, copper flashing, and architect-specified installations for Millburn\'s most distinguished estates. Newark Quality Roofing delivers the premium craftsmanship that Short Hills and Millburn Village properties demand.',
-    stats: {
-      projectCount: '280+',
-      servingSince: '2005',
-      rating: '5.0',
-    },
     overview: [
       'Millburn Township occupies a singular position in New Jersey\'s residential landscape, encompassing both the charming downtown village of Millburn proper and the legendary Short Hills section, one of the most affluent residential communities in the northeastern United States. The township\'s housing stock represents an extraordinary collection of architectural achievement spanning more than a century, from grand Tudor Revival and Arts and Crafts estates built during the Gilded Age and early twentieth century to meticulously designed contemporary residences that push the boundaries of modern residential architecture. Properties here routinely exceed one million dollars in value, with estates in the most prestigious sections of Short Hills commanding prices well into the multi-million dollar range. This is a community where roofing is not merely a functional necessity but an integral expression of architectural vision and property stewardship.',
       'Newark Quality Roofing\'s relationship with Millburn Township reflects our commitment to serving communities where excellence is the baseline expectation. We understand that homeowners in Short Hills and Millburn Village have chosen their properties not just for location and school district, but for architectural character, design integrity, and the enduring quality that distinguishes truly fine residential construction. Our roofing services in Millburn are calibrated to this standard, from the materials we specify to the installation techniques we employ to the level of communication and project management we deliver throughout every engagement.',
@@ -245,7 +201,7 @@ export const affluentSuburbanContent: CityContent[] = [
       content: [
         'Residential roofing in Millburn Township requires a fundamentally different approach than standard suburban roof replacement. The homes here were designed by architects, built by master craftsmen, and maintained by homeowners who understand that every visible element contributes to the property\'s character and value. Our residential roofing services in Millburn begin with a detailed architectural assessment that considers not just the roof\'s functional requirements but its role in the home\'s overall design language. We evaluate sight lines from the street, the interplay between roof color and facade materials, the historical appropriateness of material choices, and the engineering requirements of the existing roof structure before making any material recommendations.',
         'For Millburn\'s significant inventory of natural slate roofs, we maintain a dedicated slate restoration crew trained in traditional installation methods. Slate roofing is our most technically demanding residential service, requiring the ability to match replacement slates to existing installations in color, thickness, and texture. We source domestic and imported slates from quarries producing material compatible with the Vermont, Pennsylvania, and Welsh slates originally specified on many Short Hills estates. Our copper work includes hand-fabricated flashings, custom valley liners, decorative ridge caps, and the ornamental copperwork details that distinguish high-end slate installations.',
-        'The Wyoming section, Glenwood, and other premier Short Hills neighborhoods feature homes where roof design is inseparable from architectural identity. Tudor Revival homes with steeply pitched gables and decorative half-timbering require roofing materials that honor the medieval English aesthetic, whether through genuine slate, synthetic slate alternatives rated for the same visual profile, or ultra-premium architectural shingles in textures that complement timber and stucco facades. Arts and Crafts bungalows and Craftsman homes demand roofing selections that reflect the movement\'s emphasis on natural materials, handcrafted details, and integration with the landscape. Our design consultation process ensures every material choice reinforces rather than detracts from these carefully articulated architectural visions.',
+        'The Wyoming section, Glenwood, and other Short Hills neighborhoods feature homes where roof design is inseparable from architectural identity. Tudor Revival homes with steeply pitched gables and decorative half-timbering require roofing materials that honor the medieval English aesthetic, whether through genuine slate, synthetic slate alternatives rated for the same visual profile, or ultra-premium architectural shingles in textures that complement timber and stucco facades. Arts and Crafts bungalows and Craftsman homes demand roofing selections that reflect the movement\'s emphasis on natural materials, handcrafted details, and integration with the landscape. Our design consultation process ensures every material choice reinforces rather than detracts from these carefully articulated architectural visions.',
         'For newer construction and contemporary renovations, we install the highest tier of architectural shingle systems, standing seam metal roofing in architecturally specified colors and profiles, and composite slate and shake products that deliver traditional aesthetics with enhanced performance characteristics. These installations receive the same meticulous attention to detail as our slate and copper work, including precision starter course alignment, machine-straight rake edges, and flashing details that exceed manufacturer requirements.',
       ],
     },
@@ -266,14 +222,14 @@ export const affluentSuburbanContent: CityContent[] = [
     },
     neighborhoods: [
       { name: 'Short Hills', description: 'Legendary estate section with grand Tudor, Colonial, and contemporary residences' },
-      { name: 'Wyoming', description: 'Premier Short Hills neighborhood with architect-designed homes and mature landscapes' },
+      { name: 'Wyoming', description: 'Short Hills neighborhood with architect-designed homes and mature landscapes' },
       { name: 'Glenwood', description: 'Prestigious residential enclave featuring Arts and Crafts and Tudor Revival homes' },
       { name: 'Millburn Village', description: 'Charming downtown area with historic homes and walkable retail district' },
       { name: 'South Mountain', description: 'Elevated neighborhood with mountain views and substantial family homes' },
       { name: 'White Oak Ridge', description: 'Established residential streets with well-maintained colonials and split-levels' },
       { name: 'Old Short Hills', description: 'Historic core of Short Hills with original estate properties and grand architecture' },
       { name: 'Hartshorn', description: 'Distinguished neighborhood named for Short Hills founder Stewart Hartshorn' },
-      { name: 'Deerfield', description: 'Family-oriented section near top-rated Deerfield School' },
+      { name: 'Deerfield', description: 'Family-oriented section near Deerfield School' },
     ],
     projectSpotlights: [
       {
@@ -313,38 +269,6 @@ export const affluentSuburbanContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Catherine W.',
-        rating: 5,
-        text: 'Finding a contractor capable of proper slate work on our 1920s Tudor was a challenge until we found Newark Quality Roofing. They matched our original Vermont slate perfectly and the copper work is museum-quality. The roof looks exactly as it should on a home of this period and caliber.',
-        service: 'Slate Roof Restoration',
-      },
-      {
-        name: 'James & Elena P.',
-        rating: 5,
-        text: 'Our architect was very specific about the standing seam profile and color for our new home in Wyoming. Newark Quality executed the installation exactly to specification, including some very complex plane transitions that other contractors told us couldn\'t be done. Exceptional craftsmanship.',
-        service: 'Metal Roofing',
-      },
-      {
-        name: 'Robert M.',
-        rating: 5,
-        text: 'We manage several commercial properties in downtown Millburn and have used Newark Quality for all our roofing needs. Their maintenance program has extended the life of our roofs significantly, and when we did need a full replacement, the project management was flawless.',
-        service: 'Commercial Roofing',
-      },
-      {
-        name: 'Susan and David K.',
-        rating: 5,
-        text: 'Our Wyoming section home needed a complete cedar shake replacement. Newark Quality sourced premium hand-split cedar, installed stainless steel fasteners throughout, and added copper ridge caps that perfectly complement our Arts and Crafts exterior. The crew treated our property with extraordinary care, protecting every planting bed and leaving the grounds pristine each evening. The finished roof is genuinely beautiful.',
-        service: 'Cedar Shake Roofing',
-      },
-      {
-        name: 'Dr. Patricia N.',
-        rating: 5,
-        text: 'After a severe hailstorm, we needed our Short Hills estate\'s slate roof assessed and repaired. Newark Quality Roofing provided meticulous damage documentation that ensured our insurance claim reflected the true replacement cost of premium materials. The repairs were executed flawlessly with quarry-matched slate. Their expertise with high-value roofing systems sets them apart from every other contractor in the area.',
-        service: 'Storm Damage Slate Repair',
-      },
-    ],
     faqs: [
       {
         question: 'Do you have experience with slate roofs on historic Short Hills homes?',
@@ -373,7 +297,7 @@ export const affluentSuburbanContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in Millburn, NJ?',
-        answer: 'Most roof repairs in Millburn range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in Millburn range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -413,7 +337,7 @@ export const affluentSuburbanContent: CityContent[] = [
     },
     metaTitle: 'Roofing Services in Millburn, NJ | Newark Quality Roofing',
     metaDescription:
-      'Premier roofing in Millburn & Short Hills, NJ. Slate restoration, copper work, and architect-specified installations for estates. Free consultation.',
+      'Expert roofing in Millburn & Short Hills, NJ. Slate restoration, copper work, and architect-specified installations for estates. Free consultation.',
     pricing: {
       averageRepair: '$350–$1,500',
       averageReplacement: '$8,500–$25,000',
@@ -421,9 +345,7 @@ export const affluentSuburbanContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Millburn',
       'Family-Owned & Local',
     ],
   },

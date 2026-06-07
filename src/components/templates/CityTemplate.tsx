@@ -13,7 +13,6 @@ import { CityNeighborhoods } from '@/components/sections/CityNeighborhoods';
 import { CityMaterials } from '@/components/sections/CityMaterials';
 import { CityPermits } from '@/components/sections/CityPermits';
 import { CityServicesGrid } from '@/components/sections/CityServicesGrid';
-import { CityTestimonials } from '@/components/sections/CityTestimonials';
 import { CityProjectSpotlights } from '@/components/sections/CityProjectSpotlights';
 import { CityFaqs } from '@/components/sections/CityFaqs';
 import { CityMapNap } from '@/components/sections/CityMapNap';
@@ -23,8 +22,6 @@ import { CityPricing } from '@/components/sections/CityPricing';
 import { ServiceCredentials } from '@/components/sections/ServiceCredentials';
 import { TrustBar } from '@/components/sections/TrustBar';
 import { getCityOverviewImage } from '@/data/image-manifest';
-import { CompactTestimonial } from '@/components/sections/CompactTestimonial';
-import { testimonials } from '@/data/testimonials';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
   buildLocalBusinessSchema,
@@ -49,7 +46,6 @@ const tocSections = [
   { id: 'neighborhoods', label: 'Neighborhoods' },
   { id: 'services', label: 'Services' },
   { id: 'why-choose', label: 'Why Choose Us' },
-  { id: 'testimonials', label: 'Testimonials' },
   { id: 'projects', label: 'Projects' },
   { id: 'faqs', label: 'FAQs' },
   { id: 'location', label: 'Location' },
@@ -100,7 +96,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
       {/* Trust bar: text-only stats with SVG icons */}
       <TrustBar variant="compact" />
 
-      <CityStatsBar stats={content.stats} cityName={city.name} />
+      <CityStatsBar cityName={city.name} />
 
       {/* Credentials badge row */}
       {content.credentialsHighlight && content.credentialsHighlight.length > 0 && (
@@ -201,24 +197,6 @@ export default function CityTemplate({ city }: CityTemplateProps) {
                   galleryPairs={galleryPairs}
                 />
               </section>
-            </AnimateIn>
-
-            {/* §4.3 "What Do [City] Customers Say About Our Roofing Work?" */}
-            <AnimateIn>
-              <section id="testimonials" aria-labelledby="testimonials-heading">
-                <CityTestimonials
-                  testimonials={content.testimonials}
-                  cityName={city.name}
-                />
-              </section>
-            </AnimateIn>
-
-            {/* Compact testimonials -- 1-2 relevant reviews by location */}
-            <AnimateIn>
-              <CompactTestimonial
-                testimonials={testimonials}
-                filterBy={{ type: 'location', value: city.name }}
-              />
             </AnimateIn>
 
             {/* §4.3 "What Questions Do [City] Property Owners Ask About Roofing?" */}

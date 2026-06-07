@@ -181,13 +181,13 @@ export const ServiceContentSchema = z.object({
 
 export const CityContentSchema = z.object({
   cityId: z.string(),
+  // Answer-first hero answer (≤40 words, answer span pre-bolded via **markdown**).
+  // Optional for backward compatibility: cities not yet rewritten omit it and
+  // still validate. Consumed by CityHero when present (gated at render time),
+  // mirroring ServiceContent.directAnswer.
+  directAnswer: z.string().optional(),
   heroHeadline: z.string(),
   heroSubheadline: z.string(),
-  stats: z.object({
-    projectCount: z.string(),
-    servingSince: z.string(),
-    rating: z.string(),
-  }),
   overview: z.array(z.string()).min(3).max(6),
   residential: z.object({
     heading: z.string(),
@@ -210,12 +210,6 @@ export const CityContentSchema = z.object({
     type: z.enum(['residential', 'commercial']),
     description: z.string(),
     details: z.array(z.string()).min(2).max(4),
-  })).min(2).max(5),
-  testimonials: z.array(z.object({
-    name: z.string(),
-    rating: z.number().min(4).max(5),
-    text: z.string(),
-    service: z.string(),
   })).min(2).max(5),
   faqs: z.array(z.object({
     question: z.string(),

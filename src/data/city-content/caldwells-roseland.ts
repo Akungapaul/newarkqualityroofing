@@ -11,17 +11,12 @@ export const caldwellsRoselandContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Caldwell, NJ',
     heroSubheadline:
       'Dependable craftsmanship for Caldwell\'s charming homes and local businesses — from Victorian restorations on Bloomfield Avenue to modern upgrades across every neighborhood.',
-    stats: {
-      projectCount: '300+',
-      servingSince: '2005',
-      rating: '4.9',
-    },
     overview: [
       'Caldwell is a borough defined by small-town character and genuine community pride. Situated in western Essex County, this walkable township features a vibrant Bloomfield Avenue downtown corridor lined with locally owned shops, cafes, and restaurants. The birthplace of President Grover Cleveland and home to Caldwell University, the borough carries a sense of heritage that extends to its residential architecture — an eclectic mix of Victorian-era homes, early twentieth-century colonials, Cape Cods from the postwar era, and mid-century ranches tucked along tree-lined side streets. With compact lots and homes built across multiple generations, Caldwell\'s roofing landscape is as varied as its streetscapes.',
       'Roofing in Caldwell demands a contractor who understands tight-lot construction, older framing systems, and the importance of preserving neighborhood aesthetics. Many homes along Westville Avenue, Personette Street, and the streets surrounding Grover Cleveland Park feature original slate or cedar roofs that have endured for decades but now require restoration or strategic replacement. Meanwhile, the postwar ranch homes and split-levels found in the borough\'s quieter blocks often need full tear-offs after years of layered shingle applications. Newark Quality Roofing brings deep experience with both restoration-sensitive projects and straightforward replacements, ensuring every Caldwell home receives the right approach for its age, style, and structural condition.',
       'Beyond residential work, Caldwell\'s commercial district along Bloomfield Avenue presents unique roofing challenges. Mixed-use buildings with retail on the ground floor and apartments above require low-disruption installations, proper flashing integration between old masonry facades and modern roofing membranes, and strict compliance with borough permit requirements. Our team coordinates closely with Caldwell building officials to ensure every commercial and residential project meets local codes while respecting the borough\'s architectural character.',
       'The northeastern New Jersey climate subjects Caldwell roofs to punishing freeze-thaw cycles, summer thunderstorms with damaging hail, and heavy wet snow loads that test every fastener and flashing detail. Proper ice-and-water shield installation at eaves, valleys, and penetrations is non-negotiable for homes in this region. We design every Caldwell roof system to withstand these conditions, using Class 4 impact-resistant shingles where appropriate and ensuring ventilation systems prevent the ice damming that plagues so many older homes with inadequate attic insulation.',
-      'Caldwell University and the borough\'s civic buildings add institutional roofing needs to the mix. Roofing projects near the campus and along the Bloomfield Avenue corridor require coordination with municipal authorities, awareness of pedestrian traffic patterns, and scheduling sensitivity during academic terms and community events. Our project managers work closely with property owners, borough officials, and neighboring businesses to ensure that every roofing project in Caldwell proceeds smoothly — from initial permit application through final inspection and cleanup. This collaborative approach has earned us a reputation as Caldwell\'s most trusted roofing contractor.',
+      'Caldwell University and the borough\'s civic buildings add institutional roofing needs to the mix. Roofing projects near the campus and along the Bloomfield Avenue corridor require coordination with municipal authorities, awareness of pedestrian traffic patterns, and scheduling sensitivity during academic terms and community events. Our project managers work closely with property owners, borough officials, and neighboring businesses to ensure that every roofing project in Caldwell proceeds smoothly — from initial permit application through final inspection and cleanup.',
       'Energy efficiency is an increasingly important consideration for Caldwell homeowners, particularly those with older homes where original insulation and ventilation fall well below modern standards. During every roof replacement, we assess attic insulation levels and ventilation adequacy, recommending improvements that can reduce heating and cooling costs by 15-25 percent while simultaneously extending the new roof system\'s lifespan. Proper ventilation prevents the moisture buildup that accelerates sheathing decay and the thermal differentials that cause ice dams — making it one of the most cost-effective upgrades a Caldwell homeowner can make during a re-roofing project.',
     ],
     residential: {
@@ -91,38 +86,6 @@ export const caldwellsRoselandContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Patricia M.',
-        rating: 5,
-        text: 'Our 1920s colonial on Westville Avenue needed serious attention. Newark Quality Roofing removed two old layers, repaired the decking, and installed beautiful architectural shingles. The crew was respectful of our tight lot and cleaned up every day. Outstanding work from start to finish.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Frank D.',
-        rating: 5,
-        text: 'We own a retail building on Bloomfield Avenue and needed the flat roof replaced without shutting down our tenants. They completed the entire TPO installation over one weekend. Professional, on-time, and the warranty package gives us real peace of mind.',
-        service: 'Commercial Roofing',
-      },
-      {
-        name: 'Maria C.',
-        rating: 5,
-        text: 'After a storm damaged several shingles on our ranch home, they were out within 24 hours for a temporary patch and had the full repair done within the week. Great communication and fair pricing. I recommend them to all my neighbors in Caldwell.',
-        service: 'Storm Damage Repair',
-      },
-      {
-        name: 'Tom S.',
-        rating: 5,
-        text: 'Had our gutters replaced along with the roof on our Caldwell colonial and the difference in drainage is remarkable. No more overflowing gutters during heavy rain, no more ice dams in winter. The seamless aluminum system they installed looks great and the leaf guards have been a huge time saver. Should have done this years ago.',
-        service: 'Roof & Gutter Replacement',
-      },
-      {
-        name: 'Linda K.',
-        rating: 5,
-        text: 'Newark Quality Roofing handled our Caldwell University area rental property roof with complete professionalism. They coordinated with our tenants, completed the work on schedule, and provided all the documentation our insurance company needed. Their maintenance program has kept the roof in excellent condition since installation.',
-        service: 'Residential Roof Replacement',
-      },
-    ],
     faqs: [
       {
         question: 'How long does a typical residential roof replacement take in Caldwell?',
@@ -134,7 +97,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
       {
         question: 'Are permits required for roofing work in Caldwell?',
-        answer: 'Yes, the Borough of Caldwell requires building permits for roof replacements and significant repairs. We handle the entire permit process, including application submission, coordination with building officials, and scheduling final inspections. Permit fees are included in our project proposals.',
+        answer: 'Under the New Jersey Uniform Construction Code (N.J.A.C. 5:23-2.7), a complete re-roof on a detached one- or two-family home in Caldwell is ordinary maintenance that needs no construction permit. Commercial, multi-family, or structural roofing work does require a permit, which Newark Quality Roofing pulls under its New Jersey Home Improvement Contractor registration, scheduling and meeting the required inspections.',
       },
       {
         question: 'How do you handle roofing on Caldwell\'s compact lots?',
@@ -142,11 +105,11 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
       {
         question: 'What shingle brands do you install in Caldwell?',
-        answer: 'We are certified installers for GAF, Owens Corning, and CertainTeed — the three leading manufacturers. Each offers architectural shingle lines with lifetime warranties, algae resistance, and Class 4 impact ratings. We help Caldwell homeowners select the right product for their home style and budget.',
+        answer: 'We install GAF, Owens Corning, and CertainTeed — three leading manufacturers. Each offers architectural shingle lines with lifetime warranties, algae resistance, and Class 4 impact ratings. We help Caldwell homeowners select the right product for their home style and budget.',
       },
       {
         question: 'Do you offer emergency roof repairs in Caldwell after storms?',
-        answer: 'Yes, we provide 24-hour emergency response for storm damage in Caldwell. Our team can deploy for temporary tarping and water mitigation within hours, followed by permanent repairs scheduled promptly. We also assist with insurance claims documentation and adjuster coordination.',
+        answer: 'Yes, we provide emergency response for storm damage in Caldwell. Our team can deploy for temporary tarping and water mitigation, followed by permanent repairs scheduled promptly. We also assist with insurance claims documentation and adjuster coordination.',
       },
       {
         question: 'Can you improve my Caldwell home\'s energy efficiency during a roof replacement?',
@@ -196,9 +159,7 @@ export const caldwellsRoselandContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Caldwell',
       'Family-Owned & Local',
     ],
   },
@@ -209,11 +170,6 @@ export const caldwellsRoselandContent: CityContent[] = [
     heroHeadline: 'Roofing Services in North Caldwell, NJ',
     heroSubheadline:
       'Delivering the precision craftsmanship and superior materials that North Caldwell\'s distinguished properties deserve — from slate restorations to copper accent installations on the borough\'s finest estates.',
-    stats: {
-      projectCount: '180+',
-      servingSince: '2005',
-      rating: '4.9',
-    },
     overview: [
       'North Caldwell is one of Essex County\'s most prestigious residential communities, distinguished by its expansive lots, heavily wooded landscapes, and absence of commercial development. This exclusively residential borough features properties set on one-acre minimum lots, many exceeding two or three acres, connected by winding roads that pass through mature hardwood forests. The homes here are overwhelmingly custom-built — grand colonials, sprawling contemporaries, stately Tudors, and architect-designed estates that represent significant investments in quality construction and premium materials. North Caldwell\'s roofing requirements reflect this elevated standard: homeowners here expect nothing less than master-level craftsmanship, superior material selections, and meticulous attention to every architectural detail.',
       'The roofing landscape in North Caldwell is defined by complexity and scale. Custom homes with 4,000 to 10,000 square feet of living space feature correspondingly large and intricate roof systems — multi-level structures with intersecting ridges, dormer clusters, turret accents, covered porticoes, and attached multi-bay garages, each with its own roofing geometry. Many of the borough\'s finer homes incorporate premium roofing materials: natural slate quarried to specification, standing-seam copper panels that develop a distinctive verdigris patina over decades, cedar shake roofs that complement the wooded setting, and high-end designer shingle lines that replicate the appearance of historic materials. Newark Quality Roofing has built a reputation in North Caldwell for executing these sophisticated installations with the precision they demand.',
@@ -242,7 +198,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       heading: 'Weather Protection for North Caldwell\'s Wooded Estates',
       content: [
         'North Caldwell\'s elevation and heavily wooded terrain amplify the standard northeastern weather threats. The borough sits at higher elevation than surrounding communities, increasing exposure to wind-driven rain and creating heavier snow accumulations that persist longer beneath the forest canopy. Ice damming is a particular concern on the large, complex roofs typical of North Caldwell homes — multiple valley intersections, dormers, and varying roof planes create natural collection points where ice barriers can form and force meltwater laterally beneath roofing materials. Our North Caldwell installations address these risks with extended ice-and-water shield coverage, proper attic ventilation design calculated to each home\'s specific geometry, and strategic use of heat cable systems in chronic ice dam zones.',
-        'Wind exposure during nor\'easters and severe thunderstorms presents additional challenges for North Caldwell\'s large roofs. The tall, mature trees that define the borough\'s character also shed branches — and occasionally entire limbs — during high-wind events. Impact damage to premium roofing materials requires immediate attention to prevent water intrusion into the high-value finishes beneath. Our emergency response team provides 24-hour service to North Caldwell homeowners, with temporary tarping, water mitigation, and permanent repair capabilities that address storm damage before secondary damage compounds the loss.',
+        'Wind exposure during nor\'easters and severe thunderstorms presents additional challenges for North Caldwell\'s large roofs. The tall, mature trees that define the borough\'s character also shed branches — and occasionally entire limbs — during high-wind events. Impact damage to premium roofing materials requires immediate attention to prevent water intrusion into the high-value finishes beneath. Our emergency response team serves North Caldwell homeowners, with temporary tarping, water mitigation, and permanent repair capabilities that address storm damage before secondary damage compounds the loss.',
         'Seasonal moisture management on North Caldwell\'s wooded lots requires year-round attention. Spring pollen accumulation creates a film on roof surfaces that holds moisture and promotes algae colonization. Summer humidity beneath the tree canopy keeps north-facing slopes damp for extended periods. Fall leaf debris fills every valley and gutter. Winter ice forms along shaded eave lines long after sun-exposed sections have cleared. Our annual maintenance programs for North Caldwell properties address each seasonal challenge systematically, preserving the appearance and extending the functional life of premium roofing investments.',
       ],
     },
@@ -301,32 +257,6 @@ export const caldwellsRoselandContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Richard W.',
-        rating: 5,
-        text: 'When our slate roof needed restoration after 80 years, we interviewed five contractors. Newark Quality Roofing was the only team that truly understood slate work — sourcing matched quarry slate, rebuilding our copper flashings by hand, and completing the project with museum-quality precision. The roof looks magnificent.',
-        service: 'Slate Roof Restoration',
-      },
-      {
-        name: 'Elizabeth K.',
-        rating: 5,
-        text: 'Our North Caldwell home required cedar shake replacement across nearly 5,000 square feet. The crew was meticulous from day one — hand-selecting shakes, installing copper details, and leaving our property pristine each evening. The finished roof is stunning and the warranty comprehensive.',
-        service: 'Cedar Shake Roofing',
-      },
-      {
-        name: 'James and Carol P.',
-        rating: 5,
-        text: 'After a severe storm damaged our roof and the guest house, their emergency team was on-site within hours with tarps and a repair plan. The permanent repairs were completed within two weeks using identical materials. They also handled all insurance coordination. First-class service throughout.',
-        service: 'Storm Damage Repair',
-      },
-      {
-        name: 'Andrea M.',
-        rating: 5,
-        text: 'We needed our North Caldwell home\'s copper bay window roofs and chimney flashings replaced to match the original patina on our 30-year-old colonial. Newark Quality Roofing fabricated every piece custom in their shop and the finished installation is indistinguishable from the original work. Their metalwork crew is genuinely talented and the attention to detail is extraordinary.',
-        service: 'Copper Roofing',
-      },
-    ],
     faqs: [
       {
         question: 'Do you install natural slate roofs in North Caldwell?',
@@ -378,7 +308,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         },
         {
           title: 'Comprehensive Warranty Programs',
-          description: 'We offer extended workmanship warranties backed by manufacturer certifications from GAF, Owens Corning, and CertainTeed. Our premium installations qualify for the highest warranty tiers available, including non-prorated material coverage.',
+          description: 'We offer extended workmanship warranties backed by manufacturer material warranties from GAF, Owens Corning, and CertainTeed. Our premium installations qualify for the highest warranty tiers available, including non-prorated material coverage.',
         },
         {
           title: 'Insurance Coordination',
@@ -400,9 +330,7 @@ export const caldwellsRoselandContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving North Caldwell',
       'Family-Owned & Local',
     ],
   },
@@ -413,11 +341,6 @@ export const caldwellsRoselandContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Essex Fells, NJ',
     heroSubheadline:
       'Architect-specified materials, master craftsmanship, and meticulous estate-scale project management for one of New Jersey\'s most exclusive residential communities.',
-    stats: {
-      projectCount: '120+',
-      servingSince: '2005',
-      rating: '5.0',
-    },
     overview: [
       'Essex Fells occupies a singular position among New Jersey\'s residential communities. This small borough in western Essex County is one of the state\'s wealthiest and most exclusive enclaves — a place where one-acre minimum lot requirements, winding roads without sidewalks, and a deliberate absence of commercial development preserve a rural estate character that has remained essentially unchanged for generations. The homes here are architect-designed originals and custom builds, ranging from historic stone estates dating to the early 1900s through mid-century modernist residences to contemporary estate homes designed by the region\'s leading architectural firms. Every property in Essex Fells represents a substantial investment, and the roofing systems that protect these homes must reflect the same commitment to excellence that went into their design and construction.',
       'Roofing in Essex Fells operates at the highest tier of residential construction. The borough\'s homes regularly feature natural slate roofs specified by architects for their century-plus lifespan and unmatched aesthetic authority. Cedar shake roofs complement the wooded, naturalistic setting that defines Essex Fells. Standing-seam copper panels, custom-fabricated copper flashings, and decorative copper elements appear throughout the borough on primary residences and accessory structures alike. Even when homeowners select premium shingle products, the expectation is for top-tier designer lines installed with the kind of hand-crafted precision that distinguishes artisan work from commodity installation. Newark Quality Roofing has earned the trust of Essex Fells homeowners — and the architects and builders who serve them — by consistently delivering this level of quality.',
@@ -503,32 +426,6 @@ export const caldwellsRoselandContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'The Harrington Family',
-        rating: 5,
-        text: 'Our architect recommended Newark Quality Roofing for the slate restoration on our Essex Fells estate. The scope was enormous — main house, guest cottage, and garage — but they managed every detail with precision and professionalism we\'ve rarely encountered in any trade. The finished slate work is extraordinary.',
-        service: 'Slate Roofing',
-      },
-      {
-        name: 'Dr. Robert S.',
-        rating: 5,
-        text: 'After 20 years, our cedar shake roof needed replacement. They recommended a composite product that looks remarkably like natural cedar but will last decades longer with no maintenance. The installation crew treated our property with the care we\'d expect — protective tarps over every planting bed, daily cleanup, immaculate final result.',
-        service: 'Composite Shake Roofing',
-      },
-      {
-        name: 'Catherine L.',
-        rating: 5,
-        text: 'The copper roofing on our new pool house is simply beautiful. Their metalwork team fabricated custom curved panels that our architect specified, and the finished installation exceeds what we envisioned. They also handled the standing-seam work on two dormers of our main house. Exceptional craftsmanship.',
-        service: 'Copper Roofing',
-      },
-      {
-        name: 'William and Margaret H.',
-        rating: 5,
-        text: 'Our Essex Fells estate required roofing across the main house, guest cottage, and detached garage — three different structures with three different roof configurations. Newark Quality managed the entire 10-week project with the organization and professionalism of a commercial operation while delivering the handcrafted quality our historic home deserves. The documentation package they provided for our insurance was invaluable.',
-        service: 'Estate Roofing',
-      },
-    ],
     faqs: [
       {
         question: 'Do you work with architects on Essex Fells projects?',
@@ -602,9 +499,7 @@ export const caldwellsRoselandContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Essex Fells',
       'Family-Owned & Local',
     ],
   },
@@ -615,11 +510,6 @@ export const caldwellsRoselandContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Fairfield, NJ',
     heroSubheadline:
       'From suburban neighborhoods to the Route 46 commercial corridor, Newark Quality Roofing delivers comprehensive roofing solutions for every property type in Fairfield Township.',
-    stats: {
-      projectCount: '350+',
-      servingSince: '2005',
-      rating: '4.9',
-    },
     overview: [
       'Fairfield Township occupies a unique position in western Essex County as a community that blends quiet suburban residential neighborhoods with one of northern New Jersey\'s most active commercial corridors. The Route 46 highway that bisects the township brings a concentration of retail centers, big-box stores, automotive dealerships, restaurants, and office buildings that creates a commercial roofing market unlike anything found in neighboring Caldwell or North Caldwell. Meanwhile, Fairfield\'s residential neighborhoods — developed primarily during the housing expansions of the 1970s, 1980s, and 1990s — feature the colonials, split-levels, bi-levels, and center-hall colonials that define late-twentieth-century suburban New Jersey. This dual character makes Fairfield one of the most diverse roofing markets in Essex County.',
       'The commercial roofing demands along Route 46 and the Fairfield Business Campus are substantial. Strip malls with 20,000 to 50,000 square feet of roof area, standalone retail buildings, multi-tenant office complexes, and light industrial facilities all require professional flat-roof and low-slope roofing systems. TPO, EPDM, modified bitumen, and standing-seam metal roof assemblies dominate the commercial landscape, each with specific performance characteristics suited to different building types and owner requirements. Newark Quality Roofing maintains dedicated commercial crews with the training, equipment, and safety certifications necessary to serve Fairfield\'s business property owners and facility managers. Our commercial capabilities include full membrane replacements, preventive maintenance programs, emergency leak response, and energy-efficient retrofit installations.',
@@ -706,38 +596,6 @@ export const caldwellsRoselandContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Steve R., Property Manager',
-        rating: 5,
-        text: 'We manage several commercial properties along Route 46 in Fairfield and Newark Quality Roofing handles all our roofing needs. Their maintenance program has prevented major issues, and when we did need a full TPO replacement on one building, they completed it on schedule and under budget. Excellent commercial contractor.',
-        service: 'Commercial Roofing',
-      },
-      {
-        name: 'Linda T.',
-        rating: 5,
-        text: 'Our split-level in Fairfield was still wearing its original 1978 roof — clearly overdue. They did a full tear-off, replaced some damaged decking, and installed beautiful new architectural shingles. The house looks ten years newer. Fair price and professional crew from start to finish.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Dave and Karen M.',
-        rating: 5,
-        text: 'When our Fairfield neighborhood decided to coordinate roof replacements, Newark Quality Roofing gave us group pricing and scheduled each home efficiently. Twelve houses re-roofed in about a month with minimal disruption. Great experience working with them on a community project.',
-        service: 'Neighborhood Re-Roofing',
-      },
-      {
-        name: 'Jennifer A.',
-        rating: 5,
-        text: 'Our 1988 colonial in Fairfield had skylights that leaked every time it rained heavily. During the roof replacement, Newark Quality replaced both skylights with modern low-E units and completely rebuilt the flashing around them. Two years later, absolutely zero leaks. They also fixed ventilation issues in our attic that were causing ice dams every winter. Thorough, knowledgeable, and reasonably priced.',
-        service: 'Roof Replacement with Skylight Upgrade',
-      },
-      {
-        name: 'Robert M., Building Owner',
-        rating: 5,
-        text: 'I own a commercial building on Route 46 and the existing roof had been leaking for years despite multiple patch attempts by other companies. Newark Quality Roofing installed a new TPO membrane with proper drainage design and the building has been completely dry since. Their commercial team clearly knows flat-roof systems inside and out.',
-        service: 'Commercial TPO Installation',
-      },
-    ],
     faqs: [
       {
         question: 'Do you handle both residential and commercial roofing in Fairfield?',
@@ -769,7 +627,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
       {
         question: 'Do you offer warranty coverage on Fairfield roofing projects?',
-        answer: 'Every Fairfield installation includes both manufacturer material warranties and our workmanship warranty. As certified installers for GAF, Owens Corning, and CertainTeed, we can offer enhanced warranty packages including Golden Pledge and Platinum Protection that provide non-prorated material coverage and workmanship guarantees for up to 25 years. Commercial projects include manufacturer NDL (No Dollar Limit) warranties on qualifying TPO and EPDM installations.',
+        answer: 'Every Fairfield installation includes both manufacturer material warranties and our workmanship warranty. We install GAF, Owens Corning, and CertainTeed products with enhanced warranty packages including Golden Pledge and Platinum Protection that provide non-prorated material coverage and workmanship guarantees for up to 25 years. Commercial projects include manufacturer NDL (No Dollar Limit) warranties on qualifying TPO and EPDM installations.',
       },
     ],
     whyChoose: {
@@ -793,7 +651,7 @@ export const caldwellsRoselandContent: CityContent[] = [
         },
         {
           title: 'Comprehensive Warranty Options',
-          description: 'As certified installers for three leading manufacturers, we offer enhanced residential and commercial warranty packages including non-prorated material coverage and extended workmanship guarantees up to 25 years.',
+          description: 'As installers of three leading manufacturers\' products, we offer enhanced residential and commercial warranty packages including non-prorated material coverage and extended workmanship guarantees up to 25 years.',
         },
         {
           title: 'Skylight and Specialty Repair',
@@ -811,9 +669,7 @@ export const caldwellsRoselandContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Fairfield',
       'Family-Owned & Local',
     ],
   },
@@ -823,15 +679,10 @@ export const caldwellsRoselandContent: CityContent[] = [
     cityId: 'roseland',
     heroHeadline: 'Roofing Services in Roseland, NJ',
     heroSubheadline:
-      'Quality craftsmanship for Roseland\'s established neighborhoods and corporate properties — from residential upgrades along Eagle Rock Avenue to commercial solutions for the borough\'s premier business campuses.',
-    stats: {
-      projectCount: '250+',
-      servingSince: '2005',
-      rating: '4.9',
-    },
+      'Quality craftsmanship for Roseland\'s established neighborhoods and corporate properties — from residential upgrades along Eagle Rock Avenue to commercial solutions for the borough\'s business campuses.',
     overview: [
       'Roseland is a compact, professionally oriented borough in western Essex County that balances established residential neighborhoods with a significant corporate and commercial presence. Home to the global headquarters of ADP (Automatic Data Processing), one of the world\'s largest payroll and human resources companies, along with other major corporate tenants, Roseland carries an economic weight far exceeding its modest geographic footprint. The borough\'s residential sections feature well-maintained homes built primarily during the 1950s through 1970s — colonials, split-levels, and ranches set on generous lots along tree-lined streets that radiate from the Eagle Rock Avenue commercial corridor. This combination of established residential housing and substantial corporate campus buildings creates a roofing market that demands versatility.',
-      'Roseland\'s residential neighborhoods have reached a critical inflection point for roofing. Homes built during the 1950s and 1960s may have already undergone one roof replacement, while those from the 1970s are typically approaching or past the useful life of their original builder-grade shingles. The most common residential roofing scenario in Roseland involves a full tear-off of aging three-tab or early architectural shingles, inspection and repair of plywood or OSB decking that has endured decades of seasonal cycling, and installation of modern architectural shingle systems with proper underlayment and ventilation upgrades. Newark Quality Roofing has completed hundreds of these transitions throughout Roseland, developing efficient workflows that minimize disruption to homeowners while delivering substantial improvements in appearance, durability, and energy efficiency.',
+      'Roseland\'s residential neighborhoods have reached a critical inflection point for roofing. Homes built during the 1950s and 1960s may have already undergone one roof replacement, while those from the 1970s are typically approaching or past the useful life of their original builder-grade shingles. The most common residential roofing scenario in Roseland involves a full tear-off of aging three-tab or early architectural shingles, inspection and repair of plywood or OSB decking that has endured decades of seasonal cycling, and installation of modern architectural shingle systems with proper underlayment and ventilation upgrades. Newark Quality Roofing completes these transitions throughout Roseland, developing efficient workflows that minimize disruption to homeowners while delivering substantial improvements in appearance, durability, and energy efficiency.',
       'The corporate and commercial roofing market in Roseland is anchored by the ADP campus and the surrounding office parks along Eisenhower Parkway and Eagle Rock Avenue. These multi-story buildings feature large-area flat and low-slope roof systems that require commercial-grade maintenance, periodic membrane replacement, and professional management of the rooftop mechanical equipment — HVAC units, cooling towers, telecommunications arrays — that these facilities depend upon. Newark Quality Roofing serves several of Roseland\'s commercial property managers with comprehensive roofing programs that include scheduled inspections, preventive maintenance, emergency leak response, and capital planning for full roof system replacement.',
       'Roseland\'s position along the eastern slope of the Watchung Mountains creates specific weather exposure patterns. The borough receives full northeast winter weather including significant snow accumulation, repeated freeze-thaw cycling, and ice formation that tests every flashing and drainage detail. Summer thunderstorms arrive from the west across the open terrain of Morris County, sometimes building significant energy before reaching Roseland. Our roofing specifications for the borough account for these exposures with enhanced ice-and-water shield coverage, wind-rated fastening patterns, and drainage design verified to handle the intense rainfall events that climate change is making increasingly common.',
     ],
@@ -904,38 +755,6 @@ export const caldwellsRoselandContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Michael B., Facility Director',
-        rating: 5,
-        text: 'We contracted Newark Quality Roofing for a major membrane replacement on our Roseland office building. Their team managed the project flawlessly — coordinating around our tenants, re-flashing dozens of HVAC units, and delivering a warranted system on schedule. They now maintain all our Roseland roofing assets.',
-        service: 'Commercial Roof Replacement',
-      },
-      {
-        name: 'Susan G.',
-        rating: 5,
-        text: 'Our 1960s split-level on Becker Farm Road had a chronic leak at the split-point where the roof meets the upper wall. Previous contractors couldn\'t solve it. Newark Quality Roofing identified the flashing failure, fabricated a custom solution, and re-roofed the entire home. Two years later — completely dry.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Anthony P.',
-        rating: 5,
-        text: 'Straightforward, professional, and reasonably priced. They replaced our Roseland ranch roof in two days, cleaned up every nail, and the new shingles look great. No surprises, no upsells — just good honest roofing work. Would recommend without hesitation.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Karen W.',
-        rating: 5,
-        text: 'Our Roseland townhome association hired Newark Quality Roofing to coordinate re-roofing across 16 units. They presented materials to our board, provided a phased schedule that minimized disruption, and completed every unit to the same high standard. The volume pricing saved each owner significantly compared to individual projects. Excellent communication throughout.',
-        service: 'HOA Re-Roofing Program',
-      },
-      {
-        name: 'Daniel L.',
-        rating: 5,
-        text: 'The chimney on our 1960s colonial had been leaking for years and nobody could fix it permanently. Newark Quality Roofing identified the deteriorated masonry as the root cause, coordinated the brick repair, and installed new copper-lined counter flashings. Three winters later, completely dry. They solved what three other roofers could not.',
-        service: 'Chimney Flashing Repair',
-      },
-    ],
     faqs: [
       {
         question: 'Do you provide commercial roofing services for Roseland\'s corporate buildings?',
@@ -947,7 +766,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       },
       {
         question: 'What brands of shingles do you recommend for Roseland homes?',
-        answer: 'We are certified installers for GAF, Owens Corning, and CertainTeed. For Roseland\'s established colonials and split-levels, we typically recommend GAF Timberline HDZ or Owens Corning Duration — both offer excellent wind and impact resistance, attractive dimensional profiles, and lifetime manufacturer warranties that we can extend with our preferred installer certifications.',
+        answer: 'We install GAF, Owens Corning, and CertainTeed. For Roseland\'s established colonials and split-levels, we typically recommend GAF Timberline HDZ or Owens Corning Duration — both offer excellent wind and impact resistance, attractive dimensional profiles, and lifetime manufacturer warranties.',
       },
       {
         question: 'Do you offer maintenance programs for commercial buildings in Roseland?',
@@ -1009,9 +828,7 @@ export const caldwellsRoselandContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Roseland',
       'Family-Owned & Local',
     ],
   },

@@ -12,15 +12,10 @@ export const westEssexContent: CityContent[] = [
     heroHeadline: 'Roofing Services in West Orange, NJ',
     heroSubheadline:
       'From valley-floor capes to Llewellyn Park estates, West Orange roofing demands expertise across every elevation and architectural style. Newark Quality Roofing delivers precision craftsmanship that protects homes from Eagle Rock to Pleasant Valley.',
-    stats: {
-      projectCount: '380+',
-      servingSince: '2005',
-      rating: '4.9',
-    },
     overview: [
-      'West Orange is one of Essex County\'s most geographically diverse communities, stretching from low-lying neighborhoods near the Orange border up through the first Watchung Mountain ridge to the plateau that defines its western reaches. This dramatic elevation change of nearly 500 feet creates vastly different roofing environments within a single township. Valley-floor homes experience different wind patterns, moisture accumulation, and snow loads than properties perched along Eagle Rock Reservation or nestled in the historic Llewellyn Park enclave. Newark Quality Roofing has spent nearly two decades learning how terrain shapes roofing performance across every West Orange neighborhood.',
+      'West Orange is one of Essex County\'s most geographically diverse communities, stretching from low-lying neighborhoods near the Orange border up through the first Watchung Mountain ridge to the plateau that defines its western reaches. This dramatic elevation change of nearly 500 feet creates vastly different roofing environments within a single township. Valley-floor homes experience different wind patterns, moisture accumulation, and snow loads than properties perched along Eagle Rock Reservation or nestled in the historic Llewellyn Park enclave. Newark Quality Roofing has learned how terrain shapes roofing performance across every West Orange neighborhood.',
       'The township\'s housing stock spans an extraordinary range. Near Main Street and the valley floor, you find affordable post-war capes, ranches, and modest colonials with standard asphalt shingle roofs that need replacement every 20 to 25 years. Move uphill into the Gregory neighborhood or along Northfield Avenue, and split-levels and raised ranches from the 1960s appear with their characteristic multi-plane rooflines. Continue climbing toward Eagle Rock and the homes grow larger: center-hall colonials, Tudor revivals, and custom contemporaries with complex roof geometries that demand advanced flashing and waterproofing techniques.',
-      'Llewellyn Park, established in 1857 as America\'s first planned residential community, represents West Orange\'s most prestigious roofing challenge. These estates feature copper standing seam roofs, slate installations dating to the late nineteenth century, and architectural details that require historically informed restoration. Our team has completed numerous projects within Llewellyn Park\'s gated community, working with homeowners who expect museum-quality craftsmanship and materials that honor the neighborhood\'s distinguished heritage.',
+      'Llewellyn Park, established in 1857 as America\'s first planned residential community, represents West Orange\'s most prestigious roofing challenge. These estates feature copper standing seam roofs, slate installations dating to the late nineteenth century, and architectural details that require historically informed restoration. Our team works within Llewellyn Park\'s gated community with homeowners who expect museum-quality craftsmanship and materials that honor the neighborhood\'s distinguished heritage.',
       'West Orange\'s position along the Watchung ridge makes it particularly vulnerable to nor\'easters that channel wind through the mountain gaps. Homes along Eagle Rock Avenue and Prospect Avenue experience sustained winds 15 to 20 percent stronger than valley-floor properties during major storms. We specify enhanced wind-rated underlayment and six-nail fastening patterns for ridge-top installations, ensuring shingles withstand gusts that routinely exceed 70 miles per hour during winter storms.',
       'The township\'s diverse tree canopy, while beautiful, creates persistent roofing maintenance challenges. Oak, maple, and hickory trees shed leaves that accumulate in valleys and behind dormers, trapping moisture against roofing materials. In shaded areas near South Mountain Reservation, moss and algae growth accelerates dramatically. We recommend algae-resistant shingle formulations for properties with significant tree coverage and provide gutter protection systems that prevent the debris buildup responsible for ice dam formation during Essex County winters.',
     ],
@@ -28,15 +23,15 @@ export const westEssexContent: CityContent[] = [
       heading: 'Residential Roofing Across West Orange Elevations',
       content: [
         'West Orange residential roofing projects demand an understanding of how elevation affects material performance. Valley-floor neighborhoods like the area surrounding Seton Hall Prep experience warmer microclimates where standard architectural shingles perform reliably for their full rated lifespan. Properties above 400 feet elevation, particularly along the Ridge and Gregory Avenue corridors, face harsher exposure with greater UV intensity on south-facing slopes and heavier freeze-thaw cycling on north-facing planes. We adjust material specifications and installation techniques based on each property\'s specific elevation and orientation, ensuring optimal performance regardless of position on West Orange\'s varied terrain.',
-        'The township\'s mid-century housing boom produced thousands of homes with roof designs that present unique renovation challenges. Split-level homes along Pleasant Valley Way and Crystal Lake Drive feature the distinctive multi-plane rooflines that create complex waterproofing intersections. Our crews excel at rebuilding the cricket flashings and stepped counter-flashings these designs require, preventing the chronic leaking that plagues many West Orange split-levels at their characteristic level-change transitions. We have completed over 200 split-level roof replacements in West Orange alone, developing specialized techniques for the township\'s most common architectural style.',
-        'For homeowners in West Orange\'s premier neighborhoods, including Llewellyn Park, the St. Cloud and Hutton Park areas, and the estates along Walker Road, we offer premium roofing solutions that match the grandeur of these exceptional properties. Our portfolio includes natural slate restoration using Pennsylvania black slate quarried to match existing installations, copper standing seam roofing with hand-formed details, and designer shingle systems that replicate the appearance of wood shake or slate at a fraction of the maintenance burden. Every premium project includes enhanced ice and water shield coverage, ventilation analysis, and a comprehensive warranty backed by our two-decade track record.',
+        'The township\'s mid-century housing boom produced thousands of homes with roof designs that present unique renovation challenges. Split-level homes along Pleasant Valley Way and Crystal Lake Drive feature the distinctive multi-plane rooflines that create complex waterproofing intersections. Our crews excel at rebuilding the cricket flashings and stepped counter-flashings these designs require, preventing the chronic leaking that plagues many West Orange split-levels at their characteristic level-change transitions. We have developed specialized techniques for the township\'s most common architectural style.',
+        'For homeowners in West Orange\'s premier neighborhoods, including Llewellyn Park, the St. Cloud and Hutton Park areas, and the estates along Walker Road, we offer premium roofing solutions that match the grandeur of these exceptional properties. Our portfolio includes natural slate restoration using Pennsylvania black slate quarried to match existing installations, copper standing seam roofing with hand-formed details, and designer shingle systems that replicate the appearance of wood shake or slate at a fraction of the maintenance burden. Every premium project includes enhanced ice and water shield coverage, ventilation analysis, and a comprehensive warranty.',
         'Energy efficiency matters across West Orange\'s elevation spectrum. Higher-altitude homes experience greater wind-driven heat loss through inadequately insulated roof assemblies, while valley-floor homes bake under summer sun without reflective roofing surfaces. We offer cool-roof shingle options with solar reflectance indices that reduce attic temperatures by up to 30 degrees during July heat, and our insulation upgrades address the thermal bridging common in West Orange\'s older framing systems. These improvements typically reduce heating and cooling costs by 15 to 25 percent while extending shingle life.',
       ],
     },
     commercial: {
       heading: 'Commercial Roofing for West Orange Businesses',
       content: [
-        'West Orange\'s commercial corridor along Pleasant Valley Way, Eagle Rock Avenue, and the Route 280 interchange area hosts hundreds of businesses relying on sound commercial roofing. From strip retail centers and professional office buildings to the township\'s growing mixed-use developments, commercial roof failures mean lost revenue, damaged inventory, and disrupted operations. Newark Quality Roofing provides rapid-response commercial roofing services with emergency repair turnaround measured in hours rather than days, keeping West Orange businesses protected and operational.',
+        'West Orange\'s commercial corridor along Pleasant Valley Way, Eagle Rock Avenue, and the Route 280 interchange area hosts hundreds of businesses relying on sound commercial roofing. From strip retail centers and professional office buildings to the township\'s growing mixed-use developments, commercial roof failures mean lost revenue, damaged inventory, and disrupted operations. Newark Quality Roofing provides commercial roofing services that keep West Orange businesses protected and operational.',
         'The township\'s commercial properties present diverse roofing challenges. Low-slope and flat-roof systems predominate on retail and office structures, requiring TPO, EPDM, or modified bitumen installations with proper drainage design. West Orange\'s clay soil and variable terrain create foundation settlement issues that affect roof drainage patterns over time, making periodic roof inspections and preventive maintenance essential for commercial property owners. Our commercial maintenance programs include semi-annual inspections, drain clearing, membrane resealing, and detailed condition reports that help property managers budget for future capital expenditures.',
         'Industrial properties along Main Street and in the Pleasantdale section require specialized roofing solutions that accommodate mechanical equipment, exhaust systems, and heavy foot traffic from maintenance personnel. We install walkway pads, equipment curbs, and reinforced membrane systems that withstand the demands of commercial HVAC servicing without compromising waterproofing integrity. Our commercial crew carries full liability coverage and completes all work within OSHA guidelines, providing the documentation and certification that West Orange commercial property owners need for insurance and regulatory compliance.',
       ],
@@ -44,7 +39,7 @@ export const westEssexContent: CityContent[] = [
     weatherChallenges: {
       heading: 'Mountain Ridge Weather Demands in West Orange',
       content: [
-        'West Orange\'s position straddling the first Watchung Mountain ridge creates weather patterns more intense than surrounding lowland communities. Nor\'easters funneling through the South Mountain gap accelerate as they climb the ridge, delivering wind-driven rain and snow that tests every roofing installation. Properties along Eagle Rock Avenue, Prospect Avenue, and the upper reaches of Northfield Road absorb the full force of these storms. Our installations in these exposed locations specify minimum 130-mph wind-rated shingles with enhanced nailing patterns, starter strip adhesive, and drip edge profiles engineered for lateral rain penetration.',
+        'West Orange\'s position straddling the first Watchung Mountain ridge creates weather patterns more intense than surrounding lowland communities. Nor\'easters funneling through the South Mountain gap accelerate as they climb the ridge, delivering wind-driven rain and snow that tests every roofing installation. Properties along Eagle Rock Avenue, Prospect Avenue, and the upper reaches of Northfield Road absorb the full force of these storms. Our installations in these exposed locations specify shingles rated for high wind resistance with enhanced nailing patterns, starter strip adhesive, and drip edge profiles engineered for lateral rain penetration.',
         'Ice dams represent a significant threat across West Orange, particularly on north-facing slopes above 300 feet elevation where snow persists days longer than on south-facing or valley-floor surfaces. The Gregory neighborhood and homes along Rock Spring Avenue experience some of Essex County\'s worst ice damming due to the combination of altitude, shade from mature hardwoods, and the complex rooflines of mid-century architecture. We address ice dam vulnerability through comprehensive ice and water shield installation extending at least 6 feet from eaves, proper attic ventilation balancing, and insulation improvements that eliminate the warm-roof conditions responsible for melt-refreeze cycling.',
         'Summer thunderstorms track along the Watchung ridge with particular intensity, producing hail events that damage roofing materials across West Orange\'s higher elevations. We recommend Class 4 impact-resistant shingles for ridge-top properties, providing documented hail resistance that many insurance carriers reward with premium discounts of 10 to 28 percent. After significant hail events, our team provides free damage assessments and works directly with insurers to ensure West Orange homeowners receive fair claim settlements for storm-related roof damage.',
       ],
@@ -79,10 +74,10 @@ export const westEssexContent: CityContent[] = [
         description:
           'Emergency roof replacement on a ridge-top colonial after a nor\'easter stripped nearly half the existing shingles. The rebuild incorporated enhanced wind-resistance features designed specifically for the property\'s exposed hilltop position overlooking the New York City skyline.',
         details: [
-          'Installed GAF HDZ Timberline shingles rated for 130-mph wind resistance',
+          'Installed GAF HDZ Timberline shingles rated for high wind resistance',
           'Applied full-deck ice and water shield due to extreme wind exposure',
           'Six-nail high-wind fastening pattern with starter strip adhesive',
-          'Completed emergency tarping within 4 hours of initial call',
+          'Completed emergency tarping',
         ],
       },
       {
@@ -110,32 +105,6 @@ export const westEssexContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'James K.',
-        rating: 5,
-        text: 'Our Llewellyn Park home needed extensive slate work and finding a contractor who understood historic materials was challenging. Newark Quality Roofing delivered exceptional craftsmanship that matched our 130-year-old roof perfectly. Their attention to period-accurate details set them apart from every other bid we received.',
-        service: 'Slate Roof Restoration',
-      },
-      {
-        name: 'Patricia M.',
-        rating: 5,
-        text: 'After a terrible nor\'easter tore shingles off our Eagle Rock home, they had a tarp up within hours and completed the full replacement in three days. The new roof has already survived two major storms without a single issue. Worth every penny for the peace of mind.',
-        service: 'Emergency Roof Replacement',
-      },
-      {
-        name: 'David & Lisa R.',
-        rating: 5,
-        text: 'We own a split-level on Crystal Lake Drive that had leaked at the level transition for years. Two other roofers couldn\'t fix it. Newark Quality Roofing rebuilt the entire transition flashing system and the leak is completely gone. They clearly understand the quirks of West Orange homes.',
-        service: 'Roof Repair',
-      },
-      {
-        name: 'Stephanie N.',
-        rating: 5,
-        text: 'When we replaced our West Orange colonial\'s roof, they recommended upgrading the gutters and replacing our aging skylights at the same time. Having everything done as one coordinated project saved us money and hassle. The new skylights transformed our kitchen with natural light and the seamless gutters handle even the heaviest downpours without overflowing. Smart recommendation and excellent execution.',
-        service: 'Roof, Gutter & Skylight Package',
-      },
-    ],
     faqs: [
       {
         question: 'Does elevation affect which roofing materials work best in West Orange?',
@@ -147,11 +116,11 @@ export const westEssexContent: CityContent[] = [
       },
       {
         question: 'Why does my split-level home in West Orange leak at the level transition?',
-        answer: 'Split-level roofs are West Orange\'s most common leak-prone design. The intersection where the upper and lower roof planes meet creates a complex waterproofing challenge that many roofers address with basic step flashing. We rebuild these transitions with continuous counter-flashing, cricket diversions where appropriate, and extended ice and water shield coverage that eliminates the water infiltration path. Our specialized approach has solved chronic leaking on over 200 West Orange split-levels.',
+        answer: 'Split-level roofs are West Orange\'s most common leak-prone design. The intersection where the upper and lower roof planes meet creates a complex waterproofing challenge that many roofers address with basic step flashing. We rebuild these transitions with continuous counter-flashing, cricket diversions where appropriate, and extended ice and water shield coverage that eliminates the water infiltration path. Our specialized approach solves chronic leaking on West Orange split-levels.',
       },
       {
         question: 'Do you offer emergency roof repair in West Orange during storms?',
-        answer: 'Yes, we provide 24/7 emergency roofing response for West Orange residents. During active storms, we can typically have a crew on-site for emergency tarping within 2 to 4 hours. After the storm passes, we complete a full damage assessment and provide a detailed repair or replacement proposal. We also assist with insurance documentation and can coordinate directly with your claims adjuster to expedite the restoration process.',
+        answer: 'Yes, we provide emergency roofing service for West Orange residents. During active storms, we can dispatch a crew for emergency tarping. After the storm passes, we complete a full damage assessment and provide a detailed repair or replacement proposal. We also assist with insurance documentation and can coordinate directly with your claims adjuster to expedite the restoration process.',
       },
       {
         question: 'What roofing maintenance should West Orange homeowners prioritize?',
@@ -164,7 +133,7 @@ export const westEssexContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in West Orange, NJ?',
-        answer: 'Most roof repairs in West Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in West Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -183,7 +152,7 @@ export const westEssexContent: CityContent[] = [
         {
           title: 'Split-Level Problem Solvers',
           description:
-            'With over 200 split-level re-roofs completed in West Orange, we have mastered the complex transition flashing that prevents the chronic leaking these beloved mid-century homes are prone to.',
+            'We have mastered the complex transition flashing that prevents the chronic leaking these beloved mid-century homes are prone to.',
         },
         {
           title: 'Storm-Ready Installations',
@@ -207,9 +176,7 @@ export const westEssexContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving West Orange',
       'Family-Owned & Local',
     ],
   },
@@ -222,13 +189,8 @@ export const westEssexContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Montclair, NJ',
     heroSubheadline:
       'Montclair\'s extraordinary architectural diversity demands roofing contractors who understand Victorian, Tudor, Arts & Crafts, and mid-century design. Newark Quality Roofing matches precision craftsmanship to every style across Essex County\'s most architecturally significant township.',
-    stats: {
-      projectCount: '420+',
-      servingSince: '2004',
-      rating: '4.9',
-    },
     overview: [
-      'Montclair stands as Essex County\'s most architecturally remarkable township, a community where Victorian mansions, Queen Anne painted ladies, Colonial Revival estates, Tudor half-timbered homes, Arts and Crafts bungalows, and mid-century modernist houses coexist along the same tree-lined streets. This extraordinary architectural diversity makes Montclair one of the most challenging and rewarding roofing markets in northern New Jersey. Every project requires not just technical competence but deep understanding of how different architectural periods used roofing as an integral design element. Newark Quality Roofing has served Montclair for nearly two decades, building a reputation as the contractor who understands that a roof is not merely weatherproofing but a defining feature of each home\'s architectural character.',
+      'Montclair stands as Essex County\'s most architecturally remarkable township, a community where Victorian mansions, Queen Anne painted ladies, Colonial Revival estates, Tudor half-timbered homes, Arts and Crafts bungalows, and mid-century modernist houses coexist along the same tree-lined streets. This extraordinary architectural diversity makes Montclair one of the most challenging and rewarding roofing markets in northern New Jersey. Every project requires not just technical competence but deep understanding of how different architectural periods used roofing as an integral design element. Newark Quality Roofing serves Montclair as the contractor who understands that a roof is not merely weatherproofing but a defining feature of each home\'s architectural character.',
       'The township\'s six distinct wards each present different architectural concentrations and roofing challenges. Upper Montclair, the Fourth Ward, features grand estates with steep-pitched slate and cedar shake roofs set among mature trees along North Mountain Avenue and Upper Mountain Avenue. The Second Ward along Watchung Avenue and Church Street showcases the town\'s arts district with Victorian commercial buildings and adjacent residential side streets lined with Queen Anne homes featuring turrets, gables, and decorative roof ornamentation. The First Ward near Bloomfield Avenue contains more compact housing including two-family homes and smaller colonials with straightforward roofing needs. Understanding these ward-by-ward distinctions allows us to anticipate each project\'s specific requirements.',
       'Montclair\'s strong historic preservation ethic shapes nearly every roofing decision. The township maintains multiple historic districts, and the Montclair Historic Preservation Commission reviews exterior alterations on designated properties. Homeowners in the Watchung Avenue, Erwin Park, and Upper Montclair historic districts must select roofing materials that maintain architectural consistency with their home\'s original design period. We work closely with homeowners navigating these requirements, providing material samples and documentation that satisfy commission review while delivering modern performance standards beneath historically appropriate exteriors.',
       'The township\'s steep hillside terrain, rising from the Bloomfield Avenue commercial corridor to the Second Watchung Mountain ridge, compounds roofing complexity. Steep-lot homes often have rear elevations two stories taller than their street-facing facades, creating asymmetric roof planes that challenge drainage design and complicate access for installation crews. Our Montclair project managers conduct thorough site assessments that account for terrain-driven complications, ensuring accurate proposals and efficient execution even on the township\'s most challenging hillside properties.',
@@ -309,26 +271,6 @@ export const westEssexContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Margaret S.',
-        rating: 5,
-        text: 'Our 1892 Queen Anne needed a complete roof restoration including the turret and decorative gables. Newark Quality Roofing approached the project with genuine passion for historic preservation. The finished work is stunning and the Historic Preservation Commission praised the attention to period accuracy. Truly exceptional craftsmanship.',
-        service: 'Slate Roof Restoration',
-      },
-      {
-        name: 'Robert & Anne T.',
-        rating: 5,
-        text: 'Finding a roofer who understands Tudor architecture is not easy. These folks rebuilt our rolled eaves beautifully and the copper gutters they fabricated are works of art. Our Upper Montclair neighbors have been stopping by to admire the work. Professional from start to finish.',
-        service: 'Cedar Shake Roofing',
-      },
-      {
-        name: 'Chris D.',
-        rating: 5,
-        text: 'We own a commercial building on Bloomfield Avenue and needed a complete re-roof without disrupting our tenants. Newark Quality Roofing planned the phased installation perfectly. Zero complaints from tenants, the new TPO membrane ended years of leak problems, and the project came in on budget.',
-        service: 'Commercial Roof Replacement',
-      },
-    ],
     faqs: [
       {
         question: 'Do you have experience with historic homes in Montclair?',
@@ -357,7 +299,7 @@ export const westEssexContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in Montclair, NJ?',
-        answer: 'Most roof repairs in Montclair range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in Montclair range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -400,9 +342,7 @@ export const westEssexContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Montclair',
       'Family-Owned & Local',
     ],
   },
@@ -415,15 +355,10 @@ export const westEssexContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Glen Ridge, NJ',
     heroSubheadline:
       'Glen Ridge\'s gaslit streets and nationally recognized historic district demand roofing that honors a century of architectural heritage. Newark Quality Roofing delivers period-appropriate craftsmanship approved by the borough\'s Historic Preservation Commission.',
-    stats: {
-      projectCount: '210+',
-      servingSince: '2006',
-      rating: '4.9',
-    },
     overview: [
       'Glen Ridge is one of the most architecturally cohesive communities in all of New Jersey. Virtually the entire borough is listed on the National Register of Historic Places, a distinction that reflects the remarkable preservation of its Victorian, Edwardian, and early-twentieth-century residential architecture. The borough\'s signature gaslit streets, mature elm-lined avenues, and meticulously maintained homes create an atmosphere that transports visitors to an earlier era. For roofing contractors, Glen Ridge represents both a privilege and a profound responsibility. Every roof replacement, repair, and restoration must satisfy the borough\'s Historic Preservation Commission while providing the modern weather protection these century-old homes require.',
       'The borough\'s housing stock dates predominantly from the 1890s through the 1930s, with concentrated building periods that produced distinct architectural neighborhoods. Late Victorian homes along Ridgewood Avenue and Baldwin Street feature steep gable roofs, decorative bargeboards, and original slate installations that have endured for over a century. Edwardian-era homes along Forest Avenue and Linden Avenue exhibit the broader eaves, hipped roofs, and more restrained ornamentation characteristic of that transitional period. Dutch Colonial Revival homes with their distinctive gambrel roofs appear throughout the borough, creating the curved mansard-like profiles that require specialized shingling techniques to maintain proper water shedding.',
-      'Glen Ridge\'s Historic Preservation Commission exercises meaningful oversight of exterior modifications, including roofing material and color selections. Homeowners cannot simply choose the cheapest available shingle and expect approval. The commission requires materials that are architecturally consistent with the home\'s original design period, often mandating specific profiles, textures, and color ranges. Newark Quality Roofing has navigated dozens of Glen Ridge preservation reviews successfully, understanding which material choices satisfy commission standards and how to present applications that earn approval without unnecessary delays or revisions.',
+      'Glen Ridge\'s Historic Preservation Commission exercises meaningful oversight of exterior modifications, including roofing material and color selections. Homeowners cannot simply choose the cheapest available shingle and expect approval. The commission requires materials that are architecturally consistent with the home\'s original design period, often mandating specific profiles, textures, and color ranges. Newark Quality Roofing has navigated Glen Ridge preservation reviews, understanding which material choices satisfy commission standards and how to present applications that earn approval without unnecessary delays or revisions.',
       'The borough\'s compact 1.3-square-mile geography concentrates its housing stock, creating neighborhoods where homes stand close together on relatively narrow lots. This density affects roofing logistics significantly. Equipment staging, material delivery, and debris removal require careful planning to avoid damaging neighboring properties and the borough\'s treasured street trees. Our Glen Ridge project managers develop site-specific logistics plans for every installation, coordinating with neighbors and the borough public works department when necessary to ensure smooth, damage-free project execution.',
     ],
     residential: {
@@ -509,38 +444,6 @@ export const westEssexContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Thomas & Ellen W.',
-        rating: 5,
-        text: 'We were intimidated by the Historic Preservation Commission process for our roof replacement, but Newark Quality Roofing handled everything. They prepared the application, provided material samples, and earned approval on the first submission. The finished slate roof is absolutely beautiful and our neighbors have been thrilled with how it enhances the block.',
-        service: 'Slate Roof Replacement',
-      },
-      {
-        name: 'Jennifer H.',
-        rating: 5,
-        text: 'Our 1908 Dutch Colonial needed a cedar shake roof that maintained the historic character of the gambrel profile. The work was meticulous and the curved transition they built is seamless. You would think the roof had been there since the house was built. Extremely skilled craftsmen.',
-        service: 'Cedar Shake Roofing',
-      },
-      {
-        name: 'Mark C.',
-        rating: 5,
-        text: 'Several slates blew off our roof during a winter storm and we needed someone who could source matching replacement stone. Newark Quality Roofing found a perfect match and the repairs are invisible. They also identified several other slates that were about to fail and replaced those preventively. Honest and capable.',
-        service: 'Slate Roof Repair',
-      },
-      {
-        name: 'Elizabeth R.',
-        rating: 5,
-        text: 'Our 1905 Victorian on Ridgewood Avenue needed a complete copper gutter replacement to match the original half-round profile. Newark Quality Roofing fabricated every piece custom, including ornamental leader heads that match the remaining original copper on our neighbor\'s home. The Historic Preservation Commission approved the design immediately. The new gutters function perfectly and add tremendous character to our home\'s facade.',
-        service: 'Custom Copper Gutters',
-      },
-      {
-        name: 'Andrew and Margaret L.',
-        rating: 5,
-        text: 'We were intimidated by the prospect of replacing our Glen Ridge gambrel roof and navigating the preservation commission review. Newark Quality handled every detail from the commission application through the final inspection. The cedar shake work is magnificent and the copper accents at the dormers match the period perfectly. They even helped us develop a multi-year maintenance plan to protect our investment.',
-        service: 'Cedar Shake Roof Replacement',
-      },
-    ],
     faqs: [
       {
         question: 'Do I need Historic Preservation Commission approval for a new roof in Glen Ridge?',
@@ -552,7 +455,7 @@ export const westEssexContent: CityContent[] = [
       },
       {
         question: 'How do you protect neighboring properties during roofing work in Glen Ridge?',
-        answer: 'Glen Ridge\'s compact lot sizes require exceptional care during roofing projects. We install protective ground tarps extending to property boundaries, use pneumatic braking systems on debris chutes to control material descent, and stage equipment to avoid lawn and landscaping damage on adjacent properties. Our project managers coordinate with neighbors before work begins, addressing any concerns about access, noise, and timing. We have never received a complaint from a Glen Ridge neighbor about property damage during our projects.',
+        answer: 'Glen Ridge\'s compact lot sizes require exceptional care during roofing projects. We install protective ground tarps extending to property boundaries, use pneumatic braking systems on debris chutes to control material descent, and stage equipment to avoid lawn and landscaping damage on adjacent properties. Our project managers coordinate with neighbors before work begins, addressing any concerns about access, noise, and timing.',
       },
       {
         question: 'Can you repair individual slates without replacing the entire roof?',
@@ -569,7 +472,7 @@ export const westEssexContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in Glen Ridge, NJ?',
-        answer: 'Most roof repairs in Glen Ridge range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in Glen Ridge range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -617,9 +520,7 @@ export const westEssexContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Glen Ridge',
       'Family-Owned & Local',
     ],
   },
@@ -632,13 +533,8 @@ export const westEssexContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Verona, NJ',
     heroSubheadline:
       'From Olmsted-designed Verona Park to hilltop homes with skyline views, Verona families trust Newark Quality Roofing for roof replacements and repairs that protect their homes through every Essex County season.',
-    stats: {
-      projectCount: '290+',
-      servingSince: '2006',
-      rating: '4.9',
-    },
     overview: [
-      'Verona is a family-centered Essex County township where tree-lined streets, excellent schools, and strong community bonds define the residential character. The township occupies a varied landscape stretching from the Verona Park lowlands along the Peckman River up through rolling hills to elevated neighborhoods that offer glimpses of the New York City skyline on clear days. This terrain diversity, combined with a housing stock spanning from pre-war colonials to mid-century split-levels to contemporary custom homes, creates roofing demands that require local knowledge and versatile technical skills. Newark Quality Roofing has served Verona families for nearly two decades, earning a reputation for honest assessments, quality workmanship, and the reliable follow-through that this tight-knit community expects.',
+      'Verona is a family-centered Essex County township where tree-lined streets, excellent schools, and strong community bonds define the residential character. The township occupies a varied landscape stretching from the Verona Park lowlands along the Peckman River up through rolling hills to elevated neighborhoods that offer glimpses of the New York City skyline on clear days. This terrain diversity, combined with a housing stock spanning from pre-war colonials to mid-century split-levels to contemporary custom homes, creates roofing demands that require local knowledge and versatile technical skills. Newark Quality Roofing serves Verona families with honest assessments, quality workmanship, and the reliable follow-through that this tight-knit community expects.',
       'Verona\'s housing stock tells the story of American suburban development across the twentieth century. Pre-war neighborhoods near the center of town feature well-built colonials and Dutch Colonial Revival homes from the 1920s and 1930s with sturdy roof framing and relatively straightforward rooflines. The post-war building boom of the late 1940s and 1950s added hundreds of capes and ranches throughout the township, homes with low-pitched roofs and modest overhangs that present specific ventilation and ice dam challenges. The most significant architectural chapter came during the 1960s and 1970s, when split-level and bi-level homes proliferated across Verona\'s hillside lots, creating the multi-plane rooflines and problematic level transitions that define much of the township\'s current roofing landscape.',
       'Split-level and bi-level homes constitute the largest single category of Verona\'s housing stock, and their roofing challenges represent our most common service calls in the township. These mid-century designs feature roof planes at two or three different elevations, connected by short wall sections and valleys where water and debris accumulate. The transitions between levels create complex flashing intersections where leaks develop when original materials degrade after 30 to 40 years. Our extensive experience with Verona\'s split-level inventory has produced refined techniques for rebuilding these transitions, using continuous membrane underlayment and custom-bent flashing profiles that eliminate the chronic leak points homeowners have struggled with for years.',
       'Verona Park, designed by the Olmsted Brothers landscape firm in the early twentieth century, anchors the township\'s eastern boundary and influences the roofing environment for surrounding neighborhoods. The park\'s mature tree canopy extends into adjacent residential streets, creating heavy shade conditions that promote moisture retention and biological growth on roofing surfaces. Homes along Lakeside Avenue, Park Place, and Sunset Avenue experience accelerated shingle aging from persistent shade and the moisture-laden air rising from Verona Lake. We recommend enhanced ventilation systems and algae-resistant shingle formulations for properties in the Verona Park zone, addressing the specific microclimate these beautiful surroundings create.',
@@ -649,14 +545,14 @@ export const westEssexContent: CityContent[] = [
         'Split-level and bi-level roofing dominates our Verona residential practice. These homes, built primarily between 1955 and 1975, feature the distinctive multi-elevation rooflines that attracted buyers seeking modern open-plan living on Verona\'s hillside lots. After 50 to 70 years, the original asphalt shingles, aluminum flashings, and tar-based sealants on these homes have reached end of life. Our split-level reroof protocol addresses every vulnerability these designs present: we strip to deck, install ice and water shield at all level transitions, rebuild step and counter-flashings using galvanized steel or copper, add ventilation to shallow-pitched lower sections, and install architectural shingles with enhanced wind ratings appropriate for Verona\'s hilltop exposures.',
         'Verona\'s pre-war colonials and Cape Cod homes offer more traditional roofing projects but carry their own challenges related to age. Homes from the 1920s and 1930s often feature original skip-sheathing boards that must be overlaid with plywood before modern shingle installation. Brick chimneys on these older homes frequently show deteriorated mortar and cracked crowns that compromise the chimney flashing seal. Our comprehensive approach to older Verona homes includes structural sheathing assessment, chimney evaluation, and complete flashing renewal, ensuring the full roofing system performs cohesively rather than addressing shingles alone while leaving hidden deficiencies to cause future problems.',
         'Verona\'s hilltop neighborhoods, particularly along Claremont and Personette Avenues and in the Lakeview section, contain larger custom-built homes from the 1980s through 2000s with complex roof geometries. These homes feature multiple intersecting ridges, large dormer windows, and extensive valley systems that demand precision waterproofing at every intersection. Our premium installations on these higher-value properties include full ice and water shield coverage in all valleys, enhanced step flashing at dormer walls, and careful coordination of shingle coursing across planes to maintain clean sight lines on architecturally prominent roofs.',
-        'For Verona families planning long-term home ownership, we emphasize the value of roofing systems that match the township\'s family-friendly character. Many Verona homeowners purchased their homes to raise children through the excellent school system and plan to stay for decades. We recommend 50-year architectural shingle systems with transferable warranties, ensuring the roofing investment protects the home throughout the family\'s tenure. Our 25-year workmanship warranty provides additional confidence that the installation quality matches the material quality, backed by our long-standing local presence.',
+        'For Verona families planning long-term home ownership, we emphasize the value of roofing systems that match the township\'s family-friendly character. Many Verona homeowners purchased their homes to raise children through the excellent school system and plan to stay for decades. We recommend 50-year architectural shingle systems with transferable warranties, ensuring the roofing investment protects the home throughout the family\'s tenure. Our 25-year workmanship warranty provides additional confidence that the installation quality matches the material quality.',
       ],
     },
     commercial: {
       heading: 'Commercial Roofing in Verona',
       content: [
         'Verona\'s commercial presence centers along Bloomfield Avenue at the township\'s southern border and Pompton Avenue through the center of town. These commercial corridors include neighborhood retail, professional offices, restaurants, and service businesses housed in buildings ranging from converted residential structures to purpose-built commercial properties. Flat and low-slope roofing systems predominate, requiring TPO, EPDM, or modified bitumen membranes with proper drainage engineering. Newark Quality Roofing provides commercial roofing services sized for Verona\'s neighborhood-scale businesses, delivering the same responsiveness and quality our residential clients expect.',
-        'The township\'s institutional buildings, including Verona\'s public schools and community facilities, represent significant commercial roofing assets that serve the entire community. School roof failures disrupt education and create hazardous conditions that demand immediate response. We maintain relationships with Verona\'s municipal facilities managers and provide emergency repair capabilities that minimize disruption to school operations and community programs. Our institutional roofing experience includes compliance with prevailing wage requirements and the documentation standards that publicly funded projects require.',
+        'The township\'s institutional buildings, including Verona\'s public schools and community facilities, represent significant commercial roofing assets that serve the entire community. School roof failures disrupt education and create hazardous conditions that demand prompt attention. We provide emergency repair capabilities that minimize disruption to school operations and community programs. Our institutional roofing experience includes compliance with prevailing wage requirements and the documentation standards that publicly funded projects require.',
       ],
     },
     weatherChallenges: {
@@ -664,7 +560,7 @@ export const westEssexContent: CityContent[] = [
       content: [
         'Verona\'s rolling terrain creates variable wind exposure across the township. Hilltop homes along the Claremont Avenue ridge and upper Personette Avenue face sustained winds significantly stronger than properties sheltered in the Verona Park valley during nor\'easters and summer thunderstorms. These exposed properties require enhanced wind-rated installations with six-nail fastening patterns and starter strip adhesive at eaves and rakes. Our site assessments evaluate each Verona property\'s specific wind exposure, ensuring material and installation specifications match actual conditions rather than applying generic standards that may under-protect hilltop homes or over-specify valley properties.',
         'Ice damming ranks among Verona\'s most persistent roofing problems, particularly on the low-pitched roofs characteristic of the township\'s abundant ranch and cape homes. These low slopes retain snow longer than steep-pitched roofs, and inadequate attic insulation in 1950s construction allows heat to escape through the roof deck, creating the melt-refreeze cycles that build ice at eaves. Our ice dam solutions for Verona ranches and capes include comprehensive ice and water shield installation extending 6 feet from eaves, improved attic insulation to R-49 standards, and balanced soffit-to-ridge ventilation that maintains cold roof deck temperatures throughout winter.',
-        'Summer thunderstorms moving across Essex County frequently produce hail and wind gusts that damage Verona roofs, particularly on exposed hilltop properties. After significant storm events, we provide free damage assessments for Verona homeowners, documenting hail impacts, wind-lifted shingles, and debris damage with detailed photographs and measurements that support insurance claims. Our storm response protocol includes temporary tarping for active leaks, coordination with insurance adjusters, and expedited permanent repairs that restore full weather protection before the next storm cycle arrives.',
+        'Summer thunderstorms moving across Essex County frequently produce hail and wind gusts that damage Verona roofs, particularly on exposed hilltop properties. After significant storm events, we provide free damage assessments for Verona homeowners, documenting hail impacts, wind-lifted shingles, and debris damage with detailed photographs and measurements that support insurance claims. Our storm response protocol includes temporary tarping for active leaks, coordination with insurance adjusters, and permanent repairs that restore full weather protection.',
       ],
     },
     neighborhoods: [
@@ -695,7 +591,7 @@ export const westEssexContent: CityContent[] = [
         description:
           'Premium roof replacement on a large center-hall colonial occupying an exposed hilltop lot with panoramic views. The project prioritized wind resistance and included a complete ventilation system redesign to prevent the ice damming that had plagued the home.',
         details: [
-          'CertainTeed Landmark Pro shingles rated for 130-mph winds with 6-nail pattern',
+          'CertainTeed Landmark Pro shingles rated for high wind resistance with 6-nail pattern',
           'Full-deck synthetic underlayment with enhanced ice and water shield at eaves and valleys',
           'New ridge vent system replacing ineffective turbine vents',
           'R-49 blown-in attic insulation upgrade eliminating ice dam conditions',
@@ -707,7 +603,7 @@ export const westEssexContent: CityContent[] = [
         description:
           'Emergency repair and subsequent full replacement of a failing EPDM roof on a two-story commercial building housing a dental practice and accounting firm. Active leaks had forced temporary closure of the ground-floor dental office.',
         details: [
-          'Emergency tarping and temporary repair within 6 hours of initial call',
+          'Emergency tarping and temporary repair',
           'Full TPO membrane replacement with tapered insulation for improved drainage',
           'New HVAC equipment curbs and walkway pads for maintenance access',
           '15-year manufacturer warranty with annual inspection program',
@@ -724,32 +620,6 @@ export const westEssexContent: CityContent[] = [
           'R-49 blown-in insulation upgrade creating proper cold roof deck conditions',
           'Algae-resistant shingles selected for heavy shade from park tree canopy',
         ],
-      },
-    ],
-    testimonials: [
-      {
-        name: 'Michael & Karen P.',
-        rating: 5,
-        text: 'Our Verona split-level had leaked at the level transition since we bought the house. Two other roofers tried and failed to fix it. Newark Quality Roofing rebuilt the entire transition system and the leak is completely gone after three seasons of nor\'easters. They clearly understand split-level construction better than anyone we talked to.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Susan L.',
-        rating: 5,
-        text: 'We needed a new roof on our colonial near Verona Park and were concerned about the heavy tree coverage affecting shingle life. They recommended algae-resistant shingles and installed a gutter guard system that has kept our valleys clean through two fall seasons. Great advice and great installation.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Anthony G.',
-        rating: 5,
-        text: 'Fast, professional, and reasonably priced. They replaced the roof on our 1950s cape in three days and even upgraded our attic ventilation to prevent ice dams. No mess left behind, crew was polite, and the price was exactly what they quoted. Highly recommended to Verona neighbors.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Laura and Chris D.',
-        rating: 5,
-        text: 'After a severe hailstorm damaged our Claremont Avenue colonial, Newark Quality Roofing provided a thorough damage assessment and handled our entire insurance claim process. They documented every hail impact with detailed photos, worked directly with our adjuster, and the claim covered the full replacement cost including the impact-resistant shingles they recommended. From emergency tarping to final installation, completely professional and stress-free.',
-        service: 'Storm Damage Insurance Claim',
       },
     ],
     faqs: [
@@ -780,7 +650,7 @@ export const westEssexContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in Verona, NJ?',
-        answer: 'Most roof repairs in Verona range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in Verona range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -789,7 +659,7 @@ export const westEssexContent: CityContent[] = [
         {
           title: 'Split-Level Specialists',
           description:
-            'Verona\'s abundant split-level and bi-level homes require contractors who understand their unique transition flashing challenges. Our refined techniques have solved chronic leaking on hundreds of these mid-century homes.',
+            'Verona\'s abundant split-level and bi-level homes require contractors who understand their unique transition flashing challenges. Our refined techniques solve chronic leaking on these mid-century homes.',
         },
         {
           title: 'Family-Focused Service',
@@ -809,7 +679,7 @@ export const westEssexContent: CityContent[] = [
         {
           title: 'Storm Damage Response',
           description:
-            'Our crews provide rapid emergency tarping, free damage assessments, and expedited permanent repairs for Verona homeowners after storm events, including full insurance claims documentation and adjuster coordination.',
+            'Our crews provide emergency tarping, free damage assessments, and permanent repairs for Verona homeowners after storm events, including full insurance claims documentation and adjuster coordination.',
         },
         {
           title: 'Comprehensive Chimney Integration',
@@ -828,9 +698,7 @@ export const westEssexContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Verona',
       'Family-Owned & Local',
     ],
   },
@@ -843,11 +711,6 @@ export const westEssexContent: CityContent[] = [
     heroHeadline: 'Roofing Services in Cedar Grove, NJ',
     heroSubheadline:
       'Cedar Grove\'s quiet suburban neighborhoods deserve roofing contractors who treat every home like their own. Newark Quality Roofing delivers honest assessments, quality materials, and reliable craftsmanship to protect your Cedar Grove home year-round.',
-    stats: {
-      projectCount: '260+',
-      servingSince: '2007',
-      rating: '4.9',
-    },
     overview: [
       'Cedar Grove is a quietly proud northern Essex County township where well-maintained homes, strong family values, and a close-knit Italian-American heritage define the community character. The township stretches along the western slope of the Second Watchung Mountain, from the Route 23 commercial corridor on its eastern edge to the residential neighborhoods that climb westward toward the border with Little Falls and North Caldwell. This elevated terrain and the township\'s northern location within Essex County create weather conditions slightly more demanding than communities closer to Newark and the Passaic River valley. Cedar Grove homes face heavier snow loads, more persistent freeze-thaw cycling, and stronger wind exposure than properties at lower elevations, making quality roofing an essential investment rather than a discretionary upgrade.',
       'The township\'s housing stock reflects the mid-twentieth-century suburban expansion that transformed Essex County\'s outlying communities. Ranch-style homes built between 1950 and 1975 constitute the single largest category of Cedar Grove residences, their low-pitched hip and gable roofs creating a distinctive roofscape that differs markedly from the steeper-pitched Victorian and Colonial homes found in communities closer to Newark. These ranch roofs present specific technical challenges including limited attic ventilation space, shallow pitch angles that require enhanced water shedding capacity, and the low profile that makes wind-driven rain penetration more likely than on steeper designs. Newark Quality Roofing has developed specialized techniques for Cedar Grove\'s ranch-heavy housing stock, maximizing ventilation, drainage, and weather resistance within the constraints of low-slope residential design.',
@@ -925,26 +788,6 @@ export const westEssexContent: CityContent[] = [
         ],
       },
     ],
-    testimonials: [
-      {
-        name: 'Frank & Maria D.',
-        rating: 5,
-        text: 'Our Cedar Grove ranch had ice dam problems every single winter. Newark Quality Roofing replaced the roof, added ridge venting, and improved our attic insulation. This past winter was the first in years without a single icicle forming. They understood exactly what our low-pitched roof needed and delivered a permanent solution.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Linda S.',
-        rating: 5,
-        text: 'We got three estimates for our colonial roof replacement and Newark Quality Roofing was the only contractor who pointed out that our chimney flashing was a ticking time bomb. They rebuilt the entire chimney transition and the new roof looks beautiful. Honest company that doesn\'t cut corners.',
-        service: 'Roof Replacement',
-      },
-      {
-        name: 'Joe T.',
-        rating: 5,
-        text: 'I own a small commercial property on Route 23 and needed the roof replaced without shutting down my tenants. They worked overnight shifts and had the new TPO membrane installed in under a week. Zero disruption, zero complaints from tenants. Professional operation all the way.',
-        service: 'Commercial Roof Replacement',
-      },
-    ],
     faqs: [
       {
         question: 'Why are ranch roofs in Cedar Grove prone to problems?',
@@ -973,7 +816,7 @@ export const westEssexContent: CityContent[] = [
     
       {
         question: 'How much does roofing cost in Cedar Grove, NJ?',
-        answer: 'Most roof repairs in Cedar Grove range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote. We also offer 0% financing on qualifying projects.',
+        answer: 'Most roof repairs in Cedar Grove range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
       },
     ],
     whyChoose: {
@@ -997,7 +840,7 @@ export const westEssexContent: CityContent[] = [
         {
           title: 'Community Reputation',
           description:
-            'Our 260+ completed Cedar Grove projects have earned referrals throughout the township\'s neighborhoods. Many of our new Cedar Grove clients come through recommendations from neighbors, family members, and friends who experienced our quality firsthand.',
+            'Our completed Cedar Grove projects have earned referrals throughout the township\'s neighborhoods. Many of our new Cedar Grove clients come through recommendations from neighbors, family members, and friends who experienced our quality firsthand.',
         },
         {
           title: 'Energy Efficiency Upgrades',
@@ -1021,9 +864,7 @@ export const westEssexContent: CityContent[] = [
     },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
       'Fully Insured & Bonded',
-      '15+ Years Serving Cedar Grove',
       'Family-Owned & Local',
     ],
   },
