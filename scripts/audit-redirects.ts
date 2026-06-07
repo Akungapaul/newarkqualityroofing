@@ -3,7 +3,7 @@
  *
  * Build-fail validator (model: validate-flat-urls.ts) for the indexation
  * redirect set. Asserts:
- *   1. The generated redirect set = 168 combo + 8 legacy = 176 entries, all
+ *   1. The generated redirect set = 168 combo + 0 legacy = 168 entries, all
  *      sources unique (no duplicate `source`).
  *   2. Every redirect destination is root-relative (starts with `/`).
  *   3. No chains: every COMBO redirect destination is a KEEP combo slug
@@ -28,8 +28,10 @@ type Redirect = { source: string; destination: string; permanent: boolean };
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-// Expected locked counts (D-05): 168 combo + 8 legacy = 176 generated 301s.
-const EXPECT = { combo: 168, legacy: 8, total: 176 } as const;
+// Expected locked counts (D-05): 168 combo + 0 legacy = 168 generated 301s.
+// (The 8 replacement-cause hub redirects were un-redirected in Batch 8 — they are
+// now KEEP-INDEX pages with unique answer-first content, so 0 legacy redirects remain.)
+const EXPECT = { combo: 168, legacy: 0, total: 168 } as const;
 
 function main() {
   console.log('='.repeat(72));
@@ -125,7 +127,7 @@ function main() {
     process.exit(1);
   }
 
-  console.log('Redirect pipeline valid: 168+8 unique sources, targets ⊆ keep (no chains),');
+  console.log('Redirect pipeline valid: 168 combo + 0 legacy unique sources, targets ⊆ keep (no chains),');
   console.log('flat-roof + www + hub migrations preserved. PASS');
   process.exit(0);
 }

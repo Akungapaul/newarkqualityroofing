@@ -5,7 +5,7 @@
  * Re-derives the EXPECTED sitemap membership from the verdict API + data layer
  * and asserts the ACTUAL sitemap (src/app/sitemap.ts) matches:
  *
- *   INCLUDES: 255 keep combos + all indexable core pages + 63 services +
+ *   INCLUDES: 255 keep combos + all indexable core pages + 65 services +
  *             21 cities + 30 comparisons + 252 articles + the KB hub +
  *             6 cluster hubs + glossary.
  *   EXCLUDES: the 942 noindex combos, the 168 redirected combos, the 6 FLAT hub
