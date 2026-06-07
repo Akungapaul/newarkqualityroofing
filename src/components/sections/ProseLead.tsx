@@ -1,8 +1,13 @@
+import { parseRichText } from '@/lib/rich-text';
+
 // ─── Shared answer-first prose primitives ───────────────────────────────────
 // Render-only treatment that promotes the first (answer-first) sentence of a
 // content array to a prominent lead and constrains the body to a comfortable
 // reading measure. Content/data is untouched — the first array element is
 // already the ≤40-word definitive answer (semantic-content ruleset Rule 2).
+// Both the lead and the body parse **markdown**: the lead bolds the answer's
+// named main topics (copper), and each follow-up body paragraph bolds the same
+// topic where it develops it (forest), tying the answer to its expansion.
 
 interface ProseLeadProps {
   paragraphs: string[];
@@ -16,8 +21,8 @@ export function ProseLead({ paragraphs, media }: ProseLeadProps) {
 
   return (
     <>
-      <p className="border-l-2 border-copper pl-4 font-body text-lg font-medium leading-relaxed text-forest sm:text-xl">
-        {lead}
+      <p className="border-l-2 border-copper pl-4 font-body text-lg font-medium leading-relaxed text-forest sm:text-xl [&_strong]:font-bold [&_strong]:text-copper">
+        {parseRichText(lead)}
       </p>
 
       {media && <div className="mt-5">{media}</div>}
@@ -25,8 +30,8 @@ export function ProseLead({ paragraphs, media }: ProseLeadProps) {
       {body.length > 0 && (
         <div className="mt-5 max-w-[68ch] space-y-4">
           {body.map((paragraph, index) => (
-            <p key={index} className="font-body text-base leading-relaxed text-text-secondary">
-              {paragraph}
+            <p key={index} className="font-body text-base leading-relaxed text-text-secondary [&_strong]:font-semibold [&_strong]:text-forest">
+              {parseRichText(paragraph)}
             </p>
           ))}
         </div>

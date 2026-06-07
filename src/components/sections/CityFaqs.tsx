@@ -1,4 +1,5 @@
 import type { CityContent } from '@/lib/types';
+import { parseRichText } from '@/lib/rich-text';
 
 interface CityFaqsProps {
   faqs: CityContent['faqs'];
@@ -31,8 +32,8 @@ export function CityFaqs({ faqs, cityName }: CityFaqsProps) {
                 />
               </svg>
             </summary>
-            <div className="pb-4 font-body text-base leading-relaxed text-text-secondary">
-              {faq.answer}
+            <div className="pb-4 font-body text-base leading-relaxed text-text-secondary [&_strong]:font-semibold [&_strong]:text-forest">
+              {parseRichText(faq.answer)}
             </div>
           </details>
         ))}
