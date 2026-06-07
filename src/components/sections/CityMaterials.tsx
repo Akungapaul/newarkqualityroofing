@@ -1,8 +1,17 @@
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { ProseLead, SectionHeading } from './ProseLead';
 
 interface CityMaterialsProps {
   cityName: string;
 }
+
+const MATERIALS_ICON = (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5" aria-hidden="true">
+    <path d="m12 3 9 5-9 5-9-5 9-5Z" />
+    <path d="m3 13 9 5 9-5" />
+    <path d="m3 17 9 5 9-5" />
+  </svg>
+);
 
 /**
  * Shared §4.3 "What Roofing Materials Work Best for [City] Properties?" section
@@ -22,18 +31,11 @@ export function CityMaterials({ cityName }: CityMaterialsProps) {
 
   return (
     <div className="rounded-lg border-l-4 border-copper bg-copper/5 p-6 lg:p-8">
-      <h2 id="materials-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <SectionHeading id="materials-heading" icon={MATERIALS_ICON}>
         {heading}
-      </h2>
-      <div className="mt-4 space-y-4">
-        {content.map((paragraph, index) => (
-          <p
-            key={index}
-            className="font-body text-base leading-relaxed text-text-secondary"
-          >
-            {paragraph}
-          </p>
-        ))}
+      </SectionHeading>
+      <div className="mt-5">
+        <ProseLead paragraphs={content} />
       </div>
     </div>
   );

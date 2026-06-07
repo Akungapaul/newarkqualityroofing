@@ -37,21 +37,6 @@ import { getGalleryPairs } from '@/data/image-manifest';
 import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 import { HEADING_CONFIG } from '@/data/heading-config';
 
-// ─── Table of Contents sections ─────────────────────────────────────────────
-
-const tocSections = [
-  { id: 'overview', label: 'Overview' },
-  { id: 'residential', label: 'Residential' },
-  { id: 'commercial', label: 'Commercial' },
-  { id: 'neighborhoods', label: 'Neighborhoods' },
-  { id: 'services', label: 'Services' },
-  { id: 'why-choose', label: 'Why Choose Us' },
-  { id: 'projects', label: 'Projects' },
-  { id: 'faqs', label: 'FAQs' },
-  { id: 'location', label: 'Location' },
-  { id: 'nearby', label: 'Nearby Cities' },
-];
-
 // ─── Template Component ─────────────────────────────────────────────────────
 
 interface CityTemplateProps {
@@ -68,6 +53,26 @@ export default function CityTemplate({ city }: CityTemplateProps) {
 
   // Load city content (all 21 cities have content -- throws if missing)
   const content = getCityContent(city.id);
+
+  // Table of contents — ordered to MATCH the on-page render order below. Scroll-spy
+  // highlights the in-view section, so the list order must equal the vertical order
+  // or the highlight jumps. The Cost entry is conditional because CityPricing only
+  // renders when the city has pricing.
+  const tocSections = [
+    { id: 'services', label: 'Services' },
+    { id: 'residential', label: 'Residential' },
+    { id: 'commercial', label: 'Commercial' },
+    { id: 'overview', label: 'Roof Problems' },
+    { id: 'neighborhoods', label: 'Neighborhoods' },
+    { id: 'materials', label: 'Materials' },
+    { id: 'permits', label: 'Permits' },
+    ...(content.pricing ? [{ id: 'pricing', label: 'Cost' }] : []),
+    { id: 'projects', label: 'Projects' },
+    { id: 'faqs', label: 'FAQs' },
+    { id: 'why-choose', label: 'Why Choose Us' },
+    { id: 'location', label: 'Location' },
+    { id: 'nearby', label: 'Nearby Cities' },
+  ];
 
   // Gallery pairs for project spotlights
   const pairs = getGalleryPairs().slice(0, 2);
@@ -188,7 +193,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
               </AnimateIn>
             )}
 
-            {/* §4.3 "What Roofing Projects Have We Completed in [City]?" */}
+            {/* §4.3 "What Roofing Projects Do We Handle in [City]?" */}
             <AnimateIn>
               <section id="projects" aria-labelledby="projects-heading">
                 <CityProjectSpotlights

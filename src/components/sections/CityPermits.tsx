@@ -1,8 +1,17 @@
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { ProseLead, SectionHeading } from './ProseLead';
 
 interface CityPermitsProps {
   cityName: string;
 }
+
+const PERMITS_ICON = (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5" aria-hidden="true">
+    <path d="M5 3h9l5 5v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" />
+    <path d="M14 3v5h5" />
+    <path d="M9 13h6M9 17h4" />
+  </svg>
+);
 
 /**
  * Shared §4.3 "What Should You Know About Roofing Permits in [City]?" section
@@ -22,18 +31,11 @@ export function CityPermits({ cityName }: CityPermitsProps) {
 
   return (
     <div className="rounded-lg border-l-4 border-forest bg-forest/5 p-6 lg:p-8">
-      <h2 id="permits-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <SectionHeading id="permits-heading" icon={PERMITS_ICON}>
         {heading}
-      </h2>
-      <div className="mt-4 space-y-4">
-        {content.map((paragraph, index) => (
-          <p
-            key={index}
-            className="font-body text-base leading-relaxed text-text-secondary"
-          >
-            {paragraph}
-          </p>
-        ))}
+      </SectionHeading>
+      <div className="mt-5">
+        <ProseLead paragraphs={content} />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { getSectionImage } from '@/data/image-manifest';
+import { ProseLead, SectionHeading } from './ProseLead';
 
 interface CityCommercialProps {
   /** Legacy data heading — no longer rendered; the H2 is now the fixed §4.3 question. */
@@ -7,37 +8,36 @@ interface CityCommercialProps {
   content: string[];
 }
 
+const COMMERCIAL_ICON = (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5" aria-hidden="true">
+    <rect x="4" y="3" width="16" height="18" rx="1" />
+    <path d="M9 7h.01M15 7h.01M9 11h.01M15 11h.01M9 15h.01M15 15h.01" />
+    <path d="M10 21v-3h4v3" />
+  </svg>
+);
+
 export function CityCommercial({ content }: CityCommercialProps) {
   const commercialImage = getSectionImage('section-city-commercial');
+  const media = commercialImage ? (
+    <div className="overflow-hidden rounded-sm">
+      <Image
+        src={commercialImage.path}
+        alt={commercialImage.alt}
+        width={commercialImage.width}
+        height={commercialImage.height}
+        className="h-auto w-full object-cover"
+        loading="lazy"
+      />
+    </div>
+  ) : undefined;
 
   return (
     <div className="rounded-lg border-l-4 border-copper bg-copper/5 p-6 lg:p-8">
-      <h2 id="commercial-heading" className="font-heading text-2xl font-bold text-forest sm:text-3xl">
+      <SectionHeading id="commercial-heading" icon={COMMERCIAL_ICON}>
         What Commercial Roofing Services Do We Provide?
-      </h2>
-
-      {commercialImage && (
-        <div className="mt-4 overflow-hidden rounded-sm">
-          <Image
-            src={commercialImage.path}
-            alt={commercialImage.alt}
-            width={commercialImage.width}
-            height={commercialImage.height}
-            className="h-auto w-full object-cover"
-            loading="lazy"
-          />
-        </div>
-      )}
-
-      <div className="mt-4 space-y-4">
-        {content.map((paragraph, index) => (
-          <p
-            key={index}
-            className="font-body text-base leading-relaxed text-text-secondary"
-          >
-            {paragraph}
-          </p>
-        ))}
+      </SectionHeading>
+      <div className="mt-5">
+        <ProseLead paragraphs={content} media={media} />
       </div>
     </div>
   );
