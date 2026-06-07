@@ -680,9 +680,9 @@ const rawServices: Service[] = [
     parentId: 'roof-replacement',
     isResidential: true,
     isCommercial: true,
-    shortDescription: 'Insurance claim assistance and roof replacement coordination for covered storm and weather damage.',
+    shortDescription: 'Roof replacement coordinated with your insurance claim — damage inspection, photo documentation, and a detailed scope and estimate.',
     metaTitle: 'Insurance Roof Replacement | Newark NJ | NQR',
-    metaDescription: 'Insurance roof replacement in Newark NJ. We handle the claims process and coordinate with your insurer for covered replacements.',
+    metaDescription: 'Insurance roof replacement in Newark NJ. We inspect and document storm, hail, and fire damage and provide a detailed scope and estimate for your claim.',
   },
   {
     id: 'storm-damage-roof-replacement',
@@ -694,7 +694,7 @@ const rawServices: Service[] = [
     isCommercial: true,
     shortDescription: 'Full roof replacement after severe storm damage with insurance claim support.',
     metaTitle: 'Storm Damage Roof Replacement | Newark NJ',
-    metaDescription: 'Storm damage roof replacement in Newark NJ. Full replacement after severe weather with insurance claim coordination.',
+    metaDescription: 'Storm damage roof replacement in Newark NJ. Full replacement after wind, hail, and severe weather, with damage documented for your insurance claim.',
   },
   {
     id: 'aging-roof-replacement',
@@ -728,9 +728,9 @@ const rawServices: Service[] = [
     parentId: 'roof-replacement',
     isResidential: true,
     isCommercial: true,
-    shortDescription: 'Complete roof replacement and structural restoration after fire damage with insurance coordination.',
+    shortDescription: 'Full roof replacement after fire damage, with a structural assessment and a Class A fire-rated rebuild.',
     metaTitle: 'Fire Damage Roof Replacement | Newark NJ',
-    metaDescription: 'Fire damage roof replacement in Newark NJ. Full structural restoration and insurance coordination after fire damage.',
+    metaDescription: 'Fire damage roof replacement in Newark NJ. Class A fire-rated rebuild after a structural assessment, with fire damage documented for your insurance claim.',
   },
   {
     id: 'roof-replacement-cost',
@@ -742,7 +742,7 @@ const rawServices: Service[] = [
     isCommercial: true,
     shortDescription: 'Transparent roof replacement pricing with detailed cost breakdowns for Essex County homeowners.',
     metaTitle: 'Roof Replacement Cost | Newark NJ Guide | NQR',
-    metaDescription: 'Roof replacement cost in Newark NJ. Transparent pricing, financing options, and free detailed estimates for Essex County homes.',
+    metaDescription: 'Roof replacement cost in Newark NJ. Transparent pricing by roofing material with free detailed estimates for Essex County homes.',
   },
   {
     id: 'asphalt-shingle-roof-replacement',
@@ -754,7 +754,7 @@ const rawServices: Service[] = [
     isCommercial: false,
     shortDescription: 'Complete asphalt shingle roof replacement with GAF, Owens Corning, or CertainTeed products.',
     metaTitle: 'Asphalt Shingle Replacement | Newark NJ | NQR',
-    metaDescription: 'Asphalt shingle roof replacement in Newark NJ. Premium shingles from GAF, Owens Corning, and CertainTeed with full warranty.',
+    metaDescription: 'Asphalt shingle roof replacement in Newark NJ. Architectural and 3-tab shingles from GAF, Owens Corning, and CertainTeed installed to manufacturer spec.',
   },
   {
     id: 'metal-roof-replacement',

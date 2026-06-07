@@ -1,2233 +1,2757 @@
 import type { ServiceContent } from '@/lib/types';
 
+// ─── Replacement Sub-Pages Content (15) — answer-first rewrite (Batch 8) ───
+
 export const replacementSubPagesContent: ServiceContent[] = [
-  // ─── 1. Full Roof Tear Off ────────────────────────────────────────────────
-  {
-    serviceId: 'full-roof-tear-off',
-    overview: [
-      'A full roof tear-off is the most thorough approach to [roof replacement](/roof-replacement), involving the complete removal of every existing roofing layer down to the bare deck before installing a brand-new roofing system from scratch. Unlike overlay methods that place new shingles over old ones, a **full tear-off** exposes the entire roof deck for inspection, allowing your contractor to identify and repair hidden damage to sheathing, rafters, flashing, and ventilation components that would otherwise remain concealed beneath layers of aging material. For homeowners and commercial property owners throughout Newark and **Essex County**, a full tear-off represents the gold standard in roof replacement because it eliminates accumulated problems, resets the roof assembly to factory-new condition, and provides the longest possible service life from the new installation. Newark Quality Roofing has performed hundreds of full tear-off projects across the region, and we consider this method the foundation of a roofing investment that truly protects your property for decades.',
-      'The decision to pursue a full tear-off rather than an overlay is driven by several factors specific to each building. New Jersey building codes limit the number of roofing layers permitted on any structure, typically allowing no more than two layers of asphalt shingles before a tear-off becomes mandatory. Beyond code compliance, the structural implications of accumulated roofing weight are significant: each layer of asphalt shingles adds approximately two to three pounds per square foot, and older homes in Newark\'s historic neighborhoods may have framing systems that were not engineered for multiple layers. A full tear-off removes this excess weight, reduces stress on the building\'s structural components, and ensures that the new roofing system performs as the manufacturer intended without compromise from underlying deterioration.',
-      'Our tear-off process is managed with meticulous attention to property protection, debris containment, and project efficiency. We understand that a full tear-off is a significant undertaking that temporarily exposes your building to the elements, which is why we plan every project around weather windows, stage materials for rapid installation, and maintain emergency tarping capabilities for unexpected weather changes. From the initial **deck inspection** through final cleanup, every phase of our tear-off process is designed to minimize disruption while maximizing the quality and longevity of your new roof system.'
-    ],
-    signsHeading: 'When a Full Tear-Off Is the Right Decision',
-    signs: [
-      'Your roof already has two or more layers of shingles, which means New Jersey building code requires complete removal before any new roofing material can be installed, making a tear-off mandatory rather than optional.',
-      'Visible sagging, soft spots, or bouncy areas when walking on the roof indicate potential deck deterioration beneath the existing shingles that can only be properly assessed and repaired through complete removal of all roofing layers.',
-      'Persistent leaks that have been patched multiple times suggest widespread underlayment failure or flashing deterioration that cannot be adequately addressed by overlaying new material on top of the compromised existing system.',
-      'The existing roof is more than 20 years old and shows widespread granule loss, curling, cracking, or moss growth, indicating that the entire system has reached the end of its functional life and needs complete replacement rather than surface-level remediation.',
-      'You are planning to upgrade to a different roofing material such as metal, slate, or tile that requires specific deck preparation, underlayment systems, and fastening methods incompatible with installation over existing asphalt shingles.',
-      'A home inspection for sale or refinancing has identified roof condition issues that buyers or lenders require be addressed with a complete replacement rather than cosmetic repairs or overlay.'
-    ],
-    approachHeading: 'Our Full Tear-Off Process',
-    approachContent: [
-      'Every full tear-off begins with comprehensive property protection. Before a single shingle is removed, our crews install protective coverings over landscaping, siding, windows, and outdoor features surrounding your building. We position roll-off dumpsters strategically to minimize debris travel distance and use magnetic nail sweepers throughout the project to capture every fastener. This preparation phase is critical because tear-off work generates substantial debris, and protecting your property from damage during removal is just as important as the quality of the new installation.',
-      'Once protection is in place, our crews systematically strip every layer of existing roofing material, underlayment, and compromised flashing down to the bare deck. This is where the real value of a tear-off becomes apparent: with the deck fully exposed, we conduct a thorough inspection of every square foot of sheathing, checking for rot, delamination, inadequate fastening, and structural damage. Any compromised decking is replaced with new plywood or OSB sheathing that matches or exceeds the original specification. We also inspect and repair or replace step flashing, valley flashing, drip edge, and all penetration flashings that have deteriorated.',
-      'With a sound, verified deck in place, we install the complete new roofing system according to manufacturer specifications: ice and water shield membrane in valleys and along eaves where ice dams are common in New Jersey winters, synthetic underlayment across the entire deck surface, starter strips, field shingles or chosen roofing material, hip and ridge caps, and all new flashing components. Every component is installed in proper sequence with correct fastener patterns and exposure dimensions to qualify for the manufacturer\'s full warranty coverage.',
-      'Project completion includes comprehensive cleanup with multiple passes of magnetic sweeping, gutter cleaning, and a detailed walk-around inspection with the property owner. We document the completed installation with photographs for warranty records and provide all manufacturer warranty registration materials. Our goal is that when we leave your property, the only evidence of our work is a beautiful new roof overhead.'
-    ],
-    approachSubheadings: ['Complete Roof Removal Process', 'Deck Inspection and Preparation', 'Clean Installation Foundation'],
-    residential: {
-      heading: 'Full Tear-Off for Newark Area Homes',
-      content: [
-        'For homeowners throughout Newark, Montclair, Bloomfield, and the surrounding Essex County communities, a full roof tear-off is often the wisest long-term investment when your existing roof has reached the end of its service life. Many homes in our area were built in the early to mid-twentieth century, and it is not uncommon to encounter three or even four layers of shingles that have accumulated over decades of overlays. This accumulated weight stresses aging framing systems, traps moisture between layers that accelerates deterioration, and makes it impossible to identify or repair deck damage without removal.',
-        'The residential tear-off process is carefully planned around your family\'s schedule and daily life. We typically complete residential tear-offs in one to three days depending on roof size and complexity, and we plan our work to minimize the period when your home is exposed. Our crews arrive early, work efficiently throughout the day, and ensure that any exposed areas are properly tarped and secured before leaving each evening if the project spans multiple days. We understand that your home is your sanctuary, and we treat every residential tear-off with the care and respect your property deserves.',
-        'A full tear-off also provides the opportunity to upgrade components that improve your home\'s comfort and energy efficiency. While the deck is exposed, we can add improved ventilation components such as ridge vents or powered attic fans, install radiant barrier sheathing to reduce summer heat gain, or upgrade insulation at the roof deck level. These improvements are only practical during a tear-off and can significantly reduce your heating and cooling costs while extending the life of your new roof system.',
-        'Financing options are available to make a full tear-off accessible for homeowners who need a complete replacement but prefer to manage the investment over time. We work with several lending partners who offer competitive rates for home improvement projects, and we can help you explore options during your free estimate consultation.'
-      ],
-      ctaLabel: 'Schedule Your Tear-Off Estimate'
+// ─── 1. Full Roof Tear Off ───
+{
+  serviceId: 'full-roof-tear-off',
+  directAnswer:
+    '**Newark Quality Roofing provides full roof tear off across Newark and Essex County, stripping every existing roof layer to the deck, repairing the sheathing, then installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+  overview: [
+    '**Newark Quality Roofing performs full roof tear off across Essex County in 3 phases: complete removal of all existing roof covering to the bare deck, deck inspection and repair, then a new underlayment-and-cover installation** — for residential and commercial properties. Full roof tear off strips the asphalt, underlayment, and any overlay layers a roof carries, exposing the roof deck for the inspection a roof-over cannot provide.',
+    'A full roof tear off lets a roofer inspect the roof deck, repair any damage, and improve deck attachment to the structure, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, in 3 conditions, per N.J.A.C. 5:23-6.4, so a full roof tear off is the code-mandated path for a water-soaked deck, a wood-shake or slate covering, or a roof already carrying 2 layers.',
+  ],
+  subServices: [
+    {
+      name: 'Complete covering removal to the deck',
+      description:
+        'Complete covering removal strips the asphalt shingles, underlayment, and flashing to the bare sheathing, the removal a tear-off performs and a recover skips; old-roof removal runs $1–$5 per square foot by material weight, per HomeGuide national cost data.',
     },
-    commercial: {
-      heading: 'Commercial Full Tear-Off Services',
-      content: [
-        'Commercial buildings throughout Newark and Essex County frequently require full tear-off when existing roofing systems have accumulated multiple layers, when converting from one roof type to another, or when deck deterioration necessitates comprehensive structural inspection and repair. Commercial tear-offs involve unique logistical considerations including larger scale, occupied building coordination, phased removal to maintain weather protection, and compliance with commercial building codes and fire rating requirements that differ significantly from residential standards.',
-        'Our commercial tear-off projects are managed with detailed pre-construction planning that addresses material staging, crew access, debris removal logistics, noise and dust control for occupied buildings, and coordination with building operations to minimize disruption to tenants and business activities. We develop phased tear-off plans for large commercial roofs that allow sections to be stripped, inspected, repaired, and re-roofed in sequence rather than exposing the entire roof simultaneously.',
-        'For commercial property owners and facility managers, the deck inspection opportunity provided by a full tear-off is particularly valuable because commercial roof decks are subject to stresses from rooftop HVAC equipment, foot traffic, ponding water, and other conditions that can cause hidden deterioration. Our inspection identifies steel deck corrosion, concrete deck spalling, wood deck rot, and fastener pull-out conditions that would compromise the new roof system if not addressed during the tear-off process.',
-        'We maintain the insurance coverage, bonding capacity, and safety certifications required for commercial tear-off projects in New Jersey, and our crews are trained in the fall protection, debris containment, and hazardous material handling protocols that commercial projects demand.'
-      ],
-      ctaLabel: 'Request Commercial Tear-Off Assessment'
+    {
+      name: 'Multi-layer tear-off',
+      description:
+        'Multi-layer tear-off removes a roof carrying 2 or more applications of covering, the maximum the code allows, because N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 prohibit a recover over 2 existing layers, leaving full removal the only compliant path.',
     },
-    processSteps: [
-      {
-        title: 'Pre-Project Property Protection',
-        description: 'We install protective coverings over landscaping, siding, windows, and walkways. Dumpsters are positioned for efficient debris removal, and access routes are established to protect driveways and lawn areas from equipment damage.'
-      },
-      {
-        title: 'Complete Removal of Existing Roofing',
-        description: 'Every layer of shingles, underlayment, deteriorated flashing, and debris is stripped down to the bare deck using specialized tear-off tools. Materials are contained and directed into dumpsters to minimize ground-level debris.'
-      },
-      {
-        title: 'Deck Inspection and Repair',
-        description: 'With the deck fully exposed, we inspect every square foot for rot, delamination, structural damage, and inadequate fastening. Compromised sections are replaced with new sheathing to create a solid, sound substrate for the new roof.'
-      },
-      {
-        title: 'Underlayment and Ice Shield Installation',
-        description: 'Ice and water shield membrane is applied along eaves, valleys, and around penetrations where ice dams and water intrusion are most likely. Synthetic underlayment covers the remaining deck area for complete moisture protection.'
-      },
-      {
-        title: 'New Roofing System Installation',
-        description: 'Your chosen roofing material is installed according to manufacturer specifications with proper starter strips, fastener patterns, and exposure dimensions. All flashing, drip edge, and ventilation components are installed new.'
-      },
-      {
-        title: 'Cleanup and Final Inspection',
-        description: 'Multiple passes with magnetic nail sweepers, thorough gutter cleaning, landscape restoration, and a detailed walk-through inspection ensure your property is left clean and your new roof meets our quality standards.'
-      }
+    {
+      name: 'Deck inspection and repair',
+      description:
+        'Deck inspection and repair exposes the sheathing for the failing-deck signs InterNACHI names — daylight through the deck, soft or spongy wood, sagging between rafters, and delaminated plywood or swollen OSB edges — and replaces deteriorated sheathing that cannot grip a roofing nail, per ARMA nail-application guidance.',
+    },
+    {
+      name: 'Overlay-layer removal',
+      description:
+        'Overlay-layer removal strips a prior roof-over, the second layer that adds roughly 2 to 4.5 pounds per square foot of dead load across the deck and rafters, per shingle-weight conversion data from Dumpsters.com and Angi, restoring a single sound base for the new roof.',
+    },
+  ],
+  signsHeading: 'Warning Signs Your Property Needs a Full Roof Tear Off',
+  signs: [
+    '**A roof already carrying 2 or more layers of covering** mandates a full tear-off, because N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 prohibit a recover where 2 or more applications already exist, leaving complete removal the only code-compliant path.',
+    '**A water-soaked or deteriorated roof deck** mandates a full tear-off, because N.J.A.C. 5:23-6.4 bars a recover over a deck that is not an adequate base, and a recover hides the rot a tear-off repairs, per the Asphalt Roofing Manufacturers Association.',
+    '**A wood-shake, slate, clay, cement, or asbestos-cement tile covering** mandates a full tear-off under N.J.A.C. 5:23-6.4, the NJ Rehabilitation Subcode condition that adds wood shake to the IRC removal list, per the NJ Uniform Construction Code.',
+    '**Daylight visible through the roof deck from inside the attic** indicates a direct breach in the sheathing, a failing-deck sign that points to tear-off and deck replacement rather than a surface patch, per InterNACHI.',
+    '**Soft, spongy, or sagging sheathing felt underfoot or seen between rafters** indicates moisture-rotted decking that cannot hold a roofing nail, the structural condition ARMA nail-application guidance ties to required sheathing replacement.',
+    '**Delaminated plywood or swollen OSB edges on the deck underside** indicate irreversible saturation, because OSB once water-soaked swells at the edges and delaminates rather than drying out, per InterNACHI.',
+    '**A roof past its material lifespan with widespread granule loss** favors a full tear-off, because 3-tab asphalt lasts 20 years and architectural asphalt 30 years, per the InterNACHI life-expectancy chart, beyond which a recover delivers a shortened service life over an aged base.',
+  ],
+  approachHeading: 'How We Handle Every Project',
+  approachContent: [
+    '**Newark Quality Roofing strips the roof to the bare deck and inspects every sheathing section, the deck exposure a recover cannot deliver.** A full tear-off lets a roofer inspect the roof deck, repair any damage, and improve deck attachment to the structure, while a recover leaves the underlying layers difficult to inspect so rot and water damage go uncaught, per the Asphalt Roofing Manufacturers Association and InterNACHI. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the deck is water-soaked or deteriorated, when the covering is wood shake, slate, clay, cement, or asbestos-cement tile, or when 2 or more layers already exist, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing replaces deteriorated sheathing exposed at tear-off, repairing the deck before any new covering goes down.** Roofing nails penetrate at least ¾ inch into the deck to grip the fastener, so sheathing that has rotted soft, delaminated, or swollen cannot hold a nail and Newark Quality Roofing replaces it, per ARMA nail-application guidance and InterNACHI sheathing inspection. Plywood dries more uniformly and can partly recover, while saturated OSB swells at the edges and delaminates irreversibly, so a saturated OSB deck is re-decked rather than dried, per InterNACHI.',
+    '**Newark Quality Roofing installs an ice barrier at the eaves, applies synthetic underlayment across the repaired deck, and installs the cover to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone regions like Essex County, per the International Residential Code as enforced under N.J.A.C. 5:23. Installing to manufacturer specification preserves the material warranty covering factory defects, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance.',
+  ],
+  approachSubheadings: [
+    'Strip to the Deck and Inspect',
+    'Repair the Deck Before New Covering',
+    'Ice Barrier, Underlayment, and Cover to Specification',
+  ],
+  residential: {
+    heading: 'Residential Services in Newark',
+    content: [
+      '**Newark Quality Roofing performs full roof tear off on detached one- and two-family homes across Essex County, common on older multi-layer roofs that have reached 2 layers and can carry no third.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit.',
+      'The Essex County housing stock includes older homes that have accumulated a second roof layer over decades, and a recover over 2 existing layers is prohibited, leaving a full tear-off the compliant path, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing tear-off crew exposes and replaces deteriorated decking, installs the ice barrier per the IRC R905.1.2 provision, contains debris with ground tarps, and runs a magnet sweep for nails before leaving the property, because the no-permit ordinary-maintenance exemption does not authorize a non-compliant recover, per the NJ Uniform Construction Code.',
     ],
-    faqs: [
+    ctaLabel: 'Get Home Estimate',
+  },
+  commercial: {
+    heading: 'Commercial Solutions',
+    content: [
+      '**Newark Quality Roofing performs full roof tear off on commercial low-slope roofs across Essex County, removing the existing membrane to the deck and disposing of the stripped material before a new low-slope system goes down.** Old-roof removal runs $1–$5 per square foot by material weight and disposal adds a dumpster cost of $220–$699 per week by container size, per HomeGuide national cost data, the labor and disposal a tear-off carries that a recover avoids.',
+      'On a commercial building, a roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the deck is water-soaked or deteriorated or the roof already carries 2 or more layers, per N.J.A.C. 5:23-6.4, and a low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per the NRCA and ARMA.',
+    ],
+    ctaLabel: 'Get Commercial Quote',
+  },
+  processSteps: [
+    {
+      title: 'Inspection and Layer Assessment',
+      description:
+        'A Newark Quality Roofing technician inspects the roof and the attic underside, counts the existing covering layers, and identifies which of the 3 N.J.A.C. 5:23-6.4 removal conditions apply — a water-soaked deck, a wood-shake or tile covering, or 2 or more existing layers, per the NJ Uniform Construction Code.',
+    },
+    {
+      title: 'Written Estimate and Permit Path',
+      description:
+        'A Newark Quality Roofing written estimate sets the scope, labor, materials, disposal, and timeline, and files a construction permit when the job triggers one — a commercial roof or a structural change — separate from the detached one- and two-family ordinary-maintenance exemption under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
+    },
+    {
+      title: 'Complete Tear-Off to the Deck',
+      description:
+        'A Newark Quality Roofing crew strips all existing covering, underlayment, and any overlay layers to the bare sheathing and stages disposal, the removal a recover skips, with old-roof removal running $1–$5 per square foot by material weight, per HomeGuide national cost data.',
+    },
+    {
+      title: 'Deck Inspection and Sheathing Repair',
+      description:
+        'A Newark Quality Roofing crew inspects every exposed sheathing section for the failing-deck signs InterNACHI names — daylight, soft or spongy wood, sagging, delaminated plywood, swollen OSB — and replaces deteriorated decking that cannot grip a roofing nail at the ¾-inch penetration ARMA specifies.',
+    },
+    {
+      title: 'Ice Barrier, Underlayment, and Cover Installation',
+      description:
+        'A Newark Quality Roofing crew installs the ice barrier from the eave to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision, applies synthetic underlayment across the repaired deck, and installs the finish cover to manufacturer specification to keep the manufacturer warranty intact.',
+    },
+    {
+      title: 'Verification, Cleanup, and Warranty',
+      description:
+        'A Newark Quality Roofing lead verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
+    },
+  ],
+  faqs: [
+    {
+      question: 'Should you repair or replace your roof?',
+      answer:
+        '**Replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the damage stays localized on an asphalt roof under 10–15 years old.** The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a full tear-off becomes the code-mandated path once a deck is water-soaked or the roof carries 2 layers, per N.J.A.C. 5:23-6.4.',
+    },
+    {
+      question: 'Why choose a full tear-off over a roof-over?',
+      answer:
+        '**A full tear-off strips the roof to the deck so the sheathing is inspected and repaired, while a roof-over installs a new layer over the existing covering and hides any deck rot underneath.** A full tear-off lets a roofer inspect the roof deck, repair damage, and improve deck attachment, per the Asphalt Roofing Manufacturers Association and InterNACHI, where a recover leaves the underlying layers difficult to inspect.',
+    },
+    {
+      question: 'When does New Jersey code require a full roof tear off?',
+      answer:
+        '**N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in 3 conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 or more layers.** The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code.',
+    },
+    {
+      question: 'Do you need a permit for a full roof tear off in Newark, NJ?',
+      answer:
+        '**A complete tear-off and replacement of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial roof or a structural change does require a permit.** The exemption covers the roof covering, not rafters or trusses, and does not authorize a non-compliant recover, per the NJ Uniform Construction Code.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in Essex County, NJ?',
+      answer:
+        '**Old-roof removal runs $1–$5 per square foot by material weight, and a New Jersey roof replacement costs $10,000–$25,000 for a typical home with the tear-off included.** Removal costs $1–$3 per square foot for shingles and $2–$5 for heavier slate or tile, per HomeGuide national data, and the NJ replacement range traces to HomeAdvisor and Modernize. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'What happens if the deck is rotted under the old roof?',
+      answer:
+        '**A full tear-off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip.** Sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI.',
+    },
+  ],
+  credentialsHighlight: [
+    'NJ HIC Licensed',
+    'Insured',
+    'Free Roof Inspections',
+    'Local Essex County Roofers',
+  ],
+  pricing: {
+    range: '$1–$5 per sq ft for removal; $10,000–$25,000+ for a full tear-off and replacement',
+    factors: [
+      'Old-roof removal runs $1–$5 per square foot by material weight — $1–$3 for shingles and $2–$5 for heavier slate or tile, per HomeGuide national cost data.',
+      'A New Jersey roof replacement with tear-off included costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data.',
+      'A multi-layer roof adds removal cost, because N.J.A.C. 5:23-6.4 requires tearing off all 2 existing layers where a recover is prohibited, per the NJ Rehabilitation Subcode.',
+      'Disposal adds a dumpster cost of $220–$580 per week for a 10-yard container and $280–$699 for a 20-yard container on a large roof, per HomeGuide national cost data.',
+      'Deck repair adds cost when tear-off exposes rotted sheathing, because re-decking runs $2–$5 per square foot, per HomeGuide and Angi national cost data.',
+    ],
+    financingNote:
+      'Newark Quality Roofing provides a free written estimate and discusses payment and financing options at the estimate.',
+  },
+  whyChooseUs: {
+    heading: 'Why Choose Our Roofing Company for Full Roof Tear Off?',
+    reasons: [
       {
-        question: 'How long does a full roof tear-off take compared to an overlay?',
-        answer: 'A full tear-off typically adds one to two days compared to an overlay because of the time required for removal, deck inspection, and repair. For an average-sized residential roof, expect two to four days for a complete tear-off and re-roof versus one to two days for an overlay. However, the additional time is a worthwhile investment because a tear-off produces a superior result that lasts significantly longer and carries a stronger warranty.'
+        title: 'NJ Home Improvement Contractor',
+        description:
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
       },
       {
-        question: 'Is a tear-off necessary if my roof only has one layer of shingles?',
-        answer: 'While an overlay may be an option when only one existing layer is present and the deck is in good condition, a tear-off is still recommended in many situations. If the existing shingles show signs of moisture damage, if the roof has had persistent leak issues, if you are changing to a different material type, or if the roof is over 20 years old, a tear-off provides the opportunity to inspect and repair the deck that an overlay cannot. We evaluate each roof individually and provide an honest recommendation based on conditions rather than pushing one method over another.'
+        title: 'Insured',
+        description:
+          'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
       },
       {
-        question: 'What happens to my home during a tear-off if it rains unexpectedly?',
-        answer: 'We monitor weather forecasts closely and plan our work around clear weather windows. If unexpected rain threatens during a tear-off, our crews carry emergency tarping supplies that can cover exposed deck areas within minutes. We never leave a roof exposed overnight without proper temporary weather protection, and our project planning ensures that we can complete critical weatherproofing steps within each work day to minimize exposure risk.'
+        title: 'Free Roof Inspections',
+        description:
+          'Newark Quality Roofing provides free roof inspections that count the existing covering layers and check the deck against the N.J.A.C. 5:23-6.4 mandatory-removal conditions before a tear-off quote.',
       },
       {
-        question: 'How much more does a tear-off cost compared to an overlay?',
-        answer: 'A full tear-off typically costs 25 to 40 percent more than an overlay due to the additional labor for removal, disposal fees for the old material, and potential deck repairs. However, the tear-off investment delivers better long-term value because the new roof performs optimally on a verified sound deck, carries a full manufacturer warranty without the limitations that apply to overlays, and will last its full rated lifespan rather than being compromised by the deteriorating layer beneath.'
-      },
-      {
-        question: 'Will a tear-off damage my landscaping, gutters, or siding?',
-        answer: 'Our comprehensive property protection protocol specifically addresses this concern. We install plywood lean-tos over delicate shrubs, cover flower beds with tarps, protect gutters with board shields during the removal process, and use controlled removal techniques near siding and trim. Magnetic sweepers collect nails from lawns and driveways. While some minor landscape disturbance is unavoidable with any major roofing project, our protection measures minimize impact, and we restore any displaced landscaping materials as part of our cleanup process.'
-      },
-      {
-        question: 'How much does full roof tear off cost in Essex County, NJ?',
-        answer: 'Most full roof tear off projects in Essex County range from $9,000–$26,000, complete tear-off and replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your tear-off service?',
-        answer: 'Homeowners praise our **full roof tear-off** for *thorough deck inspection* and clean removal. Reviews highlight our debris management and proper disposal practices.',
-      },
-      {
-        question: 'How experienced is your tear-off team?',
-        answer: 'Our **tear-off** crews have over 15 years of experience with complete roof removal. This ensures *safe, efficient stripping* that exposes and addresses any hidden deck issues.',
+        title: 'Local Essex County Roofers',
+        description:
+          'Newark Quality Roofing tears off and replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
       },
     ],
-  
-    pricing: {
-      range: '$9,000–$26,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Full Roof Tear Off',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+  },
+},
 
-  // ─── 2. Roof Overlay Installation ─────────────────────────────────────────
-  {
-    serviceId: 'roof-overlay-installation',
-    overview: [
-      '**Roof overlay** installation, sometimes called a re-cover or layover, involves installing a new layer of roofing material directly over the existing roof without removing the old shingles first. This method can be a cost-effective and time-efficient alternative to a [full tear-off](/full-roof-tear-off) for properties where the existing single layer of shingles is relatively flat, the deck beneath is structurally sound, and local building codes permit an additional layer. For qualifying homes and commercial buildings throughout Newark and **Essex County**, an overlay can deliver a fresh, attractive roof with improved weather protection at a lower cost and with less disruption than a complete tear-off, making it an appealing option for property owners who need roof renewal on a tighter budget or timeline.',
-      'The overlay method works by leveraging the existing shingle layer as an additional underlayment beneath the new roofing material. Because the old shingles remain in place, the labor-intensive and costly process of stripping, hauling, and disposing of the old roof is eliminated. This translates directly into lower project costs, faster completion times, and reduced debris and disruption to your property and neighborhood. However, an overlay is not appropriate for every situation, and an honest assessment of your existing roof\'s condition is essential to determine whether this method will deliver satisfactory long-term results or whether a full tear-off is the better investment.',
-      'Newark Quality Roofing evaluates every potential overlay project with rigorous criteria before recommending this approach. We inspect the existing roof surface for excessive curling, cupping, or irregularities that would telegraph through the new layer and create an uneven appearance. We verify that only one existing layer is present, as building codes and manufacturer warranties prohibit overlaying onto two or more existing layers. We check for signs of deck damage, trapped moisture, and ventilation deficiencies that would be concealed by an overlay rather than corrected. Only when all conditions are favorable do we recommend an overlay, because our reputation depends on every roof we install performing well for years to come.'
-    ],
-    signsHeading: 'When a Roof Overlay Makes Sense',
-    signs: [
-      'Your existing roof has only one layer of shingles that are lying relatively flat without severe curling, cupping, or buckling that would create an uneven surface for the new layer and telegraph imperfections through to the finished appearance.',
-      'Budget constraints make a full tear-off difficult, and the existing deck and underlayment appear to be in sound condition based on interior inspection showing no signs of water staining, rot, or structural movement in the attic space.',
-      'You need roof renewal quickly due to an upcoming property sale, insurance requirement, or weather vulnerability, and the faster timeline of an overlay compared to a tear-off better serves your immediate needs.',
-      'The roof deck shows no signs of sagging, soft spots, or moisture damage when inspected from the attic, indicating that the structural substrate is sound and capable of supporting an additional layer of roofing material without risk of premature failure.',
-      'Your home or building is in an area where disposal options for old roofing materials are limited or expensive, making the waste reduction benefit of an overlay environmentally and economically advantageous.',
-      'A professional inspection has confirmed that the existing flashing, valleys, and penetration seals are in serviceable condition or can be adequately addressed without removing the existing shingle layer.'
-    ],
-    approachHeading: 'Our Overlay Installation Methodology',
-    approachContent: [
-      'Our overlay process begins with thorough preparation of the existing roof surface. We address any protruding nails, repair localized areas of damage, and ensure that the existing surface provides a smooth, stable substrate for the new layer. Ridge caps from the old roof are removed to allow proper installation of new ridge ventilation and cap shingles, and deteriorated flashing at walls, chimneys, and penetrations is replaced even though the field shingles remain. This preparation work is essential because the new shingles will conform to whatever surface they are installed over, and imperfections in the existing layer will be visible in the finished roof.',
-      'New drip edge is installed along eaves and rakes over the existing shingles to provide clean, finished edges and proper water drainage into gutters. While ice and water shield cannot be installed at the eave line over existing shingles as effectively as on bare deck, we take additional measures at vulnerable areas including valleys, where we install new metal valley flashing over the existing shingles, and around penetrations, where we install new counter-flashing and boot covers to ensure watertight seals.',
-      'The new shingles are installed using slightly longer nails than a standard installation to ensure adequate penetration through both the new and existing shingle layers and into the deck beneath. This is a critical detail that some contractors overlook: using standard-length nails on an overlay results in inadequate deck penetration and dramatically increases the risk of wind uplift failure. Our nail length and pattern specifications meet or exceed manufacturer requirements for overlay installations, which is essential for warranty qualification.',
-      'Completed overlay projects receive the same final inspection, cleanup, and warranty documentation as our tear-off installations. We register the manufacturer warranty, provide maintenance guidelines specific to overlay installations, and ensure that you understand both the benefits and the limitations of the overlay method for your ongoing roof maintenance planning.'
-    ],
-    approachSubheadings: ['Overlay Feasibility Assessment', 'Layer-Over-Layer Installation', 'Cost Savings Analysis'],
-    residential: {
-      heading: 'Residential Roof Overlay Options',
-      content: [
-        'For homeowners across Newark, East Orange, Irvington, and the broader Essex County area, a roof overlay can be an excellent solution when the existing roof meets the right conditions. Many homeowners face the reality that their roof needs replacement but the full cost of a tear-off stretches their budget beyond comfort. An overlay provides a legitimate, code-compliant alternative that delivers a new roof appearance, improved weather protection, and renewed warranty coverage at a significantly lower price point.',
-        'The aesthetic improvement from an overlay is immediate and dramatic. Worn, discolored, moss-covered old shingles are completely hidden beneath a fresh layer of new architectural shingles in your choice of color and style. For homeowners planning to sell their property, an overlay provides the curb appeal boost and inspection-passing roof condition that buyers expect, often at half the cost of a tear-off. The return on investment for a pre-sale overlay is among the highest of any home improvement project.',
-        'One important consideration for homeowners is that an overlay roof will have a somewhat shorter effective lifespan than the same shingles installed on bare deck after a tear-off. The existing layer beneath generates slightly more heat, which can accelerate aging of the new shingles, and any moisture trapped in the old layer continues to work on the deck beneath. A high-quality overlay typically delivers 15 to 20 years of reliable service compared to 25 to 30 years for the same shingles on a tear-off installation. Understanding this trade-off allows you to make an informed decision based on how long you plan to own the property and your budget priorities.',
-        'We offer flexible financing options for residential overlays that make roof renewal accessible for virtually any budget. Our straightforward estimate process clearly presents both overlay and tear-off options with transparent pricing so you can make the choice that best fits your financial situation and long-term plans for the property.'
-      ],
-      ctaLabel: 'Get Your Overlay Estimate'
+// ─── 2. Roof Overlay Installation ───
+{
+  serviceId: 'roof-overlay-installation',
+  directAnswer:
+    '**Newark Quality Roofing installs roof overlays across Newark and Essex County, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off** as a New Jersey Home Improvement Contractor.',
+  overview: [
+    '**Newark Quality Roofing installs an asphalt-shingle roof overlay across Essex County: a second shingle layer applied over one existing sound asphalt layer, with no tear-off** — for residential properties on a qualifying roof. A roof overlay, the recover defined by ARMA as installing an additional roof covering on an existing roof covering, skips the tear-off labor and the disposal, so a roof overlay runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi.',
+    'A roof overlay delivers less than a tear-off and carries real trade-offs, because a roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load across the deck and framing. A roof overlay qualifies on a single sound asphalt layer over a smooth, dry deck, and N.J.A.C. 5:23-6.4 bars a roof overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist.',
+  ],
+  subServices: [
+    {
+      name: 'Single-layer asphalt overlay',
+      description:
+        'Single-layer asphalt overlay applies a second shingle course over one existing asphalt layer, the recover ARMA defines as installing an additional roof covering on an existing roof covering, permitted only where one sound layer and a smooth deck exist, per GAF Technical Bulletin TAB-R-145.',
     },
-    commercial: {
-      heading: 'Commercial Roof Overlay Solutions',
-      content: [
-        'Commercial overlay installations serve property owners and facility managers who need to extend roof service life without the full cost and disruption of a complete tear-off. For commercial buildings with single-layer roof systems that are aging but structurally sound, an overlay can add 15 or more years of service life at roughly 60 percent of the cost of a tear-off and re-roof, making it an attractive option for buildings with limited capital improvement budgets or short remaining hold periods.',
-        'The reduced disruption of a commercial overlay is particularly valuable for occupied buildings where tenant operations cannot tolerate the noise, vibration, and debris of a full tear-off. Retail centers, medical offices, and hospitality properties especially benefit from the quieter, cleaner, and faster overlay process that minimizes impact on customer-facing operations and tenant satisfaction.',
-        'Our commercial overlay assessment includes moisture scanning of the existing roof assembly to verify that trapped moisture is not present beneath the existing membrane. Moisture-laden insulation or decking beneath an overlay will continue to deteriorate and can lead to premature failure of the new system. If our survey identifies significant moisture contamination, we may recommend targeted removal and repair of affected areas before overlaying the remainder, or we may advise that a full tear-off is the better investment for long-term performance.'
-      ],
-      ctaLabel: 'Schedule Commercial Overlay Assessment'
+    {
+      name: 'Overlay eligibility inspection',
+      description:
+        'Overlay eligibility inspection confirms the existing roof carries one layer over a dry, smooth, sound deck, because N.J.A.C. 5:23-6.4 bars a recover over a water-soaked or deteriorated deck, over wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers exist.',
     },
-    processSteps: [
-      {
-        title: 'Condition Assessment',
-        description: 'We thoroughly inspect the existing roof surface, attic space, and deck condition to verify that overlay criteria are met. Only roofs with a single existing layer, sound decking, and acceptable surface conditions qualify for our overlay recommendation.'
-      },
-      {
-        title: 'Surface Preparation',
-        description: 'Old ridge caps are removed, protruding nails are hammered flat, localized damage areas are repaired, and the existing surface is prepared to provide a smooth, stable substrate for the new roofing layer.'
-      },
-      {
-        title: 'Flashing and Edge Metal Replacement',
-        description: 'New drip edge, valley flashing, and penetration flashing are installed over the existing shingles. Deteriorated wall flashing and chimney flashing are replaced to ensure watertight transitions at all critical junctures.'
-      },
-      {
-        title: 'New Shingle Installation',
-        description: 'New architectural shingles are installed using extended-length nails that penetrate through both shingle layers and into the deck. Proper nail patterns and exposure dimensions ensure manufacturer warranty compliance.'
-      },
-      {
-        title: 'Ridge Ventilation and Cap Installation',
-        description: 'Ridge vent is installed to maintain proper attic ventilation, and new ridge cap shingles complete the installation with a finished, professional appearance at all roof peaks.'
-      },
-      {
-        title: 'Inspection and Documentation',
-        description: 'Final inspection verifies proper installation throughout, warranty is registered with the manufacturer, and maintenance guidelines specific to overlay installations are provided for your records.'
-      }
+    {
+      name: 'Overlay-vs-tear-off assessment',
+      description:
+        'Overlay-vs-tear-off assessment weighs the roughly 20–25% overlay cost saving, a national figure per HomeGuide and Angi, against the trade-offs ARMA and Angi document: a hidden deck, a roughly 20–30% shorter shingle life, a telegraphed profile, and added dead load.',
+    },
+  ],
+  signsHeading: 'Signs a Roof Overlay Fits Your Roof',
+  signs: [
+    '**One existing asphalt-shingle layer over a sound, dry, smooth deck** qualifies a roof for an overlay, because GAF Technical Bulletin TAB-R-145 permits a recover only where one roof is in place and the surface lies smooth, and a complete tear-off is necessary where more than one roof is in place.',
+    '**A deck that is water-soaked, rotted, spongy, or sagging** disqualifies an overlay and requires a tear-off, because N.J.A.C. 5:23-6.4 bars a recover over a deteriorated deck and the IRC reroofing provisions, Section R908, prohibit roofing over an unsound base, per the NJ Uniform Construction Code and InterNACHI.',
+    '**A roof already carrying 2 or more shingle layers** disqualifies an overlay, because N.J.A.C. 5:23-6.4 and IRC Section R908.3.1.1 cap a roof at 2 total layers and prohibit a third layer, per the NJ Uniform Construction Code.',
+    '**A wood shake, slate, clay, cement, or asbestos-cement tile covering** disqualifies an overlay, because N.J.A.C. 5:23-6.4 bars a recover over those coverings, listing wood shake expressly, per the NJ Rehabilitation Subcode.',
+    '**Curled, distorted, or uneven existing shingles that do not lie flat** disqualify an overlay, because asphalt shingles take the shape of the surface beneath and telegraph the old profile, so a smooth substrate is required, per Owens Corning installation instructions and GAF Technical Bulletin TAB-R-145.',
+    '**A roof past the asphalt service life of 20 years for 3-tab or 30 years for architectural** favors a tear-off over an overlay, because an overlay traps heat that cuts the new shingles\' life by roughly 20–30%, per the InterNACHI life-expectancy chart and a national Angi industry estimate.',
+  ],
+  approachHeading: 'How We Install a Roof Overlay',
+  approachContent: [
+    '**Newark Quality Roofing inspects the existing roof and the deck and confirms overlay eligibility against the 3 conditions that bar a recover before quoting an overlay.** N.J.A.C. 5:23-6.4 bars a roof overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more shingle layers already exist, per the NJ Uniform Construction Code, and IRC Section R908.3.1.1 caps a roof at 2 total layers. A Newark Quality Roofing eligibility inspection confirms one sound asphalt layer over a dry, smooth, sound deck, because GAF Technical Bulletin TAB-R-145 permits a recover only where one roof is in place and the surface lies smooth.',
+    '**Newark Quality Roofing states the overlay trade-offs against a tear-off in the written estimate, because a roof overlay delivers less than a tear-off.** A roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile rather than hiding the irregularities, per Owens Corning and GAF, and adds dead load across the deck, the rafters, and the supporting walls. A future re-roof over 2 layers then removes both layers at higher cost, per IRC Section R908.3.1.1 and Angi.',
+    '**Newark Quality Roofing prepares the smooth substrate and installs the second asphalt layer to manufacturer specification, the install that keeps the GAF or Owens Corning limited warranty in force.** A Newark Quality Roofing crew nails down loose and curled shingles, removes protruding nails, and replaces missing shingles, because Owens Corning installation instructions require a smooth surface before the new shingles install and GAF Technical Bulletin TAB-R-145 sets the same single-layer, smooth-substrate condition. A recover installed to the manufacturer\'s printed instructions keeps the GAF Shingle & Accessory Limited Warranty in force, while a recover outside those conditions falls outside warranty coverage, per GAF.',
+  ],
+  approachSubheadings: [
+    'Overlay Eligibility Inspection',
+    'Overlay-vs-Tear-Off Trade-Off Disclosure',
+    'Substrate Preparation and Overlay Installation',
+  ],
+  residential: {
+    heading: 'Residential Roof Overlay in Newark',
+    content: [
+      '**Newark Quality Roofing installs roof overlays on detached one- and two-family homes across Essex County, applying a second asphalt layer over one qualifying sound layer with no construction permit required for the roof covering.** A repair or replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, and the ordinary-maintenance exemption does not authorize a non-compliant recover.',
+      'A Newark Quality Roofing residential overlay applies only where one sound asphalt layer sits over a dry, smooth, sound deck, because N.J.A.C. 5:23-6.4 bars a recover over a water-soaked or deteriorated deck, over wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers exist. A Newark Quality Roofing crew states the overlay trade-offs in the written estimate, because an asphalt overlay cuts the new shingles\' service life by roughly 20–30% against the InterNACHI 3-tab life of 20 years and architectural life of 30 years, a national industry estimate per Angi, and a Newark Quality Roofing crew runs a magnet sweep for nails before leaving the property.',
     ],
-    faqs: [
+    ctaLabel: 'Get Home Estimate',
+  },
+  commercial: {
+    heading: 'Commercial Recover Considerations',
+    content: [
+      '**Newark Quality Roofing installs and services low-slope membrane systems across Essex County, where a commercial recover is a separate membrane decision governed by the same NJ Rehabilitation Subcode that controls a residential overlay.** A low-slope recover applies a new membrane over an existing membrane rather than a second asphalt-shingle layer, and N.J.A.C. 5:23-6.4 bars a recover over a water-soaked or deteriorated deck or where 2 or more applications exist, per the NJ Uniform Construction Code.',
+      'On a commercial building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, separate from the residential ordinary-maintenance exemption, per the NJ Uniform Construction Code. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per the NRCA and ARMA, so a Newark Quality Roofing commercial assessment checks drainage and membrane condition before a recover-or-replace scope. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
+    ],
+    ctaLabel: 'Get Commercial Quote',
+  },
+  processSteps: [
+    {
+      title: 'Eligibility Inspection',
+      description:
+        'A Newark Quality Roofing technician inspects the existing roof and the deck against the 3 conditions that bar a recover under N.J.A.C. 5:23-6.4 — a water-soaked or deteriorated deck, a wood shake, slate, clay, cement, or asbestos-cement tile covering, or 2 or more existing layers — confirming one sound asphalt layer over a smooth, dry deck.',
+    },
+    {
+      title: 'Written Estimate and Trade-Off Disclosure',
+      description:
+        'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and states the overlay trade-offs against a tear-off — a hidden deck, a roughly 20–30% shorter shingle life per Angi, a telegraphed profile, and added dead load — so the overlay-vs-tear-off choice is documented before any work begins.',
+    },
+    {
+      title: 'Substrate Preparation',
+      description:
+        'A Newark Quality Roofing crew nails down loose and curled shingles, removes protruding nails, and replaces missing shingles to create the smooth surface the new layer requires, because Owens Corning installation instructions and GAF Technical Bulletin TAB-R-145 condition a recover on a smooth substrate.',
+    },
+    {
+      title: 'Overlay Installation to Specification',
+      description:
+        'A Newark Quality Roofing crew installs the second asphalt layer to manufacturer specification over the prepared substrate, the install that keeps the GAF or Owens Corning limited warranty in force, because GAF covers a recover only when shingles install in strict accordance with the printed application instructions.',
+    },
+    {
+      title: 'Verification, Cleanup, and Warranty',
+      description:
+        'A Newark Quality Roofing lead verifies the overlay against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Owens Corning warranty guidance.',
+    },
+  ],
+  faqs: [
+    {
+      question: 'Should you repair or replace your roof?',
+      answer:
+        '**Replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the damage stays localized on an asphalt roof under 10–15 years old.** A roof overlay applies as a recover only where one sound asphalt layer sits over a dry, smooth deck, and a deteriorated deck or 2 existing layers requires a full tear-off, per N.J.A.C. 5:23-6.4. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds.',
+    },
+    {
+      question: 'Is a roof overlay as good as a full tear-off?',
+      answer:
+        '**A roof overlay delivers less than a full tear-off: it hides deck rot a tear-off catches and repairs, traps heat that cuts the new shingles\' service life by roughly 20–30%, telegraphs the old shingle profile, and adds dead load.** The hidden-deck and trade-off framing traces to ARMA, InterNACHI, Owens Corning, and a national Angi industry estimate. A future re-roof over 2 layers removes both layers at higher cost, per IRC Section R908.3.1.1.',
+    },
+    {
+      question: 'When is a roof overlay not allowed in New Jersey?',
+      answer:
+        '**A roof overlay is not allowed in New Jersey where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more shingle layers already exist.** N.J.A.C. 5:23-6.4 sets the 3 conditions and lists wood shake expressly, and IRC Section R908.3.1.1 caps a roof at 2 total layers, per the NJ Uniform Construction Code.',
+    },
+    {
+      question: 'How much does a roof overlay cost compared with a tear-off?',
+      answer:
+        '**A roof overlay runs roughly 20–25% less than a full tear-off, commonly $2,000–$5,000 cheaper for a typical home, because an overlay skips the tear-off labor and the disposal, a national figure per HomeGuide and Angi.** NJ architectural asphalt runs $6.50–$11.00 per square foot installed, per Josten Roofing NJ pricing. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'Does a roof overlay need a permit in Newark, NJ?',
+      answer:
+        '**A roof overlay on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official.** The ordinary-maintenance exemption covers the roof covering, not a non-compliant recover, so an overlay still meets the N.J.A.C. 5:23-6.4 eligibility limits, per the NJ Uniform Construction Code.',
+    },
+    {
+      question: 'How long does a roof overlay last?',
+      answer:
+        '**A roof overlay lasts less than the same shingles installed over a clean deck, because trapped heat cuts the new shingles\' service life by roughly 20–30%, so a 30-year architectural shingle delivers closer to 20–24 years over an overlay.** The 20–30% reduction is a national industry estimate per Angi, and the 3-tab 20-year and architectural 30-year baselines trace to the InterNACHI life-expectancy chart.',
+    },
+    {
+      question: 'Does a roof overlay affect the shingle manufacturer warranty?',
+      answer:
+        '**A roof overlay keeps the GAF or Owens Corning limited warranty in force only when the shingles install in strict accordance with the printed application instructions over one existing layer and a smooth deck.** GAF Technical Bulletin TAB-R-145 and Owens Corning installation instructions set the single-layer, smooth-substrate condition, and a recover outside those conditions falls outside warranty coverage, per GAF.',
+    },
+  ],
+  credentialsHighlight: [
+    'NJ HIC Licensed',
+    'Insured',
+    'Free Roof Inspections',
+    'Local Essex County Roofers',
+  ],
+  pricing: {
+    range: 'Roughly 20–25% less than a full tear-off',
+    factors: [
+      'A roof overlay runs roughly 20–25% less than a full tear-off, commonly $2,000–$5,000 cheaper for a typical home, because an overlay skips the tear-off labor and the disposal, a national figure per HomeGuide and Angi.',
+      'NJ architectural asphalt runs $6.50–$11.00 per square foot installed and 3-tab asphalt $5.50–$9.50, per Josten Roofing NJ pricing.',
+      'Substrate preparation adds cost when loose, curled, or missing shingles need nailing down or replacing to create the smooth surface the recover requires, per GAF Technical Bulletin TAB-R-145 and Owens Corning installation instructions.',
+      'An overlay cuts the new shingles\' service life by roughly 20–30% against the InterNACHI 3-tab life of 20 years and architectural life of 30 years, a national Angi industry estimate, so the lower upfront cost trades against a shorter overlay lifespan.',
+      'A future re-roof over 2 layers removes both layers at higher tear-off and disposal cost, per IRC Section R908.3.1.1 and Angi.',
+    ],
+  },
+  whyChooseUs: {
+    heading: 'Why Choose Our Roofing Company for Roof Overlay Installation?',
+    reasons: [
       {
-        question: 'Will an overlay void my warranty on the new shingles?',
-        answer: 'Most major shingle manufacturers do offer warranty coverage for overlay installations, but the warranty terms may differ from those offered for installations on bare deck. Some manufacturers reduce the warranty period for overlays, while others require specific installation methods such as longer nails or additional fasteners. We install all overlays in strict compliance with the manufacturer\'s overlay installation requirements to ensure that you receive the maximum available warranty coverage for your investment.'
+        title: 'NJ Home Improvement Contractor',
+        description:
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
       },
       {
-        question: 'Can I overlay any type of roofing material?',
-        answer: 'Overlay is primarily applicable to asphalt shingle roofs where new asphalt shingles are installed over the existing layer. Other materials such as metal, slate, tile, and most commercial membrane systems have different overlay considerations. Metal roofing can sometimes be installed over existing shingles using specialized battens or purlins, but this is a different installation method than a standard shingle overlay. We evaluate each project individually to determine which methods are appropriate and code-compliant.'
+        title: 'Honest Overlay-vs-Tear-Off Disclosure',
+        description:
+          'Newark Quality Roofing states the overlay trade-offs against a tear-off in the written estimate — a hidden deck, a roughly 20–30% shorter shingle life per Angi, a telegraphed profile, and added dead load — rather than presenting an overlay as equal to a tear-off.',
       },
       {
-        question: 'How can you tell if my deck is sound without removing the old shingles?',
-        answer: 'We assess deck condition through multiple indicators: walking the roof surface to feel for soft spots and deflection, inspecting the attic space from below for signs of water staining, rot, mold, daylight penetration, and structural movement, and evaluating the exterior for sagging rooflines or uneven surfaces that suggest deck deterioration. While this assessment cannot guarantee that every square foot of decking is perfect, it provides reliable indication of overall deck health. If we find concerning signs, we recommend a tear-off to properly inspect and repair the deck.'
+        title: 'Code-Compliant Eligibility Check',
+        description:
+          'Newark Quality Roofing confirms an overlay qualifies against N.J.A.C. 5:23-6.4 — one sound asphalt layer over a smooth, dry, sound deck, no wood shake, slate, clay, cement, or asbestos-cement tile, and no third layer — before installing a recover.',
       },
       {
-        question: 'Is an overlay just a temporary fix or a real roof replacement?',
-        answer: 'A properly installed overlay is a legitimate [roof replacement](/roof-replacement) that provides genuine weather protection and carries manufacturer warranty coverage. It is not a temporary patch or cosmetic fix. However, it is important to understand that an overlay typically delivers a somewhat shorter service life than the same materials installed on bare deck, generally 15 to 20 years versus 25 to 30 years, because the existing layer beneath affects heat buildup and prevents full inspection and repair of the substrate. For many property owners, this trade-off is acceptable given the significant cost savings.'
-      },
-      {
-        question: 'What happens when my overlay roof eventually needs replacement?',
-        answer: 'When an overlay roof reaches end of life, a full tear-off will be required because building codes do not permit more than two layers of roofing. At that point, both the overlay layer and the original layer beneath it will be removed down to bare deck, the deck will be inspected and repaired, and a completely new roof system will be installed. The future tear-off cost will be somewhat higher than a single-layer tear-off because two layers must be removed, but this additional future cost is typically far less than the savings realized by choosing an overlay now rather than a tear-off.'
-      },
-      {
-        question: 'How much does roof overlay installation cost in Essex County, NJ?',
-        answer: 'Most roof overlay installation projects in Essex County range from $6,000–$14,000, overlay without full tear-off. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your overlay installations?',
-        answer: 'Homeowners rate our **roof overlay** service for *cost-effective protection*. Reviews highlight our honest assessment of whether overlay is appropriate or if tear-off is the better investment.',
-      },
-      {
-        question: 'How experienced is your overlay team?',
-        answer: 'Our **overlay** specialists have over 15 years of experience evaluating and installing second-layer roofing. This expertise ensures *accurate feasibility assessments* so you make the right choice for your home.',
+        title: 'Local Essex County Roofers',
+        description:
+          'Newark Quality Roofing installs roof overlays and full replacements across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
       },
     ],
-  
-    pricing: {
-      range: '$6,000–$14,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Roof Overlay Installation',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+  },
+},
 
-  // ─── 3. Re-Roofing ────────────────────────────────────────────────────────
+// ─── 3. Re-Roofing ───
   {
     serviceId: 're-roofing',
+    directAnswer:
+      '**Newark Quality Roofing provides re-roofing across Newark and Essex County, replacing a worn roof covering with a new underlayment-and-cover system once the existing roof crosses the replacement threshold by age or condition** as a New Jersey Home Improvement Contractor.',
     overview: [
-      '**Re-roofing** is the comprehensive process of replacing your existing roof system with new materials, encompassing both [full tear-off](/full-roof-tear-off) and overlay methods under a single umbrella term that describes the complete renewal of your building\'s primary weather protection. Whether your project involves stripping the old roof to bare deck or installing new materials over the existing layer, re-roofing represents a significant investment in your property\'s structural integrity, weather resistance, energy efficiency, and market value. For property owners throughout Newark, **Essex County**, and the greater northern New Jersey region, re-roofing is one of the most impactful improvements you can make, protecting everything beneath your roof from the elements while transforming your building\'s appearance and performance.',
-      'The re-roofing decision is driven by the convergence of several factors: the age and condition of the existing roof, the frequency and cost of ongoing repairs, energy performance concerns, aesthetic deterioration, and the practical reality that every roofing system has a finite service life beyond which continued maintenance becomes economically irrational. New Jersey\'s demanding climate with hot, humid summers, cold winters with snow and ice, frequent nor\'easters, and occasional severe storms from hurricane remnants places extraordinary stress on roofing materials, and roofs in our region often reach replacement age sooner than the same materials would in milder climates. Recognizing when re-roofing is the right decision and choosing the appropriate method and materials for your specific situation are critical decisions that affect your property\'s protection and value for the next two to five decades.',
-      'Newark Quality Roofing approaches every re-roofing project as a consultative process rather than a sales transaction. We begin by understanding your goals, budget, timeline, and long-term plans for the property, then conduct a thorough inspection that informs an honest recommendation about whether re-roofing is truly necessary now or whether targeted repairs can extend your current roof\'s life. When re-roofing is the right choice, we present options clearly with transparent pricing, help you select the method and materials that best serve your specific situation, and execute the project with the craftsmanship and attention to detail that have made us Essex County\'s trusted roofing partner.'
+      '**Newark Quality Roofing re-roofs 5 roof systems across Essex County: 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane** — for residential and commercial properties. Re-roofing replaces a worn roof covering with a new system, the work that fixes a roof past its service life rather than patching a single failed detail, defined by ARMA as recovering or replacing an existing roof covering.',
+      'Re-roofing reaches the replacement decision through age and condition: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. Replacement accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence, because most roofs reach the end of service through age and storm loss rather than new construction. A Newark Quality Roofing re-roof matches the new system to the building and the Essex County climate before tear-off.',
     ],
-    signsHeading: 'Signs Your Property Needs Re-Roofing',
+    subServices: [
+      {
+        name: 'Full tear-off re-roofing',
+        description:
+          'Full tear-off re-roofing strips the existing covering to the deck, the method that exposes the deck for inspection and repair, because ARMA states a replacement provides the opportunity to inspect the roof deck, repair damage, and improve deck attachment to the structure.',
+      },
+      {
+        name: 'Asphalt shingle re-roofing',
+        description:
+          'Asphalt shingle re-roofing installs 3-tab or architectural shingles, the material on roughly 73% of US residential roofs per 2024 roofing-market data; 3-tab lasts 20 years and architectural 30 years, per the InterNACHI life-expectancy chart.',
+      },
+      {
+        name: 'Metal re-roofing',
+        description:
+          'Metal re-roofing installs standing-seam or metal-shingle systems that last 40 to 80 years, with copper at 70-plus years, per the InterNACHI life-expectancy chart; standing-seam panels conceal the fasteners and run continuous from ridge to eave.',
+      },
+      {
+        name: 'Slate re-roofing',
+        description:
+          'Slate re-roofing installs natural slate that lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI chart and the National Slate Association; slate suits the historic Essex County housing stock and requires a structural deck check before install.',
+      },
+      {
+        name: 'Low-slope membrane re-roofing',
+        description:
+          'Low-slope membrane re-roofing installs EPDM, TPO, or modified-bitumen systems that last 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI chart, on commercial flat roofs that need at least ¼ inch per foot of slope to drain, per the NRCA and ARMA.',
+      },
+    ],
+    signsHeading: 'Warning Signs Your Property Needs Re-Roofing',
     signs: [
-      'Your roof is approaching or has exceeded the expected lifespan for its material type: 20 to 25 years for standard three-tab asphalt shingles, 25 to 30 years for architectural shingles, 30 to 50 years for metal, and 50 or more years for slate and tile in New Jersey\'s climate conditions.',
-      'Annual repair costs have been escalating steadily, and you are spending more each year on patches, sealant, and spot repairs that address symptoms rather than solving the underlying aging and deterioration of the roof system as a whole.',
-      'Multiple areas of the roof are showing simultaneous problems including granule loss, curling, cracking, missing shingles, moss and algae growth, and deteriorated flashing, indicating system-wide aging rather than isolated damage.',
-      'Your energy bills for heating and cooling have been increasing despite no changes in usage patterns, suggesting that the roof assembly\'s insulation and reflective properties have degraded, allowing excessive heat transfer that your HVAC system must compensate for.',
-      'Water stains on interior ceilings or walls have appeared in multiple locations, indicating that the roof\'s waterproofing integrity has been compromised at various points rather than at a single repairable location.',
-      'The roof\'s appearance has deteriorated to the point where it negatively affects your property\'s **curb appeal** and potentially its market value, with streaked, patchy, or worn surfaces that are visible from the street.'
+      '**A roof at or past its material lifespan** signals re-roofing, because 3-tab asphalt lasts 20 years, architectural asphalt 30 years, and the actual life varies up to 40% with climate and maintenance, per the InterNACHI life-expectancy chart and the NRCA.',
+      '**An asphalt roof past 20 years, or 15 on the coast,** crosses the age rule that favors re-roofing, because a localized repair stays the more economical path only while the roof stays under 10 to 15 years old, per WeatherShield and Home Depot cost data.',
+      '**Damage across more than 25–30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which a full re-roof costs less than continued spot repair, per RapidRestore and MyQuoteIQ guidance.',
+      '**A repair quote approaching 50% of replacement cost** crosses the contractor-consensus 50% rule, the point at which re-roofing returns more value than a repair, per WeatherShield and Home Depot guidance.',
+      '**Three or more repairs in 2 years** crosses the contractor-consensus 3-repairs rule, the signal of a systemic failure rather than an isolated defect, per WeatherShield guidance.',
+      '**Granule loss with sandy grit in gutters and bald asphalt mat** indicates shingles nearing end of life; granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF.',
+      '**A spongy or sagging roof deck** indicates moisture-rotted sheathing or framing, a structural condition that a full tear-off exposes for repair, per GAF inspection guidance.',
+      '**Daylight through the roof deck** seen from inside the attic indicates holes in the decking and shingles, a sign that points toward re-roofing rather than a patch, per This Old House.',
     ],
-    approachHeading: 'Our Re-Roofing Approach',
+    approachHeading: 'How Our Roofing Contractors Perform Re-Roofing',
     approachContent: [
-      'Our re-roofing process begins with a free, comprehensive roof inspection that goes beyond a cursory visual assessment. We examine the roof surface for material condition, inspect the attic space for ventilation adequacy and signs of moisture intrusion, evaluate flashing and penetration details, assess structural indicators, and document our findings with photographs. This inspection provides the foundation for an informed recommendation about whether re-roofing is necessary and which method, tear-off or overlay, is most appropriate for your specific conditions.',
-      'Material selection is a collaborative process guided by your priorities and our expertise. We present the options that are appropriate for your roof\'s slope, structural capacity, and architectural style, explaining the performance characteristics, aesthetic qualities, warranty terms, and cost implications of each. For most residential re-roofing projects in Essex County, architectural asphalt shingles offer the best balance of performance, appearance, and value, but we also install metal, slate, tile, flat roof membranes, and specialty materials for projects that warrant premium or specialized solutions.',
-      'Project execution follows a detailed plan that covers scheduling, material staging, property protection, installation sequence, quality checkpoints, and cleanup. We communicate clearly throughout the project so you always know what is happening, what to expect next, and when the project will be complete. Our crews are experienced, professional, and respectful of your property and daily routine, working efficiently to minimize the duration of the project while maintaining the quality standards that every roof we install must meet.',
-      'After installation, we conduct a thorough final inspection with you, register the manufacturer warranty, provide maintenance guidelines, and ensure that you are completely satisfied with every aspect of the completed project. Our relationship with your roof does not end at installation; we are available for ongoing maintenance, inspections, and any questions that arise throughout the life of your new roof system.'
+      '**Newark Quality Roofing contractors confirm the re-roofing decision against 5 contractor-consensus rules before quoting: the 25% area rule, the 50% cost rule, the 30% cost rule, the age rule at 20 years (15 coastal), and the 3-repairs-in-2-years rule.** Damage across more than 25–30% of the roof area crosses the 25% rule, a single repair approaching 50% of replacement cost crosses the 50% rule, and an asphalt roof past 20 years crosses the age rule, per WeatherShield, RapidRestore, and Home Depot cost data. A localized repair stays the more economical path only while the roof stays under 10 to 15 years old, so a Newark Quality Roofing assessment confirms the threshold before recommending a re-roof.',
+      '**Newark Quality Roofing strips the worn roof to the deck, the tear-off method that exposes the deck for inspection and repair, because ARMA states a recover hides deck rot and water damage that a tear-off catches and resolves.** A full tear-off exposes deteriorated plywood or OSB, and the NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1. A recover over a single sound asphalt layer traps heat that industry estimates cut shingle service life by roughly 20–30%, per Angi, so a Newark Quality Roofing re-roof favors tear-off where deck condition or code requires it.',
+      '**Newark Quality Roofing matches the new roof system to the building and the Essex County climate from 5 material classes: 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane, then installs an ice barrier, synthetic underlayment, and the cover to manufacturer specification.** Material lifespan differs sharply: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR), driving freeze-thaw stress on sealants and fasteners. Installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
     ],
-    approachSubheadings: ['Modern Material Upgrade Path', 'Energy Efficiency Improvements', 'Curb Appeal Enhancement'],
+    approachSubheadings: [
+      'Confirm the Re-Roofing Decision Against the Threshold Rules',
+      'Tear-Off That Exposes the Deck for Inspection',
+      'Material Selection and Installation to Manufacturer Specification',
+    ],
     residential: {
-      heading: 'Residential Re-Roofing in Essex County',
+      heading: 'Residential Re-Roofing in Newark',
       content: [
-        'Your home is likely your largest financial asset and certainly the place where your family\'s safety and comfort matter most. A residential re-roofing project protects that asset and that comfort for the next quarter-century or longer, making it one of the most important home improvement investments you will ever make. The homes of Essex County span an extraordinary range of architectural styles, ages, and roof configurations, from century-old Victorians in the Oranges with steep, complex rooflines to mid-century ranches in Cedar Grove with simple hip roofs to modern construction in Harrison with contemporary profiles. Each home presents unique re-roofing considerations that require experienced assessment and tailored solutions.',
-        'The re-roofing process for homeowners begins with understanding your complete situation: not just the roof\'s condition but your budget, your timeline, how long you plan to stay in the home, your aesthetic preferences, and any concerns about the project process itself. Many homeowners have never been through a re-roofing project and understandably have questions about cost, disruption, timeline, and what to expect. We take the time to address every question thoroughly because an informed homeowner makes better decisions and has a more positive experience throughout the project.',
-        'Our residential re-roofing projects consistently deliver results that exceed homeowner expectations, transforming tired, worn roofs into beautiful, high-performing systems that enhance curb appeal and provide peace of mind during every storm. The difference between our work and commodity roofing is visible in the details: clean, straight shingle courses, properly woven valleys, precisely cut and fitted flashing, balanced ridge cap installation, and immaculate cleanup that leaves your property looking better than we found it.',
-        'We offer competitive financing options that make re-roofing accessible without depleting savings. Multiple payment structures are available, from traditional home improvement loans to manufacturer-sponsored financing programs, and we help you find the option that fits your financial situation.'
+        '**Newark Quality Roofing re-roofs residential homes across Essex County, replacing the worn covering on detached one- and two-family homes with no construction permit required for the roof covering.** A complete tear-off and re-roof of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit.',
+        'A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per a Zillow resale analysis, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report. A Newark Quality Roofing residential re-roof installs an ice barrier at the eaves to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 ice-barrier provision, repairs deteriorated decking exposed at tear-off, and contains debris with ground tarps and a magnet sweep for nails before leaving the property. A re-roof favors a tear-off over a recover on a home where the deck is water-soaked or carries 2 or more layers, because N.J.A.C. 5:23-6.4 prohibits a recover in those conditions.',
       ],
-      ctaLabel: 'Get Your Re-Roofing Estimate'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial Re-Roofing Solutions',
+      heading: 'Commercial Re-Roofing',
       content: [
-        'Commercial re-roofing projects require a fundamentally different approach than residential work, reflecting the larger scale, more complex systems, higher stakes, and operational considerations that characterize commercial properties. Whether your building is a retail center, warehouse, office complex, medical facility, or multi-family residential property, the re-roofing decision involves analysis of the existing system\'s condition, the building\'s operational requirements, code compliance obligations, and the capital investment strategy that best serves the property\'s financial objectives.',
-        'Our commercial re-roofing services encompass all major commercial roof system types including TPO, PVC, EPDM, modified bitumen, built-up roofing, metal, and spray-applied systems. We evaluate the existing system\'s condition, the building\'s structural and thermal requirements, and the owner\'s performance and budget objectives to recommend the system that delivers the best lifecycle value for each specific application. For buildings where the existing roof type has performed well, we often recommend replacing with the same system type while upgrading insulation to current energy code requirements.',
-        'Project management for commercial re-roofing addresses the operational realities that distinguish commercial work: phased installation that maintains weather protection for occupied spaces, coordination with rooftop mechanical equipment servicing, noise and disruption management for tenant-sensitive buildings, and compliance with the safety, insurance, and bonding requirements that commercial construction demands. Our project managers provide regular progress reports, coordinate with property management, and ensure that the project stays on schedule and within budget.',
-        'Warranty structures for commercial re-roofing projects offer substantial value when specified correctly. We maintain manufacturer certifications that qualify our installations for NDL (No Dollar Limit) warranties of 15, 20, or 25 years that cover both material and labor costs for warranted repairs, providing commercial property owners with predictable roofing costs and protection against unexpected capital expenditures.'
+        '**Newark Quality Roofing re-roofs commercial low-slope buildings across Essex County, installing EPDM rubber, TPO, and modified-bitumen membrane systems to manufacturer specification.** EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and a low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per the NRCA and ARMA.',
+        'On a commercial building, a re-roof requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
       ],
-      ctaLabel: 'Request Commercial Re-Roofing Proposal'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Comprehensive Roof Inspection',
-        description: 'Detailed assessment of your existing roof including surface condition, attic inspection, structural evaluation, and documentation with photographs. This inspection determines whether re-roofing is necessary and which method is most appropriate.'
+        title: 'Threshold and Deck Assessment',
+        description:
+          'A Newark Quality Roofing technician confirms the re-roofing decision against the 25% area rule, the 50% cost rule, the age rule at 20 years (15 coastal), and the 3-repairs-in-2-years rule, and inspects the deck and attic ventilation before quoting the re-roof, per WeatherShield and RapidRestore decision guidance.',
       },
       {
-        title: 'Consultation and Material Selection',
-        description: 'We discuss your goals, budget, and preferences, then present material options suited to your roof with clear explanations of performance, appearance, warranty, and cost for each option.'
+        title: 'Written Estimate and Material Selection',
+        description:
+          'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents the material options from 5 classes — 3-tab asphalt, architectural asphalt, metal, slate, and membrane — with the lifespan of each named from the InterNACHI life-expectancy chart before any work begins.',
       },
       {
-        title: 'Project Planning and Scheduling',
-        description: 'A detailed project plan covers timeline, material delivery, property protection, crew scheduling, and contingency plans for weather delays. You know exactly what to expect and when.'
+        title: 'Permits and Material Ordering',
+        description:
+          'A Newark Quality Roofing crew files the construction permit when the re-roof triggers one — a commercial roof, a structural change, or work beyond ordinary maintenance under N.J.A.C. 5:23-2.7 — and orders materials to arrive on the scheduled start date, per the NJ Uniform Construction Code.',
       },
       {
-        title: 'Removal or Preparation',
-        description: 'For tear-off projects, existing materials are completely removed and the deck is inspected and repaired. For overlays, the existing surface is prepared to receive the new layer. Both methods include flashing renewal at all critical locations.'
+        title: 'Tear-Off and Deck Repair',
+        description:
+          'A Newark Quality Roofing crew strips the existing roof to the bare deck, inspects every sheathing section, and replaces deteriorated plywood or OSB, with complete removal required by N.J.A.C. 5:23-6.4 and IRC R908.3.1.1 when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications.',
       },
       {
-        title: 'New Roof System Installation',
-        description: 'Your selected roofing material is installed by experienced crews following manufacturer specifications and our quality control protocols. Every detail from underlayment to ridge caps is executed to the highest standard.'
+        title: 'Ice Barrier, Underlayment, and Cover Installation',
+        description:
+          'A Newark Quality Roofing crew installs the ice barrier from the eave to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision, applies synthetic underlayment across the deck, and installs the new cover to manufacturer specification, the sequence that keeps the manufacturer warranty intact.',
       },
       {
-        title: 'Final Walkthrough and Warranty',
-        description: 'A thorough inspection with you confirms every aspect of the installation meets expectations. Manufacturer warranty is registered, maintenance guidelines are provided, and your property is left immaculate.'
-      }
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
+      },
     ],
     faqs: [
       {
-        question: 'How do I know if I need re-roofing versus just repairs?',
-        answer: 'The decision depends on the extent and nature of your roof\'s problems. If damage is limited to a small area from a specific event like a fallen branch, repair is usually appropriate. If problems are widespread, recurring, or related to age and overall material deterioration, re-roofing is typically the better investment because continuing to repair an aging system becomes increasingly expensive and less effective over time. Our free inspection provides an honest assessment with clear reasoning for our recommendation.'
+        question: 'Should you repair or replace your roof?',
+        answer:
+          '**Re-roof a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the damage stays localized on an asphalt roof under 10–15 years old.** The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than a re-roof while the roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data.',
       },
       {
-        question: 'What is the best time of year for re-roofing in New Jersey?',
-        answer: 'While we install roofs year-round, the optimal seasons for re-roofing in New Jersey are late spring through early fall when temperatures consistently remain above 45 degrees Fahrenheit, which is important for proper asphalt shingle adhesion. September and October are particularly ideal with mild temperatures, lower humidity, and more predictable weather. However, if your roof is failing, waiting for ideal conditions is not advisable, and we have the experience and techniques to perform quality installations in all but the most extreme weather conditions.'
+        question: 'What is the difference between re-roofing and a full replacement?',
+        answer:
+          '**Re-roofing is the umbrella term for recovering or replacing an existing roof covering, so re-roofing covers both a full tear-off replacement and a recover over a single sound layer, per ARMA and the IRC R908 reroofing section.** A full tear-off strips the covering to the deck and exposes deteriorated sheathing for repair, while a recover installs a new layer over the existing single layer, per ARMA.',
       },
       {
-        question: 'Should I re-roof before selling my home?',
-        answer: 'A new roof is one of the strongest selling points a home can offer because it eliminates one of the most significant concerns buyers and their inspectors evaluate. Homes with new roofs typically sell faster and at higher prices than comparable homes with aging roofs. If your roof is near end of life and you are planning to sell within the next year or two, re-roofing before listing is usually a wise investment that more than pays for itself in reduced negotiation concessions and increased buyer confidence.'
+        question: 'Do you need a permit for re-roofing in Newark, NJ?',
+        answer:
+          '**A complete re-roof of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial re-roof or a structural change does require a permit.** The exemption covers the roof covering, not rafters, trusses, or ridge beams, per the NJ Uniform Construction Code.',
       },
       {
-        question: 'How much does re-roofing cost in the Newark area?',
-        answer: 'Re-roofing costs in the Newark and Essex County area vary based on roof size, complexity, material selected, and whether a tear-off or overlay method is used. For an average-sized residential roof of approximately 2,000 square feet, typical costs range from $8,000 to $15,000 for an asphalt shingle overlay, $12,000 to $22,000 for a full tear-off and asphalt re-roof, and higher for premium materials like metal or slate. Commercial projects are priced per square based on system type and project complexity. We provide detailed, itemized estimates at no cost so you can make an informed decision.'
+        question: 'Does re-roofing require a full tear-off?',
+        answer:
+          '**Re-roofing requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more applications, per N.J.A.C. 5:23-6.4 and IRC R908.3.1.1.** A recover over a single sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20–30%, per ARMA and Angi.',
       },
       {
-        question: 'Can I stay in my home during a re-roofing project?',
-        answer: 'Yes, most homeowners remain in their homes throughout the re-roofing process. The work is conducted entirely from the exterior, so your interior living spaces are not affected. You should expect noise from hammering and equipment during work hours, some vibration transmitted through the structure, and temporary restrictions on access to areas immediately surrounding the house where debris protection and equipment are staged. We communicate daily about what to expect and work to minimize inconvenience.'
+        question: 'Which roofing material suits a re-roof in Essex County?',
+        answer:
+          '**Re-roofing material matches the building and budget across 5 classes: 3-tab asphalt at a 20-year life, architectural asphalt at 30 years, metal at 40–80 years, slate at 60–150 years, and low-slope membrane at 7–25 years.** Asphalt shingles cover roughly 73% of US residential roofs per 2024 roofing-market data, and the lifespans trace to the InterNACHI life-expectancy chart and the National Slate Association.',
       },
       {
-        question: 'How much does re roofing cost in Essex County, NJ?',
-        answer: 'Most re roofing projects in Essex County range from $7,500–$22,000, full re-roofing project. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your re-roofing service?',
-        answer: 'Property owners praise our **re-roofing** for *transformative results*. Reviews highlight the dramatic improvement in curb appeal and energy efficiency from upgrading to modern materials.',
+        question: 'How much does re-roofing cost in Essex County, NJ?',
+        answer:
+          '**Re-roofing in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks.** NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate.',
       },
       {
-        question: 'How experienced is your re-roofing team?',
-        answer: 'Our **re-roofing** crews have over 15 years of experience upgrading aging roofs with modern materials. This expertise means *informed material recommendations* based on your building type and goals.',
+        question: 'What roofing material lasts the longest for a re-roof in New Jersey?',
+        answer:
+          '**Natural slate lasts the longest at 60–150 years, with premium slate commonly 100-plus years, followed by metal at 40–80 years, architectural asphalt at 30 years, and 3-tab asphalt at 20 years.** The lifespans trace to the InterNACHI life-expectancy chart and the National Slate Association, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
       },
     ],
-  
-    pricing: {
-      range: '$7,500–$22,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Re Roofing',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$10,000–$25,000+ for most re-roofs',
+      factors: [
+        'A NJ re-roof costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks.',
+        'Material drives the per-square-foot cost: NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing, and slate $10–$30, per NJ roofing guides.',
+        'Tear-off adds cost over a recover, because removing the old covering runs $1–$3 per square foot for shingles and $2–$5 per square foot for heavier slate or tile, per HomeGuide national cost data.',
+        'A multi-layer or water-soaked roof requires full removal under N.J.A.C. 5:23-6.4, which adds tear-off and deck-repair cost over a single-layer re-roof, per the NJ Rehabilitation Subcode.',
+        'Labor accounts for roughly 60–70% of an asphalt-install total, and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors.',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and reviews financing options with the homeowner at the estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Re-Roofing?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that confirm the re-roofing decision against the 25% area rule, the 50% cost rule, and the InterNACHI material lifespan before a re-roof quote.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing re-roofs residential and commercial buildings across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 4. Insurance Roof Replacement ────────────────────────────────────────
+// ─── 4. Insurance Roof Replacement ───
   {
     serviceId: 'insurance-roof-replacement',
+    directAnswer:
+      '**Newark Quality Roofing provides insurance roof replacement across Newark and Essex County, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a roofing contractor, not an adjuster.',
     overview: [
-      '**Insurance [roof replacement](/roof-replacement)** is the process of replacing a damaged roof using funds from your homeowner\'s or commercial property insurance policy, and navigating this process successfully requires specific expertise that goes far beyond standard roofing installation skills. When a covered peril such as a storm, hail, wind, fallen tree, or fire damages your roof to the point where replacement is necessary, your insurance policy is designed to restore your property to its pre-loss condition. However, the gap between what your policy covers and what you actually receive often depends on how the claim is documented, presented, and negotiated. Newark Quality Roofing has extensive experience working with insurance companies on roof replacement claims throughout Newark and **Essex County**, and we serve as your advocate throughout the **claims process** to ensure you receive the full compensation your policy entitles you to.',
-      'The insurance claims process for roof replacement is inherently adversarial despite the cooperative language in your policy. Insurance adjusters are trained to minimize claim payouts, and they rely on the fact that most property owners and general contractors lack the specialized knowledge to identify and document all covered damages, code upgrade requirements, and line items that should be included in a replacement claim. Our insurance claims specialists understand the Xactimate estimating software that insurance companies use, know how to document damages in the format and language that adjusters recognize, and have the experience to identify supplemental items that initial adjustments frequently miss or undervalue.',
-      'We guide property owners through every phase of the insurance replacement process, from initial damage assessment and claim filing through adjuster meetings, estimate review, supplemental documentation, and final payment resolution. Our goal is to remove the stress and confusion from a process that most property owners encounter only once or twice in their lives, while ensuring that the final settlement covers the full cost of a quality replacement that restores your roof to proper condition with appropriate materials and craftsmanship.'
+      '**Newark Quality Roofing supports an insurance roof replacement in 4 roofing roles across Essex County: inspecting the roof, documenting the covered damage with photographs, writing a detailed scope and estimate that matches the insurer line items, and meeting the assigned adjuster on site** — for residential and commercial properties. Insurance roof replacement coordinates the roofing work with a property-insurance claim, where the homeowner or a licensed public adjuster files and negotiates the claim and Newark Quality Roofing provides the roofing documentation and performs the approved replacement.',
+      'In New Jersey only a licensed public adjuster, under the Public Adjusters\' Licensing Act N.J.S.A. 17:22B administered by NJ DOBI, or a licensed attorney, negotiates or settles a first-party property claim on behalf of the insured for a fee, so Newark Quality Roofing stays inside the roofing-contractor role and does not adjust, negotiate, settle, or guarantee the claim. Property damage accounts for 97.3% of homeowners claims, per the Insurance Information Institute (Triple-I, 2023), and wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (Triple-I, 2019–2023).',
     ],
-    signsHeading: 'When to File an Insurance Claim for Roof Replacement',
+    subServices: [
+      {
+        name: 'Storm and hail claim documentation',
+        description:
+          'Storm and hail claim documentation photographs wind and hail damage and writes a roofing scope for the adjuster, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (Triple-I, 2019–2023).',
+      },
+      {
+        name: 'Water and leak damage documentation',
+        description:
+          'Water and leak damage documentation records the covered water entry and the roofing scope, because water damage and freezing rank as a top claim type at 1 in 67 insured homes per year, with an average claim near $15,400, per the Insurance Information Institute (Triple-I, 2019–2023).',
+      },
+      {
+        name: 'Fire damage roof claim documentation',
+        description:
+          'Fire damage roof claim documentation photographs the fire, heat, and firefighting-water damage and writes a roofing scope that follows a structural assessment, because charred and heat-weakened framing carries essentially zero residual capacity and a licensed structural engineer assesses the framing before the rebuild, per the U.S. Forest Products Laboratory and EDT Engineers.',
+      },
+      {
+        name: 'Adjuster on-site meeting',
+        description:
+          'Adjuster on-site meeting walks the assigned staff or independent adjuster through the documented damage and provides technical input on the damage and repair methods, a roofing-contractor role that stays inside N.J.S.A. 17:22B, per NJ DOBI.',
+      },
+      {
+        name: 'Supplement documentation',
+        description:
+          'Supplement documentation records hidden damage found at tear-off, such as rotted decking or code-required ice-and-water shield, with photographs and code citations for a supplement request, because an insurer initial estimate does not capture every needed line item, per the Insurance Information Institute (Triple-I) claims-process guidance.',
+      },
+    ],
+    signsHeading: 'Signs You Need Insurance Roof Replacement',
     signs: [
-      'A severe storm, hailstorm, or high-wind event has caused visible damage to your roof including missing or displaced shingles, dented or cracked shingles, damaged flashing, or debris impact marks that are widespread rather than limited to a small area.',
-      'A tree or large branch has fallen onto your roof, causing structural damage to the decking, rafters, or framing in addition to the surface roofing material, creating a situation where repair alone cannot restore the roof\'s structural integrity.',
-      'Your roof was damaged by fire, whether from an external source or an internal building fire that vented through the roof, causing charring, melting, or structural compromise that necessitates replacement of damaged sections or the entire roof system.',
-      'An insurance-ordered inspection or an inspection conducted for property sale or refinancing has identified storm damage that was not immediately apparent but has caused progressive deterioration since the covered event occurred.',
-      'Neighboring properties have received insurance-funded roof replacements following a widespread storm event, suggesting that your roof likely sustained similar damage even if the signs are not obvious from ground level to an untrained observer.',
-      'You have documented a specific weather event with dates and conditions, and subsequent roof problems such as leaks or visible damage correlate with that event, establishing the causal connection insurance requires for claim approval.'
+      '**Wind-stripped shingles or a torn membrane after a severe storm** mark a covered-peril roof loss, because NOAA classifies a thunderstorm as severe at wind gusts of 58 mph or higher, and wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute (Triple-I).',
+      '**Hail bruising with granule loss across the roof field** marks impact damage that a claim documents, because hail damage depends on hail size and wind speed, and functional damage begins at roughly 1 inch for aged 3-tab shingles, per the American Meteorological Society and the IBHS.',
+      '**A fallen tree or wind-driven debris penetrating the roof covering** opens the structure to water and marks a covered sudden-event loss, the wind-and-hail claim type at 1 in 36 insured homes per year, per the Insurance Information Institute (Triple-I).',
+      '**Active interior water entry traced to storm-opened flashing or covering** marks a covered water loss, because water damage and freezing rank at 1 in 67 insured homes per year, with an average claim near $15,400, per the Insurance Information Institute (Triple-I).',
+      '**Fire, heat, and firefighting-water damage to the roof covering, decking, and framing** marks a fire loss that a structural assessment evaluates before rebuild, because fire converts the outer wood to a char layer with essentially zero residual capacity, per the U.S. Forest Products Laboratory.',
+      '**A roof replacement quote that exceeds the homeowner deductible after a covered peril** marks a claim worth filing, because the deductible is subtracted once from the covered loss and the insurer pays the remainder under the policy, per the Insurance Information Institute (Triple-I) and NAIC.',
     ],
-    approachHeading: 'Our Insurance Claims Process',
+    approachHeading: 'How We Handle Every Insurance Roof Replacement',
     approachContent: [
-      'Our insurance roof replacement process begins with a thorough damage inspection conducted by our claims-experienced inspectors who know exactly what to look for and how to document it. We climb the roof, photograph every instance of damage from multiple angles, measure affected areas, identify damage patterns consistent with the reported peril, and create a detailed damage report that supports a replacement claim. This documentation is critical because insurance adjusters make decisions based on the evidence presented, and thorough documentation consistently results in more favorable claim outcomes than minimal or poorly organized damage reports.',
-      'Before or alongside your claim filing, we prepare a comprehensive repair estimate using industry-standard pricing and the same line-item format that insurance adjusters use. This estimate includes not only the obvious roofing replacement costs but also code upgrade requirements mandated by current New Jersey building codes, overhead and profit allowances for contractor coordination, and supplemental items such as ice and water shield, drip edge replacement, and ventilation upgrades that are legitimately part of a proper replacement but frequently omitted from initial insurance estimates.',
-      'We attend the adjuster\'s inspection with you, walking the roof alongside the adjuster to ensure that all damage is identified and properly categorized. Our presence during the adjustment is perhaps the single most valuable service we provide because adjusters often complete their inspections quickly, and damage that is not identified during the adjustment becomes much more difficult to add to the claim after the fact. Our specialists know where to direct the adjuster\'s attention, how to explain damage patterns, and how to professionally advocate for complete documentation.',
-      'If the initial adjustment falls short of the actual replacement cost, we prepare and submit supplemental claims with additional documentation, measurements, and code requirement citations. Supplemental claims are common and expected in the insurance process, and our experience with this phase consistently recovers additional funds that cover the difference between the initial adjustment and the true cost of a quality replacement.'
+      '**Newark Quality Roofing inspects the roof, documents the covered damage with timestamped photographs, and writes a detailed scope and estimate that matches the insurer line items, the roofing-contractor documentation a claim relies on.** A Newark Quality Roofing scope records roof type, squares and area, underlayment, flashing, drip edge, vents, removal and installation labor, and related interior damage, the scope-of-loss contents that restore a roof to pre-loss condition, per United Policyholders scope-of-loss guidance. An insurer initial estimate does not capture every needed line item, so a Newark Quality Roofing detailed scope and the supplement documentation for hidden damage found at tear-off support an accurate claim, per the Insurance Information Institute (Triple-I) claims-process guidance.',
+      '**Newark Quality Roofing meets the assigned adjuster on site and provides technical input on the damage and repair methods, then performs the approved replacement to the agreed scope and to code.** An adjuster inspects damage and helps settle the claim, with staff adjusters employed by the insurer and independent adjusters contracted by the insurer, per the Insurance Information Institute (Triple-I) and the NAIC State Licensing Handbook, and a Newark Quality Roofing on-site walk provides roofing input inside the contractor role. In New Jersey, under N.J.S.A. 17:22B administered by NJ DOBI, only a licensed public adjuster or an attorney negotiates or settles a claim on behalf of the insured, so the homeowner or a public adjuster files and negotiates the claim and Newark Quality Roofing provides the roofing documentation and does the roofing.',
+      '**Newark Quality Roofing explains the general claim terms — actual cash value, replacement cost value, recoverable depreciation, and the deductible — without interpreting the homeowner specific policy or guaranteeing a coverage outcome.** Actual cash value equals replacement cost minus depreciation, and replacement cost value pays the cost to replace with materials of like kind and quality without deducting depreciation, subject to policy limits, per NAIC and the Insurance Information Institute (Triple-I). Under a replacement-cost policy the insurer commonly pays first on an actual-cash-value basis minus the deductible and releases the held recoverable depreciation as a second payment after the roof is completed and invoiced, while the deductible stays the homeowner responsibility under the policy, per the Insurance Information Institute (Triple-I) and NAIC.',
     ],
-    approachSubheadings: ['Insurance Claim Process Management', 'Adjuster Coordination and Documentation', 'Full Coverage Replacement'],
+    approachSubheadings: [
+      'Inspect, Document, and Scope the Damage',
+      'Meet the Adjuster and Perform the Approved Work',
+      'Explain the General Claim Terms',
+    ],
     residential: {
-      heading: 'Homeowner Insurance Roof Replacement',
+      heading: 'Residential Insurance Roof Replacement',
       content: [
-        'For homeowners, an insurance roof replacement claim can feel overwhelming, especially when you are simultaneously dealing with interior water damage, temporary repairs, and the stress of protecting your family from the elements. Our residential insurance team simplifies the process by handling the documentation, estimate preparation, **adjuster coordination**, and supplemental claims while keeping you informed at every step. You focus on your family; we focus on getting your claim approved and your roof replaced.',
-        'Understanding your policy\'s coverage before damage occurs puts you in a stronger position when you need to file a claim. Most homeowner\'s insurance policies in New Jersey cover roof damage from wind, hail, fallen trees, fire, and other sudden perils, but policies vary in how they calculate payment. Replacement Cost Value policies pay the full cost to replace your roof with equivalent materials at current prices, while Actual Cash Value policies deduct depreciation based on your roof\'s age. We help you understand your specific policy\'s terms so there are no surprises during the claims process.',
-        'The typical timeline for a residential insurance roof replacement from initial claim filing to completed installation is four to eight weeks, depending on adjuster scheduling, supplemental claim processing, and material availability. We coordinate the scheduling to minimize the gap between claim approval and installation, and we provide temporary repairs as needed to protect your home during the claims process. Our experience with Essex County insurance claims means we know the common adjuster responses, typical processing timelines, and effective strategies for resolving disputes.',
-        'Your out-of-pocket cost for an insurance roof replacement is typically limited to your policy\'s deductible. Any contractor who offers to waive or pay your deductible is engaging in insurance fraud, which can void your policy and expose you to legal liability. We operate with complete transparency and integrity in every insurance project, ensuring that the claim is documented honestly and that you understand exactly what your policy covers and what, if anything, falls outside coverage.'
+        '**Newark Quality Roofing performs insurance roof replacement on detached one- and two-family homes across Essex County, documenting storm, wind, hail, fire, and tree-impact damage with timestamped photographs and a detailed scope for the homeowner adjuster.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses triggers a permit.',
+        'A Newark Quality Roofing residential claim documents wind and hail damage, the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). The homeowner or a licensed public adjuster files and negotiates the claim, because in New Jersey only a licensed public adjuster or an attorney negotiates or settles a claim on behalf of the insured under N.J.S.A. 17:22B, per NJ DOBI, and the homeowner deductible stays the homeowner responsibility under the policy, a figure Newark Quality Roofing does not waive, rebate, or pay.',
       ],
-      ctaLabel: 'Start Your Insurance Claim Process'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
       heading: 'Commercial Insurance Roof Replacement',
       content: [
-        'Commercial property insurance claims for roof replacement involve significantly higher dollar amounts, more complex policy structures, and more rigorous documentation requirements than residential claims. Commercial policies often include coinsurance clauses, business interruption coverage, and specific sublimits for roof damage that require expert navigation to maximize recovery. Our commercial insurance team has experience with the major commercial property insurers operating in New Jersey and understands the documentation standards, estimating formats, and negotiation dynamics specific to commercial claims.',
-        'For commercial property owners and facility managers, minimizing business disruption during an insurance replacement is a critical concern that residential claims do not share. We develop phased installation plans that maintain weather protection for occupied spaces, coordinate work schedules around business operations, and communicate proactively with tenants and stakeholders throughout the project. Our project management ensures that the replacement proceeds efficiently from claim approval to completion without unnecessary delays that extend the disruption period.',
-        'Commercial claims frequently involve engineering reports, moisture surveys, and infrared scanning to fully document the extent of storm or weather damage. We coordinate these technical assessments as part of our claims documentation process, ensuring that hidden damage beneath the membrane surface is identified and included in the claim rather than discovered after installation begins when additional funding is more difficult to secure.',
-        'Our commercial insurance replacement services include coordination with your property\'s insurance broker or risk manager, detailed loss documentation formatted for commercial claim review, attendance at adjuster inspections including any re-inspections, and supplemental claim preparation when initial adjustments are insufficient.'
+        '**Newark Quality Roofing performs insurance roof replacement on commercial low-slope roofs across Essex County, documenting storm and covered-peril damage to EPDM rubber, TPO, and modified-bitumen membranes with photographs and a detailed scope for the assigned adjuster.** EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and a Newark Quality Roofing commercial scope records the membrane type, the affected squares, and the related damage that a covered loss restores to pre-loss condition.',
+        'On a commercial building, a roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. Newark Quality Roofing meets the staff or independent adjuster on site and performs the approved replacement, and the policyholder or a licensed public adjuster files and negotiates the commercial property claim under N.J.S.A. 17:22B, per NJ DOBI, with structural-repair checks often co-endorsed by the mortgage lender and released as the work progresses, per the Insurance Information Institute (Triple-I). Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
       ],
-      ctaLabel: 'Request Commercial Insurance Assessment'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Damage Inspection and Documentation',
-        description: 'Our claims-experienced inspectors conduct a thorough roof inspection, photographing and measuring all damage, identifying damage patterns, and creating a detailed report that supports your insurance claim.'
+        title: 'Roof Inspection and Damage Documentation',
+        description:
+          'A Newark Quality Roofing technician inspects the roof, traces the covered damage, and photographs the storm, hail, fire, or leak damage with timestamps, the roofing documentation a claim relies on, per United Policyholders scope-of-loss guidance.',
       },
       {
-        title: 'Claim Filing Assistance',
-        description: 'We help you file your claim with the correct information, timeline, and damage description to establish the strongest possible foundation for your claim from the initial report.'
+        title: 'Detailed Scope and Estimate',
+        description:
+          'A Newark Quality Roofing scope and estimate records roof type, squares, underlayment, flashing, drip edge, vents, removal and installation labor, and related interior damage to restore the roof to pre-loss condition, the scope-of-loss contents per United Policyholders.',
       },
       {
-        title: 'Adjuster Meeting Attendance',
-        description: 'We attend the insurance adjuster\'s inspection, walking the roof together to ensure all damage is identified and properly documented. Our presence ensures nothing is overlooked during this critical evaluation.'
+        title: 'Adjuster On-Site Meeting',
+        description:
+          'A Newark Quality Roofing lead meets the assigned staff or independent adjuster on site, walks the documented damage, and gives technical input on the damage and repair methods, a roofing role inside N.J.S.A. 17:22B, per NJ DOBI, with the homeowner or a public adjuster handling the claim itself.',
       },
       {
-        title: 'Estimate Review and Negotiation',
-        description: 'We review the adjuster\'s estimate against our independent assessment, identify any missing or undervalued items, and prepare supplemental documentation to secure full coverage for a quality replacement.'
+        title: 'Supplement Documentation for Hidden Damage',
+        description:
+          'A Newark Quality Roofing crew documents hidden damage found at tear-off, such as rotted decking or code-required ice-and-water shield, with photographs and code citations for a supplement request, because an insurer initial estimate does not capture every needed line item, per the Insurance Information Institute (Triple-I).',
       },
       {
-        title: 'Approved Replacement Installation',
-        description: 'Once the claim is approved, we schedule and complete the roof replacement using quality materials and methods that meet or exceed the pre-loss condition of your roof, as your policy requires.'
+        title: 'Approved Roof Replacement',
+        description:
+          'A Newark Quality Roofing crew strips the roof to the deck, repairs the sheathing, and installs the new underlayment-and-cover system to manufacturer specification and to code, performing the approved replacement to the agreed scope, per the Insurance Information Institute (Triple-I) claims-process guidance.',
       },
       {
-        title: 'Final Documentation and Payment',
-        description: 'We provide all completion documentation required for final insurance payment release, including photographs, material receipts, and warranty information that satisfy the insurer\'s closeout requirements.'
-      }
+        title: 'Verification, Cleanup, and Final Invoice',
+        description:
+          'A Newark Quality Roofing lead verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and provides the final invoice, the completion documentation an RCV policy requires before the insurer releases the held recoverable depreciation, per the Insurance Information Institute (Triple-I).',
+      },
     ],
     faqs: [
       {
-        question: 'Should I file an insurance claim or just pay for the replacement myself?',
-        answer: 'If your roof damage was caused by a covered peril such as a storm, hail, wind, or fallen tree, you should file a claim. That is exactly what you pay insurance premiums for. Filing a legitimate claim for covered damage does not make you a higher risk; it exercises the contractual right you have been paying for. The only situation where self-funding might make more sense is when the damage is minor and the repair cost is close to or less than your deductible amount, in which case a claim would not result in meaningful reimbursement.'
+        question: 'Does Newark Quality Roofing handle my insurance claim?',
+        answer:
+          '**Newark Quality Roofing inspects the roof, documents the damage with photographs, writes a detailed scope and estimate, and meets the adjuster on site, and the homeowner or a licensed public adjuster files and negotiates the claim.** In New Jersey only a licensed public adjuster or an attorney negotiates or settles a claim on behalf of the insured under N.J.S.A. 17:22B, per NJ DOBI, so Newark Quality Roofing provides the roofing documentation and performs the approved work, not the claim adjustment.',
       },
       {
-        question: 'Will my insurance rates increase if I file a roof claim?',
-        answer: 'New Jersey law limits the ability of insurers to raise rates based on weather-related claims that are beyond the homeowner\'s control. While individual insurer practices vary, a single weather-damage claim generally does not result in significant rate increases, especially when the claim is filed in the context of a widespread weather event that affected many properties in the area. The cost of not replacing a damaged roof far exceeds any potential premium adjustment.'
+        question: 'What is the difference between ACV and RCV on a roof claim?',
+        answer:
+          '**Actual cash value equals replacement cost minus depreciation, and replacement cost value pays the cost to replace with materials of like kind and quality without deducting depreciation, subject to policy limits.** Under a replacement-cost policy the insurer commonly pays first on an actual-cash-value basis minus the deductible and releases the held recoverable depreciation as a second payment after the roof is completed and invoiced, per NAIC and the Insurance Information Institute (Triple-I).',
       },
       {
-        question: 'What if the insurance company denies my claim?',
-        answer: 'Claim denials are not necessarily final. We review denial letters to understand the stated reason, and in many cases, we can provide additional documentation, engineering reports, or damage evidence that addresses the insurer\'s concerns and results in claim reversal. If the denial is based on a legitimate policy exclusion, we explain what is and is not covered so you can make an informed decision about self-funded replacement. In cases where we believe the denial is unjustified, we can recommend public adjusters or attorneys who specialize in insurance claim disputes.'
+        question: 'Can you waive or pay my deductible?',
+        answer:
+          '**The deductible is the homeowner responsibility under the policy and Newark Quality Roofing does not waive, rebate, absorb, or pay the deductible.** The deductible is subtracted once from the covered loss, per the Insurance Information Institute (Triple-I) and NAIC, and a deductible-waiver scheme is prosecutable in New Jersey under the NJ Consumer Fraud Act and the NJ Insurance Fraud Prevention Act, per NJ DOBI.',
       },
       {
-        question: 'How long do I have to file a roof damage insurance claim?',
-        answer: 'Most New Jersey homeowner\'s insurance policies require that claims be filed promptly after the damage is discovered, though specific timeframes vary by policy. Some policies require notification within 60 days, while others are more flexible. However, the sooner you file, the stronger your claim typically is because the connection between the damage and the causing event is clearer. If you suspect storm damage, contact us for a free inspection as soon as possible so we can document conditions before further weathering obscures the evidence.'
+        question: 'Will my insurance claim be approved for a full roof replacement?',
+        answer:
+          '**Coverage and approval are the insurer decision, and Newark Quality Roofing documents the damage thoroughly so the homeowner and the insurer evaluate the claim, without guaranteeing any coverage outcome.** Homeowners insurance covers a roof replacement when a covered peril causes the damage — wind, hail, a falling tree, or fire — and excludes replacement for normal wear, age, or deferred maintenance, per the Insurance Information Institute (Triple-I).',
       },
       {
-        question: 'Can I choose my own contractor for an insurance roof replacement?',
-        answer: 'Absolutely. You have the legal right to select your own contractor for insurance-funded repairs and replacements. While some insurance companies may suggest or recommend specific contractors through preferred vendor programs, you are under no obligation to use them. Choosing an experienced, local contractor like Newark Quality Roofing who understands the insurance process and will advocate for your interests often results in better claim outcomes and higher quality work than using a company whose primary relationship is with the insurer rather than with you.'
+        question: 'Should you repair or replace your roof after storm damage?',
+        answer:
+          '**Replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the damage stays localized on an asphalt roof under 10–15 years old.** The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a covered-peril replacement documents the damage with photographs for the adjuster, because wind and hail rank as the largest claim type at 1 in 36 insured homes per year, per the Insurance Information Institute (Triple-I).',
       },
       {
-        question: 'How much does insurance roof replacement cost in Essex County, NJ?',
-        answer: 'Most insurance roof replacement projects in Essex County range from $8,500–$30,000, we handle the claims process. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your insurance replacement service?',
-        answer: 'Homeowners praise our **insurance roof replacement** for *seamless claims handling*. Reviews highlight how we manage the entire process from documentation to final inspection with insurance adjusters.',
+        question: 'What roof damage does homeowners insurance cover?',
+        answer:
+          '**Homeowners insurance covers sudden-event roof damage from a covered peril — wind, hail, a fallen tree, or fire — and excludes damage from normal wear, age, or deferred maintenance.** Property damage accounts for 97.3% of homeowners claims, per the Insurance Information Institute (Triple-I, 2023), and wind and hail at 1 in 36 and water damage and freezing at 1 in 67 rank as the most common claim types, per the Insurance Information Institute (Triple-I, 2019–2023).',
       },
       {
-        question: 'How experienced is your team with insurance claims?',
-        answer: 'Our **insurance replacement** team has over 15 years of experience coordinating with every major NJ insurance carrier. This means *professionally documented claims* that maximize your coverage.',
+        question: 'How much does an insurance roof replacement cost in Essex County, NJ?',
+        answer:
+          '**A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, against a 2025 national average near $10,000–$11,000, and a covered claim pays the covered loss minus the deductible the homeowner owes under the policy.** The NJ range traces to HomeAdvisor and Modernize cost data, and the deductible is subtracted once from the covered loss, per the Insurance Information Institute (Triple-I). Newark Quality Roofing provides a free written estimate.',
       },
     ],
-  
-    pricing: {
-      range: '$8,500–$30,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Insurance Roof Replacement',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$10,000–$25,000+ for a covered replacement, minus the homeowner deductible',
+      factors: [
+        'A NJ roof replacement costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks.',
+        'The homeowner deductible is subtracted once from the covered loss and stays the homeowner responsibility under the policy, per the Insurance Information Institute (Triple-I) and NAIC.',
+        'Actual cash value pays replacement cost minus depreciation, while replacement cost value pays full like-kind replacement and releases the held recoverable depreciation after the roof is completed and invoiced, per NAIC and the Insurance Information Institute (Triple-I).',
+        'A supplement adds covered cost when hidden damage shows at tear-off, such as rotted decking or code-required ice-and-water shield, because an insurer initial estimate does not capture every needed line item, per the Insurance Information Institute (Triple-I).',
+        'Some New Jersey policies carry a percentage wind or named-storm deductible set as a percent of the dwelling Coverage A limit rather than a flat dollar, a policy-specific term, per the Insurance Information Institute (Triple-I) and NAIC.',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and discusses payment options at the estimate; the deductible is the homeowner responsibility under the policy and is never waived or rebated.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Insurance Roof Replacement?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Compliant Roofing-Contractor Role',
+          description:
+            'Newark Quality Roofing inspects, documents, scopes, and meets the adjuster, and does not adjust, negotiate, or settle the claim, because in New Jersey only a licensed public adjuster or an attorney negotiates a claim on behalf of the insured under N.J.S.A. 17:22B, per NJ DOBI.',
+        },
+        {
+          title: 'Photo-Documented Damage Scope',
+          description:
+            'Newark Quality Roofing documents storm, hail, fire, and leak damage with timestamped photographs and a detailed scope, because an insurer initial estimate does not capture every needed line item, per the Insurance Information Institute (Triple-I).',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 5. Storm Damage Roof Replacement ─────────────────────────────────────
+  // ─── 5. Storm Damage Roof Replacement ───
   {
     serviceId: 'storm-damage-roof-replacement',
+    directAnswer:
+      '**Newark Quality Roofing replaces storm-damaged roofs across Newark and Essex County, documenting wind, hail, and nor\'easter damage with photographs and a detailed scope, then installing a new roof to manufacturer specification** as a New Jersey Home Improvement Contractor.',
     overview: [
-      'Storm damage roof replacement addresses the devastating impact that severe weather events inflict on roofing systems throughout the Newark metropolitan area and **Essex County**. New Jersey occupies a unique position on the eastern seaboard where nor\'easters tracking up the coast, remnants of tropical systems pushing north through the mid-Atlantic, severe thunderstorms spawning damaging winds and hail, and winter ice storms all converge to create one of the most demanding storm environments for roofing materials in the country. When these events damage your roof beyond the point where repairs can restore its integrity, a complete replacement becomes necessary to protect your property, your belongings, and your family or tenants from ongoing weather exposure.',
-      'Storm damage manifests differently depending on the type of event and the existing roof\'s material, age, and condition. High winds can lift, crack, or completely remove shingles and flashing. Hail impacts create bruises in asphalt shingles that break the granule bond and accelerate deterioration over subsequent months. Falling trees and large branches cause structural damage to decking and framing. Driven rain exploits any compromise in the roof\'s waterproofing envelope, and ice damming from winter storms forces water beneath shingles and into the building envelope. Understanding the specific damage pattern your roof has sustained is essential for determining whether repair or replacement is the appropriate response and for documenting the damage effectively for insurance purposes.',
-      'Newark Quality Roofing responds to storm damage events throughout Essex County with the urgency these situations demand. We provide emergency tarping and temporary repairs to stop active water intrusion within hours of your call, then conduct thorough damage assessments that determine the full extent of the damage and whether repair or replacement is the appropriate course of action. For roofs that require replacement, we manage the entire process from emergency response through **insurance claim**s coordination to completed installation, providing a single point of accountability during a stressful time.'
+      '**Newark Quality Roofing replaces storm-damaged roofs across Essex County after 3 storm perils: high wind, hail impact, and nor\'easter coastal storms** — for residential and commercial properties. Storm damage roof replacement strips the failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system, the work that restores a roof past partial repair after a covered storm loss.',
+      'Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023), and wind and hail drive 40.7% of homeowners claims, the most common peril, per the Insurance Information Institute (Triple-I). Replacement accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence, a market anchored to weather loss and insurance. A Newark Quality Roofing storm replacement documents the damage for the insurance claim and matches the new roof to the Essex County climate before tear-off.',
     ],
-    signsHeading: 'Indicators of Storm Damage Requiring Replacement',
+    subServices: [
+      {
+        name: 'Wind-damage roof replacement',
+        description:
+          'Wind-damage roof replacement restores a roof stripped of shingles after high wind, because NOAA classifies a thunderstorm as severe at wind gusts of 58 mph or higher, 3-tab shingles carry roughly a 60 mph rating, and architectural shingles rate to 130 mph, per ASTM D3161 and manufacturer guidance.',
+      },
+      {
+        name: 'Hail-damage roof replacement',
+        description:
+          'Hail-damage roof replacement restores a roof with widespread bruising and granule loss, because functional hail damage begins near 1.0 inch on aged 3-tab shingles and 2.0-inch hail damages all tested roofing, per the American Meteorological Society, with impact resistance graded UL 2218 Class 1 through 4.',
+      },
+      {
+        name: 'Nor\'easter and coastal-storm roof replacement',
+        description:
+          'Nor\'easter and coastal-storm roof replacement restores a roof after sustained wind and wind-driven rain, because nor\'easters bring sustained winds up to 60 mph, per the NJ Office of the Governor, and New Jersey averages at least one coastal storm per year, most common October through April, per the NOAA New Jersey State Climate Summary.',
+      },
+      {
+        name: 'Insurance-claim documentation',
+        description:
+          'Insurance-claim documentation photographs the storm damage and writes a detailed scope and estimate matching the insurer\'s line items, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute (Triple-I, 2019–2023).',
+      },
+    ],
+    signsHeading: 'Warning Signs Your Property Needs Attention',
     signs: [
-      'Large sections of shingles are missing, lifted, or displaced following a wind event, exposing underlayment or bare deck to ongoing weather exposure and indicating that the wind damage is too widespread for localized repair to restore the roof\'s integrity.',
-      'Hail damage inspection reveals widespread impact marks, granule displacement, and shingle bruising across the majority of the roof surface, creating a pattern of accelerated deterioration that will lead to premature failure even though the roof may appear functional immediately after the storm.',
-      'A tree or major branch has struck the roof, causing visible structural damage including broken or displaced decking, cracked or split rafters, and displaced ridge or hip lines that indicate damage to the roof\'s structural framework, not just the surface material.',
-      'Interior water intrusion following a storm is appearing in multiple locations simultaneously, indicating that the roof\'s waterproofing has been compromised at numerous points rather than at a single repairable location.',
-      'Following a winter ice storm, extensive ice damming has forced water beneath shingles across large areas of the roof, causing damage to underlayment, sheathing, and interior finishes that indicates the roof system can no longer manage ice and water effectively.',
-      'A professional inspection following a neighborhood-wide storm event has identified damage that, while not immediately catastrophic, has reduced the roof\'s remaining functional life to the point where replacement now is more economical than repairs that would only extend service life by a few years.'
+      '**Widespread missing, lifted, or creased shingles after high wind** expose the underlayment and the roof deck across the roof, because NOAA classifies a thunderstorm as severe at wind gusts of 58 mph or higher and 3-tab shingles carry roughly a 60 mph rating, per ASTM D3161.',
+      '**Circular bruises with granule loss and soft spots from hail** mark widespread impact damage, because functional hail damage begins near 1.0 inch on aged 3-tab shingles and 2.0-inch hail damages all tested roofing, per the American Meteorological Society.',
+      '**Damage across more than 25–30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which full replacement costs less than continued spot repair, per roofing industry guidance.',
+      '**Granule loss with sandy grit in gutters across the roof** indicates a storm-stripped surface, because granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF.',
+      '**A fallen tree, large branch, or wind-driven debris penetrating the roof covering** opens the structure to water and ranks as the largest homeowners-insurance claim type, wind and hail, at 1 in 36 insured homes per year, per the Insurance Information Institute (Triple-I).',
+      '**Daylight or a sagging roofline visible from inside the attic after a storm** indicates deck or framing compromise, a structural condition that points toward replacement rather than a patch, per GAF inspection guidance.',
+      '**Dented metal flashing, gutters, and vents alongside roof-covering damage** corroborate a hail event for the insurance adjuster, because hail damage depends on kinetic energy from hail size and wind speed, per the Insurance Institute for Business & Home Safety.',
     ],
-    approachHeading: 'Our Storm Damage Replacement Process',
+    approachHeading: 'How We Handle Every Project',
     approachContent: [
-      'Our storm damage response begins with emergency stabilization. When you call with active leaks or exposed deck areas following a storm, our emergency team deploys to your property to install tarps, board up openings, and take whatever immediate measures are necessary to stop water intrusion and prevent further interior damage. This emergency response is provided regardless of whether the project ultimately involves repair or replacement, because protecting your property from additional damage is the first priority.',
-      'Once the emergency is stabilized, our damage assessment team conducts a comprehensive inspection that documents every instance of storm damage on your roof. This assessment goes beyond the obvious missing shingles to identify the subtle damage patterns that indicate systemic compromise: hail bruising that is invisible from ground level, lifted nail heads from wind cycling, cracked pipe boot flanges, loosened step flashing, and displaced ridge cap. This thorough documentation serves dual purposes: it determines the appropriate scope of work and provides the evidence base for your insurance claim.',
-      'For **storm damage replacement**s that involve insurance claims, we coordinate the entire claims process including adjuster meeting attendance, estimate preparation in Xactimate format, supplemental claim documentation, and payment tracking. Our insurance coordination expertise ensures that the claim captures the full scope of storm damage and all legitimate code upgrade and replacement costs, maximizing your insurance recovery so that your out-of-pocket cost is limited to your policy deductible.',
-      'Replacement installation following storm damage is prioritized in our schedule because we understand that every day with a compromised roof increases the risk of additional damage from subsequent weather events. We maintain strategic material inventories of the most common shingle lines and accessories to minimize the wait between claim approval and installation start, and our crews are experienced in the efficient, weather-aware installation practices that storm damage projects demand.'
+      '**Newark Quality Roofing inspects the storm-damaged roof, documents the wind, hail, and nor\'easter damage with timestamped photographs, and writes a detailed scope and estimate matching the insurer\'s line items.** A Newark Quality Roofing inspection records the damage pattern, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute (Triple-I, 2019–2023). Newark Quality Roofing is a New Jersey Home Improvement Contractor, not a licensed public adjuster, so a Newark Quality Roofing crew documents the damage, writes the scope, and meets the assigned adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI. The deductible is the policyholder\'s responsibility under the policy, and coverage and approval are the insurer\'s decision.',
+      '**Newark Quality Roofing meets the assigned insurance adjuster on site to walk the storm damage and provide technical input on the damage extent and the repair methods.** A Newark Quality Roofing crew prepares the documentation for a supplement, because rotted decking or hidden damage at tear-off can exceed the initial estimate, and an insurer\'s initial scope can miss a line item, per Insurance Information Institute claims-process guidance. Under a replacement-cost policy the insurer commonly pays first on an actual-cash-value basis, replacement cost minus depreciation and the deductible, and releases the held recoverable depreciation as a second payment after the roof is completed and invoiced, per the National Association of Insurance Commissioners and the Insurance Information Institute; under an actual-cash-value settlement that depreciation is not recoverable.',
+      '**Newark Quality Roofing strips the roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** A complete tear-off exposes the deck for inspection and repair, and the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A FORTIFIED roof built to the Insurance Institute for Business & Home Safety standard is more than 70% less likely to file a claim, with damage 22% less severe, per the IBHS, so a Newark Quality Roofing replacement seals the deck and ring-shank-nails the cover for wind resistance.',
     ],
-    approachSubheadings: ['Storm Damage Assessment Protocol', 'Insurance Coordination Process', 'Full Weather Restoration'],
+    approachSubheadings: [
+      'Storm Documentation and the Adjuster Meeting',
+      'The Claim Process and Recoverable Depreciation',
+      'Tear-Off and Installation to Manufacturer Specification',
+    ],
     residential: {
-      heading: 'Residential Storm Damage Roof Replacement',
+      heading: 'Residential Services in Newark',
       content: [
-        'For homeowners throughout Newark, the Oranges, Bloomfield, Montclair, and surrounding Essex County communities, a severe storm that damages your roof creates an immediate crisis: water may be entering your home, your family\'s safety is compromised, and the path to resolution feels overwhelming. Our residential storm damage team is designed to relieve that burden by providing a single point of contact who manages every aspect of the situation from emergency tarping through completed replacement.',
-        'The emotional stress of storm damage is compounded by the practical complexities of the insurance process. You did not ask for this situation, and you should not have to become an expert in roofing systems and insurance claims to navigate it. We explain every step of the process in plain language, manage the paperwork and coordination, and keep you informed of progress without overwhelming you with technical details. Our goal is to restore your peace of mind as quickly as we restore your roof.',
-        'Material selection for storm damage replacement follows the same consultative process as any re-roofing project, and a storm replacement is actually an opportunity to upgrade to more storm-resistant materials. Impact-resistant shingles rated for higher wind speeds, architectural shingles with enhanced adhesive strips, and upgraded underlayment systems are options that not only improve your home\'s storm resistance but may also qualify for insurance premium discounts that offset their additional cost over time.',
-        'We also assess and document any interior damage caused by water intrusion through the compromised roof, including ceiling stains, wall damage, insulation contamination, and mold risk. While we do not perform interior restoration, this documentation supports the interior damage portion of your insurance claim and helps coordinate the timeline between roof replacement and interior repairs.'
+        '**Newark Quality Roofing replaces storm-damaged residential roofs across Essex County, re-roofing detached one- and two-family homes with timestamped insurance-claim documentation and no construction permit required for the roof covering.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit.',
+        'A Newark Quality Roofing storm replacement documents the wind and hail damage with photographs and a detailed scope for the insurance adjuster, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). The homeowner or a licensed public adjuster files and negotiates the claim, and the deductible is the homeowner\'s responsibility under the policy, which Newark Quality Roofing cannot legally waive or pay. A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per a Zillow resale analysis, and a Newark Quality Roofing crew runs a magnet sweep for nails before leaving the property.',
       ],
-      ctaLabel: 'Request Emergency Storm Assessment'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial Storm Damage Replacement',
+      heading: 'Commercial Solutions',
       content: [
-        'Commercial buildings face unique challenges during storm damage events because the damage affects not just the physical structure but business operations, tenant obligations, inventory protection, and revenue generation. A commercial roof damaged by a storm creates an operational emergency that requires coordinated response across emergency repairs, business continuity measures, insurance documentation, and permanent replacement planning. Our commercial storm damage team manages this coordination to minimize the operational and financial impact on your business.',
-        'Commercial storm damage assessment includes infrared moisture scanning to identify trapped moisture within the roof assembly that may not be visible from surface inspection alone. Storm-driven rain can penetrate membrane seams and fastener points, saturating insulation that will continue to cause problems long after the surface appears dry. Identifying and documenting this hidden damage is essential both for proper replacement scope determination and for insurance claim accuracy.',
-        'For multi-tenant commercial properties, storm damage replacement requires careful phasing and communication. We develop installation plans that maintain weather protection over occupied spaces, coordinate work schedules to minimize noise and disruption during business hours, and provide regular progress updates to property management for distribution to tenants. Our project management approach treats tenant satisfaction as a project requirement equal in importance to installation quality.'
+        '**Newark Quality Roofing replaces storm-damaged commercial low-slope roofs across Essex County, installing EPDM rubber, TPO, and modified-bitumen membrane systems to manufacturer specification with insurance-claim documentation.** EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and a low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per NRCA and ARMA.',
+        'A Newark Quality Roofing commercial storm replacement photographs the wind and hail damage and writes a detailed scope for the insurer, because wind and hail drive 40.7% of homeowners claims, the most common peril, per the Insurance Information Institute (Triple-I), and a commercial roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. The NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
       ],
-      ctaLabel: 'Request Commercial Storm Damage Assessment'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Emergency Response and Stabilization',
-        description: 'Our emergency team deploys to your property to install tarps, secure exposed areas, and stop active water intrusion. This immediate response prevents additional damage while the full scope of work is determined.'
-      },
-      {
-        title: 'Comprehensive Damage Assessment',
-        description: 'Detailed inspection documents every instance of storm damage including surface, structural, and hidden damage. Photographs, measurements, and damage pattern analysis create the evidence base for both scope determination and insurance claims.'
-      },
-      {
-        title: 'Insurance Claim Coordination',
-        description: 'We assist with claim filing, attend adjuster inspections, prepare detailed estimates in insurance-compatible format, and submit supplemental documentation to ensure your claim captures the full scope of storm damage.'
-      },
-      {
-        title: 'Material Selection and Scheduling',
-        description: 'Once the claim is approved, we help you select replacement materials including any storm-resistance upgrades, schedule the installation as quickly as material availability permits, and coordinate with any interior restoration contractors.'
-      },
-      {
-        title: 'Priority Replacement Installation',
-        description: 'Storm damage replacements receive priority scheduling. Our crews install your new roof system with full attention to quality while working efficiently to minimize the period your property remains vulnerable to additional weather events.'
-      },
-      {
-        title: 'Completion and Claim Closeout',
-        description: 'Final inspection, warranty registration, and all documentation required for insurance payment release are completed. We ensure the claim is properly closed and that you have all records for future reference.'
-      }
-    ],
-    faqs: [
-      {
-        question: 'How quickly can you respond to storm damage?',
-        answer: 'We provide emergency tarping and stabilization response within hours of your call during and immediately following storm events. During major storms that affect many properties simultaneously, we triage responses based on severity, prioritizing situations with active water intrusion and structural exposure. Full damage assessments are typically completed within one to three days of the storm event, and replacement installation begins as soon as the insurance claim is approved and materials are available.'
-      },
-      {
-        question: 'Should I make temporary repairs myself before you arrive?',
-        answer: 'If water is actively entering your building, placing buckets to collect water and moving valuables away from leak areas is appropriate and prudent. However, we recommend against climbing onto a storm-damaged roof yourself, as the structural integrity may be compromised and wet surfaces are extremely hazardous. If you can safely access your attic, placing a tarp over the source of a leak from the inside can be effective as a temporary measure until our emergency team arrives.'
-      },
-      {
-        question: 'How do you determine if storm damage requires replacement versus repair?',
-        answer: 'The decision is based on the extent and severity of the damage relative to the roof\'s remaining service life. If storm damage affects more than approximately 30 percent of the roof surface, if structural damage to decking or framing is present, if the damage has accelerated the aging of an already-old roof to the point where its remaining life is minimal, or if the damage pattern creates a situation where repairs would leave the roof with an uneven patchwork appearance and inconsistent performance, replacement is typically the better investment. We provide honest assessments and never recommend replacement when repair is sufficient.'
-      },
-      {
-        question: 'What if another storm hits before my roof is replaced?',
-        answer: 'Our emergency tarping and temporary repairs are designed to provide weather protection during the period between the storm event and permanent replacement. We monitor weather forecasts and reinforce temporary measures before approaching weather systems. If additional damage occurs from a subsequent storm before replacement, it is documented as additional damage to the existing claim or as a new claim depending on the timing and circumstances, and we adjust the replacement scope accordingly.'
-      },
-      {
-        question: 'Does insurance cover the full cost of a storm damage replacement?',
-        answer: 'If you have a Replacement Cost Value policy, your insurance should cover the full cost to replace the damaged roof with equivalent materials at current prices, minus your deductible. The key is ensuring that the claim accurately captures all damage and all legitimate replacement costs including code upgrades, overhead, and supplemental items. Our claims expertise is specifically focused on maximizing your recovery so that your deductible is your only out-of-pocket cost for covered damage.'
-      },
-      {
-        question: 'How much does storm damage roof replacement cost in Essex County, NJ?',
-        answer: 'Most storm damage roof replacement projects in Essex County range from $9,000–$28,000, often insurance-covered. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your storm damage replacement?',
-        answer: 'Essex County homeowners rate our **storm damage replacement** for *fast response and quality results*. Reviews highlight our insurance expertise and complete restoration from storm events.',
-      },
-      {
-        question: 'How experienced is your storm replacement team?',
-        answer: 'Our **storm damage replacement** crews have over 15 years of experience restoring roofs after severe weather. This expertise includes *insurance coordination, structural assessment, and premium material installation*.',
-      },
-    ],
-  
-    pricing: {
-      range: '$9,000–$28,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Storm Damage Roof Replacement',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
-
-  // ─── 6. Aging Roof Replacement ────────────────────────────────────────────
-  {
-    serviceId: 'aging-roof-replacement',
-    overview: [
-      '**Aging [roof replacement](/roof-replacement)** addresses the inevitable reality that every roofing system has a finite service life, and replacing your roof **proactive**ly when it reaches the end of that life is the most responsible and cost-effective approach to protecting your property. Unlike storm damage or emergency situations that force immediate action, an aging roof replacement is a planned capital improvement that allows you to choose the timing, materials, and contractor on your own terms rather than making rushed decisions under pressure. For property owners throughout Newark and **Essex County**, recognizing when your roof has transitioned from aging gracefully to actively deteriorating is the key to making this important investment at the optimal time, neither too early when the existing roof still has useful life remaining nor too late when damage from deferred replacement has already affected the building beneath.',
-      'Roofing materials age at rates determined by their composition, installation quality, ventilation conditions, maintenance history, and the severity of weather exposure they endure. In New Jersey\'s particularly demanding climate, where roofs experience freeze-thaw cycling through winter, intense UV radiation and heat during summer, driving rain from coastal storms, and occasional severe events from nor\'easters and hurricane remnants, even high-quality roofing materials reach end of life sooner than they might in more temperate regions. Standard three-tab asphalt shingles typically last 15 to 20 years in our area, architectural shingles 20 to 30 years, metal systems 30 to 50 years, and slate or tile 50 to 100 years, though actual lifespans vary considerably based on specific installation and maintenance conditions.',
-      'Newark Quality Roofing helps property owners evaluate their aging roof\'s condition, understand their replacement options, and plan the investment in a way that aligns with their financial situation and property goals. We do not pressure homeowners into premature replacement, and we are straightforward when targeted repairs can extend a roof\'s useful life by several more years. When replacement is genuinely the right decision, we provide the expertise, craftsmanship, and transparent pricing that turn a major investment into a positive experience with results that protect your property for decades to come.'
-    ],
-    signsHeading: 'Signs Your Aging Roof Needs Replacement',
-    signs: [
-      'The roof has reached or exceeded the typical lifespan for its material type in New Jersey conditions, and inspection reveals widespread material degradation rather than isolated damage from specific events.',
-      'Granule accumulation in gutters and at downspout discharge points has increased significantly, indicating that the asphalt shingles protective granule coating is eroding and exposing the asphalt layer beneath to accelerated UV degradation.',
-      'Shingles are curling at the edges or cupping in the center across broad areas of the roof, which indicates that the asphalt has lost its flexibility and can no longer expand and contract with temperature changes without distorting.',
-      'Multiple repairs have been needed over the past few years for different issues in different locations, creating a pattern of escalating maintenance costs that signals system-wide deterioration rather than isolated failures that repair can address.',
-      'The roof\'s appearance has become noticeably uneven, patchy, or discolored, with areas of different shingle colors from past repairs, moss and algae growth that cleaning cannot fully resolve, and an overall tired appearance that affects your property\'s curb appeal.',
-      'Energy bills for heating and cooling have been trending upward despite no changes in usage or equipment, suggesting that the aging roof assembly\'s insulation value and reflective properties have degraded to the point where they no longer effectively regulate heat transfer.',
-      'An inspection has revealed that underlayment beneath the shingles has deteriorated, fasteners are corroding, or flashing has reached end of life, indicating that the entire roof assembly, not just the surface material, needs comprehensive renewal.'
-    ],
-    approachHeading: 'Our Approach to Aging Roof Replacement',
-    approachContent: [
-      'Our approach to aging roof replacement is consultative and unhurried, reflecting the fact that this is a planned improvement rather than an emergency. We begin with a comprehensive inspection that assesses not just the roof surface but the entire assembly including underlayment condition estimated from exterior indicators and attic inspection, ventilation adequacy, flashing condition, and structural indicators. This assessment establishes a clear picture of where your roof stands in its lifecycle and how urgently replacement is needed.',
-      'Material consultation for aging roof replacement is especially valuable because you have the luxury of time to make thoughtful decisions about the next roof system. We present the full range of options appropriate for your building, from standard architectural shingles that deliver excellent value to premium designer shingles, metal roofing, and specialty materials that offer enhanced aesthetics and extended lifespans. For homeowners who plan to stay in their property long-term, investing in a higher-grade material can deliver significantly better lifetime value even though the initial cost is higher.',
-      'Project planning takes advantage of the flexibility that a non-emergency replacement provides. We can schedule your project during the optimal season for installation quality, coordinate with any other exterior improvements you are planning, and stage the work to minimize disruption to your daily routine. This flexibility also means you can plan your financing well in advance, compare options from multiple lenders, and budget for the investment without the financial pressure that emergency situations create.',
-      'We also use aging roof replacement as an opportunity to correct any deficiencies in the existing roof assembly that may have contributed to premature aging. Inadequate ventilation, insufficient insulation, poor drainage design, and flashing details that were never properly executed can all be addressed during a planned replacement, ensuring that your new roof performs to its full potential rather than being compromised by the same underlying issues that shortened the life of the old one.'
-    ],
-    approachSubheadings: ['End-of-Life Assessment', 'Proactive Replacement Planning', 'Modern Upgrade Options'],
-    residential: {
-      heading: 'Residential Aging Roof Replacement',
-      content: [
-        'For homeowners throughout Essex County, replacing an aging roof is one of the most impactful investments you can make in your home\'s protection, comfort, energy efficiency, and market value. The homes of our region span every era from pre-Civil War to contemporary construction, and each generation of building has its own typical roof age and replacement considerations. Whether your 1920s Tudor in Montclair has asbestos shingles that need modern replacement, your 1960s ranch in Nutley has original three-tab shingles well past their prime, or your 1990s colonial in Livingston is approaching the 25-year mark on its first roof, we have the experience to guide you through the replacement process.',
-        'The financial aspect of aging roof replacement deserves careful consideration. While the investment is significant, typically ranging from $10,000 to $25,000 for most residential roofs in our area depending on size, complexity, and material choice, it is also one of the highest-return home improvements you can make. Industry studies consistently show that a new roof recovers 60 to 70 percent of its cost in immediate resale value, and the actual value is often higher when you factor in prevented damage, energy savings, and the ability to sell your home without negotiating roof replacement concessions with buyers.',
-        'We encourage homeowners to view aging roof replacement as an upgrade opportunity rather than simply a maintenance necessity. Today\'s roofing materials offer dramatically better performance, aesthetics, and warranty coverage than what was available when most aging roofs in our area were originally installed. Enhanced wind resistance, impact resistance, algae resistance, reflective granules for energy efficiency, and architectural profiles that add dimension and beauty to your home are all standard features in modern roofing products that your aging roof does not have.',
-        'Financing options make aging roof replacement accessible even when the timing does not align perfectly with your savings plan. We partner with several lending institutions that offer home improvement loans with competitive rates and flexible terms, and some manufacturer programs offer zero-interest promotional periods that allow you to spread the investment over time without additional cost.'
-      ],
-      ctaLabel: 'Schedule Your Aging Roof Assessment'
-    },
-    commercial: {
-      heading: 'Commercial Aging Roof Replacement Planning',
-      content: [
-        'For commercial property owners and facility managers, aging roof replacement is a capital expenditure that benefits from *proactive planning* rather than reactive response. A commercial roof that has reached end of life will announce its condition through increasing maintenance calls, tenant complaints about leaks, rising energy costs, and the growing realization that repair spending is approaching the cost of replacement without delivering the long-term benefit that replacement provides. Our commercial team helps you recognize when this tipping point has arrived and plan the replacement to align with your capital budget cycle and business operations.',
-        'Commercial aging roof assessment includes infrared moisture scanning, core sampling to evaluate insulation condition, and structural analysis to determine whether the existing deck can support the planned replacement system or whether reinforcement is needed. These assessments inform the specification of the replacement system and identify any hidden conditions that could affect project scope and cost if discovered during installation rather than during planning.',
-        'We work with commercial property owners to develop replacement specifications that satisfy current energy code requirements, which have become significantly more stringent since most aging commercial roofs were installed. Meeting current insulation R-value requirements during replacement not only ensures code compliance but delivers energy cost reductions that can offset a meaningful portion of the replacement investment over time.',
-        'Phased replacement approaches allow commercial property owners to spread the capital investment over multiple budget years while systematically renewing the entire roof. We can develop multi-phase replacement plans that prioritize the most deteriorated sections, coordinate with planned tenant improvements or equipment replacement, and maintain building operations throughout the multi-year program.'
-      ],
-      ctaLabel: 'Request Commercial Roof Assessment'
-    },
-    processSteps: [
-      {
-        title: 'Comprehensive Aging Assessment',
-        description: 'Detailed inspection evaluates material condition, remaining service life, ventilation adequacy, structural indicators, and overall assembly health. We provide an honest assessment of whether replacement is needed now or can be deferred with targeted maintenance.'
-      },
-      {
-        title: 'Material and Budget Consultation',
-        description: 'We present appropriate material options for your building with clear comparisons of performance, aesthetics, lifespan, warranty, and cost. Our goal is helping you select the option that delivers the best value for your specific situation and plans.'
-      },
-      {
-        title: 'Project Design and Planning',
-        description: 'We address any assembly deficiencies such as ventilation or insulation upgrades, plan the project timeline around optimal weather and your schedule, and coordinate with any concurrent improvements you are planning.'
-      },
-      {
-        title: 'Professional Replacement Installation',
-        description: 'Complete removal of the aging system, deck inspection and repair, and installation of the new roof system by experienced crews following manufacturer specifications and our quality control standards.'
-      },
-      {
-        title: 'System Verification and Warranty',
-        description: 'Final inspection verifies every detail of the installation, manufacturer warranty is registered for maximum coverage, and maintenance guidelines are provided to maximize the lifespan of your new investment.'
-      },
-      {
-        title: 'Ongoing Maintenance Partnership',
-        description: 'We offer annual inspection and maintenance programs that protect your warranty, catch minor issues before they become problems, and ensure your new roof delivers its full expected service life.'
-      }
-    ],
-    faqs: [
-      {
-        question: 'How do I know if my roof is just aging or actually needs replacement?',
-        answer: 'The distinction between normal aging and replacement-level deterioration is a matter of degree. Normal aging includes some granule loss, minor color fading, and occasional maintenance needs that can be addressed with routine repairs. Replacement-level deterioration involves widespread curling or cupping, excessive granule loss exposing dark asphalt, multiple simultaneous problem areas, and escalating repair frequency and cost. Our free inspection provides a professional assessment that places your roof on the aging spectrum and recommends whether replacement is needed now, soon, or can be deferred with maintenance.'
-      },
-      {
-        question: 'Can I extend my aging roof\'s life instead of replacing it?',
-        answer: 'In some cases, yes. If your roof is aging but not yet at the failure point, targeted maintenance including sealing, spot repairs, improved ventilation, and regular cleaning can extend its useful life by several years. We are honest about when maintenance is a reasonable strategy and when it becomes throwing good money after bad. If we can help you get three to five more useful years from your current roof with reasonable maintenance, we will tell you so rather than pushing premature replacement.'
-      },
-      {
-        question: 'Is it better to replace an aging roof before or after selling my home?',
-        answer: 'Generally, replacing before selling yields better results because buyers see a new roof as a major positive that justifies a higher price and generates stronger offers. If you sell with an aging roof, buyers will either negotiate a price reduction equal to or greater than the replacement cost, or they will request replacement as a condition of sale, often using their own contractor whose quality you cannot control. Replacing before listing gives you control over material choice, contractor quality, and the narrative: your home has a brand new roof rather than a roof problem that needs solving.'
-      },
-      {
-        question: 'What should I budget for aging roof replacement in Essex County?',
-        answer: 'For most residential roofs in Essex County, budget $12,000 to $25,000 for a complete tear-off and replacement with architectural asphalt shingles. Factors that affect cost include roof size, slope steepness, number of penetrations and valleys, accessibility, deck repair needs, and the specific material selected. Premium materials like designer shingles, metal, or synthetic slate will cost more. We provide detailed, no-obligation estimates that break down every cost component so you can budget accurately.'
-      },
-      {
-        question: 'Does an aging roof replacement qualify for any tax benefits or rebates?',
-        answer: 'Certain energy-efficient roofing materials may qualify for federal tax credits under the Inflation Reduction Act, and some New Jersey utility programs offer rebates for reflective or cool roof installations that reduce energy consumption. Metal roofs and asphalt shingles with high solar reflectance ratings are the most common qualifying materials. We can identify which materials in your price range qualify for available incentives and provide the documentation needed to claim them.'
-      },
-      {
-        question: 'How much does aging roof replacement cost in Essex County, NJ?',
-        answer: 'Most aging roof replacement projects in Essex County range from $8,500–$25,000, replacing **end-of-life** roofing. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your aging roof replacement?',
-        answer: 'Homeowners praise our **aging roof replacement** for *proactive planning* that prevents costly emergency situations. Reviews highlight our honest assessment of remaining roof life.',
-      },
-      {
-        question: 'How experienced is your team with aging roof assessment?',
-        answer: 'Our **aging roof** specialists have over 15 years of experience evaluating roofs approaching end of life. This expertise provides *accurate lifespan estimates* so you can plan and budget ahead of failure.',
-      },
-    ],
-  
-    pricing: {
-      range: '$8,500–$25,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Aging Roof Replacement',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
-
-  // ─── 7. Roof Replacement After Leak ───────────────────────────────────────
-  {
-    serviceId: 'roof-replacement-after-leak',
-    overview: [
-      '[Roof replacement](/roof-replacement) after a leak becomes necessary when water intrusion has caused damage severe enough that repairs cannot reliably restore the roof\'s waterproofing integrity for a meaningful remaining service period. A single leak in an otherwise healthy roof can usually be repaired effectively, but when leaks recur, appear in multiple locations, or reveal underlying conditions such as widespread underlayment failure, extensive deck deterioration, or systemic flashing breakdown, replacement is the responsible path forward. For property owners throughout Newark and **Essex County**, a persistent or severe leak is more than an inconvenience; it is a signal that the roof system\'s waterproofing barrier has been fundamentally compromised and that every additional rainstorm risks further damage to your building\'s structure, insulation, electrical systems, and interior finishes.',
-      'The relationship between leaks and roof replacement is nuanced because not every leak means you need a new roof, and some roofs that need replacement have never visibly leaked. Our assessment focuses on understanding the root cause of the leak and the overall condition of the roof system to determine whether targeted repair will provide lasting resolution or whether the leak is a symptom of broader deterioration that warrants replacement. This honest evaluation prevents both the waste of repairing a roof that should be replaced and the unnecessary expense of replacing a roof that only needs localized repair.',
-      'Newark Quality Roofing approaches leak-driven replacement projects with special attention to the damage that water intrusion may have already caused beneath the visible roof surface. When a roof has been leaking, the damage is rarely limited to the area directly below the visible entry point. Water travels along rafters, sheathing, and other structural members, spreading damage over a much wider area than the ceiling stain or drip suggests. Our replacement process includes thorough investigation of water migration paths and repair of all affected structural and sheathing components, ensuring that the new roof is installed on a sound, dry substrate that will support its full expected service life.'
-    ],
-    signsHeading: 'When a Leak Means Replacement Is Needed',
-    signs: [
-      'The same area has leaked repeatedly despite multiple repair attempts, indicating that the underlying cause is systemic deterioration rather than a discrete, repairable defect that patching can resolve.',
-      'Leaks have appeared in multiple unrelated locations across the roof during a single rain event, suggesting widespread failure of the waterproofing membrane rather than a single point of compromise.',
-      'Removing ceiling material or accessing the attic reveals extensive water damage to sheathing and framing, including delaminated plywood, rotted boards, mold growth, and rusted fasteners that indicate long-term moisture exposure over a broad area.',
-      'The leak has persisted long enough to cause visible mold growth on interior surfaces, which creates a health hazard requiring not just roof repair but remediation of the affected interior areas and correction of the moisture source through comprehensive roof replacement.',
-      'Investigation of the leak source reveals that the underlayment beneath the shingles has deteriorated to the point where it no longer provides secondary waterproofing, meaning that any shingle displacement or wind-driven rain can penetrate directly to the deck.',
-      'The roof is at or near the end of its expected service life, and the leak is a manifestation of overall material aging rather than an isolated incident, making repair a temporary measure that delays but does not prevent the need for replacement.'
-    ],
-    approachHeading: 'Our Leak-Driven Replacement Approach',
-    approachContent: [
-      'Our approach to leak-driven replacement begins with detective work: tracing the water intrusion path from the visible interior evidence back to the actual point of entry on the roof surface. Water frequently enters at one location and travels a considerable distance before emerging at the ceiling level, and identifying the true entry point is essential for understanding the scope of the problem. We use a combination of exterior roof inspection, attic investigation, and systematic analysis of water stain patterns to map the intrusion pathways and determine the full extent of the compromised area.',
-      'Once the leak source and damage extent are established, we assess the overall roof condition to determine whether localized repair or full replacement is the better investment. If the leak area represents less than 15 to 20 percent of the roof surface and the remainder of the roof is in sound condition with significant remaining service life, repair may be appropriate. If the leak reflects broader deterioration, if the roof is at or near end of life, or if the water damage has compromised structural components over a wide area, replacement provides better long-term value and eliminates the risk of additional leaks in the near future.',
-      'The replacement process for leak-damaged roofs includes extra attention to deck restoration. We remove all damaged sheathing, replace it with new plywood or OSB, and allow any residual moisture in framing members to dry before installing the new underlayment and roofing material. In cases where mold has developed on structural components, we treat affected areas with antimicrobial solutions and verify that the wood is structurally sound before proceeding. This thorough remediation ensures that the moisture problem does not persist beneath your new roof.',
-      'We also address the contributing factors that may have allowed or worsened the leak, such as inadequate ventilation causing condensation, clogged gutters forcing water under the roof edge, improperly installed flashing at walls and penetrations, or ice dam conditions at the eaves. Correcting these underlying issues during replacement prevents the new roof from experiencing the same problems that damaged the old one.'
-    ],
-    approachSubheadings: ['When Repair Is No Longer Viable', 'Leak Damage Assessment', 'Permanent Water Damage Solution'],
-    residential: {
-      heading: 'Residential Leak-Driven Replacement',
-      content: [
-        'For homeowners, discovering a roof leak triggers understandable anxiety about the cost and scope of repairs, the safety of your family, and the integrity of your home. Our residential team provides clear, calm guidance through the assessment and decision-making process, explaining what we find, what it means, and what your options are in straightforward terms. We never use fear tactics or exaggerate the situation to push a sale; our reputation is built on honest assessments that homeowners can trust.',
-        'Interior damage from roof leaks is often the homeowner\'s most immediate concern, and we coordinate closely with interior restoration professionals when needed. We document all water damage pathways and affected areas as part of our assessment, which supports insurance claims if the leak was caused by a covered event and helps interior contractors understand the scope of restoration needed. Our roof replacement timeline is coordinated with interior work so that the source of water intrusion is eliminated before interior repairs are completed.',
-        'Many homeowners in Essex County\'s older housing stock discover that what they thought was a minor, occasional leak is actually the most visible symptom of a roof that has quietly deteriorated over years or decades. The advantage of this discovery, despite the stress it causes, is that addressing it through replacement prevents the far more expensive structural repairs that continued leaking would eventually require. We help homeowners understand the cost-benefit analysis clearly so the investment feels like what it truly is: protection of their home\'s value and their family\'s safety.',
-        'Emergency situations where an active leak threatens immediate interior damage receive priority response from our team. We provide tarping and temporary sealing to stop water intrusion while the full assessment and replacement plan is developed, ensuring that your home is protected from further damage throughout the process.'
-      ],
-      ctaLabel: 'Get Your Leak Assessment Today'
-    },
-    commercial: {
-      heading: 'Commercial Roof Replacement After Leak',
-      content: [
-        'Commercial building leaks create cascading consequences that extend far beyond the roof itself: damaged inventory, disrupted operations, tenant complaints, potential lease violations, liability exposure from slip-and-fall incidents, and insurance complications when water damage is not promptly addressed. Our commercial leak assessment evaluates not just the roof condition but the operational and financial impact of the intrusion, helping property owners and managers make replacement decisions informed by the full cost of the problem rather than just the visible symptoms.',
-        'For commercial properties, we utilize infrared scanning and electronic leak detection to pinpoint the exact location and extent of membrane compromise without destructive testing. These diagnostic tools identify moisture-laden insulation and membrane defects that are invisible to visual inspection, providing a complete picture of the waterproofing failure that guides replacement specification and scope. This precision prevents the costly surprise of discovering additional damage during installation that was not anticipated in the project budget.',
-        'Commercial leak-driven replacements are often complicated by the need to maintain building operations during the project. We develop phased installation plans that isolate the work area from occupied spaces, provide temporary waterproofing for areas that cannot be completed in a single work session, and coordinate with building management to schedule the most disruptive work phases during periods of lowest occupancy or impact.'
-      ],
-      ctaLabel: 'Schedule Commercial Leak Assessment'
-    },
-    processSteps: [
-      {
-        title: 'Leak Source Investigation',
-        description: 'We trace water intrusion from interior evidence to the actual roof entry point, mapping the complete water pathway and identifying all areas of damage from the exterior surface through the deck and into the building interior.'
-      },
-      {
-        title: 'Roof System Assessment',
-        description: 'Beyond the leak area, we evaluate the entire roof system\'s condition to determine whether repair or replacement is the better investment based on the roof\'s age, overall condition, and remaining service life potential.'
+        title: 'Storm Inspection and Damage Triage',
+        description:
+          'A Newark Quality Roofing technician inspects the roof, the flashing, and the attic after the storm, identifies wind-stripped and hail-bruised areas, and confirms whether the damage crosses the 25–30% area threshold that favors replacement over repair, per roofing industry guidance.',
       },
       {
         title: 'Damage Documentation',
-        description: 'All water damage is thoroughly photographed and documented for insurance purposes if applicable, and for coordination with interior restoration contractors who will address the interior consequences of the leak.'
+        description:
+          'A Newark Quality Roofing crew photographs the storm damage with timestamps and writes a detailed scope and estimate matching the insurer\'s line items, because wind and hail average a $14,747 homeowners claim, per the Insurance Information Institute (Triple-I, 2019–2023).',
       },
       {
-        title: 'Deck Remediation',
-        description: 'During replacement, all water-damaged sheathing and compromised structural members are replaced. Mold-affected areas are treated, and the deck is verified dry and structurally sound before new materials are installed.'
+        title: 'Adjuster Meeting and Scope',
+        description:
+          'A Newark Quality Roofing crew meets the assigned insurance adjuster on site to walk the storm damage and provide technical input, then prepares the documentation for a supplement if rotted decking or hidden damage appears at tear-off, per Insurance Information Institute claims-process guidance, while the homeowner or a licensed public adjuster files and negotiates the claim.',
       },
       {
-        title: 'Root Cause Correction',
-        description: 'Contributing factors such as inadequate ventilation, poor drainage, improper flashing, or ice dam conditions are corrected during the replacement to prevent recurrence of the same problems with the new roof system.'
+        title: 'Written Estimate and Material Selection',
+        description:
+          'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents the material options with the lifespan of each named, per the InterNACHI life-expectancy chart, before any work begins, with the deductible identified as the homeowner\'s responsibility under the policy.',
       },
       {
-        title: 'New Roof Installation and Verification',
-        description: 'The complete new roof system is installed with particular attention to waterproofing details at the areas where the previous system failed. Water testing verifies watertight performance before the project is considered complete.'
-      }
+        title: 'Permits and Material Ordering',
+        description:
+          'A Newark Quality Roofing crew files the construction permit when the job triggers one — a commercial roof, a structural change, or work beyond ordinary maintenance under N.J.A.C. 5:23-2.7 — and orders materials to arrive on the scheduled start date, per the NJ Uniform Construction Code.',
+      },
+      {
+        title: 'Tear-Off and Deck Repair',
+        description:
+          'A Newark Quality Roofing crew strips the storm-damaged roof to the bare deck, inspects every sheathing section, and replaces deteriorated plywood or OSB, with complete removal of the existing covering required by N.J.A.C. 5:23-6.4 when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers.',
+      },
+      {
+        title: 'Ice Barrier, Underlayment, and Cover Installation',
+        description:
+          'A Newark Quality Roofing crew installs the ice barrier at the eaves, applies synthetic underlayment across the deck, and installs the finish cover to manufacturer specification, sealing the deck and ring-shank-nailing the cover for wind resistance, the system that keeps the manufacturer warranty intact.',
+      },
+      {
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Owens Corning warranty guidance.',
+      },
     ],
     faqs: [
       {
-        question: 'My roof only leaks during heavy rain. Does it still need replacement?',
-        answer: 'A roof that leaks only during heavy rain may have a localized defect that repair can address, or it may have widespread marginal waterproofing that manages light rain but fails under heavier precipitation. The pattern and frequency of the leaks matter: a single spot that leaks during driving rain may be a flashing issue, while multiple areas that leak during any significant rain suggest broader deterioration. Our inspection determines which scenario applies to your roof and recommends the appropriate response.'
+        question: 'Should you repair or replace a storm-damaged roof?',
+        answer:
+          '**Replace a storm-damaged roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the storm damage stays localized on an asphalt roof under 10–15 years old.** The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.',
       },
       {
-        question: 'How much additional damage can a leak cause if I delay replacement?',
-        answer: 'Every leak event introduces moisture that causes cumulative damage. Wood framing and sheathing begin to rot, insulation loses effectiveness when wet, mold can develop within 48 hours of moisture exposure, and electrical components in the attic or ceiling space can be compromised. Structural repairs caused by prolonged leaking can cost thousands of dollars beyond the roof replacement itself. The most cost-effective approach is addressing the root cause promptly rather than managing the symptoms while damage accumulates.'
+        question: 'Does homeowners insurance cover storm damage roof replacement?',
+        answer:
+          '**Homeowners insurance covers roof replacement when a covered peril causes the damage — wind, hail, or a falling tree — and excludes replacement for normal wear, age, or deferred maintenance.** Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). Newark Quality Roofing documents the damage with timestamped photographs for the adjuster; coverage and approval are the insurer\'s decision.',
       },
       {
-        question: 'Will my homeowner\'s insurance cover a leak-related roof replacement?',
-        answer: 'Insurance coverage depends on the cause of the leak. If the leak resulted from a covered event such as storm damage, fallen tree, or hail, the replacement is typically covered. If the leak is caused by age-related deterioration, deferred maintenance, or gradual wear, most policies exclude the roof replacement itself, though they may cover resulting interior damage. We help you evaluate whether the leak circumstances support an insurance claim and assist with the claims process when coverage applies.'
+        question: 'Do you handle the insurance claim and negotiate with the adjuster?',
+        answer:
+          '**Newark Quality Roofing inspects the roof, photographs the damage, writes a detailed scope and estimate, and meets the assigned adjuster on site, because in New Jersey a licensed public adjuster or attorney negotiates or settles the claim.** The homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI, and Newark Quality Roofing performs the approved work to the agreed scope and to code.',
       },
       {
-        question: 'Can you repair the leak temporarily while I plan for replacement?',
-        answer: 'Yes, temporary leak mitigation is an important part of our service. We can apply emergency sealants, install tarps, or perform localized repairs that stop active water intrusion while you assess your options, arrange financing, or wait for optimal scheduling. These temporary measures are not **permanent solution**s, but they protect your property from additional damage during the planning and decision-making period.'
+        question: 'What is ACV versus RCV on a roof claim?',
+        answer:
+          '**Actual cash value (ACV) is the replacement cost minus depreciation for age and wear; replacement cost value (RCV) is the cost to replace with materials of like kind and quality without deducting depreciation, subject to policy limits.** Under a replacement-cost policy the insurer commonly pays first on an ACV basis minus the deductible, then releases the held recoverable depreciation as a second payment after the roof is completed and invoiced, per the National Association of Insurance Commissioners and the Insurance Information Institute.',
       },
       {
-        question: 'How do you ensure the new roof will not develop the same leak problems?',
-        answer: 'We approach every leak-driven replacement as a forensic project: understanding why the previous roof failed and specifically addressing those failure modes in the new installation. If the leak was caused by inadequate ventilation, we upgrade the ventilation system. If flashing details were poorly executed, we install premium flashing with enhanced weatherproofing. If ice dams were the culprit, we install extended ice and water shield and improve eave ventilation. This root-cause approach ensures that the new roof addresses the specific vulnerabilities that caused the previous system to fail.'
+        question: 'Do you waive or cover the deductible?',
+        answer:
+          '**The deductible is the policyholder\'s responsibility under the policy and is subtracted once from the covered loss, and Newark Quality Roofing cannot legally waive, absorb, or pay the deductible.** A deductible-waiver scheme is prosecutable under the NJ Consumer Fraud Act and the NJ Insurance Fraud Prevention Act, per NJ DOBI, so Newark Quality Roofing prices the replacement at a fixed amount independent of the settlement.',
       },
       {
-        question: 'How much does roof replacement after leak cost in Essex County, NJ?',
-        answer: 'Most **roof replacement after leak** projects in Essex County range from $8,500–$25,000, when repair is no longer viable. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your leak-related replacements?',
-        answer: 'Homeowners rate our **roof replacement after leak** for *solving chronic problems permanently*. Reviews highlight our thorough assessment that determines when replacement is the better investment over continued repairs.',
+        question: 'How much does storm damage roof replacement cost in Essex County, NJ?',
+        answer:
+          '**Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks.** NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing, and slate $10–$30, per NJ roofing guides. Newark Quality Roofing provides a free written estimate; the deductible remains the homeowner\'s responsibility under the policy.',
       },
       {
-        question: 'How experienced is your team with leak-related replacements?',
-        answer: 'Our **leak-related replacement** specialists have over 15 years of experience distinguishing repairable damage from roofs that need full replacement. This expertise saves homeowners from *endless repair cycles*.',
+        question: 'How does a FORTIFIED roof reduce storm claims?',
+        answer:
+          '**A FORTIFIED roof built to the IBHS standard is more than 70% less likely to file a claim, and damage runs 22% less severe, across more than 40,000 properties analyzed, per the IBHS.** A FORTIFIED roof seals the roof deck and uses ring-shank nails and a sealed-edge cover for wind uplift resistance, per the IBHS FORTIFIED standard.',
+      },
+      {
+        question: 'Does a percentage wind or named-storm deductible apply in New Jersey?',
+        answer:
+          '**Some New Jersey homeowners policies carry a percentage wind, hurricane, or named-storm deductible — a percent of the dwelling Coverage A limit, not a flat dollar — and whether any individual policy carries one is policy-specific.** This framing traces to the Insurance Information Institute and the National Association of Insurance Commissioners. The NJ Insurance Underwriting Association Hurricane Deductible Program applies a 2%, 3%, or 4% deductible triggered at sustained winds of 74 mph or higher, per the NJIUA.',
       },
     ],
-  
-    pricing: {
-      range: '$8,500–$25,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Roof Replacement After Leak',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$10,000–$25,000+ for most replacements',
+      factors: [
+        'A NJ roof replacement costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks.',
+        'Material drives the per-square-foot cost: NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing, and slate $10–$30, per NJ roofing guides.',
+        'A homeowners-insurance claim offsets the cost for a covered wind, hail, or tree-impact loss, the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023).',
+        'The deductible is the homeowner\'s responsibility under the policy and is subtracted once from the covered loss, per the Insurance Information Institute and the National Association of Insurance Commissioners.',
+        'Tear-off and deck repair add cost when the roof carries 2 or more existing layers or the sheathing is deteriorated, because N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof, per the NJ Rehabilitation Subcode.',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and identifies the deductible as the homeowner\'s responsibility under the policy; coverage and approval are the insurer\'s decision.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Storm Damage Roof Replacement?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor, and roofs to the agreed scope and to code rather than adjusting the claim.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Storm-Damage Documentation',
+          description:
+            'Newark Quality Roofing photographs storm damage with timestamps and writes a detailed scope matching the insurer\'s line items, because wind and hail average a $14,747 homeowners claim, per the Insurance Information Institute (Triple-I).',
+        },
+        {
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that assess wind and hail damage against the 25–30% area threshold and the InterNACHI life-expectancy chart before a replacement quote.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 8. Fire Damage Roof Replacement ──────────────────────────────────────
+  // ─── 6. Aging Roof Replacement ───
+  {
+    serviceId: 'aging-roof-replacement',
+    directAnswer:
+      '**Newark Quality Roofing replaces aging roofs across Newark and Essex County, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system before age-driven failure** as a New Jersey Home Improvement Contractor.',
+    overview: [
+      '**Newark Quality Roofing replaces 5 aging roof systems across Essex County: 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane** — for residential and commercial properties. Aging roof replacement strips a roof that has reached the end of its service life to the deck, repairs the sheathing, and installs a new underlayment-and-cover system before granule loss, curling, and brittle sealants admit water.',
+      'A roof reaches the end of service after a material-specific lifespan: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, wood and cedar 25 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and actual asphalt life varies up to 40% with climate, install, and maintenance, per the NRCA. Older homes report roof leakage at 5.5% against 3.5% for newer homes, roughly twice the rate, per US Census housing-survey data, so a Newark Quality Roofing aging roof replacement targets a roof past its design life before the leak rate climbs.',
+    ],
+    subServices: [
+      {
+        name: 'Aging asphalt shingle replacement',
+        description:
+          'Aging asphalt shingle replacement installs 3-tab or architectural shingles when granule loss, curling, and bald mat mark end of life, because 3-tab asphalt lasts 20 years and architectural 30 years, per the InterNACHI life-expectancy chart, and granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF.',
+      },
+      {
+        name: 'Aging metal roof replacement',
+        description:
+          'Aging metal roof replacement installs standing-seam or metal-shingle systems that last 40 to 80 years, with copper at 70-plus years, per the InterNACHI life-expectancy chart, when fastener loosening, cut-edge corrosion, and washer-seal failure end a metal roof\'s service life.',
+      },
+      {
+        name: 'Aging slate roof replacement',
+        description:
+          'Aging slate roof replacement installs natural slate that lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI chart and the National Slate Association, when corroded fasteners and degraded valley flashing, not the slate itself, end the roof\'s service life on the historic Essex County housing stock.',
+      },
+      {
+        name: 'Aging cedar and tile roof replacement',
+        description:
+          'Aging cedar and tile roof replacement installs cedar shake at 20 to 40 years and cedar shingle at 30 to 50 years, per the Cedar Shake & Shingle Bureau, and clay or concrete tile, with clay at 75 to 100-plus years and concrete at 40 to 75 years, per the Tile Roofing Industry Alliance.',
+      },
+      {
+        name: 'Aging low-slope membrane replacement',
+        description:
+          'Aging low-slope membrane replacement installs EPDM, TPO, or modified-bitumen systems that last 15 to 25, 7 to 20, and 20 years respectively, per the InterNACHI chart, when seam separation and membrane shrinkage end a commercial flat roof\'s service life.',
+      },
+    ],
+    signsHeading: 'Warning Signs Your Aging Roof Needs Replacement',
+    signs: [
+      '**A roof at or past its material lifespan** signals replacement, because 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and actual asphalt life varies up to 40% with climate and maintenance, per the NRCA.',
+      '**An asphalt roof past 20 years, or 15 on the coast,** crosses the contractor-consensus age rule that favors replacement, because a localized repair stays economical only while the roof holds under 10 to 15 years, per industry repair-vs-replace guidance.',
+      '**Granule loss with sandy grit in gutters and bald asphalt mat** indicates shingles nearing end of life, because granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair and 50% loss cuts remaining life by up to 70%, per GAF.',
+      '**Widespread curling, cupping, and buckling shingles** indicate advanced asphalt degradation from age, UV, and thermal cycling, per GAF and InterNACHI inspection guidance, where the asphalt has hardened across the full field rather than a single slope.',
+      '**Three or more repairs in 2 years** signals systemic age-driven failure rather than an isolated defect, the contractor-consensus 3-repairs rule that favors replacement, per industry repair-vs-replace guidance.',
+      '**A spongy or sagging roof deck** under an old roof indicates moisture-rotted sheathing from years of trapped water, a structural condition that points toward replacement rather than a surface patch, per GAF inspection guidance.',
+      '**Brittle, cracked flashing and failed sealant laps** across an aging roof admit water at the transitions, because sealant typically fails in 5 to 10 years and Essex County freeze-thaw cycling stresses the laps each winter, per trade flashing guidance.',
+      '**Daylight through the roof deck** seen from inside the attic on an old roof indicates holes in the decking and shingles, a sign that points toward replacement rather than a patch, per This Old House.',
+    ],
+    approachHeading: 'How We Replace an Aging Roof',
+    approachContent: [
+      '**Newark Quality Roofing contractors rate the aging roof against its material lifespan and the contractor-consensus age and 3-repairs rules before quoting a replacement, because a roof past its design life fails across the whole field rather than at one detail.** A roof reaches end of service after a material-specific lifespan: 3-tab asphalt at 20 years, architectural at 30, metal at 40 to 80, and slate at 60 to 150, per the InterNACHI life-expectancy chart, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA, so a Newark Quality Roofing assessment checks the ventilation that drove the premature aging. An asphalt roof past 20 years, or 15 on the coast, or carrying 3 or more repairs in 2 years, crosses the thresholds that favor replacement over continued spot repair, per industry repair-vs-replace guidance.',
+      '**Newark Quality Roofing matches the new roof system to the building and the Essex County climate from 5 material classes: 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane.** Material lifespan differs sharply: 3-tab asphalt lasts 20 years, architectural 30, metal 40 to 80, and slate 60 to 150, per the InterNACHI life-expectancy chart, and Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR), driving the freeze-thaw stress on sealants and fasteners that ages a roof. New Jersey temperatures have risen more than 3.5°F since the early 20th century, per the NOAA New Jersey State Climate Summary, raising the thermal-cycling load on a new roof. Newark Quality Roofing installs GAF, CertainTeed, and Owens Corning shingle systems and Firestone, Carlisle, and Johns Manville membrane systems.',
+      '**Newark Quality Roofing strips the aging roof to the deck, repairs the sheathing exposed at tear-off, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** A full tear-off exposes the deck for inspection and replacement of plywood or OSB rotted under the old roof, the work the NJ Rehabilitation Subcode requires when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. Installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
+    ],
+    approachSubheadings: [
+      'Lifespan and Age Assessment',
+      'Material Selection for the Essex County Climate',
+      'Tear-Off and Installation to Manufacturer Specification',
+    ],
+    residential: {
+      heading: 'Residential Aging Roof Replacement in Newark',
+      content: [
+        '**Newark Quality Roofing replaces aging residential roofs across Essex County, re-roofing detached one- and two-family homes at the end of the roof\'s service life with no construction permit required for the roof covering.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit.',
+        'A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis, so replacing an aging roof returns value at sale as well as ending the leak risk. A Newark Quality Roofing residential aging roof replacement installs an ice barrier at the eaves per the IRC R905.1.2 ice-barrier provision, replaces decking rotted under the old roof, and contains debris with ground tarps and a magnet sweep for nails before leaving the property across Newark, East Orange, Bloomfield, Montclair, Belleville, Irvington, and Glen Ridge.',
+      ],
+      ctaLabel: 'Get Home Estimate',
+    },
+    commercial: {
+      heading: 'Commercial Aging Roof Replacement',
+      content: [
+        '**Newark Quality Roofing replaces aging commercial low-slope roofs across Essex County, installing EPDM rubber, TPO, and modified-bitumen membrane systems to manufacturer specification when an old membrane reaches the end of its service life.** EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, and a low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per the NRCA and ARMA.',
+        'On a commercial building, an aging roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the aging roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
+      ],
+      ctaLabel: 'Get Commercial Quote',
+    },
+    processSteps: [
+      {
+        title: 'Lifespan and Condition Assessment',
+        description:
+          'A Newark Quality Roofing technician rates the aging roof against its material lifespan from the InterNACHI life-expectancy chart, checks the attic ventilation that drives premature aging, and applies the contractor-consensus age and 3-repairs rules before quoting the replacement.',
+      },
+      {
+        title: 'Written Estimate and Material Selection',
+        description:
+          'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents the material options from 5 classes — 3-tab asphalt, architectural asphalt, metal, slate, and membrane — with the lifespan of each named before any work begins, per Integrity Home Exteriors documentation guidance.',
+      },
+      {
+        title: 'Permits and Material Ordering',
+        description:
+          'A Newark Quality Roofing crew files the construction permit when the job triggers one — a commercial roof, a structural change, or work beyond ordinary maintenance under N.J.A.C. 5:23-2.7 — and orders materials to arrive on the scheduled start date, per the NJ Uniform Construction Code.',
+      },
+      {
+        title: 'Tear-Off and Deck Repair',
+        description:
+          'A Newark Quality Roofing crew strips the aging roof to the bare deck, inspects every sheathing section for rot from years of trapped moisture, and replaces deteriorated plywood or OSB, with complete removal of the existing covering required by N.J.A.C. 5:23-6.4 when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers.',
+      },
+      {
+        title: 'Ice Barrier, Underlayment, and Cover Installation',
+        description:
+          'A Newark Quality Roofing crew installs the ice barrier from the eave to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision, applies synthetic underlayment across the deck, and installs the finish cover to manufacturer specification, matching the system that keeps the manufacturer warranty intact.',
+      },
+      {
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Should you repair or replace your aging roof?',
+        answer:
+          '**Replace an aging roof when the roof passes its material lifespan, carries 3 or more repairs in 2 years, or shows widespread granule loss, curling, and a spongy deck; repair an asphalt roof under 10 to 15 years old.** The age rule and the 3-repairs rule are contractor-consensus thresholds, and a localized repair can cost 5 to 10 times less than replacement only while the roof stays young, per industry cost data.',
+      },
+      {
+        question: 'How long does each roofing material last before replacement?',
+        answer:
+          '**3-tab asphalt lasts 20 years, architectural asphalt 30 years, wood and cedar 25 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart.** Clay and concrete tile last 100-plus and 40 to 75 years per the Tile Roofing Industry Alliance, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
+      },
+      {
+        question: 'How much does aging roof replacement cost in Essex County, NJ?',
+        answer:
+          '**Aging roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the national 2025 average near $10,000–$11,000 per industry replacement benchmarks.** NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing. Newark Quality Roofing provides a free written estimate.',
+      },
+      {
+        question: 'Do you need a permit to replace an aging roof in Newark, NJ?',
+        answer:
+          '**A complete re-roof of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial roof or a structural change does require a permit.** The exemption covers the roof covering, not rafters, trusses, or ridge beams, per the NJ Uniform Construction Code.',
+      },
+      {
+        question: 'Why does a roof age faster in the New Jersey climate?',
+        answer:
+          '**Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, driving freeze-thaw stress on sealants, fasteners, and trapped moisture that ages a roof.** The January low traces to NOAA 1991–2020 normals at Newark Liberty (EWR), and New Jersey temperatures have risen more than 3.5°F since the early 20th century, per the NOAA New Jersey State Climate Summary.',
+      },
+      {
+        question: 'Which roofing material lasts the longest before replacement?',
+        answer:
+          '**Natural slate lasts the longest at 60–150 years, with premium slate commonly 100-plus years, followed by clay tile at 75–100-plus years, metal at 40–80 years, architectural asphalt at 30 years, and 3-tab asphalt at 20 years.** The lifespans trace to the InterNACHI life-expectancy chart, the National Slate Association, and the Tile Roofing Industry Alliance.',
+      },
+    ],
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$10,000–$25,000+ for most replacements',
+      factors: [
+        'An aging roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks.',
+        'Material drives the per-square-foot cost: NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing, and slate $10–$30, per NJ roofing guides.',
+        'Tear-off and deck repair add cost when the aging roof carries 2 or more existing layers or the sheathing rotted under the old covering, because N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof, per the NJ Rehabilitation Subcode.',
+        'Labor accounts for roughly 60–70% of an asphalt-install total, and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors.',
+        'A new asphalt roof recoups roughly 60–68% of project cost at resale, offsetting part of the replacement cost, per Zillow analysis.',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and discusses payment options at the estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Aging Roof Replacement?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that rate an aging roof against the InterNACHI life-expectancy chart and the contractor-consensus age and 3-repairs rules before a replacement quote.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
+
+  // ─── 7. Roof Replacement After Leak ───
+  {
+    serviceId: 'roof-replacement-after-leak',
+    directAnswer:
+      '**Newark Quality Roofing replaces a roof after a chronic leak across Newark and Essex County, stripping the failed roof to the deck, replacing rotted sheathing, and installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+    overview: [
+      '**Newark Quality Roofing replaces a roof after a chronic leak across Essex County for 4 conditions that exceed repair: 3 or more repairs in 2 years, a leak path across more than 25–30% of the roof, a moisture-rotted deck, and a repair quote near 50% of replacement cost** — on residential and commercial properties. Roof replacement after a leak ends a recurring leak by resetting the underlayment-and-cover system rather than patching the detail that admits water.',
+      'A leak enters at one detail and travels before showing as an interior stain, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A repair stops a single failed detail, while replacement after a leak addresses a roof past service life: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing replacement after a leak strips the roof to the deck so the rot a chronic leak leaves behind no longer hides under the cover.',
+    ],
+    subServices: [
+      {
+        name: 'Chronic-leak roof replacement',
+        description:
+          'Chronic-leak roof replacement ends a recurring leak after 3 or more repairs in 2 years signals a systemic failure rather than an isolated defect, the contractor-consensus 3-repairs rule that favors replacement, per WeatherShield repair-vs-replace guidance.',
+      },
+      {
+        name: 'Rotted-deck tear-off and replacement',
+        description:
+          'Rotted-deck tear-off and replacement strips the roof to the bare sheathing and replaces deteriorated plywood or OSB, because trapped moisture decays sheathing until it loses the ability to grip a roofing nail, per InterNACHI, and roofing nails penetrate at least ¾ inch into solid deck, per ARMA.',
+      },
+      {
+        name: 'Flashing-failure roof replacement',
+        description:
+          'Flashing-failure roof replacement rebuilds the transitions and the cover after recurring flashing leaks span the roof, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA.',
+      },
+      {
+        name: 'Low-slope membrane replacement after chronic leaks',
+        description:
+          'Low-slope membrane replacement after chronic leaks installs EPDM, TPO, or modified-bitumen systems on a commercial flat roof, because recurring leaks in the same spot indicate a systemic membrane failure that a patch does not resolve, per HomeAdvisor flat-roof guidance.',
+      },
+    ],
+    signsHeading: 'Warning Signs a Leak Calls for Replacement',
+    signs: [
+      '**Three or more roof repairs in 2 years** signals a systemic failure rather than an isolated leak, the contractor-consensus 3-repairs rule that favors replacement, per WeatherShield repair-vs-replace guidance.',
+      '**A leak path across more than 25–30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which full replacement costs less than continued spot repair, per roofing industry guidance.',
+      '**Daylight through the roof deck** seen from inside the attic indicates holes in the decking and shingles, a direct breach that points toward replacement rather than a patch, per InterNACHI and This Old House inspection guidance.',
+      '**Soft, spongy, or crumbling sheathing and delaminated plywood or swollen OSB edges** indicate a moisture-rotted deck from a prolonged leak, because saturated sheathing loses the ability to grip a roofing nail, per InterNACHI.',
+      '**A sagging ceiling or roofline** indicates sheathing decay from prolonged moisture and ranks as a structural priority, per GAF inspection guidance.',
+      '**Brown or yellow ceiling stains that return after each rainfall** indicate an active recurring leak, and a recurring stain marks ongoing moisture intrusion rather than a one-time event, per GAF and This Old House inspection guidance.',
+      '**A repair quote approaching 50% of replacement cost** crosses the contractor-consensus 50% rule, the point at which replacement returns more value than another repair, per roofing industry guidance.',
+      '**Recurring leaks in the same spot on a low-slope roof** indicate a systemic membrane failure regardless of the damaged percentage, the point a flat roof replaces rather than patches, per HomeAdvisor flat-roof guidance.',
+    ],
+    approachHeading: 'How We Handle Every Project',
+    approachContent: [
+      '**Newark Quality Roofing contractors trace the recurring leak to the root-cause detail and apply the repair-vs-replace thresholds before quoting a replacement, because a leak repeated across repairs signals a systemic failure rather than an isolated defect.** The 3-repairs rule favors replacement after 3 or more repairs in 2 years, the 25% rule after damage crosses 25–30% of the roof area, and the 50% rule when one repair approaches 50% of replacement cost, per WeatherShield and roofing industry repair-vs-replace guidance. A localized repair costs 5 to 10 times less than replacement only while the roof stays under 10 to 15 years old and the damage stays localized, per Home Depot and Kelly Roofing cost data, so a Newark Quality Roofing assessment quotes replacement when the leak recurs and the deck is compromised.',
+      '**Newark Quality Roofing strips the leaked roof to the bare deck and replaces the rotted sheathing a chronic leak leaves behind, because a recover hides deck rot rather than repairing it.** Trapped moisture from a prolonged leak decays sheathing until it loses the ability to grip a roofing nail, and roofing nails penetrate at least ¾ inch into solid deck, per InterNACHI and ARMA, so deteriorated plywood or OSB is replaced rather than roofed over. The IRC reroofing provisions prohibit installing a new covering over a water-soaked or deteriorated deck, per IRC Section R908, and the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, per N.J.A.C. 5:23-6.4.',
+      '**Newark Quality Roofing installs an ice barrier and synthetic underlayment over the repaired deck and installs the cover to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** The IRC ice-barrier provision requires a self-adhering ice barrier or 2 cemented underlayment layers from the eave to a point at least 24 inches inside the exterior wall line, per IRC Section R905.1.2, and ice-and-water shield self-seals around fasteners, per ASTM D1970. Installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
+    ],
+    approachSubheadings: [
+      'Repair-vs-Replace Diagnosis',
+      'Tear-Off and Rotted-Deck Replacement',
+      'Ice Barrier, Underlayment, and Cover Installation',
+    ],
+    residential: {
+      heading: 'Residential Services in Newark',
+      content: [
+        '**Newark Quality Roofing replaces a leaked residential roof across Essex County, re-roofing detached one- and two-family homes with no construction permit required for the roof covering.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rotted rafters or trusses still triggers a permit.',
+        'A Newark Quality Roofing residential replacement after a leak replaces the deteriorated decking exposed at tear-off, installs an ice barrier at the eaves per the IRC R905.1.2 ice-barrier provision, and contains debris with ground tarps and a magnet sweep for nails before leaving the property. A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per a Zillow resale analysis, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report. A storm-driven leak replacement documents the damage with timestamped photographs for the insurance adjuster, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute.',
+      ],
+      ctaLabel: 'Get Home Estimate',
+    },
+    commercial: {
+      heading: 'Commercial Solutions',
+      content: [
+        '**Newark Quality Roofing replaces a chronically leaking commercial low-slope roof across Essex County, installing EPDM rubber, TPO, or modified-bitumen membrane systems to manufacturer specification.** Recurring leaks in the same spot on a low-slope roof indicate a systemic membrane failure that a patch does not resolve, per HomeAdvisor flat-roof guidance, and EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart.',
+        'A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect that breaks down membrane seams, per the NRCA and ARMA. On a commercial building, a roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
+      ],
+      ctaLabel: 'Get Commercial Quote',
+    },
+    processSteps: [
+      {
+        title: 'Leak Diagnosis and Repair-vs-Replace Assessment',
+        description:
+          'A Newark Quality Roofing technician traces the recurring leak to the root-cause detail and applies the 3-repairs, 25%, and 50% thresholds, quoting replacement when the leak recurs across repairs or the deck is compromised, per WeatherShield and roofing industry repair-vs-replace guidance.',
+      },
+      {
+        title: 'Written Estimate and Material Selection',
+        description:
+          'A Newark Quality Roofing written estimate documents the leak damage with photographs and sets the scope, labor, materials, and timeline, presenting material options with the lifespan of each named against the InterNACHI life-expectancy chart before any work begins.',
+      },
+      {
+        title: 'Tear-Off and Rotted-Deck Replacement',
+        description:
+          'A Newark Quality Roofing crew strips the leaked roof to the bare deck, inspects every sheathing section, and replaces deteriorated plywood or OSB that no longer grips a nail, because IRC Section R908 prohibits a new covering over a water-soaked or deteriorated deck, per InterNACHI and ARMA.',
+      },
+      {
+        title: 'Ice Barrier, Underlayment, and Cover Installation',
+        description:
+          'A Newark Quality Roofing crew installs the ice barrier from the eave to a point at least 24 inches inside the exterior wall line per IRC Section R905.1.2, applies synthetic underlayment across the deck, and installs the finish cover to manufacturer specification, the sequence that keeps the manufacturer warranty intact.',
+      },
+      {
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies watertight execution against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Owens Corning warranty guidance.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Should you repair or replace your roof?',
+        answer:
+          '**Replace a roof when a leak recurs after 3 or more repairs in 2 years, when damage exceeds 25–30% of the roof, when the deck is moisture-rotted, or when one repair nears 50% of replacement cost; repair when the leak stays localized on an asphalt roof under 10–15 years.** The 3-repairs, 25%, and 50% rules are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than replacement, per WeatherShield and Home Depot cost data.',
+      },
+      {
+        question: 'Why does my roof keep leaking after repairs?',
+        answer:
+          '**A roof keeps leaking after repairs when the failure is systemic rather than an isolated detail, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA.** The 3-repairs rule favors replacement after 3 or more repairs in 2 years, per WeatherShield, and a prolonged leak rots the deck beneath the cover, per InterNACHI.',
+      },
+      {
+        question: 'Does a chronic leak damage the roof deck?',
+        answer:
+          '**A chronic leak rots the roof deck, producing daylight through the decking, soft or spongy sheathing, and delaminated plywood or swollen OSB edges, per InterNACHI.** Trapped moisture decays sheathing until it loses the ability to grip a roofing nail, and roofing nails penetrate at least ¾ inch into solid deck, per ARMA, so a rotted deck is replaced rather than roofed over.',
+      },
+      {
+        question: 'Can a new roof be installed over a leaked roof without a tear-off?',
+        answer:
+          '**A new covering cannot be installed over a water-soaked or deteriorated deck, per IRC Section R908, so a roof leaked long enough to rot the deck requires a full tear-off.** The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, per N.J.A.C. 5:23-6.4, and a recover hides deck rot a tear-off repairs, per InterNACHI.',
+      },
+      {
+        question: 'How much does roof replacement after a leak cost in Essex County, NJ?',
+        answer:
+          '**Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, with NJ architectural asphalt at $6.50–$11.00 per square foot**, per HomeAdvisor, Modernize, and Josten Roofing NJ cost data. Rotted-deck replacement adds cost when a prolonged leak deteriorates the sheathing, and re-decking runs $2 to $5 per square foot, per HomeGuide. Newark Quality Roofing provides a free written estimate.',
+      },
+      {
+        question: 'Does homeowners insurance cover roof replacement after a leak?',
+        answer:
+          '**Homeowners insurance covers roof replacement when a covered peril causes the damage — wind, hail, a falling tree, or fire — and excludes replacement for normal wear, age, or deferred maintenance, so a long-neglected chronic leak often falls outside coverage.** Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim near $14,747, per the Insurance Information Institute. Newark Quality Roofing documents the damage with timestamped photographs for the adjuster.',
+      },
+    ],
+    credentialsHighlight: [
+      'NJ HIC Licensed',
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$10,000–$25,000+ for most replacements',
+      factors: [
+        'A NJ roof replacement costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks.',
+        'Material drives the per-square-foot cost: NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing, and slate $10–$30, per NJ roofing guides.',
+        'Rotted-deck replacement adds cost when a prolonged leak deteriorates the sheathing, because re-decking runs $2 to $5 per square foot and N.J.A.C. 5:23-6.4 requires full removal of a water-soaked covering, per HomeGuide and the NJ Rehabilitation Subcode.',
+        'Labor accounts for roughly 60–70% of an asphalt-install total, and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors.',
+        'Roof complexity adds cost, because valleys, dormers, and hips increase both material and labor over a simple gable roof, per industry cost guidance.',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and discusses financing options at the estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Roof Replacement After Leak?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that trace a recurring leak to the source detail and assess the deck against the InterNACHI life-expectancy chart before a replacement quote.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
+
+  // ─── 8. Fire Damage Roof Replacement ───
   {
     serviceId: 'fire-damage-roof-replacement',
+    directAnswer:
+      '**Newark Quality Roofing replaces fire-damaged roofs across Newark and Essex County, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof** as a New Jersey Home Improvement Contractor.',
     overview: [
-      'Fire damage [roof replacement](/roof-replacement) is a specialized service that addresses the unique challenges of restoring a building\'s roofing system after fire has compromised its structural integrity, weather protection, and safety. Whether the fire originated within the building and burned through the roof from below, spread from an adjacent structure, or was caused by an external source such as a wildfire or lightning strike, the resulting damage requires expert assessment and reconstruction that goes far beyond standard roofing replacement. For property owners in Newark and **Essex County** who have experienced the devastating impact of fire on their property, Newark Quality Roofing provides the specialized expertise, **insurance claim**s knowledge, and project management capability to restore your roof system safely and completely.',
-      'Fire damage to roofing systems is fundamentally different from weather damage or age-related deterioration because fire compromises the structural capacity of framing members, alters the chemical properties of remaining materials, leaves residues that can affect adhesion of new materials, and often creates safety hazards from weakened structural components that may not be visually obvious. A roof that appears partially intact after a fire may have framing members whose load-bearing capacity has been reduced by heat exposure, sheathing that has been delaminated by thermal stress, and hidden pockets of char or combustion residue that present ongoing fire risk if not properly removed.',
-      'Our fire damage roof replacement service encompasses the full scope of work required: structural assessment by qualified professionals, removal of all fire-damaged materials including charred framing and heat-compromised sheathing, structural rebuilding to restore the roof frame to code-compliant condition, and installation of a complete new roofing system on the rebuilt structure. We work closely with fire restoration companies, structural engineers, and insurance adjusters to coordinate the roofing component of the overall fire restoration project, ensuring that the roof work integrates seamlessly with the building\'s complete recovery.'
+      '**Newark Quality Roofing replaces fire-damaged roofs across Essex County, addressing 4 fire-damaged assembly layers: the charred roof covering, the saturated and delaminated decking, the heat-weakened rafters and trusses, and the corroded metal connectors and fasteners** — for residential and commercial properties. Fire damage roof replacement removes the char layer, replaces compromised framing and decking, and rebuilds the roof to current code rather than recovering over fire-weakened material.',
+      'A roof is a structural assembly of covering, underlayment, decking, and framing, so fire, heat, smoke, and firefighting water damage span the whole assembly rather than the surface alone, per the U.S. Forest Products Laboratory. The American Wood Council uses a nominal char rate of 1.5 inches of wood per hour for structural fire design, and the char layer carries essentially zero residual structural capacity and is removed, per the American Wood Council. A Newark Quality Roofing fire damage roof replacement rebuilds to a structural assessment and the current code, and a roof covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant.',
     ],
-    signsHeading: 'Conditions Requiring Fire Damage Roof Replacement',
+    subServices: [
+      {
+        name: 'Charred covering and deck tear-off',
+        description:
+          'Charred covering and deck tear-off strips the burned roof covering and the heat-damaged decking to the framing, because a roof covering that is water-soaked or deteriorated is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1.',
+      },
+      {
+        name: 'Structural framing replacement to assessment',
+        description:
+          'Structural framing replacement to assessment removes charred and heat-weakened rafters and trusses and rebuilds to a licensed structural engineer\'s post-fire assessment, because the char layer carries essentially zero residual structural capacity and the heat-affected zone beneath retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council.',
+      },
+      {
+        name: 'Saturated decking and connector replacement',
+        description:
+          'Saturated decking and connector replacement replaces firefighting-water-saturated plywood or OSB sheathing and corroded metal truss plates and fasteners, because extinguishing water saturates decking, insulation, and framing and accelerates corrosion of metal components, per the U.S. Forest Products Laboratory and ANSI/IICRC S700.',
+      },
+      {
+        name: 'Class A fire-rated rebuild',
+        description:
+          'Class A fire-rated rebuild installs a roof covering rated under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant of the Class A, B, and C system ratings, per UL 790 and ASTM E108.',
+      },
+      {
+        name: 'Fire-claim documentation and adjuster coordination',
+        description:
+          'Fire-claim documentation and adjuster coordination photographs the fire, heat, and water damage, writes a detailed scope and estimate, and meets the insurer\'s adjuster on site, because fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I).',
+      },
+    ],
+    signsHeading: 'Signs Your Roof Needs Fire Damage Replacement',
     signs: [
-      'Fire has burned through the roof surface, creating openings that expose the building interior to weather. These areas require immediate emergency covering and eventual complete replacement of the affected sections and often the entire roof system.',
-      'Heat from a fire below the roof has caused visible deformation, discoloration, or melting of roofing materials even where flames did not directly penetrate, indicating that the thermal exposure has degraded the material properties of the roofing system beyond repair.',
-      'Structural framing members visible from the attic show charring, blackening, or heat discoloration that may indicate reduced load-bearing capacity even if the members are not visibly broken or sagging.',
-      'Smoke and combustion residues have permeated the roof assembly, creating persistent odor, staining, and potential health hazards from embedded toxins in insulation, underlayment, and structural wood that cannot be adequately cleaned in place.',
-      'A structural engineer or fire investigator has determined that roof framing components need replacement due to heat-reduced structural capacity, even in areas where the fire damage is not visually dramatic.',
-      'Insurance adjuster assessment has classified the roof as a total loss requiring complete replacement as part of the fire restoration scope, based on the extent of direct fire damage and heat exposure throughout the roof assembly.'
+      '**A charred or burned-through roof covering, decking, or framing** indicates the char layer carries essentially zero residual structural capacity and requires removal rather than a patch, per the U.S. Forest Products Laboratory and the American Wood Council.',
+      '**Heat-weakened rafters or trusses showing cross-section loss or deflection** indicate the heat-affected zone retains only roughly 85–90% of original strength, a condition a structural engineer evaluates before rebuild, per the U.S. Forest Products Laboratory.',
+      '**A spongy, delaminated, or sagging roof deck after firefighting** indicates firefighting water saturated and weakened the plywood or OSB sheathing, a collapse warning that signals replacement, per the U.S. Forest Products Laboratory.',
+      '**Corroded or loosened metal truss plates, fasteners, and connectors** indicate heat and char reduced truss-plate tooth embedment and steel strength, because structural-steel strength loss begins near 300°C, per the U.S. Forest Products Laboratory and the Steel Construction Institute.',
+      '**Melted neoprene washers or open leak paths on a metal roof** indicate heat melted the washers and created water entry through the panel, a sign of an affected assembly, per the U.S. Forest Products Laboratory.',
+      '**Smoke and soot residue with elevated corrosion on metal components** indicates acidic soot keeps damaging metals and electrical insulation, though smoke staining alone does not structurally weaken wood, per ANSI/IICRC S700 and the U.S. Forest Products Laboratory.',
+      '**Fire damage across more than 25–30% of the roof area** crosses the contractor-consensus repair-vs-replace threshold, above which full replacement costs less than continued spot repair, per roofing industry guidance.',
     ],
-    approachHeading: 'Our Fire Damage Restoration Process',
+    approachHeading: 'How We Handle Fire Damage Roof Replacement',
     approachContent: [
-      'Fire damage roof restoration begins with safety assessment and structural evaluation. Before any work begins on a fire-damaged roof, we coordinate with structural engineers to evaluate the load-bearing capacity of remaining framing members and determine which components must be replaced versus which can be retained. This assessment is essential for worker safety during the demolition phase and for establishing the scope of structural rebuilding required before new roofing can be installed.',
-      'Demolition and removal of fire-damaged materials is conducted with strict safety protocols including fall protection for weakened structures, respiratory protection from combustion residues, and systematic structural shoring to prevent collapse of compromised framing during removal. All fire-damaged roofing materials, charred sheathing, and structurally compromised framing are removed and disposed of in compliance with environmental regulations that may apply to fire debris containing treated wood, asbestos-containing materials in older buildings, or other regulated substances.',
-      'Structural rebuilding replaces all removed framing members with new lumber that meets current building code requirements, which may be more stringent than the original construction standards. This rebuilding phase brings the roof structure up to current code for load capacity, spacing, connections, and ventilation, which is both a safety requirement and an opportunity to improve the building\'s performance. The rebuilt structure is inspected and approved before any roofing materials are installed.',
-      'The new roofing system is installed on the rebuilt structure using materials and methods that comply with current fire resistance ratings and building code requirements. For buildings in areas where fire exposure is a concern, we recommend and install Class A fire-rated roofing materials that provide the highest level of fire resistance. The completed installation is documented for insurance claim processing and building department inspection sign-off.'
+      '**Newark Quality Roofing tears off the charred covering and decking to expose the framing, then rebuilds the heat-weakened rafters, trusses, and sheathing to a licensed structural engineer\'s post-fire assessment and current code.** A fire-damaged roof receives a formal post-fire structural assessment, often by a licensed structural engineer, before reconstruction, and charred, heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers. The American Wood Council uses a nominal char rate of 1.5 inches of wood per hour, and the char layer carries essentially zero residual structural capacity, so a Newark Quality Roofing tear-off removes charred material to sound wood, with a structural engineer setting the framing scope and Newark Quality Roofing performing the roofing to that assessment.',
+      '**Newark Quality Roofing rebuilds a Class A fire-rated roof from a roof covering classified under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant rating.** A roof covering qualifies as Class A, B, or C under UL 790 and ASTM E108 through a spread-of-flame test, an intermittent-flame test, and a burning-brand test, and Class A names the highest fire resistance, per UL 790 and ASTM E108. Untreated cedar shakes and shingles are non-classified on their own, fire-retardant-treated cedar reaches Class B or C, and a Class A wood-shake roof is achieved only as a tested assembly of treated shakes over a listed fire barrier, per the Cedar Shake & Shingle Bureau and InterNACHI, so a Newark Quality Roofing rebuild matches the covering and assembly to the Class A fire rating.',
+      '**Newark Quality Roofing documents the fire, heat, and water damage, writes a detailed scope and estimate, and meets the insurer\'s adjuster on site to walk the damage and perform the approved roofing.** Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so Newark Quality Roofing inspects and photographs the fire damage, prepares a written scope, and performs the approved replacement, while the homeowner or a licensed public adjuster files and negotiates the claim under the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I), and the homeowner\'s deductible stays the homeowner\'s responsibility under the policy.',
     ],
-    approachSubheadings: ['Fire Damage Structural Assessment', 'Insurance Coordination for Fire Claims', 'Complete Structural Restoration'],
+    approachSubheadings: [
+      'Tear-Off and Structural Rebuild to Assessment',
+      'Class A Fire-Rated Roof Rebuild',
+      'Honest Insurance Documentation and the Compliant Roofer Role',
+    ],
     residential: {
-      heading: 'Residential Fire Damage Roof Restoration',
+      heading: 'Residential Fire Damage Roof Replacement',
       content: [
-        'For families who have experienced a house fire, the roof replacement is one component of an overwhelming restoration process that touches every aspect of their home and daily life. Our residential fire damage team works within the broader restoration framework, coordinating with fire restoration general contractors, structural engineers, insurance adjusters, and building inspectors to ensure that the roof component proceeds smoothly without creating delays or conflicts with other restoration work streams.',
-        'We understand the emotional dimension of residential fire damage work and treat every fire restoration project with sensitivity and professionalism. Your home has been through a traumatic event, and the restoration process should move you toward recovery rather than adding stress. Our communication is clear, our timelines are realistic, and our work quality is uncompromising because we understand that restoring your family\'s sense of safety and normalcy depends on every component of the restoration being done right.',
-        'Fire damage insurance claims for residential properties typically cover the full cost of roof replacement to pre-loss condition, including structural repairs, new roofing materials, and code upgrade requirements. Our insurance documentation specifically addresses the roofing scope with the detail and format that expedites claim processing and ensures that all legitimate costs are captured in the claim rather than becoming out-of-pocket expenses for the homeowner.',
-        'The timeline for residential fire damage roof replacement varies significantly depending on the extent of structural damage and the coordination required with other restoration work. Simple cases where the fire affected a limited area may be completed in one to two weeks, while extensive fire damage requiring complete structural rebuilding may take several weeks for the roofing phase alone. We provide realistic timeline estimates and update them as the project progresses.'
+        '**Newark Quality Roofing replaces fire-damaged residential roofs across Essex County, tearing off the charred covering and deck on detached one- and two-family homes, replacing heat-weakened framing to a structural engineer\'s assessment, and rebuilding a Class A fire-rated roof.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit for the covering, per the NJ Uniform Construction Code, while replacing charred rafters or trusses is a structural change that triggers a permit.',
+        'A Newark Quality Roofing fire rebuild removes the char to sound wood, replaces firefighting-water-saturated decking, and rebuilds to current code rather than recovering over fire-weakened material, because a water-soaked or deteriorated deck is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing crew documents the fire, heat, and water damage with timestamped photographs and a detailed scope for the insurance adjuster, because fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I), and the homeowner or a licensed public adjuster files and negotiates the claim.',
       ],
-      ctaLabel: 'Request Fire Damage Roof Assessment'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
       heading: 'Commercial Fire Damage Roof Replacement',
       content: [
-        'Commercial fire damage roof replacement involves larger-scale structural assessment, more complex insurance claims, and greater urgency around business interruption costs that mount for every day the building remains unusable. Our commercial fire damage team brings the project management discipline and technical expertise that commercial fire restoration demands, coordinating with multiple stakeholders including property owners, insurance representatives, structural engineers, fire investigators, and building code officials.',
-        'For commercial buildings, the roof replacement must meet current commercial building code requirements including fire-resistance ratings, structural load specifications, energy code compliance, and wind uplift ratings that may be significantly more stringent than the standards in effect when the building was originally constructed. We work with structural engineers and code consultants to ensure that the replacement design meets all current requirements, which is both a legal obligation and an opportunity to improve the building\'s safety and performance.',
-        'Business interruption considerations drive the urgency and scheduling of commercial fire damage roof work. We develop accelerated project schedules that minimize the time required for the roofing phase, coordinate with other restoration trades to identify parallel work opportunities, and maintain flexibility to adjust our schedule as the overall restoration timeline evolves. Our goal is to remove the roof from the critical path of the building\'s return to operation.',
-        'For Essex County commercial properties, fire damage roof replacement must also address local code enforcement requirements that may have changed since the original construction. Newark\'s building department and surrounding municipalities often require upgraded fire-resistance ratings, enhanced structural connections, and modern wind uplift specifications when substantial roof work triggers code compliance review. Our familiarity with Essex County municipal permitting processes and inspector expectations helps expedite approvals and avoid delays that extend business interruption periods.'
+        '**Newark Quality Roofing replaces fire-damaged commercial roofs across Essex County, tearing off charred low-slope membrane and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated EPDM, TPO, or modified-bitumen system.** EPDM lasts 15–25 years, TPO 7–20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and a Class A roof covering rates highest under the UL 790 and ASTM E108 fire-test methods.',
+        'On a commercial building, a fire-damage roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. A Newark Quality Roofing commercial fire rebuild replaces saturated decking and corroded connectors, because firefighting water saturates decking, insulation, and framing and accelerates corrosion of metal components, per the U.S. Forest Products Laboratory and ANSI/IICRC S700, and Newark Quality Roofing documents the damage and meets the adjuster on site while the policyholder or a licensed public adjuster handles the claim.',
       ],
-      ctaLabel: 'Request Commercial Fire Damage Assessment'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Safety Assessment and Structural Engineering',
-        description: 'Before any work begins, structural engineers evaluate the remaining roof structure to identify load-bearing capacity, safety hazards, and the scope of structural replacement required.'
+        title: 'Post-Fire Structural Assessment',
+        description:
+          'A licensed structural engineer assesses the fire-damaged roof assembly before reconstruction, because charred and heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, and the rebuild meets current code, per the U.S. Forest Products Laboratory and EDT Engineers.',
       },
       {
-        title: 'Fire-Damaged Material Removal',
-        description: 'All charred, heat-compromised, and smoke-permeated roofing materials and structural components are safely removed with proper shoring, fall protection, and environmental compliance protocols.'
+        title: 'Damage Documentation for the Claim',
+        description:
+          'A Newark Quality Roofing crew photographs the fire, heat, smoke, and firefighting-water damage and writes a detailed scope and estimate for the insurance adjuster, because fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I).',
       },
       {
-        title: 'Structural Rebuilding',
-        description: 'New framing members replace all structurally compromised components, bringing the roof structure up to current building code requirements. The rebuilt structure is inspected before roofing proceeds.'
+        title: 'Charred Covering and Deck Tear-Off',
+        description:
+          'A Newark Quality Roofing crew strips the charred roof covering and the saturated decking to the framing, because a water-soaked or deteriorated covering is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1.',
       },
       {
-        title: 'Code-Compliant Roof Installation',
-        description: 'A complete new roofing system with fire-rated materials is installed on the rebuilt structure, meeting all current building code requirements for fire resistance, wind uplift, and energy performance.'
+        title: 'Framing and Decking Replacement',
+        description:
+          'A Newark Quality Roofing crew replaces the charred and heat-weakened rafters, trusses, and sheathing to the structural engineer\'s assessment, removing the char layer that carries essentially zero residual structural capacity, per the American Wood Council and the U.S. Forest Products Laboratory.',
       },
       {
-        title: 'Insurance Documentation and Inspections',
-        description: 'Detailed documentation of all work performed supports insurance claim processing. Building department inspections verify code compliance for the structural and roofing work.'
+        title: 'Class A Fire-Rated Cover Installation',
+        description:
+          'A Newark Quality Roofing crew installs the underlayment and a Class A fire-rated roof covering to manufacturer specification, classified under the UL 790 and ASTM E108 fire-test methods, the rating that keeps the manufacturer system warranty intact.',
       },
       {
-        title: 'Project Coordination and Handoff',
-        description: 'We coordinate with other restoration contractors to ensure smooth transitions between work phases and provide all documentation needed for the overall restoration project record.'
-      }
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies the rebuild against the structural assessment and manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty.',
+      },
     ],
     faqs: [
       {
-        question: 'How soon after a fire can roof replacement begin?',
-        answer: 'Roof replacement cannot begin until the fire department has released the property, the fire investigation is complete, the building is deemed safe for construction work, and structural engineering assessment has been conducted. These prerequisites typically take one to three weeks after the fire event. During this period, we install emergency weatherproofing to protect the building from rain and further damage. Once clearances are obtained, we mobilize quickly to begin the restoration process.'
+        question: 'Should you repair or replace a fire-damaged roof?',
+        answer:
+          '**Replace a fire-damaged roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair a roof only when fire damage stays surface-localized on sound framing.** The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25–30% area rule favors full replacement, per roofing industry guidance.',
       },
       {
-        question: 'Will my insurance cover the full cost of fire damage roof replacement?',
-        answer: 'Most property insurance policies provide comprehensive coverage for fire damage restoration, including structural repairs, new roofing materials, code upgrades required by current building standards, and associated costs such as debris removal and temporary weatherproofing. Coverage limits and policy terms vary, so we work closely with your insurance adjuster to ensure that the roof scope is fully and accurately documented within your policy\'s coverage framework.'
+        question: 'Does homeowners insurance cover fire damage roof replacement?',
+        answer:
+          '**Homeowners insurance covers fire damage roof replacement when fire causes the loss, a covered peril, and the deductible stays the homeowner\'s responsibility under the policy.** Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I), and coverage and approval are the insurer\'s decision.',
       },
       {
-        question: 'Can any part of the existing roof be salvaged after a fire?',
-        answer: 'In some cases, yes. If the fire affected only a portion of the roof and the remaining areas were not exposed to significant heat, those areas may be retainable. However, heat travels through structural members and can compromise materials that appear undamaged visually. Structural engineering assessment determines which components are safe to retain and which must be replaced. We always err on the side of safety, and we recommend replacement of any component whose structural integrity is questionable.'
+        question: 'Does Newark Quality Roofing handle the fire insurance claim?',
+        answer:
+          '**Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so Newark Quality Roofing inspects and photographs the fire damage, writes a detailed scope and estimate, meets the adjuster on site, and performs the approved roofing.** In New Jersey, only a licensed public adjuster or an attorney negotiates or settles the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, so the homeowner or a public adjuster files and negotiates the claim.',
       },
       {
-        question: 'Do I need to hire a general contractor for fire restoration, or can you handle the roof independently?',
-        answer: 'For significant fire damage that affects multiple building systems beyond the roof, a general contractor or fire restoration specialist typically manages the overall project, and we serve as the roofing subcontractor within that framework. For fires that primarily affected the roof with minimal damage to the building below, we can manage the roof replacement as a standalone project and coordinate directly with your insurance company. We help you determine which approach is appropriate based on the scope of damage.'
+        question: 'What fire rating does a replacement roof carry?',
+        answer:
+          '**A replacement roof covering carries a Class A, B, or C fire rating under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant.** Untreated cedar is non-classified on its own, fire-retardant-treated cedar reaches Class B or C, and a Class A wood-shake roof is achieved only as a tested assembly, per the Cedar Shake & Shingle Bureau and InterNACHI.',
       },
       {
-        question: 'What fire-resistant roofing options do you recommend for replacement?',
-        answer: 'We recommend Class A fire-rated roofing materials, which provide the highest level of fire resistance available. Options include most asphalt shingles (which achieve Class A rating with proper underlayment), metal roofing panels and shingles, concrete and clay tile, and slate. The specific recommendation depends on your building\'s architectural style, structural capacity, budget, and the fire exposure conditions in your area. Metal roofing is often an excellent choice for fire restoration because it combines non-combustible construction with excellent durability and aesthetic options.'
+        question: 'Can a fire-damaged roof be recovered over instead of torn off?',
+        answer:
+          '**A fire-damaged roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering.** N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1 require removal of the existing covering when the deck is water-soaked or deteriorated, the condition firefighting water and char create.',
       },
       {
         question: 'How much does fire damage roof replacement cost in Essex County, NJ?',
-        answer: 'Most fire damage roof replacement projects in Essex County range from $12,000–$35,000, including structural repair. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your fire damage work?',
-        answer: 'Property owners praise our **fire damage roof replacement** for *compassionate, professional service*. Reviews highlight our thorough structural assessment and insurance coordination during a difficult time.',
+        answer:
+          '**A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage roof replacement adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data.** NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per Josten Roofing and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate.',
       },
       {
-        question: 'How experienced is your fire restoration team?',
-        answer: 'Our **fire damage** restoration team has over 15 years of experience working with fire-damaged structures. This expertise includes *structural assessment, insurance coordination, and comprehensive restoration*.',
+        question: 'Does smoke damage weaken a roof structurally?',
+        answer:
+          '**Smoke and soot staining alone does not structurally weaken wood, though acidic soot keeps corroding metal connectors and electrical components and is removed from members kept in service.** The structural concern is the char layer and the heat-affected zone, which carry reduced capacity, plus corrosion of metal connectors, per the U.S. Forest Products Laboratory and ANSI/IICRC S700.',
       },
     ],
-  
-    pricing: {
-      range: '$12,000–$35,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Fire Damage Roof Replacement',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$12,000–$35,000+ including structural repair',
+      factors: [
+        'A NJ roof replacement costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks, before structural framing and decking replacement.',
+        'Structural framing and decking replacement adds cost on a fire-damaged roof, because charred rafters, trusses, and sheathing are replaced to a structural assessment rather than roofed over, per the U.S. Forest Products Laboratory.',
+        'Material drives the per-square-foot cost: NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing, and slate $10–$30, per NJ roofing guides.',
+        'NJ ranges sit 10–40% above national figures, because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per Josten Roofing and Integrity Home Exteriors.',
+        'Insurance documentation, scope preparation, and adjuster coordination are part of a Newark Quality Roofing fire scope, and a fire claim covers a covered-peril loss minus the homeowner\'s deductible, per the Insurance Information Institute (Triple-I).',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and reviews payment and financing options at the estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Fire Damage Roof Replacement?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Structural Rebuild to Assessment',
+          description:
+            'Newark Quality Roofing rebuilds the framing and decking to a licensed structural engineer\'s post-fire assessment and current code, removing the char layer that carries essentially zero residual structural capacity, per the U.S. Forest Products Laboratory.',
+        },
+        {
+          title: 'Class A Fire-Rated Rebuild',
+          description:
+            'Newark Quality Roofing installs a Class A fire-rated roof covering, the most fire-resistant rating under the UL 790 and ASTM E108 fire-test methods.',
+        },
+        {
+          title: 'Honest Insurance Documentation',
+          description:
+            'Newark Quality Roofing inspects, photographs, and documents the fire damage and meets the adjuster on site as a roofing contractor, while the homeowner or a licensed public adjuster files and negotiates the claim under N.J.S.A. 17:22B.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 9. Roof Replacement Cost ─────────────────────────────────────────────
+// ─── 9. Roof Replacement Cost ───
   {
     serviceId: 'roof-replacement-cost',
+    directAnswer:
+      '**Newark Quality Roofing replaces residential and commercial roofs across Newark and Essex County, with a New Jersey replacement costing $10,000–$25,000 for a typical home** as a New Jersey Home Improvement Contractor, per HomeAdvisor and Modernize NJ cost data.',
     overview: [
-      'Understanding **roof replacement cost** is one of the most important steps in making an informed decision about this significant property investment. The cost of replacing a roof in the Newark and **Essex County** area varies considerably based on numerous factors including roof size, slope, complexity, material selection, existing condition, and local market conditions. Property owners who educate themselves about cost factors, pricing structures, and value considerations are better positioned to evaluate contractor estimates, avoid overpaying or underpaying for quality, and budget appropriately for an investment that protects their property for decades. Newark Quality Roofing is committed to pricing transparency because we believe that informed customers make better decisions and have better experiences throughout the replacement process.',
-      '[Roof replacement](/roof-replacement) pricing in New Jersey reflects the state\'s higher-than-national-average construction costs driven by licensing requirements, insurance and workers compensation costs, disposal regulations, and the skilled labor market in the metropolitan area. These factors mean that legitimate, properly insured roofing contractors in our area charge more than what national averages or online cost calculators might suggest, and estimates that seem dramatically lower than competitors often indicate corners being cut in insurance coverage, labor quality, material specifications, or proper waste disposal. Understanding why costs are what they are helps you recognize both fair pricing and red-flag low estimates that may signal problems.',
-      'Our approach to roof replacement pricing is detailed, transparent, and tailored to each specific project rather than based on generic per-square-foot estimates. We provide itemized proposals that break down material costs, labor, waste disposal, permits, and any additional work such as deck repairs or ventilation upgrades. This line-item approach allows you to see exactly what you are paying for, compare proposals meaningfully against other contractors, and make informed decisions about material upgrades or scope adjustments that affect the total investment.'
+      '**Newark Quality Roofing prices a roof replacement across Essex County from 7 cost drivers: roof size in squares, pitch and complexity, material choice, existing layers and tear-off, decking repair, flashing and ventilation, and NJ labor and code** — for residential and commercial properties. A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per 2025 replacement benchmarks.',
+      'NJ replacement ranges sit 10–40% above national figures, because higher labor, stricter NJ code, and an older housing stock often needing extra decking work raise the cost, per Josten Roofing NJ pricing. Material choice drives the per-square-foot cost most, from asphalt shingle at $5.50–$9.50 per square foot, per Josten Roofing NJ pricing, to slate at $10–$30, per NJ roofing guides, so a Newark Quality Roofing free written estimate prices the building, the material, and the Essex County code path before tear-off.',
     ],
-    signsHeading: 'Factors That Determine Your Roof Replacement Cost',
+    subServices: [
+      {
+        name: 'Asphalt shingle replacement cost',
+        description:
+          'Asphalt shingle replacement costs $5.50–$9.50 per square foot for 3-tab and $6.50–$11.00 for architectural in New Jersey, the material on roughly 73% of US residential roofs per 2024 roofing-market data, per Josten Roofing NJ pricing.',
+      },
+      {
+        name: 'Metal roof replacement cost',
+        description:
+          'Metal roof replacement costs $9.00–$16.00+ per square foot in New Jersey, near $1,130 per roofing square, on standing-seam systems that last 40 to 80 years, per Josten Roofing NJ pricing and the InterNACHI life-expectancy chart.',
+      },
+      {
+        name: 'Slate and premium replacement cost',
+        description:
+          'Slate roof replacement costs $10–$30 per square foot, near $1,500 per roofing square, and premium cedar and tile run $10–$20+, on systems that last 60 to 150 years, per NJ roofing guides and the InterNACHI life-expectancy chart.',
+      },
+      {
+        name: 'Commercial low-slope membrane cost',
+        description:
+          'Commercial low-slope membrane replacement costs $7.00–$10.00 per square foot for EPDM and $8.00–$12.00 for TPO in New Jersey, on systems that last 15 to 25 and 7 to 20 years, per Josten Roofing NJ pricing and the InterNACHI life-expectancy chart.',
+      },
+      {
+        name: 'Tear-off and disposal cost',
+        description:
+          'Tear-off and disposal add $1–$3 per square foot for asphalt removal and $2–$5 for slate or tile, the labor and dumpster cost an overlay avoids, per HomeGuide national cost data, and a multi-layer or water-soaked roof requires full removal under N.J.A.C. 5:23-6.4.',
+      },
+    ],
+    signsHeading: 'Signs a Roof Replacement Cost Estimate Fits Your Roof',
     signs: [
-      'Roof size measured in roofing squares (one square equals 100 square feet) is the primary cost driver. A larger roof requires more material and more labor hours, creating a direct relationship between square footage and total cost that forms the baseline for every estimate.',
-      'Roof slope and complexity significantly affect labor costs because steeper roofs require safety equipment, slower work pace, and specialized techniques, while complex rooflines with multiple valleys, dormers, and penetrations require more cutting, fitting, and flashing work than simple roof planes.',
-      'Material selection creates the widest range of cost variation. Standard three-tab asphalt shingles cost significantly less than architectural shingles, which cost less than designer or luxury shingles, which cost less than metal, which costs less than slate or tile, with each step up delivering proportional improvements in aesthetics, durability, and service life.',
-      'Existing roof condition affects cost through deck repair requirements. A roof with sound sheathing will cost less to replace than one with extensive rot, water damage, or structural deterioration that requires new sheathing and potentially framing repairs before new materials can be installed.',
-      'Tear-off requirements add cost when existing layers must be removed before new installation. A single-layer tear-off is less expensive than a multi-layer tear-off, and an overlay installation that avoids tear-off entirely is the least expensive approach where conditions permit.',
-      'Code upgrades may be required during replacement if the existing roof does not meet current building code standards for ice and water shield, ventilation, or other components. These upgrades add cost but also add genuine value and performance improvement to the new installation.',
-      'Accessibility and logistics affect cost when the roof is difficult to reach, when material staging areas are limited, when the property is on a steep lot, or when job site conditions require additional safety measures or manual material handling.'
+      '**A roof at or past its material lifespan** signals a replacement-cost estimate rather than a repair quote, because 3-tab asphalt lasts 20 years, architectural asphalt 30 years, and actual life varies up to 40% with climate, per the InterNACHI life-expectancy chart and the NRCA.',
+      '**Damage across more than 25–30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which a full replacement costs less than continued spot repair, per roofing industry guidance.',
+      '**A repair quote approaching 50% of replacement cost** crosses the contractor-consensus 50% rule, the point at which a replacement returns more value than a repair, per roofing industry guidance, and a localized repair costs 5 to 10 times less than a replacement only while the roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data.',
+      '**Two or more existing roof layers** raise the replacement cost, because N.J.A.C. 5:23-6.4 requires full removal of a multi-layer roof and a future re-roof over 2 layers removes both at a higher cost, per the NJ Rehabilitation Subcode and Angi national cost data.',
+      '**A spongy or sagging roof deck** adds decking repair to the replacement cost, because a tear-off exposes the sheathing and replaces deteriorated plywood or OSB, a structural condition that points toward replacement, per GAF inspection guidance.',
+      '**Three or more repairs in 2 years** signals a systemic failure that favors a replacement-cost estimate over another repair, the contractor-consensus 3-repairs rule, per roofing industry guidance.',
     ],
-    approachHeading: 'How We Price Roof Replacement Projects',
+    approachHeading: 'How We Price a Roof Replacement',
     approachContent: [
-      'Our pricing process begins with an on-site visit where we measure the roof using satellite imaging verified by physical measurements, inspect the existing roof condition, assess accessibility and logistics, and discuss your material preferences and budget parameters. This site-specific assessment ensures that our estimate reflects the actual conditions of your specific project rather than generic assumptions that can lead to surprise charges later.',
-      'We develop itemized proposals that separate costs into clear categories: materials including shingles or chosen roofing, underlayment, ice and water shield, flashing, vents, drip edge, and ridge cap; labor for tear-off, installation, and cleanup; waste disposal including dumpster rental and landfill fees; permits and inspections; and any additional work such as deck repairs, ventilation upgrades, or gutter replacement. This transparency allows you to understand the composition of the total cost and make informed decisions about where to invest more or where to economize.',
-      'We present multiple material options with corresponding pricing so you can evaluate the cost-performance tradeoff for each. For example, we might present a standard architectural shingle option, a premium architectural with enhanced warranty, and a designer or specialty material option, each with a clear price and explanation of the value differences. This approach respects your budget while ensuring you are aware of options that might better serve your long-term interests.',
-      'Our estimates include everything required to complete the project properly with no hidden fees or surprise charges. If we discover during installation that deck repairs are more extensive than anticipated, we document and communicate the additional work before proceeding, but we also build a reasonable contingency allowance into our initial estimate based on what we know about the roof\'s condition. Our goal is that the final invoice matches the estimate as closely as possible.'
+      '**Newark Quality Roofing measures the roof in squares, rates the pitch and complexity, and selects the material before pricing a replacement, because roof size, pitch, and material choice set the largest share of the cost.** A roofing square covers 100 square feet, and valleys, dormers, and hips add material and labor over a simple gable roof, per industry cost guidance. Material choice drives the per-square-foot cost from asphalt shingle at $5.50–$9.50 and architectural at $6.50–$11.00 to metal at $9.00–$16.00+, per Josten Roofing NJ pricing, and slate at $10–$30, per NJ roofing guides, so a Newark Quality Roofing estimate prices the selected material against the measured roof area.',
+      '**Newark Quality Roofing adds tear-off, disposal, decking repair, flashing, and ventilation to the base material cost, the line items a surface estimate misses.** Tear-off and disposal add $1–$3 per square foot for asphalt removal and $2–$5 for slate or tile, per HomeGuide national cost data, and N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof, per the NJ Rehabilitation Subcode. Deteriorated decking exposed at tear-off, undersized attic ventilation, and corroded flashing each add cost, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA, so a Newark Quality Roofing estimate itemizes each component.',
+      '**Newark Quality Roofing applies the NJ labor and code premium last, because NJ ranges sit 10–40% above national figures and labor accounts for roughly 60–70% of an asphalt install.** Higher NJ labor, stricter NJ code, and an older housing stock raise the total over the national average, per HomeGuide and Integrity Home Exteriors, and a NJ replacement runs $10,000–$25,000 per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks. A Newark Quality Roofing free written estimate documents every line item before any work begins.',
     ],
-    approachSubheadings: ['Cost Factor Breakdown', 'Material Price Comparison', 'Financing and Budget Planning'],
+    approachSubheadings: [
+      'Roof Size, Pitch, and Material Pricing',
+      'Tear-Off, Decking, Flashing, and Ventilation Line Items',
+      'NJ Labor and Code Premium',
+    ],
     residential: {
-      heading: 'Residential Roof Replacement Cost Guide',
+      heading: 'Residential Roof Replacement Cost',
       content: [
-        'For homeowners in the Newark and Essex County area, the typical cost range for residential roof replacement depends primarily on roof size and material choice. As a general guideline, most residential roofs of 1,500 to 2,500 square feet in our area cost between $8,000 and $15,000 for standard architectural asphalt shingles with a single-layer tear-off. Larger, steeper, or more complex roofs, and those requiring extensive deck repairs, will fall toward the higher end or above this range. Premium materials such as designer shingles can add 30 to 50 percent, metal roofing typically costs 2 to 3 times asphalt, and natural slate or tile can cost 4 to 6 times the price of standard asphalt.',
-        'Understanding what drives price differences between contractors helps you evaluate estimates wisely. Legitimate cost differences come from material quality and brand, warranty coverage level, installation method and detail attention, crew experience and supervision quality, insurance and licensing compliance, and cleanup and customer service standards. Red flags for low estimates include no proof of insurance, no workers compensation coverage, no permit mention, cash-only payment, no written warranty, and pressure to sign immediately without allowing time for comparison.',
-        '**Financing** makes roof replacement accessible for homeowners who need a new roof but prefer not to deplete savings. We work with several lenders offering home improvement loans with competitive fixed rates, terms from 3 to 15 years, and rapid approval processes. Some manufacturer programs offer promotional zero-interest periods for qualified buyers. We also accept payment by check, credit card, and certified funds, with typical payment structures requiring a deposit at contract signing and the balance upon completion.',
-        'The return on investment for residential roof replacement is among the best of any home improvement project. According to industry cost-vs-value studies, a new asphalt shingle roof recovers approximately 60 to 70 percent of its cost in immediate resale value, and this figure understates the true benefit because it does not account for prevented damage, energy savings, eliminated repair costs, and the competitive advantage a new roof provides when selling your home.'
+        '**Newark Quality Roofing prices a residential roof replacement across Essex County at $10,000–$25,000 for a typical home, with no construction permit required for the roof covering on a detached one- and two-family dwelling.** A complete tear-off and replacement of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses triggers a permit.',
+        'A new asphalt roof recoups roughly 60 to 68% of project cost at resale and adds about $15,247 to resale value, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per Opendoor, Zillow, and the Zonda Cost vs Value report. A Newark Quality Roofing residential estimate prices the selected material per square foot — asphalt at $5.50–$9.50, architectural at $6.50–$11.00, metal at $9.00–$16.00+ — against the measured roof area, per Josten Roofing NJ pricing, and a Newark Quality Roofing free written estimate documents every line item before any work begins.',
       ],
-      ctaLabel: 'Get Your Free Cost Estimate'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial Roof Replacement Cost Considerations',
+      heading: 'Commercial Roof Replacement Cost',
       content: [
-        'Commercial roof replacement costs are calculated differently than residential projects, typically priced per roofing square based on the specified system type, with additional line items for insulation upgrades, drainage modifications, equipment curb work, and project management overhead. For commercial buildings in the Newark area, typical installed costs range from $4 to $8 per square foot for standard TPO or EPDM single-ply systems, $6 to $12 per square foot for modified bitumen or built-up systems, $8 to $15 per square foot for PVC or metal systems, and higher for specialized or premium systems. These ranges assume average conditions and will be higher for projects with significant insulation upgrade requirements, difficult access, phasing requirements, or structural repairs.',
-        'Lifecycle cost analysis is particularly relevant for commercial roof replacement because the property is a business asset whose maintenance costs directly affect profitability. A less expensive system with a shorter lifespan and higher maintenance requirements may cost more over a 30-year analysis period than a premium system with lower maintenance needs and longer service life. We provide lifecycle cost projections for each material option so you can make investment decisions based on total cost of ownership rather than initial price alone.',
-        'Warranty value varies significantly among commercial roofing systems and should be factored into cost evaluation. NDL (No Dollar Limit) warranties from major manufacturers cover both materials and labor for repairs during the warranty period, effectively eliminating unexpected maintenance costs for 15, 20, or even 25 years. The premium for specifying a system that qualifies for an NDL warranty is often modest relative to the total project cost but provides substantial financial predictability for the property\'s operating budget.',
-        'Commercial property owners can often capitalize roof replacement costs and depreciate the investment over 39 years for tax purposes, which significantly reduces the effective cost of the project. We recommend consulting your tax advisor about the tax treatment of your specific project, and we provide the documentation needed to support the capital improvement classification.'
+        '**Newark Quality Roofing prices a commercial low-slope replacement across Essex County at $7.00–$12.00 per square foot for membrane, installing EPDM rubber, TPO, and modified-bitumen systems to manufacturer specification.** EPDM costs $7.00–$10.00 per square foot and TPO $8.00–$12.00 in New Jersey, on systems that last 15 to 25 and 7 to 20 years, per Josten Roofing NJ pricing and the InterNACHI life-expectancy chart, and a low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA.',
+        'On a commercial building, a roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code, so a Newark Quality Roofing commercial estimate adds the permit path to the membrane cost. The NJ Rehabilitation Subcode requires complete removal of the existing covering when the existing roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4, and a Newark Quality Roofing free written estimate documents every line item before any work begins.',
       ],
-      ctaLabel: 'Request Commercial Cost Proposal'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'On-Site Measurement and Assessment',
-        description: 'We measure your roof accurately using satellite imaging verified by physical measurements, inspect existing conditions, assess accessibility, and discuss your goals and budget to establish the parameters for your estimate.'
+        title: 'Roof Measurement and Assessment',
+        description:
+          'A Newark Quality Roofing technician measures the roof in squares, rates the pitch and complexity, and inspects the deck, the attic ventilation, and the existing layers, the conditions that set the largest share of the replacement cost, per industry cost guidance.',
       },
       {
-        title: 'Material Options Presentation',
-        description: 'We present multiple material options appropriate for your building with clear pricing for each, explaining the performance, aesthetic, warranty, and value differences to help you select the best option for your situation.'
+        title: 'Material Selection and Per-Square-Foot Pricing',
+        description:
+          'A Newark Quality Roofing estimate presents the material options and prices each per square foot — asphalt at $5.50–$9.50, architectural at $6.50–$11.00, and metal at $9.00–$16.00+, per Josten Roofing NJ pricing, and slate at $10–$30, per NJ roofing guides — against the measured roof area.',
       },
       {
-        title: 'Detailed Itemized Estimate',
-        description: 'Your estimate breaks down every cost component including materials, labor, disposal, permits, and additional work. This transparency lets you understand exactly what you are paying for and compare proposals meaningfully.'
+        title: 'Tear-Off, Decking, and Component Line Items',
+        description:
+          'A Newark Quality Roofing estimate itemizes tear-off and disposal at $1–$3 per square foot for asphalt and $2–$5 for slate or tile, plus decking repair, flashing, and ventilation, with full removal of a multi-layer or water-soaked roof required by N.J.A.C. 5:23-6.4, per HomeGuide and the NJ Rehabilitation Subcode.',
       },
       {
-        title: 'Financing Consultation',
-        description: 'If you wish to explore financing, we present available options from our lending partners including loan terms, rates, and monthly payment estimates so you can evaluate the affordability of different material and scope choices.'
+        title: 'NJ Labor, Code, and Permit Pricing',
+        description:
+          'A Newark Quality Roofing estimate applies the NJ premium, because ranges sit 10–40% above national figures and labor accounts for roughly 60–70% of an asphalt install, and adds the permit cost on a commercial or structural job, per HomeGuide and the NJ Uniform Construction Code.',
       },
       {
-        title: 'Contract and Scheduling',
-        description: 'A clear written contract documents every aspect of the agreed scope, materials, timeline, payment terms, and warranty coverage. Project scheduling is coordinated with weather, material availability, and your calendar.'
+        title: 'Written Estimate Delivery',
+        description:
+          'A Newark Quality Roofing written estimate documents the scope, the per-line-item cost, and the timeline before any work begins, the free written estimate a Newark Quality Roofing replacement provides, per Integrity Home Exteriors documentation guidance.',
       },
-      {
-        title: 'Transparent Project Execution',
-        description: 'During installation, any discoveries that affect scope or cost are communicated immediately with documentation before additional work proceeds. Our commitment is that the final invoice reflects the estimate with no surprise charges.'
-      }
     ],
     faqs: [
       {
-        question: 'Why do roofing estimates vary so much between contractors?',
-        answer: 'Estimate variation typically reflects differences in material quality and brand, installation detail and method, labor skill level and supervision, insurance and workers compensation coverage, warranty coverage and reliability, cleanup standards, and overhead structures. The lowest estimate is rarely the best value because it often omits essential components, uses lower-quality materials, employs less experienced labor, or cuts corners on insurance and licensing. We recommend comparing proposals based on the detail and completeness of what is included rather than focusing solely on the bottom-line number.'
+        question: 'How much does a roof replacement cost in Essex County, NJ?',
+        answer:
+          '**A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, with the 2025 national average near $10,000–$11,000 per industry replacement benchmarks.** NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Newark Quality Roofing provides a free written estimate.',
       },
       {
-        question: 'How accurate are online roof replacement cost calculators?',
-        answer: 'Online calculators provide rough ballpark estimates that can be helpful for initial budgeting but are unreliable for actual decision-making. They cannot account for your specific roof\'s complexity, slope, condition, accessibility, local material and labor costs, or the particular requirements of your project. In the Newark area specifically, actual costs are typically 20 to 40 percent higher than what national online calculators suggest because our regional labor and disposal costs exceed national averages. A professional on-site estimate is the only reliable way to determine your actual replacement cost.'
+        question: 'What drives the cost of a roof replacement?',
+        answer:
+          '**Roof replacement cost rises from 7 drivers: roof size in squares, pitch and complexity, material choice, existing layers and tear-off, decking repair, flashing and ventilation, and NJ labor and code.** Material choice sets the largest share, from asphalt at $5.50–$9.50 per square foot, per Josten Roofing NJ pricing, to slate at $10–$30, per NJ roofing guides, and tear-off adds $1–$5 per square foot, per HomeGuide.',
       },
       {
-        question: 'Should I get three estimates before deciding?',
-        answer: 'Getting two to three estimates from reputable contractors is a reasonable approach that helps you understand the market and evaluate options. When comparing, look beyond the price to evaluate the detail and completeness of each proposal, the materials specified, the warranty offered, the contractor\'s insurance and licensing verification, online reviews and references, and your comfort level with each company\'s communication and professionalism. The best value is rarely the cheapest price; it is the fairest price from the most competent and reliable contractor.'
+        question: 'How much does a roof replacement cost per square foot in New Jersey?',
+        answer:
+          '**A NJ roof replacement costs $5.50–$9.50 per square foot for 3-tab asphalt, $6.50–$11.00 for architectural, $9.00–$16.00+ for metal, $10–$30 for slate, and $7.00–$12.00 for low-slope membrane**, per Josten Roofing NJ pricing and NJ roofing guides. A roofing square covers 100 square feet, and roof complexity raises both material and labor, per industry cost guidance.',
       },
       {
-        question: 'What payment terms should I expect for a roof replacement?',
-        answer: 'Reputable contractors typically require a deposit of 10 to 33 percent at contract signing to secure scheduling and order materials, with the balance due upon satisfactory completion of the work. Be cautious of contractors who demand full payment upfront or very large deposits, as this provides inadequate financial protection if problems arise. We also recommend paying by check or credit card rather than cash to maintain a clear payment record. Our standard terms require a reasonable deposit with the balance due at completion.'
+        question: 'Should you repair or replace your roof?',
+        answer:
+          '**Replace a roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair a roof when the damage stays localized on an asphalt roof under 10–15 years old.** The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than a replacement, per Home Depot and Kelly Roofing cost data.',
       },
       {
-        question: 'Are there ways to reduce roof replacement cost without sacrificing quality?',
-        answer: 'Several strategies can reduce cost while maintaining quality: scheduling during the fall shoulder season when contractor demand is lower, choosing standard architectural shingles rather than premium or designer options for reliable performance at a lower price point, considering an overlay if your single-layer roof qualifies, bundling roof replacement with gutter replacement for combined labor efficiency, and taking advantage of manufacturer promotions or rebate programs that periodically offer enhanced value. We help identify applicable savings opportunities for every project without compromising the quality of materials or workmanship.'
+        question: 'Does a roof replacement add resale value in New Jersey?',
+        answer:
+          '**A new asphalt roof recoups roughly 60 to 68% of project cost at resale and adds about $15,247 to resale value, and 8 of the top 10 highest-ROI remodels are exterior replacement projects**, per Opendoor, Zillow, and the Zonda Cost vs Value report. A new roof supports a 1% to 3% higher asking price, per Opendoor.',
       },
       {
-        question: 'How much does roof replacement cost cost in Essex County, NJ?',
-        answer: 'Most roof replacement cost projects in Essex County range from $8,500–$25,000, NJ average for Essex County homes. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your pricing transparency?',
-        answer: 'Homeowners praise our **roof replacement** pricing for *complete transparency*. Reviews highlight our detailed written estimates that break down every cost component with no hidden fees or surprise charges.',
+        question: 'Does homeowners insurance cover a roof replacement cost?',
+        answer:
+          '**Homeowners insurance covers a roof replacement when a covered peril causes the damage — wind, hail, a falling tree, or fire — and excludes a replacement for normal wear, age, or deferred maintenance.** Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). Newark Quality Roofing documents the damage and provides a written scope and estimate; the homeowner or a licensed public adjuster files and negotiates the claim.',
       },
       {
-        question: 'How does experience affect replacement cost?',
-        answer: 'Our 15+ years of **roofing experience** in Essex County means we deliver *efficient installations* that reduce labor costs while maintaining quality. This experience also helps us recommend the best value materials for your budget.',
+        question: 'Does an overlay cost less than a full tear-off?',
+        answer:
+          '**An overlay costs roughly 20–25% less than a full tear-off, commonly $2,000–$5,000 cheaper on a typical home, because an overlay skips the tear-off labor and disposal**, per HomeGuide and Angi national cost data. An overlay hides deck rot rather than repairing it, traps heat that cuts shingle life by roughly 20–30%, and is permitted only over a single sound asphalt layer, per N.J.A.C. 5:23-6.4 and Angi.',
+      },
+      {
+        question: 'Why does a roof replacement cost more in New Jersey than the national average?',
+        answer:
+          '**A NJ roof replacement costs 10–40% above national figures, because higher NJ labor, stricter NJ code, and an older housing stock often needing extra decking work raise the total.** Labor accounts for roughly 60–70% of an asphalt install, per HomeGuide and Integrity Home Exteriors, and a NJ replacement runs $10,000–$25,000 per HomeAdvisor and Modernize, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks.',
       },
     ],
-  
-    pricing: {
-      range: '$8,500–$25,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Roof Replacement Cost',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
-
-  // ─── 10. Asphalt Shingle Roof Replacement ─────────────────────────────────
-  {
-    serviceId: 'asphalt-shingle-roof-replacement',
-    overview: [
-      'Asphalt shingle [roof replacement](/roof-replacement) is the most common roofing project in the Newark and **Essex County** area, and for good reason: asphalt shingles deliver an exceptional combination of weather protection, aesthetic versatility, proven performance, and value that makes them the preferred choice for the vast majority of residential and many commercial roofing applications. When your existing asphalt shingle roof reaches end of life, replacing it with a new generation of asphalt shingles takes advantage of significant improvements in manufacturing technology, wind resistance, impact resistance, color stability, and warranty coverage that have occurred over the past two decades. Today\'s architectural asphalt shingles bear little resemblance to the flat, uniform three-tab shingles that were standard when most aging roofs in our area were installed.',
-      'Modern architectural asphalt shingles, also called dimensional or laminated shingles, feature multiple layers of asphalt-saturated fiberglass mat bonded together to create a thick, durable shingle with dimensional shadow lines that replicate the appearance of natural wood shake or slate at a fraction of the cost. Advanced granule formulations resist algae growth that causes unsightly black streaking, reflective granule options reduce attic heat gain for improved energy efficiency, and enhanced adhesive strips provide wind resistance ratings of 110 to 130 miles per hour or higher. These advancements mean that a new asphalt shingle roof installed today will look better, last longer, and perform more reliably than the asphalt roof it replaces.',
-      'Newark Quality Roofing is certified by the major asphalt shingle manufacturers including **GAF**, **CertainTeed**, **Owens Corning**, and Atlas, which qualifies our installations for the strongest warranty programs these manufacturers offer. These certifications require demonstrated installation competence, ongoing training, and adherence to specific installation standards that go beyond basic building code requirements. When you choose us for your **asphalt shingle replacement**, you receive not only quality installation but also warranty protection that is backed by both our company and the manufacturer.'
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
     ],
-    signsHeading: 'When Your Asphalt Shingle Roof Needs Replacement',
-    signs: [
-      'Your three-tab or first-generation architectural shingles are 20 or more years old and showing widespread granule loss, exposing dark asphalt substrate that absorbs heat and accelerates further deterioration in a self-reinforcing cycle of decline.',
-      'Shingles across broad areas of the roof are curling upward at the edges or cupping in the center, which indicates irreversible loss of flexibility in the asphalt that leaves the shingles vulnerable to wind damage and water infiltration at every exposed edge.',
-      'Multiple shingles have cracked, split, or broken, particularly in areas exposed to direct sunlight, indicating that the asphalt binder has become brittle from UV exposure and thermal cycling and can no longer withstand normal expansion and contraction forces.',
-      'Black streaking from algae growth covers large portions of the roof despite cleaning attempts, indicating that the shingle surface has deteriorated to the point where algae can establish persistent colonies that cleaning can temporarily reduce but cannot eliminate.',
-      'Wind events that would not have affected the roof in its prime are now regularly displacing or lifting shingles, indicating that the adhesive strips have failed and the shingles no longer maintain the wind resistance they were designed to provide.',
-      'Examination of shingles removed from the roof reveals thin, brittle material with minimal remaining granule adhesion, confirming that the shingles have exhausted their functional capacity and cannot provide reliable weather protection regardless of how intact they appear from the ground.'
-    ],
-    approachHeading: 'Our Asphalt Shingle Replacement Process',
-    approachContent: [
-      'Material selection is the most important decision in an asphalt shingle replacement, and we guide you through the options with samples, photographs, and clear explanations of the differences between product lines. We carry shingles from multiple manufacturers so our recommendation is based on which product best suits your needs rather than which brand we happen to stock. Key decisions include the shingle profile and weight class, color and style selection, wind and impact resistance rating, and warranty tier, each of which affects both the appearance and the long-term performance of your new roof.',
-      'Our installation methodology follows manufacturer specifications precisely, which is the foundation for both quality and warranty coverage. This includes proper starter strip installation at eaves and rakes, correct nail placement in the manufacturer\'s designated nailing zone, proper exposure dimensions for the shingle profile, six-nail patterns in high-wind areas as required by New Jersey building code, and correct offset patterns that prevent water channeling. These details may seem minor, but they collectively determine whether the roof performs to its rated capacity for its full expected life or fails prematurely due to installation deficiencies.',
-      'Accessory components receive the same attention as field shingles because they are often where problems originate. We install matching hip and ridge cap shingles with proper overlap and exposure, continuous ridge vent for balanced attic ventilation, painted aluminum drip edge at all eaves and rakes, step and counter flashing at every wall intersection, and new pipe boot flanges at all penetrations. These components are the most frequent sources of leaks on improperly installed roofs, and our attention to their correct installation is a distinguishing quality of our work.',
-      'Color consultation helps you select from the dozens of color options available in modern asphalt shingles. We consider your home\'s siding color, trim color, architectural style, and neighborhood context to recommend shingle colors that enhance your home\'s overall appearance. We provide physical shingle samples rather than relying solely on digital images because shingle colors look different in person than on screens, and the investment in a new roof deserves a color decision you will be happy with for decades.'
-    ],
-    approachSubheadings: ['GAF and CertainTeed Premium Options', 'Color and Style Matching', 'Warranty Maximization'],
-    residential: {
-      heading: 'Residential Asphalt Shingle Replacement',
-      content: [
-        'For homeowners across Essex County, asphalt shingle replacement offers the widest range of choices at the most accessible price points of any roofing material. Whether your budget calls for a reliable standard architectural shingle or your aspirations point toward a premium designer shingle that mimics the look of natural slate or cedar shake, asphalt products can meet virtually any aesthetic and performance goal at a cost that is manageable for most homeowners.',
-        'The upgrade from older three-tab shingles to modern architectural shingles is one of the most dramatic visual improvements a homeowner can make. The thick, dimensional profile of architectural shingles creates deep shadow lines and a textured appearance that adds perceived depth and sophistication to your roofline. This aesthetic improvement is immediately apparent from the street and consistently receives enthusiastic feedback from homeowners who are often surprised by how much a new roof changes the entire character of their home.',
-        'Warranty coverage for residential asphalt shingle installations has become increasingly comprehensive. Through our manufacturer certifications, we can offer warranty packages that cover the shingle material for up to 50 years or the lifetime of the original owner, with additional coverage periods for labor, accessories, and defects that provide genuine financial protection rather than the limited material-only coverage that was standard in previous decades.',
-        'We install residential asphalt shingle replacements year-round in the Newark area, with typical project completion in one to three days for most homes. Our crews are experienced, efficient, and respectful of your property, and our cleanup process leaves your home looking better than we found it. From estimate to completion, the entire process is designed to be as convenient and stress-free as possible.'
-      ],
-      ctaLabel: 'Get Your Shingle Replacement Estimate'
-    },
-    commercial: {
-      heading: 'Commercial Asphalt Shingle Applications',
-      content: [
-        'While commercial buildings more commonly use membrane systems, asphalt shingles are appropriate and cost-effective for commercial buildings with sloped roof sections, multi-family residential properties, hotels and hospitality buildings, religious facilities, and other commercial structures where a traditional sloped-roof aesthetic is desired. Our commercial asphalt shingle work meets the same manufacturer specifications and quality standards as our residential installations, with additional attention to the scale, access, and safety requirements of commercial projects.',
-        'Multi-family residential properties such as apartment complexes, condominiums, and townhouse communities represent a significant portion of our commercial asphalt shingle work. These projects require coordination with property management, tenant notification and access management, phased installation to maintain habitability throughout the project, and attention to the unique requirements of shared-wall and shared-roof structures.',
-        'For commercial asphalt shingle projects, we provide the project management documentation, insurance certification, and warranty structures that commercial property owners and managers require, including detailed progress reports, quality documentation, and warranty registration that supports the property\'s maintenance records and asset management. Our phased installation approach for occupied commercial buildings maintains weather protection throughout the project while minimizing disruption to tenants and business operations.'
-      ],
-      ctaLabel: 'Request Commercial Shingle Assessment'
-    },
-    processSteps: [
-      {
-        title: 'Material Selection Consultation',
-        description: 'We help you choose from the available shingle profiles, colors, and performance grades with physical samples and expert guidance on which options best complement your building and serve your performance requirements.'
-      },
-      {
-        title: 'Detailed Measurement and Estimate',
-        description: 'Accurate roof measurement using satellite and physical verification ensures precise material ordering and accurate pricing. Our itemized estimate details every component of the project.'
-      },
-      {
-        title: 'Existing Roof Removal',
-        description: 'Old shingles and underlayment are completely removed to bare deck, which is then inspected for damage. Any compromised sheathing is replaced with new material to provide a solid installation substrate.'
-      },
-      {
-        title: 'Underlayment and Ice Shield',
-        description: 'Ice and water shield membrane is installed at eaves, valleys, and penetrations. Synthetic underlayment covers the remaining deck area, creating a complete secondary waterproofing layer beneath the shingles.'
-      },
-      {
-        title: 'Shingle Installation',
-        description: 'New architectural shingles are installed with proper starter strips, manufacturer-specified nail placement and patterns, correct exposure, and coordinated offset. Hip and ridge caps complete the installation.'
-      },
-      {
-        title: 'Accessories, Cleanup, and Warranty',
-        description: 'All flashing, vents, drip edge, and pipe boots are installed or replaced. Thorough cleanup with magnetic sweeping is followed by manufacturer warranty registration for maximum coverage protection.'
-      }
-    ],
-    faqs: [
-      {
-        question: 'What is the difference between three-tab and architectural shingles?',
-        answer: 'Three-tab shingles are single-layer shingles with uniform rectangular tabs that create a flat, repetitive appearance. Architectural shingles are multi-layer laminated shingles with varied tab sizes and shadow lines that create a dimensional, textured look. Architectural shingles are thicker, heavier, more wind-resistant, more durable, and carry longer warranties than three-tab shingles. The price difference is modest relative to the total project cost, and architectural shingles have become the standard specification for quality roof replacement.'
-      },
-      {
-        question: 'How long do asphalt shingle roofs last in New Jersey?',
-        answer: 'In New Jersey\'s demanding climate, standard architectural asphalt shingles typically deliver 20 to 30 years of reliable service with proper ventilation and maintenance. Premium architectural shingles may last 25 to 35 years, and designer or luxury shingles can approach 40 years under ideal conditions. Factors that significantly affect lifespan include attic ventilation quality, roof color and sun exposure, maintenance regularity, and the severity of weather events the roof experiences during its life.'
-      },
-      {
-        question: 'Which asphalt shingle brand is best?',
-        answer: 'The major manufacturers, GAF, CertainTeed, Owens Corning, and Atlas, all produce high-quality products that perform well when properly installed. Differences between brands are less significant than differences between product tiers within each brand. A premium product from any major manufacturer will outperform a basic product from any manufacturer. We carry products from multiple brands so we can recommend the specific product line that best matches your priorities for appearance, performance, warranty, and budget rather than being limited to a single manufacturer\'s offerings.'
-      },
-      {
-        question: 'Can I change my shingle color during replacement?',
-        answer: 'Absolutely, and many homeowners take advantage of replacement as an opportunity to update their home\'s color palette. Modern architectural shingles are available in an extensive range of colors and blends that were not available when most existing roofs were installed. We help you select a color that coordinates with your siding, trim, and overall home aesthetic, and we provide physical samples so you can evaluate colors in your actual lighting conditions rather than relying on screen images.'
-      },
-      {
-        question: 'Is impact-resistant shingle worth the extra cost?',
-        answer: 'Impact-resistant shingles rated Class 4 for hail resistance cost approximately 10 to 20 percent more than standard shingles but offer significant benefits: they resist hail damage that would crack or bruise standard shingles, they may qualify for homeowner\'s insurance discounts of 5 to 28 percent depending on your insurer, and they provide peace of mind during the severe thunderstorms and hail events that periodically affect the Newark area. For many homeowners, the insurance premium reduction alone offsets the additional shingle cost within a few years.'
-      },
-      {
-        question: 'How much does asphalt shingle roof replacement cost in Essex County, NJ?',
-        answer: 'Most asphalt shingle roof replacement projects in Essex County range from $8,500–$18,000, asphalt shingle tear-off and replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your shingle replacements?',
-        answer: 'Homeowners rate our **asphalt shingle replacement** for *beautiful results and lasting performance*. Reviews highlight our manufacturer-certified installation that qualifies for the strongest warranty coverage.',
-      },
-      {
-        question: 'How experienced is your shingle team?',
-        answer: 'Our **shingle replacement** crews have over 15 years of experience installing premium shingles from GAF, Owens Corning, and CertainTeed. This *certified expertise* ensures your new roof qualifies for maximum warranty protection.',
-      },
-    ],
-  
     pricing: {
-      range: '$8,500–$18,000',
+      range: '$10,000–$25,000+ for most replacements',
       factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
+        'A NJ roof replacement costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks.',
+        'Material drives the per-square-foot cost: NJ 3-tab asphalt runs $5.50–$9.50 per square foot, architectural $6.50–$11.00, and metal $9.00–$16.00+, per Josten Roofing NJ pricing, and slate $10–$30, per NJ roofing guides.',
+        'Tear-off and disposal add $1–$3 per square foot for asphalt removal and $2–$5 for slate or tile, and N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof, per HomeGuide and the NJ Rehabilitation Subcode.',
+        'Roof size, pitch, and complexity add cost, because valleys, dormers, and hips raise both material and labor over a simple gable roof, per industry cost guidance.',
+        'Labor accounts for roughly 60–70% of an asphalt install, and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors.',
       ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate that itemizes every cost line, and a Newark Quality Roofing estimator discusses financing options at the free written estimate.',
     },
     whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Asphalt Shingle Roof Replacement',
+      heading: 'Why Choose Our Roofing Company for Roof Replacement Cost?',
       reasons: [
         {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
         },
         {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+          title: 'Free Written Estimates',
+          description:
+            'Newark Quality Roofing provides a free written estimate that itemizes roof size, material, tear-off, decking, and the NJ code path before a replacement, with the per-square-foot cost named per Josten Roofing NJ pricing.',
         },
         {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
         },
       ],
     },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+  },
 
-  // ─── 11. Metal Roof Replacement ───────────────────────────────────────────
+// ─── 10. Asphalt Shingle Roof Replacement ───
+{
+  serviceId: 'asphalt-shingle-roof-replacement',
+  directAnswer:
+    '**Newark Quality Roofing provides asphalt shingle roof replacement across Newark and Essex County, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+  overview: [
+    '**Newark Quality Roofing replaces 2 asphalt shingle types across Essex County: 3-tab shingles and architectural (laminated) shingles** — for residential and steep-slope commercial properties. Asphalt shingle roof replacement strips the existing roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs new asphalt shingles, the work that ends an aged asphalt roof rather than patching a single failed detail.',
+    'Asphalt shingles cover roughly 73% of US residential roofs per 2024 roofing-market data, the most common roof covering Newark Quality Roofing installs. A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes the actual asphalt service life varies up to 40% with climate, install, and maintenance. A Newark Quality Roofing replacement matches the shingle line and wind rating to the building and the Essex County climate before tear-off.',
+  ],
+  subServices: [
+    {
+      name: '3-tab asphalt shingle replacement',
+      description:
+        '3-tab asphalt shingle replacement installs flat single-tab shingles that last 20 years and carry roughly a 60 mph wind rating, the ASTM D3161 Class A class, per the InterNACHI life-expectancy chart and ARMA wind-class guidance.',
+    },
+    {
+      name: 'Architectural asphalt shingle replacement',
+      description:
+        'Architectural asphalt shingle replacement installs laminated dimensional shingles that last 30 years and carry a wind warranty up to 130 mph with 6-nail installation, per the InterNACHI life-expectancy chart and ARMA and manufacturer wind-class guidance.',
+    },
+    {
+      name: 'Tear-off and deck repair',
+      description:
+        'Tear-off and deck repair strips the existing asphalt roof to the bare sheathing and replaces deteriorated plywood or OSB, the removal the NJ Rehabilitation Subcode requires when the covering is water-soaked or the roof already carries 2 or more layers, per N.J.A.C. 5:23-6.4.',
+    },
+    {
+      name: 'Ice barrier and underlayment installation',
+      description:
+        'Ice barrier and underlayment installation applies a self-adhering ice barrier at the eaves and synthetic underlayment across the deck, because the IRC ice-barrier provision (R905.1.2) requires an ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code.',
+    },
+  ],
+  signsHeading: 'Warning Signs Your Property Needs Attention',
+  signs: [
+    '**An asphalt roof at or past its material lifespan** signals replacement, because a 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, and the actual life varies up to 40% with climate and maintenance, per the InterNACHI life-expectancy chart and the NRCA.',
+    '**Granule loss with sandy grit in gutters and bald asphalt mat** indicates shingles nearing end of life; granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, and 50% loss cuts remaining life by up to 70%, per GAF.',
+    '**Damage across more than 25–30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which full replacement costs less than continued spot repair, per roofing industry guidance.',
+    '**Curling, cupping, and zipper cracking along the shingle cutouts** indicate advanced asphalt degradation from thermal cycling and aging, per GAF and InterNACHI inspection guidance.',
+    '**Three or more repairs in 2 years** signals systemic asphalt failure rather than an isolated defect, the contractor-consensus 3-repairs rule that favors replacement, per roofing industry guidance.',
+    '**A spongy or sagging roof deck under the asphalt** indicates moisture-rotted sheathing, a structural condition that points toward tear-off and deck replacement rather than a surface patch, per GAF inspection guidance.',
+    '**Daylight through the roof deck** seen from inside the attic indicates holes in the decking and shingles, a sign that points toward replacement rather than a patch, per This Old House.',
+    '**An asphalt roof past 20 years, or 15 on the coast,** favors replacement, because a localized repair can cost 5 to 10 times less than replacement only while the asphalt roof stays under 10 to 15 years old, per Home Depot and Kelly Roofing cost data.',
+  ],
+  approachHeading: 'How We Handle Every Project',
+  approachContent: [
+    '**Newark Quality Roofing matches the asphalt shingle line and wind rating to the building from 2 shingle types: 3-tab shingles at a 20-year life and architectural shingles at a 30-year life.** A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and ASTM D3161 sets the asphalt wind classes — Class A near 60 mph and Class F near 110 mph — while many architectural lines warranty to 130 mph with 6-nail installation, per ARMA and manufacturer guidance. Newark Quality Roofing installs GAF, Owens Corning, and CertainTeed asphalt shingle systems.',
+    '**Newark Quality Roofing assesses the roof deck, the attic ventilation, and the NJ code triggers before quoting an asphalt replacement, because a tear-off exposes deck rot, undersized ventilation, and structural conditions a surface inspection misses.** The NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA, so a Newark Quality Roofing assessment corrects undersized ventilation as part of the asphalt replacement. A structural change to rafters or trusses triggers a permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption, per the NJ Uniform Construction Code.',
+    '**Newark Quality Roofing strips the asphalt roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the shingles to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code, and Newark crosses the 32°F freezing point repeatedly through winter, driving freeze-thaw stress on the shingle seals. Installing to manufacturer specification preserves the material warranty covering factory defects, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance.',
+  ],
+  approachSubheadings: [
+    'Shingle Selection and Wind Rating',
+    'Deck, Ventilation, and Code Assessment',
+    'Tear-Off and Installation to Manufacturer Specification',
+  ],
+  residential: {
+    heading: 'Residential Services in Newark',
+    content: [
+      '**Newark Quality Roofing replaces residential asphalt shingle roofs across Essex County, re-roofing detached one- and two-family homes with 3-tab or architectural shingles and no construction permit required for the roof covering.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit.',
+      'A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per a Zillow resale analysis, so an asphalt replacement returns value at sale as well as ending the leak risk. A Newark Quality Roofing residential asphalt replacement installs an ice barrier at the eaves per the IRC R905.1.2 provision, replaces decking rotted under the old shingles, and contains debris with ground tarps and a magnet sweep for nails before leaving the property across Newark, East Orange, Bloomfield, Montclair, Belleville, Irvington, and Glen Ridge. A storm-driven asphalt replacement documents the damage with timestamped photographs for the insurance adjuster, because Newark Quality Roofing inspects and documents the damage and performs the approved work while the homeowner files and negotiates the claim.',
+    ],
+    ctaLabel: 'Get Home Estimate',
+  },
+  commercial: {
+    heading: 'Commercial Solutions',
+    content: [
+      '**Newark Quality Roofing installs asphalt shingles on steep-slope commercial and mixed-use roofs across Essex County, the same 3-tab and architectural systems used on residential roofs where the roof slope sheds water.** Asphalt shingles suit a steep-slope commercial roof, while a low-slope commercial roof drains too slowly for shingles and uses a membrane system instead, because a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA.',
+      'On a commercial building, an asphalt roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. A flat or low-slope commercial roof uses EPDM, TPO, or modified-bitumen membrane rather than asphalt shingles, the low-slope systems Newark Quality Roofing services on the flat-roof replacement scope.',
+    ],
+    ctaLabel: 'Get Commercial Quote',
+  },
+  processSteps: [
+    {
+      title: 'Deck, Ventilation, and Shingle Assessment',
+      description:
+        'A Newark Quality Roofing technician inspects the roof deck, the attic ventilation, and the existing asphalt covering, sizing ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor before quoting the asphalt replacement.',
+    },
+    {
+      title: 'Written Estimate and Shingle Selection',
+      description:
+        'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents the shingle options from 2 types — 3-tab at a 20-year life and architectural at a 30-year life — with the wind rating of each named, naming GAF, Owens Corning, and CertainTeed lines, per Integrity Home Exteriors documentation guidance.',
+    },
+    {
+      title: 'Permits and Material Ordering',
+      description:
+        'A Newark Quality Roofing crew files the construction permit when the job triggers one — a commercial roof or a structural change — separate from the detached one- and two-family ordinary-maintenance exemption under N.J.A.C. 5:23-2.7, and orders the shingles to arrive on the scheduled start date, per the NJ Uniform Construction Code.',
+    },
+    {
+      title: 'Tear-Off and Deck Repair',
+      description:
+        'A Newark Quality Roofing crew strips the existing asphalt roof to the bare sheathing, inspects every section, and replaces deteriorated plywood or OSB, with complete removal required by N.J.A.C. 5:23-6.4 when the roof is water-soaked or already carries 2 or more layers.',
+    },
+    {
+      title: 'Ice Barrier, Underlayment, and Shingle Installation',
+      description:
+        'A Newark Quality Roofing crew installs the ice barrier from the eave to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision, applies synthetic underlayment across the deck, and installs the asphalt shingles to manufacturer specification with the specified nail pattern that keeps the wind warranty intact.',
+    },
+    {
+      title: 'Verification, Cleanup, and Warranty',
+      description:
+        'A Newark Quality Roofing lead verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
+    },
+  ],
+  faqs: [
+    {
+      question: 'Should you repair or replace your roof?',
+      answer:
+        '**Replace an asphalt roof when damage exceeds 25–30% of the roof area or one repair approaches 50% of replacement cost; repair an asphalt roof when the damage stays localized on a roof under 10–15 years old.** The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a localized repair can cost 5 to 10 times less than replacement, per Home Depot and Kelly Roofing cost data.',
+    },
+    {
+      question: 'What is the difference between 3-tab and architectural shingles?',
+      answer:
+        '**A 3-tab asphalt shingle is a flat single-layer shingle that lasts 20 years and rates near 60 mph, while an architectural shingle is a thicker laminated shingle that lasts 30 years and warranties up to 130 mph with 6-nail installation.** The 20-year and 30-year lifespans trace to the InterNACHI life-expectancy chart, and ASTM D3161 sets the asphalt wind classes, per ARMA and manufacturer guidance.',
+    },
+    {
+      question: 'How long does an asphalt shingle roof last in New Jersey?',
+      answer:
+        '**A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, with the actual service life varying up to 40% with climate, install, and maintenance.** The 20-year and 30-year figures trace to the InterNACHI life-expectancy chart, the up-to-40% variance to the NRCA, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
+    },
+    {
+      question: 'Do you need a permit for an asphalt shingle roof replacement in Newark, NJ?',
+      answer:
+        '**A complete re-roof of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial roof or a structural change does require a permit.** The exemption covers the asphalt roof covering, not rafters, trusses, or ridge beams, per the NJ Uniform Construction Code.',
+    },
+    {
+      question: 'How much does an asphalt shingle roof replacement cost in Essex County, NJ?',
+      answer:
+        '**Asphalt shingle roof replacement in New Jersey runs $5.50–$9.50 per square foot for standard 3-tab shingles and $6.50–$11.00 per square foot for architectural shingles, with a typical home costing $10,000–$25,000.** The per-square-foot figures trace to Josten Roofing NJ pricing and the whole-home range to HomeAdvisor and Modernize NJ cost data. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'Are asphalt shingles fire rated?',
+      answer:
+        '**Asphalt shingle roof coverings carry a UL 790 and ASTM E108 fire class — Class A, B, or C — where Class A is the highest fire resistance and Class C the lowest.** UL 790 and ASTM E108 assign the roof-covering fire classes through a spread-of-flame, intermittent-flame, and burning-brand test, and the IRC R902 fire-classification section requires roof assemblies to carry a class, per the International Residential Code.',
+    },
+    {
+      question: 'Which is the better wind choice for the Newark climate, 3-tab or architectural?',
+      answer:
+        '**Architectural shingles carry a higher wind rating than 3-tab shingles, warrantying up to 130 mph with 6-nail installation against the roughly 60 mph rating of a standard 3-tab shingle.** ASTM D3161 sets the asphalt wind classes — Class A near 60 mph and Class F near 110 mph — and NOAA classifies a thunderstorm as severe at wind gusts of 58 mph or higher, per ARMA and NOAA guidance.',
+    },
+  ],
+  credentialsHighlight: [
+    'NJ HIC Licensed',
+    'Insured',
+    'Free Roof Inspections',
+    'Local Essex County Roofers',
+  ],
+  pricing: {
+    range: '$5.50–$11.00 per sq ft; $10,000–$25,000+ for most asphalt roofs',
+    factors: [
+      'Standard 3-tab asphalt shingle installs at $5.50–$9.50 per square foot in New Jersey, and architectural shingle at $6.50–$11.00 per square foot, per Josten Roofing NJ pricing.',
+      'A New Jersey asphalt roof replacement costs $10,000–$25,000 for a typical home, against a 2025 national average near $10,000–$11,000 per industry cost data, while the NJ range traces to HomeAdvisor and Modernize NJ cost data.',
+      'Tear-off and deck repair add cost when the roof carries 2 or more existing layers or the sheathing is deteriorated, because N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof, per the NJ Rehabilitation Subcode.',
+      'Labor accounts for roughly 60–70% of an asphalt-install total, and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors.',
+      'Roof complexity adds cost, because valleys, dormers, and hips increase both material and labor over a simple gable roof, per industry cost guidance.',
+    ],
+    financingNote:
+      'Newark Quality Roofing provides a free written estimate and discusses payment and financing options at the estimate.',
+  },
+  whyChooseUs: {
+    heading: 'Why Choose Our Roofing Company for Asphalt Shingle Roof Replacement?',
+    reasons: [
+      {
+        title: 'NJ Home Improvement Contractor',
+        description:
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+      },
+      {
+        title: 'Insured',
+        description:
+          'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+      },
+      {
+        title: 'Free Roof Inspections',
+        description:
+          'Newark Quality Roofing provides free roof inspections that assess the deck, the attic ventilation, and the asphalt shingle lifespan against the InterNACHI life-expectancy chart before a replacement quote.',
+      },
+      {
+        title: 'Local Essex County Roofers',
+        description:
+          'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+      },
+    ],
+  },
+},
+
+  // ─── 11. Metal Roof Replacement ───
   {
     serviceId: 'metal-roof-replacement',
+    directAnswer:
+      '**Newark Quality Roofing replaces roofs with new metal across Newark and Essex County, stripping the old roof to the deck and installing standing-seam, metal-panel, or metal-shingle systems that last 40 to 80 years** as a New Jersey Home Improvement Contractor.',
     overview: [
-      '**Metal [roof replacement](/roof-replacement)** offers property owners throughout Newark and **Essex County** a premium roofing solution that combines exceptional longevity, superior weather resistance, outstanding energy efficiency, and a distinctive aesthetic that sets your property apart. Whether you are replacing an aging metal roof that has served your building for decades or upgrading from asphalt shingles or another material to the enhanced performance and durability that metal provides, a metal roof replacement represents a long-term investment that delivers returns through reduced maintenance, lower energy costs, increased property value, and a service life that can extend 40 to 70 years or more with proper installation and minimal maintenance.',
-      'Modern metal roofing has evolved far beyond the corrugated agricultural panels that many people picture when they hear the term. Today\'s residential and architectural metal roofing systems include **standing seam** panels with clean, contemporary lines, metal shingles that replicate the appearance of slate, tile, or wood shake, stone-coated steel panels that combine metal durability with the textured look of traditional roofing, and custom-fabricated panels in virtually any color or profile. These products bring the performance advantages of metal, including non-combustibility, high wind resistance, complete impermeability to water, and reflective energy efficiency, to any architectural style from historic to ultra-modern.',
-      'Newark Quality Roofing\'s metal roofing team includes installers specifically trained and experienced in the techniques that metal roofing requires, which differ significantly from asphalt shingle installation. Metal roofing demands precision cutting and fitting, proper allowance for thermal expansion, specialized fastening systems, and flashing details that accommodate the unique properties of metal. Our commitment to metal roofing excellence means that every metal roof we install performs to its full potential and presents the clean, professional appearance that distinguishes quality metal installation from the wavy, ill-fitting panels that result from inexperienced installation.'
+      '**Newark Quality Roofing installs 3 metal roof systems across Essex County: standing-seam metal, exposed-fastener metal panel, and metal shingle** — for residential and commercial properties. Metal roof replacement strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-metal system that lasts far longer than the asphalt roof it replaces.',
+      'A metal roof lasts 40 to 80 years, with copper at 70-plus years, per the InterNACHI life-expectancy chart, against 20 years for 3-tab asphalt and 30 years for architectural asphalt, so a metal roof replacement upgrades a building to a 2-to-4-times-longer service life. Standing-seam metal lasts 40 to 70 years and conceals the fasteners under raised seams, per This Old House, while metal shingle and exposed-fastener panel carry the fasteners in the weather plane, so a Newark Quality Roofing metal roof replacement matches the metal system to the roof slope and the Essex County climate before tear-off.',
     ],
-    signsHeading: 'When to Consider Metal Roof Replacement',
+    subServices: [
+      {
+        name: 'Standing-seam metal roof replacement',
+        description:
+          'Standing-seam metal roof replacement installs continuous ridge-to-eave panels with concealed fasteners under raised seams, a system that lasts 40 to 70 years, per This Old House, and conceals the fasteners that leak first on an exposed-fastener metal roof.',
+      },
+      {
+        name: 'Metal-panel roof replacement',
+        description:
+          'Metal-panel roof replacement installs exposed-fastener steel or aluminum panels that last 40 to 80 years, per the InterNACHI life-expectancy chart, on steep-slope and agricultural-profile roofs where the panel runs from ridge to eave with through-fastened seams.',
+      },
+      {
+        name: 'Metal-shingle roof replacement',
+        description:
+          'Metal-shingle roof replacement installs interlocking steel or aluminum shingles that last 40 to 80 years, per the InterNACHI life-expectancy chart, on residential roofs where the metal shingle mimics asphalt, slate, or cedar profiles while carrying a metal service life.',
+      },
+      {
+        name: 'Tear-off and deck repair',
+        description:
+          'Tear-off and deck repair strips the existing roof to the bare sheathing and replaces deteriorated plywood or OSB before the metal goes on, the work the NJ Rehabilitation Subcode requires when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.',
+      },
+      {
+        name: 'Commercial standing-seam metal replacement',
+        description:
+          'Commercial standing-seam metal replacement installs concealed-fastener metal across low-slope and steep-slope commercial roofs, a system that lasts 40 to 70 years, per This Old House, and accommodates thermal expansion on long panel runs with engineered expansion zones, per the NRCA.',
+      },
+    ],
+    signsHeading: 'Warning Signs Your Property Needs a Metal Roof Replacement',
     signs: [
-      'Your existing metal roof has developed widespread corrosion, loose or missing fasteners, failed sealants at seams and penetrations, or leaks at panel overlaps that indicate the system has reached end of its functional life and maintenance is no longer economically justified.',
-      'You are replacing an aging asphalt, tile, or other roof and want to upgrade to metal\'s superior longevity and performance to potentially make this the last roof replacement your property will ever need during your ownership.',
-      'Energy costs for heating and cooling your building are a significant concern, and you want the reflective properties and radiant barrier effect of metal roofing to reduce heat gain in summer and overall energy consumption throughout the year.',
-      'Fire resistance is a priority for your property, and the non-combustible classification of metal roofing provides peace of mind that asphalt, wood, and other combustible roofing materials cannot match.',
-      'You want a distinctive, premium appearance for your building that differentiates it from the asphalt shingle roofs that dominate the neighborhood, whether through the clean lines of standing seam, the elegance of metal shingle profiles, or the bold presence of architectural metal panels.',
-      'Your building is in a location with severe weather exposure, including high winds, heavy snow loads, or hail, and you want the superior structural performance and impact resistance that metal roofing provides compared to most other roofing materials.'
+      '**An asphalt roof at or past its material lifespan** signals an upgrade to metal, because 3-tab asphalt lasts 20 years and architectural asphalt 30 years against 40 to 80 years for metal, per the InterNACHI life-expectancy chart, so a metal roof replacement ends the repeat-replacement cycle.',
+      '**Fastener loosening, cut-edge corrosion, and washer-seal failure across an existing metal roof** end a metal roof\'s service life, because exposed fasteners and the rubber washers seal out water until thermal cycling backs out the fastener and hardens the washer, per industry metal-roofing guidance.',
+      '**Oil-canning, panel buckling, and seam separation on long metal runs** indicate thermal-expansion stress on panels exceeding 100 feet that lacked engineered expansion zones, per the NRCA.',
+      '**Granule loss with sandy grit in gutters and a bald asphalt mat** indicates an aging asphalt roof nearing end of life, because granule loss exceeding 30% of the surface is the common rule-of-thumb for beyond repair, per GAF, the point at which a metal upgrade returns a longer service life.',
+      '**Damage across more than 25–30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which full replacement costs less than continued spot repair, per roofing industry guidance.',
+      '**A spongy or sagging roof deck** indicates moisture-rotted sheathing that a metal roof replacement exposes and replaces at tear-off, a structural condition that points toward replacement rather than a surface patch, per GAF inspection guidance.',
+      '**Wind-stripped shingles after a severe storm** expose the deck and signal an upgrade to a wind-resistant metal system, because NOAA classifies a thunderstorm as severe at wind gusts of 58 mph or higher, the threshold that strips an aging asphalt field.',
+      '**Repeated asphalt repairs and a homeowner planning a final roof** favor metal, because a metal roof at 40 to 80 years often outlasts the building owner\'s tenure, per the InterNACHI life-expectancy chart, against a 20-to-30-year asphalt roof.',
     ],
-    approachHeading: 'Our Metal Roof Installation Expertise',
+    approachHeading: 'How We Replace a Roof With Metal',
     approachContent: [
-      'Metal roof replacement begins with system selection based on your building\'s architecture, structural capacity, performance goals, and aesthetic preferences. Standing seam systems with concealed fasteners provide the cleanest appearance and best weather performance for modern and contemporary buildings. Metal shingle systems replicate traditional roofing profiles while delivering metal performance. Stone-coated steel provides a textured, dimensional look with hidden steel strength. Each system has specific structural requirements, installation methods, and aesthetic characteristics that we explain clearly so you can make the choice that best serves your property.',
-      'Structural assessment is essential before [metal roof installation](/metal-roof-installation-repair) because metal systems have different weight, attachment, and ventilation requirements than the roofing material they may be replacing. While metal roofing is generally lighter than most alternatives, the attachment systems and potential need for furring strips or purlins require evaluation of the existing deck and framing. We assess structural conditions thoroughly and make any necessary modifications to ensure the metal system can be installed properly and perform to its full capabilities.',
-      'Installation precision is the hallmark of quality metal roofing work. Panel cuts must be straight and clean, standing seam profiles must be roll-formed with consistent dimensions, thermal expansion joints must be properly spaced and detailed, and every fastener must be placed correctly to avoid stress cracking, panel distortion, or water intrusion. Our metal roofing installers are trained specifically in these techniques and bring the patience and precision that metal work demands, because mistakes in metal roofing installation are far more visible and consequential than in asphalt shingle work.',
-      'Flashing and transition details are particularly critical on metal roofs because the smooth, impervious surface of metal panels directs water aggressively toward any weakness in the waterproofing envelope. We fabricate custom flashing components from matching metal to ensure watertight seals at every wall intersection, penetration, valley, ridge, and edge condition. These custom-fabricated components distinguish professional metal roofing from commodity installation and are essential for the long-term leak-free performance that metal roofing is designed to deliver.'
+      '**Newark Quality Roofing contractors assess the roof deck, the roof slope, and the NJ code triggers before quoting a metal roof replacement, because a tear-off exposes deck rot and the slope determines whether standing-seam, metal panel, or metal shingle fits the roof.** A full tear-off exposes the deck for inspection and replacement of plywood or OSB rotted under the old roof, the work the NJ Rehabilitation Subcode requires when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. The NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and proper attic ventilation reduces the heat and moisture stress that shortens roof life and is a common shingle-warranty condition, per the NRCA, so a Newark Quality Roofing assessment corrects undersized ventilation as part of the metal install.',
+      '**Newark Quality Roofing matches the metal system to the roof from 3 classes: standing-seam metal, exposed-fastener metal panel, and metal shingle.** Standing-seam metal lasts 40 to 70 years and conceals the fasteners under raised seams, per This Old House, while metal panel and metal shingle carry the fasteners in the weather plane and last 40 to 80 years, per the InterNACHI life-expectancy chart. A reflective metal roof stays more than 50°F cooler than a conventional roof on a sunny summer afternoon, per the U.S. Department of Energy, though a reflective roof in the Essex County heating climate cuts peak summer cooling demand while carrying a winter heating offset, per the U.S. Department of Energy, so a Newark Quality Roofing metal selection weighs the surface-temperature benefit against the heating season.',
+      '**Newark Quality Roofing strips the roof to the deck, installs a high-temperature underlayment and an ice barrier, and installs the metal to manufacturer specification with engineered expansion zones on long runs, the sequence that keeps the manufacturer system warranty intact.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code, and a metal panel exceeding 100 feet needs an expansion zone to absorb thermal movement, per the NRCA. Installing the metal to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
     ],
-    approachSubheadings: ['Standing Seam Upgrade Path', '50+ Year Performance Design', 'Energy Efficiency Benefits'],
+    approachSubheadings: [
+      'Deck, Slope, and Code Assessment',
+      'Metal System Selection for the Essex County Climate',
+      'Tear-Off and Metal Installation to Manufacturer Specification',
+    ],
     residential: {
-      heading: 'Metal Roofing for Essex County Homes',
+      heading: 'Residential Metal Roof Replacement in Newark',
       content: [
-        'For homeowners who value long-term investment, energy efficiency, and distinctive aesthetics, metal roofing delivers a premium experience that transforms your home\'s appearance and performance. The variety of metal roofing profiles available today means that metal is appropriate for virtually any home style, from the standing seam panels that complement modern and colonial architecture to metal shingle profiles that enhance Craftsman, Tudor, and Victorian homes with a look that evokes traditional materials while providing modern performance.',
-        'The longevity of metal roofing is its most compelling financial advantage. While a metal roof typically costs two to three times more than an asphalt shingle roof initially, its 40 to 70 year service life means you may never need another roof replacement during your ownership. Compare this to asphalt shingles that will need replacement every 20 to 30 years, and the lifetime cost of metal roofing is often comparable to or less than the cumulative cost of multiple asphalt shingle replacements.',
-        'Energy savings from metal roofing are measurable and significant in New Jersey\'s climate. Reflective metal panels reduce summer heat gain by reflecting solar radiation rather than absorbing it like dark asphalt shingles, which can reduce cooling costs by 10 to 25 percent. Some metal roofing products qualify for federal energy tax credits, and the ongoing energy savings contribute to the overall value proposition that makes metal roofing a wise investment for homeowners who plan to remain in their property long-term.',
-        'We help homeowners navigate the higher initial investment in metal roofing through financing options specifically structured for premium home improvements. The longer terms available for higher-value projects can make monthly payments comparable to asphalt shingle financing while delivering a roof that provides superior performance and may never need replacement again.'
+        '**Newark Quality Roofing replaces residential roofs with standing-seam metal, metal panel, and metal shingle across Essex County, re-roofing detached one- and two-family homes with no construction permit required for the roof covering.** A complete tear-off and replacement of the roof covering with metal on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit.',
+        'A metal roof lasts 40 to 80 years against 20 to 30 years for asphalt, per the InterNACHI life-expectancy chart, so a residential metal roof replacement often serves longer than the homeowner\'s tenure in the house. A Newark Quality Roofing residential metal install applies a high-temperature underlayment and an ice barrier at the eaves per the IRC R905.1.2 ice-barrier provision, replaces decking rotted under the old roof, and contains debris with ground tarps and a magnet sweep for nails before leaving the property across Newark, East Orange, Bloomfield, Montclair, Belleville, Irvington, and Glen Ridge.',
       ],
-      ctaLabel: 'Explore Metal Roofing Options'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
       heading: 'Commercial Metal Roof Replacement',
       content: [
-        'Commercial metal roofing systems offer building owners and facility managers the combination of longevity, low maintenance, and energy performance that optimizes lifecycle cost for commercial properties. Standing seam metal roofing is particularly well-suited to commercial applications because its concealed-fastener design eliminates the maintenance liability of exposed fasteners, its interlocking panel design provides superior wind uplift resistance, and its smooth surface sheds snow and debris efficiently.',
-        'For commercial buildings converting from membrane systems to metal, the installation typically involves adding structural support for the metal panel attachment system over the existing roof deck. We design these structural additions to meet current building code requirements for wind uplift, snow load, and seismic resistance, ensuring that the metal roof system not only performs well but also brings the building into compliance with current structural standards.',
-        'Commercial metal roof warranties from major manufacturers can extend to 30 or 40 years for materials, with paint finish warranties of 25 to 30 years that protect against color fading, chalking, and flaking. Combined with metal\'s inherently low maintenance requirements, these warranty structures provide commercial property owners with decades of predictable roofing costs and minimal capital expenditure for roof maintenance.'
+        '**Newark Quality Roofing replaces commercial roofs with standing-seam and exposed-fastener metal across Essex County, installing concealed-fastener panels on low-slope and steep-slope commercial buildings to manufacturer specification.** A commercial standing-seam metal roof lasts 40 to 70 years, per This Old House, and a metal panel exceeding 100 feet needs an engineered expansion zone to absorb thermal movement, per the NRCA, so a Newark Quality Roofing commercial metal install details the expansion zones before fabrication.',
+        'On a commercial building, a metal roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the commercial roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4. A reflective metal roof stays more than 50°F cooler than a conventional roof on a sunny summer afternoon, per the U.S. Department of Energy, reducing peak cooling load on an air-conditioned commercial building.',
       ],
-      ctaLabel: 'Request Commercial Metal Roof Proposal'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'System Selection and Design',
-        description: 'We help you choose the metal roofing system that best matches your building\'s architecture, structural requirements, and aesthetic vision. Color selection from manufacturer palettes ensures the final appearance meets your expectations.'
+        title: 'Deck, Slope, and Ventilation Assessment',
+        description:
+          'A Newark Quality Roofing technician inspects the roof deck, measures the roof slope to match standing-seam, metal panel, or metal shingle, and sizes the attic ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor before quoting the metal roof replacement.',
       },
       {
-        title: 'Structural Assessment and Preparation',
-        description: 'We evaluate the existing roof structure for compatibility with the selected metal system and make any necessary modifications to framing, decking, or ventilation to ensure proper support and performance.'
+        title: 'Written Estimate and Metal System Selection',
+        description:
+          'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents the metal options from 3 classes — standing-seam metal, exposed-fastener panel, and metal shingle — with the 40-to-80-year lifespan named before any work begins, per Integrity Home Exteriors documentation guidance.',
       },
       {
-        title: 'Existing Roof Removal',
-        description: 'Old roofing material is completely removed, the deck is inspected and repaired, and the substrate is prepared for metal panel installation with appropriate underlayment and any required furring or batten systems.'
+        title: 'Permits and Panel Fabrication',
+        description:
+          'A Newark Quality Roofing crew files the construction permit when the job triggers one — a commercial roof, a structural change, or work beyond ordinary maintenance under N.J.A.C. 5:23-2.7 — and orders or fabricates the metal panels to length with engineered expansion zones on runs exceeding 100 feet, per the NRCA.',
       },
       {
-        title: 'Precision Metal Panel Installation',
-        description: 'Metal panels are installed with careful attention to alignment, thermal expansion allowance, and fastener placement. Each panel is verified for proper engagement with adjacent panels and correct attachment to the substrate.'
+        title: 'Tear-Off and Deck Repair',
+        description:
+          'A Newark Quality Roofing crew strips the existing roof to the bare deck, inspects every sheathing section, and replaces deteriorated plywood or OSB, with complete removal of the existing covering required by N.J.A.C. 5:23-6.4 when the roof is water-soaked, is wood, slate, or tile, or already carries 2 or more layers.',
       },
       {
-        title: 'Custom Flashing and Trim',
-        description: 'All flashing, ridge caps, valley panels, and edge trim are custom-fabricated from matching metal and installed with watertight precision at every transition, penetration, and edge condition.'
+        title: 'Underlayment, Ice Barrier, and Metal Installation',
+        description:
+          'A Newark Quality Roofing crew installs a high-temperature underlayment and an ice barrier from the eave to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision, then installs the standing-seam, panel, or shingle metal to manufacturer specification, matching the system that keeps the manufacturer warranty intact.',
       },
       {
-        title: 'Final Inspection and Warranty',
-        description: 'Comprehensive inspection verifies panel alignment, fastener integrity, flashing seal, and overall appearance. Manufacturer warranty is registered for maximum coverage of both the metal panels and the paint finish system.'
-      }
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies the metal install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
+      },
     ],
     faqs: [
       {
-        question: 'Is a metal roof noisy during rain or hail?',
-        answer: 'When properly installed with solid sheathing and appropriate underlayment beneath the metal panels, a metal roof is no louder during rain than any other roofing material. The perception of noisy metal roofs comes from agricultural buildings and older structures where metal was installed directly over open framing without solid decking or insulation beneath. In a properly constructed residential or commercial roof assembly with sheathing, underlayment, and attic insulation, rain noise is effectively dampened and is not a practical concern.'
+        question: 'Should you repair or replace your roof?',
+        answer:
+          '**Replace a roof with metal when damage exceeds 25–30% of the roof area, one repair approaches 50% of replacement cost, or an asphalt roof passes its 20-to-30-year lifespan; repair when damage stays localized on asphalt under 10–15 years.** The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and a metal roof lasts 40 to 80 years against 20 to 30 for asphalt, per the InterNACHI life-expectancy chart.',
       },
       {
-        question: 'Will a metal roof attract lightning?',
-        answer: 'No. Metal roofing does not attract lightning. Lightning strikes are determined by the height, shape, and isolation of a structure, not by its surface material. In fact, if lightning does strike a metal roof, the metal dissipates the electrical charge over a broad area rather than concentrating it, and because metal is non-combustible, it does not ignite from a lightning strike the way wood shake or some other materials can. Metal roofing is actually considered safer than many alternatives in lightning-prone areas.'
+        question: 'How long does a metal roof last in New Jersey?',
+        answer:
+          '**A metal roof lasts 40 to 80 years, with copper at 70-plus years and standing-seam metal at 40 to 70 years, per the InterNACHI life-expectancy chart and This Old House.** A metal roof outlasts a 20-year 3-tab asphalt roof and a 30-year architectural asphalt roof by 2 to 4 times, per the InterNACHI life-expectancy chart.',
       },
       {
-        question: 'How does a metal roof perform in New Jersey snow and ice?',
-        answer: 'Metal roofing excels in snow and ice conditions because its smooth surface sheds snow efficiently, preventing the heavy snow accumulation that can stress structural members. Snow guards are installed at critical locations to control snow release and prevent dangerous sliding. Metal\'s impermeability means that ice dam conditions that would force water under asphalt shingles simply cannot penetrate a properly installed metal roof. For New Jersey\'s winter climate, metal roofing provides superior snow and ice performance.'
+        question: 'How much does a metal roof replacement cost in Essex County, NJ?',
+        answer:
+          '**A metal roof costs $9.00–$16.00 or more per square foot in New Jersey, roughly $1,130 per square, against $6.50–$11.00 per square foot for architectural asphalt**, per Josten Roofing and NJ guide pricing. NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, across NJ roofing-cost estimates. Newark Quality Roofing provides a free written estimate.',
       },
       {
-        question: 'Can metal roofing be installed over existing shingles?',
-        answer: 'In many cases, yes. Metal roofing can be installed over a single existing layer of asphalt shingles using battens or purlins that create an air space between the old shingles and the new metal panels. This approach saves the cost and time of tear-off and provides an additional insulating air layer. However, this method is not appropriate if the existing deck has damage that needs repair or if the existing layer is uneven enough to affect the metal panel installation. We evaluate each situation and recommend the approach that delivers the best result.'
+        question: 'What is the difference between standing-seam and metal-shingle roofing?',
+        answer:
+          '**Standing-seam metal runs continuous from ridge to eave with concealed fasteners under raised seams and lasts 40 to 70 years, while metal shingle interlocks in panels with fasteners in the weather plane and lasts 40 to 80 years, per This Old House and the InterNACHI life-expectancy chart.** Standing-seam metal conceals the fasteners that leak first on an exposed-fastener roof.',
       },
       {
-        question: 'What is the price difference between metal and asphalt shingle roofing?',
-        answer: 'Metal roofing typically costs two to three times more than architectural asphalt shingles for the initial installation. For a typical Essex County home, expect $25,000 to $45,000 for a metal roof compared to $12,000 to $22,000 for asphalt. However, when evaluated over a 50-year period, metal\'s longer life, lower maintenance, energy savings, and potential insurance premium reductions can make it comparable to or less expensive than the cumulative cost of two asphalt shingle roofs over the same period.'
+        question: 'Do you need a permit for a metal roof replacement in Newark, NJ?',
+        answer:
+          '**A complete re-roof of the roof covering with metal on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial roof or a structural change does require a permit.** The exemption covers the roof covering, not rafters, trusses, or ridge beams, per the NJ Uniform Construction Code.',
       },
       {
-        question: 'How much does metal roof replacement cost in Essex County, NJ?',
-        answer: 'Most metal roof replacement projects in Essex County range from $15,000–$35,000, metal roof replacement installed. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your metal replacements?',
-        answer: 'Property owners praise our **metal roof replacement** for *superior durability and modern aesthetics*. Reviews highlight the energy efficiency gains and dramatic curb appeal improvement.',
+        question: 'Does a metal roof lower energy costs in the New Jersey climate?',
+        answer:
+          '**A reflective metal roof stays more than 50°F cooler than a conventional roof on a sunny summer afternoon and reduces peak summer cooling demand, per the U.S. Department of Energy, while carrying a winter heating offset in the Essex County heating climate.** Net annual benefit depends on insulation and climate, per the U.S. Department of Energy.',
       },
       {
-        question: 'How experienced is your metal replacement team?',
-        answer: 'Our **metal roof replacement** crews have over 15 years of experience with standing seam and panel systems. This expertise ensures *proper thermal expansion, concealed fasteners, and watertight transitions*.',
+        question: 'Can a metal roof be installed over an existing roof in New Jersey?',
+        answer:
+          '**A metal roof goes over an existing single sound asphalt layer only where the deck is sound, but a tear-off is required when the existing covering is water-soaked, is wood, slate, or tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4.** A tear-off exposes the deck for inspection and repair that a recover hides, per ARMA and InterNACHI.',
       },
     ],
-  
-    pricing: {
-      range: '$15,000–$35,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Metal Roof Replacement',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$9.00–$16.00+ per square foot for most metal roofs',
+      factors: [
+        'A metal roof costs $9.00–$16.00 or more per square foot in New Jersey, roughly $1,130 per square, against $6.50–$11.00 for architectural asphalt, per Josten Roofing and NJ guide pricing.',
+        'Standing-seam metal costs more than exposed-fastener metal panel and metal shingle, because standing-seam panels run continuous from ridge to eave and conceal the fasteners, per This Old House.',
+        'Tear-off and deck repair add cost when the roof carries 2 or more existing layers or the sheathing is deteriorated, because N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof, per the NJ Rehabilitation Subcode.',
+        'NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, across NJ roofing-cost estimates.',
+        'Roof complexity adds cost, because valleys, dormers, and hips increase both metal fabrication and labor over a simple gable roof, per industry cost guidance.',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and discusses payment options at the estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Metal Roof Replacement?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that assess the deck, the roof slope, and the asphalt lifespan against the InterNACHI life-expectancy chart before a metal roof replacement quote.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 12. Slate Roof Replacement ───────────────────────────────────────────
+  // ─── 12. Slate Roof Replacement ───
   {
     serviceId: 'slate-roof-replacement',
+    directAnswer:
+      '**Newark Quality Roofing replaces slate roofs across Newark and Essex County, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners** as a New Jersey Home Improvement Contractor.',
     overview: [
-      '**Slate roof replacement** is one of the most specialized and prestigious roofing services available, involving the installation or restoration of natural stone roofing that represents the pinnacle of roofing craftsmanship, beauty, and longevity. **Natural slate** has been used as a roofing material for centuries, and a properly installed slate roof can serve a building for 75 to 200 years, making it the longest-lasting roofing material available. For property owners throughout Newark and **Essex County**, many of whom own historically significant homes and buildings that were originally roofed with slate, replacing or restoring a slate roof preserves both the architectural heritage and the extraordinary functional performance of this remarkable material.',
-      'Essex County\'s architectural heritage includes a significant inventory of slate-roofed buildings, from Victorian mansions in Montclair and South Orange to grand colonial homes in the Oranges, institutional buildings in Newark, and historic churches and civic structures throughout the region. Many of these slate roofs are 80 to 120 years old and have provided faithful service far exceeding what any other roofing material could have delivered. When these venerable roofs finally require replacement, the decision between installing new natural slate and substituting a modern alternative material requires careful consideration of the building\'s architectural significance, the owner\'s long-term plans, and budget realities.',
-      'Newark Quality Roofing maintains a dedicated slate roofing capability that is increasingly rare in the modern roofing industry. Slate installation requires specialized skills, tools, and knowledge that differ fundamentally from standard roofing work: understanding slate grades and thicknesses, proper nail hole placement that prevents cracking, graduated installation techniques for varying slate sizes, specialized copper flashing fabrication, and the structural understanding to work with the heavier loads that natural slate imposes. Our slate craftsmen bring this specialized expertise to every slate project we undertake.'
+      '**Newark Quality Roofing replaces 2 slate roof systems across Essex County: natural quarried slate and synthetic composite slate** — for the historic and high-end residential housing stock. Slate roof replacement strips the existing slate to the deck, repairs the sheathing, and reinstalls slate on non-ferrous fasteners, the work that renews a slate roof when corroded fasteners and degraded flashing, not the slate itself, end its service life.',
+      'Natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association, and properly installed slate lasts 60 to 125 years or longer, per NPS Preservation Brief 29, while synthetic slate lasts 10 to 35 years per the InterNACHI chart and premium composite slate is designed for 40 to 50 years per CertainTeed product literature. A slate roof outlives its underlayment and copper or stainless fasteners, so a Newark Quality Roofing slate roof replacement renews the fastening and underlayment system the slate hangs on.',
     ],
-    signsHeading: 'When Your Slate Roof Needs Replacement',
+    subServices: [
+      {
+        name: 'Natural slate roof replacement',
+        description:
+          'Natural slate roof replacement reinstalls quarried slate that lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association, on solid copper or stainless slater\'s nails set so the slate hangs on the shank rather than driven tight, per NPS Preservation Brief 29.',
+      },
+      {
+        name: 'Synthetic slate roof replacement',
+        description:
+          'Synthetic slate roof replacement installs composite slate that lasts 10 to 35 years per the InterNACHI chart, with premium composite slate designed for 40 to 50 years per CertainTeed product literature, on the proprietary fasteners the polymer tile requires against high thermal movement.',
+      },
+      {
+        name: 'Slate deck and underlayment renewal',
+        description:
+          'Slate deck and underlayment renewal strips the slate to the bare sheathing and replaces the underlayment and any deteriorated decking, because a slate roof cannot be recovered over and a slate replacement is always a full tear-off and reinstall, per N.J.A.C. 5:23-6.4.',
+      },
+      {
+        name: 'Slate flashing replacement',
+        description:
+          'Slate flashing replacement rebuilds the valley, chimney, and wall flashing in a durable metal matched to the slate\'s service life — copper, lead-coated copper, or terne-coated stainless steel — per NPS Preservation Brief 29, because degraded flashing, not the slate, is the common slate-roof leak source.',
+      },
+    ],
+    signsHeading: 'Warning Signs Your Slate Roof Needs Replacement',
     signs: [
-      'A majority of the slates have become delaminated, meaning they are splitting into layers along their natural cleavage planes, which indicates that the stone has reached the end of its weather resistance life and individual slate replacement can no longer keep pace with the rate of failure.',
-      'The fastening system, typically copper or galvanized steel nails, has corroded to the point where slates are sliding out of position under their own weight or during wind events, indicating that the fasteners rather than the stone are the failing component of the system.',
-      'Extensive use of face-nailed or tin-tabbed repair slates indicates that decades of individual repairs have compromised the original installation pattern, creating an increasingly unreliable patchwork that no longer provides consistent weather protection.',
-      'The wood lath or skip sheathing beneath the slate has deteriorated from decades of moisture exposure through failed slates, creating soft or missing sections that can no longer hold fasteners securely.',
-      'More than 20 to 30 percent of the slates have been replaced with mismatched repair slates of different sizes, colors, or thicknesses, creating an uneven appearance and inconsistent performance that detracts from the building\'s architectural character.',
-      'Structural assessment has revealed that the roof framing, which has carried the heavy weight of slate for many decades, has deteriorated, sagged, or shifted to the point where repairs are necessary before any new roofing material can be safely installed.'
+      '**Broken, cracked, missing, or sliding slate across 20% or more of a roof slope** crosses the threshold where full replacement costs less than individual repairs, per NPS Preservation Brief 29, because below 20% selective slate repair is preferred.',
+      '**Corroded fasteners that let slate tiles slide out of position** end a slate roof\'s service life, because plain steel and galvanized nails rust out long before the slate itself deteriorates, per NPS Preservation Brief 29, so a slate roof on ferrous nails fails at the fastening rather than the stone.',
+      '**Degraded valley, chimney, and wall flashing** admits water at the slate transitions, the common slate-roof leak source, because flashing failure is a major cause of historic roof deterioration, per NPS Preservation Brief 4.',
+      '**Powdery surface weathering, or sugaring, on lower-grade slate** indicates the slate breaking down at the surface, a sign that points toward replacement rather than tile-by-tile repair on a roof of failing slate.',
+      '**A spongy or sagging roof deck under the slate** indicates moisture-rotted sheathing from years of trapped water, a structural condition that points toward full replacement rather than a surface patch, per GAF inspection guidance.',
+      '**Synthetic slate tiles warped, cracked, or color-faded across 20 to 25% of the roof** signal replacement, because composite slate does not allow the indefinite tile-by-tile replacement natural slate does once the polymer degrades.',
+      '**A slate roof past 100 years with widespread fastener and flashing failure** reaches the practical end of service even though the slate stays sound, because the underlayment and copper or stainless fasteners wear out before the stone, per the National Slate Association.',
     ],
-    approachHeading: 'Our Slate Roof Replacement Expertise',
+    approachHeading: 'How We Replace a Slate Roof',
     approachContent: [
-      'Slate replacement begins with a thorough assessment of the building\'s architectural significance, structural condition, and the owner\'s goals for the project. For architecturally significant or landmarked buildings, preservation of the slate roof in kind may be required by local historic preservation regulations, and we work within these requirements to deliver appropriate solutions. For buildings where material choice is flexible, we present the full range of options from new natural slate to synthetic slate alternatives that can replicate the appearance at a lower cost and lighter weight.',
-      'When new natural slate is selected, sourcing becomes a critical early step. Roofing slate is quarried from specific geological formations, and the quality, color, and expected longevity vary dramatically between sources. We source our slate from quarries with proven track records for producing durable roofing stone, and we specify the grade, thickness, and color range that will best serve each project. For projects matching existing historic slate, we work with salvage suppliers and specialty quarries to obtain the closest possible match to the original stone.',
-      'Installation of natural slate follows time-tested techniques that have been refined over centuries. Each slate is individually inspected, sorted by thickness, cut to size where necessary, and installed with copper nails in pre-punched holes that prevent cracking. Slate courses follow a specific pattern of overlaps and offsets that ensures three layers of protection at every point on the roof. All flashing is fabricated from copper, which matches the longevity of the slate and develops a patina that complements the stone\'s natural beauty over time.',
-      'For clients who choose synthetic slate alternatives, we install these products with the same attention to detail and precision that natural slate demands. Quality synthetic slate products made from polymer, rubber, or fiber cement can closely replicate the appearance of natural slate while offering lighter weight, lower cost, and in some cases, Class 4 impact resistance. We provide honest guidance about the trade-offs between natural and synthetic slate so you can make an informed decision.'
+      '**Newark Quality Roofing contractors document the existing slate roof, then rate it against the 20% replacement threshold before quoting, because slate is repaired rather than replaced whenever fewer than 20% of the slates are broken, cracked, missing, or sliding.** A slate roof with 20% or more of the slates broken, cracked, missing, or sliding out of position is usually less expensive to replace than to repair individually, per NPS Preservation Brief 29, and a Newark Quality Roofing assessment records the slate pattern, coursing, color, and dimensions before work begins, per NPS Preservation Brief 4. A Newark Quality Roofing crew avoids walking on the slate, because walking on slate breaks the brittle tiles, per NPS Preservation Brief 29.',
+      '**Newark Quality Roofing strips the slate to the deck and reinstalls natural or synthetic slate on non-ferrous fasteners, because a slate roof cannot be recovered over and a slate replacement is always a full tear-off and reinstall.** A slate roof requires complete removal of the existing covering with no recover-over, per N.J.A.C. 5:23-6.4, so a slate replacement strips the slate to the sheathing, renews the underlayment, and replaces deteriorated decking. Natural slate reinstalls on solid copper or stainless slater\'s nails set so the slate hangs on the shank, never driven tight, because plain steel and galvanized nails rust out long before the slate, per NPS Preservation Brief 29, and a broken slate is replaced with a ripper and a copper strip or metal hook rather than mastic.',
+      '**Newark Quality Roofing matches the new slate, fasteners, and flashing to the Essex County climate and the slate\'s service life, never coating or sealing the slate.** Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR), driving freeze-thaw stress that the copper strip method does not withstand in northern climates where snow and ice fold the tab, so a Newark Quality Roofing slate repair uses metal hooks per NPS Preservation Brief 29. Flashing matches the slate in a durable metal — copper, lead-coated copper, or terne-coated stainless steel, per NPS Preservation Brief 29 — and slate is never coated, sealed, or painted, because sealing slate to keep out moisture historically worsens the problem.',
     ],
-    approachSubheadings: ['Authentic Slate Material Sourcing', 'Structural Preparation for Slate', 'Century-Long Investment Value'],
+    approachSubheadings: [
+      'Documentation and the 20% Replacement Threshold',
+      'Tear-Off and Reinstallation on Non-Ferrous Fasteners',
+      'Climate-Matched Slate, Flashing, and Technique',
+    ],
     residential: {
-      heading: 'Residential Slate Roof Replacement',
+      heading: 'Residential Slate Roof Replacement in Newark',
       content: [
-        'For owners of Essex County\'s many architecturally distinguished homes, a slate roof is more than a roofing material; it is a defining element of the home\'s character and value. The slate roofs on Victorian, Georgian, Tudor, and Colonial homes throughout Montclair, Glen Ridge, South Orange, Maplewood, and the Oranges are integral to the architectural heritage that makes these communities desirable. Replacing a slate roof with care and craftsmanship preserves this heritage while providing your home with a century or more of continued protection.',
-        'The cost of natural slate roof replacement is substantial, typically three to five times the cost of premium asphalt shingles, reflecting the material cost of quarried stone, the specialized labor required for proper installation, and the copper flashing and accessories that accompany a quality slate installation. However, evaluated on a per-year-of-service basis, slate is often the most economical roofing material available because its 100-plus year lifespan amortizes the initial cost over a far longer period than any alternative.',
-        'Synthetic slate options provide homeowners with the appearance of natural slate at approximately 50 to 70 percent of the installed cost and with significantly lighter weight that can be advantageous on homes where structural capacity is a concern. We install premium synthetic slate products from manufacturers including DaVinci and Brava that provide remarkably convincing replications of natural slate in a wider range of colors and profiles than natural stone offers.',
-        'Historic preservation requirements in some Essex County communities may mandate specific materials, colors, and installation methods for roof replacement on designated historic properties. We are experienced with the review processes of local historic preservation commissions and can prepare applications, attend hearings, and ensure that our replacement work meets all applicable preservation standards.'
+        '**Newark Quality Roofing replaces residential slate roofs across Essex County, reinstalling natural or synthetic slate on detached one- and two-family homes, including the historic and character housing stock, with no construction permit required for the roof covering.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit.',
+        'A Newark Quality Roofing residential slate replacement documents the existing slate pattern, coursing, and color before tear-off, per NPS Preservation Brief 4, reinstalls natural slate on solid copper or stainless slater\'s nails, per NPS Preservation Brief 29, and replaces decking rotted under the old slate. A slate roof on a property in a designated local historic district or local landmark in Newark, Montclair, or Glen Ridge requires a Certificate of Appropriateness from the municipal Historic Preservation Commission before exterior work, per N.J.S.A. 40:55D-107, separate from any construction permit, so a Newark Quality Roofing slate replacement coordinates with the owner\'s Historic Preservation Commission review.',
       ],
-      ctaLabel: 'Discuss Your Slate Roof Project'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial and Institutional Slate Roofing',
+      heading: 'Commercial and Institutional Slate Roof Replacement',
       content: [
-        'Historic churches, academic buildings, government structures, and commercial properties with slate roofs present unique challenges that combine the technical demands of slate work with the scale and complexity of commercial construction. Our commercial slate work includes complete replacement for institutional buildings, phased replacement programs that address the most deteriorated sections over multiple budget years, and selective restoration that replaces failed slates while preserving the intact majority of a roof that still has decades of remaining service life.',
-        'For institutional clients, we provide detailed condition assessments that quantify the percentage of failed slates, the condition of flashings and fasteners, the structural condition of the supporting framework, and the estimated remaining service life of the existing installation. These assessments support capital planning decisions about whether to pursue full replacement, phased replacement, or continued maintenance with periodic individual slate replacement.',
-        'Commercial slate projects require coordination with building operations, tenant or congregation scheduling, and often with historic preservation oversight that adds review and approval steps to the project timeline. Our project management accounts for these coordination requirements and develops schedules that accommodate the unique needs of each institutional client.'
+        '**Newark Quality Roofing replaces slate roofs on historic churches, civic buildings, and institutional properties across Essex County, applying the same natural-slate tear-off and reinstallation technique used on a residential slate roof.** Slate on a commercial or institutional building reinstalls on solid copper or stainless slater\'s nails with copper, lead-coated copper, or terne-coated stainless steel flashing matched to the slate\'s service life, per NPS Preservation Brief 29.',
+        'On a commercial or institutional building, a slate roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. A slate roof requires complete removal of the existing covering, with no recover-over, because slate is listed among the coverings that cannot be roofed over, per N.J.A.C. 5:23-6.4, so a Newark Quality Roofing commercial slate replacement strips the slate to the deck and renews the underlayment and flashing.',
       ],
-      ctaLabel: 'Request Institutional Slate Assessment'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Comprehensive Slate Assessment',
-        description: 'We evaluate the existing slate condition, fastener integrity, flashing status, structural adequacy, and overall remaining service life. This assessment informs the scope recommendation and material specification.'
+        title: 'Documentation and Slate Assessment',
+        description:
+          'A Newark Quality Roofing technician photographs, measures, and records the slate pattern, coursing, color, and dimensions, per NPS Preservation Brief 4, and rates the roof against the 20% replacement threshold, per NPS Preservation Brief 29, before quoting the replacement.',
       },
       {
-        title: 'Material Sourcing and Specification',
-        description: 'For natural slate, we identify the appropriate quarry source, grade, thickness, and color to match the building\'s requirements. For synthetic alternatives, we specify the product that best replicates the desired appearance.'
+        title: 'Written Estimate and Slate Selection',
+        description:
+          'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents natural slate at a 60-to-150-year life per the InterNACHI chart and synthetic composite slate at 40 to 50 years per CertainTeed literature, with matching in-kind slate samples approved before full installation, per the NPS Preservation Briefs.',
       },
       {
-        title: 'Structural Preparation',
-        description: 'Existing slate and deteriorated underlayment are removed, the roof structure is inspected and repaired, and new sheathing or lath is installed as needed to provide a sound substrate for the new installation.'
+        title: 'Historic Review and Permit Coordination',
+        description:
+          'A Newark Quality Roofing crew coordinates a Certificate of Appropriateness from the municipal Historic Preservation Commission where the property is a designated local landmark or in a local historic district, per N.J.S.A. 40:55D-107, and files a construction permit where a commercial or structural job triggers one, per N.J.A.C. 5:23-2.7.',
       },
       {
-        title: 'Copper Flashing Fabrication',
-        description: 'All flashing components are custom-fabricated from copper to match the longevity of the slate. Valleys, step flashing, counter flashing, and edge conditions are fabricated to the specific dimensions of your roof.'
+        title: 'Tear-Off and Deck Renewal',
+        description:
+          'A Newark Quality Roofing crew strips the slate to the bare deck, because a slate roof cannot be recovered over and requires complete removal of the existing covering, per N.J.A.C. 5:23-6.4, then inspects every sheathing section and replaces deteriorated decking and underlayment.',
       },
       {
-        title: 'Slate Installation',
-        description: 'Individual slates are inspected, sorted, and installed course by course with copper fasteners, proper overlaps, and correct offset patterns. Each slate is verified for sound quality before installation.'
+        title: 'Slate Reinstallation on Non-Ferrous Fasteners',
+        description:
+          'A Newark Quality Roofing crew reinstalls natural slate on solid copper or stainless slater\'s nails set so the slate hangs on the shank rather than driven tight, because plain steel and galvanized nails rust out long before the slate, per NPS Preservation Brief 29, with copper, lead-coated copper, or terne-coated stainless steel flashing at the valleys and transitions.',
       },
       {
-        title: 'Final Inspection and Documentation',
-        description: 'Completed installation is inspected from both exterior and attic perspectives, photographed for records, and documented with material specifications and sourcing information for future maintenance reference.'
-      }
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies watertight execution without coating or sealing the slate, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, per Integrity Home Exteriors verification and cleanup guidance.',
+      },
     ],
     faqs: [
       {
-        question: 'How long does a new slate roof actually last?',
-        answer: 'The lifespan of a slate roof depends primarily on the quality and grade of the slate stone used. Hard, dense slates from premium quarries can last 150 to 200 years. Standard roofing-grade slate typically lasts 75 to 125 years. Softer grades may last 50 to 75 years. The slate that was originally installed on most Essex County homes in the late 1800s and early 1900s was typically of good quality, which is why many of those roofs are still functioning after more than a century. We specify comparable quality for replacement installations.'
+        question: 'Should you repair or replace your slate roof?',
+        answer:
+          '**Replace a slate roof when 20% or more of the slates on a slope are broken, cracked, missing, or sliding, or when the fasteners and flashing have failed across the roof; repair selectively below 20%.** The 20% threshold traces to NPS Preservation Brief 29, and natural slate is repaired rather than replaced whenever possible because individual slates replace indefinitely while the deck and fasteners stay sound, per the National Slate Association.',
       },
       {
-        question: 'Can I replace my slate roof with asphalt shingles instead?',
-        answer: 'Technically, yes, but we encourage careful consideration before making this change. Replacing slate with asphalt dramatically reduces the roof\'s lifespan from over a century to about 25 years, permanently changes the building\'s architectural character, and may reduce property value, particularly in neighborhoods where slate roofs are common and valued. If budget requires a less expensive material, synthetic slate products can approximate the appearance of natural slate at a lower cost while providing 50 or more years of service life.'
+        question: 'How long does a slate roof last?',
+        answer:
+          '**Natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association, and properly installed slate lasts 60 to 125 years or longer, per NPS Preservation Brief 29.** Synthetic composite slate lasts 10 to 35 years per the InterNACHI chart, with premium composite designed for 40 to 50 years per CertainTeed product literature.',
       },
       {
-        question: 'Is slate roof replacement possible in the winter months?',
-        answer: 'Slate installation can be performed in cold weather because slate does not have the adhesive seal strips that make asphalt shingles temperature-sensitive. However, cold weather makes the slates more brittle and susceptible to breakage during handling, and ice or snow on the roof creates safety hazards for workers handling heavy stone on steep slopes. We prefer to schedule slate projects during warmer months when possible, though we can perform slate work year-round when weather conditions on any given day are suitable for safe, quality installation.'
-      },
-      {
-        question: 'What does slate roof replacement cost in the Essex County area?',
-        answer: 'Natural slate roof replacement in Essex County typically ranges from $30,000 to $75,000 or more for residential projects, depending on roof size, complexity, the grade of slate selected, and structural repair requirements. Synthetic slate alternatives typically cost $20,000 to $45,000 for the same roof. These investments reflect the premium nature of slate roofing and the specialized craftsmanship required. The per-year cost of a natural slate roof, calculated over its 100-plus year lifespan, is often lower than the per-year cost of asphalt shingles that require replacement every 25 years.'
-      },
-      {
-        question: 'Can individual broken slates be replaced rather than doing a full replacement?',
-        answer: 'Yes, individual slate replacement is a standard maintenance technique and is the appropriate approach when the majority of slates and the underlying structure remain in good condition. A skilled slate roofer can remove broken slates and install matching replacements using copper hooks or tabs. Full replacement becomes advisable when individual failures have become so frequent that annual repair costs are substantial, or when the underlying fasteners or structure have deteriorated to the point where individual repairs no longer provide lasting results.'
+        question: 'Can a slate roof be roofed over instead of replaced?',
+        answer:
+          '**A slate roof cannot be roofed over, because slate is listed among the coverings that require complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4.** A slate roof replacement is always a full tear-off and reinstall, stripping the slate to the deck to renew the underlayment and fasteners the slate hangs on.',
       },
       {
         question: 'How much does slate roof replacement cost in Essex County, NJ?',
-        answer: 'Most slate roof replacement projects in Essex County range from $20,000–$45,000, slate roof replacement or restoration. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your slate replacements?',
-        answer: 'Homeowners rate our **slate roof replacement** for *artisan-quality installation*. Reviews highlight our ability to source authentic natural slate and install it with traditional techniques.',
+        answer:
+          '**Slate roof installation in New Jersey costs $10–$30 per square foot, roughly $1,500 per roofing square, per named NJ roofing guides.** NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, and slate is the longest-lasting roofing material at 60 to 150 years, per the InterNACHI life-expectancy chart. Newark Quality Roofing provides a free written estimate.',
       },
       {
-        question: 'How experienced is your slate replacement team?',
-        answer: 'Our **slate** specialists have over 15 years of experience with natural slate roofing. This *rare expertise* ensures proper installation techniques that maximize the 100+ year lifespan of natural slate.',
+        question: 'What fasteners does a slate roof require?',
+        answer:
+          '**A natural slate roof requires non-ferrous fasteners — solid copper or stainless slater\'s nails — set so the slate hangs on the shank rather than driven tight, per NPS Preservation Brief 29.** Plain steel and galvanized nails rust out long before the slate deteriorates, and a broken slate is replaced with a ripper and a copper strip or metal hook rather than mastic.',
+      },
+      {
+        question: 'Does a slate roof on a historic home in Newark need approval to replace?',
+        answer:
+          '**A slate roof on a designated local landmark or a property in a designated local historic district requires a Certificate of Appropriateness from the municipal Historic Preservation Commission before exterior work, per N.J.S.A. 40:55D-107.** A Certificate of Appropriateness is separate from a construction permit, and per the National Park Service, National Register listing alone places no restriction on a private owner.',
       },
     ],
-  
-    pricing: {
-      range: '$20,000–$45,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Slate Roof Replacement',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$10–$30 per square foot for most slate roofs',
+      factors: [
+        'Slate installation in New Jersey costs $10–$30 per square foot, roughly $1,500 per roofing square, per named NJ roofing guides.',
+        'Slate tear-off and removal runs $2–$5 per square foot for the labor a recover cannot avoid, because slate cannot be roofed over and a slate replacement is always a full tear-off, per HomeGuide and N.J.A.C. 5:23-6.4.',
+        'Natural slate costs more than synthetic composite slate, because natural slate lasts 60 to 150 years against 10 to 35 years for synthetic slate, per the InterNACHI life-expectancy chart, with premium composite at 40 to 50 years per CertainTeed literature.',
+        'Copper, lead-coated copper, and terne-coated stainless steel flashing add cost over standard flashing, because the flashing matches the slate\'s long service life, per NPS Preservation Brief 29.',
+        'Labor and NJ code drive the total, and NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors.',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and discusses payment options at the estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Slate Roof Replacement?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Slate Technique to the NPS Briefs',
+          description:
+            'Newark Quality Roofing reinstalls slate on solid copper or stainless slater\'s nails with copper or lead-coated copper flashing, the technique set by NPS Preservation Brief 29 and the National Slate Association, and never coats or seals the slate.',
+        },
+        {
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that rate a slate roof against the 20% replacement threshold from NPS Preservation Brief 29 before a replacement quote.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and institutional slate roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, Irvington, and Glen Ridge, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
 
-  // ─── 13. Tile Roof Replacement ────────────────────────────────────────────
+  // ─── 13. Tile Roof Replacement ───
   {
     serviceId: 'tile-roof-replacement',
+    directAnswer:
+      '**Newark Quality Roofing replaces clay and concrete tile roofs across Essex County, stripping the tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure** as a New Jersey Home Improvement Contractor.',
     overview: [
-      '**Tile [roof replacement](/roof-replacement)** brings the timeless beauty, exceptional durability, and fire-resistant performance of clay or **concrete tile** roofing to properties throughout Newark and **Essex County**. Tile roofing has been protecting buildings in demanding climates for thousands of years, and modern tile products continue this legacy with manufacturing precision, consistent quality, and color options that far exceed what was available in previous generations. Whether you are replacing an existing tile roof that has reached end of life or upgrading from another material to the distinctive character and superior longevity that tile provides, a tile roof replacement transforms your building\'s appearance while providing protection that can last 50 to 100 years or more.',
-      'Tile roofing is particularly well-suited to certain architectural styles that are well-represented in Essex County\'s diverse building stock: **Mediterranean** and Spanish colonial designs gain authenticity from barrel-shaped **clay tile**s, Tudor and European-influenced homes benefit from flat or interlocking tile profiles, and contemporary designs can leverage the clean lines and bold colors of modern concrete tile. The aesthetic impact of a tile roof is immediate and dramatic, creating a visual statement that sets the building apart and contributes lasting value to the property and its neighborhood.',
-      'Newark Quality Roofing\'s tile roofing capabilities encompass both clay and concrete tile systems in the full range of profiles including barrel, S-tile, flat, and interlocking designs. Tile installation requires specialized knowledge of the structural support systems, underlayment requirements, fastening methods, and detail work that differs substantially from conventional roofing. Our tile roofing installers bring this specialized expertise to every project, ensuring that the tile system is installed to perform at the level its material quality deserves.'
+      '**Newark Quality Roofing replaces 2 tile roof systems across Essex County: clay tile and concrete tile** — for residential properties, with select commercial and civic buildings. Tile roof replacement strips the tile and the worn underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system, the work that resets a tile roof when the underlayment fails beneath tile that still has decades of service left.',
+      'Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment is the real service-life limiter, failing well before the tile, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing tile replacement renews the underlayment and flashing while salvaging or matching the tile profile.',
     ],
-    signsHeading: 'When Your Tile Roof Needs Replacement',
+    subServices: [
+      {
+        name: 'Clay tile roof replacement',
+        description:
+          'Clay tile roof replacement installs natural clay tile that lasts 75 to 100-plus years, per the Tile Roofing Industry Alliance, on Mediterranean and Spanish-revival homes where the tile outlives the underlayment beneath it.',
+      },
+      {
+        name: 'Concrete tile roof replacement',
+        description:
+          'Concrete tile roof replacement installs concrete tile that lasts 40 to 75 years, per the Tile Roofing Industry Alliance, and resists the freeze-thaw spalling and efflorescence that age concrete tile in the Essex County climate.',
+      },
+      {
+        name: 'Underlayment replacement under salvaged tile',
+        description:
+          'Underlayment replacement under salvaged tile lifts and re-lays sound tile over a new underlayment, because the underlayment fails well before the tile, the real repair-vs-replace trigger, per the Tile Roofing Industry Alliance and This Old House.',
+      },
+      {
+        name: 'Tile-to-deck tear-off',
+        description:
+          'Tile-to-deck tear-off strips clay or concrete tile to the bare sheathing, the work N.J.A.C. 5:23-6.4 requires because a tile roof cannot be roofed-over and the deck takes complete removal of the existing covering, per the NJ Rehabilitation Subcode.',
+      },
+    ],
+    signsHeading: 'Warning Signs Your Tile Roof Needs Replacement',
     signs: [
-      'Widespread cracking, chipping, or breaking of tiles across the roof surface indicates that the tile material has become brittle from age, freeze-thaw cycling, or manufacturing defects, and individual replacement can no longer keep pace with the rate of failure.',
-      'The underlayment beneath the tiles has deteriorated after decades of service, allowing water to penetrate even where the tiles themselves remain intact. Underlayment failure is common in tile roofs over 40 years old and requires complete tile removal for underlayment replacement.',
-      'Tile attachment systems, whether mortar bedding, wire ties, or mechanical fasteners, have failed across broad areas, causing tiles to shift, slide, or become dislodged during wind events, creating both leak vulnerability and falling-tile safety hazards.',
-      'The wood battens or lath strips that support the tiles have rotted from moisture exposure through cracked tiles or failed underlayment, creating soft areas that can no longer hold tiles securely in position.',
-      'Significant efflorescence, staining, or biological growth that cannot be cleaned indicates surface deterioration of concrete tiles or glaze failure on clay tiles, reducing both the aesthetic appeal and the weather resistance of the tile surface.',
-      'Structural concerns have been identified beneath the tile roof, including sagging rafters or trusses that have been stressed by the heavy weight of tile over many decades and need reinforcement or replacement before new tiles can be safely installed.'
+      '**Interior leaks and ceiling stains under intact tile** indicate failed underlayment rather than failed tile, because the underlayment fails well before the tile and is the real service-life limiter on a tile roof, per the Tile Roofing Industry Alliance and This Old House.',
+      '**Slipped, displaced, or sliding tile across the field** indicates corroded fasteners and a deteriorated underlayment that no longer holds the tile course, per the Tile Roofing Industry Alliance, where the structural detail fails rather than the tile.',
+      '**Broken or cracked tile across more than 20 to 25% of clay or 15 to 20% of concrete** crosses the contractor-consensus replacement threshold for a tile roof, per industry repair-vs-replace guidance, because tile cannot be patched and takes a matching-profile replacement.',
+      '**Spalling and surface flaking on concrete tile** indicates freeze-thaw damage from Essex County winters, because Newark crosses the 32°F freezing point repeatedly with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR).',
+      '**Deteriorated valley, headwall, and chimney flashing** under tile admits water at the transitions, because flashing seals the roof transitions that roughly 90 to 95% of leaks trace back to, an industry estimate attributed to the NRCA.',
+      '**A spongy or sagging roof deck under the tile** indicates moisture-rotted sheathing from years of underlayment leakage, a structural condition that points toward full replacement rather than a tile-by-tile patch, per GAF inspection guidance.',
+      '**Daylight through the roof deck** seen from inside the attic under a tile roof indicates holes in the decking and a failed underlayment, a sign that points toward replacement rather than a patch, per This Old House.',
+      '**A tile roof past 50 years with an original underlayment** reaches the point where the underlayment outlives its service even as the tile holds, because clay tile lasts 75 to 100-plus years and concrete 40 to 75 years while the underlayment fails sooner, per the Tile Roofing Industry Alliance.',
     ],
-    approachHeading: 'Our Tile Roof Replacement Process',
+    approachHeading: 'How We Replace a Tile Roof',
     approachContent: [
-      'Tile replacement begins with structural verification because tile roofing is among the heaviest roofing materials, typically weighing 8 to 12 pounds per square foot compared to 2 to 4 pounds for asphalt shingles. If you are converting from a lighter material to tile, structural reinforcement is likely required. If you are replacing existing tile, the structure has been carrying this weight for years but may need assessment for fatigue or deterioration. We coordinate structural evaluation with engineering professionals to ensure your building can safely support the new tile installation.',
-      'Tile selection involves choices of material (clay or concrete), profile (barrel, flat, S-tile, or interlocking), color, and finish (natural, glazed, or coated) that collectively define the aesthetic character of the finished roof. We provide physical samples and, when possible, arrange visits to completed projects so you can see your selected tile installed at scale. Color selection for tile is particularly important because tile color is permanent and does not fade like painted or coated materials, so the initial color choice will be the color you live with for the life of the roof.',
-      'The installation process includes a robust underlayment system beneath the tiles that provides secondary waterproofing during the decades of service life. We install heavy-duty underlayment rated for tile applications, with enhanced protection in valleys, at eaves, and around penetrations. Battens are installed over the underlayment to create the drainage plane and tile attachment points, and each tile is mechanically fastened to resist the wind uplift forces that our area experiences during nor\'easters and severe storms.',
-      'Ridge, hip, and edge details are the finishing touches that distinguish a quality tile installation from basic work. We install ridge tiles with weather-tight mortar or mechanical attachment, hip tiles with proper alignment and weatherproofing, and custom-cut edge tiles that present clean, finished lines at all roof perimeters. These details require patience and craftsmanship that define the overall quality of the finished installation.'
+      '**Newark Quality Roofing contractors verify the deck and framing carry the tile dead load and rate the underlayment before quoting a tile replacement, because tile is heavy and the structure carries the load while the underlayment, not the tile, sets the service life.** Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, and the underlayment fails well before the tile, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing assessment confirms structural capacity for the tile weight and dates the underlayment that drives the replacement. A tile roof cannot be roofed-over, so the assessment plans a tear-off to the deck, per N.J.A.C. 5:23-6.4.',
+      '**Newark Quality Roofing matches the tile system to the building and the Essex County climate from 2 tile classes: clay tile and concrete tile.** Clay tile lasts 75 to 100-plus years on Mediterranean and Spanish-revival homes, and concrete tile lasts 40 to 75 years, per the Tile Roofing Industry Alliance, and Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR), driving the freeze-thaw spalling and efflorescence that age concrete tile. A Newark Quality Roofing tile replacement salvages sound tile and matches the profile of replacement tile to the existing roof, because tile cannot be patched and takes a matching-profile course.',
+      '**Newark Quality Roofing strips the tile and the failed underlayment to the deck, repairs the sheathing, installs an ice barrier and a tile-rated underlayment, and re-lays the tile to manufacturer specification, the sequence that resets the service life on the underlayment that limits it.** A full tear-off exposes the deck for inspection and replacement of plywood or OSB rotted under the old underlayment, the work the NJ Rehabilitation Subcode requires because a clay or concrete tile covering cannot be roofed-over and takes complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4. The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code.',
     ],
-    approachSubheadings: ['Clay and Concrete Tile Options', 'Structural Load Engineering', 'Mediterranean Style Restoration'],
+    approachSubheadings: [
+      'Structural Load and Underlayment Assessment',
+      'Clay and Concrete Tile Selection',
+      'Tear-Off, Underlayment, and Tile Installation',
+    ],
     residential: {
-      heading: 'Tile Roofing for Essex County Homes',
+      heading: 'Residential Tile Roof Replacement in Newark',
       content: [
-        'For homeowners with Mediterranean, Spanish, European, or contemporary architectural styles, a tile roof is the most authentic and visually impactful roofing choice available. The homes of Essex County include numerous architectural styles that are beautifully complemented by tile roofing, and a tile replacement transforms these homes into the neighborhood landmarks they were designed to be.',
-        'The investment in a residential tile roof is significant but justified by the material\'s extraordinary longevity and the dramatic aesthetic impact it provides. Clay tile roofs routinely last 75 to 100 years, and concrete tile roofs typically provide 50 to 75 years of service, making tile a multi-generational investment that can serve your family and future owners for the better part of a century. When evaluated on a per-year cost basis, tile is competitive with materials that cost far less initially but require replacement two or three times during the period a single tile roof continues to perform.',
-        'Maintenance requirements for tile roofs are minimal compared to most other roofing materials. The tile surface resists algae growth, does not deteriorate from UV exposure, and maintains its color permanently without fading. Occasional inspection to identify cracked tiles and periodic cleaning to remove debris from valleys and gutters are the primary maintenance activities, and annual maintenance costs are typically a fraction of what asphalt or wood roofs require.',
-        'We understand that the weight of tile roofing is a concern for homeowners, particularly those in older homes that were not originally designed for tile. Our structural assessment identifies whether reinforcement is needed and, if so, the most cost-effective approach to achieving the required load capacity. In many cases, the reinforcement required is modest and adds only a small percentage to the overall project cost.'
+        '**Newark Quality Roofing replaces residential clay and concrete tile roofs across Essex County, re-roofing detached one- and two-family homes with no construction permit required for the roof covering.** A complete tear-off and replacement of the tile covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses to carry the tile load triggers a permit.',
+        'A new roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis, so a tile replacement returns value at sale alongside the long tile life of 75 to 100-plus years for clay, per the Tile Roofing Industry Alliance. A Newark Quality Roofing residential tile replacement installs an ice barrier at the eaves per the IRC R905.1.2 ice-barrier provision, replaces decking rotted under the old underlayment, and contains debris with ground tarps and a magnet sweep for nails before leaving the property across Newark, East Orange, Bloomfield, Montclair, Belleville, Irvington, and Glen Ridge.',
       ],
-      ctaLabel: 'Explore Tile Roofing for Your Home'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial Tile Roof Replacement',
+      heading: 'Commercial and Civic Tile Roof Replacement',
       content: [
-        'Commercial properties with tile roofs include hospitality buildings, religious facilities, institutional structures, retail centers with architectural character, and multi-family residential properties where tile contributes to the building\'s market positioning and brand identity. For these properties, tile roof replacement preserves and enhances the architectural character that is integral to the building\'s identity and value proposition.',
-        'Commercial tile projects require careful logistical planning due to the weight of materials, the specialized equipment needed for tile handling, and the phasing requirements of occupied buildings. We develop detailed project plans that address material staging and crane placement, crew access paths that protect finished surfaces, noise and dust management for tenant-sensitive environments, and phased installation schedules that maintain weather protection throughout the project.',
-        'For commercial tile replacement, we provide the engineering documentation, permit coordination, and warranty structures that commercial property management requires. Our project documentation includes structural engineering certification, material test reports, installation compliance verification, and manufacturer warranty registration that supports the property\'s maintenance records and insurance requirements.',
-        'Essex County\'s diverse commercial building stock includes numerous properties where tile roofing is integral to the structure\'s historical character and market appeal. From the Mediterranean-inspired commercial buildings along Bloomfield Avenue to historic institutional structures in Montclair and South Orange, maintaining authentic tile roofing preserves both architectural integrity and property values that depend on the building\'s distinctive visual identity.'
+        '**Newark Quality Roofing replaces clay and concrete tile on Mediterranean, Spanish-revival, and civic buildings across Essex County, renewing the underlayment that limits service life under tile that outlives it.** Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, and the underlayment fails well before the tile on a civic tile roof the same way it does on a home, per the Tile Roofing Industry Alliance and This Old House.',
+        'On a commercial building, a tile roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, because a clay or concrete tile roof takes a full tear-off rather than a roof-over, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing assessment verifies the structure carries the tile dead load before the new tile is set.',
       ],
-      ctaLabel: 'Request Commercial Tile Assessment'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Structural Assessment',
-        description: 'Engineering evaluation verifies that your building\'s structure can support the weight of tile roofing. Any necessary reinforcement is identified and planned before the tile project begins.'
+        title: 'Structural and Underlayment Assessment',
+        description:
+          'A Newark Quality Roofing technician verifies the deck and framing carry the tile dead load, dates the underlayment that sets the service life, and rates the tile and flashing condition before quoting the tile replacement, per the Tile Roofing Industry Alliance condition guidance.',
       },
       {
-        title: 'Tile Selection and Sourcing',
-        description: 'We help you select the tile material, profile, color, and finish that best complement your building\'s architecture. Tiles are sourced and verified for quality and consistency before the project begins.'
+        title: 'Written Estimate and Tile Selection',
+        description:
+          'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents the tile options from 2 classes — clay tile at a 75 to 100-plus-year life and concrete tile at 40 to 75 years per the Tile Roofing Industry Alliance — before any work begins, per Integrity Home Exteriors documentation guidance.',
       },
       {
-        title: 'Existing Roof Removal and Preparation',
-        description: 'Old roofing materials are removed, the deck is inspected and repaired, and the underlayment and batten system is installed to create the foundation for the new tile installation.'
+        title: 'Permits and Tile Ordering',
+        description:
+          'A Newark Quality Roofing crew files the construction permit when the job triggers one — a commercial roof, a structural change to carry the tile load, or work beyond ordinary maintenance under N.J.A.C. 5:23-2.7 — and orders matching-profile tile to arrive on the scheduled start date, per the NJ Uniform Construction Code.',
       },
       {
-        title: 'Tile Installation',
-        description: 'Tiles are installed course by course with mechanical fastening, proper alignment, and correct overlap. Each tile is verified for secure attachment and proper positioning within the pattern.'
+        title: 'Tear-Off to Deck and Salvage',
+        description:
+          'A Newark Quality Roofing crew strips the tile and the failed underlayment to the bare deck, salvages sound tile for reuse, and replaces deteriorated plywood or OSB, with complete removal of the existing covering required by N.J.A.C. 5:23-6.4 because a tile roof cannot be roofed-over.',
       },
       {
-        title: 'Ridge, Hip, and Detail Work',
-        description: 'Ridge and hip tiles are installed with weather-tight attachment, edge tiles are custom-cut for clean perimeter lines, and all penetration and transition details are completed with tile-specific flashing techniques.'
+        title: 'Ice Barrier, Underlayment, and Tile Installation',
+        description:
+          'A Newark Quality Roofing crew installs the ice barrier from the eave to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision, applies a tile-rated underlayment across the deck, and re-lays salvaged and matching tile to manufacturer specification.',
       },
       {
-        title: 'Inspection and Warranty',
-        description: 'Final inspection from both roof level and ground level verifies the quality of installation, alignment, and detail work. Warranty registration and maintenance guidelines are provided for your records.'
-      }
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies the tile install against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
+      },
     ],
     faqs: [
       {
-        question: 'What is the difference between clay and concrete tile roofing?',
-        answer: 'Clay tiles are made from natural clay fired in kilns, producing a dense, hard tile with permanent through-body color that will not fade. They are lighter than concrete and generally last longer, 75 to 100 years or more. Concrete tiles are made from cement, sand, and pigment, producing a heavier tile with surface color that may lighten slightly over decades. They typically last 50 to 75 years and cost less than clay. Both materials provide excellent fire resistance, weather durability, and aesthetic beauty. The choice between them depends on budget, color requirements, weight considerations, and longevity expectations.'
+        question: 'Should you repair or replace your roof?',
+        answer:
+          '**Replace a tile roof when the underlayment fails beneath sound tile, when broken tile crosses 20 to 25% of clay or 15 to 20% of concrete, or when the deck rots; repair localized damage if the underlayment holds.** The underlayment fails well before the tile and is the real replacement trigger, per the Tile Roofing Industry Alliance and This Old House, so a tile replacement renews the underlayment while salvaging the tile.',
       },
       {
-        question: 'Can my home\'s structure support the weight of tile roofing?',
-        answer: 'Many Essex County homes can support tile roofing without modification, particularly those built with robust framing or those replacing existing tile or other heavy roofing materials. Homes with lighter framing or those converting from lightweight materials like asphalt shingles may require structural reinforcement. Our structural assessment determines your home\'s capacity and identifies any necessary upgrades before tile installation begins. In some cases, lightweight concrete tile or synthetic tile alternatives can provide a tile appearance at a lighter weight that is compatible with existing framing.'
+        question: 'How long does a tile roof last before replacement?',
+        answer:
+          '**Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years.** The underlayment fails well before the tile and is the real service-life limiter, per the Tile Roofing Industry Alliance and This Old House.',
       },
       {
-        question: 'How does tile handle New Jersey freeze-thaw cycles?',
-        answer: 'Quality roofing tile is manufactured to withstand freeze-thaw cycling, which is one of the most demanding conditions for any building material. Both clay and concrete tiles are tested for freeze-thaw resistance during manufacturing, and quality tiles maintain their integrity through hundreds of freeze-thaw cycles. The key is ensuring that the tile specified for your project has appropriate freeze-thaw ratings for our climate zone. We exclusively install tiles with proven freeze-thaw performance appropriate for New Jersey conditions.'
-      },
-      {
-        question: 'What happens if individual tiles break?',
-        answer: 'Individual broken tiles can be replaced without disturbing the surrounding tiles, making maintenance straightforward and cost-effective. We recommend keeping a supply of matching tiles from the original installation for future repairs, as color matching new tiles to an aged existing installation can be challenging. We provide excess tiles with every installation specifically for future maintenance needs, and we offer ongoing maintenance services to replace broken tiles and maintain the waterproofing system beneath.'
-      },
-      {
-        question: 'Are there lighter alternatives that look like tile?',
-        answer: 'Yes. Synthetic tile products made from polymer, rubber, or fiber cement can replicate the appearance of clay or concrete tile at 50 to 75 percent less weight and typically 30 to 50 percent less cost. These products offer advantages in installation speed, impact resistance, and structural compatibility with lighter framing systems. However, they may not match the longevity of natural tile, and their appearance, while good, is distinguishable from natural tile at close inspection. We can show you both natural and synthetic options so you can evaluate the trade-offs for your specific project.'
+        question: 'Why does a tile roof leak when the tile is still intact?',
+        answer:
+          '**A tile roof leaks under intact tile when the underlayment beneath the tile fails, because the underlayment is the real service-life limiter and fails well before the tile, per the Tile Roofing Industry Alliance and This Old House.** A Newark Quality Roofing tile replacement lifts the tile, renews the underlayment and flashing, and re-lays the salvaged tile.',
       },
       {
         question: 'How much does tile roof replacement cost in Essex County, NJ?',
-        answer: 'Most tile roof replacement projects in Essex County range from $18,000–$40,000, tile roof replacement installed. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your tile replacements?',
-        answer: 'Homeowners praise our **tile roof replacement** for *stunning aesthetic results*. Reviews highlight our expertise with both clay and concrete tile systems and attention to structural requirements.',
+        answer:
+          '**Tile roof replacement in New Jersey runs $10 to $20-plus per square foot for premium tile, per NHI Contractors, against a typical NJ new-roof range of $10,000 to $25,000**, per HomeAdvisor and Modernize NJ cost data. Clay tile carries a higher material cost than concrete tile, per the Tile Roofing Industry Alliance. Newark Quality Roofing provides a free written estimate.',
       },
       {
-        question: 'How experienced is your tile replacement team?',
-        answer: 'Our **tile roof** specialists have over 15 years of experience installing clay and concrete tile systems. This expertise ensures proper *structural assessment, underlayment, and tile setting* for 75+ year performance.',
+        question: 'Do you need a permit to replace a tile roof in Newark, NJ?',
+        answer:
+          '**A complete re-roof of the tile covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial roof or a structural change to carry the tile load does require a permit.** The exemption covers the roof covering, not rafters, trusses, or ridge beams, per the NJ Uniform Construction Code.',
+      },
+      {
+        question: 'Can a tile roof be roofed over instead of torn off?',
+        answer:
+          '**A tile roof cannot be roofed-over and takes a full tear-off to the deck, because the NJ Rehabilitation Subcode requires complete removal of an existing clay, cement, or slate tile covering before new roofing, per N.J.A.C. 5:23-6.4.** A Newark Quality Roofing tile replacement strips the tile and the failed underlayment to the bare sheathing for inspection and repair.',
+      },
+      {
+        question: 'Does a home structure carry the weight of a tile roof?',
+        answer:
+          '**A tile roof is heavy, so the deck and framing carry the tile dead load, and a Newark Quality Roofing assessment verifies the structure before setting new tile.** A structural change to rafters or trusses to carry the tile load triggers a construction permit under N.J.A.C. 5:23-2.7, separate from the ordinary-maintenance re-roof exemption, per the NJ Uniform Construction Code.',
       },
     ],
-  
-    pricing: {
-      range: '$18,000–$40,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Tile Roof Replacement',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
-
-  // ─── 14. Flat Roof Replacement ────────────────────────────────────────────
-  {
-    serviceId: 'flat-roof-replacement',
-    overview: [
-      '**Flat roof replacement** is a specialized service that addresses the unique requirements of low-slope and flat roofing systems found on many commercial buildings, industrial facilities, and residential properties throughout Newark and **Essex County**. Flat roofs operate under fundamentally different principles than sloped roofs: they rely on continuous **membrane** waterproofing rather than overlapping shingle elements, they must manage water through engineered drainage systems rather than gravity-driven runoff, and they are subject to ponding water, foot traffic, and rooftop equipment loads that sloped roofs do not encounter. When a flat roof system reaches end of life, replacing it with a properly specified and installed membrane system restores the building\'s waterproofing protection while providing the opportunity to upgrade insulation, drainage, and energy performance to current standards.',
-      'The flat roofing landscape offers several distinct membrane systems, each with specific performance characteristics, cost profiles, and application considerations. **TPO** (thermoplastic polyolefin) membranes provide excellent energy efficiency through their reflective white surface and offer strong chemical resistance. PVC (polyvinyl chloride) membranes excel in chemical and grease resistance, making them ideal for restaurants and industrial buildings. **EPDM** (ethylene propylene diene monomer) rubber membranes provide proven long-term performance at a competitive price point. Modified bitumen systems offer multi-layer protection with torch-applied, cold-adhesive, or self-adhesive installation methods. Each system serves different building needs, and selecting the right one requires expert analysis of your building\'s specific conditions and requirements.',
-      'Newark Quality Roofing\'s flat roofing division specializes in the design, specification, and installation of commercial and residential flat roof systems. Our flat roof specialists understand the engineering principles of membrane selection, insulation specification, drainage design, and detail work that determine whether a flat roof performs reliably for its full warranted life or develops premature problems. We work with property owners, architects, and facility managers to specify and install flat roof systems that match the building\'s specific requirements and deliver the best combination of performance, durability, and value.'
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
     ],
-    signsHeading: 'When Your Flat Roof Needs Replacement',
-    signs: [
-      'The existing membrane shows widespread deterioration including cracking, splitting, blistering, or surface erosion that has progressed beyond the point where spot repairs and coatings can restore reliable waterproofing performance across the full roof area.',
-      'Ponding water persists for more than 48 hours after rainfall in multiple areas of the roof, indicating that the drainage system has failed or that the membrane and insulation have compressed and deformed, creating low spots that collect and hold water indefinitely.',
-      'Seams and laps in the existing membrane are separating, lifting, or peeling across widespread areas, creating entry points for water that multiply faster than repair crews can address them.',
-      'Infrared scanning or core sampling reveals that insulation beneath the membrane has become saturated with moisture, losing its thermal value and creating conditions for deck deterioration, mold growth, and accelerated membrane degradation from below.',
-      'The roof has experienced repeated leaks despite multiple repair campaigns, and the cumulative repair costs over the past several years approach or exceed the amortized annual cost of a replacement system that would eliminate these recurring problems.',
-      'Building energy performance has degraded significantly, and analysis indicates that the aging flat roof assembly\'s insufficient insulation R-value is a major contributor to excessive heating and cooling costs that a properly insulated replacement system would substantially reduce.'
-    ],
-    approachHeading: 'Our Flat Roof Replacement Methodology',
-    approachContent: [
-      'Flat roof replacement begins with a comprehensive assessment of the existing system including membrane condition, insulation status through core sampling, drainage adequacy, structural deck condition, and the condition of all penetrations, curbs, and edge details. This assessment establishes the baseline for specifying the replacement system and identifies any underlying conditions such as wet insulation, deteriorated decking, or drainage deficiencies that must be addressed as part of the replacement project to prevent the same problems from affecting the new system.',
-      'System specification is a design exercise that considers the building\'s occupancy type, rooftop equipment and traffic patterns, drainage requirements, insulation R-value targets for code compliance and energy performance, warranty objectives, and budget parameters. We develop specifications that balance these factors to deliver the optimal system for each building. For buildings with cooking exhaust, chemical exposure, or other specific environmental challenges, the membrane selection must account for these conditions to ensure long-term compatibility.',
-      'Installation follows the manufacturer\'s published specifications and our quality control protocols, which include daily seam testing for welded membranes, adhesion testing for adhered systems, and documentation of every installation parameter including temperature, humidity, and material lot numbers. This quality documentation supports warranty claims and provides a complete record of the installation for the building\'s maintenance files. Our field supervisors monitor every phase of installation to ensure consistent quality across the entire roof area.',
-      'Warranty selection for flat roofs deserves careful consideration because the range of options and their associated costs vary significantly. We help you understand the difference between manufacturer material warranties, contractor workmanship warranties, and comprehensive system warranties that cover both. For commercial properties, manufacturer NDL warranties that eliminate cost exposure for warranted repairs over 15, 20, or 25 years provide significant financial predictability and are often the most cost-effective warranty investment.'
-    ],
-    approachSubheadings: ['Modern Membrane System Upgrade', 'Drainage Redesign and Optimization', 'TPO/EPDM/PVC Options'],
-    residential: {
-      heading: 'Residential Flat Roof Replacement',
-      content: [
-        'Many homes throughout Newark, East Orange, and the older communities of Essex County feature flat or low-slope roof sections over additions, porches, garages, or entire row-house roof areas. These residential flat roofs are subject to the same waterproofing challenges as commercial flat roofs but are often installed with materials and methods that do not provide adequate long-term performance. Replacing a residential flat roof with a properly specified and installed membrane system eliminates chronic leak problems and provides reliable waterproofing for decades.',
-        'For residential flat roof replacement, we typically recommend TPO or EPDM membrane systems that provide proven performance at price points appropriate for residential projects. TPO\'s white reflective surface reduces heat gain through flat roof sections, which is particularly valuable for rooms directly beneath the flat roof that tend to overheat in summer. EPDM provides excellent long-term weathering performance and can be installed in a single seamless sheet on smaller residential flat roofs, eliminating field seams that are potential leak points.',
-        'Insulation upgrades during residential flat roof replacement provide immediate comfort and energy benefits. Many older residential flat roofs have minimal or no insulation, and adding tapered insulation during replacement not only improves energy efficiency but also creates positive drainage that eliminates ponding water. The energy cost savings from proper insulation often pay for the insulation upgrade within a few years.',
-        'Our residential flat roof replacements include proper edge detailing with metal gravel stops or perimeter edging, sealed penetrations for plumbing vents and any other roof penetrations, and positive drainage to ensure water flows to the designated drainage points. These details are frequently overlooked in residential flat roof work and are the most common sources of leaks on inadequately installed flat roofs.'
-      ],
-      ctaLabel: 'Get Your Flat Roof Estimate'
-    },
-    commercial: {
-      heading: 'Commercial Flat Roof Replacement',
-      content: [
-        'Commercial flat roof replacement is a core competency of our company, and we have installed and replaced flat roof systems on warehouses, retail centers, office buildings, industrial facilities, medical offices, restaurants, schools, and municipal buildings throughout Essex County. Each building type presents specific requirements that inform system selection: restaurants need grease-resistant PVC membranes, warehouses may prioritize cost-effective EPDM, high-visibility buildings benefit from the clean appearance of white TPO, and buildings with heavy foot traffic need reinforced walkway pads in traffic areas.',
-        'Project phasing for commercial flat roof replacement is planned to minimize operational disruption. We can replace commercial flat roofs in sections, maintaining watertight temporary seals between completed and in-progress areas so the building remains fully protected throughout the project. For buildings that cannot tolerate any overhead work during business hours, we offer evening and weekend installation options with appropriate lighting and safety measures.',
-        'Energy code compliance is a significant consideration for commercial flat roof replacement because current New Jersey energy codes require substantially higher insulation R-values than what most existing flat roofs provide. Meeting current code during replacement adds cost for additional insulation but delivers meaningful energy savings and ensures that the building meets current regulatory standards. We calculate the expected energy savings from insulation upgrades and present the cost-benefit analysis so you can see the financial impact of code compliance.',
-        'Our commercial flat roof warranty options include 15, 20, and 25-year NDL manufacturer warranties that cover both materials and labor for warranted repairs. These comprehensive warranties protect commercial property owners from unexpected roofing costs for the duration of the warranty and are backed by the financial strength of major membrane manufacturers. We maintain the certifications required to offer these premium warranty options and can help you determine which warranty level provides the best value for your investment horizon.'
-      ],
-      ctaLabel: 'Request Commercial Flat Roof Proposal'
-    },
-    processSteps: [
-      {
-        title: 'System Assessment and Specification',
-        description: 'Comprehensive evaluation of the existing system, building requirements, and performance objectives leads to a detailed specification for the replacement system including membrane type, insulation design, and drainage plan.'
-      },
-      {
-        title: 'Existing System Removal',
-        description: 'The existing membrane and wet insulation are removed, the deck is inspected and repaired, and the substrate is prepared for the new system. Dry, sound insulation may be retained where verified by moisture testing.'
-      },
-      {
-        title: 'Insulation and Drainage Installation',
-        description: 'New insulation is installed to achieve code-required R-values, with tapered sections designed to create positive drainage toward roof drains, scuppers, or other designated drainage points.'
-      },
-      {
-        title: 'Membrane Installation',
-        description: 'The selected membrane system is installed according to manufacturer specifications with quality-controlled seam welding or adhesion, field testing, and documentation of all installation parameters.'
-      },
-      {
-        title: 'Penetration and Edge Detailing',
-        description: 'All roof penetrations, equipment curbs, parapet walls, and edge conditions are detailed with compatible flashing and membrane termination methods that provide watertight, durable seals.'
-      },
-      {
-        title: 'Testing, Inspection, and Warranty',
-        description: 'Completed installation is inspected, seam-tested, and water-tested where applicable. Manufacturer warranty is registered and all project documentation is provided for the building\'s maintenance records.'
-      }
-    ],
-    faqs: [
-      {
-        question: 'What is the best membrane system for a flat roof in New Jersey?',
-        answer: 'There is no single best system; the optimal choice depends on your building\'s specific conditions. TPO offers the best energy efficiency and value for most general commercial applications. PVC provides superior chemical and grease resistance for restaurants and industrial buildings. EPDM offers proven long-term performance and is well-suited to large, straightforward roof areas. Modified bitumen provides robust multi-layer protection. We analyze your building\'s requirements and recommend the system that delivers the best combination of performance and value for your specific application.'
-      },
-      {
-        question: 'How long does a flat roof replacement last?',
-        answer: 'With proper installation and maintenance, modern flat roof membrane systems provide 20 to 30 years of reliable service. TPO and PVC systems typically warrant for 15 to 25 years, EPDM for 15 to 20 years, and modified bitumen for 15 to 20 years, with actual service lives often exceeding warranty periods. The key factors affecting longevity are installation quality, membrane thickness, insulation design, drainage effectiveness, and maintenance regularity. Our quality installation and warranty options provide both performance and financial protection.'
-      },
-      {
-        question: 'Can a flat roof be replaced without disrupting building operations?',
-        answer: 'Yes, commercial flat roof replacement is routinely completed on occupied buildings with minimal disruption. We phase the work to maintain watertight protection at all times, control noise and debris during work hours, coordinate with building management to schedule the most disruptive activities during periods of lowest impact, and communicate proactively with tenants about the project schedule and any temporary effects they may notice.'
-      },
-      {
-        question: 'Is ponding water on a flat roof acceptable?',
-        answer: 'Industry standards define ponding as water that remains on the roof more than 48 hours after rainfall. While some degree of temporary water accumulation is normal on flat roofs, persistent ponding accelerates membrane deterioration, adds structural load, and increases leak risk. Our replacement designs include tapered insulation that creates positive drainage toward roof drains or scuppers, minimizing ponding and extending membrane life. Proper drainage design is one of the most important aspects of a flat roof replacement.'
-      },
-      {
-        question: 'Should I add more insulation during flat roof replacement?',
-        answer: 'In most cases, yes. Flat roof replacement provides the ideal opportunity to upgrade insulation because the insulation is fully accessible when the membrane is removed. Current New Jersey energy codes require higher R-values than most existing flat roofs provide, and meeting current code is typically mandatory during a full replacement. Even beyond code compliance, the energy savings from improved insulation provide measurable return on the insulation investment. We calculate the energy impact and include insulation upgrade costs in our proposals so you can see the value clearly.'
-      },
-      {
-        question: 'How much does flat roof replacement cost in Essex County, NJ?',
-        answer: 'Most flat roof replacement projects in Essex County range from $6,000–$18,000, flat roof membrane replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your flat roof replacements?',
-        answer: 'Property owners rate our **flat roof replacement** for *leak-free performance* and modern membrane options. Reviews highlight our expertise with TPO, EPDM, and modified bitumen systems.',
-      },
-      {
-        question: 'How experienced is your flat roof replacement team?',
-        answer: 'Our **flat roof replacement** crews have over 15 years of experience with every low-slope membrane system. This expertise ensures *proper slope, drainage design, and seam welding* for lasting protection.',
-      },
-    ],
-  
     pricing: {
-      range: '$6,000–$18,000',
+      range: '$10,000–$25,000+ for most tile replacements',
       factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
+        'Premium tile replacement in New Jersey runs $10–$20+ per square foot, per NHI Contractors, against a typical NJ new-roof range of $10,000–$25,000, per HomeAdvisor and Modernize NJ cost data.',
+        'Tile type drives the per-square-foot cost: premium tile (clay, concrete, slate) installs at $10–$20+ per square foot in New Jersey, per NHI Contractors, with clay carrying a higher material cost than concrete.',
+        'Tear-off cost rises on a tile roof, because a tile roof cannot be roofed-over and N.J.A.C. 5:23-6.4 requires complete removal of the tile covering to the deck, per the NJ Rehabilitation Subcode.',
+        'Structural reinforcement adds cost when the framing requires upgrading to carry the tile dead load, a structural change that triggers a permit under N.J.A.C. 5:23-2.7.',
+        'NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors, and a new roof recoups roughly 60–68% of cost at resale, per Zillow analysis and the Zonda Cost vs Value report.',
       ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and discusses payment options at the estimate.',
     },
     whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Flat Roof Replacement',
+      heading: 'Why Choose Our Roofing Company for Tile Roof Replacement?',
       reasons: [
         {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
         },
         {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that rate the underlayment and the structural tile load against the Tile Roofing Industry Alliance condition guidance before a tile replacement quote.',
         },
         {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
         },
       ],
     },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+  },
 
-  // ─── 15. Cedar Shake Roof Replacement ─────────────────────────────────────
+// ─── 14. Flat Roof Replacement ───
+{
+  serviceId: 'flat-roof-replacement',
+  directAnswer:
+    '**Newark Quality Roofing replaces flat and low-slope roofs across Newark and Essex County, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.',
+  overview: [
+    '**Newark Quality Roofing installs 4 flat-roof membrane systems across Essex County: EPDM rubber, TPO, PVC, and modified bitumen** — for residential and commercial low-slope roofs. Flat roof replacement strips the existing membrane to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system, the work that ends recurring membrane leaks rather than patching a single seam.',
+    'A flat roof needs at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing replacement corrects drainage as part of the install. Membrane lifespan differs by system: EPDM lasts 15 to 25 years, TPO 7 to 20 years on the InterNACHI chart and commonly 15 to 25 years in practice, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, and Newark Quality Roofing matches the membrane to the building and the Essex County climate before tear-off.',
+  ],
+  subServices: [
+    {
+      name: 'EPDM rubber membrane replacement',
+      description:
+        'EPDM rubber membrane replacement installs a single-ply rubber roof that lasts 15 to 25 years, per the InterNACHI life-expectancy chart; EPDM fails most often at the seams, so a full replacement reseals the entire field rather than chasing seam separations.',
+    },
+    {
+      name: 'TPO membrane replacement',
+      description:
+        'TPO membrane replacement installs a heat-welded single-ply roof that lasts 7 to 20 years on the InterNACHI chart and commonly 15 to 25 years in practice; white TPO reflects solar heat as a cool roof, with reflectance near 0.70 to 0.85 measured per ASTM C1549 and listed by the CRRC.',
+    },
+    {
+      name: 'PVC single-ply replacement',
+      description:
+        'PVC single-ply replacement installs a heat-welded membrane that lasts 20 to 30 years, per the Single Ply Roofing Industry, and resists rooftop chemicals and grease, suited to restaurant and industrial roofs across Essex County.',
+    },
+    {
+      name: 'Modified-bitumen replacement',
+      description:
+        'Modified-bitumen replacement installs a multi-ply asphalt membrane that lasts 20 years, per the InterNACHI life-expectancy chart; modified bitumen fails through blistering, delamination, and UV alligator cracking, the conditions a full replacement clears.',
+    },
+  ],
+  signsHeading: 'Warning Signs Your Flat Roof Needs Replacement',
+  signs: [
+    '**Ponding water held on the flat roof more than 48 hours after rain** counts as a defect that breaks down membrane seams, because a flat roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA.',
+    '**Membrane damage across more than 25 to 30% of the roof area** favors replacement over continued patching, the flat-roof threshold that runs stricter than a sloped roof because a small breach admits a large volume of water, per roofing industry guidance.',
+    '**Recurring leaks at the same spot after repeated patches** indicate a systemic membrane failure rather than an isolated puncture, the pattern that points to full replacement regardless of the damaged percentage, per roofing industry guidance.',
+    '**A flat roof at or past its membrane lifespan** signals replacement, because EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart.',
+    '**Open seams, shrinkage pulling the membrane from the perimeter, or punctures across the field** expose the substrate to water, because EPDM separates at the seams and shrinks away from penetrations while TPO fails at the welded seams, per InterNACHI and membrane failure-mode data.',
+    '**Blistering, delamination, or alligator cracking across a modified-bitumen surface** indicates UV oxidation and trapped moisture in the plies, a surface failure that admits water once the cracks open, per membrane failure-mode data.',
+    '**A spongy or sagging deck felt underfoot on the flat roof** indicates moisture-rotted substrate beneath the membrane, a structural condition that points toward replacement rather than a surface patch, per InterNACHI sheathing inspection.',
+  ],
+  approachHeading: 'How We Handle Every Project',
+  approachContent: [
+    '**Newark Quality Roofing assesses the deck, the drainage, and the membrane condition before quoting a flat roof replacement, because a tear-off exposes substrate rot and standing-water damage that a surface inspection misses.** A flat roof needs at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing assessment identifies the low spots and the failed drainage before the new membrane goes down. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the deck is water-soaked or deteriorated or the roof already carries 2 or more layers, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing matches the new membrane to the building and the Essex County climate from 4 systems: EPDM rubber, TPO, PVC, and modified bitumen.** Membrane lifespan differs by system: EPDM lasts 15 to 25 years, TPO 7 to 20 years on the InterNACHI chart and commonly 15 to 25 years in practice, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, while PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry. White TPO and PVC reflect solar heat as cool roofs, with reflectance near 0.70 to 0.85 measured per ASTM C1549 and listed by the CRRC, and Newark Quality Roofing installs Firestone, Carlisle, and Johns Manville membrane systems.',
+    '**Newark Quality Roofing strips the failed membrane to the deck, repairs the substrate, corrects the slope to drain, and installs the new membrane to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** A flat roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA, so a Newark Quality Roofing install adds tapered insulation where the deck ponds water. Installing to manufacturer specification with manufacturer-approved bonding preserves the material warranty covering factory defects, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance.',
+  ],
+  approachSubheadings: [
+    'Deck, Drainage, and Membrane Assessment',
+    'Membrane Selection for the Essex County Climate',
+    'Tear-Off, Slope Correction, and Installation to Specification',
+  ],
+  residential: {
+    heading: 'Residential Services in Newark',
+    content: [
+      '**Newark Quality Roofing replaces residential flat and low-slope roofs across Essex County, re-roofing flat sections, rear additions, porch roofs, and dormers on detached one- and two-family homes with no construction permit required for the roof covering.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or joists still triggers a permit.',
+      'A Newark Quality Roofing residential flat-roof replacement installs an EPDM or TPO single-ply membrane on the flat section, corrects the slope so the roof drains rather than ponds, and ties the new membrane into the adjacent sloped roof, because a flat roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. NJ EPDM runs $7.00 to $10.00 per square foot and TPO $8.00 to $12.00 per square foot, per Josten Roofing NJ pricing, and a Newark Quality Roofing crew contains debris and runs a magnet sweep for nails before leaving the property.',
+    ],
+    ctaLabel: 'Get Home Estimate',
+  },
+  commercial: {
+    heading: 'Commercial Solutions',
+    content: [
+      '**Newark Quality Roofing replaces commercial low-slope roofs across Essex County, installing EPDM rubber, TPO, PVC, and modified-bitumen membrane systems to manufacturer specification on the primary flat-roof market.** Membrane lifespan differs by system: EPDM lasts 15 to 25 years, TPO 7 to 20 years on the InterNACHI chart and commonly 15 to 25 years in practice, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, while PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry, and spray polyurethane foam lasts 30-plus years when the protective coating stays maintained, per the SPFA.',
+      'On a commercial building, a flat roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per the NRCA and ARMA, and the NJ Rehabilitation Subcode requires complete removal of the existing membrane when the deck is water-soaked or the roof carries 2 or more layers, per N.J.A.C. 5:23-6.4. Newark Quality Roofing installs and services Firestone, Carlisle, and Johns Manville membrane systems.',
+    ],
+    ctaLabel: 'Get Commercial Quote',
+  },
+  processSteps: [
+    {
+      title: 'Deck and Drainage Assessment',
+      description:
+        'A Newark Quality Roofing technician inspects the deck, the drainage, and the membrane condition, marking the low spots where ponding water remains more than 48 hours, the defect a flat roof avoids with at least ¼ inch per foot of slope to drain, per the NRCA and ARMA.',
+    },
+    {
+      title: 'Written Estimate and Membrane Selection',
+      description:
+        'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents the membrane options from 4 systems — EPDM, TPO, PVC, and modified bitumen — with the lifespan of each named, EPDM 15 to 25 years and modified bitumen 20 years, per the InterNACHI life-expectancy chart.',
+    },
+    {
+      title: 'Permits and Material Ordering',
+      description:
+        'A Newark Quality Roofing crew files the construction permit when the job triggers one — a commercial roof or a structural change beyond the detached one- and two-family ordinary-maintenance exemption under N.J.A.C. 5:23-2.7 — and orders membrane to arrive on the scheduled start date, per the NJ Uniform Construction Code.',
+    },
+    {
+      title: 'Membrane Tear-Off and Deck Repair',
+      description:
+        'A Newark Quality Roofing crew strips the failed membrane and insulation to the bare deck and replaces deteriorated substrate, with complete removal required by N.J.A.C. 5:23-6.4 when the deck is water-soaked or the roof carries 2 or more layers, per the NJ Rehabilitation Subcode.',
+    },
+    {
+      title: 'Slope Correction and Membrane Installation',
+      description:
+        'A Newark Quality Roofing crew adds tapered insulation to correct the slope to at least ¼ inch per foot, then installs the new single-ply or modified-bitumen membrane with manufacturer-approved bonding to manufacturer specification, the install that keeps the manufacturer system warranty intact, per the NRCA and ARMA drainage standard.',
+    },
+    {
+      title: 'Verification, Cleanup, and Warranty',
+      description:
+        'A Newark Quality Roofing lead verifies the seams and the drainage against manufacturer specification, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification and Owens Corning warranty guidance.',
+    },
+  ],
+  faqs: [
+    {
+      question: 'Should you repair or replace your flat roof?',
+      answer:
+        '**Replace a flat roof when membrane damage exceeds 25 to 30% of the roof area, when leaks recur at one spot, or when the membrane reaches its lifespan; repair when the damage stays an isolated seam or puncture.** The 25 to 30% flat-roof threshold runs stricter than a sloped roof because a small breach admits a large volume of water, and EPDM lasts 15 to 25 years, per the InterNACHI life-expectancy chart.',
+    },
+    {
+      question: 'Which membrane lasts longest on a flat roof?',
+      answer:
+        '**PVC single-ply lasts 20 to 30 years and built-up roofing 30 years, followed by EPDM at 15 to 25 years, modified bitumen at 20 years, and TPO at 7 to 20 years.** PVC lifespan traces to the Single Ply Roofing Industry, and EPDM, modified-bitumen, TPO, and built-up roofing lifespans trace to the InterNACHI life-expectancy chart, with TPO commonly cited at 15 to 25 years in practice.',
+    },
+    {
+      question: 'Why does a flat roof keep ponding water?',
+      answer:
+        '**A flat roof ponds water when the slope falls below ¼ inch per foot, and ponding water remaining more than 48 hours counts as a defect that breaks down membrane seams, per the NRCA and ARMA.** A Newark Quality Roofing flat-roof replacement adds tapered insulation to correct the slope so the new membrane drains rather than ponds.',
+    },
+    {
+      question: 'Do you need a permit for flat roof replacement in Newark, NJ?',
+      answer:
+        '**A flat roof replacement of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial flat roof or a structural change does require a permit.** On a commercial building, reroofing more than 25% of the total roof area in a 12-month period requires a permit, per the NJ Uniform Construction Code.',
+    },
+    {
+      question: 'How much does flat roof replacement cost in Essex County, NJ?',
+      answer:
+        '**Flat roof replacement in New Jersey runs $7.00 to $10.00 per square foot for EPDM and $8.00 to $12.00 per square foot for TPO, with a typical New Jersey roof replacement at $10,000 to $25,000.** The per-square-foot membrane pricing traces to Josten Roofing NJ pricing and the typical replacement range to HomeAdvisor and Modernize NJ cost data. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'Can a white TPO or PVC roof lower cooling costs?',
+      answer:
+        '**A white TPO or PVC membrane reflects solar heat as a cool roof, with solar reflectance near 0.70 to 0.85 measured per ASTM C1549 and listed by the CRRC.** A reflective single-ply membrane runs cooler than a dark membrane in summer, and Newark Quality Roofing installs white TPO and PVC single-ply systems across Essex County.',
+    },
+    {
+      question: 'Which membranes does Newark Quality Roofing install on a flat roof?',
+      answer:
+        '**Newark Quality Roofing installs 4 flat-roof membrane systems: EPDM rubber, TPO, PVC, and modified bitumen, plus spray polyurethane foam on qualifying commercial decks.** EPDM lasts 15 to 25 years and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and Newark Quality Roofing installs Firestone, Carlisle, and Johns Manville membrane systems.',
+    },
+  ],
+  credentialsHighlight: [
+    'NJ HIC Licensed',
+    'Insured',
+    'Free Roof Inspections',
+    'Local Essex County Roofers',
+  ],
+  pricing: {
+    range: '$7–$12 per sq ft for membrane; $10,000–$25,000+ for a typical replacement',
+    factors: [
+      'NJ EPDM runs $7.00 to $10.00 per square foot and TPO $8.00 to $12.00 per square foot, per Josten Roofing NJ pricing.',
+      'A typical New Jersey roof replacement costs $10,000 to $25,000, per HomeAdvisor and Modernize NJ cost data.',
+      'Membrane system drives the cost, because EPDM, TPO, PVC, and modified bitumen carry different material and labor rates and different lifespans of 15 to 30 years, per the InterNACHI life-expectancy chart and the Single Ply Roofing Industry.',
+      'Slope correction adds cost when the deck ponds water, because tapered insulation restores the at-least ¼ inch per foot of slope a flat roof requires for drainage, per the NRCA and ARMA.',
+      'Deck repair adds cost when tear-off exposes a water-soaked substrate, because N.J.A.C. 5:23-6.4 requires complete removal of a water-soaked or multi-layer roof before the new membrane, per the NJ Rehabilitation Subcode.',
+    ],
+    financingNote:
+      'Newark Quality Roofing provides a free written estimate and discusses payment and financing options at the estimate.',
+  },
+  whyChooseUs: {
+    heading: 'Why Choose Our Roofing Company for Flat Roof Replacement?',
+    reasons: [
+      {
+        title: 'NJ Home Improvement Contractor',
+        description:
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+      },
+      {
+        title: 'Insured',
+        description:
+          'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+      },
+      {
+        title: 'Free Roof Inspections',
+        description:
+          'Newark Quality Roofing provides free roof inspections that assess the deck, the drainage, and the membrane condition against the at-least ¼ inch per foot of slope a flat roof requires for drainage before a replacement quote, per the NRCA and ARMA.',
+      },
+      {
+        title: 'Local Essex County Roofers',
+        description:
+          'Newark Quality Roofing replaces residential and commercial flat roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+      },
+    ],
+  },
+},
+
+  // ─── 15. Cedar Shake Roof Replacement ───
   {
     serviceId: 'cedar-shake-roof-replacement',
+    directAnswer:
+      '**Newark Quality Roofing replaces cedar shake roofs across Newark and Essex County, stripping aging cedar shakes and shingles to the deck and installing new cedar with a ventilated nailing base** as a New Jersey Home Improvement Contractor.',
     overview: [
-      'Cedar shake roof replacement involves the specialized process of removing an aging or deteriorated cedar shake roof and installing either new cedar shakes or an alternative material that restores your building\'s weather protection and aesthetic character. [Cedar shake roofing](/cedar-shake-roofing) has been valued for centuries for its **natural beauty**, rustic warmth, and excellent insulation properties, and many homes throughout **Essex County** were built or re-roofed with cedar shakes during the mid-twentieth century when the material was at peak popularity. As these roofs reach the end of their 25 to 40 year service life in New Jersey\'s demanding climate, property owners face important decisions about material choice, installation method, and the investment required to restore their roof to reliable, attractive condition.',
-      'Cedar shakes age distinctively, transitioning from their original golden-brown color to the silver-grey patina that many homeowners find attractive. However, this visual aging is accompanied by physical deterioration: the wood fibers gradually break down from UV exposure, moisture absorption, freeze-thaw cycling, and biological attack from moss, lichen, and fungal growth. Over time, shakes split, curl, become brittle, and lose their ability to shed water effectively. In New Jersey\'s climate, where humid summers promote biological growth and winter freeze-thaw cycling accelerates wood deterioration, cedar shake roofs typically require replacement sooner than they would in drier, more temperate regions.',
-      'Newark Quality Roofing offers **cedar shake replacement** in both natural cedar and modern alternatives that replicate the appearance of cedar shake with enhanced durability and fire resistance. Our assessment and consultation process helps property owners understand the condition of their existing cedar roof, the timeline for replacement, and the full range of material options available, from **premium** **hand-split cedar** shakes to synthetic shake products that deliver the cedar aesthetic without the maintenance requirements and fire vulnerability of natural wood.'
+      '**Newark Quality Roofing replaces 2 cedar wood roof types across Essex County: hand-split cedar shake and sawn cedar shingle** — for residential properties and cedar-clad character buildings. Cedar shake roof replacement strips an aging cedar roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar, the work that restores a wood roof past its service life rather than patching individual split shakes.',
+      'Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing a single "Wood" row at 25 years, and the service life depends on maintenance, because moisture cycling drives most premature cedar failure. Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR), and the freeze-thaw and moisture load drives the cupping, splitting, and rot that ends a cedar roof, per Cedar Shake & Shingle Bureau and NRCA maintenance guidance.',
     ],
-    signsHeading: 'Signs Your Cedar Shake Roof Needs Replacement',
+    subServices: [
+      {
+        name: 'Cedar shake roof replacement',
+        description:
+          'Cedar shake roof replacement installs new hand-split cedar shake, the thicker textured wood roof that lasts 20 to 40 years, per the Cedar Shake & Shingle Bureau, on a ventilated nailing base that keeps at least 1.5 inches of drying air space beneath the shakes, per Cedar Shake & Shingle Bureau install guidance.',
+      },
+      {
+        name: 'Cedar shingle roof replacement',
+        description:
+          'Cedar shingle roof replacement installs new sawn cedar shingle, the smoother thinner wood roof that lasts 30 to 50 years, per the Cedar Shake & Shingle Bureau, when moss, cupping, and edge splitting end the old shingle roof\'s service life.',
+      },
+      {
+        name: 'Fire-retardant-treated cedar replacement',
+        description:
+          'Fire-retardant-treated cedar replacement installs pressure-impregnated cedar that carries a Class B or Class C fire class as a product, per the Cedar Shake & Shingle Bureau Certi-Guard program, because untreated cedar is nonclassified under UL 790 and ASTM E108 and a Class A wood roof is an assembly rating, not a single shake.',
+      },
+      {
+        name: 'Cedar tear-off and deck repair',
+        description:
+          'Cedar tear-off and deck repair strips the cedar to the bare sheathing and replaces deteriorated plywood or OSB, the work the NJ Rehabilitation Subcode requires for a wood-shake roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck.',
+      },
+    ],
+    signsHeading: 'Warning Signs Your Cedar Roof Needs Replacement',
     signs: [
-      'Widespread splitting and cracking of shakes has progressed to the point where many shakes have lost structural integrity and can no longer shed water effectively, with visible daylight penetrating through splits when viewed from the attic.',
-      'Heavy moss, lichen, or fungal growth has established deep root systems in the wood fibers, causing accelerated deterioration that cleaning can temporarily address cosmetically but cannot reverse structurally.',
-      'Shakes have become severely curled, cupped, or warped across broad areas of the roof, creating gaps between courses that allow wind-driven rain and snow melt to penetrate beneath the shake layer and into the building.',
-      'Multiple shakes are missing from various locations across the roof, and replacement shakes are increasingly difficult to source in matching thickness and texture, creating an uneven, patchwork appearance.',
-      'The wood has become so thin and fragile from decades of weathering that shakes crumble when handled, indicating that the wood fiber has lost its structural capacity and the material cannot be expected to provide reliable weather protection for any meaningful additional period.',
-      'Roof inspection from the attic reveals widespread moisture staining, active dripping during rain, or mold growth on the underside of the shake layer, indicating that the waterproofing function of the shake system has been comprehensively compromised.'
+      '**A cedar roof at or past its service life** signals replacement, because cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI chart listing wood at 25 years and maintenance setting where in the range a cedar roof lands.',
+      '**Widespread cupping and warping across the cedar field** indicates advanced moisture cycling, the dominant cedar failure mode, because moisture-driven cupping and warping degrade a cedar roof faster than insects, per Cedar Shake & Shingle Bureau and NRCA guidance.',
+      '**Edge splitting and cracked shakes across more than 25 to 30% of the roof** crosses the contractor-consensus area threshold that favors replacement over continued spot repair, per industry repair-vs-replace guidance.',
+      '**A shake that cracks under light bending** fails the cedar flex test, the InterNACHI sign of advanced degradation regardless of surface appearance, per the InterNACHI flex-test guidance.',
+      '**Moss and algae buildup with rot beneath cupped shakes** indicates trapped moisture, the condition that accelerates on north-facing and shaded slopes where a cedar roof dries slowly, per Cedar Shake & Shingle Bureau guidance.',
+      '**A spongy or sagging roof deck under the cedar** indicates moisture-rotted sheathing from years of trapped water beneath the wood, a structural condition that points toward replacement rather than a surface patch, per GAF inspection guidance.',
+      '**Daylight through the roof deck** seen from inside the attic indicates holes in the decking and the cedar field, a sign that points toward replacement rather than a patch, per This Old House.',
     ],
-    approachHeading: 'Our Cedar Shake Replacement Process',
+    approachHeading: 'How We Replace a Cedar Shake Roof',
     approachContent: [
-      'Cedar shake replacement begins with careful removal of the existing shakes and the inspection of the skip sheathing or spaced board decking that is typical beneath cedar installations. Unlike solid plywood decking found under asphalt shingles, cedar shake roofs often have spaced boards that allow air circulation beneath the shakes, and these boards may have deteriorated from decades of moisture exposure. We replace deteriorated decking boards and, depending on the replacement material selected, may install solid sheathing over the existing skip sheathing to create the substrate required by the new roofing system.',
-      'Material selection for cedar shake replacement involves a fundamental choice: reinstall natural cedar shakes, switch to a synthetic shake product, or choose a different material entirely. Natural cedar provides authentic appearance and the unique insulation value of solid wood but requires periodic maintenance, has moderate fire vulnerability unless treated, and has a service life limited by biological and weather deterioration. Synthetic shake products from manufacturers like DaVinci, Brava, and CeDUR replicate the dimensional profile and color variation of natural cedar while providing superior fire resistance, impact resistance, and weather durability with minimal maintenance.',
-      'For projects where natural cedar is selected, we use premium-grade hand-split or taper-sawn shakes from sustainable Pacific Northwest sources. Installation follows the established best practices for cedar shake roofing: proper exposure dimensions for the shake length, horizontal spaced sheathing between courses to provide air circulation that promotes drying and extends wood life, interlayment felt between courses for secondary waterproofing, and corrosion-resistant stainless steel or hot-dipped galvanized nails that will not stain or react with the cedar\'s natural oils.',
-      'Ventilation is critically important for cedar shake roofs because adequate air circulation beneath and through the shake system is essential for managing the moisture that cedar naturally absorbs and releases. Our installation designs incorporate proper ridge ventilation, soffit intake, and the spaced sheathing or batten system that creates the airflow necessary for cedar shake longevity. Inadequate ventilation is one of the primary causes of premature cedar shake failure, and correcting ventilation deficiencies during replacement significantly extends the life of the new installation.'
+      '**Newark Quality Roofing contractors rate the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life and apply the contractor-consensus area and flex-test rules before quoting a replacement.** Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, and moisture cycling drives most premature cedar failure, so a Newark Quality Roofing assessment checks the cupping, splitting, and rot that mark a cedar roof past saving. A shake that cracks under light bending fails the InterNACHI flex test and signals advanced degradation regardless of surface appearance, per the InterNACHI flex-test guidance.',
+      '**Newark Quality Roofing selects new cedar by type and fire class and explains the wood fire ratings before tear-off, because untreated cedar is nonclassified under UL 790 and ASTM E108 and a Class A wood roof is an assembly rating.** Untreated cedar shakes and shingles are nonclassified on their own, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly of fire-retardant shakes over a fire-retardant cap sheet, per the Cedar Shake & Shingle Bureau Certi-Guard program and InterNACHI. Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR), so a Newark Quality Roofing cedar install carries the freeze-thaw and moisture load a wood roof faces.',
+      '**Newark Quality Roofing strips the cedar to the deck, repairs the sheathing, installs a ventilated nailing base, and lays the new cedar, the sequence that holds at least 1.5 inches of drying air space beneath the shakes.** A full tear-off exposes the deck for inspection and replacement of plywood or OSB rotted under the old cedar, the work the NJ Rehabilitation Subcode requires because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck. A cedar roof needs at least 1.5 inches of air space beneath the shakes for drying, the ventilation that extends cedar service life and slows moisture-driven cupping and rot, per Cedar Shake & Shingle Bureau install guidance.',
     ],
-    approachSubheadings: ['Premium Hand-Split Cedar Selection', 'Preservative Treatment and Protection', 'Natural Beauty Restoration'],
+    approachSubheadings: [
+      'Cedar Service-Life and Flex-Test Assessment',
+      'Cedar Type and Fire-Class Selection',
+      'Tear-Off, Ventilated Base, and Cedar Installation',
+    ],
     residential: {
-      heading: 'Cedar Shake Replacement for Essex County Homes',
+      heading: 'Residential Cedar Shake Roof Replacement in Newark',
       content: [
-        'Many of Essex County\'s most charming homes feature cedar shake roofs that contribute warmth, character, and distinction to their architectural personality. The Craftsman bungalows, Cape Cods, and rustic-styled homes throughout Maplewood, South Orange, Millburn, and the surrounding communities that were built with cedar shake roofing have a distinctive character that property owners understandably want to preserve through the replacement process.',
-        'The decision between natural cedar and synthetic alternatives is the most important choice in a cedar shake replacement project. We present both options with transparent pricing and honest assessment of the trade-offs. Natural cedar costs approximately $15,000 to $30,000 for a typical residential installation, requires periodic maintenance including cleaning and preservative treatment, and has moderate fire vulnerability. Premium synthetic shake products cost approximately $18,000 to $35,000, require virtually no maintenance, provide Class A fire resistance, and carry 50-year or lifetime warranties that natural cedar cannot match.',
-        'For homeowners who choose natural cedar, we offer maintenance programs that extend the life of the new shake roof through periodic cleaning, preservative treatment, and prompt replacement of any individual shakes that develop problems. A well-maintained cedar shake roof can provide 35 to 40 years of service in our area, and our maintenance program is designed to help you achieve the maximum possible lifespan from your investment.',
-        'Fire safety considerations deserve serious attention in the cedar shake replacement decision. Natural cedar shakes carry a Class C fire rating in their untreated state, which is the lowest rating for roofing materials and may not meet current building code requirements in some jurisdictions without fire-retardant treatment. Treated cedar and synthetic shake products provide Class A fire resistance. We help homeowners understand the fire safety implications of their material choice and ensure that the selected option meets all applicable code requirements.'
+        '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs on detached one- and two-family homes across Essex County, re-roofing aging cedar with no construction permit required for the roof covering.** A complete tear-off and replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code, while a structural change to rafters or trusses still triggers a permit.',
+        'A Newark Quality Roofing cedar replacement strips the old wood to the deck, because N.J.A.C. 5:23-6.4 prohibits roofing over a wood-shake roof and a tear-off is the only code-compliant path for cedar, then installs a ventilated nailing base that holds at least 1.5 inches of drying air space beneath the new shakes, per Cedar Shake & Shingle Bureau install guidance. A Newark Quality Roofing crew replaces decking rotted under the old cedar, repairs the sheathing exposed at tear-off, and contains debris with ground tarps and a magnet sweep for nails before leaving the property across Newark, East Orange, Bloomfield, Montclair, Belleville, Irvington, and Glen Ridge.',
       ],
-      ctaLabel: 'Discuss Cedar Shake Options'
+      ctaLabel: 'Get Home Estimate',
     },
     commercial: {
-      heading: 'Commercial Cedar Shake Replacement',
+      heading: 'Commercial and Institutional Cedar Roofs',
       content: [
-        'Commercial and institutional properties with cedar shake roofing include hospitality venues, country clubs, resort properties, religious facilities, and distinctive commercial buildings where the cedar aesthetic is integral to the property\'s brand and character. For these properties, cedar shake replacement must balance aesthetic fidelity with the practical requirements of commercial roofing including fire code compliance, insurance requirements, and long-term maintenance budgets.',
-        'Synthetic cedar shake products have become the preferred choice for many commercial cedar shake replacement projects because they provide the desired aesthetic with Class A fire resistance that satisfies building codes and insurance requirements, impact resistance that reduces maintenance from foot traffic and falling debris, and warranty coverage that supports long-term capital planning. We install commercial-grade synthetic shake systems that deliver authentic cedar appearance while meeting all commercial performance standards.',
-        'For historic or architecturally significant commercial properties where authentic cedar is required by preservation standards, we source the highest-grade cedar shakes available and install them with fire-retardant treatment that improves the fire rating while preserving the natural appearance. Our installation methods for commercial cedar projects account for the scale, access requirements, and occupancy considerations that distinguish commercial work from residential installation.'
+        '**Newark Quality Roofing replaces cedar shake and cedar shingle roofs on character and historic commercial buildings across Essex County, installing new cedar to the same maintenance and fire-treatment standard a residential cedar roof carries.** Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, and the same moisture-driven cupping, splitting, and rot ends a cedar roof on a commercial building, so a Newark Quality Roofing commercial cedar install carries the ventilated nailing base and fire-class selection.',
+        'On a commercial building, a cedar roof replacement requires a permit under N.J.A.C. 5:23-2.7, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per the NJ Uniform Construction Code. The NJ Rehabilitation Subcode prohibits roofing over wood shake and requires complete removal of the cedar covering, per N.J.A.C. 5:23-6.4, and fire-retardant-treated cedar carries a Class B or Class C product class while a Class A wood roof is an assembly rating, per the Cedar Shake & Shingle Bureau Certi-Guard program.',
       ],
-      ctaLabel: 'Request Commercial Cedar Assessment'
+      ctaLabel: 'Get Commercial Quote',
     },
     processSteps: [
       {
-        title: 'Existing Cedar Assessment',
-        description: 'We evaluate the condition of existing shakes, the underlying decking structure, ventilation adequacy, and any water damage to determine the scope of replacement needed and inform material recommendations.'
+        title: 'Cedar Condition and Flex-Test Assessment',
+        description:
+          'A Newark Quality Roofing technician rates the cedar roof against its 20-to-40-year shake and 30-to-50-year shingle service life from the Cedar Shake & Shingle Bureau, runs the InterNACHI flex test on suspect shakes, and checks the deck and slope drainage before quoting the replacement.',
       },
       {
-        title: 'Material Selection Consultation',
-        description: 'We present natural cedar and synthetic alternatives with physical samples, clear pricing, and honest discussion of the performance, maintenance, fire safety, and aesthetic trade-offs of each option.'
+        title: 'Written Estimate and Cedar Selection',
+        description:
+          'A Newark Quality Roofing written estimate sets the scope, labor, materials, and timeline and presents the cedar options — hand-split shake, sawn shingle, and fire-retardant-treated cedar at a Class B or Class C product class per the Cedar Shake & Shingle Bureau Certi-Guard program — before any work begins.',
       },
       {
-        title: 'Shake Removal and Deck Preparation',
-        description: 'Existing cedar shakes are removed, deteriorated decking is replaced, and the substrate is prepared for the selected replacement material, whether solid sheathing for synthetic products or renewed spaced sheathing for natural cedar.'
+        title: 'Permits and Material Ordering',
+        description:
+          'A Newark Quality Roofing crew files the construction permit when the job triggers one — a commercial roof, a structural change, or work beyond ordinary maintenance under N.J.A.C. 5:23-2.7 — and orders the cedar to arrive on the scheduled start date, per the NJ Uniform Construction Code.',
       },
       {
-        title: 'Underlayment and Ventilation',
-        description: 'Appropriate underlayment system is installed for the selected material, ventilation components are upgraded or installed to ensure adequate airflow, and ice protection measures are applied at vulnerable locations.'
+        title: 'Cedar Tear-Off and Deck Repair',
+        description:
+          'A Newark Quality Roofing crew strips the cedar to the bare deck, inspects every sheathing section for rot from years of trapped moisture, and replaces deteriorated plywood or OSB, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck.',
       },
       {
-        title: 'Shake Installation',
-        description: 'New shakes are installed course by course with proper exposure, offset patterns, and fastening. Natural cedar receives interlayment felt between courses. Each course is verified for alignment and proper attachment.'
+        title: 'Ventilated Base and Cedar Installation',
+        description:
+          'A Newark Quality Roofing crew installs the underlayment and a ventilated nailing base that holds at least 1.5 inches of drying air space, then lays the new cedar shake or shingle to Cedar Shake & Shingle Bureau install guidance so the wood roof drains and dries.',
       },
       {
-        title: 'Ridge, Hip, and Detail Completion',
-        description: 'Ridge and hip caps are installed, all flashing details are completed, and the finished installation is inspected for quality, appearance, and weatherproofing integrity. Maintenance guidelines specific to the selected material are provided.'
-      }
+        title: 'Verification, Cleanup, and Warranty',
+        description:
+          'A Newark Quality Roofing lead verifies the cedar install against the install guidance, runs a magnet sweep for nails at cleanup, and issues a written workmanship warranty on the labor, separate from the manufacturer material warranty, per Integrity Home Exteriors verification guidance.',
+      },
     ],
     faqs: [
       {
-        question: 'How long do cedar shake roofs last in New Jersey?',
-        answer: 'In New Jersey\'s climate, untreated cedar shake roofs typically last 25 to 35 years, while well-maintained roofs with periodic preservative treatment can last 35 to 40 years. The humid summers promote moss and fungal growth that accelerates deterioration, and freeze-thaw cycling is particularly damaging to wood that has absorbed moisture. By comparison, premium synthetic shake products carry warranties of 50 years or more and are not affected by the biological and moisture factors that limit natural cedar\'s lifespan in our region.'
+        question: 'Should you repair or replace your cedar roof?',
+        answer:
+          '**Replace a cedar roof when cupping, splitting, and rot cover more than 25 to 30% of the field, when a shake cracks under light bending, or when the deck rotted beneath the wood.** Repair a cedar roof when the damage stays localized and the field flexes sound, because the 25-to-30% area threshold and the flex test are contractor-consensus and InterNACHI signs of advanced degradation.',
       },
       {
-        question: 'Are cedar shake roofs a fire hazard?',
-        answer: 'Untreated cedar shakes have a Class C fire rating, the lowest for roofing materials, which means they provide limited fire resistance. Fire-retardant-treated cedar achieves a higher rating but the treatment can affect appearance and may degrade over time. For maximum fire safety, synthetic shake products that provide Class A fire resistance are the recommended choice. Some New Jersey municipalities have adopted fire codes that restrict or prohibit untreated [wood shake roofing](/wood-shake-roofing). We ensure that whatever material you select meets all applicable fire code requirements for your property\'s location.'
+        question: 'How long does a cedar shake roof last in New Jersey?',
+        answer:
+          '**Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing wood at 25 years.** Maintenance sets where in the range a cedar roof lands, because moisture-driven cupping, splitting, and rot, accelerated by Essex County freeze-thaw, end a cedar roof faster on shaded slopes.',
       },
       {
-        question: 'What maintenance does a natural cedar shake roof require?',
-        answer: 'Natural cedar shake roofs benefit from annual inspection, periodic cleaning to remove moss, debris, and biological growth, application of wood preservative every 3 to 5 years to protect against moisture absorption and UV degradation, and prompt replacement of individual shakes that crack or deteriorate. Proper maintenance significantly extends the roof\'s service life and preserves its appearance. Neglected cedar roofs deteriorate much faster than maintained ones. If ongoing maintenance is not something you want to manage, synthetic shake products provide the cedar appearance without the maintenance commitment.'
+        question: 'What fire rating does a cedar shake roof carry?',
+        answer:
+          '**Untreated cedar shakes and shingles are nonclassified under UL 790 and ASTM E108, pressure-impregnated fire-retardant cedar carries a Class B or Class C product class, and a Class A wood roof is achieved only as a tested assembly.** The product classes trace to the Cedar Shake & Shingle Bureau Certi-Guard program, and UL 790 and ASTM E108 set the fire-test method.',
       },
       {
-        question: 'Can I replace cedar shakes with asphalt shingles?',
-        answer: 'Yes, but the transition requires deck modification because cedar shakes are typically installed over spaced sheathing that is not suitable for asphalt shingles, which require solid continuous decking. We install solid plywood or OSB sheathing over the existing spaced boards to create the continuous deck surface that asphalt shingles require. This adds moderate cost to the project but is straightforward work. Many homeowners who appreciated their cedar roof\'s appearance choose synthetic shake products that maintain the dimensional profile and texture of cedar while providing the performance advantages of modern materials.'
-      },
-      {
-        question: 'What is the cost difference between natural and synthetic cedar shake?',
-        answer: 'In the Essex County market, natural cedar shake installation typically costs $12 to $18 per square foot, while premium synthetic shake products cost $14 to $22 per square foot. The initial cost of synthetic is moderately higher, but when you factor in the maintenance costs that natural cedar requires every few years and the longer warranty life of synthetic products, the lifetime cost of synthetic shake is typically lower. Additionally, some insurance companies offer premium reductions for synthetic shake\'s Class A fire rating that are not available for natural cedar, further offsetting the initial cost difference.'
+        question: 'Can a new cedar roof go over an old cedar roof in Newark, NJ?',
+        answer:
+          '**A new cedar roof cannot go over an old cedar roof, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and over a water-soaked or deteriorated deck, so a cedar replacement requires a full tear-off to the deck.** The NJ Rehabilitation Subcode requires complete removal of a wood-shake covering, per the NJ Uniform Construction Code.',
       },
       {
         question: 'How much does cedar shake roof replacement cost in Essex County, NJ?',
-        answer: 'Most cedar shake roof replacement projects in Essex County range from $15,000–$32,000, cedar shake roof replacement. Your exact cost depends on factors like roof size, material selection, and project complexity. We provide free, detailed written estimates with no obligation — call us today or fill out our online form to schedule yours. Ask about our 0% financing options for qualifying projects.',
-      },
-    
-      {
-        question: 'What do reviews say about your cedar replacements?',
-        answer: 'Homeowners love our **cedar shake replacement** for *restoring natural beauty*. Reviews highlight our premium material selection and proper preservative treatment for NJ weather conditions.',
+        answer:
+          '**Premium cedar roofing in New Jersey runs $10 to $20-plus per square foot installed, per NHI Contractors NJ pricing, placing cedar above asphalt and below slate among NJ roofing materials.** NJ ranges sit 10 to 40% above national figures because labor runs roughly 60 to 70% of a wood-roof install, per Modernize, and NJ code is stricter. Newark Quality Roofing provides a free written estimate.',
       },
       {
-        question: 'How experienced is your cedar replacement team?',
-        answer: 'Our **cedar shake** specialists have over 15 years of experience with premium cedar installation. This expertise ensures proper *ventilation, spacing, and treatment* that maximizes cedar lifespan in the Northeast climate.',
+        question: 'Why does a cedar roof need a ventilated nailing base?',
+        answer:
+          '**A cedar roof needs at least 1.5 inches of drying air space beneath the shakes, the ventilation that slows the moisture-driven cupping, splitting, and rot that ends most cedar roofs.** The 1.5-inch air-space standard traces to Cedar Shake & Shingle Bureau install guidance, and north-facing and shaded slopes dry slowly and degrade a cedar roof faster.',
       },
     ],
-  
-    pricing: {
-      range: '$15,000–$32,000',
-      factors: [
-        'Total roof square footage',
-        'Material chosen (architectural shingles, metal, slate, tile)',
-        'Number of layers to tear off',
-        'Structural repairs needed (decking, rafters, fascia)',
-      ],
-      financingNote: '0% financing available on qualifying projects. Ask about our flexible payment plans when you call for your free estimate.',
-    },
-    whyChooseUs: {
-      heading: 'Why Choose Newark Quality Roofing for Cedar Shake Roof Replacement',
-      reasons: [
-        {
-          title: 'Licensed & Certified Experts',
-          description: 'NJ HIC licensed, GAF Certified Contractor with 15+ years of hands-on experience across Essex County. Every project meets the highest industry standards.',
-        },
-        {
-          title: 'Transparent, Upfront Pricing',
-          description: 'Detailed written estimates before work begins. No hidden fees, no surprise charges. You know exactly what you\'re paying for before we touch your roof.',
-        },
-        {
-          title: 'Premium Materials & Warranties',
-          description: 'We install only top-tier products from GAF, CertainTeed, Owens Corning, and Firestone — backed by manufacturer warranties up to 50 years.',
-        },
-        {
-          title: 'Fast Response & Emergency Service',
-          description: 'Same-day estimates and 24/7 emergency crews. When your roof needs attention, we\'re there — not next week, not tomorrow, today.',
-        },
-        {
-          title: 'Local Team, Local Reputation',
-          description: 'We live and work in Essex County. Our reputation rides on every job. We treat your property like it belongs to a neighbor — because it does.',
-        },
-      ],
-    },
     credentialsHighlight: [
       'NJ HIC Licensed',
-      'GAF Certified Contractor',
-      'Fully Insured & Bonded',
-      '15+ Years in Essex County',
-    ],},
+      'Insured',
+      'Free Roof Inspections',
+      'Local Essex County Roofers',
+    ],
+    pricing: {
+      range: '$10–$20+ per square foot installed for premium cedar',
+      factors: [
+        'Premium cedar roofing in New Jersey runs $10 to $20-plus per square foot installed, per NHI Contractors NJ pricing, above NJ asphalt at $5.50 to $11.00 per Josten Roofing NJ pricing and below NJ slate at $10 to $30 per NJ roofing guides.',
+        'Hand-split cedar shake costs more than sawn cedar shingle, because shake is the thicker textured wood roof, and fire-retardant-treated cedar adds the pressure-impregnation cost over untreated cedar, per Cedar Shake & Shingle Bureau material guidance.',
+        'Tear-off and deck repair add cost, because N.J.A.C. 5:23-6.4 prohibits roofing over wood shake and requires full removal of the cedar covering and replacement of any deteriorated decking, per the NJ Rehabilitation Subcode.',
+        'A ventilated nailing base that holds at least 1.5 inches of drying air space adds material and labor over a flat-deck install, the ventilation that extends cedar service life, per Cedar Shake & Shingle Bureau install guidance.',
+        'Labor accounts for roughly 60 to 70% of a wood-roof install total, and NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code, per Modernize and HomeGuide.',
+      ],
+      financingNote:
+        'Newark Quality Roofing provides a free written estimate and discusses payment options at the estimate.',
+    },
+    whyChooseUs: {
+      heading: 'Why Choose Our Roofing Company for Cedar Shake Roof Replacement?',
+      reasons: [
+        {
+          title: 'NJ Home Improvement Contractor',
+          description:
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+        },
+        {
+          title: 'Insured',
+          description:
+            'Newark Quality Roofing carries liability coverage, the insurance the Contractors Registration Act requires of a registered New Jersey Home Improvement Contractor.',
+        },
+        {
+          title: 'Free Roof Inspections',
+          description:
+            'Newark Quality Roofing provides free roof inspections that rate a cedar roof against the Cedar Shake & Shingle Bureau service-life ranges and the InterNACHI flex test before a replacement quote.',
+        },
+        {
+          title: 'Local Essex County Roofers',
+          description:
+            'Newark Quality Roofing replaces residential and commercial roofs across Essex County, covering Newark, East Orange, Bloomfield, Montclair, Belleville, and Irvington, Monday–Friday 7:00 AM–6:00 PM and Saturday 8:00 AM–2:00 PM.',
+        },
+      ],
+    },
+  },
+
 ];
