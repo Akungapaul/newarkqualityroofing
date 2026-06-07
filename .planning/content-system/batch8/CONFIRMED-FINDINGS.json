@@ -1,0 +1,218 @@
+[
+  {
+    "serviceId": "roof-overlay-installation",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "A roof overlay delivers less than a full tear-off, because a roof overlay hides any deck rot a tear-off catches and repairs, traps heat that cuts the new shingles' service life by roughly 20–30%, telegraphs the old shingle profile, and adds dead load.",
+    "problem": "The bolded first-sentence answer to the FAQ heading 'Is a roof overlay as good as a full tear-off?' is 43 words, exceeding the ≤40-word featured-snippet cap (Ruleset Rule 2 / answerFirst). Every other section opener and FAQ answer in the entry is within 40 words; this is the only over-length answer. Content and attribution (ARMA/InterNACHI/Owens Corning/GAF/Angi) are correct — only the length is non-compliant.",
+    "fix": "Replace the bolded sentence with (39 words): \"A roof overlay delivers less than a full tear-off: it hides deck rot a tear-off catches and repairs, traps heat that cuts the new shingles' service life by roughly 20–30%, telegraphs the old shingle profile, and adds dead load.\""
+  },
+  {
+    "serviceId": "re-roofing",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "A new asphalt roof recoups roughly 60 to 68% of project cost at resale, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report.",
+    "problem": "The 60-68%-recoup figure is mis-attributed. In facts-cost-stats.md the 60-68% national roof-replacement ROI is sourced to Zillow analysis (via Opendoor, 2025) (§7, line 104), NOT to the Zonda Cost vs Value report. Zonda's own asphalt figure is ~59% to >60% (line 97). Only the '8 of the top 10' claim is genuinely Zonda (line 108). Other entries in this same file (e.g. aging-roof and after-leak pages) correctly write 'per Zillow analysis and the Zonda Cost vs Value report' / 'per Opendoor, Zillow, and the Zonda Cost vs Value report'; this entry drops the Zillow/Opendoor attribution and pins the 60-68% number solely on Zonda.",
+    "fix": "In /Users/akungapaul/Projects/Newarkqualityroofing/.planning/content-system/batch8/re-roofing.snippet.ts, line 63, change only the first sentence:\n\nBEFORE:\nA new asphalt roof recoups roughly 60 to 68% of project cost at resale, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report.\n\nAFTER:\nA new asphalt roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report.\n\n(Rest of the line 63 string — the ice-barrier IRC R905.1.2 sentence and the N.J.A.C. 5:23-6.4 tear-off sentence — is unchanged.)"
+  },
+  {
+    "serviceId": "re-roofing",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "Material drives the per-square-foot cost: NJ architectural asphalt runs $6.50–$11.00 per square foot, metal $9.00–$16.00, and slate $10–$30, per Josten Roofing NJ pricing.",
+    "problem": "The slate $10-$30/sq-ft figure is mis-attributed to Josten Roofing. In facts-materials-economics.md §7 (NJ pricing table), Josten Roofing is the named source only for asphalt ($5.50-$9.50), architectural ($6.50-$11.00), metal ($9.00-$16.00+), EPDM ($7.00-$10.00) and TPO ($8.00-$12.00). Slate $10-$30 is attributed to 'NJ roofing guides' (line 287), not Josten. Architectural and metal are correctly Josten; slate is not.",
+    "fix": "File: /Users/akungapaul/Projects/Newarkqualityroofing/.planning/content-system/batch8/re-roofing.snippet.ts (line 154)\n\nBEFORE:\n'Material drives the per-square-foot cost: NJ architectural asphalt runs $6.50–$11.00 per square foot, metal $9.00–$16.00, and slate $10–$30, per Josten Roofing NJ pricing.'\n\nAFTER:\n'Material drives the per-square-foot cost: NJ architectural asphalt runs $6.50–$11.00 per square foot and metal $9.00–$16.00, per Josten Roofing NJ pricing, and slate $10–$30, per NJ roofing guides.'"
+  },
+  {
+    "serviceId": "storm-damage-roof-replacement",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "**Some New Jersey homeowners policies carry a percentage wind, hurricane, or named-storm deductible — a percent of the dwelling Coverage A limit rather than a flat dollar — and whether any individual policy carries one is policy-specific, per the Insurance Information Institute and the National Association of Insurance Commissioners.**",
+    "problem": "The bolded first-sentence answer is 49 words, exceeding the ≤40-word answer-first cap. The answer is definitive and correctly scoped, but too long; the trailing dual-source attribution inflates the count.",
+    "fix": "Trim to ≤40 words by moving attribution out of the bolded sentence: '**Some New Jersey homeowners policies carry a percentage wind, hurricane, or named-storm deductible — a percent of the dwelling Coverage A limit, not a flat dollar — and whether any individual policy carries one is policy-specific.** Per the Insurance Information Institute and the National Association of Insurance Commissioners, ...'"
+  },
+  {
+    "serviceId": "storm-damage-roof-replacement",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "**A FORTIFIED roof built to the Insurance Institute for Business & Home Safety standard is more than 70% less likely to file a claim, and damage runs 22% less severe when a claim does occur, across more than 40,000 properties analyzed, per the IBHS.**",
+    "problem": "The bolded first-sentence answer is 44 words, exceeding the ≤40-word answer-first cap. Figures (>70%, 22%, 40,000+) are all correctly sourced to IBHS (facts-cost-stats.md §10 line 155); the sentence is just over length.",
+    "fix": "Tighten to ≤40 words, e.g.: '**A FORTIFIED roof built to the IBHS standard is more than 70% less likely to file a claim, and damage runs 22% less severe, across more than 40,000 properties analyzed, per the IBHS.**'"
+  },
+  {
+    "serviceId": "storm-damage-roof-replacement",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "**Newark Quality Roofing inspects the roof, photographs the storm damage, writes a detailed scope and estimate, and meets the assigned adjuster on site, because in New Jersey a licensed public adjuster or an attorney negotiates or settles a claim for the insured.**",
+    "problem": "The bolded first-sentence answer is 42 words, just over the ≤40-word answer-first cap. Content is compliant (NQR documents and meets the adjuster; only a licensed PA/attorney negotiates), only marginally long.",
+    "fix": "Trim two words, e.g.: '**Newark Quality Roofing inspects the roof, photographs the damage, writes a detailed scope and estimate, and meets the assigned adjuster on site, because in New Jersey a licensed public adjuster or attorney negotiates or settles the claim.**'"
+  },
+  {
+    "serviceId": "storm-damage-roof-replacement",
+    "dimension": "factualAccuracy",
+    "severity": "low",
+    "quote": "wind and hail drive 40.7% of homeowners claims, per the Insurance Information Institute (Triple-I, 2019–2023)",
+    "problem": "Minor period-tag mismatch. The 40.7% cause-of-loss share is sourced to Triple-I in facts-cost-stats.md §9 (line 143, PRIMARY), but the cause-distribution table in §8 (lines 124–137) is from a '~5-yr window ending ~2021' (via Kin/ConsumerAffairs) and the pack explicitly says 'Flag year when citing on-page.' Tagging the 40.7% as '2019–2023' is slightly imprecise for that specific split.",
+    "fix": "Drop the explicit year on the 40.7% figure (keep it on the $14,747/1-in-36 stats, which are genuinely 2019–2023): 'wind and hail drive 40.7% of homeowners claims, the most common peril, per the Insurance Information Institute (Triple-I).'"
+  },
+  {
+    "serviceId": "storm-damage-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per the Zonda Cost vs Value report",
+    "problem": "Mis-attribution. The 60–68% recoup range is attributed in facts-cost-stats.md §7 (line 104) to 'Zillow analysis (via Opendoor, 2025)' [SECONDARY], NOT to the Zonda Cost vs Value report. Zonda's actual recoup figures are different (~61% for 2023 / ~59–60% for 2024, lines 95/97), and the discrete 60.7% Cost-vs-Value figure is line 106. Citing '60 to 68%' to Zonda mis-names the source for that number.",
+    "fix": "In /Users/akungapaul/Projects/Newarkqualityroofing/src/data/service-content/replacement-sub-pages.ts (line 782, storm-damage-roof-replacement → Newark \"residential\" block):\n\nBEFORE:\nA new asphalt roof recoups roughly 60 to 68% of project cost at resale, per the Zonda Cost vs Value report, and a Newark Quality Roofing crew runs a magnet sweep for nails before leaving the property.\n\nAFTER:\nA new asphalt roof recoups roughly 60 to 68% of project cost at resale, per a Zillow resale analysis, and a Newark Quality Roofing crew runs a magnet sweep for nails before leaving the property."
+  },
+  {
+    "serviceId": "aging-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "low",
+    "quote": "A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis and the Zonda Cost vs Value report",
+    "problem": "The 60–68% recoup range traces only to Zillow analysis (facts-cost-stats §7: 'National roof-replacement ROI ≈ 60–68% — Zillow analysis via Opendoor'). The Zonda/Remodeling Cost vs Value figure is ≈59% to >60% (2024) / ≈61% (2023), not up to 68%. Attributing the 68% upper bound to BOTH Zillow AND Zonda over-states what the Zonda report supports. The same blended citation repeats in the pricing factor (line 1079).",
+    "fix": "Replace 'per Zillow analysis and the Zonda Cost vs Value report' with 'per Zillow analysis' (drop the Zonda co-attribution for the 60–68% range), or narrow the figure to '60 to 61%' if the Zonda Cost vs Value report is kept as the source. Apply the same correction to the matching pricing factor: 'A new asphalt roof recoups roughly 60–68% of project cost at resale, offsetting part of the replacement cost, per Zillow analysis.'"
+  },
+  {
+    "serviceId": "roof-replacement-after-leak",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "**Newark Quality Roofing replaces a roof after a chronic leak across Essex County for 4 conditions that exceed repair: 3 or more repairs in 2 years, a leak path across more than 25–30% of the roof area, a moisture-rotted deck, and a repair quote approaching 50% of replacement cost** — on residential and commercial properties.",
+    "problem": "The opening bolded answer sentence of the overview runs 49 words, exceeding the answer-first ≤40-word limit (Rule 2). The answer is still definitive and leads, but the bolded span should be tightened to ≤40 words.",
+    "fix": "Replace the bolded span with '**Newark Quality Roofing replaces a roof after a chronic leak across Essex County for 4 conditions that exceed repair: 3 or more repairs in 2 years, a leak path across more than 25–30% of the roof, a moisture-rotted deck, and a repair quote near 50% of replacement cost** — on residential and commercial properties.' (trims to ~40 words; move the residential/commercial qualifier into the following sentence if further trimming is needed)."
+  },
+  {
+    "serviceId": "roof-replacement-after-leak",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "**Replace a roof when a leak recurs after 3 or more repairs in 2 years, when damage exceeds 25–30% of the roof area, when the deck is moisture-rotted, or when one repair approaches 50% of replacement cost; repair a roof when the leak stays localized on an asphalt roof under 10–15 years old.**",
+    "problem": "The bolded definitive answer to the required repair-vs-replace FAQ runs 53 words, exceeding the answer-first ≤40-word limit (Rule 2). FAQ answers are not exempt from the answer-first rule.",
+    "fix": "Tighten to ≤40 words, e.g. '**Replace a roof when a leak recurs after 3 or more repairs in 2 years, when damage exceeds 25–30% of the roof, when the deck is moisture-rotted, or when one repair nears 50% of replacement cost; repair when the leak stays localized on an asphalt roof under 10–15 years.**'"
+  },
+  {
+    "serviceId": "roof-replacement-after-leak",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so a recurring stain marks ongoing moisture intrusion, per GAF and This Old House inspection guidance.",
+    "problem": "The claim is attributed to 'the EPA,' but no EPA source — and no '24–48 hours / wet materials grow no mold' figure — appears in any of the fact packs. facts-causes-signs.md cites only the NRCA 48-hour PONDING threshold and University of Minnesota for mold/musty odor; there is zero EPA citation anywhere in the relevant packs. The ruleset requires every hard figure be present in the packs and attributed to the same named source (Rule 10 / D-01). The 24–48h figure is also an unverified number layered onto a named authority that the packs do not carry.",
+    "fix": "In .planning/content-system/batch8/roof-replacement-after-leak.snippet.ts, signs[] bullet (line 39):\n\nBEFORE:\n'**Brown or yellow ceiling stains that return after each rainfall** indicate an active recurring leak, and the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so a recurring stain marks ongoing moisture intrusion, per GAF and This Old House inspection guidance.'\n\nAFTER:\n'**Brown or yellow ceiling stains that return after each rainfall** indicate an active recurring leak, and a recurring stain marks ongoing moisture intrusion rather than a one-time event, per GAF and This Old House inspection guidance.'"
+  },
+  {
+    "serviceId": "roof-replacement-after-leak",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "A new asphalt roof recoups roughly 60 to 68% of project cost at resale, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report.",
+    "problem": "The '60 to 68%' recoup figure is mis-attributed. In facts-cost-stats.md §7 the 60–68% range is sourced to Zillow (via Opendoor); only the '8 of the top 10 highest-ROI remodels are exterior replacement' stat is the Zonda 2025 Cost vs Value figure [PRIMARY]. Attributing both to 'the Zonda Cost vs Value report' assigns the 60–68% number to the wrong named source.",
+    "fix": "BEFORE:\nA new asphalt roof recoups roughly 60 to 68% of project cost at resale, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report.\n\nAFTER:\nA new asphalt roof recoups roughly 60 to 68% of project cost at resale, per a Zillow resale analysis, and 8 of the top 10 highest-ROI remodels are exterior replacement projects, per the Zonda Cost vs Value report."
+  },
+  {
+    "serviceId": "fire-damage-roof-replacement",
+    "dimension": "factualAccuracy",
+    "severity": "low",
+    "quote": "**Fire damage across more than 25–30% of the roof area** crosses the contractor-consensus 25% rule, the threshold above which full replacement costs less than continued spot repair, per roofing industry guidance.",
+    "problem": "The fact packs frame the repair-vs-replace economic threshold as the '30% rule (some contractors 25–30%)' (cost-stats §5; materials §8), not a named 'contractor-consensus 25% rule.' Labeling it the '25% rule' is imprecise and collides with the NJ commercial-permit '25% rule' (N.J.A.C. 5:23-2.7(c)), which is a distinct concept used elsewhere in this same entry's commercial section. The stated '25–30%' range and 'per roofing industry guidance' attribution keep the claim defensible, but the 'contractor-consensus 25% rule' label is not what the packs state.",
+    "fix": "**Fire damage across more than 25–30% of the roof area** crosses the contractor-consensus repair-vs-replace threshold, above which full replacement costs less than continued spot repair, per roofing industry guidance."
+  },
+  {
+    "serviceId": "asphalt-shingle-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "low",
+    "quote": "against a 2025 national average near $10,000–$11,000, per HomeAdvisor and Modernize NJ cost data",
+    "problem": "The $10,000–$11,000 2025 national-average replacement figure traces in facts-cost-stats.md §6 to 'Ridgetop Exteriors / industry (2025),' not to HomeAdvisor/Modernize. HomeAdvisor/Modernize are the named sources for the NJ $10,000–$25,000 whole-home range, not the national average — so the national figure is attributed to the wrong aggregators.",
+    "fix": "Replace 'against a 2025 national average near $10,000–$11,000, per HomeAdvisor and Modernize NJ cost data' with 'against a 2025 national average near $10,000–$11,000 per industry cost data, while the NJ range traces to HomeAdvisor and Modernize NJ cost data.'"
+  },
+  {
+    "serviceId": "asphalt-shingle-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per the Zonda Cost vs Value report",
+    "problem": "The 60–68% recoup figure is mis-attributed. In facts-cost-stats.md the 60–68% ROI band is sourced to a Zillow analysis (via Opendoor, 2025) — NOT to the Zonda/Remodeling Cost vs Value report. Zonda's actual asphalt recoup figures in the packs are 59–61% (§6/§7), so quoting 60–68% 'per the Zonda Cost vs Value report' ties a hard number to the wrong named authority.",
+    "fix": "In /Users/akungapaul/Projects/Newarkqualityroofing/src/data/service-content/replacement-sub-pages.ts, line 1719 (service 'asphalt-shingle-roof-replacement', residential.content[1]):\n\nBEFORE:\n'A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per the Zonda Cost vs Value report, so an asphalt replacement returns value at sale as well as ending the leak risk.'\n\nAFTER:\n'A new asphalt roof recoups roughly 60 to 68% of project cost at resale, per a Zillow resale analysis, so an asphalt replacement returns value at sale as well as ending the leak risk.'\n\n(Acceptable alternative if the Zonda source is to be kept: change the figure to match Zonda — 'A new asphalt roof recoups roughly 59 to 61% of project cost at resale, per the Zonda Cost vs Value report, so an asphalt replacement returns value at sale as well as ending the leak risk.')\n\nNote: the identical mis-attribution appears in the batch8 source snippet at /Users/akungapaul/Projects/Newarkqualityroofing/.planning/content-system/batch8/asphalt-shingle-roof-replacement.snippet.ts line 58 and should receive the same correction to keep snippet and live content in sync."
+  },
+  {
+    "serviceId": "metal-roof-replacement",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "Replace a roof with metal when damage exceeds 25–30% of the roof area, one repair approaches 50% of replacement cost, or an asphalt roof passes its 20-to-30-year lifespan; repair a roof when the damage stays localized on an asphalt roof under 10–15 years old.",
+    "problem": "The repair-vs-replace FAQ answer's first sentence (the definitive bolded opener) runs 44 words, over the ≤40-word answer-first cap. The overlay FAQ opener (43 words) and the energy FAQ opener (42 words) are likewise slightly over. The openers are definitive and answer-first; they are just a few words long.",
+    "fix": "Trim to ≤40 words, e.g.: 'Replace a roof with metal when damage exceeds 25–30% of the roof area, one repair approaches 50% of replacement cost, or an asphalt roof passes its 20-to-30-year lifespan; repair when damage stays localized on asphalt under 10–15 years.'"
+  },
+  {
+    "serviceId": "metal-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "proper attic ventilation extends roof life by up to 25%, per the NRCA, so a Newark Quality Roofing assessment corrects undersized ventilation as part of the metal install.",
+    "problem": "The 'up to 25%' roof-life figure is mis-attributed to the NRCA. facts-components-specialty.md (lines 232-234) explicitly flags this number as an unconfirmed 'industry estimate' only and BANS citing the 'exact NRCA up to 25%... as a verbatim published stat.' The NRCA has not published this figure; only the qualitative condensation/warranty point is NRCA-attributable.",
+    "fix": "In src/data/service-content/replacement-sub-pages.ts (metal-roof-replacement approachContent, line ~1894; mirror in .planning/content-system/batch8/metal-roof-replacement.snippet.ts line 50), replace only the offending clause:\n\nBEFORE:\nThe NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and proper attic ventilation extends roof life by up to 25%, per the NRCA, so a Newark Quality Roofing assessment corrects undersized ventilation as part of the metal install.\n\nAFTER:\nThe NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and proper attic ventilation reduces the heat and moisture stress that shortens roof life and is a common shingle-warranty condition, per the NRCA, so a Newark Quality Roofing assessment corrects undersized ventilation as part of the metal install.\n\nThis removes the unconfirmed \"up to 25%\" percentage (banned by facts-components-specialty.md §8, lines 233-234) while keeping the NRCA attribution on the qualitative moisture/heat-stress and shingle-warranty-condition point that IS NRCA-attributable per facts-components-specialty.md line 231."
+  },
+  {
+    "serviceId": "metal-roof-replacement",
+    "dimension": "factualAccuracy",
+    "severity": "medium",
+    "quote": "NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide.",
+    "problem": "The 10-40% NJ-above-national premium is mis-attributed to HomeGuide. In facts-materials-economics.md (lines 271-272) this figure is tagged '[SECONDARY consensus]' with NO named source; it is not a HomeGuide figure. The same mis-attribution appears in the cost FAQ answer (line 1965) and the pricing factor (line 2000).",
+    "fix": "Apply in TWO places in /Users/akungapaul/Projects/Newarkqualityroofing/src/data/service-content/replacement-sub-pages.ts (metal-roof-replacement entry), and mirror in the batch8 draft /Users/akungapaul/Projects/Newarkqualityroofing/.planning/content-system/batch8/metal-roof-replacement.snippet.ts (lines 121, 156).\n\n(1) FAQ cost answer — line 1965 (snippet line 121):\nBEFORE: NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide.\nAFTER:  NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, across NJ roofing-cost estimates.\n\n(2) Pricing factor — line 2000 (snippet line 156):\nBEFORE: NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide.\nAFTER:  NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, across NJ roofing-cost estimates.\n\nOnly the trailing \"per HomeGuide.\" attribution changes to \"across NJ roofing-cost estimates.\" in both occurrences; the rest of each sentence (and the correctly-sourced \"per Josten Roofing and NJ guide pricing\" dollar figure in the FAQ answer) is unchanged."
+  },
+  {
+    "serviceId": "tile-roof-replacement",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "**Replace a tile roof when the underlayment fails beneath sound tile, when broken tile crosses 20 to 25% of a clay roof or 15 to 20% of a concrete roof, or when the deck rots; repair when damage stays localized and the underlayment holds.**",
+    "problem": "The repair-vs-replace FAQ first sentence is 44 words, exceeding the answer-first ≤40-word cap (Ruleset Rule 2 / answerFirst dimension). The answer is accurate and definitive but runs 4 words over.",
+    "fix": "Trim to ≤40 words: '**Replace a tile roof when the underlayment fails beneath sound tile, when broken tile crosses 20 to 25% of clay or 15 to 20% of concrete, or when the deck rots; repair localized damage if the underlayment holds.**'"
+  },
+  {
+    "serviceId": "tile-roof-replacement",
+    "dimension": "regulatoryAccuracy",
+    "severity": "high",
+    "quote": "A full tear-off exposes the deck for inspection and replacement of plywood or OSB rotted under the old underlayment, the work the NJ Rehabilitation Subcode requires because a tile roof is water-soaked or tile and takes complete removal of the existing covering, per N.J.A.C. 5:23-6.4.",
+    "problem": "The clause 'because a tile roof is water-soaked or tile' is garbled and conflates two separate recover-prohibition conditions. Per N.J.A.C. 5:23-6.4 (and IRC R908.3.1.1), a recover/roof-over is prohibited where (a) the deck/covering is water-soaked or deteriorated, OR (b) the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile. A clay/concrete tile roof requires a full tear-off because the COVERING is a listed non-recoverable type — not because 'a tile roof is water-soaked or tile' (which is nonsensical). The code rationale is mis-stated.",
+    "fix": "In /Users/akungapaul/Projects/Newarkqualityroofing/src/data/service-content/replacement-sub-pages.ts (line 2261; mirror snippet line 47 in .planning/content-system/batch8/tile-roof-replacement.snippet.ts):\n\nBEFORE:\nthe work the NJ Rehabilitation Subcode requires because a tile roof is water-soaked or tile and takes complete removal of the existing covering, per N.J.A.C. 5:23-6.4.\n\nAFTER:\nthe work the NJ Rehabilitation Subcode requires because a clay or concrete tile covering cannot be roofed-over and takes complete removal of the existing covering before new roofing, per N.J.A.C. 5:23-6.4."
+  },
+  {
+    "serviceId": "tile-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "A new roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis and the Zonda Cost vs Value report, so a tile replacement returns value at sale",
+    "problem": "The 60-68% resale-recoup figure is attributed in facts-cost-stats.md §7 ONLY to 'Zillow analysis (via Opendoor, 2025).' The Zonda Cost vs Value figures in the pack are 61% (2023 asphalt), 49% (2023 metal), and 59-to->60% (2024) — not a 60-68% range. Crediting the 60-68% number to the Zonda Cost vs Value report mis-attributes the figure to a source the pack does not cite for it.",
+    "fix": "In /Users/akungapaul/Projects/Newarkqualityroofing/src/data/service-content/replacement-sub-pages.ts, line 2272 (tile-roof-replacement residential.content):\n\nBEFORE:\n'A new roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis and the Zonda Cost vs Value report, so a tile replacement returns value at sale alongside the long tile life of 75 to 100-plus years for clay, per the Tile Roofing Industry Alliance.'\n\nAFTER:\n'A new roof recoups roughly 60 to 68% of project cost at resale, per Zillow analysis, so a tile replacement returns value at sale alongside the long tile life of 75 to 100-plus years for clay, per the Tile Roofing Industry Alliance.'\n\n(Only change: delete \" and the Zonda Cost vs Value report\" — the unsupported co-attribution of the 60–68% figure. facts-cost-stats.md §7 attributes 60–68% solely to Zillow/Opendoor; Zonda's pack recoup figures are 61% / 60.7% / \"59 to >60%\", not 60–68%.)"
+  },
+  {
+    "serviceId": "tile-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, and a new roof recoups roughly 60–68% of cost at resale, per HomeGuide, Integrity Home Exteriors, and the Zonda Cost vs Value report.",
+    "problem": "The 60-68% resale-recoup figure is attributed in facts-cost-stats.md §7 only to 'Zillow analysis (via Opendoor, 2025),' not to HomeGuide, Integrity Home Exteriors, or the Zonda Cost vs Value report. The actual Zillow source is dropped and the figure is credited to three sources the pack does not cite for it; Zonda's recoup figures are 49-61%, not 60-68%.",
+    "fix": "BEFORE:\n'NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, and a new roof recoups roughly 60–68% of cost at resale, per HomeGuide, Integrity Home Exteriors, and the Zonda Cost vs Value report.'\n\nAFTER:\n'NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, per HomeGuide and Integrity Home Exteriors, and a new roof recoups roughly 60–68% of cost at resale, per Zillow analysis and the Zonda Cost vs Value report.'"
+  },
+  {
+    "serviceId": "tile-roof-replacement",
+    "dimension": "factualAccuracy",
+    "severity": "medium",
+    "quote": "Concrete tile runs $9 to $18 per square foot and clay $12 to $25, per Modernize and HomeGuide.",
+    "problem": "facts-materials-economics.md §6 lists 'Concrete tile repair ≈ $9–$18 / sq ft; clay $12–$25 / sq ft (Modernize/HomeGuide)' under the '### Repair cost (national)' heading — these are tile REPAIR per-sq-ft figures, not replacement/install costs. The entry presents them in a cost-of-REPLACEMENT FAQ as the per-square-foot replacement price, mis-applying a repair figure as a replacement figure. The same mis-application appears in the pricing factor (line 2363).",
+    "fix": "File: /Users/akungapaul/Projects/Newarkqualityroofing/.planning/content-system/batch8/tile-roof-replacement.snippet.ts\n\nFIX 1 — FAQ answer (line 121), question \"How much does tile roof replacement cost in Essex County, NJ?\":\nBEFORE:\n'**Tile roof replacement in New Jersey runs $10 to $20-plus per square foot for premium tile, per NHI Contractors, against a typical NJ new-roof range of $10,000 to $25,000**, per HomeAdvisor and Modernize NJ cost data. Concrete tile runs $9 to $18 per square foot and clay $12 to $25, per Modernize and HomeGuide. Newark Quality Roofing provides a free written estimate.'\nAFTER:\n'**Tile roof replacement in New Jersey runs $10 to $20-plus per square foot for premium tile, per NHI Contractors, against a typical NJ new-roof range of $10,000 to $25,000**, per HomeAdvisor and Modernize NJ cost data. Clay tile carries a higher material cost than concrete tile, per the Tile Roofing Industry Alliance. Newark Quality Roofing provides a free written estimate.'\n\nFIX 2 — pricing factor (line 149):\nBEFORE:\n'Tile type drives the per-square-foot cost: concrete tile runs $9–$18 per square foot and clay tile $12–$25, per Modernize and HomeGuide.'\nAFTER:\n'Tile type drives the per-square-foot cost: premium tile (clay, concrete, slate) installs at $10–$20+ per square foot in New Jersey, per NHI Contractors, with clay carrying a higher material cost than concrete.'\n\n(If a closer match to the reviewer's proposed wording is preferred, the literal proposed replacement — \"Premium tile (clay, concrete, slate) installs at $10 to $20-plus per square foot in New Jersey, per NHI Contractors.\" — is also factually correct and fact-pack-supported; the edits above are the same correction de-duplicated against the NHI figure already present in the FAQ's first sentence.)"
+  },
+  {
+    "serviceId": "flat-roof-replacement",
+    "dimension": "answerFirst",
+    "severity": "low",
+    "quote": "**Replace a flat roof when membrane damage exceeds 25 to 30% of the roof area, when leaks recur at the same spot, or when the membrane reaches its lifespan; repair a flat roof when the damage stays localized to an isolated seam or puncture.**",
+    "problem": "The bolded answer-first sentence of the required repair-vs-replace FAQ runs 44 words, exceeding the ≤40-word answer-first limit. The required FAQ is present and the facts are correct/attributed; only the length is over.",
+    "fix": "Trim the bolded answer to ≤40 words, e.g.: '**Replace a flat roof when membrane damage exceeds 25 to 30% of the roof area, when leaks recur at one spot, or when the membrane reaches its lifespan; repair when the damage stays an isolated seam or puncture.**' (38 words)"
+  },
+  {
+    "serviceId": "cedar-shake-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "low",
+    "quote": "NJ ranges sit 10 to 40% above national figures because labor runs roughly 60 to 70% of a wood-roof install and NJ code is stricter, per Modernize and HomeGuide.",
+    "problem": "The '60 to 70%' labor-share figure is sourced to Modernize alone in facts-materials-economics.md §5 (HomeGuide is not a co-source on that row), and the '10 to 40% above national' figure is tagged '[SECONDARY consensus]' in §7 with no specific named owner — so pinning both to 'Modernize and HomeGuide' is a mild attribution stretch.",
+    "fix": "Change '...because labor runs roughly 60 to 70% of a wood-roof install and NJ code is stricter, per Modernize and HomeGuide.' to '...because labor runs roughly 60 to 70% of a wood-roof install, per Modernize, and NJ code is stricter.'"
+  },
+  {
+    "serviceId": "cedar-shake-roof-replacement",
+    "dimension": "namedCitations",
+    "severity": "medium",
+    "quote": "above NJ asphalt at $5.50 to $11.00 and below NJ slate at $10 to $30, per Josten Roofing NJ pricing.",
+    "problem": "The slate '$10 to $30' figure is attributed to Josten Roofing, but facts-materials-economics.md §7 attributes NJ slate $10-$30 to 'NJ roofing guides' — Josten Roofing is only the source for the asphalt rows ($5.50-$9.50 / architectural $6.50-$11.00). The single 'per Josten Roofing NJ pricing' attribution wraps the slate range and mis-attributes it.",
+    "fix": "In /Users/akungapaul/Projects/Newarkqualityroofing/src/data/service-content/replacement-sub-pages.ts (serviceId 'cedar-shake-roof-replacement', pricing.factors[0], line 2721):\n\nBEFORE:\n'Premium cedar roofing in New Jersey runs $10 to $20-plus per square foot installed, per NHI Contractors NJ pricing, above NJ asphalt at $5.50 to $11.00 and below NJ slate at $10 to $30, per Josten Roofing NJ pricing.'\n\nAFTER:\n'Premium cedar roofing in New Jersey runs $10 to $20-plus per square foot installed, per NHI Contractors NJ pricing, above NJ asphalt at $5.50 to $11.00 per Josten Roofing NJ pricing and below NJ slate at $10 to $30 per NJ roofing guides.'"
+  }
+]
