@@ -83,7 +83,7 @@ export const HEADING_CONFIG = {
       `Which Neighborhoods Do We Serve in ${c}?`,
       `What Roofing Materials Work Best for ${c} Properties?`,
       `What Should You Know About Roofing Permits in ${c}?`,
-      `What Roofing Projects Have We Completed in ${c}?`,
+      `What Roofing Projects Do We Handle in ${c}?`,
       `What Questions Do ${c} Property Owners Ask About Roofing?`,
       `Where Else Do We Provide Roofing Services Near ${c}?`,
       `How Can You Request a Free Roofing Estimate in ${c}?`,

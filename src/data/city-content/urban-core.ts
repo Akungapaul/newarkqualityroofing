@@ -7,707 +7,748 @@ import type { CityContent } from '@/lib/types';
 // century-old infrastructure.
 
 export const urbanCoreContent: CityContent[] = [
-  // ─── Newark ──────────────────────────────────────────────────────────────
-  {
-    cityId: 'newark',
-    heroHeadline: 'Roofing Services in Newark, NJ',
-    heroSubheadline:
-      'From Ironbound brownstones to downtown high-rises, Newark Quality Roofing delivers proven results across every neighborhood in New Jersey\'s largest city.',
-    overview: [
-      'Newark is our home. As the largest city in New Jersey and the seat of Essex County, Newark presents a roofing landscape unlike anywhere else in the state. With over 300,000 residents spread across neighborhoods that range from the tight-packed brownstones of the Ironbound to the tree-lined colonials of Forest Hill, our crews understand that every block demands a different approach. We have completed projects across all 07101 through 07114 zip codes, and our trucks are on Newark streets every single day of the week.',
-
-      'The Ironbound district — bounded by Raymond Boulevard, McCarter Highway, and the Passaic River — is one of the densest residential corridors in Essex County. Its signature three-story brownstones share party walls, meaning flashing details at adjoining rooflines are critical to preventing water intrusion that migrates between buildings. We have re-roofed entire rows of Ferry Street brownstones, coordinating with adjacent property owners to ensure continuous waterproofing along shared parapets. The Ironbound also hosts dozens of commercial storefronts and restaurants along Ferry Street and Market Street, where flat roofs with rooftop HVAC units require specialized membrane work.',
-
-      'Downtown Newark has undergone dramatic transformation over the past decade. The Prudential Center arena, NJPAC arts campus, and Mulberry Commons park have drawn new mixed-use development along Broad Street and Market Street. These commercial and residential towers demand modern roofing systems — TPO and EPDM membranes on flat decks, curtain wall integration at parapets, and green roof assemblies on amenity terraces. Our commercial division has partnered with property managers at Gateway Center, Military Park buildings, and several Halsey Street mixed-use projects to maintain and replace roofing systems that protect millions of dollars in real estate investment.',
-
-      'North of downtown, the North Ward and Roseville neighborhoods feature a mix of two-family homes, small apartment buildings, and churches. Many of these structures date to the 1920s and 1930s, with original slate or clay tile roofs that require careful restoration rather than wholesale replacement. In the South Ward and Weequahic, post-war colonials and Cape Cods with asphalt shingle roofs are reaching the end of their 25-year lifespans, and homeowners need cost-effective replacements that stand up to Newark\'s urban microclimate. Vailsburg, straddling the border with Irvington, features narrow-lot colonials where scaffolding access is tight and crews must work efficiently to minimize disruption to neighboring properties.',
-
-      'What makes Newark roofing uniquely challenging is the urban environment itself. Newark Liberty International Airport generates sustained wind corridors along the Passaic River valley that stress roof edges and ridge caps. The urban heat island effect — caused by miles of asphalt, concrete, and dark rooftops — pushes summer surface temperatures 10 to 15 degrees above suburban areas, accelerating shingle granule loss and membrane degradation. And when nor\'easters track up the coast, downtown wind tunnels between tall buildings can amplify gusts to damaging levels. Every roof we install in Newark is engineered for these specific conditions.',
-    ],
-    residential: {
-      heading: 'Newark Residential Roofing — Brownstones to Colonials',
-      content: [
-        'Newark\'s residential roofing stock is among the most diverse in New Jersey. In the Ironbound, brownstone and rowhouse roofing requires precise attention to shared-wall flashing, parapet cap details, and rubber membrane tie-ins where flat roofs meet vertical masonry. Many of these buildings have been converted from single-family to multi-family occupancy, adding rooftop penetrations for additional HVAC systems and plumbing vents that must be properly sealed. Our crews carry specialized brownstone flashing kits and can match existing copper or galvanized details to maintain architectural continuity along the streetscape.',
-
-        'Forest Hill, Newark\'s most architecturally distinguished residential neighborhood, features Victorian-era homes with complex rooflines — turrets, dormers, intersecting gables, and decorative slate work. Restoring these roofs requires sourcing matching slate tiles, hand-fitting copper flashings, and respecting the original craftsmanship that makes Forest Hill a local historic district. We have completed full slate restorations on several Mount Prospect Avenue residences and replaced deteriorated copper valleys on Branch Brook Park-facing homes where century-old materials had finally reached end of life.',
-
-        'In Vailsburg, the West Ward, and the South Ward, the housing stock shifts to post-war colonials, split-levels, and Cape Cods — primarily asphalt shingle roofs on plywood decking. These neighborhoods represent the bulk of our residential replacement work in Newark. Homeowners here face common challenges: aging 3-tab shingles lifting in wind, inadequate attic ventilation causing ice dams, and gutter systems that cannot handle the volume of water flowing off steeply pitched roofs during summer thunderstorms. We typically recommend architectural shingles rated for high wind resistance with enhanced ridge ventilation to address these issues.',
-
-        'Multi-family investment properties are a major segment of Newark residential roofing. Two-family and three-family homes throughout the North Ward, Roseville, and Clinton Hill require roofing solutions that balance cost with durability — landlords need roofs that will last 30 years without requiring tenant-disrupting maintenance. We offer specialized multi-family packages that include full tear-off, ice and water shield at all eaves and valleys, architectural shingles, and upgraded aluminum drip edge. For flat-roof multi-family buildings, we install EPDM or TPO membranes with 20-year warranties that give property owners peace of mind.',
-      ],
-    },
-    commercial: {
-      heading: 'Newark Commercial Roofing — Offices, Warehouses, and Mixed-Use',
-      content: [
-        'Newark\'s commercial roofing demands are enormous. The city hosts the largest concentration of office space, retail, and industrial buildings in Essex County. Downtown properties along Broad Street, Raymond Boulevard, and McCarter Highway feature flat roofs spanning thousands of square feet, supporting heavy HVAC equipment, elevator penthouses, and telecommunications arrays. Our commercial division specializes in TPO and EPDM membrane systems that provide seamless waterproofing across these large roof decks while accommodating the thermal expansion and contraction that Newark\'s temperature extremes demand.',
-
-        'The Ironbound\'s commercial corridor along Ferry Street and adjacent blocks hosts hundreds of restaurants, bakeries, and specialty food businesses. These establishments generate significant heat and moisture from commercial kitchens, which can accelerate roof deterioration from below. We install high-performance vapor barriers and enhanced ventilation systems to protect roof membranes from interior moisture damage. Several Ferry Street restaurant owners have trusted us with complete roof replacements, including custom exhaust penetration details that meet health department requirements.',
-
-        'Along McCarter Highway and the industrial corridors near Port Newark, warehouse and distribution facilities require durable low-slope roofing systems that can support forklift traffic on mezzanine levels and withstand vibration from heavy machinery below. We have installed modified bitumen and TPO systems on warehouses exceeding 50,000 square feet, including facilities that operate around the clock and cannot afford downtime from leaks. Our crews work in phases to keep sections of these buildings operational while completing full roof replacements.',
-
-        'The growing mixed-use development scene in Newark — particularly along Halsey Street, Mulberry Street, and in the University Heights area near NJIT and Rutgers-Newark — presents hybrid roofing challenges. These buildings combine commercial ground floors with residential upper stories, requiring different roofing approaches for occupied versus unoccupied roof areas. Amenity decks, green roof sections, and rooftop terraces demand pedestrian-rated membrane systems with proper drainage and fall protection integration. We have partnered with several Newark developers to deliver roofing packages that meet both commercial performance standards and residential comfort expectations.',
-      ],
-    },
-    weatherChallenges: {
-      heading: 'Newark Weather and Urban Climate Challenges',
-      content: [
-        'The urban heat island effect is Newark\'s most significant roofing challenge. Miles of asphalt, concrete, and dark rooftops absorb solar radiation and re-emit it as heat, pushing summer surface temperatures 10 to 15 degrees above surrounding suburban areas like Bloomfield or Maplewood. This accelerates granule loss on asphalt shingles, causes premature cracking in rubber membranes, and increases cooling costs for building occupants. We recommend cool-roof coatings, reflective TPO membranes, and light-colored architectural shingles to combat heat island effects on Newark properties.',
-
-        'The Passaic River corridor creates a unique moisture and flooding dynamic. Properties in the eastern sections of the Ironbound and along Raymond Boulevard experience elevated humidity levels that promote moss and algae growth on north-facing roof slopes. During major storm events, the Passaic can overflow its banks, and while direct roof flooding is rare, the saturated air and standing water around foundations create moisture conditions that wick upward through building assemblies and compromise roof insulation. Our Newark installations include enhanced moisture barriers and zinc ridge strips to prevent biological growth.',
-
-        'Nor\'easters tracking up the Atlantic coast hit Newark with sustained winds of 40 to 60 mph, and downtown wind tunnels between tall buildings can amplify gusts to 80 mph or more. The wind corridors created by Newark Liberty Airport approach paths add additional stress to roofs in the eastern and southern portions of the city. Every roof we install in Newark is fastened for high wind resistance, with six-nail patterns on shingles and fully adhered membrane systems on commercial properties. We also reinforce ridge caps, hip caps, and perimeter edge metal to resist the uplift forces that are uniquely intense in Newark\'s urban wind environment.',
-      ],
-    },
-    neighborhoods: [
-      { name: 'Ironbound', description: 'Dense brownstone district along Ferry Street with shared-wall roofing challenges and commercial storefronts requiring flat-roof membrane expertise.' },
-      { name: 'Downtown', description: 'Commercial core around Broad Street and Market Street with high-rise mixed-use buildings, office towers, and new residential development.' },
-      { name: 'North Ward', description: 'Two-family homes and small apartment buildings from the 1920s-1940s, many with original slate or clay tile roofs requiring restoration.' },
-      { name: 'South Ward', description: 'Post-war colonials and Cape Cods in need of asphalt shingle replacements, with diverse housing stock along Clinton Avenue and Lyons Avenue.' },
-      { name: 'West Ward', description: 'Narrow-lot colonials and multi-family homes where tight access conditions require specialized scaffolding and crew coordination.' },
-      { name: 'Vailsburg', description: 'Border neighborhood with Irvington featuring aging colonials on compact lots, many approaching end-of-life on original roofing materials.' },
-      { name: 'Forest Hill', description: 'Historic Victorian homes with complex rooflines, turrets, and decorative slate work along Mount Prospect Avenue and Branch Brook Park.' },
-      { name: 'Weequahic', description: 'Established residential neighborhood around Weequahic Park with mid-century homes and mature tree canopy causing debris-related roof wear.' },
-      { name: 'Roseville', description: 'Mixed residential area with two-family homes and churches, many structures from the 1930s with aging hip and gable roofs.' },
-    ],
-    projectSpotlights: [
-      {
-        title: 'Ironbound Brownstone Row — Ferry Street',
-        type: 'residential',
-        description:
-          'Coordinated re-roofing of four adjacent brownstones on Ferry Street, replacing 60-year-old built-up roofing with EPDM membrane systems. Shared parapet flashings were rebuilt with new copper caps, and all four properties received upgraded internal drainage to handle Newark\'s intense summer storms.',
-        details: [
-          'Four adjoining brownstones completed in coordinated 3-week sequence',
-          'New EPDM membrane with 20-year warranty on all four flat roofs',
-          'Rebuilt copper parapet caps along 180 linear feet of shared walls',
-          'Upgraded internal drains from 3-inch to 4-inch diameter for storm capacity',
-        ],
-      },
-      {
-        title: 'McCarter Highway Warehouse Roof Replacement',
-        type: 'commercial',
-        description:
-          'Complete TPO membrane replacement on a 35,000-square-foot distribution warehouse near Port Newark. Work was phased over six weeks to maintain continuous facility operations, with temporary waterproofing barriers installed at each phase boundary to prevent leaks during the transition.',
-        details: [
-          '35,000 sq ft TPO membrane with 25-year manufacturer warranty',
-          'Six-phase installation maintaining continuous warehouse operations',
-          'New R-30 polyiso insulation replacing degraded original material',
-          'Reinforced perimeter edge metal rated for 90 mph wind uplift',
-        ],
-      },
-      {
-        title: 'Forest Hill Victorian Slate Restoration',
-        type: 'residential',
-        description:
-          'Full slate roof restoration on a 1905 Victorian home near Branch Brook Park. Over 200 cracked or missing Pennsylvania black slate tiles were sourced and hand-fitted, copper valleys and step flashings were replaced, and three decorative turret caps were rebuilt to original specifications.',
-        details: [
-          '200+ replacement Pennsylvania black slate tiles hand-fitted',
-          'New 20-oz copper valleys and step flashings throughout',
-          'Three decorative turret caps rebuilt with matching copper work',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: 'How do you handle shared-wall roofing on Newark brownstones?',
-        answer:
-          'Brownstone party walls require coordinated flashing work. We rebuild parapet caps with new copper or galvanized metal, install counter-flashing into reglets cut into the masonry, and use EPDM membrane tie-ins at both sides. When possible, we coordinate with adjacent property owners to re-roof simultaneously for the best waterproofing result.',
-      },
-      {
-        question: 'Do you work in all Newark zip codes?',
-        answer:
-          'Yes. As a Newark-headquartered company, we serve every zip code from 07101 through 07114. Our crews are on Newark streets daily, and we provide emergency repair service within city limits.',
-      },
-      {
-        question: 'What roofing materials do you recommend for Newark\'s urban heat island?',
-        answer:
-          'We recommend cool-roof solutions: reflective TPO membranes for flat roofs, light-colored architectural shingles for pitched roofs, and elastomeric cool-roof coatings for existing roof surfaces. These materials reduce surface temperatures by up to 50 degrees and lower cooling costs significantly.',
-      },
-      {
-        question: 'Can you restore historic slate roofs in Forest Hill?',
-        answer:
-          'Absolutely. We source matching Pennsylvania and Vermont slate, hand-fit replacement tiles, and fabricate custom copper flashings for historic rooflines. Our restoration work preserves the architectural character of Forest Hill homes while providing modern waterproofing performance.',
-      },
-      {
-        question: 'How do you protect Newark roofs from nor\'easter wind damage?',
-        answer:
-          'Every roof we install in Newark is fastened for high wind resistance. We use six-nail patterns on shingles, fully adhered membrane systems on commercial properties, and reinforced edge metal at all perimeters. We also add extra fasteners at eaves, rakes, and ridges where wind uplift is strongest.',
-      },
-      {
-        question: 'Do you offer roofing for Newark multi-family investment properties?',
-        answer:
-          'Yes, multi-family roofing is a major part of our Newark business. We offer packages for 2-family and 3-family homes that include full tear-off, ice and water shield, architectural shingles, and upgraded drip edge. For flat-roof multi-family buildings, we install EPDM or TPO membranes with 20-year warranties.',
-      },
-      {
-        question: 'What is the typical cost of a roof replacement in Newark?',
-        answer:
-          'Newark roof replacement costs vary based on building type, size, and access conditions. Residential pitched roofs typically range from $8,000 to $18,000 for standard homes, while brownstone flat roofs range from $10,000 to $25,000 depending on membrane type. Commercial projects are quoted individually. Contact us for a free estimate.',
-      },
-      {
-        question: 'How long does a Newark roof replacement take?',
-        answer:
-          'Standard residential replacements take 2 to 4 days. Brownstone flat roofs typically take 3 to 5 days due to parapet and flashing complexity. Commercial projects are phased based on building size and operational requirements — we always create a timeline that minimizes disruption.',
-      },
-    ],
-    whyChoose: {
-      heading: 'Why Newark Trusts Newark Quality Roofing',
-      reasons: [
-        {
-          title: 'Newark Is Our Home Base',
-          description:
-            'Our headquarters are in Newark. We are not a suburban company making occasional trips into the city — we are here every day, on every block, solving the specific roofing problems that Newark\'s urban environment creates.',
-        },
-        {
-          title: 'Urban Roofing Specialists',
-          description:
-            'Brownstone party walls, downtown wind tunnels, tight lot access, flat roof membranes — we handle the unique challenges that come with roofing in New Jersey\'s largest and most complex city.',
-        },
-        {
-          title: 'Newark Projects Completed',
-          description:
-            'With completed projects across every Newark neighborhood, we have the experience and local knowledge that only comes from dedicated work in this city.',
-        },
-        {
-          title: 'Emergency Storm Response',
-          description:
-            'When a storm damages your Newark roof, our crews respond from our city location to tarp, assess, and repair the damage.',
-        },
-        {
-          title: 'Deep Community Roots',
-          description:
-            'We sponsor local events, support Newark organizations, and our team members live in the neighborhoods we serve. This is not just business — it is our community.',
-        },
-      ],
-    },
-    metaTitle: 'Roofing Services in Newark, NJ | Newark Quality Roofing',
-    metaDescription:
-      'Newark\'s trusted roofing contractor serving Ironbound, Forest Hill, Downtown and beyond. Free estimates for roof repair and replacement.',
-    pricing: {
-      averageRepair: '$350–$1,500',
-      averageReplacement: '$8,500–$25,000',
-      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Newark.',
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'Fully Insured & Bonded',
-      'Family-Owned & Local',
+// ─── Newark ───
+{
+  cityId: 'newark',
+  directAnswer:
+    '**Newark Quality Roofing provides roofing in Newark and across Essex County, repairing and replacing asphalt, slate, metal, and flat membrane roofs on homes, multi-family buildings, and commercial properties** as a New Jersey Home Improvement Contractor.',
+  heroHeadline: 'Roofing in Newark, NJ',
+  heroSubheadline:
+    'Newark Quality Roofing serves Newark and Essex County, from Ironbound brownstones and Forest Hill homes to Ferry Street commercial flat roofs.',
+  overview: [
+    'Roofing in Newark faces 3 main stressors: nor\'easter wind, freeze-thaw cycling, and dense party-wall flashing details on aging stock, the conditions that drive most Newark roof leaks and storm losses.',
+    'Newark roofs trace most leaks to the flashing details, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. Roofing in Newark concentrates the flashing problem, because dense Ironbound rowhouses and brownstones share party walls and parapets where one continuous flashing line seals adjoining buildings, and Newark averages roughly 31.5 inches of snow per year while crossing 32°F repeatedly through winter, per NOAA normals at Newark Liberty (EWR), driving freeze-thaw stress on every sealed detail.',
+    'Newark holds 311,549 residents across 24.14 square miles of land, the most populous city in New Jersey and the Essex County seat, per the U.S. Census Bureau 2020 Decennial Census. About a quarter of Newark\'s homes predate 1940 and roughly 24.4% of housing units are owner-occupied, per the U.S. Census Bureau, so roofing in Newark spans older period stock and a heavy share of renter- and investor-owned two- and three-family buildings.',
+    'Newark roofs also carry an urban-heat-island load and a low-lying flood exposure along the Passaic River. Per the U.S. EPA, the heat island effect makes daytime air temperatures in U.S. urban areas about 1–7°F higher than outlying areas and nighttime temperatures about 2–5°F higher, with the largest differences in humid eastern-U.S. and denser cities, and reflective and green roofs lower roof-surface temperature substantially.',
+  ],
+  residential: {
+    heading: 'Newark Residential Roofing',
+    content: [
+      'Newark Quality Roofing repairs and replaces residential roofs across Newark, installing asphalt shingles on Forest Hill, Vailsburg, and Weequahic homes and EPDM or TPO membranes on flat-roofed Ironbound rowhouses and two- and three-family buildings.',
+      'A detached one- and two-family re-roof or repair of the roof covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. Newark Quality Roofing rebuilds parapet and party-wall flashing on the shared rooflines that define Newark\'s dense East, Central, and lower-West Ward fabric, the detail that 90–95% of leaks trace back to, an industry estimate attributed to the NRCA.',
+      'A Newark Quality Roofing residential job installs an ice barrier at the eaves per the IRC R905.1.2 ice-barrier provision, repairs deteriorated decking exposed at tear-off, and runs a magnet sweep for nails before leaving the property. Newark Quality Roofing also services natural slate and metal on the older period homes of Forest Hill and Roseville, the North and West Ward stock dating to the 1870s–1920s, where natural slate lasts 60 to 150 years and metal 40 to 80 years, per the InterNACHI life-expectancy chart.',
     ],
   },
-
-  // ─── East Orange ─────────────────────────────────────────────────────────
-  {
-    cityId: 'east-orange',
-    heroHeadline: 'Roofing Services in East Orange, NJ',
-    heroSubheadline:
-      'From Brick Church Victorians to Main Street commercial properties, we deliver reliable roofing solutions for East Orange\'s diverse housing stock and growing business corridor.',
-    overview: [
-      'East Orange is a transit-connected residential city of nearly 65,000 people, bordered by Newark to the east and Orange to the west. The city\'s identity is shaped by its NJ Transit rail stations — Brick Church and East Orange — which have anchored neighborhoods of commuter-friendly housing for over a century. The housing stock is overwhelmingly residential, with a significant concentration of multi-family properties ranging from converted Victorian homes to mid-century apartment complexes. This creates a roofing market dominated by landlords and property investors who need durable, cost-effective solutions for aging buildings.',
-
-      'The Brick Church neighborhood, centered around Brick Church Station on the Morris & Essex Line, features some of East Orange\'s most architecturally interesting residential properties. Victorian and Edwardian homes along Halsted Street, Greenwood Avenue, and Arlington Avenue display steep-pitched roofs with complex intersecting gables, decorative slate, and copper detailing. Many of these homes have been converted to multi-family occupancy, adding modern roofing challenges — additional plumbing vents, HVAC penetrations, and satellite dish mounts — to structures designed for single-family use. Our crews understand how to re-roof these converted properties while preserving the architectural character that makes the Brick Church area distinctive.',
-
-      'Main Street, the city\'s primary commercial corridor, runs east-west through the center of East Orange and hosts retail businesses, professional offices, medical facilities, and municipal buildings. The commercial roofing along Main Street is predominantly flat-roof construction with built-up or modified bitumen systems, many of which are 30 to 40 years old and well past their effective lifespan. We have replaced dozens of Main Street commercial roofs with modern TPO and EPDM membrane systems that provide superior waterproofing, energy efficiency, and longevity. The proximity to East Orange General Hospital also drives demand for medical office roofing that meets strict climate control requirements.',
-
-      'The Elmwood Park section of East Orange, located in the city\'s northern reaches, features larger single-family homes on wider lots — a stark contrast to the dense multi-family corridors further south. These properties tend to have larger roof areas with traditional hip and gable configurations, and homeowners here invest in premium materials like architectural shingles, standing seam metal, and even synthetic slate. The mature tree canopy throughout Elmwood Park creates ongoing maintenance challenges, as falling branches, accumulated leaf debris, and moss growth accelerate roof deterioration. We recommend annual roof inspections for Elmwood Park homeowners to catch tree-related damage before it becomes a leak.',
-
-      'East Orange\'s revitalization efforts over the past decade have brought new mixed-use development along Main Street and Central Avenue, and several large apartment complexes have undergone substantial renovation. This construction activity has increased demand for both new installation and reroof work across the city. As a roofing contractor based just minutes away in Newark, we respond to East Orange calls with the same urgency as our home city — offering free estimates and beginning work within days of contract signing.',
-    ],
-    residential: {
-      heading: 'East Orange Residential Roofing — Victorians to Multi-Family',
-      content: [
-        'Multi-family housing is the backbone of East Orange\'s residential roofing market. The city has one of the highest concentrations of 2-family, 3-family, and 4-family homes in Essex County, many of them converted from larger single-family Victorian and Edwardian homes. Re-roofing these properties requires understanding the structural modifications that accompany conversion — additional partition walls that redirect load paths, new plumbing stacks that penetrate the roof deck, and exterior fire escapes that complicate access and flashing details. Our multi-family packages include full tear-off, enhanced ice and water shield protection, and 30-year architectural shingles designed to minimize maintenance over the long term.',
-
-        'Victorian homes in the Brick Church and Ampere neighborhoods present some of the most complex residential roofing work in Essex County. Steep-pitched roofs with intersecting gables create multiple valleys that concentrate water flow, and decorative elements like turrets, bay window roofs, and eyebrow dormers require custom flashing details. Many of these roofs still carry original slate or clay tile from the early 1900s. When restoration is feasible, we source matching materials and hand-fit replacements. When the underlying structure has deteriorated beyond restoration, we work with homeowners to select modern materials that respect the Victorian aesthetic — synthetic slate or premium architectural shingles in dark, rich colors that complement the existing architecture.',
-
-        'Investment property roofing is a significant part of our East Orange residential business. Landlords and property managers need roofing contractors who understand the economics of rental property maintenance — maximizing roof lifespan while controlling costs, coordinating work around tenant schedules, and providing documentation for insurance and financing purposes. We offer landlord-specific pricing, group discounts for multiple properties, and detailed scope-of-work documents that satisfy lender requirements. Our East Orange investment property clients appreciate that we communicate clearly about what is necessary versus what is optional, helping them make informed decisions about their roofing budgets.',
-
-        'For homeowners in the Doddtown and Greenwood neighborhoods, where modest single-family homes and duplexes line quiet residential streets, we provide straightforward asphalt shingle replacements that deliver maximum value. These neighborhoods feature relatively simple roof geometries — hip roofs, gable roofs, and the occasional split-level — that allow for efficient installation and competitive pricing. We commonly replace aging 3-tab shingles with dimensional architectural shingles that provide better wind resistance, longer warranties, and improved curb appeal without a significant cost premium.',
-      ],
-    },
-    commercial: {
-      heading: 'East Orange Commercial Roofing — Main Street to Medical Offices',
-      content: [
-        'Main Street is the heart of East Orange\'s commercial roofing activity. The corridor stretches from the Newark border through the city center, hosting a mix of retail storefronts, banks, restaurants, and professional offices. Most of these buildings feature flat roofs with aging built-up or modified bitumen systems installed in the 1980s or 1990s. These roofs are well past their expected 20-year lifespan and show widespread deterioration — alligatoring, blistering, split seams, and ponding water. We replace these systems with fully adhered TPO or EPDM membranes that provide superior performance, reflective energy savings, and 20 to 25-year warranties.',
-
-        'The medical office and healthcare corridor near East Orange General Hospital generates specialized commercial roofing demand. Medical facilities require roofs that maintain strict interior climate control — temperature and humidity must remain within narrow ranges for patient comfort, pharmaceutical storage, and medical equipment operation. Roof leaks in medical settings are not just property damage problems; they are compliance and safety issues. We install high-performance membrane systems with enhanced insulation and vapor barriers for medical office buildings, and we schedule work to avoid disrupting patient care or equipment sensitivity.',
-
-        'Apartment complexes throughout East Orange represent a hybrid residential-commercial roofing segment. Buildings with more than four units are classified as commercial properties, and their roofing systems must meet commercial building code requirements for fire resistance, wind uplift, and structural load capacity. We have re-roofed several large apartment complexes along Central Avenue, Prospect Street, and South Harrison Street, installing TPO membrane systems with upgraded insulation that reduce tenant heating and cooling costs while meeting all commercial code requirements.',
-
-        'Central Avenue, East Orange\'s secondary commercial corridor running north-south through the city, hosts a growing number of mixed-use developments with retail at street level and residential units above. These buildings present hybrid roofing challenges — the occupied residential roof areas require different membrane specifications than the mechanical equipment zones, and amenity spaces like rooftop patios demand pedestrian-rated surfaces with proper drainage. We have experience designing and installing split-specification roof systems that address the distinct needs of each zone while maintaining a unified waterproofing envelope.',
-      ],
-    },
-    weatherChallenges: {
-      heading: 'East Orange Weather and Roofing Challenges',
-      content: [
-        'East Orange\'s dense tree canopy is both a civic asset and a roofing liability. The mature oaks, maples, and elms that shade residential streets throughout the city also drop branches during storms, accumulate leaves in valleys and gutters, and create shaded conditions that promote moss and algae growth on north-facing roof slopes. Wind-driven branches during summer thunderstorms and ice storms are the leading cause of emergency roof repairs in East Orange. We recommend regular gutter cleaning, annual roof inspections, and zinc ridge strips to control biological growth for all East Orange properties surrounded by mature trees.',
-
-        'East Orange\'s aging infrastructure amplifies weather-related roof damage. Many homes and commercial buildings in the city are 80 to 100 years old, with roof framing, decking, and ventilation systems that were built to standards far below current code. When storms hit, these older structures are more vulnerable to wind uplift, water infiltration through deteriorated flashing, and ice dam formation due to inadequate attic insulation and ventilation. Our re-roofing projects in East Orange routinely include structural upgrades — adding collar ties to strengthen rafters, replacing deteriorated plywood decking, and installing proper soffit and ridge ventilation to prevent ice dams.',
-
-        'Ice dams are a persistent problem on East Orange\'s older homes, particularly Victorians with complex rooflines and minimal attic insulation. When heat escapes through an under-insulated attic, it melts snow on the upper roof slopes. The meltwater runs down to the cold eave overhang where it refreezes, creating an ice dam that forces water back under shingles and into the building. We address ice dams at the source: enhanced ice and water shield membrane at all eaves and valleys, improved attic insulation, and proper soffit-to-ridge ventilation that keeps the roof deck cold and prevents snowmelt in the first place.',
-      ],
-    },
-    neighborhoods: [
-      { name: 'Ampere', description: 'Historic Victorian and Edwardian homes near the former Ampere rail station, with steep-pitched roofs featuring complex gable intersections and decorative details.' },
-      { name: 'Elmwood Park', description: 'Larger single-family homes on wider lots with significant tree canopy, requiring ongoing maintenance to manage leaf debris and branch damage.' },
-      { name: 'Doddtown', description: 'Quiet residential streets with modest single-family homes and duplexes, primarily hip and gable roofs with straightforward replacement needs.' },
-      { name: 'Brick Church', description: 'Transit-oriented neighborhood around Brick Church Station with converted Victorian multi-family homes and the city\'s oldest housing stock.' },
-      { name: 'Greenwood', description: 'Residential neighborhood with a mix of single-family and two-family homes, many approaching 80+ years old with original roofing materials near end of life.' },
-      { name: 'Central Avenue Corridor', description: 'Mixed-use commercial corridor with new development, retail storefronts, and apartment complexes requiring commercial roofing expertise.' },
-    ],
-    projectSpotlights: [
-      {
-        title: 'Brick Church Victorian Multi-Family — Halsted Street',
-        type: 'residential',
-        description:
-          'Complete roof replacement on a converted 3-family Victorian on Halsted Street near Brick Church Station. The complex roofline included six intersecting gables, two turret sections, and original copper valleys that had corroded through after 110 years. We installed GAF Timberline HDZ architectural shingles in Charcoal to complement the historic facade, replaced all copper valleys and step flashings, and added ridge ventilation that the original construction lacked.',
-        details: [
-          'Six intersecting gables with custom valley flashing at each intersection',
-          'New 16-oz copper valleys and step flashings replacing 110-year-old originals',
-          'GAF Timberline HDZ shingles with golden pledge warranty',
-          'Added continuous ridge ventilation to prevent ice dam formation',
-        ],
-      },
-      {
-        title: 'Main Street Commercial Flat Roof — Professional Office Building',
-        type: 'commercial',
-        description:
-          'TPO membrane replacement on a 12,000-square-foot professional office building on Main Street. The existing built-up roof had been patched repeatedly over 35 years and was beyond repair. We installed a fully adhered 60-mil TPO membrane with new R-25 polyiso insulation, replaced all HVAC curbs and pipe boots, and added new internal drains to eliminate the chronic ponding that had plagued the building for years.',
-        details: [
-          '12,000 sq ft 60-mil TPO membrane with 20-year manufacturer warranty',
-          'New R-25 polyiso insulation over existing structural deck',
-          'Replaced 8 HVAC curbs and 14 pipe penetration boots',
-          'Redesigned drainage to eliminate ponding water issues',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: 'How do you handle roofing on East Orange multi-family conversions?',
-        answer:
-          'Converted Victorian multi-family homes have unique challenges: additional plumbing vents, modified load paths, and fire escape integration. We assess the full roof system including all penetrations added during conversion, and our re-roofing includes proper flashing for every penetration — not just the original ones.',
-      },
-      {
-        question: 'Do you offer pricing for multiple East Orange investment properties?',
-        answer:
-          'Yes. Landlords with multiple East Orange properties receive group pricing and scheduling priority. We can coordinate back-to-back installations to reduce mobilization costs, and we provide detailed scope documents that satisfy bank and insurance requirements.',
-      },
-      {
-        question: 'How do you prevent ice dams on older East Orange homes?',
-        answer:
-          'Ice dams form when heat escapes through under-insulated attics. Our approach addresses the root cause: we install ice and water shield membrane at eaves and valleys, improve attic insulation, and add proper soffit-to-ridge ventilation to keep the roof deck cold. This prevents snowmelt and eliminates ice dam formation at the source.',
-      },
-      {
-        question: 'What is the best roofing material for East Orange Victorians?',
-        answer:
-          'For authentic restoration, we use matching natural slate sourced from Pennsylvania or Vermont quarries. When budget is a concern, synthetic slate provides the Victorian aesthetic at lower cost. For converted multi-family Victorians where historical accuracy is less critical, premium architectural shingles in dark colors like charcoal or weathered wood provide excellent performance and curb appeal.',
-      },
-      {
-        question: 'How quickly can you respond to storm damage in East Orange?',
-        answer:
-          'Our Newark headquarters is less than 10 minutes from any East Orange address. For emergency storm damage, we provide tarping and assessment, and full repair or replacement work begins within days.',
-      },
-      {
-        question: 'Do you handle commercial roofing on East Orange apartment complexes?',
-        answer:
-          'Yes. Apartment buildings with more than four units require commercial roofing systems. We install TPO and EPDM membranes on apartment complexes that meet commercial fire resistance, wind uplift, and structural load code requirements. We phase work to minimize tenant disruption and coordinate with property managers on scheduling.',
-      },
-      {
-        question: 'What should East Orange homeowners know about tree damage to roofs?',
-        answer:
-          'East Orange\'s mature tree canopy is beautiful but hard on roofs. Falling branches cause punctures, accumulated leaves trap moisture in valleys and gutters, and shade promotes moss growth. We recommend annual gutter cleaning, roof inspections after major storms, and zinc ridge strips to prevent moss. Trimming branches back 10 feet from the roof edge is the single best preventive measure.',
-      },
-    
-      {
-        question: 'How much does roofing cost in East Orange, NJ?',
-        answer: 'Most roof repairs in East Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
-      },
-    ],
-    whyChoose: {
-      heading: 'Why East Orange Residents Choose Newark Quality Roofing',
-      reasons: [
-        {
-          title: 'Minutes Away in Newark',
-          description:
-            'Our Newark headquarters is less than 10 minutes from any East Orange address. We offer the same fast response and local knowledge that East Orange residents deserve — without the overhead of a suburban contractor traveling from miles away.',
-        },
-        {
-          title: 'Multi-Family Roofing Specialists',
-          description:
-            'East Orange has one of the highest concentrations of multi-family homes in Essex County, and we re-roof them regularly. From converted Victorians to mid-century apartment buildings, we understand the unique demands of investment property roofing.',
-        },
-        {
-          title: 'Victorian Restoration Experience',
-          description:
-            'The Brick Church and Ampere neighborhoods feature some of Essex County\'s finest Victorian architecture. We have the skills and sourcing network to restore complex rooflines with matching slate, copper, and period-appropriate details.',
-        },
-        {
-          title: 'Investment Property Focus',
-          description:
-            'We understand the economics of rental property roofing. Our pricing, documentation, and communication are designed for landlords and property managers who need reliable results without unnecessary costs.',
-        },
-      ],
-    },
-    metaTitle: 'Roofing Services in East Orange, NJ | Newark Quality Roofing',
-    metaDescription:
-      'Trusted East Orange roofer near Brick Church and Main Street. Multi-family, Victorian, and commercial roofing. Free estimates from Newark Quality Roofing.',
-    pricing: {
-      averageRepair: '$350–$1,500',
-      averageReplacement: '$8,500–$25,000',
-      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in East Orange.',
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'Fully Insured & Bonded',
-      'Family-Owned & Local',
+  commercial: {
+    heading: 'Newark Commercial Roofing',
+    content: [
+      'Newark Quality Roofing services commercial low-slope roofs across Newark, installing and repairing EPDM rubber, TPO, and modified-bitumen membranes on Ferry Street storefronts, downtown mixed-use buildings, and warehouse decks.',
+      'EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and EPDM fails most often at the seams while TPO fails at the welded seams. A Newark commercial low-slope roof requires at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA.',
+      'On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code, filed through the Newark Department of Engineering — Office of Uniform Construction Code / Building Division at City Hall, 920 Broad Street.',
     ],
   },
-
-  // ─── Orange ──────────────────────────────────────────────────────────────
-  {
-    cityId: 'orange',
-    heroHeadline: 'Roofing Services in Orange, NJ',
-    heroSubheadline:
-      'Serving Orange\'s diverse neighborhoods from Main Street to the Valley, with expert roofing for tight-lot homes, mixed housing stock, and commercial properties near South Mountain.',
-    overview: [
-      'Orange is a compact, densely built city of approximately 31,000 residents nestled between East Orange to the east and West Orange to the west, with the South Mountain Reservation forming its southern boundary. Despite being just 2.2 square miles, Orange packs a remarkable variety of housing styles into its tight street grid — from grand Victorian homes along Scotland Road and Park Avenue to modest post-war bungalows and duplexes along Oakwood Avenue and Lincoln Avenue. This architectural diversity means our roofing crews encounter a different challenge on virtually every block, and our deep familiarity with Orange\'s building stock allows us to recommend the right solution for each property type.',
-
-      'Main Street, Orange\'s historic commercial spine, runs east-west through the city center and has been the focus of significant revitalization investment. The streetscape mixes original 19th-century commercial buildings — many with ornate cornices and pressed-tin facades — with newer mixed-use construction. Roofing these Main Street properties requires sensitivity to the historic character of older buildings while meeting modern performance standards. Flat roofs on commercial buildings along Main Street are typically built-up or modified bitumen systems dating to the 1970s and 1980s, and many are overdue for complete membrane replacement. We have re-roofed multiple Main Street storefronts with TPO membrane systems that improve energy efficiency and provide decades of leak-free performance.',
-
-      'The Valley neighborhood, occupying the low-lying eastern section of Orange near the East Orange border, presents unique roofing challenges related to its topography. Stormwater flows downhill from South Mountain through the Valley\'s residential streets, and inadequate municipal drainage during heavy rain events can create standing water conditions around building foundations. This moisture environment makes proper roof ventilation and vapor barriers especially critical for Valley homes — trapped attic moisture can rot roof decking from below even when the surface roofing material is intact. Our Valley installations always include upgraded ventilation and moisture management details.',
-
-      'South Mountain Reservation, the 2,110-acre county park that borders Orange to the south and west, is a defining feature of the city\'s landscape. The reservation\'s dense hardwood canopy — primarily oak, maple, and beech — extends into residential neighborhoods along Hillyer Street, South Valley Road, and Highfield Lane. Properties bordering the reservation face constant roof maintenance challenges from falling branches, accumulated leaf debris, acorn and seed pod accumulation in gutters, and the heavy shade that promotes moss and lichen growth. After major storms, our emergency repair calls from South Mountain-adjacent Orange properties spike dramatically, with branch impacts and wind-driven debris causing shingle damage, gutter destruction, and occasional structural penetration.',
-
-      'Orange\'s proximity to New York City via NJ Transit\'s Orange station on the Morris & Essex Line makes it an attractive commuter community. The NJ Transit connection has driven steady demand for housing renovation and investment property acquisition, and roofing is typically one of the first systems addressed when new owners purchase older Orange homes. We see a steady flow of roof replacement projects from recent home buyers who want to start with a solid, warrantied roof before investing in interior renovations. Our Orange residential packages include full tear-off, new underlayment, architectural shingles, and a 50-year manufacturer warranty that gives new homeowners confidence in their investment.',
-    ],
-    residential: {
-      heading: 'Orange Residential Roofing — Victorians, Bungalows, and Mixed Stock',
-      content: [
-        'Orange\'s residential roofing stock spans more than a century of building styles within its compact 2.2 square miles. The grandest homes line Scotland Road, Park Avenue, and the streets approaching South Mountain — large Victorian and Colonial Revival residences with complex rooflines featuring multiple dormers, intersecting gables, turrets, and decorative slate or copper detailing. Restoring these landmark homes requires sourcing period-appropriate materials: Pennsylvania or Vermont slate tiles matched to the original color and thickness, custom-fabricated copper flashings for turret caps and bay window roofs, and hand-formed standing seam copper for decorative accent roofs. Our slate and copper restoration work in Orange has preserved several neighborhood landmarks that might otherwise have been lost to inappropriate replacement.',
-
-        'The majority of Orange\'s residential roofing, however, involves more modest housing — the two-story colonials, Cape Cods, bungalows, and duplexes that fill the blocks between Main Street and the city borders. These homes typically have asphalt shingle roofs on plywood or plank decking, with roof areas ranging from 1,000 to 2,000 square feet. Many were built in the 1930s through 1950s and are on their second or third roof, with the current shingles often past their rated lifespan. Our standard replacement for these homes includes full tear-off to the deck, inspection and repair of any deteriorated decking, ice and water shield at all eaves and valleys, synthetic underlayment over the full deck, and GAF or CertainTeed architectural shingles with a 50-year limited warranty.',
-
-        'Tight lot conditions are a defining characteristic of Orange residential roofing. Most homes sit on 25 to 40-foot-wide lots with as little as 3 to 5 feet of space between structures. This limits staging area for materials, restricts ladder and scaffold placement, and makes debris containment challenging. Our crews are experienced with Orange\'s tight-lot conditions and use compact material staging, careful debris netting, and coordinated delivery schedules to minimize impact on neighboring properties. We also communicate proactively with adjacent homeowners when our work requires close proximity to their property lines.',
-
-        'Investment properties represent a growing segment of Orange\'s residential roofing market as the city attracts buyers seeking more affordable alternatives to neighboring South Orange and Maplewood. Two-family and three-family homes throughout the city need durable roofing systems that will perform for decades without intensive maintenance. We offer investment property packages with enhanced materials — thicker architectural shingles, upgraded ice and water shield at all penetrations, and heavy-gauge aluminum drip edge — that provide long-term peace of mind for landlords managing multiple properties. Our documentation packages include detailed before-and-after photos, material specifications, and warranty information that satisfy lender and insurance requirements.',
-      ],
-    },
-    commercial: {
-      heading: 'Orange Commercial Roofing — Main Street and Mixed-Use',
-      content: [
-        'Main Street Orange is the city\'s commercial roofing epicenter. The corridor hosts restaurants, retail shops, professional offices, a public library, and municipal buildings — most housed in two- and three-story commercial buildings with flat roofs. Many of these structures date to the late 1800s and early 1900s, and their roofing systems have been through multiple replacement cycles. The current roofs — predominantly modified bitumen or built-up — are typically 25 to 40 years old and exhibiting widespread failure: split seams, alligatoring, ponding water, and deteriorated flashing at parapet walls. We replace these aging systems with fully adhered TPO or EPDM membranes that provide clean, reflective, long-lasting protection.',
-
-        'The Scottish Rite Cathedral on Park Street is one of Orange\'s most distinctive commercial-scale buildings, and our work on similar institutional and religious buildings throughout the city has given us deep expertise in large-format roof systems on historic structures. Churches, community centers, and civic buildings in Orange feature a mix of steep-pitched slate and shingle roofs with flat sections over additions and annexes. These hybrid roofing systems require contractors who can work with both traditional steep-slope materials and modern flat-roof membranes — often on the same building. Our crews handle both with equal competence.',
-
-        'Mixed-use development along Main Street and at key intersections throughout Orange combines ground-floor retail or office space with upper-floor residential units. These buildings require roofing systems that serve dual purposes: protecting commercial operations below while providing comfortable, leak-free living spaces above. We install split-specification roof systems where mechanical equipment zones receive heavy-duty membrane with walkway pads, while residential-adjacent areas get enhanced insulation and sound-dampening assemblies that improve tenant comfort.',
-
-        'Industrial and light-commercial properties along Mitchell Street and the rail corridor through Orange\'s eastern section feature large-footprint flat roofs on steel or concrete decks. These buildings house manufacturing, warehousing, and automotive businesses that require roofing systems capable of supporting heavy rooftop equipment and withstanding vibration from machinery below. We install mechanically fastened or fully adhered TPO and EPDM systems on these properties with reinforced attachment at equipment curbs and enhanced edge metal to resist wind uplift along the building\'s long perimeter edges.',
-      ],
-    },
-    weatherChallenges: {
-      heading: 'Orange Weather and Environmental Challenges',
-      content: [
-        'South Mountain Reservation\'s dense hardwood canopy extends directly into Orange\'s residential neighborhoods, creating a persistent battle between roofs and trees. Falling branches during thunderstorms and ice storms are the primary cause of emergency roof repairs in Orange. Large oak and maple limbs can puncture asphalt shingles, crack slate tiles, crush gutters, and in severe cases penetrate roof decking to damage the interior below. Beyond storm damage, the constant leaf and debris accumulation in valleys, gutters, and around chimney bases creates moisture traps that accelerate shingle deterioration and promote wood rot in fascia boards and soffit panels. We advise all Orange homeowners to maintain a minimum 10-foot clearance between tree limbs and their roofline.',
-
-        'Orange\'s Valley neighborhood and other low-lying areas experience elevated moisture conditions that affect roofing from below. During heavy rain events, stormwater flowing downhill from South Mountain can overwhelm municipal drainage, creating saturated soil conditions around foundations. This moisture migrates upward through building assemblies via capillary action and vapor pressure, reaching attic spaces where it condenses on cold roof decking and causes rot. Our Orange installations in flood-prone areas include continuous vapor barriers, enhanced soffit and ridge ventilation, and dehumidification recommendations for attic spaces.',
-
-        'Winter ice storms hit Orange with particular severity because the South Mountain terrain creates localized freezing conditions. Moist air rising over the mountain cools rapidly, and ice accumulation on trees and roofs in the mountain-adjacent neighborhoods can exceed what the flatter areas of the city experience. This ice loading stresses roof structures, collapses gutters, and creates ice dams at eaves where the differential between heated interior spaces and cold overhangs causes meltwater to refreeze. Our winter-readiness packages for Orange homes include reinforced gutter hangers, ice and water shield at all eaves, and attic ventilation upgrades.',
-      ],
-    },
-    neighborhoods: [
-      { name: 'Main Street District', description: 'Historic commercial core with 19th-century storefronts, mixed-use buildings, and ongoing revitalization projects requiring sensitive commercial roofing.' },
-      { name: 'The Valley', description: 'Low-lying eastern section near the East Orange border, with moisture management challenges from stormwater runoff and elevated humidity levels.' },
-      { name: 'South Mountain', description: 'Hillside residential area bordering the Reservation, with larger homes, mature trees, and constant branch and debris impact on roofs.' },
-      { name: 'Scotland Road', description: 'Grand Victorian and Colonial Revival homes with complex rooflines, decorative slate, and copper detailing requiring specialized restoration.' },
-      { name: 'Oakwood-Lincoln', description: 'Moderate-density residential streets with post-war colonials, bungalows, and duplexes on tight lots with straightforward replacement needs.' },
-      { name: 'Park Avenue', description: 'Mixed residential corridor with larger homes near the Scottish Rite Cathedral and institutional buildings transitioning toward Main Street commerce.' },
-    ],
-    projectSpotlights: [
-      {
-        title: 'Scotland Road Victorian Full Restoration',
-        type: 'residential',
-        description:
-          'Complete roof restoration on a 1895 Queen Anne Victorian on Scotland Road featuring three turrets, six dormers, and over 4,000 square feet of roof area. We sourced unfading green Vermont slate to match the original installation, fabricated custom copper turret caps, and replaced all valley, step, and counter-flashings with 20-ounce copper sheet. The 12-week project restored the home\'s roofline to its original grandeur.',
-        details: [
-          '4,000+ sq ft of unfading green Vermont slate sourced and hand-fitted',
-          'Three copper turret caps custom-fabricated to original specifications',
-          'All valleys and flashings replaced with 20-oz copper sheet',
-          '12-week project completed on schedule and budget',
-        ],
-      },
-      {
-        title: 'Main Street Mixed-Use Roof Replacement',
-        type: 'commercial',
-        description:
-          'TPO membrane replacement on a three-story mixed-use building on Main Street with ground-floor retail and six residential units above. The 30-year-old built-up roof was completely removed, new R-30 polyiso insulation was installed, and a 60-mil white TPO membrane was fully adhered across the 8,500-square-foot roof deck. Work was phased to avoid disrupting the restaurant tenant on the ground floor.',
-        details: [
-          '8,500 sq ft 60-mil white TPO fully adhered membrane',
-          'New R-30 polyiso insulation reducing tenant heating costs by 20%',
-          'Phased installation maintaining ground-floor restaurant operations',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: 'How do you handle roofing on Orange\'s tight-lot properties?',
-        answer:
-          'Most Orange homes sit on 25 to 40-foot lots with minimal side yard space. Our crews use compact material staging, debris netting between structures, and coordinated delivery schedules to work efficiently in tight conditions. We also notify adjacent property owners when our work requires close proximity to their property lines.',
-      },
-      {
-        question: 'What roofing challenges come from living near South Mountain Reservation?',
-        answer:
-          'Properties bordering the reservation face constant tree debris — falling branches, leaf accumulation in gutters and valleys, and heavy shade that promotes moss growth. We recommend annual roof inspections, regular gutter cleaning, zinc ridge strips for moss prevention, and maintaining at least 10 feet of clearance between branches and your roofline.',
-      },
-      {
-        question: 'Do you work on historic homes along Scotland Road and Park Avenue?',
-        answer:
-          'Yes. We specialize in Victorian and Colonial Revival roof restoration using period-appropriate materials — natural slate, copper flashings, and hand-formed standing seam details. Our goal is always to preserve the architectural character while delivering modern waterproofing performance.',
-      },
-      {
-        question: 'How do you address moisture problems in the Valley neighborhood?',
-        answer:
-          'The Valley\'s low-lying terrain creates elevated moisture conditions that affect roofs from below. Our Valley installations include continuous vapor barriers, enhanced soffit and ridge ventilation, and proper attic moisture management to prevent condensation-related rot on roof decking.',
-      },
-      {
-        question: 'What is the typical timeline for a roof replacement in Orange?',
-        answer:
-          'Standard residential roof replacements in Orange take 2 to 4 days depending on roof size, complexity, and access conditions. Tight-lot properties may require an additional day for careful material staging and debris management. We provide exact timelines at the estimate stage.',
-      },
-      {
-        question: 'Do you offer roofing services for Orange commercial buildings on Main Street?',
-        answer:
-          'Absolutely. We have replaced multiple Main Street commercial roofs with TPO and EPDM membrane systems. We phase work to avoid disrupting business operations, and we coordinate with tenants and property managers to schedule work during low-traffic periods when possible.',
-      },
-      {
-        question: 'How do tree-related ice storms affect Orange roofs differently?',
-        answer:
-          'Orange\'s proximity to South Mountain creates localized ice conditions that can be more severe than surrounding flatland areas. Ice accumulates on trees and roofs, stressing structures and creating ice dams at eaves. We install reinforced gutter systems, enhanced ice and water shield, and improved attic ventilation to protect Orange homes from ice-related damage.',
-      },
-    
-      {
-        question: 'How much does roofing cost in Orange, NJ?',
-        answer: 'Most roof repairs in Orange range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
-      },
-    ],
-    whyChoose: {
-      heading: 'Why Orange Residents Choose Newark Quality Roofing',
-      reasons: [
-        {
-          title: 'Local Expertise in Tight-Lot Conditions',
-          description:
-            'Orange\'s compact lots demand contractors who know how to work efficiently in tight spaces. Our crews are experienced with Orange\'s narrow side yards, close property lines, and the logistical challenges of staging materials and debris in confined areas.',
-        },
-        {
-          title: 'Historic Restoration Skills',
-          description:
-            'From Scotland Road Victorians to Park Avenue colonials, we have the sourcing network and craftsmanship to restore historic Orange homes with period-appropriate slate, copper, and standing seam materials.',
-        },
-        {
-          title: 'Storm Response',
-          description:
-            'With South Mountain trees constantly threatening Orange roofs, emergency response matters. Our Newark base puts us minutes away, and we provide tarping and assessment for storm damage calls.',
-        },
-        {
-          title: 'Transit-Accessible City Knowledge',
-          description:
-            'Orange\'s NJ Transit connection brings new homebuyers who need reliable roofing partners. We understand the home-buying renovation cycle and offer packages designed for new owners addressing deferred roof maintenance.',
-        },
-      ],
-    },
-    metaTitle: 'Roofing Services in Orange, NJ | Newark Quality Roofing',
-    metaDescription:
-      'Orange NJ roofing contractor serving Main Street to South Mountain. Victorian restoration, tight-lot expertise, and commercial flat roofs. Free estimates.',
-    pricing: {
-      averageRepair: '$350–$1,500',
-      averageReplacement: '$8,500–$25,000',
-      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Orange.',
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'Fully Insured & Bonded',
-      'Family-Owned & Local',
+  weatherChallenges: {
+    heading: 'How Does Newark Weather Affect Your Roof?',
+    content: [
+      'Newark weather loads a roof with snow, freeze-thaw cycling, nor\'easter wind, and summer storms, the 4 stressors that fatigue Newark flashing, sealant laps, and fasteners across the year.',
+      'Newark averages roughly 31.5 inches of snow per year and crosses 32°F repeatedly through winter, per NOAA 1991–2020 normals at Newark Liberty (EWR), so trapped water expands on freezing and stresses every sealed roof detail.',
+      'Newark sits in the nor\'easter track, with damaging coastal storms most common October through April and roughly 25–30 thunderstorms per year, per NOAA. Northern New Jersey carries an ASCE 7-16 basic design wind speed near 110–115 mph and a ground snow load near Pg 25 psf for typical buildings, per ASCE 7-16 as adopted by the NJ Uniform Construction Code, the loads a Newark roof edge and ridge resist, and Newark\'s low-lying Ironbound and East Ward sit near sea level along the Passaic River, Newark\'s eastern boundary draining to Newark Bay, per the U.S. EPA Urban Waters program, so flat roofs in the Ironbound carry a higher water load than the elevated North and West Ward neighborhoods.',
     ],
   },
-
-  // ─── Irvington ───────────────────────────────────────────────────────────
-  {
-    cityId: 'irvington',
-    heroHeadline: 'Roofing Services in Irvington, NJ',
-    heroSubheadline:
-      'From Springfield Avenue to Olympic Park, we deliver dependable roofing solutions that protect Irvington\'s homes and businesses without breaking the budget.',
-    overview: [
-      'Irvington is a densely populated township of approximately 55,000 residents directly south of Newark, sharing a long border along the Vailsburg neighborhood. The township\'s housing stock tells a clear story: built primarily between the 1920s and 1940s, Irvington\'s homes are reaching the end of their original roofing lifecycles, and many are on their second or third roof with materials installed in the 1990s and early 2000s now approaching failure. This creates enormous demand for cost-effective, durable roof replacements — and as a Newark-based contractor with Irvington projects completed, we understand exactly what this community needs.',
-
-      'Springfield Avenue, Irvington\'s primary commercial and residential corridor, runs diagonally from the Newark border through the heart of the township and into Union County. Along Springfield Avenue, the building stock is a mix of commercial storefronts, medical offices, religious institutions, and multi-family residential buildings — many with flat roofs that have been patched and re-coated repeatedly rather than properly replaced. We have restored dozens of Springfield Avenue roofs to proper condition with new TPO and EPDM membrane systems that end the cycle of temporary patches and provide genuine long-term waterproofing.',
-
-      'The Olympic Park section of Irvington, named for the historic amusement park that operated here until the 1960s, features some of the township\'s most established residential streets. Colonials, Cape Cods, and Tudor-style homes from the 1920s and 1930s line streets like Nestor Terrace, Myrtle Avenue, and Coit Street, many with original architectural details that give the neighborhood its distinctive character. These homes typically feature hip roofs or cross-gable configurations with asphalt shingle surfaces, and many still have their second-generation roofs from the 1990s that are now showing their age — curling shingles, granule loss, and deteriorated flashings around chimneys and dormers.',
-
-      'Irvington\'s housing affordability, relative to neighboring South Orange and Maplewood, has made it an attractive market for investment property buyers. Two-family and three-family homes throughout the township are being purchased, renovated, and rented, and roofing is consistently one of the first capital improvements these investors make. Our investment property program for Irvington landlords includes competitive multi-property pricing, flexible scheduling around tenant occupancy, and documentation packages that satisfy bank inspection and insurance requirements. We have built relationships with several Irvington-focused property investors who rely on us for all their roofing needs across growing portfolios.',
-
-      'The Route 78 corridor along Irvington\'s southern edge creates an industrial and commercial zone with light manufacturing, auto repair shops, and distribution facilities. These commercial properties feature large-footprint flat roofs on steel decking that require specialized membrane systems. The vibration from Route 78 traffic and the industrial operations below can stress conventional roof fastening systems, and we select attachment methods — typically fully adhered membranes over mechanical fastening — that perform better in these high-vibration environments. Our commercial Irvington projects along the Route 78 corridor have delivered reliable performance even in these demanding conditions.',
-    ],
-    residential: {
-      heading: 'Irvington Residential Roofing — Affordable Protection for Aging Homes',
-      content: [
-        'Irvington\'s residential roofing challenge is fundamentally one of scale: thousands of homes built in the 1920s through 1940s are simultaneously reaching the point where their current roofing materials have failed or are about to fail. These are not luxury homes requiring premium materials — they are working-class family homes and rental properties where the priority is a solid, leak-free roof at a price homeowners and landlords can afford. We specialize in delivering exactly that: high-quality architectural shingle installations with full tear-off, proper underlayment, and manufacturer-backed warranties at pricing that respects Irvington\'s economic reality.',
-
-        'The most common residential roof type in Irvington is the hip roof on a colonial or Cape Cod frame, typically covering 1,200 to 1,800 square feet of roof area. These relatively straightforward geometries allow for efficient installation — a skilled crew can complete a full tear-off and re-roof in 2 to 3 days under normal conditions. We take advantage of this efficiency to offer competitive Irvington pricing while still providing premium materials: GAF or CertainTeed architectural shingles rated for high wind resistance, ice and water shield at eaves and valleys, and heavy-gauge aluminum drip edge. The result is a roof that will protect the home for 30 years at a price point that makes sense for the Irvington market.',
-
-        'Multi-family homes are a significant portion of Irvington\'s residential roofing work. Two-family and three-family homes on 25 to 40-foot lots line streets throughout the township, and these properties present specific challenges: multiple tenant schedules to coordinate around, additional roof penetrations from conversion work, and landlords who need to balance investment with return. Our multi-family Irvington packages are designed for this reality — we offer landlord pricing that accounts for the efficiencies of relatively simple roof geometries, we schedule around tenant needs, and we provide the documentation that banks and insurance companies require for investment property improvements.',
-
-        'Some of Irvington\'s older homes retain original architectural features worth preserving — Tudor-style half-timbering with steeply pitched cross-gables, Colonial Revival dormers with copper flashings, and the occasional slate-roofed home that has survived 90 years with periodic maintenance. When homeowners want to preserve these features, we offer restoration options that maintain the architectural character while upgrading the waterproofing system beneath. For Tudor homes, we install dark-colored architectural shingles that complement the half-timbered aesthetic. For slate homes where selective repair is still viable, we source matching replacement tiles and rebuild deteriorated flashings to extend the roof\'s life another generation.',
-
-        'Community renewal in Irvington has brought new attention to housing quality, and organizations like Habitat for Humanity and local community development corporations have invested in renovating vacant and deteriorated homes throughout the township. We have partnered with several of these organizations to provide roofing services at community-oriented pricing, helping to restore Irvington\'s housing stock one home at a time. These projects are particularly rewarding because they directly improve the quality of life for Irvington families and contribute to the township\'s ongoing revitalization.',
+  neighborhoods: [
+    {
+      name: 'The Ironbound (East Ward)',
+      description:
+        'The Ironbound is a dense, multi-ethnic East Ward district of apartments, rowhouses, and one- to three-family homes around the Ferry Street commercial spine, with active flat-roofed storefronts and factories. Ironbound rowhouses share party walls and parapets, so Newark Quality Roofing seals continuous flashing across adjoining low-slope and steep roofs.',
+    },
+    {
+      name: 'Forest Hill (North Ward)',
+      description:
+        'Forest Hill is a pre-WWII North Ward neighborhood near Branch Brook Park holding stately single-family homes built from the 1870s to the 1920s in Beaux-Arts, Victorian, and Colonial Revival styles. Forest Hill carries the most single-family character in Newark, with period steep-slope roofs that Newark Quality Roofing repairs and replaces in asphalt, slate, or metal.',
+    },
+    {
+      name: 'Vailsburg (West Ward)',
+      description:
+        'Vailsburg is a West Ward neighborhood of Dutch Colonial and Victorian-inspired homes on Newark\'s elevated western edge, largely single-family in Upper Vailsburg and single- to two-family in Lower Vailsburg. Vailsburg colonials carry asphalt-shingle roofs that Newark Quality Roofing replaces on narrow lots near the Irvington border.',
+    },
+    {
+      name: 'Roseville (West Ward)',
+      description:
+        'Roseville is an older, denser West Ward neighborhood of Victorian-era brownstones and row-homes dating to the mid-1800s. Roseville\'s attached and semi-detached stock relies on party-wall and parapet flashing, the detail Newark Quality Roofing rebuilds on shared rooflines.',
+    },
+    {
+      name: 'Weequahic and the South Ward',
+      description:
+        'Weequahic anchors the South Ward with late-19th and early-20th-century detached single-family homes around Weequahic Park, shifting to multi-unit stock to the west and bordering the airport and Elizabeth at Dayton. Newark Quality Roofing replaces aging asphalt-shingle roofs across the South Ward.',
+    },
+    {
+      name: 'University Heights and Downtown (Central Ward)',
+      description:
+        'University Heights anchors the Central Ward around Rutgers-Newark, NJIT, and Essex County College with heavy rental and student housing, institutional buildings, and historic brownstones near the James Street Commons district. Newark Quality Roofing services flat-membrane and steep roofs across Downtown and the Central Ward.',
+    },
+    {
+      name: 'James Street Commons and Lincoln Park',
+      description:
+        'James Street Commons and Lincoln Park are locally designated historic districts of late-19th and early-20th-century townhouses near Downtown Newark. Exterior roofing work on a locally designated or contributing property in these districts requires a Certificate of Appropriateness from the Newark Landmarks & Historic Preservation Commission under Newark Municipal Code Chapter 41:10, separate from any construction permit.',
+    },
+  ],
+  projectSpotlights: [
+    {
+      title: 'Ironbound Brownstone Flat-Roof Replacement',
+      type: 'residential',
+      description:
+        'A brownstone flat-roof replacement on a dense Ironbound rowhouse strips the low-slope deck, repairs the sheathing, and installs an EPDM or TPO single-ply membrane, then rebuilds the metal counter-flashing across the shared parapet and party-wall transitions that seal adjoining buildings. The work matches the no-permit ordinary-maintenance rule on a one- and two-family home, per N.J.A.C. 5:23-2.7.',
+      details: [
+        'EPDM or TPO single-ply membrane on the low-slope deck',
+        'New metal counter-flashing at parapet and party-wall transitions',
+        'Membrane installed with manufacturer-approved bonding that keeps a system warranty intact',
+        'EPDM lasts 15–25 years and TPO 7–20 years, per the InterNACHI life-expectancy chart',
       ],
     },
-    commercial: {
-      heading: 'Irvington Commercial Roofing — Springfield Avenue to Route 78',
-      content: [
-        'Springfield Avenue is the backbone of Irvington\'s commercial roofing market. The corridor hosts a dense mix of retail storefronts, medical and dental offices, barbershops, laundromats, and religious institutions — most housed in two- and three-story buildings with flat roofs that have been in service for decades. Many of these roofs have been re-coated and patched multiple times, creating layered systems that trap moisture and mask underlying structural deterioration. When we bid Springfield Avenue commercial roofs, we always include a thorough core sample to determine the actual condition of the roof deck beneath the accumulated layers. Our replacement specifications include full tear-off to the structural deck, inspection and repair of any deteriorated decking, and installation of a new TPO or EPDM membrane with proper insulation.',
-
-        'The Route 78 industrial corridor along Irvington\'s southern boundary houses auto body shops, light manufacturing, warehousing, and distribution operations. These commercial properties feature large flat roofs on steel or concrete decks that must withstand vibration from heavy machinery, chemical exposure from industrial processes, and the thermal cycling that is particularly intense on large unshaded roof surfaces. We install fully adhered TPO and EPDM membrane systems on these properties — fully adhered attachment performs better than mechanical fastening in high-vibration environments because it distributes stress across the entire membrane surface rather than concentrating it at fastener points.',
-
-        'Religious institutions are a significant commercial roofing segment in Irvington. The township is home to dozens of churches, mosques, and temples with diverse architectural styles and roofing systems. Older churches often feature steep-pitched slate or asphalt shingle roofs over the main sanctuary with flat-roof sections over fellowship halls, classrooms, and administrative additions. These hybrid systems require contractors who can work with both traditional steep-slope materials and modern flat-roof membranes — often on the same building. We have re-roofed numerous Irvington houses of worship, coordinating work around service schedules and community events.',
-
-        'Apartment complexes and larger multi-family buildings throughout Irvington require commercial-grade roofing systems. Buildings with five or more units must meet commercial building code requirements for fire resistance, wind uplift, and structural load capacity. We install TPO and EPDM membrane systems on Irvington apartment buildings that meet all commercial code requirements while providing the energy efficiency and long-term durability that property managers need to control operating costs. Our phased installation approach minimizes disruption to residents, and we coordinate closely with property management companies to schedule work during optimal weather windows.',
+    {
+      title: 'Forest Hill Slate and Metal Restoration',
+      type: 'residential',
+      description:
+        'A Forest Hill slate-and-metal restoration on a North Ward period home replaces corroded fasteners and degraded flashing, swaps impact-broken slate tile by tile, and reseals the valleys and chimney where water concentrates. Natural slate lasts 60 to 150 years and metal 40 to 80 years, per the InterNACHI life-expectancy chart, so the restoration preserves the original roof rather than replacing the field.',
+      details: [
+        'Tile-by-tile slate replacement while the deck and nailers stay sound',
+        'New corrosion-resistant flashing at valleys, chimneys, and dormers',
+        'Ice-and-water shield at eaves and valleys per the IRC',
+        'Copper or matching metal counter-flashing at masonry transitions',
       ],
     },
-    weatherChallenges: {
-      heading: 'Irvington Weather and Aging Infrastructure Challenges',
-      content: [
-        'Irvington\'s primary roofing challenge is the interaction between severe weather and aging building stock. When a nor\'easter or summer thunderstorm hits a 2025-built home with modern materials and code-compliant installation, damage is typically minor and localized. When the same storm hits a 1930s colonial with original framing, minimal insulation, and a 25-year-old asphalt shingle roof, the result can be catastrophic — wind lifts entire shingle sections, water penetrates through deteriorated flashings, and the aged roof decking fails under stress loads it was never engineered to handle. Our Irvington re-roofing projects address these vulnerabilities comprehensively: we replace deteriorated decking, add hurricane clips or collar ties to strengthen rafter connections, install enhanced underlayment systems, and use wind-rated shingles with reinforced fastening patterns.',
-
-        'Ice dams are a chronic problem in Irvington because so many homes have inadequate attic insulation and ventilation. The township\'s 1920s-1940s housing stock was built before modern insulation standards, and many attics have been finished or partially converted to living space, further compromising the thermal boundary between heated interior and cold roof deck. When snow sits on an under-insulated roof, heat from below melts it from underneath, and the meltwater refreezes at the cold eave overhang to form an ice dam. We combat this with three interventions: ice and water shield membrane extending 3 feet past the exterior wall line, improved attic insulation where accessible, and proper soffit-to-ridge ventilation to maintain a cold roof deck temperature.',
-
-        'Summer heat and UV exposure degrade Irvington\'s aging asphalt shingle roofs at an accelerated rate. Many homes in the township have dark-colored shingle roofs with poor attic ventilation, creating a heat trap that pushes attic temperatures above 150 degrees in July and August. This heat accelerates granule loss, causes shingle curling and cracking, and degrades the adhesive strips that hold shingle tabs together. Over time, the roof becomes vulnerable to wind damage even in moderate winds. We recommend light-colored architectural shingles with enhanced ventilation for Irvington homes — this combination can reduce attic temperatures by 20 to 30 degrees and significantly extend shingle lifespan.',
+    {
+      title: 'Ferry Street Low-Slope Commercial Membrane Replacement',
+      type: 'commercial',
+      description:
+        'A Ferry Street low-slope commercial membrane replacement strips the existing roof on an Ironbound storefront or mixed-use building, repairs the deck, and installs an EPDM, TPO, or modified-bitumen system graded to drain. A commercial replacement requires a permit under N.J.A.C. 5:23-2.7, filed through the Newark Department of Engineering — Office of Uniform Construction Code / Building Division.',
+      details: [
+        'EPDM, TPO, or modified-bitumen single-ply or multi-ply membrane',
+        'At least ¼ inch per foot of slope to drain, per the NRCA and ARMA',
+        'New flashing at parapets, drains, scuppers, and rooftop HVAC penetrations',
+        'Permit filed through the Newark Department of Engineering Building Division',
       ],
     },
-    neighborhoods: [
-      { name: 'Springfield Avenue Corridor', description: 'Irvington\'s main commercial spine with dense retail, medical offices, and religious institutions requiring flat-roof expertise.' },
-      { name: 'Olympic Park', description: 'Established 1920s-1930s residential area with colonials, Cape Cods, and Tudors on tree-lined streets, many with aging second-generation roofs.' },
-      { name: 'Irvington Center', description: 'Township core around the municipal complex and transit connections, with a mix of commercial and residential buildings.' },
-      { name: 'Chancellor Avenue', description: 'Residential corridor with two-family and three-family homes popular with investment property buyers, requiring cost-effective multi-family roofing.' },
-      { name: 'Route 78 Industrial', description: 'Southern commercial and industrial zone with warehouses, auto shops, and distribution facilities requiring heavy-duty flat-roof membrane systems.' },
-      { name: 'Stuyvesant Avenue', description: 'Secondary commercial corridor with mixed-use buildings, apartment complexes, and community institutions.' },
-      { name: 'Union Avenue', description: 'Residential area bordering Newark\'s Vailsburg neighborhood with colonials and multi-family homes sharing similar roofing challenges.' },
-    ],
-    projectSpotlights: [
+  ],
+  faqs: [
+    {
+      question: 'Do you need a permit to replace a roof in Newark, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- and two-family home in Newark counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit through the Newark Department of Engineering — Office of Uniform Construction Code / Building Division at 920 Broad Street, and so does any structural change to rafters or trusses.',
+    },
+    {
+      question: 'Does a historic district in Newark restrict roofing work?',
+      answer:
+        'Exterior roofing work on a locally designated or contributing property in a Newark historic district requires a Certificate of Appropriateness from the Newark Landmarks & Historic Preservation Commission under Newark Municipal Code Chapter 41:10, separate from a construction permit. James Street Commons and Lincoln Park are locally designated districts. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner, so the binding gate is the local Chapter 41:10 designation, not Register listing.',
+    },
+    {
+      question: 'How much does a roof cost in Newark, NJ?',
+      answer:
+        'A roof replacement in New Jersey costs $10,000–$25,000 for a typical home and a roof-leak repair $400–$1,000, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit roughly 10–40% above national figures because labor accounts for most of an install total and NJ code is stricter, per HomeGuide. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'What roofing material works best on a Newark brownstone or rowhouse?',
+      answer:
+        'A low-slope single-ply membrane suits the flat roofs of Newark brownstones and Ironbound rowhouses: EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart. A Newark rowhouse shares parapets and party walls, so Newark Quality Roofing seals the membrane to continuous metal flashing across adjoining buildings.',
+    },
+    {
+      question: 'What roofing problems are most common in Newark winters?',
+      answer:
+        'Wind-stripped shingles, freeze-thaw flashing failures, and ice-dam backup are the most common Newark winter roofing problems. Newark averages roughly 31.5 inches of snow per year and crosses the 32°F freezing point repeatedly, per NOAA 1991–2020 normals at Newark Liberty (EWR), and an ice dam forms when meltwater refreezes at a cold eave and backs up under the shingles, per University of Minnesota Extension.',
+    },
+    {
+      question: 'Does homeowners insurance cover roof damage in Newark?',
+      answer:
+        'Homeowners insurance covers Newark roof damage when a covered peril causes the damage, such as wind, hail, or a falling tree, and excludes damage from normal wear, age, or deferred maintenance. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). Newark Quality Roofing documents damage with timestamped photographs for the adjuster.',
+    },
+    {
+      question: 'Should you repair or replace a roof in Newark?',
+      answer:
+        'Repair a Newark roof when the damage stays localized and covers under 25–30% of the roof area; replace the roof when damage exceeds 25–30% of the area or one repair approaches 50% of replacement cost. The 25–30% area rule and the 50% cost rule are contractor-consensus thresholds, and repair favors an asphalt roof under 10–15 years old.',
+    },
+  ],
+  whyChoose: {
+    heading: 'Why Choose Newark Quality Roofing',
+    reasons: [
       {
-        title: 'Olympic Park Colonial — Full Tear-Off and Modernization',
-        type: 'residential',
+        title: 'NJ Home Improvement Contractor',
         description:
-          'Complete roof replacement on a 1928 colonial on Nestor Terrace in the Olympic Park neighborhood. The home still had its original 1990s second-generation 3-tab shingles, which had failed extensively with curling, granule loss, and multiple active leaks. We tore off to the original plank decking, replaced 30% of deteriorated boards with new plywood, installed full ice and water shield at eaves and valleys, and completed the roof with GAF Timberline HDZ architectural shingles in Weathered Wood.',
-        details: [
-          'Full tear-off revealing original 1928 plank decking beneath',
-          '30% of decking replaced due to rot from years of slow leaks',
-          'GAF Timberline HDZ shingles with golden pledge warranty',
-          'Added continuous ridge vent replacing ineffective gable vents',
-        ],
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors\' Registration Act.',
       },
       {
-        title: 'Springfield Avenue Mixed-Use — TPO Membrane System',
-        type: 'commercial',
+        title: 'Fully Insured and Bonded',
         description:
-          'Replacement of a failing modified bitumen roof on a three-story mixed-use building on Springfield Avenue. The existing roof had been coated and patched four times over 30 years, creating a layered system that trapped moisture and was rotting the steel deck beneath. Full tear-off revealed extensive deck corrosion that required welded steel patches before the new 60-mil TPO membrane could be installed.',
-        details: [
-          'Full tear-off of 4 accumulated roofing layers totaling 6 inches',
-          'Welded steel patches on 15% of corroded deck area',
-          'New R-25 polyiso insulation and 60-mil TPO membrane',
-          'Redesigned drainage eliminating 3 chronic ponding areas',
-        ],
+          'Newark Quality Roofing carries the commercial general liability coverage the Contractors\' Registration Act requires of a registered New Jersey Home Improvement Contractor, a $500,000 per-occurrence minimum under N.J.S.A. 56:8-142.',
       },
       {
-        title: 'Chancellor Avenue Multi-Family Portfolio — 3 Properties',
-        type: 'residential',
+        title: 'Family-Owned and Local to Newark',
         description:
-          'Back-to-back roof replacements on three two-family homes on Chancellor Avenue for a single investment property owner. Coordinating all three projects allowed us to negotiate material volume pricing and reduce mobilization costs, passing the savings to the client. All three homes received identical specifications: full tear-off, new plywood overlay where needed, ice and water shield, and architectural shingles.',
-        details: [
-          'Three two-family homes completed in 10 working days',
-          'Volume material pricing passed to property owner',
-          'Identical specifications ensuring consistent quality across portfolio',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: 'How do you keep roofing affordable for Irvington homeowners?',
-        answer:
-          'We keep costs competitive through efficient operations — our Newark proximity reduces travel overhead, we maintain volume relationships with material suppliers, and Irvington\'s relatively straightforward roof geometries allow our crews to work efficiently. We also offer financing options and work with community organizations on renovation projects.',
+          'Newark Quality Roofing is a family-owned company headquartered in Newark, serving Newark and Essex County, and works the dense party-wall and parapet flashing details of the Ironbound, Forest Hill, and the South and West Wards.',
       },
       {
-        question: 'What should Irvington landlords know about re-roofing rental properties?',
-        answer:
-          'Investment property roofing in Irvington should prioritize durability over premium aesthetics. We recommend architectural shingles rated for high wind resistance with 30-year warranties — these provide excellent long-term value. We schedule around tenant occupancy, provide documentation for banks and insurance, and offer multi-property discounts.',
+        title: 'Free Roof Inspections',
+        description:
+          'Newark Quality Roofing provides free roof inspections that trace a leak to the source flashing, shingle, or membrane detail before a repair or replacement quote, and a free written estimate.',
       },
-      {
-        question: 'How do you handle Irvington homes with deteriorated roof decking?',
-        answer:
-          'Many 1920s-1940s Irvington homes have original plank decking that has softened or rotted from decades of slow leaks. During every tear-off, we inspect the full deck surface and replace deteriorated sections with new plywood. We never install new roofing over compromised decking — the new materials need a solid foundation to perform properly.',
-      },
-      {
-        question: 'Do you work on Irvington churches and religious buildings?',
-        answer:
-          'Yes. We have re-roofed numerous churches, mosques, and temples in Irvington. These buildings often combine steep-pitched sanctuary roofs with flat sections over additions. We handle both roof types and schedule work around worship services and community events to minimize disruption.',
-      },
-      {
-        question: 'Why do Irvington homes get ice dams?',
-        answer:
-          'Most Irvington homes were built before modern insulation standards, and many attics lack adequate ventilation. Heat escapes through the under-insulated attic floor, melts snow on the roof, and the meltwater refreezes at the cold eave to form ice dams. We address this with ice and water shield at eaves, improved insulation, and proper ventilation.',
-      },
-      {
-        question: 'Can you roof Irvington properties along the Route 78 corridor?',
-        answer:
-          'Yes. Our commercial division handles Route 78 industrial and commercial properties with fully adhered TPO and EPDM membrane systems designed for high-vibration environments. Full adhesion distributes stress better than mechanical fastening in buildings with machinery or heavy traffic vibration.',
-      },
-      {
-        question: 'How quickly can you start a roofing project in Irvington?',
-        answer:
-          'Our Newark headquarters is adjacent to Irvington — we share a border along the Vailsburg neighborhood. We provide free estimates, and once a contract is signed, work begins depending on weather and material availability. We provide emergency repair service.',
-      },
-      {
-        question: 'How much does roofing cost in Irvington, NJ?',
-        answer: 'Most roof repairs in Irvington range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
-      },
-    ],
-    whyChoose: {
-      heading: 'Why Irvington Trusts Newark Quality Roofing',
-      reasons: [
-        {
-          title: 'Right Next Door',
-          description:
-            'Irvington shares a border with our Newark home base along the Vailsburg neighborhood. We are literally minutes away — closer than any other professional roofing contractor — and our crews are in Irvington every week.',
-        },
-        {
-          title: 'Affordable Without Compromise',
-          description:
-            'We deliver quality roofing at prices that make sense for Irvington homeowners and landlords. Our proximity, material relationships, and operational efficiency allow us to offer competitive pricing without cutting corners on materials or workmanship.',
-        },
-        {
-          title: 'Irvington Projects Completed',
-          description:
-            'With completed Irvington projects, we know this township\'s housing stock intimately — the 1920s colonials, the converted multi-family homes, the Springfield Avenue commercial buildings. This experience means faster, more accurate estimates and better results.',
-        },
-        {
-          title: 'Investment Property Expertise',
-          description:
-            'Irvington\'s growing investor market needs roofing contractors who understand the economics of rental property. We offer multi-property discounts, landlord-friendly scheduling, and documentation packages designed for bank inspections and insurance claims.',
-        },
-        {
-          title: 'Community-Oriented Approach',
-          description:
-            'We partner with Irvington community organizations on housing renovation projects and take pride in contributing to the township\'s revitalization. This is not just about contracts — it is about building a better Irvington, one roof at a time.',
-        },
-      ],
-    },
-    metaTitle: 'Roofing Services in Irvington, NJ | Newark Quality Roofing',
-    metaDescription:
-      'Irvington\'s trusted roofer for colonials, multi-family homes, and commercial buildings. Affordable quality from Newark Quality Roofing. Free estimates.',
-    pricing: {
-      averageRepair: '$350–$1,500',
-      averageReplacement: '$8,500–$25,000',
-      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Irvington.',
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'Fully Insured & Bonded',
-      'Family-Owned & Local',
     ],
   },
+  metaTitle: 'Roofing in Newark, NJ | Newark Quality Roofing',
+  metaDescription:
+    'Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Newark and Essex County. NJ HIC licensed, insured. Free estimate.',
+  pricing: {
+    averageRepair: '$400–$1,000',
+    averageReplacement: '$10,000–$25,000',
+    note:
+      'Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
+  },
+  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+},
+
+// ─── East Orange ───
+{
+  cityId: 'east-orange',
+  directAnswer:
+    `**Newark Quality Roofing provides roofing services across East Orange, repairing and replacing asphalt, flat-membrane, and multi-family roofs** as a New Jersey Home Improvement Contractor serving Essex County.`,
+  heroHeadline: `Roofing Services in East Orange, NJ`,
+  heroSubheadline: `Repair, replacement, and flat-roof work for East Orange homes, multi-family buildings, and Main Street and Central Avenue commercial properties.`,
+  overview: [
+    `Roofing problems in East Orange concentrate on 3 patterns: leaf and branch debris from mature street trees clogging valleys and gutters, shade-driven moss on north-facing slopes, and ice dams on older under-insulated homes during nor'easter snow. East Orange carries 87.6% of housing units in multi-unit structures, per the U.S. Census Bureau, so flat-membrane and shared-wall flashing failures rank alongside shingle wear.`,
+    `Tree-canopy debris drives the most frequent East Orange roofing problem, because leaf load and broken branches collect in valleys and gutters, hold moisture against the roof covering, and feed moss on shaded north slopes. The City of East Orange describes spacious homes and wide, tree-lined streets, and the resulting valley and gutter blockage backs water under the shingles.`,
+    `Flashing failure causes the leaks that follow debris and storm wear, because roughly 90–95% of roof leaks originate at flashing details — chimneys, walls, valleys, and penetrations — and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing repair in East Orange diagnoses the failed flashing before sealing the visible drip point.`,
+    `Roofing work in East Orange spans the city's full housing range, from converted Victorian and Edwardian multi-family near the Brick Church and East Orange stations to larger single-family homes in the northern neighborhoods and flat commercial roofs along Main Street and Central Avenue. Newark Quality Roofing repairs and replaces asphalt, slate, and flat-membrane roofs across East Orange and Essex County.`,
+  ],
+  residential: {
+    heading: `Residential Roofing in East Orange`,
+    content: [
+      `Newark Quality Roofing repairs and replaces residential roofs across East Orange, servicing asphalt shingle roofs on single-family homes and the converted Victorian and Edwardian multi-family stock near the transit corridors. A detached one- and two-family reroof, including a full tear-off, counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code.`,
+      `Architectural asphalt shingles last about 30 years and 3-tab shingles about 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing reroof on an East Orange home replaces a covering near the end of that range with ice-and-water shield at the eaves and valleys. East Orange records 31.0% owner-occupied housing, per the U.S. Census Bureau, with the balance renter-occupied across multi-family buildings.`,
+      `A Newark Quality Roofing crew documents storm damage with photographs and a written scope for insurance adjusters, because wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute. Each East Orange job ends with a magnet sweep for nails and debris cleanup before the crew leaves the property.`,
+    ],
+  },
+  commercial: {
+    heading: `Commercial Roofing in East Orange`,
+    content: [
+      `Newark Quality Roofing services commercial low-slope roofs across East Orange, installing and repairing EPDM, TPO, and modified-bitumen membranes on the Main Street and Central Avenue corridors and on multi-family buildings. EPDM lasts 15–25 years, TPO 7–20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart.`,
+      `Repairing more than 25% of a commercial or multi-family roof area within a 12-month period requires a construction permit, per N.J.A.C. 5:23-2.7 and the NJ Uniform Construction Code, submitted to the East Orange Building Division within the Department of Property Maintenance at 44 City Hall Plaza. A Newark Quality Roofing flat-roof scope corrects ponding, because water remaining on a low-slope roof more than 48 hours counts as a defect, per the NRCA, and a low-slope roof drains at a minimum quarter-inch-per-foot pitch.`,
+    ],
+  },
+  weatherChallenges: {
+    heading: `How East Orange Weather Affects Roofs`,
+    content: [
+      `East Orange roofs face nor'easters from October through April, about 31.5 inches of snow per year, and 25–30 thunderstorms per year, per NOAA normals for nearby Newark Liberty. Snow melt and refreeze on older under-insulated East Orange homes forms ice dams at the eaves, and attic heat loss drives the melt that backs water under the shingles.`,
+      `Per the U.S. EPA, the heat island effect makes daytime air temperatures in U.S. urban areas about 1–7°F higher than outlying areas and nighttime temperatures about 2–5°F higher, with the largest differences in dense, humid eastern-U.S. cities, and reflective and green roofs lower roof-surface temperature substantially. East Orange, a fully built-out inner-ring city on the flat Watsessing plain, fits the EPA dense-urban profile that a reflective membrane addresses.`,
+    ],
+  },
+  neighborhoods: [
+    {
+      name: 'Brick Church',
+      description:
+        `Brick Church anchors a commercial corridor at the Brick Church NJ Transit station, with pre-war apartment buildings and older single-family homes on tree-lined streets. Newark Quality Roofing services flat-membrane apartment roofs and asphalt shingle homes across the Brick Church area.`,
+    },
+    {
+      name: 'Ampere',
+      description:
+        `Ampere is a northeastern East Orange neighborhood of single-family homes, duplexes, and apartments, formerly anchored by the Ampere rail station that closed in 1991 and was demolished. Newark Quality Roofing repairs and replaces asphalt and flat roofs on the mixed Ampere stock.`,
+    },
+    {
+      name: 'Elmwood Park',
+      description:
+        `Elmwood Park is a southeastern East Orange neighborhood around the city's Elmwood Park, with single-family homes and apartment buildings. Newark Quality Roofing reroofs the larger detached homes and services the surrounding multi-family flat roofs.`,
+    },
+    {
+      name: 'Doddtown',
+      description:
+        `Doddtown, historically Franklin, traces to John Dodd's settlement on the Watsessing plain and carries single-family homes and smaller multi-family buildings. Newark Quality Roofing handles asphalt shingle reroofs and flashing repairs across Doddtown.`,
+    },
+    {
+      name: 'Presidential Estates',
+      description:
+        `Presidential Estates is a northern East Orange neighborhood with streets named for U.S. presidents, larger single-family homes, and mature shade trees that load valleys and gutters with leaf debris. Newark Quality Roofing replaces asphalt roofs and clears valley and gutter blockage across Presidential Estates.`,
+    },
+    {
+      name: 'Greenwood',
+      description:
+        `Greenwood is an East Orange neighborhood known for its architectural character and mixed older housing stock. Newark Quality Roofing repairs and replaces roofs on the varied Greenwood homes and multi-family buildings.`,
+    },
+  ],
+  projectSpotlights: [
+    {
+      title: 'Multi-Family Asphalt Re-Roof',
+      type: 'residential',
+      description:
+        `A multi-family asphalt re-roof in East Orange strips the failed covering on a converted Victorian or Edwardian rental building near the transit corridors, replaces deteriorated decking, and installs architectural shingles with ice-and-water shield and new flashing at every wall and chimney transition. Architectural shingles last about 30 years, per the InterNACHI life-expectancy chart.`,
+      details: [
+        `Architectural asphalt shingles over a fully stripped deck, with rotted sheathing replaced`,
+        `Ice-and-water shield at eaves and valleys per the IRC`,
+        `New step and counter-flashing at wall and chimney transitions`,
+        `Construction permit where the building is multi-family or work exceeds 25% of roof area, per N.J.A.C. 5:23-2.7`,
+      ],
+    },
+    {
+      title: 'Low-Slope Commercial Membrane Replacement',
+      type: 'commercial',
+      description:
+        `A low-slope membrane replacement on a Main Street or Central Avenue commercial building in East Orange removes a failed roof, corrects ponding to a minimum quarter-inch-per-foot drainage slope, and installs a single-ply EPDM or TPO membrane. EPDM lasts 15–25 years and TPO 7–20 years, per the InterNACHI life-expectancy chart.`,
+      details: [
+        `EPDM or TPO single-ply membrane on the low-slope deck`,
+        `Tapered insulation correcting ponding, since water over 48 hours is a defect per the NRCA`,
+        `New metal counter-flashing at parapet and wall transitions`,
+        `Construction permit for commercial roofs exceeding the 25% threshold, per N.J.A.C. 5:23-2.7`,
+      ],
+    },
+    {
+      title: 'Storm and Ice-Dam Repair',
+      type: 'residential',
+      description:
+        `A storm and ice-dam repair on an older East Orange home addresses wind-lifted shingles, failed flashing, and water that backed under the covering after snow melt refroze at the eaves. The repair reseals the flashing details that account for roughly 90–95% of roof leaks, an industry estimate attributed to the NRCA, and documents the damage for an insurance claim.`,
+      details: [
+        `Flashing reseal at chimneys, walls, and valleys, the leading leak source per the NRCA`,
+        `Ice-and-water shield extended at the eaves where ice dams form`,
+        `Wind-damaged shingle replacement matched to the existing roof`,
+        `Timestamped photo documentation for the insurance adjuster`,
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Do you need a permit to replace a roof in East Orange?',
+      answer:
+        `A detached one- or two-family reroof in East Orange needs no construction permit, no inspection, and no notice, because a full tear-off and replacement of the roof covering counts as ordinary maintenance under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. Commercial and multi-family roofs exceeding 25% of the roof area within 12 months require a permit from the East Orange Building Division.`,
+    },
+    {
+      question: 'Does a historic district require special approval for roofing in East Orange?',
+      answer:
+        `East Orange has no local historic-preservation commission or ordinance, so a homeowner reroof faces no Certificate of Appropriateness step. The city's 2006 Master Plan Historic Preservation Element documents that none exists. Per the National Park Service, National Register listing alone places no federal restriction on a private property owner, so the Central Avenue district and the rail stations carry no private-reroof restriction.`,
+    },
+    {
+      question: 'How much does a roof cost in East Orange?',
+      answer:
+        `A full roof replacement in East Orange typically costs $10,000–$25,000, per HomeAdvisor and Modernize, and a roof leak repair in New Jersey costs $400–$1,000, per HomeAdvisor. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate for every East Orange property.`,
+    },
+    {
+      question: 'What roofing problems are most common on East Orange homes?',
+      answer:
+        `East Orange homes most often face valley and gutter blockage from mature street-tree debris, shade-driven moss on north slopes, and ice dams on older under-insulated homes. Flashing failure causes roughly 90–95% of the resulting leaks, an industry estimate attributed to the NRCA, while only 5–10% trace to the open shingle field.`,
+    },
+    {
+      question: 'What roofing material works best for an East Orange multi-family building?',
+      answer:
+        `Low-slope sections on East Orange multi-family buildings use single-ply EPDM or TPO membrane, lasting 15–25 years and 7–20 years respectively, per the InterNACHI life-expectancy chart, while sloped sections use architectural asphalt shingles lasting about 30 years. Newark Quality Roofing installs both across the city's converted Victorian and apartment stock.`,
+    },
+    {
+      question: 'Does insurance cover roof damage in East Orange?',
+      answer:
+        `Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute, so storm roof damage in East Orange often qualifies for a claim. Newark Quality Roofing documents the damage with timestamped photographs and a written scope of work for the insurance adjuster.`,
+    },
+    {
+      question: 'How long does an asphalt roof last in East Orange?',
+      answer:
+        `An architectural asphalt shingle roof lasts about 30 years and a 3-tab roof about 20 years, per the InterNACHI life-expectancy chart. East Orange tree-canopy debris and shade-driven moss shorten that life on neglected roofs, so Newark Quality Roofing clears valleys and gutters and reseals flashing to hold the roof to its expected service range.`,
+    },
+  ],
+  whyChoose: {
+    heading: `Why Choose Newark Quality Roofing in East Orange`,
+    reasons: [
+      {
+        title: 'NJ Home Improvement Contractor',
+        description:
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every roofing contractor working in East Orange.`,
+      },
+      {
+        title: 'Local Essex County Roofers',
+        description:
+          `Newark Quality Roofing works from Newark across Essex County, including East Orange, and applies the same N.J.A.C. 5:23 permit rules and Newark Liberty climate baseline that govern every East Orange roof.`,
+      },
+      {
+        title: 'Residential and Multi-Family Coverage',
+        description:
+          `Newark Quality Roofing services single-family asphalt roofs and the multi-family and flat-membrane buildings that make up 87.6% of East Orange housing units in multi-unit structures, per the U.S. Census Bureau.`,
+      },
+      {
+        title: 'Free Inspections and Written Estimates',
+        description:
+          `Newark Quality Roofing provides a free roof inspection and a free written estimate for East Orange property owners, documenting the root-cause detail rather than the visible drip point before any work begins.`,
+      },
+      {
+        title: 'Insured and Bonded',
+        description:
+          `Newark Quality Roofing carries the commercial general liability coverage New Jersey requires of a registered Home Improvement Contractor, with a magnet sweep and debris cleanup closing every East Orange job.`,
+      },
+    ],
+  },
+  metaTitle: `East Orange Roofing | Repair & Replacement | NQR`,
+  metaDescription: `Newark Quality Roofing serves East Orange, NJ with roof repair, replacement, and flat-membrane work for homes, multi-family, and commercial roofs. Free quote.`,
+  pricing: {
+    averageRepair: '$400–$1,000',
+    averageReplacement: '$10,000–$25,000',
+    note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
+  },
+  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+},
+
+// ─── Orange ───
+{
+  cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing provides roofing in Orange, NJ, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the city\'s older homes and Main Street commercial buildings** as a New Jersey Home Improvement Contractor.',
+  heroHeadline: 'Roofing Services in Orange, NJ',
+  heroSubheadline:
+    'Newark Quality Roofing repairs and replaces residential and commercial roofs across the City of Orange Township, from older detached homes to Main Street flat-roof storefronts, as a New Jersey Home Improvement Contractor serving Essex County.',
+  overview: [
+    'Roofing in Orange faces 3 main stressors: tight-lot access on the compact street grid, low-lying stormwater and moisture in the Valley section near the rail line, and tree debris from Orange\'s mature street trees and the wooded West Orange ridge.',
+    'Orange holds 34,447 residents in roughly 2.21 square miles of land, one of the densest cities in Essex County, per the U.S. Census Bureau 2020 Census. The compact street grid sets narrow side yards and limited staging room as a constant condition of roofing in Orange, so material delivery, ladder placement, and debris containment account for the close spacing between buildings.',
+    'Orange carries older urban housing stock, with a median structure year near 1939 and owner-occupancy near 23.8%, meaning roughly three-quarters of Orange properties are renter-occupied two- and three-family homes and investor-held buildings, per the U.S. Census Bureau ACS 2019–2023. Older decks, multiple existing roof layers, and end-of-life coverings drive both repair and full-replacement demand on roofing in Orange.',
+    'Orange housing spans a century: grand Victorian and Colonial Revival homes with slate and copper detailing in the leafy Seven Oaks section, modest colonials, Capes, bungalows, and duplexes across the grid, and a 19th-century Main Street commercial corridor of flat-roofed storefronts. Newark Quality Roofing services every covering type across this range of roofing in Orange.',
+  ],
+  residential: {
+    heading: 'Orange Residential Roofing',
+    content: [
+      'Newark Quality Roofing replaces and repairs residential roofs across Orange, re-roofing detached one- and two-family homes with no construction permit required for the roof covering, per the NJ Uniform Construction Code.',
+      'A repair or replacement of the roof covering on a detached one- and two-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. Orange residential stock divides into 2 tiers: larger Victorian and Colonial Revival homes with natural slate, which lasts 60 to 150 years, and copper detailing, and modest colonials, Capes, bungalows, and duplexes carrying asphalt shingles, which last 20 years for 3-tab and 30 years for architectural, per the InterNACHI life-expectancy chart.',
+      'Newark Quality Roofing strips the older Orange roof to the deck, replaces deteriorated sheathing, installs an ice-and-water barrier at the eaves and valleys, and sets the cover to manufacturer specification. The IRC ice-barrier provision requires a self-adhering barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code.',
+    ],
+  },
+  commercial: {
+    heading: 'Orange Commercial Roofing',
+    content: [
+      'Newark Quality Roofing replaces and repairs commercial low-slope roofs along Orange\'s Main Street corridor, installing and servicing EPDM, TPO, and modified-bitumen membranes with manufacturer-approved bonding that keeps a system warranty intact.',
+      'EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart. Orange\'s Main Street commercial corridor carries 19th-century flat-roofed storefronts where built-up and modified-bitumen systems reach end of life. A low-slope roof requires at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA. Newark Quality Roofing rebuilds parapet flashing and reseals membrane seams on these Main Street buildings.',
+      'On a commercial, multi-family, or attached building in Orange, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. The City of Orange Township Building & Construction Division administers building, electrical, plumbing, and fire permits and inspections for that work.',
+    ],
+  },
+  weatherChallenges: {
+    heading: 'Orange Weather and Environmental Challenges',
+    content: [
+      'Orange roofs face 4 climate stressors: about 31.5 inches of snow per year, winter freeze-thaw cycling, nor\'easters from October through April, and 25 to 30 thunderstorms per year, per NOAA 1991–2020 normals at Newark Liberty (EWR).',
+      'Orange\'s mature street trees and the wooded West Orange ridge to the west drop branches and leaf debris onto roofs, clogging valleys and gutters and trapping moisture that rots fascia, soffit, and decking. Orange does not border the South Mountain Reservation, which sits in West Orange, Maplewood, and Millburn, so the tree stressor traces to Orange\'s own canopy and the first-Watchung ridge, per Essex County Parks. The shared Newark/EWR baseline sets a ground snow load near 25 psf and a design wind near 110 to 115 mph under ASCE 7-16 for the region.',
+      'Orange is a compact, densely built older city of roughly 2.21 square miles. Per the U.S. EPA, the heat island effect makes daytime air temperatures in U.S. urban areas about 1 to 7°F higher than outlying areas and nighttime temperatures about 2 to 5°F higher, with the largest differences in humid eastern-U.S. and denser cities, and reflective and green roofs lower roof-surface temperature substantially.',
+    ],
+  },
+  neighborhoods: [
+    {
+      name: 'Main Street Corridor',
+      description:
+        'Orange\'s principal downtown commercial corridor, a 19th-century streetscape of flat-roofed storefronts and mixed-use buildings; the locally designated Main Street Historic District follows it, where the Orange Historic Preservation Commission decides a Certificate of Appropriateness for regulated exterior roofing work.',
+    },
+    {
+      name: 'Seven Oaks',
+      description:
+        'A leafy historic residential section in southern Orange near the East Orange and South Orange edges, with tree-lined streets and larger older single-family homes; the locally designated Montrose/Seven Oaks Park district places regulated exterior work under a Certificate of Appropriateness from the Orange Historic Preservation Commission.',
+    },
+    {
+      name: 'Orange Valley',
+      description:
+        'A historic western-Orange area and former hat-manufacturing district; the locally designated Orange Valley Historic District places regulated exterior roofing work under a Certificate of Appropriateness from the Orange Historic Preservation Commission, separate from any construction permit.',
+    },
+    {
+      name: 'The Valley / Valley Arts District',
+      description:
+        'A low-lying former-industrial arts district centered on the Highland Avenue station, spanning parts of Orange and West Orange, with converted industrial and loft buildings carrying flat low-slope roofs; the Valley sits near the rail line where stormwater concentrates.',
+    },
+    {
+      name: 'St. John\'s',
+      description:
+        'A small locally designated historic district in central and northern Orange, where regulated exterior roofing work falls under a Certificate of Appropriateness from the Orange Historic Preservation Commission.',
+    },
+    {
+      name: 'Scotland Road / Park Avenue',
+      description:
+        'Established Orange residential corridors near the Highland Avenue station and Park Avenue, carrying a mix of older detached houses and two- and three-family homes; a Certificate of Appropriateness applies only where a specific parcel falls inside one of Orange\'s four locally designated districts.',
+    },
+  ],
+  projectSpotlights: [
+    {
+      title: 'Older-Home Asphalt Re-Roof',
+      type: 'residential',
+      description:
+        'Newark Quality Roofing strips an aging asphalt roof on an Orange colonial, Cape, bungalow, or duplex to the deck, replaces deteriorated sheathing, and installs a new architectural shingle system to manufacturer specification on the city\'s older detached and two- and three-family stock.',
+      details: [
+        'Full tear-off to the deck with deteriorated plywood or OSB replaced',
+        'Ice-and-water shield at eaves and valleys per the IRC ice-barrier provision',
+        'Synthetic underlayment across the deck under architectural asphalt shingles',
+        'No construction permit required for a detached one- and two-family covering, per N.J.A.C. 5:23-2.7',
+      ],
+    },
+    {
+      title: 'Seven Oaks Slate & Copper Restoration',
+      type: 'residential',
+      description:
+        'Newark Quality Roofing restores natural slate and copper detailing on Orange\'s larger Victorian and Colonial Revival homes, replacing corroded fasteners and degraded valley and chimney flashing where slate fails before the tile itself, since natural slate lasts 60 to 150 years per the InterNACHI life-expectancy chart.',
+      details: [
+        'Natural slate tile replacement matched to the existing color and thickness',
+        'Copper valley, step, and counter-flashing at chimneys and dormers',
+        'Corroded-fastener and deck-nailer checks, the typical slate failure point per the National Slate Association',
+        'A Certificate of Appropriateness applies where the parcel sits inside a locally designated Orange district',
+      ],
+    },
+    {
+      title: 'Main Street Low-Slope Membrane Replacement',
+      type: 'commercial',
+      description:
+        'Newark Quality Roofing replaces aging built-up and modified-bitumen roofs on Orange\'s 19th-century Main Street storefronts and mixed-use buildings with EPDM or TPO single-ply membrane, rebuilding parapet and party-wall flashing on the low-slope deck.',
+      details: [
+        'EPDM or TPO single-ply membrane on the low-slope deck',
+        'New metal counter-flashing at parapet and party-wall transitions',
+        'At least ¼ inch per foot of slope to drain, with ponding over 48 hours counted as a defect, per the NRCA and ARMA',
+        'A permit applies on commercial roofs exceeding 25% of the roof area in 12 months, per N.J.A.C. 5:23-2.7',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Do you need a permit to replace a roof in Orange, NJ?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- and two-family home in Orange requires no construction permit, no inspection, and no notice, because it counts as ordinary maintenance under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code. A commercial, multi-family, or structural roof job does require a permit.',
+    },
+    {
+      question: 'Does a historic Certificate of Appropriateness apply to roofing in Orange?',
+      answer:
+        'A Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission applies to regulated exterior roofing work on properties inside Orange\'s four locally designated districts: Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s, per City of Orange Township Code Chapter 210, Article X. National Register listing alone places no restriction on a private owner, per the National Park Service.',
+    },
+    {
+      question: 'How much does roofing cost in Orange, NJ?',
+      answer:
+        'A roof replacement in New Jersey costs $10,000 to $25,000 for a typical home, and a roof-leak repair costs $400 to $1,000, per HomeAdvisor and Modernize NJ cost data. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Newark Quality Roofing provides a free written estimate.',
+    },
+    {
+      question: 'What roofing materials suit Orange\'s older homes?',
+      answer:
+        'Orange\'s older homes carry asphalt shingles, natural slate, and flat membrane. Asphalt lasts 20 years for 3-tab and 30 for architectural, slate 60 to 150 years on larger Victorian homes, and EPDM or TPO membrane 15 to 25 and 7 to 20 years on Main Street flat roofs, per the InterNACHI life-expectancy chart.',
+    },
+    {
+      question: 'How do you handle roofing on Orange\'s tight-lot properties?',
+      answer:
+        'Newark Quality Roofing stages materials compactly, nets debris between structures, and coordinates delivery on Orange\'s narrow lots, because Orange holds 34,447 residents in roughly 2.21 square miles, one of the densest cities in Essex County, per the U.S. Census Bureau 2020 Census. Close spacing between buildings sets the staging and containment method.',
+    },
+    {
+      question: 'What roof problems are common on Orange\'s flat commercial roofs?',
+      answer:
+        'Orange\'s Main Street flat commercial roofs fail at the membrane seams, the parapet flashing, and from ponding water. A low-slope roof requires at least ¼ inch per foot of slope to drain, and ponding remaining more than 48 hours counts as a defect, per the NRCA and ARMA. Newark Quality Roofing reseals seams and rebuilds parapet flashing on these buildings.',
+    },
+    {
+      question: 'How does tree debris affect Orange roofs?',
+      answer:
+        'Orange\'s mature street trees and the wooded West Orange ridge to the west drop branches and leaf debris that clog valleys and gutters and trap moisture, rotting fascia, soffit, and decking. Orange does not border the South Mountain Reservation, which sits in West Orange, Maplewood, and Millburn, per Essex County Parks.',
+    },
+    {
+      question: 'How often does Orange weather damage a roof?',
+      answer:
+        'Orange roofs absorb about 31.5 inches of snow per year, freeze-thaw cycling, nor\'easters from October through April, and 25 to 30 thunderstorms per year, per NOAA 1991–2020 normals at Newark Liberty (EWR). The NRCA recommends a roof inspection twice per year, spring and fall, plus an inspection after any major storm.',
+    },
+  ],
+  whyChoose: {
+    heading: 'Why Orange Property Owners Choose Newark Quality Roofing',
+    reasons: [
+      {
+        title: 'New Jersey Home Improvement Contractor',
+        description:
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors\' Registration Act.',
+      },
+      {
+        title: 'Fully Insured and Bonded',
+        description:
+          'Newark Quality Roofing carries the commercial general liability coverage the Contractors\' Registration Act requires of a registered New Jersey Home Improvement Contractor, at the $500,000-per-occurrence minimum set by N.J.S.A. 56:8-142.',
+      },
+      {
+        title: 'Family-Owned and Local',
+        description:
+          'Newark Quality Roofing operates from Newark and serves Essex County, including Orange, East Orange, Newark, and Irvington, covering both detached homes and Main Street commercial buildings across the City of Orange Township.',
+      },
+      {
+        title: 'Tight-Lot and Older-Stock Experience',
+        description:
+          'Newark Quality Roofing works Orange\'s narrow lots and older stock, staging materials compactly and replacing deteriorated decking exposed at tear-off, because Orange\'s median structure year is near 1939 and density runs high at roughly 2.21 square miles, per the U.S. Census Bureau.',
+      },
+      {
+        title: 'Free Written Estimates',
+        description:
+          'Newark Quality Roofing provides a free roof inspection and a free written estimate before any Orange repair or replacement, documenting the scope, materials, and code path for the project.',
+      },
+    ],
+  },
+  metaTitle: 'Roofing Services in Orange, NJ | Newark Quality Roofing',
+  metaDescription:
+    'Roofing in Orange, NJ: repair and replacement for older homes, slate restoration, and Main Street flat roofs. NJ HIC licensed, insured. Free written estimate.',
+  pricing: {
+    averageRepair: '$400–$1,000',
+    averageReplacement: '$10,000–$25,000',
+    note: 'Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
+  },
+  credentialsHighlight: [
+    'NJ HIC Licensed',
+    'Fully Insured & Bonded',
+    'Family-Owned & Local',
+  ],
+},
+
+// ─── Irvington ───
+{
+  cityId: 'irvington',
+  directAnswer:
+    `**Newark Quality Roofing provides roofing in Irvington, NJ, repairing and replacing asphalt, flat-membrane, and metal roofs on Irvington homes, 2-3-family rentals, and commercial buildings** as a New Jersey Home Improvement Contractor across Essex County.`,
+  heroHeadline: `Roofing in Irvington, NJ`,
+  heroSubheadline:
+    `Newark Quality Roofing repairs and replaces roofs across Irvington — from early-20th-century Olympic Park homes to Springfield Avenue flat roofs — as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
+  overview: [
+    `Roofing problems in Irvington concentrate on 3 stressors: aging early-20th-century shingle roofs reaching end of life, ice dams on under-insulated 1920s-1940s homes, and wind, UV, and freeze-thaw damage on a dense, built-out housing stock. Irvington holds 61,176 residents on roughly 2.9 square miles, one of the most densely settled municipalities in New Jersey, per the U.S. Census Bureau.`,
+    `Irvington's predominantly older, early-20th-century housing stock drives most roofing work, because a 1920s-1940s asphalt roof at or past a 20-30 year service life shows curling, granule loss, and flashing failure, per the InterNACHI life-expectancy chart. The roofing industry estimates that roughly 90-95% of roof leaks originate at flashing details — chimneys, valleys, and penetrations — and only 5-10% at the open shingle field, an industry estimate attributed to the NRCA, so a Newark Quality Roofing repair diagnoses the failed detail before sealing it.`,
+    `Irvington shares Newark's climate at the Newark Liberty (EWR) station: about 31.5 inches of snow per year, nor'easters from October through April, and roughly 25-30 thunderstorms per year, per NOAA 1991-2020 normals. Ice dams form on under-insulated Irvington homes when attic heat escape melts the snowpack and the meltwater refreezes at the cold eave, backing water under the shingles, per University of Minnesota Extension.`,
+  ],
+  residential: {
+    heading: `Residential Roofing in Irvington`,
+    content: [
+      `Newark Quality Roofing replaces and repairs residential roofs across Irvington, re-roofing detached 1-2-family homes and 2-3-family rentals with asphalt shingles, the dominant material on Irvington's working-family housing stock. A complete tear-off and replacement of the roof covering on a detached 1-2-family dwelling counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code.`,
+      `Asphalt shingles cover roughly 73% of U.S. residential roofs per 2024 roofing-market data, and architectural asphalt lasts 30 years while 3-tab lasts 20 years, per the InterNACHI life-expectancy chart, so a value-priced asphalt replacement matches Irvington's majority-renter, rental- and multi-family-heavy housing. A Newark Quality Roofing residential re-roof installs an ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision, the detail that resists ice-dam backup on Irvington's under-insulated older homes.`,
+    ],
+  },
+  commercial: {
+    heading: `Commercial Roofing in Irvington`,
+    content: [
+      `Newark Quality Roofing repairs and replaces commercial low-slope roofs across Irvington, installing EPDM, TPO, and modified-bitumen membranes on Springfield Avenue and Chancellor Avenue storefronts and Route 78 light-industrial buildings along the southeastern edge. EPDM lasts 15-25 years, TPO 7-20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart.`,
+      `A flat roof requires at least one-quarter inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing membrane install corrects drainage at re-roof. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, filed with the Township of Irvington's construction-code office, per the NJ Uniform Construction Code.`,
+    ],
+  },
+  weatherChallenges: {
+    heading: `Irvington Weather and Climate Roofing Challenges`,
+    content: [
+      `Irvington roofs face 3 weather stressors from the shared Newark/EWR climate: about 31.5 inches of snow per year that drives ice dams, nor'easters from October through April, and roughly 25-30 thunderstorms per year with damaging wind. The snow, nor'easter, and thunderstorm figures trace to NOAA 1991-2020 normals at Newark Liberty (EWR).`,
+      `Ice dams form on under-insulated 1920s-1940s Irvington homes when attic heat escape warms the upper roof above 32 degrees Fahrenheit, melts the snowpack, and the meltwater refreezes at the eave below 32 degrees, backing water under the shingles, per University of Minnesota Extension. Per the U.S. EPA, the heat island effect raises daytime air temperatures in dense urban areas, and reflective roofs lower roof-surface temperature substantially, a qualitative factor on Irvington's built-out, limited-canopy housing stock.`,
+    ],
+  },
+  neighborhoods: [
+    {
+      name: `Springfield Avenue corridor`,
+      description: `Irvington's principal commercial corridor runs Newark to Irvington to Union County, anchored by the Irvington Bus Terminal central business district, a state-designated Urban Enterprise Zone, where flat-roof storefronts and mixed-use buildings carry EPDM, TPO, and modified-bitumen membranes.`,
+    },
+    {
+      name: `Chancellor Avenue`,
+      description: `Chancellor Avenue runs through southern Irvington, historically the location of the former Olympic Park amusement-park entrance, a commercial and residential corridor of working-family homes and 2-3-family rentals on aging early-20th-century roofs.`,
+    },
+    {
+      name: `Olympic Park neighborhood`,
+      description: `The Olympic Park neighborhood takes its name from the amusement park that operated near Chancellor Avenue from 1887 until it closed in 1965, a residential section of dense, predominantly early-20th-century homes where end-of-life asphalt replacement dominates.`,
+    },
+    {
+      name: `Irvington Center`,
+      description: `Irvington Center, the central business district around the Irvington Bus Terminal on Springfield Avenue, anchors the township's Urban Enterprise Zone, where commercial and mixed-use buildings carry low-slope membrane roofs requiring a permit for any repair exceeding 25% of the roof area.`,
+    },
+    {
+      name: `Upper Irvington`,
+      description: `Upper Irvington, a recognized residential section of the township, holds dense, older single-family and 2-3-family housing where 1920s-1940s asphalt roofs at end of life drive value-priced shingle replacement.`,
+    },
+    {
+      name: `Stuyvesant Avenue corridor`,
+      description: `The Stuyvesant Avenue corridor carries Irvington residential and commercial properties, a mix of older homes and storefronts where asphalt re-roofs and flat-membrane repairs are common.`,
+    },
+    {
+      name: `Union Avenue corridor`,
+      description: `The Union Avenue corridor runs through the eastern township near the Newark border at Vailsburg, a residential and commercial street of aging early-20th-century homes and small mixed-use buildings.`,
+    },
+  ],
+  projectSpotlights: [
+    {
+      title: `Early-20th-Century Asphalt Re-Roof`,
+      type: 'residential',
+      description:
+        `Newark Quality Roofing strips an end-of-life 1920s-1940s asphalt roof to the deck on an Irvington single-family or 2-3-family home, repairs deteriorated sheathing, and installs architectural shingles rated for the NJ climate. A detached 1-2-family re-roof counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no permit.`,
+      details: [
+        `Architectural asphalt shingles at a 30-year service life, per the InterNACHI life-expectancy chart`,
+        `Ice-and-water shield from the eave to at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision`,
+        `New step and counter-flashing at chimneys and wall transitions, the source of roughly 90-95% of leaks per an industry estimate attributed to the NRCA`,
+        `Synthetic underlayment across the deck and a magnet sweep for nails at cleanup`,
+      ],
+    },
+    {
+      title: `2-3-Family Rental Roof Replacement`,
+      type: 'residential',
+      description:
+        `Newark Quality Roofing re-roofs Irvington's 2-3-family rental housing, the township's rental- and multi-family-heavy stock, with value-priced asphalt shingles, repairing flashing at shared party-wall and dormer transitions and tying in low-slope rear-addition sections where present.`,
+      details: [
+        `3-tab or architectural asphalt shingles at a 20-30 year service life, per the InterNACHI chart`,
+        `EPDM or modified-bitumen membrane on any low-slope porch or rear-addition section`,
+        `Metal counter-flashing rebuilt at party-wall and chimney transitions`,
+        `Deck repair where 1920s-1940s sheathing shows moisture decay`,
+      ],
+    },
+    {
+      title: `Springfield Avenue Low-Slope Membrane Replacement`,
+      type: 'commercial',
+      description:
+        `Newark Quality Roofing replaces low-slope membrane roofs on Springfield Avenue and Chancellor Avenue commercial storefronts and Route 78 light-industrial buildings, installing EPDM, TPO, or modified bitumen and correcting drainage so the roof sheds water within the 48-hour ponding threshold.`,
+      details: [
+        `EPDM, TPO, or modified-bitumen single-ply membrane at a 7-25 year service life, per the InterNACHI chart`,
+        `At least one-quarter inch per foot of slope to drain, with no ponding beyond 48 hours, per the NRCA and ARMA`,
+        `New flashing and edge metal at parapets and penetrations`,
+        `Permit filed with the Township of Irvington's construction-code office when work exceeds 25% of the roof area, per N.J.A.C. 5:23-2.7`,
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: `Do you need a permit to replace a roof in Irvington, NJ?`,
+      answer:
+        `A complete re-roof of the roof covering on a detached 1-2-family home in Irvington counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area requires a permit filed with the Township of Irvington's construction-code office.`,
+    },
+    {
+      question: `Does a historic-district approval apply to roofing in Irvington?`,
+      answer:
+        `Irvington has no local historic-district ordinance, so a homeowner reroof faces no Certificate-of-Appropriateness step. Irvington carries no National Register listings either, per the National Park Service-derived Essex County register, and Register listing alone places no restriction on a private property owner, per the National Park Service.`,
+    },
+    {
+      question: `How much does a roof replacement cost in Irvington, NJ?`,
+      answer:
+        `A roof replacement in New Jersey costs $10,000-$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000-$11,000. NJ ranges sit 10-40% above national figures because labor accounts for roughly 60-70% of an asphalt install and NJ code is stricter. Newark Quality Roofing provides a free written estimate.`,
+    },
+    {
+      question: `Why do older Irvington homes get ice dams?`,
+      answer:
+        `Older Irvington homes get ice dams because escaping attic heat warms the upper roof above 32°F, melts the snowpack, and the meltwater refreezes at the cold eave, backing water under the shingles, per University of Minnesota Extension. The eave refreezes below 32°F while the upper roof stays warm, and an ice barrier at the eaves resists the backup, per the IRC R905.1.2 provision.`,
+    },
+    {
+      question: `What roofing material works best for an Irvington home?`,
+      answer:
+        `Asphalt shingles suit most Irvington homes, covering roughly 73% of U.S. residential roofs per 2024 roofing-market data, with architectural asphalt at a 30-year service life and 3-tab at 20 years, per the InterNACHI life-expectancy chart. A value-priced asphalt re-roof matches Irvington's working-family and 2-3-family rental housing stock.`,
+    },
+    {
+      question: `Are you licensed and insured to roof in Irvington?`,
+      answer:
+        `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor. Newark Quality Roofing carries the commercial general liability coverage the Contractors' Registration Act requires at a minimum of $500,000 per occurrence, per N.J.S.A. 56:8-142.`,
+    },
+    {
+      question: `How often should an Irvington roof be inspected?`,
+      answer:
+        `An Irvington roof warrants inspection at least twice per year, spring and fall, plus an added inspection after any major storm, per the NRCA. A spring inspection follows winter freeze-thaw and ice-dam stress, and proper maintenance on that cadence extends asphalt-shingle service life by roughly 25-30%, per ARMA. Newark Quality Roofing provides a free roof inspection.`,
+    },
+  ],
+  whyChoose: {
+    heading: `Why Choose Newark Quality Roofing in Irvington`,
+    reasons: [
+      {
+        title: `NJ Home Improvement Contractor`,
+        description:
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Irvington.`,
+      },
+      {
+        title: `Fully Insured and Bonded`,
+        description:
+          `Newark Quality Roofing carries the commercial general liability coverage the Contractors' Registration Act requires of a registered New Jersey Home Improvement Contractor, a minimum of $500,000 per occurrence, per N.J.S.A. 56:8-142.`,
+      },
+      {
+        title: `Aging-Stock Roofing Experience`,
+        description:
+          `Newark Quality Roofing repairs and replaces the early-20th-century asphalt roofs that dominate Irvington's dense housing stock, diagnosing flashing failure, granule loss, and ice-dam backup before a leak reaches the interior.`,
+      },
+      {
+        title: `Free Roof Inspections and Written Estimates`,
+        description:
+          `Newark Quality Roofing provides free roof inspections that trace a leak to the source flashing, shingle, or membrane detail, and a free written estimate before any Irvington roofing work begins.`,
+      },
+      {
+        title: `Local Essex County Roofers`,
+        description:
+          `Newark Quality Roofing repairs and replaces residential and commercial roofs across Essex County, covering Irvington and the bordering Newark, East Orange, and Orange.`,
+      },
+    ],
+  },
+  metaTitle: `Roofing in Irvington, NJ | Newark Quality Roofing`,
+  metaDescription:
+    `Roofing in Irvington, NJ. Newark Quality Roofing repairs and replaces asphalt, flat-membrane, and metal roofs on homes and commercial buildings. Free estimate.`,
+  pricing: {
+    averageRepair: `$400-$1,000 for most leak repairs`,
+    averageReplacement: `$10,000-$25,000 for a typical home`,
+    note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize, with leak repair at $400-$1,000 and flashing reseal at $200-$500; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
+  },
+  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+},
+
 ];
