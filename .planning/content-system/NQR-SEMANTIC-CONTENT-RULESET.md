@@ -18,7 +18,7 @@
 
 2. **The first sentence under each heading is a definitive factual answer, ≤40 words / ~320 characters.** It directly answers the heading question before any expansion. — *Verify:* sentence 1 word count ≤40 and char count ≤320; it answers the heading, not background.
 
-3. **The answer text is bolded — not the search term.** Wrap the factual answer span in `**`, never the keyword for its own sake. — *Verify:* the bolded span is the answer clause; the bare keyword alone is not the only thing bolded.
+3. **The answer text is bolded — not the search term.** Wrap the factual answer span in `**`, never the keyword for its own sake. **City pages** bold the **named main topics/entities inside the answer** (1–3 spans — e.g. the enumerated stressors, the material tracks) in the rendered-and-parsed answer fields only: `directAnswer` (hero), each section's answer-first lead (overview/residential/commercial/weatherChallenges first string, via `ProseLead`), and the first sentence of each FAQ answer (via `CityFaqs`); never in body paragraphs or other raw-rendered fields (a literal `**` there leaks). — *Verify:* the bolded span is the answer's topic/entity, not the bare keyword and not a whole clause; no `**` appears in body paragraphs/neighborhoods/spotlights/meta.
 
 4. **Heading and answer share opening structure** ("How to do X" → "To do X, …"; "What is X?" → "X is …"; "How much does X cost?" → "X costs …"). The answer mirrors the question's adjective/noun/predicate order. — *Verify:* the answer's first words map to the question's grammatical form, not "X is known for…".
 
@@ -54,7 +54,7 @@
 
 20. **Repeat the key n-gram near the start and near the end of the page,** and order declarations logically (definition → causes → signs → process → cost). — *Verify:* the primary n-gram ("roof repair", "roof repair in Newark") appears in the opening answer and in the closing section.
 
-21. **Do not break context across paragraphs.** Each paragraph continues the prior one's subject thread; no orphan paragraph. — *Verify:* read consecutive paragraphs; each shares a context link (entity, process step, or cost dimension) with the one before.
+21. **Do not break context across paragraphs.** Each paragraph continues the prior one's subject thread; no orphan paragraph. **The section body must DEVELOP its answer-first lead in the order the lead introduces it** — if the lead enumerates N items, the body covers those N in sequence (count matching, Rule 8), introduces no new top-level point the lead did not set up, and relocates any fact that belongs to a different section's question (e.g., city demographics/population only in "who/what" framing, never under a "problems" lead; permit-law only in the permits section). Lead + body must read as one developed thought, not two. — *Verify:* read consecutive paragraphs; each shares a context link (entity, process step, or cost dimension) with the one before, and each develops the section's lead claim rather than introducing an unrelated fact.
 
 22. **Split MAIN (money) vs SUPPLEMENTARY (informational) content; the money page stays focused.** Topic depth (full cause breakdowns, material deep-dives) lives in linked KB articles, not the service page. — *Verify:* the service page covers the conversion-relevant summary; exhaustive depth is delegated to a linked supporting article (no duplicate full treatments → no self-cannibalization).
 
