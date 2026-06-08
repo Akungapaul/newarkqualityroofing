@@ -109,9 +109,10 @@ export const TOP_BRANDS = 'GAF, CertainTeed, Owens Corning, and Firestone';
 
 // ─── Credentials ────────────────────────────────────────────────────────────
 
-// NOTE: D-01 — unverified marketing literals ("15+ years", "GAF Certified",
-// "A+ BBB", "5-star", aggregate rating, financing) are WITHHELD. Only D-01-cleared
-// trust claims remain. Do not re-add a [VERIFY] credential as a hard claim.
+// NOTE: D-01 — unverified marketing claims (years in business, manufacturer
+// certifications, BBB grade, star ratings, aggregate rating, financing) are
+// WITHHELD. Only D-01-cleared trust claims remain. Do not re-add a [VERIFY]
+// credential as a hard claim.
 export const CREDENTIALS = {
   license: 'NJ Home Improvement Contractor (HIC) licensed',
   insurance: 'Insured',
@@ -129,16 +130,16 @@ export const CREDENTIALS_SHORT = [
 // ─── Response Times ─────────────────────────────────────────────────────────
 
 export const RESPONSE = {
-  estimate: 'Same-day free estimates available',
-  emergency: '24/7 emergency response for urgent issues',
-  inspection: 'Schedule your free inspection within 24 hours',
-  callback: 'We return every call within 1 hour',
+  estimate: 'Free roofing estimates available',
+  emergency: 'Emergency roof repair response available',
+  inspection: 'Schedule your free roof inspection',
+  callback: 'We return every call promptly',
 } as const;
 
 // ─── Financing ──────────────────────────────────────────────────────────────
 
 export const FINANCING = {
-  primary: '0% financing available on qualifying projects',
+  primary: 'Flexible payment options on qualifying projects',
   secondary: 'Flexible payment plans to fit your budget',
   insurance: 'We work directly with your insurance company on claims',
 } as const;
@@ -160,10 +161,10 @@ export const NJ_WEATHER = {
 export const CTAS = {
   freeEstimate: 'Call today for your free, no-obligation estimate.',
   scheduleInspection: 'Schedule your free inspection today.',
-  emergencyCall: 'Need emergency help? Call us 24/7.',
+  emergencyCall: 'Need emergency help? Call us right away.',
   actNow: "Don't wait for a small problem to become a costly project — call now.",
-  financing: 'Ask about our 0% financing options when you call.',
-  sameDay: 'Same-day estimates available — call now to get started.',
+  financing: 'Ask about flexible payment options when you call.',
+  sameDay: 'Free estimates available — call now to get started.',
   seasonal: 'Book your project now before the busy season fills our schedule.',
   insurance: 'We handle the insurance paperwork — you get peace of mind stress-free.',
 } as const;
@@ -182,12 +183,12 @@ export const URGENCY = {
 
 export const WHY_CHOOSE_US_REASONS = [
   {
-    title: 'Licensed & Certified Professionals',
-    description: "You shouldn't have to wonder if your roofer is legit. We're NJ HIC licensed and GAF Certified — your job meets the highest industry standards.",
+    title: 'Licensed & Insured Professionals',
+    description: "You shouldn't have to wonder if your roofer is legit. We're NJ Home Improvement Contractor (HIC) licensed and fully insured — your job is handled to New Jersey roofing code.",
   },
   {
-    title: '15+ Years of Essex County Experience',
-    description: "Your Newark colonial has different needs than a Belleville cape cod. After 15 years in Essex County, we know every neighborhood, building code, and weather pattern.",
+    title: 'Deep Essex County Experience',
+    description: "Your Newark colonial has different needs than a Belleville cape cod. We know Essex County's neighborhoods, building codes, and weather patterns firsthand.",
   },
   {
     title: 'Transparent, Honest Pricing',
@@ -198,8 +199,8 @@ export const WHY_CHOOSE_US_REASONS = [
     description: 'Your roof is only as good as what\u2019s on it. We install GAF, CertainTeed, and Owens Corning products with manufacturer warranties up to 50 years.',
   },
   {
-    title: 'Same-Day Estimates & 24/7 Emergency Response',
-    description: "A leaking roof can't wait until Monday. We provide same-day estimates and have emergency crews ready 24/7 — call us and we're there.",
+    title: 'Free Estimates & Emergency Roof Repair',
+    description: "A leaking roof can't wait. We provide free estimates and respond quickly to roofing emergencies across Essex County — call us and we're on it.",
   },
   {
     title: 'Family-Owned, Community-Committed',

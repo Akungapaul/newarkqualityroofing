@@ -5,12 +5,12 @@ import { PRIORITY_CITY_IDS, PRIORITY_SERVICE_IDS, PRIORITY_COMBO_PAIRS } from '@
 import { generateCityPageSlug, generateComboSlug } from '@/lib/slug-utils';
 
 const gscPriorityLinks = [
-  { href: '/roof-repair-newark-nj', label: 'Roof repair in Newark', note: 'Primary repair page with existing GSC impressions' },
-  { href: '/emergency-roof-repair-newark-nj', label: 'Emergency roof repair in Newark', note: '24/7 storm and leak intent' },
-  { href: '/roof-replacement-newark-nj', label: 'Roof replacement in Newark', note: 'High-value replacement intent' },
-  { href: '/roof-leak-repair-newark-nj', label: 'Roof leak repair in Newark', note: 'Top visible query cluster' },
-  { href: '/flat-roof-installation-repair-newark-nj', label: 'Flat roof installation in Newark', note: 'Correct target for flat-roof installation searches' },
-  { href: '/commercial-roof-installation-newark-nj', label: 'Commercial roof installation in Newark', note: 'Commercial Newark money page' },
+  { href: '/roof-repair-newark-nj', label: 'Roof repair in Newark', note: 'Fast fixes for leaks, missing shingles, and storm damage.' },
+  { href: '/emergency-roof-repair-newark-nj', label: 'Emergency roof repair in Newark', note: 'Urgent help for active leaks and storm damage.' },
+  { href: '/roof-replacement-newark-nj', label: 'Roof replacement in Newark', note: 'Full roof replacement for aging or failing roofs.' },
+  { href: '/roof-leak-repair-newark-nj', label: 'Roof leak repair in Newark', note: 'Pinpoint and seal roof leaks at the source.' },
+  { href: '/flat-roof-installation-repair-newark-nj', label: 'Flat roof installation in Newark', note: 'TPO, EPDM, and modified-bitumen flat-roof systems.' },
+  { href: '/commercial-roof-installation-newark-nj', label: 'Commercial roof installation in Newark', note: 'Roof installation for commercial and industrial buildings.' },
 ] as const;
 
 export function PriorityIndexingHub() {

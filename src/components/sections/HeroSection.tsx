@@ -76,17 +76,18 @@ export function HeroSection() {
               {HEADING_CONFIG.home.h1}
             </h1>
             <p className="mt-4 font-heading text-lg font-semibold text-copper sm:text-xl">
-              Same-Day Estimates · 24/7 Emergency Crews
+              Licensed &amp; Insured · Free Roofing Estimates
             </p>
           </AnimateIn>
           <AnimateIn delay={0.6}>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-parchment/80 sm:text-xl">
-              Full-service roof replacement, repairs, commercial installation,
-              and gutter services for Newark and Essex County. Licensed, insured,
-              and backed by 500+ five-star reviews. 0% financing available.
+              Newark Quality Roofing is the licensed, insured contractor Newark
+              and Essex County property owners call for roof replacement,
+              repairs, commercial installation, and gutters — backed by free,
+              no-obligation estimates.
             </p>
             <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 font-body text-sm text-parchment/70">
-              <Link href="/services" className="underline text-copper-light hover:text-copper">All Services</Link>
+              <Link href="/roofing-services" className="underline text-copper-light hover:text-copper">All Services</Link>
               <Link href="/roof-replacement" className="underline text-copper-light hover:text-copper">Replacements</Link>
               <Link href="/commercial-roof-installation" className="underline text-copper-light hover:text-copper">Commercial</Link>
               <Link href="/contact" className="underline text-copper-light hover:text-copper">Contact Us</Link>

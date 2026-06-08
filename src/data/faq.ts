@@ -30,14 +30,14 @@ export const faqItems: FaqItem[] = [
   {
     question: 'Do you offer emergency roof repair services?',
     answer:
-      'Yes — we offer 24/7 emergency help throughout Essex County. Storm damage, sudden leaks, or fallen trees — our crew responds quickly to secure your property.',
+      'Yes — we offer emergency roof repair throughout Essex County. Storm damage, sudden leaks, or fallen trees — our crew responds quickly to secure your property.',
     linkText: 'Emergency help details',
     linkHref: '/emergency-roof-repair',
   },
   {
     question: 'What warranty do you offer on roofing work?',
     answer:
-      'We provide a workmanship warranty of up to 25 years, plus the manufacturer warranty on materials (typically 25 to 50 years). We walk you through all warranty details before your project begins.',
+      'We provide a workmanship warranty on our installations, plus the manufacturer warranty on materials (typically 25 to 50 years). We walk you through all warranty details before your project begins.',
     linkText: 'View our credentials',
     linkHref: '/about',
   },

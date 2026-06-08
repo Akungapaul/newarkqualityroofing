@@ -8,7 +8,6 @@ import { ServicesGrid } from '@/components/sections/ServicesGrid';
 import { HomeResidentialCommercial } from '@/components/sections/HomeResidentialCommercial';
 import { HomeWhyChooseUs } from '@/components/sections/HomeWhyChooseUs';
 import { HomePricingTable } from '@/components/sections/HomePricingTable';
-import { TestimonialCarousel } from '@/components/sections/TestimonialCarousel';
 import { LocationsGrid } from '@/components/sections/LocationsGrid';
 import { FaqAccordion } from '@/components/sections/FaqAccordion';
 import { HomepageGuides } from '@/components/sections/HomepageGuides';
@@ -18,7 +17,6 @@ import { getComparisonMenuGroups } from '@/data/nav-data';
 import { FeaturedCombos } from '@/components/sections/FeaturedCombos';
 import { PriorityIndexingHub } from '@/components/sections/PriorityIndexingHub';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
-import { testimonials } from '@/data/testimonials';
 import { faqItems } from '@/data/faq';
 import { articles } from '@/data/articles';
 import { siteConfig } from '@/data/site-config';
@@ -45,14 +43,14 @@ const homepageOgImage = homepageOg?.path
 export const metadata: Metadata = {
   title: 'Roofing Contractor in Newark, NJ | Newark Quality Roofing',
   description:
-    "Newark's top-rated roofing contractor. Same-day estimates, 24/7 emergency service, 0% financing. Roof repair, replacement & installation. Call for a free quote.",
+    'Newark Quality Roofing: licensed, insured roofing in Newark & Essex County, NJ. Roof repair, replacement & installation. Free estimates.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Roofing Contractor in Newark, NJ | Newark Quality Roofing',
     description:
-      "Newark's top-rated roofing contractor. Same-day estimates, 24/7 emergency service, 0% financing. Roof repair, replacement & installation. Call for a free quote.",
+      'Newark Quality Roofing: licensed, insured roofing in Newark & Essex County, NJ. Roof repair, replacement & installation. Free estimates.',
     url: '/',
     siteName: 'Newark Quality Roofing',
     type: 'website',
@@ -187,9 +185,6 @@ export default function Home() {
       {/* Before/after gallery: project showcase with drag sliders */}
       <BeforeAfterGallery />
 
-      {/* Social proof: customer testimonials */}
-      <TestimonialCarousel testimonials={testimonials} />
-
       {/* Popular services by city — combo page links for internal linking */}
       <FeaturedCombos />
 
@@ -266,49 +261,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Embeds: Google Maps + YouTube */}
+      {/* Embeds: Google Maps service-area map */}
       <section className="bg-parchment py-12 lg:py-16" aria-labelledby="embeds-heading">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2
             id="embeds-heading"
             className="text-center font-heading text-2xl font-bold text-forest sm:text-3xl"
           >
-            Where Can You Find Us and See Our Roofing Work?
+            Where Do We Provide Roofing in Newark and Essex County?
           </h2>
         </div>
-        <div className="mx-auto mt-8 grid max-w-7xl gap-8 px-6 md:grid-cols-2 lg:px-8">
-          <div>
-            <h3 className="mb-4 font-heading text-xl font-semibold text-forest">
-              Where Are We Located in Newark, NJ?
-            </h3>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48421.58762696192!2d-74.19967!3d40.73566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2547cb4c18891%3A0x6ec8c91e844010e!2sNewark%2C%20NJ!5e0!3m2!1sen!2sus!4v1700000000000"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Newark Quality Roofing location on Google Maps"
-              className="rounded-lg shadow-md"
-            />
-          </div>
-          <div>
-            <h3 className="mb-4 font-heading text-xl font-semibold text-forest">
-              What Does Our Roofing Work Look Like?
-            </h3>
-            <iframe
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              loading="lazy"
-              title="Newark Quality Roofing project showcase"
-              className="rounded-lg shadow-md"
-            />
-          </div>
+        <div className="mx-auto mt-8 max-w-3xl px-6 lg:px-8">
+          <h3 className="mb-4 font-heading text-xl font-semibold text-forest">
+            Where Do We Work in Newark, NJ?
+          </h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48421.58762696192!2d-74.19967!3d40.73566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2547cb4c18891%3A0x6ec8c91e844010e!2sNewark%2C%20NJ!5e0!3m2!1sen!2sus!4v1700000000000"
+            width="100%"
+            height="300"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Newark Quality Roofing service area — Newark, NJ on Google Maps"
+            className="rounded-lg shadow-md"
+          />
         </div>
       </section>
 
@@ -327,7 +304,7 @@ export default function Home() {
           <p className="mx-auto mt-4 max-w-xl font-body text-lg text-white/80">
             Get a no-obligation quote from our <em>experienced</em> roofing contractors. We serve
             all of Essex County with licensed, insured professionals.{' '}
-            <Link href="/services" className="text-white underline hover:text-parchment">View all services</Link>.
+            <Link href="/roofing-services" className="text-white underline hover:text-parchment">View all services</Link>.
           </p>
           <div className="mt-6 flex justify-center">
             <Image
