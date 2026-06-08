@@ -21,8 +21,6 @@ import { ServiceCtaBanner } from '@/components/sections/ServiceCtaBanner';
 import { ServiceLearnMore } from '@/components/sections/ServiceLearnMore';
 import { ServiceRelatedComparisons } from '@/components/sections/ServiceRelatedComparisons';
 import { TrustBar } from '@/components/sections/TrustBar';
-import { CompactTestimonial } from '@/components/sections/CompactTestimonial';
-import { testimonials } from '@/data/testimonials';
 import { getMoneyPageArticles } from '@/data/linking/link-engine';
 import { getRelatedComparisons } from '@/data/linking/comparison-links';
 import { JsonLd } from '@/components/seo/JsonLd';
@@ -313,15 +311,6 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
 
           {/* Related Comparisons -- contextual comparison links */}
           <AnimateIn><ServiceRelatedComparisons heading="How Do Your Roofing Options Compare?" comparisons={getRelatedComparisons(service.id)} /></AnimateIn>
-
-          {/* Compact testimonials -- 1-2 relevant reviews */}
-          <AnimateIn>
-            <CompactTestimonial
-              heading="What Do Customers Say About Our Roofing Work?"
-              testimonials={testimonials}
-              filterBy={{ type: 'service', value: service.name }}
-            />
-          </AnimateIn>
         </article>
 
         {/* Sticky sidebar */}
