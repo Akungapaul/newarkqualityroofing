@@ -1,4 +1,5 @@
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
+import { parseRichText } from '@/lib/rich-text';
 import type { ComparisonContent } from '@/data/comparison-content/schema';
 
 interface ComparisonVerdictProps {
@@ -18,17 +19,17 @@ export function ComparisonVerdict({ verdict }: ComparisonVerdictProps) {
       <div className="mt-6 rounded-lg border-2 border-copper/30 bg-copper/5 p-6 sm:p-8">
         {/* Winner statement */}
         <p className="font-heading text-xl font-bold text-forest">
-          {verdict.winner}
+          {parseRichText(verdict.winner)}
         </p>
 
         {/* Reasoning */}
-        <p className="mt-4 font-body text-base leading-relaxed text-text-primary">
-          {verdict.reasoning}
+        <p className="mt-4 font-body text-base leading-relaxed text-text-primary [&_strong]:font-semibold [&_strong]:text-forest">
+          {parseRichText(verdict.reasoning)}
         </p>
 
         {/* Alternate scenario */}
-        <p className="mt-4 font-body text-base leading-relaxed text-text-secondary italic">
-          {verdict.alternateScenario}
+        <p className="mt-4 font-body text-base leading-relaxed text-text-secondary italic [&_strong]:font-semibold [&_strong]:text-forest">
+          {parseRichText(verdict.alternateScenario)}
         </p>
 
         {/* Consultation CTA */}

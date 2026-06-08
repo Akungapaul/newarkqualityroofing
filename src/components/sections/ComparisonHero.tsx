@@ -1,6 +1,7 @@
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
+import { parseRichText } from '@/lib/rich-text';
 import type { Comparison } from '@/lib/types';
 import type { NavServiceGroup } from '@/data/nav-data';
 
@@ -15,9 +16,12 @@ const categoryLabels: Record<string, string> = {
 interface ComparisonHeroProps {
   comparison: Comparison;
   serviceGroups: NavServiceGroup[];
+  /** Answer-first hero answer (≤40 words, pre-bolded via **markdown**). Optional —
+   *  comparisons without it render exactly as before. */
+  directAnswer?: string;
 }
 
-export function ComparisonHero({ comparison, serviceGroups }: ComparisonHeroProps) {
+export function ComparisonHero({ comparison, serviceGroups, directAnswer }: ComparisonHeroProps) {
   const categoryLabel = categoryLabels[comparison.category] ?? comparison.category;
 
   return (
@@ -82,6 +86,12 @@ export function ComparisonHero({ comparison, serviceGroups }: ComparisonHeroProp
             >
               {comparison.name}
             </h1>
+
+            {directAnswer && (
+              <p className="mt-5 font-body text-base leading-relaxed text-parchment/90 sm:text-lg [&_strong]:font-semibold [&_strong]:text-copper-light">
+                {parseRichText(directAnswer)}
+              </p>
+            )}
 
             {/* Compact trust bar -- 3 items inline */}
             <div

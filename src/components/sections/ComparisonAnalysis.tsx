@@ -1,4 +1,5 @@
 import type { ComparisonContent } from '@/data/comparison-content/schema';
+import { ProseLead } from './ProseLead';
 
 interface ComparisonAnalysisProps {
   analysis: ComparisonContent['detailedAnalysis'];
@@ -29,15 +30,8 @@ export function ComparisonAnalysis({
             <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
               {item.heading}
             </h2>
-            <div className="mt-4 space-y-3">
-              {item.content.map((paragraph, pIndex) => (
-                <p
-                  key={pIndex}
-                  className="font-body text-base leading-relaxed text-text-primary"
-                >
-                  {paragraph}
-                </p>
-              ))}
+            <div className="mt-4">
+              <ProseLead paragraphs={item.content} />
             </div>
           </div>
         ))}
@@ -48,15 +42,8 @@ export function ComparisonAnalysis({
         <h2 className="font-heading text-2xl font-bold text-forest sm:text-3xl">
           {njSpecific.heading}
         </h2>
-        <div className="mt-4 space-y-3">
-          {njSpecific.content.map((paragraph, index) => (
-            <p
-              key={index}
-              className="font-body text-base leading-relaxed text-text-primary"
-            >
-              {paragraph}
-            </p>
-          ))}
+        <div className="mt-4">
+          <ProseLead paragraphs={njSpecific.content} />
         </div>
       </div>
 
@@ -67,15 +54,8 @@ export function ComparisonAnalysis({
           <h3 className="font-heading text-xl font-bold text-forest">
             {residentialSection.heading}
           </h3>
-          <div className="mt-3 space-y-3">
-            {residentialSection.content.map((paragraph, index) => (
-              <p
-                key={index}
-                className="font-body text-sm leading-relaxed text-text-primary"
-              >
-                {paragraph}
-              </p>
-            ))}
+          <div className="mt-3">
+            <ProseLead paragraphs={residentialSection.content} />
           </div>
         </div>
 
@@ -84,15 +64,8 @@ export function ComparisonAnalysis({
           <h3 className="font-heading text-xl font-bold text-forest">
             {commercialSection.heading}
           </h3>
-          <div className="mt-3 space-y-3">
-            {commercialSection.content.map((paragraph, index) => (
-              <p
-                key={index}
-                className="font-body text-sm leading-relaxed text-text-primary"
-              >
-                {paragraph}
-              </p>
-            ))}
+          <div className="mt-3">
+            <ProseLead paragraphs={commercialSection.content} />
           </div>
         </div>
       </div>

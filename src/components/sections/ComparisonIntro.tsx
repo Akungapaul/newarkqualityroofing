@@ -1,3 +1,5 @@
+import { ProseLead } from './ProseLead';
+
 interface ComparisonIntroProps {
   heading: string;
   paragraphs: string[];
@@ -12,15 +14,8 @@ export function ComparisonIntro({ heading, paragraphs }: ComparisonIntroProps) {
       >
         {heading}
       </h2>
-      <div className="mt-6 space-y-4">
-        {paragraphs.map((paragraph, index) => (
-          <p
-            key={index}
-            className="font-body text-base leading-relaxed text-text-primary"
-          >
-            {paragraph}
-          </p>
-        ))}
+      <div className="mt-6">
+        <ProseLead paragraphs={paragraphs} />
       </div>
     </section>
   );

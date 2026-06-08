@@ -6,6 +6,9 @@ import { z } from 'zod';
 
 export const ComparisonContentSchema = z.object({
   comparisonId: z.string(),
+  // Optional answer-first hero answer (≤40 words, pre-bolded with **markdown**).
+  // Rendered by ComparisonHero; absent until the content rewrite (CMP-1..4) sets it.
+  directAnswer: z.string().optional(),
   introHeading: z.string(),
   introParagraphs: z.array(z.string()).min(1).max(3),
   comparisonRows: z.array(z.object({
