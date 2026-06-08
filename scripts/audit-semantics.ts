@@ -20,6 +20,11 @@
  *     - Rule 8  plural-count mismatch (only the FP-safe "N nouns: a, b, c" inline pattern).
  *     - Rule 31 H2 question length (from heading-config).
  *     - Rule 23 generic/low-quality internal-link anchors.
+ *     - Rule 39 internal-link micro-discipline — a RENDERED prose-link pass over a
+ *               sampled set of prerendered pages (needs a build): in-body CONTEXTUAL
+ *               link-count >15, anchor-text reuse >3×, a link opening its paragraph,
+ *               and >1 link per heading section. Counts only <a href="/…"> inside a
+ *               <p> outside nav/footer; entity grids & navigation lists are exempt.
  *
  * SCOPE (so a batch verifies only its own pages; default = everything):
  *   --types=services,cities,combos,articles,comparisons   (comma list; default all)
@@ -37,6 +42,7 @@
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { parse, type HTMLElement } from 'node-html-parser';
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
@@ -186,6 +192,110 @@ function renderedAsteriskPass(): { ran: boolean; files: string[] } {
   return { ran: true, files: leaks };
 }
 
+// ─── Rendered internal-link pass (advisory — R39/R23) ─────────────────────────
+//
+// R39 internal-link micro-discipline is a RENDERED-HTML concern: the content
+// data has no authored links yet (links are template-injected via next/link),
+// so this parses prerendered pages — like audit-headings.ts — and reports
+// in-body internal-link metrics. ALL findings are ADVISORY (never exit 1).
+// NOTE: link counts on templated pages largely reflect the template (e.g. the
+// city services grid), not authored content; treat as a signal, not a gate.
+
+const MAX_BODY_LINKS = 15; // R39: ≤15 in-body contextual links per page
+const MAX_ANCHOR_REUSE = 3; // R39: an anchor text repeats at most 3×
+
+/** Is this element inside a nav/footer/header/aside/button/label region (tag OR role)? */
+function inForbiddenRegion(el: HTMLElement): boolean {
+  if (el.closest('nav,footer,header,aside,button,label')) return true;
+  let cur: HTMLElement | null = el;
+  while (cur) {
+    const role = cur.getAttribute?.('role');
+    if (role === 'navigation' || role === 'contentinfo' || role === 'banner') return true;
+    cur = cur.parentNode as HTMLElement | null;
+  }
+  return false;
+}
+
+/** Pick a bounded, representative set of prerendered files to parse (templates are uniform). */
+function pickLinkSampleFiles(): string[] {
+  if (!existsSync(PRERENDER_DIR)) return [];
+  const all = readdirSync(PRERENDER_DIR).filter((f) => f.endsWith('.html'));
+  if (ID_FILTER.size) {
+    const want = new Set<string>();
+    for (const id of ID_FILTER) {
+      want.add(`${id}.html`); // services / comparisons / combos / core
+      want.add(`roofing-in-${id}-nj.html`); // cities
+    }
+    const hit = all.filter((f) => want.has(f));
+    if (hit.length) return hit;
+  }
+  // No id match → a representative spread (known city/service/home first), capped.
+  const preferred = [
+    'roofing-in-livingston-nj.html', 'roofing-in-newark-nj.html',
+    'roof-repair.html', 'roof-replacement.html', 'index.html',
+  ];
+  return [...new Set([...preferred.filter((f) => all.includes(f)), ...all])].slice(0, 40);
+}
+
+function renderedLinkPass(): { ran: boolean; files: string[] } {
+  const files = pickLinkSampleFiles();
+  if (files.length === 0) return { ran: false, files: [] };
+  for (const f of files) {
+    const root = parse(readFileSync(join(PRERENDER_DIR, f), 'utf8'));
+    const scope = `rendered:${f}`;
+    // CONTEXTUAL prose links only: an internal <a> inside a <p>, outside nav/footer.
+    // Entity/navigation LISTS & GRIDS (the services grid, related-combos, nearby-cities)
+    // are intentionally exempt — R39 allows a list of templatic-sibling entities to each
+    // link its same-type page, so those are not "contextual" links and must not be counted.
+    const bodyLinks = root.querySelectorAll('a').filter((a) => {
+      const href = a.getAttribute('href') ?? '';
+      if (!href.startsWith('/') || href.startsWith('//')) return false;
+      if (inForbiddenRegion(a)) return false;
+      return !!a.closest('p');
+    });
+    // R39 — link count ≤15
+    if (bodyLinks.length > MAX_BODY_LINKS) {
+      push(advisory, { tier: 'ADVISORY', rule: 'R39 link-count', scope, path: 'a[href^="/"]', detail: `${bodyLinks.length} in-body internal links (>${MAX_BODY_LINKS})` });
+    }
+    // R39 — anchor-text reuse ≤3
+    const counts = new Map<string, number>();
+    for (const a of bodyLinks) {
+      const t = a.text.replace(/\s+/g, ' ').trim().toLowerCase();
+      if (t) counts.set(t, (counts.get(t) ?? 0) + 1);
+    }
+    for (const [t, n] of counts) {
+      if (n > MAX_ANCHOR_REUSE) push(advisory, { tier: 'ADVISORY', rule: 'R39 anchor-reuse', scope, path: 'a', detail: `"${t.slice(0, 40)}" reused ${n}× (>${MAX_ANCHOR_REUSE})` });
+    }
+    // R39 — no link as the first content node of its paragraph (best-effort)
+    for (const a of bodyLinks) {
+      const p = a.closest('p');
+      if (!p) continue;
+      const firstContent = p.childNodes.find((n) => n.nodeType === 1 || (n.nodeType === 3 && n.rawText.trim().length > 0));
+      if (firstContent === a) push(advisory, { tier: 'ADVISORY', rule: 'R39 paragraph-opening anchor', scope, path: 'p>a', detail: `"${a.text.replace(/\s+/g, ' ').trim().slice(0, 40)}" opens its paragraph` });
+    }
+    // R39 — one link per heading section (best-effort: group by nearest preceding non-forbidden h2/h3)
+    const ordered = root.querySelectorAll('h2,h3,a');
+    let sectionLinks = 0;
+    let sectionHeading = '(pre-heading)';
+    const flushSection = () => {
+      if (sectionLinks > 1) push(advisory, { tier: 'ADVISORY', rule: 'R39 multi-link section', scope, path: 'section', detail: `${sectionLinks} links under "${sectionHeading.slice(0, 50)}"` });
+      sectionLinks = 0;
+    };
+    for (const el of ordered) {
+      const tag = el.tagName?.toLowerCase();
+      if ((tag === 'h2' || tag === 'h3') && !inForbiddenRegion(el)) {
+        flushSection();
+        sectionHeading = el.text.replace(/\s+/g, ' ').trim();
+      } else if (tag === 'a') {
+        const href = el.getAttribute('href') ?? '';
+        if (href.startsWith('/') && !href.startsWith('//') && !inForbiddenRegion(el) && el.closest('p')) sectionLinks++;
+      }
+    }
+    flushSection();
+  }
+  return { ran: true, files };
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main(): Promise<void> {
@@ -249,9 +359,13 @@ async function main(): Promise<void> {
   const ast = renderedAsteriskPass();
   for (const f of ast.files) push(gate, { tier: 'GATE', rule: '** render leak', scope: `rendered:${f}`, path: 'html', detail: 'literal "**" in prerendered HTML (markdown not parsed)' });
 
+  // Rendered internal-link advisory pass (R39) — needs a build; ADVISORY only.
+  const link = renderedLinkPass();
+
   // ── Report ────────────────────────────────────────────────────────────────
   console.log(`Audited ${audited} content object(s).`);
   console.log(`Rendered ** pass: ${ast.ran ? 'ran' : 'SKIPPED (run `next build` first)'}.`);
+  console.log(`Rendered link pass: ${link.ran ? `ran (${link.files.length} page(s) sampled)` : 'SKIPPED (run `next build` first)'}.`);
   console.log();
 
   const cap = (arr: V[], n: number) => arr.slice(0, n);
