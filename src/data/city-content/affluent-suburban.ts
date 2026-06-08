@@ -1,352 +1,414 @@
 import type { CityContent } from '@/lib/types';
 
-// ─── Affluent Suburban Cities ─────────────────────────────────────────────────
-// Livingston: upper-middle professional suburban diversity
-// Millburn: premium luxury/estate market
+// ─── Affluent-Suburban Region — answer-first rewrite (Batch E) ───
+// Livingston, Millburn (incl. Short Hills)
 
 export const affluentSuburbanContent: CityContent[] = [
-  // ═══════════════════════════════════════════════════════════════════════════
-  // LIVINGSTON
-  // ═══════════════════════════════════════════════════════════════════════════
-  {
-    cityId: 'livingston',
-    heroHeadline: 'Roofing Services in Livingston, NJ',
-    heroSubheadline:
-      'From split-level renovations along Eisenhower Parkway to full roof replacements in Collins Terrace, Newark Quality Roofing delivers professional craftsmanship tailored to Livingston\'s diverse housing landscape.',
-    overview: [
-      'Livingston is one of Essex County\'s most desirable residential townships, known for its well-regarded public school district, proximity to major transit corridors, and a housing market that blends mid-century heritage with modern luxury construction. Originally developed as a suburban retreat from Newark and the Oranges during the postwar building boom, Livingston experienced rapid residential growth through the 1960s and 1970s, producing entire neighborhoods of split-level homes, raised ranches, and center-hall colonials that now define the township\'s architectural character. Today these homes stand alongside newer luxury construction in planned developments, creating a roofing landscape that demands versatility, technical knowledge, and an understanding of how different building eras respond to New Jersey\'s demanding four-season climate.',
-      'Newark Quality Roofing serves Livingston homeowners and commercial property managers, accumulating deep expertise in the specific roof systems found throughout the township. We understand that a 1960s split-level on South Orange Avenue presents fundamentally different challenges than a 2010s colonial in a gated community off Eisenhower Parkway. Our team has worked extensively with the architectural styles, material choices, and building codes that shape roofing outcomes in Livingston, from navigating HOA approval processes in newer developments to preserving the architectural integrity of established neighborhoods like Northland and Collins Terrace.',
-      'The township\'s commercial corridor along Eisenhower Parkway and Route 10 adds another dimension to our Livingston practice. Retail centers, professional office buildings, medical facilities, and mixed-use developments all require specialized commercial roofing solutions including flat roof systems, TPO membranes, and metal roofing engineered for large-footprint structures. Our commercial division maintains the certifications, equipment, and crew capacity to handle projects ranging from strip mall roof replacements to new construction installations on multi-story office buildings.',
-      'Livingston\'s geographic position in northern Essex County means its roofs face the full force of nor\'easters tracking up the coast, heavy snow loads during winter storms, intense summer heat that accelerates shingle deterioration, and frequent freeze-thaw cycles that stress flashings, valleys, and penetration seals. Our maintenance programs and material selections are specifically calibrated to these regional weather patterns, ensuring Livingston roofs perform reliably through decades of seasonal extremes.',
-      'Skylight-related issues are a frequent concern in Livingston homes, particularly the split-levels and raised ranches where skylights were popular additions during the 1980s and 1990s renovation wave. Aging skylight units with deteriorated seals, corroded aluminum curb flashings, and single-pane glass that promotes condensation are common sources of both leaks and energy loss. During every Livingston re-roofing project, we assess existing skylights and recommend either reflashing with modern step-and-counter flashing systems or complete replacement with energy-efficient low-E units. This proactive approach eliminates one of the most persistent leak sources in Livingston homes while improving natural light quality and thermal performance.',
-    ],
-    residential: {
-      heading: 'Residential Roofing for Livingston\'s Diverse Housing Stock',
-      content: [
-        'Livingston\'s residential landscape spans an unusually wide range of architectural styles, construction eras, and price points within a single township. The bulk of the housing stock consists of split-level homes, raised ranches, and colonials built during the 1960s and 1970s suburban expansion, many of which are now on their second or third roof system. These homes frequently feature complex rooflines with multiple intersecting planes, dormers, and attached garage transitions that create vulnerable valleys and flashing junctions. Our crews bring specialized experience with these mid-century designs, understanding where water infiltration commonly occurs and how to detail flashings, step flashings, and kick-out diverters to prevent the leaks that plague aging split-level construction.',
-        'The township\'s newer developments, concentrated primarily along the western and southern edges near Eisenhower Parkway and the Livingston Town Center, feature contemporary colonial and transitional designs built to modern energy codes. These homes typically incorporate architectural laminate shingles, ridge venting systems, and enhanced attic insulation packages. For homeowners in these neighborhoods, our focus shifts toward warranty optimization, energy performance, and aesthetic coordination with HOA-specified color palettes and material standards. We handle the full HOA approval process, submitting samples, specifications, and contractor documentation so homeowners can focus on choosing the right system rather than navigating bureaucratic requirements.',
-        'Between these two categories lies a substantial stock of homes renovated and expanded during the 1990s and 2000s, when many Livingston families chose to add second-story additions, bump-outs, and expanded kitchen wings rather than relocate. These projects created hybrid rooflines where original construction meets newer framing, and the transition points between old and new are frequent sources of leaks and ventilation problems. Our assessment process identifies these transition zones and develops solutions that integrate the entire roof system into a cohesive, weathertight assembly.',
-        'Throughout every Livingston neighborhood, we install GAF Timberline HDZ, CertainTeed Landmark Pro, and Owens Corning Duration shingles as our primary residential systems, backed by manufacturer warranties that we register and track on each homeowner\'s behalf. For homes where visual distinction matters, we offer designer shingles that replicate slate, cedar shake, and old-world tile aesthetics without the structural demands and maintenance requirements of traditional materials.',
-        'Gutter system upgrades are a natural companion to Livingston roof replacements. Many homes retain original sectional aluminum gutters with leaking joints and undersized downspouts that overflow during heavy rainfall events. We install seamless 6-inch aluminum gutter systems with concealed hangers and oversized 3x4 downspouts that handle even the most intense storms without overflow. For Livingston properties with heavy tree cover, we recommend leaf guard systems that dramatically reduce maintenance frequency while keeping gutters flowing freely through fall and winter.',
-      ],
-    },
-    commercial: {
-      heading: 'Commercial Roofing Along Livingston\'s Business Corridors',
-      content: [
-        'Livingston\'s commercial real estate market is anchored by the Eisenhower Parkway corridor, the Livingston Town Center, and scattered professional office parks that serve the township\'s significant population of medical practitioners, attorneys, financial advisors, and technology professionals. These commercial properties demand roofing solutions engineered for large footprints, minimal disruption to business operations, and long-term lifecycle cost efficiency. Newark Quality Roofing\'s commercial division brings the equipment, crew depth, and project management capacity to handle these demanding installations without compromising the quality standards that define our residential work.',
-        'For flat and low-slope commercial roofs, we install TPO single-ply membranes, EPDM rubber systems, and modified bitumen assemblies tailored to each building\'s specific requirements. Our commercial specifications account for foot traffic patterns around HVAC equipment, drainage slope engineering to prevent ponding water, and penetration detailing around rooftop units, vent stacks, and satellite equipment. Retail properties along Route 10 and the Town Center benefit from our ability to schedule work during off-hours, minimizing customer-facing disruption while maintaining strict safety protocols required for occupied commercial buildings.',
-        'Property managers overseeing multi-tenant office buildings and medical facilities along Eisenhower Parkway rely on our proactive maintenance programs to extend roof life and prevent the emergency leaks that disrupt operations and damage expensive interior buildouts. Our commercial maintenance contracts include biannual inspections, drone-assisted thermal imaging to detect moisture intrusion before visible damage appears, and priority emergency response when storm damage demands immediate attention.',
-      ],
-    },
-    weatherChallenges: {
-      heading: 'Weather Challenges Facing Livingston Roofs',
-      content: [
-        'Livingston\'s inland Essex County position exposes roofs to the full spectrum of northeastern weather extremes. Winter storms deliver heavy wet snow loads that stress the shallow-pitch roof planes common on split-level homes, while ice dams form along eaves where heated interior spaces meet cold overhangs. Summer brings intense UV exposure and thermal cycling that accelerates granule loss on asphalt shingles, particularly on south-facing slopes that absorb maximum solar radiation. Our material selections and installation techniques are specifically designed to address these seasonal stressors, incorporating ice-and-water shield membrane in all valleys and eaves, proper ventilation engineering to minimize ice dam formation, and algae-resistant shingle chemistries that maintain appearance through Livingston\'s humid summers.',
-        'Severe thunderstorms and nor\'easters bring wind-driven rain and occasional hail that test the wind resistance ratings of every shingle tab and flashing seal. Livingston\'s mature tree canopy, while beautiful, creates additional challenges including leaf debris accumulation in valleys and gutters, branch impact damage during storms, and shading patterns that promote moss and algae growth. Our maintenance programs address these tree-related factors through scheduled debris removal, branch clearance recommendations, and zinc strip installations that prevent biological growth from degrading shingle surfaces.',
-        'Hail events, though less frequent than in the central states, do occur in the Livingston area during severe summer thunderstorms. Hail pitting on shingles accelerates granule loss and creates impact fractures in the fiberglass mat that lead to premature failure. We recommend Class 4 impact-resistant shingles for Livingston homeowners who want maximum storm protection, as these products carry documented hail resistance ratings and often qualify for insurance premium discounts of 10-28 percent. After significant hail events, we provide free damage assessments and insurance documentation for Livingston homeowners.',
-      ],
-    },
-    neighborhoods: [
-      { name: 'Collins Terrace', description: 'Established neighborhood with mature landscaping and mid-century colonials' },
-      { name: 'Northland', description: 'Classic split-level and ranch homes from the 1960s-70s development era' },
-      { name: 'South Orange Avenue Area', description: 'Mixed residential corridor with diverse housing styles' },
-      { name: 'Eisenhower Parkway', description: 'Commercial corridor with adjacent upscale residential developments' },
-      { name: 'Livingston Town Center', description: 'Newer mixed-use area with contemporary housing and retail' },
-      { name: 'Westminster', description: 'Established residential community with well-maintained family homes' },
-      { name: 'Heritage Hills', description: 'Planned development with HOA-governed architectural standards' },
-      { name: 'Beaumont Terrace', description: 'Quiet residential streets with a mix of original and renovated homes' },
-    ],
-    projectSpotlights: [
-      {
-        title: 'Split-Level Complete Roof System in Northland',
-        type: 'residential',
-        description:
-          'Full tear-off and replacement on a 1968 split-level featuring four intersecting roof planes, two dormers, and a problematic garage-to-house transition that had leaked for years. We installed GAF Timberline HDZ shingles with custom-fabricated step flashings and a redesigned valley system that eliminated the chronic water infiltration at the garage junction.',
-        details: [
-          'GAF Timberline HDZ Charcoal with Golden Pledge warranty',
-          'Custom step flashing at garage-house transition',
-          'Ice-and-water shield on all valleys, eaves, and rakes',
-          'Ridge vent replacement with proper baffling',
-        ],
-      },
-      {
-        title: 'Medical Office Complex on Eisenhower Parkway',
-        type: 'commercial',
-        description:
-          'TPO membrane installation on a 12,000 sq ft medical office building requiring zero disruption to patient operations. Work was phased over three weekends with temporary weatherproofing applied at each phase boundary, ensuring the building remained fully operational and weather-protected throughout the project.',
-        details: [
-          '60-mil TPO membrane with 20-year NDL warranty',
-          'Tapered insulation system for positive drainage',
-          'Phased installation over three weekends',
-          'HVAC curb reflashing and penetration detailing',
-        ],
-      },
-      {
-        title: 'Colonial Renovation Roof Integration in Heritage Hills',
-        type: 'residential',
-        description:
-          'A Heritage Hills colonial with a 2005 second-story addition was experiencing leaks at the transition between original 1972 construction and the newer framing. We stripped the entire roof, corrected the structural tie-in between old and new sections, and installed a unified CertainTeed Landmark Pro system that eliminated all transition-related leaks.',
-        details: [
-          'Structural sheathing repair at old-new transition',
-          'CertainTeed Landmark Pro Weathered Wood',
-          'Unified ventilation system across original and addition',
-        ],
-      },
-      {
-        title: 'Skylight Replacement and Energy Upgrade — Collins Terrace',
-        type: 'residential',
-        description:
-          'Full roof replacement on a Collins Terrace split-level combined with replacement of two 1980s-era skylights that had been leaking for years. The project included modern Velux low-E skylight units with proper step-and-counter flashing, R-49 blown-in attic insulation, and new seamless gutter system with leaf guard protection.',
-        details: [
-          'GAF Timberline HDZ Pewter Gray with Golden Pledge warranty',
-          'Two Velux low-E skylights replacing deteriorated 1980s units',
-          'R-49 blown-in cellulose insulation eliminating ice dam conditions',
-          'New 6-inch seamless aluminum gutters with leaf guard system',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: 'How do you handle HOA approval for roofing projects in Livingston developments?',
-        answer: 'We manage the entire HOA approval process for homeowners in Heritage Hills and other governed communities. This includes submitting material samples, color specifications, manufacturer documentation, and contractor credentials directly to the architectural review committee. We maintain records of approved materials for each HOA we work with, streamlining the process for subsequent homeowners in the same community.',
-      },
-      {
-        question: 'What roof systems work best for Livingston\'s split-level homes?',
-        answer: 'Livingston\'s split-levels perform best with architectural laminate shingles like GAF Timberline HDZ, which provide superior wind resistance on the multiple low-slope planes typical of split-level design. We install ice-and-water shield on all eaves and valleys, which is critical for these homes because the complex roofline transitions create multiple potential leak points. Proper ridge and soffit ventilation is equally important to prevent ice dams on the shallow-pitch sections.',
-      },
-      {
-        question: 'Can you work on commercial buildings along Eisenhower Parkway without disrupting tenants?',
-        answer: 'Yes. Our commercial division specializes in occupied-building installations. We develop detailed phasing plans that isolate work areas, apply temporary weatherproofing at each phase boundary, and schedule high-noise activities during off-hours. For medical and professional offices, we coordinate directly with property managers to avoid disruption during peak business hours.',
-      },
-      {
-        question: 'How long does a typical roof replacement take in Livingston?',
-        answer: 'Most residential roof replacements in Livingston complete in 2-3 days for standard split-levels and colonials. Larger homes with complex rooflines, dormers, or additions may require 3-5 days. We provide a specific timeline during the estimate based on your home\'s size, complexity, and any structural work needed. Commercial projects are scheduled on a project-by-project basis depending on building size and phasing requirements.',
-      },
-      {
-        question: 'Do you offer financing for Livingston homeowners?',
-        answer: 'We offer multiple financing options including 12-month same-as-cash and extended payment plans through our lending partners. Many Livingston homeowners also use home equity lines for roof investments, and we provide the detailed documentation needed for loan applications, including material specifications, warranty details, and before/after condition reports.',
-      },
-      {
-        question: 'What maintenance do you recommend for homes with heavy tree coverage?',
-        answer: 'Livingston\'s mature tree canopy requires semi-annual gutter cleaning in spring and fall, annual roof inspections to check for branch impact damage and biological growth, and periodic zinc strip installation or replacement to prevent moss and algae buildup. We recommend trimming branches to maintain at least 6 feet of clearance from the roof surface to reduce debris accumulation and prevent direct abrasion damage during windstorms.',
-      },
-    
-      {
-        question: 'How much does roofing cost in Livingston, NJ?',
-        answer: 'Most roof repairs in Livingston range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
-      },
-    ],
-    whyChoose: {
-      heading: 'Why Livingston Residents Choose Newark Quality Roofing',
-      reasons: [
-        {
-          title: 'Split-Level Specialists',
-          description:
-            'We replace roofs on Livingston\'s split-level homes and understand the complex flashing, valley, and ventilation requirements these designs demand.',
-        },
-        {
-          title: 'HOA Navigation',
-          description:
-            'We handle the full HOA approval process in governed communities, submitting materials, specifications, and contractor documentation directly to architectural review committees.',
-        },
-        {
-          title: 'Commercial Capability',
-          description:
-            'Our commercial division serves Eisenhower Parkway and Route 10 businesses with the equipment, certifications, and phased scheduling that occupied-building projects require.',
-        },
-        {
-          title: 'Renovation Integration',
-          description:
-            'We specialize in integrating roof systems where additions and expansions meet original construction, eliminating the transition leaks that plague renovated homes.',
-        },
-        {
-          title: 'Local Knowledge',
-          description:
-            'Our Livingston service means we know the township\'s housing stock, permit requirements, and weather patterns intimately.',
-        },
-      ],
-    },
-    metaTitle: 'Roofing Services in Livingston, NJ | Newark Quality Roofing',
-    metaDescription:
-      'Expert roofing in Livingston, NJ. Split-level specialists, HOA-approved installations, and commercial roofing along Eisenhower Parkway. Free estimates.',
-    pricing: {
-      averageRepair: '$350–$1,500',
-      averageReplacement: '$8,500–$25,000',
-      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Livingston.',
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'Fully Insured & Bonded',
-      'Family-Owned & Local',
+// ─── Livingston ───
+{
+  cityId: 'livingston',
+  directAnswer:
+    `Newark Quality Roofing provides roofing across **Livingston** and **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the township's split-levels, ranches, and colonials and its Route 10 commercial buildings as a New Jersey Home Improvement Contractor.`,
+  heroHeadline: `Roofing in Livingston, NJ`,
+  heroSubheadline:
+    `Newark Quality Roofing repairs and replaces roofs across the Township of Livingston, from tree-shaded post-WWII split-levels, raised ranches, and center-hall colonials to the flat-roofed Route 10 shopping corridor, the Eisenhower Parkway office and medical parks, the Livingston Town Center, and the Cooperman Barnabas Medical Center campus, as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
+  overview: [
+    `Roofing in Livingston faces 3 main stressors: **mature street-tree canopy** clogging valleys and gutters, **aging mid-century covering** at end of life on the older blocks, and **flashing failure** at chimneys, walls, valleys, and addition transitions across the township.`,
+    `**Mature street-tree canopy** drives the most frequent Livingston roofing problem, because a heavy oak and maple canopy shades the township's established post-WWII residential sections and drops leaf load and broken branches that collect in valleys and gutters. Valley and gutter blockage backs water under the roof covering and rots the fascia, soffit, and decking, while shade on north-facing slopes feeds the moss and algae that lift the shingle edges and accelerate granule loss on a tree-shaded Livingston slope.`,
+    `**Aging mid-century covering** carries the second stressor, because Livingston's population grew sharply after World War II and peaked in 1970, per Wikipedia, consistent with the split-levels, raised ranches, bi-levels, and center-hall colonials on the township's older blocks, so a covering at or past its service life curls, loses granules, and opens at the flashing. Architectural asphalt lasts 30 years and 3-tab 20 years, per the InterNACHI life-expectancy chart, and a covering near the end of that range admits water at the worn shingle and flashing details first.`,
+    `**Flashing failure** closes the set on every sealed roof detail, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing and only 5 to 10% at the open shingle field, an industry estimate attributed to the NRCA. Each chimney, wall, valley, and dormer transition on a Livingston home relies on one continuous metal flashing line that nor'easter wind and freeze-thaw cycling fatigue first, and a 1990s-to-2000s addition multiplies that risk where a new roof plane meets the original framing, so a Newark Quality Roofing repair traces a leak to the failed valley, chimney, wall, or addition-transition flashing before sealing the visible drip point.`,
+  ],
+  residential: {
+    heading: `Livingston Residential Roofing`,
+    content: [
+      `Newark Quality Roofing repairs and replaces residential roofs across Livingston, installing **asphalt shingles** on the township's post-WWII split-levels, raised ranches, bi-levels, and colonials and restoring **natural slate, metal, and copper** on its larger and newer luxury homes.`,
+      `**Asphalt shingles** cover the split-levels, raised ranches, bi-levels, and center-hall colonials that fill Livingston's established residential streets, where 88.9% of housing units are owner-occupied across 10,719 total housing units, per the U.S. Census Bureau, and architectural shingles last 30 years and 3-tab shingles 20 years, per the InterNACHI life-expectancy chart. A Livingston asphalt re-roof strips the covering to the deck, replaces deteriorated sheathing exposed at tear-off, and installs an ice barrier — the self-adhered membrane run from the eave to at least 24 inches inside the exterior wall line that blocks ice-dam backup, per the IRC R905.1.2 ice-barrier provision, unlike field underlayment, which only sheds wind-driven rain — and runs a magnet sweep for nails before the crew leaves the property.`,
+      `**Natural slate, metal, and copper** clad Livingston's larger period homes and the new luxury and teardown-rebuild construction, where natural slate lasts 60 to 150 years, metal 40 to 80 years, and copper 70 years or more, per the InterNACHI life-expectancy chart, and natural slate fails at corroded fasteners and degraded valley and chimney flashing before the tile itself. Newark Quality Roofing replaces broken slate tile by tile with non-ferrous copper or stainless slater's nails, per NPS Preservation Brief 29, and fabricates copper valley and step flashing while the deck and nailers stay sound, and installs standing-seam metal that runs continuous from ridge to eave and conceals the fasteners, the restoration and metal work that preserve the original roof rather than replacing the field.`,
     ],
   },
+  commercial: {
+    heading: `Livingston Commercial Roofing`,
+    content: [
+      `Newark Quality Roofing services commercial **low-slope roofs** across Livingston's large commercial and medical market, installing and repairing **EPDM, TPO, and modified-bitumen membranes** on the Route 10 corridor, the Eisenhower Parkway office and medical parks, and the Cooperman Barnabas campus.`,
+      `**Low-slope roofs** define the commercial stock, because Livingston carries one of Essex County's largest flat-roof markets along the Route 10 shopping corridor, the Eisenhower Parkway office and medical parks, the South Livingston Avenue corridor, Mount Pleasant Avenue, and the Cooperman Barnabas Medical Center campus, formerly Saint Barnabas, a 597-bed teaching hospital. A Livingston low-slope roof requires at least one-quarter inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing scope grades the deck to drain and rebuilds flashing at parapets and rooftop penetrations.`,
+      `**EPDM, TPO, and modified-bitumen membranes** carry those flat decks, where EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and EPDM fails most often at the seams while TPO fails at the welded seams, so a Newark Quality Roofing membrane install reseals or replaces those laps first. A modified-bitumen system is a multi-ply asphalt membrane reinforced with polymer, an alternative to single-ply EPDM and TPO on the large retail, office, and medical decks. A commercial, multi-family, or attached building crosses into permit territory once roof work exceeds 25% of the roof area within 12 months, per the NJ Uniform Construction Code, filed with the Township of Livingston Building Department at 357 South Livingston Avenue, so Newark Quality Roofing files the permit on the corridor and campus roofs that cross the 25% threshold.`,
+    ],
+  },
+  weatherChallenges: {
+    heading: `How Does Livingston Weather Affect Your Roof?`,
+    content: [
+      `Livingston weather loads a roof with **snow**, **freeze-thaw cycling**, **nor'easter wind**, and **summer storms**, the 4 stressors that fatigue Livingston flashing, sealant laps, and fasteners across the year.`,
+      `**Snow** accumulates at roughly 31.5 inches per year, per NOAA 1991–2020 normals at Newark Liberty (EWR), adding water load to the township's flat commercial and medical roofs and feeding the meltwater that drives ice-dam backup at the eaves of the single-family homes. **Freeze-thaw cycling** follows, because Livingston crosses 32 degrees Fahrenheit repeatedly through winter on the same Newark/EWR baseline, and trapped meltwater expands on freezing and widens cracks in the sealant laps that seal the chimneys, walls, and valleys, while the shared baseline carries a ground snow load near Pg 25 psf under ASCE 7-16 as adopted by the NJ Uniform Construction Code.`,
+      `**Nor'easter wind** hits the roof edge and ridge October through April, with northern New Jersey carrying an ASCE 7-16 basic design wind speed near 110 to 115 mph for typical buildings, per ASCE 7-16 as adopted by the NJ Uniform Construction Code, and uplift concentrates first at the roof edges, rakes, and corners. **Summer storms** close the cycle, with roughly 25 to 30 thunderstorms per year, per NOAA, driving wind gusts and wind-driven rain that strip shingles, snap canopy branches onto Livingston slopes, and load the gutters and low-slope drains that carry the runoff off the roof.`,
+    ],
+  },
+  neighborhoods: [
+    {
+      name: 'Riker Hill',
+      description:
+        `Riker Hill is a residential section on the eastern Riker Hill ridge in Livingston, an estate-style area of larger lots near open space and parks, with the 42-acre Riker Hill Art Park, a former Nike radar base now an Essex County art park, per Essex County Parks. Newark Quality Roofing repairs and replaces the asphalt, slate, and metal roofs and reseals valley and chimney flashing on the larger homes across the Riker Hill section, which sits on upland ground outside the western floodplain.`,
+    },
+    {
+      name: 'Collins and Burnet Hill',
+      description:
+        `Collins, around Collins Elementary, and Burnet Hill are established Livingston residential sections of post-WWII split-levels, raised ranches, and colonials on tree-shaded streets. Newark Quality Roofing reroofs the asphalt-shingle homes and clears mature-canopy leaf and branch debris from valleys and gutters across the Collins and Burnet Hill sections.`,
+    },
+    {
+      name: 'Hillside, Broadlawn, and Bel Air',
+      description:
+        `Hillside, Broadlawn, and Bel Air are recurring Livingston residential section labels of mid-century single-family homes under the township's established street-tree canopy. Newark Quality Roofing repairs and replaces the aging asphalt-shingle roofs and reseals the chimney, wall, and valley flashing on the homes across the Hillside, Broadlawn, and Bel Air sections.`,
+    },
+    {
+      name: 'Laurel Hills and Chestnut Hill',
+      description:
+        `Laurel Hills and Chestnut Hill are named Livingston residential sections of post-WWII suburban single-family stock now joined by newer luxury and teardown-rebuild construction. Newark Quality Roofing reroofs the colonials, split-levels, and new luxury homes and restores slate and copper detailing where the larger homes call for it across the Laurel Hills and Chestnut Hill sections.`,
+    },
+    {
+      name: 'Route 10 shopping corridor',
+      description:
+        `The Route 10 shopping corridor is Livingston's principal flat-roof retail belt, a dense line of shopping centers and big-box and strip retail extending east toward East Hanover. Newark Quality Roofing installs and reseals EPDM, TPO, and modified-bitumen membranes, grades the decks to drain, and rebuilds parapet flashing on the low-slope commercial roofs along the Route 10 shopping corridor.`,
+    },
+    {
+      name: 'Eisenhower Parkway office and medical parks',
+      description:
+        `Eisenhower Parkway, on the township's western side, holds Livingston's office and medical parks, a cluster of flat-roofed professional, corporate, and medical buildings. These buildings carry low-slope EPDM, TPO, and modified-bitumen roofs that require permits, where Newark Quality Roofing reseals seams, grades the decks to drain, and rebuilds parapet and penetration flashing.`,
+    },
+    {
+      name: 'Livingston Town Center and Livingston Mall area',
+      description:
+        `The Livingston Town Center and Livingston Mall area in the township's southwestern corner is a retail and mixed-use district of large flat-roofed commercial buildings near the South Livingston Avenue and Mount Pleasant Avenue corridors. Newark Quality Roofing installs and replaces the low-slope membranes and rebuilds the parapet and rooftop-penetration flashing on the commercial roofs across the Livingston Town Center and Livingston Mall area.`,
+    },
+    {
+      name: 'Cooperman Barnabas Medical Center campus',
+      description:
+        `The Cooperman Barnabas Medical Center campus, formerly Saint Barnabas Medical Center on Old Short Hills Road, is a 597-bed teaching hospital and one of Livingston's largest institutional flat-roof properties. Newark Quality Roofing services low-slope EPDM, TPO, and modified-bitumen roof sections, grades the decks to positive drainage, and rebuilds flashing at parapets and rooftop mechanical penetrations on institutional buildings of this scale.`,
+    },
+    {
+      name: 'Passaic River and West Essex Park western edge',
+      description:
+        `Livingston's western municipal edge runs along the Passaic River, where West Essex Park, a roughly 1,360-acre Essex County Passaic-River wetlands greenway ending just beyond South Orange Avenue in Livingston, per Essex County Parks, and a localized FEMA Special Flood Hazard Area following the Passaic and Willow Brook sit on the low-lying western side. Newark Quality Roofing grades low-slope decks to drain and rebuilds flashing, gutters, and downspouts on the lower-lying parcels nearest the Passaic River and Willow Brook western edge.`,
+    },
+  ],
+  projectSpotlights: [
+    {
+      title: 'Split-Level & Raised-Ranch Asphalt Re-Roof',
+      type: 'residential',
+      description:
+        `A split-level or raised-ranch asphalt re-roof on a Livingston home strips the aging covering to the deck, replaces deteriorated sheathing exposed at tear-off, and installs an architectural shingle system with an ice barrier at the eaves and new flashing at every chimney, wall, dormer, and valley transition. A detached one- or two-family reroof counts as no-permit ordinary maintenance under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.`,
+      details: [
+        `Full tear-off to the deck with deteriorated sheathing replaced`,
+        `Architectural asphalt shingles at a 30-year service life, per the InterNACHI life-expectancy chart`,
+        `Ice-and-water shield from the eave to at least 24 inches inside the exterior wall line, per the IRC R905.1.2 provision`,
+        `Magnet sweep for nails and full debris cleanup before leaving the property`,
+      ],
+    },
+    {
+      title: 'Addition Transition-Flashing Rebuild',
+      type: 'residential',
+      description:
+        `An addition transition-flashing rebuild on a Livingston colonial or split-level addresses the old-versus-new roof-plane transition where a 1990s-to-2000s addition meets the original framing, rebuilding step and counter-flashing along the new wall and valley lines and integrating the addition roof with the original covering. Roughly 90 to 95% of roof leaks originate at flashing, an industry estimate attributed to the NRCA, so the rebuild seals the transition the addition created.`,
+      details: [
+        `New step and counter-flashing where the addition roof plane meets the original wall`,
+        `Rebuilt valley flashing at the old-versus-new roof-plane transition`,
+        `Ice-and-water shield at the reworked eaves and valleys, per the IRC R905.1.2 provision`,
+        `Covering integrated and matched across the original roof and the addition`,
+      ],
+    },
+    {
+      title: 'Route 10 & Eisenhower Parkway Low-Slope Membrane Replacement',
+      type: 'commercial',
+      description:
+        `A low-slope membrane replacement on a Livingston Route 10 retail, Eisenhower Parkway office, or medical-park building strips the existing roof, repairs the deck, and installs an EPDM, TPO, or modified-bitumen system graded to drain, then rebuilds flashing at parapets and rooftop HVAC penetrations. A commercial roof exceeding 25% of the roof area in 12 months requires a permit under N.J.A.C. 5:23-2.7, filed with the Township of Livingston Building Department at 357 South Livingston Avenue.`,
+      details: [
+        `EPDM, TPO, or modified-bitumen single-ply or multi-ply membrane`,
+        `At least one-quarter inch per foot of slope to drain, with ponding over 48 hours counted as a defect, per the NRCA and ARMA`,
+        `New flashing at parapets, drains, scuppers, and rooftop HVAC penetrations`,
+        `Permit filed with the Township of Livingston Building Department for work over the 25% threshold`,
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Do you need a permit to replace a roof in Livingston, NJ?',
+      answer:
+        `A complete re-roof of the roof covering on a detached one- or two-family home in Livingston counts as **ordinary maintenance** under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Township of Livingston Building Department at 357 South Livingston Avenue once roof work exceeds 25% of the roof area in 12 months, and so does any structural change to rafters or trusses, a threshold that reaches the township's large Route 10, Eisenhower Parkway, and Cooperman Barnabas commercial stock.`,
+    },
+    {
+      question: 'Does a historic designation restrict roofing work in Livingston, NJ?',
+      answer:
+        `Livingston has designated **no local historic district or landmark requiring a Certificate of Appropriateness**, so a homeowner's reroof in Livingston needs no historic-board approval. Livingston's Master Plan Historic Preservation Plan Element only recommends that the township consider adopting preservation provisions, an unadopted voluntary measure, and the code §170-3 "Historic site" definition and the 38 Master-Plan-identified sites are planning identifications, not reroof gates. The Force Homestead on South Livingston Avenue, a township-owned, Register-listed museum closed since 2023 for restoration, imposes no rule on a private owner, because per the National Park Service, Register listing alone places no restriction on a private property owner.`,
+    },
+    {
+      question: 'How much does a roof cost in Livingston, NJ?',
+      answer:
+        `A **roof replacement** in New Jersey costs **$10,000–$25,000** for a typical home and a **roof-leak repair $400–$1,000**, per HomeAdvisor and Modernize NJ cost data. A large flat commercial membrane on a Route 10 or Eisenhower Parkway building and a natural slate roof on a larger home both cost more than an asphalt re-roof, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Final cost depends on roof size, pitch, material, and access, and Newark Quality Roofing provides a free written estimate for every Livingston property.`,
+    },
+    {
+      question: 'What roofing material works best for a Livingston property?',
+      answer:
+        `**Asphalt shingles** suit Livingston's split-levels, raised ranches, bi-levels, and colonials, with architectural asphalt at a 30-year service life and 3-tab at 20 years, per the InterNACHI life-expectancy chart. The larger and newer luxury homes carry **natural slate** at 60 to 150 years, **metal** at 40 to 80 years, and **copper** at 70 years or more, per the same chart, and a flat Route 10 or Eisenhower Parkway commercial building carries an EPDM, TPO, or modified-bitumen membrane at 7 to 25 years, so Newark Quality Roofing repairs and replaces every one of these coverings across Livingston.`,
+    },
+    {
+      question: 'What roofing problems are most common on Livingston homes?',
+      answer:
+        `Livingston homes most often face **mature-tree-canopy debris** clogging valleys and gutters, **aging mid-century covering** at end of life on the older blocks, and **flashing failure** at chimneys, walls, valleys, and addition transitions. Flashing failure causes roughly 90 to 95% of the resulting leaks, an industry estimate attributed to the NRCA, while only 5 to 10% trace to the open shingle field. Livingston's population grew sharply after World War II and peaked in 1970, per Wikipedia, consistent with its older split-level and ranch stock.`,
+    },
+    {
+      question: 'Does the western-edge floodplain affect a Livingston roof?',
+      answer:
+        `The **Passaic River and Willow Brook floodplain** runs along Livingston's western, low-lying municipal edge only, where a localized FEMA Special Flood Hazard Area follows the Passaic and Willow Brook, per the FEMA Flood Insurance Study for Essex County and the Essex County Multi-Jurisdictional Hazard Mitigation Plan, which names Willow Brook in Livingston. A low-slope roof on the riverine western side requires positive drainage and sound flashing, because a deck holding ponding water more than 48 hours counts as a defect, per the NRCA and ARMA, while the upland eastern sections such as Riker Hill sit outside the floodplain, so Newark Quality Roofing grades decks to drain and rebuilds gutters and downspouts on the western-edge parcels.`,
+    },
+    {
+      question: 'Does homeowners insurance cover roof damage in Livingston?',
+      answer:
+        `Homeowners insurance covers Livingston roof damage when a **covered peril** causes the damage, such as **wind, hail, or a falling tree branch**, and excludes damage from normal wear, age, or deferred maintenance. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute, and a tree-shaded Livingston home faces falling-branch impact during nor'easters and summer storms. Newark Quality Roofing documents the damage with timestamped photographs for the adjuster.`,
+    },
+    {
+      question: 'How long does a slate roof last on a Livingston home?',
+      answer:
+        `A **natural slate** roof lasts 60 to 150 years, per the InterNACHI life-expectancy chart, and slate rarely fails as a tile, instead failing at corroded fasteners and degraded valley and chimney flashing. NPS Preservation Brief 29 advises replacing a full slope rather than executing individual repairs once 20% or more of the slates are broken, cracked, missing, or sliding, so Newark Quality Roofing replaces fasteners and flashing and swaps broken tiles below that threshold to hold the original roof.`,
+    },
+  ],
+  whyChoose: {
+    heading: `Why Livingston Property Owners Choose Newark Quality Roofing`,
+    reasons: [
+      {
+        title: 'NJ Home Improvement Contractor',
+        description:
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Livingston under the Contractors' Registration Act.`,
+      },
+      {
+        title: 'Fully Insured and Bonded',
+        description:
+          `Newark Quality Roofing carries the commercial general liability coverage the Contractors' Registration Act requires of a registered New Jersey Home Improvement Contractor, a $500,000 per-occurrence minimum under N.J.S.A. 56:8-142.`,
+      },
+      {
+        title: 'Residential and Commercial Coverage',
+        description:
+          `Newark Quality Roofing reroofs the split-levels, raised ranches, and colonials that fill Livingston's residential streets and installs the EPDM, TPO, and modified-bitumen membranes on the large flat roofs along the Route 10 corridor, the Eisenhower Parkway office and medical parks, and the Cooperman Barnabas Medical Center campus, covering both the residential and large commercial-medical markets that define the township.`,
+      },
+      {
+        title: 'Western-Edge and Low-Slope Drainage Work',
+        description:
+          `Newark Quality Roofing grades low-slope decks to positive drainage and rebuilds flashing, gutters, and downspouts on the lower-lying parcels along the Passaic River and Willow Brook western edge, carrying storm water off the roof before it backs up under the covering.`,
+      },
+      {
+        title: 'Family-Owned and Local to Essex County',
+        description:
+          `Newark Quality Roofing operates from Newark and serves Essex County, including Livingston and the bordering Roseland, West Orange, and Millburn, working the post-WWII single-family stock and the large commercial and medical roofs that define the Township of Livingston.`,
+      },
+      {
+        title: 'Free Roof Inspections and Written Estimates',
+        description:
+          `Newark Quality Roofing provides a free roof inspection that traces a leak to the source flashing, slate, shingle, or membrane detail, and a free written estimate before any Livingston repair or replacement begins.`,
+      },
+    ],
+  },
+  metaTitle: `Roofing in Livingston, NJ | Newark Quality Roofing`,
+  metaDescription:
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Livingston and Essex County. NJ HIC licensed, insured. Free estimate.`,
+  pricing: {
+    averageRepair: `$400–$1,000`,
+    averageReplacement: `$10,000–$25,000`,
+    note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and a large flat commercial membrane or a natural slate roof costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
+  },
+  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+},
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  // MILLBURN
-  // ═══════════════════════════════════════════════════════════════════════════
-  {
-    cityId: 'millburn',
-    heroHeadline: 'Roofing Services in Millburn, NJ',
-    heroSubheadline:
-      'Slate restoration, copper flashing, and architect-specified installations for Millburn\'s most distinguished estates. Newark Quality Roofing delivers the premium craftsmanship that Short Hills and Millburn Village properties demand.',
-    overview: [
-      'Millburn Township occupies a singular position in New Jersey\'s residential landscape, encompassing both the charming downtown village of Millburn proper and the legendary Short Hills section, one of the most affluent residential communities in the northeastern United States. The township\'s housing stock represents an extraordinary collection of architectural achievement spanning more than a century, from grand Tudor Revival and Arts and Crafts estates built during the Gilded Age and early twentieth century to meticulously designed contemporary residences that push the boundaries of modern residential architecture. Properties here routinely exceed one million dollars in value, with estates in the most prestigious sections of Short Hills commanding prices well into the multi-million dollar range. This is a community where roofing is not merely a functional necessity but an integral expression of architectural vision and property stewardship.',
-      'Newark Quality Roofing\'s relationship with Millburn Township reflects our commitment to serving communities where excellence is the baseline expectation. We understand that homeowners in Short Hills and Millburn Village have chosen their properties not just for location and school district, but for architectural character, design integrity, and the enduring quality that distinguishes truly fine residential construction. Our roofing services in Millburn are calibrated to this standard, from the materials we specify to the installation techniques we employ to the level of communication and project management we deliver throughout every engagement.',
-      'The architectural diversity within Millburn demands a roofing contractor with genuinely broad technical capability. Natural slate roofs on Tudor and Arts and Crafts estates require craftsmen who understand slate grading, hook installation, headlap calculation, and the copper flashing details that complement slate\'s century-plus lifespan. Custom clay and concrete tile installations on Mediterranean and Spanish Colonial Revival homes demand experience with underlayment systems, battened installations, and the structural requirements of heavy tile roofs. Even the township\'s contemporary architectural shingle installations expect precision detailing, color coordination with architect specifications, and warranty programs that match the investment Millburn homeowners make in their properties.',
-      'Beyond residential excellence, Millburn\'s commercial landscape includes the iconic Mall at Short Hills, Millburn\'s downtown retail and restaurant district, professional offices, and institutional buildings including houses of worship and educational facilities. Our commercial division brings the same commitment to premium quality that distinguishes our residential work, applying it to the specialized flat-roof systems, metal standing seam installations, and large-scale re-roofing projects that commercial properties require.',
-      'Insurance considerations are paramount for Millburn properties where roof replacement costs can reach six figures. Standard homeowner policies often cap roofing coverage at amounts insufficient for natural slate, copper, or specialty metal installations. We provide detailed replacement cost documentation that supports accurate policy riders and endorsements, ensuring Millburn homeowners carry adequate coverage for their premium roofing systems. When storm damage occurs, our insurance coordination team provides the specialized documentation — including material specifications, quarry identification for slate, and custom fabrication estimates for copper — that ensures claim settlements reflect actual replacement costs rather than generic commodity pricing.',
-    ],
-    residential: {
-      heading: 'Estate-Quality Residential Roofing in Millburn & Short Hills',
-      content: [
-        'Residential roofing in Millburn Township requires a fundamentally different approach than standard suburban roof replacement. The homes here were designed by architects, built by master craftsmen, and maintained by homeowners who understand that every visible element contributes to the property\'s character and value. Our residential roofing services in Millburn begin with a detailed architectural assessment that considers not just the roof\'s functional requirements but its role in the home\'s overall design language. We evaluate sight lines from the street, the interplay between roof color and facade materials, the historical appropriateness of material choices, and the engineering requirements of the existing roof structure before making any material recommendations.',
-        'For Millburn\'s significant inventory of natural slate roofs, we maintain a dedicated slate restoration crew trained in traditional installation methods. Slate roofing is our most technically demanding residential service, requiring the ability to match replacement slates to existing installations in color, thickness, and texture. We source domestic and imported slates from quarries producing material compatible with the Vermont, Pennsylvania, and Welsh slates originally specified on many Short Hills estates. Our copper work includes hand-fabricated flashings, custom valley liners, decorative ridge caps, and the ornamental copperwork details that distinguish high-end slate installations.',
-        'The Wyoming section, Glenwood, and other Short Hills neighborhoods feature homes where roof design is inseparable from architectural identity. Tudor Revival homes with steeply pitched gables and decorative half-timbering require roofing materials that honor the medieval English aesthetic, whether through genuine slate, synthetic slate alternatives rated for the same visual profile, or ultra-premium architectural shingles in textures that complement timber and stucco facades. Arts and Crafts bungalows and Craftsman homes demand roofing selections that reflect the movement\'s emphasis on natural materials, handcrafted details, and integration with the landscape. Our design consultation process ensures every material choice reinforces rather than detracts from these carefully articulated architectural visions.',
-        'For newer construction and contemporary renovations, we install the highest tier of architectural shingle systems, standing seam metal roofing in architecturally specified colors and profiles, and composite slate and shake products that deliver traditional aesthetics with enhanced performance characteristics. These installations receive the same meticulous attention to detail as our slate and copper work, including precision starter course alignment, machine-straight rake edges, and flashing details that exceed manufacturer requirements.',
-      ],
-    },
-    commercial: {
-      heading: 'Commercial Roofing for Millburn\'s Premium Properties',
-      content: [
-        'Millburn\'s commercial real estate demands roofing services that match the township\'s reputation for quality and distinction. The downtown Millburn shopping district features boutique retail and acclaimed restaurants housed in architecturally significant buildings where roof aesthetics are visible from street level and contribute directly to the district\'s upscale character. Our commercial work in this district balances functional roofing requirements with the aesthetic standards that Millburn\'s planning board and business community expect, selecting materials and installation methods that enhance rather than diminish the streetscape.',
-        'Institutional properties in Millburn, including the renowned Paper Mill Playhouse, houses of worship, and educational facilities, present specialized roofing challenges that combine large footprints with architectural significance. These buildings often feature complex roof geometries, historically significant roofing materials, and community visibility that makes every installation decision consequential. Our institutional roofing team approaches these projects with the same care we bring to estate residential work, developing detailed project plans that address structural requirements, material authenticity, phased scheduling around building operations, and the community engagement that visible institutional projects naturally attract.',
-        'Professional office buildings and medical practices throughout the township rely on our commercial maintenance programs to protect their investments and maintain the professional appearance that Millburn\'s business community expects. Our commercial clients receive dedicated account management, scheduled maintenance with detailed reporting, and priority emergency response that minimizes the business disruption that roof failures inevitably cause.',
-      ],
-    },
-    weatherChallenges: {
-      heading: 'Protecting Millburn\'s Architectural Heritage from Weather',
-      content: [
-        'Millburn\'s position in the Watchung Mountain foothills creates localized weather patterns that amplify the standard northeastern climate challenges. Elevation changes across the township produce microclimates where snowfall and ice accumulation vary measurably between neighborhoods, requiring roof system designs calibrated to specific site conditions rather than generic regional specifications. The mature tree canopy throughout Short Hills and Millburn Village adds seasonal maintenance demands including leaf and needle debris management, branch impact protection, and the moisture-retention issues that dense shade creates on north-facing roof slopes.',
-        'The township\'s concentration of premium roofing materials, particularly natural slate and custom copper, requires weather response capabilities that go beyond standard emergency repair. When a winter storm dislodges slate tiles or wind lifts a copper ridge section, the response must be technically accurate as well as timely. Our emergency crew carries matching slate stock, copper sheet, and the specialized tools needed to execute proper repairs rather than temporary patches that could damage historic roofing materials or create aesthetic inconsistencies on homes where every detail matters.',
-      ],
-    },
-    neighborhoods: [
-      { name: 'Short Hills', description: 'Legendary estate section with grand Tudor, Colonial, and contemporary residences' },
-      { name: 'Wyoming', description: 'Short Hills neighborhood with architect-designed homes and mature landscapes' },
-      { name: 'Glenwood', description: 'Prestigious residential enclave featuring Arts and Crafts and Tudor Revival homes' },
-      { name: 'Millburn Village', description: 'Charming downtown area with historic homes and walkable retail district' },
-      { name: 'South Mountain', description: 'Elevated neighborhood with mountain views and substantial family homes' },
-      { name: 'White Oak Ridge', description: 'Established residential streets with well-maintained colonials and split-levels' },
-      { name: 'Old Short Hills', description: 'Historic core of Short Hills with original estate properties and grand architecture' },
-      { name: 'Hartshorn', description: 'Distinguished neighborhood named for Short Hills founder Stewart Hartshorn' },
-      { name: 'Deerfield', description: 'Family-oriented section near Deerfield School' },
-    ],
-    projectSpotlights: [
-      {
-        title: 'Tudor Estate Slate Restoration in Old Short Hills',
-        type: 'residential',
-        description:
-          'Complete slate roof restoration on a 1924 Tudor Revival estate requiring 4,200 square feet of Vermont Unfading Green slate matched to the original installation. The project included hand-fabricated copper valleys, custom ridge caps with cresting, and restoration of four decorative chimney flashing assemblies with copper counter-flashings set into repointed mortar joints.',
-        details: [
-          'Vermont Unfading Green slate, 3/16" standard thickness',
-          'Hand-fabricated 20-oz copper valleys and ridge caps',
-          'Chimney flashing restoration with copper counter-flashings',
-          'Full ice-and-water shield underlayment system',
-        ],
-      },
-      {
-        title: 'Contemporary Standing Seam on Wyoming Section New Build',
-        type: 'residential',
-        description:
-          'Architect-specified standing seam metal roof on a contemporary new construction home in the Wyoming section. The installation featured Zinc-Grey Galvalume panels with concealed fasteners, custom-fabricated transitions at multiple roof-plane intersections, and integrated snow retention systems designed to protect the landscape plantings below.',
-        details: [
-          'Galvalume standing seam, Zinc-Grey finish, 16" panel width',
-          'Concealed fastener system with thermal expansion clips',
-          'Custom-fabricated plane transitions and cricket details',
-          'ColorGard snow retention system',
-        ],
-      },
-      {
-        title: 'Paper Mill Playhouse Area Commercial Restoration',
-        type: 'commercial',
-        description:
-          'Full commercial re-roofing of a mixed-use building adjacent to the Paper Mill Playhouse district, requiring coordination with the township\'s historic preservation guidelines and phased installation around tenant operations. The project combined a TPO flat-roof system on the commercial section with architectural shingles on the visible residential-style facade sections.',
-        details: [
-          '80-mil TPO membrane on flat commercial sections',
-          'CertainTeed Grand Manor shingles on facade sections',
-          'Historic preservation compliance documentation',
-          'Phased installation with weekend scheduling',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: 'Do you have experience with slate roofs on historic Short Hills homes?',
-        answer: 'Slate roofing is one of our core specialties. We maintain a dedicated slate restoration crew trained in traditional installation methods, and we source domestic and imported slates from quarries producing material compatible with the Vermont, Pennsylvania, and Welsh slates originally specified on many Short Hills estates. Our copper fabrication capabilities allow us to produce the custom flashings, valleys, ridge caps, and ornamental details that proper slate restoration demands.',
-      },
-      {
-        question: 'Can you work with our architect on material specifications?',
-        answer: 'Absolutely. Many of our Millburn projects involve direct collaboration with architects and design professionals. We participate in material selection meetings, provide samples and mock-ups for review, and execute installations to the exact specifications provided. Our project managers understand architectural drawings and can translate design intent into precise roofing installations.',
-      },
-      {
-        question: 'What roofing materials do you recommend for Millburn\'s Tudor and Arts & Crafts homes?',
-        answer: 'For Tudor Revival homes, natural slate remains the gold standard, delivering authentic period aesthetics with a lifespan exceeding 100 years. For homeowners seeking alternatives, premium synthetic slates like DaVinci Roofscapes provide the visual profile at lower weight and cost. Arts and Crafts homes pair beautifully with cedar shake or high-end architectural shingles in earth tones that complement the movement\'s emphasis on natural materials. We evaluate each home individually and present options that honor its architectural heritage.',
-      },
-      {
-        question: 'How do you protect landscaping during roof work on estate properties?',
-        answer: 'Estate properties in Short Hills often feature professionally designed landscapes that represent significant investment. Our crews deploy ground-level protection including plywood walkways, tarped debris containment zones, and targeted placement of dump trailers to avoid lawn and garden damage. We photograph the landscape before work begins and restore any affected areas to pre-project condition. For properties with particularly sensitive plantings, we coordinate with the homeowner\'s landscaper.',
-      },
-      {
-        question: 'What is the cost range for a roof replacement in Millburn?',
-        answer: 'Roofing costs in Millburn vary significantly based on material selection. Architectural shingle installations typically range from $15,000 to $35,000 depending on home size and complexity. Synthetic slate and premium metal systems range from $30,000 to $60,000. Natural slate restorations on estate properties can range from $50,000 to $120,000 or more depending on scope and slate grade. We provide detailed written estimates with material specifications, warranty terms, and project timelines during our free consultation.',
-      },
-      {
-        question: 'Do you offer emergency repair services for storm damage in Millburn?',
-        answer: 'Yes. Our emergency response team is available for storm damage assessment and temporary protection. For Millburn properties with specialty roofing materials like slate and copper, our emergency crew carries matching materials and specialized tools to execute proper repairs rather than generic temporary patches. We also provide complete insurance documentation including detailed damage reports, photographic evidence, and contractor estimates formatted for streamlined claims processing.',
-      },
-    
-      {
-        question: 'How much does roofing cost in Millburn, NJ?',
-        answer: 'Most roof repairs in Millburn range from $350 to $1,500, while full replacements typically cost $8,500 to $25,000 depending on roof size, material chosen, and project complexity. Newark Quality Roofing provides free, detailed written estimates with no obligation. Call us today or fill out our online form to get your personalized quote.',
-      },
-    ],
-    whyChoose: {
-      heading: 'Why Millburn\'s Finest Properties Trust Newark Quality Roofing',
-      reasons: [
-        {
-          title: 'Slate & Copper Mastery',
-          description:
-            'Our dedicated slate restoration crew and in-house copper fabrication capabilities set us apart from general roofing contractors. We source premium slates and hand-fabricate every copper detail to match the craftsmanship of Millburn\'s original builders.',
-        },
-        {
-          title: 'Architect Collaboration',
-          description:
-            'We work directly with architects and design professionals on material selection, specification execution, and the precise installation details that architect-designed homes require.',
-        },
-        {
-          title: 'Estate-Level Project Management',
-          description:
-            'Our project management process is designed for high-value properties, including landscape protection, detailed scheduling, homeowner communication protocols, and post-installation documentation.',
-        },
-        {
-          title: 'Heritage Preservation',
-          description:
-            'We understand that roofing on historic homes is preservation work. Every material choice and installation detail is evaluated for its fidelity to the home\'s original architectural vision.',
-        },
-        {
-          title: 'Premium Material Access',
-          description:
-            'Our supplier relationships provide access to materials beyond standard distributor inventory, including quarry-direct slate, architectural-grade copper, and manufacturer-direct premium shingle lines.',
-        },
-        {
-          title: 'Insurance Documentation Expertise',
-          description:
-            'We provide detailed replacement cost documentation for Millburn\'s premium roofing systems, supporting accurate policy coverage and ensuring storm damage claims reflect actual costs for slate, copper, and specialty materials rather than commodity pricing.',
-        },
-      ],
-    },
-    metaTitle: 'Roofing Services in Millburn, NJ | Newark Quality Roofing',
-    metaDescription:
-      'Expert roofing in Millburn & Short Hills, NJ. Slate restoration, copper work, and architect-specified installations for estates. Free consultation.',
-    pricing: {
-      averageRepair: '$350–$1,500',
-      averageReplacement: '$8,500–$25,000',
-      note: 'Prices vary based on roof size, material, and project complexity. Call for your free personalized estimate in Millburn.',
-    },
-    credentialsHighlight: [
-      'NJ HIC Licensed',
-      'Fully Insured & Bonded',
-      'Family-Owned & Local',
+// ─── Millburn ───
+{
+  cityId: 'millburn',
+  directAnswer:
+    `Newark Quality Roofing provides roofing in **Millburn** and across **Essex County**, repairing and replacing **natural slate, copper, tile, and asphalt roofs** on the township's Short Hills estates, Tudor and Arts-and-Crafts homes, and downtown buildings as a New Jersey contractor.`,
+  heroHeadline: `Roofing in Millburn, NJ`,
+  heroSubheadline:
+    `Newark Quality Roofing repairs and replaces roofs across the Township of Millburn, including Short Hills, from century-old Tudor Revival, Arts-and-Crafts, and Colonial Revival estates in natural slate, copper, tile, and cedar to the downtown Millburn village and Mall at Short Hills commercial decks, as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
+  overview: [
+    `Roofing in Millburn faces 3 main stressors: **mature tree canopy** dropping debris into valleys and gutters, **Watchung-foothills ridge terrain** along South Mountain Reservation, and **flashing failure** on the slate, tile, and copper estate roofs behind most Millburn leaks.`,
+    `**Mature tree canopy** drives the most frequent Millburn roofing problem, because heavy oak and maple cover shades the township's wooded estate lots, the legacy of Stewart Hartshorn's 1877 Short Hills plan that left as many trees standing as possible and of the Cora Hartshorn Arboretum, and the canopy drops leaf load and broken branches that collect in valleys and gutters. Valley and gutter blockage backs water under the roof covering and rots fascia, soffit, and decking, while shade on north-facing slopes feeds the moss and algae that lift slate edges and accelerate granule loss on asphalt.`,
+    `**Watchung-foothills ridge terrain** carries the second stressor, because Millburn abuts South Mountain Reservation, a roughly 2,112-acre Essex County reservation between the First and Second Watchung ridges, per Essex County Parks, and the elevated ridge ground along the Short Hills side runs marginally cooler and snowier than the Newark lowland. A wooded reservation-edge slope catches storm wind and falling canopy ahead of a sheltered interior street, so snow load and ice-dam meltwater concentrate at the eaves of the ridge-side estates.`,
+    `**Flashing failure** closes the set on Millburn's slate, tile, and copper estate roofs, because the roofing industry estimates that roughly 90 to 95% of roof leaks originate at flashing and only 5 to 10% at the open shingle field, an industry estimate attributed to the NRCA. Each chimney, valley, dormer, and wall transition on a Short Hills high-style roof relies on one continuous metal flashing line that nor'easter wind and freeze-thaw fatigue first, so a Newark Quality Roofing repair diagnoses the failed valley, chimney, or copper flashing before sealing the visible drip point.`,
+  ],
+  residential: {
+    heading: `Millburn Residential Roofing`,
+    content: [
+      `Newark Quality Roofing repairs and replaces residential roofs across Millburn in 2 tracks: **natural slate, copper, tile, and cedar** restoration on the Short Hills Tudor and estate homes, and **asphalt shingles** on the Colonial Revivals and contemporary homes.`,
+      `**Natural slate, copper, tile, and cedar** detail the deep stock of early-20th-century high-style homes concentrated in Short Hills, where natural slate lasts 60 to 150 years, copper 70 years or more, clay and concrete tile 50 years or more, and cedar 20 to 40 years, per the InterNACHI life-expectancy chart, and natural slate fails at corroded fasteners and degraded valley and chimney flashing before the tile itself. Newark Quality Roofing replaces broken slate tile by tile with non-ferrous copper or stainless slater's nails and replaces a full slope only once 20% or more of the slate is broken, cracked, missing, or sliding, per NPS Preservation Brief 29, fabricates copper valleys and step flashing, and reroofs a red-cedar slope without copper nails, which corrode cedar, per NPS Preservation Brief 19, matching each covering in kind under Standard 6 of the Secretary of the Interior's Standards.`,
+      `**Asphalt shingles** cover Millburn's Colonial Revivals, downtown-village older homes, and contemporary luxury construction, where architectural shingles last 30 years and 3-tab shingles 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing re-roof replaces a covering near the end of that range. A Millburn asphalt re-roof strips the covering to the deck, replaces deteriorated sheathing exposed at tear-off, and installs an ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the IRC R905.1.2 ice-barrier provision — the self-adhered eave membrane that blocks ice-dam backup, unlike field underlayment, which only sheds wind-driven rain — and runs a magnet sweep for nails before the crew leaves the property.`,
     ],
   },
+  commercial: {
+    heading: `Millburn Commercial Roofing`,
+    content: [
+      `Newark Quality Roofing services commercial **low-slope roofs** across Millburn, installing and repairing **EPDM, TPO, and modified-bitumen membranes** on the downtown Millburn retail and restaurant district, the Mall at Short Hills, and professional offices.`,
+      `A Millburn commercial **low-slope roof** on the downtown Millburn village requires at least one-quarter inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing scope grades the deck to drain and rebuilds parapet, scupper, and penetration flashing where the Rahway River corridor floods. The downtown Millburn village sits on the Rahway River and has flash-flooded in Hurricane Floyd in 1999, Hurricane Irene in 2011, and the remnants of Hurricane Ida in 2021, so positive drainage and gutter, downspout, and scupper capacity carry storm water off the downtown decks, and a commercial, multi-family, or attached building crosses into permit territory once roof work exceeds 25% of the roof area in 12 months, per the NJ Uniform Construction Code, filed with the Township of Millburn Building Department.`,
+      `**EPDM, TPO, and modified-bitumen membranes** carry those flat decks, where EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, and EPDM fails most often at the seams while TPO fails at the welded seams, so a Newark Quality Roofing membrane install reseals or replaces those laps first. A modified-bitumen system is a multi-ply asphalt membrane reinforced with polymer, an alternative to single-ply EPDM and TPO on the parapet-edged decks of the downtown retail district, the Mall at Short Hills, and professional-office buildings.`,
+    ],
+  },
+  weatherChallenges: {
+    heading: `How Does Millburn Weather and Ridge Terrain Affect Your Roof?`,
+    content: [
+      `Millburn weather loads a roof with **snow and freeze-thaw cycling**, **nor'easter and summer-storm wind**, and **storm branch-impact** from the mature canopy, the 3 stressors that fatigue Millburn flashing, valleys, and fasteners across the township's Watchung-foothills terrain.`,
+      `**Snow and freeze-thaw cycling** opens the cycle, with roughly 31.5 inches of snow per year and repeated crossings of the 32-degree-Fahrenheit freezing point, per NOAA 1991–2020 normals at Newark Liberty (EWR), and the elevated South Mountain ridge ground along the Short Hills side holds snow marginally longer, so trapped meltwater expands on freezing and feeds ice-dam backup at the eaves, against a ground snow load near Pg 25 psf under ASCE 7-16 as adopted by the NJ Uniform Construction Code.`,
+      `**Nor'easter and summer-storm wind** follows, with coastal storms tracking through northern New Jersey October through April and roughly 25 to 30 thunderstorms per year, per NOAA, and northern New Jersey carrying an ASCE 7-16 basic design wind speed near 110 to 115 mph for typical buildings, per ASCE 7-16 as adopted by the NJ Uniform Construction Code, so uplift concentrates first at the roof edge and ridge, and the reservation-edge slopes stand more exposed than a sheltered downtown-village lot. **Storm branch-impact** then closes the set, because the heavy oak and maple canopy over the Short Hills estate lots and the Cora Hartshorn Arboretum stands directly over the roofs, and a branch dropped in a nor'easter or summer storm fractures slate, cracks an asphalt shingle, and dents copper on a Millburn slope.`,
+    ],
+  },
+  neighborhoods: [
+    {
+      name: 'Short Hills',
+      description:
+        `Short Hills is Millburn's large, high-affluence section, home to the Short Hills Park Historic District, the Mall at Short Hills, and the deepest concentration of century-old Tudor Revival, Arts-and-Crafts, and estate homes in natural slate, copper, tile, and cedar. A property inside the locally designated Short Hills Park Historic District requires a Certificate of Appropriateness from the Millburn Historic Preservation Commission before permit-triggering exterior or roof work, so Newark Quality Roofing restores slate, copper, and flashing in kind and coordinates the Certificate of Appropriateness where the parcel sits in that district.`,
+    },
+    {
+      name: 'Wyoming',
+      description:
+        `Wyoming is one of Millburn's earliest residential sections and the locally designated Wyoming Historic District, established by Township ordinance and home to the Wyoming Presbyterian Church. Exterior roof work that triggers a permit on a property inside the Wyoming Historic District requires a Certificate of Appropriateness from the Millburn Historic Preservation Commission, and Newark Quality Roofing repairs and replaces the section's slate and asphalt roofs and coordinates the Certificate of Appropriateness on a designated parcel.`,
+    },
+    {
+      name: 'Millburn Center / downtown Millburn village',
+      description:
+        `Millburn Center is the downtown retail and restaurant district on the Rahway River, the township's commercial core of storefront and mixed-use buildings on flat and low-slope parapet roofs. The downtown Millburn village has repeatedly flash-flooded in Hurricane Floyd, Hurricane Irene, and the remnants of Hurricane Ida, so Newark Quality Roofing installs and reseals EPDM, TPO, and modified-bitumen membranes graded to drain and rebuilds parapet, scupper, and downspout flashing on the downtown low-slope commercial roofs.`,
+    },
+    {
+      name: 'South Mountain',
+      description:
+        `South Mountain is the Millburn-proper section around the South Mountain train station, near the South Mountain Reservation ridge that Millburn abuts on the Short Hills side. Newark Quality Roofing repairs and replaces the asphalt-shingle and slate roofs and clears tree-canopy debris from valleys and gutters on the section's wooded residential lots.`,
+    },
+    {
+      name: 'Old Short Hills',
+      description:
+        `Old Short Hills, including the Old Short Hills Estates area, is a section of large estate homes on wooded Short Hills lots with a high prevalence of natural slate, copper, and tile roofs. Newark Quality Roofing restores slate, copper, and tile detailing and rebuilds steep-slope valley and chimney flashing across the Old Short Hills estate homes.`,
+    },
+    {
+      name: 'Knollwood, Glenwood, and Merrywood',
+      description:
+        `Knollwood, Glenwood, and Merrywood are established Short Hills sub-sections of century-old high-style and later custom homes on tree-canopied lots. Newark Quality Roofing re-roofs asphalt-covered homes and restores slate, copper, and cedar detailing on the older period houses across the Knollwood, Glenwood, and Merrywood sections.`,
+    },
+    {
+      name: 'Country Club, Mountaintop, and White Oak Ridge',
+      description:
+        `Country Club, Mountaintop, and White Oak Ridge are Short Hills sub-sections of large wooded-lot homes in the western and elevated parts of the section. Newark Quality Roofing repairs and replaces the slate, tile, and asphalt roofs and clears leaf-clogged valleys and gutters from the mature canopy across the Country Club, Mountaintop, and White Oak Ridge sections.`,
+    },
+  ],
+  projectSpotlights: [
+    {
+      title: 'Estate Slate & Copper Restoration',
+      type: 'residential',
+      description:
+        `An estate slate-and-copper restoration on a Short Hills Tudor or Arts-and-Crafts home replaces corroded fasteners and degraded valley and chimney flashing, swaps impact-broken slate tile by tile, and fabricates copper valleys and step flashing where the original detailing calls for it. Natural slate lasts 60 to 150 years and copper 70 years or more, per the InterNACHI life-expectancy chart, so the restoration matches the original roof in kind under Standard 6 of the Secretary of the Interior's Standards rather than replacing the field.`,
+      details: [
+        `Tile-by-tile slate replacement with non-ferrous copper or stainless slater's nails, per NPS Preservation Brief 29`,
+        `Hand-formed copper valleys and step flashing at masonry transitions`,
+        `Full slope replacement only once 20% or more of the slate is broken, missing, or sliding, per NPS Preservation Brief 29`,
+        `Certificate of Appropriateness coordinated where the parcel is a designated Millburn landmark or in the Wyoming or Short Hills Park district`,
+      ],
+    },
+    {
+      title: 'Tile & Cedar Heritage Re-Roof',
+      type: 'residential',
+      description:
+        `A tile-and-cedar heritage re-roof on a Millburn high-style home matches the existing clay or concrete tile or red-cedar covering in kind, replaces the underlayment and deteriorated sheathing, and rebuilds copper or stainless valley and chimney flashing. Clay and concrete tile lasts 50 years or more and cedar 20 to 40 years, per the InterNACHI life-expectancy chart, and a red-cedar slope uses stainless or hot-dipped galvanized fasteners, not copper, which corrodes cedar, per NPS Preservation Brief 19.`,
+      details: [
+        `Clay or concrete tile or red cedar matched in kind, per the Secretary of the Interior's Standards`,
+        `Stainless or hot-dipped galvanized fasteners on a cedar slope, not copper, per NPS Preservation Brief 19`,
+        `Ice-and-water shield at eaves and valleys, per the IRC R905.1.2 provision`,
+        `Magnet sweep for nails and full debris cleanup before leaving the property`,
+      ],
+    },
+    {
+      title: 'Downtown Low-Slope Commercial Membrane Replacement',
+      type: 'commercial',
+      description:
+        `A low-slope membrane replacement on a downtown Millburn village or Mall at Short Hills building strips the existing roof, repairs the deck, and installs an EPDM, TPO, or modified-bitumen system graded to drain, then rebuilds parapet, scupper, and downspout flashing on the Rahway River flood corridor. A commercial roof exceeding 25% of the roof area in 12 months requires a permit under N.J.A.C. 5:23-2.7, filed with the Township of Millburn Building Department.`,
+      details: [
+        `EPDM, TPO, or modified-bitumen single-ply or multi-ply membrane`,
+        `At least one-quarter inch per foot of slope to drain, with ponding over 48 hours counted as a defect, per the NRCA and ARMA`,
+        `New parapet, scupper, downspout, and rooftop-penetration flashing sized for the downtown flood corridor`,
+        `Permit filed with the Township of Millburn Building Department for work over the 25% threshold`,
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Do you need a permit to replace a roof in Millburn, NJ?',
+      answer:
+        `A complete re-roof of the roof covering on a detached one- or two-family home in Millburn counts as **ordinary maintenance** under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building requires a permit from the Township of Millburn Building Department once roof work exceeds 25% of the roof area in 12 months, and so does any structural change to rafters or trusses.`,
+    },
+    {
+      question: 'Does a historic designation require a Certificate of Appropriateness for roofing in Millburn?',
+      answer:
+        `Most Millburn and Short Hills homes need no **Historic Preservation Commission** review, but a designated landmark or a property inside the Wyoming or Short Hills Park historic district requires a **Certificate of Appropriateness** before permit-triggering roof work. The Township of Millburn Historic Preservation ordinance names roof repairs or replacement, and a Certificate of Appropriateness is the Commission's exterior-design approval, separate from the building permit, so a detached one- or two-family reroof stays N.J.A.C. 5:23-2.7 ordinary maintenance even where the Certificate of Appropriateness applies. Short Hills Village is a recently designated or pending third historic district; a property there is checked against current designation status. Per the National Park Service, National Register listing alone places no restriction on a private owner, so the Paper Mill Playhouse and Cora Hartshorn Arboretum impose no roofing gate on a neighboring home.`,
+    },
+    {
+      question: 'How much does a roof cost in Millburn, NJ?',
+      answer:
+        `A **roof replacement** in New Jersey costs **$10,000–$25,000** for a typical home and a **roof-leak repair $400–$1,000**, per HomeAdvisor and Modernize NJ cost data. A natural slate, copper, or tile roof on a Short Hills estate costs more than asphalt, with slate installed at roughly $10 to $30 per square foot, per NJ roofing guides. Final cost depends on roof size, pitch, material, and access, and Newark Quality Roofing provides a free written estimate for every Millburn property.`,
+    },
+    {
+      question: 'What roofing material works best for a Short Hills estate home?',
+      answer:
+        `**Natural slate, copper, and tile** suit Millburn's Short Hills estates, where natural slate lasts 60 to 150 years, copper 70 years or more, and clay and concrete tile 50 years or more, per the InterNACHI life-expectancy chart. Slate fails at the fasteners and flashing before the tile, so Newark Quality Roofing restores those details tile by tile, while **architectural asphalt** suits the township's Colonial Revivals and contemporary homes at a 30-year service life, per the same chart.`,
+    },
+    {
+      question: 'What roofing problems are most common on Millburn homes?',
+      answer:
+        `Millburn homes most often face **mature tree canopy** dropping leaves and branches into valleys and gutters, **Watchung-foothills ridge terrain** along South Mountain Reservation, and **flashing failure** on the slate, tile, and copper estate roofs. Flashing failure causes roughly 90 to 95% of the resulting leaks, an industry estimate attributed to the NRCA, while only 5 to 10% trace to the open shingle field. Millburn abuts South Mountain Reservation, a roughly 2,112-acre Essex County reservation between the Watchung ridges, per Essex County Parks.`,
+    },
+    {
+      question: 'Does homeowners insurance cover roof damage in Millburn?',
+      answer:
+        `Homeowners insurance covers Millburn roof damage when a **covered peril** causes the damage, such as **wind, hail, or a falling tree branch**, and excludes damage from normal wear, age, or deferred maintenance. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, per the Insurance Information Institute, and a wooded Short Hills estate faces falling-branch impact during nor'easters and summer storms. Newark Quality Roofing documents storm and falling-branch damage with timestamped photographs for the adjuster.`,
+    },
+    {
+      question: 'How long does a slate roof last on a Millburn estate home?',
+      answer:
+        `A **natural slate** roof lasts 60 to 150 years, per the InterNACHI life-expectancy chart, and slate rarely fails as a tile, instead failing at corroded fasteners and degraded valley and chimney flashing. NPS Preservation Brief 29 advises replacing a full slope rather than executing individual repairs once 20% or more of the slates are broken, cracked, missing, or sliding, so Newark Quality Roofing replaces fasteners and flashing and swaps broken tiles below that threshold to hold the original roof.`,
+    },
+  ],
+  whyChoose: {
+    heading: `Why Millburn Property Owners Choose Newark Quality Roofing`,
+    reasons: [
+      {
+        title: 'NJ Home Improvement Contractor',
+        description:
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Millburn under the Contractors' Registration Act.`,
+      },
+      {
+        title: 'Fully Insured and Bonded',
+        description:
+          `Newark Quality Roofing carries the commercial general liability coverage the Contractors' Registration Act requires of a registered New Jersey Home Improvement Contractor, a $500,000 per-occurrence minimum under N.J.S.A. 56:8-142.`,
+      },
+      {
+        title: 'Slate, Copper, Tile, and Cedar Coverage',
+        description:
+          `Newark Quality Roofing repairs and replaces natural slate, copper, clay and concrete tile, and cedar on Millburn's Short Hills Tudor, Arts-and-Crafts, and estate homes, matching replacement material in kind within the Secretary of the Interior's Standards and the NPS Preservation Briefs.`,
+      },
+      {
+        title: 'Historic-District Certificate of Appropriateness Coordination',
+        description:
+          `Newark Quality Roofing restores slate, copper, and flashing in kind on designated Millburn properties and coordinates the Certificate of Appropriateness with the Millburn Historic Preservation Commission where a parcel sits in the Wyoming or Short Hills Park historic district or is an individually designated landmark.`,
+      },
+      {
+        title: 'Family-Owned and Local to Essex County',
+        description:
+          `Newark Quality Roofing operates from Newark and serves Essex County, including Millburn and Short Hills, working the century-old slate, copper, tile, and cedar estate stock, the downtown village, and the Mall at Short Hills commercial roofs that define the Township of Millburn.`,
+      },
+      {
+        title: 'Free Roof Inspections and Written Estimates',
+        description:
+          `Newark Quality Roofing provides a free roof inspection and a free written estimate for Millburn property owners, tracing a leak to the source flashing, slate, tile, copper, or membrane detail before any repair or replacement quote.`,
+      },
+    ],
+  },
+  metaTitle: `Roofing in Millburn, NJ | Newark Quality Roofing`,
+  metaDescription:
+    `Newark Quality Roofing repairs and replaces slate, copper, tile, and asphalt roofs in Millburn and Short Hills, Essex County. NJ HIC licensed. Free estimate.`,
+  pricing: {
+    averageRepair: `$400–$1,000`,
+    averageReplacement: `$10,000–$25,000`,
+    note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and a natural slate, copper, or tile roof on a Short Hills estate costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
+  },
+  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+},
+
 ];
