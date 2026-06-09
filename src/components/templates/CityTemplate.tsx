@@ -34,7 +34,6 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 import { generateCityPageSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getGalleryPairs } from '@/data/image-manifest';
-import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 import { HEADING_CONFIG } from '@/data/heading-config';
 
 // ─── Template Component ─────────────────────────────────────────────────────
@@ -120,8 +119,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
 
           {/* Main content column -- §4.3 Core-before-Outer order.
               The FIRST content H2 after the hero MUST be the §4.3 Core string
-              (HEADING_CONFIG.city.coreH2), rendered by CityServicesGrid.
-              ContentAuthorityBlock is moved OUT of the Core band (D-06/HTAG-07). */}
+              (HEADING_CONFIG.city.coreH2), rendered by CityServicesGrid. */}
           <article className="space-y-16 lg:col-span-3">
             {/* §4.3 Core: "What Roofing Services Are Available in [City]?" -- FIRST */}
             <AnimateIn>
@@ -234,10 +232,6 @@ export default function CityTemplate({ city }: CityTemplateProps) {
                 </div>
               </section>
             </AnimateIn>
-
-            {/* Content authority block -- moved OUT of the Core band (D-06/HTAG-07).
-                Component kept; full removal is Phase 16. */}
-            <AnimateIn><ContentAuthorityBlock city={city} pageType="city" /></AnimateIn>
 
             {/* §4.3 "Where Can You Find Us Near [City]?" */}
             <AnimateIn>

@@ -37,7 +37,6 @@ import {
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
-import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 import { getContentPoolImages } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 
@@ -281,9 +280,6 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           )}
 
           <AnimateIn><ServiceProcess heading={`What Are the Steps in Our ${service.name} Process?`} steps={content.processSteps} image={processImg ? { src: processImg.path, alt: `${service.name} crew at work - ${processImg.alt}` } : undefined} /></AnimateIn>
-
-          {/* ContentAuthorityBlock -- moved OUT of the Core band (D-06/HTAG-07); component kept (deletion is Phase 16) */}
-          <AnimateIn><ContentAuthorityBlock service={service} pageType="service" /></AnimateIn>
 
           {/* Outer: How Much Does [Service] Cost? */}
           {content.pricing && (

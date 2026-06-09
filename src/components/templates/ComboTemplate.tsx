@@ -32,7 +32,6 @@ import { SEO_CONFIG } from '@/lib/seo-config';
 import { generateComboSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getServiceHeroImage } from '@/data/image-manifest';
-import { ContentAuthorityBlock } from '@/components/sections/ContentAuthorityBlock';
 import { HEADING_CONFIG } from '@/data/heading-config';
 
 // ─── Template Component ─────────────────────────────────────────────────────
@@ -92,8 +91,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- §4.4 Core-before-Outer order.
             The FIRST content H2 after the hero MUST be the §4.4 Core string
-            (HEADING_CONFIG.combo.coreH2), rendered by ComboOverview.
-            ContentAuthorityBlock is moved OUT of the Core band (D-06/HTAG-07). */}
+            (HEADING_CONFIG.combo.coreH2), rendered by ComboOverview. */}
         <article className="space-y-12 pb-16 lg:col-span-2">
           {/* §4.4 Core: "What [Service] Is Available in [City]?" -- FIRST */}
           <AnimateIn>
@@ -169,9 +167,6 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           {/* §4.4 "What Questions Do Customers Ask About This Roofing Service?" */}
           <AnimateIn><ComboFaqs faqs={content.faqs} /></AnimateIn>
 
-          {/* Content authority block -- moved OUT of the Core band (D-06/HTAG-07).
-              Component kept; full removal is Phase 16. */}
-          <AnimateIn><ContentAuthorityBlock service={service} city={city} pageType="combo" /></AnimateIn>
         </article>
 
         {/* Sticky sidebar */}
