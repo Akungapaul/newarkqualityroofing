@@ -1,0 +1,44 @@
+[
+  {
+    "location": "njSpecific.content[0]",
+    "claim": "the Rehabilitation Subcode (N.J.A.C. 5:23-6.4) requires complete removal of any existing wood-shake covering \u2014 no recover-over \u2014 even where a 1- or 2-family re-roof needs no permit",
+    "dimension": "regulatoryAccuracy",
+    "severity": "high",
+    "suggestedFix": "Scope the wood-shake tear-off rule to permitted work: 'When a roofing permit is triggered \u2014 commercial, multi-family, or structural work \u2014 the Rehabilitation Subcode (N.J.A.C. 5:23-6.4) requires complete removal of any existing wood-shake covering, with no recover-over.' Remove the 'even where a 1- or 2-family re-roof needs no permit' clause."
+  },
+  {
+    "location": "faqs[4].answer",
+    "claim": "An NJ re-roof on a detached 1- or 2-family home is ordinary maintenance with no permit, but the Rehabilitation Subcode requires complete removal of existing wood-shake covering \u2014 no recover-over",
+    "dimension": "regulatoryAccuracy",
+    "severity": "high",
+    "suggestedFix": "Decouple and scope: state that a detached 1-2 family re-roof is ordinary maintenance with no permit (5:23-2.7), and that the Rehab Subcode wood-shake tear-off (5:23-6.4) applies only once a permit is triggered (commercial/multi-family/structural)."
+  },
+  {
+    "location": "introParagraphs[0]",
+    "claim": "asphalt installs at $6.50\u2013$11.00 per sq ft in NJ versus $10\u2013$20+ for cedar, per Josten Roofing NJ pricing",
+    "dimension": "namedCitation",
+    "severity": "med",
+    "suggestedFix": "Change to 'per Josten Roofing and NHI Contractors NJ pricing' so the $10\u2013$20+ cedar figure is correctly tied to NHI Contractors, matching detailedAnalysis[0]."
+  },
+  {
+    "location": "faqs[3].answer",
+    "claim": "Several Essex County homes have switched from aged cedar to synthetic.",
+    "dimension": "deFab",
+    "severity": "med",
+    "suggestedFix": "Delete the sentence, or replace with a sourced product fact, e.g. 'Synthetic-shake products from DaVinci and CertainTeed are designed for ~40\u201350-year service per CertainTeed product literature.'"
+  },
+  {
+    "location": "detailedAnalysis[2].content[2]",
+    "claim": "IBHS-recognized impact-rated (Class 4) asphalt shingles add hail resistance, rating to 2 in. hail under the 2025 FORTIFIED standard",
+    "dimension": "factualAccuracy",
+    "severity": "low",
+    "suggestedFix": "Tie the 2-inch figure to the IBHS Impact-Resistant 'Excellent'/'Good' rating under the 2025 FORTIFIED standard without the 'Class 4' label, or present Class 4 separately as the UL 2218 impact class rather than as the FORTIFIED 2-inch criterion."
+  },
+  {
+    "location": "njSpecific.content[1]",
+    "claim": "fire-retardant treatment matters most in NJ's wooded Essex County towns where ember exposure is a real risk",
+    "dimension": "deFab",
+    "severity": "low",
+    "suggestedFix": "Drop the ember-risk assertion or requalify to a sourced framing \u2014 e.g., 'carriers weigh the untreated-cedar fire class (nonclassified/unrated per NAHB and the CSSB), so fire-retardant treatment can ease NJ insurance scrutiny' \u2014 without claiming Essex County ember exposure as fact."
+  }
+]

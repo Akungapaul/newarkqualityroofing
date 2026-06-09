@@ -1,0 +1,30 @@
+[
+  {
+    "location": "detailedAnalysis[1].content[2]",
+    "claim": "**TPO membrane** fails most often at the welded seam, then through chemical attack from rooftop equipment and thermal-shock cracking as plasticizers migrate and the membrane hardens, per the NRCA.",
+    "dimension": "namedCitation",
+    "severity": "med",
+    "suggestedFix": "Drop 'per the NRCA' from the TPO failure-mode sentence and state it qualitatively as the pack does (the pack carries no named source for the TPO modes), or attribute to single-ply manufacturers/industry consensus. Keep NRCA only on the PVC failure-mode sentence in content[1]."
+  },
+  {
+    "location": "introParagraphs[0] (recurring: directAnswer, detailedAnalysis[0].content[0..2], verdict.reasoning, njSpecific[1], residentialSection[2], commercialSection[0..1], faqs[0])",
+    "claim": "a **TPO membrane** ... degrades under chronic chemical contact, per the Single Ply Roofing Industry (SPRI). [the PVC grease/chemical-resistance differentiator is attributed to SPRI ~10x across the page]",
+    "dimension": "namedCitation",
+    "severity": "med",
+    "suggestedFix": "Attribute the grease/chemical-resistance differentiator to the pack's actual source (Duro-Last, or frame as single-ply manufacturer/industry guidance) in the differentiator sentences, and reserve 'per the Single Ply Roofing Industry' for the 20-30-year lifespan claim, which is the only fact SPRI backs in the pack."
+  },
+  {
+    "location": "njSpecific.content[0]",
+    "claim": "both meet NJ cool-roof reflectance criteria, so the rooftop chemical exposure decides the membrane, not New Jersey code.",
+    "dimension": "regulatoryAccuracy",
+    "severity": "med",
+    "suggestedFix": "Remove 'both meet NJ cool-roof reflectance criteria.' Reframe per the pack: NJ code does not turn on cool-roof reflectance for this low-slope choice (no NJ cool-roof prescriptive mandate per facts-energy-solar.md line 85), so rooftop chemical exposure \u2014 not New Jersey code \u2014 decides the membrane."
+  },
+  {
+    "location": "detailedAnalysis[2].content[1] (and faqs[3])",
+    "claim": "A cool roof reduces peak cooling demand by 11-27% in air-conditioned buildings, per the EPA.",
+    "dimension": "factualAccuracy",
+    "severity": "low",
+    "suggestedFix": "Match the pack scope: 'reduces peak cooling demand by 11-27% in air-conditioned residential buildings, per the EPA', or note the figure is the EPA's residential measurement when applying it in a commercial context."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "location": "comparisonRows[1]",
+    "claim": "{ feature: 'NJ installed cost per sq ft', itemA: '$12\u2013$16+', itemB: '$9\u2013$12', winner: 'B' }",
+    "dimension": "factualAccuracy",
+    "severity": "high",
+    "suggestedFix": "Replace the two invented sub-ranges with the single sourced Josten range and a qualitative split, mirroring the page's own prose: e.g. itemA: '$9\u2013$16+ (upper end)', itemB: '$9\u2013$16+ (lower end)', or annotate the row as the single $9\u2013$16+ NJ metal range. Do not assert a $12 boundary no pack supports."
+  },
+  {
+    "location": "detailedAnalysis[1].content[2]",
+    "claim": "**Standing seam** sidesteps the gasket problem because concealed clips carry no exposed seal in the panel field...",
+    "dimension": "boldR3",
+    "severity": "med",
+    "suggestedFix": "Apply R3's prescribed fix: add **Standing seam** to this section lead's bold set (e.g. bold 'standing seam' where the lead first introduces the concealed-clip contrast) so the body-opening bold on content[2] maps, or fold the standing-seam contrast into a corrugated-led paragraph."
+  },
+  {
+    "location": "detailedAnalysis[2].content[2]",
+    "claim": "**Corrugated metal** fixes each panel with a rigid screw that resists thermal movement...",
+    "dimension": "boldR3",
+    "severity": "med",
+    "suggestedFix": "Add **Corrugated metal** to this section's lead bold set (the lead already names the fixed-screw contrast) so the body-opening bold on content[2] maps to a lead-bolded topic, per R3's 'add that head noun to the lead's bold set' remedy."
+  },
+  {
+    "location": "residentialSection.content[2]",
+    "claim": "**Corrugated metal** on a house carries the exposed-fastener maintenance cycle and the agricultural profile...",
+    "dimension": "boldR3",
+    "severity": "med",
+    "suggestedFix": "Add **Corrugated metal** to the residential lead's bold set so content[2]'s body-opening bold maps, or restructure content[2] to re-bold **Standing seam** as the contrast subject, per R3."
+  },
+  {
+    "location": "faqs[1].answer",
+    "claim": "**Standing seam lasts 40\u201370 years and corrugated exposed-fastener metal 30\u201350 years**, per This Old House and industry sources.",
+    "dimension": "namedCitation",
+    "severity": "low",
+    "suggestedFix": "Mirror the intro's clean split in the FAQ: '...standing seam lasts 40\u201370 years per This Old House and corrugated exposed-fastener metal 30\u201350 years per industry sources.' so each source attaches only to the figure it supports."
+  }
+]

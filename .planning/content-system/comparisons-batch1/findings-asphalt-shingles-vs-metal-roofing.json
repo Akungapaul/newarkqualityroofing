@@ -1,0 +1,30 @@
+[
+  {
+    "location": "residentialSection.content[1]",
+    "claim": "**Asphalt shingles** carry manufacturer warranties such as GAF's 50-year limited warranty on Timberline HDZ laminated shingles, a term set and backed by GAF, not by Newark Quality Roofing, per GAF's published warranty.",
+    "dimension": "deFab",
+    "severity": "high",
+    "suggestedFix": "Drop the specific '50-year limited warranty on Timberline HDZ'. State qualitatively: '**Asphalt shingles** carry manufacturer limited warranties from named makers such as GAF, terms set and registered by the manufacturer (GAF's Golden Pledge system warranty runs 50-yr material / 25-yr workmanship but requires a credentialed installer and qualifying accessories), not by Newark Quality Roofing.' Do not assert a base-shingle '50-year' term or 'Timberline HDZ' until verified."
+  },
+  {
+    "location": "detailedAnalysis[0].content[1]",
+    "claim": "with labor at roughly 60% of an asphalt project, per Josten Roofing and HomeGuide.",
+    "dimension": "namedCitation",
+    "severity": "med",
+    "suggestedFix": "Drop 'Josten Roofing' from this attribution: '\u2026with labor at roughly 60% of an asphalt project, per HomeGuide.' Keep Josten only on the $/sq-ft install ranges it actually sources."
+  },
+  {
+    "location": "directAnswer",
+    "claim": "**Metal roofing** outlasts **asphalt shingles** in Essex County \u2014 metal lasts 40\u201380 years versus asphalt's 20\u201330 years, per the InterNACHI life-expectancy chart \u2014 so metal wins on lifespan while asphalt wins on lower NJ install cost ($5.50\u2013$11.00 versus $9.00\u2013$16.00 per square foot, per Josten Roofing NJ data).",
+    "dimension": "answerFirstR2",
+    "severity": "med",
+    "suggestedFix": "Tighten to \u226440 words, e.g.: '**Metal roofing** outlasts **asphalt shingles** \u2014 metal lasts 40\u201380 years versus asphalt's 20\u201330 (per the InterNACHI chart) \u2014 so metal wins on lifespan while asphalt wins on lower NJ install cost ($5.50\u2013$11.00 vs $9.00\u2013$16.00 per sq ft).' (~38 words.)"
+  },
+  {
+    "location": "detailedAnalysis[0].content[0]",
+    "claim": "**Asphalt shingles** cost less upfront and **metal roofing** costs less per year of service \u2014 asphalt installs at $5.50\u2013$11.00 per NJ square foot lasting 20\u201330 years, while metal installs at $9.00\u2013$16.00 lasting 40\u201380 years, spreading the higher price across more years, per Josten Roofing NJ pricing and the InterNACHI chart.",
+    "dimension": "answerFirstR2",
+    "severity": "low",
+    "suggestedFix": "Trim each over-length lead to \u226440 words by deferring the second clause to the body paragraph, e.g.: '**Asphalt shingles** cost less upfront and **metal roofing** costs less per year of service \u2014 asphalt installs at $5.50\u2013$11.00 per NJ square foot lasting 20\u201330 years, metal at $9.00\u2013$16.00 lasting 40\u201380, per Josten Roofing and the InterNACHI chart.'"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "location": "comparisonRows[0]",
+    "claim": "{ feature: 'Installed Cost (NJ, per sq ft)', itemA: '$10\u2013$30/sq ft (slate)', itemB: '$9\u2013$18 concrete, $12\u2013$25 clay', winner: 'depends' }",
+    "dimension": "factualAccuracy",
+    "severity": "high",
+    "suggestedFix": "Use the actual installed figure for itemB \u2014 e.g. '$10\u2013$20+/sq ft (premium tile)' per NHI Contractors (\u00a77) \u2014 or relabel the row 'Repair Cost (per sq ft)' and move slate's installed $10\u2013$30 out. Do not present tile repair $/sq ft as installed cost."
+  },
+  {
+    "location": "verdict.alternateScenario",
+    "claim": "concrete tile repair at $9\u2013$18 per square foot undercuts slate's $10\u2013$30 per square foot installed range per NJ roofing guides",
+    "dimension": "factualAccuracy",
+    "severity": "med",
+    "suggestedFix": "Compare like metrics: contrast installed-vs-installed (slate $10\u2013$30 vs premium tile $10\u2013$20+ per NHI Contractors) or repair-vs-repair, and drop the 'undercuts ... installed range' framing that pits repair against installed."
+  },
+  {
+    "location": "directAnswer",
+    "claim": "lasting 60\u2013150 years per the InterNACHI life-expectancy chart versus 100+ years for clay tile and 40\u201375 years for concrete tile",
+    "dimension": "namedCitation",
+    "severity": "med",
+    "suggestedFix": "Split the attribution: '...60\u2013150 years and clay tile 100+ years per the InterNACHI chart; concrete tile 40\u201375 years per the Tile Roofing Industry Alliance.'"
+  },
+  {
+    "location": "faqs[0].answer",
+    "claim": "Many Essex County homes framed before 1960 supported heavy roof coverings as built, while newer construction needs a structural review first.",
+    "dimension": "deFab",
+    "severity": "med",
+    "suggestedFix": "Drop the '1960' year and the 'supported as built' capacity claim in both faqs[0].answer and detailedAnalysis[1].content[1]. State qualitatively and sourced: slate and tile both exceed an asphalt-shingle load, so a rafter-and-decking structural assessment precedes either installation (already asserted at detailedAnalysis[1].content[0])."
+  },
+  {
+    "location": "directAnswer",
+    "claim": "**Natural slate** outlasts **clay or concrete tile** on most Essex County premium roofs, lasting 60\u2013150 years per the InterNACHI life-expectancy chart versus 100+ years for clay tile and 40\u201375 years for concrete tile, while both materials are heavy and need adequate roof framing.",
+    "dimension": "answerFirstR2",
+    "severity": "low",
+    "suggestedFix": "Trim to \u226440 words by dropping the trailing clause: '**Natural slate** outlasts **clay or concrete tile** on most Essex County premium roofs, lasting 60\u2013150 years per the InterNACHI chart versus 100+ years for clay tile and 40\u201375 years for concrete tile.' (33 words)."
+  },
+  {
+    "location": "introParagraphs[0]",
+    "claim": "clay tile reaches 100+ years and concrete tile 40\u201375 years per the Tile Roofing Industry Alliance",
+    "dimension": "namedCitation",
+    "severity": "low",
+    "suggestedFix": "Match the sibling and the pack: 'clay tile reaches 75 to 100-plus years and concrete tile 40\u201375 years per the Tile Roofing Industry Alliance' \u2014 apply at introParagraphs[0], verdict.alternateScenario, and residentialSection.content[2]."
+  }
+]

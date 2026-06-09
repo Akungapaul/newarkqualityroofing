@@ -1,0 +1,37 @@
+[
+  {
+    "location": "njSpecific.content[0] (and comparisonRows[4].itemB)",
+    "claim": "Natural slate resists New Jersey freeze-thaw cycling through near-zero water absorption",
+    "dimension": "factualAccuracy",
+    "severity": "high",
+    "suggestedFix": "Drop 'near-zero water absorption.' Reframe to the pack-supported fact: slate's stone outlasts its fasteners/flashing, so freeze-thaw failures trace to corroded fasteners and degraded valley flashing rather than the stone (facts-materials-economics.md:117, NRCA/NSA). Replace comparisonRows[4].itemB with e.g. 'Stone unaffected; failures are fasteners/flashing \u2014 NRCA/NSA.'"
+  },
+  {
+    "location": "njSpecific.content[0]",
+    "claim": "...crack and curl after years of freeze-thaw, especially lower-grade 3-tab, per InterNACHI failure-mode guidance.",
+    "dimension": "namedCitation",
+    "severity": "med",
+    "suggestedFix": "Re-attribute the asphalt curl/crack failure mode to 'NRCA and InterNACHI guidance' (matching facts-materials-economics.md:81) and remove the slate 'near-zero water absorption per InterNACHI' clause entirely, since InterNACHI supplies no such property."
+  },
+  {
+    "location": "njSpecific.content[1]",
+    "claim": "with weathering limited to surface sugaring on lower-grade stone rather than structural cracking, per NPS Preservation Brief 29.",
+    "dimension": "namedCitation",
+    "severity": "med",
+    "suggestedFix": "Attribute sugaring to 'NRCA and the National Slate Association' (its source at facts-materials-economics.md:117). Drop or qualitatively reframe 'holds its surface against November-through-March freeze cycles,' since no pack ties a freeze-cycle-resistance claim to slate or to Brief 29."
+  },
+  {
+    "location": "njSpecific.content[2]",
+    "claim": "Asphalt shingles depend on an ice-and-water shield underlayment at the eaves, required by the NJ Uniform Construction Code, to block ice-dam backup...",
+    "dimension": "regulatoryAccuracy",
+    "severity": "med",
+    "suggestedFix": "Scope and cite to the pack: 'an ice-and-water shield is required at eaves with an ice-dam history, extending at least 24 in. inside the exterior wall line, per IRC R905.1.2 as enforced under the NJ Uniform Construction Code (N.J.A.C. 5:23).'"
+  },
+  {
+    "location": "residentialSection.content[2] (and directAnswer, comparisonRows[2].itemB)",
+    "claim": "slate requires confirmed structural capacity that many post-1960 NJ homes and additions lack",
+    "dimension": "factualAccuracy",
+    "severity": "med",
+    "suggestedFix": "Remove the fabricated 'post-1960 NJ homes' threshold and the absolute 'confirmed framing required' framing. Either drop the structural-capacity claim or state slate's weight qualitatively only after adding a sourced slate-weight figure (lb/sq ft) with a named source to a pack."
+  }
+]
