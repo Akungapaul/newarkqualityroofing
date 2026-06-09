@@ -1,0 +1,11 @@
+# Newark × tile-roof-replacement — rewrite rationale
+
+De-fab literals cleared: the `overview[0]` price+hype ("prices starting from $18,000–$40,000 and free estimates available today"), the unsourced weight/lifespan/percentage figures (900–1,200 lb/square, "seventy percent," "forty percent less," 3,000-lb pallet, 5–7 days, "fifteen to twenty-five percent" salvage) which had no fact-pack support and were de-quantified or replaced with TRIA-sourced lifespans; the templated `whyChooseUs` ("GAF Certified," "15+ years," "same-day," "24/7," GAF/CertainTeed/Owens Corning as credentials); the cost-FAQ "$18,000–$40,000" and "call us today"; and the `urgencyNote` "Early action saves thousands" hype. PSE&G/traffic-department speculation dropped.
+
+Restructured answer-first: `directAnswer` answers "Who Provides…" (37w); figure-free definitional `overview[0]` lead (34w) with later strings re-bolding lead topics; `challenges`/`process` ≤40w bolded leads; every FAQ opens with a ≤40w definitive sentence; one cost FAQ uses the sourced range + free-written-estimate framing.
+
+Preserved Newark texture: Ironbound Portuguese/Spanish-immigrant tile heritage, Vailsburg stucco homes, civic buildings, narrow-lot access/heavy-load logistics, party-wall/row-house density, hidden underlayment failure.
+
+Named sources cited (mirrored from the rewritten service object + fact packs): Tile Roofing Industry Alliance (clay 75–100+ yr, concrete 40–75 yr, underlayment as service-life limiter), This Old House, InterNACHI life-expectancy chart, N.J.A.C. 5:23-2.7 (ordinary-maintenance reroof exemption + structural/commercial permit trigger), N.J.A.C. 5:23-6.4 (no recover-over for tile — full tear-off), IRC R905.1.2 (ice barrier 24 in inside wall line), NHI Contractors ($10–$20+/sq ft premium tile), HomeAdvisor + Modernize ($10,000–$25,000 NJ range), Owens Corning warranty guidance.
+
+Newark facts localized: permit office = Newark Department of Engineering Building Division; historic COA via Newark Landmarks & Historic Preservation Commission (Municipal Code Ch. 41:10) with James Street Commons / Lincoln Park named and the pre-2007 auto-designation HEDGE ("verify a specific parcel's local or contributing status"). No city-specific climate degree numbers used (EPA heat-island framing omitted as not load-bearing here).

@@ -1,0 +1,6 @@
+200  h1=1  **=0  defab=false  roof-repair-newark-nj
+200  h1=1  **=0  defab=false  asphalt-shingle-roofing-newark-nj
+200  h1=1  **=0  defab=false  tpo-roofing-installation-newark-nj
+200  h1=1  **=0  defab=false  gutter-installation-repair-newark-nj
+200  h1=1  **=0  defab=false  slate-roof-installation-repair-newark-nj
+200  h1=1  **=0  defab=false  silicone-roof-coating-newark-nj

@@ -1,0 +1,12 @@
+# rubber-roofing-epdm (Newark) — rewrite rationale
+
+De-fab literals cleared from the prior combo file:
+- `overview[0]` "prices starting from $6,000–$16,000 and free estimates available today" + "thousands of EPDM roofs" / "fifty-year track record" → deleted; replaced with a figure-free answer-first definition; price now lives only in `pricing` and the cost FAQ.
+- `whyChooseUs`: removed "GAF Certified," "15+ years," "Premium materials from GAF/CertainTeed/Owens Corning with manufacturer warranties," "same-day estimates," "24/7 emergency response," "Transparent pricing — no hidden fees" → replaced with the brief's 4 factual reasons (NJ HIC licensed & insured; local Essex crew; free written estimates; photo-documented workmanship).
+- Unsourced surface-temperature numbers ("170 degrees," "exceed 170 in heat island summers," "negative forty degrees") and "five months of air conditioning" → removed; heat-island reframed qualitatively to the EPA attribution (no city-specific degree/gust figures).
+- `conversionHooks.urgencyNote` "Early action saves thousands" hype → factual prompt about limiting interior/structural water damage. `midPageCta` de-templated.
+- `pricing` set to the brief's roof-type/installation default `$10,000–$25,000` with the HomeAdvisor/Modernize-sourced `note`.
+
+Named sources cited in-text: InterNACHI life-expectancy chart (EPDM 15–25 / TPO 7–20 / mod-bit 20); HomeGuide membrane-repair guidance (seam separation = dominant failure, shrinkage = secondary); NRCA and ARMA (¼-inch-per-foot slope, ponding >48h = defect); Owens Corning warranty guidance (system vs workmanship warranty); Parish and Modernize (flat-roof >25–30% replace rule); Modernize and WeatherShield (small patch $300–$500, seam re-weld $200–$400); Josten Roofing NJ ($7–$10/sq ft install); HomeAdvisor and Modernize (NJ $10,000–$25,000 replacement); NOAA 1991–2020 EWR normals (Jan low ~25.5°F freeze-thaw); U.S. EPA (qualitative heat-island); N.J.A.C. 5:23-2.7 (ordinary-maintenance / 25% rule via Newark Dept. of Engineering, Building Division); Newark Landmarks & Historic Preservation Commission / Newark Municipal Code Chapter 41:10 (COA, James Street Commons + Lincoln Park designated, parcel-status hedge).
+
+Preserved Newark texture: party-wall row-house extensions, Ironbound/Central Ward flat-roof membranes + Ferry Street commercial fronts, Forest Hill/Roseville rear-extension/garage/porch flats, North Ward/Ironbound access constraints, Passaic-River/tidal flood exposure (qualitative).
