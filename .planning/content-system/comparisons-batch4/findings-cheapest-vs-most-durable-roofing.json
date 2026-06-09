@@ -1,0 +1,12 @@
+[
+  {
+    "id": "F2",
+    "severity": "low",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[0].content[1]",
+    "quote": "**3-tab asphalt shingles** hold the lowest NJ entry cost at $5.50–$9.50 per square foot, with labor at roughly 60% of an asphalt project, per Josten Roofing and HomeGuide, and a full NJ asphalt replacement falling within the $10,000–$25,000 benchmark, per HomeAdvisor and Modernize.",
+    "issue": "The labor-share figure (roughly 60% of an asphalt project) is co-attributed to 'Josten Roofing and HomeGuide,' but in the packs Josten Roofing sources ONLY the per-sq-ft NJ install ranges (facts-materials-economics §7 lines 284–290) — never any labor-share %. The 60% labor share traces solely to HomeGuide (facts-cost-stats §3 line 64: 'Labor for asphalt install $2–$3/sq ft = 60%–70% of project'). Citing Josten for the labor stat is over-attribution; each fact should map to its own source (R7/R9).",
+    "fix": "Split the attribution so each fact maps to its source. Change '...lowest NJ entry cost at $5.50–$9.50 per square foot, with labor at roughly 60% of an asphalt project, per Josten Roofing and HomeGuide, and a full NJ asphalt replacement...' → '...lowest NJ entry cost at $5.50–$9.50 per square foot, per Josten Roofing, with labor at roughly 60% of an asphalt project, per HomeGuide, and a full NJ asphalt replacement...'. (Optionally restore HomeGuide's full 60–70% range — 'roughly 60–70%' — but 'roughly 60%' is the defensible bottom of that band and is not required; the load-bearing fix is dropping Josten from the labor-share citation.)",
+    "refuteReason": "Verified directly: facts-cost-stats §3 line 64 attributes the 60(–70)% labor share to HomeGuide, and §1 line 36's '~60%' is Integrity Home Exteriors — neither is Josten. facts-materials-economics §7 (lines 284–290) shows Josten Roofing backs only the NJ $/sq ft install ranges. No pack attributes any labor-share % to Josten. R7/R9 require each in-text figure to name its own qualified source; co-attributing the labor stat to Josten is unsupported."
+  }
+]

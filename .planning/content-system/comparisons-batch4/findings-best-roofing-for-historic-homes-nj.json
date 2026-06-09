@@ -1,0 +1,22 @@
+[
+  {
+    "id": "F1",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "verdict.reasoning",
+    "quote": "**Natural slate** leads because it is the original material on most NJ homes built before 1920 and lasts 60–150 years (premium 100+ per the National Slate Association), satisfying Standard 6's directive to replace a distinctive roof in kind, per the NPS",
+    "issue": "The quantified prevalence claim that natural slate \"is the original material on most NJ homes built before 1920\" is in no fact pack. facts-historic-restoration.md (the GOVERNING pack) supports slate as a character-defining historic roof matched in kind under Standard 6 and pairs it with named period STYLES (Victorian, Colonial Revival per §2/Brief 4), but assigns no \"most homes\" share and no 1920 date threshold. facts-materials-economics.md §2 (slate) gives lifespan/repair facts only — no prevalence, no era. The clause sits inside a sentence whose only visible attributions are the National Slate Association (lifespan) and \"per the NPS\" (Standard 6), so an unsourced NQR-derived quantified generalization (\"most\") is presented as a sourced fact AND is the load-bearing reason the ranking puts slate first.",
+    "fix": "Replace the unsourced prevalence+date clause with the sourced style pairing the comparisonRows already carry. Before→after: \"**Natural slate** leads because it is the original material on most NJ homes built before 1920 and lasts 60–150 years (premium 100+ per the National Slate Association)\" → \"**Natural slate** leads because it is the in-kind original roof on Victorian, Colonial Revival, and Gilded Age homes and lasts 60–150 years (premium 100+ per the National Slate Association)\".",
+    "refuteReason": "Survives refutation: Rule 10 / D-01 (no fabricated or unverified hard claim renders — state qualitatively from facts-*.md or omit) and R29 (precise entity + sourced related terms). The quantifier \"most\" + \"original material on most NJ homes built before 1920\" is a measured-prevalence assertion with NO pack source — facts-historic-restoration §0/§2/§4 (Brief 4) and facts-materials-economics §2 carry only style-pairing and lifespan, never a homes-share or 1920 cutoff. The grep across all three packs + comparisons-batch4 returns zero matches for any \"most homes\" / \"original material\" / 1920 prevalence claim. This is distinct from the benign bare \"pre-1920\" period descriptor on a style (F3): \"most\" makes this a fabricated statistic, not a period label."
+  },
+  {
+    "id": "F2",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "introParagraphs[1]",
+    "quote": "**Natural slate** is the quarried-stone tile lasting 60–150 years (premium 100+ per the National Slate Association) that covers most NJ homes built before 1920",
+    "issue": "The same fabricated quantified prevalence claim as F1, here stated flatly as a definitional fact: \"that covers most NJ homes built before 1920.\" No pack supports a slate \"most NJ homes\" share or a 1920 cutoff. The intro defines each material by function; the \"covers most NJ homes built before 1920\" clause inserts an NQR-derived statistic into a definition whose surrounding attribution (National Slate Association) covers only lifespan.",
+    "fix": "Replace with the sourced style pairing already used in comparisonRows (feature 'Natural Slate' itemB: 'Best for pre-1920 Victorian, Colonial Revival, and Gilded Age homes'), dropping the \"most homes\" quantifier. Before→after: \"...lasting 60–150 years (premium 100+ per the National Slate Association) that covers most NJ homes built before 1920\" → \"...lasting 60–150 years (premium 100+ per the National Slate Association) suited to Victorian, Colonial Revival, and Gilded Age homes\".",
+    "refuteReason": "Survives refutation: Rule 10 / D-01 bars rendering a fabricated hard claim; the quantifier \"most\" turns a benign period label into an unsourced statistic. facts-historic-restoration §2 (Brief 4) and facts-materials-economics §2 supply slate→style pairing and lifespan but never a homes-share or 1920 date. The replacement re-uses the SAME sourced style framing already shipped in this comparison's comparisonRows itemB, so the fix introduces no new unsourced claim. Not a false positive — the figure does NOT trace to any pack line."
+  }
+]

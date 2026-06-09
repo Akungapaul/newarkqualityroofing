@@ -1,0 +1,32 @@
+[
+  {
+    "id": "F1",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "commercialSection.content[0]",
+    "quote": "white TPO/PVC cuts peak cooling demand 11–27% via ~0.70–0.85 reflectance, per the EPA and CRRC.",
+    "issue": "The EPA 11–27% peak-cooling figure is uniquely scoped in facts-energy-solar.md §0.4 (line 73) and Part C (line 265) to 'air-conditioned RESIDENTIAL buildings,' and §374 mandates citing it 'precisely.' No commercial-scoped EPA variant exists anywhere in the pack (verified across Parts C/D/E). Here that residential-measured figure is asserted directly about a COMMERCIAL low-slope roof in the commercial section with no scope qualifier at all — the most acute scope-widening of the three, applying a residential-only number to commercial buildings the source does not cover.",
+    "fix": "before→after: 'white TPO/PVC cuts peak cooling demand 11–27% via ~0.70–0.85 reflectance, per the EPA and CRRC.' → 'white TPO/PVC's ~0.70–0.85 reflectance lowers roof-surface temperature and peak summer cooling load (the EPA's 11–27% peak-cooling-demand figure is measured in air-conditioned residential buildings), per the EPA and CRRC.' (Keep the figure but bound it to its sourced residential scope; do not assert it of the commercial roof.)",
+    "refuteReason": "facts-energy-solar.md line 73 scopes the 11–27% figure to 'air-conditioned residential buildings' and line 374 directs citing it 'precisely'; line 416 of decision-helper.ts already cites it correctly as 'air-conditioned residential buildings,' and the comparison's own GAPS file (line 62/82) records the figure as residential/'(air-conditioned)'. No commercial 11–27% figure exists in the pack — a genuine source-scope over-extension under R29/source-attribution."
+  },
+  {
+    "id": "F2",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "verdict.alternateScenario",
+    "quote": "its ~0.70–0.85 solar reflectance (ASTM C1549, CRRC) cuts peak summer cooling demand 11–27% in air-conditioned buildings, per the EPA",
+    "issue": "Drops 'residential' from the EPA-sourced scope phrase. The pack (facts-energy-solar.md §0.4 line 73; Part C line 265) scopes the 11–27% figure to 'air-conditioned RESIDENTIAL buildings' and §374 directs citing it precisely. 'air-conditioned buildings' over-generalizes the sourced scope to include commercial, which the source does not cover — and line 416 of this same file cites it correctly as 'air-conditioned residential buildings,' so the precise form is known and inconsistently applied.",
+    "fix": "before→after: 'cuts peak summer cooling demand 11–27% in air-conditioned buildings, per the EPA' → 'cuts peak summer cooling demand 11–27% in air-conditioned residential buildings, per the EPA' (restore the pack's exact scope word; figure relocated, not deleted).",
+    "refuteReason": "facts-energy-solar.md line 73 = 'in air-conditioned residential buildings'; line 374 = cite 'precisely'; decision-helper.ts line 416 already uses the correct in-scope form. Dropping 'residential' is a real, internally inconsistent scope-widening of a PRIMARY EPA figure."
+  },
+  {
+    "id": "F3",
+    "severity": "low",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[1].content[0] (Which Roof Stays Coolest in NJ Summers?)",
+    "quote": "reduce peak summer cooling demand 11–27% in air-conditioned buildings, per the EPA.",
+    "issue": "Same one-word scope-narrowing of the EPA figure: 'air-conditioned buildings' drops the pack's 'residential' qualifier (facts-energy-solar.md §0.4 line 73; Part C line 265; precision mandate line 374). Lower severity because the heading covers steep-and-low-slope summer cooling generally, but the sourced scope word should still be retained for the exact EPA number, as line 416 of this file does.",
+    "fix": "before→after: 'reduce peak summer cooling demand 11–27% in air-conditioned buildings, per the EPA.' → 'reduce peak summer cooling demand 11–27% in air-conditioned residential buildings, per the EPA.'",
+    "refuteReason": "facts-energy-solar.md line 73 fixes the scope to 'air-conditioned residential buildings' and line 374 mandates precise citation; the correct form is used at line 416 of the same file, confirming this is an internally inconsistent omission of the sourced qualifier, not stylistic latitude."
+  }
+]

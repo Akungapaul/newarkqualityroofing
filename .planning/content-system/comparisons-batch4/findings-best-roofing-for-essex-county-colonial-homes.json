@@ -1,0 +1,62 @@
+[
+  {
+    "id": "F1",
+    "severity": "high",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[0].content[3] / residentialSection.content[0,1] / faqs[0].answer",
+    "quote": "laminated shingles in charcoal, weathered-wood, or slate-gray tones ... at $6.50–$11.00 per NJ square foot, per Josten Roofing (and faqs[0]: 'per the Josten Roofing NJ color ranges')",
+    "issue": "Roof-COLOR recommendations (charcoal / weathered-wood / slate-gray) are attributed to Josten Roofing, but Josten Roofing is purely a NJ per-sq-ft install-pricing source — facts-materials-economics.md §7 lines 284–289 list Josten only for $/sq-ft ranges (architectural shingle $6.50–$11.00, line 285) plus the 30%/30–40% repair-vs-replace rule (lines 279/306). No pack attributes any color/tone to Josten; 'the Josten Roofing NJ color ranges' in faqs[0] is a fabricated source object. The .md GAPS line 47 confirms the colors are author-supplied neutral replacements for a DROPPED brand-color promo — they should carry no source.",
+    "fix": "Keep Josten ONLY on the $6.50–$11.00/sq-ft figure; strip Josten from every color sentence. faqs[0].answer: change '...a softer alternative in the same restrained palette, per the Josten Roofing NJ color ranges.' → '...a softer alternative in the same restrained palette.' (color is a denotative description, not a sourced figure). detailedAnalysis[0].content[3]: the price stays 'per Josten Roofing'; the charcoal/weathered-wood/slate-gray clause carries no Josten tag. residentialSection.content[0]: drop Josten from the tone clause, keep National Park Service on the in-kind-match clause. residentialSection.content[1]: keep '$6.50–$11.00 per NJ square foot ... per Josten Roofing' but the 'in charcoal, weathered-wood, or slate-gray tones' opener carries no Josten tag (NPS Brief 4 stays on the flashing/dormer clause).",
+    "refuteReason": "Survives: facts-materials-economics.md lines 284–289 (verified directly) attach Josten only to $/sq-ft pricing — there is no Josten color data in any pack, and .md GAPS line 47 states the colors are author neutral replacements for a dropped brand promo. faqs[0]'s 'Josten Roofing NJ color ranges' is an invented source object — the exact CMP-2/CMP-3 over-attribution pattern."
+  },
+  {
+    "id": "F2",
+    "severity": "high",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[0].content[1,2,3]",
+    "quote": "Georgian (1700–1780) ... Federal (1780–1820) ... the Colonial Revival housing (1880–1955) ... per NPS Preservation Brief 4",
+    "issue": "The architectural-era DATE RANGES (1700–1780, 1780–1820, 1880–1955) appear in NO fact pack (grep across all three packs returns zero hits for 1700/1780/1820/1880/1955). NPS Preservation Brief 4 names only the period MATERIALS — slate, clay tile, wood shingle, metal (facts-historic-restoration.md lines 187/189/258) — and states no architectural-style date ranges. The .md GAPS line 25 itself concedes these are author-added 'qualitative architectural facts' yet tags them 'Per NPS Preservation Brief 4,' so author-supplied year ranges are over-attributed to a Brief that does not contain them.",
+    "fix": "Keep the substyle→material matching attributed to Brief 4 but drop the parenthetical Brief-4 era dates, OR move the dates to a generic architectural reference and reserve 'per NPS Preservation Brief 4' for the material-matching principle only. E.g. content[1]: 'roof Georgian and early Colonial homes that historically wore wood shingle or slate, the character-defining materials NPS Preservation Brief 4 directs a visible historic roof to match in kind...'; content[2]: '**Standing seam metal** suits Federal and Georgian facades, where Brief 4 names metal — tin plate, terne plate, copper, and zinc...'; content[3]: 'the Colonial Revival housing that fills Essex County's suburbs, where laminated shingles...'. Relocate/soften the era structure; do not delete the substyle organization.",
+    "refuteReason": "Survives: facts-historic-restoration.md line 187 ('Common historic roof materials named in Brief 4 | Slate, clay tile, wood shingle, and metal') shows Brief 4 supplies only period materials, not style date ranges; the year ranges trace to no pack; .md GAPS line 25 admits they are author-added yet tags them to Brief 4."
+  },
+  {
+    "id": "F3",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[0].content[3]",
+    "quote": "the Colonial Revival housing (1880–1955) that fills Maplewood, West Orange, Livingston, and the Caldwells",
+    "issue": "No fact pack names Maplewood, West Orange, Livingston, or the Caldwells as Colonial Revival concentrations. facts-historic-restoration.md §8/§13 names only Newark (lines 305–306, James Street Commons / Lincoln Park), Montclair (line 307), and Glen Ridge (line 308) — all for LOCAL historic ordinances — and Gaps §5 (lines 408–412) explicitly bans asserting a district's material/style concentration as fact ('Do not write \"many slate roofs in the James Street Commons district\" as fact. Keep local copy generic unless verified'). Stating these four municipalities are Colonial-Revival-filled is an unsourced locator asserted as fact, and the .md GAPS line 52 calls them 'sourced' when no pack supports them.",
+    "fix": "Soften to a non-asserted generality and drop the unsourced municipality list: 'the Colonial Revival housing common across Essex County's suburbs, where laminated shingles in charcoal, weathered-wood, or slate-gray tones carry the textured shadow line of wood or slate at $6.50–$11.00 per NJ square foot, per Josten Roofing.' (combine with F1: Josten stays only on the price).",
+    "refuteReason": "Survives: facts-historic-restoration.md lines 305–308 name only Newark/Montclair/Glen Ridge, and Gaps §5 lines 408–412 forbid asserting a district material/style concentration as fact unless verified; the four municipalities and their Colonial-Revival tie trace to no pack. The .md author's claim they are 'sourced' (GAPS line 52) is unsupported."
+  },
+  {
+    "id": "F4",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[2].content[2]",
+    "quote": "with snow guards added over Colonial entryways to control shed snow, per NOAA normals and ASCE 7-16 wind maps",
+    "issue": "The snow-guard practice is attributed to NOAA normals and ASCE 7-16 wind maps, neither of which describes snow guards — NOAA = snowfall normals (facts-nj-regulatory-climate.md line 127), ASCE 7-16 = wind/snow-load design values (lines 132/153). The gold exemplar (material-vs-material.ts line 45, asphalt-vs-metal) attributes the identical claim correctly to NRCA: 'shed snow requires snow guards over entryways, per ASCE wind maps and NRCA guidance.' This object dropped the NRCA attribution that actually backs the snow-guard practice.",
+    "fix": "Match the gold exemplar: change '...with snow guards added over Colonial entryways to control shed snow, per NOAA normals and ASCE 7-16 wind maps.' → '...with snow guards added over Colonial entryways to control shed snow, per ASCE 7-16 wind maps and NRCA guidance.' (ASCE stays for the 110–115 mph wind figure earlier in the sentence; add NRCA for the snow-guard practice; drop the NOAA tag here since the 31.5-inch figure is already attributed in content[0]).",
+    "refuteReason": "Survives: the committed gold exemplar material-vs-material.ts line 45 attributes the same snow-guard claim 'per ASCE wind maps and NRCA guidance'; facts-nj-regulatory-climate.md lines 127/153 confirm NOAA and ASCE cover snowfall and wind/load, not snow guards. NRCA is the correct backing source and was dropped."
+  },
+  {
+    "id": "F5",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[2].content[0]",
+    "quote": "against 31.5 inches of average annual snowfall and roughly 35–45 freeze-thaw cycles, per the InterNACHI chart and NOAA 1991–2020 normals",
+    "issue": "The 35–45 freeze-thaw figure is bundled under 'per ... NOAA 1991–2020 normals,' but facts-nj-regulatory-climate.md lines 141–142 flag it [UNVERIFIED]: 'Industry/regional estimates ... roughly 35–45 freeze-thaw cycles. Source: regional roofing guidance. [UNVERIFIED — not a NOAA-published metric; treat the 35–45 figure as an estimate, not an official statistic.]' Only the 31.5\" snowfall is NOAA-sourced (line 127). The NOAA tag wrongly lends the freeze-thaw estimate an authority it lacks — the exact CMP-3 lesson ('NOAA backs only the 31.5\" snowfall NOT the 35–45 freeze-thaw').",
+    "fix": "Separate the attributions: change '...against 31.5 inches of average annual snowfall and roughly 35–45 freeze-thaw cycles, per the InterNACHI chart and NOAA 1991–2020 normals.' → '...against 31.5 inches of average annual snowfall (NOAA 1991–2020 normals) and an estimated 35–45 freeze-thaw cycles each north-NJ winter, per the InterNACHI chart.' Tie NOAA only to the snowfall; frame the freeze-thaw count as a regional estimate, not a NOAA statistic. (The gold exemplar material-vs-material.ts line 184 does this — NOAA tied only to '31.5 inches of annual snowfall'.)",
+    "refuteReason": "Survives: facts-nj-regulatory-climate.md lines 141–142 explicitly mark 35–45 freeze-thaw as [UNVERIFIED — not a NOAA-published metric, an estimate]; line 127 attributes only the 31.5\" snowfall to NOAA. The bundled NOAA tag mis-authorizes the estimate."
+  },
+  {
+    "id": "F6",
+    "severity": "low",
+    "dimension": "answerFirst",
+    "field": "njSpecific.content",
+    "quote": "**The NJ Uniform Construction Code**, **the local historic-district ordinance**, and **the Rehabilitation Subcode** govern a Colonial re-roof ...",
+    "issue": "The njSpecific lead (content[0]) enumerates THREE bolded topics, but the body has only TWO paragraphs — content[1] opens '**The local historic-district ordinance**' and content[2] opens '**The Rehabilitation Subcode**.' '**The NJ Uniform Construction Code**' is bolded in the lead but never re-developed in an njSpecific body paragraph; its substance (the 1–2-family ordinary-maintenance exemption, N.J.A.C. 5:23-2.7) is instead developed in commercialSection.content[1]. This is an R21 count-matching mismatch ('if the lead enumerates N items, the body covers those N in sequence') even though the R3 body⊆lead bold check passes.",
+    "fix": "Add a short njSpecific body paragraph opening with '**The NJ Uniform Construction Code**' developing the detached 1–2-family ordinary-maintenance reroof exemption (relocating the 5:23-2.7 fact already used in commercialSection), e.g.: '**The NJ Uniform Construction Code** exempts an ordinary-maintenance reroof on a detached one- or two-family dwelling from a UCC permit, while roof work on other structures triggers a permit once it exceeds 25% of roof area within a 12-month period, per N.J.A.C. 5:23-2.7 and 5:23-2.7(c).' Place it as the first body paragraph so all three lead topics develop in lead order. Relocates an existing pack fact; invents nothing.",
+    "refuteReason": "Survives: ruleset R21 (line 57) requires the body to cover the N lead-enumerated items in sequence (count matching, Rule 8); the lead bolds 3 topics but only 2 are developed in njSpecific — the UCC is orphaned. Low severity, as marked."
+  }
+]
