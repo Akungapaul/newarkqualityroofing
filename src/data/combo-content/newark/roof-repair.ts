@@ -3,61 +3,71 @@ import type { ComboContent } from '../schema';
 export const newarkRoofRepair: ComboContent = {
   serviceId: 'roof-repair',
   cityId: 'newark',
+  directAnswer:
+    '**Newark Quality Roofing provides roof repair across Newark and Essex County, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** on row houses, brownstones, and Ironbound flat roofs as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Need roof repair in a city where row houses, flat roofs, and commercial blocks share tight rooflines? Newark Quality Roofing delivers expert roof repair in Newark — with prices starting from $350–$1,500 and free estimates available today. Newark\'s roofing landscape tells the story of a city built in layers -- Victorian-era brownstones in Forest Hill pressed shoulder-to-shoulder against their neighbors, mid-century multi-family walk-ups lining the avenues of Roseville, and flat-roofed commercial blocks anchoring the Ironbound district. Roof repair here is never a simple patch job. The density of construction, the age of materials, and the shared structural elements between adjacent buildings mean that every repair demands an understanding of how water, wind, and time interact with Newark\'s particular building stock.',
-    'Brownstone rows throughout the North Ward and Forest Hill present a recurring challenge: party walls. These shared masonry dividers between row houses create seams where flashing deteriorates, mortar joints crack, and water finds paths that no single homeowner can address alone. A roof repair on one unit frequently reveals damage migrating from -- or toward -- the adjoining property. Our crews understand the diplomacy and technical coordination required when repair work spans property lines, and we carry the liability coverage that Newark\'s multi-party repair situations demand.',
-    'The Ironbound neighborhood, with its mix of Portuguese bakeries, Brazilian restaurants, and light industrial buildings, presents flat-roof repair challenges distinct from the pitched residential roofs found in Vailsburg or Weequahic. Commercial membrane roofs in the Ironbound accumulate standing water behind parapets, develop blistering under Newark\'s urban heat island effect, and suffer punctures from rooftop HVAC equipment that serves the dense commercial district below. Repairing these roofs requires material knowledge that goes beyond residential shingle work.',
-    'From the steep slate roofs of Forest Hill\'s historic estates to the modified bitumen surfaces atop Downtown\'s mixed-use buildings along Broad Street, Newark demands roof repair technicians who can move fluently between eras and materials. Our team brings that versatility -- we carry both traditional copper soldering equipment and modern single-ply welding gear on every service call, because in Newark, you never know which century\'s roofing system you\'ll encounter until you\'re standing on it.'
+    '**Newark Quality Roofing repairs roof leaks, missing and cracked shingles, flashing failures, and storm damage** across Newark\'s attached row houses, Forest Hill brownstones, and Ironbound flat roofs. Roof repair restores the water layer at the detail that admits water, from a single failed pipe boot to full storm-damage restoration.',
+    '**Roof leaks** in Newark trace to one detail and travel before showing as an interior stain, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing repair diagnoses the root cause before sealing the failed component, following the moisture path from ridge to eave, per Integrity Home Exteriors repair-process guidance.',
+    '**Flashing failures** concentrate at the party walls of the dense attached housing in the North Ward, Forest Hill, and Roseville, where step and counter-flashing meets aged mortar between row houses. A Newark Quality Roofing repair reseals the metal at chimneys, walls, skylights, and valleys, the most common leak source per GAF technical guidance, and documents the work for any shared-wall property record.',
+    '**Storm damage** strips shingles and tears membrane seams across Newark\'s pitched residential roofs in Vailsburg and Weequahic and the low-slope commercial blocks of the Ironbound, where wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute (Triple-I, 2019–2023). A Newark Quality Roofing repair documents the damage with timestamped photographs for the adjuster.',
   ],
   challenges: [
-    'The number one roof repair challenge in Newark is water infiltration through shared party walls. With thousands of attached brownstones and row houses across the North Ward, Forest Hill, and Roseville, the typical repair isn\'t isolated to one roof plane. Water travels laterally through deteriorated mortar joints, bypasses flashing that was installed decades before modern building codes, and emerges inside a living space two or three units away from the actual point of failure. Diagnosing these migrating leaks requires systematic moisture testing along the entire row, not just the unit reporting damage.',
-    'Newark\'s position within the urban heat island corridor between the Passaic River and Newark Bay amplifies thermal cycling on roofing materials. Summer roof surface temperatures regularly exceed 160 degrees Fahrenheit on dark asphalt shingles in the Central Ward, while winter freeze-thaw cycles crack aging flashing and split deteriorated caulk joints. This thermal whiplash accelerates the aging of repair materials -- a patch that might last seven years in a suburban setting may fail in three or four on a sun-baked Newark rooftop with no shade canopy.',
-    'Access complications define many Newark roof repairs. Multi-story brownstones on narrow lots in the North Ward leave no room for standard ladder placement. Fire escapes obstruct sections of roof edge. Parapet walls on commercial buildings downtown create confined working spaces. In the Ironbound, buildings frequently abut sidewalks with no setback, requiring traffic coordination with the city for aerial lift placement. Every repair job in Newark starts with an access plan before a single shingle gets touched.'
+    '**Party-wall leaks** are the defining roof-repair challenge in Newark, because water migrates laterally through the shared masonry between attached brownstones and row houses, emerging inside a unit away from the actual point of failure. A Newark Quality Roofing diagnosis traces the full water path across the row, not the visible drip.',
+    '**Access constraints** complicate many Newark repairs, because multi-story brownstones on narrow North Ward lots, fire escapes at the roof edge, and zero-setback Ironbound buildings leave no room for standard ladder placement. A Newark Quality Roofing job sets an access and staging plan before any work on the roof begins.',
+    '**Flat-roof membranes** on Ironbound and Downtown commercial blocks fail at the seams and at rooftop-equipment penetrations, where ponding water held more than 48 hours counts as a defect and a low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA. A Newark Quality Roofing repair maps standing water and reseals the failed seam.',
+    '**Freeze-thaw cycling** stresses Newark flashing and sealants, because the city crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR). Heat escape from poorly insulated brownstone attics drives ice dams that force meltwater under shingles, per University of Minnesota Extension ice-dam guidance.',
   ],
   process: [
-    'Roof repair in Newark begins with a thorough access assessment. Our crew chief evaluates the building from street level, noting fire escape locations, adjacent building proximity, overhead utility lines, and available staging areas. For brownstones in the North Ward, this often means coordinating with neighboring property owners for ladder and scaffold placement. We submit sidewalk obstruction permits to the Newark Department of Engineering when aerial lifts are needed on zero-setback commercial buildings in the Ironbound or along Broad Street.',
-    'Once on the roof, our diagnostic approach accounts for Newark\'s attached-building reality. We don\'t just inspect the reported leak area -- we trace the full water path from ridge to gutter, checking every party wall flashing joint, valley intersection, and penetration point. For flat commercial roofs, we perform standing-water mapping and membrane adhesion testing. Our repair specification identifies every contributing failure point, not just the most visible symptom, because in Newark\'s interconnected building stock, a partial repair is often no repair at all.',
-    'After completing repairs, we document everything with timestamped photographs keyed to a roof diagram. This documentation serves Newark homeowners during insurance claims, satisfies property management companies overseeing multi-family buildings, and provides a baseline for future inspections. For party-wall repairs involving multiple properties, we provide separate documentation packages to each owner -- a necessity in Newark\'s row-house landscape where shared responsibility demands shared information.'
+    '**Newark Quality Roofing inspects the roof from ridge to eave, traces the moisture path to the root-cause detail, and stabilizes any active leak before the permanent repair.** A crew checks every party-wall flashing joint, valley, and penetration, because the roofing industry estimates that roughly 90–95% of leaks trace to flashing, an industry estimate attributed to the NRCA.',
+    '**Newark Quality Roofing repairs the failed component to manufacturer specification with a written workmanship warranty.** Flashing fabricated from corrosion-resistant stock matches the existing color and product line, and membrane and low-slope systems use manufacturer-approved bonding that keeps a system warranty intact. A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance.',
+    '**Newark Quality Roofing documents the completed repair with timestamped photographs keyed to a roof diagram.** The documentation supports a homeowner insurance claim, satisfies a multi-family property manager, and gives each owner of an attached row a separate record for a shared party-wall repair, per Integrity Home Exteriors documentation guidance.',
   ],
   faqs: [
     {
-      question: 'How do you handle roof repairs on Newark brownstones where the damage crosses a party wall?',
-      answer: 'Party wall repairs require coordination with adjacent property owners. We perform moisture testing on both sides of the shared wall to map the full extent of water migration. Our proposal covers the full repair scope with cost allocation options for each owner. We carry insurance specifically covering multi-party repair situations, which is essential for Newark\'s attached housing stock. If the neighboring owner is unresponsive, we can still repair your side with enhanced waterproofing at the party wall junction to isolate your unit from ongoing migration.'
-    },
-    {
       question: 'Do I need a permit from Newark for a roof repair?',
-      answer: 'Minor repairs such as replacing damaged shingles, resealing flashing, or patching a small membrane area typically do not require a Newark building permit. However, repairs that involve structural modifications, replacement of more than 25% of the roof surface, or changes to drainage patterns do require permits from the Newark Department of Buildings and Code Enforcement. We handle all permit applications when required and ensure repair work meets current Newark building code standards, including wind uplift requirements that were updated after recent storm seasons.'
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit. Newark enforces the state classification through the Newark Department of Engineering, Building Division.',
     },
     {
-      question: 'Why does my North Ward brownstone keep developing leaks in the same spot every winter?',
-      answer: 'Recurring leaks on North Ward brownstones almost always trace back to one of three causes: deteriorated step flashing where the roof meets the party wall, failed counter-flashing embedded in aging mortar joints, or ice dam formation in the narrow valleys created by intersecting roof planes. The freeze-thaw cycling in Newark -- amplified by heat loss from poorly insulated brownstone attics -- creates ice dams that force water under shingles repeatedly each winter. A lasting repair addresses the root cause: improving flashing details and, when possible, adding ice-and-water shield membrane in the vulnerable zones.'
+      question: 'How do you handle roof repairs on Newark brownstones where the leak crosses a party wall?',
+      answer:
+        'A Newark Quality Roofing diagnosis maps the full water path across the shared masonry, because water migrates laterally between attached units and emerges away from the point of failure. A crew traces every party-wall flashing joint before sealing the failed detail, and provides each owner of the attached row a separate documentation package for the shared-wall record. Where one side stays accessible, a repair isolates that unit with reworked flashing at the party-wall junction.',
     },
     {
-      question: 'How quickly can you respond to an active roof leak at a commercial building in the Ironbound?',
-      answer: 'We maintain a rapid-response capability for Newark commercial properties and can typically have a crew on-site within two to four hours during business hours. For Ironbound commercial buildings specifically, we keep temporary membrane patch materials and commercial-grade sealants staged at our Newark facility because flat-roof leaks in that district are among our most frequent emergency calls. The immediate goal is always to stop active water entry; we then schedule the permanent repair within the following week based on weather conditions and material availability.'
+      question: 'Does a roof repair on a Forest Hill or James Street Commons historic home need extra approval?',
+      answer:
+        'A roof repair in a Newark historic district can require a Certificate of Appropriateness from the Newark Landmarks and Historic Preservation Commission under Newark Municipal Code Chapter 41:10. James Street Commons and Lincoln Park are confirmed local-designated districts where a COA applies. Newark\'s ordinance auto-designates pre-2007 Register districts as local landmarks, so a Forest Hill owner verifies a specific parcel\'s local status before assuming a COA. Register listing alone places no restriction on a private owner, per the National Park Service.',
     },
     {
-      question: 'What roof repair materials hold up best in Newark\'s urban heat island climate?',
-      answer: 'For pitched residential roofs in Newark, we recommend architectural shingles rated for high thermal cycling -- specifically products with SBS-modified asphalt that maintains flexibility through temperature extremes. For flat commercial roofs, TPO and PVC membranes with high reflectivity ratings reduce surface temperature and resist the UV degradation that accelerates in Newark\'s heat island. We avoid standard 3-tab shingles on sun-exposed Newark roofs because their rigid composition cracks faster under the thermal stress that our urban environment produces.'
+      question: 'Why does my North Ward brownstone keep leaking in the same spot every winter?',
+      answer:
+        'Recurring winter leaks on a North Ward brownstone trace to deteriorated step flashing at the party wall, failed counter-flashing in aged mortar, or ice-dam backup in the valleys between intersecting roof planes. Newark crosses the 32°F freezing point repeatedly, with an average January low near 25.5°F per NOAA 1991–2020 normals at Newark Liberty (EWR), and heat escape from a poorly insulated attic drives the ice dam that forces meltwater under the shingles, per University of Minnesota Extension. A lasting repair reworks the flashing detail and adds ice-and-water barrier in the vulnerable zone.',
+    },
+    {
+      question: 'What roof repair materials hold up on Newark flat and pitched roofs?',
+      answer:
+        'For a low-slope Ironbound or Downtown commercial roof, EPDM, TPO, and modified-bitumen membranes serve 15–25, 7–20, and 20 years respectively, per the InterNACHI life-expectancy chart, and a Newark Quality Roofing repair reseals the failed seam where each system fails. For a pitched residential roof in Vailsburg or Weequahic, architectural asphalt shingles tie back into the existing field to manufacturer specification. A low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA.',
     },
     {
       question: 'How much does roof repair cost in Newark, NJ?',
-      answer: 'Most roof repair projects in Newark range from $350–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Roof-leak repair in New Jersey costs $400–$1,000, and a flashing reseal or small flashing section runs $200–$500, per HomeAdvisor and Modernize cost data. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60% of a repair total and NJ code is stricter, per Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Expert roof repair in Newark NJ -- brownstone party wall leaks, flat roof patching, and multi-story access solutions for every neighborhood.',
+  metaDescription:
+    'Roof repair in Newark NJ — brownstone party-wall leaks, Ironbound flat-roof membranes, flashing reseals, and storm damage. NJ-licensed, free written estimate.',
   pricing: {
-    range: '$350–$1,500',
-    note: 'depending on scope and materials',
+    range: '$400–$1,000',
+    note: 'Typical NJ leak-repair range per HomeAdvisor; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Newark\'s row-house, brownstone, and flat-roof building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof repair estimate in Newark — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof repair in Newark.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

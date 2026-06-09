@@ -3,57 +3,72 @@ import type { ComboContent } from '../schema';
 export const newarkCedarShakeRoofing: ComboContent = {
   serviceId: 'cedar-shake-roofing',
   cityId: 'newark',
+  directAnswer:
+    '**Newark Quality Roofing provides cedar shake roofing across Newark**, installing and repairing **western red cedar shake** roofs over a ventilated deck on the city\'s historic single-family stock, as a New Jersey Home Improvement Contractor, licensed and insured.',
   overview: [
-    'More than half of Newark roof problems trace back to age, access, drainage, or weather exposure. Newark Quality Roofing delivers expert cedar shake roofing in Newark — with prices starting from $15,000–$32,000 and free estimates available today. Cedar shake roofing represents the premium tier of natural wood roofing available to Newark homeowners who value authentic craftsmanship over mass-produced uniformity. While the wood-shake-roofing category addresses wood roofing broadly, cedar shakes occupy a specific niche defined by the western red cedar species -- a wood prized for its natural resistance to decay, insect damage, and moisture absorption. In Newark, cedar shake installations concentrate in the established residential enclaves of upper Forest Hill and the tree-lined blocks of Roseville where mature landscaping and period architecture create the setting this material deserves.',
-    'The distinction between cedar shakes and cedar shingles matters in Newark specifications. Shakes are split from cedar bolts along the natural grain, producing a thick, textured surface with rustic dimensional variation. Shingles are sawn smooth on both faces, yielding a uniform, tailored appearance. Newark projects in historic neighborhoods often specify hand-split and resawn shakes that combine the textured face of a split shake with the uniform thickness of a sawn product, providing both visual character and reliable coursing for weather protection.',
-    'Fire treatment technology has made cedar shakes viable in Newark urban density where untreated wood roofing cannot meet code. Pressure-impregnated fire retardant penetrates the full cross-section of each shake, achieving Class A fire ratings that satisfy Newark building department requirements for attached and closely spaced structures. The treatment does not significantly alter the cedar color or grain character, though it may reduce the rate at which the wood weathers to the silver-gray patina that many homeowners associate with aged cedar.',
-    'Property owners considering cedar shakes for Newark commercial applications -- primarily restaurants, boutique hotels, and specialty retail -- should understand that the material demands a maintenance commitment that commercial tenants may not prioritize. We recommend cedar shakes for owner-occupied commercial properties where the decision-maker directly benefits from the aesthetic and directly controls the maintenance schedule.',
+    '**Cedar shake roofing** installs hand-split **western red cedar** over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. **Newark Quality Roofing** delivers new installation, shake replacement, the ventilated deck system, and preservative maintenance across the city.',
+    '**Cedar shake** suits Newark\'s period housing best in the North Ward, where **Forest Hill** retains the city\'s densest concentration of 1870s–1920s Victorian, Colonial, and Beaux-Arts single-family homes, and the **Roseville** Victorian brownstones and row-homes nearby. Cedar shake lasts 20 to 40 years, per the Cedar Shake and Shingle Bureau, against the single "Wood" service life of 25 years on the InterNACHI life-expectancy chart.',
+    '**Western red cedar** carries natural extractives that resist decay, but moisture management, not the cedar itself, sets the lifespan. A cedar shake roof requires at least 1.5 inches of air space beneath the shakes for drying, and north-facing and shaded slopes degrade faster, per Cedar Shake and Shingle Bureau and NRCA guidance, so a Newark Quality Roofing cedar installation builds the ventilation path before the first course.',
+    '**Newark Quality Roofing** sources cedar shakes graded to Cedar Shake and Shingle Bureau standards and fastens with stainless-steel nails that match the 20-to-40-year cedar service life. On attached and closely spaced buildings, only pressure-impregnated fire-retardant cedar shakes carry a Class B or Class C fire rating, with a Class A wood roof reached only as a component assembly, per the Cedar Shake and Shingle Bureau Certi-Guard program.',
   ],
   challenges: [
-    'Moisture retention in Newark humid urban microclimate is the primary adversary of cedar shake longevity. Dense building placement reduces wind-driven drying on protected roof planes, and mature tree canopy in neighborhoods like Forest Hill creates persistent shade that keeps cedar surfaces damp for extended periods after rainfall. This sustained moisture exposure promotes the fungal colonization that breaks down cedar fiber structure from the surface inward. Adequate air circulation beneath the shake courses through properly spaced skip sheathing is the primary defense, supplemented by zinc or copper ridge strips that release fungicidal ions during rain events.',
-    'Moss colonization on shaded cedar shake surfaces in Newark progresses faster than in open suburban settings. Dense moss mats trap moisture against the wood, accelerate rot, and create an environment hospitable to wood-boring beetles. North-facing roof slopes and areas shaded by adjacent buildings or trees require proactive moss management beginning within two to three years of installation. Manual removal combined with zinc strip replacement at the ridge line provides long-term control without the chemical treatments that can damage cedar fibers and void manufacturer warranties.',
-    'Insurance underwriting for cedar shake roofs in Newark requires advance coordination that many homeowners discover too late. The urban fire risk profile, combined with the combustible nature of wood roofing, leads some carriers to decline coverage or impose premiums that make cedar shakes economically impractical. We recommend obtaining a binding insurance quote with the specific fire-rated cedar product specification before signing a roofing contract, preventing the situation where a completed roof cannot be insured at an acceptable cost.',
+    '**Trapped moisture** causes most premature cedar shake decay in Newark, where dense building placement and mature tree canopy on the Forest Hill blocks slow the underside drying a cedar field requires. North-facing and shaded slopes degrade faster, per Cedar Shake and Shingle Bureau and NRCA guidance.',
+    '**Newark\'s dense urban core runs roughly three-quarters renter-occupied, with only 24.4% owner-occupied** and a housing stock weighted toward two- and three-family and apartment buildings, per U.S. Census figures. Cedar shake concentrates instead on the owner-occupied single-family stock that the North Ward and Vailsburg retain, where a decision-maker controls the maintenance schedule the material requires.',
+    '**Attached row-houses and party-wall homes** in Roseville and the Ironbound carry a fire-classification constraint, because untreated cedar shakes are nonclassified under UL 790 and ASTM E108. Only pressure-impregnated fire-retardant cedar achieves the Class B or Class C rating that closely spaced Newark structures require, per the Cedar Shake and Shingle Bureau Certi-Guard program.',
+    '**Newark\'s landmark districts** add a review gate on cedar shake replacement. The Newark Landmarks and Historic Preservation Commission issues Certificates of Appropriateness under Newark Municipal Code Chapter 41:10, and the ordinance auto-designates pre-2007 Register districts as local landmarks, so a property in James Street Commons or Lincoln Park carries a COA requirement that a North Ward parcel often does not.',
   ],
   process: [
-    'Cedar shake projects in Newark follow a front-loaded process where code review, insurance verification, and material selection consume more time than the physical installation. We confirm fire rating requirements for the property address, verify that the selected cedar shake product carries the required ASTM and UL classification certificates, and coordinate with the homeowner insurance carrier to obtain written coverage confirmation. Only after these prerequisites are satisfied do we proceed to material ordering and scheduling.',
-    'Installation begins with ice-and-water shield application at eaves, valleys, and all penetration points over the solid deck sheathing. Skip sheathing consisting of one-by-four or one-by-six boards is then installed at spacings calculated to the shake exposure, creating the ventilation channels that are non-negotiable for cedar performance in Newark humidity. Each shake course is offset with side joints staggered by at least one and one-half inches from the course below. Stainless steel ring-shank nails placed one inch from each edge and one inch above the exposure line provide corrosion-free fastening that will not react with cedar extractives over the decades of service life.',
-    'Ridge and hip details use alternating overlap construction with each shake trimmed to maintain consistent exposure. Valley treatment uses a closed-cut method with copper step flashing beneath, eliminating the open metal valley that collects debris and concentrates water flow against exposed shake edges. Completion includes zinc strip installation at all ridge lines and a thorough debris cleanup that removes every cedar fragment from gutters, walkways, and adjacent property to prevent staining and drainage obstruction.',
+    '**Newark Quality Roofing builds the ventilation path first**, setting the deck and interlayment so at least 1.5 inches of air space sits beneath the cedar shakes for underside drying. Trapped moisture causes most premature cedar shake decay, and the NRCA and ARMA size attic ventilation at 1 square foot of net-free vent area per 150 square feet of attic floor.',
+    '**Newark Quality Roofing inspects the cedar field and the deck**, applies the flex test for advanced degradation per InterNACHI guidance, and confirms the permit and review path. A re-roof of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a property in a designated landmark district requires a Certificate of Appropriateness under Newark Municipal Code Chapter 41:10. The permit office is the Newark Department of Engineering, Building Division, at 920 Broad Street.',
+    '**Newark Quality Roofing hand-grades each cedar shake** and fastens with stainless-steel nails that match the cedar service life. The crew strips the existing covering to the bare deck, because N.J.A.C. 5:23-6.4 requires complete removal of a wood-shake, slate, or tile covering rather than a recover-over, then sorts the thicker shakes to the eave courses to accommodate the wood movement that Essex County humidity drives.',
+    '**Newark Quality Roofing integrates corrosion-resistant flashing** at valleys, penetrations, and party-wall transitions and verifies watertight execution, then runs a magnet sweep for nails at cleanup and applies the initial preservative that opens the maintenance cadence. Cedar shake debris and fragments clear from gutters, walkways, and adjacent property before the crew leaves.',
   ],
   faqs: [
     {
-      question: 'What is the difference between cedar shakes and the wood shakes you also offer in Newark?',
-      answer: 'Cedar shakes are specifically made from western red cedar, which has natural decay and insect resistance superior to other wood species. Our wood shake category includes treated pine, cypress, and other species options. For Newark installations, we most commonly recommend cedar for its combination of natural durability, consistent availability, and the established fire treatment products that achieve Class A ratings required by Newark building codes.',
+      question: 'How long does a cedar shake roof last in Newark?',
+      answer:
+        'A cedar shake roof lasts 20 to 40 years, per the Cedar Shake and Shingle Bureau, against the single "Wood" service life of 25 years on the InterNACHI life-expectancy chart. Moisture management sets the cedar lifespan, because the roof requires at least 1.5 inches of underside air space for drying and shaded slopes degrade faster, a constraint that matters on the tree-canopied Forest Hill blocks.',
     },
     {
-      question: 'How often does a cedar shake roof in Newark need maintenance?',
-      answer: 'We recommend annual inspection and debris removal for all cedar shake roofs in Newark. Moss treatment on shaded slopes is typically needed every two to three years. Fire retardant reapplication follows the product manufacturer schedule, usually every seven to ten years. Prompt replacement of individual split or curled shakes as they appear prevents water infiltration that damages the underlayment and sheathing beneath.',
+      question: 'Where in Newark does cedar shake roofing fit best?',
+      answer:
+        'Cedar shake fits Newark\'s owner-occupied single-family stock, concentrated in the North Ward where Forest Hill retains 1870s–1920s Victorian, Colonial, and Beaux-Arts homes and Roseville carries Victorian brownstones and row-homes. Newark runs roughly three-quarters renter-occupied, with 24.4% owner-occupied, per U.S. Census figures, so cedar suits the period single-family homes rather than the dense multi-family core.',
     },
     {
-      question: 'Will a cedar shake roof increase my Newark property value?',
-      answer: 'Cedar shake roofing is recognized as a premium material that adds curb appeal and perceived quality to Newark homes, particularly in established neighborhoods like Forest Hill where period-appropriate materials are valued. However, the value premium depends on the buyer pool -- some buyers view the maintenance commitment as a drawback. In neighborhoods where cedar is part of the existing architectural character, the material supports higher sale prices relative to standard asphalt shingle installations.',
+      question: 'Can cedar shakes go on my Newark row house or attached home?',
+      answer:
+        'Cedar shakes go on an attached or closely spaced Newark home only with a Class B or Class C fire rating, achieved through pressure-impregnated fire-retardant treatment. Untreated cedar is nonclassified under UL 790 and ASTM E108, and a Class A wood roof is reached only as a component assembly of fire-retardant shakes over a fire-retardant cap sheet, per the Cedar Shake and Shingle Bureau Certi-Guard program.',
     },
     {
-      question: 'Can cedar shakes be installed on my Newark row house or attached home?',
-      answer: 'Yes, provided the shakes carry a Class A fire rating achieved through pressure-impregnated fire retardant treatment. Newark building code requires this fire classification for attached dwellings and buildings within specified proximity to adjacent structures. We only install fire-rated cedar products on attached Newark homes and provide the fire classification documentation required for the building permit.',
+      question: 'Do you need a permit or historic approval for a cedar shake roof in Newark?',
+      answer:
+        'A cedar shake re-roof of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a commercial, multi-family, or structural job does. A property in a designated landmark district such as James Street Commons or Lincoln Park requires a Certificate of Appropriateness under Newark Municipal Code Chapter 41:10; verify a specific parcel\'s local status before assuming a COA applies.',
+    },
+    {
+      question: 'How do you maintain a cedar shake roof in Newark\'s climate?',
+      answer:
+        'Cedar shake maintenance clears moss, lichen, and debris off the shakes and reapplies preservative at roughly $0.15 to $0.60 per square foot every few years, per HomeGuide cost data, because moisture against the wood causes most cedar decay. The NRCA recommends a roof inspection twice per year, spring and fall, plus an inspection after any major storm, the cadence that catches cupping and edge splitting early.',
     },
     {
       question: 'How much does cedar shake roofing cost in Newark, NJ?',
-      answer: 'Most cedar shake roofing projects in Newark range from $15,000–$32,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A full roof replacement in New Jersey runs $10,000 to $25,000, per HomeAdvisor and Modernize, with premium cedar shake at the upper end of that range. Final cost depends on roof size, pitch, material grade, and access, and preservative maintenance adds roughly $0.15 to $0.60 per square foot every few years, per HomeGuide. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Cedar shake roofing in Newark NJ. Premium western red cedar with Class A fire treatment for Forest Hill and Roseville homes. Insurance coordination included.',
+  metaDescription:
+    'Cedar shake roofing in Newark, NJ. Western red cedar over a ventilated deck for Forest Hill and Roseville homes, with fire-rated cedar for attached buildings.',
   pricing: {
-    range: '$15,000–$32,000',
-    note: 'premium cedar shake with preservative treatment',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize, with premium cedar shake at the upper end; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Newark — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Newark\'s Forest Hill Victorian, Roseville brownstone, and row-house building stock.',
+    'Cedar shakes graded to Cedar Shake and Shingle Bureau standards over a ventilated deck with at least 1.5 inches of underside air space for drying.',
+    'Free, detailed written estimates with no obligation.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free cedar shake roofing estimate in Newark — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for cedar shake roofing in Newark.',
+    urgencyNote: 'Clearing moss and debris and reapplying preservative on schedule slows the moisture-driven decay that shortens cedar shake service life.',
   },
 };
