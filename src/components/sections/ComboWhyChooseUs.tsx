@@ -63,8 +63,8 @@ function buildContextualReasons(
 
   return [
     `Specialized ${serviceLC} experience in ${cityName} — we know the local building stock, codes, and common issues specific to ${cityName} homes and businesses.`,
-    `NJ licensed and GAF Certified with 15+ years of ${serviceLC} projects across Essex County.`,
+    `Fully licensed and insured for ${serviceLC} work throughout Essex County, New Jersey.`,
     `Transparent, written estimates for every ${serviceLC} project — no hidden fees and no pressure to commit.`,
-    `Local ${cityName} crew providing same-day estimates and 24/7 emergency response when you need us most.`,
+    `A local ${cityName} crew familiar with the area's permitting and property-access challenges.`,
   ];
 }

@@ -1,3 +1,5 @@
+import { parseRichText } from '@/lib/rich-text';
+
 interface ComboFaqsProps {
   faqs: { question: string; answer: string }[];
 }
@@ -31,8 +33,8 @@ export function ComboFaqs({ faqs }: ComboFaqsProps) {
                 />
               </svg>
             </summary>
-            <div className="pb-4 font-body text-base leading-relaxed text-text-secondary">
-              {faq.answer}
+            <div className="pb-4 font-body text-base leading-relaxed text-text-secondary [&_strong]:font-semibold [&_strong]:text-forest">
+              {parseRichText(faq.answer)}
             </div>
           </details>
         ))}

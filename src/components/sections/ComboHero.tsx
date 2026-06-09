@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { LeadForm } from '@/components/forms/LeadForm';
 import { PhoneNumber } from '@/components/ui/PhoneNumber';
 import { Breadcrumbs } from '@/components/sections/Breadcrumbs';
+import { parseRichText } from '@/lib/rich-text';
 import { getServiceHeroImage, getCityHeroImage } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
 import type { Service, City } from '@/lib/types';
@@ -24,9 +25,12 @@ interface ComboHeroProps {
   service: Service;
   city: City;
   serviceGroups: NavServiceGroup[];
+  /** Answer-first hero answer (≤40 words, pre-bolded via **markdown**). Optional —
+   *  combos without it render exactly as before. */
+  directAnswer?: string;
 }
 
-export function ComboHero({ service, city, serviceGroups }: ComboHeroProps) {
+export function ComboHero({ service, city, serviceGroups, directAnswer }: ComboHeroProps) {
   const categoryLabel = categoryLabels[service.category] ?? service.category;
 
   // Try service hero first, then city hero, then fallback
@@ -109,6 +113,13 @@ export function ComboHero({ service, city, serviceGroups }: ComboHeroProps) {
             >
               {h1Text}
             </h1>
+
+            {directAnswer && (
+              <p className="mt-5 font-body text-base leading-relaxed text-parchment/90 sm:text-lg [&_strong]:font-semibold [&_strong]:text-copper-light">
+                {parseRichText(directAnswer)}
+              </p>
+            )}
+
             {/* Compact trust bar -- 3 items inline (combo-specific, not benefit list) */}
             <div
               className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 font-body text-sm text-parchment/80"

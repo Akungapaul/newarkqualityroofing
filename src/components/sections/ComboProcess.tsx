@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { getSectionImages } from '@/data/image-manifest';
+import { parseRichText } from '@/lib/rich-text';
 
 interface ComboProcessProps {
   steps: string[];
@@ -44,8 +45,8 @@ export function ComboProcess({ steps, heading }: ComboProcessProps) {
                 {index + 1}
               </div>
             )}
-            <p className="pt-0.5 font-body text-base leading-relaxed text-text-secondary">
-              {step}
+            <p className="pt-0.5 font-body text-base leading-relaxed text-text-secondary [&_strong]:font-semibold [&_strong]:text-forest">
+              {parseRichText(step)}
             </p>
           </li>
         ))}

@@ -34,8 +34,8 @@ export function ComboCtaBanner({ service, city, serviceGroups }: ComboCtaBannerP
           How Can You Schedule {service.name} in {city.name}?
         </h2>
         <p className="mt-4 text-center font-body text-lg text-parchment/80">
-          Get your free {service.name.toLowerCase()} estimate in {city.name} today &mdash; same-day response, no obligation.
-          We&rsquo;ve helped 500+ Essex County property owners protect their biggest investment.
+          Get your free {service.name.toLowerCase()} estimate in {city.name} today &mdash; no obligation, no pressure.
+          Newark Quality Roofing serves homeowners and businesses across Essex County, New Jersey.
         </p>
         <div className="mt-10">
           <LeadForm

@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { renderParagraphWithLinks } from '@/lib/render-inline-links';
 import { getSectionImages } from '@/data/image-manifest';
+import { ProseLead } from './ProseLead';
 
 interface ComboChallengesProps {
   paragraphs: string[];
@@ -40,17 +40,8 @@ export function ComboChallenges({ paragraphs, heading }: ComboChallengesProps) {
         </div>
       )}
 
-      <div className="mt-4 space-y-4">
-        {paragraphs.map((paragraph, index) => (
-          <div
-            key={index}
-            className="rounded-sm bg-forest/[0.03] p-4"
-          >
-            <p className="font-body text-base leading-relaxed text-text-secondary">
-              {renderParagraphWithLinks(paragraph)}
-            </p>
-          </div>
-        ))}
+      <div className="mt-5">
+        <ProseLead paragraphs={paragraphs} />
       </div>
     </section>
   );

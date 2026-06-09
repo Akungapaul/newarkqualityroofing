@@ -83,6 +83,7 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
         service={service}
         city={city}
         serviceGroups={serviceGroups}
+        directAnswer={content.directAnswer}
       />
 
       {/* Mid-content CTA -- between challenges and process (natural break point) */}
