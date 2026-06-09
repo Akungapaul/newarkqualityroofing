@@ -1,0 +1,22 @@
+[
+  {
+    "id": "F1",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[1].content[1] (\"When Does Damage Extent Favor Roof Replacement?\", paragraph 2)",
+    "quote": "**Roof replacement** also turns cost-effective under the widely cited \"50% rule\" \u2014 one repair exceeding 50% of replacement cost leans to replace \u2014 and the \"30% rule,\" where repair approaching 30% of replacement cost leans the same way, per WeatherShield, Home Depot, and Modernize industry consensus.",
+    "issue": "Wrong-source / over-attribution. The trailing \"per WeatherShield, Home Depot, and Modernize industry consensus\" attaches all three sources jointly to BOTH the 50% rule and the 30% rule, but the canonical pack table pins them oppositely: facts-materials-economics.md \u00a78 line 305 sources the 50% rule to \"WeatherShield / Home Depot / industry\" (Modernize NOT listed), and line 306 sources the 30% rule to \"Kellow / Modernize / Josten (NJ)\" (WeatherShield and Home Depot NOT listed). So Modernize does not back the 50% rule, and WeatherShield/Home Depot do not back the 30% rule. The page's own FAQ2 (faqs[1]) already splits these correctly \u2014 \"per WeatherShield and Home Depot; a related '30% rule'... per Kellow Construction and Modernize\" \u2014 so this body sentence is also internally inconsistent with the page.",
+    "fix": "Replace \"leans the same way, per WeatherShield, Home Depot, and Modernize industry consensus.\" with \"leans the same way \u2014 the 50% rule per WeatherShield and Home Depot, the 30% rule per Kellow Construction and Modernize.\" (Re-pins each rule to its actual pack source and aligns with FAQ2.)",
+    "refuteReason": "Confirmed against facts-materials-economics.md \u00a78: line 305 (50% rule = WeatherShield / Home Depot / industry) and line 306 (30% rule = Kellow / Modernize / Josten NJ). Modernize is absent from line 305 and WeatherShield/Home Depot are absent from line 306, so the jointed trailing attribution mis-pins sources. Ruleset R7/R10 require each point's named authority to be the one that actually backs it; the page's own FAQ2 attributes these correctly, making the body sentence internally inconsistent. Not a false positive."
+  },
+  {
+    "id": "F2",
+    "severity": "low",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[1].content[0] (\"When Does Damage Extent Favor Roof Replacement?\", lead)",
+    "quote": "the \"25% rule\" and \"30% rule\" are contractor rules of thumb, per RapidRestore and NJ contractor Josten Roofing, not code",
+    "issue": "Loose joint attribution. The pack sources the damage-AREA \"25% rule\" to RapidRestore / MyQuoteIQ (facts-materials-economics.md \u00a78 line 307) and the cost-ratio \"30% rule\" to Kellow / Modernize / Josten NJ (line 306; Josten's 30\u201340% NJ framing also at line 279). Pairing both rules jointly to \"RapidRestore and Josten Roofing\" implies each source backs both rules; per the pack RapidRestore backs only the 25% (area) rule and Josten backs only the 30% (cost-ratio) framing. Both named sources are genuinely in the packs and the \"not code\" framing is correct (it properly separates these rules of thumb from the unrelated N.J.A.C. 5:23-2.7 25%-permit trigger), so this is a precision defect, not a fabrication.",
+    "fix": "Replace \"the \\\"25% rule\\\" and \\\"30% rule\\\" are contractor rules of thumb, per RapidRestore and NJ contractor Josten Roofing, not code\" with \"the \\\"25% rule\\\" (damage area, per RapidRestore) and \\\"30% rule\\\" (repair cost share, per NJ contractor Josten Roofing) are contractor rules of thumb, not code\". Pins each rule to its real pack source and removes the implied cross-backing.",
+    "refuteReason": "Confirmed against facts-materials-economics.md \u00a78: line 307 (25% rule, damage area = RapidRestore / MyQuoteIQ) and line 306/line 279 (30% rule, cost ratio = Kellow / Modernize / Josten NJ). The pack supports RapidRestore for the area rule and Josten for the cost-ratio rule only \u2014 neither source backs the other rule \u2014 so the jointed pairing over-attributes. Both sources do appear in the packs and \"not code\" is correct (distinct from the N.J.A.C. 5:23-2.7 permit trigger), so it is a real low-severity precision fix, not a refutable false positive."
+  }
+]

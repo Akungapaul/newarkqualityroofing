@@ -1,0 +1,32 @@
+[
+  {
+    "id": "F1",
+    "severity": "high",
+    "dimension": "sourceAttribution",
+    "field": "njSpecific.content[0]",
+    "quote": "**The NJ Rehabilitation Subcode** does not count a coating as a roof covering layer, so **roof coating** preserves the overlay allowance, while **roof replacement** by tear-off resets the layer count, per N.J.A.C. 5:23-6.4.",
+    "issue": "Unsupported code interpretation pinned to a named regulation. The pack for N.J.A.C. 5:23-6.4 (facts-nj-regulatory-climate.md lines 61-65) lists only the full-removal triggers: covering water-soaked/deteriorated, covering is wood shake/slate/clay/cement/asbestos-cement tile, or 'two or more applications of any roof covering already exist.' No pack text states a liquid-applied coating is exempt from the layer count or 'preserves the overlay allowance' \u2014 a coating is arguably itself 'an application of roof covering.' This is false-precision attribution: a definitive compliance claim pinned to a regulation that does not state it. The same unsupported assertion is mirrored in comparisonRows[7] itemA ('Not counted as a roof covering layer' under feature 'NJ code layer count (N.J.A.C. 5:23-6.4)').",
+    "fix": "njSpecific.content[0] \u2014 Before: 'The NJ Rehabilitation Subcode does not count a coating as a roof covering layer, so roof coating preserves the overlay allowance, while roof replacement by tear-off resets the layer count, per N.J.A.C. 5:23-6.4.' After: '**Roof coating** renews a sound membrane without a tear-off, so it does not trigger the Rehabilitation Subcode full-removal rules, while **roof replacement** by tear-off resets the layer count \u2014 N.J.A.C. 5:23-6.4 requires full removal once a covering is water-soaked, deteriorated, or two layers deep.' Mirror in comparisonRows[7] itemA \u2014 Before: 'Not counted as a roof covering layer' \u2192 After: 'No tear-off; renews existing membrane'.",
+    "refuteReason": "Confirmed against facts-nj-regulatory-climate.md lines 61-65: N.J.A.C. 5:23-6.4 lists full-removal triggers (water-soaked/deteriorated, listed covering types, or two-or-more applications) and contains NO 'coating is not a layer' or 'preserves the overlay allowance' provision. The exemption claim is invented and pinned to a named regulation it cannot support \u2014 exactly the false-precision attribution the review targets."
+  },
+  {
+    "id": "F2",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[0].content[2]",
+    "quote": "coating over saturated insulation traps that moisture and accelerates deck rot, per ASTM C1153 and InterNACHI.",
+    "issue": "ASTM C1153 is over-scoped. Per facts-materials-economics.md \u00a77 (lines 384-389), ASTM C1153 governs ONLY infrared location of wet insulation and core-cut/probe/moisture-meter verification \u2014 it says nothing about coating trapping moisture or accelerating deck rot. The trailing 'per ASTM C1153 and InterNACHI' wrongly extends the standards-body pin past the detection clause onto the causal trapped-moisture/deck-rot clause. (Note: contrary to the reviewer, InterNACHI IS a valid named source for the causal half \u2014 facts-components-specialty.md line 274 attributes 'Trapped moisture decays sheathing' to InterNACHI [PRIMARY] \u2014 so InterNACHI stays; only ASTM C1153 must be re-scoped to detection.)",
+    "fix": "Before: '...wet insulation holds heat and shows as warm anomalies after sunset under ASTM C1153, verified by core cut, and coating over saturated insulation traps that moisture and accelerates deck rot, per ASTM C1153 and InterNACHI.' After: '...wet insulation holds heat and shows as warm anomalies after sunset under ASTM C1153, verified by core cut; coating over saturated insulation seals that moisture in, where trapped moisture decays the deck, per InterNACHI.' (Keeps the fact; scopes ASTM C1153 to detection only and retains the correct InterNACHI pin for the decay clause.)",
+    "refuteReason": "Confirmed against facts-materials-economics.md lines 384-389: ASTM C1153 = 'Location of Wet Insulation \u2026 Using Infrared Imaging' + core-cut verification only \u2014 it does NOT cover trapped-moisture deck rot, so pinning the causal clause to it is over-attribution. The InterNACHI half is corrected (not stripped) because facts-components-specialty.md line 274 explicitly names InterNACHI [PRIMARY] for 'Trapped moisture decays sheathing.'"
+  },
+  {
+    "id": "F3",
+    "severity": "low",
+    "dimension": "sourceAttribution",
+    "field": "introParagraphs[1]",
+    "quote": "EPDM fails at seam separation and membrane shrinkage, modified bitumen at blistering and alligator cracking, per the InterNACHI chart and trade failure data.",
+    "issue": "Mild over-attribution. The InterNACHI chart is a life-expectancy chart (facts-materials-economics.md \u00a74 lines 178-181, and \u00a70/source list lines 318-319 confirm it is the canonical lifespan source). The membrane failure modes \u2014 EPDM seam separation/shrinkage (line 186) and modified-bitumen blistering/alligator cracking (line 188) \u2014 are tagged [SECONDARY, qualitative] and are NOT attributed to InterNACHI. The gold exemplar (material-vs-material.ts asphalt-shingles-vs-metal-roofing introParagraphs[1], line 13) scopes 'per the InterNACHI life-expectancy chart' to the lifespan clause and then states failure modes unsourced after a semicolon ('granule loss, tab curling, and thermal-shock cracking define their failure modes'), confirming the convention this line departs from.",
+    "fix": "Before: '...modified bitumen at blistering and alligator cracking, per the InterNACHI chart and trade failure data.' After: '...modified bitumen at blistering and alligator cracking, per trade failure data.' (Drop 'the InterNACHI chart' from the failure-mode attribution; InterNACHI stays where it backs lifespans, e.g. comparisonRows service-life row.)",
+    "refuteReason": "Confirmed against facts-materials-economics.md: InterNACHI chart = lifespans only (lines 178-181, source list line 318); failure modes at lines 186/188 are [SECONDARY, qualitative], not InterNACHI-attributed. The gold exemplar at material-vs-material.ts line 13 leaves failure modes unsourced, confirming the line over-attributes to the InterNACHI chart."
+  }
+]

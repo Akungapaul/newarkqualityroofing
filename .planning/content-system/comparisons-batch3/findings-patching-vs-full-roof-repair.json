@@ -1,0 +1,42 @@
+[
+  {
+    "id": "F1",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "introParagraphs[1]",
+    "quote": "since sealant alone fails in 5\u201310 years per GAF and trade guidance",
+    "issue": "Over-attribution to GAF. The specific 5\u201310-year sealant-failure figure traces in the packs to roofing trade guidance (WeatherShield; Enterprise Roofing), not to GAF. GAF in the packs supports only the qualitative claim that flashings are a leading cause of leaks, and (in the components pack) the qualitative 'sealant alone fails in a few years' \u2014 it never states the precise 5\u201310-year number. Naming GAF as a source of the specific figure mis-sources it.",
+    "fix": "Replace '...reopens because the underlying defect continues, since sealant alone fails in 5\u201310 years per GAF and trade guidance.' with '...reopens because the underlying defect continues, since sealant alone fails in 5\u201310 years, per roofing trade guidance (WeatherShield, Enterprise Roofing).' Keep the figure; drop GAF as the named source of the 5\u201310-year number.",
+    "refuteReason": "Confirmed against the pack directly. facts-causes-signs.md \u00a72.1 line 64\u201365 states 'sealant/caulk that typically fails in 5\u201310 years. Source: roofing trade guidance (WeatherShield; Enterprise Roofing).' The adjacent GAF citation (lines 60\u201361) is for a different claim \u2014 'poorly manufactured and installed flashings are cited as a leading cause of roof leaks.' facts-components-specialty.md line 97 attributes to 'GAF / trade' only the qualitative 'sealant alone fails in a few years,' not the 5\u201310-year range. No pack pins the specific number to GAF, so 'per GAF' violates Rule 9 (cite the authority that actually states the fact). The GAPS brief's own '5\u201310 yr, GAF' shorthand does not override the pack \u2014 the pack is the source of truth and the instructions direct verification against it, not the brief."
+  },
+  {
+    "id": "F2",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "detailedAnalysis[0].content[1]",
+    "quote": "roofing sealant and caulk typically fail in 5\u201310 years per GAF and trade guidance",
+    "issue": "Same over-attribution as F1. The 5\u201310-year sealant/caulk lifespan is a WeatherShield/Enterprise trade-guidance figure (facts-causes-signs \u00a72.1 line 64\u201365). GAF is named in the packs only for the qualitative 'flashings are a leading leak cause' and the qualitative 'sealant alone fails in a few years' \u2014 not for the 5\u201310-year number.",
+    "fix": "Replace 'roofing sealant and caulk typically fail in 5\u201310 years per GAF and trade guidance' with 'roofing sealant and caulk typically fail in 5\u201310 years, per roofing trade guidance (WeatherShield, Enterprise Roofing)'. Fact stays; correct the named source.",
+    "refuteReason": "Confirmed against facts-causes-signs.md \u00a72.1 line 64\u201365 ('Source: roofing trade guidance (WeatherShield; Enterprise Roofing)') for the exact 5\u201310-year figure. The components pack line 97 ('GAF / trade') supports only a qualitative 'few years' wording, not the precise range. This is the same Rule 9 mis-source as F1, here in the detailedAnalysis 'When Does Patching Fail?' body."
+  },
+  {
+    "id": "F3",
+    "severity": "med",
+    "dimension": "sourceAttribution",
+    "field": "faqs[1].answer",
+    "quote": "since roofing caulk typically fails in 5\u201310 years, per GAF and trade guidance",
+    "issue": "Same over-attribution as F1/F2. The 5\u201310-year caulk-failure figure is sourced in the packs to WeatherShield/Enterprise trade guidance (facts-causes-signs \u00a72.1), not GAF. This is the third instance of pinning the specific number to GAF, which no pack supports.",
+    "fix": "Replace 'Sealant-only patches are temporary, since roofing caulk typically fails in 5\u201310 years, per GAF and trade guidance.' with 'Sealant-only patches are temporary, since roofing caulk typically fails in 5\u201310 years, per roofing trade guidance (WeatherShield, Enterprise Roofing).' Keep the number; fix the attribution. (Note: this is the FAQ answer field, not the question field, so it is not exempt from attribution accuracy.)",
+    "refuteReason": "Confirmed against facts-causes-signs.md \u00a72.1 line 64\u201365, which attributes the 5\u201310-year figure exclusively to 'roofing trade guidance (WeatherShield; Enterprise Roofing).' GAF is not a source of this number in any pack (components pack line 97 = qualitative 'few years' only). Rule 9 requires citing the authority that states the fact; naming GAF here is a genuine mis-attribution, not a false positive."
+  },
+  {
+    "id": "F4",
+    "severity": "low",
+    "dimension": "defabHype",
+    "field": "comparisonRows[7].feature",
+    "quote": "Best NJ Timing",
+    "issue": "R14 sentiment: 'best' in a raw-rendered comparisonRows feature label (advisory but enforced).",
+    "fix": "Change feature label 'Best NJ Timing' -> 'Seasonal Timing (NJ)'. Leave itemA/itemB cells unchanged.",
+    "refuteReason": "R14 bans 'best' as sentiment; flagged by audit:semantics advisory on comparisonRows[7].feature."
+  }
+]
