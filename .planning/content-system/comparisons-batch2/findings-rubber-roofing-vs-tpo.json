@@ -1,0 +1,36 @@
+{
+  "comparisonId": "rubber-roofing-vs-tpo",
+  "confirmedFindings": [
+    {
+      "id": "F1",
+      "severity": "med",
+      "dimension": "sourceAttribution",
+      "field": "detailedAnalysis[0].content[1] (and comparisonRows 'NJ Flat-Roof Repair' itemA)",
+      "quote": "its adhesive-or-tape seams patch with primer and a cover patch rather than a welder, holding flat-roof repairs in the $200–$500 seam-and-patch band, per Josten Roofing and Modernize.",
+      "issue": "The EPDM repair band '$200–$500' is mis-attributed and self-contradictory. The Modernize/WeatherShield pack (facts-materials-economics.md §4, line 204) gives only 'TPO/EPDM small patch $300–$500; seam re-weld $200–$400'. The $200 floor traces ONLY to the seam RE-WELD figure — a welding process this same sentence explicitly says EPDM does NOT use ('rather than a welder'). So the $200 floor is both unsourced as an EPDM patch price (the only sourced EPDM patch band is $300–$500) and internally contradictory. The comparisonRow itemA '$200–$500 patch or seam' (line 840) carries the identical defect — its $200 floor again exists only in the re-weld figure EPDM doesn't perform. TPO's '$200–$500 patch or weld' is a defensible union of the sourced $300–$500 patch + $200–$400 weld because TPO actually welds; EPDM does not.",
+      "fix": "In detailedAnalysis[0].content[1]: '$200–$500 seam-and-patch band' → '$300–$500 patch band' (the real sourced EPDM small-patch figure from pack §4 line 204). In comparisonRows itemA (line 840): '$200–$500 patch or seam' → '$300–$500 patch'. Leave the $200–$400 weld figure only on the TPO side (content[2] and itemB), where welding applies.",
+      "refuteReason": "Survives: facts-materials-economics.md line 204 sources EPDM patch at $300–$500 ONLY; the $200 floor exists solely in 'seam re-weld $200–$400' on the same line. A full grep of .planning/content-system/research/ returns zero '$200–$500' EPDM/TPO patch band, so the $200 floor is unsourced for an EPDM patch and contradicts the sentence's own 'rather than a welder' clause. R10/D-01 (no unverified hard number)."
+    },
+    {
+      "id": "F2",
+      "severity": "med",
+      "dimension": "factualAccuracy",
+      "field": "residentialSection.content[1]",
+      "quote": "**EPDM rubber roofing** patches with primer and a cover patch on a small 200–500 sq ft residential flat section, a field repair held in the $150–$500 minor-leak band, per Angi",
+      "issue": "The hard figure '200–500 sq ft' (asserted typical residential flat-section size) traces to NO fact pack. A grep across all of .planning/content-system/research/ (facts-materials-economics.md, facts-nj-regulatory-climate.md, and every other facts-*.md) returns zero '200–500 sq ft' / '200-500 sq ft' size figure. The 'per Angi' attribution attaches only to the $150–$500 cost (which IS sourced — facts-materials-economics.md §4 line 202: 'Minor flat-roof leak $150–$500 ... Angi'), leaving the '200–500 sq ft' size figure as an unsourced asserted hard number. R10/D-01 requires every hard number to trace to a pack or be stated qualitatively/omitted.",
+      "fix": "Drop the unsourced size figure, keep the sourced cost: '**EPDM rubber roofing** patches with primer and a cover patch on a small residential flat section, a field repair held in the $150–$500 minor-leak band, per Angi, where the black sheet blends with a traditional roofline.' (The $150–$500 Angi cost is retained verbatim; only the '200–500 sq ft' size token is removed.)",
+      "refuteReason": "Survives: '200–500 sq ft' appears in no facts-*.md (verified by grep of the full research/ directory). The Angi attribution correctly sources only the $150–$500 cost (line 202), not the size. R10/D-01: a hard number with no pack source must be omitted or qualitative."
+    },
+    {
+      "id": "F3",
+      "severity": "low",
+      "dimension": "answerFirst",
+      "field": "detailedAnalysis[1] (heading vs content[0])",
+      "quote": "heading: `Which Membrane Holds Its Seams Longer?` → answer: `**TPO** seams and **EPDM rubber roofing** seams fail by different mechanisms — TPO's hot-air-welded seam breaks down...`",
+      "issue": "R4 heading↔answer mirroring fails: the heading asks which membrane holds its seams 'longer' (a comparative-duration question), but the answer pivots to seam-failure MECHANISM ('fail by different mechanisms') without ever stating which holds longer. The answer's first words do not map to the question's 'which...longer' form. The packs carry only qualitative seam failure-mode contrast (facts-materials-economics.md §4 lines 186–187), and the seam-share percentages are explicitly flagged [UNVERIFIED] (line 189), so no quantified seam-life exists to answer 'longer' honestly. The heading overpromises a comparison the sourced body cannot deliver. The fact content itself is correctly NRCA-attributed and sourced.",
+      "fix": "Re-scope the heading to what the body answers: `Which Membrane Holds Its Seams Longer?` → `How Do EPDM And TPO Seams Fail?` so the heading asks the failure-mode question the sourced body actually answers. No fact is moved or lost; content[0]–content[2] stay verbatim.",
+      "refuteReason": "Survives: R4 (verify — 'the answer's first words map to the question's grammatical form') is violated — the answer answers 'how they fail', not 'which lasts longer'. Pack §4 lines 186–187 give only qualitative failure modes and line 189 flags the seam-share figures [UNVERIFIED], so under R10/D-01 the body cannot quantify which seam lasts longer; the heading must be re-scoped to the answerable question rather than fabricate a duration comparison."
+    }
+  ],
+  "refutedIds": []
+}

@@ -1,0 +1,26 @@
+{
+  "comparisonId": "solar-shingles-vs-solar-panels",
+  "confirmedFindings": [
+    {
+      "id": "F1",
+      "severity": "med",
+      "dimension": "sourceAttribution",
+      "field": "residentialSection.content[2]",
+      "quote": "**Solar panels** add to a roof with remaining service life, and the roofing rule of thumb re-roofs first when the roof outlasts neither the ~25–30-year panels nor the array, to avoid removing and reinstalling the modules mid-roof, per NREL service-life data.",
+      "issue": "The trailing attribution 'per NREL service-life data' attaches to the whole sentence and over-credits NREL with the re-roof-first decision rule. Per facts-energy-solar.md line 217, the re-roof-before-solar rule is sourced 'industry rule-of-thumb (no named standard)' and classified [UNVERIFIED]; lines 351–353 instruct stating it qualitatively with no named standard. NREL (line 213) is the source ONLY for the ~25–30-yr panel-life figure, not the rule. Secondary defect: the logic clause 'the roof outlasts neither the ~25–30-year panels nor the array' is garbled — 'panels' and 'array' are the same thing, and 'outlasts neither' inverts the intended condition (the pack's clean form, line 352–353: 're-roof first if the roof won't outlast the ~25–30-yr panels').",
+      "fix": "Before: '...and the roofing rule of thumb re-roofs first when the roof outlasts neither the ~25–30-year panels nor the array, to avoid removing and reinstalling the modules mid-roof, per NREL service-life data.' After: '...and an industry rule of thumb re-roofs first when the roof will not outlast the ~25–30-year panels, to avoid removing and reinstalling the array mid-roof — the panel-life figure per NREL, the re-roof-first timing an industry rule of thumb with no named standard.'",
+      "refuteReason": "Confirmed against facts-energy-solar.md: line 213 sources ~25–30-yr panel life to 'NREL; DOE' (SECONDARY-named), but line 217 sources the re-roof-first rule to 'industry rule-of-thumb (no named standard)' and flags it UNVERIFIED; lines 351–353 direct qualitative statement with no named standard. Ruleset R10 (line 35) and D-01 (line 11) forbid attributing an [UNVERIFIED] claim as a hard, named-sourced fact. The attribution scope therefore mis-credits NREL. Not a FAQ field, so no FAQ-modality exemption applies."
+    },
+    {
+      "id": "F2",
+      "severity": "low",
+      "dimension": "defabHype",
+      "field": "comparisonRows[6].itemA (Pairing Constraint)",
+      "quote": "Best with new roof / full reroof",
+      "issue": "The rendered table cell uses 'Best', which is on the R14 explicit hype/sentiment ban list. The paired cell itemB reads neutrally ('Added to a sound existing roof') and the row winner is 'depends', so 'Best' is an asymmetric evaluative register. The pack's 'best paired with' (facts-energy-solar.md line 241) is research-pack prose, not the rendered cell; the de-fab standard governs what renders. A neutral denotative verb conveys the same constraint.",
+      "fix": "Before: 'Best with new roof / full reroof' After: 'Pairs with new roof / full reroof'",
+      "refuteReason": "Confirmed against the ruleset: R14 (line 43) bans 'best' as a connotation-laden hype word and requires denotation over connotation; the de-fab word list (line 182) names 'best' verbatim. Not a denotative price-'premium' noun and not a formal CSSB grade name — it is the literal banned adjective rendering in the comparison table. R14 is advisory tier (report-only), consistent with the low severity. The reviewer's neutral replacement matches itemB's register and the pack's own constraint (line 241)."
+    }
+  ],
+  "refutedIds": []
+}

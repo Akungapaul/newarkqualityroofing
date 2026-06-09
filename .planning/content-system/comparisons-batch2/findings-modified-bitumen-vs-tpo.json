@@ -1,0 +1,26 @@
+{
+  "comparisonId": "modified-bitumen-vs-tpo",
+  "confirmedFindings": [
+    {
+      "id": "F1",
+      "severity": "high",
+      "dimension": "sourceAttribution",
+      "field": "njSpecific.content[2]",
+      "quote": "**TPO** meets NJ's 2021-IECC cool-roof reflectance levers as a white single-ply membrane, while **modified bitumen** depends on added above-deck insulation to reach the same energy targets in Newark's Climate Zone 4A–5, per the DOE and NJ DCA energy subcode.",
+      "issue": "Fabricated IECC compliance pathway + over-attribution. The content asserts TPO 'meets NJ's 2021-IECC cool-roof reflectance levers' and that modified bitumen must 'reach the same energy targets,' pinning this to the DOE and NJ DCA energy subcode. No pack states any such thing. facts-energy-solar §0.4 note 5 contradicts it verbatim: 'No NJ cool-roof prescriptive mandate exists for low-slope residential.' The only 2021-IECC content in the pack is ceiling-insulation R-60 (Table R402.1.3, lines 83-84 and Part C row 267), which is conductive-insulation prescriptive code, NOT a cool-roof reflectance compliance lever or 'energy target.' The pack's 'Energy-efficient roof levers' row (268) — white TPO/PVC reflectance, reflective coatings, above-deck insulation — is an attributed DOE/EPA/CRRC DESIGN-lever list, explicitly NOT a code-compliance pathway. The sentence invents an IECC reflectance-compliance target and attributes it to named sources that do not state it.",
+      "fix": "Before: '**TPO** meets NJ's 2021-IECC cool-roof reflectance levers as a white single-ply membrane, while **modified bitumen** depends on added above-deck insulation to reach the same energy targets in Newark's Climate Zone 4A–5, per the DOE and NJ DCA energy subcode.' After: '**TPO** is the white high-reflectance single-ply membrane among the DOE/EPA/CRRC energy-efficiency roof levers, while **modified bitumen** relies on added above-deck insulation rather than surface reflectance to lower roof energy load in Newark's Climate Zone 4A–5; NJ adopted the 2021 IECC for ceiling insulation (R-60, Zones 4–5) but sets no cool-roof reflectance mandate for low-slope residential, per the DOE, EPA, and NJ DCA energy subcode.'",
+      "refuteReason": "Survives: facts-energy-solar §0.4 note 5 (line 85) states 'No NJ cool-roof prescriptive mandate exists for low-slope residential,' directly contradicting the 'meets 2021-IECC cool-roof reflectance levers' framing. Lines 83-84 and Part C row 267 confirm the ONLY 2021-IECC content is ceiling-insulation R-60, not a reflectance lever or energy target. Part C row 268 frames the reflective-membrane/above-deck-insulation items as DOE/EPA/CRRC design levers, not an IECC compliance pathway. The content therefore fabricates a compliance target and over-attributes it to DOE/NJ DCA — a real high-severity sourceAttribution defect, not a false positive."
+    },
+    {
+      "id": "F2",
+      "severity": "low",
+      "dimension": "answerFirst",
+      "field": "detailedAnalysis[0].content[0]",
+      "quote": "**TPO** carries a sourced NJ install figure and **modified bitumen** prices within the flat-roof bracket — TPO installs at $8.00–$12.00 per NJ square foot, per Josten Roofing, while flat-roof work runs $2.50–$10.00 per square foot, per HomeGuide.",
+      "issue": "Weak R2/R4 heading-to-answer mirror. The heading 'Which Flat Roof Costs Less To Install In NJ?' demands a direct cost answer, but the lead opens with sourcing meta-commentary ('TPO carries a sourced NJ install figure and modified bitumen prices within the flat-roof bracket') — narrating the sourcing situation rather than stating the determinate cost facts first. R2 requires sentence 1 to answer the heading 'not background'; R4 requires the answer's first words to mirror the question's grammatical form. The indeterminate 'depends' winner is correct (GAPS #7: no sourced mod-bit per-sqft figure exists), but the lead should state the numbers directly and then note that no per-foot head-to-head holds, rather than open with sourcing narration.",
+      "fix": "Before: '**TPO** carries a sourced NJ install figure and **modified bitumen** prices within the flat-roof bracket — TPO installs at $8.00–$12.00 per NJ square foot, per Josten Roofing, while flat-roof work runs $2.50–$10.00 per square foot, per HomeGuide.' After: '**TPO** installs at $8.00–$12.00 per NJ square foot, per Josten Roofing, while **modified bitumen** falls inside the broader flat-roof install bracket of $2.50–$10.00 per square foot, per HomeGuide — so no per-foot head-to-head winner holds without a separate sourced modified-bitumen figure.'",
+      "refuteReason": "Survives: Ruleset R2 (line 19) requires the first sentence to be a definitive factual answer that 'answers the heading, not background'; R4 (line 23) requires the answer's first words to mirror the question's form. The lead's opening clause is sourcing meta-commentary, not a cost answer. Both cited figures trace correctly (Josten TPO $8.00–$12.00 = facts-materials-economics lines 289/363; HomeGuide flat-roof $2.50–$10.00 = line 201), and the 'depends' winner is correct per GAPS #7 — so this is a genuine answer-first wording defect, not a figure-tracing or winner error. Low severity, real."
+    }
+  ],
+  "refutedIds": []
+}

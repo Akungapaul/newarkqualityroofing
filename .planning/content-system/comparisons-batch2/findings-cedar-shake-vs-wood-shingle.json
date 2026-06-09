@@ -1,0 +1,48 @@
+{
+  "comparisonId": "cedar-shake-vs-wood-shingle",
+  "confirmedFindings": [
+    {
+      "id": "F1",
+      "severity": "high",
+      "dimension": "sourceAttribution",
+      "field": "introParagraphs[1] / detailedAnalysis[0].content[1] / faqs[1].answer",
+      "quote": "the Cedar Shake & Shingle Bureau's Number 1 Blue Label is the top grade",
+      "issue": "\"Number 1 Blue Label\" is pinned to the Cedar Shake & Shingle Bureau as a specific named grade/mark in 4+ places (introParagraphs[1], detailedAnalysis[0].content[1], faqs[1].answer). The string \"Number 1 Blue Label\" appears in NO fact pack — only in the draft's own GAPS doc. The historic-restoration pack explicitly bans this: line 248-249 lists \"naming a specific CSSB certification mark ... not verified to the Bureau\" as Banned and directs stating it qualitatively as \"grades and installation standards published by the Cedar Shake & Shingle Bureau,\" and GAP #7 (lines 418-423) repeats that the exact mark names \"were not verified to a primary Bureau source ... do not name a specific mark unless verified.\" Line 244 confirms the Bureau only as the named grading/installation authority. The draft GAPS #7 defends keeping it as a \"denotative formal grade name,\" but that is overridden by the pack's explicit named caution. This is over-attribution of an unverified mark to a named source.",
+      "fix": "Drop the unverified mark name and state grade authority qualitatively. introParagraphs[1]: \"the Cedar Shake & Shingle Bureau's Number 1 Blue Label is the top grade\" → \"the top grades use all-heartwood, edge-grain stock, graded against the standards the Cedar Shake & Shingle Bureau publishes.\" faqs[1].answer: \"The Cedar Shake & Shingle Bureau's Number 1 Blue Label is the top cedar grade, using all-heartwood, edge-grain stock for the longest service life.\" → \"The top cedar grades use all-heartwood, edge-grain stock for the longest service life, graded against the standards the Cedar Shake & Shingle Bureau publishes.\" Apply the same de-marking to detailedAnalysis[0].content[1] (see F4).",
+      "refuteReason": "Survives: facts-historic-restoration.md lines 248-249 and 418-423 explicitly BAN naming a specific unverified CSSB mark and mandate qualitative phrasing; line 244 attributes to the Bureau only the grading/installation authority. A full grep of facts-historic-restoration.md and facts-materials-economics.md returns \"Number 1 Blue Label\" in ZERO pack lines (only in the draft's own GAPS doc). The mark is unsourced and explicitly named-cautioned, so the GAPS 'denotative grade name' defense does not hold."
+    },
+    {
+      "id": "F2",
+      "severity": "med",
+      "dimension": "factualAccuracy",
+      "field": "verdict.reasoning",
+      "quote": "shakes run 1/2 to 3/4 inch thick against shingles' thinner sawn profile and last 20–40 years",
+      "issue": "The shake-thickness figure \"1/2 to 3/4 inch thick\" is an unsourced hard dimensional number. facts-materials-economics.md §5 (lines 209-235) carries the cedar lifespans (shake 20-40, shingle 30-50, CSSB), failure modes, the ≥1.5 in. air-space figure, the flex test, and repair/maintenance costs — but NO unit thickness. facts-historic-restoration.md §5 carries no shake-thickness dimension either. Hard numeric claims must trace to a pack or be stated qualitatively; this one does not. The thicker-vs-thinner contrast itself IS supported by §5 / directAnswer; only the 1/2-3/4 in. number is invented.",
+      "fix": "Drop the unsourced dimension, keep the sourced thicker-vs-thinner contrast qualitatively. Before: \"shakes run 1/2 to 3/4 inch thick against shingles' thinner sawn profile and last 20–40 years, per the Cedar Shake & Shingle Bureau.\" → After: \"shakes are the thicker, hand-split or taper-sawn unit against shingles' thinner sawn profile and last 20–40 years, per the Cedar Shake & Shingle Bureau.\"",
+      "refuteReason": "Survives: a grep of facts-materials-economics.md §5 (lines 209-235) and facts-historic-restoration.md returns no \"1/2\", \"3/4\", or any cedar unit-thickness dimension; the packs carry only lifespans, failure modes, ≥1.5 in. air space, and costs. The numeric thickness is unsourced; the qualitative thicker/thinner contrast is independently supported and is retained."
+    },
+    {
+      "id": "F3",
+      "severity": "med",
+      "dimension": "sourceAttribution",
+      "field": "faqs[4].answer",
+      "quote": "Untreated western red cedar silvers within months of NJ exposure as UV weathers the surface, per the Cedar Shake & Shingle Bureau",
+      "issue": "The silvering/graying claim is pinned to the Cedar Shake & Shingle Bureau, but NO pack carries any silvering or graying statement (CSSB or otherwise). facts-materials-economics.md §5 line 219 attributes to CSSB/NRCA only cupping/warping, edge splitting, rot, and moss/algae — not graying. The draft GAPS #6 already flagged the original \"6–12 months\" window as unsourced and softened the timing, but the fix retained the unsupported \"per the CSSB\" attribution for a graying claim the pack never makes. This is over-attribution. The HomeGuide maintenance attribution in the second sentence IS valid (§5 line 235: fungicide/algaecide $0.15–$0.60/sq ft, HomeGuide).",
+      "fix": "State the UV-weathering mechanism qualitatively and drop the unsupported CSSB attribution for the graying. Before: \"Untreated western red cedar silvers within months of NJ exposure as UV weathers the surface, per the Cedar Shake & Shingle Bureau. A UV-inhibiting preservative reapplied with the fungicide-algaecide cycle slows the graying, per HomeGuide.\" → After: \"Untreated western red cedar weathers to a silver-gray as UV degrades the surface. A UV-inhibiting preservative reapplied with the fungicide-algaecide cycle slows the graying, per HomeGuide.\" (Keep the HomeGuide attribution; remove the unsupported CSSB tag from the graying claim.)",
+      "refuteReason": "Survives: a grep of all research packs returns no silvering/graying claim attributed to the CSSB (or any source); facts-materials-economics.md §5 line 219 lists the CSSB/NRCA failure modes as cupping/splitting/rot/moss-algae only. The \"per the Cedar Shake & Shingle Bureau\" tag on the graying claim is unsupported. The HomeGuide maintenance attribution retained in the fix is confirmed at §5 line 235."
+    },
+    {
+      "id": "F4",
+      "severity": "low",
+      "dimension": "other",
+      "field": "detailedAnalysis[0].content[1]",
+      "quote": "sold in hand-split-and-resawn and taper-sawn grades graded to the Cedar Shake & Shingle Bureau's Number 1 Blue Label, hand-split, and taper-sawn standards",
+      "issue": "Garbled, redundant phrasing: the clause lists \"hand-split-and-resawn and taper-sawn grades,\" then re-lists \"hand-split, and taper-sawn standards\" in the same sentence — a double-naming that reads as an assembly artifact — and conflates a grade name (Number 1 Blue Label) with cut types (hand-split, taper-sawn) as if all three were grading \"standards.\" Compounds F1, which removes the unverified mark name.",
+      "fix": "Rewrite cleanly without the duplication and without the unverified mark. Before: \"sold in hand-split-and-resawn and taper-sawn grades graded to the Cedar Shake & Shingle Bureau's Number 1 Blue Label, hand-split, and taper-sawn standards.\" → After: \"sold as hand-split-and-resawn or taper-sawn product, graded against the standards the Cedar Shake & Shingle Bureau publishes.\"",
+      "refuteReason": "Survives: the sentence demonstrably double-lists \"hand-split ... and taper-sawn\" (once as grades, once as standards) and mislabels the cut types and the mark name jointly as Bureau \"standards\" — a genuine assembly-artifact garble independent of sourcing, and it carries the same unverified \"Number 1 Blue Label\" mark the pack bans (facts-historic-restoration.md lines 248-249 / 418-423)."
+    }
+  ],
+  "refutedIds": [
+    "F5"
+  ]
+}

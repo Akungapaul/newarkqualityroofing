@@ -1,0 +1,19 @@
+{
+  "comparisonId": "green-roof-vs-traditional-roofing",
+  "confirmedFindings": [
+    {
+      "id": "F1",
+      "severity": "med",
+      "dimension": "sourceAttribution",
+      "field": "detailedAnalysis[1].content[2]",
+      "quote": "**Traditional membrane roofing** at 1–5 lb/sq ft imposes no comparable structural review, so an existing Essex County deck carries a re-cover membrane without the reinforcement an intensive 80–150 lb/sq ft green roof commonly demands, per GSA and Delaware DNREC planning ranges.",
+      "issue": "The membrane dead-load figure '1–5 lb/sq ft' appears in NONE of the three named packs. GAP-green-roof.md §2 (Dead Loads) gives ONLY green-roof loads (GSA ASTM E2397: 20.06 / 42.23 lb/ft²; planning ranges 15–30 ext / 80–150 int). The Delaware DNREC reference in that pack (GAP line 44) is explicitly tied to the GREEN-ROOF 'extensive saturated ~15–30 lb/ft²' planning range — it does NOT cover traditional-membrane weight. facts-materials-economics.md has no membrane dead-load figure (only cost/lifespan/failure tables), and facts-energy-solar.md §0 carries only solar-PV dead loads (line 208), not membrane. The author's own GAPS table in green-roof-vs-traditional-roofing.md sources the membrane COST ($5–$10) and the green-roof loads but contains NO row sourcing the membrane '1–5 lb/sq ft.' Pinning this unsourced number to 'per GSA and Delaware DNREC planning ranges' is an over-attribution — neither GSA Table A3 nor the DNREC GI fact sheet states a membrane weight. Violates Ruleset R10 (every hard number must trace to a named pack source). The same unsourced '1–5 lb/sq ft' recurs in comparisonRows[3].itemB, verdict.alternateScenario, detailedAnalysis[1].content[0], and residentialSection.content[2].",
+      "fix": "Drop the precise '1–5 lb/sq ft' here and keep the GSA/DNREC attribution only on the green-roof load it actually supports. Before: '**Traditional membrane roofing** at 1–5 lb/sq ft imposes no comparable structural review, so an existing Essex County deck carries a re-cover membrane without the reinforcement an intensive 80–150 lb/sq ft green roof commonly demands, per GSA and Delaware DNREC planning ranges.' After: '**Traditional membrane roofing** imposes no comparable structural review, so an existing Essex County deck carries a re-cover membrane without the reinforcement an intensive 80–150 lb/sq ft green roof commonly demands, per GSA and Delaware DNREC planning ranges.' Apply the same removal of the unsourced '1–5 lb/sq ft' (or attach a named source if one is added) at comparisonRows[3].itemB ('1–5 lb/sq ft' → qualitative e.g. 'far lighter / negligible added load'), verdict.alternateScenario ('at 1–5 lb/sq ft' → drop), detailedAnalysis[1].content[0] ('against an EPDM or TPO membrane's 1–5' → 'against a far lighter EPDM or TPO membrane'), and residentialSection.content[2] ('$5–$10 per square foot and 1–5 lb/sq ft' → drop the lb figure).",
+      "refuteReason": "Survives refutation: verified directly against all three packs. GAP-green-roof.md §2 (lines 39–49) lists only green-roof dead loads; the DNREC citation at GAP line 44 is for the green-roof extensive 15–30 lb/ft² range, NOT membrane weight. facts-materials-economics.md (grepped end-to-end) has zero membrane lb/ft² figure. facts-energy-solar.md §0 has only solar-PV dead load (line 208). The author's GAPS table sources the membrane cost but never the membrane weight, confirming '1–5 lb/sq ft' is unsourced. Ruleset R10 (line 35: 'No fabricated or unverified numbers render… cross-check every hard number against facts-*.md') confirms this is a genuine defect, and the figure is falsely attributed to GSA + DNREC."
+    }
+  ],
+  "refutedIds": [
+    "F2",
+    "F3"
+  ]
+}
