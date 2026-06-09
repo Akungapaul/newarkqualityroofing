@@ -222,7 +222,7 @@ const rawComparisons: Comparison[] = [
     slug: 'best-roofing-material-nj-weather',
     category: 'decision-helper',
     metaTitle: 'Best Roofing Material for NJ Weather',
-    metaDescription: 'Which roofing material handles NJ weather best? Expert analysis of snow, rain, wind, and heat resistance for every material.',
+    metaDescription: 'Which roofing material handles NJ weather best? Snow, rain, wind, and heat resistance ranked for every roofing material.',
   },
   {
     id: 'best-commercial-roofing-material',
