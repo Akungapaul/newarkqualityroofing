@@ -1,0 +1,12 @@
+# asphalt-shingle-roofing (East Orange) — rewrite rationale
+
+De-fab literals cleared:
+- `overview[0]` price + hype ("prices starting from $8,500–$18,000 and free estimates available today") → figure-free answer-first definition; price now lives only in `pricing` and the cost FAQ.
+- `whyChooseUs`: dropped "GAF Certified", "15+ years", "same-day", "24/7 emergency response", "premium materials from GAF/CertainTeed/Owens Corning with manufacturer warranties", "no hidden fees, no surprises" → 4 factual brief-default reasons (NJ HIC licensed/insured, local Essex County crew, free written estimates, photo-documented workmanship).
+- `conversionHooks.urgencyNote` "Early action saves thousands" hype → factual lifespan/water-damage prompt; `midPageCta` "call now or fill out our form" → plain "Get your free written estimate."
+- `metaDescription` trimmed to 156 chars, no hype.
+- Invented/unsupported items removed: "East Orange Historic District" (no local ordinance/COA exists — replaced with the brief's NPS Register-listing-only framing); "East Orange parking authority" specific body; the self-derived "15–20% deck repair" and "2,000–2,500 sq ft / 2–3 day" project figures (no source); unverified "rehabilitation zone improvement credits" claim. No river/flood/reservation references (none ever present, none added).
+
+East Orange texture preserved + restructured answer-first: multi-family/rental landlord economics (31.0% owner-occupied, 87.6% multi-unit per U.S. Census QuickFacts), pre-war apartments and two-/three-family walk-ups, layered-install tear-off problem, tenant-access coordination, narrow-lot staging, verified neighborhoods (Presidential Estates, Brick Church corridor), East Orange Building Division at the Department of Property Maintenance, 44 City Hall Plaza, and the no-local-COA historic posture.
+
+Named sources cited in-text: InterNACHI life-expectancy chart (3-tab 20 yr / architectural 30 yr); NRCA (±40% life variance; 90–95% leaks at flashing; ventilation 1 sq ft per 150 sq ft, ~50/50, life +25%); ARMA and manufacturer guidance (130 mph 6-nail / ~60 mph; drip edge ≥2 in); IRC R905.1.2 (ice barrier ≥24 in inside wall line); N.J.A.C. 5:23-2.7 (ordinary-maintenance reroof / 25% rule); N.J.A.C. 5:23-6.4 (full removal when water-soaked or 2+ layers); U.S. Census QuickFacts (East Orange housing stock); National Park Service (Register listing places no reroof restriction); 2024 roofing-market data (~73% of US homes asphalt); HomeAdvisor + Modernize and Josten Roofing NJ pricing (cost FAQ + pricing field).

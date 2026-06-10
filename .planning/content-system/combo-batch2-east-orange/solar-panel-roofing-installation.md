@@ -1,0 +1,12 @@
+# solar-panel-roofing-installation — East Orange (de-fab rationale)
+
+De-fab literals cleared from the current file:
+- Removed the `overview[0]` price-in-prose + hype lead ("delivers expert ... prices starting from $18,000–$35,000 and free estimates available today"); replaced with a figure-free answer-first definition.
+- Stripped the two inline markdown self-links (`[solar panel](/...)`, `[Newark](/...)`) to plain text; zero links remain.
+- Replaced templated `whyChooseUs` ("GAF Certified", "15+ years", "same-day", "24/7", premium-materials-from-GAF/CertainTeed/Owens-Corning-as-credential) with NJ HIC licensed-and-insured + local-stock + warranty-flashing + free-estimate reasons.
+- Softened `conversionHooks.urgencyNote` ("Early action saves thousands" hype) to a factual roof-age prompt; midPageCta de-hyped.
+- Removed the FALSE/current 30% federal solar credit framing — restated historically ("was 30% through 2025, repealed after December 31, 2025, per the IRS"); dropped the unsourced "Urban Enterprise Zone additional state incentives" claim; dropped the fabricated $5,000–$15,000 / $2,000–$5,000 / $90/MWh and 100-/200-amp NEC-120% cost figures (no primary source). Net-metering/SuSI kept qualitative per fact-pack §0.7.
+- No invented East Orange geography (no river/flood/tidal/reservation existed in the current file; none introduced). No COA/HPC/historic-district gate asserted.
+- Cost FAQ + pricing aligned to the brief's installation default `$10,000–$25,000` (HomeAdvisor/Modernize) instead of the fabricated $18k–$35k; array/electrical noted as priced separately by the solar installer (roofing-scope framing matches the rewritten service object).
+
+Named sources cited in-text: NRCA Rooftop PV Guidelines, IronRidge, SPRI, Solar Power World (mount flashing / low-slope mounting); ASCE 7 (structural load + ballast); NREL and the DOE (module 25–30+ yr life / roof-age rule of thumb); NEC 690.12 + UL 790 + IRC R324.6 (rapid shutdown, system fire rating, firefighter access); N.J.A.C. 5:23-2.7 + NJ Uniform Construction Code (permit / 25% rule); U.S. Census QuickFacts (~69% renter, 87.6% multi-unit); NJ Board of Public Utilities + IRS (SuSI/net metering/ST-4/CRES, repealed §25D, commercial §48E); East Orange Building Division at 44 City Hall Plaza. Preserved local texture: multi-family/rental split-incentive economics, pre-war walk-up roof structures, flat-roof ballasted arrays, tenant-access coordination under NJ landlord-tenant notice practice.

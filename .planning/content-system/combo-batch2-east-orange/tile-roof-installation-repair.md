@@ -1,0 +1,12 @@
+# tile-roof-installation-repair — East Orange rewrite rationale
+
+De-fab literals cleared from the prior combo file:
+- `overview[0]` price + hype opener ("delivers expert ... with prices starting from $18,000–$40,000 and free estimates available today") → replaced with a figure-free answer-first definition; price moved to the `pricing` field and the cost FAQ only.
+- `whyChooseUs` templated trust line: removed `GAF Certified`, `15+ years`, `same-day` estimates, `24/7` emergency response, and the GAF/CertainTeed/Owens Corning manufacturer-warranty claim → replaced with the four de-fabbed factual reasons (NJ HIC licensed and insured, local Essex County crew, free written estimates, photo-documented workmanship).
+- `conversionHooks.urgencyNote` "Early action saves thousands" hype → factual prompt about limiting interior/structural water damage.
+- Pricing `note` "clay or concrete tile systems" → sourced HomeGuide tile-repair framing.
+- Fabricated/unverified specifics dropped: unverified street/neighborhood references (Prospect Street, "near institutional zones"), the salvage-network self-claim, and any speculative geography. No river/flood/tidal/reservation/waterfront claims were present or introduced (East Orange is a flat inner-ring plain). No COA/HPC/historic-district design-review gate asserted — replaced with the brief's verified no-local-ordinance posture and the NPS "Register listing alone places no restriction" fact, directing verification to the East Orange Department of Planning, Policy and Development.
+
+Local texture preserved/localized: clay/concrete tile concentrated on the older single-family homes of the northern neighborhoods (Presidential Estates, Doddtown, Ampere) vs. the dominant pre-war apartment/walk-up stock; multi-family permit path; East Orange Building Division at the Department of Property Maintenance, 44 City Hall Plaza.
+
+Named sources cited in-text: InterNACHI life-expectancy chart (clay/concrete tile 100+ yrs); Tile Roofing Industry Alliance (concrete 40–75 yrs, clay 75+ yrs, underlayment is the lifespan limiter, foot-traffic breakage, repair-vs-replace thresholds ~20–25% clay / 15–20% concrete); HomeGuide (tile repair $500–$2,500, $5–$25/sq ft, $50–$300/tile, flashing $400–$3,000); Integrity Home Exteriors (NJ 10–40% premium, verification/documentation); NJ Uniform Construction Code N.J.A.C. 5:23-2.7 (ordinary-maintenance exemption, 25% rule, structural-change permit trigger); National Park Service (Register listing places no restriction on a privately funded reroof).
