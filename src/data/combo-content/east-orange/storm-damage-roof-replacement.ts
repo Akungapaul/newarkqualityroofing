@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const eastOrangeStormDamageRoofReplacement: ComboContent = {
   serviceId: 'storm-damage-roof-replacement',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing replaces storm-damaged roofs across East Orange**, documenting wind, hail, and nor\'easter damage with photographs and a detailed scope, then installing a new roof on multi-family and single-family buildings as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert storm damage roof replacement in East Orange — with prices starting from $9,000–$28,000 and free estimates available today. Storm damage roof replacement in East Orange responds to the severe weather events -- nor\'easters, hurricane remnants, thunderstorm microbursts, and heavy hail events -- that periodically overwhelm even well-maintained roofing systems on the city\'s multi-family buildings, Victorian homes, and commercial properties. When [storm damage](/storm-damage-roof-replacement) exceeds what targeted repair can address -- shingles stripped from multiple roof slopes, membrane peeled from flat roofs, tree impact through the roof structure -- full replacement becomes the only path to restoring the building\'s weather protection.',
-    'The immediate aftermath of a major storm event creates urgency for East Orange landlords with occupied buildings. Exposed roof areas allow rain entry into occupied units, creating habitability violations, tenant displacement, and property damage liability. Emergency tarping and temporary weatherproofing bridge the gap between storm damage and permanent replacement, and our emergency response prioritizes occupied multi-family buildings where tenant safety and landlord liability are at stake.',
-    'Storm damage replacement on East Orange buildings frequently improves upon the pre-storm condition because current building code and roofing technology exceed what was available when the damaged roof was originally installed. Impact-resistant shingles, enhanced wind-uplift rated membranes, improved ventilation systems, and current-code insulation replace aging systems with superior protection. Insurance-funded storm damage replacement transforms a destructive event into a building upgrade that enhances property value and reduces future weather vulnerability, the same silver-lining approach property owners in [Newark](/storm-damage-roof-replacement-newark-nj) take with their post-storm rebuilds.'
+    '**Newark Quality Roofing replaces storm-damaged roofs across East Orange after high wind, hail impact, and nor\'easter storms** on multi-family, pre-war apartment, and single-family buildings. Storm damage roof replacement strips the failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system after a covered storm loss.',
+    '**High wind and hail** rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). A Newark Quality Roofing replacement documents the damage with timestamped photographs for the adjuster before tear-off.',
+    '**Nor\'easter storms** strip shingles and tear flat-roof membrane seams across East Orange\'s Brick Church, Elmwood, and Doddtown housing stock, because New Jersey averages at least one coastal storm per year, most common October through April, per the NOAA New Jersey State Climate Summary. A Newark Quality Roofing replacement matches the new cover to that exposure.',
+    '**Multi-family buildings** carry most of East Orange\'s storm-replacement volume, because U.S. Census QuickFacts records roughly 69% renter occupancy and 87.6% of units in multi-unit structures along the Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors. A Newark Quality Roofing replacement re-roofs the layered flat systems on these pre-war walk-ups.',
   ],
   challenges: [
-    'Multiple simultaneous storm damage claims across East Orange strain contractor availability and material supply chains. A major storm event affecting hundreds of buildings in the same area creates competition for roofing crews, equipment, and materials that extends project timelines beyond normal periods. We maintain relationships with multiple material suppliers and can scale crew capacity through subcontractor partnerships to manage storm-surge demand, but property owners should expect timeline extensions of two to four weeks during periods of high demand.',
-    'Hidden structural damage from storm events may not be apparent until tear-off exposes the deck and framing beneath the damaged roofing. Tree impact, in particular, can crack rafters and split deck sheathing in areas adjacent to the obvious impact point, and these structural failures must be repaired before new roofing can be installed. Our storm damage estimates include contingency allowances for concealed structural damage, and supplemental insurance claims are filed when tear-off reveals damage beyond the initial assessment scope.',
-    'Temporary protection between storm damage and permanent replacement must withstand additional weather events that frequently follow the initial storm. A tarp installed after a March nor\'easter must survive through April rain events that may be weeks away from the scheduled replacement. Our emergency tarping uses mechanical fasteners, weighted battens, and overlap details designed to provide reliable weather protection for 30 to 60 days rather than the single-event emergency coverage that minimal tarping provides.'
+    '**Tenant-occupied units** define storm replacement on East Orange\'s rental stock, because exposed roof areas admit rain into occupied apartments and create habitability and liability exposure for the landlord. A Newark Quality Roofing crew tarps active openings first and coordinates roof access under New Jersey landlord-tenant notice requirements.',
+    '**Layered flat-roof systems** on pre-war walk-ups complicate the tear-off, because the NJ Rehabilitation Subcode requires complete removal of the existing covering when the roof is water-soaked or already carries two or more applications, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing crew strips to the deck rather than recovering a multi-layer roof.',
+    '**Hidden deck damage** surfaces only when tear-off exposes the sheathing and framing beneath the storm-damaged covering. A Newark Quality Roofing crew inspects every section, replaces deteriorated plywood or OSB, and prepares the documentation for an insurance supplement, because an insurer\'s initial scope can miss a line item, per Insurance Information Institute claims-process guidance.',
+    '**Permit-required buildings** cover a large share of East Orange\'s commercial, multi-family, and attached stock, because the ordinary-maintenance exemption covers only repair of up to 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7. A Newark Quality Roofing crew files the construction permit when the job triggers one.',
   ],
   process: [
-    'Emergency response immediately following storm damage focuses on stopping active water entry into occupied space. Our crews install tarp systems, perform emergency membrane patches on flat roofs, clear debris from damaged areas, and assess structural integrity to ensure the building is safe for continued occupancy. All emergency measures and damage conditions are documented with timestamped photographs for insurance claim filing.',
-    'Permanent replacement follows insurance claim approval, with the project scope matching the approved claim and any supplemental submissions for concealed damage. Material specification takes advantage of the replacement opportunity to upgrade from the damaged system: impact-resistant shingles in areas prone to hail, enhanced wind-rated membranes on exposed buildings, and current-code insulation and ventilation throughout. These upgrades may qualify for insurance premium reductions that further offset any out-of-pocket owner cost.',
-    'Project completion includes final documentation that closes the insurance claim, initiates manufacturer warranty coverage, and provides the property owner with comprehensive records of the replacement. Before-and-after photography, material specifications, and warranty registration documents are compiled into a project file that supports future insurance renewals, property transactions, and maintenance planning.'
+    '**Newark Quality Roofing inspects the storm-damaged roof, documents the wind, hail, and nor\'easter damage with timestamped photographs, and writes a detailed scope and estimate matching the insurer\'s line items.** Newark Quality Roofing is a New Jersey Home Improvement Contractor, not a licensed public adjuster, so the crew documents the damage and meets the assigned adjuster on site, while the homeowner or a licensed public adjuster files and negotiates the claim, per the NJ Public Adjusters\' Licensing Act administered by NJ DOBI. The deductible is the policyholder\'s responsibility under the policy.',
+    '**Newark Quality Roofing meets the assigned insurance adjuster on site to walk the storm damage and provide technical input on the damage extent and the repair methods.** A crew prepares the documentation for a supplement when rotted decking or hidden damage at tear-off exceeds the initial estimate. Under a replacement-cost policy the insurer commonly pays first on an actual-cash-value basis, replacement cost minus depreciation and the deductible, then releases the held recoverable depreciation as a second payment after the roof is completed and invoiced, per the National Association of Insurance Commissioners and the Insurance Information Institute.',
+    '**Newark Quality Roofing strips the roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the cover to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** A complete tear-off exposes the deck for inspection, and the NJ Rehabilitation Subcode requires removal of the existing covering when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers, per N.J.A.C. 5:23-6.4. East Orange enforces the state classification through the East Orange Building Division, a designated State Uniform Construction Code enforcement agency.',
   ],
   faqs: [
     {
-      question: 'How quickly can you start storm damage roof replacement on my East Orange building?',
-      answer: 'Emergency tarping and stabilization begins within hours of the damage report. Permanent replacement scheduling depends on insurance claim approval, material availability, and crew capacity during the post-storm demand period. Under normal conditions, replacement begins within two to three weeks of claim approval. Following major regional storm events, timelines may extend to four to six weeks due to industry-wide demand.'
+      question: 'Do I need a permit to replace a storm-damaged roof in East Orange?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. On a commercial, multi-family, or attached building — the majority of East Orange\'s stock at 87.6% multi-unit per U.S. Census QuickFacts — replacing more than 25% of the roof area in a 12-month period requires a permit, and any structural change to rafters or trusses triggers one. East Orange enforces the state classification through the East Orange Building Division at City Hall, 44 City Hall Plaza.',
     },
     {
-      question: 'Will insurance cover the full cost of storm damage roof replacement on my East Orange building?',
-      answer: 'Insurance covers the cost to restore the roof to pre-storm condition minus the policy deductible. If code-required upgrades are needed to comply with current building standards, ordinance-or-law coverage in the policy may cover the additional cost. We document the distinction between storm damage restoration and code-required upgrades to maximize the covered amount under your policy terms.'
+      question: 'How do you handle storm replacement on an occupied East Orange apartment building?',
+      answer:
+        'A Newark Quality Roofing crew tarps active openings first to stop rain entry into occupied units, then schedules the tear-off and coordinates roof access under New Jersey landlord-tenant notice requirements. Exposed roof areas admit rain into apartments and create habitability and liability exposure for the landlord, so emergency stabilization precedes the permanent replacement. The crew strips the layered flat system on a pre-war walk-up to the deck rather than recovering a multi-layer roof.',
     },
     {
-      question: 'Can I upgrade to better roofing materials during storm damage replacement?',
-      answer: 'Yes. You can upgrade beyond the pre-storm material by paying the cost difference between the insurance-covered replacement and the upgraded material. For example, if insurance covers standard architectural shingles, you can upgrade to impact-resistant shingles by paying the material cost differential. We provide clear pricing for both the insurance-covered scope and any owner-elected upgrades.'
+      question: 'Does homeowners insurance cover storm damage roof replacement in East Orange?',
+      answer:
+        'Homeowners insurance covers roof replacement when a covered peril causes the damage — wind, hail, or a falling tree — and excludes replacement for normal wear, age, or deferred maintenance. Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023). Newark Quality Roofing documents the damage with timestamped photographs for the adjuster; coverage and approval are the insurer\'s decision.',
     },
     {
-      question: 'What should I do immediately after storm damage to my East Orange building roof?',
-      answer: 'Protect occupant safety first -- if structural damage is visible, evacuate affected areas. Document damage with photographs from safe vantage points. Contact your insurance carrier to initiate a claim. Call us for emergency tarping and assessment. Do not attempt to make temporary repairs yourself on a storm-damaged roof, as structural integrity may be compromised in areas that appear solid from above.'
+      question: 'Does a storm replacement on a Register-listed East Orange building need historic approval?',
+      answer:
+        'East Orange has no identified local historic-preservation ordinance, so a Certificate of Appropriateness is not triggered. A privately funded reroof on a National or State Register-listed building, such as one in the Central Avenue Commercial Historic District, is unrestricted, because Register listing alone places no restriction on a private owner, per the National Park Service. Verify current local requirements with the East Orange Department of Planning, Policy & Development.',
+    },
+    {
+      question: 'Do you waive or cover the insurance deductible on an East Orange storm replacement?',
+      answer:
+        'The deductible is the policyholder\'s responsibility under the policy and is subtracted once from the covered loss, and Newark Quality Roofing cannot legally waive, absorb, or pay it. A deductible-waiver scheme is prosecutable under the NJ Consumer Fraud Act and the NJ Insurance Fraud Prevention Act, per NJ DOBI, so Newark Quality Roofing prices the replacement at a fixed amount independent of the settlement.',
     },
     {
       question: 'How much does storm damage roof replacement cost in East Orange, NJ?',
-      answer: 'Most storm damage roof replacement projects in East Orange range from $9,000–$28,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data. Final cost depends on roof size, pitch, material, and access, and a homeowners-insurance claim offsets the cost for a covered wind, hail, or tree-impact loss. Newark Quality Roofing provides a free written estimate; the deductible remains the homeowner\'s responsibility under the policy.',
     },
   ],
-  metaDescription: 'Storm damage roof replacement for East Orange NJ buildings -- emergency tarping, insurance claims, and full replacement after severe weather events.',
+  metaDescription:
+    'Storm damage roof replacement in East Orange NJ — multi-family and pre-war apartments, insurance documentation, full tear-off. NJ-licensed, free estimate.',
   pricing: {
-    range: '$9,000–$28,000',
-    note: 'often insurance-covered',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free storm damage roof replacement estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for storm damage roof replacement in East Orange.',
+    urgencyNote: 'Addressing storm damage early limits interior and structural water damage.',
   },
 };

@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const eastOrangeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing installs and repairs fascia across East Orange and Essex County, replacing the rotted edge board that closes the rafter-tail ends and mounts the gutter system** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert fascia installation repair in East Orange — with prices starting from $1,200–$3,500 and free estimates available today. Fascia board deterioration on East Orange\'s multi-family buildings is both a structural concern and a visible indicator of deferred maintenance that affects tenant perception and property marketability. The fascia -- the flat board running along the roof edge behind the gutter -- bears the weight of the gutter system, receives direct water exposure from roof runoff, and sustains the paint-and-weather cycling that East Orange\'s seasons impose. On Victorian two-families and pre-war apartment buildings where original wood fascia has served for decades, rot, paint failure, and insect damage accumulate until the fascia can no longer support the gutter system securely.',
-    'For East Orange landlords managing rental properties, [fascia repair](/fascia-installation-repair) addresses both the functional requirement of gutter support and the curb appeal factor that influences tenant attraction and retention. A building with visibly rotted, peeling, or detached fascia boards communicates neglect to prospective tenants who are evaluating whether the property owner maintains the building reliably. Replacing deteriorated wood fascia with painted aluminum or composite material eliminates the rot cycle entirely, providing a maintenance-free roof edge detail that maintains its appearance through East Orange\'s weather extremes without the periodic painting that wood demands.',
-    'Fascia damage on East Orange buildings frequently extends beyond the visible board to the rafter tail ends behind it. Water that penetrates deteriorated fascia saturates the exposed end grain of the rafter tails -- the structural members that support the roof overhang and carry the gutter load. When rafter tail rot progresses, the fascia board, gutter system, and soffit can all detach from the building under wind or snow load. Our fascia repairs include evaluation of the rafter tail condition behind the fascia, with structural repair of compromised rafter ends before new fascia is installed, a concern also common on aging buildings in [Bloomfield](/fascia-installation-repair-bloomfield-nj).'
+    '**Newark Quality Roofing replaces rotted fascia board, restores the gutter line, and installs new fascia** on East Orange\'s pre-war apartments, two- and three-family walk-ups, and older single-family homes. Fascia is the board along the lower roof edge that closes the rafter-tail ends and mounts the gutter system, per InterNACHI inspection guidance.',
+    '**Rotted fascia board** fails most often from water, because clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. On East Orange\'s converted-Victorian two-families and pre-war walk-ups along the Brick Church and Elmwood corridors, original wood fascia that has carried the gutter for decades reaches the soft-and-spongy stage that triggers replacement, per Ledegar Roofing inspection guidance.',
+    '**The gutter line** sags and pulls from the roofline once the fascia weakens, because water-filled gutters weigh roughly 5–7 pounds per linear foot, a load a rotted board cannot carry, per HB Elements trade guidance. A Newark Quality Roofing fascia repair replaces the failed board first, then refastens the gutters to sound fascia so the eave sheds runoff cleanly. The mature street-tree canopy in the northern neighborhoods drops leaf and branch debris that clogs gutters and accelerates the rot.',
+    '**New fascia** sets to the rafter-tail ends in one of four materials, trading repaint upkeep against moisture durability: painted wood in pine or cedar lasts roughly 15–25 years and needs a repaint cycle, PVC resists moisture, aluminum cladding wraps the board for weather resistance, and fiber-cement resists moisture and insects, per HB Elements trade guidance. Aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart.',
   ],
   challenges: [
-    'Multi-story access requirements on East Orange\'s three-story buildings add significant labor cost to fascia replacement projects. Fascia runs along the entire roof perimeter at the highest point of the building, requiring continuous scaffold or boom lift access along each elevation. On narrow East Orange lots with minimal side-yard clearance, equipment positioning is constrained, and some elevations may be accessible only from the neighboring property\'s yard -- requiring coordination with adjacent property owners for access permission.',
-    'Gutter removal and reinstallation during fascia replacement doubles the scope of work on East Orange buildings where the gutter system is fastened through the fascia board. Every gutter hanger must be removed to access the fascia behind it, and the gutter must be supported or removed during fascia replacement. If the existing gutters are aluminum in serviceable condition, we remove and reinstall them on the new fascia. If the gutters are deteriorated, combined fascia and gutter replacement provides cost efficiency by eliminating the labor of salvaging and rehanging worn gutters.',
-    'Matching existing fascia profiles on East Orange Victorian homes with decorative crown and bed mold trim requires custom milling when standard lumber profiles do not replicate the original detail. Historic Victorian fascia profiles combined crown molding, flat board, and bed mold into a layered assembly that modern one-piece fascia replacements cannot reproduce. For property owners who value historic appearance, we replicate the original profile using PVC composite material that matches the decorative detail without the maintenance burden of painted wood -- a compromise that preserves character while eliminating rot susceptibility.'
+    '**Multi-family and rental economics** drive most East Orange fascia work, because the city runs roughly 31% owner-occupied with about 87.6% of units in multi-unit structures, per U.S. Census QuickFacts. A landlord chooses low-maintenance aluminum or PVC fascia to end the repaint cycle that painted wood demands roughly every 15–25 years, per HB Elements trade guidance.',
+    '**Multi-story access** raises the labor on East Orange\'s three-story walk-ups, because fascia runs the full roof perimeter at the highest point of the building, and narrow inner-ring lots leave little side-yard clearance for scaffold or lift placement. A Newark Quality Roofing job sets an access and staging plan before any work on the roof begins.',
+    '**Tenant-access coordination** shapes the schedule on occupied East Orange apartments and walk-ups, because perimeter scaffold and eave work pass close to tenant windows and entries. A Newark Quality Roofing crew sequences elevation-by-elevation work and coordinates entry timing with the property owner so occupied units stay accessible throughout the project.',
+    '**Hidden rafter-tail rot** behind the board adds scope once the fascia comes off, because water that soaks the fascia penetrates the rafter-tail ends it closes, per InterNACHI inspection guidance. A Newark Quality Roofing repair inspects the rafter tails before installing new fascia and sisters new lumber alongside any deteriorated ends.',
   ],
   process: [
-    'Fascia assessment documents the condition of fascia boards around the entire building perimeter, noting rot locations, paint failure, insect damage, and separation from rafter tails. We probe fascia boards at every gutter hanger location because these fastener points are where water infiltration and rot initiate most frequently. The assessment also evaluates rafter tail condition by probing behind the fascia at accessible locations. The resulting scope document maps the full extent of replacement needed and identifies any structural repair requirements.',
-    'Fascia replacement proceeds elevation by elevation, with gutter removal, old fascia demolition, rafter tail inspection and repair, new fascia installation, and gutter reinstallation completed on each elevation before moving to the next. This approach maintains rain protection on the majority of the building while work progresses. New fascia is installed with stainless steel or hot-dipped galvanized fasteners resistant to the corrosion that standard fasteners develop in East Orange\'s moisture-laden coastal air.',
-    'Material selection for replacement fascia on East Orange buildings considers maintenance requirements, budget, and aesthetic expectations. Painted aluminum fascia wrap over new wood substrate provides a durable, maintenance-free exterior while maintaining the structural wood substrate for gutter fastener support. Cellular PVC fascia board eliminates wood entirely, providing rot-proof, paint-holding performance in a material that can be milled to match historic profiles. Standard primed wood fascia offers the lowest material cost but requires periodic painting to prevent the rot cycle from recurring.'
+    '**Newark Quality Roofing inspects the fascia, the gutter line, and the drip edge, and traces the rot to the water source — a clogged gutter, a loose gutter, or a failed slope — before replacing the board.** A crew probes the fascia at every gutter-hanger point, where water infiltration and rot start most often, and checks the rafter tails at accessible locations, per InterNACHI inspection guidance.',
+    '**Newark Quality Roofing replaces the rotted board elevation by elevation, with gutter removal, board tear-off, rafter-tail repair, fascia installation, and gutter remount completed on each side before moving to the next.** New fascia sets to the rafter-tail ends with the drip edge fastened at least ¼ inch below the deck and fascia per the IRC R905.2.8.5 provision, directing runoff into the gutter rather than behind the board, per the International Residential Code.',
+    '**Newark Quality Roofing matches the replacement material to the building and refastens the gutters to the sound fascia, then documents the completed work with photographs.** Painted wood, PVC, aluminum cladding, and fiber-cement carry the upkeep-versus-moisture trade-off named before any work begins, per HB Elements trade guidance, and the gutter remount lets the board carry the roughly 5–7 pounds per linear foot of a water-filled gutter without sagging. The documentation gives an owner or property manager a record for any insurance claim.',
   ],
   faqs: [
     {
-      question: 'How can I tell if the fascia on my East Orange building needs replacement?',
-      answer: 'Visible signs include peeling or bubbling paint, soft spots when probed with a screwdriver, visible gaps between the fascia board and the soffit or rafter tails, and sagging gutters that indicate the fascia behind them has lost structural integrity. If you can push a screwdriver blade into the fascia board more than a quarter inch with moderate pressure, the wood has rotted beyond paintable repair and needs replacement.'
+      question: 'Do I need a permit for fascia work in East Orange?',
+      answer:
+        'Fascia is roof-edge trim, and on a detached one- or two-family home the repair or replacement of roof covering and trim counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, work beyond repairing 25% of the total roof area in a 12-month period requires a permit, which matters in East Orange because about 87.6% of units sit in multi-unit structures per U.S. Census QuickFacts. The East Orange Building Division enforces the state classification from City Hall at 44 City Hall Plaza.',
+    },
+    {
+      question: 'How can I tell the fascia on my East Orange building needs replacing?',
+      answer:
+        'Peeling or blistering paint, soft and spongy spots and discoloration, surface cracks and flaking, and gutters sagging or pulling from the roofline indicate fascia that needs replacing, per Ledegar Roofing inspection guidance. Soft spots and discoloration confirm water-driven rot inside the board, because clogged and overflowing gutters soak the fascia and a loose gutter leaves a gap that lets water contact it, per InterNACHI inspection guidance.',
     },
     {
       question: 'Should I replace fascia with wood or aluminum on my East Orange rental property?',
-      answer: 'For rental properties, aluminum-wrapped fascia or cellular PVC provides the best value because it eliminates the painting cycle that wood requires every 5 to 7 years. The higher material cost is offset within two paint cycles by avoided labor and material expense. For investment properties where minimizing ongoing maintenance cost drives decisions, maintenance-free fascia materials are the clear choice.'
+      answer:
+        'Aluminum cladding or PVC ends the repaint cycle that painted wood in pine or cedar carries roughly every 15–25 years, which suits a multi-family or rental building where minimizing ongoing maintenance matters, per HB Elements trade guidance. Aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart, while painted wood holds the lowest first cost and PVC and fiber-cement resist moisture.',
     },
     {
-      question: 'Can fascia be replaced without replacing the gutters on my East Orange building?',
-      answer: 'Yes. Existing gutters are removed, supported during fascia replacement, and reinstalled on the new fascia boards. However, if the gutters are also deteriorated, combining gutter and fascia replacement in a single project reduces overall cost by eliminating the separate mobilization, access setup, and gutter removal labor. We assess gutter condition during fascia evaluation and advise on whether combined replacement provides better value.'
+      question: 'Can fascia be replaced without removing the gutters on my East Orange building?',
+      answer:
+        'Fascia replacement detaches the gutter section first, because the gutters mount to the fascia and the fascia closes the rafter-tail ends behind the gutter line, per InterNACHI inspection guidance. A crew removes the gutter run, replaces the rotted board, then refastens the gutters to the sound fascia. Where the existing gutters are also deteriorated, combining gutter and fascia replacement reduces the separate access setup and removal labor.',
     },
     {
       question: 'Does rotted fascia mean the roof structure is damaged on my East Orange building?',
-      answer: 'Not necessarily, but it is possible. Water that rots fascia boards can also penetrate into the rafter tail ends behind the fascia. We inspect rafter tails during every fascia replacement to identify structural damage that may require sistering new lumber alongside deteriorated rafter ends. Catching rafter tail rot during fascia replacement is far less expensive than addressing the structural failure that occurs if damaged rafter tails are concealed behind new fascia.'
+      answer:
+        'Not necessarily, but it is possible, because water that rots the fascia board penetrates the rafter-tail ends the board closes, per InterNACHI inspection guidance. A Newark Quality Roofing repair inspects the rafter tails during every fascia replacement and sisters new lumber alongside deteriorated ends, work that costs far less caught at the eave than as a concealed structural failure behind new fascia.',
     },
     {
-      question: 'How much does fascia installation repair cost in East Orange, NJ?',
-      answer: 'Most fascia installation repair projects in East Orange range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does fascia installation and repair cost in East Orange, NJ?',
+      answer:
+        'Fascia cost depends on the board length, the material, the gutter remount, and any hidden rafter-tail rot, and a free written estimate sets the scope before any work begins. A Newark Quality Roofing inspection traces the rot to the water source and prices the board replacement and the gutter remount together, because fascia and gutter work share the same eave. Final cost depends on roof size, material, and access.',
     },
   ],
-  metaDescription: 'Fascia installation and repair for East Orange NJ buildings -- rot-proof replacement, rafter tail repair, and aluminum wrap for multi-family properties.',
+  metaDescription:
+    'Fascia repair in East Orange NJ — rotted-board replacement, rafter-tail repair, and gutter remount for multi-family and older homes. Free written estimate.',
   pricing: {
-    range: '$1,200–$3,500',
-    note: 'fascia board replacement',
+    range: 'Varies by scope',
+    note: 'Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fascia installation repair estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fascia installation and repair in East Orange.',
+    urgencyNote: 'Replacing rotted fascia early keeps the gutter line attached and protects the rafter tails behind the board.',
   },
 };

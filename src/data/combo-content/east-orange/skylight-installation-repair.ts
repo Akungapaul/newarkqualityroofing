@@ -3,56 +3,67 @@ import type { ComboContent } from '../schema';
 export const eastOrangeSkylightInstallationRepair: ComboContent = {
   serviceId: 'skylight-installation-repair',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing installs and repairs skylights across East Orange and Essex County, sealing leaks at the failed flashing, replacing fogged units, and curb-mounting skylights on flat and low-slope roofs** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert skylight installation repair in East Orange — with prices starting from $1,500–$5,000 and free estimates available today. Skylight installation and repair in East Orange serves two distinct property segments: owner-occupied homes in the Ampere and Elmwood Park neighborhoods where skylights bring natural light into upper-floor living spaces, and multi-family rental buildings where landlords install skylights to improve the habitability and rental appeal of top-floor units that often feel cramped beneath steep Victorian roof slopes. In both cases, [skylight](/skylight-installation-repair) work on East Orange buildings requires careful attention to the waterproofing integration between the skylight frame and the surrounding roof surface -- an interface that is the single most common source of skylight-related leaks on the city\'s aged housing stock.',
-    'Repair work on existing East Orange skylights frequently reveals installation deficiencies from previous decades when flashing kits were less sophisticated and installation standards were less rigorous. Skylights installed in the 1980s and 1990s on East Orange buildings commonly show deteriorated step flashing, dried-out sealant at frame corners, and condensation damage to surrounding wood framing caused by inadequate insulation around the skylight curb. These repairs address the accumulated damage while upgrading the installation to current standards, providing the property owner with a skylight that performs properly rather than simply patching the latest symptom of an underlying installation problem.',
-    'For landlords considering skylight installation on East Orange rental properties, the investment analysis weighs the natural light benefit against the long-term maintenance liability. Skylights on rental buildings receive less attentive maintenance than owner-occupied installations, and a skylight leak in a top-floor apartment creates tenant complaints, potential habitability issues, and repair costs that may exceed the rental premium the skylight commands. We advise East Orange landlords to consider fixed skylights with tempered glass and no-maintenance frames over operable models that add complexity, and to budget for biannual skylight inspection as part of their property maintenance program. Property owners in neighboring [West Orange](/skylight-installation-repair-west-orange-nj) benefit from similar guidance.'
+    '**Newark Quality Roofing installs, replaces, and repairs skylights** on East Orange homes and multi-family buildings, **sealing the roof penetration at the flashing detail that admits water**, the leading cause of a skylight leak, per roofing trade consensus.',
+    '**Skylight installation** sets a VELUX or Fakro unit with the manufacturer flashing kit matched to both the mounting type and the roof covering, because an engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America. East Orange owner-occupied homes in the northern Presidential Estates, Ampere, and Doddtown neighborhoods carry skylights that bring natural light into upper-floor living space beneath the older single-family roofs.',
+    '**Skylight repair** reseals the failed or improperly installed flashing and replaces deteriorated weatherseals, addressing the accumulated damage rather than recaulking the latest symptom. On East Orange multi-family rentals along the Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors, a flashing leak in a top-floor unit reaches the tenant before the ceiling, so a repair traces the path from the curb into the framing.',
+    '**Skylight diagnosis** separates a true leak from winter condensation, because water at a skylight is often condensation from excess indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America. A skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart, so a unit past that range favors replacement over repeated reseal.',
   ],
   challenges: [
-    'Condensation management around skylights on East Orange buildings with inadequate attic insulation creates moisture problems that mimic roof leaks. The temperature differential between the conditioned interior and the cold skylight glass produces condensation that drips onto the ceiling below, staining drywall and promoting mold growth in the skylight well framing. This condensation is not a roofing failure -- it is a building envelope issue that requires insulation improvement around the skylight curb and potentially improved ventilation in the skylight well to reduce moisture accumulation.',
-    'Steep roof pitches on East Orange Victorian homes present skylight installation challenges that low-slope suburban applications avoid. Skylights installed on roof pitches above 8/12 require specialized flashing kits designed for high-pitch applications, and the water velocity on steep surfaces during heavy rain can overwhelm standard flashing details if the installation does not account for the increased flow rate. Our installations on steep East Orange roofs use extended apron flashings on the upslope side that reach further up the roof than standard kits provide.',
-    'Building code requirements for skylights on East Orange multi-family buildings include tempered or laminated glass, fall protection considerations for skylights installed on flat roofs accessible to building occupants, and emergency egress compliance when skylights serve as required egress openings in habitable space. These code requirements add cost and complexity beyond what single-family skylight installations involve, and property owners must factor them into the investment analysis.'
+    '**Condensation around skylights** on East Orange buildings with inadequate attic insulation mimics a roof leak, because water at a skylight is often condensation from excess indoor humidity on cold glass, per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms, the cue a Newark Quality Roofing inspection reads before opening the flashing.',
+    '**Multi-family access** governs skylight work across East Orange, where the U.S. Census QuickFacts records 87.6% of housing units in multi-unit structures and about 69% renter occupancy. A top-floor skylight leak triggers a habitability concern, and a Newark Quality Roofing job coordinates entry to occupied units under New Jersey landlord-tenant notice rules before any work on the roof begins.',
+    '**Flat and low-slope roofs** on East Orange pre-war walk-ups and apartment blocks take curb-mounted skylights, because a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA.',
+    '**The street-tree canopy** along East Orange\'s wide, tree-lined residential streets sheds leaf and branch debris onto skylight flashing and holds shade and moss on north-facing slopes. Debris packed at a skylight curb traps moisture against the flashing, so a Newark Quality Roofing inspection clears the curb perimeter before reading the weatherseal.',
   ],
   process: [
-    'Skylight assessment on East Orange buildings evaluates the existing condition from both exterior and interior perspectives. Exterior inspection documents the flashing system condition, glass or dome clarity, frame integrity, and weatherseal condition. Interior inspection from the attic space examines the curb framing for moisture damage, insulation adequacy around the skylight well, and condensation evidence on curb surfaces. For new installations, we evaluate the proposed location for structural framing requirements, roof pitch compatibility, and interior ceiling configuration.',
-    'Skylight installation involves cutting the roof opening, framing the curb structure between rafters, and integrating the skylight unit into the waterproofing system with manufacturer-specified flashing. We install self-adhering ice-and-water shield membrane around the entire curb perimeter before the step and counter-flashing system is applied, creating a secondary waterproofing layer that protects against any flashing imperfection. Insulation is packed between the curb framing and the rough opening, and a vapor barrier is applied on the warm side to prevent condensation within the assembly.',
-    'Repair work on existing East Orange skylights typically involves reflashing the unit with current-generation flashing components, replacing deteriorated weatherseals, and addressing any wood damage in the curb framing. When the skylight unit itself has failed -- cracked glass, degraded frame, failed seal between panes -- we replace the unit with a current model that fits the existing curb opening or modify the curb to accommodate an updated unit size. All repairs are water-tested before final shingle or membrane restoration around the skylight perimeter.'
+    '**Newark Quality Roofing inspects the skylight at the flashing first and rules out condensation before sealing**, because the leading cause of a skylight leak is failed or improperly installed flashing, not the glass, per roofing trade consensus. An interior check from the attic examines the curb framing for moisture damage and insulation adequacy around the skylight well.',
+    '**Newark Quality Roofing installs the VELUX or Fakro flashing kit matched to both the mounting type and the roof covering**, sealing the penetration with engineered flashing rather than caulk, per VELUX America. A deck-mounted unit fastens to the deck at a lower profile, while a curb-mounted unit on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8, so an East Orange flat-roof install builds the curb to the code minimum.',
+    '**Newark Quality Roofing repairs an existing skylight by reflashing the unit, replacing deteriorated weatherseals, and addressing wood damage in the curb framing.** When the unit itself has failed, a replacement fits the existing curb opening or modifies the curb for a current model, and the work is water-tested before the shingle or membrane is restored around the skylight perimeter.',
+    '**Newark Quality Roofing documents the completed work with photographs and issues a written workmanship warranty on the labor**, separate from the manufacturer material warranty that covers factory defects, per VELUX America warranty guidance. The documentation supports an owner record, a multi-family property-manager file, and any insurance claim.',
   ],
   faqs: [
     {
-      question: 'How much does skylight installation cost on an East Orange home?',
-      answer: 'Skylight installation on an East Orange home ranges from $1,500 to $3,500 per unit depending on size, type, roof pitch, and interior finishing requirements. Fixed skylights cost less than operable models. Installation on steep Victorian roof pitches costs more than standard-pitch applications due to access complexity. The price includes the skylight unit, flashing system, structural framing modifications, and interior drywall finishing of the skylight well.'
+      question: 'Do I need a permit for a skylight on an East Orange building?',
+      answer:
+        'A repair or replacement of the roof covering and its penetrations on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit, and any structural framing change requires one regardless. East Orange enforces the state classification through the East Orange Building Division.',
     },
     {
-      question: 'Why does my East Orange skylight drip water on cold mornings but not during rain?',
-      answer: 'Cold-morning dripping from a skylight is condensation, not a roof leak. The glass surface cools below the dew point of indoor air, and moisture condenses on the glass and drips onto the ceiling below. The solution involves improving insulation around the skylight curb, ensuring the skylight well is properly air-sealed from the conditioned space below, and potentially adding a low-E coating or replacement unit with superior thermal performance to reduce condensation formation.'
+      question: 'Why does my East Orange skylight drip on cold mornings but not during rain?',
+      answer:
+        'Cold-morning dripping is condensation, not a roof leak — water at a skylight is often condensation from excess indoor humidity on cold glass, a common winter misdiagnosis per VELUX America. Condensation tracks with temperature and indoor humidity while a true leak tracks with rain and storms. The fix improves insulation and air-sealing around the skylight curb and favors a Low-E warm-edge unit that reduces, but does not eliminate, condensation, per VELUX America.',
     },
     {
-      question: 'Can skylights be installed on a flat-roofed East Orange apartment building?',
-      answer: 'Yes. Curb-mounted skylights on flat roofs use a raised curb assembly that elevates the skylight above the membrane surface, preventing water pooling around the frame. On East Orange apartment buildings, flat-roof skylights must use tempered or laminated safety glass and may require protective guards or screens if the roof is accessible to building occupants. We handle code compliance requirements for multi-family flat-roof skylight installations.'
+      question: 'Can a skylight be installed on a flat-roofed East Orange apartment building?',
+      answer:
+        'Yes — a flat or low-slope roof takes a curb-mounted skylight, and a skylight on a roof under 3:12 slope sits on a curb at least 4 inches above the roof plane, per IRC Section R308.6.8. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding past 48 hours counted as a defect, per NRCA and ARMA, so a Newark Quality Roofing curb sheds water at the penetration rather than pooling around the frame.',
     },
     {
-      question: 'How long do skylights last before needing replacement on an East Orange home?',
-      answer: 'Quality skylights from manufacturers like VELUX last 20 to 30 years with proper maintenance. The flashing system and weatherseals may require attention before the unit itself needs replacement. We recommend biannual exterior inspection and interior condensation monitoring to identify maintenance needs early. When replacement is needed, modern units offer significantly better thermal performance and condensation resistance than skylights installed 20 or more years ago.'
+      question: 'How long does a skylight last on an East Orange home?',
+      answer:
+        'A skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart. Failed or improperly installed flashing causes a leak well before the glass fails, per roofing trade consensus, so a Newark Quality Roofing flashing repair extends service within that range, while a fogged insulated-glass seal — the failure the VELUX 20-year glass-seal warranty covers, separate from leak coverage, per VELUX America — signals replacement.',
     },
     {
-      question: 'How much does skylight installation repair cost in East Orange, NJ?',
-      answer: 'Most skylight installation repair projects in East Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does skylight installation and repair cost in East Orange, NJ?',
+      answer:
+        'Skylight installation costs $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, per HomeGuide, Angi, and Modernize cost data. A reseal runs $75–$250 and a flashing repair $150–$500, per Angi and Modernize. Final cost depends on size, type, roof pitch, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Skylight installation and repair for East Orange NJ homes -- leak-free flashing, condensation solutions, and Victorian roof skylight upgrades.',
+  metaDescription:
+    'Skylight installation and repair in East Orange NJ — flashing-leak seals, condensation diagnosis, fogged-unit replacement, flat-roof curb mounts. Free estimate.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'per skylight installed or repaired',
+    range: '$225–$4,200 across repair and installation',
+    note: 'Skylight installation $1,600–$4,200 installed, replacement $800–$2,400, and leak repair $225–$800, per HomeGuide, Angi, and Modernize; final cost depends on size, type, roof pitch, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free skylight installation repair estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for skylight installation and repair in East Orange.',
+    urgencyNote: 'Addressing a skylight flashing leak early limits interior and structural water damage.',
   },
 };

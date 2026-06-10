@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const eastOrangeRoofDeckRepairReplacement: ComboContent = {
   serviceId: 'roof-deck-repair-replacement',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing repairs and replaces roof decks across East Orange, removing rotted plywood and OSB sheathing and re-decking the roof so the deck grips fasteners and supports the covering** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert roof deck repair replacement in East Orange — with prices starting from $2,000–$6,000 and free estimates available today. Roof deck damage on East Orange\'s multi-family buildings represents the most consequential roofing problem a landlord can face because compromised decking undermines the structural platform that every other roofing component depends on. When plywood or board sheathing rots beneath the roofing membrane, the deterioration progresses invisibly until the surface above it sags, a worker\'s foot breaks through during maintenance, or water damage in the occupied space below reaches a level that code enforcement cannot ignore. The Victorian two-families and pre-war apartment buildings throughout Elmwood Park, Doddtown, and the Brick Church district carry [roof decks](/roof-deck-repair-replacement) that range from original tongue-and-groove board sheathing to plywood installed during previous re-roofings -- and the condition of these decks determines whether a re-roofing project can proceed as planned or must expand to include structural restoration.',
-    'The primary cause of deck deterioration on East Orange rental buildings is prolonged moisture exposure from leaks that were reported by tenants but addressed with surface patching rather than investigation into the damage below. A membrane patch that stops the visible drip does not dry the plywood that absorbed water for weeks before the repair call was made. That wet plywood continues to decay beneath the waterproofing above it, losing structural capacity progressively until the deck can no longer support foot traffic, snow loads, or even the dead weight of the roofing material sitting on it.',
-    'Deck assessment during re-roofing is a standard part of our process on every East Orange building because concealed deck damage cannot be fully evaluated until the existing roofing material is removed. Our proposals include contingency allowances for deck repair based on the building\'s age, leak history, and the observable condition of sheathing from the attic side. This upfront transparency helps East Orange property owners budget realistically for re-roofing projects where deck repair is a probability rather than a possibility, avoiding the mid-project cost surprises that strain relationships between contractors and building owners in [Newark](/roof-deck-repair-replacement-newark-nj) and across Essex County.'
+    '**Newark Quality Roofing repairs rotted sheathing, delaminated plywood and swollen OSB, and water-soaked decking** across East Orange. The roof deck is the plywood or OSB sheathing spanning the rafters, the structural substrate that anchors every roofing nail under the covering.',
+    '**Rotted sheathing** loses the ability to hold a fastener, because roofing nails penetrate at least 3/4 inch into the deck, or fully through plus 1/8 inch where the deck measures under 3/4 inch thick, per ARMA nail-application guidance. A Newark Quality Roofing re-deck removes the decayed plywood or OSB and restores a deck that grips the covering, because trapped moisture decays the sheathing until it loses fastener hold and the roof loses wind resistance, per InterNACHI.',
+    '**Delaminated plywood and swollen OSB** mark sheathing past recovery, because plywood dries more uniformly and partly recovers while OSB swells at the edges and delaminates irreversibly once saturated, per InterNACHI and trade guidance. On East Orange\'s pre-war walk-ups in the Brick Church district, decades of moisture cycling weaken original board and plywood sheathing that a surface patch leaves in place.',
+    '**Water-soaked decking** exposed at tear-off comes off before the new covering goes on, because the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck. On layered flat roofs over Central Avenue and Dr. Martin Luther King Jr. Boulevard multi-family buildings, a Newark Quality Roofing crew strips the failed membrane to the deck and replaces the saturated sheathing before re-covering.',
   ],
   challenges: [
-    'Identifying the full extent of deck damage during tear-off requires experienced judgment. Rot spreads outward from the moisture entry point in patterns that depend on the decking material, the slope, and the presence of insulation or vapor barriers that trap or channel moisture. Board sheathing may show rot in individual boards while adjacent boards remain sound. Plywood delaminates in sheets, sometimes appearing solid on the surface while the internal plies have separated. Our crews probe sheathing with awls at regular intervals during tear-off, mapping soft spots that visual inspection alone would miss.',
-    'Structural adequacy of remaining decking must be evaluated before new roofing is installed. Partial deck replacement that patches rotted sections with new plywood assumes the surrounding original decking retains adequate structural capacity -- an assumption that may not hold on East Orange buildings where the original decking has been weakened by decades of moisture cycling even if it has not reached the point of obvious failure. We evaluate the structural condition of surrounding sheathing and recommend full-panel replacement beyond the obviously damaged area when edge conditions suggest broader deterioration.',
-    'Load bearing during deck repair on occupied East Orange buildings requires temporary support measures when large sections of decking are removed simultaneously. The roof structure above occupied apartments must maintain its integrity during the repair process. Our crews section deck replacement into manageable zones, replacing one section at a time while adjacent areas maintain structural continuity. On buildings where deck damage is extensive enough to compromise structural safety, we install temporary shoring from the attic side before removing damaged decking from above.'
+    '**Concealed deck damage** is the defining roof-deck challenge on East Orange rental buildings, because rot spreads from a moisture entry point and stays hidden under the covering until tear-off exposes it. A Newark Quality Roofing crew probes the sheathing from the attic and the roof for soft, spongy, or crumbling wood, delaminated plywood, swollen OSB, and underside staining, per InterNACHI and GAF inspection guidance.',
+    '**Multi-family economics** shape deck work in a city that is roughly 69% renter with 87.6% of units in multi-unit structures, per U.S. Census QuickFacts, where a deferred leak on a pre-war apartment building feeds water to the decking for weeks before a repair call. A Newark Quality Roofing scope traces the deck decay to the flashing, gutter, or drainage failure that admitted the water, so the same leak does not return after the re-deck.',
+    '**Occupied-building access** complicates deck repair on East Orange two- and three-family rentals and pre-war walk-ups, because the roof platform sits over occupied units and the work runs while tenants remain in place. A Newark Quality Roofing job coordinates roof access and staging with the building owner and schedules around tenant occupancy before any sheathing is removed.',
+    '**Layered flat-roof systems** on Central Avenue and Dr. Martin Luther King Jr. Boulevard multi-family blocks hide deck saturation under successive membrane recovers, because ponding water remaining more than 48 hours counts as a defect that saturates the deck through a breach, per NRCA and ARMA. A Newark Quality Roofing crew strips the stacked covering to the deck to reach the rotted sheathing the recovers concealed.',
   ],
   process: [
-    'Deck assessment begins before tear-off starts, with an attic-side inspection that documents visible staining, moisture readings, deflection under foot traffic, and daylight penetration through gaps in sheathing. This pre-tear-off assessment establishes the baseline expectation for deck condition and helps size the contingency budget for deck repair materials and labor. Properties with extensive attic-side evidence of moisture damage receive higher contingency allowances in the project estimate.',
-    'During tear-off, our crews systematically probe exposed decking to map the full extent of deterioration. Every soft spot, delaminated panel, and structurally compromised section is marked and documented. The damage map determines the replacement scope, which may range from individual board replacement on buildings with localized leaks to full-panel replacement across sections of the roof where widespread moisture damage has undermined the entire deck assembly.',
-    'Deck replacement uses CDX plywood or OSB sheathing that matches the thickness and fastening requirements of the existing decking. New panels are fastened to rafters with ring-shank nails or structural screws that provide positive withdrawal resistance in the event of wind uplift. Panel edges are supported by H-clips or blocking between rafters to prevent edge deflection under load. Where rafters show moisture damage from the same leaks that damaged the decking, sister rafters are installed alongside the weakened members before new decking is applied. The completed repair restores full structural capacity to the roof platform before new insulation and roofing material proceed.'
+    '**Newark Quality Roofing probes the sheathing from the attic and the roof, then sets the deck-repair scope in a written estimate before tear-off begins.** A crew documents soft, spongy, or crumbling wood, delaminated plywood, swollen OSB, and underside staining, per InterNACHI and GAF inspection guidance.',
+    '**Newark Quality Roofing strips the covering to the deck and removes every water-soaked or rotted section**, because the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck. A crew maps the full extent of decay across board and plywood sheathing, replacing localized board damage or full panels where moisture has undermined the deck assembly.',
+    '**Newark Quality Roofing re-decks with code-rated structural panels sized to the rafter spacing, restoring a deck that grips a roofing nail at least 3/4 inch deep.** Panels carry an APA span rating that sets the maximum rafter spacing, per APA – The Engineered Wood Association, and panels thinner than 1/2 inch over rafters spaced more than 20 inches on center take H-clips, tongue-and-groove edges, or solid blocking, per IRC Section R803.2. A crew fastens the covering with corrosion-resistant nails that penetrate at least 3/4 inch into the new deck, per ARMA, applies a self-adhering ice barrier from the eave to at least 24 inches inside the exterior wall line, per IRC Section R905.1.2, and issues a written workmanship warranty on the labor.',
   ],
   faqs: [
     {
-      question: 'How can I tell if my East Orange building needs roof deck repair before re-roofing?',
-      answer: 'Indicators include soft or spongy spots on the roof surface visible from above, sagging between rafters visible from inside the attic, water staining on the underside of sheathing, delaminated plywood edges visible at eaves or gable ends, and a history of chronic leaks in specific roof areas. An attic inspection by our crew can identify likely deck problems before tear-off begins, helping you budget appropriately for the re-roofing project.'
+      question: 'Do I need a permit from East Orange for roof deck work?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a structural change to rafters or trusses still triggers a permit. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit. Because East Orange is roughly 87.6% multi-unit per U.S. Census QuickFacts, the permit-required path applies to much of its building stock. The East Orange Building Division, a designated State Uniform Construction Code Enforcement Agency, enforces the state classification from the Department of Property Maintenance at East Orange City Hall, 44 City Hall Plaza.',
     },
     {
-      question: 'How much does roof deck repair add to a re-roofing project cost?',
-      answer: 'Deck repair typically adds $2 to $5 per square foot for the areas requiring replacement, including material and labor. On a typical East Orange apartment building, deck repair costs range from $500 for isolated patches to $5,000 or more for extensive damage affecting large sections of the roof. We include a contingency allowance in re-roofing proposals based on the building\'s age and leak history, so the total project budget accounts for the deck repair that tear-off may reveal.'
+      question: 'Does a roof deck repair on a Register-listed East Orange building need historic approval?',
+      answer:
+        'East Orange has no identified local historic-preservation ordinance, so a Certificate of Appropriateness is not triggered, and a privately funded reroof on a Register-listed building is unrestricted. Several sites carry National or State Register listing or SHPO-eligible status, including the Central Avenue Commercial Historic District and the Brick Church station, but Register listing alone places no restriction on a privately funded reroof, per the National Park Service. Verify current local requirements with the East Orange Department of Planning, Policy & Development.',
+    },
+    {
+      question: 'Why does roof deck rot on East Orange apartment buildings?',
+      answer:
+        'Roof deck rot traces to trapped moisture that decays the sheathing until the deck loses the ability to hold a fastener and the roof loses wind resistance, per InterNACHI. On East Orange multi-family buildings, a leak reported by a tenant but patched at the surface keeps feeding water to the decking, and condensation from inadequate attic ventilation adds a second moisture source. A Newark Quality Roofing scope traces the decay to the failure that admitted the water before re-decking.',
+    },
+    {
+      question: 'Does swollen OSB dry out, or does it have to be replaced?',
+      answer:
+        'Swollen OSB swells at the edges and delaminates irreversibly once saturated, so saturated OSB gets replaced rather than dried out, while plywood dries more uniformly and partly recovers, per InterNACHI and trade guidance. A Newark Quality Roofing inspection separates plywood that recovers from OSB and plywood past recovery before a re-deck quote, because the IRC reroofing provisions in Section R908 prohibit roofing over a deteriorated deck.',
     },
     {
       question: 'Can roof deck damage be repaired without a full re-roofing project?',
-      answer: 'Accessing deck damage requires removing the roofing material above it, which makes standalone deck repair impractical in most cases. If the roofing material above the damaged section is near end of life, the most cost-effective approach is combining deck repair with section re-roofing or full re-roofing. If the roofing is in good condition elsewhere and damage is localized, we can remove and replace roofing over the damaged section only, repair the deck, and install new roofing to match.'
+      answer:
+        'Reaching the deck requires removing the covering above it, so a standalone deck repair removes and replaces the roofing over the damaged section. Where the covering is near end of life, combining the deck repair with a section or full re-roof is the more economical path; where the covering elsewhere is sound and the damage is localized, a crew removes the covering over the damaged section only, replaces the deck, and reinstalls matching covering.',
     },
     {
-      question: 'What causes roof deck rot on East Orange apartment buildings?',
-      answer: 'The primary cause is prolonged moisture exposure from roof leaks that were patched at the surface without addressing the water that already reached the decking. Secondary causes include condensation from inadequate attic ventilation, ice dam water infiltration during winter, and moisture migration through poorly sealed plumbing and HVAC penetrations. On East Orange multi-family buildings, the combination of multiple moisture sources and deferred maintenance creates cumulative deck damage that progresses until re-roofing exposes it.'
-    },
-    {
-      question: 'How much does roof deck repair replacement cost in East Orange, NJ?',
-      answer: 'Most roof deck repair replacement projects in East Orange range from $2,000–$6,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How much does roof deck repair and replacement cost in East Orange, NJ?',
+      answer:
+        'Re-decking a roof costs $2–$5 per square foot, with a national average near $5,500, and Angi cites $2–$6 per square foot, per HomeGuide and Angi cost data. A hidden-rot re-deck added during a re-roof runs about $50–$120 per 4-by-8 sheet, per contractor cost data, and OSB sheathing costs less than plywood. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof deck repair for East Orange NJ apartments -- plywood replacement, structural sheathing restoration, and concealed rot detection during re-roofing.',
+  metaDescription:
+    'Roof deck repair and replacement in East Orange NJ — rotted plywood and OSB sheathing, concealed rot at tear-off, code-rated re-decking. NJ-licensed.',
   pricing: {
-    range: '$2,000–$6,000',
-    note: 'structural deck repair pricing',
+    range: '$2–$5 per sq ft',
+    note: 'Typical re-decking range per HomeGuide and Angi cost data; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof deck repair replacement estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof deck repair and replacement in East Orange.',
+    urgencyNote: 'Replacing rotted decking before the new covering goes on keeps fasteners holding and limits further structural water damage.',
   },
 };

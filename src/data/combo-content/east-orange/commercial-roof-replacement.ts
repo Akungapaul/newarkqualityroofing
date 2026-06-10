@@ -3,57 +3,71 @@ import type { ComboContent } from '../schema';
 export const eastOrangeCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing replaces commercial roofs across East Orange and Essex County, stripping the low-slope membrane to the deck, repairing the deck, and installing a new insulation-and-membrane system to manufacturer specification** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert commercial roof replacement in East Orange — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement on East Orange buildings is a capital project that transforms the building\'s most critical protective system while the business operations, residential tenants, and institutional functions below continue without interruption. The mixed-use buildings along Main Street, the institutional facilities serving community organizations, and the commercial properties throughout Brick Church and the downtown area all reach the point where accumulated repairs, chronic ponding, and membrane deterioration make continued patching economically irrational -- and full [commercial roof replacement](/commercial-roof-replacement) becomes the sound investment decision.',
-    'East Orange\'s commercial building owners face a replacement decision shaped by the city\'s economic trajectory. Buildings positioned for long-term hold and appreciation justify premium membrane systems with 25 to 30-year service life and comprehensive manufacturer warranties. Properties in transitional use -- commercial space being repositioned for new tenants, buildings facing potential redevelopment -- may warrant mid-tier systems that provide reliable 20-year performance at lower capital cost. Our replacement specifications align membrane selection with the building owner\'s investment horizon, avoiding both underinvestment that creates premature failure and overinvestment that exceeds the building\'s remaining economic life.',
-    'The replacement process on occupied East Orange commercial buildings must protect the revenue-generating operations below the work area throughout the project duration. A four-week roof replacement cannot cost the ground-floor restaurant its dinner service, cannot displace the upstairs tenants, and cannot compromise the inventory of the retail tenant operating adjacent to the staging area. Our project management on East Orange commercial replacements plans every logistics detail -- material staging, debris containment, noise scheduling, weather protection -- to maintain business continuity from tear-off through final inspection.',
-    'Energy code compliance during commercial roof replacement triggers insulation upgrades that transform the building\'s thermal performance. New Jersey energy code requires current-standard R-values when existing roofing is removed to the deck, and meeting these requirements on East Orange buildings that were constructed with minimal insulation produces dramatic improvement in heating and cooling efficiency. The mandated insulation upgrade is not an added cost of replacement -- it is an embedded benefit that reduces operating costs for the remaining life of the building, a value recognized by commercial property owners across Essex County from East Orange to [Caldwell](/commercial-roof-replacement-caldwell-nj).'
+    '**Newark Quality Roofing replaces commercial and multi-family low-slope roofs across East Orange** on the pre-war apartments, walk-ups, and mixed-use buildings along the transit corridors. **Commercial roof replacement** strips the failed covering to the deck and installs a new insulation-and-membrane system.',
+    '**Commercial and multi-family** stock carries most of East Orange, because 87.6% of the city\'s housing units sit in multi-unit structures and 31.0% are owner-occupied, per U.S. Census QuickFacts, so the flat-roof systems over Brick Church and Elmwood Park rentals reach the end of service through membrane age rather than new construction. A Newark Quality Roofing replacement matches the new membrane to the building and the drainage before tear-off.',
+    '**Commercial roof replacement** spans 5 low-slope membrane systems that each reach a material-specific lifespan: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. A reflective white TPO or PVC membrane carries cool-roof solar reflectance measured per ASTM C1549, the property that lowers rooftop heat gain.',
+    '**Newark Quality Roofing** installs standing-seam metal at 40 to 80 years of service per the InterNACHI life-expectancy chart on a steep-slope or architectural commercial roof, the longest-service option where a low-slope membrane does not fit the building, and installs and services Firestone, Carlisle, and Johns Manville membrane systems to manufacturer specification.',
   ],
   challenges: [
-    'Phased construction scheduling on occupied East Orange commercial buildings requires detailed coordination between tear-off, insulation, and membrane installation crews to ensure that no section of the building is exposed to weather overnight. Each work zone must be stripped, insulated, and covered with at least a temporary membrane within a single work shift. This sequencing constraint limits the daily production rate and extends the overall project timeline compared to unoccupied building replacement, adding cost that must be factored into project budgets.',
-    'Existing structural conditions discovered during tear-off can alter the replacement scope and timeline. Deck deterioration, rafter damage, and parapet wall deficiencies that were concealed beneath the previous roofing system become apparent only when the old materials are removed. Our proposals include contingency allowances based on building age and visible condition indicators, and we communicate discovered conditions to the building owner immediately with repair options and cost implications.',
-    'Tenant communication and schedule coordination during extended replacement projects requires proactive management. We provide the property owner with a written project schedule before work begins, identifying the daily work zones, noise-intensive activities, and access restrictions that tenants should expect. Weekly progress updates keep the property owner informed of schedule adherence, and any schedule changes are communicated immediately to allow tenant notification.'
+    '**Layered flat-roof systems** on East Orange\'s pre-war walk-ups bar a further recover-over, because N.J.A.C. 5:23-6.4 requires complete removal once a roof carries 2 or more layers. A Newark Quality Roofing replacement scopes the existing buildup before tear-off.',
+    '**Tenant-access coordination** governs a replacement on an occupied multi-family building, because New Jersey landlord-tenant law requires a landlord give a tenant reasonable advance written notice before entering a unit for work. A Newark Quality Roofing replacement sets the staging, debris route, and roof-access plan with the property owner so the rental units below stay occupied through the project.',
+    '**Concealed deck and parapet conditions** surface only when the old covering comes off a pre-war building, where deck deterioration and parapet-wall deficiencies hide beneath the membrane. A Newark Quality Roofing proposal carries a contingency for these conditions and reports each discovered condition to the building owner with the repair scope and cost before the work proceeds.',
+    '**The mature street-tree canopy** along East Orange\'s wide, tree-lined streets in the northern neighborhoods drops leaf and branch debris onto flat roofs and holds shade and moss on north-facing slopes, the debris load that clogs drains and ages a membrane. A Newark Quality Roofing replacement builds positive drainage to clear the standing water that debris-blocked drains create.',
   ],
   process: [
-    'Pre-construction planning for commercial roof replacement includes structural assessment, energy code compliance analysis, membrane system selection, and logistics planning for the specific building. We develop a phased work plan that identifies daily work zones, material staging areas, debris removal routes, and weather contingency protocols. The construction schedule is shared with the property owner and all building tenants before work begins.',
-    'Construction execution follows the phased plan, with each day\'s work zone completing the full sequence from tear-off through temporary weatherproofing before the crew moves to the next zone. New insulation is installed to meet current energy code requirements, and the specified membrane system is installed over the insulation with all penetration flashings, drain connections, and perimeter terminations completed as each zone progresses. This methodical approach maintains weather protection continuously and produces a completed roof system section by section.',
-    'Project completion includes final inspection, warranty documentation delivery, and post-installation maintenance training for the building\'s maintenance staff. We walk the building owner through the completed system, identifying the location of every penetration flashing, drain, and access point that will require periodic inspection. Manufacturer warranty registration is processed on behalf of the building owner, and our workmanship warranty provides additional coverage for the installation details that manufacturer warranties do not address.'
+    '**Newark Quality Roofing assesses the deck, insulation, drainage, and NJ code triggers before quoting an East Orange commercial replacement.** A tear-off exposes saturated insulation and deck deterioration a surface inspection misses. An ASTM C1153 infrared moisture survey locates the wet insulation under an intact membrane, and a core cut verifies each warm anomaly, per ASTM and the NRCA.',
+    '**Newark Quality Roofing matches the new commercial system to the building and the drainage from 6 membrane classes — EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal.** Material lifespan differs sharply: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance, with white TPO and PVC carrying solar reflectance measured per ASTM C1549.',
+    '**Newark Quality Roofing strips the covering to the deck in managed sections, repairs the deck, builds tapered insulation to positive drainage, and installs the new membrane to manufacturer specification, the sequence that keeps the manufacturer system warranty intact.** Tapered insulation builds at least ¼ inch per foot of slope to clear the ponding water the NRCA and ARMA count as a defect after 48 hours, and the install preserves the material warranty separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How long does commercial roof replacement take on an East Orange building?',
-      answer: 'Duration depends on building size, membrane system, and weather conditions. A typical East Orange mixed-use building with 5,000 to 8,000 square feet of roof area takes two to four weeks from mobilization through final inspection. Larger buildings or projects requiring extensive deck repair extend the timeline proportionally. Our phased approach maintains weather protection throughout, so the project duration does not equate to building exposure.'
+      question: 'Does my East Orange commercial roof replacement require a permit?',
+      answer:
+        'A commercial roof replacement requires a construction permit, because the ordinary-maintenance exemption that waives a permit on a detached one- and two-family home does not extend to a commercial, multi-family, or attached building, per N.J.A.C. 5:23-2.7. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4. East Orange enforces the state classification through the East Orange Building Division, a designated State Uniform Construction Code enforcement agency, with applications filed at the Department of Property Maintenance, East Orange City Hall, 44 City Hall Plaza.',
     },
     {
-      question: 'What is the best membrane system for commercial roof replacement in East Orange?',
-      answer: 'The best system depends on the building\'s specific conditions and the owner\'s investment horizon. TPO provides energy-efficient performance at competitive cost for most commercial applications. EPDM offers proven longevity at the lowest installed cost for buildings without chemical exposure. PVC serves buildings with restaurant exhaust or chemical vapor exposure. Modified bitumen provides multi-layer redundancy at moderate cost. We recommend the system that matches each building\'s use, budget, and expected hold period.'
+      question: 'How does a commercial roof replacement work on an occupied multi-family building in East Orange?',
+      answer:
+        'A Newark Quality Roofing replacement phases the tear-off and installation in managed sections so the rental units below stay occupied, with each section stripped, insulated, and re-covered before the crew moves on. New Jersey landlord-tenant law requires a landlord give a tenant reasonable advance written notice before entering a unit, so the staging, debris route, and roof-access plan set in the written proposal align with the owner\'s tenant-notice obligations. Weekly progress updates keep the property owner informed of the schedule.',
     },
     {
-      question: 'Can I claim depreciation on a commercial roof replacement in East Orange?',
-      answer: 'Commercial roof replacement is generally a capital improvement that is depreciated over the building\'s remaining useful life under IRS guidelines. Current tax law may allow accelerated depreciation or Section 179 deduction for qualifying improvements. We recommend consulting with your accountant or tax advisor to determine the specific tax treatment applicable to your East Orange commercial property and the chosen roof system.'
+      question: 'Does an East Orange historic building need extra approval for a roof replacement?',
+      answer:
+        'East Orange has no identified local historic-preservation ordinance, so a Certificate of Appropriateness is not triggered; a privately funded reroof on a Register-listed building is unrestricted. The city\'s 2006 Master Plan Historic Preservation Element notes the city operates in the absence of a designated Historic Preservation Commission and only recommends creating one. Register listing alone places no restriction on a privately funded reroof, per the National Park Service. Verify current local requirements with the East Orange Department of Planning, Policy & Development.',
     },
     {
-      question: 'Does my East Orange commercial roof replacement require a building permit?',
-      answer: 'Yes. All commercial roof replacement projects in East Orange require building permits from the East Orange Building Department. The permit application requires contractor licensing, insurance certificates, project specifications including membrane type and insulation values, and structural documentation if the replacement changes the roof loading. We handle all permit applications and coordinate required inspections as part of our standard project scope.'
+      question: 'What is the typical lifespan of a new commercial roof?',
+      answer:
+        'A new commercial membrane lasts 15 to 25 years for EPDM, 7 to 20 years for TPO, 20 years for modified bitumen, 30 years for built-up roofing, and 20 to 30 years for PVC. The membrane lifespans trace to the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance, and standing-seam metal lasts 40 to 80 years per the InterNACHI chart on a steep-slope or architectural commercial roof.',
+    },
+    {
+      question: 'Should you add insulation during a commercial roof replacement?',
+      answer:
+        'A commercial roof replacement installs rigid insulation under the new membrane and builds tapered insulation to at least ¼ inch per foot of slope, the drainage that clears ponding water. Ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, and the tear-off exposes the deck once, the point at which insulation goes in at the lowest added labor.',
     },
     {
       question: 'How much does commercial roof replacement cost in East Orange, NJ?',
-      answer: 'Most commercial roof replacement projects in East Orange range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Commercial roof replacement in New Jersey runs $7.00 to $12.00 per square foot installed for single-ply membrane, with EPDM at $7.00 to $10.00 and TPO at $8.00 to $12.00, per Josten Roofing NJ pricing. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, membrane, drainage correction, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial roof replacement for East Orange NJ buildings -- phased flat roof installation with energy code insulation upgrades and tenant-safe construction.',
+  metaDescription:
+    'Commercial roof replacement in East Orange NJ — EPDM, TPO, PVC, and modified-bitumen flat-roof systems for multi-family and pre-war buildings. NJ-licensed.',
   pricing: {
-    range: '$8–$16/sq ft',
-    note: 'full tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free commercial roof replacement estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for commercial roof replacement in East Orange.',
+    urgencyNote: 'Addressing roof damage early limits interior and structural water damage.',
   },
 };

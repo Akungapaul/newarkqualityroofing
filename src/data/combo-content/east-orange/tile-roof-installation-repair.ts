@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const eastOrangeTileRoofInstallationRepair: ComboContent = {
   serviceId: 'tile-roof-installation-repair',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing installs and repairs clay and concrete tile roofs across East Orange and Essex County, replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert tile roof installation repair in East Orange — with prices starting from $18,000–$40,000 and free estimates available today. Tile roofing in East Orange appears on a select group of homes that break from the city\'s dominant Victorian and colonial housing patterns. Mediterranean-influenced residences along the quieter blocks of Prospect Street, Spanish Revival detailing on homes in the Ampere neighborhood, and occasional mission-style buildings near the city\'s institutional zones carry clay or concrete tile roofs that their original builders specified for architectural distinction. These buildings stand out on their blocks precisely because tile is uncommon in East Orange, and the material\'s longevity means most original tile installations remain in service -- damaged but repairable, weathered but structurally sound.',
-    'Tile roof repair in East Orange requires specialized skills that general roofing contractors rarely possess. Individual broken tiles must be removed without disturbing the surrounding tiles, replacement pieces must match the profile, color, and dimensions of the existing installation, and reinstallation must preserve the interlocking pattern that makes tile roofing weather-resistant. The underlayment beneath tile roofs has a finite lifespan -- typically 30 to 40 years -- and may need replacement even when the tiles themselves have decades of remaining service life. Accessing the underlayment requires systematic tile removal and reinstallation, a process that demands careful handling to minimize breakage of irreplaceable original tiles.',
-    'For East Orange homeowners considering tile for a new installation, the material represents a generational investment. Clay tile roofs routinely exceed 75 years of service life, and concrete tiles commonly last 50 or more years. On a property expected to remain in the family or serve as a long-term investment, tile\'s upfront cost premium over asphalt shingles is offset by the elimination of re-roofing cycles that shingle roofs require every 25 to 30 years. The structural requirements of tile -- it is substantially heavier than any other residential roofing material -- must be verified before specification, particularly on East Orange\'s older wood-framed buildings where original framing may not support the added weight without reinforcement.'
+    '**Newark Quality Roofing installs and repairs clay and concrete tile roofs** across East Orange, setting tile over a waterproof underlayment that carries the water resistance while the tile sheds rainfall and shields the underlayment from UV. **Tile work** covers new installation, broken-tile replacement, underlayment renewal, and ridge, hip, and flashing resealing.',
+    '**Clay and concrete tile** outlast most roof materials, because clay and concrete tile lasts 100 years or more, per the InterNACHI life-expectancy chart, while the Tile Roofing Industry Alliance rates concrete tile at a typical 40 to 75 years and notes clay tile often reaches 75 years or more. A Newark Quality Roofing repair separates a failed tile from failed fastening or failed underlayment beneath.',
+    '**Tile work** in East Orange appears on the older single-family homes of the northern neighborhoods — Presidential Estates, Doddtown, and Ampere — and on scattered institutional and mixed-use buildings, rather than the city\'s dominant pre-war apartments and walk-ups. A Newark Quality Roofing assessment matches the profile and color of the existing tile when sourcing replacements.',
+    '**Underlayment**, not the tile, sets the true repair-versus-replace trigger on a tile roof, per the Tile Roofing Industry Alliance, because the membrane fails well before clay tile that lasts 100 years or more, per the InterNACHI life-expectancy chart. A Newark Quality Roofing underlayment renewal lifts the sound tiles, installs a new waterproof membrane, and resets the original tiles.',
   ],
   challenges: [
-    'Structural load verification is the first and most critical step in any East Orange tile roof project. Clay tiles weigh 900 to 1,200 pounds per 100 square feet -- three to four times the weight of asphalt shingles. East Orange\'s Victorian-era wood framing was not designed for tile loads unless the building was originally constructed with a tile roof. Adding tile to a building with standard framing requires structural engineering review and potentially rafter reinforcement, sister joists, or supplemental support columns. These structural modifications add significant cost and complexity to what appears to be a straightforward roofing project, and they must be completed before any tile is installed.',
-    'Replacement tile sourcing for East Orange\'s existing tile roofs is an ongoing procurement challenge. Original clay tiles from the 1920s and 1930s were produced by regional manufacturers that no longer operate, and the specific profile, color, and glaze of these tiles cannot be replicated exactly. We maintain a network of salvage suppliers across the Northeast who stock reclaimed clay tiles from buildings of similar vintage, and we carry a modest inventory of common profiles for emergency repairs. When exact matches are unavailable, we source compatible replacement tiles and position them in less visible areas where the color and texture difference is least noticeable.',
-    'Foot traffic damage during repairs and maintenance is a constant concern on tile roofs. Unlike shingle roofs that tolerate walking, tile roofs require crews to distribute their weight carefully using foam pads and walking boards to prevent cracking tiles beneath their feet. On steep-pitched tile installations common to East Orange\'s Mediterranean-influenced homes, safe movement across the roof surface requires specialized training and equipment. HVAC technicians, chimney sweeps, and other trades working on the building must be cautioned against walking on the tile surface, as a single careless step can crack multiple tiles.'
+    '**Structural load** is the first question on any East Orange tile roof, because tile loads the framing well above an asphalt roof, so a Newark Quality Roofing assessment confirms the framing carries the tile before installation. A structural change to rafters, trusses, or ridge beams to carry the tile load triggers a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
+    '**Underlayment failure** drives most leaks beneath an older East Orange tile roof, because the membrane fails well before the tile, per the Tile Roofing Industry Alliance, so an interior stain under a 30-year-old tile roof signals failed underlayment rather than failed tile. A Newark Quality Roofing renewal resets the original tiles over a new membrane.',
+    '**Replacement-tile matching** complicates repairs on East Orange\'s older single-family tile roofs, because original profiles and colors are no longer in production. A Newark Quality Roofing repair sources a compatible profile and color and positions any close-match tile in the least visible plane, holding the original appearance per Tile Roofing Industry Alliance guidance.',
+    '**Foot-traffic breakage** is the common damage on a tile roof, per the Tile Roofing Industry Alliance, because tile carries no field redundancy and cracks underfoot. A Newark Quality Roofing crew distributes weight to protect the tile, and on the steeper-pitched tile roofs of the northern neighborhoods, staging is set before any traffic on the surface.',
   ],
   process: [
-    'Tile roof repair on East Orange homes begins with a careful assessment from ground level and at close range from ladder positions. We identify every broken, slipped, or missing tile and map the locations against a roof plan. Underlayment condition is evaluated where gaps between tiles allow visual inspection and through moisture monitoring of the interior ceiling below. If the underlayment appears intact and the tile damage is limited to isolated locations, individual tile replacement addresses the problem efficiently. If the underlayment shows age-related deterioration, a more comprehensive tile-lift-and-relay approach may be necessary.',
-    'Individual tile replacement follows a precise sequence: the tiles overlapping the damaged piece are carefully lifted and supported, the damaged tile and its fasteners are removed, the underlayment beneath is inspected and patched if necessary, and the replacement tile is set in position with compatible fasteners. The overlapping tiles are then lowered back into their original positions. This process requires patience and a light touch -- rushing the work or using excessive force damages adjacent tiles and multiplies the repair scope.',
-    'For comprehensive underlayment replacement, tiles are removed in systematic sections, numbered and stacked in order for reinstallation. The aging underlayment is stripped, the deck is inspected and repaired, new synthetic underlayment is installed, and the original tiles are reinstalled in their original positions using new stainless steel or copper fasteners. This process preserves the original tile investment while renewing the waterproofing layer that protects the building. Completed sections are weather-tested before advancing to the next section, ensuring the building remains protected throughout the multi-day process.'
+    '**Newark Quality Roofing verifies the structural load and diagnoses the failed layer — tile, fastening, or underlayment — before quoting tile roof work.** The Tile Roofing Industry Alliance identifies the underlayment as the real lifespan limiter, so a Newark Quality Roofing diagnosis separates a broken-tile repair from a full underlayment renewal, and a structural change to carry the tile load triggers a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
+    '**Newark Quality Roofing sets clay or concrete tile over a self-adhering underlayment that carries the waterproofing, fastens each tile against wind uplift, and reseals the ridge, hip, and flashing details to manufacturer specification.** The underlayment holds the water layer, because tile profiles pass air and wind-driven rain between individual tiles, per Tile Roofing Industry Alliance guidance, so a Newark Quality Roofing install treats the membrane as the primary barrier and ventilates beneath the tile against freeze-thaw stress.',
+    '**Newark Quality Roofing verifies tile alignment, fastener integrity, and watertight flashing, runs a magnet sweep for nails, and issues a written workmanship warranty on the labor.** The documentation gives a homeowner a record for any insurance claim and a multi-family property manager a record for the building file, separate from the manufacturer material warranty that covers factory defects, per Integrity Home Exteriors verification guidance.',
   ],
   faqs: [
     {
-      question: 'Can my East Orange home support a tile roof?',
-      answer: 'This depends on the existing roof framing. Homes originally built with tile roofs have framing designed for tile weight. Homes with standard framing for shingle or other lightweight roofing require structural engineering evaluation and potentially reinforcement before tile can be installed. We coordinate structural assessments and provide cost estimates for any required reinforcement as part of our tile roof consultation, so you understand the full project scope before making a material decision.'
+      question: 'Do I need a permit for tile roof work in East Orange?',
+      answer:
+        'A re-roof or repair of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. A commercial or multi-family building, or a structural change to carry the tile load, does require a permit. The East Orange Building Division, a designated State Uniform Construction Code Enforcement Agency, enforces the state classification, with applications filed at the Department of Property Maintenance, East Orange City Hall, 44 City Hall Plaza.',
     },
     {
-      question: 'How do I find replacement tiles that match my East Orange home\'s existing tile roof?',
-      answer: 'We source replacement tiles through three channels: salvage suppliers who stock reclaimed tiles from demolished buildings of similar vintage and region; current manufacturers who produce profiles compatible with common historic tile styles; and custom fabrication for unique profiles that are not available through standard channels. We bring sample tiles to your site to verify color and profile match before ordering quantities for the repair project.'
+      question: 'How long does a tile roof last in East Orange?',
+      answer:
+        'Clay tile lasts 100 years or more and concrete tile a typical 40 to 75 years, per the InterNACHI life-expectancy chart and the Tile Roofing Industry Alliance, while the underlayment beneath the tile fails first. The underlayment, not the tile, sets the lifespan limiter, so a 30-to-50-year-old tile roof commonly needs underlayment renewal beneath tiles that remain sound, per the Tile Roofing Industry Alliance.',
     },
     {
-      question: 'How long does a clay tile roof last in East Orange?',
-      answer: 'Clay tile roofs in East Orange typically last 75 to 100 years or more when the underlying structure and underlayment are maintained. The tiles themselves are the most durable component of the roof system. The underlayment beneath the tiles typically needs replacement every 30 to 40 years, and flashings at valleys, walls, and penetrations may need renewal every 20 to 30 years. These maintenance cycles preserve the tile investment and prevent leaks that could otherwise compromise the building structure.'
+      question: 'Should I repair or replace my East Orange tile roof?',
+      answer:
+        'Repair a tile roof when the damage stays localized, and replace the tile cover when broken or displaced tiles cross roughly 20–25% for clay or 15–20% for concrete, or when the underlayment has failed. The area thresholds are contractor-consensus rules, and a tile roof often needs only underlayment renewal beneath sound tiles, the cheaper path that preserves the original tile, per the Tile Roofing Industry Alliance.',
     },
     {
-      question: 'Is tile roofing appropriate for East Orange\'s climate?',
-      answer: 'Both clay and concrete tiles perform well in the Northeast climate when properly installed with freeze-thaw considerations addressed. The key installation detail is adequate underlayment beneath the tiles, because wind-driven rain and snowmelt can penetrate between tiles and must be intercepted by the waterproofing layer below. East Orange installations also require ice-and-water shield at all eaves and valleys to prevent ice dam damage to the underlayment. With these climate-appropriate details, tile provides exceptional performance and longevity.'
+      question: 'Does my East Orange home qualify for a historic Certificate of Appropriateness on a tile reroof?',
+      answer:
+        'East Orange has no identified local historic-preservation ordinance, so a Certificate of Appropriateness is not triggered, and a privately funded reroof on a Register-listed building is unrestricted, per the National Park Service. Several sites carry National or State Register listing, but Register listing alone places no restriction on a private owner. Verify current local requirements with the East Orange Department of Planning, Policy and Development.',
+    },
+    {
+      question: 'Can my East Orange home support the weight of a tile roof?',
+      answer:
+        'A tile roof loads the framing well above an asphalt roof, so a structural assessment confirms the framing carries the tile before installation. A home originally built with tile carries framing designed for the load, while a home framed for shingle requires a structural review and potentially reinforcement. A structural change to rafters, trusses, or ridge beams triggers a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
     },
     {
       question: 'How much does tile roof installation repair cost in East Orange, NJ?',
-      answer: 'Most tile roof installation repair projects in East Orange range from $18,000–$40,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Tile roof repair costs $500–$2,500 nationally, or $5–$25 per square foot, with individual tile replacement at $50–$300 per tile and flashing repair at $400–$3,000, per HomeGuide tile-repair cost data. NJ ranges sit 10–40% above those national figures because of higher labor and stricter NJ code, per Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Tile roof installation and repair for East Orange NJ homes -- clay and concrete tile restoration, underlayment renewal, and structural load assessment.',
+  metaDescription:
+    'Tile roof installation and repair in East Orange NJ — clay and concrete tile, broken-tile replacement, underlayment renewal, flashing reseal. Free estimate.',
   pricing: {
-    range: '$18,000–$40,000',
-    note: 'clay or concrete tile systems',
+    range: '$500–$2,500',
+    note: 'Tile roof repair range per HomeGuide; individual tile replacement runs $50–$300 per tile and flashing repair $400–$3,000. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free tile roof installation repair estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for tile roof installation and repair in East Orange.',
+    urgencyNote: 'Addressing tile or underlayment failure early limits interior and structural water damage.',
   },
 };

@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const eastOrangeChimneyFlashingRepair: ComboContent = {
   serviceId: 'chimney-flashing-repair',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing repairs chimney flashing across East Orange and Essex County, rebuilding the two-part base-and-counter flashing system that seals the chimney, the roof\'s largest and most leak-prone penetration** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert chimney flashing repair in East Orange — with prices starting from $400–$1,500 and free estimates available today. Chimney flashing repair is among the most frequently requested roof services on East Orange\'s Victorian two-families and pre-war multi-family buildings where masonry chimneys penetrate steep-pitched roof surfaces at junctions that bear the full force of water runoff, ice accumulation, and thermal movement. The original [chimney flashing](/chimney-flashing-repair) on these buildings -- typically lead or copper step and counter-flashing set into hand-cut reglets in the chimney masonry -- was installed with craftsmanship that modern roofing contractors rarely match, and when these original installations finally fail after decades of service, the replacement must address both the flashing system and the deteriorated mortar joints into which it was embedded.',
-    'The multi-family ownership structure of most East Orange buildings with chimney leak problems introduces a complication that single-family repairs avoid: the chimney may serve units occupied by different tenants, and water entering at the chimney-roof junction may damage one tenant\'s ceiling while the chimney serves a different tenant\'s heating system. Coordinating access, scheduling repair work that may temporarily disrupt heating, and allocating repair costs on properties with separate unit ownership all add layers of complexity to what appears to be a straightforward roofing repair.',
-    'East Orange\'s building stock carries chimneys in varying states of structural integrity, and flashing repair divorced from chimney masonry assessment can produce repairs that fail prematurely because the substrate receiving the flashing is itself compromised. Crumbling mortar joints cannot hold counter-flashing in a reglet. Spalling brick faces create irregular surfaces against which step flashing cannot seal. Leaning chimney stacks shift seasonally, opening gaps between flashing and masonry that sealant bridges temporarily but cannot accommodate permanently. Our chimney flashing repairs include masonry assessment, and we coordinate with masonry contractors when chimney repair is prerequisite to successful flashing work, similar to the approach required on aging chimneys throughout neighboring [Newark](/chimney-flashing-repair-newark-nj).'
+    '**Newark Quality Roofing repairs chimney flashing failures across East Orange: corroded step flashing, counter flashing pulled from the mortar joint, cracked surface caulk, and a missing cricket.** Chimney flashing repair rebuilds the metal that seals the chimney, the roof\'s largest penetration, on East Orange\'s pre-war apartments, two- and three-family walk-ups, and older single-family homes.',
+    '**Step flashing** failures concentrate on East Orange\'s pre-war apartments and two- and three-family walk-ups along the Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors, where the chimney sidewall transition meets aged masonry. A Newark Quality Roofing repair starts at the transition metal, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA.',
+    '**Counter flashing** pulls from deteriorated mortar joints on the older masonry chimneys around Brick Church, Elmwood, and Doddtown, where the original cap was set into reglets cut when the joints were sound. The NRCA specifies a two-part chimney flashing system: base and step flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint, so a Newark Quality Roofing repair restores both layers rather than smearing sealant over the symptom.',
+    '**A missing cricket** on a wide chimney dams water, ice, and the leaf and branch debris that East Orange\'s mature, tree-lined street canopy sheds onto the upslope face. A cricket, or saddle, is required on the upslope side of a chimney wider than 30 inches measured parallel to the ridge, per IRC Section R1003.20, so a Newark Quality Roofing repair builds the saddle that diverts runoff around the masonry.',
   ],
   challenges: [
-    'Counter-flashing removal from deteriorated mortar joints on East Orange chimneys risks damaging the surrounding masonry if performed aggressively. Original counter-flashing set into deep reglets was installed when the mortar was fresh and the brick was sound -- removing it from aged mortar and weakened brick requires controlled cutting with diamond blade tools rather than the pry-bar extraction that damages already compromised masonry. Our technicians use narrow-kerf diamond saws to cut new reglets adjacent to the original embedment when the original joint is too deteriorated to receive new flashing securely.',
-    'Ice dam formation at chimney-roof intersections on East Orange\'s steep-pitched Victorian roofs creates seasonal water entry that conventional flashing cannot prevent. The chimney mass conducts heat from the building interior, melting snow on the surrounding roof surface. This meltwater refreezes at the cold roof surface beyond the chimney\'s thermal influence, creating an ice dam that forces water upward under shingles and behind step flashing. Ice-and-water shield membrane installed beneath the step flashing and extending at least 24 inches beyond the chimney perimeter provides the secondary waterproofing barrier that prevents this seasonal ice dam leakage.',
-    'Multiple chimneys on larger East Orange multi-family buildings multiply the flashing repair scope and cost. A three-story building with a heating chimney and a separate fireplace chimney may require simultaneous flashing repair at both locations, and the repair access requirements -- scaffolding or ladder jack staging on a steep roof at three-story height -- represent a significant portion of the project cost. We evaluate all chimney flashings on the building during assessment to provide comprehensive repair scoping rather than addressing chimneys individually as each one begins leaking.'
+    '**Tenant access** is the defining chimney-flashing constraint in East Orange, because the city is roughly 69% renter with 87.6% of units in multi-unit structures, per U.S. Census QuickFacts, so a chimney that serves one tenant\'s heating can leak into a different tenant\'s ceiling. A Newark Quality Roofing job coordinates roof access with the landlord under New Jersey landlord-tenant notice rules before work begins.',
+    '**Deteriorated mortar** on East Orange\'s pre-war masonry chimneys cannot hold a counter flashing in a reglet, so a Newark Quality Roofing repair cuts a clean reglet into a sound horizontal mortar joint that mechanically locks the cap rather than relying on adhesive that masonry-versus-roof differential movement and freeze-thaw crack within a few years, per IIBEC.',
+    '**Multiple chimneys** on a larger East Orange multi-family or mixed-use building multiply the flashing scope, because a three-story walk-up can carry a heating chimney and a separate fireplace chimney that each need the apron, sidewall step, and upslope transitions sealed. A Newark Quality Roofing assessment scopes every chimney transition on the building rather than addressing each one as it begins to leak.',
+    '**Surface caulk** smeared along a chimney base is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A Newark Quality Roofing repair rebuilds the NRCA two-part metal system instead of resealing the symptom.',
   ],
   process: [
-    'Chimney flashing assessment begins with exterior examination from the roof surface, evaluating the condition of step flashing along each side of the chimney, counter-flashing embedment integrity, cricket or saddle condition on the upslope side, and the chimney masonry condition at every flashing interface. Interior examination from the attic space below identifies moisture patterns, staining, and wood damage that reveals the history and severity of water infiltration. This dual-sided assessment provides the complete diagnostic picture needed to specify a repair that addresses all contributing failure modes.',
-    'Step flashing replacement installs individual L-shaped metal pieces woven between each shingle course along the chimney sides, creating a lapped drainage system where each flashing piece overlaps the one below. Counter-flashing is set into freshly cut reglets in the chimney mortar joints using diamond saw equipment, with reglets positioned at mortar joints rather than through brick faces to preserve masonry integrity. The counter-flashing overlaps the step flashing by a minimum of four inches, creating the two-stage water management system that allows differential movement between the chimney and roof structure without compromising waterproofing.',
-    'The upslope chimney cricket or saddle is the detail most commonly deficient or absent on East Orange chimney installations. This triangular diverter structure prevents water and debris from accumulating behind the chimney, redirecting runoff around the sides where step flashing manages it. Chimneys wider than 30 inches require crickets by current building code, and most East Orange chimneys of this width either lack crickets or carry deteriorated original crickets that no longer function effectively. We fabricate and install soldered metal crickets with proper integration into the surrounding roofing system, eliminating the debris dam and ponding condition that causes the majority of upslope chimney leaks.'
+    '**Newark Quality Roofing inspects the chimney at the apron, the two sidewall step runs, and the upslope head or cricket, tracing the entry point before resealing.** A diagnosis starts at the chimney because it is the roof\'s largest and most leak-prone penetration. A continuous one-piece strip at the sidewall flags a defective original installation, per InterNACHI and shingle-manufacturer guidance.',
+    '**Newark Quality Roofing rebuilds the NRCA two-part flashing system: step and base flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint.** The counter flashing locks into the masonry mechanically, and a crew installs a self-adhering ice-and-water membrane that self-seals around fasteners at the chimney base, per ASTM D1970. Where a chimney measures wider than 30 inches parallel to the ridge, a crew builds a cricket, per IRC Section R1003.20.',
+    '**Newark Quality Roofing verifies watertight execution at every transition, runs a magnet sweep for nails at cleanup, and documents the repair with photographs.** The documentation gives a landlord or multi-family property manager a record for the building file and supports any insurance claim, and a written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Why does my East Orange chimney leak every winter but not during summer rain?',
-      answer: 'Winter-only chimney leaks on East Orange Victorian homes typically result from ice dam formation at the chimney-roof junction. The chimney conducts interior heat, melting surrounding snow that refreezes beyond the chimney\'s thermal influence. This ice dam forces water under step flashing and behind counter-flashing. The repair involves installing ice-and-water shield membrane beneath the flashing system and ensuring proper cricket construction on the upslope side to prevent water and ice accumulation.'
+      question: 'Do I need a permit from East Orange for chimney flashing repair?',
+      answer:
+        'Repairing the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit, and a localized chimney flashing repair stays within the ordinary-maintenance threshold. The East Orange Building Division, a designated State Uniform Construction Code Enforcement Agency, enforces the state classification from the Department of Property Maintenance at East Orange City Hall, 44 City Hall Plaza.',
     },
     {
-      question: 'Can chimney flashing be repaired without replacing the shingles around the chimney?',
-      answer: 'Step flashing replacement requires removing shingles along the chimney sides to weave new flashing pieces between courses. The removed shingles are replaced with new material that matches the existing as closely as possible. Counter-flashing replacement does not require shingle removal and can be performed independently. If the surrounding shingles are nearing end of life, we recommend coordinating flashing repair with section re-shingling for cost efficiency.'
+      question: 'My East Orange building is a rental — how do you coordinate chimney roof access with tenants?',
+      answer:
+        'A Newark Quality Roofing job coordinates roof access with the landlord under New Jersey landlord-tenant notice rules before work begins, because the city is roughly 69% renter with 87.6% of units in multi-unit structures, per U.S. Census QuickFacts. A chimney that serves one tenant\'s heating can leak into a different tenant\'s ceiling, so a crew scopes every chimney transition on the building and documents the repair for the property file.',
     },
     {
-      question: 'How much does chimney flashing repair cost on an East Orange two-family home?',
-      answer: 'Chimney flashing repair on a typical East Orange Victorian two-family ranges from $800 to $2,500 depending on chimney size, number of sides requiring step flashing replacement, masonry condition, and whether a cricket needs to be fabricated. Counter-flashing-only repair on sound masonry costs less; full step and counter-flashing replacement with cricket installation on a chimney with deteriorated mortar joints costs more. We provide detailed written estimates after on-roof inspection.'
+      question: 'Why does chimney flashing leak more than the rest of the roof?',
+      answer:
+        'The chimney is the roof\'s largest penetration, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details, an industry estimate attributed to the NRCA. A chimney needs the apron, sidewall step, and upslope transitions all sealed, so a single failed counter flashing or cracked caulk joint admits water into the chase.',
     },
     {
-      question: 'Should I repair the chimney masonry before or at the same time as the flashing?',
-      answer: 'Masonry repair should be completed before or simultaneously with flashing installation. Counter-flashing set into deteriorating mortar joints will fail prematurely because the mortar cannot hold the flashing securely. If masonry repointing is needed, coordinating both trades on the same mobilization is most cost-effective. We work with masonry contractors who understand the sequencing requirements for chimney work on East Orange multi-family buildings.'
+      question: 'Is caulk a permanent fix for chimney flashing on an East Orange home?',
+      answer:
+        'Caulk or roofing cement alone over no underlying metal is a temporary fix that cracks within a few years, per IIBEC, because masonry-versus-roof differential movement and freeze-thaw stress the sealant. A permanent repair rebuilds the NRCA two-part system: step flashing woven one piece per shingle course plus counter flashing set into a reglet cut in the mortar joint.',
+    },
+    {
+      question: 'Does chimney flashing repair on an East Orange historic building need extra approval?',
+      answer:
+        'East Orange has no identified local historic-preservation ordinance, so a Certificate of Appropriateness is not triggered, and a privately funded repair on a Register-listed building is unrestricted. Register listing alone places no restriction on a private owner, per the National Park Service. Verify current local requirements with the East Orange Department of Planning, Policy & Development.',
     },
     {
       question: 'How much does chimney flashing repair cost in East Orange, NJ?',
-      answer: 'Most chimney flashing repair projects in East Orange range from $400–$1,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Chimney flashing repair costs $300–$1,800, with most repairs $400–$1,600 and a spot reseal $150–$300, per HomeGuide and Angi cost data. The two-part rebuild, the chimney width, and whether a cricket is required set the cost. Final cost depends on roof size, pitch, masonry condition, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Chimney flashing repair for East Orange NJ homes -- step and counter-flashing replacement, cricket installation, and ice dam prevention on Victorian chimneys.',
+  metaDescription:
+    'Chimney flashing repair in East Orange NJ — two-part step and counter flashing, cricket installation, multi-family roof access. NJ-licensed, free estimate.',
   pricing: {
-    range: '$400–$1,500',
-    note: 'chimney flashing and counter-flashing',
+    range: '$300–$1,800',
+    note: 'Typical chimney flashing repair range per HomeGuide and Angi (most $400–$1,600; spot reseal $150–$300); final cost depends on chimney width, masonry condition, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free chimney flashing repair estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for chimney flashing repair in East Orange.',
+    urgencyNote: 'Addressing chimney flashing failures early limits interior and structural water damage.',
   },
 };

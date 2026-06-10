@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const eastOrangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing replaces fire-damaged roofs across East Orange and Essex County, tearing off the charred covering and deck, replacing heat-weakened framing, and rebuilding a Class A fire-rated roof** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in East Orange — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in East Orange addresses the structural and waterproofing restoration that follows fire events on the city\'s multi-family buildings, commercial properties, and residential homes. Fire damage to roof systems ranges from localized charring that weakens sheathing and melts roofing material in a small area to complete structural destruction that requires rebuilding the roof framing from the top plates up. [Fire damage replacement](/fire-damage-roof-replacement) on East Orange\'s densely spaced buildings carries the additional complexity of protecting adjacent structures during reconstruction and meeting the fire-rating code requirements that apply when repair permits trigger code compliance on the restored section.',
-    'Multi-family building fires in East Orange create immediate displacement of multiple tenant households and trigger insurance claims involving landlord property coverage, tenant renter\'s insurance, and potentially liability coverage if the fire originated from building system failure. The roof replacement scope is one component of a comprehensive building restoration, and our work is coordinated with the general contractor, structural engineer, fire marshal\'s office, and insurance adjuster who collectively manage the restoration project.',
-    'Fire-damaged buildings in East Orange\'s dense residential neighborhoods may transfer heat, smoke, and water damage to adjacent properties through shared party walls and narrow clearances. Roof replacement on the fire-damaged building must assess and address any damage to the shared party wall flashing system, adjacent building exposure, and structural integrity at the property line. This multi-property impact consideration adds scope and coordination requirements that standalone fire damage projects in detached building settings do not encounter, similar to the adjacency challenges on fire-damaged row houses in [Newark](/fire-damage-roof-replacement-newark-nj).'
+    '**Newark Quality Roofing replaces fire-damaged roofs across East Orange, tearing off the charred covering and deck, replacing heat-weakened framing, and rebuilding a Class A fire-rated roof** on the city\'s pre-war apartments, two- and three-family buildings, and older single-family homes.',
+    '**Fire damage roof replacement** rebuilds the roof to current code rather than recovering over fire-weakened material, removing the char to sound wood under a structural assessment.',
+    '**Fire damage** spans the whole roof assembly rather than the surface alone, because a roof is a structural assembly of covering, underlayment, decking, and framing that fire, heat, smoke, and firefighting water all reach, per the U.S. Forest Products Laboratory. A Newark Quality Roofing rebuild addresses the charred covering, the saturated and delaminated decking, the heat-weakened rafters and trusses, and the corroded metal connectors and fasteners across that assembly.',
+    '**The charred wood** carries essentially zero residual structural capacity and is removed, because the American Wood Council uses a nominal char rate of 1.5 inches of wood per hour for structural fire design and assigns the char layer no strength, per the American Wood Council. A Newark Quality Roofing tear-off removes charred material to sound wood under a licensed structural engineer\'s assessment.',
+    '**The rebuilt covering** qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant, per UL 790 and ASTM E108. East Orange\'s dense inner-ring building stock, roughly 87.6% of units in multi-unit structures per U.S. Census QuickFacts, makes the narrow clearance between adjacent buildings a fire-spread consideration that a Class A rebuild addresses.',
   ],
   challenges: [
-    'Structural assessment of fire-damaged roof framing requires engineering analysis that distinguishes between charred but structurally adequate members and members that have lost load-bearing capacity. Fire chars wood in predictable patterns, and the depth of char determines the remaining structural cross-section. A rafter that has lost 25 percent of its cross-section to charring may still carry its design load, while one that has lost 50 percent requires replacement. Structural engineering assessment is mandatory before roof reconstruction begins.',
-    'Fire code compliance on the restored roof section may trigger requirements that exceed the original construction. East Orange Building Department enforces current fire code on rebuilt sections, which may require fire-rated roof assemblies, fire-resistant materials, and separation distances from adjacent buildings that the original construction did not provide. These upgraded requirements add cost but improve the building\'s fire resistance going forward.',
-    'Insurance claim coordination on fire damage projects involves complex interactions between the property owner\'s coverage, tenant displacement costs, adjacent property damage claims, and potential subrogation actions if the fire origin is disputed. Our scope is limited to the roof replacement component, but our documentation -- pre-fire condition assessment when available, fire damage scope, and replacement cost itemization -- integrates with the broader claim documentation that the property owner\'s adjuster assembles.'
+    '**Multi-family fires** displace several tenant households at once and run landlord property and tenant renter\'s insurance claims in parallel, because roughly 87.6% of East Orange units sit in multi-unit structures per U.S. Census QuickFacts. A Newark Quality Roofing roof scope coordinates with the general contractor, structural engineer, and adjuster managing the wider restoration.',
+    '**Tenant-access coordination** governs the work on East Orange rental buildings, because New Jersey landlord-tenant practice requires reasonable advance notice before entry to an occupied unit. A Newark Quality Roofing crew sequences staging, roof access, and interior protection around that notice so the landlord keeps the building compliant during the rebuild.',
+    '**Layered flat-roof systems** on the pre-war walk-ups along Central Avenue and Dr. Martin Luther King Jr. Boulevard often carry multiple existing membrane or modified-bitumen courses, and a fire-damaged or water-soaked deck is not an adequate base for a recover, per N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1. A Newark Quality Roofing rebuild strips the charred courses to the deck rather than overlaying them.',
+    '**Adjacent-building exposure** adds scope on East Orange\'s closely spaced lots in Brick Church, Elmwood, and Doddtown, because heat, smoke, and firefighting water transfer to neighboring properties through shared party walls and narrow clearances. A Newark Quality Roofing rebuild assesses the party-wall flashing and structural integrity at the property line as part of the fire-damaged roof scope.',
   ],
   process: [
-    'Fire damage assessment begins after the fire marshal releases the building for access. We document all fire-related roof damage including structural framing condition, sheathing integrity, and the extent of heat, smoke, and water damage to roofing materials in areas adjacent to the direct fire damage zone. The assessment is coordinated with the structural engineer to determine which framing members require replacement versus reinforcement.',
-    'Roof reconstruction follows structural repair, with new framing installed to replace fire-damaged members, new sheathing applied over the repaired framing, and the complete roof system -- insulation, underlayment, membrane or shingles, flashing -- installed to current code standards. The restored section integrates with undamaged sections of the existing roof, with transition details that maintain waterproofing continuity across the old-to-new boundary.',
-    'Final documentation supports the insurance claim with itemized costs, material specifications, and before-and-after photographs. The building owner receives warranty coverage for the new roof section and inspection sign-off from East Orange Building Department confirming the restoration meets current code requirements. For multi-family buildings, the documentation also supports the landlord\'s tenant communication about the restored building\'s safety and code compliance.'
+    '**Newark Quality Roofing assesses the fire-damaged assembly after the building is released for access, documenting framing condition, decking integrity, and the heat, smoke, and water damage to the covering.** A fire-damaged roof receives a formal post-fire structural assessment, often by a licensed structural engineer, and charred or heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers.',
+    '**Newark Quality Roofing tears off the charred covering and saturated decking, rebuilds the framing to the structural engineer\'s assessment, and installs a complete Class A fire-rated roof system to current code.** New framing replaces fire-damaged members, new sheathing covers the repaired framing, and the underlayment, membrane or shingles, and flashing integrate with the undamaged sections, maintaining waterproofing continuity across the old-to-new boundary.',
+    '**Newark Quality Roofing documents the fire, heat, and water damage with timestamped photographs and a detailed itemized scope, then meets the insurer\'s adjuster on site to walk the damage.** Newark Quality Roofing operates as a roofing contractor and not a public adjuster, so the homeowner or a licensed public adjuster files and negotiates the claim under the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, while Newark Quality Roofing performs the approved roofing.',
   ],
   faqs: [
     {
-      question: 'How long does fire damage roof replacement take on an East Orange building?',
-      answer: 'Timeline depends on the extent of structural damage and the coordination requirements with other building restoration trades. Localized fire damage affecting one section of the roof may be restored in one to two weeks. Extensive damage requiring full structural rebuilding can take four to eight weeks for the roof component alone. The timeline is also affected by the fire marshal\'s investigation schedule, structural engineering analysis, and insurance claim processing.'
+      question: 'Do I need a permit for a fire damage roof replacement in East Orange?',
+      answer:
+        'A fire damage roof replacement on an East Orange commercial, multi-family, or attached building requires a construction permit, and replacing charred rafters or trusses is structural work that triggers one on any building. A complete tear-off and re-cover of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7, but the structural framing replacement a fire requires goes beyond that exemption. The East Orange Building Division, a designated State Uniform Construction Code Enforcement Agency, enforces the state classification, with applications filed at the Department of Property Maintenance, East Orange City Hall, 44 City Hall Plaza.',
     },
     {
       question: 'Does insurance cover fire damage roof replacement on an East Orange rental property?',
-      answer: 'Yes. Fire damage is a covered peril under virtually all landlord and commercial property insurance policies. Coverage typically includes the cost to restore the roof to pre-fire condition, including structural repair and code-required upgrades when applicable. Policy deductibles apply, and the specific coverage terms depend on your policy structure. We provide the detailed documentation that adjusters require for fire damage claim processing.'
+      answer:
+        'Fire is a covered peril under typical landlord and commercial property policies, and the deductible stays the policyholder\'s responsibility under the policy. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I), and coverage and approval are the insurer\'s decision. Newark Quality Roofing documents the fire, heat, and water damage with photographs and a detailed scope, and the policyholder or a licensed public adjuster files and negotiates the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B.',
     },
     {
       question: 'Can fire-damaged roof framing be repaired or does it need full replacement?',
-      answer: 'It depends on the extent of charring and structural damage. Members with surface charring that retains adequate structural cross-section can be reinforced with sister members rather than fully replaced. Members with deep charring that has compromised structural capacity require replacement. A structural engineer evaluates each member and specifies the repair or replacement required to restore design load capacity.'
+      answer:
+        'Fire-damaged framing is replaced where charring has reduced load-bearing capacity, because the char layer carries essentially zero residual structural capacity and the heat-affected zone beneath retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory and the American Wood Council. A licensed structural engineer evaluates each member and sets the replacement or reinforcement scope, and Newark Quality Roofing performs the roofing to that assessment and current code.',
     },
     {
-      question: 'Will the restored roof section match the existing roof on my East Orange building?',
-      answer: 'We match the replacement materials to the existing roof as closely as possible -- same shingle type, color, and manufacturer when available. Some weathering difference between new and existing materials is unavoidable. On buildings where the existing roof is nearing end of life, the property owner may elect to replace the entire roof during the fire restoration to achieve uniform appearance and avoid re-roofing the undamaged sections separately in the near future.'
+      question: 'Can a fire-damaged roof be recovered over instead of torn off?',
+      answer:
+        'A fire-damaged roof requires a full tear-off rather than a recover, because a water-soaked, charred, or deteriorated deck is not an adequate base for a new covering. N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1 require removal of the existing covering when the deck is water-soaked or deteriorated, the condition firefighting water and char create on East Orange\'s layered flat-roof walk-ups.',
+    },
+    {
+      question: 'Does smoke damage weaken a roof structurally?',
+      answer:
+        'Smoke and soot staining alone does not structurally weaken wood, though acidic soot keeps corroding metal connectors and electrical components and is removed from members kept in service. The structural concern is the char layer and the heat-affected zone, which carry reduced capacity, plus corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700.',
     },
     {
       question: 'How much does fire damage roof replacement cost in East Orange, NJ?',
-      answer: 'Most fire damage roof replacement projects in East Orange range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize, and fire damage roof replacement adds structural framing and decking replacement on top of the covering. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement for East Orange NJ buildings -- structural restoration, insurance coordination, and code-compliant rebuilding after fire.',
+  metaDescription:
+    'Fire damage roof replacement in East Orange NJ — charred deck tear-off, structural framing rebuild, Class A fire-rated roof, insurance documentation.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; fire damage adds structural framing and decking replacement, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in East Orange.',
+    urgencyNote: 'A licensed structural engineer assesses fire-damaged framing before reconstruction, and Newark Quality Roofing rebuilds to that assessment and current code.',
   },
 };

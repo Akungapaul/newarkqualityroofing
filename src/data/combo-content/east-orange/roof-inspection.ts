@@ -3,57 +3,71 @@ import type { ComboContent } from '../schema';
 export const eastOrangeRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing provides roof inspection across East Orange and Essex County, documenting roof-covering condition, flashing, drainage, ventilation, and the deck** on pre-war apartments, two- and three-family walk-ups, and older single-family homes as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert roof inspection in East Orange — with prices starting from $150–$400 and free estimates available today. Roof inspections in East Orange serve a different clientele than in most Essex County towns. The majority of inspection requests here come from property investors evaluating acquisition targets, landlords responding to code enforcement notices, and property managers documenting conditions across multi-building portfolios. The owner-occupant requesting a peace-of-mind inspection exists in East Orange, but the dominant inspection market is transactional -- someone needs documented roof condition data to make a financial or regulatory decision, and the inspection report becomes a business document rather than a homeowner advisory.',
-    'The city\'s multi-family housing stock demands inspection methodologies that go beyond the walk-and-look approach adequate for a single-family colonial in [Caldwell](/roof-inspection-caldwell-nj). A Victorian two-family on Halsted Street presents multiple roof planes, shared chimney flashing between units, dormer cheek walls that channel water between living spaces, and balloon-framed cavities where roof leaks can travel two stories before becoming visible. Inspecting these buildings requires understanding the internal water pathways that connect a roof deficiency on the third floor to a stain appearing on the first floor -- a diagnostic skill that flat-surface inspection alone cannot provide.',
-    'Garden apartment complexes throughout Doddtown and along Springdale Avenue require portfolio-scale inspection approaches. When a property manager needs condition assessments on twelve buildings with identical construction, inspecting each building independently wastes time repeating observations that apply across the entire complex. Our portfolio inspection protocol establishes the common construction details and known vulnerabilities for the building type, then focuses individual building inspections on the condition-specific variables -- drain function, membrane adhesion, flashing integrity, and insulation moisture -- that differentiate buildings within the complex.',
-    'Pre-purchase [roof inspections](/roof-inspection) for East Orange investment properties are perhaps our most consequential service. An inspector\'s report on a distressed three-family in the Brick Church neighborhood can shift the purchase price by $20,000 or kill the deal entirely. Investors need more than a pass/fail assessment -- they need remaining service life estimates, prioritized repair lists with cost ranges, and replacement timeline projections that feed directly into their pro forma analysis. We deliver inspection reports formatted for investment decision-making, not generic condition summaries.'
+    '**Newark Quality Roofing inspects roof-covering materials, flashing, penetrations, gutters, ventilation, sealants, the deck, and the attic underside** across East Orange. A roof inspection rates each component by condition and documents the findings before water reaches the interior.',
+    '**Flashing** sets where a Newark Quality Roofing inspection begins, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The InterNACHI roof inspection standard of practice directs an inspector to describe the roof-covering type and report observed indications of active roof leaks.',
+    '**Ventilation** and the deck draw the inspection inside, because sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, so a Newark Quality Roofing inspector measures deck and framing moisture with moisture meters and locates trapped moisture with infrared imaging before a ceiling stain appears.',
+    '**Condition documentation** carries the heavier weight in East Orange, a dense inner-ring suburb that is about 31% owner-occupied with 87.6% of units in multi-unit structures, per U.S. Census QuickFacts. A Newark Quality Roofing report records component condition and active-leak indications for a landlord, a property manager, or a real-estate transaction along the Brick Church and Central Avenue corridors.',
   ],
   challenges: [
-    'Concealed damage in multi-family buildings makes East Orange roof inspections inherently more complex than single-family work. Water from a roof failure may travel through balloon-framed wall cavities, across shared floor joists, and along plumbing chases before appearing as visible damage in a unit far from the actual entry point. Inspectors who examine only the roof surface miss the interior evidence that reveals the true scope of a problem. Our East Orange inspections include interior spot-checks of top-floor units -- with tenant notification and property manager coordination -- to correlate exterior findings with interior symptoms that standard exterior-only inspections overlook.',
-    'Access challenges on East Orange properties limit what a visual inspection can accomplish without supplemental technology. Steep-pitched Victorian roofs with fragile slate or aged shingles cannot be safely walked without risking both inspector injury and material damage. Flat roofs on apartment buildings may have restricted access through locked hatches or require coordination with building management. Drone-assisted inspection overcomes both limitations, providing high-resolution imagery of roof surfaces that cannot be safely or practically accessed on foot, and documenting conditions across multiple buildings in a fraction of the time ground-based inspection requires.',
-    'Code enforcement inspections in East Orange carry higher stakes than routine assessments. When the East Orange Building Department issues a notice citing roof condition on a multi-family property, the inspection report must document specific deficiencies, provide a remediation timeline, and establish that the proposed repairs will bring the building into compliance. A generic "roof needs attention" summary does not satisfy the Building Department. Our code-response inspections provide the technical specificity that municipal reviewers require, including deficiency descriptions keyed to the applicable building code sections.'
+    '**Concealed water paths** make a multi-family inspection in East Orange more involved than a single-family survey, because water from a roof failure travels through balloon-framed wall cavities and shared floor framing before showing inside a distant unit. A Newark Quality Roofing inspection correlates exterior findings with top-floor interior symptoms.',
+    '**Tenant-access coordination** governs interior inspection on the city\'s pre-war walk-ups and two- and three-family buildings, because New Jersey landlord-tenant law requires reasonable advance notice before entering an occupied unit. A Newark Quality Roofing inspector schedules top-floor interior checks with the owner or property manager and the notice the tenancy requires.',
+    '**Roof access** limits a ground-only survey on East Orange properties, because steep pre-war slate and aged shingle slopes carry a fall and damage risk on foot, and flat-roof apartment blocks reach through locked hatches. A Newark Quality Roofing inspection adds drone imaging for upper planes and probes seams, drains, and flashings on the membrane.',
+    '**Layered flat-roof systems** on Doddtown and Elmwood walk-ups hide moisture between courses, because ponding water remaining more than 48 hours counts as a defect and a low-slope roof requires at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing inspection maps standing water and infrared-flags wet insulation.',
   ],
   process: [
-    'Every East Orange roof inspection begins with a records review. We request the building\'s permit history from the East Orange Building Department, review any prior inspection reports the owner can provide, and examine the property\'s tax records for construction date and building classification. This background research identifies the original roof system type, any permitted re-roofing work, and the building\'s age-specific vulnerabilities before we arrive on site. For investment properties, this records review often reveals unpermitted work or code violations that the current owner may not have disclosed.',
-    'On-site inspection follows a building-type protocol. For pitched-roof Victorians, we inspect from the ground with binoculars, from ladder positions at each eave and rake, and with drone photography for upper roof planes and hard-to-reach valleys. For flat-roofed apartment buildings, we walk the entire membrane surface, probe all seams and flashings, examine every drain and overflow, and core-sample the roof assembly at multiple locations to assess insulation moisture content and deck condition. Interior inspection of the top-floor ceiling and any accessible attic or crawl space completes the assessment.',
-    'The inspection report delivers actionable data organized by decision type. For investors, the report includes estimated remaining service life, itemized repair costs for immediate needs versus deferred maintenance, and a replacement cost range for budget planning. For code enforcement responses, the report maps each cited deficiency to a specific remediation action with timeline. For portfolio property managers, the report ranks buildings by condition severity to support capital planning across the portfolio. All reports include photographic documentation keyed to a roof plan diagram showing exact deficiency locations.'
+    '**Newark Quality Roofing inspects the roof in stages — an exterior ground survey, an on-roof component inspection, an attic-underside inspection, and a written condition report — rating each component and recording active-leak indications.** An inspection starts at the flashing details, because the roofing industry estimates roughly 90–95% of leaks trace there, an industry estimate attributed to the NRCA.',
+    '**Newark Quality Roofing measures deck and framing moisture with moisture meters and locates trapped moisture with infrared imaging**, finding wet sheathing before a ceiling stain appears, because sealing the roof deck cuts water intrusion by up to 95%, per the IBHS. A drone surveys the steep pre-war slopes and large apartment-block roofs that a foot inspection cannot reach safely.',
+    '**Newark Quality Roofing delivers a written report with prioritized findings keyed to a roof diagram**, the documentation an insurance carrier or a manufacturer-warranty program accepts, per the Insurance Information Institute and the InterNACHI roof inspection standard of practice. A landlord, a property manager, or a buyer reads component condition, active-leak indications, and a roof-condition rating.',
   ],
   faqs: [
     {
-      question: 'How much does a roof inspection cost for an East Orange investment property?',
-      answer: 'Investment-grade roof inspections for East Orange multi-family properties range from $350 to $750 depending on building size, roof type, and number of units. This includes exterior and interior inspection, core sampling on flat roofs, photographic documentation, and a detailed report with cost projections suitable for acquisition analysis. The inspection cost is a fraction of the potential savings from accurate roof condition data influencing your purchase price negotiation.'
+      question: 'How often should you inspect a roof in East Orange or Essex County?',
+      answer:
+        'The NRCA recommends a roof inspection at least twice per year, spring and fall, plus an additional inspection after any major weather event. A spring inspection follows winter freeze-thaw stress and a fall inspection precedes it, and proper maintenance on that cadence extends asphalt-shingle service life by roughly 25–30%, per ARMA.',
     },
     {
-      question: 'Can your inspection report satisfy an East Orange code enforcement notice?',
-      answer: 'Yes. We regularly prepare inspection reports in response to East Orange Building Department notices. Our reports document each cited condition with photographs, provide specific remediation recommendations with code references, and include a proposed timeline for completing repairs. We can also attend the follow-up inspection with the building official to verify that completed repairs satisfy the notice requirements.'
+      question: 'Do you coordinate tenant access for inspections on East Orange rental properties?',
+      answer:
+        'A Newark Quality Roofing inspection schedules interior top-floor checks with the owner or property manager and the advance notice New Jersey landlord-tenant law requires before entering an occupied unit. Most exterior and on-roof inspection of a pre-war apartment or two- and three-family building proceeds without entering a unit, and an interior check correlates an exterior finding with a top-floor symptom.',
     },
     {
-      question: 'Do you inspect all the buildings in an East Orange apartment complex or just the ones with problems?',
-      answer: 'We recommend inspecting all buildings in a complex even when only one or two show visible problems. Buildings with identical construction and exposure history develop similar deterioration patterns, and the building without visible symptoms today is often six to twelve months behind the building already showing leaks. Portfolio-wide inspection data supports proactive capital planning that prevents emergency repairs and allows phased replacement scheduling across budget cycles.'
+      question: 'Does a roof inspection in East Orange trigger a permit?',
+      answer:
+        'A roof inspection documents condition and triggers no permit on its own. A repair or re-roof of the covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while on a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit. The East Orange Building Division, a designated State Uniform Construction Code enforcement agency, enforces the state classification.',
     },
     {
-      question: 'What does your infrared scanning detect that a visual inspection misses on East Orange flat roofs?',
-      answer: 'Infrared thermal imaging detects moisture trapped in the insulation layer beneath the roof membrane -- moisture that is invisible during a visual surface inspection. On East Orange apartment buildings with aging flat roofs, trapped moisture can affect 30 to 50 percent of the insulation area without showing any surface symptoms. This hidden moisture data is critical for determining whether a roof can be repaired or requires full replacement, and it maps the exact areas of wet insulation that must be removed if a replacement is undertaken.'
+      question: 'What does infrared scanning detect on an East Orange flat roof that a visual inspection misses?',
+      answer:
+        'Infrared thermal imaging detects moisture trapped in the insulation beneath the membrane, moisture invisible during a visual surface inspection. Sealing the roof deck cuts water intrusion by up to 95%, per the IBHS, and the infrared map identifies the wet insulation that determines whether a layered apartment-block roof can be repaired or requires replacement.',
     },
     {
-      question: 'How much does roof inspection cost in East Orange, NJ?',
-      answer: 'Most roof inspection projects in East Orange range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a roof inspection on an East Orange Register-listed building need historic approval?',
+      answer:
+        'No identified local historic-preservation ordinance applies in East Orange, so a Certificate of Appropriateness is not triggered. A privately funded reroof on a Register-listed building such as a Central Avenue Commercial Historic District property is unrestricted, and Register listing alone places no restriction on a private owner, per the National Park Service. Verify current local requirements with the East Orange Department of Planning, Policy & Development.',
+    },
+    {
+      question: 'How much does a roof inspection cost in East Orange, NJ?',
+      answer:
+        'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data. Roof size, slope, and the inspection method set the cost. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof inspections for East Orange NJ investment properties -- pre-purchase assessments, code compliance reports, and portfolio evaluations.',
+  metaDescription:
+    'Roof inspection in East Orange NJ — multi-family and pre-war walk-up condition reports, infrared moisture scans, drone surveys. NJ-licensed, free estimate.',
   pricing: {
-    range: '$150–$400',
-    note: 'comprehensive inspection with written report',
+    range: '$75–$600 for most inspections',
+    note: 'Visual $75–$200, drone $150–$400, infrared $400–$600 per HomeAdvisor inspection-cost data; final cost depends on roof size, slope, and method. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof inspection estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof inspection in East Orange.',
+    urgencyNote: 'A documented inspection finds a failing detail before it becomes interior and structural water damage.',
   },
 };

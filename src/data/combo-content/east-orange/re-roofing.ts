@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const eastOrangeReRoofing: ComboContent = {
   serviceId: 're-roofing',
   cityId: 'east-orange',
+  directAnswer:
+    '**Newark Quality Roofing provides re-roofing across East Orange and Essex County, recovering or replacing a worn roof covering with a new underlayment-and-cover system** once the existing roof crosses the replacement threshold, as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert re roofing in East Orange — with prices starting from $7,500–$22,000 and free estimates available today. Re-roofing in East Orange addresses the lifecycle moment when a building\'s roof system has reached the end of its effective service life and continued repair is no longer economically rational. For the landlords and property investors who own the Victorian two-families in Elmwood Park, the garden apartment complexes in Doddtown, and the mixed-use buildings along Main Street, [re-roofing](/re-roofing) is a capital expenditure that renews the building\'s most critical protective system -- transforming a liability that generates tenant complaints, repair costs, and code enforcement attention into an asset that provides decades of reliable, maintenance-minimal weatherproofing.',
-    'The timing of re-roofing on East Orange investment properties is driven by financial analysis as much as physical deterioration. A roof that can be maintained through annual repairs at $2,000 per year may still justify re-roofing if the maintenance trajectory shows escalating annual costs, if insurance underwriters are increasing premiums or restricting coverage due to roof age, or if the property owner is positioning the building for sale or refinancing where a new roof adds value exceeding its cost. Our assessment provides the data -- remaining service life estimate, projected repair cost trajectory, and replacement cost -- that supports the financial decision.',
-    'Re-roofing East Orange\'s multi-family buildings on occupied properties requires project management that protects tenants, maintains habitability throughout the construction period, and communicates effectively with both the property owner and the building\'s residents. New Jersey tenant law requires advance notification of construction activity that affects occupied units, and our project coordination includes tenant notification protocols, noise scheduling, debris containment, and daily cleanup that maintain livable conditions while the work progresses above. Property owners throughout Essex County from [Bloomfield](/re-roofing-bloomfield-nj) to [Montclair](/re-roofing-montclair-nj) value this tenant-considerate approach.'
+    '**Newark Quality Roofing re-roofs the worn covering on East Orange homes, pre-war apartments, and multi-family walk-ups**, the work that recovers or replaces a roof past its service life rather than patching a single detail, per the Asphalt Roofing Manufacturers Association.',
+    '**Re-roofing** reaches the replacement decision through age and condition: 3-tab asphalt lasts 20 years, architectural asphalt 30, metal 40 to 80, and slate 60 to 150, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40 percent with climate, install, and maintenance. A Newark Quality Roofing re-roof matches the new system to the East Orange building before tear-off.',
+    '**East Orange building stock** concentrates the re-roofing decision on multi-family economics, because about 87.6 percent of units sit in multi-unit structures and roughly 69 percent are renter-occupied, per U.S. Census QuickFacts. Pre-war apartments and two- and three-family walk-ups along the Central Avenue and Dr. Martin Luther King Jr. Boulevard corridors carry layered flat-roof systems that drive the recover-versus-tear-off analysis.',
+    '**The worn covering** crosses the replacement threshold on contractor-consensus rules: damage across more than 25 to 30 percent of the roof area, a repair approaching 50 percent of replacement cost, or three or more repairs in two years, per WeatherShield, RapidRestore, and Home Depot cost data. A localized repair stays the more economical path only while an asphalt roof stays under 10 to 15 years old.',
   ],
   challenges: [
-    'Material selection for East Orange re-roofing projects must balance investment economics with building performance requirements and neighborhood context. Premium architectural shingles with enhanced warranties add $1,500 to $3,000 to a typical East Orange two-family re-roofing project compared to standard architectural shingles. For rental properties in East Orange\'s current market, the premium warranty is unlikely to produce proportional return on investment. We recommend the material tier that delivers reliable performance through the owner\'s anticipated hold period without paying for warranty coverage that exceeds that horizon.',
-    'Ventilation deficiency is the most common secondary issue discovered during East Orange re-roofing. Buildings constructed before modern ventilation standards were established frequently lack adequate soffit intake, ridge exhaust, or both. Re-roofing provides the optimal opportunity to correct ventilation deficiency because the roof surface is already removed and the attic is accessible. Adding ventilation during re-roofing costs a fraction of what standalone ventilation retrofit would require, and the improved airflow extends the new roof\'s service life by reducing heat and moisture accumulation.',
-    'Coordinating re-roofing with other building improvements maximizes the value of the construction mobilization. East Orange rehabilitation projects that combine re-roofing with gutter replacement, fascia repair, siding work, or exterior painting share scaffold and access costs across multiple scopes, reducing the per-item cost of each improvement. We coordinate with other trade contractors when the property owner plans concurrent exterior improvements.'
+    '**Layered flat-roof systems** on East Orange pre-war walk-ups and multi-family blocks near Brick Church often carry two or more generations of membrane and patching. A roof already carrying two or more applications takes no third layer, so a tear-off becomes the only compliant path, per N.J.A.C. 5:23-6.4.',
+    '**Multi-family and commercial buildings** make the permit path load-bearing in East Orange, where most of the building stock sits in multi-unit structures, per U.S. Census QuickFacts. A re-roof on a commercial, multi-family, or attached building requires a construction permit under N.J.A.C. 5:23-2.7, separate from the detached one- and two-family ordinary-maintenance exemption.',
+    '**Tenant-access coordination** governs re-roof scheduling on occupied East Orange apartments in Brick Church, Elmwood, Doddtown, and Ampere, where work over inhabited units calls for advance written notice to tenants under New Jersey landlord-tenant practice. A phased schedule keeps weather protection over occupied space at all times.',
+    '**Ventilation deficiency** surfaces on older East Orange buildings constructed before modern ventilation standards, which frequently lack adequate soffit intake, ridge exhaust, or both. A re-roof exposes the deck and the attic, the moment to correct intake and exhaust, because proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
   ],
   process: [
-    'Re-roofing assessment evaluates the entire roof system: shingle or membrane condition, flashing integrity, ventilation adequacy, deck condition (from attic inspection), and structural soundness. The assessment report recommends either tear-off or overlay based on existing conditions, specifies the appropriate material system, and provides a detailed cost estimate with contingency allowances for concealed conditions.',
-    'Project execution follows a phased schedule that maintains weather protection over occupied space at all times. Each day\'s work zone is stripped, repaired as needed, and covered with new underlayment and roofing before the crew moves to the next section. Flashing details at walls, chimneys, valleys, and penetrations receive full replacement with new materials specified for compatibility with the new roofing system. The phased approach limits daily noise and debris impact while maintaining project momentum.',
-    'Project completion includes final cleanup, inspection, and documentation. We remove all debris from the property, conduct a final roof inspection, and provide the property owner with warranty documentation, maintenance recommendations, and before-and-after photographs. For East Orange rental properties, the documentation package supports property marketing that highlights the new roof as a tenant-attraction feature and insurance documentation that may qualify for premium reductions.'
+    '**Newark Quality Roofing confirms the re-roofing decision against the contractor-consensus rules, then inspects the deck and attic ventilation before quoting.** Damage across more than 25 to 30 percent of the roof area crosses the 25 percent rule and a repair approaching 50 percent of replacement cost crosses the 50 percent rule, per WeatherShield and RapidRestore decision guidance.',
+    '**Newark Quality Roofing strips the worn covering to the deck where condition or code requires it, the tear-off that exposes the deck for inspection and repair**, because a recover hides deck rot a tear-off catches, per the Asphalt Roofing Manufacturers Association. N.J.A.C. 5:23-6.4 mandates complete removal on a water-soaked deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or two or more existing layers.',
+    '**Newark Quality Roofing matches the new system to the building, then installs an ice barrier, synthetic underlayment, and the cover to manufacturer specification.** The ice barrier runs from the eave to at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision as enforced under N.J.A.C. 5:23, and installing to specification preserves the manufacturer material warranty, per Owens Corning warranty guidance.',
+    '**Newark Quality Roofing verifies the install against manufacturer specification, runs a magnet sweep for nails at cleanup, and documents the completed work with photographs.** A written workmanship warranty backs the labor, separate from the manufacturer material warranty that covers factory defects, and the documentation package supports an East Orange property record or insurance file, per Integrity Home Exteriors documentation guidance.',
   ],
   faqs: [
     {
-      question: 'How do I know when it is time to re-roof my East Orange building?',
-      answer: 'Indicators include shingle granule loss exposing the underlying mat, widespread curling or buckling, multiple active leaks requiring frequent repair, shingles that are 20 or more years old, and insurance underwriters requiring roof replacement as a condition of continued coverage. If annual repair costs are approaching 10 percent of replacement cost, re-roofing provides better value than continued maintenance.'
+      question: 'How do you know when it is time to re-roof an East Orange building?',
+      answer:
+        'A re-roof is the better value when damage exceeds 25 to 30 percent of the roof area, when one repair approaches 50 percent of replacement cost, or after three or more repairs in two years. Those contractor-consensus thresholds trace to WeatherShield and Home Depot cost data, and granule loss exposing the asphalt mat, an asphalt roof past 20 years, and a spongy or sagging deck all point toward re-roofing, while a localized repair stays economical only while the roof stays under 10 to 15 years old.',
     },
     {
-      question: 'How long does re-roofing take on an East Orange two-family home?',
-      answer: 'A typical East Orange two-family with 2,000 to 3,500 square feet of roof area requires three to five days from initial tear-off through final cleanup. Complex Victorian roof geometry with multiple dormers, valleys, and intersecting gables extends the timeline toward the upper range. Weather delays can add additional days. Our phased approach ensures the building remains weather-protected throughout.'
+      question: 'Do you need a permit for re-roofing in East Orange, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building — the majority of East Orange\'s stock — a re-roof requires a permit, and a structural change to rafters or trusses always does. The East Orange Building Division, a designated State Uniform Construction Code Enforcement Agency, processes applications in person at the Department of Property Maintenance, East Orange City Hall, 44 City Hall Plaza.',
     },
     {
-      question: 'Does East Orange require a building permit for re-roofing?',
-      answer: 'Yes. All re-roofing projects in East Orange require building permits regardless of whether tear-off or overlay is planned. The permit application requires contractor licensing, insurance documentation, and project specifications. Multi-family buildings may require additional documentation including ventilation calculations. We handle all permit applications and schedule required inspections.'
+      question: 'Does re-roofing require a full tear-off in New Jersey?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires a full tear-off when the existing roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more applications, per the NJ Rehabilitation Subcode and IRC R908.3.1.1. A recover over a single sound asphalt layer hides deck rot a tear-off catches and traps heat that industry estimates cut shingle life by roughly 20 to 30 percent, per ARMA and Angi. Many older East Orange buildings have reached a second layer over the decades, leaving a tear-off the only compliant path.',
     },
     {
-      question: 'Can I re-roof my East Orange building while tenants are living in it?',
-      answer: 'Yes. The majority of East Orange re-roofing projects are completed on occupied buildings. We provide advance tenant notification, schedule the noisiest work during standard business hours, contain debris away from building entries, and maintain habitability throughout the project. Interior access is needed only if attic ventilation modifications are included in the scope, and tenant coordination follows NJ notification requirements.'
+      question: 'Can you re-roof an East Orange building while tenants are living in it?',
+      answer:
+        'A phased re-roof keeps weather protection over occupied space at all times, stripping, repairing, and covering each work zone before the crew moves to the next section. Work over occupied units in Brick Church, Elmwood, Doddtown, or Ampere calls for advance written notice to tenants under New Jersey landlord-tenant practice, and the schedule contains noise, debris, and daily cleanup so units stay habitable. Interior access is needed only when attic ventilation is added to the scope.',
     },
     {
-      question: 'How much does re roofing cost in East Orange, NJ?',
-      answer: 'Most re roofing projects in East Orange range from $7,500–$22,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does re-roofing a Register-listed East Orange building need historic approval?',
+      answer:
+        'East Orange has no identified local historic-preservation ordinance, so a Certificate of Appropriateness is not triggered; a privately funded reroof on a Register-listed building is unrestricted. Several sites carry National or State Register listing or SHPO-eligible status, including the Central Avenue Commercial Historic District and the Brick Church and East Orange rail stations, but Register listing alone places no restriction on a private owner, per the National Park Service. Verify current local requirements with the East Orange Department of Planning, Policy & Development.',
+    },
+    {
+      question: 'How much does re-roofing cost in East Orange, NJ?',
+      answer:
+        'A New Jersey re-roof costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data, with the national 2025 replacement average near $10,000–$11,000 per industry benchmarks. NJ ranges sit 10 to 40 percent above national figures because labor accounts for roughly 60 to 70 percent of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Re-roofing for East Orange NJ multi-family buildings -- tear-off and overlay options for Victorian homes, apartments, and investment property upgrades.',
+  metaDescription:
+    'Re-roofing in East Orange NJ — recover-vs-tear-off for multi-family walk-ups, pre-war apartments, and older homes. NJ-licensed, free written estimate.',
   pricing: {
-    range: '$7,500–$22,000',
-    note: 'full re-roofing project',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows East Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with East Orange\'s multi-family, pre-war apartment, and older single-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free re roofing estimate in East Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for re-roofing in East Orange.',
+    urgencyNote: 'Re-roofing before the deck fails limits concealed rot and interior water damage.',
   },
 };
