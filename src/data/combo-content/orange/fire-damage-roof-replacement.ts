@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const orangeFireDamageRoofReplacement: ComboContent = {
   serviceId: 'fire-damage-roof-replacement',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing replaces fire-damaged roofs across Orange and Essex County, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert fire damage roof replacement in Orange — with prices starting from $12,000–$35,000 and free estimates available today. Fire damage roof replacement in Orange restores roofing systems after fires that burn through the roof structure or compromise its integrity through heat, smoke, and water exposure from firefighting operations. Our [fire damage roof replacement](/fire-damage-roof-replacement) projects coordinate with fire marshals, insurance adjusters, structural engineers, and restoration contractors to rebuild the roof within the larger restoration timeline that fire-damaged Orange buildings require.',
-    'Orange\'s tight-lot construction creates fire spread risks that affect roofing on adjacent properties even when those buildings are not directly involved in the fire event. Radiant heat from a fully involved structure can melt or ignite shingles on the neighboring building three to five feet away. Firefighting water that overflows from the involved building soaks the adjacent roof and building envelope. Our fire damage assessments evaluate not just the fire-damaged building but the neighboring properties for heat damage, water intrusion, and smoke contamination.',
-    'The intersection of fire damage with Orange\'s older housing stock compounds restoration complexity. Pre-1960 homes may have structural framing that does not meet current building code for fire-damaged reconstruction. Rewiring requirements triggered by fire damage often reveal the full extent of outdated electrical systems. Our roof replacement on fire-damaged Orange homes integrates with the structural and code upgrades that the building department requires for occupancy restoration. Fire-damaged properties across [Newark](/fire-damage-roof-replacement-newark-nj) face the same code-triggered upgrade requirements.'
+    '**Newark Quality Roofing replaces fire-damaged roofs across Orange, addressing the charred covering, the saturated and delaminated decking, the heat-weakened rafters and trusses, and the corroded metal connectors** on dense two- and three-family, detached, and commercial buildings. Fire damage roof replacement removes the char layer, replaces compromised framing and decking, and rebuilds to current code.',
+    '**Fire, heat, smoke, and firefighting water** damage span the whole roof assembly rather than the surface alone, because a roof is a structural assembly of covering, underlayment, decking, and framing, per the U.S. Forest Products Laboratory. A Newark Quality Roofing fire replacement rebuilds to a structural assessment and current code on Orange\'s older frame stock, roughly half of it built before 1939.',
+    '**The charred covering and deck** strip to the framing, because the char layer carries essentially zero residual structural capacity and is removed, per the American Wood Council, which uses a nominal char rate of 1.5 inches of wood per hour for structural fire design. Firefighting water that saturates Orange\'s shared two- and three-family decking adds delaminated sheathing to the tear-off scope, per the U.S. Forest Products Laboratory.',
+    '**Heat-weakened framing** in Orange\'s investor-owned and landlord-held buildings receives a licensed structural engineer\'s post-fire assessment before rebuild, because the heat-affected zone beneath the char retains only roughly 85–90% of original strength, per the U.S. Forest Products Laboratory. A Newark Quality Roofing crew roofs to that assessment, and a Class A covering rates highest under the UL 790 and ASTM E108 fire-test methods.',
   ],
   challenges: [
-    'Structural assessment after fire damage requires engineering analysis to determine which framing members retain adequate strength. Fire chars wood framing to varying depths, and the remaining cross-section may or may not support design loads. Heat-affected steel connections may have lost their temper and ductility. Our fire damage projects include structural engineering evaluation of all roof framing to determine what can be retained and what must be replaced -- a critical safety determination that visual inspection alone cannot make.',
-    'Insurance coordination for fire damage is more complex than for storm damage claims. Fire policies typically cover the full structure, and the roof scope must be coordinated with the larger building restoration scope. Coverage disputes around pre-existing conditions, code-upgrade costs, and demolition versus restoration decisions require experienced advocacy. We work with the homeowner\'s insurance adjuster and public adjuster when engaged to ensure the roof scope is properly represented within the full claim.',
-    'Environmental hazards in fire-damaged Orange roofs may include asbestos-containing materials released by the fire, lead paint disturbed during firefighting, and fire-retardant chemicals from foam suppression. These materials require professional remediation before roof reconstruction can begin. Our fire damage protocols include environmental assessment and coordination with licensed remediation contractors when hazardous materials are identified.'
+    '**Party-wall and shared-deck fire spread** is the defining replacement challenge on Orange\'s dense two- and three-family and attached row stock, because radiant heat and firefighting water reach a neighboring unit across the shared masonry and decking. A Newark Quality Roofing assessment documents fire, heat, and water damage on each affected unit, not the visible burn zone alone.',
+    '**Tenant-occupied access** complicates fire replacement on Orange\'s heavily renter-occupied buildings, where owner-occupancy runs near 23.8% and most structures are investor- or landlord-held. A Newark Quality Roofing job coordinates roof access with occupied units and provides the owner and any insurer a documented scope, with the landlord giving tenants notice under New Jersey landlord-tenant practice.',
+    '**Saturated decking and corroded connectors** follow firefighting on Orange\'s converted-industrial and loft buildings in the Valley Arts area, because extinguishing water saturates decking, insulation, and framing and accelerates corrosion of metal truss plates and fasteners, per the U.S. Forest Products Laboratory and ANSI/IICRC S700. A Newark Quality Roofing rebuild replaces the saturated sheathing and the affected connectors.',
+    '**Recover over fire-damaged decking** is not code-compliant, because a water-soaked or deteriorated covering is not an adequate base and requires full removal, per N.J.A.C. 5:23-6.4 and the IRC recover-not-allowed conditions at R908.3.1.1. A Newark Quality Roofing fire job tears off to sound framing rather than roofing over the charred or saturated deck.',
   ],
   process: [
-    'Fire damage assessment begins only after the fire marshal releases the building for contractor access. We conduct a joint inspection with the structural engineer and the homeowner\'s insurance representative, documenting every area of fire, heat, smoke, and water damage to the roof structure. The assessment produces a detailed scope of demolition, structural repair, and reconstruction needed to restore the roof to pre-loss condition or current code requirements, whichever is greater.',
-    'Demolition removes all fire-damaged roofing material, insulation, and structural framing identified by the engineer as compromised. Charred framing that retains adequate structural capacity is cleaned and treated with fire-retardant coating. Framing members that have lost structural integrity are removed and replaced with new lumber that meets current building code dimensions and connection requirements.',
-    'Reconstruction installs a complete new roof system on the repaired structural frame. New sheathing, underlayment, ice and water shield, flashing, and roofing material are installed to current code standards. The reconstructed roof typically exceeds the performance of the pre-fire roof because it incorporates current ventilation requirements, insulation values, and wind resistance standards that the original construction did not include.'
+    '**Newark Quality Roofing documents the fire, heat, smoke, and water damage and roofs to a licensed structural engineer\'s post-fire assessment.** A fire-damaged roof receives a formal structural assessment before reconstruction, often by a licensed structural engineer, and charred, heat-compromised rafters, trusses, and sheathing are replaced rather than roofed over, per the U.S. Forest Products Laboratory and EDT Engineers.',
+    '**Newark Quality Roofing tears off the charred covering and saturated decking to the framing, then rebuilds to the engineer\'s assessment and current code.** The char layer carries essentially zero residual structural capacity, so a tear-off removes charred material to sound wood and replaces firefighting-water-saturated plywood or OSB sheathing, per the American Wood Council and the U.S. Forest Products Laboratory.',
+    '**Newark Quality Roofing rebuilds a Class A fire-rated covering classified under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant rating.** A covering qualifies as Class A, B, or C through a spread-of-flame test, an intermittent-flame test, and a burning-brand test, and Newark Quality Roofing matches the covering and assembly to the Class A rating, per UL 790 and ASTM E108.',
+    '**Newark Quality Roofing photographs the damage, writes a detailed scope and estimate, and meets the insurer\'s adjuster on site to walk the damage.** In New Jersey, only a licensed public adjuster or an attorney negotiates or settles the claim, per the New Jersey Public Adjusters\' Licensing Act, N.J.S.A. 17:22B, so the owner or a public adjuster files and negotiates while Newark Quality Roofing performs the approved roofing.',
   ],
   faqs: [
     {
-      question: 'How long does fire damage roof replacement take in Orange?',
-      answer: 'Timeline depends on the extent of structural damage and insurance coordination. A partial fire affecting only the roof structure typically requires 2 to 4 weeks for demolition, structural repair, and reconstruction. Major fire damage involving the full building structure may extend the roof timeline to 6 to 12 weeks as it coordinates with the larger restoration project.'
+      question: 'Do I need a permit for fire damage roof replacement in Orange?',
+      answer:
+        'Replacing the roof covering on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, but replacing charred rafters or trusses triggers a permit, per the NJ Uniform Construction Code. On Orange\'s many commercial, multi-family, and attached buildings a fire replacement requires a permit because the ordinary-maintenance exemption covers only the repair of up to 25% of the roof area in a 12-month period. The City of Orange Township Building & Construction Division issues the permits and inspections.',
     },
     {
-      question: 'Does insurance cover the full cost of fire damage roof replacement?',
-      answer: 'Homeowner fire policies typically cover the full cost of restoring the roof to pre-loss condition, minus your deductible. Code upgrade costs -- required when fire reconstruction triggers current building code compliance -- may or may not be covered depending on your policy\'s ordinance or law coverage. We review these provisions with you and the adjuster to clarify coverage before work begins.'
+      question: 'Should you repair or replace a fire-damaged roof?',
+      answer:
+        'Replace a fire-damaged roof when fire reaches the structure, char weakens the framing, or damage exceeds 25–30% of the roof area; repair only when fire damage stays surface-localized on sound framing. The char layer carries essentially zero residual structural capacity and is removed, per the U.S. Forest Products Laboratory, and the 25–30% area rule favors full replacement, per roofing industry guidance. A structural engineering assessment determines whether repair or replacement is appropriate from the remaining capacity of the framing.',
     },
     {
-      question: 'Can a fire-damaged roof be repaired rather than replaced?',
-      answer: 'Minor fire damage limited to a small area of the roof surface -- such as a chimney fire that damaged only the surrounding shingles -- may be repairable. However, fire damage typically compromises structural integrity over a wider area than the visible burn zone. Structural engineering assessment determines whether repair or replacement is appropriate based on the remaining capacity of the framing.'
+      question: 'Does homeowners insurance cover fire damage roof replacement?',
+      answer:
+        'Homeowners insurance covers fire damage roof replacement when fire causes the loss, a covered peril, and the deductible stays the owner\'s responsibility under the policy. Fire and lightning rank among the most severe homeowners-insurance claims at roughly 1 in 430 insured homes per year, per the Insurance Information Institute (Triple-I), and coverage and approval are the insurer\'s decision. Newark Quality Roofing documents the damage, writes the scope, and performs the approved roofing; the owner or a licensed public adjuster files and negotiates the claim.',
     },
     {
-      question: 'What about my neighbor\'s roof if the fire was on my Orange property?',
-      answer: 'Adjacent properties on tight Orange lots frequently sustain radiant heat damage to shingles, siding, and window glazing from neighboring fires. Your homeowner liability coverage may apply to damage your fire caused to neighboring properties. We assess adjacent buildings during our initial evaluation and document any fire-related damage for insurance purposes.'
+      question: 'What happens to my neighbor\'s roof if the fire was on my Orange property?',
+      answer:
+        'Adjacent two- and three-family and attached units on Orange\'s dense lots frequently sustain radiant heat and firefighting-water damage to the roof, siding, and decking from a neighboring fire. Newark Quality Roofing assesses the adjacent buildings during the initial evaluation and documents the fire, heat, and water damage with timestamped photographs for the owner and any insurer. Your liability coverage may apply to damage caused to a neighboring property, a determination the insurer makes.',
+    },
+    {
+      question: 'Does fire damage roof work in a designated Orange historic district need extra approval?',
+      answer:
+        'In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission. The COA is a binding approval separate from the construction permit, under Development Regulations Ch. 210, Art. X. Emergency repairs may proceed first, a National or State Register listing alone imposes no restriction, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
       question: 'How much does fire damage roof replacement cost in Orange, NJ?',
-      answer: 'Most fire damage roof replacement projects in Orange range from $12,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A New Jersey roof replacement costs $10,000–$25,000 for a typical home, and fire damage adds structural framing and decking replacement on top of the covering, per HomeAdvisor and Modernize NJ cost data. Final cost depends on roof size, pitch, material, the extent of structural damage, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fire damage roof replacement in Orange NJ -- structural engineering, insurance coordination, tight-lot adjacent damage, and code-compliant reconstruction.',
+  metaDescription:
+    'Fire damage roof replacement in Orange NJ — structural assessment, charred-deck tear-off, Class A rebuild, insurance documentation. NJ-licensed, free estimate.',
   pricing: {
-    range: '$12,000–$35,000',
-    note: 'including structural repair',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, the extent of structural damage, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fire damage roof replacement estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fire damage roof replacement in Orange.',
+    urgencyNote: 'Documenting fire, heat, and water damage early supports an accurate scope and insurance claim.',
   },
 };

@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const orangeRoofInspection: ComboContent = {
   serviceId: 'roof-inspection',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing provides roof inspection across Orange and Essex County, assessing roof-covering condition, flashing, drainage, ventilation, and the deck** on two- and three-family homes, Valley Arts lofts, and Main Street commercial roofs as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert roof inspection in Orange — with prices starting from $150–$400 and free estimates available today. Roof inspections in Orange serve a city where the housing stock is aging faster than most owners realize. Homes built in the 1930s through 1950s -- the colonials, Cape Cods, and bungalows that fill the blocks between Main Street and the city borders -- are commonly on their third roof, with shingles installed 20 to 25 years ago now approaching failure. A thorough [roof inspection](/roof-inspection) catches the early warning signs that homeowners miss from ground level: granule erosion exposing the asphalt substrate, lifted shingle edges creating wind-catch points, hairline cracks in aging flashing, and the subtle deck deflection that signals moisture damage beneath the surface.',
-    'Orange\'s real estate market drives significant inspection demand from a different direction: home purchases. The NJ Transit station and Orange\'s relative affordability compared to neighboring South Orange and Maplewood attract steady buyer interest, and lenders routinely require roof condition assessments before closing. Our buyer inspection reports go beyond pass-fail -- we provide estimated remaining service life, identify deferred maintenance items with cost estimates, and flag any conditions that should be addressed immediately versus those that can be scheduled over the coming year. Buyers in nearby [West Orange](/roof-inspection-west-orange-nj) receive similarly detailed reports, but Orange inspections place particular emphasis on tight-lot access conditions and tree exposure that West Orange\'s larger lots rarely present.',
-    'South Mountain Reservation\'s tree canopy makes regular inspections especially critical for Orange properties along Hillyer Street, South Valley Road, and the streets approaching the park boundary. Branch impacts, accumulated leaf debris, moss and lichen colonization, and gutter blockages from seed pods all create conditions that deteriorate roofing materials faster than typical suburban exposure. We recommend annual inspections for mountain-adjacent Orange homes -- twice the frequency we suggest for properties on the city\'s interior blocks -- because the window between minor damage and significant water intrusion is much shorter under heavy tree canopy.'
+    '**Newark Quality Roofing inspects roof-covering materials, flashing, penetrations, gutters and drainage, ventilation, sealants, the roof deck, and the attic underside** across Orange — for residential and commercial properties. A roof inspection rates each component by condition and documents the findings before water reaches the interior.',
+    '**Flashing** sets where a Newark Quality Roofing inspection starts, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The InterNACHI roof inspection standard of practice directs an inspector to describe the roof-covering type and report observed indications of active roof leaks, the baseline a Newark Quality Roofing report records.',
+    '**Roof-covering materials** vary sharply across Orange\'s older stock, where roughly half the housing predates 1939, so an inspection rates aged asphalt on Seven Oaks detached homes, slate and metal details on the Main Street corridor, and low-slope membrane on converted-industrial loft buildings in the Valley Arts district. The NRCA recommends a roof inspection at least twice per year, spring and fall, plus an inspection after any major weather event, so a documented history tracks condition across the freeze-thaw and storm seasons.',
+    '**The attic underside and the roof deck** carry the moisture findings a surface survey misses, so a Newark Quality Roofing inspection measures deck and framing moisture, because sealing the roof deck cuts water intrusion by up to 95%, per the IBHS. On Orange\'s many two- and three-family and investor-owned buildings, a documented inspection report gives an owner the record an insurer or manufacturer-warranty program accepts.',
   ],
   challenges: [
-    'Accessing Orange roofs for inspection requires navigating the same tight-lot conditions that complicate every roofing project in the city. On many residential blocks, the only viable ladder access point is the front or rear of the building because the side yards are too narrow for safe setup. Multi-story homes on Scotland Road with complex rooflines require additional safety rigging to inspect dormers, valleys, and turret areas that cannot be reached from a single ladder position. Our inspection teams carry lightweight extension systems and specialized stabilizers designed for Orange\'s constrained access conditions.',
-    'Orange\'s diverse housing stock means that inspectors must be fluent in multiple roofing systems within a single workday. A morning inspection on a Victorian along Park Avenue may involve evaluating 100-year-old slate, hand-formed copper flashings, and ornate cornice details, while an afternoon appointment on Oakwood Avenue involves assessing standard asphalt shingles on plywood decking. Main Street commercial inspections require flat-roof membrane evaluation -- adhesion testing, seam integrity checks, and standing water measurement. Our Orange inspectors carry diagnostic equipment suited to all three environments.',
-    'The Valley neighborhood presents inspection challenges that extend below the roof surface. Moisture migration from saturated soil -- a chronic Valley condition during wet seasons -- causes condensation damage on roof decking that is invisible from above. Our Valley inspections include attic access to check the underside of the deck for moisture staining, mold growth, and the soft, punky texture that indicates active rot. Many Valley homeowners are surprised to learn that their roof deck is deteriorating from below even though the surface shingles appear intact from outside.'
+    '**Tenant-occupied access** shapes most Orange inspections, because the city runs roughly three-quarters renter-occupied and dense with two- and three-family and investor-owned buildings. A Newark Quality Roofing inspection coordinates entry under New Jersey landlord–tenant notice and delivers a report formatted for the owner, manager, and insurer.',
+    '**Low-slope membrane** on the converted-industrial loft buildings of the Valley Arts district and on Main Street mixed-use blocks fails at the seams and at rooftop-equipment penetrations, where ponding water held more than 48 hours counts as a defect and a flat roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing inspection maps standing water and checks every seam and parapet detail.',
+    '**Designated-district properties** add an approval step where a historic angle applies: in Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission (Development Regulations Ch. 210, Art. X), separate from the construction permit. A Newark Quality Roofing inspection report documents condition and notes whether a parcel falls inside a designated district; a property outside one is not subject to a COA, and a Register listing alone imposes no restriction.',
+    '**Dense street trees** and the wooded West Orange first-Watchung ridge to the west drive branch contact, debris accumulation, and gutter blockage that deteriorate roofing faster, so a Newark Quality Roofing inspection checks branch-impact marks, organic debris, and drainage on tree-shaded Orange blocks.',
   ],
   process: [
-    'Our Orange roof inspection begins with an exterior assessment from ground level, documenting the roof\'s overall condition, visible damage, gutter status, fascia condition, and any tree contact or debris accumulation. We note the building\'s age, architectural style, and lot configuration to tailor the on-roof inspection approach. For properties near South Mountain, we specifically look for branch impact marks, shingle displacement patterns, and gutter blockage from organic debris.',
-    'The on-roof inspection follows a systematic circuit from eave to ridge, checking shingle adhesion and granule retention, flashing condition at every wall intersection and penetration, valley integrity, ridge cap security, and vent or skylight seal condition. We probe any soft spots with a moisture meter and test membrane adhesion on flat-roof sections. For Orange homes with attic access, we inspect the underside of the deck, checking for daylight penetration, moisture staining, insulation condition, and ventilation adequacy.',
-    'The inspection report includes annotated photographs keyed to a roof diagram, a condition rating for each roof zone, estimated remaining service life, prioritized maintenance recommendations, and cost ranges for any identified repairs. For buyer inspections, we include a summary page formatted for lender review. For annual maintenance inspections on South Mountain-adjacent properties, we compare current conditions to previous inspection findings to track deterioration trends and advise on optimal timing for eventual replacement.'
+    '**Newark Quality Roofing inspects the roof in four stages — exterior ground survey, on-roof component inspection, attic-underside inspection, and a written condition report — rating each component and documenting active-leak indications.** A crew starts at the flashing, because the roofing industry estimates that roughly 90–95% of leaks originate at flashing, an industry estimate attributed to the NRCA, then checks the roof-covering materials, drainage, and sealants per industry roof-inspection practice.',
+    '**Newark Quality Roofing measures deck and framing moisture with moisture meters and locates trapped moisture with infrared imaging**, finding wet sheathing before a ceiling stain appears, because sealing the roof deck cuts water intrusion by up to 95%, per the IBHS. A Newark Quality Roofing inspector checks attic ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor, because balanced ventilation extends roof service life, per the NRCA.',
+    '**Newark Quality Roofing delivers a written condition report** with photographs keyed to a roof diagram, a condition rating for each zone, and prioritized recommendations — the documentation an insurance carrier or manufacturer-warranty program accepts, per the Insurance Information Institute. For a tenant-occupied or investor-owned Orange building, the report gives the owner and manager a dated record, and for a designated-district property it notes the Certificate-of-Appropriateness path.',
   ],
   faqs: [
     {
       question: 'How often should I have my Orange roof inspected?',
-      answer: 'We recommend annual inspections for Orange homes near South Mountain Reservation due to the heavy tree exposure. Properties on interior blocks with less tree canopy can follow a two-year inspection cycle. After any significant storm event with high winds or heavy rain, we recommend a prompt inspection regardless of the regular schedule. Real estate transaction inspections are separate from maintenance inspections and should be conducted for every Orange home purchase.'
+      answer:
+        'The NRCA recommends a roof inspection at least twice per year, spring and fall, plus an inspection after any major weather event. A spring inspection follows winter freeze-thaw stress and a fall inspection precedes it, and proper maintenance on that cadence extends asphalt-shingle service life by roughly 25–30%, per ARMA. Tree-shaded Orange blocks near the dense street canopy benefit from the post-storm check after high wind or heavy rain.',
     },
     {
-      question: 'What does a roof inspection in Orange typically cost?',
-      answer: 'Standard residential inspections in Orange range from $200 to $400 depending on roof size, complexity, and access conditions. Victorian homes with complex rooflines on Scotland Road are at the higher end due to additional time needed for multi-plane inspection. Commercial flat-roof inspections on Main Street buildings are quoted based on square footage. Inspection costs are credited toward any subsequent repair or replacement project we perform.'
+      question: 'Do I need a permit or historic approval for roof work found during an Orange inspection?',
+      answer:
+        'A repair or replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, repairing more than 25% of the total roof area in a 12-month period requires a permit. Separately, in Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission; a property outside a designated district is not subject to a COA. Permits and certificates of occupancy run through the City of Orange Township Building & Construction Division.',
     },
     {
       question: 'Can you inspect a roof I am considering buying in Orange?',
-      answer: 'Absolutely. Buyer inspections are a significant part of our Orange inspection work. We provide detailed reports that include estimated remaining service life, identified maintenance needs with cost estimates, and a summary page formatted for lender and insurance review. Our reports help buyers negotiate price adjustments and plan post-purchase capital improvement budgets.'
+      answer:
+        'A real-estate roof inspection assesses roof-covering condition and remaining service life before a home purchase or sale, reporting active-leak indications and component condition per industry roof-inspection practice. The report records the roof-covering type, rates each zone by urgency, and documents findings an owner or buyer uses in a transaction. It applies to Seven Oaks detached homes, two- and three-family buildings, and Valley Arts loft conversions alike.',
     },
     {
       question: 'Will you check the attic during a roof inspection?',
-      answer: 'Yes, whenever attic access is available. Attic inspection is especially important in Orange because the Valley neighborhood and other low-lying areas experience moisture migration from below that damages roof decking before any surface symptoms appear. We check for moisture staining, mold, insulation condition, ventilation adequacy, and the structural integrity of rafters and decking from the underside.'
+      answer:
+        'A Newark Quality Roofing inspection checks the attic underside and the roof deck for moisture staining, ventilation, and structural condition wherever access is available, because sealing the roof deck cuts water intrusion by up to 95%, per the IBHS. An inspector measures deck and framing moisture with moisture meters and sizes ventilation against the NRCA and ARMA standard of 1 square foot of net-free vent area per 150 square feet of attic floor.',
     },
     {
-      question: 'How much does roof inspection cost in Orange, NJ?',
-      answer: 'Most roof inspection projects in Orange range from $150–$400. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'How do you inspect a tenant-occupied two- or three-family in Orange?',
+      answer:
+        'A Newark Quality Roofing inspection coordinates entry under New Jersey landlord–tenant notice and delivers a report formatted for the owner, the property manager, and any insurer. Orange runs roughly three-quarters renter-occupied and dense with two- and three-family and investor-owned buildings, so the report rates each roof zone, documents active-leak indications, and gives the owner a dated record for maintenance, insurance, or a manufacturer-warranty program.',
+    },
+    {
+      question: 'How much does a roof inspection cost in Orange, NJ?',
+      answer:
+        'A roof inspection costs $75–$200 for a visual inspection, $150–$400 for a drone inspection, and $400–$600 for an infrared inspection, with a national average of $248, per HomeAdvisor inspection-cost data. Roof size, slope, and the inspection method set the cost. Newark Quality Roofing provides a free roof inspection.',
     },
   ],
-  metaDescription: 'Roof inspection in Orange NJ -- buyer assessments, annual tree-damage checks, Valley moisture evaluation, and Main Street commercial membrane testing.',
+  metaDescription:
+    'Roof inspection in Orange NJ — two- and three-family, Valley Arts loft, and Main Street commercial roofs. Flashing, deck, and attic checks. Free inspection.',
   pricing: {
-    range: '$150–$400',
-    note: 'comprehensive inspection with written report',
+    range: '$75–$600',
+    note: 'Typical NJ roof-inspection range per HomeAdvisor — $75–$200 visual, $150–$400 drone, $400–$600 infrared; the inspection method sets the cost. Newark Quality Roofing provides a free roof inspection.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two- and three-family, converted-loft, and older-detached building stock.',
+    'Free roof inspections that rate each component and document active-leak indications per industry roof-inspection practice.',
+    'Workmanship and findings documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof inspection estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free roof inspection for your Orange property.',
+    urgencyNote: 'A documented inspection catches a failing flashing or membrane detail before water reaches the interior.',
   },
 };

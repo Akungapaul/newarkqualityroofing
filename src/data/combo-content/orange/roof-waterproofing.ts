@@ -3,56 +3,66 @@ import type { ComboContent } from '../schema';
 export const orangeRoofWaterproofing: ComboContent = {
   serviceId: 'roof-waterproofing',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing waterproofs roofs across Orange and Essex County, sealing the roof deck, ice-prone eaves, valleys, penetrations, and low-slope flashing details** on two-/three-family homes, Valley Arts lofts, and Main Street commercial roofs as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert roof waterproofing in Orange — with prices starting from $1,500–$5,000 and free estimates available today. Roof waterproofing in Orange goes beyond surface-level sealing to address the multi-directional moisture assault that the city\'s unique geography creates. Rain from above is only part of the equation -- South Mountain\'s runoff saturates soil around Valley foundations, driving moisture upward through building assemblies, while the tight-lot construction between buildings creates wind-driven rain corridors that pressurize water against roof-to-wall junctions. Our [roof waterproofing](/roof-waterproofing) solutions treat the complete moisture envelope, ensuring that waterproofing details protect against water approaching from every direction.',
-    'The Valley neighborhood represents Orange\'s most demanding waterproofing environment. When heavy storms send runoff cascading down from South Mountain, the Valley\'s low-lying streets become saturated zones where moisture attacks buildings from foundation to ridge. Waterproofing Valley roofs requires attention not just to the membrane surface but to the vapor barriers, ventilation, and drainage systems that prevent moisture from condensing within the roof assembly itself. A waterproofing approach that ignores below-deck moisture will fail even with a perfect membrane on top.',
-    'Commercial waterproofing on Main Street addresses the aging flat-roof infrastructure that has been patched and re-coated for decades without achieving lasting results. Many Main Street building owners have spent more on repeated patches over the years than a comprehensive waterproofing solution would have cost initially. Our waterproofing assessments for Orange commercial buildings evaluate the entire roof system -- membrane, insulation, deck, drainage, and flashing -- to identify every water entry pathway and specify corrections that achieve lasting results rather than temporary patches. Building owners in [Newark](/roof-waterproofing-newark-nj) with similar aging commercial roofs benefit from the same comprehensive approach.'
+    '**Newark Quality Roofing waterproofs the sealed roof deck, the ice-prone eaves, the valleys and penetrations, and the low-slope and flashing details** on Orange\'s detached houses, dense two-/three-family stock, converted Valley Arts lofts, and Main Street commercial roofs. Roof waterproofing seals the layer beneath the covering so wind-driven rain that gets past the shingles or membrane stops at the deck rather than entering the building.',
+    '**The sealed roof deck** is the foundation of the system, because a fully sealed deck cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety. On a 2,000-square-foot unsealed roof stripped of shingles, up to 750 gallons of water per inch of rain enter the attic, roughly nine bathtubs, per IBHS research, so a Newark Quality Roofing job seals the deck during a tear-off or re-roof when the sheathing sits exposed.',
+    '**The ice-prone eaves** matter across Orange\'s older detached homes in Seven Oaks and its two-/three-family blocks, where freeze-thaw drives ice dams. An ice barrier runs from the eave to at least 24 inches inside the exterior wall line, and at least 36 inches along the slope on roofs of 8:12 or steeper, per IRC Section R905.1.2 as enforced through the NJ Uniform Construction Code.',
+    '**The low-slope and flashing details** define the converted-industrial loft roofs in the Valley Arts area and the flat commercial roofs on Main Street, where most leaks start at seams, curbs, drains, and transitions. A Newark Quality Roofing crew grades a low-slope roof to the NRCA minimum design slope of ¼ inch per foot and applies liquid-applied or self-adhered membrane at the flashing transitions.',
   ],
   challenges: [
-    'Orange\'s older buildings have multiple generations of waterproofing materials layered on their roofs, each applied over the last as a temporary fix that became permanent by default. These accumulated layers create a complex assembly where water can travel laterally between layers, entering the building far from the point where it initially breaches the outer surface. Diagnosing leaks through multi-layer assemblies requires systematic investigation -- moisture mapping, core sampling, and infrared scanning -- rather than the surface-only inspection that suffices on modern single-membrane roofs.',
-    'Tight-lot construction creates waterproofing challenges at the narrow gaps between Orange buildings. Wind-driven rain accelerates through these corridors and pressurizes against flashing details, siding joints, and any gap in the building envelope. Standard waterproofing details designed for isolated buildings may not resist this wind-driven moisture pressure. Our Orange waterproofing specifications include enhanced flashing heights, redundant sealant barriers, and pressure-equalized detailing at locations where adjacent buildings create wind acceleration.',
-    'The transition between older building sections and newer additions is a common water entry point on Orange properties. Material interfaces -- where old brick meets new siding, where a flat-roof addition meets a steep-slope original -- create movement joints that standard caulk sealing cannot address long-term. These transitions need engineered waterproofing details that accommodate differential building movement while maintaining a continuous moisture barrier across the interface.'
+    '**Layered older roofs** define many Orange properties, because roughly half the housing stock predates 1939 and decades of patches and re-covers stack generations of material over the deck. A Newark Quality Roofing survey maps the assembly with a moisture inspection before sealing, since a leak travels laterally between layers and emerges far from where it entered.',
+    '**Low-slope ponding** stresses the flat and converted-industrial roofs on Main Street and in the Valley Arts area, because ponding water held more than 48 hours after rain counts as a defect that breaks down the membrane, and a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing crew maps standing water and reseals the failed detail on a roof graded to drain.',
+    '**Tenant-occupied access** shapes waterproofing on Orange\'s two-/three-family and investor-owned buildings, where renters occupy roughly three-quarters of the housing. A Newark Quality Roofing job coordinates roof and interior access with the owner under New Jersey landlord-tenant entry-notice practice and documents the work for the property record.',
+    '**The four-district COA gate** governs regulated exterior roofing on a designated property. In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission under Development Regulations Ch. 210, Art. X.',
   ],
   process: [
-    'Waterproofing assessment in Orange uses multiple diagnostic techniques to map the complete moisture picture. Infrared scanning identifies wet areas beneath the roof surface. Moisture meters quantify the degree of saturation at suspect locations. Core sampling reveals the layers and condition of multi-generation roof assemblies. Interior inspection maps visible water damage to identify likely exterior entry points. The combined data produces a moisture map that shows every active and potential water pathway.',
-    'The waterproofing solution addresses each identified pathway with appropriate materials and methods. Surface membrane repairs or replacement restore the primary weather barrier. Flashing corrections at walls, penetrations, and transitions address junction-point failures. Vapor barriers and ventilation improvements manage below-deck moisture in Valley properties. Drainage corrections -- re-sloping, drain clearing, scupper installation -- eliminate ponding that stresses waterproofing systems beyond their design capacity.',
-    'Quality verification includes flood testing on flat sections, water-spray testing at wall flashings and penetrations, and interior monitoring during the first controlled rain event after repairs. We document the waterproofing system with photographs, material specifications, and a maintenance schedule that identifies the inspection points and intervals needed to maintain waterproofing integrity over the system\'s design life.'
+    '**Newark Quality Roofing inspects the eaves, valleys, penetrations, and low-slope details, runs a moisture survey, and locates every zone where water reaches the deck.** A crew maps the multi-layer assembly common on Orange\'s older roofs, because a sealed deck cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety.',
+    '**Newark Quality Roofing seals the deck with an IBHS-approved method, installs an ice barrier at the eaves, and runs a self-adhered membrane at the valleys, penetrations, and low-slope flashing details.** The ice barrier extends to at least 24 inches inside the exterior wall line, per IRC Section R905.1.2 as enforced through the NJ Uniform Construction Code, the self-adhered ice-and-water membrane self-seals around fasteners, per ASTM D1970, and the crew grades a low-slope roof to the NRCA minimum design slope of ¼ inch per foot.',
+    '**Newark Quality Roofing verifies watertight execution at the eaves, valleys, and penetrations and documents the completed work with photographs.** The documentation supports a homeowner insurance claim, satisfies a two-/three-family owner or property manager, and records the scope for a designated-district property where a Certificate of Appropriateness applies, per Integrity Home Exteriors documentation guidance.',
   ],
   faqs: [
     {
-      question: 'Why do Orange roofs need more waterproofing attention than suburban roofs?',
-      answer: 'Orange\'s combination of tight-lot wind corridors, South Mountain runoff, Valley ground moisture, and aging multi-layer roof assemblies creates moisture exposure from multiple directions that suburban roofs rarely face. Standard waterproofing details designed for isolated buildings on open lots may not resist the concentrated moisture forces that Orange\'s urban and geographic conditions generate.'
+      question: 'Do I need a permit to waterproof a roof in Orange?',
+      answer:
+        'Waterproofing the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, sealing more than 25% of the total roof area in a 12-month period requires a permit, with recover-versus-tear-off limits under the Rehab Subcode, N.J.A.C. 5:23-6.4. The City of Orange Township Building & Construction Division administers permits and inspections.',
     },
     {
-      question: 'How do you waterproof a Valley home against moisture from below?',
-      answer: 'We install continuous vapor barriers on the warm side of the insulation to prevent interior moisture from reaching the cold roof deck. Enhanced soffit-to-ridge ventilation keeps the attic space dry by exhausting any moisture that bypasses the vapor barrier. For severe cases, we add dehumidification recommendations and ensure that all penetrations through the roof assembly -- vents, pipes, wiring -- are sealed against moisture migration.'
+      question: 'Does waterproofing a roof in an Orange historic district need extra approval?',
+      answer:
+        'Regulated exterior roofing work on a property inside one of Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission under Development Regulations Ch. 210, Art. X. The COA is separate from the construction permit, emergency repairs may proceed first, and a property outside a designated district is not subject to a COA. A Register listing alone places no restriction, per the National Park Service. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
-      question: 'Can waterproofing coating replace membrane replacement on my Orange commercial roof?',
-      answer: 'If the existing membrane is structurally sound with intact adhesion to the substrate and dry insulation beneath, waterproofing coating can restore the surface and extend service life by 10 to 15 years at a fraction of replacement cost. If the membrane has lost adhesion, the insulation is saturated, or the deck is deteriorated, coating masks the problem without solving it and full replacement is the responsible recommendation.'
+      question: 'How do you waterproof a converted Valley Arts loft or Main Street commercial roof?',
+      answer:
+        'Newark Quality Roofing seals the seams, curbs, drains, and flashing details of a low-slope roof with liquid-applied or self-adhered membrane and grades the roof to the NRCA minimum design slope of ¼ inch per foot so water drains. Ponding water remaining more than 48 hours counts as a defect that breaks down the membrane, per the NRCA and ARMA, so the crew seals the details on a roof graded to drain. On a commercial building, sealing more than 25% of the roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7.',
     },
     {
-      question: 'How much does comprehensive roof waterproofing cost in Orange?',
-      answer: 'Costs vary widely based on the scope of work required. Targeted flashing and sealant repairs run $500 to $2,000. Membrane coating restoration on commercial roofs runs $4 to $8 per square foot. Complete waterproofing system installation including membrane, insulation, vapor barrier, and drainage correction on a commercial building runs $8 to $15 per square foot. Residential projects typically fall between $1,500 and $5,000 depending on the scope.'
+      question: 'Is felt underlayment the same as waterproofing the roof?',
+      answer:
+        'Asphalt-saturated felt underlayment is water-resistant, not waterproof, because #15 and #30 felt meets ASTM D226 as a water-resistant secondary barrier rather than a sealed layer. A self-adhering polymer-modified bitumen membrane seals the deck and self-seals around fasteners, per ASTM D1970, the layer that waterproofs the deck. A Newark Quality Roofing waterproofing job seals the deck, the eaves, the valleys, and the flashing details where most water enters.',
     },
     {
       question: 'How much does roof waterproofing cost in Orange, NJ?',
-      answer: 'Most roof waterproofing projects in Orange range from $1,500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Roof waterproofing cost in Orange varies by scope, materials, and access, because the sealing method, the ice-barrier and ice-and-water membrane footage, and the low-slope area sealed each price separately. Sealing the deck during a tear-off or re-roof costs less per square foot than a standalone access, because the deck sits exposed and the membrane bonds to bare sheathing, per the IBHS sealed-deck methods. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof waterproofing in Orange NJ -- Valley moisture barriers, tight-lot wind-driven rain solutions, multi-layer diagnostics, and Main Street commercial sealing.',
+  metaDescription:
+    'Roof waterproofing in Orange NJ — sealed roof decks, ice-barrier eaves, Valley Arts loft and Main Street low-slope membranes. NJ-licensed, free estimate.',
   pricing: {
-    range: '$1,500–$5,000',
-    note: 'waterproofing membrane application',
+    range: 'Varies by scope',
+    note: 'Final cost depends on scope, materials, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof waterproofing estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof waterproofing in Orange.',
+    urgencyNote: 'Sealing the deck, eaves, and flashing details early limits interior and structural water damage.',
   },
 };

@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const orangeFlatRoofReplacement: ComboContent = {
   serviceId: 'flat-roof-replacement',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing replaces flat and low-slope roofs across Orange and Essex County, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert flat roof replacement in Orange — with prices starting from $6,000–$18,000 and free estimates available today. Flat roof replacement serves both Orange\'s commercial Main Street buildings and the residential properties throughout the city that have flat or low-slope sections -- rear additions, porch roofs, and the flat-topped Victorian-era row structures that dot the city\'s older blocks. Our [flat roof replacement](/flat-roof-replacement) projects install modern membrane systems that permanently resolve the ponding, seam failure, and chronic patching that characterize aging flat roofs across Orange\'s diverse building stock.',
-    'Main Street\'s commercial buildings are the primary flat roof replacement market in Orange. The built-up and modified bitumen systems installed in the 1970s and 1980s have been patched, coated, and re-coated so many times that the original membrane is buried under layers of accumulated repair materials. Full replacement strips these layers, addresses the substrate, corrects drainage deficiencies, and installs a clean single-ply membrane that provides 20 to 25 years of maintenance-free waterproofing.',
-    'Residential flat sections on Orange homes often receive less attention than the main pitched roof, yet they are frequently the source of chronic leaks. The low-slope addition behind a Victorian, the flat porch roof on a colonial, or the sunroom ceiling that doubles as a roof all need membrane systems designed for their specific drainage conditions. Our residential flat roof replacements use the same membrane technology and installation standards as our commercial work, scaled to the smaller dimensions of residential applications. Homeowners in [East Orange](/flat-roof-replacement-east-orange-nj) face identical aging flat-section challenges on their older residential properties.'
+    '**Newark Quality Roofing installs EPDM rubber, TPO, PVC, and modified-bitumen membranes** on the flat and low-slope roofs across Orange, from Valley Arts loft buildings to Main Street commercial blocks and Seven Oaks home additions. Flat roof replacement strips the membrane to the deck, repairs the substrate, and installs a new system that ends recurring leaks rather than patching one seam.',
+    '**EPDM, TPO, PVC, and modified-bitumen systems** carry different lifespans: EPDM lasts 15 to 25 years, TPO 7 to 20 years on the InterNACHI chart and commonly 15 to 25 years in practice, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, while PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry. Newark Quality Roofing matches the membrane to the building and the Essex County climate before tear-off.',
+    '**Valley Arts converted-industrial and loft buildings** carry large flat membrane fields with parapets and internal drainage, the low-slope roofs near the Highland Avenue rail line where seam failure and ponding drive full replacement. A flat roof needs at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing replacement corrects drainage as part of the install.',
+    '**Main Street commercial blocks and Seven Oaks home additions** round out the Orange flat-roof market, from downtown mixed-use parapets to the rear additions, porch roofs, and dormers on older detached houses. A complete tear-off and re-cover of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code, while a commercial or multi-family building does require one.',
   ],
   challenges: [
-    'Drainage correction is the defining challenge on Orange\'s flat roof replacements. Many existing flat roofs have no intentional drainage slope -- the building was constructed with a truly level deck, and decades of ponding water have deteriorated the membrane and insulation at low points. Our replacements include tapered insulation that creates positive drainage slopes toward existing drain locations or new scupper installations, eliminating the ponding that destroyed the previous system.',
-    'The interface between flat roof sections and adjacent steep-slope roofing on Orange homes creates a transition detail that is a common leak point. The low-slope membrane must terminate beneath the steep-slope shingles with proper step flashing and a cant strip that transitions the roof plane smoothly. On older Orange homes where this transition was originally detailed with tar and sheet metal, the replacement provides an opportunity to install a modern membrane-to-shingle transition that eliminates this chronic leak source.',
-    'Insulation requirements on flat roof replacements have increased significantly since Orange\'s older commercial buildings were originally roofed. Current energy code requires R-25 to R-30 insulation on commercial flat roofs, compared to the R-8 to R-12 that was common in previous decades. The insulation upgrade adds cost and height to the roof assembly, potentially affecting parapet heights, door clearances at rooftop access points, and HVAC equipment curb heights.'
+    '**Drainage correction** is the defining challenge on Orange flat roofs, because many older decks were built level and decades of ponding water deteriorated the membrane at the low points. A Newark Quality Roofing replacement adds tapered insulation to restore the at-least ¼ inch per foot of slope a flat roof requires to drain, per the NRCA and ARMA.',
+    '**Tenant-occupied access** governs the dense two-/three-family and investor-owned stock that fills much of Orange, where roughly 76% of households rent (owner-occupancy near 23.8%, per Census data). A Newark Quality Roofing crew schedules tear-off and membrane work around occupied units and the advance written notice a New Jersey landlord provides a tenant before entry, and documents the completed roof for the owner and any insurer.',
+    '**Deck saturation** decides whether a flat roof gets a recover or a full tear-off, because the NJ Rehabilitation Subcode requires complete removal of the existing covering when the deck is water-soaked or deteriorated or the roof already carries two or more layers, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing core sample reads the substrate and the layer count before quoting the scope.',
+    '**Permit scope** separates Orange\'s detached houses from its commercial and multi-family buildings, because a commercial or multi-family reroof beyond 25% of the roof area in 12 months requires a construction permit while a detached one- or two-family re-cover does not, per N.J.A.C. 5:23-2.7. The City of Orange Township Building & Construction Division enforces the state classification.',
   ],
   process: [
-    'Flat roof replacement begins with a pre-construction assessment that maps existing drainage patterns, measures deck slope (or lack thereof), identifies structural deck conditions, and inventories all penetrations and equipment. Core sampling through the existing roof assembly reveals insulation type, condition, and saturation level, and the structural deck material and condition beneath. This data drives the replacement specification.',
-    'Tear-off removes all existing membrane, insulation, and deteriorated materials down to the structural deck. The deck is inspected, and any deterioration is repaired. Tapered polyiso insulation boards are installed in a pattern calculated to create positive drainage toward existing or new drain locations. The new membrane -- TPO, EPDM, or PVC depending on the building\'s use and exposure -- is installed over the insulation with fully adhered or mechanically attached application per the wind uplift requirements.',
-    'Detail work at penetrations, drains, edges, and transitions receives focused attention because these junction points are where flat roofs fail. Every pipe boot, equipment curb, drain collar, scupper, and edge termination is detailed with compatible membrane components and tested individually. After completion, the entire flat roof is flood-tested to verify watertight integrity before the project is considered complete.'
+    '**Newark Quality Roofing assesses the deck, the drainage, and the membrane condition before quoting, because a tear-off exposes substrate rot and standing-water damage a surface inspection misses.** A core sample reads insulation saturation and the layer count, and N.J.A.C. 5:23-6.4 requires complete removal when the deck is water-soaked or the roof carries two or more layers, per the NJ Rehabilitation Subcode.',
+    '**Newark Quality Roofing matches the membrane to the building from four systems — EPDM rubber, TPO, PVC, and modified bitumen — then strips the failed membrane to the deck and repairs the substrate.** White TPO and PVC reflect solar heat as cool roofs, with reflectance near 0.70 to 0.85 measured per ASTM C1549 and listed by the CRRC, a relevant property where the U.S. EPA notes urban daytime air runs about 1 to 7°F hotter than outlying areas.',
+    '**Newark Quality Roofing corrects the slope to drain, installs the new membrane to manufacturer specification, and documents the completed roof.** Tapered insulation restores the at-least ¼ inch per foot of slope a flat roof requires, per the NRCA and ARMA, and manufacturer-approved bonding keeps the system warranty intact, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'What is the best membrane for flat roof replacement in Orange?',
-      answer: 'TPO is our most common specification for Orange flat roofs -- it provides excellent waterproofing, energy-efficient reflectivity, heat-welded seams, and competitive pricing. PVC is preferred for restaurant buildings with grease exposure. EPDM is specified for larger commercial footprints where minimal seam count is the priority. We recommend based on each building\'s specific conditions.'
+      question: 'Which membrane is best for an Orange flat or low-slope roof?',
+      answer:
+        'EPDM, TPO, PVC, and modified bitumen each suit different Orange roofs, matched to the building and exposure. White TPO and PVC reflect solar heat as cool roofs, reflectance near 0.70 to 0.85 per ASTM C1549 and the CRRC, while PVC resists grease and chemicals on restaurant and industrial roofs, and EPDM suits larger Valley Arts fields with fewer seams. Newark Quality Roofing matches the system before tear-off.',
     },
     {
-      question: 'How long does a flat roof replacement last in Orange?',
-      answer: 'Properly installed single-ply membrane flat roofs last 20 to 25 years on Orange buildings with standard maintenance. Annual inspections to check seams, penetrations, and drainage details are the only regular maintenance required. This represents a significant improvement over the 15 to 20-year lifespan typical of the built-up and modified bitumen systems they replace.'
+      question: 'How long does a flat roof last in Orange?',
+      answer:
+        'PVC single-ply lasts 20 to 30 years and built-up roofing 30 years, followed by EPDM at 15 to 25 years, modified bitumen at 20 years, and TPO at 7 to 20 years. PVC lifespan traces to the Single Ply Roofing Industry, and the EPDM, modified-bitumen, TPO, and built-up roofing figures trace to the InterNACHI life-expectancy chart, with TPO commonly cited at 15 to 25 years in practice.',
     },
     {
-      question: 'Can you fix the drainage problems on my Orange flat roof during replacement?',
-      answer: 'Yes. Drainage correction through tapered insulation is a standard part of our flat roof replacements. We create positive slopes toward drain locations using insulation boards with built-in taper, eliminating the ponding water that destroyed the previous membrane. If existing drain locations are inadequate, we add scuppers or relocated drains to improve drainage paths.'
+      question: 'Why does my Orange flat roof keep ponding water?',
+      answer:
+        'A flat roof ponds water when the slope falls below ¼ inch per foot, and ponding water remaining more than 48 hours counts as a defect that breaks down membrane seams, per the NRCA and ARMA. A Newark Quality Roofing replacement adds tapered insulation to correct the slope so the new membrane drains rather than ponds, common on the older level decks across Orange\'s building stock.',
     },
     {
-      question: 'How much does flat roof replacement cost for an Orange home addition?',
-      answer: 'Residential flat roof replacement on Orange home additions typically runs $3,000 to $8,000 depending on the area, access conditions, and membrane type. Larger commercial flat roofs on Main Street run $8 to $15 per square foot. All prices include tear-off, insulation, membrane, and all detail work at penetrations and edges.'
+      question: 'Do you need a permit for flat roof replacement in Orange, NJ?',
+      answer:
+        'A flat roof re-cover on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit; a commercial or multi-family flat roof does require one. On a commercial or multi-family building, reroofing more than 25% of the roof area in 12 months requires a permit, per the NJ Uniform Construction Code, enforced by the City of Orange Township Building & Construction Division.',
+    },
+    {
+      question: 'Does a flat roof replacement in an Orange historic district need extra approval?',
+      answer:
+        'A regulated exterior roofing project inside one of Orange\'s four locally designated historic districts requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission, a binding approval separate from the construction permit. The four districts are Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s, designated under Development Regulations Ch. 210, Art. X. Emergency repairs may proceed first, a Register listing alone imposes no restriction, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
       question: 'How much does flat roof replacement cost in Orange, NJ?',
-      answer: 'Most flat roof replacement projects in Orange range from $6,000–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A typical New Jersey roof replacement runs $10,000 to $25,000, with NJ membrane pricing of $7.00 to $10.00 per square foot for EPDM and $8.00 to $12.00 for TPO. The replacement range traces to HomeAdvisor and Modernize and the per-square-foot membrane pricing to Josten Roofing NJ data. Final cost depends on roof size, slope correction, membrane, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Flat roof replacement in Orange NJ -- Main Street commercial membranes, residential addition coverage, drainage correction, and TPO/EPDM/PVC options.',
+  metaDescription:
+    'Flat roof replacement in Orange NJ — Valley Arts loft membranes, Main Street commercial, EPDM/TPO/PVC, drainage correction. NJ-licensed, free written estimate.',
   pricing: {
-    range: '$6,000–$18,000',
-    note: 'flat roof membrane replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free flat roof replacement estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for flat roof replacement in Orange.',
+    urgencyNote: 'Addressing membrane and drainage failure early limits interior and structural water damage.',
   },
 };

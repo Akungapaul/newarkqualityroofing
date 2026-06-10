@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const orangeModifiedBitumenRoofing: ComboContent = {
   serviceId: 'modified-bitumen-roofing',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing installs modified bitumen roofing across Orange and Essex County, building a multi-ply SBS or APP membrane over the deck** on Valley Arts converted-industrial lofts and Main Street commercial roofs as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert modified bitumen roofing in Orange — with prices starting from $6–$10/sq ft and free estimates available today. Modified bitumen roofing has a long history on Orange\'s commercial buildings, and for good reason -- the multi-layer system handles the ponding water, thermal cycling, and foot traffic that Main Street\'s flat-roofed storefronts endure year after year. Our [modified bitumen roofing](/modified-bitumen-roofing) installations in Orange build on this proven track record while incorporating modern application methods that improve both performance and installation safety compared to the torch-applied systems that were standard when many of Orange\'s existing mod-bit roofs were originally installed.',
-    'Main Street\'s older commercial buildings are the natural home for modified bitumen in Orange. Two- and three-story structures with built-up roofing from the 1970s and 1980s often transition best to mod-bit because the system uses similar base materials in a modernized format. Property owners familiar with the feel and maintenance of built-up roofing find mod-bit intuitive -- the granulated cap sheet is visible and inspectable, damage is easy to identify and patch, and the multi-layer redundancy provides reassurance that a single puncture will not cause a leak. This practical familiarity matters for Orange\'s hands-on building owners who inspect their own roofs.',
-    'Orange\'s position between [East Orange](/modified-bitumen-roofing-east-orange-nj) and [West Orange](/roofing-in-west-orange-nj) places it in a transitional climate zone where the urban heat island of the eastern flatlands meets the cooler, windier conditions descending from South Mountain. Modified bitumen\'s SBS-modified asphalt compound maintains flexibility across this temperature range -- staying pliable during winter cold snaps that would crack rigid membranes, and resisting flow during summer heat that would soften standard asphalt products. This all-season flexibility is why mod-bit continues to earn specifications on Orange commercial projects despite competition from single-ply alternatives.'
+    '**Newark Quality Roofing builds modified bitumen roofs as a multi-ply assembly — a base sheet, one or two interply membranes, and a polymer-modified cap sheet** — across Orange\'s converted-industrial Valley Arts buildings and Main Street commercial blocks. Modified bitumen layers polymer-modified asphalt over base plies, carrying the redundancy of built-up roofing with added membrane flexibility.',
+    '**Multi-ply redundancy** is why modified bitumen suits Orange\'s flat and low-slope stock, because a breach in the cap sheet stops short of the deck rather than reaching the interior, per ARMA modified-bitumen guidance. Modified bitumen lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and BUR at 30 years.',
+    '**SBS-modified bitumen**, modified with styrene-butadiene-styrene rubber, holds low-temperature flexibility better than APP-modified bitumen, the property that matters across an Essex County winter that crosses the 32°F freezing point repeatedly, per ARMA modified-bitumen guidance. A Newark Quality Roofing installation matches the polymer modifier and the application method to the building before the first ply.',
+    '**Cap-sheet surfacing** finishes the membrane: a granulated cap supplies built-in UV and foot-traffic protection on roofs that carry rooftop-equipment access, while a smooth cap receives a reflective coating rated for solar reflectance by the Cool Roof Rating Council. Per the U.S. EPA, the heat-island effect makes daytime air temperatures in U.S. urban areas about 1–7°F higher than outlying areas.',
   ],
   challenges: [
-    'Many of Orange\'s existing modified bitumen roofs were installed using torch-applied methods that present fire risk during replacement and repair. Torch application involves open flame heating of asphalt membrane on a building roof, which has caused building fires in commercial settings nationwide. Our Orange mod-bit installations use cold-applied adhesive or self-adhering membrane sheets that eliminate the fire risk entirely -- a critical safety consideration on Main Street buildings where ground-floor tenants and adjacent properties could be endangered by torch application gone wrong.',
-    'Ponding water is endemic to Orange\'s older flat-roofed commercial buildings, and modified bitumen is frequently called upon to solve drainage problems that are fundamentally structural. A mod-bit membrane installed over a flat deck with no drainage slope will eventually fail at ponding locations, regardless of material quality. Our Orange installations include tapered insulation systems that create positive drainage slopes even on structurally flat decks, directing water toward roof drains and scuppers rather than allowing it to accumulate in low spots.',
-    'Modified bitumen\'s granulated surface collects and retains organic debris from South Mountain\'s tree canopy more readily than smooth single-ply membranes. The granules trap leaf fragments, seed pods, and decomposing organic material that retains moisture against the membrane surface and can block drainage paths. Properties near the mountain reservation require more frequent maintenance cleaning than those on Orange\'s eastern commercial corridor -- a maintenance burden that building owners must commit to when selecting granulated mod-bit over smooth-surface alternatives.'
+    '**Open-flame fire risk** is the defining concern on Orange\'s occupied Main Street and Valley Arts buildings, because torch-applied installation bonds the membrane by melting asphalt over open flame near ground-floor tenants and adjacent structures. A Newark Quality Roofing installation applies self-adhered SBS or cold-adhesive modified bitumen on occupied buildings, eliminating open flame at the roof, per NRCA hot-work guidance.',
+    '**Ponding water** is endemic to the structurally flat decks of Orange\'s older converted-industrial and downtown commercial buildings, because water held more than 48 hours after rain counts as a defect that breaks down a bituminous membrane, and a low-slope roof needs at least ¼ inch per foot of slope to drain, per the NRCA and ARMA. A Newark Quality Roofing installation builds positive drainage with tapered polyisocyanurate insulation directed toward existing drains and scuppers.',
+    '**Granulated-surface debris** collects more readily on a modified bitumen cap than on a smooth single-ply membrane, because Orange\'s dense street trees and the wooded first-Watchung ridge to the west drop leaf litter and seed that hold moisture against the membrane and block drainage paths. A Newark Quality Roofing maintenance plan clears the field and the drains on a regular cadence.',
+    '**Tenant-occupied access** governs many Orange jobs, because the city is roughly 76% renter-occupied, per U.S. Census QuickFacts, and dense with two- and three-family and investor-owned buildings, so roof access crosses occupied units under New Jersey landlord-tenant entry-notice practice. A Newark Quality Roofing installation sets an access and staging plan with the owner before any work on the roof begins.',
   ],
   process: [
-    'Modified bitumen installation in Orange follows a systematic layering approach. The existing roof is removed to the structural deck, which is inspected and repaired as needed. A base sheet -- either mechanically fastened or adhered depending on deck type -- creates the first waterproofing layer. Tapered polyiso insulation is installed over the base to establish drainage slopes, with board layout planned to direct water toward existing drain locations.',
-    'The modified bitumen membrane is installed in two layers: an interply sheet adhered to the insulation substrate, followed by the granulated cap sheet that forms the exposed surface. We use cold-applied adhesive for both layers, spreading a controlled amount of bonding adhesive ahead of the membrane roll as it is positioned. Each sheet overlaps the adjacent sheet by a minimum of four inches, with the overlap area heated or adhered to create a watertight seam. The two-layer system provides redundancy -- even if the top layer is damaged by foot traffic or debris impact, the interply sheet maintains waterproofing below.',
-    'Flashing details at parapets, curbs, and penetrations use modified bitumen base flashing material that is compatible with the field membrane. Parapet flashings extend from the roof surface up the wall and are secured with stainless steel termination bars and counter-flashing. Every penetration receives a formed collar and reinforced membrane detail. After installation, we walk the entire roof with the building owner to identify every detail and explain the maintenance requirements that will keep the system performing for its full 20 to 25-year lifespan.'
+    '**Newark Quality Roofing specifies the ply count, the polymer modifier, and the application method against the building, the occupancy, and the NJ fire-code conditions, then designs tapered insulation to positive drainage.** A low-slope roof needs at least ¼ inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA.',
+    '**Newark Quality Roofing prepares the substrate and builds the multi-ply assembly, bonding each ply fully to the layer below for redundant waterproofing.** A crew removes or prepares the existing roof, installs rigid polyisocyanurate insulation, and applies the base sheet, the interply, and the polymer-modified cap by the specified SBS self-adhered or cold-adhesive method, eliminating open flame at the roof on an occupied building, per ARMA modified-bitumen guidance.',
+    '**Newark Quality Roofing flashes every penetration, curb, edge, and parapet with modified bitumen components, then verifies full-surface adhesion at each ply.** Flashing separation at penetrations and parapets ranks among the most common low-slope leak sources, per NRCA and ARMA. A crew re-applies any section showing incomplete contact and documents the completed roof with photographs for the owner\'s and insurer\'s records.',
   ],
   faqs: [
     {
-      question: 'Is modified bitumen still a good choice for Orange commercial roofs?',
-      answer: 'Modified bitumen remains an excellent choice for Orange commercial buildings, particularly for property owners who prefer a traditional, inspectable roof system with multi-layer redundancy. The SBS-modified asphalt handles Orange\'s temperature extremes well, and the granulated surface resists foot traffic. For building owners comparing mod-bit to single-ply options, the choice often comes down to preference for multi-layer redundancy versus single-membrane simplicity.'
+      question: 'Do I need a permit for a modified bitumen roof in Orange?',
+      answer:
+        'Most modified bitumen roofs sit on Orange\'s commercial, converted-industrial, and multi-family buildings, where reroofing more than 25% of the total roof area in a 12-month period requires a permit, per N.J.A.C. 5:23-2.7. A roof covering on a detached one- or two-family home counts as ordinary maintenance and requires no construction permit, per the NJ Uniform Construction Code. The City of Orange Township Building & Construction Division issues the permit and inspects the work.',
     },
     {
-      question: 'Do you use torch application for modified bitumen in Orange?',
-      answer: 'No. We use exclusively cold-applied adhesive and self-adhering modified bitumen products in Orange. Cold application eliminates the fire risk associated with torch-applied methods -- an important safety consideration on Main Street buildings with occupied ground floors and adjacent structures within feet of each other. Cold-applied products deliver equal or better adhesion without the safety liability.'
+      question: 'Does modified bitumen roofing in a historic district need extra approval?',
+      answer:
+        'In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission, separate from the construction permit. That binding approval traces to Development Regulations Ch. 210, Art. X. Emergency repairs may proceed first, a Register listing alone imposes no restriction, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
-      question: 'How does modified bitumen compare to TPO for Orange buildings?',
-      answer: 'Modified bitumen provides multi-layer redundancy, familiar maintenance characteristics, and excellent foot traffic resistance. TPO offers superior reflectivity and lower cooling costs. For Orange buildings with heavy rooftop equipment and frequent maintenance access, mod-bit\'s traffic resistance may be the deciding factor. For buildings where energy efficiency is the priority, TPO\'s reflective surface provides measurable savings.'
+      question: 'What is the difference between APP and SBS modified bitumen?',
+      answer:
+        'SBS-modified bitumen, modified with styrene-butadiene-styrene rubber, holds low-temperature flexibility better than APP-modified bitumen, which runs heat-resistant and UV-stable but stiffer in cold, per ARMA modified-bitumen guidance. Newark Quality Roofing applies SBS modified bitumen for the Essex County freeze-thaw climate, using self-adhered or cold-adhesive bonding on occupied Orange buildings.',
     },
     {
-      question: 'What maintenance does a mod-bit roof need in Orange?',
-      answer: 'Annual inspections of seams, flashings, and drain details are essential. For buildings near South Mountain, semi-annual debris clearing prevents organic material from blocking drainage and retaining moisture against the membrane. Minor repairs -- patching granule loss areas, resealing flashings -- are simple and inexpensive when caught during routine inspections.'
+      question: 'Do you use torch application on occupied Orange buildings?',
+      answer:
+        'No. Newark Quality Roofing applies self-adhered SBS or cold-adhesive modified bitumen on occupied buildings and where NJ fire code restricts hot work, eliminating open flame at the roof, per NRCA hot-work guidance. Cold and self-adhered methods remove the fire risk of torch application on Main Street and Valley Arts buildings with occupied ground floors and adjacent structures.',
+    },
+    {
+      question: 'Can modified bitumen be installed over an existing flat roof in Orange?',
+      answer:
+        'A modified bitumen membrane recovers over a sound existing roof without full tear-off, the work the NJ Rehabilitation Subcode permits only when the existing covering carries fewer than two applications, per N.J.A.C. 5:23-6.4. The subcode requires complete removal when the roof is water-soaked or deteriorated, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers.',
     },
     {
       question: 'How much does modified bitumen roofing cost in Orange, NJ?',
-      answer: 'Most modified bitumen roofing projects in Orange range from $6–$10/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'A modified bitumen roof in Orange falls in the typical NJ roof-replacement range of $10,000–$25,000, with NJ low-slope membrane installs running $7–$12 per square foot for comparable EPDM and TPO systems, per HomeAdvisor, Modernize, and Josten Roofing NJ cost data. Ply count, the application method, and tear-off of two-or-more existing layers drive the final figure. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Modified bitumen roofing in Orange NJ -- cold-applied commercial installation, Main Street flat roofs, drainage correction, and multi-layer waterproofing.',
+  metaDescription:
+    'Modified bitumen roofing in Orange NJ — multi-ply SBS membrane on Valley Arts and Main Street flat roofs, cold-applied install, drainage correction.',
   pricing: {
-    range: '$6–$10/sq ft',
-    note: 'modified bitumen membrane system',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; NJ low-slope membrane installs $7–$12 per square foot per Josten Roofing. Final cost depends on roof size, ply count, application method, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s converted-loft, downtown-commercial, and two-/three-family building stock.',
+    'Self-adhered and cold-adhesive modified bitumen that eliminates open flame on occupied buildings.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free modified bitumen roofing estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for modified bitumen roofing in Orange.',
+    urgencyNote: 'Ponding water and failed flashing on a low-slope roof admit water across the whole deck when left unaddressed.',
   },
 };

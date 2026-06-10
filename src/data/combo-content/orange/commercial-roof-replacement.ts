@@ -3,56 +3,66 @@ import type { ComboContent } from '../schema';
 export const orangeCommercialRoofReplacement: ComboContent = {
   serviceId: 'commercial-roof-replacement',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing replaces commercial and low-slope roofs across Orange and Essex County, stripping the membrane to the deck, repairing the deck, and installing a new insulation-and-membrane system to manufacturer specification** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert commercial roof replacement in Orange — with prices starting from $8–$16/sq ft and free estimates available today. Commercial roof replacement in Orange eliminates the chronic leak cycles and escalating repair costs that accumulate when aging membrane systems are patched beyond their useful life. Our [commercial roof replacement](/commercial-roof-replacement) projects strip deteriorated roofing down to the structural deck, address any substrate damage, and install new membrane systems engineered for each building\'s specific use, load capacity, and energy performance targets. The result is 20 to 25 years of leak-free performance that resets the building\'s maintenance trajectory.',
-    'Main Street Orange\'s commercial corridor is entering a replacement cycle as the modified bitumen and built-up roofing installed in the 1980s and 1990s reaches the end of its design life. Building owners who have been patching and coating these systems for the past decade are reaching the economic tipping point where continued repair costs exceed the amortized cost of replacement. Our replacement proposals include lifecycle cost analysis that compares the next 20 years of ongoing repair against the one-time replacement investment, helping building owners make this transition decision with clear financial data.',
-    'For Orange\'s larger commercial and industrial buildings along Mitchell Street, roof replacement is an operational project that must be planned around business continuity requirements. We cannot shut down a functioning warehouse or manufacturing facility for the weeks that a full roof replacement requires. Our phased construction approach isolates work zones with temporary waterproofing barriers, completes each zone fully before exposing the next, and maintains the building\'s weather protection throughout the project. This phased methodology has kept Orange businesses running continuously through replacement projects spanning 20,000 square feet and more. Similar phased approaches protect operations during commercial replacements in [Newark](/commercial-roof-replacement-newark-nj)\'s industrial corridors.'
+    '**Newark Quality Roofing replaces commercial low-slope roofs across Orange in EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal.** Commercial roof replacement strips the existing covering to the deck and installs a new insulation-and-membrane system.',
+    '**Valley Arts converted-industrial and loft buildings** near the Highland Avenue rail line carry large flat roofs with parapets and internal drainage, the assemblies a replacement re-roofs when the membrane reaches end of service. A new system reaches end of service after a material-specific lifespan: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance.',
+    '**Main Street commercial blocks** along Orange\'s principal downtown corridor reach replacement through membrane age and storm loss rather than new construction, the pattern behind replacement accounting for 79.2% of US roofing installations in 2025, per Mordor Intelligence. A Newark Quality Roofing replacement matches the new membrane to the building, the drainage, and the Essex County climate before tear-off.',
+    '**Two-/three-family and investor-owned buildings** make up much of Orange\'s dense, largely renter-occupied stock, where a failing flat-roof section over occupied units puts a replacement on a landlord\'s schedule. A Newark Quality Roofing replacement re-roofs the flat section to manufacturer specification and documents the work for the owner, the property record, and any insurer.',
   ],
   challenges: [
-    'Unknown conditions beneath decades-old roofing material create cost uncertainty on Orange commercial replacement projects. Saturated insulation, corroded metal decking, rotted wood nailers, and deteriorated structural connections may not be apparent until the existing roof is removed. Our proposals include contingency allowances for commonly encountered hidden conditions, and we communicate proactively with building owners when unexpected conditions require scope adjustments.',
-    'Asbestos-containing materials may be present in Orange commercial buildings roofed before 1985. Built-up roofing, pipe insulation, and certain membrane adhesives from this era can contain asbestos fibers that require licensed abatement during removal. We test suspect materials before providing replacement proposals, because the abatement cost and regulatory requirements significantly impact project timeline and budget.',
-    'Equipment relocation during replacement is a coordination challenge unique to commercial projects. HVAC units, exhaust fans, and satellite equipment must be temporarily lifted or relocated to allow membrane installation beneath them, then repositioned on new curbs with fresh flashing details. This equipment coordination often involves the building\'s HVAC contractor, electrician, and telecommunications provider in addition to our roofing crew.'
+    '**Tear-off conditions** drive cost uncertainty on Orange commercial replacements, because saturated insulation, deteriorated decking, and rotted nailers stay hidden under an intact membrane until removal. A Newark Quality Roofing proposal scopes the assembly with an ASTM C1153 infrared moisture survey, which locates wet insulation as a warm anomaly after sunset and verifies each reading with a core cut, per ASTM and the NRCA.',
+    '**Tenant-occupied access** complicates replacements across Orange\'s heavy rental and investor-owned stock, because work over occupied units coordinates around the building\'s residents and New Jersey landlord–tenant entry-notice practice. A Newark Quality Roofing crew sequences the work, maintains weather protection over occupied sections, and documents conditions for the owner and any insurer.',
+    '**Rooftop equipment** on Valley Arts and Main Street commercial roofs sits in the membrane field, where HVAC units, exhaust fans, and other curbs are temporarily supported, re-flashed, and reset on the new membrane. A Newark Quality Roofing replacement integrates each penetration and curb into the new system to manufacturer specification.',
+    '**Designated-district properties** in Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — carry an added approval where a commercial building falls inside one. Regulated exterior roofing work there requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission, a binding approval separate from the construction permit; a property outside a designated district is not subject to a COA.',
   ],
   process: [
-    'Replacement planning begins with a building assessment that goes beyond the roof surface. We evaluate structural capacity for the proposed new system, survey all rooftop equipment for relocation planning, test for hazardous materials in existing roofing, and develop a phased construction plan that maintains building operations. The assessment produces a comprehensive project specification with accurate costs, timeline, and construction sequence.',
-    'Tear-off and construction proceed phase by phase. Each phase begins with debris protection for the building interior, continues with systematic removal of existing membrane, insulation, and damaged deck, includes all substrate repairs, and concludes with new insulation and membrane installation. Temporary waterproofing barriers at phase boundaries maintain weather protection for the occupied building sections. We document conditions found during tear-off and communicate any scope adjustments to the building owner in real time.',
-    'After membrane installation, we commission the complete system: testing all seams, verifying drainage to every drain and scupper, confirming flashing integrity at every penetration and perimeter detail, and flood-testing flat sections. Equipment is repositioned on new curbs with fresh membrane and flashing integration. The building owner receives as-built documentation, warranty certificates, a maintenance schedule, and photographic records of the completed installation.'
+    '**Newark Quality Roofing assesses the deck, the insulation, the drainage, and the NJ code triggers before quoting an Orange commercial replacement.** An ASTM C1153 infrared moisture survey maps the wet insulation under an intact membrane, verified by a core cut, per ASTM and the NRCA. On a commercial or multi-family building, a roof replacement requires a construction permit because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7 — filed through the City of Orange Township Building & Construction Division.',
+    '**Newark Quality Roofing matches the new system to the building, the drainage, and the Essex County climate from six membrane classes: EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal.** Material lifespan differs sharply: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. White PVC and TPO carry high solar reflectance measured per ASTM C1549, the cool-roof property relevant where, per the U.S. EPA, the heat-island effect makes daytime air temperatures in U.S. urban areas about 1–7°F higher than outlying areas.',
+    '**Newark Quality Roofing strips the covering to the deck, repairs the deck, builds tapered insulation to positive drainage, and installs the new membrane to manufacturer specification.** The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, when the roof is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries 2 or more layers, per N.J.A.C. 5:23-6.4, and tapered insulation builds at least ¼ inch per foot of slope to clear the ponding water the NRCA and ARMA count as a defect after 48 hours.',
   ],
   faqs: [
     {
-      question: 'How long does a commercial roof replacement take in Orange?',
-      answer: 'Timeline depends on building size and phasing requirements. A 5,000-square-foot Main Street commercial roof typically takes 7 to 10 working days. A 15,000-square-foot industrial building phased to maintain operations takes 3 to 4 weeks. We provide a detailed construction schedule during the proposal phase that accounts for weather contingencies and operational constraints.'
+      question: 'Do you need a permit for a commercial roof replacement in Orange, NJ?',
+      answer:
+        'A commercial or multi-family roof replacement in Orange requires a construction permit, because the ordinary-maintenance exemption covers only the repair of up to 25% of the total roof area in a 12-month period on those buildings, per N.J.A.C. 5:23-2.7. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4. Permits are administered by the City of Orange Township Building & Construction Division.',
     },
     {
-      question: 'What is the best replacement membrane for Orange commercial buildings?',
-      answer: 'TPO is our most common specification for Orange commercial replacements -- it provides excellent waterproofing, energy-efficient reflectivity, and 20 to 25-year warranties at competitive cost. PVC is preferred for buildings with grease or chemical exposure. EPDM is specified for larger industrial footprints where seam reduction is the priority. The choice depends on your building\'s specific conditions and use.'
+      question: 'Does a commercial roof replacement on a building in an Orange historic district need extra approval?',
+      answer:
+        'A regulated commercial roof replacement inside one of Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission under Development Regulations Ch. 210, Art. X. The COA is a binding approval separate from the construction permit, emergency repairs may proceed first, and a property outside a designated district is not subject to a COA. A National or State Register listing alone places no restriction, per the National Park Service.',
     },
     {
-      question: 'How much does commercial roof replacement cost in Orange?',
-      answer: 'Costs range from $8 to $15 per square foot installed depending on membrane type, insulation requirements, tear-off complexity, and any structural repairs needed. A typical 5,000-square-foot Main Street building runs $40,000 to $75,000 for complete replacement. Larger industrial buildings benefit from economy of scale at the lower end of the cost range.'
+      question: 'What is the best replacement membrane for an Orange commercial building?',
+      answer:
+        'The membrane matches the building, the drainage, and the use, from six classes: EPDM, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal. EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. PVC resists rooftop grease and chemical exposure, and white PVC and TPO carry high solar reflectance measured per ASTM C1549.',
     },
     {
-      question: 'Can I finance a commercial roof replacement in Orange?',
-      answer: 'Yes. We work with several commercial financing partners who offer terms ranging from 3 to 10 years. Financing allows building owners to spread the replacement cost over the roof\'s useful life, often with monthly payments lower than the accumulated annual repair costs they were previously spending on the aging system.'
+      question: 'How does an infrared moisture survey scope an Orange roof replacement?',
+      answer:
+        'An ASTM C1153 infrared moisture survey locates the wet insulation under an intact membrane, because wet insulation retains heat longer than dry insulation and reads as a warm anomaly after sunset, per ASTM and the NRCA. The survey requires a core cut to verify each anomaly, because it locates wet insulation, not the leak entry point, per ASTM C1153. The result scopes the saturated area before tear-off, on Valley Arts loft roofs and Main Street commercial blocks alike.',
     },
     {
       question: 'How much does commercial roof replacement cost in Orange, NJ?',
-      answer: 'Most commercial roof replacement projects in Orange range from $8–$16/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Single-ply membrane replacement in New Jersey runs $7.00 to $12.00 per square foot installed, with EPDM at $7.00 to $10.00 and TPO at $8.00 to $12.00 per square foot, per Josten Roofing NJ pricing and commercial cost guides. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, membrane type, tear-off layers, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial roof replacement in Orange NJ -- Main Street full tear-off, phased warehouse construction, lifecycle cost analysis, and membrane selection.',
+  metaDescription:
+    'Commercial roof replacement in Orange NJ — Valley Arts flat roofs, Main Street blocks, membrane selection, ASTM C1153 moisture survey. Free written estimate.',
   pricing: {
-    range: '$8–$16/sq ft',
-    note: 'full tear-off and replacement',
+    range: '$7.00–$12.00/sq ft installed',
+    note: 'Single-ply membrane replacement range in NJ per Josten Roofing and commercial cost guides; final cost depends on roof size, membrane type, tear-off layers, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s Valley Arts converted-loft, Main Street commercial, and two-/three-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for the owner, the property record, and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free commercial roof replacement estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for commercial roof replacement in Orange.',
+    urgencyNote: 'Replacing a membrane at the end of its service life limits leak damage to insulation, deck, and the units below.',
   },
 };

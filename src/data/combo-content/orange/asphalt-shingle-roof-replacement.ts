@@ -3,56 +3,70 @@ import type { ComboContent } from '../schema';
 export const orangeAsphaltShingleRoofReplacement: ComboContent = {
   serviceId: 'asphalt-shingle-roof-replacement',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing provides asphalt shingle roof replacement across the City of Orange Township, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert asphalt shingle roof replacement in Orange — with prices starting from $8,500–$18,000 and free estimates available today. Asphalt shingle roof replacement is the most common roofing project in Orange, serving the majority of residential homes throughout the Oakwood-Lincoln area, Valley neighborhood, and the more modest streets between Main Street and the city borders. Our [asphalt shingle roof replacement](/asphalt-shingle-roof-replacement) installations use premium architectural shingles from GAF, CertainTeed, and Owens Corning that provide a dramatic upgrade over the aging 3-tab or early architectural shingles they replace -- enhanced wind resistance, superior granule retention, improved dimensional appearance, and warranties extending 40 to 50 years.',
-    'Orange\'s diverse neighborhood conditions influence shingle product selection within our asphalt replacement program. Mountain-adjacent homes on the western side need impact-resistant Class 4 shingles that withstand branch impact and the accelerated wind loads from South Mountain terrain. Valley homes need shingles with algae-resistant granules and enhanced moisture tolerance for the area\'s high-humidity microclimate. Standard residential areas benefit from mainstream architectural shingles that provide the best balance of performance and value.',
-    'For Orange homebuyers replacing inherited aging roofs, asphalt shingle replacement offers the best combination of proven performance, wide color selection, competitive pricing, and contractor availability. Unlike specialty materials that limit the homeowner to a small pool of installers, architectural shingles can be serviced by any qualified roofer -- providing flexibility for future maintenance and warranty service. This practical consideration matters to Orange buyers making their first major home improvement investment. The same product flexibility benefits homeowners across [East Orange](/asphalt-shingle-roof-replacement-east-orange-nj).'
+    '**Newark Quality Roofing replaces 3-tab and architectural asphalt shingles across the City of Orange Township**, the work that ends an aged asphalt roof rather than patching one failed detail. The replacement strips the roof to the deck, repairs the sheathing, and installs an ice barrier, underlayment, and new shingles.',
+    '**Architectural shingles** suit much of Orange\'s older detached housing in Seven Oaks and its dense two- and three-family stock, where roughly half the buildings predate 1939. A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes the actual asphalt service life varies up to 40% with climate, install, and maintenance.',
+    '**Asphalt shingles** cover roughly 73% of US residential roofs per 2024 roofing-market data, the most common residential roof covering. A Newark Quality Roofing replacement matches the shingle line and wind rating to the building and the Essex County climate before tear-off, and documents the work for an owner, a tenant-occupied multi-family record, or an insurer.',
   ],
   challenges: [
-    'Product selection within the asphalt shingle category requires matching performance features to Orange\'s specific conditions. A homeowner comparing three shingle brands at similar price points may not realize that one has SBS-modified asphalt for flexibility in cold weather while another uses standard oxidized asphalt that becomes brittle below 40 degrees. Our recommendations match product performance characteristics to the specific Orange neighborhood conditions the home will face.',
-    'Color selection affects both aesthetics and thermal performance on Orange homes. Dark-colored shingles absorb more solar energy, increasing cooling costs in summer. Light-colored shingles reflect more heat but may not suit the architectural style of darker-toned homes. Cool-color shingle technology bridges this gap with products that appear dark but reflect infrared radiation, though these specialized products are not available in all lines and add to the per-square cost.',
-    'Warranty coverage varies dramatically between shingle manufacturers and product lines, and the marketing language can be confusing. A "50-year warranty" may cover only material defects in the first 10 years and prorate steeply after that. A "lifetime warranty" may be limited to the original homeowner and void upon sale. We explain warranty coverage in plain language during the proposal so Orange homeowners understand what their warranty actually provides.'
+    '**Tenant-occupied access** defines many Orange asphalt replacements, because the city runs roughly 76% renter-occupied, per U.S. Census QuickFacts, and dense with two- and three-family and investor-owned buildings. A Newark Quality Roofing job sets an access and staging plan and coordinates the work with New Jersey landlord-tenant notice before the crew reaches the roof.',
+    '**Multi-layer and water-soaked decks** surface at tear-off on Orange\'s older stock, where the NJ Rehabilitation Subcode requires full removal of the existing covering when the roof is water-soaked, carries 2 or more layers, or sits on wood shake, slate, clay, cement, or asbestos-cement tile, per N.J.A.C. 5:23-6.4. A replacement strips to bare sheathing and replaces deteriorated plywood or OSB.',
+    '**Converted-industrial buildings** in the Valley Arts area carry large flat and low-slope sections that asphalt shingles do not serve, because a low-slope roof drains too slowly for shingles and needs at least ¼ inch per foot of slope, per the NRCA and ARMA. A Newark Quality Roofing assessment matches a steep-slope section to asphalt shingles and a flat section to a membrane system.',
+    '**Permit triggers** split Orange\'s stock, because a complete re-roof of a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, while a commercial, multi-family, or attached building crossing the 25% rule, or any structural roof work, does require one, per the NJ Uniform Construction Code.',
   ],
   process: [
-    'Shingle selection consultation presents the homeowner with options at three price tiers: value (25-30 year shingles for budget-conscious projects), standard (30-year architectural shingles that represent the best performance-to-cost ratio), and premium (impact-resistant, enhanced-warranty shingles for maximum protection). Each tier includes product samples and specific cost projections for the home\'s roof area.',
-    'Installation follows manufacturer specifications with Orange-specific enhancements. Full tear-off exposes the deck for inspection and repair. Ice and water shield is applied at all eaves, valleys, walls, and penetrations. Synthetic underlayment covers the remaining deck area. Starter shingles, field shingles, hip and ridge cap shingles are installed in sequence with 6-nail patterns for enhanced wind resistance. New flashing at all junctions and new drip edge at eaves and rakes complete the system.',
-    'Quality inspection after installation verifies proper shingle alignment, nailing pattern compliance, seal strip engagement at all courses, flashing integration at every junction, and drainage function at all valleys and gutters. The homeowner receives manufacturer warranty registration, our workmanship warranty, and a maintenance guideline document that helps them protect their shingle investment for its full lifespan.'
+    '**Newark Quality Roofing inspects the deck, the attic ventilation, and the NJ code triggers, then sets a written estimate with the shingle options named.** The NRCA and ARMA specify 1 square foot of net-free vent area per 150 square feet of attic floor, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA, so an assessment corrects undersized ventilation as part of the replacement.',
+    '**Newark Quality Roofing strips the asphalt roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs the shingles to manufacturer specification.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line in ice-prone climates, per the International Residential Code, and Orange crosses the 32°F freezing point repeatedly through winter, driving freeze-thaw stress on the shingle seals.',
+    '**Newark Quality Roofing verifies the install against manufacturer specification, runs a magnet sweep for nails, and documents the completed roof.** Installing to manufacturer specification preserves the material warranty covering factory defects, separate from the written workmanship warranty backing the labor, per Owens Corning warranty guidance, and the timestamped documentation supports an owner record, a multi-family file, or an insurance claim.',
   ],
   faqs: [
     {
-      question: 'What is the best asphalt shingle brand for Orange homes?',
-      answer: 'We install GAF Timberline HDZ, CertainTeed Landmark, and Owens Corning Duration series as our primary recommendations. All three provide excellent performance in Orange conditions. GAF offers the broadest color selection. CertainTeed provides the strongest standard warranty. Owens Corning delivers consistent quality across product lines. We recommend based on the specific property\'s needs and the homeowner\'s priorities.'
+      question: 'Do I need a permit for an asphalt shingle roof replacement in Orange, NJ?',
+      answer:
+        'A complete re-roof of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building, replacing more than 25% of the total roof area in a 12-month period requires a permit, as does any structural roof work. The City of Orange Township Building & Construction Division administers permits and inspections.',
     },
     {
-      question: 'How long do asphalt shingles last in Orange?',
-      answer: 'Premium architectural shingles on properly ventilated Orange homes last 25 to 35 years in real-world conditions. South Mountain-adjacent homes with heavy tree debris exposure may see shorter lifespans unless maintained regularly. Valley homes with proper ventilation and moisture management achieve lifespans at the upper end of the range. The rated warranty period exceeds actual expected lifespan.'
+      question: 'How do you replace a roof on a tenant-occupied two- or three-family building in Orange?',
+      answer:
+        'A Newark Quality Roofing replacement sets an access and staging plan and coordinates the work with New Jersey landlord-tenant notice, because Orange runs roughly 76% renter-occupied, per U.S. Census QuickFacts, and dense with two- and three-family and investor-owned buildings. A crew stages around tenant parking and entrances, contains debris with ground tarps, runs a magnet sweep for nails at cleanup, and documents the completed roof for the owner and any property file. The detached one- and two-family ordinary-maintenance exemption does not extend to a multi-family building, which triggers a permit above the 25% rule.',
     },
     {
-      question: 'Should I choose impact-resistant shingles for my Orange home?',
-      answer: 'If your home is within two blocks of South Mountain Reservation, impact-resistant Class 4 shingles are worth the 15 to 20% premium. The resistance to branch impact reduces emergency repair frequency, and many insurance companies offer premium discounts of 5 to 15% for Class 4 roofing. For homes away from the mountain with minimal tree exposure, standard architectural shingles provide adequate performance at lower cost.'
+      question: 'What is the difference between 3-tab and architectural shingles?',
+      answer:
+        'A 3-tab asphalt shingle is a flat single-layer shingle that lasts 20 years and rates near 60 mph, while an architectural shingle is a thicker laminated shingle that lasts 30 years and warranties up to 130 mph with 6-nail installation. The 20-year and 30-year lifespans trace to the InterNACHI life-expectancy chart, and ASTM D3161 sets the asphalt wind classes, per ARMA and manufacturer guidance.',
     },
     {
-      question: 'How much does asphalt shingle replacement cost in Orange?',
-      answer: 'Standard architectural shingle replacement including full tear-off, ice shield, underlayment, and all flashings runs $10,000 to $16,000 for typical Orange colonials and Cape Cods. Premium impact-resistant shingle upgrades add $1,500 to $3,000. Victorian homes with complex rooflines at the higher end of the range. We provide exact project-specific pricing during the estimate visit.'
+      question: 'How long does an asphalt shingle roof last in Orange, NJ?',
+      answer:
+        'A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, with the actual service life varying up to 40% with climate, install, and maintenance. The 20-year and 30-year figures trace to the InterNACHI life-expectancy chart and the up-to-40% variance to the NRCA, and proper attic ventilation reduces the heat and moisture stress that shortens roof life, per the NRCA.',
     },
     {
-      question: 'How much does asphalt shingle roof replacement cost in Orange, NJ?',
-      answer: 'Most asphalt shingle roof replacement projects in Orange range from $8,500–$18,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a roof in one of Orange\'s historic districts need extra approval?',
+      answer:
+        'A regulated exterior roof replacement inside one of Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — requires a Certificate of Appropriateness. The City of Orange Township Historic Preservation Commission issues the COA under Development Regulations Ch. 210, Art. X, a binding approval separate from the construction permit. Emergency repairs may proceed first, a National or State Register listing alone imposes no restriction per the National Park Service, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
+    },
+    {
+      question: 'How much does an asphalt shingle roof replacement cost in Orange, NJ?',
+      answer:
+        'Asphalt shingle roof replacement in New Jersey runs $10,000–$25,000 for a typical home, against a 2025 national average near $10,000–$11,000, with the NJ range tracing to HomeAdvisor and Modernize cost data. Final cost depends on roof size, pitch, material, and access, and a multi-layer or water-soaked deck adds tear-off cost under N.J.A.C. 5:23-6.4. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Asphalt shingle roof replacement in Orange NJ -- GAF, CertainTeed, and Owens Corning options, impact-resistant for South Mountain, and Valley algae resistance.',
+  metaDescription:
+    'Asphalt shingle roof replacement in Orange NJ — 3-tab and architectural shingles for two-/three-family and detached homes. NJ-licensed, free written estimate.',
   pricing: {
-    range: '$8,500–$18,000',
-    note: 'asphalt shingle tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two- and three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free asphalt shingle roof replacement estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for asphalt shingle roof replacement in Orange.',
+    urgencyNote: 'Replacing an asphalt roof at the end of its service life limits interior and structural water damage.',
   },
 };

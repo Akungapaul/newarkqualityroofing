@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const orangeEpdmCommercialRoofing: ComboContent = {
   serviceId: 'epdm-commercial-roofing',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing provides EPDM commercial roofing in Orange**, installing and servicing **EPDM rubber membrane** on the flat roofs of Valley Arts converted-industrial lofts, Main Street commercial blocks, and multi-family buildings, as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert epdm commercial roofing in Orange — with prices starting from $6–$11/sq ft and free estimates available today. Commercial-grade EPDM roofing anchors the flat-roof infrastructure across Orange\'s industrial and institutional buildings, providing the proven waterproofing that larger roof footprints demand. While TPO has gained popularity on Main Street\'s smaller commercial properties, [EPDM commercial roofing](/epdm-commercial-roofing) remains the preferred choice for Orange\'s warehouses along Mitchell Street, the larger institutional buildings near Park Avenue, and any commercial structure where long-term durability outweighs reflectivity as the primary selection criterion.',
-    'Orange\'s industrial corridor along the eastern rail line features warehouse and light-manufacturing buildings with roof areas ranging from 5,000 to 20,000 square feet -- scales where EPDM\'s availability in large sheet sizes minimizes seam count and speeds installation. A single sheet of commercial EPDM can cover up to 10,000 square feet without a field seam, reducing the number of potential leak points to only the perimeter and penetration details. For Orange building owners who have spent years chasing leaks along seams in aging built-up roofing, this near-seamless coverage provides genuine peace of mind.',
-    'The institutional buildings that define Orange\'s civic identity -- churches along Park Avenue, the public library, community centers, and municipal facilities -- rely on EPDM\'s four-decade track record of reliable performance. These organizations cannot afford the disruption and unexpected costs of roof failures, and EPDM\'s predictable lifespan and minimal maintenance requirements fit the budgeting needs of institutions that plan years in advance. Our commercial EPDM installations for Orange institutions include extended warranty packages and scheduled maintenance programs that provide budgetary certainty. Institutional buildings in [Newark](/epdm-commercial-roofing-newark-nj) benefit from similar long-horizon EPDM planning.'
+    '**Newark Quality Roofing installs and services EPDM commercial roofing across Orange** — mechanically attached, fully adhered, and ballasted rubber membrane on the converted-industrial, mixed-use, and multi-family buildings of a dense township, as a New Jersey Home Improvement Contractor.',
+    '**EPDM commercial roofing** seals the flat and low-slope roof in a single-ply rubber membrane, and EPDM lasts 15 to 25 years, per the InterNACHI life-expectancy chart, with a service-life study attributed via Progressive Materials placing it at 25 to 30 years. EPDM outlasts TPO at 7 to 20 years and modified bitumen at 20 years on the same chart.',
+    '**Rubber membrane** caps the converted industrial and loft buildings of the Valley Arts District near the Highland Avenue station, where former factory footprints carry large flat roofs with parapets and internal drainage. Orange runs dense with two- and three-family and investor-owned buildings, where roughly 76% of the city rents, per U.S. Census QuickFacts, so a flat-roof failure threatens multiple dwelling units below.',
+    '**Single-ply rubber** fails most often at the splice seams, with membrane shrinkage and ponding-water stretching as secondary failure modes, per NRCA technical guidance, so a Newark Quality Roofing installation seam-bonds the membrane and engineers positive drainage before the roof carries water. The Main Street commercial corridor and the mixed-use blocks downtown carry these membranes over storefronts and the dwelling units above.',
   ],
   challenges: [
-    'Orange\'s warehouse and industrial buildings along Mitchell Street and the rail corridor present structural deck conditions that complicate EPDM installation. Many of these buildings date to the mid-20th century with steel or concrete decks that have deteriorated over time -- corroded fastener points in steel decks, spalled concrete surfaces, and insulation that has compressed or absorbed moisture from decades of built-up roofing leaks. Proper EPDM installation requires a stable, dry substrate, which means these underlying conditions must be remedied before membrane work begins.',
-    'Rooftop equipment density on Orange\'s commercial buildings adds complexity to EPDM installation. HVAC units, exhaust fans, plumbing vents, electrical conduits, and satellite equipment create dozens of penetration points that each require custom EPDM boot details and sealant work. On a typical Orange institutional building, 20 to 40 penetrations must be individually detailed -- each one a potential future leak if not executed correctly. Our crews spend as much time on penetration details as on field membrane installation.',
-    'Wind uplift forces on Orange\'s larger commercial roofs are significant, particularly on the taller buildings along Park Avenue and Main Street where the roof sits 30 to 40 feet above grade. Building height combined with Orange\'s position near South Mountain creates wind loads that exceed standard suburban calculations. Our EPDM attachment engineering accounts for building height, exposure category, and the topographic wind speed-up factor from the mountain terrain to specify attachment patterns that resist uplift during major storm events.'
+    '**Tenant-occupied buildings** define the EPDM challenge in Orange, because roughly 76% of the city rents, per U.S. Census QuickFacts, so a flat-roof failure on a two- or three-family or an apartment block threatens multiple dwelling units below. A Newark Quality Roofing job coordinates roof access with the owner and notice to tenants under New Jersey landlord-tenant entry rules before any tear-off begins.',
+    '**Ponding water** standing on a low-slope Orange roof more than 48 hours counts as a defect that stretches and ages the membrane, because a flat roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA. The older Valley Arts factory and loft decks hold standing water where minimal original slope and decades of deflection leave it, so a Newark Quality Roofing installation sets tapered insulation to positive drainage before the membrane goes down.',
+    '**Membrane shrinkage** pulls the rubber away from perimeters, curbs, and penetrations as a secondary EPDM failure mode, per NRCA technical guidance, opening the flashing details where water enters. A Newark Quality Roofing repair flashes the curbs, penetrations, and perimeters with manufacturer-approved EPDM components and sizes the wind-uplift attachment against the NJ design wind speed per ASCE 7 as adopted by the NJ Uniform Construction Code.',
+    '**Wind and debris** load the larger Valley Arts and Main Street roofs, because Orange sits at the eastern foot of the first Watchung ridge and the wooded West Orange high ground to the west, with the city\'s own dense street trees, drive branch debris onto flat membranes. A Newark Quality Roofing installation sizes mechanical, adhered, or ballasted attachment to the building height and exposure under ASCE 7 as adopted by the NJ Uniform Construction Code.',
   ],
   process: [
-    'Commercial EPDM installation in Orange begins with structural engineering assessment. We evaluate the existing deck condition, confirm load capacity for the new membrane and insulation system, and identify any structural repairs needed before roofing work begins. For warehouse buildings with steel decks, we test fastener pull-out values to verify that mechanical attachment will hold the specified wind uplift loads. For concrete-deck buildings, we assess surface condition and specify primers or leveling compounds as needed.',
-    'Installation proceeds in phases designed around the building\'s operational schedule. For active warehouses and manufacturing facilities, we isolate work zones with temporary waterproof barriers that keep the occupied sections of the building protected while work progresses across the roof. EPDM sheets are positioned, adhered to the insulation substrate, and seamed using manufacturer-approved adhesives and primers. Each seam is probed and tested before the next sheet is positioned.',
-    'After field membrane installation, penetration details and perimeter terminations receive focused attention. Each pipe boot, equipment curb, and vent penetration is individually detailed with pre-formed EPDM components and compatible sealants. Perimeter edge metal and wall terminations are installed with stainless steel fasteners and compression bars that resist wind uplift at the roof\'s most vulnerable edges. The completed system receives a final inspection including seam testing, drainage verification, and photographic documentation for the building owner\'s records.'
+    '**Building assessment** opens the EPDM project, where a Newark Quality Roofing technician inspects the deck and the existing membrane and designs the insulation, attachment, and drainage slope for the assembly. The wind-uplift attachment — mechanically attached, fully adhered, or ballasted — sizes against the NJ design wind speed per ASCE 7 as adopted by the NJ Uniform Construction Code.',
+    '**Permit and project planning** clears the NJ triggers and phases the work to keep tenants protected, because repairing more than 25% of the total roof area in a 12-month period on a commercial or multi-family building requires a construction permit under N.J.A.C. 5:23-2.7, filed with the City of Orange Township Building & Construction Division. In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission (Development Regulations Ch. 210, Art. X), a binding approval separate from the construction permit; emergency repairs may proceed first, and a property outside a designated district is not subject to a COA.',
+    '**Tear-off or recover and insulation** strips the failed membrane in managed sections or prepares a sound roof for recover, with complete removal required by N.J.A.C. 5:23-6.4 when the covering is water-soaked or already carries 2 or more layers, then sets continuous rigid insulation in staggered layers and tapered insulation to at least ¼ inch per foot of slope, per NRCA and ARMA drainage guidance. A crew sequences each section to keep the occupied units below protected through the work.',
+    '**Membrane and seam bonding** sets the EPDM with the specified attachment method and bonds the splice seams with primer, splice tape, and lap adhesive to manufacturer specification, the seam construction that addresses the dominant EPDM failure mode, per NRCA technical guidance. A Newark Quality Roofing lead flashes the curbs, penetrations, and perimeters with manufacturer-approved EPDM components, verifies the seams and drainage, and registers the manufacturer system warranty alongside a written workmanship warranty on the labor.',
   ],
   faqs: [
     {
-      question: 'Why choose EPDM over TPO for an Orange warehouse roof?',
-      answer: 'EPDM excels on large-footprint warehouse roofs because it is available in sheet sizes up to 10,000 square feet, minimizing field seams and potential leak points. EPDM also has a longer proven track record -- 40 years of field performance data compared to TPO\'s 20 years. For Orange warehouse owners who prioritize long-term reliability over reflectivity, EPDM is the more conservative and proven choice.'
+      question: 'Do I need a permit for a commercial or multi-family EPDM roof in Orange?',
+      answer:
+        'A commercial, multi-family, or attached building requires a construction permit when roof work exceeds 25% of the total roof area in a 12-month period, because the ordinary-maintenance exemption stops at that threshold, per N.J.A.C. 5:23-2.7. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4. The City of Orange Township Building & Construction Division issues the permit and inspects the work.',
     },
     {
-      question: 'How long does commercial EPDM roofing last in Orange?',
-      answer: 'Commercial EPDM roofing lasts 25 to 35 years on Orange buildings with standard maintenance. The membrane\'s rubber composition handles thermal cycling without cracking or splitting. Annual inspections to check seam integrity, penetration sealants, and edge terminations keep the system performing at its design capacity throughout its lifespan.'
+      question: 'Does an EPDM roof on a building in an Orange historic district need extra approval?',
+      answer:
+        'Yes, inside a designated district. In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission under Development Regulations Ch. 210, Art. X, a binding approval separate from the construction permit. Emergency repairs may proceed first, a National or State Register listing alone imposes no restriction, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
-      question: 'Can you install EPDM on an Orange warehouse without shutting down operations?',
-      answer: 'Yes. We phase EPDM installations on active facilities to maintain continuous operations. Temporary waterproof barriers isolate the work zone from occupied sections, and we sequence work to complete each phase before exposing the next section. Material staging and debris removal are scheduled around loading dock and shipping schedules to avoid conflicts.'
+      question: 'How long does a commercial EPDM roof last on an Orange building?',
+      answer:
+        'Commercial EPDM rubber membrane lasts 15 to 25 years, per the InterNACHI life-expectancy chart, and a service-life study attributed via Progressive Materials places EPDM at 25 to 30 years. EPDM outlasts TPO at 7 to 20 years and modified bitumen at 20 years on the same chart, with seam separation the failure mode that ends EPDM service, per NRCA technical guidance.',
     },
     {
-      question: 'What maintenance does commercial EPDM require on Orange buildings?',
-      answer: 'Annual inspections of seams, penetrations, and edge details are the primary maintenance requirement. We also recommend semi-annual debris clearing for buildings near South Mountain where leaf and branch accumulation can block drains. Minor repairs -- reseal a pipe boot, patch a small puncture -- are inexpensive and prevent small issues from becoming leaks that damage inventory or equipment below.'
+      question: 'Can my Orange two- or three-family or apartment building stay occupied during EPDM re-roofing?',
+      answer:
+        'Yes. A phased tear-off strips and re-covers the roof one section per work shift, so no dwelling unit sits exposed overnight. A Newark Quality Roofing crew coordinates roof access, delivery scheduling, and staging with the owner and notice to tenants under New Jersey landlord-tenant entry rules before work begins, which matters in Orange because roughly 76% of the city rents, per U.S. Census QuickFacts.',
     },
     {
-      question: 'How much does epdm commercial roofing cost in Orange, NJ?',
-      answer: 'Most epdm commercial roofing projects in Orange range from $6–$11/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Why choose EPDM over TPO for an Orange warehouse or loft building?',
+      answer:
+        'EPDM rubber membrane records 15 to 25 years on the InterNACHI life-expectancy chart, while TPO records 7 to 20 years on the same chart, and EPDM carries a longer proven track record on large-format flat roofs. EPDM fails most often at the splice seams and TPO at the welded seams, per NRCA technical guidance, and a Newark Quality Roofing assessment matches the membrane to the building, the rooftop equipment, and the Essex County climate.',
+    },
+    {
+      question: 'How much does commercial EPDM roofing cost in Orange, NJ?',
+      answer:
+        'EPDM commercial roofing in New Jersey runs $7.00 to $10.00 per square foot installed, per Josten Roofing NJ pricing, with flat-roof repair at $2.50 to $10.00 per square foot, per HomeGuide cost data. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, attachment method, insulation, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'EPDM commercial roofing in Orange NJ -- warehouse membranes, institutional buildings, large-format installation, and wind-rated attachment for South Mountain.',
+  metaDescription:
+    'EPDM commercial roofing in Orange NJ — rubber membrane for Valley Arts loft, Main Street, and multi-family flat roofs. NJ-licensed, free written estimate.',
   pricing: {
-    range: '$6–$11/sq ft',
-    note: 'EPDM rubber membrane system',
+    range: '$7.00–$10.00/sq ft installed',
+    note: 'EPDM commercial roofing in New Jersey runs $7.00 to $10.00 per square foot installed per Josten Roofing NJ pricing, with flat-roof repair at $2.50 to $10.00 per square foot per HomeGuide; final cost depends on roof size, attachment method, insulation, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s Valley Arts converted-loft, Main Street commercial, and two-/three-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'EPDM splice seams bonded to manufacturer specification, with workmanship documented in photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free epdm commercial roofing estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for EPDM commercial roofing in Orange.',
+    urgencyNote: 'Open splice seams and ponding water spread membrane failure across a flat roof, so addressing them early limits interior and structural water damage across the units below.',
   },
 };

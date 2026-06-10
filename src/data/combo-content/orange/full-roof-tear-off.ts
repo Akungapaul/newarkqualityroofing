@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const orangeFullRoofTearOff: ComboContent = {
   serviceId: 'full-roof-tear-off',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing provides full roof tear-off across Orange**, stripping every existing roof layer to the deck, repairing the sheathing, and installing a new underlayment-and-cover system as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert full roof tear off in Orange — with prices starting from $9,000–$26,000 and free estimates available today. Full roof tear-off is the foundation of every quality roof replacement in Orange, removing all existing roofing material down to the structural deck to expose and address the hidden conditions that overlay installations leave buried. On Orange\'s aging housing stock, tear-off regularly reveals deteriorated deck sections, inadequate ventilation, missing ice and water shield, and structural damage from decades of deferred maintenance. Our [full roof tear-off](/full-roof-tear-off) process treats the exposed deck as a diagnostic opportunity, identifying and correcting every substrate condition before new roofing material conceals it for another 25 to 30 years.',
-    'Orange\'s tight-lot construction makes tear-off logistics more complex than in suburban communities. With homes three to five feet apart, debris from tear-off cannot simply cascade off the roof edge -- it would damage siding, landscaping, and property on the adjacent lot. Our Orange tear-off crews use roof-mounted debris chutes directed into roll-off containers positioned on driveways, with ground-level tarps protecting the gap between buildings. Magnetic nail sweepers are deployed after every work session because roofing nails in the narrow side yards between Orange homes create a hazard for both homeowners.',
-    'For Orange homes with multiple existing roof layers -- a common condition on pre-1980 properties where overlay was installed over the original roof -- tear-off is not optional. New Jersey building code limits roof assemblies to two layers of asphalt shingles. Beyond code compliance, the weight of multiple layers stresses aging roof framing, traps moisture between layers that accelerates deck rot, and prevents new shingles from laying flat and sealing properly. Tearing off to the deck is the only way to install a roof system that will perform to its full design life. Similar multi-layer conditions require mandatory tear-off on homes across [East Orange](/full-roof-tear-off-east-orange-nj).'
+    '**Newark Quality Roofing provides full roof tear off across Orange, stripping every existing roof layer to the deck, repairing the sheathing, then installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+    '**Full roof tear off** strips the asphalt, underlayment, and any overlay layers a roof carries, exposing the roof deck for the inspection a roof-over cannot provide. On Orange\'s two- and three-family and investor-owned buildings — roughly half the housing stock dates before 1939 — the strip frequently peels back several generations of covering down to the original deck.',
+    '**A full roof tear off** lets a roofer inspect the roof deck, repair any damage, and improve deck attachment to the structure, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI. On Orange\'s dense, largely renter-occupied core, that exposure catches the hidden deck damage decades of layered roofing conceal.',
+    '**The deck** dictates the rebuild on an Orange tear-off. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, for a water-soaked deck; a wood-shake, slate, clay, cement, or asbestos-cement tile covering; or a roof already carrying 2 or more layers, per N.J.A.C. 5:23-6.4, so a full tear-off is the code-mandated path on those roofs across Seven Oaks, the Main Street corridor, and the Valley Arts district.',
   ],
   challenges: [
-    'Debris containment on tight lots dominates tear-off logistics in Orange. Standard suburban tear-off techniques -- raking debris off the roof edge into ground-level bins -- risk damaging the adjacent building when properties are only three feet apart. Our crews use controlled debris removal through roof-mounted chutes, hand-carrying debris in buckets in the tightest conditions, and always laying protective tarps along the neighbor\'s wall to catch any material that escapes the primary containment system.',
-    'Multi-layer tear-off on older Orange homes generates significantly more debris than single-layer removal, requiring larger dumpster capacity and more labor hours. A two-layer tear-off on a 2,000-square-foot roof produces approximately 6 to 8 tons of debris compared to 3 to 4 tons for a single layer. Our estimates account for the actual layer count determined during pre-construction inspection, preventing the cost surprises that homeowners experience when a contractor discovers unexpected layers during active tear-off.',
-    'Hidden deck conditions discovered during tear-off require immediate decision-making while the roof is open to weather. Rotted sheathing, damaged rafters, or active insect infestations must be addressed before new roofing goes down, but the exposed deck is vulnerable to rain. Our crews carry deck repair materials on every Orange tear-off project and can complete structural repairs same-day, minimizing the weather exposure window.'
+    '**The commercial and multi-family permit path** governs many Orange tear-offs, because Orange is about 76% renter-occupied, per U.S. Census QuickFacts, and dense with two- and three-family and investor-owned buildings. A roof replacement on a commercial, multi-family, or attached building requires a construction permit through the City of Orange Township Building & Construction Division, per N.J.A.C. 5:23-2.7.',
+    '**Tenant-occupied access** shapes a tear-off on Orange\'s rental stock, because much of the two- and three-family inventory is landlord-owned and occupied during the work. New Jersey landlord–tenant practice calls for advance notice before entry, so the crew schedules the strip, the curbside container, and the disposal window around tenant access and parking.',
+    '**Structural discoveries** expand a tear-off scope once the deck is exposed. Orange buildings framed before 1940 commonly carry skip sheathing — boards spaced apart rather than butted — and modern roofing requires solid decking, so the crew overlays plywood or OSB. Sheathing that has rotted soft, delaminated, or swollen cannot grip a roofing nail and is replaced, per ARMA nail-application guidance and InterNACHI.',
+    '**Converted-industrial flat roofs** in the Valley Arts district carry large low-slope membranes over former loft and factory buildings, where a tear-off removes the existing membrane to the deck before a new low-slope system goes down. A low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water held more than 48 hours counted as a defect, per the NRCA and ARMA.',
   ],
   process: [
-    'Before tear-off begins, we install comprehensive site protection: ground tarps around the building perimeter, debris chute from the roof edge to the dumpster, siding protection panels on the adjacent building, landscaping covers, and window protection at any openings near the work zone. For tight-lot Orange properties, we coordinate with adjacent homeowners to access their side of the gap for tarp installation.',
-    'Tear-off proceeds systematically from the ridge down to the eaves, with crews working in sections that can be weatherproofed by end of day if needed. Each section of exposed deck is immediately inspected, with deteriorated areas marked for replacement. Nails are pulled rather than driven through the deck to maintain structural integrity. After all roofing material is removed, the entire deck receives a systematic walk-through with probing to confirm sound substrate across the full surface.',
-    'Deck repairs are completed before any new roofing material is installed. Rotted sheathing sections are cut out and replaced with matching-thickness plywood. Damaged rafter tails are sistered with new lumber. Any structural deficiencies discovered during tear-off are addressed to provide the solid, flat, dry substrate that the new roof system requires. The completed deck is swept clean and receives the first layer of new underlayment before the crew leaves for the day.'
+    '**Pre-tear-off planning** for an Orange project confirms the permit path with the City of Orange Township Building & Construction Division and gives tenant-occupied buildings advance notice. The crew schedules curbside container placement and hauler timing, then documents the existing roof and any adjacent edge with photographs before any work begins.',
+    '**Tear-off day** opens with perimeter protection — plywood over landscaping, tarps over walkways, magnetic sweepers at ground level, and debris nets along the street-facing edge. The crew strips in sections, inspecting each exposed deck section for the failing-deck signs InterNACHI names: daylight through the deck, soft or spongy wood, sagging between rafters, and delaminated plywood or swollen OSB edges.',
+    '**Deck repair** follows the inspection, replacing deteriorated sheathing that cannot hold a roofing nail before any new covering goes down, per ARMA nail-application guidance. Saturated OSB is re-decked rather than dried, because it swells and delaminates irreversibly while plywood can partly recover, per InterNACHI.',
+    '**The new roof system** goes down in strict sequence: an ice barrier from the eave to a point at least 24 inches inside the exterior wall line per the IRC R905.1.2 provision, synthetic underlayment across the repaired deck, drip edge, starter strip, field shingles upslope, then ridge vent and ridge cap, or a manufacturer-approved membrane assembly on a low-slope Valley Arts roof. The install meets manufacturer specification to keep the material warranty intact, and the work is documented with photographs for owner and insurer records.',
   ],
   faqs: [
     {
-      question: 'Can I overlay new shingles instead of tearing off in Orange?',
-      answer: 'Overlay is only an option if you currently have a single layer of shingles in acceptable condition with a sound deck beneath. New Jersey code prohibits more than two shingle layers. Even when overlay is technically permitted, we recommend tear-off because it exposes deck conditions, allows proper ice and water shield installation, and produces a roof system that lasts longer and performs better than an overlay.'
+      question: 'Why is a full tear-off recommended over a roof-over for an Orange home?',
+      answer:
+        'A full tear-off strips the roof to the deck so the sheathing is inspected and repaired, while a roof-over installs a new layer over the existing covering and hides any deck rot underneath. A tear-off lets a roofer inspect the deck, repair damage, and improve deck attachment, per the Asphalt Roofing Manufacturers Association and InterNACHI — exposure that matters on Orange\'s older two- and three-family and investor-owned stock, where layered roofing hides deck damage.',
     },
     {
-      question: 'How do you protect my Orange neighbor\'s property during tear-off?',
-      answer: 'We install protective panels along the adjacent building\'s siding, lay tarps in the gap between buildings, use roof-mounted debris chutes rather than edge-raking, and deploy magnetic nail sweepers after every work session. We coordinate with your neighbor before work begins to address any concerns and ensure their property is protected throughout the project.'
+      question: 'When does New Jersey code require a full roof tear off?',
+      answer:
+        'N.J.A.C. 5:23-6.4 requires complete removal of the existing covering in 3 conditions: a water-soaked or deteriorated deck, a wood-shake, slate, clay, cement, or asbestos-cement tile covering, or a roof already carrying 2 or more layers. The NJ Rehabilitation Subcode adds wood shake to the IRC Section R908.3.1.1 removal list, per the NJ Uniform Construction Code — common on Orange\'s pre-1939 homes carrying original slate or wood beneath later asphalt.',
     },
     {
-      question: 'How long does a full tear-off take on an Orange home?',
-      answer: 'Tear-off and deck inspection typically take one full day for a standard Orange colonial or Cape Cod. Victorian homes with complex rooflines and multiple layers may require one and a half to two days. Deck repairs, if needed, add time based on the extent of damage discovered. New roofing installation begins immediately after the deck is prepared.'
+      question: 'Do I need a permit for a full roof tear off in Orange, NJ?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- and two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit. A commercial, multi-family, or attached building — a large share of Orange\'s stock — or any structural roof work does require a permit, administered by the City of Orange Township Building & Construction Division. The exemption covers the roof covering, not rafters or trusses, per the NJ Uniform Construction Code.',
     },
     {
-      question: 'What happens if it rains during tear-off?',
-      answer: 'We monitor weather forecasts closely and plan tear-off for confirmed dry weather windows. If unexpected rain threatens during an active tear-off, our crews carry emergency tarps that can waterproof the exposed deck within 30 minutes. We never leave an exposed deck overnight without weather protection, and we will not begin tear-off when rain is forecast within 24 hours.'
+      question: 'My building is in an Orange historic district — does that change a tear-off?',
+      answer:
+        'Regulated exterior roofing work in Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission. The COA is binding under Development Regulations Ch. 210, Art. X and separate from the construction permit. Emergency repairs may proceed first, a National or State Register listing alone imposes no restriction per the National Park Service, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
-      question: 'How much does full roof tear off cost in Orange, NJ?',
-      answer: 'Most full roof tear off projects in Orange range from $9,000–$26,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What happens if the tear-off reveals a rotted deck under the old roof?',
+      answer:
+        'A full tear-off exposes the deck, and Newark Quality Roofing replaces sheathing that has rotted soft, delaminated, or swollen, because roofing nails penetrate at least ¾ inch into the deck to grip. Sheathing that cannot hold a nail is replaced, per ARMA nail-application guidance, and saturated OSB is re-decked rather than dried because it swells and delaminates irreversibly, per InterNACHI. The estimate carries a contingency for typical deck repair, and significant structural work is quoted separately for your approval.',
+    },
+    {
+      question: 'How much does a full roof tear off cost in Orange, NJ?',
+      answer:
+        'Old-roof removal runs $1–$5 per square foot by material weight, and a New Jersey roof replacement costs $10,000–$25,000 for a typical home with the tear-off included. Removal runs $1–$3 per square foot for shingles and $2–$5 for heavier slate or tile, per HomeGuide national data, and the NJ replacement range traces to HomeAdvisor and Modernize. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Full roof tear-off in Orange NJ -- tight-lot debris containment, multi-layer removal, deck inspection and repair, and neighbor property protection.',
+  metaDescription:
+    'Full roof tear off in Orange NJ: complete strip to the deck, sheathing repair, and new underlayment-and-cover for two- and three-family homes and flat roofs.',
   pricing: {
-    range: '$9,000–$26,000',
-    note: 'complete tear-off and replacement',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free full roof tear off estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for full roof tear off in Orange.',
+    urgencyNote: 'A tear-off exposes the deck so hidden rot is found and repaired before the new roof goes down.',
   },
 };

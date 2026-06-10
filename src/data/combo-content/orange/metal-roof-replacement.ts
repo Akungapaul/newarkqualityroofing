@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const orangeMetalRoofReplacement: ComboContent = {
   serviceId: 'metal-roof-replacement',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing replaces roofs with new metal across Orange and Essex County, installing standing-seam, metal-panel, or metal-shingle systems** on two-/three-family homes, Seven Oaks detached houses, and Valley Arts loft buildings as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert metal roof replacement in Orange — with prices starting from $15,000–$35,000 and free estimates available today. Metal roof replacement in Orange upgrades homes from aging asphalt shingle systems to standing seam or metal panel roofing that lasts 40 to 60 years with virtually zero maintenance. Our [metal roof replacement](/metal-roof-replacement) projects appeal to Orange homeowners who are tired of the 20 to 25-year shingle replacement cycle and want a permanent roofing solution -- particularly those on South Mountain\'s hillside where branch impacts, high winds, and debris loading destroy conventional shingles faster than their rated lifespan suggests.',
-    'The aesthetics of metal roofing have evolved far beyond the corrugated barn-roof image. Modern standing seam panels in factory-applied colors -- deep charcoal, forest green, matte black, bronze -- complement the architectural character of Orange\'s Victorian homes on Scotland Road and the traditional colonials throughout the city. Metal\'s clean lines and sharp shadow details add a refined quality that distinguishes a home on the block. Several Orange homeowners have chosen metal specifically for its visual impact alongside its performance advantages.',
-    'Metal roofing\'s total cost of ownership outperforms asphalt shingles when measured across the building\'s remaining life rather than just the initial installation. An Orange homeowner who would need two shingle replacements over the next 50 years -- approximately $24,000 to $36,000 combined -- can invest $18,000 to $28,000 in metal roofing that needs only one installation and no replacement during that same period. The financial argument is strongest for homeowners planning to stay in their Orange home long-term. Similar lifecycle calculations favor metal for homeowners in [West Orange](/metal-roof-replacement-west-orange-nj).'
+    'Newark Quality Roofing installs three metal roof systems across Orange: **standing-seam metal**, **exposed-fastener metal panel**, and **metal shingle**. Metal roof replacement strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-metal system.',
+    '**Standing-seam metal** lasts 40 to 70 years and conceals the fasteners under raised seams, per This Old House, while metal panel and metal shingle carry the fasteners in the weather plane and last 40 to 80 years, per the InterNACHI life-expectancy chart, against 20 years for 3-tab asphalt and 30 years for architectural. A Newark Quality Roofing replacement matches the system to the roof slope and the building type before tear-off.',
+    '**Metal panel and metal shingle** suit Orange\'s dense two-/three-family and older Seven Oaks detached stock, where a 40-to-80-year metal roof often outlasts a landlord\'s or homeowner\'s tenure, per the InterNACHI life-expectancy chart. Standing-seam runs continuous from ridge to eave with no mid-slope joints, the seams that leak first on a shorter-panel roof.',
+    '**Three metal systems** fit different roofs in Orange: continuous standing-seam panels on steep-slope homes, exposed-fastener panel on agricultural-profile and accessory roofs, and interlocking metal shingle that mimics asphalt, slate, or cedar while carrying a metal service life, per the InterNACHI life-expectancy chart. Large flat and low-slope membrane roofs on Valley Arts converted-industrial buildings follow a separate commercial path.',
   ],
   challenges: [
-    'Metal roof installation on Orange\'s tight lots generates noise during installation that affects adjacent properties more than standard shingle work. Panel fastening and trim installation produce sharp metallic sounds that carry between closely spaced buildings. We schedule metal installation during standard daytime work hours, notify adjacent homeowners in advance, and complete the noisiest operations -- panel cutting and edge metal fastening -- in concentrated work sessions rather than spreading them across the full day.',
-    'Thermal expansion in metal panels must be accommodated by the attachment system. Standing seam clips allow panels to slide as they expand and contract with temperature changes, but the clips must be properly positioned for the panel length and expected temperature range. Improper clip spacing causes oil-canning -- a visible waviness in the panel surface -- that is cosmetically objectionable even though it does not affect performance. Our installers calculate clip placement for each panel based on Orange\'s specific temperature range.',
-    'Metal roofing interacts with existing galvanic-sensitive materials on Orange homes. Copper gutters, lead plumbing vents, and certain types of chimney flashing can corrode when in direct contact with dissimilar metals. Our metal roof installations include isolation barriers at all material interfaces to prevent galvanic corrosion, and we specify compatible gutter and flashing materials that can contact the roof panels safely.'
+    '**Thermal expansion** is the defining metal-roof challenge in Orange, because a metal panel over 100 feet needs an engineered expansion zone, per the NRCA, and improper clip spacing produces oil-canning. A Newark Quality Roofing install details the expansion zones before fabrication.',
+    '**Tenant-occupied access** governs many Orange metal replacements, because the city is roughly 76% renter-occupied and dense with two-/three-family and investor-owned buildings, so a tear-off on an occupied building coordinates entry under New Jersey landlord–tenant notice. A Newark Quality Roofing job sets an access and staging plan before work begins.',
+    '**Galvanic corrosion** affects metal roofs that contact dissimilar materials on older Orange homes, where copper gutters, lead plumbing vents, and aged chimney flashing meet new steel or aluminum panels. A Newark Quality Roofing install adds isolation barriers at every material interface and specifies compatible gutter and flashing stock.',
+    '**Deck condition** surfaces at tear-off on Orange\'s older stock, where roughly half the housing predates 1939, because metal panels amplify any undulation in the substrate that shingles would conceal, and a tear-off exposes deteriorated plywood or OSB that the NJ Rehabilitation Subcode requires removing under N.J.A.C. 5:23-6.4. A Newark Quality Roofing crew replaces rotted sheathing before the metal goes on.',
   ],
   process: [
-    'Metal roof replacement begins with structural assessment to confirm the existing framing supports the new system. Metal roofing is lighter than asphalt shingles -- typically 1 to 1.5 pounds per square foot compared to 2.5 to 3.5 for architectural shingles -- so structural capacity is rarely a concern. The assessment focuses on the roof deck surface flatness, because metal panels amplify any undulations in the substrate that shingle installations would conceal.',
-    'After tear-off and deck repair, a synthetic underlayment is applied across the full deck surface. Panel installation begins at the eave with a starter detail that includes the drip edge and gutter apron. Each standing seam panel runs continuously from eave to ridge without mid-slope joints, eliminating the horizontal seams that are potential leak points on shorter-panel systems. Panels are engaged, clipped, and seamed mechanically or by hand depending on the profile.',
-    'Trim details complete the installation: ridge cap, eave drip, gable trim, valley pans, and penetration collars are all fabricated from matching material. Every trim piece includes thermal expansion provisions that allow movement without binding or distortion. The completed installation receives a comprehensive inspection for panel engagement, clip spacing, trim alignment, and drainage function before the homeowner walkthrough.'
+    '**Newark Quality Roofing assesses the roof deck, the roof slope, and the NJ code triggers before quoting a metal roof replacement in Orange.** A full tear-off exposes the deck for inspection and replacement of plywood or OSB rotted under the old roof, the work the NJ Rehabilitation Subcode requires when the existing covering is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers, per N.J.A.C. 5:23-6.4.',
+    '**Newark Quality Roofing matches the metal system to the roof from three classes: standing-seam metal, exposed-fastener metal panel, and metal shingle.** Standing-seam metal lasts 40 to 70 years and conceals the fasteners under raised seams, per This Old House, while metal panel and metal shingle carry the fasteners in the weather plane and last 40 to 80 years, per the InterNACHI life-expectancy chart. A reflective metal roof stays more than 50°F cooler than a conventional roof on a sunny summer afternoon, per the U.S. Department of Energy, cutting peak summer cooling demand while carrying a winter heating offset.',
+    '**Newark Quality Roofing strips the roof to the deck, installs a high-temperature underlayment and an ice barrier, and installs the metal to manufacturer specification with engineered expansion zones on long runs.** The IRC ice-barrier provision (R905.1.2) requires a self-adhering ice barrier from the eave to a point at least 24 inches inside the exterior wall line, per the International Residential Code, and a metal panel exceeding 100 feet needs an expansion zone, per the NRCA. Installing to manufacturer specification preserves the material warranty, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'Is metal roofing noisy during rain on Orange homes?',
-      answer: 'With proper underlayment and insulation, metal roofing is comparable in rain noise to asphalt shingles. The solid roof deck and underlayment beneath the metal panels dampen rain impact noise. Attic insulation further reduces sound transmission. Homeowners who switch from shingles to metal on Orange homes typically report no perceptible difference in interior rain noise.'
+      question: 'How long does a metal roof last in Orange, NJ?',
+      answer:
+        'A metal roof lasts 40 to 80 years, with copper at 70-plus years and standing-seam metal at 40 to 70 years, per the InterNACHI life-expectancy chart and This Old House. That outlasts a 20-year 3-tab asphalt roof and a 30-year architectural asphalt roof by two to four times, per the InterNACHI life-expectancy chart, which suits Orange\'s long-hold landlord and Seven Oaks owner-occupant stock.',
     },
     {
-      question: 'How does metal roofing handle South Mountain branch impacts?',
-      answer: 'Metal panels dent from heavy branch impacts but do not fracture, puncture, or lose waterproofing integrity the way shingles do. A dent in standing seam metal is cosmetic rather than functional. This impact resilience reduces emergency repair calls on mountain-adjacent Orange properties, though homeowners should still maintain 10-foot tree clearance to minimize denting.'
+      question: 'Do I need a permit for a metal roof replacement in Orange?',
+      answer:
+        'A complete re-roof of the roof covering with metal on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. A commercial, multi-family, or attached building exceeding 25% of the roof area in 12 months, or any structural change to rafters or trusses, does require a permit — a path that applies to a large share of Orange\'s dense two-/three-family and converted-loft stock. The City of Orange Township Building & Construction Division enforces the state classification.',
     },
     {
-      question: 'What metal roof colors work best on Orange homes?',
-      answer: 'Charcoal, matte black, and dark bronze complement Victorian and traditional colonial architecture common in Orange. Forest green and slate blue work well on homes with natural surroundings near South Mountain. We bring color samples during the estimate visit for the homeowner to evaluate against their home\'s existing trim and siding colors.'
+      question: 'Does a metal roof in a historic district need extra approval in Orange?',
+      answer:
+        'In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission (Development Regulations Ch. 210, Art. X), a binding approval separate from the construction permit. Emergency repairs may proceed first, a Register listing alone imposes no restriction, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
-      question: 'How much does metal roof replacement cost in Orange?',
-      answer: 'Standing seam metal roof replacement on a typical Orange home runs $18,000 to $28,000 depending on roof size, complexity, and metal type (Galvalume steel, aluminum, or copper). This is 50 to 80% more than premium asphalt shingle replacement, but the 40 to 60-year lifespan eliminates the second replacement cycle that shingles would require.'
+      question: 'What is the difference between standing-seam and metal-shingle roofing?',
+      answer:
+        'Standing-seam metal runs continuous from ridge to eave with concealed fasteners and lasts 40 to 70 years, per This Old House. Metal shingle interlocks with fasteners in the weather plane and lasts 40 to 80 years, per the InterNACHI life-expectancy chart. Standing-seam conceals the fasteners that leak first on an exposed-fastener roof, which favors it on Orange\'s steep-slope detached and two-/three-family homes.',
     },
     {
-      question: 'How much does metal roof replacement cost in Orange, NJ?',
-      answer: 'Most metal roof replacement projects in Orange range from $15,000–$35,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Can a metal roof go over an existing roof in Orange?',
+      answer:
+        'A metal roof goes over a single sound asphalt layer only where the deck is sound. A tear-off is required when the existing covering is water-soaked, is wood shake, slate, clay, cement, or asbestos-cement tile, or already carries two or more layers, per N.J.A.C. 5:23-6.4. A tear-off exposes the deck for inspection and repair that a recover hides, per ARMA and InterNACHI — relevant on Orange\'s older pre-1939 stock, where layered and aged decking is common.',
+    },
+    {
+      question: 'How much does a metal roof replacement cost in Orange, NJ?',
+      answer:
+        'A typical New Jersey roof replacement runs $10,000–$25,000, per HomeAdvisor and Modernize, with metal at the higher end of that band because metal carries a longer service life than asphalt. Final cost depends on roof size, pitch, metal type, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Metal roof replacement in Orange NJ -- standing seam installation, South Mountain impact resistance, lifecycle cost advantage, and Victorian color matching.',
+  metaDescription:
+    'Metal roof replacement in Orange NJ — standing-seam, metal-panel, and metal-shingle systems on two-/three-family, Seven Oaks, and loft buildings. NJ-licensed.',
   pricing: {
-    range: '$15,000–$35,000',
-    note: 'metal roof replacement installed',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; metal sits at the higher end. Final cost depends on roof size, pitch, metal type, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free metal roof replacement estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for metal roof replacement in Orange.',
+    urgencyNote: 'Replacing an asphalt roof at end of life with metal ends the repeat-replacement cycle and limits interior water damage.',
   },
 };

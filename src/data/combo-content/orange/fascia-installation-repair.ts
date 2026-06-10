@@ -3,56 +3,70 @@ import type { ComboContent } from '../schema';
 export const orangeFasciaInstallationRepair: ComboContent = {
   serviceId: 'fascia-installation-repair',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing installs and repairs fascia across Orange, replacing the rotted edge board that closes the rafter-tail ends and mounts the gutter system** on the city\'s two- and three-family homes as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert fascia installation repair in Orange — with prices starting from $1,200–$3,500 and free estimates available today. Fascia boards form the visible edge of Orange\'s rooflines and serve as the structural mounting surface for gutter systems -- a dual role that makes fascia condition critical to both aesthetics and drainage function. Our [fascia installation and repair](/fascia-installation-repair) work across Orange addresses the rot, pest damage, and paint failure that deteriorates fascia boards on the city\'s aging housing stock, particularly on homes where overflowing gutters have been saturating the fascia for years before the underlying problem was identified.',
-    'Orange\'s proximity to South Mountain creates a fascia deterioration cycle specific to tree-canopy neighborhoods. Clogged gutters overflow backward onto fascia boards, keeping the wood saturated for extended periods. The persistent moisture promotes wood rot, attracts carpenter ants and termites, and causes paint to peel and blister. By the time the homeowner notices visible fascia damage, the wood behind the gutter may have rotted through to the rafter tails -- requiring structural repair beyond simple board replacement. Our fascia inspections in Orange always include removal of gutter sections to check the condition of the hidden fascia surface behind.',
-    'For Scotland Road\'s Victorian homes, fascia boards are decorative architectural elements with molding profiles, returns, and cornices that contribute to the home\'s historic character. Repairing or replacing fascia on these properties requires matching the original profile -- either milling custom boards to replicate the existing molding or sourcing compatible millwork from architectural salvage suppliers. Standard flat fascia board from a lumber yard is architecturally inappropriate for these homes and diminishes their historic character. Properties in [Montclair](/fascia-installation-repair-montclair-nj) with similar Victorian architecture require the same profile-matching approach.'
+    '**Newark Quality Roofing replaces rotted fascia board, restores peeling paint, rebuilds gutter lines on failed fascia, and installs new fascia in four materials** across Orange\'s dense two- and three-family stock, Seven Oaks detached homes, and Valley Arts buildings. Fascia is the board along the lower roof edge that closes the rafter-tail ends and mounts the gutters, per InterNACHI inspection guidance.',
+    '**Rotted board** is the most common fascia failure on Orange\'s older housing, because clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. With roughly half of Orange\'s homes dating before 1939, many carry long-painted wood fascia that has cycled through repaint intervals, and a Newark Quality Roofing repair replaces the failed board before the rafter tails take on further water.',
+    '**Gutter-line failure** follows the rotted board, because water-filled gutters weigh roughly 5–7 pounds per linear foot, a load a weakened fascia cannot carry, so the gutters sag and pull away from the roofline, per HB Elements trade guidance. A Newark Quality Roofing repair replaces the board first, then remounts the gutter run to the sound fascia so the eave sheds runoff cleanly.',
+    '**Four fascia materials** cover the eave on Orange properties — painted wood, PVC, aluminum cladding, and fiber-cement — trading repaint upkeep against moisture durability, per HB Elements trade guidance. Painted wood fascia in pine or cedar lasts roughly 15–25 years on a repaint cycle, while aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart.',
   ],
   challenges: [
-    'Fascia damage on Orange homes frequently extends beyond the visible boards into the rafter tails and lookout framing behind them. When gutters have been overflowing for years -- common on mountain-adjacent properties where debris clogs gutters between seasonal cleanings -- the moisture penetrates through the fascia into the structural framing, causing rot that compromises the roof edge\'s structural integrity. Our fascia replacement projects in Orange always include inspection and repair of the structural elements behind the fascia, not just the visible boards.',
-    'Carpenter ant infestations are common in Orange\'s moisture-damaged fascia boards. The ants establish colonies in saturated wood, hollowing out the interior while leaving the painted exterior surface apparently intact. The fascia may feel solid when touched but is structurally compromised inside. When we remove deteriorated fascia boards in Orange, we inspect the cavities for ant activity and treat any infestations before installing new material.',
-    'Working at the fascia line on Orange\'s tight-lot properties puts our crews within arm\'s reach of the neighboring building. Gutter and fascia work generates debris -- wood fragments, old nails, stripped paint -- that must be contained to prevent damage to the adjacent property. Our containment protocols for tight-lot Orange fascia work include ground-level tarps extending to the neighboring building, debris netting along the scaffold line, and magnetic nail sweepers deployed after every work session.'
+    '**Investor- and landlord-owned buildings** dominate fascia work in Orange, because the city is roughly 76% renter-occupied and dense with two- and three-family stock, so a fascia repair coordinates roof-edge access around occupied units. A Newark Quality Roofing job schedules tenant-occupied access under standard New Jersey landlord–tenant entry notice and documents the work for the owner.',
+    '**Deferred gutter maintenance** drives fascia rot on Orange rentals, because clogged and overflowing gutters soak the board season after season until the rot reaches the rafter-tail ends behind the gutter line, per InterNACHI inspection guidance. A Newark Quality Roofing inspection removes a gutter section to check the hidden fascia surface, then sets gutter cleaning twice per year, spring and fall, to limit the backup, per Angi and GAF maintenance guidance.',
+    '**Dense street trees and the wooded first-Watchung ridge** to Orange\'s west shed leaves and debris that clog gutters and accelerate the clog-and-overflow rot, per InterNACHI inspection guidance. A Newark Quality Roofing inspection checks the drip edge as well, because the IRC drip-edge provision (R905.2.8.5) sets the drip edge at least ¼ inch below the deck and fascia to direct runoff into the gutter rather than behind the board, per the International Residential Code.',
   ],
   process: [
-    'Fascia assessment includes removing one or more gutter sections to inspect the hidden surface behind the gutter. We probe the wood with an awl to check for rot depth, inspect for insect damage, and assess the condition of the rafter tails and lookout framing that the fascia attaches to. This behind-the-gutter inspection is the only reliable way to determine the true condition of fascia boards on Orange homes where gutter overflow has been a chronic problem.',
-    'Replacement fascia is selected based on the home\'s architectural style and the owner\'s maintenance preferences. For standard homes, we offer primed pine for painted finishes, pre-finished cellular PVC for zero-maintenance performance, and cedar for natural weather. For Victorian homes on Scotland Road, we mill custom profiles or source architectural-grade lumber that matches the original molding design. Replacement boards are cut to length, primed on all surfaces including the back face, and installed with stainless steel ring-shank nails that resist the pull-out forces from wind and gutter weight.',
-    'After fascia installation, gutters are remounted with new hangers secured through the fresh fascia into rafter tails. This is the opportunity to upgrade gutter sizing, add gutter guards, and correct any slope deficiencies that contributed to the overflow and fascia damage in the first place. We treat fascia replacement as a system repair -- addressing the fascia, the gutter, and the drainage behavior that caused the original failure -- rather than replacing boards that will deteriorate again under the same conditions.'
+    '**Newark Quality Roofing traces the fascia failure to its water source — a clogged gutter, a loose gutter, or a failed slope — before replacing the board.** A crew removes a gutter section and probes the board at the rafter-tail ends, because fascia rot starts at the moisture path, not the board itself, per InterNACHI inspection guidance.',
+    '**Newark Quality Roofing replaces the rotted fascia and matches the board to the eave, selecting from four materials: painted wood, PVC, aluminum cladding, and fiber-cement.** Painted wood in pine or cedar lasts roughly 15–25 years on a repaint cycle, PVC resists moisture, aluminum cladding wraps the board, and fiber-cement resists moisture and insects, per HB Elements trade guidance, with aluminum bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart. The crew sets the drip edge at least ¼ inch below the deck and fascia per IRC R905.2.8.5, per the International Residential Code.',
+    '**Newark Quality Roofing remounts the gutter system to the sound fascia and confirms the eave drains away from the wall.** The crew refastens the gutters so the new board carries the roughly 5–7 pounds per linear foot of a water-filled gutter without sagging, per HB Elements trade guidance, runs a magnet sweep for fasteners at cleanup, and documents the work with photos for the owner and any insurance record.',
   ],
   faqs: [
     {
-      question: 'How can I tell if my Orange home\'s fascia needs replacement?',
-      answer: 'Visible signs include peeling paint, soft spots when pressed, visible rot at gutter hanger locations, and gaps between the fascia and the roofing material above. However, the most damaging deterioration is hidden behind the gutter. If your gutters have been overflowing regularly or you notice carpenter ants near the roofline, a professional inspection behind the gutter is warranted.'
+      question: 'What causes fascia to rot on Orange homes?',
+      answer:
+        'Fascia rots from water: clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. Orange\'s dense street trees and the wooded first-Watchung ridge to the west shed debris that clogs gutters, and water-filled gutters weigh roughly 5–7 pounds per linear foot, a load a weakened fascia cannot carry, so the gutters sag and pull away, per HB Elements trade guidance.',
     },
     {
-      question: 'Should I use wood or PVC fascia for my Orange home?',
-      answer: 'PVC fascia provides zero-maintenance performance and is immune to rot, insects, and moisture damage -- making it ideal for mountain-adjacent Orange homes where moisture exposure is persistent. However, PVC cannot replicate the custom molding profiles that Victorian homes require. For standard homes, PVC is the practical choice. For historic properties, primed cedar or custom-milled pine maintains architectural accuracy.'
+      question: 'How do I know if my Orange home\'s fascia needs replacing?',
+      answer:
+        'Peeling or blistering paint, soft and spongy spots, surface cracks and flaking, and gutters sagging or pulling from the roofline indicate fascia that needs replacing, per Ledegar Roofing inspection guidance. Soft spots and discoloration confirm water-driven rot inside the board, and on Orange\'s older pre-1939 stock the damage often hides behind the gutter, so a Newark Quality Roofing inspection removes a gutter section to check the surface behind it, per InterNACHI inspection guidance.',
     },
     {
-      question: 'How much does fascia replacement cost in Orange?',
-      answer: 'Standard fascia replacement on an Orange home runs $8 to $15 per linear foot installed, depending on material choice and access complexity. A typical home with 120 to 160 feet of fascia costs $1,000 to $2,400 for standard materials. Custom-milled Victorian profiles and structural repair behind deteriorated fascia add to the cost based on the scope of damage discovered.'
+      question: 'Which fascia material lasts longest on Orange\'s older housing?',
+      answer:
+        'Aluminum, PVC, and fiber-cement fascia resist moisture longer than painted wood, which lasts roughly 15–25 years and needs a repaint cycle, per HB Elements trade guidance. Aluminum fascia and soffit are bundled at a 20-to-40-plus-year life, per the InterNACHI life-expectancy chart. On a designated-district historic home, painted wood matched to the eave keeps the original character, while a rental favors a low-upkeep material.',
     },
     {
-      question: 'Can you replace fascia without removing my gutters?',
-      answer: 'Gutters must be temporarily removed to access the fascia behind them. This is actually beneficial -- it allows us to inspect fascia condition behind the gutter where damage is worst, upgrade gutter hangers, and correct gutter slope during reinstallation. Gutter removal and reinstallation are included in our fascia replacement scope.'
+      question: 'Do I need a permit to replace fascia in Orange?',
+      answer:
+        'A repair or replacement of the roof covering and trim on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. On a commercial or multi-family building, work beyond the repair of more than 25% of the total roof area in a 12-month period requires a permit, enforced through the City of Orange Township Building & Construction Division. In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission, separate from the construction permit; a property outside a designated district is not subject to a COA.',
     },
     {
-      question: 'How much does fascia installation repair cost in Orange, NJ?',
-      answer: 'Most fascia installation repair projects in Orange range from $1,200–$3,500. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Can you replace fascia on a tenant-occupied Orange rental?',
+      answer:
+        'Fascia replacement works from the roof edge, so a Newark Quality Roofing crew coordinates exterior access on tenant-occupied two- and three-family buildings under standard New Jersey landlord–tenant entry notice. The crew detaches the gutter section, replaces the rotted board, remounts the gutters to the sound fascia, and documents the work with photos for the owner and any insurance record.',
+    },
+    {
+      question: 'How much does fascia installation and repair cost in Orange, NJ?',
+      answer:
+        'Fascia installation and repair cost depends on the board length, the material, the gutter remount, and any hidden rafter-tail rot exposed once the board comes off, per InterNACHI inspection guidance. A Newark Quality Roofing inspection traces the rot to the water source and prices the board replacement and the gutter remount together, because fascia and gutter work share the same eave. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Fascia installation and repair in Orange NJ -- rot repair behind gutters, Victorian profile matching, carpenter ant treatment, and PVC zero-maintenance options.',
+  metaDescription:
+    'Fascia installation and repair in Orange NJ — rotted-board replacement, gutter-line rebuild, and four-material options. NJ-licensed, free written estimate.',
   pricing: {
-    range: '$1,200–$3,500',
-    note: 'fascia board replacement',
+    range: 'Varies by scope',
+    note: 'Final cost depends on board length, material, gutter remount, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two- and three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free fascia installation repair estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for fascia installation and repair in Orange.',
+    urgencyNote: 'Replacing rotted fascia early keeps the gutter line attached and the rafter tails dry.',
   },
 };

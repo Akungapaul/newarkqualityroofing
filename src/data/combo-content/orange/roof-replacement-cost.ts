@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const orangeRoofReplacementCost: ComboContent = {
   serviceId: 'roof-replacement-cost',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing prices and performs roof replacements across Orange and Essex County**, estimating tear-off, decking, material, and NJ labor on two-/three-family, converted-loft, and detached homes as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert roof replacement cost in Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement cost in Orange reflects the city\'s distinctive building characteristics -- tight-lot access constraints, diverse housing stock ranging from modest bungalows to elaborate Victorians, and the material premium that South Mountain proximity demands for enhanced wind and impact resistance. Our [roof replacement cost](/roof-replacement-cost) estimates are project-specific rather than generic per-square-foot numbers, because the factors that drive cost in Orange -- lot access, roof complexity, deck condition, and material specification -- vary dramatically between properties within the same neighborhood.',
-    'For Orange homebuyers evaluating properties, understanding roof replacement costs helps inform purchase decisions and negotiate effectively. A home inspection noting "roof at end of life" should trigger a cost conversation with a qualified roofer before finalizing the purchase. Our pre-purchase roof assessments provide specific cost estimates for the replacement that the home will need, giving buyers data for negotiation or budgeting. This service has become increasingly popular as Orange attracts buyers who are priced out of neighboring [South Orange](/roofing-in-south-orange-nj) and Maplewood.',
-    'Transparency in pricing is foundational to our Orange business. Every estimate includes a detailed line-item breakdown showing material costs, labor costs, tear-off and disposal, permits, contingency for deck repair, and any specialty items like enhanced flashing, ventilation upgrades, or gutter work. This transparency allows homeowners to compare our proposal with competing bids on an item-by-item basis rather than comparing bottom-line numbers that may include or exclude different scope items.'
+    '**Newark Quality Roofing prices a roof replacement** in Orange from the cost drivers a surface quote misses — roof size, pitch, material, existing layers and tear-off, decking repair, flashing and ventilation, and NJ labor and code.',
+    '**Roof size, pitch, and material choice** set the largest share of an Orange replacement, because a roofing square covers 100 square feet and valleys, dormers, and hips on the older detached houses of Seven Oaks add material and labor over a simple gable, per industry cost guidance. Material drives the per-square-foot cost from asphalt shingle to slate, per Josten Roofing NJ pricing and NJ roofing guides.',
+    '**Existing layers and tear-off** raise the cost on much of Orange\'s pre-1939 stock, because the NJ Rehabilitation Subcode requires full removal of a multi-layer or water-soaked roof, per N.J.A.C. 5:23-6.4, and tear-off and disposal add to the base material cost, per HomeGuide national cost data.',
+    '**NJ labor and code** sit above the national average on Orange\'s dense two-/three-family and converted-loft buildings, because higher labor and stricter NJ code raise the total and labor accounts for roughly 60–70% of an asphalt install, per HomeGuide and Integrity Home Exteriors, so a Newark Quality Roofing free written estimate prices the building, the material, and the Essex County code path before tear-off.',
   ],
   challenges: [
-    'Predicting deck repair costs before tear-off creates inherent uncertainty in Orange replacement estimates. Aging roofs routinely require $500 to $3,000 in deck repair that can only be confirmed once the old roofing is removed. We address this uncertainty with a transparent contingency allowance in every estimate -- a line item the homeowner can see, based on the statistical likelihood of deck repair for roofs of that age and condition. If the contingency is not needed, the homeowner pays only the actual cost.',
-    'Price comparison between contractors is complicated by inconsistent scope definitions. One contractor\'s "roof replacement" may include tear-off, ice shield, and drip edge; another\'s may not. Some contractors quote overlay as "replacement." Our detailed line-item estimates ensure homeowners can make true apples-to-apples comparisons by checking whether competing bids include the same scope items.',
-    'Material price volatility in the roofing supply chain affects Orange replacement costs. Asphalt shingle prices have increased significantly over recent years due to oil-based raw material costs and supply chain disruption. We lock material pricing at the time of contract signing and guarantee that price for 90 days, protecting homeowners from cost increases between proposal acceptance and installation.'
+    '**Predicting decking repair before tear-off** is the defining cost challenge on Orange\'s older detached and two-/three-family stock, because deteriorated plywood or OSB sheathing under an aged roof shows only once the covering is stripped, per GAF inspection guidance. A Newark Quality Roofing estimate carries the decking line as a documented allowance against the roof\'s age and attic findings.',
+    '**The permit-required path** applies to a large share of Orange, because roughly 76% of the city is renter-occupied and dense with two-/three-family and investor-owned buildings. A reroof on a detached one- or two-family home is ordinary maintenance under N.J.A.C. 5:23-2.7 and needs no construction permit, while a commercial, multi-family, or attached building crosses the 25% rule and requires one, per the NJ Uniform Construction Code, enforced through the City of Orange Township Building & Construction Division.',
+    '**Tenant-occupied access** complicates replacement scheduling on Orange\'s investor- and landlord-owned buildings, because a tear-off over occupied units requires advance entry notice to tenants under New Jersey landlord-tenant practice and staging that clears walkways and parking. A Newark Quality Roofing job sets an access and notice plan before the crew arrives.',
+    '**Flat and low-slope membrane roofs** on the converted-industrial loft buildings of the Valley Arts area and the Main Street commercial corridor price differently from a pitched residential roof, because a low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA, and parapets and internal drains add detail a sloped-roof estimate omits.',
   ],
   process: [
-    'Cost estimation begins with an on-site measurement and assessment. We measure the roof from the exterior, check for existing layers, assess deck condition from the attic, evaluate access constraints, and note any specialty requirements -- ventilation upgrades, flashing replacement, gutter work -- that affect the total project cost. The entire assessment takes 60 to 90 minutes and produces the data for a detailed estimate.',
-    'The estimate is prepared as a line-item document with clear descriptions for every cost component. Material costs reflect the specific products recommended for the property. Labor costs reflect the crew size and duration required for the roof\'s complexity and access conditions. Tear-off and disposal costs reflect the expected debris volume. A deck repair contingency is included based on roof age and attic inspection findings. The homeowner receives this document within 48 hours of the site visit.',
-    'After the homeowner reviews the estimate, we schedule a follow-up conversation to answer questions, discuss material options at different price points, and adjust the scope if the homeowner\'s budget requires prioritization. We believe that an informed homeowner makes the best decisions, so we invest the time to explain what each line item provides and what the consequences would be of omitting it.'
+    '**Newark Quality Roofing measures the roof in squares, rates the pitch and complexity, and inspects the deck, the attic ventilation, and the existing layers**, the conditions that set the largest share of the replacement cost, per industry cost guidance. The assessment produces the data for a detailed, line-item estimate rather than a generic per-square-foot number.',
+    '**Newark Quality Roofing prices the selected material per square foot against the measured roof area, then adds tear-off, disposal, decking repair, flashing, and ventilation as separate line items.** Tear-off and disposal add to the base material cost, per HomeGuide national cost data, and N.J.A.C. 5:23-6.4 requires full removal of a multi-layer or water-soaked roof, per the NJ Rehabilitation Subcode, so each component shows on its own line.',
+    '**Newark Quality Roofing applies the NJ labor and code premium and adds the permit path on any commercial, multi-family, or attached job, then delivers a free written estimate.** NJ ranges sit 10–40% above national figures and labor accounts for roughly 60–70% of an asphalt install, per HomeGuide and Integrity Home Exteriors, and the City of Orange Township Building & Construction Division issues the permit where the work triggers one. The written estimate documents every line before any work begins.',
   ],
   faqs: [
     {
-      question: 'What does a typical roof replacement cost in Orange?',
-      answer: 'Standard asphalt shingle replacement on an Orange colonial or Cape Cod with 1,500 to 2,500 square feet of roof area ranges from $10,000 to $18,000 including full tear-off, deck repair, ice shield, and architectural shingles. Victorian homes with complex rooflines run $15,000 to $30,000. These ranges reflect our detailed project-specific pricing, not generic per-square-foot estimates.'
+      question: 'Do I need a permit to replace my roof in Orange?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building — much of Orange\'s two-/three-family and converted-loft stock — replacing more than 25% of the roof area in a 12-month period requires a permit, and any structural change to rafters or trusses always does. The City of Orange Township Building & Construction Division issues the permit and inspections.',
     },
     {
-      question: 'Why are Orange roof costs different from suburban estimates?',
-      answer: 'Orange\'s tight lots add cost for debris containment, careful staging, and neighbor coordination. Complex Victorian rooflines require more labor than simple suburban ranch roofs. Mountain-adjacent properties may need impact-resistant materials at a premium over standard shingles. These Orange-specific factors are not reflected in generic regional averages.'
+      question: 'How does roof replacement cost differ for an Orange rental or multi-family building?',
+      answer:
+        'A multi-family or attached building in Orange carries a permit cost a detached-home reroof does not, because the ordinary-maintenance exemption covers only a detached one- or two-family dwelling, per N.J.A.C. 5:23-2.7. Tenant-occupied units add advance entry notice under New Jersey landlord-tenant practice and staging that clears occupied walkways. A Newark Quality Roofing estimate itemizes the permit path, the access plan, and the documentation an owner and any insurer expect.',
     },
     {
-      question: 'Do you offer financing for roof replacement in Orange?',
-      answer: 'Yes. We work with multiple financing partners offering terms from 12 months same-as-cash to 10-year fixed-rate loans. Monthly payments for a typical Orange replacement range from $150 to $350 depending on the term length and financing program. We present financing options during the estimate review so homeowners can evaluate affordability alongside the total project cost.'
+      question: 'How is a flat or low-slope roof replacement priced on a Valley Arts loft building?',
+      answer:
+        'A converted-industrial or loft building in the Valley Arts area carries a low-slope membrane — EPDM, TPO, or modified bitumen — priced per square foot, separate from a pitched asphalt roof. A low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA, and parapets, internal drains, and rooftop-equipment penetrations add detail a sloped-roof estimate omits, each priced on a Newark Quality Roofing membrane estimate.',
     },
     {
-      question: 'How can I reduce my roof replacement cost in Orange?',
-      answer: 'Choose standard-tier materials rather than premium options when budget is the priority. Schedule the project during our slower season (late fall through early spring) when scheduling flexibility may provide pricing advantages. Combine the roof project with gutter replacement or fascia repair to reduce mobilization costs. Consider overlay if your existing single-layer roof qualifies.'
+      question: 'Does an overlay cost less than a full tear-off in Orange?',
+      answer:
+        'An overlay costs roughly 20–25% less than a full tear-off, commonly $2,000–$5,000 cheaper on a typical home, because an overlay skips the tear-off labor and disposal, per HomeGuide and Angi national cost data. An overlay hides deck rot rather than repairing it, traps heat that cuts shingle life by roughly 20–30%, and is permitted only over a single sound asphalt layer with no third application, per N.J.A.C. 5:23-6.4 and Angi.',
     },
     {
-      question: 'How much does roof replacement cost cost in Orange, NJ?',
-      answer: 'Most roof replacement cost projects in Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does my Orange home need a historic Certificate of Appropriateness for a roof replacement?',
+      answer:
+        'A roof replacement requires a Certificate of Appropriateness only on a property inside one of Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — or a designated significant property. The COA is issued by the City of Orange Township Historic Preservation Commission under Development Regulations Ch. 210, Art. X, separate from the construction permit; a Register listing alone places no restriction, and a property outside a designated district is not subject to one. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
+    },
+    {
+      question: 'How much does a roof replacement cost in Orange, NJ?',
+      answer:
+        'A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per industry replacement benchmarks. NJ ranges sit 10–40% above national figures because labor accounts for roughly 60–70% of an asphalt install and NJ code is stricter, per HomeGuide and Integrity Home Exteriors. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof replacement cost in Orange NJ -- transparent pricing, Victorian estimates, tight-lot factors, financing options, and line-item cost breakdowns.',
+  metaDescription:
+    'Roof replacement cost in Orange NJ — line-item estimates for two-/three-family, Valley Arts loft, and Seven Oaks homes. NJ-licensed, free written estimate.',
   pricing: {
-    range: '$8,500–$25,000',
-    note: 'NJ average for Essex County homes',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof replacement cost estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof replacement in Orange.',
+    urgencyNote: 'Pricing a replacement early lets you plan the project and budget before a failing roof forces an emergency.',
   },
 };

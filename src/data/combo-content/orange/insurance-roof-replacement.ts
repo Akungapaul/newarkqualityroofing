@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const orangeInsuranceRoofReplacement: ComboContent = {
   serviceId: 'insurance-roof-replacement',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing provides insurance roof replacement across Orange and Essex County, inspecting the roof, photographing storm, wind, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a roofing contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert insurance roof replacement in Orange — with prices starting from $8,500–$30,000 and free estimates available today. Insurance roof replacement in Orange navigates the claims process that follows storm damage, fallen trees, and weather events that damage roofs beyond repair. Our [insurance roof replacement](/insurance-roof-replacement) team handles the documentation, adjuster coordination, and scope negotiation that Orange homeowners need when their insurance company is paying for a new roof. We know the coverage requirements, supplemental processes, and approval timelines that Essex County insurance adjusters follow, and we advocate for our Orange clients to receive the full replacement scope their policies cover.',
-    'South Mountain\'s tree canopy makes Orange one of the most active insurance claim areas in Essex County for roof damage. Major storms send branches crashing onto roofs along Hillyer Street, South Valley Road, and throughout the mountain-adjacent neighborhoods. A single large oak limb can puncture through shingles and decking, causing structural damage that requires full replacement rather than repair. Our emergency response teams secure the damage immediately to prevent interior water damage, then document the full scope of impact for the insurance claim.',
-    'The insurance claim process in Orange requires specific documentation that generic contractors often fail to provide. Insurance adjusters need photographed evidence of storm damage versus pre-existing deterioration, measured scope of damage in roofing industry standard quantities (squares, linear feet, penetration counts), and material specifications that match the quality of the original installation. Our claims documentation packages satisfy these requirements, reducing the back-and-forth negotiations that delay replacement approval. Homeowners in [West Orange](/insurance-roof-replacement-west-orange-nj) benefit from the same adjuster-ready documentation on their hillside storm damage claims.'
+    '**Insurance roof replacement** coordinates the roofing work with a property-insurance claim, where **Newark Quality Roofing** inspects the roof, photographs the covered damage, writes a detailed scope and estimate, and meets the assigned adjuster on site. On Orange\'s dense two-/three-family rental blocks, Valley Arts loft buildings, and older detached Seven Oaks homes, the owner or a licensed public adjuster files the claim while Newark Quality Roofing provides the roofing documentation.',
+    '**Insurance roof replacement** on Orange\'s many investor- and landlord-owned two-/three-family buildings turns on documentation, because the owner or a licensed public adjuster files the claim and the building is usually tenant-occupied. A Newark Quality Roofing scope photographs the storm, wind, hail, or fire damage for the owner and the insurer, and a roof replacement on a multi-family building requires a permit under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code.',
+    '**Valley Arts** converted-industrial and loft buildings and the Main Street downtown commercial corridor carry low-slope EPDM, TPO, and modified-bitumen membranes over parapets and internal drainage, where covered storm damage opens the seams and field. A Newark Quality Roofing commercial scope records the membrane type, the affected squares, and the related damage that a covered loss restores to pre-loss condition, and the policyholder or a licensed public adjuster files the claim.',
+    '**The assigned adjuster** inspects the damage and helps settle the claim, with staff adjusters employed by the insurer and independent adjusters contracted by the insurer, per the Insurance Information Institute (Triple-I) and the NAIC State Licensing Handbook. A Newark Quality Roofing lead meets that adjuster on the Orange roof, walks the documented damage, and provides technical input on the damage and the repair methods, a roofing-contractor role inside N.J.S.A. 17:22B, per NJ DOBI.',
   ],
   challenges: [
-    'Distinguishing storm damage from pre-existing deterioration is the central challenge in Orange insurance claims. Adjusters are trained to deny coverage for damage that predates the claim event. On Orange\'s aging roofs, storm damage and pre-existing wear often coexist on the same roof. Our documentation isolates storm-specific damage -- impact marks, directional shingle displacement, fresh wood exposure at breaks -- from the pre-existing conditions using photographic evidence and industry-standard damage identification criteria.',
-    'Supplemental claims are frequently needed on Orange insurance replacements when the full damage scope is not apparent during the initial adjuster inspection. Roof damage from tree impacts may extend beneath undamaged shingles, with deck fractures and rafter damage that only become visible during tear-off. We document hidden damage discovered during construction with timestamped photographs and submit supplemental claims to the insurance company for the additional scope.',
-    'Insurance policy limitations can surprise Orange homeowners. Some policies have wind/hail deductibles separate from the standard deductible. Some cover replacement cost value while others cover actual cash value, which depreciates the payout based on roof age. Some policies exclude cosmetic damage from hail. We review the relevant policy provisions with homeowners before beginning work so that everyone understands what the insurance will pay and what out-of-pocket costs to expect.'
+    '**The New Jersey public-adjuster line** governs every Orange claim, because only a licensed public adjuster or a licensed attorney negotiates or settles a first-party claim for the insured under N.J.S.A. 17:22B, per NJ DOBI. Newark Quality Roofing stays in the roofing-contractor role and does not adjust, negotiate, settle, or guarantee the claim.',
+    '**Tenant-occupied access** complicates Orange replacements, because the city runs roughly 76% renter-occupied, per the U.S. Census Bureau, and most two-/three-family buildings carry tenants on a replacement schedule. A Newark Quality Roofing job coordinates roof access with the owner under New Jersey landlord–tenant notice and documents the work with photographs for the owner and the insurer.',
+    '**Hidden damage** surfaces at tear-off on Orange\'s older roofs — roughly half the housing stock predates 1939 — where rotted decking or a code-required ice-and-water shield is not visible during the initial adjuster inspection. A Newark Quality Roofing crew photographs the hidden damage with code citations for a supplement, because an insurer initial estimate does not capture every needed line item, per the Insurance Information Institute (Triple-I).',
+    '**The deductible and the ACV-versus-RCV split** set what a covered Orange claim pays, because actual cash value equals replacement cost minus depreciation and replacement cost value pays full like-kind replacement, subject to policy limits, per NAIC and the Insurance Information Institute (Triple-I). The homeowner deductible stays the homeowner responsibility under the policy, a figure Newark Quality Roofing does not waive, rebate, or pay.',
   ],
   process: [
-    'After securing storm damage with emergency tarping, we conduct a thorough damage assessment that documents every affected area with photographs, measurements, and a detailed scope of work. This assessment is formatted for insurance adjuster review, using the same Xactimate estimating software that most insurance companies use internally. When the adjuster visits the property, we meet them on the roof to walk through each damage item and provide the documentation supporting our scope assessment.',
-    'If the adjuster\'s initial scope does not match our documented findings, we prepare a supplement request with additional evidence supporting the missing items. Common supplemental items in Orange include hidden deck damage, code-required upgrades such as ice and water shield that were not present on the original roof, and matching requirements when undamaged shingle areas cannot be matched with currently available products.',
-    'Once the claim is approved and funding is released, construction proceeds on our standard timeline. We install the replacement to the approved scope, using materials that meet or exceed the quality of the original installation. After completion, we submit our invoice with the completed work documentation, and the homeowner releases the insurance funds to us. We handle all communication with the insurance company throughout the process.'
+    '**Newark Quality Roofing inspects the roof, documents the covered damage with timestamped photographs, and writes a detailed scope and estimate that matches the insurer line items.** A scope records roof type, squares and area, underlayment, flashing, drip edge, vents, and removal and installation labor, the scope-of-loss contents that restore a roof to pre-loss condition, per United Policyholders scope-of-loss guidance.',
+    '**Newark Quality Roofing meets the assigned adjuster on the Orange roof, provides technical input on the damage and the repair methods, then performs the approved replacement to the agreed scope and to code.** In New Jersey only a licensed public adjuster or an attorney negotiates or settles a claim for the insured under N.J.S.A. 17:22B, per NJ DOBI, so the owner or a public adjuster files and negotiates the claim and Newark Quality Roofing provides the roofing documentation and does the roofing.',
+    '**Newark Quality Roofing explains the general claim terms — actual cash value, replacement cost value, recoverable depreciation, and the deductible — without interpreting the owner\'s specific policy or guaranteeing a coverage outcome.** Under a replacement-cost policy the insurer commonly pays first on an actual-cash-value basis minus the deductible and releases the held recoverable depreciation as a second payment after the roof is completed and invoiced, per the Insurance Information Institute (Triple-I) and NAIC.',
   ],
   faqs: [
     {
-      question: 'Do I pay anything out of pocket for an insurance roof replacement in Orange?',
-      answer: 'You are responsible for your policy deductible, which typically ranges from $1,000 to $2,500 for standard homeowner policies. Some policies have separate wind/hail deductibles that may be higher. If the insurance payout covers the full replacement scope at current material prices, the deductible is your only out-of-pocket cost. If insurance pays actual cash value rather than replacement cost, there may be a depreciation gap to cover.'
+      question: 'Does Newark Quality Roofing handle my insurance claim in Orange?',
+      answer:
+        'Newark Quality Roofing inspects the roof, documents the damage with photographs, writes a detailed scope and estimate, and meets the adjuster on site, and the owner or a licensed public adjuster files and negotiates the claim. In New Jersey only a licensed public adjuster or an attorney negotiates or settles a claim for the insured under N.J.S.A. 17:22B, per NJ DOBI, so Newark Quality Roofing provides the roofing documentation and performs the approved work, not the claim adjustment.',
     },
     {
-      question: 'How long does the insurance claim process take in Orange?',
-      answer: 'From initial damage report to approved claim, the process typically takes 2 to 4 weeks. Adjuster scheduling, documentation review, and supplemental negotiations affect the timeline. Once approved, replacement construction typically begins within 1 to 2 weeks depending on material availability and weather. The full process from storm damage to completed replacement averages 4 to 8 weeks.'
+      question: 'My Orange building is a tenant-occupied two-family — how does the access work?',
+      answer:
+        'Newark Quality Roofing coordinates roof access with the owner under New Jersey landlord–tenant notice and documents the replacement with photographs for the owner and the insurer. Orange runs roughly 76% renter-occupied, per the U.S. Census Bureau, so most two-/three-family buildings carry tenants on a replacement schedule. The owner or a licensed public adjuster files and negotiates the claim, while the deductible stays the owner responsibility under the policy.',
     },
     {
-      question: 'Should I call my insurance company or a roofer first after storm damage?',
-      answer: 'Call us first. We will secure the damage immediately to prevent further loss, document the damage for your claim, and then coordinate with your insurance company. Filing a claim without professional damage documentation often results in underpayment because the homeowner\'s description does not capture the full scope of damage in the terms that adjusters need.'
+      question: 'Do I need a permit for an insurance roof replacement in Orange?',
+      answer:
+        'A full replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached Orange building the replacement requires a permit, and any structural roof work triggers one. The City of Orange Township Building & Construction Division issues the permit and inspections.',
     },
     {
-      question: 'Can I choose any contractor for my Orange insurance roof replacement?',
-      answer: 'Yes. Your insurance policy gives you the right to select your own contractor. The insurance company may recommend contractors, but you are not required to use them. We recommend choosing a contractor experienced with insurance claims who can advocate for proper scope and quality, rather than a contractor who simply installs whatever the adjuster approves without question.'
+      question: 'My damaged roof is in a Seven Oaks historic district — does that change the claim?',
+      answer:
+        'In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission (Development Regulations Ch. 210, Art. X), separate from the construction permit; emergency repairs may proceed first. A Register listing alone imposes no restriction, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
-      question: 'How much does insurance roof replacement cost in Orange, NJ?',
-      answer: 'Most insurance roof replacement projects in Orange range from $8,500–$30,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Can you waive or pay my deductible on an Orange claim?',
+      answer:
+        'The deductible is the homeowner responsibility under the policy and Newark Quality Roofing does not waive, rebate, absorb, or pay the deductible. The deductible is subtracted once from the covered loss, per the Insurance Information Institute (Triple-I) and NAIC, and a deductible-waiver scheme is prosecutable in New Jersey under the NJ Consumer Fraud Act and the NJ Insurance Fraud Prevention Act, per NJ DOBI.',
+    },
+    {
+      question: 'How much does an insurance roof replacement cost in Orange, NJ?',
+      answer:
+        'A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, and a covered claim pays the covered loss minus the deductible the homeowner owes under the policy. The NJ range traces to HomeAdvisor and Modernize cost data, and the deductible is subtracted once from the covered loss, per the Insurance Information Institute (Triple-I). Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Insurance roof replacement in Orange NJ -- storm damage claims, adjuster coordination, South Mountain tree impact, and supplemental scope documentation.',
+  metaDescription:
+    'Insurance roof replacement in Orange NJ — two-/three-family rental claims, Valley Arts low-slope membranes, adjuster documentation. NJ-licensed, free estimate.',
   pricing: {
-    range: '$8,500–$30,000',
-    note: 'we handle the claims process',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; a covered claim pays the loss minus the homeowner deductible, per the Insurance Information Institute (Triple-I). Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free insurance roof replacement estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for insurance roof replacement in Orange.',
+    urgencyNote: 'Documenting storm damage early supports an accurate claim and limits further water damage.',
   },
 };

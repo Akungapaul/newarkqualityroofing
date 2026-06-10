@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const orangeCommercialRoofRepair: ComboContent = {
   serviceId: 'commercial-roof-repair',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing provides commercial roof repair across Orange and Essex County, repairing seam separations, membrane punctures, flashing failures, and ponding-water damage** on the low-slope EPDM, TPO, and modified-bitumen roofs of Valley Arts lofts and Main Street commercial buildings.',
   overview: [
-    'Newark Quality Roofing delivers expert commercial roof repair in Orange — with prices starting from $500–$5,000 and free estimates available today. Commercial roof repair in Orange keeps Main Street businesses, Mitchell Street warehouses, and Park Avenue institutions operational while addressing the leaks, membrane failures, and drainage problems that plague the city\'s aging commercial flat-roof infrastructure. Our [commercial roof repair](/commercial-roof-repair) response prioritizes minimizing business disruption -- containing active leaks within hours, completing permanent repairs within days, and coordinating all work around tenant operations so that commerce continues uninterrupted above and below the roof line.',
-    'Orange\'s commercial roofing stock spans multiple building eras, each with characteristic repair needs. Pre-1950 buildings along Main Street often have built-up roofing that has been patched so many times the original membrane is buried under layers of tar, fabric, and elastomeric coatings. Mid-century industrial buildings along the rail corridor carry modified bitumen or early single-ply membranes approaching the end of their design life. Newer mixed-use development has modern TPO or EPDM that needs only targeted repair when storm damage or equipment service causes localized membrane damage. Our repair approach is calibrated to the specific era and membrane type.',
-    'For Orange\'s small business owners who operate on thin margins, the cost of commercial roof repair is a critical concern. A Main Street restaurant owner cannot absorb $15,000 for a new membrane when a $2,500 repair will extend the existing roof\'s life by five years. Our repair assessments distinguish clearly between conditions that require immediate attention, conditions that can be monitored, and conditions that warrant planning for eventual replacement. This honest categorization helps Orange business owners allocate limited capital effectively. Business owners in [East Orange](/commercial-roof-repair-east-orange-nj) rely on the same repair-versus-replace analysis for their Main Street properties.'
+    '**Commercial roof repair** in Orange traces water entry on a low-slope membrane to the failed seam, puncture, or flashing detail, then reseals it with manufacturer-approved bonding that keeps a **system warranty** intact.',
+    '**Commercial roof repair** in Orange concentrates on the converted-industrial and loft buildings of the Valley Arts area near the Highland Avenue rail station, where large flat and low-slope membranes meet parapet walls and internal drainage. A Newark Quality Roofing repair diagnoses the membrane type before sealing the failed component, because EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, BUR 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry data.',
+    '**Low-slope membranes** on the Main Street downtown corridor and Orange\'s mixed-use commercial blocks fail most often at the seams: EPDM at the splice seams and TPO at the welded seams, per NRCA technical guidance, while modified bitumen fails at blistering and alligator cracking and PVC at plasticizer-loss embrittlement. A Newark Quality Roofing repair reseals the failed detail where each system gives way.',
+    '**System warranty** coverage holds when a repair matches the membrane with manufacturer-approved materials and techniques, because incompatible adhesives, patches, and sealants degrade both the repair and the surrounding membrane. A repair to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   challenges: [
-    'Diagnosing leaks on Orange\'s multi-layer commercial roofs is complex because water travels laterally between roof layers before appearing inside the building. The stain on the ceiling may be 15 feet from the actual point of water entry through the outer membrane. Our diagnostic process uses multiple techniques -- interior water mapping, exterior moisture surveys, and controlled flood testing -- to trace the leak path backward from the visible damage to the actual entry point.',
-    'Business continuity requirements constrain repair scheduling and methods on Orange commercial properties. A restaurant cannot close for roof work during dinner service. A medical office cannot have debris falling near patient access. A warehouse with temperature-sensitive inventory cannot have open roof sections overnight. We schedule and execute repairs within the specific constraints of each Orange business, often working evenings, early mornings, or weekends to avoid operational impact.',
-    'South Mountain proximity affects commercial roof repair frequency in Orange. Branch impacts from storms damage membrane surfaces and dislodge flashing details. Leaf debris blocks drains and causes ponding that accelerates membrane deterioration. Commercial buildings near the mountain require more frequent inspection and proactive repair to prevent minor debris damage from escalating into major leaks.'
+    '**Tenant-occupied access** defines commercial roof repair across Orange, a majority-renter city dense with two- and three-family and investor-owned buildings, so repair scheduling coordinates with occupants under New Jersey landlord-tenant notice.',
+    '**Tenant-occupied access** shapes the documentation a repair produces, because Orange is roughly 76% renter-occupied and many commercial and mixed-use buildings are investor or landlord owned. A Newark Quality Roofing repair records the scope and materials with timestamped photographs for the owner, the property manager, and any insurer.',
+    '**Lateral water travel** complicates leak diagnosis on Orange\'s flat commercial roofs, because water on a low-slope membrane runs along insulation-board joints and metal-deck flutes before reaching the interior, so the entry point sits distant from the visible stain, per NRCA technical guidance. A Newark Quality Roofing diagnosis traces the path back to the failed detail.',
+    '**Ponding water** ages the membranes on Valley Arts and Main Street flat roofs, because standing water remaining more than 48 hours counts as a defect and a low-slope roof needs at least ¼ inch per foot of slope to drain, per NRCA and ARMA. Dense street trees and the wooded West Orange ridge to the west add leaf debris that blocks drains and parapet scuppers.',
   ],
   process: [
-    'Commercial repair begins with rapid leak containment for active water entry situations. Our emergency response crews carry temporary patch materials, sealants, and emergency tarping supplies that can stop active leaks within hours of the call. This immediate response prevents inventory damage, equipment exposure, and tenant displacement while the permanent repair is planned.',
-    'Permanent repair diagnosis follows containment. We access the roof to identify the failure point, assess the surrounding membrane condition, and determine whether the repair is localized or indicates broader system deterioration that needs addressing. Core sampling through multi-layer assemblies reveals substrate conditions. Moisture surveys map any wet insulation that must be removed and replaced as part of the repair. The repair specification addresses the root cause, not just the visible symptom.',
-    'Repair execution is timed for minimal business impact. We prepare materials off-site, stage everything on the roof before the repair window begins, and complete the work in the shortest possible timeframe. After completion, we flood-test or water-spray the repaired area to verify watertight performance before leaving the site. The building owner receives documentation of the repair scope, materials used, and maintenance recommendations to prevent recurrence.'
+    '**Newark Quality Roofing locates the water entry on a commercial low-slope roof with visual membrane inspection, seam probing, core sampling, and infrared moisture scanning**, because the entry point sits distant from the visible interior evidence.',
+    '**Newark Quality Roofing verifies the wet area before opening the membrane**, because an infrared scan locates subsurface wet insulation rather than the breach itself, and ASTM C1153 requires a suspected wet area be confirmed by core cut, probe, or calibrated moisture meter, per ASTM and the NRCA. A core sample through the assembly checks for saturated insulation at the suspect area.',
+    '**Newark Quality Roofing matches the repair to the membrane with manufacturer-approved materials and techniques.** EPDM splice seams join with primer, splice tape, and lap adhesive, TPO and PVC seams weld with hot air, and modified-bitumen patches bond to the base sheet, each to the manufacturer specification that keeps the system warranty intact, per NRCA technical guidance.',
+    '**Newark Quality Roofing water-tests the repair before leaving the site, documents the work, then sizes the repaired area against the NJ permit threshold.** On a commercial or multi-family building, repairing more than 25% of the total roof area in a 12-month period requires a permit under N.J.A.C. 5:23-2.7, and the Rehabilitation Subcode requires complete removal of a water-soaked covering, a wood-shake, slate, clay, cement, or asbestos-cement covering, or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4. The City of Orange Township Building & Construction Division administers the permit.',
   ],
   faqs: [
     {
-      question: 'How quickly can you respond to a commercial roof leak in Orange?',
-      answer: 'We provide same-day emergency response for active commercial roof leaks in Orange. Our crews carry temporary containment materials and can typically arrive within two to four hours of the call to stop active water entry. Permanent repair is scheduled within the following week based on weather and material availability.'
+      question: 'Does a commercial roof repair in Orange require a permit?',
+      answer:
+        'A commercial or multi-family roof repair in Orange requires a construction permit when it exceeds 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7. The ordinary-maintenance exemption covers only repairs up to that threshold on those buildings. The Rehabilitation Subcode requires complete removal of a water-soaked covering or a roof already carrying two or more layers, per N.J.A.C. 5:23-6.4. The City of Orange Township Building & Construction Division issues the permit.',
     },
     {
-      question: 'How do you repair a commercial roof without disrupting my Orange business?',
-      answer: 'We schedule repair work around your business operations -- early mornings, evenings, or weekends when the space is unoccupied or at lowest activity. For work during business hours, we use quiet techniques and contain all debris on the roof rather than lowering it during operating hours. Temporary waterproofing protects the interior throughout the repair process.'
+      question: 'How do you find a leak on a flat commercial roof in Orange?',
+      answer:
+        'A Newark Quality Roofing crew locates the leak with visual membrane inspection, seam probing, core sampling, and infrared moisture scanning, because water travels distant from the entry point on a low-slope membrane. Water runs along insulation joints and deck flutes before reaching the interior, per NRCA technical guidance, and ASTM C1153 requires a suspected wet area be confirmed by core cut or moisture meter, per ASTM, so the diagnosis traces the path back to the failed seam, puncture, or flashing detail.',
     },
     {
-      question: 'Should I repair or replace my aging Orange commercial roof?',
-      answer: 'If the membrane has localized failures but is generally sound with dry insulation, repair is typically the right choice -- extending roof life at a fraction of replacement cost. If core samples reveal widespread insulation saturation, membrane delamination, or structural deck damage, replacement provides better long-term value than continued investment in a deteriorating system.'
+      question: 'Does repairing a commercial roof void the manufacturer warranty?',
+      answer:
+        'A commercial roof repair performed with manufacturer-approved materials and techniques keeps the manufacturer system warranty intact, because incompatible adhesives, patches, and sealants degrade the membrane and void coverage. EPDM seams join with primer, splice tape, and lap adhesive, TPO and PVC seams weld with hot air, and each repair follows the manufacturer specification, per NRCA technical guidance. A written workmanship warranty backs the labor, separate from the material warranty that covers factory defects, per Owens Corning warranty guidance.',
     },
     {
-      question: 'What does commercial roof repair cost in Orange?',
-      answer: 'Targeted repairs for localized leaks and flashing failures typically run $500 to $3,000. Larger-scope repairs involving membrane section replacement, drain rehabilitation, or equipment curb reconstruction run $3,000 to $10,000. These costs compare favorably to full replacement at $30,000 to $80,000 when the existing roof has serviceable life remaining.'
+      question: 'Does a commercial roof repair in a designated Orange historic district need extra approval?',
+      answer:
+        'Regulated exterior roofing work on a commercial property inside one of Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission under Development Regulations Ch. 210, Art. X, a binding approval separate from the construction permit. Emergency repairs may proceed first, a National or State Register listing alone imposes no restriction per the National Park Service, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
+    },
+    {
+      question: 'How do you repair my Orange commercial roof while tenants stay in the building?',
+      answer:
+        'A repair coordinates with occupants under New Jersey landlord-tenant notice and stages materials on the roof to limit disruption below, because Orange is dense with tenant-occupied two- and three-family, mixed-use, and investor-owned buildings. A Newark Quality Roofing crew water-tests the completed repair and records the scope, materials, and timestamped photographs for the owner, the property manager, and any insurer.',
     },
     {
       question: 'How much does commercial roof repair cost in Orange, NJ?',
-      answer: 'Most commercial roof repair projects in Orange range from $500–$5,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      answer:
+        'Commercial flat-roof repair in New Jersey runs about $300 to $1,100 for a typical repair, per HomeGuide, Modernize, and WeatherShield cost data. That works out to $2.50 to $10.00 per square foot, with a seam re-weld at $200 to $400 and a section replacement at $500 to $1,000. NJ ranges sit 10 to 40% above national figures because of higher labor and stricter NJ code. Final cost depends on roof size, membrane type, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Commercial roof repair in Orange NJ -- Main Street leak response, Mitchell Street industrial, business-hours scheduling, and repair-vs-replace guidance.',
+  metaDescription:
+    'Commercial roof repair in Orange NJ — Valley Arts loft and Main Street flat-roof membranes, seam and flashing reseals, tenant-occupied scheduling. NJ-licensed.',
   pricing: {
-    range: '$500–$5,000',
-    note: 'for most commercial repair projects',
+    range: '$300–$1,100',
+    note: 'Typical NJ commercial flat-roof repair range ($2.50–$10.00 per square foot) per HomeGuide, Modernize, and WeatherShield; final cost depends on roof size, membrane type, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s Valley Arts loft, Main Street commercial, and dense two- and three-family building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records, your tenants, and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free commercial roof repair estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for commercial roof repair in Orange.',
+    urgencyNote: 'Addressing a low-slope membrane leak early limits interior and structural water damage.',
   },
 };

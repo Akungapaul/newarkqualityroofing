@@ -3,56 +3,72 @@ import type { ComboContent } from '../schema';
 export const orangeSolarShingleInstallation: ComboContent = {
   serviceId: 'solar-shingle-installation',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing installs solar shingles across Orange and Essex County, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert solar shingle installation in Orange — with prices starting from $25,000–$50,000 and free estimates available today. Solar shingle installation resolves a tension that Orange homeowners frequently express: the desire for solar energy without the visual impact of traditional panel arrays mounted above the roofline. On Scotland Road\'s grand Victorians and the architectural homes along Park Avenue, bulky panel racks would disrupt the historic aesthetic that defines these neighborhoods. [Solar shingle](/solar-shingle-installation) systems integrate photovoltaic cells directly into roofing shingles that lay flat against the roof deck, generating electricity while maintaining the clean roofline silhouette that Orange\'s finest homes deserve.',
-    'The technology has matured significantly, with current-generation solar shingles from manufacturers like GAF Energy and CertainTeed producing meaningful electricity while functioning as primary roofing material. A south-facing roof slope on an Orange home can generate 4 to 7 kWh per day per 100 square feet of solar shingle coverage -- not matching the efficiency of conventional panels, but providing substantial production without compromising architectural appearance. For Orange homeowners on Scotland Road who would never install visible panel arrays, solar shingles offer an energy path that simply did not exist five years ago.',
-    'Installation timing is ideal when coordinated with a full roof replacement. Since solar shingles replace conventional shingles rather than mounting over them, the roofing and solar components install in a single operation. Orange homeowners replacing aging roofs can add solar generation capability for an incremental cost of $3 to $5 per watt above conventional premium shingle pricing. Combined with New Jersey\'s solar incentives and net metering, the system typically reaches payback within 10 to 15 years while providing a warranty-backed roof and clean energy production for 25 years. Homeowners in adjacent [West Orange](/solar-shingle-installation-west-orange-nj) are choosing the same technology for their hillside properties.'
+    '**Newark Quality Roofing installs building-integrated solar shingles across Orange — GAF Energy Timberline Solar, Tesla Solar Roof, and CertainTeed Solstice** — on detached homes in Seven Oaks and across the city. A solar shingle is building-integrated photovoltaics, where the photovoltaic material is the roof covering itself, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS.',
+    '**Building-integrated solar shingles** replace the roof covering rather than mounting hardware on a finished roof, so an Orange installation pairs with a new roof or a full reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. The integrated surface suits Orange\'s older detached single-family homes in Seven Oaks, where a uniform roofline reads cleaner than a rack-mounted panel array.',
+    '**Solar shingles** cost more per watt and generate less per square foot than rack-mounted panels, so a solar-shingle roof suits an owner prioritizing the integrated appearance of a uniform roof surface over the lower per-watt cost of panels, per SolarReviews and EnergySage cost data. GAF Energy Timberline Solar rates 57 watts per energy shingle, Tesla Solar Roof 72 watts per active tile, and CertainTeed Solstice 70 watts per shingle, per each manufacturer.',
+    '**A solar-shingle roof** changes the visible roof covering, so a property inside one of Orange\'s four locally designated historic districts is subject to a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission before regulated exterior work, per Development Regulations Ch. 210, Art. X. A property outside a designated district is not subject to a Certificate of Appropriateness.',
   ],
   challenges: [
-    'Solar shingle efficiency per square foot is 20 to 40% lower than conventional rooftop panels, which means Orange homes need more roof area dedicated to solar shingles to match the production of a smaller traditional panel array. On Orange\'s compact homes where total roof area is limited, this efficiency gap may prevent solar shingles from covering 100% of household electricity needs. Our solar designs present production projections that accurately reflect solar shingle output for the available roof area, setting realistic expectations about energy offset percentages.',
-    'South Mountain\'s tree canopy creates shade patterns that are more consequential for solar shingles than for elevated panel systems. Traditional panels mounted on racks sit 6 to 8 inches above the roof surface, reducing the shadow impact of nearby tree branches. Solar shingles lie flat against the roof deck, meaning any branch shadow falls directly on the active cell surface. Mountain-adjacent Orange homes may need more aggressive branch management to make solar shingles viable, and some heavily shaded properties may not be candidates for solar shingles at all.',
-    'Not all Orange roof geometries accommodate solar shingles effectively. The technology works best on simple south-facing roof slopes with consistent pitch. Victorian rooflines with turrets, intersecting gables, dormers, and hip-to-valley transitions create complex geometries where solar shingle installation is technically challenging and production is reduced by suboptimal orientations. Our assessments identify which roof sections are suitable for solar shingles and which should receive conventional roofing material, creating a hybrid installation that maximizes both aesthetic and energy performance.'
+    '**Roof area** is the defining solar-shingle constraint on Orange\'s compact detached homes, because a solar shingle needs roughly 44% more roof area than a panel array. A 6-kilowatt solar-shingle system needs about 360 square feet of shingles against about 250 square feet of panels, per SolarReviews from the GAF Energy datasheet, so a Newark Quality Roofing assessment sizes the array against the available south-facing roof before any tear-off.',
+    '**Designated-district properties** in Seven Oaks add an approval step, because the locally designated Montrose/Seven Oaks Park district carries a binding Certificate of Appropriateness for regulated exterior roofing work, per Development Regulations Ch. 210, Art. X. The Certificate of Appropriateness is separate from the construction permit, emergency repairs may proceed first, and a Register listing alone imposes no restriction, per the National Park Service.',
+    '**Shade and pitch** limit candidacy on older Orange roofs, because the named solar-shingle products list a minimum pitch of 2:12 and a flush-mounted shingle reads any shade across the active surface, per GAF Energy and Tesla. Orange\'s dense street trees and the wooded West Orange first-Watchung ridge to the west cast afternoon shade that a Newark Quality Roofing shade analysis maps against each roof plane.',
+    '**Tenant-occupied buildings** complicate a reroof on Orange\'s many two- and three-family and investor-owned properties, because a solar-shingle install is a full reroof requiring roof and interior electrical access. A Newark Quality Roofing schedule coordinates tenant access under New Jersey landlord-tenant notice and documents the work for the owner and any insurer.',
   ],
   process: [
-    'Solar shingle assessment begins with a combined roofing and solar evaluation. We measure roof geometry, assess structural capacity, perform shade analysis using satellite data and on-site measurement, and identify which roof sections are candidates for solar shingles based on orientation, pitch, and shade exposure. The assessment produces a system design that specifies which roof areas receive solar shingles and which receive matching conventional shingles.',
-    'Installation follows standard roofing practice with additional electrical integration. The roof deck is prepared with ice and water shield, underlayment, and a wiring chase system that routes electrical connections from each solar shingle to the central inverter location. Solar shingles are installed course by course from eave to ridge, with each shingle electrically connected to adjacent units and the wiring chase below. Conventional matching shingles complete the non-solar roof areas, creating a seamless visual transition between generating and non-generating surfaces.',
-    'Electrical commissioning completes the installation. The inverter system is connected, programmed, and tested. We verify that each solar shingle string produces expected voltage and current, confirm proper grounding, and test the monitoring system that allows the homeowner to track production from a smartphone app. We handle Orange building permits, electrical permits, and utility interconnection applications as standard scope, along with documentation for New Jersey solar incentive enrollment.'
+    '**Newark Quality Roofing assesses the roof pitch, the roof area, and the reroof scope**, confirming a minimum 2:12 pitch for the named solar-shingle products, per GAF Energy and Tesla. The assessment sizes the array against the roughly 44% larger area a solar shingle needs versus panels, per SolarReviews, and a shade analysis maps the dense street-tree and Watchung-ridge afternoon shade across each Orange roof plane.',
+    '**Newark Quality Roofing presents 3 solar-shingle products in a written estimate** — GAF Energy Timberline Solar at 57 watts per shingle, Tesla Solar Roof at 72 watts per active tile, and CertainTeed Solstice at 70 watts per shingle — with the per-watt cost and efficiency stated honestly against rack-mounted panels, per each manufacturer and SolarReviews. A designated-district parcel\'s status is confirmed with the City of Orange Township Department of Planning & Economic Development before scheduling.',
+    '**Newark Quality Roofing strips the existing roof to the deck, repairs deteriorated sheathing, and installs the building-integrated solar shingle to manufacturer specification**, because a solar shingle replaces the roof covering and pairs with a full reroof, per the DOE Office of Energy Efficiency and Renewable Energy. GAF Energy Timberline Solar nails into the field with the same crew and tools as Timberline asphalt shingles, keeping the manufacturer system warranty intact, per GAF Energy.',
+    '**Newark Quality Roofing coordinates the array wiring to NEC 690.12 rapid shutdown**, which drops conductors to 30 volts or less outside and 80 volts or less inside the array boundary within 30 seconds, then files the photovoltaic and electrical permits the work requires for NEC and fire-code compliance through the City of Orange Township Building & Construction Division, per the NEC and the NJ Uniform Construction Code.',
   ],
   faqs: [
     {
-      question: 'How do solar shingles look compared to regular shingles on an Orange home?',
-      answer: 'Current-generation solar shingles closely match the profile and appearance of premium architectural shingles. From the street, the difference is subtle -- a slightly glossy surface on the solar sections compared to the matte texture of conventional shingles. On Scotland Road\'s Victorians and Park Avenue\'s colonials, the integrated appearance is far more appropriate than raised panel arrays.'
+      question: 'What is a solar shingle and how does it differ from solar panels?',
+      answer:
+        'A solar shingle is building-integrated photovoltaics, where the photovoltaic material is the roof covering itself, while solar panels are rack-mounted hardware added on top of an existing roof. A solar shingle replaces the roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS. The integrated surface suits Orange\'s older detached homes in Seven Oaks seeking a uniform roofline.',
     },
     {
-      question: 'How much electricity do solar shingles produce on an Orange home?',
-      answer: 'Production depends on the roof area dedicated to solar shingles, orientation, and shade exposure. A typical Orange colonial with 400 square feet of south-facing solar shingle coverage produces approximately 4,000 to 5,500 kWh annually -- offsetting 40 to 60% of average household electricity consumption. Homes with more available south-facing area and less shade can achieve higher percentages.'
+      question: 'Are solar shingles more efficient than solar panels on an Orange home?',
+      answer:
+        'Solar shingles are less efficient and cost more per watt than solar panels, clustering around 14% to 18% module efficiency against more than 20% for premium panels. Solar shingles run about $3.50 to $8.00 per watt against about $2.50 to $4.00 per watt for panels — a solar shingle is an integration and appearance choice, per SolarReviews, EnergySage, and NREL.',
     },
     {
-      question: 'What happens to solar shingles during a roof repair?',
-      answer: 'Solar shingles can be individually replaced if damaged, similar to conventional shingles. If a larger roof section needs repair, the solar shingles in the affected area are disconnected, removed, and reinstalled after the repair -- or replaced if damaged. We design the wiring system to allow section-by-section disconnection for maintenance without affecting the rest of the solar array.'
+      question: 'Does an Orange historic district affect a solar-shingle installation?',
+      answer:
+        'A solar-shingle roof in one of Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission before regulated exterior work, per Development Regulations Ch. 210, Art. X. The approval is separate from the construction permit, a Register listing alone imposes no restriction per the National Park Service, and a property outside a designated district is not subject to a Certificate of Appropriateness. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
     },
     {
-      question: 'Are solar shingles worth the extra cost over regular shingles in Orange?',
-      answer: 'For homes with good solar exposure, the economics are favorable. The incremental cost over premium shingles is offset by New Jersey solar incentives, net metering savings, and federal tax credits. Payback typically occurs in 10 to 15 years, after which the electricity generation is essentially free for the remaining 10 to 15 years of the shingle\'s warranty life. For heavily shaded properties, conventional panels or no solar may be more cost-effective.'
+      question: 'Do you need a permit to install solar shingles in Orange, NJ?',
+      answer:
+        'The photovoltaic and electrical work carries its own building and electrical permits and inspection for NEC and fire-code compliance, while a reroof of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7, per the NJ Uniform Construction Code and the NEC. On a commercial, multi-family, or attached building the 25% rule applies. The City of Orange Township Building & Construction Division administers the permits.',
     },
     {
-      question: 'How much does solar shingle installation cost in Orange, NJ?',
-      answer: 'Most solar shingle installation projects in Orange range from $25,000–$50,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'What New Jersey incentives apply to a solar-shingle installation in Orange?',
+      answer:
+        'New Jersey applies the Successor Solar Incentive program paying a fixed per-megawatt-hour SREC-II incentive over a 15-year term, plus net metering, a sales-tax exemption through Form ST-4, and a property-tax exemption through Form CRES. The Successor Solar Incentive program is administered by the NJ Board of Public Utilities. The federal residential solar credit was 30% for systems completed through 2025 and is repealed for systems completed after December 31, 2025, per the IRS, so a homeowner consults a tax professional for current incentives.',
+    },
+    {
+      question: 'How much does a solar-shingle installation cost in Orange, NJ?',
+      answer:
+        'Solar shingles run about $3.50 to $8.00 per watt installed against about $2.50 to $4.00 per watt for rack-mounted panels, roughly 1.5 to 2 times the per-watt cost, per EnergySage, SolarReviews, and WattBuild. Roof size, pitch, product, and reroof scope set the total. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Solar shingle installation in Orange NJ -- integrated solar roofing for Victorians, Scotland Road aesthetic preservation, NJ incentives, and shade analysis.',
+  metaDescription:
+    'Solar shingle installation in Orange NJ — GAF Energy, Tesla, and CertainTeed building-integrated roofs for Seven Oaks homes. NJ-licensed, free estimate.',
   pricing: {
-    range: '$25,000–$50,000',
-    note: 'integrated solar shingle system',
+    range: 'Free written estimate; solar shingles about $3.50 to $8.00 per watt installed',
+    note: 'Solar shingles run about $3.50 to $8.00 per watt installed per EnergySage, SolarReviews, and WattBuild; final cost depends on roof size, pitch, product, and reroof scope. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Honest comparison of solar shingles against rack-mounted panels on per-watt cost and efficiency.',
+    'Free, detailed written estimates with no obligation, and workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free solar shingle installation estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for solar shingle installation in Orange.',
+    urgencyNote: 'A solar shingle replaces the roof covering, so pairing it with a planned reroof avoids removing and reinstalling a separate roof later.',
   },
 };

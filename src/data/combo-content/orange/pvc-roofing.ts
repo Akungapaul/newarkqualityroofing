@@ -3,56 +3,71 @@ import type { ComboContent } from '../schema';
 export const orangePvcRoofing: ComboContent = {
   serviceId: 'pvc-roofing',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing installs and services PVC single-ply roofing across Orange and Essex County, welding chemical-resistant white membrane on commercial low-slope roofs that carry grease, oil, and rooftop exhaust** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert pvc roofing in Orange — with prices starting from $7–$13/sq ft and free estimates available today. PVC roofing earns its specification on Orange commercial buildings where chemical resistance matters -- restaurants with grease-laden exhaust, automotive service facilities along the Mitchell Street corridor, and any building where rooftop equipment discharge could attack less resistant membrane materials. Our [PVC roofing](/pvc-roofing) installations in Orange provide the chemical imperviousness that standard EPDM and TPO membranes cannot match, protecting building owners from the hidden membrane degradation that kitchen grease, petroleum products, and industrial solvents cause on incompatible roofing materials.',
-    'Main Street Orange\'s restaurant and food service concentration makes PVC the smart membrane choice for buildings housing commercial kitchens. Grease-laden exhaust from cooking operations deposits an oily film across the roof surface surrounding kitchen exhaust fans. EPDM membranes absorb these oils and swell, eventually losing their waterproofing integrity. TPO\'s resistance to animal fats and cooking oils is moderate at best. PVC membranes are inherently resistant to these substances, maintaining their structural and waterproofing properties despite years of grease exposure. For Main Street restaurant buildings, PVC pays for its premium over other membranes by eliminating the premature membrane failure that grease exposure causes.',
-    'Beyond chemical resistance, PVC provides the same single-ply installation efficiency, reflective energy savings, and heat-welded seam technology that Orange building owners expect from modern commercial membranes. The white reflective surface reduces cooling costs on Main Street buildings that absorb summer heat, and the hot-air welded seams create a monolithic waterproof surface that resists Orange\'s seasonal temperature cycling. For building owners in [East Orange](/pvc-roofing-east-orange-nj) and Orange with restaurants or service businesses, PVC delivers both chemical protection and standard commercial roofing performance in a single membrane.'
+    '**Newark Quality Roofing welds PVC single-ply membrane on Orange\'s low-slope commercial and converted-industrial roofs**, a hot-air-welded thermoplastic that resists grease, oils, and chemical exhaust where EPDM and TPO degrade, per the NRCA technical library.',
+    '**PVC single-ply membrane** suits the large flat roofs on the Valley Arts District\'s converted-industrial and loft buildings near the Highland Avenue rail line, where parapets, internal drainage, and rooftop units define the field. PVC lasts 20 to 30 years, with thicker reinforced membranes reaching the longer end, per the Single Ply Roofing Industry, against EPDM at 15 to 25 years and TPO at 7 to 20 years, per the InterNACHI life-expectancy chart.',
+    '**Grease and chemical exhaust** on Main Street restaurant and food-service roofs softens and degrades EPDM and TPO, per the NRCA technical library, so a Newark Quality Roofing assessment specifies PVC where kitchen, automotive, or rooftop-unit discharge contacts the membrane and a less resistant single-ply roof fails early.',
+    '**White PVC** functions as a cool roof, reflecting roughly 70 to 85% of solar radiation measured per ASTM C1549, with thermal emittance near 80 to 90%, per Duro-Last and the Cool Roof Rating Council. Per the U.S. EPA, the heat-island effect makes daytime air in U.S. urban areas about 1 to 7 degrees Fahrenheit higher than outlying areas, so a reflective membrane lowers the cooling load on a large Orange low-slope roof.',
   ],
   challenges: [
-    'PVC membrane cost typically runs 20 to 30% higher than TPO or EPDM, which creates a specification decision for Orange building owners who must weigh the chemical resistance premium against their actual exposure risk. For buildings with heavy grease or chemical exposure, the premium pays for itself through extended membrane life. For buildings without chemical exposure, standard TPO or EPDM may be the more cost-effective choice. Our role is helping Orange building owners make this cost-benefit analysis accurately rather than defaulting to either the cheapest or most expensive option.',
-    'PVC membrane plasticizers can migrate when the membrane contacts certain incompatible materials -- polystyrene insulation, asphalt-based products, and some older roof deck adhesives. This plasticizer migration causes the membrane to become brittle and lose flexibility over time. On Orange buildings being re-roofed over existing asphalt-based systems, we install separation barriers between the PVC membrane and any incompatible substrate material to prevent plasticizer migration. This additional step adds modest cost but protects the membrane\'s long-term performance.',
-    'Cold-weather installation of PVC membranes requires temperature awareness that Orange\'s winter climate demands. PVC becomes less flexible below 40 degrees Fahrenheit, making seam welding more difficult and increasing the risk of membrane cracking during handling. We schedule Orange PVC installations during appropriate temperature windows and take precautions -- warming membrane rolls before unrolling, adjusting welder settings for ambient temperature, and avoiding sharp bends in cold conditions -- when winter project timelines require cold-weather work.'
+    '**Tenant-occupied buildings** define much of Orange PVC work, because Orange is roughly 76% renter-occupied, per U.S. Census QuickFacts, and dense with two-/three-family and investor-owned stock, so a crew coordinates rooftop and interior access under New Jersey landlord-tenant notice.',
+    '**Permit thresholds** apply to most Orange PVC roofs, because a commercial, multi-family, or attached building requires a permit when a job replaces the roof or repairs more than 25% of the total area in a 12-month period, per N.J.A.C. 5:23-2.7 and the NJ Uniform Construction Code, filed through the City of Orange Township Building & Construction Division.',
+    '**Plasticizer loss** is the long-term PVC concern, because the compound stiffens over decades, and unreinforced PVC can shatter in cold weather, per the NRCA technical library. A Newark Quality Roofing specification matches reinforced membrane thickness to the exposure and the Essex County climate before welding.',
+    '**Substrate compatibility** governs an Orange recover, because a PVC recover over an existing deck proceeds only when the covering carries fewer than 2 layers and is not water-soaked, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode. A Newark Quality Roofing survey confirms the layer count and moisture condition before any recover.',
   ],
   process: [
-    'PVC installation in Orange follows the same rigorous substrate preparation that all single-ply membranes require. Existing roofing is removed to the structural deck, the deck is inspected and repaired, and compatibility with PVC is verified. Where incompatible substrates exist -- asphalt residue, polystyrene insulation, or certain adhesives -- we install polyester separation fabric to prevent plasticizer migration before any PVC material contacts the deck or insulation surface.',
-    'Polyiso insulation boards are installed over the prepared substrate, tapered to create positive drainage slopes toward existing drain locations. The PVC membrane is positioned over the insulation and attached using mechanical fasteners or full adhesion depending on the wind uplift requirements for the specific building. Membrane sheets overlap by a minimum of six inches, and seams are welded using calibrated hot-air welding equipment that fuses the overlapping PVC layers into a homogeneous bond stronger than the membrane itself.',
-    'Penetration and perimeter details use PVC-compatible components -- pre-formed boots, inside and outside corner pieces, and T-joint covers that are welded directly to the field membrane. This eliminates the reliance on adhesives and sealants that characterize penetration details on other membrane types. The all-welded PVC system creates a monolithic waterproof envelope from edge to edge and penetration to penetration, with every junction heat-fused rather than glued. Final inspection includes weld strength testing, drainage verification, and detailed documentation for the building owner.'
+    '**Newark Quality Roofing inspects an Orange roof for grease, oil, and chemical exhaust, then checks the slope and ponding before specifying PVC.** A low-slope roof needs at least ¼ inch per foot of slope to drain, and ponding held more than 48 hours counts as a defect, per the NRCA and ARMA, so a crew installs tapered insulation to positive drainage.',
+    '**Newark Quality Roofing prepares the deck, files a permit, and confirms the recover-versus-tear-off path.** A commercial or multi-family Orange job files a construction permit when it exceeds 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7, and N.J.A.C. 5:23-6.4 requires complete removal when the roof is water-soaked or already carries 2 or more layers, per the NJ Rehabilitation Subcode.',
+    '**Newark Quality Roofing hot-air-welds the PVC field seams and the prefabricated accessories, then probe-tests every weld for full fusion.** A crew welds the field laps, welds factory-fabricated flashings, curb wraps, and pipe boots at penetrations, and re-fuses any seam that fails the probe test rather than patching with adhesive, per the NRCA technical library, then documents the install for the owner and any insurer.',
   ],
   faqs: [
     {
-      question: 'Why is PVC recommended for Orange restaurant buildings?',
-      answer: 'Restaurant kitchen exhaust deposits cooking grease and animal fats on the surrounding roof surface. EPDM absorbs these oils and swells; TPO has limited resistance. PVC membranes are inherently resistant to animal fats, vegetable oils, and cooking grease, maintaining their waterproofing integrity despite years of grease exposure from kitchen exhaust. For Main Street Orange restaurant buildings, PVC prevents the premature membrane failure that other membranes experience.'
+      question: 'Why is PVC specified for Orange restaurant and food-service buildings?',
+      answer:
+        'PVC resists the grease, animal fats, and oils in kitchen exhaust that soften and degrade EPDM and TPO, per the NRCA technical library. On Main Street and downtown Orange restaurant roofs, rooftop grease deposits an oily film around exhaust fans, and PVC carries documented chemical resistance, per Duro-Last, the property that keeps the membrane intact where that discharge contacts the roof.',
     },
     {
-      question: 'How much more does PVC cost compared to TPO for an Orange commercial roof?',
-      answer: 'PVC typically costs 20 to 30% more than TPO installed. On a 5,000-square-foot Orange commercial roof, that translates to roughly $5,000 to $10,000 additional cost. For buildings with grease or chemical exposure, this premium is offset by longer membrane life and avoided replacement costs. For buildings without chemical exposure, TPO often provides equivalent performance at lower cost.'
+      question: 'How long does a PVC roof last on an Orange commercial or loft building?',
+      answer:
+        'A PVC single-ply roof lasts 20 to 30 years, with thicker reinforced membranes reaching the longer end, per the Single Ply Roofing Industry. PVC outlasts TPO at 7 to 20 years and matches the upper range of EPDM at 15 to 25 years, per the InterNACHI life-expectancy chart. The primary long-term concern is plasticizer loss that reduces flexibility over decades, per the NRCA technical library.',
     },
     {
-      question: 'How long does PVC roofing last on Orange commercial buildings?',
-      answer: 'PVC membranes on Orange commercial buildings last 25 to 30 years with standard maintenance. The heat-welded seams maintain their integrity throughout the membrane\'s lifespan, and the PVC compound resists UV degradation and chemical attack. Annual inspections to check seam condition and penetration details are the only regular maintenance required.'
+      question: 'Does a commercial PVC roof in Orange require a permit?',
+      answer:
+        'A commercial, multi-family, or attached Orange building requires a permit when a PVC job replaces the roof or repairs more than 25% of the total roof area in a 12-month period, per N.J.A.C. 5:23-2.7 and the NJ Uniform Construction Code. A detached one- or two-family reroof is ordinary maintenance under the same rule and requires no permit. The City of Orange Township Building & Construction Division issues the permit.',
     },
     {
-      question: 'Can PVC be installed over my existing Orange flat roof?',
-      answer: 'PVC can be installed over existing roof systems if the substrate is compatible and structurally sound. If the existing roof contains asphalt-based materials, we install a separation barrier to prevent plasticizer migration. If the existing insulation is polystyrene, it must be removed and replaced with polyiso. We assess compatibility during the roof survey and include any necessary separation measures in our proposal.'
+      question: 'Can PVC be welded over an existing Orange flat roof?',
+      answer:
+        'A PVC recover over an existing Orange deck proceeds only when the covering carries fewer than 2 layers and is not water-soaked, per N.J.A.C. 5:23-6.4 and the NJ Rehabilitation Subcode. A Newark Quality Roofing survey confirms the layer count, moisture condition, and substrate compatibility, and any incompatible material such as polystyrene insulation is removed before the membrane reaches the deck.',
     },
     {
-      question: 'How much does pvc roofing cost in Orange, NJ?',
-      answer: 'Most pvc roofing projects in Orange range from $7–$13/sq ft. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does a PVC roof on an Orange historic-district property need extra approval?',
+      answer:
+        'In Orange\'s four locally designated historic districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission, a binding approval separate from the construction permit. Emergency repairs may proceed first, a Register listing alone imposes no restriction, and a property outside a designated district is not subject to a COA. Confirm a parcel\'s status with the City of Orange Township Department of Planning & Economic Development.',
+    },
+    {
+      question: 'How much does PVC roofing cost in Orange, NJ?',
+      answer:
+        'Commercial PVC roofing costs $6–$12 per square foot installed, clustering near $8–$12, per commercial cost guides, with NJ single-ply membrane in the TPO class running $8–$12 per square foot, per Josten Roofing NJ pricing. Roof size, membrane thickness, attachment method, and insulation set the cost, and NJ ranges sit 10–40% above national figures. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'PVC roofing in Orange NJ -- chemical-resistant membranes for restaurants, Main Street commercial, heat-welded seams, and grease-exposure protection.',
+  metaDescription:
+    'PVC roofing in Orange NJ — chemical-resistant white membrane for Valley Arts loft and Main Street commercial roofs, hot-air-welded seams. Free written estimate.',
   pricing: {
-    range: '$7–$13/sq ft',
-    note: 'PVC single-ply membrane',
+    range: '$6–$12 per square foot installed',
+    note: 'Commercial PVC range per commercial cost guides; NJ single-ply in the TPO class runs $8–$12 per square foot per Josten Roofing NJ pricing. Final cost depends on roof size, membrane thickness, attachment method, and insulation. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s converted-loft, two-/three-family, and Main Street commercial building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free pvc roofing estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for PVC roofing in Orange.',
+    urgencyNote: 'Resealing a failed PVC seam early limits interior and structural water damage.',
   },
 };

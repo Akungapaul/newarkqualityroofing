@@ -3,56 +3,70 @@ import type { ComboContent } from '../schema';
 export const orangeRoofReplacementAfterLeak: ComboContent = {
   serviceId: 'roof-replacement-after-leak',
   cityId: 'orange',
+  directAnswer:
+    '**Newark Quality Roofing replaces a roof after a chronic leak across Orange and Essex County, stripping the failed roof to the deck, replacing rotted sheathing, and installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
   overview: [
-    'Newark Quality Roofing delivers expert roof replacement after leak in Orange — with prices starting from $8,500–$25,000 and free estimates available today. Roof replacement after chronic leaking is the decision Orange homeowners reach when repeated repairs fail to solve persistent water entry. Our [roof replacement after leak](/roof-replacement-after-leak) projects address the systemic failures that patching cannot fix -- widespread flashing deterioration, deck rot beneath a surface that looks intact, failed shingle seals across the entire roof plane, and ventilation deficiencies that create condensation damage misidentified as exterior leaks. When the repair cycle has consumed thousands without lasting results, replacement resets the entire system.',
-    'Orange\'s Valley neighborhood generates a disproportionate share of leak-driven replacements because the area\'s moisture dynamics attack roofs from below as well as above. Homeowners who have repaired exterior leak points repeatedly may still experience water damage from condensation forming on cold roof decking in poorly ventilated attics. The replacement project becomes the vehicle for solving both the surface waterproofing and the below-deck moisture management that the Valley\'s conditions demand.',
-    'For Orange investment property owners managing rental units with leak histories, replacement after chronic leaking is often the most cost-effective decision. The cumulative cost of emergency repair calls, tenant complaints, interior damage remediation, and lost rental income during disruptions frequently exceeds the amortized cost of a new roof within three to five years. Our leak-history analysis for Orange landlords quantifies these ongoing costs against the one-time replacement investment, making the financial case clear. Landlords with properties across [Newark](/roof-replacement-after-leak-newark-nj) and Orange face the same repair-cost accumulation on aging multi-family buildings.'
+    '**Newark Quality Roofing replaces a roof after a chronic leak across Orange when repeated repairs no longer stop the water** — on two- and three-family homes, Seven Oaks detached houses, Main Street commercial blocks, and Valley Arts loft buildings. Roof replacement after a leak resets the underlayment-and-cover system rather than patching the detail that admits water.',
+    '**Repeated repairs** signal a systemic failure rather than an isolated defect when a leak returns across attempts, and the contractor-consensus thresholds favor replacement after 3 or more repairs in 2 years, a leak path across more than 25–30% of the roof, or one repair near 50% of replacement cost, per WeatherShield and roofing-industry repair-vs-replace guidance. A Newark Quality Roofing assessment traces the recurring leak to the root-cause detail before quoting a replacement.',
+    '**Rotted sheathing** hides beneath a cover that looks intact, because trapped moisture from a prolonged leak decays plywood or OSB until it loses the ability to grip a roofing nail, per InterNACHI, and roofing nails penetrate at least ¾ inch into solid deck, per ARMA. A Newark Quality Roofing replacement strips the roof to the bare deck so the rot a chronic leak leaves behind no longer hides under the cover.',
+    '**Older Orange stock** carries this risk widely, because much of the city is dense two- and three-family and investor-owned housing with roughly half built before 1939, where deferred maintenance lets a single detail leak for years. A Newark Quality Roofing replacement addresses the deck, underlayment, and cover as one system on residential and commercial properties alike.',
   ],
   challenges: [
-    'Determining the actual cause of chronic leaks requires investigation beyond the visible symptoms. Water stains on a ceiling may originate from exterior roof leaks, interior plumbing leaks, condensation in the attic, or ice dam backflow at the eaves. Before committing to a full roof replacement, we verify that the leaks are genuinely roof-sourced by inspecting from the attic during simulated rain conditions. Replacing a roof to solve a plumbing problem wastes the homeowner\'s money.',
-    'Damage assessment on chronically leaking Orange roofs extends beyond the roof surface into the building structure. Persistent water entry causes mold growth on attic framing, insulation contamination, electrical hazard from wet wiring, and wood rot in wall framing at leak migration paths. Our replacement scope includes remediation of these interior consequences where they are accessible during the roof project.',
-    'Valley homeowners may need ventilation and vapor barrier upgrades in addition to the new roof surface to permanently solve their moisture problems. If the replacement addresses only the exterior membrane while the attic environment continues to produce condensation, the new roof will develop the same moisture issues as the old one. Our leak-driven replacement specifications for Valley properties include the complete moisture management system, not just the surface material.'
+    '**Tenant-occupied access** shapes most Orange replacements, because the city is roughly 76% renter-occupied and dense with two- and three-family and investor-owned buildings where the deck cannot be torn off without coordinating around residents. A Newark Quality Roofing project sets a staging and access plan, and an owner provides tenants written entry notice under New Jersey landlord-tenant practice.',
+    '**Low-slope loft roofs** define the Valley Arts converted-industrial section, where large flat membrane decks, parapets, and internal drains fail at the seams and at rooftop penetrations. A low-slope roof needs at least ¼ inch per foot of slope to drain, and ponding water held more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing replacement maps the standing water before installing a new EPDM, TPO, or modified-bitumen system.',
+    '**Recover-versus-tear-off limits** govern any leaked Orange roof, because a new covering cannot be installed over a water-soaked or deteriorated deck, per IRC Section R908, and the NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, per N.J.A.C. 5:23-6.4. A Newark Quality Roofing tear-off replaces the rotted sheathing rather than roofing over it.',
   ],
   process: [
-    'Before recommending replacement, we conduct a leak investigation that distinguishes between roof-sourced water entry and other moisture sources. We access the attic during rain or with controlled water testing, trace moisture paths from ceiling stains to their entry points, and assess the overall condition of the roof system. Only when the investigation confirms that the leaks are roof-systemic and beyond repair do we recommend full replacement.',
-    'The replacement specification addresses every contributing factor identified during investigation -- not just the failed shingles but the undersized flashings, missing ice shield, inadequate ventilation, and deteriorated deck that allowed the chronic leaking to persist through repeated repairs. For Valley properties, we add vapor barriers and enhanced ventilation to the specification. The result is a complete moisture management system, not just a new surface.',
-    'Construction includes remediation of accessible interior damage. We treat mold-affected framing with antimicrobial sealant, replace insulation contaminated by water or mold, and identify any electrical wiring that has been exposed to moisture. The homeowner receives documentation of all remediation work performed, which satisfies insurance requirements and provides a clean baseline for the building\'s condition going forward.'
+    '**Newark Quality Roofing traces the recurring leak to the root-cause detail and applies the repair-vs-replace thresholds before quoting a replacement.** The 3-repairs rule favors replacement after 3 or more repairs in 2 years, the 25% rule after damage crosses 25–30% of the roof, and the 50% rule when one repair approaches 50% of replacement cost, per WeatherShield and roofing-industry guidance, so a localized repair quotes only while an asphalt roof stays under 10 to 15 years and the damage stays localized, per Home Depot cost data.',
+    '**Newark Quality Roofing strips the leaked roof to the bare deck and replaces the rotted sheathing a chronic leak leaves behind.** Deteriorated plywood or OSB that no longer grips a nail is replaced rather than roofed over, because IRC Section R908 prohibits a new covering over a water-soaked or deteriorated deck and N.J.A.C. 5:23-6.4 requires complete removal of a water-soaked covering, per InterNACHI and ARMA.',
+    '**Newark Quality Roofing installs an ice barrier and synthetic underlayment over the repaired deck and installs the cover to manufacturer specification.** The ice barrier runs from the eave to a point at least 24 inches inside the exterior wall line per IRC Section R905.1.2, and installing to manufacturer specification preserves the material warranty that covers factory defects, separate from the written workmanship warranty that backs the labor, per Owens Corning warranty guidance.',
   ],
   faqs: [
     {
-      question: 'How do I know when to stop repairing and start replacing my Orange roof?',
-      answer: 'Replace when you have spent more than $3,000 on leak repairs within a three-year period, when leaks recur at previously repaired locations, when multiple unrelated leak points develop simultaneously, or when inspection reveals widespread underlying damage. Continuing to repair a systemically failed roof costs more long-term than replacing it.'
+      question: 'How do I know when to stop repairing and replace my Orange roof?',
+      answer:
+        'Replacement returns more value than another repair when a leak recurs after 3 or more repairs in 2 years, when damage exceeds 25–30% of the roof, when the deck is moisture-rotted, or when one repair nears 50% of replacement cost. These are contractor-consensus thresholds, and a localized repair costs 5 to 10 times less than replacement only while an asphalt roof stays under 10 to 15 years, per WeatherShield and Home Depot cost data.',
     },
     {
-      question: 'Will replacing my Orange roof definitely stop the leaks?',
-      answer: 'If the leaks are confirmed as roof-sourced, yes. Our replacement projects address every component that contributes to water entry. If our investigation reveals that some moisture comes from non-roof sources -- plumbing, condensation, foundation moisture wicking -- we identify those additional issues so the homeowner can address them alongside or separately from the roof replacement.'
+      question: 'Do I need a permit to replace the roof on my Orange home?',
+      answer:
+        'A complete tear-off and replacement of the roof covering on a detached one- or two-family home counts as ordinary maintenance under N.J.A.C. 5:23-2.7 and requires no construction permit, no inspection, and no notice to the construction official, per the NJ Uniform Construction Code. On a commercial, multi-family, or attached building — a large share of Orange stock — a roof replacement requires a permit, and structural work on rotted rafters always triggers one. The City of Orange Township Building & Construction Division administers the state classification.',
     },
     {
-      question: 'Can I claim insurance for roof replacement after chronic leaking?',
-      answer: 'Insurance typically covers storm damage and sudden events but not gradual deterioration or deferred maintenance. If a specific storm event caused damage that began the leak cycle, that event may be claimable. If the leaking has developed gradually over years without a specific triggering event, insurance is unlikely to cover replacement. We can help you review your policy provisions and claim history.'
+      question: 'Can a new roof be installed over my leaked roof without a tear-off?',
+      answer:
+        'A new covering cannot be installed over a water-soaked or deteriorated deck, per IRC Section R908, so a roof leaked long enough to rot the deck requires a full tear-off. The NJ Rehabilitation Subcode requires complete removal of a water-soaked covering, per N.J.A.C. 5:23-6.4, and a recover hides deck rot a tear-off repairs, per InterNACHI.',
     },
     {
-      question: 'What additional work is needed for leak-prone Valley homes?',
-      answer: 'Valley homes with chronic leaks typically need vapor barrier installation, soffit-to-ridge ventilation upgrade, and potentially attic dehumidification in addition to the new roof surface. These moisture management components address the below-deck condensation that contributes to water damage in the Valley\'s high-moisture environment. Without these additions, a new roof surface alone may not fully resolve the moisture issues.'
+      question: 'Does a roof replacement in an Orange historic district need extra approval?',
+      answer:
+        'Regulated exterior roofing work requires a Certificate of Appropriateness from the City of Orange Township Historic Preservation Commission only on a property inside one of the four locally designated districts — Orange Valley, Montrose/Seven Oaks Park, Main Street, and St. John\'s — or a designated significant property, under Development Regulations Ch. 210, Art. X. The COA is binding and separate from the construction permit, emergency repairs may proceed first, and a property outside a designated district is not subject to a COA. A National or State Register listing alone places no restriction, per the National Park Service.',
     },
     {
-      question: 'How much does roof replacement after leak cost in Orange, NJ?',
-      answer: 'Most roof replacement after leak projects in Orange range from $8,500–$25,000. Your exact cost depends on roof size, materials, and project complexity. We provide free, detailed written estimates with no obligation — call us today to schedule yours.',
+      question: 'Does homeowners insurance cover roof replacement after a leak?',
+      answer:
+        'Homeowners insurance covers roof replacement when a covered peril causes the damage — wind, hail, a falling tree, or fire — and excludes replacement for normal wear, age, or deferred maintenance, so a long-neglected chronic leak often falls outside coverage. Wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute. Newark Quality Roofing documents the damage with timestamped photographs for the adjuster.',
+    },
+    {
+      question: 'How much does roof replacement after a leak cost in Orange, NJ?',
+      answer:
+        'Roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize cost data. Rotted-deck replacement adds cost when a prolonged leak deteriorates the sheathing, and re-decking runs $2 to $5 per square foot, per HomeGuide. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
     },
   ],
-  metaDescription: 'Roof replacement after leak in Orange NJ -- chronic leak investigation, Valley moisture management, interior damage remediation, and system-level solutions.',
+  metaDescription:
+    'Roof replacement after a leak in Orange NJ — tear-off to the deck, rotted-sheathing replacement, Valley Arts low-slope membranes. NJ-licensed, free estimate.',
   pricing: {
-    range: '$8,500–$25,000',
-    note: 'when repair is no longer viable',
+    range: '$10,000–$25,000',
+    note: 'Typical NJ roof-replacement range per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   whyChooseUs: [
-    'NJ licensed, GAF Certified — 15+ years protecting Essex County homes and businesses.',
-    'Transparent pricing with free written estimates — no hidden fees, no surprises.',
-    'Premium materials from GAF, CertainTeed, and Owens Corning with manufacturer warranties.',
-    'Local team that knows Orange — same-day estimates and 24/7 emergency response.',
+    'New Jersey Home Improvement Contractor — licensed and insured.',
+    'Local Essex County crew familiar with Orange\'s dense two-/three-family, converted-loft, and older-detached building stock.',
+    'Free, detailed written estimates with no obligation.',
+    'Workmanship documented with photos for your records and any insurance claim.',
   ],
   conversionHooks: {
-    midPageCta: 'Get your free roof replacement after leak estimate in Orange — call now or fill out our form.',
-    urgencyNote: 'Don\'t wait for minor damage to become a major expense. Early action saves thousands.',
+    midPageCta: 'Get your free written estimate for roof replacement after a leak in Orange.',
+    urgencyNote: 'Addressing a chronic leak early limits deck rot and interior and structural water damage.',
   },
 };
