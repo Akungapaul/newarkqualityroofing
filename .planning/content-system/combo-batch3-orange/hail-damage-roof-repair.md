@@ -1,0 +1,16 @@
+# orange / hail-damage-roof-repair — rewrite rationale
+
+## De-fab literals cleared
+- **Fabricated geography (deleted):** the entire "South Mountain Reservation elevation / convective-cell micro-climate" premise in overview/process/FAQs — Orange is one municipality removed from the reservation (it is in West Orange). Removed "Scotland Road may sustain damage while Central Avenue shows none" hyper-local invented distribution and the "South Mountain-adjacent Orange homes" framing. No reservation/river/flood/waterfront/"flat plain" claim remains.
+- **overview[0] price + hype:** removed "delivers expert … with prices starting from $500–$2,500 and free estimates available today" → replaced with a figure-free definitional ≤40w lead. No price in any prose lead.
+- **Inline self-links stripped:** `[hail damage roof repair](/...)` and `[Bloomfield](/...)` cross-link removed; zero links anywhere.
+- **whyChooseUs:** dropped "GAF Certified," "15+ years," "same-day," "24/7 emergency response," "Premium materials from GAF, CertainTeed, Owens Corning with manufacturer warranties," "Transparent pricing / no hidden fees" → replaced with the brief's factual reasons (NJ HIC licensed+insured, local Essex crew, HAAG test-square method, photo documentation).
+- **conversionHooks:** "Don't wait … Early action saves thousands" hype softened to a factual documentation prompt; CTA de-hyped to "Get your free written estimate."
+- **pricing.note:** "often covered by homeowner insurance" (unsourced guarantee) → sourced NJ hail-repair range with free-written-estimate framing.
+- **Unsourced numbers fixed:** dropped the bare "15 to 25 years"/"20-year-old shingle" claims and "one-half to one inch" hail figure; all hard numbers now name-sourced (NOAA 0.75 in; AMS 1.0/1.25/2.0 in; Triple-I 2.8%/1-in-36/$14,747; InterNACHI EPDM/TPO/mod-bit lifespans; UL 2218 Class 4 +10–20% / 10–35% discounts; NOAA 25–30 thunderstorms/yr). Removed unverifiable "two weeks" inspection-window assertion.
+
+## Local texture preserved (restructured answer-first)
+Orange dense two-/three-family + ~76% renter / investor-owned stock with NJ landlord-tenant tenant-access coordination; Valley Arts converted-industrial loft buildings (low-slope membrane); Main Street downtown commercial; Seven Oaks older detached homes; roughly-half-pre-1939 aged shingle stock. Permit path localized to the City of Orange Township Building & Construction Division. COA NOT forced — hail repair is an ordinary non-historic emergency-type service, so no historic-district gate asserted.
+
+## Named sources cited
+NOAA (severe-hail 0.75 in; 25–30 thunderstorms/yr); American Meteorological Society (1.0/1.25/2.0 in damage thresholds); IBHS (kinetic-energy hail, Class 3/4 recommendation, hail-assessment); HAAG Engineering (test-square method, functional vs cosmetic); Insurance Information Institute / Triple-I (wind-hail 2.8%, 1-in-36, $14,747, 2019–2023); InterNACHI (EPDM 15–25 / TPO 7–20 / mod-bit 20 yr; aging); GAF (granule/aging); UL 2218 / Federal Alliance for Safe Homes (Class 4); RoofVista + Texas Department of Insurance (+10–20% cost, 10–35% discount); HomeAdvisor / Angi / This Old House (cost ranges); N.J.A.C. 5:23-2.7 (ordinary maintenance + 25% rule).

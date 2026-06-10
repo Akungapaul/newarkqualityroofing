@@ -1,0 +1,14 @@
+# green-roof-installation (Orange) — rewrite rationale
+
+**De-fab literals cleared from the prior file:**
+- `overview[0]` price+hype lead ("delivers expert ... prices starting from $15–$35/sq ft and free estimates available today") → replaced with a figure-free definitional ≤40-word lead.
+- Inline markdown self-links (`[green roof installation](/green-roof-installation)`, `[Newark](/...)`, `[aging roof replacement](/...)`) → stripped; zero links in the file.
+- `whyChooseUs` templated trust lines ("GAF Certified", "15+ years", "same-day estimates and 24/7 emergency response", "Premium materials from GAF/CertainTeed/Owens Corning with manufacturer warranties") → replaced with the brief's 4 factual raw reasons (NJ HIC licensed & insured; local Essex County crew; free written estimates; photo-documented workmanship).
+- `conversionHooks.urgencyNote` "Early action saves thousands" hype → factual prompt about flood-testing the buried membrane.
+- Invented geography removed: prior file's "runoff from South Mountain concentrates" in the Valley (Orange is one municipality removed from the South Mountain Reservation), unsourced surface-temp/heat-island degree framing, fabricated per-sq-ft maintenance and absorption figures ("$1–$2/sq ft", "absorb 50 to 80%"), and the self-derived "$45,000–$75,000" project total. No river/flood/reservation/"flat plain" claim retained. Stormwater framed qualitatively via Orange's municipal stormwater program only.
+
+**Preserved Orange texture:** Valley Arts converted-industrial/loft flat & low-slope roofs near Highland Avenue station; Main Street commercial/mixed-use; heavy 2-/3-family + investor/landlord ownership (~76% renter) with tenant-occupied access under NJ landlord–tenant notice; older pre-1939 stock; Watchung-ridge / dense street-tree wind-and-debris stressor (NOT a reservation).
+
+**Named sources cited in-text:** InterNACHI life-expectancy chart (green/vegetation roof 5–40 yrs; EPDM 15–25, TPO 7–20, modified bitumen 20); Single Ply Roofing Industry + GAF EverGuard warranty data (PVC 20–30 yrs); NRCA and ARMA (¼-in/ft drainage slope, 48-hr ponding defect); N.J.A.C. 5:23-2.7 (ordinary-maintenance / 25% commercial-multifamily permit rule) and the City of Orange Township Building & Construction Division; City of Orange Township Historic Preservation Commission COA under Development Regulations Ch. 210, Art. X (four districts: Orange Valley, Montrose/Seven Oaks Park, Main Street, St. John's); commercial cost guides (M&M Roofing, WeatherStar) and Josten Roofing NJ pricing for the substrate cost range.
+
+**Gate checks:** parse OK (esbuild transformSync); directAnswer 35w; overview[0] 40w (figure-free); challenges[0] 30w; process[0] 23w; all 6 FAQ first sentences ≤40w (max 39, cost FAQ); meta 158 chars; no `**` in raw fields; no modality in declaratives; no de-fab literals; no links.

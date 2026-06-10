@@ -1,0 +1,768 @@
+[
+  {
+    "file": "aging-roof-replacement",
+    "serviceId": "aging-roof-replacement",
+    "exportName": "orangeAgingRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "asphalt-shingle-roof-replacement",
+    "serviceId": "asphalt-shingle-roof-replacement",
+    "exportName": "orangeAsphaltShingleRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "asphalt-shingle-roofing",
+    "serviceId": "asphalt-shingle-roofing",
+    "exportName": "orangeAsphaltShingleRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "built-up-roofing",
+    "serviceId": "built-up-roofing",
+    "exportName": "orangeBuiltUpRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "cedar-shake-roof-replacement",
+    "serviceId": "cedar-shake-roof-replacement",
+    "exportName": "orangeCedarShakeRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "cedar-shake-roofing",
+    "serviceId": "cedar-shake-roofing",
+    "exportName": "orangeCedarShakeRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "chimney-flashing-repair",
+    "serviceId": "chimney-flashing-repair",
+    "exportName": "orangeChimneyFlashingRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-metal-roofing",
+    "serviceId": "commercial-metal-roofing",
+    "exportName": "orangeCommercialMetalRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-installation",
+    "serviceId": "commercial-roof-installation",
+    "exportName": "orangeCommercialRoofInstallation",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-repair",
+    "serviceId": "commercial-roof-repair",
+    "exportName": "orangeCommercialRoofRepair",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "commercial-roof-replacement",
+    "serviceId": "commercial-roof-replacement",
+    "exportName": "orangeCommercialRoofReplacement",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "custom-roof-design-consultation",
+    "serviceId": "custom-roof-design-consultation",
+    "exportName": "orangeCustomRoofDesignConsultation",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "emergency-roof-repair",
+    "serviceId": "emergency-roof-repair",
+    "exportName": "orangeEmergencyRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "energy-efficient-roofing-solutions",
+    "serviceId": "energy-efficient-roofing-solutions",
+    "exportName": "orangeEnergyEfficientRoofingSolutions",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "epdm-commercial-roofing",
+    "serviceId": "epdm-commercial-roofing",
+    "exportName": "orangeEpdmCommercialRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "fascia-installation-repair",
+    "serviceId": "fascia-installation-repair",
+    "exportName": "orangeFasciaInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "fire-damage-roof-replacement",
+    "serviceId": "fire-damage-roof-replacement",
+    "exportName": "orangeFireDamageRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "flat-roof-installation-repair",
+    "serviceId": "flat-roof-installation-repair",
+    "exportName": "orangeFlatRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "flat-roof-replacement",
+    "serviceId": "flat-roof-replacement",
+    "exportName": "orangeFlatRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "full-roof-tear-off",
+    "serviceId": "full-roof-tear-off",
+    "exportName": "orangeFullRoofTearOff",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "green-roof-installation",
+    "serviceId": "green-roof-installation",
+    "exportName": "orangeGreenRoofInstallation",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "gutter-guard-installation",
+    "serviceId": "gutter-guard-installation",
+    "exportName": "orangeGutterGuardInstallation",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "gutter-installation-repair",
+    "serviceId": "gutter-installation-repair",
+    "exportName": "orangeGutterInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "hail-damage-roof-repair",
+    "serviceId": "hail-damage-roof-repair",
+    "exportName": "orangeHailDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "historic-roof-restoration",
+    "serviceId": "historic-roof-restoration",
+    "exportName": "orangeHistoricRoofRestoration",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "infrared-roof-leak-detection",
+    "serviceId": "infrared-roof-leak-detection",
+    "exportName": "orangeInfraredRoofLeakDetection",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "insurance-roof-replacement",
+    "serviceId": "insurance-roof-replacement",
+    "exportName": "orangeInsuranceRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "metal-roof-installation-repair",
+    "serviceId": "metal-roof-installation-repair",
+    "exportName": "orangeMetalRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "metal-roof-replacement",
+    "serviceId": "metal-roof-replacement",
+    "exportName": "orangeMetalRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "modified-bitumen-roofing",
+    "serviceId": "modified-bitumen-roofing",
+    "exportName": "orangeModifiedBitumenRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "pvc-roofing",
+    "serviceId": "pvc-roofing",
+    "exportName": "orangePvcRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "re-roofing",
+    "serviceId": "re-roofing",
+    "exportName": "orangeReRoofing",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "residential-roof-installation",
+    "serviceId": "residential-roof-installation",
+    "exportName": "orangeResidentialRoofInstallation",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-cleaning-moss-removal",
+    "serviceId": "roof-cleaning-moss-removal",
+    "exportName": "orangeRoofCleaningMossRemoval",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-deck-repair-replacement",
+    "serviceId": "roof-deck-repair-replacement",
+    "exportName": "orangeRoofDeckRepairReplacement",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-flashing-installation-repair",
+    "serviceId": "roof-flashing-installation-repair",
+    "exportName": "orangeRoofFlashingInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-ice-dam-prevention",
+    "serviceId": "roof-ice-dam-prevention",
+    "exportName": "orangeRoofIceDamPrevention",
+    "categoryFile": "design-consultation.ts",
+    "packs": [
+      "facts-historic-restoration",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-inspection",
+    "serviceId": "roof-inspection",
+    "exportName": "orangeRoofInspection",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-leak-repair",
+    "serviceId": "roof-leak-repair",
+    "exportName": "orangeRoofLeakRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-maintenance-programs",
+    "serviceId": "roof-maintenance-programs",
+    "exportName": "orangeRoofMaintenancePrograms",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-overlay-installation",
+    "serviceId": "roof-overlay-installation",
+    "exportName": "orangeRoofOverlayInstallation",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "roof-repair",
+    "serviceId": "roof-repair",
+    "exportName": "orangeRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-replacement",
+    "serviceId": "roof-replacement",
+    "exportName": "orangeRoofReplacement",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "roof-replacement-after-leak",
+    "serviceId": "roof-replacement-after-leak",
+    "exportName": "orangeRoofReplacementAfterLeak",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "roof-replacement-cost",
+    "serviceId": "roof-replacement-cost",
+    "exportName": "orangeRoofReplacementCost",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-thermal-imaging-inspections",
+    "serviceId": "roof-thermal-imaging-inspections",
+    "exportName": "orangeRoofThermalImagingInspections",
+    "categoryFile": "commercial-services.ts",
+    "packs": [
+      "facts-process-standards",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-vent-installation-repair",
+    "serviceId": "roof-vent-installation-repair",
+    "exportName": "orangeRoofVentInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "roof-waterproofing",
+    "serviceId": "roof-waterproofing",
+    "exportName": "orangeRoofWaterproofing",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "rubber-roofing-epdm",
+    "serviceId": "rubber-roofing-epdm",
+    "exportName": "orangeRubberRoofingEpdm",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "silicone-elastomeric-roof-coating",
+    "serviceId": "silicone-elastomeric-roof-coating",
+    "exportName": "orangeSiliconeElastomericRoofCoating",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "silicone-roof-coating",
+    "serviceId": "silicone-roof-coating",
+    "exportName": "orangeSiliconeRoofCoating",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "skylight-installation-repair",
+    "serviceId": "skylight-installation-repair",
+    "exportName": "orangeSkylightInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "slate-roof-installation-repair",
+    "serviceId": "slate-roof-installation-repair",
+    "exportName": "orangeSlateRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "slate-roof-replacement",
+    "serviceId": "slate-roof-replacement",
+    "exportName": "orangeSlateRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "soffit-installation-repair",
+    "serviceId": "soffit-installation-repair",
+    "exportName": "orangeSoffitInstallationRepair",
+    "categoryFile": "components-specialty.ts",
+    "packs": [
+      "facts-components-specialty",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "solar-panel-roofing-installation",
+    "serviceId": "solar-panel-roofing-installation",
+    "exportName": "orangeSolarPanelRoofingInstallation",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "solar-shingle-installation",
+    "serviceId": "solar-shingle-installation",
+    "exportName": "orangeSolarShingleInstallation",
+    "categoryFile": "energy-solar.ts",
+    "packs": [
+      "facts-energy-solar",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "spray-foam-roofing",
+    "serviceId": "spray-foam-roofing",
+    "exportName": "orangeSprayFoamRoofing",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "storm-damage-roof-repair",
+    "serviceId": "storm-damage-roof-repair",
+    "exportName": "orangeStormDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "keep"
+  },
+  {
+    "file": "storm-damage-roof-replacement",
+    "serviceId": "storm-damage-roof-replacement",
+    "exportName": "orangeStormDamageRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "redirect"
+  },
+  {
+    "file": "tile-roof-installation-repair",
+    "serviceId": "tile-roof-installation-repair",
+    "exportName": "orangeTileRoofInstallationRepair",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "tile-roof-replacement",
+    "serviceId": "tile-roof-replacement",
+    "exportName": "orangeTileRoofReplacement",
+    "categoryFile": "replacement-sub-pages.ts",
+    "packs": [
+      "facts-replacement-reroofing-insurance",
+      "facts-cost-stats",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "tpo-roofing-installation",
+    "serviceId": "tpo-roofing-installation",
+    "exportName": "orangeTpoRoofingInstallation",
+    "categoryFile": "commercial-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "wind-damage-roof-repair",
+    "serviceId": "wind-damage-roof-repair",
+    "exportName": "orangeWindDamageRoofRepair",
+    "categoryFile": "repair-maintenance.ts",
+    "packs": [
+      "facts-causes-signs",
+      "facts-cost-stats",
+      "facts-process-standards",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  },
+  {
+    "file": "wood-shake-roofing",
+    "serviceId": "wood-shake-roofing",
+    "exportName": "orangeWoodShakeRoofing",
+    "categoryFile": "residential-roof-types.ts",
+    "packs": [
+      "facts-materials-economics",
+      "facts-nj-regulatory-climate"
+    ],
+    "verdict": "noindex"
+  }
+]
