@@ -7,7 +7,9 @@ export const energySolarContent: ServiceContent[] = [
   {
     serviceId: 'solar-panel-roofing-installation',
     directAnswer:
-      '**Newark Quality Roofing handles the roofing side of solar panel installation across Newark and Essex County — flashing each rack-mount foot watertight, verifying the structure, and coordinating with the solar installer** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor handling the roofing side of solar panel installation across Newark, New Jersey, and Essex County**, flashing each mount watertight and coordinating with the solar installer as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Solar panel roofing installation** is the roofing work that supports a rack-mounted photovoltaic array — flashing each mount foot watertight, verifying the roof structure carries the added load, and matching the attachment detail to the roof-covering warranty. It prepares and seals the roof so the panels mount without creating a leak path.`,
     overview: [
       '**Newark Quality Roofing covers 4 roofing tasks that a rack-mounted solar array depends on across Essex County: watertight mount flashing, roof-structure load verification, fire and electrical code coordination, and roof-age assessment before install** — for residential and commercial properties. Solar panel roofing installation secures the photovoltaic array to the roof without compromising the water layer, the warranty, or the structure.',
       'A Newark Quality Roofing solar-mount job flashes each attachment so water sheds onto intact shingles, because the flashing flange tucks under the upslope shingle course while a flashing sitting on top of the course is a leak path, per the NRCA Rooftop PV Guidelines and IronRidge. Mount flashing follows the roof-covering manufacturer flashing instructions with a compatible sealant, because deviation voids the roofing warranty, so the solar installer coordinates with the roofer before the array goes on, per the NRCA and Solar Power World.',
@@ -161,7 +163,7 @@ export const energySolarContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -191,7 +193,9 @@ export const energySolarContent: ServiceContent[] = [
   {
     serviceId: 'solar-shingle-installation',
     directAnswer:
-      '**Newark Quality Roofing installs solar shingles across Newark and Essex County, replacing the roof covering with building-integrated solar shingles that generate power while serving as the roof itself** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that installs solar shingles across Newark, New Jersey, and Essex County**, replacing the roof covering with photovoltaic shingles that serve as the roof itself as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Solar shingle installation** replaces a roof covering with building-integrated photovoltaic shingles that generate electricity while serving as the roof itself. The photovoltaic material is the roof surface, distinct from rack-mounted panels added on top of a finished roof.`,
     overview: [
       '**Newark Quality Roofing installs 3 building-integrated solar-shingle systems across Essex County: GAF Energy Timberline Solar, Tesla Solar Roof, and CertainTeed Solstice** — for residential properties replacing or re-roofing a home. A solar shingle is building-integrated photovoltaics, BIPV, where the photovoltaic material is the roof covering itself, distinct from building-applied photovoltaics, BAPV, the rack-mounted panels added on top of an existing roof, per the DOE Office of Energy Efficiency and Renewable Energy and IEA-PVPS.',
       'A solar shingle installation replaces the roof covering rather than adding hardware to a finished roof, so a solar-shingle project pairs with a new roof or a full reroof, and CertainTeed states the Solstice system installs on a new roof or reroof only and cannot go over an existing roof, per CertainTeed. A solar shingle costs more per watt and generates less per square foot than a rack-mounted panel, so a solar-shingle roof suits a homeowner prioritizing the integrated appearance of a uniform roof surface over the lower per-watt cost of panels, per SolarReviews and EnergySage cost data.',
@@ -345,7 +349,7 @@ export const energySolarContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Roof-First Solar Integration',
@@ -370,7 +374,9 @@ export const energySolarContent: ServiceContent[] = [
   {
     serviceId: 'energy-efficient-roofing-solutions',
     directAnswer:
-      '**Newark Quality Roofing provides energy efficient roofing solutions across Newark and Essex County, installing cool reflective membranes and coatings, above-deck insulation, radiant barriers, and balanced attic ventilation** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing energy efficient roofing solutions across Newark, New Jersey, and Essex County**, installing reflective membranes and coatings, above-deck insulation, radiant barriers, and balanced attic ventilation as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Energy efficient roofing solutions** combine a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow into the building below. The two levers — reflective membranes and coatings, plus above-deck insulation, radiant barriers, and balanced attic ventilation — lower roof surface temperature and the cooling load beneath the roof.`,
     overview: [
       '**Newark Quality Roofing installs 5 energy efficient roofing solutions across Essex County: white reflective TPO and PVC membrane, reflective elastomeric coatings, continuous above-deck insulation, radiant barriers, and attic ventilation with code-minimum ceiling insulation** — for residential and commercial properties. Energy efficient roofing combines a high-reflectance surface that rejects solar heat with conductive insulation that slows heat flow, two separate levers that lower roof surface temperature and the cooling load beneath the roof.',
       'A cool roof works on 2 measured radiative properties: solar reflectance, the fraction of solar energy the roof reflects on a 0-to-1 scale, and thermal emittance, how efficiently the surface re-radiates absorbed heat on a 0-to-1 scale, per the EPA and the CRRC. The EPA calls solar reflectance the most important characteristic of a cool roof, and the CRRC-1 Rated Products Directory lists the initial and 3-year aged reflectance and emittance of rated products, reporting performance only rather than declaring a product cool, per the CRRC.',
@@ -529,7 +535,7 @@ export const energySolarContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -559,7 +565,9 @@ export const energySolarContent: ServiceContent[] = [
   {
     serviceId: 'silicone-roof-coating',
     directAnswer:
-      '**Newark Quality Roofing provides silicone roof coating across Newark and Essex County, restoring low-slope and flat roofs with a liquid-applied silicone membrane that resists ponding water and reflects sunlight** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing silicone roof coating across Newark, New Jersey, and Essex County**, restoring low-slope and flat roofs with a liquid-applied membrane that resists ponding water as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Silicone roof coating** is a liquid-applied silicone membrane that restores a low-slope or flat roof in place, sealing seams, splits, and flashings under one monolithic surface. The hydrophobic silicon-oxygen backbone resists ponding water without softening and reflects sunlight to lower roof surface temperature.`,
     overview: [
       '**Newark Quality Roofing restores low-slope and flat commercial roofs across Essex County with silicone roof coating, a liquid-applied silicone membrane governed by ASTM D6694 that seals seams, splits, and flashings under one monolithic surface.** Silicone roof coating recoats an existing roof in place rather than tearing it off, extending service life at a fraction of replacement cost and keeping the old roof out of landfill, per the RCMA.',
       'Silicone roof coating cures by reacting with atmospheric moisture as a single-component moisture-cure system, which allows application in colder and higher-humidity conditions than water-evaporation acrylics, per Henry and the RCMA. A 100% silicone coating carries a hydrophobic silicon-oxygen backbone that resists permanent and standing water without softening or losing adhesion, the property that separates silicone restoration from water-based coatings on ponding-prone Essex County flat roofs, per the RCMA, Gaco, Tremco, Henry, and GE/Momentive.',
@@ -719,7 +727,7 @@ export const energySolarContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -749,7 +757,9 @@ export const energySolarContent: ServiceContent[] = [
 {
   serviceId: 'silicone-elastomeric-roof-coating',
   directAnswer:
-    '**Newark Quality Roofing applies silicone elastomeric roof coating on commercial and flat residential roofs across Essex County, selecting the chemistry — silicone or acrylic — that matches the ponding, dirt-pickup, and thermal-movement conditions** as a New Jersey Home Improvement Contractor.',
+    `**Newark Quality Roofing is a roofing contractor applying silicone elastomeric roof coating across Newark, New Jersey, and Essex County**, matching the chemistry to the roof's ponding, dirt-pickup, and thermal-movement conditions as a registered New Jersey Home Improvement Contractor.`,
+  definition:
+    `**Silicone elastomeric roof coating** is a liquid-applied membrane that stretches and recovers to accommodate the daily thermal movement of a low-slope roof, sealing it under one monolithic surface. The chemistry — silicone, acrylic, or polyurethane — is matched to the roof's ponding, dirt-pickup, and movement conditions.`,
   overview: [
     '**Newark Quality Roofing applies silicone elastomeric roof coating across Essex County and matches the coating chemistry to the roof, because the RCMA recognizes 3 liquid-applied elastomeric coating chemistries: silicone (ASTM D6694), acrylic (ASTM D6083), and polyurethane (ASTM D6947)** — for low-slope commercial and flat residential roofs. An elastomeric roof coating is a liquid-applied membrane that stretches and recovers to accommodate the daily thermal movement of the roof, the property that separates an elastomeric coating from a rigid film.',
     'Elastomeric describes the high elongation of the cured film: a Simiron TEKTOP silicone coating reaches 279% elongation per ASTM D412, and an Acrymax AF-130FR acrylic coating reaches 220% per ASTM D2370, the manufacturer datasheet values that show each chemistry exceeds elastomeric minimums, per Simiron and Acrymax product data. A silicone elastomeric coating cures by reacting with atmospheric moisture, a single-component moisture-cure that allows colder and higher-humidity application than a water-evaporation acrylic, per Henry and the RCMA, so a Newark Quality Roofing coating selection starts with the roof condition rather than the product.',
@@ -903,7 +913,7 @@ export const energySolarContent: ServiceContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
       },
       {
         title: 'Insured',

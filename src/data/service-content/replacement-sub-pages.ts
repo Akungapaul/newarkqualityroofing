@@ -7,7 +7,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
 {
   serviceId: 'full-roof-tear-off',
   directAnswer:
-    '**Newark Quality Roofing provides full roof tear off across Newark and Essex County, stripping every existing roof layer to the deck, repairing the sheathing, then installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing full roof tear off across Newark, New Jersey, and Essex County**, stripping every roof layer to the deck and installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    `**Full roof tear off** removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike a recover that leaves the old covering in place.`,
   overview: [
     '**Newark Quality Roofing performs full roof tear off across Essex County in 3 phases: complete removal of all existing roof covering to the bare deck, deck inspection and repair, then a new underlayment-and-cover installation** — for residential and commercial properties. Full roof tear off strips the asphalt, underlayment, and any overlay layers a roof carries, exposing the roof deck for the inspection a roof-over cannot provide.',
     'A full roof tear off lets a roofer inspect the roof deck, repair any damage, and improve deck attachment to the structure, while a recover hides rot and water damage under the new covering, per the Asphalt Roofing Manufacturers Association and InterNACHI. The NJ Rehabilitation Subcode requires complete removal of the existing covering, with no recover-over, in 3 conditions, per N.J.A.C. 5:23-6.4, so a full roof tear off is the code-mandated path for a water-soaked deck, a wood-shake or slate covering, or a roof already carrying 2 layers.',
@@ -159,7 +161,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
       },
       {
         title: 'Insured',
@@ -184,7 +186,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
 {
   serviceId: 'roof-overlay-installation',
   directAnswer:
-    '**Newark Quality Roofing installs roof overlays across Newark and Essex County, applying a second layer of asphalt shingles over one existing sound asphalt layer without a tear-off** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor installing roof overlays across Newark, New Jersey, and Essex County**, applying a second layer of asphalt shingles over one existing sound asphalt layer as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    `**Roof overlay installation** applies a new layer of asphalt shingles directly over one existing sound shingle layer without removing the old covering. It adds a second layer rather than stripping the roof to the deck, and is limited to a roof carrying no more than one existing layer.`,
   overview: [
     '**Newark Quality Roofing installs an asphalt-shingle roof overlay across Essex County: a second shingle layer applied over one existing sound asphalt layer, with no tear-off** — for residential properties on a qualifying roof. A roof overlay, the recover defined by ARMA as installing an additional roof covering on an existing roof covering, skips the tear-off labor and the disposal, so a roof overlay runs roughly 20–25% less than a full tear-off, a national figure per HomeGuide and Angi.',
     'A roof overlay delivers less than a tear-off and carries real trade-offs, because a roof overlay hides any deck rot a tear-off catches and repairs, per ARMA and InterNACHI, traps heat that cuts the new shingles\' service life by roughly 20–30%, a national industry estimate per Angi, telegraphs the old shingle profile, per Owens Corning and GAF, and adds dead load across the deck and framing. A roof overlay qualifies on a single sound asphalt layer over a smooth, dry deck, and N.J.A.C. 5:23-6.4 bars a roof overlay where the deck is water-soaked or deteriorated, where the existing covering is wood shake, slate, clay, cement, or asbestos-cement tile, or where 2 or more layers already exist.',
@@ -328,7 +332,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
       },
       {
         title: 'Honest Overlay-vs-Tear-Off Disclosure',
@@ -353,7 +357,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 're-roofing',
     directAnswer:
-      '**Newark Quality Roofing provides re-roofing across Newark and Essex County, replacing a worn roof covering with a new underlayment-and-cover system once the existing roof crosses the replacement threshold by age or condition** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing re-roofing across Newark, New Jersey, and Essex County**, replacing a worn covering with a new underlayment-and-cover system once the roof crosses the replacement threshold as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Re-roofing** replaces a worn roof covering with a new underlayment-and-cover system once the existing roof reaches the end of its service life by age or condition. It renews the entire weatherproof surface rather than patching isolated damage.`,
     overview: [
       '**Newark Quality Roofing re-roofs 5 roof systems across Essex County: 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane** — for residential and commercial properties. Re-roofing replaces a worn roof covering with a new system, the work that fixes a roof past its service life rather than patching a single failed detail, defined by ARMA as recovering or replacing an existing roof covering.',
       'Re-roofing reaches the replacement decision through age and condition: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. Replacement accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence, because most roofs reach the end of service through age and storm loss rather than new construction. A Newark Quality Roofing re-roof matches the new system to the building and the Essex County climate before tear-off.',
@@ -516,7 +522,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -541,7 +547,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'insurance-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing provides insurance roof replacement across Newark and Essex County, inspecting the roof, photographing storm, hail, and fire damage, writing a scope and estimate, and meeting the adjuster on site** as a roofing contractor, not an adjuster.',
+      '**Newark Quality Roofing is a roofing contractor providing insurance roof replacement across Newark, New Jersey, and Essex County**, inspecting the roof, photographing storm and hail damage, and meeting the adjuster on site as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Insurance roof replacement** is a full roof replacement funded through a property-insurance claim for covered storm, hail, wind, or fire damage. It pairs documentation of the damage and a repair scope with the insurer claim process, separate from the work of adjusting the claim.`,
     overview: [
       '**Newark Quality Roofing supports an insurance roof replacement in 4 roofing roles across Essex County: inspecting the roof, documenting the covered damage with photographs, writing a detailed scope and estimate that matches the insurer line items, and meeting the assigned adjuster on site** — for residential and commercial properties. Insurance roof replacement coordinates the roofing work with a property-insurance claim, where the homeowner or a licensed public adjuster files and negotiates the claim and Newark Quality Roofing provides the roofing documentation and performs the approved replacement.',
       'In New Jersey only a licensed public adjuster, under the Public Adjusters\' Licensing Act N.J.S.A. 17:22B administered by NJ DOBI, or a licensed attorney, negotiates or settles a first-party property claim on behalf of the insured for a fee, so Newark Quality Roofing stays inside the roofing-contractor role and does not adjust, negotiate, settle, or guarantee the claim. Property damage accounts for 97.3% of homeowners claims, per the Insurance Information Institute (Triple-I, 2023), and wind and hail rank as the largest claim type at 2.8% of insured homes per year, 1 in 36, with an average claim near $14,747, per the Insurance Information Institute (Triple-I, 2019–2023).',
@@ -702,7 +710,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Compliant Roofing-Contractor Role',
@@ -727,7 +735,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'storm-damage-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces storm-damaged roofs across Newark and Essex County, documenting wind, hail, and nor\'easter damage with photographs and a detailed scope, then installing a new roof to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing storm-damaged roofs across Newark, New Jersey, and Essex County**, documenting wind and hail damage with photographs and a scope, then installing a new roof as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Storm damage roof replacement** removes and rebuilds a roof structurally compromised by wind, hail, or a severe storm, restoring the full weatherproof system. It follows documentation of the storm damage pattern across the covering, flashing, and deck.`,
     overview: [
       '**Newark Quality Roofing replaces storm-damaged roofs across Essex County after 3 storm perils: high wind, hail impact, and nor\'easter coastal storms** — for residential and commercial properties. Storm damage roof replacement strips the failed roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system, the work that restores a roof past partial repair after a covered storm loss.',
       'Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023), and wind and hail drive 40.7% of homeowners claims, the most common peril, per the Insurance Information Institute (Triple-I). Replacement accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence, a market anchored to weather loss and insurance. A Newark Quality Roofing storm replacement documents the damage for the insurance claim and matches the new roof to the Essex County climate before tear-off.',
@@ -899,7 +909,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor, and roofs to the agreed scope and to code rather than adjusting the claim.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor, and roofs to the agreed scope and to code rather than adjusting the claim.',
         },
         {
           title: 'Insured',
@@ -929,7 +939,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'aging-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces aging roofs across Newark and Essex County, stripping a roof at the end of its material lifespan to the deck and installing a new underlayment-and-cover system before age-driven failure** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing aging roofs across Newark, New Jersey, and Essex County**, stripping a roof at the end of its lifespan and installing a new roof as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Aging roof replacement** removes a roof that has reached the end of its material lifespan and installs a new underlayment-and-cover system before age-driven failure begins. It renews a roof worn by cumulative weathering rather than by a single damage event.`,
     overview: [
       '**Newark Quality Roofing replaces 5 aging roof systems across Essex County: 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane** — for residential and commercial properties. Aging roof replacement strips a roof that has reached the end of its service life to the deck, repairs the sheathing, and installs a new underlayment-and-cover system before granule loss, curling, and brittle sealants admit water.',
       'A roof reaches the end of service after a material-specific lifespan: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, wood and cedar 25 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and actual asphalt life varies up to 40% with climate, install, and maintenance, per the NRCA. Older homes report roof leakage at 5.5% against 3.5% for newer homes, roughly twice the rate, per US Census housing-survey data, so a Newark Quality Roofing aging roof replacement targets a roof past its design life before the leak rate climbs.',
@@ -1087,7 +1099,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1112,7 +1124,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'roof-replacement-after-leak',
     directAnswer:
-      '**Newark Quality Roofing replaces a roof after a chronic leak across Newark and Essex County, stripping the failed roof to the deck, replacing rotted sheathing, and installing a new underlayment-and-cover system** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing a roof after a chronic leak across Newark, New Jersey, and Essex County**, stripping the failed roof to the deck and replacing rotted sheathing as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Roof replacement after a leak** strips a roof whose chronic or widespread leaking has saturated the underlayment and deck, replaces rotted sheathing, and installs a new roof system. It addresses moisture damage that a surface repair cannot reverse.`,
     overview: [
       '**Newark Quality Roofing replaces a roof after a chronic leak across Essex County for 4 conditions that exceed repair: 3 or more repairs in 2 years, a leak path across more than 25–30% of the roof, a moisture-rotted deck, and a repair quote near 50% of replacement cost** — on residential and commercial properties. Roof replacement after a leak ends a recurring leak by resetting the underlayment-and-cover system rather than patching the detail that admits water.',
       'A leak enters at one detail and travels before showing as an interior stain, and the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A repair stops a single failed detail, while replacement after a leak addresses a roof past service life: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing replacement after a leak strips the roof to the deck so the rot a chronic leak leaves behind no longer hides under the cover.',
@@ -1260,7 +1274,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1285,7 +1299,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'fire-damage-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces fire-damaged roofs across Newark and Essex County, tearing off the charred covering and deck, replacing heat-weakened framing to a structural assessment, and rebuilding a Class A fire-rated roof** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing fire-damaged roofs across Newark, New Jersey, and Essex County**, tearing off the charred covering and deck and rebuilding a Class A fire-rated roof as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Fire damage roof replacement** removes a charred roof covering and deck, replaces heat-weakened framing identified by a structural assessment, and rebuilds a fire-rated roof. It restores both the weatherproof surface and the structural integrity a fire compromises.`,
     overview: [
       '**Newark Quality Roofing replaces fire-damaged roofs across Essex County, addressing 4 fire-damaged assembly layers: the charred roof covering, the saturated and delaminated decking, the heat-weakened rafters and trusses, and the corroded metal connectors and fasteners** — for residential and commercial properties. Fire damage roof replacement removes the char layer, replaces compromised framing and decking, and rebuilds the roof to current code rather than recovering over fire-weakened material.',
       'A roof is a structural assembly of covering, underlayment, decking, and framing, so fire, heat, smoke, and firefighting water damage span the whole assembly rather than the surface alone, per the U.S. Forest Products Laboratory. The American Wood Council uses a nominal char rate of 1.5 inches of wood per hour for structural fire design, and the char layer carries essentially zero residual structural capacity and is removed, per the American Wood Council. A Newark Quality Roofing fire damage roof replacement rebuilds to a structural assessment and the current code, and a roof covering qualifies as Class A, B, or C under the UL 790 and ASTM E108 fire-test methods, with Class A the most fire-resistant.',
@@ -1447,7 +1463,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Structural Rebuild to Assessment',
@@ -1477,7 +1493,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'roof-replacement-cost',
     directAnswer:
-      '**Newark Quality Roofing replaces residential and commercial roofs across Newark and Essex County, with a New Jersey replacement costing $10,000–$25,000 for a typical home** as a New Jersey Home Improvement Contractor, per HomeAdvisor and Modernize NJ cost data.',
+      '**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across Newark, New Jersey, and Essex County**, with a replacement costing $10,000-$25,000 for a typical home as a registered New Jersey Home Improvement Contractor, per HomeAdvisor data.',
+    definition:
+      `**Roof replacement cost** is the total price to remove an existing roof and install a new one, set by roof size, pitch, material, deck repair, and labor. It covers tear-off, disposal, underlayment, the finish covering, and installation.`,
     overview: [
       '**Newark Quality Roofing prices a roof replacement across Essex County from 7 cost drivers: roof size in squares, pitch and complexity, material choice, existing layers and tear-off, decking repair, flashing and ventilation, and NJ labor and code** — for residential and commercial properties. A roof replacement in New Jersey costs $10,000–$25,000 for a typical home, per HomeAdvisor and Modernize NJ cost data, against a 2025 national average near $10,000–$11,000 per 2025 replacement benchmarks.',
       'NJ replacement ranges sit 10–40% above national figures, because higher labor, stricter NJ code, and an older housing stock often needing extra decking work raise the cost, per Josten Roofing NJ pricing. Material choice drives the per-square-foot cost most, from asphalt shingle at $5.50–$9.50 per square foot, per Josten Roofing NJ pricing, to slate at $10–$30, per NJ roofing guides, so a Newark Quality Roofing free written estimate prices the building, the material, and the Essex County code path before tear-off.',
@@ -1638,7 +1656,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1663,7 +1681,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
 {
   serviceId: 'asphalt-shingle-roof-replacement',
   directAnswer:
-    '**Newark Quality Roofing provides asphalt shingle roof replacement across Newark and Essex County, stripping the roof to the deck, repairing the sheathing, and installing new 3-tab or architectural shingles to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor providing asphalt shingle roof replacement across Newark, New Jersey, and Essex County**, stripping the roof to the deck and installing new 3-tab or architectural shingles as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    `**Asphalt shingle roof replacement** strips an existing roof to the deck and installs new asphalt shingles, in either the three-tab or architectural type, over fresh underlayment. It rebuilds the full shingle system rather than overlaying or patching the old covering.`,
   overview: [
     '**Newark Quality Roofing replaces 2 asphalt shingle types across Essex County: 3-tab shingles and architectural (laminated) shingles** — for residential and steep-slope commercial properties. Asphalt shingle roof replacement strips the existing roof to the deck, repairs the sheathing, installs an ice barrier and synthetic underlayment, and installs new asphalt shingles, the work that ends an aged asphalt roof rather than patching a single failed detail.',
     'Asphalt shingles cover roughly 73% of US residential roofs per 2024 roofing-market data, the most common roof covering Newark Quality Roofing installs. A 3-tab asphalt roof lasts 20 years and an architectural asphalt roof lasts 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes the actual asphalt service life varies up to 40% with climate, install, and maintenance. A Newark Quality Roofing replacement matches the shingle line and wind rating to the building and the Essex County climate before tear-off.',
@@ -1821,7 +1841,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
       },
       {
         title: 'Insured',
@@ -1846,7 +1866,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'metal-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces roofs with new metal across Newark and Essex County, stripping the old roof to the deck and installing standing-seam, metal-panel, or metal-shingle systems that last 40 to 80 years** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing roofs with new metal across Newark, New Jersey, and Essex County**, stripping the old roof to the deck and installing standing-seam or panel systems as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Metal roof replacement** removes a worn roof covering down to the deck and installs a new metal system in standing-seam panels, metal panels, or metal shingles. It rebuilds the entire weatherproof surface in steel, aluminum, copper, or zinc.`,
     overview: [
       '**Newark Quality Roofing installs 3 metal roof systems across Essex County: standing-seam metal, exposed-fastener metal panel, and metal shingle** — for residential and commercial properties. Metal roof replacement strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-metal system that lasts far longer than the asphalt roof it replaces.',
       'A metal roof lasts 40 to 80 years, with copper at 70-plus years, per the InterNACHI life-expectancy chart, against 20 years for 3-tab asphalt and 30 years for architectural asphalt, so a metal roof replacement upgrades a building to a 2-to-4-times-longer service life. Standing-seam metal lasts 40 to 70 years and conceals the fasteners under raised seams, per This Old House, while metal shingle and exposed-fastener panel carry the fasteners in the weather plane, so a Newark Quality Roofing metal roof replacement matches the metal system to the roof slope and the Essex County climate before tear-off.',
@@ -2009,7 +2031,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -2034,7 +2056,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'slate-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces slate roofs across Newark and Essex County, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate on copper or stainless fasteners** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing slate roofs across Newark, New Jersey, and Essex County**, stripping the slate to the deck, repairing the sheathing, and reinstalling natural or synthetic slate as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Slate roof replacement** strips a failing slate roof to the deck, repairs the sheathing, and reinstalls natural or synthetic slate on corrosion-resistant copper or stainless fasteners. It renews a heavy, long-lived covering that demands a load-rated structure.`,
     overview: [
       '**Newark Quality Roofing replaces 2 slate roof systems across Essex County: natural quarried slate and synthetic composite slate** — for the historic and high-end residential housing stock. Slate roof replacement strips the existing slate to the deck, repairs the sheathing, and reinstalls slate on non-ferrous fasteners, the work that renews a slate roof when corroded fasteners and degraded flashing, not the slate itself, end its service life.',
       'Natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years, per the InterNACHI life-expectancy chart and the National Slate Association, and properly installed slate lasts 60 to 125 years or longer, per NPS Preservation Brief 29, while synthetic slate lasts 10 to 35 years per the InterNACHI chart and premium composite slate is designed for 40 to 50 years per CertainTeed product literature. A slate roof outlives its underlayment and copper or stainless fasteners, so a Newark Quality Roofing slate roof replacement renews the fastening and underlayment system the slate hangs on.',
@@ -2149,7 +2173,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         question: 'How much does slate roof replacement cost in Essex County, NJ?',
         answer:
-          '**Slate roof installation in New Jersey costs $10–$30 per square foot, roughly $1,500 per roofing square, per named NJ roofing guides.** NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, and slate is the longest-lasting roofing material at 60 to 150 years, per the InterNACHI life-expectancy chart. Newark Quality Roofing provides a free written estimate.',
+          '**Slate roof installation in New Jersey costs $10–$30 per square foot, roughly $1,500 per roofing square, per named NJ roofing guides.** NJ ranges sit 10–40% above national figures because of higher labor and stricter NJ code, and slate is among the longest-lasting roofing materials at 60 to 150 years, per the InterNACHI life-expectancy chart. Newark Quality Roofing provides a free written estimate.',
       },
       {
         question: 'What fasteners does a slate roof require?',
@@ -2186,7 +2210,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -2216,7 +2240,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'tile-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces clay and concrete tile roofs across Essex County, stripping the tile and failed underlayment to the deck and installing a new underlayment-and-tile system over a load-rated structure** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing tile roofs across Newark, New Jersey, and Essex County**, stripping the clay or concrete tile and underlayment to the deck and installing new tile as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Tile roof replacement** removes failing clay or concrete tile and worn underlayment to the deck and installs a new underlayment-and-tile system over a load-rated structure. It renews both the waterproofing layer beneath the tile and the tile covering itself.`,
     overview: [
       '**Newark Quality Roofing replaces 2 tile roof systems across Essex County: clay tile and concrete tile** — for residential properties, with select commercial and civic buildings. Tile roof replacement strips the tile and the worn underlayment to the deck, verifies the structure carries the tile dead load, and installs a new underlayment-and-tile system, the work that resets a tile roof when the underlayment fails beneath tile that still has decades of service left.',
       'Clay tile lasts 75 to 100-plus years and concrete tile 40 to 75 years, per the Tile Roofing Industry Alliance, against the InterNACHI life-expectancy chart listing clay and concrete tile at 100-plus years. The underlayment is the real service-life limiter, failing well before the tile, per the Tile Roofing Industry Alliance and This Old House, so a Newark Quality Roofing tile replacement renews the underlayment and flashing while salvaging or matching the tile profile.',
@@ -2374,7 +2400,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -2399,7 +2425,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
 {
   serviceId: 'flat-roof-replacement',
   directAnswer:
-    '**Newark Quality Roofing replaces flat and low-slope roofs across Newark and Essex County, stripping the failed membrane to the deck, repairing the substrate, then installing a new single-ply or modified-bitumen system** as a New Jersey Home Improvement Contractor.',
+    '**Newark Quality Roofing is a roofing contractor replacing flat and low-slope roofs across Newark, New Jersey, and Essex County**, stripping the failed membrane and installing a single-ply or modified-bitumen roof as a registered New Jersey Home Improvement Contractor.',
+  definition:
+    `**Flat roof replacement** strips a failed membrane from a flat or low-slope roof to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system. It rebuilds a water-shedding surface engineered for minimal slope.`,
   overview: [
     '**Newark Quality Roofing installs 4 flat-roof membrane systems across Essex County: EPDM rubber, TPO, PVC, and modified bitumen** — for residential and commercial low-slope roofs. Flat roof replacement strips the existing membrane to the deck, repairs the substrate, and installs a new single-ply or modified-bitumen system, the work that ends recurring membrane leaks rather than patching a single seam.',
     'A flat roof needs at least ¼ inch per foot of slope to drain, and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA, so a Newark Quality Roofing replacement corrects drainage as part of the install. Membrane lifespan differs by system: EPDM lasts 15 to 25 years, TPO 7 to 20 years on the InterNACHI chart and commonly 15 to 25 years in practice, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, and Newark Quality Roofing matches the membrane to the building and the Essex County climate before tear-off.',
@@ -2556,7 +2584,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
       },
       {
         title: 'Insured',
@@ -2581,7 +2609,9 @@ export const replacementSubPagesContent: ServiceContent[] = [
   {
     serviceId: 'cedar-shake-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces cedar shake roofs across Newark and Essex County, stripping aging cedar shakes and shingles to the deck and installing new cedar with a ventilated nailing base** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing cedar shake roofs across Newark, New Jersey, and Essex County**, stripping aging cedar to the deck and installing new cedar over a ventilated base as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Cedar shake roof replacement** removes aging cedar shakes and shingles to the deck and installs new cedar over a ventilated nailing base. It renews a wood covering that relies on underlying airflow to resist rot and prolong service life.`,
     overview: [
       '**Newark Quality Roofing replaces 2 cedar wood roof types across Essex County: hand-split cedar shake and sawn cedar shingle** — for residential properties and cedar-clad character buildings. Cedar shake roof replacement strips an aging cedar roof to the deck, repairs the sheathing, installs a ventilated nailing base, and lays new cedar, the work that restores a wood roof past its service life rather than patching individual split shakes.',
       'Cedar shake lasts 20 to 40 years and cedar shingle 30 to 50 years, per the Cedar Shake & Shingle Bureau, with the InterNACHI life-expectancy chart listing a single "Wood" row at 25 years, and the service life depends on maintenance, because moisture cycling drives most premature cedar failure. Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per NOAA 1991–2020 normals at Newark Liberty (EWR), and the freeze-thaw and moisture load drives the cupping, splitting, and rot that ends a cedar roof, per Cedar Shake & Shingle Bureau and NRCA maintenance guidance.',
@@ -2733,7 +2763,7 @@ export const replacementSubPagesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',

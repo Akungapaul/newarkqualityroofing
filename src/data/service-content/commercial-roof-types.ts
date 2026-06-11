@@ -6,7 +6,9 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'tpo-roofing-installation',
     directAnswer:
-      '**Newark Quality Roofing installs TPO roofing across Newark and Essex County, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to commercial and residential low-slope roofs** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing TPO roofing across Newark, New Jersey, and Essex County**, applying thermoplastic-polyolefin single-ply membrane with heat-welded seams to commercial and residential low-slope roofs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**TPO roofing** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. The welded seams fuse the sheets into one continuous water layer.`,
     overview: [
       '**Newark Quality Roofing installs TPO single-ply roofing across Essex County in 6 scopes: full membrane replacement, recover over a sound existing roof, new-construction membrane, insulation and tapered drainage, flashing and penetration detailing, and seam welding** — for commercial and residential low-slope properties. TPO, thermoplastic polyolefin, is a reflective single-ply membrane that heat-welds at the seams to form one continuous water layer across a flat or low-slope roof.',
       'TPO lasts 7 to 20 years per the InterNACHI life-expectancy chart, with 15 to 25 years commonly cited in field practice per Progressive Materials, and TPO fails most often at the welded seams. A Newark Quality Roofing TPO installation engineers the assembly before the membrane goes down, because a low-slope roof needs at least ¼ inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per NRCA and ARMA.',
@@ -162,7 +164,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -192,7 +194,9 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'epdm-commercial-roofing',
     directAnswer:
-      '**Newark Quality Roofing provides EPDM commercial roofing across Newark and Essex County, installing and servicing EPDM rubber membrane on flat and low-slope commercial roofs** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing EPDM commercial roofing across Newark, New Jersey, and Essex County**, installing and servicing EPDM rubber membrane on flat and low-slope commercial roofs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**EPDM commercial roofing** is a single-ply synthetic-rubber membrane installed on flat and low-slope commercial roofs to seal the building against water entry. EPDM attaches mechanically, fully adheres, or holds under ballast, with the splice seams joining the sheets.`,
     overview: [
       '**Newark Quality Roofing installs and services EPDM commercial roofing across Essex County: mechanically attached, fully adhered, and ballasted EPDM rubber membrane on warehouses, offices, and industrial buildings** — for commercial properties, with residential flat-roof sections served on the same systems. EPDM roofing covers the flat and low-slope commercial roof in a single-ply rubber membrane that seals the building against water entry.',
       'EPDM rubber membrane lasts 15 to 25 years, per the InterNACHI life-expectancy chart, and a service-life study attributed via Progressive Materials places EPDM at 25 to 30 years. EPDM fails most often at the seams, with membrane shrinkage and ponding-water stretching as secondary failure modes, per NRCA technical guidance, so a Newark Quality Roofing installation seam-bonds the membrane and engineers positive drainage before the roof carries water.',
@@ -340,7 +344,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -370,7 +374,9 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'modified-bitumen-roofing',
     directAnswer:
-      '**Newark Quality Roofing installs modified bitumen roofing across Newark and Essex County, building a multi-ply SBS or APP membrane over the deck for commercial and residential low-slope roofs** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing modified bitumen roofing across Newark, New Jersey, and Essex County**, building a multi-ply SBS or APP membrane for commercial and residential low-slope roofs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Modified bitumen roofing** is a multi-ply low-slope membrane that layers a polymer-modified asphalt cap sheet over base plies on the deck. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant, built-up asphalt assembly.`,
     overview: [
       '**Newark Quality Roofing provides 5 modified bitumen services across Essex County: SBS torch-applied, SBS self-adhered, APP torch-applied, and cold-adhesive installation, plus recover over built-up roofing** — for commercial and residential low-slope roofs. Modified bitumen roofing layers a polymer-modified asphalt cap sheet over base plies, the multi-ply assembly that carries the redundancy of built-up roofing with added membrane flexibility.',
       'Modified bitumen lasts 20 years, per the InterNACHI life-expectancy chart, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and BUR at 30 years. SBS-modified bitumen, modified with styrene-butadiene-styrene rubber, holds low-temperature flexibility better than APP-modified bitumen, the property that matters where Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F, per ARMA modified-bitumen guidance and NOAA 1991–2020 normals at Newark Liberty (EWR). A Newark Quality Roofing modified bitumen installation matches the polymer modifier and the application method to the building and the Essex County climate before the first ply.',
@@ -523,7 +529,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -558,7 +564,9 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'built-up-roofing',
     directAnswer:
-      '**Newark Quality Roofing provides built-up roofing across Newark and Essex County, installing and restoring multi-ply BUR membranes on commercial low-slope roofs** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing built-up roofing across Newark, New Jersey, and Essex County**, installing and restoring multi-ply BUR membranes on commercial low-slope roofs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Built-up roofing** is a low-slope membrane that alternates layers of reinforcing fabric and hot bitumen on the deck, then surfaces the plies with gravel, mineral granules, or a reflective coating. The multi-ply assembly shields the membrane from UV and impact.`,
     overview: [
       '**Newark Quality Roofing provides built-up roofing for commercial low-slope roofs across Essex County: 3-ply, 4-ply, and 5-ply BUR systems, gravel-surfaced and coated, plus BUR restoration and recover** — primarily for commercial properties, with limited residential flat-roof work. Built-up roofing alternates layers of reinforcing fabric and hot bitumen on the roof deck, then surfaces the plies with gravel, mineral granules, or a reflective coating that shields the membrane from UV and impact.',
       'Built-up roofing lasts 30 years, per the InterNACHI life-expectancy chart, longer than EPDM at 15–25 years, TPO at 7–20 years, and modified bitumen at 20 years. A built-up roof concentrates failures at the flashing details and the surfacing, because water enters at one transition and the gravel migrates over decades, so a Newark Quality Roofing assessment identifies the failed detail before resealing or resurfacing the system.',
@@ -706,7 +714,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -736,7 +744,9 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'commercial-metal-roofing',
     directAnswer:
-      '**Newark Quality Roofing installs and services commercial metal roofing across Newark and Essex County, fitting standing-seam panels and exposed-fastener panels on warehouses, distribution centers, and industrial buildings** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that installs and services commercial metal roofing across Newark, New Jersey, and Essex County**, fitting standing-seam and exposed-fastener panels on warehouses and industrial buildings as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Commercial metal roofing** is a roof covering of formed metal panels — steel, aluminum, or copper — fitted as concealed-fastener standing-seam or exposed-fastener systems on large-span commercial roofs. The metal panels carry long-span low- and steep-slope roofs across a multi-decade ownership horizon.`,
     overview: [
       '**Newark Quality Roofing installs and services 4 commercial metal roof systems across Essex County: standing-seam steel panels, exposed-fastener panels, aluminum panels, and copper** — primarily for warehouses, distribution centers, manufacturing plants, and retail and office buildings. Commercial metal roofing covers the large, long-span low- and steep-slope roofs that membrane systems serve less durably over a multi-decade ownership horizon.',
       'Commercial metal roofing lasts 40 to 80 years, with copper at 70-plus years, per the InterNACHI life-expectancy chart, far outlasting the membrane alternatives a flat commercial roof otherwise carries: TPO at 7 to 20 years, EPDM at 15 to 25 years, modified bitumen at 20 years, and built-up roofing at 30 years, per the InterNACHI life-expectancy chart. Standing-seam metal runs 40 to 70 years because the fasteners stay concealed beneath the seam, per This Old House, while exposed-fastener metal runs about 30 to 50 years because the surface screws and gaskets weather faster, per metal-roofing industry consensus.',
@@ -886,7 +896,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -916,7 +926,9 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'pvc-roofing',
     directAnswer:
-      '**Newark Quality Roofing installs and services PVC single-ply roofing across Newark and Essex County, welding chemical-resistant white membrane on commercial low-slope roofs that carry grease, oil, and rooftop chemical exhaust** as a New Jersey Home Improvement Contractor.',
+      `**Newark Quality Roofing is a roofing contractor that installs and services PVC roofing across Newark, New Jersey, and Essex County**, welding chemical-resistant membrane on commercial low-slope roofs carrying grease and chemical exhaust as a registered New Jersey Home Improvement Contractor.`,
+    definition:
+      `**PVC roofing** is a single-ply polyvinyl-chloride thermoplastic membrane, hot-air-welded at the seams, installed on commercial low-slope roofs. The white membrane resists grease, oils, and chemical exhaust that degrade other single-ply membranes, and reflects solar radiation as a cool roof.`,
     overview: [
       '**Newark Quality Roofing installs 4 PVC single-ply roof systems across Essex County: mechanically attached PVC, fully adhered PVC, fleece-backed PVC over an existing deck, and factory-fabricated PVC accessory systems** — primarily for commercial low-slope properties. PVC roofing, formally polyvinyl chloride, is a hot-air-welded thermoplastic membrane that resists grease, oils, and chemical exhaust where EPDM and TPO degrade, per the NRCA technical library.',
       'PVC single-ply membrane lasts 20 to 30 years, with thicker reinforced membranes reaching the longer end, per the Single Ply Roofing Industry and GAF EverGuard warranty terms, against EPDM at 15 to 25 years, TPO at 7 to 20 years, and modified bitumen at 20 years, per the InterNACHI life-expectancy chart. A white PVC membrane functions as a cool roof, reflecting roughly 70 to 85% of solar radiation with thermal emittance near 80 to 90% measured per ASTM C1549, per Duro-Last and the Cool Roof Rating Council, so a Newark Quality Roofing PVC installation matches the membrane to the building exposure and the Essex County climate before welding.',
@@ -1064,7 +1076,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1099,7 +1111,9 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'green-roof-installation',
     directAnswer:
-      '**Newark Quality Roofing installs green roof systems across Newark and Essex County, building the waterproofing membrane, root barrier, drainage layer, and growing media that carry a planted roof** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing green roof systems across Newark, New Jersey, and Essex County**, building waterproofing membrane, root barrier, drainage, and growing media that carry a planted roof as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Green roof installation** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation. The planted layers sit above an inaccessible membrane that seals the roof against water.`,
     overview: [
       '**Newark Quality Roofing installs 5 green roof layers across Essex County: a green-roof-rated waterproofing membrane, a root barrier, a drainage and water-retention layer, engineered lightweight growing media, and the vegetation** — for commercial and residential properties. Green roof installation converts a low-slope roof into a planted assembly, and a green (vegetation) roof lasts 5 to 40 years, per the InterNACHI life-expectancy chart.',
       'A Newark Quality Roofing green roof build starts at the waterproofing membrane, because the membrane sits beneath the growing media and the vegetation and stays inaccessible once the planted layers cover the membrane. The waterproofing substrate carries a documented service life: PVC single-ply lasts 20 to 30 years, per the Single Ply Roofing Industry and GAF EverGuard warranty data, EPDM 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing installation specifies a green-roof-rated membrane and flood-tests the membrane before any growing media goes down.',
@@ -1243,7 +1257,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1273,7 +1287,9 @@ export const commercialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'spray-foam-roofing',
     directAnswer:
-      '**Newark Quality Roofing provides spray foam roofing across Newark and Essex County, applying seamless spray polyurethane foam and a protective coating over commercial low-slope roofs** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing spray foam roofing across Newark, New Jersey, and Essex County**, applying seamless spray polyurethane foam and a protective coating over commercial low-slope roofs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Spray foam roofing** sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. The coating shields the UV-sensitive foam from degradation.`,
     overview: [
       '**Newark Quality Roofing provides 5 spray foam roofing services across Essex County: SPF foam application, recover over an existing roof, protective coating and recoat, slope and ponding correction, and seamless flashing and penetration detailing** — primarily for commercial low-slope buildings, with select residential flat sections. Spray foam roofing sprays liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a monolithic insulation-and-waterproofing layer under a protective coating.',
       'Spray polyurethane foam carries an aged R-value of R-6.0 to R-6.5 per inch, the insulation figure attributed to ICC-ES reports and ASTM C1289 LTTR testing and the SPFA, so a foam layer adds thermal resistance no single-ply membrane provides. The foam layer lasts 30 or more years when the protective coating is maintained, per the SPFA and SPF manufacturers, because the coating shields the UV-sensitive foam and a recoat every 10 to 20 years restores the surface, an acrylic coating at 10 to 15 years and a silicone coating at 15 to 20 years.',
@@ -1426,7 +1442,7 @@ export const commercialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',

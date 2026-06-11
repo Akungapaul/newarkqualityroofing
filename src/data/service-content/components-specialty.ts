@@ -7,7 +7,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'roof-flashing-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs roof flashing across Newark and Essex County, sealing the chimneys, walls, valleys, skylights, and penetrations where most roof leaks originate** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing and repairing roof flashing across Newark, New Jersey, and Essex County**, sealing the chimneys, walls, valleys, skylights, and penetrations where most roof leaks originate as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Roof flashing** is the sheet metal that seals the transitions and penetrations of a roof — chimneys, walls, valleys, skylights, and vent stacks. Flashing sheds water at every joint a continuous shingle field cannot cover, the detail where most roof leaks originate.`,
     overview: [
       '**Newark Quality Roofing installs and repairs 8 flashing types across Essex County: step, counter, valley, apron, drip edge, kickout, vent-pipe boot, and chimney flashing** — for residential and commercial properties. Roof flashing is the sheet metal that seals the transitions and penetrations of a roof, the detail that sheds water at every joint a continuous shingle field cannot cover.',
       'A Newark Quality Roofing flashing job starts at the transition that admits water, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing crew installs flashing to code: drip edge extends at least 2 inches onto the deck, fastened no more than 12 inches on center with at least 2-inch end laps, per IRC Section R905.2.8.5, and a kickout diverts water where a sloped eave meets a vertical sidewall, per IRC Section R903.2.1.',
@@ -154,7 +156,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -179,7 +181,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
 {
     serviceId: 'chimney-flashing-repair',
     directAnswer:
-      '**Newark Quality Roofing repairs chimney flashing across Newark and Essex County, rebuilding the two-part base-and-counter flashing system that seals the chimney, the roof’s largest and most leak-prone penetration** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor repairing chimney flashing across Newark, New Jersey, and Essex County**, rebuilding the two-part base-and-counter flashing system that seals the chimney as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Chimney flashing** is the two-part sheet-metal system that seals the chimney to the roof, pairing base and step flashing woven into the shingle courses with a separate counter flashing set into the masonry. Chimney flashing waterproofs the chimney, the roof's largest penetration.`,
     overview: [
       '**Newark Quality Roofing repairs 4 chimney flashing failures across Essex County: corroded or lifted step flashing, counter flashing pulled from the mortar joint, surface caulk cracked by freeze-thaw, and a missing cricket on a wide chimney** — on residential and multi-family properties. Chimney flashing repair rebuilds the metal that seals the chimney, the roof’s largest penetration, where the apron, sidewall step, and upslope transitions each shed water.',
       'A Newark Quality Roofing chimney flashing repair starts at the transition metal, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The NRCA specifies a two-part chimney flashing system: base and step flashing woven one piece per shingle course, plus a separate counter flashing set into a reglet cut in a mortar joint, so a Newark Quality Roofing repair restores both layers rather than smearing sealant over the symptom.',
@@ -326,7 +330,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -356,7 +360,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'gutter-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs gutters across Newark and Essex County, fitting seamless aluminum, copper, and steel gutters, matched downspouts, and resealing leaks, sagging runs, and clogged systems** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing and repairing gutters across Newark, New Jersey, and Essex County**, fitting aluminum, copper, and steel gutters and matched downspouts, resealing leaks and clogged runs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Gutter installation and repair** mounts, replaces, or restores the channels and downspouts that carry roof runoff away from the fascia, soffit, and foundation. The work fits seamless or sectional gutters and reseals the leaks, sags, and clogs that drive overflow against the building.`,
     overview: [
       '**Newark Quality Roofing performs 5 gutter services across Essex County: seamless gutter installation, sectional gutter repair, downspout installation and extension, sag and re-pitch correction, and leak and seam reseal** — for residential and commercial properties. Gutter installation repair restores the drainage path that carries roof runoff away from the fascia, soffit, and foundation.',
       'A gutter system drains roof runoff to a discharge point, because a clogged gutter overflows and saturates the fascia and soffit and sheds water against the foundation, driving basement seepage, per Angi. Gutter material sets the service life: copper gutters last 50-plus years, aluminum runs 20 to 40-plus years, galvanized steel 20 years, and vinyl 25-plus years, per the InterNACHI Estimated Life Expectancy Chart, so a Newark Quality Roofing installation matches the material to the building and budget.',
@@ -410,7 +416,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
     residential: {
       heading: 'Residential Services in Newark',
       content: [
-        '**Newark Quality Roofing installs and repairs residential gutters across Essex County, fitting seamless aluminum and copper gutters, matched downspouts, and fascia-mounted hangers on detached one- and two-family homes.** Newark Quality Roofing installs the residential gutter as a New Jersey Home Improvement Contractor, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor, and extends each downspout at least 4 to 6 feet from the foundation to route roof runoff away from the basement, per Boggs Inspection drainage guidance.',
+        '**Newark Quality Roofing installs and repairs residential gutters across Essex County, fitting seamless aluminum and copper gutters, matched downspouts, and fascia-mounted hangers on detached one- and two-family homes.** Newark Quality Roofing installs the residential gutter as a registered New Jersey Home Improvement Contractor, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor, and extends each downspout at least 4 to 6 feet from the foundation to route roof runoff away from the basement, per Boggs Inspection drainage guidance.',
         'A Newark Quality Roofing residential crew sets the gutter pitch toward the outlet and extends the downspout away from the foundation, because a clogged or overflowing gutter saturates the fascia and soffit and drives basement seepage, per Angi. A residential gutter holds runoff that a fascia and soffit cannot, and a gutter cleaning twice per year, spring and fall, keeps the trough clear, rising to 3 to 4 times per year on a property surrounded by pine trees, per Angi and GAF maintenance guidance.',
       ],
       ctaLabel: 'Get Home Estimate',
@@ -504,7 +510,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -529,7 +535,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'gutter-guard-installation',
     directAnswer:
-      '**Newark Quality Roofing installs gutter guards across Newark and Essex County, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters to reduce debris clogging** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing gutter guards across Newark, New Jersey, and Essex County**, fitting micro-mesh, screen, reverse-curve, foam, and brush guards over the gutters to reduce debris clogging as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**A gutter guard** is a cover fitted over or inside a gutter trough that blocks leaves, pine needles, seed pods, and shingle grit while letting water pass into the gutter. A gutter guard reduces clogging and overflow rather than eliminating gutter cleaning.`,
     overview: [
       '**Newark Quality Roofing installs 5 gutter-guard types across Essex County: micro-mesh, screen and perforated metal, reverse-curve surface-tension, foam, and brush** — on residential properties, including multi-family and small mixed-use buildings. A gutter guard fits over or inside the gutter trough to block leaves, pine needles, seed pods, and shingle grit, the debris that clogs an open gutter and forces overflow against the fascia and foundation.',
       'A gutter guard reduces gutter cleaning rather than eliminating it, because no gutter guard is fully maintenance-free, per This Old House and Consumer Reports, with Consumer Reports framing a gutter guard as a tool for easier gutter cleaning, not elimination. In a 2025 This Old House survey of 1,000 homeowners, about 30% stopped cleaning entirely while 63% still cleaned at least once a year, so a Newark Quality Roofing installation matches the guard type to the debris load and sets a realistic inspection cadence.',
@@ -671,7 +679,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -696,7 +704,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'skylight-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs skylights across Newark and Essex County, sealing leaks at the failed flashing, replacing fogged units, and curb-mounting skylights on low-slope roofs** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing and repairing skylights across Newark, New Jersey, and Essex County**, sealing leaks at failed flashing, replacing fogged units, and curb-mounting skylights on low-slope roofs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Skylight installation and repair** sets, replaces, or reseals a roof-window unit and the engineered flashing kit that seals its penetration to the roof covering. The work seals leaks at failed flashing, replaces fogged insulated-glass units, and curb-mounts skylights on low-slope roofs.`,
     overview: [
       '**Newark Quality Roofing performs 4 skylight services across Essex County: new skylight installation, skylight replacement, flashing-leak repair, and fogged-glass-seal replacement** — on residential and commercial properties. Skylight installation repair seals the roof penetration at the flashing detail that admits water, the leading cause of a skylight leak rather than the glass, per roofing trade consensus. A skylight lasts 10–20 years, per the InterNACHI Estimated Life Expectancy Chart.',
       'Newark Quality Roofing installs VELUX and Fakro skylights with the manufacturer flashing kit matched to both the mounting type and the roof covering, because an engineered flashing kit sheds water without relying on caulk that breaks down over time, per VELUX America. A Newark Quality Roofing skylight diagnosis separates a true leak from winter condensation, because water at a skylight is often condensation from excess indoor humidity on cold glass rather than a roof leak, a common winter misdiagnosis per VELUX America.',
@@ -846,7 +856,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -876,7 +886,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'fascia-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs fascia across Newark and Essex County, replacing the rotted edge board that closes the rafter-tail ends and mounts the gutter system** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing and repairing fascia across Newark, New Jersey, and Essex County**, replacing the rotted board that closes the rafter-tail ends and mounts the gutter system as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Fascia** is the board running along the lower roof edge that closes the rafter-tail ends and carries the gutter system. Fascia installation and repair replaces the water-rotted board in painted wood, PVC, aluminum cladding, or fiber-cement, then remounts the gutter system.`,
     overview: [
       '**Newark Quality Roofing performs 4 fascia services across Essex County: rotted-board replacement, paint and surface restoration, gutter-line rebuild on failed fascia, and full fascia installation in 4 materials** — on residential properties. Fascia installation and repair restores the board along the lower roof edge that closes the rafter-tail ends and carries the gutter system, per InterNACHI inspection guidance.',
       'Fascia fails most often from water, because clogged and overflowing gutters back up and soak the board, and loose gutters leave a gap that lets water contact the fascia, per InterNACHI inspection guidance. Water-filled gutters weigh roughly 5–7 pounds per linear foot, a load that a weakened fascia cannot carry, so the gutters sag and pull away from the roofline, per HB Elements trade guidance. A Newark Quality Roofing fascia repair replaces the failed board before the gutter line and the rafter tails take on further water.',
@@ -1023,7 +1035,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1048,7 +1060,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'soffit-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing provides soffit installation and repair across Newark and Essex County, replacing rotted soffit board, clearing blocked intake vents, and installing insulation baffles to restore attic airflow** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing soffit installation and repair across Newark, New Jersey, and Essex County**, replacing rotted board, clearing intake vents, and installing baffles to restore attic airflow as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**The soffit** is the eave underside that closes the rafter-tail bays and houses the intake vents of a balanced attic-ventilation system. Soffit installation and repair replaces the rotted panel, clears blocked intake, and installs baffles that hold the soffit-to-ridge air channel open.`,
     overview: [
       '**Newark Quality Roofing installs and repairs soffit across Essex County in 4 material classes — vinyl, aluminum, wood, and fiber-cement, in vented and solid profiles** — on detached one- and two-family homes. The soffit is the eave underside that houses the intake vents, and soffit vents are the primary intake of a balanced attic-ventilation system, per the U.S. DOE Building America Solution Center and InterNACHI.',
       'A blocked soffit intake — sealed by blown insulation, paint, or debris — stalls the balanced system, so the attic traps heat and moisture and condensation and mold form on the sheathing, per the U.S. DOE Building America Solution Center and InterNACHI. A balanced attic system runs roughly 50% intake at the soffit and eave and 50% exhaust at the ridge, per ARMA and Air Vent Inc., so a Newark Quality Roofing soffit repair restores the intake leg that the ridge exhaust depends on.',
@@ -1196,7 +1210,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1221,7 +1235,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'roof-vent-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs roof vents across Newark and Essex County, building a balanced intake-and-exhaust system from soffit, ridge, box, turbine, gable, and powered vents** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing and repairing roof vents across Newark, New Jersey, and Essex County**, building a balanced intake-and-exhaust system from soffit, ridge, turbine, gable, and powered vents as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Roof vent installation and repair** builds the attic airflow path that moves heat and moisture out, pairing low soffit intake with high exhaust through ridge, box, turbine, powered, or gable vents. The work sizes and balances the intake-and-exhaust system to code.`,
     overview: [
       '**Newark Quality Roofing installs and repairs 5 exhaust-vent types across Essex County: ridge, box and static, turbine, powered and solar, and gable** — paired with continuous soffit intake on residential and commercial properties. Roof vent work builds the airflow path that moves attic heat and moisture out, the system the IRC requires on a vented attic.',
       'A Newark Quality Roofing vent system pairs low soffit intake with high ridge exhaust at roughly 50% intake and 50% exhaust, the balance the ARMA and Air Vent Inc. specify, because a balanced system moves air from the eave to the ridge without short-circuiting. Under IRC Section R806.2, the minimum net free ventilating area is 1/150 of the vented attic floor, and net free area counts the actual unobstructed opening after louvers and screen reduce the vent, per the ARMA. Newark Quality Roofing sizes the venting to that 1/150 ratio before installing a single vent.',
@@ -1371,7 +1387,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1401,7 +1417,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'roof-waterproofing',
     directAnswer:
-      '**Newark Quality Roofing waterproofs roofs across Newark and Essex County, sealing the roof deck, eaves, valleys, and flashing details so water sheds before it reaches the attic** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that waterproofs roofs across Newark, New Jersey, and Essex County**, sealing the roof deck, eaves, valleys, and flashing so water sheds before reaching the attic as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Roof waterproofing** seals the layer beneath the roof covering — the deck, the eaves, the valleys, and the flashing details — so wind-driven rain that gets past the shingles or membrane stops at the deck rather than entering the home.`,
     overview: [
       '**Newark Quality Roofing waterproofs 4 roof zones across Essex County: the sealed roof deck, the ice-prone eaves, the valleys and penetrations, and the low-slope and flashing details** — for residential and commercial properties. Roof waterproofing seals the layer beneath the covering so wind-driven rain that gets past shingles or membrane stops at the deck rather than entering the home.',
       'A sealed roof deck cuts water entry into the home by as much as 95% compared with an unsealed deck, per the Insurance Institute for Business & Home Safety. On a 2,000-square-foot unsealed roof stripped of shingles, up to 750 gallons of water per inch of rain enter the attic, roughly nine bathtubs, per IBHS research, so a Newark Quality Roofing waterproofing job seals the deck, the eaves, and the flashing details where most water enters.',
@@ -1548,7 +1566,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1573,7 +1591,9 @@ export const componentsSpecialtyContent: ServiceContent[] = [
   {
     serviceId: 'roof-deck-repair-replacement',
     directAnswer:
-      '**Newark Quality Roofing repairs and replaces roof decks across Newark and Essex County, removing rotted plywood and OSB sheathing and re-decking the roof so the deck grips fasteners and supports the covering** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor repairing and replacing roof decks across Newark, New Jersey, and Essex County**, removing rotted sheathing so the deck grips fasteners and holds the covering as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**The roof deck** is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering. Roof deck repair and replacement removes rotted, delaminated, or sagging sheathing and re-decks the roof.`,
     overview: [
       '**Newark Quality Roofing repairs and replaces 4 roof-deck conditions across Essex County: rotted sheathing that cannot hold a nail, delaminated plywood and swollen OSB, sagging deck sections between rafters, and water-soaked decking exposed at tear-off** — for residential and commercial properties. The roof deck is the plywood or OSB sheathing that spans the rafters, the structural substrate that anchors every roofing nail and carries the underlayment and the covering.',
       'A Newark Quality Roofing re-deck restores the deck a roof fastens to, because roofing nails penetrate at least 3/4 inch into the deck, or fully through plus 1/8 inch where the deck measures under 3/4 inch thick, per ARMA nail-application guidance, so rotted sheathing that cannot grip a nail requires replacement. Trapped moisture decays the sheathing until the deck loses the ability to hold fasteners and the roof loses wind resistance, per InterNACHI, and the IRC reroofing provisions in Section R908 prohibit roofing over a water-soaked or deteriorated deck.',
@@ -1725,7 +1745,7 @@ export const componentsSpecialtyContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',

@@ -6,7 +6,9 @@ export const residentialRoofTypesContent: ServiceContent[] = [
   {
     serviceId: 'residential-roof-installation',
     directAnswer:
-      '**Newark Quality Roofing installs residential roofs across Newark and Essex County, building the complete deck-to-ridge system on new construction and full replacements to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that installs residential roofs across Newark, New Jersey, and Essex County**, building the complete deck-to-ridge system on new construction and full replacements to manufacturer specification as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Residential roof installation** builds a complete roof system on a house from the deck up — ice barrier, underlayment, flashing, the finish covering, and ventilation. It applies to new construction and full replacements, replacing the entire weatherproof assembly rather than patching a failed detail.`,
     overview: [
       '**Newark Quality Roofing installs 5 residential roof systems across Essex County: architectural and 3-tab asphalt shingle, standing-seam and metal-shingle, natural slate, cedar shake, and low-slope membrane** — on detached one- and two-family homes and new construction. Residential roof installation builds the full system from the deck up — ice barrier, underlayment, flashing, cover, and ventilation — rather than patching a single failed detail.',
       'Material lifespan separates the 5 systems: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, cedar 25 years, metal 40 to 80 years, and natural slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. A Newark Quality Roofing installation matches the system to the home and the Essex County climate before deck preparation, because Newark crosses the 32 degrees Fahrenheit freezing point repeatedly through winter with an average January low near 25.5 degrees Fahrenheit, per NOAA 1991–2020 normals at Newark Liberty (EWR), driving freeze-thaw stress on sealants and fasteners.',
@@ -165,7 +167,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -195,7 +197,9 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'asphalt-shingle-roofing',
     directAnswer:
-      '**Newark Quality Roofing installs asphalt shingle roofing across Newark and Essex County, fitting 3-tab and architectural shingles to the deck with ice barrier, synthetic underlayment, flashing, and balanced ventilation** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that installs asphalt shingle roofing across Newark, New Jersey, and Essex County**, fitting 3-tab and architectural shingles with ice barrier, underlayment, flashing, and balanced ventilation as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Asphalt shingle roofing** covers a sloped roof in overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, an ice barrier, drip edge, and flashing into a water-shedding system. It is the most common residential roof covering and comes in flat 3-tab and dimensional architectural profiles.`,
     overview: [
       '**Newark Quality Roofing installs 2 asphalt shingle systems across Essex County: 3-tab shingles and architectural shingles** — for residential and commercial sloped roofs. Asphalt shingle roofing layers fiberglass-mat shingles, synthetic underlayment, an eave-and-valley ice barrier, metal drip edge, and flashing into a water-shedding system, the most common residential roof covering on roughly 73% of US homes, per 2024 roofing-market data.',
       'A Newark Quality Roofing asphalt shingle install matches the shingle line and the attic ventilation to the Essex County climate, because 3-tab shingles last 20 years and architectural shingles 30 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. Architectural shingles bond multiple layers of asphalt-saturated fiberglass mat into a dimensional profile that carries a higher wind rating than the single-layer 3-tab profile, per ARMA and manufacturer guidance.',
@@ -348,7 +352,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -383,10 +387,12 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'slate-roof-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs natural slate roofs across Newark and Essex County, setting new slate tile on copper or stainless-steel fasteners and replacing broken tiles, corroded fasteners, and failed flashing** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that installs and repairs natural slate roofs across Newark, New Jersey, and Essex County**, replacing broken tiles, corroded fasteners, and failed flashing as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Slate roof installation and repair** sets quarried natural-stone tiles on copper or stainless-steel fasteners as a roof covering, and restores an existing slate roof by replacing broken tiles, resecuring corroded fasteners, and renewing failed flashing. Natural slate is among the longest-lived roof coverings.`,
     overview: [
       '**Newark Quality Roofing provides 5 slate services across Essex County: natural-slate installation, broken-tile replacement, corroded-fastener repair, flashing replacement, and slate restoration** — for residential and commercial properties. Slate roof installation and repair sets quarried natural stone that lasts 60 to 150 years, per the InterNACHI life-expectancy chart, on a deck and fastening system engineered to match the slate service life.',
-      'Natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years when properly installed, per the InterNACHI life-expectancy chart and the National Slate Association, the longest service life of any roofing material. Natural slate rarely fails as a tile, so a Newark Quality Roofing repair targets the corroded fasteners, degraded flashing, and impact-broken tiles that fail before the slate, per NRCA and National Slate Association guidance, replacing individual tiles indefinitely while the deck and nailers stay sound.',
+      'Natural slate lasts 60 to 150 years, with premium slate commonly 100-plus years when properly installed, per the InterNACHI life-expectancy chart and the National Slate Association, among the longest service lives of any roofing material. Natural slate rarely fails as a tile, so a Newark Quality Roofing repair targets the corroded fasteners, degraded flashing, and impact-broken tiles that fail before the slate, per NRCA and National Slate Association guidance, replacing individual tiles indefinitely while the deck and nailers stay sound.',
     ],
     subServices: [
       {
@@ -482,7 +488,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
       {
         question: 'How long does a natural slate roof last?',
         answer:
-          '**A natural slate roof lasts 60 to 150 years, with premium slate commonly 100-plus years when properly installed, the longest service life of any roofing material.** The lifespans trace to the InterNACHI life-expectancy chart and the National Slate Association, and the copper or steel fastening and flashing system reaches the end of service before the slate.',
+          '**A natural slate roof lasts 60 to 150 years, with premium slate commonly 100-plus years when properly installed, among the longest service lives of any roofing material.** The lifespans trace to the InterNACHI life-expectancy chart and the National Slate Association, and the copper or steel fastening and flashing system reaches the end of service before the slate.',
       },
       {
         question: 'Can individual broken slates be repaired without replacing the entire roof?',
@@ -526,7 +532,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -556,7 +562,9 @@ export const residentialRoofTypesContent: ServiceContent[] = [
   {
     serviceId: 'wood-shake-roofing',
     directAnswer:
-      '**Newark Quality Roofing provides wood shake roofing across Newark and Essex County, installing, repairing, and maintaining western red cedar shake and shingle systems on a ventilated assembly** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing wood shake roofing across Newark, New Jersey, and Essex County**, installing, repairing, and maintaining cedar shake and shingle systems on a ventilated assembly as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Wood shake roofing** covers a sloped roof in hand-split or tapersawn western red cedar laid over a ventilated assembly that lets each course dry from the underside after rainfall. The air space beneath the shakes manages the moisture that drives most cedar wear.`,
     overview: [
       '**Newark Quality Roofing provides 4 wood shake services across Essex County: cedar shake and shingle installation, individual shake replacement, flashing and detail repair, and preservative and cleaning maintenance** — for residential and commercial properties. Wood shake roofing covers a roof in hand-split or tapersawn cedar laid over a ventilated assembly that dries each course after rainfall.',
       'Wood shake and shingle roofing lasts 25 years as a single "Wood" category, per the InterNACHI life-expectancy chart, and the Cedar Shake & Shingle Bureau separates the products at cedar shake 20 to 40 years and cedar shingle 30 to 50 years. Western red cedar carries natural extractives that resist decay, and a cedar roof needs at least 1.5 inches of air space beneath the shakes for drying, because moisture, not insects, drives most premature cedar failure, per Cedar Shake & Shingle Bureau and NRCA guidance. A Newark Quality Roofing wood shake installation builds the ventilation that the Essex County climate demands before the first course goes down.',
@@ -705,7 +713,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -729,7 +737,9 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'metal-roof-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs metal roofs across Newark and Essex County, fitting standing-seam panels and metal shingles and resealing failed seams, fasteners, and corroded sections** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that installs and repairs metal roofs across Newark, New Jersey, and Essex County**, fitting standing-seam panels and resealing seams, fasteners, and corroded sections as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Metal roof installation and repair** fits a concealed-fastener or exposed-fastener metal covering to the roof deck, and restores an existing metal roof by resealing separated seams, backed-out fasteners, and corroded panel sections. The covering uses steel, aluminum, copper, or zinc panels or shingles.`,
     overview: [
       '**Newark Quality Roofing installs and repairs 4 metal roof systems across Essex County: standing-seam panels, metal shingles, copper, and aluminum** — for residential and commercial properties. Metal roof installation fits a concealed-fastener or exposed-fastener cover to the deck, and metal roof repair reseals the seams, fasteners, and corroded sections where a metal cover admits water.',
       'A metal roof carries a long service life: metal lasts 40 to 80 years and copper 70-plus years, per the InterNACHI life-expectancy chart, against 20 years for 3-tab asphalt and 30 years for architectural asphalt. Standing-seam panels conceal the fasteners and run continuous from ridge to eave, so standing-seam metal develops fewer leaks than an exposed-fastener metal-shingle roof, where the washer seals at exposed fasteners fail first. A Newark Quality Roofing metal job matches the substrate to the building and the Essex County climate before install, and diagnoses the failed detail before reseal on a repair.',
@@ -888,7 +898,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -912,7 +922,9 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'flat-roof-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs flat and low-slope roofs across Newark and Essex County, servicing EPDM rubber, TPO, and modified-bitumen membranes with manufacturer-approved bonding that keeps a system warranty intact** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that installs and repairs flat and low-slope roofs across Newark, New Jersey, and Essex County**, servicing EPDM, TPO, and modified-bitumen membranes with manufacturer-approved bonding as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Flat roof installation and repair** seals a flat or low-slope roof with a continuous waterproof membrane — EPDM rubber, TPO thermoplastic, or modified bitumen — and corrects the slope and drainage the roof depends on. The work ranges from a single seam patch to a full membrane replacement.`,
     overview: [
       '**Newark Quality Roofing installs and repairs 3 flat-roof membrane systems across Essex County: EPDM rubber, TPO thermoplastic, and modified bitumen** — for residential and commercial low-slope properties. Flat roof installation and repair seals the continuous membrane and corrects the drainage that a low-slope roof depends on, from a single seam patch to a full membrane replacement.',
       'A flat roof carries no gravity shed, so the membrane and the slope manage every drop, and a low-slope roof needs at least ¼ inch per foot of slope to drain, with ponding water remaining more than 48 hours counted as a defect, per the NRCA and ARMA. Membrane lifespan differs by system: EPDM lasts 15 to 25 years, TPO 7 to 20 years, and modified bitumen 20 years, per the InterNACHI life-expectancy chart, so a Newark Quality Roofing assessment matches the system to the building and the drainage before installation.',
@@ -1065,7 +1077,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1095,7 +1107,9 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'tile-roof-installation-repair',
     directAnswer:
-      '**Newark Quality Roofing installs and repairs clay and concrete tile roofs across Newark and Essex County, replacing broken tiles, repairing failed underlayment, and resealing ridge, hip, and flashing details** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that installs and repairs clay and concrete tile roofs across Newark, New Jersey, and Essex County**, replacing broken tiles, failed underlayment, and flashing details as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Tile roof installation and repair** sets a clay or concrete tile covering over a waterproof underlayment, and restores an existing tile roof by replacing broken tiles, renewing failed underlayment, and resealing ridge, hip, and flashing details. The underlayment carries the water resistance while the tile sheds rainfall.`,
     overview: [
       '**Newark Quality Roofing performs 6 tile roof services across Essex County: new clay tile installation, new concrete tile installation, broken-tile replacement, underlayment replacement, ridge-and-hip resealing, and flashing repair** — for residential and commercial properties. Tile roof installation and repair sets a clay or concrete tile cover over a waterproof underlayment, the layer that carries the actual water resistance while the tile sheds rainfall and protects the underlayment from UV.',
       'A tile roof outlasts most roof materials, because clay and concrete tile lasts 100 years or more, per the InterNACHI life-expectancy chart, and the Tile Roofing Industry Alliance notes clay tile often reaches 75 years or more while the underlayment fails first. A Newark Quality Roofing repair diagnoses whether the failure is the tile, the fastening, or the underlayment beneath, because the underlayment, not the tile, sets the true repair-versus-replace trigger on a tile roof, per the Tile Roofing Industry Alliance.',
@@ -1254,7 +1268,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1278,7 +1292,9 @@ export const residentialRoofTypesContent: ServiceContent[] = [
   {
     serviceId: 'cedar-shake-roofing',
     directAnswer:
-      '**Newark Quality Roofing provides cedar shake roofing across Newark and Essex County, installing and repairing western red cedar shake roofs that last 20 to 40 years over a ventilated deck** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing cedar shake roofing across Newark, New Jersey, and Essex County**, installing and repairing western red cedar shake roofs over a ventilated deck as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Cedar shake roofing** covers a sloped roof in hand-split western red cedar set over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events. Western red cedar carries natural extractives that resist decay.`,
     overview: [
       '**Newark Quality Roofing provides 4 cedar shake roofing services across Essex County: new cedar shake installation, cedar shake repair and shake replacement, the ventilated interlayment deck system, and preservative and cleaning maintenance** — for residential and select commercial properties. Cedar shake roofing installs hand-split western red cedar over an air-spaced deck, the assembly that sheds water at the surface while the underside dries between rain events.',
       'Cedar shake roofing lasts 20 to 40 years, per the Cedar Shake and Shingle Bureau, against the single "Wood" service life of 25 years on the InterNACHI life-expectancy chart, because moisture management, not the cedar itself, sets the lifespan. A cedar shake roof needs at least 1.5 inches of air space beneath the shakes for drying, and north-facing and shaded slopes degrade faster, per Cedar Shake and Shingle Bureau and NRCA guidance, so a Newark Quality Roofing cedar shake installation builds the ventilation path before the first course.',
@@ -1430,7 +1446,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1454,7 +1470,9 @@ export const residentialRoofTypesContent: ServiceContent[] = [
 {
     serviceId: 'rubber-roofing-epdm',
     directAnswer:
-      '**Newark Quality Roofing provides rubber roofing EPDM across Newark and Essex County, installing, repairing, and reseaming EPDM single-ply membrane on flat and low-slope roofs** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing rubber roofing EPDM across Newark, New Jersey, and Essex County**, installing, repairing, and reseaming EPDM single-ply membrane on flat and low-slope roofs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Rubber roofing EPDM** is a single-ply ethylene propylene diene monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and sealed at the laps. EPDM protects roof sections too shallow to shed water with shingles.`,
     overview: [
       '**Newark Quality Roofing provides 5 rubber roofing EPDM services across Essex County: EPDM membrane installation, EPDM seam reseaming, EPDM puncture and patch repair, flashing and penetration detailing, and drainage correction** — for residential and commercial properties. EPDM is a single-ply rubber membrane that waterproofs a flat or low-slope roof, the assembly that protects roof sections too shallow for shingles.',
       'EPDM rubber lasts 15 to 25 years, alongside TPO at 7 to 20 years and modified bitumen at 20 years, per the InterNACHI life-expectancy chart. EPDM fails most often at the seams, where the membrane sheets bond, so a Newark Quality Roofing EPDM service diagnoses the seam, puncture, or flashing detail that admits water before reseaming the failed section.',
@@ -1600,7 +1618,7 @@ export const residentialRoofTypesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',

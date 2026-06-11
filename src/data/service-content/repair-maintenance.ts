@@ -9,7 +9,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-repair',
     directAnswer:
-      '**Newark Quality Roofing provides roof repair across Newark and Essex County, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof repair across Newark, New Jersey, and Essex County**, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage as a registered New Jersey Home Improvement Contractor.',
     definition:
       '**Roof repair** restores a roof\'s weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.',
     overview: [
@@ -158,7 +158,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -185,7 +185,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces residential and commercial roofs across Newark and Essex County, stripping the roof to the deck, repairing the sheathing, and installing a new underlayment-and-cover system to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing residential and commercial roofs across Newark, New Jersey, and Essex County**, stripping the roof to the deck and installing a new underlayment-and-cover system as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.`,
     overview: [
       '**Newark Quality Roofing replaces 5 roof systems across Essex County: 3-tab asphalt, architectural asphalt, standing-seam metal, slate, and low-slope membrane** — for residential and commercial properties. Roof replacement strips the existing roof to the deck, repairs the sheathing, and installs a new underlayment-and-cover system, the work that fixes a roof past its service life rather than patching a single failed detail.',
       'Replacement accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence, because most roofs reach replacement through age and storm loss rather than new construction. A new roof reaches the end of service after a material-specific lifespan: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, and slate 60 to 150 years, per the InterNACHI life-expectancy chart, and the NRCA notes actual asphalt life varies up to 40% with climate, install, and maintenance. A Newark Quality Roofing replacement matches the new system to the building and the Essex County climate before tear-off.',
@@ -346,7 +348,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -378,7 +380,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'emergency-roof-repair',
     directAnswer:
-      '**Newark Quality Roofing provides emergency roof repair across Newark and Essex County, stabilizing active leaks, storm-stripped shingles, fallen-tree punctures, and ice-dam intrusion** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing emergency roof repair across Newark, New Jersey, and Essex County**, stabilizing active leaks, storm-stripped shingles, fallen-tree punctures, and ice-dam intrusion as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Emergency roof repair** stabilizes a sudden roof failure — an active leak, storm-stripped shingles, a fallen-tree puncture, or ice-dam backup — to stop water entry before the loss compounds. It tarps or patches the breach first, then schedules the permanent repair.`,
     overview: [
       '**Newark Quality Roofing performs emergency roof repair across Essex County for 4 sudden failures: active interior leaks, wind-stripped shingles or membrane, fallen-tree and debris punctures, and ice-dam water backup** — on residential and commercial properties. Emergency roof repair stabilizes the water entry first, then schedules the permanent repair, because a stabilized roof stops the loss from compounding.',
       'A Newark Quality Roofing emergency repair dries and protects the building within the mold-growth window, because the EPA states that wet materials dried within 24–48 hours of a leak in most cases grow no mold, so every hour of exposure raises the secondary-damage cost. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, and water damage and freezing follow at 1 in 67 with an average claim of $15,400, per the Insurance Information Institute (Triple-I, 2019–2023).',
@@ -504,7 +508,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
       reasons: [
         {
           title: 'NJ Home Improvement Contractor',
-          description: 'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+          description: 'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -537,7 +541,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-inspection',
     directAnswer:
-      '**Newark Quality Roofing provides roof inspection across Newark and Essex County, assessing roof-covering condition, flashing, drainage, ventilation, and the deck to document findings before a leak appears** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof inspection across Newark, New Jersey, and Essex County**, assessing roof-covering condition, flashing, drainage, ventilation, and the deck before a leak appears as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**A roof inspection** is a systematic evaluation of a roof's covering, flashing, drainage, ventilation, sealants, and deck that rates each component by condition and documents damage, wear, and active-leak indications before water reaches the interior.`,
     overview: [
       '**Newark Quality Roofing inspects 8 roof components across Essex County: roof-covering materials, flashing, penetrations, gutters and drainage, ventilation, sealants, the roof deck, and the attic underside** — for residential and commercial properties. A roof inspection rates each component by condition and documents the findings before water reaches the interior.',
       'A Newark Quality Roofing inspection starts at the flashing details, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. The NRCA recommends a roof inspection at least twice per year, spring and fall, plus an additional inspection after any major weather event, so a documented inspection history tracks roof condition across the freeze-thaw and storm seasons.',
@@ -684,7 +690,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -716,7 +722,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-maintenance-programs',
     directAnswer:
-      '**Newark Quality Roofing provides roof maintenance programs across Newark and Essex County, scheduling biannual roof inspections, drainage clearing, sealant maintenance, and a written condition report** for residential and commercial properties as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof maintenance programs across Newark, New Jersey, and Essex County**, scheduling biannual roof inspections, drainage clearing, sealant maintenance, and a written condition report as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**A roof maintenance program** is a recurring schedule of roof inspection, drainage clearing, sealant maintenance, and documentation that keeps a roof tracking toward its full service life. It catches deterioration early rather than reacting after a leak appears.`,
     overview: [
       '**A roof maintenance program schedules recurring inspection, drainage clearing, sealant maintenance, and documentation that keeps a roof tracking toward its full service life.** The Firestone/ProLogis 15-year dataset reported by Roofing Contractor magazine found proactively maintained commercial roofs lasting 21 years on average against 13 years for roofs maintained reactively, a roughly 8-year, 62% extension. Newark Quality Roofing builds the program around the inspection cadence the NRCA recommends: twice per year, spring and fall, plus an inspection after any severe weather event.',
       'A Newark Quality Roofing maintenance program tracks 2 cost measures from the same Firestone/ProLogis dataset: proactively maintained roofs carried a life-cycle cost of $0.14 per square foot per year against $0.25 for reactively maintained roofs, a $0.11 per square foot per year difference. Documented maintenance also keeps a manufacturer warranty in force, because GAF, Carlisle, and Owens Corning condition warranty coverage on periodic inspection, clear drains, and prompt repair, with maintenance records required at claim.',
@@ -853,7 +861,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -885,7 +893,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-leak-repair',
     directAnswer:
-      '**Newark Quality Roofing locates and repairs roof leaks across Newark and Essex County, tracing the leak to the source flashing, shingle, pipe-boot, valley, or skylight detail and resealing the failed component** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor that locates and repairs roof leaks across Newark, New Jersey, and Essex County**, tracing the leak to the source flashing, shingle, pipe-boot, or valley detail as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Roof leak repair** traces a roof leak to its source detail — flashing, shingle, pipe boot, valley, or skylight — and reseals or replaces the failed component to stop water entry. It diagnoses the entry point, which sits feet away from the interior drip, before sealing.`,
     overview: [
       '**Newark Quality Roofing repairs roof leaks across Essex County by tracing the moisture path from ridge to eave to the source detail, not the interior drip point** — for residential and commercial properties. The roofing industry estimates that roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA, so a Newark Quality Roofing leak repair diagnoses the root cause before sealing the failed component.',
       'Water enters at one roof detail and travels along rafters and sheathing before showing as an interior stain, so the entry point sits feet away from the visible drip, per Integrity Home Exteriors repair-process guidance. A failed roof cover admits large volumes fast: an unsealed 2,000-square-foot roof stripped of shingles admits up to 750 gallons of water — nine bathtubs — per inch of rain, and a sealed roof deck cuts water intrusion by up to 95%, per IBHS chief-engineer findings (Anne Cope, IBHS). Prolonged intrusion saturates insulation, grows mold, and rots the roof deck, so a Newark Quality Roofing leak repair stops water entry before the damage reaches the framing.',
@@ -1039,7 +1049,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1072,7 +1082,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'storm-damage-roof-repair',
     directAnswer:
-      '**Newark Quality Roofing provides storm damage roof repair across Newark and Essex County, repairing wind-lifted shingles, hail-bruised surfaces, debris punctures, and storm-opened flashing** as a New Jersey Home Improvement Contractor, with insurance-claim documentation.',
+      '**Newark Quality Roofing is a roofing contractor providing storm damage roof repair across Newark, New Jersey, and Essex County**, repairing wind-lifted shingles, hail-bruised surfaces, debris punctures, and storm-opened flashing as a registered New Jersey Home Improvement Contractor, with insurance-claim documentation.',
+    definition:
+      `**Storm damage roof repair** restores the roof covering where a storm opened a detail — wind-lifted shingles, hail-bruised surfaces, debris punctures, or displaced flashing — and documents the damage for an insurance claim. It separates storm-caused damage from pre-existing wear, the distinction that governs coverage.`,
     overview: [
       '**Newark Quality Roofing repairs 5 storm-damage types across Essex County: wind-lifted and missing shingles, hail-bruised surfaces, wind-borne debris punctures, storm-opened flashing, and nor\'easter wind-and-rain intrusion** — for residential and commercial properties. Storm damage roof repair restores the water layer at the detail a storm opened and documents the damage for an insurance claim. Wind and hail rank as the largest homeowners-insurance claim type at 40.7% of homeowners claims and roughly 2.8% of insured homes per year, 1 in 36, per the Insurance Information Institute (Triple-I, 2019–2023).',
       'A Newark Quality Roofing storm assessment distinguishes storm-caused damage from pre-existing wear, because that distinction governs insurance coverage, per Insurance Information Institute claims guidance. Hail leaves random-pattern circular bruises with granule loss, wind damage concentrates at roof edges, rakes, and corners where uplift peaks, and debris impact leaves directional damage, per IBHS wind and hail research. NJ averages roughly 25–30 thunderstorms per year and at least one coastal storm annually, with some years reaching 5–10 storm events, per NOAA.',
@@ -1219,7 +1231,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1251,7 +1263,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'hail-damage-roof-repair',
     directAnswer:
-      '**Newark Quality Roofing provides hail damage roof repair across Newark and Essex County, assessing impact bruises, granule loss, and cracked shingles, then documenting the damage for an insurance claim** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing hail damage roof repair across Newark, New Jersey, and Essex County**, assessing impact bruises, granule loss, and cracked shingles as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Hail damage roof repair** restores the roof covering at each hail impact point — bruised and fractured shingles, granule loss, and dented metal flashing — and documents the damage for an insurance claim. It classifies functional damage that exposes the asphalt mat against cosmetic surface marking.`,
     overview: [
       '**Newark Quality Roofing repairs 4 hail-damage problems across Essex County: bruised and fractured shingles, hail-driven granule loss, cracked and split shingles, and dented metal flashing, gutters, and vents** — for residential and commercial properties. Hail damage roof repair restores the water layer at each impact point, from a few replaced shingles to a documented insurance-claim restoration.',
       'A Newark Quality Roofing hail assessment examines the roof at close range, because the National Oceanic and Atmospheric Administration sets the severe-hail warning threshold at 0.75 inch diameter, while roof damage begins at about 1.0 inch on aged 3-tab shingles and 1.25 inch on most common shingles, with 2.0-inch hail damaging all tested roofing, per the American Meteorological Society. The Insurance Institute for Business and Home Safety notes hail damage tracks kinetic energy — hail size combined with wind speed — so a 0.75-inch stone in high wind outdamages a 1.0-inch stone in calm air.',
@@ -1365,7 +1379,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1397,7 +1411,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'wind-damage-roof-repair',
     directAnswer:
-      '**Newark Quality Roofing provides wind damage roof repair across Newark and Essex County, replacing wind-lifted and blown-off shingles, resealing lifted flashing, and refastening loosened low-slope membrane** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing wind damage roof repair across Newark, New Jersey, and Essex County**, replacing wind-lifted and blown-off shingles, resealing lifted flashing, and refastening loosened low-slope membrane as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Wind damage roof repair** restores the roof where wind separated the covering — blown-off and creased shingles, lifted ridge and hip caps, broken shingle seals, displaced flashing, and loosened membrane. It concentrates on the corners, rakes, and edges, where wind uplift peaks.`,
     overview: [
       '**Newark Quality Roofing repairs 5 wind-damage failures across Essex County: blown-off and creased shingles, lifted ridge and hip caps, wind-lifted shingles with broken seals, displaced flashing, and loosened low-slope membrane** — for residential and commercial properties. Wind damage starts at the roof corners, rakes, and edges, where wind separates and generates suction 2–3 times the pressure on the open field, per IIBEC RICOWI wind-investigation findings.',
       'A Newark Quality Roofing wind-damage repair inspects the corners, rakes, and ridge first, because the National Weather Service classifies a thunderstorm as severe at wind gusts of 58 mph or higher, and 3-tab asphalt shingles carry a wind rating near 60 mph while architectural shingles reach a 130 mph warranty with 6-nail installation, per ARMA and ASTM D3161 and D7158 classification. Wind and hail rank as the largest homeowners-insurance claim type at 2.8% of insured homes per year, 1 in 36, with an average claim of $14,747, per the Insurance Information Institute (Triple-I, 2019–2023).',
@@ -1532,7 +1548,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -1564,7 +1580,9 @@ export const repairMaintenanceContent: ServiceContent[] = [
   {
     serviceId: 'roof-cleaning-moss-removal',
     directAnswer:
-      '**Newark Quality Roofing provides roof cleaning and moss removal across Newark and Essex County, removing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash that protects roof granules** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof cleaning and moss removal across Newark, New Jersey, and Essex County**, removing moss, Gloeocapsa magma algae, and lichen with a low-pressure chemical wash as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Roof cleaning and moss removal** clears biological growth — moss, Gloeocapsa magma algae, and lichen — from a roof with a low-pressure chemical wash that kills the growth at the root. It relies on chemical action rather than pressure washing, which strips the protective granules.`,
     overview: [
       '**Newark Quality Roofing removes 3 biological growths from roofs across Essex County: moss, Gloeocapsa magma algae, and lichen** — for residential and commercial properties. Roof cleaning applies a chemical wash at low pressure to kill the growth at the root and rinses the dead material away without stripping the protective granules.',
       'A Newark Quality Roofing roof cleaning uses a low-pressure chemical method, because ARMA states that pressure-washing an asphalt shingle roof causes granule loss and premature failure of the roof system. ARMA specifies a 50:50 mix of laundry-strength liquid chlorine bleach and water, a 15–20-minute dwell, and a low-pressure rinse, so a Newark Quality Roofing wash relies on chemical action rather than mechanical force across Essex County.',
@@ -1716,7 +1734,7 @@ export const repairMaintenanceContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'ARMA-Specification Low-Pressure Cleaning',

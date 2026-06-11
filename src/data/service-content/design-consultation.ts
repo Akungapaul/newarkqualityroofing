@@ -7,7 +7,9 @@ export const designConsultationContent: ServiceContent[] = [
   {
     serviceId: 'custom-roof-design-consultation',
     directAnswer:
-      '**Newark Quality Roofing provides custom roof design and consultation across Newark and Essex County, evaluating roof geometry, material options, and code requirements to produce a written roofing specification** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing custom roof design and consultation across Newark, New Jersey, and Essex County**, evaluating roof geometry, materials, and code to produce a written roofing specification as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Custom roof design and consultation** is an advisory service that evaluates a building's roof geometry, structure, material options, and code requirements, then produces a written roofing specification before installation. It guides a new build, addition, complex roof, or material-selection decision.`,
     overview: [
       '**Newark Quality Roofing custom roof design and consultation delivers 3 advisory products across Essex County: a roof and structural assessment, a material evaluation against measured lifespans, and a written roofing specification** — for residential and commercial properties. Custom roof design and consultation guides a new build, an addition, a complex roof geometry, or a material-selection decision before installation, and the consultation can lead to a Newark Quality Roofing installation.',
       'A Newark Quality Roofing consultation matches the roof system to the building and the Essex County climate, because material lifespan differs sharply: 3-tab asphalt lasts 20 years, architectural asphalt 30 years, metal 40 to 80 years, natural slate 60 to 150 years, copper 70-plus years, wood 25 years, and clay or concrete tile 100-plus years, per the InterNACHI life-expectancy chart. A Newark Quality Roofing roof design sets the wind-load and snow-load design to ASCE 7, the load standard the NJ Uniform Construction Code adopts, before a single material reaches the roof.',
@@ -162,7 +164,7 @@ export const designConsultationContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -192,7 +194,9 @@ export const designConsultationContent: ServiceContent[] = [
   {
     serviceId: 'historic-roof-restoration',
     directAnswer:
-      '**Newark Quality Roofing provides historic roof restoration across Newark and Essex County, repairing and matching period slate, clay tile, wood shingle, and metal roofs in kind under the Secretary of the Interior\'s Standards** as a New Jersey Home Improvement Contractor.',
+      `**Newark Quality Roofing is a roofing contractor providing historic roof restoration across Newark, New Jersey, and Essex County**, repairing slate, tile, wood, and metal roofs in kind under federal preservation standards as a registered New Jersey Home Improvement Contractor.`,
+    definition:
+      `**Historic roof restoration** repairs deteriorated original roofing on a period building rather than replacing it, and matches any necessary replacement to the old roof in design, color, texture, and, where possible, material. It covers slate, clay tile, wood shingle, and historic metal roofs.`,
     overview: [
       '**Newark Quality Roofing restores 4 historic roof materials across Essex County: natural slate, clay and terra-cotta tile, wood and cedar shingle, and historic metal — standing-seam and flat-seam terne and copper** — on residential and commercial landmarks. Historic roof restoration repairs deteriorated original roofing rather than replacing it, and matches any necessary replacement to the old roof in design, color, texture, and, where possible, material, per the Secretary of the Interior\'s Standards for Rehabilitation, Standard 6.',
       'A Newark Quality Roofing historic restoration retains the roof shape and the character-defining features — dormers, decorative cresting, finials, and snow guards — because the roof shape and detailing are essential elements of a historic building\'s character, per NPS Preservation Brief 4. Newark Quality Roofing documents the existing roof first, photographing, measuring, and recording the patterning, coursing, and material dimensions, then matches in-kind samples before full installation, per NPS Preservation Briefs 4, 19, 29, and 30. Newark Quality Roofing works within the Secretary of the Interior\'s Standards and coordinates with the owner\'s architect, the municipal Historic Preservation Commission, and the NJ DEP Historic Preservation Office, rather than determining historic status.',
@@ -372,7 +376,9 @@ export const designConsultationContent: ServiceContent[] = [
   {
     serviceId: 'roof-ice-dam-prevention',
     directAnswer:
-      '**Newark Quality Roofing provides roof ice dam prevention across Newark and Essex County, correcting the root cause of attic heat escape with air-sealing, code-minimum insulation, balanced ventilation, and a code eave ice barrier** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof ice dam prevention across Newark, New Jersey, and Essex County**, correcting attic heat escape with air-sealing, insulation, ventilation, and an eave ice barrier as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Roof ice dam prevention** corrects the attic heat escape that melts a snowpack and refreezes meltwater into a dam at the cold eave. It combines air-sealing, attic insulation, balanced soffit-and-ridge ventilation, and a self-adhering eave ice barrier.`,
     overview: [
       '**Newark Quality Roofing prevents ice dams with 3 root-cause measures plus the code eave ice barrier: air-seal attic bypasses, add attic insulation to the code-minimum level, balance soffit-intake-to-ridge-exhaust ventilation, and install the eave ice-and-water membrane** — on residential and commercial properties across Essex County. Roof ice dam prevention stops the heat escape that melts the snowpack, because the root cause of an ice dam is attic heat escape driven by air leakage, not gutters, per University of Minnesota Extension and building-science consensus.',
       'An ice dam forms from 3 conditions: snow on the roof, an upper roof surface above 32°F that melts the snowpack from beneath, and an eave below 32°F that refreezes the meltwater into a dam at the edge, and the trapped water then backs up under the shingles, per University of Minnesota Extension. Newark crosses the 32°F freezing point repeatedly through winter with an average January low near 25.5°F and average annual snowfall near 31.5 inches, per NOAA 1991–2020 normals at Newark Liberty (EWR), so a Newark Quality Roofing roof ice dam prevention plan keeps the upper roof cold and the eave at the same temperature as the rest of the roof.',
@@ -531,7 +537,7 @@ export const designConsultationContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Root-Cause Ice Dam Prevention',

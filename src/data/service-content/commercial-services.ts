@@ -6,7 +6,9 @@ export const commercialServicesContent: ServiceContent[] = [
 {
     serviceId: 'commercial-roof-installation',
     directAnswer:
-      '**Newark Quality Roofing installs commercial roofs across Newark and Essex County, engineering and applying TPO, EPDM, PVC, modified-bitumen, built-up, spray-foam, and metal systems to low-slope and steep-slope commercial buildings** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor installing commercial roofs across Newark, New Jersey, and Essex County**, engineering and applying TPO, EPDM, PVC, modified-bitumen, built-up, and metal systems as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Commercial roof installation** engineers and builds a new low-slope or steep-slope roof on a commercial building, sizing the insulation, slope, and attachment, then applying a membrane or metal panel system. It constructs the full weatherproof assembly on a new or stripped deck rather than patching an existing roof.`,
     overview: [
       '**Newark Quality Roofing installs 7 commercial roof systems across Essex County: TPO, EPDM rubber, PVC single-ply, modified bitumen, built-up roofing, spray polyurethane foam, and standing-seam metal** — for warehouses, retail centers, office buildings, and industrial properties. Commercial roof installation engineers the assembly — insulation, slope, and attachment — then applies the membrane or panel that matches the building, the occupancy, and the energy target.',
       'A commercial roof system reaches a material-specific service life: TPO lasts 7 to 20 years, EPDM 15 to 25 years, modified bitumen 20 years, and built-up roofing 30 years, per the InterNACHI life-expectancy chart, with PVC at 20 to 30 years per the Single Ply Roofing Industry and GAF and spray-foam roofing past 30 years when the coating stays maintained per the Spray Polyurethane Foam Alliance. A Newark Quality Roofing installation engineers drainage before the membrane goes down, because a low-slope roof needs at least ¼ inch per foot of slope to drain and ponding water remaining more than 48 hours counts as a defect, per the NRCA and ARMA.',
@@ -174,7 +176,7 @@ export const commercialServicesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -204,7 +206,9 @@ export const commercialServicesContent: ServiceContent[] = [
 {
     serviceId: 'commercial-roof-repair',
     directAnswer:
-      '**Newark Quality Roofing provides commercial roof repair across Newark and Essex County, repairing seam separations, membrane punctures, flashing failures, and ponding-water damage on low-slope EPDM, TPO, PVC, and modified-bitumen roofs** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing commercial roof repair across Newark, New Jersey, and Essex County**, repairing seam, puncture, flashing, and ponding-water failures on low-slope EPDM, TPO, and modified-bitumen roofs as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Commercial roof repair** restores the weather barrier of a low-slope commercial membrane by sealing localized failures — seam separations, punctures, flashing breaks, and ponding damage — without replacing the entire roof. It traces water entry to the failed detail, then reseals it with manufacturer-approved bonding that keeps the system warranty intact.`,
     overview: [
       '**Newark Quality Roofing repairs 6 commercial roof problems across Essex County: membrane seam separations, punctures and tears, flashing failures at curbs and penetrations, ponding-water damage, blistering and delamination, and storm-opened laps** — on low-slope EPDM, TPO, PVC, modified-bitumen, and built-up roofs. Commercial roof repair traces water entry on a low-slope membrane to the failed detail, then reseals it with manufacturer-approved bonding that keeps a system warranty intact.',
       'A commercial low-slope membrane fails most often at the seams: EPDM at the splice seams and TPO at the welded seams, per NRCA technical guidance, while modified bitumen fails at blistering and alligator cracking and PVC at plasticizer-loss embrittlement. A Newark Quality Roofing commercial repair diagnoses the membrane type before sealing the failed component, because EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, BUR 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry data.',
@@ -352,7 +356,7 @@ export const commercialServicesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -382,7 +386,9 @@ export const commercialServicesContent: ServiceContent[] = [
 {
     serviceId: 'commercial-roof-replacement',
     directAnswer:
-      '**Newark Quality Roofing replaces commercial roofs across Newark and Essex County, stripping the low-slope membrane to the deck, repairing the deck, and installing a new insulation-and-membrane system to manufacturer specification** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor replacing commercial roofs across Newark, New Jersey, and Essex County**, stripping the low-slope membrane to the deck and installing a new insulation-and-membrane system as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Commercial roof replacement** strips a failed low-slope roof covering down to the deck, repairs the deck, and installs a new insulation-and-membrane system to manufacturer specification. It rebuilds the entire weatherproof assembly on a roof past its service life rather than patching an isolated failure.`,
     overview: [
       '**Newark Quality Roofing replaces 6 commercial roof systems across Essex County: EPDM rubber, TPO, PVC, modified bitumen, built-up roofing, and standing-seam metal** — for commercial properties, with residential flat-roof sections served on the same systems. Commercial roof replacement strips the existing low-slope covering to the deck, repairs the deck, and installs a new insulation-and-membrane system, the work that replaces a roof past its service life rather than patching a failed seam.',
       'Replacement accounts for 79.2% of US roofing installations in 2025, per Mordor Intelligence, because most commercial roofs reach replacement through membrane age and storm loss rather than new construction. A new commercial system reaches the end of service after a material-specific lifespan: EPDM lasts 15 to 25 years, TPO 7 to 20 years, modified bitumen 20 years, built-up roofing 30 years, and PVC 20 to 30 years, per the InterNACHI life-expectancy chart and Single Ply Roofing Industry guidance. A Newark Quality Roofing replacement matches the new membrane to the building, the drainage, and the Essex County climate before tear-off.',
@@ -540,7 +546,7 @@ export const commercialServicesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -570,7 +576,9 @@ export const commercialServicesContent: ServiceContent[] = [
 {
     serviceId: 'roof-thermal-imaging-inspections',
     directAnswer:
-      '**Newark Quality Roofing provides roof thermal imaging inspections across Newark and Essex County, locating wet insulation in low-slope roofing systems with infrared imaging under ASTM C1153** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing roof thermal imaging inspections across Newark, New Jersey, and Essex County**, locating wet insulation in low-slope roofing systems with infrared imaging under ASTM C1153 as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**A roof thermal imaging inspection** is a non-destructive infrared survey that scans a roof surface for temperature anomalies marking moisture-contaminated insulation beneath an intact membrane. It applies ASTM C1153, the standard practice for locating wet insulation in roofing systems using infrared imaging, then verifies each anomaly by core cut.`,
     overview: [
       '**Newark Quality Roofing performs roof thermal imaging inspections across Essex County under ASTM C1153, the standard practice for locating wet insulation in roofing systems using infrared imaging** — for commercial and residential properties. A thermal imaging inspection scans the roof surface for temperature anomalies that mark moisture-contaminated insulation beneath an intact membrane, non-destructively, per the NRCA and IIBEC.',
       'Wet insulation holds a higher heat capacity and cools more slowly than dry insulation, so after sunset dry insulation releases heat fast while moisture-contaminated areas stay warmer and read as warm anomalies on a thermal scan, per Fluke and IIBEC. ASTM C1153 requires every suspected wet area be verified by core cut, probe, or calibrated moisture meter, because an infrared camera detects temperature patterns rather than water directly and the wet-insulation footprint sits displaced from the leak entry point, per ASTM C1153 and Fluke. A Newark Quality Roofing thermal imaging inspection maps the moisture footprint before a repair or replacement scope sets the affected area.',
@@ -722,7 +730,7 @@ export const commercialServicesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
@@ -752,7 +760,9 @@ export const commercialServicesContent: ServiceContent[] = [
 {
     serviceId: 'infrared-roof-leak-detection',
     directAnswer:
-      '**Newark Quality Roofing provides infrared roof leak detection across Newark and Essex County, scanning low-slope commercial and flat residential roofs to ASTM C1153 to locate the wet insulation behind a leak** as a New Jersey Home Improvement Contractor.',
+      '**Newark Quality Roofing is a roofing contractor providing infrared roof leak detection across Newark, New Jersey, and Essex County**, scanning low-slope roofs to ASTM C1153 to locate wet insulation behind a leak as a registered New Jersey Home Improvement Contractor.',
+    definition:
+      `**Infrared roof leak detection** is a thermal imaging survey that scans a low-slope or flat roof to ASTM C1153 and maps the subsurface wet insulation a failed roof admits. It locates the moisture-contaminated area that traces back to a breach, directing a targeted repair rather than exploratory tear-out.`,
     overview: [
       '**Newark Quality Roofing performs infrared roof leak detection across Essex County to ASTM C1153, the standard practice for locating wet insulation in roofing systems using infrared imaging** — on commercial low-slope roofs, with flat residential roof sections served on the same method. Infrared roof leak detection scans the roof surface with a thermal imager and maps the subsurface wet insulation that a failed roof admits, the diagnostic step that directs a targeted repair rather than exploratory tear-out.',
       'Infrared roof leak detection locates wet insulation, not the leak entry point itself, because water travels through the roof assembly and the wet area separates from the breach, per Fluke and IIBEC infrared application guidance. ASTM C1153 requires every suspected wet area be verified by core cut, probe, or calibrated moisture meter, per ASTM and Fluke, so a Newark Quality Roofing scan pairs the thermal map with physical verification before the repair scope sets. Roughly 90–95% of roof leaks originate at flashing details and only 5–10% at the open field, an industry estimate attributed to the NRCA, so the verified wet-insulation map traces back to the flashing detail that admits the water.',
@@ -906,7 +916,7 @@ export const commercialServicesContent: ServiceContent[] = [
         {
           title: 'NJ Home Improvement Contractor',
           description:
-            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
+            'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor.',
         },
         {
           title: 'Insured',
