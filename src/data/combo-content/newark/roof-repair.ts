@@ -5,6 +5,8 @@ export const newarkRoofRepair: ComboContent = {
   cityId: 'newark',
   directAnswer:
     '**Newark Quality Roofing provides roof repair across Newark and Essex County, fixing roof leaks, missing and cracked shingles, flashing failures, and storm damage** on row houses, brownstones, and Ironbound flat roofs as a New Jersey Home Improvement Contractor.',
+  definition:
+    '**Roof repair** restores a roof\'s weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.',
   overview: [
     '**Newark Quality Roofing repairs roof leaks, missing and cracked shingles, flashing failures, and storm damage** across Newark\'s attached row houses, Forest Hill brownstones, and Ironbound flat roofs. Roof repair restores the water layer at the detail that admits water, from a single failed pipe boot to full storm-damage restoration.',
     '**Roof leaks** in Newark trace to one detail and travel before showing as an interior stain, because the roofing industry estimates that roughly 90–95% of roof leaks originate at flashing and only 5–10% at the open shingle field, an industry estimate attributed to the NRCA. A Newark Quality Roofing repair diagnoses the root cause before sealing the failed component, following the moisture path from ridge to eave, per Integrity Home Exteriors repair-process guidance.',

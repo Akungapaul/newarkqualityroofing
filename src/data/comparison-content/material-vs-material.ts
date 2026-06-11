@@ -7,6 +7,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'asphalt-shingles-vs-metal-roofing',
     directAnswer: `**Metal roofing** outlasts **asphalt shingles** — metal lasts 40–80 years versus asphalt's 20–30 (per the InterNACHI chart) — so metal wins on lifespan while asphalt wins on lower NJ install cost ($5.50–$11.00 vs $9.00–$16.00 per sq ft).`,
+    definitionA:
+      '**Asphalt shingles** are layered roof coverings built from a fiberglass mat saturated in asphalt and surfaced with mineral granules. They are the most common residential roofing material installed across the United States.',
+    definitionB:
+      '**Metal roofing** is a roof covering formed from steel, aluminum, copper, or zinc, installed as standing-seam panels or interlocking shingles. It sheds water as a continuous, non-porous surface.',
     introHeading: `Asphalt Shingles Or Metal Roofing — Which Roof Fits an Essex County Home?`,
     introParagraphs: [
       `**Asphalt shingles** are the fiberglass-mat, granule-surfaced roof covering most Essex County homes wear, and **metal roofing** is the steel or aluminum panel system that lasts longer for a higher install price.`,

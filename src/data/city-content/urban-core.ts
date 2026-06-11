@@ -12,6 +12,8 @@ export const urbanCoreContent: CityContent[] = [
   cityId: 'newark',
   directAnswer:
     'Newark Quality Roofing provides roofing in **Newark** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on homes, multi-family buildings, and commercial properties as a New Jersey Home Improvement Contractor.',
+  whereIs:
+    '**Newark, New Jersey** is the state\'s largest city and the seat of **Essex County**, set along the Passaic River at the western edge of the New York metropolitan area. It anchors the dense urban core our roofing crews serve.',
   heroHeadline: 'Roofing in Newark, NJ',
   heroSubheadline:
     'Newark Quality Roofing serves Newark and Essex County, from Ironbound brownstones and Forest Hill homes to Ferry Street commercial flat roofs.',
