@@ -51,6 +51,10 @@ export const HEADING_CONFIG = {
   service: {
     h1: (s: string) => `Who Provides ${s} in Newark?`,
     coreH2: (s: string) => `What ${s} Do We Provide?`,
+    // Entity-grounding: the definitional first H2 ("What Is {Service}?"), rendered
+    // ABOVE the existing tree by the EntityDefinition section when content.definition
+    // is present. Additive — does NOT shift the h2s[] indices the template binds.
+    definitionH2: (s: string) => `What Is ${s}?`,
     // §4.2 9-H2 tree (Core H2 first, then Outer H2s in order). §12 relabel
     // applied to "Related Roofing Services" → "What Related Roofing Services
     // Should You Consider?".
@@ -71,6 +75,10 @@ export const HEADING_CONFIG = {
   city: {
     h1: (c: string) => `Who Provides Roofing Services in ${c}?`,
     coreH2: (c: string) => `What Roofing Services Are Available in ${c}?`,
+    // Entity-grounding: the locational first H2 ("Where Is {City}, NJ?"), rendered
+    // ABOVE the services grid by the EntityDefinition section when content.whereIs
+    // is present. Additive — coreH2/h2s unchanged (coreH2 stays the services-grid H2).
+    whereIsH2: (c: string) => `Where Is ${c}, NJ?`,
     // D-11 new shared sections:
     permitsH2: (c: string) => `What Should You Know About Roofing Permits in ${c}?`,
     materialsH2: (c: string) => `What Roofing Materials Work Best for ${c} Properties?`,
@@ -94,6 +102,10 @@ export const HEADING_CONFIG = {
   combo: {
     h1: (s: string, c: string) => `Who Provides ${s} in ${c}?`,
     coreH2: (s: string, c: string) => `What ${s} Is Available in ${c}?`,
+    // Entity-grounding: the definitional first H2 ("What Is {Service}?"), city-agnostic
+    // (the canonical service definition is propagated to every combo). Rendered ABOVE
+    // the overview by EntityDefinition when content.definition is present. Additive.
+    definitionH2: (s: string) => `What Is ${s}?`,
     // §4.4 tree H2s (Core first, then Outer in tree order).
     h2s: (s: string, c: string) => [
       `What ${s} Is Available in ${c}?`,

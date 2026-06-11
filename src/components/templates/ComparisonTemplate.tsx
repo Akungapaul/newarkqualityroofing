@@ -24,6 +24,7 @@ import {
 } from '@/lib/schema';
 import { SEO_CONFIG } from '@/lib/seo-config';
 import { AnimateIn } from '@/components/animations/AnimateIn';
+import { EntityDefinition } from '@/components/sections/EntityDefinition';
 
 // ─── Content loader (graceful fallback until Plan 03 creates aggregator) ──
 
@@ -64,7 +65,15 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
           { name: 'Comparisons' },
           { name: comparison.metaTitle },
         ]),
-        buildFaqSchema(content.faqs),
+        buildFaqSchema([
+          ...(content.definitionA && comparison.itemA
+            ? [{ question: `What Is ${comparison.itemA}?`, answer: content.definitionA }]
+            : []),
+          ...(content.definitionB && comparison.itemB
+            ? [{ question: `What Is ${comparison.itemB}?`, answer: content.definitionB }]
+            : []),
+          ...content.faqs,
+        ]),
       )} />
 
       <FloatingCtaButton />
@@ -78,6 +87,26 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
+          {/* Entity-grounding: define each side ("What Is {A}?" / "What Is {B}?") before the
+              head-to-head. Each gated on its definition + item label so un-backfilled comparisons render as before. */}
+          {content.definitionA && comparison.itemA && (
+            <AnimateIn>
+              <EntityDefinition
+                headingId="entity-definition-a-heading"
+                heading={`What Is ${comparison.itemA}?`}
+                definition={content.definitionA}
+              />
+            </AnimateIn>
+          )}
+          {content.definitionB && comparison.itemB && (
+            <AnimateIn>
+              <EntityDefinition
+                headingId="entity-definition-b-heading"
+                heading={`What Is ${comparison.itemB}?`}
+                definition={content.definitionB}
+              />
+            </AnimateIn>
+          )}
           <AnimateIn>
             <ComparisonIntro
               heading={content.introHeading}

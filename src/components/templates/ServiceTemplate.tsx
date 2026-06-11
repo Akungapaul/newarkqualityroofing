@@ -39,6 +39,7 @@ import { AnimateIn } from '@/components/animations/AnimateIn';
 import { ServiceAreasGrid } from '@/components/sections/ServiceAreasGrid';
 import { getContentPoolImages } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { EntityDefinition } from '@/components/sections/EntityDefinition';
 
 // ─── Commercial-first service IDs ────────────────────────────────────────────
 
@@ -195,7 +196,11 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
           { name: 'Services', url: `${SEO_CONFIG.BASE_URL}/services` },
           { name: service.name },
         ]),
-        buildFaqSchema(content.faqs),
+        buildFaqSchema(
+          content.definition
+            ? [{ question: `What Is ${service.name}?`, answer: content.definition }, ...content.faqs]
+            : content.faqs,
+        ),
       )} />
 
       <FloatingCtaButton />
@@ -220,6 +225,17 @@ export default function ServiceTemplate({ service }: ServiceTemplateProps) {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:grid lg:grid-cols-3 lg:gap-12 lg:px-8">
         {/* Main content column -- child components render their own <section> with aria-labelledby */}
         <article className="space-y-12 pb-16 lg:col-span-2">
+          {/* Entity-grounding: definitional "What Is {Service}?" — the new first content H2.
+              Gated on content.definition so un-backfilled services render as before. */}
+          {content.definition && (
+            <AnimateIn>
+              <EntityDefinition
+                headingId="service-definition-heading"
+                heading={HEADING_CONFIG.service.definitionH2(service.name)}
+                definition={content.definition}
+              />
+            </AnimateIn>
+          )}
           {/* ── §4.2 CORE band: first content H2 = "What [Service] Do We Provide?" ── */}
           <AnimateIn><ServiceOverview heading={coreH2} paragraphs={content.overview} subServices={content.subServices} image={overviewImg ? { src: overviewImg.path, alt: `${service.name} consultation - ${overviewImg.alt}` } : undefined} /></AnimateIn>
 

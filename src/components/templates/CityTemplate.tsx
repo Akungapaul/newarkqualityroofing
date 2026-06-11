@@ -35,6 +35,7 @@ import { generateCityPageSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getGalleryPairs } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { EntityDefinition } from '@/components/sections/EntityDefinition';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -58,6 +59,7 @@ export default function CityTemplate({ city }: CityTemplateProps) {
   // or the highlight jumps. The Cost entry is conditional because CityPricing only
   // renders when the city has pricing.
   const tocSections = [
+    ...(content.whereIs ? [{ id: 'where-is', label: `About ${city.name}` }] : []),
     { id: 'services', label: 'Services' },
     { id: 'residential', label: 'Residential' },
     { id: 'commercial', label: 'Commercial' },
@@ -90,7 +92,11 @@ export default function CityTemplate({ city }: CityTemplateProps) {
           { name: 'Locations', url: `${SEO_CONFIG.BASE_URL}/locations` },
           { name: city.name },
         ]),
-        buildFaqSchema(content.faqs),
+        buildFaqSchema(
+          content.whereIs
+            ? [{ question: `Where Is ${city.name}, NJ?`, answer: content.whereIs }, ...content.faqs]
+            : content.faqs,
+        ),
       )} />
 
       <FloatingCtaButton />
@@ -118,9 +124,22 @@ export default function CityTemplate({ city }: CityTemplateProps) {
           </aside>
 
           {/* Main content column -- §4.3 Core-before-Outer order.
-              The FIRST content H2 after the hero MUST be the §4.3 Core string
+              The FIRST content H2 after the hero is the entity-definition section when
+              content.whereIs is present, otherwise the §4.3 Core string
               (HEADING_CONFIG.city.coreH2), rendered by CityServicesGrid. */}
           <article className="space-y-16 lg:col-span-3">
+            {/* Entity-grounding: locational "Where Is {City}, NJ?" — the new first content H2.
+                Gated on content.whereIs so un-backfilled cities render as before. */}
+            {content.whereIs && (
+              <AnimateIn>
+                <EntityDefinition
+                  sectionId="where-is"
+                  headingId="where-is-heading"
+                  heading={HEADING_CONFIG.city.whereIsH2(city.name)}
+                  definition={content.whereIs}
+                />
+              </AnimateIn>
+            )}
             {/* §4.3 Core: "What Roofing Services Are Available in [City]?" -- FIRST */}
             <AnimateIn>
               <section id="services" aria-labelledby="services-heading">

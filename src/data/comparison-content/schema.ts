@@ -9,6 +9,12 @@ export const ComparisonContentSchema = z.object({
   // Optional answer-first hero answer (≤40 words, pre-bolded with **markdown**).
   // Rendered by ComparisonHero; absent until the content rewrite (CMP-1..4) sets it.
   directAnswer: z.string().optional(),
+  // Entity-grounding definitional answers ("What is {A}?" / "What is {B}?",
+  // ≤40-word first sentence each, pre-bolded via **markdown**). Optional — existing
+  // comparisons validate unchanged. Rendered by two EntityDefinition sections and
+  // appended to the FAQ JSON-LD when present. A/B labels come from itemA/itemB.
+  definitionA: z.string().optional(),
+  definitionB: z.string().optional(),
   introHeading: z.string(),
   introParagraphs: z.array(z.string()).min(1).max(3),
   comparisonRows: z.array(z.object({

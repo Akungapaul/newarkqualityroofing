@@ -131,6 +131,11 @@ export const ServiceContentSchema = z.object({
   // the ~64 other services omit it and still validate. Consumed by the hero
   // when present (gated on presence at render time).
   directAnswer: z.string().optional(),
+  // Entity-grounding definitional answer ("What is {service}?", ≤40-word first
+  // sentence, central entity pre-bolded via **markdown**). Optional — existing
+  // services omit it and still validate; rendered by the EntityDefinition section
+  // and appended to the FAQ JSON-LD when present. Mirrors directAnswer.
+  definition: z.string().optional(),
   overview: z.array(z.string()).min(2).max(5),
   // Structured Core sub-services (the 6 core repairs for roof-repair). Optional
   // for backward compatibility; services lacking it render exactly as before.
@@ -186,6 +191,11 @@ export const CityContentSchema = z.object({
   // still validate. Consumed by CityHero when present (gated at render time),
   // mirroring ServiceContent.directAnswer.
   directAnswer: z.string().optional(),
+  // Entity-grounding locational answer ("Where is {City}, NJ?", ≤40-word first
+  // sentence, place entity pre-bolded via **markdown**). Optional — cities not yet
+  // backfilled omit it and still validate. Rendered by EntityDefinition and
+  // appended to the FAQ JSON-LD when present. Mirrors directAnswer.
+  whereIs: z.string().optional(),
   heroHeadline: z.string(),
   heroSubheadline: z.string(),
   overview: z.array(z.string()).min(3).max(6),

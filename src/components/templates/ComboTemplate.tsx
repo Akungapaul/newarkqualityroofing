@@ -33,6 +33,7 @@ import { generateComboSlug } from '@/lib/slug-utils';
 import { AnimateIn } from '@/components/animations/AnimateIn';
 import { getServiceHeroImage } from '@/data/image-manifest';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { EntityDefinition } from '@/components/sections/EntityDefinition';
 
 // ─── Template Component ─────────────────────────────────────────────────────
 
@@ -74,7 +75,11 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
           { name: service.name, url: `${SEO_CONFIG.BASE_URL}/${service.slug}` },
           { name: `${service.name} in ${city.name}` },
         ]),
-        buildFaqSchema(content.faqs),
+        buildFaqSchema(
+          content.definition
+            ? [{ question: `What Is ${service.name}?`, answer: content.definition }, ...content.faqs]
+            : content.faqs,
+        ),
       )} />
 
       <FloatingCtaButton />
@@ -94,6 +99,17 @@ export default function ComboTemplate({ service, city }: ComboTemplateProps) {
             The FIRST content H2 after the hero MUST be the §4.4 Core string
             (HEADING_CONFIG.combo.coreH2), rendered by ComboOverview. */}
         <article className="space-y-12 pb-16 lg:col-span-2">
+          {/* Entity-grounding: definitional "What Is {Service}?" — the new first content H2
+              (city-agnostic). Gated on content.definition so un-backfilled combos render as before. */}
+          {content.definition && (
+            <AnimateIn>
+              <EntityDefinition
+                headingId="combo-definition-heading"
+                heading={HEADING_CONFIG.combo.definitionH2(service.name)}
+                definition={content.definition}
+              />
+            </AnimateIn>
+          )}
           {/* §4.4 Core: "What [Service] Is Available in [City]?" -- FIRST */}
           <AnimateIn>
             <ComboOverview

@@ -41,6 +41,9 @@ import { corePages } from '@/data/core-pages';
 import { isKeep, isNoindex } from '@/data/url-classification';
 import { getSlugsByType } from '@/data/slug-registry';
 import { HEADING_CONFIG } from '@/data/heading-config';
+import { getServiceContent } from '@/data/service-content';
+import { getCityContent } from '@/data/city-content';
+import { getComboContent } from '@/data/combo-content';
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PRERENDER_DIR = join(REPO_ROOT, '.next', 'server', 'app');
@@ -86,14 +89,17 @@ function staticPass(errors: string[]): void {
     ...H.home.outerH2s.map((s, i) => [`home.outerH2[${i}]`, s] as [string, string]),
     ['service.h1', H.service.h1(sampleService)],
     ['service.coreH2', H.service.coreH2(sampleService)],
+    ['service.definitionH2', H.service.definitionH2(sampleService)],
     ...H.service.h2s(sampleService).map((s, i) => [`service.h2[${i}]`, s] as [string, string]),
     ['city.h1', H.city.h1(sampleCity)],
     ['city.coreH2', H.city.coreH2(sampleCity)],
+    ['city.whereIsH2', H.city.whereIsH2(sampleCity)],
     ['city.permitsH2', H.city.permitsH2(sampleCity)],
     ['city.materialsH2', H.city.materialsH2(sampleCity)],
     ...H.city.h2s(sampleCity).map((s, i) => [`city.h2[${i}]`, s] as [string, string]),
     ['combo.h1', H.combo.h1(sampleService, sampleCity)],
     ['combo.coreH2', H.combo.coreH2(sampleService, sampleCity)],
+    ['combo.definitionH2', H.combo.definitionH2(sampleService)],
     ...H.combo.h2s(sampleService, sampleCity).map((s, i) => [`combo.h2[${i}]`, s] as [string, string]),
     ...Object.entries(H.core).map(([k, v]) => [`core.${k}.h1`, v] as [string, string]),
     ...Object.entries(H.hub).map(([k, v]) => [`hub.${k}.h1`, v] as [string, string]),
@@ -160,6 +166,40 @@ interface RenderedSample {
 
 const H = HEADING_CONFIG;
 
+// ── Entity-grounding (Phase 1): a sampled page's first <h2> is the EntityDefinition
+//    heading ONLY when that page actually carries the optional definition field.
+//    These helpers let the expected coreH2 track backfill across phases with no edits.
+//    Each helper is called with a SLUG and resolves slug → .id via the services/cities
+//    registries before hitting the content getters (which are keyed by id, not slug).
+function serviceHasDefinition(slug: string): boolean {
+  const svc = services.find((s) => s.slug === slug);
+  if (!svc) return false;
+  try {
+    return Boolean(getServiceContent(svc.id).definition);
+  } catch {
+    return false;
+  }
+}
+function cityHasWhereIs(slug: string): boolean {
+  const city = cities.find((c) => c.slug === slug);
+  if (!city) return false;
+  try {
+    return Boolean(getCityContent(city.id).whereIs);
+  } catch {
+    return false;
+  }
+}
+function comboHasDefinition(serviceSlug: string, citySlug: string): boolean {
+  const svc = services.find((s) => s.slug === serviceSlug);
+  const city = cities.find((c) => c.slug === citySlug);
+  if (!svc || !city) return false;
+  try {
+    return Boolean(getComboContent(svc.id, city.id).definition);
+  } catch {
+    return false;
+  }
+}
+
 /** One representative prerendered file per template (Pattern 3). */
 function buildSampleSet(): RenderedSample[] {
   // Resolve the names used by the representative pages so the expected Core H2
@@ -171,18 +211,34 @@ function buildSampleSet(): RenderedSample[] {
 
   return [
     { label: 'home', file: 'index.html', coreH2: H.home.coreH2, kind: 'full' },
-    { label: 'service (roof-repair)', file: 'roof-repair.html', coreH2: H.service.coreH2(repairName), kind: 'full' },
-    { label: 'city (newark)', file: 'roofing-in-newark-nj.html', coreH2: H.city.coreH2(newarkName), kind: 'full' },
+    {
+      label: 'service (roof-repair)',
+      file: 'roof-repair.html',
+      coreH2: serviceHasDefinition('roof-repair')
+        ? H.service.definitionH2(repairName)
+        : H.service.coreH2(repairName),
+      kind: 'full',
+    },
+    {
+      label: 'city (newark)',
+      file: 'roofing-in-newark-nj.html',
+      coreH2: cityHasWhereIs('newark') ? H.city.whereIsH2(newarkName) : H.city.coreH2(newarkName),
+      kind: 'full',
+    },
     {
       label: 'keep combo (roof-repair/newark)',
       file: 'roof-repair-newark-nj.html',
-      coreH2: H.combo.coreH2(repairName, newarkName),
+      coreH2: comboHasDefinition('roof-repair', 'newark')
+        ? H.combo.definitionH2(repairName)
+        : H.combo.coreH2(repairName, newarkName),
       kind: 'full',
     },
     {
       label: 'noindex combo (asphalt-shingle-roofing/belleville)',
       file: 'asphalt-shingle-roofing-belleville-nj.html',
-      coreH2: H.combo.coreH2(keepComboService, keepComboCity),
+      coreH2: comboHasDefinition('asphalt-shingle-roofing', 'belleville')
+        ? H.combo.definitionH2(keepComboService)
+        : H.combo.coreH2(keepComboService, keepComboCity),
       kind: 'full',
     },
     // Content-bearing core/hub pages — full DOM rules, Core H2 not asserted
