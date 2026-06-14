@@ -11,7 +11,7 @@ export const urbanCoreContent: CityContent[] = [
 {
   cityId: 'newark',
   directAnswer:
-    'Newark Quality Roofing provides roofing in **Newark** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on homes, multi-family buildings, and commercial properties as a New Jersey Home Improvement Contractor.',
+    'Newark Quality Roofing is a **roofing contractor** serving **Newark, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on homes, multi-family buildings, and commercial properties as a registered New Jersey Home Improvement Contractor.',
   whereIs:
     '**Newark, New Jersey** is the state\'s largest city and the seat of **Essex County**, set along the Passaic River at the western edge of the New York metropolitan area. It anchors the dense urban core our roofing crews serve.',
   heroHeadline: 'Roofing in Newark, NJ',
@@ -165,7 +165,7 @@ export const urbanCoreContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors\' Registration Act.',
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors\' Registration Act.',
       },
       {
         title: 'Fully Insured and Bonded',
@@ -186,21 +186,23 @@ export const urbanCoreContent: CityContent[] = [
   },
   metaTitle: 'Roofing in Newark, NJ | Newark Quality Roofing',
   metaDescription:
-    'Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Newark and Essex County. NJ HIC licensed, insured. Free estimate.',
+    'Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Newark and Essex County. NJ HIC registered, insured. Free estimate.',
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note:
       'Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── East Orange ───
 {
   cityId: 'east-orange',
   directAnswer:
-    `Newark Quality Roofing provides roofing services across **East Orange**, repairing and replacing **asphalt, flat-membrane, and multi-family roofs** as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **East Orange, New Jersey**, and **Essex County**, repairing and replacing asphalt, flat-membrane, and multi-family roofs as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**East Orange, New Jersey** is a densely built inner-ring suburb of Newark in **Essex County**, set on the flat Watsessing plain immediately west of the city. Its tree-lined residential streets and two NJ Transit rail stops sit within the urban core our roofing crews serve.`,
   heroHeadline: `Roofing Services in East Orange, NJ`,
   heroSubheadline: `Repair, replacement, and flat-roof work for East Orange homes, multi-family buildings, and Main Street and Central Avenue commercial properties.`,
   overview: [
@@ -345,7 +347,7 @@ export const urbanCoreContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every roofing contractor working in East Orange.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every roofing contractor working in East Orange.`,
       },
       {
         title: 'Local Essex County Roofers',
@@ -376,17 +378,19 @@ export const urbanCoreContent: CityContent[] = [
     averageReplacement: '$10,000–$25,000',
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Orange ───
 {
   cityId: 'orange',
   directAnswer:
-    'Newark Quality Roofing provides roofing in **Orange, NJ**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the city\'s older homes and **Main Street commercial buildings** as a New Jersey Home Improvement Contractor.',
+    'Newark Quality Roofing is a **roofing contractor** serving **Orange, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the city\'s older homes and Main Street commercial buildings as a registered New Jersey Home Improvement Contractor.',
+  whereIs:
+    `**Orange, New Jersey** — officially the City of Orange Township — sits at the eastern foot of the First Watchung ridge in **Essex County**, bordering West Orange to its west. Interstate 280 crosses the city, whose older homes and Main Street commercial corridor our roofing crews serve.`,
   heroHeadline: 'Roofing Services in Orange, NJ',
   heroSubheadline:
-    'Newark Quality Roofing repairs and replaces residential and commercial roofs across the City of Orange Township, from older detached homes to Main Street flat-roof storefronts, as a New Jersey Home Improvement Contractor serving Essex County.',
+    'Newark Quality Roofing repairs and replaces residential and commercial roofs across the City of Orange Township, from older detached homes to Main Street flat-roof storefronts, as a registered New Jersey Home Improvement Contractor serving Essex County.',
   overview: [
     'Roofing in Orange faces 3 main stressors: **tight-lot access** on the compact street grid, **low-lying stormwater** in the Valley section near the rail line, and **tree debris** from Orange\'s mature street trees and the wooded West Orange ridge.',
     '**Tight-lot access** constrains every Orange job, because Orange\'s compact street grid sets narrow side yards and limited staging room between buildings, so material delivery, ladder placement, and debris containment account for the close spacing. Newark Quality Roofing stages materials compactly and nets debris between structures on Orange\'s narrow lots.',
@@ -535,7 +539,7 @@ export const urbanCoreContent: CityContent[] = [
       {
         title: 'New Jersey Home Improvement Contractor',
         description:
-          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors\' Registration Act.',
+          'Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors\' Registration Act.',
       },
       {
         title: 'Fully Insured and Bonded',
@@ -561,14 +565,14 @@ export const urbanCoreContent: CityContent[] = [
   },
   metaTitle: 'Roofing Services in Orange, NJ | Newark Quality Roofing',
   metaDescription:
-    'Roofing in Orange, NJ: repair and replacement for older homes, slate restoration, and Main Street flat roofs. NJ HIC licensed, insured. Free written estimate.',
+    'Roofing in Orange, NJ: repair and replacement for older homes, slate restoration, and Main Street flat roofs. NJ HIC registered, insured. Free written estimate.',
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note: 'Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.',
   },
   credentialsHighlight: [
-    'NJ HIC Licensed',
+    'NJ HIC Registered',
     'Fully Insured & Bonded',
     'Family-Owned & Local',
   ],
@@ -578,7 +582,9 @@ export const urbanCoreContent: CityContent[] = [
 {
   cityId: 'irvington',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Irvington, NJ**, repairing and replacing **asphalt, flat-membrane, and metal roofs** on Irvington homes, 2-3-family rentals, and commercial buildings as a New Jersey Home Improvement Contractor across Essex County.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Irvington, New Jersey**, and **Essex County**, repairing and replacing asphalt, flat-membrane, and metal roofs on Irvington homes, 2-3-family rentals, and commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Irvington, New Jersey** is a small, dense township in **Essex County** directly southwest of Newark, one of the state's most heavily settled municipalities, with the Springfield Avenue corridor running through it from Newark toward Union County. Our roofing crews serve its homes, 2-3-family rentals, and commercial buildings.`,
   heroHeadline: `Roofing in Irvington, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across Irvington — from early-20th-century Olympic Park homes to Springfield Avenue flat roofs — as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
@@ -586,7 +592,7 @@ export const urbanCoreContent: CityContent[] = [
     `Roofing problems in Irvington concentrate on 3 stressors: **aging asphalt shingle roofs** reaching end of life, **ice dams** on under-insulated 1920s-1940s homes, and **freeze-thaw cycling** on a dense, built-out housing stock.`,
     `**Aging asphalt shingle roofs** drive the most frequent Irvington roofing problem, because a 1920s-1940s shingle roof at or past its 20-30 year service life shows curling, granule loss, and flashing failure, per the InterNACHI life-expectancy chart. The roofing industry estimates that roughly 90-95% of roof leaks originate at flashing details — chimneys, valleys, and penetrations — and only 5-10% at the open shingle field, an industry estimate attributed to the NRCA, so a Newark Quality Roofing repair diagnoses the failed flashing before sealing the visible drip point.`,
     `**Ice dams** follow as the second stressor on Irvington's under-insulated older homes, because escaping attic heat warms the upper roof above 32 degrees Fahrenheit, melts the snowpack, and the meltwater refreezes at the colder eave, backing water under the shingles, per University of Minnesota Extension. Irvington shares Newark's climate at the Newark Liberty (EWR) station, averaging about 31.5 inches of snow per year, per NOAA 1991-2020 normals, the snow load that feeds the melt-refreeze cycle on a roof without an ice barrier at the eaves.`,
-    `**Freeze-thaw cycling** is the third stressor across Irvington's dense, built-out housing stock, because water expands as it freezes and stresses every sealed flashing lap and fastener each time the temperature crosses the 32-degree-Fahrenheit freezing point, a pattern Irvington repeats through winter on the shared Newark/EWR baseline, per NOAA 1991-2020 normals. Newark Quality Roofing repairs and replaces asphalt, flat-membrane, and metal roofs across this aging Irvington stock as a New Jersey Home Improvement Contractor.`,
+    `**Freeze-thaw cycling** is the third stressor across Irvington's dense, built-out housing stock, because water expands as it freezes and stresses every sealed flashing lap and fastener each time the temperature crosses the 32-degree-Fahrenheit freezing point, a pattern Irvington repeats through winter on the shared Newark/EWR baseline, per NOAA 1991-2020 normals. Newark Quality Roofing repairs and replaces asphalt, flat-membrane, and metal roofs across this aging Irvington stock as a registered New Jersey Home Improvement Contractor.`,
   ],
   residential: {
     heading: `Residential Roofing in Irvington`,
@@ -706,9 +712,9 @@ export const urbanCoreContent: CityContent[] = [
         `**Asphalt shingles** suit most Irvington homes, covering roughly 73% of U.S. residential roofs per 2024 roofing-market data, with architectural asphalt at a 30-year service life and 3-tab at 20 years, per the InterNACHI life-expectancy chart. A value-priced asphalt re-roof matches Irvington's working-family and 2-3-family rental housing stock.`,
     },
     {
-      question: `Are you licensed and insured to roof in Irvington?`,
+      question: `Are you registered and insured to roof in Irvington?`,
       answer:
-        `Newark Quality Roofing holds **New Jersey Home Improvement Contractor registration**, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor. Newark Quality Roofing carries the commercial general liability coverage the Contractors' Registration Act requires at a minimum of $500,000 per occurrence, per N.J.S.A. 56:8-142.`,
+        `Newark Quality Roofing holds **New Jersey Home Improvement Contractor registration**, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor. Newark Quality Roofing carries the commercial general liability coverage the Contractors' Registration Act requires at a minimum of $500,000 per occurrence, per N.J.S.A. 56:8-142.`,
     },
     {
       question: `How often should an Irvington roof be inspected?`,
@@ -722,7 +728,7 @@ export const urbanCoreContent: CityContent[] = [
       {
         title: `NJ Home Improvement Contractor`,
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Irvington.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Irvington.`,
       },
       {
         title: `Fully Insured and Bonded`,
@@ -754,7 +760,7 @@ export const urbanCoreContent: CityContent[] = [
     averageReplacement: `$10,000-$25,000 for a typical home`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize, with leak repair at $400-$1,000 and flashing reseal at $200-$500; final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 ];

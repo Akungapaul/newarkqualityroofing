@@ -8,7 +8,9 @@ export const affluentSuburbanContent: CityContent[] = [
 {
   cityId: 'livingston',
   directAnswer:
-    `Newark Quality Roofing provides roofing across **Livingston** and **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the township's split-levels, ranches, and colonials and its Route 10 commercial buildings as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Livingston, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's split-levels, ranches, and colonials and its Route 10 commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Livingston, New Jersey** is a large township in **Essex County** whose western edge runs along the Passaic River and the West Essex Park greenway, bordered by Roseland, West Orange, Millburn, and the Morris County line. Our roofing crews serve its post-war split-levels, ranches, and Route 10 commercial corridor.`,
   heroHeadline: `Roofing in Livingston, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across the Township of Livingston, from tree-shaded post-WWII split-levels, raised ranches, and center-hall colonials to the flat-roofed Route 10 shopping corridor, the Eisenhower Parkway office and medical parks, the Livingston Town Center, and the Cooperman Barnabas Medical Center campus, as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
@@ -175,7 +177,7 @@ export const affluentSuburbanContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Livingston under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Livingston under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -206,20 +208,22 @@ export const affluentSuburbanContent: CityContent[] = [
   },
   metaTitle: `Roofing in Livingston, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Livingston and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Livingston and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: `$400–$1,000`,
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and a large flat commercial membrane or a natural slate roof costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Millburn ───
 {
   cityId: 'millburn',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Millburn** and across **Essex County**, repairing and replacing **natural slate, copper, tile, and asphalt roofs** on the township's Short Hills estates, Tudor and Arts-and-Crafts homes, and downtown buildings as a New Jersey contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Millburn, New Jersey**, and **Essex County**, repairing and replacing natural slate, copper, tile, and asphalt roofs on the township's Short Hills estates, Tudor and Arts-and-Crafts homes, and downtown buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Millburn, New Jersey** is a township in **Essex County** that includes the Short Hills section and abuts the South Mountain Reservation in the wooded Watchung foothills, with its downtown village set on the Rahway River. Our roofing crews serve its slate, copper, and tile estate roofs and downtown buildings.`,
   heroHeadline: `Roofing in Millburn, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across the Township of Millburn, including Short Hills, from century-old Tudor Revival, Arts-and-Crafts, and Colonial Revival estates in natural slate, copper, tile, and cedar to the downtown Millburn village and Mall at Short Hills commercial decks, as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
@@ -371,7 +375,7 @@ export const affluentSuburbanContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Millburn under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Millburn under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -402,13 +406,13 @@ export const affluentSuburbanContent: CityContent[] = [
   },
   metaTitle: `Roofing in Millburn, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces slate, copper, tile, and asphalt roofs in Millburn and Short Hills, Essex County. NJ HIC licensed. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces slate, copper, tile, and asphalt roofs in Millburn and Short Hills, Essex County. NJ HIC registered. Free estimate.`,
   pricing: {
     averageRepair: `$400–$1,000`,
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and a natural slate, copper, or tile roof on a Short Hills estate costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 ];

@@ -8,10 +8,12 @@ export const caldwellsRoselandContent: CityContent[] = [
 {
   cityId: 'caldwell',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Caldwell** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the borough's Victorian-era and Colonial Revival homes, Capes, ranches, and Bloomfield Avenue downtown buildings.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Caldwell, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's Victorian-era and Colonial Revival homes, Capes, ranches, and Bloomfield Avenue downtown buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Caldwell, New Jersey** is a compact borough in the far-western uplands of **Essex County**, bordered by North Caldwell, West Caldwell, and Essex Fells, with a walkable Bloomfield Avenue downtown and Caldwell University at its center. Its older homes and downtown storefronts are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Caldwell, NJ`,
   heroSubheadline:
-    `Newark Quality Roofing repairs and replaces roofs across the Borough of Caldwell, from older Victorian-era and Colonial Revival homes, Capes, and ranches near Central Avenue and the Caldwell University area to the Bloomfield Avenue downtown's flat-roofed storefronts, as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing repairs and replaces roofs across the Borough of Caldwell, from older Victorian-era and Colonial Revival homes, Capes, and ranches near Central Avenue and the Caldwell University area to the Bloomfield Avenue downtown's flat-roofed storefronts, as a registered New Jersey Home Improvement Contractor serving Essex County.`,
   overview: [
     `Roofing in Caldwell faces 3 main stressors: **mature street-tree debris** clogging valleys and gutters, **aging built-out covering** at end of life on the older blocks, and **flashing failure** at chimneys, walls, and valleys, the conditions behind most Caldwell roof leaks.`,
     `**Mature street-tree debris** drives the most frequent Caldwell roofing problem, because a mature oak and maple canopy shades the borough's older, built-out residential blocks and drops leaf load and broken branches that collect in valleys and gutters. Valley and gutter blockage backs water under the roof covering and rots fascia, soffit, and decking, while shade on north-facing slopes feeds the moss and algae that lift shingle edges and accelerate granule loss.`,
@@ -150,7 +152,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Caldwell under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Caldwell under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -181,20 +183,22 @@ export const caldwellsRoselandContent: CityContent[] = [
   },
   metaTitle: `Roofing in Caldwell, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Caldwell and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Caldwell and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: `$400–$1,000`,
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and a natural slate or copper roof costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── North Caldwell ───
 {
   cityId: 'north-caldwell',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **North Caldwell** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the borough's custom colonials, contemporaries, and Tudors as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **North Caldwell, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's custom colonials, contemporaries, and Tudors as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**North Caldwell, New Jersey** is a wooded, large-lot residential borough in the far-western uplands of **Essex County**, rising onto the Second Watchung ridge that holds the Hilltop Reservation and the highest ground in the county. Its custom homes on large lots are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in North Caldwell, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across the Borough of North Caldwell, from custom colonials, contemporaries, and Tudors on large wooded lots near the Hilltop Reservation to estate accessory and municipal structures, as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
@@ -346,7 +350,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in North Caldwell under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in North Caldwell under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -377,23 +381,25 @@ export const caldwellsRoselandContent: CityContent[] = [
   },
   metaTitle: `Roofing in North Caldwell, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs in North Caldwell and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs in North Caldwell and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and a natural slate or copper roof on a North Caldwell Tudor or estate home costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Essex Fells ───
 {
   cityId: 'essex-fells',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Essex Fells** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the borough's large-lot custom single-family homes as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Essex Fells, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's large-lot custom single-family homes as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Essex Fells, New Jersey** is the smallest municipality in **Essex County**, a compact borough laid out as the planned, hilly Bowditch residential community in the far-western uplands. Its large-lot custom homes under a mature tree canopy are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Essex Fells, NJ`,
   heroSubheadline:
-    `Newark Quality Roofing repairs and replaces roofs across the Borough of Essex Fells, from tree-canopied custom homes on the winding Bowditch-plan roads of Fells Road, Forest Way, Oak Lane, and Devon Road to the borough's few municipal and institutional structures, as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing repairs and replaces roofs across the Borough of Essex Fells, from tree-canopied custom homes on the winding Bowditch-plan roads of Fells Road, Forest Way, Oak Lane, and Devon Road to the borough's few municipal and institutional structures, as a registered New Jersey Home Improvement Contractor serving Essex County.`,
   overview: [
     `Roofing in Essex Fells faces 3 main stressors: **mature tree canopy** clogging valleys and gutters, **aging slate and asphalt covering** at end of life, and **flashing failure** at chimneys, valleys, and dormers, behind most Essex Fells roof leaks.`,
     `**Mature tree canopy** drives the most frequent Essex Fells roofing problem, because the borough's trees run roughly 50 to 150 years old and form a unique canopy over the housing stock, the Bowditch design legacy, per the Borough of Essex Fells 2018 Master Plan. The canopy of oak and maple drops leaf load and broken branches that collect in valleys and gutters, and valley and gutter blockage backs water under the roof covering and rots fascia, soffit, and decking, while shade on north-facing slopes feeds the moss and algae that lift shingle edges across the borough's wooded large lots.`,
@@ -537,7 +543,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Essex Fells under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Essex Fells under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -563,20 +569,22 @@ export const caldwellsRoselandContent: CityContent[] = [
   },
   metaTitle: `Roofing in Essex Fells, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Essex Fells and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Essex Fells and Essex County. NJ HIC registered, insured. Free quote.`,
   pricing: {
     averageRepair: `$400–$1,000`,
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Essex Fells's large custom homes with steep complex slopes and natural slate raise the install figure, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Fairfield ───
 {
   cityId: 'fairfield',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Fairfield** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the township's colonials, split-levels, and Route 46 and I-80 commercial buildings as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Fairfield, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's colonials, split-levels, and Route 46 and I-80 commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Fairfield, New Jersey** is a township in the northwest corner of **Essex County**, the area's defining Passaic River floodplain community, set on low-lying ground downstream of the Passaic-Pompton confluence beside the Route 46 and I-80 commercial corridor. Our roofing crews serve its homes and flat-roofed commercial buildings.`,
   heroHeadline: `Roofing in Fairfield, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across the Township of Fairfield, from owner-occupied colonials, split-levels, and raised ranches on Hollywood Avenue and Big Piece Road to the flat-roofed warehouses, offices, and big-box buildings along the Route 46 and I-80 commercial corridor, as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
@@ -728,7 +736,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Fairfield under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Fairfield under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -759,23 +767,25 @@ export const caldwellsRoselandContent: CityContent[] = [
   },
   metaTitle: `Roofing in Fairfield, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Fairfield and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Fairfield and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: `$400–$1,000`,
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and a flat commercial membrane or a natural slate roof costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Roseland ───
 {
   cityId: 'roseland',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Roseland** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the borough's postwar colonials, ranches, and split-levels and its office-park buildings as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Roseland, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's postwar colonials, ranches, and split-levels and its office-park buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Roseland, New Jersey** is a far-western borough in **Essex County** where the Passaic River forms its western boundary with Morris County, mixing established residential streets with the Eisenhower Parkway office-park corridor. Its postwar homes and office-park flat roofs are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Roseland, NJ`,
   heroSubheadline:
-    `Newark Quality Roofing repairs and replaces roofs across the Borough of Roseland, from tree-shaded postwar colonials, ranches, and split-levels to the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park flat roofs, as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing repairs and replaces roofs across the Borough of Roseland, from tree-shaded postwar colonials, ranches, and split-levels to the Eisenhower Parkway, Becker Farm Road, and Livingston Avenue office-park flat roofs, as a registered New Jersey Home Improvement Contractor serving Essex County.`,
   overview: [
     `Roofing problems in Roseland concentrate on 3 stressors: **mature tree canopy** clogging valleys and gutters, **flashing failure** at chimneys, walls, and valleys, and **western-edge floodplain drainage** along the Passaic River boundary, behind most Roseland roof leaks.`,
     `**Mature tree canopy** drives the most frequent Roseland roofing problem, because the borough's heavy oak and maple canopy shades a built-out single-family suburb and drops leaf load and broken branches that collect in valleys and gutters. Valley and gutter blockage backs water under the roof covering and rots the fascia, soffit, and decking, while shade on north-facing slopes feeds the moss and algae that lift the shingle edges and accelerate granule loss on a tree-shaded Roseland slope.`,
@@ -919,7 +929,7 @@ export const caldwellsRoselandContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Roseland under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Roseland under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -950,13 +960,13 @@ export const caldwellsRoselandContent: CityContent[] = [
   },
   metaTitle: `Roofing in Roseland, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Roseland and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Roseland and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: `$400–$1,000`,
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. A premium material such as natural slate raises the figure above the asphalt range, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 ];

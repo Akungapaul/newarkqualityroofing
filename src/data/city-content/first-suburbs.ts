@@ -9,7 +9,9 @@ export const firstSuburbsContent: CityContent[] = [
 {
   cityId: 'bloomfield',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Bloomfield** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on pre-war Colonials, two-family homes, garden apartments, and commercial buildings as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Bloomfield, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on pre-war Colonials, two-family homes, garden apartments, and commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Bloomfield, New Jersey** is a township in **Essex County** north of Newark, with the Third River running past its town center and the Garden State Parkway threading through its commercial spine. Bordering Montclair, Glen Ridge, Belleville, Nutley, and Newark, it sits within the suburban ring our roofing crews serve.`,
   heroHeadline: `Roofing in Bloomfield, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across Bloomfield, from pre-war Colonials and two-family homes near Bloomfield Center to Broad Street and Garden State Parkway-corridor flat roofs.`,
@@ -151,7 +153,7 @@ export const firstSuburbsContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -177,20 +179,22 @@ export const firstSuburbsContent: CityContent[] = [
   },
   metaTitle: `Roofing in Bloomfield, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Bloomfield and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Bloomfield and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Belleville ───
 {
   cityId: 'belleville',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Belleville** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on one- and two-family homes, multi-family buildings, and commercial properties as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Belleville, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on one- and two-family homes, multi-family buildings, and commercial properties as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Belleville, New Jersey** is a township in **Essex County** bounded by the Second River along its southwest edge with Newark and the Passaic River on its eastern side. It sits on the Passaic's west bank opposite North Arlington and Lyndhurst, with Branch Brook Park extending into the streets our roofing crews serve.`,
   heroHeadline: `Roofing in Belleville, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across Belleville and Essex County, from Soho and Silver Lake one- and two-family homes to Washington Avenue and Route 21 commercial flat roofs.`,
@@ -337,7 +341,7 @@ export const firstSuburbsContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Belleville under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Belleville under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -363,23 +367,25 @@ export const firstSuburbsContent: CityContent[] = [
   },
   metaTitle: `Roofing in Belleville, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Belleville and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Belleville and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Nutley ───
 {
   cityId: 'nutley',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Nutley** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the township's owner-occupied single-family homes and Franklin Avenue commercial buildings as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Nutley, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's owner-occupied single-family homes and Franklin Avenue commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Nutley, New Jersey** is a township in **Essex County** roughly eleven miles west of Manhattan, with the Third River — also called the Yantacaw — winding through its parks and the Passaic River forming its western boundary. Our roofing crews serve its tree-lined residential sections and Franklin Avenue corridor.`,
   heroHeadline: `Roofing in Nutley, NJ`,
   heroSubheadline:
-    `Newark Quality Roofing repairs and replaces roofs across Nutley — from tree-shaded Yantacaw and Spring Garden single-family homes to Franklin Avenue and ON3 commercial flat roofs — as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing repairs and replaces roofs across Nutley — from tree-shaded Yantacaw and Spring Garden single-family homes to Franklin Avenue and ON3 commercial flat roofs — as a registered New Jersey Home Improvement Contractor serving Essex County.`,
   overview: [
     `Roofing problems in Nutley concentrate on 3 stressors: **tree-canopy debris** from the township's mature street trees clogging valleys and gutters, **shade-driven moss** on north-facing slopes, and **ice dams** on older single-family homes during nor'easter snow.`,
     `**Tree-canopy debris** drives the most frequent Nutley roofing problem, because leaf load and broken branches collect in valleys and gutters and hold moisture against the roof covering. Nutley runs a heavily tree-lined township of nine public parks and shaded residential streets, per the Realty Executives Nutley guide, and the resulting valley and gutter blockage backs water under the shingles and rots the fascia, soffit, and decking.`,
@@ -523,7 +529,7 @@ export const firstSuburbsContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Nutley under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Nutley under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -555,14 +561,16 @@ export const firstSuburbsContent: CityContent[] = [
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Maplewood ───
 {
   cityId: 'maplewood',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Maplewood** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the township's architect-designed early-20th-century homes and Village storefronts as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Maplewood, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's architect-designed early-20th-century homes and Village storefronts as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Maplewood, New Jersey** is a township in **Essex County** set between the First and Second Watchung ridges, where the South Mountain Reservation reaches into its wooded western edge. Its architect-designed early-20th-century homes and the Maplewood Village commercial core sit on the rail line our roofing crews serve.`,
   heroHeadline: `Roofing in Maplewood, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across the Township of Maplewood, from tree-shaded Tudor, Colonial Revival, and Italian Revival homes to Maplewood Village and Springfield Avenue storefronts, as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
@@ -698,9 +706,9 @@ export const firstSuburbsContent: CityContent[] = [
         `**Natural slate** lasts 60 to 150 years, per the InterNACHI life-expectancy chart, and outlasts asphalt at 20 to 30 years and metal at 40 to 80 years. Slate fails at corroded fasteners and degraded valley and chimney flashing before the tile itself, so Newark Quality Roofing swaps impact-broken slate tile by tile and replaces flashing while the deck and nailers stay sound.`,
     },
     {
-      question: 'Are you licensed and insured to roof in Maplewood?',
+      question: 'Are you registered and insured to roof in Maplewood?',
       answer:
-        `Newark Quality Roofing holds **New Jersey Home Improvement Contractor registration**, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Maplewood. Newark Quality Roofing carries the commercial general liability coverage the Contractors' Registration Act requires at a minimum of $500,000 per occurrence, per N.J.S.A. 56:8-142, and provides a free roof inspection and a free written estimate.`,
+        `Newark Quality Roofing holds **New Jersey Home Improvement Contractor registration**, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Maplewood. Newark Quality Roofing carries the commercial general liability coverage the Contractors' Registration Act requires at a minimum of $500,000 per occurrence, per N.J.S.A. 56:8-142, and provides a free roof inspection and a free written estimate.`,
     },
   ],
   whyChoose: {
@@ -709,7 +717,7 @@ export const firstSuburbsContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -735,23 +743,25 @@ export const firstSuburbsContent: CityContent[] = [
   },
   metaTitle: `Roofing in Maplewood, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Roofing in Maplewood, NJ: repair and replacement for architect-designed homes, slate restoration, and Village flat roofs. NJ HIC licensed, insured. Free quote.`,
+    `Roofing in Maplewood, NJ: repair and replacement for architect-designed homes, slate restoration, and Village roofs. NJ HIC registered, insured. Free quote.`,
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── South Orange ───
 {
   cityId: 'south-orange',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **South Orange** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the Village's large Victorians, Colonials, and Tudors as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **South Orange, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the Village's large Victorians, Colonials, and Tudors as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**South Orange, New Jersey** — officially the Township of South Orange Village — sits in **Essex County** along the eastern edge of the South Mountain Reservation, with the East Branch of the Rahway River running through the village. Seton Hall University and the Montrose Park historic district anchor the streets our roofing crews serve.`,
   heroHeadline: `Roofing in South Orange, NJ`,
   heroSubheadline:
-    `Newark Quality Roofing repairs and replaces roofs across the Township of South Orange Village, from Montrose Park Victorians and Wyoming-section Tudors to Village-center and Seton Hall low-slope roofs, as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing repairs and replaces roofs across the Township of South Orange Village, from Montrose Park Victorians and Wyoming-section Tudors to Village-center and Seton Hall low-slope roofs, as a registered New Jersey Home Improvement Contractor serving Essex County.`,
   overview: [
     `Roofing in South Orange faces 3 main stressors: **tree-canopy debris** from the heavy mature canopy, **reservation-edge branch impact** along the South Mountain border, and **aging steep-slope flashing** on the large pre-war stock, the conditions behind most South Orange roof leaks.`,
     `**Tree-canopy debris** drives the most frequent South Orange roofing problem, because leaf load and broken branches collect in valleys and gutters and hold moisture against the roof covering. The Township of South Orange Village maintains over 8,000 shade trees across 181 Village streets, per the Township Fast Facts, and the resulting valley and gutter blockage backs water under the shingles and feeds shade-driven moss on north-facing slopes that stay damp under the canopy.`,
@@ -905,7 +915,7 @@ export const firstSuburbsContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -931,13 +941,13 @@ export const firstSuburbsContent: CityContent[] = [
   },
   metaTitle: `Roofing in South Orange, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across South Orange and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across South Orange and Essex County. NJ HIC registered, insured. Free quote.`,
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 ];

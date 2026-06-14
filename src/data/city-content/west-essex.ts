@@ -8,7 +8,9 @@ export const westEssexContent: CityContent[] = [
 {
   cityId: 'west-orange',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **West Orange** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on capes, ranches, hillside Colonials, Tudors, and Llewellyn Park estate homes as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **West Orange, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on capes, ranches, hillside Colonials, Tudors, and Llewellyn Park estate homes as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**West Orange, New Jersey** is a township in **Essex County** straddling the First Watchung (Orange Mountain) ridge and containing the South Mountain Reservation along with part of Eagle Rock Reservation. Its valley and hillside neighborhoods form the terrain our roofing crews serve.`,
   heroHeadline: `Roofing in West Orange, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across the Township of West Orange, from valley capes and ranches in Pleasantdale and Gregory to hillside Colonials, Tudors, and Llewellyn Park estate homes and Main Street and Route 280 commercial roofs.`,
@@ -160,7 +162,7 @@ export const westEssexContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in West Orange under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in West Orange under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -186,20 +188,22 @@ export const westEssexContent: CityContent[] = [
   },
   metaTitle: `Roofing in West Orange, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across West Orange and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across West Orange and Essex County. NJ HIC registered, insured. Free quote.`,
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and a natural slate or copper roof costs more, with slate installed at roughly $10–$30 per square foot per NJ roofing guides. Final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Montclair ───
 {
   cityId: 'montclair',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Montclair** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the township's Victorian, Tudor, and Colonial Revival homes and commercial buildings as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Montclair, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's Victorian, Tudor, and Colonial Revival homes and commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Montclair, New Jersey** is a township in **Essex County** on the eastern slope of the First Watchung Mountain, where higher elevations open to New York City skyline views. It holds parts of the Eagle Rock and Mills reservations, and its tree-lined streets of Victorian and Tudor homes are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Montclair, NJ`,
   heroSubheadline:
     `Newark Quality Roofing repairs and replaces roofs across the Township of Montclair, from Upper Montclair and Estate Section Victorians, Tudors, and Colonials to Bloomfield Avenue and Watchung Plaza commercial flat roofs, as a fully insured New Jersey Home Improvement Contractor serving Essex County.`,
@@ -351,7 +355,7 @@ export const westEssexContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -382,23 +386,25 @@ export const westEssexContent: CityContent[] = [
   },
   metaTitle: `Roofing in Montclair, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Montclair and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Montclair and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: `$400–$1,000`,
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Montclair's large slate-roofed Victorians and steep complex slopes raise the install figure above the asphalt range. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Glen Ridge ───
 {
   cityId: 'glen-ridge',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Glen Ridge** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the borough's pre-WWII Victorian, Colonial Revival, and Tudor homes as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Glen Ridge, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the borough's pre-WWII Victorian, Colonial Revival, and Tudor homes as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Glen Ridge, New Jersey** is a small, landlocked lowland borough in **Essex County**, bordered by Montclair to its west, Bloomfield, and East Orange, and named for the wooded glen where Toney's Brook runs. Its tree-canopied streets of pre-war homes are the ones our roofing crews serve.`,
   heroHeadline: `Roofing in Glen Ridge, NJ`,
   heroSubheadline:
-    `Newark Quality Roofing repairs and replaces roofs across the Borough of Glen Ridge, from tree-shaded Victorian, Edwardian, and Tudor homes on Ridgewood Avenue and Forest Avenue to the Bloomfield Avenue station-edge buildings, as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing repairs and replaces roofs across the Borough of Glen Ridge, from tree-shaded Victorian, Edwardian, and Tudor homes on Ridgewood Avenue and Forest Avenue to the Bloomfield Avenue station-edge buildings, as a registered New Jersey Home Improvement Contractor serving Essex County.`,
   overview: [
     `Roofing in Glen Ridge faces 3 main stressors: **mature street-tree debris** clogging valleys and gutters, **aging slate and complex rooflines** on the pre-WWII high-style stock, and **flashing failure** at dormers, valleys, and chimneys, behind most Glen Ridge roof leaks.`,
     `**Mature street-tree debris** drives the most frequent Glen Ridge roofing problem, because the borough's heavy oak, maple, and elm canopy shades a fully built-out inner lowland borough and drops leaf load and broken branches that collect in valleys and gutters. Valley and gutter blockage backs water under the shingles and rots fascia, soffit, and decking, and shade on north-facing slopes feeds the moss and algae that lift shingle edges, the canopy wear that runs ahead of ridge elevation in this lowland borough.`,
@@ -542,7 +548,7 @@ export const westEssexContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -568,23 +574,25 @@ export const westEssexContent: CityContent[] = [
   },
   metaTitle: `Roofing in Glen Ridge, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Glen Ridge and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Glen Ridge and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: `$400–$1,000`,
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Glen Ridge's larger slate and high-style homes raise the install figure. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Verona ───
 {
   cityId: 'verona',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Verona** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on pre-war Colonials, postwar Capes and ranches, and split-levels as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Verona, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on pre-war Colonials, postwar Capes and ranches, and split-levels as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Verona, New Jersey** is a township in **Essex County** lying in a valley between the First and Second Watchung mountains, holding parts of the Eagle Rock and Hilltop reservations and the Olmsted-designed Verona Park on the Peckman River. Our roofing crews serve its pre-war Colonials and postwar Capes and ranches.`,
   heroHeadline: `Roofing in Verona, NJ`,
   heroSubheadline:
-    `Newark Quality Roofing repairs and replaces roofs across the Township of Verona, from Afterglow-section and Personette Avenue homes to Bloomfield Avenue and Pompton Avenue commercial flat roofs, as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing repairs and replaces roofs across the Township of Verona, from Afterglow-section and Personette Avenue homes to Bloomfield Avenue and Pompton Avenue commercial flat roofs, as a registered New Jersey Home Improvement Contractor serving Essex County.`,
   overview: [
     `Roofing problems in Verona concentrate on 3 stressors: **reservation-edge tree debris** clogging valleys and gutters, **split-level transition flashing** failing on the postwar stock, and **Peckman River drainage** along the low-lying parcels near Verona Park.`,
     `**Reservation-edge tree debris** drives the most frequent Verona roofing problem, because Verona hosts part of Eagle Rock Reservation on the First Watchung Mountain and part of Hilltop Reservation on the Second Watchung Mountain, per Essex County Parks, and the wooded reservation edges plus mature street trees near Verona Park drop leaf load and broken branches that collect in valleys and gutters. Valley and gutter blockage backs water under the roof covering and rots the fascia, soffit, and decking, while shade on north-facing slopes settles moss and algae that lift the shingle edges.`,
@@ -723,7 +731,7 @@ export const westEssexContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Verona under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Verona under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -749,23 +757,25 @@ export const westEssexContent: CityContent[] = [
   },
   metaTitle: `Roofing in Verona, NJ | Newark Quality Roofing`,
   metaDescription:
-    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Verona and Essex County. NJ HIC licensed, insured. Free estimate.`,
+    `Newark Quality Roofing repairs and replaces asphalt, slate, metal, and flat roofs across Verona and Essex County. NJ HIC registered, insured. Free estimate.`,
   pricing: {
     averageRepair: '$400–$1,000',
     averageReplacement: '$10,000–$25,000',
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 // ─── Cedar Grove ───
 {
   cityId: 'cedar-grove',
   directAnswer:
-    `Newark Quality Roofing provides roofing in **Cedar Grove** and across **Essex County**, repairing and replacing **asphalt, slate, metal, and flat membrane roofs** on the township's postwar ranches, split-levels, colonials, and commercial buildings as a New Jersey Home Improvement Contractor.`,
+    `Newark Quality Roofing is a **roofing contractor** serving **Cedar Grove, New Jersey**, and **Essex County**, repairing and replacing asphalt, slate, metal, and flat membrane roofs on the township's postwar ranches, split-levels, colonials, and commercial buildings as a registered New Jersey Home Improvement Contractor.`,
+  whereIs:
+    `**Cedar Grove, New Jersey** is a township in **Essex County** set between the First and Second Watchung mountains, climbing from a valley center up the wooded ridges that hold parts of the Mills and Hilltop reservations. Its three sections along Pompton Avenue are the neighborhoods our roofing crews serve.`,
   heroHeadline: `Roofing in Cedar Grove, NJ`,
   heroSubheadline:
-    `Newark Quality Roofing repairs and replaces roofs across the Township of Cedar Grove, from tree-shaded North End, Central, and South End ranches and split-levels to Route 23 / Pompton Avenue commercial flat roofs, as a New Jersey Home Improvement Contractor serving Essex County.`,
+    `Newark Quality Roofing repairs and replaces roofs across the Township of Cedar Grove, from tree-shaded North End, Central, and South End ranches and split-levels to Route 23 / Pompton Avenue commercial flat roofs, as a registered New Jersey Home Improvement Contractor serving Essex County.`,
   overview: [
     `Roofing problems in Cedar Grove concentrate on 3 stressors: **reservation-edge tree debris** clogging valleys and gutters, **shade-driven moss** on north-facing slopes, and **ice dams** on the postwar single-family stock during nor'easter snow, the conditions behind most Cedar Grove roof leaks.`,
     `**Reservation-edge tree debris** drives the most frequent Cedar Grove roofing problem, because the wooded edges of Mills Reservation and Hilltop Reservation and the township's mature deciduous canopy and conifer needle-shed drop leaf and branch load that collects in valleys and gutters. Mills Reservation, a 157.15-acre Essex County reserve in Cedar Grove and Montclair, and Hilltop Reservation, a 284.16-acre preserve in Cedar Grove, North Caldwell, and Verona, per Essex County Parks, press heavy canopy against nearby roofs, and the resulting valley and gutter blockage backs water under the roof covering and rots fascia, soffit, and decking.`,
@@ -909,7 +919,7 @@ export const westEssexContent: CityContent[] = [
       {
         title: 'NJ Home Improvement Contractor',
         description:
-          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the licensing the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Cedar Grove under the Contractors' Registration Act.`,
+          `Newark Quality Roofing holds New Jersey Home Improvement Contractor registration, the credential the NJ Division of Consumer Affairs requires of every NJ roofing contractor working in Cedar Grove under the Contractors' Registration Act.`,
       },
       {
         title: 'Fully Insured and Bonded',
@@ -941,7 +951,7 @@ export const westEssexContent: CityContent[] = [
     averageReplacement: `$10,000–$25,000`,
     note: `Ranges reflect typical NJ roofing costs per HomeAdvisor and Modernize; a leak repair runs $400–$1,000 per HomeAdvisor, and final cost depends on roof size, pitch, material, and access. A premium material such as natural slate raises the figure above the asphalt range. Newark Quality Roofing provides a free written estimate.`,
   },
-  credentialsHighlight: ['NJ HIC Licensed', 'Fully Insured & Bonded', 'Family-Owned & Local'],
+  credentialsHighlight: ['NJ HIC Registered', 'Fully Insured & Bonded', 'Family-Owned & Local'],
 },
 
 ];
