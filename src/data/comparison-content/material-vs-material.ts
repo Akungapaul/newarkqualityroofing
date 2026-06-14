@@ -105,6 +105,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'slate-vs-tile-roofing',
     directAnswer: `**Natural slate** outlasts **clay or concrete tile** in Essex County, lasting 60–150 years and clay tile 100+ years per the InterNACHI chart; concrete tile lasts 40–75 years per the Tile Roofing Industry Alliance.`,
+    definitionA:
+      `**Slate** is a natural roof covering of quarried stone split into thin, overlapping shingles and fastened with non-ferrous copper or stainless-steel nails. It is among the longest-lived roof coverings.`,
+    definitionB:
+      `**Tile** is a roof covering of fired-clay or cast-concrete mineral units laid as an interlocking profile over a waterproof underlayment. The underlayment carries the water resistance while the tile sheds rainfall.`,
     introHeading: 'Which Roof Suits an Essex County Home — Slate or Tile?',
     introParagraphs: [
       `**Natural slate** is a quarried-stone roof covering split into thin shingles, and **clay or concrete tile** is a fired or cast mineral unit — both weigh enough to make roof framing the deciding attribute.`,
@@ -197,6 +201,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'tpo-vs-epdm-roofing',
     directAnswer: `**TPO** beats **EPDM** on a Newark roof that carries summer cooling load, because **TPO** is a white reflective thermoplastic membrane; **EPDM** wins where the low-slope roof faces ponding, rooftop chemicals, or a tight budget.`,
+    definitionA:
+      `**TPO** is a single-ply thermoplastic-polyolefin roofing membrane installed on low-slope and flat roofs, heat-welded at the seams into a continuous waterproof surface. Its white surface reflects solar radiation as a cool roof.`,
+    definitionB:
+      `**EPDM** is a single-ply ethylene propylene diene monomer roofing membrane — a synthetic rubber sheet — that waterproofs flat and low-slope roofs, bonded to the deck and sealed at the laps. Its black carbon-filled surface absorbs heat and resists UV.`,
     introHeading: `Which Single-Ply Membrane Fits an Essex County Flat Roof, TPO or EPDM?`,
     introParagraphs: [
       `**TPO** and **EPDM** are the two single-ply membranes Newark Quality Roofing installs on low-slope Essex County roofs: **TPO** is a white reflective thermoplastic sheet, and **EPDM** is a black synthetic-rubber sheet, per the NRCA.`,
@@ -277,6 +285,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'metal-vs-tile-roofing',
     directAnswer: `**Metal roofing** suits most Essex County homes because metal panels weigh far less than tile and recover an existing deck without framing upgrades. **Tile roofing** wins where confirmed structural capacity and a Mediterranean profile justify the heavier covering.`,
+    definitionA:
+      `**Metal** roofing is a roof covering formed from steel, aluminum, copper, or zinc, fitted as concealed- or exposed-fastener panels or interlocking metal shingles over the roof deck. It sheds water as a continuous, non-absorptive surface.`,
+    definitionB:
+      `**Tile** roofing is a roof covering of clay or concrete units laid over a waterproof underlayment. The underlayment carries the water resistance while the tile sheds rainfall and shields the membrane.`,
     introHeading: `Metal Or Tile Roofing — Which Roof Fits An Essex County Home?`,
     introParagraphs: [
       `**Metal roofing** is a lightweight panel or metal-shingle covering that recovers most Essex County decks. **Tile roofing** is a clay or concrete covering that outlasts metal yet adds substantial dead load.`,
@@ -365,6 +377,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'asphalt-vs-slate-roofing',
     directAnswer: `**Asphalt shingles** win on upfront cost and structural simplicity; **natural slate** wins on lifespan, lasting 60 to 150 years per the InterNACHI chart versus 20 to 30 years for asphalt.`,
+    definitionA:
+      `**Asphalt** is a roof covering of overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, flashing, and drip edge into a water-shedding system. It comes in flat 3-tab and dimensional architectural profiles.`,
+    definitionB:
+      `**Slate** is a roof covering of quarried natural-stone tiles set on non-ferrous copper or stainless-steel fasteners over a sound deck. Natural slate is among the longest-lived roof coverings.`,
     introHeading: 'Which Roof Suits an Essex County Home, Asphalt Shingles or Natural Slate?',
     introParagraphs: [
       `**Asphalt shingles** are the budget asphalt-mat covering that lasts 20 to 30 years per the InterNACHI chart, while **natural slate** is the quarried-stone covering that lasts 60 to 150 years; asphalt installs cheaper, slate lasts a homeowner's lifetime.`,
@@ -465,6 +481,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'wood-shake-vs-asphalt-shingles',
     directAnswer: `**Asphalt shingles** beat **cedar wood shake** for most Essex County homes on cost and **maintenance**: NJ asphalt installs at $6.50–$11.00 per sq ft versus $10–$20+ for cedar, with no recoating. **Cedar wood shake** wins only for historic character with upkeep.`,
+    definitionA:
+      `**Wood Shake** is a sloped-roof covering of thick, hand-split or taper-sawn western red cedar laid over an air-spaced assembly that lets each course dry from the underside after rainfall. Western red cedar carries natural extractives that resist decay.`,
+    definitionB:
+      `**Asphalt Shingles** are layered roof coverings built from a fiberglass mat saturated in asphalt and surfaced with mineral granules. They are the most common residential roofing material installed across the United States.`,
     introHeading: `Which Roof Wins in NJ — Cedar Wood Shake or Asphalt Shingles?`,
     introParagraphs: [
       `**Asphalt shingles** win for most Essex County homes on price and upkeep, while **cedar wood shake** wins for historic character — asphalt installs at $6.50–$11.00 per sq ft in NJ versus $10–$20+ for cedar, per Josten Roofing and NHI Contractors.`,
@@ -559,6 +579,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'pvc-vs-tpo-roofing',
     directAnswer: `**PVC membrane** beats **TPO membrane** when a roof carries grease or chemical exhaust, because PVC resists fats and oils that degrade TPO; **TPO membrane** wins on price for clean office, retail, and warehouse roofs.`,
+    definitionA:
+      `**PVC** is a single-ply polyvinyl-chloride thermoplastic roofing membrane, hot-air-welded at the seams. The white membrane resists grease, oils, and chemical exhaust and reflects solar radiation as a cool roof.`,
+    definitionB:
+      `**TPO** is a single-ply thermoplastic-polyolefin roofing membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface.`,
     introHeading: `What Separates a PVC Membrane From a TPO Membrane on an Essex County Flat Roof?`,
     introParagraphs: [
       `**PVC membrane** is a chemical-resistant single-ply thermoplastic that resists rooftop grease and fats, while a **TPO membrane** is a lower-cost single-ply thermoplastic that matches PVC on reflectance but degrades under chronic chemical contact, per Duro-Last.`,
@@ -644,6 +668,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'standing-seam-vs-corrugated-metal',
     directAnswer: `**Standing seam** outlasts **corrugated metal** because standing seam hides its fasteners under concealed clips, while corrugated relies on **exposed fasteners** whose rubber gaskets degrade and leak; corrugated wins only on installed cost.`,
+    definitionA:
+      `**Standing seam** is a concealed-fastener metal roof covering formed from steel, aluminum, copper, or zinc panels whose raised, interlocking vertical seams lock together over hidden clips fastened to the deck. The clips carry no roof-penetrating fasteners in the panel field.`,
+    definitionB:
+      `**Corrugated metal** is an exposed-fastener metal roof covering formed from rolled steel or aluminum sheets pressed into repeating wavy ridges and grooves, screwed through the panel face into the deck. Gasketed screws seal each penetration against water.`,
     introHeading: `Which Metal Roof Fits an Essex County Property — Standing Seam or Corrugated?`,
     introParagraphs: [
       `**Standing seam** is a concealed-fastener metal roof whose panels interlock over hidden clips, and **corrugated metal** is an exposed-fastener metal roof screwed through the panel face — the concealed-versus-exposed fastener split decides leak risk, lifespan, and cost.`,
@@ -744,6 +772,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'modified-bitumen-vs-tpo',
     directAnswer: `**Modified bitumen** outlasts **TPO** on the InterNACHI chart — modified bitumen rates 20 years versus TPO's 7–20 — so modified bitumen wins on multi-ply toughness while white TPO wins on solar reflectance and the lower NJ flat-roof install cost.`,
+    definitionA:
+      `**Modified Bitumen** is a multi-ply low-slope roof membrane that layers a polymer-modified asphalt cap sheet over reinforced base plies. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant assembly.`,
+    definitionB:
+      `**TPO** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface.`,
     introHeading: `Modified Bitumen Or TPO — Which Membrane Fits an Essex County Flat Roof?`,
     introParagraphs: [
       `**Modified bitumen** is the multi-ply asphalt membrane — a built-up-roofing descendant carrying 2–3 reinforced plies with a granule cap sheet — and **TPO** is the single-ply thermoplastic-polyolefin membrane whose white surface reflects sunlight.`,
@@ -829,6 +861,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'rubber-roofing-vs-tpo',
     directAnswer: `**EPDM rubber roofing** outlasts **TPO** on the InterNACHI chart — EPDM lasts 15–25 years versus TPO's 7–20 (commonly cited 15–25 in practice) — while TPO's white reflective surface stays cooler than EPDM's heat-absorbing black on an Essex County flat roof.`,
+    definitionA:
+      `**Rubber (EPDM)** is a single-ply ethylene-propylene-diene-monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and joined at the seams with adhesive or seam tape. Its black surface absorbs solar heat.`,
+    definitionB:
+      `**TPO** is a single-ply thermoplastic-polyolefin membrane, hot-air-welded at the seams, installed on commercial and residential low-slope and flat roofs. Its reflective white surface rejects solar radiation as a cool roof.`,
     introHeading: `EPDM Rubber Roofing Or TPO — Which Single-Ply Membrane Fits an Essex County Flat Roof?`,
     introParagraphs: [
       `**EPDM rubber roofing** is the ethylene-propylene-diene-monomer single-ply membrane sealed with adhesive or tape seams that covers most Essex County flat roofs, and **TPO** is the thermoplastic-polyolefin single-ply membrane joined by hot-air-welded seams with a reflective white surface.`,
@@ -913,6 +949,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'cedar-shake-vs-wood-shingle',
     directAnswer: `**Cedar shakes** are the thicker hand-split or taper-sawn cedar roof unit and **wood shingles** the thinner machine-sawn unit — both western red cedar — so shakes shed water on a rustic, textured plane while wood shingles lay flat and refined.`,
+    definitionA:
+      `**Cedar Shake** is a thick western red cedar roofing unit, hand-split or taper-sawn from the log into an irregular, textured face, set over an air-spaced deck so each course dries from underneath after rainfall.`,
+    definitionB:
+      `**Wood Shingle** is a thin western red cedar roofing unit, machine-sawn to a uniform thickness so it lays flat and smooth across the roof plane. The same species as cedar shake, it differs by its sawn rather than split face.`,
     introHeading: `Cedar Shake Or Wood Shingle — Which Wood Roof Fits an Essex County Home?`,
     introParagraphs: [
       `**Cedar shakes** are hand-split or taper-sawn western red cedar that reads as a rough, textured plane, and **wood shingles** are the thinner, machine-sawn units of the same species that lay flat and uniform.`,
@@ -1008,6 +1048,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'built-up-roofing-vs-modified-bitumen',
     directAnswer: `**Built-up roofing (BUR)** outlasts **modified bitumen** — BUR's multi-ply gravel-surfaced membrane lasts 30 years versus modified bitumen's 20 (per the InterNACHI chart) — so BUR wins on service life while modified bitumen installs without a hot-asphalt kettle.`,
+    definitionA:
+      `**Built-Up Roofing** is a low-slope membrane that alternates layers of reinforcing felt and hot-mopped asphalt on the roof deck, then surfaces the plies with gravel ballast. Its redundant multi-ply assembly keeps waterproofing intact even if one ply fails.`,
+    definitionB:
+      `**Modified Bitumen** is a low-slope membrane that layers a polymer-modified asphalt cap sheet over reinforcing base plies, installed by torch, cold adhesive, or self-adhered roll. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the sheet.`,
     introHeading: `Built-Up Roofing Or Modified Bitumen — Which Flat Roof Fits an Essex County Building?`,
     introParagraphs: [
       `**Built-up roofing (BUR)** is the multi-ply "tar and gravel" low-slope membrane alternating hot-mopped asphalt and reinforcing felts under gravel, and **modified bitumen** is the polymer-reinforced asphalt sheet that adds flexibility and installs by torch, cold adhesive, or self-adhered roll.`,
@@ -1100,6 +1144,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'spray-foam-vs-tpo',
     directAnswer: `**Spray polyurethane foam** integrates insulation and waterproofing where **TPO** separates them — SPF adds R-6.0–6.5 per inch (per ICC-ES/SPFA) and installs at $4–$8/sq ft, while TPO runs $8–$12/sq ft over separate polyiso, per Josten Roofing (NJ).`,
+    definitionA:
+      `**Spray Foam** is a roof covering of liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. It forms the membrane, insulation, and air barrier in one field-sprayed pass.`,
+    definitionB:
+      `**TPO** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. It carries no built-in R-value and rests over separate insulation boards.`,
     introHeading: `Spray Foam Or TPO — Which Flat Roof Fits an Essex County Building?`,
     introParagraphs: [
       `**Spray polyurethane foam** is the closed-cell, field-sprayed roof covering that forms the membrane, insulation, and air barrier in one monolithic layer, and **TPO** is the heat-welded thermoplastic single-ply membrane installed over separate polyiso insulation boards.`,
@@ -1185,6 +1233,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'green-roof-vs-traditional-roofing',
     directAnswer: `A **green roof** beats **traditional membrane roofing** on stormwater and heat — a green roof retains ~50–60% of rainfall and runs up to 56°F cooler (per the EPA) — while membrane roofing wins on cost and weight.`,
+    definitionA:
+      `**Green Roof** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation that retains rainfall. It divides into extensive (lightweight sedum) and intensive (garden-depth) types.`,
+    definitionB:
+      `**Traditional Roofing** is an exposed low-slope membrane system — EPDM, TPO, modified bitumen, or built-up roofing — installed over the deck as a non-vegetated covering that sheds rainfall to roof drains. The membrane sits open to sun and weather.`,
     introHeading: `Green Roof Or Traditional Membrane Roofing — Which Fits an Essex County Building?`,
     introParagraphs: [
       `A **green roof** is the vegetated assembly — growing medium, plants, drainage, and a membrane beneath — that retains rainfall, while **traditional membrane roofing** is the exposed low-slope system (EPDM, TPO, modified bitumen, BUR) that sheds rain to drains.`,
@@ -1280,6 +1332,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'solar-shingles-vs-solar-panels',
     directAnswer: `**Solar panels** out-produce **solar shingles** per dollar — panels run 20–22% efficient at ~$2.50–$4.00 per watt versus shingles' 14–18% at ~$3.50–$8.00 (per SolarReviews and EnergySage) — so panels win on output and cost, shingles on roof-integrated looks.`,
+    definitionA:
+      `**Solar shingles** are building-integrated photovoltaic shingles that replace the roof covering and generate electricity while serving as the roof itself, nailed into the roof field rather than racked on top. They double as both roof covering and solar generator.`,
+    definitionB:
+      `**Solar panels** are rack-mounted, building-applied photovoltaic modules of crystalline silicon attached above an existing roof on flashed rail feet. They generate electricity only, leaving the roof covering in place beneath the array.`,
     introHeading: `Solar Shingles Or Solar Panels — Which Rooftop Solar Fits an Essex County Home?`,
     introParagraphs: [
       `**Solar shingles** are building-integrated photovoltaics (BIPV) that replace the roof covering with solar-generating material, and **solar panels** are building-applied photovoltaics (BAPV) — rack-mounted modules added to an existing roof, generating power only — per the DOE and IEA-PVPS.`,
@@ -1373,6 +1429,10 @@ export const materialComparisons: ComparisonContent[] = [
   {
     comparisonId: 'architectural-vs-3-tab-shingles',
     directAnswer: `**Architectural shingles** outlast **3-tab shingles** — 30 years versus 20 (per the InterNACHI chart) — and carry 110–130 mph wind warranties against 3-tab's ~60 mph, so architectural wins on durability while 3-tab installs cheaper per NJ square foot.`,
+    definitionA:
+      `**Architectural shingles** are laminated, two-layer asphalt shingles built from a fiberglass mat saturated in asphalt and surfaced with mineral granules, bonding a second layer onto the base. The added layer creates dimensional shadow lines across the roof surface.`,
+    definitionB:
+      `**3-Tab shingles** are single-layer, flat-cut asphalt shingles built from a fiberglass mat saturated in asphalt and surfaced with mineral granules, with three cut tabs along each strip. They lay a flat, uniform pattern on a sloped roof.`,
     introHeading: `Architectural Or 3-Tab Shingles — Which Asphalt Shingle Fits an Essex County Roof?`,
     introParagraphs: [
       `**Architectural shingles** are the laminated, two-layer asphalt shingle that adds dimensional shadow lines and longer service life, and **3-tab shingles** are the single-layer, flat-cut asphalt shingle that installs at the lower NJ square-foot cost.`,

@@ -72,6 +72,9 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
           ...(content.definitionB && comparison.itemB
             ? [{ question: `What Is ${comparison.itemB}?`, answer: content.definitionB }]
             : []),
+          ...(content.definition && content.definitionHeading
+            ? [{ question: content.definitionHeading, answer: content.definition }]
+            : []),
           ...content.faqs,
         ]),
       )} />
@@ -104,6 +107,17 @@ export default function ComparisonTemplate({ comparison }: ComparisonTemplatePro
                 headingId="entity-definition-b-heading"
                 heading={`What Is ${comparison.itemB}?`}
                 definition={content.definitionB}
+              />
+            </AnimateIn>
+          )}
+          {/* Single-block entity-grounding for ranking-style decision-helper pages
+              (no itemA/itemB). Gated on the author-supplied definition + heading. */}
+          {content.definition && content.definitionHeading && (
+            <AnimateIn>
+              <EntityDefinition
+                headingId="entity-definition-heading"
+                heading={content.definitionHeading}
+                definition={content.definition}
               />
             </AnimateIn>
           )}

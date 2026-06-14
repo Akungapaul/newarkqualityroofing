@@ -15,6 +15,14 @@ export const ComparisonContentSchema = z.object({
   // appended to the FAQ JSON-LD when present. A/B labels come from itemA/itemB.
   definitionA: z.string().optional(),
   definitionB: z.string().optional(),
+  // Single-block entity-grounding for ranking-style decision-helper pages that have
+  // no itemA/itemB (multi-material rankings — e.g. "best roofing for flat roofs").
+  // `definition` is the ≤40-word answer-first definition; `definitionHeading` is its
+  // author-supplied question heading (e.g. "What Is a Roof Warranty?"). Optional —
+  // existing/two-sided comparisons validate unchanged. Rendered by one EntityDefinition
+  // section and appended to the FAQ JSON-LD when both are present.
+  definition: z.string().optional(),
+  definitionHeading: z.string().optional(),
   introHeading: z.string(),
   introParagraphs: z.array(z.string()).min(1).max(3),
   comparisonRows: z.array(z.object({

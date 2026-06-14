@@ -8,6 +8,10 @@ export const serviceComparisons: ComparisonContent[] = [
   {
     comparisonId: 'roof-repair-vs-replacement',
     directAnswer: `**Roof repair** fixes isolated damage and **roof replacement** installs a whole new system — repair runs $360–$1,550 (Angi) versus an Essex County replacement at $10,000–$25,000 (HomeAdvisor), so age and damage extent decide which costs less per remaining year.`,
+    definitionA:
+      `**Roof Repair** restores a roof's weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.`,
+    definitionB:
+      `**Roof Replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.`,
     introHeading: `Roof Repair Or Replacement — Which Does an Essex County Roof Need?`,
     introParagraphs: [
       `**Roof repair** is the targeted fix of damage to shingles, flashing, or a valley that extends a sound roof's life, and **roof replacement** is the full tear-off and reinstall that resets a worn system to a new service life.`,
@@ -102,6 +106,10 @@ export const serviceComparisons: ComparisonContent[] = [
   {
     comparisonId: 'roof-coating-vs-replacement',
     directAnswer: `**Roof coating** extends a sound flat roof, **roof replacement** restarts a failed one — silicone coating renews a watertight membrane for $1,500–$7,000 per CPS Construction, while NJ flat-roof replacement runs $7.00–$12.00 per sq ft per Josten Roofing.`,
+    definitionA:
+      `**Roof coating** is a liquid-applied silicone or acrylic membrane rolled over a still-watertight flat or low-slope roof to renew its weatherproof surface in place, without removing the existing membrane. It seals seams, splits, and flashings under one monolithic surface and reflects sunlight.`,
+    definitionB:
+      `**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a failed roof rather than renewing the old one in place.`,
     introHeading: `Roof Coating Or Roof Replacement — Which Saves an Essex County Flat Roof?`,
     introParagraphs: [
       `**Roof coating** is the liquid-applied silicone or acrylic membrane rolled over a still-watertight flat roof to renew its weatherproof surface, and **roof replacement** is the full tear-off and new-membrane install that restarts a failed roof's service life.`,
@@ -196,6 +204,10 @@ export const serviceComparisons: ComparisonContent[] = [
   {
     comparisonId: 'roof-overlay-vs-tear-off',
     directAnswer: `**A tear-off** outlasts **an overlay** — an overlay traps heat that cuts the new shingles' service life ~20–30% (per Angi), so tear-off wins on lifespan while overlay wins on a ~20–25% / $2,000–$5,000 lower national cost (per HomeGuide and Angi).`,
+    definitionA:
+      `**Roof Overlay** is a re-roofing method that installs a new layer of asphalt shingles directly over one existing sound shingle layer, without stripping the old covering down to the deck. It is limited to a roof carrying no more than one existing layer.`,
+    definitionB:
+      `**Tear Off** is the re-roofing method that removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike an overlay that leaves the old covering in place.`,
     introHeading: `Roof Overlay Or Tear-Off — Which Re-Roof Fits an Essex County Home?`,
     introParagraphs: [
       `**A roof overlay** installs a second shingle layer over the existing covering with no removal, and **a tear-off** strips the covering to the deck before a new system goes on — the overlay hides the deck the tear-off exposes.`,
@@ -290,6 +302,10 @@ export const serviceComparisons: ComparisonContent[] = [
   {
     comparisonId: 'patching-vs-full-roof-repair',
     directAnswer: `**Roof patching** seals a single isolated breach from $150–$500, while **comprehensive roof repair** runs $360–$1,550 (Angi) and adds a diagnostic inspection that finds the root cause — so patching wins on cost only when damage is truly contained.`,
+    definitionA:
+      `**Patching** seals one isolated damaged area on an otherwise sound roof — a few cracked shingles, a small flashing breach, or a nail hole — by repairing that single spot without touching the surrounding roof field. It addresses the visible breach rather than tracing a leak to its underlying cause.`,
+    definitionB:
+      `**Full roof repair** traces a leak to its root cause and corrects every related defect — failed flashing, deteriorated underlayment, and worn seals — across the roof in a single visit rather than sealing one isolated spot. It opens with a diagnostic inspection that locates the defects a patch cannot see.`,
     introHeading: `Roof Patching Or Comprehensive Repair — Which Fixes an Essex County Roof?`,
     introParagraphs: [
       `**Roof patching** seals one damaged area — a few cracked shingles or a flashing breach — while **comprehensive roof repair** traces a leak to its root cause and corrects every related defect.`,
@@ -375,6 +391,10 @@ export const serviceComparisons: ComparisonContent[] = [
   {
     comparisonId: 'preventive-maintenance-vs-emergency-repair',
     directAnswer: `**Preventive maintenance** costs less per visit than **emergency repair** — a roof inspection averages $249 ($75–$400 as of 2026, per Angi), while emergency/after-hours repairs cost 25%–50% more than standard, per Integrity Home Exteriors. Maintenance schedules; emergencies dictate timing.`,
+    definitionA:
+      `**Preventive Maintenance** is a scheduled cadence of roof inspection, gutter clearing, sealant and flashing checks, and documentation that catches small defects before they leak. It tracks a roof toward its full service life rather than reacting after water enters.`,
+    definitionB:
+      `**Emergency Repair** is the urgent response to a roof failure already underway — an active leak, a wind-lifted shingle, an ice-dam backup, or a storm breach — that stabilizes the damage before water entry compounds. Its timing is dictated by the failure event, not chosen.`,
     introHeading: `Preventive Maintenance Or Emergency Repair — Which Roof Strategy Fits an Essex County Home?`,
     introParagraphs: [
       `**Preventive maintenance** is the scheduled inspect-and-fix cadence that catches small defects before they leak, and **emergency repair** is the after-hours response to an active leak or storm breach — the difference is timing: one is chosen, the other is forced.`,
@@ -459,6 +479,10 @@ export const serviceComparisons: ComparisonContent[] = [
   {
     comparisonId: 'diy-vs-professional-roof-repair',
     directAnswer: `**Professional roof repair** beats **DIY roof repair** on safety and durability — most ladder injuries strike homes, not job sites (per D'Souza et al.), and a pro carries the harness and HIC registration DIY lacks. DIY wins only on cost.`,
+    definitionA:
+      `**DIY Repair** is roof repair a homeowner performs without a crew, using home-center materials to patch visible damage from a ladder. It covers ground-level tasks like clearing gutters or sealing a surface crack.`,
+    definitionB:
+      `**Professional Repair** is roof repair performed by a registered New Jersey Home Improvement Contractor who carries fall-protection gear and liability insurance. It traces a leak to its root cause and backs the fix with a workmanship warranty.`,
     introHeading: `DIY Or Professional Roof Repair — Which Fits an Essex County Home?`,
     introParagraphs: [
       `**DIY roof repair** is the homeowner-performed fix using home-center materials and no crew, and **professional roof repair** is the contractor-performed fix at $360–$1,550 per Angi that adds fall-protection gear, root-cause diagnosis, and a workmanship warranty.`,
