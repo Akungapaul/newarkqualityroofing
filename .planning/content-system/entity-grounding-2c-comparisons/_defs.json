@@ -1,0 +1,205 @@
+[
+  {
+    "comparisonId": "slate-vs-tile-roofing",
+    "kind": "twosided",
+    "definitionA": "**Slate** is a natural roof covering of quarried stone split into thin, overlapping shingles and fastened with non-ferrous copper or stainless-steel nails. It is among the longest-lived roof coverings.",
+    "definitionB": "**Tile** is a roof covering of fired-clay or cast-concrete mineral units laid as an interlocking profile over a waterproof underlayment. The underlayment carries the water resistance while the tile sheds rainfall.",
+    "notes": "definitionA reuses slate-roof-installation-repair bank facts (quarried natural-stone tiles, copper/stainless fasteners, \"among the longest-lived roof coverings\") rephrased to the heading subject \"Slate,\" with split-into-thin-shingles form from the object intro. definitionB reuses tile-roof-installation-repair bank facts (clay/concrete tile over waterproof underlayment; underlayment carries water resistance, tile sheds rainfall) plus the object's \"fired or cast mineral unit\" + interlocking-profile rows; both figure-free."
+  },
+  {
+    "comparisonId": "tpo-vs-epdm-roofing",
+    "kind": "twosided",
+    "definitionA": "**TPO** is a single-ply thermoplastic-polyolefin roofing membrane installed on low-slope and flat roofs, heat-welded at the seams into a continuous waterproof surface. Its white surface reflects solar radiation as a cool roof.",
+    "definitionB": "**EPDM** is a single-ply ethylene propylene diene monomer roofing membrane — a synthetic rubber sheet — that waterproofs flat and low-slope roofs, bonded to the deck and sealed at the laps. Its black carbon-filled surface absorbs heat and resists UV.",
+    "notes": "Reused 2a bank facts: A from tpo-roofing-installation (single-ply thermoplastic-polyolefin, heat-welded seams, low-slope/flat, reflective cool roof); B from rubber-roofing-epdm/epdm-commercial-roofing (single-ply EPDM synthetic-rubber, waterproofs flat/low-slope, bonded to deck, sealed at laps). White-reflective (A) and black carbon UV-resistant (B) second sentences grounded in the committed intro/rows of this object. Figure-free, both leads pre-bolded with the page's exact labels."
+  },
+  {
+    "comparisonId": "metal-vs-tile-roofing",
+    "kind": "twosided",
+    "definitionA": "**Metal** roofing is a roof covering formed from steel, aluminum, copper, or zinc, fitted as concealed-fastener standing-seam panels or interlocking metal shingles over the roof deck. It sheds water as a continuous, non-absorptive surface.",
+    "definitionB": "**Tile** roofing is a roof covering of clay or concrete units laid over a waterproof underlayment. The underlayment carries the water resistance while the tile sheds rainfall and shields the membrane.",
+    "notes": "Reused 2a bank facts: definitionA from metal-roof-installation-repair (steel/aluminum/copper/zinc, concealed-fastener standing-seam panels and metal shingles) plus the bank's \"continuous, non-porous surface\" reworded to \"continuous, non-absorptive surface\" to match the page's \"Non-absorptive\" / non-porous framing; definitionB from tile-roof-installation-repair (clay/concrete over waterproof underlayment; underlayment carries water resistance, tile sheds rainfall). Bolded subjects re-labeled to the page's exact headings \"Metal\" / \"Tile\". Figure-free, modality-free, no superlatives. definitionA first sentence 33 words; definitionB first sentence 19 words."
+  },
+  {
+    "comparisonId": "asphalt-vs-slate-roofing",
+    "kind": "twosided",
+    "definitionA": "**Asphalt** is a roof covering of overlapping fiberglass-mat shingles surfaced with mineral granules, laid over underlayment, flashing, and drip edge into a water-shedding system. It comes in flat 3-tab and dimensional architectural profiles.",
+    "definitionB": "**Slate** is a roof covering of quarried natural-stone tiles set on non-ferrous copper or stainless-steel fasteners over a sound deck. Natural slate is among the longest-lived roof coverings.",
+    "notes": "Reused 2a bank: definitionA from asphalt-shingle-roofing (fiberglass-mat shingles, mineral granules, underlayment/flashing/drip-edge water-shedding system, 3-tab/architectural profiles); definitionB from slate-roof-installation-repair (quarried natural-stone tiles, non-ferrous copper/stainless fasteners, \"among the longest-lived\"). Phrased bolded subjects as exact page labels \"Asphalt\"/\"Slate\". Authored fresh: trimmed bank phrasing to ≤40w figure-free; \"over a sound deck\" grounded in committed row/§detail (\"deck stays sound\"). No figures, no superlatives beyond bank-anchored category statement."
+  },
+  {
+    "comparisonId": "wood-shake-vs-asphalt-shingles",
+    "kind": "twosided",
+    "definitionA": "**Wood Shake** is a sloped-roof covering of thick, hand-split or tapersawn western red cedar laid over an air-spaced assembly that lets each course dry from the underside after rainfall. Western red cedar carries natural extractives that resist decay.",
+    "definitionB": "**Asphalt Shingles** are layered roof coverings built from a fiberglass mat saturated in asphalt and surfaced with mineral granules. They are the most common residential roofing material installed across the United States.",
+    "notes": "definitionB reused verbatim from the committed gold exemplar (asphalt). definitionA authored fresh by merging the 2a bank entries wood-shake-roofing (split/tapersawn western red cedar, ventilated air-space drying) + cedar-shake-roofing (natural decay-resistant extractives); consistent with this object's intro (\"thick, split western-red-cedar roof covering\") and its ≥1.5 in. air-space drying detail. Both first sentences figure-free, ≤40w, bolded lead matches the rendered heading label."
+  },
+  {
+    "comparisonId": "pvc-vs-tpo-roofing",
+    "kind": "twosided",
+    "definitionA": "**PVC** is a single-ply polyvinyl-chloride thermoplastic roofing membrane, hot-air-welded at the seams. The white membrane resists grease, oils, and chemical exhaust and reflects solar radiation as a cool roof.",
+    "definitionB": "**TPO** is a single-ply thermoplastic-polyolefin roofing membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface.",
+    "notes": "Reused 2a bank verbatim for both sides (pvc-roofing → A, tpo-roofing-installation → B), entity-stable; re-bolded the subject to the page's exact labels \"PVC\" and \"TPO\" and inserted \"roofing\" so the bolded membrane reads naturally. Both first sentences figure-free and ≤40 words; consistent with committed rows (heat-welded seams, grease resistance, cool-roof reflectance)."
+  },
+  {
+    "comparisonId": "standing-seam-vs-corrugated-metal",
+    "kind": "twosided",
+    "definitionA": "**Standing seam** is a concealed-fastener metal roof covering formed from steel, aluminum, copper, or zinc panels whose raised, interlocking vertical seams lock together over hidden clips fastened to the deck. The clips carry no roof-penetrating fasteners in the panel field.",
+    "definitionB": "**Corrugated metal** is an exposed-fastener metal roof covering formed from rolled steel or aluminum sheets pressed into repeating wavy ridges and grooves, screwed through the panel face into the deck. Gasketed screws seal each penetration against water.",
+    "notes": "Side A reused the metal bank composition (steel/aluminum/copper/zinc) and relabeled to the page's \"Standing seam\" subject, anchoring the concealed-clip/hidden-fastener form from committed rows 654/658 and intro 649. Side B authored fresh from object rows (exposed screws through panel face, gasketed screw holes) and intro — corrugated profile, rolled-sheet form, gasketed penetrations; both figure-free, no modality/superlatives, entity bolded once at start."
+  },
+  {
+    "comparisonId": "modified-bitumen-vs-tpo",
+    "kind": "twosided",
+    "definitionA": "**Modified Bitumen** is a multi-ply low-slope roof membrane that layers a polymer-modified asphalt cap sheet over reinforced base plies. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the redundant assembly.",
+    "definitionB": "**TPO** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface.",
+    "notes": "Both sides reused entity-stable from the 2a bank: definitionA from modified-bitumen-roofing (cap sheet over base plies + SBS/APP modifier), bolded subject relabeled \"Modified Bitumen\" to match the heading; definitionB verbatim from tpo-roofing-installation. Composition/form cross-checked against the comparison's committed intro (multi-ply asphalt with granule cap; single-ply thermoplastic-polyolefin, white reflective, heat-welded seams). Figure-free, no modality."
+  },
+  {
+    "comparisonId": "rubber-roofing-vs-tpo",
+    "kind": "twosided",
+    "definitionA": "**Rubber (EPDM)** is a single-ply ethylene-propylene-diene-monomer membrane that waterproofs a flat or low-slope roof, bonded to the deck or insulation and joined at the seams with adhesive or seam tape. Its black surface absorbs solar heat.",
+    "definitionB": "**TPO** is a single-ply thermoplastic-polyolefin membrane, hot-air-welded at the seams, installed on commercial and residential low-slope and flat roofs. Its reflective white surface sheds water and rejects solar radiation as a cool roof.",
+    "notes": "Reused composition/form from the 2a bank (rubber-roofing-epdm = single-ply EPDM membrane bonded to deck/insulation, sealed at laps; tpo-roofing-installation = single-ply TPO membrane, heat-welded seams, reflective cool-roof surface). Relabeled bolded subjects to \"Rubber (EPDM)\" and \"TPO\" per headings. Added second sentences grounded in the page's committed rows/intro (EPDM black/absorbs heat with adhesive-or-tape seams; TPO white reflective hot-air-welded). Figure-free, no modality, no figures, no superlatives."
+  },
+  {
+    "comparisonId": "cedar-shake-vs-wood-shingle",
+    "kind": "twosided",
+    "definitionA": "**Cedar Shake** is a thick western red cedar roofing unit, hand-split or taper-sawn from the log into an irregular, textured face, set over an air-spaced deck so each course dries from underneath after rainfall.",
+    "definitionB": "**Wood Shingle** is a thin western red cedar roofing unit, machine-sawn to a uniform thickness so it lays flat and smooth across the roof plane. The same species as cedar shake, it differs by its sawn rather than split face.",
+    "notes": "definitionA: reused the cedar-shake-roofing bank facts (hand-split western red cedar, air-spaced deck, dries from underside) and rephrased the bolded subject to the page label \"Cedar Shake\"; figure-free, 34 words. definitionB: authored fresh from the comparison object's committed rows/intro (machine-sawn, thin, uniform, lays flat/smooth, same western red cedar species, sawn-vs-split contrast); no bank entity for wood shingle; figure-free, 25-word first sentence. No invented facts; no figures/modality/superlatives in either."
+  },
+  {
+    "comparisonId": "built-up-roofing-vs-modified-bitumen",
+    "kind": "twosided",
+    "definitionA": "**Built-Up Roofing** is a low-slope membrane that alternates layers of reinforcing felt and hot-mopped asphalt on the roof deck, then surfaces the plies with gravel ballast. Its redundant multi-ply assembly keeps waterproofing intact even if one ply fails.",
+    "definitionB": "**Modified Bitumen** is a low-slope membrane that layers a polymer-modified asphalt cap sheet over reinforcing base plies, installed by torch, cold adhesive, or self-adhered roll. The polymer modifier, styrene-butadiene-styrene or atactic polypropylene, adds flexibility to the sheet.",
+    "notes": "Reused 2a bank entities verbatim in spirit: A→built-up-roofing (alternating felt+hot bitumen, gravel surface, multi-ply redundancy), B→modified-bitumen-roofing (polymer-modified asphalt cap over base plies, SBS/APP modifier). Rephrased bolded subjects to this page's exact labels (\"Built-Up Roofing\"/\"Modified Bitumen\"). Grounded A's gravel-ballast surface and B's torch/cold-adhesive/self-adhered install methods in the committed comparisonRows. Figure-free; first sentences 26w and 25w (no em-dash tokens); no modality/superlatives."
+  },
+  {
+    "comparisonId": "spray-foam-vs-tpo",
+    "kind": "twosided",
+    "definitionA": "**Spray Foam** is a roof covering of liquid polyurethane that expands into a closed-cell foam, bonds to the substrate, and cures into a seamless, monolithic insulation-and-waterproofing layer under a protective coating. It forms the membrane, insulation, and air barrier in one field-sprayed pass.",
+    "definitionB": "**TPO** is a single-ply thermoplastic-polyolefin membrane, heat-welded at the seams, installed on commercial and residential low-slope and flat roofs as a reflective, water-shedding surface. It carries no built-in R-value and rests over separate insulation boards.",
+    "notes": "Reused 2a bank verbatim for both first sentences (spray-foam-roofing → A; tpo-roofing-installation → B), re-bolding the subject to this page's exact labels \"Spray Foam\"/\"TPO\". Authored fresh second sentences from the committed intro/rows: A's \"membrane, insulation, and air barrier in one field-sprayed pass\" (intro/directAnswer), B's \"no built-in R-value... over separate insulation boards\" (intro + comparisonRows Insulation row). Figure-free, single bold lead, no modality/superlatives."
+  },
+  {
+    "comparisonId": "green-roof-vs-traditional-roofing",
+    "kind": "twosided",
+    "definitionA": "**Green Roof** converts a low-slope roof into a planted assembly, stacking a waterproofing membrane, root barrier, drainage and water-retention layer, engineered growing media, and vegetation that retains rainfall. It divides into extensive (lightweight sedum) and intensive (garden-depth) types.",
+    "definitionB": "**Traditional Roofing** is an exposed low-slope membrane system — EPDM, TPO, modified bitumen, or built-up roofing — installed over the deck as a non-vegetated covering that sheds rainfall to roof drains. The membrane sits open to sun and weather.",
+    "notes": "definitionA reuses the green-roof-installation bank composition (membrane/root barrier/drainage/growing media/vegetation), adapting the bolded subject to \"Green Roof\" and adding the extensive/intensive split from the object's intro. definitionB authored fresh from the object's introParagraphs/rows: exposed low-slope EPDM/TPO/modified-bitumen/BUR system that sheds rain to drains as the non-vegetated contrast. Both figure-free, ≤40 words, no modality."
+  },
+  {
+    "comparisonId": "solar-shingles-vs-solar-panels",
+    "kind": "twosided",
+    "definitionA": "**Solar shingles** are building-integrated photovoltaic shingles that replace the roof covering and generate electricity while serving as the roof itself, nailed into the roof field rather than racked on top. They double as both roof covering and solar generator.",
+    "definitionB": "**Solar panels** are rack-mounted, building-applied photovoltaic modules of crystalline silicon attached above an existing roof on flashed rail feet. They generate electricity only, leaving the roof covering in place beneath the array.",
+    "notes": "Reused 2a bank composition/form/function for both sides (A=solar-shingle-installation BIPV \"replaces a roof covering... distinct from rack-mounted panels\"; B=solar-panel-roofing-installation rack-mounted, flashed mount feet); re-labeled bolded subjects to the page's exact headings (\"Solar Shingles\"/\"Solar Panels\"). Grounded supporting details (BIPV nailed into roof field, BAPV racked above deck, crystalline-silicon modules, flashed rail feet, generation-only) in the committed introParagraphs and detailedAnalysis rows. Figure-free, no figures/superlatives/modality."
+  },
+  {
+    "comparisonId": "architectural-vs-3-tab-shingles",
+    "kind": "twosided",
+    "definitionA": "**Architectural shingles** are laminated, two-layer asphalt shingles built from a fiberglass mat saturated in asphalt and surfaced with mineral granules, bonding a second layer onto the base. The added layer creates dimensional shadow lines across the roof surface.",
+    "definitionB": "**3-Tab shingles** are single-layer, flat-cut asphalt shingles built from a fiberglass mat saturated in asphalt and surfaced with mineral granules, with three cut tabs along each strip. They lay a flat, uniform pattern on a sloped roof.",
+    "notes": "Both sides reuse the 2a asphalt-shingle bank composition (fiberglass mat saturated in asphalt, mineral granules); the laminated two-layer/dimensional (A) vs single flat layer/three cut tabs (B) distinction is grounded in the object's committed Construction row and introParagraphs. All figures (weights, lifespans, wind, cost) held out per figure-free rule."
+  },
+  {
+    "comparisonId": "roof-repair-vs-replacement",
+    "kind": "twosided",
+    "definitionA": "**Roof Repair** restores a roof's weatherproof barrier by fixing localized damage — leaks, missing or torn shingles, failed flashing, and cracked seals — without replacing the entire roof. It targets specific failure points to extend the service life of an otherwise sound roof.",
+    "definitionB": "**Roof Replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a roof past its service life rather than patching isolated damage.",
+    "notes": "Both sides reuse the 2a definition bank verbatim (roof-repair → definitionA, roof-replacement → definitionB), entity-stable; only the bolded subject relabeled to this page's exact headings \"Roof Repair\"/\"Roof Replacement\". Composition/form/function consistent with bank and confirmed by the committed intro/rows (localized damage <25-30%, tear-off to deck, full reinstall). Figure-free, no modality, no unanchored superlatives. definitionA first sentence 28 words (2 em-dash tokens counted); definitionB 25 words."
+  },
+  {
+    "comparisonId": "roof-coating-vs-replacement",
+    "kind": "twosided",
+    "definitionA": "**Roof coating** is a liquid-applied silicone or acrylic membrane rolled over a still-watertight flat or low-slope roof to renew its weatherproof surface in place, without removing the existing membrane. It seals seams, splits, and flashings under one monolithic surface and reflects sunlight.",
+    "definitionB": "**Roof replacement** strips a roof down to the deck, repairs the sheathing, and installs a new underlayment-and-cover system in asphalt, metal, slate, or low-slope membrane. It rebuilds the entire weatherproof assembly for a failed roof rather than renewing the old one in place.",
+    "notes": "definitionA: authored fresh from this object's intro (line 107: \"liquid-applied silicone or acrylic membrane rolled over a still-watertight flat roof to renew its weatherproof surface\"), keeping the silicone-roof-coating bank entity stable (seals seams/splits/flashings, reflects sunlight) and relabeled to \"Roof coating\". definitionB: reused the roof-replacement bank definition verbatim sentence 1, with a second sentence adapted from the bank (\"rebuilds the entire weatherproof assembly\") to contrast with coating's renew-in-place. Both figure-free, ≤40w first sentence, bolded lead matches heading subject, no modality/superlatives/links."
+  },
+  {
+    "comparisonId": "roof-overlay-vs-tear-off",
+    "kind": "twosided",
+    "definitionA": "**Roof Overlay** is a re-roofing method that installs a new layer of asphalt shingles directly over one existing sound shingle layer, without stripping the old covering down to the deck. It is limited to a roof carrying no more than one existing layer.",
+    "definitionB": "**Tear Off** is the re-roofing method that removes every existing layer of roof covering, underlayment, and flashing down to the bare deck before a new roof system is installed. It exposes the sheathing for inspection and repair, unlike an overlay that leaves the old covering in place.",
+    "notes": "Reused 2a bank facts verbatim-in-spirit: A from roof-overlay-installation (new layer over one existing sound shingle layer, one-layer limit), B from full-roof-tear-off (removes all covering/underlayment/flashing to bare deck, exposes sheathing). Rephrased bolded subjects to this page's exact labels \"Roof Overlay\" / \"Tear Off\"; second sentence of B contrasts against overlay (committed rows/intro confirm). No new facts; figure-free; no modality/superlatives."
+  },
+  {
+    "comparisonId": "patching-vs-full-roof-repair",
+    "kind": "twosided",
+    "definitionA": "**Patching** seals one isolated damaged area on an otherwise sound roof — a few cracked shingles, a small flashing breach, or a nail hole — by repairing that single spot without touching the surrounding roof field. It addresses the visible breach rather than tracing a leak to its underlying cause.",
+    "definitionB": "**Full roof repair** traces a leak to its root cause and corrects every related defect — failed flashing, deteriorated underlayment, and worn seals — across the roof in a single visit rather than sealing one isolated spot. It opens with a diagnostic inspection that locates the defects a patch cannot see.",
+    "notes": "definitionA authored fresh from the object's rows/intro (single isolated damaged area: cracked shingles / flashing breach / nail hole; symptom-only, no root-cause diagnosis); definitionB maps to the 2a roof-repair bank entity (restore weatherproof barrier by correcting related defects) rephrased to the page's \"Full Roof Repair\" label and grounded in the object's \"all related defects in one visit\" + \"root-cause inspection included\" rows. Both figure-free, no modality, entity bolded once at lead."
+  },
+  {
+    "comparisonId": "preventive-maintenance-vs-emergency-repair",
+    "kind": "twosided",
+    "definitionA": "**Preventive Maintenance** is a scheduled cadence of roof inspection, gutter clearing, sealant and flashing checks, and documentation that catches small defects before they leak. It tracks a roof toward its full service life rather than reacting after water enters.",
+    "definitionB": "**Emergency Repair** is the after-hours response to a roof failure already underway — an active leak, a wind-lifted shingle, an ice-dam backup, or a storm breach — that stabilizes the damage before water entry compounds. Its timing is dictated by the failure event, not chosen.",
+    "notes": "Reused 2a bank facts: A from roof-maintenance-programs (recurring inspection, drainage clearing, sealant maintenance, documentation, tracking toward full service life), relabeled to \"Preventive Maintenance\"; B from emergency-roof-repair (active leak / storm-stripped shingles / ice-dam backup, stabilize-before-loss-compounds), relabeled to \"Emergency Repair.\" Flashing-check and the timing-is-forced framing grounded in the committed intro/rows; figure-free, no modality/superlatives."
+  },
+  {
+    "comparisonId": "diy-vs-professional-roof-repair",
+    "kind": "twosided",
+    "definitionA": "**DIY Repair** is roof repair a homeowner performs without a crew, using home-center materials to patch visible damage from a ladder. It covers ground-level tasks like clearing gutters or sealing a surface crack.",
+    "definitionB": "**Professional Repair** is roof repair performed by a registered New Jersey Home Improvement Contractor who carries fall-protection gear and liability insurance. It traces a leak to its root cause and backs the fix with a workmanship warranty.",
+    "notes": "Both sides authored fresh (no 2a bank entity maps); grounded entirely in the committed intro/rows of the object (homeowner-performed home-center patch with no crew; contractor-performed fix by a registered NJ HIC with fall protection, liability insurance, root-cause diagnosis, workmanship warranty). Figure-free, em-dash-counted first sentences = 21 words each, no modality/superlatives, \"registered\" not \"licensed\", bolded leads match the exact heading subjects \"DIY Repair\" / \"Professional Repair\"."
+  },
+  {
+    "comparisonId": "best-roofing-material-nj-weather",
+    "kind": "ranking",
+    "definitionHeading": "What Is the Best Roofing Material for NJ Weather?",
+    "definition": "**The best roofing material for New Jersey weather** is the roof covering whose composition and form best withstand the state's snowfall, rainfall, high design wind, summer heat, and repeated winter freeze-thaw cycling. The comparison weighs each material's durability against those conditions alongside its installed cost.",
+    "notes": "Authored fresh as a category definition grounded in the committed introParagraphs[0/1] climate factors (snowfall, design wind speed, freeze-thaw cycling) and the rows' durability-plus-install-cost weighting; no 2a bank entity maps to the ranking concept itself. First sentence 32 words, figure-free, no modality, no fabricated winner; bolded lead matches the \"What Is the Best Roofing Material for NJ Weather?\" heading subject."
+  },
+  {
+    "comparisonId": "best-commercial-roofing-material",
+    "kind": "ranking",
+    "definitionHeading": "What Is the Best Commercial Roofing Material?",
+    "definition": "**The best commercial roofing material** is the low-slope membrane or metal system best matched to a commercial building's use, slope, and budget — typically a single-ply membrane, multi-ply bituminous system, standing-seam metal, or spray foam. The comparison weighs each option by install cost, lifespan, ponding resistance, and summer cooling demand.",
+    "notes": "First sentence authored fresh (35 words, em-dash counted), grounded in the object's own rows/intro/detailedAnalysis (TPO/EPDM/PVC/modified-bitumen/built-up single-ply and multi-ply, standing-seam metal, spray polyurethane foam) and the four weighing axes it ranks on (install cost, lifespan, ponding/failure modes, cooling demand). Figure-free, no modality, no unanchored superlative; \"best matched\" is a plain category statement, not \"the best roof.\" No bank entity maps to this concept since it is a ranking category, so grounding is entirely from the comparison object."
+  },
+  {
+    "comparisonId": "best-roofing-for-flat-roofs",
+    "kind": "ranking",
+    "definitionHeading": "What Is the Best Roofing for Flat Roofs?",
+    "definition": "**The best roofing for a flat roof** is a continuous, watertight membrane or liquid-applied coating that seals the low-slope deck as one surface, since a flat roof sheds water too slowly to rely on slope alone. The comparison weighs single-ply, multi-ply, and sprayed systems by seam reliability, solar reflectance, ponding-water resistance, service life, and install cost.",
+    "notes": "Authored fresh from the comparison object's own intro/rows (membrane-vs-slope rationale, and the seam/reflectance/ponding/life/cost weighing factors at lines 189-201); no 2a bank entity maps to the page's category concept. Figure-free, no modality, no winner-claim."
+  },
+  {
+    "comparisonId": "best-roofing-for-historic-homes-nj",
+    "kind": "ranking",
+    "definitionHeading": "What Is the Best Roofing for Historic Homes in NJ?",
+    "definition": "**The best roofing for historic homes in NJ** is a period-appropriate covering — natural slate, clay tile, cedar shingle, or historic metal — matched in kind to the home's architectural era and to any local preservation district's review. The comparison weighs each material's authenticity, durability, and fit with the Secretary of the Interior's Standards.",
+    "notes": "Authored fresh, grounded in the committed object: reused the introParagraphs' four ranked in-kind coverings (natural slate, clay tile, cedar shingle, copper/historic metal), the \"in-kind matching to era + period style\" framing, the local preservation-district / Certificate-of-Appropriateness gate (njSpecific), and the Secretary of the Interior's Standards (Standard 6). First sentence 38 words, figure-free, no modality, no unanchored superlative."
+  },
+  {
+    "comparisonId": "cheapest-vs-most-durable-roofing",
+    "kind": "ranking",
+    "definitionHeading": "What Is the Cheapest vs Most Durable Roofing Trade-Off?",
+    "definition": "**The cheapest versus most durable roofing trade-off** weighs a covering with the lowest upfront install cost against one with the longest service life — the decision that splits cheapest to install from cheapest to own. It resolves by dividing a sourced install range across a sourced lifespan to compare cost per year of service.",
+    "notes": "Authored fresh from the committed object: grounded the trade-off in this page's intro/rows and the \"cost per year divides a sourced install range by a sourced lifespan\" section. No 2a bank entity maps to this category concept (it ranks materials), so no bank reuse. Figure-free; first sentence 35 words counting the em-dash token; bolded lead matches heading subject; no modality, no fabricated winner-superlative."
+  },
+  {
+    "comparisonId": "most-energy-efficient-roofing-materials",
+    "kind": "ranking",
+    "definitionHeading": "What Are the Most Energy Efficient Roofing Materials?",
+    "definition": "**The most energy-efficient roofing materials** are roof coverings that lower a building's roof-surface temperature and cooling load through a high-reflectance surface, conductive insulation, or both. This comparison weighs each covering on solar reflectance, thermal emittance, and added insulation value.",
+    "notes": "Authored fresh from the energy-efficient-roofing-solutions bank fact (high-reflectance surface + conductive insulation) plus the page's own two-lever framing (CRRC reflectance/emittance vs SPF R-value) in introParagraphs/rows; figure-free, no modality, no winner-naming. Reused: reflectance+insulation composition. Fresh: ranking-category phrasing and the \"what the comparison weighs\" second sentence."
+  },
+  {
+    "comparisonId": "best-roofing-for-essex-county-colonial-homes",
+    "kind": "ranking",
+    "definitionHeading": "What Is the Best Roofing for Essex County Colonial Homes?",
+    "definition": "**The best roofing for an Essex County Colonial home** is the covering matched to the home's symmetrical roofline and architectural era — architectural asphalt shingles, natural slate, standing seam metal, cedar shingle, synthetic slate, or copper. The comparison weighs install cost, period-correct substyle match, NJ weather durability, and historic-district code against each material.",
+    "notes": "Authored fresh as a ranking-page concept definition. Bolded subject mirrors the heading exactly; reused the six committed materials from the object's comparisonRows (architectural asphalt, natural slate, standing seam metal, cedar shingle, synthetic slate, copper) and the four committed weighing axes (cost, substyle match per NPS Brief 4, NJ weather durability, historic-district code). Figure-free, no modality, no fabricated winner; first sentence 36 tokens counting the em-dash."
+  },
+  {
+    "comparisonId": "roof-warranty-comparison-guide",
+    "kind": "ranking",
+    "definitionHeading": "What Is a Roof Warranty?",
+    "definition": "**A roof warranty** is a written guarantee that covers either factory material defects, issued by the manufacturer, or installation quality, issued by the contractor — distinct in what each one covers, who stands behind it, and how long it lasts. This guide ranks the four warranty structures by the scope of their coverage.",
+    "notes": "Authored fresh. Grounded the central-entity definition in the page's committed introParagraphs and comparisonRows (manufacturer system / material-only / contractor workmanship / commercial NDL); reused the page's own \"covers material defects vs. installation quality\" + \"manufacturer vs. contractor\" + \"scope/duration\" framing. No 2a bank entity maps to \"roof warranty.\" Figure-free, no modality, no unanchored superlative; first sentence = 40 words counting the standalone em-dash token."
+  }
+]
